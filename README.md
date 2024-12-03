@@ -30,17 +30,17 @@ Here is an example:
 
 ## Word locations
 
-To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. Location types and depth vary based on the document. 
+To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. Location types and depths vary based on the document. 
 
 Here are some sample MISC fields from the third word token of various documents.
 
- - Aelius Herodianus: t_3|ref=Περὶ ὀρθογραφίας_1.1.1.1
- - Homeric Hymns: t_3|ref=Hymn 14 to the Mother of the Gods_1
- - Isaeus: t_3|ref=On The Estate of Apollodorus_0
- - New Testament, Matthew: t_3|ref=Matthew_1.1
- - PLato: t_3|ref=Cleitophon_406
- - Plutarch: t_3|ref=Alexander_1.1
- - Themistocles: t_3|ref=Epistulae_1
+ - Aelius Herodianus: "t_3|ref=Περὶ ὀρθογραφίας_1.1.1.1"
+ - Homeric Hymns: "t_3|ref=Hymn 14 to the Mother of the Gods_1"
+ - Isaeus: "t_3|ref=On The Estate of Apollodorus_0"
+ - New Testament: "t_3|ref=Matthew_1.1"
+ - PLato: "t_3|ref=Cleitophon_406"
+ - Plutarch: "t_3|ref=Alexander_1.1"
+ - Themistocles: "t_3|ref=Epistulae_1"
 
 ## Data source
 
