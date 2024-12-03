@@ -25,7 +25,7 @@ Sentence headers are newly added. Each header contains three lines: source, text
  - The second header line contains the full text of the sentence, concatenating each sentence's tokens into a single string. All tokens are included, whether words, punctuation marks, or ellipses (syntactically necessary, yet implicit words). The concatenation generates a human-readable sentence, with the caveat that single space padding separates all tokens.
  - The third header line contains the sequential number of each sentence within the document. These numbers derive from an automated count of all sentences and insertion routine.
 
-In the file, the header fields are structure as follows:
+In the file, the header fields are structured as follows:
 
 \# source = [author], [title] [internal_location_start]-[internal_location_end]  
 \# text = [concatenation of all words and punctuation marks in the sentence]  
