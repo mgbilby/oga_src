@@ -13,11 +13,11 @@ Useability of OGA may pose an issue for  researchers and general users because o
  - different document versions for the progressive stages of morphosyntactical processing
  - several layers of resulting [standoff annotation](https://varro.informatik.uni-leipzig.de/oga/en/standoff_annotation.html)
 
-This adaptation of OGA contains just one file per document, all in a single directory. Each file is in the Universal Dependencies CoNNLu format to facilitate the broadest possible access and ease of use. Embedded in each CoNNLu file are supplemental fields pulled from document-related xml files provided by OGA, described in the next two sections.
+This adaptation of OGA contains just one file per document, all in a single directory. Each file is in the Universal Dependencies CoNNLu format to facilitate the broadest possible access and ease of use. Embedded in each CoNNLu file are supplemental fields pulled from document-related xml files provided by OGA as described in the next two sections.
 
 ## Sentence headers
 
-Sentence headers are added in keeping with typical CoNNLu conventions, containing the following information:
+Sentence headers are added from two xml files in the final document folder and formatted in keeping with typical CoNNLu conventions, containing the following information:
  - "# source = [author], [title] [internal_location_start]-[internal_location_end]"
  - "# text = [concatenation of all words and punctuation marks in the sentence]"
  - "sent_id = [sentence_number_in_document_sequence]"
@@ -30,7 +30,7 @@ Here is an example:
 
 ## Word locations
 
-To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. Location types and depths vary based on the document. 
+To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. The information is pulled from the internal document annotations found in the OGA xml files ending in "tok01_cts01". Internal location types and depths vary based on the document.
 
 Here are some sample adjusted MISC fields that correspond to the third word token (t_3) of a variety of authors and genres.
 | Author | MISC (adjusted) |
