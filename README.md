@@ -19,7 +19,7 @@ This adaptation of OGA contains just one file per document, all in a single dire
 
 Sentence headers are added in keeping with typical conllu conventions, containing the following information:
  - "# source = [author], [title] [internal_location_start]-[internal_location_end]"
- - "# text = [concatenation of all words and punctuation marks in the sentence]
+ - "# text = [concatenation of all words and punctuation marks in the sentence]"
  - "sent_id = [sentence_number_in_document_sequence]"
 
 Here is an example:
