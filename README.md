@@ -32,7 +32,7 @@ Here is an example:
 
 To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. The information is pulled from the internal document annotations found in the OGA xml files ending in "tok01_cts01". Internal location types and depths vary based on the document.
 
-Here are some sample adjusted MISC fields that correspond to the third word token (t_3) of a variety of authors and genres.
+What follows are several adjusted MISC field samples, all representing the third word token (t_3) found in a variety of authors and genres.
 | Author | MISC (adjusted) |
 |------------------|-----------------|
 | Aelius Herodianus    | t_3\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
