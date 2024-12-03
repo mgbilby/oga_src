@@ -13,16 +13,25 @@ Useability of OGA may pose an issue for  researchers and general users because o
  - different document versions for the progressive stages of morphosyntactical processing
  - several layers of resulting [standoff annotation](https://varro.informatik.uni-leipzig.de/oga/en/standoff_annotation.html)
 
-This adaptation of OGA contains just one file per document, all in a single directory. Each file is in the Universal Dependencies CoNNLu format to facilitate the broadest possible access and ease of use. Embedded in each CoNNLu file are supplemental fields pulled from document-related xml files provided by OGA as described in the next two sections.
+This adaptation of OGA contains just one file per document, all located in a single directory. Each file is in the Universal Dependencies CoNNLu format. This format and simple repository organization facilitates the broadest possible access and ease of use. 
+
+Embedded in each CoNNLu file are supplemental fields extracted and built from document-related xml files provided by OGA as described in the next two sections.
 
 ## Sentence headers
 
-Sentence headers are added from two xml files in the final document folder and formatted in keeping with typical CoNNLu conventions, containing the following information:
- - "# source = [author], [title] [internal_location_start]-[internal_location_end]"
- - "# text = [concatenation of all words and punctuation marks in the sentence]"
- - "sent_id = [sentence_number_in_document_sequence]"
+Sentence headers are newly added. Each header contains three lines: source, text, and sent_id.
 
-Here is an example:
+ - The first header line represents the document source, including the author (extracted from anno_author.xml), title (extracted from anno.title.xml), and an automatically calculated internal document location or range. The latter derives from the adjusted word token MISC fields.
+ - The second header line contains the full text of the sentence, concatenating each sentence's tokens into a single string. All tokens are included, whether words, punctuation marks, or ellipses (syntactically necessary, yet implicit words). The concatenation generates a human-readable sentence, with the caveat that single space padding separates all tokens.
+ - The third header line contains the sequential number of each sentence within the document. These numbers derive from an automated count of all sentences and insertion routine.
+
+In the file, the header fields 
+
+"# source = [author], [title] [internal_location_start]-[internal_location_end]"
+"# text = [concatenation of all words and punctuation marks in the sentence]"
+"# sent_id = [sentence_number_in_document_sequence]"
+
+A sample sentence header follows:
 
  - "# source = Plutarch, De Heroditi malignate 1"
  - "# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·"
@@ -32,16 +41,17 @@ Here is an example:
 
 To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. The information is pulled from the internal document annotations found in the OGA xml files ending in "tok01_cts01". Internal location types and depths vary based on the document.
 
-What follows are several adjusted MISC field samples, all representing the third word token (t_3) found in a variety of authors and genres.
-| Author | MISC (adjusted) |
+What follows are several out-of-the-box and adjusted MISC field samples, all representing the third word token (t_3) found in a variety of authors and genres.
+
+| Author | MISC (standard) | MISC (adjusted) |
 |------------------|-----------------|
-| Aelius Herodianus    | t_3\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
-| Homeric Hymns    | t_3\|ref=Hymn 14 to the Mother of the Gods_1    |
-| Isaeus    | t_3\|ref=On The Estate of Apollodorus_0    |
-| New Testament    | t_3\|ref=Matthew_1.1    |
-| Plato    | t_3\|ref=Cleitophon_406    |
-| Plutarch    | t_3\|ref=Alexander_1.1    |
-| Themistocles    | t_3\|ref=Epistulae_1    |
+| Aelius Herodianus   | t_3 | t_3\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
+| Homeric Hymns   | t_3 | t_3\|ref=Hymn 14 to the Mother of the Gods_1    |
+| Isaeus   | t_3 | t_3\|ref=On The Estate of Apollodorus_0    |
+| New Testament   | t_3 | t_3\|ref=Matthew_1.1    |
+| Plato   | t_3 | t_3\|ref=Cleitophon_406    |
+| Plutarch   | t_3 | t_3\|ref=Alexander_1.1    |
+| Themistocles   | t_3 | t_3\|ref=Epistulae_1    |
 
 
 ## Data sources
