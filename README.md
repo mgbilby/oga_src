@@ -46,13 +46,13 @@ What follows are several adjusted MISC field samples, all representing the third
 
 ## Data sources
 
-Version 0.2.0 of the Opera Graeca Adnotata, curated by Giuseppe Celano at the University of Leipzig, was archived on November 24, 2024 on [Zenodo]( https://doi.org/10.5281/zenodo.14206061). 
+Version 0.2.0 of the Opera Graeca Adnotata, curated by Giuseppe Celano at the University of Leipzig, was archived at [Zenodo]( https://doi.org/10.5281/zenodo.14206061) on 2024-11-24, and is the sole source of the data used in this repository. 
 
-The OGA corpus annotates 40M+ base tokens and 1999 base texts/files. These files were in turn derived from several major corpora of digital editions of classical Greek texts, such as the Perseus Project (Tufts University) and related First1KGreek project (Mount Allison University, Tufts University, University of Leipzig, University of Virginia), along with the Thesaurus Linguae Graecae (University of California, Irvine) and the Patristic Text Archive (Berlin-Brandenburg Academy of Sciences and Humanities).
+The OGA corpus v0.2.0 contains annotations of 40M+ base tokens and 1999 base texts/files. These files were in turn derived from several major corpora of digital editions of classical Greek texts, especially the Perseus Project (Tufts University) and closely connected First1KGreek project (Mount Allison University, Tufts University, University of Leipzig, University of Virginia), along with the Thesaurus Linguae Graecae (University of California, Irvine) and the Patristic Text Archive (Berlin-Brandenburg Academy of Sciences and Humanities).
 
-OGA annotation includes morphosyntactical features based on the [Ancient Greek Dependency Treebank, or AGDT](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md), as well as data (sometimes provisional) pertaining to authorship and likely date or date range of  composition.
+OGA annotation includes morphosyntactical features based on the [Ancient Greek Dependency Treebank, or AGDT](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md), as well as data (sometimes provisional) pertaining to authorship and likely date or date range of composition.
 
-Elsewhere I have archived a [simple comparison of OGA documents and GLAUx documents](https://doi.org/10.5281/zenodo.14254072), which shows at a glance which documents are unique to OGA, which are unique to GLAUx, and which texts overlap between the two.
+Elsewhere I have archived a [simple comparison of documents in the OGA and GLAUx coropra](https://doi.org/10.5281/zenodo.14254072), which shows at a glance which documents are unique to OGA, which are unique to GLAUx, and which texts overlap between the two.
 
 ## Citation
 
