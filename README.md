@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository contains a simplified version and value-added adaptation of the Opera Graeca Adnotata (hereafter, OGA). The OGA corpus used here is version 0.2.0 (released 2024-11-24).
+This repository contains a simplified version and value-added adaptation of the Opera Graeca Adnotata (hereafter, OGA). The OGA corpus version used here is v0.2.0, released 2024-11-24.
 
 Useability of OGA may pose an issue for  researchers and general users because of:
  - the size of the [corpus on Zenodo](https://doi.org/10.5281/zenodo.14206061) (8.6 GB zipped)
