@@ -34,6 +34,7 @@ To the last or rightmost field for each word token, which is called the "MISC" f
 
 Here are some sample MISC fields from the third word token of various documents.
 
+ - Aelius Herodianus: t_3|ref=Περὶ ὀρθογραφίας_1.1.1.1
  - Homeric Hymns: t_3|ref=Hymn 14 to the Mother of the Gods_1
  - Isaeus: t_3|ref=On The Estate of Apollodorus_0
  - New Testament, Matthew: t_3|ref=Matthew_1.1
