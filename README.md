@@ -39,7 +39,7 @@ Here are some sample adjusted MISC fields that correspond to the third word toke
 | Homeric Hymns    | t_3\|ref=Hymn 14 to the Mother of the Gods_1    |
 | Isaeus    | t_3\|ref=On The Estate of Apollodorus_0    |
 | New Testament    | t_3\|ref=Matthew_1.1    |
-| PLato    | t_3\|ref=Cleitophon_406    |
+| Plato    | t_3\|ref=Cleitophon_406    |
 | Plutarch    | t_3\|ref=Alexander_1.1    |
 | Themistocles    | t_3\|ref=Epistulae_1    |
 
