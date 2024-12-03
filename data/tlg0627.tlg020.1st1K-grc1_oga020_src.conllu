@@ -1,0 +1,2053 @@
+# source = Hippocrates, De salubri diaeta 1
+# text = ΠΕΡΙ ΔΙΑΙΤΗΣ ΥΓΙΕΙΝΗΣ .
+# sent_id = 1
+1	ΠΕΡΙ	περί	a	a-s---mn-	Case=n|Gender=m|Number=s	2	APOS	_	t_1|ref=De salubri diaeta_1
+2	ΔΙΑΙΤΗΣ	διαιτα	a	a-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_2|ref=De salubri diaeta_1
+3	ΥΓΙΕΙΝΗΣ	υγιεινησ	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_3|ref=De salubri diaeta_1
+4	.	.	u	u--------	_	2	AuxK	_	t_4|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = 1 .
+# sent_id = 2
+1	1	1	u	u--------	_	0	AuxG	_	t_5|ref=De salubri diaeta_1
+2	.	.	u	u--------	_	1	AuxK	_	t_6|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = Τοὺς ἰδιώτας ὧδε χρὴ διαιτᾶσθαι ·
+# sent_id = 3
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_7|ref=De salubri diaeta_1
+2	ἰδιώτας	ἰδιώτης	n	n-p---ma-	Case=a|Gender=m|Number=p	5	SBJ	_	t_8|ref=De salubri diaeta_1
+3	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_9|ref=De salubri diaeta_1
+4	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_10|ref=De salubri diaeta_1
+5	διαιτᾶσθαι	διαιτάω	v	v--pne---	Mood=n|Tense=p|Voice=e	4	SBJ	_	t_11|ref=De salubri diaeta_1
+6	·	·	u	u--------	_	4	AuxK	_	t_12|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = τοῦ μὲν χειμῶνος ἐσθίειν ὡς πλεῖστα , πίνειν δʼ ὡς ἐλάχιστα , εἶναι δὲ τὸ πόμα οἶνον ὡς ἀκρητέστατον , τὰ δὲ σιτία ἄρτον καὶ τὰ ὄψα ὀπτὰ πάντα , λαχάνοισι δὲ ὡς ἐλαχίστοισι χρέεσθαι κατὰ ταύτην τὴν ὥρην [0] [1] [2] ·
+# sent_id = 4
+1	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_13|ref=De salubri diaeta_1
+2	μὲν	μέν	d	d--------	_	32	AuxY	_	t_14|ref=De salubri diaeta_1
+3	χειμῶνος	χειμών	n	n-s---mg-	Case=g|Gender=m|Number=s	4	OBJ	_	t_15|ref=De salubri diaeta_1
+4	ἐσθίειν	ἐσθίω	v	v--pna---	Mood=n|Tense=p|Voice=a	32	OBJ	_	t_16|ref=De salubri diaeta_1
+5	ὡς	ὡς	d	d--------	_	6	AuxZ	_	t_17|ref=De salubri diaeta_1
+6	πλεῖστα	πλεῖστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	4	ADV	_	t_18|ref=De salubri diaeta_1
+7	,	,	u	u--------	_	40	AuxX	_	t_19|ref=De salubri diaeta_1
+8	πίνειν	πίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	41	SBJ	_	t_20|ref=De salubri diaeta_1
+9	δʼ	δέ	d	d--------	_	32	AuxY	_	t_21|ref=De salubri diaeta_1
+10	ὡς	ὡς	d	d--------	_	11	AuxZ	_	t_22|ref=De salubri diaeta_1
+11	ἐλάχιστα	ἐλάχιστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	8	ADV	_	t_23|ref=De salubri diaeta_1
+12	,	,	u	u--------	_	40	AuxX	_	t_24|ref=De salubri diaeta_1
+13	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	32	OBJ	_	t_25|ref=De salubri diaeta_1
+14	δὲ	δέ	d	d--------	_	32	AuxY	_	t_26|ref=De salubri diaeta_1
+15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_27|ref=De salubri diaeta_1
+16	πόμα	πόμα	n	n-s---na-	Case=a|Gender=n|Number=s	13	SBJ	_	t_28|ref=De salubri diaeta_1
+17	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	PNOM	_	t_29|ref=De salubri diaeta_1
+18	ὡς	ὡς	d	d--------	_	19	AuxZ	_	t_30|ref=De salubri diaeta_1
+19	ἀκρητέστατον	ἀκρητέστατος	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	17	ATR	_	t_31|ref=De salubri diaeta_1
+20	,	,	u	u--------	_	40	AuxX	_	t_32|ref=De salubri diaeta_1
+21	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_33|ref=De salubri diaeta_1
+22	δὲ	δέ	d	d--------	_	32	AuxY	_	t_34|ref=De salubri diaeta_1
+23	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	25	SBJ	_	t_35|ref=De salubri diaeta_1
+24	ἄρτον	ἄρτος	n	n-s---ma-	Case=a|Gender=m|Number=s	25	SBJ	_	t_36|ref=De salubri diaeta_1
+25	καὶ	καί	c	c--------	_	42	COORD	_	t_37|ref=De salubri diaeta_1
+26	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_38|ref=De salubri diaeta_1
+27	ὄψα	ὄψον	n	n-p---na-	Case=a|Gender=n|Number=p	25	ADV	_	t_39|ref=De salubri diaeta_1
+28	ὀπτὰ	ὀπτός	a	a-p---na-	Case=a|Gender=n|Number=p	42	PNOM	_	t_40|ref=De salubri diaeta_1
+29	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_41|ref=De salubri diaeta_1
+30	,	,	u	u--------	_	40	AuxX	_	t_42|ref=De salubri diaeta_1
+31	λαχάνοισι	λάχανον	n	n-p---nd-	Case=d|Gender=n|Number=p	35	OBJ	_	t_43|ref=De salubri diaeta_1
+32	δὲ	δέ	d	d--------	_	40	COORD	_	t_44|ref=De salubri diaeta_1
+33	ὡς	ὡς	d	d--------	_	34	AuxZ	_	t_45|ref=De salubri diaeta_1
+34	ἐλαχίστοισι	ἐλάχιστος	a	a-p---md-	Case=d|Gender=n|Number=p	31	ATR	_	t_46|ref=De salubri diaeta_1
+35	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	32	OBJ	_	t_47|ref=De salubri diaeta_1
+36	κατὰ	κατά	r	r--------	_	35	AuxP	_	t_48|ref=De salubri diaeta_1
+37	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	39	ATR	_	t_49|ref=De salubri diaeta_1
+38	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	39	ATR	_	t_50|ref=De salubri diaeta_1
+39	ὥρην	ὥρα	n	n-s---fa-	Case=a|Gender=f|Number=s	36	ADV	_	t_51|ref=De salubri diaeta_1
+40	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=De salubri diaeta_1
+41	[1]	[1]	-	---------	_	32	OBJ	_	e_2|ref=De salubri diaeta_1
+42	[2]	[2]	-	---------	_	32	OBJ	_	e_3|ref=De salubri diaeta_1
+43	·	·	u	u--------	_	40	AuxK	_	t_52|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = οὕτω γὰρ ἂν μάλιστα τὸ σῶμα ξηρόν τε εἴη καὶ θερμόν .
+# sent_id = 5
+1	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_53|ref=De salubri diaeta_1
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_54|ref=De salubri diaeta_1
+3	ἂν	ἄν	d	d--------	_	9	AuxY	_	t_55|ref=De salubri diaeta_1
+4	μάλιστα	μάλιστα	d	d-------s	Degree=s	9	ADV	_	t_56|ref=De salubri diaeta_1
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_57|ref=De salubri diaeta_1
+6	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_58|ref=De salubri diaeta_1
+7	ξηρόν	ξηρός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_59|ref=De salubri diaeta_1
+8	τε	τε	d	d--------	_	10	AuxY	_	t_60|ref=De salubri diaeta_1
+9	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_61|ref=De salubri diaeta_1
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_62|ref=De salubri diaeta_1
+11	θερμόν	θερμός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_63|ref=De salubri diaeta_1
+12	.	.	u	u--------	_	9	AuxK	_	t_64|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = Ὁκόταν δὲ τὸ ἔαρ ἐπιλαμβάνῃ , τότε χρὴ πόμα πλέον πίνειν οἶνον ὑδαρέστερον καὶ κατʼ ὀλίγον , καὶ τοῖσι σιτίοισι μαλακωτέροισι χρέεσθαι καὶ ἐλάσσοσι , καὶ τὸν ἄρτον ἀφαιρέοντα μάζαν προστιθέναι , καὶ τὰ ὄψα κατὰ τὸν αὐτὸν λόγον ἀφαιρέειν , καὶ ἐκ τῶν ὀπτῶν πάντα ἑφθὰ ποιέεσθαι , καὶ λαχάνοισιν ἤδη χρέεσθαι τοῦ ἦρος ὀλίγοισιν , ὅκως ἐς τὴν θερίην καταστήσεται ὥνθρωπος τοῖσί τε σιτίοισι μαλακωτέροισι χρεόμενος καὶ τοῖσιν ὄψοισιν ἑφθοῖσι καὶ λαχάνοισιν ἑφθοῖσι καὶ ὠμοῖσιν ·
+# sent_id = 6
+1	Ὁκόταν	ὁπόταν	c	c--------	_	5	ADV	_	t_65|ref=De salubri diaeta_1
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_66|ref=De salubri diaeta_1
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_67|ref=De salubri diaeta_1
+4	ἔαρ	ἔαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_68|ref=De salubri diaeta_1
+5	ἐπιλαμβάνῃ	ἐπιλαμβάνω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	11	ADV	_	t_69|ref=De salubri diaeta_1
+6	,	,	u	u--------	_	8	AuxX	_	t_70|ref=De salubri diaeta_1
+7	τότε	τότε	d	d--------	_	8	ADV	_	t_71|ref=De salubri diaeta_1
+8	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_72|ref=De salubri diaeta_1
+9	πόμα	πόμα	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_73|ref=De salubri diaeta_1
+10	πλέον	πλέος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_74|ref=De salubri diaeta_1
+11	πίνειν	πίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	50	SBJ	_	t_75|ref=De salubri diaeta_1
+12	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_76|ref=De salubri diaeta_1
+13	ὑδαρέστερον	ὑδαρής	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	14	ATR	_	t_77|ref=De salubri diaeta_1
+14	καὶ	καί	c	c--------	_	12	COORD	_	t_78|ref=De salubri diaeta_1
+15	κατʼ	κατά	r	r--------	_	14	AuxP	_	t_79|ref=De salubri diaeta_1
+16	ὀλίγον	ὀλίγος	a	a-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_80|ref=De salubri diaeta_1
+17	,	,	u	u--------	_	8	AuxX	_	t_81|ref=De salubri diaeta_1
+18	καὶ	καί	c	c--------	_	50	AuxY	_	t_82|ref=De salubri diaeta_1
+19	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	20	ATR	_	t_83|ref=De salubri diaeta_1
+20	σιτίοισι	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	22	OBJ	_	t_84|ref=De salubri diaeta_1
+21	μαλακωτέροισι	μαλακός	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	23	ATR	_	t_85|ref=De salubri diaeta_1
+22	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	50	SBJ	_	t_86|ref=De salubri diaeta_1
+23	καὶ	καί	c	c--------	_	20	COORD	_	t_87|ref=De salubri diaeta_1
+24	ἐλάσσοσι	ἐλάσσων	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	23	ATR	_	t_88|ref=De salubri diaeta_1
+25	,	,	u	u--------	_	8	AuxX	_	t_89|ref=De salubri diaeta_1
+26	καὶ	καί	c	c--------	_	50	AuxY	_	t_90|ref=De salubri diaeta_1
+27	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	28	ATR	_	t_91|ref=De salubri diaeta_1
+28	ἄρτον	ἄρτος	n	n-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_92|ref=De salubri diaeta_1
+29	ἀφαιρέοντα	ἀφαιρέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	31	ADV	_	t_93|ref=De salubri diaeta_1
+30	μάζαν	μᾶζα	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_94|ref=De salubri diaeta_1
+31	προστιθέναι	προστίθημι	v	v--pna---	Mood=n|Tense=p|Voice=a	50	SBJ	_	t_95|ref=De salubri diaeta_1
+32	,	,	u	u--------	_	8	AuxX	_	t_96|ref=De salubri diaeta_1
+33	καὶ	καί	c	c--------	_	50	AuxY	_	t_97|ref=De salubri diaeta_1
+34	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	35	ATR	_	t_98|ref=De salubri diaeta_1
+35	ὄψα	ὄψον	n	n-p---na-	Case=a|Gender=n|Number=p	40	OBJ	_	t_99|ref=De salubri diaeta_1
+36	κατὰ	κατά	r	r--------	_	40	AuxP	_	t_100|ref=De salubri diaeta_1
+37	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	39	ATR	_	t_101|ref=De salubri diaeta_1
+38	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	39	ATR	_	t_102|ref=De salubri diaeta_1
+39	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	36	ADV	_	t_103|ref=De salubri diaeta_1
+40	ἀφαιρέειν	ἀφαιρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	50	SBJ	_	t_104|ref=De salubri diaeta_1
+41	,	,	u	u--------	_	8	AuxX	_	t_105|ref=De salubri diaeta_1
+42	καὶ	καί	c	c--------	_	50	AuxY	_	t_106|ref=De salubri diaeta_1
+43	ἐκ	ἐκ	r	r--------	_	48	AuxP	_	t_107|ref=De salubri diaeta_1
+44	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	45	ATR	_	t_108|ref=De salubri diaeta_1
+45	ὀπτῶν	ὀπτός	a	a-p---ng-	Case=g|Gender=f|Number=p	43	ADV	_	t_109|ref=De salubri diaeta_1
+46	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	48	OBJ	_	t_110|ref=De salubri diaeta_1
+47	ἑφθὰ	ἑφθός	a	a-p---na-	Case=a|Gender=n|Number=p	48	OCOMP	_	t_111|ref=De salubri diaeta_1
+48	ποιέεσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	50	SBJ	_	t_112|ref=De salubri diaeta_1
+49	,	,	u	u--------	_	8	AuxX	_	t_113|ref=De salubri diaeta_1
+50	καὶ	καί	c	c--------	_	8	COORD	_	t_114|ref=De salubri diaeta_1
+51	λαχάνοισιν	λάχανον	n	n-p---nd-	Case=d|Gender=n|Number=p	53	OBJ	_	t_115|ref=De salubri diaeta_1
+52	ἤδη	ἤδη	d	d--------	_	53	ADV	_	t_116|ref=De salubri diaeta_1
+53	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	50	SBJ	_	t_117|ref=De salubri diaeta_1
+54	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	55	ATR	_	t_118|ref=De salubri diaeta_1
+55	ἦρος	ἔαρ	n	n-s---ng-	Case=g|Gender=n|Number=s	53	ADV	_	t_119|ref=De salubri diaeta_1
+56	ὀλίγοισιν	ὀλίγος	a	a-p---nd-	Case=d|Gender=n|Number=p	51	ATR	_	t_120|ref=De salubri diaeta_1
+57	,	,	u	u--------	_	8	AuxX	_	t_121|ref=De salubri diaeta_1
+58	ὅκως	ὅπως	c	c--------	_	53	AuxC	_	t_122|ref=De salubri diaeta_1
+59	ἐς	εἰς	r	r--------	_	62	AuxP	_	t_123|ref=De salubri diaeta_1
+60	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	61	ATR	_	t_124|ref=De salubri diaeta_1
+61	θερίην	θέρος	n	n-s---fa-	Case=a|Gender=f|Number=s	59	ADV	_	t_125|ref=De salubri diaeta_1
+62	καταστήσεται	καθίστημι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	58	ADV	_	t_126|ref=De salubri diaeta_1
+63	ὥνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	62	SBJ	_	t_127|ref=De salubri diaeta_1
+64	τοῖσί	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	66	ATR	_	t_128|ref=De salubri diaeta_1
+65	τε	τε	c	c--------	_	69	AuxY	_	t_129|ref=De salubri diaeta_1
+66	σιτίοισι	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	69	OBJ	_	t_130|ref=De salubri diaeta_1
+67	μαλακωτέροισι	μαλακός	a	a-p---nd-	Case=d|Degree=c|Gender=m|Number=p	66	ATR	_	t_131|ref=De salubri diaeta_1
+68	χρεόμενος	χράομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	62	ADV	_	t_132|ref=De salubri diaeta_1
+69	καὶ	καί	c	c--------	_	62	COORD	_	t_133|ref=De salubri diaeta_1
+70	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	71	ATR	_	t_134|ref=De salubri diaeta_1
+71	ὄψοισιν	ὄψον	n	n-p---nd-	Case=d|Gender=n|Number=p	69	ADV	_	t_135|ref=De salubri diaeta_1
+72	ἑφθοῖσι	ἑφθός	a	a-p---nd-	Case=d|Gender=n|Number=p	76	ATR	_	t_136|ref=De salubri diaeta_1
+73	καὶ	καί	c	c--------	_	71	COORD	_	t_137|ref=De salubri diaeta_1
+74	λαχάνοισιν	λάχανον	n	n-p---nd-	Case=d|Gender=n|Number=p	69	ADV	_	t_138|ref=De salubri diaeta_1
+75	ἑφθοῖσι	ἑφθός	a	a-p---nd-	Case=d|Gender=n|Number=p	76	ATR	_	t_139|ref=De salubri diaeta_1
+76	καὶ	καί	c	c--------	_	74	COORD	_	t_140|ref=De salubri diaeta_1
+77	ὠμοῖσιν	ὠμός	a	a-p---nd-	Case=d|Gender=n|Number=p	76	ATR	_	t_141|ref=De salubri diaeta_1
+78	·	·	u	u--------	_	8	AuxK	_	t_142|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = ὡσαύτως καὶ τοῖσι πόμασιν , ὡς ὑδαρεστάτοισι καὶ πλείστοισιν , ἀλλ ’ ὅκως μὴ μεγάλη ἡ μεταβολὴ ἔσται κατὰ μικρὸν μὴ ἐξαπίνης χρεομένῳ [0] [1] .
+# sent_id = 7
+1	ὡσαύτως	ὡσαύτως	d	d--------	_	24	ADV	_	t_143|ref=De salubri diaeta_1
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_144|ref=De salubri diaeta_1
+3	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_145|ref=De salubri diaeta_1
+4	πόμασιν	ποτόν	n	n-p---nd-	Case=d|Gender=n|Number=p	24	ADV	_	t_146|ref=De salubri diaeta_1
+5	,	,	u	u--------	_	24	AuxX	_	t_147|ref=De salubri diaeta_1
+6	ὡς	ὡς	c	c--------	_	24	AuxC	_	t_148|ref=De salubri diaeta_1
+7	ὑδαρεστάτοισι	ὑδαρής	a	a-p---nd-	Case=d|Degree=s|Gender=m|Number=p	8	PNOM	_	t_149|ref=De salubri diaeta_1
+8	καὶ	καί	c	c--------	_	25	COORD	_	t_150|ref=De salubri diaeta_1
+9	πλείστοισιν	πλεῖστος	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_151|ref=De salubri diaeta_1
+10	,	,	u	u--------	_	24	AuxX	_	t_152|ref=De salubri diaeta_1
+11	ἀλλ	ἀλλά	c	c--------	_	24	AuxY	_	t_153|ref=De salubri diaeta_1
+12	’	’	c	c--------	_	24	COORD	_	t_154|ref=De salubri diaeta_1
+13	ὅκως	ὅπως	c	c--------	_	24	AuxC	_	t_155|ref=De salubri diaeta_1
+14	μὴ	μή	d	d--------	_	18	AuxZ	_	t_156|ref=De salubri diaeta_1
+15	μεγάλη	μέγας	a	a-s---fn-	Case=n|Gender=f|Number=s	18	PNOM	_	t_157|ref=De salubri diaeta_1
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_158|ref=De salubri diaeta_1
+17	μεταβολὴ	μεταβολή	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_159|ref=De salubri diaeta_1
+18	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	13	ADV	_	t_160|ref=De salubri diaeta_1
+19	κατὰ	κατά	r	r--------	_	18	AuxP	_	t_161|ref=De salubri diaeta_1
+20	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_162|ref=De salubri diaeta_1
+21	μὴ	μή	d	d--------	_	23	AuxZ	_	t_163|ref=De salubri diaeta_1
+22	ἐξαπίνης	ἐξαπίνης	d	d--------	_	23	ADV	_	t_164|ref=De salubri diaeta_1
+23	χρεομένῳ	χράομαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_165|ref=De salubri diaeta_1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=De salubri diaeta_1
+25	[1]	[1]	-	---------	_	6	ADV	_	e_5|ref=De salubri diaeta_1
+26	.	.	u	u--------	_	24	AuxK	_	t_166|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = Τοῦ δὲ θέρεος τῇ τε μάζῃ μαλακῇ τρέφεσθαι καὶ τῷ ποτῷ ὑδαρέϊ καὶ πολλῷ καὶ τοῖσιν ὄψοισι πᾶσιν ἑφθοῖσιν [0] ·
+# sent_id = 8
+1	Τοῦ	ὁ	p	p-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_167|ref=De salubri diaeta_1
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_168|ref=De salubri diaeta_1
+3	θέρεος	θέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_169|ref=De salubri diaeta_1
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_170|ref=De salubri diaeta_1
+5	τε	τε	g	g--------	_	15	AuxY	_	t_171|ref=De salubri diaeta_1
+6	μάζῃ	μᾶζα	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_172|ref=De salubri diaeta_1
+7	μαλακῇ	μαλακός	a	a-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_173|ref=De salubri diaeta_1
+8	τρέφεσθαι	τρέφω	v	v--pne---	Mood=n|Tense=p|Voice=e	20	OBJ	_	t_174|ref=De salubri diaeta_1
+9	καὶ	καί	c	c--------	_	15	AuxY	_	t_175|ref=De salubri diaeta_1
+10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_176|ref=De salubri diaeta_1
+11	ποτῷ	ποτόν	n	n-s---nd-	Case=d|Gender=n|Number=s	15	OBJ	_	t_177|ref=De salubri diaeta_1
+12	ὑδαρέϊ	ὑδαρής	a	a-s---nd-	Case=d|Gender=n|Number=s	13	ATR	_	t_178|ref=De salubri diaeta_1
+13	καὶ	καί	c	c--------	_	11	COORD	_	t_179|ref=De salubri diaeta_1
+14	πολλῷ	πολύς	a	a-s---nd-	Case=d|Gender=n|Number=s	13	ATR	_	t_180|ref=De salubri diaeta_1
+15	καὶ	καί	c	c--------	_	8	COORD	_	t_181|ref=De salubri diaeta_1
+16	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	17	ATR	_	t_182|ref=De salubri diaeta_1
+17	ὄψοισι	ὄψον	n	n-p---nd-	Case=d|Gender=n|Number=p	15	ADV	_	t_183|ref=De salubri diaeta_1
+18	πᾶσιν	πᾶς	a	a-p---nd-	Case=d|Gender=n|Number=p	17	ATR	_	t_184|ref=De salubri diaeta_1
+19	ἑφθοῖσιν	ἑφθός	a	a-p---nd-	Case=d|Gender=n|Number=p	17	ATR	_	t_185|ref=De salubri diaeta_1
+20	[0]	[0]	-	---------	_	2	PRED	_	e_6|ref=De salubri diaeta_1
+21	·	·	u	u--------	_	2	AuxK	_	t_186|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = δεῖ γὰρ χρέεσθαι τουτέοισιν , ὁκόταν τὸ θέρος ᾖ , ὅκως ψυχρὸν ᾖ τὸ σῶμα καὶ μαλακόν ·
+# sent_id = 9
+1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_187|ref=De salubri diaeta_1
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_188|ref=De salubri diaeta_1
+3	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	1	SBJ	_	t_189|ref=De salubri diaeta_1
+4	τουτέοισιν	οὗτος	a	a-p---nd-	Case=d|Gender=n|Number=p	3	OBJ	_	t_190|ref=De salubri diaeta_1
+5	,	,	u	u--------	_	6	AuxX	_	t_191|ref=De salubri diaeta_1
+6	ὁκόταν	ὁπόταν	c	c--------	_	3	AuxC	_	t_192|ref=De salubri diaeta_1
+7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_193|ref=De salubri diaeta_1
+8	θέρος	θέρος	n	n-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_194|ref=De salubri diaeta_1
+9	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	6	ADV	_	t_195|ref=De salubri diaeta_1
+10	,	,	u	u--------	_	11	AuxX	_	t_196|ref=De salubri diaeta_1
+11	ὅκως	ὅπως	c	c--------	_	3	AuxC	_	t_197|ref=De salubri diaeta_1
+12	ψυχρὸν	ψυχρός	a	a-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_198|ref=De salubri diaeta_1
+13	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	11	ADV	_	t_199|ref=De salubri diaeta_1
+14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_200|ref=De salubri diaeta_1
+15	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_201|ref=De salubri diaeta_1
+16	καὶ	καί	c	c--------	_	13	COORD	_	t_202|ref=De salubri diaeta_1
+17	μαλακόν	μαλακός	a	a-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_203|ref=De salubri diaeta_1
+18	·	·	u	u--------	_	1	AuxK	_	t_204|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = καὶ γὰρ ἡ ὥρη θερμή τε καὶ ξηρὴ , καὶ ποιέει τὰ σώματα καυματώδεα καὶ αὐχμηρά [0] ·
+# sent_id = 10
+1	καὶ	καί	d	d--------	_	10	AuxY	_	t_205|ref=De salubri diaeta_1
+2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_206|ref=De salubri diaeta_1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_207|ref=De salubri diaeta_1
+4	ὥρη	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_208|ref=De salubri diaeta_1
+5	θερμή	θερμός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_209|ref=De salubri diaeta_1
+6	τε	τε	c	c--------	_	7	AuxY	_	t_210|ref=De salubri diaeta_1
+7	καὶ	καί	c	c--------	_	17	COORD	_	t_211|ref=De salubri diaeta_1
+8	ξηρὴ	ξηρός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_212|ref=De salubri diaeta_1
+9	,	,	u	u--------	_	0	AuxX	_	t_213|ref=De salubri diaeta_1
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_214|ref=De salubri diaeta_1
+11	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_215|ref=De salubri diaeta_1
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_216|ref=De salubri diaeta_1
+13	σώματα	σῶμα	n	n-p---nn-	Case=a|Gender=n|Number=p	11	OBJ	_	t_217|ref=De salubri diaeta_1
+14	καυματώδεα	καυματώδης	a	a-p---nn-	Case=a|Gender=n|Number=p	15	OCOMP	_	t_218|ref=De salubri diaeta_1
+15	καὶ	καί	c	c--------	_	11	COORD	_	t_219|ref=De salubri diaeta_1
+16	αὐχμηρά	αὐχμηρός	a	a-p---na-	Case=a|Gender=n|Number=p	15	OCOMP	_	t_220|ref=De salubri diaeta_1
+17	[0]	[0]	-	---------	_	10	PRED	_	e_7|ref=De salubri diaeta_1
+18	·	·	u	u--------	_	9	AuxK	_	t_221|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = δεῖ οὖν τοῖσιν ἐπιτηδεύμασι τουτέοισιν ἀλέξασθαι .
+# sent_id = 11
+1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_222|ref=De salubri diaeta_1
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_223|ref=De salubri diaeta_1
+3	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_224|ref=De salubri diaeta_1
+4	ἐπιτηδεύμασι	ἐπιτήδευμα	n	n-p---nd-	Case=d|Gender=n|Number=p	6	OBJ	_	t_225|ref=De salubri diaeta_1
+5	τουτέοισιν	οὗτος	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_226|ref=De salubri diaeta_1
+6	ἀλέξασθαι	ἀλέξω	v	v--anm---	Mood=n|Tense=a|Voice=m	1	SBJ	_	t_227|ref=De salubri diaeta_1
+7	.	.	u	u--------	_	1	AuxK	_	t_228|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = Κατὰ δὲ τὸν αὐτὸν λόγον , ὥσπερ ἐκ τοῦ χειμῶνος ἐς τὸ ἦρ , οὕτω καὶ ἐκ τοῦ ἦρος ἐς τὸ θέρος καταστήσεται , τῶν μὲν σιτίων ἀφαιρέων , τῷ δὲ ποτῷ προστιθείς [0] [1] ·
+# sent_id = 12
+1	Κατὰ	κατά	r	r--------	_	23	AuxP	_	t_229|ref=De salubri diaeta_1
+2	δὲ	δέ	d	d--------	_	23	AuxY	_	t_230|ref=De salubri diaeta_1
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_231|ref=De salubri diaeta_1
+4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_232|ref=De salubri diaeta_1
+5	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_233|ref=De salubri diaeta_1
+6	,	,	u	u--------	_	23	AuxX	_	t_234|ref=De salubri diaeta_1
+7	ὥσπερ	ὥσπερ	c	c--------	_	15	AuxC	_	t_235|ref=De salubri diaeta_1
+8	ἐκ	ἐκ	r	r--------	_	34	AuxP	_	t_236|ref=De salubri diaeta_1
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_237|ref=De salubri diaeta_1
+10	χειμῶνος	χειμών	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_238|ref=De salubri diaeta_1
+11	ἐς	εἰς	r	r--------	_	34	AuxP	_	t_239|ref=De salubri diaeta_1
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_240|ref=De salubri diaeta_1
+13	ἦρ	ἦρ	n	n-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_241|ref=De salubri diaeta_1
+14	,	,	u	u--------	_	23	AuxX	_	t_242|ref=De salubri diaeta_1
+15	οὕτω	οὕτως	d	d--------	_	23	ADV	_	t_243|ref=De salubri diaeta_1
+16	καὶ	καί	c	c--------	_	19	AuxZ	_	t_244|ref=De salubri diaeta_1
+17	ἐκ	ἐκ	r	r--------	_	23	AuxP	_	t_245|ref=De salubri diaeta_1
+18	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_246|ref=De salubri diaeta_1
+19	ἦρος	ἔαρ	n	n-s---ng-	Case=g|Gender=n|Number=s	17	ADV	_	t_247|ref=De salubri diaeta_1
+20	ἐς	εἰς	r	r--------	_	23	AuxP	_	t_248|ref=De salubri diaeta_1
+21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_249|ref=De salubri diaeta_1
+22	θέρος	θέρος	n	n-s---na-	Case=a|Gender=n|Number=s	20	OBJ	_	t_250|ref=De salubri diaeta_1
+23	καταστήσεται	καθίστημι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_251|ref=De salubri diaeta_1
+24	,	,	u	u--------	_	23	AuxX	_	t_252|ref=De salubri diaeta_1
+25	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_253|ref=De salubri diaeta_1
+26	μὲν	μέν	d	d--------	_	31	AuxY	_	t_254|ref=De salubri diaeta_1
+27	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	28	OBJ	_	t_255|ref=De salubri diaeta_1
+28	ἀφαιρέων	ἀφαιρέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	31	ADV	_	t_256|ref=De salubri diaeta_1
+29	,	,	u	u--------	_	23	AuxX	_	t_257|ref=De salubri diaeta_1
+30	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	32	ATR	_	t_258|ref=De salubri diaeta_1
+31	δὲ	δέ	d	d--------	_	23	COORD	_	t_259|ref=De salubri diaeta_1
+32	ποτῷ	ποτόν	n	n-s---md-	Case=d|Gender=m|Number=s	33	OBJ	_	t_260|ref=De salubri diaeta_1
+33	προστιθείς	προστίθημι	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	31	ADV	_	t_261|ref=De salubri diaeta_1
+34	[0]	[0]	-	---------	_	7	ADV	_	e_8|ref=De salubri diaeta_1
+35	[1]	[1]	-	---------	_	31	ADV	_	e_9|ref=De salubri diaeta_1
+36	·	·	u	u--------	_	23	AuxK	_	t_262|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = καὶ οὕτω τὰ ἐναντία ποιέοντα καταστῆσαι ἐκ τοῦ θέρεος ἐς τὸν χειμῶνα .
+# sent_id = 13
+1	καὶ	καί	c	c--------	_	6	AuxY	_	t_263|ref=De salubri diaeta_1
+2	οὕτω	οὕτως	d	d--------	_	6	ADV	_	t_264|ref=De salubri diaeta_1
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_265|ref=De salubri diaeta_1
+4	ἐναντία	ἐναντίος	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_266|ref=De salubri diaeta_1
+5	ποιέοντα	ποιέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_267|ref=De salubri diaeta_1
+6	καταστῆσαι	καθίστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_268|ref=De salubri diaeta_1
+7	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_269|ref=De salubri diaeta_1
+8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_270|ref=De salubri diaeta_1
+9	θέρεος	θέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_271|ref=De salubri diaeta_1
+10	ἐς	εἰς	r	r--------	_	6	AuxP	_	t_272|ref=De salubri diaeta_1
+11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_273|ref=De salubri diaeta_1
+12	χειμῶνα	χειμών	n	n-s---ma-	Case=a|Gender=m|Number=s	10	ADV	_	t_274|ref=De salubri diaeta_1
+13	.	.	u	u--------	_	6	AuxK	_	t_275|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = Ἐν δὲ τῷ φθινοπώρῳ πάλιν τὰ μὲν σιτία πλέω ποιεύμενον καὶ ξηρότερα καὶ τὰ ὄψα κατὰ λόγον , τὰ δὲ ποτὰ ἐλάσσω τε καὶ ἀκρητέστερα , ὅκως ὅ τε χειμὼν ἀγαθὸς ἔσται καὶ ὥνθρωπος διαχρήσεται τοῖσί τε πόμασιν ἀκρητεστέροισι καὶ ὀλίγοισι καὶ τοῖσι σιτίοισιν ὡς πλείστοισί τε καὶ ξηροτάτοισιν [0] [1] ·
+# sent_id = 14
+1	Ἐν	ἐν	r	r--------	_	50	AuxP	_	t_276|ref=De salubri diaeta_1
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_277|ref=De salubri diaeta_1
+3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	4	ATR	_	t_278|ref=De salubri diaeta_1
+4	φθινοπώρῳ	φθινόπωρον	a	a-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_279|ref=De salubri diaeta_1
+5	πάλιν	πάλιν	d	d--------	_	50	ADV	_	t_280|ref=De salubri diaeta_1
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_281|ref=De salubri diaeta_1
+7	μὲν	μέν	d	d--------	_	20	AuxY	_	t_282|ref=De salubri diaeta_1
+8	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_283|ref=De salubri diaeta_1
+9	πλέω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	13	OCOMP	_	t_284|ref=De salubri diaeta_1
+10	ποιεύμενον	ποιόω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_285|ref=De salubri diaeta_1
+11	καὶ	καί	c	c--------	_	13	AuxY	_	t_286|ref=De salubri diaeta_1
+12	ξηρότερα	ξηρός	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	13	OCOMP	_	t_287|ref=De salubri diaeta_1
+13	καὶ	καί	c	c--------	_	20	COORD	_	t_288|ref=De salubri diaeta_1
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_289|ref=De salubri diaeta_1
+15	ὄψα	ὄψον	n	n-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_290|ref=De salubri diaeta_1
+16	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_291|ref=De salubri diaeta_1
+17	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_292|ref=De salubri diaeta_1
+18	,	,	u	u--------	_	2	AuxX	_	t_293|ref=De salubri diaeta_1
+19	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_294|ref=De salubri diaeta_1
+20	δὲ	δέ	d	d--------	_	50	COORD	_	t_295|ref=De salubri diaeta_1
+21	ποτὰ	ποτόν	d	d--------	Case=a|Gender=n|Number=p	24	ADV	_	t_296|ref=De salubri diaeta_1
+22	ἐλάσσω	ἐλάσσων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	24	OCOMP	_	t_297|ref=De salubri diaeta_1
+23	τε	τε	c	c--------	_	24	AuxY	_	t_298|ref=De salubri diaeta_1
+24	καὶ	καί	c	c--------	_	20	COORD	_	t_299|ref=De salubri diaeta_1
+25	ἀκρητέστερα	ἄκρατος	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	24	OCOMP	_	t_300|ref=De salubri diaeta_1
+26	,	,	u	u--------	_	2	AuxX	_	t_301|ref=De salubri diaeta_1
+27	ὅκως	ὅπως	c	c--------	_	50	AuxC	_	t_302|ref=De salubri diaeta_1
+28	ὅ	ὅς	l	l-s---mn-	Case=n|Gender=m|Number=s	30	ATR	_	t_303|ref=De salubri diaeta_1
+29	τε	τε	c	c--------	_	33	AuxY	_	t_304|ref=De salubri diaeta_1
+30	χειμὼν	χειμών	n	n-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_305|ref=De salubri diaeta_1
+31	ἀγαθὸς	ἀγαθός	a	a-s---mn-	Case=n|Gender=m|Number=s	32	PNOM	_	t_306|ref=De salubri diaeta_1
+32	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	33	ADV	_	t_307|ref=De salubri diaeta_1
+33	καὶ	καί	c	c--------	_	27	COORD	_	t_308|ref=De salubri diaeta_1
+34	ὥνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	35	SBJ	_	t_309|ref=De salubri diaeta_1
+35	διαχρήσεται	διαχράομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	33	ADV	_	t_310|ref=De salubri diaeta_1
+36	τοῖσί	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	38	ATR	_	t_311|ref=De salubri diaeta_1
+37	τε	τε	c	c--------	_	42	AuxY	_	t_312|ref=De salubri diaeta_1
+38	πόμασιν	ποτόν	n	n-p---nd-	Case=d|Gender=n|Number=p	42	ADV	_	t_313|ref=De salubri diaeta_1
+39	ἀκρητεστέροισι	ἄκρατος	a	a-p---nd-	Case=d|Gender=n|Number=p	38	ATR	_	t_314|ref=De salubri diaeta_1
+40	καὶ	καί	c	c--------	_	38	COORD	_	t_315|ref=De salubri diaeta_1
+41	ὀλίγοισι	ὀλίγος	a	a-p---nd-	Case=d|Gender=n|Number=p	40	ATR	_	t_316|ref=De salubri diaeta_1
+42	καὶ	καί	c	c--------	_	35	COORD	_	t_317|ref=De salubri diaeta_1
+43	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	44	ATR	_	t_318|ref=De salubri diaeta_1
+44	σιτίοισιν	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	42	OBJ	_	t_319|ref=De salubri diaeta_1
+45	ὡς	ὡς	d	d--------	_	46	AuxZ	_	t_320|ref=De salubri diaeta_1
+46	πλείστοισί	πλεῖστος	a	a-p---nd-	Case=d|Gender=n|Number=p	48	ATR	_	t_321|ref=De salubri diaeta_1
+47	τε	τε	c	c--------	_	48	AuxY	_	t_322|ref=De salubri diaeta_1
+48	καὶ	καί	c	c--------	_	44	COORD	_	t_323|ref=De salubri diaeta_1
+49	ξηροτάτοισιν	ξηρός	a	a-p---nd-	Case=d|Gender=n|Number=p	48	ATR	_	t_324|ref=De salubri diaeta_1
+50	[0]	[0]	-	---------	_	2	PRED	_	e_10|ref=De salubri diaeta_1
+51	[1]	[1]	-	---------	_	33	ADV	_	e_11|ref=De salubri diaeta_1
+52	·	·	u	u--------	_	2	AuxK	_	t_325|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = οὕτω γὰρ ἂν καὶ ὑγιαίνοι μάλιστα καὶ ῥιγῴη ἤκιστα ·
+# sent_id = 15
+1	οὕτω	οὕτως	d	d--------	_	7	ADV	_	t_326|ref=De salubri diaeta_1
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_327|ref=De salubri diaeta_1
+3	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_328|ref=De salubri diaeta_1
+4	καὶ	καί	d	d--------	_	7	AuxY	_	t_329|ref=De salubri diaeta_1
+5	ὑγιαίνοι	ὑγιαίνω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_330|ref=De salubri diaeta_1
+6	μάλιστα	μάλιστα	d	d--------	Degree=s	5	ADV	_	t_331|ref=De salubri diaeta_1
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_332|ref=De salubri diaeta_1
+8	ῥιγῴη	ῥιγόω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_333|ref=De salubri diaeta_1
+9	ἤκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_334|ref=De salubri diaeta_1
+10	·	·	u	u--------	_	7	AuxK	_	t_335|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = ἡ γὰρ ὥρη λίαν ψυχρή τε καὶ ὑγρή [0] .
+# sent_id = 16
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_336|ref=De salubri diaeta_1
+2	γὰρ	γάρ	g	g--------	_	9	AuxY	_	t_337|ref=De salubri diaeta_1
+3	ὥρη	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_338|ref=De salubri diaeta_1
+4	λίαν	λίαν	d	d--------	_	7	ADV	_	t_339|ref=De salubri diaeta_1
+5	ψυχρή	ψυχρός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_340|ref=De salubri diaeta_1
+6	τε	τε	g	g--------	_	7	AuxY	_	t_341|ref=De salubri diaeta_1
+7	καὶ	καί	c	c--------	_	9	COORD	_	t_342|ref=De salubri diaeta_1
+8	ὑγρή	ὑγρός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_343|ref=De salubri diaeta_1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=De salubri diaeta_1
+10	.	.	u	u--------	_	9	AuxK	_	t_344|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1
+# text = 2 .
+# sent_id = 17
+1	2	2	u	u--------	_	0	AuxG	_	t_345|ref=De salubri diaeta_1
+2	.	.	u	u--------	_	1	AuxK	_	t_346|ref=De salubri diaeta_1
+
+# source = Hippocrates, De salubri diaeta 1-2
+# text = Τοῖσι δὲ εἴδεσι τοῖσι σαρκώδεσι καὶ μαλθακοῖσι καὶ ἐρυθροῖσι ξυμφέρει δὴ τὸν πλείονα χρόνον τοῦ ἐνιαυτοῦ ξηροτέροισι διαιτήμασι χρέεσθαι ·
+# sent_id = 18
+1	Τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_347|ref=De salubri diaeta_1
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_348|ref=De salubri diaeta_1
+3	εἴδεσι	εἶδος	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_349|ref=De salubri diaeta_1
+4	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_350|ref=De salubri diaeta_1
+5	σαρκώδεσι	σαρκώδης	n	n-p---fd-	Case=d|Gender=n|Number=p	8	ATR	_	t_351|ref=De salubri diaeta_1
+6	καὶ	καί	d	d--------	_	8	AuxY	_	t_352|ref=De salubri diaeta_1
+7	μαλθακοῖσι	μαλθακός	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_353|ref=De salubri diaeta_1
+8	καὶ	καί	c	c--------	_	3	COORD	_	t_354|ref=De salubri diaeta_1
+9	ἐρυθροῖσι	ἐρυθρός	a	a-p---nd-	Case=d|Gender=n|Number=p	8	OBJ	_	t_355|ref=De salubri diaeta_1
+10	ξυμφέρει	συμφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_356|ref=De salubri diaeta_1
+11	δὴ	δή	d	d--------	_	10	AuxY	_	t_357|ref=De salubri diaeta_2
+12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_358|ref=De salubri diaeta_2
+13	πλείονα	πλείων	a	a-s---mac	Case=a|Gender=m|Number=s	14	ATR	_	t_359|ref=De salubri diaeta_2
+14	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	19	ADV	_	t_360|ref=De salubri diaeta_2
+15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_361|ref=De salubri diaeta_2
+16	ἐνιαυτοῦ	ἐνιαυτός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_362|ref=De salubri diaeta_2
+17	ξηροτέροισι	ξηρός	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	18	ATR	_	t_363|ref=De salubri diaeta_2
+18	διαιτήμασι	διαίτημα	n	n-p---nd-	Case=d|Gender=n|Number=p	19	OBJ	_	t_364|ref=De salubri diaeta_2
+19	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	10	SBJ	_	t_365|ref=De salubri diaeta_2
+20	·	·	u	u--------	_	10	AuxK	_	t_366|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = ὑγρὴ γὰρ ἡ φύσις τῶν εἰδέων τουτέων [0] .
+# sent_id = 19
+1	ὑγρὴ	ὑγρός	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_367|ref=De salubri diaeta_2
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_368|ref=De salubri diaeta_2
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_369|ref=De salubri diaeta_2
+4	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_370|ref=De salubri diaeta_2
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_371|ref=De salubri diaeta_2
+6	εἰδέων	εἶδος	x	x--------	Case=g|Gender=n|Number=p	4	ATR	_	t_372|ref=De salubri diaeta_2
+7	τουτέων	οὗτος	a	a-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_373|ref=De salubri diaeta_2
+8	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=De salubri diaeta_1
+9	.	.	u	u--------	_	8	AuxK	_	t_374|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = Τοὺς δὲ στρυφνοὺς καὶ προσεσταλμένους καὶ πυῤῥοὺς καὶ μέλανας τῇ ὑγροτέρῃ διαίτῃ χρὴ τὸ πλεῖον τοῦ χρόνου ἐνδιαιτᾶσθαι ·
+# sent_id = 20
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_375|ref=De salubri diaeta_2
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_376|ref=De salubri diaeta_2
+3	στρυφνοὺς	στρυφνός	a	a-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_377|ref=De salubri diaeta_2
+4	καὶ	καί	c	c--------	_	8	AuxY	_	t_378|ref=De salubri diaeta_2
+5	προσεσταλμένους	στέλλω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	8	ATR	_	t_379|ref=De salubri diaeta_2
+6	καὶ	καί	c	c--------	_	8	AuxY	_	t_380|ref=De salubri diaeta_2
+7	πυῤῥοὺς	πυῤῥός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_381|ref=De salubri diaeta_2
+8	καὶ	καί	c	c--------	_	18	COORD	_	t_382|ref=De salubri diaeta_2
+9	μέλανας	μέλας	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_383|ref=De salubri diaeta_2
+10	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	12	ATR	_	t_384|ref=De salubri diaeta_2
+11	ὑγροτέρῃ	ὑγρός	a	a-s---fdc	Case=d|Degree=c|Gender=f|Number=s	12	ATR	_	t_385|ref=De salubri diaeta_2
+12	διαίτῃ	δίαιτα	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_386|ref=De salubri diaeta_2
+13	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_387|ref=De salubri diaeta_2
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_388|ref=De salubri diaeta_2
+15	πλεῖον	πλείων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	18	OBJ	_	t_389|ref=De salubri diaeta_2
+16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_390|ref=De salubri diaeta_2
+17	χρόνου	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_391|ref=De salubri diaeta_2
+18	ἐνδιαιτᾶσθαι	ἐνδιαιτάομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_392|ref=De salubri diaeta_2
+19	·	·	u	u--------	_	2	AuxK	_	t_393|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = τὰ γὰρ σώματα τοιαῦτα ὑπάρχει ξηρὰ ἐόντα .
+# sent_id = 21
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_394|ref=De salubri diaeta_2
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_395|ref=De salubri diaeta_2
+3	σώματα	σῶμα	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_396|ref=De salubri diaeta_2
+4	τοιαῦτα	τοιοῦτος	p	p-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_397|ref=De salubri diaeta_2
+5	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_398|ref=De salubri diaeta_2
+6	ξηρὰ	ξηρός	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_399|ref=De salubri diaeta_2
+7	ἐόντα	εἰμί	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_400|ref=De salubri diaeta_2
+8	.	.	u	u--------	_	5	AuxK	_	t_401|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = Καὶ τοῖσι νέοισι τῶν σωμάτων ξυμφέρει μαλακωτέροισί τε καὶ ὑγροτέροισι χρέεσθαι τοῖσι διαιτήμασιν ·
+# sent_id = 22
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_402|ref=De salubri diaeta_2
+2	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	3	ATR	_	t_403|ref=De salubri diaeta_2
+3	νέοισι	νέω	a	a-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_404|ref=De salubri diaeta_2
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_405|ref=De salubri diaeta_2
+5	σωμάτων	σῶμα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_406|ref=De salubri diaeta_2
+6	ξυμφέρει	συμφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_407|ref=De salubri diaeta_2
+7	μαλακωτέροισί	μαλακός	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	9	ATR	_	t_408|ref=De salubri diaeta_2
+8	τε	τε	c	c--------	_	9	AuxY	_	t_409|ref=De salubri diaeta_2
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_410|ref=De salubri diaeta_2
+10	ὑγροτέροισι	ὑγρός	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	9	ATR	_	t_411|ref=De salubri diaeta_2
+11	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	6	SBJ	_	t_412|ref=De salubri diaeta_2
+12	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_413|ref=De salubri diaeta_2
+13	διαιτήμασιν	διαίτημα	n	n-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_414|ref=De salubri diaeta_2
+14	·	·	u	u--------	_	1	AuxK	_	t_415|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = ἡ γὰρ ἡλικίη ξηρὴ , καὶ τὰ σώματα πέπηγεν [0] .
+# sent_id = 23
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_416|ref=De salubri diaeta_2
+2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_417|ref=De salubri diaeta_2
+3	ἡλικίη	ἡλικία	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_418|ref=De salubri diaeta_2
+4	ξηρὴ	ξηρός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_419|ref=De salubri diaeta_2
+5	,	,	u	u--------	_	0	AuxX	_	t_420|ref=De salubri diaeta_2
+6	καὶ	καί	c	c--------	_	5	COORD	_	t_421|ref=De salubri diaeta_2
+7	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_422|ref=De salubri diaeta_2
+8	σώματα	σῶμα	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_423|ref=De salubri diaeta_2
+9	πέπηγεν	πήγνυμι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	6	PRED	_	t_424|ref=De salubri diaeta_2
+10	[0]	[0]	-	---------	_	6	PRED	_	e_14|ref=De salubri diaeta_1
+11	.	.	u	u--------	_	5	AuxK	_	t_425|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = Τοὺς δὲ πρεσβυτέρους τῷ ξηροτέρῳ χρὴ τρόπῳ τὸ πλέον τοῦ χρόνου διάγειν ·
+# sent_id = 24
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_426|ref=De salubri diaeta_2
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_427|ref=De salubri diaeta_2
+3	πρεσβυτέρους	πρέσβυς	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	12	SBJ	_	t_428|ref=De salubri diaeta_2
+4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_429|ref=De salubri diaeta_2
+5	ξηροτέρῳ	ξηρός	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	7	ATR	_	t_430|ref=De salubri diaeta_2
+6	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_431|ref=De salubri diaeta_2
+7	τρόπῳ	τρόπος	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_432|ref=De salubri diaeta_2
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_433|ref=De salubri diaeta_2
+9	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	12	ADV	_	t_434|ref=De salubri diaeta_2
+10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_435|ref=De salubri diaeta_2
+11	χρόνου	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_436|ref=De salubri diaeta_2
+12	διάγειν	διάγω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_437|ref=De salubri diaeta_2
+13	·	·	u	u--------	_	2	AuxK	_	t_438|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = τὰ γὰρ σώματα ἐν ταύτῃ τῇ ἡλικίῃ ὑγρὰ καὶ μαλθακὰ καὶ ψυχρά [0] .
+# sent_id = 25
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_439|ref=De salubri diaeta_2
+2	γὰρ	γάρ	d	d--------	_	13	AuxY	_	t_440|ref=De salubri diaeta_2
+3	σώματα	σῶμα	n	n-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_441|ref=De salubri diaeta_2
+4	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_442|ref=De salubri diaeta_2
+5	ταύτῃ	οὗτος	a	a-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_443|ref=De salubri diaeta_2
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_444|ref=De salubri diaeta_2
+7	ἡλικίῃ	ἡλικία	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_445|ref=De salubri diaeta_2
+8	ὑγρὰ	ὑγρός	a	a-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_446|ref=De salubri diaeta_2
+9	καὶ	καί	d	d--------	_	11	AuxY	_	t_447|ref=De salubri diaeta_2
+10	μαλθακὰ	μαλθακός	a	a-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_448|ref=De salubri diaeta_2
+11	καὶ	καί	c	c--------	_	13	COORD	_	t_449|ref=De salubri diaeta_2
+12	ψυχρά	ψυχρός	a	a-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_450|ref=De salubri diaeta_2
+13	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=De salubri diaeta_1
+14	.	.	u	u--------	_	13	AuxK	_	t_451|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = Δεῖ οὖν πρὸς τὴν ἡλικίην καὶ τὴν ὥρην καὶ τὸ ἔθος καὶ τὴν χώρην καὶ τὰ εἴδεα τὰ διαιτήματα ποιέεσθαι ἐναντιούμενον τοῖσι καθισταμένοισι καὶ θάλπεσι καὶ χειμῶσιν ·
+# sent_id = 26
+1	Δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_452|ref=De salubri diaeta_2
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_453|ref=De salubri diaeta_2
+3	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_454|ref=De salubri diaeta_2
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_455|ref=De salubri diaeta_2
+5	ἡλικίην	ἡλικία	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_456|ref=De salubri diaeta_2
+6	καὶ	καί	d	d--------	_	15	AuxY	_	t_457|ref=De salubri diaeta_2
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_458|ref=De salubri diaeta_2
+8	ὥρην	ὥρα	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_459|ref=De salubri diaeta_2
+9	καὶ	καί	d	d--------	_	15	AuxY	_	t_460|ref=De salubri diaeta_2
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_461|ref=De salubri diaeta_2
+11	ἔθος	ἔθος	n	n-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_462|ref=De salubri diaeta_2
+12	καὶ	καί	d	d--------	_	15	AuxY	_	t_463|ref=De salubri diaeta_2
+13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_464|ref=De salubri diaeta_2
+14	χώρην	χώρα	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_465|ref=De salubri diaeta_2
+15	καὶ	καί	c	c--------	_	3	COORD	_	t_466|ref=De salubri diaeta_2
+16	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_467|ref=De salubri diaeta_2
+17	εἴδεα	εἶδος	n	n-p---na-	Case=a|Gender=n|Number=p	15	ADV	_	t_468|ref=De salubri diaeta_2
+18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_469|ref=De salubri diaeta_2
+19	διαιτήματα	διαίτημα	n	n-p---na-	Case=a|Gender=n|Number=p	20	SBJ	_	t_470|ref=De salubri diaeta_2
+20	ποιέεσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	1	SBJ	_	t_471|ref=De salubri diaeta_2
+21	ἐναντιούμενον	ἐναντιόομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_472|ref=De salubri diaeta_2
+22	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	23	ATR	_	t_473|ref=De salubri diaeta_2
+23	καθισταμένοισι	καθίστημι	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	26	ADV	_	t_474|ref=De salubri diaeta_2
+24	καὶ	καί	d	d--------	_	26	AuxY	_	t_475|ref=De salubri diaeta_2
+25	θάλπεσι	θάλπος	n	n-p---nd-	Case=d|Gender=n|Number=p	26	ADV	_	t_476|ref=De salubri diaeta_2
+26	καὶ	καί	c	c--------	_	21	COORD	_	t_477|ref=De salubri diaeta_2
+27	χειμῶσιν	χειμών	n	n-p---md-	Case=d|Gender=m|Number=p	26	ADV	_	t_478|ref=De salubri diaeta_2
+28	·	·	u	u--------	_	1	AuxK	_	t_479|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = οὕτω γὰρ ἂν μάλιστα ὑγιαίνοιεν .
+# sent_id = 27
+1	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_480|ref=De salubri diaeta_2
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_481|ref=De salubri diaeta_2
+3	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_482|ref=De salubri diaeta_2
+4	μάλιστα	μάλιστα	d	d-------s	Degree=s	5	ADV	_	t_483|ref=De salubri diaeta_2
+5	ὑγιαίνοιεν	ὑγιαίνω	v	v3ppoa---	Mood=o|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_484|ref=De salubri diaeta_2
+6	.	.	u	u--------	_	5	AuxK	_	t_485|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2
+# text = 3 .
+# sent_id = 28
+1	3	3	x	x--------	_	0	AuxG	_	t_486|ref=De salubri diaeta_2
+2	.	.	u	u--------	_	1	AuxK	_	t_487|ref=De salubri diaeta_2
+
+# source = Hippocrates, De salubri diaeta 2-3
+# text = Καὶ ὁδοιπορέειν τοῦ μὲν χειμῶνος ταχέως χρὴ , τοῦ δὲ θέρεος ἡσυχῆ , ἢν μὴ διὰ καύματος ὁδοιπορέῃ [0] ·
+# sent_id = 29
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_488|ref=De salubri diaeta_2
+2	ὁδοιπορέειν	ὁδοιπορέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_489|ref=De salubri diaeta_2
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_490|ref=De salubri diaeta_2
+4	μὲν	μέν	d	d--------	_	10	AuxY	_	t_491|ref=De salubri diaeta_2
+5	χειμῶνος	χειμών	n	n-s---mg-	Case=g|Gender=m|Number=s	2	OBJ	_	t_492|ref=De salubri diaeta_2
+6	ταχέως	ταχύς	d	d--------	_	10	ADV	_	t_493|ref=De salubri diaeta_2
+7	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_494|ref=De salubri diaeta_2
+8	,	,	u	u--------	_	2	AuxX	_	t_495|ref=De salubri diaeta_2
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_496|ref=De salubri diaeta_2
+10	δὲ	δέ	d	d--------	_	7	COORD	_	t_497|ref=De salubri diaeta_2
+11	θέρεος	θέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_498|ref=De salubri diaeta_2
+12	ἡσυχῆ	ἡσυχῆ	d	d--------	_	19	ADV	_	t_499|ref=De salubri diaeta_2
+13	,	,	u	u--------	_	19	AuxX	_	t_500|ref=De salubri diaeta_2
+14	ἢν	ἐάν	c	c--------	_	19	AuxC	_	t_501|ref=De salubri diaeta_3
+15	μὴ	μή	d	d--------	_	18	AuxZ	_	t_502|ref=De salubri diaeta_3
+16	διὰ	διά	r	r--------	_	18	AuxP	_	t_503|ref=De salubri diaeta_3
+17	καύματος	ψῦχος	n	n-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_504|ref=De salubri diaeta_3
+18	ὁδοιπορέῃ	ὁδοιπορέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	14	ADV	_	t_505|ref=De salubri diaeta_3
+19	[0]	[0]	-	---------	_	10	SBJ	_	e_16|ref=De salubri diaeta_1
+20	·	·	u	u--------	_	1	AuxK	_	t_506|ref=De salubri diaeta_3
+
+# source = Hippocrates, De salubri diaeta 3
+# text = δεῖ δὲ καὶ τοὺς μὲν σαρκώδεας θᾶσσον ὁδοιπορέειν , τοὺς δὲ ἰσχνοὺς ἡσυχέστερον [0] .
+# sent_id = 30
+1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_507|ref=De salubri diaeta_3
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_508|ref=De salubri diaeta_3
+3	καὶ	καί	c	c--------	_	6	AuxZ	_	t_509|ref=De salubri diaeta_3
+4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_510|ref=De salubri diaeta_3
+5	μὲν	μέν	d	d--------	_	11	AuxY	_	t_511|ref=De salubri diaeta_3
+6	σαρκώδεας	σαρκώδης	n	n-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_512|ref=De salubri diaeta_3
+7	θᾶσσον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	8	ADV	_	t_513|ref=De salubri diaeta_3
+8	ὁδοιπορέειν	ὁδοιπορέω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_514|ref=De salubri diaeta_3
+9	,	,	u	u--------	_	1	AuxX	_	t_515|ref=De salubri diaeta_3
+10	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_516|ref=De salubri diaeta_3
+11	δὲ	δέ	c	c--------	_	1	COORD	_	t_517|ref=De salubri diaeta_3
+12	ἰσχνοὺς	ἰσχνός	a	a-p---ma-	Case=a|Gender=m|Number=p	14	SBJ	_	t_518|ref=De salubri diaeta_3
+13	ἡσυχέστερον	ἥσυχος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	14	ADV	_	t_519|ref=De salubri diaeta_3
+14	[0]	[0]	-	---------	_	11	SBJ	_	e_17|ref=De salubri diaeta_1
+15	.	.	u	u--------	_	1	AuxK	_	t_520|ref=De salubri diaeta_3
+
+# source = Hippocrates, De salubri diaeta 3
+# text = Λουτροῖσι δὲ χρὴ πολλοῖσι χρέεσθαι τοῦ θέρεος , τοῦ δὲ χειμῶνος ἐλάσσοσι , χρὴ δὲ τοὺς στρυφνοὺς μᾶλλον λούεσθαι τῶν σαρκωδέων .
+# sent_id = 31
+1	Λουτροῖσι	λουτρόν	n	n-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_521|ref=De salubri diaeta_3
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_522|ref=De salubri diaeta_3
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_523|ref=De salubri diaeta_3
+4	πολλοῖσι	πολύς	a	a-p---md-	Case=d|Gender=m|Number=p	1	ATR	_	t_524|ref=De salubri diaeta_3
+5	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	3	SBJ	_	t_525|ref=De salubri diaeta_3
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_526|ref=De salubri diaeta_3
+7	θέρεος	θέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	5	OBJ	_	t_527|ref=De salubri diaeta_3
+8	,	,	u	u--------	_	0	AuxX	_	t_528|ref=De salubri diaeta_3
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_529|ref=De salubri diaeta_3
+10	δὲ	δέ	d	d--------	_	5	COORD	_	t_530|ref=De salubri diaeta_3
+11	χειμῶνος	χειμών	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ADV	_	t_531|ref=De salubri diaeta_3
+12	ἐλάσσοσι	ἐλάσσων	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	10	ADV	_	t_532|ref=De salubri diaeta_3
+13	,	,	u	u--------	_	8	AuxX	_	t_533|ref=De salubri diaeta_3
+14	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_534|ref=De salubri diaeta_3
+15	δὲ	δέ	c	c--------	_	8	COORD	_	t_535|ref=De salubri diaeta_3
+16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_536|ref=De salubri diaeta_3
+17	στρυφνοὺς	στρυφνός	n	n-p---ma-	Case=a|Gender=m|Number=p	19	SBJ	_	t_537|ref=De salubri diaeta_3
+18	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	19	ADV	_	t_538|ref=De salubri diaeta_3
+19	λούεσθαι	λούω	v	v--pne---	Mood=n|Tense=p|Voice=e	14	SBJ	_	t_539|ref=De salubri diaeta_3
+20	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	21	ATR	_	t_540|ref=De salubri diaeta_3
+21	σαρκωδέων	σαρκωδέω	n	n-p---fg-	Case=g|Gender=f|Number=p	18	ADV	_	t_541|ref=De salubri diaeta_3
+22	.	.	u	u--------	_	8	AuxK	_	t_542|ref=De salubri diaeta_3
+
+# source = Hippocrates, De salubri diaeta 3
+# text = Ἠμφιέσθαι δὲ χρὴ τοῦ μὲν χειμῶνος καθαρὰ ἱμάτια , τοῦ δὲ θέρεος ἐλαιοπινέα [0] .
+# sent_id = 32
+1	Ἠμφιέσθαι	ἀμφιέννυμι	v	v--anm---	Mood=n|Tense=a|Voice=m	11	SBJ	_	t_543|ref=De salubri diaeta_3
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_544|ref=De salubri diaeta_3
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_545|ref=De salubri diaeta_3
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_546|ref=De salubri diaeta_3
+5	μὲν	μέν	d	d--------	_	11	AuxY	_	t_547|ref=De salubri diaeta_3
+6	χειμῶνος	χειμών	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_548|ref=De salubri diaeta_3
+7	καθαρὰ	καθαρός	a	a-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_549|ref=De salubri diaeta_3
+8	ἱμάτια	ἱμάτιον	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_550|ref=De salubri diaeta_3
+9	,	,	u	u--------	_	3	AuxX	_	t_551|ref=De salubri diaeta_3
+10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_552|ref=De salubri diaeta_3
+11	δὲ	δέ	d	d--------	_	3	COORD	_	t_553|ref=De salubri diaeta_3
+12	θέρεος	θέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_554|ref=De salubri diaeta_3
+13	ἐλαιοπινέα	ἐλαιοπινής	a	a-p---na-	Case=a|Gender=n|Number=p	14	SBJ	_	t_555|ref=De salubri diaeta_3
+14	[0]	[0]	-	---------	_	11	SBJ	_	e_18|ref=De salubri diaeta_1
+15	.	.	u	u--------	_	3	AuxK	_	t_556|ref=De salubri diaeta_3
+
+# source = Hippocrates, De salubri diaeta 3
+# text = 4 [0] .
+# sent_id = 33
+1	4	4	u	u--------	_	2	AuxK	_	t_557|ref=De salubri diaeta_3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=De salubri diaeta_1
+3	.	.	u	u--------	_	2	AuxK	_	t_558|ref=De salubri diaeta_3
+
+# source = Hippocrates, De salubri diaeta 3-4
+# text = Τοὺς δὲ παχέας χρὴ καὶ ὅσοι βούλονται λεπτοὶ γενέσθαι , τὰς ταλαιπωρίας ἁπάσας νήστιας ἐόντας ποιέεσθαι , καὶ τοῖσι σιτίοισιν ἐπιχειρέειν ἔτι ἀσθμαίνοντας ἐκ τοῦ κόπου καὶ μὴ ἀνεψυγμένους καὶ προπεπωκότας οἶνον κεκρημένον καὶ μὴ σφόδρα ψυχρὸν , καὶ τὰ ὄψα σκευάζειν σησάμοισιν ἢ ἡδύσμασι καὶ τοῖσιν ἄλλοισι τοῖσι τοιουτοτρόποισιν ·
+# sent_id = 34
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_559|ref=De salubri diaeta_3
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_560|ref=De salubri diaeta_3
+3	παχέας	παχύς	a	a-p---ma-	Case=a|Gender=m|Number=p	5	SBJ	_	t_561|ref=De salubri diaeta_3
+4	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_562|ref=De salubri diaeta_3
+5	καὶ	καί	c	c--------	_	16	COORD	_	t_563|ref=De salubri diaeta_3
+6	ὅσοι	ὅσος	a	a-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_564|ref=De salubri diaeta_3
+7	βούλονται	βούλομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	5	SBJ	_	t_565|ref=De salubri diaeta_3
+8	λεπτοὶ	λεπτός	a	a-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_566|ref=De salubri diaeta_3
+9	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	39	SBJ	_	t_567|ref=De salubri diaeta_3
+10	,	,	u	u--------	_	16	AuxX	_	t_568|ref=De salubri diaeta_3
+11	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_569|ref=De salubri diaeta_3
+12	ταλαιπωρίας	ταλαιπωρία	n	n-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_570|ref=De salubri diaeta_3
+13	ἁπάσας	ἅπας	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_571|ref=De salubri diaeta_3
+14	νήστιας	νῆστις	a	a-p---fa-	Case=a|Gender=f|Number=p	15	PNOM	_	t_572|ref=De salubri diaeta_3
+15	ἐόντας	εἰμί	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_573|ref=De salubri diaeta_3
+16	ποιέεσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	39	SBJ	_	t_574|ref=De salubri diaeta_3
+17	,	,	u	u--------	_	4	AuxX	_	t_575|ref=De salubri diaeta_4
+18	καὶ	καί	c	c--------	_	39	AuxY	_	t_576|ref=De salubri diaeta_3
+19	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	20	ATR	_	t_577|ref=De salubri diaeta_4
+20	σιτίοισιν	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	21	OBJ	_	t_578|ref=De salubri diaeta_4
+21	ἐπιχειρέειν	ἐπιχειρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	39	SBJ	_	t_579|ref=De salubri diaeta_4
+22	ἔτι	ἔτι	d	d--------	_	23	ADV	_	t_580|ref=De salubri diaeta_4
+23	ἀσθμαίνοντας	ἀσθμαίνω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	21	ADV	_	t_581|ref=De salubri diaeta_4
+24	ἐκ	ἐκ	r	r--------	_	23	AuxP	_	t_582|ref=De salubri diaeta_4
+25	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_583|ref=De salubri diaeta_4
+26	κόπου	κόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	24	ADV	_	t_584|ref=De salubri diaeta_4
+27	καὶ	καί	c	c--------	_	30	AuxY	_	t_585|ref=De salubri diaeta_4
+28	μὴ	μή	d	d--------	_	29	AuxZ	_	t_586|ref=De salubri diaeta_4
+29	ἀνεψυγμένους	ἀναψύχω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	30	ADV	_	t_587|ref=De salubri diaeta_4
+30	καὶ	καί	c	c--------	_	21	COORD	_	t_588|ref=De salubri diaeta_4
+31	προπεπωκότας	προπίνω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	30	ADV	_	t_589|ref=De salubri diaeta_4
+32	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_590|ref=De salubri diaeta_4
+33	κεκρημένον	κείρω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	34	ATR	_	t_591|ref=De salubri diaeta_4
+34	καὶ	καί	c	c--------	_	32	COORD	_	t_592|ref=De salubri diaeta_4
+35	μὴ	μή	d	d--------	_	36	AuxZ	_	t_593|ref=De salubri diaeta_4
+36	σφόδρα	σφόδρα	d	d--------	_	37	ADV	_	t_594|ref=De salubri diaeta_4
+37	ψυχρὸν	ψυχρός	a	a-s---ma-	Case=a|Gender=m|Number=s	34	ATR	_	t_595|ref=De salubri diaeta_4
+38	,	,	u	u--------	_	4	AuxX	_	t_596|ref=De salubri diaeta_4
+39	καὶ	καί	c	c--------	_	4	COORD	_	t_597|ref=De salubri diaeta_4
+40	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	41	ATR	_	t_598|ref=De salubri diaeta_4
+41	ὄψα	ὄψον	n	n-p---na-	Case=a|Gender=n|Number=p	42	OBJ	_	t_599|ref=De salubri diaeta_4
+42	σκευάζειν	σκευάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	39	SBJ	_	t_600|ref=De salubri diaeta_4
+43	σησάμοισιν	σήσαμον	n	n-p---nd-	Case=d|Gender=n|Number=p	46	OBJ	_	t_601|ref=De salubri diaeta_4
+44	ἢ	ἤ1	c	c--------	_	42	COORD	_	t_602|ref=De salubri diaeta_4
+45	ἡδύσμασι	ἡδύσμα	n	n-p---nd-	Case=d|Gender=n|Number=p	46	OBJ	_	t_603|ref=De salubri diaeta_4
+46	καὶ	καί	c	c--------	_	42	COORD	_	t_604|ref=De salubri diaeta_4
+47	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	48	ATR	_	t_605|ref=De salubri diaeta_4
+48	ἄλλοισι	ἄλλος	p	p-p---nd-	Case=d|Gender=n|Number=p	46	OBJ	_	t_606|ref=De salubri diaeta_4
+49	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	48	ATR	_	t_607|ref=De salubri diaeta_4
+50	τοιουτοτρόποισιν	τοιουτότροπος	a	a-p---nd-	Case=d|Gender=n|Number=p	48	ATR	_	t_608|ref=De salubri diaeta_4
+51	·	·	u	u--------	_	2	AuxK	_	t_609|ref=De salubri diaeta_4
+
+# source = Hippocrates, De salubri diaeta 4
+# text = καὶ πίονα ἔστω τὰ προσαγόμενα ὄψα , οὕτω γὰρ ἂν ἀπὸ ἐλαχίστων ἐμπιπλαῖντο ·
+# sent_id = 35
+1	καὶ	καί	c	c--------	_	3	AuxY	_	t_610|ref=De salubri diaeta_4
+2	πίονα	πίων	a	a-p---nn-	Case=n|Gender=n|Number=p	3	PNOM	_	t_611|ref=De salubri diaeta_4
+3	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_612|ref=De salubri diaeta_4
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_613|ref=De salubri diaeta_4
+5	προσαγόμενα	προσάγω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_614|ref=De salubri diaeta_4
+6	ὄψα	ὄψον	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_615|ref=De salubri diaeta_4
+7	,	,	u	u--------	_	3	AuxX	_	t_616|ref=De salubri diaeta_4
+8	οὕτω	οὕτως	d	d--------	_	13	ADV	_	t_617|ref=De salubri diaeta_4
+9	γὰρ	γάρ	d	d--------	_	13	AuxY	_	t_618|ref=De salubri diaeta_4
+10	ἂν	ἄν	d	d--------	_	13	AuxY	_	t_619|ref=De salubri diaeta_4
+11	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_620|ref=De salubri diaeta_4
+12	ἐλαχίστων	ἐλάχιστος	a	a-p---ngs	Case=g|Degree=s|Gender=n|Number=p	11	ADV	_	t_621|ref=De salubri diaeta_4
+13	ἐμπιπλαῖντο	ἐμπίπλημι	v	v3ppoe---	Mood=o|Number=p|Person=3|Tense=p|Voice=e	7	PRED	_	t_622|ref=De salubri diaeta_4
+14	·	·	u	u--------	_	7	AuxK	_	t_623|ref=De salubri diaeta_4
+
+# source = Hippocrates, De salubri diaeta 4
+# text = ἀλλὰ καὶ μονοσιτέειν καὶ ἀλουτέειν καὶ σκληροκοιτέειν καὶ γυμνὸν περιπατέειν ὅσον οἷόν τε μάλιστʼ ἂν ᾖ .
+# sent_id = 36
+1	ἀλλὰ	ἀλλά	c	c--------	_	8	AuxY	_	t_624|ref=De salubri diaeta_4
+2	καὶ	καί	c	c--------	_	8	AuxY	_	t_625|ref=De salubri diaeta_4
+3	μονοσιτέειν	μονοσιτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_626|ref=De salubri diaeta_4
+4	καὶ	καί	c	c--------	_	8	AuxY	_	t_627|ref=De salubri diaeta_4
+5	ἀλουτέειν	ἀλουτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_628|ref=De salubri diaeta_4
+6	καὶ	καί	c	c--------	_	8	AuxY	_	t_629|ref=De salubri diaeta_4
+7	σκληροκοιτέειν	σκληροκοιτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_630|ref=De salubri diaeta_4
+8	καὶ	καί	c	c--------	_	0	COORD	_	t_631|ref=De salubri diaeta_4
+9	γυμνὸν	γυμνός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ADV	_	t_632|ref=De salubri diaeta_4
+10	περιπατέειν	περιπατέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_633|ref=De salubri diaeta_4
+11	ὅσον	ὅσος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_634|ref=De salubri diaeta_4
+12	οἷόν	οἷος	a	a-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_635|ref=De salubri diaeta_4
+13	τε	τε	d	d--------	_	12	AuxZ	_	t_636|ref=De salubri diaeta_4
+14	μάλιστʼ	μάλιστα	d	d-------s	Degree=s	16	ADV	_	t_637|ref=De salubri diaeta_4
+15	ἂν	ἄν	d	d--------	_	16	AuxY	_	t_638|ref=De salubri diaeta_4
+16	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_639|ref=De salubri diaeta_4
+17	.	.	u	u--------	_	8	AuxK	_	t_640|ref=De salubri diaeta_4
+
+# source = Hippocrates, De salubri diaeta 4
+# text = Ὁκόσοι δὲ βούλονται λεπτοὶ ἐόντες παχέες γενέσθαι , τά τε ἄλλα ποιέειν τ ἀναντία κείνοισιν οἷσιν ἔφην , καὶ νήστιας μηδεμίην ταλαιπωρίην ποιέεσθαι .
+# sent_id = 37
+1	Ὁκόσοι	ὅσος	n	n-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_641|ref=De salubri diaeta_4
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_642|ref=De salubri diaeta_4
+3	βούλονται	βούλομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_643|ref=De salubri diaeta_4
+4	λεπτοὶ	λεπτός	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_644|ref=De salubri diaeta_4
+5	ἐόντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ADV	_	t_645|ref=De salubri diaeta_4
+6	παχέες	παχύς	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_646|ref=De salubri diaeta_4
+7	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	19	OBJ	_	t_647|ref=De salubri diaeta_4
+8	,	,	u	u--------	_	3	AuxX	_	t_648|ref=De salubri diaeta_4
+9	τά	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_649|ref=De salubri diaeta_4
+10	τε	τε	d	d--------	_	19	AuxY	_	t_650|ref=De salubri diaeta_4
+11	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_651|ref=De salubri diaeta_4
+12	ποιέειν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	OBJ	_	t_652|ref=De salubri diaeta_4
+13	τ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_653|ref=De salubri diaeta_4
+14	ἀναντία	ἐναντίος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_654|ref=De salubri diaeta_4
+15	κείνοισιν	ἐκεῖνος	p	p-p---md-	Case=d|Gender=m|Number=p	14	ADV	_	t_655|ref=De salubri diaeta_4
+16	οἷσιν	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	17	OBJ	_	t_656|ref=De salubri diaeta_4
+17	ἔφην	φημί	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	15	ATR	_	t_657|ref=De salubri diaeta_4
+18	,	,	u	u--------	_	3	AuxX	_	t_658|ref=De salubri diaeta_4
+19	καὶ	καί	c	c--------	_	3	COORD	_	t_659|ref=De salubri diaeta_4
+20	νήστιας	νῆστις	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_660|ref=De salubri diaeta_4
+21	μηδεμίην	μηδείς	a	a-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_661|ref=De salubri diaeta_4
+22	ταλαιπωρίην	ταλαιπωρία	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_662|ref=De salubri diaeta_4
+23	ποιέεσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	19	OBJ	_	t_663|ref=De salubri diaeta_4
+24	.	.	u	u--------	_	3	AuxK	_	t_664|ref=De salubri diaeta_4
+
+# source = Hippocrates, De salubri diaeta 4
+# text = 5 .
+# sent_id = 38
+1	5	5	u	u--------	_	0	AuxG	_	t_665|ref=De salubri diaeta_4
+2	.	.	u	u--------	_	1	AuxK	_	t_666|ref=De salubri diaeta_4
+
+# source = Hippocrates, De salubri diaeta 4
+# text = Τοῖσι δὲ ἐμέτοισι χρὴ καὶ τοῖσι κατακλύσμασι τοῖσι τῆς κοιλίης ὧδε χρέεσθαι ·
+# sent_id = 39
+1	Τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_667|ref=De salubri diaeta_4
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_668|ref=De salubri diaeta_4
+3	ἐμέτοισι	ἔμετος	a	a-p---nd-	Case=d|Gender=n|Number=p	5	OBJ	_	t_669|ref=De salubri diaeta_4
+4	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_670|ref=De salubri diaeta_4
+5	καὶ	καί	c	c--------	_	12	COORD	_	t_671|ref=De salubri diaeta_4
+6	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_672|ref=De salubri diaeta_4
+7	κατακλύσμασι	κατάκλυσμα	n	n-p---nd-	Case=d|Gender=n|Number=p	5	OBJ	_	t_673|ref=De salubri diaeta_4
+8	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_674|ref=De salubri diaeta_4
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_675|ref=De salubri diaeta_4
+10	κοιλίης	κοιλίη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_676|ref=De salubri diaeta_4
+11	ὧδε	ὧδε	d	d--------	_	12	ADV	_	t_677|ref=De salubri diaeta_4
+12	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	4	SBJ	_	t_678|ref=De salubri diaeta_4
+13	·	·	u	u--------	_	2	AuxK	_	t_679|ref=De salubri diaeta_4
+
+# source = Hippocrates, De salubri diaeta 4-5
+# text = ἓξ μῆνας τοὺς χειμερινοὺς ἐμέειν , οὗτος γὰρ ὁ χρόνος φλεγματωδέστερος τοῦ θερινοῦ , καὶ τὰ νουσήματα γίνεται περὶ τὴν κεφαλὴν καὶ περὶ τὸ χωρίον τὸ ὑπὲρ τῶν φρενῶν [0] ·
+# sent_id = 40
+1	ἓξ	ἕξ	m	m--------	_	2	ATR	_	t_680|ref=De salubri diaeta_4
+2	μῆνας	μείς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_681|ref=De salubri diaeta_4
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_682|ref=De salubri diaeta_4
+4	χειμερινοὺς	χειμερινός	a	a-p---ma-	Case=a|Gender=m|Number=p	5	SBJ	_	t_683|ref=De salubri diaeta_4
+5	ἐμέειν	πίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	PRED	_	t_684|ref=De salubri diaeta_5
+6	,	,	u	u--------	_	0	AuxX	_	t_685|ref=De salubri diaeta_5
+7	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_686|ref=De salubri diaeta_5
+8	γὰρ	γάρ	d	d--------	_	30	AuxY	_	t_687|ref=De salubri diaeta_5
+9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_688|ref=De salubri diaeta_5
+10	χρόνος	χρόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_689|ref=De salubri diaeta_5
+11	φλεγματωδέστερος	φλεγματώδης	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	30	PNOM	_	t_690|ref=De salubri diaeta_5
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_691|ref=De salubri diaeta_5
+13	θερινοῦ	θερινός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_692|ref=De salubri diaeta_5
+14	,	,	u	u--------	_	6	AuxX	_	t_693|ref=De salubri diaeta_5
+15	καὶ	καί	c	c--------	_	6	COORD	_	t_694|ref=De salubri diaeta_5
+16	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	17	ATR	_	t_695|ref=De salubri diaeta_5
+17	νουσήματα	νόσημα	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_696|ref=De salubri diaeta_5
+18	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	15	PRED	_	t_697|ref=De salubri diaeta_5
+19	περὶ	περί	r	r--------	_	22	AuxP	_	t_698|ref=De salubri diaeta_5
+20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_699|ref=De salubri diaeta_5
+21	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	19	ADV	_	t_700|ref=De salubri diaeta_5
+22	καὶ	καί	c	c--------	_	18	COORD	_	t_701|ref=De salubri diaeta_5
+23	περὶ	περί	r	r--------	_	22	AuxP	_	t_702|ref=De salubri diaeta_5
+24	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_703|ref=De salubri diaeta_5
+25	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_704|ref=De salubri diaeta_5
+26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_705|ref=De salubri diaeta_5
+27	ὑπὲρ	ὑπέρ	r	r--------	_	25	AuxP	_	t_706|ref=De salubri diaeta_5
+28	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_707|ref=De salubri diaeta_5
+29	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	27	ATR	_	t_708|ref=De salubri diaeta_5
+30	[0]	[0]	-	---------	_	15	PRED	_	e_20|ref=De salubri diaeta_1
+31	·	·	u	u--------	_	6	AuxK	_	t_709|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = ὅταν δὲ ᾖ θάλπος , τοῖσι κατακλύσμασι χρέεσθαι , ἡ γὰρ ὥρη καυματώδης , καὶ τὸ σῶμα χολωδέστερόν ἐστι , καὶ βαρύτητες ἐν τῇ ὀσφύϊ καὶ ἐν τοῖσι γούνασι , καὶ θέρμαι γίνονται , καὶ ἐν τῇ γαστρὶ στρόφοι [0] [1] ·
+# sent_id = 41
+1	ὅταν	ὅταν	c	c--------	_	8	AuxC	_	t_710|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_711|ref=De salubri diaeta_5
+3	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_712|ref=De salubri diaeta_5
+4	θάλπος	θάλπος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_713|ref=De salubri diaeta_5
+5	,	,	u	u--------	_	0	AuxX	_	t_714|ref=De salubri diaeta_5
+6	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_715|ref=De salubri diaeta_5
+7	κατακλύσμασι	κατάκλυσμα	n	n-p---nd-	Case=d|Gender=n|Number=p	8	OBJ	_	t_716|ref=De salubri diaeta_5
+8	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	35	PRED	_	t_717|ref=De salubri diaeta_5
+9	,	,	u	u--------	_	5	AuxX	_	t_718|ref=De salubri diaeta_5
+10	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_719|ref=De salubri diaeta_5
+11	γὰρ	γάρ	d	d--------	_	40	AuxY	_	t_720|ref=De salubri diaeta_5
+12	ὥρη	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	40	SBJ	_	t_721|ref=De salubri diaeta_5
+13	καυματώδης	καυματώδης	a	a-s---fn-	Case=n|Gender=f|Number=s	40	PNOM	_	t_722|ref=De salubri diaeta_5
+14	,	,	u	u--------	_	5	AuxX	_	t_723|ref=De salubri diaeta_5
+15	καὶ	καί	c	c--------	_	35	AuxY	_	t_724|ref=De salubri diaeta_5
+16	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_725|ref=De salubri diaeta_5
+17	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_726|ref=De salubri diaeta_5
+18	χολωδέστερόν	χολωδής	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	19	PNOM	_	t_727|ref=De salubri diaeta_5
+19	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	35	PRED	_	t_728|ref=De salubri diaeta_5
+20	,	,	u	u--------	_	5	AuxX	_	t_729|ref=De salubri diaeta_5
+21	καὶ	καί	c	c--------	_	35	AuxY	_	t_730|ref=De salubri diaeta_5
+22	βαρύτητες	βαρύτης	n	n-p---fn-	Case=n|Gender=f|Number=p	41	SBJ	_	t_731|ref=De salubri diaeta_5
+23	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_732|ref=De salubri diaeta_5
+24	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	25	ATR	_	t_733|ref=De salubri diaeta_5
+25	ὀσφύϊ	ὀσφῦς	n	n-s---fd-	Case=d|Gender=f|Number=s	23	ADV	_	t_734|ref=De salubri diaeta_5
+26	καὶ	καί	c	c--------	_	41	COORD	_	t_735|ref=De salubri diaeta_5
+27	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_736|ref=De salubri diaeta_5
+28	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	29	ATR	_	t_737|ref=De salubri diaeta_5
+29	γούνασι	γόνυ	n	n-p---nd-	Case=d|Gender=n|Number=p	27	ADV	_	t_738|ref=De salubri diaeta_5
+30	,	,	u	u--------	_	5	AuxX	_	t_739|ref=De salubri diaeta_5
+31	καὶ	καί	c	c--------	_	35	AuxY	_	t_740|ref=De salubri diaeta_5
+32	θέρμαι	θέρμη	n	n-p---fn-	Case=n|Gender=f|Number=p	33	SBJ	_	t_741|ref=De salubri diaeta_5
+33	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	35	PRED	_	t_742|ref=De salubri diaeta_5
+34	,	,	u	u--------	_	5	AuxX	_	t_743|ref=De salubri diaeta_5
+35	καὶ	καί	c	c--------	_	5	COORD	_	t_744|ref=De salubri diaeta_5
+36	ἐν	ἐν	r	r--------	_	41	AuxP	_	t_745|ref=De salubri diaeta_5
+37	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	38	ATR	_	t_746|ref=De salubri diaeta_5
+38	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	36	ADV	_	t_747|ref=De salubri diaeta_5
+39	στρόφοι	στρόφος	n	n-p---mn-	Case=n|Gender=m|Number=p	41	SBJ	_	t_748|ref=De salubri diaeta_5
+40	[0]	[0]	-	---------	_	35	PRED	_	e_21|ref=De salubri diaeta_1
+41	[1]	[1]	-	---------	_	35	PRED	_	e_22|ref=De salubri diaeta_1
+42	·	·	u	u--------	_	5	AuxK	_	t_749|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = δεῖ οὖν τὸ σῶμα ψύχειν καὶ τὰ μετεωριζόμενα κάτω ὑπάγειν ἐκ τῶν χωρίων τουτέων .
+# sent_id = 42
+1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_750|ref=De salubri diaeta_5
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_751|ref=De salubri diaeta_5
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_752|ref=De salubri diaeta_5
+4	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_753|ref=De salubri diaeta_5
+5	ψύχειν	ψύχω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_754|ref=De salubri diaeta_5
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_755|ref=De salubri diaeta_5
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_756|ref=De salubri diaeta_5
+8	μετεωριζόμενα	μετεωρίζω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	10	OBJ	_	t_757|ref=De salubri diaeta_5
+9	κάτω	κάτω	d	d--------	_	10	ADV	_	t_758|ref=De salubri diaeta_5
+10	ὑπάγειν	ὑπάγω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_759|ref=De salubri diaeta_5
+11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_760|ref=De salubri diaeta_5
+12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_761|ref=De salubri diaeta_5
+13	χωρίων	χωρίον	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ADV	_	t_762|ref=De salubri diaeta_5
+14	τουτέων	οὗτος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_763|ref=De salubri diaeta_5
+15	.	.	u	u--------	_	1	AuxK	_	t_764|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = Ἔστω δὲ τὰ κατακλύσματα τοῖσι μὲν παχυτέροισι καὶ ὑγροτέροισιν ἁλμυρώτερα καὶ λεπτότερα , τοῖσι δὲ ξηροτέροισι καὶ προσεσταλμένοισι καὶ ἀσθενεστέροισι λιπαρώτερα καὶ παχύτερα [0] ·
+# sent_id = 43
+1	Ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_765|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_766|ref=De salubri diaeta_5
+3	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_767|ref=De salubri diaeta_5
+4	κατακλύσματα	κατάκλυσμα	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_768|ref=De salubri diaeta_5
+5	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_769|ref=De salubri diaeta_5
+6	μὲν	μέν	d	d--------	_	1	AuxY	_	t_770|ref=De salubri diaeta_5
+7	παχυτέροισι	παχύς	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	8	ATR	_	t_771|ref=De salubri diaeta_5
+8	καὶ	καί	c	c--------	_	1	COORD	_	t_772|ref=De salubri diaeta_5
+9	ὑγροτέροισιν	ὑγρός	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	8	OBJ	_	t_773|ref=De salubri diaeta_5
+10	ἁλμυρώτερα	ἁλμυρός	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	11	PNOM	_	t_774|ref=De salubri diaeta_5
+11	καὶ	καί	c	c--------	_	1	COORD	_	t_775|ref=De salubri diaeta_5
+12	λεπτότερα	λεπτός	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	11	PNOM	_	t_776|ref=De salubri diaeta_5
+13	,	,	u	u--------	_	0	AuxX	_	t_777|ref=De salubri diaeta_5
+14	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_778|ref=De salubri diaeta_5
+15	δὲ	δέ	c	c--------	_	13	COORD	_	t_779|ref=De salubri diaeta_5
+16	ξηροτέροισι	ξηρός	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	19	OBJ	_	t_780|ref=De salubri diaeta_5
+17	καὶ	καί	c	c--------	_	19	AuxY	_	t_781|ref=De salubri diaeta_5
+18	προσεσταλμένοισι	στέλλω	v	v-prpemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	19	ADV	_	t_782|ref=De salubri diaeta_5
+19	καὶ	καί	c	c--------	_	24	COORD	_	t_783|ref=De salubri diaeta_5
+20	ἀσθενεστέροισι	ἀσθενής	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	19	OBJ	_	t_784|ref=De salubri diaeta_5
+21	λιπαρώτερα	λιπαρός	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	22	PNOM	_	t_785|ref=De salubri diaeta_5
+22	καὶ	καί	c	c--------	_	24	COORD	_	t_786|ref=De salubri diaeta_5
+23	παχύτερα	παχύς	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	22	PNOM	_	t_787|ref=De salubri diaeta_5
+24	[0]	[0]	-	---------	_	15	PRED	_	e_23|ref=De salubri diaeta_1
+25	·	·	u	u--------	_	13	AuxK	_	t_788|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = ἔστι δὲ τῶν κατακλυσμάτων τὰ λιπαρὰ καὶ παχέα τὰ ἀπὸ τῶν γαλάκτων καὶ ἀπὸ ἐρεβίνθων ὕδωρ ἑφθὸν καὶ τῶν ἄλλων τοιουτέων ·
+# sent_id = 44
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_789|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_790|ref=De salubri diaeta_5
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_791|ref=De salubri diaeta_5
+4	κατακλυσμάτων	κατακλυσμός	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_792|ref=De salubri diaeta_5
+5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_793|ref=De salubri diaeta_5
+6	λιπαρὰ	λιπαρός	a	a-p---nn-	Case=a|Gender=n|Number=p	7	PNOM	_	t_794|ref=De salubri diaeta_5
+7	καὶ	καί	c	c--------	_	1	COORD	_	t_795|ref=De salubri diaeta_5
+8	παχέα	παχύς	a	a-p---na-	Case=a|Gender=n|Number=p	7	SBJ	_	t_796|ref=De salubri diaeta_5
+9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	13	PNOM	_	t_797|ref=De salubri diaeta_5
+10	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_798|ref=De salubri diaeta_5
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_799|ref=De salubri diaeta_5
+12	γαλάκτων	γαλάκταξ	n	n-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_800|ref=De salubri diaeta_5
+13	καὶ	καί	c	c--------	_	1	COORD	_	t_801|ref=De salubri diaeta_5
+14	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_802|ref=De salubri diaeta_5
+15	ἐρεβίνθων	ἐρέβινθος	n	n-p---mg-	Case=g|Gender=m|Number=p	14	PNOM	_	t_803|ref=De salubri diaeta_5
+16	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_804|ref=De salubri diaeta_5
+17	ἑφθὸν	ἑφθός	a	a-s---nn-	Case=n|Gender=n|Number=s	16	ATR	_	t_805|ref=De salubri diaeta_5
+18	καὶ	καί	c	c--------	_	16	COORD	_	t_806|ref=De salubri diaeta_5
+19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_807|ref=De salubri diaeta_5
+20	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_808|ref=De salubri diaeta_5
+21	τοιουτέων	τοιοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_809|ref=De salubri diaeta_5
+22	·	·	u	u--------	_	1	AuxK	_	t_810|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = τὰ δὲ λεπτὰ καὶ ἁλμυρὰ , ἅλμη καὶ θάλασσα καὶ τὰ τοιαῦτα [0] .
+# sent_id = 45
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_811|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_812|ref=De salubri diaeta_5
+3	λεπτὰ	λεπτός	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_813|ref=De salubri diaeta_5
+4	καὶ	καί	c	c--------	_	13	COORD	_	t_814|ref=De salubri diaeta_5
+5	ἁλμυρὰ	ἁλμυρός	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_815|ref=De salubri diaeta_5
+6	,	,	u	u--------	_	13	APOS	_	t_816|ref=De salubri diaeta_5
+7	ἅλμη	ἅλμη	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_817|ref=De salubri diaeta_5
+8	καὶ	καί	c	c--------	_	10	AuxY	_	t_818|ref=De salubri diaeta_5
+9	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_819|ref=De salubri diaeta_5
+10	καὶ	καί	c	c--------	_	6	COORD	_	t_820|ref=De salubri diaeta_5
+11	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_821|ref=De salubri diaeta_5
+12	τοιαῦτα	τοιοῦτος	p	p-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_822|ref=De salubri diaeta_5
+13	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=De salubri diaeta_1
+14	.	.	u	u--------	_	13	AuxK	_	t_823|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = Τοὺς δὲ ἐμέτους ὧδε χρὴ ποιέεσθαι ·
+# sent_id = 46
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_824|ref=De salubri diaeta_5
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_825|ref=De salubri diaeta_5
+3	ἐμέτους	ἔμετος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_826|ref=De salubri diaeta_5
+4	ὧδε	ὧδε	d	d--------	_	6	ADV	_	t_827|ref=De salubri diaeta_5
+5	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_828|ref=De salubri diaeta_5
+6	ποιέεσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	5	SBJ	_	t_829|ref=De salubri diaeta_5
+7	·	·	u	u--------	_	2	AuxK	_	t_830|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = ὅσοι μὲν τῶν ἀνθρώπων παχέες εἰσὶ καὶ μὴ ἰσχνοὶ , νήστιες ἐμούντων δραμόντες ἢ ὁδοιπορήσαντες διὰ τάχεος κατὰ μέσον τῆς ἡμέρης [0] ·
+# sent_id = 47
+1	ὅσοι	ὅσος	p	p-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_831|ref=De salubri diaeta_5
+2	μὲν	μέν	d	d--------	_	6	AuxY	_	t_832|ref=De salubri diaeta_5
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_833|ref=De salubri diaeta_5
+4	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_834|ref=De salubri diaeta_5
+5	παχέες	παχύς	a	a-p---mn-	Case=n|Gender=m|Number=p	7	PNOM	_	t_835|ref=De salubri diaeta_5
+6	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	22	SBJ	_	t_836|ref=De salubri diaeta_5
+7	καὶ	καί	c	c--------	_	6	COORD	_	t_837|ref=De salubri diaeta_5
+8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_838|ref=De salubri diaeta_5
+9	ἰσχνοὶ	ἰσχνός	a	a-p---mn-	Case=n|Gender=m|Number=p	7	PNOM	_	t_839|ref=De salubri diaeta_5
+10	,	,	u	u--------	_	22	AuxX	_	t_840|ref=De salubri diaeta_5
+11	νήστιες	νῆστις	a	a-p---mn-	Case=n|Gender=m|Number=p	13	ADV	_	t_841|ref=De salubri diaeta_5
+12	ἐμούντων	ἐμέω	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	13	ADV	_	t_842|ref=De salubri diaeta_5
+13	δραμόντες	τρέχω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	14	ADV	_	t_843|ref=De salubri diaeta_5
+14	ἢ	ἤ1	c	c--------	_	22	COORD	_	t_844|ref=De salubri diaeta_5
+15	ὁδοιπορήσαντες	ὁδοιπορέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	14	ADV	_	t_845|ref=De salubri diaeta_5
+16	διὰ	διά	r	r--------	_	15	AuxP	_	t_846|ref=De salubri diaeta_5
+17	τάχεος	τάχος	n	n-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_847|ref=De salubri diaeta_5
+18	κατὰ	κατά	r	r--------	_	15	AuxP	_	t_848|ref=De salubri diaeta_5
+19	μέσον	μέσος	a	a-s---ma-	Case=a|Gender=m|Number=s	18	ADV	_	t_849|ref=De salubri diaeta_5
+20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_850|ref=De salubri diaeta_5
+21	ἡμέρης	ἡμέρα	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_851|ref=De salubri diaeta_5
+22	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=De salubri diaeta_1
+23	·	·	u	u--------	_	22	AuxK	_	t_852|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = ἔστω δὲ ἡμικοτύλιον ὑσσώπου τετριμμένης ἐν ὕδατος χοέϊ , καὶ τοῦτο ἐκπιέτω , ὄξος παραχέων καὶ ἅλας παραβάλλων , ὅκως ἂν μέλλῃ ἥδιστον ἔσεσθαι , πινέτω δὲ τὸ μὲν πρῶτον ἡσυχέστερον , ἔπειτα δʼ ἐπὶ θᾶσσον .
+# sent_id = 48
+1	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_853|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_854|ref=De salubri diaeta_5
+3	ἡμικοτύλιον	ἡμικοτύλιον	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_855|ref=De salubri diaeta_5
+4	ὑσσώπου	ὑσσώπου	n	n-s---mg-	Case=g|Gender=f|Number=s	5	SBJ	_	t_856|ref=De salubri diaeta_5
+5	τετριμμένης	τρίβω	v	v-srpefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	1	ADV	_	t_857|ref=De salubri diaeta_5
+6	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_858|ref=De salubri diaeta_5
+7	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_859|ref=De salubri diaeta_5
+8	χοέϊ	χοεύς	n	n-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_860|ref=De salubri diaeta_5
+9	,	,	u	u--------	_	0	AuxX	_	t_861|ref=De salubri diaeta_5
+10	καὶ	καί	c	c--------	_	27	AuxY	_	t_862|ref=De salubri diaeta_5
+11	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_863|ref=De salubri diaeta_5
+12	ἐκπιέτω	ἐκπίνω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_864|ref=De salubri diaeta_5
+13	,	,	u	u--------	_	9	AuxX	_	t_865|ref=De salubri diaeta_5
+14	ὄξος	ὄξος	n	n-p---ma-	Case=a|Gender=m|Number=p	15	OBJ	_	t_866|ref=De salubri diaeta_5
+15	παραχέων	παραχέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_867|ref=De salubri diaeta_5
+16	καὶ	καί	c	c--------	_	12	COORD	_	t_868|ref=De salubri diaeta_5
+17	ἅλας	ἅλς	n	n-p---ma-	Case=a|Gender=m|Number=p	18	OBJ	_	t_869|ref=De salubri diaeta_5
+18	παραβάλλων	παραβάλλω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_870|ref=De salubri diaeta_5
+19	,	,	u	u--------	_	9	AuxX	_	t_871|ref=De salubri diaeta_5
+20	ὅκως	ὅπως	c	c--------	_	12	AuxC	_	t_872|ref=De salubri diaeta_5
+21	ἂν	ἄν	d	d--------	_	22	AuxY	_	t_873|ref=De salubri diaeta_5
+22	μέλλῃ	μέλλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	20	ADV	_	t_874|ref=De salubri diaeta_5
+23	ἥδιστον	ἡδύς	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	24	PNOM	_	t_875|ref=De salubri diaeta_5
+24	ἔσεσθαι	εἰμί	v	v--fnm---	Mood=n|Tense=f|Voice=m	22	OBJ	_	t_876|ref=De salubri diaeta_5
+25	,	,	u	u--------	_	9	AuxX	_	t_877|ref=De salubri diaeta_5
+26	πινέτω	πίνω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_878|ref=De salubri diaeta_5
+27	δὲ	δέ	g	g--------	_	9	COORD	_	t_879|ref=De salubri diaeta_5
+28	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	ATR	_	t_880|ref=De salubri diaeta_5
+29	μὲν	μέν	d	d--------	_	34	AuxY	_	t_881|ref=De salubri diaeta_5
+30	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	34	ADV	_	t_882|ref=De salubri diaeta_5
+31	ἡσυχέστερον	ἥσυχος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	34	ADV	_	t_883|ref=De salubri diaeta_5
+32	,	,	u	u--------	_	9	AuxX	_	t_884|ref=De salubri diaeta_5
+33	ἔπειτα	ἔπειτα	d	d--------	_	35	AuxZ	_	t_885|ref=De salubri diaeta_5
+34	δʼ	δέ	d	d--------	_	26	COORD	_	t_886|ref=De salubri diaeta_5
+35	ἐπὶ	ἐπί	r	r--------	_	34	AuxP	_	t_887|ref=De salubri diaeta_5
+36	θᾶσσον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	35	ADV	_	t_888|ref=De salubri diaeta_5
+37	.	.	u	u--------	_	9	AuxK	_	t_889|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = Οἱ δὲ λεπτότεροι καὶ ἀσθενέστεροι ἀπὸ σιτίων ποιεέσθωσαν τὸν ἔμετον τρόπον τοιόνδε ·
+# sent_id = 49
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_890|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_891|ref=De salubri diaeta_5
+3	λεπτότεροι	παχύς	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	4	SBJ	_	t_892|ref=De salubri diaeta_5
+4	καὶ	καί	c	c--------	_	8	COORD	_	t_893|ref=De salubri diaeta_5
+5	ἀσθενέστεροι	ἀσθενής	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	4	SBJ	_	t_894|ref=De salubri diaeta_5
+6	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_895|ref=De salubri diaeta_5
+7	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_896|ref=De salubri diaeta_5
+8	ποιεέσθωσαν	ποιέω	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_897|ref=De salubri diaeta_5
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_898|ref=De salubri diaeta_5
+10	ἔμετον	ἔμετος	a	a-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_899|ref=De salubri diaeta_5
+11	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_900|ref=De salubri diaeta_5
+12	τοιόνδε	τοιόσδε	a	a-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_901|ref=De salubri diaeta_5
+13	·	·	u	u--------	_	2	AuxK	_	t_902|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = λουσάμενος θερμῷ προπιέτω ἀκρήτου κοτύλην , ἔπειτα σιτία παντοδαπὰ ἐσθιέτω , καὶ μὴ πινέτω ἐπὶ τῷ σιτίῳ μη δʼ ἀπὸ τοῦ σιτίου , ἀλλʼ ἐπισχέτω ὅσον δέκα στάδια διελθεῖν , ἔπειτα δὲ ξυμμίξας οἴνους τρεῖς πίνειν διδόναι αὐστηρὸν καὶ γλυκὺν καὶ ὀξὺν , πρῶτον μὲν ἀκρητέστερόν τε καὶ κατʼ ὀλίγον καὶ διὰ πολλοῦ χρόνον , ἔπειτα δὲ ὑδαρέστερόν τε καὶ θᾶσσον καὶ κατὰ πολλόν [0] .
+# sent_id = 50
+1	λουσάμενος	λούω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	3	ADV	_	t_903|ref=De salubri diaeta_5
+2	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	1	OBJ	_	t_904|ref=De salubri diaeta_5
+3	προπιέτω	προπίνω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_905|ref=De salubri diaeta_5
+4	ἀκρήτου	ἄκρατος	n	n-s---ng-	Case=g|Gender=m|Number=s	5	ATR	_	t_906|ref=De salubri diaeta_5
+5	κοτύλην	κοτύλη	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_907|ref=De salubri diaeta_5
+6	,	,	u	u--------	_	0	AuxX	_	t_908|ref=De salubri diaeta_5
+7	ἔπειτα	ἔπειτα	d	d--------	_	12	ADV	_	t_909|ref=De salubri diaeta_5
+8	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_910|ref=De salubri diaeta_5
+9	παντοδαπὰ	παντοδαπός	a	a-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_911|ref=De salubri diaeta_5
+10	ἐσθιέτω	ἐσθίω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_912|ref=De salubri diaeta_5
+11	,	,	u	u--------	_	6	AuxX	_	t_913|ref=De salubri diaeta_5
+12	καὶ	καί	c	c--------	_	24	COORD	_	t_914|ref=De salubri diaeta_5
+13	μὴ	μή	d	d--------	_	14	AuxZ	_	t_915|ref=De salubri diaeta_5
+14	πινέτω	πίνω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_916|ref=De salubri diaeta_5
+15	ἐπὶ	ἐπί	r	r--------	_	19	AuxP	_	t_917|ref=De salubri diaeta_5
+16	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	17	ATR	_	t_918|ref=De salubri diaeta_5
+17	σιτίῳ	σιτίον	n	n-s---nd-	Case=d|Gender=n|Number=s	15	ADV	_	t_919|ref=De salubri diaeta_5
+18	μη	μη	d	d--------	_	19	AuxY	_	t_920|ref=De salubri diaeta_5
+19	δʼ	δέ	c	c--------	_	14	COORD	_	t_921|ref=De salubri diaeta_5
+20	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_922|ref=De salubri diaeta_5
+21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_923|ref=De salubri diaeta_5
+22	σιτίου	σιτίον	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ADV	_	t_924|ref=De salubri diaeta_5
+23	,	,	u	u--------	_	6	AuxX	_	t_925|ref=De salubri diaeta_5
+24	ἀλλʼ	ἀλλά	c	c--------	_	6	COORD	_	t_926|ref=De salubri diaeta_5
+25	ἐπισχέτω	ἐπέχω	v	v3sama---	Mood=m|Number=s|Person=3|Tense=a|Voice=a	32	PRED	_	t_927|ref=De salubri diaeta_5
+26	ὅσον	ὅσος	p	p-s---na-	Case=a|Gender=n|Number=s	27	AuxZ	_	t_928|ref=De salubri diaeta_5
+27	δέκα	δέκα	m	m--------	_	28	ATR	_	t_929|ref=De salubri diaeta_5
+28	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	29	ADV	_	t_930|ref=De salubri diaeta_5
+29	διελθεῖν	διέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_931|ref=De salubri diaeta_5
+30	,	,	u	u--------	_	6	AuxX	_	t_932|ref=De salubri diaeta_5
+31	ἔπειτα	ἔπειτα	d	d--------	_	37	ADV	_	t_933|ref=De salubri diaeta_5
+32	δὲ	δέ	c	c--------	_	24	COORD	_	t_934|ref=De salubri diaeta_5
+33	ξυμμίξας	συμμίγνυμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	37	ADV	_	t_935|ref=De salubri diaeta_5
+34	οἴνους	οἶνος	n	n-p---ma-	Case=a|Gender=m|Number=p	37	OBJ	_	t_936|ref=De salubri diaeta_5
+35	τρεῖς	τρεῖς	m	m--------	_	34	ATR	_	t_937|ref=De salubri diaeta_5
+36	πίνειν	πίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	32	PRED	_	t_938|ref=De salubri diaeta_5
+37	διδόναι	δίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	32	PRED	_	t_939|ref=De salubri diaeta_5
+38	αὐστηρὸν	αὐστηρός	a	a-s---ma-	Case=a|Gender=n|Number=s	41	ATR	_	t_940|ref=De salubri diaeta_5
+39	καὶ	καί	c	c--------	_	41	AuxY	_	t_941|ref=De salubri diaeta_5
+40	γλυκὺν	γλυκύς	a	a-s---ma-	Case=a|Gender=m|Number=s	41	ATR	_	t_942|ref=De salubri diaeta_5
+41	καὶ	καί	c	c--------	_	34	COORD	_	t_943|ref=De salubri diaeta_5
+42	ὀξὺν	ὀξύς	a	a-s---ma-	Case=a|Gender=m|Number=s	41	ATR	_	t_944|ref=De salubri diaeta_5
+43	,	,	u	u--------	_	6	AuxX	_	t_945|ref=De salubri diaeta_5
+44	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	65	ADV	_	t_946|ref=De salubri diaeta_5
+45	μὲν	μέν	d	d--------	_	57	AuxY	_	t_947|ref=De salubri diaeta_5
+46	ἀκρητέστερόν	ἄκρατος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	51	ADV	_	t_948|ref=De salubri diaeta_5
+47	τε	τε	c	c--------	_	51	AuxY	_	t_949|ref=De salubri diaeta_5
+48	καὶ	καί	d	d--------	_	51	AuxY	_	t_950|ref=De salubri diaeta_5
+49	κατʼ	κατά	r	r--------	_	48	AuxP	_	t_951|ref=De salubri diaeta_5
+50	ὀλίγον	ὀλίγος	a	a-s---ma-	Case=a|Gender=m|Number=s	49	ATR	_	t_952|ref=De salubri diaeta_5
+51	καὶ	καί	c	c--------	_	65	COORD	_	t_953|ref=De salubri diaeta_5
+52	διὰ	διά	r	r--------	_	51	AuxP	_	t_954|ref=De salubri diaeta_5
+53	πολλοῦ	πολύς	a	a-s---mg-	Case=g|Gender=m|Number=s	52	ADV	_	t_955|ref=De salubri diaeta_5
+54	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	65	ADV	_	t_956|ref=De salubri diaeta_5
+55	,	,	u	u--------	_	6	AuxX	_	t_957|ref=De salubri diaeta_5
+56	ἔπειτα	ἔπειτα	d	d--------	_	65	ADV	_	t_958|ref=De salubri diaeta_5
+57	δὲ	δέ	c	c--------	_	37	COORD	_	t_959|ref=De salubri diaeta_5
+58	ὑδαρέστερόν	ὑδαρής	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	62	ADV	_	t_960|ref=De salubri diaeta_5
+59	τε	τε	c	c--------	_	62	AuxY	_	t_961|ref=De salubri diaeta_5
+60	καὶ	καί	c	c--------	_	62	AuxY	_	t_962|ref=De salubri diaeta_5
+61	θᾶσσον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	62	ADV	_	t_963|ref=De salubri diaeta_5
+62	καὶ	καί	c	c--------	_	57	COORD	_	t_964|ref=De salubri diaeta_5
+63	κατὰ	κατά	r	r--------	_	62	AuxP	_	t_965|ref=De salubri diaeta_5
+64	πολλόν	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	63	ADV	_	t_966|ref=De salubri diaeta_5
+65	[0]	[0]	-	---------	_	57	ADV	_	e_26|ref=De salubri diaeta_1
+66	.	.	u	u--------	_	6	AuxK	_	t_967|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = Ὅστις δὲ εἴωθε τοῦ μηνὸς δὶς ἐξεμέειν , ἄμεινον ἐφεξῆς ποιέεσθαι τοὺς ἐμέτους ἐν δυσὶν ἡμέρῃσι μᾶλλον , ἢ διὰ πεντεκαίδεκα [0] ·
+# sent_id = 51
+1	Ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_968|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_969|ref=De salubri diaeta_5
+3	εἴωθε	ἔθω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	11	SBJ	_	t_970|ref=De salubri diaeta_5
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_971|ref=De salubri diaeta_5
+5	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_972|ref=De salubri diaeta_5
+6	δὶς	δίς	d	d--------	_	7	ADV	_	t_973|ref=De salubri diaeta_5
+7	ἐξεμέειν	ἐξεμέω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_974|ref=De salubri diaeta_5
+8	,	,	u	u--------	_	11	AuxX	_	t_975|ref=De salubri diaeta_5
+9	ἄμεινον	ἀμείνων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	11	OCOMP	_	t_976|ref=De salubri diaeta_5
+10	ἐφεξῆς	ἐφεξῆς	d	d--------	_	11	ADV	_	t_977|ref=De salubri diaeta_5
+11	ποιέεσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	0	PRED	_	t_978|ref=De salubri diaeta_5
+12	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_979|ref=De salubri diaeta_5
+13	ἐμέτους	ἔμετος	a	a-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_980|ref=De salubri diaeta_5
+14	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_981|ref=De salubri diaeta_5
+15	δυσὶν	δύο	a	a-p---fd-	Case=d|Gender=f|Number=p	16	ATR	_	t_982|ref=De salubri diaeta_5
+16	ἡμέρῃσι	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	14	ADV	_	t_983|ref=De salubri diaeta_5
+17	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	9	ADV	_	t_984|ref=De salubri diaeta_5
+18	,	,	u	u--------	_	11	AuxX	_	t_985|ref=De salubri diaeta_5
+19	ἢ	ἤ1	c	c--------	_	17	AuxC	_	t_986|ref=De salubri diaeta_5
+20	διὰ	διά	r	r--------	_	22	AuxP	_	t_987|ref=De salubri diaeta_5
+21	πεντεκαίδεκα	πεντεκαίδεκα	a	a--------	_	20	ADV	_	t_988|ref=De salubri diaeta_5
+22	[0]	[0]	-	---------	_	19	ADV	_	e_27|ref=De salubri diaeta_1
+23	·	·	u	u--------	_	11	AuxK	_	t_989|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = οἱ δὲ πᾶν τ οὐναντίον ποιέουσιν .
+# sent_id = 52
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_990|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_991|ref=De salubri diaeta_5
+3	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_992|ref=De salubri diaeta_5
+4	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_993|ref=De salubri diaeta_5
+5	οὐναντίον	ἐναντίος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_994|ref=De salubri diaeta_5
+6	ποιέουσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_995|ref=De salubri diaeta_5
+7	.	.	u	u--------	_	6	AuxK	_	t_996|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = Ὁκόσοισι δὲ ἐπιτήδειον ἀνεμέειν τὰ σιτία , ἢ ὁκόσοισιν αἱ κοιλίαι οὐκ εὐδιέξοδοι , τουτέοισι πᾶσι ξυμφέρει πολλάκις τῆς ἡμέρης ἐσθίειν , καὶ παντοδαποῖσι βρώμασι χρέεσθαι καὶ ὄψοισι πάντας τρόπους ἐσκευασμένοισι , καὶ οἴνους πίνειν δισσοὺς καὶ τρισσούς [0] [1] ·
+# sent_id = 53
+1	Ὁκόσοισι	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_997|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_998|ref=De salubri diaeta_5
+3	ἐπιτήδειον	ἐπιτήδειος	a	a-s---nn-	Case=n|Gender=n|Number=s	40	PNOM	_	t_999|ref=De salubri diaeta_5
+4	ἀνεμέειν	ἀνέμω	v	v--pna---	Mood=n|Tense=p|Voice=a	33	SBJ	_	t_1000|ref=De salubri diaeta_5
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_1001|ref=De salubri diaeta_5
+6	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1002|ref=De salubri diaeta_5
+7	,	,	u	u--------	_	17	AuxX	_	t_1003|ref=De salubri diaeta_5
+8	ἢ	ἤ1	c	c--------	_	17	COORD	_	t_1004|ref=De salubri diaeta_5
+9	ὁκόσοισιν	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	39	ADV	_	t_1005|ref=De salubri diaeta_5
+10	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_1006|ref=De salubri diaeta_5
+11	κοιλίαι	κοιλία	n	n-p---fn-	Case=n|Gender=f|Number=p	39	SBJ	_	t_1007|ref=De salubri diaeta_5
+12	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_1008|ref=De salubri diaeta_5
+13	εὐδιέξοδοι	εὐδιέξοδος	a	a-p---fn-	Case=n|Gender=f|Number=p	39	PNOM	_	t_1009|ref=De salubri diaeta_5
+14	,	,	u	u--------	_	17	AuxX	_	t_1010|ref=De salubri diaeta_5
+15	τουτέοισι	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	17	OBJ	_	t_1011|ref=De salubri diaeta_5
+16	πᾶσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	15	ATR	_	t_1012|ref=De salubri diaeta_5
+17	ξυμφέρει	συμφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1013|ref=De salubri diaeta_5
+18	πολλάκις	πολλάκις	d	d--------	_	21	ADV	_	t_1014|ref=De salubri diaeta_5
+19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_1015|ref=De salubri diaeta_5
+20	ἡμέρης	ἡμέρα	n	n-s---fg-	Case=g|Gender=f|Number=s	21	OBJ	_	t_1016|ref=De salubri diaeta_5
+21	ἐσθίειν	ἐσθίω	v	v--pna---	Mood=n|Tense=p|Voice=a	33	SBJ	_	t_1017|ref=De salubri diaeta_5
+22	,	,	u	u--------	_	17	AuxX	_	t_1018|ref=De salubri diaeta_5
+23	καὶ	καί	d	d--------	_	33	AuxY	_	t_1019|ref=De salubri diaeta_5
+24	παντοδαποῖσι	παντοδαπός	a	a-p---nd-	Case=d|Gender=n|Number=p	25	ATR	_	t_1020|ref=De salubri diaeta_5
+25	βρώμασι	βρῶμα	n	n-p---nd-	Case=d|Gender=n|Number=p	26	OBJ	_	t_1021|ref=De salubri diaeta_5
+26	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	33	SBJ	_	t_1022|ref=De salubri diaeta_5
+27	καὶ	καί	c	c--------	_	33	AuxY	_	t_1023|ref=De salubri diaeta_5
+28	ὄψοισι	ὄψον	n	n-p---nd-	Case=d|Gender=n|Number=p	31	ADV	_	t_1024|ref=De salubri diaeta_5
+29	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	30	ATR	_	t_1025|ref=De salubri diaeta_5
+30	τρόπους	τρόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	31	ADV	_	t_1026|ref=De salubri diaeta_5
+31	ἐσκευασμένοισι	σκευάζω	v	v-prpemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	27	ADV	_	t_1027|ref=De salubri diaeta_5
+32	,	,	u	u--------	_	17	AuxX	_	t_1028|ref=De salubri diaeta_5
+33	καὶ	καί	c	c--------	_	17	COORD	_	t_1029|ref=De salubri diaeta_5
+34	οἴνους	οἶνος	n	n-p---ma-	Case=a|Gender=m|Number=p	35	OBJ	_	t_1030|ref=De salubri diaeta_5
+35	πίνειν	πίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	33	SBJ	_	t_1031|ref=De salubri diaeta_5
+36	δισσοὺς	δισσός	a	a-p---ma-	Case=a|Gender=m|Number=p	37	ATR	_	t_1032|ref=De salubri diaeta_5
+37	καὶ	καί	c	c--------	_	34	COORD	_	t_1033|ref=De salubri diaeta_5
+38	τρισσούς	τρισσός	a	a-p---ma-	Case=a|Gender=m|Number=p	37	ATR	_	t_1034|ref=De salubri diaeta_5
+39	[0]	[0]	-	---------	_	8	ADV	_	e_28|ref=De salubri diaeta_1
+40	[1]	[1]	-	---------	_	8	ADV	_	e_29|ref=De salubri diaeta_1
+41	·	·	u	u--------	_	17	AuxK	_	t_1035|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = ὁκόσοι δὲ μὴ ἀνεμέουσι τὰ σιτία , ἢ καὶ κοιλίας ἔχουσιν ὑγρὰς , τουτέοισι πᾶσι τ οὐναντίον τουτέου τοῦ τρόπου ξυμφέρει ποιέειν .
+# sent_id = 54
+1	ὁκόσοι	ὅσος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_1036|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_1037|ref=De salubri diaeta_5
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_1038|ref=De salubri diaeta_5
+4	ἀνεμέουσι	ἀνέμω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	8	ATR	_	t_1039|ref=De salubri diaeta_5
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_1040|ref=De salubri diaeta_5
+6	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1041|ref=De salubri diaeta_5
+7	,	,	u	u--------	_	21	AuxX	_	t_1042|ref=De salubri diaeta_5
+8	ἢ	ἤ1	c	c--------	_	14	COORD	_	t_1043|ref=De salubri diaeta_5
+9	καὶ	καί	d	d--------	_	11	AuxZ	_	t_1044|ref=De salubri diaeta_5
+10	κοιλίας	κοιλία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_1045|ref=De salubri diaeta_5
+11	ἔχουσιν	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	8	ATR	_	t_1046|ref=De salubri diaeta_5
+12	ὑγρὰς	ὑγρός	a	a-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_1047|ref=De salubri diaeta_5
+13	,	,	u	u--------	_	21	AuxX	_	t_1048|ref=De salubri diaeta_5
+14	τουτέοισι	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	21	OBJ	_	t_1049|ref=De salubri diaeta_5
+15	πᾶσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	14	ATR	_	t_1050|ref=De salubri diaeta_5
+16	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_1051|ref=De salubri diaeta_5
+17	οὐναντίον	ἐναντίος	a	a-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_1052|ref=De salubri diaeta_5
+18	τουτέου	οὗτος	a	a-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_1053|ref=De salubri diaeta_5
+19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_1054|ref=De salubri diaeta_5
+20	τρόπου	τρόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_1055|ref=De salubri diaeta_5
+21	ξυμφέρει	συμφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1056|ref=De salubri diaeta_5
+22	ποιέειν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	SBJ	_	t_1057|ref=De salubri diaeta_5
+23	.	.	u	u--------	_	21	AuxK	_	t_1058|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5
+# text = 6 .
+# sent_id = 55
+1	6	6	u	u--------	_	0	AuxG	_	t_1059|ref=De salubri diaeta_5
+2	.	.	u	u--------	_	1	AuxK	_	t_1060|ref=De salubri diaeta_5
+
+# source = Hippocrates, De salubri diaeta 5-6
+# text = Τὰ δὲ παιδία χρὴ τὰ νήπια βρέχειν ἐν τῷ θερμῷ ὕδατι ἐπὶ πουλὺν χρόνον , καὶ πίνειν διδόναι ὑδαρέα τὸν οἶνον καὶ μὴ ψυχρὸν παντάπασι , τοῦτον δὲ διδόναι , ὃς ἥκιστα τὴν γαστέρα μετεωριεῖ καὶ φῦσαν παρέξει ·
+# sent_id = 56
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_1061|ref=De salubri diaeta_5
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1062|ref=De salubri diaeta_5
+3	παιδία	παιδίον	n	n-p---na-	Case=a|Gender=n|Number=p	7	SBJ	_	t_1063|ref=De salubri diaeta_5
+4	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1064|ref=De salubri diaeta_5
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_1065|ref=De salubri diaeta_5
+6	νήπια	νήπιος	a	a-p---na-	Case=a|Gender=n|Number=p	7	SBJ	_	t_1066|ref=De salubri diaeta_5
+7	βρέχειν	νίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	28	SBJ	_	t_1067|ref=De salubri diaeta_5
+8	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1068|ref=De salubri diaeta_5
+9	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_1069|ref=De salubri diaeta_5
+10	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_1070|ref=De salubri diaeta_5
+11	ὕδατι	ὕδωρ	n	n-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_1071|ref=De salubri diaeta_5
+12	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_1072|ref=De salubri diaeta_5
+13	πουλὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_1073|ref=De salubri diaeta_5
+14	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_1074|ref=De salubri diaeta_5
+15	,	,	u	u--------	_	4	AuxX	_	t_1075|ref=De salubri diaeta_5
+16	καὶ	καί	c	c--------	_	28	AuxY	_	t_1076|ref=De salubri diaeta_5
+17	πίνειν	πίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	28	SBJ	_	t_1077|ref=De salubri diaeta_5
+18	διδόναι	δίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	28	SBJ	_	t_1078|ref=De salubri diaeta_5
+19	ὑδαρέα	ὑδαρής	a	a-p---na-	Case=a|Gender=m|Number=s	22	ATR	_	t_1079|ref=De salubri diaeta_5
+20	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	21	ATR	_	t_1080|ref=De salubri diaeta_5
+21	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_1081|ref=De salubri diaeta_5
+22	καὶ	καί	c	c--------	_	21	COORD	_	t_1082|ref=De salubri diaeta_5
+23	μὴ	μή	d	d--------	_	24	AuxZ	_	t_1083|ref=De salubri diaeta_5
+24	ψυχρὸν	ψυχρός	a	a-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_1084|ref=De salubri diaeta_5
+25	παντάπασι	παντάπασι	d	d--------	_	18	ADV	_	t_1085|ref=De salubri diaeta_5
+26	,	,	u	u--------	_	18	AuxX	_	t_1086|ref=De salubri diaeta_5
+27	τοῦτον	οὗτος	p	p-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_1087|ref=De salubri diaeta_5
+28	δὲ	δέ	c	c--------	_	4	COORD	_	t_1088|ref=De salubri diaeta_6
+29	διδόναι	δίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	28	SBJ	_	t_1089|ref=De salubri diaeta_6
+30	,	,	u	u--------	_	2	AuxX	_	t_1090|ref=De salubri diaeta_6
+31	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_1091|ref=De salubri diaeta_6
+32	ἥκιστα	ἥκιστος	d	d-------s	Case=a|Gender=n|Number=p	35	ADV	_	t_1092|ref=De salubri diaeta_6
+33	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_1093|ref=De salubri diaeta_6
+34	γαστέρα	γαστήρ	n	n-s---fa-	Case=a|Gender=f|Number=s	35	OBJ	_	t_1094|ref=De salubri diaeta_6
+35	μετεωριεῖ	μετεωρίζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	36	ATR	_	t_1095|ref=De salubri diaeta_6
+36	καὶ	καί	c	c--------	_	27	COORD	_	t_1096|ref=De salubri diaeta_6
+37	φῦσαν	φύω	v	v-sapafa-	Case=a|Gender=f|Number=s	38	OBJ	_	t_1097|ref=De salubri diaeta_6
+38	παρέξει	παρέχω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	36	ATR	_	t_1098|ref=De salubri diaeta_6
+39	·	·	u	u--------	_	2	AuxK	_	t_1099|ref=De salubri diaeta_6
+
+# source = Hippocrates, De salubri diaeta 6
+# text = ταῦτα δὲ ποιέειν , ὅκως οἵ τε σπασμοὶ ἧσσον ἐπιλάβωσι , καὶ μείζονα γένηται καὶ εὐχροώτερα .
+# sent_id = 57
+1	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_1100|ref=De salubri diaeta_6
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1101|ref=De salubri diaeta_6
+3	ποιέειν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_1102|ref=De salubri diaeta_6
+4	,	,	u	u--------	_	3	AuxX	_	t_1103|ref=De salubri diaeta_6
+5	ὅκως	ὅπως	c	c--------	_	3	AuxC	_	t_1104|ref=De salubri diaeta_6
+6	οἵ	ὅς	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_1105|ref=De salubri diaeta_6
+7	τε	τε	d	d--------	_	12	AuxY	_	t_1106|ref=De salubri diaeta_6
+8	σπασμοὶ	σπασμός	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1107|ref=De salubri diaeta_6
+9	ἧσσον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	10	ADV	_	t_1108|ref=De salubri diaeta_6
+10	ἐπιλάβωσι	ἐπιλαμβάνω	v	v3pasa---	Mood=s|Number=p|Person=3|Tense=a|Voice=a	12	ADV	_	t_1109|ref=De salubri diaeta_6
+11	,	,	u	u--------	_	3	AuxX	_	t_1110|ref=De salubri diaeta_6
+12	καὶ	καί	c	c--------	_	5	COORD	_	t_1111|ref=De salubri diaeta_6
+13	μείζονα	μέγας	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	15	PNOM	_	t_1112|ref=De salubri diaeta_6
+14	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	12	ADV	_	t_1113|ref=De salubri diaeta_6
+15	καὶ	καί	c	c--------	_	14	COORD	_	t_1114|ref=De salubri diaeta_6
+16	εὐχροώτερα	εὔχροος	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	15	PNOM	_	t_1115|ref=De salubri diaeta_6
+17	.	.	u	u--------	_	3	AuxK	_	t_1116|ref=De salubri diaeta_6
+
+# source = Hippocrates, De salubri diaeta 6
+# text = Τὰς δὲ γυναῖκας χρὴ διαιτᾶσθαι τῷ ξηροτέρῳ τῶν τρόπων ·
+# sent_id = 58
+1	Τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_1117|ref=De salubri diaeta_6
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1118|ref=De salubri diaeta_6
+3	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	5	SBJ	_	t_1119|ref=De salubri diaeta_6
+4	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1120|ref=De salubri diaeta_6
+5	διαιτᾶσθαι	διαιτάω	v	v--pne---	Mood=n|Tense=p|Voice=e	4	SBJ	_	t_1121|ref=De salubri diaeta_6
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	7	ATR	_	t_1122|ref=De salubri diaeta_6
+7	ξηροτέρῳ	ξηρός	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	5	ADV	_	t_1123|ref=De salubri diaeta_6
+8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_1124|ref=De salubri diaeta_6
+9	τρόπων	τρόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1125|ref=De salubri diaeta_6
+10	·	·	u	u--------	_	4	AuxK	_	t_1126|ref=De salubri diaeta_6
+
+# source = Hippocrates, De salubri diaeta 6
+# text = καὶ γὰρ τὰ σιτία τὰ ξηρὰ ἐπιτηδειότερα πρὸς τὴν μαλθακότητα τῶν γυναικείων σαρκῶν , καὶ τὰ ἀκρητέστερα πόματα ἀμείνω πρὸς τὰς ὑστέρας καὶ τὰς κυοτροφίας [0] [1] .
+# sent_id = 59
+1	καὶ	καί	d	d--------	_	15	AuxY	_	t_1127|ref=De salubri diaeta_6
+2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_1128|ref=De salubri diaeta_6
+3	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_1129|ref=De salubri diaeta_6
+4	σιτία	σιτίον	n	n-p---nn-	Case=n|Gender=n|Number=p	26	SBJ	_	t_1130|ref=De salubri diaeta_6
+5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_1131|ref=De salubri diaeta_6
+6	ξηρὰ	ξηρός	a	a-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_1132|ref=De salubri diaeta_6
+7	ἐπιτηδειότερα	ἐπιτήδειος	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	26	PNOM	_	t_1133|ref=De salubri diaeta_6
+8	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_1134|ref=De salubri diaeta_6
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1135|ref=De salubri diaeta_6
+10	μαλθακότητα	μαλθακότης	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_1136|ref=De salubri diaeta_6
+11	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_1137|ref=De salubri diaeta_6
+12	γυναικείων	γυναικεῖος	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_1138|ref=De salubri diaeta_6
+13	σαρκῶν	σάρξ	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_1139|ref=De salubri diaeta_6
+14	,	,	u	u--------	_	0	AuxX	_	t_1140|ref=De salubri diaeta_6
+15	καὶ	καί	c	c--------	_	14	COORD	_	t_1141|ref=De salubri diaeta_6
+16	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	18	ATR	_	t_1142|ref=De salubri diaeta_6
+17	ἀκρητέστερα	ἄκρατος	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	18	ATR	_	t_1143|ref=De salubri diaeta_6
+18	πόματα	ποτόν	n	n-p---nn-	Case=n|Gender=n|Number=p	27	SBJ	_	t_1144|ref=De salubri diaeta_6
+19	ἀμείνω	ἀμείνων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	27	PNOM	_	t_1145|ref=De salubri diaeta_6
+20	πρὸς	πρός	r	r--------	_	19	AuxP	_	t_1146|ref=De salubri diaeta_6
+21	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	22	ATR	_	t_1147|ref=De salubri diaeta_6
+22	ὑστέρας	ὕστερος	a	a-p---fa-	Case=a|Gender=f|Number=p	23	ADV	_	t_1148|ref=De salubri diaeta_6
+23	καὶ	καί	c	c--------	_	20	COORD	_	t_1149|ref=De salubri diaeta_6
+24	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	25	ATR	_	t_1150|ref=De salubri diaeta_6
+25	κυοτροφίας	κυοτροφία	n	n-p---fa-	Case=a|Gender=f|Number=p	23	ADV	_	t_1151|ref=De salubri diaeta_6
+26	[0]	[0]	-	---------	_	15	PRED	_	e_30|ref=De salubri diaeta_1
+27	[1]	[1]	-	---------	_	15	PRED	_	e_31|ref=De salubri diaeta_1
+28	.	.	u	u--------	_	14	AuxK	_	t_1152|ref=De salubri diaeta_6
+
+# source = Hippocrates, De salubri diaeta 6
+# text = 7 [0] .
+# sent_id = 60
+1	7	7	u	u--------	_	2	AuxG	_	t_1153|ref=De salubri diaeta_6
+2	[0]	[0]	-	---------	_	0	PRED	_	e_32|ref=De salubri diaeta_1
+3	.	.	u	u--------	_	2	AuxK	_	t_1154|ref=De salubri diaeta_6
+
+# source = Hippocrates, De salubri diaeta 6
+# text = Τοὺς γυμναζομένους χρὴ τοῦ χειμῶνος καὶ τρέχειν καὶ παλαίειν , τοῦ δὲ θέρεος παλαίειν μὲν ὀλίγα , τρέχειν δὲ μὴ , περιπατέειν δὲ πολλὰ κατὰ ψῦχος .
+# sent_id = 61
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_1155|ref=De salubri diaeta_6
+2	γυμναζομένους	γυμνάζω	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	8	SBJ	_	t_1156|ref=De salubri diaeta_6
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1157|ref=De salubri diaeta_6
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1158|ref=De salubri diaeta_6
+5	χειμῶνος	χειμών	n	n-s---mg-	Case=g|Gender=m|Number=s	2	OBJ	_	t_1159|ref=De salubri diaeta_6
+6	καὶ	καί	c	c--------	_	8	AuxY	_	t_1160|ref=De salubri diaeta_6
+7	τρέχειν	τρέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_1161|ref=De salubri diaeta_6
+8	καὶ	καί	c	c--------	_	12	COORD	_	t_1162|ref=De salubri diaeta_6
+9	παλαίειν	παλαίω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_1163|ref=De salubri diaeta_6
+10	,	,	u	u--------	_	3	AuxX	_	t_1164|ref=De salubri diaeta_6
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1165|ref=De salubri diaeta_6
+12	δὲ	δέ	d	d--------	_	3	COORD	_	t_1166|ref=De salubri diaeta_6
+13	θέρεος	θέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	14	OBJ	_	t_1167|ref=De salubri diaeta_6
+14	παλαίειν	παλαίω	v	v--pna---	Mood=n|Tense=p|Voice=a	23	SBJ	_	t_1168|ref=De salubri diaeta_6
+15	μὲν	μέν	d	d--------	_	23	AuxY	_	t_1169|ref=De salubri diaeta_6
+16	ὀλίγα	ὀλίγος	a	a-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_1170|ref=De salubri diaeta_6
+17	,	,	u	u--------	_	3	AuxX	_	t_1171|ref=De salubri diaeta_6
+18	τρέχειν	τρέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	23	SBJ	_	t_1172|ref=De salubri diaeta_6
+19	δὲ	δέ	d	d--------	_	23	AuxY	_	t_1173|ref=De salubri diaeta_6
+20	μὴ	μή	d	d--------	_	18	AuxZ	_	t_1174|ref=De salubri diaeta_6
+21	,	,	u	u--------	_	3	AuxX	_	t_1175|ref=De salubri diaeta_6
+22	περιπατέειν	περιπατέω	v	v--pna---	Mood=n|Tense=p|Voice=a	23	SBJ	_	t_1176|ref=De salubri diaeta_6
+23	δὲ	δέ	c	c--------	_	12	COORD	_	t_1177|ref=De salubri diaeta_6
+24	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	22	OBJ	_	t_1178|ref=De salubri diaeta_6
+25	κατὰ	κατά	r	r--------	_	22	AuxP	_	t_1179|ref=De salubri diaeta_6
+26	ψῦχος	ψῦχος	n	n-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_1180|ref=De salubri diaeta_6
+27	.	.	u	u--------	_	3	AuxK	_	t_1181|ref=De salubri diaeta_6
+
+# source = Hippocrates, De salubri diaeta 6-7
+# text = Ὁκόσοι κοπιῶσιν ἐκ τῶν δρόμων , τούτους παλαίειν χρή ·
+# sent_id = 62
+1	Ὁκόσοι	ὅσος	a	a-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_1182|ref=De salubri diaeta_6
+2	κοπιῶσιν	κοπιάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ATR	_	t_1183|ref=De salubri diaeta_6
+3	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_1184|ref=De salubri diaeta_7
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1185|ref=De salubri diaeta_6
+5	δρόμων	δρόμος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ADV	_	t_1186|ref=De salubri diaeta_7
+6	,	,	u	u--------	_	9	AuxX	_	t_1187|ref=De salubri diaeta_7
+7	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_1188|ref=De salubri diaeta_7
+8	παλαίειν	παλαίω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_1189|ref=De salubri diaeta_7
+9	χρή	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1190|ref=De salubri diaeta_7
+10	·	·	u	u--------	_	9	AuxK	_	t_1191|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = ὁκόσοι δὲ παλαίοντες κοπιῶσι , τούτους χρὴ τρέχειν ·
+# sent_id = 63
+1	ὁκόσοι	ὅσος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_1192|ref=De salubri diaeta_7
+2	δὲ	δέ	g	g--------	_	7	AuxY	_	t_1193|ref=De salubri diaeta_7
+3	παλαίοντες	παλαίω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_1194|ref=De salubri diaeta_7
+4	κοπιῶσι	κοπιάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	ATR	_	t_1195|ref=De salubri diaeta_7
+5	,	,	u	u--------	_	7	AuxX	_	t_1196|ref=De salubri diaeta_7
+6	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_1197|ref=De salubri diaeta_7
+7	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1198|ref=De salubri diaeta_7
+8	τρέχειν	τρέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_1199|ref=De salubri diaeta_7
+9	·	·	u	u--------	_	7	AuxK	_	t_1200|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = οὕτω γὰρ ἂν ταλαιπωρέων τῷ κοπιῶντι τοῦ σώματος διαθερμαίνοιτο καὶ ξυνιστῷτο καὶ διαναπαύοιτο μάλιστα .
+# sent_id = 64
+1	οὕτω	οὕτως	d	d--------	_	4	ADV	_	t_1201|ref=De salubri diaeta_7
+2	γὰρ	γάρ	d	d--------	_	12	AuxY	_	t_1202|ref=De salubri diaeta_7
+3	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_1203|ref=De salubri diaeta_7
+4	ταλαιπωρέων	ταλαιπωρέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_1204|ref=De salubri diaeta_7
+5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1205|ref=De salubri diaeta_7
+6	κοπιῶντι	κοπιάω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	OBJ	_	t_1206|ref=De salubri diaeta_7
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1207|ref=De salubri diaeta_7
+8	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1208|ref=De salubri diaeta_7
+9	διαθερμαίνοιτο	διαθερμαίνω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	12	PRED	_	t_1209|ref=De salubri diaeta_7
+10	καὶ	καί	c	c--------	_	12	AuxY	_	t_1210|ref=De salubri diaeta_7
+11	ξυνιστῷτο	συνίστημι	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	12	PRED	_	t_1211|ref=De salubri diaeta_7
+12	καὶ	καί	c	c--------	_	0	COORD	_	t_1212|ref=De salubri diaeta_7
+13	διαναπαύοιτο	διαναπαύω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	12	PRED	_	t_1213|ref=De salubri diaeta_7
+14	μάλιστα	μάλιστα	d	d-------s	Degree=s	12	ADV	_	t_1214|ref=De salubri diaeta_7
+15	.	.	u	u--------	_	12	AuxK	_	t_1215|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Ὁκόσους γυμναζομένους διάῤῥοιαι λαμβάνουσι , καὶ τὰ ὑποχωρήματα σιτώδεα καὶ ἄπεπτα , τουτέοισι τῶν τε γυμνασίων ἀφαιρέειν μὴ ἐλάσσω τοῦ τρίτου μέρεος , καὶ τῶν σιτίων τοῖσιν ἡμίσεσι χρέεσθαι [0] ·
+# sent_id = 65
+1	Ὁκόσους	ὁπόσος	n	n-p---ma-	Case=a|Gender=m|Number=p	24	SBJ	_	t_1216|ref=De salubri diaeta_7
+2	γυμναζομένους	γυμνάζω	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ADV	_	t_1217|ref=De salubri diaeta_7
+3	διάῤῥοιαι	διάῤῥοια	a	a-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_1218|ref=De salubri diaeta_7
+4	λαμβάνουσι	λαμβάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	ADV	_	t_1219|ref=De salubri diaeta_7
+5	,	,	u	u--------	_	30	AuxX	_	t_1220|ref=De salubri diaeta_7
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_1221|ref=De salubri diaeta_7
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_1222|ref=De salubri diaeta_7
+8	ὑποχωρήματα	ὑποχώρημα	n	n-p---na-	Case=a|Gender=n|Number=p	30	OBJ	_	t_1223|ref=De salubri diaeta_7
+9	σιτώδεα	σιτώδης	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_1224|ref=De salubri diaeta_7
+10	καὶ	καί	c	c--------	_	8	COORD	_	t_1225|ref=De salubri diaeta_7
+11	ἄπεπτα	ἄπεπτος	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_1226|ref=De salubri diaeta_7
+12	,	,	u	u--------	_	30	AuxX	_	t_1227|ref=De salubri diaeta_7
+13	τουτέοισι	οὗτος	a	a-p---nd-	Case=d|Gender=n|Number=p	17	OBJ	_	t_1228|ref=De salubri diaeta_7
+14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_1229|ref=De salubri diaeta_7
+15	τε	τε	d	d--------	_	24	AuxY	_	t_1230|ref=De salubri diaeta_7
+16	γυμνασίων	γυμνάσιον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	OBJ	_	t_1231|ref=De salubri diaeta_7
+17	ἀφαιρέειν	ἀφαιρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_1232|ref=De salubri diaeta_7
+18	μὴ	μή	d	d--------	_	19	AuxZ	_	t_1233|ref=De salubri diaeta_7
+19	ἐλάσσω	ἐλάσσων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	17	ADV	_	t_1234|ref=De salubri diaeta_7
+20	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1235|ref=De salubri diaeta_7
+21	τρίτου	τρίτος	a	a-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1236|ref=De salubri diaeta_7
+22	μέρεος	μέρος	n	n-s---ng-	Case=g|Gender=n|Number=s	19	ADV	_	t_1237|ref=De salubri diaeta_7
+23	,	,	u	u--------	_	30	AuxX	_	t_1238|ref=De salubri diaeta_7
+24	καὶ	καί	c	c--------	_	30	COORD	_	t_1239|ref=De salubri diaeta_7
+25	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_1240|ref=De salubri diaeta_7
+26	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	28	ATR	_	t_1241|ref=De salubri diaeta_7
+27	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	28	ATR	_	t_1242|ref=De salubri diaeta_7
+28	ἡμίσεσι	ἥμισυς	n	n-p---md-	Case=d|Gender=n|Number=p	29	OBJ	_	t_1243|ref=De salubri diaeta_7
+29	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	24	OBJ	_	t_1244|ref=De salubri diaeta_7
+30	[0]	[0]	-	---------	_	0	PRED	_	e_33|ref=De salubri diaeta_1
+31	·	·	u	u--------	_	30	AuxK	_	t_1245|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = δῆλον γὰρ δὴ ὅτι ἡ κοιλίη ξυνθάλπειν οὐ δύναται ὥστε πέσσεσθαι τὸ πλῆθος τῶν σιτίων [0] ·
+# sent_id = 66
+1	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_1246|ref=De salubri diaeta_7
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_1247|ref=De salubri diaeta_7
+3	δὴ	δή	d	d--------	_	16	AuxY	_	t_1248|ref=De salubri diaeta_7
+4	ὅτι	ὅτι	c	c--------	_	16	AuxC	_	t_1249|ref=De salubri diaeta_7
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1250|ref=De salubri diaeta_7
+6	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_1251|ref=De salubri diaeta_7
+7	ξυνθάλπειν	σύνθερμαίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_1252|ref=De salubri diaeta_7
+8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_1253|ref=De salubri diaeta_7
+9	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	4	SBJ	_	t_1254|ref=De salubri diaeta_7
+10	ὥστε	ὥστε	c	c--------	_	9	AuxC	_	t_1255|ref=De salubri diaeta_7
+11	πέσσεσθαι	πέσσω	v	v--pne---	Mood=n|Tense=p|Voice=e	10	ADV	_	t_1256|ref=De salubri diaeta_7
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_1257|ref=De salubri diaeta_7
+13	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	11	SBJ	_	t_1258|ref=De salubri diaeta_7
+14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_1259|ref=De salubri diaeta_7
+15	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1260|ref=De salubri diaeta_7
+16	[0]	[0]	-	---------	_	0	PRED	_	e_34|ref=De salubri diaeta_1
+17	·	·	u	u--------	_	16	AuxK	_	t_1261|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = ἔστω δὲ τουτέοισι τὰ σιτία ἄρτος ὡς ἐξοπτότατος , ἐν οἴνῳ ἐντεθρυμμένος , καὶ τὰ ποτὰ ὡς ἐλάχιστα καὶ ἀκρητέστατα , καὶ περιπάτοισι μὴ χρεέσθωσαν ἀπὸ τοῦ σιτίου [0] ·
+# sent_id = 67
+1	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	22	PRED	_	t_1262|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	22	AuxY	_	t_1263|ref=De salubri diaeta_7
+3	τουτέοισι	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_1264|ref=De salubri diaeta_7
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1265|ref=De salubri diaeta_7
+5	σιτία	σιτίον	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_1266|ref=De salubri diaeta_7
+6	ἄρτος	ἄρτος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	PNOM	_	t_1267|ref=De salubri diaeta_7
+7	ὡς	ὡς	d	d--------	_	8	AuxZ	_	t_1268|ref=De salubri diaeta_7
+8	ἐξοπτότατος	ἔξοπτος	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	6	ATR	_	t_1269|ref=De salubri diaeta_7
+9	,	,	u	u--------	_	0	AuxX	_	t_1270|ref=De salubri diaeta_7
+10	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1271|ref=De salubri diaeta_7
+11	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	10	ADV	_	t_1272|ref=De salubri diaeta_7
+12	ἐντεθρυμμένος	ἐντρίβω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	1	ADV	_	t_1273|ref=De salubri diaeta_7
+13	,	,	u	u--------	_	9	AuxX	_	t_1274|ref=De salubri diaeta_7
+14	καὶ	καί	d	d--------	_	22	AuxY	_	t_1275|ref=De salubri diaeta_7
+15	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	16	ATR	_	t_1276|ref=De salubri diaeta_7
+16	ποτὰ	ποτόν	a	a-p---nn-	Case=n|Gender=n|Number=p	29	SBJ	_	t_1277|ref=De salubri diaeta_7
+17	ὡς	ὡς	d	d--------	_	19	AuxZ	_	t_1278|ref=De salubri diaeta_7
+18	ἐλάχιστα	ἐλάχιστος	a	a-p---nns	Case=n|Degree=s|Gender=n|Number=p	19	PNOM	_	t_1279|ref=De salubri diaeta_7
+19	καὶ	καί	c	c--------	_	29	COORD	_	t_1280|ref=De salubri diaeta_7
+20	ἀκρητέστατα	ἄκρατος	a	a-p---nns	Case=n|Degree=s|Gender=n|Number=p	19	PNOM	_	t_1281|ref=De salubri diaeta_7
+21	,	,	u	u--------	_	9	AuxX	_	t_1282|ref=De salubri diaeta_7
+22	καὶ	καί	c	c--------	_	9	COORD	_	t_1283|ref=De salubri diaeta_7
+23	περιπάτοισι	περίπατος	n	n-p---md-	Case=d|Gender=m|Number=p	25	OBJ	_	t_1284|ref=De salubri diaeta_7
+24	μὴ	μή	d	d--------	_	25	AuxZ	_	t_1285|ref=De salubri diaeta_7
+25	χρεέσθωσαν	χράομαι	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	22	PRED	_	t_1286|ref=De salubri diaeta_7
+26	ἀπὸ	ἀπό	r	r--------	_	25	AuxP	_	t_1287|ref=De salubri diaeta_7
+27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_1288|ref=De salubri diaeta_7
+28	σιτίου	σιτίον	n	n-s---ng-	Case=g|Gender=n|Number=s	26	ADV	_	t_1289|ref=De salubri diaeta_7
+29	[0]	[0]	-	---------	_	22	PRED	_	e_35|ref=De salubri diaeta_1
+30	·	·	u	u--------	_	9	AuxK	_	t_1290|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = μονοσιτέειν δὲ χρὴ ὑπὸ τοῦτον τὸν χρόνον ·
+# sent_id = 68
+1	μονοσιτέειν	μονοσιτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_1291|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1292|ref=De salubri diaeta_7
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1293|ref=De salubri diaeta_7
+4	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_1294|ref=De salubri diaeta_7
+5	τοῦτον	οὗτος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1295|ref=De salubri diaeta_7
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1296|ref=De salubri diaeta_7
+7	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_1297|ref=De salubri diaeta_7
+8	·	·	u	u--------	_	3	AuxK	_	t_1298|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = οὕτω γὰρ ἂν μάλιστα ξυνθάλποιτο ἡ κοιλίη , καὶ τῶν ἐσιόντων ἐπικρατοίη .
+# sent_id = 69
+1	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_1299|ref=De salubri diaeta_7
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_1300|ref=De salubri diaeta_7
+3	ἂν	ἄν	d	d--------	_	9	AuxY	_	t_1301|ref=De salubri diaeta_7
+4	μάλιστα	μάλιστα	d	d-------s	Degree=s	5	ADV	_	t_1302|ref=De salubri diaeta_7
+5	ξυνθάλποιτο	συνθάλπω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	9	PRED	_	t_1303|ref=De salubri diaeta_7
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1304|ref=De salubri diaeta_7
+7	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_1305|ref=De salubri diaeta_7
+8	,	,	u	u--------	_	0	AuxX	_	t_1306|ref=De salubri diaeta_7
+9	καὶ	καί	c	c--------	_	8	COORD	_	t_1307|ref=De salubri diaeta_7
+10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1308|ref=De salubri diaeta_7
+11	ἐσιόντων	εἴσειμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	OBJ	_	t_1309|ref=De salubri diaeta_7
+12	ἐπικρατοίη	ἐπικρατέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_1310|ref=De salubri diaeta_7
+13	.	.	u	u--------	_	8	AuxK	_	t_1311|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Γίνεται δὲ ὁ τρόπος οὗτος τῆς διαῤῥοίης τῶν σωμάτων τοῖσι πυκνοσάρκοισι μάλιστα , ὁκόταν ἀναγκάζηται ὥνθρωπος κρεηφαγέειν , τῆς φύσιος ὑπαρχούσης τοιαύτης ·
+# sent_id = 70
+1	Γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1312|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_1313|ref=De salubri diaeta_7
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1314|ref=De salubri diaeta_7
+4	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	PNOM	_	t_1315|ref=De salubri diaeta_7
+5	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1316|ref=De salubri diaeta_7
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1317|ref=De salubri diaeta_7
+7	διαῤῥοίης	διάρροια	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1318|ref=De salubri diaeta_7
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_1319|ref=De salubri diaeta_7
+9	σωμάτων	σῶμα	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1320|ref=De salubri diaeta_7
+10	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=m|Number=p	11	ATR	_	t_1321|ref=De salubri diaeta_7
+11	πυκνοσάρκοισι	πυκνόσαρκος	a	a-p---md-	Case=d|Gender=n|Number=p	1	ADV	_	t_1322|ref=De salubri diaeta_7
+12	μάλιστα	μάλιστα	d	d-------s	Degree=s	11	ADV	_	t_1323|ref=De salubri diaeta_7
+13	,	,	u	u--------	_	1	AuxX	_	t_1324|ref=De salubri diaeta_7
+14	ὁκόταν	ὁπόταν	c	c--------	_	1	AuxC	_	t_1325|ref=De salubri diaeta_7
+15	ἀναγκάζηται	ἀναγκάζω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	14	ADV	_	t_1326|ref=De salubri diaeta_7
+16	ὥνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1327|ref=De salubri diaeta_7
+17	κρεηφαγέειν	κρεηφαγέω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	OBJ	_	t_1328|ref=De salubri diaeta_7
+18	,	,	u	u--------	_	1	AuxX	_	t_1329|ref=De salubri diaeta_7
+19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_1330|ref=De salubri diaeta_7
+20	φύσιος	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	21	SBJ	_	t_1331|ref=De salubri diaeta_7
+21	ὑπαρχούσης	ὑπάρχω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	15	ADV	_	t_1332|ref=De salubri diaeta_7
+22	τοιαύτης	τοιοῦτος	p	p-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_1333|ref=De salubri diaeta_7
+23	·	·	u	u--------	_	1	AuxK	_	t_1334|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = αἱ γὰρ φλέβες πυκνωθεῖσαι οὐκ ἀντιλαμβάνονται τῶν σιτίων τῶν ἐσιόντων ·
+# sent_id = 71
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_1335|ref=De salubri diaeta_7
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_1336|ref=De salubri diaeta_7
+3	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_1337|ref=De salubri diaeta_7
+4	πυκνωθεῖσαι	πυκνόω	v	v-pappfn-	Case=n|Gender=f|Mood=p|Number=p|Tense=a|Voice=p	6	ADV	_	t_1338|ref=De salubri diaeta_7
+5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_1339|ref=De salubri diaeta_7
+6	ἀντιλαμβάνονται	ἀντιλαμβάνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1340|ref=De salubri diaeta_7
+7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1341|ref=De salubri diaeta_7
+8	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	6	OBJ	_	t_1342|ref=De salubri diaeta_7
+9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1343|ref=De salubri diaeta_7
+10	ἐσιόντων	εἴσειμι	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	8	ATR	_	t_1344|ref=De salubri diaeta_7
+11	·	·	u	u--------	_	6	AuxK	_	t_1345|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = ἔστι δὲ αὕτη μὲν ὀξέη ἡ φύσις , καὶ τρέπεται ἐφʼ ἑκάτερα , καὶ ἀκμάζει ὀλίγον χρόνον ἡ εὐεξίη ἐν τοῖσι τοιουτοτρόποισι τῶν σωμάτων .
+# sent_id = 72
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_1346|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_1347|ref=De salubri diaeta_7
+3	αὕτη	οὗτος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1348|ref=De salubri diaeta_7
+4	μὲν	μέν	d	d--------	_	14	AuxY	_	t_1349|ref=De salubri diaeta_7
+5	ὀξέη	ὀξύς	a	a-s---fn-	Case=n|Gender=f|Number=s	1	PNOM	_	t_1350|ref=De salubri diaeta_7
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1351|ref=De salubri diaeta_7
+7	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_1352|ref=De salubri diaeta_7
+8	,	,	u	u--------	_	0	AuxX	_	t_1353|ref=De salubri diaeta_7
+9	καὶ	καί	c	c--------	_	14	AuxY	_	t_1354|ref=De salubri diaeta_7
+10	τρέπεται	τρέπω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	PRED	_	t_1355|ref=De salubri diaeta_7
+11	ἐφʼ	ἐπί	r	r--------	_	10	AuxP	_	t_1356|ref=De salubri diaeta_7
+12	ἑκάτερα	ἑκάτερος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ADV	_	t_1357|ref=De salubri diaeta_7
+13	,	,	u	u--------	_	8	AuxX	_	t_1358|ref=De salubri diaeta_7
+14	καὶ	καί	c	c--------	_	8	COORD	_	t_1359|ref=De salubri diaeta_7
+15	ἀκμάζει	ἀκμάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_1360|ref=De salubri diaeta_7
+16	ὀλίγον	ὀλίγος	a	a-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_1361|ref=De salubri diaeta_7
+17	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_1362|ref=De salubri diaeta_7
+18	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	19	ATR	_	t_1363|ref=De salubri diaeta_7
+19	εὐεξίη	εὐεξία	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_1364|ref=De salubri diaeta_7
+20	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_1365|ref=De salubri diaeta_7
+21	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	22	ATR	_	t_1366|ref=De salubri diaeta_7
+22	τοιουτοτρόποισι	τοιουτότροπος	a	a-p---nd-	Case=d|Gender=n|Number=p	20	ADV	_	t_1367|ref=De salubri diaeta_7
+23	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	24	ATR	_	t_1368|ref=De salubri diaeta_7
+24	σωμάτων	σῶμα	n	n-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_1369|ref=De salubri diaeta_7
+25	.	.	u	u--------	_	8	AuxK	_	t_1370|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Τὰ δὲ ἀραιότερα τῶν εἰδέων καὶ δασύτερα καὶ τὴν κρεηφαγίην δέχεται , καὶ τὰς ταλαιπωρίας μᾶλλον ὑπομένει , καὶ χρονιώτεραι γίνονται αὐτέοισιν αἱ εὐεξίαι .
+# sent_id = 73
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1371|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1372|ref=De salubri diaeta_7
+3	ἀραιότερα	ἀραιός	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	8	SBJ	_	t_1373|ref=De salubri diaeta_7
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1374|ref=De salubri diaeta_7
+5	εἰδέων	εἶδος	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1375|ref=De salubri diaeta_7
+6	καὶ	καί	d	d--------	_	7	AuxZ	_	t_1376|ref=De salubri diaeta_7
+7	δασύτερα	δασύς	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	8	PNOM	_	t_1377|ref=De salubri diaeta_7
+8	καὶ	καί	c	c--------	_	11	COORD	_	t_1378|ref=De salubri diaeta_7
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1379|ref=De salubri diaeta_7
+10	κρεηφαγίην	κρεηφαγία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_1380|ref=De salubri diaeta_7
+11	δέχεται	δέχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_1381|ref=De salubri diaeta_7
+12	,	,	u	u--------	_	11	AuxX	_	t_1382|ref=De salubri diaeta_7
+13	καὶ	καί	c	c--------	_	19	AuxY	_	t_1383|ref=De salubri diaeta_7
+14	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	15	ATR	_	t_1384|ref=De salubri diaeta_7
+15	ταλαιπωρίας	ταλαιπωρία	n	n-p---fa-	Case=a|Gender=f|Number=p	17	OBJ	_	t_1385|ref=De salubri diaeta_7
+16	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	17	ADV	_	t_1386|ref=De salubri diaeta_7
+17	ὑπομένει	ὑπομένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	PRED	_	t_1387|ref=De salubri diaeta_7
+18	,	,	u	u--------	_	11	AuxX	_	t_1388|ref=De salubri diaeta_7
+19	καὶ	καί	c	c--------	_	2	COORD	_	t_1389|ref=De salubri diaeta_7
+20	χρονιώτεραι	χρόνιος	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	21	PNOM	_	t_1390|ref=De salubri diaeta_7
+21	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	19	PRED	_	t_1391|ref=De salubri diaeta_7
+22	αὐτέοισιν	αὐτός	p	p-p---nd-	Case=d|Gender=n|Number=p	24	ATR	_	t_1392|ref=De salubri diaeta_7
+23	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	24	ATR	_	t_1393|ref=De salubri diaeta_7
+24	εὐεξίαι	εὐεξία	n	n-p---fn-	Case=n|Gender=f|Number=p	21	SBJ	_	t_1394|ref=De salubri diaeta_7
+25	.	.	u	u--------	_	2	AuxK	_	t_1395|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Καὶ ὁκόσοι τὰ σιτία ἀνερεύγονται τῇ ὑστεραίῃ , καὶ τὰ ὑποχόνδρια μετεωρίζεται αὐτέοισιν ὡς ἀπέπτων τῶν σιτίων ἐόντων , τουτέοισι καθεύδειν μὲν πλείονα χρόνον ξυμφέρει , τῇ δὲ ἄλλῃ ταλαιπωρίῃ ἀναγκάζειν χρὴ αὐτῶν τὰ σώματα , καὶ τὸν οἶνον ἀκρητεστέρον πινόντων καὶ πλείω , καὶ τοῖσι σιτίοισιν ἐλάσσοσι χρέεσθαι ὑπὸ τοῦτον τὸν χρόνον ·
+# sent_id = 74
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1396|ref=De salubri diaeta_7
+2	ὁκόσοι	ὅσος	p	p-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1397|ref=De salubri diaeta_7
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_1398|ref=De salubri diaeta_7
+4	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_1399|ref=De salubri diaeta_7
+5	ἀνερεύγονται	ἀνέρχομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	9	SBJ	_	t_1400|ref=De salubri diaeta_7
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_1401|ref=De salubri diaeta_7
+7	ὑστεραίῃ	ὑστεραῖος	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_1402|ref=De salubri diaeta_7
+8	,	,	u	u--------	_	5	AuxX	_	t_1403|ref=De salubri diaeta_7
+9	καὶ	καί	c	c--------	_	28	COORD	_	t_1404|ref=De salubri diaeta_7
+10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_1405|ref=De salubri diaeta_7
+11	ὑποχόνδρια	ὑποχόνδριον	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_1406|ref=De salubri diaeta_7
+12	μετεωρίζεται	μετεωρίζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	ATR	_	t_1407|ref=De salubri diaeta_7
+13	αὐτέοισιν	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_1408|ref=De salubri diaeta_7
+14	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_1409|ref=De salubri diaeta_7
+15	ἀπέπτων	ἄπεφθος	a	a-p---ng-	Case=g|Gender=n|Number=p	18	PNOM	_	t_1410|ref=De salubri diaeta_7
+16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_1411|ref=De salubri diaeta_7
+17	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	18	SBJ	_	t_1412|ref=De salubri diaeta_7
+18	ἐόντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_1413|ref=De salubri diaeta_7
+19	,	,	u	u--------	_	12	AuxX	_	t_1414|ref=De salubri diaeta_7
+20	τουτέοισι	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	25	OBJ	_	t_1415|ref=De salubri diaeta_7
+21	καθεύδειν	καθεύδω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	SBJ	_	t_1416|ref=De salubri diaeta_7
+22	μὲν	μέν	d	d--------	_	28	AuxY	_	t_1417|ref=De salubri diaeta_7
+23	πλείονα	πλείων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	24	ATR	_	t_1418|ref=De salubri diaeta_7
+24	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	ADV	_	t_1419|ref=De salubri diaeta_7
+25	ξυμφέρει	συμφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	28	PRED	_	t_1420|ref=De salubri diaeta_7
+26	,	,	u	u--------	_	25	AuxX	_	t_1421|ref=De salubri diaeta_7
+27	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	30	ATR	_	t_1422|ref=De salubri diaeta_7
+28	δὲ	δέ	d	d--------	_	1	COORD	_	t_1423|ref=De salubri diaeta_7
+29	ἄλλῃ	ἄλλῃ	a	a-s---fd-	Case=d|Gender=f|Number=s	30	ATR	_	t_1424|ref=De salubri diaeta_7
+30	ταλαιπωρίῃ	ταλαιπωρία	n	n-s---fd-	Case=d|Gender=f|Number=s	31	ADV	_	t_1425|ref=De salubri diaeta_7
+31	ἀναγκάζειν	ἀναγκάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	45	SBJ	_	t_1426|ref=De salubri diaeta_7
+32	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	28	PRED	_	t_1427|ref=De salubri diaeta_7
+33	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	35	ATR	_	t_1428|ref=De salubri diaeta_7
+34	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	35	ATR	_	t_1429|ref=De salubri diaeta_7
+35	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_1430|ref=De salubri diaeta_7
+36	,	,	u	u--------	_	32	AuxX	_	t_1431|ref=De salubri diaeta_7
+37	καὶ	καί	c	c--------	_	45	AuxY	_	t_1432|ref=De salubri diaeta_7
+38	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	39	ATR	_	t_1433|ref=De salubri diaeta_7
+39	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	41	OBJ	_	t_1434|ref=De salubri diaeta_7
+40	ἀκρητεστέρον	ἀκρητής	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	42	ATR	_	t_1435|ref=De salubri diaeta_7
+41	πινόντων	πίνω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	45	ADV	_	t_1436|ref=De salubri diaeta_7
+42	καὶ	καί	c	c--------	_	41	COORD	_	t_1437|ref=De salubri diaeta_7
+43	πλείω	πλείων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	42	ATR	_	t_1438|ref=De salubri diaeta_7
+44	,	,	u	u--------	_	41	AuxX	_	t_1439|ref=De salubri diaeta_7
+45	καὶ	καί	c	c--------	_	32	COORD	_	t_1440|ref=De salubri diaeta_7
+46	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	47	ATR	_	t_1441|ref=De salubri diaeta_7
+47	σιτίοισιν	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	49	OBJ	_	t_1442|ref=De salubri diaeta_7
+48	ἐλάσσοσι	ἐλάσσων	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	47	ATR	_	t_1443|ref=De salubri diaeta_7
+49	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	45	SBJ	_	t_1444|ref=De salubri diaeta_7
+50	ὑπὸ	ὑπό	r	r--------	_	49	AuxP	_	t_1445|ref=De salubri diaeta_7
+51	τοῦτον	οὗτος	p	p-s---ma-	Case=a|Gender=m|Number=s	53	ATR	_	t_1446|ref=De salubri diaeta_7
+52	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	53	ATR	_	t_1447|ref=De salubri diaeta_7
+53	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	50	ADV	_	t_1448|ref=De salubri diaeta_7
+54	·	·	u	u--------	_	1	AuxK	_	t_1449|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = δῆλον γὰρ δὴ ὅτι ἡ κοιλίη ὑπὸ ἀσθενείης καὶ ψυχρότητος οὐ δύναται τὸ πλῆθος τῶν σιτίων καταπέσσειν [0] .
+# sent_id = 75
+1	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1450|ref=De salubri diaeta_7
+2	γὰρ	γάρ	d	d--------	_	18	AuxY	_	t_1451|ref=De salubri diaeta_7
+3	δὴ	δή	d	d--------	_	18	AuxY	_	t_1452|ref=De salubri diaeta_7
+4	ὅτι	ὅτι	c	c--------	_	18	AuxC	_	t_1453|ref=De salubri diaeta_7
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1454|ref=De salubri diaeta_7
+6	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_1455|ref=De salubri diaeta_7
+7	ὑπὸ	ὑπό	r	r--------	_	12	AuxP	_	t_1456|ref=De salubri diaeta_7
+8	ἀσθενείης	ἀσθενής	n	n-s---fg-	Case=g|Gender=f|Number=s	9	OBJ	_	t_1457|ref=De salubri diaeta_7
+9	καὶ	καί	c	c--------	_	7	COORD	_	t_1458|ref=De salubri diaeta_7
+10	ψυχρότητος	ψυχρότης	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_1459|ref=De salubri diaeta_7
+11	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_1460|ref=De salubri diaeta_7
+12	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	4	SBJ	_	t_1461|ref=De salubri diaeta_7
+13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_1462|ref=De salubri diaeta_7
+14	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_1463|ref=De salubri diaeta_7
+15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_1464|ref=De salubri diaeta_7
+16	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_1465|ref=De salubri diaeta_7
+17	καταπέσσειν	καταπίπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_1466|ref=De salubri diaeta_7
+18	[0]	[0]	-	---------	_	0	PRED	_	e_36|ref=De salubri diaeta_1
+19	.	.	u	u--------	_	18	AuxK	_	t_1467|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Ὁκόσους δὲ δίψαι λαμβάνουσι , τουτέοισι τῶν τε σιτίων καὶ τῶν ταλαιπωριέων ἀφαιρέειν , καὶ τὸν οἶνον πινόντων ὑδαρέα τε καὶ ὅτι ψυχρότατον [0] [1] .
+# sent_id = 76
+1	Ὁκόσους	ὁπόσος	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_1468|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1469|ref=De salubri diaeta_7
+3	δίψαι	δίψα	n	n-p---fn-	Mood=n|Tense=a|Voice=a	4	OCOMP	_	t_1470|ref=De salubri diaeta_7
+4	λαμβάνουσι	λαμβάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1471|ref=De salubri diaeta_7
+5	,	,	u	u--------	_	4	AuxX	_	t_1472|ref=De salubri diaeta_7
+6	τουτέοισι	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_1473|ref=De salubri diaeta_7
+7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_1474|ref=De salubri diaeta_7
+8	τε	τε	d	d--------	_	10	AuxY	_	t_1475|ref=De salubri diaeta_7
+9	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	10	OBJ	_	t_1476|ref=De salubri diaeta_7
+10	καὶ	καί	c	c--------	_	13	COORD	_	t_1477|ref=De salubri diaeta_7
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_1478|ref=De salubri diaeta_7
+12	ταλαιπωριέων	ταλαιπωρία	a	a-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_1479|ref=De salubri diaeta_7
+13	ἀφαιρέειν	ἀφαιρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	OBJ	_	t_1480|ref=De salubri diaeta_7
+14	,	,	u	u--------	_	4	AuxX	_	t_1481|ref=De salubri diaeta_7
+15	καὶ	καί	c	c--------	_	4	COORD	_	t_1482|ref=De salubri diaeta_7
+16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_1483|ref=De salubri diaeta_7
+17	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_1484|ref=De salubri diaeta_7
+18	πινόντων	πίνω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	21	ATR	_	t_1485|ref=De salubri diaeta_7
+19	ὑδαρέα	ὑδαρής	a	a-s---ma-	Case=a|Gender=m|Number=s	21	OCOMP	_	t_1486|ref=De salubri diaeta_7
+20	τε	τε	d	d--------	_	21	AuxY	_	t_1487|ref=De salubri diaeta_7
+21	καὶ	καί	c	c--------	_	13	COORD	_	t_1488|ref=De salubri diaeta_7
+22	ὅτι	ὅτι	c	c--------	_	24	AuxC	_	t_1489|ref=De salubri diaeta_7
+23	ψυχρότατον	ψυχρός	a	a-s---mas	Case=a|Degree=s|Gender=m|Number=s	24	PNOM	_	t_1490|ref=De salubri diaeta_7
+24	[0]	[0]	-	---------	_	21	OBJ	_	e_37|ref=De salubri diaeta_1
+25	[1]	[1]	-	---------	_	22	ADV	_	e_38|ref=De salubri diaeta_1
+26	.	.	u	u--------	_	4	AuxK	_	t_1491|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Ὁκόσοισι δὲ ὀδύναι γίνονται τῶν σπλάγχνων ἢ ἐκ γυμνασίης ἢ ἐξ ἄλλης τινὸς ταλαιπωρίης , τουτέοισι ξυμφέρει ἀναπαύεσθαι ἀσίτοισι , πόματι δὲ χρέεσθαι ὅ τι ἐλάχιστον ἐς τὸ σῶμα ἐσελθὸν πλεῖστον οὖρον διάξει , ὅπως αἱ φλέβες αἱ διὰ τῶν σπλάγχνων πεφυκυῖαι μὴ κατατείνωνται πληρεύμεναι ·
+# sent_id = 77
+1	Ὁκόσοισι	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_1492|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1493|ref=De salubri diaeta_7
+3	ὀδύναι	ὀδύνη	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_1494|ref=De salubri diaeta_7
+4	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1495|ref=De salubri diaeta_7
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1496|ref=De salubri diaeta_7
+6	σπλάγχνων	σπλάγχνον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1497|ref=De salubri diaeta_7
+7	ἢ	ἤ1	c	c--------	_	10	AuxY	_	t_1498|ref=De salubri diaeta_7
+8	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_1499|ref=De salubri diaeta_7
+9	γυμνασίης	γυμνασία	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_1500|ref=De salubri diaeta_7
+10	ἢ	ἤ1	c	c--------	_	4	COORD	_	t_1501|ref=De salubri diaeta_7
+11	ἐξ	ἐκ	r	r--------	_	10	AuxP	_	t_1502|ref=De salubri diaeta_7
+12	ἄλλης	ἄλλος	p	p-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_1503|ref=De salubri diaeta_7
+13	τινὸς	τις	p	p-s---cg-	Case=g|Gender=c|Number=s	14	ATR	_	t_1504|ref=De salubri diaeta_7
+14	ταλαιπωρίης	ταλαιπωρία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_1505|ref=De salubri diaeta_7
+15	,	,	u	u--------	_	4	AuxX	_	t_1506|ref=De salubri diaeta_7
+16	τουτέοισι	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	17	OBJ	_	t_1507|ref=De salubri diaeta_7
+17	ξυμφέρει	συμφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	PRED	_	t_1508|ref=De salubri diaeta_7
+18	ἀναπαύεσθαι	ἀναπαύω	v	v--pne---	Mood=n|Tense=p|Voice=e	22	SBJ	_	t_1509|ref=De salubri diaeta_7
+19	ἀσίτοισι	ἄσιτος	n	n-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_1510|ref=De salubri diaeta_7
+20	,	,	u	u--------	_	4	AuxX	_	t_1511|ref=De salubri diaeta_7
+21	πόματι	ποτόν	n	n-s---nd-	Case=d|Gender=n|Number=s	23	OBJ	_	t_1512|ref=De salubri diaeta_7
+22	δὲ	δέ	d	d--------	_	17	COORD	_	t_1513|ref=De salubri diaeta_7
+23	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	22	SBJ	_	t_1514|ref=De salubri diaeta_7
+24	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	33	SBJ	_	t_1515|ref=De salubri diaeta_7
+25	τι	τις	a	a-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_1516|ref=De salubri diaeta_7
+26	ἐλάχιστον	ἐλαχύς	a	a-s---ma-	Case=a|Degree=s|Gender=n|Number=s	32	ATR	_	t_1517|ref=De salubri diaeta_7
+27	ἐς	εἰς	r	r--------	_	30	AuxP	_	t_1518|ref=De salubri diaeta_7
+28	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_1519|ref=De salubri diaeta_7
+29	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	27	OBJ	_	t_1520|ref=De salubri diaeta_7
+30	ἐσελθὸν	εἰσέρχομαι	v	v-sapann-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	33	ADV	_	t_1521|ref=De salubri diaeta_7
+31	πλεῖστον	πλεῖστος	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	32	ATR	_	t_1522|ref=De salubri diaeta_7
+32	οὖρον	οὖρος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OBJ	_	t_1523|ref=De salubri diaeta_7
+33	διάξει	διάγω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	23	ADV	_	t_1524|ref=De salubri diaeta_7
+34	,	,	u	u--------	_	4	AuxX	_	t_1525|ref=De salubri diaeta_7
+35	ὅπως	ὅπως	c	c--------	_	23	AuxC	_	t_1526|ref=De salubri diaeta_7
+36	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	37	ATR	_	t_1527|ref=De salubri diaeta_7
+37	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	44	SBJ	_	t_1528|ref=De salubri diaeta_7
+38	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	37	ATR	_	t_1529|ref=De salubri diaeta_7
+39	διὰ	διά	r	r--------	_	42	AuxP	_	t_1530|ref=De salubri diaeta_7
+40	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	41	ATR	_	t_1531|ref=De salubri diaeta_7
+41	σπλάγχνων	σπλάγχνον	n	n-p---ng-	Case=g|Gender=n|Number=p	39	ADV	_	t_1532|ref=De salubri diaeta_7
+42	πεφυκυῖαι	φύω	v	v-prpafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=r|Voice=a	37	ATR	_	t_1533|ref=De salubri diaeta_7
+43	μὴ	μή	d	d--------	_	44	AuxZ	_	t_1534|ref=De salubri diaeta_7
+44	κατατείνωνται	κατατείνω	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	35	ADV	_	t_1535|ref=De salubri diaeta_7
+45	πληρεύμεναι	πληρόω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	44	ADV	_	t_1536|ref=De salubri diaeta_7
+46	·	·	u	u--------	_	4	AuxK	_	t_1537|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = ἐκ γὰρ τῶν τοιουτέων τά τε φύματα γίνονται καὶ οἱ πυρετοί .
+# sent_id = 78
+1	ἐκ	ἐκ	r	r--------	_	8	AuxP	_	t_1538|ref=De salubri diaeta_7
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_1539|ref=De salubri diaeta_7
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1540|ref=De salubri diaeta_7
+4	τοιουτέων	τοιοῦτος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	PNOM	_	t_1541|ref=De salubri diaeta_7
+5	τά	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_1542|ref=De salubri diaeta_7
+6	τε	τε	d	d--------	_	9	AuxY	_	t_1543|ref=De salubri diaeta_7
+7	φύματα	φύσημα	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1544|ref=De salubri diaeta_7
+8	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1545|ref=De salubri diaeta_7
+9	καὶ	καί	c	c--------	_	8	COORD	_	t_1546|ref=De salubri diaeta_7
+10	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	ATR	_	t_1547|ref=De salubri diaeta_7
+11	πυρετοί	πυρετός	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_1548|ref=De salubri diaeta_7
+12	.	.	u	u--------	_	8	AuxK	_	t_1549|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = 8 [0] .
+# sent_id = 79
+1	8	8	x	x--------	_	2	AuxK	_	t_1550|ref=De salubri diaeta_7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_39|ref=De salubri diaeta_1
+3	.	.	u	u--------	_	2	AuxK	_	t_1551|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = Ὁκόσοισι δὲ νοῦσοι ἀπὸ τοῦ ἐγκεφάλου γίνονται , νάρκη πρῶτον ἴσχει τὴν κεφαλὴν , καὶ οὐρέει θαμινὰ , καὶ τ ἄλλα πάσχει ὁκόσα ἐπὶ στραγγουρίῃ [0] ·
+# sent_id = 80
+1	Ὁκόσοισι	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	3	ATR	_	t_1552|ref=De salubri diaeta_7
+2	δὲ	δέ	d	d--------	_	19	AuxY	_	t_1553|ref=De salubri diaeta_7
+3	νοῦσοι	νοῦσος	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_1554|ref=De salubri diaeta_7
+4	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_1555|ref=De salubri diaeta_7
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1556|ref=De salubri diaeta_7
+6	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_1557|ref=De salubri diaeta_7
+7	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	19	PRED	_	t_1558|ref=De salubri diaeta_7
+8	,	,	u	u--------	_	0	AuxX	_	t_1559|ref=De salubri diaeta_7
+9	νάρκη	νάρκη	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_1560|ref=De salubri diaeta_7
+10	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_1561|ref=De salubri diaeta_7
+11	ἴσχει	ἴσχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	PRED	_	t_1562|ref=De salubri diaeta_7
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1563|ref=De salubri diaeta_7
+13	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_1564|ref=De salubri diaeta_7
+14	,	,	u	u--------	_	8	AuxX	_	t_1565|ref=De salubri diaeta_7
+15	καὶ	καί	c	c--------	_	19	AuxY	_	t_1566|ref=De salubri diaeta_7
+16	οὐρέει	οὐρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	PRED	_	t_1567|ref=De salubri diaeta_7
+17	θαμινὰ	θαμινός	a	a-p---na-	Case=a|Gender=n|Number=p	16	ADV	_	t_1568|ref=De salubri diaeta_7
+18	,	,	u	u--------	_	8	AuxX	_	t_1569|ref=De salubri diaeta_7
+19	καὶ	καί	c	c--------	_	8	COORD	_	t_1570|ref=De salubri diaeta_7
+20	τ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	21	ATR	_	t_1571|ref=De salubri diaeta_7
+21	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	22	OBJ	_	t_1572|ref=De salubri diaeta_7
+22	πάσχει	πάσχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	PRED	_	t_1573|ref=De salubri diaeta_7
+23	ὁκόσα	ὁπόσος	a	a-p---na-	Case=a|Gender=n|Number=p	22	ADV	_	t_1574|ref=De salubri diaeta_7
+24	ἐπὶ	ἐπί	r	r--------	_	26	AuxP	_	t_1575|ref=De salubri diaeta_7
+25	στραγγουρίῃ	στραγγουρία	n	n-s---fd-	Case=d|Gender=f|Number=s	24	ADV	_	t_1576|ref=De salubri diaeta_7
+26	[0]	[0]	-	---------	_	22	ADV	_	e_40|ref=De salubri diaeta_1
+27	·	·	u	u--------	_	8	AuxK	_	t_1577|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7
+# text = οὗτος ἐφʼ ἡμέρας ἐννέα τοῦτο πάσχει ·
+# sent_id = 81
+1	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1578|ref=De salubri diaeta_7
+2	ἐφʼ	ἐπί	r	r--------	_	6	AuxP	_	t_1579|ref=De salubri diaeta_7
+3	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	2	ADV	_	t_1580|ref=De salubri diaeta_7
+4	ἐννέα	ἐννέα	a	a--------	_	3	ATR	_	t_1581|ref=De salubri diaeta_7
+5	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_1582|ref=De salubri diaeta_7
+6	πάσχει	πάσχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1583|ref=De salubri diaeta_7
+7	·	·	u	u--------	_	6	AuxK	_	t_1584|ref=De salubri diaeta_7
+
+# source = Hippocrates, De salubri diaeta 7-8
+# text = καὶ ἢν μὲν ῥαγῇ κατὰ τὰς ῥῖνας ἢ κατὰ τὰ ὦτα ὕδωρ ἢ βλέννα , ἀπαλλάσσεται τῆς νούσου , καὶ τῆς στραγγουρίης παύεται ·
+# sent_id = 82
+1	καὶ	καί	d	d--------	_	20	AuxY	_	t_1585|ref=De salubri diaeta_7
+2	ἢν	ἐάν	c	c--------	_	16	AuxC	_	t_1586|ref=De salubri diaeta_7
+3	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1587|ref=De salubri diaeta_7
+4	ῥαγῇ	ῥήγνυμι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_1588|ref=De salubri diaeta_8
+5	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_1589|ref=De salubri diaeta_7
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_1590|ref=De salubri diaeta_8
+7	ῥῖνας	ῥίς	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_1591|ref=De salubri diaeta_8
+8	ἢ	ἤ1	c	c--------	_	4	COORD	_	t_1592|ref=De salubri diaeta_8
+9	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_1593|ref=De salubri diaeta_8
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_1594|ref=De salubri diaeta_8
+11	ὦτα	οὖς	n	n-p---na-	Case=a|Gender=n|Number=p	9	ADV	_	t_1595|ref=De salubri diaeta_8
+12	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	13	OBJ	_	t_1596|ref=De salubri diaeta_8
+13	ἢ	ἤ1	c	c--------	_	4	COORD	_	t_1597|ref=De salubri diaeta_8
+14	βλέννα	βλέννα	n	n-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_1598|ref=De salubri diaeta_8
+15	,	,	u	u--------	_	0	AuxX	_	t_1599|ref=De salubri diaeta_8
+16	ἀπαλλάσσεται	ἀπαλλάσσω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	20	PRED	_	t_1600|ref=De salubri diaeta_8
+17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_1601|ref=De salubri diaeta_8
+18	νούσου	νοῦσος	n	n-s---fg-	Case=g|Gender=f|Number=s	16	OBJ	_	t_1602|ref=De salubri diaeta_8
+19	,	,	u	u--------	_	15	AuxX	_	t_1603|ref=De salubri diaeta_8
+20	καὶ	καί	c	c--------	_	15	COORD	_	t_1604|ref=De salubri diaeta_8
+21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_1605|ref=De salubri diaeta_8
+22	στραγγουρίης	στραγγουρία	n	n-s---fg-	Case=g|Gender=f|Number=s	23	OBJ	_	t_1606|ref=De salubri diaeta_8
+23	παύεται	παύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	20	PRED	_	t_1607|ref=De salubri diaeta_8
+24	·	·	u	u--------	_	15	AuxK	_	t_1608|ref=De salubri diaeta_8
+
+# source = Hippocrates, De salubri diaeta 8
+# text = οὐρέει δὲ ἀπόνως πουλὺ καὶ λευκὸν , ἔστʼ ἂν εἴκοσιν ἡμέρας παρέλθῃ ·
+# sent_id = 83
+1	οὐρέει	οὐρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1609|ref=De salubri diaeta_8
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_1610|ref=De salubri diaeta_8
+3	ἀπόνως	ἄπονος	d	d--------	_	1	ADV	_	t_1611|ref=De salubri diaeta_8
+4	πουλὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1612|ref=De salubri diaeta_8
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_1613|ref=De salubri diaeta_8
+6	λευκὸν	λευκός	a	a-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_1614|ref=De salubri diaeta_8
+7	,	,	u	u--------	_	8	AuxX	_	t_1615|ref=De salubri diaeta_8
+8	ἔστʼ	εἰμί	c	c--------	_	1	AuxC	_	t_1616|ref=De salubri diaeta_7
+9	ἂν	ἄν	g	g--------	_	12	AuxY	_	t_1617|ref=De salubri diaeta_8
+10	εἴκοσιν	εἴκοσι	m	m--------	_	11	ATR	_	t_1618|ref=De salubri diaeta_8
+11	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	12	ADV	_	t_1619|ref=De salubri diaeta_8
+12	παρέλθῃ	παρέρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_1620|ref=De salubri diaeta_8
+13	·	·	u	u--------	_	2	AuxK	_	t_1621|ref=De salubri diaeta_8
+
+# source = Hippocrates, De salubri diaeta 8
+# text = καὶ ἐκ τῆς κεφαλῆς ἡ ὀδύνη ἐκλείπει τῷ ἀνθρώπῳ , ἐσορέοντι δὲ βλάπτεταί οἱ ἡ αὐγή .
+# sent_id = 84
+1	καὶ	καί	c	c--------	_	7	AuxY	_	t_1622|ref=De salubri diaeta_8
+2	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_1623|ref=De salubri diaeta_8
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1624|ref=De salubri diaeta_8
+4	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_1625|ref=De salubri diaeta_8
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1626|ref=De salubri diaeta_8
+6	ὀδύνη	ὀδύνη	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1627|ref=De salubri diaeta_8
+7	ἐκλείπει	ἐπιλείπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_1628|ref=De salubri diaeta_8
+8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_1629|ref=De salubri diaeta_8
+9	ἀνθρώπῳ	ἄνθρωπος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_1630|ref=De salubri diaeta_8
+10	,	,	u	u--------	_	0	AuxX	_	t_1631|ref=De salubri diaeta_8
+11	ἐσορέοντι	εἰσοράω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	ATR	_	t_1632|ref=De salubri diaeta_8
+12	δὲ	δέ	d	d--------	_	10	COORD	_	t_1633|ref=De salubri diaeta_8
+13	βλάπτεταί	βλάπτω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	12	PRED	_	t_1634|ref=De salubri diaeta_8
+14	οἱ	ὁ	p	p-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_1635|ref=De salubri diaeta_8
+15	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_1636|ref=De salubri diaeta_8
+16	αὐγή	αὐγή	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1637|ref=De salubri diaeta_8
+17	.	.	u	u--------	_	10	AuxK	_	t_1638|ref=De salubri diaeta_8
+
+# source = Hippocrates, De salubri diaeta 8
+# text = 9 [0] .
+# sent_id = 85
+1	9	9	x	x--------	_	2	AuxK	_	t_1639|ref=De salubri diaeta_8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_41|ref=De salubri diaeta_1
+3	.	.	u	u--------	_	2	AuxK	_	t_1640|ref=De salubri diaeta_8
+
+# source = Hippocrates, De salubri diaeta 8
+# text = Ἄνδρα δὲ χρὴ , ὅς ἐστι συνετὸς , λογισάμενον ὅτι τοῖσιν ἀνθρώποισι πλείστου ἄξιόν ἐστιν ἡ ὑγιείη , ἐπίστασθαι ἐκ τῆς ἑωυτοῦ γνώμης ἐν τῇσι νούσοισιν ὠφελέεσθαι .
+# sent_id = 86
+1	Ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	19	SBJ	_	t_1641|ref=De salubri diaeta_8
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1642|ref=De salubri diaeta_8
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1643|ref=De salubri diaeta_8
+4	,	,	u	u--------	_	3	AuxX	_	t_1644|ref=De salubri diaeta_8
+5	ὅς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1645|ref=De salubri diaeta_8
+6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ATR	_	t_1646|ref=De salubri diaeta_8
+7	συνετὸς	συνετός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_1647|ref=De salubri diaeta_8
+8	,	,	u	u--------	_	3	AuxX	_	t_1648|ref=De salubri diaeta_8
+9	λογισάμενον	λογίζομαι	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	19	ADV	_	t_1649|ref=De salubri diaeta_8
+10	ὅτι	ὅτι	c	c--------	_	9	AuxC	_	t_1650|ref=De salubri diaeta_8
+11	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_1651|ref=De salubri diaeta_8
+12	ἀνθρώποισι	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	14	ADV	_	t_1652|ref=De salubri diaeta_8
+13	πλείστου	πολύς	a	a-s---ngs	Case=g|Degree=s|Gender=n|Number=s	14	ADV	_	t_1653|ref=De salubri diaeta_8
+14	ἄξιόν	ἄξιος	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_1654|ref=De salubri diaeta_8
+15	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	OBJ	_	t_1655|ref=De salubri diaeta_8
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_1656|ref=De salubri diaeta_8
+17	ὑγιείη	ὑγιαίνω	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_1657|ref=De salubri diaeta_8
+18	,	,	u	u--------	_	3	AuxX	_	t_1658|ref=De salubri diaeta_8
+19	ἐπίστασθαι	ἐπίσταμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	3	SBJ	_	t_1659|ref=De salubri diaeta_8
+20	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_1660|ref=De salubri diaeta_8
+21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_1661|ref=De salubri diaeta_8
+22	ἑωυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	23	ATR	_	t_1662|ref=De salubri diaeta_8
+23	γνώμης	γνώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ADV	_	t_1663|ref=De salubri diaeta_8
+24	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_1664|ref=De salubri diaeta_8
+25	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	26	ATR	_	t_1665|ref=De salubri diaeta_8
+26	νούσοισιν	νόσος	n	n-p---fd-	Case=d|Gender=f|Number=p	24	ADV	_	t_1666|ref=De salubri diaeta_8
+27	ὠφελέεσθαι	ὠφελέω	v	v--pne---	Mood=n|Tense=p|Voice=e	19	OBJ	_	t_1667|ref=De salubri diaeta_8
+28	.	.	u	u--------	_	3	AuxK	_	t_1668|ref=De salubri diaeta_8
+

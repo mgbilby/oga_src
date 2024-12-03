@@ -1,0 +1,447 @@
+# source = Moschion Gnomologus, Sententiae 1
+# text = 1 .
+# sent_id = 1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Sententiae_1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Sententiae_1
+
+# source = Moschion Gnomologus, Sententiae 1
+# text = 2 .
+# sent_id = 2
+1	2	2	u	u--------	_	0	AuxG	_	t_3|ref=Sententiae_1
+2	.	.	u	u--------	_	1	AuxK	_	t_4|ref=Sententiae_1
+
+# source = Moschion Gnomologus, Sententiae 1-3
+# text = = 3 .
+# sent_id = 3
+1	=	=	u	u--------	_	0	AuxG	_	t_5|ref=Sententiae_1
+2	3	3	x	x--------	_	1	AuxG	_	t_6|ref=Sententiae_3
+3	.	.	u	u--------	_	1	AuxK	_	t_7|ref=Sententiae_3
+
+# source = Moschion Gnomologus, Sententiae 3
+# text = Φίλον ἐκεῖνον νόμιζε ὅστις [ σ ] αὐτόν σε ἀλλὰ μὴ τὰ περί σε ἀγαπᾷ [0] .
+# sent_id = 4
+1	Φίλον	φίλος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ATR	_	t_8|ref=Sententiae_3
+2	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_9|ref=Sententiae_3
+3	νόμιζε	νομίζω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_10|ref=Sententiae_3
+4	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_11|ref=Sententiae_3
+5	[	[	u	u--------	_	16	AuxX	_	t_12|ref=Sententiae_3
+6	σ	σ	a	a-s---ma-	Case=a|Number=s	16	PNOM	_	t_13|ref=Sententiae_3
+7	]	]	u	u--------	_	6	AuxX	_	t_14|ref=Sententiae_3
+8	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_15|ref=Sententiae_3
+9	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	16	OBJ	_	t_16|ref=Sententiae_3
+10	ἀλλὰ	ἀλλά	c	c--------	_	15	AuxY	_	t_17|ref=Sententiae_3
+11	μὴ	μή	d	d--------	_	15	AuxZ	_	t_18|ref=Sententiae_3
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	OBJ	_	t_19|ref=Sententiae_3
+13	περί	περί	r	r--------	_	12	AuxP	_	t_20|ref=Sententiae_3
+14	σε	σύ	p	p2s----a-	Case=a|Number=s|Person=2	13	ATR	_	t_21|ref=Sententiae_3
+15	ἀγαπᾷ	ἀγαπάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	ATR	_	t_22|ref=Sententiae_3
+16	[0]	[0]	-	---------	_	3	OBJ	_	e_1|ref=Sententiae_1
+17	.	.	u	u--------	_	3	AuxK	_	t_23|ref=Sententiae_3
+
+# source = Moschion Gnomologus, Sententiae 3-4
+# text = 4 [0] .
+# sent_id = 5
+1	4	4	u	u--------	_	2	AuxK	_	t_24|ref=Sententiae_3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Sententiae_1
+3	.	.	u	u--------	_	2	AuxK	_	t_25|ref=Sententiae_4
+
+# source = Moschion Gnomologus, Sententiae 3-4
+# text = βέλτιον πολλὰ χρήματα ἀπολέσαντα ἕνα φίλον κτήσασθαι ἢ ἕνα φίλον ἀπολέσαντα πολλὰ χρήματα κτήσασθαι [0] .
+# sent_id = 6
+1	βέλτιον	βελτίων	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	15	PNOM	_	t_26|ref=Sententiae_3
+2	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_27|ref=Sententiae_4
+3	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_28|ref=Sententiae_4
+4	ἀπολέσαντα	ἀπόλλυμι	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_29|ref=Sententiae_4
+5	ἕνα	εἷς	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_30|ref=Sententiae_4
+6	φίλον	φίλος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_31|ref=Sententiae_4
+7	κτήσασθαι	κτάομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	15	SBJ	_	t_32|ref=Sententiae_4
+8	ἢ	ἤ1	c	c--------	_	1	AuxC	_	t_33|ref=Sententiae_4
+9	ἕνα	εἷς	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_34|ref=Sententiae_4
+10	φίλον	φίλος	a	a-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_35|ref=Sententiae_4
+11	ἀπολέσαντα	ἀπόλλυμι	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_36|ref=Sententiae_4
+12	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_37|ref=Sententiae_4
+13	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_38|ref=Sententiae_4
+14	κτήσασθαι	κτάομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	8	ADV	_	t_39|ref=Sententiae_4
+15	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Sententiae_1
+16	.	.	u	u--------	_	15	AuxK	_	t_40|ref=Sententiae_4
+
+# source = Moschion Gnomologus, Sententiae 4
+# text = 5 .
+# sent_id = 7
+1	5	5	u	u--------	_	0	AuxG	_	t_41|ref=Sententiae_4
+2	.	.	u	u--------	_	1	AuxK	_	t_42|ref=Sententiae_4
+
+# source = Moschion Gnomologus, Sententiae 4-5
+# text = = 6 .
+# sent_id = 8
+1	=	=	u	u--------	_	2	AuxG	_	t_43|ref=Sententiae_4
+2	6	6	x	x--------	_	0	AuxG	_	t_44|ref=Sententiae_5
+3	.	.	u	u--------	_	2	AuxK	_	t_45|ref=Sententiae_5
+
+# source = Moschion Gnomologus, Sententiae 5-6
+# text = Τὸ μὲν εἰς ἀχάριστον ἀναλῶσαι ἐπιζήμιον , τὸ δὲ εἰς εὐχάριστον μὴ ἀναλῶσαι βλαβερόν [0] [1] .
+# sent_id = 9
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_46|ref=Sententiae_5
+2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_47|ref=Sententiae_6
+3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_48|ref=Sententiae_6
+4	ἀχάριστον	ἀχάριστος	a	a-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_49|ref=Sententiae_6
+5	ἀναλῶσαι	ἀναλίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	15	SBJ	_	t_50|ref=Sententiae_6
+6	ἐπιζήμιον	ἐπιζήμιος	n	n-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_51|ref=Sententiae_6
+7	,	,	u	u--------	_	0	AuxX	_	t_52|ref=Sententiae_6
+8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_53|ref=Sententiae_6
+9	δὲ	δέ	d	d--------	_	7	COORD	_	t_54|ref=Sententiae_6
+10	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_55|ref=Sententiae_6
+11	εὐχάριστον	εὐχάριστος	a	a-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_56|ref=Sententiae_6
+12	μὴ	μή	d	d--------	_	13	AuxZ	_	t_57|ref=Sententiae_6
+13	ἀναλῶσαι	ἀναλίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	SBJ	_	t_58|ref=Sententiae_6
+14	βλαβερόν	βλαβερός	a	a-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_59|ref=Sententiae_6
+15	[0]	[0]	-	---------	_	9	PRED	_	e_4|ref=Sententiae_1
+16	[1]	[1]	-	---------	_	9	PRED	_	e_5|ref=Sententiae_1
+17	.	.	u	u--------	_	7	AuxK	_	t_60|ref=Sententiae_6
+
+# source = Moschion Gnomologus, Sententiae 6
+# text = 7 [0] .
+# sent_id = 10
+1	7	7	u	u--------	_	2	AuxG	_	t_61|ref=Sententiae_6
+2	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Sententiae_3
+3	.	.	u	u--------	_	2	AuxK	_	t_62|ref=Sententiae_6
+
+# source = Moschion Gnomologus, Sententiae 6
+# text = = 8 .
+# sent_id = 11
+1	=	=	u	u--------	_	2	AuxG	_	t_63|ref=Sententiae_6
+2	8	8	x	x--------	_	0	PRED	_	t_64|ref=Sententiae_6
+3	.	.	u	u--------	_	2	AuxK	_	t_65|ref=Sententiae_6
+
+# source = Moschion Gnomologus, Sententiae 7-8
+# text = Σώφρων ἐστὶν οὐχ ὁ τῶν κωλυομένων μὴ ἁπτόμενος , ἀλλʼ ὁ τῶν συγχορουμένων φειδόμενος .
+# sent_id = 12
+1	Σώφρων	σώφρων	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_66|ref=Sententiae_7
+2	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_67|ref=Sententiae_6
+3	οὐχ	οὐ	d	d--------	_	8	AuxZ	_	t_68|ref=Sententiae_7
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_69|ref=Sententiae_7
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_70|ref=Sententiae_8
+6	κωλυομένων	κωλύω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	8	OBJ	_	t_71|ref=Sententiae_8
+7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_72|ref=Sententiae_8
+8	ἁπτόμενος	ἅπτω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	10	PNOM	_	t_73|ref=Sententiae_8
+9	,	,	u	u--------	_	2	AuxX	_	t_74|ref=Sententiae_8
+10	ἀλλʼ	ἀλλά	c	c--------	_	2	COORD	_	t_75|ref=Sententiae_8
+11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_76|ref=Sententiae_8
+12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_77|ref=Sententiae_8
+13	συγχορουμένων	συγχορέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	14	OBJ	_	t_78|ref=Sententiae_8
+14	φειδόμενος	φείδομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	10	PNOM	_	t_79|ref=Sententiae_8
+15	.	.	u	u--------	_	2	AuxK	_	t_80|ref=Sententiae_8
+
+# source = Moschion Gnomologus, Sententiae 8
+# text = — 9 .
+# sent_id = 13
+1	—	—	u	u--------	_	2	AuxG	_	t_81|ref=Sententiae_8
+2	9	9	u	u--------	_	0	AuxG	_	t_82|ref=Sententiae_8
+3	.	.	u	u--------	_	2	AuxK	_	t_83|ref=Sententiae_8
+
+# source = Moschion Gnomologus, Sententiae 8
+# text = 10 [0] .
+# sent_id = 14
+1	10	10	u	u--------	_	2	AuxG	_	t_84|ref=Sententiae_8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Sententiae_3
+3	.	.	u	u--------	_	2	AuxK	_	t_85|ref=Sententiae_8
+
+# source = Moschion Gnomologus, Sententiae 8
+# text = 11 .
+# sent_id = 15
+1	11	11	x	x--------	_	0	AuxG	_	t_86|ref=Sententiae_8
+2	.	.	u	u--------	_	1	AuxK	_	t_87|ref=Sententiae_8
+
+# source = Moschion Gnomologus, Sententiae 9
+# text = = [0] ;
+# sent_id = 16
+1	=	=	u	u--------	_	2	AuxG	_	t_88|ref=Sententiae_9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Sententiae_3
+3	;	;	u	u--------	_	2	AuxK	_	t_89|ref=Sententiae_9
+
+# source = Moschion Gnomologus, Sententiae 9-8
+# text = 12 .
+# sent_id = 17
+1	12	12	x	x--------	_	0	AuxG	_	t_90|ref=Sententiae_9
+2	.	.	u	u--------	_	1	AuxK	_	t_91|ref=Sententiae_8
+
+# source = Moschion Gnomologus, Sententiae 9
+# text = = 13 .
+# sent_id = 18
+1	=	=	u	u--------	_	2	AuxG	_	t_92|ref=Sententiae_9
+2	13	13	x	x--------	_	0	AuxG	_	t_93|ref=Sententiae_9
+3	.	.	u	u--------	_	2	AuxK	_	t_94|ref=Sententiae_9
+
+# source = Moschion Gnomologus, Sententiae 9-13
+# text = Αἱροῦ πάντα τὰ θνητὰ καὶ γήινα ἀπολέσαντα ἕνα ἀθάνατον καὶ οὐράνιον κτήσασθαι .
+# sent_id = 19
+1	Αἱροῦ	αἱρέω	v	v2spme---	Case=g|Gender=n|Number=s	0	PRED	_	t_95|ref=Sententiae_9
+2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_96|ref=Sententiae_9
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_97|ref=Sententiae_9
+4	θνητὰ	θνητός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_98|ref=Sententiae_12
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_99|ref=Sententiae_12
+6	γήινα	γήϊνος	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_100|ref=Sententiae_12
+7	ἀπολέσαντα	ἀπόλλυμι	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	ADV	_	t_101|ref=Sententiae_13
+8	ἕνα	εἷς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_102|ref=Sententiae_13
+9	ἀθάνατον	ἀθάνατος	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_103|ref=Sententiae_13
+10	καὶ	καί	c	c--------	_	8	COORD	_	t_104|ref=Sententiae_13
+11	οὐράνιον	οὐράνιος	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_105|ref=Sententiae_13
+12	κτήσασθαι	κτάομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	1	OBJ	_	t_106|ref=Sententiae_13
+13	.	.	u	u--------	_	1	AuxK	_	t_107|ref=Sententiae_13
+
+# source = Moschion Gnomologus, Sententiae 13
+# text = 14 .
+# sent_id = 20
+1	14	14	x	x--------	_	0	AuxG	_	t_108|ref=Sententiae_13
+2	.	.	u	u--------	_	1	AuxK	_	t_109|ref=Sententiae_13
+
+# source = Moschion Gnomologus, Sententiae 13-14
+# text = Ὁ πλουσίῳ χορηγῶν οὐδὲν διαφέρει τοῦ εἰς θάλασσαν ὕδωρ ἐκχέοντος .
+# sent_id = 21
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_110|ref=Sententiae_13
+2	πλουσίῳ	πλούσιος	a	a-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_111|ref=Sententiae_13
+3	χορηγῶν	χορηγέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	SBJ	_	t_112|ref=Sententiae_13
+4	οὐδὲν	οὐδείς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_113|ref=Sententiae_13
+5	διαφέρει	διαφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_114|ref=Sententiae_13
+6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_115|ref=Sententiae_13
+7	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_116|ref=Sententiae_14
+8	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_117|ref=Sententiae_14
+9	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_118|ref=Sententiae_14
+10	ἐκχέοντος	ἐκχέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_119|ref=Sententiae_14
+11	.	.	u	u--------	_	5	AuxK	_	t_120|ref=Sententiae_14
+
+# source = Moschion Gnomologus, Sententiae 14
+# text = 15 .
+# sent_id = 22
+1	15	15	u	u--------	_	0	AuxG	_	t_121|ref=Sententiae_14
+2	.	.	u	u--------	_	1	AuxK	_	t_122|ref=Sententiae_14
+
+# source = Moschion Gnomologus, Sententiae 14
+# text = = 16 .
+# sent_id = 23
+1	=	=	u	u--------	_	2	AuxG	_	t_123|ref=Sententiae_14
+2	16	16	x	x--------	_	0	AuxG	_	t_124|ref=Sententiae_14
+3	.	.	u	u--------	_	2	AuxK	_	t_125|ref=Sententiae_14
+
+# source = Moschion Gnomologus, Sententiae 14-16
+# text = Τὸ ὑπὸ πολλῶν διαβάλλεσθαι κακῶν οὔ τε ἀληθὲς οὔ τε βλαβερόν , τὸ δὲ ὑφʼ ἑνὸς ἀγαθοῦ ψέγεσθαι καὶ ἀληθὲς καὶ λυσιτελές [0] [1] .
+# sent_id = 24
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_126|ref=Sententiae_14
+2	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_127|ref=Sententiae_14
+3	πολλῶν	πολύς	a	a-p---ng-	Case=g|Gender=m|Number=p	5	ATR	_	t_128|ref=Sententiae_14
+4	διαβάλλεσθαι	διαβάλλω	v	v--pne---	Mood=n|Tense=p|Voice=e	23	SBJ	_	t_129|ref=Sententiae_15
+5	κακῶν	κακός	a	a-p---ng-	Case=g|Gender=n|Number=p	2	OBJ	_	t_130|ref=Sententiae_15
+6	οὔ	οὐ	d	d--------	_	7	AuxY	_	t_131|ref=Sententiae_15
+7	τε	τε	c	c--------	_	10	AuxY	_	t_132|ref=Sententiae_16
+8	ἀληθὲς	ἀληθής	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_133|ref=Sententiae_16
+9	οὔ	οὐ	d	d--------	_	10	AuxY	_	t_134|ref=Sententiae_16
+10	τε	τε	c	c--------	_	23	COORD	_	t_135|ref=Sententiae_16
+11	βλαβερόν	βλαβερός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_136|ref=Sententiae_16
+12	,	,	u	u--------	_	24	AuxX	_	t_137|ref=Sententiae_16
+13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	18	ATR	_	t_138|ref=Sententiae_16
+14	δὲ	δέ	d	d--------	_	24	COORD	_	t_139|ref=Sententiae_16
+15	ὑφʼ	ὑπό	r	r--------	_	18	AuxP	_	t_140|ref=Sententiae_16
+16	ἑνὸς	εἷς	m	m-s---mg-	Case=g|Gender=n|Number=s	15	OBJ	_	t_141|ref=Sententiae_16
+17	ἀγαθοῦ	ἀγαθός	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_142|ref=Sententiae_16
+18	ψέγεσθαι	ψέγω	v	v--pne---	Mood=n|Tense=p|Voice=e	24	SBJ	_	t_143|ref=Sententiae_16
+19	καὶ	καί	c	c--------	_	21	AuxY	_	t_144|ref=Sententiae_16
+20	ἀληθὲς	ἀληθής	a	a-s---nn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_145|ref=Sententiae_16
+21	καὶ	καί	c	c--------	_	24	COORD	_	t_146|ref=Sententiae_16
+22	λυσιτελές	λυσιτελής	a	a-s---nn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_147|ref=Sententiae_16
+23	[0]	[0]	-	---------	_	14	PRED	_	e_9|ref=Sententiae_3
+24	[1]	[1]	-	---------	_	0	PRED	_	e_10|ref=Sententiae_3
+25	.	.	u	u--------	_	24	AuxK	_	t_148|ref=Sententiae_16
+
+# source = Moschion Gnomologus, Sententiae 16
+# text = 17 .
+# sent_id = 25
+1	17	17	x	x--------	_	0	AuxG	_	t_149|ref=Sententiae_16
+2	.	.	u	u--------	_	1	AuxK	_	t_150|ref=Sententiae_16
+
+# source = Moschion Gnomologus, Sententiae 16-17
+# text = Ἀρχῆς καταβληθείσης κακῆς καὶ τὸ τέλος παρέπεται ὅμοιον .
+# sent_id = 26
+1	Ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	2	SBJ	_	t_151|ref=Sententiae_16
+2	καταβληθείσης	καταβάλλω	v	v-sappfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	ADV	_	t_152|ref=Sententiae_16
+3	κακῆς	κακός	a	a-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_153|ref=Sententiae_16
+4	καὶ	καί	c	c--------	_	6	AuxZ	_	t_154|ref=Sententiae_16
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_155|ref=Sententiae_16
+6	τέλος	τέλος	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_156|ref=Sententiae_16
+7	παρέπεται	παρέπομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_157|ref=Sententiae_16
+8	ὅμοιον	ὅμοιος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_158|ref=Sententiae_16
+9	.	.	u	u--------	_	7	AuxK	_	t_159|ref=Sententiae_17
+
+# source = Moschion Gnomologus, Sententiae 17
+# text = 18 .
+# sent_id = 27
+1	18	18	x	x--------	_	0	AuxG	_	t_160|ref=Sententiae_17
+2	.	.	u	u--------	_	1	AuxK	_	t_161|ref=Sententiae_17
+
+# source = Moschion Gnomologus, Sententiae 17-18
+# text = Ταῖς νόσοις ὁ θάνατος ἀλλήλαις ἐπικαταλαμβανούσαις οὐ δʼ αὐτὸς παρεῖναι ἀναβάλλεται .
+# sent_id = 28
+1	Ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	2	ATR	_	t_162|ref=Sententiae_17
+2	νόσοις	νόσος	n	n-p---fd-	Case=d|Gender=f|Number=p	6	OBJ	_	t_163|ref=Sententiae_17
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_164|ref=Sententiae_17
+4	θάνατος	θάνατος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_165|ref=Sententiae_17
+5	ἀλλήλαις	ἀλλήλων	p	p-p---fd-	Case=d|Gender=f|Number=p	6	OBJ	_	t_166|ref=Sententiae_17
+6	ἐπικαταλαμβανούσαις	ἐπίκαταλαμβάνω	v	v-pppafd-	Case=d|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_167|ref=Sententiae_17
+7	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_168|ref=Sententiae_17
+8	δʼ	δέ	c	c--------	_	7	AuxY	_	t_169|ref=Sententiae_17
+9	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	11	AtvV	_	t_170|ref=Sententiae_18
+10	παρεῖναι	πάρειμι	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_171|ref=Sententiae_18
+11	ἀναβάλλεται	ἀναβάλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_172|ref=Sententiae_18
+12	.	.	u	u--------	_	11	AuxK	_	t_173|ref=Sententiae_18
+
+# source = Moschion Gnomologus, Sententiae 18
+# text = 19 .
+# sent_id = 29
+1	19	19	x	x--------	_	0	AuxG	_	t_174|ref=Sententiae_18
+2	.	.	u	u--------	_	1	AuxK	_	t_175|ref=Sententiae_18
+
+# source = Moschion Gnomologus, Sententiae 18-19
+# text = Ὃν ἡ τύχη προπηλακίζει , καὶ παρὰ τῶν πρᾴων οὗτος μάστιγας εὑρίσκει . ;
+# sent_id = 30
+1	Ὃν	ὅς	p	p-s---fa-	Case=g|Gender=n|Number=p	4	OBJ	_	t_176|ref=Sententiae_18
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_177|ref=Sententiae_18
+3	τύχη	τύχη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_178|ref=Sententiae_18
+4	προπηλακίζει	προπηλακίζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_179|ref=Sententiae_18
+5	,	,	u	u--------	_	0	AuxX	_	t_180|ref=Sententiae_18
+6	καὶ	καί	c	c--------	_	5	COORD	_	t_181|ref=Sententiae_18
+7	παρὰ	παρά	r	r--------	_	12	AuxP	_	t_182|ref=Sententiae_18
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_183|ref=Sententiae_18
+9	πρᾴων	πρᾶος	a	a-p---mg-	Case=g|Gender=n|Number=p	7	ADV	_	t_184|ref=Sententiae_19
+10	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_185|ref=Sententiae_19
+11	μάστιγας	μάστιξ	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_186|ref=Sententiae_19
+12	εὑρίσκει	εὑρίσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_187|ref=Sententiae_19
+13	.	.	u	u--------	_	5	AuxK	_	t_188|ref=Sententiae_19
+14	;	;	u	u--------	_	5	AuxK	_	t_189|ref=Sententiae_19
+
+# source = Moschion Gnomologus, Sententiae 19
+# text = 20 .
+# sent_id = 31
+1	20	2	u	u--------	_	0	AuxG	_	t_190|ref=Sententiae_19
+2	.	.	u	u--------	_	1	AuxK	_	t_191|ref=Sententiae_19
+
+# source = Moschion Gnomologus, Sententiae 19-20
+# text = Ἐν οἷς πλήττειν ἄλλους ἐθέλεις , ἐν τούτοις βλάβην ἔλπιζε τὴν μείζονα .
+# sent_id = 32
+1	Ἐν	ἐν	r	r--------	_	3	AuxP	_	t_192|ref=Sententiae_19
+2	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_193|ref=Sententiae_19
+3	πλήττειν	πλήσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_194|ref=Sententiae_19
+4	ἄλλους	ἄλλος	p	p-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_195|ref=Sententiae_19
+5	ἐθέλεις	ἐθέλω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	8	ATR	_	t_196|ref=Sententiae_19
+6	,	,	u	u--------	_	10	AuxX	_	t_197|ref=Sententiae_19
+7	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_198|ref=Sententiae_19
+8	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	7	ADV	_	t_199|ref=Sententiae_19
+9	βλάβην	βλάβη	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_200|ref=Sententiae_20
+10	ἔλπιζε	ἐλπίζω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_201|ref=Sententiae_20
+11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_202|ref=Sententiae_20
+12	μείζονα	μέγας	a	a-s---fac	Case=a|Degree=c|Gender=f|Number=s	9	ATR	_	t_203|ref=Sententiae_20
+13	.	.	u	u--------	_	10	AuxK	_	t_204|ref=Sententiae_20
+
+# source = Moschion Gnomologus, Sententiae 20
+# text = 21 .
+# sent_id = 33
+1	21	21	x	x--------	_	0	AuxG	_	t_205|ref=Sententiae_20
+2	.	.	u	u--------	_	1	AuxK	_	t_206|ref=Sententiae_20
+
+# source = Moschion Gnomologus, Sententiae 20-21
+# text = Ἀπαλλαγεὶς εἵνεκα ὀχλήσεως κέρδος ἡγεῖται ὁ ἄνθρωπος τὴν ζημίαν .
+# sent_id = 34
+1	Ἀπαλλαγεὶς	ἀπαλλάσσω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_207|ref=Sententiae_20
+2	εἵνεκα	ἕνεκα	r	r--------	_	1	AuxP	_	t_208|ref=Sententiae_20
+3	ὀχλήσεως	ἄνεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_209|ref=Sententiae_20
+4	κέρδος	κέρδος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_210|ref=Sententiae_20
+5	ἡγεῖται	ἡγέομαι	v	v3spim---	Mood=i|Number=s|Person=3|Tense=p|Voice=m	0	PRED	_	t_211|ref=Sententiae_20
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_212|ref=Sententiae_20
+7	ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_213|ref=Sententiae_20
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_214|ref=Sententiae_20
+9	ζημίαν	ζημία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_215|ref=Sententiae_21
+10	.	.	u	u--------	_	5	AuxK	_	t_216|ref=Sententiae_21
+
+# source = Moschion Gnomologus, Sententiae 21
+# text = 22 .
+# sent_id = 35
+1	22	22	x	x--------	_	0	AuxG	_	t_217|ref=Sententiae_21
+2	.	.	u	u--------	_	1	AuxK	_	t_218|ref=Sententiae_21
+
+# source = Moschion Gnomologus, Sententiae 21
+# text = Ἕπεσθαι τοῖς τερπνοῖς εἴωθε καὶ τὰ λυπηρά .
+# sent_id = 36
+1	Ἕπεσθαι	ἕπομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	4	OBJ	_	t_219|ref=Sententiae_21
+2	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_220|ref=Sententiae_21
+3	τερπνοῖς	τερπνός	a	a-p---nd-	Case=d|Gender=n|Number=p	1	OBJ	_	t_221|ref=Sententiae_21
+4	εἴωθε	ἔθω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_222|ref=Sententiae_21
+5	καὶ	καί	d	d--------	_	7	AuxZ	_	t_223|ref=Sententiae_21
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_224|ref=Sententiae_21
+7	λυπηρά	λυπηρός	a	a-p---na-	Case=a|Gender=n|Number=p	1	SBJ	_	t_225|ref=Sententiae_21
+8	.	.	u	u--------	_	4	AuxK	_	t_226|ref=Sententiae_21
+
+# source = Moschion Gnomologus, Sententiae 22
+# text = 23 .
+# sent_id = 37
+1	23	23	x	x--------	_	0	ExD	_	t_227|ref=Sententiae_22
+2	.	.	u	u--------	_	1	AuxK	_	t_228|ref=Sententiae_22
+
+# source = Moschion Gnomologus, Sententiae 22-23
+# text = Τὴν πενίαν ὁ σώφρων καρτερίᾳ καὶ γενναιότητι τιμῶν πλούτου τιμιωτέραν ἀποφαίνει .
+# sent_id = 38
+1	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_229|ref=Sententiae_22
+2	πενίαν	πενία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_230|ref=Sententiae_22
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_231|ref=Sententiae_22
+4	σώφρων	σώφρων	a	a-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_232|ref=Sententiae_22
+5	καρτερίᾳ	καρτερία	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_233|ref=Sententiae_22
+6	καὶ	καί	c	c--------	_	8	COORD	_	t_234|ref=Sententiae_22
+7	γενναιότητι	γενναιότης	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_235|ref=Sententiae_22
+8	τιμῶν	τιμή	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_236|ref=Sententiae_22
+9	πλούτου	πλοῦτος	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_237|ref=Sententiae_23
+10	τιμιωτέραν	τίμιος	a	a-s---fac	Case=a|Degree=c|Gender=f|Number=s	11	OCOMP	_	t_238|ref=Sententiae_23
+11	ἀποφαίνει	ἀποφαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_239|ref=Sententiae_23
+12	.	.	u	u--------	_	11	AuxK	_	t_240|ref=Sententiae_23
+
+# source = Moschion Gnomologus, Sententiae 23
+# text = 24 .
+# sent_id = 39
+1	24	24	x	x--------	_	0	AuxG	_	t_241|ref=Sententiae_23
+2	.	.	u	u--------	_	1	AuxK	_	t_242|ref=Sententiae_23
+
+# source = Moschion Gnomologus, Sententiae 23-24
+# text = Γελᾶν ὁ θέλων μετὰ μειρακίου αἰσχρὰς ὕβρεις κερδήσει καὶ μέμψιν .
+# sent_id = 40
+1	Γελᾶν	γελάω	n	n-p---fg-	Case=n|Gender=m|Number=s	8	SBJ	_	t_243|ref=Sententiae_23
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_244|ref=Sententiae_23
+3	θέλων	ἐθέλω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ATR	_	t_245|ref=Sententiae_23
+4	μετὰ	μετά	r	r--------	_	3	AuxP	_	t_246|ref=Sententiae_23
+5	μειρακίου	μειράκιον	n	n-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_247|ref=Sententiae_23
+6	αἰσχρὰς	αἰσχρός	a	a-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_248|ref=Sententiae_23
+7	ὕβρεις	ὕβρις	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_249|ref=Sententiae_23
+8	κερδήσει	κερδαίνω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_250|ref=Sententiae_23
+9	καὶ	καί	c	c--------	_	8	COORD	_	t_251|ref=Sententiae_24
+10	μέμψιν	μέμψις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_252|ref=Sententiae_24
+11	.	.	u	u--------	_	8	AuxK	_	t_253|ref=Sententiae_24
+
+# source = Moschion Gnomologus, Sententiae 24
+# text = 25 .
+# sent_id = 41
+1	25	25	x	x--------	_	0	AuxG	_	t_254|ref=Sententiae_24
+2	.	.	u	u--------	_	1	AuxK	_	t_255|ref=Sententiae_24
+
+# source = Moschion Gnomologus, Sententiae 24
+# text = Πολλοὺς φαλακροὺς εἶδον ·
+# sent_id = 42
+1	Πολλοὺς	πολύς	a	a-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_256|ref=Sententiae_24
+2	φαλακροὺς	φαλακρός	a	a-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_257|ref=Sententiae_24
+3	εἶδον	εἶδον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_258|ref=Sententiae_24
+4	·	·	u	u--------	_	3	AuxK	_	t_259|ref=Sententiae_24
+
+# source = Moschion Gnomologus, Sententiae 24-25
+# text = τούτου καὶ ὁ ἐγκέφαλος ἐξῆλθεν .
+# sent_id = 43
+1	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	5	OBJ	_	t_260|ref=Sententiae_24
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_261|ref=Sententiae_24
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_262|ref=Sententiae_24
+4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_263|ref=Sententiae_24
+5	ἐξῆλθεν	ἐξέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_264|ref=Sententiae_25
+6	.	.	u	u--------	_	5	AuxK	_	t_265|ref=Sententiae_25
+

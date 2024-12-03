@@ -1,0 +1,731 @@
+# source = Hippocrates, De exsectione foetus 1
+# text = ΠΕΡΙ ΕΓΚΑΤΑΤΟΜΗΣ ΕΜΒΡΥΟΥ .
+# sent_id = 1
+1	ΠΕΡΙ	περί	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1|ref=De exsectione foetus_1
+2	ΕΓΚΑΤΑΤΟΜΗΣ	εγκατατομη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_2|ref=De exsectione foetus_1
+3	ΕΜΒΡΥΟΥ	εμβρυος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_3|ref=De exsectione foetus_1
+4	.	.	u	u--------	_	1	AuxK	_	t_4|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = 1 .
+# sent_id = 2
+1	1	1	u	u--------	_	0	AuxG	_	t_5|ref=De exsectione foetus_1
+2	.	.	u	u--------	_	1	AuxK	_	t_6|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = Περὶ δὲ τῶν μὴ κατὰ τρόπον κυϊσκομένων , ἀλλʼ ἐγκατατεμνομένων οὕτως [0] ·
+# sent_id = 3
+1	Περὶ	περί	r	r--------	_	12	AuxP	_	t_7|ref=De exsectione foetus_1
+2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_8|ref=De exsectione foetus_1
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_9|ref=De exsectione foetus_1
+4	μὴ	μή	c	c--------	_	7	AuxZ	_	t_10|ref=De exsectione foetus_1
+5	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_11|ref=De exsectione foetus_1
+6	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_12|ref=De exsectione foetus_1
+7	κυϊσκομένων	κυίσκω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_13|ref=De exsectione foetus_1
+8	,	,	u	u--------	_	9	AuxX	_	t_14|ref=De exsectione foetus_1
+9	ἀλλʼ	ἀλλά	c	c--------	_	1	COORD	_	t_15|ref=De exsectione foetus_1
+10	ἐγκατατεμνομένων	ἐγκατατέμνω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	9	ADV	_	t_16|ref=De exsectione foetus_1
+11	οὕτως	οὕτως	d	d--------	_	10	ADV	_	t_17|ref=De exsectione foetus_1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=De exsectione foetus_1
+13	·	·	u	u--------	_	12	AuxK	_	t_18|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = πρῶτον μὲν ἐπὶ τὴν γυναῖκα σινδόνα ἐπιβαλὼν , κατάζωσον ἀνωτέρω τῶν μαζῶν , καὶ τὴν κεφαλὴν κατακαλύψαι χρὴ τῇ σινδόνι , ὅκως μὴ ὁρῶσα φοβῆται ὅ τι ἂν ποιήσῃς .
+# sent_id = 4
+1	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_19|ref=De exsectione foetus_1
+2	μὲν	μέν	d	d--------	_	14	AuxY	_	t_20|ref=De exsectione foetus_1
+3	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_21|ref=De exsectione foetus_1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_22|ref=De exsectione foetus_1
+5	γυναῖκα	γυνή	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_23|ref=De exsectione foetus_1
+6	σινδόνα	σινδών	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_24|ref=De exsectione foetus_1
+7	ἐπιβαλὼν	ἐπιβάλλω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_25|ref=De exsectione foetus_1
+8	,	,	u	u--------	_	0	AuxX	_	t_26|ref=De exsectione foetus_1
+9	κατάζωσον	καταζωσάω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	14	PRED	_	t_27|ref=De exsectione foetus_1
+10	ἀνωτέρω	ἀνώτερος	d	d-------c	_	9	ADV	_	t_28|ref=De exsectione foetus_1
+11	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_29|ref=De exsectione foetus_1
+12	μαζῶν	μαστός	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ADV	_	t_30|ref=De exsectione foetus_1
+13	,	,	u	u--------	_	8	AuxX	_	t_31|ref=De exsectione foetus_1
+14	καὶ	καί	c	c--------	_	8	COORD	_	t_32|ref=De exsectione foetus_1
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_33|ref=De exsectione foetus_1
+16	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_34|ref=De exsectione foetus_1
+17	κατακαλύψαι	κατακαλύπτω	v	v--ana---	Mood=n|Tense=a|Voice=a	18	SBJ	_	t_35|ref=De exsectione foetus_1
+18	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_36|ref=De exsectione foetus_1
+19	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	20	ATR	_	t_37|ref=De exsectione foetus_1
+20	σινδόνι	σινδών	n	n-s---fd-	Case=d|Gender=f|Number=s	17	OBJ	_	t_38|ref=De exsectione foetus_1
+21	,	,	u	u--------	_	8	AuxX	_	t_39|ref=De exsectione foetus_1
+22	ὅκως	ὅπως	c	c--------	_	18	AuxC	_	t_40|ref=De exsectione foetus_1
+23	μὴ	μή	d	d--------	_	25	AuxZ	_	t_41|ref=De exsectione foetus_1
+24	ὁρῶσα	ὁράω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	25	ADV	_	t_42|ref=De exsectione foetus_1
+25	φοβῆται	φοβέω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	22	ADV	_	t_43|ref=De exsectione foetus_1
+26	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_44|ref=De exsectione foetus_1
+27	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	26	ATR	_	t_45|ref=De exsectione foetus_1
+28	ἂν	ἄν	d	d--------	_	29	AuxY	_	t_46|ref=De exsectione foetus_1
+29	ποιήσῃς	ποιέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	25	OBJ	_	t_47|ref=De exsectione foetus_1
+30	.	.	u	u--------	_	8	AuxK	_	t_48|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = Ἢν οὖν ἐξίσχῃ τὴν χεῖρα τὸ ἔμβρυον πλάγιον παραπεσὸν , τῆς χειρὸς ἐπιλαβόμενος προάγειν ἔξω ἐπιχείρει ὡς μάλιστα , παραδεῖραι δὲ τὸν βραχίονα , καὶ ἀποψιλώσας τὸ ὀστέον , ἰχθύην περίδησον περὶ τοὺς δακτύλους τῆς χειρὸς τοὺς δύο , ὅκως μὴ ἀπολισθάνοι ἡ σάρξ ·
+# sent_id = 5
+1	Ἢν	ἐάν	p	p-p---ng-	Case=g|Gender=m|Number=p	3	ADV	_	t_49|ref=De exsectione foetus_1
+2	οὖν	οὖν	d	d--------	_	16	AuxY	_	t_50|ref=De exsectione foetus_1
+3	ἐξίσχῃ	ἐξίσχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	25	ADV	_	t_51|ref=De exsectione foetus_1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_52|ref=De exsectione foetus_1
+5	χεῖρα	χείρ	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_53|ref=De exsectione foetus_1
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_54|ref=De exsectione foetus_1
+7	ἔμβρυον	ἔμβρυον	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_55|ref=De exsectione foetus_1
+8	πλάγιον	πλάγιον	a	a-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_56|ref=De exsectione foetus_1
+9	παραπεσὸν	παραπίπτω	v	v-sapann-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	3	ADV	_	t_57|ref=De exsectione foetus_1
+10	,	,	u	u--------	_	0	AuxX	_	t_58|ref=De exsectione foetus_1
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_59|ref=De exsectione foetus_1
+12	χειρὸς	χείρ	n	n-s---fg-	Case=g|Gender=f|Number=s	13	OBJ	_	t_60|ref=De exsectione foetus_1
+13	ἐπιλαβόμενος	ἐπιλαμβάνω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	16	ADV	_	t_61|ref=De exsectione foetus_1
+14	προάγειν	προάγω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_62|ref=De exsectione foetus_1
+15	ἔξω	ἔξω	d	d--------	_	14	ADV	_	t_63|ref=De exsectione foetus_1
+16	ἐπιχείρει	ἐπιχειρέω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	25	PRED	_	t_64|ref=De exsectione foetus_1
+17	ὡς	ὡς	c	c--------	_	18	AuxZ	_	t_65|ref=De exsectione foetus_1
+18	μάλιστα	μάλιστα	d	d-------s	Degree=s	16	ADV	_	t_66|ref=De exsectione foetus_1
+19	,	,	u	u--------	_	10	AuxX	_	t_67|ref=De exsectione foetus_1
+20	παραδεῖραι	παραείρω	v	v--ana---	Mood=n|Tense=a|Voice=a	25	PRED	_	t_68|ref=De exsectione foetus_1
+21	δὲ	δέ	d	d--------	_	25	AuxY	_	t_69|ref=De exsectione foetus_1
+22	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_70|ref=De exsectione foetus_1
+23	βραχίονα	βραχίων	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_71|ref=De exsectione foetus_1
+24	,	,	u	u--------	_	10	AuxX	_	t_72|ref=De exsectione foetus_1
+25	καὶ	καί	c	c--------	_	10	COORD	_	t_73|ref=De exsectione foetus_1
+26	ἀποψιλώσας	ἀποψιλόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	31	ADV	_	t_74|ref=De exsectione foetus_1
+27	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	28	ATR	_	t_75|ref=De exsectione foetus_1
+28	ὀστέον	ὀστέον	n	n-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_76|ref=De exsectione foetus_1
+29	,	,	u	u--------	_	10	AuxX	_	t_77|ref=De exsectione foetus_1
+30	ἰχθύην	ἰχθύς	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_78|ref=De exsectione foetus_1
+31	περίδησον	περιδέω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	25	PRED	_	t_79|ref=De exsectione foetus_1
+32	περὶ	περί	r	r--------	_	31	AuxP	_	t_80|ref=De exsectione foetus_1
+33	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	34	ATR	_	t_81|ref=De exsectione foetus_1
+34	δακτύλους	δάκτυλος	n	n-p---ma-	Case=a|Gender=m|Number=p	32	OBJ	_	t_82|ref=De exsectione foetus_1
+35	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	36	ATR	_	t_83|ref=De exsectione foetus_1
+36	χειρὸς	χείρ	n	n-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_84|ref=De exsectione foetus_1
+37	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	34	ATR	_	t_85|ref=De exsectione foetus_1
+38	δύο	δύο	m	m--------	_	34	ATR	_	t_86|ref=De exsectione foetus_1
+39	,	,	u	u--------	_	10	AuxX	_	t_87|ref=De exsectione foetus_1
+40	ὅκως	ὅπως	c	c--------	_	31	AuxC	_	t_88|ref=De exsectione foetus_1
+41	μὴ	μή	d	d--------	_	42	AuxZ	_	t_89|ref=De exsectione foetus_1
+42	ἀπολισθάνοι	ἀπολισθάνω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	40	ADV	_	t_90|ref=De exsectione foetus_1
+43	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	44	ATR	_	t_91|ref=De exsectione foetus_1
+44	σάρξ	σάρξ	n	n-s---fn-	Case=n|Gender=f|Number=s	42	SBJ	_	t_92|ref=De exsectione foetus_1
+45	·	·	u	u--------	_	10	AuxK	_	t_93|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = μετὰ δὲ ταῦτα τὸν ὦμον περισάρκισον καὶ ἄφελε κατὰ τὸ ἄρθρον ·
+# sent_id = 6
+1	μετὰ	μετά	r	r--------	_	7	AuxP	_	t_94|ref=De exsectione foetus_1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_95|ref=De exsectione foetus_1
+3	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	1	ADV	_	t_96|ref=De exsectione foetus_1
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_97|ref=De exsectione foetus_1
+5	ὦμον	ὦμος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_98|ref=De exsectione foetus_1
+6	περισάρκισον	περισάρκω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	7	PRED	_	t_99|ref=De exsectione foetus_1
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_100|ref=De exsectione foetus_1
+8	ἄφελε	ἀφαιρέω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	7	PRED	_	t_101|ref=De exsectione foetus_1
+9	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_102|ref=De exsectione foetus_1
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_103|ref=De exsectione foetus_1
+11	ἄρθρον	ἄρθρον	n	n-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_104|ref=De exsectione foetus_1
+12	·	·	u	u--------	_	7	AuxK	_	t_105|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = ἔπειτα [0] ·
+# sent_id = 7
+1	ἔπειτα	ἔπειτα	d	d--------	_	2	AuxY	_	t_106|ref=De exsectione foetus_1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=De exsectione foetus_1
+3	·	·	u	u--------	_	2	AuxK	_	t_107|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = τὴν κεφαλὴν κατὰ φύσιν παρώσας , ὑπεξάγειν ἔξω τὴν κεφαλὴν τοῦ ἐμβρύου [0] ·
+# sent_id = 8
+1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_108|ref=De exsectione foetus_1
+2	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_109|ref=De exsectione foetus_1
+3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_110|ref=De exsectione foetus_1
+4	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_111|ref=De exsectione foetus_1
+5	παρώσας	παρωθέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_112|ref=De exsectione foetus_1
+6	,	,	u	u--------	_	13	AuxX	_	t_113|ref=De exsectione foetus_1
+7	ὑπεξάγειν	ὑπεξάγω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_114|ref=De exsectione foetus_1
+8	ἔξω	ἔξω	d	d--------	_	7	ADV	_	t_115|ref=De exsectione foetus_1
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_116|ref=De exsectione foetus_1
+10	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_117|ref=De exsectione foetus_1
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_118|ref=De exsectione foetus_1
+12	ἐμβρύου	ἔμβρυος	a	a-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_119|ref=De exsectione foetus_1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=De exsectione foetus_1
+14	·	·	u	u--------	_	13	AuxK	_	t_120|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = τῷ δὲ δακτύλῳ τὸ ἔμβρυον εἴσω ἀπῶσαι ·
+# sent_id = 9
+1	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_121|ref=De exsectione foetus_1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_122|ref=De exsectione foetus_1
+3	δακτύλῳ	δάκτυλος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_123|ref=De exsectione foetus_1
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_124|ref=De exsectione foetus_1
+5	ἔμβρυον	ἔμβρυον	n	n-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_125|ref=De exsectione foetus_1
+6	εἴσω	εἴσω	d	d--------	_	7	ADV	_	t_126|ref=De exsectione foetus_1
+7	ἀπῶσαι	ἀπωθέω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_127|ref=De exsectione foetus_1
+8	·	·	u	u--------	_	7	AuxK	_	t_128|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = ἢ μαχαιρίῳ διὰ τῶν πλευρέων ἢ διὰ τῆς κληῗδος , ὅκως τὴν φῦσαν ἀφῇ καὶ ξυμπέσῃ τὸ ἔμβρυον καὶ ἡ ἔξοδος αὐτέῳ εὐπετεστέρη ᾖ [0] [1] ·
+# sent_id = 10
+1	ἢ	ἤ1	c	c--------	_	6	AuxY	_	t_129|ref=De exsectione foetus_1
+2	μαχαιρίῳ	μαχαιρίον	n	n-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_130|ref=De exsectione foetus_1
+3	διὰ	διά	r	r--------	_	6	AuxP	_	t_131|ref=De exsectione foetus_1
+4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_132|ref=De exsectione foetus_1
+5	πλευρέων	πλευρά	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ADV	_	t_133|ref=De exsectione foetus_1
+6	ἢ	ἤ1	c	c--------	_	25	COORD	_	t_134|ref=De exsectione foetus_1
+7	διὰ	διά	r	r--------	_	6	AuxP	_	t_135|ref=De exsectione foetus_1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_136|ref=De exsectione foetus_1
+9	κληῗδος	κλείς	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_137|ref=De exsectione foetus_1
+10	,	,	u	u--------	_	25	AuxX	_	t_138|ref=De exsectione foetus_1
+11	ὅκως	ὅπως	c	c--------	_	25	AuxC	_	t_139|ref=De exsectione foetus_1
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_140|ref=De exsectione foetus_1
+13	φῦσαν	φύω	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_141|ref=De exsectione foetus_1
+14	ἀφῇ	ἀφίημι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	15	ADV	_	t_142|ref=De exsectione foetus_1
+15	καὶ	καί	c	c--------	_	19	COORD	_	t_143|ref=De exsectione foetus_1
+16	ξυμπέσῃ	συμπίτνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	19	ADV	_	t_144|ref=De exsectione foetus_1
+17	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	18	ATR	_	t_145|ref=De exsectione foetus_1
+18	ἔμβρυον	ἔμβρυον	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_146|ref=De exsectione foetus_1
+19	καὶ	καί	c	c--------	_	11	COORD	_	t_147|ref=De exsectione foetus_1
+20	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	21	ATR	_	t_148|ref=De exsectione foetus_1
+21	ἔξοδος	ἔξοδος1	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_149|ref=De exsectione foetus_1
+22	αὐτέῳ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_150|ref=De exsectione foetus_1
+23	εὐπετεστέρη	εὐπετής	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_151|ref=De exsectione foetus_1
+24	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	19	ADV	_	t_152|ref=De exsectione foetus_1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=De exsectione foetus_1
+26	[1]	[1]	-	---------	_	19	ADV	_	e_5|ref=De exsectione foetus_1
+27	·	·	u	u--------	_	25	AuxK	_	t_153|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = τὴν δὲ κεφαλὴν , ἢν μὲν δύνησαι κατὰ φύσιν ἔξω ὦσαι ·
+# sent_id = 11
+1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_154|ref=De exsectione foetus_1
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_155|ref=De exsectione foetus_1
+3	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_156|ref=De exsectione foetus_1
+4	,	,	u	u--------	_	11	AuxX	_	t_157|ref=De exsectione foetus_1
+5	ἢν	ἐάν	c	c--------	_	11	AuxC	_	t_158|ref=De exsectione foetus_1
+6	μὲν	μέν	d	d--------	_	11	AuxY	_	t_159|ref=De exsectione foetus_1
+7	δύνησαι	δύναμαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	5	ADV	_	t_160|ref=De exsectione foetus_1
+8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_161|ref=De exsectione foetus_1
+9	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_162|ref=De exsectione foetus_1
+10	ἔξω	ἔξω	d	d--------	_	11	ADV	_	t_163|ref=De exsectione foetus_1
+11	ὦσαι	ὠθέω	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_164|ref=De exsectione foetus_1
+12	·	·	u	u--------	_	11	AuxK	_	t_165|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = ἢν δὲ μὴ , ξυμφλάσαι , καὶ οὕτως ὑπεξαγαγεῖν ἔξω τὸ ἔμβρυον [0] .
+# sent_id = 12
+1	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_166|ref=De exsectione foetus_1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_167|ref=De exsectione foetus_1
+3	μὴ	μή	d	d--------	_	13	AuxZ	_	t_168|ref=De exsectione foetus_1
+4	,	,	u	u--------	_	0	AuxX	_	t_169|ref=De exsectione foetus_1
+5	ξυμφλάσαι	συμφλάσσω	v	v--ana---	Mood=n|Tense=a|Voice=a	7	PRED	_	t_170|ref=De exsectione foetus_1
+6	,	,	u	u--------	_	4	AuxX	_	t_171|ref=De exsectione foetus_1
+7	καὶ	καί	c	c--------	_	4	COORD	_	t_172|ref=De exsectione foetus_1
+8	οὕτως	οὕτως	d	d--------	_	9	ADV	_	t_173|ref=De exsectione foetus_1
+9	ὑπεξαγαγεῖν	ὑπεξάγω	v	v--ana---	Mood=n|Tense=a|Voice=a	7	PRED	_	t_174|ref=De exsectione foetus_1
+10	ἔξω	ἔξω	d	d--------	_	9	ADV	_	t_175|ref=De exsectione foetus_1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_176|ref=De exsectione foetus_1
+12	ἔμβρυον	ἔμβρυον	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_177|ref=De exsectione foetus_1
+13	[0]	[0]	-	---------	_	1	ADV	_	e_6|ref=De exsectione foetus_1
+14	.	.	u	u--------	_	4	AuxK	_	t_178|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = Ἔπειτα θερμῷ πολλῷ καταχέας καὶ ἀλείψας ἐλαίῳ , κατακεῖσθαι κελεύειν ἐπαλλάξασαν τὼ πόδε , καὶ μεταπῖσαι οἶνον γλυκὺν καὶ λευκὸν κεράσας εὐζωρότερον , καὶ ῥητίνην , μέλιτι διατρίψας , μίξας τῷ οἴνῳ , διδόναι πιεῖν ·
+# sent_id = 13
+1	Ἔπειτα	ἔπειτα	d	d--------	_	24	ADV	_	t_179|ref=De exsectione foetus_1
+2	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_180|ref=De exsectione foetus_1
+3	πολλῷ	πολύς	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_181|ref=De exsectione foetus_1
+4	καταχέας	καταχέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_182|ref=De exsectione foetus_1
+5	καὶ	καί	c	c--------	_	24	COORD	_	t_183|ref=De exsectione foetus_1
+6	ἀλείψας	ἀλείφω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_184|ref=De exsectione foetus_1
+7	ἐλαίῳ	ἔλαιον	n	n-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_185|ref=De exsectione foetus_1
+8	,	,	u	u--------	_	24	AuxX	_	t_186|ref=De exsectione foetus_1
+9	κατακεῖσθαι	κατάκειμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	10	OBJ	_	t_187|ref=De exsectione foetus_1
+10	κελεύειν	κελεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_188|ref=De exsectione foetus_1
+11	ἐπαλλάξασαν	ἐπαλλάσσω	v	v-sapafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_189|ref=De exsectione foetus_1
+12	τὼ	ὁ	l	l-d---fa-	Case=a|Gender=m|Number=d	13	ATR	_	t_190|ref=De exsectione foetus_1
+13	πόδε	πούς	n	n-d---ma-	Case=a|Gender=m|Number=d	9	OBJ	_	t_191|ref=De exsectione foetus_1
+14	,	,	u	u--------	_	24	AuxX	_	t_192|ref=De exsectione foetus_1
+15	καὶ	καί	c	c--------	_	24	AuxY	_	t_193|ref=De exsectione foetus_1
+16	μεταπῖσαι	μεταπίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	24	OBJ	_	t_194|ref=De exsectione foetus_1
+17	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_195|ref=De exsectione foetus_1
+18	γλυκὺν	γλυκύς	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_196|ref=De exsectione foetus_1
+19	καὶ	καί	c	c--------	_	17	COORD	_	t_197|ref=De exsectione foetus_1
+20	λευκὸν	λευκός	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_198|ref=De exsectione foetus_1
+21	κεράσας	κεράννυμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	16	ADV	_	t_199|ref=De exsectione foetus_1
+22	εὐζωρότερον	εὔζωρος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	21	OCOMP	_	t_200|ref=De exsectione foetus_1
+23	,	,	u	u--------	_	24	AuxX	_	t_201|ref=De exsectione foetus_1
+24	καὶ	καί	c	c--------	_	0	COORD	_	t_202|ref=De exsectione foetus_1
+25	ῥητίνην	ῥητίνη	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_203|ref=De exsectione foetus_1
+26	,	,	u	u--------	_	24	AuxX	_	t_204|ref=De exsectione foetus_1
+27	μέλιτι	μέλι	n	n-s---nd-	Case=d|Gender=n|Number=s	28	ADV	_	t_205|ref=De exsectione foetus_1
+28	διατρίψας	διατρίβω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	34	ADV	_	t_206|ref=De exsectione foetus_1
+29	,	,	u	u--------	_	24	AuxX	_	t_207|ref=De exsectione foetus_1
+30	μίξας	μίγνυμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	34	ADV	_	t_208|ref=De exsectione foetus_1
+31	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	32	ATR	_	t_209|ref=De exsectione foetus_1
+32	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	30	OBJ	_	t_210|ref=De exsectione foetus_1
+33	,	,	u	u--------	_	24	AuxX	_	t_211|ref=De exsectione foetus_1
+34	διδόναι	δίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_212|ref=De exsectione foetus_1
+35	πιεῖν	πίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	34	OBJ	_	t_213|ref=De exsectione foetus_1
+36	·	·	u	u--------	_	24	AuxK	_	t_214|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = τὰ δʼ ἄλλα θεραπεύειν ὥσπερ λεχὼ , κατὰ τὰ εἰρημένα [0] .
+# sent_id = 14
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_215|ref=De exsectione foetus_1
+2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_216|ref=De exsectione foetus_1
+3	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_217|ref=De exsectione foetus_1
+4	θεραπεύειν	θεραπεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_218|ref=De exsectione foetus_1
+5	ὥσπερ	ὥσπερ	c	c--------	_	4	AuxC	_	t_219|ref=De exsectione foetus_1
+6	λεχὼ	λεχώ	n	n-s---fn-	Case=n|Gender=f|Number=s	5	ADV	_	t_220|ref=De exsectione foetus_1
+7	,	,	u	u--------	_	11	AuxX	_	t_221|ref=De exsectione foetus_1
+8	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_222|ref=De exsectione foetus_1
+9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_223|ref=De exsectione foetus_1
+10	εἰρημένα	ἐρῶ	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	8	ADV	_	t_224|ref=De exsectione foetus_1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=De exsectione foetus_1
+12	.	.	u	u--------	_	11	AuxK	_	t_225|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1
+# text = 2 .
+# sent_id = 15
+1	2	2	u	u--------	_	0	AuxG	_	t_226|ref=De exsectione foetus_1
+2	.	.	u	u--------	_	1	AuxK	_	t_227|ref=De exsectione foetus_1
+
+# source = Hippocrates, De exsectione foetus 1-2
+# text = Ὅταν δὲ τῇ τικτούσῃ γυναικὶ πλάγιον παραπέσῃ τὸ ἔμβρυον , γίνεται δὲ ὁκόταν στρέφηται τοιόνδε , ὁ ὀμφαλὸς περὶ τὸν τράχηλον περιελίσσεται καὶ ἐπίσχει τὴν ἔξοδον τοῦ ἐμβρύου , καὶ ἐς τὸ ἰσχίον ἐπεμβάλλει τὴν κεφαλὴν , καὶ ἡ χεὶρ ὡς ἐπιτοπουλὺ ἔξω γίνεται .
+# sent_id = 16
+1	Ὅταν	ὅταν	c	c--------	_	38	AuxC	_	t_228|ref=De exsectione foetus_1
+2	δὲ	δέ	d	d--------	_	38	AuxY	_	t_229|ref=De exsectione foetus_1
+3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_230|ref=De exsectione foetus_1
+4	τικτούσῃ	τίκτω	v	v-sppafd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_231|ref=De exsectione foetus_1
+5	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	7	OBJ	_	t_232|ref=De exsectione foetus_1
+6	πλάγιον	πλάγιον	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_233|ref=De exsectione foetus_2
+7	παραπέσῃ	παραπίπτω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_234|ref=De exsectione foetus_2
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_235|ref=De exsectione foetus_2
+9	ἔμβρυον	ἔμβρυον	n	n-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_236|ref=De exsectione foetus_2
+10	,	,	u	u--------	_	0	AuxX	_	t_237|ref=De exsectione foetus_2
+11	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	38	PRED	_	t_238|ref=De exsectione foetus_2
+12	δὲ	δέ	d	d--------	_	11	AuxY	_	t_239|ref=De exsectione foetus_2
+13	ὁκόταν	ὁπόταν	c	c--------	_	11	AuxC	_	t_240|ref=De exsectione foetus_2
+14	στρέφηται	στρέφω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	13	ADV	_	t_241|ref=De exsectione foetus_2
+15	τοιόνδε	τοιόσδε	p	p-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_242|ref=De exsectione foetus_2
+16	,	,	u	u--------	_	10	AuxX	_	t_243|ref=De exsectione foetus_2
+17	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	18	ATR	_	t_244|ref=De exsectione foetus_2
+18	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_245|ref=De exsectione foetus_2
+19	περὶ	περί	r	r--------	_	22	AuxP	_	t_246|ref=De exsectione foetus_2
+20	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	21	ATR	_	t_247|ref=De exsectione foetus_2
+21	τράχηλον	τράχηλος	n	n-s---ma-	Case=a|Gender=m|Number=s	19	ADV	_	t_248|ref=De exsectione foetus_2
+22	περιελίσσεται	περιελίσσω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	38	PRED	_	t_249|ref=De exsectione foetus_2
+23	καὶ	καί	c	c--------	_	38	AuxY	_	t_250|ref=De exsectione foetus_2
+24	ἐπίσχει	ἐπέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	38	PRED	_	t_251|ref=De exsectione foetus_2
+25	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_252|ref=De exsectione foetus_2
+26	ἔξοδον	ἔξοδος1	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_253|ref=De exsectione foetus_2
+27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_254|ref=De exsectione foetus_2
+28	ἐμβρύου	ἔμβρυος	n	n-s---ng-	Case=g|Gender=n|Number=s	26	ATR	_	t_255|ref=De exsectione foetus_2
+29	,	,	u	u--------	_	10	AuxX	_	t_256|ref=De exsectione foetus_2
+30	καὶ	καί	c	c--------	_	38	AuxY	_	t_257|ref=De exsectione foetus_2
+31	ἐς	εἰς	r	r--------	_	34	AuxP	_	t_258|ref=De exsectione foetus_2
+32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	33	ATR	_	t_259|ref=De exsectione foetus_2
+33	ἰσχίον	ἰσχίον	n	n-s---na-	Case=a|Gender=n|Number=s	31	OBJ	_	t_260|ref=De exsectione foetus_2
+34	ἐπεμβάλλει	ἐπεμβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	38	PRED	_	t_261|ref=De exsectione foetus_2
+35	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	36	ATR	_	t_262|ref=De exsectione foetus_2
+36	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_263|ref=De exsectione foetus_2
+37	,	,	u	u--------	_	10	AuxX	_	t_264|ref=De exsectione foetus_2
+38	καὶ	καί	c	c--------	_	10	COORD	_	t_265|ref=De exsectione foetus_2
+39	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	40	ATR	_	t_266|ref=De exsectione foetus_2
+40	χεὶρ	χείρ	n	n-s---fn-	Case=n|Gender=f|Number=s	44	SBJ	_	t_267|ref=De exsectione foetus_2
+41	ὡς	ὡς	d	d--------	_	42	AuxZ	_	t_268|ref=De exsectione foetus_2
+42	ἐπιτοπουλὺ	ἐπιτοπολὺ	a	a-s---nn-	Case=n|Gender=n|Number=s	44	PNOM	_	t_269|ref=De exsectione foetus_2
+43	ἔξω	ἔξω	d	d--------	_	44	ADV	_	t_270|ref=De exsectione foetus_2
+44	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	38	PRED	_	t_271|ref=De exsectione foetus_2
+45	.	.	u	u--------	_	10	AuxK	_	t_272|ref=De exsectione foetus_2
+
+# source = Hippocrates, De exsectione foetus 2
+# text = Ἢν μὲν οὖν ἤδη τεθνηκὸς ἔξω γένηται , τοῦτο προσημαίνει ·
+# sent_id = 17
+1	Ἢν	ἐάν	p	p-p---ng-	Case=g|Gender=n|Number=p	5	OBJ	_	t_273|ref=De exsectione foetus_2
+2	μὲν	μέν	d	d--------	_	10	AuxY	_	t_274|ref=De exsectione foetus_2
+3	οὖν	οὖν	d	d--------	_	10	AuxY	_	t_275|ref=De exsectione foetus_2
+4	ἤδη	ἤδη	d	d--------	_	7	ADV	_	t_276|ref=De exsectione foetus_2
+5	τεθνηκὸς	θνήσκω	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	7	PNOM	_	t_277|ref=De exsectione foetus_2
+6	ἔξω	ἔξω	d	d--------	_	7	PNOM	_	t_278|ref=De exsectione foetus_2
+7	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	9	ATR	_	t_279|ref=De exsectione foetus_2
+8	,	,	u	u--------	_	10	AuxX	_	t_280|ref=De exsectione foetus_2
+9	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_281|ref=De exsectione foetus_2
+10	προσημαίνει	προσημαίνει	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_282|ref=De exsectione foetus_2
+11	·	·	u	u--------	_	10	AuxK	_	t_283|ref=De exsectione foetus_2
+
+# source = Hippocrates, De exsectione foetus 2
+# text = ᾗσι δὲ μὴ ἔξω ἡ χεὶρ τοῦ ἐμβρύου , ὡς ἐπιτοπουλὺ ζῇ τὸ ἔμβρυον κίνδυνος δὲ καὶ οὕτως [0] .
+# sent_id = 18
+1	ᾗσι	ὅς	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	12	OBJ	_	t_284|ref=De exsectione foetus_2
+2	δὲ	δέ	d	d--------	_	19	AuxY	_	t_285|ref=De exsectione foetus_2
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_286|ref=De exsectione foetus_2
+4	ἔξω	ἔξω	d	d--------	_	1	AuxP	_	t_287|ref=De exsectione foetus_2
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_288|ref=De exsectione foetus_2
+6	χεὶρ	χείρ	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_289|ref=De exsectione foetus_2
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=m|Number=s	8	ATR	_	t_290|ref=De exsectione foetus_2
+8	ἐμβρύου	ἔμβρυος	a	a-s---ng-	Case=g|Gender=m|Number=s	6	ATR	_	t_291|ref=De exsectione foetus_2
+9	,	,	u	u--------	_	19	AuxX	_	t_292|ref=De exsectione foetus_2
+10	ὡς	ὡς	c	c--------	_	19	AuxC	_	t_293|ref=De exsectione foetus_2
+11	ἐπιτοπουλὺ	ἐπιτοπολὺ	d	d--------	Case=n|Gender=n|Number=s	12	PNOM	_	t_294|ref=De exsectione foetus_2
+12	ζῇ	ζάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_295|ref=De exsectione foetus_2
+13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	ATR	_	t_296|ref=De exsectione foetus_2
+14	ἔμβρυον	ἔμβρυον	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_297|ref=De exsectione foetus_2
+15	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_298|ref=De exsectione foetus_2
+16	δὲ	δέ	d	d--------	_	19	COORD	_	t_299|ref=De exsectione foetus_2
+17	καὶ	καί	d	d--------	_	18	AuxZ	_	t_300|ref=De exsectione foetus_2
+18	οὕτως	οὕτως	d	d--------	_	19	ADV	_	t_301|ref=De exsectione foetus_2
+19	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=De exsectione foetus_1
+20	.	.	u	u--------	_	9	AuxK	_	t_302|ref=De exsectione foetus_2
+
+# source = Hippocrates, De exsectione foetus 2
+# text = 3 .
+# sent_id = 19
+1	3	3	x	x--------	_	0	AuxG	_	t_303|ref=De exsectione foetus_2
+2	.	.	u	u--------	_	1	AuxK	_	t_304|ref=De exsectione foetus_2
+
+# source = Hippocrates, De exsectione foetus 2-3
+# text = Ἔνιαι δὲ καὶ τὰ λόχια πρὸ τοῦ ἐμβρύου ἀφιᾶσιν , ὥστε ἀναγκαῖον τὴν ὠδῖνα ξηρὰν εἶναι καὶ ἐπίπονον ὅσαι δὲ τὰ λόχια μὴ προκαθαίρονται , ῥᾷον ἀπαλλάττουσιν ἐν τῷ τόκῳ .
+# sent_id = 20
+1	Ἔνιαι	ἔνιοι	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_305|ref=De exsectione foetus_2
+2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_306|ref=De exsectione foetus_2
+3	καὶ	καί	d	d--------	_	20	AuxY	_	t_307|ref=De exsectione foetus_2
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_308|ref=De exsectione foetus_2
+5	λόχια	λόχιον	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_309|ref=De exsectione foetus_2
+6	πρὸ	πρό	r	r--------	_	9	AuxP	_	t_310|ref=De exsectione foetus_2
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_311|ref=De exsectione foetus_3
+8	ἐμβρύου	ἔμβρυος	a	a-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_312|ref=De exsectione foetus_3
+9	ἀφιᾶσιν	ἀφίημι	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	20	PRED	_	t_313|ref=De exsectione foetus_3
+10	,	,	u	u--------	_	0	AuxX	_	t_314|ref=De exsectione foetus_3
+11	ὥστε	ὥστε	c	c--------	_	9	AuxC	_	t_315|ref=De exsectione foetus_3
+12	ἀναγκαῖον	ἀναγκαῖος	a	a-s---na-	Case=a|Gender=n|Number=s	17	PNOM	_	t_316|ref=De exsectione foetus_3
+13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_317|ref=De exsectione foetus_3
+14	ὠδῖνα	ὠδίς	n	n-s---fa-	Case=a|Gender=f|Number=s	16	SBJ	_	t_318|ref=De exsectione foetus_3
+15	ξηρὰν	ξηρός	a	a-s---fa-	Case=a|Gender=f|Number=s	17	PNOM	_	t_319|ref=De exsectione foetus_3
+16	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	11	ADV	_	t_320|ref=De exsectione foetus_3
+17	καὶ	καί	c	c--------	_	16	COORD	_	t_321|ref=De exsectione foetus_3
+18	ἐπίπονον	ἐπίπονος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	PNOM	_	t_322|ref=De exsectione foetus_3
+19	ὅσαι	ὅσος	p	p-p---fn-	Case=n|Gender=f|Number=p	24	SBJ	_	t_323|ref=De exsectione foetus_3
+20	δὲ	δέ	d	d--------	_	10	COORD	_	t_324|ref=De exsectione foetus_3
+21	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_325|ref=De exsectione foetus_3
+22	λόχια	λόχιον	n	n-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_326|ref=De exsectione foetus_3
+23	μὴ	μή	d	d--------	_	24	AuxZ	_	t_327|ref=De exsectione foetus_3
+24	προκαθαίρονται	προκαθαίρω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	27	SBJ	_	t_328|ref=De exsectione foetus_3
+25	,	,	u	u--------	_	10	AuxX	_	t_329|ref=De exsectione foetus_3
+26	ῥᾷον	ῥᾴδιος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	27	ADV	_	t_330|ref=De exsectione foetus_3
+27	ἀπαλλάττουσιν	ἀπαλλάσσω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	20	PRED	_	t_331|ref=De exsectione foetus_3
+28	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_332|ref=De exsectione foetus_3
+29	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	30	ATR	_	t_333|ref=De exsectione foetus_3
+30	τόκῳ	τόκος	n	n-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_334|ref=De exsectione foetus_3
+31	.	.	u	u--------	_	10	AuxK	_	t_335|ref=De exsectione foetus_3
+
+# source = Hippocrates, De exsectione foetus 3
+# text = 4 [0] .
+# sent_id = 21
+1	4	4	u	u--------	_	2	AuxK	_	t_336|ref=De exsectione foetus_3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=De exsectione foetus_1
+3	.	.	u	u--------	_	2	AuxK	_	t_337|ref=De exsectione foetus_3
+
+# source = Hippocrates, De exsectione foetus 3
+# text = Ἀνασείειν δὲ δεῖ ὧδε ·
+# sent_id = 22
+1	Ἀνασείειν	ἀνασείω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_338|ref=De exsectione foetus_3
+2	δὲ	δέ	g	g--------	_	3	AuxY	_	t_339|ref=De exsectione foetus_3
+3	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_340|ref=De exsectione foetus_3
+4	ὧδε	ὧδε	d	d--------	_	1	ADV	_	t_341|ref=De exsectione foetus_3
+5	·	·	u	u--------	_	3	AuxK	_	t_342|ref=De exsectione foetus_3
+
+# source = Hippocrates, De exsectione foetus 3-4
+# text = σίνδονα ὑποστορέσαντα , ἀνακλῖναι τὴν γυναῖκα , καὶ ἑτέρην ἐπιβαλεῖν ὅκως ἂν τὸ αἰδοῖον κεκρυμμένον ᾖ , καὶ περικαλύψαι περὶ ἑκάτερον τὸ σκέλος τὴν σίνδονα καὶ περὶ ἑκάτερον τὸ γυῖον [0] ·
+# sent_id = 23
+1	σίνδονα	σίνδον	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_343|ref=De exsectione foetus_3
+2	ὑποστορέσαντα	ὑπόστόρεννυμι	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ADV	_	t_344|ref=De exsectione foetus_4
+3	,	,	u	u--------	_	31	AuxX	_	t_345|ref=De exsectione foetus_3
+4	ἀνακλῖναι	ἀνακλίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_346|ref=De exsectione foetus_4
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_347|ref=De exsectione foetus_4
+6	γυναῖκα	γυνή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_348|ref=De exsectione foetus_4
+7	,	,	u	u--------	_	31	AuxX	_	t_349|ref=De exsectione foetus_4
+8	καὶ	καί	c	c--------	_	18	AuxY	_	t_350|ref=De exsectione foetus_4
+9	ἑτέρην	ἕτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_351|ref=De exsectione foetus_4
+10	ἐπιβαλεῖν	ἐπιβάλλω	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_352|ref=De exsectione foetus_4
+11	ὅκως	ὅπως	c	c--------	_	10	AuxC	_	t_353|ref=De exsectione foetus_4
+12	ἂν	ἄν	d	d--------	_	16	AuxY	_	t_354|ref=De exsectione foetus_4
+13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	ATR	_	t_355|ref=De exsectione foetus_4
+14	αἰδοῖον	αἰδοῖον	a	a-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_356|ref=De exsectione foetus_4
+15	κεκρυμμένον	κρύπτω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	16	PNOM	_	t_357|ref=De exsectione foetus_4
+16	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	11	ADV	_	t_358|ref=De exsectione foetus_4
+17	,	,	u	u--------	_	31	AuxX	_	t_359|ref=De exsectione foetus_4
+18	καὶ	καί	c	c--------	_	31	COORD	_	t_360|ref=De exsectione foetus_4
+19	περικαλύψαι	περικαλύπτω	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_361|ref=De exsectione foetus_4
+20	περὶ	περί	r	r--------	_	26	AuxP	_	t_362|ref=De exsectione foetus_4
+21	ἑκάτερον	ἑκάτερος	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_363|ref=De exsectione foetus_4
+22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_364|ref=De exsectione foetus_4
+23	σκέλος	σκέλος	n	n-s---na-	Case=a|Gender=n|Number=s	20	ADV	_	t_365|ref=De exsectione foetus_4
+24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_366|ref=De exsectione foetus_4
+25	σίνδονα	σίνδον	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_367|ref=De exsectione foetus_4
+26	καὶ	καί	c	c--------	_	19	COORD	_	t_368|ref=De exsectione foetus_4
+27	περὶ	περί	r	r--------	_	26	AuxP	_	t_369|ref=De exsectione foetus_4
+28	ἑκάτερον	ἑκάτερος	a	a-s---na-	Case=a|Gender=n|Number=s	27	ADV	_	t_370|ref=De exsectione foetus_4
+29	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	ATR	_	t_371|ref=De exsectione foetus_4
+30	γυῖον	γυῖον	n	n-s---na-	Case=a|Gender=n|Number=s	27	ADV	_	t_372|ref=De exsectione foetus_4
+31	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=De exsectione foetus_1
+32	·	·	u	u--------	_	31	AuxK	_	t_373|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = γυναῖκας δὲ δύο λαβέσθαι τοῦ σκέλεος ἑκατέρου , καὶ τῆς χειρὸς ἑκατέρης ἑτέρας γυναῖκας δύο [0] ·
+# sent_id = 24
+1	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_374|ref=De exsectione foetus_4
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_375|ref=De exsectione foetus_4
+3	δύο	δύο	a	a--------	_	1	ATR	_	t_376|ref=De exsectione foetus_4
+4	λαβέσθαι	λαμβάνω	v	v--anm---	Mood=n|Tense=a|Voice=m	9	PRED	_	t_377|ref=De exsectione foetus_4
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_378|ref=De exsectione foetus_4
+6	σκέλεος	σκέλος	n	n-s---ng-	Case=g|Gender=n|Number=s	1	ATR	_	t_379|ref=De exsectione foetus_4
+7	ἑκατέρου	ἑκάτερος	a	a-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_380|ref=De exsectione foetus_4
+8	,	,	u	u--------	_	4	AuxX	_	t_381|ref=De exsectione foetus_4
+9	καὶ	καί	c	c--------	_	0	COORD	_	t_382|ref=De exsectione foetus_4
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_383|ref=De exsectione foetus_4
+11	χειρὸς	χείρ	n	n-s---fg-	Case=g|Gender=f|Number=s	16	OBJ	_	t_384|ref=De exsectione foetus_4
+12	ἑκατέρης	ἑκάτερος	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_385|ref=De exsectione foetus_4
+13	ἑτέρας	ἕτερος	a	a-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_386|ref=De exsectione foetus_4
+14	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_387|ref=De exsectione foetus_4
+15	δύο	δύο	a	a--------	_	14	ATR	_	t_388|ref=De exsectione foetus_4
+16	[0]	[0]	-	---------	_	9	PRED	_	e_11|ref=De exsectione foetus_1
+17	·	·	u	u--------	_	9	AuxK	_	t_389|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = ἔπειτα διασείειν λαβούσας ἐγκρατέως , μὴ ἔλασσον ἢ δεκάκις [0] ·
+# sent_id = 25
+1	ἔπειτα	ἔπειτα	d	d--------	_	2	ADV	_	t_390|ref=De exsectione foetus_4
+2	διασείειν	διασείω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_391|ref=De exsectione foetus_4
+3	λαβούσας	λαμβάνω	v	v-papafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=a|Voice=a	2	ADV	_	t_392|ref=De exsectione foetus_4
+4	ἐγκρατέως	ἐγκρατής	d	d--------	_	3	ADV	_	t_393|ref=De exsectione foetus_4
+5	,	,	u	u--------	_	10	AuxX	_	t_394|ref=De exsectione foetus_4
+6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_395|ref=De exsectione foetus_4
+7	ἔλασσον	ἐλάσσων	d	d-------c	Case=a|Degree=c|Gender=n|Number=s	2	ADV	_	t_396|ref=De exsectione foetus_4
+8	ἢ	ἤ1	c	c--------	_	7	AuxC	_	t_397|ref=De exsectione foetus_4
+9	δεκάκις	δεκάκις	d	d--------	_	8	ADV	_	t_398|ref=De exsectione foetus_4
+10	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=De exsectione foetus_1
+11	·	·	u	u--------	_	10	AuxK	_	t_399|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = ἔπειτα δὲ ἐς κλίνην ἀνακλῖναι τὴν γυναῖκα ἐπὶ κεφαλήν ·
+# sent_id = 26
+1	ἔπειτα	ἔπειτα	d	d--------	_	5	ADV	_	t_400|ref=De exsectione foetus_4
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_401|ref=De exsectione foetus_4
+3	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_402|ref=De exsectione foetus_4
+4	κλίνην	κλίνη	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_403|ref=De exsectione foetus_4
+5	ἀνακλῖναι	ἀνακλίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_404|ref=De exsectione foetus_4
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_405|ref=De exsectione foetus_4
+7	γυναῖκα	γυνή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_406|ref=De exsectione foetus_4
+8	ἐπὶ	ἐπί	r	r--------	_	5	AuxP	_	t_407|ref=De exsectione foetus_4
+9	κεφαλήν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_408|ref=De exsectione foetus_4
+10	·	·	u	u--------	_	5	AuxK	_	t_409|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = τὰ δὲ σκέλεα ἄνω ἔχειν , καὶ τὰς γυναῖκας πάσας λαβέσθαι τοῖν σκελέοιν , ἀφείσας δὲ τὰς χεῖρας [0] ·
+# sent_id = 27
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_410|ref=De exsectione foetus_4
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_411|ref=De exsectione foetus_4
+3	σκέλεα	σκέλος	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_412|ref=De exsectione foetus_4
+4	ἄνω	ἄνω	d	d--------	_	5	ADV	_	t_413|ref=De exsectione foetus_4
+5	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_414|ref=De exsectione foetus_4
+6	,	,	u	u--------	_	19	AuxX	_	t_415|ref=De exsectione foetus_4
+7	καὶ	καί	c	c--------	_	16	AuxY	_	t_416|ref=De exsectione foetus_4
+8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_417|ref=De exsectione foetus_4
+9	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_418|ref=De exsectione foetus_4
+10	πάσας	πᾶς	a	a-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_419|ref=De exsectione foetus_4
+11	λαβέσθαι	λαμβάνω	v	v--anm---	Mood=n|Tense=a|Voice=m	16	OBJ	_	t_420|ref=De exsectione foetus_4
+12	τοῖν	ὁ	l	l-d---ng-	Case=g|Gender=n|Number=d	13	ATR	_	t_421|ref=De exsectione foetus_4
+13	σκελέοιν	σκήλεος	n	n-s---nd-	Case=g|Gender=n|Number=d	11	ADV	_	t_422|ref=De exsectione foetus_4
+14	,	,	u	u--------	_	19	AuxX	_	t_423|ref=De exsectione foetus_4
+15	ἀφείσας	ἀφίημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	16	ADV	_	t_424|ref=De exsectione foetus_4
+16	δὲ	δέ	d	d--------	_	19	COORD	_	t_425|ref=De exsectione foetus_4
+17	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	18	ATR	_	t_426|ref=De exsectione foetus_4
+18	χεῖρας	χείρ	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_427|ref=De exsectione foetus_4
+19	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=De exsectione foetus_1
+20	·	·	u	u--------	_	19	AuxK	_	t_428|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = ἔπειτα σείειν πολλάκις ποιεῖν τὰς γυναῖκας ἐπὶ τοὺς ὤμους , ἀναβολὰς ἐπὶ τὴν κλίνην , ὅκως ἐς τὴν εὐρυχωρίην ἐπανασεισθὲν τὸ ἔμβρυον στραφῇ καὶ δύνηται ἐπὶ φύσιν ἰέναι .
+# sent_id = 28
+1	ἔπειτα	ἔπειτα	d	d--------	_	2	ADV	_	t_429|ref=De exsectione foetus_4
+2	σείειν	σείω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_430|ref=De exsectione foetus_4
+3	πολλάκις	πολλάκις	d	d--------	_	4	ADV	_	t_431|ref=De exsectione foetus_4
+4	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	OBJ	_	t_432|ref=De exsectione foetus_4
+5	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_433|ref=De exsectione foetus_4
+6	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_434|ref=De exsectione foetus_4
+7	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_435|ref=De exsectione foetus_4
+8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_436|ref=De exsectione foetus_4
+9	ὤμους	ὦμος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ADV	_	t_437|ref=De exsectione foetus_4
+10	,	,	u	u--------	_	2	AuxX	_	t_438|ref=De exsectione foetus_4
+11	ἀναβολὰς	ἀναβολή	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_439|ref=De exsectione foetus_4
+12	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_440|ref=De exsectione foetus_4
+13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_441|ref=De exsectione foetus_4
+14	κλίνην	κλίνη	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_442|ref=De exsectione foetus_4
+15	,	,	u	u--------	_	2	AuxX	_	t_443|ref=De exsectione foetus_4
+16	ὅκως	ὅπως	c	c--------	_	4	AuxC	_	t_444|ref=De exsectione foetus_4
+17	ἐς	εἰς	r	r--------	_	20	AuxP	_	t_445|ref=De exsectione foetus_4
+18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_446|ref=De exsectione foetus_4
+19	εὐρυχωρίην	εὐρυχωρία	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_447|ref=De exsectione foetus_4
+20	ἐπανασεισθὲν	ἐπανοιδέω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	24	ADV	_	t_448|ref=De exsectione foetus_4
+21	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	22	ATR	_	t_449|ref=De exsectione foetus_4
+22	ἔμβρυον	ἔμβρυον	n	n-s---nn-	Case=n|Gender=n|Number=s	23	SBJ	_	t_450|ref=De exsectione foetus_4
+23	στραφῇ	στρέφω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	24	ADV	_	t_451|ref=De exsectione foetus_4
+24	καὶ	καί	c	c--------	_	16	COORD	_	t_452|ref=De exsectione foetus_4
+25	δύνηται	δύναμαι	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	24	ADV	_	t_453|ref=De exsectione foetus_4
+26	ἐπὶ	ἐπί	r	r--------	_	28	AuxP	_	t_454|ref=De exsectione foetus_4
+27	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	26	ADV	_	t_455|ref=De exsectione foetus_4
+28	ἰέναι	εἶμι	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_456|ref=De exsectione foetus_4
+29	.	.	u	u--------	_	2	AuxK	_	t_457|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = Καὶ ἢν ἔχῃ δίκταμνον κρητικὸν , μεταπῖσαι δός ·
+# sent_id = 29
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_458|ref=De exsectione foetus_4
+2	ἢν	ἐάν	c	c--------	_	8	AuxC	_	t_459|ref=De exsectione foetus_4
+3	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_460|ref=De exsectione foetus_4
+4	δίκταμνον	δίκταμνος	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_461|ref=De exsectione foetus_4
+5	κρητικὸν	κρητικός	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_462|ref=De exsectione foetus_4
+6	,	,	u	u--------	_	3	AuxX	_	t_463|ref=De exsectione foetus_4
+7	μεταπῖσαι	μεταπίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_464|ref=De exsectione foetus_4
+8	δός	δίδωμι	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	1	PRED	_	t_465|ref=De exsectione foetus_4
+9	·	·	u	u--------	_	1	AuxK	_	t_466|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = εἰ δὲ μὴ , κάστορος ἐνεψῆσαι τῷ οἴνῳ χίῳ [0] .
+# sent_id = 30
+1	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_467|ref=De exsectione foetus_4
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_468|ref=De exsectione foetus_4
+3	μὴ	μή	d	d--------	_	10	AuxZ	_	t_469|ref=De exsectione foetus_4
+4	,	,	u	u--------	_	6	AuxX	_	t_470|ref=De exsectione foetus_4
+5	κάστορος	κάστωρ	n	n-s---na-	Case=g|Gender=n|Number=s	6	OBJ	_	t_471|ref=De exsectione foetus_4
+6	ἐνεψῆσαι	ἐνεμέω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_472|ref=De exsectione foetus_4
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_473|ref=De exsectione foetus_4
+8	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_474|ref=De exsectione foetus_4
+9	χίῳ	χίος	a	a-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_475|ref=De exsectione foetus_4
+10	[0]	[0]	-	---------	_	1	ADV	_	e_14|ref=De exsectione foetus_1
+11	.	.	u	u--------	_	6	AuxK	_	t_476|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4
+# text = 5 .
+# sent_id = 31
+1	5	5	u	u--------	_	0	AuxG	_	t_477|ref=De exsectione foetus_4
+2	.	.	u	u--------	_	1	AuxK	_	t_478|ref=De exsectione foetus_4
+
+# source = Hippocrates, De exsectione foetus 4-5
+# text = Ἢν δὲ αἱ ὑστέραι ἔξω χωρέωσι , ἤν τε ἐκ πόνου , ἤν τε ἐκ τόκου , ἢν μὲν οὖν παραλάβῃς νεωστὶ παθούσα , ἄξιον ἐπιχειρεῖν [0] [1] ·
+# sent_id = 32
+1	Ἢν	ἐάν	p	p-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_479|ref=De exsectione foetus_4
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_480|ref=De exsectione foetus_4
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_481|ref=De exsectione foetus_4
+4	ὑστέραι	ὕστερος	a	a-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_482|ref=De exsectione foetus_4
+5	ἔξω	ἔξω	d	d--------	_	6	ADV	_	t_483|ref=De exsectione foetus_4
+6	χωρέωσι	χωρέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	26	OBJ	_	t_484|ref=De exsectione foetus_4
+7	,	,	u	u--------	_	27	AuxX	_	t_485|ref=De exsectione foetus_4
+8	ἤν	ἐάν	c	c--------	_	14	AuxC	_	t_486|ref=De exsectione foetus_4
+9	τε	τε	d	d--------	_	14	AuxY	_	t_487|ref=De exsectione foetus_4
+10	ἐκ	ἐκ	r	r--------	_	27	AuxP	_	t_488|ref=De exsectione foetus_4
+11	πόνου	πόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_489|ref=De exsectione foetus_4
+12	,	,	u	u--------	_	27	AuxX	_	t_490|ref=De exsectione foetus_4
+13	ἤν	ἐάν	c	c--------	_	14	AuxC	_	t_491|ref=De exsectione foetus_5
+14	τε	τε	c	c--------	_	26	COORD	_	t_492|ref=De exsectione foetus_5
+15	ἐκ	ἐκ	r	r--------	_	28	AuxP	_	t_493|ref=De exsectione foetus_5
+16	τόκου	τόκος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ADV	_	t_494|ref=De exsectione foetus_5
+17	,	,	u	u--------	_	27	AuxX	_	t_495|ref=De exsectione foetus_5
+18	ἢν	ἐάν	c	c--------	_	26	AuxC	_	t_496|ref=De exsectione foetus_5
+19	μὲν	μέν	d	d--------	_	21	AuxY	_	t_497|ref=De exsectione foetus_5
+20	οὖν	οὖν	d	d--------	_	21	AuxY	_	t_498|ref=De exsectione foetus_5
+21	παραλάβῃς	παραλαμβάνω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	18	ADV	_	t_499|ref=De exsectione foetus_5
+22	νεωστὶ	νεωστί	d	d--------	_	23	ADV	_	t_500|ref=De exsectione foetus_5
+23	παθούσα	πάσχω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	21	OBJ	_	t_501|ref=De exsectione foetus_5
+24	,	,	u	u--------	_	27	AuxX	_	t_502|ref=De exsectione foetus_5
+25	ἄξιον	ἄξιος	a	a-s---nn-	Case=n|Gender=n|Number=s	27	PNOM	_	t_503|ref=De exsectione foetus_5
+26	ἐπιχειρεῖν	ἐπιχειρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	ADV	_	t_504|ref=De exsectione foetus_5
+27	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=De exsectione foetus_1
+28	[1]	[1]	-	---------	_	13	ADV	_	e_16|ref=De exsectione foetus_1
+29	·	·	u	u--------	_	27	AuxK	_	t_505|ref=De exsectione foetus_5
+
+# source = Hippocrates, De exsectione foetus 5
+# text = εἰ δὲ μὴ , ἐῇν [0] .
+# sent_id = 33
+1	εἰ	εἰ	c	c--------	_	5	AuxC	_	t_506|ref=De exsectione foetus_5
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_507|ref=De exsectione foetus_5
+3	μὴ	μή	c	c--------	_	6	AuxZ	_	t_508|ref=De exsectione foetus_5
+4	,	,	u	u--------	_	1	AuxX	_	t_509|ref=De exsectione foetus_5
+5	ἐῇν	ἐάω	v	v3ppoa---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_510|ref=De exsectione foetus_5
+6	[0]	[0]	-	---------	_	1	ADV	_	e_17|ref=De exsectione foetus_1
+7	.	.	u	u--------	_	5	AuxK	_	t_511|ref=De exsectione foetus_5
+
+# source = Hippocrates, De exsectione foetus 5
+# text = Ποιέειν δὲ χρὴ ὧδε ·
+# sent_id = 34
+1	Ποιέειν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_512|ref=De exsectione foetus_5
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_513|ref=De exsectione foetus_5
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_514|ref=De exsectione foetus_5
+4	ὧδε	ὧδε	d	d--------	_	1	ADV	_	t_515|ref=De exsectione foetus_5
+5	·	·	u	u--------	_	2	AuxK	_	t_516|ref=De exsectione foetus_5
+
+# source = Hippocrates, De exsectione foetus 5
+# text = ἐπιταμὼν τὸν ὑμένα τῆς ὑστέρης κατὰ φύσιν καὶ κατὰ πλάγιον , τρῖψαι ὀθονίῳ ὡς φλεγμαίνῃ , κ ᾆτα ἀλείψας φώκης ἐλαίῳ ἢ πίσσῃ , καταπλάσας ἅμα κυτίνοισι , καὶ μαλθακοὺς σπόγγους οἴνῳ ῥήνας , προσθεὶς , ἀναδῆσαι ἐκ τῶν ὤμων ·
+# sent_id = 35
+1	ἐπιταμὼν	ἐπιτέμνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_517|ref=De exsectione foetus_5
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_518|ref=De exsectione foetus_5
+3	ὑμένα	ὑμήν	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_519|ref=De exsectione foetus_5
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_520|ref=De exsectione foetus_5
+5	ὑστέρης	ὕστερος	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_521|ref=De exsectione foetus_5
+6	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_522|ref=De exsectione foetus_5
+7	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_523|ref=De exsectione foetus_5
+8	καὶ	καί	c	c--------	_	1	COORD	_	t_524|ref=De exsectione foetus_5
+9	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_525|ref=De exsectione foetus_5
+10	πλάγιον	πλάγιον	n	n-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_526|ref=De exsectione foetus_5
+11	,	,	u	u--------	_	12	AuxX	_	t_527|ref=De exsectione foetus_5
+12	τρῖψαι	τρίβω	v	v--ana---	Mood=n|Tense=a|Voice=a	29	OBJ	_	t_528|ref=De exsectione foetus_5
+13	ὀθονίῳ	ὀθόνιον	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ADV	_	t_529|ref=De exsectione foetus_5
+14	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_530|ref=De exsectione foetus_5
+15	φλεγμαίνῃ	φλεγμαίνω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	14	ADV	_	t_531|ref=De exsectione foetus_5
+16	,	,	u	u--------	_	12	AuxX	_	t_532|ref=De exsectione foetus_5
+17	κ	καί	d	d--------	_	29	AuxY	_	t_533|ref=De exsectione foetus_5
+18	ᾆτα	εἶτα	n	n-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_534|ref=De exsectione foetus_5
+19	ἀλείψας	ἀλείφω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_535|ref=De exsectione foetus_5
+20	φώκης	φώκη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	OBJ	_	t_536|ref=De exsectione foetus_5
+21	ἐλαίῳ	ἔλαιον	n	n-s---nd-	Case=d|Gender=n|Number=s	22	ADV	_	t_537|ref=De exsectione foetus_5
+22	ἢ	ἤ1	c	c--------	_	19	COORD	_	t_538|ref=De exsectione foetus_5
+23	πίσσῃ	πίσσα	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_539|ref=De exsectione foetus_5
+24	,	,	u	u--------	_	37	AuxX	_	t_540|ref=De exsectione foetus_5
+25	καταπλάσας	καταπλάσσω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_541|ref=De exsectione foetus_5
+26	ἅμα	ἅμα	r	r--------	_	25	AuxP	_	t_542|ref=De exsectione foetus_5
+27	κυτίνοισι	κύτινος	n	n-p---md-	Case=d|Gender=m|Number=p	26	ADV	_	t_543|ref=De exsectione foetus_5
+28	,	,	u	u--------	_	37	AuxX	_	t_544|ref=De exsectione foetus_5
+29	καὶ	καί	c	c--------	_	37	COORD	_	t_545|ref=De exsectione foetus_5
+30	μαλθακοὺς	μαλθακός	a	a-p---ma-	Case=a|Gender=m|Number=p	33	ATR	_	t_546|ref=De exsectione foetus_5
+31	σπόγγους	σπόγγος	n	n-p---ma-	Case=a|Gender=m|Number=p	33	ATR	_	t_547|ref=De exsectione foetus_5
+32	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	35	ADV	_	t_548|ref=De exsectione foetus_5
+33	ῥήνας	ῥήνη	n	n-p---fa-	Case=a|Gender=f|Number=p	35	OBJ	_	t_549|ref=De exsectione foetus_5
+34	,	,	u	u--------	_	37	AuxX	_	t_550|ref=De exsectione foetus_5
+35	προσθεὶς	προστίθημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	37	ADV	_	t_551|ref=De exsectione foetus_5
+36	,	,	u	u--------	_	37	AuxX	_	t_552|ref=De exsectione foetus_5
+37	ἀναδῆσαι	ἀναδέω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_553|ref=De exsectione foetus_5
+38	ἐκ	ἐκ	r	r--------	_	37	AuxP	_	t_554|ref=De exsectione foetus_5
+39	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	40	ATR	_	t_555|ref=De exsectione foetus_5
+40	ὤμων	ὦμος	n	n-p---mg-	Case=g|Gender=m|Number=p	38	OBJ	_	t_556|ref=De exsectione foetus_5
+41	·	·	u	u--------	_	37	AuxK	_	t_557|ref=De exsectione foetus_5
+
+# source = Hippocrates, De exsectione foetus 5
+# text = καὶ ἀνακείσθω ὡς ἀνωτάτω τὰ σκέλεα ἔχουσά , ἐσθιέτω δὲ σιτία μέτρια .
+# sent_id = 36
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_558|ref=De exsectione foetus_5
+2	ἀνακείσθω	ἀνάκειμαι	v	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_559|ref=De exsectione foetus_5
+3	ὡς	ὡς	c	c--------	_	4	AuxZ	_	t_560|ref=De exsectione foetus_5
+4	ἀνωτάτω	ἄνω	d	d--------	_	7	ADV	_	t_561|ref=De exsectione foetus_5
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_562|ref=De exsectione foetus_5
+6	σκέλεα	σκέλος	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_563|ref=De exsectione foetus_5
+7	ἔχουσά	ἔχω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_564|ref=De exsectione foetus_5
+8	,	,	u	u--------	_	0	AuxX	_	t_565|ref=De exsectione foetus_5
+9	ἐσθιέτω	ἐσθίω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_566|ref=De exsectione foetus_5
+10	δὲ	δέ	d	d--------	_	8	COORD	_	t_567|ref=De exsectione foetus_5
+11	σιτία	σιτίον	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_568|ref=De exsectione foetus_5
+12	μέτρια	μέτριος	a	a-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_569|ref=De exsectione foetus_5
+13	.	.	u	u--------	_	8	AuxK	_	t_570|ref=De exsectione foetus_5
+
