@@ -27,15 +27,15 @@ Sentence headers are newly added. Each header contains three lines: source, text
 
 In the file, the header fields are structure as follows:
 
- - \"# source = [author], [title] [internal_location_start]-[internal_location_end]
- - \"# text = [concatenation of all words and punctuation marks in the sentence]
- - \"# sent_id = [sentence_number_in_document_sequence]
+ - \# source = [author], [title] [internal_location_start]-[internal_location_end]
+ - \# text = [concatenation of all words and punctuation marks in the sentence]
+ - \# sent_id = [sentence_number_in_document_sequence]
 
 A sample sentence header follows:
 
- - \"# source = Plutarch, De Heroditi malignate 1
- - \"# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·
- - \"# sent_id = 1
+ - \# source = Plutarch, De Heroditi malignate 1
+ - \# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·
+ - \# sent_id = 1
 
 ## Word locations
 
