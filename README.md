@@ -58,11 +58,3 @@ The OGA corpus was described in this earlier article that corresponds to v0.1.0.
 
 > Giuseppe G. A. Celano, "Opera Graeca Adnotata: Building a 34M+ Token Multilayer Corpus for Ancient Greek", arXiv cs.CL, 2024-03-41, https://doi.org/10.48550/arXiv.2404.00739.
 
-## License and Reuse
-
-The OGA corpus was archived under a CC BY-SA 4.0 international license. This share-alike license requires that derivatives also be shared on like terms. Thus this oga_src repository of CoNNLu files is also archived under a CC BY-SA 4.0 license.
-
-## Disclaimer
-
-THE DATA ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE AND DATA OR THE USE OF OR OTHER DEALINGS IN THE SOFTWARE OR DATA.
-
