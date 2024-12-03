@@ -30,7 +30,7 @@ Here is an example:
 
 ## Word locations
 
-To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. Location types and depth vary based on the document. 
+To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNLu format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. Location types and depths vary based on the document. 
 
 Here are some sample MISC fields from the third word token of various documents.
 
