@@ -43,7 +43,7 @@ To the last or rightmost field for each word token, which is called the "MISC" f
 
 What follows are several out-of-the-box and adjusted MISC field samples, all representing the third word token (t_3) found in a variety of authors and genres.
 
-| Author | MISC (standard) | MISC (adjusted) |
+| Author | OGA MISC | oga_src MISC |
 |------------------|-----------------|-----------------|
 | Aelius Herodianus   | t_3 | t_3\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
 | Homeric Hymns   | t_3 | t_3\|ref=Hymn 14 to the Mother of the Gods_1    |
