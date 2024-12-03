@@ -24,9 +24,9 @@ Sentence headers are added in keeping with typical conllu conventions, containin
 
 Here is an example:
 
-"# source = Plutarch, De Heroditi malignate 1"
-"# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·"
-"# sent_id = 1"
+ - "# source = Plutarch, De Heroditi malignate 1"
+ - "# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·"
+ - "# sent_id = 1"
 
 ## Word locations
 
