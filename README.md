@@ -41,33 +41,28 @@ A sample sentence header follows:
 
 To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNL-U format, two new subfields are added.
 
-an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. The information is pulled from the internal document annotations found in the OGA xml files ending in "tok01_cts01". Internal location types and depths vary based on the document.
+1. The parent's document-wide id token id (t_#) or document-wide elliptical id (e_#). The CoNNL-U HEAD field values are internal to the sentence. These supplemental identifiers are derived from those HEAD values, while adding clarity and precision to syntactical analysis, particularly at the document level.
+
+2. A document abbreviation and internal document location, which facilitates contextualization, comprehension, and comparisons with other digital editions. For well-known Classical texts, the abbreviations generally correspond to the Perseus abbreviation list(https://www.perseus.tufts.edu/hopper/abbrevhelp). Document abbreviations for Christian texts are a mix of commonplace scholarly abbreviations (SBL, Lampe) and abbreviations that I've minted for this specific project, particularly for texts that have longer titles or are not cited as commonly in the scholarly literature. The internal document locations/references are pulled from the location codes in the OGA xml files ending in "tok01_cts01". As is evident in the table below, internal location types and depths can vary considerably from document to document.
 
 What follows are several out-of-the-box and adjusted MISC field samples, all representing the third word token (t_3) found in a variety of authors and genres.
 
-| Author | OGA MISC | oga_src MISC |
+| cts_urn | OGA MISC | oga_src MISC |
 |------------------|-----------------|-----------------|
-| Aelius Herodianus   | t_3 | t_3\|0\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
-| Homeric Hymns   | t_3 | t_3\|ref=Hymn 14 to the Mother of the Gods_1    |
-| Isaeus   | t_3 | t_3\|ref=On The Estate of Apollodorus_0    |
-| New Testament   | t_3 | t_3\|ref=Matthew_1.1    |
-| Plato   | t_3 | t_3\|ref=Cleitophon_406    |
-| Plutarch   | t_3 | t_3\|ref=Alexander_1.1    |
-| Themistocles   | t_3 | t_3\|ref=Epistulae_1    |
+| tlg0087.tlg011   | t_3 | t_3\|0\|ref=orthog_1.1.1.1    |
+| tlg0013.tlg014   | t_3 | t_3\|t_5\|ref=HH14.Mat._1    |
+| tlg0017.tlg012   | t_3 | t_3\|t_4\|ref=Isaeus 12_0    |
+| tlg0031.tlg001   | t_3 | t_3\|t_2\|ref=Matt_1.1    |
+| tlg0059.tlg029   | t_3 | t_3\|t_8\|ref=Cleit._406    |
+| tlg0007.tlg047   | t_3 | t_3\|t_2\|ref=Alex._1.1   |
+| tlg0055.tlg001   | t_3 | t_3\|t_1\|ref=ep._1   |
 
-tlg0087.tlg011
-tlg2003.tlg008
-tlg0017.tlg012
-
-tlg0059.tlg029
-tlg0007.tlg047
-tlg0055.tlg001
 
 ## Data sources
 
-Version 0.2.0 of the Opera Graeca Adnotata, curated by Giuseppe Celano at the University of Leipzig, was archived at [Zenodo]( https://doi.org/10.5281/zenodo.14206061) on 2024-11-24, and is the sole source of the data used in this repository. 
+Version 0.2.0 of the Opera Graeca Adnotata, curated by Giuseppe Celano at the University of Leipzig, was archived at [Zenodo](https://doi.org/10.5281/zenodo.14206061) on 2024-11-24, and is the sole source of the data used in this repository. 
 
-The OGA corpus v0.2.0 contains annotations of 40M+ base tokens and 1999 base texts/files. These files were in turn derived from several major corpora of digital editions of classical Greek texts, especially the Perseus Project (Tufts University) and closely connected First1KGreek project (Mount Allison University, Tufts University, University of Leipzig, University of Virginia), along with the Thesaurus Linguae Graecae (University of California, Irvine) and the Patristic Text Archive (Berlin-Brandenburg Academy of Sciences and Humanities).
+The OGA corpus v0.2.0 contains annotations of 40M+ base tokens and 1999 base texts/files. These files were in turn derived from several major corpora of digital editions of classical Greek texts, most notably the [Perseus Project](https://github.com/PerseusDL/canonical-greekLit) (Tufts University) and closely connected [First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek) project (Mount Allison University, Tufts University, University of Leipzig, University of Virginia), along with the [Thesaurus Linguae Graecae](https://stephanus.tlg.uci.edu/index.php#login=true) (University of California, Irvine) and the [Patristic Text Archive](https://github.com/PatristicTextArchive/pta_data) (Berlin-Brandenburg Academy of Sciences and Humanities).
 
 OGA annotation includes morphosyntactical features based on the [Ancient Greek Dependency Treebank, or AGDT](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md), as well as data (sometimes provisional) pertaining to authorship and likely date or date range of composition.
 
@@ -78,4 +73,3 @@ Elsewhere I have archived a [simple comparison of documents in the OGA and GLAUx
 The OGA corpus was described in this earlier article that corresponds to v0.1.0.
 
 > Giuseppe G. A. Celano, "Opera Graeca Adnotata: Building a 34M+ Token Multilayer Corpus for Ancient Greek", arXiv cs.CL, 2024-03-41, https://doi.org/10.48550/arXiv.2404.00739.
-
