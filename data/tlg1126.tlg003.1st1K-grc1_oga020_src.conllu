@@ -1,132 +1,132 @@
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = ΕΚ ΤΩΝ ΑΝΝΟΥΒΙΩΝΟΣ .
 # sent_id = 1
-1	ΕΚ	ἐκ	n	n-s---fa-	Case=a|Gender=f|Number=s	2	APOS	_	t_1|ref=Fragmenta_1
-2	ΤΩΝ	ὁ	n	n-s---ma-	Case=a|Gender=m|Number=s	0	PRED	_	t_2|ref=Fragmenta_1
-3	ΑΝΝΟΥΒΙΩΝΟΣ	αννουβιων	n	n-s---mn-	Case=n|Gender=m|Number=s	2	APOS	_	t_3|ref=Fragmenta_1
-4	.	.	u	u--------	_	2	AuxK	_	t_4|ref=Fragmenta_1
+1	ΕΚ	ἐκ	n	n-s---fa-	Case=a|Gender=f|Number=s	2	APOS	_	t_1|t_2|ref=fr._1
+2	ΤΩΝ	ὁ	n	n-s---ma-	Case=a|Gender=m|Number=s	0	PRED	_	t_2|0|ref=fr._1
+3	ΑΝΝΟΥΒΙΩΝΟΣ	αννουβιων	n	n-s---mn-	Case=n|Gender=m|Number=s	2	APOS	_	t_3|t_2|ref=fr._1
+4	.	.	u	u--------	_	2	AuxK	_	t_4|t_2|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = Περὶ μοίρας ὡροσκοπούσης ὡς Ἀννουβίων ἐν τοῖς ἐλεγείοις [0] .
 # sent_id = 2
-1	Περὶ	περί	r	r--------	_	3	AuxP	_	t_5|ref=Fragmenta_1
-2	μοίρας	μοῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_6|ref=Fragmenta_1
-3	ὡροσκοπούσης	ὡροσκοπέω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_7|ref=Fragmenta_1
-4	ὡς	ὡς	d	d--------	_	5	AuxZ	_	t_8|ref=Fragmenta_1
-5	Ἀννουβίων	ἀννουβίων	n	n-p---mg-	Case=g|Gender=m|Number=p	3	SBJ	_	t_9|ref=Fragmenta_1
-6	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_10|ref=Fragmenta_1
-7	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_11|ref=Fragmenta_1
-8	ἐλεγείοις	ἐλεγεῖον	n	n-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_12|ref=Fragmenta_1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Fragmenta_1
-10	.	.	u	u--------	_	9	AuxK	_	t_13|ref=Fragmenta_1
+1	Περὶ	περί	r	r--------	_	3	AuxP	_	t_5|t_7|ref=fr._1
+2	μοίρας	μοῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_6|t_5|ref=fr._1
+3	ὡροσκοπούσης	ὡροσκοπέω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_7|e_1|ref=fr._1
+4	ὡς	ὡς	d	d--------	_	5	AuxZ	_	t_8|t_9|ref=fr._1
+5	Ἀννουβίων	ἀννουβίων	n	n-p---mg-	Case=g|Gender=m|Number=p	3	SBJ	_	t_9|t_7|ref=fr._1
+6	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_10|t_7|ref=fr._1
+7	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_11|t_12|ref=fr._1
+8	ἐλεγείοις	ἐλεγεῖον	n	n-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_12|t_10|ref=fr._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=fr._1
+10	.	.	u	u--------	_	9	AuxK	_	t_13|e_1|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = Ὡρονόμον δὲ μάθοις ὥρην ἄτερ ἀστράσιν ἄλλοις σκεπτόμενος Μήνην καὶ μέγαν Ἠέλιον ·
 # sent_id = 3
-1	Ὡρονόμον	ὡρονόμον	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_14|ref=Fragmenta_1
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_15|ref=Fragmenta_1
-3	μάθοις	μανθάνω	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	2	PRED	_	t_16|ref=Fragmenta_1
-4	ὥρην	ὥρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_17|ref=Fragmenta_1
-5	ἄτερ	ἄτερ	r	r--------	_	3	AuxP	_	t_18|ref=Fragmenta_1
-6	ἀστράσιν	ἀστράς	n	n-p---md-	Case=d|Gender=m|Number=p	5	ADV	_	t_19|ref=Fragmenta_1
-7	ἄλλοις	ἄλλος	a	a-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_20|ref=Fragmenta_1
-8	σκεπτόμενος	σκέπτομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_21|ref=Fragmenta_1
-9	Μήνην	μήνη	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_22|ref=Fragmenta_1
-10	καὶ	καί	c	c--------	_	8	COORD	_	t_23|ref=Fragmenta_1
-11	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_24|ref=Fragmenta_1
-12	Ἠέλιον	ἠέλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_25|ref=Fragmenta_1
-13	·	·	u	u--------	_	2	AuxK	_	t_26|ref=Fragmenta_1
+1	Ὡρονόμον	ὡρονόμον	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_14|t_16|ref=fr._1
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_15|0|ref=fr._1
+3	μάθοις	μανθάνω	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	2	PRED	_	t_16|t_15|ref=fr._1
+4	ὥρην	ὥρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_17|t_16|ref=fr._1
+5	ἄτερ	ἄτερ	r	r--------	_	3	AuxP	_	t_18|t_16|ref=fr._1
+6	ἀστράσιν	ἀστράς	n	n-p---md-	Case=d|Gender=m|Number=p	5	ADV	_	t_19|t_18|ref=fr._1
+7	ἄλλοις	ἄλλος	a	a-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_20|t_19|ref=fr._1
+8	σκεπτόμενος	σκέπτομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_21|t_16|ref=fr._1
+9	Μήνην	μήνη	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_22|t_23|ref=fr._1
+10	καὶ	καί	c	c--------	_	8	COORD	_	t_23|t_21|ref=fr._1
+11	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_24|t_25|ref=fr._1
+12	Ἠέλιον	ἠέλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_25|t_23|ref=fr._1
+13	·	·	u	u--------	_	2	AuxK	_	t_26|t_15|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = ἡμερινῇ γενέσει μὲν ἀπʼ Ἠελίοιο , νοήσας οἴκου δεσπόζων ἔνθα βέβηκε θεός ·
 # sent_id = 4
-1	ἡμερινῇ	ἡμερινός	a	a-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_27|ref=Fragmenta_1
-2	γενέσει	γένεσις	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	0	PRED	_	t_28|ref=Fragmenta_1
-3	μὲν	μέν	g	g--------	_	2	AuxY	_	t_29|ref=Fragmenta_1
-4	ἀπʼ	ἀπό	r	r--------	_	2	AuxP	_	t_30|ref=Fragmenta_1
-5	Ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_31|ref=Fragmenta_1
-6	,	,	u	u--------	_	7	AuxX	_	t_32|ref=Fragmenta_1
-7	νοήσας	νοέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	2	ADV	_	t_33|ref=Fragmenta_1
-8	οἴκου	οἶκος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	OBJ	_	t_34|ref=Fragmenta_1
-9	δεσπόζων	δεσπόζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_35|ref=Fragmenta_1
-10	ἔνθα	ἔνθα	d	d--------	_	11	ADV	_	t_36|ref=Fragmenta_1
-11	βέβηκε	βαίνω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	8	ATR	_	t_37|ref=Fragmenta_1
-12	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_38|ref=Fragmenta_1
-13	·	·	u	u--------	_	2	AuxK	_	t_39|ref=Fragmenta_1
+1	ἡμερινῇ	ἡμερινός	a	a-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_27|t_28|ref=fr._1
+2	γενέσει	γένεσις	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	0	PRED	_	t_28|0|ref=fr._1
+3	μὲν	μέν	g	g--------	_	2	AuxY	_	t_29|t_28|ref=fr._1
+4	ἀπʼ	ἀπό	r	r--------	_	2	AuxP	_	t_30|t_28|ref=fr._1
+5	Ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_31|t_30|ref=fr._1
+6	,	,	u	u--------	_	7	AuxX	_	t_32|t_33|ref=fr._1
+7	νοήσας	νοέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	2	ADV	_	t_33|t_28|ref=fr._1
+8	οἴκου	οἶκος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	OBJ	_	t_34|t_35|ref=fr._1
+9	δεσπόζων	δεσπόζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_35|t_33|ref=fr._1
+10	ἔνθα	ἔνθα	d	d--------	_	11	ADV	_	t_36|t_37|ref=fr._1
+11	βέβηκε	βαίνω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	8	ATR	_	t_37|t_34|ref=fr._1
+12	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_38|t_37|ref=fr._1
+13	·	·	u	u--------	_	2	AuxK	_	t_39|t_28|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = κεῖθεν δὲ στοιχηδὸν ἀριθμηθήμεναι ἄστρα μέχρι Σεληναίης ἀστέρος ἱσταμένου [0] ·
 # sent_id = 5
-1	κεῖθεν	ἐκεῖθεν	d	d--------	_	4	ADV	_	t_40|ref=Fragmenta_1
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_41|ref=Fragmenta_1
-3	στοιχηδὸν	στοιχηδόν	d	d--------	_	4	ADV	_	t_42|ref=Fragmenta_1
-4	ἀριθμηθήμεναι	ἀριθμέω	v	v--anp---	Mood=n|Tense=a|Voice=p	10	ADV	_	t_43|ref=Fragmenta_1
-5	ἄστρα	ἄστρον	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_44|ref=Fragmenta_1
-6	μέχρι	μέχρι	r	r--------	_	4	AuxP	_	t_45|ref=Fragmenta_1
-7	Σεληναίης	σεληναῖος	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_46|ref=Fragmenta_1
-8	ἀστέρος	ἀστήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_47|ref=Fragmenta_1
-9	ἱσταμένου	ἵστημι	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_48|ref=Fragmenta_1
-10	[0]	[0]	-	---------	_	2	PRED	_	e_2|ref=Fragmenta_1
-11	·	·	u	u--------	_	2	AuxK	_	t_49|ref=Fragmenta_1
+1	κεῖθεν	ἐκεῖθεν	d	d--------	_	4	ADV	_	t_40|t_43|ref=fr._1
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_41|0|ref=fr._1
+3	στοιχηδὸν	στοιχηδόν	d	d--------	_	4	ADV	_	t_42|t_43|ref=fr._1
+4	ἀριθμηθήμεναι	ἀριθμέω	v	v--anp---	Mood=n|Tense=a|Voice=p	10	ADV	_	t_43|e_2|ref=fr._1
+5	ἄστρα	ἄστρον	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_44|t_43|ref=fr._1
+6	μέχρι	μέχρι	r	r--------	_	4	AuxP	_	t_45|t_43|ref=fr._1
+7	Σεληναίης	σεληναῖος	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_46|t_45|ref=fr._1
+8	ἀστέρος	ἀστήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_47|t_46|ref=fr._1
+9	ἱσταμένου	ἵστημι	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_48|t_46|ref=fr._1
+10	[0]	[0]	-	---------	_	2	PRED	_	e_2|t_41|ref=fr._1
+11	·	·	u	u--------	_	2	AuxK	_	t_49|t_41|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = πάντα δʼ ἀπʼ Ἠελίοιο διέκβαλε τοῦτον ἀριθμόν , εἰς ὅ τι δʼ ἂν λήξῃ , κεῖθι καὶ ὡρονόμος [0] .
 # sent_id = 6
-1	πάντα	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_50|ref=Fragmenta_1
-2	δʼ	δέ	g	g--------	_	12	AuxY	_	t_51|ref=Fragmenta_1
-3	ἀπʼ	ἀπό	r	r--------	_	5	AuxP	_	t_52|ref=Fragmenta_1
-4	Ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_53|ref=Fragmenta_1
-5	διέκβαλε	διαβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_54|ref=Fragmenta_1
-6	τοῦτον	οὗτος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_55|ref=Fragmenta_1
-7	ἀριθμόν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_56|ref=Fragmenta_1
-8	,	,	u	u--------	_	12	AuxX	_	t_57|ref=Fragmenta_1
-9	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_58|ref=Fragmenta_1
-10	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_59|ref=Fragmenta_1
-11	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_60|ref=Fragmenta_1
-12	δʼ	δέ	g	g--------	_	0	COORD	_	t_61|ref=Fragmenta_1
-13	ἂν	ἄν	g	g--------	_	14	AuxY	_	t_62|ref=Fragmenta_1
-14	λήξῃ	λήγω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ATR	_	t_63|ref=Fragmenta_1
-15	,	,	u	u--------	_	19	AuxX	_	t_64|ref=Fragmenta_1
-16	κεῖθι	ἐκεῖθι	d	d--------	_	19	ADV	_	t_65|ref=Fragmenta_1
-17	καὶ	καί	d	d--------	_	16	AuxZ	_	t_66|ref=Fragmenta_1
-18	ὡρονόμος	ὡρονόμος	a	a-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_67|ref=Fragmenta_1
-19	[0]	[0]	-	---------	_	12	PRED	_	e_3|ref=Fragmenta_1
-20	.	.	u	u--------	_	12	AuxK	_	t_68|ref=Fragmenta_1
+1	πάντα	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_50|t_54|ref=fr._1
+2	δʼ	δέ	g	g--------	_	12	AuxY	_	t_51|t_61|ref=fr._1
+3	ἀπʼ	ἀπό	r	r--------	_	5	AuxP	_	t_52|t_54|ref=fr._1
+4	Ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_53|t_52|ref=fr._1
+5	διέκβαλε	διαβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_54|t_61|ref=fr._1
+6	τοῦτον	οὗτος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_55|t_56|ref=fr._1
+7	ἀριθμόν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_56|t_54|ref=fr._1
+8	,	,	u	u--------	_	12	AuxX	_	t_57|t_61|ref=fr._1
+9	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_58|t_63|ref=fr._1
+10	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_59|t_58|ref=fr._1
+11	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_60|t_59|ref=fr._1
+12	δʼ	δέ	g	g--------	_	0	COORD	_	t_61|0|ref=fr._1
+13	ἂν	ἄν	g	g--------	_	14	AuxY	_	t_62|t_63|ref=fr._1
+14	λήξῃ	λήγω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ATR	_	t_63|t_50|ref=fr._1
+15	,	,	u	u--------	_	19	AuxX	_	t_64|e_3|ref=fr._1
+16	κεῖθι	ἐκεῖθι	d	d--------	_	19	ADV	_	t_65|e_3|ref=fr._1
+17	καὶ	καί	d	d--------	_	16	AuxZ	_	t_66|t_65|ref=fr._1
+18	ὡρονόμος	ὡρονόμος	a	a-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_67|e_3|ref=fr._1
+19	[0]	[0]	-	---------	_	12	PRED	_	e_3|t_61|ref=fr._1
+20	.	.	u	u--------	_	12	AuxK	_	t_68|t_61|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = χρὴ δὲ Σεληναίης προτέρης ἀνελέσθαι ἀριθμόν , ὥρην νυκτερινὴν σκεπτόμενον θέματος ·
 # sent_id = 7
-1	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_69|ref=Fragmenta_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_70|ref=Fragmenta_1
-3	Σεληναίης	σεληναῖος	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_71|ref=Fragmenta_1
-4	προτέρης	πρότερος	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_72|ref=Fragmenta_1
-5	ἀνελέσθαι	ἀναιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	1	SBJ	_	t_73|ref=Fragmenta_1
-6	ἀριθμόν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_74|ref=Fragmenta_1
-7	,	,	u	u--------	_	1	AuxX	_	t_75|ref=Fragmenta_1
-8	ὥρην	ὥρα	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_76|ref=Fragmenta_1
-9	νυκτερινὴν	νυκτερινός	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_77|ref=Fragmenta_1
-10	σκεπτόμενον	σκέπτομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_78|ref=Fragmenta_1
-11	θέματος	θέμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_79|ref=Fragmenta_1
-12	·	·	u	u--------	_	1	AuxK	_	t_80|ref=Fragmenta_1
+1	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_69|0|ref=fr._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_70|t_69|ref=fr._1
+3	Σεληναίης	σεληναῖος	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_71|t_74|ref=fr._1
+4	προτέρης	πρότερος	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_72|t_71|ref=fr._1
+5	ἀνελέσθαι	ἀναιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	1	SBJ	_	t_73|t_69|ref=fr._1
+6	ἀριθμόν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_74|t_73|ref=fr._1
+7	,	,	u	u--------	_	1	AuxX	_	t_75|t_69|ref=fr._1
+8	ὥρην	ὥρα	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_76|t_78|ref=fr._1
+9	νυκτερινὴν	νυκτερινός	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_77|t_76|ref=fr._1
+10	σκεπτόμενον	σκέπτομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_78|t_73|ref=fr._1
+11	θέματος	θέμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_79|t_76|ref=fr._1
+12	·	·	u	u--------	_	1	AuxK	_	t_80|t_69|ref=fr._1
 
-# source = Anubion, Poeta Astrologus, Fragmenta 1
+# source = Anubion, Poeta Astrologus, fr. 1
 # text = εἰ δέ κεν Ἠέλιος ὀλίγας μοίρας ἔχῃ ἄστρων , χρὴ τετράγωνά θʼ ὁρᾶν καὶ διάμετρα τόπων .
 # sent_id = 8
-1	εἰ	εἰ	c	c--------	_	10	AuxC	_	t_81|ref=Fragmenta_1
-2	δέ	δέ	g	g--------	_	0	COORD	_	t_82|ref=Fragmenta_1
-3	κεν	ἄν	g	g--------	_	7	AuxY	_	t_83|ref=Fragmenta_1
-4	Ἠέλιος	ἠέλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_84|ref=Fragmenta_1
-5	ὀλίγας	ὀλίγος	a	a-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_85|ref=Fragmenta_1
-6	μοίρας	μοῖρα	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_86|ref=Fragmenta_1
-7	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_87|ref=Fragmenta_1
-8	ἄστρων	ἄστρον	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_88|ref=Fragmenta_1
-9	,	,	u	u--------	_	1	AuxX	_	t_89|ref=Fragmenta_1
-10	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_90|ref=Fragmenta_1
-11	τετράγωνά	τετράγωνος	a	a-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_91|ref=Fragmenta_1
-12	θʼ	τε	g	g--------	_	14	AuxY	_	t_92|ref=Fragmenta_1
-13	ὁρᾶν	ὁράω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_93|ref=Fragmenta_1
-14	καὶ	καί	c	c--------	_	13	COORD	_	t_94|ref=Fragmenta_1
-15	διάμετρα	διάμετρος	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_95|ref=Fragmenta_1
-16	τόπων	τόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_96|ref=Fragmenta_1
-17	.	.	u	u--------	_	2	AuxK	_	t_97|ref=Fragmenta_1
+1	εἰ	εἰ	c	c--------	_	10	AuxC	_	t_81|t_90|ref=fr._1
+2	δέ	δέ	g	g--------	_	0	COORD	_	t_82|0|ref=fr._1
+3	κεν	ἄν	g	g--------	_	7	AuxY	_	t_83|t_87|ref=fr._1
+4	Ἠέλιος	ἠέλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_84|t_87|ref=fr._1
+5	ὀλίγας	ὀλίγος	a	a-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_85|t_86|ref=fr._1
+6	μοίρας	μοῖρα	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_86|t_87|ref=fr._1
+7	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_87|t_81|ref=fr._1
+8	ἄστρων	ἄστρον	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_88|t_86|ref=fr._1
+9	,	,	u	u--------	_	1	AuxX	_	t_89|t_81|ref=fr._1
+10	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_90|t_82|ref=fr._1
+11	τετράγωνά	τετράγωνος	a	a-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_91|t_94|ref=fr._1
+12	θʼ	τε	g	g--------	_	14	AuxY	_	t_92|t_94|ref=fr._1
+13	ὁρᾶν	ὁράω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_93|t_90|ref=fr._1
+14	καὶ	καί	c	c--------	_	13	COORD	_	t_94|t_93|ref=fr._1
+15	διάμετρα	διάμετρος	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_95|t_94|ref=fr._1
+16	τόπων	τόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_96|t_95|ref=fr._1
+17	.	.	u	u--------	_	2	AuxK	_	t_97|t_82|ref=fr._1
 

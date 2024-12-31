@@ -1,83 +1,83 @@
-# source = Aelius Herodianus, Προτάσεις 1
+# source = Aelius Herodianus, propos. 1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Προτάσεις_1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Προτάσεις_1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=propos._1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=propos._1
 
-# source = Aelius Herodianus, Προτάσεις 1
+# source = Aelius Herodianus, propos. 1
 # text = νεοίη ὡϲ ὁμοίη λέγει δὲ τὴν νεότητα .
 # sent_id = 2
-1	νεοίη	νεοίη	a	a-s---fn-	Case=n|Gender=f|Number=s	4	AtvV	_	t_3|ref=Προτάσεις_1
-2	ὡϲ	ὡς	c	c--------	_	1	AuxC	_	t_4|ref=Προτάσεις_1
-3	ὁμοίη	ὅμοιος	a	a-s---fn-	Mood=o|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_5|ref=Προτάσεις_1
-4	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_6|ref=Προτάσεις_1
-5	δὲ	δέ	d	d--------	_	4	AuxY	_	t_7|ref=Προτάσεις_1
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_8|ref=Προτάσεις_1
-7	νεότητα	νεότης	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_9|ref=Προτάσεις_1
-8	.	.	u	u--------	_	5	AuxK	_	t_10|ref=Προτάσεις_1
+1	νεοίη	νεοίη	a	a-s---fn-	Case=n|Gender=f|Number=s	4	AtvV	_	t_3|t_6|ref=propos._1
+2	ὡϲ	ὡς	c	c--------	_	1	AuxC	_	t_4|t_3|ref=propos._1
+3	ὁμοίη	ὅμοιος	a	a-s---fn-	Mood=o|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_5|t_4|ref=propos._1
+4	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_6|0|ref=propos._1
+5	δὲ	δέ	d	d--------	_	4	AuxY	_	t_7|t_6|ref=propos._1
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_8|t_9|ref=propos._1
+7	νεότητα	νεότης	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_9|t_6|ref=propos._1
+8	.	.	u	u--------	_	5	AuxK	_	t_10|t_7|ref=propos._1
 
-# source = Aelius Herodianus, Προτάσεις 1
+# source = Aelius Herodianus, propos. 1
 # text = οἱ μέντοι μετ᾿ αὐτὸν ὡϲ ἐπὶ τὸ πλεῖϲτον τὴν ἄνοιαν λέγουϲιν .
 # sent_id = 3
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_11|ref=Προτάσεις_1
-2	μέντοι	μέντοι	d	d--------	_	11	AuxY	_	t_12|ref=Προτάσεις_1
-3	μετ᾿	μετά	r	r--------	_	1	AuxP	_	t_13|ref=Προτάσεις_1
-4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_14|ref=Προτάσεις_1
-5	ὡϲ	ὡς	d	d--------	_	8	AuxZ	_	t_15|ref=Προτάσεις_1
-6	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_16|ref=Προτάσεις_1
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_17|ref=Προτάσεις_1
-8	πλεῖϲτον	πολύς	a	a-s---na-	Case=a|Degree=c|Gender=n|Number=s	6	ADV	_	t_18|ref=Προτάσεις_1
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_19|ref=Προτάσεις_1
-10	ἄνοιαν	ἄνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_20|ref=Προτάσεις_1
-11	λέγουϲιν	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_21|ref=Προτάσεις_1
-12	.	.	u	u--------	_	11	AuxK	_	t_22|ref=Προτάσεις_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_11|t_21|ref=propos._1
+2	μέντοι	μέντοι	d	d--------	_	11	AuxY	_	t_12|t_21|ref=propos._1
+3	μετ᾿	μετά	r	r--------	_	1	AuxP	_	t_13|t_11|ref=propos._1
+4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_14|t_13|ref=propos._1
+5	ὡϲ	ὡς	d	d--------	_	8	AuxZ	_	t_15|t_18|ref=propos._1
+6	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_16|t_21|ref=propos._1
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_17|t_18|ref=propos._1
+8	πλεῖϲτον	πολύς	a	a-s---na-	Case=a|Degree=c|Gender=n|Number=s	6	ADV	_	t_18|t_16|ref=propos._1
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_19|t_20|ref=propos._1
+10	ἄνοιαν	ἄνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_20|t_21|ref=propos._1
+11	λέγουϲιν	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_21|0|ref=propos._1
+12	.	.	u	u--------	_	11	AuxK	_	t_22|t_21|ref=propos._1
 
-# source = Aelius Herodianus, Προτάσεις 1
+# source = Aelius Herodianus, propos. 1
 # text = περὶ δὲ τῆϲ λέξεωϲ εἰ ὑγιῶϲ ἐϲχήματιϲται , ἐν τῷ προτατικῷ ἐζήτηϲα .
 # sent_id = 4
-1	περὶ	περί	r	r--------	_	12	AuxP	_	t_23|ref=Προτάσεις_1
-2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_24|ref=Προτάσεις_1
-3	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_25|ref=Προτάσεις_1
-4	λέξεωϲ	λέξις	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_26|ref=Προτάσεις_1
-5	εἰ	εἰ	c	c--------	_	12	AuxC	_	t_27|ref=Προτάσεις_1
-6	ὑγιῶϲ	ὑγιής	d	d--------	_	7	ADV	_	t_28|ref=Προτάσεις_1
-7	ἐϲχήματιϲται	ἐςχίζω	v	v3srie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	5	ADV	_	t_29|ref=Προτάσεις_1
-8	,	,	u	u--------	_	12	AuxX	_	t_30|ref=Προτάσεις_1
-9	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_31|ref=Προτάσεις_1
-10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_32|ref=Προτάσεις_1
-11	προτατικῷ	προτατικός	a	a-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_33|ref=Προτάσεις_1
-12	ἐζήτηϲα	ζητέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_34|ref=Προτάσεις_1
-13	.	.	u	u--------	_	12	AuxK	_	t_35|ref=Προτάσεις_1
+1	περὶ	περί	r	r--------	_	12	AuxP	_	t_23|t_34|ref=propos._1
+2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_24|t_34|ref=propos._1
+3	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_25|t_26|ref=propos._1
+4	λέξεωϲ	λέξις	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_26|t_23|ref=propos._1
+5	εἰ	εἰ	c	c--------	_	12	AuxC	_	t_27|t_34|ref=propos._1
+6	ὑγιῶϲ	ὑγιής	d	d--------	_	7	ADV	_	t_28|t_29|ref=propos._1
+7	ἐϲχήματιϲται	ἐςχίζω	v	v3srie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	5	ADV	_	t_29|t_27|ref=propos._1
+8	,	,	u	u--------	_	12	AuxX	_	t_30|t_34|ref=propos._1
+9	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_31|t_34|ref=propos._1
+10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_32|t_33|ref=propos._1
+11	προτατικῷ	προτατικός	a	a-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_33|t_31|ref=propos._1
+12	ἐζήτηϲα	ζητέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_34|0|ref=propos._1
+13	.	.	u	u--------	_	12	AuxK	_	t_35|t_34|ref=propos._1
 
-# source = Aelius Herodianus, Προτάσεις 2
+# source = Aelius Herodianus, propos. 2
 # text = 2 .
 # sent_id = 5
-1	2	2	u	u--------	_	0	AuxG	_	t_36|ref=Προτάσεις_2
-2	.	.	u	u--------	_	1	AuxK	_	t_37|ref=Προτάσεις_2
+1	2	2	u	u--------	_	0	AuxG	_	t_36|0|ref=propos._2
+2	.	.	u	u--------	_	1	AuxK	_	t_37|t_36|ref=propos._2
 
-# source = Aelius Herodianus, Προτάσεις 2
+# source = Aelius Herodianus, propos. 2
 # text = ποϲϲῆμαρ ὑφ᾿ ἕν .
 # sent_id = 6
-1	ποϲϲῆμαρ	ποςςῆμαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_38|ref=Προτάσεις_2
-2	ὑφ᾿	ὑπό	r	r--------	_	0	PRED	_	t_39|ref=Προτάσεις_2
-3	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_40|ref=Προτάσεις_2
-4	.	.	u	u--------	_	2	AuxK	_	t_41|ref=Προτάσεις_2
+1	ποϲϲῆμαρ	ποςςῆμαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_38|t_39|ref=propos._2
+2	ὑφ᾿	ὑπό	r	r--------	_	0	PRED	_	t_39|0|ref=propos._2
+3	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_40|t_39|ref=propos._2
+4	.	.	u	u--------	_	2	AuxK	_	t_41|t_39|ref=propos._2
 
-# source = Aelius Herodianus, Προτάσεις 2
+# source = Aelius Herodianus, propos. 2
 # text = προείρηται δὲ ἤδη περὶ τῆϲ λέξεωϲ , ἀλλὰ καὶ ἐζήτητο ἐν ταῖϲ προτάϲεϲι .
 # sent_id = 7
-1	προείρηται	προερέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	8	PRED	_	t_42|ref=Προτάσεις_2
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_43|ref=Προτάσεις_2
-3	ἤδη	ἤδη	d	d--------	_	1	ADV	_	t_44|ref=Προτάσεις_2
-4	περὶ	περί	r	r--------	_	1	AuxP	_	t_45|ref=Προτάσεις_2
-5	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_46|ref=Προτάσεις_2
-6	λέξεωϲ	λέξις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_47|ref=Προτάσεις_2
-7	,	,	u	u--------	_	0	AuxX	_	t_48|ref=Προτάσεις_2
-8	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_49|ref=Προτάσεις_2
-9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_50|ref=Προτάσεις_2
-10	ἐζήτητο	ζητέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	8	PRED	_	t_51|ref=Προτάσεις_2
-11	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_52|ref=Προτάσεις_2
-12	ταῖϲ	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_53|ref=Προτάσεις_2
-13	προτάϲεϲι	πρότασις	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ADV	_	t_54|ref=Προτάσεις_2
-14	.	.	u	u--------	_	7	AuxK	_	t_55|ref=Προτάσεις_2
+1	προείρηται	προερέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	8	PRED	_	t_42|t_49|ref=propos._2
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_43|t_49|ref=propos._2
+3	ἤδη	ἤδη	d	d--------	_	1	ADV	_	t_44|t_42|ref=propos._2
+4	περὶ	περί	r	r--------	_	1	AuxP	_	t_45|t_42|ref=propos._2
+5	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_46|t_47|ref=propos._2
+6	λέξεωϲ	λέξις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_47|t_45|ref=propos._2
+7	,	,	u	u--------	_	0	AuxX	_	t_48|0|ref=propos._2
+8	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_49|t_48|ref=propos._2
+9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_50|t_51|ref=propos._2
+10	ἐζήτητο	ζητέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	8	PRED	_	t_51|t_49|ref=propos._2
+11	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_52|t_51|ref=propos._2
+12	ταῖϲ	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_53|t_54|ref=propos._2
+13	προτάϲεϲι	πρότασις	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ADV	_	t_54|t_52|ref=propos._2
+14	.	.	u	u--------	_	7	AuxK	_	t_55|t_48|ref=propos._2
 

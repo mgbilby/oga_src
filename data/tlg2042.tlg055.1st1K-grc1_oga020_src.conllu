@@ -1,441 +1,441 @@
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = Καὶ εῦξατο Ἱεμθάε τῷ Κυφίῳ .
 # sent_id = 1
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1|ref=Selecta in Judices_1
-2	εῦξατο	εὔχομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	1	PRED	_	t_2|ref=Selecta in Judices_1
-3	Ἱεμθάε	ἱεμθάω	n	n-s---md-	Case=d|Gender=m|Number=s	2	SBJ	_	t_3|ref=Selecta in Judices_1
-4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_4|ref=Selecta in Judices_1
-5	Κυφίῳ	κύφιος	n	n-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_5|ref=Selecta in Judices_1
-6	.	.	u	u--------	_	1	AuxK	_	t_6|ref=Selecta in Judices_1
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1|0|ref=Jud.sel._1
+2	εῦξατο	εὔχομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	1	PRED	_	t_2|t_1|ref=Jud.sel._1
+3	Ἱεμθάε	ἱεμθάω	n	n-s---md-	Case=d|Gender=m|Number=s	2	SBJ	_	t_3|t_2|ref=Jud.sel._1
+4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_4|t_5|ref=Jud.sel._1
+5	Κυφίῳ	κύφιος	n	n-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_5|t_2|ref=Jud.sel._1
+6	.	.	u	u--------	_	1	AuxK	_	t_6|t_1|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = Εἰ Πνεῦμα Κυρίου ἐπ᾿ αὐτὸν , πῶς εὔχεται ἃ μὴ προσήκει [0] ;
 # sent_id = 2
-1	Εἰ	εἰ	c	c--------	_	8	AuxC	_	t_7|ref=Selecta in Judices_1
-2	Πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_8|ref=Selecta in Judices_1
-3	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_9|ref=Selecta in Judices_1
-4	ἐπ᾿	ἐπί	r	r--------	_	12	AuxP	_	t_10|ref=Selecta in Judices_1
-5	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_11|ref=Selecta in Judices_1
-6	,	,	u	u--------	_	1	AuxX	_	t_12|ref=Selecta in Judices_1
-7	πῶς	πῶς	d	d--------	_	8	ADV	_	t_13|ref=Selecta in Judices_1
-8	εὔχεται	εὔχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_14|ref=Selecta in Judices_1
-9	ἃ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_15|ref=Selecta in Judices_1
-10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_16|ref=Selecta in Judices_1
-11	προσήκει	προσήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	OBJ	_	t_17|ref=Selecta in Judices_1
-12	[0]	[0]	-	---------	_	1	ADV	_	e_1|ref=Selecta in Judices_1
-13	;	;	u	u--------	_	8	AuxK	_	t_18|ref=Selecta in Judices_1
+1	Εἰ	εἰ	c	c--------	_	8	AuxC	_	t_7|t_14|ref=Jud.sel._1
+2	Πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_8|e_1|ref=Jud.sel._1
+3	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_9|t_8|ref=Jud.sel._1
+4	ἐπ᾿	ἐπί	r	r--------	_	12	AuxP	_	t_10|e_1|ref=Jud.sel._1
+5	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_11|t_10|ref=Jud.sel._1
+6	,	,	u	u--------	_	1	AuxX	_	t_12|t_7|ref=Jud.sel._1
+7	πῶς	πῶς	d	d--------	_	8	ADV	_	t_13|t_14|ref=Jud.sel._1
+8	εὔχεται	εὔχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_14|0|ref=Jud.sel._1
+9	ἃ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_15|t_17|ref=Jud.sel._1
+10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_16|t_17|ref=Jud.sel._1
+11	προσήκει	προσήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	OBJ	_	t_17|t_14|ref=Jud.sel._1
+12	[0]	[0]	-	---------	_	1	ADV	_	e_1|t_7|ref=Jud.sel._1
+13	;	;	u	u--------	_	8	AuxK	_	t_18|t_14|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = Ἐνῆν γὰρ καὶ κύνα ἀπαντῆσαι ἐπανιόντι τῷ Ἰεφθάε .
 # sent_id = 3
-1	Ἐνῆν	ἐνεἰμί	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_19|ref=Selecta in Judices_1
-2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_20|ref=Selecta in Judices_1
-3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_21|ref=Selecta in Judices_1
-4	κύνα	κύων	n	n-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_22|ref=Selecta in Judices_1
-5	ἀπαντῆσαι	ἀπαντάω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_23|ref=Selecta in Judices_1
-6	ἐπανιόντι	ἐπανέρχομαι	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ATR	_	t_24|ref=Selecta in Judices_1
-7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_25|ref=Selecta in Judices_1
-8	Ἰεφθάε	ἰεφθάε	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_26|ref=Selecta in Judices_1
-9	.	.	u	u--------	_	5	AuxK	_	t_27|ref=Selecta in Judices_1
+1	Ἐνῆν	ἐνεἰμί	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_19|t_21|ref=Jud.sel._1
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_20|t_23|ref=Jud.sel._1
+3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_21|t_23|ref=Jud.sel._1
+4	κύνα	κύων	n	n-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_22|t_23|ref=Jud.sel._1
+5	ἀπαντῆσαι	ἀπαντάω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_23|0|ref=Jud.sel._1
+6	ἐπανιόντι	ἐπανέρχομαι	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ATR	_	t_24|t_26|ref=Jud.sel._1
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_25|t_26|ref=Jud.sel._1
+8	Ἰεφθάε	ἰεφθάε	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_26|t_23|ref=Jud.sel._1
+9	.	.	u	u--------	_	5	AuxK	_	t_27|t_23|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = Ἆῤ οὖν ἐσφάλη τὸ Πνεῦμα ;
 # sent_id = 4
-1	Ἆῤ	ἆρα	d	d--------	_	3	AuxY	_	t_28|ref=Selecta in Judices_1
-2	οὖν	οὖν	d	d--------	_	3	AuxY	_	t_29|ref=Selecta in Judices_1
-3	ἐσφάλη	σφάλλω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_30|ref=Selecta in Judices_1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_31|ref=Selecta in Judices_1
-5	Πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_32|ref=Selecta in Judices_1
-6	;	;	u	u--------	_	3	AuxK	_	t_33|ref=Selecta in Judices_1
+1	Ἆῤ	ἆρα	d	d--------	_	3	AuxY	_	t_28|t_30|ref=Jud.sel._1
+2	οὖν	οὖν	d	d--------	_	3	AuxY	_	t_29|t_30|ref=Jud.sel._1
+3	ἐσφάλη	σφάλλω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_30|0|ref=Jud.sel._1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_31|t_32|ref=Jud.sel._1
+5	Πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_32|t_30|ref=Jud.sel._1
+6	;	;	u	u--------	_	3	AuxK	_	t_33|t_30|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = οὐδαμῶς [0] ·
 # sent_id = 5
-1	οὐδαμῶς	οὐδαμῶς	d	d--------	_	2	AuxZ	_	t_34|ref=Selecta in Judices_1
-2	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Selecta in Judices_1
-3	·	·	u	u--------	_	2	AuxK	_	t_35|ref=Selecta in Judices_1
+1	οὐδαμῶς	οὐδαμῶς	d	d--------	_	2	AuxZ	_	t_34|e_2|ref=Jud.sel._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Jud.sel._1
+3	·	·	u	u--------	_	2	AuxK	_	t_35|e_2|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = ἀλλὰ τὸ μὲν Πνεῦμα βοηθεῖν παραγέγονεν , οὐχ ὑποβάλλειν τὴν ἄτοπον εὐχήν ·
 # sent_id = 6
-1	ἀλλὰ	ἀλλά	c	c--------	_	6	AuxY	_	t_36|ref=Selecta in Judices_1
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_37|ref=Selecta in Judices_1
-3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_38|ref=Selecta in Judices_1
-4	Πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_39|ref=Selecta in Judices_1
-5	βοηθεῖν	βοηθέω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_40|ref=Selecta in Judices_1
-6	παραγέγονεν	παραγίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_41|ref=Selecta in Judices_1
-7	,	,	u	u--------	_	6	COORD	_	t_42|ref=Selecta in Judices_1
-8	οὐχ	οὐ	d	d--------	_	9	AuxZ	_	t_43|ref=Selecta in Judices_1
-9	ὑποβάλλειν	ὑποβάλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_44|ref=Selecta in Judices_1
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_45|ref=Selecta in Judices_1
-11	ἄτοπον	ἄτοπος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_46|ref=Selecta in Judices_1
-12	εὐχήν	εὐχή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_47|ref=Selecta in Judices_1
-13	·	·	u	u--------	_	6	AuxK	_	t_48|ref=Selecta in Judices_1
+1	ἀλλὰ	ἀλλά	c	c--------	_	6	AuxY	_	t_36|t_41|ref=Jud.sel._1
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_37|t_39|ref=Jud.sel._1
+3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_38|t_41|ref=Jud.sel._1
+4	Πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_39|t_41|ref=Jud.sel._1
+5	βοηθεῖν	βοηθέω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_40|t_42|ref=Jud.sel._1
+6	παραγέγονεν	παραγίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_41|0|ref=Jud.sel._1
+7	,	,	u	u--------	_	6	COORD	_	t_42|t_41|ref=Jud.sel._1
+8	οὐχ	οὐ	d	d--------	_	9	AuxZ	_	t_43|t_44|ref=Jud.sel._1
+9	ὑποβάλλειν	ὑποβάλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_44|t_42|ref=Jud.sel._1
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_45|t_47|ref=Jud.sel._1
+11	ἄτοπον	ἄτοπος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_46|t_47|ref=Jud.sel._1
+12	εὐχήν	εὐχή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_47|t_44|ref=Jud.sel._1
+13	·	·	u	u--------	_	6	AuxK	_	t_48|t_41|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1
+# source = Origen, Jud.sel. 1
 # text = αὐτὸς δὲ σφάλλεται ἀπερισκέπτως ὑποσχόμενος .
 # sent_id = 7
-1	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_49|ref=Selecta in Judices_1
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_50|ref=Selecta in Judices_1
-3	σφάλλεται	σφάλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_51|ref=Selecta in Judices_1
-4	ἀπερισκέπτως	ἀπερισκέπτως	d	d--------	_	5	ADV	_	t_52|ref=Selecta in Judices_1
-5	ὑποσχόμενος	ὑπισχνέομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	3	ADV	_	t_53|ref=Selecta in Judices_1
-6	.	.	u	u--------	_	3	AuxK	_	t_54|ref=Selecta in Judices_1
+1	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_49|t_51|ref=Jud.sel._1
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_50|t_51|ref=Jud.sel._1
+3	σφάλλεται	σφάλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_51|0|ref=Jud.sel._1
+4	ἀπερισκέπτως	ἀπερισκέπτως	d	d--------	_	5	ADV	_	t_52|t_53|ref=Jud.sel._1
+5	ὑποσχόμενος	ὑπισχνέομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	3	ADV	_	t_53|t_51|ref=Jud.sel._1
+6	.	.	u	u--------	_	3	AuxK	_	t_54|t_51|ref=Jud.sel._1
 
-# source = Origen, Selecta in Judices 1-2
+# source = Origen, Jud.sel. 1-2
 # text = Καὶ εἶπαν αὐτῷ ·
 # sent_id = 8
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_55|ref=Selecta in Judices_1
-2	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_56|ref=Selecta in Judices_1
-3	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_57|ref=Selecta in Judices_2
-4	·	·	u	u--------	_	1	AuxK	_	t_58|ref=Selecta in Judices_2
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_55|0|ref=Jud.sel._1
+2	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_56|t_55|ref=Jud.sel._1
+3	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_57|t_56|ref=Jud.sel._2
+4	·	·	u	u--------	_	1	AuxK	_	t_58|t_55|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2
+# source = Origen, Jud.sel. 2
 # text = Εἰπὸν δὴ στάχυς .
 # sent_id = 9
-1	Εἰπὸν	εἶπον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_59|ref=Selecta in Judices_2
-2	δὴ	δή	g	g--------	_	1	AuxY	_	t_60|ref=Selecta in Judices_2
-3	στάχυς	στάχυς	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ADV	_	t_61|ref=Selecta in Judices_2
-4	.	.	u	u--------	_	1	AuxK	_	t_62|ref=Selecta in Judices_2
+1	Εἰπὸν	εἶπον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_59|0|ref=Jud.sel._2
+2	δὴ	δή	g	g--------	_	1	AuxY	_	t_60|t_59|ref=Jud.sel._2
+3	στάχυς	στάχυς	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ADV	_	t_61|t_59|ref=Jud.sel._2
+4	.	.	u	u--------	_	1	AuxK	_	t_62|t_59|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2
+# source = Origen, Jud.sel. 2
 # text = Οἱ δὲ ἔλεγον στάχυς ·
 # sent_id = 10
-1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_63|ref=Selecta in Judices_2
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_64|ref=Selecta in Judices_2
-3	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	2	PRED	_	t_65|ref=Selecta in Judices_2
-4	στάχυς	στάχυς	n	n-s---na-	_	3	ADV	_	t_66|ref=Selecta in Judices_2
-5	·	·	u	u--------	_	2	AuxK	_	t_67|ref=Selecta in Judices_2
+1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_63|t_65|ref=Jud.sel._2
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_64|0|ref=Jud.sel._2
+3	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	2	PRED	_	t_65|t_64|ref=Jud.sel._2
+4	στάχυς	στάχυς	n	n-s---na-	_	3	ADV	_	t_66|t_65|ref=Jud.sel._2
+5	·	·	u	u--------	_	2	AuxK	_	t_67|t_64|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2
+# source = Origen, Jud.sel. 2
 # text = σημαίνει σέβηλα , ὅπερ ἐστὶν ἄσταχυς .
 # sent_id = 11
-1	σημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_68|ref=Selecta in Judices_2
-2	σέβηλα	σέβηλα	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_69|ref=Selecta in Judices_2
-3	,	,	u	u--------	_	5	AuxX	_	t_70|ref=Selecta in Judices_2
-4	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_71|ref=Selecta in Judices_2
-5	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	ATR	_	t_72|ref=Selecta in Judices_2
-6	ἄσταχυς	ἄσταχυς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_73|ref=Selecta in Judices_2
-7	.	.	u	u--------	_	1	AuxK	_	t_74|ref=Selecta in Judices_2
+1	σημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_68|0|ref=Jud.sel._2
+2	σέβηλα	σέβηλα	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_69|t_68|ref=Jud.sel._2
+3	,	,	u	u--------	_	5	AuxX	_	t_70|t_72|ref=Jud.sel._2
+4	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_71|t_72|ref=Jud.sel._2
+5	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	ATR	_	t_72|t_69|ref=Jud.sel._2
+6	ἄσταχυς	ἄσταχυς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_73|t_72|ref=Jud.sel._2
+7	.	.	u	u--------	_	1	AuxK	_	t_74|t_68|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2
+# source = Origen, Jud.sel. 2
 # text = Οἱ δὲ ἔλεγον σεβήλω καὶ οὐκ ἐδύναντο τρανῶς εἰπεῖν σέδηλα .
 # sent_id = 12
-1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_75|ref=Selecta in Judices_2
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_76|ref=Selecta in Judices_2
-3	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	5	PRED	_	t_77|ref=Selecta in Judices_2
-4	σεβήλω	σεβήλω	a	a-d---ma-	Case=a|Gender=m|Number=d	3	OBJ	_	t_78|ref=Selecta in Judices_2
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_79|ref=Selecta in Judices_2
-6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_80|ref=Selecta in Judices_2
-7	ἐδύναντο	δύναμαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	5	PRED	_	t_81|ref=Selecta in Judices_2
-8	τρανῶς	τρανής	d	d--------	_	9	ADV	_	t_82|ref=Selecta in Judices_2
-9	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	7	OBJ	_	t_83|ref=Selecta in Judices_2
-10	σέδηλα	σέδηλος	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_84|ref=Selecta in Judices_2
-11	.	.	u	u--------	_	2	AuxK	_	t_85|ref=Selecta in Judices_2
+1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_75|t_77|ref=Jud.sel._2
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_76|0|ref=Jud.sel._2
+3	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	5	PRED	_	t_77|t_79|ref=Jud.sel._2
+4	σεβήλω	σεβήλω	a	a-d---ma-	Case=a|Gender=m|Number=d	3	OBJ	_	t_78|t_77|ref=Jud.sel._2
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_79|t_76|ref=Jud.sel._2
+6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_80|t_81|ref=Jud.sel._2
+7	ἐδύναντο	δύναμαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	5	PRED	_	t_81|t_79|ref=Jud.sel._2
+8	τρανῶς	τρανής	d	d--------	_	9	ADV	_	t_82|t_83|ref=Jud.sel._2
+9	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	7	OBJ	_	t_83|t_81|ref=Jud.sel._2
+10	σέδηλα	σέδηλος	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_84|t_83|ref=Jud.sel._2
+11	.	.	u	u--------	_	2	AuxK	_	t_85|t_76|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2
+# source = Origen, Jud.sel. 2
 # text = Εἰ γὰρ καὶ Ἑβραῖοι ἐτύγχανον , ἀλλὰ κατὰ συμμετρίαν βραχύτητι παρήλλασσον ἐν τῇ τῆς διαλέξεως προφορᾷ .
 # sent_id = 13
-1	Εἰ	εἰ	c	c--------	_	11	AuxC	_	t_86|ref=Selecta in Judices_2
-2	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_87|ref=Selecta in Judices_2
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_88|ref=Selecta in Judices_2
-4	Ἑβραῖοι	ἑβραῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_89|ref=Selecta in Judices_2
-5	ἐτύγχανον	τυγχάνω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ADV	_	t_90|ref=Selecta in Judices_2
-6	,	,	u	u--------	_	11	AuxX	_	t_91|ref=Selecta in Judices_2
-7	ἀλλὰ	ἀλλά	d	d--------	_	11	AuxY	_	t_92|ref=Selecta in Judices_2
-8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_93|ref=Selecta in Judices_2
-9	συμμετρίαν	συμμετρία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_94|ref=Selecta in Judices_2
-10	βραχύτητι	βραχύτης	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_95|ref=Selecta in Judices_2
-11	παρήλλασσον	παραλλάσσω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_96|ref=Selecta in Judices_2
-12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_97|ref=Selecta in Judices_2
-13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_98|ref=Selecta in Judices_2
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_99|ref=Selecta in Judices_2
-15	διαλέξεως	διάλεξις	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_100|ref=Selecta in Judices_2
-16	προφορᾷ	προφορά	n	n-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_101|ref=Selecta in Judices_2
-17	.	.	u	u--------	_	11	AuxK	_	t_102|ref=Selecta in Judices_2
+1	Εἰ	εἰ	c	c--------	_	11	AuxC	_	t_86|t_96|ref=Jud.sel._2
+2	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_87|t_96|ref=Jud.sel._2
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_88|t_89|ref=Jud.sel._2
+4	Ἑβραῖοι	ἑβραῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_89|t_90|ref=Jud.sel._2
+5	ἐτύγχανον	τυγχάνω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ADV	_	t_90|t_86|ref=Jud.sel._2
+6	,	,	u	u--------	_	11	AuxX	_	t_91|t_96|ref=Jud.sel._2
+7	ἀλλὰ	ἀλλά	d	d--------	_	11	AuxY	_	t_92|t_96|ref=Jud.sel._2
+8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_93|t_96|ref=Jud.sel._2
+9	συμμετρίαν	συμμετρία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_94|t_93|ref=Jud.sel._2
+10	βραχύτητι	βραχύτης	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_95|t_96|ref=Jud.sel._2
+11	παρήλλασσον	παραλλάσσω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_96|0|ref=Jud.sel._2
+12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_97|t_96|ref=Jud.sel._2
+13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_98|t_101|ref=Jud.sel._2
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_99|t_100|ref=Jud.sel._2
+15	διαλέξεως	διάλεξις	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_100|t_101|ref=Jud.sel._2
+16	προφορᾷ	προφορά	n	n-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_101|t_97|ref=Jud.sel._2
+17	.	.	u	u--------	_	11	AuxK	_	t_102|t_96|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2
+# source = Origen, Jud.sel. 2
 # text = Τὸ οὖν σύνθεμα ἦν σέβηλα , ὅπερ οἱ ἐπερωτώμενοι λέγοντες σεδήλω , ἠλέγχοντο οὐκ ὄντες τῶν οἰκείων τοῦ Ἰεφθάε , ἀλλὰ τῶν ἐπαναστάντων .
 # sent_id = 14
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_103|ref=Selecta in Judices_2
-2	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_104|ref=Selecta in Judices_2
-3	σύνθεμα	σύνθεμα	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_105|ref=Selecta in Judices_2
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_106|ref=Selecta in Judices_2
-5	σέβηλα	σέβηλα	n	n-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_107|ref=Selecta in Judices_2
-6	,	,	u	u--------	_	4	AuxX	_	t_108|ref=Selecta in Judices_2
-7	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_109|ref=Selecta in Judices_2
-8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_110|ref=Selecta in Judices_2
-9	ἐπερωτώμενοι	ἐπερωτάω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	13	SBJ	_	t_111|ref=Selecta in Judices_2
-10	λέγοντες	λέγω3	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_112|ref=Selecta in Judices_2
-11	σεδήλω	δηλόω	p	p-d---ma-	Case=n|Gender=m|Number=d	10	OBJ	_	t_113|ref=Selecta in Judices_2
-12	,	,	u	u--------	_	4	AuxX	_	t_114|ref=Selecta in Judices_2
-13	ἠλέγχοντο	ἐλέγχω	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	3	ATR	_	t_115|ref=Selecta in Judices_2
-14	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_116|ref=Selecta in Judices_2
-15	ὄντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_117|ref=Selecta in Judices_2
-16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_118|ref=Selecta in Judices_2
-17	οἰκείων	οἰκεῖος	a	a-p---mg-	Case=g|Gender=m|Number=p	21	PNOM	_	t_119|ref=Selecta in Judices_2
-18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_120|ref=Selecta in Judices_2
-19	Ἰεφθάε	ἰεφθάε	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_121|ref=Selecta in Judices_2
-20	,	,	u	u--------	_	4	AuxX	_	t_122|ref=Selecta in Judices_2
-21	ἀλλὰ	ἀλλά	c	c--------	_	15	COORD	_	t_123|ref=Selecta in Judices_2
-22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_124|ref=Selecta in Judices_2
-23	ἐπαναστάντων	ἐπανίστημι	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	PNOM	_	t_125|ref=Selecta in Judices_2
-24	.	.	u	u--------	_	4	AuxK	_	t_126|ref=Selecta in Judices_2
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_103|t_105|ref=Jud.sel._2
+2	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_104|t_106|ref=Jud.sel._2
+3	σύνθεμα	σύνθεμα	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_105|t_106|ref=Jud.sel._2
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_106|0|ref=Jud.sel._2
+5	σέβηλα	σέβηλα	n	n-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_107|t_106|ref=Jud.sel._2
+6	,	,	u	u--------	_	4	AuxX	_	t_108|t_106|ref=Jud.sel._2
+7	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_109|t_112|ref=Jud.sel._2
+8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_110|t_111|ref=Jud.sel._2
+9	ἐπερωτώμενοι	ἐπερωτάω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	13	SBJ	_	t_111|t_115|ref=Jud.sel._2
+10	λέγοντες	λέγω3	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_112|t_115|ref=Jud.sel._2
+11	σεδήλω	δηλόω	p	p-d---ma-	Case=n|Gender=m|Number=d	10	OBJ	_	t_113|t_112|ref=Jud.sel._2
+12	,	,	u	u--------	_	4	AuxX	_	t_114|t_106|ref=Jud.sel._2
+13	ἠλέγχοντο	ἐλέγχω	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	3	ATR	_	t_115|t_105|ref=Jud.sel._2
+14	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_116|t_119|ref=Jud.sel._2
+15	ὄντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_117|t_115|ref=Jud.sel._2
+16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_118|t_119|ref=Jud.sel._2
+17	οἰκείων	οἰκεῖος	a	a-p---mg-	Case=g|Gender=m|Number=p	21	PNOM	_	t_119|t_123|ref=Jud.sel._2
+18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_120|t_121|ref=Jud.sel._2
+19	Ἰεφθάε	ἰεφθάε	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_121|t_119|ref=Jud.sel._2
+20	,	,	u	u--------	_	4	AuxX	_	t_122|t_106|ref=Jud.sel._2
+21	ἀλλὰ	ἀλλά	c	c--------	_	15	COORD	_	t_123|t_117|ref=Jud.sel._2
+22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_124|t_125|ref=Jud.sel._2
+23	ἐπαναστάντων	ἐπανίστημι	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	PNOM	_	t_125|t_123|ref=Jud.sel._2
+24	.	.	u	u--------	_	4	AuxK	_	t_126|t_106|ref=Jud.sel._2
 
-# source = Origen, Selecta in Judices 2-3
+# source = Origen, Jud.sel. 2-3
 # text = Καὶ γυνὴ αὐτοῦ στεῖρα καὶ οὐκ ἔτεκεν [0] .
 # sent_id = 15
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_127|ref=Selecta in Judices_2
-2	γυνὴ	γυνή	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_128|ref=Selecta in Judices_2
-3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_129|ref=Selecta in Judices_3
-4	στεῖρα	στεῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_130|ref=Selecta in Judices_3
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_131|ref=Selecta in Judices_3
-6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_132|ref=Selecta in Judices_3
-7	ἔτεκεν	τίκτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_133|ref=Selecta in Judices_3
-8	[0]	[0]	-	---------	_	5	PRED	_	e_3|ref=Selecta in Judices_1
-9	.	.	u	u--------	_	1	AuxK	_	t_134|ref=Selecta in Judices_3
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_127|0|ref=Jud.sel._2
+2	γυνὴ	γυνή	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_128|e_3|ref=Jud.sel._2
+3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_129|t_128|ref=Jud.sel._3
+4	στεῖρα	στεῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_130|e_3|ref=Jud.sel._3
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_131|t_127|ref=Jud.sel._3
+6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_132|t_133|ref=Jud.sel._3
+7	ἔτεκεν	τίκτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_133|t_131|ref=Jud.sel._3
+8	[0]	[0]	-	---------	_	5	PRED	_	e_3|t_131|ref=Jud.sel._1
+9	.	.	u	u--------	_	1	AuxK	_	t_134|t_127|ref=Jud.sel._3
 
-# source = Origen, Selecta in Judices 3
+# source = Origen, Jud.sel. 3
 # text = Οὐκ ἀπὸ τῆς φύσεως , ἀλλ᾿ ἀπὸ τῆς διακονίας ἐπὶ τοῦ παρόντος στείραν καλεῖ .
 # sent_id = 16
-1	Οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_135|ref=Selecta in Judices_3
-2	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_136|ref=Selecta in Judices_3
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_137|ref=Selecta in Judices_3
-4	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_138|ref=Selecta in Judices_3
-5	,	,	u	u--------	_	14	AuxX	_	t_139|ref=Selecta in Judices_3
-6	ἀλλ᾿	ἀλλά	c	c--------	_	14	COORD	_	t_140|ref=Selecta in Judices_3
-7	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_141|ref=Selecta in Judices_3
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_142|ref=Selecta in Judices_3
-9	διακονίας	διακονία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_143|ref=Selecta in Judices_3
-10	ἐπὶ	ἐπί	r	r--------	_	14	AuxP	_	t_144|ref=Selecta in Judices_3
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_145|ref=Selecta in Judices_3
-12	παρόντος	πάρειμι1	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_146|ref=Selecta in Judices_3
-13	στείραν	στεῖρα	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OCOMP	_	t_147|ref=Selecta in Judices_3
-14	καλεῖ	καλέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_148|ref=Selecta in Judices_3
-15	.	.	u	u--------	_	14	AuxK	_	t_149|ref=Selecta in Judices_3
+1	Οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_135|t_138|ref=Jud.sel._3
+2	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_136|t_140|ref=Jud.sel._3
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_137|t_138|ref=Jud.sel._3
+4	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_138|t_136|ref=Jud.sel._3
+5	,	,	u	u--------	_	14	AuxX	_	t_139|t_148|ref=Jud.sel._3
+6	ἀλλ᾿	ἀλλά	c	c--------	_	14	COORD	_	t_140|t_148|ref=Jud.sel._3
+7	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_141|t_140|ref=Jud.sel._3
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_142|t_143|ref=Jud.sel._3
+9	διακονίας	διακονία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_143|t_141|ref=Jud.sel._3
+10	ἐπὶ	ἐπί	r	r--------	_	14	AuxP	_	t_144|t_148|ref=Jud.sel._3
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_145|t_146|ref=Jud.sel._3
+12	παρόντος	πάρειμι1	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_146|t_144|ref=Jud.sel._3
+13	στείραν	στεῖρα	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OCOMP	_	t_147|t_148|ref=Jud.sel._3
+14	καλεῖ	καλέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_148|0|ref=Jud.sel._3
+15	.	.	u	u--------	_	14	AuxK	_	t_149|t_148|ref=Jud.sel._3
 
-# source = Origen, Selecta in Judices 3-4
+# source = Origen, Jud.sel. 3-4
 # text = Σίδηρος οὐκ ἀνέβη ἐπὶ τὴν κεφαλήν μου ὅτι Ναζιραῖος τοῦ Θεοῦ ἐγώ εἰμι .
 # sent_id = 17
-1	Σίδηρος	σίδηρος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_150|ref=Selecta in Judices_3
-2	οὐκ	οὐ	d	d--------	_	3	AuxZ	_	t_151|ref=Selecta in Judices_3
-3	ἀνέβη	ἀναβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_152|ref=Selecta in Judices_3
-4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_153|ref=Selecta in Judices_4
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_154|ref=Selecta in Judices_4
-6	κεφαλήν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_155|ref=Selecta in Judices_4
-7	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	6	ATR	_	t_156|ref=Selecta in Judices_4
-8	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_157|ref=Selecta in Judices_4
-9	Ναζιραῖος	ναζιραῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_158|ref=Selecta in Judices_4
-10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_159|ref=Selecta in Judices_4
-11	Θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_160|ref=Selecta in Judices_4
-12	ἐγώ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	13	SBJ	_	t_161|ref=Selecta in Judices_4
-13	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	8	ADV	_	t_162|ref=Selecta in Judices_4
-14	.	.	u	u--------	_	3	AuxK	_	t_163|ref=Selecta in Judices_4
+1	Σίδηρος	σίδηρος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_150|t_152|ref=Jud.sel._3
+2	οὐκ	οὐ	d	d--------	_	3	AuxZ	_	t_151|t_152|ref=Jud.sel._3
+3	ἀνέβη	ἀναβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_152|0|ref=Jud.sel._3
+4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_153|t_152|ref=Jud.sel._4
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_154|t_155|ref=Jud.sel._4
+6	κεφαλήν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_155|t_153|ref=Jud.sel._4
+7	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	6	ATR	_	t_156|t_155|ref=Jud.sel._4
+8	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_157|t_152|ref=Jud.sel._4
+9	Ναζιραῖος	ναζιραῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_158|t_162|ref=Jud.sel._4
+10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_159|t_160|ref=Jud.sel._4
+11	Θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_160|t_158|ref=Jud.sel._4
+12	ἐγώ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	13	SBJ	_	t_161|t_162|ref=Jud.sel._4
+13	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	8	ADV	_	t_162|t_157|ref=Jud.sel._4
+14	.	.	u	u--------	_	3	AuxK	_	t_163|t_152|ref=Jud.sel._4
 
-# source = Origen, Selecta in Judices 4
+# source = Origen, Jud.sel. 4
 # text = Δι᾿ ὅλης τῆς περὶ τὸν Σαμψὼν ἱστορίας αἱ τρίχες φαίνονται τὴν πᾶσαν αὐτῷ περιποιεῖν ἰσχύν .
 # sent_id = 18
-1	Δι᾿	διά	r	r--------	_	10	AuxP	_	t_164|ref=Selecta in Judices_4
-2	ὅλης	ὅλος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_165|ref=Selecta in Judices_4
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_166|ref=Selecta in Judices_4
-4	περὶ	περί	r	r--------	_	7	AuxP	_	t_167|ref=Selecta in Judices_4
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_168|ref=Selecta in Judices_4
-6	Σαμψὼν	σαμψών	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_169|ref=Selecta in Judices_4
-7	ἱστορίας	ἱστορία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_170|ref=Selecta in Judices_4
-8	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_171|ref=Selecta in Judices_4
-9	τρίχες	θρίξ	n	n-p---fn-	Case=n|Gender=f|Number=p	10	SBJ	_	t_172|ref=Selecta in Judices_4
-10	φαίνονται	φαίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_173|ref=Selecta in Judices_4
-11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_174|ref=Selecta in Judices_4
-12	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_175|ref=Selecta in Judices_4
-13	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_176|ref=Selecta in Judices_4
-14	περιποιεῖν	περιποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	PNOM	_	t_177|ref=Selecta in Judices_4
-15	ἰσχύν	ἰσχύς	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_178|ref=Selecta in Judices_4
-16	.	.	u	u--------	_	10	AuxK	_	t_179|ref=Selecta in Judices_4
+1	Δι᾿	διά	r	r--------	_	10	AuxP	_	t_164|t_173|ref=Jud.sel._4
+2	ὅλης	ὅλος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_165|t_170|ref=Jud.sel._4
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_166|t_170|ref=Jud.sel._4
+4	περὶ	περί	r	r--------	_	7	AuxP	_	t_167|t_170|ref=Jud.sel._4
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_168|t_169|ref=Jud.sel._4
+6	Σαμψὼν	σαμψών	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_169|t_167|ref=Jud.sel._4
+7	ἱστορίας	ἱστορία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_170|t_164|ref=Jud.sel._4
+8	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_171|t_172|ref=Jud.sel._4
+9	τρίχες	θρίξ	n	n-p---fn-	Case=n|Gender=f|Number=p	10	SBJ	_	t_172|t_173|ref=Jud.sel._4
+10	φαίνονται	φαίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_173|0|ref=Jud.sel._4
+11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_174|t_178|ref=Jud.sel._4
+12	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_175|t_178|ref=Jud.sel._4
+13	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_176|t_177|ref=Jud.sel._4
+14	περιποιεῖν	περιποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	PNOM	_	t_177|t_173|ref=Jud.sel._4
+15	ἰσχύν	ἰσχύς	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_178|t_177|ref=Jud.sel._4
+16	.	.	u	u--------	_	10	AuxK	_	t_179|t_173|ref=Jud.sel._4
 
-# source = Origen, Selecta in Judices 4
+# source = Origen, Jud.sel. 4
 # text = Τοῦ αὐτοῦ [0] .
 # sent_id = 19
-1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_180|ref=Selecta in Judices_4
-2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_181|ref=Selecta in Judices_4
-3	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Selecta in Judices_1
-4	.	.	u	u--------	_	3	AuxK	_	t_182|ref=Selecta in Judices_4
+1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_180|t_181|ref=Jud.sel._4
+2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_181|e_4|ref=Jud.sel._4
+3	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Jud.sel._1
+4	.	.	u	u--------	_	3	AuxK	_	t_182|e_4|ref=Jud.sel._4
 
-# source = Origen, Selecta in Judices 5
+# source = Origen, Jud.sel. 5
 # text = Ναζιραῖον τὸ πεφυλαγμένον κατὰ τὴν Σύρων φωνὴν ὀνομάζει .
 # sent_id = 20
-1	Ναζιραῖον	ναζιραῖος	n	n-s---na-	Case=a|Gender=n|Number=s	8	OCOMP	_	t_183|ref=Selecta in Judices_5
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_184|ref=Selecta in Judices_5
-3	πεφυλαγμένον	φυλάσσω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	8	OBJ	_	t_185|ref=Selecta in Judices_4
-4	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_186|ref=Selecta in Judices_5
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_187|ref=Selecta in Judices_5
-6	Σύρων	σύρος	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_188|ref=Selecta in Judices_5
-7	φωνὴν	φωνή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ADV	_	t_189|ref=Selecta in Judices_5
-8	ὀνομάζει	ὀνομάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_190|ref=Selecta in Judices_5
-9	.	.	u	u--------	_	8	AuxK	_	t_191|ref=Selecta in Judices_5
+1	Ναζιραῖον	ναζιραῖος	n	n-s---na-	Case=a|Gender=n|Number=s	8	OCOMP	_	t_183|t_190|ref=Jud.sel._5
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_184|t_185|ref=Jud.sel._5
+3	πεφυλαγμένον	φυλάσσω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	8	OBJ	_	t_185|t_190|ref=Jud.sel._4
+4	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_186|t_185|ref=Jud.sel._5
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_187|t_189|ref=Jud.sel._5
+6	Σύρων	σύρος	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_188|t_189|ref=Jud.sel._5
+7	φωνὴν	φωνή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ADV	_	t_189|t_186|ref=Jud.sel._5
+8	ὀνομάζει	ὀνομάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_190|0|ref=Jud.sel._5
+9	.	.	u	u--------	_	8	AuxK	_	t_191|t_190|ref=Jud.sel._5
 
-# source = Origen, Selecta in Judices 5
+# source = Origen, Jud.sel. 5
 # text = Μὴ ἐξακολουθεῖν δὲ τῇ τάξει τῶν Ἰσραηλιτῶν τὸν Σαμψὼν ὁ Θεὸς προστάσσει , κατ᾿ ἐκεῖνο καιροῦ τὴν κεφαλὴν ξυρωμένων διὰ τὸ εὐσήμους εἶναι πρὸς πάντας .
 # sent_id = 21
-1	Μὴ	μή	d	d--------	_	2	AuxZ	_	t_192|ref=Selecta in Judices_5
-2	ἐξακολουθεῖν	ἐξακολουθέω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_193|ref=Selecta in Judices_5
-3	δὲ	δέ	d	d--------	_	12	AuxY	_	t_194|ref=Selecta in Judices_5
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_195|ref=Selecta in Judices_5
-5	τάξει	τάξις	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_196|ref=Selecta in Judices_5
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_197|ref=Selecta in Judices_5
-7	Ἰσραηλιτῶν	ἰσραηλίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_198|ref=Selecta in Judices_5
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_199|ref=Selecta in Judices_5
-9	Σαμψὼν	σαμψών	n	n-s---ma-	Case=a|Gender=m|Number=s	2	SBJ	_	t_200|ref=Selecta in Judices_5
-10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_201|ref=Selecta in Judices_5
-11	Θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_202|ref=Selecta in Judices_5
-12	προστάσσει	προστάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_203|ref=Selecta in Judices_5
-13	,	,	u	u--------	_	12	AuxX	_	t_204|ref=Selecta in Judices_5
-14	κατ᾿	κατά	r	r--------	_	19	AuxP	_	t_205|ref=Selecta in Judices_5
-15	ἐκεῖνο	ἐκεῖνος	p	p-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_206|ref=Selecta in Judices_5
-16	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ADV	_	t_207|ref=Selecta in Judices_5
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_208|ref=Selecta in Judices_5
-18	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_209|ref=Selecta in Judices_5
-19	ξυρωμένων	ξυρέω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ADV	_	t_210|ref=Selecta in Judices_5
-20	διὰ	διά	r	r--------	_	19	AuxP	_	t_211|ref=Selecta in Judices_5
-21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_212|ref=Selecta in Judices_5
-22	εὐσήμους	εὔσημος	a	a-p---ma-	Case=a|Gender=m|Number=p	23	PNOM	_	t_213|ref=Selecta in Judices_5
-23	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	20	ADV	_	t_214|ref=Selecta in Judices_5
-24	πρὸς	πρός	r	r--------	_	22	AuxP	_	t_215|ref=Selecta in Judices_5
-25	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	24	ADV	_	t_216|ref=Selecta in Judices_5
-26	.	.	u	u--------	_	12	AuxK	_	t_217|ref=Selecta in Judices_5
+1	Μὴ	μή	d	d--------	_	2	AuxZ	_	t_192|t_193|ref=Jud.sel._5
+2	ἐξακολουθεῖν	ἐξακολουθέω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_193|t_203|ref=Jud.sel._5
+3	δὲ	δέ	d	d--------	_	12	AuxY	_	t_194|t_203|ref=Jud.sel._5
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_195|t_196|ref=Jud.sel._5
+5	τάξει	τάξις	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_196|t_193|ref=Jud.sel._5
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_197|t_198|ref=Jud.sel._5
+7	Ἰσραηλιτῶν	ἰσραηλίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_198|t_196|ref=Jud.sel._5
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_199|t_200|ref=Jud.sel._5
+9	Σαμψὼν	σαμψών	n	n-s---ma-	Case=a|Gender=m|Number=s	2	SBJ	_	t_200|t_193|ref=Jud.sel._5
+10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_201|t_202|ref=Jud.sel._5
+11	Θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_202|t_203|ref=Jud.sel._5
+12	προστάσσει	προστάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_203|0|ref=Jud.sel._5
+13	,	,	u	u--------	_	12	AuxX	_	t_204|t_203|ref=Jud.sel._5
+14	κατ᾿	κατά	r	r--------	_	19	AuxP	_	t_205|t_210|ref=Jud.sel._5
+15	ἐκεῖνο	ἐκεῖνος	p	p-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_206|t_207|ref=Jud.sel._5
+16	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ADV	_	t_207|t_205|ref=Jud.sel._5
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_208|t_209|ref=Jud.sel._5
+18	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_209|t_210|ref=Jud.sel._5
+19	ξυρωμένων	ξυρέω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ADV	_	t_210|t_203|ref=Jud.sel._5
+20	διὰ	διά	r	r--------	_	19	AuxP	_	t_211|t_210|ref=Jud.sel._5
+21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_212|t_214|ref=Jud.sel._5
+22	εὐσήμους	εὔσημος	a	a-p---ma-	Case=a|Gender=m|Number=p	23	PNOM	_	t_213|t_214|ref=Jud.sel._5
+23	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	20	ADV	_	t_214|t_211|ref=Jud.sel._5
+24	πρὸς	πρός	r	r--------	_	22	AuxP	_	t_215|t_213|ref=Jud.sel._5
+25	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	24	ADV	_	t_216|t_215|ref=Jud.sel._5
+26	.	.	u	u--------	_	12	AuxK	_	t_217|t_203|ref=Jud.sel._5
 
-# source = Origen, Selecta in Judices 5-6
+# source = Origen, Jud.sel. 5-6
 # text = Καὶ ἐποίησεν Ἐφὼδ καὶ Θεραφείν .
 # sent_id = 22
-1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_218|ref=Selecta in Judices_5
-2	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_219|ref=Selecta in Judices_5
-3	Ἐφὼδ	ἐφώδ	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_220|ref=Selecta in Judices_5
-4	καὶ	καί	c	c--------	_	2	COORD	_	t_221|ref=Selecta in Judices_5
-5	Θεραφείν	θεραφέω	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_222|ref=Selecta in Judices_6
-6	.	.	u	u--------	_	2	AuxK	_	t_223|ref=Selecta in Judices_6
+1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_218|t_219|ref=Jud.sel._5
+2	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_219|0|ref=Jud.sel._5
+3	Ἐφὼδ	ἐφώδ	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_220|t_221|ref=Jud.sel._5
+4	καὶ	καί	c	c--------	_	2	COORD	_	t_221|t_219|ref=Jud.sel._5
+5	Θεραφείν	θεραφέω	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_222|t_221|ref=Jud.sel._6
+6	.	.	u	u--------	_	2	AuxK	_	t_223|t_219|ref=Jud.sel._6
 
-# source = Origen, Selecta in Judices 6
+# source = Origen, Jud.sel. 6
 # text = Ἐφὼδ ὕφασμα ἦν ἱερατικὸν , ὅπερ περικειμένῳ τῷ ἱερεῖ ἐφοίτα τοῦ ἁγίου Πνεύματος ἡ χάρις .
 # sent_id = 23
-1	Ἐφὼδ	ἐφώδ	n	n-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_224|ref=Selecta in Judices_6
-2	ὕφασμα	ὕφασμα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_225|ref=Selecta in Judices_6
-3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_226|ref=Selecta in Judices_6
-4	ἱερατικὸν	ἱερατικός	a	a-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_227|ref=Selecta in Judices_6
-5	,	,	u	u--------	_	3	AuxX	_	t_228|ref=Selecta in Judices_6
-6	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_229|ref=Selecta in Judices_6
-7	περικειμένῳ	περίκειμαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_230|ref=Selecta in Judices_6
-8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_231|ref=Selecta in Judices_6
-9	ἱερεῖ	ἱερεύς	n	n-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_232|ref=Selecta in Judices_6
-10	ἐφοίτα	φοιτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	ATR	_	t_233|ref=Selecta in Judices_6
-11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_234|ref=Selecta in Judices_6
-12	ἁγίου	ἅγιος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_235|ref=Selecta in Judices_6
-13	Πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=m|Number=s	15	ATR	_	t_236|ref=Selecta in Judices_6
-14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_237|ref=Selecta in Judices_6
-15	χάρις	χάρις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_238|ref=Selecta in Judices_6
-16	.	.	u	u--------	_	3	AuxK	_	t_239|ref=Selecta in Judices_6
+1	Ἐφὼδ	ἐφώδ	n	n-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_224|t_225|ref=Jud.sel._6
+2	ὕφασμα	ὕφασμα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_225|t_226|ref=Jud.sel._6
+3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_226|0|ref=Jud.sel._6
+4	ἱερατικὸν	ἱερατικός	a	a-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_227|t_225|ref=Jud.sel._6
+5	,	,	u	u--------	_	3	AuxX	_	t_228|t_226|ref=Jud.sel._6
+6	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_229|t_233|ref=Jud.sel._6
+7	περικειμένῳ	περίκειμαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_230|t_232|ref=Jud.sel._6
+8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_231|t_232|ref=Jud.sel._6
+9	ἱερεῖ	ἱερεύς	n	n-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_232|t_233|ref=Jud.sel._6
+10	ἐφοίτα	φοιτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	ATR	_	t_233|t_225|ref=Jud.sel._6
+11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_234|t_236|ref=Jud.sel._6
+12	ἁγίου	ἅγιος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_235|t_236|ref=Jud.sel._6
+13	Πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=m|Number=s	15	ATR	_	t_236|t_238|ref=Jud.sel._6
+14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_237|t_238|ref=Jud.sel._6
+15	χάρις	χάρις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_238|t_233|ref=Jud.sel._6
+16	.	.	u	u--------	_	3	AuxK	_	t_239|t_226|ref=Jud.sel._6
 
-# source = Origen, Selecta in Judices 6
+# source = Origen, Jud.sel. 6
 # text = Τὸ δὲ Θεραφεὶν τοιοῦτο μέντοι , οὐ θεῖκὸν δὲ , ἀλλʼ εἰδωλικὸν , ὡς ἐν ταῖς βασιλείαις δείκνυται [0] .
 # sent_id = 24
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_240|ref=Selecta in Judices_6
-2	δὲ	δέ	d	d--------	_	19	AuxY	_	t_241|ref=Selecta in Judices_6
-3	Θεραφεὶν	θεραφείν	n	n-s----n-	Case=n|Gender=n|Number=s	19	SBJ	_	t_242|ref=Selecta in Judices_6
-4	τοιοῦτο	τοιοῦτος	p	p-s---nn-	Case=n|Gender=n|Number=s	19	PNOM	_	t_243|ref=Selecta in Judices_6
-5	μέντοι	μέντοι	d	d--------	_	19	AuxY	_	t_244|ref=Selecta in Judices_6
-6	,	,	u	u--------	_	19	AuxX	_	t_245|ref=Selecta in Judices_6
-7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_246|ref=Selecta in Judices_6
-8	θεῖκὸν	θεῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_247|ref=Selecta in Judices_6
-9	δὲ	δέ	d	d--------	_	19	COORD	_	t_248|ref=Selecta in Judices_6
-10	,	,	u	u--------	_	19	AuxX	_	t_249|ref=Selecta in Judices_6
-11	ἀλλʼ	ἀλλά	c	c--------	_	9	COORD	_	t_250|ref=Selecta in Judices_6
-12	εἰδωλικὸν	εἰδωλικός	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_251|ref=Selecta in Judices_6
-13	,	,	u	u--------	_	19	AuxX	_	t_252|ref=Selecta in Judices_6
-14	ὡς	ὡς	c	c--------	_	19	AuxC	_	t_253|ref=Selecta in Judices_6
-15	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_254|ref=Selecta in Judices_6
-16	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	17	ATR	_	t_255|ref=Selecta in Judices_6
-17	βασιλείαις	βασίλεια	n	n-p---fd-	Case=d|Gender=f|Number=p	15	ADV	_	t_256|ref=Selecta in Judices_6
-18	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	ADV	_	t_257|ref=Selecta in Judices_6
-19	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Selecta in Judices_1
-20	.	.	u	u--------	_	19	AuxK	_	t_258|ref=Selecta in Judices_6
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_240|t_242|ref=Jud.sel._6
+2	δὲ	δέ	d	d--------	_	19	AuxY	_	t_241|e_5|ref=Jud.sel._6
+3	Θεραφεὶν	θεραφείν	n	n-s----n-	Case=n|Gender=n|Number=s	19	SBJ	_	t_242|e_5|ref=Jud.sel._6
+4	τοιοῦτο	τοιοῦτος	p	p-s---nn-	Case=n|Gender=n|Number=s	19	PNOM	_	t_243|e_5|ref=Jud.sel._6
+5	μέντοι	μέντοι	d	d--------	_	19	AuxY	_	t_244|e_5|ref=Jud.sel._6
+6	,	,	u	u--------	_	19	AuxX	_	t_245|e_5|ref=Jud.sel._6
+7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_246|t_247|ref=Jud.sel._6
+8	θεῖκὸν	θεῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_247|t_248|ref=Jud.sel._6
+9	δὲ	δέ	d	d--------	_	19	COORD	_	t_248|e_5|ref=Jud.sel._6
+10	,	,	u	u--------	_	19	AuxX	_	t_249|e_5|ref=Jud.sel._6
+11	ἀλλʼ	ἀλλά	c	c--------	_	9	COORD	_	t_250|t_248|ref=Jud.sel._6
+12	εἰδωλικὸν	εἰδωλικός	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_251|t_250|ref=Jud.sel._6
+13	,	,	u	u--------	_	19	AuxX	_	t_252|e_5|ref=Jud.sel._6
+14	ὡς	ὡς	c	c--------	_	19	AuxC	_	t_253|e_5|ref=Jud.sel._6
+15	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_254|t_257|ref=Jud.sel._6
+16	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	17	ATR	_	t_255|t_256|ref=Jud.sel._6
+17	βασιλείαις	βασίλεια	n	n-p---fd-	Case=d|Gender=f|Number=p	15	ADV	_	t_256|t_254|ref=Jud.sel._6
+18	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	ADV	_	t_257|t_253|ref=Jud.sel._6
+19	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Jud.sel._1
+20	.	.	u	u--------	_	19	AuxK	_	t_258|e_5|ref=Jud.sel._6
 
-# source = Origen, Selecta in Judices 6-7
+# source = Origen, Jud.sel. 6-7
 # text = Καὶ ἐξῆλθον οἱ υἱοὶ Βενιαμίν .
 # sent_id = 25
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_259|ref=Selecta in Judices_6
-2	ἐξῆλθον	ἐξέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_260|ref=Selecta in Judices_6
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_261|ref=Selecta in Judices_6
-4	υἱοὶ	υἱός	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_262|ref=Selecta in Judices_6
-5	Βενιαμίν	βενιαμίν	d	d--------	_	2	ADV	_	t_263|ref=Selecta in Judices_6
-6	.	.	u	u--------	_	1	AuxK	_	t_264|ref=Selecta in Judices_7
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_259|0|ref=Jud.sel._6
+2	ἐξῆλθον	ἐξέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_260|t_259|ref=Jud.sel._6
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_261|t_262|ref=Jud.sel._6
+4	υἱοὶ	υἱός	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_262|t_260|ref=Jud.sel._6
+5	Βενιαμίν	βενιαμίν	d	d--------	_	2	ADV	_	t_263|t_260|ref=Jud.sel._6
+6	.	.	u	u--------	_	1	AuxK	_	t_264|t_259|ref=Jud.sel._7
 
-# source = Origen, Selecta in Judices 7
+# source = Origen, Jud.sel. 7
 # text = Τίνος ἕνεκεν ἡττῶνται δικαίως ἐπελθόντες ;
 # sent_id = 26
-1	Τίνος	τις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_265|ref=Selecta in Judices_7
-2	ἕνεκεν	ἕνεκα	r	r--------	_	3	AuxP	_	t_266|ref=Selecta in Judices_7
-3	ἡττῶνται	ἡσσάομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_267|ref=Selecta in Judices_7
-4	δικαίως	δίκαιος	d	d--------	_	5	ADV	_	t_268|ref=Selecta in Judices_7
-5	ἐπελθόντες	ἐπέρχομαι	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	3	ADV	_	t_269|ref=Selecta in Judices_7
-6	;	;	u	u--------	_	3	AuxK	_	t_270|ref=Selecta in Judices_7
+1	Τίνος	τις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_265|t_266|ref=Jud.sel._7
+2	ἕνεκεν	ἕνεκα	r	r--------	_	3	AuxP	_	t_266|t_267|ref=Jud.sel._7
+3	ἡττῶνται	ἡσσάομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_267|0|ref=Jud.sel._7
+4	δικαίως	δίκαιος	d	d--------	_	5	ADV	_	t_268|t_269|ref=Jud.sel._7
+5	ἐπελθόντες	ἐπέρχομαι	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	3	ADV	_	t_269|t_267|ref=Jud.sel._7
+6	;	;	u	u--------	_	3	AuxK	_	t_270|t_267|ref=Jud.sel._7
 
-# source = Origen, Selecta in Judices 7
+# source = Origen, Jud.sel. 7
 # text = Ἥ δῆλον ὅτι διὰ προλαβούσης αἰτίας [0] [1] .
 # sent_id = 27
-1	Ἥ	ὅς	d	d--------	_	2	AuxZ	_	t_271|ref=Selecta in Judices_7
-2	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_272|ref=Selecta in Judices_7
-3	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_273|ref=Selecta in Judices_7
-4	διὰ	διά	r	r--------	_	8	AuxP	_	t_274|ref=Selecta in Judices_7
-5	προλαβούσης	προγίγνομαι	v	v-sapafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	6	ATR	_	t_275|ref=Selecta in Judices_7
-6	αἰτίας	αἰτία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_276|ref=Selecta in Judices_7
-7	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Selecta in Judices_1
-8	[1]	[1]	-	---------	_	3	SBJ	_	e_7|ref=Selecta in Judices_1
-9	.	.	u	u--------	_	7	AuxK	_	t_277|ref=Selecta in Judices_7
+1	Ἥ	ὅς	d	d--------	_	2	AuxZ	_	t_271|t_272|ref=Jud.sel._7
+2	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_272|e_6|ref=Jud.sel._7
+3	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_273|e_6|ref=Jud.sel._7
+4	διὰ	διά	r	r--------	_	8	AuxP	_	t_274|e_7|ref=Jud.sel._7
+5	προλαβούσης	προγίγνομαι	v	v-sapafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	6	ATR	_	t_275|t_276|ref=Jud.sel._7
+6	αἰτίας	αἰτία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_276|t_274|ref=Jud.sel._7
+7	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Jud.sel._1
+8	[1]	[1]	-	---------	_	3	SBJ	_	e_7|t_273|ref=Jud.sel._1
+9	.	.	u	u--------	_	7	AuxK	_	t_277|e_6|ref=Jud.sel._7
 
-# source = Origen, Selecta in Judices 7
+# source = Origen, Jud.sel. 7
 # text = Καὶ ὁ ψαλμός φησιν ·
 # sent_id = 28
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_278|ref=Selecta in Judices_7
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_279|ref=Selecta in Judices_7
-3	ψαλμός	ψαλμός	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_280|ref=Selecta in Judices_7
-4	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_281|ref=Selecta in Judices_7
-5	·	·	u	u--------	_	1	AuxK	_	t_282|ref=Selecta in Judices_7
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_278|0|ref=Jud.sel._7
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_279|t_280|ref=Jud.sel._7
+3	ψαλμός	ψαλμός	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_280|t_281|ref=Jud.sel._7
+4	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_281|t_278|ref=Jud.sel._7
+5	·	·	u	u--------	_	1	AuxK	_	t_282|t_278|ref=Jud.sel._7
 
-# source = Origen, Selecta in Judices 7
+# source = Origen, Jud.sel. 7
 # text = « Ὅταν λάβω καιρὸν , ἐγὼ εὐθύτητας κρινῶ . »
 # sent_id = 29
-1	«	«	u	u--------	_	8	AuxG	_	t_283|ref=Selecta in Judices_7
-2	Ὅταν	ὅταν	c	c--------	_	8	AuxC	_	t_284|ref=Selecta in Judices_7
-3	λάβω	λαμβάνω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	2	ADV	_	t_285|ref=Selecta in Judices_7
-4	καιρὸν	καιρός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_286|ref=Selecta in Judices_7
-5	,	,	u	u--------	_	2	AuxX	_	t_287|ref=Selecta in Judices_7
-6	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	8	SBJ	_	t_288|ref=Selecta in Judices_7
-7	εὐθύτητας	εὐθύτης	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_289|ref=Selecta in Judices_7
-8	κρινῶ	κρίνω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_290|ref=Selecta in Judices_7
-9	.	.	u	u--------	_	8	AuxK	_	t_291|ref=Selecta in Judices_7
-10	»	»	u	u--------	_	8	AuxG	_	t_292|ref=Selecta in Judices_7
+1	«	«	u	u--------	_	8	AuxG	_	t_283|t_290|ref=Jud.sel._7
+2	Ὅταν	ὅταν	c	c--------	_	8	AuxC	_	t_284|t_290|ref=Jud.sel._7
+3	λάβω	λαμβάνω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	2	ADV	_	t_285|t_284|ref=Jud.sel._7
+4	καιρὸν	καιρός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_286|t_285|ref=Jud.sel._7
+5	,	,	u	u--------	_	2	AuxX	_	t_287|t_284|ref=Jud.sel._7
+6	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	8	SBJ	_	t_288|t_290|ref=Jud.sel._7
+7	εὐθύτητας	εὐθύτης	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_289|t_290|ref=Jud.sel._7
+8	κρινῶ	κρίνω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_290|0|ref=Jud.sel._7
+9	.	.	u	u--------	_	8	AuxK	_	t_291|t_290|ref=Jud.sel._7
+10	»	»	u	u--------	_	8	AuxG	_	t_292|t_290|ref=Jud.sel._7
 
-# source = Origen, Selecta in Judices 7
+# source = Origen, Jud.sel. 7
 # text = Εἶτα καὶ μετὰ τὸ ἡττηθῆναι , καὶ μίαν καὶ δευτέραν , μετῆλθεν ὀργὴ ἐπὶ τοὺς ἠδικηκότας , καὶ νικῶσι δίκαιαν νίκην .
 # sent_id = 30
-1	Εἶτα	εἶτα	d	d--------	_	18	AuxY	_	t_293|ref=Selecta in Judices_7
-2	καὶ	καί	d	d--------	_	18	AuxY	_	t_294|ref=Selecta in Judices_7
-3	μετὰ	μετά	r	r--------	_	12	AuxP	_	t_295|ref=Selecta in Judices_7
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_296|ref=Selecta in Judices_7
-5	ἡττηθῆναι	ἡσσάομαι	v	v--anp---	Mood=n|Tense=a|Voice=p	3	ADV	_	t_297|ref=Selecta in Judices_7
-6	,	,	u	u--------	_	5	AuxX	_	t_298|ref=Selecta in Judices_7
-7	καὶ	καί	d	d--------	_	9	AuxY	_	t_299|ref=Selecta in Judices_7
-8	μίαν	εἷς	m	m-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_300|ref=Selecta in Judices_7
-9	καὶ	καί	c	c--------	_	5	COORD	_	t_301|ref=Selecta in Judices_7
-10	δευτέραν	δεύτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_302|ref=Selecta in Judices_7
-11	,	,	u	u--------	_	5	AuxX	_	t_303|ref=Selecta in Judices_7
-12	μετῆλθεν	μετέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	18	PRED	_	t_304|ref=Selecta in Judices_7
-13	ὀργὴ	ὀργή	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_305|ref=Selecta in Judices_7
-14	ἐπὶ	ἐπί	r	r--------	_	12	AuxP	_	t_306|ref=Selecta in Judices_7
-15	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	16	ATR	_	t_307|ref=Selecta in Judices_7
-16	ἠδικηκότας	ἀδικέω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	14	ADV	_	t_308|ref=Selecta in Judices_7
-17	,	,	u	u--------	_	12	AuxX	_	t_309|ref=Selecta in Judices_7
-18	καὶ	καί	c	c--------	_	0	COORD	_	t_310|ref=Selecta in Judices_7
-19	νικῶσι	νικάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	18	ADV	_	t_311|ref=Selecta in Judices_7
-20	δίκαιαν	δίκαιος	a	a-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_312|ref=Selecta in Judices_7
-21	νίκην	νίκη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_313|ref=Selecta in Judices_7
-22	.	.	u	u--------	_	18	AuxK	_	t_314|ref=Selecta in Judices_7
+1	Εἶτα	εἶτα	d	d--------	_	18	AuxY	_	t_293|t_310|ref=Jud.sel._7
+2	καὶ	καί	d	d--------	_	18	AuxY	_	t_294|t_310|ref=Jud.sel._7
+3	μετὰ	μετά	r	r--------	_	12	AuxP	_	t_295|t_304|ref=Jud.sel._7
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_296|t_297|ref=Jud.sel._7
+5	ἡττηθῆναι	ἡσσάομαι	v	v--anp---	Mood=n|Tense=a|Voice=p	3	ADV	_	t_297|t_295|ref=Jud.sel._7
+6	,	,	u	u--------	_	5	AuxX	_	t_298|t_297|ref=Jud.sel._7
+7	καὶ	καί	d	d--------	_	9	AuxY	_	t_299|t_301|ref=Jud.sel._7
+8	μίαν	εἷς	m	m-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_300|t_301|ref=Jud.sel._7
+9	καὶ	καί	c	c--------	_	5	COORD	_	t_301|t_297|ref=Jud.sel._7
+10	δευτέραν	δεύτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_302|t_301|ref=Jud.sel._7
+11	,	,	u	u--------	_	5	AuxX	_	t_303|t_297|ref=Jud.sel._7
+12	μετῆλθεν	μετέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	18	PRED	_	t_304|t_310|ref=Jud.sel._7
+13	ὀργὴ	ὀργή	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_305|t_304|ref=Jud.sel._7
+14	ἐπὶ	ἐπί	r	r--------	_	12	AuxP	_	t_306|t_304|ref=Jud.sel._7
+15	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	16	ATR	_	t_307|t_308|ref=Jud.sel._7
+16	ἠδικηκότας	ἀδικέω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	14	ADV	_	t_308|t_306|ref=Jud.sel._7
+17	,	,	u	u--------	_	12	AuxX	_	t_309|t_304|ref=Jud.sel._7
+18	καὶ	καί	c	c--------	_	0	COORD	_	t_310|0|ref=Jud.sel._7
+19	νικῶσι	νικάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	18	ADV	_	t_311|t_310|ref=Jud.sel._7
+20	δίκαιαν	δίκαιος	a	a-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_312|t_313|ref=Jud.sel._7
+21	νίκην	νίκη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_313|t_311|ref=Jud.sel._7
+22	.	.	u	u--------	_	18	AuxK	_	t_314|t_310|ref=Jud.sel._7
 

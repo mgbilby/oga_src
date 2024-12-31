@@ -1,205 +1,205 @@
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = Eustathius1 in Od [0] .
 # sent_id = 1
-1	Eustathius1	eustathius	n	n-s---fn-	_	4	ExD	_	t_1|ref=Vita septima_1
-2	in	εἰς	r	r--------	_	4	AuxG	_	t_2|ref=Vita septima_1
-3	Od	od	n	n-s---fg-	Case=g|Gender=f|Number=s	2	OBJ	_	t_3|ref=Vita septima_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Vita septima_1
-5	.	.	u	u--------	_	4	AuxK	_	t_4|ref=Vita septima_1
+1	Eustathius1	eustathius	n	n-s---fn-	_	4	ExD	_	t_1|e_1|ref=Vit.sept._1
+2	in	εἰς	r	r--------	_	4	AuxG	_	t_2|e_1|ref=Vit.sept._1
+3	Od	od	n	n-s---fg-	Case=g|Gender=f|Number=s	2	OBJ	_	t_3|t_2|ref=Vit.sept._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Vit.sept._1
+5	.	.	u	u--------	_	4	AuxK	_	t_4|e_1|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = 1713 .
 # sent_id = 2
-1	1713	1713	x	x--------	_	0	AuxG	_	t_5|ref=Vita septima_1
-2	.	.	u	u--------	_	1	AuxK	_	t_6|ref=Vita septima_1
+1	1713	1713	x	x--------	_	0	AuxG	_	t_5|0|ref=Vit.sept._1
+2	.	.	u	u--------	_	1	AuxK	_	t_6|t_5|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = 17 .
 # sent_id = 3
-1	17	17	x	x--------	_	0	AuxG	_	t_7|ref=Vita septima_1
-2	.	.	u	u--------	_	1	AuxK	_	t_8|ref=Vita septima_1
+1	17	17	x	x--------	_	0	AuxG	_	t_7|0|ref=Vit.sept._1
+2	.	.	u	u--------	_	1	AuxK	_	t_8|t_7|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = Ἀλέξανδρος δὲ ὁ Πάφιος ἱστορεῖ τὸν Ὅμηρον υἱὸν Αἰγυπτίων Δμασαγόρου καὶ Αἴθρας ·
 # sent_id = 4
-1	Ἀλέξανδρος	ἀλέξανδρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_9|ref=Vita septima_1
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_10|ref=Vita septima_1
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_11|ref=Vita septima_1
-4	Πάφιος	πάφιος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_12|ref=Vita septima_1
-5	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_13|ref=Vita septima_1
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_14|ref=Vita septima_1
-7	Ὅμηρον	ὅμηρος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_15|ref=Vita septima_1
-8	υἱὸν	υἱός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_16|ref=Vita septima_1
-9	Αἰγυπτίων	αἰγύπτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_17|ref=Vita septima_1
-10	Δμασαγόρου	δμασάγορος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_18|ref=Vita septima_1
-11	καὶ	καί	c	c--------	_	8	COORD	_	t_19|ref=Vita septima_1
-12	Αἴθρας	αἴθρα	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_20|ref=Vita septima_1
-13	·	·	u	u--------	_	5	AuxK	_	t_21|ref=Vita septima_1
+1	Ἀλέξανδρος	ἀλέξανδρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_9|t_13|ref=Vit.sept._1
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_10|t_13|ref=Vit.sept._1
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_11|t_9|ref=Vit.sept._1
+4	Πάφιος	πάφιος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_12|t_9|ref=Vit.sept._1
+5	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_13|0|ref=Vit.sept._1
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_14|t_16|ref=Vit.sept._1
+7	Ὅμηρον	ὅμηρος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_15|t_16|ref=Vit.sept._1
+8	υἱὸν	υἱός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_16|t_13|ref=Vit.sept._1
+9	Αἰγυπτίων	αἰγύπτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_17|t_19|ref=Vit.sept._1
+10	Δμασαγόρου	δμασάγορος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_18|t_19|ref=Vit.sept._1
+11	καὶ	καί	c	c--------	_	8	COORD	_	t_19|t_16|ref=Vit.sept._1
+12	Αἴθρας	αἴθρα	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_20|t_19|ref=Vit.sept._1
+13	·	·	u	u--------	_	5	AuxK	_	t_21|t_13|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = τροφὸν δὲ αὐτοῦ προφῆτίν τινα θυγατέρα Ὤρου ἱερέως Ἴσιδος , ἧς ἐκ τῶν μαστῶν μέλι ῥεῦσαί ποτε εἰς τὸ στόμα τοῦ παιδίου [0] .
 # sent_id = 5
-1	τροφὸν	τροφός	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OCOMP	_	t_22|ref=Vita septima_1
-2	δὲ	δέ	d	d--------	_	23	AuxY	_	t_23|ref=Vita septima_1
-3	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	1	ATR	_	t_24|ref=Vita septima_1
-4	προφῆτίν	προφῆτις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_25|ref=Vita septima_1
-5	τινα	τις	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_26|ref=Vita septima_1
-6	θυγατέρα	θυγάτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_27|ref=Vita septima_1
-7	Ὤρου	ὤρος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_28|ref=Vita septima_1
-8	ἱερέως	ἱερεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_29|ref=Vita septima_1
-9	Ἴσιδος	ἴσις	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_30|ref=Vita septima_1
-10	,	,	u	u--------	_	23	AuxX	_	t_31|ref=Vita septima_1
-11	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_32|ref=Vita septima_1
-12	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_33|ref=Vita septima_1
-13	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_34|ref=Vita septima_1
-14	μαστῶν	μαστός	n	n-p---mg-	Case=g|Gender=m|Number=p	12	ADV	_	t_35|ref=Vita septima_1
-15	μέλι	μέλι	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_36|ref=Vita septima_1
-16	ῥεῦσαί	ῥέω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	ATR	_	t_37|ref=Vita septima_1
-17	ποτε	ποτέ	d	d--------	_	16	ADV	_	t_38|ref=Vita septima_1
-18	εἰς	εἰς	r	r--------	_	16	AuxP	_	t_39|ref=Vita septima_1
-19	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	20	ATR	_	t_40|ref=Vita septima_1
-20	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_41|ref=Vita septima_1
-21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_42|ref=Vita septima_1
-22	παιδίου	παιδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_43|ref=Vita septima_1
-23	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Vita septima_1
-24	.	.	u	u--------	_	23	AuxK	_	t_44|ref=Vita septima_1
+1	τροφὸν	τροφός	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OCOMP	_	t_22|e_2|ref=Vit.sept._1
+2	δὲ	δέ	d	d--------	_	23	AuxY	_	t_23|e_2|ref=Vit.sept._1
+3	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	1	ATR	_	t_24|t_22|ref=Vit.sept._1
+4	προφῆτίν	προφῆτις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_25|e_2|ref=Vit.sept._1
+5	τινα	τις	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_26|t_27|ref=Vit.sept._1
+6	θυγατέρα	θυγάτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_27|e_2|ref=Vit.sept._1
+7	Ὤρου	ὤρος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_28|t_27|ref=Vit.sept._1
+8	ἱερέως	ἱερεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_29|t_28|ref=Vit.sept._1
+9	Ἴσιδος	ἴσις	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_30|t_28|ref=Vit.sept._1
+10	,	,	u	u--------	_	23	AuxX	_	t_31|e_2|ref=Vit.sept._1
+11	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_32|t_36|ref=Vit.sept._1
+12	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_33|t_37|ref=Vit.sept._1
+13	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_34|t_35|ref=Vit.sept._1
+14	μαστῶν	μαστός	n	n-p---mg-	Case=g|Gender=m|Number=p	12	ADV	_	t_35|t_33|ref=Vit.sept._1
+15	μέλι	μέλι	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_36|t_37|ref=Vit.sept._1
+16	ῥεῦσαί	ῥέω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	ATR	_	t_37|t_27|ref=Vit.sept._1
+17	ποτε	ποτέ	d	d--------	_	16	ADV	_	t_38|t_37|ref=Vit.sept._1
+18	εἰς	εἰς	r	r--------	_	16	AuxP	_	t_39|t_37|ref=Vit.sept._1
+19	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	20	ATR	_	t_40|t_41|ref=Vit.sept._1
+20	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_41|t_39|ref=Vit.sept._1
+21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_42|t_43|ref=Vit.sept._1
+22	παιδίου	παιδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_43|t_41|ref=Vit.sept._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Vit.sept._1
+24	.	.	u	u--------	_	23	AuxK	_	t_44|e_2|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = καὶ τὸ βρέφος ἐν νυκτὶ φωνὰς ἐννέα προέσθαι ·
 # sent_id = 6
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_45|ref=Vita septima_1
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_46|ref=Vita septima_1
-3	βρέφος	βρέφος	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_47|ref=Vita septima_1
-4	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_48|ref=Vita septima_1
-5	νυκτὶ	νύξ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_49|ref=Vita septima_1
-6	φωνὰς	φωνή	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_50|ref=Vita septima_1
-7	ἐννέα	ἐννέα	m	m--------	_	6	ATR	_	t_51|ref=Vita septima_1
-8	προέσθαι	προΐημι	v	v--anm---	Mood=n|Tense=a|Voice=m	0	PRED	_	t_52|ref=Vita septima_1
-9	·	·	u	u--------	_	8	AuxK	_	t_53|ref=Vita septima_1
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_45|t_52|ref=Vit.sept._1
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_46|t_47|ref=Vit.sept._1
+3	βρέφος	βρέφος	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_47|t_52|ref=Vit.sept._1
+4	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_48|t_52|ref=Vit.sept._1
+5	νυκτὶ	νύξ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_49|t_48|ref=Vit.sept._1
+6	φωνὰς	φωνή	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_50|t_52|ref=Vit.sept._1
+7	ἐννέα	ἐννέα	m	m--------	_	6	ATR	_	t_51|t_50|ref=Vit.sept._1
+8	προέσθαι	προΐημι	v	v--anm---	Mood=n|Tense=a|Voice=m	0	PRED	_	t_52|0|ref=Vit.sept._1
+9	·	·	u	u--------	_	8	AuxK	_	t_53|t_52|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = χελιδόνος , ταῶνος , περιστερᾶς , κορώνης , πέρδικος , πορφυρίωνος , ψαρός , ἀηδόνος καὶ κοττύφου [0] .
 # sent_id = 7
-1	χελιδόνος	χελιδών	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_54|ref=Vita septima_1
-2	,	,	u	u--------	_	18	AuxX	_	t_55|ref=Vita septima_1
-3	ταῶνος	ταῶν	n	n-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_56|ref=Vita septima_1
-4	,	,	u	u--------	_	18	AuxX	_	t_57|ref=Vita septima_1
-5	περιστερᾶς	περιστερά	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_58|ref=Vita septima_1
-6	,	,	u	u--------	_	18	AuxX	_	t_59|ref=Vita septima_1
-7	κορώνης	κορώνη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_60|ref=Vita septima_1
-8	,	,	u	u--------	_	18	AuxX	_	t_61|ref=Vita septima_1
-9	πέρδικος	πέρδιξ	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_62|ref=Vita septima_1
-10	,	,	u	u--------	_	18	AuxX	_	t_63|ref=Vita septima_1
-11	πορφυρίωνος	πορφυρίων	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_64|ref=Vita septima_1
-12	,	,	u	u--------	_	18	AuxX	_	t_65|ref=Vita septima_1
-13	ψαρός	ψάρος	n	n-s---mg-	Case=n|Gender=m|Number=s	16	PNOM	_	t_66|ref=Vita septima_1
-14	,	,	u	u--------	_	18	AuxX	_	t_67|ref=Vita septima_1
-15	ἀηδόνος	ἀηδών	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_68|ref=Vita septima_1
-16	καὶ	καί	c	c--------	_	18	COORD	_	t_69|ref=Vita septima_1
-17	κοττύφου	κότινος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_70|ref=Vita septima_1
-18	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Vita septima_1
-19	.	.	u	u--------	_	18	AuxK	_	t_71|ref=Vita septima_1
+1	χελιδόνος	χελιδών	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_54|t_69|ref=Vit.sept._1
+2	,	,	u	u--------	_	18	AuxX	_	t_55|e_3|ref=Vit.sept._1
+3	ταῶνος	ταῶν	n	n-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_56|t_69|ref=Vit.sept._1
+4	,	,	u	u--------	_	18	AuxX	_	t_57|e_3|ref=Vit.sept._1
+5	περιστερᾶς	περιστερά	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_58|t_69|ref=Vit.sept._1
+6	,	,	u	u--------	_	18	AuxX	_	t_59|e_3|ref=Vit.sept._1
+7	κορώνης	κορώνη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_60|t_69|ref=Vit.sept._1
+8	,	,	u	u--------	_	18	AuxX	_	t_61|e_3|ref=Vit.sept._1
+9	πέρδικος	πέρδιξ	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_62|t_69|ref=Vit.sept._1
+10	,	,	u	u--------	_	18	AuxX	_	t_63|e_3|ref=Vit.sept._1
+11	πορφυρίωνος	πορφυρίων	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_64|t_69|ref=Vit.sept._1
+12	,	,	u	u--------	_	18	AuxX	_	t_65|e_3|ref=Vit.sept._1
+13	ψαρός	ψάρος	n	n-s---mg-	Case=n|Gender=m|Number=s	16	PNOM	_	t_66|t_69|ref=Vit.sept._1
+14	,	,	u	u--------	_	18	AuxX	_	t_67|e_3|ref=Vit.sept._1
+15	ἀηδόνος	ἀηδών	n	n-s---fg-	Case=g|Gender=f|Number=s	16	PNOM	_	t_68|t_69|ref=Vit.sept._1
+16	καὶ	καί	c	c--------	_	18	COORD	_	t_69|e_3|ref=Vit.sept._1
+17	κοττύφου	κότινος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_70|t_69|ref=Vit.sept._1
+18	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Vit.sept._1
+19	.	.	u	u--------	_	18	AuxK	_	t_71|e_3|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = εὑρεθῆναί τε τὸ παιδίον μετὰ περιστερῶν ἐννέα παῖζον ἐπὶ τῆς κλίνης , εὐωχουμένην δὲ παρὰ τοῖς τοῦ παιδὸς τὴν Σίβυλλαν ἐμμανῆ γεγονυῖαν ἔπη σχεδιάσαι , ὧν ἀρχὴ Δμασαγόρα πολύνικε , ἐν οἷς καὶ μεγακλεῆ καὶ στεφανίτην αὐτὸν προσειπεῖν , καὶ ναὸν κτίσαι κελεῦσαι ἐννέα Πιερίδων [0] ·
 # sent_id = 8
-1	εὑρεθῆναί	εὑρίσκω	v	v--anp---	Mood=n|Tense=a|Voice=p	14	PRED	_	t_72|ref=Vita septima_1
-2	τε	τε	d	d--------	_	14	AuxY	_	t_73|ref=Vita septima_1
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_74|ref=Vita septima_1
-4	παιδίον	παιδίον	n	n-s---na-	Case=a|Gender=n|Number=s	1	SBJ	_	t_75|ref=Vita septima_1
-5	μετὰ	μετά	r	r--------	_	8	AuxP	_	t_76|ref=Vita septima_1
-6	περιστερῶν	περιστερά	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_77|ref=Vita septima_1
-7	ἐννέα	ἐννέα	m	m--------	_	6	ATR	_	t_78|ref=Vita septima_1
-8	παῖζον	παίζω	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_79|ref=Vita septima_1
-9	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_80|ref=Vita septima_1
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_81|ref=Vita septima_1
-11	κλίνης	κλίνη	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_82|ref=Vita septima_1
-12	,	,	u	u--------	_	46	AuxX	_	t_83|ref=Vita septima_1
-13	εὐωχουμένην	εὐωχέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	20	ATR	_	t_84|ref=Vita septima_1
-14	δὲ	δέ	c	c--------	_	46	COORD	_	t_85|ref=Vita septima_1
-15	παρὰ	παρά	r	r--------	_	13	AuxP	_	t_86|ref=Vita septima_1
-16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_87|ref=Vita septima_1
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_88|ref=Vita septima_1
-18	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_89|ref=Vita septima_1
-19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_90|ref=Vita septima_1
-20	Σίβυλλαν	σίβυλλα	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_91|ref=Vita septima_1
-21	ἐμμανῆ	ἐμμανής	a	a-s---fa-	Case=a|Gender=f|Number=s	22	PNOM	_	t_92|ref=Vita septima_1
-22	γεγονυῖαν	γίγνομαι	v	v-srpafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	20	ATR	_	t_93|ref=Vita septima_1
-23	ἔπη	ἔπος	v	v--ana---	Mood=n|Tense=a|Voice=a	14	PRED	_	t_94|ref=Vita septima_1
-24	σχεδιάσαι	σχεδιάζω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	PRED	_	t_95|ref=Vita septima_1
-25	,	,	u	u--------	_	46	AuxX	_	t_96|ref=Vita septima_1
-26	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_97|ref=Vita septima_1
-27	ἀρχὴ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	46	SBJ	_	t_98|ref=Vita septima_1
-28	Δμασαγόρα	δμασαγόρας	n	n-s---ma-	Case=a|Gender=m|Number=s	24	SBJ	_	t_99|ref=Vita septima_1
-29	πολύνικε	πολύνικος	a	a-s---fn-	Case=n|Gender=f|Number=s	27	ATR	_	t_100|ref=Vita septima_1
-30	,	,	u	u--------	_	46	AuxX	_	t_101|ref=Vita septima_1
-31	ἐν	ἐν	r	r--------	_	38	AuxP	_	t_102|ref=Vita septima_1
-32	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	31	ADV	_	t_103|ref=Vita septima_1
-33	καὶ	καί	d	d--------	_	35	AuxY	_	t_104|ref=Vita septima_1
-34	μεγακλεῆ	μεγακλεής	a	a-s---ma-	Case=a|Gender=m|Number=s	35	OBJ	_	t_105|ref=Vita septima_1
-35	καὶ	καί	c	c--------	_	38	COORD	_	t_106|ref=Vita septima_1
-36	στεφανίτην	στεφανίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	35	OCOMP	_	t_107|ref=Vita septima_1
-37	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_108|ref=Vita septima_1
-38	προσειπεῖν	προσλέγω	v	v--ana---	Mood=n|Tense=a|Voice=a	20	ATR	_	t_109|ref=Vita septima_1
-39	,	,	u	u--------	_	46	AuxX	_	t_110|ref=Vita septima_1
-40	καὶ	καί	c	c--------	_	46	COORD	_	t_111|ref=Vita septima_1
-41	ναὸν	ναός	n	n-s---ma-	Case=a|Gender=m|Number=s	42	OBJ	_	t_112|ref=Vita septima_1
-42	κτίσαι	κτίζω	v	v--ana---	Mood=n|Tense=a|Voice=a	40	OBJ	_	t_113|ref=Vita septima_1
-43	κελεῦσαι	κελεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	40	ATR	_	t_114|ref=Vita septima_1
-44	ἐννέα	ἐννέα	a	a--------	_	45	ATR	_	t_115|ref=Vita septima_1
-45	Πιερίδων	πιερίδες	n	n-p---fg-	Case=g|Gender=f|Number=p	41	ATR	_	t_116|ref=Vita septima_1
-46	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Vita septima_1
-47	·	·	u	u--------	_	12	AuxK	_	t_117|ref=Vita septima_1
+1	εὑρεθῆναί	εὑρίσκω	v	v--anp---	Mood=n|Tense=a|Voice=p	14	PRED	_	t_72|t_85|ref=Vit.sept._1
+2	τε	τε	d	d--------	_	14	AuxY	_	t_73|t_85|ref=Vit.sept._1
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_74|t_75|ref=Vit.sept._1
+4	παιδίον	παιδίον	n	n-s---na-	Case=a|Gender=n|Number=s	1	SBJ	_	t_75|t_72|ref=Vit.sept._1
+5	μετὰ	μετά	r	r--------	_	8	AuxP	_	t_76|t_79|ref=Vit.sept._1
+6	περιστερῶν	περιστερά	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_77|t_76|ref=Vit.sept._1
+7	ἐννέα	ἐννέα	m	m--------	_	6	ATR	_	t_78|t_77|ref=Vit.sept._1
+8	παῖζον	παίζω	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_79|t_75|ref=Vit.sept._1
+9	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_80|t_72|ref=Vit.sept._1
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_81|t_82|ref=Vit.sept._1
+11	κλίνης	κλίνη	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_82|t_80|ref=Vit.sept._1
+12	,	,	u	u--------	_	46	AuxX	_	t_83|e_4|ref=Vit.sept._1
+13	εὐωχουμένην	εὐωχέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	20	ATR	_	t_84|t_91|ref=Vit.sept._1
+14	δὲ	δέ	c	c--------	_	46	COORD	_	t_85|e_4|ref=Vit.sept._1
+15	παρὰ	παρά	r	r--------	_	13	AuxP	_	t_86|t_84|ref=Vit.sept._1
+16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_87|t_86|ref=Vit.sept._1
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_88|t_89|ref=Vit.sept._1
+18	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_89|t_87|ref=Vit.sept._1
+19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_90|t_91|ref=Vit.sept._1
+20	Σίβυλλαν	σίβυλλα	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_91|t_94|ref=Vit.sept._1
+21	ἐμμανῆ	ἐμμανής	a	a-s---fa-	Case=a|Gender=f|Number=s	22	PNOM	_	t_92|t_93|ref=Vit.sept._1
+22	γεγονυῖαν	γίγνομαι	v	v-srpafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	20	ATR	_	t_93|t_91|ref=Vit.sept._1
+23	ἔπη	ἔπος	v	v--ana---	Mood=n|Tense=a|Voice=a	14	PRED	_	t_94|t_85|ref=Vit.sept._1
+24	σχεδιάσαι	σχεδιάζω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	PRED	_	t_95|t_85|ref=Vit.sept._1
+25	,	,	u	u--------	_	46	AuxX	_	t_96|e_4|ref=Vit.sept._1
+26	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_97|t_98|ref=Vit.sept._1
+27	ἀρχὴ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	46	SBJ	_	t_98|e_4|ref=Vit.sept._1
+28	Δμασαγόρα	δμασαγόρας	n	n-s---ma-	Case=a|Gender=m|Number=s	24	SBJ	_	t_99|t_95|ref=Vit.sept._1
+29	πολύνικε	πολύνικος	a	a-s---fn-	Case=n|Gender=f|Number=s	27	ATR	_	t_100|t_98|ref=Vit.sept._1
+30	,	,	u	u--------	_	46	AuxX	_	t_101|e_4|ref=Vit.sept._1
+31	ἐν	ἐν	r	r--------	_	38	AuxP	_	t_102|t_109|ref=Vit.sept._1
+32	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	31	ADV	_	t_103|t_102|ref=Vit.sept._1
+33	καὶ	καί	d	d--------	_	35	AuxY	_	t_104|t_106|ref=Vit.sept._1
+34	μεγακλεῆ	μεγακλεής	a	a-s---ma-	Case=a|Gender=m|Number=s	35	OBJ	_	t_105|t_106|ref=Vit.sept._1
+35	καὶ	καί	c	c--------	_	38	COORD	_	t_106|t_109|ref=Vit.sept._1
+36	στεφανίτην	στεφανίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	35	OCOMP	_	t_107|t_106|ref=Vit.sept._1
+37	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_108|t_109|ref=Vit.sept._1
+38	προσειπεῖν	προσλέγω	v	v--ana---	Mood=n|Tense=a|Voice=a	20	ATR	_	t_109|t_91|ref=Vit.sept._1
+39	,	,	u	u--------	_	46	AuxX	_	t_110|e_4|ref=Vit.sept._1
+40	καὶ	καί	c	c--------	_	46	COORD	_	t_111|e_4|ref=Vit.sept._1
+41	ναὸν	ναός	n	n-s---ma-	Case=a|Gender=m|Number=s	42	OBJ	_	t_112|t_113|ref=Vit.sept._1
+42	κτίσαι	κτίζω	v	v--ana---	Mood=n|Tense=a|Voice=a	40	OBJ	_	t_113|t_111|ref=Vit.sept._1
+43	κελεῦσαι	κελεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	40	ATR	_	t_114|t_111|ref=Vit.sept._1
+44	ἐννέα	ἐννέα	a	a--------	_	45	ATR	_	t_115|t_116|ref=Vit.sept._1
+45	Πιερίδων	πιερίδες	n	n-p---fg-	Case=g|Gender=f|Number=p	41	ATR	_	t_116|t_112|ref=Vit.sept._1
+46	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Vit.sept._1
+47	·	·	u	u--------	_	12	AuxK	_	t_117|t_83|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = ἐδήλου δὲ τὰς μούσας .
 # sent_id = 9
-1	ἐδήλου	δηλόω	v	v2siie---	Mood=i|Number=s|Person=2|Tense=i|Voice=e	0	PRED	_	t_118|ref=Vita septima_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_119|ref=Vita septima_1
-3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_120|ref=Vita septima_1
-4	μούσας	μοῦσα	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	OBJ	_	t_121|ref=Vita septima_1
-5	.	.	u	u--------	_	1	AuxK	_	t_122|ref=Vita septima_1
+1	ἐδήλου	δηλόω	v	v2siie---	Mood=i|Number=s|Person=2|Tense=i|Voice=e	0	PRED	_	t_118|0|ref=Vit.sept._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_119|t_118|ref=Vit.sept._1
+3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_120|t_121|ref=Vit.sept._1
+4	μούσας	μοῦσα	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	OBJ	_	t_121|t_118|ref=Vit.sept._1
+5	.	.	u	u--------	_	1	AuxK	_	t_122|t_118|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = τὸν δὲ καὶ τοῦτο ποιῆσαι καὶ τῷ παιδὶ ἀνδρωθέντι ἐξειπεῖν τὸ πρᾶγμα .
 # sent_id = 10
-1	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_123|ref=Vita septima_1
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_124|ref=Vita septima_1
-3	καὶ	καί	d	d--------	_	6	AuxY	_	t_125|ref=Vita septima_1
-4	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_126|ref=Vita septima_1
-5	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	PRED	_	t_127|ref=Vita septima_1
-6	καὶ	καί	c	c--------	_	0	COORD	_	t_128|ref=Vita septima_1
-7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_129|ref=Vita septima_1
-8	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_130|ref=Vita septima_1
-9	ἀνδρωθέντι	ἀνδρόω	v	v-sappmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	8	ATR	_	t_131|ref=Vita septima_1
-10	ἐξειπεῖν	ἐξεῖπον	v	v--ana---	Mood=n|Tense=a|Voice=a	6	PRED	_	t_132|ref=Vita septima_1
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_133|ref=Vita septima_1
-12	πρᾶγμα	πρᾶγμα	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_134|ref=Vita septima_1
-13	.	.	u	u--------	_	6	AuxK	_	t_135|ref=Vita septima_1
+1	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_123|t_127|ref=Vit.sept._1
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_124|t_128|ref=Vit.sept._1
+3	καὶ	καί	d	d--------	_	6	AuxY	_	t_125|t_128|ref=Vit.sept._1
+4	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_126|t_127|ref=Vit.sept._1
+5	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	PRED	_	t_127|t_128|ref=Vit.sept._1
+6	καὶ	καί	c	c--------	_	0	COORD	_	t_128|0|ref=Vit.sept._1
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_129|t_130|ref=Vit.sept._1
+8	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_130|t_132|ref=Vit.sept._1
+9	ἀνδρωθέντι	ἀνδρόω	v	v-sappmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	8	ATR	_	t_131|t_130|ref=Vit.sept._1
+10	ἐξειπεῖν	ἐξεῖπον	v	v--ana---	Mood=n|Tense=a|Voice=a	6	PRED	_	t_132|t_128|ref=Vit.sept._1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_133|t_134|ref=Vit.sept._1
+12	πρᾶγμα	πρᾶγμα	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_134|t_132|ref=Vit.sept._1
+13	.	.	u	u--------	_	6	AuxK	_	t_135|t_128|ref=Vit.sept._1
 
-# source = Vitae Homeri, Vita septima 1
+# source = Vitae Homeri, Vit.sept. 1
 # text = καὶ τὸν ποιητὴν οὕτω σεμνῦναι τὰ ζῷα οἷς βρέφος ὢν συνέπαιζε , καὶ ποιῆσαι αὐτὰ τῷ Διὶ τὴν ἀμβροσίαν κομίζοντα [0] .
 # sent_id = 11
-1	καὶ	καί	c	c--------	_	21	AuxY	_	t_136|ref=Vita septima_1
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_137|ref=Vita septima_1
-3	ποιητὴν	ποιητής	n	n-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_138|ref=Vita septima_1
-4	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_139|ref=Vita septima_1
-5	σεμνῦναι	σεμνύνω	v	v--ana---	Mood=n|Tense=a|Voice=a	13	OBJ	_	t_140|ref=Vita septima_1
-6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_141|ref=Vita septima_1
-7	ζῷα	ζῷον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_142|ref=Vita septima_1
-8	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_143|ref=Vita septima_1
-9	βρέφος	βρέφος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_144|ref=Vita septima_1
-10	ὢν	εἰμί	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_145|ref=Vita septima_1
-11	συνέπαιζε	συμπαίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	ATR	_	t_146|ref=Vita septima_1
-12	,	,	u	u--------	_	21	AuxX	_	t_147|ref=Vita septima_1
-13	καὶ	καί	c	c--------	_	21	COORD	_	t_148|ref=Vita septima_1
-14	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	13	OBJ	_	t_149|ref=Vita septima_1
-15	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_150|ref=Vita septima_1
-16	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	17	ATR	_	t_151|ref=Vita septima_1
-17	Διὶ	ζεύς	n	n-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_152|ref=Vita septima_1
-18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_153|ref=Vita septima_1
-19	ἀμβροσίαν	ἀμβροσία	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_154|ref=Vita septima_1
-20	κομίζοντα	κομίζω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_155|ref=Vita septima_1
-21	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Vita septima_1
-22	.	.	u	u--------	_	21	AuxK	_	t_156|ref=Vita septima_1
+1	καὶ	καί	c	c--------	_	21	AuxY	_	t_136|e_5|ref=Vit.sept._1
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_137|t_138|ref=Vit.sept._1
+3	ποιητὴν	ποιητής	n	n-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_138|t_148|ref=Vit.sept._1
+4	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_139|t_140|ref=Vit.sept._1
+5	σεμνῦναι	σεμνύνω	v	v--ana---	Mood=n|Tense=a|Voice=a	13	OBJ	_	t_140|t_148|ref=Vit.sept._1
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_141|t_142|ref=Vit.sept._1
+7	ζῷα	ζῷον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_142|t_140|ref=Vit.sept._1
+8	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_143|t_146|ref=Vit.sept._1
+9	βρέφος	βρέφος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_144|t_145|ref=Vit.sept._1
+10	ὢν	εἰμί	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_145|t_146|ref=Vit.sept._1
+11	συνέπαιζε	συμπαίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	ATR	_	t_146|t_142|ref=Vit.sept._1
+12	,	,	u	u--------	_	21	AuxX	_	t_147|e_5|ref=Vit.sept._1
+13	καὶ	καί	c	c--------	_	21	COORD	_	t_148|e_5|ref=Vit.sept._1
+14	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	13	OBJ	_	t_149|t_148|ref=Vit.sept._1
+15	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_150|t_149|ref=Vit.sept._1
+16	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	17	ATR	_	t_151|t_152|ref=Vit.sept._1
+17	Διὶ	ζεύς	n	n-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_152|t_149|ref=Vit.sept._1
+18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_153|t_154|ref=Vit.sept._1
+19	ἀμβροσίαν	ἀμβροσία	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_154|t_155|ref=Vit.sept._1
+20	κομίζοντα	κομίζω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_155|t_149|ref=Vit.sept._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Vit.sept._1
+22	.	.	u	u--------	_	21	AuxK	_	t_156|e_5|ref=Vit.sept._1
 

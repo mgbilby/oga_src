@@ -1,907 +1,907 @@
-# source = Lysias, Against Philocrates 1
+# source = Lysias, Lys. 29 1
 # text = ὁ μὲν ἀγὼν οὗτος , ὦ ἄνδρες δικασταί , ἐρημότερος γεγένηται ἢ ἐγὼ προσεδόκων .
 # sent_id = 1
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1|ref=Against Philocrates_1
-2	μὲν	μέν	d	d--------	_	11	AuxY	_	t_2|ref=Against Philocrates_1
-3	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_3|ref=Against Philocrates_1
-4	οὗτος	οὗτος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_4|ref=Against Philocrates_1
-5	,	,	u	u--------	_	11	AuxX	_	t_5|ref=Against Philocrates_1
-6	ὦ	ὦ	i	i--------	_	7	AuxZ	_	t_6|ref=Against Philocrates_1
-7	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	11	ExD	_	t_7|ref=Against Philocrates_1
-8	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	7	ATR	_	t_8|ref=Against Philocrates_1
-9	,	,	u	u--------	_	11	AuxX	_	t_9|ref=Against Philocrates_1
-10	ἐρημότερος	ἐρῆμος	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	11	PNOM	_	t_10|ref=Against Philocrates_1
-11	γεγένηται	γίγνομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_11|ref=Against Philocrates_1
-12	ἢ	ἤ1	c	c--------	_	10	AuxC	_	t_12|ref=Against Philocrates_1
-13	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	14	SBJ	_	t_13|ref=Against Philocrates_1
-14	προσεδόκων	προσδοκάω	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	12	ADV	_	t_14|ref=Against Philocrates_1
-15	.	.	u	u--------	_	11	AuxK	_	t_15|ref=Against Philocrates_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1|t_3|ref=Lys. 29_1
+2	μὲν	μέν	d	d--------	_	11	AuxY	_	t_2|t_11|ref=Lys. 29_1
+3	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_3|t_11|ref=Lys. 29_1
+4	οὗτος	οὗτος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_4|t_3|ref=Lys. 29_1
+5	,	,	u	u--------	_	11	AuxX	_	t_5|t_11|ref=Lys. 29_1
+6	ὦ	ὦ	i	i--------	_	7	AuxZ	_	t_6|t_7|ref=Lys. 29_1
+7	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	11	ExD	_	t_7|t_11|ref=Lys. 29_1
+8	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	7	ATR	_	t_8|t_7|ref=Lys. 29_1
+9	,	,	u	u--------	_	11	AuxX	_	t_9|t_11|ref=Lys. 29_1
+10	ἐρημότερος	ἐρῆμος	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	11	PNOM	_	t_10|t_11|ref=Lys. 29_1
+11	γεγένηται	γίγνομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_11|0|ref=Lys. 29_1
+12	ἢ	ἤ1	c	c--------	_	10	AuxC	_	t_12|t_10|ref=Lys. 29_1
+13	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	14	SBJ	_	t_13|t_14|ref=Lys. 29_1
+14	προσεδόκων	προσδοκάω	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	12	ADV	_	t_14|t_12|ref=Lys. 29_1
+15	.	.	u	u--------	_	11	AuxK	_	t_15|t_11|ref=Lys. 29_1
 
-# source = Lysias, Against Philocrates 1
+# source = Lysias, Lys. 29 1
 # text = πολλοὶ γὰρ ἦσαν οἱ ἀπειλοῦντες καὶ οἱ φάσκοντες Φιλοκράτους κατηγορήσειν ·
 # sent_id = 2
-1	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_16|ref=Against Philocrates_1
-2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_17|ref=Against Philocrates_1
-3	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_18|ref=Against Philocrates_1
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_19|ref=Against Philocrates_1
-5	ἀπειλοῦντες	ἀπειλέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_20|ref=Against Philocrates_1
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_21|ref=Against Philocrates_1
-7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_22|ref=Against Philocrates_1
-8	φάσκοντες	φάσκω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_23|ref=Against Philocrates_1
-9	Φιλοκράτους	φιλοκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	10	OBJ	_	t_24|ref=Against Philocrates_1
-10	κατηγορήσειν	κατηγορέω	v	v--fna---	Mood=n|Tense=f|Voice=a	8	OBJ	_	t_25|ref=Against Philocrates_1
-11	·	·	u	u--------	_	3	AuxK	_	t_26|ref=Against Philocrates_1
+1	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_16|t_18|ref=Lys. 29_1
+2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_17|t_18|ref=Lys. 29_1
+3	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_18|0|ref=Lys. 29_1
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_19|t_20|ref=Lys. 29_1
+5	ἀπειλοῦντες	ἀπειλέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_20|t_21|ref=Lys. 29_1
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_21|t_18|ref=Lys. 29_1
+7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_22|t_23|ref=Lys. 29_1
+8	φάσκοντες	φάσκω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_23|t_21|ref=Lys. 29_1
+9	Φιλοκράτους	φιλοκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	10	OBJ	_	t_24|t_25|ref=Lys. 29_1
+10	κατηγορήσειν	κατηγορέω	v	v--fna---	Mood=n|Tense=f|Voice=a	8	OBJ	_	t_25|t_23|ref=Lys. 29_1
+11	·	·	u	u--------	_	3	AuxK	_	t_26|t_18|ref=Lys. 29_1
 
-# source = Lysias, Against Philocrates 1
+# source = Lysias, Lys. 29 1
 # text = ὧν οὐδεὶς νυνὶ φαίνεται .
 # sent_id = 3
-1	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_27|ref=Against Philocrates_1
-2	οὐδεὶς	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_28|ref=Against Philocrates_1
-3	νυνὶ	νυνί	d	d--------	_	4	ADV	_	t_29|ref=Against Philocrates_1
-4	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_30|ref=Against Philocrates_1
-5	.	.	u	u--------	_	4	AuxK	_	t_31|ref=Against Philocrates_1
+1	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_27|t_28|ref=Lys. 29_1
+2	οὐδεὶς	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_28|t_30|ref=Lys. 29_1
+3	νυνὶ	νυνί	d	d--------	_	4	ADV	_	t_29|t_30|ref=Lys. 29_1
+4	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_30|0|ref=Lys. 29_1
+5	.	.	u	u--------	_	4	AuxK	_	t_31|t_30|ref=Lys. 29_1
 
-# source = Lysias, Against Philocrates 1
+# source = Lysias, Lys. 29 1
 # text = ὃ κ ἀμοὶ δοκεῖ οὐδενὸς ἔλαττον εἶναι τεκμήριον τῆς ἀπογραφῆς ὅτι ἀληθὴς οὖσα τυγχάνει ·
 # sent_id = 4
-1	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_32|ref=Against Philocrates_1
-2	κ	καί	d	d--------	_	4	AuxY	_	t_33|ref=Against Philocrates_1
-3	ἀμοὶ	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_34|ref=Against Philocrates_1
-4	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_35|ref=Against Philocrates_1
-5	οὐδενὸς	οὐδείς	p	p-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_36|ref=Against Philocrates_1
-6	ἔλαττον	ἐλάσσων	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	8	ATR	_	t_37|ref=Against Philocrates_1
-7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_38|ref=Against Philocrates_1
-8	τεκμήριον	τεκμήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_39|ref=Against Philocrates_1
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_40|ref=Against Philocrates_1
-10	ἀπογραφῆς	ἀπογραφή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_41|ref=Against Philocrates_1
-11	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_42|ref=Against Philocrates_1
-12	ἀληθὴς	ἀληθής	a	a-s---fn-	Case=n|Gender=f|Number=s	13	PNOM	_	t_43|ref=Against Philocrates_1
-13	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_44|ref=Against Philocrates_1
-14	τυγχάνει	τυγχάνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	SBJ	_	t_45|ref=Against Philocrates_1
-15	·	·	u	u--------	_	4	AuxK	_	t_46|ref=Against Philocrates_1
+1	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_32|t_35|ref=Lys. 29_1
+2	κ	καί	d	d--------	_	4	AuxY	_	t_33|t_35|ref=Lys. 29_1
+3	ἀμοὶ	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_34|t_35|ref=Lys. 29_1
+4	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_35|0|ref=Lys. 29_1
+5	οὐδενὸς	οὐδείς	p	p-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_36|t_37|ref=Lys. 29_1
+6	ἔλαττον	ἐλάσσων	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	8	ATR	_	t_37|t_39|ref=Lys. 29_1
+7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_38|t_35|ref=Lys. 29_1
+8	τεκμήριον	τεκμήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_39|t_38|ref=Lys. 29_1
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_40|t_41|ref=Lys. 29_1
+10	ἀπογραφῆς	ἀπογραφή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_41|t_36|ref=Lys. 29_1
+11	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_42|t_39|ref=Lys. 29_1
+12	ἀληθὴς	ἀληθής	a	a-s---fn-	Case=n|Gender=f|Number=s	13	PNOM	_	t_43|t_44|ref=Lys. 29_1
+13	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_44|t_45|ref=Lys. 29_1
+14	τυγχάνει	τυγχάνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	SBJ	_	t_45|t_42|ref=Lys. 29_1
+15	·	·	u	u--------	_	4	AuxK	_	t_46|t_35|ref=Lys. 29_1
 
-# source = Lysias, Against Philocrates 1
+# source = Lysias, Lys. 29 1
 # text = εἰ γὰρ μὴ πολλὰ τῶν Ἐργοκλέους εἶχε χρημάτων , οὐκ ἂν οὕτως οἷός τʼ ἦν ἀπαλλάξαι τοὺς κατηγόρους .
 # sent_id = 5
-1	εἰ	εἰ	c	c--------	_	15	AuxC	_	t_47|ref=Against Philocrates_1
-2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_48|ref=Against Philocrates_1
-3	μὴ	μή	d	d--------	_	7	AuxZ	_	t_49|ref=Against Philocrates_1
-4	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_50|ref=Against Philocrates_1
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_51|ref=Against Philocrates_1
-6	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_52|ref=Against Philocrates_1
-7	εἶχε	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	ADV	_	t_53|ref=Against Philocrates_1
-8	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_54|ref=Against Philocrates_1
-9	,	,	u	u--------	_	15	AuxX	_	t_55|ref=Against Philocrates_1
-10	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_56|ref=Against Philocrates_1
-11	ἂν	ἄν	d	d--------	_	15	AuxY	_	t_57|ref=Against Philocrates_1
-12	οὕτως	οὕτως	d	d--------	_	13	ADV	_	t_58|ref=Against Philocrates_1
-13	οἷός	οἷος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_59|ref=Against Philocrates_1
-14	τʼ	τε	d	d--------	_	13	AuxZ	_	t_60|ref=Against Philocrates_1
-15	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_61|ref=Against Philocrates_1
-16	ἀπαλλάξαι	ἀπαλλαξείω	v	v--ana---	Mood=n|Tense=a|Voice=a	13	ADV	_	t_62|ref=Against Philocrates_1
-17	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	18	ATR	_	t_63|ref=Against Philocrates_1
-18	κατηγόρους	κατήγορος	a	a-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_64|ref=Against Philocrates_1
-19	.	.	u	u--------	_	15	AuxK	_	t_65|ref=Against Philocrates_1
+1	εἰ	εἰ	c	c--------	_	15	AuxC	_	t_47|t_61|ref=Lys. 29_1
+2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_48|t_61|ref=Lys. 29_1
+3	μὴ	μή	d	d--------	_	7	AuxZ	_	t_49|t_53|ref=Lys. 29_1
+4	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_50|t_53|ref=Lys. 29_1
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_51|t_54|ref=Lys. 29_1
+6	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_52|t_54|ref=Lys. 29_1
+7	εἶχε	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	ADV	_	t_53|t_47|ref=Lys. 29_1
+8	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_54|t_50|ref=Lys. 29_1
+9	,	,	u	u--------	_	15	AuxX	_	t_55|t_61|ref=Lys. 29_1
+10	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_56|t_59|ref=Lys. 29_1
+11	ἂν	ἄν	d	d--------	_	15	AuxY	_	t_57|t_61|ref=Lys. 29_1
+12	οὕτως	οὕτως	d	d--------	_	13	ADV	_	t_58|t_59|ref=Lys. 29_1
+13	οἷός	οἷος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_59|t_61|ref=Lys. 29_1
+14	τʼ	τε	d	d--------	_	13	AuxZ	_	t_60|t_59|ref=Lys. 29_1
+15	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_61|0|ref=Lys. 29_1
+16	ἀπαλλάξαι	ἀπαλλαξείω	v	v--ana---	Mood=n|Tense=a|Voice=a	13	ADV	_	t_62|t_59|ref=Lys. 29_1
+17	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	18	ATR	_	t_63|t_64|ref=Lys. 29_1
+18	κατηγόρους	κατήγορος	a	a-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_64|t_62|ref=Lys. 29_1
+19	.	.	u	u--------	_	15	AuxK	_	t_65|t_61|ref=Lys. 29_1
 
-# source = Lysias, Against Philocrates 2
+# source = Lysias, Lys. 29 2
 # text = ἐγὼ δέ , ὦ ἄνδρες δικασταί , πάντας ὑμᾶς ἡγοῦμαι εἰδέναι ὅτι Ἐργοκλέους διὰ τοῦτο ὑμεῖς θάνατον κατεχειροτονήσατε , ὅτι κακῶς διαθεὶς τὰ τῆς πόλεως πλέον ἢ τριάκοντα ταλάντων οὐσίαν ἐκτήσατο [0] .
 # sent_id = 6
-1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_66|ref=Against Philocrates_2
-2	δέ	δέ	d	d--------	_	10	AuxY	_	t_67|ref=Against Philocrates_2
-3	,	,	u	u--------	_	10	AuxX	_	t_68|ref=Against Philocrates_2
-4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_69|ref=Against Philocrates_2
-5	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	10	ExD	_	t_70|ref=Against Philocrates_2
-6	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	5	ATR	_	t_71|ref=Against Philocrates_2
-7	,	,	u	u--------	_	10	AuxX	_	t_72|ref=Against Philocrates_2
-8	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_73|ref=Against Philocrates_2
-9	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	11	SBJ	_	t_74|ref=Against Philocrates_2
-10	ἡγοῦμαι	ἡγέομαι	v	v1spim---	Mood=i|Number=s|Person=1|Tense=p|Voice=m	0	PRED	_	t_75|ref=Against Philocrates_2
-11	εἰδέναι	οἶδα	v	v--rna---	Mood=n|Tense=r|Voice=a	10	OBJ	_	t_76|ref=Against Philocrates_2
-12	ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_77|ref=Against Philocrates_2
-13	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_78|ref=Against Philocrates_2
-14	διὰ	διά	r	r--------	_	18	AuxP	_	t_79|ref=Against Philocrates_2
-15	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_80|ref=Against Philocrates_2
-16	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_81|ref=Against Philocrates_2
-17	θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_82|ref=Against Philocrates_2
-18	κατεχειροτονήσατε	καταχειροτονέω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	12	OBJ	_	t_83|ref=Against Philocrates_2
-19	,	,	u	u--------	_	11	APOS	_	t_84|ref=Against Philocrates_2
-20	ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_85|ref=Against Philocrates_2
-21	κακῶς	κακός	d	d--------	_	22	ADV	_	t_86|ref=Against Philocrates_2
-22	διαθεὶς	διατίθημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	31	ADV	_	t_87|ref=Against Philocrates_2
-23	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	OBJ	_	t_88|ref=Against Philocrates_2
-24	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_89|ref=Against Philocrates_2
-25	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_90|ref=Against Philocrates_2
-26	πλέον	πλέος	a	a-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_91|ref=Against Philocrates_2
-27	ἢ	ἤ1	c	c--------	_	26	AuxC	_	t_92|ref=Against Philocrates_2
-28	τριάκοντα	τριάκοντα	a	a--------	_	29	ATR	_	t_93|ref=Against Philocrates_2
-29	ταλάντων	τάλαντον	n	n-p---ng-	Case=g|Gender=n|Number=p	32	PNOM	_	t_94|ref=Against Philocrates_2
-30	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_95|ref=Against Philocrates_2
-31	ἐκτήσατο	κτάομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	20	ADV	_	t_96|ref=Against Philocrates_2
-32	[0]	[0]	-	---------	_	27	ADV	_	e_1|ref=Against Philocrates_1
-33	.	.	u	u--------	_	10	AuxK	_	t_97|ref=Against Philocrates_2
+1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_66|t_75|ref=Lys. 29_2
+2	δέ	δέ	d	d--------	_	10	AuxY	_	t_67|t_75|ref=Lys. 29_2
+3	,	,	u	u--------	_	10	AuxX	_	t_68|t_75|ref=Lys. 29_2
+4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_69|t_70|ref=Lys. 29_2
+5	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	10	ExD	_	t_70|t_75|ref=Lys. 29_2
+6	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	5	ATR	_	t_71|t_70|ref=Lys. 29_2
+7	,	,	u	u--------	_	10	AuxX	_	t_72|t_75|ref=Lys. 29_2
+8	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_73|t_74|ref=Lys. 29_2
+9	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	11	SBJ	_	t_74|t_76|ref=Lys. 29_2
+10	ἡγοῦμαι	ἡγέομαι	v	v1spim---	Mood=i|Number=s|Person=1|Tense=p|Voice=m	0	PRED	_	t_75|0|ref=Lys. 29_2
+11	εἰδέναι	οἶδα	v	v--rna---	Mood=n|Tense=r|Voice=a	10	OBJ	_	t_76|t_75|ref=Lys. 29_2
+12	ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_77|t_84|ref=Lys. 29_2
+13	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_78|t_82|ref=Lys. 29_2
+14	διὰ	διά	r	r--------	_	18	AuxP	_	t_79|t_83|ref=Lys. 29_2
+15	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_80|t_79|ref=Lys. 29_2
+16	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_81|t_83|ref=Lys. 29_2
+17	θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_82|t_83|ref=Lys. 29_2
+18	κατεχειροτονήσατε	καταχειροτονέω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	12	OBJ	_	t_83|t_77|ref=Lys. 29_2
+19	,	,	u	u--------	_	11	APOS	_	t_84|t_76|ref=Lys. 29_2
+20	ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_85|t_84|ref=Lys. 29_2
+21	κακῶς	κακός	d	d--------	_	22	ADV	_	t_86|t_87|ref=Lys. 29_2
+22	διαθεὶς	διατίθημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	31	ADV	_	t_87|t_96|ref=Lys. 29_2
+23	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	OBJ	_	t_88|t_87|ref=Lys. 29_2
+24	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_89|t_90|ref=Lys. 29_2
+25	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_90|t_88|ref=Lys. 29_2
+26	πλέον	πλέος	a	a-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_91|t_87|ref=Lys. 29_2
+27	ἢ	ἤ1	c	c--------	_	26	AuxC	_	t_92|t_91|ref=Lys. 29_2
+28	τριάκοντα	τριάκοντα	a	a--------	_	29	ATR	_	t_93|t_94|ref=Lys. 29_2
+29	ταλάντων	τάλαντον	n	n-p---ng-	Case=g|Gender=n|Number=p	32	PNOM	_	t_94|e_1|ref=Lys. 29_2
+30	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_95|t_96|ref=Lys. 29_2
+31	ἐκτήσατο	κτάομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	20	ADV	_	t_96|t_85|ref=Lys. 29_2
+32	[0]	[0]	-	---------	_	27	ADV	_	e_1|t_92|ref=Lys. 29_1
+33	.	.	u	u--------	_	10	AuxK	_	t_97|t_75|ref=Lys. 29_2
 
-# source = Lysias, Against Philocrates 2
+# source = Lysias, Lys. 29 2
 # text = καὶ τούτων τῶν χρημάτων οὐδὲν ἐν τῇ πόλει φαίνεται .
 # sent_id = 7
-1	καὶ	καί	d	d--------	_	9	AuxY	_	t_98|ref=Against Philocrates_2
-2	τούτων	οὗτος	a	a-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_99|ref=Against Philocrates_2
-3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_100|ref=Against Philocrates_2
-4	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_101|ref=Against Philocrates_2
-5	οὐδὲν	οὐδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_102|ref=Against Philocrates_2
-6	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_103|ref=Against Philocrates_2
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_104|ref=Against Philocrates_2
-8	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_105|ref=Against Philocrates_2
-9	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_106|ref=Against Philocrates_2
-10	.	.	u	u--------	_	9	AuxK	_	t_107|ref=Against Philocrates_2
+1	καὶ	καί	d	d--------	_	9	AuxY	_	t_98|t_106|ref=Lys. 29_2
+2	τούτων	οὗτος	a	a-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_99|t_101|ref=Lys. 29_2
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_100|t_101|ref=Lys. 29_2
+4	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_101|t_102|ref=Lys. 29_2
+5	οὐδὲν	οὐδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_102|t_106|ref=Lys. 29_2
+6	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_103|t_106|ref=Lys. 29_2
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_104|t_105|ref=Lys. 29_2
+8	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_105|t_103|ref=Lys. 29_2
+9	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_106|0|ref=Lys. 29_2
+10	.	.	u	u--------	_	9	AuxK	_	t_107|t_106|ref=Lys. 29_2
 
-# source = Lysias, Against Philocrates 2
+# source = Lysias, Lys. 29 2
 # text = καίτοι ποῖ χρὴ τραπέσθαι ἢ ποῦ ζητῆσαι τὰ χρήματα [0] ;
 # sent_id = 8
-1	καίτοι	καίτοι	d	d--------	_	5	AuxY	_	t_108|ref=Against Philocrates_2
-2	ποῖ	ποῖ	d	d--------	_	4	ADV	_	t_109|ref=Against Philocrates_2
-3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_110|ref=Against Philocrates_2
-4	τραπέσθαι	τρέπω	v	v--anm---	Mood=n|Tense=a|Voice=m	3	SBJ	_	t_111|ref=Against Philocrates_2
-5	ἢ	ἤ1	c	c--------	_	0	COORD	_	t_112|ref=Against Philocrates_2
-6	ποῦ	ποῦ	d	d--------	_	7	ADV	_	t_113|ref=Against Philocrates_2
-7	ζητῆσαι	ζητέω	v	v--ana---	Mood=n|Tense=a|Voice=a	10	SBJ	_	t_114|ref=Against Philocrates_2
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_115|ref=Against Philocrates_2
-9	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_116|ref=Against Philocrates_2
-10	[0]	[0]	-	---------	_	5	PRED	_	e_2|ref=Against Philocrates_1
-11	;	;	u	u--------	_	5	AuxK	_	t_117|ref=Against Philocrates_2
+1	καίτοι	καίτοι	d	d--------	_	5	AuxY	_	t_108|t_112|ref=Lys. 29_2
+2	ποῖ	ποῖ	d	d--------	_	4	ADV	_	t_109|t_111|ref=Lys. 29_2
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_110|t_112|ref=Lys. 29_2
+4	τραπέσθαι	τρέπω	v	v--anm---	Mood=n|Tense=a|Voice=m	3	SBJ	_	t_111|t_110|ref=Lys. 29_2
+5	ἢ	ἤ1	c	c--------	_	0	COORD	_	t_112|0|ref=Lys. 29_2
+6	ποῦ	ποῦ	d	d--------	_	7	ADV	_	t_113|t_114|ref=Lys. 29_2
+7	ζητῆσαι	ζητέω	v	v--ana---	Mood=n|Tense=a|Voice=a	10	SBJ	_	t_114|e_2|ref=Lys. 29_2
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_115|t_116|ref=Lys. 29_2
+9	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_116|t_114|ref=Lys. 29_2
+10	[0]	[0]	-	---------	_	5	PRED	_	e_2|t_112|ref=Lys. 29_1
+11	;	;	u	u--------	_	5	AuxK	_	t_117|t_112|ref=Lys. 29_2
 
-# source = Lysias, Against Philocrates 2
+# source = Lysias, Lys. 29 2
 # text = εἰ γὰρ παρὰ τοῖς κηδεσταῖς καὶ οἷς ἐκεῖνος οἰκειότατʼ ἀνθρώπων ἐχρῆτο μὴ φανήσεται , χαλεπῶς παρὰ τοῖς ἐχθροῖς εὑρεθήσεται .
 # sent_id = 9
-1	εἰ	εἰ	c	c--------	_	19	AuxC	_	t_118|ref=Against Philocrates_2
-2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_119|ref=Against Philocrates_2
-3	παρὰ	παρά	r	r--------	_	13	AuxP	_	t_120|ref=Against Philocrates_2
-4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_121|ref=Against Philocrates_2
-5	κηδεσταῖς	κηδεστής	n	n-p---md-	Case=d|Gender=m|Number=p	6	ADV	_	t_122|ref=Against Philocrates_2
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_123|ref=Against Philocrates_2
-7	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_124|ref=Against Philocrates_2
-8	ἐκεῖνος	ἐκεῖνος	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_125|ref=Against Philocrates_2
-9	οἰκειότατʼ	οἰκεῖος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	11	ADV	_	t_126|ref=Against Philocrates_2
-10	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ADV	_	t_127|ref=Against Philocrates_2
-11	ἐχρῆτο	χράομαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	6	ADV	_	t_128|ref=Against Philocrates_2
-12	μὴ	μή	d	d--------	_	13	AuxZ	_	t_129|ref=Against Philocrates_2
-13	φανήσεται	φαίνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	1	ADV	_	t_130|ref=Against Philocrates_2
-14	,	,	u	u--------	_	19	AuxX	_	t_131|ref=Against Philocrates_2
-15	χαλεπῶς	χαλεπός	d	d--------	_	19	ADV	_	t_132|ref=Against Philocrates_2
-16	παρὰ	παρά	r	r--------	_	19	AuxP	_	t_133|ref=Against Philocrates_2
-17	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_134|ref=Against Philocrates_2
-18	ἐχθροῖς	ἐχθρός	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_135|ref=Against Philocrates_2
-19	εὑρεθήσεται	εὑρίσκω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_136|ref=Against Philocrates_2
-20	.	.	u	u--------	_	19	AuxK	_	t_137|ref=Against Philocrates_2
+1	εἰ	εἰ	c	c--------	_	19	AuxC	_	t_118|t_136|ref=Lys. 29_2
+2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_119|t_136|ref=Lys. 29_2
+3	παρὰ	παρά	r	r--------	_	13	AuxP	_	t_120|t_130|ref=Lys. 29_2
+4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_121|t_122|ref=Lys. 29_2
+5	κηδεσταῖς	κηδεστής	n	n-p---md-	Case=d|Gender=m|Number=p	6	ADV	_	t_122|t_123|ref=Lys. 29_2
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_123|t_120|ref=Lys. 29_2
+7	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_124|t_128|ref=Lys. 29_2
+8	ἐκεῖνος	ἐκεῖνος	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_125|t_128|ref=Lys. 29_2
+9	οἰκειότατʼ	οἰκεῖος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	11	ADV	_	t_126|t_128|ref=Lys. 29_2
+10	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ADV	_	t_127|t_126|ref=Lys. 29_2
+11	ἐχρῆτο	χράομαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	6	ADV	_	t_128|t_123|ref=Lys. 29_2
+12	μὴ	μή	d	d--------	_	13	AuxZ	_	t_129|t_130|ref=Lys. 29_2
+13	φανήσεται	φαίνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	1	ADV	_	t_130|t_118|ref=Lys. 29_2
+14	,	,	u	u--------	_	19	AuxX	_	t_131|t_136|ref=Lys. 29_2
+15	χαλεπῶς	χαλεπός	d	d--------	_	19	ADV	_	t_132|t_136|ref=Lys. 29_2
+16	παρὰ	παρά	r	r--------	_	19	AuxP	_	t_133|t_136|ref=Lys. 29_2
+17	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_134|t_135|ref=Lys. 29_2
+18	ἐχθροῖς	ἐχθρός	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_135|t_133|ref=Lys. 29_2
+19	εὑρεθήσεται	εὑρίσκω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_136|0|ref=Lys. 29_2
+20	.	.	u	u--------	_	19	AuxK	_	t_137|t_136|ref=Lys. 29_2
 
-# source = Lysias, Against Philocrates 2-3
+# source = Lysias, Lys. 29 2-3
 # text = τίνα δὲ Ἐργοκλῆς περὶ πλείονος Φιλοκράτους ἐποιεῖτο , ἢ πρὸς τίνʼ ἀνθρώπων διέκειτο οἰκειότερον ;
 # sent_id = 10
-1	τίνα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_138|ref=Against Philocrates_2
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_139|ref=Against Philocrates_2
-3	Ἐργοκλῆς	ἐργοκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_140|ref=Against Philocrates_3
-4	περὶ	περί	r	r--------	_	7	AuxP	_	t_141|ref=Against Philocrates_3
-5	πλείονος	πλείων	a	a-s---ngc	Case=g|Degree=c|Gender=n|Number=s	4	ADV	_	t_142|ref=Against Philocrates_3
-6	Φιλοκράτους	φιλοκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_143|ref=Against Philocrates_3
-7	ἐποιεῖτο	ποιέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	9	PRED	_	t_144|ref=Against Philocrates_3
-8	,	,	u	u--------	_	0	AuxX	_	t_145|ref=Against Philocrates_3
-9	ἢ	ἤ1	c	c--------	_	8	COORD	_	t_146|ref=Against Philocrates_3
-10	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_147|ref=Against Philocrates_3
-11	τίνʼ	τίς	p	p-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_148|ref=Against Philocrates_3
-12	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_149|ref=Against Philocrates_3
-13	διέκειτο	διάκειμαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	9	PRED	_	t_150|ref=Against Philocrates_3
-14	οἰκειότερον	οἰκεῖος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	13	ADV	_	t_151|ref=Against Philocrates_3
-15	;	;	u	u--------	_	8	AuxK	_	t_152|ref=Against Philocrates_3
+1	τίνα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_138|t_144|ref=Lys. 29_2
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_139|t_146|ref=Lys. 29_2
+3	Ἐργοκλῆς	ἐργοκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_140|t_144|ref=Lys. 29_3
+4	περὶ	περί	r	r--------	_	7	AuxP	_	t_141|t_144|ref=Lys. 29_3
+5	πλείονος	πλείων	a	a-s---ngc	Case=g|Degree=c|Gender=n|Number=s	4	ADV	_	t_142|t_141|ref=Lys. 29_3
+6	Φιλοκράτους	φιλοκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_143|t_142|ref=Lys. 29_3
+7	ἐποιεῖτο	ποιέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	9	PRED	_	t_144|t_146|ref=Lys. 29_3
+8	,	,	u	u--------	_	0	AuxX	_	t_145|0|ref=Lys. 29_3
+9	ἢ	ἤ1	c	c--------	_	8	COORD	_	t_146|t_145|ref=Lys. 29_3
+10	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_147|t_150|ref=Lys. 29_3
+11	τίνʼ	τίς	p	p-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_148|t_147|ref=Lys. 29_3
+12	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_149|t_148|ref=Lys. 29_3
+13	διέκειτο	διάκειμαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	9	PRED	_	t_150|t_146|ref=Lys. 29_3
+14	οἰκειότερον	οἰκεῖος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	13	ADV	_	t_151|t_150|ref=Lys. 29_3
+15	;	;	u	u--------	_	8	AuxK	_	t_152|t_145|ref=Lys. 29_3
 
-# source = Lysias, Against Philocrates 3
+# source = Lysias, Lys. 29 3
 # text = οὐ τῶν μὲν ὑμετέρων ὁπλιτῶν αὐτὸν ἐξήγαγε , τῶν δʼ αὑτοῦ χρημάτων ταμίαν ἐποίησε , καὶ τὸ τελευταῖον τριήραρχον αὐτὸν κατέστησε ;
 # sent_id = 11
-1	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_153|ref=Against Philocrates_3
-2	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_154|ref=Against Philocrates_3
-3	μὲν	μέν	d	d--------	_	16	AuxY	_	t_155|ref=Against Philocrates_3
-4	ὑμετέρων	ὑμέτερος	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_156|ref=Against Philocrates_3
-5	ὁπλιτῶν	ὁπλίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	7	OBJ	_	t_157|ref=Against Philocrates_3
-6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_158|ref=Against Philocrates_3
-7	ἐξήγαγε	ἐξάγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_159|ref=Against Philocrates_3
-8	,	,	u	u--------	_	0	AuxX	_	t_160|ref=Against Philocrates_3
-9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_161|ref=Against Philocrates_3
-10	δʼ	δέ	d	d--------	_	16	AuxY	_	t_162|ref=Against Philocrates_3
-11	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_163|ref=Against Philocrates_3
-12	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_164|ref=Against Philocrates_3
-13	ταμίαν	ταμίας	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OCOMP	_	t_165|ref=Against Philocrates_3
-14	ἐποίησε	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_166|ref=Against Philocrates_3
-15	,	,	u	u--------	_	8	AuxX	_	t_167|ref=Against Philocrates_3
-16	καὶ	καί	c	c--------	_	8	COORD	_	t_168|ref=Against Philocrates_3
-17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_169|ref=Against Philocrates_3
-18	τελευταῖον	τελευταῖος	a	a-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_170|ref=Against Philocrates_3
-19	τριήραρχον	τριήραρχος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OCOMP	_	t_171|ref=Against Philocrates_3
-20	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_172|ref=Against Philocrates_3
-21	κατέστησε	καθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_173|ref=Against Philocrates_3
-22	;	;	u	u--------	_	8	AuxK	_	t_174|ref=Against Philocrates_3
+1	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_153|t_159|ref=Lys. 29_3
+2	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_154|t_157|ref=Lys. 29_3
+3	μὲν	μέν	d	d--------	_	16	AuxY	_	t_155|t_168|ref=Lys. 29_3
+4	ὑμετέρων	ὑμέτερος	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_156|t_157|ref=Lys. 29_3
+5	ὁπλιτῶν	ὁπλίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	7	OBJ	_	t_157|t_159|ref=Lys. 29_3
+6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_158|t_159|ref=Lys. 29_3
+7	ἐξήγαγε	ἐξάγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_159|t_168|ref=Lys. 29_3
+8	,	,	u	u--------	_	0	AuxX	_	t_160|0|ref=Lys. 29_3
+9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_161|t_164|ref=Lys. 29_3
+10	δʼ	δέ	d	d--------	_	16	AuxY	_	t_162|t_168|ref=Lys. 29_3
+11	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_163|t_164|ref=Lys. 29_3
+12	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_164|t_165|ref=Lys. 29_3
+13	ταμίαν	ταμίας	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OCOMP	_	t_165|t_166|ref=Lys. 29_3
+14	ἐποίησε	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_166|t_168|ref=Lys. 29_3
+15	,	,	u	u--------	_	8	AuxX	_	t_167|t_160|ref=Lys. 29_3
+16	καὶ	καί	c	c--------	_	8	COORD	_	t_168|t_160|ref=Lys. 29_3
+17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_169|t_170|ref=Lys. 29_3
+18	τελευταῖον	τελευταῖος	a	a-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_170|t_173|ref=Lys. 29_3
+19	τριήραρχον	τριήραρχος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OCOMP	_	t_171|t_173|ref=Lys. 29_3
+20	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_172|t_173|ref=Lys. 29_3
+21	κατέστησε	καθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_173|t_168|ref=Lys. 29_3
+22	;	;	u	u--------	_	8	AuxK	_	t_174|t_160|ref=Lys. 29_3
 
-# source = Lysias, Against Philocrates 3-4
+# source = Lysias, Lys. 29 3-4
 # text = καίτοι δεινὸν εἰ οἱ μὲν τὰς οὐσίας ἔχοντες ὀλοφύρονται τριηραρχοῦντες , οὗτος δὲ οὐδὲν πρότερον κεκτημένος ἐν ἐκείνῳ τῷ χρόνῳ ἐθελοντὴς ὑπέστη ταύτην τὴν λῃτουργίαν [0] .
 # sent_id = 12
-1	καίτοι	καίτοι	d	d--------	_	26	AuxY	_	t_175|ref=Against Philocrates_3
-2	δεινὸν	δεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	26	PNOM	_	t_176|ref=Against Philocrates_3
-3	εἰ	εἰ	c	c--------	_	26	AuxC	_	t_177|ref=Against Philocrates_4
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_178|ref=Against Philocrates_4
-5	μὲν	μέν	d	d--------	_	13	AuxY	_	t_179|ref=Against Philocrates_4
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_180|ref=Against Philocrates_4
-7	οὐσίας	οὐσία	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_181|ref=Against Philocrates_4
-8	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	SBJ	_	t_182|ref=Against Philocrates_4
-9	ὀλοφύρονται	ὀλοφύρομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	13	SBJ	_	t_183|ref=Against Philocrates_4
-10	τριηραρχοῦντες	τριηραρχέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_184|ref=Against Philocrates_4
-11	,	,	u	u--------	_	26	AuxX	_	t_185|ref=Against Philocrates_4
-12	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_186|ref=Against Philocrates_4
-13	δὲ	δέ	c	c--------	_	3	COORD	_	t_187|ref=Against Philocrates_4
-14	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_188|ref=Against Philocrates_4
-15	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_189|ref=Against Philocrates_4
-16	κεκτημένος	κτάομαι	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	22	ADV	_	t_190|ref=Against Philocrates_4
-17	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_191|ref=Against Philocrates_4
-18	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	20	ATR	_	t_192|ref=Against Philocrates_4
-19	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	20	ATR	_	t_193|ref=Against Philocrates_4
-20	χρόνῳ	χρόνος	n	n-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_194|ref=Against Philocrates_4
-21	ἐθελοντὴς	ἐθελοντής	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATV	_	t_195|ref=Against Philocrates_4
-22	ὑπέστη	ὑφίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	SBJ	_	t_196|ref=Against Philocrates_4
-23	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_197|ref=Against Philocrates_4
-24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_198|ref=Against Philocrates_4
-25	λῃτουργίαν	λειτουργία	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_199|ref=Against Philocrates_4
-26	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Against Philocrates_1
-27	.	.	u	u--------	_	26	AuxK	_	t_200|ref=Against Philocrates_4
+1	καίτοι	καίτοι	d	d--------	_	26	AuxY	_	t_175|e_3|ref=Lys. 29_3
+2	δεινὸν	δεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	26	PNOM	_	t_176|e_3|ref=Lys. 29_3
+3	εἰ	εἰ	c	c--------	_	26	AuxC	_	t_177|e_3|ref=Lys. 29_4
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_178|t_182|ref=Lys. 29_4
+5	μὲν	μέν	d	d--------	_	13	AuxY	_	t_179|t_187|ref=Lys. 29_4
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_180|t_181|ref=Lys. 29_4
+7	οὐσίας	οὐσία	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_181|t_182|ref=Lys. 29_4
+8	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	SBJ	_	t_182|t_183|ref=Lys. 29_4
+9	ὀλοφύρονται	ὀλοφύρομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	13	SBJ	_	t_183|t_187|ref=Lys. 29_4
+10	τριηραρχοῦντες	τριηραρχέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_184|t_183|ref=Lys. 29_4
+11	,	,	u	u--------	_	26	AuxX	_	t_185|e_3|ref=Lys. 29_4
+12	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_186|t_196|ref=Lys. 29_4
+13	δὲ	δέ	c	c--------	_	3	COORD	_	t_187|t_177|ref=Lys. 29_4
+14	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_188|t_190|ref=Lys. 29_4
+15	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_189|t_190|ref=Lys. 29_4
+16	κεκτημένος	κτάομαι	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	22	ADV	_	t_190|t_196|ref=Lys. 29_4
+17	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_191|t_190|ref=Lys. 29_4
+18	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	20	ATR	_	t_192|t_194|ref=Lys. 29_4
+19	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	20	ATR	_	t_193|t_194|ref=Lys. 29_4
+20	χρόνῳ	χρόνος	n	n-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_194|t_191|ref=Lys. 29_4
+21	ἐθελοντὴς	ἐθελοντής	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATV	_	t_195|t_186|ref=Lys. 29_4
+22	ὑπέστη	ὑφίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	SBJ	_	t_196|t_187|ref=Lys. 29_4
+23	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_197|t_199|ref=Lys. 29_4
+24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_198|t_199|ref=Lys. 29_4
+25	λῃτουργίαν	λειτουργία	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_199|t_196|ref=Lys. 29_4
+26	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Lys. 29_1
+27	.	.	u	u--------	_	26	AuxK	_	t_200|e_3|ref=Lys. 29_4
 
-# source = Lysias, Against Philocrates 4
+# source = Lysias, Lys. 29 4
 # text = οὐκοῦν δὴ οὐχ ὡς ζημιωθησόμενον αὐτὸν τριήραρχον κατέστησεν , ἀλλʼ ὡς ὠφεληθησόμενον καὶ φυλάξοντα τὰ αὑτοῦ χρήματα , οὐκ ἔχων ὅτῳ χρὴ μᾶλλον τούτου πιστεῦσαι [0] .
 # sent_id = 13
-1	οὐκοῦν	οὐκοῦν	d	d--------	_	8	AuxY	_	t_201|ref=Against Philocrates_4
-2	δὴ	δή	d	d--------	_	8	AuxY	_	t_202|ref=Against Philocrates_4
-3	οὐχ	οὐ	d	d--------	_	5	AuxZ	_	t_203|ref=Against Philocrates_4
-4	ὡς	ὡς	d	d--------	_	5	AuxZ	_	t_204|ref=Against Philocrates_4
-5	ζημιωθησόμενον	ζημιόω	v	v-sfppmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=p	8	ADV	_	t_205|ref=Against Philocrates_4
-6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_206|ref=Against Philocrates_4
-7	τριήραρχον	τριήραρχος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OCOMP	_	t_207|ref=Against Philocrates_4
-8	κατέστησεν	καθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_208|ref=Against Philocrates_4
-9	,	,	u	u--------	_	8	AuxX	_	t_209|ref=Against Philocrates_4
-10	ἀλλʼ	ἀλλά	c	c--------	_	8	COORD	_	t_210|ref=Against Philocrates_4
-11	ὡς	ὡς	d	d--------	_	13	AuxZ	_	t_211|ref=Against Philocrates_4
-12	ὠφεληθησόμενον	ὠφελέω	v	v-sfppma-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=p	13	ADV	_	t_212|ref=Against Philocrates_4
-13	καὶ	καί	c	c--------	_	26	COORD	_	t_213|ref=Against Philocrates_4
-14	φυλάξοντα	φυλάσσω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	13	ADV	_	t_214|ref=Against Philocrates_4
-15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_215|ref=Against Philocrates_4
-16	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_216|ref=Against Philocrates_4
-17	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_217|ref=Against Philocrates_4
-18	,	,	u	u--------	_	8	AuxX	_	t_218|ref=Against Philocrates_4
-19	οὐκ	οὐ	d	d--------	_	20	AuxZ	_	t_219|ref=Against Philocrates_4
-20	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_220|ref=Against Philocrates_4
-21	ὅτῳ	ὅστις	p	p-s---md-	Case=d|Gender=m|Number=s	25	OBJ	_	t_221|ref=Against Philocrates_4
-22	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	OBJ	_	t_222|ref=Against Philocrates_4
-23	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	25	ADV	_	t_223|ref=Against Philocrates_4
-24	τούτου	οὗτος	p	p-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_224|ref=Against Philocrates_4
-25	πιστεῦσαι	πιστεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	22	SBJ	_	t_225|ref=Against Philocrates_4
-26	[0]	[0]	-	---------	_	10	PRED	_	e_4|ref=Against Philocrates_1
-27	.	.	u	u--------	_	8	AuxK	_	t_226|ref=Against Philocrates_4
+1	οὐκοῦν	οὐκοῦν	d	d--------	_	8	AuxY	_	t_201|t_208|ref=Lys. 29_4
+2	δὴ	δή	d	d--------	_	8	AuxY	_	t_202|t_208|ref=Lys. 29_4
+3	οὐχ	οὐ	d	d--------	_	5	AuxZ	_	t_203|t_205|ref=Lys. 29_4
+4	ὡς	ὡς	d	d--------	_	5	AuxZ	_	t_204|t_205|ref=Lys. 29_4
+5	ζημιωθησόμενον	ζημιόω	v	v-sfppmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=p	8	ADV	_	t_205|t_208|ref=Lys. 29_4
+6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_206|t_208|ref=Lys. 29_4
+7	τριήραρχον	τριήραρχος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OCOMP	_	t_207|t_208|ref=Lys. 29_4
+8	κατέστησεν	καθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_208|0|ref=Lys. 29_4
+9	,	,	u	u--------	_	8	AuxX	_	t_209|t_208|ref=Lys. 29_4
+10	ἀλλʼ	ἀλλά	c	c--------	_	8	COORD	_	t_210|t_208|ref=Lys. 29_4
+11	ὡς	ὡς	d	d--------	_	13	AuxZ	_	t_211|t_213|ref=Lys. 29_4
+12	ὠφεληθησόμενον	ὠφελέω	v	v-sfppma-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=p	13	ADV	_	t_212|t_213|ref=Lys. 29_4
+13	καὶ	καί	c	c--------	_	26	COORD	_	t_213|e_4|ref=Lys. 29_4
+14	φυλάξοντα	φυλάσσω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	13	ADV	_	t_214|t_213|ref=Lys. 29_4
+15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_215|t_217|ref=Lys. 29_4
+16	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_216|t_217|ref=Lys. 29_4
+17	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_217|t_214|ref=Lys. 29_4
+18	,	,	u	u--------	_	8	AuxX	_	t_218|t_208|ref=Lys. 29_4
+19	οὐκ	οὐ	d	d--------	_	20	AuxZ	_	t_219|t_220|ref=Lys. 29_4
+20	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_220|t_210|ref=Lys. 29_4
+21	ὅτῳ	ὅστις	p	p-s---md-	Case=d|Gender=m|Number=s	25	OBJ	_	t_221|t_225|ref=Lys. 29_4
+22	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	OBJ	_	t_222|t_220|ref=Lys. 29_4
+23	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	25	ADV	_	t_223|t_225|ref=Lys. 29_4
+24	τούτου	οὗτος	p	p-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_224|t_223|ref=Lys. 29_4
+25	πιστεῦσαι	πιστεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	22	SBJ	_	t_225|t_222|ref=Lys. 29_4
+26	[0]	[0]	-	---------	_	10	PRED	_	e_4|t_210|ref=Lys. 29_1
+27	.	.	u	u--------	_	8	AuxK	_	t_226|t_208|ref=Lys. 29_4
 
-# source = Lysias, Against Philocrates 4-5
+# source = Lysias, Lys. 29 4-5
 # text = ἡγοῦμαι δέ , ὦ ἄνδρες δικασταί , Φιλοκράτει δύο εἶναι καὶ μόνας ἀπολογίας ·
 # sent_id = 14
-1	ἡγοῦμαι	ἡγέομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_227|ref=Against Philocrates_4
-2	δέ	δέ	d	d--------	_	1	AuxY	_	t_228|ref=Against Philocrates_4
-3	,	,	u	u--------	_	1	AuxX	_	t_229|ref=Against Philocrates_4
-4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_230|ref=Against Philocrates_4
-5	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	1	ExD	_	t_231|ref=Against Philocrates_4
-6	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	5	ATR	_	t_232|ref=Against Philocrates_4
-7	,	,	u	u--------	_	1	AuxX	_	t_233|ref=Against Philocrates_4
-8	Φιλοκράτει	φιλοκράτης	n	n-s---md-	Case=d|Gender=m|Number=s	10	PNOM	_	t_234|ref=Against Philocrates_5
-9	δύο	δύο	m	m--------	_	10	SBJ	_	t_235|ref=Against Philocrates_5
-10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_236|ref=Against Philocrates_5
-11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_237|ref=Against Philocrates_5
-12	μόνας	μόνος	a	a-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_238|ref=Against Philocrates_5
-13	ἀπολογίας	ἀπολογία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	SBJ	_	t_239|ref=Against Philocrates_5
-14	·	·	u	u--------	_	1	AuxK	_	t_240|ref=Against Philocrates_5
+1	ἡγοῦμαι	ἡγέομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_227|0|ref=Lys. 29_4
+2	δέ	δέ	d	d--------	_	1	AuxY	_	t_228|t_227|ref=Lys. 29_4
+3	,	,	u	u--------	_	1	AuxX	_	t_229|t_227|ref=Lys. 29_4
+4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_230|t_231|ref=Lys. 29_4
+5	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	1	ExD	_	t_231|t_227|ref=Lys. 29_4
+6	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	5	ATR	_	t_232|t_231|ref=Lys. 29_4
+7	,	,	u	u--------	_	1	AuxX	_	t_233|t_227|ref=Lys. 29_4
+8	Φιλοκράτει	φιλοκράτης	n	n-s---md-	Case=d|Gender=m|Number=s	10	PNOM	_	t_234|t_236|ref=Lys. 29_5
+9	δύο	δύο	m	m--------	_	10	SBJ	_	t_235|t_236|ref=Lys. 29_5
+10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_236|t_227|ref=Lys. 29_5
+11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_237|t_238|ref=Lys. 29_5
+12	μόνας	μόνος	a	a-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_238|t_239|ref=Lys. 29_5
+13	ἀπολογίας	ἀπολογία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	SBJ	_	t_239|t_236|ref=Lys. 29_5
+14	·	·	u	u--------	_	1	AuxK	_	t_240|t_227|ref=Lys. 29_5
 
-# source = Lysias, Against Philocrates 5
+# source = Lysias, Lys. 29 5
 # text = προσήκειν γὰρ αὐτῷ ἀποδεῖξαι ἢ ἑτέρους ἔχοντας τὰ Ἐργοκλέους χρήματα , ἢ ἀδίκως ἀπολωλότα ἐκεῖνον καὶ οὐδὲν ὑφῃρημένον τῶν ὑμετέρων οὐ δὲ δεδωροδοκηκότα [0] ·
 # sent_id = 15
-1	προσήκειν	προσήκω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_241|ref=Against Philocrates_5
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_242|ref=Against Philocrates_5
-3	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_243|ref=Against Philocrates_5
-4	ἀποδεῖξαι	ἀποδείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	1	SBJ	_	t_244|ref=Against Philocrates_5
-5	ἢ	ἤ1	d	d--------	_	12	AuxY	_	t_245|ref=Against Philocrates_5
-6	ἑτέρους	ἕτερος	a	a-p---ma-	Case=a|Gender=m|Number=p	12	SBJ	_	t_246|ref=Against Philocrates_5
-7	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	OBJ	_	t_247|ref=Against Philocrates_5
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_248|ref=Against Philocrates_5
-9	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_249|ref=Against Philocrates_5
-10	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_250|ref=Against Philocrates_5
-11	,	,	u	u--------	_	24	AuxX	_	t_251|ref=Against Philocrates_5
-12	ἢ	ἤ1	c	c--------	_	4	COORD	_	t_252|ref=Against Philocrates_5
-13	ἀδίκως	ἄδικος	d	d--------	_	14	ADV	_	t_253|ref=Against Philocrates_5
-14	ἀπολωλότα	ἀπόλλυμι	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	22	ADV	_	t_254|ref=Against Philocrates_5
-15	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_255|ref=Against Philocrates_5
-16	καὶ	καί	d	d--------	_	22	AuxY	_	t_256|ref=Against Philocrates_5
-17	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_257|ref=Against Philocrates_5
-18	ὑφῃρημένον	ὑφαιρέω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	22	ADV	_	t_258|ref=Against Philocrates_5
-19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_259|ref=Against Philocrates_5
-20	ὑμετέρων	ὑμέτερος	a	a-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_260|ref=Against Philocrates_5
-21	οὐ	οὐ	d	d--------	_	23	AuxZ	_	t_261|ref=Against Philocrates_5
-22	δὲ	δέ	c	c--------	_	12	COORD	_	t_262|ref=Against Philocrates_5
-23	δεδωροδοκηκότα	δωροδοκέω	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	22	ADV	_	t_263|ref=Against Philocrates_5
-24	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Against Philocrates_1
-25	·	·	u	u--------	_	24	AuxK	_	t_264|ref=Against Philocrates_5
+1	προσήκειν	προσήκω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_241|e_5|ref=Lys. 29_5
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_242|t_241|ref=Lys. 29_5
+3	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_243|t_241|ref=Lys. 29_5
+4	ἀποδεῖξαι	ἀποδείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	1	SBJ	_	t_244|t_241|ref=Lys. 29_5
+5	ἢ	ἤ1	d	d--------	_	12	AuxY	_	t_245|t_252|ref=Lys. 29_5
+6	ἑτέρους	ἕτερος	a	a-p---ma-	Case=a|Gender=m|Number=p	12	SBJ	_	t_246|t_252|ref=Lys. 29_5
+7	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	OBJ	_	t_247|t_252|ref=Lys. 29_5
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_248|t_250|ref=Lys. 29_5
+9	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_249|t_250|ref=Lys. 29_5
+10	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_250|t_247|ref=Lys. 29_5
+11	,	,	u	u--------	_	24	AuxX	_	t_251|e_5|ref=Lys. 29_5
+12	ἢ	ἤ1	c	c--------	_	4	COORD	_	t_252|t_244|ref=Lys. 29_5
+13	ἀδίκως	ἄδικος	d	d--------	_	14	ADV	_	t_253|t_254|ref=Lys. 29_5
+14	ἀπολωλότα	ἀπόλλυμι	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	22	ADV	_	t_254|t_262|ref=Lys. 29_5
+15	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_255|t_252|ref=Lys. 29_5
+16	καὶ	καί	d	d--------	_	22	AuxY	_	t_256|t_262|ref=Lys. 29_5
+17	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_257|t_258|ref=Lys. 29_5
+18	ὑφῃρημένον	ὑφαιρέω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	22	ADV	_	t_258|t_262|ref=Lys. 29_5
+19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_259|t_260|ref=Lys. 29_5
+20	ὑμετέρων	ὑμέτερος	a	a-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_260|t_257|ref=Lys. 29_5
+21	οὐ	οὐ	d	d--------	_	23	AuxZ	_	t_261|t_263|ref=Lys. 29_5
+22	δὲ	δέ	c	c--------	_	12	COORD	_	t_262|t_252|ref=Lys. 29_5
+23	δεδωροδοκηκότα	δωροδοκέω	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	22	ADV	_	t_263|t_262|ref=Lys. 29_5
+24	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Lys. 29_1
+25	·	·	u	u--------	_	24	AuxK	_	t_264|e_5|ref=Lys. 29_5
 
-# source = Lysias, Against Philocrates 5
+# source = Lysias, Lys. 29 5
 # text = εἰ δὲ τούτων μηδέτερον ποιήσει , δεδόχθαι καταψηφίζεσθαι , καὶ μὴ τοῖς μὲν παρὰ τῶν ἄλλων λαμβάνουσιν ὀργίζεσθαι , τοῖς δὲ τὰ ὑμέτερʼ αὐτῶν ἔχουσι συγγνώμην ἔχειν .
 # sent_id = 16
-1	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_265|ref=Against Philocrates_5
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_266|ref=Against Philocrates_5
-3	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_267|ref=Against Philocrates_5
-4	μηδέτερον	μηδέτερος	a	a-s---na-	Case=n|Gender=n|Number=s	5	OBJ	_	t_268|ref=Against Philocrates_5
-5	ποιήσει	ποιέω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	1	ADV	_	t_269|ref=Against Philocrates_5
-6	,	,	u	u--------	_	7	AuxX	_	t_270|ref=Against Philocrates_5
-7	δεδόχθαι	δοκέω	v	v--rne---	Mood=n|Tense=r|Voice=e	0	PRED	_	t_271|ref=Against Philocrates_5
-8	καταψηφίζεσθαι	καταψηφίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	10	OBJ	_	t_272|ref=Against Philocrates_5
-9	,	,	u	u--------	_	7	AuxX	_	t_273|ref=Against Philocrates_5
-10	καὶ	καί	c	c--------	_	7	COORD	_	t_274|ref=Against Philocrates_5
-11	μὴ	μή	d	d--------	_	18	AuxZ	_	t_275|ref=Against Philocrates_5
-12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_276|ref=Against Philocrates_5
-13	μὲν	μέν	d	d--------	_	21	AuxY	_	t_277|ref=Against Philocrates_5
-14	παρὰ	παρά	r	r--------	_	17	AuxP	_	t_278|ref=Against Philocrates_5
-15	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_279|ref=Against Philocrates_5
-16	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_280|ref=Against Philocrates_5
-17	λαμβάνουσιν	λαμβάνω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	OBJ	_	t_281|ref=Against Philocrates_5
-18	ὀργίζεσθαι	ὀργίζω	v	v--pne---	Mood=n|Tense=p|Voice=e	21	OBJ	_	t_282|ref=Against Philocrates_5
-19	,	,	u	u--------	_	7	AuxX	_	t_283|ref=Against Philocrates_5
-20	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	25	ATR	_	t_284|ref=Against Philocrates_5
-21	δὲ	δέ	c	c--------	_	10	COORD	_	t_285|ref=Against Philocrates_5
-22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_286|ref=Against Philocrates_5
-23	ὑμέτερʼ	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	25	OBJ	_	t_287|ref=Against Philocrates_5
-24	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_288|ref=Against Philocrates_5
-25	ἔχουσι	ἔχω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	27	OBJ	_	t_289|ref=Against Philocrates_5
-26	συγγνώμην	συγγνώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OBJ	_	t_290|ref=Against Philocrates_5
-27	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	OBJ	_	t_291|ref=Against Philocrates_5
-28	.	.	u	u--------	_	7	AuxK	_	t_292|ref=Against Philocrates_5
+1	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_265|t_271|ref=Lys. 29_5
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_266|t_271|ref=Lys. 29_5
+3	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_267|t_268|ref=Lys. 29_5
+4	μηδέτερον	μηδέτερος	a	a-s---na-	Case=n|Gender=n|Number=s	5	OBJ	_	t_268|t_269|ref=Lys. 29_5
+5	ποιήσει	ποιέω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	1	ADV	_	t_269|t_265|ref=Lys. 29_5
+6	,	,	u	u--------	_	7	AuxX	_	t_270|t_271|ref=Lys. 29_5
+7	δεδόχθαι	δοκέω	v	v--rne---	Mood=n|Tense=r|Voice=e	0	PRED	_	t_271|0|ref=Lys. 29_5
+8	καταψηφίζεσθαι	καταψηφίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	10	OBJ	_	t_272|t_274|ref=Lys. 29_5
+9	,	,	u	u--------	_	7	AuxX	_	t_273|t_271|ref=Lys. 29_5
+10	καὶ	καί	c	c--------	_	7	COORD	_	t_274|t_271|ref=Lys. 29_5
+11	μὴ	μή	d	d--------	_	18	AuxZ	_	t_275|t_282|ref=Lys. 29_5
+12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_276|t_281|ref=Lys. 29_5
+13	μὲν	μέν	d	d--------	_	21	AuxY	_	t_277|t_285|ref=Lys. 29_5
+14	παρὰ	παρά	r	r--------	_	17	AuxP	_	t_278|t_281|ref=Lys. 29_5
+15	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_279|t_280|ref=Lys. 29_5
+16	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_280|t_278|ref=Lys. 29_5
+17	λαμβάνουσιν	λαμβάνω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	OBJ	_	t_281|t_282|ref=Lys. 29_5
+18	ὀργίζεσθαι	ὀργίζω	v	v--pne---	Mood=n|Tense=p|Voice=e	21	OBJ	_	t_282|t_285|ref=Lys. 29_5
+19	,	,	u	u--------	_	7	AuxX	_	t_283|t_271|ref=Lys. 29_5
+20	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	25	ATR	_	t_284|t_289|ref=Lys. 29_5
+21	δὲ	δέ	c	c--------	_	10	COORD	_	t_285|t_274|ref=Lys. 29_5
+22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_286|t_287|ref=Lys. 29_5
+23	ὑμέτερʼ	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	25	OBJ	_	t_287|t_289|ref=Lys. 29_5
+24	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_288|t_287|ref=Lys. 29_5
+25	ἔχουσι	ἔχω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	27	OBJ	_	t_289|t_291|ref=Lys. 29_5
+26	συγγνώμην	συγγνώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OBJ	_	t_290|t_291|ref=Lys. 29_5
+27	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	OBJ	_	t_291|t_285|ref=Lys. 29_5
+28	.	.	u	u--------	_	7	AuxK	_	t_292|t_271|ref=Lys. 29_5
 
-# source = Lysias, Against Philocrates 5-6
+# source = Lysias, Lys. 29 5-6
 # text = τίς δʼ οὐκ οἶδεν Ἀθηναίων τρία τάλαντα περὶ Ἐργοκλέους μεσεγγυηθέντα τοῖς λέγουσιν , εἰ δύναιντο αὐτὸν σῶσαι ;
 # sent_id = 17
-1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_293|ref=Against Philocrates_5
-2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_294|ref=Against Philocrates_5
-3	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_295|ref=Against Philocrates_5
-4	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_296|ref=Against Philocrates_5
-5	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_297|ref=Against Philocrates_5
-6	τρία	τρεῖς	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_298|ref=Against Philocrates_6
-7	τάλαντα	τάλαντον	n	n-p---na-	Case=a|Gender=n|Number=p	10	SBJ	_	t_299|ref=Against Philocrates_6
-8	περὶ	περί	r	r--------	_	10	AuxP	_	t_300|ref=Against Philocrates_6
-9	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_301|ref=Against Philocrates_6
-10	μεσεγγυηθέντα	μεσεγγυάω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	4	OBJ	_	t_302|ref=Against Philocrates_6
-11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_303|ref=Against Philocrates_6
-12	λέγουσιν	λέγω3	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	OBJ	_	t_304|ref=Against Philocrates_6
-13	,	,	u	u--------	_	4	AuxX	_	t_305|ref=Against Philocrates_6
-14	εἰ	εἰ	c	c--------	_	10	AuxC	_	t_306|ref=Against Philocrates_6
-15	δύναιντο	δύναμαι	v	v3ppoe---	Mood=o|Number=p|Person=3|Tense=p|Voice=e	14	ADV	_	t_307|ref=Against Philocrates_6
-16	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_308|ref=Against Philocrates_6
-17	σῶσαι	σώζω	v	v--ana---	Mood=n|Tense=a|Voice=a	15	OBJ	_	t_309|ref=Against Philocrates_6
-18	;	;	u	u--------	_	4	AuxK	_	t_310|ref=Against Philocrates_6
+1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_293|t_296|ref=Lys. 29_5
+2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_294|t_296|ref=Lys. 29_5
+3	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_295|t_296|ref=Lys. 29_5
+4	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_296|0|ref=Lys. 29_5
+5	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_297|t_293|ref=Lys. 29_5
+6	τρία	τρεῖς	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_298|t_299|ref=Lys. 29_6
+7	τάλαντα	τάλαντον	n	n-p---na-	Case=a|Gender=n|Number=p	10	SBJ	_	t_299|t_302|ref=Lys. 29_6
+8	περὶ	περί	r	r--------	_	10	AuxP	_	t_300|t_302|ref=Lys. 29_6
+9	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_301|t_300|ref=Lys. 29_6
+10	μεσεγγυηθέντα	μεσεγγυάω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	4	OBJ	_	t_302|t_296|ref=Lys. 29_6
+11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_303|t_304|ref=Lys. 29_6
+12	λέγουσιν	λέγω3	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	OBJ	_	t_304|t_302|ref=Lys. 29_6
+13	,	,	u	u--------	_	4	AuxX	_	t_305|t_296|ref=Lys. 29_6
+14	εἰ	εἰ	c	c--------	_	10	AuxC	_	t_306|t_302|ref=Lys. 29_6
+15	δύναιντο	δύναμαι	v	v3ppoe---	Mood=o|Number=p|Person=3|Tense=p|Voice=e	14	ADV	_	t_307|t_306|ref=Lys. 29_6
+16	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_308|t_309|ref=Lys. 29_6
+17	σῶσαι	σώζω	v	v--ana---	Mood=n|Tense=a|Voice=a	15	OBJ	_	t_309|t_307|ref=Lys. 29_6
+18	;	;	u	u--------	_	4	AuxK	_	t_310|t_296|ref=Lys. 29_6
 
-# source = Lysias, Against Philocrates 6
+# source = Lysias, Lys. 29 6
 # text = οἳ ἐπειδὴ ἑώρων τὴν ὑμετέραν ὀργὴν τιμωρεῖσθαι βουλομένην , ἡσυχίαν ἦγον καὶ οὐκ ἐτόλμων σφᾶς αὐτοὺς φανεροὺς ποιῆσαι .
 # sent_id = 18
-1	οἳ	ὅς	l	l-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_311|ref=Against Philocrates_6
-2	ἐπειδὴ	ἐπεί	c	c--------	_	12	AuxC	_	t_312|ref=Against Philocrates_6
-3	ἑώρων	ὁράω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	2	ADV	_	t_313|ref=Against Philocrates_6
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_314|ref=Against Philocrates_6
-5	ὑμετέραν	ὑμέτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_315|ref=Against Philocrates_6
-6	ὀργὴν	ὀργή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	SBJ	_	t_316|ref=Against Philocrates_6
-7	τιμωρεῖσθαι	τιμωρέω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_317|ref=Against Philocrates_6
-8	βουλομένην	βούλομαι	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	3	OBJ	_	t_318|ref=Against Philocrates_6
-9	,	,	u	u--------	_	0	AuxX	_	t_319|ref=Against Philocrates_6
-10	ἡσυχίαν	ἡσυχία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_320|ref=Against Philocrates_6
-11	ἦγον	ἄγω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	12	PRED	_	t_321|ref=Against Philocrates_6
-12	καὶ	καί	c	c--------	_	9	COORD	_	t_322|ref=Against Philocrates_6
-13	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_323|ref=Against Philocrates_6
-14	ἐτόλμων	τολμάω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	12	PRED	_	t_324|ref=Against Philocrates_6
-15	σφᾶς	σφεῖς	p	p-p---ma-	Case=a|Gender=m|Number=p	18	OBJ	_	t_325|ref=Against Philocrates_6
-16	αὐτοὺς	αὐτός	a	a-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_326|ref=Against Philocrates_6
-17	φανεροὺς	φανερός	a	a-p---ma-	Case=a|Gender=m|Number=p	18	OCOMP	_	t_327|ref=Against Philocrates_6
-18	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	OBJ	_	t_328|ref=Against Philocrates_6
-19	.	.	u	u--------	_	9	AuxK	_	t_329|ref=Against Philocrates_6
+1	οἳ	ὅς	l	l-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_311|t_322|ref=Lys. 29_6
+2	ἐπειδὴ	ἐπεί	c	c--------	_	12	AuxC	_	t_312|t_322|ref=Lys. 29_6
+3	ἑώρων	ὁράω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	2	ADV	_	t_313|t_312|ref=Lys. 29_6
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_314|t_316|ref=Lys. 29_6
+5	ὑμετέραν	ὑμέτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_315|t_316|ref=Lys. 29_6
+6	ὀργὴν	ὀργή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	SBJ	_	t_316|t_317|ref=Lys. 29_6
+7	τιμωρεῖσθαι	τιμωρέω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_317|t_318|ref=Lys. 29_6
+8	βουλομένην	βούλομαι	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	3	OBJ	_	t_318|t_313|ref=Lys. 29_6
+9	,	,	u	u--------	_	0	AuxX	_	t_319|0|ref=Lys. 29_6
+10	ἡσυχίαν	ἡσυχία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_320|t_321|ref=Lys. 29_6
+11	ἦγον	ἄγω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	12	PRED	_	t_321|t_322|ref=Lys. 29_6
+12	καὶ	καί	c	c--------	_	9	COORD	_	t_322|t_319|ref=Lys. 29_6
+13	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_323|t_324|ref=Lys. 29_6
+14	ἐτόλμων	τολμάω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	12	PRED	_	t_324|t_322|ref=Lys. 29_6
+15	σφᾶς	σφεῖς	p	p-p---ma-	Case=a|Gender=m|Number=p	18	OBJ	_	t_325|t_328|ref=Lys. 29_6
+16	αὐτοὺς	αὐτός	a	a-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_326|t_325|ref=Lys. 29_6
+17	φανεροὺς	φανερός	a	a-p---ma-	Case=a|Gender=m|Number=p	18	OCOMP	_	t_327|t_328|ref=Lys. 29_6
+18	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	OBJ	_	t_328|t_324|ref=Lys. 29_6
+19	.	.	u	u--------	_	9	AuxK	_	t_329|t_319|ref=Lys. 29_6
 
-# source = Lysias, Against Philocrates 6
+# source = Lysias, Lys. 29 6
 # text = καὶ τὸ μὲν πρῶτον οὗτος οὐ κομιζόμενος παρʼ αὐτῶν τὰ χρήματα μηνύσειν ἔφη τῇ πόλει ·
 # sent_id = 19
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_330|ref=Against Philocrates_6
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_331|ref=Against Philocrates_6
-3	μὲν	μέν	d	d--------	_	13	AuxY	_	t_332|ref=Against Philocrates_6
-4	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_333|ref=Against Philocrates_6
-5	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_334|ref=Against Philocrates_6
-6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_335|ref=Against Philocrates_6
-7	κομιζόμενος	κομίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_336|ref=Against Philocrates_6
-8	παρʼ	παρά	r	r--------	_	7	AuxP	_	t_337|ref=Against Philocrates_6
-9	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	8	ADV	_	t_338|ref=Against Philocrates_6
-10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_339|ref=Against Philocrates_6
-11	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_340|ref=Against Philocrates_6
-12	μηνύσειν	μηνύω	v	v--fna---	Mood=n|Tense=f|Voice=a	13	OBJ	_	t_341|ref=Against Philocrates_6
-13	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_342|ref=Against Philocrates_6
-14	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_343|ref=Against Philocrates_6
-15	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	12	OBJ	_	t_344|ref=Against Philocrates_6
-16	·	·	u	u--------	_	13	AuxK	_	t_345|ref=Against Philocrates_6
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_330|t_342|ref=Lys. 29_6
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_331|t_333|ref=Lys. 29_6
+3	μὲν	μέν	d	d--------	_	13	AuxY	_	t_332|t_342|ref=Lys. 29_6
+4	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_333|t_342|ref=Lys. 29_6
+5	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_334|t_342|ref=Lys. 29_6
+6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_335|t_336|ref=Lys. 29_6
+7	κομιζόμενος	κομίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_336|t_342|ref=Lys. 29_6
+8	παρʼ	παρά	r	r--------	_	7	AuxP	_	t_337|t_336|ref=Lys. 29_6
+9	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	8	ADV	_	t_338|t_337|ref=Lys. 29_6
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_339|t_340|ref=Lys. 29_6
+11	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_340|t_341|ref=Lys. 29_6
+12	μηνύσειν	μηνύω	v	v--fna---	Mood=n|Tense=f|Voice=a	13	OBJ	_	t_341|t_342|ref=Lys. 29_6
+13	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_342|0|ref=Lys. 29_6
+14	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_343|t_344|ref=Lys. 29_6
+15	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	12	OBJ	_	t_344|t_341|ref=Lys. 29_6
+16	·	·	u	u--------	_	13	AuxK	_	t_345|t_342|ref=Lys. 29_6
 
-# source = Lysias, Against Philocrates 6-7
+# source = Lysias, Lys. 29 6-7
 # text = ἐπειδὴ δὲ καὶ ταῦτα ἀπείληφε καὶ τῶν ἄλλων τῶν ἐκείνου κύριος γεγένηται , εἰς τοῦτο τόλμης ἐλήλυθεν , ὥστε μάρτυρας πεπόρισται οἳ μαρτυρήσουσιν αὐτῷ ὡς ἦν ἔχθιστος ἁπάντων ἀνθρώπων Ἐργοκλεῖ .
 # sent_id = 20
-1	ἐπειδὴ	ἐπεί	c	c--------	_	17	AuxC	_	t_346|ref=Against Philocrates_6
-2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_347|ref=Against Philocrates_6
-3	καὶ	καί	d	d--------	_	6	AuxY	_	t_348|ref=Against Philocrates_6
-4	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_349|ref=Against Philocrates_6
-5	ἀπείληφε	ἀπολαμβάνω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	6	ADV	_	t_350|ref=Against Philocrates_6
-6	καὶ	καί	c	c--------	_	1	COORD	_	t_351|ref=Against Philocrates_7
-7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_352|ref=Against Philocrates_7
-8	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_353|ref=Against Philocrates_7
-9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_354|ref=Against Philocrates_7
-10	ἐκείνου	ἐκεῖνος	p	p-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_355|ref=Against Philocrates_7
-11	κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_356|ref=Against Philocrates_7
-12	γεγένηται	γίγνομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	ADV	_	t_357|ref=Against Philocrates_7
-13	,	,	u	u--------	_	17	AuxX	_	t_358|ref=Against Philocrates_7
-14	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_359|ref=Against Philocrates_7
-15	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_360|ref=Against Philocrates_7
-16	τόλμης	τόλμα	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_361|ref=Against Philocrates_7
-17	ἐλήλυθεν	ἔρχομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_362|ref=Against Philocrates_7
-18	,	,	u	u--------	_	17	AuxX	_	t_363|ref=Against Philocrates_7
-19	ὥστε	ὥστε	c	c--------	_	15	AuxC	_	t_364|ref=Against Philocrates_7
-20	μάρτυρας	μάρτυς	n	n-p---ma-	Case=a|Gender=m|Number=p	21	OBJ	_	t_365|ref=Against Philocrates_7
-21	πεπόρισται	πορίζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	19	ADV	_	t_366|ref=Against Philocrates_7
-22	οἳ	ὅς	p	p-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_367|ref=Against Philocrates_7
-23	μαρτυρήσουσιν	μαρτυρέω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	20	ATR	_	t_368|ref=Against Philocrates_7
-24	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_369|ref=Against Philocrates_7
-25	ὡς	ὡς	c	c--------	_	23	AuxC	_	t_370|ref=Against Philocrates_7
-26	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	25	OBJ	_	t_371|ref=Against Philocrates_7
-27	ἔχθιστος	ἔχθιστος	a	a-s---mn-	Case=n|Gender=m|Number=s	26	PNOM	_	t_372|ref=Against Philocrates_7
-28	ἁπάντων	ἅπας	a	a-p---mg-	Case=g|Gender=m|Number=p	29	ATR	_	t_373|ref=Against Philocrates_7
-29	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	27	ADV	_	t_374|ref=Against Philocrates_7
-30	Ἐργοκλεῖ	ἐργοκλῆς	n	n-s---md-	Case=d|Gender=m|Number=s	27	ADV	_	t_375|ref=Against Philocrates_7
-31	.	.	u	u--------	_	17	AuxK	_	t_376|ref=Against Philocrates_7
+1	ἐπειδὴ	ἐπεί	c	c--------	_	17	AuxC	_	t_346|t_362|ref=Lys. 29_6
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_347|t_362|ref=Lys. 29_6
+3	καὶ	καί	d	d--------	_	6	AuxY	_	t_348|t_351|ref=Lys. 29_6
+4	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_349|t_350|ref=Lys. 29_6
+5	ἀπείληφε	ἀπολαμβάνω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	6	ADV	_	t_350|t_351|ref=Lys. 29_6
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_351|t_346|ref=Lys. 29_7
+7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_352|t_353|ref=Lys. 29_7
+8	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_353|t_356|ref=Lys. 29_7
+9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_354|t_353|ref=Lys. 29_7
+10	ἐκείνου	ἐκεῖνος	p	p-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_355|t_353|ref=Lys. 29_7
+11	κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_356|t_357|ref=Lys. 29_7
+12	γεγένηται	γίγνομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	ADV	_	t_357|t_351|ref=Lys. 29_7
+13	,	,	u	u--------	_	17	AuxX	_	t_358|t_362|ref=Lys. 29_7
+14	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_359|t_362|ref=Lys. 29_7
+15	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_360|t_359|ref=Lys. 29_7
+16	τόλμης	τόλμα	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_361|t_360|ref=Lys. 29_7
+17	ἐλήλυθεν	ἔρχομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_362|0|ref=Lys. 29_7
+18	,	,	u	u--------	_	17	AuxX	_	t_363|t_362|ref=Lys. 29_7
+19	ὥστε	ὥστε	c	c--------	_	15	AuxC	_	t_364|t_360|ref=Lys. 29_7
+20	μάρτυρας	μάρτυς	n	n-p---ma-	Case=a|Gender=m|Number=p	21	OBJ	_	t_365|t_366|ref=Lys. 29_7
+21	πεπόρισται	πορίζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	19	ADV	_	t_366|t_364|ref=Lys. 29_7
+22	οἳ	ὅς	p	p-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_367|t_368|ref=Lys. 29_7
+23	μαρτυρήσουσιν	μαρτυρέω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	20	ATR	_	t_368|t_365|ref=Lys. 29_7
+24	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_369|t_368|ref=Lys. 29_7
+25	ὡς	ὡς	c	c--------	_	23	AuxC	_	t_370|t_368|ref=Lys. 29_7
+26	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	25	OBJ	_	t_371|t_370|ref=Lys. 29_7
+27	ἔχθιστος	ἔχθιστος	a	a-s---mn-	Case=n|Gender=m|Number=s	26	PNOM	_	t_372|t_371|ref=Lys. 29_7
+28	ἁπάντων	ἅπας	a	a-p---mg-	Case=g|Gender=m|Number=p	29	ATR	_	t_373|t_374|ref=Lys. 29_7
+29	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	27	ADV	_	t_374|t_372|ref=Lys. 29_7
+30	Ἐργοκλεῖ	ἐργοκλῆς	n	n-s---md-	Case=d|Gender=m|Number=s	27	ADV	_	t_375|t_372|ref=Lys. 29_7
+31	.	.	u	u--------	_	17	AuxK	_	t_376|t_362|ref=Lys. 29_7
 
-# source = Lysias, Against Philocrates 7
+# source = Lysias, Lys. 29 7
 # text = καίτοι οἴεσθʼ ἂν αὐτόν , ὦ ἄνδρες δικασταί , εἰς τοῦτο μανίας ἀφικέσθαι , ὥστε Θρασυβούλου στρατηγοῦντος καὶ Ἐργοκλέους αὐτῷ διαφερομένου ἐθελοντὴν ὑποστῆναι τριήραρχον ;
 # sent_id = 21
-1	καίτοι	καίτοι	d	d--------	_	2	AuxY	_	t_377|ref=Against Philocrates_7
-2	οἴεσθʼ	οἴομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_378|ref=Against Philocrates_7
-3	ἂν	ἄν	d	d--------	_	2	AuxY	_	t_379|ref=Against Philocrates_7
-4	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_380|ref=Against Philocrates_7
-5	,	,	u	u--------	_	2	AuxX	_	t_381|ref=Against Philocrates_7
-6	ὦ	ὦ	i	i--------	_	7	AuxZ	_	t_382|ref=Against Philocrates_7
-7	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	2	ExD	_	t_383|ref=Against Philocrates_7
-8	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	7	ATR	_	t_384|ref=Against Philocrates_7
-9	,	,	u	u--------	_	2	AuxX	_	t_385|ref=Against Philocrates_7
-10	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_386|ref=Against Philocrates_7
-11	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_387|ref=Against Philocrates_7
-12	μανίας	μανία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_388|ref=Against Philocrates_7
-13	ἀφικέσθαι	ἀφικνέομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	2	OBJ	_	t_389|ref=Against Philocrates_7
-14	,	,	u	u--------	_	2	AuxX	_	t_390|ref=Against Philocrates_7
-15	ὥστε	ὥστε	c	c--------	_	11	AuxC	_	t_391|ref=Against Philocrates_7
-16	Θρασυβούλου	θρασύβουλος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	SBJ	_	t_392|ref=Against Philocrates_7
-17	στρατηγοῦντος	στρατηγέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_393|ref=Against Philocrates_7
-18	καὶ	καί	c	c--------	_	23	COORD	_	t_394|ref=Against Philocrates_7
-19	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	21	SBJ	_	t_395|ref=Against Philocrates_7
-20	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	21	OBJ	_	t_396|ref=Against Philocrates_7
-21	διαφερομένου	διαφέρω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_397|ref=Against Philocrates_7
-22	ἐθελοντὴν	ἐθελοντήν	d	d--------	Case=a|Gender=m|Number=s	23	ADV	_	t_398|ref=Against Philocrates_7
-23	ὑποστῆναι	ὑφίστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	15	ADV	_	t_399|ref=Against Philocrates_7
-24	τριήραρχον	τριήραρχος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OCOMP	_	t_400|ref=Against Philocrates_7
-25	;	;	u	u--------	_	2	AuxK	_	t_401|ref=Against Philocrates_7
+1	καίτοι	καίτοι	d	d--------	_	2	AuxY	_	t_377|t_378|ref=Lys. 29_7
+2	οἴεσθʼ	οἴομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_378|0|ref=Lys. 29_7
+3	ἂν	ἄν	d	d--------	_	2	AuxY	_	t_379|t_378|ref=Lys. 29_7
+4	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_380|t_389|ref=Lys. 29_7
+5	,	,	u	u--------	_	2	AuxX	_	t_381|t_378|ref=Lys. 29_7
+6	ὦ	ὦ	i	i--------	_	7	AuxZ	_	t_382|t_383|ref=Lys. 29_7
+7	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	2	ExD	_	t_383|t_378|ref=Lys. 29_7
+8	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	7	ATR	_	t_384|t_383|ref=Lys. 29_7
+9	,	,	u	u--------	_	2	AuxX	_	t_385|t_378|ref=Lys. 29_7
+10	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_386|t_389|ref=Lys. 29_7
+11	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_387|t_386|ref=Lys. 29_7
+12	μανίας	μανία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_388|t_387|ref=Lys. 29_7
+13	ἀφικέσθαι	ἀφικνέομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	2	OBJ	_	t_389|t_378|ref=Lys. 29_7
+14	,	,	u	u--------	_	2	AuxX	_	t_390|t_378|ref=Lys. 29_7
+15	ὥστε	ὥστε	c	c--------	_	11	AuxC	_	t_391|t_387|ref=Lys. 29_7
+16	Θρασυβούλου	θρασύβουλος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	SBJ	_	t_392|t_393|ref=Lys. 29_7
+17	στρατηγοῦντος	στρατηγέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_393|t_394|ref=Lys. 29_7
+18	καὶ	καί	c	c--------	_	23	COORD	_	t_394|t_399|ref=Lys. 29_7
+19	Ἐργοκλέους	ἐργοκλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	21	SBJ	_	t_395|t_397|ref=Lys. 29_7
+20	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	21	OBJ	_	t_396|t_397|ref=Lys. 29_7
+21	διαφερομένου	διαφέρω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_397|t_394|ref=Lys. 29_7
+22	ἐθελοντὴν	ἐθελοντήν	d	d--------	Case=a|Gender=m|Number=s	23	ADV	_	t_398|t_399|ref=Lys. 29_7
+23	ὑποστῆναι	ὑφίστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	15	ADV	_	t_399|t_391|ref=Lys. 29_7
+24	τριήραρχον	τριήραρχος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OCOMP	_	t_400|t_399|ref=Lys. 29_7
+25	;	;	u	u--------	_	2	AuxK	_	t_401|t_378|ref=Lys. 29_7
 
-# source = Lysias, Against Philocrates 7
+# source = Lysias, Lys. 29 7
 # text = πῶς γὰρ ἂν θᾶττον ἀπώλετο , ἢ πῶς ἂν μᾶλλον ἐπηρεάζετο ;
 # sent_id = 22
-1	πῶς	πῶς	d	d--------	_	5	ADV	_	t_402|ref=Against Philocrates_7
-2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_403|ref=Against Philocrates_7
-3	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_404|ref=Against Philocrates_7
-4	θᾶττον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	5	ADV	_	t_405|ref=Against Philocrates_7
-5	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	7	PRED	_	t_406|ref=Against Philocrates_7
-6	,	,	u	u--------	_	0	AuxX	_	t_407|ref=Against Philocrates_7
-7	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_408|ref=Against Philocrates_7
-8	πῶς	πῶς	d	d--------	_	11	ADV	_	t_409|ref=Against Philocrates_7
-9	ἂν	ἄν	d	d--------	_	11	AuxY	_	t_410|ref=Against Philocrates_7
-10	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	11	ADV	_	t_411|ref=Against Philocrates_7
-11	ἐπηρεάζετο	ἐπηρεάζω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	7	PRED	_	t_412|ref=Against Philocrates_7
-12	;	;	u	u--------	_	6	AuxK	_	t_413|ref=Against Philocrates_7
+1	πῶς	πῶς	d	d--------	_	5	ADV	_	t_402|t_406|ref=Lys. 29_7
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_403|t_406|ref=Lys. 29_7
+3	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_404|t_406|ref=Lys. 29_7
+4	θᾶττον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	5	ADV	_	t_405|t_406|ref=Lys. 29_7
+5	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	7	PRED	_	t_406|t_408|ref=Lys. 29_7
+6	,	,	u	u--------	_	0	AuxX	_	t_407|0|ref=Lys. 29_7
+7	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_408|t_407|ref=Lys. 29_7
+8	πῶς	πῶς	d	d--------	_	11	ADV	_	t_409|t_412|ref=Lys. 29_7
+9	ἂν	ἄν	d	d--------	_	11	AuxY	_	t_410|t_412|ref=Lys. 29_7
+10	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	11	ADV	_	t_411|t_412|ref=Lys. 29_7
+11	ἐπηρεάζετο	ἐπηρεάζω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	7	PRED	_	t_412|t_408|ref=Lys. 29_7
+12	;	;	u	u--------	_	6	AuxK	_	t_413|t_407|ref=Lys. 29_7
 
-# source = Lysias, Against Philocrates 7-8
+# source = Lysias, Lys. 29 7-8
 # text = περὶ μὲν οὖν τούτων ἱκανὰ τὰ εἰρημένα [0] ·
 # sent_id = 23
-1	περὶ	περί	r	r--------	_	8	AuxP	_	t_414|ref=Against Philocrates_7
-2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_415|ref=Against Philocrates_7
-3	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_416|ref=Against Philocrates_7
-4	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_417|ref=Against Philocrates_7
-5	ἱκανὰ	ἱκανός	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_418|ref=Against Philocrates_7
-6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_419|ref=Against Philocrates_8
-7	εἰρημένα	ἐρῶ	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	8	SBJ	_	t_420|ref=Against Philocrates_8
-8	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Against Philocrates_1
-9	·	·	u	u--------	_	8	AuxK	_	t_421|ref=Against Philocrates_8
+1	περὶ	περί	r	r--------	_	8	AuxP	_	t_414|e_6|ref=Lys. 29_7
+2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_415|e_6|ref=Lys. 29_7
+3	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_416|e_6|ref=Lys. 29_7
+4	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_417|t_414|ref=Lys. 29_7
+5	ἱκανὰ	ἱκανός	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_418|e_6|ref=Lys. 29_7
+6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_419|t_420|ref=Lys. 29_8
+7	εἰρημένα	ἐρῶ	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	8	SBJ	_	t_420|e_6|ref=Lys. 29_8
+8	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Lys. 29_1
+9	·	·	u	u--------	_	8	AuxK	_	t_421|e_6|ref=Lys. 29_8
 
-# source = Lysias, Against Philocrates 8
+# source = Lysias, Lys. 29 8
 # text = ἐγὼ δʼ ὑμᾶς ἀξιῶ ὑμῖν αὐτοῖς βοηθῆσαι , καὶ πολὺ μᾶλλον τοὺς ἀδικοῦντας τιμωρεῖσθαι ἢ τοὺς τὰ τῆς πόλεως ἔχοντας ἐλεινοὺς ἡγεῖσθαι [0] .
 # sent_id = 24
-1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_422|ref=Against Philocrates_8
-2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_423|ref=Against Philocrates_8
-3	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	7	SBJ	_	t_424|ref=Against Philocrates_8
-4	ἀξιῶ	ἀξιόω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_425|ref=Against Philocrates_8
-5	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_426|ref=Against Philocrates_8
-6	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_427|ref=Against Philocrates_8
-7	βοηθῆσαι	βοηθέω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_428|ref=Against Philocrates_8
-8	,	,	u	u--------	_	4	AuxX	_	t_429|ref=Against Philocrates_8
-9	καὶ	καί	c	c--------	_	4	COORD	_	t_430|ref=Against Philocrates_8
-10	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_431|ref=Against Philocrates_8
-11	μᾶλλον	μᾶλλον	d	d--------	_	14	ADV	_	t_432|ref=Against Philocrates_8
-12	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_433|ref=Against Philocrates_8
-13	ἀδικοῦντας	ἀδικέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	SBJ	_	t_434|ref=Against Philocrates_8
-14	τιμωρεῖσθαι	τιμωρέω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_435|ref=Against Philocrates_8
-15	ἢ	ἤ1	c	c--------	_	11	AuxC	_	t_436|ref=Against Philocrates_8
-16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	20	ATR	_	t_437|ref=Against Philocrates_8
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_438|ref=Against Philocrates_8
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_439|ref=Against Philocrates_8
-19	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_440|ref=Against Philocrates_8
-20	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	22	OBJ	_	t_441|ref=Against Philocrates_8
-21	ἐλεινοὺς	ἐλεεινός	a	a-p---ma-	Case=a|Gender=m|Number=p	22	OCOMP	_	t_442|ref=Against Philocrates_8
-22	ἡγεῖσθαι	ἡγέομαι	v	v--pnm---	Mood=n|Tense=p|Voice=e	15	ADV	_	t_443|ref=Against Philocrates_8
-23	[0]	[0]	-	---------	_	15	ADV	_	e_7|ref=Against Philocrates_1
-24	.	.	u	u--------	_	4	AuxK	_	t_444|ref=Against Philocrates_8
+1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_422|t_425|ref=Lys. 29_8
+2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_423|t_425|ref=Lys. 29_8
+3	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	7	SBJ	_	t_424|t_428|ref=Lys. 29_8
+4	ἀξιῶ	ἀξιόω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_425|0|ref=Lys. 29_8
+5	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_426|t_428|ref=Lys. 29_8
+6	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_427|t_426|ref=Lys. 29_8
+7	βοηθῆσαι	βοηθέω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_428|t_430|ref=Lys. 29_8
+8	,	,	u	u--------	_	4	AuxX	_	t_429|t_425|ref=Lys. 29_8
+9	καὶ	καί	c	c--------	_	4	COORD	_	t_430|t_425|ref=Lys. 29_8
+10	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_431|t_432|ref=Lys. 29_8
+11	μᾶλλον	μᾶλλον	d	d--------	_	14	ADV	_	t_432|t_435|ref=Lys. 29_8
+12	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_433|t_434|ref=Lys. 29_8
+13	ἀδικοῦντας	ἀδικέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	SBJ	_	t_434|t_435|ref=Lys. 29_8
+14	τιμωρεῖσθαι	τιμωρέω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_435|t_430|ref=Lys. 29_8
+15	ἢ	ἤ1	c	c--------	_	11	AuxC	_	t_436|t_432|ref=Lys. 29_8
+16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	20	ATR	_	t_437|t_441|ref=Lys. 29_8
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_438|t_441|ref=Lys. 29_8
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_439|t_440|ref=Lys. 29_8
+19	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_440|t_438|ref=Lys. 29_8
+20	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	22	OBJ	_	t_441|t_443|ref=Lys. 29_8
+21	ἐλεινοὺς	ἐλεεινός	a	a-p---ma-	Case=a|Gender=m|Number=p	22	OCOMP	_	t_442|t_443|ref=Lys. 29_8
+22	ἡγεῖσθαι	ἡγέομαι	v	v--pnm---	Mood=n|Tense=p|Voice=e	15	ADV	_	t_443|t_436|ref=Lys. 29_8
+23	[0]	[0]	-	---------	_	15	ADV	_	e_7|t_436|ref=Lys. 29_1
+24	.	.	u	u--------	_	4	AuxK	_	t_444|t_425|ref=Lys. 29_8
 
-# source = Lysias, Against Philocrates 8
+# source = Lysias, Lys. 29 8
 # text = οὐδὲν γὰρ τῶν αὑτοῦ καταθήσει , ἀλλὰ τὰ ὑμέτερα ὑμῖν αὐτοῖς ἀποδώσει , καὶ πολλῷ πλείω αὐτῷ τούτων περιέσται .
 # sent_id = 25
-1	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_445|ref=Against Philocrates_8
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_446|ref=Against Philocrates_8
-3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_447|ref=Against Philocrates_8
-4	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_448|ref=Against Philocrates_8
-5	καταθήσει	κατατίθημι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	7	PRED	_	t_449|ref=Against Philocrates_8
-6	,	,	u	u--------	_	0	AuxX	_	t_450|ref=Against Philocrates_8
-7	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_451|ref=Against Philocrates_8
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_452|ref=Against Philocrates_8
-9	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_453|ref=Against Philocrates_8
-10	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_454|ref=Against Philocrates_8
-11	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_455|ref=Against Philocrates_8
-12	ἀποδώσει	ἀποδίδωμι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	14	PRED	_	t_456|ref=Against Philocrates_8
-13	,	,	u	u--------	_	6	AuxX	_	t_457|ref=Against Philocrates_8
-14	καὶ	καί	c	c--------	_	6	COORD	_	t_458|ref=Against Philocrates_8
-15	πολλῷ	πολύς	a	a-s---nd-	Case=d|Gender=n|Number=s	16	ADV	_	t_459|ref=Against Philocrates_8
-16	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	19	SBJ	_	t_460|ref=Against Philocrates_8
-17	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	19	OBJ	_	t_461|ref=Against Philocrates_8
-18	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	16	ADV	_	t_462|ref=Against Philocrates_8
-19	περιέσται	περίειμι1	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	14	PRED	_	t_463|ref=Against Philocrates_8
-20	.	.	u	u--------	_	6	AuxK	_	t_464|ref=Against Philocrates_8
+1	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_445|t_449|ref=Lys. 29_8
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_446|t_451|ref=Lys. 29_8
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_447|t_445|ref=Lys. 29_8
+4	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_448|t_447|ref=Lys. 29_8
+5	καταθήσει	κατατίθημι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	7	PRED	_	t_449|t_451|ref=Lys. 29_8
+6	,	,	u	u--------	_	0	AuxX	_	t_450|0|ref=Lys. 29_8
+7	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_451|t_450|ref=Lys. 29_8
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_452|t_453|ref=Lys. 29_8
+9	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_453|t_456|ref=Lys. 29_8
+10	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_454|t_456|ref=Lys. 29_8
+11	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_455|t_454|ref=Lys. 29_8
+12	ἀποδώσει	ἀποδίδωμι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	14	PRED	_	t_456|t_458|ref=Lys. 29_8
+13	,	,	u	u--------	_	6	AuxX	_	t_457|t_450|ref=Lys. 29_8
+14	καὶ	καί	c	c--------	_	6	COORD	_	t_458|t_450|ref=Lys. 29_8
+15	πολλῷ	πολύς	a	a-s---nd-	Case=d|Gender=n|Number=s	16	ADV	_	t_459|t_460|ref=Lys. 29_8
+16	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	19	SBJ	_	t_460|t_463|ref=Lys. 29_8
+17	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	19	OBJ	_	t_461|t_463|ref=Lys. 29_8
+18	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	16	ADV	_	t_462|t_460|ref=Lys. 29_8
+19	περιέσται	περίειμι1	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	14	PRED	_	t_463|t_458|ref=Lys. 29_8
+20	.	.	u	u--------	_	6	AuxK	_	t_464|t_450|ref=Lys. 29_8
 
-# source = Lysias, Against Philocrates 8-9
+# source = Lysias, Lys. 29 8-9
 # text = καὶ γὰρ ἂν καὶ δεινὸν εἴη , ὦ ἄνδρες δικασταί , εἰ τοῖς μὲν μὴ δυναμένοις τὰ σφέτερʼ αὐτῶν εἰσφέρειν ὀργίζοισθε καὶ τὰς οὐσίας αὐτῶν ὡς ἀδικούντων δημεύοιτε , τοὺς δὲ τὰ ὑμέτερα αὐτῶν ἔχοντας μὴ τιμωροῖσθε , ἀλλὰ τῶν τε χρημάτων ἀποστεροῖσθε καὶ τούτους χαλεπωτέρους ἐχθροὺς ἔχοιτε .
 # sent_id = 26
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_465|ref=Against Philocrates_8
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_466|ref=Against Philocrates_8
-3	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_467|ref=Against Philocrates_8
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_468|ref=Against Philocrates_8
-5	δεινὸν	δεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_469|ref=Against Philocrates_8
-6	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_470|ref=Against Philocrates_8
-7	,	,	u	u--------	_	6	AuxX	_	t_471|ref=Against Philocrates_8
-8	ὦ	ὦ	i	i--------	_	9	AuxZ	_	t_472|ref=Against Philocrates_9
-9	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	6	ExD	_	t_473|ref=Against Philocrates_9
-10	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	9	ATR	_	t_474|ref=Against Philocrates_9
-11	,	,	u	u--------	_	6	AuxX	_	t_475|ref=Against Philocrates_9
-12	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_476|ref=Against Philocrates_9
-13	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	16	ATR	_	t_477|ref=Against Philocrates_9
-14	μὲν	μέν	d	d--------	_	31	AuxY	_	t_478|ref=Against Philocrates_9
-15	μὴ	μή	d	d--------	_	16	AuxZ	_	t_479|ref=Against Philocrates_9
-16	δυναμένοις	δύναμαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	21	OBJ	_	t_480|ref=Against Philocrates_9
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_481|ref=Against Philocrates_9
-18	σφέτερʼ	σφέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_482|ref=Against Philocrates_9
-19	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_483|ref=Against Philocrates_9
-20	εἰσφέρειν	εἰσφέρω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_484|ref=Against Philocrates_9
-21	ὀργίζοισθε	ὀργίζω	v	v2ppoe---	Mood=o|Number=p|Person=2|Tense=p|Voice=e	22	ADV	_	t_485|ref=Against Philocrates_9
-22	καὶ	καί	c	c--------	_	31	COORD	_	t_486|ref=Against Philocrates_9
-23	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	24	ATR	_	t_487|ref=Against Philocrates_9
-24	οὐσίας	οὐσία	n	n-p---fa-	Case=a|Gender=f|Number=p	28	OBJ	_	t_488|ref=Against Philocrates_9
-25	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	24	ATR	_	t_489|ref=Against Philocrates_9
-26	ὡς	ὡς	d	d--------	_	27	AuxZ	_	t_490|ref=Against Philocrates_9
-27	ἀδικούντων	ἀδικέω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	28	ADV	_	t_491|ref=Against Philocrates_9
-28	δημεύοιτε	δημεύω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	22	ADV	_	t_492|ref=Against Philocrates_9
-29	,	,	u	u--------	_	6	AuxX	_	t_493|ref=Against Philocrates_9
-30	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	35	ATR	_	t_494|ref=Against Philocrates_9
-31	δὲ	δέ	c	c--------	_	12	COORD	_	t_495|ref=Against Philocrates_9
-32	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	33	ATR	_	t_496|ref=Against Philocrates_9
-33	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	35	OBJ	_	t_497|ref=Against Philocrates_9
-34	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	33	ATR	_	t_498|ref=Against Philocrates_9
-35	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	37	OBJ	_	t_499|ref=Against Philocrates_9
-36	μὴ	μή	d	d--------	_	37	AuxZ	_	t_500|ref=Against Philocrates_9
-37	τιμωροῖσθε	τιμωρέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	39	ADV	_	t_501|ref=Against Philocrates_9
-38	,	,	u	u--------	_	6	AuxX	_	t_502|ref=Against Philocrates_9
-39	ἀλλὰ	ἀλλά	c	c--------	_	31	COORD	_	t_503|ref=Against Philocrates_9
-40	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	42	ATR	_	t_504|ref=Against Philocrates_9
-41	τε	τε	d	d--------	_	44	AuxY	_	t_505|ref=Against Philocrates_9
-42	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	43	OBJ	_	t_506|ref=Against Philocrates_9
-43	ἀποστεροῖσθε	ἀποστερέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	44	ADV	_	t_507|ref=Against Philocrates_9
-44	καὶ	καί	c	c--------	_	39	COORD	_	t_508|ref=Against Philocrates_9
-45	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	48	OBJ	_	t_509|ref=Against Philocrates_9
-46	χαλεπωτέρους	χαλεπός	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	45	ATV	_	t_510|ref=Against Philocrates_9
-47	ἐχθροὺς	ἐχθρός	n	n-p---ma-	Case=a|Gender=m|Number=p	48	OCOMP	_	t_511|ref=Against Philocrates_9
-48	ἔχοιτε	ἔχω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	44	ADV	_	t_512|ref=Against Philocrates_9
-49	.	.	u	u--------	_	6	AuxK	_	t_513|ref=Against Philocrates_9
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_465|t_470|ref=Lys. 29_8
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_466|t_470|ref=Lys. 29_8
+3	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_467|t_470|ref=Lys. 29_8
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_468|t_469|ref=Lys. 29_8
+5	δεινὸν	δεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_469|t_470|ref=Lys. 29_8
+6	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_470|0|ref=Lys. 29_8
+7	,	,	u	u--------	_	6	AuxX	_	t_471|t_470|ref=Lys. 29_8
+8	ὦ	ὦ	i	i--------	_	9	AuxZ	_	t_472|t_473|ref=Lys. 29_9
+9	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	6	ExD	_	t_473|t_470|ref=Lys. 29_9
+10	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	9	ATR	_	t_474|t_473|ref=Lys. 29_9
+11	,	,	u	u--------	_	6	AuxX	_	t_475|t_470|ref=Lys. 29_9
+12	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_476|t_470|ref=Lys. 29_9
+13	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	16	ATR	_	t_477|t_480|ref=Lys. 29_9
+14	μὲν	μέν	d	d--------	_	31	AuxY	_	t_478|t_495|ref=Lys. 29_9
+15	μὴ	μή	d	d--------	_	16	AuxZ	_	t_479|t_480|ref=Lys. 29_9
+16	δυναμένοις	δύναμαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	21	OBJ	_	t_480|t_485|ref=Lys. 29_9
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_481|t_482|ref=Lys. 29_9
+18	σφέτερʼ	σφέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_482|t_484|ref=Lys. 29_9
+19	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_483|t_482|ref=Lys. 29_9
+20	εἰσφέρειν	εἰσφέρω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_484|t_480|ref=Lys. 29_9
+21	ὀργίζοισθε	ὀργίζω	v	v2ppoe---	Mood=o|Number=p|Person=2|Tense=p|Voice=e	22	ADV	_	t_485|t_486|ref=Lys. 29_9
+22	καὶ	καί	c	c--------	_	31	COORD	_	t_486|t_495|ref=Lys. 29_9
+23	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	24	ATR	_	t_487|t_488|ref=Lys. 29_9
+24	οὐσίας	οὐσία	n	n-p---fa-	Case=a|Gender=f|Number=p	28	OBJ	_	t_488|t_492|ref=Lys. 29_9
+25	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	24	ATR	_	t_489|t_488|ref=Lys. 29_9
+26	ὡς	ὡς	d	d--------	_	27	AuxZ	_	t_490|t_491|ref=Lys. 29_9
+27	ἀδικούντων	ἀδικέω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	28	ADV	_	t_491|t_492|ref=Lys. 29_9
+28	δημεύοιτε	δημεύω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	22	ADV	_	t_492|t_486|ref=Lys. 29_9
+29	,	,	u	u--------	_	6	AuxX	_	t_493|t_470|ref=Lys. 29_9
+30	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	35	ATR	_	t_494|t_499|ref=Lys. 29_9
+31	δὲ	δέ	c	c--------	_	12	COORD	_	t_495|t_476|ref=Lys. 29_9
+32	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	33	ATR	_	t_496|t_497|ref=Lys. 29_9
+33	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	35	OBJ	_	t_497|t_499|ref=Lys. 29_9
+34	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	33	ATR	_	t_498|t_497|ref=Lys. 29_9
+35	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	37	OBJ	_	t_499|t_501|ref=Lys. 29_9
+36	μὴ	μή	d	d--------	_	37	AuxZ	_	t_500|t_501|ref=Lys. 29_9
+37	τιμωροῖσθε	τιμωρέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	39	ADV	_	t_501|t_503|ref=Lys. 29_9
+38	,	,	u	u--------	_	6	AuxX	_	t_502|t_470|ref=Lys. 29_9
+39	ἀλλὰ	ἀλλά	c	c--------	_	31	COORD	_	t_503|t_495|ref=Lys. 29_9
+40	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	42	ATR	_	t_504|t_506|ref=Lys. 29_9
+41	τε	τε	d	d--------	_	44	AuxY	_	t_505|t_508|ref=Lys. 29_9
+42	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	43	OBJ	_	t_506|t_507|ref=Lys. 29_9
+43	ἀποστεροῖσθε	ἀποστερέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	44	ADV	_	t_507|t_508|ref=Lys. 29_9
+44	καὶ	καί	c	c--------	_	39	COORD	_	t_508|t_503|ref=Lys. 29_9
+45	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	48	OBJ	_	t_509|t_512|ref=Lys. 29_9
+46	χαλεπωτέρους	χαλεπός	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	45	ATV	_	t_510|t_509|ref=Lys. 29_9
+47	ἐχθροὺς	ἐχθρός	n	n-p---ma-	Case=a|Gender=m|Number=p	48	OCOMP	_	t_511|t_512|ref=Lys. 29_9
+48	ἔχοιτε	ἔχω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	44	ADV	_	t_512|t_508|ref=Lys. 29_9
+49	.	.	u	u--------	_	6	AuxK	_	t_513|t_470|ref=Lys. 29_9
 
-# source = Lysias, Against Philocrates 9-10
+# source = Lysias, Lys. 29 9-10
 # text = ἕως γὰρ ἂν τὰ ὑμέτερα ἔχοντες σφίσιν αὐτοῖς συνειδῶσιν , οὐδέποτε ὑμῖν παύσονται κακονοοῦντες , νομίζοντες τὰς τῆς πόλεως δυστυχίας μόνας ἀπαλλαγὴν εἶναι τῶν πρὸς αὐτοὺς πραγμάτων .
 # sent_id = 27
-1	ἕως	ἕως	c	c--------	_	13	AuxC	_	t_514|ref=Against Philocrates_9
-2	γὰρ	γάρ	d	d--------	_	13	AuxY	_	t_515|ref=Against Philocrates_9
-3	ἂν	ἄν	d	d--------	_	9	AuxY	_	t_516|ref=Against Philocrates_9
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_517|ref=Against Philocrates_9
-5	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_518|ref=Against Philocrates_9
-6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_519|ref=Against Philocrates_9
-7	σφίσιν	σφεῖς	p	p-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_520|ref=Against Philocrates_9
-8	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_521|ref=Against Philocrates_10
-9	συνειδῶσιν	σύνοιδα	v	v3pasp---	Mood=s|Number=p|Person=3|Tense=a|Voice=p	1	ADV	_	t_522|ref=Against Philocrates_10
-10	,	,	u	u--------	_	13	AuxX	_	t_523|ref=Against Philocrates_10
-11	οὐδέποτε	οὐδέποτε	d	d--------	_	13	ADV	_	t_524|ref=Against Philocrates_10
-12	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_525|ref=Against Philocrates_10
-13	παύσονται	παύω	v	v3pfim---	Mood=i|Number=p|Person=3|Tense=f|Voice=m	0	PRED	_	t_526|ref=Against Philocrates_10
-14	κακονοοῦντες	κακονοέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_527|ref=Against Philocrates_10
-15	,	,	u	u--------	_	13	AuxX	_	t_528|ref=Against Philocrates_10
-16	νομίζοντες	νομίζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_529|ref=Against Philocrates_10
-17	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_530|ref=Against Philocrates_10
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_531|ref=Against Philocrates_10
-19	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_532|ref=Against Philocrates_10
-20	δυστυχίας	δυστυχία	n	n-p---fa-	Case=a|Gender=f|Number=p	23	SBJ	_	t_533|ref=Against Philocrates_10
-21	μόνας	μόνος	a	a-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_534|ref=Against Philocrates_10
-22	ἀπαλλαγὴν	ἀπαλλαγή	n	n-s---fa-	Case=a|Gender=f|Number=s	23	PNOM	_	t_535|ref=Against Philocrates_10
-23	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_536|ref=Against Philocrates_10
-24	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_537|ref=Against Philocrates_10
-25	πρὸς	πρός	r	r--------	_	27	AuxP	_	t_538|ref=Against Philocrates_10
-26	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	25	ATR	_	t_539|ref=Against Philocrates_10
-27	πραγμάτων	πρᾶγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_540|ref=Against Philocrates_10
-28	.	.	u	u--------	_	13	AuxK	_	t_541|ref=Against Philocrates_10
+1	ἕως	ἕως	c	c--------	_	13	AuxC	_	t_514|t_526|ref=Lys. 29_9
+2	γὰρ	γάρ	d	d--------	_	13	AuxY	_	t_515|t_526|ref=Lys. 29_9
+3	ἂν	ἄν	d	d--------	_	9	AuxY	_	t_516|t_522|ref=Lys. 29_9
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_517|t_518|ref=Lys. 29_9
+5	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_518|t_519|ref=Lys. 29_9
+6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_519|t_522|ref=Lys. 29_9
+7	σφίσιν	σφεῖς	p	p-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_520|t_522|ref=Lys. 29_9
+8	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_521|t_520|ref=Lys. 29_10
+9	συνειδῶσιν	σύνοιδα	v	v3pasp---	Mood=s|Number=p|Person=3|Tense=a|Voice=p	1	ADV	_	t_522|t_514|ref=Lys. 29_10
+10	,	,	u	u--------	_	13	AuxX	_	t_523|t_526|ref=Lys. 29_10
+11	οὐδέποτε	οὐδέποτε	d	d--------	_	13	ADV	_	t_524|t_526|ref=Lys. 29_10
+12	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_525|t_526|ref=Lys. 29_10
+13	παύσονται	παύω	v	v3pfim---	Mood=i|Number=p|Person=3|Tense=f|Voice=m	0	PRED	_	t_526|0|ref=Lys. 29_10
+14	κακονοοῦντες	κακονοέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_527|t_526|ref=Lys. 29_10
+15	,	,	u	u--------	_	13	AuxX	_	t_528|t_526|ref=Lys. 29_10
+16	νομίζοντες	νομίζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_529|t_526|ref=Lys. 29_10
+17	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_530|t_533|ref=Lys. 29_10
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_531|t_532|ref=Lys. 29_10
+19	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_532|t_533|ref=Lys. 29_10
+20	δυστυχίας	δυστυχία	n	n-p---fa-	Case=a|Gender=f|Number=p	23	SBJ	_	t_533|t_536|ref=Lys. 29_10
+21	μόνας	μόνος	a	a-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_534|t_533|ref=Lys. 29_10
+22	ἀπαλλαγὴν	ἀπαλλαγή	n	n-s---fa-	Case=a|Gender=f|Number=s	23	PNOM	_	t_535|t_536|ref=Lys. 29_10
+23	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_536|t_529|ref=Lys. 29_10
+24	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_537|t_540|ref=Lys. 29_10
+25	πρὸς	πρός	r	r--------	_	27	AuxP	_	t_538|t_540|ref=Lys. 29_10
+26	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	25	ATR	_	t_539|t_538|ref=Lys. 29_10
+27	πραγμάτων	πρᾶγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_540|t_535|ref=Lys. 29_10
+28	.	.	u	u--------	_	13	AuxK	_	t_541|t_526|ref=Lys. 29_10
 
-# source = Lysias, Against Philocrates 10-11
+# source = Lysias, Lys. 29 10-11
 # text = ἡγοῦμαι δʼ , ὦ ἄνδρες δικασταί , οὐ μόνον περὶ χρημάτων αὐτῷ προσήκειν ἀγωνίζεσθαι , ἀλλὰ καὶ περὶ τοῦ σώματος κινδυνεύειν .
 # sent_id = 28
-1	ἡγοῦμαι	ἡγέομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_542|ref=Against Philocrates_10
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_543|ref=Against Philocrates_10
-3	,	,	u	u--------	_	1	AuxX	_	t_544|ref=Against Philocrates_10
-4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_545|ref=Against Philocrates_10
-5	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	1	ExD	_	t_546|ref=Against Philocrates_10
-6	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	5	ATR	_	t_547|ref=Against Philocrates_10
-7	,	,	u	u--------	_	1	AuxX	_	t_548|ref=Against Philocrates_10
-8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_549|ref=Against Philocrates_11
-9	μόνον	μόνος	d	d--------	_	14	AuxZ	_	t_550|ref=Against Philocrates_11
-10	περὶ	περί	r	r--------	_	14	AuxP	_	t_551|ref=Against Philocrates_11
-11	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	10	ADV	_	t_552|ref=Against Philocrates_11
-12	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_553|ref=Against Philocrates_11
-13	προσήκειν	προσήκω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_554|ref=Against Philocrates_11
-14	ἀγωνίζεσθαι	ἀγωνίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	16	SBJ	_	t_555|ref=Against Philocrates_11
-15	,	,	u	u--------	_	1	AuxX	_	t_556|ref=Against Philocrates_11
-16	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_557|ref=Against Philocrates_11
-17	καὶ	καί	d	d--------	_	21	AuxZ	_	t_558|ref=Against Philocrates_11
-18	περὶ	περί	r	r--------	_	21	AuxP	_	t_559|ref=Against Philocrates_11
-19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_560|ref=Against Philocrates_11
-20	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	18	ADV	_	t_561|ref=Against Philocrates_11
-21	κινδυνεύειν	κινδυνεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_562|ref=Against Philocrates_11
-22	.	.	u	u--------	_	1	AuxK	_	t_563|ref=Against Philocrates_11
+1	ἡγοῦμαι	ἡγέομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_542|0|ref=Lys. 29_10
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_543|t_542|ref=Lys. 29_10
+3	,	,	u	u--------	_	1	AuxX	_	t_544|t_542|ref=Lys. 29_10
+4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_545|t_546|ref=Lys. 29_10
+5	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	1	ExD	_	t_546|t_542|ref=Lys. 29_10
+6	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	5	ATR	_	t_547|t_546|ref=Lys. 29_10
+7	,	,	u	u--------	_	1	AuxX	_	t_548|t_542|ref=Lys. 29_10
+8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_549|t_550|ref=Lys. 29_11
+9	μόνον	μόνος	d	d--------	_	14	AuxZ	_	t_550|t_555|ref=Lys. 29_11
+10	περὶ	περί	r	r--------	_	14	AuxP	_	t_551|t_555|ref=Lys. 29_11
+11	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	10	ADV	_	t_552|t_551|ref=Lys. 29_11
+12	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_553|t_555|ref=Lys. 29_11
+13	προσήκειν	προσήκω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_554|t_557|ref=Lys. 29_11
+14	ἀγωνίζεσθαι	ἀγωνίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	16	SBJ	_	t_555|t_557|ref=Lys. 29_11
+15	,	,	u	u--------	_	1	AuxX	_	t_556|t_542|ref=Lys. 29_11
+16	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_557|t_542|ref=Lys. 29_11
+17	καὶ	καί	d	d--------	_	21	AuxZ	_	t_558|t_562|ref=Lys. 29_11
+18	περὶ	περί	r	r--------	_	21	AuxP	_	t_559|t_562|ref=Lys. 29_11
+19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_560|t_561|ref=Lys. 29_11
+20	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	18	ADV	_	t_561|t_559|ref=Lys. 29_11
+21	κινδυνεύειν	κινδυνεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_562|t_557|ref=Lys. 29_11
+22	.	.	u	u--------	_	1	AuxK	_	t_563|t_542|ref=Lys. 29_11
 
-# source = Lysias, Against Philocrates 11
+# source = Lysias, Lys. 29 11
 # text = καὶ γὰρ ἂν καὶ δεινὸν εἴη , εἰ οἱ μὲν τὰ τῶν ἰδιωτῶν ἀπολλύμενα τοῖς κλέπταις συνειδότες τοῖς αὐτοῖς ἐνέχοιντο , οὗτος δὲ τὰ τῆς πόλεως Ἐργοκλεῖ συνειδὼς κλέπτοντι καὶ ἐπὶ τοῖς ὑμετέροις δωροδοκοῦντι μὴ τῆς αὐτῆς τιμωρίας τυγχάνοι , ἀλλὰ ἆθλα λάβοι τὴν ὑπʼ ἐκείνου καταλειφθεῖσαν οὐσίαν ἀντὶ τῆς αὑτοῦ πονηρίας .
 # sent_id = 29
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_564|ref=Against Philocrates_11
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_565|ref=Against Philocrates_11
-3	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_566|ref=Against Philocrates_11
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_567|ref=Against Philocrates_11
-5	δεινὸν	δεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_568|ref=Against Philocrates_11
-6	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_569|ref=Against Philocrates_11
-7	,	,	u	u--------	_	6	AuxX	_	t_570|ref=Against Philocrates_11
-8	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_571|ref=Against Philocrates_11
-9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	17	ATR	_	t_572|ref=Against Philocrates_11
-10	μὲν	μέν	d	d--------	_	23	AuxY	_	t_573|ref=Against Philocrates_11
-11	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_574|ref=Against Philocrates_11
-12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_575|ref=Against Philocrates_11
-13	ἰδιωτῶν	ἰδιώτης	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_576|ref=Against Philocrates_11
-14	ἀπολλύμενα	ἀπόλλυμι	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	17	OBJ	_	t_577|ref=Against Philocrates_11
-15	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	16	ATR	_	t_578|ref=Against Philocrates_11
-16	κλέπταις	κλέπτης	n	n-p---md-	Case=d|Gender=m|Number=p	17	OBJ	_	t_579|ref=Against Philocrates_11
-17	συνειδότες	σύνοιδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	20	SBJ	_	t_580|ref=Against Philocrates_11
-18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_581|ref=Against Philocrates_11
-19	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_582|ref=Against Philocrates_11
-20	ἐνέχοιντο	ἐνέχω	v	v3ppoe---	Mood=o|Number=p|Person=3|Tense=p|Voice=e	23	ADV	_	t_583|ref=Against Philocrates_11
-21	,	,	u	u--------	_	6	AuxX	_	t_584|ref=Against Philocrates_11
-22	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	41	SBJ	_	t_585|ref=Against Philocrates_11
-23	δὲ	δέ	c	c--------	_	8	COORD	_	t_586|ref=Against Philocrates_11
-24	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	28	OBJ	_	t_587|ref=Against Philocrates_11
-25	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_588|ref=Against Philocrates_11
-26	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_589|ref=Against Philocrates_11
-27	Ἐργοκλεῖ	ἐργοκλῆς	n	n-s---md-	Case=d|Gender=m|Number=s	28	OBJ	_	t_590|ref=Against Philocrates_11
-28	συνειδὼς	σύνοιδα	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	39	ADV	_	t_591|ref=Against Philocrates_11
-29	κλέπτοντι	κλέπτω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	30	OBJ	_	t_592|ref=Against Philocrates_11
-30	καὶ	καί	c	c--------	_	39	COORD	_	t_593|ref=Against Philocrates_11
-31	ἐπὶ	ἐπί	r	r--------	_	34	AuxP	_	t_594|ref=Against Philocrates_11
-32	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	33	ATR	_	t_595|ref=Against Philocrates_11
-33	ὑμετέροις	ὑμέτερος	a	a-p---nd-	Case=d|Gender=n|Number=p	31	ADV	_	t_596|ref=Against Philocrates_11
-34	δωροδοκοῦντι	δωροδοκέω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	30	OBJ	_	t_597|ref=Against Philocrates_11
-35	μὴ	μή	d	d--------	_	39	AuxZ	_	t_598|ref=Against Philocrates_11
-36	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	38	ATR	_	t_599|ref=Against Philocrates_11
-37	αὐτῆς	αὐτός	a	a-s---fg-	Case=g|Gender=f|Number=s	38	ATR	_	t_600|ref=Against Philocrates_11
-38	τιμωρίας	τιμωρία	n	n-s---fg-	Case=g|Gender=f|Number=s	39	OBJ	_	t_601|ref=Against Philocrates_11
-39	τυγχάνοι	τυγχάνω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	41	ADV	_	t_602|ref=Against Philocrates_11
-40	,	,	u	u--------	_	6	AuxX	_	t_603|ref=Against Philocrates_11
-41	ἀλλὰ	ἀλλά	c	c--------	_	23	COORD	_	t_604|ref=Against Philocrates_11
-42	ἆθλα	ἆθλον	n	n-p---na-	Case=a|Gender=n|Number=p	43	OBJ	_	t_605|ref=Against Philocrates_11
-43	λάβοι	λαμβάνω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	41	ADV	_	t_606|ref=Against Philocrates_11
-44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	48	ATR	_	t_607|ref=Against Philocrates_11
-45	ὑπʼ	ὑπό	r	r--------	_	47	AuxP	_	t_608|ref=Against Philocrates_11
-46	ἐκείνου	ἐκεῖνος	p	p-s---mg-	Case=g|Gender=m|Number=s	45	OBJ	_	t_609|ref=Against Philocrates_11
-47	καταλειφθεῖσαν	καταλείπω	v	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	48	ATR	_	t_610|ref=Against Philocrates_11
-48	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_611|ref=Against Philocrates_11
-49	ἀντὶ	ἀντί	r	r--------	_	47	AuxP	_	t_612|ref=Against Philocrates_11
-50	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	52	ATR	_	t_613|ref=Against Philocrates_11
-51	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	52	ATR	_	t_614|ref=Against Philocrates_11
-52	πονηρίας	πονηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	49	ADV	_	t_615|ref=Against Philocrates_11
-53	.	.	u	u--------	_	6	AuxK	_	t_616|ref=Against Philocrates_11
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_564|t_569|ref=Lys. 29_11
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_565|t_569|ref=Lys. 29_11
+3	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_566|t_569|ref=Lys. 29_11
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_567|t_568|ref=Lys. 29_11
+5	δεινὸν	δεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_568|t_569|ref=Lys. 29_11
+6	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_569|0|ref=Lys. 29_11
+7	,	,	u	u--------	_	6	AuxX	_	t_570|t_569|ref=Lys. 29_11
+8	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_571|t_569|ref=Lys. 29_11
+9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	17	ATR	_	t_572|t_580|ref=Lys. 29_11
+10	μὲν	μέν	d	d--------	_	23	AuxY	_	t_573|t_586|ref=Lys. 29_11
+11	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_574|t_577|ref=Lys. 29_11
+12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_575|t_576|ref=Lys. 29_11
+13	ἰδιωτῶν	ἰδιώτης	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_576|t_577|ref=Lys. 29_11
+14	ἀπολλύμενα	ἀπόλλυμι	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	17	OBJ	_	t_577|t_580|ref=Lys. 29_11
+15	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	16	ATR	_	t_578|t_579|ref=Lys. 29_11
+16	κλέπταις	κλέπτης	n	n-p---md-	Case=d|Gender=m|Number=p	17	OBJ	_	t_579|t_580|ref=Lys. 29_11
+17	συνειδότες	σύνοιδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	20	SBJ	_	t_580|t_583|ref=Lys. 29_11
+18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_581|t_582|ref=Lys. 29_11
+19	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_582|t_583|ref=Lys. 29_11
+20	ἐνέχοιντο	ἐνέχω	v	v3ppoe---	Mood=o|Number=p|Person=3|Tense=p|Voice=e	23	ADV	_	t_583|t_586|ref=Lys. 29_11
+21	,	,	u	u--------	_	6	AuxX	_	t_584|t_569|ref=Lys. 29_11
+22	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	41	SBJ	_	t_585|t_604|ref=Lys. 29_11
+23	δὲ	δέ	c	c--------	_	8	COORD	_	t_586|t_571|ref=Lys. 29_11
+24	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	28	OBJ	_	t_587|t_591|ref=Lys. 29_11
+25	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_588|t_589|ref=Lys. 29_11
+26	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_589|t_587|ref=Lys. 29_11
+27	Ἐργοκλεῖ	ἐργοκλῆς	n	n-s---md-	Case=d|Gender=m|Number=s	28	OBJ	_	t_590|t_591|ref=Lys. 29_11
+28	συνειδὼς	σύνοιδα	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	39	ADV	_	t_591|t_602|ref=Lys. 29_11
+29	κλέπτοντι	κλέπτω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	30	OBJ	_	t_592|t_593|ref=Lys. 29_11
+30	καὶ	καί	c	c--------	_	39	COORD	_	t_593|t_602|ref=Lys. 29_11
+31	ἐπὶ	ἐπί	r	r--------	_	34	AuxP	_	t_594|t_597|ref=Lys. 29_11
+32	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	33	ATR	_	t_595|t_596|ref=Lys. 29_11
+33	ὑμετέροις	ὑμέτερος	a	a-p---nd-	Case=d|Gender=n|Number=p	31	ADV	_	t_596|t_594|ref=Lys. 29_11
+34	δωροδοκοῦντι	δωροδοκέω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	30	OBJ	_	t_597|t_593|ref=Lys. 29_11
+35	μὴ	μή	d	d--------	_	39	AuxZ	_	t_598|t_602|ref=Lys. 29_11
+36	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	38	ATR	_	t_599|t_601|ref=Lys. 29_11
+37	αὐτῆς	αὐτός	a	a-s---fg-	Case=g|Gender=f|Number=s	38	ATR	_	t_600|t_601|ref=Lys. 29_11
+38	τιμωρίας	τιμωρία	n	n-s---fg-	Case=g|Gender=f|Number=s	39	OBJ	_	t_601|t_602|ref=Lys. 29_11
+39	τυγχάνοι	τυγχάνω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	41	ADV	_	t_602|t_604|ref=Lys. 29_11
+40	,	,	u	u--------	_	6	AuxX	_	t_603|t_569|ref=Lys. 29_11
+41	ἀλλὰ	ἀλλά	c	c--------	_	23	COORD	_	t_604|t_586|ref=Lys. 29_11
+42	ἆθλα	ἆθλον	n	n-p---na-	Case=a|Gender=n|Number=p	43	OBJ	_	t_605|t_606|ref=Lys. 29_11
+43	λάβοι	λαμβάνω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	41	ADV	_	t_606|t_604|ref=Lys. 29_11
+44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	48	ATR	_	t_607|t_611|ref=Lys. 29_11
+45	ὑπʼ	ὑπό	r	r--------	_	47	AuxP	_	t_608|t_610|ref=Lys. 29_11
+46	ἐκείνου	ἐκεῖνος	p	p-s---mg-	Case=g|Gender=m|Number=s	45	OBJ	_	t_609|t_608|ref=Lys. 29_11
+47	καταλειφθεῖσαν	καταλείπω	v	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	48	ATR	_	t_610|t_611|ref=Lys. 29_11
+48	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_611|t_606|ref=Lys. 29_11
+49	ἀντὶ	ἀντί	r	r--------	_	47	AuxP	_	t_612|t_610|ref=Lys. 29_11
+50	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	52	ATR	_	t_613|t_615|ref=Lys. 29_11
+51	αὑτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	52	ATR	_	t_614|t_615|ref=Lys. 29_11
+52	πονηρίας	πονηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	49	ADV	_	t_615|t_612|ref=Lys. 29_11
+53	.	.	u	u--------	_	6	AuxK	_	t_616|t_569|ref=Lys. 29_11
 
-# source = Lysias, Against Philocrates 11
+# source = Lysias, Lys. 29 11
 # text = ἄξιοι δʼ ὑμῖν εἰσιν ὀργῆς , ὦ ἄνδρες δικασταί .
 # sent_id = 30
-1	ἄξιοι	ἄξιος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_617|ref=Against Philocrates_11
-2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_618|ref=Against Philocrates_11
-3	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_619|ref=Against Philocrates_11
-4	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_620|ref=Against Philocrates_11
-5	ὀργῆς	ὀργή	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_621|ref=Against Philocrates_11
-6	,	,	u	u--------	_	4	AuxX	_	t_622|ref=Against Philocrates_11
-7	ὦ	ὦ	d	d--------	_	8	AuxZ	_	t_623|ref=Against Philocrates_11
-8	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_624|ref=Against Philocrates_11
-9	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	8	ATR	_	t_625|ref=Against Philocrates_11
-10	.	.	u	u--------	_	4	AuxK	_	t_626|ref=Against Philocrates_11
+1	ἄξιοι	ἄξιος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_617|t_620|ref=Lys. 29_11
+2	δʼ	δέ	d	d--------	_	4	AuxY	_	t_618|t_620|ref=Lys. 29_11
+3	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_619|t_617|ref=Lys. 29_11
+4	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_620|0|ref=Lys. 29_11
+5	ὀργῆς	ὀργή	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_621|t_617|ref=Lys. 29_11
+6	,	,	u	u--------	_	4	AuxX	_	t_622|t_620|ref=Lys. 29_11
+7	ὦ	ὦ	d	d--------	_	8	AuxZ	_	t_623|t_624|ref=Lys. 29_11
+8	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_624|t_620|ref=Lys. 29_11
+9	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	8	ATR	_	t_625|t_624|ref=Lys. 29_11
+10	.	.	u	u--------	_	4	AuxK	_	t_626|t_620|ref=Lys. 29_11
 
-# source = Lysias, Against Philocrates 11-12
+# source = Lysias, Lys. 29 11-12
 # text = οὗτοι γάρ , ὅτε Ἐργοκλῆς ἐκρίνετο , ἐν τῷ δήμῳ περιιόντες ἔλεγον ὡς πεντακόσιοι μὲν αὐτοῖς εἴησαν ἐκ τοῦ Πειραιῶς δεδεκασμένοι , ἑξακόσιοι δὲ καὶ χίλιοι ἐκ τοῦ ἄστεως [0] ·
 # sent_id = 31
-1	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_627|ref=Against Philocrates_11
-2	γάρ	γάρ	d	d--------	_	12	AuxY	_	t_628|ref=Against Philocrates_11
-3	,	,	u	u--------	_	12	AuxX	_	t_629|ref=Against Philocrates_11
-4	ὅτε	ὅτε	c	c--------	_	12	AuxC	_	t_630|ref=Against Philocrates_11
-5	Ἐργοκλῆς	ἐργοκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_631|ref=Against Philocrates_11
-6	ἐκρίνετο	κρίνω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	4	ADV	_	t_632|ref=Against Philocrates_11
-7	,	,	u	u--------	_	12	AuxX	_	t_633|ref=Against Philocrates_11
-8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_634|ref=Against Philocrates_12
-9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_635|ref=Against Philocrates_12
-10	δήμῳ	δῆμος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_636|ref=Against Philocrates_12
-11	περιιόντες	περίειμι1	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_637|ref=Against Philocrates_12
-12	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_638|ref=Against Philocrates_12
-13	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_639|ref=Against Philocrates_12
-14	πεντακόσιοι	πεντακόσιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_640|ref=Against Philocrates_12
-15	μὲν	μέν	d	d--------	_	24	AuxY	_	t_641|ref=Against Philocrates_12
-16	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	14	ATR	_	t_642|ref=Against Philocrates_12
-17	εἴησαν	εἰμί	v	v3ppoa---	Mood=o|Number=p|Person=3|Tense=p|Voice=a	24	OBJ	_	t_643|ref=Against Philocrates_12
-18	ἐκ	ἐκ	r	r--------	_	21	AuxP	_	t_644|ref=Against Philocrates_12
-19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_645|ref=Against Philocrates_12
-20	Πειραιῶς	πειραιεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_646|ref=Against Philocrates_12
-21	δεδεκασμένοι	δεκαστάζω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	17	PNOM	_	t_647|ref=Against Philocrates_12
-22	,	,	u	u--------	_	12	AuxX	_	t_648|ref=Against Philocrates_12
-23	ἑξακόσιοι	ἑξακόσιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_649|ref=Against Philocrates_12
-24	δὲ	δέ	c	c--------	_	13	COORD	_	t_650|ref=Against Philocrates_12
-25	καὶ	καί	c	c--------	_	30	COORD	_	t_651|ref=Against Philocrates_12
-26	χίλιοι	χίλιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_652|ref=Against Philocrates_12
-27	ἐκ	ἐκ	r	r--------	_	30	AuxP	_	t_653|ref=Against Philocrates_12
-28	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_654|ref=Against Philocrates_12
-29	ἄστεως	ἄστυ	n	n-s---ng-	Case=g|Gender=n|Number=s	27	PNOM	_	t_655|ref=Against Philocrates_12
-30	[0]	[0]	-	---------	_	24	OBJ	_	e_8|ref=Against Philocrates_1
-31	·	·	u	u--------	_	12	AuxK	_	t_656|ref=Against Philocrates_12
+1	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_627|t_638|ref=Lys. 29_11
+2	γάρ	γάρ	d	d--------	_	12	AuxY	_	t_628|t_638|ref=Lys. 29_11
+3	,	,	u	u--------	_	12	AuxX	_	t_629|t_638|ref=Lys. 29_11
+4	ὅτε	ὅτε	c	c--------	_	12	AuxC	_	t_630|t_638|ref=Lys. 29_11
+5	Ἐργοκλῆς	ἐργοκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_631|t_632|ref=Lys. 29_11
+6	ἐκρίνετο	κρίνω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	4	ADV	_	t_632|t_630|ref=Lys. 29_11
+7	,	,	u	u--------	_	12	AuxX	_	t_633|t_638|ref=Lys. 29_11
+8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_634|t_637|ref=Lys. 29_12
+9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_635|t_636|ref=Lys. 29_12
+10	δήμῳ	δῆμος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_636|t_634|ref=Lys. 29_12
+11	περιιόντες	περίειμι1	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_637|t_638|ref=Lys. 29_12
+12	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_638|0|ref=Lys. 29_12
+13	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_639|t_638|ref=Lys. 29_12
+14	πεντακόσιοι	πεντακόσιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_640|t_643|ref=Lys. 29_12
+15	μὲν	μέν	d	d--------	_	24	AuxY	_	t_641|t_650|ref=Lys. 29_12
+16	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	14	ATR	_	t_642|t_640|ref=Lys. 29_12
+17	εἴησαν	εἰμί	v	v3ppoa---	Mood=o|Number=p|Person=3|Tense=p|Voice=a	24	OBJ	_	t_643|t_650|ref=Lys. 29_12
+18	ἐκ	ἐκ	r	r--------	_	21	AuxP	_	t_644|t_647|ref=Lys. 29_12
+19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_645|t_646|ref=Lys. 29_12
+20	Πειραιῶς	πειραιεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_646|t_644|ref=Lys. 29_12
+21	δεδεκασμένοι	δεκαστάζω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	17	PNOM	_	t_647|t_643|ref=Lys. 29_12
+22	,	,	u	u--------	_	12	AuxX	_	t_648|t_638|ref=Lys. 29_12
+23	ἑξακόσιοι	ἑξακόσιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_649|t_651|ref=Lys. 29_12
+24	δὲ	δέ	c	c--------	_	13	COORD	_	t_650|t_639|ref=Lys. 29_12
+25	καὶ	καί	c	c--------	_	30	COORD	_	t_651|e_8|ref=Lys. 29_12
+26	χίλιοι	χίλιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_652|t_651|ref=Lys. 29_12
+27	ἐκ	ἐκ	r	r--------	_	30	AuxP	_	t_653|e_8|ref=Lys. 29_12
+28	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_654|t_655|ref=Lys. 29_12
+29	ἄστεως	ἄστυ	n	n-s---ng-	Case=g|Gender=n|Number=s	27	PNOM	_	t_655|t_653|ref=Lys. 29_12
+30	[0]	[0]	-	---------	_	24	OBJ	_	e_8|t_650|ref=Lys. 29_1
+31	·	·	u	u--------	_	12	AuxK	_	t_656|t_638|ref=Lys. 29_12
 
-# source = Lysias, Against Philocrates 12
+# source = Lysias, Lys. 29 12
 # text = μᾶλλον δὲ προσεποιοῦντο πιστεύειν τοῖς χρήμασιν ἢ δεδιέναι τὰ αὑτῶν ἁμαρτήματα [0] .
 # sent_id = 32
-1	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	3	ADV	_	t_657|ref=Against Philocrates_12
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_658|ref=Against Philocrates_12
-3	προσεποιοῦντο	προσποιέω	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	0	PRED	_	t_659|ref=Against Philocrates_12
-4	πιστεύειν	πιστεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_660|ref=Against Philocrates_12
-5	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	6	ATR	_	t_661|ref=Against Philocrates_12
-6	χρήμασιν	χρῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	4	OBJ	_	t_662|ref=Against Philocrates_12
-7	ἢ	ἤ1	c	c--------	_	1	AuxC	_	t_663|ref=Against Philocrates_12
-8	δεδιέναι	δείδω	v	v--rna---	Mood=n|Tense=r|Voice=a	12	OBJ	_	t_664|ref=Against Philocrates_12
-9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_665|ref=Against Philocrates_12
-10	αὑτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_666|ref=Against Philocrates_12
-11	ἁμαρτήματα	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_667|ref=Against Philocrates_12
-12	[0]	[0]	-	---------	_	7	ADV	_	e_9|ref=Against Philocrates_1
-13	.	.	u	u--------	_	3	AuxK	_	t_668|ref=Against Philocrates_12
+1	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	3	ADV	_	t_657|t_659|ref=Lys. 29_12
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_658|t_659|ref=Lys. 29_12
+3	προσεποιοῦντο	προσποιέω	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	0	PRED	_	t_659|0|ref=Lys. 29_12
+4	πιστεύειν	πιστεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_660|t_659|ref=Lys. 29_12
+5	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	6	ATR	_	t_661|t_662|ref=Lys. 29_12
+6	χρήμασιν	χρῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	4	OBJ	_	t_662|t_660|ref=Lys. 29_12
+7	ἢ	ἤ1	c	c--------	_	1	AuxC	_	t_663|t_657|ref=Lys. 29_12
+8	δεδιέναι	δείδω	v	v--rna---	Mood=n|Tense=r|Voice=a	12	OBJ	_	t_664|e_9|ref=Lys. 29_12
+9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_665|t_667|ref=Lys. 29_12
+10	αὑτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_666|t_667|ref=Lys. 29_12
+11	ἁμαρτήματα	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_667|t_664|ref=Lys. 29_12
+12	[0]	[0]	-	---------	_	7	ADV	_	e_9|t_663|ref=Lys. 29_1
+13	.	.	u	u--------	_	3	AuxK	_	t_668|t_659|ref=Lys. 29_12
 
-# source = Lysias, Against Philocrates 12-13
+# source = Lysias, Lys. 29 12-13
 # text = ἐκεῖ μὲν οὖν ἐπεδείξατε αὐτοῖς , ἐὰν δὲ εὖ φρονῆτε , καὶ νυνὶ τοῦτο φανερὸν πᾶσιν ἀνθρώποις ποιήσετε , ὅτι οὐκ ἔστι τοσαῦτα χρήματα ἃ ὑμᾶς , οὓς ἂν λαμβάνητε ἀδικοῦντας , ἀποτρέψει τιμωρεῖσθαι , καὶ μηδεμίαν αὐτοῖς ἄδειαν δώσετε τὰ ὑμέτερα αὐτῶν διαρπάζουσι καὶ κλέπτουσιν .
 # sent_id = 33
-1	ἐκεῖ	ἐκεῖ	d	d--------	_	4	ADV	_	t_669|ref=Against Philocrates_12
-2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_670|ref=Against Philocrates_12
-3	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_671|ref=Against Philocrates_12
-4	ἐπεδείξατε	ἐπιδείκνυμι	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	8	PRED	_	t_672|ref=Against Philocrates_12
-5	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_673|ref=Against Philocrates_12
-6	,	,	u	u--------	_	0	AuxX	_	t_674|ref=Against Philocrates_12
-7	ἐὰν	ἐάν	c	c--------	_	18	AuxC	_	t_675|ref=Against Philocrates_12
-8	δὲ	δέ	c	c--------	_	6	COORD	_	t_676|ref=Against Philocrates_12
-9	εὖ	εὖ	d	d--------	_	10	ADV	_	t_677|ref=Against Philocrates_12
-10	φρονῆτε	φρονέω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	7	ADV	_	t_678|ref=Against Philocrates_13
-11	,	,	u	u--------	_	6	AuxX	_	t_679|ref=Against Philocrates_13
-12	καὶ	καί	d	d--------	_	13	AuxZ	_	t_680|ref=Against Philocrates_13
-13	νυνὶ	νυνί	d	d--------	_	18	ADV	_	t_681|ref=Against Philocrates_13
-14	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_682|ref=Against Philocrates_13
-15	φανερὸν	φανερός	a	a-s---na-	Case=a|Gender=n|Number=s	18	OCOMP	_	t_683|ref=Against Philocrates_13
-16	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_684|ref=Against Philocrates_13
-17	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_685|ref=Against Philocrates_13
-18	ποιήσετε	ποιέω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	8	PRED	_	t_686|ref=Against Philocrates_13
-19	,	,	u	u--------	_	18	APOS	_	t_687|ref=Against Philocrates_13
-20	ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_688|ref=Against Philocrates_13
-21	οὐκ	οὐ	d	d--------	_	22	AuxZ	_	t_689|ref=Against Philocrates_13
-22	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	OBJ	_	t_690|ref=Against Philocrates_13
-23	τοσαῦτα	τοσοῦτος	a	a-p---nn-	Case=n|Gender=n|Number=p	24	ATR	_	t_691|ref=Against Philocrates_13
-24	χρήματα	χρῆμα	n	n-p---nn-	Case=n|Gender=n|Number=p	22	SBJ	_	t_692|ref=Against Philocrates_13
-25	ἃ	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	33	SBJ	_	t_693|ref=Against Philocrates_13
-26	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	33	OBJ	_	t_694|ref=Against Philocrates_13
-27	,	,	u	u--------	_	6	AuxX	_	t_695|ref=Against Philocrates_13
-28	οὓς	ὅς	p	p-p---ma-	Case=a|Gender=m|Number=p	30	OBJ	_	t_696|ref=Against Philocrates_13
-29	ἂν	ἄν	d	d--------	_	30	AuxY	_	t_697|ref=Against Philocrates_13
-30	λαμβάνητε	λαμβάνω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	24	ATR	_	t_698|ref=Against Philocrates_13
-31	ἀδικοῦντας	ἀδικέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	30	OCOMP	_	t_699|ref=Against Philocrates_13
-32	,	,	u	u--------	_	6	AuxX	_	t_700|ref=Against Philocrates_13
-33	ἀποτρέψει	ἀποτρέπω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	24	ATR	_	t_701|ref=Against Philocrates_13
-34	τιμωρεῖσθαι	τιμωρέω	v	v--pne---	Mood=n|Tense=p|Voice=e	33	OBJ	_	t_702|ref=Against Philocrates_13
-35	,	,	u	u--------	_	6	AuxX	_	t_703|ref=Against Philocrates_13
-36	καὶ	καί	c	c--------	_	20	COORD	_	t_704|ref=Against Philocrates_13
-37	μηδεμίαν	μηδείς	a	a-s---fa-	Case=a|Gender=f|Number=s	39	ATR	_	t_705|ref=Against Philocrates_13
-38	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	40	OBJ	_	t_706|ref=Against Philocrates_13
-39	ἄδειαν	ἄδεια	n	n-s---fa-	Case=a|Gender=f|Number=s	40	OBJ	_	t_707|ref=Against Philocrates_13
-40	δώσετε	δίδωμι	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	36	OBJ	_	t_708|ref=Against Philocrates_13
-41	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_709|ref=Against Philocrates_13
-42	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	40	OBJ	_	t_710|ref=Against Philocrates_13
-43	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	42	ATR	_	t_711|ref=Against Philocrates_13
-44	διαρπάζουσι	διαρπάζω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	45	OBJ	_	t_712|ref=Against Philocrates_13
-45	καὶ	καί	c	c--------	_	40	COORD	_	t_713|ref=Against Philocrates_13
-46	κλέπτουσιν	κλέπτω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	45	OBJ	_	t_714|ref=Against Philocrates_13
-47	.	.	u	u--------	_	6	AuxK	_	t_715|ref=Against Philocrates_13
+1	ἐκεῖ	ἐκεῖ	d	d--------	_	4	ADV	_	t_669|t_672|ref=Lys. 29_12
+2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_670|t_676|ref=Lys. 29_12
+3	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_671|t_676|ref=Lys. 29_12
+4	ἐπεδείξατε	ἐπιδείκνυμι	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	8	PRED	_	t_672|t_676|ref=Lys. 29_12
+5	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_673|t_672|ref=Lys. 29_12
+6	,	,	u	u--------	_	0	AuxX	_	t_674|0|ref=Lys. 29_12
+7	ἐὰν	ἐάν	c	c--------	_	18	AuxC	_	t_675|t_686|ref=Lys. 29_12
+8	δὲ	δέ	c	c--------	_	6	COORD	_	t_676|t_674|ref=Lys. 29_12
+9	εὖ	εὖ	d	d--------	_	10	ADV	_	t_677|t_678|ref=Lys. 29_12
+10	φρονῆτε	φρονέω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	7	ADV	_	t_678|t_675|ref=Lys. 29_13
+11	,	,	u	u--------	_	6	AuxX	_	t_679|t_674|ref=Lys. 29_13
+12	καὶ	καί	d	d--------	_	13	AuxZ	_	t_680|t_681|ref=Lys. 29_13
+13	νυνὶ	νυνί	d	d--------	_	18	ADV	_	t_681|t_686|ref=Lys. 29_13
+14	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_682|t_687|ref=Lys. 29_13
+15	φανερὸν	φανερός	a	a-s---na-	Case=a|Gender=n|Number=s	18	OCOMP	_	t_683|t_686|ref=Lys. 29_13
+16	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_684|t_685|ref=Lys. 29_13
+17	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_685|t_683|ref=Lys. 29_13
+18	ποιήσετε	ποιέω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	8	PRED	_	t_686|t_676|ref=Lys. 29_13
+19	,	,	u	u--------	_	18	APOS	_	t_687|t_686|ref=Lys. 29_13
+20	ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_688|t_687|ref=Lys. 29_13
+21	οὐκ	οὐ	d	d--------	_	22	AuxZ	_	t_689|t_690|ref=Lys. 29_13
+22	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	OBJ	_	t_690|t_688|ref=Lys. 29_13
+23	τοσαῦτα	τοσοῦτος	a	a-p---nn-	Case=n|Gender=n|Number=p	24	ATR	_	t_691|t_692|ref=Lys. 29_13
+24	χρήματα	χρῆμα	n	n-p---nn-	Case=n|Gender=n|Number=p	22	SBJ	_	t_692|t_690|ref=Lys. 29_13
+25	ἃ	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	33	SBJ	_	t_693|t_701|ref=Lys. 29_13
+26	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	33	OBJ	_	t_694|t_701|ref=Lys. 29_13
+27	,	,	u	u--------	_	6	AuxX	_	t_695|t_674|ref=Lys. 29_13
+28	οὓς	ὅς	p	p-p---ma-	Case=a|Gender=m|Number=p	30	OBJ	_	t_696|t_698|ref=Lys. 29_13
+29	ἂν	ἄν	d	d--------	_	30	AuxY	_	t_697|t_698|ref=Lys. 29_13
+30	λαμβάνητε	λαμβάνω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	24	ATR	_	t_698|t_692|ref=Lys. 29_13
+31	ἀδικοῦντας	ἀδικέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	30	OCOMP	_	t_699|t_698|ref=Lys. 29_13
+32	,	,	u	u--------	_	6	AuxX	_	t_700|t_674|ref=Lys. 29_13
+33	ἀποτρέψει	ἀποτρέπω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	24	ATR	_	t_701|t_692|ref=Lys. 29_13
+34	τιμωρεῖσθαι	τιμωρέω	v	v--pne---	Mood=n|Tense=p|Voice=e	33	OBJ	_	t_702|t_701|ref=Lys. 29_13
+35	,	,	u	u--------	_	6	AuxX	_	t_703|t_674|ref=Lys. 29_13
+36	καὶ	καί	c	c--------	_	20	COORD	_	t_704|t_688|ref=Lys. 29_13
+37	μηδεμίαν	μηδείς	a	a-s---fa-	Case=a|Gender=f|Number=s	39	ATR	_	t_705|t_707|ref=Lys. 29_13
+38	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	40	OBJ	_	t_706|t_708|ref=Lys. 29_13
+39	ἄδειαν	ἄδεια	n	n-s---fa-	Case=a|Gender=f|Number=s	40	OBJ	_	t_707|t_708|ref=Lys. 29_13
+40	δώσετε	δίδωμι	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	36	OBJ	_	t_708|t_704|ref=Lys. 29_13
+41	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_709|t_710|ref=Lys. 29_13
+42	ὑμέτερα	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	40	OBJ	_	t_710|t_708|ref=Lys. 29_13
+43	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	42	ATR	_	t_711|t_710|ref=Lys. 29_13
+44	διαρπάζουσι	διαρπάζω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	45	OBJ	_	t_712|t_713|ref=Lys. 29_13
+45	καὶ	καί	c	c--------	_	40	COORD	_	t_713|t_708|ref=Lys. 29_13
+46	κλέπτουσιν	κλέπτω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	45	OBJ	_	t_714|t_713|ref=Lys. 29_13
+47	.	.	u	u--------	_	6	AuxK	_	t_715|t_674|ref=Lys. 29_13
 
-# source = Lysias, Against Philocrates 13
+# source = Lysias, Lys. 29 13
 # text = ἐγὼ μὲν οὖν ταῦτα ὑμῖν παραινῶ .
 # sent_id = 34
-1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_716|ref=Against Philocrates_13
-2	μὲν	μέν	d	d--------	_	6	AuxY	_	t_717|ref=Against Philocrates_13
-3	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_718|ref=Against Philocrates_13
-4	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_719|ref=Against Philocrates_13
-5	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_720|ref=Against Philocrates_13
-6	παραινῶ	παραινέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_721|ref=Against Philocrates_13
-7	.	.	u	u--------	_	6	AuxK	_	t_722|ref=Against Philocrates_13
+1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_716|t_721|ref=Lys. 29_13
+2	μὲν	μέν	d	d--------	_	6	AuxY	_	t_717|t_721|ref=Lys. 29_13
+3	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_718|t_721|ref=Lys. 29_13
+4	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_719|t_721|ref=Lys. 29_13
+5	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_720|t_721|ref=Lys. 29_13
+6	παραινῶ	παραινέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_721|0|ref=Lys. 29_13
+7	.	.	u	u--------	_	6	AuxK	_	t_722|t_721|ref=Lys. 29_13
 
-# source = Lysias, Against Philocrates 13-14
+# source = Lysias, Lys. 29 13-14
 # text = πάντες γὰρ ἐπίστασθε ὅτι Ἐργοκλῆς χρηματιούμενος ἀλλʼ οὐ πρὸς ὑμᾶς φιλοτιμησόμενος ἐξέπλευσε , καὶ οὐδεὶς ἄλλος ἔχει τὰ χρήματα ἢ οὗτος [0] .
 # sent_id = 35
-1	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_723|ref=Against Philocrates_13
-2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_724|ref=Against Philocrates_13
-3	ἐπίστασθε	ἐπίσταμαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_725|ref=Against Philocrates_14
-4	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_726|ref=Against Philocrates_14
-5	Ἐργοκλῆς	ἐργοκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_727|ref=Against Philocrates_14
-6	χρηματιούμενος	χρηματίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	7	ADV	_	t_728|ref=Against Philocrates_14
-7	ἀλλʼ	ἀλλά	c	c--------	_	12	COORD	_	t_729|ref=Against Philocrates_14
-8	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_730|ref=Against Philocrates_14
-9	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_731|ref=Against Philocrates_14
-10	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_732|ref=Against Philocrates_14
-11	φιλοτιμησόμενος	φιλοτιμέομαι	v	v-sfpmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=m	7	ADV	_	t_733|ref=Against Philocrates_14
-12	ἐξέπλευσε	ἐκπλέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	OBJ	_	t_734|ref=Against Philocrates_14
-13	,	,	u	u--------	_	3	AuxX	_	t_735|ref=Against Philocrates_14
-14	καὶ	καί	c	c--------	_	4	COORD	_	t_736|ref=Against Philocrates_14
-15	οὐδεὶς	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_737|ref=Against Philocrates_14
-16	ἄλλος	ἄλλος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	ATR	_	t_738|ref=Against Philocrates_14
-17	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	OBJ	_	t_739|ref=Against Philocrates_14
-18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_740|ref=Against Philocrates_14
-19	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_741|ref=Against Philocrates_14
-20	ἢ	ἤ1	c	c--------	_	16	AuxC	_	t_742|ref=Against Philocrates_14
-21	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_743|ref=Against Philocrates_14
-22	[0]	[0]	-	---------	_	20	ADV	_	e_10|ref=Against Philocrates_1
-23	.	.	u	u--------	_	3	AuxK	_	t_744|ref=Against Philocrates_14
+1	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_723|t_725|ref=Lys. 29_13
+2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_724|t_725|ref=Lys. 29_13
+3	ἐπίστασθε	ἐπίσταμαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_725|0|ref=Lys. 29_14
+4	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_726|t_725|ref=Lys. 29_14
+5	Ἐργοκλῆς	ἐργοκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_727|t_734|ref=Lys. 29_14
+6	χρηματιούμενος	χρηματίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	7	ADV	_	t_728|t_729|ref=Lys. 29_14
+7	ἀλλʼ	ἀλλά	c	c--------	_	12	COORD	_	t_729|t_734|ref=Lys. 29_14
+8	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_730|t_733|ref=Lys. 29_14
+9	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_731|t_733|ref=Lys. 29_14
+10	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_732|t_731|ref=Lys. 29_14
+11	φιλοτιμησόμενος	φιλοτιμέομαι	v	v-sfpmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=m	7	ADV	_	t_733|t_729|ref=Lys. 29_14
+12	ἐξέπλευσε	ἐκπλέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	OBJ	_	t_734|t_736|ref=Lys. 29_14
+13	,	,	u	u--------	_	3	AuxX	_	t_735|t_725|ref=Lys. 29_14
+14	καὶ	καί	c	c--------	_	4	COORD	_	t_736|t_726|ref=Lys. 29_14
+15	οὐδεὶς	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_737|t_739|ref=Lys. 29_14
+16	ἄλλος	ἄλλος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	ATR	_	t_738|t_737|ref=Lys. 29_14
+17	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	OBJ	_	t_739|t_736|ref=Lys. 29_14
+18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_740|t_741|ref=Lys. 29_14
+19	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_741|t_739|ref=Lys. 29_14
+20	ἢ	ἤ1	c	c--------	_	16	AuxC	_	t_742|t_738|ref=Lys. 29_14
+21	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_743|e_10|ref=Lys. 29_14
+22	[0]	[0]	-	---------	_	20	ADV	_	e_10|t_742|ref=Lys. 29_1
+23	.	.	u	u--------	_	3	AuxK	_	t_744|t_725|ref=Lys. 29_14
 
-# source = Lysias, Against Philocrates 14
+# source = Lysias, Lys. 29 14
 # text = ἐὰν οὖν σωφρονῆτε , τὰ ὑμέτερʼ αὐτῶν κομιεῖσθε .
 # sent_id = 36
-1	ἐὰν	ἐάν	c	c--------	_	8	AuxC	_	t_745|ref=Against Philocrates_14
-2	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_746|ref=Against Philocrates_14
-3	σωφρονῆτε	σωφρονέω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	1	ADV	_	t_747|ref=Against Philocrates_14
-4	,	,	u	u--------	_	8	AuxX	_	t_748|ref=Against Philocrates_14
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_749|ref=Against Philocrates_14
-6	ὑμέτερʼ	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_750|ref=Against Philocrates_14
-7	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_751|ref=Against Philocrates_14
-8	κομιεῖσθε	κομίζω	v	v2pfim---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	0	PRED	_	t_752|ref=Against Philocrates_14
-9	.	.	u	u--------	_	8	AuxK	_	t_753|ref=Against Philocrates_14
+1	ἐὰν	ἐάν	c	c--------	_	8	AuxC	_	t_745|t_752|ref=Lys. 29_14
+2	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_746|t_752|ref=Lys. 29_14
+3	σωφρονῆτε	σωφρονέω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	1	ADV	_	t_747|t_745|ref=Lys. 29_14
+4	,	,	u	u--------	_	8	AuxX	_	t_748|t_752|ref=Lys. 29_14
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_749|t_750|ref=Lys. 29_14
+6	ὑμέτερʼ	ὑμέτερος	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_750|t_752|ref=Lys. 29_14
+7	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_751|t_750|ref=Lys. 29_14
+8	κομιεῖσθε	κομίζω	v	v2pfim---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	0	PRED	_	t_752|0|ref=Lys. 29_14
+9	.	.	u	u--------	_	8	AuxK	_	t_753|t_752|ref=Lys. 29_14
 

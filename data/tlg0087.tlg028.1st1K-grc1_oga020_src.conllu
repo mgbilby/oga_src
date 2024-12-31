@@ -1,357 +1,357 @@
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 1
+# source = Aelius Herodianus, monosyl. 1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Περὶ μονοσυλλάβων_1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Περὶ μονοσυλλάβων_1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=monosyl._1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=monosyl._1
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 1
+# source = Aelius Herodianus, monosyl. 1
 # text = πᾶν ὄνομα μονοϲύλλαβον μακροκαταληκτεῖν θέλει εἴ τε φύϲει εἶτε θέϲει [0] ·
 # sent_id = 2
-1	πᾶν	πᾶς	a	a-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_3|ref=Περὶ μονοσυλλάβων_1
-2	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_4|ref=Περὶ μονοσυλλάβων_1
-3	μονοϲύλλαβον	μονοσύλλαβος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_5|ref=Περὶ μονοσυλλάβων_1
-4	μακροκαταληκτεῖν	μακροκαταληκτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_6|ref=Περὶ μονοσυλλάβων_1
-5	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_7|ref=Περὶ μονοσυλλάβων_1
-6	εἴ	εἰ	d	d--------	_	7	AuxY	_	t_8|ref=Περὶ μονοσυλλάβων_1
-7	τε	τε	c	c--------	_	9	AuxY	_	t_9|ref=Περὶ μονοσυλλάβων_1
-8	φύϲει	φύσις	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	9	ADV	_	t_10|ref=Περὶ μονοσυλλάβων_1
-9	εἶτε	εἶτα	c	c--------	_	11	COORD	_	t_11|ref=Περὶ μονοσυλλάβων_1
-10	θέϲει	θέσις	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	9	ADV	_	t_12|ref=Περὶ μονοσυλλάβων_1
-11	[0]	[0]	-	---------	_	5	APOS	_	e_1|ref=Περὶ μονοσυλλάβων_1
-12	·	·	u	u--------	_	5	AuxK	_	t_13|ref=Περὶ μονοσυλλάβων_1
+1	πᾶν	πᾶς	a	a-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_3|t_4|ref=monosyl._1
+2	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_4|t_7|ref=monosyl._1
+3	μονοϲύλλαβον	μονοσύλλαβος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_5|t_4|ref=monosyl._1
+4	μακροκαταληκτεῖν	μακροκαταληκτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_6|t_7|ref=monosyl._1
+5	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_7|0|ref=monosyl._1
+6	εἴ	εἰ	d	d--------	_	7	AuxY	_	t_8|t_9|ref=monosyl._1
+7	τε	τε	c	c--------	_	9	AuxY	_	t_9|t_11|ref=monosyl._1
+8	φύϲει	φύσις	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	9	ADV	_	t_10|t_11|ref=monosyl._1
+9	εἶτε	εἶτα	c	c--------	_	11	COORD	_	t_11|e_1|ref=monosyl._1
+10	θέϲει	θέσις	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	9	ADV	_	t_12|t_11|ref=monosyl._1
+11	[0]	[0]	-	---------	_	5	APOS	_	e_1|t_7|ref=monosyl._1
+12	·	·	u	u--------	_	5	AuxK	_	t_13|t_7|ref=monosyl._1
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 1
+# source = Aelius Herodianus, monosyl. 1
 # text = φύϲει μὲν οἷον Γρᾶϲ , πᾶϲ , Κρήϲ , Τρώϲ , ϲήϲ ὁ ϲκώληξ , νοῦϲ , παῖϲ , βοῦϲ , θέϲει δὲ οἷον νύξ , Ϲτύξ , φλόξ , Φρύξ , ἅλϲ χωρὶϲ τοῦ τίϲ τοῦτο γὰρ ϲυϲτέλλει τὸ ῑ , καὶ χωρὶϲ τοῦ πόϲ , ὅπερ ἀπὸ τοῦ πούϲ γέγονε κατʼ ἀποβολὴν τοῦ ῦ κῷ πὸϲ ἄγʼ ἱεμένοιϲι » καὶ τοῦ ἕν καὶ τοῦ θέν , ὅπερ ἰϲοδυναμεῖ τῷ τί , ὅπερ ϲυνεχῶϲ εὑρίϲκεται μετὰ τῆϲ οὐ ἀποφάϲεωϲ καὶ τῆϲ μή ἀπαγορεύϲεωϲ οἷον οὐδέν , μηδέν , καὶ χωρὶϲ τοῦ ὅϲ « ὃϲ ἆν ἐθέλῃ , μεινάτω με » καὶ χωρὶϲ τοῦ πάν παρʼ Αἰολεῦϲιν ( οἱ γὰρ Αἰολεῖϲ τοῦ πᾶν τὸ α ϲυϲτέλλουϲι ) καὶ χωρὶϲ τοῦ Δί , ὅπερ ἀπὸ τοῦ Δία γέγονε κατʼ ἀποκοπήν , ὅπερ καὶ μετὰ τοῦ νή ἐπιρρήματοϲ γίνεται νὴ Δί [0] .
 # sent_id = 3
-1	φύϲει	φύσις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	23	PRED	_	t_14|ref=Περὶ μονοσυλλάβων_1
-2	μὲν	μέν	d	d--------	_	1	AuxY	_	t_15|ref=Περὶ μονοσυλλάβων_1
-3	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	1	AuxC	_	t_16|ref=Περὶ μονοσυλλάβων_1
-4	Γρᾶϲ	γραῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	118	SBJ	_	t_17|ref=Περὶ μονοσυλλάβων_1
-5	,	,	u	u--------	_	23	AuxX	_	t_18|ref=Περὶ μονοσυλλάβων_1
-6	πᾶϲ	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_19|ref=Περὶ μονοσυλλάβων_1
-7	,	,	u	u--------	_	23	AuxX	_	t_20|ref=Περὶ μονοσυλλάβων_1
-8	Κρήϲ	κρής	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_21|ref=Περὶ μονοσυλλάβων_1
-9	,	,	u	u--------	_	23	AuxX	_	t_22|ref=Περὶ μονοσυλλάβων_1
-10	Τρώϲ	τρώς	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_23|ref=Περὶ μονοσυλλάβων_1
-11	,	,	u	u--------	_	23	AuxX	_	t_24|ref=Περὶ μονοσυλλάβων_1
-12	ϲήϲ	ςός	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_25|ref=Περὶ μονοσυλλάβων_1
-13	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_26|ref=Περὶ μονοσυλλάβων_1
-14	ϲκώληξ	ςκώληξ	n	n-s---mn-	Case=n|Gender=m|Number=s	116	APOS	_	t_27|ref=Περὶ μονοσυλλάβων_1
-15	,	,	u	u--------	_	23	AuxX	_	t_28|ref=Περὶ μονοσυλλάβων_1
-16	νοῦϲ	νόος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_29|ref=Περὶ μονοσυλλάβων_1
-17	,	,	u	u--------	_	23	AuxX	_	t_30|ref=Περὶ μονοσυλλάβων_1
-18	παῖϲ	παῖς	n	n-s---cn-	Case=n|Gender=c|Number=s	19	SBJ	_	t_31|ref=Περὶ μονοσυλλάβων_1
-19	,	,	u	u--------	_	32	COORD	_	t_32|ref=Περὶ μονοσυλλάβων_1
-20	βοῦϲ	βοῦς	n	n-s---mn-	Case=n|Gender=c|Number=s	19	SBJ	_	t_33|ref=Περὶ μονοσυλλάβων_1
-21	,	,	u	u--------	_	23	AuxX	_	t_34|ref=Περὶ μονοσυλλάβων_1
-22	θέϲει	θέσις	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	23	PRED	_	t_35|ref=Περὶ μονοσυλλάβων_1
-23	δὲ	δέ	d	d--------	_	0	COORD	_	t_36|ref=Περὶ μονοσυλλάβων_1
-24	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	22	AuxC	_	t_37|ref=Περὶ μονοσυλλάβων_1
-25	νύξ	νύξ	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_38|ref=Περὶ μονοσυλλάβων_1
-26	,	,	u	u--------	_	23	AuxX	_	t_39|ref=Περὶ μονοσυλλάβων_1
-27	Ϲτύξ	στύξ	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_40|ref=Περὶ μονοσυλλάβων_1
-28	,	,	u	u--------	_	23	AuxX	_	t_41|ref=Περὶ μονοσυλλάβων_1
-29	φλόξ	φλόξ	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_42|ref=Περὶ μονοσυλλάβων_1
-30	,	,	u	u--------	_	23	AuxX	_	t_43|ref=Περὶ μονοσυλλάβων_1
-31	Φρύξ	φρύξ	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_44|ref=Περὶ μονοσυλλάβων_1
-32	,	,	u	u--------	_	22	COORD	_	t_45|ref=Περὶ μονοσυλλάβων_1
-33	ἅλϲ	ἅλς	n	n-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_46|ref=Περὶ μονοσυλλάβων_1
-34	χωρὶϲ	χωρίς	r	r--------	_	22	AuxP	_	t_47|ref=Περὶ μονοσυλλάβων_1
-35	τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	34	ADV	_	t_48|ref=Περὶ μονοσυλλάβων_1
-36	τίϲ	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	39	ATR	_	t_49|ref=Περὶ μονοσυλλάβων_1
-37	τοῦτο	οὗτος	p	p-s---na-	Case=n|Gender=n|Number=s	39	ATR	_	t_50|ref=Περὶ μονοσυλλάβων_1
-38	γὰρ	γάρ	d	d--------	_	39	AuxY	_	t_51|ref=Περὶ μονοσυλλάβων_1
-39	ϲυϲτέλλει	συστέλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	140	PNOM	_	t_52|ref=Περὶ μονοσυλλάβων_1
-40	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	41	ATR	_	t_53|ref=Περὶ μονοσυλλάβων_1
-41	ῑ	ῑ	n	n--------	Case=a|Gender=n|Number=s	39	OBJ	_	t_54|ref=Περὶ μονοσυλλάβων_1
-42	,	,	u	u--------	_	23	AuxX	_	t_55|ref=Περὶ μονοσυλλάβων_1
-43	καὶ	καί	c	c--------	_	22	COORD	_	t_56|ref=Περὶ μονοσυλλάβων_1
-44	χωρὶϲ	χωρίς	r	r--------	_	62	AuxP	_	t_57|ref=Περὶ μονοσυλλάβων_1
-45	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	46	ATR	_	t_58|ref=Περὶ μονοσυλλάβων_1
-46	πόϲ	πούς	n	n-s---mg-	Case=g|Gender=m|Number=s	44	ATR	_	t_59|ref=Περὶ μονοσυλλάβων_1
-47	,	,	u	u--------	_	23	AuxX	_	t_60|ref=Περὶ μονοσυλλάβων_1
-48	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	52	SBJ	_	t_61|ref=Περὶ μονοσυλλάβων_1
-49	ἀπὸ	ἀπό	r	r--------	_	52	AuxP	_	t_62|ref=Περὶ μονοσυλλάβων_1
-50	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	135	ATR	_	t_63|ref=Περὶ μονοσυλλάβων_1
-51	πούϲ	πούς	p	p-s---ng-	_	49	ADV	_	t_64|ref=Περὶ μονοσυλλάβων_1
-52	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	46	ATR	_	t_65|ref=Περὶ μονοσυλλάβων_1
-53	κατʼ	κατά	r	r--------	_	52	AuxP	_	t_66|ref=Περὶ μονοσυλλάβων_1
-54	ἀποβολὴν	ἀποβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	53	ADV	_	t_67|ref=Περὶ μονοσυλλάβων_1
-55	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	56	ATR	_	t_68|ref=Περὶ μονοσυλλάβων_1
-56	ῦ	ῦ	l	l-s---ng-	Case=g|Gender=n|Number=s	135	ATR	_	t_69|ref=Περὶ μονοσυλλάβων_1
-57	κῷ	κῷος	n	n-s---md-	Case=d|Gender=n|Number=s	59	OBJ	_	t_70|ref=Περὶ μονοσυλλάβων_1
-58	πὸϲ	πρός	d	d--------	_	52	ADV	_	t_71|ref=Περὶ μονοσυλλάβων_1
-59	ἄγʼ	ἄγε	v	v3spia---	_	52	ADV	_	t_72|ref=Περὶ μονοσυλλάβων_1
-60	ἱεμένοιϲι	ἵημι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	59	ADV	_	t_73|ref=Περὶ μονοσυλλάβων_1
-61	»	»	u	u--------	_	23	AuxG	_	t_74|ref=Περὶ μονοσυλλάβων_1
-62	καὶ	καί	c	c--------	_	22	COORD	_	t_75|ref=Περὶ μονοσυλλάβων_1
-63	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	65	ATR	_	t_76|ref=Περὶ μονοσυλλάβων_1
-64	ἕν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	65	ATR	_	t_77|ref=Περὶ μονοσυλλάβων_1
-65	καὶ	καί	c	c--------	_	62	COORD	_	t_78|ref=Περὶ μονοσυλλάβων_1
-66	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	65	ATR	_	t_79|ref=Περὶ μονοσυλλάβων_1
-67	θέν	τίθημι	d	d--------	_	65	ATR	_	t_80|ref=Περὶ μονοσυλλάβων_1
-68	,	,	u	u--------	_	90	AuxX	_	t_81|ref=Περὶ μονοσυλλάβων_1
-69	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	70	SBJ	_	t_82|ref=Περὶ μονοσυλλάβων_1
-70	ἰϲοδυναμεῖ	ἰςοδυναμέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	65	ATR	_	t_83|ref=Περὶ μονοσυλλάβων_1
-71	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	72	ATR	_	t_84|ref=Περὶ μονοσυλλάβων_1
-72	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	70	OBJ	_	t_85|ref=Περὶ μονοσυλλάβων_1
-73	,	,	u	u--------	_	23	AuxX	_	t_86|ref=Περὶ μονοσυλλάβων_1
-74	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	76	SBJ	_	t_87|ref=Περὶ μονοσυλλάβων_1
-75	ϲυνεχῶϲ	συνεχής	d	d--------	_	76	ADV	_	t_88|ref=Περὶ μονοσυλλάβων_1
-76	εὑρίϲκεται	εὑρίσκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	88	ATR	_	t_89|ref=Περὶ μονοσυλλάβων_1
-77	μετὰ	μετά	r	r--------	_	76	AuxP	_	t_90|ref=Περὶ μονοσυλλάβων_1
-78	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	80	ATR	_	t_91|ref=Περὶ μονοσυλλάβων_1
-79	οὐ	οὐ	d	d--------	_	80	AuxZ	_	t_92|ref=Περὶ μονοσυλλάβων_1
-80	ἀποφάϲεωϲ	ἀπόφαςις	n	n-s---fg-	Case=g|Gender=f|Number=s	81	ADV	_	t_93|ref=Περὶ μονοσυλλάβων_1
-81	καὶ	καί	c	c--------	_	77	COORD	_	t_94|ref=Περὶ μονοσυλλάβων_1
-82	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	84	ATR	_	t_95|ref=Περὶ μονοσυλλάβων_1
-83	μή	μή	d	d--------	_	84	AuxZ	_	t_96|ref=Περὶ μονοσυλλάβων_1
-84	ἀπαγορεύϲεωϲ	ἀπόλειψις	n	n-s---fg-	Case=g|Gender=f|Number=s	81	ADV	_	t_97|ref=Περὶ μονοσυλλάβων_1
-85	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	86	AuxY	_	t_98|ref=Περὶ μονοσυλλάβων_1
-86	οὐδέν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	137	SBJ	_	t_99|ref=Περὶ μονοσυλλάβων_1
-87	,	,	u	u--------	_	23	AuxX	_	t_100|ref=Περὶ μονοσυλλάβων_1
-88	μηδέν	μηδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	99	OBJ	_	t_101|ref=Περὶ μονοσυλλάβων_1
-89	,	,	u	u--------	_	23	AuxX	_	t_102|ref=Περὶ μονοσυλλάβων_1
-90	καὶ	καί	c	c--------	_	118	AuxY	_	t_103|ref=Περὶ μονοσυλλάβων_1
-91	χωρὶϲ	χωρίς	r	r--------	_	118	AuxP	_	t_104|ref=Περὶ μονοσυλλάβων_1
-92	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	91	ADV	_	t_105|ref=Περὶ μονοσυλλάβων_1
-93	ὅϲ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	97	SBJ	_	t_106|ref=Περὶ μονοσυλλάβων_1
-94	«	«	u	u--------	_	23	AuxG	_	t_107|ref=Περὶ μονοσυλλάβων_1
-95	ὃϲ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	97	SBJ	_	t_108|ref=Περὶ μονοσυλλάβων_1
-96	ἆν	ἄν	p	p-p---ng-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	97	OBJ	_	t_109|ref=Περὶ μονοσυλλάβων_1
-97	ἐθέλῃ	ἐθέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	99	SBJ	_	t_110|ref=Περὶ μονοσυλλάβων_1
-98	,	,	u	u--------	_	23	AuxX	_	t_111|ref=Περὶ μονοσυλλάβων_1
-99	μεινάτω	μένω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	23	PRED	_	t_112|ref=Περὶ μονοσυλλάβων_1
-100	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	99	OBJ	_	t_113|ref=Περὶ μονοσυλλάβων_1
-101	»	»	u	u--------	_	23	AuxG	_	t_114|ref=Περὶ μονοσυλλάβων_1
-102	καὶ	καί	c	c--------	_	118	AuxY	_	t_115|ref=Περὶ μονοσυλλάβων_1
-103	χωρὶϲ	χωρίς	r	r--------	_	118	AuxP	_	t_116|ref=Περὶ μονοσυλλάβων_1
-104	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	103	ATR	_	t_117|ref=Περὶ μονοσυλλάβων_1
-105	πάν	πάν	a	a-s---nn-	Case=a|Gender=n|Number=s	103	ADV	_	t_118|ref=Περὶ μονοσυλλάβων_1
-106	παρʼ	παρά	r	r--------	_	105	AuxP	_	t_119|ref=Περὶ μονοσυλλάβων_1
-107	Αἰολεῦϲιν	αἰολεύς	n	n--------	Case=g|Gender=m|Number=s	106	ATR	_	t_120|ref=Περὶ μονοσυλλάβων_1
-108	(	̔	u	u--------	_	137	AuxG	_	t_121|ref=Περὶ μονοσυλλάβων_1
-109	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	111	ATR	_	t_122|ref=Περὶ μονοσυλλάβων_1
-110	γὰρ	γάρ	d	d--------	_	137	AuxY	_	t_123|ref=Περὶ μονοσυλλάβων_1
-111	Αἰολεῖϲ	αἰολεύς	n	n-p---mn-	Case=n|Gender=m|Number=p	127	SBJ	_	t_124|ref=Περὶ μονοσυλλάβων_1
-112	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	116	ATR	_	t_125|ref=Περὶ μονοσυλλάβων_1
-113	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	115	ATR	_	t_126|ref=Περὶ μονοσυλλάβων_1
-114	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	115	ATR	_	t_127|ref=Περὶ μονοσυλλάβων_1
-115	α	α	x	x--------	_	116	ATR	_	t_128|ref=Περὶ μονοσυλλάβων_1
-116	ϲυϲτέλλουϲι	στίλβω	n	n--------	Case=n|Degree=c|Gender=m|Number=p	127	PNOM	_	t_129|ref=Περὶ μονοσυλλάβων_1
-117	)	)	u	u--------	_	23	AuxG	_	t_130|ref=Περὶ μονοσυλλάβων_1
-118	καὶ	καί	c	c--------	_	99	COORD	_	t_131|ref=Περὶ μονοσυλλάβων_1
-119	χωρὶϲ	χωρίς	r	r--------	_	118	AuxP	_	t_132|ref=Περὶ μονοσυλλάβων_1
-120	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	121	ATR	_	t_133|ref=Περὶ μονοσυλλάβων_1
-121	Δί	ζεύς	n	n-s---mg-	Case=g|Gender=n|Number=s	119	ADV	_	t_134|ref=Περὶ μονοσυλλάβων_1
-122	,	,	u	u--------	_	23	AuxX	_	t_135|ref=Περὶ μονοσυλλάβων_1
-123	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	127	SBJ	_	t_136|ref=Περὶ μονοσυλλάβων_1
-124	ἀπὸ	ἀπό	r	r--------	_	127	AuxP	_	t_137|ref=Περὶ μονοσυλλάβων_1
-125	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	126	ATR	_	t_138|ref=Περὶ μονοσυλλάβων_1
-126	Δία	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	124	ADV	_	t_139|ref=Περὶ μονοσυλλάβων_1
-127	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	121	ATR	_	t_140|ref=Περὶ μονοσυλλάβων_1
-128	κατʼ	κατά	r	r--------	_	127	AuxP	_	t_141|ref=Περὶ μονοσυλλάβων_1
-129	ἀποκοπήν	ἀποκοπή	n	n-s---fa-	Case=a|Gender=f|Number=s	128	ADV	_	t_142|ref=Περὶ μονοσυλλάβων_1
-130	,	,	u	u--------	_	23	AuxX	_	t_143|ref=Περὶ μονοσυλλάβων_1
-131	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	137	SBJ	_	t_144|ref=Περὶ μονοσυλλάβων_1
-132	καὶ	καί	c	c--------	_	135	AuxZ	_	t_145|ref=Περὶ μονοσυλλάβων_1
-133	μετὰ	μετά	r	r--------	_	137	AuxP	_	t_146|ref=Περὶ μονοσυλλάβων_1
-134	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	136	ATR	_	t_147|ref=Περὶ μονοσυλλάβων_1
-135	νή	νή	a	a-s---ng-	Case=g|Gender=n|Number=s	133	ADV	_	t_148|ref=Περὶ μονοσυλλάβων_1
-136	ἐπιρρήματοϲ	ἐπίρρημα	n	n-s---ng-	Case=g|Gender=n|Number=s	133	ADV	_	t_149|ref=Περὶ μονοσυλλάβων_1
-137	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	121	ATR	_	t_150|ref=Περὶ μονοσυλλάβων_1
-138	νὴ	νή	r	r--------	_	137	AuxP	_	t_151|ref=Περὶ μονοσυλλάβων_1
-139	Δί	ζεύς	n	n--------	Case=a|Gender=f|Number=s	138	ADV	_	t_152|ref=Περὶ μονοσυλλάβων_1
-140	[0]	[0]	-	---------	_	22	ExD	_	e_2|ref=Περὶ μονοσυλλάβων_1
-141	.	.	u	u--------	_	23	AuxK	_	t_153|ref=Περὶ μονοσυλλάβων_1
+1	φύϲει	φύσις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	23	PRED	_	t_14|t_36|ref=monosyl._1
+2	μὲν	μέν	d	d--------	_	1	AuxY	_	t_15|t_14|ref=monosyl._1
+3	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	1	AuxC	_	t_16|t_14|ref=monosyl._1
+4	Γρᾶϲ	γραῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	118	SBJ	_	t_17|t_131|ref=monosyl._1
+5	,	,	u	u--------	_	23	AuxX	_	t_18|t_36|ref=monosyl._1
+6	πᾶϲ	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_19|t_32|ref=monosyl._1
+7	,	,	u	u--------	_	23	AuxX	_	t_20|t_36|ref=monosyl._1
+8	Κρήϲ	κρής	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_21|t_32|ref=monosyl._1
+9	,	,	u	u--------	_	23	AuxX	_	t_22|t_36|ref=monosyl._1
+10	Τρώϲ	τρώς	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_23|t_32|ref=monosyl._1
+11	,	,	u	u--------	_	23	AuxX	_	t_24|t_36|ref=monosyl._1
+12	ϲήϲ	ςός	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_25|t_32|ref=monosyl._1
+13	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_26|t_27|ref=monosyl._1
+14	ϲκώληξ	ςκώληξ	n	n-s---mn-	Case=n|Gender=m|Number=s	116	APOS	_	t_27|t_129|ref=monosyl._1
+15	,	,	u	u--------	_	23	AuxX	_	t_28|t_36|ref=monosyl._1
+16	νοῦϲ	νόος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_29|t_32|ref=monosyl._1
+17	,	,	u	u--------	_	23	AuxX	_	t_30|t_36|ref=monosyl._1
+18	παῖϲ	παῖς	n	n-s---cn-	Case=n|Gender=c|Number=s	19	SBJ	_	t_31|t_32|ref=monosyl._1
+19	,	,	u	u--------	_	32	COORD	_	t_32|t_45|ref=monosyl._1
+20	βοῦϲ	βοῦς	n	n-s---mn-	Case=n|Gender=c|Number=s	19	SBJ	_	t_33|t_32|ref=monosyl._1
+21	,	,	u	u--------	_	23	AuxX	_	t_34|t_36|ref=monosyl._1
+22	θέϲει	θέσις	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	23	PRED	_	t_35|t_36|ref=monosyl._1
+23	δὲ	δέ	d	d--------	_	0	COORD	_	t_36|0|ref=monosyl._1
+24	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	22	AuxC	_	t_37|t_35|ref=monosyl._1
+25	νύξ	νύξ	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_38|t_32|ref=monosyl._1
+26	,	,	u	u--------	_	23	AuxX	_	t_39|t_36|ref=monosyl._1
+27	Ϲτύξ	στύξ	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_40|t_32|ref=monosyl._1
+28	,	,	u	u--------	_	23	AuxX	_	t_41|t_36|ref=monosyl._1
+29	φλόξ	φλόξ	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_42|t_32|ref=monosyl._1
+30	,	,	u	u--------	_	23	AuxX	_	t_43|t_36|ref=monosyl._1
+31	Φρύξ	φρύξ	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_44|t_32|ref=monosyl._1
+32	,	,	u	u--------	_	22	COORD	_	t_45|t_35|ref=monosyl._1
+33	ἅλϲ	ἅλς	n	n-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_46|t_45|ref=monosyl._1
+34	χωρὶϲ	χωρίς	r	r--------	_	22	AuxP	_	t_47|t_35|ref=monosyl._1
+35	τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	34	ADV	_	t_48|t_47|ref=monosyl._1
+36	τίϲ	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	39	ATR	_	t_49|t_52|ref=monosyl._1
+37	τοῦτο	οὗτος	p	p-s---na-	Case=n|Gender=n|Number=s	39	ATR	_	t_50|t_52|ref=monosyl._1
+38	γὰρ	γάρ	d	d--------	_	39	AuxY	_	t_51|t_52|ref=monosyl._1
+39	ϲυϲτέλλει	συστέλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	140	PNOM	_	t_52|e_2|ref=monosyl._1
+40	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	41	ATR	_	t_53|t_54|ref=monosyl._1
+41	ῑ	ῑ	n	n--------	Case=a|Gender=n|Number=s	39	OBJ	_	t_54|t_52|ref=monosyl._1
+42	,	,	u	u--------	_	23	AuxX	_	t_55|t_36|ref=monosyl._1
+43	καὶ	καί	c	c--------	_	22	COORD	_	t_56|t_35|ref=monosyl._1
+44	χωρὶϲ	χωρίς	r	r--------	_	62	AuxP	_	t_57|t_75|ref=monosyl._1
+45	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	46	ATR	_	t_58|t_59|ref=monosyl._1
+46	πόϲ	πούς	n	n-s---mg-	Case=g|Gender=m|Number=s	44	ATR	_	t_59|t_57|ref=monosyl._1
+47	,	,	u	u--------	_	23	AuxX	_	t_60|t_36|ref=monosyl._1
+48	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	52	SBJ	_	t_61|t_65|ref=monosyl._1
+49	ἀπὸ	ἀπό	r	r--------	_	52	AuxP	_	t_62|t_65|ref=monosyl._1
+50	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	135	ATR	_	t_63|t_148|ref=monosyl._1
+51	πούϲ	πούς	p	p-s---ng-	_	49	ADV	_	t_64|t_62|ref=monosyl._1
+52	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	46	ATR	_	t_65|t_59|ref=monosyl._1
+53	κατʼ	κατά	r	r--------	_	52	AuxP	_	t_66|t_65|ref=monosyl._1
+54	ἀποβολὴν	ἀποβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	53	ADV	_	t_67|t_66|ref=monosyl._1
+55	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	56	ATR	_	t_68|t_69|ref=monosyl._1
+56	ῦ	ῦ	l	l-s---ng-	Case=g|Gender=n|Number=s	135	ATR	_	t_69|t_148|ref=monosyl._1
+57	κῷ	κῷος	n	n-s---md-	Case=d|Gender=n|Number=s	59	OBJ	_	t_70|t_72|ref=monosyl._1
+58	πὸϲ	πρός	d	d--------	_	52	ADV	_	t_71|t_65|ref=monosyl._1
+59	ἄγʼ	ἄγε	v	v3spia---	_	52	ADV	_	t_72|t_65|ref=monosyl._1
+60	ἱεμένοιϲι	ἵημι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	59	ADV	_	t_73|t_72|ref=monosyl._1
+61	»	»	u	u--------	_	23	AuxG	_	t_74|t_36|ref=monosyl._1
+62	καὶ	καί	c	c--------	_	22	COORD	_	t_75|t_35|ref=monosyl._1
+63	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	65	ATR	_	t_76|t_78|ref=monosyl._1
+64	ἕν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	65	ATR	_	t_77|t_78|ref=monosyl._1
+65	καὶ	καί	c	c--------	_	62	COORD	_	t_78|t_75|ref=monosyl._1
+66	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	65	ATR	_	t_79|t_78|ref=monosyl._1
+67	θέν	τίθημι	d	d--------	_	65	ATR	_	t_80|t_78|ref=monosyl._1
+68	,	,	u	u--------	_	90	AuxX	_	t_81|t_103|ref=monosyl._1
+69	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	70	SBJ	_	t_82|t_83|ref=monosyl._1
+70	ἰϲοδυναμεῖ	ἰςοδυναμέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	65	ATR	_	t_83|t_78|ref=monosyl._1
+71	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	72	ATR	_	t_84|t_85|ref=monosyl._1
+72	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	70	OBJ	_	t_85|t_83|ref=monosyl._1
+73	,	,	u	u--------	_	23	AuxX	_	t_86|t_36|ref=monosyl._1
+74	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	76	SBJ	_	t_87|t_89|ref=monosyl._1
+75	ϲυνεχῶϲ	συνεχής	d	d--------	_	76	ADV	_	t_88|t_89|ref=monosyl._1
+76	εὑρίϲκεται	εὑρίσκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	88	ATR	_	t_89|t_101|ref=monosyl._1
+77	μετὰ	μετά	r	r--------	_	76	AuxP	_	t_90|t_89|ref=monosyl._1
+78	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	80	ATR	_	t_91|t_93|ref=monosyl._1
+79	οὐ	οὐ	d	d--------	_	80	AuxZ	_	t_92|t_93|ref=monosyl._1
+80	ἀποφάϲεωϲ	ἀπόφαςις	n	n-s---fg-	Case=g|Gender=f|Number=s	81	ADV	_	t_93|t_94|ref=monosyl._1
+81	καὶ	καί	c	c--------	_	77	COORD	_	t_94|t_90|ref=monosyl._1
+82	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	84	ATR	_	t_95|t_97|ref=monosyl._1
+83	μή	μή	d	d--------	_	84	AuxZ	_	t_96|t_97|ref=monosyl._1
+84	ἀπαγορεύϲεωϲ	ἀπόλειψις	n	n-s---fg-	Case=g|Gender=f|Number=s	81	ADV	_	t_97|t_94|ref=monosyl._1
+85	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	86	AuxY	_	t_98|t_99|ref=monosyl._1
+86	οὐδέν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	137	SBJ	_	t_99|t_150|ref=monosyl._1
+87	,	,	u	u--------	_	23	AuxX	_	t_100|t_36|ref=monosyl._1
+88	μηδέν	μηδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	99	OBJ	_	t_101|t_112|ref=monosyl._1
+89	,	,	u	u--------	_	23	AuxX	_	t_102|t_36|ref=monosyl._1
+90	καὶ	καί	c	c--------	_	118	AuxY	_	t_103|t_131|ref=monosyl._1
+91	χωρὶϲ	χωρίς	r	r--------	_	118	AuxP	_	t_104|t_131|ref=monosyl._1
+92	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	91	ADV	_	t_105|t_104|ref=monosyl._1
+93	ὅϲ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	97	SBJ	_	t_106|t_110|ref=monosyl._1
+94	«	«	u	u--------	_	23	AuxG	_	t_107|t_36|ref=monosyl._1
+95	ὃϲ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	97	SBJ	_	t_108|t_110|ref=monosyl._1
+96	ἆν	ἄν	p	p-p---ng-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	97	OBJ	_	t_109|t_110|ref=monosyl._1
+97	ἐθέλῃ	ἐθέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	99	SBJ	_	t_110|t_112|ref=monosyl._1
+98	,	,	u	u--------	_	23	AuxX	_	t_111|t_36|ref=monosyl._1
+99	μεινάτω	μένω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	23	PRED	_	t_112|t_36|ref=monosyl._1
+100	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	99	OBJ	_	t_113|t_112|ref=monosyl._1
+101	»	»	u	u--------	_	23	AuxG	_	t_114|t_36|ref=monosyl._1
+102	καὶ	καί	c	c--------	_	118	AuxY	_	t_115|t_131|ref=monosyl._1
+103	χωρὶϲ	χωρίς	r	r--------	_	118	AuxP	_	t_116|t_131|ref=monosyl._1
+104	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	103	ATR	_	t_117|t_116|ref=monosyl._1
+105	πάν	πάν	a	a-s---nn-	Case=a|Gender=n|Number=s	103	ADV	_	t_118|t_116|ref=monosyl._1
+106	παρʼ	παρά	r	r--------	_	105	AuxP	_	t_119|t_118|ref=monosyl._1
+107	Αἰολεῦϲιν	αἰολεύς	n	n--------	Case=g|Gender=m|Number=s	106	ATR	_	t_120|t_119|ref=monosyl._1
+108	(	̔	u	u--------	_	137	AuxG	_	t_121|t_150|ref=monosyl._1
+109	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	111	ATR	_	t_122|t_124|ref=monosyl._1
+110	γὰρ	γάρ	d	d--------	_	137	AuxY	_	t_123|t_150|ref=monosyl._1
+111	Αἰολεῖϲ	αἰολεύς	n	n-p---mn-	Case=n|Gender=m|Number=p	127	SBJ	_	t_124|t_140|ref=monosyl._1
+112	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	116	ATR	_	t_125|t_129|ref=monosyl._1
+113	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	115	ATR	_	t_126|t_128|ref=monosyl._1
+114	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	115	ATR	_	t_127|t_128|ref=monosyl._1
+115	α	α	x	x--------	_	116	ATR	_	t_128|t_129|ref=monosyl._1
+116	ϲυϲτέλλουϲι	στίλβω	n	n--------	Case=n|Degree=c|Gender=m|Number=p	127	PNOM	_	t_129|t_140|ref=monosyl._1
+117	)	)	u	u--------	_	23	AuxG	_	t_130|t_36|ref=monosyl._1
+118	καὶ	καί	c	c--------	_	99	COORD	_	t_131|t_112|ref=monosyl._1
+119	χωρὶϲ	χωρίς	r	r--------	_	118	AuxP	_	t_132|t_131|ref=monosyl._1
+120	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	121	ATR	_	t_133|t_134|ref=monosyl._1
+121	Δί	ζεύς	n	n-s---mg-	Case=g|Gender=n|Number=s	119	ADV	_	t_134|t_132|ref=monosyl._1
+122	,	,	u	u--------	_	23	AuxX	_	t_135|t_36|ref=monosyl._1
+123	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	127	SBJ	_	t_136|t_140|ref=monosyl._1
+124	ἀπὸ	ἀπό	r	r--------	_	127	AuxP	_	t_137|t_140|ref=monosyl._1
+125	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	126	ATR	_	t_138|t_139|ref=monosyl._1
+126	Δία	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	124	ADV	_	t_139|t_137|ref=monosyl._1
+127	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	121	ATR	_	t_140|t_134|ref=monosyl._1
+128	κατʼ	κατά	r	r--------	_	127	AuxP	_	t_141|t_140|ref=monosyl._1
+129	ἀποκοπήν	ἀποκοπή	n	n-s---fa-	Case=a|Gender=f|Number=s	128	ADV	_	t_142|t_141|ref=monosyl._1
+130	,	,	u	u--------	_	23	AuxX	_	t_143|t_36|ref=monosyl._1
+131	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	137	SBJ	_	t_144|t_150|ref=monosyl._1
+132	καὶ	καί	c	c--------	_	135	AuxZ	_	t_145|t_148|ref=monosyl._1
+133	μετὰ	μετά	r	r--------	_	137	AuxP	_	t_146|t_150|ref=monosyl._1
+134	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	136	ATR	_	t_147|t_149|ref=monosyl._1
+135	νή	νή	a	a-s---ng-	Case=g|Gender=n|Number=s	133	ADV	_	t_148|t_146|ref=monosyl._1
+136	ἐπιρρήματοϲ	ἐπίρρημα	n	n-s---ng-	Case=g|Gender=n|Number=s	133	ADV	_	t_149|t_146|ref=monosyl._1
+137	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	121	ATR	_	t_150|t_134|ref=monosyl._1
+138	νὴ	νή	r	r--------	_	137	AuxP	_	t_151|t_150|ref=monosyl._1
+139	Δί	ζεύς	n	n--------	Case=a|Gender=f|Number=s	138	ADV	_	t_152|t_151|ref=monosyl._1
+140	[0]	[0]	-	---------	_	22	ExD	_	e_2|t_35|ref=monosyl._1
+141	.	.	u	u--------	_	23	AuxK	_	t_153|t_36|ref=monosyl._1
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 1
+# source = Aelius Herodianus, monosyl. 1
 # text = 2 .
 # sent_id = 4
-1	2	2	u	u--------	_	0	AuxG	_	t_154|ref=Περὶ μονοσυλλάβων_1
-2	.	.	u	u--------	_	1	AuxK	_	t_155|ref=Περὶ μονοσυλλάβων_1
+1	2	2	u	u--------	_	0	AuxG	_	t_154|0|ref=monosyl._1
+2	.	.	u	u--------	_	1	AuxK	_	t_155|t_154|ref=monosyl._1
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = τὰ εἰϲ ειϲ μονοϲύλλαβα διὰ τῆϲ ει διφθόγγου γραφόμενα ϲπάνιά ἐϲτιν , ἔϲτι γὰρ τὸ θείϲ ὀξύτονον , ὅπερ ἀεὶ μετὰ τῆϲ οὐ ἀποφάϲεωϲ ἢ τῆϲ μή ἀπαγορεύϲεωϲ ϲύνεϲτιν , οὐδείϲ καὶ μηδείϲ .
 # sent_id = 5
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_156|ref=Περὶ μονοσυλλάβων_2
-2	εἰϲ	εἰς	r	r--------	_	3	AuxP	_	t_157|ref=Περὶ μονοσυλλάβων_2
-3	ειϲ	εις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	10	ATR	_	t_158|ref=Περὶ μονοσυλλάβων_2
-4	μονοϲύλλαβα	μονοκέρως	n	n-s---mg-	Case=a|Gender=n|Number=p	2	OBJ	_	t_159|ref=Περὶ μονοσυλλάβων_2
-5	διὰ	διά	r	r--------	_	9	AuxP	_	t_160|ref=Περὶ μονοσυλλάβων_2
-6	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_161|ref=Περὶ μονοσυλλάβων_2
-7	ει	ει	x	x--------	_	8	ATR	_	t_162|ref=Περὶ μονοσυλλάβων_2
-8	διφθόγγου	δίφθογγος	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_163|ref=Περὶ μονοσυλλάβων_2
-9	γραφόμενα	γράφω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	10	ATR	_	t_164|ref=Περὶ μονοσυλλάβων_2
-10	ϲπάνιά	βραχὺς	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_165|ref=Περὶ μονοσυλλάβων_2
-11	ἐϲτιν	εἰμί	r	r--------	Case=a|Gender=f|Number=s	13	ADV	_	t_166|ref=Περὶ μονοσυλλάβων_2
-12	,	,	u	u--------	_	32	AuxX	_	t_167|ref=Περὶ μονοσυλλάβων_2
-13	ἔϲτι	εἰμί	d	d--------	_	32	ADV	_	t_168|ref=Περὶ μονοσυλλάβων_2
-14	γὰρ	γάρ	d	d--------	_	32	AuxY	_	t_169|ref=Περὶ μονοσυλλάβων_2
-15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_170|ref=Περὶ μονοσυλλάβων_2
-16	θείϲ	τίθημι	n	n-s---nn-	Case=a|Gender=n|Number=s	13	SBJ	_	t_171|ref=Περὶ μονοσυλλάβων_2
-17	ὀξύτονον	ὀξύτονος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_172|ref=Περὶ μονοσυλλάβων_2
-18	,	,	u	u--------	_	32	AuxX	_	t_173|ref=Περὶ μονοσυλλάβων_2
-19	ὅπερ	ὅσπερ	p	p-s---nn-	Case=a|Gender=n|Number=s	29	OBJ	_	t_174|ref=Περὶ μονοσυλλάβων_2
-20	ἀεὶ	ἀεί	d	d--------	_	29	ADV	_	t_175|ref=Περὶ μονοσυλλάβων_2
-21	μετὰ	μετά	r	r--------	_	29	AuxP	_	t_176|ref=Περὶ μονοσυλλάβων_2
-22	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_177|ref=Περὶ μονοσυλλάβων_2
-23	οὐ	οὐ	d	d--------	_	24	AuxZ	_	t_178|ref=Περὶ μονοσυλλάβων_2
-24	ἀποφάϲεωϲ	ἀπόφαςις	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ADV	_	t_179|ref=Περὶ μονοσυλλάβων_2
-25	ἢ	ἤ1	c	c--------	_	21	COORD	_	t_180|ref=Περὶ μονοσυλλάβων_2
-26	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_181|ref=Περὶ μονοσυλλάβων_2
-27	μή	μή	d	d--------	_	28	AuxZ	_	t_182|ref=Περὶ μονοσυλλάβων_2
-28	ἀπαγορεύϲεωϲ	ἀπόλειψις	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ADV	_	t_183|ref=Περὶ μονοσυλλάβων_2
-29	ϲύνεϲτιν	σύνειμι	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_184|ref=Περὶ μονοσυλλάβων_2
-30	,	,	u	u--------	_	32	AuxX	_	t_185|ref=Περὶ μονοσυλλάβων_2
-31	οὐδείϲ	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_186|ref=Περὶ μονοσυλλάβων_2
-32	καὶ	καί	c	c--------	_	0	COORD	_	t_187|ref=Περὶ μονοσυλλάβων_2
-33	μηδείϲ	μηδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_188|ref=Περὶ μονοσυλλάβων_2
-34	.	.	u	u--------	_	32	AuxK	_	t_189|ref=Περὶ μονοσυλλάβων_2
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_156|t_165|ref=monosyl._2
+2	εἰϲ	εἰς	r	r--------	_	3	AuxP	_	t_157|t_158|ref=monosyl._2
+3	ειϲ	εις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	10	ATR	_	t_158|t_165|ref=monosyl._2
+4	μονοϲύλλαβα	μονοκέρως	n	n-s---mg-	Case=a|Gender=n|Number=p	2	OBJ	_	t_159|t_157|ref=monosyl._2
+5	διὰ	διά	r	r--------	_	9	AuxP	_	t_160|t_164|ref=monosyl._2
+6	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_161|t_163|ref=monosyl._2
+7	ει	ει	x	x--------	_	8	ATR	_	t_162|t_163|ref=monosyl._2
+8	διφθόγγου	δίφθογγος	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_163|t_160|ref=monosyl._2
+9	γραφόμενα	γράφω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	10	ATR	_	t_164|t_165|ref=monosyl._2
+10	ϲπάνιά	βραχὺς	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_165|t_166|ref=monosyl._2
+11	ἐϲτιν	εἰμί	r	r--------	Case=a|Gender=f|Number=s	13	ADV	_	t_166|t_168|ref=monosyl._2
+12	,	,	u	u--------	_	32	AuxX	_	t_167|t_187|ref=monosyl._2
+13	ἔϲτι	εἰμί	d	d--------	_	32	ADV	_	t_168|t_187|ref=monosyl._2
+14	γὰρ	γάρ	d	d--------	_	32	AuxY	_	t_169|t_187|ref=monosyl._2
+15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_170|t_171|ref=monosyl._2
+16	θείϲ	τίθημι	n	n-s---nn-	Case=a|Gender=n|Number=s	13	SBJ	_	t_171|t_168|ref=monosyl._2
+17	ὀξύτονον	ὀξύτονος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_172|t_171|ref=monosyl._2
+18	,	,	u	u--------	_	32	AuxX	_	t_173|t_187|ref=monosyl._2
+19	ὅπερ	ὅσπερ	p	p-s---nn-	Case=a|Gender=n|Number=s	29	OBJ	_	t_174|t_184|ref=monosyl._2
+20	ἀεὶ	ἀεί	d	d--------	_	29	ADV	_	t_175|t_184|ref=monosyl._2
+21	μετὰ	μετά	r	r--------	_	29	AuxP	_	t_176|t_184|ref=monosyl._2
+22	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_177|t_179|ref=monosyl._2
+23	οὐ	οὐ	d	d--------	_	24	AuxZ	_	t_178|t_179|ref=monosyl._2
+24	ἀποφάϲεωϲ	ἀπόφαςις	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ADV	_	t_179|t_180|ref=monosyl._2
+25	ἢ	ἤ1	c	c--------	_	21	COORD	_	t_180|t_176|ref=monosyl._2
+26	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_181|t_183|ref=monosyl._2
+27	μή	μή	d	d--------	_	28	AuxZ	_	t_182|t_183|ref=monosyl._2
+28	ἀπαγορεύϲεωϲ	ἀπόλειψις	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ADV	_	t_183|t_180|ref=monosyl._2
+29	ϲύνεϲτιν	σύνειμι	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_184|t_172|ref=monosyl._2
+30	,	,	u	u--------	_	32	AuxX	_	t_185|t_187|ref=monosyl._2
+31	οὐδείϲ	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_186|t_187|ref=monosyl._2
+32	καὶ	καί	c	c--------	_	0	COORD	_	t_187|0|ref=monosyl._2
+33	μηδείϲ	μηδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_188|t_187|ref=monosyl._2
+34	.	.	u	u--------	_	32	AuxK	_	t_189|t_187|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = ἔϲτι δὲ καὶ τὸ κλείϲ θηλυκὸν καὶ τὸ εἰϲ ἀρϲενικὸν ἐπὶ τοῦ ἀριθμοῦ περιϲπώμενον ὑγιῶϲ .
 # sent_id = 6
-1	ἔϲτι	εἰμί	d	d--------	_	0	ADV	_	t_190|ref=Περὶ μονοσυλλάβων_2
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_191|ref=Περὶ μονοσυλλάβων_2
-3	καὶ	καί	c	c--------	_	7	AuxY	_	t_192|ref=Περὶ μονοσυλλάβων_2
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_193|ref=Περὶ μονοσυλλάβων_2
-5	κλείϲ	κλείς	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	7	SBJ	_	t_194|ref=Περὶ μονοσυλλάβων_2
-6	θηλυκὸν	θηλυκός	a	a-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_195|ref=Περὶ μονοσυλλάβων_2
-7	καὶ	καί	c	c--------	_	14	COORD	_	t_196|ref=Περὶ μονοσυλλάβων_2
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_197|ref=Περὶ μονοσυλλάβων_2
-9	εἰϲ	εἰς	r	r--------	_	14	AuxP	_	t_198|ref=Περὶ μονοσυλλάβων_2
-10	ἀρϲενικὸν	ἀρσενικός	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_199|ref=Περὶ μονοσυλλάβων_2
-11	ἐπὶ	ἐπί	r	r--------	_	14	AuxP	_	t_200|ref=Περὶ μονοσυλλάβων_2
-12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_201|ref=Περὶ μονοσυλλάβων_2
-13	ἀριθμοῦ	ἀριθμός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_202|ref=Περὶ μονοσυλλάβων_2
-14	περιϲπώμενον	περισπάω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	1	ADV	_	t_203|ref=Περὶ μονοσυλλάβων_2
-15	ὑγιῶϲ	ὑγιής	d	d--------	_	14	ADV	_	t_204|ref=Περὶ μονοσυλλάβων_2
-16	.	.	u	u--------	_	1	AuxK	_	t_205|ref=Περὶ μονοσυλλάβων_2
+1	ἔϲτι	εἰμί	d	d--------	_	0	ADV	_	t_190|0|ref=monosyl._2
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_191|t_203|ref=monosyl._2
+3	καὶ	καί	c	c--------	_	7	AuxY	_	t_192|t_196|ref=monosyl._2
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_193|t_194|ref=monosyl._2
+5	κλείϲ	κλείς	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	7	SBJ	_	t_194|t_196|ref=monosyl._2
+6	θηλυκὸν	θηλυκός	a	a-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_195|t_196|ref=monosyl._2
+7	καὶ	καί	c	c--------	_	14	COORD	_	t_196|t_203|ref=monosyl._2
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_197|t_199|ref=monosyl._2
+9	εἰϲ	εἰς	r	r--------	_	14	AuxP	_	t_198|t_203|ref=monosyl._2
+10	ἀρϲενικὸν	ἀρσενικός	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_199|t_198|ref=monosyl._2
+11	ἐπὶ	ἐπί	r	r--------	_	14	AuxP	_	t_200|t_203|ref=monosyl._2
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_201|t_202|ref=monosyl._2
+13	ἀριθμοῦ	ἀριθμός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_202|t_200|ref=monosyl._2
+14	περιϲπώμενον	περισπάω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	1	ADV	_	t_203|t_190|ref=monosyl._2
+15	ὑγιῶϲ	ὑγιής	d	d--------	_	14	ADV	_	t_204|t_203|ref=monosyl._2
+16	.	.	u	u--------	_	1	AuxK	_	t_205|t_190|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = αἱ γὰρ εἰϲ ειϲ ὀξυνόμεναι καὶ ἔχουϲαι εἰϲ εν οὐδέτερον μετοχαί εἰϲιν οἷον τιθείϲ τιθέν , νυγείϲ νυγέν .
 # sent_id = 7
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_206|ref=Περὶ μονοσυλλάβων_2
-2	γὰρ	γάρ	d	d--------	_	12	AuxY	_	t_207|ref=Περὶ μονοσυλλάβων_2
-3	εἰϲ	εἰς	n	n-p---fn-	_	12	SBJ	_	t_208|ref=Περὶ μονοσυλλάβων_2
-4	ειϲ	εις	n	n-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_209|ref=Περὶ μονοσυλλάβων_2
-5	ὀξυνόμεναι	ὀξύνω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_210|ref=Περὶ μονοσυλλάβων_2
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_211|ref=Περὶ μονοσυλλάβων_2
-7	ἔχουϲαι	ἔχω	n	n-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_212|ref=Περὶ μονοσυλλάβων_2
-8	εἰϲ	εἰς	r	r--------	_	12	AuxP	_	t_213|ref=Περὶ μονοσυλλάβων_2
-9	εν	ἐν	r	r--------	_	12	AuxP	_	t_214|ref=Περὶ μονοσυλλάβων_2
-10	οὐδέτερον	οὐδέτερος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_215|ref=Περὶ μονοσυλλάβων_2
-11	μετοχαί	μετοχή	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_216|ref=Περὶ μονοσυλλάβων_2
-12	εἰϲιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_217|ref=Περὶ μονοσυλλάβων_2
-13	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_218|ref=Περὶ μονοσυλλάβων_2
-14	τιθείϲ	τίθημι	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	15	ADV	_	t_219|ref=Περὶ μονοσυλλάβων_2
-15	τιθέν	τίθημι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	ADV	_	t_220|ref=Περὶ μονοσυλλάβων_2
-16	,	,	u	u--------	_	12	AuxX	_	t_221|ref=Περὶ μονοσυλλάβων_2
-17	νυγείϲ	νύξ	v	v-sapamn-	Case=g|Gender=f|Number=s	12	ADV	_	t_222|ref=Περὶ μονοσυλλάβων_2
-18	νυγέν	νυγέω	n	n-s---fa-	Case=g|Gender=f|Number=s	17	ADV	_	t_223|ref=Περὶ μονοσυλλάβων_2
-19	.	.	u	u--------	_	12	AuxK	_	t_224|ref=Περὶ μονοσυλλάβων_2
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_206|t_209|ref=monosyl._2
+2	γὰρ	γάρ	d	d--------	_	12	AuxY	_	t_207|t_217|ref=monosyl._2
+3	εἰϲ	εἰς	n	n-p---fn-	_	12	SBJ	_	t_208|t_217|ref=monosyl._2
+4	ειϲ	εις	n	n-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_209|t_216|ref=monosyl._2
+5	ὀξυνόμεναι	ὀξύνω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_210|t_211|ref=monosyl._2
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_211|t_208|ref=monosyl._2
+7	ἔχουϲαι	ἔχω	n	n-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_212|t_211|ref=monosyl._2
+8	εἰϲ	εἰς	r	r--------	_	12	AuxP	_	t_213|t_217|ref=monosyl._2
+9	εν	ἐν	r	r--------	_	12	AuxP	_	t_214|t_217|ref=monosyl._2
+10	οὐδέτερον	οὐδέτερος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_215|t_214|ref=monosyl._2
+11	μετοχαί	μετοχή	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_216|t_217|ref=monosyl._2
+12	εἰϲιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_217|0|ref=monosyl._2
+13	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_218|t_220|ref=monosyl._2
+14	τιθείϲ	τίθημι	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	15	ADV	_	t_219|t_220|ref=monosyl._2
+15	τιθέν	τίθημι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	ADV	_	t_220|t_217|ref=monosyl._2
+16	,	,	u	u--------	_	12	AuxX	_	t_221|t_217|ref=monosyl._2
+17	νυγείϲ	νύξ	v	v-sapamn-	Case=g|Gender=f|Number=s	12	ADV	_	t_222|t_217|ref=monosyl._2
+18	νυγέν	νυγέω	n	n-s---fa-	Case=g|Gender=f|Number=s	17	ADV	_	t_223|t_222|ref=monosyl._2
+19	.	.	u	u--------	_	12	AuxK	_	t_224|t_217|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = βαρυνόμενα δὲ ὀνόματά ἐϲτιν οἰον τιμήειϲ , ἐρόειϲ [0] .
 # sent_id = 8
-1	βαρυνόμενα	βαρύνω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	ATR	_	t_225|ref=Περὶ μονοσυλλάβων_2
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_226|ref=Περὶ μονοσυλλάβων_2
-3	ὀνόματά	ὄνομα	n	n-p---na-	Case=n|Gender=n|Number=p	6	OBJ	_	t_227|ref=Περὶ μονοσυλλάβων_2
-4	ἐϲτιν	εἰμί	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_228|ref=Περὶ μονοσυλλάβων_2
-5	οἰον	οἶος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_229|ref=Περὶ μονοσυλλάβων_2
-6	τιμήειϲ	τιμήεις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	9	OBJ	_	t_230|ref=Περὶ μονοσυλλάβων_2
-7	,	,	u	u--------	_	6	AuxX	_	t_231|ref=Περὶ μονοσυλλάβων_2
-8	ἐρόειϲ	ἐρόεις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	2	PRED	_	t_232|ref=Περὶ μονοσυλλάβων_2
-9	[0]	[0]	-	---------	_	8	APOS	_	e_3|ref=Περὶ μονοσυλλάβων_1
-10	.	.	u	u--------	_	2	AuxK	_	t_233|ref=Περὶ μονοσυλλάβων_2
+1	βαρυνόμενα	βαρύνω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	ATR	_	t_225|t_227|ref=monosyl._2
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_226|0|ref=monosyl._2
+3	ὀνόματά	ὄνομα	n	n-p---na-	Case=n|Gender=n|Number=p	6	OBJ	_	t_227|t_230|ref=monosyl._2
+4	ἐϲτιν	εἰμί	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_228|t_229|ref=monosyl._2
+5	οἰον	οἶος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_229|t_230|ref=monosyl._2
+6	τιμήειϲ	τιμήεις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	9	OBJ	_	t_230|e_3|ref=monosyl._2
+7	,	,	u	u--------	_	6	AuxX	_	t_231|t_230|ref=monosyl._2
+8	ἐρόειϲ	ἐρόεις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	2	PRED	_	t_232|t_226|ref=monosyl._2
+9	[0]	[0]	-	---------	_	8	APOS	_	e_3|t_232|ref=monosyl._1
+10	.	.	u	u--------	_	2	AuxK	_	t_233|t_226|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = ἐπεὶ οὖν τὸ εἰϲ εἶχεν οὐδέτερον τὸ ἕ , ἐχρῆν βαρύνεϲθαι ·
 # sent_id = 9
-1	ἐπεὶ	ἐπεί	c	c--------	_	10	AuxC	_	t_234|ref=Περὶ μονοσυλλάβων_2
-2	οὖν	οὖν	d	d--------	_	10	AuxY	_	t_235|ref=Περὶ μονοσυλλάβων_2
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_236|ref=Περὶ μονοσυλλάβων_2
-4	εἰϲ	εἰς	r	r--------	_	5	SBJ	_	t_237|ref=Περὶ μονοσυλλάβων_2
-5	εἶχεν	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	ADV	_	t_238|ref=Περὶ μονοσυλλάβων_2
-6	οὐδέτερον	οὐδέτερος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_239|ref=Περὶ μονοσυλλάβων_2
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_240|ref=Περὶ μονοσυλλάβων_2
-8	ἕ	ἕ	x	x--------	_	5	OBJ	_	t_241|ref=Περὶ μονοσυλλάβων_2
-9	,	,	u	u--------	_	10	AuxX	_	t_242|ref=Περὶ μονοσυλλάβων_2
-10	ἐχρῆν	χρή	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_243|ref=Περὶ μονοσυλλάβων_2
-11	βαρύνεϲθαι	βαρύνω	v	v--pne---	Mood=n|Tense=p|Voice=e	10	SBJ	_	t_244|ref=Περὶ μονοσυλλάβων_2
-12	·	·	u	u--------	_	10	AuxK	_	t_245|ref=Περὶ μονοσυλλάβων_2
+1	ἐπεὶ	ἐπεί	c	c--------	_	10	AuxC	_	t_234|t_243|ref=monosyl._2
+2	οὖν	οὖν	d	d--------	_	10	AuxY	_	t_235|t_243|ref=monosyl._2
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_236|t_237|ref=monosyl._2
+4	εἰϲ	εἰς	r	r--------	_	5	SBJ	_	t_237|t_238|ref=monosyl._2
+5	εἶχεν	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	ADV	_	t_238|t_234|ref=monosyl._2
+6	οὐδέτερον	οὐδέτερος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_239|t_241|ref=monosyl._2
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_240|t_241|ref=monosyl._2
+8	ἕ	ἕ	x	x--------	_	5	OBJ	_	t_241|t_238|ref=monosyl._2
+9	,	,	u	u--------	_	10	AuxX	_	t_242|t_243|ref=monosyl._2
+10	ἐχρῆν	χρή	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_243|0|ref=monosyl._2
+11	βαρύνεϲθαι	βαρύνω	v	v--pne---	Mood=n|Tense=p|Voice=e	10	SBJ	_	t_244|t_243|ref=monosyl._2
+12	·	·	u	u--------	_	10	AuxK	_	t_245|t_243|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = οὐκ ἦν δὲ τοῦτό πωϲ διὰ τὴν μονοϲυλλαβίαν .
 # sent_id = 10
-1	οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_246|ref=Περὶ μονοσυλλάβων_2
-2	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_247|ref=Περὶ μονοσυλλάβων_2
-3	δὲ	δέ	d	d--------	_	2	AuxY	_	t_248|ref=Περὶ μονοσυλλάβων_2
-4	τοῦτό	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	2	SBJ	_	t_249|ref=Περὶ μονοσυλλάβων_2
-5	πωϲ	πως	d	d--------	_	2	ADV	_	t_250|ref=Περὶ μονοσυλλάβων_2
-6	διὰ	διά	r	r--------	_	2	AuxP	_	t_251|ref=Περὶ μονοσυλλάβων_2
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_252|ref=Περὶ μονοσυλλάβων_2
-8	μονοϲυλλαβίαν	μονοςυλλαβία	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_253|ref=Περὶ μονοσυλλάβων_2
-9	.	.	u	u--------	_	2	AuxK	_	t_254|ref=Περὶ μονοσυλλάβων_2
+1	οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_246|t_247|ref=monosyl._2
+2	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_247|0|ref=monosyl._2
+3	δὲ	δέ	d	d--------	_	2	AuxY	_	t_248|t_247|ref=monosyl._2
+4	τοῦτό	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	2	SBJ	_	t_249|t_247|ref=monosyl._2
+5	πωϲ	πως	d	d--------	_	2	ADV	_	t_250|t_247|ref=monosyl._2
+6	διὰ	διά	r	r--------	_	2	AuxP	_	t_251|t_247|ref=monosyl._2
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_252|t_253|ref=monosyl._2
+8	μονοϲυλλαβίαν	μονοςυλλαβία	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_253|t_251|ref=monosyl._2
+9	.	.	u	u--------	_	2	AuxK	_	t_254|t_247|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = ἀναγκαίωϲ περιϲπᾶται , ἵνα δυνάμει βαρύνηται ·
 # sent_id = 11
-1	ἀναγκαίωϲ	ἀναγκαῖος	d	d--------	_	2	ADV	_	t_255|ref=Περὶ μονοσυλλάβων_2
-2	περιϲπᾶται	βαρύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_256|ref=Περὶ μονοσυλλάβων_2
-3	,	,	u	u--------	_	2	AuxX	_	t_257|ref=Περὶ μονοσυλλάβων_2
-4	ἵνα	ἵνα	c	c--------	_	2	AuxC	_	t_258|ref=Περὶ μονοσυλλάβων_2
-5	δυνάμει	δύναμις	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_259|ref=Περὶ μονοσυλλάβων_2
-6	βαρύνηται	βαρύνω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	4	ADV	_	t_260|ref=Περὶ μονοσυλλάβων_2
-7	·	·	u	u--------	_	2	AuxK	_	t_261|ref=Περὶ μονοσυλλάβων_2
+1	ἀναγκαίωϲ	ἀναγκαῖος	d	d--------	_	2	ADV	_	t_255|t_256|ref=monosyl._2
+2	περιϲπᾶται	βαρύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_256|0|ref=monosyl._2
+3	,	,	u	u--------	_	2	AuxX	_	t_257|t_256|ref=monosyl._2
+4	ἵνα	ἵνα	c	c--------	_	2	AuxC	_	t_258|t_256|ref=monosyl._2
+5	δυνάμει	δύναμις	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_259|t_260|ref=monosyl._2
+6	βαρύνηται	βαρύνω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	4	ADV	_	t_260|t_258|ref=monosyl._2
+7	·	·	u	u--------	_	2	AuxK	_	t_261|t_256|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = ἀμέλει εἰϲ διϲυλλαβίαν μετελθὸν βαρύνεται ἐν τῷ ὀφθαλμὸϲ ἕειϲ ἐπέκειτο μετώπῳ » ( Hes .
 # sent_id = 12
-1	ἀμέλει	ἀμέλει	d	d--------	_	5	ADV	_	t_262|ref=Περὶ μονοσυλλάβων_2
-2	εἰϲ	εἰς	r	r--------	_	5	AuxP	_	t_263|ref=Περὶ μονοσυλλάβων_2
-3	διϲυλλαβίαν	διςυλλάβεια	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_264|ref=Περὶ μονοσυλλάβων_2
-4	μετελθὸν	μετέρχομαι	a	a-s---na-	Case=a|Gender=m|Number=s	5	ADV	_	t_265|ref=Περὶ μονοσυλλάβων_2
-5	βαρύνεται	βαρύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_266|ref=Περὶ μονοσυλλάβων_2
-6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_267|ref=Περὶ μονοσυλλάβων_2
-7	τῷ	ὁ	p	p-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_268|ref=Περὶ μονοσυλλάβων_2
-8	ὀφθαλμὸϲ	ὀφθαλμός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_269|ref=Περὶ μονοσυλλάβων_2
-9	ἕειϲ	εἷς	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_270|ref=Περὶ μονοσυλλάβων_2
-10	ἐπέκειτο	ἐπίκειμαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	4	ATR	_	t_271|ref=Περὶ μονοσυλλάβων_2
-11	μετώπῳ	μέτωπον	n	n-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_272|ref=Περὶ μονοσυλλάβων_2
-12	»	»	u	u--------	_	5	AuxG	_	t_273|ref=Περὶ μονοσυλλάβων_2
-13	(	̔	u	u--------	_	5	AuxG	_	t_274|ref=Περὶ μονοσυλλάβων_2
-14	Hes	hes	n	n--------	_	5	ExD	_	t_275|ref=Περὶ μονοσυλλάβων_2
-15	.	.	u	u--------	_	5	AuxK	_	t_276|ref=Περὶ μονοσυλλάβων_2
+1	ἀμέλει	ἀμέλει	d	d--------	_	5	ADV	_	t_262|t_266|ref=monosyl._2
+2	εἰϲ	εἰς	r	r--------	_	5	AuxP	_	t_263|t_266|ref=monosyl._2
+3	διϲυλλαβίαν	διςυλλάβεια	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_264|t_263|ref=monosyl._2
+4	μετελθὸν	μετέρχομαι	a	a-s---na-	Case=a|Gender=m|Number=s	5	ADV	_	t_265|t_266|ref=monosyl._2
+5	βαρύνεται	βαρύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_266|0|ref=monosyl._2
+6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_267|t_266|ref=monosyl._2
+7	τῷ	ὁ	p	p-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_268|t_272|ref=monosyl._2
+8	ὀφθαλμὸϲ	ὀφθαλμός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_269|t_271|ref=monosyl._2
+9	ἕειϲ	εἷς	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_270|t_269|ref=monosyl._2
+10	ἐπέκειτο	ἐπίκειμαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	4	ATR	_	t_271|t_265|ref=monosyl._2
+11	μετώπῳ	μέτωπον	n	n-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_272|t_271|ref=monosyl._2
+12	»	»	u	u--------	_	5	AuxG	_	t_273|t_266|ref=monosyl._2
+13	(	̔	u	u--------	_	5	AuxG	_	t_274|t_266|ref=monosyl._2
+14	Hes	hes	n	n--------	_	5	ExD	_	t_275|t_266|ref=monosyl._2
+15	.	.	u	u--------	_	5	AuxK	_	t_276|t_266|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = Theog [0] .
 # sent_id = 13
-1	Theog	theog	n	n-s---mv-	_	2	ExD	_	t_277|ref=Περὶ μονοσυλλάβων_2
-2	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Περὶ μονοσυλλάβων_1
-3	.	.	u	u--------	_	2	AuxK	_	t_278|ref=Περὶ μονοσυλλάβων_2
+1	Theog	theog	n	n-s---mv-	_	2	ExD	_	t_277|e_4|ref=monosyl._2
+2	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=monosyl._1
+3	.	.	u	u--------	_	2	AuxK	_	t_278|e_4|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = 145 ) , ἵνα τὴν ὀνοματικὴν ϲημαϲίαν ἀποφήναι [0] .
 # sent_id = 14
-1	145	145	x	x--------	_	9	AuxG	_	t_279|ref=Περὶ μονοσυλλάβων_2
-2	)	)	u	u--------	_	9	AuxG	_	t_280|ref=Περὶ μονοσυλλάβων_2
-3	,	,	u	u--------	_	9	AuxX	_	t_281|ref=Περὶ μονοσυλλάβων_2
-4	ἵνα	ἵνα	c	c--------	_	9	AuxC	_	t_282|ref=Περὶ μονοσυλλάβων_2
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_283|ref=Περὶ μονοσυλλάβων_2
-6	ὀνοματικὴν	ὀνοματικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_284|ref=Περὶ μονοσυλλάβων_2
-7	ϲημαϲίαν	ςημαςία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_285|ref=Περὶ μονοσυλλάβων_2
-8	ἀποφήναι	ἀποφαίνω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	4	ADV	_	t_286|ref=Περὶ μονοσυλλάβων_2
-9	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Περὶ μονοσυλλάβων_1
-10	.	.	u	u--------	_	9	AuxK	_	t_287|ref=Περὶ μονοσυλλάβων_2
+1	145	145	x	x--------	_	9	AuxG	_	t_279|e_5|ref=monosyl._2
+2	)	)	u	u--------	_	9	AuxG	_	t_280|e_5|ref=monosyl._2
+3	,	,	u	u--------	_	9	AuxX	_	t_281|e_5|ref=monosyl._2
+4	ἵνα	ἵνα	c	c--------	_	9	AuxC	_	t_282|e_5|ref=monosyl._2
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_283|t_285|ref=monosyl._2
+6	ὀνοματικὴν	ὀνοματικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_284|t_285|ref=monosyl._2
+7	ϲημαϲίαν	ςημαςία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_285|t_286|ref=monosyl._2
+8	ἀποφήναι	ἀποφαίνω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	4	ADV	_	t_286|t_282|ref=monosyl._2
+9	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=monosyl._1
+10	.	.	u	u--------	_	9	AuxK	_	t_287|e_5|ref=monosyl._2
 
-# source = Aelius Herodianus, Περὶ μονοσυλλάβων 2
+# source = Aelius Herodianus, monosyl. 2
 # text = οὕτωϲ Ἥρωδιανὸϲ περὶ μονοϲυλλάβων .
 # sent_id = 15
-1	οὕτωϲ	οὕτως	d	d--------	_	2	ADV	_	t_288|ref=Περὶ μονοσυλλάβων_2
-2	Ἥρωδιανὸϲ	ἥρωδιανὸς	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ADV	_	t_289|ref=Περὶ μονοσυλλάβων_2
-3	περὶ	περί	r	r--------	_	4	AuxP	_	t_290|ref=Περὶ μονοσυλλάβων_2
-4	μονοϲυλλάβων	μονοςύλλαβος	v	v-sppamn-	Case=n|Gender=m|Number=s	0	PRED	_	t_291|ref=Περὶ μονοσυλλάβων_2
-5	.	.	u	u--------	_	4	AuxK	_	t_292|ref=Περὶ μονοσυλλάβων_2
+1	οὕτωϲ	οὕτως	d	d--------	_	2	ADV	_	t_288|t_289|ref=monosyl._2
+2	Ἥρωδιανὸϲ	ἥρωδιανὸς	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ADV	_	t_289|t_291|ref=monosyl._2
+3	περὶ	περί	r	r--------	_	4	AuxP	_	t_290|t_291|ref=monosyl._2
+4	μονοϲυλλάβων	μονοςύλλαβος	v	v-sppamn-	Case=n|Gender=m|Number=s	0	PRED	_	t_291|0|ref=monosyl._2
+5	.	.	u	u--------	_	4	AuxK	_	t_292|t_291|ref=monosyl._2
 

@@ -1,567 +1,567 @@
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Εὐκλείδου γεωμετρικόν [0] .
 # sent_id = 1
-1	Εὐκλείδου	εὐκλείδης	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1|ref=Epigramma_1
-2	γεωμετρικόν	γεωμετρικός	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_2|ref=Epigramma_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Epigramma_1
-4	.	.	u	u--------	_	3	AuxK	_	t_3|ref=Epigramma_1
+1	Εὐκλείδου	εὐκλείδης	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1|t_2|ref=epigram._1
+2	γεωμετρικόν	γεωμετρικός	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_2|e_1|ref=epigram._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=epigram._1
+4	.	.	u	u--------	_	3	AuxK	_	t_3|e_1|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Ἡμίονος καὶ ὄνος φορέουσαι οἶνον ἔβαινον , αὐτὰρ ὄνος στενάχιζεν ἐπ᾿ ἄχθει φόρτου ἑοῖο .
 # sent_id = 2
-1	Ἡμίονος	ἡμίονος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_4|ref=Epigramma_1
-2	καὶ	καί	c	c--------	_	6	COORD	_	t_5|ref=Epigramma_1
-3	ὄνος	ὄνος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_6|ref=Epigramma_1
-4	φορέουσαι	φορέω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_7|ref=Epigramma_1
-5	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_8|ref=Epigramma_1
-6	ἔβαινον	βαίνω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	8	PRED	_	t_9|ref=Epigramma_1
-7	,	,	u	u--------	_	8	AuxX	_	t_10|ref=Epigramma_1
-8	αὐτὰρ	ἀτάρ	g	g--------	_	0	COORD	_	t_11|ref=Epigramma_1
-9	ὄνος	ὄνος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_12|ref=Epigramma_1
-10	στενάχιζεν	στεναχίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	PRED	_	t_13|ref=Epigramma_1
-11	ἐπ᾿	ἐπί	r	r--------	_	10	AuxP	_	t_14|ref=Epigramma_1
-12	ἄχθει	ἄχθος	n	n-s---nd-	Case=d|Gender=n|Number=s	11	ADV	_	t_15|ref=Epigramma_1
-13	φόρτου	φόρτος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_16|ref=Epigramma_1
-14	ἑοῖο	ἑός	a	a-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_17|ref=Epigramma_1
-15	.	.	u	u--------	_	8	AuxK	_	t_18|ref=Epigramma_1
+1	Ἡμίονος	ἡμίονος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_4|t_5|ref=epigram._1
+2	καὶ	καί	c	c--------	_	6	COORD	_	t_5|t_9|ref=epigram._1
+3	ὄνος	ὄνος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_6|t_5|ref=epigram._1
+4	φορέουσαι	φορέω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_7|t_9|ref=epigram._1
+5	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_8|t_7|ref=epigram._1
+6	ἔβαινον	βαίνω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	8	PRED	_	t_9|t_11|ref=epigram._1
+7	,	,	u	u--------	_	8	AuxX	_	t_10|t_11|ref=epigram._1
+8	αὐτὰρ	ἀτάρ	g	g--------	_	0	COORD	_	t_11|0|ref=epigram._1
+9	ὄνος	ὄνος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_12|t_13|ref=epigram._1
+10	στενάχιζεν	στεναχίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	PRED	_	t_13|t_11|ref=epigram._1
+11	ἐπ᾿	ἐπί	r	r--------	_	10	AuxP	_	t_14|t_13|ref=epigram._1
+12	ἄχθει	ἄχθος	n	n-s---nd-	Case=d|Gender=n|Number=s	11	ADV	_	t_15|t_14|ref=epigram._1
+13	φόρτου	φόρτος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_16|t_15|ref=epigram._1
+14	ἑοῖο	ἑός	a	a-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_17|t_16|ref=epigram._1
+15	.	.	u	u--------	_	8	AuxK	_	t_18|t_11|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = τὴν δὲ βαρυστενάχουσαν ἰδοῦσ᾿ ἐρέεινεν ἐκείνη ·
 # sent_id = 3
-1	τὴν	ὁ	p	p-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_19|ref=Epigramma_1
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_20|ref=Epigramma_1
-3	βαρυστενάχουσαν	βαρυστενάχω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	1	ATV	_	t_21|ref=Epigramma_1
-4	ἰδοῦσ᾿	εἶδον	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_22|ref=Epigramma_1
-5	ἐρέεινεν	ἐρεείνω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_23|ref=Epigramma_1
-6	ἐκείνη	ἐκεῖνος	p	p-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_24|ref=Epigramma_1
-7	·	·	u	u--------	_	2	AuxK	_	t_25|ref=Epigramma_1
+1	τὴν	ὁ	p	p-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_19|t_22|ref=epigram._1
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_20|0|ref=epigram._1
+3	βαρυστενάχουσαν	βαρυστενάχω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	1	ATV	_	t_21|t_19|ref=epigram._1
+4	ἰδοῦσ᾿	εἶδον	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_22|t_23|ref=epigram._1
+5	ἐρέεινεν	ἐρεείνω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_23|t_20|ref=epigram._1
+6	ἐκείνη	ἐκεῖνος	p	p-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_24|t_23|ref=epigram._1
+7	·	·	u	u--------	_	2	AuxK	_	t_25|t_20|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = μῆτερ , τί κλαίουσ᾿ ὀλοφύρεαι ἠύτε κούρη [0] ;
 # sent_id = 4
-1	μῆτερ	μήτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	5	ExD	_	t_26|ref=Epigramma_1
-2	,	,	u	u--------	_	1	AuxX	_	t_27|ref=Epigramma_1
-3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_28|ref=Epigramma_1
-4	κλαίουσ᾿	κλαίω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	AtvV	_	t_29|ref=Epigramma_1
-5	ὀλοφύρεαι	ὀλοφύρομαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_30|ref=Epigramma_1
-6	ἠύτε	ἠύτε	c	c--------	_	5	AuxC	_	t_31|ref=Epigramma_1
-7	κούρη	κόρη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_32|ref=Epigramma_1
-8	[0]	[0]	-	---------	_	6	ADV	_	e_2|ref=Epigramma_1
-9	;	;	u	u--------	_	5	AuxK	_	t_33|ref=Epigramma_1
+1	μῆτερ	μήτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	5	ExD	_	t_26|t_30|ref=epigram._1
+2	,	,	u	u--------	_	1	AuxX	_	t_27|t_26|ref=epigram._1
+3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_28|t_29|ref=epigram._1
+4	κλαίουσ᾿	κλαίω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	AtvV	_	t_29|t_30|ref=epigram._1
+5	ὀλοφύρεαι	ὀλοφύρομαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_30|0|ref=epigram._1
+6	ἠύτε	ἠύτε	c	c--------	_	5	AuxC	_	t_31|t_30|ref=epigram._1
+7	κούρη	κόρη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_32|e_2|ref=epigram._1
+8	[0]	[0]	-	---------	_	6	ADV	_	e_2|t_31|ref=epigram._1
+9	;	;	u	u--------	_	5	AuxK	_	t_33|t_30|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = εἰ μέτρον ἕν μοι δοίης , διπλάσιον σέθεν ἦρα , εἰ δὲ ἓν ἀντιλάβοις , πάντως ἰσότητα φυλάξεις [0] .
 # sent_id = 5
-1	εἰ	εἰ	c	c--------	_	9	AuxC	_	t_34|ref=Epigramma_1
-2	μέτρον	μέτρον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_35|ref=Epigramma_1
-3	ἕν	εἷς	a	a-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_36|ref=Epigramma_1
-4	μοι	ἐγώ	p	p-s---fd-	Case=d|Gender=f|Number=s	5	OBJ	_	t_37|ref=Epigramma_1
-5	δοίης	δίδωμι	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_38|ref=Epigramma_1
-6	,	,	u	u--------	_	1	AuxX	_	t_39|ref=Epigramma_1
-7	διπλάσιον	διπλάσιος	a	a-s---na-	Case=a|Gender=n|Number=s	19	PNOM	_	t_40|ref=Epigramma_1
-8	σέθεν	σύ	p	p-s----g-	Case=g|Number=s	7	ADV	_	t_41|ref=Epigramma_1
-9	ἦρα	ἤρα	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	PRED	_	t_42|ref=Epigramma_1
-10	,	,	u	u--------	_	12	AuxX	_	t_43|ref=Epigramma_1
-11	εἰ	εἰ	c	c--------	_	18	AuxC	_	t_44|ref=Epigramma_1
-12	δὲ	δέ	g	g--------	_	0	COORD	_	t_45|ref=Epigramma_1
-13	ἓν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_46|ref=Epigramma_1
-14	ἀντιλάβοις	ἀντιλαμβάνω	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	11	ADV	_	t_47|ref=Epigramma_1
-15	,	,	u	u--------	_	11	AuxX	_	t_48|ref=Epigramma_1
-16	πάντως	πάντως	d	d--------	_	18	ADV	_	t_49|ref=Epigramma_1
-17	ἰσότητα	ἰσότης	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_50|ref=Epigramma_1
-18	φυλάξεις	φυλάσσω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	12	PRED	_	t_51|ref=Epigramma_1
-19	[0]	[0]	-	---------	_	12	PRED	_	e_3|ref=Epigramma_1
-20	.	.	u	u--------	_	12	AuxK	_	t_52|ref=Epigramma_1
+1	εἰ	εἰ	c	c--------	_	9	AuxC	_	t_34|t_42|ref=epigram._1
+2	μέτρον	μέτρον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_35|t_38|ref=epigram._1
+3	ἕν	εἷς	a	a-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_36|t_35|ref=epigram._1
+4	μοι	ἐγώ	p	p-s---fd-	Case=d|Gender=f|Number=s	5	OBJ	_	t_37|t_38|ref=epigram._1
+5	δοίης	δίδωμι	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_38|t_34|ref=epigram._1
+6	,	,	u	u--------	_	1	AuxX	_	t_39|t_34|ref=epigram._1
+7	διπλάσιον	διπλάσιος	a	a-s---na-	Case=a|Gender=n|Number=s	19	PNOM	_	t_40|e_3|ref=epigram._1
+8	σέθεν	σύ	p	p-s----g-	Case=g|Number=s	7	ADV	_	t_41|t_40|ref=epigram._1
+9	ἦρα	ἤρα	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	PRED	_	t_42|t_45|ref=epigram._1
+10	,	,	u	u--------	_	12	AuxX	_	t_43|t_45|ref=epigram._1
+11	εἰ	εἰ	c	c--------	_	18	AuxC	_	t_44|t_51|ref=epigram._1
+12	δὲ	δέ	g	g--------	_	0	COORD	_	t_45|0|ref=epigram._1
+13	ἓν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_46|t_47|ref=epigram._1
+14	ἀντιλάβοις	ἀντιλαμβάνω	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	11	ADV	_	t_47|t_44|ref=epigram._1
+15	,	,	u	u--------	_	11	AuxX	_	t_48|t_44|ref=epigram._1
+16	πάντως	πάντως	d	d--------	_	18	ADV	_	t_49|t_51|ref=epigram._1
+17	ἰσότητα	ἰσότης	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_50|t_51|ref=epigram._1
+18	φυλάξεις	φυλάσσω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	12	PRED	_	t_51|t_45|ref=epigram._1
+19	[0]	[0]	-	---------	_	12	PRED	_	e_3|t_45|ref=epigram._1
+20	.	.	u	u--------	_	12	AuxK	_	t_52|t_45|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = εἰπὲ τὸ μέτρον , ἄριστε γεωμετρίης ἐπίιστορ .
 # sent_id = 6
-1	εἰπὲ	εἶπον	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_53|ref=Epigramma_1
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_54|ref=Epigramma_1
-3	μέτρον	μέτρον	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_55|ref=Epigramma_1
-4	,	,	u	u--------	_	1	AuxX	_	t_56|ref=Epigramma_1
-5	ἄριστε	ἄριστος	a	a-s---mv-	Case=v|Gender=m|Number=s	7	ATR	_	t_57|ref=Epigramma_1
-6	γεωμετρίης	γεωμετρία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_58|ref=Epigramma_1
-7	ἐπίιστορ	ἐπίιστορ	n	n-s---mv-	Case=v|Gender=m|Number=s	1	ExD	_	t_59|ref=Epigramma_1
-8	.	.	u	u--------	_	1	AuxK	_	t_60|ref=Epigramma_1
+1	εἰπὲ	εἶπον	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_53|0|ref=epigram._1
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_54|t_55|ref=epigram._1
+3	μέτρον	μέτρον	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_55|t_53|ref=epigram._1
+4	,	,	u	u--------	_	1	AuxX	_	t_56|t_53|ref=epigram._1
+5	ἄριστε	ἄριστος	a	a-s---mv-	Case=v|Gender=m|Number=s	7	ATR	_	t_57|t_59|ref=epigram._1
+6	γεωμετρίης	γεωμετρία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_58|t_59|ref=epigram._1
+7	ἐπίιστορ	ἐπίιστορ	n	n-s---mv-	Case=v|Gender=m|Number=s	1	ExD	_	t_59|t_53|ref=epigram._1
+8	.	.	u	u--------	_	1	AuxK	_	t_60|t_53|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Primus edidit Aldus in Florilegio 1503 ( MM p .
 # sent_id = 7
-1	Primus	πρότερος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_61|ref=Epigramma_1
-2	edidit	ediδεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_62|ref=Epigramma_1
-3	Aldus	alcs	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_63|ref=Epigramma_1
-4	in	εἰς	r	r--------	_	2	AuxP	_	t_64|ref=Epigramma_1
-5	Florilegio	florilegio	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_65|ref=Epigramma_1
-6	1503	1503	n	n--------	_	2	AuxG	_	t_66|ref=Epigramma_1
-7	(	̔	u	u--------	_	2	AuxG	_	t_67|ref=Epigramma_1
-8	MM	mm	n	n--------	_	2	ExD	_	t_68|ref=Epigramma_1
-9	p	p	x	x--------	_	8	ATR	_	t_69|ref=Epigramma_1
-10	.	.	u	u--------	_	2	AuxK	_	t_70|ref=Epigramma_1
+1	Primus	πρότερος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_61|t_62|ref=epigram._1
+2	edidit	ediδεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_62|0|ref=epigram._1
+3	Aldus	alcs	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_63|t_62|ref=epigram._1
+4	in	εἰς	r	r--------	_	2	AuxP	_	t_64|t_62|ref=epigram._1
+5	Florilegio	florilegio	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_65|t_64|ref=epigram._1
+6	1503	1503	n	n--------	_	2	AuxG	_	t_66|t_62|ref=epigram._1
+7	(	̔	u	u--------	_	2	AuxG	_	t_67|t_62|ref=epigram._1
+8	MM	mm	n	n--------	_	2	ExD	_	t_68|t_62|ref=epigram._1
+9	p	p	x	x--------	_	8	ATR	_	t_69|t_68|ref=epigram._1
+10	.	.	u	u--------	_	2	AuxK	_	t_70|t_62|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 9 ) , deinde praeter reliquas Anthologiae editiones , uelut Henrici Stephani 1566 p [0] .
 # sent_id = 8
-1	9	9	x	x--------	_	15	AuxG	_	t_71|ref=Epigramma_1
-2	)	)	u	u--------	_	15	AuxG	_	t_72|ref=Epigramma_1
-3	,	,	u	u--------	_	15	AuxX	_	t_73|ref=Epigramma_1
-4	deinde	deinde	d	d--------	_	15	ADV	_	t_74|ref=Epigramma_1
-5	praeter	ἔδω	r	r--------	_	15	ADV	_	t_75|ref=Epigramma_1
-6	reliquas	reliquος	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_76|ref=Epigramma_1
-7	Anthologiae	anthologiae	n	n-s---mg-	Case=n|Gender=f|Number=p	8	ATR	_	t_77|ref=Epigramma_1
-8	editiones	editione	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_78|ref=Epigramma_1
-9	,	,	u	u--------	_	15	AuxX	_	t_79|ref=Epigramma_1
-10	uelut	uelut	a	a-s---nn-	Case=a|Gender=m|Number=s	15	ADV	_	t_80|ref=Epigramma_1
-11	Henrici	norθηξ	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_81|ref=Epigramma_1
-12	Stephani	stephani	n	n-s---md-	Case=d|Gender=m|Number=s	15	OBJ	_	t_82|ref=Epigramma_1
-13	1566	1566	a	a--------	_	11	ATR	_	t_83|ref=Epigramma_1
-14	p	p	x	x--------	_	13	OBJ	_	t_84|ref=Epigramma_1
-15	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Epigramma_1
-16	.	.	u	u--------	_	15	AuxK	_	t_85|ref=Epigramma_1
+1	9	9	x	x--------	_	15	AuxG	_	t_71|e_4|ref=epigram._1
+2	)	)	u	u--------	_	15	AuxG	_	t_72|e_4|ref=epigram._1
+3	,	,	u	u--------	_	15	AuxX	_	t_73|e_4|ref=epigram._1
+4	deinde	deinde	d	d--------	_	15	ADV	_	t_74|e_4|ref=epigram._1
+5	praeter	ἔδω	r	r--------	_	15	ADV	_	t_75|e_4|ref=epigram._1
+6	reliquas	reliquος	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_76|t_78|ref=epigram._1
+7	Anthologiae	anthologiae	n	n-s---mg-	Case=n|Gender=f|Number=p	8	ATR	_	t_77|t_78|ref=epigram._1
+8	editiones	editione	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_78|e_4|ref=epigram._1
+9	,	,	u	u--------	_	15	AuxX	_	t_79|e_4|ref=epigram._1
+10	uelut	uelut	a	a-s---nn-	Case=a|Gender=m|Number=s	15	ADV	_	t_80|e_4|ref=epigram._1
+11	Henrici	norθηξ	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_81|e_4|ref=epigram._1
+12	Stephani	stephani	n	n-s---md-	Case=d|Gender=m|Number=s	15	OBJ	_	t_82|e_4|ref=epigram._1
+13	1566	1566	a	a--------	_	11	ATR	_	t_83|t_81|ref=epigram._1
+14	p	p	x	x--------	_	13	OBJ	_	t_84|t_83|ref=epigram._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=epigram._1
+16	.	.	u	u--------	_	15	AuxK	_	t_85|e_4|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 493 , Bachetus in Diophanto p [0] .
 # sent_id = 9
-1	493	493	a	a--------	_	7	AuxG	_	t_86|ref=Epigramma_1
-2	,	,	u	u--------	_	7	AuxX	_	t_87|ref=Epigramma_1
-3	Bachetus	baπτόμενος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_88|ref=Epigramma_1
-4	in	εἰς	r	r--------	_	7	AuxP	_	t_89|ref=Epigramma_1
-5	Diophanto	diophantος	n	n-s---mg-	_	4	OBJ	_	t_90|ref=Epigramma_1
-6	p	p	x	x--------	_	4	ExD	_	t_91|ref=Epigramma_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Epigramma_1
-8	.	.	u	u--------	_	7	AuxK	_	t_92|ref=Epigramma_1
+1	493	493	a	a--------	_	7	AuxG	_	t_86|e_5|ref=epigram._1
+2	,	,	u	u--------	_	7	AuxX	_	t_87|e_5|ref=epigram._1
+3	Bachetus	baπτόμενος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_88|e_5|ref=epigram._1
+4	in	εἰς	r	r--------	_	7	AuxP	_	t_89|e_5|ref=epigram._1
+5	Diophanto	diophantος	n	n-s---mg-	_	4	OBJ	_	t_90|t_89|ref=epigram._1
+6	p	p	x	x--------	_	4	ExD	_	t_91|t_89|ref=epigram._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=epigram._1
+8	.	.	u	u--------	_	7	AuxK	_	t_92|e_5|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 370 sine Euclidis nomine ( p [0] .
 # sent_id = 10
-1	370	370	u	u--------	_	7	AuxG	_	t_93|ref=Epigramma_1
-2	sine	θῆλυς	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_94|ref=Epigramma_1
-3	Euclidis	euclidis	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_95|ref=Epigramma_1
-4	nomine	ὄνομα	n	n-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_96|ref=Epigramma_1
-5	(	̔	u	u--------	_	7	AuxG	_	t_97|ref=Epigramma_1
-6	p	p	n	n--------	_	7	ExD	_	t_98|ref=Epigramma_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Epigramma_1
-8	.	.	u	u--------	_	7	AuxK	_	t_99|ref=Epigramma_1
+1	370	370	u	u--------	_	7	AuxG	_	t_93|e_6|ref=epigram._1
+2	sine	θῆλυς	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_94|t_95|ref=epigram._1
+3	Euclidis	euclidis	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_95|e_6|ref=epigram._1
+4	nomine	ὄνομα	n	n-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_96|t_95|ref=epigram._1
+5	(	̔	u	u--------	_	7	AuxG	_	t_97|e_6|ref=epigram._1
+6	p	p	n	n--------	_	7	ExD	_	t_98|e_6|ref=epigram._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=epigram._1
+8	.	.	u	u--------	_	7	AuxK	_	t_99|e_6|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 349 [0] :
 # sent_id = 11
-1	349	349	u	u--------	_	2	AuxG	_	t_100|ref=Epigramma_1
-2	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Epigramma_1
-3	:	:	u	u--------	_	2	AuxK	_	t_101|ref=Epigramma_1
+1	349	349	u	u--------	_	2	AuxG	_	t_100|e_7|ref=epigram._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=epigram._1
+3	:	:	u	u--------	_	2	AuxK	_	t_101|e_7|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = „ placet hoc loco elegantissima aliquot epigrammata proferre non iniucundas quaestiones de rebus arithmeticis continentia , quae nondum edita fuerunt , quae que pridem e codice probatissimo Palatino excerpta tradidit nobis vir eruditissimus Claudius Salmasius “ , et deinde p [0] .
 # sent_id = 12
-1	„	„	u	u--------	_	2	AuxG	_	t_102|ref=Epigramma_1
-2	placet	δέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_103|ref=Epigramma_1
-3	hoc	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_104|ref=Epigramma_1
-4	loco	δόμος	d	d--------	_	2	ADV	_	t_105|ref=Epigramma_1
-5	elegantissima	elegantissima	a	a-s---fn-	Case=n|Gender=f|Number=s	2	PNOM	_	t_106|ref=Epigramma_1
-6	aliquot	τις	a	a-s---na-	Case=n|Gender=f|Number=s	7	ATR	_	t_107|ref=Epigramma_1
-7	epigrammata	epigrammata	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_108|ref=Epigramma_1
-8	proferre	περιοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	OBJ	_	t_109|ref=Epigramma_1
-9	non	οὐ	d	d--------	_	11	ATR	_	t_110|ref=Epigramma_1
-10	iniucundas	ἐιuδόθητε	n	n-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_111|ref=Epigramma_1
-11	quaestiones	quaestione	n	n-p---fn-	Case=n|Gender=f|Number=p	8	OBJ	_	t_112|ref=Epigramma_1
-12	de	ὁ	u	u--------	_	11	AuxX	_	t_113|ref=Epigramma_1
-13	rebus	rebus	d	d--------	_	2	ADV	_	t_114|ref=Epigramma_1
-14	arithmeticis	arithmeticis	n	n-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_115|ref=Epigramma_1
-15	continentia	προυχία	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_116|ref=Epigramma_1
-16	,	,	u	u--------	_	2	AuxX	_	t_117|ref=Epigramma_1
-17	quae	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	20	SBJ	_	t_118|ref=Epigramma_1
-18	nondum	οὐτος	a	a-p---nn-	Case=n|Gender=n|Number=p	20	PNOM	_	t_119|ref=Epigramma_1
-19	edita	edita	d	d--------	_	2	ADV	_	t_120|ref=Epigramma_1
-20	fuerunt	fuέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ATR	_	t_121|ref=Epigramma_1
-21	,	,	u	u--------	_	2	AuxX	_	t_122|ref=Epigramma_1
-22	quae	ὅς	p	p-p---na-	Case=n|Gender=n|Number=p	20	SBJ	_	t_123|ref=Epigramma_1
-23	que	ὅς	d	d--------	_	2	ADV	_	t_124|ref=Epigramma_1
-24	pridem	πρόδομος	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	30	OBJ	_	t_125|ref=Epigramma_1
-25	e	e	d	d--------	_	26	ATR	_	t_126|ref=Epigramma_1
-26	codice	codice	d	d--------	Case=a|Gender=n|Number=p	30	ADV	_	t_127|ref=Epigramma_1
-27	probatissimo	probatissimus	d	d--------	_	30	ADV	_	t_128|ref=Epigramma_1
-28	Palatino	palatinus	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_129|ref=Epigramma_1
-29	excerpta	ἐνευκαιρέω	a	a-p---na-	Case=a|Gender=n|Number=p	30	OBJ	_	t_130|ref=Epigramma_1
-30	tradidit	tradiθέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	ATR	_	t_131|ref=Epigramma_1
-31	nobis	nobis	n	n-d---nn-	Case=a|Gender=m|Number=d	30	APOS	_	t_132|ref=Epigramma_1
-32	vir	vir	n	n-s---md-	Case=d|Gender=m|Number=s	30	OBJ	_	t_133|ref=Epigramma_1
-33	eruditissimus	μασθοφορέω	a	a-s---mg-	Case=n|Gender=m|Number=s	34	ATR	_	t_134|ref=Epigramma_1
-34	Claudius	claudius	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_135|ref=Epigramma_1
-35	Salmasius	salmasius	n	n-s---mn-	Case=n|Gender=m|Number=s	34	ATR	_	t_136|ref=Epigramma_1
-36	“	“	u	u--------	_	2	AuxG	_	t_137|ref=Epigramma_1
-37	,	,	u	u--------	_	2	AuxX	_	t_138|ref=Epigramma_1
-38	et	καί	d	d--------	_	2	ADV	_	t_139|ref=Epigramma_1
-39	deinde	deinde	d	d--------	_	2	ADV	_	t_140|ref=Epigramma_1
-40	p	p	n	n--------	_	41	OBJ	_	t_141|ref=Epigramma_1
-41	[0]	[0]	-	---------	_	2	PRED	_	e_8|ref=Epigramma_1
-42	.	.	u	u--------	_	2	AuxK	_	t_142|ref=Epigramma_1
+1	„	„	u	u--------	_	2	AuxG	_	t_102|t_103|ref=epigram._1
+2	placet	δέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_103|0|ref=epigram._1
+3	hoc	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_104|t_108|ref=epigram._1
+4	loco	δόμος	d	d--------	_	2	ADV	_	t_105|t_103|ref=epigram._1
+5	elegantissima	elegantissima	a	a-s---fn-	Case=n|Gender=f|Number=s	2	PNOM	_	t_106|t_103|ref=epigram._1
+6	aliquot	τις	a	a-s---na-	Case=n|Gender=f|Number=s	7	ATR	_	t_107|t_108|ref=epigram._1
+7	epigrammata	epigrammata	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_108|t_109|ref=epigram._1
+8	proferre	περιοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	OBJ	_	t_109|t_103|ref=epigram._1
+9	non	οὐ	d	d--------	_	11	ATR	_	t_110|t_112|ref=epigram._1
+10	iniucundas	ἐιuδόθητε	n	n-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_111|t_112|ref=epigram._1
+11	quaestiones	quaestione	n	n-p---fn-	Case=n|Gender=f|Number=p	8	OBJ	_	t_112|t_109|ref=epigram._1
+12	de	ὁ	u	u--------	_	11	AuxX	_	t_113|t_112|ref=epigram._1
+13	rebus	rebus	d	d--------	_	2	ADV	_	t_114|t_103|ref=epigram._1
+14	arithmeticis	arithmeticis	n	n-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_115|t_112|ref=epigram._1
+15	continentia	προυχία	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_116|t_112|ref=epigram._1
+16	,	,	u	u--------	_	2	AuxX	_	t_117|t_103|ref=epigram._1
+17	quae	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	20	SBJ	_	t_118|t_121|ref=epigram._1
+18	nondum	οὐτος	a	a-p---nn-	Case=n|Gender=n|Number=p	20	PNOM	_	t_119|t_121|ref=epigram._1
+19	edita	edita	d	d--------	_	2	ADV	_	t_120|t_103|ref=epigram._1
+20	fuerunt	fuέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ATR	_	t_121|t_112|ref=epigram._1
+21	,	,	u	u--------	_	2	AuxX	_	t_122|t_103|ref=epigram._1
+22	quae	ὅς	p	p-p---na-	Case=n|Gender=n|Number=p	20	SBJ	_	t_123|t_121|ref=epigram._1
+23	que	ὅς	d	d--------	_	2	ADV	_	t_124|t_103|ref=epigram._1
+24	pridem	πρόδομος	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	30	OBJ	_	t_125|t_131|ref=epigram._1
+25	e	e	d	d--------	_	26	ATR	_	t_126|t_127|ref=epigram._1
+26	codice	codice	d	d--------	Case=a|Gender=n|Number=p	30	ADV	_	t_127|t_131|ref=epigram._1
+27	probatissimo	probatissimus	d	d--------	_	30	ADV	_	t_128|t_131|ref=epigram._1
+28	Palatino	palatinus	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_129|t_131|ref=epigram._1
+29	excerpta	ἐνευκαιρέω	a	a-p---na-	Case=a|Gender=n|Number=p	30	OBJ	_	t_130|t_131|ref=epigram._1
+30	tradidit	tradiθέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	ATR	_	t_131|t_112|ref=epigram._1
+31	nobis	nobis	n	n-d---nn-	Case=a|Gender=m|Number=d	30	APOS	_	t_132|t_131|ref=epigram._1
+32	vir	vir	n	n-s---md-	Case=d|Gender=m|Number=s	30	OBJ	_	t_133|t_131|ref=epigram._1
+33	eruditissimus	μασθοφορέω	a	a-s---mg-	Case=n|Gender=m|Number=s	34	ATR	_	t_134|t_135|ref=epigram._1
+34	Claudius	claudius	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_135|t_131|ref=epigram._1
+35	Salmasius	salmasius	n	n-s---mn-	Case=n|Gender=m|Number=s	34	ATR	_	t_136|t_135|ref=epigram._1
+36	“	“	u	u--------	_	2	AuxG	_	t_137|t_103|ref=epigram._1
+37	,	,	u	u--------	_	2	AuxX	_	t_138|t_103|ref=epigram._1
+38	et	καί	d	d--------	_	2	ADV	_	t_139|t_103|ref=epigram._1
+39	deinde	deinde	d	d--------	_	2	ADV	_	t_140|t_103|ref=epigram._1
+40	p	p	n	n--------	_	41	OBJ	_	t_141|e_8|ref=epigram._1
+41	[0]	[0]	-	---------	_	2	PRED	_	e_8|t_103|ref=epigram._1
+42	.	.	u	u--------	_	2	AuxK	_	t_142|t_103|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 368 [0] ;
 # sent_id = 13
-1	368	368	u	u--------	_	2	AuxX	_	t_143|ref=Epigramma_1
-2	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Epigramma_1
-3	;	;	u	u--------	_	2	AuxK	_	t_144|ref=Epigramma_1
+1	368	368	u	u--------	_	2	AuxX	_	t_143|e_9|ref=epigram._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=epigram._1
+3	;	;	u	u--------	_	2	AuxK	_	t_144|e_9|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = „ his , quae nondum edita erant , epigrammatis subiicere libet quin que sequentia cum nostra interpretatione , ne quid ad hanc materiam pertinens hic deesse sinamus , quamuis olim haec edita circumferantur in Anthologia “ ) et Brunckius Anal .
 # sent_id = 14
-1	„	„	u	u--------	_	27	AuxG	_	t_145|ref=Epigramma_1
-2	his	ὁ	d	d--------	_	6	AuxY	_	t_146|ref=Epigramma_1
-3	,	,	u	u--------	_	32	AuxX	_	t_147|ref=Epigramma_1
-4	quae	ὅς	d	d--------	_	6	AuxY	_	t_148|ref=Epigramma_1
-5	nondum	οὐτος	d	d--------	_	6	ADV	_	t_149|ref=Epigramma_1
-6	edita	edita	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	27	ExD	_	t_150|ref=Epigramma_1
-7	erant	γελάω	v	v3siia---	_	6	ExD	_	t_151|ref=Epigramma_1
-8	,	,	u	u--------	_	27	AuxX	_	t_152|ref=Epigramma_1
-9	epigrammatis	epigrammati	n	n-p---fn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_153|ref=Epigramma_1
-10	subiicere	ἐπαντλέω	a	a-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_154|ref=Epigramma_1
-11	libet	libυ	a	a-p---fd-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ATR	_	t_155|ref=Epigramma_1
-12	quin	ὅστις	d	d--------	_	14	AuxY	_	t_156|ref=Epigramma_1
-13	que	ὅς	d	d--------	_	9	ATR	_	t_157|ref=Epigramma_1
-14	sequentia	sequentia	v	v-pppenn-	Case=n|Gender=n|Number=p	9	ATR	_	t_158|ref=Epigramma_1
-15	cum	cum	r	r--------	_	14	AuxP	_	t_159|ref=Epigramma_1
-16	nostra	ἡμέτερος	p	p-s---fn-	Case=a|Gender=n|Number=p	15	ATR	_	t_160|ref=Epigramma_1
-17	interpretatione	interpretatio	d	d--------	_	14	ADV	_	t_161|ref=Epigramma_1
-18	,	,	u	u--------	_	27	AuxX	_	t_162|ref=Epigramma_1
-19	ne	μή	d	d--------	_	27	AuxZ	_	t_163|ref=Epigramma_1
-20	quid	ὅστις	d	d--------	_	27	AuxY	_	t_164|ref=Epigramma_1
-21	ad	ad	v	v2ppma---	_	27	AuxY	_	t_165|ref=Epigramma_1
-22	hanc	hanc	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_166|ref=Epigramma_1
-23	materiam	materia	n	n-s---fa-	Case=a|Gender=f|Number=s	33	OBJ	_	t_167|ref=Epigramma_1
-24	pertinens	pertinu	d	d--------	_	33	AuxP	_	t_168|ref=Epigramma_1
-25	hic	hic	d	d--------	_	33	ADV	_	t_169|ref=Epigramma_1
-26	deesse	ὑπάρχω	d	d--------	_	9	ATR	_	t_170|ref=Epigramma_1
-27	sinamus	εἴλω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_171|ref=Epigramma_1
-28	,	,	u	u--------	_	27	AuxX	_	t_172|ref=Epigramma_1
-29	quamuis	quamuus	c	c--------	_	33	AuxC	_	t_173|ref=Epigramma_1
-30	olim	olim	d	d--------	_	33	ADV	_	t_174|ref=Epigramma_1
-31	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	33	OBJ	_	t_175|ref=Epigramma_1
-32	edita	edita	d	d--------	_	9	ATR	_	t_176|ref=Epigramma_1
-33	circumferantur	circumfiρέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	27	OBJ	_	t_177|ref=Epigramma_1
-34	in	εἰς	d	d--------	_	9	ATR	_	t_178|ref=Epigramma_1
-35	Anthologia	anthologia	n	n-s---fn-	Case=n|Gender=f|Number=s	33	SBJ	_	t_179|ref=Epigramma_1
-36	“	“	u	u--------	_	27	AuxG	_	t_180|ref=Epigramma_1
-37	)	)	u	u--------	_	27	AuxG	_	t_181|ref=Epigramma_1
-38	et	καί	d	d--------	_	9	ATR	_	t_182|ref=Epigramma_1
-39	Brunckius	κενεμβατεῖν	a	a-s---fn-	Case=n|Gender=f|Number=s	35	APOS	_	t_183|ref=Epigramma_1
-40	Anal	anal	u	u--------	_	27	ExD	_	t_184|ref=Epigramma_1
-41	.	.	u	u--------	_	3	AuxK	_	t_185|ref=Epigramma_1
+1	„	„	u	u--------	_	27	AuxG	_	t_145|t_171|ref=epigram._1
+2	his	ὁ	d	d--------	_	6	AuxY	_	t_146|t_150|ref=epigram._1
+3	,	,	u	u--------	_	32	AuxX	_	t_147|t_176|ref=epigram._1
+4	quae	ὅς	d	d--------	_	6	AuxY	_	t_148|t_150|ref=epigram._1
+5	nondum	οὐτος	d	d--------	_	6	ADV	_	t_149|t_150|ref=epigram._1
+6	edita	edita	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	27	ExD	_	t_150|t_171|ref=epigram._1
+7	erant	γελάω	v	v3siia---	_	6	ExD	_	t_151|t_150|ref=epigram._1
+8	,	,	u	u--------	_	27	AuxX	_	t_152|t_171|ref=epigram._1
+9	epigrammatis	epigrammati	n	n-p---fn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_153|t_150|ref=epigram._1
+10	subiicere	ἐπαντλέω	a	a-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_154|t_153|ref=epigram._1
+11	libet	libυ	a	a-p---fd-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ATR	_	t_155|t_153|ref=epigram._1
+12	quin	ὅστις	d	d--------	_	14	AuxY	_	t_156|t_158|ref=epigram._1
+13	que	ὅς	d	d--------	_	9	ATR	_	t_157|t_153|ref=epigram._1
+14	sequentia	sequentia	v	v-pppenn-	Case=n|Gender=n|Number=p	9	ATR	_	t_158|t_153|ref=epigram._1
+15	cum	cum	r	r--------	_	14	AuxP	_	t_159|t_158|ref=epigram._1
+16	nostra	ἡμέτερος	p	p-s---fn-	Case=a|Gender=n|Number=p	15	ATR	_	t_160|t_159|ref=epigram._1
+17	interpretatione	interpretatio	d	d--------	_	14	ADV	_	t_161|t_158|ref=epigram._1
+18	,	,	u	u--------	_	27	AuxX	_	t_162|t_171|ref=epigram._1
+19	ne	μή	d	d--------	_	27	AuxZ	_	t_163|t_171|ref=epigram._1
+20	quid	ὅστις	d	d--------	_	27	AuxY	_	t_164|t_171|ref=epigram._1
+21	ad	ad	v	v2ppma---	_	27	AuxY	_	t_165|t_171|ref=epigram._1
+22	hanc	hanc	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_166|t_167|ref=epigram._1
+23	materiam	materia	n	n-s---fa-	Case=a|Gender=f|Number=s	33	OBJ	_	t_167|t_177|ref=epigram._1
+24	pertinens	pertinu	d	d--------	_	33	AuxP	_	t_168|t_177|ref=epigram._1
+25	hic	hic	d	d--------	_	33	ADV	_	t_169|t_177|ref=epigram._1
+26	deesse	ὑπάρχω	d	d--------	_	9	ATR	_	t_170|t_153|ref=epigram._1
+27	sinamus	εἴλω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_171|0|ref=epigram._1
+28	,	,	u	u--------	_	27	AuxX	_	t_172|t_171|ref=epigram._1
+29	quamuis	quamuus	c	c--------	_	33	AuxC	_	t_173|t_177|ref=epigram._1
+30	olim	olim	d	d--------	_	33	ADV	_	t_174|t_177|ref=epigram._1
+31	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	33	OBJ	_	t_175|t_177|ref=epigram._1
+32	edita	edita	d	d--------	_	9	ATR	_	t_176|t_153|ref=epigram._1
+33	circumferantur	circumfiρέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	27	OBJ	_	t_177|t_171|ref=epigram._1
+34	in	εἰς	d	d--------	_	9	ATR	_	t_178|t_153|ref=epigram._1
+35	Anthologia	anthologia	n	n-s---fn-	Case=n|Gender=f|Number=s	33	SBJ	_	t_179|t_177|ref=epigram._1
+36	“	“	u	u--------	_	27	AuxG	_	t_180|t_171|ref=epigram._1
+37	)	)	u	u--------	_	27	AuxG	_	t_181|t_171|ref=epigram._1
+38	et	καί	d	d--------	_	9	ATR	_	t_182|t_153|ref=epigram._1
+39	Brunckius	κενεμβατεῖν	a	a-s---fn-	Case=n|Gender=f|Number=s	35	APOS	_	t_183|t_179|ref=epigram._1
+40	Anal	anal	u	u--------	_	27	ExD	_	t_184|t_171|ref=epigram._1
+41	.	.	u	u--------	_	3	AuxK	_	t_185|t_147|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = I p [0] .
 # sent_id = 15
-1	I	εἰ	n	n--------	_	3	ExD	_	t_186|ref=Epigramma_1
-2	p	p	x	x--------	_	3	ExD	_	t_187|ref=Epigramma_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Epigramma_1
-4	.	.	u	u--------	_	3	AuxK	_	t_188|ref=Epigramma_1
+1	I	εἰ	n	n--------	_	3	ExD	_	t_186|e_10|ref=epigram._1
+2	p	p	x	x--------	_	3	ExD	_	t_187|e_10|ref=epigram._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=epigram._1
+4	.	.	u	u--------	_	3	AuxK	_	t_188|e_10|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 168 .
 # sent_id = 16
-1	168	168	x	x--------	_	0	PRED	_	t_189|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_190|ref=Epigramma_1
+1	168	168	x	x--------	_	0	PRED	_	t_189|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_190|t_189|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = ego hosce contuli codices :
 # sent_id = 17
-1	ego	εγω	d	d--------	Case=n|Gender=f|Number=s	3	SBJ	_	t_191|ref=Epigramma_1
-2	hosce	hos	n	n-s---fn-	_	3	SBJ	_	t_192|ref=Epigramma_1
-3	contuli	κατατάσσω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_193|ref=Epigramma_1
-4	codices	codices	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_194|ref=Epigramma_1
-5	:	:	u	u--------	_	3	AuxK	_	t_195|ref=Epigramma_1
+1	ego	εγω	d	d--------	Case=n|Gender=f|Number=s	3	SBJ	_	t_191|t_193|ref=epigram._1
+2	hosce	hos	n	n-s---fn-	_	3	SBJ	_	t_192|t_193|ref=epigram._1
+3	contuli	κατατάσσω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_193|0|ref=epigram._1
+4	codices	codices	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_194|t_193|ref=epigram._1
+5	:	:	u	u--------	_	3	AuxK	_	t_195|t_193|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Vatic .
 # sent_id = 18
-1	Vatic	vatic	n	n-s---mv-	Case=n|Number=s	0	ExD	_	t_196|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_197|ref=Epigramma_1
+1	Vatic	vatic	n	n-s---mv-	Case=n|Number=s	0	ExD	_	t_196|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_197|t_196|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Gr .
 # sent_id = 19
-1	Gr	gr	x	x--------	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_198|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_199|ref=Epigramma_1
+1	Gr	gr	x	x--------	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_198|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_199|t_198|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 63 bomb [0] .
 # sent_id = 20
-1	63	63	p	p-s---fa-	Case=a|Gender=f|Number=s	3	SBJ	_	t_200|ref=Epigramma_1
-2	bomb	bomb	n	n-s---fn-	Case=a|Gender=f|Number=s	3	PNOM	_	t_201|ref=Epigramma_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Epigramma_1
-4	.	.	u	u--------	_	3	AuxK	_	t_202|ref=Epigramma_1
+1	63	63	p	p-s---fa-	Case=a|Gender=f|Number=s	3	SBJ	_	t_200|e_11|ref=epigram._1
+2	bomb	bomb	n	n-s---fn-	Case=a|Gender=f|Number=s	3	PNOM	_	t_201|e_11|ref=epigram._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=epigram._1
+4	.	.	u	u--------	_	3	AuxK	_	t_202|e_11|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = s .
 # sent_id = 21
-1	s	s	x	x--------	_	0	ExD	_	t_203|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_204|ref=Epigramma_1
+1	s	s	x	x--------	_	0	ExD	_	t_203|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_204|t_203|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = XIV ( A , fol .
 # sent_id = 22
-1	XIV	xiv	x	x--------	_	0	AuxG	_	t_205|ref=Epigramma_1
-2	(	̔	u	u--------	_	1	AuxG	_	t_206|ref=Epigramma_1
-3	A	a	i	i--------	_	1	ExD	_	t_207|ref=Epigramma_1
-4	,	,	u	u--------	_	1	AuxX	_	t_208|ref=Epigramma_1
-5	fol	fol	i	i--------	_	1	ExD	_	t_209|ref=Epigramma_1
-6	.	.	u	u--------	_	1	AuxK	_	t_210|ref=Epigramma_1
+1	XIV	xiv	x	x--------	_	0	AuxG	_	t_205|0|ref=epigram._1
+2	(	̔	u	u--------	_	1	AuxG	_	t_206|t_205|ref=epigram._1
+3	A	a	i	i--------	_	1	ExD	_	t_207|t_205|ref=epigram._1
+4	,	,	u	u--------	_	1	AuxX	_	t_208|t_205|ref=epigram._1
+5	fol	fol	i	i--------	_	1	ExD	_	t_209|t_205|ref=epigram._1
+6	.	.	u	u--------	_	1	AuxK	_	t_210|t_205|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 121 ) , Vatic [0] .
 # sent_id = 23
-1	121	122	u	u--------	_	5	AuxG	_	t_211|ref=Epigramma_1
-2	)	)	u	u--------	_	5	AuxG	_	t_212|ref=Epigramma_1
-3	,	,	u	u--------	_	5	AuxX	_	t_213|ref=Epigramma_1
-4	Vatic	vatic	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ExD	_	t_214|ref=Epigramma_1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=Epigramma_1
-6	.	.	u	u--------	_	5	AuxK	_	t_215|ref=Epigramma_1
+1	121	122	u	u--------	_	5	AuxG	_	t_211|e_12|ref=epigram._1
+2	)	)	u	u--------	_	5	AuxG	_	t_212|e_12|ref=epigram._1
+3	,	,	u	u--------	_	5	AuxX	_	t_213|e_12|ref=epigram._1
+4	Vatic	vatic	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ExD	_	t_214|e_12|ref=epigram._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=epigram._1
+6	.	.	u	u--------	_	5	AuxK	_	t_215|e_12|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Gr .
 # sent_id = 24
-1	Gr	gr	x	x--------	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_216|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_217|ref=Epigramma_1
+1	Gr	gr	x	x--------	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_216|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_217|t_216|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 1347 chart [0] .
 # sent_id = 25
-1	1347	1347	x	x--------	_	3	AuxG	_	t_218|ref=Epigramma_1
-2	chart	chart	n	n--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	3	ExD	_	t_219|ref=Epigramma_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Epigramma_1
-4	.	.	u	u--------	_	3	AuxK	_	t_220|ref=Epigramma_1
+1	1347	1347	x	x--------	_	3	AuxG	_	t_218|e_13|ref=epigram._1
+2	chart	chart	n	n--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	3	ExD	_	t_219|e_13|ref=epigram._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=epigram._1
+4	.	.	u	u--------	_	3	AuxK	_	t_220|e_13|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = s .
 # sent_id = 26
-1	s	s	x	x--------	_	0	ExD	_	t_221|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_222|ref=Epigramma_1
+1	s	s	x	x--------	_	0	ExD	_	t_221|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_222|t_221|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = XVI ( B , fol [0] .
 # sent_id = 27
-1	XVI	xv	x	x--------	_	6	AuxG	_	t_223|ref=Epigramma_1
-2	(	̔	u	u--------	_	6	AuxG	_	t_224|ref=Epigramma_1
-3	B	b	x	x--------	_	6	AuxG	_	t_225|ref=Epigramma_1
-4	,	,	u	u--------	_	6	AuxX	_	t_226|ref=Epigramma_1
-5	fol	fol	d	d--------	_	6	ExD	_	t_227|ref=Epigramma_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Epigramma_1
-7	.	.	u	u--------	_	6	AuxK	_	t_228|ref=Epigramma_1
+1	XVI	xv	x	x--------	_	6	AuxG	_	t_223|e_14|ref=epigram._1
+2	(	̔	u	u--------	_	6	AuxG	_	t_224|e_14|ref=epigram._1
+3	B	b	x	x--------	_	6	AuxG	_	t_225|e_14|ref=epigram._1
+4	,	,	u	u--------	_	6	AuxX	_	t_226|e_14|ref=epigram._1
+5	fol	fol	d	d--------	_	6	ExD	_	t_227|e_14|ref=epigram._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=epigram._1
+7	.	.	u	u--------	_	6	AuxK	_	t_228|e_14|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 216 ) , Vatic .
 # sent_id = 28
-1	216	216	u	u--------	_	0	AuxG	_	t_229|ref=Epigramma_1
-2	)	)	u	u--------	_	1	AuxG	_	t_230|ref=Epigramma_1
-3	,	,	u	u--------	_	1	AuxX	_	t_231|ref=Epigramma_1
-4	Vatic	vatic	n	n-s---mv-	Case=v|Gender=m|Number=s	1	ExD	_	t_232|ref=Epigramma_1
-5	.	.	u	u--------	_	1	AuxK	_	t_233|ref=Epigramma_1
+1	216	216	u	u--------	_	0	AuxG	_	t_229|0|ref=epigram._1
+2	)	)	u	u--------	_	1	AuxG	_	t_230|t_229|ref=epigram._1
+3	,	,	u	u--------	_	1	AuxX	_	t_231|t_229|ref=epigram._1
+4	Vatic	vatic	n	n-s---mv-	Case=v|Gender=m|Number=s	1	ExD	_	t_232|t_229|ref=epigram._1
+5	.	.	u	u--------	_	1	AuxK	_	t_233|t_229|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Gr .
 # sent_id = 29
-1	Gr	gr	x	x--------	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_234|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_235|ref=Epigramma_1
+1	Gr	gr	x	x--------	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_234|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_235|t_234|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 1379 chart . S. XV ( C , fol [0] .
 # sent_id = 30
-1	1379	1379	x	x--------	_	10	AuxG	_	t_236|ref=Epigramma_1
-2	chart	chart	n	n-s---fn-	Case=n|Gender=f|Number=s	10	ExD	_	t_237|ref=Epigramma_1
-3	.	.	u	u--------	_	10	AuxX	_	t_238|ref=Epigramma_1
-4	S.	s.	u	u--------	_	10	AuxG	_	t_239|ref=Epigramma_1
-5	XV	xvi	x	x--------	_	10	AuxG	_	t_240|ref=Epigramma_1
-6	(	̔	u	u--------	_	10	AuxG	_	t_241|ref=Epigramma_1
-7	C	ὁ	n	n--------	_	10	AuxG	_	t_242|ref=Epigramma_1
-8	,	,	u	u--------	_	10	AuxX	_	t_243|ref=Epigramma_1
-9	fol	fol	x	x--------	_	10	ExD	_	t_244|ref=Epigramma_1
-10	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Epigramma_1
-11	.	.	u	u--------	_	10	AuxK	_	t_245|ref=Epigramma_1
+1	1379	1379	x	x--------	_	10	AuxG	_	t_236|e_15|ref=epigram._1
+2	chart	chart	n	n-s---fn-	Case=n|Gender=f|Number=s	10	ExD	_	t_237|e_15|ref=epigram._1
+3	.	.	u	u--------	_	10	AuxX	_	t_238|e_15|ref=epigram._1
+4	S.	s.	u	u--------	_	10	AuxG	_	t_239|e_15|ref=epigram._1
+5	XV	xvi	x	x--------	_	10	AuxG	_	t_240|e_15|ref=epigram._1
+6	(	̔	u	u--------	_	10	AuxG	_	t_241|e_15|ref=epigram._1
+7	C	ὁ	n	n--------	_	10	AuxG	_	t_242|e_15|ref=epigram._1
+8	,	,	u	u--------	_	10	AuxX	_	t_243|e_15|ref=epigram._1
+9	fol	fol	x	x--------	_	10	ExD	_	t_244|e_15|ref=epigram._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=epigram._1
+11	.	.	u	u--------	_	10	AuxK	_	t_245|e_15|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 33 ) , Mutin [0] .
 # sent_id = 31
-1	33	33	u	u--------	_	5	AuxG	_	t_246|ref=Epigramma_1
-2	)	)	u	u--------	_	5	AuxG	_	t_247|ref=Epigramma_1
-3	,	,	u	u--------	_	5	AuxX	_	t_248|ref=Epigramma_1
-4	Mutin	mutiς	n	n-s---fv-	Case=n|Gender=f|Number=s	5	ExD	_	t_249|ref=Epigramma_1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Epigramma_1
-6	.	.	u	u--------	_	5	AuxK	_	t_250|ref=Epigramma_1
+1	33	33	u	u--------	_	5	AuxG	_	t_246|e_16|ref=epigram._1
+2	)	)	u	u--------	_	5	AuxG	_	t_247|e_16|ref=epigram._1
+3	,	,	u	u--------	_	5	AuxX	_	t_248|e_16|ref=epigram._1
+4	Mutin	mutiς	n	n-s---fv-	Case=n|Gender=f|Number=s	5	ExD	_	t_249|e_16|ref=epigram._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=epigram._1
+6	.	.	u	u--------	_	5	AuxK	_	t_250|e_16|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = III B 11 chart [0] .
 # sent_id = 32
-1	III	iii	n	n--------	_	0	AuxG	_	t_251|ref=Epigramma_1
-2	B	b	x	x--------	_	1	APOS	_	t_252|ref=Epigramma_1
-3	11	11	m	m--------	_	5	AuxG	_	t_253|ref=Epigramma_1
-4	chart	chart	n	n--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	5	ExD	_	t_254|ref=Epigramma_1
-5	[0]	[0]	-	---------	_	1	PRED	_	e_17|ref=Epigramma_1
-6	.	.	u	u--------	_	1	AuxK	_	t_255|ref=Epigramma_1
+1	III	iii	n	n--------	_	0	AuxG	_	t_251|0|ref=epigram._1
+2	B	b	x	x--------	_	1	APOS	_	t_252|t_251|ref=epigram._1
+3	11	11	m	m--------	_	5	AuxG	_	t_253|e_17|ref=epigram._1
+4	chart	chart	n	n--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	5	ExD	_	t_254|e_17|ref=epigram._1
+5	[0]	[0]	-	---------	_	1	PRED	_	e_17|t_251|ref=epigram._1
+6	.	.	u	u--------	_	1	AuxK	_	t_255|t_251|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = s .
 # sent_id = 33
-1	s	s	x	x--------	_	0	ExD	_	t_256|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_257|ref=Epigramma_1
+1	s	s	x	x--------	_	0	ExD	_	t_256|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_257|t_256|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = XV ( D ) , Barberin [0] .
 # sent_id = 34
-1	XV	xvi	x	x--------	_	7	AuxG	_	t_258|ref=Epigramma_1
-2	(	̔	u	u--------	_	7	AuxG	_	t_259|ref=Epigramma_1
-3	D	διά	n	n--------	_	7	AuxG	_	t_260|ref=Epigramma_1
-4	)	)	u	u--------	_	7	AuxG	_	t_261|ref=Epigramma_1
-5	,	,	u	u--------	_	7	AuxX	_	t_262|ref=Epigramma_1
-6	Barberin	barberin	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_263|ref=Epigramma_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_18|ref=Epigramma_1
-8	.	.	u	u--------	_	7	AuxK	_	t_264|ref=Epigramma_1
+1	XV	xvi	x	x--------	_	7	AuxG	_	t_258|e_18|ref=epigram._1
+2	(	̔	u	u--------	_	7	AuxG	_	t_259|e_18|ref=epigram._1
+3	D	διά	n	n--------	_	7	AuxG	_	t_260|e_18|ref=epigram._1
+4	)	)	u	u--------	_	7	AuxG	_	t_261|e_18|ref=epigram._1
+5	,	,	u	u--------	_	7	AuxX	_	t_262|e_18|ref=epigram._1
+6	Barberin	barberin	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_263|e_18|ref=epigram._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=epigram._1
+8	.	.	u	u--------	_	7	AuxK	_	t_264|e_18|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = I 128 chart [0] .
 # sent_id = 35
-1	I	εἰ	x	x--------	_	4	AuxG	_	t_265|ref=Epigramma_1
-2	128	128	x	x--------	_	4	OBJ	_	t_266|ref=Epigramma_1
-3	chart	chart	n	n--------	_	4	OBJ	_	t_267|ref=Epigramma_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Epigramma_1
-5	.	.	u	u--------	_	4	AuxK	_	t_268|ref=Epigramma_1
+1	I	εἰ	x	x--------	_	4	AuxG	_	t_265|e_19|ref=epigram._1
+2	128	128	x	x--------	_	4	OBJ	_	t_266|e_19|ref=epigram._1
+3	chart	chart	n	n--------	_	4	OBJ	_	t_267|e_19|ref=epigram._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=epigram._1
+5	.	.	u	u--------	_	4	AuxK	_	t_268|e_19|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = s .
 # sent_id = 36
-1	s	s	x	x--------	_	0	ExD	_	t_269|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_270|ref=Epigramma_1
+1	s	s	x	x--------	_	0	ExD	_	t_269|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_270|t_269|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = XV ( E , fol [0] .
 # sent_id = 37
-1	XV	xvi	x	x--------	_	6	AuxG	_	t_271|ref=Epigramma_1
-2	(	̔	u	u--------	_	6	AuxG	_	t_272|ref=Epigramma_1
-3	E	e	i	i--------	_	6	ExD	_	t_273|ref=Epigramma_1
-4	,	,	u	u--------	_	6	AuxX	_	t_274|ref=Epigramma_1
-5	fol	fol	d	d--------	_	6	ExD	_	t_275|ref=Epigramma_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Epigramma_1
-7	.	.	u	u--------	_	6	AuxK	_	t_276|ref=Epigramma_1
+1	XV	xvi	x	x--------	_	6	AuxG	_	t_271|e_20|ref=epigram._1
+2	(	̔	u	u--------	_	6	AuxG	_	t_272|e_20|ref=epigram._1
+3	E	e	i	i--------	_	6	ExD	_	t_273|e_20|ref=epigram._1
+4	,	,	u	u--------	_	6	AuxX	_	t_274|e_20|ref=epigram._1
+5	fol	fol	d	d--------	_	6	ExD	_	t_275|e_20|ref=epigram._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=epigram._1
+7	.	.	u	u--------	_	6	AuxK	_	t_276|e_20|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 124 ) , Musei Britann .
 # sent_id = 38
-1	124	124	x	x--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	ExD	_	t_277|ref=Epigramma_1
-2	)	)	u	u--------	_	4	AuxG	_	t_278|ref=Epigramma_1
-3	,	,	u	u--------	_	4	AuxX	_	t_279|ref=Epigramma_1
-4	Musei	muσείω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_280|ref=Epigramma_1
-5	Britann	britann	n	n-s---ma-	_	4	OBJ	_	t_281|ref=Epigramma_1
-6	.	.	u	u--------	_	4	AuxK	_	t_282|ref=Epigramma_1
+1	124	124	x	x--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	ExD	_	t_277|t_280|ref=epigram._1
+2	)	)	u	u--------	_	4	AuxG	_	t_278|t_280|ref=epigram._1
+3	,	,	u	u--------	_	4	AuxX	_	t_279|t_280|ref=epigram._1
+4	Musei	muσείω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_280|0|ref=epigram._1
+5	Britann	britann	n	n-s---ma-	_	4	OBJ	_	t_281|t_280|ref=epigram._1
+6	.	.	u	u--------	_	4	AuxK	_	t_282|t_280|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = add .
 # sent_id = 39
-1	add	add	d	d--------	_	0	ExD	_	t_283|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_284|ref=Epigramma_1
+1	add	add	d	d--------	_	0	ExD	_	t_283|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_284|t_283|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 22 858 chart [0] .
 # sent_id = 40
-1	22	22	u	u--------	_	4	AuxG	_	t_285|ref=Epigramma_1
-2	858	858	i	i--------	_	3	ExD	_	t_286|ref=Epigramma_1
-3	chart	chart	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	PRED	_	t_287|ref=Epigramma_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=Epigramma_1
-5	.	.	u	u--------	_	4	AuxK	_	t_288|ref=Epigramma_1
+1	22	22	u	u--------	_	4	AuxG	_	t_285|e_21|ref=epigram._1
+2	858	858	i	i--------	_	3	ExD	_	t_286|t_287|ref=epigram._1
+3	chart	chart	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	PRED	_	t_287|e_21|ref=epigram._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=epigram._1
+5	.	.	u	u--------	_	4	AuxK	_	t_288|e_21|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = s .
 # sent_id = 41
-1	s	s	x	x--------	_	0	ExD	_	t_289|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_290|ref=Epigramma_1
+1	s	s	x	x--------	_	0	ExD	_	t_289|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_290|t_289|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = XVI ( F , fol [0] .
 # sent_id = 42
-1	XVI	xv	x	x--------	_	6	AuxG	_	t_291|ref=Epigramma_1
-2	(	̔	u	u--------	_	6	AuxG	_	t_292|ref=Epigramma_1
-3	F	f	x	x--------	_	6	AuxG	_	t_293|ref=Epigramma_1
-4	,	,	u	u--------	_	6	AuxX	_	t_294|ref=Epigramma_1
-5	fol	fol	d	d--------	_	6	ExD	_	t_295|ref=Epigramma_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_22|ref=Epigramma_1
-7	.	.	u	u--------	_	6	AuxK	_	t_296|ref=Epigramma_1
+1	XVI	xv	x	x--------	_	6	AuxG	_	t_291|e_22|ref=epigram._1
+2	(	̔	u	u--------	_	6	AuxG	_	t_292|e_22|ref=epigram._1
+3	F	f	x	x--------	_	6	AuxG	_	t_293|e_22|ref=epigram._1
+4	,	,	u	u--------	_	6	AuxX	_	t_294|e_22|ref=epigram._1
+5	fol	fol	d	d--------	_	6	ExD	_	t_295|e_22|ref=epigram._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=epigram._1
+7	.	.	u	u--------	_	6	AuxK	_	t_296|e_22|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 105u ) , Bodl .
 # sent_id = 43
-1	105u	105	x	x--------	_	0	AuxG	_	t_297|ref=Epigramma_1
-2	)	)	u	u--------	_	1	AuxG	_	t_298|ref=Epigramma_1
-3	,	,	u	u--------	_	1	AuxX	_	t_299|ref=Epigramma_1
-4	Bodl	bodl	n	n--------	_	1	ExD	_	t_300|ref=Epigramma_1
-5	.	.	u	u--------	_	1	AuxK	_	t_301|ref=Epigramma_1
+1	105u	105	x	x--------	_	0	AuxG	_	t_297|0|ref=epigram._1
+2	)	)	u	u--------	_	1	AuxG	_	t_298|t_297|ref=epigram._1
+3	,	,	u	u--------	_	1	AuxX	_	t_299|t_297|ref=epigram._1
+4	Bodl	bodl	n	n--------	_	1	ExD	_	t_300|t_297|ref=epigram._1
+5	.	.	u	u--------	_	1	AuxK	_	t_301|t_297|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = Barocceian .
 # sent_id = 44
-1	Barocceian	barocceian	d	d--------	_	0	ExD	_	t_302|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_303|ref=Epigramma_1
+1	Barocceian	barocceian	d	d--------	_	0	ExD	_	t_302|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_303|t_302|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 125 chart [0] .
 # sent_id = 45
-1	125	125	u	u--------	_	3	AuxG	_	t_304|ref=Epigramma_1
-2	chart	chart	n	n--------	_	3	OBJ	_	t_305|ref=Epigramma_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Epigramma_1
-4	.	.	u	u--------	_	3	AuxK	_	t_306|ref=Epigramma_1
+1	125	125	u	u--------	_	3	AuxG	_	t_304|e_23|ref=epigram._1
+2	chart	chart	n	n--------	_	3	OBJ	_	t_305|e_23|ref=epigram._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=epigram._1
+4	.	.	u	u--------	_	3	AuxK	_	t_306|e_23|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = s .
 # sent_id = 46
-1	s	s	x	x--------	_	0	ExD	_	t_307|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_308|ref=Epigramma_1
+1	s	s	x	x--------	_	0	ExD	_	t_307|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_308|t_307|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = XVI , u Coxe I p [0] .
 # sent_id = 47
-1	XVI	xv	x	x--------	_	7	AuxG	_	t_309|ref=Epigramma_1
-2	,	,	u	u--------	_	7	AuxX	_	t_310|ref=Epigramma_1
-3	u	πρό	x	x--------	_	7	ExD	_	t_311|ref=Epigramma_1
-4	Coxe	coxe	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_312|ref=Epigramma_1
-5	I	εἰ	x	x--------	_	3	APOS	_	t_313|ref=Epigramma_1
-6	p	p	x	x--------	_	3	APOS	_	t_314|ref=Epigramma_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=Epigramma_1
-8	.	.	u	u--------	_	7	AuxK	_	t_315|ref=Epigramma_1
+1	XVI	xv	x	x--------	_	7	AuxG	_	t_309|e_24|ref=epigram._1
+2	,	,	u	u--------	_	7	AuxX	_	t_310|e_24|ref=epigram._1
+3	u	πρό	x	x--------	_	7	ExD	_	t_311|e_24|ref=epigram._1
+4	Coxe	coxe	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_312|e_24|ref=epigram._1
+5	I	εἰ	x	x--------	_	3	APOS	_	t_313|t_311|ref=epigram._1
+6	p	p	x	x--------	_	3	APOS	_	t_314|t_311|ref=epigram._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=epigram._1
+8	.	.	u	u--------	_	7	AuxK	_	t_315|e_24|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 203 ( G , fol [0] .
 # sent_id = 48
-1	203	203	x	x--------	_	3	AuxG	_	t_316|ref=Epigramma_1
-2	(	̔	u	u--------	_	3	AuxG	_	t_317|ref=Epigramma_1
-3	G	g	x	x--------	_	6	AuxG	_	t_318|ref=Epigramma_1
-4	,	,	u	u--------	_	6	AuxX	_	t_319|ref=Epigramma_1
-5	fol	fol	d	d--------	_	6	ExD	_	t_320|ref=Epigramma_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=Epigramma_1
-7	.	.	u	u--------	_	6	AuxK	_	t_321|ref=Epigramma_1
+1	203	203	x	x--------	_	3	AuxG	_	t_316|t_318|ref=epigram._1
+2	(	̔	u	u--------	_	3	AuxG	_	t_317|t_318|ref=epigram._1
+3	G	g	x	x--------	_	6	AuxG	_	t_318|e_25|ref=epigram._1
+4	,	,	u	u--------	_	6	AuxX	_	t_319|e_25|ref=epigram._1
+5	fol	fol	d	d--------	_	6	ExD	_	t_320|e_25|ref=epigram._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=epigram._1
+7	.	.	u	u--------	_	6	AuxK	_	t_321|e_25|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 146 ) .
 # sent_id = 49
-1	146	146	x	x--------	_	0	PRED	_	t_322|ref=Epigramma_1
-2	)	)	u	u--------	_	1	AuxG	_	t_323|ref=Epigramma_1
-3	.	.	u	u--------	_	1	AuxK	_	t_324|ref=Epigramma_1
+1	146	146	x	x--------	_	0	PRED	_	t_322|0|ref=epigram._1
+2	)	)	u	u--------	_	1	AuxG	_	t_323|t_322|ref=epigram._1
+3	.	.	u	u--------	_	1	AuxK	_	t_324|t_322|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = exstat etiam in Vindob .
 # sent_id = 50
-1	exstat	ἐξορμάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_325|ref=Epigramma_1
-2	etiam	οὐκέτι	d	d--------	_	1	ADV	_	t_326|ref=Epigramma_1
-3	in	εἰς	r	r--------	_	1	AuxP	_	t_327|ref=Epigramma_1
-4	Vindob	μηρύσ	n	n-s----d-	Case=n|Number=s	3	OBJ	_	t_328|ref=Epigramma_1
-5	.	.	u	u--------	_	1	AuxK	_	t_329|ref=Epigramma_1
+1	exstat	ἐξορμάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_325|0|ref=epigram._1
+2	etiam	οὐκέτι	d	d--------	_	1	ADV	_	t_326|t_325|ref=epigram._1
+3	in	εἰς	r	r--------	_	1	AuxP	_	t_327|t_325|ref=epigram._1
+4	Vindob	μηρύσ	n	n-s----d-	Case=n|Number=s	3	OBJ	_	t_328|t_327|ref=epigram._1
+5	.	.	u	u--------	_	1	AuxK	_	t_329|t_325|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = philos .
 # sent_id = 51
-1	philos	philos	v	v2spma---	_	0	ExD	_	t_330|ref=Epigramma_1
-2	.	.	u	u--------	_	1	AuxK	_	t_331|ref=Epigramma_1
+1	philos	philos	v	v2spma---	_	0	ExD	_	t_330|0|ref=epigram._1
+2	.	.	u	u--------	_	1	AuxK	_	t_331|t_330|ref=epigram._1
 
-# source = Euclid, Epigramma 1
+# source = Euclid, epigram. 1
 # text = 331 [0] .
 # sent_id = 52
-1	331	331	x	x--------	_	2	AuxG	_	t_332|ref=Epigramma_1
-2	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=Epigramma_1
-3	.	.	u	u--------	_	2	AuxK	_	t_333|ref=Epigramma_1
+1	331	331	x	x--------	_	2	AuxG	_	t_332|e_26|ref=epigram._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=epigram._1
+3	.	.	u	u--------	_	2	AuxK	_	t_333|e_26|ref=epigram._1
 

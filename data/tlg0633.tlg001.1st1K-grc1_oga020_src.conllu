@@ -1,722 +1,722 @@
-# source = Lysis, Epistula ad Hipparchum 1
+# source = Lysis, Ep.Hipp. 1
 # text = γ ′ .
 # sent_id = 1
-1	γ	γ	x	x--------	_	0	ExD	_	t_1|ref=Epistula ad Hipparchum_1
-2	′	′	u	u--------	_	1	AuxG	_	t_2|ref=Epistula ad Hipparchum_1
-3	.	.	u	u--------	_	1	AuxK	_	t_3|ref=Epistula ad Hipparchum_1
+1	γ	γ	x	x--------	_	0	ExD	_	t_1|0|ref=Ep.Hipp._1
+2	′	′	u	u--------	_	1	AuxG	_	t_2|t_1|ref=Ep.Hipp._1
+3	.	.	u	u--------	_	1	AuxK	_	t_3|t_1|ref=Ep.Hipp._1
 
-# source = Lysis, Epistula ad Hipparchum 1
+# source = Lysis, Ep.Hipp. 1
 # text = Λύσις Ἱππάρχῳ [0] .
 # sent_id = 2
-1	Λύσις	λύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_4|ref=Epistula ad Hipparchum_1
-2	Ἱππάρχῳ	ἵππαρχος	n	n-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_5|ref=Epistula ad Hipparchum_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Epistula ad Hipparchum_1
-4	.	.	u	u--------	_	3	AuxK	_	t_6|ref=Epistula ad Hipparchum_1
+1	Λύσις	λύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_4|e_1|ref=Ep.Hipp._1
+2	Ἱππάρχῳ	ἵππαρχος	n	n-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_5|e_1|ref=Ep.Hipp._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Ep.Hipp._1
+4	.	.	u	u--------	_	3	AuxK	_	t_6|e_1|ref=Ep.Hipp._1
 
-# source = Lysis, Epistula ad Hipparchum 1
+# source = Lysis, Ep.Hipp. 1
 # text = Μετὰ τὸ Πυθαγόραν ἐξ ἀνθρώπων γενέσθαι οὐδέποκα διασκεδασθήσεσθαι τὸ τῶν ὁμιλητᾶν ἄθροισμα ἐς τὸν ἐμαυτοῦ θυμὸν ἐβαλόμαν ·
 # sent_id = 3
-1	Μετὰ	μετά	r	r--------	_	17	AuxP	_	t_7|ref=Epistula ad Hipparchum_1
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_8|ref=Epistula ad Hipparchum_1
-3	Πυθαγόραν	πυθαγόρας	n	n-s---fa-	Case=a|Gender=f|Number=s	6	SBJ	_	t_9|ref=Epistula ad Hipparchum_1
-4	ἐξ	ἐκ	r	r--------	_	6	AuxP	_	t_10|ref=Epistula ad Hipparchum_1
-5	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	PNOM	_	t_11|ref=Epistula ad Hipparchum_1
-6	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	1	ADV	_	t_12|ref=Epistula ad Hipparchum_1
-7	οὐδέποκα	οὐδέποκα	d	d--------	_	8	AuxZ	_	t_13|ref=Epistula ad Hipparchum_1
-8	διασκεδασθήσεσθαι	διασκεδάννυμι	v	v--fnp---	Mood=n|Tense=f|Voice=p	17	OBJ	_	t_14|ref=Epistula ad Hipparchum_1
-9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_15|ref=Epistula ad Hipparchum_1
-10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_16|ref=Epistula ad Hipparchum_1
-11	ὁμιλητᾶν	ὁμιλητής	n	n-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_17|ref=Epistula ad Hipparchum_1
-12	ἄθροισμα	ἄθροισμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_18|ref=Epistula ad Hipparchum_1
-13	ἐς	εἰς	r	r--------	_	17	AuxP	_	t_19|ref=Epistula ad Hipparchum_1
-14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_20|ref=Epistula ad Hipparchum_1
-15	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_21|ref=Epistula ad Hipparchum_1
-16	θυμὸν	θυμός	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ADV	_	t_22|ref=Epistula ad Hipparchum_1
-17	ἐβαλόμαν	βάλλω	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_23|ref=Epistula ad Hipparchum_1
-18	·	·	u	u--------	_	17	AuxK	_	t_24|ref=Epistula ad Hipparchum_1
+1	Μετὰ	μετά	r	r--------	_	17	AuxP	_	t_7|t_23|ref=Ep.Hipp._1
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_8|t_12|ref=Ep.Hipp._1
+3	Πυθαγόραν	πυθαγόρας	n	n-s---fa-	Case=a|Gender=f|Number=s	6	SBJ	_	t_9|t_12|ref=Ep.Hipp._1
+4	ἐξ	ἐκ	r	r--------	_	6	AuxP	_	t_10|t_12|ref=Ep.Hipp._1
+5	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	PNOM	_	t_11|t_10|ref=Ep.Hipp._1
+6	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	1	ADV	_	t_12|t_7|ref=Ep.Hipp._1
+7	οὐδέποκα	οὐδέποκα	d	d--------	_	8	AuxZ	_	t_13|t_14|ref=Ep.Hipp._1
+8	διασκεδασθήσεσθαι	διασκεδάννυμι	v	v--fnp---	Mood=n|Tense=f|Voice=p	17	OBJ	_	t_14|t_23|ref=Ep.Hipp._1
+9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_15|t_18|ref=Ep.Hipp._1
+10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_16|t_17|ref=Ep.Hipp._1
+11	ὁμιλητᾶν	ὁμιλητής	n	n-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_17|t_18|ref=Ep.Hipp._1
+12	ἄθροισμα	ἄθροισμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_18|t_14|ref=Ep.Hipp._1
+13	ἐς	εἰς	r	r--------	_	17	AuxP	_	t_19|t_23|ref=Ep.Hipp._1
+14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_20|t_22|ref=Ep.Hipp._1
+15	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_21|t_22|ref=Ep.Hipp._1
+16	θυμὸν	θυμός	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ADV	_	t_22|t_19|ref=Ep.Hipp._1
+17	ἐβαλόμαν	βάλλω	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_23|0|ref=Ep.Hipp._1
+18	·	·	u	u--------	_	17	AuxK	_	t_24|t_23|ref=Ep.Hipp._1
 
-# source = Lysis, Epistula ad Hipparchum 1
+# source = Lysis, Ep.Hipp. 1
 # text = ἐπεὶ δὲ παρʼ ἐλπίδας ὥσπερ ἀπὸ ναὸς φορτίδος ἐν ἐρήμῳ πελάγει λυθείσας ἄλλος ἄλλοσε φορεύμενοι διεσπάρημες , ὅσιον κ ἀμὲ μεμνᾶσθαι τῶν τήνῳ θείων καὶ σεπτῶν παραγγελμάτων , μη δὲ κοινὰ ποιῆσθαι τὰ σοφίας ἀγαθὰ τοῖς μη δʼ ὄναρ τὰν ψυχὰν κεκαθαρμένοις [0] .
 # sent_id = 4
-1	ἐπεὶ	ἐπεί	c	c--------	_	43	AuxC	_	t_25|ref=Epistula ad Hipparchum_1
-2	δὲ	δέ	d	d--------	_	43	AuxY	_	t_26|ref=Epistula ad Hipparchum_1
-3	παρʼ	παρά	r	r--------	_	16	AuxP	_	t_27|ref=Epistula ad Hipparchum_1
-4	ἐλπίδας	ἐλπίς	n	n-p---fa-	Case=a|Gender=f|Number=p	3	ADV	_	t_28|ref=Epistula ad Hipparchum_1
-5	ὥσπερ	ὥσπερ	c	c--------	_	16	AuxC	_	t_29|ref=Epistula ad Hipparchum_1
-6	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_30|ref=Epistula ad Hipparchum_1
-7	ναὸς	ναῦς	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_31|ref=Epistula ad Hipparchum_1
-8	φορτίδος	φορτίς	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_32|ref=Epistula ad Hipparchum_1
-9	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_33|ref=Epistula ad Hipparchum_1
-10	ἐρήμῳ	ἐρῆμος	a	a-s---md-	Case=d|Gender=m|Number=s	9	ADV	_	t_34|ref=Epistula ad Hipparchum_1
-11	πελάγει	πέλαγος	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ADV	_	t_35|ref=Epistula ad Hipparchum_1
-12	λυθείσας	λύω	v	v-pappfa-	Case=a|Gender=f|Mood=p|Number=p|Tense=a|Voice=p	16	ADV	_	t_36|ref=Epistula ad Hipparchum_1
-13	ἄλλος	ἄλλος	p	p-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_37|ref=Epistula ad Hipparchum_1
-14	ἄλλοσε	ἄλλοτε	d	d--------	_	15	ADV	_	t_38|ref=Epistula ad Hipparchum_1
-15	φορεύμενοι	φορέω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_39|ref=Epistula ad Hipparchum_1
-16	διεσπάρημες	διασπείρω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	1	ADV	_	t_40|ref=Epistula ad Hipparchum_1
-17	,	,	u	u--------	_	43	AuxX	_	t_41|ref=Epistula ad Hipparchum_1
-18	ὅσιον	ὅσιος	a	a-s---nn-	Case=n|Gender=n|Number=s	43	PNOM	_	t_42|ref=Epistula ad Hipparchum_1
-19	κ	καί	d	d--------	_	30	AuxY	_	t_43|ref=Epistula ad Hipparchum_1
-20	ἀμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	21	SBJ	_	t_44|ref=Epistula ad Hipparchum_1
-21	μεμνᾶσθαι	μιμνήσκω	v	v--pne---	Mood=n|Tense=p|Voice=e	30	SBJ	_	t_45|ref=Epistula ad Hipparchum_1
-22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_46|ref=Epistula ad Hipparchum_1
-23	τήνῳ	ἐκεῖνος	d	d--------	Case=d|Gender=n|Number=s	25	ADV	_	t_47|ref=Epistula ad Hipparchum_1
-24	θείων	θεῖος2	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ATR	_	t_48|ref=Epistula ad Hipparchum_1
-25	καὶ	καί	c	c--------	_	27	COORD	_	t_49|ref=Epistula ad Hipparchum_1
-26	σεπτῶν	σεπτός	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ATR	_	t_50|ref=Epistula ad Hipparchum_1
-27	παραγγελμάτων	παράγγελμα	n	n-p---ng-	Case=g|Gender=n|Number=p	21	OBJ	_	t_51|ref=Epistula ad Hipparchum_1
-28	,	,	u	u--------	_	43	AuxX	_	t_52|ref=Epistula ad Hipparchum_1
-29	μη	μη	d	d--------	_	32	AuxZ	_	t_53|ref=Epistula ad Hipparchum_1
-30	δὲ	δέ	c	c--------	_	43	COORD	_	t_54|ref=Epistula ad Hipparchum_1
-31	κοινὰ	κοινός	a	a-p---na-	Case=a|Gender=n|Number=p	32	OCOMP	_	t_55|ref=Epistula ad Hipparchum_1
-32	ποιῆσθαι	ποιέω	v	v--pne---	Mood=n|Tense=r|Voice=e	30	SBJ	_	t_56|ref=Epistula ad Hipparchum_1
-33	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	34	ATR	_	t_57|ref=Epistula ad Hipparchum_1
-34	σοφίας	σοφία	n	n-p---fa-	Case=a|Gender=f|Number=p	32	OBJ	_	t_58|ref=Epistula ad Hipparchum_1
-35	ἀγαθὰ	ἀγαθός	a	a-p---na-	Case=a|Gender=n|Number=p	34	ATR	_	t_59|ref=Epistula ad Hipparchum_1
-36	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	42	ATR	_	t_60|ref=Epistula ad Hipparchum_1
-37	μη	μη	d	d--------	_	42	AuxZ	_	t_61|ref=Epistula ad Hipparchum_1
-38	δʼ	δέ	c	c--------	_	37	AuxY	_	t_62|ref=Epistula ad Hipparchum_1
-39	ὄναρ	ὄναρ	n	n-s---na-	Case=a|Gender=n|Number=s	42	OCOMP	_	t_63|ref=Epistula ad Hipparchum_1
-40	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	41	ATR	_	t_64|ref=Epistula ad Hipparchum_1
-41	ψυχὰν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	42	OBJ	_	t_65|ref=Epistula ad Hipparchum_1
-42	κεκαθαρμένοις	καθαίρω	v	v-prpemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	31	ADV	_	t_66|ref=Epistula ad Hipparchum_1
-43	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Epistula ad Hipparchum_1
-44	.	.	u	u--------	_	43	AuxK	_	t_67|ref=Epistula ad Hipparchum_1
+1	ἐπεὶ	ἐπεί	c	c--------	_	43	AuxC	_	t_25|e_2|ref=Ep.Hipp._1
+2	δὲ	δέ	d	d--------	_	43	AuxY	_	t_26|e_2|ref=Ep.Hipp._1
+3	παρʼ	παρά	r	r--------	_	16	AuxP	_	t_27|t_40|ref=Ep.Hipp._1
+4	ἐλπίδας	ἐλπίς	n	n-p---fa-	Case=a|Gender=f|Number=p	3	ADV	_	t_28|t_27|ref=Ep.Hipp._1
+5	ὥσπερ	ὥσπερ	c	c--------	_	16	AuxC	_	t_29|t_40|ref=Ep.Hipp._1
+6	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_30|t_36|ref=Ep.Hipp._1
+7	ναὸς	ναῦς	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_31|t_30|ref=Ep.Hipp._1
+8	φορτίδος	φορτίς	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_32|t_31|ref=Ep.Hipp._1
+9	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_33|t_36|ref=Ep.Hipp._1
+10	ἐρήμῳ	ἐρῆμος	a	a-s---md-	Case=d|Gender=m|Number=s	9	ADV	_	t_34|t_33|ref=Ep.Hipp._1
+11	πελάγει	πέλαγος	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ADV	_	t_35|t_36|ref=Ep.Hipp._1
+12	λυθείσας	λύω	v	v-pappfa-	Case=a|Gender=f|Mood=p|Number=p|Tense=a|Voice=p	16	ADV	_	t_36|t_40|ref=Ep.Hipp._1
+13	ἄλλος	ἄλλος	p	p-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_37|t_40|ref=Ep.Hipp._1
+14	ἄλλοσε	ἄλλοτε	d	d--------	_	15	ADV	_	t_38|t_39|ref=Ep.Hipp._1
+15	φορεύμενοι	φορέω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_39|t_40|ref=Ep.Hipp._1
+16	διεσπάρημες	διασπείρω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	1	ADV	_	t_40|t_25|ref=Ep.Hipp._1
+17	,	,	u	u--------	_	43	AuxX	_	t_41|e_2|ref=Ep.Hipp._1
+18	ὅσιον	ὅσιος	a	a-s---nn-	Case=n|Gender=n|Number=s	43	PNOM	_	t_42|e_2|ref=Ep.Hipp._1
+19	κ	καί	d	d--------	_	30	AuxY	_	t_43|t_54|ref=Ep.Hipp._1
+20	ἀμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	21	SBJ	_	t_44|t_45|ref=Ep.Hipp._1
+21	μεμνᾶσθαι	μιμνήσκω	v	v--pne---	Mood=n|Tense=p|Voice=e	30	SBJ	_	t_45|t_54|ref=Ep.Hipp._1
+22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_46|t_51|ref=Ep.Hipp._1
+23	τήνῳ	ἐκεῖνος	d	d--------	Case=d|Gender=n|Number=s	25	ADV	_	t_47|t_49|ref=Ep.Hipp._1
+24	θείων	θεῖος2	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ATR	_	t_48|t_49|ref=Ep.Hipp._1
+25	καὶ	καί	c	c--------	_	27	COORD	_	t_49|t_51|ref=Ep.Hipp._1
+26	σεπτῶν	σεπτός	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ATR	_	t_50|t_49|ref=Ep.Hipp._1
+27	παραγγελμάτων	παράγγελμα	n	n-p---ng-	Case=g|Gender=n|Number=p	21	OBJ	_	t_51|t_45|ref=Ep.Hipp._1
+28	,	,	u	u--------	_	43	AuxX	_	t_52|e_2|ref=Ep.Hipp._1
+29	μη	μη	d	d--------	_	32	AuxZ	_	t_53|t_56|ref=Ep.Hipp._1
+30	δὲ	δέ	c	c--------	_	43	COORD	_	t_54|e_2|ref=Ep.Hipp._1
+31	κοινὰ	κοινός	a	a-p---na-	Case=a|Gender=n|Number=p	32	OCOMP	_	t_55|t_56|ref=Ep.Hipp._1
+32	ποιῆσθαι	ποιέω	v	v--pne---	Mood=n|Tense=r|Voice=e	30	SBJ	_	t_56|t_54|ref=Ep.Hipp._1
+33	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	34	ATR	_	t_57|t_58|ref=Ep.Hipp._1
+34	σοφίας	σοφία	n	n-p---fa-	Case=a|Gender=f|Number=p	32	OBJ	_	t_58|t_56|ref=Ep.Hipp._1
+35	ἀγαθὰ	ἀγαθός	a	a-p---na-	Case=a|Gender=n|Number=p	34	ATR	_	t_59|t_58|ref=Ep.Hipp._1
+36	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	42	ATR	_	t_60|t_66|ref=Ep.Hipp._1
+37	μη	μη	d	d--------	_	42	AuxZ	_	t_61|t_66|ref=Ep.Hipp._1
+38	δʼ	δέ	c	c--------	_	37	AuxY	_	t_62|t_61|ref=Ep.Hipp._1
+39	ὄναρ	ὄναρ	n	n-s---na-	Case=a|Gender=n|Number=s	42	OCOMP	_	t_63|t_66|ref=Ep.Hipp._1
+40	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	41	ATR	_	t_64|t_65|ref=Ep.Hipp._1
+41	ψυχὰν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	42	OBJ	_	t_65|t_66|ref=Ep.Hipp._1
+42	κεκαθαρμένοις	καθαίρω	v	v-prpemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	31	ADV	_	t_66|t_55|ref=Ep.Hipp._1
+43	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Ep.Hipp._1
+44	.	.	u	u--------	_	43	AuxK	_	t_67|e_2|ref=Ep.Hipp._1
 
-# source = Lysis, Epistula ad Hipparchum 1
+# source = Lysis, Ep.Hipp. 1
 # text = οὐ γὰρ θέμις ὀρέγεν τοῖς ἀπαντῶσι τὰ μετὰ τοσούτων ἀγώνων ποριχθέντα , οὐ δὲ μὰν βεβάλοις τὰ ταῖν Ἐλευσινίαιν θεαῖν μύστήρια διαγέεσθαι ·
 # sent_id = 5
-1	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_68|ref=Epistula ad Hipparchum_1
-2	γὰρ	γάρ	d	d--------	_	4	AuxY	_	t_69|ref=Epistula ad Hipparchum_1
-3	θέμις	θέμις	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_70|ref=Epistula ad Hipparchum_1
-4	ὀρέγεν	ὀρέγω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_71|ref=Epistula ad Hipparchum_1
-5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_72|ref=Epistula ad Hipparchum_1
-6	ἀπαντῶσι	ἀπαντάω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	OBJ	_	t_73|ref=Epistula ad Hipparchum_1
-7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_74|ref=Epistula ad Hipparchum_1
-8	μετὰ	μετά	r	r--------	_	11	AuxP	_	t_75|ref=Epistula ad Hipparchum_1
-9	τοσούτων	τοσοῦτος	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_76|ref=Epistula ad Hipparchum_1
-10	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ADV	_	t_77|ref=Epistula ad Hipparchum_1
-11	ποριχθέντα	πορίζω	v	v-pappna-	Case=a|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	4	SBJ	_	t_78|ref=Epistula ad Hipparchum_1
-12	,	,	u	u--------	_	4	AuxX	_	t_79|ref=Epistula ad Hipparchum_1
-13	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_80|ref=Epistula ad Hipparchum_1
-14	δὲ	δέ	c	c--------	_	4	COORD	_	t_81|ref=Epistula ad Hipparchum_1
-15	μὰν	μήν	d	d--------	_	16	AuxZ	_	t_82|ref=Epistula ad Hipparchum_1
-16	βεβάλοις	πέδιλον	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	14	PRED	_	t_83|ref=Epistula ad Hipparchum_1
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	21	ATR	_	t_84|ref=Epistula ad Hipparchum_1
-18	ταῖν	ὁ	l	l-d---fg-	Case=d|Gender=f|Number=d	20	ATR	_	t_85|ref=Epistula ad Hipparchum_1
-19	Ἐλευσινίαιν	ἐλευσίνιος	a	a-p---fd-	Case=d|Gender=f|Number=d	20	ATR	_	t_86|ref=Epistula ad Hipparchum_1
-20	θεαῖν	θεά	n	n-d---fg-	Case=g|Gender=f|Number=d	22	OBJ	_	t_87|ref=Epistula ad Hipparchum_1
-21	μύστήρια	μύστιος	n	n-p---na-	Case=a|Gender=n|Number=p	22	SBJ	_	t_88|ref=Epistula ad Hipparchum_1
-22	διαγέεσθαι	διαγίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	16	OBJ	_	t_89|ref=Epistula ad Hipparchum_1
-23	·	·	u	u--------	_	4	AuxK	_	t_90|ref=Epistula ad Hipparchum_1
+1	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_68|t_71|ref=Ep.Hipp._1
+2	γὰρ	γάρ	d	d--------	_	4	AuxY	_	t_69|t_71|ref=Ep.Hipp._1
+3	θέμις	θέμις	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_70|t_81|ref=Ep.Hipp._1
+4	ὀρέγεν	ὀρέγω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_71|0|ref=Ep.Hipp._1
+5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_72|t_73|ref=Ep.Hipp._1
+6	ἀπαντῶσι	ἀπαντάω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	OBJ	_	t_73|t_71|ref=Ep.Hipp._1
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_74|t_78|ref=Ep.Hipp._1
+8	μετὰ	μετά	r	r--------	_	11	AuxP	_	t_75|t_78|ref=Ep.Hipp._1
+9	τοσούτων	τοσοῦτος	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_76|t_77|ref=Ep.Hipp._1
+10	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ADV	_	t_77|t_75|ref=Ep.Hipp._1
+11	ποριχθέντα	πορίζω	v	v-pappna-	Case=a|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	4	SBJ	_	t_78|t_71|ref=Ep.Hipp._1
+12	,	,	u	u--------	_	4	AuxX	_	t_79|t_71|ref=Ep.Hipp._1
+13	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_80|t_83|ref=Ep.Hipp._1
+14	δὲ	δέ	c	c--------	_	4	COORD	_	t_81|t_71|ref=Ep.Hipp._1
+15	μὰν	μήν	d	d--------	_	16	AuxZ	_	t_82|t_83|ref=Ep.Hipp._1
+16	βεβάλοις	πέδιλον	v	v2saoa---	Mood=o|Number=s|Person=2|Tense=a|Voice=a	14	PRED	_	t_83|t_81|ref=Ep.Hipp._1
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	21	ATR	_	t_84|t_88|ref=Ep.Hipp._1
+18	ταῖν	ὁ	l	l-d---fg-	Case=d|Gender=f|Number=d	20	ATR	_	t_85|t_87|ref=Ep.Hipp._1
+19	Ἐλευσινίαιν	ἐλευσίνιος	a	a-p---fd-	Case=d|Gender=f|Number=d	20	ATR	_	t_86|t_87|ref=Ep.Hipp._1
+20	θεαῖν	θεά	n	n-d---fg-	Case=g|Gender=f|Number=d	22	OBJ	_	t_87|t_89|ref=Ep.Hipp._1
+21	μύστήρια	μύστιος	n	n-p---na-	Case=a|Gender=n|Number=p	22	SBJ	_	t_88|t_89|ref=Ep.Hipp._1
+22	διαγέεσθαι	διαγίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	16	OBJ	_	t_89|t_83|ref=Ep.Hipp._1
+23	·	·	u	u--------	_	4	AuxK	_	t_90|t_71|ref=Ep.Hipp._1
 
-# source = Lysis, Epistula ad Hipparchum 1
+# source = Lysis, Ep.Hipp. 1
 # text = κατʼ ἰσότατα γὰρ ἄδικοι καὶ ἀσεβέες ἑκάτεροι τοὶ ταῦτα πράττοντες [0] .
 # sent_id = 6
-1	κατʼ	κατά	r	r--------	_	11	AuxP	_	t_91|ref=Epistula ad Hipparchum_1
-2	ἰσότατα	ἴσος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	ADV	_	t_92|ref=Epistula ad Hipparchum_1
-3	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_93|ref=Epistula ad Hipparchum_1
-4	ἄδικοι	ἄδικος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_94|ref=Epistula ad Hipparchum_1
-5	καὶ	καί	c	c--------	_	11	COORD	_	t_95|ref=Epistula ad Hipparchum_1
-6	ἀσεβέες	ἀσεβής	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_96|ref=Epistula ad Hipparchum_1
-7	ἑκάτεροι	ἑκάτερος	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_97|ref=Epistula ad Hipparchum_1
-8	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_98|ref=Epistula ad Hipparchum_1
-9	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_99|ref=Epistula ad Hipparchum_1
-10	πράττοντες	πράσσω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ATR	_	t_100|ref=Epistula ad Hipparchum_1
-11	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Epistula ad Hipparchum_1
-12	.	.	u	u--------	_	11	AuxK	_	t_101|ref=Epistula ad Hipparchum_1
+1	κατʼ	κατά	r	r--------	_	11	AuxP	_	t_91|e_3|ref=Ep.Hipp._1
+2	ἰσότατα	ἴσος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	ADV	_	t_92|t_91|ref=Ep.Hipp._1
+3	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_93|e_3|ref=Ep.Hipp._1
+4	ἄδικοι	ἄδικος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_94|t_95|ref=Ep.Hipp._1
+5	καὶ	καί	c	c--------	_	11	COORD	_	t_95|e_3|ref=Ep.Hipp._1
+6	ἀσεβέες	ἀσεβής	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_96|t_95|ref=Ep.Hipp._1
+7	ἑκάτεροι	ἑκάτερος	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_97|e_3|ref=Ep.Hipp._1
+8	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_98|t_100|ref=Ep.Hipp._1
+9	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_99|t_100|ref=Ep.Hipp._1
+10	πράττοντες	πράσσω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ATR	_	t_100|t_97|ref=Ep.Hipp._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Ep.Hipp._1
+12	.	.	u	u--------	_	11	AuxK	_	t_101|e_3|ref=Ep.Hipp._1
 
-# source = Lysis, Epistula ad Hipparchum 1-2
+# source = Lysis, Ep.Hipp. 1-2
 # text = ( 2 ) καλὸν δὲ ἀναλογίζεσθαι , ὅσον χρόνω μᾶκος διαγάγομες ἐκμετρήσαντες , ἀπορρυπτόμενοι σπίλως τὼς ἐν τοῖς στάθεσιν ἁμῶν ἐγκεκολαμμένως , ἕως ποκὰ διελθόντων ἐτέων ἐγενόμεθα δεκτικοὶ τῶν τήνω λόγων [0] .
 # sent_id = 7
-1	(	̔	u	u--------	_	32	AuxG	_	t_102|ref=Epistula ad Hipparchum_1
-2	2	2	d	d--------	_	32	ExD	_	t_103|ref=Epistula ad Hipparchum_1
-3	)	)	u	u--------	_	32	AuxG	_	t_104|ref=Epistula ad Hipparchum_1
-4	καλὸν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	32	PNOM	_	t_105|ref=Epistula ad Hipparchum_2
-5	δὲ	δέ	d	d--------	_	32	AuxY	_	t_106|ref=Epistula ad Hipparchum_2
-6	ἀναλογίζεσθαι	ἀναλογίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	32	SBJ	_	t_107|ref=Epistula ad Hipparchum_2
-7	,	,	u	u--------	_	32	AuxX	_	t_108|ref=Epistula ad Hipparchum_2
-8	ὅσον	ὅσος	p	p-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_109|ref=Epistula ad Hipparchum_2
-9	χρόνω	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ADV	_	t_110|ref=Epistula ad Hipparchum_2
-10	μᾶκος	μᾶκος	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_111|ref=Epistula ad Hipparchum_2
-11	διαγάγομες	διαγίγνομαι	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	6	ADV	_	t_112|ref=Epistula ad Hipparchum_2
-12	ἐκμετρήσαντες	ἐκμετρέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	11	ADV	_	t_113|ref=Epistula ad Hipparchum_2
-13	,	,	u	u--------	_	32	AuxX	_	t_114|ref=Epistula ad Hipparchum_2
-14	ἀπορρυπτόμενοι	ἀπορρύπτω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ADV	_	t_115|ref=Epistula ad Hipparchum_2
-15	σπίλως	σπίλος	d	d--------	_	14	ADV	_	t_116|ref=Epistula ad Hipparchum_2
-16	τὼς	τώς	d	d--------	_	14	ADV	_	t_117|ref=Epistula ad Hipparchum_2
-17	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_118|ref=Epistula ad Hipparchum_2
-18	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	19	ATR	_	t_119|ref=Epistula ad Hipparchum_2
-19	στάθεσιν	στάθησις	n	n-p---nd-	Case=d|Gender=n|Number=p	17	ADV	_	t_120|ref=Epistula ad Hipparchum_2
-20	ἁμῶν	ἁμός	a	a-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_121|ref=Epistula ad Hipparchum_2
-21	ἐγκεκολαμμένως	ἐγκολάω	d	d--------	_	14	ADV	_	t_122|ref=Epistula ad Hipparchum_2
-22	,	,	u	u--------	_	32	AuxX	_	t_123|ref=Epistula ad Hipparchum_2
-23	ἕως	ἕως	r	r--------	_	14	AuxC	_	t_124|ref=Epistula ad Hipparchum_2
-24	ποκὰ	ποκά	a	a-p---na-	Case=a|Gender=n|Number=p	25	ADV	_	t_125|ref=Epistula ad Hipparchum_2
-25	διελθόντων	διέρχομαι	v	v-papang-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=a	27	ADV	_	t_126|ref=Epistula ad Hipparchum_2
-26	ἐτέων	ἔτος	n	n-p---ng-	Case=g|Gender=n|Number=p	25	SBJ	_	t_127|ref=Epistula ad Hipparchum_2
-27	ἐγενόμεθα	γίγνομαι	v	v1paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=m	23	ADV	_	t_128|ref=Epistula ad Hipparchum_2
-28	δεκτικοὶ	δεκτικός	a	a-p---mn-	Case=n|Gender=m|Number=p	27	PNOM	_	t_129|ref=Epistula ad Hipparchum_2
-29	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	31	ATR	_	t_130|ref=Epistula ad Hipparchum_2
-30	τήνω	ἐκεῖνος	d	d--------	_	31	ATR	_	t_131|ref=Epistula ad Hipparchum_2
-31	λόγων	λόγος	n	n-p---mg-	Case=g|Gender=m|Number=p	28	ADV	_	t_132|ref=Epistula ad Hipparchum_2
-32	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Epistula ad Hipparchum_1
-33	.	.	u	u--------	_	32	AuxK	_	t_133|ref=Epistula ad Hipparchum_2
+1	(	̔	u	u--------	_	32	AuxG	_	t_102|e_4|ref=Ep.Hipp._1
+2	2	2	d	d--------	_	32	ExD	_	t_103|e_4|ref=Ep.Hipp._1
+3	)	)	u	u--------	_	32	AuxG	_	t_104|e_4|ref=Ep.Hipp._1
+4	καλὸν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	32	PNOM	_	t_105|e_4|ref=Ep.Hipp._2
+5	δὲ	δέ	d	d--------	_	32	AuxY	_	t_106|e_4|ref=Ep.Hipp._2
+6	ἀναλογίζεσθαι	ἀναλογίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	32	SBJ	_	t_107|e_4|ref=Ep.Hipp._2
+7	,	,	u	u--------	_	32	AuxX	_	t_108|e_4|ref=Ep.Hipp._2
+8	ὅσον	ὅσος	p	p-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_109|t_111|ref=Ep.Hipp._2
+9	χρόνω	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ADV	_	t_110|t_113|ref=Ep.Hipp._2
+10	μᾶκος	μᾶκος	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_111|t_113|ref=Ep.Hipp._2
+11	διαγάγομες	διαγίγνομαι	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	6	ADV	_	t_112|t_107|ref=Ep.Hipp._2
+12	ἐκμετρήσαντες	ἐκμετρέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	11	ADV	_	t_113|t_112|ref=Ep.Hipp._2
+13	,	,	u	u--------	_	32	AuxX	_	t_114|e_4|ref=Ep.Hipp._2
+14	ἀπορρυπτόμενοι	ἀπορρύπτω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ADV	_	t_115|t_107|ref=Ep.Hipp._2
+15	σπίλως	σπίλος	d	d--------	_	14	ADV	_	t_116|t_115|ref=Ep.Hipp._2
+16	τὼς	τώς	d	d--------	_	14	ADV	_	t_117|t_115|ref=Ep.Hipp._2
+17	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_118|t_115|ref=Ep.Hipp._2
+18	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	19	ATR	_	t_119|t_120|ref=Ep.Hipp._2
+19	στάθεσιν	στάθησις	n	n-p---nd-	Case=d|Gender=n|Number=p	17	ADV	_	t_120|t_118|ref=Ep.Hipp._2
+20	ἁμῶν	ἁμός	a	a-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_121|t_120|ref=Ep.Hipp._2
+21	ἐγκεκολαμμένως	ἐγκολάω	d	d--------	_	14	ADV	_	t_122|t_115|ref=Ep.Hipp._2
+22	,	,	u	u--------	_	32	AuxX	_	t_123|e_4|ref=Ep.Hipp._2
+23	ἕως	ἕως	r	r--------	_	14	AuxC	_	t_124|t_115|ref=Ep.Hipp._2
+24	ποκὰ	ποκά	a	a-p---na-	Case=a|Gender=n|Number=p	25	ADV	_	t_125|t_126|ref=Ep.Hipp._2
+25	διελθόντων	διέρχομαι	v	v-papang-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=a	27	ADV	_	t_126|t_128|ref=Ep.Hipp._2
+26	ἐτέων	ἔτος	n	n-p---ng-	Case=g|Gender=n|Number=p	25	SBJ	_	t_127|t_126|ref=Ep.Hipp._2
+27	ἐγενόμεθα	γίγνομαι	v	v1paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=m	23	ADV	_	t_128|t_124|ref=Ep.Hipp._2
+28	δεκτικοὶ	δεκτικός	a	a-p---mn-	Case=n|Gender=m|Number=p	27	PNOM	_	t_129|t_128|ref=Ep.Hipp._2
+29	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	31	ATR	_	t_130|t_132|ref=Ep.Hipp._2
+30	τήνω	ἐκεῖνος	d	d--------	_	31	ATR	_	t_131|t_132|ref=Ep.Hipp._2
+31	λόγων	λόγος	n	n-p---mg-	Case=g|Gender=m|Number=p	28	ADV	_	t_132|t_129|ref=Ep.Hipp._2
+32	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Ep.Hipp._1
+33	.	.	u	u--------	_	32	AuxK	_	t_133|e_4|ref=Ep.Hipp._2
 
-# source = Lysis, Epistula ad Hipparchum 2
+# source = Lysis, Ep.Hipp. 2
 # text = καθάπερ γὰρ οἱ βαφεῖς προεκκαθάραντες ἔστυψαν τὰ βάψιμα τῶν ἱματίων , ὅπως ἀνέκπλυτον τὰν βαφὰν ἀναπίωντι καὶ μηδέποκα γενησουμέναν ἐξίταλον , τὸν αὐτὸν τρόπον ὁ δαιμόνιος ἀνὴρ παρεσκεύαζε τὼς φιλοσοφίας ἐρασθέντας , ὅπως μὴ διαψευσθῇ περί τινα τῶν ἐλπιζομένων ἐσεῖσθαι καλῶν τε κ ἀγαθῶν .
 # sent_id = 8
-1	καθάπερ	καθά	c	c--------	_	28	AuxC	_	t_134|ref=Epistula ad Hipparchum_2
-2	γὰρ	γάρ	d	d--------	_	28	AuxY	_	t_135|ref=Epistula ad Hipparchum_2
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_136|ref=Epistula ad Hipparchum_2
-4	βαφεῖς	βαφεύς	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_137|ref=Epistula ad Hipparchum_2
-5	προεκκαθάραντες	προεκκαθαίρω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	6	ADV	_	t_138|ref=Epistula ad Hipparchum_2
-6	ἔστυψαν	στύπτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	ADV	_	t_139|ref=Epistula ad Hipparchum_2
-7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_140|ref=Epistula ad Hipparchum_2
-8	βάψιμα	βάψιμος	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_141|ref=Epistula ad Hipparchum_2
-9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_142|ref=Epistula ad Hipparchum_2
-10	ἱματίων	ἱμάτιον	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_143|ref=Epistula ad Hipparchum_2
-11	,	,	u	u--------	_	28	AuxX	_	t_144|ref=Epistula ad Hipparchum_2
-12	ὅπως	ὅπως	c	c--------	_	6	AuxC	_	t_145|ref=Epistula ad Hipparchum_2
-13	ἀνέκπλυτον	ἀνέκπλυτος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	OCOMP	_	t_146|ref=Epistula ad Hipparchum_2
-14	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_147|ref=Epistula ad Hipparchum_2
-15	βαφὰν	βαφή	n	n-s---fa-	Case=a|Gender=f|Number=s	19	SBJ	_	t_148|ref=Epistula ad Hipparchum_2
-16	ἀναπίωντι	ἀναπίνω	v	v-sppafd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_149|ref=Epistula ad Hipparchum_2
-17	καὶ	καί	c	c--------	_	12	COORD	_	t_150|ref=Epistula ad Hipparchum_2
-18	μηδέποκα	μηδέπω	d	d--------	_	19	AuxZ	_	t_151|ref=Epistula ad Hipparchum_2
-19	γενησουμέναν	γίγνομαι	v	v-sfpmfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=f|Voice=m	17	ADV	_	t_152|ref=Epistula ad Hipparchum_2
-20	ἐξίταλον	ἐξίταλος	a	a-s---fa-	Case=a|Gender=f|Number=s	19	PNOM	_	t_153|ref=Epistula ad Hipparchum_2
-21	,	,	u	u--------	_	28	AuxX	_	t_154|ref=Epistula ad Hipparchum_2
-22	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_155|ref=Epistula ad Hipparchum_2
-23	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_156|ref=Epistula ad Hipparchum_2
-24	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	28	ADV	_	t_157|ref=Epistula ad Hipparchum_2
-25	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	27	ATR	_	t_158|ref=Epistula ad Hipparchum_2
-26	δαιμόνιος	δαιμόνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	27	ATR	_	t_159|ref=Epistula ad Hipparchum_2
-27	ἀνὴρ	ἀνήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	28	SBJ	_	t_160|ref=Epistula ad Hipparchum_2
-28	παρεσκεύαζε	παρασκευάζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_161|ref=Epistula ad Hipparchum_2
-29	τὼς	τώς	l	l-p---ma-	Case=g|Gender=f|Number=s	31	ATR	_	t_162|ref=Epistula ad Hipparchum_2
-30	φιλοσοφίας	φιλοσοφία	n	n-s---fg-	Case=g|Gender=f|Number=s	31	OBJ	_	t_163|ref=Epistula ad Hipparchum_2
-31	ἐρασθέντας	ἔραμαι	v	v-pappma-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	28	ADV	_	t_164|ref=Epistula ad Hipparchum_2
-32	,	,	u	u--------	_	28	AuxX	_	t_165|ref=Epistula ad Hipparchum_2
-33	ὅπως	ὅπως	c	c--------	_	28	AuxC	_	t_166|ref=Epistula ad Hipparchum_2
-34	μὴ	μή	d	d--------	_	35	AuxZ	_	t_167|ref=Epistula ad Hipparchum_2
-35	διαψευσθῇ	διαψεύδω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	33	ADV	_	t_168|ref=Epistula ad Hipparchum_2
-36	περί	περί	r	r--------	_	35	AuxP	_	t_169|ref=Epistula ad Hipparchum_2
-37	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	36	ADV	_	t_170|ref=Epistula ad Hipparchum_2
-38	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	39	ATR	_	t_171|ref=Epistula ad Hipparchum_2
-39	ἐλπιζομένων	ἐλπίζω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	37	ATR	_	t_172|ref=Epistula ad Hipparchum_2
-40	ἐσεῖσθαι	εἰσίημι	v	v--fnm---	Mood=n|Tense=f|Voice=m	39	OBJ	_	t_173|ref=Epistula ad Hipparchum_2
-41	καλῶν	καλός	a	a-p---ng-	Case=g|Gender=n|Number=p	43	PNOM	_	t_174|ref=Epistula ad Hipparchum_2
-42	τε	τε	c	c--------	_	40	COORD	_	t_175|ref=Epistula ad Hipparchum_2
-43	κ	καί	c	c--------	_	40	COORD	_	t_176|ref=Epistula ad Hipparchum_2
-44	ἀγαθῶν	ἀγαθός	a	a-p---mg-	Case=g|Gender=m|Number=p	43	PNOM	_	t_177|ref=Epistula ad Hipparchum_2
-45	.	.	u	u--------	_	28	AuxK	_	t_178|ref=Epistula ad Hipparchum_2
+1	καθάπερ	καθά	c	c--------	_	28	AuxC	_	t_134|t_161|ref=Ep.Hipp._2
+2	γὰρ	γάρ	d	d--------	_	28	AuxY	_	t_135|t_161|ref=Ep.Hipp._2
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_136|t_137|ref=Ep.Hipp._2
+4	βαφεῖς	βαφεύς	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_137|t_139|ref=Ep.Hipp._2
+5	προεκκαθάραντες	προεκκαθαίρω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	6	ADV	_	t_138|t_139|ref=Ep.Hipp._2
+6	ἔστυψαν	στύπτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	ADV	_	t_139|t_134|ref=Ep.Hipp._2
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_140|t_141|ref=Ep.Hipp._2
+8	βάψιμα	βάψιμος	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_141|t_139|ref=Ep.Hipp._2
+9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_142|t_143|ref=Ep.Hipp._2
+10	ἱματίων	ἱμάτιον	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_143|t_141|ref=Ep.Hipp._2
+11	,	,	u	u--------	_	28	AuxX	_	t_144|t_161|ref=Ep.Hipp._2
+12	ὅπως	ὅπως	c	c--------	_	6	AuxC	_	t_145|t_139|ref=Ep.Hipp._2
+13	ἀνέκπλυτον	ἀνέκπλυτος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	OCOMP	_	t_146|t_150|ref=Ep.Hipp._2
+14	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_147|t_148|ref=Ep.Hipp._2
+15	βαφὰν	βαφή	n	n-s---fa-	Case=a|Gender=f|Number=s	19	SBJ	_	t_148|t_152|ref=Ep.Hipp._2
+16	ἀναπίωντι	ἀναπίνω	v	v-sppafd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_149|t_146|ref=Ep.Hipp._2
+17	καὶ	καί	c	c--------	_	12	COORD	_	t_150|t_145|ref=Ep.Hipp._2
+18	μηδέποκα	μηδέπω	d	d--------	_	19	AuxZ	_	t_151|t_152|ref=Ep.Hipp._2
+19	γενησουμέναν	γίγνομαι	v	v-sfpmfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=f|Voice=m	17	ADV	_	t_152|t_150|ref=Ep.Hipp._2
+20	ἐξίταλον	ἐξίταλος	a	a-s---fa-	Case=a|Gender=f|Number=s	19	PNOM	_	t_153|t_152|ref=Ep.Hipp._2
+21	,	,	u	u--------	_	28	AuxX	_	t_154|t_161|ref=Ep.Hipp._2
+22	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_155|t_157|ref=Ep.Hipp._2
+23	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_156|t_157|ref=Ep.Hipp._2
+24	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	28	ADV	_	t_157|t_161|ref=Ep.Hipp._2
+25	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	27	ATR	_	t_158|t_160|ref=Ep.Hipp._2
+26	δαιμόνιος	δαιμόνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	27	ATR	_	t_159|t_160|ref=Ep.Hipp._2
+27	ἀνὴρ	ἀνήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	28	SBJ	_	t_160|t_161|ref=Ep.Hipp._2
+28	παρεσκεύαζε	παρασκευάζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_161|0|ref=Ep.Hipp._2
+29	τὼς	τώς	l	l-p---ma-	Case=g|Gender=f|Number=s	31	ATR	_	t_162|t_164|ref=Ep.Hipp._2
+30	φιλοσοφίας	φιλοσοφία	n	n-s---fg-	Case=g|Gender=f|Number=s	31	OBJ	_	t_163|t_164|ref=Ep.Hipp._2
+31	ἐρασθέντας	ἔραμαι	v	v-pappma-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	28	ADV	_	t_164|t_161|ref=Ep.Hipp._2
+32	,	,	u	u--------	_	28	AuxX	_	t_165|t_161|ref=Ep.Hipp._2
+33	ὅπως	ὅπως	c	c--------	_	28	AuxC	_	t_166|t_161|ref=Ep.Hipp._2
+34	μὴ	μή	d	d--------	_	35	AuxZ	_	t_167|t_168|ref=Ep.Hipp._2
+35	διαψευσθῇ	διαψεύδω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	33	ADV	_	t_168|t_166|ref=Ep.Hipp._2
+36	περί	περί	r	r--------	_	35	AuxP	_	t_169|t_168|ref=Ep.Hipp._2
+37	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	36	ADV	_	t_170|t_169|ref=Ep.Hipp._2
+38	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	39	ATR	_	t_171|t_172|ref=Ep.Hipp._2
+39	ἐλπιζομένων	ἐλπίζω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	37	ATR	_	t_172|t_170|ref=Ep.Hipp._2
+40	ἐσεῖσθαι	εἰσίημι	v	v--fnm---	Mood=n|Tense=f|Voice=m	39	OBJ	_	t_173|t_172|ref=Ep.Hipp._2
+41	καλῶν	καλός	a	a-p---ng-	Case=g|Gender=n|Number=p	43	PNOM	_	t_174|t_176|ref=Ep.Hipp._2
+42	τε	τε	c	c--------	_	40	COORD	_	t_175|t_173|ref=Ep.Hipp._2
+43	κ	καί	c	c--------	_	40	COORD	_	t_176|t_173|ref=Ep.Hipp._2
+44	ἀγαθῶν	ἀγαθός	a	a-p---mg-	Case=g|Gender=m|Number=p	43	PNOM	_	t_177|t_176|ref=Ep.Hipp._2
+45	.	.	u	u--------	_	28	AuxK	_	t_178|t_161|ref=Ep.Hipp._2
 
-# source = Lysis, Epistula ad Hipparchum 2-3
+# source = Lysis, Ep.Hipp. 2-3
 # text = ( 3 ) οὐ γὰρ κιβδήλως ἐνεπορεύετο λόγως , οὐ δὲ πάγας ταῖς τοὶ πολλοὶ τῶν σοφιστᾶν τὼς νέως ἐμπλέκοντι ποιʼ οὐδὲν κράγυον σχολά ζοντες , ἀλλὰ θείων τε καὶ ἀνθρωπίνων πραγμάτων ἦς ἐπιστάμων .
 # sent_id = 9
-1	(	̔	u	u--------	_	2	AuxG	_	t_179|ref=Epistula ad Hipparchum_2
-2	3	3	x	x--------	_	0	ExD	_	t_180|ref=Epistula ad Hipparchum_2
-3	)	)	u	u--------	_	2	AuxG	_	t_181|ref=Epistula ad Hipparchum_2
-4	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_182|ref=Epistula ad Hipparchum_2
-5	γὰρ	γάρ	g	g--------	_	7	AuxY	_	t_183|ref=Epistula ad Hipparchum_3
-6	κιβδήλως	κίβδηλος	d	d--------	_	7	ADV	_	t_184|ref=Epistula ad Hipparchum_3
-7	ἐνεπορεύετο	ἐμπορεύομαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	11	PRED	_	t_185|ref=Epistula ad Hipparchum_3
-8	λόγως	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_186|ref=Epistula ad Hipparchum_3
-9	,	,	u	u--------	_	27	AuxX	_	t_187|ref=Epistula ad Hipparchum_3
-10	οὐ	οὐ	d	d--------	_	23	AuxZ	_	t_188|ref=Epistula ad Hipparchum_3
-11	δὲ	δέ	g	g--------	_	27	COORD	_	t_189|ref=Epistula ad Hipparchum_3
-12	πάγας	πάγη	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_190|ref=Epistula ad Hipparchum_3
-13	ταῖς	ὁ	p	p-p---fd-	Case=d|Gender=f|Number=p	23	OBJ	_	t_191|ref=Epistula ad Hipparchum_3
-14	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_192|ref=Epistula ad Hipparchum_3
-15	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_193|ref=Epistula ad Hipparchum_3
-16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_194|ref=Epistula ad Hipparchum_3
-17	σοφιστᾶν	σοφιστής	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_195|ref=Epistula ad Hipparchum_3
-18	τὼς	τώς	d	d--------	_	20	ADV	_	t_196|ref=Epistula ad Hipparchum_3
-19	νέως	νέω	d	d--------	_	20	ADV	_	t_197|ref=Epistula ad Hipparchum_3
-20	ἐμπλέκοντι	ἐμπλέκω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	ATV	_	t_198|ref=Epistula ad Hipparchum_3
-21	ποιʼ	ποιόω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	23	ADV	_	t_199|ref=Epistula ad Hipparchum_3
-22	οὐδὲν	οὐδείς	a	a-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_200|ref=Epistula ad Hipparchum_3
-23	κράγυον	κράγυον	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	11	PRED	_	t_201|ref=Epistula ad Hipparchum_3
-24	σχολά	σχολή	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_202|ref=Epistula ad Hipparchum_3
-25	ζοντες	ζέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ADV	_	t_203|ref=Epistula ad Hipparchum_3
-26	,	,	u	u--------	_	27	AuxX	_	t_204|ref=Epistula ad Hipparchum_3
-27	ἀλλὰ	ἀλλά	c	c--------	_	2	COORD	_	t_205|ref=Epistula ad Hipparchum_3
-28	θείων	θεῖος2	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_206|ref=Epistula ad Hipparchum_3
-29	τε	τε	g	g--------	_	30	AuxY	_	t_207|ref=Epistula ad Hipparchum_3
-30	καὶ	καί	c	c--------	_	32	COORD	_	t_208|ref=Epistula ad Hipparchum_3
-31	ἀνθρωπίνων	ἀνθρώπινος	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_209|ref=Epistula ad Hipparchum_3
-32	πραγμάτων	πρᾶγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_210|ref=Epistula ad Hipparchum_3
-33	ἦς	εἰμί	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	27	PRED	_	t_211|ref=Epistula ad Hipparchum_3
-34	ἐπιστάμων	ἐπιστάμνος	a	a-s---mn-	Case=n|Gender=m|Number=s	33	PNOM	_	t_212|ref=Epistula ad Hipparchum_3
-35	.	.	u	u--------	_	2	AuxK	_	t_213|ref=Epistula ad Hipparchum_3
+1	(	̔	u	u--------	_	2	AuxG	_	t_179|t_180|ref=Ep.Hipp._2
+2	3	3	x	x--------	_	0	ExD	_	t_180|0|ref=Ep.Hipp._2
+3	)	)	u	u--------	_	2	AuxG	_	t_181|t_180|ref=Ep.Hipp._2
+4	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_182|t_185|ref=Ep.Hipp._2
+5	γὰρ	γάρ	g	g--------	_	7	AuxY	_	t_183|t_185|ref=Ep.Hipp._3
+6	κιβδήλως	κίβδηλος	d	d--------	_	7	ADV	_	t_184|t_185|ref=Ep.Hipp._3
+7	ἐνεπορεύετο	ἐμπορεύομαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	11	PRED	_	t_185|t_189|ref=Ep.Hipp._3
+8	λόγως	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_186|t_185|ref=Ep.Hipp._3
+9	,	,	u	u--------	_	27	AuxX	_	t_187|t_205|ref=Ep.Hipp._3
+10	οὐ	οὐ	d	d--------	_	23	AuxZ	_	t_188|t_201|ref=Ep.Hipp._3
+11	δὲ	δέ	g	g--------	_	27	COORD	_	t_189|t_205|ref=Ep.Hipp._3
+12	πάγας	πάγη	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_190|t_201|ref=Ep.Hipp._3
+13	ταῖς	ὁ	p	p-p---fd-	Case=d|Gender=f|Number=p	23	OBJ	_	t_191|t_201|ref=Ep.Hipp._3
+14	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_192|t_193|ref=Ep.Hipp._3
+15	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_193|t_201|ref=Ep.Hipp._3
+16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_194|t_195|ref=Ep.Hipp._3
+17	σοφιστᾶν	σοφιστής	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_195|t_193|ref=Ep.Hipp._3
+18	τὼς	τώς	d	d--------	_	20	ADV	_	t_196|t_198|ref=Ep.Hipp._3
+19	νέως	νέω	d	d--------	_	20	ADV	_	t_197|t_198|ref=Ep.Hipp._3
+20	ἐμπλέκοντι	ἐμπλέκω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	ATV	_	t_198|t_191|ref=Ep.Hipp._3
+21	ποιʼ	ποιόω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	23	ADV	_	t_199|t_201|ref=Ep.Hipp._3
+22	οὐδὲν	οὐδείς	a	a-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_200|t_201|ref=Ep.Hipp._3
+23	κράγυον	κράγυον	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	11	PRED	_	t_201|t_189|ref=Ep.Hipp._3
+24	σχολά	σχολή	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_202|t_198|ref=Ep.Hipp._3
+25	ζοντες	ζέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ADV	_	t_203|t_201|ref=Ep.Hipp._3
+26	,	,	u	u--------	_	27	AuxX	_	t_204|t_205|ref=Ep.Hipp._3
+27	ἀλλὰ	ἀλλά	c	c--------	_	2	COORD	_	t_205|t_180|ref=Ep.Hipp._3
+28	θείων	θεῖος2	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_206|t_208|ref=Ep.Hipp._3
+29	τε	τε	g	g--------	_	30	AuxY	_	t_207|t_208|ref=Ep.Hipp._3
+30	καὶ	καί	c	c--------	_	32	COORD	_	t_208|t_210|ref=Ep.Hipp._3
+31	ἀνθρωπίνων	ἀνθρώπινος	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_209|t_208|ref=Ep.Hipp._3
+32	πραγμάτων	πρᾶγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_210|t_212|ref=Ep.Hipp._3
+33	ἦς	εἰμί	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	27	PRED	_	t_211|t_205|ref=Ep.Hipp._3
+34	ἐπιστάμων	ἐπιστάμνος	a	a-s---mn-	Case=n|Gender=m|Number=s	33	PNOM	_	t_212|t_211|ref=Ep.Hipp._3
+35	.	.	u	u--------	_	2	AuxK	_	t_213|t_180|ref=Ep.Hipp._3
 
-# source = Lysis, Epistula ad Hipparchum 3
+# source = Lysis, Ep.Hipp. 3
 # text = τοὶ δὲ πρόσχημα ποιησάμενοι τὰν τήνω διδασκαλίαν πολλὰ καὶ δεινὰ δρῶντι , σαγανεύοντες οὐ κατὰ κόσμον τὼς νέως .
 # sent_id = 10
-1	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_214|ref=Epistula ad Hipparchum_3
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_215|ref=Epistula ad Hipparchum_3
-3	πρόσχημα	πρόσχημα	n	n-s---na-	Case=a|Gender=n|Number=s	4	OCOMP	_	t_216|ref=Epistula ad Hipparchum_3
-4	ποιησάμενοι	ποιέω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	12	ADV	_	t_217|ref=Epistula ad Hipparchum_3
-5	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_218|ref=Epistula ad Hipparchum_3
-6	τήνω	ἐκεῖνος	d	d--------	Case=a|Gender=f|Number=s	7	ATR	_	t_219|ref=Epistula ad Hipparchum_3
-7	διδασκαλίαν	διδασκαλία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_220|ref=Epistula ad Hipparchum_3
-8	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_221|ref=Epistula ad Hipparchum_3
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_222|ref=Epistula ad Hipparchum_3
-10	δεινὰ	δεινός	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_223|ref=Epistula ad Hipparchum_3
-11	δρῶντι	δράω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	OBJ	_	t_224|ref=Epistula ad Hipparchum_3
-12	,	,	u	u--------	_	0	COORD	_	t_225|ref=Epistula ad Hipparchum_3
-13	σαγανεύοντες	σαγανεύω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_226|ref=Epistula ad Hipparchum_3
-14	οὐ	οὐ	d	d--------	_	13	AuxZ	_	t_227|ref=Epistula ad Hipparchum_3
-15	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_228|ref=Epistula ad Hipparchum_3
-16	κόσμον	κόσμος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_229|ref=Epistula ad Hipparchum_3
-17	τὼς	τώς	d	d--------	_	13	ADV	_	t_230|ref=Epistula ad Hipparchum_3
-18	νέως	νέω	d	d--------	_	13	ADV	_	t_231|ref=Epistula ad Hipparchum_3
-19	.	.	u	u--------	_	11	AuxK	_	t_232|ref=Epistula ad Hipparchum_3
+1	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_214|t_224|ref=Ep.Hipp._3
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_215|t_224|ref=Ep.Hipp._3
+3	πρόσχημα	πρόσχημα	n	n-s---na-	Case=a|Gender=n|Number=s	4	OCOMP	_	t_216|t_217|ref=Ep.Hipp._3
+4	ποιησάμενοι	ποιέω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	12	ADV	_	t_217|t_225|ref=Ep.Hipp._3
+5	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_218|t_220|ref=Ep.Hipp._3
+6	τήνω	ἐκεῖνος	d	d--------	Case=a|Gender=f|Number=s	7	ATR	_	t_219|t_220|ref=Ep.Hipp._3
+7	διδασκαλίαν	διδασκαλία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_220|t_217|ref=Ep.Hipp._3
+8	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_221|t_222|ref=Ep.Hipp._3
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_222|t_224|ref=Ep.Hipp._3
+10	δεινὰ	δεινός	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_223|t_222|ref=Ep.Hipp._3
+11	δρῶντι	δράω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	OBJ	_	t_224|t_217|ref=Ep.Hipp._3
+12	,	,	u	u--------	_	0	COORD	_	t_225|0|ref=Ep.Hipp._3
+13	σαγανεύοντες	σαγανεύω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_226|t_224|ref=Ep.Hipp._3
+14	οὐ	οὐ	d	d--------	_	13	AuxZ	_	t_227|t_226|ref=Ep.Hipp._3
+15	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_228|t_226|ref=Ep.Hipp._3
+16	κόσμον	κόσμος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_229|t_228|ref=Ep.Hipp._3
+17	τὼς	τώς	d	d--------	_	13	ADV	_	t_230|t_226|ref=Ep.Hipp._3
+18	νέως	νέω	d	d--------	_	13	ADV	_	t_231|t_226|ref=Ep.Hipp._3
+19	.	.	u	u--------	_	11	AuxK	_	t_232|t_224|ref=Ep.Hipp._3
 
-# source = Lysis, Epistula ad Hipparchum 3
+# source = Lysis, Ep.Hipp. 3
 # text = τοιγαροῦν χαλεπώς τε καὶ προαλεῖς ἀπεργάζονται τὼς ἀκούοντας ·
 # sent_id = 11
-1	τοιγαροῦν	τοιγάρ	d	d--------	_	6	AuxY	_	t_233|ref=Epistula ad Hipparchum_3
-2	χαλεπώς	χαλεπός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_234|ref=Epistula ad Hipparchum_3
-3	τε	τε	c	c--------	_	4	AuxY	_	t_235|ref=Epistula ad Hipparchum_3
-4	καὶ	καί	c	c--------	_	6	COORD	_	t_236|ref=Epistula ad Hipparchum_3
-5	προαλεῖς	προαλής	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_237|ref=Epistula ad Hipparchum_3
-6	ἀπεργάζονται	ἀπεργάζομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_238|ref=Epistula ad Hipparchum_3
-7	τὼς	τώς	d	d--------	_	6	ADV	_	t_239|ref=Epistula ad Hipparchum_3
-8	ἀκούοντας	ἀκούω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_240|ref=Epistula ad Hipparchum_3
-9	·	·	u	u--------	_	6	AuxK	_	t_241|ref=Epistula ad Hipparchum_3
+1	τοιγαροῦν	τοιγάρ	d	d--------	_	6	AuxY	_	t_233|t_238|ref=Ep.Hipp._3
+2	χαλεπώς	χαλεπός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_234|t_236|ref=Ep.Hipp._3
+3	τε	τε	c	c--------	_	4	AuxY	_	t_235|t_236|ref=Ep.Hipp._3
+4	καὶ	καί	c	c--------	_	6	COORD	_	t_236|t_238|ref=Ep.Hipp._3
+5	προαλεῖς	προαλής	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_237|t_236|ref=Ep.Hipp._3
+6	ἀπεργάζονται	ἀπεργάζομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_238|0|ref=Ep.Hipp._3
+7	τὼς	τώς	d	d--------	_	6	ADV	_	t_239|t_238|ref=Ep.Hipp._3
+8	ἀκούοντας	ἀκούω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_240|t_238|ref=Ep.Hipp._3
+9	·	·	u	u--------	_	6	AuxK	_	t_241|t_238|ref=Ep.Hipp._3
 
-# source = Lysis, Epistula ad Hipparchum 3
+# source = Lysis, Ep.Hipp. 3
 # text = ἐγκίρναντι γὰρ ἤθεσι τεταραγμένοις τε καὶ θολεροῖς θεωρήματα καὶ λόγως ἐλευθέρως , καθάπερ εἴ τις εἰς φρέαρ βαθὺ βορβόρω πλῆρες ἐγχέας καθαρὸν καὶ διειδὲς ὕδωρ τόν τε βόρβορον ἀνετάραξε καὶ τὸ ὕδωρ ἀφάνιξεν [0] .
 # sent_id = 12
-1	ἐγκίρναντι	ἐγκεράννυμι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_242|ref=Epistula ad Hipparchum_3
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_243|ref=Epistula ad Hipparchum_3
-3	ἤθεσι	ἦθος	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_244|ref=Epistula ad Hipparchum_3
-4	τεταραγμένοις	ταράσσω	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	6	ATR	_	t_245|ref=Epistula ad Hipparchum_3
-5	τε	τε	d	d--------	_	9	AuxY	_	t_246|ref=Epistula ad Hipparchum_3
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_247|ref=Epistula ad Hipparchum_3
-7	θολεροῖς	θολερός	a	a-p---nd-	Case=d|Gender=n|Number=p	6	ATR	_	t_248|ref=Epistula ad Hipparchum_3
-8	θεωρήματα	θεώρημα	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_249|ref=Epistula ad Hipparchum_3
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_250|ref=Epistula ad Hipparchum_3
-10	λόγως	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_251|ref=Epistula ad Hipparchum_3
-11	ἐλευθέρως	ἐλεύθερος	d	d--------	_	10	ATR	_	t_252|ref=Epistula ad Hipparchum_3
-12	,	,	u	u--------	_	13	AuxX	_	t_253|ref=Epistula ad Hipparchum_3
-13	καθάπερ	καθά	c	c--------	_	1	AuxC	_	t_254|ref=Epistula ad Hipparchum_3
-14	εἴ	εἰ	c	c--------	_	34	AuxC	_	t_255|ref=Epistula ad Hipparchum_3
-15	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_256|ref=Epistula ad Hipparchum_3
-16	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_257|ref=Epistula ad Hipparchum_3
-17	φρέαρ	φρέαρ	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_258|ref=Epistula ad Hipparchum_3
-18	βαθὺ	βαθύς	a	a-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_259|ref=Epistula ad Hipparchum_3
-19	βορβόρω	βόρβορος	v	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	14	ADV	_	t_260|ref=Epistula ad Hipparchum_3
-20	πλῆρες	πλήρης	a	a-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_261|ref=Epistula ad Hipparchum_3
-21	ἐγχέας	ἐγχύνω	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_262|ref=Epistula ad Hipparchum_3
-22	καθαρὸν	καθαρός	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_263|ref=Epistula ad Hipparchum_3
-23	καὶ	καί	c	c--------	_	25	COORD	_	t_264|ref=Epistula ad Hipparchum_3
-24	διειδὲς	διειδής	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_265|ref=Epistula ad Hipparchum_3
-25	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	19	SBJ	_	t_266|ref=Epistula ad Hipparchum_3
-26	τόν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	28	ATR	_	t_267|ref=Epistula ad Hipparchum_3
-27	τε	τε	d	d--------	_	30	AuxY	_	t_268|ref=Epistula ad Hipparchum_3
-28	βόρβορον	βόρβορος	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_269|ref=Epistula ad Hipparchum_3
-29	ἀνετάραξε	ἀναταράσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	30	ADV	_	t_270|ref=Epistula ad Hipparchum_3
-30	καὶ	καί	c	c--------	_	13	COORD	_	t_271|ref=Epistula ad Hipparchum_3
-31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_272|ref=Epistula ad Hipparchum_3
-32	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	33	OBJ	_	t_273|ref=Epistula ad Hipparchum_3
-33	ἀφάνιξεν	ἀφανίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	30	ADV	_	t_274|ref=Epistula ad Hipparchum_3
-34	[0]	[0]	-	---------	_	13	ADV	_	e_5|ref=Epistula ad Hipparchum_1
-35	.	.	u	u--------	_	1	AuxK	_	t_275|ref=Epistula ad Hipparchum_3
+1	ἐγκίρναντι	ἐγκεράννυμι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_242|0|ref=Ep.Hipp._3
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_243|t_242|ref=Ep.Hipp._3
+3	ἤθεσι	ἦθος	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_244|t_242|ref=Ep.Hipp._3
+4	τεταραγμένοις	ταράσσω	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	6	ATR	_	t_245|t_247|ref=Ep.Hipp._3
+5	τε	τε	d	d--------	_	9	AuxY	_	t_246|t_250|ref=Ep.Hipp._3
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_247|t_244|ref=Ep.Hipp._3
+7	θολεροῖς	θολερός	a	a-p---nd-	Case=d|Gender=n|Number=p	6	ATR	_	t_248|t_247|ref=Ep.Hipp._3
+8	θεωρήματα	θεώρημα	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_249|t_242|ref=Ep.Hipp._3
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_250|t_242|ref=Ep.Hipp._3
+10	λόγως	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_251|t_250|ref=Ep.Hipp._3
+11	ἐλευθέρως	ἐλεύθερος	d	d--------	_	10	ATR	_	t_252|t_251|ref=Ep.Hipp._3
+12	,	,	u	u--------	_	13	AuxX	_	t_253|t_254|ref=Ep.Hipp._3
+13	καθάπερ	καθά	c	c--------	_	1	AuxC	_	t_254|t_242|ref=Ep.Hipp._3
+14	εἴ	εἰ	c	c--------	_	34	AuxC	_	t_255|e_5|ref=Ep.Hipp._3
+15	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_256|t_260|ref=Ep.Hipp._3
+16	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_257|t_260|ref=Ep.Hipp._3
+17	φρέαρ	φρέαρ	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_258|t_257|ref=Ep.Hipp._3
+18	βαθὺ	βαθύς	a	a-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_259|t_258|ref=Ep.Hipp._3
+19	βορβόρω	βόρβορος	v	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	14	ADV	_	t_260|t_255|ref=Ep.Hipp._3
+20	πλῆρες	πλήρης	a	a-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_261|t_262|ref=Ep.Hipp._3
+21	ἐγχέας	ἐγχύνω	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_262|t_260|ref=Ep.Hipp._3
+22	καθαρὸν	καθαρός	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_263|t_264|ref=Ep.Hipp._3
+23	καὶ	καί	c	c--------	_	25	COORD	_	t_264|t_266|ref=Ep.Hipp._3
+24	διειδὲς	διειδής	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_265|t_264|ref=Ep.Hipp._3
+25	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	19	SBJ	_	t_266|t_260|ref=Ep.Hipp._3
+26	τόν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	28	ATR	_	t_267|t_269|ref=Ep.Hipp._3
+27	τε	τε	d	d--------	_	30	AuxY	_	t_268|t_271|ref=Ep.Hipp._3
+28	βόρβορον	βόρβορος	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_269|t_270|ref=Ep.Hipp._3
+29	ἀνετάραξε	ἀναταράσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	30	ADV	_	t_270|t_271|ref=Ep.Hipp._3
+30	καὶ	καί	c	c--------	_	13	COORD	_	t_271|t_254|ref=Ep.Hipp._3
+31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_272|t_273|ref=Ep.Hipp._3
+32	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	33	OBJ	_	t_273|t_274|ref=Ep.Hipp._3
+33	ἀφάνιξεν	ἀφανίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	30	ADV	_	t_274|t_271|ref=Ep.Hipp._3
+34	[0]	[0]	-	---------	_	13	ADV	_	e_5|t_254|ref=Ep.Hipp._1
+35	.	.	u	u--------	_	1	AuxK	_	t_275|t_242|ref=Ep.Hipp._3
 
-# source = Lysis, Epistula ad Hipparchum 3
+# source = Lysis, Ep.Hipp. 3
 # text = ὁ αὐτὸς δὴ τρόπος τῶν οὕτω διδασκόντων τε καὶ διδασκομένων [0] ·
 # sent_id = 13
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_276|ref=Epistula ad Hipparchum_3
-2	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_277|ref=Epistula ad Hipparchum_3
-3	δὴ	δή	d	d--------	_	11	AuxY	_	t_278|ref=Epistula ad Hipparchum_3
-4	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_279|ref=Epistula ad Hipparchum_3
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_280|ref=Epistula ad Hipparchum_3
-6	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_281|ref=Epistula ad Hipparchum_3
-7	διδασκόντων	διδάσκω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ATR	_	t_282|ref=Epistula ad Hipparchum_3
-8	τε	τε	c	c--------	_	9	AuxY	_	t_283|ref=Epistula ad Hipparchum_3
-9	καὶ	καί	c	c--------	_	4	COORD	_	t_284|ref=Epistula ad Hipparchum_3
-10	διδασκομένων	διδάσκω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_285|ref=Epistula ad Hipparchum_3
-11	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Epistula ad Hipparchum_1
-12	·	·	u	u--------	_	11	AuxK	_	t_286|ref=Epistula ad Hipparchum_3
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_276|t_279|ref=Ep.Hipp._3
+2	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_277|t_279|ref=Ep.Hipp._3
+3	δὴ	δή	d	d--------	_	11	AuxY	_	t_278|e_6|ref=Ep.Hipp._3
+4	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_279|e_6|ref=Ep.Hipp._3
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_280|t_282|ref=Ep.Hipp._3
+6	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_281|t_284|ref=Ep.Hipp._3
+7	διδασκόντων	διδάσκω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ATR	_	t_282|t_284|ref=Ep.Hipp._3
+8	τε	τε	c	c--------	_	9	AuxY	_	t_283|t_284|ref=Ep.Hipp._3
+9	καὶ	καί	c	c--------	_	4	COORD	_	t_284|t_279|ref=Ep.Hipp._3
+10	διδασκομένων	διδάσκω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_285|t_284|ref=Ep.Hipp._3
+11	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Ep.Hipp._1
+12	·	·	u	u--------	_	11	AuxK	_	t_286|e_6|ref=Ep.Hipp._3
 
-# source = Lysis, Epistula ad Hipparchum 3-4
+# source = Lysis, Ep.Hipp. 3-4
 # text = ( 4 ) πυκναὶ γὰρ καὶ δασεῖαι λόχμαι περὶ τὰς φρένας καὶ τὰν καρδίαν πεφύκαντι τῶν μὴ καθαρῶς ὀργιασθέντων , πᾶν τὸ ἅμερον καὶ πρᾷον καὶ λογιστικὸν ἐπισκιάζουσαι καὶ κωλύουσαι προφανῆμεν αὐξηθέν .
 # sent_id = 14
-1	(	̔	u	u--------	_	31	AuxG	_	t_287|ref=Epistula ad Hipparchum_3
-2	4	4	n	n-s---mv-	_	31	ExD	_	t_288|ref=Epistula ad Hipparchum_3
-3	)	)	u	u--------	_	31	AuxG	_	t_289|ref=Epistula ad Hipparchum_3
-4	πυκναὶ	πυκνός	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_290|ref=Epistula ad Hipparchum_3
-5	γὰρ	γάρ	d	d--------	_	31	AuxY	_	t_291|ref=Epistula ad Hipparchum_3
-6	καὶ	καί	c	c--------	_	8	COORD	_	t_292|ref=Epistula ad Hipparchum_3
-7	δασεῖαι	δασύς	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_293|ref=Epistula ad Hipparchum_4
-8	λόχμαι	λόχμη	n	n-p---fn-	Case=n|Gender=f|Number=p	31	SBJ	_	t_294|ref=Epistula ad Hipparchum_4
-9	περὶ	περί	r	r--------	_	15	AuxP	_	t_295|ref=Epistula ad Hipparchum_4
-10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_296|ref=Epistula ad Hipparchum_4
-11	φρένας	φρήν	n	n-p---fa-	Case=a|Gender=f|Number=p	12	ADV	_	t_297|ref=Epistula ad Hipparchum_4
-12	καὶ	καί	c	c--------	_	9	COORD	_	t_298|ref=Epistula ad Hipparchum_4
-13	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_299|ref=Epistula ad Hipparchum_4
-14	καρδίαν	καρδία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_300|ref=Epistula ad Hipparchum_4
-15	πεφύκαντι	φύω	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	31	ADV	_	t_301|ref=Epistula ad Hipparchum_4
-16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_302|ref=Epistula ad Hipparchum_4
-17	μὴ	μή	d	d--------	_	18	AuxZ	_	t_303|ref=Epistula ad Hipparchum_4
-18	καθαρῶς	καθαρός	d	d--------	_	19	ADV	_	t_304|ref=Epistula ad Hipparchum_4
-19	ὀργιασθέντων	ὀργιάζω	v	v-pappmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	8	ATR	_	t_305|ref=Epistula ad Hipparchum_4
-20	,	,	u	u--------	_	31	AuxX	_	t_306|ref=Epistula ad Hipparchum_4
-21	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_307|ref=Epistula ad Hipparchum_4
-22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_308|ref=Epistula ad Hipparchum_4
-23	ἅμερον	ἅμερος	a	a-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_309|ref=Epistula ad Hipparchum_4
-24	καὶ	καί	c	c--------	_	26	AuxY	_	t_310|ref=Epistula ad Hipparchum_4
-25	πρᾷον	πρᾶος	a	a-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_311|ref=Epistula ad Hipparchum_4
-26	καὶ	καί	c	c--------	_	28	COORD	_	t_312|ref=Epistula ad Hipparchum_4
-27	λογιστικὸν	λογιστικός	a	a-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_313|ref=Epistula ad Hipparchum_4
-28	ἐπισκιάζουσαι	ἐπισκιάζω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	29	ADV	_	t_314|ref=Epistula ad Hipparchum_4
-29	καὶ	καί	c	c--------	_	31	COORD	_	t_315|ref=Epistula ad Hipparchum_4
-30	κωλύουσαι	κωλύω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	29	ADV	_	t_316|ref=Epistula ad Hipparchum_4
-31	προφανῆμεν	προφαίνω	v	v1pasp---	Mood=s|Number=p|Person=1|Tense=a|Voice=p	0	PRED	_	t_317|ref=Epistula ad Hipparchum_4
-32	αὐξηθέν	αὐξάνω	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	31	OBJ	_	t_318|ref=Epistula ad Hipparchum_4
-33	.	.	u	u--------	_	31	AuxK	_	t_319|ref=Epistula ad Hipparchum_4
+1	(	̔	u	u--------	_	31	AuxG	_	t_287|t_317|ref=Ep.Hipp._3
+2	4	4	n	n-s---mv-	_	31	ExD	_	t_288|t_317|ref=Ep.Hipp._3
+3	)	)	u	u--------	_	31	AuxG	_	t_289|t_317|ref=Ep.Hipp._3
+4	πυκναὶ	πυκνός	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_290|t_292|ref=Ep.Hipp._3
+5	γὰρ	γάρ	d	d--------	_	31	AuxY	_	t_291|t_317|ref=Ep.Hipp._3
+6	καὶ	καί	c	c--------	_	8	COORD	_	t_292|t_294|ref=Ep.Hipp._3
+7	δασεῖαι	δασύς	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_293|t_292|ref=Ep.Hipp._4
+8	λόχμαι	λόχμη	n	n-p---fn-	Case=n|Gender=f|Number=p	31	SBJ	_	t_294|t_317|ref=Ep.Hipp._4
+9	περὶ	περί	r	r--------	_	15	AuxP	_	t_295|t_301|ref=Ep.Hipp._4
+10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_296|t_297|ref=Ep.Hipp._4
+11	φρένας	φρήν	n	n-p---fa-	Case=a|Gender=f|Number=p	12	ADV	_	t_297|t_298|ref=Ep.Hipp._4
+12	καὶ	καί	c	c--------	_	9	COORD	_	t_298|t_295|ref=Ep.Hipp._4
+13	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_299|t_300|ref=Ep.Hipp._4
+14	καρδίαν	καρδία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_300|t_298|ref=Ep.Hipp._4
+15	πεφύκαντι	φύω	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	31	ADV	_	t_301|t_317|ref=Ep.Hipp._4
+16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_302|t_305|ref=Ep.Hipp._4
+17	μὴ	μή	d	d--------	_	18	AuxZ	_	t_303|t_304|ref=Ep.Hipp._4
+18	καθαρῶς	καθαρός	d	d--------	_	19	ADV	_	t_304|t_305|ref=Ep.Hipp._4
+19	ὀργιασθέντων	ὀργιάζω	v	v-pappmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	8	ATR	_	t_305|t_294|ref=Ep.Hipp._4
+20	,	,	u	u--------	_	31	AuxX	_	t_306|t_317|ref=Ep.Hipp._4
+21	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_307|t_309|ref=Ep.Hipp._4
+22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_308|t_309|ref=Ep.Hipp._4
+23	ἅμερον	ἅμερος	a	a-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_309|t_312|ref=Ep.Hipp._4
+24	καὶ	καί	c	c--------	_	26	AuxY	_	t_310|t_312|ref=Ep.Hipp._4
+25	πρᾷον	πρᾶος	a	a-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_311|t_312|ref=Ep.Hipp._4
+26	καὶ	καί	c	c--------	_	28	COORD	_	t_312|t_314|ref=Ep.Hipp._4
+27	λογιστικὸν	λογιστικός	a	a-s---na-	Case=a|Gender=n|Number=s	26	OBJ	_	t_313|t_312|ref=Ep.Hipp._4
+28	ἐπισκιάζουσαι	ἐπισκιάζω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	29	ADV	_	t_314|t_315|ref=Ep.Hipp._4
+29	καὶ	καί	c	c--------	_	31	COORD	_	t_315|t_317|ref=Ep.Hipp._4
+30	κωλύουσαι	κωλύω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	29	ADV	_	t_316|t_315|ref=Ep.Hipp._4
+31	προφανῆμεν	προφαίνω	v	v1pasp---	Mood=s|Number=p|Person=1|Tense=a|Voice=p	0	PRED	_	t_317|0|ref=Ep.Hipp._4
+32	αὐξηθέν	αὐξάνω	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	31	OBJ	_	t_318|t_317|ref=Ep.Hipp._4
+33	.	.	u	u--------	_	31	AuxK	_	t_319|t_317|ref=Ep.Hipp._4
 
-# source = Lysis, Epistula ad Hipparchum 4
+# source = Lysis, Ep.Hipp. 4
 # text = ἐγκαταδεδύκαντι δὲ τῷ δάσει τούτῳ παντοῖαι κακότατες ἐκβοσκόμεναι καὶ μηδαμῶς ἐῶσαι προκύψαι τὸν λόγον .
 # sent_id = 15
-1	ἐγκαταδεδύκαντι	ἐγκαταδύομαι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	ADV	_	t_320|ref=Epistula ad Hipparchum_4
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_321|ref=Epistula ad Hipparchum_4
-3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_322|ref=Epistula ad Hipparchum_4
-4	δάσει	δάω	n	n-s---nd-	Case=d|Gender=n|Number=s	1	OBJ	_	t_323|ref=Epistula ad Hipparchum_4
-5	τούτῳ	οὗτος	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_324|ref=Epistula ad Hipparchum_4
-6	παντοῖαι	παντοῖος	a	a-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_325|ref=Epistula ad Hipparchum_4
-7	κακότατες	κακός	a	a-p---fns	Case=n|Degree=s|Gender=f|Number=p	9	SBJ	_	t_326|ref=Epistula ad Hipparchum_4
-8	ἐκβοσκόμεναι	ἐκβοσκάω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	9	ADV	_	t_327|ref=Epistula ad Hipparchum_4
-9	καὶ	καί	c	c--------	_	0	COORD	_	t_328|ref=Epistula ad Hipparchum_4
-10	μηδαμῶς	μηδαμῶς	d	d--------	_	11	AuxZ	_	t_329|ref=Epistula ad Hipparchum_4
-11	ἐῶσαι	ἐάω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	9	PNOM	_	t_330|ref=Epistula ad Hipparchum_4
-12	προκύψαι	προκύπτω	v	v--ana---	Mood=n|Tense=a|Voice=a	11	OBJ	_	t_331|ref=Epistula ad Hipparchum_4
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_332|ref=Epistula ad Hipparchum_4
-14	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_333|ref=Epistula ad Hipparchum_4
-15	.	.	u	u--------	_	9	AuxK	_	t_334|ref=Epistula ad Hipparchum_4
+1	ἐγκαταδεδύκαντι	ἐγκαταδύομαι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	ADV	_	t_320|t_328|ref=Ep.Hipp._4
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_321|t_328|ref=Ep.Hipp._4
+3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_322|t_323|ref=Ep.Hipp._4
+4	δάσει	δάω	n	n-s---nd-	Case=d|Gender=n|Number=s	1	OBJ	_	t_323|t_320|ref=Ep.Hipp._4
+5	τούτῳ	οὗτος	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_324|t_323|ref=Ep.Hipp._4
+6	παντοῖαι	παντοῖος	a	a-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_325|t_326|ref=Ep.Hipp._4
+7	κακότατες	κακός	a	a-p---fns	Case=n|Degree=s|Gender=f|Number=p	9	SBJ	_	t_326|t_328|ref=Ep.Hipp._4
+8	ἐκβοσκόμεναι	ἐκβοσκάω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	9	ADV	_	t_327|t_328|ref=Ep.Hipp._4
+9	καὶ	καί	c	c--------	_	0	COORD	_	t_328|0|ref=Ep.Hipp._4
+10	μηδαμῶς	μηδαμῶς	d	d--------	_	11	AuxZ	_	t_329|t_330|ref=Ep.Hipp._4
+11	ἐῶσαι	ἐάω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	9	PNOM	_	t_330|t_328|ref=Ep.Hipp._4
+12	προκύψαι	προκύπτω	v	v--ana---	Mood=n|Tense=a|Voice=a	11	OBJ	_	t_331|t_330|ref=Ep.Hipp._4
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_332|t_333|ref=Ep.Hipp._4
+14	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_333|t_331|ref=Ep.Hipp._4
+15	.	.	u	u--------	_	9	AuxK	_	t_334|t_328|ref=Ep.Hipp._4
 
-# source = Lysis, Epistula ad Hipparchum 4
+# source = Lysis, Ep.Hipp. 4
 # text = ὀνομάξαιμι δʼ ἂν αὐτῶν πρᾶτον ἐπελθὼν τὰς ματέρας , ἀκρασίαν τε καὶ πλεονεξίαν ·
 # sent_id = 16
-1	ὀνομάξαιμι	ὀνομάζω	v	v1saoa---	Mood=o|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_335|ref=Epistula ad Hipparchum_4
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_336|ref=Epistula ad Hipparchum_4
-3	ἂν	ἄν	d	d--------	_	1	AuxY	_	t_337|ref=Epistula ad Hipparchum_4
-4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_338|ref=Epistula ad Hipparchum_4
-5	πρᾶτον	πρᾶτος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	1	ADV	_	t_339|ref=Epistula ad Hipparchum_4
-6	ἐπελθὼν	ἐπέρχομαι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ADV	_	t_340|ref=Epistula ad Hipparchum_4
-7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_341|ref=Epistula ad Hipparchum_4
-8	ματέρας	μήτηρ	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_342|ref=Epistula ad Hipparchum_4
-9	,	,	u	u--------	_	1	APOS	_	t_343|ref=Epistula ad Hipparchum_4
-10	ἀκρασίαν	ἀκρασία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_344|ref=Epistula ad Hipparchum_4
-11	τε	τε	d	d--------	_	12	AuxY	_	t_345|ref=Epistula ad Hipparchum_4
-12	καὶ	καί	c	c--------	_	9	COORD	_	t_346|ref=Epistula ad Hipparchum_4
-13	πλεονεξίαν	πλεονεξία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_347|ref=Epistula ad Hipparchum_4
-14	·	·	u	u--------	_	1	AuxK	_	t_348|ref=Epistula ad Hipparchum_4
+1	ὀνομάξαιμι	ὀνομάζω	v	v1saoa---	Mood=o|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_335|0|ref=Ep.Hipp._4
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_336|t_335|ref=Ep.Hipp._4
+3	ἂν	ἄν	d	d--------	_	1	AuxY	_	t_337|t_335|ref=Ep.Hipp._4
+4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_338|t_339|ref=Ep.Hipp._4
+5	πρᾶτον	πρᾶτος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	1	ADV	_	t_339|t_335|ref=Ep.Hipp._4
+6	ἐπελθὼν	ἐπέρχομαι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ADV	_	t_340|t_335|ref=Ep.Hipp._4
+7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_341|t_342|ref=Ep.Hipp._4
+8	ματέρας	μήτηρ	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_342|t_343|ref=Ep.Hipp._4
+9	,	,	u	u--------	_	1	APOS	_	t_343|t_335|ref=Ep.Hipp._4
+10	ἀκρασίαν	ἀκρασία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_344|t_346|ref=Ep.Hipp._4
+11	τε	τε	d	d--------	_	12	AuxY	_	t_345|t_346|ref=Ep.Hipp._4
+12	καὶ	καί	c	c--------	_	9	COORD	_	t_346|t_343|ref=Ep.Hipp._4
+13	πλεονεξίαν	πλεονεξία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_347|t_346|ref=Ep.Hipp._4
+14	·	·	u	u--------	_	1	AuxK	_	t_348|t_335|ref=Ep.Hipp._4
 
-# source = Lysis, Epistula ad Hipparchum 4
+# source = Lysis, Ep.Hipp. 4
 # text = ἄμφω δὲ πολύγονοι πεφύκαντι .
 # sent_id = 17
-1	ἄμφω	ἄμφω	a	a-d---mn-	Case=n|Gender=m|Number=d	4	SBJ	_	t_349|ref=Epistula ad Hipparchum_4
-2	δὲ	δέ	g	g--------	_	4	AuxY	_	t_350|ref=Epistula ad Hipparchum_4
-3	πολύγονοι	πολύγονος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_351|ref=Epistula ad Hipparchum_4
-4	πεφύκαντι	φύω	v	n-d---mn-	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_352|ref=Epistula ad Hipparchum_4
-5	.	.	u	u--------	_	4	AuxK	_	t_353|ref=Epistula ad Hipparchum_4
+1	ἄμφω	ἄμφω	a	a-d---mn-	Case=n|Gender=m|Number=d	4	SBJ	_	t_349|t_352|ref=Ep.Hipp._4
+2	δὲ	δέ	g	g--------	_	4	AuxY	_	t_350|t_352|ref=Ep.Hipp._4
+3	πολύγονοι	πολύγονος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_351|t_352|ref=Ep.Hipp._4
+4	πεφύκαντι	φύω	v	n-d---mn-	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_352|0|ref=Ep.Hipp._4
+5	.	.	u	u--------	_	4	AuxK	_	t_353|t_352|ref=Ep.Hipp._4
 
-# source = Lysis, Epistula ad Hipparchum 4-5
+# source = Lysis, Ep.Hipp. 4-5
 # text = ( 5 ) τὰς μὲν ὦν ἀκρασίας ἐξεβλάστασαν ἄθεσμοι γάμοι καὶμέθαι καὶ φθοραὶ καὶ παρὰ φύσιν ἁδοναὶ καὶ σφοδραί τινες ὁρμαὶ μέχρι βαράθρων καὶ κρημνῶν ἐκδιώκουσαι ·
 # sent_id = 18
-1	(	̔	u	u--------	_	8	AuxG	_	t_354|ref=Epistula ad Hipparchum_4
-2	5	5	n	n-s---mv-	_	8	ExD	_	t_355|ref=Epistula ad Hipparchum_4
-3	)	)	u	u--------	_	8	AuxG	_	t_356|ref=Epistula ad Hipparchum_4
-4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_357|ref=Epistula ad Hipparchum_4
-5	μὲν	μέν	d	d--------	_	8	AuxY	_	t_358|ref=Epistula ad Hipparchum_4
-6	ὦν	οὖν	g	g--------	_	8	AuxY	_	t_359|ref=Epistula ad Hipparchum_4
-7	ἀκρασίας	ἀκρασία	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_360|ref=Epistula ad Hipparchum_5
-8	ἐξεβλάστασαν	ἐκφθάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_361|ref=Epistula ad Hipparchum_5
-9	ἄθεσμοι	ἄνομος	a	a-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_362|ref=Epistula ad Hipparchum_5
-10	γάμοι	γάμος	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_363|ref=Epistula ad Hipparchum_5
-11	καὶμέθαι	καί	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_364|ref=Epistula ad Hipparchum_5
-12	καὶ	καί	c	c--------	_	18	AuxY	_	t_365|ref=Epistula ad Hipparchum_5
-13	φθοραὶ	φθορά	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_366|ref=Epistula ad Hipparchum_5
-14	καὶ	καί	c	c--------	_	18	AuxY	_	t_367|ref=Epistula ad Hipparchum_5
-15	παρὰ	παρά	r	r--------	_	17	AuxP	_	t_368|ref=Epistula ad Hipparchum_5
-16	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_369|ref=Epistula ad Hipparchum_5
-17	ἁδοναὶ	ἡδονή	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_370|ref=Epistula ad Hipparchum_5
-18	καὶ	καί	c	c--------	_	8	COORD	_	t_371|ref=Epistula ad Hipparchum_5
-19	σφοδραί	σφοδρός	n	n-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_372|ref=Epistula ad Hipparchum_5
-20	τινες	τις	a	a-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_373|ref=Epistula ad Hipparchum_5
-21	ὁρμαὶ	ὁρμή	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_374|ref=Epistula ad Hipparchum_5
-22	μέχρι	μέχρι	r	r--------	_	26	AuxP	_	t_375|ref=Epistula ad Hipparchum_5
-23	βαράθρων	βάραθρον	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ADV	_	t_376|ref=Epistula ad Hipparchum_5
-24	καὶ	καί	c	c--------	_	22	COORD	_	t_377|ref=Epistula ad Hipparchum_5
-25	κρημνῶν	κρημνός	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ADV	_	t_378|ref=Epistula ad Hipparchum_5
-26	ἐκδιώκουσαι	ἐκδιώκω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	21	ATR	_	t_379|ref=Epistula ad Hipparchum_5
-27	·	·	u	u--------	_	8	AuxK	_	t_380|ref=Epistula ad Hipparchum_5
+1	(	̔	u	u--------	_	8	AuxG	_	t_354|t_361|ref=Ep.Hipp._4
+2	5	5	n	n-s---mv-	_	8	ExD	_	t_355|t_361|ref=Ep.Hipp._4
+3	)	)	u	u--------	_	8	AuxG	_	t_356|t_361|ref=Ep.Hipp._4
+4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_357|t_361|ref=Ep.Hipp._4
+5	μὲν	μέν	d	d--------	_	8	AuxY	_	t_358|t_361|ref=Ep.Hipp._4
+6	ὦν	οὖν	g	g--------	_	8	AuxY	_	t_359|t_361|ref=Ep.Hipp._4
+7	ἀκρασίας	ἀκρασία	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_360|t_361|ref=Ep.Hipp._5
+8	ἐξεβλάστασαν	ἐκφθάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_361|0|ref=Ep.Hipp._5
+9	ἄθεσμοι	ἄνομος	a	a-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_362|t_363|ref=Ep.Hipp._5
+10	γάμοι	γάμος	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_363|t_371|ref=Ep.Hipp._5
+11	καὶμέθαι	καί	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_364|t_371|ref=Ep.Hipp._5
+12	καὶ	καί	c	c--------	_	18	AuxY	_	t_365|t_371|ref=Ep.Hipp._5
+13	φθοραὶ	φθορά	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_366|t_371|ref=Ep.Hipp._5
+14	καὶ	καί	c	c--------	_	18	AuxY	_	t_367|t_371|ref=Ep.Hipp._5
+15	παρὰ	παρά	r	r--------	_	17	AuxP	_	t_368|t_370|ref=Ep.Hipp._5
+16	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_369|t_368|ref=Ep.Hipp._5
+17	ἁδοναὶ	ἡδονή	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_370|t_371|ref=Ep.Hipp._5
+18	καὶ	καί	c	c--------	_	8	COORD	_	t_371|t_361|ref=Ep.Hipp._5
+19	σφοδραί	σφοδρός	n	n-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_372|t_374|ref=Ep.Hipp._5
+20	τινες	τις	a	a-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_373|t_374|ref=Ep.Hipp._5
+21	ὁρμαὶ	ὁρμή	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_374|t_371|ref=Ep.Hipp._5
+22	μέχρι	μέχρι	r	r--------	_	26	AuxP	_	t_375|t_379|ref=Ep.Hipp._5
+23	βαράθρων	βάραθρον	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ADV	_	t_376|t_377|ref=Ep.Hipp._5
+24	καὶ	καί	c	c--------	_	22	COORD	_	t_377|t_375|ref=Ep.Hipp._5
+25	κρημνῶν	κρημνός	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ADV	_	t_378|t_377|ref=Ep.Hipp._5
+26	ἐκδιώκουσαι	ἐκδιώκω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	21	ATR	_	t_379|t_374|ref=Ep.Hipp._5
+27	·	·	u	u--------	_	8	AuxK	_	t_380|t_361|ref=Ep.Hipp._5
 
-# source = Lysis, Epistula ad Hipparchum 5
+# source = Lysis, Ep.Hipp. 5
 # text = ἤδη γάρ τινας ἀνάγκαξαν ἐπιθυμίαι μή τε ματέρων μή τε θυγατέρων ἀποσχέσθαι , καὶ δὴ παρωσάμεναι πόλιν καὶ νόμως κατὰ τύραννον περιαγαγῶσαι τὼς ἀγκῶνας , ὡς αἰχμαλώτω [0] ;
 # sent_id = 19
-1	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_381|ref=Epistula ad Hipparchum_5
-2	γάρ	γάρ	d	d--------	_	4	AuxY	_	t_382|ref=Epistula ad Hipparchum_5
-3	τινας	τις	a	a-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_383|ref=Epistula ad Hipparchum_5
-4	ἀνάγκαξαν	ἀναγκάζω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_384|ref=Epistula ad Hipparchum_5
-5	ἐπιθυμίαι	ἐπιθυμία	n	n-s---fd-	Case=d|Gender=f|Number=s	4	SBJ	_	t_385|ref=Epistula ad Hipparchum_5
-6	μή	μή	d	d--------	_	8	AuxZ	_	t_386|ref=Epistula ad Hipparchum_5
-7	τε	τε	d	d--------	_	10	AuxY	_	t_387|ref=Epistula ad Hipparchum_5
-8	ματέρων	μήτηρ	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_388|ref=Epistula ad Hipparchum_5
-9	μή	μή	d	d--------	_	10	AuxY	_	t_389|ref=Epistula ad Hipparchum_5
-10	τε	τε	c	c--------	_	5	COORD	_	t_390|ref=Epistula ad Hipparchum_5
-11	θυγατέρων	θυγάτηρ	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_391|ref=Epistula ad Hipparchum_5
-12	ἀποσχέσθαι	ἀπέχω	v	v--anm---	Mood=n|Tense=a|Voice=m	14	OBJ	_	t_392|ref=Epistula ad Hipparchum_5
-13	,	,	u	u--------	_	4	AuxX	_	t_393|ref=Epistula ad Hipparchum_5
-14	καὶ	καί	c	c--------	_	4	COORD	_	t_394|ref=Epistula ad Hipparchum_5
-15	δὴ	δή	d	d--------	_	18	AuxY	_	t_395|ref=Epistula ad Hipparchum_5
-16	παρωσάμεναι	παρόω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	18	ADV	_	t_396|ref=Epistula ad Hipparchum_5
-17	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_397|ref=Epistula ad Hipparchum_5
-18	καὶ	καί	c	c--------	_	22	COORD	_	t_398|ref=Epistula ad Hipparchum_5
-19	νόμως	νόμος	n	n-s---mg-	_	22	ADV	_	t_399|ref=Epistula ad Hipparchum_5
-20	κατὰ	κατά	r	r--------	_	22	AuxP	_	t_400|ref=Epistula ad Hipparchum_5
-21	τύραννον	τύραννος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	ADV	_	t_401|ref=Epistula ad Hipparchum_5
-22	περιαγαγῶσαι	περιάγω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	SBJ	_	t_402|ref=Epistula ad Hipparchum_5
-23	τὼς	τώς	l	l-p---ma-	Case=a|Gender=m|Number=p	24	ATR	_	t_403|ref=Epistula ad Hipparchum_5
-24	ἀγκῶνας	ἀγκών	n	n-p---ma-	Case=a|Gender=m|Number=p	22	OBJ	_	t_404|ref=Epistula ad Hipparchum_5
-25	,	,	u	u--------	_	4	AuxX	_	t_405|ref=Epistula ad Hipparchum_5
-26	ὡς	ὡς	c	c--------	_	22	AuxC	_	t_406|ref=Epistula ad Hipparchum_5
-27	αἰχμαλώτω	αἰχμάλωτος	a	a-d---mn-	Mood=m|Number=s|Person=3|Tense=p|Voice=a	28	PNOM	_	t_407|ref=Epistula ad Hipparchum_5
-28	[0]	[0]	-	---------	_	26	ADV	_	e_7|ref=Epistula ad Hipparchum_1
-29	;	;	u	u--------	_	4	AuxK	_	t_408|ref=Epistula ad Hipparchum_5
+1	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_381|t_384|ref=Ep.Hipp._5
+2	γάρ	γάρ	d	d--------	_	4	AuxY	_	t_382|t_384|ref=Ep.Hipp._5
+3	τινας	τις	a	a-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_383|t_385|ref=Ep.Hipp._5
+4	ἀνάγκαξαν	ἀναγκάζω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_384|0|ref=Ep.Hipp._5
+5	ἐπιθυμίαι	ἐπιθυμία	n	n-s---fd-	Case=d|Gender=f|Number=s	4	SBJ	_	t_385|t_384|ref=Ep.Hipp._5
+6	μή	μή	d	d--------	_	8	AuxZ	_	t_386|t_388|ref=Ep.Hipp._5
+7	τε	τε	d	d--------	_	10	AuxY	_	t_387|t_390|ref=Ep.Hipp._5
+8	ματέρων	μήτηρ	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_388|t_390|ref=Ep.Hipp._5
+9	μή	μή	d	d--------	_	10	AuxY	_	t_389|t_390|ref=Ep.Hipp._5
+10	τε	τε	c	c--------	_	5	COORD	_	t_390|t_385|ref=Ep.Hipp._5
+11	θυγατέρων	θυγάτηρ	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_391|t_390|ref=Ep.Hipp._5
+12	ἀποσχέσθαι	ἀπέχω	v	v--anm---	Mood=n|Tense=a|Voice=m	14	OBJ	_	t_392|t_394|ref=Ep.Hipp._5
+13	,	,	u	u--------	_	4	AuxX	_	t_393|t_384|ref=Ep.Hipp._5
+14	καὶ	καί	c	c--------	_	4	COORD	_	t_394|t_384|ref=Ep.Hipp._5
+15	δὴ	δή	d	d--------	_	18	AuxY	_	t_395|t_398|ref=Ep.Hipp._5
+16	παρωσάμεναι	παρόω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	18	ADV	_	t_396|t_398|ref=Ep.Hipp._5
+17	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_397|t_396|ref=Ep.Hipp._5
+18	καὶ	καί	c	c--------	_	22	COORD	_	t_398|t_402|ref=Ep.Hipp._5
+19	νόμως	νόμος	n	n-s---mg-	_	22	ADV	_	t_399|t_402|ref=Ep.Hipp._5
+20	κατὰ	κατά	r	r--------	_	22	AuxP	_	t_400|t_402|ref=Ep.Hipp._5
+21	τύραννον	τύραννος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	ADV	_	t_401|t_400|ref=Ep.Hipp._5
+22	περιαγαγῶσαι	περιάγω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	SBJ	_	t_402|t_394|ref=Ep.Hipp._5
+23	τὼς	τώς	l	l-p---ma-	Case=a|Gender=m|Number=p	24	ATR	_	t_403|t_404|ref=Ep.Hipp._5
+24	ἀγκῶνας	ἀγκών	n	n-p---ma-	Case=a|Gender=m|Number=p	22	OBJ	_	t_404|t_402|ref=Ep.Hipp._5
+25	,	,	u	u--------	_	4	AuxX	_	t_405|t_384|ref=Ep.Hipp._5
+26	ὡς	ὡς	c	c--------	_	22	AuxC	_	t_406|t_402|ref=Ep.Hipp._5
+27	αἰχμαλώτω	αἰχμάλωτος	a	a-d---mn-	Mood=m|Number=s|Person=3|Tense=p|Voice=a	28	PNOM	_	t_407|e_7|ref=Ep.Hipp._5
+28	[0]	[0]	-	---------	_	26	ADV	_	e_7|t_406|ref=Ep.Hipp._1
+29	;	;	u	u--------	_	4	AuxK	_	t_408|t_384|ref=Ep.Hipp._5
 
-# source = Lysis, Epistula ad Hipparchum 5
+# source = Lysis, Ep.Hipp. 5
 # text = ἐπὶ τὸν ἔσχατον ὄλεθρον μετὰ βίας ἄγουσαι κατέστασαν .
 # sent_id = 20
-1	ἐπὶ	ἐπί	r	r--------	_	8	AuxP	_	t_409|ref=Epistula ad Hipparchum_5
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_410|ref=Epistula ad Hipparchum_5
-3	ἔσχατον	ἔσχατος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_411|ref=Epistula ad Hipparchum_5
-4	ὄλεθρον	ὄλεθρος	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_412|ref=Epistula ad Hipparchum_5
-5	μετὰ	μετά	r	r--------	_	7	AuxP	_	t_413|ref=Epistula ad Hipparchum_5
-6	βίας	βία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_414|ref=Epistula ad Hipparchum_5
-7	ἄγουσαι	ἄγω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_415|ref=Epistula ad Hipparchum_5
-8	κατέστασαν	καθίστημι	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	PRED	_	t_416|ref=Epistula ad Hipparchum_5
-9	.	.	u	u--------	_	8	AuxK	_	t_417|ref=Epistula ad Hipparchum_5
+1	ἐπὶ	ἐπί	r	r--------	_	8	AuxP	_	t_409|t_416|ref=Ep.Hipp._5
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_410|t_412|ref=Ep.Hipp._5
+3	ἔσχατον	ἔσχατος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_411|t_412|ref=Ep.Hipp._5
+4	ὄλεθρον	ὄλεθρος	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_412|t_409|ref=Ep.Hipp._5
+5	μετὰ	μετά	r	r--------	_	7	AuxP	_	t_413|t_415|ref=Ep.Hipp._5
+6	βίας	βία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_414|t_413|ref=Ep.Hipp._5
+7	ἄγουσαι	ἄγω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_415|t_416|ref=Ep.Hipp._5
+8	κατέστασαν	καθίστημι	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	PRED	_	t_416|0|ref=Ep.Hipp._5
+9	.	.	u	u--------	_	8	AuxK	_	t_417|t_416|ref=Ep.Hipp._5
 
-# source = Lysis, Epistula ad Hipparchum 5
+# source = Lysis, Ep.Hipp. 5
 # text = τᾶς δὲ πλεονεξίας ἐκπεφύκαντι ἁρπαγαί τε καὶ λᾳστεῖαι , τροκτονίαι ἱεροσυλίαι φαρμακεῖαι , καὶ ὅσα τούτων ἀδελφά [0] .
 # sent_id = 21
-1	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_418|ref=Epistula ad Hipparchum_5
-2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_419|ref=Epistula ad Hipparchum_5
-3	πλεονεξίας	πλεονεξία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_420|ref=Epistula ad Hipparchum_5
-4	ἐκπεφύκαντι	ἐκφύω	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	18	ADV	_	t_421|ref=Epistula ad Hipparchum_5
-5	ἁρπαγαί	ἁρπαγή	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_422|ref=Epistula ad Hipparchum_5
-6	τε	τε	d	d--------	_	7	AuxY	_	t_423|ref=Epistula ad Hipparchum_5
-7	καὶ	καί	c	c--------	_	14	COORD	_	t_424|ref=Epistula ad Hipparchum_5
-8	λᾳστεῖαι	λᾳστεῖαι	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_425|ref=Epistula ad Hipparchum_5
-9	,	,	u	u--------	_	18	AuxX	_	t_426|ref=Epistula ad Hipparchum_5
-10	τροκτονίαι	τροκτονία	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_427|ref=Epistula ad Hipparchum_5
-11	ἱεροσυλίαι	ἱεροσυλία	n	n-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_428|ref=Epistula ad Hipparchum_5
-12	φαρμακεῖαι	φαρμακεία	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_429|ref=Epistula ad Hipparchum_5
-13	,	,	u	u--------	_	18	AuxX	_	t_430|ref=Epistula ad Hipparchum_5
-14	καὶ	καί	c	c--------	_	18	COORD	_	t_431|ref=Epistula ad Hipparchum_5
-15	ὅσα	ὅσος	a	a-p---nn-	Case=n|Gender=n|Number=p	17	ATR	_	t_432|ref=Epistula ad Hipparchum_5
-16	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_433|ref=Epistula ad Hipparchum_5
-17	ἀδελφά	ἀδελφή	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_434|ref=Epistula ad Hipparchum_5
-18	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Epistula ad Hipparchum_1
-19	.	.	u	u--------	_	18	AuxK	_	t_435|ref=Epistula ad Hipparchum_5
+1	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_418|t_420|ref=Ep.Hipp._5
+2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_419|e_8|ref=Ep.Hipp._5
+3	πλεονεξίας	πλεονεξία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_420|t_421|ref=Ep.Hipp._5
+4	ἐκπεφύκαντι	ἐκφύω	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	18	ADV	_	t_421|e_8|ref=Ep.Hipp._5
+5	ἁρπαγαί	ἁρπαγή	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_422|t_424|ref=Ep.Hipp._5
+6	τε	τε	d	d--------	_	7	AuxY	_	t_423|t_424|ref=Ep.Hipp._5
+7	καὶ	καί	c	c--------	_	14	COORD	_	t_424|t_431|ref=Ep.Hipp._5
+8	λᾳστεῖαι	λᾳστεῖαι	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_425|t_424|ref=Ep.Hipp._5
+9	,	,	u	u--------	_	18	AuxX	_	t_426|e_8|ref=Ep.Hipp._5
+10	τροκτονίαι	τροκτονία	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_427|t_431|ref=Ep.Hipp._5
+11	ἱεροσυλίαι	ἱεροσυλία	n	n-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_428|t_427|ref=Ep.Hipp._5
+12	φαρμακεῖαι	φαρμακεία	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_429|t_427|ref=Ep.Hipp._5
+13	,	,	u	u--------	_	18	AuxX	_	t_430|e_8|ref=Ep.Hipp._5
+14	καὶ	καί	c	c--------	_	18	COORD	_	t_431|e_8|ref=Ep.Hipp._5
+15	ὅσα	ὅσος	a	a-p---nn-	Case=n|Gender=n|Number=p	17	ATR	_	t_432|t_434|ref=Ep.Hipp._5
+16	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_433|t_434|ref=Ep.Hipp._5
+17	ἀδελφά	ἀδελφή	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_434|e_8|ref=Ep.Hipp._5
+18	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Ep.Hipp._1
+19	.	.	u	u--------	_	18	AuxK	_	t_435|e_8|ref=Ep.Hipp._5
 
-# source = Lysis, Epistula ad Hipparchum 5-6
+# source = Lysis, Ep.Hipp. 5-6
 # text = ( 6 ) δεῖ ὦν τόγε πρᾶτον τὰς ὕλας , ταῖς ἐνδιαιτῆται ταῦτα τὰ πάθη , πυρὶ καὶ σιδάρῳ καὶ πάσαις μαχαναῖς ἐκκαθάραντα καὶ ῥυσάμενον τὸν λογισμὸν ἐλεύθερον τῶν τοσούτων παθέων τὸ τηνικάδε ἐμφυτεύοντά τι χρηστὸν αὐτῷ παραδιδόμεν .
 # sent_id = 22
-1	(	̔	u	u--------	_	4	AuxG	_	t_436|ref=Epistula ad Hipparchum_5
-2	6	6	n	n-s---mv-	_	4	ExD	_	t_437|ref=Epistula ad Hipparchum_5
-3	)	)	u	u--------	_	4	AuxG	_	t_438|ref=Epistula ad Hipparchum_5
-4	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_439|ref=Epistula ad Hipparchum_5
-5	ὦν	οὖν	d	d--------	_	4	AuxY	_	t_440|ref=Epistula ad Hipparchum_5
-6	τόγε	τόγε	p	p-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_441|ref=Epistula ad Hipparchum_5
-7	πρᾶτον	πρᾶτος	v	v1siia---	Case=a|Gender=n|Number=s	4	ADV	_	t_442|ref=Epistula ad Hipparchum_5
-8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_443|ref=Epistula ad Hipparchum_5
-9	ὕλας	ὕλη	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_444|ref=Epistula ad Hipparchum_6
-10	,	,	u	u--------	_	4	AuxX	_	t_445|ref=Epistula ad Hipparchum_6
-11	ταῖς	ὁ	p	p-p---fd-	Case=d|Gender=f|Number=p	12	OBJ	_	t_446|ref=Epistula ad Hipparchum_6
-12	ἐνδιαιτῆται	ἐνδιαιτάομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	ATR	_	t_447|ref=Epistula ad Hipparchum_6
-13	ταῦτα	οὗτος	a	a-p---nn-	Case=n|Gender=n|Number=p	15	ATR	_	t_448|ref=Epistula ad Hipparchum_6
-14	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	ATR	_	t_449|ref=Epistula ad Hipparchum_6
-15	πάθη	πάθος	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_450|ref=Epistula ad Hipparchum_6
-16	,	,	u	u--------	_	4	AuxX	_	t_451|ref=Epistula ad Hipparchum_6
-17	πυρὶ	πῦρ	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_452|ref=Epistula ad Hipparchum_6
-18	καὶ	καί	d	d--------	_	20	AuxY	_	t_453|ref=Epistula ad Hipparchum_6
-19	σιδάρῳ	σιδάρος	n	n-s---md-	Case=d|Gender=m|Number=s	20	ADV	_	t_454|ref=Epistula ad Hipparchum_6
-20	καὶ	καί	c	c--------	_	23	COORD	_	t_455|ref=Epistula ad Hipparchum_6
-21	πάσαις	πᾶς	a	a-p---fd-	Case=d|Gender=f|Number=p	22	ATR	_	t_456|ref=Epistula ad Hipparchum_6
-22	μαχαναῖς	μηχανή	n	n-p---fd-	Case=d|Gender=f|Number=p	20	ADV	_	t_457|ref=Epistula ad Hipparchum_6
-23	ἐκκαθάραντα	ἐκκαθαίρω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	24	ADV	_	t_458|ref=Epistula ad Hipparchum_6
-24	καὶ	καί	c	c--------	_	38	COORD	_	t_459|ref=Epistula ad Hipparchum_6
-25	ῥυσάμενον	ῥύομαι	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	24	ADV	_	t_460|ref=Epistula ad Hipparchum_6
-26	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	27	ATR	_	t_461|ref=Epistula ad Hipparchum_6
-27	λογισμὸν	λογισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	25	OBJ	_	t_462|ref=Epistula ad Hipparchum_6
-28	ἐλεύθερον	ἐλεύθερος	a	a-s---ma-	Case=a|Gender=m|Number=s	27	ATR	_	t_463|ref=Epistula ad Hipparchum_6
-29	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_464|ref=Epistula ad Hipparchum_6
-30	τοσούτων	τοσοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_465|ref=Epistula ad Hipparchum_6
-31	παθέων	πάθος	n	n-p---ng-	Case=g|Gender=n|Number=p	28	ADV	_	t_466|ref=Epistula ad Hipparchum_6
-32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	33	ATR	_	t_467|ref=Epistula ad Hipparchum_6
-33	τηνικάδε	τηνικάδε	d	d--------	_	34	ADV	_	t_468|ref=Epistula ad Hipparchum_6
-34	ἐμφυτεύοντά	ἐμφυτεύω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	38	ADV	_	t_469|ref=Epistula ad Hipparchum_6
-35	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	38	OBJ	_	t_470|ref=Epistula ad Hipparchum_6
-36	χρηστὸν	χρηστός	a	a-s---na-	Case=a|Gender=n|Number=s	35	ATR	_	t_471|ref=Epistula ad Hipparchum_6
-37	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	38	OBJ	_	t_472|ref=Epistula ad Hipparchum_6
-38	παραδιδόμεν	παραδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	4	SBJ	_	t_473|ref=Epistula ad Hipparchum_6
-39	.	.	u	u--------	_	4	AuxK	_	t_474|ref=Epistula ad Hipparchum_6
+1	(	̔	u	u--------	_	4	AuxG	_	t_436|t_439|ref=Ep.Hipp._5
+2	6	6	n	n-s---mv-	_	4	ExD	_	t_437|t_439|ref=Ep.Hipp._5
+3	)	)	u	u--------	_	4	AuxG	_	t_438|t_439|ref=Ep.Hipp._5
+4	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_439|0|ref=Ep.Hipp._5
+5	ὦν	οὖν	d	d--------	_	4	AuxY	_	t_440|t_439|ref=Ep.Hipp._5
+6	τόγε	τόγε	p	p-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_441|t_439|ref=Ep.Hipp._5
+7	πρᾶτον	πρᾶτος	v	v1siia---	Case=a|Gender=n|Number=s	4	ADV	_	t_442|t_439|ref=Ep.Hipp._5
+8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_443|t_444|ref=Ep.Hipp._5
+9	ὕλας	ὕλη	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_444|t_442|ref=Ep.Hipp._6
+10	,	,	u	u--------	_	4	AuxX	_	t_445|t_439|ref=Ep.Hipp._6
+11	ταῖς	ὁ	p	p-p---fd-	Case=d|Gender=f|Number=p	12	OBJ	_	t_446|t_447|ref=Ep.Hipp._6
+12	ἐνδιαιτῆται	ἐνδιαιτάομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	ATR	_	t_447|t_444|ref=Ep.Hipp._6
+13	ταῦτα	οὗτος	a	a-p---nn-	Case=n|Gender=n|Number=p	15	ATR	_	t_448|t_450|ref=Ep.Hipp._6
+14	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	ATR	_	t_449|t_450|ref=Ep.Hipp._6
+15	πάθη	πάθος	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_450|t_447|ref=Ep.Hipp._6
+16	,	,	u	u--------	_	4	AuxX	_	t_451|t_439|ref=Ep.Hipp._6
+17	πυρὶ	πῦρ	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_452|t_455|ref=Ep.Hipp._6
+18	καὶ	καί	d	d--------	_	20	AuxY	_	t_453|t_455|ref=Ep.Hipp._6
+19	σιδάρῳ	σιδάρος	n	n-s---md-	Case=d|Gender=m|Number=s	20	ADV	_	t_454|t_455|ref=Ep.Hipp._6
+20	καὶ	καί	c	c--------	_	23	COORD	_	t_455|t_458|ref=Ep.Hipp._6
+21	πάσαις	πᾶς	a	a-p---fd-	Case=d|Gender=f|Number=p	22	ATR	_	t_456|t_457|ref=Ep.Hipp._6
+22	μαχαναῖς	μηχανή	n	n-p---fd-	Case=d|Gender=f|Number=p	20	ADV	_	t_457|t_455|ref=Ep.Hipp._6
+23	ἐκκαθάραντα	ἐκκαθαίρω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	24	ADV	_	t_458|t_459|ref=Ep.Hipp._6
+24	καὶ	καί	c	c--------	_	38	COORD	_	t_459|t_473|ref=Ep.Hipp._6
+25	ῥυσάμενον	ῥύομαι	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	24	ADV	_	t_460|t_459|ref=Ep.Hipp._6
+26	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	27	ATR	_	t_461|t_462|ref=Ep.Hipp._6
+27	λογισμὸν	λογισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	25	OBJ	_	t_462|t_460|ref=Ep.Hipp._6
+28	ἐλεύθερον	ἐλεύθερος	a	a-s---ma-	Case=a|Gender=m|Number=s	27	ATR	_	t_463|t_462|ref=Ep.Hipp._6
+29	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_464|t_466|ref=Ep.Hipp._6
+30	τοσούτων	τοσοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_465|t_466|ref=Ep.Hipp._6
+31	παθέων	πάθος	n	n-p---ng-	Case=g|Gender=n|Number=p	28	ADV	_	t_466|t_463|ref=Ep.Hipp._6
+32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	33	ATR	_	t_467|t_468|ref=Ep.Hipp._6
+33	τηνικάδε	τηνικάδε	d	d--------	_	34	ADV	_	t_468|t_469|ref=Ep.Hipp._6
+34	ἐμφυτεύοντά	ἐμφυτεύω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	38	ADV	_	t_469|t_473|ref=Ep.Hipp._6
+35	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	38	OBJ	_	t_470|t_473|ref=Ep.Hipp._6
+36	χρηστὸν	χρηστός	a	a-s---na-	Case=a|Gender=n|Number=s	35	ATR	_	t_471|t_470|ref=Ep.Hipp._6
+37	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	38	OBJ	_	t_472|t_473|ref=Ep.Hipp._6
+38	παραδιδόμεν	παραδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	4	SBJ	_	t_473|t_439|ref=Ep.Hipp._6
+39	.	.	u	u--------	_	4	AuxK	_	t_474|t_439|ref=Ep.Hipp._6
 
-# source = Lysis, Epistula ad Hipparchum 6
+# source = Lysis, Ep.Hipp. 6
 # text = τάπερ ἔμαθες μέν , Ἵππαρχε , μετὰ σπουδᾶς , οὐκ ἐτήρησας δ ’ , ὦ γενναῖε , γευσάμενος Σικελικᾶς πολυτελείας , ἇς οὐκ ἐχρῆν τυ γενέσθαι δεύτερον .
 # sent_id = 23
-1	τάπερ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_475|ref=Epistula ad Hipparchum_6
-2	ἔμαθες	μανθάνω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_476|ref=Epistula ad Hipparchum_6
-3	μέν	μέν	d	d--------	_	12	AuxY	_	t_477|ref=Epistula ad Hipparchum_6
-4	,	,	u	u--------	_	0	AuxX	_	t_478|ref=Epistula ad Hipparchum_6
-5	Ἵππαρχε	ἵππαρχος	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_479|ref=Epistula ad Hipparchum_6
-6	,	,	u	u--------	_	4	AuxX	_	t_480|ref=Epistula ad Hipparchum_6
-7	μετὰ	μετά	r	r--------	_	2	AuxP	_	t_481|ref=Epistula ad Hipparchum_6
-8	σπουδᾶς	σπουδή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_482|ref=Epistula ad Hipparchum_6
-9	,	,	u	u--------	_	4	AuxX	_	t_483|ref=Epistula ad Hipparchum_6
-10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_484|ref=Epistula ad Hipparchum_6
-11	ἐτήρησας	τηρέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_485|ref=Epistula ad Hipparchum_6
-12	δ	δ	c	c--------	_	4	COORD	_	t_486|ref=Epistula ad Hipparchum_6
-13	’	’	c	c--------	_	4	COORD	_	t_487|ref=Epistula ad Hipparchum_6
-14	,	,	u	u--------	_	4	AuxX	_	t_488|ref=Epistula ad Hipparchum_6
-15	ὦ	ὦ	i	i--------	_	16	AuxZ	_	t_489|ref=Epistula ad Hipparchum_6
-16	γενναῖε	γενναῖος	a	a-s---mv-	Case=v|Gender=m|Number=s	13	ExD	_	t_490|ref=Epistula ad Hipparchum_6
-17	,	,	u	u--------	_	4	AuxX	_	t_491|ref=Epistula ad Hipparchum_6
-18	γευσάμενος	γεύω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	11	ADV	_	t_492|ref=Epistula ad Hipparchum_6
-19	Σικελικᾶς	σικελικός	a	a-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_493|ref=Epistula ad Hipparchum_6
-20	πολυτελείας	πολυτέλεια	n	n-s---fg-	Case=g|Gender=f|Number=s	18	OBJ	_	t_494|ref=Epistula ad Hipparchum_6
-21	,	,	u	u--------	_	4	AuxX	_	t_495|ref=Epistula ad Hipparchum_6
-22	ἇς	ὅς	p	p-p---fa-	Case=a|Gender=f|Number=p	26	SBJ	_	t_496|ref=Epistula ad Hipparchum_6
-23	οὐκ	οὐ	d	d--------	_	24	AuxZ	_	t_497|ref=Epistula ad Hipparchum_6
-24	ἐχρῆν	χρή	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	20	ATR	_	t_498|ref=Epistula ad Hipparchum_6
-25	τυ	τυ	d	d--------	_	26	AuxZ	_	t_499|ref=Epistula ad Hipparchum_6
-26	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	24	SBJ	_	t_500|ref=Epistula ad Hipparchum_6
-27	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	24	ADV	_	t_501|ref=Epistula ad Hipparchum_6
-28	.	.	u	u--------	_	4	AuxK	_	t_502|ref=Epistula ad Hipparchum_6
+1	τάπερ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_475|t_476|ref=Ep.Hipp._6
+2	ἔμαθες	μανθάνω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_476|t_486|ref=Ep.Hipp._6
+3	μέν	μέν	d	d--------	_	12	AuxY	_	t_477|t_486|ref=Ep.Hipp._6
+4	,	,	u	u--------	_	0	AuxX	_	t_478|0|ref=Ep.Hipp._6
+5	Ἵππαρχε	ἵππαρχος	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_479|t_486|ref=Ep.Hipp._6
+6	,	,	u	u--------	_	4	AuxX	_	t_480|t_478|ref=Ep.Hipp._6
+7	μετὰ	μετά	r	r--------	_	2	AuxP	_	t_481|t_476|ref=Ep.Hipp._6
+8	σπουδᾶς	σπουδή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_482|t_481|ref=Ep.Hipp._6
+9	,	,	u	u--------	_	4	AuxX	_	t_483|t_478|ref=Ep.Hipp._6
+10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_484|t_485|ref=Ep.Hipp._6
+11	ἐτήρησας	τηρέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_485|t_486|ref=Ep.Hipp._6
+12	δ	δ	c	c--------	_	4	COORD	_	t_486|t_478|ref=Ep.Hipp._6
+13	’	’	c	c--------	_	4	COORD	_	t_487|t_478|ref=Ep.Hipp._6
+14	,	,	u	u--------	_	4	AuxX	_	t_488|t_478|ref=Ep.Hipp._6
+15	ὦ	ὦ	i	i--------	_	16	AuxZ	_	t_489|t_490|ref=Ep.Hipp._6
+16	γενναῖε	γενναῖος	a	a-s---mv-	Case=v|Gender=m|Number=s	13	ExD	_	t_490|t_487|ref=Ep.Hipp._6
+17	,	,	u	u--------	_	4	AuxX	_	t_491|t_478|ref=Ep.Hipp._6
+18	γευσάμενος	γεύω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	11	ADV	_	t_492|t_485|ref=Ep.Hipp._6
+19	Σικελικᾶς	σικελικός	a	a-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_493|t_494|ref=Ep.Hipp._6
+20	πολυτελείας	πολυτέλεια	n	n-s---fg-	Case=g|Gender=f|Number=s	18	OBJ	_	t_494|t_492|ref=Ep.Hipp._6
+21	,	,	u	u--------	_	4	AuxX	_	t_495|t_478|ref=Ep.Hipp._6
+22	ἇς	ὅς	p	p-p---fa-	Case=a|Gender=f|Number=p	26	SBJ	_	t_496|t_500|ref=Ep.Hipp._6
+23	οὐκ	οὐ	d	d--------	_	24	AuxZ	_	t_497|t_498|ref=Ep.Hipp._6
+24	ἐχρῆν	χρή	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	20	ATR	_	t_498|t_494|ref=Ep.Hipp._6
+25	τυ	τυ	d	d--------	_	26	AuxZ	_	t_499|t_500|ref=Ep.Hipp._6
+26	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	24	SBJ	_	t_500|t_498|ref=Ep.Hipp._6
+27	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	24	ADV	_	t_501|t_498|ref=Ep.Hipp._6
+28	.	.	u	u--------	_	4	AuxK	_	t_502|t_478|ref=Ep.Hipp._6
 
-# source = Lysis, Epistula ad Hipparchum 6
+# source = Lysis, Ep.Hipp. 6
 # text = ( 7 ) λέγοντι δὲ πολλοί τυ καὶ δαμοσίᾳ φιλοσοφέν , τόπερ ἀπαξίωσε Πυθαγόρας , ὅς γε Δαμοῖ τᾷ ἑαυτοῦ θυγατρὶ τὰ ὑπομνάματα παρακαταθέμενος ἐπέσκαψε μηδενὶ τῶν ἐκτὸς τᾶς οἰκίας παραδιδόμεν .
 # sent_id = 24
-1	(	̔	u	u--------	_	10	AuxG	_	t_503|ref=Epistula ad Hipparchum_6
-2	7	7	n	n-s---mv-	_	10	ExD	_	t_504|ref=Epistula ad Hipparchum_6
-3	)	)	u	u--------	_	10	AuxX	_	t_505|ref=Epistula ad Hipparchum_6
-4	λέγοντι	λέγω3	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_506|ref=Epistula ad Hipparchum_6
-5	δὲ	δέ	d	d--------	_	10	AuxY	_	t_507|ref=Epistula ad Hipparchum_6
-6	πολλοί	πολύς	a	a-p---na-	_	8	ADV	_	t_508|ref=Epistula ad Hipparchum_6
-7	τυ	τυ	d	d--------	_	8	ADV	_	t_509|ref=Epistula ad Hipparchum_6
-8	καὶ	καί	c	c--------	_	10	COORD	_	t_510|ref=Epistula ad Hipparchum_6
-9	δαμοσίᾳ	δαμάρεια	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_511|ref=Epistula ad Hipparchum_6
-10	φιλοσοφέν	φιλοσοφέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_512|ref=Epistula ad Hipparchum_6
-11	,	,	u	u--------	_	10	AuxX	_	t_513|ref=Epistula ad Hipparchum_6
-12	τόπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_514|ref=Epistula ad Hipparchum_6
-13	ἀπαξίωσε	ἀπαξιόω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_515|ref=Epistula ad Hipparchum_6
-14	Πυθαγόρας	πυθαγόρας	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_516|ref=Epistula ad Hipparchum_6
-15	,	,	u	u--------	_	10	AuxX	_	t_517|ref=Epistula ad Hipparchum_6
-16	ὅς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_518|ref=Epistula ad Hipparchum_6
-17	γε	γε	d	d--------	_	16	AuxZ	_	t_519|ref=Epistula ad Hipparchum_6
-18	Δαμοῖ	δαμάζω	n	n-s---md-	Case=d|Gender=f|Number=s	24	OBJ	_	t_520|ref=Epistula ad Hipparchum_6
-19	τᾷ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_521|ref=Epistula ad Hipparchum_6
-20	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_522|ref=Epistula ad Hipparchum_6
-21	θυγατρὶ	θυγάτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	24	OBJ	_	t_523|ref=Epistula ad Hipparchum_6
-22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_524|ref=Epistula ad Hipparchum_6
-23	ὑπομνάματα	ὑπόμνημα	n	n-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_525|ref=Epistula ad Hipparchum_6
-24	παρακαταθέμενος	παρακατατίθεμαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	25	ADV	_	t_526|ref=Epistula ad Hipparchum_6
-25	ἐπέσκαψε	ἐπισκάπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	ATR	_	t_527|ref=Epistula ad Hipparchum_6
-26	μηδενὶ	μηδείς	p	p-s---md-	Case=d|Gender=m|Number=s	25	OBJ	_	t_528|ref=Epistula ad Hipparchum_6
-27	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_529|ref=Epistula ad Hipparchum_6
-28	ἐκτὸς	ἐκτός	r	r--------	_	27	AuxP	_	t_530|ref=Epistula ad Hipparchum_6
-29	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_531|ref=Epistula ad Hipparchum_6
-30	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_532|ref=Epistula ad Hipparchum_6
-31	παραδιδόμεν	παραδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_533|ref=Epistula ad Hipparchum_6
-32	.	.	u	u--------	_	10	AuxK	_	t_534|ref=Epistula ad Hipparchum_6
+1	(	̔	u	u--------	_	10	AuxG	_	t_503|t_512|ref=Ep.Hipp._6
+2	7	7	n	n-s---mv-	_	10	ExD	_	t_504|t_512|ref=Ep.Hipp._6
+3	)	)	u	u--------	_	10	AuxX	_	t_505|t_512|ref=Ep.Hipp._6
+4	λέγοντι	λέγω3	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_506|t_512|ref=Ep.Hipp._6
+5	δὲ	δέ	d	d--------	_	10	AuxY	_	t_507|t_512|ref=Ep.Hipp._6
+6	πολλοί	πολύς	a	a-p---na-	_	8	ADV	_	t_508|t_510|ref=Ep.Hipp._6
+7	τυ	τυ	d	d--------	_	8	ADV	_	t_509|t_510|ref=Ep.Hipp._6
+8	καὶ	καί	c	c--------	_	10	COORD	_	t_510|t_512|ref=Ep.Hipp._6
+9	δαμοσίᾳ	δαμάρεια	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_511|t_510|ref=Ep.Hipp._6
+10	φιλοσοφέν	φιλοσοφέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_512|0|ref=Ep.Hipp._6
+11	,	,	u	u--------	_	10	AuxX	_	t_513|t_512|ref=Ep.Hipp._6
+12	τόπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_514|t_515|ref=Ep.Hipp._6
+13	ἀπαξίωσε	ἀπαξιόω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_515|t_512|ref=Ep.Hipp._6
+14	Πυθαγόρας	πυθαγόρας	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_516|t_515|ref=Ep.Hipp._6
+15	,	,	u	u--------	_	10	AuxX	_	t_517|t_512|ref=Ep.Hipp._6
+16	ὅς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_518|t_527|ref=Ep.Hipp._6
+17	γε	γε	d	d--------	_	16	AuxZ	_	t_519|t_518|ref=Ep.Hipp._6
+18	Δαμοῖ	δαμάζω	n	n-s---md-	Case=d|Gender=f|Number=s	24	OBJ	_	t_520|t_526|ref=Ep.Hipp._6
+19	τᾷ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_521|t_523|ref=Ep.Hipp._6
+20	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_522|t_523|ref=Ep.Hipp._6
+21	θυγατρὶ	θυγάτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	24	OBJ	_	t_523|t_526|ref=Ep.Hipp._6
+22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_524|t_525|ref=Ep.Hipp._6
+23	ὑπομνάματα	ὑπόμνημα	n	n-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_525|t_526|ref=Ep.Hipp._6
+24	παρακαταθέμενος	παρακατατίθεμαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	25	ADV	_	t_526|t_527|ref=Ep.Hipp._6
+25	ἐπέσκαψε	ἐπισκάπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	ATR	_	t_527|t_516|ref=Ep.Hipp._6
+26	μηδενὶ	μηδείς	p	p-s---md-	Case=d|Gender=m|Number=s	25	OBJ	_	t_528|t_527|ref=Ep.Hipp._6
+27	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_529|t_528|ref=Ep.Hipp._6
+28	ἐκτὸς	ἐκτός	r	r--------	_	27	AuxP	_	t_530|t_529|ref=Ep.Hipp._6
+29	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_531|t_532|ref=Ep.Hipp._6
+30	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_532|t_530|ref=Ep.Hipp._6
+31	παραδιδόμεν	παραδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_533|t_527|ref=Ep.Hipp._6
+32	.	.	u	u--------	_	10	AuxK	_	t_534|t_512|ref=Ep.Hipp._6
 
-# source = Lysis, Epistula ad Hipparchum 6
+# source = Lysis, Ep.Hipp. 6
 # text = ἃ δὲ δυναμένα πολλῶν χρημάτων ἀποδόσθαι τὼς λόγως οὐκ ἐβουλάθη , πενίαν δὲ καὶ τὰς τῶ πατρὸς ἐπισκάψιας ἐνόμιξε χρυσῶ τιμιωτέρας ἦμεν .
 # sent_id = 25
-1	ἃ	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_535|ref=Epistula ad Hipparchum_6
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_536|ref=Epistula ad Hipparchum_6
-3	δυναμένα	δύναμαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	10	ADV	_	t_537|ref=Epistula ad Hipparchum_6
-4	πολλῶν	πολύς	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_538|ref=Epistula ad Hipparchum_6
-5	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	OBJ	_	t_539|ref=Epistula ad Hipparchum_6
-6	ἀποδόσθαι	ἀποδίδωμι	v	v--anm---	Mood=n|Tense=a|Voice=m	3	OBJ	_	t_540|ref=Epistula ad Hipparchum_6
-7	τὼς	τώς	l	l-p---md-	Case=d|Gender=m|Number=p	8	ATR	_	t_541|ref=Epistula ad Hipparchum_6
-8	λόγως	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_542|ref=Epistula ad Hipparchum_6
-9	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_543|ref=Epistula ad Hipparchum_6
-10	ἐβουλάθη	βούλομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	13	PRED	_	t_544|ref=Epistula ad Hipparchum_6
-11	,	,	u	u--------	_	0	AuxX	_	t_545|ref=Epistula ad Hipparchum_6
-12	πενίαν	πενία	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_546|ref=Epistula ad Hipparchum_6
-13	δὲ	δέ	c	c--------	_	11	COORD	_	t_547|ref=Epistula ad Hipparchum_6
-14	καὶ	καί	c	c--------	_	19	COORD	_	t_548|ref=Epistula ad Hipparchum_6
-15	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	18	ATR	_	t_549|ref=Epistula ad Hipparchum_6
-16	τῶ	τῷ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_550|ref=Epistula ad Hipparchum_6
-17	πατρὸς	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_551|ref=Epistula ad Hipparchum_6
-18	ἐπισκάψιας	ἐπίσκηψις	n	n-p---fa-	Case=a|Gender=f|Number=p	14	OBJ	_	t_552|ref=Epistula ad Hipparchum_6
-19	ἐνόμιξε	νομίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_553|ref=Epistula ad Hipparchum_6
-20	χρυσῶ	χρυσός	d	d--------	_	21	ADV	_	t_554|ref=Epistula ad Hipparchum_6
-21	τιμιωτέρας	τίμιος	a	a-s---fgc	Case=g|Degree=c|Gender=f|Number=s	22	PNOM	_	t_555|ref=Epistula ad Hipparchum_6
-22	ἦμεν	εἰμί	v	v1piia---	Mood=i|Number=p|Person=1|Tense=i|Voice=a	13	PRED	_	t_556|ref=Epistula ad Hipparchum_6
-23	.	.	u	u--------	_	11	AuxK	_	t_557|ref=Epistula ad Hipparchum_6
+1	ἃ	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_535|t_544|ref=Ep.Hipp._6
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_536|t_547|ref=Ep.Hipp._6
+3	δυναμένα	δύναμαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	10	ADV	_	t_537|t_544|ref=Ep.Hipp._6
+4	πολλῶν	πολύς	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_538|t_539|ref=Ep.Hipp._6
+5	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	OBJ	_	t_539|t_540|ref=Ep.Hipp._6
+6	ἀποδόσθαι	ἀποδίδωμι	v	v--anm---	Mood=n|Tense=a|Voice=m	3	OBJ	_	t_540|t_537|ref=Ep.Hipp._6
+7	τὼς	τώς	l	l-p---md-	Case=d|Gender=m|Number=p	8	ATR	_	t_541|t_542|ref=Ep.Hipp._6
+8	λόγως	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_542|t_540|ref=Ep.Hipp._6
+9	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_543|t_544|ref=Ep.Hipp._6
+10	ἐβουλάθη	βούλομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	13	PRED	_	t_544|t_547|ref=Ep.Hipp._6
+11	,	,	u	u--------	_	0	AuxX	_	t_545|0|ref=Ep.Hipp._6
+12	πενίαν	πενία	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_546|t_548|ref=Ep.Hipp._6
+13	δὲ	δέ	c	c--------	_	11	COORD	_	t_547|t_545|ref=Ep.Hipp._6
+14	καὶ	καί	c	c--------	_	19	COORD	_	t_548|t_553|ref=Ep.Hipp._6
+15	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	18	ATR	_	t_549|t_552|ref=Ep.Hipp._6
+16	τῶ	τῷ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_550|t_551|ref=Ep.Hipp._6
+17	πατρὸς	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_551|t_552|ref=Ep.Hipp._6
+18	ἐπισκάψιας	ἐπίσκηψις	n	n-p---fa-	Case=a|Gender=f|Number=p	14	OBJ	_	t_552|t_548|ref=Ep.Hipp._6
+19	ἐνόμιξε	νομίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_553|t_547|ref=Ep.Hipp._6
+20	χρυσῶ	χρυσός	d	d--------	_	21	ADV	_	t_554|t_555|ref=Ep.Hipp._6
+21	τιμιωτέρας	τίμιος	a	a-s---fgc	Case=g|Degree=c|Gender=f|Number=s	22	PNOM	_	t_555|t_556|ref=Ep.Hipp._6
+22	ἦμεν	εἰμί	v	v1piia---	Mood=i|Number=p|Person=1|Tense=i|Voice=a	13	PRED	_	t_556|t_547|ref=Ep.Hipp._6
+23	.	.	u	u--------	_	11	AuxK	_	t_557|t_545|ref=Ep.Hipp._6
 
-# source = Lysis, Epistula ad Hipparchum 6
+# source = Lysis, Ep.Hipp. 6
 # text = φαντὶ δὲ ὅτι καὶ Δαμὼ θνάσκοισα Βιστάλᾳ τᾷ ἑαυτᾶς θυγατρὶ τὰν αὐτὰν ἐπιστολὰν ἐπέστειλεν .
 # sent_id = 26
-1	φαντὶ	φαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_558|ref=Epistula ad Hipparchum_6
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_559|ref=Epistula ad Hipparchum_6
-3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_560|ref=Epistula ad Hipparchum_6
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_561|ref=Epistula ad Hipparchum_6
-5	Δαμὼ	δαμώ	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_562|ref=Epistula ad Hipparchum_6
-6	θνάσκοισα	θνήσκω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_563|ref=Epistula ad Hipparchum_6
-7	Βιστάλᾳ	βιστάλας	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_564|ref=Epistula ad Hipparchum_6
-8	τᾷ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_565|ref=Epistula ad Hipparchum_6
-9	ἑαυτᾶς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_566|ref=Epistula ad Hipparchum_6
-10	θυγατρὶ	θυγάτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_567|ref=Epistula ad Hipparchum_6
-11	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_568|ref=Epistula ad Hipparchum_6
-12	αὐτὰν	αὐτός	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_569|ref=Epistula ad Hipparchum_6
-13	ἐπιστολὰν	ἐπιστολή	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_570|ref=Epistula ad Hipparchum_6
-14	ἐπέστειλεν	ἐπιστέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	3	OBJ	_	t_571|ref=Epistula ad Hipparchum_6
-15	.	.	u	u--------	_	1	AuxK	_	t_572|ref=Epistula ad Hipparchum_6
+1	φαντὶ	φαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_558|0|ref=Ep.Hipp._6
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_559|t_558|ref=Ep.Hipp._6
+3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_560|t_558|ref=Ep.Hipp._6
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_561|t_562|ref=Ep.Hipp._6
+5	Δαμὼ	δαμώ	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_562|t_571|ref=Ep.Hipp._6
+6	θνάσκοισα	θνήσκω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_563|t_571|ref=Ep.Hipp._6
+7	Βιστάλᾳ	βιστάλας	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_564|t_563|ref=Ep.Hipp._6
+8	τᾷ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_565|t_567|ref=Ep.Hipp._6
+9	ἑαυτᾶς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_566|t_567|ref=Ep.Hipp._6
+10	θυγατρὶ	θυγάτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_567|t_563|ref=Ep.Hipp._6
+11	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_568|t_570|ref=Ep.Hipp._6
+12	αὐτὰν	αὐτός	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_569|t_570|ref=Ep.Hipp._6
+13	ἐπιστολὰν	ἐπιστολή	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_570|t_571|ref=Ep.Hipp._6
+14	ἐπέστειλεν	ἐπιστέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	3	OBJ	_	t_571|t_560|ref=Ep.Hipp._6
+15	.	.	u	u--------	_	1	AuxK	_	t_572|t_558|ref=Ep.Hipp._6
 
-# source = Lysis, Epistula ad Hipparchum 6
+# source = Lysis, Ep.Hipp. 6
 # text = ἁμὲς δὲ ἄνδρες ἐόντες οὐ γνασίως αὐτῷ ποτιφερόμεθα , ἀλλὰ παραβάται τᾶν ὁμολογιᾶν γινόμεθα .
 # sent_id = 27
-1	ἁμὲς	ἁμός	p	p1p---mn-	Case=n|Gender=m|Number=p|Person=1	8	SBJ	_	t_573|ref=Epistula ad Hipparchum_6
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_574|ref=Epistula ad Hipparchum_6
-3	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_575|ref=Epistula ad Hipparchum_6
-4	ἐόντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_576|ref=Epistula ad Hipparchum_6
-5	οὐ	οὐ	d	d--------	_	6	AuxZ	_	t_577|ref=Epistula ad Hipparchum_6
-6	γνασίως	γναῖος	d	d--------	_	8	ADV	_	t_578|ref=Epistula ad Hipparchum_6
-7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_579|ref=Epistula ad Hipparchum_6
-8	ποτιφερόμεθα	προσφέρω	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	10	PRED	_	t_580|ref=Epistula ad Hipparchum_6
-9	,	,	u	u--------	_	0	AuxX	_	t_581|ref=Epistula ad Hipparchum_6
-10	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_582|ref=Epistula ad Hipparchum_6
-11	παραβάται	παραβάτης	a	a-p---mn-	Case=n|Gender=m|Number=p	14	PNOM	_	t_583|ref=Epistula ad Hipparchum_6
-12	τᾶν	τᾶν	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_584|ref=Epistula ad Hipparchum_6
-13	ὁμολογιᾶν	ὁμολογία	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ADV	_	t_585|ref=Epistula ad Hipparchum_6
-14	γινόμεθα	γίγνομαι	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	10	PRED	_	t_586|ref=Epistula ad Hipparchum_6
-15	.	.	u	u--------	_	9	AuxK	_	t_587|ref=Epistula ad Hipparchum_6
+1	ἁμὲς	ἁμός	p	p1p---mn-	Case=n|Gender=m|Number=p|Person=1	8	SBJ	_	t_573|t_580|ref=Ep.Hipp._6
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_574|t_582|ref=Ep.Hipp._6
+3	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_575|t_576|ref=Ep.Hipp._6
+4	ἐόντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_576|t_580|ref=Ep.Hipp._6
+5	οὐ	οὐ	d	d--------	_	6	AuxZ	_	t_577|t_578|ref=Ep.Hipp._6
+6	γνασίως	γναῖος	d	d--------	_	8	ADV	_	t_578|t_580|ref=Ep.Hipp._6
+7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_579|t_580|ref=Ep.Hipp._6
+8	ποτιφερόμεθα	προσφέρω	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	10	PRED	_	t_580|t_582|ref=Ep.Hipp._6
+9	,	,	u	u--------	_	0	AuxX	_	t_581|0|ref=Ep.Hipp._6
+10	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_582|t_581|ref=Ep.Hipp._6
+11	παραβάται	παραβάτης	a	a-p---mn-	Case=n|Gender=m|Number=p	14	PNOM	_	t_583|t_586|ref=Ep.Hipp._6
+12	τᾶν	τᾶν	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_584|t_585|ref=Ep.Hipp._6
+13	ὁμολογιᾶν	ὁμολογία	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ADV	_	t_585|t_583|ref=Ep.Hipp._6
+14	γινόμεθα	γίγνομαι	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	10	PRED	_	t_586|t_582|ref=Ep.Hipp._6
+15	.	.	u	u--------	_	9	AuxK	_	t_587|t_581|ref=Ep.Hipp._6
 
-# source = Lysis, Epistula ad Hipparchum 6
+# source = Lysis, Ep.Hipp. 6
 # text = εἰ μὲν ὦν μεταβάλοιο , χαρησοῦμαι , εἰ δὲ μή , τέθνακάς μοι [0] .
 # sent_id = 28
-1	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_588|ref=Epistula ad Hipparchum_6
-2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_589|ref=Epistula ad Hipparchum_6
-3	ὦν	οὖν	d	d--------	_	9	AuxY	_	t_590|ref=Epistula ad Hipparchum_6
-4	μεταβάλοιο	μεταβάλλω	v	v2saom---	Mood=o|Number=s|Person=2|Tense=a|Voice=m	1	ADV	_	t_591|ref=Epistula ad Hipparchum_6
-5	,	,	u	u--------	_	0	AuxX	_	t_592|ref=Epistula ad Hipparchum_6
-6	χαρησοῦμαι	χαίρω	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	9	PRED	_	t_593|ref=Epistula ad Hipparchum_6
-7	,	,	u	u--------	_	5	AuxX	_	t_594|ref=Epistula ad Hipparchum_6
-8	εἰ	εἰ	c	c--------	_	12	AuxC	_	t_595|ref=Epistula ad Hipparchum_6
-9	δὲ	δέ	c	c--------	_	5	COORD	_	t_596|ref=Epistula ad Hipparchum_6
-10	μή	μή	d	d--------	_	14	AuxZ	_	t_597|ref=Epistula ad Hipparchum_6
-11	,	,	u	u--------	_	5	AuxX	_	t_598|ref=Epistula ad Hipparchum_6
-12	τέθνακάς	θνῄσκω	v	v2sria---	Case=a|Gender=f|Number=p	9	PRED	_	t_599|ref=Epistula ad Hipparchum_6
-13	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	12	OBJ	_	t_600|ref=Epistula ad Hipparchum_6
-14	[0]	[0]	-	---------	_	8	ADV	_	e_9|ref=Epistula ad Hipparchum_1
-15	.	.	u	u--------	_	5	AuxK	_	t_601|ref=Epistula ad Hipparchum_6
+1	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_588|t_593|ref=Ep.Hipp._6
+2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_589|t_596|ref=Ep.Hipp._6
+3	ὦν	οὖν	d	d--------	_	9	AuxY	_	t_590|t_596|ref=Ep.Hipp._6
+4	μεταβάλοιο	μεταβάλλω	v	v2saom---	Mood=o|Number=s|Person=2|Tense=a|Voice=m	1	ADV	_	t_591|t_588|ref=Ep.Hipp._6
+5	,	,	u	u--------	_	0	AuxX	_	t_592|0|ref=Ep.Hipp._6
+6	χαρησοῦμαι	χαίρω	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	9	PRED	_	t_593|t_596|ref=Ep.Hipp._6
+7	,	,	u	u--------	_	5	AuxX	_	t_594|t_592|ref=Ep.Hipp._6
+8	εἰ	εἰ	c	c--------	_	12	AuxC	_	t_595|t_599|ref=Ep.Hipp._6
+9	δὲ	δέ	c	c--------	_	5	COORD	_	t_596|t_592|ref=Ep.Hipp._6
+10	μή	μή	d	d--------	_	14	AuxZ	_	t_597|e_9|ref=Ep.Hipp._6
+11	,	,	u	u--------	_	5	AuxX	_	t_598|t_592|ref=Ep.Hipp._6
+12	τέθνακάς	θνῄσκω	v	v2sria---	Case=a|Gender=f|Number=p	9	PRED	_	t_599|t_596|ref=Ep.Hipp._6
+13	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	12	OBJ	_	t_600|t_599|ref=Ep.Hipp._6
+14	[0]	[0]	-	---------	_	8	ADV	_	e_9|t_595|ref=Ep.Hipp._1
+15	.	.	u	u--------	_	5	AuxK	_	t_601|t_592|ref=Ep.Hipp._6
 

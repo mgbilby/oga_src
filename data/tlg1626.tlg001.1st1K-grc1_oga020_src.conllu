@@ -1,481 +1,481 @@
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = Ἡμεῖς οὖν ἀραδιούργητον ἄγομεν τὴν ἡμέραν ·
 # sent_id = 1
-1	Ἡμεῖς	ἐγώ	p	p1p---cn-	Case=n|Gender=c|Number=p|Person=1	4	SBJ	_	t_1|ref=Fragmentum Synodicae Epistulae_1
-2	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_2|ref=Fragmentum Synodicae Epistulae_1
-3	ἀραδιούργητον	ἀραδιούργητος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_3|ref=Fragmentum Synodicae Epistulae_1
-4	ἄγομεν	ἄγω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_4|ref=Fragmentum Synodicae Epistulae_1
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_5|ref=Fragmentum Synodicae Epistulae_1
-6	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_6|ref=Fragmentum Synodicae Epistulae_1
-7	·	·	u	u--------	_	4	AuxK	_	t_7|ref=Fragmentum Synodicae Epistulae_1
+1	Ἡμεῖς	ἐγώ	p	p1p---cn-	Case=n|Gender=c|Number=p|Person=1	4	SBJ	_	t_1|t_4|ref=Synod.ep.fr._1
+2	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_2|t_4|ref=Synod.ep.fr._1
+3	ἀραδιούργητον	ἀραδιούργητος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_3|t_6|ref=Synod.ep.fr._1
+4	ἄγομεν	ἄγω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_4|0|ref=Synod.ep.fr._1
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_5|t_6|ref=Synod.ep.fr._1
+6	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_6|t_4|ref=Synod.ep.fr._1
+7	·	·	u	u--------	_	4	AuxK	_	t_7|t_4|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = μή τε προστιθέντες , μή τε ἀφαιρούμενοι [0] .
 # sent_id = 2
-1	μή	μή	d	d--------	_	2	AuxY	_	t_8|ref=Fragmentum Synodicae Epistulae_1
-2	τε	τε	c	c--------	_	6	AuxY	_	t_9|ref=Fragmentum Synodicae Epistulae_1
-3	προστιθέντες	προστίθημι	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_10|ref=Fragmentum Synodicae Epistulae_1
-4	,	,	u	u--------	_	8	AuxX	_	t_11|ref=Fragmentum Synodicae Epistulae_1
-5	μή	μή	d	d--------	_	7	AuxZ	_	t_12|ref=Fragmentum Synodicae Epistulae_1
-6	τε	τε	c	c--------	_	8	COORD	_	t_13|ref=Fragmentum Synodicae Epistulae_1
-7	ἀφαιρούμενοι	ἀφαιρέω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ADV	_	t_14|ref=Fragmentum Synodicae Epistulae_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Fragmentum Synodicae Epistulae_1
-9	.	.	u	u--------	_	8	AuxK	_	t_15|ref=Fragmentum Synodicae Epistulae_1
+1	μή	μή	d	d--------	_	2	AuxY	_	t_8|t_9|ref=Synod.ep.fr._1
+2	τε	τε	c	c--------	_	6	AuxY	_	t_9|t_13|ref=Synod.ep.fr._1
+3	προστιθέντες	προστίθημι	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_10|t_13|ref=Synod.ep.fr._1
+4	,	,	u	u--------	_	8	AuxX	_	t_11|e_1|ref=Synod.ep.fr._1
+5	μή	μή	d	d--------	_	7	AuxZ	_	t_12|t_14|ref=Synod.ep.fr._1
+6	τε	τε	c	c--------	_	8	COORD	_	t_13|e_1|ref=Synod.ep.fr._1
+7	ἀφαιρούμενοι	ἀφαιρέω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ADV	_	t_14|t_13|ref=Synod.ep.fr._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Synod.ep.fr._1
+9	.	.	u	u--------	_	8	AuxK	_	t_15|e_1|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = καὶ γὰρ καὶ κατὰ τὴν Ἀσίαν μεγάλα στοιχεῖα κεκοίμηται ·
 # sent_id = 3
-1	καὶ	καί	d	d--------	_	9	AuxY	_	t_16|ref=Fragmentum Synodicae Epistulae_1
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_17|ref=Fragmentum Synodicae Epistulae_1
-3	καὶ	καί	d	d--------	_	6	AuxZ	_	t_18|ref=Fragmentum Synodicae Epistulae_1
-4	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_19|ref=Fragmentum Synodicae Epistulae_1
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_20|ref=Fragmentum Synodicae Epistulae_1
-6	Ἀσίαν	ἀσία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ADV	_	t_21|ref=Fragmentum Synodicae Epistulae_1
-7	μεγάλα	μέγας	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_22|ref=Fragmentum Synodicae Epistulae_1
-8	στοιχεῖα	στοιχεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_23|ref=Fragmentum Synodicae Epistulae_1
-9	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_24|ref=Fragmentum Synodicae Epistulae_1
-10	·	·	u	u--------	_	9	AuxK	_	t_25|ref=Fragmentum Synodicae Epistulae_1
+1	καὶ	καί	d	d--------	_	9	AuxY	_	t_16|t_24|ref=Synod.ep.fr._1
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_17|t_24|ref=Synod.ep.fr._1
+3	καὶ	καί	d	d--------	_	6	AuxZ	_	t_18|t_21|ref=Synod.ep.fr._1
+4	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_19|t_24|ref=Synod.ep.fr._1
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_20|t_21|ref=Synod.ep.fr._1
+6	Ἀσίαν	ἀσία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ADV	_	t_21|t_19|ref=Synod.ep.fr._1
+7	μεγάλα	μέγας	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_22|t_23|ref=Synod.ep.fr._1
+8	στοιχεῖα	στοιχεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_23|t_24|ref=Synod.ep.fr._1
+9	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_24|0|ref=Synod.ep.fr._1
+10	·	·	u	u--------	_	9	AuxK	_	t_25|t_24|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἅ τινα ἀναστήσεται τῇ ἡμέρᾳ τῆς παρουσίας τοῦ Κυρίου , ἐν ᾗ ἔρχεται μετὰ δόξης ἐξ οὐρανῶν , καὶ ἀναστήσει πάντας τοὺς ἁγίους ·
 # sent_id = 4
-1	ἅ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_26|ref=Fragmentum Synodicae Epistulae_1
-2	τινα	τις	a	a-s---fa-	Case=a|Gender=m|Number=s	3	OBJ	_	t_27|ref=Fragmentum Synodicae Epistulae_1
-3	ἀναστήσεται	ἀνίστημι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	19	PRED	_	t_28|ref=Fragmentum Synodicae Epistulae_1
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_29|ref=Fragmentum Synodicae Epistulae_1
-5	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_30|ref=Fragmentum Synodicae Epistulae_1
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_31|ref=Fragmentum Synodicae Epistulae_1
-7	παρουσίας	παρουσία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_32|ref=Fragmentum Synodicae Epistulae_1
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_33|ref=Fragmentum Synodicae Epistulae_1
-9	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_34|ref=Fragmentum Synodicae Epistulae_1
-10	,	,	u	u--------	_	0	AuxX	_	t_35|ref=Fragmentum Synodicae Epistulae_1
-11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_36|ref=Fragmentum Synodicae Epistulae_1
-12	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_37|ref=Fragmentum Synodicae Epistulae_1
-13	ἔρχεται	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	ATR	_	t_38|ref=Fragmentum Synodicae Epistulae_1
-14	μετὰ	μετά	r	r--------	_	13	AuxP	_	t_39|ref=Fragmentum Synodicae Epistulae_1
-15	δόξης	δόξα	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_40|ref=Fragmentum Synodicae Epistulae_1
-16	ἐξ	ἐκ	r	r--------	_	13	AuxP	_	t_41|ref=Fragmentum Synodicae Epistulae_1
-17	οὐρανῶν	οὐρανός	n	n-p---mg-	Case=g|Gender=m|Number=p	16	ADV	_	t_42|ref=Fragmentum Synodicae Epistulae_1
-18	,	,	u	u--------	_	10	AuxX	_	t_43|ref=Fragmentum Synodicae Epistulae_1
-19	καὶ	καί	c	c--------	_	10	COORD	_	t_44|ref=Fragmentum Synodicae Epistulae_1
-20	ἀναστήσει	ἀνίστημι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	19	PRED	_	t_45|ref=Fragmentum Synodicae Epistulae_1
-21	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_46|ref=Fragmentum Synodicae Epistulae_1
-22	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_47|ref=Fragmentum Synodicae Epistulae_1
-23	ἁγίους	ἅγιος	a	a-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_48|ref=Fragmentum Synodicae Epistulae_1
-24	·	·	u	u--------	_	10	AuxK	_	t_49|ref=Fragmentum Synodicae Epistulae_1
+1	ἅ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_26|t_28|ref=Synod.ep.fr._1
+2	τινα	τις	a	a-s---fa-	Case=a|Gender=m|Number=s	3	OBJ	_	t_27|t_28|ref=Synod.ep.fr._1
+3	ἀναστήσεται	ἀνίστημι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	19	PRED	_	t_28|t_44|ref=Synod.ep.fr._1
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_29|t_30|ref=Synod.ep.fr._1
+5	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_30|t_28|ref=Synod.ep.fr._1
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_31|t_32|ref=Synod.ep.fr._1
+7	παρουσίας	παρουσία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_32|t_30|ref=Synod.ep.fr._1
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_33|t_34|ref=Synod.ep.fr._1
+9	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_34|t_32|ref=Synod.ep.fr._1
+10	,	,	u	u--------	_	0	AuxX	_	t_35|0|ref=Synod.ep.fr._1
+11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_36|t_38|ref=Synod.ep.fr._1
+12	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_37|t_36|ref=Synod.ep.fr._1
+13	ἔρχεται	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	ATR	_	t_38|t_44|ref=Synod.ep.fr._1
+14	μετὰ	μετά	r	r--------	_	13	AuxP	_	t_39|t_38|ref=Synod.ep.fr._1
+15	δόξης	δόξα	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_40|t_39|ref=Synod.ep.fr._1
+16	ἐξ	ἐκ	r	r--------	_	13	AuxP	_	t_41|t_38|ref=Synod.ep.fr._1
+17	οὐρανῶν	οὐρανός	n	n-p---mg-	Case=g|Gender=m|Number=p	16	ADV	_	t_42|t_41|ref=Synod.ep.fr._1
+18	,	,	u	u--------	_	10	AuxX	_	t_43|t_35|ref=Synod.ep.fr._1
+19	καὶ	καί	c	c--------	_	10	COORD	_	t_44|t_35|ref=Synod.ep.fr._1
+20	ἀναστήσει	ἀνίστημι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	19	PRED	_	t_45|t_44|ref=Synod.ep.fr._1
+21	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_46|t_48|ref=Synod.ep.fr._1
+22	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_47|t_48|ref=Synod.ep.fr._1
+23	ἁγίους	ἅγιος	a	a-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_48|t_45|ref=Synod.ep.fr._1
+24	·	·	u	u--------	_	10	AuxK	_	t_49|t_35|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = Φίλιππον τὸν τῶν δώδεκα ἀποστόλων , ὃς κεκοίμηται ἐν Ἱεραπόλει , καὶ δύο θυ γατέρες αὐτοῦ γεγηρακυῖαι παρθένοι [0] ·
 # sent_id = 5
-1	Φίλιππον	φίλιππος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_50|ref=Fragmentum Synodicae Epistulae_1
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	1	ATR	_	t_51|ref=Fragmentum Synodicae Epistulae_1
-3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_52|ref=Fragmentum Synodicae Epistulae_1
-4	δώδεκα	δώδεκα	a	a--------	_	5	ATR	_	t_53|ref=Fragmentum Synodicae Epistulae_1
-5	ἀποστόλων	ἀπόστολος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_54|ref=Fragmentum Synodicae Epistulae_1
-6	,	,	u	u--------	_	19	AuxX	_	t_55|ref=Fragmentum Synodicae Epistulae_1
-7	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_56|ref=Fragmentum Synodicae Epistulae_1
-8	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	ATR	_	t_57|ref=Fragmentum Synodicae Epistulae_1
-9	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_58|ref=Fragmentum Synodicae Epistulae_1
-10	Ἱεραπόλει	φιλαδέλφεια	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_59|ref=Fragmentum Synodicae Epistulae_1
-11	,	,	u	u--------	_	19	AuxX	_	t_60|ref=Fragmentum Synodicae Epistulae_1
-12	καὶ	καί	c	c--------	_	19	COORD	_	t_61|ref=Fragmentum Synodicae Epistulae_1
-13	δύο	δύο	a	a--------	_	15	ATR	_	t_62|ref=Fragmentum Synodicae Epistulae_1
-14	θυ	θύ	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_63|ref=Fragmentum Synodicae Epistulae_1
-15	γατέρες	μήτηρ	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_64|ref=Fragmentum Synodicae Epistulae_1
-16	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_65|ref=Fragmentum Synodicae Epistulae_1
-17	γεγηρακυῖαι	γηράσκω	v	v-prpafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=r|Voice=a	14	ATR	_	t_66|ref=Fragmentum Synodicae Epistulae_1
-18	παρθένοι	παρθένος	n	n-p---fn-	Case=n|Gender=f|Number=p	14	ATR	_	t_67|ref=Fragmentum Synodicae Epistulae_1
-19	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Fragmentum Synodicae Epistulae_1
-20	·	·	u	u--------	_	19	AuxK	_	t_68|ref=Fragmentum Synodicae Epistulae_1
+1	Φίλιππον	φίλιππος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_50|t_61|ref=Synod.ep.fr._1
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	1	ATR	_	t_51|t_50|ref=Synod.ep.fr._1
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_52|t_54|ref=Synod.ep.fr._1
+4	δώδεκα	δώδεκα	a	a--------	_	5	ATR	_	t_53|t_54|ref=Synod.ep.fr._1
+5	ἀποστόλων	ἀπόστολος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_54|t_50|ref=Synod.ep.fr._1
+6	,	,	u	u--------	_	19	AuxX	_	t_55|e_2|ref=Synod.ep.fr._1
+7	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_56|t_57|ref=Synod.ep.fr._1
+8	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	ATR	_	t_57|t_50|ref=Synod.ep.fr._1
+9	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_58|t_57|ref=Synod.ep.fr._1
+10	Ἱεραπόλει	φιλαδέλφεια	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_59|t_58|ref=Synod.ep.fr._1
+11	,	,	u	u--------	_	19	AuxX	_	t_60|e_2|ref=Synod.ep.fr._1
+12	καὶ	καί	c	c--------	_	19	COORD	_	t_61|e_2|ref=Synod.ep.fr._1
+13	δύο	δύο	a	a--------	_	15	ATR	_	t_62|t_64|ref=Synod.ep.fr._1
+14	θυ	θύ	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_63|t_61|ref=Synod.ep.fr._1
+15	γατέρες	μήτηρ	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_64|t_61|ref=Synod.ep.fr._1
+16	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_65|t_64|ref=Synod.ep.fr._1
+17	γεγηρακυῖαι	γηράσκω	v	v-prpafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=r|Voice=a	14	ATR	_	t_66|t_63|ref=Synod.ep.fr._1
+18	παρθένοι	παρθένος	n	n-p---fn-	Case=n|Gender=f|Number=p	14	ATR	_	t_67|t_63|ref=Synod.ep.fr._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Synod.ep.fr._1
+20	·	·	u	u--------	_	19	AuxK	_	t_68|e_2|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = καὶ ἡ ἑτέρα αὐ τοῦ θυγάτηρ ἐν ἁγίῳ πνεύ ματι πολιτευσαμένη , ὴ ἐν Ἐφέσῳ ἀναπαύεται [0] ·
 # sent_id = 6
-1	καὶ	καί	d	d--------	_	17	AuxY	_	t_69|ref=Fragmentum Synodicae Epistulae_1
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_70|ref=Fragmentum Synodicae Epistulae_1
-3	ἑτέρα	ἕτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_71|ref=Fragmentum Synodicae Epistulae_1
-4	αὐ	αὐ	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_72|ref=Fragmentum Synodicae Epistulae_1
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_73|ref=Fragmentum Synodicae Epistulae_1
-6	θυγάτηρ	θυγάτηρ	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_74|ref=Fragmentum Synodicae Epistulae_1
-7	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_75|ref=Fragmentum Synodicae Epistulae_1
-8	ἁγίῳ	ἅγιος	a	a-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_76|ref=Fragmentum Synodicae Epistulae_1
-9	πνεύ	πνεῦμα	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_77|ref=Fragmentum Synodicae Epistulae_1
-10	ματι	ματι	d	d--------	Case=d|Gender=m|Number=s	11	ADV	_	t_78|ref=Fragmentum Synodicae Epistulae_1
-11	πολιτευσαμένη	πολιτεύω	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	17	ADV	_	t_79|ref=Fragmentum Synodicae Epistulae_1
-12	,	,	u	u--------	_	17	AuxX	_	t_80|ref=Fragmentum Synodicae Epistulae_1
-13	ὴ	ή	l	l-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_81|ref=Fragmentum Synodicae Epistulae_1
-14	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_82|ref=Fragmentum Synodicae Epistulae_1
-15	Ἐφέσῳ	ἔφεσος	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_83|ref=Fragmentum Synodicae Epistulae_1
-16	ἀναπαύεται	ἀναπαύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_84|ref=Fragmentum Synodicae Epistulae_1
-17	[0]	[0]	-	---------	_	16	PRED	_	e_3|ref=Fragmentum Synodicae Epistulae_1
-18	·	·	u	u--------	_	17	AuxK	_	t_85|ref=Fragmentum Synodicae Epistulae_1
+1	καὶ	καί	d	d--------	_	17	AuxY	_	t_69|e_3|ref=Synod.ep.fr._1
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_70|t_74|ref=Synod.ep.fr._1
+3	ἑτέρα	ἕτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_71|t_74|ref=Synod.ep.fr._1
+4	αὐ	αὐ	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_72|t_74|ref=Synod.ep.fr._1
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_73|t_74|ref=Synod.ep.fr._1
+6	θυγάτηρ	θυγάτηρ	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_74|e_3|ref=Synod.ep.fr._1
+7	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_75|t_79|ref=Synod.ep.fr._1
+8	ἁγίῳ	ἅγιος	a	a-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_76|t_77|ref=Synod.ep.fr._1
+9	πνεύ	πνεῦμα	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_77|t_75|ref=Synod.ep.fr._1
+10	ματι	ματι	d	d--------	Case=d|Gender=m|Number=s	11	ADV	_	t_78|t_79|ref=Synod.ep.fr._1
+11	πολιτευσαμένη	πολιτεύω	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	17	ADV	_	t_79|e_3|ref=Synod.ep.fr._1
+12	,	,	u	u--------	_	17	AuxX	_	t_80|e_3|ref=Synod.ep.fr._1
+13	ὴ	ή	l	l-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_81|t_84|ref=Synod.ep.fr._1
+14	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_82|t_84|ref=Synod.ep.fr._1
+15	Ἐφέσῳ	ἔφεσος	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_83|t_82|ref=Synod.ep.fr._1
+16	ἀναπαύεται	ἀναπαύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_84|0|ref=Synod.ep.fr._1
+17	[0]	[0]	-	---------	_	16	PRED	_	e_3|t_84|ref=Synod.ep.fr._1
+18	·	·	u	u--------	_	17	AuxK	_	t_85|e_3|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἔτι δὲ καὶ Ἰωάννης ὁ ἐπὶ τὸ στῆθος τοῦ Κυρίου ἀναπεσών [0] ·
 # sent_id = 7
-1	ἔτι	ἔτι	d	d--------	_	12	ADV	_	t_86|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_87|ref=Fragmentum Synodicae Epistulae_1
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_88|ref=Fragmentum Synodicae Epistulae_1
-4	Ἰωάννης	ἰώαννης	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_89|ref=Fragmentum Synodicae Epistulae_1
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_90|ref=Fragmentum Synodicae Epistulae_1
-6	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_91|ref=Fragmentum Synodicae Epistulae_1
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_92|ref=Fragmentum Synodicae Epistulae_1
-8	στῆθος	στῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_93|ref=Fragmentum Synodicae Epistulae_1
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_94|ref=Fragmentum Synodicae Epistulae_1
-10	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_95|ref=Fragmentum Synodicae Epistulae_1
-11	ἀναπεσών	ἀναπίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ATR	_	t_96|ref=Fragmentum Synodicae Epistulae_1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Fragmentum Synodicae Epistulae_1
-13	·	·	u	u--------	_	12	AuxK	_	t_97|ref=Fragmentum Synodicae Epistulae_1
+1	ἔτι	ἔτι	d	d--------	_	12	ADV	_	t_86|e_4|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_87|e_4|ref=Synod.ep.fr._1
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_88|t_89|ref=Synod.ep.fr._1
+4	Ἰωάννης	ἰώαννης	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_89|e_4|ref=Synod.ep.fr._1
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_90|t_89|ref=Synod.ep.fr._1
+6	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_91|t_96|ref=Synod.ep.fr._1
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_92|t_93|ref=Synod.ep.fr._1
+8	στῆθος	στῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_93|t_91|ref=Synod.ep.fr._1
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_94|t_95|ref=Synod.ep.fr._1
+10	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_95|t_93|ref=Synod.ep.fr._1
+11	ἀναπεσών	ἀναπίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ATR	_	t_96|t_89|ref=Synod.ep.fr._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Synod.ep.fr._1
+13	·	·	u	u--------	_	12	AuxK	_	t_97|e_4|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ὃς ἐγενήθη ἱερεὺς τὸ πέταλον πεφορεκὼς , καὶ μάρτυς καὶ διδάσκαλος ·
 # sent_id = 8
-1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_98|ref=Fragmentum Synodicae Epistulae_1
-2	ἐγενήθη	γίγνομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_99|ref=Fragmentum Synodicae Epistulae_1
-3	ἱερεὺς	ἱερεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_100|ref=Fragmentum Synodicae Epistulae_1
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_101|ref=Fragmentum Synodicae Epistulae_1
-5	πέταλον	πέταλον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_102|ref=Fragmentum Synodicae Epistulae_1
-6	πεφορεκὼς	φορέω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	3	ATR	_	t_103|ref=Fragmentum Synodicae Epistulae_1
-7	,	,	u	u--------	_	10	AuxX	_	t_104|ref=Fragmentum Synodicae Epistulae_1
-8	καὶ	καί	c	c--------	_	10	AuxY	_	t_105|ref=Fragmentum Synodicae Epistulae_1
-9	μάρτυς	μάρτυς	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_106|ref=Fragmentum Synodicae Epistulae_1
-10	καὶ	καί	c	c--------	_	2	COORD	_	t_107|ref=Fragmentum Synodicae Epistulae_1
-11	διδάσκαλος	διδάσκαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_108|ref=Fragmentum Synodicae Epistulae_1
-12	·	·	u	u--------	_	2	AuxK	_	t_109|ref=Fragmentum Synodicae Epistulae_1
+1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_98|t_99|ref=Synod.ep.fr._1
+2	ἐγενήθη	γίγνομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_99|0|ref=Synod.ep.fr._1
+3	ἱερεὺς	ἱερεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_100|t_107|ref=Synod.ep.fr._1
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_101|t_102|ref=Synod.ep.fr._1
+5	πέταλον	πέταλον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_102|t_103|ref=Synod.ep.fr._1
+6	πεφορεκὼς	φορέω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	3	ATR	_	t_103|t_100|ref=Synod.ep.fr._1
+7	,	,	u	u--------	_	10	AuxX	_	t_104|t_107|ref=Synod.ep.fr._1
+8	καὶ	καί	c	c--------	_	10	AuxY	_	t_105|t_107|ref=Synod.ep.fr._1
+9	μάρτυς	μάρτυς	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_106|t_107|ref=Synod.ep.fr._1
+10	καὶ	καί	c	c--------	_	2	COORD	_	t_107|t_99|ref=Synod.ep.fr._1
+11	διδάσκαλος	διδάσκαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_108|t_107|ref=Synod.ep.fr._1
+12	·	·	u	u--------	_	2	AuxK	_	t_109|t_99|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = οὗτος ἐν Ἐφέσῳ κεκοίμηται .
 # sent_id = 9
-1	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_110|ref=Fragmentum Synodicae Epistulae_1
-2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_111|ref=Fragmentum Synodicae Epistulae_1
-3	Ἐφέσῳ	ἔφεσος	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_112|ref=Fragmentum Synodicae Epistulae_1
-4	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_113|ref=Fragmentum Synodicae Epistulae_1
-5	.	.	u	u--------	_	4	AuxK	_	t_114|ref=Fragmentum Synodicae Epistulae_1
+1	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_110|t_113|ref=Synod.ep.fr._1
+2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_111|t_113|ref=Synod.ep.fr._1
+3	Ἐφέσῳ	ἔφεσος	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_112|t_111|ref=Synod.ep.fr._1
+4	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_113|0|ref=Synod.ep.fr._1
+5	.	.	u	u--------	_	4	AuxK	_	t_114|t_113|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἔτι δὲ καὶ Πολύκαρπος ἐν Σμύρνῃ καὶ ἐπίσκοπος καὶ μάρ τυς [0] ·
 # sent_id = 10
-1	ἔτι	ἔτι	d	d--------	_	12	ADV	_	t_115|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_116|ref=Fragmentum Synodicae Epistulae_1
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_117|ref=Fragmentum Synodicae Epistulae_1
-4	Πολύκαρπος	πολύκαρπος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_118|ref=Fragmentum Synodicae Epistulae_1
-5	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_119|ref=Fragmentum Synodicae Epistulae_1
-6	Σμύρνῃ	σμύρνη	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_120|ref=Fragmentum Synodicae Epistulae_1
-7	καὶ	καί	c	c--------	_	9	AuxY	_	t_121|ref=Fragmentum Synodicae Epistulae_1
-8	ἐπίσκοπος	ἐπίσκοπος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_122|ref=Fragmentum Synodicae Epistulae_1
-9	καὶ	καί	c	c--------	_	12	COORD	_	t_123|ref=Fragmentum Synodicae Epistulae_1
-10	μάρ	μάρ	d	d--------	_	9	ADV	_	t_124|ref=Fragmentum Synodicae Epistulae_1
-11	τυς	τυς	l	l-s---nn-	_	10	ADV	_	t_125|ref=Fragmentum Synodicae Epistulae_1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Fragmentum Synodicae Epistulae_1
-13	·	·	u	u--------	_	12	AuxK	_	t_126|ref=Fragmentum Synodicae Epistulae_1
+1	ἔτι	ἔτι	d	d--------	_	12	ADV	_	t_115|e_5|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_116|e_5|ref=Synod.ep.fr._1
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_117|t_118|ref=Synod.ep.fr._1
+4	Πολύκαρπος	πολύκαρπος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_118|e_5|ref=Synod.ep.fr._1
+5	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_119|e_5|ref=Synod.ep.fr._1
+6	Σμύρνῃ	σμύρνη	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_120|t_119|ref=Synod.ep.fr._1
+7	καὶ	καί	c	c--------	_	9	AuxY	_	t_121|t_123|ref=Synod.ep.fr._1
+8	ἐπίσκοπος	ἐπίσκοπος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_122|t_123|ref=Synod.ep.fr._1
+9	καὶ	καί	c	c--------	_	12	COORD	_	t_123|e_5|ref=Synod.ep.fr._1
+10	μάρ	μάρ	d	d--------	_	9	ADV	_	t_124|t_123|ref=Synod.ep.fr._1
+11	τυς	τυς	l	l-s---nn-	_	10	ADV	_	t_125|t_124|ref=Synod.ep.fr._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Synod.ep.fr._1
+13	·	·	u	u--------	_	12	AuxK	_	t_126|e_5|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = καὶ Θρασέας καὶ ἐπίσκοπος καὶ μάρτυς ἀπὸ Εὐμενείας , ὃς ἐν Σμύρνῃ κεκοίμηται [0] .
 # sent_id = 11
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_127|ref=Fragmentum Synodicae Epistulae_1
-2	Θρασέας	θρασύς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_128|ref=Fragmentum Synodicae Epistulae_1
-3	καὶ	καί	d	d--------	_	5	AuxY	_	t_129|ref=Fragmentum Synodicae Epistulae_1
-4	ἐπίσκοπος	ἐπίσκοπος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_130|ref=Fragmentum Synodicae Epistulae_1
-5	καὶ	καί	c	c--------	_	14	COORD	_	t_131|ref=Fragmentum Synodicae Epistulae_1
-6	μάρτυς	μάρτυς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_132|ref=Fragmentum Synodicae Epistulae_1
-7	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_133|ref=Fragmentum Synodicae Epistulae_1
-8	Εὐμενείας	εὐμένεια	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_134|ref=Fragmentum Synodicae Epistulae_1
-9	,	,	u	u--------	_	14	AuxX	_	t_135|ref=Fragmentum Synodicae Epistulae_1
-10	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_136|ref=Fragmentum Synodicae Epistulae_1
-11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_137|ref=Fragmentum Synodicae Epistulae_1
-12	Σμύρνῃ	σμύρνη	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_138|ref=Fragmentum Synodicae Epistulae_1
-13	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	ATR	_	t_139|ref=Fragmentum Synodicae Epistulae_1
-14	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Fragmentum Synodicae Epistulae_1
-15	.	.	u	u--------	_	14	AuxK	_	t_140|ref=Fragmentum Synodicae Epistulae_1
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_127|t_131|ref=Synod.ep.fr._1
+2	Θρασέας	θρασύς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_128|t_131|ref=Synod.ep.fr._1
+3	καὶ	καί	d	d--------	_	5	AuxY	_	t_129|t_131|ref=Synod.ep.fr._1
+4	ἐπίσκοπος	ἐπίσκοπος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_130|t_131|ref=Synod.ep.fr._1
+5	καὶ	καί	c	c--------	_	14	COORD	_	t_131|e_6|ref=Synod.ep.fr._1
+6	μάρτυς	μάρτυς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_132|t_131|ref=Synod.ep.fr._1
+7	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_133|t_132|ref=Synod.ep.fr._1
+8	Εὐμενείας	εὐμένεια	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_134|t_133|ref=Synod.ep.fr._1
+9	,	,	u	u--------	_	14	AuxX	_	t_135|e_6|ref=Synod.ep.fr._1
+10	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_136|t_139|ref=Synod.ep.fr._1
+11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_137|t_139|ref=Synod.ep.fr._1
+12	Σμύρνῃ	σμύρνη	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_138|t_137|ref=Synod.ep.fr._1
+13	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	ATR	_	t_139|t_132|ref=Synod.ep.fr._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Synod.ep.fr._1
+15	.	.	u	u--------	_	14	AuxK	_	t_140|e_6|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = τί δὲ δεῖ λέγειν Σάγαριν ἐπίσκοπον καὶ μάρτυρα , ὃς ἐν Λαοδικείᾳ κεκοίμηται ;
 # sent_id = 12
-1	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_141|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_142|ref=Fragmentum Synodicae Epistulae_1
-3	δεῖ	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_143|ref=Fragmentum Synodicae Epistulae_1
-4	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_144|ref=Fragmentum Synodicae Epistulae_1
-5	Σάγαριν	σάγαρις	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_145|ref=Fragmentum Synodicae Epistulae_1
-6	ἐπίσκοπον	ἐπίσκοπος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_146|ref=Fragmentum Synodicae Epistulae_1
-7	καὶ	καί	c	c--------	_	4	COORD	_	t_147|ref=Fragmentum Synodicae Epistulae_1
-8	μάρτυρα	μάρτυς	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OCOMP	_	t_148|ref=Fragmentum Synodicae Epistulae_1
-9	,	,	u	u--------	_	3	AuxX	_	t_149|ref=Fragmentum Synodicae Epistulae_1
-10	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_150|ref=Fragmentum Synodicae Epistulae_1
-11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_151|ref=Fragmentum Synodicae Epistulae_1
-12	Λαοδικείᾳ	λαοδικεία	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_152|ref=Fragmentum Synodicae Epistulae_1
-13	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	5	ATR	_	t_153|ref=Fragmentum Synodicae Epistulae_1
-14	;	;	u	u--------	_	3	AuxK	_	t_154|ref=Fragmentum Synodicae Epistulae_1
+1	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_141|t_143|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_142|t_143|ref=Synod.ep.fr._1
+3	δεῖ	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_143|0|ref=Synod.ep.fr._1
+4	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_144|t_143|ref=Synod.ep.fr._1
+5	Σάγαριν	σάγαρις	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_145|t_147|ref=Synod.ep.fr._1
+6	ἐπίσκοπον	ἐπίσκοπος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_146|t_145|ref=Synod.ep.fr._1
+7	καὶ	καί	c	c--------	_	4	COORD	_	t_147|t_144|ref=Synod.ep.fr._1
+8	μάρτυρα	μάρτυς	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OCOMP	_	t_148|t_147|ref=Synod.ep.fr._1
+9	,	,	u	u--------	_	3	AuxX	_	t_149|t_143|ref=Synod.ep.fr._1
+10	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_150|t_153|ref=Synod.ep.fr._1
+11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_151|t_153|ref=Synod.ep.fr._1
+12	Λαοδικείᾳ	λαοδικεία	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_152|t_151|ref=Synod.ep.fr._1
+13	κεκοίμηται	κοιμάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	5	ATR	_	t_153|t_145|ref=Synod.ep.fr._1
+14	;	;	u	u--------	_	3	AuxK	_	t_154|t_143|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἔτι δὲ καὶ Παπείριον τὸν μακάριον , καὶ Μελίτωνα τὸν εὐνοῦχον , τὸν ἐν ἁγίῳ πνεύματι πάντα πολιτευσάμενον [0] ·
 # sent_id = 13
-1	ἔτι	ἔτι	d	d--------	_	19	ADV	_	t_155|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	19	AuxY	_	t_156|ref=Fragmentum Synodicae Epistulae_1
-3	καὶ	καί	d	d--------	_	8	AuxY	_	t_157|ref=Fragmentum Synodicae Epistulae_1
-4	Παπείριον	παπείριος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_158|ref=Fragmentum Synodicae Epistulae_1
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_159|ref=Fragmentum Synodicae Epistulae_1
-6	μακάριον	μακάριος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_160|ref=Fragmentum Synodicae Epistulae_1
-7	,	,	u	u--------	_	19	AuxX	_	t_161|ref=Fragmentum Synodicae Epistulae_1
-8	καὶ	καί	c	c--------	_	19	COORD	_	t_162|ref=Fragmentum Synodicae Epistulae_1
-9	Μελίτωνα	μελίτων	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_163|ref=Fragmentum Synodicae Epistulae_1
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_164|ref=Fragmentum Synodicae Epistulae_1
-11	εὐνοῦχον	εὐνοῦχος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_165|ref=Fragmentum Synodicae Epistulae_1
-12	,	,	u	u--------	_	19	AuxX	_	t_166|ref=Fragmentum Synodicae Epistulae_1
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_167|ref=Fragmentum Synodicae Epistulae_1
-14	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_168|ref=Fragmentum Synodicae Epistulae_1
-15	ἁγίῳ	ἅγιος	a	a-s---nd-	Case=d|Gender=n|Number=s	16	ATR	_	t_169|ref=Fragmentum Synodicae Epistulae_1
-16	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	14	ADV	_	t_170|ref=Fragmentum Synodicae Epistulae_1
-17	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_171|ref=Fragmentum Synodicae Epistulae_1
-18	πολιτευσάμενον	πολιτεύω	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	9	ATR	_	t_172|ref=Fragmentum Synodicae Epistulae_1
-19	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Fragmentum Synodicae Epistulae_1
-20	·	·	u	u--------	_	19	AuxK	_	t_173|ref=Fragmentum Synodicae Epistulae_1
+1	ἔτι	ἔτι	d	d--------	_	19	ADV	_	t_155|e_7|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	19	AuxY	_	t_156|e_7|ref=Synod.ep.fr._1
+3	καὶ	καί	d	d--------	_	8	AuxY	_	t_157|t_162|ref=Synod.ep.fr._1
+4	Παπείριον	παπείριος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_158|t_162|ref=Synod.ep.fr._1
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_159|t_158|ref=Synod.ep.fr._1
+6	μακάριον	μακάριος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_160|t_158|ref=Synod.ep.fr._1
+7	,	,	u	u--------	_	19	AuxX	_	t_161|e_7|ref=Synod.ep.fr._1
+8	καὶ	καί	c	c--------	_	19	COORD	_	t_162|e_7|ref=Synod.ep.fr._1
+9	Μελίτωνα	μελίτων	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_163|t_162|ref=Synod.ep.fr._1
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_164|t_163|ref=Synod.ep.fr._1
+11	εὐνοῦχον	εὐνοῦχος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_165|t_163|ref=Synod.ep.fr._1
+12	,	,	u	u--------	_	19	AuxX	_	t_166|e_7|ref=Synod.ep.fr._1
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_167|t_163|ref=Synod.ep.fr._1
+14	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_168|t_172|ref=Synod.ep.fr._1
+15	ἁγίῳ	ἅγιος	a	a-s---nd-	Case=d|Gender=n|Number=s	16	ATR	_	t_169|t_170|ref=Synod.ep.fr._1
+16	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	14	ADV	_	t_170|t_168|ref=Synod.ep.fr._1
+17	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_171|t_172|ref=Synod.ep.fr._1
+18	πολιτευσάμενον	πολιτεύω	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	9	ATR	_	t_172|t_163|ref=Synod.ep.fr._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Synod.ep.fr._1
+20	·	·	u	u--------	_	19	AuxK	_	t_173|e_7|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ὃς κεῖται ἐν Σάρδεσι περιμένων τὴν ἀπὸ τῶν οὐρανῶν ἐπισκοπὴν , ἐν ᾗ ἐκ νεκρῶν ἀναστήσεται .
 # sent_id = 14
-1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_174|ref=Fragmentum Synodicae Epistulae_1
-2	κεῖται	κεῖμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_175|ref=Fragmentum Synodicae Epistulae_1
-3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_176|ref=Fragmentum Synodicae Epistulae_1
-4	Σάρδεσι	σάρδεις	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_177|ref=Fragmentum Synodicae Epistulae_1
-5	περιμένων	περιμένω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_178|ref=Fragmentum Synodicae Epistulae_1
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_179|ref=Fragmentum Synodicae Epistulae_1
-7	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_180|ref=Fragmentum Synodicae Epistulae_1
-8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_181|ref=Fragmentum Synodicae Epistulae_1
-9	οὐρανῶν	οὐρανός	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_182|ref=Fragmentum Synodicae Epistulae_1
-10	ἐπισκοπὴν	ἐπισκοπή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_183|ref=Fragmentum Synodicae Epistulae_1
-11	,	,	u	u--------	_	2	AuxX	_	t_184|ref=Fragmentum Synodicae Epistulae_1
-12	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_185|ref=Fragmentum Synodicae Epistulae_1
-13	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_186|ref=Fragmentum Synodicae Epistulae_1
-14	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_187|ref=Fragmentum Synodicae Epistulae_1
-15	νεκρῶν	νεκρός	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_188|ref=Fragmentum Synodicae Epistulae_1
-16	ἀναστήσεται	ἀνίστημι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	10	ATR	_	t_189|ref=Fragmentum Synodicae Epistulae_1
-17	.	.	u	u--------	_	2	AuxK	_	t_190|ref=Fragmentum Synodicae Epistulae_1
+1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_174|t_175|ref=Synod.ep.fr._1
+2	κεῖται	κεῖμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_175|0|ref=Synod.ep.fr._1
+3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_176|t_175|ref=Synod.ep.fr._1
+4	Σάρδεσι	σάρδεις	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_177|t_176|ref=Synod.ep.fr._1
+5	περιμένων	περιμένω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_178|t_175|ref=Synod.ep.fr._1
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_179|t_183|ref=Synod.ep.fr._1
+7	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_180|t_183|ref=Synod.ep.fr._1
+8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_181|t_182|ref=Synod.ep.fr._1
+9	οὐρανῶν	οὐρανός	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_182|t_180|ref=Synod.ep.fr._1
+10	ἐπισκοπὴν	ἐπισκοπή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_183|t_178|ref=Synod.ep.fr._1
+11	,	,	u	u--------	_	2	AuxX	_	t_184|t_175|ref=Synod.ep.fr._1
+12	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_185|t_189|ref=Synod.ep.fr._1
+13	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_186|t_185|ref=Synod.ep.fr._1
+14	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_187|t_189|ref=Synod.ep.fr._1
+15	νεκρῶν	νεκρός	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_188|t_187|ref=Synod.ep.fr._1
+16	ἀναστήσεται	ἀνίστημι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	10	ATR	_	t_189|t_183|ref=Synod.ep.fr._1
+17	.	.	u	u--------	_	2	AuxK	_	t_190|t_175|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = οὗτοι πάντες ἐτήρησαν τὴν ἡμέραν τῆς τεσσαρεσκαιδεκάτης τοῦ πάσχα κατὰ τὸ εὐαγγέλιον ·
 # sent_id = 15
-1	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_191|ref=Fragmentum Synodicae Epistulae_1
-2	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	1	ATR	_	t_192|ref=Fragmentum Synodicae Epistulae_1
-3	ἐτήρησαν	τηρέω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_193|ref=Fragmentum Synodicae Epistulae_1
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_194|ref=Fragmentum Synodicae Epistulae_1
-5	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_195|ref=Fragmentum Synodicae Epistulae_1
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_196|ref=Fragmentum Synodicae Epistulae_1
-7	τεσσαρεσκαιδεκάτης	τεσσαρεσκαιδέκατος	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_197|ref=Fragmentum Synodicae Epistulae_1
-8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_198|ref=Fragmentum Synodicae Epistulae_1
-9	πάσχα	πάσχα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_199|ref=Fragmentum Synodicae Epistulae_1
-10	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_200|ref=Fragmentum Synodicae Epistulae_1
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_201|ref=Fragmentum Synodicae Epistulae_1
-12	εὐαγγέλιον	εὐαγγέλιον	n	n-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_202|ref=Fragmentum Synodicae Epistulae_1
-13	·	·	u	u--------	_	3	AuxK	_	t_203|ref=Fragmentum Synodicae Epistulae_1
+1	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_191|t_193|ref=Synod.ep.fr._1
+2	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	1	ATR	_	t_192|t_191|ref=Synod.ep.fr._1
+3	ἐτήρησαν	τηρέω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_193|0|ref=Synod.ep.fr._1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_194|t_195|ref=Synod.ep.fr._1
+5	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_195|t_193|ref=Synod.ep.fr._1
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_196|t_197|ref=Synod.ep.fr._1
+7	τεσσαρεσκαιδεκάτης	τεσσαρεσκαιδέκατος	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_197|t_193|ref=Synod.ep.fr._1
+8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_198|t_199|ref=Synod.ep.fr._1
+9	πάσχα	πάσχα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_199|t_197|ref=Synod.ep.fr._1
+10	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_200|t_193|ref=Synod.ep.fr._1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_201|t_202|ref=Synod.ep.fr._1
+12	εὐαγγέλιον	εὐαγγέλιον	n	n-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_202|t_200|ref=Synod.ep.fr._1
+13	·	·	u	u--------	_	3	AuxK	_	t_203|t_193|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = μηδὲν παρεκβαίνοντες , ἀλλὰ κατὰ τὸν κανόνα τῆς πίστεως ἀκολουθοῦντες ·
 # sent_id = 16
-1	μηδὲν	μηδείς	p	p-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_204|ref=Fragmentum Synodicae Epistulae_1
-2	παρεκβαίνοντες	παρεκβαίνω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_205|ref=Fragmentum Synodicae Epistulae_1
-3	,	,	u	u--------	_	0	AuxX	_	t_206|ref=Fragmentum Synodicae Epistulae_1
-4	ἀλλὰ	ἀλλά	c	c--------	_	3	COORD	_	t_207|ref=Fragmentum Synodicae Epistulae_1
-5	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_208|ref=Fragmentum Synodicae Epistulae_1
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_209|ref=Fragmentum Synodicae Epistulae_1
-7	κανόνα	κανών	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_210|ref=Fragmentum Synodicae Epistulae_1
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_211|ref=Fragmentum Synodicae Epistulae_1
-9	πίστεως	πίστις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_212|ref=Fragmentum Synodicae Epistulae_1
-10	ἀκολουθοῦντες	ἀκολουθέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_213|ref=Fragmentum Synodicae Epistulae_1
-11	·	·	u	u--------	_	3	AuxK	_	t_214|ref=Fragmentum Synodicae Epistulae_1
+1	μηδὲν	μηδείς	p	p-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_204|t_205|ref=Synod.ep.fr._1
+2	παρεκβαίνοντες	παρεκβαίνω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_205|t_207|ref=Synod.ep.fr._1
+3	,	,	u	u--------	_	0	AuxX	_	t_206|0|ref=Synod.ep.fr._1
+4	ἀλλὰ	ἀλλά	c	c--------	_	3	COORD	_	t_207|t_206|ref=Synod.ep.fr._1
+5	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_208|t_213|ref=Synod.ep.fr._1
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_209|t_210|ref=Synod.ep.fr._1
+7	κανόνα	κανών	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_210|t_208|ref=Synod.ep.fr._1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_211|t_212|ref=Synod.ep.fr._1
+9	πίστεως	πίστις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_212|t_210|ref=Synod.ep.fr._1
+10	ἀκολουθοῦντες	ἀκολουθέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_213|t_207|ref=Synod.ep.fr._1
+11	·	·	u	u--------	_	3	AuxK	_	t_214|t_206|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἔτι δὲ κᾀγὼ ὁ μικρότερος πάντων ὑμῶν Πολυκράτης , κατὰ παράδοσιν τῶν συγγενῶν μου , οἷς καὶ παρηκολούθησα τισὶν αὐτῶν [0] .
 # sent_id = 17
-1	ἔτι	ἔτι	d	d--------	_	21	ADV	_	t_215|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_216|ref=Fragmentum Synodicae Epistulae_1
-3	κᾀγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	21	SBJ	_	t_217|ref=Fragmentum Synodicae Epistulae_1
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_218|ref=Fragmentum Synodicae Epistulae_1
-5	μικρότερος	μικρός	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	8	ATR	_	t_219|ref=Fragmentum Synodicae Epistulae_1
-6	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_220|ref=Fragmentum Synodicae Epistulae_1
-7	ὑμῶν	σύ	p	p-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_221|ref=Fragmentum Synodicae Epistulae_1
-8	Πολυκράτης	πολυκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	21	SBJ	_	t_222|ref=Fragmentum Synodicae Epistulae_1
-9	,	,	u	u--------	_	21	AuxX	_	t_223|ref=Fragmentum Synodicae Epistulae_1
-10	κατὰ	κατά	r	r--------	_	21	AuxP	_	t_224|ref=Fragmentum Synodicae Epistulae_1
-11	παράδοσιν	παράδοσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_225|ref=Fragmentum Synodicae Epistulae_1
-12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_226|ref=Fragmentum Synodicae Epistulae_1
-13	συγγενῶν	συγγενής	a	a-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_227|ref=Fragmentum Synodicae Epistulae_1
-14	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	13	ATR	_	t_228|ref=Fragmentum Synodicae Epistulae_1
-15	,	,	u	u--------	_	21	AuxX	_	t_229|ref=Fragmentum Synodicae Epistulae_1
-16	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_230|ref=Fragmentum Synodicae Epistulae_1
-17	καὶ	καί	d	d--------	_	18	AuxZ	_	t_231|ref=Fragmentum Synodicae Epistulae_1
-18	παρηκολούθησα	παρακολουθέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	13	ATR	_	t_232|ref=Fragmentum Synodicae Epistulae_1
-19	τισὶν	τις	p	p-p---md-	Case=d|Gender=c|Number=p	18	OBJ	_	t_233|ref=Fragmentum Synodicae Epistulae_1
-20	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_234|ref=Fragmentum Synodicae Epistulae_1
-21	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Fragmentum Synodicae Epistulae_1
-22	.	.	u	u--------	_	21	AuxK	_	t_235|ref=Fragmentum Synodicae Epistulae_1
+1	ἔτι	ἔτι	d	d--------	_	21	ADV	_	t_215|e_8|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_216|e_8|ref=Synod.ep.fr._1
+3	κᾀγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	21	SBJ	_	t_217|e_8|ref=Synod.ep.fr._1
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_218|t_222|ref=Synod.ep.fr._1
+5	μικρότερος	μικρός	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	8	ATR	_	t_219|t_222|ref=Synod.ep.fr._1
+6	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_220|t_219|ref=Synod.ep.fr._1
+7	ὑμῶν	σύ	p	p-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_221|t_219|ref=Synod.ep.fr._1
+8	Πολυκράτης	πολυκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	21	SBJ	_	t_222|e_8|ref=Synod.ep.fr._1
+9	,	,	u	u--------	_	21	AuxX	_	t_223|e_8|ref=Synod.ep.fr._1
+10	κατὰ	κατά	r	r--------	_	21	AuxP	_	t_224|e_8|ref=Synod.ep.fr._1
+11	παράδοσιν	παράδοσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_225|t_224|ref=Synod.ep.fr._1
+12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_226|t_227|ref=Synod.ep.fr._1
+13	συγγενῶν	συγγενής	a	a-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_227|t_225|ref=Synod.ep.fr._1
+14	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	13	ATR	_	t_228|t_227|ref=Synod.ep.fr._1
+15	,	,	u	u--------	_	21	AuxX	_	t_229|e_8|ref=Synod.ep.fr._1
+16	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_230|t_232|ref=Synod.ep.fr._1
+17	καὶ	καί	d	d--------	_	18	AuxZ	_	t_231|t_232|ref=Synod.ep.fr._1
+18	παρηκολούθησα	παρακολουθέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	13	ATR	_	t_232|t_227|ref=Synod.ep.fr._1
+19	τισὶν	τις	p	p-p---md-	Case=d|Gender=c|Number=p	18	OBJ	_	t_233|t_232|ref=Synod.ep.fr._1
+20	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_234|t_233|ref=Synod.ep.fr._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Synod.ep.fr._1
+22	.	.	u	u--------	_	21	AuxK	_	t_235|e_8|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἑπτὰ μὲν ἦσαν συγγενεῖς μου ἐπίσκοποι , ἐγὼ δὲ ὄγδοος [0] ·
 # sent_id = 18
-1	ἑπτὰ	ἑπτὰ	m	m--------	_	4	ATR	_	t_236|ref=Fragmentum Synodicae Epistulae_1
-2	μὲν	μέν	g	g--------	_	9	AuxY	_	t_237|ref=Fragmentum Synodicae Epistulae_1
-3	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	9	PRED	_	t_238|ref=Fragmentum Synodicae Epistulae_1
-4	συγγενεῖς	συγγενής	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_239|ref=Fragmentum Synodicae Epistulae_1
-5	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_240|ref=Fragmentum Synodicae Epistulae_1
-6	ἐπίσκοποι	ἐπίσκοπος	n	n-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_241|ref=Fragmentum Synodicae Epistulae_1
-7	,	,	u	u--------	_	9	AuxX	_	t_242|ref=Fragmentum Synodicae Epistulae_1
-8	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_243|ref=Fragmentum Synodicae Epistulae_1
-9	δὲ	δέ	g	g--------	_	0	COORD	_	t_244|ref=Fragmentum Synodicae Epistulae_1
-10	ὄγδοος	ὄγδοος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_245|ref=Fragmentum Synodicae Epistulae_1
-11	[0]	[0]	-	---------	_	9	PRED	_	e_9|ref=Fragmentum Synodicae Epistulae_1
-12	·	·	u	u--------	_	9	AuxK	_	t_246|ref=Fragmentum Synodicae Epistulae_1
+1	ἑπτὰ	ἑπτὰ	m	m--------	_	4	ATR	_	t_236|t_239|ref=Synod.ep.fr._1
+2	μὲν	μέν	g	g--------	_	9	AuxY	_	t_237|t_244|ref=Synod.ep.fr._1
+3	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	9	PRED	_	t_238|t_244|ref=Synod.ep.fr._1
+4	συγγενεῖς	συγγενής	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_239|t_238|ref=Synod.ep.fr._1
+5	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_240|t_239|ref=Synod.ep.fr._1
+6	ἐπίσκοποι	ἐπίσκοπος	n	n-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_241|t_238|ref=Synod.ep.fr._1
+7	,	,	u	u--------	_	9	AuxX	_	t_242|t_244|ref=Synod.ep.fr._1
+8	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_243|e_9|ref=Synod.ep.fr._1
+9	δὲ	δέ	g	g--------	_	0	COORD	_	t_244|0|ref=Synod.ep.fr._1
+10	ὄγδοος	ὄγδοος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_245|e_9|ref=Synod.ep.fr._1
+11	[0]	[0]	-	---------	_	9	PRED	_	e_9|t_244|ref=Synod.ep.fr._1
+12	·	·	u	u--------	_	9	AuxK	_	t_246|t_244|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = καὶ πάντοτε τὴν ἡμέραν ἤγαγον οἱ συγγενεῖς μου , ὅταν ὁ λαὸς ἤρνυε τὴν ζύμην .
 # sent_id = 19
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_247|ref=Fragmentum Synodicae Epistulae_1
-2	πάντοτε	πάντοτε	d	d--------	_	5	ADV	_	t_248|ref=Fragmentum Synodicae Epistulae_1
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_249|ref=Fragmentum Synodicae Epistulae_1
-4	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_250|ref=Fragmentum Synodicae Epistulae_1
-5	ἤγαγον	ἄγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_251|ref=Fragmentum Synodicae Epistulae_1
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_252|ref=Fragmentum Synodicae Epistulae_1
-7	συγγενεῖς	συγγενής	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_253|ref=Fragmentum Synodicae Epistulae_1
-8	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_254|ref=Fragmentum Synodicae Epistulae_1
-9	,	,	u	u--------	_	5	AuxX	_	t_255|ref=Fragmentum Synodicae Epistulae_1
-10	ὅταν	ὅταν	c	c--------	_	5	AuxC	_	t_256|ref=Fragmentum Synodicae Epistulae_1
-11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_257|ref=Fragmentum Synodicae Epistulae_1
-12	λαὸς	λαός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_258|ref=Fragmentum Synodicae Epistulae_1
-13	ἤρνυε	ἀρνύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	10	ADV	_	t_259|ref=Fragmentum Synodicae Epistulae_1
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_260|ref=Fragmentum Synodicae Epistulae_1
-15	ζύμην	ζύμη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_261|ref=Fragmentum Synodicae Epistulae_1
-16	.	.	u	u--------	_	5	AuxK	_	t_262|ref=Fragmentum Synodicae Epistulae_1
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_247|t_251|ref=Synod.ep.fr._1
+2	πάντοτε	πάντοτε	d	d--------	_	5	ADV	_	t_248|t_251|ref=Synod.ep.fr._1
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_249|t_250|ref=Synod.ep.fr._1
+4	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_250|t_251|ref=Synod.ep.fr._1
+5	ἤγαγον	ἄγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_251|0|ref=Synod.ep.fr._1
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_252|t_253|ref=Synod.ep.fr._1
+7	συγγενεῖς	συγγενής	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_253|t_251|ref=Synod.ep.fr._1
+8	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_254|t_253|ref=Synod.ep.fr._1
+9	,	,	u	u--------	_	5	AuxX	_	t_255|t_251|ref=Synod.ep.fr._1
+10	ὅταν	ὅταν	c	c--------	_	5	AuxC	_	t_256|t_251|ref=Synod.ep.fr._1
+11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_257|t_258|ref=Synod.ep.fr._1
+12	λαὸς	λαός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_258|t_259|ref=Synod.ep.fr._1
+13	ἤρνυε	ἀρνύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	10	ADV	_	t_259|t_256|ref=Synod.ep.fr._1
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_260|t_261|ref=Synod.ep.fr._1
+15	ζύμην	ζύμη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_261|t_259|ref=Synod.ep.fr._1
+16	.	.	u	u--------	_	5	AuxK	_	t_262|t_251|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ἐγὼ οὖν , ἀδελφοὶ , ἑξήκοντα πέντε ἔτη ἔχων ἐν Κυρίῳ [0] ·
 # sent_id = 20
-1	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	12	SBJ	_	t_263|ref=Fragmentum Synodicae Epistulae_1
-2	οὖν	οὖν	d	d--------	_	12	AuxY	_	t_264|ref=Fragmentum Synodicae Epistulae_1
-3	,	,	u	u--------	_	12	AuxX	_	t_265|ref=Fragmentum Synodicae Epistulae_1
-4	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	12	ExD	_	t_266|ref=Fragmentum Synodicae Epistulae_1
-5	,	,	u	u--------	_	12	AuxX	_	t_267|ref=Fragmentum Synodicae Epistulae_1
-6	ἑξήκοντα	ἑξήκοντα	a	a--------	_	8	ATR	_	t_268|ref=Fragmentum Synodicae Epistulae_1
-7	πέντε	πέντε	a	a--------	_	8	ATR	_	t_269|ref=Fragmentum Synodicae Epistulae_1
-8	ἔτη	ἔτος	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_270|ref=Fragmentum Synodicae Epistulae_1
-9	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_271|ref=Fragmentum Synodicae Epistulae_1
-10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_272|ref=Fragmentum Synodicae Epistulae_1
-11	Κυρίῳ	κύριος	n	n-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_273|ref=Fragmentum Synodicae Epistulae_1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Fragmentum Synodicae Epistulae_1
-13	·	·	u	u--------	_	12	AuxK	_	t_274|ref=Fragmentum Synodicae Epistulae_1
+1	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	12	SBJ	_	t_263|e_10|ref=Synod.ep.fr._1
+2	οὖν	οὖν	d	d--------	_	12	AuxY	_	t_264|e_10|ref=Synod.ep.fr._1
+3	,	,	u	u--------	_	12	AuxX	_	t_265|e_10|ref=Synod.ep.fr._1
+4	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	12	ExD	_	t_266|e_10|ref=Synod.ep.fr._1
+5	,	,	u	u--------	_	12	AuxX	_	t_267|e_10|ref=Synod.ep.fr._1
+6	ἑξήκοντα	ἑξήκοντα	a	a--------	_	8	ATR	_	t_268|t_270|ref=Synod.ep.fr._1
+7	πέντε	πέντε	a	a--------	_	8	ATR	_	t_269|t_270|ref=Synod.ep.fr._1
+8	ἔτη	ἔτος	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_270|t_271|ref=Synod.ep.fr._1
+9	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_271|e_10|ref=Synod.ep.fr._1
+10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_272|t_271|ref=Synod.ep.fr._1
+11	Κυρίῳ	κύριος	n	n-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_273|t_272|ref=Synod.ep.fr._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Synod.ep.fr._1
+13	·	·	u	u--------	_	12	AuxK	_	t_274|e_10|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = καὶ συμβεβληκὼς τοῖς ἀπὸ τῆς οἰκουμένης ἀδελφοῖς [0] ·
 # sent_id = 21
-1	καὶ	καί	c	c--------	_	8	AuxY	_	t_275|ref=Fragmentum Synodicae Epistulae_1
-2	συμβεβληκὼς	συμβάλλω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	8	PNOM	_	t_276|ref=Fragmentum Synodicae Epistulae_1
-3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_277|ref=Fragmentum Synodicae Epistulae_1
-4	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_278|ref=Fragmentum Synodicae Epistulae_1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_279|ref=Fragmentum Synodicae Epistulae_1
-6	οἰκουμένης	οἰκουμένη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_280|ref=Fragmentum Synodicae Epistulae_1
-7	ἀδελφοῖς	ἀδελφός	n	n-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_281|ref=Fragmentum Synodicae Epistulae_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Fragmentum Synodicae Epistulae_1
-9	·	·	u	u--------	_	8	AuxK	_	t_282|ref=Fragmentum Synodicae Epistulae_1
+1	καὶ	καί	c	c--------	_	8	AuxY	_	t_275|e_11|ref=Synod.ep.fr._1
+2	συμβεβληκὼς	συμβάλλω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	8	PNOM	_	t_276|e_11|ref=Synod.ep.fr._1
+3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_277|t_281|ref=Synod.ep.fr._1
+4	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_278|t_281|ref=Synod.ep.fr._1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_279|t_280|ref=Synod.ep.fr._1
+6	οἰκουμένης	οἰκουμένη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_280|t_278|ref=Synod.ep.fr._1
+7	ἀδελφοῖς	ἀδελφός	n	n-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_281|t_276|ref=Synod.ep.fr._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Synod.ep.fr._1
+9	·	·	u	u--------	_	8	AuxK	_	t_282|e_11|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = καὶ πᾶσαν ἁγίαν γραφὴν διεληλυθὼς , οὐ πτύρομαι ἐπὶ τοῖς καταπλησσομένοις .
 # sent_id = 22
-1	καὶ	καί	c	c--------	_	8	AuxY	_	t_283|ref=Fragmentum Synodicae Epistulae_1
-2	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_284|ref=Fragmentum Synodicae Epistulae_1
-3	ἁγίαν	ἅγιος	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_285|ref=Fragmentum Synodicae Epistulae_1
-4	γραφὴν	γραφή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_286|ref=Fragmentum Synodicae Epistulae_1
-5	διεληλυθὼς	διέρχομαι	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	8	ADV	_	t_287|ref=Fragmentum Synodicae Epistulae_1
-6	,	,	u	u--------	_	5	AuxX	_	t_288|ref=Fragmentum Synodicae Epistulae_1
-7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_289|ref=Fragmentum Synodicae Epistulae_1
-8	πτύρομαι	πτύω	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_290|ref=Fragmentum Synodicae Epistulae_1
-9	ἐπὶ	ἐπί	r	r--------	_	8	AuxP	_	t_291|ref=Fragmentum Synodicae Epistulae_1
-10	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_292|ref=Fragmentum Synodicae Epistulae_1
-11	καταπλησσομένοις	καταπλάσσω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	ADV	_	t_293|ref=Fragmentum Synodicae Epistulae_1
-12	.	.	u	u--------	_	8	AuxK	_	t_294|ref=Fragmentum Synodicae Epistulae_1
+1	καὶ	καί	c	c--------	_	8	AuxY	_	t_283|t_290|ref=Synod.ep.fr._1
+2	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_284|t_286|ref=Synod.ep.fr._1
+3	ἁγίαν	ἅγιος	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_285|t_286|ref=Synod.ep.fr._1
+4	γραφὴν	γραφή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_286|t_287|ref=Synod.ep.fr._1
+5	διεληλυθὼς	διέρχομαι	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	8	ADV	_	t_287|t_290|ref=Synod.ep.fr._1
+6	,	,	u	u--------	_	5	AuxX	_	t_288|t_287|ref=Synod.ep.fr._1
+7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_289|t_290|ref=Synod.ep.fr._1
+8	πτύρομαι	πτύω	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_290|0|ref=Synod.ep.fr._1
+9	ἐπὶ	ἐπί	r	r--------	_	8	AuxP	_	t_291|t_290|ref=Synod.ep.fr._1
+10	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_292|t_293|ref=Synod.ep.fr._1
+11	καταπλησσομένοις	καταπλάσσω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	ADV	_	t_293|t_291|ref=Synod.ep.fr._1
+12	.	.	u	u--------	_	8	AuxK	_	t_294|t_290|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = οἱ γὰρ ἐμοῦ μείζονες εἰρήκάσι , πειθαρχεῖν δεῖ Θεῷ μᾶλλον ἢ ἀνθρώποις [0] .
 # sent_id = 23
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_295|ref=Fragmentum Synodicae Epistulae_1
-2	γὰρ	γάρ	g	g--------	_	5	AuxY	_	t_296|ref=Fragmentum Synodicae Epistulae_1
-3	ἐμοῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=f|Number=s	4	ADV	_	t_297|ref=Fragmentum Synodicae Epistulae_1
-4	μείζονες	μέγας	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	5	SBJ	_	t_298|ref=Fragmentum Synodicae Epistulae_1
-5	εἰρήκάσι	εἰρήκω	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	6	PRED	_	t_299|ref=Fragmentum Synodicae Epistulae_1
-6	,	,	u	u--------	_	0	COORD	_	t_300|ref=Fragmentum Synodicae Epistulae_1
-7	πειθαρχεῖν	πειθαρχέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_301|ref=Fragmentum Synodicae Epistulae_1
-8	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_302|ref=Fragmentum Synodicae Epistulae_1
-9	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_303|ref=Fragmentum Synodicae Epistulae_1
-10	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	7	ADV	_	t_304|ref=Fragmentum Synodicae Epistulae_1
-11	ἢ	ἤ1	c	c--------	_	10	AuxC	_	t_305|ref=Fragmentum Synodicae Epistulae_1
-12	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_306|ref=Fragmentum Synodicae Epistulae_1
-13	[0]	[0]	-	---------	_	11	ADV	_	e_12|ref=Fragmentum Synodicae Epistulae_1
-14	.	.	u	u--------	_	6	AuxK	_	t_307|ref=Fragmentum Synodicae Epistulae_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_295|t_298|ref=Synod.ep.fr._1
+2	γὰρ	γάρ	g	g--------	_	5	AuxY	_	t_296|t_299|ref=Synod.ep.fr._1
+3	ἐμοῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=f|Number=s	4	ADV	_	t_297|t_298|ref=Synod.ep.fr._1
+4	μείζονες	μέγας	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	5	SBJ	_	t_298|t_299|ref=Synod.ep.fr._1
+5	εἰρήκάσι	εἰρήκω	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	6	PRED	_	t_299|t_300|ref=Synod.ep.fr._1
+6	,	,	u	u--------	_	0	COORD	_	t_300|0|ref=Synod.ep.fr._1
+7	πειθαρχεῖν	πειθαρχέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_301|t_302|ref=Synod.ep.fr._1
+8	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_302|t_300|ref=Synod.ep.fr._1
+9	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_303|t_301|ref=Synod.ep.fr._1
+10	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	7	ADV	_	t_304|t_301|ref=Synod.ep.fr._1
+11	ἢ	ἤ1	c	c--------	_	10	AuxC	_	t_305|t_304|ref=Synod.ep.fr._1
+12	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_306|e_12|ref=Synod.ep.fr._1
+13	[0]	[0]	-	---------	_	11	ADV	_	e_12|t_305|ref=Synod.ep.fr._1
+14	.	.	u	u--------	_	6	AuxK	_	t_307|t_300|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = Ἐδυνάμην δὲ τῶν ἐπισκόπων τῶν συμπαρόντων μνημονεῦσαι , οὓς ὑμεῖς ἠξιώσατε μετακληθῆναι ὑπʼ ἐμοῦ , καὶ μετεκαλεσάμην ·
 # sent_id = 24
-1	Ἐδυνάμην	δύναμαι	v	v1siie---	Mood=i|Number=s|Person=1|Tense=i|Voice=e	16	PRED	_	t_308|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_309|ref=Fragmentum Synodicae Epistulae_1
-3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_310|ref=Fragmentum Synodicae Epistulae_1
-4	ἐπισκόπων	ἐπίσκοπος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	OBJ	_	t_311|ref=Fragmentum Synodicae Epistulae_1
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_312|ref=Fragmentum Synodicae Epistulae_1
-6	συμπαρόντων	συμπάρειμι1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ATR	_	t_313|ref=Fragmentum Synodicae Epistulae_1
-7	μνημονεῦσαι	μνημονέω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_314|ref=Fragmentum Synodicae Epistulae_1
-8	,	,	u	u--------	_	0	AuxX	_	t_315|ref=Fragmentum Synodicae Epistulae_1
-9	οὓς	ὅς	p	p-p---ma-	Case=a|Gender=m|Number=p	12	SBJ	_	t_316|ref=Fragmentum Synodicae Epistulae_1
-10	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_317|ref=Fragmentum Synodicae Epistulae_1
-11	ἠξιώσατε	ἀξιόω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	4	ATR	_	t_318|ref=Fragmentum Synodicae Epistulae_1
-12	μετακληθῆναι	μετακαλέω	v	v--anp---	Mood=n|Tense=a|Voice=p	11	OBJ	_	t_319|ref=Fragmentum Synodicae Epistulae_1
-13	ὑπʼ	ὑπό	r	r--------	_	12	AuxP	_	t_320|ref=Fragmentum Synodicae Epistulae_1
-14	ἐμοῦ	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	13	OBJ	_	t_321|ref=Fragmentum Synodicae Epistulae_1
-15	,	,	u	u--------	_	8	AuxX	_	t_322|ref=Fragmentum Synodicae Epistulae_1
-16	καὶ	καί	c	c--------	_	8	COORD	_	t_323|ref=Fragmentum Synodicae Epistulae_1
-17	μετεκαλεσάμην	μετακαλέω	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	16	PRED	_	t_324|ref=Fragmentum Synodicae Epistulae_1
-18	·	·	u	u--------	_	8	AuxK	_	t_325|ref=Fragmentum Synodicae Epistulae_1
+1	Ἐδυνάμην	δύναμαι	v	v1siie---	Mood=i|Number=s|Person=1|Tense=i|Voice=e	16	PRED	_	t_308|t_323|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_309|t_323|ref=Synod.ep.fr._1
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_310|t_311|ref=Synod.ep.fr._1
+4	ἐπισκόπων	ἐπίσκοπος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	OBJ	_	t_311|t_314|ref=Synod.ep.fr._1
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_312|t_311|ref=Synod.ep.fr._1
+6	συμπαρόντων	συμπάρειμι1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	4	ATR	_	t_313|t_311|ref=Synod.ep.fr._1
+7	μνημονεῦσαι	μνημονέω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_314|t_308|ref=Synod.ep.fr._1
+8	,	,	u	u--------	_	0	AuxX	_	t_315|0|ref=Synod.ep.fr._1
+9	οὓς	ὅς	p	p-p---ma-	Case=a|Gender=m|Number=p	12	SBJ	_	t_316|t_319|ref=Synod.ep.fr._1
+10	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_317|t_318|ref=Synod.ep.fr._1
+11	ἠξιώσατε	ἀξιόω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	4	ATR	_	t_318|t_311|ref=Synod.ep.fr._1
+12	μετακληθῆναι	μετακαλέω	v	v--anp---	Mood=n|Tense=a|Voice=p	11	OBJ	_	t_319|t_318|ref=Synod.ep.fr._1
+13	ὑπʼ	ὑπό	r	r--------	_	12	AuxP	_	t_320|t_319|ref=Synod.ep.fr._1
+14	ἐμοῦ	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	13	OBJ	_	t_321|t_320|ref=Synod.ep.fr._1
+15	,	,	u	u--------	_	8	AuxX	_	t_322|t_315|ref=Synod.ep.fr._1
+16	καὶ	καί	c	c--------	_	8	COORD	_	t_323|t_315|ref=Synod.ep.fr._1
+17	μετεκαλεσάμην	μετακαλέω	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	16	PRED	_	t_324|t_323|ref=Synod.ep.fr._1
+18	·	·	u	u--------	_	8	AuxK	_	t_325|t_315|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = ὧν τὰ ὀνόματα ἐὰν γράφω , πολλὰ πλήθη εἰσίν .
 # sent_id = 25
-1	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_326|ref=Fragmentum Synodicae Epistulae_1
-2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_327|ref=Fragmentum Synodicae Epistulae_1
-3	ὀνόματα	ὄνομα	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_328|ref=Fragmentum Synodicae Epistulae_1
-4	ἐὰν	ἐάν	c	c--------	_	9	AuxC	_	t_329|ref=Fragmentum Synodicae Epistulae_1
-5	γράφω	γράφω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	4	ADV	_	t_330|ref=Fragmentum Synodicae Epistulae_1
-6	,	,	u	u--------	_	9	AuxX	_	t_331|ref=Fragmentum Synodicae Epistulae_1
-7	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_332|ref=Fragmentum Synodicae Epistulae_1
-8	πλήθη	πλῆθος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_333|ref=Fragmentum Synodicae Epistulae_1
-9	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_334|ref=Fragmentum Synodicae Epistulae_1
-10	.	.	u	u--------	_	9	AuxK	_	t_335|ref=Fragmentum Synodicae Epistulae_1
+1	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_326|t_328|ref=Synod.ep.fr._1
+2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_327|t_328|ref=Synod.ep.fr._1
+3	ὀνόματα	ὄνομα	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_328|t_330|ref=Synod.ep.fr._1
+4	ἐὰν	ἐάν	c	c--------	_	9	AuxC	_	t_329|t_334|ref=Synod.ep.fr._1
+5	γράφω	γράφω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	4	ADV	_	t_330|t_329|ref=Synod.ep.fr._1
+6	,	,	u	u--------	_	9	AuxX	_	t_331|t_334|ref=Synod.ep.fr._1
+7	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_332|t_333|ref=Synod.ep.fr._1
+8	πλήθη	πλῆθος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_333|t_334|ref=Synod.ep.fr._1
+9	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_334|0|ref=Synod.ep.fr._1
+10	.	.	u	u--------	_	9	AuxK	_	t_335|t_334|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = οἱ δὲ ἰδόντες τὸν μικρόν μου ἄνθρωπον , συνηυδόκησαν τῇ ἐπιστολῇ ·
 # sent_id = 26
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_336|ref=Fragmentum Synodicae Epistulae_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_337|ref=Fragmentum Synodicae Epistulae_1
-3	ἰδόντες	εἶδον	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	9	ADV	_	t_338|ref=Fragmentum Synodicae Epistulae_1
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_339|ref=Fragmentum Synodicae Epistulae_1
-5	μικρόν	μικρός	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_340|ref=Fragmentum Synodicae Epistulae_1
-6	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_341|ref=Fragmentum Synodicae Epistulae_1
-7	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_342|ref=Fragmentum Synodicae Epistulae_1
-8	,	,	u	u--------	_	9	AuxX	_	t_343|ref=Fragmentum Synodicae Epistulae_1
-9	συνηυδόκησαν	συναυδοκέω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_344|ref=Fragmentum Synodicae Epistulae_1
-10	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_345|ref=Fragmentum Synodicae Epistulae_1
-11	ἐπιστολῇ	ἐπιστολή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_346|ref=Fragmentum Synodicae Epistulae_1
-12	·	·	u	u--------	_	9	AuxK	_	t_347|ref=Fragmentum Synodicae Epistulae_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_336|t_344|ref=Synod.ep.fr._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_337|t_344|ref=Synod.ep.fr._1
+3	ἰδόντες	εἶδον	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	9	ADV	_	t_338|t_344|ref=Synod.ep.fr._1
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_339|t_342|ref=Synod.ep.fr._1
+5	μικρόν	μικρός	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_340|t_342|ref=Synod.ep.fr._1
+6	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_341|t_342|ref=Synod.ep.fr._1
+7	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_342|t_338|ref=Synod.ep.fr._1
+8	,	,	u	u--------	_	9	AuxX	_	t_343|t_344|ref=Synod.ep.fr._1
+9	συνηυδόκησαν	συναυδοκέω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_344|0|ref=Synod.ep.fr._1
+10	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_345|t_346|ref=Synod.ep.fr._1
+11	ἐπιστολῇ	ἐπιστολή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_346|t_344|ref=Synod.ep.fr._1
+12	·	·	u	u--------	_	9	AuxK	_	t_347|t_344|ref=Synod.ep.fr._1
 
-# source = Polycrates Ephesius, Fragmentum Synodicae Epistulae 1
+# source = Polycrates Ephesius, Synod.ep.fr. 1
 # text = εἰδότες ὅτι εἰκῆ πολιὰς οὐκ ἤνεγκα , ἀλλὰ ἐν Κυρίῳ Ἰησοῦ πάντοτε πεπολίτευμαι .
 # sent_id = 27
-1	εἰδότες	οἶδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	7	ADV	_	t_348|ref=Fragmentum Synodicae Epistulae_1
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_349|ref=Fragmentum Synodicae Epistulae_1
-3	εἰκῆ	εἰκῇ	d	d--------	_	4	ATR	_	t_350|ref=Fragmentum Synodicae Epistulae_1
-4	πολιὰς	πολιά	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_351|ref=Fragmentum Synodicae Epistulae_1
-5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_352|ref=Fragmentum Synodicae Epistulae_1
-6	ἤνεγκα	φέρω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	8	OBJ	_	t_353|ref=Fragmentum Synodicae Epistulae_1
-7	,	,	u	u--------	_	0	AuxX	_	t_354|ref=Fragmentum Synodicae Epistulae_1
-8	ἀλλὰ	ἀλλά	c	c--------	_	2	COORD	_	t_355|ref=Fragmentum Synodicae Epistulae_1
-9	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_356|ref=Fragmentum Synodicae Epistulae_1
-10	Κυρίῳ	κύριος	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_357|ref=Fragmentum Synodicae Epistulae_1
-11	Ἰησοῦ	ἰησοῦς	n	n-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_358|ref=Fragmentum Synodicae Epistulae_1
-12	πάντοτε	πάντοτε	d	d--------	_	13	ADV	_	t_359|ref=Fragmentum Synodicae Epistulae_1
-13	πεπολίτευμαι	πολιτεύω	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	8	OBJ	_	t_360|ref=Fragmentum Synodicae Epistulae_1
-14	.	.	u	u--------	_	8	AuxK	_	t_361|ref=Fragmentum Synodicae Epistulae_1
+1	εἰδότες	οἶδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	7	ADV	_	t_348|t_354|ref=Synod.ep.fr._1
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_349|t_348|ref=Synod.ep.fr._1
+3	εἰκῆ	εἰκῇ	d	d--------	_	4	ATR	_	t_350|t_351|ref=Synod.ep.fr._1
+4	πολιὰς	πολιά	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_351|t_353|ref=Synod.ep.fr._1
+5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_352|t_353|ref=Synod.ep.fr._1
+6	ἤνεγκα	φέρω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	8	OBJ	_	t_353|t_355|ref=Synod.ep.fr._1
+7	,	,	u	u--------	_	0	AuxX	_	t_354|0|ref=Synod.ep.fr._1
+8	ἀλλὰ	ἀλλά	c	c--------	_	2	COORD	_	t_355|t_349|ref=Synod.ep.fr._1
+9	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_356|t_360|ref=Synod.ep.fr._1
+10	Κυρίῳ	κύριος	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_357|t_356|ref=Synod.ep.fr._1
+11	Ἰησοῦ	ἰησοῦς	n	n-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_358|t_360|ref=Synod.ep.fr._1
+12	πάντοτε	πάντοτε	d	d--------	_	13	ADV	_	t_359|t_360|ref=Synod.ep.fr._1
+13	πεπολίτευμαι	πολιτεύω	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	8	OBJ	_	t_360|t_355|ref=Synod.ep.fr._1
+14	.	.	u	u--------	_	8	AuxK	_	t_361|t_355|ref=Synod.ep.fr._1
 

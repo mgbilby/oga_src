@@ -1,903 +1,903 @@
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Βίος Πινδάρου .
 # sent_id = 1
-1	Βίος	βίος	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_1|ref=Vita Ambrosiana_1
-2	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2|ref=Vita Ambrosiana_1
-3	.	.	u	u--------	_	1	AuxK	_	t_3|ref=Vita Ambrosiana_1
+1	Βίος	βίος	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_1|0|ref=Vit.Ambros._1
+2	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2|t_1|ref=Vit.Ambros._1
+3	.	.	u	u--------	_	1	AuxK	_	t_3|t_1|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πίνδαρος ὁ ποιητὴς Θηβαῖος ἦν ἐκ Κυνοκεφάλων ·
 # sent_id = 2
-1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_4|ref=Vita Ambrosiana_1
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_5|ref=Vita Ambrosiana_1
-3	ποιητὴς	ποιητής	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_6|ref=Vita Ambrosiana_1
-4	Θηβαῖος	θηβαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_7|ref=Vita Ambrosiana_1
-5	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_8|ref=Vita Ambrosiana_1
-6	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_9|ref=Vita Ambrosiana_1
-7	Κυνοκεφάλων	κυνοκέφαλος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	PNOM	_	t_10|ref=Vita Ambrosiana_1
-8	·	·	u	u--------	_	5	AuxK	_	t_11|ref=Vita Ambrosiana_1
+1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_4|t_8|ref=Vit.Ambros._1
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_5|t_4|ref=Vit.Ambros._1
+3	ποιητὴς	ποιητής	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_6|t_4|ref=Vit.Ambros._1
+4	Θηβαῖος	θηβαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_7|t_4|ref=Vit.Ambros._1
+5	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_8|0|ref=Vit.Ambros._1
+6	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_9|t_8|ref=Vit.Ambros._1
+7	Κυνοκεφάλων	κυνοκέφαλος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	PNOM	_	t_10|t_9|ref=Vit.Ambros._1
+8	·	·	u	u--------	_	5	AuxK	_	t_11|t_8|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = κώμη δέ ἐστι Θηβαϊκή ·
 # sent_id = 3
-1	κώμη	κώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_12|ref=Vita Ambrosiana_1
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_13|ref=Vita Ambrosiana_1
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_14|ref=Vita Ambrosiana_1
-4	Θηβαϊκή	θηβαϊκός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_15|ref=Vita Ambrosiana_1
-5	·	·	u	u--------	_	3	AuxK	_	t_16|ref=Vita Ambrosiana_1
+1	κώμη	κώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_12|t_14|ref=Vit.Ambros._1
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_13|t_14|ref=Vit.Ambros._1
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_14|0|ref=Vit.Ambros._1
+4	Θηβαϊκή	θηβαϊκός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_15|t_14|ref=Vit.Ambros._1
+5	·	·	u	u--------	_	3	AuxK	_	t_16|t_14|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = υἱὸς δὲ Δαϊφάντου , κατὰ δ᾿ ἐνίους Παγώνδα [0] .
 # sent_id = 4
-1	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_17|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_18|ref=Vita Ambrosiana_1
-3	Δαϊφάντου	δαΐφατος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_19|ref=Vita Ambrosiana_1
-4	,	,	u	u--------	_	0	AuxX	_	t_20|ref=Vita Ambrosiana_1
-5	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_21|ref=Vita Ambrosiana_1
-6	δ᾿	δέ	c	c--------	_	4	COORD	_	t_22|ref=Vita Ambrosiana_1
-7	ἐνίους	ἔνιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_23|ref=Vita Ambrosiana_1
-8	Παγώνδα	παγώνδης	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_24|ref=Vita Ambrosiana_1
-9	[0]	[0]	-	---------	_	6	PRED	_	e_1|ref=Vita Ambrosiana_1
-10	.	.	u	u--------	_	4	AuxK	_	t_25|ref=Vita Ambrosiana_1
+1	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_17|e_1|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_18|t_22|ref=Vit.Ambros._1
+3	Δαϊφάντου	δαΐφατος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_19|t_17|ref=Vit.Ambros._1
+4	,	,	u	u--------	_	0	AuxX	_	t_20|0|ref=Vit.Ambros._1
+5	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_21|e_1|ref=Vit.Ambros._1
+6	δ᾿	δέ	c	c--------	_	4	COORD	_	t_22|t_20|ref=Vit.Ambros._1
+7	ἐνίους	ἔνιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_23|t_21|ref=Vit.Ambros._1
+8	Παγώνδα	παγώνδης	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_24|e_1|ref=Vit.Ambros._1
+9	[0]	[0]	-	---------	_	6	PRED	_	e_1|t_22|ref=Vit.Ambros._1
+10	.	.	u	u--------	_	4	AuxK	_	t_25|t_20|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἔνιοι δὲ Σκοπελίνου αὐτὸν γενεαλογοῦσι , τινὲς δὲ τὸν Σκοπελῖνον πατρωὸν αὐτοῦ γενέσθαι καὶ αὐλητὴν ὄντα τὴν τέχνην διδάξαι .
 # sent_id = 5
-1	ἔνιοι	ἔνιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_26|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_27|ref=Vita Ambrosiana_1
-3	Σκοπελίνου	σκοπέλος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_28|ref=Vita Ambrosiana_1
-4	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_29|ref=Vita Ambrosiana_1
-5	γενεαλογοῦσι	γενεαλογέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	8	PRED	_	t_30|ref=Vita Ambrosiana_1
-6	,	,	u	u--------	_	0	AuxX	_	t_31|ref=Vita Ambrosiana_1
-7	τινὲς	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_32|ref=Vita Ambrosiana_1
-8	δὲ	δέ	c	c--------	_	6	COORD	_	t_33|ref=Vita Ambrosiana_1
-9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_34|ref=Vita Ambrosiana_1
-10	Σκοπελῖνον	σκοπελῖνος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_35|ref=Vita Ambrosiana_1
-11	πατρωὸν	πατρώιος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	PNOM	_	t_36|ref=Vita Ambrosiana_1
-12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_37|ref=Vita Ambrosiana_1
-13	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	14	OBJ	_	t_38|ref=Vita Ambrosiana_1
-14	καὶ	καί	c	c--------	_	8	COORD	_	t_39|ref=Vita Ambrosiana_1
-15	αὐλητὴν	αὐλητής	n	n-s---ma-	Case=a|Gender=m|Number=s	16	PNOM	_	t_40|ref=Vita Ambrosiana_1
-16	ὄντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	19	ADV	_	t_41|ref=Vita Ambrosiana_1
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_42|ref=Vita Ambrosiana_1
-18	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_43|ref=Vita Ambrosiana_1
-19	διδάξαι	διδάσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	PRED	_	t_44|ref=Vita Ambrosiana_1
-20	.	.	u	u--------	_	6	AuxK	_	t_45|ref=Vita Ambrosiana_1
+1	ἔνιοι	ἔνιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_26|t_30|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_27|t_33|ref=Vit.Ambros._1
+3	Σκοπελίνου	σκοπέλος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_28|t_30|ref=Vit.Ambros._1
+4	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_29|t_30|ref=Vit.Ambros._1
+5	γενεαλογοῦσι	γενεαλογέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	8	PRED	_	t_30|t_33|ref=Vit.Ambros._1
+6	,	,	u	u--------	_	0	AuxX	_	t_31|0|ref=Vit.Ambros._1
+7	τινὲς	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_32|t_33|ref=Vit.Ambros._1
+8	δὲ	δέ	c	c--------	_	6	COORD	_	t_33|t_31|ref=Vit.Ambros._1
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_34|t_35|ref=Vit.Ambros._1
+10	Σκοπελῖνον	σκοπελῖνος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_35|t_38|ref=Vit.Ambros._1
+11	πατρωὸν	πατρώιος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	PNOM	_	t_36|t_38|ref=Vit.Ambros._1
+12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_37|t_36|ref=Vit.Ambros._1
+13	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	14	OBJ	_	t_38|t_39|ref=Vit.Ambros._1
+14	καὶ	καί	c	c--------	_	8	COORD	_	t_39|t_33|ref=Vit.Ambros._1
+15	αὐλητὴν	αὐλητής	n	n-s---ma-	Case=a|Gender=m|Number=s	16	PNOM	_	t_40|t_41|ref=Vit.Ambros._1
+16	ὄντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	19	ADV	_	t_41|t_44|ref=Vit.Ambros._1
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_42|t_43|ref=Vit.Ambros._1
+18	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_43|t_44|ref=Vit.Ambros._1
+19	διδάξαι	διδάσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	PRED	_	t_44|t_39|ref=Vit.Ambros._1
+20	.	.	u	u--------	_	6	AuxK	_	t_45|t_31|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = μητρὸς δὲ Κλεοδίκης [0] ·
 # sent_id = 6
-1	μητρὸς	μήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	4	PNOM	_	t_46|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_47|ref=Vita Ambrosiana_1
-3	Κλεοδίκης	κλεοδίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_48|ref=Vita Ambrosiana_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Vita Ambrosiana_1
-5	·	·	u	u--------	_	4	AuxK	_	t_49|ref=Vita Ambrosiana_1
+1	μητρὸς	μήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	4	PNOM	_	t_46|e_2|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_47|e_2|ref=Vit.Ambros._1
+3	Κλεοδίκης	κλεοδίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_48|t_46|ref=Vit.Ambros._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Vit.Ambros._1
+5	·	·	u	u--------	_	4	AuxK	_	t_49|e_2|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = οἱ δὲ Κληδίκης γράφουσι .
 # sent_id = 7
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_50|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_51|ref=Vita Ambrosiana_1
-3	Κληδίκης	κληδίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_52|ref=Vita Ambrosiana_1
-4	γράφουσι	γράφω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_53|ref=Vita Ambrosiana_1
-5	.	.	u	u--------	_	4	AuxK	_	t_54|ref=Vita Ambrosiana_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_50|t_53|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_51|t_53|ref=Vit.Ambros._1
+3	Κληδίκης	κληδίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_52|t_53|ref=Vit.Ambros._1
+4	γράφουσι	γράφω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_53|0|ref=Vit.Ambros._1
+5	.	.	u	u--------	_	4	AuxK	_	t_54|t_53|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = παῖς δὲ ὢν ὁ Πίνδαρος , ὡς Χαμαιλέων καὶ Ἴστρος φασὶ , περὶ τὸν Ἑλικῶνα θηρῶντα αὐτὸν ὑπὸ πολλοῦ καμάτου εἰς ὕπνον κατενεχθῆναι , κοιμωμένου δὲ αὐτοῦ μέλισσαν τῷ στόματι προσκαθίσασαν κηρία ποιῆσαι [0] .
 # sent_id = 8
-1	παῖς	παῖς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_55|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	26	AuxY	_	t_56|ref=Vita Ambrosiana_1
-3	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_57|ref=Vita Ambrosiana_1
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_58|ref=Vita Ambrosiana_1
-5	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	26	SBJ	_	t_59|ref=Vita Ambrosiana_1
-6	,	,	u	u--------	_	34	AuxX	_	t_60|ref=Vita Ambrosiana_1
-7	ὡς	ὡς	c	c--------	_	34	AuxC	_	t_61|ref=Vita Ambrosiana_1
-8	Χαμαιλέων	χαμαιλέων	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_62|ref=Vita Ambrosiana_1
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_63|ref=Vita Ambrosiana_1
-10	Ἴστρος	ἴστρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_64|ref=Vita Ambrosiana_1
-11	φασὶ	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ADV	_	t_65|ref=Vita Ambrosiana_1
-12	,	,	u	u--------	_	34	AuxX	_	t_66|ref=Vita Ambrosiana_1
-13	περὶ	περί	r	r--------	_	23	AuxP	_	t_67|ref=Vita Ambrosiana_1
-14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_68|ref=Vita Ambrosiana_1
-15	Ἑλικῶνα	ἑλικών	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ADV	_	t_69|ref=Vita Ambrosiana_1
-16	θηρῶντα	θηράω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	23	ADV	_	t_70|ref=Vita Ambrosiana_1
-17	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	23	SBJ	_	t_71|ref=Vita Ambrosiana_1
-18	ὑπὸ	ὑπό	r	r--------	_	16	AuxP	_	t_72|ref=Vita Ambrosiana_1
-19	πολλοῦ	πολύς	a	a-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_73|ref=Vita Ambrosiana_1
-20	καμάτου	κάματος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_74|ref=Vita Ambrosiana_1
-21	εἰς	εἰς	r	r--------	_	23	AuxP	_	t_75|ref=Vita Ambrosiana_1
-22	ὕπνον	ὕπνος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_76|ref=Vita Ambrosiana_1
-23	κατενεχθῆναι	καταφέρω	v	v--anp---	Mood=n|Tense=a|Voice=p	26	OBJ	_	t_77|ref=Vita Ambrosiana_1
-24	,	,	u	u--------	_	34	AuxX	_	t_78|ref=Vita Ambrosiana_1
-25	κοιμωμένου	κοιμάω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	33	ADV	_	t_79|ref=Vita Ambrosiana_1
-26	δὲ	δέ	c	c--------	_	34	COORD	_	t_80|ref=Vita Ambrosiana_1
-27	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	25	SBJ	_	t_81|ref=Vita Ambrosiana_1
-28	μέλισσαν	μέλισσα	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_82|ref=Vita Ambrosiana_1
-29	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	30	ATR	_	t_83|ref=Vita Ambrosiana_1
-30	στόματι	στόμα	n	n-s---nd-	Case=d|Gender=n|Number=s	31	OBJ	_	t_84|ref=Vita Ambrosiana_1
-31	προσκαθίσασαν	προσκαθίζω	v	v-sapafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	33	ADV	_	t_85|ref=Vita Ambrosiana_1
-32	κηρία	κηρίον	n	n-p---na-	Case=a|Gender=n|Number=p	33	OBJ	_	t_86|ref=Vita Ambrosiana_1
-33	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	26	OBJ	_	t_87|ref=Vita Ambrosiana_1
-34	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Vita Ambrosiana_1
-35	.	.	u	u--------	_	34	AuxK	_	t_88|ref=Vita Ambrosiana_1
+1	παῖς	παῖς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_55|t_57|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	26	AuxY	_	t_56|t_80|ref=Vit.Ambros._1
+3	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_57|t_80|ref=Vit.Ambros._1
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_58|t_59|ref=Vit.Ambros._1
+5	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	26	SBJ	_	t_59|t_80|ref=Vit.Ambros._1
+6	,	,	u	u--------	_	34	AuxX	_	t_60|e_3|ref=Vit.Ambros._1
+7	ὡς	ὡς	c	c--------	_	34	AuxC	_	t_61|e_3|ref=Vit.Ambros._1
+8	Χαμαιλέων	χαμαιλέων	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_62|t_63|ref=Vit.Ambros._1
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_63|t_65|ref=Vit.Ambros._1
+10	Ἴστρος	ἴστρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_64|t_63|ref=Vit.Ambros._1
+11	φασὶ	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ADV	_	t_65|t_61|ref=Vit.Ambros._1
+12	,	,	u	u--------	_	34	AuxX	_	t_66|e_3|ref=Vit.Ambros._1
+13	περὶ	περί	r	r--------	_	23	AuxP	_	t_67|t_77|ref=Vit.Ambros._1
+14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_68|t_69|ref=Vit.Ambros._1
+15	Ἑλικῶνα	ἑλικών	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ADV	_	t_69|t_67|ref=Vit.Ambros._1
+16	θηρῶντα	θηράω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	23	ADV	_	t_70|t_77|ref=Vit.Ambros._1
+17	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	23	SBJ	_	t_71|t_77|ref=Vit.Ambros._1
+18	ὑπὸ	ὑπό	r	r--------	_	16	AuxP	_	t_72|t_70|ref=Vit.Ambros._1
+19	πολλοῦ	πολύς	a	a-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_73|t_74|ref=Vit.Ambros._1
+20	καμάτου	κάματος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_74|t_72|ref=Vit.Ambros._1
+21	εἰς	εἰς	r	r--------	_	23	AuxP	_	t_75|t_77|ref=Vit.Ambros._1
+22	ὕπνον	ὕπνος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_76|t_75|ref=Vit.Ambros._1
+23	κατενεχθῆναι	καταφέρω	v	v--anp---	Mood=n|Tense=a|Voice=p	26	OBJ	_	t_77|t_80|ref=Vit.Ambros._1
+24	,	,	u	u--------	_	34	AuxX	_	t_78|e_3|ref=Vit.Ambros._1
+25	κοιμωμένου	κοιμάω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	33	ADV	_	t_79|t_87|ref=Vit.Ambros._1
+26	δὲ	δέ	c	c--------	_	34	COORD	_	t_80|e_3|ref=Vit.Ambros._1
+27	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	25	SBJ	_	t_81|t_79|ref=Vit.Ambros._1
+28	μέλισσαν	μέλισσα	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_82|t_85|ref=Vit.Ambros._1
+29	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	30	ATR	_	t_83|t_84|ref=Vit.Ambros._1
+30	στόματι	στόμα	n	n-s---nd-	Case=d|Gender=n|Number=s	31	OBJ	_	t_84|t_85|ref=Vit.Ambros._1
+31	προσκαθίσασαν	προσκαθίζω	v	v-sapafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	33	ADV	_	t_85|t_87|ref=Vit.Ambros._1
+32	κηρία	κηρίον	n	n-p---na-	Case=a|Gender=n|Number=p	33	OBJ	_	t_86|t_87|ref=Vit.Ambros._1
+33	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	26	OBJ	_	t_87|t_80|ref=Vit.Ambros._1
+34	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Vit.Ambros._1
+35	.	.	u	u--------	_	34	AuxK	_	t_88|e_3|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = οἱ δέ φασιν ὅτι ὄναρ εἶδεν ὡς μέλιτος καὶ κηροῦ πλῆρες εἶναι αὐτοῦ τὸ στόμα , καὶ ἐπὶ ποιητικὴν ἐτράπη .
 # sent_id = 9
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_89|ref=Vita Ambrosiana_1
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_90|ref=Vita Ambrosiana_1
-3	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_91|ref=Vita Ambrosiana_1
-4	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_92|ref=Vita Ambrosiana_1
-5	ὄναρ	ὄναρ	n	n-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_93|ref=Vita Ambrosiana_1
-6	εἶδεν	ὁράω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	17	OBJ	_	t_94|ref=Vita Ambrosiana_1
-7	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_95|ref=Vita Ambrosiana_1
-8	μέλιτος	μέλι	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_96|ref=Vita Ambrosiana_1
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_97|ref=Vita Ambrosiana_1
-10	κηροῦ	κηρός	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_98|ref=Vita Ambrosiana_1
-11	πλῆρες	πλήρης	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_99|ref=Vita Ambrosiana_1
-12	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_100|ref=Vita Ambrosiana_1
-13	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_101|ref=Vita Ambrosiana_1
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_102|ref=Vita Ambrosiana_1
-15	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_103|ref=Vita Ambrosiana_1
-16	,	,	u	u--------	_	3	AuxX	_	t_104|ref=Vita Ambrosiana_1
-17	καὶ	καί	c	c--------	_	4	COORD	_	t_105|ref=Vita Ambrosiana_1
-18	ἐπὶ	ἐπί	r	r--------	_	20	AuxP	_	t_106|ref=Vita Ambrosiana_1
-19	ποιητικὴν	ποιητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_107|ref=Vita Ambrosiana_1
-20	ἐτράπη	τρέπω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	17	OBJ	_	t_108|ref=Vita Ambrosiana_1
-21	.	.	u	u--------	_	3	AuxK	_	t_109|ref=Vita Ambrosiana_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_89|t_91|ref=Vit.Ambros._1
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_90|t_91|ref=Vit.Ambros._1
+3	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_91|0|ref=Vit.Ambros._1
+4	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_92|t_91|ref=Vit.Ambros._1
+5	ὄναρ	ὄναρ	n	n-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_93|t_100|ref=Vit.Ambros._1
+6	εἶδεν	ὁράω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	17	OBJ	_	t_94|t_105|ref=Vit.Ambros._1
+7	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_95|t_100|ref=Vit.Ambros._1
+8	μέλιτος	μέλι	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_96|t_97|ref=Vit.Ambros._1
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_97|t_99|ref=Vit.Ambros._1
+10	κηροῦ	κηρός	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_98|t_97|ref=Vit.Ambros._1
+11	πλῆρες	πλήρης	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_99|t_93|ref=Vit.Ambros._1
+12	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_100|t_94|ref=Vit.Ambros._1
+13	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_101|t_103|ref=Vit.Ambros._1
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_102|t_103|ref=Vit.Ambros._1
+15	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_103|t_100|ref=Vit.Ambros._1
+16	,	,	u	u--------	_	3	AuxX	_	t_104|t_91|ref=Vit.Ambros._1
+17	καὶ	καί	c	c--------	_	4	COORD	_	t_105|t_92|ref=Vit.Ambros._1
+18	ἐπὶ	ἐπί	r	r--------	_	20	AuxP	_	t_106|t_108|ref=Vit.Ambros._1
+19	ποιητικὴν	ποιητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_107|t_106|ref=Vit.Ambros._1
+20	ἐτράπη	τρέπω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	17	OBJ	_	t_108|t_105|ref=Vit.Ambros._1
+21	.	.	u	u--------	_	3	AuxK	_	t_109|t_91|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = διδάσκαλον δὲ αὐτοῦ Ἀθήνησιν οἱ μὲν Ἀγαθοκλέα , οἱ δὲ Ἀπολλόδωρον λέγουσιν , ὃν καὶ προϊστάμενον κυκλίων χορῶν ἀποδημοῦντα πιστεῦσαι τὴν διδασκαλίαν τῷ Πινδάρῳ παιδὶ ὄντι , τὸν δὲ εὖ διακοσμήσαντα διαβόητον γενέσθαι [0] [1] .
 # sent_id = 10
-1	διδάσκαλον	διδάσκαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	34	OCOMP	_	t_110|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_111|ref=Vita Ambrosiana_1
-3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_112|ref=Vita Ambrosiana_1
-4	Ἀθήνησιν	ἀθήνησιν	d	d--------	_	34	ADV	_	t_113|ref=Vita Ambrosiana_1
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	34	SBJ	_	t_114|ref=Vita Ambrosiana_1
-6	μὲν	μέν	d	d--------	_	10	AuxY	_	t_115|ref=Vita Ambrosiana_1
-7	Ἀγαθοκλέα	ἀγαθοκλῆς	n	n-s---ma-	Case=a|Gender=m|Number=s	34	OBJ	_	t_116|ref=Vita Ambrosiana_1
-8	,	,	u	u--------	_	0	AuxX	_	t_117|ref=Vita Ambrosiana_1
-9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_118|ref=Vita Ambrosiana_1
-10	δὲ	δέ	c	c--------	_	8	COORD	_	t_119|ref=Vita Ambrosiana_1
-11	Ἀπολλόδωρον	ἀπολλόδωρος	n	n-s---ma-	Case=a|Gender=m|Number=s	35	OBJ	_	t_120|ref=Vita Ambrosiana_1
-12	λέγουσιν	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_121|ref=Vita Ambrosiana_1
-13	,	,	u	u--------	_	8	AuxX	_	t_122|ref=Vita Ambrosiana_1
-14	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	20	SBJ	_	t_123|ref=Vita Ambrosiana_1
-15	καὶ	καί	d	d--------	_	20	AuxZ	_	t_124|ref=Vita Ambrosiana_1
-16	προϊστάμενον	προίστημι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_125|ref=Vita Ambrosiana_1
-17	κυκλίων	κύκλιος	a	a-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_126|ref=Vita Ambrosiana_1
-18	χορῶν	χορός	n	n-p---mg-	Case=g|Gender=m|Number=p	19	OBJ	_	t_127|ref=Vita Ambrosiana_1
-19	ἀποδημοῦντα	ἀποδημέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_128|ref=Vita Ambrosiana_1
-20	πιστεῦσαι	πιστεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	29	ATR	_	t_129|ref=Vita Ambrosiana_1
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_130|ref=Vita Ambrosiana_1
-22	διδασκαλίαν	διδασκαλία	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_131|ref=Vita Ambrosiana_1
-23	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_132|ref=Vita Ambrosiana_1
-24	Πινδάρῳ	πίνδαρος	n	n-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_133|ref=Vita Ambrosiana_1
-25	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	26	PNOM	_	t_134|ref=Vita Ambrosiana_1
-26	ὄντι	εἰμί	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_135|ref=Vita Ambrosiana_1
-27	,	,	u	u--------	_	8	AuxX	_	t_136|ref=Vita Ambrosiana_1
-28	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_137|ref=Vita Ambrosiana_1
-29	δὲ	δέ	c	c--------	_	11	COORD	_	t_138|ref=Vita Ambrosiana_1
-30	εὖ	εὖ	d	d--------	_	31	ADV	_	t_139|ref=Vita Ambrosiana_1
-31	διακοσμήσαντα	διακοσμέω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	33	SBJ	_	t_140|ref=Vita Ambrosiana_1
-32	διαβόητον	διαβόητος	a	a-s---ma-	Case=a|Gender=m|Number=s	33	PNOM	_	t_141|ref=Vita Ambrosiana_1
-33	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	29	ATR	_	t_142|ref=Vita Ambrosiana_1
-34	[0]	[0]	-	---------	_	10	PRED	_	e_4|ref=Vita Ambrosiana_1
-35	[1]	[1]	-	---------	_	10	PRED	_	e_5|ref=Vita Ambrosiana_1
-36	.	.	u	u--------	_	8	AuxK	_	t_143|ref=Vita Ambrosiana_1
+1	διδάσκαλον	διδάσκαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	34	OCOMP	_	t_110|e_4|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_111|t_119|ref=Vit.Ambros._1
+3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_112|t_110|ref=Vit.Ambros._1
+4	Ἀθήνησιν	ἀθήνησιν	d	d--------	_	34	ADV	_	t_113|e_4|ref=Vit.Ambros._1
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	34	SBJ	_	t_114|e_4|ref=Vit.Ambros._1
+6	μὲν	μέν	d	d--------	_	10	AuxY	_	t_115|t_119|ref=Vit.Ambros._1
+7	Ἀγαθοκλέα	ἀγαθοκλῆς	n	n-s---ma-	Case=a|Gender=m|Number=s	34	OBJ	_	t_116|e_4|ref=Vit.Ambros._1
+8	,	,	u	u--------	_	0	AuxX	_	t_117|0|ref=Vit.Ambros._1
+9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_118|t_121|ref=Vit.Ambros._1
+10	δὲ	δέ	c	c--------	_	8	COORD	_	t_119|t_117|ref=Vit.Ambros._1
+11	Ἀπολλόδωρον	ἀπολλόδωρος	n	n-s---ma-	Case=a|Gender=m|Number=s	35	OBJ	_	t_120|e_5|ref=Vit.Ambros._1
+12	λέγουσιν	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_121|t_119|ref=Vit.Ambros._1
+13	,	,	u	u--------	_	8	AuxX	_	t_122|t_117|ref=Vit.Ambros._1
+14	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	20	SBJ	_	t_123|t_129|ref=Vit.Ambros._1
+15	καὶ	καί	d	d--------	_	20	AuxZ	_	t_124|t_129|ref=Vit.Ambros._1
+16	προϊστάμενον	προίστημι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_125|t_129|ref=Vit.Ambros._1
+17	κυκλίων	κύκλιος	a	a-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_126|t_127|ref=Vit.Ambros._1
+18	χορῶν	χορός	n	n-p---mg-	Case=g|Gender=m|Number=p	19	OBJ	_	t_127|t_128|ref=Vit.Ambros._1
+19	ἀποδημοῦντα	ἀποδημέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_128|t_129|ref=Vit.Ambros._1
+20	πιστεῦσαι	πιστεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	29	ATR	_	t_129|t_138|ref=Vit.Ambros._1
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_130|t_131|ref=Vit.Ambros._1
+22	διδασκαλίαν	διδασκαλία	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_131|t_129|ref=Vit.Ambros._1
+23	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_132|t_134|ref=Vit.Ambros._1
+24	Πινδάρῳ	πίνδαρος	n	n-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_133|t_134|ref=Vit.Ambros._1
+25	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	26	PNOM	_	t_134|t_135|ref=Vit.Ambros._1
+26	ὄντι	εἰμί	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_135|t_129|ref=Vit.Ambros._1
+27	,	,	u	u--------	_	8	AuxX	_	t_136|t_117|ref=Vit.Ambros._1
+28	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_137|t_140|ref=Vit.Ambros._1
+29	δὲ	δέ	c	c--------	_	11	COORD	_	t_138|t_120|ref=Vit.Ambros._1
+30	εὖ	εὖ	d	d--------	_	31	ADV	_	t_139|t_140|ref=Vit.Ambros._1
+31	διακοσμήσαντα	διακοσμέω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	33	SBJ	_	t_140|t_142|ref=Vit.Ambros._1
+32	διαβόητον	διαβόητος	a	a-s---ma-	Case=a|Gender=m|Number=s	33	PNOM	_	t_141|t_142|ref=Vit.Ambros._1
+33	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	29	ATR	_	t_142|t_138|ref=Vit.Ambros._1
+34	[0]	[0]	-	---------	_	10	PRED	_	e_4|t_119|ref=Vit.Ambros._1
+35	[1]	[1]	-	---------	_	10	PRED	_	e_5|t_119|ref=Vit.Ambros._1
+36	.	.	u	u--------	_	8	AuxK	_	t_143|t_117|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἔρεισμα δὲ τῆς Ἑλλάδος εἰπὼν Ἀθήνας ( fr [0] .
 # sent_id = 11
-1	ἔρεισμα	ἔρεισμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_144|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_145|ref=Vita Ambrosiana_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_146|ref=Vita Ambrosiana_1
-4	Ἑλλάδος	ἑλλάς	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_147|ref=Vita Ambrosiana_1
-5	εἰπὼν	εἶπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_148|ref=Vita Ambrosiana_1
-6	Ἀθήνας	ἀθῆναι	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_149|ref=Vita Ambrosiana_1
-7	(	̔	u	u--------	_	9	AuxG	_	t_150|ref=Vita Ambrosiana_1
-8	fr	fr	n	n--------	_	9	PNOM	_	t_151|ref=Vita Ambrosiana_1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Vita Ambrosiana_1
-10	.	.	u	u--------	_	9	AuxK	_	t_152|ref=Vita Ambrosiana_1
+1	ἔρεισμα	ἔρεισμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_144|t_148|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_145|e_6|ref=Vit.Ambros._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_146|t_147|ref=Vit.Ambros._1
+4	Ἑλλάδος	ἑλλάς	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_147|t_144|ref=Vit.Ambros._1
+5	εἰπὼν	εἶπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_148|e_6|ref=Vit.Ambros._1
+6	Ἀθήνας	ἀθῆναι	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_149|t_144|ref=Vit.Ambros._1
+7	(	̔	u	u--------	_	9	AuxG	_	t_150|e_6|ref=Vit.Ambros._1
+8	fr	fr	n	n--------	_	9	PNOM	_	t_151|e_6|ref=Vit.Ambros._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Vit.Ambros._1
+10	.	.	u	u--------	_	9	AuxK	_	t_152|e_6|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = 76 ) ἐζημιώθη ὑπὸ Θηβαίων χιλίαις δραχμαῖς ἃς ἐξέτισαν ὑπὲρ αὐτοῦ Ἀθηναῖοι .
 # sent_id = 12
-1	76	76	x	x--------	_	3	AuxG	_	t_153|ref=Vita Ambrosiana_1
-2	)	)	u	u--------	_	3	AuxG	_	t_154|ref=Vita Ambrosiana_1
-3	ἐζημιώθη	ζημιόω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_155|ref=Vita Ambrosiana_1
-4	ὑπὸ	ὑπό	r	r--------	_	3	AuxP	_	t_156|ref=Vita Ambrosiana_1
-5	Θηβαίων	θηβαῖος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	OBJ	_	t_157|ref=Vita Ambrosiana_1
-6	χιλίαις	χίλιοι	a	a-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_158|ref=Vita Ambrosiana_1
-7	δραχμαῖς	δραχμή	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_159|ref=Vita Ambrosiana_1
-8	ἃς	ὅς	p	p-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_160|ref=Vita Ambrosiana_1
-9	ἐξέτισαν	ἐκτίνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	7	ATR	_	t_161|ref=Vita Ambrosiana_1
-10	ὑπὲρ	ὑπέρ	r	r--------	_	9	AuxP	_	t_162|ref=Vita Ambrosiana_1
-11	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_163|ref=Vita Ambrosiana_1
-12	Ἀθηναῖοι	ἀθηναῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_164|ref=Vita Ambrosiana_1
-13	.	.	u	u--------	_	3	AuxK	_	t_165|ref=Vita Ambrosiana_1
+1	76	76	x	x--------	_	3	AuxG	_	t_153|t_155|ref=Vit.Ambros._1
+2	)	)	u	u--------	_	3	AuxG	_	t_154|t_155|ref=Vit.Ambros._1
+3	ἐζημιώθη	ζημιόω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_155|0|ref=Vit.Ambros._1
+4	ὑπὸ	ὑπό	r	r--------	_	3	AuxP	_	t_156|t_155|ref=Vit.Ambros._1
+5	Θηβαίων	θηβαῖος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	OBJ	_	t_157|t_156|ref=Vit.Ambros._1
+6	χιλίαις	χίλιοι	a	a-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_158|t_159|ref=Vit.Ambros._1
+7	δραχμαῖς	δραχμή	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_159|t_155|ref=Vit.Ambros._1
+8	ἃς	ὅς	p	p-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_160|t_161|ref=Vit.Ambros._1
+9	ἐξέτισαν	ἐκτίνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	7	ATR	_	t_161|t_159|ref=Vit.Ambros._1
+10	ὑπὲρ	ὑπέρ	r	r--------	_	9	AuxP	_	t_162|t_161|ref=Vit.Ambros._1
+11	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_163|t_162|ref=Vit.Ambros._1
+12	Ἀθηναῖοι	ἀθηναῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_164|t_161|ref=Vit.Ambros._1
+13	.	.	u	u--------	_	3	AuxK	_	t_165|t_155|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἦν δὲ οὐ μόνον εὐφυὴς ποιητὴς , ἀλλὰ καὶ ἄνθρωπος θεοφιλής .
 # sent_id = 13
-1	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_166|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_167|ref=Vita Ambrosiana_1
-3	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_168|ref=Vita Ambrosiana_1
-4	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	5	AuxZ	_	t_169|ref=Vita Ambrosiana_1
-5	εὐφυὴς	εὐφυὴς	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_170|ref=Vita Ambrosiana_1
-6	ποιητὴς	ποιητής	n	n-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_171|ref=Vita Ambrosiana_1
-7	,	,	u	u--------	_	1	AuxX	_	t_172|ref=Vita Ambrosiana_1
-8	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_173|ref=Vita Ambrosiana_1
-9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_174|ref=Vita Ambrosiana_1
-10	ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_175|ref=Vita Ambrosiana_1
-11	θεοφιλής	θεοφιλής	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_176|ref=Vita Ambrosiana_1
-12	.	.	u	u--------	_	1	AuxK	_	t_177|ref=Vita Ambrosiana_1
+1	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_166|0|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_167|t_166|ref=Vit.Ambros._1
+3	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_168|t_169|ref=Vit.Ambros._1
+4	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	5	AuxZ	_	t_169|t_170|ref=Vit.Ambros._1
+5	εὐφυὴς	εὐφυὴς	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_170|t_173|ref=Vit.Ambros._1
+6	ποιητὴς	ποιητής	n	n-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_171|t_173|ref=Vit.Ambros._1
+7	,	,	u	u--------	_	1	AuxX	_	t_172|t_166|ref=Vit.Ambros._1
+8	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_173|t_166|ref=Vit.Ambros._1
+9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_174|t_175|ref=Vit.Ambros._1
+10	ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_175|t_173|ref=Vit.Ambros._1
+11	θεοφιλής	θεοφιλής	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_176|t_175|ref=Vit.Ambros._1
+12	.	.	u	u--------	_	1	AuxK	_	t_177|t_166|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ὁ γοῦν Πὰν ὁ θεὸς ὤφθη μεταξὺ τοῦ Κιθαιρῶνος καὶ τοῦ Ἑλικῶνος ᾄδων παιᾶνα Πινδάρου ·
 # sent_id = 14
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_178|ref=Vita Ambrosiana_1
-2	γοῦν	γοῦν	d	d--------	_	6	AuxY	_	t_179|ref=Vita Ambrosiana_1
-3	Πὰν	πάν	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_180|ref=Vita Ambrosiana_1
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_181|ref=Vita Ambrosiana_1
-5	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_182|ref=Vita Ambrosiana_1
-6	ὤφθη	ὁράω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_183|ref=Vita Ambrosiana_1
-7	μεταξὺ	μεταξύ	r	r--------	_	6	AuxP	_	t_184|ref=Vita Ambrosiana_1
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_185|ref=Vita Ambrosiana_1
-9	Κιθαιρῶνος	κιθαιρών	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_186|ref=Vita Ambrosiana_1
-10	καὶ	καί	c	c--------	_	7	COORD	_	t_187|ref=Vita Ambrosiana_1
-11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_188|ref=Vita Ambrosiana_1
-12	Ἑλικῶνος	ἑλικών	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_189|ref=Vita Ambrosiana_1
-13	ᾄδων	ἀείδω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_190|ref=Vita Ambrosiana_1
-14	παιᾶνα	παιάν	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_191|ref=Vita Ambrosiana_1
-15	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_192|ref=Vita Ambrosiana_1
-16	·	·	u	u--------	_	6	AuxK	_	t_193|ref=Vita Ambrosiana_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_178|t_180|ref=Vit.Ambros._1
+2	γοῦν	γοῦν	d	d--------	_	6	AuxY	_	t_179|t_183|ref=Vit.Ambros._1
+3	Πὰν	πάν	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_180|t_183|ref=Vit.Ambros._1
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_181|t_180|ref=Vit.Ambros._1
+5	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_182|t_180|ref=Vit.Ambros._1
+6	ὤφθη	ὁράω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_183|0|ref=Vit.Ambros._1
+7	μεταξὺ	μεταξύ	r	r--------	_	6	AuxP	_	t_184|t_183|ref=Vit.Ambros._1
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_185|t_186|ref=Vit.Ambros._1
+9	Κιθαιρῶνος	κιθαιρών	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_186|t_187|ref=Vit.Ambros._1
+10	καὶ	καί	c	c--------	_	7	COORD	_	t_187|t_184|ref=Vit.Ambros._1
+11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_188|t_189|ref=Vit.Ambros._1
+12	Ἑλικῶνος	ἑλικών	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_189|t_187|ref=Vit.Ambros._1
+13	ᾄδων	ἀείδω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_190|t_183|ref=Vit.Ambros._1
+14	παιᾶνα	παιάν	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_191|t_190|ref=Vit.Ambros._1
+15	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_192|t_191|ref=Vit.Ambros._1
+16	·	·	u	u--------	_	6	AuxK	_	t_193|t_183|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = διὸ καὶ ᾆσμα ἐποίησεν εἰς τὸν θεὸν ἐν ᾧ χάριν ὁμολογεῖ τῆς τιμῆς αὐτῷ , οὗ ἡ ἀρχή ( fr [0] .
 # sent_id = 15
-1	διὸ	διό	d	d--------	_	4	AuxY	_	t_194|ref=Vita Ambrosiana_1
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_195|ref=Vita Ambrosiana_1
-3	ᾆσμα	ᾆσμα	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_196|ref=Vita Ambrosiana_1
-4	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_197|ref=Vita Ambrosiana_1
-5	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_198|ref=Vita Ambrosiana_1
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_199|ref=Vita Ambrosiana_1
-7	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_200|ref=Vita Ambrosiana_1
-8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_201|ref=Vita Ambrosiana_1
-9	ᾧ	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_202|ref=Vita Ambrosiana_1
-10	χάριν	χάρις	r	r--------	Case=a|Gender=f|Number=s	11	AuxP	_	t_203|ref=Vita Ambrosiana_1
-11	ὁμολογεῖ	ὁμολογέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ATR	_	t_204|ref=Vita Ambrosiana_1
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_205|ref=Vita Ambrosiana_1
-13	τιμῆς	τιμή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_206|ref=Vita Ambrosiana_1
-14	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_207|ref=Vita Ambrosiana_1
-15	,	,	u	u--------	_	4	AuxX	_	t_208|ref=Vita Ambrosiana_1
-16	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_209|ref=Vita Ambrosiana_1
-17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_210|ref=Vita Ambrosiana_1
-18	ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_211|ref=Vita Ambrosiana_1
-19	(	̔	u	u--------	_	4	AuxG	_	t_212|ref=Vita Ambrosiana_1
-20	fr	fr	n	n--------	_	21	SBJ	_	t_213|ref=Vita Ambrosiana_1
-21	[0]	[0]	-	---------	_	3	ATR	_	e_7|ref=Vita Ambrosiana_1
-22	.	.	u	u--------	_	4	AuxK	_	t_214|ref=Vita Ambrosiana_1
+1	διὸ	διό	d	d--------	_	4	AuxY	_	t_194|t_197|ref=Vit.Ambros._1
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_195|t_196|ref=Vit.Ambros._1
+3	ᾆσμα	ᾆσμα	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_196|t_197|ref=Vit.Ambros._1
+4	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_197|0|ref=Vit.Ambros._1
+5	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_198|t_197|ref=Vit.Ambros._1
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_199|t_200|ref=Vit.Ambros._1
+7	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_200|t_198|ref=Vit.Ambros._1
+8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_201|t_204|ref=Vit.Ambros._1
+9	ᾧ	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_202|t_201|ref=Vit.Ambros._1
+10	χάριν	χάρις	r	r--------	Case=a|Gender=f|Number=s	11	AuxP	_	t_203|t_204|ref=Vit.Ambros._1
+11	ὁμολογεῖ	ὁμολογέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ATR	_	t_204|t_196|ref=Vit.Ambros._1
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_205|t_206|ref=Vit.Ambros._1
+13	τιμῆς	τιμή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_206|t_203|ref=Vit.Ambros._1
+14	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_207|t_204|ref=Vit.Ambros._1
+15	,	,	u	u--------	_	4	AuxX	_	t_208|t_197|ref=Vit.Ambros._1
+16	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_209|t_211|ref=Vit.Ambros._1
+17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_210|t_211|ref=Vit.Ambros._1
+18	ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_211|e_7|ref=Vit.Ambros._1
+19	(	̔	u	u--------	_	4	AuxG	_	t_212|t_197|ref=Vit.Ambros._1
+20	fr	fr	n	n--------	_	21	SBJ	_	t_213|e_7|ref=Vit.Ambros._1
+21	[0]	[0]	-	---------	_	3	ATR	_	e_7|t_196|ref=Vit.Ambros._1
+22	.	.	u	u--------	_	4	AuxK	_	t_214|t_197|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = 95 ) [0] ·
 # sent_id = 16
-1	95	95	-	---------	_	0	PRED	_	t_215|ref=Vita Ambrosiana_1
-2	)	)	u	u--------	_	1	AuxG	_	t_216|ref=Vita Ambrosiana_1
-3	[0]	[0]	-	---------	_	1	OBJ	_	e_8|ref=Vita Ambrosiana_1
-4	·	·	u	u--------	_	1	AuxK	_	t_217|ref=Vita Ambrosiana_1
+1	95	95	-	---------	_	0	PRED	_	t_215|0|ref=Vit.Ambros._1
+2	)	)	u	u--------	_	1	AuxG	_	t_216|t_215|ref=Vit.Ambros._1
+3	[0]	[0]	-	---------	_	1	OBJ	_	e_8|t_215|ref=Vit.Ambros._1
+4	·	·	u	u--------	_	1	AuxK	_	t_217|t_215|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ὦ Πὰν Πὰν Ἀρκαδίας μεδέων καὶ σεμνῶν ἀδύτων φύλαξ [0] .
 # sent_id = 17
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_218|ref=Vita Ambrosiana_1
-2	Πὰν	πάν	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_219|ref=Vita Ambrosiana_1
-3	Πὰν	πάν	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_220|ref=Vita Ambrosiana_1
-4	Ἀρκαδίας	ἀρκαδία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_221|ref=Vita Ambrosiana_1
-5	μεδέων	μεδέων	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_222|ref=Vita Ambrosiana_1
-6	καὶ	καί	c	c--------	_	9	COORD	_	t_223|ref=Vita Ambrosiana_1
-7	σεμνῶν	σεμνός	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_224|ref=Vita Ambrosiana_1
-8	ἀδύτων	ἄδυτον	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_225|ref=Vita Ambrosiana_1
-9	φύλαξ	φύλαξ	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_226|ref=Vita Ambrosiana_1
-10	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Vita Ambrosiana_1
-11	.	.	u	u--------	_	10	AuxK	_	t_227|ref=Vita Ambrosiana_1
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_218|t_219|ref=Vit.Ambros._1
+2	Πὰν	πάν	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_219|e_9|ref=Vit.Ambros._1
+3	Πὰν	πάν	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_220|e_9|ref=Vit.Ambros._1
+4	Ἀρκαδίας	ἀρκαδία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_221|t_226|ref=Vit.Ambros._1
+5	μεδέων	μεδέων	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_222|t_223|ref=Vit.Ambros._1
+6	καὶ	καί	c	c--------	_	9	COORD	_	t_223|t_226|ref=Vit.Ambros._1
+7	σεμνῶν	σεμνός	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_224|t_223|ref=Vit.Ambros._1
+8	ἀδύτων	ἄδυτον	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_225|t_226|ref=Vit.Ambros._1
+9	φύλαξ	φύλαξ	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_226|e_9|ref=Vit.Ambros._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Vit.Ambros._1
+11	.	.	u	u--------	_	10	AuxK	_	t_227|e_9|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἀλλὰ καὶ ἡ Δημήτηρ ὄναρ ἐπιστᾶσα αὐτῷ ἐμέμψατο , ὅτι μόνην τῶν θεῶν οὐχ ὕμνησεν ·
 # sent_id = 18
-1	ἀλλὰ	ἀλλά	c	c--------	_	8	AuxY	_	t_228|ref=Vita Ambrosiana_1
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_229|ref=Vita Ambrosiana_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_230|ref=Vita Ambrosiana_1
-4	Δημήτηρ	δημήτηρ	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_231|ref=Vita Ambrosiana_1
-5	ὄναρ	ὄναρ	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_232|ref=Vita Ambrosiana_1
-6	ἐπιστᾶσα	ἐφίστημι	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_233|ref=Vita Ambrosiana_1
-7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_234|ref=Vita Ambrosiana_1
-8	ἐμέμψατο	μέμφομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_235|ref=Vita Ambrosiana_1
-9	,	,	u	u--------	_	8	AuxX	_	t_236|ref=Vita Ambrosiana_1
-10	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_237|ref=Vita Ambrosiana_1
-11	μόνην	μόνος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	AtvV	_	t_238|ref=Vita Ambrosiana_1
-12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_239|ref=Vita Ambrosiana_1
-13	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_240|ref=Vita Ambrosiana_1
-14	οὐχ	οὐ	d	d--------	_	15	AuxZ	_	t_241|ref=Vita Ambrosiana_1
-15	ὕμνησεν	ὑμνέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_242|ref=Vita Ambrosiana_1
-16	·	·	u	u--------	_	8	AuxK	_	t_243|ref=Vita Ambrosiana_1
+1	ἀλλὰ	ἀλλά	c	c--------	_	8	AuxY	_	t_228|t_235|ref=Vit.Ambros._1
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_229|t_231|ref=Vit.Ambros._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_230|t_231|ref=Vit.Ambros._1
+4	Δημήτηρ	δημήτηρ	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_231|t_235|ref=Vit.Ambros._1
+5	ὄναρ	ὄναρ	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_232|t_233|ref=Vit.Ambros._1
+6	ἐπιστᾶσα	ἐφίστημι	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_233|t_235|ref=Vit.Ambros._1
+7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_234|t_235|ref=Vit.Ambros._1
+8	ἐμέμψατο	μέμφομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_235|0|ref=Vit.Ambros._1
+9	,	,	u	u--------	_	8	AuxX	_	t_236|t_235|ref=Vit.Ambros._1
+10	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_237|t_235|ref=Vit.Ambros._1
+11	μόνην	μόνος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	AtvV	_	t_238|t_242|ref=Vit.Ambros._1
+12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_239|t_240|ref=Vit.Ambros._1
+13	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_240|t_238|ref=Vit.Ambros._1
+14	οὐχ	οὐ	d	d--------	_	15	AuxZ	_	t_241|t_242|ref=Vit.Ambros._1
+15	ὕμνησεν	ὑμνέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_242|t_237|ref=Vit.Ambros._1
+16	·	·	u	u--------	_	8	AuxK	_	t_243|t_235|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ὁ δὲ εἰς αὐτὴν ἐποίησε ποίημα οὗ ἡ ἀρχή ( fr [0] .
 # sent_id = 19
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_244|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_245|ref=Vita Ambrosiana_1
-3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_246|ref=Vita Ambrosiana_1
-4	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_247|ref=Vita Ambrosiana_1
-5	ἐποίησε	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_248|ref=Vita Ambrosiana_1
-6	ποίημα	ποίημα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_249|ref=Vita Ambrosiana_1
-7	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_250|ref=Vita Ambrosiana_1
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_251|ref=Vita Ambrosiana_1
-9	ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_252|ref=Vita Ambrosiana_1
-10	(	̔	u	u--------	_	5	AuxG	_	t_253|ref=Vita Ambrosiana_1
-11	fr	fr	x	x--------	_	12	PNOM	_	t_254|ref=Vita Ambrosiana_1
-12	[0]	[0]	-	---------	_	6	ATR	_	e_10|ref=Vita Ambrosiana_1
-13	.	.	u	u--------	_	5	AuxK	_	t_255|ref=Vita Ambrosiana_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_244|t_248|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_245|t_248|ref=Vit.Ambros._1
+3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_246|t_248|ref=Vit.Ambros._1
+4	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_247|t_246|ref=Vit.Ambros._1
+5	ἐποίησε	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_248|0|ref=Vit.Ambros._1
+6	ποίημα	ποίημα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_249|t_248|ref=Vit.Ambros._1
+7	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_250|t_252|ref=Vit.Ambros._1
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_251|t_252|ref=Vit.Ambros._1
+9	ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_252|e_10|ref=Vit.Ambros._1
+10	(	̔	u	u--------	_	5	AuxG	_	t_253|t_248|ref=Vit.Ambros._1
+11	fr	fr	x	x--------	_	12	PNOM	_	t_254|e_10|ref=Vit.Ambros._1
+12	[0]	[0]	-	---------	_	6	ATR	_	e_10|t_249|ref=Vit.Ambros._1
+13	.	.	u	u--------	_	5	AuxK	_	t_255|t_248|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = 37 ) [0] ·
 # sent_id = 20
-1	37	37	x	x--------	_	3	AuxG	_	t_256|ref=Vita Ambrosiana_1
-2	)	)	u	u--------	_	3	AuxG	_	t_257|ref=Vita Ambrosiana_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Vita Ambrosiana_1
-4	·	·	u	u--------	_	3	AuxK	_	t_258|ref=Vita Ambrosiana_1
+1	37	37	x	x--------	_	3	AuxG	_	t_256|e_11|ref=Vit.Ambros._1
+2	)	)	u	u--------	_	3	AuxG	_	t_257|e_11|ref=Vit.Ambros._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Vit.Ambros._1
+4	·	·	u	u--------	_	3	AuxK	_	t_258|e_11|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πότνια θεσμοφόρε χρυσάνιον [0] .
 # sent_id = 21
-1	Πότνια	πότνια	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_259|ref=Vita Ambrosiana_1
-2	θεσμοφόρε	θεσμοφόρος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_260|ref=Vita Ambrosiana_1
-3	χρυσάνιον	χρυσάνιος	a	a-s---ma-	Case=a|Gender=n|Number=s	4	OBJ	_	t_261|ref=Vita Ambrosiana_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=Vita Ambrosiana_1
-5	.	.	u	u--------	_	4	AuxK	_	t_262|ref=Vita Ambrosiana_1
+1	Πότνια	πότνια	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_259|e_12|ref=Vit.Ambros._1
+2	θεσμοφόρε	θεσμοφόρος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_260|e_12|ref=Vit.Ambros._1
+3	χρυσάνιον	χρυσάνιος	a	a-s---ma-	Case=a|Gender=n|Number=s	4	OBJ	_	t_261|e_12|ref=Vit.Ambros._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Vit.Ambros._1
+5	.	.	u	u--------	_	4	AuxK	_	t_262|e_12|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἀλλὰ καὶ βωμὸν ἀμφοτέρων τῶν θεῶν πρὸ τῆς οἰκίας τῆς ἰδίας ἱδρύσατο .
 # sent_id = 22
-1	ἀλλὰ	ἀλλά	d	d--------	_	12	AuxY	_	t_263|ref=Vita Ambrosiana_1
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_264|ref=Vita Ambrosiana_1
-3	βωμὸν	βωμός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_265|ref=Vita Ambrosiana_1
-4	ἀμφοτέρων	ἀμφότερος	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_266|ref=Vita Ambrosiana_1
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_267|ref=Vita Ambrosiana_1
-6	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_268|ref=Vita Ambrosiana_1
-7	πρὸ	πρό	r	r--------	_	12	AuxP	_	t_269|ref=Vita Ambrosiana_1
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_270|ref=Vita Ambrosiana_1
-9	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_271|ref=Vita Ambrosiana_1
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_272|ref=Vita Ambrosiana_1
-11	ἰδίας	ἴδιος	a	a-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_273|ref=Vita Ambrosiana_1
-12	ἱδρύσατο	ἱδρύω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_274|ref=Vita Ambrosiana_1
-13	.	.	u	u--------	_	12	AuxK	_	t_275|ref=Vita Ambrosiana_1
+1	ἀλλὰ	ἀλλά	d	d--------	_	12	AuxY	_	t_263|t_274|ref=Vit.Ambros._1
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_264|t_265|ref=Vit.Ambros._1
+3	βωμὸν	βωμός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_265|t_274|ref=Vit.Ambros._1
+4	ἀμφοτέρων	ἀμφότερος	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_266|t_268|ref=Vit.Ambros._1
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_267|t_268|ref=Vit.Ambros._1
+6	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_268|t_265|ref=Vit.Ambros._1
+7	πρὸ	πρό	r	r--------	_	12	AuxP	_	t_269|t_274|ref=Vit.Ambros._1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_270|t_271|ref=Vit.Ambros._1
+9	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_271|t_269|ref=Vit.Ambros._1
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_272|t_271|ref=Vit.Ambros._1
+11	ἰδίας	ἴδιος	a	a-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_273|t_271|ref=Vit.Ambros._1
+12	ἱδρύσατο	ἱδρύω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_274|0|ref=Vit.Ambros._1
+13	.	.	u	u--------	_	12	AuxK	_	t_275|t_274|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Παυσανίου δὲ τοῦ Λακεδαιμονίων βασιλέως ἐμπιπρῶντος τὰς Θήβας ἐπέγραψέ τις τῇ οἰκίᾳ ·
 # sent_id = 23
-1	Παυσανίου	παυσανίας	n	n-s---mg-	Case=g|Gender=m|Number=s	6	SBJ	_	t_276|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_277|ref=Vita Ambrosiana_1
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_278|ref=Vita Ambrosiana_1
-4	Λακεδαιμονίων	λακεδαιμόνιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_279|ref=Vita Ambrosiana_1
-5	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_280|ref=Vita Ambrosiana_1
-6	ἐμπιπρῶντος	ἐμπιπράω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_281|ref=Vita Ambrosiana_1
-7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_282|ref=Vita Ambrosiana_1
-8	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_283|ref=Vita Ambrosiana_1
-9	ἐπέγραψέ	ἐπιγράφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_284|ref=Vita Ambrosiana_1
-10	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_285|ref=Vita Ambrosiana_1
-11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	12	ATR	_	t_286|ref=Vita Ambrosiana_1
-12	οἰκίᾳ	οἰκία	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_287|ref=Vita Ambrosiana_1
-13	·	·	u	u--------	_	9	AuxK	_	t_288|ref=Vita Ambrosiana_1
+1	Παυσανίου	παυσανίας	n	n-s---mg-	Case=g|Gender=m|Number=s	6	SBJ	_	t_276|t_281|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_277|t_284|ref=Vit.Ambros._1
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_278|t_276|ref=Vit.Ambros._1
+4	Λακεδαιμονίων	λακεδαιμόνιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_279|t_280|ref=Vit.Ambros._1
+5	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_280|t_276|ref=Vit.Ambros._1
+6	ἐμπιπρῶντος	ἐμπιπράω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_281|t_284|ref=Vit.Ambros._1
+7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_282|t_283|ref=Vit.Ambros._1
+8	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_283|t_284|ref=Vit.Ambros._1
+9	ἐπέγραψέ	ἐπιγράφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_284|0|ref=Vit.Ambros._1
+10	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_285|t_284|ref=Vit.Ambros._1
+11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	12	ATR	_	t_286|t_287|ref=Vit.Ambros._1
+12	οἰκίᾳ	οἰκία	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_287|t_284|ref=Vit.Ambros._1
+13	·	·	u	u--------	_	9	AuxK	_	t_288|t_284|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πινδάρου τοῦ μουσοποιοῦ τὴν στέγην μὴ καίετε ·
 # sent_id = 24
-1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_289|ref=Vita Ambrosiana_1
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_290|ref=Vita Ambrosiana_1
-3	μουσοποιοῦ	μουσοποιός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_291|ref=Vita Ambrosiana_1
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_292|ref=Vita Ambrosiana_1
-5	στέγην	στέγη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_293|ref=Vita Ambrosiana_1
-6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_294|ref=Vita Ambrosiana_1
-7	καίετε	καίω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_295|ref=Vita Ambrosiana_1
-8	·	·	u	u--------	_	7	AuxK	_	t_296|ref=Vita Ambrosiana_1
+1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_289|t_293|ref=Vit.Ambros._1
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_290|t_289|ref=Vit.Ambros._1
+3	μουσοποιοῦ	μουσοποιός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_291|t_289|ref=Vit.Ambros._1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_292|t_293|ref=Vit.Ambros._1
+5	στέγην	στέγη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_293|t_295|ref=Vit.Ambros._1
+6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_294|t_295|ref=Vit.Ambros._1
+7	καίετε	καίω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_295|0|ref=Vit.Ambros._1
+8	·	·	u	u--------	_	7	AuxK	_	t_296|t_295|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = καὶ οὕτως μόνη ἀπόρθητος ἔμεινεν , καὶ ἔστι τὸ νῦν ἐν Θήβαις πρυτανεῖον .
 # sent_id = 25
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_297|ref=Vita Ambrosiana_1
-2	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_298|ref=Vita Ambrosiana_1
-3	μόνη	μόνος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	AtvV	_	t_299|ref=Vita Ambrosiana_1
-4	ἀπόρθητος	ἀπόρθητος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	AtvV	_	t_300|ref=Vita Ambrosiana_1
-5	ἔμεινεν	μένω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_301|ref=Vita Ambrosiana_1
-6	,	,	u	u--------	_	0	AuxX	_	t_302|ref=Vita Ambrosiana_1
-7	καὶ	καί	c	c--------	_	6	COORD	_	t_303|ref=Vita Ambrosiana_1
-8	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_304|ref=Vita Ambrosiana_1
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_305|ref=Vita Ambrosiana_1
-10	νῦν	νῦν	d	d--------	_	13	ATR	_	t_306|ref=Vita Ambrosiana_1
-11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_307|ref=Vita Ambrosiana_1
-12	Θήβαις	θῆβαι	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ATR	_	t_308|ref=Vita Ambrosiana_1
-13	πρυτανεῖον	πρυτανεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_309|ref=Vita Ambrosiana_1
-14	.	.	u	u--------	_	6	AuxK	_	t_310|ref=Vita Ambrosiana_1
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_297|t_303|ref=Vit.Ambros._1
+2	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_298|t_301|ref=Vit.Ambros._1
+3	μόνη	μόνος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	AtvV	_	t_299|t_301|ref=Vit.Ambros._1
+4	ἀπόρθητος	ἀπόρθητος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	AtvV	_	t_300|t_301|ref=Vit.Ambros._1
+5	ἔμεινεν	μένω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_301|t_303|ref=Vit.Ambros._1
+6	,	,	u	u--------	_	0	AuxX	_	t_302|0|ref=Vit.Ambros._1
+7	καὶ	καί	c	c--------	_	6	COORD	_	t_303|t_302|ref=Vit.Ambros._1
+8	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_304|t_303|ref=Vit.Ambros._1
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_305|t_309|ref=Vit.Ambros._1
+10	νῦν	νῦν	d	d--------	_	13	ATR	_	t_306|t_309|ref=Vit.Ambros._1
+11	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_307|t_309|ref=Vit.Ambros._1
+12	Θήβαις	θῆβαι	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ATR	_	t_308|t_307|ref=Vit.Ambros._1
+13	πρυτανεῖον	πρυτανεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_309|t_304|ref=Vit.Ambros._1
+14	.	.	u	u--------	_	6	AuxK	_	t_310|t_302|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἀλλὰ καὶ ἐν Δελφοῖς ὁ προφήτης μέλλων κλείειν τὸν νεὼν κηρύσσει καθ᾿ ἡμέραν ·
 # sent_id = 26
-1	ἀλλὰ	ἀλλά	d	d--------	_	11	AuxY	_	t_311|ref=Vita Ambrosiana_1
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_312|ref=Vita Ambrosiana_1
-3	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_313|ref=Vita Ambrosiana_1
-4	Δελφοῖς	δελφοί	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_314|ref=Vita Ambrosiana_1
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_315|ref=Vita Ambrosiana_1
-6	προφήτης	προφήτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_316|ref=Vita Ambrosiana_1
-7	μέλλων	μέλλω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_317|ref=Vita Ambrosiana_1
-8	κλείειν	κλείω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_318|ref=Vita Ambrosiana_1
-9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_319|ref=Vita Ambrosiana_1
-10	νεὼν	ναός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_320|ref=Vita Ambrosiana_1
-11	κηρύσσει	κηρύσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_321|ref=Vita Ambrosiana_1
-12	καθ᾿	κατά	r	r--------	_	11	AuxP	_	t_322|ref=Vita Ambrosiana_1
-13	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_323|ref=Vita Ambrosiana_1
-14	·	·	u	u--------	_	11	AuxK	_	t_324|ref=Vita Ambrosiana_1
+1	ἀλλὰ	ἀλλά	d	d--------	_	11	AuxY	_	t_311|t_321|ref=Vit.Ambros._1
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_312|t_314|ref=Vit.Ambros._1
+3	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_313|t_321|ref=Vit.Ambros._1
+4	Δελφοῖς	δελφοί	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_314|t_313|ref=Vit.Ambros._1
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_315|t_316|ref=Vit.Ambros._1
+6	προφήτης	προφήτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_316|t_321|ref=Vit.Ambros._1
+7	μέλλων	μέλλω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_317|t_321|ref=Vit.Ambros._1
+8	κλείειν	κλείω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_318|t_317|ref=Vit.Ambros._1
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_319|t_320|ref=Vit.Ambros._1
+10	νεὼν	ναός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_320|t_318|ref=Vit.Ambros._1
+11	κηρύσσει	κηρύσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_321|0|ref=Vit.Ambros._1
+12	καθ᾿	κατά	r	r--------	_	11	AuxP	_	t_322|t_321|ref=Vit.Ambros._1
+13	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_323|t_322|ref=Vit.Ambros._1
+14	·	·	u	u--------	_	11	AuxK	_	t_324|t_321|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πίνδαρος ὁ μουσοποιὸς παρίτω πρὸς τὸ δεῖπνον τῷ θεῷ .
 # sent_id = 27
-1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_325|ref=Vita Ambrosiana_1
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_326|ref=Vita Ambrosiana_1
-3	μουσοποιὸς	μουσοποιός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_327|ref=Vita Ambrosiana_1
-4	παρίτω	πάρειμι	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_328|ref=Vita Ambrosiana_1
-5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_329|ref=Vita Ambrosiana_1
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_330|ref=Vita Ambrosiana_1
-7	δεῖπνον	δεῖπνον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_331|ref=Vita Ambrosiana_1
-8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_332|ref=Vita Ambrosiana_1
-9	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_333|ref=Vita Ambrosiana_1
-10	.	.	u	u--------	_	4	AuxK	_	t_334|ref=Vita Ambrosiana_1
+1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_325|t_328|ref=Vit.Ambros._1
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_326|t_325|ref=Vit.Ambros._1
+3	μουσοποιὸς	μουσοποιός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_327|t_325|ref=Vit.Ambros._1
+4	παρίτω	πάρειμι	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_328|0|ref=Vit.Ambros._1
+5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_329|t_328|ref=Vit.Ambros._1
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_330|t_331|ref=Vit.Ambros._1
+7	δεῖπνον	δεῖπνον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_331|t_329|ref=Vit.Ambros._1
+8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_332|t_333|ref=Vit.Ambros._1
+9	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_333|t_328|ref=Vit.Ambros._1
+10	.	.	u	u--------	_	4	AuxK	_	t_334|t_328|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = καὶ γὰρ ἐν τῇ τῶν Πυθίων ἑορτῇ ἐγεννήθη , ὡς αὐτός φησι ( fr .
 # sent_id = 28
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_335|ref=Vita Ambrosiana_1
-2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_336|ref=Vita Ambrosiana_1
-3	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_337|ref=Vita Ambrosiana_1
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_338|ref=Vita Ambrosiana_1
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_339|ref=Vita Ambrosiana_1
-6	Πυθίων	πύθιος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_340|ref=Vita Ambrosiana_1
-7	ἑορτῇ	ἑορτή	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_341|ref=Vita Ambrosiana_1
-8	ἐγεννήθη	γεννάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_342|ref=Vita Ambrosiana_1
-9	,	,	u	u--------	_	8	AuxX	_	t_343|ref=Vita Ambrosiana_1
-10	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_344|ref=Vita Ambrosiana_1
-11	αὐτός	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_345|ref=Vita Ambrosiana_1
-12	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_346|ref=Vita Ambrosiana_1
-13	(	̔	u	u--------	_	8	AuxG	_	t_347|ref=Vita Ambrosiana_1
-14	fr	fr	n	n--------	_	8	ExD	_	t_348|ref=Vita Ambrosiana_1
-15	.	.	u	u--------	_	8	AuxK	_	t_349|ref=Vita Ambrosiana_1
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_335|t_342|ref=Vit.Ambros._1
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_336|t_342|ref=Vit.Ambros._1
+3	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_337|t_342|ref=Vit.Ambros._1
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_338|t_341|ref=Vit.Ambros._1
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_339|t_340|ref=Vit.Ambros._1
+6	Πυθίων	πύθιος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_340|t_341|ref=Vit.Ambros._1
+7	ἑορτῇ	ἑορτή	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_341|t_337|ref=Vit.Ambros._1
+8	ἐγεννήθη	γεννάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_342|0|ref=Vit.Ambros._1
+9	,	,	u	u--------	_	8	AuxX	_	t_343|t_342|ref=Vit.Ambros._1
+10	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_344|t_342|ref=Vit.Ambros._1
+11	αὐτός	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_345|t_346|ref=Vit.Ambros._1
+12	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_346|t_344|ref=Vit.Ambros._1
+13	(	̔	u	u--------	_	8	AuxG	_	t_347|t_342|ref=Vit.Ambros._1
+14	fr	fr	n	n--------	_	8	ExD	_	t_348|t_342|ref=Vit.Ambros._1
+15	.	.	u	u--------	_	8	AuxK	_	t_349|t_342|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = 193 ) [0] ·
 # sent_id = 29
-1	193	193	x	x--------	_	3	AuxG	_	t_350|ref=Vita Ambrosiana_1
-2	)	)	u	u--------	_	3	AuxG	_	t_351|ref=Vita Ambrosiana_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Vita Ambrosiana_1
-4	·	·	u	u--------	_	3	AuxK	_	t_352|ref=Vita Ambrosiana_1
+1	193	193	x	x--------	_	3	AuxG	_	t_350|e_13|ref=Vit.Ambros._1
+2	)	)	u	u--------	_	3	AuxG	_	t_351|e_13|ref=Vit.Ambros._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Vit.Ambros._1
+4	·	·	u	u--------	_	3	AuxK	_	t_352|e_13|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πενταετηρὶς ἑορτὰ βουπομπὸς , ἐν ᾇ πρῶτον εὐνάσθην ἀγαπατὸς ὑπὸ σπαργάνοις [0] .
 # sent_id = 30
-1	Πενταετηρὶς	πενταετηρίς	n	n-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_353|ref=Vita Ambrosiana_1
-2	ἑορτὰ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_354|ref=Vita Ambrosiana_1
-3	βουπομπὸς	βουπομπός	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_355|ref=Vita Ambrosiana_1
-4	,	,	u	u--------	_	8	AuxX	_	t_356|ref=Vita Ambrosiana_1
-5	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_357|ref=Vita Ambrosiana_1
-6	ᾇ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_358|ref=Vita Ambrosiana_1
-7	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_359|ref=Vita Ambrosiana_1
-8	εὐνάσθην	εὐνάζω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	3	ATR	_	t_360|ref=Vita Ambrosiana_1
-9	ἀγαπατὸς	ἀγαπατός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	AtvV	_	t_361|ref=Vita Ambrosiana_1
-10	ὑπὸ	ὑπό	r	r--------	_	9	AuxP	_	t_362|ref=Vita Ambrosiana_1
-11	σπαργάνοις	σπάργανον	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_363|ref=Vita Ambrosiana_1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Vita Ambrosiana_1
-13	.	.	u	u--------	_	12	AuxK	_	t_364|ref=Vita Ambrosiana_1
+1	Πενταετηρὶς	πενταετηρίς	n	n-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_353|t_354|ref=Vit.Ambros._1
+2	ἑορτὰ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_354|e_14|ref=Vit.Ambros._1
+3	βουπομπὸς	βουπομπός	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_355|e_14|ref=Vit.Ambros._1
+4	,	,	u	u--------	_	8	AuxX	_	t_356|t_360|ref=Vit.Ambros._1
+5	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_357|t_360|ref=Vit.Ambros._1
+6	ᾇ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_358|t_357|ref=Vit.Ambros._1
+7	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_359|t_360|ref=Vit.Ambros._1
+8	εὐνάσθην	εὐνάζω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	3	ATR	_	t_360|t_355|ref=Vit.Ambros._1
+9	ἀγαπατὸς	ἀγαπατός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	AtvV	_	t_361|t_360|ref=Vit.Ambros._1
+10	ὑπὸ	ὑπό	r	r--------	_	9	AuxP	_	t_362|t_361|ref=Vit.Ambros._1
+11	σπαργάνοις	σπάργανον	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_363|t_362|ref=Vit.Ambros._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Vit.Ambros._1
+13	.	.	u	u--------	_	12	AuxK	_	t_364|e_14|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = λέγεται δὲ θεωροὺς ἀπιόντας εἰς Ἄμμωνος αἰτῆσαι Πινδάρῳ τὸ ἐν ἀνθρώποις ἄριστον , καὶ ἀποθανεῖν ἐν ἐκείνῳ τῷ ἐνιαυτῷ .
 # sent_id = 31
-1	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_365|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_366|ref=Vita Ambrosiana_1
-3	θεωροὺς	θεωρός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	SBJ	_	t_367|ref=Vita Ambrosiana_1
-4	ἀπιόντας	ἄπειμι1	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_368|ref=Vita Ambrosiana_1
-5	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_369|ref=Vita Ambrosiana_1
-6	Ἄμμωνος	ἄμμων	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_370|ref=Vita Ambrosiana_1
-7	αἰτῆσαι	αἰτέω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	OBJ	_	t_371|ref=Vita Ambrosiana_1
-8	Πινδάρῳ	πίνδαρος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_372|ref=Vita Ambrosiana_1
-9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_373|ref=Vita Ambrosiana_1
-10	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_374|ref=Vita Ambrosiana_1
-11	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_375|ref=Vita Ambrosiana_1
-12	ἄριστον	ἄριστον	n	n-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_376|ref=Vita Ambrosiana_1
-13	,	,	u	u--------	_	1	AuxX	_	t_377|ref=Vita Ambrosiana_1
-14	καὶ	καί	c	c--------	_	1	COORD	_	t_378|ref=Vita Ambrosiana_1
-15	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	OBJ	_	t_379|ref=Vita Ambrosiana_1
-16	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_380|ref=Vita Ambrosiana_1
-17	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_381|ref=Vita Ambrosiana_1
-18	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_382|ref=Vita Ambrosiana_1
-19	ἐνιαυτῷ	ἐνιαυτός	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_383|ref=Vita Ambrosiana_1
-20	.	.	u	u--------	_	1	AuxK	_	t_384|ref=Vita Ambrosiana_1
+1	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_365|0|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_366|t_365|ref=Vit.Ambros._1
+3	θεωροὺς	θεωρός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	SBJ	_	t_367|t_371|ref=Vit.Ambros._1
+4	ἀπιόντας	ἄπειμι1	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_368|t_371|ref=Vit.Ambros._1
+5	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_369|t_368|ref=Vit.Ambros._1
+6	Ἄμμωνος	ἄμμων	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_370|t_369|ref=Vit.Ambros._1
+7	αἰτῆσαι	αἰτέω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	OBJ	_	t_371|t_378|ref=Vit.Ambros._1
+8	Πινδάρῳ	πίνδαρος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_372|t_371|ref=Vit.Ambros._1
+9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_373|t_376|ref=Vit.Ambros._1
+10	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_374|t_376|ref=Vit.Ambros._1
+11	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_375|t_374|ref=Vit.Ambros._1
+12	ἄριστον	ἄριστον	n	n-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_376|t_371|ref=Vit.Ambros._1
+13	,	,	u	u--------	_	1	AuxX	_	t_377|t_365|ref=Vit.Ambros._1
+14	καὶ	καί	c	c--------	_	1	COORD	_	t_378|t_365|ref=Vit.Ambros._1
+15	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	OBJ	_	t_379|t_378|ref=Vit.Ambros._1
+16	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_380|t_379|ref=Vit.Ambros._1
+17	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_381|t_383|ref=Vit.Ambros._1
+18	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_382|t_383|ref=Vit.Ambros._1
+19	ἐνιαυτῷ	ἐνιαυτός	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_383|t_380|ref=Vit.Ambros._1
+20	.	.	u	u--------	_	1	AuxK	_	t_384|t_365|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἐπέβαλλε δὲ τοῖς χρόνοις Σιμωνίδῃ ᾗ νεώτερος πρεσβυτέρῳ ·
 # sent_id = 32
-1	ἐπέβαλλε	ἐπιβάλλω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_385|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_386|ref=Vita Ambrosiana_1
-3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_387|ref=Vita Ambrosiana_1
-4	χρόνοις	χρόνος	n	n-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_388|ref=Vita Ambrosiana_1
-5	Σιμωνίδῃ	σιμωνίδης	n	n-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_389|ref=Vita Ambrosiana_1
-6	ᾗ	ὅς	d	d--------	_	5	ATR	_	t_390|ref=Vita Ambrosiana_1
-7	νεώτερος	νέος	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	5	ATR	_	t_391|ref=Vita Ambrosiana_1
-8	πρεσβυτέρῳ	πρεσβύτερος	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	5	ATR	_	t_392|ref=Vita Ambrosiana_1
-9	·	·	u	u--------	_	1	AuxK	_	t_393|ref=Vita Ambrosiana_1
+1	ἐπέβαλλε	ἐπιβάλλω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_385|0|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_386|t_385|ref=Vit.Ambros._1
+3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_387|t_388|ref=Vit.Ambros._1
+4	χρόνοις	χρόνος	n	n-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_388|t_385|ref=Vit.Ambros._1
+5	Σιμωνίδῃ	σιμωνίδης	n	n-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_389|t_385|ref=Vit.Ambros._1
+6	ᾗ	ὅς	d	d--------	_	5	ATR	_	t_390|t_389|ref=Vit.Ambros._1
+7	νεώτερος	νέος	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	5	ATR	_	t_391|t_389|ref=Vit.Ambros._1
+8	πρεσβυτέρῳ	πρεσβύτερος	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	5	ATR	_	t_392|t_389|ref=Vit.Ambros._1
+9	·	·	u	u--------	_	1	AuxK	_	t_393|t_385|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = τῶν γοῦν αὐτῶν μέμνηνται ἀμφότεροι πράξεων .
 # sent_id = 33
-1	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_394|ref=Vita Ambrosiana_1
-2	γοῦν	γοῦν	d	d--------	_	4	AuxY	_	t_395|ref=Vita Ambrosiana_1
-3	αὐτῶν	αὐτός	a	a-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_396|ref=Vita Ambrosiana_1
-4	μέμνηνται	μιμνῄσκω	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	0	PRED	_	t_397|ref=Vita Ambrosiana_1
-5	ἀμφότεροι	ἀμφότερος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_398|ref=Vita Ambrosiana_1
-6	πράξεων	πρᾶξις	n	n-p---fg-	Case=g|Gender=f|Number=p	4	OBJ	_	t_399|ref=Vita Ambrosiana_1
-7	.	.	u	u--------	_	4	AuxK	_	t_400|ref=Vita Ambrosiana_1
+1	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_394|t_399|ref=Vit.Ambros._1
+2	γοῦν	γοῦν	d	d--------	_	4	AuxY	_	t_395|t_397|ref=Vit.Ambros._1
+3	αὐτῶν	αὐτός	a	a-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_396|t_399|ref=Vit.Ambros._1
+4	μέμνηνται	μιμνῄσκω	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	0	PRED	_	t_397|0|ref=Vit.Ambros._1
+5	ἀμφότεροι	ἀμφότερος	a	a-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_398|t_397|ref=Vit.Ambros._1
+6	πράξεων	πρᾶξις	n	n-p---fg-	Case=g|Gender=f|Number=p	4	OBJ	_	t_399|t_397|ref=Vit.Ambros._1
+7	.	.	u	u--------	_	4	AuxK	_	t_400|t_397|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = καὶ γὰρ Σιμωνίδης ( fr [0] .
 # sent_id = 34
-1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_401|ref=Vita Ambrosiana_1
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_402|ref=Vita Ambrosiana_1
-3	Σιμωνίδης	σιμωνίδης	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_403|ref=Vita Ambrosiana_1
-4	(	̔	u	u--------	_	6	AuxG	_	t_404|ref=Vita Ambrosiana_1
-5	fr	fr	x	x--------	_	6	PNOM	_	t_405|ref=Vita Ambrosiana_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Vita Ambrosiana_1
-7	.	.	u	u--------	_	6	AuxK	_	t_406|ref=Vita Ambrosiana_1
+1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_401|t_403|ref=Vit.Ambros._1
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_402|e_15|ref=Vit.Ambros._1
+3	Σιμωνίδης	σιμωνίδης	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_403|e_15|ref=Vit.Ambros._1
+4	(	̔	u	u--------	_	6	AuxG	_	t_404|e_15|ref=Vit.Ambros._1
+5	fr	fr	x	x--------	_	6	PNOM	_	t_405|e_15|ref=Vit.Ambros._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Vit.Ambros._1
+7	.	.	u	u--------	_	6	AuxK	_	t_406|e_15|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = 83 ) τὴν ἐν Σαλαμῖνι ναυμαχίαν γέγραφε καὶ Πίνδαρος ( fr .
 # sent_id = 35
-1	83	83	u	u--------	_	7	AuxG	_	t_407|ref=Vita Ambrosiana_1
-2	)	)	u	u--------	_	7	AuxG	_	t_408|ref=Vita Ambrosiana_1
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_409|ref=Vita Ambrosiana_1
-4	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_410|ref=Vita Ambrosiana_1
-5	Σαλαμῖνι	σαλαμίς	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_411|ref=Vita Ambrosiana_1
-6	ναυμαχίαν	ναυμαχία	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_412|ref=Vita Ambrosiana_1
-7	γέγραφε	γράφω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_413|ref=Vita Ambrosiana_1
-8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_414|ref=Vita Ambrosiana_1
-9	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_415|ref=Vita Ambrosiana_1
-10	(	̔	u	u--------	_	7	AuxG	_	t_416|ref=Vita Ambrosiana_1
-11	fr	fr	n	n--------	_	7	ExD	_	t_417|ref=Vita Ambrosiana_1
-12	.	.	u	u--------	_	7	AuxK	_	t_418|ref=Vita Ambrosiana_1
+1	83	83	u	u--------	_	7	AuxG	_	t_407|t_413|ref=Vit.Ambros._1
+2	)	)	u	u--------	_	7	AuxG	_	t_408|t_413|ref=Vit.Ambros._1
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_409|t_412|ref=Vit.Ambros._1
+4	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_410|t_412|ref=Vit.Ambros._1
+5	Σαλαμῖνι	σαλαμίς	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_411|t_410|ref=Vit.Ambros._1
+6	ναυμαχίαν	ναυμαχία	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_412|t_413|ref=Vit.Ambros._1
+7	γέγραφε	γράφω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_413|0|ref=Vit.Ambros._1
+8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_414|t_415|ref=Vit.Ambros._1
+9	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_415|t_413|ref=Vit.Ambros._1
+10	(	̔	u	u--------	_	7	AuxG	_	t_416|t_413|ref=Vit.Ambros._1
+11	fr	fr	n	n--------	_	7	ExD	_	t_417|t_413|ref=Vit.Ambros._1
+12	.	.	u	u--------	_	7	AuxK	_	t_418|t_413|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = 272 ) μέμνηται τῆς Κάδμου βασιλείας .
 # sent_id = 36
-1	272	272	d	d--------	_	3	AuxG	_	t_419|ref=Vita Ambrosiana_1
-2	)	)	u	u--------	_	3	AuxG	_	t_420|ref=Vita Ambrosiana_1
-3	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_421|ref=Vita Ambrosiana_1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_422|ref=Vita Ambrosiana_1
-5	Κάδμου	κάδμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_423|ref=Vita Ambrosiana_1
-6	βασιλείας	βασίλεια	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_424|ref=Vita Ambrosiana_1
-7	.	.	u	u--------	_	3	AuxK	_	t_425|ref=Vita Ambrosiana_1
+1	272	272	d	d--------	_	3	AuxG	_	t_419|t_421|ref=Vit.Ambros._1
+2	)	)	u	u--------	_	3	AuxG	_	t_420|t_421|ref=Vit.Ambros._1
+3	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_421|0|ref=Vit.Ambros._1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_422|t_424|ref=Vit.Ambros._1
+5	Κάδμου	κάδμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_423|t_424|ref=Vit.Ambros._1
+6	βασιλείας	βασίλεια	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_424|t_421|ref=Vit.Ambros._1
+7	.	.	u	u--------	_	3	AuxK	_	t_425|t_421|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ἀλλὰ καὶ ἀμφότεροι παρὰ Ἱέρωνι τῷ Συρακοσίων τυράννῳ γεγένηνται .
 # sent_id = 37
-1	ἀλλὰ	ἀλλά	d	d--------	_	9	AuxY	_	t_426|ref=Vita Ambrosiana_1
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_427|ref=Vita Ambrosiana_1
-3	ἀμφότεροι	ἀμφότερος	a	a-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_428|ref=Vita Ambrosiana_1
-4	παρὰ	παρά	r	r--------	_	9	AuxP	_	t_429|ref=Vita Ambrosiana_1
-5	Ἱέρωνι	ἱέρων	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_430|ref=Vita Ambrosiana_1
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_431|ref=Vita Ambrosiana_1
-7	Συρακοσίων	συρακούσιος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_432|ref=Vita Ambrosiana_1
-8	τυράννῳ	τύραννος	n	n-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_433|ref=Vita Ambrosiana_1
-9	γεγένηνται	γίγνομαι	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	0	PRED	_	t_434|ref=Vita Ambrosiana_1
-10	.	.	u	u--------	_	9	AuxK	_	t_435|ref=Vita Ambrosiana_1
+1	ἀλλὰ	ἀλλά	d	d--------	_	9	AuxY	_	t_426|t_434|ref=Vit.Ambros._1
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_427|t_428|ref=Vit.Ambros._1
+3	ἀμφότεροι	ἀμφότερος	a	a-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_428|t_434|ref=Vit.Ambros._1
+4	παρὰ	παρά	r	r--------	_	9	AuxP	_	t_429|t_434|ref=Vit.Ambros._1
+5	Ἱέρωνι	ἱέρων	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_430|t_429|ref=Vit.Ambros._1
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_431|t_430|ref=Vit.Ambros._1
+7	Συρακοσίων	συρακούσιος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_432|t_433|ref=Vit.Ambros._1
+8	τυράννῳ	τύραννος	n	n-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_433|t_430|ref=Vit.Ambros._1
+9	γεγένηνται	γίγνομαι	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	0	PRED	_	t_434|0|ref=Vit.Ambros._1
+10	.	.	u	u--------	_	9	AuxK	_	t_435|t_434|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = γήμας δὲ Μεγάκλειαν τὴν Λυσιθέου καὶ Καλλίνης ἔσχεν υἱὸν Δαΐφαντον , ᾧ καὶ δαφνηφορικὸν ᾆσμα ἔγραψεν ·
 # sent_id = 38
-1	γήμας	γαμέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ADV	_	t_436|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_437|ref=Vita Ambrosiana_1
-3	Μεγάκλειαν	μεγάκλεια	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_438|ref=Vita Ambrosiana_1
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_439|ref=Vita Ambrosiana_1
-5	Λυσιθέου	λυσιθέα	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_440|ref=Vita Ambrosiana_1
-6	καὶ	καί	c	c--------	_	9	COORD	_	t_441|ref=Vita Ambrosiana_1
-7	Καλλίνης	καλλίνη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_442|ref=Vita Ambrosiana_1
-8	ἔσχεν	ἔχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_443|ref=Vita Ambrosiana_1
-9	υἱὸν	υἱός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_444|ref=Vita Ambrosiana_1
-10	Δαΐφαντον	δαίφαντος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_445|ref=Vita Ambrosiana_1
-11	,	,	u	u--------	_	8	AuxX	_	t_446|ref=Vita Ambrosiana_1
-12	ᾧ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_447|ref=Vita Ambrosiana_1
-13	καὶ	καί	d	d--------	_	15	AuxZ	_	t_448|ref=Vita Ambrosiana_1
-14	δαφνηφορικὸν	δαφνηφορικός	a	a-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_449|ref=Vita Ambrosiana_1
-15	ᾆσμα	ᾆσμα	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_450|ref=Vita Ambrosiana_1
-16	ἔγραψεν	γράφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ATR	_	t_451|ref=Vita Ambrosiana_1
-17	·	·	u	u--------	_	8	AuxK	_	t_452|ref=Vita Ambrosiana_1
+1	γήμας	γαμέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ADV	_	t_436|t_443|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_437|t_443|ref=Vit.Ambros._1
+3	Μεγάκλειαν	μεγάκλεια	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_438|t_436|ref=Vit.Ambros._1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_439|t_438|ref=Vit.Ambros._1
+5	Λυσιθέου	λυσιθέα	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_440|t_441|ref=Vit.Ambros._1
+6	καὶ	καί	c	c--------	_	9	COORD	_	t_441|t_444|ref=Vit.Ambros._1
+7	Καλλίνης	καλλίνη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_442|t_441|ref=Vit.Ambros._1
+8	ἔσχεν	ἔχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_443|0|ref=Vit.Ambros._1
+9	υἱὸν	υἱός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_444|t_438|ref=Vit.Ambros._1
+10	Δαΐφαντον	δαίφαντος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_445|t_443|ref=Vit.Ambros._1
+11	,	,	u	u--------	_	8	AuxX	_	t_446|t_443|ref=Vit.Ambros._1
+12	ᾧ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_447|t_451|ref=Vit.Ambros._1
+13	καὶ	καί	d	d--------	_	15	AuxZ	_	t_448|t_450|ref=Vit.Ambros._1
+14	δαφνηφορικὸν	δαφνηφορικός	a	a-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_449|t_450|ref=Vit.Ambros._1
+15	ᾆσμα	ᾆσμα	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_450|t_451|ref=Vit.Ambros._1
+16	ἔγραψεν	γράφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ATR	_	t_451|t_445|ref=Vit.Ambros._1
+17	·	·	u	u--------	_	8	AuxK	_	t_452|t_443|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = καὶ θυγατέρας δύο , Πρωτομάχην καὶ Εὔμητιν [0] .
 # sent_id = 39
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_453|ref=Vita Ambrosiana_1
-2	θυγατέρας	θυγάτηρ	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_454|ref=Vita Ambrosiana_1
-3	δύο	δύο	a	a--------	_	2	ATR	_	t_455|ref=Vita Ambrosiana_1
-4	,	,	u	u--------	_	8	AuxX	_	t_456|ref=Vita Ambrosiana_1
-5	Πρωτομάχην	πρωτομάχη	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_457|ref=Vita Ambrosiana_1
-6	καὶ	καί	c	c--------	_	4	COORD	_	t_458|ref=Vita Ambrosiana_1
-7	Εὔμητιν	εὔμητις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_459|ref=Vita Ambrosiana_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Vita Ambrosiana_1
-9	.	.	u	u--------	_	8	AuxK	_	t_460|ref=Vita Ambrosiana_1
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_453|e_16|ref=Vit.Ambros._1
+2	θυγατέρας	θυγάτηρ	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_454|t_456|ref=Vit.Ambros._1
+3	δύο	δύο	a	a--------	_	2	ATR	_	t_455|t_454|ref=Vit.Ambros._1
+4	,	,	u	u--------	_	8	AuxX	_	t_456|e_16|ref=Vit.Ambros._1
+5	Πρωτομάχην	πρωτομάχη	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_457|t_458|ref=Vit.Ambros._1
+6	καὶ	καί	c	c--------	_	4	COORD	_	t_458|t_456|ref=Vit.Ambros._1
+7	Εὔμητιν	εὔμητις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_459|t_458|ref=Vit.Ambros._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Vit.Ambros._1
+9	.	.	u	u--------	_	8	AuxK	_	t_460|e_16|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = γέγραφε δὲ βιβλία ἑπτακαίδεκα ·
 # sent_id = 40
-1	γέγραφε	γράφω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_461|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_462|ref=Vita Ambrosiana_1
-3	βιβλία	βιβλίον	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_463|ref=Vita Ambrosiana_1
-4	ἑπτακαίδεκα	ἑπτακαίδεκα	a	a--------	_	3	ATR	_	t_464|ref=Vita Ambrosiana_1
-5	·	·	u	u--------	_	1	AuxK	_	t_465|ref=Vita Ambrosiana_1
+1	γέγραφε	γράφω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_461|0|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_462|t_461|ref=Vit.Ambros._1
+3	βιβλία	βιβλίον	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_463|t_461|ref=Vit.Ambros._1
+4	ἑπτακαίδεκα	ἑπτακαίδεκα	a	a--------	_	3	ATR	_	t_464|t_463|ref=Vit.Ambros._1
+5	·	·	u	u--------	_	1	AuxK	_	t_465|t_461|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ὕμνους , παιᾶνας , διθυράμβων β΄ , προσοδίων β΄ [0] ·
 # sent_id = 41
-1	ὕμνους	ὕμνος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_466|ref=Vita Ambrosiana_1
-2	,	,	u	u--------	_	10	AuxX	_	t_467|ref=Vita Ambrosiana_1
-3	παιᾶνας	παιάν	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ExD	_	t_468|ref=Vita Ambrosiana_1
-4	,	,	u	u--------	_	10	AuxX	_	t_469|ref=Vita Ambrosiana_1
-5	διθυράμβων	διθύραμβος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_470|ref=Vita Ambrosiana_1
-6	β΄	β ́	m	m--------	_	7	ExD	_	t_471|ref=Vita Ambrosiana_1
-7	,	,	u	u--------	_	10	COORD	_	t_472|ref=Vita Ambrosiana_1
-8	προσοδίων	προσοδίων	n	n-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_473|ref=Vita Ambrosiana_1
-9	β΄	β ́	m	m--------	_	7	ExD	_	t_474|ref=Vita Ambrosiana_1
-10	[0]	[0]	-	---------	_	0	PRED	_	e_17|ref=Vita Ambrosiana_1
-11	·	·	u	u--------	_	10	AuxK	_	t_475|ref=Vita Ambrosiana_1
+1	ὕμνους	ὕμνος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_466|t_472|ref=Vit.Ambros._1
+2	,	,	u	u--------	_	10	AuxX	_	t_467|e_17|ref=Vit.Ambros._1
+3	παιᾶνας	παιάν	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ExD	_	t_468|t_472|ref=Vit.Ambros._1
+4	,	,	u	u--------	_	10	AuxX	_	t_469|e_17|ref=Vit.Ambros._1
+5	διθυράμβων	διθύραμβος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_470|t_472|ref=Vit.Ambros._1
+6	β΄	β ́	m	m--------	_	7	ExD	_	t_471|t_472|ref=Vit.Ambros._1
+7	,	,	u	u--------	_	10	COORD	_	t_472|e_17|ref=Vit.Ambros._1
+8	προσοδίων	προσοδίων	n	n-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_473|t_474|ref=Vit.Ambros._1
+9	β΄	β ́	m	m--------	_	7	ExD	_	t_474|t_472|ref=Vit.Ambros._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Vit.Ambros._1
+11	·	·	u	u--------	_	10	AuxK	_	t_475|e_17|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = παρθενίων β΄ , φέρεται δὲ καὶ γ΄ ὃ ἐπιγράφεται κεχωρισμένων παρθενίων [0] ·
 # sent_id = 42
-1	παρθενίων	παρθένιος	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_476|ref=Vita Ambrosiana_1
-2	β΄	β ́	m	m--------	_	12	PNOM	_	t_477|ref=Vita Ambrosiana_1
-3	,	,	u	u--------	_	5	AuxX	_	t_478|ref=Vita Ambrosiana_1
-4	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	PRED	_	t_479|ref=Vita Ambrosiana_1
-5	δὲ	δέ	g	g--------	_	0	COORD	_	t_480|ref=Vita Ambrosiana_1
-6	καὶ	καί	d	d--------	_	8	AuxZ	_	t_481|ref=Vita Ambrosiana_1
-7	γ΄	γ ́	d	d--------	_	4	AuxZ	_	t_482|ref=Vita Ambrosiana_1
-8	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_483|ref=Vita Ambrosiana_1
-9	ἐπιγράφεται	ἐπιγράφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	4	SBJ	_	t_484|ref=Vita Ambrosiana_1
-10	κεχωρισμένων	χωρίζω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	ADV	_	t_485|ref=Vita Ambrosiana_1
-11	παρθενίων	παρθένιος	a	a-p---ng-	Case=g|Gender=n|Number=p	10	SBJ	_	t_486|ref=Vita Ambrosiana_1
-12	[0]	[0]	-	---------	_	5	PRED	_	e_18|ref=Vita Ambrosiana_1
-13	·	·	u	u--------	_	5	AuxK	_	t_487|ref=Vita Ambrosiana_1
+1	παρθενίων	παρθένιος	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_476|e_18|ref=Vit.Ambros._1
+2	β΄	β ́	m	m--------	_	12	PNOM	_	t_477|e_18|ref=Vit.Ambros._1
+3	,	,	u	u--------	_	5	AuxX	_	t_478|t_480|ref=Vit.Ambros._1
+4	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	PRED	_	t_479|t_480|ref=Vit.Ambros._1
+5	δὲ	δέ	g	g--------	_	0	COORD	_	t_480|0|ref=Vit.Ambros._1
+6	καὶ	καί	d	d--------	_	8	AuxZ	_	t_481|t_483|ref=Vit.Ambros._1
+7	γ΄	γ ́	d	d--------	_	4	AuxZ	_	t_482|t_479|ref=Vit.Ambros._1
+8	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_483|t_484|ref=Vit.Ambros._1
+9	ἐπιγράφεται	ἐπιγράφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	4	SBJ	_	t_484|t_479|ref=Vit.Ambros._1
+10	κεχωρισμένων	χωρίζω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	ADV	_	t_485|t_479|ref=Vit.Ambros._1
+11	παρθενίων	παρθένιος	a	a-p---ng-	Case=g|Gender=n|Number=p	10	SBJ	_	t_486|t_485|ref=Vit.Ambros._1
+12	[0]	[0]	-	---------	_	5	PRED	_	e_18|t_480|ref=Vit.Ambros._1
+13	·	·	u	u--------	_	5	AuxK	_	t_487|t_480|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = ὑπορχημάτων β΄ , ἐγκώμια , θρήνους , ἐπινίκων δ΄ [0] .
 # sent_id = 43
-1	ὑπορχημάτων	ὑπόδημα	n	n-p---ng-	Case=g|Gender=n|Number=p	9	OBJ	_	t_488|ref=Vita Ambrosiana_1
-2	β΄	β ́	g	g--------	_	9	AuxY	_	t_489|ref=Vita Ambrosiana_1
-3	,	,	u	u--------	_	5	AuxX	_	t_490|ref=Vita Ambrosiana_1
-4	ἐγκώμια	ἐγκώμιος	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_491|ref=Vita Ambrosiana_1
-5	,	,	u	u--------	_	9	COORD	_	t_492|ref=Vita Ambrosiana_1
-6	θρήνους	θρῆνος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_493|ref=Vita Ambrosiana_1
-7	,	,	u	u--------	_	9	AuxX	_	t_494|ref=Vita Ambrosiana_1
-8	ἐπινίκων	ἐπίνικος	n	n-p---mg-	Case=g|Gender=m|Number=p	9	OBJ	_	t_495|ref=Vita Ambrosiana_1
-9	δ΄	δ ́	g	g--------	_	10	COORD	_	t_496|ref=Vita Ambrosiana_1
-10	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Vita Ambrosiana_1
-11	.	.	u	u--------	_	10	AuxK	_	t_497|ref=Vita Ambrosiana_1
+1	ὑπορχημάτων	ὑπόδημα	n	n-p---ng-	Case=g|Gender=n|Number=p	9	OBJ	_	t_488|t_496|ref=Vit.Ambros._1
+2	β΄	β ́	g	g--------	_	9	AuxY	_	t_489|t_496|ref=Vit.Ambros._1
+3	,	,	u	u--------	_	5	AuxX	_	t_490|t_492|ref=Vit.Ambros._1
+4	ἐγκώμια	ἐγκώμιος	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_491|t_492|ref=Vit.Ambros._1
+5	,	,	u	u--------	_	9	COORD	_	t_492|t_496|ref=Vit.Ambros._1
+6	θρήνους	θρῆνος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_493|t_496|ref=Vit.Ambros._1
+7	,	,	u	u--------	_	9	AuxX	_	t_494|t_496|ref=Vit.Ambros._1
+8	ἐπινίκων	ἐπίνικος	n	n-p---mg-	Case=g|Gender=m|Number=p	9	OBJ	_	t_495|t_496|ref=Vit.Ambros._1
+9	δ΄	δ ́	g	g--------	_	10	COORD	_	t_496|e_19|ref=Vit.Ambros._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Vit.Ambros._1
+11	.	.	u	u--------	_	10	AuxK	_	t_497|e_19|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = φέρεται δὲ ἐπίγραμμα ἐπὶ τῇ τελευτῇ αὐτοῦ τόδε ·
 # sent_id = 44
-1	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_498|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_499|ref=Vita Ambrosiana_1
-3	ἐπίγραμμα	ἐπίγραμμα	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_500|ref=Vita Ambrosiana_1
-4	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_501|ref=Vita Ambrosiana_1
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_502|ref=Vita Ambrosiana_1
-6	τελευτῇ	τελευτή	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_503|ref=Vita Ambrosiana_1
-7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_504|ref=Vita Ambrosiana_1
-8	τόδε	ὅδε	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_505|ref=Vita Ambrosiana_1
-9	·	·	u	u--------	_	1	AuxK	_	t_506|ref=Vita Ambrosiana_1
+1	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_498|0|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_499|t_498|ref=Vit.Ambros._1
+3	ἐπίγραμμα	ἐπίγραμμα	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_500|t_498|ref=Vit.Ambros._1
+4	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_501|t_498|ref=Vit.Ambros._1
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_502|t_503|ref=Vit.Ambros._1
+6	τελευτῇ	τελευτή	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_503|t_501|ref=Vit.Ambros._1
+7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_504|t_503|ref=Vit.Ambros._1
+8	τόδε	ὅδε	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_505|t_500|ref=Vit.Ambros._1
+9	·	·	u	u--------	_	1	AuxK	_	t_506|t_498|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Ἦ μάλα Πρωτομάχα σε καὶ Εὔμητις λιγύφωνοι ἔκλαυσαν πινυταὶ , Πίνδαρε , θυγατέρες , Ἀργόθεν ἦμος ἵκοντο κομίζουσ᾿ ἔνδοθι κρωσσοῦ λείψαν᾿ ἀπὸ ξείνης ἀθρόα πυρκαϊῆς .
 # sent_id = 45
-1	Ἦ	ἦ	i	i--------	_	8	AuxY	_	t_507|ref=Vita Ambrosiana_1
-2	μάλα	μάλα	d	d--------	_	1	AuxZ	_	t_508|ref=Vita Ambrosiana_1
-3	Πρωτομάχα	πρωτομάχα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_509|ref=Vita Ambrosiana_1
-4	σε	σύ	p	p-s---ma-	Case=a|Number=s	8	OBJ	_	t_510|ref=Vita Ambrosiana_1
-5	καὶ	καί	c	c--------	_	12	COORD	_	t_511|ref=Vita Ambrosiana_1
-6	Εὔμητις	εὔμητις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_512|ref=Vita Ambrosiana_1
-7	λιγύφωνοι	λιγύφωνος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_513|ref=Vita Ambrosiana_1
-8	ἔκλαυσαν	δακρύω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_514|ref=Vita Ambrosiana_1
-9	πινυταὶ	πινυτός	n	n-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_515|ref=Vita Ambrosiana_1
-10	,	,	u	u--------	_	12	AuxX	_	t_516|ref=Vita Ambrosiana_1
-11	Πίνδαρε	πίνδαρος	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_517|ref=Vita Ambrosiana_1
-12	,	,	u	u--------	_	8	APOS	_	t_518|ref=Vita Ambrosiana_1
-13	θυγατέρες	θυγάτηρ	n	n-p---fv-	Case=v|Gender=f|Number=p	12	ExD	_	t_519|ref=Vita Ambrosiana_1
-14	,	,	u	u--------	_	12	AuxX	_	t_520|ref=Vita Ambrosiana_1
-15	Ἀργόθεν	ἀργόθεν	d	d--------	_	17	OBJ	_	t_521|ref=Vita Ambrosiana_1
-16	ἦμος	ἦμος	d	d--------	_	8	AuxC	_	t_522|ref=Vita Ambrosiana_1
-17	ἵκοντο	ἱκνέομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	16	ADV	_	t_523|ref=Vita Ambrosiana_1
-18	κομίζουσ᾿	κομίζω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	17	ADV	_	t_524|ref=Vita Ambrosiana_1
-19	ἔνδοθι	ἔνδοθι	d	d--------	_	18	AuxP	_	t_525|ref=Vita Ambrosiana_1
-20	κρωσσοῦ	κρωσσοῦ	n	n-s---mg-	Case=g|Gender=n|Number=s	21	ATR	_	t_526|ref=Vita Ambrosiana_1
-21	λείψαν᾿	λείψανον	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_527|ref=Vita Ambrosiana_1
-22	ἀπὸ	ἀπό	r	r--------	_	21	AuxP	_	t_528|ref=Vita Ambrosiana_1
-23	ξείνης	ξένος	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ADV	_	t_529|ref=Vita Ambrosiana_1
-24	ἀθρόα	ἀθρόος	a	a-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_530|ref=Vita Ambrosiana_1
-25	πυρκαϊῆς	πυρκαϊά	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_531|ref=Vita Ambrosiana_1
-26	.	.	u	u--------	_	8	AuxK	_	t_532|ref=Vita Ambrosiana_1
+1	Ἦ	ἦ	i	i--------	_	8	AuxY	_	t_507|t_514|ref=Vit.Ambros._1
+2	μάλα	μάλα	d	d--------	_	1	AuxZ	_	t_508|t_507|ref=Vit.Ambros._1
+3	Πρωτομάχα	πρωτομάχα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_509|t_511|ref=Vit.Ambros._1
+4	σε	σύ	p	p-s---ma-	Case=a|Number=s	8	OBJ	_	t_510|t_514|ref=Vit.Ambros._1
+5	καὶ	καί	c	c--------	_	12	COORD	_	t_511|t_518|ref=Vit.Ambros._1
+6	Εὔμητις	εὔμητις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_512|t_511|ref=Vit.Ambros._1
+7	λιγύφωνοι	λιγύφωνος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_513|t_511|ref=Vit.Ambros._1
+8	ἔκλαυσαν	δακρύω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_514|0|ref=Vit.Ambros._1
+9	πινυταὶ	πινυτός	n	n-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_515|t_518|ref=Vit.Ambros._1
+10	,	,	u	u--------	_	12	AuxX	_	t_516|t_518|ref=Vit.Ambros._1
+11	Πίνδαρε	πίνδαρος	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_517|t_518|ref=Vit.Ambros._1
+12	,	,	u	u--------	_	8	APOS	_	t_518|t_514|ref=Vit.Ambros._1
+13	θυγατέρες	θυγάτηρ	n	n-p---fv-	Case=v|Gender=f|Number=p	12	ExD	_	t_519|t_518|ref=Vit.Ambros._1
+14	,	,	u	u--------	_	12	AuxX	_	t_520|t_518|ref=Vit.Ambros._1
+15	Ἀργόθεν	ἀργόθεν	d	d--------	_	17	OBJ	_	t_521|t_523|ref=Vit.Ambros._1
+16	ἦμος	ἦμος	d	d--------	_	8	AuxC	_	t_522|t_514|ref=Vit.Ambros._1
+17	ἵκοντο	ἱκνέομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	16	ADV	_	t_523|t_522|ref=Vit.Ambros._1
+18	κομίζουσ᾿	κομίζω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	17	ADV	_	t_524|t_523|ref=Vit.Ambros._1
+19	ἔνδοθι	ἔνδοθι	d	d--------	_	18	AuxP	_	t_525|t_524|ref=Vit.Ambros._1
+20	κρωσσοῦ	κρωσσοῦ	n	n-s---mg-	Case=g|Gender=n|Number=s	21	ATR	_	t_526|t_527|ref=Vit.Ambros._1
+21	λείψαν᾿	λείψανον	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_527|t_524|ref=Vit.Ambros._1
+22	ἀπὸ	ἀπό	r	r--------	_	21	AuxP	_	t_528|t_527|ref=Vit.Ambros._1
+23	ξείνης	ξένος	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ADV	_	t_529|t_528|ref=Vit.Ambros._1
+24	ἀθρόα	ἀθρόος	a	a-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_530|t_527|ref=Vit.Ambros._1
+25	πυρκαϊῆς	πυρκαϊά	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_531|t_529|ref=Vit.Ambros._1
+26	.	.	u	u--------	_	8	AuxK	_	t_532|t_514|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πινδάρου ἀποφθέγματα [0] .
 # sent_id = 46
-1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_533|ref=Vita Ambrosiana_1
-2	ἀποφθέγματα	ἀπόφθεγμα	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_534|ref=Vita Ambrosiana_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Vita Ambrosiana_1
-4	.	.	u	u--------	_	3	AuxK	_	t_535|ref=Vita Ambrosiana_1
+1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_533|t_534|ref=Vit.Ambros._1
+2	ἀποφθέγματα	ἀπόφθεγμα	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_534|e_20|ref=Vit.Ambros._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Vit.Ambros._1
+4	.	.	u	u--------	_	3	AuxK	_	t_535|e_20|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = Πίνδαρος ὁ μελοποιὸς ἐρωτηθεὶς ὑπό τινος τί πρίονος ὀξύτερον , εἶπε [0] ·
 # sent_id = 47
-1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_536|ref=Vita Ambrosiana_1
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_537|ref=Vita Ambrosiana_1
-3	μελοποιὸς	μελοποιός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_538|ref=Vita Ambrosiana_1
-4	ἐρωτηθεὶς	ἐρωτάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	11	ADV	_	t_539|ref=Vita Ambrosiana_1
-5	ὑπό	ὑπό	r	r--------	_	4	AuxP	_	t_540|ref=Vita Ambrosiana_1
-6	τινος	τις	p	p-s---cg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_541|ref=Vita Ambrosiana_1
-7	τί	τίς	p	p-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_542|ref=Vita Ambrosiana_1
-8	πρίονος	πρίων	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_543|ref=Vita Ambrosiana_1
-9	ὀξύτερον	ὀξύς	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	12	PNOM	_	t_544|ref=Vita Ambrosiana_1
-10	,	,	u	u--------	_	4	AuxX	_	t_545|ref=Vita Ambrosiana_1
-11	εἶπε	εἶπον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_546|ref=Vita Ambrosiana_1
-12	[0]	[0]	-	---------	_	11	OBJ	_	e_21|ref=Vita Ambrosiana_1
-13	·	·	u	u--------	_	11	AuxK	_	t_547|ref=Vita Ambrosiana_1
+1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_536|t_546|ref=Vit.Ambros._1
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_537|t_536|ref=Vit.Ambros._1
+3	μελοποιὸς	μελοποιός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_538|t_536|ref=Vit.Ambros._1
+4	ἐρωτηθεὶς	ἐρωτάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	11	ADV	_	t_539|t_546|ref=Vit.Ambros._1
+5	ὑπό	ὑπό	r	r--------	_	4	AuxP	_	t_540|t_539|ref=Vit.Ambros._1
+6	τινος	τις	p	p-s---cg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_541|t_540|ref=Vit.Ambros._1
+7	τί	τίς	p	p-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_542|e_21|ref=Vit.Ambros._1
+8	πρίονος	πρίων	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_543|t_544|ref=Vit.Ambros._1
+9	ὀξύτερον	ὀξύς	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	12	PNOM	_	t_544|e_21|ref=Vit.Ambros._1
+10	,	,	u	u--------	_	4	AuxX	_	t_545|t_539|ref=Vit.Ambros._1
+11	εἶπε	εἶπον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_546|0|ref=Vit.Ambros._1
+12	[0]	[0]	-	---------	_	11	OBJ	_	e_21|t_546|ref=Vit.Ambros._1
+13	·	·	u	u--------	_	11	AuxK	_	t_547|t_546|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1
 # text = διαβολή .
 # sent_id = 48
-1	διαβολή	διαβολή	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_548|ref=Vita Ambrosiana_1
-2	.	.	u	u--------	_	1	AuxK	_	t_549|ref=Vita Ambrosiana_1
+1	διαβολή	διαβολή	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_548|0|ref=Vit.Ambros._1
+2	.	.	u	u--------	_	1	AuxK	_	t_549|t_548|ref=Vit.Ambros._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 1-2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 1-2
 # text = Παραγενόμενος δὲ εἰς Δελφοὺς καὶ ἐρωτώμενος τί πάρεστι θύσων , εἶπε ·
 # sent_id = 49
-1	Παραγενόμενος	παραγίγνομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	5	ADV	_	t_550|ref=Vita Ambrosiana_1
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_551|ref=Vita Ambrosiana_1
-3	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_552|ref=Vita Ambrosiana_2
-4	Δελφοὺς	δελφοί	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_553|ref=Vita Ambrosiana_2
-5	καὶ	καί	c	c--------	_	11	COORD	_	t_554|ref=Vita Ambrosiana_1
-6	ἐρωτώμενος	ἐρωτάω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_555|ref=Vita Ambrosiana_2
-7	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	8	SBJ	_	t_556|ref=Vita Ambrosiana_2
-8	πάρεστι	πάρειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	OBJ	_	t_557|ref=Vita Ambrosiana_2
-9	θύσων	θύω	v	v-sfpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	8	ADV	_	t_558|ref=Vita Ambrosiana_2
-10	,	,	u	u--------	_	11	AuxX	_	t_559|ref=Vita Ambrosiana_2
-11	εἶπε	εἶπον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_560|ref=Vita Ambrosiana_2
-12	·	·	u	u--------	_	11	AuxK	_	t_561|ref=Vita Ambrosiana_2
+1	Παραγενόμενος	παραγίγνομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	5	ADV	_	t_550|t_554|ref=Vit.Ambros._1
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_551|t_560|ref=Vit.Ambros._1
+3	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_552|t_550|ref=Vit.Ambros._2
+4	Δελφοὺς	δελφοί	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_553|t_552|ref=Vit.Ambros._2
+5	καὶ	καί	c	c--------	_	11	COORD	_	t_554|t_560|ref=Vit.Ambros._1
+6	ἐρωτώμενος	ἐρωτάω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_555|t_554|ref=Vit.Ambros._2
+7	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	8	SBJ	_	t_556|t_557|ref=Vit.Ambros._2
+8	πάρεστι	πάρειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	OBJ	_	t_557|t_555|ref=Vit.Ambros._2
+9	θύσων	θύω	v	v-sfpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	8	ADV	_	t_558|t_557|ref=Vit.Ambros._2
+10	,	,	u	u--------	_	11	AuxX	_	t_559|t_560|ref=Vit.Ambros._2
+11	εἶπε	εἶπον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_560|0|ref=Vit.Ambros._2
+12	·	·	u	u--------	_	11	AuxK	_	t_561|t_560|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = παιᾶνα .
 # sent_id = 50
-1	παιᾶνα	παιάν	n	n-s---fv-	Case=v|Gender=f|Number=s	0	ExD	_	t_562|ref=Vita Ambrosiana_2
-2	.	.	u	u--------	_	1	AuxK	_	t_563|ref=Vita Ambrosiana_2
+1	παιᾶνα	παιάν	n	n-s---fv-	Case=v|Gender=f|Number=s	0	ExD	_	t_562|0|ref=Vit.Ambros._2
+2	.	.	u	u--------	_	1	AuxK	_	t_563|t_562|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = Ἐπερωτηθεὶς πάλιν διὰ τί Σιμωνίδης πρὸς τοὺς τυράννους ἀπεδήμησεν εἰς Σικελίαν , αὐτὸς δὲ οὐ θέλει ·
 # sent_id = 51
-1	Ἐπερωτηθεὶς	ἐπερωτάω	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	9	ADV	_	t_564|ref=Vita Ambrosiana_2
-2	πάλιν	πάλιν	d	d--------	_	1	ADV	_	t_565|ref=Vita Ambrosiana_2
-3	διὰ	διά	r	r--------	_	1	AuxP	_	t_566|ref=Vita Ambrosiana_2
-4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_567|ref=Vita Ambrosiana_1
-5	Σιμωνίδης	σιμωνίδης	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_568|ref=Vita Ambrosiana_2
-6	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_569|ref=Vita Ambrosiana_2
-7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_570|ref=Vita Ambrosiana_2
-8	τυράννους	τύραννος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_571|ref=Vita Ambrosiana_2
-9	ἀπεδήμησεν	ἀποδημέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	OBJ	_	t_572|ref=Vita Ambrosiana_2
-10	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_573|ref=Vita Ambrosiana_2
-11	Σικελίαν	σικελία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_574|ref=Vita Ambrosiana_2
-12	,	,	u	u--------	_	16	AuxX	_	t_575|ref=Vita Ambrosiana_2
-13	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_576|ref=Vita Ambrosiana_2
-14	δὲ	δέ	d	d--------	_	16	AuxY	_	t_577|ref=Vita Ambrosiana_2
-15	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_578|ref=Vita Ambrosiana_2
-16	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_579|ref=Vita Ambrosiana_2
-17	·	·	u	u--------	_	16	AuxK	_	t_580|ref=Vita Ambrosiana_2
+1	Ἐπερωτηθεὶς	ἐπερωτάω	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	9	ADV	_	t_564|t_572|ref=Vit.Ambros._2
+2	πάλιν	πάλιν	d	d--------	_	1	ADV	_	t_565|t_564|ref=Vit.Ambros._2
+3	διὰ	διά	r	r--------	_	1	AuxP	_	t_566|t_564|ref=Vit.Ambros._2
+4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_567|t_566|ref=Vit.Ambros._1
+5	Σιμωνίδης	σιμωνίδης	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_568|t_572|ref=Vit.Ambros._2
+6	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_569|t_572|ref=Vit.Ambros._2
+7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_570|t_571|ref=Vit.Ambros._2
+8	τυράννους	τύραννος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_571|t_569|ref=Vit.Ambros._2
+9	ἀπεδήμησεν	ἀποδημέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	OBJ	_	t_572|t_579|ref=Vit.Ambros._2
+10	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_573|t_572|ref=Vit.Ambros._2
+11	Σικελίαν	σικελία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_574|t_573|ref=Vit.Ambros._2
+12	,	,	u	u--------	_	16	AuxX	_	t_575|t_579|ref=Vit.Ambros._2
+13	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_576|t_579|ref=Vit.Ambros._2
+14	δὲ	δέ	d	d--------	_	16	AuxY	_	t_577|t_579|ref=Vit.Ambros._2
+15	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_578|t_579|ref=Vit.Ambros._2
+16	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_579|0|ref=Vit.Ambros._2
+17	·	·	u	u--------	_	16	AuxK	_	t_580|t_579|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = ὅτι βούλομαι , εἶπεν , ἐμαυτῷ ζῆν , οὐκ ἄλλῳ [0] .
 # sent_id = 52
-1	ὅτι	ὅτι	c	c--------	_	4	AuxC	_	t_581|ref=Vita Ambrosiana_2
-2	βούλομαι	βούλομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	1	OBJ	_	t_582|ref=Vita Ambrosiana_2
-3	,	,	u	u--------	_	4	AuxX	_	t_583|ref=Vita Ambrosiana_2
-4	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_584|ref=Vita Ambrosiana_2
-5	,	,	u	u--------	_	2	AuxX	_	t_585|ref=Vita Ambrosiana_2
-6	ἐμαυτῷ	ἐμαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_586|ref=Vita Ambrosiana_2
-7	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	OBJ	_	t_587|ref=Vita Ambrosiana_2
-8	,	,	u	u--------	_	7	COORD	_	t_588|ref=Vita Ambrosiana_2
-9	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_589|ref=Vita Ambrosiana_2
-10	ἄλλῳ	ἄλλος	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_590|ref=Vita Ambrosiana_2
-11	[0]	[0]	-	---------	_	8	ADV	_	e_22|ref=Vita Ambrosiana_1
-12	.	.	u	u--------	_	4	AuxK	_	t_591|ref=Vita Ambrosiana_2
+1	ὅτι	ὅτι	c	c--------	_	4	AuxC	_	t_581|t_584|ref=Vit.Ambros._2
+2	βούλομαι	βούλομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	1	OBJ	_	t_582|t_581|ref=Vit.Ambros._2
+3	,	,	u	u--------	_	4	AuxX	_	t_583|t_584|ref=Vit.Ambros._2
+4	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_584|0|ref=Vit.Ambros._2
+5	,	,	u	u--------	_	2	AuxX	_	t_585|t_582|ref=Vit.Ambros._2
+6	ἐμαυτῷ	ἐμαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_586|t_588|ref=Vit.Ambros._2
+7	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	OBJ	_	t_587|t_582|ref=Vit.Ambros._2
+8	,	,	u	u--------	_	7	COORD	_	t_588|t_587|ref=Vit.Ambros._2
+9	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_589|t_590|ref=Vit.Ambros._2
+10	ἄλλῳ	ἄλλος	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_590|t_588|ref=Vit.Ambros._2
+11	[0]	[0]	-	---------	_	8	ADV	_	e_22|t_588|ref=Vit.Ambros._1
+12	.	.	u	u--------	_	4	AuxK	_	t_591|t_584|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = Ἐρωτηθεὶς δὲ διὰ τί οὐ τῷ εὖ πράττοντι τὴν θυγατέρα δίδωσιν , οὐ μόνον δεῖσθαί φησιν εὖ πράττοντος , ἀλλὰ καὶ πράξοντος εὖ .
 # sent_id = 53
-1	Ἐρωτηθεὶς	ἐρωτάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	16	ADV	_	t_592|ref=Vita Ambrosiana_2
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_593|ref=Vita Ambrosiana_2
-3	διὰ	διά	r	r--------	_	11	AuxP	_	t_594|ref=Vita Ambrosiana_2
-4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_595|ref=Vita Ambrosiana_2
-5	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_596|ref=Vita Ambrosiana_2
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_597|ref=Vita Ambrosiana_2
-7	εὖ	εὖ	d	d--------	_	8	ADV	_	t_598|ref=Vita Ambrosiana_2
-8	πράττοντι	πράσσω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	OBJ	_	t_599|ref=Vita Ambrosiana_2
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_600|ref=Vita Ambrosiana_2
-10	θυγατέρα	θυγάτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_601|ref=Vita Ambrosiana_2
-11	δίδωσιν	δίδωμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	OBJ	_	t_602|ref=Vita Ambrosiana_2
-12	,	,	u	u--------	_	16	AuxX	_	t_603|ref=Vita Ambrosiana_2
-13	οὐ	οὐ	d	d--------	_	14	AuxZ	_	t_604|ref=Vita Ambrosiana_2
-14	μόνον	μόνος	d	d--------	_	18	AuxZ	_	t_605|ref=Vita Ambrosiana_2
-15	δεῖσθαί	δέω	v	v--pne---	Mood=n|Tense=p|Voice=e	16	OBJ	_	t_606|ref=Vita Ambrosiana_2
-16	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_607|ref=Vita Ambrosiana_2
-17	εὖ	εὖ	d	d--------	_	18	ADV	_	t_608|ref=Vita Ambrosiana_2
-18	πράττοντος	πράσσω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	OBJ	_	t_609|ref=Vita Ambrosiana_2
-19	,	,	u	u--------	_	16	AuxX	_	t_610|ref=Vita Ambrosiana_2
-20	ἀλλὰ	ἀλλά	c	c--------	_	15	COORD	_	t_611|ref=Vita Ambrosiana_2
-21	καὶ	καί	d	d--------	_	22	AuxZ	_	t_612|ref=Vita Ambrosiana_2
-22	πράξοντος	πράσσω	v	v-sfpamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	20	OBJ	_	t_613|ref=Vita Ambrosiana_2
-23	εὖ	εὖ	d	d--------	_	22	ADV	_	t_614|ref=Vita Ambrosiana_2
-24	.	.	u	u--------	_	16	AuxK	_	t_615|ref=Vita Ambrosiana_2
+1	Ἐρωτηθεὶς	ἐρωτάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	16	ADV	_	t_592|t_607|ref=Vit.Ambros._2
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_593|t_607|ref=Vit.Ambros._2
+3	διὰ	διά	r	r--------	_	11	AuxP	_	t_594|t_602|ref=Vit.Ambros._2
+4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_595|t_594|ref=Vit.Ambros._2
+5	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_596|t_602|ref=Vit.Ambros._2
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_597|t_599|ref=Vit.Ambros._2
+7	εὖ	εὖ	d	d--------	_	8	ADV	_	t_598|t_599|ref=Vit.Ambros._2
+8	πράττοντι	πράσσω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	OBJ	_	t_599|t_602|ref=Vit.Ambros._2
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_600|t_601|ref=Vit.Ambros._2
+10	θυγατέρα	θυγάτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_601|t_602|ref=Vit.Ambros._2
+11	δίδωσιν	δίδωμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	OBJ	_	t_602|t_607|ref=Vit.Ambros._2
+12	,	,	u	u--------	_	16	AuxX	_	t_603|t_607|ref=Vit.Ambros._2
+13	οὐ	οὐ	d	d--------	_	14	AuxZ	_	t_604|t_605|ref=Vit.Ambros._2
+14	μόνον	μόνος	d	d--------	_	18	AuxZ	_	t_605|t_609|ref=Vit.Ambros._2
+15	δεῖσθαί	δέω	v	v--pne---	Mood=n|Tense=p|Voice=e	16	OBJ	_	t_606|t_607|ref=Vit.Ambros._2
+16	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_607|0|ref=Vit.Ambros._2
+17	εὖ	εὖ	d	d--------	_	18	ADV	_	t_608|t_609|ref=Vit.Ambros._2
+18	πράττοντος	πράσσω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	OBJ	_	t_609|t_611|ref=Vit.Ambros._2
+19	,	,	u	u--------	_	16	AuxX	_	t_610|t_607|ref=Vit.Ambros._2
+20	ἀλλὰ	ἀλλά	c	c--------	_	15	COORD	_	t_611|t_606|ref=Vit.Ambros._2
+21	καὶ	καί	d	d--------	_	22	AuxZ	_	t_612|t_613|ref=Vit.Ambros._2
+22	πράξοντος	πράσσω	v	v-sfpamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	20	OBJ	_	t_613|t_611|ref=Vit.Ambros._2
+23	εὖ	εὖ	d	d--------	_	22	ADV	_	t_614|t_613|ref=Vit.Ambros._2
+24	.	.	u	u--------	_	16	AuxK	_	t_615|t_607|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = Ἐρωτηθεὶς πάλιν ὑπό τινος διὰ τί μέλη γράφων ᾄδειν οὐκ ἐπίσταται , εἶπε ·
 # sent_id = 54
-1	Ἐρωτηθεὶς	ἐρωτάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_616|ref=Vita Ambrosiana_2
-2	πάλιν	πάλιν	d	d--------	_	1	ADV	_	t_617|ref=Vita Ambrosiana_2
-3	ὑπό	ὑπό	r	r--------	_	1	AuxP	_	t_618|ref=Vita Ambrosiana_2
-4	τινος	τις	p	p-s---cg-	Case=g|Gender=c|Number=s	3	OBJ	_	t_619|ref=Vita Ambrosiana_2
-5	διὰ	διά	r	r--------	_	8	AuxP	_	t_620|ref=Vita Ambrosiana_2
-6	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_621|ref=Vita Ambrosiana_2
-7	μέλη	μέλος	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_622|ref=Vita Ambrosiana_2
-8	γράφων	γράφω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_623|ref=Vita Ambrosiana_2
-9	ᾄδειν	ἀείδω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_624|ref=Vita Ambrosiana_2
-10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_625|ref=Vita Ambrosiana_2
-11	ἐπίσταται	ἐπίσταμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	OBJ	_	t_626|ref=Vita Ambrosiana_2
-12	,	,	u	u--------	_	13	AuxX	_	t_627|ref=Vita Ambrosiana_2
-13	εἶπε	εἶπον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_628|ref=Vita Ambrosiana_2
-14	·	·	u	u--------	_	13	AuxK	_	t_629|ref=Vita Ambrosiana_2
+1	Ἐρωτηθεὶς	ἐρωτάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_616|t_628|ref=Vit.Ambros._2
+2	πάλιν	πάλιν	d	d--------	_	1	ADV	_	t_617|t_616|ref=Vit.Ambros._2
+3	ὑπό	ὑπό	r	r--------	_	1	AuxP	_	t_618|t_616|ref=Vit.Ambros._2
+4	τινος	τις	p	p-s---cg-	Case=g|Gender=c|Number=s	3	OBJ	_	t_619|t_618|ref=Vit.Ambros._2
+5	διὰ	διά	r	r--------	_	8	AuxP	_	t_620|t_623|ref=Vit.Ambros._2
+6	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_621|t_620|ref=Vit.Ambros._2
+7	μέλη	μέλος	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_622|t_623|ref=Vit.Ambros._2
+8	γράφων	γράφω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_623|t_626|ref=Vit.Ambros._2
+9	ᾄδειν	ἀείδω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_624|t_626|ref=Vit.Ambros._2
+10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_625|t_626|ref=Vit.Ambros._2
+11	ἐπίσταται	ἐπίσταμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	OBJ	_	t_626|t_628|ref=Vit.Ambros._2
+12	,	,	u	u--------	_	13	AuxX	_	t_627|t_628|ref=Vit.Ambros._2
+13	εἶπε	εἶπον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_628|0|ref=Vit.Ambros._2
+14	·	·	u	u--------	_	13	AuxK	_	t_629|t_628|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = καὶ γὰρ οἱ ναυπηγοὶ πηδάλια κατασκευάζοντες κυβερνᾶν οὐκ ἐπίστανται .
 # sent_id = 55
-1	καὶ	καί	d	d--------	_	4	AuxZ	_	t_630|ref=Vita Ambrosiana_2
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_631|ref=Vita Ambrosiana_2
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_632|ref=Vita Ambrosiana_2
-4	ναυπηγοὶ	ναυπηγός	a	a-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_633|ref=Vita Ambrosiana_2
-5	πηδάλια	πηδάλιον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_634|ref=Vita Ambrosiana_2
-6	κατασκευάζοντες	κατασκευάζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_635|ref=Vita Ambrosiana_2
-7	κυβερνᾶν	κυβερνάω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_636|ref=Vita Ambrosiana_2
-8	οὐκ	οὐ	d	d--------	_	9	AuxZ	_	t_637|ref=Vita Ambrosiana_2
-9	ἐπίστανται	ἐπίσταμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_638|ref=Vita Ambrosiana_2
-10	.	.	u	u--------	_	9	AuxK	_	t_639|ref=Vita Ambrosiana_2
+1	καὶ	καί	d	d--------	_	4	AuxZ	_	t_630|t_633|ref=Vit.Ambros._2
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_631|t_638|ref=Vit.Ambros._2
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_632|t_633|ref=Vit.Ambros._2
+4	ναυπηγοὶ	ναυπηγός	a	a-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_633|t_638|ref=Vit.Ambros._2
+5	πηδάλια	πηδάλιον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_634|t_635|ref=Vit.Ambros._2
+6	κατασκευάζοντες	κατασκευάζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_635|t_638|ref=Vit.Ambros._2
+7	κυβερνᾶν	κυβερνάω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_636|t_638|ref=Vit.Ambros._2
+8	οὐκ	οὐ	d	d--------	_	9	AuxZ	_	t_637|t_638|ref=Vit.Ambros._2
+9	ἐπίστανται	ἐπίσταμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_638|0|ref=Vit.Ambros._2
+10	.	.	u	u--------	_	9	AuxK	_	t_639|t_638|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = Τοὺς φυσιολογοῦντας ἔφη ἀτελῆ σοφίας δρέπειν καρπὸν ( fr .
 # sent_id = 56
-1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_640|ref=Vita Ambrosiana_2
-2	φυσιολογοῦντας	φυσιολογέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_641|ref=Vita Ambrosiana_2
-3	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_642|ref=Vita Ambrosiana_2
-4	ἀτελῆ	ἀτελής	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_643|ref=Vita Ambrosiana_2
-5	σοφίας	σοφία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_644|ref=Vita Ambrosiana_2
-6	δρέπειν	δρέπω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_645|ref=Vita Ambrosiana_2
-7	καρπὸν	καρπός	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_646|ref=Vita Ambrosiana_2
-8	(	̔	u	u--------	_	3	AuxG	_	t_647|ref=Vita Ambrosiana_2
-9	fr	fr	n	n--------	_	6	OBJ	_	t_648|ref=Vita Ambrosiana_2
-10	.	.	u	u--------	_	3	AuxK	_	t_649|ref=Vita Ambrosiana_2
+1	Τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_640|t_641|ref=Vit.Ambros._2
+2	φυσιολογοῦντας	φυσιολογέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_641|t_645|ref=Vit.Ambros._2
+3	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_642|0|ref=Vit.Ambros._2
+4	ἀτελῆ	ἀτελής	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_643|t_646|ref=Vit.Ambros._2
+5	σοφίας	σοφία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_644|t_646|ref=Vit.Ambros._2
+6	δρέπειν	δρέπω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_645|t_642|ref=Vit.Ambros._2
+7	καρπὸν	καρπός	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_646|t_645|ref=Vit.Ambros._2
+8	(	̔	u	u--------	_	3	AuxG	_	t_647|t_642|ref=Vit.Ambros._2
+9	fr	fr	n	n--------	_	6	OBJ	_	t_648|t_645|ref=Vit.Ambros._2
+10	.	.	u	u--------	_	3	AuxK	_	t_649|t_642|ref=Vit.Ambros._2
 
-# source = Vitae Pindari et varia de Pindaro, Vita Ambrosiana 2
+# source = Vitae Pindari et varia de Pindaro, Vit.Ambros. 2
 # text = 209 ) [0] .
 # sent_id = 57
-1	209	209	x	x--------	_	3	AuxG	_	t_650|ref=Vita Ambrosiana_2
-2	)	)	u	u--------	_	3	AuxG	_	t_651|ref=Vita Ambrosiana_2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Vita Ambrosiana_1
-4	.	.	u	u--------	_	3	AuxK	_	t_652|ref=Vita Ambrosiana_2
+1	209	209	x	x--------	_	3	AuxG	_	t_650|e_23|ref=Vit.Ambros._2
+2	)	)	u	u--------	_	3	AuxG	_	t_651|e_23|ref=Vit.Ambros._2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Vit.Ambros._1
+4	.	.	u	u--------	_	3	AuxK	_	t_652|e_23|ref=Vit.Ambros._2
 

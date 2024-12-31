@@ -1,1004 +1,1004 @@
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.1
 # text = Λίγυρες , ἔθνος προσεχὲς τοῖς Τυρρηνοῖς [0] ·
 # sent_id = 2
-1	Λίγυρες	λίγυρες	n	n-p---fv-	Case=v|Gender=m|Number=s	7	ExD	_	t_3|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-2	,	,	u	u--------	_	7	AuxX	_	t_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	ἔθνος	ἔθνος	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-4	προσεχὲς	προσεχής	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_6|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_7|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-6	Τυρρηνοῖς	τυρρηνός	n	n-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_8|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-8	·	·	u	u--------	_	7	AuxK	_	t_9|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+1	Λίγυρες	λίγυρες	n	n-p---fv-	Case=v|Gender=m|Number=s	7	ExD	_	t_3|e_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+2	,	,	u	u--------	_	7	AuxX	_	t_4|e_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	ἔθνος	ἔθνος	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_5|e_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+4	προσεχὲς	προσεχής	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_6|t_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_7|t_8|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+6	Τυρρηνοῖς	τυρρηνός	n	n-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_8|t_6|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+8	·	·	u	u--------	_	7	AuxK	_	t_9|e_1|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.1
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] ·
 # sent_id = 3
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_10|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_11|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_12|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_13|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_14|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-7	·	·	u	u--------	_	6	AuxK	_	t_15|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_10|e_2|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_11|e_2|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_12|t_11|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_13|t_14|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_14|e_2|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+7	·	·	u	u--------	_	6	AuxK	_	t_15|e_2|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.1
 # text = ἀπὸ Λιγύρου ποταμοῦ .
 # sent_id = 4
-1	ἀπὸ	ἀπό	r	r--------	_	0	COORD	_	t_16|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-2	Λιγύρου	λίγυρος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_17|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	OBJ	_	t_18|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-4	.	.	u	u--------	_	1	AuxK	_	t_19|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+1	ἀπὸ	ἀπό	r	r--------	_	0	COORD	_	t_16|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+2	Λιγύρου	λίγυρος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_17|t_18|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	OBJ	_	t_18|t_16|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+4	.	.	u	u--------	_	1	AuxK	_	t_19|t_16|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.1
 # text = 2 .
 # sent_id = 5
-1	2	2	u	u--------	_	0	AuxG	_	t_20|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_21|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+1	2	2	u	u--------	_	0	AuxG	_	t_20|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_21|t_20|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2
 # text = Δερτών .
 # sent_id = 6
-1	Δερτών	δερτώ	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_22|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_23|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+1	Δερτών	δερτώ	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_22|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_23|t_22|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2
 # text = πόλις Λιγύρων .
 # sent_id = 7
-1	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_24|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	Λιγύρων	λίγυες	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_25|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-3	.	.	u	u--------	_	1	AuxK	_	t_26|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+1	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_24|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	Λιγύρων	λίγυες	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_25|t_24|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+3	.	.	u	u--------	_	1	AuxK	_	t_26|t_24|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῆ τῶν ια΄ [0] ·
 # sent_id = 8
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_27|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_28|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-3	Ἐπιτομῆ	ἐπιτομή	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ADV	_	t_29|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-4	τῶν	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_30|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	ια΄	ια ́	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_31|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-7	·	·	u	u--------	_	6	AuxK	_	t_32|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_27|e_3|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_28|e_3|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+3	Ἐπιτομῆ	ἐπιτομή	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ADV	_	t_29|t_28|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+4	τῶν	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_30|t_31|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	ια΄	ια ́	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_31|e_3|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+7	·	·	u	u--------	_	6	AuxK	_	t_32|e_3|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2
 # text = « Τὴν καλουμένην Δερτῶνα πόλιν .
 # sent_id = 9
-1	«	«	u	u--------	_	3	AuxG	_	t_33|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_34|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-3	καλουμένην	καλέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	5	ATR	_	t_35|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-4	Δερτῶνα	δερτών	n	n-s---fa-	Case=a|Gender=f|Number=s	3	PNOM	_	t_36|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	0	ExD	_	t_37|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	.	.	u	u--------	_	1	AuxK	_	t_38|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+1	«	«	u	u--------	_	3	AuxG	_	t_33|t_35|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_34|t_37|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+3	καλουμένην	καλέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	5	ATR	_	t_35|t_37|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+4	Δερτῶνα	δερτών	n	n-s---fa-	Case=a|Gender=f|Number=s	3	PNOM	_	t_36|t_35|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	0	ExD	_	t_37|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	.	.	u	u--------	_	1	AuxK	_	t_38|t_33|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2
 # text = Τὸ ἐθνικὸν Δερτώνιος , ὡς Ἀντρώνιος [0] .
 # sent_id = 10
-1	Τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_39|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	ἐθνικὸν	ἐθνικός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_40|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-3	Δερτώνιος	δερτώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_41|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-4	,	,	u	u--------	_	7	AuxX	_	t_42|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	ὡς	ὡς	c	c--------	_	7	AuxC	_	t_43|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	Ἀντρώνιος	ἀντρώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_44|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-8	.	.	u	u--------	_	7	AuxK	_	t_45|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+1	Τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_39|t_40|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	ἐθνικὸν	ἐθνικός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_40|e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+3	Δερτώνιος	δερτώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_41|e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+4	,	,	u	u--------	_	7	AuxX	_	t_42|e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	ὡς	ὡς	c	c--------	_	7	AuxC	_	t_43|e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	Ἀντρώνιος	ἀντρώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_44|e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+8	.	.	u	u--------	_	7	AuxK	_	t_45|e_4|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2
 # text = 3 .
 # sent_id = 11
-1	3	3	x	x--------	_	0	AuxG	_	t_46|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_47|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+1	3	3	x	x--------	_	0	AuxG	_	t_46|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_47|t_46|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.2-1.1.3
 # text = Μαστραμέλη , πόλις καὶ λίμνη τῆς Κελτικῆς [0] .
 # sent_id = 12
-1	Μαστραμέλη	μαστραμέλη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_48|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-2	,	,	u	u--------	_	8	AuxX	_	t_49|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	4	PNOM	_	t_50|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-4	καὶ	καί	c	c--------	_	8	COORD	_	t_51|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-5	λίμνη	λίμνη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_52|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_53|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-7	Κελτικῆς	κελτικός	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_54|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-9	.	.	u	u--------	_	8	AuxK	_	t_55|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+1	Μαστραμέλη	μαστραμέλη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_48|e_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+2	,	,	u	u--------	_	8	AuxX	_	t_49|e_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	4	PNOM	_	t_50|t_51|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+4	καὶ	καί	c	c--------	_	8	COORD	_	t_51|e_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+5	λίμνη	λίμνη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_52|t_51|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_53|t_54|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+7	Κελτικῆς	κελτικός	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_54|t_51|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+8	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+9	.	.	u	u--------	_	8	AuxK	_	t_55|e_5|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.3
 # text = Ἀρτεμίδωρος ἐν τῷ Ἐπιτομῇ τῶν ἕνδεκα [0] .
 # sent_id = 13
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_56|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_57|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_58|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-4	Ἐπιτομῇ	ἐπιτομή	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_59|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_60|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-6	ἕνδεκα	ἕνδεκα	a	a--------	_	4	ATR	_	t_61|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-7	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-8	.	.	u	u--------	_	7	AuxK	_	t_62|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_56|e_6|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_57|e_6|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_58|t_59|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+4	Ἐπιτομῇ	ἐπιτομή	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_59|t_57|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_60|t_61|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+6	ἕνδεκα	ἕνδεκα	a	a--------	_	4	ATR	_	t_61|t_59|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+7	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+8	.	.	u	u--------	_	7	AuxK	_	t_62|e_6|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.3
 # text = 4 [0] .
 # sent_id = 14
-1	4	4	u	u--------	_	2	AuxK	_	t_63|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_64|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+1	4	4	u	u--------	_	2	AuxK	_	t_63|e_7|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_64|e_7|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.3-1.1.4
 # text = Τῆς γὰρ Ναρβωνησίας τὸν περίπλουν ἐν τῇ ἐπιτομῇ τῆς Ἀρτεμιδώρου γεωγραφίας ἤτοι περίπλου σαφῶς διεξήλθομεν , εἰ καὶ ὁ προειρημένος Ἀρτεμίδωρος τὴν διαίρεσιν τῶν ἐν τῇ Κελτογαλατίᾳ ὡς καὶ τῶν ἐν τῇ Ἰβηρίᾳ ἐπαριῶν αὐκ ἐποτήσατο [0] .
 # sent_id = 15
-1	Τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_65|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_66|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-3	Ναρβωνησίας	ναρβωνησία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_67|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_68|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-5	περίπλουν	περίπλοος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_69|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-6	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_70|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_71|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-8	ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_72|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_73|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-10	Ἀρτεμιδώρου	ἀρτεμιδώρου	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_74|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-11	γεωγραφίας	γεωγραφία	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_75|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-12	ἤτοι	ἤτοι	d	d--------	_	15	AuxY	_	t_76|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-13	περίπλου	περίπλοος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_77|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-14	σαφῶς	σαφής	d	d--------	_	15	ADV	_	t_78|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-15	διεξήλθομεν	διέξειμι	v	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	PRED	_	t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-16	,	,	u	u--------	_	15	AuxX	_	t_80|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-17	εἰ	εἰ	c	c--------	_	15	AuxC	_	t_81|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-18	καὶ	καί	d	d--------	_	21	AuxZ	_	t_82|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-19	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	21	ATR	_	t_83|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-20	προειρημένος	προερέω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	21	ATR	_	t_84|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-21	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_85|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_86|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-23	διαίρεσιν	διαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	36	OBJ	_	t_87|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-24	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	23	ATR	_	t_88|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-25	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_89|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-26	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	27	ATR	_	t_90|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-27	Κελτογαλατίᾳ	κελτογαλάτιος	n	n-s---fd-	Case=d|Gender=f|Number=s	25	ATR	_	t_91|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-28	ὡς	ὡς	d	d--------	_	34	AuxZ	_	t_92|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-29	καὶ	καί	c	c--------	_	24	AuxZ	_	t_93|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-30	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_94|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-31	ἐν	ἐν	r	r--------	_	30	AuxP	_	t_95|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-32	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	33	ATR	_	t_96|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-33	Ἰβηρίᾳ	ἰβηρίη	n	n-s---fd-	Case=d|Gender=f|Number=s	31	ATR	_	t_97|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-34	ἐπαριῶν	ἐπαρία	n	n-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_98|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-35	αὐκ	αὐκ	d	d--------	_	36	ADV	_	t_99|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-36	ἐποτήσατο	ποιέω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	17	ADV	_	t_100|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-37	[0]	[0]	-	---------	_	28	ADV	_	e_8|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-38	.	.	u	u--------	_	15	AuxK	_	t_101|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+1	Τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_65|t_67|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_66|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+3	Ναρβωνησίας	ναρβωνησία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_67|t_69|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_68|t_69|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+5	περίπλουν	περίπλοος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_69|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+6	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_70|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.3
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_71|t_72|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+8	ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_72|t_70|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_73|t_75|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+10	Ἀρτεμιδώρου	ἀρτεμιδώρου	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_74|t_75|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+11	γεωγραφίας	γεωγραφία	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_75|t_72|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+12	ἤτοι	ἤτοι	d	d--------	_	15	AuxY	_	t_76|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+13	περίπλου	περίπλοος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_77|t_72|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+14	σαφῶς	σαφής	d	d--------	_	15	ADV	_	t_78|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+15	διεξήλθομεν	διέξειμι	v	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	PRED	_	t_79|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+16	,	,	u	u--------	_	15	AuxX	_	t_80|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+17	εἰ	εἰ	c	c--------	_	15	AuxC	_	t_81|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+18	καὶ	καί	d	d--------	_	21	AuxZ	_	t_82|t_85|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+19	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	21	ATR	_	t_83|t_85|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+20	προειρημένος	προερέω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	21	ATR	_	t_84|t_85|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+21	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_85|t_100|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_86|t_87|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+23	διαίρεσιν	διαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	36	OBJ	_	t_87|t_100|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+24	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	23	ATR	_	t_88|t_87|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+25	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_89|t_88|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+26	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	27	ATR	_	t_90|t_91|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+27	Κελτογαλατίᾳ	κελτογαλάτιος	n	n-s---fd-	Case=d|Gender=f|Number=s	25	ATR	_	t_91|t_89|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+28	ὡς	ὡς	d	d--------	_	34	AuxZ	_	t_92|t_98|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+29	καὶ	καί	c	c--------	_	24	AuxZ	_	t_93|t_88|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+30	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_94|t_93|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+31	ἐν	ἐν	r	r--------	_	30	AuxP	_	t_95|t_94|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+32	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	33	ATR	_	t_96|t_97|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+33	Ἰβηρίᾳ	ἰβηρίη	n	n-s---fd-	Case=d|Gender=f|Number=s	31	ATR	_	t_97|t_95|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+34	ἐπαριῶν	ἐπαρία	n	n-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_98|t_93|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+35	αὐκ	αὐκ	d	d--------	_	36	ADV	_	t_99|t_100|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+36	ἐποτήσατο	ποιέω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	17	ADV	_	t_100|t_81|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+37	[0]	[0]	-	---------	_	28	ADV	_	e_8|t_92|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+38	.	.	u	u--------	_	15	AuxK	_	t_101|t_79|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.4
 # text = 5 .
 # sent_id = 16
-1	5	5	u	u--------	_	0	AuxG	_	t_102|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_103|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+1	5	5	u	u--------	_	0	AuxG	_	t_102|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_103|t_102|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.4-1.1.5
 # text = Νάρβων , ἐμπόριον καὶ πόλις κελτική Μαρκιανὸς δὲ Ναρβωνησίαν αὐτήν φησιν [0] .
 # sent_id = 17
-1	Νάρβων	νάρβων	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_104|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-2	,	,	u	u--------	_	0	AuxX	_	t_105|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-3	ἐμπόριον	ἐμπόριον	n	n-s---na-	Case=n|Gender=n|Number=s	12	PNOM	_	t_106|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_107|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-5	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	8	SBJ	_	t_108|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-6	κελτική	κελτικός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_109|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
-7	Μαρκιανὸς	μαρκιανός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_110|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-8	δὲ	δέ	c	c--------	_	2	COORD	_	t_111|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-9	Ναρβωνησίαν	ναρβωνησία	a	a-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_112|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-10	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_113|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-11	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_114|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-12	[0]	[0]	-	---------	_	8	PRED	_	e_9|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-13	.	.	u	u--------	_	2	AuxK	_	t_115|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+1	Νάρβων	νάρβων	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_104|e_9|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+2	,	,	u	u--------	_	0	AuxX	_	t_105|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+3	ἐμπόριον	ἐμπόριον	n	n-s---na-	Case=n|Gender=n|Number=s	12	PNOM	_	t_106|e_9|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_107|t_108|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+5	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	8	SBJ	_	t_108|t_111|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+6	κελτική	κελτικός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_109|t_108|ref=Artemidori Geographia (Epitome Marciani)_1.1.4
+7	Μαρκιανὸς	μαρκιανός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_110|t_114|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+8	δὲ	δέ	c	c--------	_	2	COORD	_	t_111|t_105|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+9	Ναρβωνησίαν	ναρβωνησία	a	a-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_112|t_113|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+10	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_113|e_9|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+11	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_114|t_111|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+12	[0]	[0]	-	---------	_	8	PRED	_	e_9|t_111|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+13	.	.	u	u--------	_	2	AuxK	_	t_115|t_105|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.5
 # text = 6 .
 # sent_id = 18
-1	6	6	u	u--------	_	0	AuxG	_	t_116|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-2	.	.	u	u--------	_	1	AuxK	_	t_117|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+1	6	6	u	u--------	_	0	AuxG	_	t_116|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+2	.	.	u	u--------	_	1	AuxK	_	t_117|t_116|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.5
 # text = Μαλάκη , πόλις Ἰβηρίας .
 # sent_id = 19
-1	Μαλάκη	μαλάκη	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_118|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-2	,	,	u	u--------	_	0	AuxX	_	t_119|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	1	APOS	_	t_120|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-4	Ἰβηρίας	ἰβηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_121|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-5	.	.	u	u--------	_	2	AuxK	_	t_122|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+1	Μαλάκη	μαλάκη	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_118|t_119|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+2	,	,	u	u--------	_	0	AuxX	_	t_119|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	1	APOS	_	t_120|t_118|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+4	Ἰβηρίας	ἰβηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_121|t_120|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+5	.	.	u	u--------	_	2	AuxK	_	t_122|t_119|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.1.5-1.2.6
 # text = Μαρκιανὸς ἐν β΄ τῶν Ἐπιτομῶν Ἀρτεμιδώρου [0] .
 # sent_id = 20
-1	Μαρκιανὸς	μαρκιανός	a	a-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_123|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_124|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
-3	β΄	β ́	m	m--------	_	2	ADV	_	t_125|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_126|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-5	Ἐπιτομῶν	ἐπιτομή	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_127|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-6	Ἀρτεμιδώρου	ἀρτεμιδώρου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_128|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-7	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-8	.	.	u	u--------	_	7	AuxK	_	t_129|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+1	Μαρκιανὸς	μαρκιανός	a	a-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_123|e_10|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_124|e_10|ref=Artemidori Geographia (Epitome Marciani)_1.1.5
+3	β΄	β ́	m	m--------	_	2	ADV	_	t_125|t_124|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_126|t_127|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+5	Ἐπιτομῶν	ἐπιτομή	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_127|t_125|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+6	Ἀρτεμιδώρου	ἀρτεμιδώρου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_128|t_125|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+7	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+8	.	.	u	u--------	_	7	AuxK	_	t_129|e_10|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.6
 # text = 7 [0] .
 # sent_id = 21
-1	7	7	u	u--------	_	2	AuxG	_	t_130|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_131|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+1	7	7	u	u--------	_	2	AuxG	_	t_130|e_11|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+2	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_131|e_11|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.6
 # text = Οἱ δὲ κατὰ Γάδειρα τὴν νῆσον ( τὰς φ [0] .
 # sent_id = 22
-1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_132|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_133|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-3	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_134|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-4	Γάδειρα	γάδειρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_135|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_136|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-6	νῆσον	νῆσος	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_137|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-7	(	̔	u	u--------	_	9	AuxX	_	t_138|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_139|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
-9	φ	φ	m	m--------	_	6	ATR	_	t_140|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-10	[0]	[0]	-	---------	_	2	PRED	_	e_12|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-11	.	.	u	u--------	_	2	AuxK	_	t_141|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_132|e_12|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_133|0|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+3	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_134|e_12|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+4	Γάδειρα	γάδειρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_135|t_134|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_136|t_137|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+6	νῆσον	νῆσος	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_137|t_135|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+7	(	̔	u	u--------	_	9	AuxX	_	t_138|t_140|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_139|t_140|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
+9	φ	φ	m	m--------	_	6	ATR	_	t_140|t_137|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+10	[0]	[0]	-	---------	_	2	PRED	_	e_12|t_133|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+11	.	.	u	u--------	_	2	AuxK	_	t_141|t_133|ref=Artemidori Geographia (Epitome Marciani)_1.2.6
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.7
 # text = Ἡρακλείους στήλας εἶναί φασιν ) , ὥσπερ καὶ Ἀρτεμίδωρος ὁ γεωγράφος [0] .
 # sent_id = 23
-1	Ἡρακλείους	ἡράκλειος	n	n-p---ma-	Case=a|Gender=m|Number=p	3	SBJ	_	t_142|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-2	στήλας	στήλη	n	n-p---fa-	Case=a|Gender=f|Number=p	3	PNOM	_	t_143|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-3	εἶναί	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_144|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-4	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_145|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-5	)	)	u	u--------	_	4	AuxG	_	t_146|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-6	,	,	u	u--------	_	4	AuxX	_	t_147|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-7	ὥσπερ	ὥσπερ	c	c--------	_	4	AuxC	_	t_148|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_149|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-9	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_150|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_151|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-11	γεωγράφος	γεωγράφος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_152|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-12	[0]	[0]	-	---------	_	7	ADV	_	e_13|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-13	.	.	u	u--------	_	4	AuxK	_	t_153|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+1	Ἡρακλείους	ἡράκλειος	n	n-p---ma-	Case=a|Gender=m|Number=p	3	SBJ	_	t_142|t_144|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+2	στήλας	στήλη	n	n-p---fa-	Case=a|Gender=f|Number=p	3	PNOM	_	t_143|t_144|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+3	εἶναί	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_144|t_145|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+4	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_145|0|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+5	)	)	u	u--------	_	4	AuxG	_	t_146|t_145|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+6	,	,	u	u--------	_	4	AuxX	_	t_147|t_145|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+7	ὥσπερ	ὥσπερ	c	c--------	_	4	AuxC	_	t_148|t_145|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_149|t_150|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+9	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_150|e_13|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_151|t_150|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+11	γεωγράφος	γεωγράφος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_152|t_150|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+12	[0]	[0]	-	---------	_	7	ADV	_	e_13|t_148|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+13	.	.	u	u--------	_	4	AuxK	_	t_153|t_145|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.7
 # text = 8 [0] .
 # sent_id = 24
-1	8	8	x	x--------	_	2	AuxK	_	t_154|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_155|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+1	8	8	x	x--------	_	2	AuxK	_	t_154|e_14|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_155|e_14|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.7
 # text = Σολκοί , πόλις ἐν Σαρδοῖ , ὡς Ἀρτεμίδωρος ἐν Ἐπιτομῇ [0] ·
 # sent_id = 25
-1	Σολκοί	σολκός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_156|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-2	,	,	u	u--------	_	11	AuxX	_	t_157|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	11	PNOM	_	t_158|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_159|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-5	Σαρδοῖ	σαρδώ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_160|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-6	,	,	u	u--------	_	11	AuxX	_	t_161|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-7	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_162|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-8	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	ADV	_	t_163|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-9	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_164|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-10	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_165|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-11	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-12	·	·	u	u--------	_	11	AuxK	_	t_166|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+1	Σολκοί	σολκός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_156|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+2	,	,	u	u--------	_	11	AuxX	_	t_157|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	11	PNOM	_	t_158|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_159|t_158|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+5	Σαρδοῖ	σαρδώ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_160|t_159|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+6	,	,	u	u--------	_	11	AuxX	_	t_161|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+7	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_162|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+8	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	ADV	_	t_163|t_162|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+9	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_164|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+10	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_165|t_164|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+11	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+12	·	·	u	u--------	_	11	AuxK	_	t_166|e_15|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.8
 # text = « ἀπὸ δὲ Καράλεως ἐπὶ Σολκούς » [0] .
 # sent_id = 26
-1	«	«	u	u--------	_	8	AuxG	_	t_167|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-2	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_168|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-3	δὲ	δέ	d	d--------	_	8	AuxY	_	t_169|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-4	Καράλεως	καράλειος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_170|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-5	ἐπὶ	ἐπί	r	r--------	_	8	AuxP	_	t_171|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-6	Σολκούς	σολκός	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_172|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-7	»	»	u	u--------	_	8	AuxG	_	t_173|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-8	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-9	.	.	u	u--------	_	8	AuxK	_	t_174|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+1	«	«	u	u--------	_	8	AuxG	_	t_167|e_16|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+2	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_168|e_16|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+3	δὲ	δέ	d	d--------	_	8	AuxY	_	t_169|e_16|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+4	Καράλεως	καράλειος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_170|t_168|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+5	ἐπὶ	ἐπί	r	r--------	_	8	AuxP	_	t_171|e_16|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+6	Σολκούς	σολκός	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_172|t_171|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+7	»	»	u	u--------	_	8	AuxG	_	t_173|e_16|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+8	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+9	.	.	u	u--------	_	8	AuxK	_	t_174|e_16|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.8
 # text = 9 [0] .
 # sent_id = 27
-1	9	9	x	x--------	_	2	AuxK	_	t_175|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_17|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_176|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+1	9	9	x	x--------	_	2	AuxK	_	t_175|e_17|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_176|e_17|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.8
 # text = Τέγεστρα , οὐδετέρως , πόλις Ἰλλυρίας πρὸς τῇ Ἀκυληίᾳ , ἀπὸ Τεγέστρου [0] .
 # sent_id = 28
-1	Τέγεστρα	τέγος	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_177|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-2	,	,	u	u--------	_	13	AuxX	_	t_178|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-3	οὐδετέρως	οὐδέτερος	d	d--------	_	13	ADV	_	t_179|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-4	,	,	u	u--------	_	13	AuxX	_	t_180|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
-5	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	13	PNOM	_	t_181|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-6	Ἰλλυρίας	ἰλλυρία	n	n-s---fg-	Case=a|Gender=f|Number=p	5	ATR	_	t_182|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-7	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_183|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_184|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-9	Ἀκυληίᾳ	ἀκυληία	a	a-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_185|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-10	,	,	u	u--------	_	13	COORD	_	t_186|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_187|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-12	Τεγέστρου	τέγος	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_188|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-13	[0]	[0]	-	---------	_	0	PRED	_	e_18|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-14	.	.	u	u--------	_	13	AuxK	_	t_189|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+1	Τέγεστρα	τέγος	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_177|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+2	,	,	u	u--------	_	13	AuxX	_	t_178|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+3	οὐδετέρως	οὐδέτερος	d	d--------	_	13	ADV	_	t_179|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+4	,	,	u	u--------	_	13	AuxX	_	t_180|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.7
+5	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	13	PNOM	_	t_181|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+6	Ἰλλυρίας	ἰλλυρία	n	n-s---fg-	Case=a|Gender=f|Number=p	5	ATR	_	t_182|t_181|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+7	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_183|t_181|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_184|t_185|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+9	Ἀκυληίᾳ	ἀκυληία	a	a-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_185|t_183|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+10	,	,	u	u--------	_	13	COORD	_	t_186|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_187|t_186|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+12	Τεγέστρου	τέγος	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_188|t_187|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+13	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+14	.	.	u	u--------	_	13	AuxK	_	t_189|e_18|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.2.8-1.4.9
 # text = Ἀρτεμίδωρος δʼ ἐν Ἐπιτομῇ τῶν ἕνδεκα Τέργεστρον αὐτὴν καὶ κώμην οἶδεν « Ἀπὸ Τεργέστρου κώμης καὶ τοῦ μυχοῦ ἐπὶ τὸν Ἀδρίαν στάδιοι εκε΄ . »
 # sent_id = 29
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_190|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-2	δʼ	δέ	d	d--------	_	11	AuxY	_	t_191|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-3	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_192|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-4	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_193|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_194|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-6	ἕνδεκα	ἕνδεκα	a	a--------	_	4	ATR	_	t_195|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-7	Τέργεστρον	τέργεστρον	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_196|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-8	αὐτὴν	αὐτός	a	a-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_197|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_198|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-10	κώμην	κώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_199|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-11	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-12	«	«	u	u--------	_	11	AuxG	_	t_201|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-13	Ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_202|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-14	Τεργέστρου	τεργέστρος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_203|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-15	κώμης	κώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_204|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-16	καὶ	καί	c	c--------	_	13	COORD	_	t_205|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_206|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
-18	μυχοῦ	στόμα	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_207|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-19	ἐπὶ	ἐπί	r	r--------	_	18	AuxP	_	t_208|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-20	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	21	ATR	_	t_209|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-21	Ἀδρίαν	ἀδρίας	n	n-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_210|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-22	στάδιοι	στάδιον	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_211|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-23	εκε΄	εκε ́	v	v3plim---	Mood=i|Number=p|Person=3|Tense=l|Voice=m	11	OBJ	_	t_212|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-24	.	.	u	u--------	_	11	AuxK	_	t_213|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-25	»	»	u	u--------	_	11	AuxG	_	t_214|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_190|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+2	δʼ	δέ	d	d--------	_	11	AuxY	_	t_191|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+3	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_192|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+4	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_193|t_192|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_194|t_195|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+6	ἕνδεκα	ἕνδεκα	a	a--------	_	4	ATR	_	t_195|t_193|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+7	Τέργεστρον	τέργεστρον	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_196|t_198|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+8	αὐτὴν	αὐτός	a	a-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_197|t_199|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_198|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+10	κώμην	κώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_199|t_198|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+11	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_200|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+12	«	«	u	u--------	_	11	AuxG	_	t_201|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+13	Ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_202|t_212|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+14	Τεργέστρου	τεργέστρος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_203|t_204|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+15	κώμης	κώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_204|t_205|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+16	καὶ	καί	c	c--------	_	13	COORD	_	t_205|t_202|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_206|t_207|ref=Artemidori Geographia (Epitome Marciani)_1.2.8
+18	μυχοῦ	στόμα	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_207|t_205|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+19	ἐπὶ	ἐπί	r	r--------	_	18	AuxP	_	t_208|t_207|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+20	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	21	ATR	_	t_209|t_210|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+21	Ἀδρίαν	ἀδρίας	n	n-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_210|t_208|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+22	στάδιοι	στάδιον	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_211|t_212|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+23	εκε΄	εκε ́	v	v3plim---	Mood=i|Number=p|Person=3|Tense=l|Voice=m	11	OBJ	_	t_212|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+24	.	.	u	u--------	_	11	AuxK	_	t_213|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+25	»	»	u	u--------	_	11	AuxG	_	t_214|t_200|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.9
 # text = 10 [0] .
 # sent_id = 30
-1	10	10	u	u--------	_	2	AuxG	_	t_215|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_216|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+1	10	10	u	u--------	_	2	AuxG	_	t_215|e_19|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_216|e_19|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.9
 # text = Φλάνων , πόλις καὶ λιμὴν περὶ τὴν Ἄψυρτον νῆσον [0] .
 # sent_id = 31
-1	Φλάνων	φλάνων	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_217|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-2	,	,	u	u--------	_	10	AuxX	_	t_218|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-3	πόλις	πόλις	n	n-p---fa-	Case=n|Gender=f|Number=s	4	SBJ	_	t_219|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-4	καὶ	καί	c	c--------	_	10	COORD	_	t_220|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-5	λιμὴν	λιμήν	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_221|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-6	περὶ	περί	r	r--------	_	5	AuxP	_	t_222|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_223|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-8	Ἄψυρτον	ἄψυρτος	n	n-s---ma-	Case=a|Gender=f|Number=s	9	ATR	_	t_224|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-9	νῆσον	νῆσος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_225|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-10	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-11	.	.	u	u--------	_	10	AuxK	_	t_226|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+1	Φλάνων	φλάνων	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_217|t_220|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+2	,	,	u	u--------	_	10	AuxX	_	t_218|e_20|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+3	πόλις	πόλις	n	n-p---fa-	Case=n|Gender=f|Number=s	4	SBJ	_	t_219|t_220|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+4	καὶ	καί	c	c--------	_	10	COORD	_	t_220|e_20|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+5	λιμὴν	λιμήν	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_221|t_220|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+6	περὶ	περί	r	r--------	_	5	AuxP	_	t_222|t_221|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_223|t_225|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+8	Ἄψυρτον	ἄψυρτος	n	n-s---ma-	Case=a|Gender=f|Number=s	9	ATR	_	t_224|t_225|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+9	νῆσον	νῆσος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_225|t_222|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+10	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+11	.	.	u	u--------	_	10	AuxK	_	t_226|e_20|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.9
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ια΄ [0] .
 # sent_id = 32
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_227|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_228|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_229|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-4	τῶν	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_230|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-5	ια΄	ια ́	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_231|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-6	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
-7	.	.	u	u--------	_	6	AuxK	_	t_232|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_227|e_21|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_228|e_21|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_229|t_228|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+4	τῶν	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_230|t_231|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+5	ια΄	ια ́	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_231|e_21|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+6	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.1
+7	.	.	u	u--------	_	6	AuxK	_	t_232|e_21|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.10
 # text = « Μετὰ δὲ τὴν Ἄλωον λιμήν ἐστι Φλάνων καὶ πόλις Φλάνων , καὶ πᾶς ὁ κόλπος οὗτος Φλανωνικὸς καλεῖται . »
 # sent_id = 33
-1	«	«	u	u--------	_	3	AuxG	_	t_233|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-2	Μετὰ	μετά	r	r--------	_	7	AuxP	_	t_234|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-3	δὲ	δέ	d	d--------	_	0	COORD	_	t_235|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_236|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-5	Ἄλωον	ἄλωος	n	n-s---fa-	Case=a|Gender=f|Number=s	2	ADV	_	t_237|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-6	λιμήν	λιμήν	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_238|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-7	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_239|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-8	Φλάνων	φλάνων	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_240|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-9	καὶ	καί	c	c--------	_	7	COORD	_	t_241|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-10	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	9	SBJ	_	t_242|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-11	Φλάνων	φλάνων	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_243|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-12	,	,	u	u--------	_	7	AuxX	_	t_244|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-13	καὶ	καί	c	c--------	_	1	COORD	_	t_245|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-14	πᾶς	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_246|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-15	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_247|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-16	κόλπος	κόλπος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_248|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-17	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_249|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-18	Φλανωνικὸς	φλανωνικός	a	a-s---mn-	Case=n|Gender=m|Number=s	19	PNOM	_	t_250|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-19	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	PRED	_	t_251|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-20	.	.	u	u--------	_	1	AuxK	_	t_252|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
-21	»	»	u	u--------	_	3	AuxG	_	t_253|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+1	«	«	u	u--------	_	3	AuxG	_	t_233|t_235|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+2	Μετὰ	μετά	r	r--------	_	7	AuxP	_	t_234|t_239|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+3	δὲ	δέ	d	d--------	_	0	COORD	_	t_235|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_236|t_237|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+5	Ἄλωον	ἄλωος	n	n-s---fa-	Case=a|Gender=f|Number=s	2	ADV	_	t_237|t_234|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+6	λιμήν	λιμήν	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_238|t_241|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+7	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_239|t_245|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+8	Φλάνων	φλάνων	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_240|t_241|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+9	καὶ	καί	c	c--------	_	7	COORD	_	t_241|t_239|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+10	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	9	SBJ	_	t_242|t_241|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+11	Φλάνων	φλάνων	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_243|t_242|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+12	,	,	u	u--------	_	7	AuxX	_	t_244|t_239|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+13	καὶ	καί	c	c--------	_	1	COORD	_	t_245|t_233|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+14	πᾶς	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_246|t_248|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+15	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_247|t_248|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+16	κόλπος	κόλπος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_248|t_251|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+17	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_249|t_248|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+18	Φλανωνικὸς	φλανωνικός	a	a-s---mn-	Case=n|Gender=m|Number=s	19	PNOM	_	t_250|t_251|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+19	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	PRED	_	t_251|t_245|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+20	.	.	u	u--------	_	1	AuxK	_	t_252|t_233|ref=Artemidori Geographia (Epitome Marciani)_1.4.9
+21	»	»	u	u--------	_	3	AuxG	_	t_253|t_235|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.10
 # text = 11 .
 # sent_id = 34
-1	11	11	x	x--------	_	0	AuxG	_	t_254|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-2	.	.	u	u--------	_	1	AuxK	_	t_255|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+1	11	11	x	x--------	_	0	AuxG	_	t_254|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+2	.	.	u	u--------	_	1	AuxK	_	t_255|t_254|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.10
 # text = Ἀψυρτίδες , νῆσοι πρὸς τῷ Ἀδρίᾳ , ἀπὸ Ἀψύρτου παιδὸς Αἰήτου ἐν μιᾷ δολοφονηθέντος ὑπὸ τῆς ἀδελφῆς Μηδείας [0] .
 # sent_id = 35
-1	Ἀψυρτίδες	ἀψυρτίδες	n	n-p---fn-	Case=n|Gender=f|Number=p	19	SBJ	_	t_256|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-2	,	,	u	u--------	_	19	AuxX	_	t_257|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-3	νῆσοι	νῆσος	n	n-p---fn-	Case=n|Gender=f|Number=p	19	SBJ	_	t_258|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-4	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_259|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	6	ATR	_	t_260|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-6	Ἀδρίᾳ	ἀδρίας	n	n-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_261|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-7	,	,	u	u--------	_	19	AuxX	_	t_262|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-8	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_263|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-9	Ἀψύρτου	ἀψύρτου	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_264|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-10	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_265|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-11	Αἰήτου	αἰήτης	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_266|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-12	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_267|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-13	μιᾷ	εἷς	a	a-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_268|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-14	δολοφονηθέντος	δολοφονέω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	10	ATR	_	t_269|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-15	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_270|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_271|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-17	ἀδελφῆς	ἀδελφή	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_272|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-18	Μηδείας	μήδεια	n	n-s---fg-	Case=g|Gender=f|Number=s	15	OBJ	_	t_273|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
-19	[0]	[0]	-	---------	_	0	PRED	_	e_22|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-20	.	.	u	u--------	_	19	AuxK	_	t_274|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+1	Ἀψυρτίδες	ἀψυρτίδες	n	n-p---fn-	Case=n|Gender=f|Number=p	19	SBJ	_	t_256|e_22|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+2	,	,	u	u--------	_	19	AuxX	_	t_257|e_22|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+3	νῆσοι	νῆσος	n	n-p---fn-	Case=n|Gender=f|Number=p	19	SBJ	_	t_258|e_22|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+4	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_259|t_258|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	6	ATR	_	t_260|t_261|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+6	Ἀδρίᾳ	ἀδρίας	n	n-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_261|t_259|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+7	,	,	u	u--------	_	19	AuxX	_	t_262|e_22|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+8	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_263|e_22|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+9	Ἀψύρτου	ἀψύρτου	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_264|t_265|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+10	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_265|t_263|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+11	Αἰήτου	αἰήτης	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_266|t_265|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+12	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_267|t_269|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+13	μιᾷ	εἷς	a	a-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_268|t_267|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+14	δολοφονηθέντος	δολοφονέω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	10	ATR	_	t_269|t_265|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+15	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_270|t_269|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_271|t_272|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+17	ἀδελφῆς	ἀδελφή	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_272|t_273|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+18	Μηδείας	μήδεια	n	n-s---fg-	Case=g|Gender=f|Number=s	15	OBJ	_	t_273|t_270|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+19	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+20	.	.	u	u--------	_	19	AuxK	_	t_274|e_22|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11
 # text = Οἱ νησιῶται Ἀψυρτεῖς καὶ Ἄψυρτοι [0] .
 # sent_id = 36
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_275|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	νησιῶται	νησιώτης	n	n-p---mn-	Case=n|Gender=m|Number=p	6	PNOM	_	t_276|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	Ἀψυρτεῖς	ἀψυρτέω	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_277|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-4	καὶ	καί	c	c--------	_	6	COORD	_	t_278|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-5	Ἄψυρτοι	ἄψυρτος	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_279|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-6	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_280|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_275|t_276|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	νησιῶται	νησιώτης	n	n-p---mn-	Case=n|Gender=m|Number=p	6	PNOM	_	t_276|e_23|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	Ἀψυρτεῖς	ἀψυρτέω	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_277|t_278|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+4	καὶ	καί	c	c--------	_	6	COORD	_	t_278|e_23|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+5	Ἄψυρτοι	ἄψυρτος	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_279|t_278|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+6	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_280|e_23|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11-1.4.10
 # text = ( Ἔστι καὶ τόπος ἐν τῷ Εὐξείνῳ πόντῳ Ἄψαρος , Ἄψυρτος πρότερον λεγόμες . )
 # sent_id = 37
-1	(	̔	u	u--------	_	2	AuxG	_	t_281|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_282|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_283|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-4	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_284|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_285|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_286|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-7	Εὐξείνῳ	εὔξεινος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_287|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-8	πόντῳ	πόντος	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_288|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-9	Ἄψαρος	ἄψαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_289|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-10	,	,	u	u--------	_	2	AuxX	_	t_290|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-11	Ἄψυρτος	ἄψυρτος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_291|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-12	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_292|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-13	λεγόμες	λέγω	v	v-sap-mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=p	4	ATR	_	t_293|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-14	.	.	u	u--------	_	2	AuxK	_	t_294|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-15	)	)	u	u--------	_	2	AuxG	_	t_295|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
+1	(	̔	u	u--------	_	2	AuxG	_	t_281|t_282|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_282|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_283|t_284|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+4	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_284|t_282|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_285|t_284|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_286|t_288|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+7	Εὐξείνῳ	εὔξεινος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_287|t_288|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+8	πόντῳ	πόντος	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_288|t_285|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+9	Ἄψαρος	ἄψαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_289|t_284|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+10	,	,	u	u--------	_	2	AuxX	_	t_290|t_282|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+11	Ἄψυρτος	ἄψυρτος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_291|t_293|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+12	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_292|t_293|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+13	λεγόμες	λέγω	v	v-sap-mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=p	4	ATR	_	t_293|t_284|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+14	.	.	u	u--------	_	2	AuxK	_	t_294|t_282|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+15	)	)	u	u--------	_	2	AuxG	_	t_295|t_282|ref=Artemidori Geographia (Epitome Marciani)_1.4.10
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ καὶ πόλιν καὶ νῆσον Ἄψυρτον ἱστορεῖ .
 # sent_id = 38
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_296|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_297|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_298|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-4	καὶ	καί	d	d--------	_	6	AuxY	_	t_299|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-5	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_300|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-6	καὶ	καί	c	c--------	_	9	COORD	_	t_301|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-7	νῆσον	νῆσος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_302|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-8	Ἄψυρτον	ἄψυρτος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OCOMP	_	t_303|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-9	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_304|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-10	.	.	u	u--------	_	9	AuxK	_	t_305|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_296|t_304|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_297|t_304|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_298|t_297|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+4	καὶ	καί	d	d--------	_	6	AuxY	_	t_299|t_301|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+5	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_300|t_301|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+6	καὶ	καί	c	c--------	_	9	COORD	_	t_301|t_304|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+7	νῆσον	νῆσος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_302|t_301|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+8	Ἄψυρτον	ἄψυρτος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OCOMP	_	t_303|t_301|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+9	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_304|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+10	.	.	u	u--------	_	9	AuxK	_	t_305|t_304|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11
 # text = 12 .
 # sent_id = 39
-1	12	12	x	x--------	_	0	AuxG	_	t_306|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	.	.	u	u--------	_	1	AuxK	_	t_307|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	12	12	x	x--------	_	0	AuxG	_	t_306|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	.	.	u	u--------	_	1	AuxK	_	t_307|t_306|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11
 # text = Κώθων , νῆσος οὐ πόρρω Κυθήρων [0] .
 # sent_id = 40
-1	Κώθων	κώθων	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_308|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	,	,	u	u--------	_	7	AuxX	_	t_309|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	νῆσος	νῆσος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_310|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_311|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-5	πόρρω	πρόσω	d	d--------	_	7	ADV	_	t_312|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-6	Κυθήρων	κύθηρα	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_313|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-7	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-8	.	.	u	u--------	_	7	AuxK	_	t_314|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	Κώθων	κώθων	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_308|e_24|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	,	,	u	u--------	_	7	AuxX	_	t_309|e_24|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	νῆσος	νῆσος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_310|e_24|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_311|t_312|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+5	πόρρω	πρόσω	d	d--------	_	7	ADV	_	t_312|e_24|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+6	Κυθήρων	κύθηρα	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_313|t_312|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+7	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+8	.	.	u	u--------	_	7	AuxK	_	t_314|e_24|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] .
 # sent_id = 41
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_315|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_316|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_317|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_318|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_319|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-6	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_320|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_315|e_25|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_316|e_25|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_317|t_316|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_318|t_319|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_319|e_25|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+6	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_320|e_25|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11
 # text = Τὸ ἐθνικὸν Κωθώνιος , ὡς Σιδώνιος [0] .
 # sent_id = 42
-1	Τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_321|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	ἐθνικὸν	ἐθνικός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_322|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	Κωθώνιος	κωθώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_323|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-4	,	,	u	u--------	_	5	AuxX	_	t_324|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-5	ὡς	ὡς	c	c--------	_	7	AuxC	_	t_325|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-6	Σιδώνιος	σιδώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_326|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-7	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-8	.	.	u	u--------	_	7	AuxK	_	t_327|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	Τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_321|t_322|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	ἐθνικὸν	ἐθνικός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_322|e_26|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	Κωθώνιος	κωθώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_323|e_26|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+4	,	,	u	u--------	_	5	AuxX	_	t_324|t_325|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+5	ὡς	ὡς	c	c--------	_	7	AuxC	_	t_325|e_26|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+6	Σιδώνιος	σιδώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_326|e_26|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+7	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+8	.	.	u	u--------	_	7	AuxK	_	t_327|e_26|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11-1.5.12
 # text = 13 .
 # sent_id = 43
-1	13	13	x	x--------	_	0	AuxG	_	t_328|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	.	.	u	u--------	_	1	AuxK	_	t_329|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+1	13	13	x	x--------	_	0	AuxG	_	t_328|0|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	.	.	u	u--------	_	1	AuxK	_	t_329|t_328|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.12
 # text = Λῶς , νῆσος περὶ Θετταλίαν , ὡς Κῶς [0] .
 # sent_id = 44
-1	Λῶς	λωρός	n	n-s---fn-	Case=n|Gender=f|Number=s	3	APOS	_	t_330|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-2	,	,	u	u--------	_	9	AuxX	_	t_331|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-3	νῆσος	νῆσος	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_332|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-4	περὶ	περί	r	r--------	_	3	AuxP	_	t_333|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-5	Θετταλίαν	θεσσαλία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_334|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-6	,	,	u	u--------	_	9	AuxX	_	t_335|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-7	ὡς	ὡς	c	c--------	_	9	AuxC	_	t_336|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-8	Κῶς	πῶς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_337|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-9	[0]	[0]	-	---------	_	0	PRED	_	e_27|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-10	.	.	u	u--------	_	9	AuxK	_	t_338|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+1	Λῶς	λωρός	n	n-s---fn-	Case=n|Gender=f|Number=s	3	APOS	_	t_330|t_332|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+2	,	,	u	u--------	_	9	AuxX	_	t_331|e_27|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+3	νῆσος	νῆσος	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_332|e_27|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+4	περὶ	περί	r	r--------	_	3	AuxP	_	t_333|t_332|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+5	Θετταλίαν	θεσσαλία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_334|t_333|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+6	,	,	u	u--------	_	9	AuxX	_	t_335|e_27|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+7	ὡς	ὡς	c	c--------	_	9	AuxC	_	t_336|e_27|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+8	Κῶς	πῶς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_337|e_27|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+9	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+10	.	.	u	u--------	_	9	AuxK	_	t_338|e_27|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.12-1.4.11
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] .
 # sent_id = 45
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_339|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_340|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_341|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_342|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_343|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-6	[0]	[0]	-	---------	_	0	PRED	_	e_28|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_344|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_339|e_28|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_340|e_28|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_341|t_340|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_342|t_343|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_343|e_28|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+6	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_344|e_28|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.12
 # text = Λῷος ὁ νησιώτης [0] .
 # sent_id = 46
-1	Λῷος	λωίων	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_345|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_346|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-3	νησιώτης	νησιώτης	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_347|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-4	[0]	[0]	-	---------	_	0	PRED	_	e_29|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	.	.	u	u--------	_	4	AuxK	_	t_348|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+1	Λῷος	λωίων	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_345|e_29|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_346|t_345|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+3	νησιώτης	νησιώτης	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_347|t_345|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+4	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	.	.	u	u--------	_	4	AuxK	_	t_348|e_29|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.12
 # text = 14 .
 # sent_id = 47
-1	14	14	x	x--------	_	0	AuxG	_	t_349|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-2	.	.	u	u--------	_	1	AuxK	_	t_350|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+1	14	14	x	x--------	_	0	AuxG	_	t_349|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+2	.	.	u	u--------	_	1	AuxK	_	t_350|t_349|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.12-1.5.13
 # text = Ἀσταί , ἔθνος Θρᾴκης [0] .
 # sent_id = 48
-1	Ἀσταί	ἀστή	n	n-s---mv-	Case=n|Gender=m|Number=p	5	ExD	_	t_351|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-2	,	,	u	u--------	_	5	AuxX	_	t_352|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-3	ἔθνος	ἔθνος	n	n-s---nv-	Case=v|Gender=n|Number=s	5	PNOM	_	t_353|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-4	Θρᾴκης	θρᾳκία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_354|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-5	[0]	[0]	-	---------	_	0	PRED	_	e_30|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	.	.	u	u--------	_	5	AuxK	_	t_355|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+1	Ἀσταί	ἀστή	n	n-s---mv-	Case=n|Gender=m|Number=p	5	ExD	_	t_351|e_30|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+2	,	,	u	u--------	_	5	AuxX	_	t_352|e_30|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+3	ἔθνος	ἔθνος	n	n-s---nv-	Case=v|Gender=n|Number=s	5	PNOM	_	t_353|e_30|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+4	Θρᾴκης	θρᾳκία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_354|t_353|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+5	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	.	.	u	u--------	_	5	AuxK	_	t_355|e_30|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.13
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] .
 # sent_id = 49
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_356|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_357|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_358|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_359|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_360|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-6	[0]	[0]	-	---------	_	0	PRED	_	e_31|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_361|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_356|e_31|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_357|e_31|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_358|t_357|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_359|t_360|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_360|e_31|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+6	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_361|e_31|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.13
 # text = 15 .
 # sent_id = 50
-1	15	15	u	u--------	_	0	AuxG	_	t_362|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-2	.	.	u	u--------	_	1	AuxK	_	t_363|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+1	15	15	u	u--------	_	0	AuxG	_	t_362|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+2	.	.	u	u--------	_	1	AuxK	_	t_363|t_362|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.4.11-1.5.13
 # text = Φίλιποι , πόλις Μακεδονίας , οἱ πρότερον Κρηνίδες [0] .
 # sent_id = 51
-1	Φίλιποι	φίλιπος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	ExD	_	t_364|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
-2	,	,	u	u--------	_	9	AuxX	_	t_365|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ExD	_	t_366|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-4	Μακεδονίας	μακεδονία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_367|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-5	,	,	u	u--------	_	9	AuxX	_	t_368|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_369|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-7	πρότερον	πρότερος	d	d-------c	Degree=c	8	ATR	_	t_370|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-8	Κρηνίδες	κρηνίς	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_371|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-9	[0]	[0]	-	---------	_	0	PRED	_	e_32|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-10	.	.	u	u--------	_	9	AuxK	_	t_372|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+1	Φίλιποι	φίλιπος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	ExD	_	t_364|e_32|ref=Artemidori Geographia (Epitome Marciani)_1.4.11
+2	,	,	u	u--------	_	9	AuxX	_	t_365|e_32|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ExD	_	t_366|t_368|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+4	Μακεδονίας	μακεδονία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_367|t_366|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+5	,	,	u	u--------	_	9	AuxX	_	t_368|e_32|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_369|t_371|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+7	πρότερον	πρότερος	d	d-------c	Degree=c	8	ATR	_	t_370|t_371|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+8	Κρηνίδες	κρηνίς	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_371|t_368|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+9	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+10	.	.	u	u--------	_	9	AuxK	_	t_372|e_32|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.13-1.5.14
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] ·
 # sent_id = 52
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_373|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_374|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_375|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_376|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_377|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-6	[0]	[0]	-	---------	_	0	PRED	_	e_33|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	·	·	u	u--------	_	6	AuxK	_	t_378|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_373|e_33|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_374|e_33|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_375|t_374|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_376|t_377|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_377|e_33|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+6	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	·	·	u	u--------	_	6	AuxK	_	t_378|e_33|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.14
 # text = « Καὶ πόλις Φίλιπποι τὸ παλαιὸν Κρηνίδες [0] .
 # sent_id = 53
-1	«	«	u	u--------	_	2	AuxG	_	t_379|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-2	Καὶ	καί	c	c--------	_	0	COORD	_	t_380|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	8	SBJ	_	t_381|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-4	Φίλιπποι	φίλιππος	n	n-p---mn-	_	3	ATR	_	t_382|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_383|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-6	παλαιὸν	παλαιός	a	a-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_384|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-7	Κρηνίδες	κρηνίς	n	n-p---fn-	Case=n|Gender=f|Number=p	8	PNOM	_	t_385|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-8	[0]	[0]	-	---------	_	2	PRED	_	e_34|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-9	.	.	u	u--------	_	2	AuxK	_	t_386|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+1	«	«	u	u--------	_	2	AuxG	_	t_379|t_380|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+2	Καὶ	καί	c	c--------	_	0	COORD	_	t_380|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	8	SBJ	_	t_381|e_34|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+4	Φίλιπποι	φίλιππος	n	n-p---mn-	_	3	ATR	_	t_382|t_381|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_383|t_384|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+6	παλαιὸν	παλαιός	a	a-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_384|e_34|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+7	Κρηνίδες	κρηνίς	n	n-p---fn-	Case=n|Gender=f|Number=p	8	PNOM	_	t_385|e_34|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+8	[0]	[0]	-	---------	_	2	PRED	_	e_34|t_380|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+9	.	.	u	u--------	_	2	AuxK	_	t_386|t_380|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.14-1.5.15
 # text = Τοῖς δὲ Κρηνίταις πολεμουμένοις ὑπὸ Θρακῶν βοηθήσας ὁ Φίλιππος Φιλίππους ὠνόμασεν . »
 # sent_id = 54
-1	Τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	3	ATR	_	t_387|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_388|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-3	Κρηνίταις	κρηνίτης	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_389|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-4	πολεμουμένοις	πολεμέω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	3	ATR	_	t_390|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-5	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_391|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
-6	Θρακῶν	θράκιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_392|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-7	βοηθήσας	βοηθέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	11	ADV	_	t_393|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_394|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-9	Φίλιππος	φίλιππος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_395|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-10	Φιλίππους	φίλιππος	n	n-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_396|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-11	ὠνόμασεν	ὀνομάζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-12	.	.	u	u--------	_	11	AuxK	_	t_398|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-13	»	»	u	u--------	_	11	AuxK	_	t_399|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	Τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	3	ATR	_	t_387|t_389|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_388|t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+3	Κρηνίταις	κρηνίτης	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_389|t_393|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+4	πολεμουμένοις	πολεμέω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	3	ATR	_	t_390|t_389|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+5	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_391|t_390|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+6	Θρακῶν	θράκιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_392|t_391|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+7	βοηθήσας	βοηθέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	11	ADV	_	t_393|t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_394|t_395|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+9	Φίλιππος	φίλιππος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_395|t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+10	Φιλίππους	φίλιππος	n	n-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_396|t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+11	ὠνόμασεν	ὀνομάζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_397|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+12	.	.	u	u--------	_	11	AuxK	_	t_398|t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+13	»	»	u	u--------	_	11	AuxK	_	t_399|t_397|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15-1.5.13
 # text = Ἔνθεν ἦν Ἄδραστος ὁ περιπατητικὸς φιλόσοφος , Ἀριστοτέλους μαθη τής .
 # sent_id = 55
-1	Ἔνθεν	ἔνθεν	d	d--------	_	2	PNOM	_	t_400|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_401|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	Ἄδραστος	ἄδραστος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_402|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_403|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
-5	περιπατητικὸς	περιπατητικός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_404|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-6	φιλόσοφος	φιλόσοφος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_405|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-7	,	,	u	u--------	_	2	APOS	_	t_406|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-8	Ἀριστοτέλους	ἀριστοτέλης	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_407|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-9	μαθη	μαθη	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_408|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-10	τής	ὁ	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_409|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-11	.	.	u	u--------	_	2	AuxK	_	t_410|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
+1	Ἔνθεν	ἔνθεν	d	d--------	_	2	PNOM	_	t_400|t_401|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_401|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	Ἄδραστος	ἄδραστος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_402|t_406|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_403|t_402|ref=Artemidori Geographia (Epitome Marciani)_1.5.12
+5	περιπατητικὸς	περιπατητικός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_404|t_405|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+6	φιλόσοφος	φιλόσοφος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_405|t_402|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+7	,	,	u	u--------	_	2	APOS	_	t_406|t_401|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+8	Ἀριστοτέλους	ἀριστοτέλης	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_407|t_408|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+9	μαθη	μαθη	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_408|t_406|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+10	τής	ὁ	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_409|t_406|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+11	.	.	u	u--------	_	2	AuxK	_	t_410|t_401|ref=Artemidori Geographia (Epitome Marciani)_1.5.13
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = 16 .
 # sent_id = 56
-1	16	16	x	x--------	_	0	AuxG	_	t_411|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	.	.	u	u--------	_	1	AuxK	_	t_412|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	16	16	x	x--------	_	0	AuxG	_	t_411|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	.	.	u	u--------	_	1	AuxK	_	t_412|t_411|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = Ξοῦχις , πόλις Λιβύης .
 # sent_id = 57
-1	Ξοῦχις	ξοῦχις	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_413|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	,	,	u	u--------	_	1	AuxX	_	t_414|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	ATR	_	t_415|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	Λιβύης	λιβύη	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_416|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-5	.	.	u	u--------	_	1	AuxK	_	t_417|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	Ξοῦχις	ξοῦχις	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_413|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	,	,	u	u--------	_	1	AuxX	_	t_414|t_413|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	ATR	_	t_415|t_413|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	Λιβύης	λιβύη	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_416|t_415|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+5	.	.	u	u--------	_	1	AuxK	_	t_417|t_413|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] .
 # sent_id = 58
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_418|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_419|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_420|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_421|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_422|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-6	[0]	[0]	-	---------	_	0	PRED	_	e_35|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_423|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_418|e_35|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_419|e_35|ref=Artemidori Geographia (Epitome Marciani)_1.5.14
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_420|t_419|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_421|t_422|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_422|e_35|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+6	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_423|e_35|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = Τὸ ἐθνικὸν Ξουχίτης [0] .
 # sent_id = 59
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_424|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	ἐθνικὸν	ἐθνικός	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_425|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	Ξουχίτης	ξουχίτης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_426|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	[0]	[0]	-	---------	_	0	PRED	_	e_36|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	.	.	u	u--------	_	4	AuxK	_	t_427|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_424|t_425|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	ἐθνικὸν	ἐθνικός	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_425|e_36|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	Ξουχίτης	ξουχίτης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_426|e_36|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	.	.	u	u--------	_	4	AuxK	_	t_427|e_36|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = 17 .
 # sent_id = 60
-1	17	17	x	x--------	_	0	AuxG	_	t_428|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	.	.	u	u--------	_	1	AuxK	_	t_429|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	17	17	x	x--------	_	0	AuxG	_	t_428|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	.	.	u	u--------	_	1	AuxK	_	t_429|t_428|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = Λαοδαμάντεια , νῆσος ἐν Λιβύῃ [0] .
 # sent_id = 61
-1	Λαοδαμάντεια	λαοδάμαντις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_430|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	,	,	u	u--------	_	6	AuxX	_	t_431|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	νῆσος	νῆσος	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_432|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_433|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-5	Λιβύῃ	λιβύη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_434|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-6	[0]	[0]	-	---------	_	0	PRED	_	e_37|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_435|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	Λαοδαμάντεια	λαοδάμαντις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_430|e_37|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	,	,	u	u--------	_	6	AuxX	_	t_431|e_37|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	νῆσος	νῆσος	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_432|e_37|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_433|e_37|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+5	Λιβύῃ	λιβύη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_434|t_433|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+6	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_435|e_37|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ τῶν ἕνδεκα [0] .
 # sent_id = 62
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_436|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_437|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_438|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_439|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_440|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-6	[0]	[0]	-	---------	_	0	PRED	_	e_38|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-7	.	.	u	u--------	_	6	AuxK	_	t_441|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_436|e_38|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_437|e_38|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_438|t_437|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_439|t_440|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+5	ἕνδεκα	ἕνδεκα	m	m--------	_	6	OBJ	_	t_440|e_38|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+6	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+7	.	.	u	u--------	_	6	AuxK	_	t_441|e_38|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15-2.7.16
 # text = Ἐκαλεῖτο δὲ καὶ Λαομεδόντεια , ἴσως ἀπὸ Λαομέδοντος τοῦ Τρωός .
 # sent_id = 63
-1	Ἐκαλεῖτο	καλέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_442|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_443|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	καὶ	καί	d	d--------	_	1	AuxZ	_	t_444|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-4	Λαομεδόντεια	λαομεδόντεια	n	n-s---fn-	Case=n|Gender=f|Number=s	1	PNOM	_	t_445|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-5	,	,	u	u--------	_	1	AuxX	_	t_446|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-6	ἴσως	ἴσως	d	d--------	_	1	ADV	_	t_447|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-7	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_448|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-8	Λαομέδοντος	λαομέδων	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_449|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_450|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-10	Τρωός	τρώς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_451|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-11	.	.	u	u--------	_	1	AuxK	_	t_452|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+1	Ἐκαλεῖτο	καλέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_442|0|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_443|t_442|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	καὶ	καί	d	d--------	_	1	AuxZ	_	t_444|t_442|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+4	Λαομεδόντεια	λαομεδόντεια	n	n-s---fn-	Case=n|Gender=f|Number=s	1	PNOM	_	t_445|t_442|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+5	,	,	u	u--------	_	1	AuxX	_	t_446|t_442|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+6	ἴσως	ἴσως	d	d--------	_	1	ADV	_	t_447|t_442|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+7	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_448|t_442|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+8	Λαομέδοντος	λαομέδων	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_449|t_448|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_450|t_449|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+10	Τρωός	τρώς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_451|t_449|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+11	.	.	u	u--------	_	1	AuxK	_	t_452|t_442|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.16
 # text = Τὸ ἐθνικὸν ἀμφότερον Λαομεδοντίτης καὶ Λαοδαμαντίτης [0] .
 # sent_id = 64
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_453|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-2	ἐθνικὸν	ἐθνικός	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_454|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-3	ἀμφότερον	ἀμφότερος	a	a-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_455|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-4	Λαομεδοντίτης	λαομεδοντίτης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_456|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-5	καὶ	καί	c	c--------	_	7	COORD	_	t_457|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-6	Λαοδαμαντίτης	λαοδαμαντιώτης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_458|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-7	[0]	[0]	-	---------	_	0	PRED	_	e_39|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-8	.	.	u	u--------	_	7	AuxK	_	t_459|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_453|t_454|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+2	ἐθνικὸν	ἐθνικός	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_454|e_39|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+3	ἀμφότερον	ἀμφότερος	a	a-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_455|t_454|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+4	Λαομεδοντίτης	λαομεδοντίτης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_456|t_457|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_457|e_39|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+6	Λαοδαμαντίτης	λαοδαμαντιώτης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_458|t_457|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+7	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+8	.	.	u	u--------	_	7	AuxK	_	t_459|e_39|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.16
 # text = 18 .
 # sent_id = 65
-1	18	18	x	x--------	_	0	AuxG	_	t_460|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-2	.	.	u	u--------	_	1	AuxK	_	t_461|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+1	18	18	x	x--------	_	0	AuxG	_	t_460|0|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+2	.	.	u	u--------	_	1	AuxK	_	t_461|t_460|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 1.5.15-2.7.17
 # text = Δῶρος , πόλις Φοινίκης [0] .
 # sent_id = 66
-1	Δῶρος	δῶρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_462|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-2	,	,	u	u--------	_	5	AuxX	_	t_463|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-3	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_464|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-4	Φοινίκης	φοινίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_465|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-5	[0]	[0]	-	---------	_	0	PRED	_	e_40|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	.	.	u	u--------	_	5	AuxK	_	t_466|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+1	Δῶρος	δῶρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_462|e_40|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+2	,	,	u	u--------	_	5	AuxX	_	t_463|e_40|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+3	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_464|e_40|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+4	Φοινίκης	φοινίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_465|t_464|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+5	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	.	.	u	u--------	_	5	AuxK	_	t_466|e_40|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.17
 # text = Ἑκαταῖος Ἀσίᾳ [0] ·
 # sent_id = 67
-1	Ἑκαταῖος	ἑκαταῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_467|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-2	Ἀσίᾳ	ἀσία	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_468|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-3	[0]	[0]	-	---------	_	0	PRED	_	e_41|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-4	·	·	u	u--------	_	3	AuxK	_	t_469|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+1	Ἑκαταῖος	ἑκαταῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_467|e_41|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+2	Ἀσίᾳ	ἀσία	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_468|t_467|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+3	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+4	·	·	u	u--------	_	3	AuxK	_	t_469|e_41|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.17
 # text = « Μετὰ δὲ ἡ πάλαι Δῶρος [0] ·
 # sent_id = 68
-1	«	«	u	u--------	_	3	AuxG	_	t_470|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-2	Μετὰ	μετά	r	r--------	_	7	AuxZ	_	t_471|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	δὲ	δέ	g	g--------	_	0	COORD	_	t_472|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-4	ἡ	ὁ	p	p-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_473|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-5	πάλαι	πάλαι	d	d--------	_	7	ADV	_	t_474|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-6	Δῶρος	δῶρος	n	n-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_475|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-7	[0]	[0]	-	---------	_	3	PRED	_	e_42|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-8	·	·	u	u--------	_	3	AuxK	_	t_476|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+1	«	«	u	u--------	_	3	AuxG	_	t_470|t_472|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+2	Μετὰ	μετά	r	r--------	_	7	AuxZ	_	t_471|e_42|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	δὲ	δέ	g	g--------	_	0	COORD	_	t_472|0|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+4	ἡ	ὁ	p	p-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_473|e_42|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+5	πάλαι	πάλαι	d	d--------	_	7	ADV	_	t_474|e_42|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+6	Δῶρος	δῶρος	n	n-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_475|e_42|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+7	[0]	[0]	-	---------	_	3	PRED	_	e_42|t_472|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+8	·	·	u	u--------	_	3	AuxK	_	t_476|t_472|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.17
 # text = νῦν δὲ Δῶρα καλεῖται . »
 # sent_id = 69
-1	νῦν	νῦν	d	d--------	_	4	ADV	_	t_477|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_478|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
-3	Δῶρα	δῶρον	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_479|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-4	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_480|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-5	.	.	u	u--------	_	4	AuxK	_	t_481|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-6	»	»	u	u--------	_	4	AuxK	_	t_482|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+1	νῦν	νῦν	d	d--------	_	4	ADV	_	t_477|t_480|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_478|t_480|ref=Artemidori Geographia (Epitome Marciani)_1.5.15
+3	Δῶρα	δῶρον	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_479|t_480|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+4	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_480|0|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+5	.	.	u	u--------	_	4	AuxK	_	t_481|t_480|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+6	»	»	u	u--------	_	4	AuxK	_	t_482|t_480|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.17
 # text = Καὶ Ἀρτεμίδωρος Δῶρα τὴν πόλιν οἶδεν ἐν Ἐπιτομῆ τῶν ια΄ ·
 # sent_id = 70
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_483|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-2	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_484|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-3	Δῶρα	δῶρον	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ATR	_	t_485|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_486|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-5	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_487|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-6	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	1	PRED	_	t_488|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_489|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-8	Ἐπιτομῆ	ἐπιτομή	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_490|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-9	τῶν	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_491|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-10	ια΄	ια ́	a	a-p---na-	_	8	ATR	_	t_492|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-11	·	·	u	u--------	_	6	AuxK	_	t_493|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_483|0|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+2	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_484|t_488|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+3	Δῶρα	δῶρον	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ATR	_	t_485|t_484|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_486|t_487|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+5	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_487|t_488|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+6	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	1	PRED	_	t_488|t_483|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_489|t_488|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+8	Ἐπιτομῆ	ἐπιτομή	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_490|t_489|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+9	τῶν	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_491|t_490|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+10	ια΄	ια ́	a	a-p---na-	_	8	ATR	_	t_492|t_490|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+11	·	·	u	u--------	_	6	AuxK	_	t_493|t_488|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.17-3.9.18
 # text = « Συνεχῶς δʼ ἐστὶ Στράτωνος πύργος , εἶτα ἔνι Δῶρα , ἐπὶ χερσονησοειδοῦς τόπου κείμενον πολισμάτιον , ἐρχομένου τοῦ ὄρους τοῦ Καρμήλου [0] .
 # sent_id = 71
-1	«	«	u	u--------	_	3	AuxG	_	t_494|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-2	Συνεχῶς	συνεχής	d	d--------	_	4	ADV	_	t_495|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-3	δʼ	δέ	g	g--------	_	0	COORD	_	t_496|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	PRED	_	t_497|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
-5	Στράτωνος	στράτων	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_498|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-6	πύργος	πύργος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_499|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-7	,	,	u	u--------	_	4	COORD	_	t_500|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-8	εἶτα	εἶτα	d	d--------	_	4	ADV	_	t_501|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-9	ἔνι	ἐν	r	r--------	_	23	AuxP	_	t_502|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-10	Δῶρα	δῶρον	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_503|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-11	,	,	u	u--------	_	4	APOS	_	t_504|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-12	ἐπὶ	ἐπί	r	r--------	_	15	AuxP	_	t_505|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-13	χερσονησοειδοῦς	χερσονησοειδής	a	a-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_506|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-14	τόπου	τόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_507|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-15	κείμενον	κεῖμαι	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	16	ATR	_	t_508|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-16	πολισμάτιον	πόλισμα	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_509|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-17	,	,	u	u--------	_	18	AuxX	_	t_510|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-18	ἐρχομένου	ἔρχομαι	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	15	ADV	_	t_511|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_512|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-20	ὄρους	ὄρος	n	n-s---ng-	Case=g|Gender=n|Number=s	18	SBJ	_	t_513|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	22	ATR	_	t_514|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-22	Καρμήλου	καρμήλον	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_515|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-23	[0]	[0]	-	---------	_	7	PRED	_	e_43|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-24	.	.	u	u--------	_	3	AuxK	_	t_516|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	«	«	u	u--------	_	3	AuxG	_	t_494|t_496|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+2	Συνεχῶς	συνεχής	d	d--------	_	4	ADV	_	t_495|t_497|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+3	δʼ	δέ	g	g--------	_	0	COORD	_	t_496|0|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	PRED	_	t_497|t_496|ref=Artemidori Geographia (Epitome Marciani)_2.7.16
+5	Στράτωνος	στράτων	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_498|t_499|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+6	πύργος	πύργος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_499|t_497|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+7	,	,	u	u--------	_	4	COORD	_	t_500|t_497|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+8	εἶτα	εἶτα	d	d--------	_	4	ADV	_	t_501|t_497|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+9	ἔνι	ἐν	r	r--------	_	23	AuxP	_	t_502|e_43|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+10	Δῶρα	δῶρον	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_503|t_504|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+11	,	,	u	u--------	_	4	APOS	_	t_504|t_497|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+12	ἐπὶ	ἐπί	r	r--------	_	15	AuxP	_	t_505|t_508|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+13	χερσονησοειδοῦς	χερσονησοειδής	a	a-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_506|t_507|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+14	τόπου	τόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_507|t_509|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+15	κείμενον	κεῖμαι	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	16	ATR	_	t_508|t_509|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+16	πολισμάτιον	πόλισμα	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_509|t_504|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+17	,	,	u	u--------	_	18	AuxX	_	t_510|t_511|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+18	ἐρχομένου	ἔρχομαι	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	15	ADV	_	t_511|t_508|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_512|t_513|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+20	ὄρους	ὄρος	n	n-s---ng-	Case=g|Gender=n|Number=s	18	SBJ	_	t_513|t_511|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	22	ATR	_	t_514|t_515|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+22	Καρμήλου	καρμήλον	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_515|t_513|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+23	[0]	[0]	-	---------	_	7	PRED	_	e_43|t_500|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+24	.	.	u	u--------	_	3	AuxK	_	t_516|t_496|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 2.7.17-3.9.18
 # text = Καὶ ἐν θ΄ Γεωγραφουμένων τὸ αὐτό [0] .
 # sent_id = 72
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_517|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
-2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_518|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	θ΄	θʼ	d	d--------	_	7	AuxY	_	t_519|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	Γεωγραφουμένων	γεωγραφέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	2	ADV	_	t_520|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_521|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-6	αὐτό	αὐτός	p	p-s---nn-	Case=a|Gender=n|Number=s	7	OBJ	_	t_522|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-7	[0]	[0]	-	---------	_	1	PRED	_	e_44|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-8	.	.	u	u--------	_	1	AuxK	_	t_523|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_517|0|ref=Artemidori Geographia (Epitome Marciani)_2.7.17
+2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_518|e_44|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	θ΄	θʼ	d	d--------	_	7	AuxY	_	t_519|e_44|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	Γεωγραφουμένων	γεωγραφέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	2	ADV	_	t_520|t_518|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_521|t_522|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+6	αὐτό	αὐτός	p	p-s---nn-	Case=a|Gender=n|Number=s	7	OBJ	_	t_522|e_44|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+7	[0]	[0]	-	---------	_	1	PRED	_	e_44|t_517|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+8	.	.	u	u--------	_	1	AuxK	_	t_523|t_517|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = 19 .
 # sent_id = 73
-1	19	19	x	x--------	_	0	AuxG	_	t_524|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	.	.	u	u--------	_	1	AuxK	_	t_525|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	19	19	x	x--------	_	0	AuxG	_	t_524|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	.	.	u	u--------	_	1	AuxK	_	t_525|t_524|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = Πάλτος .
 # sent_id = 74
-1	Πάλτος	πάλτος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_526|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	.	.	u	u--------	_	1	AuxK	_	t_527|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	Πάλτος	πάλτος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_526|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	.	.	u	u--------	_	1	AuxK	_	t_527|t_526|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = πόλις Συρίας .
 # sent_id = 75
-1	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_528|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	Συρίας	συρία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_529|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	.	.	u	u--------	_	1	AuxK	_	t_530|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_528|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	Συρίας	συρία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_529|t_528|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	.	.	u	u--------	_	1	AuxK	_	t_530|t_528|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ [0] .
 # sent_id = 76
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_531|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_532|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_533|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	[0]	[0]	-	---------	_	0	PRED	_	e_45|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	.	.	u	u--------	_	4	AuxK	_	t_534|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_531|e_45|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_532|e_45|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_533|t_532|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	.	.	u	u--------	_	4	AuxK	_	t_534|e_45|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = 20 .
 # sent_id = 77
-1	20	2	u	u--------	_	0	AuxG	_	t_535|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	.	.	u	u--------	_	1	AuxK	_	t_536|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	20	2	u	u--------	_	0	AuxG	_	t_535|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	.	.	u	u--------	_	1	AuxK	_	t_536|t_535|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = Κρύα , πόλις Λυκίας .
 # sent_id = 78
-1	Κρύα	κρύος	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_537|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	,	,	u	u--------	_	1	AuxX	_	t_538|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	1	APOS	_	t_539|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	Λυκίας	λυκία	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_540|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-5	.	.	u	u--------	_	1	AuxK	_	t_541|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	Κρύα	κρύος	n	n-s---fn-	Case=n|Gender=f|Number=s	0	ExD	_	t_537|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	,	,	u	u--------	_	1	AuxX	_	t_538|t_537|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	1	APOS	_	t_539|t_537|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	Λυκίας	λυκία	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_540|t_539|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+5	.	.	u	u--------	_	1	AuxK	_	t_541|t_537|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῆς πρώτῳ [0] .
 # sent_id = 79
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_542|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_543|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	Ἐπιτομῆς	ἐπιτομή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_544|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	πρώτῳ	πρῶτος	a	a-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_545|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-5	[0]	[0]	-	---------	_	0	PRED	_	e_46|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	.	.	u	u--------	_	5	AuxK	_	t_546|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_542|e_46|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_543|e_46|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	Ἐπιτομῆς	ἐπιτομή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_544|t_545|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	πρώτῳ	πρῶτος	a	a-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_545|t_543|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+5	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	.	.	u	u--------	_	5	AuxK	_	t_546|e_46|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = τὸ ἐθνικὸν Κρυεύς [0] ·
 # sent_id = 80
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_547|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	ἐθνικὸν	ἐθνικός	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_548|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	Κρυεύς	κρυεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_549|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	[0]	[0]	-	---------	_	0	PRED	_	e_47|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	·	·	u	u--------	_	4	AuxK	_	t_550|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_547|t_548|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	ἐθνικὸν	ἐθνικός	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_548|e_47|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	Κρυεύς	κρυεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_549|e_47|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	·	·	u	u--------	_	4	AuxK	_	t_550|e_47|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = « Εἰσὶ δὲ καὶ νῆσοι Κρυέων , Κάρυσις καὶ Ἄλινα . »
 # sent_id = 81
-1	«	«	u	u--------	_	0	AuxG	_	t_551|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	Εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	PRED	_	t_552|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	δὲ	δέ	g	g--------	_	1	COORD	_	t_553|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_554|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-5	νῆσοι	νῆσος	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_555|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-6	Κρυέων	κρυεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_556|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-7	,	,	u	u--------	_	2	APOS	_	t_557|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-8	Κάρυσις	κάρυον	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_558|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-9	καὶ	καί	c	c--------	_	7	COORD	_	t_559|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-10	Ἄλινα	ἄλινα	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_560|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-11	.	.	u	u--------	_	1	AuxK	_	t_561|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-12	»	»	u	u--------	_	3	AuxG	_	t_562|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	«	«	u	u--------	_	0	AuxG	_	t_551|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	Εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	PRED	_	t_552|t_553|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	δὲ	δέ	g	g--------	_	1	COORD	_	t_553|t_551|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_554|t_555|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+5	νῆσοι	νῆσος	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_555|t_557|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+6	Κρυέων	κρυεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_556|t_555|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+7	,	,	u	u--------	_	2	APOS	_	t_557|t_552|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+8	Κάρυσις	κάρυον	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_558|t_559|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+9	καὶ	καί	c	c--------	_	7	COORD	_	t_559|t_557|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+10	Ἄλινα	ἄλινα	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_560|t_559|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+11	.	.	u	u--------	_	1	AuxK	_	t_561|t_551|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+12	»	»	u	u--------	_	3	AuxG	_	t_562|t_553|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18
 # text = 21 .
 # sent_id = 82
-1	21	21	x	x--------	_	0	AuxG	_	t_563|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	.	.	u	u--------	_	1	AuxK	_	t_564|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+1	21	21	x	x--------	_	0	AuxG	_	t_563|0|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	.	.	u	u--------	_	1	AuxK	_	t_564|t_563|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.9.18-3.10.19
 # text = Θεμισώνιον , χωρίον Φρυγίας [0] .
 # sent_id = 83
-1	Θεμισώνιον	θεμισώνιος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_565|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-2	,	,	u	u--------	_	5	AuxX	_	t_566|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-3	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_567|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	Φρυγίας	φρυγία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_568|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-5	[0]	[0]	-	---------	_	0	PRED	_	e_48|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-6	.	.	u	u--------	_	5	AuxK	_	t_569|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+1	Θεμισώνιον	θεμισώνιος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_565|e_48|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+2	,	,	u	u--------	_	5	AuxX	_	t_566|e_48|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+3	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_567|e_48|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	Φρυγίας	φρυγία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_568|t_567|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+5	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+6	.	.	u	u--------	_	5	AuxK	_	t_569|e_48|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.10.19
 # text = Ἀρτεμίδωρος ἐν Ἐπιτομῇ [0] .
 # sent_id = 84
-1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_570|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_571|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_572|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-4	[0]	[0]	-	---------	_	0	PRED	_	e_49|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
-5	.	.	u	u--------	_	4	AuxK	_	t_573|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+1	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_570|e_49|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_571|e_49|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+3	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_572|t_571|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+4	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=Artemidori Geographia (Epitome Marciani)_1.1.2
+5	.	.	u	u--------	_	4	AuxK	_	t_573|e_49|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.10.19
 # text = 22 .
 # sent_id = 85
-1	22	22	x	x--------	_	0	AuxG	_	t_574|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-2	.	.	u	u--------	_	1	AuxK	_	t_575|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+1	22	22	x	x--------	_	0	AuxG	_	t_574|0|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+2	.	.	u	u--------	_	1	AuxK	_	t_575|t_574|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.10.19-3.10.20
 # text = Περὶ τῆς Κασπίας θαλάσσης ἱστορεῖ Ἀρτεμίδωρος ἐν τῇ Ἐπιτομῇ τῶν Γεωγραφουμένων .
 # sent_id = 86
-1	Περὶ	περί	r	r--------	_	5	AuxP	_	t_576|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_577|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-3	Κασπίας	κάσπιος	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_578|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_579|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
-5	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_580|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-6	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_581|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-7	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_582|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_583|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-9	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_584|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_585|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-11	Γεωγραφουμένων	γεωγραφέω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_586|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-12	.	.	u	u--------	_	5	AuxK	_	t_587|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+1	Περὶ	περί	r	r--------	_	5	AuxP	_	t_576|t_580|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_577|t_579|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+3	Κασπίας	κάσπιος	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_578|t_579|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_579|t_576|ref=Artemidori Geographia (Epitome Marciani)_3.10.19
+5	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_580|0|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+6	Ἀρτεμίδωρος	ἀρτεμίδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_581|t_580|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+7	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_582|t_580|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_583|t_584|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+9	Ἐπιτομῇ	ἐπιτομή	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_584|t_582|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_585|t_586|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+11	Γεωγραφουμένων	γεωγραφέω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_586|t_584|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+12	.	.	u	u--------	_	5	AuxK	_	t_587|t_580|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.10.20
 # text = Ἔστο δὲ πλησίον τοῦ ὠκεανοῦ ·
 # sent_id = 87
-1	Ἔστο	εἰμί	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	2	PRED	_	t_588|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_589|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-3	πλησίον	πλησίος	r	r--------	_	1	ADV	_	t_590|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_591|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-5	ὠκεανοῦ	ὠκεανός	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_592|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-6	·	·	u	u--------	_	2	AuxK	_	t_593|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+1	Ἔστο	εἰμί	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	2	PRED	_	t_588|t_589|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_589|0|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+3	πλησίον	πλησίος	r	r--------	_	1	ADV	_	t_590|t_588|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_591|t_592|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+5	ὠκεανοῦ	ὠκεανός	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_592|t_590|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+6	·	·	u	u--------	_	2	AuxK	_	t_593|t_589|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
 
 # source = Marcianus, of Heraclea, Artemidori Geographia (Epitome Marciani) 3.10.20
 # text = ᾗ παράκειται ἔθνος ὠνομασμένον Κάσπιον , ὅμορον δὲ Πέρσαις .
 # sent_id = 88
-1	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_594|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-2	παράκειται	παράκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_595|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-3	ἔθνος	ἔθνος	n	n-s---nn-	Case=n|Gender=n|Number=s	2	SBJ	_	t_596|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
-4	ὠνομασμένον	ὀνομάζω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	8	ATR	_	t_597|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-5	Κάσπιον	κάσπιος	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_598|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-6	,	,	u	u--------	_	2	AuxX	_	t_599|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-7	ὅμορον	ὅμορος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_600|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-8	δὲ	δέ	c	c--------	_	3	COORD	_	t_601|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-9	Πέρσαις	πέρσης	n	n-p---md-	Case=d|Gender=m|Number=p	7	ADV	_	t_602|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
-10	.	.	u	u--------	_	2	AuxK	_	t_603|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+1	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_594|t_595|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+2	παράκειται	παράκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_595|0|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+3	ἔθνος	ἔθνος	n	n-s---nn-	Case=n|Gender=n|Number=s	2	SBJ	_	t_596|t_595|ref=Artemidori Geographia (Epitome Marciani)_3.9.18
+4	ὠνομασμένον	ὀνομάζω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	8	ATR	_	t_597|t_601|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+5	Κάσπιον	κάσπιος	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_598|t_597|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+6	,	,	u	u--------	_	2	AuxX	_	t_599|t_595|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+7	ὅμορον	ὅμορος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_600|t_601|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+8	δὲ	δέ	c	c--------	_	3	COORD	_	t_601|t_596|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+9	Πέρσαις	πέρσης	n	n-p---md-	Case=d|Gender=m|Number=p	7	ADV	_	t_602|t_600|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
+10	.	.	u	u--------	_	2	AuxK	_	t_603|t_595|ref=Artemidori Geographia (Epitome Marciani)_3.10.20
 

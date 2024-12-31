@@ -1,834 +1,834 @@
-# source = Hippocrates, De dentitione 1
+# source = Hippocrates, dent. 1
 # text = ΠΕΡΙ ΟΔΟΝΤΟΦΥΙΗΣ .
 # sent_id = 1
-1	ΠΕΡΙ	περί	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1|ref=De dentitione_1
-2	ΟΔΟΝΤΟΦΥΙΗΣ	οδοντοφυια	n	n-s---mn-	Case=n|Gender=m|Number=s	1	APOS	_	t_2|ref=De dentitione_1
-3	.	.	u	u--------	_	1	AuxK	_	t_3|ref=De dentitione_1
+1	ΠΕΡΙ	περί	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1|0|ref=dent._1
+2	ΟΔΟΝΤΟΦΥΙΗΣ	οδοντοφυια	n	n-s---mn-	Case=n|Gender=m|Number=s	1	APOS	_	t_2|t_1|ref=dent._1
+3	.	.	u	u--------	_	1	AuxK	_	t_3|t_1|ref=dent._1
 
-# source = Hippocrates, De dentitione 1
+# source = Hippocrates, dent. 1
 # text = 1 .
 # sent_id = 2
-1	1	1	u	u--------	_	0	AuxG	_	t_4|ref=De dentitione_1
-2	.	.	u	u--------	_	1	AuxK	_	t_5|ref=De dentitione_1
+1	1	1	u	u--------	_	0	AuxG	_	t_4|0|ref=dent._1
+2	.	.	u	u--------	_	1	AuxK	_	t_5|t_4|ref=dent._1
 
-# source = Hippocrates, De dentitione 1
+# source = Hippocrates, dent. 1
 # text = Τὰ φύσει εὔτροφα τῶν παιδίων οὐκ ἀνάλογον τῆς σαρκώσεως καὶ τὸ γάλα θηλάζει [0] .
 # sent_id = 3
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_6|ref=De dentitione_1
-2	φύσει	φύσις	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_7|ref=De dentitione_1
-3	εὔτροφα	εὔτροφος	a	a-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_8|ref=De dentitione_1
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_9|ref=De dentitione_1
-5	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_10|ref=De dentitione_1
-6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_11|ref=De dentitione_1
-7	ἀνάλογον	ἀνάλογος	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_12|ref=De dentitione_1
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_13|ref=De dentitione_1
-9	σαρκώσεως	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_14|ref=De dentitione_1
-10	καὶ	καί	c	c--------	_	0	COORD	_	t_15|ref=De dentitione_1
-11	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_16|ref=De dentitione_1
-12	γάλα	γάλα	n	n-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_17|ref=De dentitione_1
-13	θηλάζει	θηλάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_18|ref=De dentitione_1
-14	[0]	[0]	-	---------	_	10	PRED	_	e_1|ref=De dentitione_1
-15	.	.	u	u--------	_	10	AuxK	_	t_19|ref=De dentitione_1
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_6|t_8|ref=dent._1
+2	φύσει	φύσις	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_7|t_8|ref=dent._1
+3	εὔτροφα	εὔτροφος	a	a-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_8|e_1|ref=dent._1
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_9|t_10|ref=dent._1
+5	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_10|t_8|ref=dent._1
+6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_11|t_12|ref=dent._1
+7	ἀνάλογον	ἀνάλογος	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_12|e_1|ref=dent._1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_13|t_14|ref=dent._1
+9	σαρκώσεως	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_14|t_12|ref=dent._1
+10	καὶ	καί	c	c--------	_	0	COORD	_	t_15|0|ref=dent._1
+11	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_16|t_17|ref=dent._1
+12	γάλα	γάλα	n	n-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_17|t_18|ref=dent._1
+13	θηλάζει	θηλάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_18|t_15|ref=dent._1
+14	[0]	[0]	-	---------	_	10	PRED	_	e_1|t_15|ref=dent._1
+15	.	.	u	u--------	_	10	AuxK	_	t_19|t_15|ref=dent._1
 
-# source = Hippocrates, De dentitione 1-2
+# source = Hippocrates, dent. 1-2
 # text = 2 .
 # sent_id = 4
-1	2	2	u	u--------	_	0	AuxG	_	t_20|ref=De dentitione_1
-2	.	.	u	u--------	_	1	AuxK	_	t_21|ref=De dentitione_2
+1	2	2	u	u--------	_	0	AuxG	_	t_20|0|ref=dent._1
+2	.	.	u	u--------	_	1	AuxK	_	t_21|t_20|ref=dent._2
 
-# source = Hippocrates, De dentitione 2
+# source = Hippocrates, dent. 2
 # text = Τὰ βορὰ καὶ πολὺ ἕλκοντα γάλα οὐ πρὸς λόγον σαρκοῦται .
 # sent_id = 5
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_22|ref=De dentitione_2
-2	βορὰ	βορά	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_23|ref=De dentitione_2
-3	καὶ	καί	c	c--------	_	10	COORD	_	t_24|ref=De dentitione_2
-4	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_25|ref=De dentitione_2
-5	ἕλκοντα	ἕλκω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_26|ref=De dentitione_2
-6	γάλα	γάλα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_27|ref=De dentitione_2
-7	οὐ	οὐ	d	d--------	_	10	AuxZ	_	t_28|ref=De dentitione_2
-8	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_29|ref=De dentitione_2
-9	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	ADV	_	t_30|ref=De dentitione_2
-10	σαρκοῦται	σαρκόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_31|ref=De dentitione_2
-11	.	.	u	u--------	_	10	AuxK	_	t_32|ref=De dentitione_2
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_22|t_23|ref=dent._2
+2	βορὰ	βορά	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_23|t_24|ref=dent._2
+3	καὶ	καί	c	c--------	_	10	COORD	_	t_24|t_31|ref=dent._2
+4	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_25|t_26|ref=dent._2
+5	ἕλκοντα	ἕλκω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_26|t_24|ref=dent._2
+6	γάλα	γάλα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_27|t_24|ref=dent._2
+7	οὐ	οὐ	d	d--------	_	10	AuxZ	_	t_28|t_31|ref=dent._2
+8	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_29|t_31|ref=dent._2
+9	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	ADV	_	t_30|t_29|ref=dent._2
+10	σαρκοῦται	σαρκόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_31|0|ref=dent._2
+11	.	.	u	u--------	_	10	AuxK	_	t_32|t_31|ref=dent._2
 
-# source = Hippocrates, De dentitione 2-3
+# source = Hippocrates, dent. 2-3
 # text = 3 .
 # sent_id = 6
-1	3	3	x	x--------	_	0	AuxG	_	t_33|ref=De dentitione_2
-2	.	.	u	u--------	_	1	AuxK	_	t_34|ref=De dentitione_3
+1	3	3	x	x--------	_	0	AuxG	_	t_33|0|ref=dent._2
+2	.	.	u	u--------	_	1	AuxK	_	t_34|t_33|ref=dent._3
 
-# source = Hippocrates, De dentitione 3
+# source = Hippocrates, dent. 3
 # text = Τὰ πουλὺ διουρέοντα τῶν θηλαζόντων ἥκιστα ἐπιναύσια [0] .
 # sent_id = 7
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_35|ref=De dentitione_3
-2	πουλὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_36|ref=De dentitione_3
-3	διουρέοντα	διουρέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_37|ref=De dentitione_3
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_38|ref=De dentitione_3
-5	θηλαζόντων	θηλάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_39|ref=De dentitione_3
-6	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	7	AuxZ	_	t_40|ref=De dentitione_3
-7	ἐπιναύσια	ἐπιναύσιος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_41|ref=De dentitione_3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=De dentitione_1
-9	.	.	u	u--------	_	8	AuxK	_	t_42|ref=De dentitione_3
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_35|t_37|ref=dent._3
+2	πουλὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_36|t_37|ref=dent._3
+3	διουρέοντα	διουρέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_37|e_2|ref=dent._3
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_38|t_39|ref=dent._3
+5	θηλαζόντων	θηλάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_39|t_37|ref=dent._3
+6	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	7	AuxZ	_	t_40|t_41|ref=dent._3
+7	ἐπιναύσια	ἐπιναύσιος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_41|e_2|ref=dent._3
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=dent._1
+9	.	.	u	u--------	_	8	AuxK	_	t_42|e_2|ref=dent._3
 
-# source = Hippocrates, De dentitione 3
+# source = Hippocrates, dent. 3
 # text = 4 [0] .
 # sent_id = 8
-1	4	4	u	u--------	_	2	AuxK	_	t_43|ref=De dentitione_3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=De dentitione_1
-3	.	.	u	u--------	_	2	AuxK	_	t_44|ref=De dentitione_3
+1	4	4	u	u--------	_	2	AuxK	_	t_43|e_3|ref=dent._3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=dent._1
+3	.	.	u	u--------	_	2	AuxK	_	t_44|e_3|ref=dent._3
 
-# source = Hippocrates, De dentitione 4
+# source = Hippocrates, dent. 4
 # text = Ὁκόσοισι πολλὴ φέρεται ἡ κοιλίη καὶ εὐπεπτοῦσιν , ὑγιεινότερα [0] ·
 # sent_id = 9
-1	Ὁκόσοισι	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_45|ref=De dentitione_4
-2	πολλὴ	πολύς	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_46|ref=De dentitione_3
-3	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_47|ref=De dentitione_4
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_48|ref=De dentitione_4
-5	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_49|ref=De dentitione_4
-6	καὶ	καί	c	c--------	_	0	COORD	_	t_50|ref=De dentitione_4
-7	εὐπεπτοῦσιν	εὐπέτω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_51|ref=De dentitione_4
-8	,	,	u	u--------	_	6	AuxX	_	t_52|ref=De dentitione_4
-9	ὑγιεινότερα	ὑγιεινός	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	10	PNOM	_	t_53|ref=De dentitione_4
-10	[0]	[0]	-	---------	_	6	PRED	_	e_4|ref=De dentitione_1
-11	·	·	u	u--------	_	6	AuxK	_	t_54|ref=De dentitione_4
+1	Ὁκόσοισι	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_45|t_47|ref=dent._4
+2	πολλὴ	πολύς	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_46|t_49|ref=dent._3
+3	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_47|t_50|ref=dent._4
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_48|t_49|ref=dent._4
+5	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_49|t_47|ref=dent._4
+6	καὶ	καί	c	c--------	_	0	COORD	_	t_50|0|ref=dent._4
+7	εὐπεπτοῦσιν	εὐπέτω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_51|e_4|ref=dent._4
+8	,	,	u	u--------	_	6	AuxX	_	t_52|t_50|ref=dent._4
+9	ὑγιεινότερα	ὑγιεινός	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	10	PNOM	_	t_53|e_4|ref=dent._4
+10	[0]	[0]	-	---------	_	6	PRED	_	e_4|t_50|ref=dent._1
+11	·	·	u	u--------	_	6	AuxK	_	t_54|t_50|ref=dent._4
 
-# source = Hippocrates, De dentitione 4
+# source = Hippocrates, dent. 4
 # text = ὁκόσοισιν ὀλίγη , βοροῖσιν ἐοῦσι καὶ μὴ ἀνάλογον τρεφομένοισιν , ἐπίνοσα [0] .
 # sent_id = 10
-1	ὁκόσοισιν	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_55|ref=De dentitione_4
-2	ὀλίγη	ὀλίγος	a	a-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_56|ref=De dentitione_4
-3	,	,	u	u--------	_	6	AuxX	_	t_57|ref=De dentitione_4
-4	βοροῖσιν	βορός	n	n-p---md-	Case=d|Gender=m|Number=p	5	PNOM	_	t_58|ref=De dentitione_4
-5	ἐοῦσι	εἰμί	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_59|ref=De dentitione_4
-6	καὶ	καί	c	c--------	_	1	COORD	_	t_60|ref=De dentitione_4
-7	μὴ	μή	g	g--------	_	8	AuxZ	_	t_61|ref=De dentitione_4
-8	ἀνάλογον	ἀνάλογος	a	a-s---na-	Case=a|Gender=f|Number=s	9	PNOM	_	t_62|ref=De dentitione_4
-9	τρεφομένοισιν	τρέφω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_63|ref=De dentitione_4
-10	,	,	u	u--------	_	9	AuxX	_	t_64|ref=De dentitione_4
-11	ἐπίνοσα	ἐπίνοσος	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_65|ref=De dentitione_4
-12	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=De dentitione_1
-13	.	.	u	u--------	_	12	AuxK	_	t_66|ref=De dentitione_4
+1	ὁκόσοισιν	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_55|t_56|ref=dent._4
+2	ὀλίγη	ὀλίγος	a	a-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_56|e_5|ref=dent._4
+3	,	,	u	u--------	_	6	AuxX	_	t_57|t_60|ref=dent._4
+4	βοροῖσιν	βορός	n	n-p---md-	Case=d|Gender=m|Number=p	5	PNOM	_	t_58|t_59|ref=dent._4
+5	ἐοῦσι	εἰμί	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_59|t_60|ref=dent._4
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_60|t_55|ref=dent._4
+7	μὴ	μή	g	g--------	_	8	AuxZ	_	t_61|t_62|ref=dent._4
+8	ἀνάλογον	ἀνάλογος	a	a-s---na-	Case=a|Gender=f|Number=s	9	PNOM	_	t_62|t_63|ref=dent._4
+9	τρεφομένοισιν	τρέφω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_63|t_60|ref=dent._4
+10	,	,	u	u--------	_	9	AuxX	_	t_64|t_63|ref=dent._4
+11	ἐπίνοσα	ἐπίνοσος	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_65|e_5|ref=dent._4
+12	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=dent._1
+13	.	.	u	u--------	_	12	AuxK	_	t_66|e_5|ref=dent._4
 
-# source = Hippocrates, De dentitione 4
+# source = Hippocrates, dent. 4
 # text = 5 .
 # sent_id = 11
-1	5	5	u	u--------	_	0	AuxG	_	t_67|ref=De dentitione_4
-2	.	.	u	u--------	_	1	AuxK	_	t_68|ref=De dentitione_4
+1	5	5	u	u--------	_	0	AuxG	_	t_67|0|ref=dent._4
+2	.	.	u	u--------	_	1	AuxK	_	t_68|t_67|ref=dent._4
 
-# source = Hippocrates, De dentitione 4-5
+# source = Hippocrates, dent. 4-5
 # text = Ὁκόσοισι δὲ πουλὺ γαλακτῶδες ἀπεμεῖται , κοιλίη ξυνίσταται .
 # sent_id = 12
-1	Ὁκόσοισι	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_69|ref=De dentitione_4
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_70|ref=De dentitione_4
-3	πουλὺ	πολύς	a	a-s---na-	Case=n|Gender=n|Number=s	4	AuxZ	_	t_71|ref=De dentitione_4
-4	γαλακτῶδες	γαλακτικός	a	a-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_72|ref=De dentitione_5
-5	ἀπεμεῖται	ἀπόμνυμι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	PRED	_	t_73|ref=De dentitione_5
-6	,	,	u	u--------	_	2	COORD	_	t_74|ref=De dentitione_5
-7	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_75|ref=De dentitione_5
-8	ξυνίσταται	συνίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_76|ref=De dentitione_5
-9	.	.	u	u--------	_	2	AuxK	_	t_77|ref=De dentitione_5
+1	Ὁκόσοισι	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_69|t_73|ref=dent._4
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_70|0|ref=dent._4
+3	πουλὺ	πολύς	a	a-s---na-	Case=n|Gender=n|Number=s	4	AuxZ	_	t_71|t_72|ref=dent._4
+4	γαλακτῶδες	γαλακτικός	a	a-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_72|t_73|ref=dent._5
+5	ἀπεμεῖται	ἀπόμνυμι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	PRED	_	t_73|t_74|ref=dent._5
+6	,	,	u	u--------	_	2	COORD	_	t_74|t_70|ref=dent._5
+7	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_75|t_76|ref=dent._5
+8	ξυνίσταται	συνίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_76|t_74|ref=dent._5
+9	.	.	u	u--------	_	2	AuxK	_	t_77|t_70|ref=dent._5
 
-# source = Hippocrates, De dentitione 5
+# source = Hippocrates, dent. 5
 # text = 6 .
 # sent_id = 13
-1	6	6	u	u--------	_	0	AuxG	_	t_78|ref=De dentitione_5
-2	.	.	u	u--------	_	1	AuxK	_	t_79|ref=De dentitione_5
+1	6	6	u	u--------	_	0	AuxG	_	t_78|0|ref=dent._5
+2	.	.	u	u--------	_	1	AuxK	_	t_79|t_78|ref=dent._5
 
-# source = Hippocrates, De dentitione 5-6
+# source = Hippocrates, dent. 5-6
 # text = Ὁκόσοισιν ἐν ὀδοντοφυίῃ ἡ κοιλίη πλείω ὑπάγει , ἧσσον σπᾶται ἢ ὅτῳ ὁλιγάκις [0] .
 # sent_id = 14
-1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_80|ref=De dentitione_5
-2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_81|ref=De dentitione_5
-3	ὀδοντοφυίῃ	ὀδοντοφυία	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_82|ref=De dentitione_5
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_83|ref=De dentitione_6
-5	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_84|ref=De dentitione_6
-6	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	7	OBJ	_	t_85|ref=De dentitione_6
-7	ὑπάγει	ὑπάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_86|ref=De dentitione_6
-8	,	,	u	u--------	_	0	COORD	_	t_87|ref=De dentitione_6
-9	ἧσσον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	10	ADV	_	t_88|ref=De dentitione_6
-10	σπᾶται	σπάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	8	PRED	_	t_89|ref=De dentitione_6
-11	ἢ	ἤ1	c	c--------	_	9	AuxC	_	t_90|ref=De dentitione_6
-12	ὅτῳ	ὅστις	p	p-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_91|ref=De dentitione_6
-13	ὁλιγάκις	ὁλιγάκις	d	d--------	_	14	ADV	_	t_92|ref=De dentitione_6
-14	[0]	[0]	-	---------	_	11	ADV	_	e_6|ref=De dentitione_1
-15	.	.	u	u--------	_	8	AuxK	_	t_93|ref=De dentitione_6
+1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_80|t_86|ref=dent._5
+2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_81|t_86|ref=dent._5
+3	ὀδοντοφυίῃ	ὀδοντοφυία	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_82|t_81|ref=dent._5
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_83|t_84|ref=dent._6
+5	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_84|t_86|ref=dent._6
+6	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	7	OBJ	_	t_85|t_86|ref=dent._6
+7	ὑπάγει	ὑπάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_86|t_87|ref=dent._6
+8	,	,	u	u--------	_	0	COORD	_	t_87|0|ref=dent._6
+9	ἧσσον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	10	ADV	_	t_88|t_89|ref=dent._6
+10	σπᾶται	σπάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	8	PRED	_	t_89|t_87|ref=dent._6
+11	ἢ	ἤ1	c	c--------	_	9	AuxC	_	t_90|t_88|ref=dent._6
+12	ὅτῳ	ὅστις	p	p-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_91|e_6|ref=dent._6
+13	ὁλιγάκις	ὁλιγάκις	d	d--------	_	14	ADV	_	t_92|e_6|ref=dent._6
+14	[0]	[0]	-	---------	_	11	ADV	_	e_6|t_90|ref=dent._1
+15	.	.	u	u--------	_	8	AuxK	_	t_93|t_87|ref=dent._6
 
-# source = Hippocrates, De dentitione 6
+# source = Hippocrates, dent. 6
 # text = 7 [0] .
 # sent_id = 15
-1	7	7	u	u--------	_	2	AuxG	_	t_94|ref=De dentitione_6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=De dentitione_1
-3	.	.	u	u--------	_	2	AuxK	_	t_95|ref=De dentitione_6
+1	7	7	u	u--------	_	2	AuxG	_	t_94|e_7|ref=dent._6
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=dent._1
+3	.	.	u	u--------	_	2	AuxK	_	t_95|e_7|ref=dent._6
 
-# source = Hippocrates, De dentitione 6-7
+# source = Hippocrates, dent. 6-7
 # text = Ὁκόσοισιν ἐπὶ ὀδοντοφυίῃ πυρετὸς ὀξὺς ἐπιγίγνεται , ὀλιγάκις σπῶνται .
 # sent_id = 16
-1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_96|ref=De dentitione_6
-2	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_97|ref=De dentitione_6
-3	ὀδοντοφυίῃ	ὀδοντοφυία	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_98|ref=De dentitione_6
-4	πυρετὸς	πυρετός	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_99|ref=De dentitione_6
-5	ὀξὺς	ὀξύς	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_100|ref=De dentitione_7
-6	ἐπιγίγνεται	ἐπιγίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_101|ref=De dentitione_6
-7	,	,	u	u--------	_	0	COORD	_	t_102|ref=De dentitione_7
-8	ὀλιγάκις	ὀλιγάκις	d	d--------	_	9	ADV	_	t_103|ref=De dentitione_7
-9	σπῶνται	σπάω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	PRED	_	t_104|ref=De dentitione_7
-10	.	.	u	u--------	_	7	AuxK	_	t_105|ref=De dentitione_7
+1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_96|t_101|ref=dent._6
+2	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_97|t_101|ref=dent._6
+3	ὀδοντοφυίῃ	ὀδοντοφυία	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_98|t_97|ref=dent._6
+4	πυρετὸς	πυρετός	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_99|t_101|ref=dent._6
+5	ὀξὺς	ὀξύς	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_100|t_99|ref=dent._7
+6	ἐπιγίγνεται	ἐπιγίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_101|t_102|ref=dent._6
+7	,	,	u	u--------	_	0	COORD	_	t_102|0|ref=dent._7
+8	ὀλιγάκις	ὀλιγάκις	d	d--------	_	9	ADV	_	t_103|t_104|ref=dent._7
+9	σπῶνται	σπάω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	PRED	_	t_104|t_102|ref=dent._7
+10	.	.	u	u--------	_	7	AuxK	_	t_105|t_102|ref=dent._7
 
-# source = Hippocrates, De dentitione 7
+# source = Hippocrates, dent. 7
 # text = 8 [0] .
 # sent_id = 17
-1	8	8	x	x--------	_	2	AuxK	_	t_106|ref=De dentitione_7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=De dentitione_1
-3	.	.	u	u--------	_	2	AuxK	_	t_107|ref=De dentitione_7
+1	8	8	x	x--------	_	2	AuxK	_	t_106|e_8|ref=dent._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=dent._1
+3	.	.	u	u--------	_	2	AuxK	_	t_107|e_8|ref=dent._7
 
-# source = Hippocrates, De dentitione 7-8
+# source = Hippocrates, dent. 7-8
 # text = Ὁκόσα ὀδοντοφυεῦντα εὔτροφα μένει καταφορικὰ ἐόντα , κίνδυνος σπασμὸν ἐπιλαβεῖν [0] .
 # sent_id = 18
-1	Ὁκόσα	ὁπόσος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_108|ref=De dentitione_7
-2	ὀδοντοφυεῦντα	ὀδοντοφυέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	4	SBJ	_	t_109|ref=De dentitione_7
-3	εὔτροφα	εὔτροφος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_110|ref=De dentitione_7
-4	μένει	μένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	OBJ	_	t_111|ref=De dentitione_7
-5	καταφορικὰ	καταφορικός	a	a-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_112|ref=De dentitione_7
-6	ἐόντα	εἰμί	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_113|ref=De dentitione_8
-7	,	,	u	u--------	_	11	APOS	_	t_114|ref=De dentitione_7
-8	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_115|ref=De dentitione_8
-9	σπασμὸν	σπασμός	n	n-s---ma-	Case=a|Gender=m|Number=s	11	PNOM	_	t_116|ref=De dentitione_8
-10	ἐπιλαβεῖν	ἐπιλαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	ADV	_	t_117|ref=De dentitione_8
-11	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=De dentitione_1
-12	.	.	u	u--------	_	11	AuxK	_	t_118|ref=De dentitione_8
+1	Ὁκόσα	ὁπόσος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_108|t_111|ref=dent._7
+2	ὀδοντοφυεῦντα	ὀδοντοφυέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	4	SBJ	_	t_109|t_111|ref=dent._7
+3	εὔτροφα	εὔτροφος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_110|t_111|ref=dent._7
+4	μένει	μένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	OBJ	_	t_111|e_9|ref=dent._7
+5	καταφορικὰ	καταφορικός	a	a-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_112|t_113|ref=dent._7
+6	ἐόντα	εἰμί	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_113|t_111|ref=dent._8
+7	,	,	u	u--------	_	11	APOS	_	t_114|e_9|ref=dent._7
+8	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_115|e_9|ref=dent._8
+9	σπασμὸν	σπασμός	n	n-s---ma-	Case=a|Gender=m|Number=s	11	PNOM	_	t_116|e_9|ref=dent._8
+10	ἐπιλαβεῖν	ἐπιλαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	ADV	_	t_117|t_116|ref=dent._8
+11	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=dent._1
+12	.	.	u	u--------	_	11	AuxK	_	t_118|e_9|ref=dent._8
 
-# source = Hippocrates, De dentitione 8
+# source = Hippocrates, dent. 8
 # text = 9 [0] .
 # sent_id = 19
-1	9	9	x	x--------	_	2	AuxK	_	t_119|ref=De dentitione_8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=De dentitione_1
-3	.	.	u	u--------	_	2	AuxK	_	t_120|ref=De dentitione_8
+1	9	9	x	x--------	_	2	AuxK	_	t_119|e_10|ref=dent._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=dent._1
+3	.	.	u	u--------	_	2	AuxK	_	t_120|e_10|ref=dent._8
 
-# source = Hippocrates, De dentitione 8-9
+# source = Hippocrates, dent. 8-9
 # text = Τὰ ἐν χειμῶνι ὀδοντοφυεῦντα , τῶν ἄλλων ὁμοίων ἐόντων , βέλτιον ἀπαλλάσσει .
 # sent_id = 20
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_121|ref=De dentitione_8
-2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_122|ref=De dentitione_8
-3	χειμῶνι	χειμών	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_123|ref=De dentitione_8
-4	ὀδοντοφυεῦντα	ὀδοντοφυέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	SBJ	_	t_124|ref=De dentitione_8
-5	,	,	u	u--------	_	9	AuxX	_	t_125|ref=De dentitione_8
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_126|ref=De dentitione_8
-7	ἄλλων	ἄλλος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	SBJ	_	t_127|ref=De dentitione_8
-8	ὁμοίων	ὅμοιος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	PNOM	_	t_128|ref=De dentitione_9
-9	ἐόντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_129|ref=De dentitione_8
-10	,	,	u	u--------	_	9	AuxX	_	t_130|ref=De dentitione_9
-11	βέλτιον	βελτίων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	12	ADV	_	t_131|ref=De dentitione_9
-12	ἀπαλλάσσει	ἀπαλλάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_132|ref=De dentitione_9
-13	.	.	u	u--------	_	12	AuxK	_	t_133|ref=De dentitione_9
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_121|t_124|ref=dent._8
+2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_122|t_124|ref=dent._8
+3	χειμῶνι	χειμών	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_123|t_122|ref=dent._8
+4	ὀδοντοφυεῦντα	ὀδοντοφυέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	SBJ	_	t_124|t_132|ref=dent._8
+5	,	,	u	u--------	_	9	AuxX	_	t_125|t_129|ref=dent._8
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_126|t_127|ref=dent._8
+7	ἄλλων	ἄλλος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	SBJ	_	t_127|t_129|ref=dent._8
+8	ὁμοίων	ὅμοιος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	PNOM	_	t_128|t_129|ref=dent._9
+9	ἐόντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_129|t_132|ref=dent._8
+10	,	,	u	u--------	_	9	AuxX	_	t_130|t_129|ref=dent._9
+11	βέλτιον	βελτίων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	12	ADV	_	t_131|t_132|ref=dent._9
+12	ἀπαλλάσσει	ἀπαλλάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_132|0|ref=dent._9
+13	.	.	u	u--------	_	12	AuxK	_	t_133|t_132|ref=dent._9
 
-# source = Hippocrates, De dentitione 9
+# source = Hippocrates, dent. 9
 # text = 10 [0] .
 # sent_id = 21
-1	10	10	u	u--------	_	2	AuxG	_	t_134|ref=De dentitione_9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=De dentitione_1
-3	.	.	u	u--------	_	2	AuxK	_	t_135|ref=De dentitione_9
+1	10	10	u	u--------	_	2	AuxG	_	t_134|e_11|ref=dent._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=dent._1
+3	.	.	u	u--------	_	2	AuxK	_	t_135|e_11|ref=dent._9
 
-# source = Hippocrates, De dentitione 9
+# source = Hippocrates, dent. 9
 # text = Οὐ πάντα τὰ ἐπὶ ὀδοῦσι σπασθέντα τελευτᾷ ·
 # sent_id = 22
-1	Οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_136|ref=De dentitione_9
-2	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_137|ref=De dentitione_9
-3	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_138|ref=De dentitione_9
-4	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_139|ref=De dentitione_9
-5	ὀδοῦσι	ὀδούς	n	n-p---fd-	Case=d|Gender=f|Number=p	4	ADV	_	t_140|ref=De dentitione_9
-6	σπασθέντα	σπάω	v	v-pappnn-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	7	SBJ	_	t_141|ref=De dentitione_9
-7	τελευτᾷ	τελευτάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_142|ref=De dentitione_9
-8	·	·	u	u--------	_	7	AuxK	_	t_143|ref=De dentitione_9
+1	Οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_136|t_142|ref=dent._9
+2	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_137|t_141|ref=dent._9
+3	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_138|t_141|ref=dent._9
+4	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_139|t_141|ref=dent._9
+5	ὀδοῦσι	ὀδούς	n	n-p---fd-	Case=d|Gender=f|Number=p	4	ADV	_	t_140|t_139|ref=dent._9
+6	σπασθέντα	σπάω	v	v-pappnn-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	7	SBJ	_	t_141|t_142|ref=dent._9
+7	τελευτᾷ	τελευτάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_142|0|ref=dent._9
+8	·	·	u	u--------	_	7	AuxK	_	t_143|t_142|ref=dent._9
 
-# source = Hippocrates, De dentitione 10
+# source = Hippocrates, dent. 10
 # text = πολλὰ δὲ καὶ διασώζεται .
 # sent_id = 23
-1	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_144|ref=De dentitione_10
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_145|ref=De dentitione_9
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_146|ref=De dentitione_10
-4	διασώζεται	διασῴζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_147|ref=De dentitione_10
-5	.	.	u	u--------	_	4	AuxK	_	t_148|ref=De dentitione_10
+1	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_144|t_147|ref=dent._10
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_145|t_147|ref=dent._9
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_146|t_147|ref=dent._10
+4	διασώζεται	διασῴζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_147|0|ref=dent._10
+5	.	.	u	u--------	_	4	AuxK	_	t_148|t_147|ref=dent._10
 
-# source = Hippocrates, De dentitione 10
+# source = Hippocrates, dent. 10
 # text = 11 .
 # sent_id = 24
-1	11	11	x	x--------	_	0	AuxG	_	t_149|ref=De dentitione_10
-2	.	.	u	u--------	_	1	AuxK	_	t_150|ref=De dentitione_10
+1	11	11	x	x--------	_	0	AuxG	_	t_149|0|ref=dent._10
+2	.	.	u	u--------	_	1	AuxK	_	t_150|t_149|ref=dent._10
 
-# source = Hippocrates, De dentitione 10
+# source = Hippocrates, dent. 10
 # text = Τὰ μετὰ βηχὸς ὀδοντοφυεῦντα χρονίζει ·
 # sent_id = 25
-1	Τὰ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_151|ref=De dentitione_10
-2	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_152|ref=De dentitione_10
-3	βηχὸς	βήξ	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_153|ref=De dentitione_10
-4	ὀδοντοφυεῦντα	ὀδοντοφυέω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	1	ATV	_	t_154|ref=De dentitione_10
-5	χρονίζει	χρονίζειν	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_155|ref=De dentitione_10
-6	·	·	u	u--------	_	5	AuxK	_	t_156|ref=De dentitione_10
+1	Τὰ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_151|t_155|ref=dent._10
+2	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_152|t_155|ref=dent._10
+3	βηχὸς	βήξ	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_153|t_152|ref=dent._10
+4	ὀδοντοφυεῦντα	ὀδοντοφυέω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	1	ATV	_	t_154|t_151|ref=dent._10
+5	χρονίζει	χρονίζειν	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_155|0|ref=dent._10
+6	·	·	u	u--------	_	5	AuxK	_	t_156|t_155|ref=dent._10
 
-# source = Hippocrates, De dentitione 10-11
+# source = Hippocrates, dent. 10-11
 # text = ἐν δὲ τῇ διακεντήσει , ἰσχναίνεται μᾶλλον .
 # sent_id = 26
-1	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_157|ref=De dentitione_10
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_158|ref=De dentitione_10
-3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_159|ref=De dentitione_10
-4	διακεντήσει	διακεντέω	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_160|ref=De dentitione_11
-5	,	,	u	u--------	_	6	AuxX	_	t_161|ref=De dentitione_11
-6	ἰσχναίνεται	ἰσχναίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_162|ref=De dentitione_11
-7	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	6	ADV	_	t_163|ref=De dentitione_11
-8	.	.	u	u--------	_	6	AuxK	_	t_164|ref=De dentitione_11
+1	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_157|t_162|ref=dent._10
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_158|t_162|ref=dent._10
+3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_159|t_160|ref=dent._10
+4	διακεντήσει	διακεντέω	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_160|t_157|ref=dent._11
+5	,	,	u	u--------	_	6	AuxX	_	t_161|t_162|ref=dent._11
+6	ἰσχναίνεται	ἰσχναίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_162|0|ref=dent._11
+7	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	6	ADV	_	t_163|t_162|ref=dent._11
+8	.	.	u	u--------	_	6	AuxK	_	t_164|t_162|ref=dent._11
 
-# source = Hippocrates, De dentitione 11
+# source = Hippocrates, dent. 11
 # text = 12 .
 # sent_id = 27
-1	12	12	x	x--------	_	0	AuxG	_	t_165|ref=De dentitione_11
-2	.	.	u	u--------	_	1	AuxK	_	t_166|ref=De dentitione_11
+1	12	12	x	x--------	_	0	AuxG	_	t_165|0|ref=dent._11
+2	.	.	u	u--------	_	1	AuxK	_	t_166|t_165|ref=dent._11
 
-# source = Hippocrates, De dentitione 11-12
+# source = Hippocrates, dent. 11-12
 # text = Ὁκόσα ἐν τῷ ὀδοντοφυέειν χειμῶνας ἔχει , ταῦτα καὶ προσεχόντως ἠγμένα ῥᾷον φέρει ὀδοντοφυίαν .
 # sent_id = 28
-1	Ὁκόσα	ὁπόσος	a	a-p---nn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_167|ref=De dentitione_11
-2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_168|ref=De dentitione_11
-3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_169|ref=De dentitione_11
-4	ὀδοντοφυέειν	ὀδοντοφυέω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ADV	_	t_170|ref=De dentitione_11
-5	χειμῶνας	χειμών	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_171|ref=De dentitione_11
-6	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_172|ref=De dentitione_11
-7	,	,	u	u--------	_	13	AuxX	_	t_173|ref=De dentitione_11
-8	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_174|ref=De dentitione_11
-9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_175|ref=De dentitione_11
-10	προσεχόντως	προσέχω	d	d--------	_	11	ADV	_	t_176|ref=De dentitione_12
-11	ἠγμένα	ἄγω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	13	ADV	_	t_177|ref=De dentitione_12
-12	ῥᾷον	ῥᾴδιος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	13	ADV	_	t_178|ref=De dentitione_12
-13	φέρει	φέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_179|ref=De dentitione_12
-14	ὀδοντοφυίαν	ὀδοντοφυία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_180|ref=De dentitione_12
-15	.	.	u	u--------	_	13	AuxK	_	t_181|ref=De dentitione_12
+1	Ὁκόσα	ὁπόσος	a	a-p---nn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_167|t_179|ref=dent._11
+2	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_168|t_172|ref=dent._11
+3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_169|t_170|ref=dent._11
+4	ὀδοντοφυέειν	ὀδοντοφυέω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ADV	_	t_170|t_168|ref=dent._11
+5	χειμῶνας	χειμών	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_171|t_172|ref=dent._11
+6	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_172|t_167|ref=dent._11
+7	,	,	u	u--------	_	13	AuxX	_	t_173|t_179|ref=dent._11
+8	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_174|t_179|ref=dent._11
+9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_175|t_176|ref=dent._11
+10	προσεχόντως	προσέχω	d	d--------	_	11	ADV	_	t_176|t_177|ref=dent._12
+11	ἠγμένα	ἄγω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	13	ADV	_	t_177|t_179|ref=dent._12
+12	ῥᾷον	ῥᾴδιος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	13	ADV	_	t_178|t_179|ref=dent._12
+13	φέρει	φέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_179|0|ref=dent._12
+14	ὀδοντοφυίαν	ὀδοντοφυία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_180|t_179|ref=dent._12
+15	.	.	u	u--------	_	13	AuxK	_	t_181|t_179|ref=dent._12
 
-# source = Hippocrates, De dentitione 12
+# source = Hippocrates, dent. 12
 # text = 13 .
 # sent_id = 29
-1	13	13	x	x--------	_	0	AuxG	_	t_182|ref=De dentitione_12
-2	.	.	u	u--------	_	1	AuxK	_	t_183|ref=De dentitione_12
+1	13	13	x	x--------	_	0	AuxG	_	t_182|0|ref=dent._12
+2	.	.	u	u--------	_	1	AuxK	_	t_183|t_182|ref=dent._12
 
-# source = Hippocrates, De dentitione 12
+# source = Hippocrates, dent. 12
 # text = Τὰ διουρεῦντα πλέον ἢ διαχωρεῦντα πρὸς λόγον εὐτροφώτερα [0] .
 # sent_id = 30
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_184|ref=De dentitione_12
-2	διουρεῦντα	διουρέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	9	SBJ	_	t_185|ref=De dentitione_12
-3	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	9	ADV	_	t_186|ref=De dentitione_12
-4	ἢ	ἤ1	c	c--------	_	3	AuxC	_	t_187|ref=De dentitione_12
-5	διαχωρεῦντα	διαχωρίζω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_188|ref=De dentitione_12
-6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_189|ref=De dentitione_12
-7	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	ADV	_	t_190|ref=De dentitione_12
-8	εὐτροφώτερα	εὔτροφος	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	9	PNOM	_	t_191|ref=De dentitione_12
-9	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=De dentitione_1
-10	.	.	u	u--------	_	9	AuxK	_	t_192|ref=De dentitione_12
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_184|t_185|ref=dent._12
+2	διουρεῦντα	διουρέω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	9	SBJ	_	t_185|e_12|ref=dent._12
+3	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	9	ADV	_	t_186|e_12|ref=dent._12
+4	ἢ	ἤ1	c	c--------	_	3	AuxC	_	t_187|t_186|ref=dent._12
+5	διαχωρεῦντα	διαχωρίζω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_188|t_187|ref=dent._12
+6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_189|t_188|ref=dent._12
+7	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	ADV	_	t_190|t_189|ref=dent._12
+8	εὐτροφώτερα	εὔτροφος	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	9	PNOM	_	t_191|e_12|ref=dent._12
+9	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=dent._1
+10	.	.	u	u--------	_	9	AuxK	_	t_192|e_12|ref=dent._12
 
-# source = Hippocrates, De dentitione 13
+# source = Hippocrates, dent. 13
 # text = 14 .
 # sent_id = 31
-1	14	14	x	x--------	_	0	AuxG	_	t_193|ref=De dentitione_13
-2	.	.	u	u--------	_	1	AuxK	_	t_194|ref=De dentitione_13
+1	14	14	x	x--------	_	0	AuxG	_	t_193|0|ref=dent._13
+2	.	.	u	u--------	_	1	AuxK	_	t_194|t_193|ref=dent._13
 
-# source = Hippocrates, De dentitione 13-14
+# source = Hippocrates, dent. 13-14
 # text = Ὁκόσοισιν οὐρεῖται μὴ πρὸς λόγον , κοιλίη δὲ πυκνῶς ὠμὸν ἐκ παιδίων παρηθεῖ , ἐπίνοσα .
 # sent_id = 32
-1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_195|ref=De dentitione_13
-2	οὐρεῖται	οὐρέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	8	PRED	_	t_196|ref=De dentitione_13
-3	μὴ	μή	g	g--------	_	4	AuxZ	_	t_197|ref=De dentitione_13
-4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_198|ref=De dentitione_13
-5	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_199|ref=De dentitione_13
-6	,	,	u	u--------	_	8	AuxX	_	t_200|ref=De dentitione_13
-7	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_201|ref=De dentitione_13
-8	δὲ	δέ	g	g--------	_	0	COORD	_	t_202|ref=De dentitione_13
-9	πυκνῶς	πυκνός	d	d--------	_	13	ADV	_	t_203|ref=De dentitione_12
-10	ὠμὸν	ὠμός	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_204|ref=De dentitione_13
-11	ἐκ	ἐκ	r	r--------	_	13	AuxP	_	t_205|ref=De dentitione_14
-12	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	11	OBJ	_	t_206|ref=De dentitione_14
-13	παρηθεῖ	παρηθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_207|ref=De dentitione_14
-14	,	,	u	u--------	_	15	AuxX	_	t_208|ref=De dentitione_14
-15	ἐπίνοσα	ἐπίνοσος	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_209|ref=De dentitione_14
-16	.	.	u	u--------	_	8	AuxK	_	t_210|ref=De dentitione_14
+1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_195|t_196|ref=dent._13
+2	οὐρεῖται	οὐρέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	8	PRED	_	t_196|t_202|ref=dent._13
+3	μὴ	μή	g	g--------	_	4	AuxZ	_	t_197|t_198|ref=dent._13
+4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_198|t_196|ref=dent._13
+5	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_199|t_198|ref=dent._13
+6	,	,	u	u--------	_	8	AuxX	_	t_200|t_202|ref=dent._13
+7	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_201|t_207|ref=dent._13
+8	δὲ	δέ	g	g--------	_	0	COORD	_	t_202|0|ref=dent._13
+9	πυκνῶς	πυκνός	d	d--------	_	13	ADV	_	t_203|t_207|ref=dent._12
+10	ὠμὸν	ὠμός	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_204|t_207|ref=dent._13
+11	ἐκ	ἐκ	r	r--------	_	13	AuxP	_	t_205|t_207|ref=dent._14
+12	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	11	OBJ	_	t_206|t_205|ref=dent._14
+13	παρηθεῖ	παρηθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_207|t_202|ref=dent._14
+14	,	,	u	u--------	_	15	AuxX	_	t_208|t_209|ref=dent._14
+15	ἐπίνοσα	ἐπίνοσος	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_209|t_207|ref=dent._14
+16	.	.	u	u--------	_	8	AuxK	_	t_210|t_202|ref=dent._14
 
-# source = Hippocrates, De dentitione 14
+# source = Hippocrates, dent. 14
 # text = 15 .
 # sent_id = 33
-1	15	15	u	u--------	_	0	AuxG	_	t_211|ref=De dentitione_14
-2	.	.	u	u--------	_	1	AuxK	_	t_212|ref=De dentitione_14
+1	15	15	u	u--------	_	0	AuxG	_	t_211|0|ref=dent._14
+2	.	.	u	u--------	_	1	AuxK	_	t_212|t_211|ref=dent._14
 
-# source = Hippocrates, De dentitione 14-15
+# source = Hippocrates, dent. 14-15
 # text = Τὰ εὔυπνα καὶ εὔτροφα πουλὺ ἀναλαμβάνειν καὶ παράκειται οὐχ ἱκανῶς διῳκημένον .
 # sent_id = 34
-1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	2	ATR	_	t_213|ref=De dentitione_14
-2	εὔυπνα	εὔυπνος	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_214|ref=De dentitione_14
-3	καὶ	καί	c	c--------	_	6	COORD	_	t_215|ref=De dentitione_14
-4	εὔτροφα	εὔτροφος	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_216|ref=De dentitione_14
-5	πουλὺ	πολύς	d	d--------	_	6	ADV	_	t_217|ref=De dentitione_14
-6	ἀναλαμβάνειν	ἀναλαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	PRED	_	t_218|ref=De dentitione_14
-7	καὶ	καί	c	c--------	_	0	COORD	_	t_219|ref=De dentitione_14
-8	παράκειται	παράκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_220|ref=De dentitione_14
-9	οὐχ	οὐ	d	d--------	_	10	AuxZ	_	t_221|ref=De dentitione_14
-10	ἱκανῶς	ἱκανός	d	d--------	_	11	ADV	_	t_222|ref=De dentitione_14
-11	διῳκημένον	διοικέω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	8	ADV	_	t_223|ref=De dentitione_15
-12	.	.	u	u--------	_	7	AuxK	_	t_224|ref=De dentitione_15
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	2	ATR	_	t_213|t_214|ref=dent._14
+2	εὔυπνα	εὔυπνος	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_214|t_215|ref=dent._14
+3	καὶ	καί	c	c--------	_	6	COORD	_	t_215|t_218|ref=dent._14
+4	εὔτροφα	εὔτροφος	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_216|t_215|ref=dent._14
+5	πουλὺ	πολύς	d	d--------	_	6	ADV	_	t_217|t_218|ref=dent._14
+6	ἀναλαμβάνειν	ἀναλαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	PRED	_	t_218|t_219|ref=dent._14
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_219|0|ref=dent._14
+8	παράκειται	παράκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_220|t_219|ref=dent._14
+9	οὐχ	οὐ	d	d--------	_	10	AuxZ	_	t_221|t_222|ref=dent._14
+10	ἱκανῶς	ἱκανός	d	d--------	_	11	ADV	_	t_222|t_223|ref=dent._14
+11	διῳκημένον	διοικέω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	8	ADV	_	t_223|t_220|ref=dent._15
+12	.	.	u	u--------	_	7	AuxK	_	t_224|t_219|ref=dent._15
 
-# source = Hippocrates, De dentitione 15
+# source = Hippocrates, dent. 15
 # text = 16 .
 # sent_id = 35
-1	16	16	x	x--------	_	0	AuxG	_	t_225|ref=De dentitione_15
-2	.	.	u	u--------	_	1	AuxK	_	t_226|ref=De dentitione_15
+1	16	16	x	x--------	_	0	AuxG	_	t_225|0|ref=dent._15
+2	.	.	u	u--------	_	1	AuxK	_	t_226|t_225|ref=dent._15
 
-# source = Hippocrates, De dentitione 15
+# source = Hippocrates, dent. 15
 # text = Τὰ παρεσθίοντα ἐν τῷ θηλάζειν ῥᾷον φέρει ἀπογαλακτισμόν .
 # sent_id = 36
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_227|ref=De dentitione_15
-2	παρεσθίοντα	παρεσθίω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	7	SBJ	_	t_228|ref=De dentitione_15
-3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_229|ref=De dentitione_15
-4	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_230|ref=De dentitione_15
-5	θηλάζειν	θηλάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	ADV	_	t_231|ref=De dentitione_15
-6	ῥᾷον	ῥᾴδιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_232|ref=De dentitione_15
-7	φέρει	φέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_233|ref=De dentitione_15
-8	ἀπογαλακτισμόν	ἀπογαλακτισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_234|ref=De dentitione_15
-9	.	.	u	u--------	_	7	AuxK	_	t_235|ref=De dentitione_15
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_227|t_228|ref=dent._15
+2	παρεσθίοντα	παρεσθίω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	7	SBJ	_	t_228|t_233|ref=dent._15
+3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_229|t_228|ref=dent._15
+4	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_230|t_231|ref=dent._15
+5	θηλάζειν	θηλάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	ADV	_	t_231|t_229|ref=dent._15
+6	ῥᾷον	ῥᾴδιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_232|t_233|ref=dent._15
+7	φέρει	φέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_233|0|ref=dent._15
+8	ἀπογαλακτισμόν	ἀπογαλακτισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_234|t_233|ref=dent._15
+9	.	.	u	u--------	_	7	AuxK	_	t_235|t_233|ref=dent._15
 
-# source = Hippocrates, De dentitione 15-16
+# source = Hippocrates, dent. 15-16
 # text = 17 .
 # sent_id = 37
-1	17	17	x	x--------	_	0	AuxG	_	t_236|ref=De dentitione_15
-2	.	.	u	u--------	_	1	AuxK	_	t_237|ref=De dentitione_16
+1	17	17	x	x--------	_	0	AuxG	_	t_236|0|ref=dent._15
+2	.	.	u	u--------	_	1	AuxK	_	t_237|t_236|ref=dent._16
 
-# source = Hippocrates, De dentitione 16-17
+# source = Hippocrates, dent. 16-17
 # text = Τὰ πολλάκις παρηθεῦντα δίαιμον καὶ ἄπεπτον κατὰ κοιλίην , πλεῖστα τῶν ἐν πυρετῷ ὑπνώδεα [0] .
 # sent_id = 38
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_238|ref=De dentitione_16
-2	πολλάκις	πολλάκις	d	d--------	_	3	ADV	_	t_239|ref=De dentitione_16
-3	παρηθεῦντα	παραθεύω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	15	SBJ	_	t_240|ref=De dentitione_16
-4	δίαιμον	δίαιμος	a	a-s---ma-	Case=a|Gender=m|Number=s	5	PNOM	_	t_241|ref=De dentitione_16
-5	καὶ	καί	c	c--------	_	15	COORD	_	t_242|ref=De dentitione_16
-6	ἄπεπτον	ἄπεπτος	a	a-s---ma-	Case=a|Gender=m|Number=s	5	PNOM	_	t_243|ref=De dentitione_16
-7	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_244|ref=De dentitione_16
-8	κοιλίην	κοιλίη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	ADV	_	t_245|ref=De dentitione_16
-9	,	,	u	u--------	_	15	AuxX	_	t_246|ref=De dentitione_16
-10	πλεῖστα	πλεῖστος	a	a-p---nn-	Case=n|Gender=n|Number=p	14	AuxZ	_	t_247|ref=De dentitione_16
-11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_248|ref=De dentitione_17
-12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_249|ref=De dentitione_17
-13	πυρετῷ	πυρετός	n	n-s---md-	Case=d|Gender=n|Number=s	12	ATR	_	t_250|ref=De dentitione_17
-14	ὑπνώδεα	ὑπνώδης	a	a-p---nn-	Case=n|Gender=n|Number=p	9	PNOM	_	t_251|ref=De dentitione_17
-15	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=De dentitione_1
-16	.	.	u	u--------	_	15	AuxK	_	t_252|ref=De dentitione_17
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_238|t_240|ref=dent._16
+2	πολλάκις	πολλάκις	d	d--------	_	3	ADV	_	t_239|t_240|ref=dent._16
+3	παρηθεῦντα	παραθεύω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	15	SBJ	_	t_240|e_13|ref=dent._16
+4	δίαιμον	δίαιμος	a	a-s---ma-	Case=a|Gender=m|Number=s	5	PNOM	_	t_241|t_242|ref=dent._16
+5	καὶ	καί	c	c--------	_	15	COORD	_	t_242|e_13|ref=dent._16
+6	ἄπεπτον	ἄπεπτος	a	a-s---ma-	Case=a|Gender=m|Number=s	5	PNOM	_	t_243|t_242|ref=dent._16
+7	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_244|t_243|ref=dent._16
+8	κοιλίην	κοιλίη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	ADV	_	t_245|t_244|ref=dent._16
+9	,	,	u	u--------	_	15	AuxX	_	t_246|e_13|ref=dent._16
+10	πλεῖστα	πλεῖστος	a	a-p---nn-	Case=n|Gender=n|Number=p	14	AuxZ	_	t_247|t_251|ref=dent._16
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_248|t_251|ref=dent._17
+12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_249|t_248|ref=dent._17
+13	πυρετῷ	πυρετός	n	n-s---md-	Case=d|Gender=n|Number=s	12	ATR	_	t_250|t_249|ref=dent._17
+14	ὑπνώδεα	ὑπνώδης	a	a-p---nn-	Case=n|Gender=n|Number=p	9	PNOM	_	t_251|t_246|ref=dent._17
+15	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=dent._1
+16	.	.	u	u--------	_	15	AuxK	_	t_252|e_13|ref=dent._17
 
-# source = Hippocrates, De dentitione 17
+# source = Hippocrates, dent. 17
 # text = 18 .
 # sent_id = 39
-1	18	18	x	x--------	_	0	AuxG	_	t_253|ref=De dentitione_17
-2	.	.	u	u--------	_	1	AuxK	_	t_254|ref=De dentitione_17
+1	18	18	x	x--------	_	0	AuxG	_	t_253|0|ref=dent._17
+2	.	.	u	u--------	_	1	AuxK	_	t_254|t_253|ref=dent._17
 
-# source = Hippocrates, De dentitione 17
+# source = Hippocrates, dent. 17
 # text = Τὰ ἐν παρισθμίοις ἕλκεα ἄνευ πυρετῶν γιγνόμενα ἀσφαλέστερα [0] .
 # sent_id = 40
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_255|ref=De dentitione_17
-2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_256|ref=De dentitione_17
-3	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_257|ref=De dentitione_17
-4	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_258|ref=De dentitione_17
-5	ἄνευ	ἄνευ	r	r--------	_	7	AuxP	_	t_259|ref=De dentitione_17
-6	πυρετῶν	πυρετέω	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_260|ref=De dentitione_17
-7	γιγνόμενα	γίγνομαι	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	4	ATR	_	t_261|ref=De dentitione_17
-8	ἀσφαλέστερα	ἀσφαλής	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	9	PNOM	_	t_262|ref=De dentitione_17
-9	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=De dentitione_1
-10	.	.	u	u--------	_	9	AuxK	_	t_263|ref=De dentitione_17
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_255|t_258|ref=dent._17
+2	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_256|t_261|ref=dent._17
+3	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_257|t_256|ref=dent._17
+4	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_258|e_14|ref=dent._17
+5	ἄνευ	ἄνευ	r	r--------	_	7	AuxP	_	t_259|t_261|ref=dent._17
+6	πυρετῶν	πυρετέω	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_260|t_259|ref=dent._17
+7	γιγνόμενα	γίγνομαι	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	4	ATR	_	t_261|t_258|ref=dent._17
+8	ἀσφαλέστερα	ἀσφαλής	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	9	PNOM	_	t_262|e_14|ref=dent._17
+9	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=dent._1
+10	.	.	u	u--------	_	9	AuxK	_	t_263|e_14|ref=dent._17
 
-# source = Hippocrates, De dentitione 17
+# source = Hippocrates, dent. 17
 # text = 19 .
 # sent_id = 41
-1	19	19	x	x--------	_	0	AuxG	_	t_264|ref=De dentitione_17
-2	.	.	u	u--------	_	1	AuxK	_	t_265|ref=De dentitione_17
+1	19	19	x	x--------	_	0	AuxG	_	t_264|0|ref=dent._17
+2	.	.	u	u--------	_	1	AuxK	_	t_265|t_264|ref=dent._17
 
-# source = Hippocrates, De dentitione 18-19
+# source = Hippocrates, dent. 18-19
 # text = Ὁκόσοισιν ἐν τῷ θηλάζειν τῶν νηπίων βὴξ προσίσταται , σταφυλὴν εἴωθε μείζονα ἔχειν .
 # sent_id = 42
-1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	8	OBJ	_	t_266|ref=De dentitione_18
-2	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_267|ref=De dentitione_18
-3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_268|ref=De dentitione_18
-4	θηλάζειν	θηλάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ADV	_	t_269|ref=De dentitione_18
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_270|ref=De dentitione_18
-6	νηπίων	νήπιος	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_271|ref=De dentitione_18
-7	βὴξ	βήξ	d	d--------	Case=n|Gender=f|Number=s	8	SBJ	_	t_272|ref=De dentitione_18
-8	προσίσταται	προσίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_273|ref=De dentitione_18
-9	,	,	u	u--------	_	8	AuxX	_	t_274|ref=De dentitione_18
-10	σταφυλὴν	σταφυλή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_275|ref=De dentitione_18
-11	εἴωθε	ἔθω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	1	ATR	_	t_276|ref=De dentitione_17
-12	μείζονα	μέγας	a	a-s---fac	Case=a|Degree=c|Gender=f|Number=s	10	ATR	_	t_277|ref=De dentitione_18
-13	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_278|ref=De dentitione_19
-14	.	.	u	u--------	_	8	AuxK	_	t_279|ref=De dentitione_19
+1	Ὁκόσοισιν	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	8	OBJ	_	t_266|t_273|ref=dent._18
+2	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_267|t_273|ref=dent._18
+3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_268|t_269|ref=dent._18
+4	θηλάζειν	θηλάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ADV	_	t_269|t_267|ref=dent._18
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_270|t_271|ref=dent._18
+6	νηπίων	νήπιος	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_271|t_272|ref=dent._18
+7	βὴξ	βήξ	d	d--------	Case=n|Gender=f|Number=s	8	SBJ	_	t_272|t_273|ref=dent._18
+8	προσίσταται	προσίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_273|0|ref=dent._18
+9	,	,	u	u--------	_	8	AuxX	_	t_274|t_273|ref=dent._18
+10	σταφυλὴν	σταφυλή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_275|t_278|ref=dent._18
+11	εἴωθε	ἔθω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	1	ATR	_	t_276|t_266|ref=dent._17
+12	μείζονα	μέγας	a	a-s---fac	Case=a|Degree=c|Gender=f|Number=s	10	ATR	_	t_277|t_275|ref=dent._18
+13	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_278|t_276|ref=dent._19
+14	.	.	u	u--------	_	8	AuxK	_	t_279|t_273|ref=dent._19
 
-# source = Hippocrates, De dentitione 19
+# source = Hippocrates, dent. 19
 # text = 20 .
 # sent_id = 43
-1	20	2	u	u--------	_	0	AuxG	_	t_280|ref=De dentitione_19
-2	.	.	u	u--------	_	1	AuxK	_	t_281|ref=De dentitione_19
+1	20	2	u	u--------	_	0	AuxG	_	t_280|0|ref=dent._19
+2	.	.	u	u--------	_	1	AuxK	_	t_281|t_280|ref=dent._19
 
-# source = Hippocrates, De dentitione 19-20
+# source = Hippocrates, dent. 19-20
 # text = Ὁκόσοισι ταχέως ἐν παρισθμίοις νομαὶ ἐφίστανται , τῶν πυρετῶν μενόντων καὶ βηχίων , κίνδυνος πάλιν γενέσθαι ἕλκεα [0] .
 # sent_id = 44
-1	Ὁκόσοισι	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_282|ref=De dentitione_19
-2	ταχέως	ταχύς	d	d--------	_	6	ADV	_	t_283|ref=De dentitione_19
-3	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_284|ref=De dentitione_19
-4	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_285|ref=De dentitione_19
-5	νομαὶ	νομή	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_286|ref=De dentitione_19
-6	ἐφίστανται	ἐφίστημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_287|ref=De dentitione_19
-7	,	,	u	u--------	_	6	AuxX	_	t_288|ref=De dentitione_19
-8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_289|ref=De dentitione_19
-9	πυρετῶν	πυρετέω	n	n-p---mg-	Case=g|Gender=m|Number=p	11	SBJ	_	t_290|ref=De dentitione_19
-10	μενόντων	μένω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_291|ref=De dentitione_19
-11	καὶ	καί	c	c--------	_	10	COORD	_	t_292|ref=De dentitione_19
-12	βηχίων	βήχιος	a	a-p---mg-	Case=g|Gender=m|Number=p	11	SBJ	_	t_293|ref=De dentitione_19
-13	,	,	u	u--------	_	6	AuxX	_	t_294|ref=De dentitione_20
-14	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_295|ref=De dentitione_20
-15	πάλιν	πάλιν	d	d--------	_	16	ADV	_	t_296|ref=De dentitione_20
-16	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	14	ATR	_	t_297|ref=De dentitione_20
-17	ἕλκεα	ἕλκος	n	n-p---na-	Case=a|Gender=n|Number=p	16	PNOM	_	t_298|ref=De dentitione_20
-18	[0]	[0]	-	---------	_	6	ADV	_	e_15|ref=De dentitione_1
-19	.	.	u	u--------	_	6	AuxK	_	t_299|ref=De dentitione_20
+1	Ὁκόσοισι	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_282|t_287|ref=dent._19
+2	ταχέως	ταχύς	d	d--------	_	6	ADV	_	t_283|t_287|ref=dent._19
+3	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_284|t_287|ref=dent._19
+4	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_285|t_284|ref=dent._19
+5	νομαὶ	νομή	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_286|t_287|ref=dent._19
+6	ἐφίστανται	ἐφίστημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_287|0|ref=dent._19
+7	,	,	u	u--------	_	6	AuxX	_	t_288|t_287|ref=dent._19
+8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_289|t_290|ref=dent._19
+9	πυρετῶν	πυρετέω	n	n-p---mg-	Case=g|Gender=m|Number=p	11	SBJ	_	t_290|t_292|ref=dent._19
+10	μενόντων	μένω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ADV	_	t_291|t_287|ref=dent._19
+11	καὶ	καί	c	c--------	_	10	COORD	_	t_292|t_291|ref=dent._19
+12	βηχίων	βήχιος	a	a-p---mg-	Case=g|Gender=m|Number=p	11	SBJ	_	t_293|t_292|ref=dent._19
+13	,	,	u	u--------	_	6	AuxX	_	t_294|t_287|ref=dent._20
+14	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_295|e_15|ref=dent._20
+15	πάλιν	πάλιν	d	d--------	_	16	ADV	_	t_296|t_297|ref=dent._20
+16	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	14	ATR	_	t_297|t_295|ref=dent._20
+17	ἕλκεα	ἕλκος	n	n-p---na-	Case=a|Gender=n|Number=p	16	PNOM	_	t_298|t_297|ref=dent._20
+18	[0]	[0]	-	---------	_	6	ADV	_	e_15|t_287|ref=dent._1
+19	.	.	u	u--------	_	6	AuxK	_	t_299|t_287|ref=dent._20
 
-# source = Hippocrates, De dentitione 20
+# source = Hippocrates, dent. 20
 # text = 21 .
 # sent_id = 45
-1	21	21	x	x--------	_	0	AuxG	_	t_300|ref=De dentitione_20
-2	.	.	u	u--------	_	1	AuxK	_	t_301|ref=De dentitione_20
+1	21	21	x	x--------	_	0	AuxG	_	t_300|0|ref=dent._20
+2	.	.	u	u--------	_	1	AuxK	_	t_301|t_300|ref=dent._20
 
-# source = Hippocrates, De dentitione 20
+# source = Hippocrates, dent. 20
 # text = Τὰ παλινδρομήσαντα ἐν ἰσθμίοις ἕλκεα τοῖσιν ὁμοίοισι κινδυνώδη [0] .
 # sent_id = 46
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_302|ref=De dentitione_20
-2	παλινδρομήσαντα	παλινδρομέω	v	v-papann-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=a	9	SBJ	_	t_303|ref=De dentitione_20
-3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_304|ref=De dentitione_20
-4	ἰσθμίοις	ἴσθμιον	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_305|ref=De dentitione_20
-5	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_306|ref=De dentitione_20
-6	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=m|Number=p	7	ATR	_	t_307|ref=De dentitione_20
-7	ὁμοίοισι	ὅμοιος	a	a-p---md-	Case=d|Gender=n|Number=p	4	ATR	_	t_308|ref=De dentitione_20
-8	κινδυνώδη	κινδυνώδης	a	a-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_309|ref=De dentitione_20
-9	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=De dentitione_1
-10	.	.	u	u--------	_	9	AuxK	_	t_310|ref=De dentitione_20
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_302|t_303|ref=dent._20
+2	παλινδρομήσαντα	παλινδρομέω	v	v-papann-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=a	9	SBJ	_	t_303|e_16|ref=dent._20
+3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_304|t_303|ref=dent._20
+4	ἰσθμίοις	ἴσθμιον	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_305|t_304|ref=dent._20
+5	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_306|e_16|ref=dent._20
+6	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=m|Number=p	7	ATR	_	t_307|t_308|ref=dent._20
+7	ὁμοίοισι	ὅμοιος	a	a-p---md-	Case=d|Gender=n|Number=p	4	ATR	_	t_308|t_305|ref=dent._20
+8	κινδυνώδη	κινδυνώδης	a	a-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_309|t_306|ref=dent._20
+9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=dent._1
+10	.	.	u	u--------	_	9	AuxK	_	t_310|e_16|ref=dent._20
 
-# source = Hippocrates, De dentitione 20
+# source = Hippocrates, dent. 20
 # text = 22 .
 # sent_id = 47
-1	22	22	x	x--------	_	0	AuxG	_	t_311|ref=De dentitione_20
-2	.	.	u	u--------	_	1	AuxK	_	t_312|ref=De dentitione_20
+1	22	22	x	x--------	_	0	AuxG	_	t_311|0|ref=dent._20
+2	.	.	u	u--------	_	1	AuxK	_	t_312|t_311|ref=dent._20
 
-# source = Hippocrates, De dentitione 20-22
+# source = Hippocrates, dent. 20-22
 # text = Τοῖσι παιδίοισιν ἀξιολόγοις ἕλκεσιν ἐν παρισθμίοισι , καταπινομένων , σωτηρίας ἐστὶν , ὁκόσα δὴ μᾶλλον τῶν πρότερον μὴ δυναμένων καταπίνειν [0] .
 # sent_id = 48
-1	Τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_313|ref=De dentitione_20
-2	παιδίοισιν	παιδίον	n	n-p---nd-	Case=d|Gender=m|Number=p	11	ADV	_	t_314|ref=De dentitione_20
-3	ἀξιολόγοις	ἀξιόλογος	a	a-p---nd-	Case=d|Gender=n|Number=p	2	ATR	_	t_315|ref=De dentitione_21
-4	ἕλκεσιν	ἕλκος	n	n-p---nd-	Case=d|Gender=m|Number=p	2	ATR	_	t_316|ref=De dentitione_21
-5	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_317|ref=De dentitione_21
-6	παρισθμίοισι	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_318|ref=De dentitione_21
-7	,	,	u	u--------	_	11	AuxX	_	t_319|ref=De dentitione_21
-8	καταπινομένων	καταπίνω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	11	ADV	_	t_320|ref=De dentitione_21
-9	,	,	u	u--------	_	11	AuxX	_	t_321|ref=De dentitione_21
-10	σωτηρίας	σωτηρία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	PNOM	_	t_322|ref=De dentitione_21
-11	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_323|ref=De dentitione_21
-12	,	,	u	u--------	_	11	AuxX	_	t_324|ref=De dentitione_21
-13	ὁκόσα	ὁπόσος	p	p-p---nn-	Case=n|Gender=n|Number=p	21	SBJ	_	t_325|ref=De dentitione_20
-14	δὴ	δή	d	d--------	_	21	AuxY	_	t_326|ref=De dentitione_21
-15	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	21	ADV	_	t_327|ref=De dentitione_22
-16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_328|ref=De dentitione_22
-17	πρότερον	πρότερος	d	d-------c	Degree=c	19	ADV	_	t_329|ref=De dentitione_22
-18	μὴ	μή	d	d--------	_	19	AuxZ	_	t_330|ref=De dentitione_22
-19	δυναμένων	δύναμαι	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	15	ADV	_	t_331|ref=De dentitione_22
-20	καταπίνειν	καταπίνειν	v	v--pna---	Mood=n|Tense=p|Voice=a	19	OBJ	_	t_332|ref=De dentitione_22
-21	[0]	[0]	-	---------	_	11	SBJ	_	e_17|ref=De dentitione_1
-22	.	.	u	u--------	_	11	AuxK	_	t_333|ref=De dentitione_22
+1	Τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_313|t_314|ref=dent._20
+2	παιδίοισιν	παιδίον	n	n-p---nd-	Case=d|Gender=m|Number=p	11	ADV	_	t_314|t_323|ref=dent._20
+3	ἀξιολόγοις	ἀξιόλογος	a	a-p---nd-	Case=d|Gender=n|Number=p	2	ATR	_	t_315|t_314|ref=dent._21
+4	ἕλκεσιν	ἕλκος	n	n-p---nd-	Case=d|Gender=m|Number=p	2	ATR	_	t_316|t_314|ref=dent._21
+5	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_317|t_323|ref=dent._21
+6	παρισθμίοισι	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_318|t_317|ref=dent._21
+7	,	,	u	u--------	_	11	AuxX	_	t_319|t_323|ref=dent._21
+8	καταπινομένων	καταπίνω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	11	ADV	_	t_320|t_323|ref=dent._21
+9	,	,	u	u--------	_	11	AuxX	_	t_321|t_323|ref=dent._21
+10	σωτηρίας	σωτηρία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	PNOM	_	t_322|t_323|ref=dent._21
+11	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_323|0|ref=dent._21
+12	,	,	u	u--------	_	11	AuxX	_	t_324|t_323|ref=dent._21
+13	ὁκόσα	ὁπόσος	p	p-p---nn-	Case=n|Gender=n|Number=p	21	SBJ	_	t_325|e_17|ref=dent._20
+14	δὴ	δή	d	d--------	_	21	AuxY	_	t_326|e_17|ref=dent._21
+15	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	21	ADV	_	t_327|e_17|ref=dent._22
+16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_328|t_331|ref=dent._22
+17	πρότερον	πρότερος	d	d-------c	Degree=c	19	ADV	_	t_329|t_331|ref=dent._22
+18	μὴ	μή	d	d--------	_	19	AuxZ	_	t_330|t_331|ref=dent._22
+19	δυναμένων	δύναμαι	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	15	ADV	_	t_331|t_327|ref=dent._22
+20	καταπίνειν	καταπίνειν	v	v--pna---	Mood=n|Tense=p|Voice=a	19	OBJ	_	t_332|t_331|ref=dent._22
+21	[0]	[0]	-	---------	_	11	SBJ	_	e_17|t_323|ref=dent._1
+22	.	.	u	u--------	_	11	AuxK	_	t_333|t_323|ref=dent._22
 
-# source = Hippocrates, De dentitione 22
+# source = Hippocrates, dent. 22
 # text = 23 .
 # sent_id = 49
-1	23	23	x	x--------	_	0	ExD	_	t_334|ref=De dentitione_22
-2	.	.	u	u--------	_	1	AuxK	_	t_335|ref=De dentitione_22
+1	23	23	x	x--------	_	0	ExD	_	t_334|0|ref=dent._22
+2	.	.	u	u--------	_	1	AuxK	_	t_335|t_334|ref=dent._22
 
-# source = Hippocrates, De dentitione 22
+# source = Hippocrates, dent. 22
 # text = Ἐν παρισθμίοισιν ἕλκεσι , πουλὺ τὸ χολῶδες ἀνεμεῖσθαι ἢ κατὰ κοιλίαν ἔρχεσθαι , κινδυνῶδες [0] .
 # sent_id = 50
-1	Ἐν	ἐν	r	r--------	_	3	AuxP	_	t_336|ref=De dentitione_22
-2	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_337|ref=De dentitione_22
-3	ἕλκεσι	ἕλκος	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ADV	_	t_338|ref=De dentitione_22
-4	,	,	u	u--------	_	15	AuxX	_	t_339|ref=De dentitione_22
-5	πουλὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ADV	_	t_340|ref=De dentitione_22
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_341|ref=De dentitione_22
-7	χολῶδες	χολώδης	a	a-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_342|ref=De dentitione_22
-8	ἀνεμεῖσθαι	ἀνέμω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	ADV	_	t_343|ref=De dentitione_22
-9	ἢ	ἤ1	c	c--------	_	15	COORD	_	t_344|ref=De dentitione_22
-10	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_345|ref=De dentitione_22
-11	κοιλίαν	κοιλία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_346|ref=De dentitione_22
-12	ἔρχεσθαι	ἔρχομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	9	ADV	_	t_347|ref=De dentitione_22
-13	,	,	u	u--------	_	15	AuxX	_	t_348|ref=De dentitione_22
-14	κινδυνῶδες	κινδυνώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_349|ref=De dentitione_22
-15	[0]	[0]	-	---------	_	0	PRED	_	e_18|ref=De dentitione_1
-16	.	.	u	u--------	_	15	AuxK	_	t_350|ref=De dentitione_22
+1	Ἐν	ἐν	r	r--------	_	3	AuxP	_	t_336|t_338|ref=dent._22
+2	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_337|t_336|ref=dent._22
+3	ἕλκεσι	ἕλκος	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ADV	_	t_338|e_18|ref=dent._22
+4	,	,	u	u--------	_	15	AuxX	_	t_339|e_18|ref=dent._22
+5	πουλὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ADV	_	t_340|t_343|ref=dent._22
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_341|t_342|ref=dent._22
+7	χολῶδες	χολώδης	a	a-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_342|t_343|ref=dent._22
+8	ἀνεμεῖσθαι	ἀνέμω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	ADV	_	t_343|t_344|ref=dent._22
+9	ἢ	ἤ1	c	c--------	_	15	COORD	_	t_344|e_18|ref=dent._22
+10	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_345|t_347|ref=dent._22
+11	κοιλίαν	κοιλία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_346|t_345|ref=dent._22
+12	ἔρχεσθαι	ἔρχομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	9	ADV	_	t_347|t_344|ref=dent._22
+13	,	,	u	u--------	_	15	AuxX	_	t_348|e_18|ref=dent._22
+14	κινδυνῶδες	κινδυνώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_349|e_18|ref=dent._22
+15	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=dent._1
+16	.	.	u	u--------	_	15	AuxK	_	t_350|e_18|ref=dent._22
 
-# source = Hippocrates, De dentitione 23
+# source = Hippocrates, dent. 23
 # text = 24 .
 # sent_id = 51
-1	24	24	x	x--------	_	0	AuxG	_	t_351|ref=De dentitione_23
-2	.	.	u	u--------	_	1	AuxK	_	t_352|ref=De dentitione_23
+1	24	24	x	x--------	_	0	AuxG	_	t_351|0|ref=dent._23
+2	.	.	u	u--------	_	1	AuxK	_	t_352|t_351|ref=dent._23
 
-# source = Hippocrates, De dentitione 23
+# source = Hippocrates, dent. 23
 # text = Ἐν τοῖσιν ἐν παρισθμίοισιν ἕλκεσιν , ἀραχνιῶδές τι ἐὸν οὐκ ἀγαθόν [0] .
 # sent_id = 52
-1	Ἐν	ἐν	r	r--------	_	12	AuxP	_	t_353|ref=De dentitione_23
-2	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_354|ref=De dentitione_23
-3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_355|ref=De dentitione_23
-4	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	3	OBJ	_	t_356|ref=De dentitione_23
-5	ἕλκεσιν	ἕλκος	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_357|ref=De dentitione_23
-6	,	,	u	u--------	_	5	AuxX	_	t_358|ref=De dentitione_23
-7	ἀραχνιῶδές	ἀραχνιῶδές	n	n-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_359|ref=De dentitione_23
-8	τι	τις	p	p-s---na-	Case=n|Gender=n|Number=s	9	SBJ	_	t_360|ref=De dentitione_23
-9	ἐὸν	εἰμί	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_361|ref=De dentitione_23
-10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_362|ref=De dentitione_23
-11	ἀγαθόν	ἀγαθός	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_363|ref=De dentitione_23
-12	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=De dentitione_1
-13	.	.	u	u--------	_	12	AuxK	_	t_364|ref=De dentitione_23
+1	Ἐν	ἐν	r	r--------	_	12	AuxP	_	t_353|e_19|ref=dent._23
+2	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_354|t_356|ref=dent._23
+3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_355|t_357|ref=dent._23
+4	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	3	OBJ	_	t_356|t_355|ref=dent._23
+5	ἕλκεσιν	ἕλκος	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_357|t_353|ref=dent._23
+6	,	,	u	u--------	_	5	AuxX	_	t_358|t_357|ref=dent._23
+7	ἀραχνιῶδές	ἀραχνιῶδές	n	n-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_359|e_19|ref=dent._23
+8	τι	τις	p	p-s---na-	Case=n|Gender=n|Number=s	9	SBJ	_	t_360|t_361|ref=dent._23
+9	ἐὸν	εἰμί	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_361|e_19|ref=dent._23
+10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_362|t_363|ref=dent._23
+11	ἀγαθόν	ἀγαθός	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_363|t_361|ref=dent._23
+12	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=dent._1
+13	.	.	u	u--------	_	12	AuxK	_	t_364|e_19|ref=dent._23
 
-# source = Hippocrates, De dentitione 23
+# source = Hippocrates, dent. 23
 # text = 25 .
 # sent_id = 53
-1	25	25	x	x--------	_	0	AuxG	_	t_365|ref=De dentitione_23
-2	.	.	u	u--------	_	1	AuxK	_	t_366|ref=De dentitione_23
+1	25	25	x	x--------	_	0	AuxG	_	t_365|0|ref=dent._23
+2	.	.	u	u--------	_	1	AuxK	_	t_366|t_365|ref=dent._23
 
-# source = Hippocrates, De dentitione 22-25
+# source = Hippocrates, dent. 22-25
 # text = Ἐν τοῖσιν ἐν παρισθμίοισιν ἕλκεσι μετὰ τοὺς πρώτους χρόνους διαῤῥεῖν φλέγμα διὰ τοῦ στόματος , πρότερον οὐκ ὂν , χρήσιμον , ὅμως ἀνακτέον ·
 # sent_id = 54
-1	Ἐν	ἐν	r	r--------	_	5	AuxP	_	t_367|ref=De dentitione_22
-2	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_368|ref=De dentitione_23
-3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_369|ref=De dentitione_24
-4	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_370|ref=De dentitione_24
-5	ἕλκεσι	ἕλκος	n	n-p---nd-	Case=d|Gender=n|Number=p	21	ADV	_	t_371|ref=De dentitione_24
-6	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_372|ref=De dentitione_24
-7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_373|ref=De dentitione_24
-8	πρώτους	πρῶτος	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_374|ref=De dentitione_24
-9	χρόνους	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ADV	_	t_375|ref=De dentitione_24
-10	διαῤῥεῖν	διαρρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	OBJ	_	t_376|ref=De dentitione_24
-11	φλέγμα	φλέγμα	n	n-s---na-	Case=a|Gender=n|Number=s	10	SBJ	_	t_377|ref=De dentitione_24
-12	διὰ	διά	r	r--------	_	10	AuxP	_	t_378|ref=De dentitione_24
-13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_379|ref=De dentitione_24
-14	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	12	ADV	_	t_380|ref=De dentitione_24
-15	,	,	u	u--------	_	23	AuxX	_	t_381|ref=De dentitione_24
-16	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_382|ref=De dentitione_23
-17	οὐκ	οὐ	d	d--------	_	18	AuxZ	_	t_383|ref=De dentitione_24
-18	ὂν	εἰμί	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_384|ref=De dentitione_25
-19	,	,	u	u--------	_	23	AuxX	_	t_385|ref=De dentitione_25
-20	χρήσιμον	χρήσιμος	a	a-s---na-	Case=a|Gender=n|Number=s	21	PNOM	_	t_386|ref=De dentitione_25
-21	,	,	u	u--------	_	23	COORD	_	t_387|ref=De dentitione_25
-22	ὅμως	ὅμως	d	d--------	_	23	AuxY	_	t_388|ref=De dentitione_25
-23	ἀνακτέον	ἀνακτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_389|ref=De dentitione_25
-24	·	·	u	u--------	_	21	AuxK	_	t_390|ref=De dentitione_25
+1	Ἐν	ἐν	r	r--------	_	5	AuxP	_	t_367|t_371|ref=dent._22
+2	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_368|t_370|ref=dent._23
+3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_369|t_371|ref=dent._24
+4	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_370|t_369|ref=dent._24
+5	ἕλκεσι	ἕλκος	n	n-p---nd-	Case=d|Gender=n|Number=p	21	ADV	_	t_371|t_387|ref=dent._24
+6	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_372|t_371|ref=dent._24
+7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_373|t_375|ref=dent._24
+8	πρώτους	πρῶτος	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_374|t_375|ref=dent._24
+9	χρόνους	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ADV	_	t_375|t_372|ref=dent._24
+10	διαῤῥεῖν	διαρρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	OBJ	_	t_376|t_387|ref=dent._24
+11	φλέγμα	φλέγμα	n	n-s---na-	Case=a|Gender=n|Number=s	10	SBJ	_	t_377|t_376|ref=dent._24
+12	διὰ	διά	r	r--------	_	10	AuxP	_	t_378|t_376|ref=dent._24
+13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_379|t_380|ref=dent._24
+14	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	12	ADV	_	t_380|t_378|ref=dent._24
+15	,	,	u	u--------	_	23	AuxX	_	t_381|t_389|ref=dent._24
+16	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_382|t_384|ref=dent._23
+17	οὐκ	οὐ	d	d--------	_	18	AuxZ	_	t_383|t_384|ref=dent._24
+18	ὂν	εἰμί	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_384|t_387|ref=dent._25
+19	,	,	u	u--------	_	23	AuxX	_	t_385|t_389|ref=dent._25
+20	χρήσιμον	χρήσιμος	a	a-s---na-	Case=a|Gender=n|Number=s	21	PNOM	_	t_386|t_387|ref=dent._25
+21	,	,	u	u--------	_	23	COORD	_	t_387|t_389|ref=dent._25
+22	ὅμως	ὅμως	d	d--------	_	23	AuxY	_	t_388|t_389|ref=dent._25
+23	ἀνακτέον	ἀνακτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_389|0|ref=dent._25
+24	·	·	u	u--------	_	21	AuxK	_	t_390|t_387|ref=dent._25
 
-# source = Hippocrates, De dentitione 25
+# source = Hippocrates, dent. 25
 # text = ἢν δὲ ἄρξηται ξυνδιδόναι , πάντως ἀσμενιστέον ·
 # sent_id = 55
-1	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_391|ref=De dentitione_25
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_392|ref=De dentitione_25
-3	ἄρξηται	ἄρχω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_393|ref=De dentitione_25
-4	ξυνδιδόναι	συνδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_394|ref=De dentitione_25
-5	,	,	u	u--------	_	7	AuxX	_	t_395|ref=De dentitione_25
-6	πάντως	πάντως	d	d--------	_	7	ADV	_	t_396|ref=De dentitione_25
-7	ἀσμενιστέον	ἀσμενιστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_397|ref=De dentitione_25
-8	·	·	u	u--------	_	7	AuxK	_	t_398|ref=De dentitione_25
+1	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_391|t_397|ref=dent._25
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_392|t_397|ref=dent._25
+3	ἄρξηται	ἄρχω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_393|t_391|ref=dent._25
+4	ξυνδιδόναι	συνδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_394|t_393|ref=dent._25
+5	,	,	u	u--------	_	7	AuxX	_	t_395|t_397|ref=dent._25
+6	πάντως	πάντως	d	d--------	_	7	ADV	_	t_396|t_397|ref=dent._25
+7	ἀσμενιστέον	ἀσμενιστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_397|0|ref=dent._25
+8	·	·	u	u--------	_	7	AuxK	_	t_398|t_397|ref=dent._25
 
-# source = Hippocrates, De dentitione 25
+# source = Hippocrates, dent. 25
 # text = τὸ δὲ μὴ οὕτως διαῤῥέον εὐλαβητέον .
 # sent_id = 56
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_399|ref=De dentitione_25
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_400|ref=De dentitione_25
-3	μὴ	μή	d	d--------	_	5	AuxZ	_	t_401|ref=De dentitione_25
-4	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_402|ref=De dentitione_25
-5	διαῤῥέον	διαρρέω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	6	OBJ	_	t_403|ref=De dentitione_25
-6	εὐλαβητέον	εὐλαβητέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_404|ref=De dentitione_25
-7	.	.	u	u--------	_	6	AuxK	_	t_405|ref=De dentitione_25
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_399|t_403|ref=dent._25
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_400|t_404|ref=dent._25
+3	μὴ	μή	d	d--------	_	5	AuxZ	_	t_401|t_403|ref=dent._25
+4	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_402|t_403|ref=dent._25
+5	διαῤῥέον	διαρρέω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	6	OBJ	_	t_403|t_404|ref=dent._25
+6	εὐλαβητέον	εὐλαβητέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_404|0|ref=dent._25
+7	.	.	u	u--------	_	6	AuxK	_	t_405|t_404|ref=dent._25
 
-# source = Hippocrates, De dentitione 25
+# source = Hippocrates, dent. 25
 # text = 26 [0] .
 # sent_id = 57
-1	26	26	u	u--------	_	2	AuxG	_	t_406|ref=De dentitione_25
-2	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=De dentitione_1
-3	.	.	u	u--------	_	2	AuxK	_	t_407|ref=De dentitione_25
+1	26	26	u	u--------	_	2	AuxG	_	t_406|e_20|ref=dent._25
+2	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=dent._1
+3	.	.	u	u--------	_	2	AuxK	_	t_407|e_20|ref=dent._25
 
-# source = Hippocrates, De dentitione 25
+# source = Hippocrates, dent. 25
 # text = Ῥευματιζομένοις παρίσθμια κοιλίη κατενεχθεῖσα πλείω λύει τὰς ξηρὰς βῆχας ·
 # sent_id = 58
-1	Ῥευματιζομένοις	ῥευματίζω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	OBJ	_	t_408|ref=De dentitione_25
-2	παρίσθμια	παρίσθμιος	n	n-p---nn-	Case=a|Gender=n|Number=p	6	SBJ	_	t_409|ref=De dentitione_25
-3	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_410|ref=De dentitione_25
-4	κατενεχθεῖσα	καταφέρω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_411|ref=De dentitione_25
-5	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	6	ADV	_	t_412|ref=De dentitione_25
-6	λύει	λύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_413|ref=De dentitione_25
-7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_414|ref=De dentitione_25
-8	ξηρὰς	ξηρός	a	a-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_415|ref=De dentitione_25
-9	βῆχας	βῆχας	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_416|ref=De dentitione_25
-10	·	·	u	u--------	_	6	AuxK	_	t_417|ref=De dentitione_25
+1	Ῥευματιζομένοις	ῥευματίζω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	6	OBJ	_	t_408|t_413|ref=dent._25
+2	παρίσθμια	παρίσθμιος	n	n-p---nn-	Case=a|Gender=n|Number=p	6	SBJ	_	t_409|t_413|ref=dent._25
+3	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_410|t_413|ref=dent._25
+4	κατενεχθεῖσα	καταφέρω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_411|t_413|ref=dent._25
+5	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	6	ADV	_	t_412|t_413|ref=dent._25
+6	λύει	λύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_413|0|ref=dent._25
+7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_414|t_416|ref=dent._25
+8	ξηρὰς	ξηρός	a	a-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_415|t_416|ref=dent._25
+9	βῆχας	βῆχας	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_416|t_413|ref=dent._25
+10	·	·	u	u--------	_	6	AuxK	_	t_417|t_413|ref=dent._25
 
-# source = Hippocrates, De dentitione 25
+# source = Hippocrates, dent. 25
 # text = παιδίοισιν ἀνενεχθέν τι πεπεμμένον πλείω λύει .
 # sent_id = 59
-1	παιδίοισιν	παιδίον	n	n-p---nd-	Case=d|Gender=n|Number=p	2	OBJ	_	t_418|ref=De dentitione_25
-2	ἀνενεχθέν	ἀναφέρω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_419|ref=De dentitione_25
-3	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_420|ref=De dentitione_25
-4	πεπεμμένον	πέπνυμαι	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	3	ATR	_	t_421|ref=De dentitione_25
-5	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	3	ATR	_	t_422|ref=De dentitione_25
-6	λύει	λύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_423|ref=De dentitione_25
-7	.	.	u	u--------	_	6	AuxK	_	t_424|ref=De dentitione_25
+1	παιδίοισιν	παιδίον	n	n-p---nd-	Case=d|Gender=n|Number=p	2	OBJ	_	t_418|t_419|ref=dent._25
+2	ἀνενεχθέν	ἀναφέρω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_419|t_423|ref=dent._25
+3	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_420|t_423|ref=dent._25
+4	πεπεμμένον	πέπνυμαι	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	3	ATR	_	t_421|t_420|ref=dent._25
+5	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	3	ATR	_	t_422|t_420|ref=dent._25
+6	λύει	λύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_423|0|ref=dent._25
+7	.	.	u	u--------	_	6	AuxK	_	t_424|t_423|ref=dent._25
 
-# source = Hippocrates, De dentitione 26-25
+# source = Hippocrates, dent. 26-25
 # text = 27 .
 # sent_id = 60
-1	27	27	u	u--------	_	0	AuxG	_	t_425|ref=De dentitione_26
-2	.	.	u	u--------	_	1	AuxK	_	t_426|ref=De dentitione_25
+1	27	27	u	u--------	_	0	AuxG	_	t_425|0|ref=dent._26
+2	.	.	u	u--------	_	1	AuxK	_	t_426|t_425|ref=dent._25
 
-# source = Hippocrates, De dentitione 26
+# source = Hippocrates, dent. 26
 # text = Τὰ πουλὺν χρόνον ἐν παρισθμίοις ἕλκεα ἀναυξῆ μένοντα ἀκίνδυνα πρὸ τῶν πέντε ἢ ἓξ ἡμερέων [0] .
 # sent_id = 61
-1	Τὰ	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_427|ref=De dentitione_26
-2	πουλὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_428|ref=De dentitione_26
-3	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_429|ref=De dentitione_26
-4	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_430|ref=De dentitione_26
-5	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_431|ref=De dentitione_26
-6	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_432|ref=De dentitione_26
-7	ἀναυξῆ	ἀναυξής	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_433|ref=De dentitione_26
-8	μένοντα	μένω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_434|ref=De dentitione_26
-9	ἀκίνδυνα	ἀκίνδυνος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_435|ref=De dentitione_26
-10	πρὸ	πρό	r	r--------	_	8	AuxP	_	t_436|ref=De dentitione_26
-11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	15	ATR	_	t_437|ref=De dentitione_26
-12	πέντε	πέντε	m	m--------	_	13	ATR	_	t_438|ref=De dentitione_26
-13	ἢ	ἤ1	c	c--------	_	15	COORD	_	t_439|ref=De dentitione_26
-14	ἓξ	ἕξ	m	m--------	_	13	ATR	_	t_440|ref=De dentitione_26
-15	ἡμερέων	ἡμέρα	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ADV	_	t_441|ref=De dentitione_26
-16	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=De dentitione_2
-17	.	.	u	u--------	_	16	AuxK	_	t_442|ref=De dentitione_26
+1	Τὰ	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_427|t_429|ref=dent._26
+2	πουλὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_428|t_429|ref=dent._26
+3	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_429|e_21|ref=dent._26
+4	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_430|t_434|ref=dent._26
+5	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_431|t_430|ref=dent._26
+6	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_432|e_21|ref=dent._26
+7	ἀναυξῆ	ἀναυξής	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_433|t_432|ref=dent._26
+8	μένοντα	μένω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_434|t_432|ref=dent._26
+9	ἀκίνδυνα	ἀκίνδυνος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_435|t_432|ref=dent._26
+10	πρὸ	πρό	r	r--------	_	8	AuxP	_	t_436|t_434|ref=dent._26
+11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	15	ATR	_	t_437|t_441|ref=dent._26
+12	πέντε	πέντε	m	m--------	_	13	ATR	_	t_438|t_439|ref=dent._26
+13	ἢ	ἤ1	c	c--------	_	15	COORD	_	t_439|t_441|ref=dent._26
+14	ἓξ	ἕξ	m	m--------	_	13	ATR	_	t_440|t_439|ref=dent._26
+15	ἡμερέων	ἡμέρα	n	n-p---fg-	Case=g|Gender=f|Number=p	10	ADV	_	t_441|t_436|ref=dent._26
+16	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=dent._2
+17	.	.	u	u--------	_	16	AuxK	_	t_442|e_21|ref=dent._26
 
-# source = Hippocrates, De dentitione 26
+# source = Hippocrates, dent. 26
 # text = 28 [0] .
 # sent_id = 62
-1	28	28	x	x--------	_	2	AuxG	_	t_443|ref=De dentitione_26
-2	[0]	[0]	-	---------	_	0	PRED	_	e_22|ref=De dentitione_2
-3	.	.	u	u--------	_	2	AuxK	_	t_444|ref=De dentitione_26
+1	28	28	x	x--------	_	2	AuxG	_	t_443|e_22|ref=dent._26
+2	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=dent._2
+3	.	.	u	u--------	_	2	AuxK	_	t_444|e_22|ref=dent._26
 
-# source = Hippocrates, De dentitione 27
+# source = Hippocrates, dent. 27
 # text = Τὰ πουλὺ γάλα τῶν θηλαζόντων ἀναλαμβάνοντα , ὡς τὸ πουλὺ ὑπνώδη [0] .
 # sent_id = 63
-1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_445|ref=De dentitione_27
-2	πουλὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_446|ref=De dentitione_27
-3	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_447|ref=De dentitione_27
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_448|ref=De dentitione_27
-5	θηλαζόντων	θηλάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_449|ref=De dentitione_27
-6	ἀναλαμβάνοντα	ἀναλαμβάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_450|ref=De dentitione_27
-7	,	,	u	u--------	_	8	AuxX	_	t_451|ref=De dentitione_27
-8	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_452|ref=De dentitione_27
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_453|ref=De dentitione_27
-10	πουλὺ	πολύς	n	n-s---fn-	Case=n|Gender=n|Number=s	11	ATR	_	t_454|ref=De dentitione_27
-11	ὑπνώδη	ὑπνώδης	a	a-p---nn-	Mood=o|Number=s|Person=3|Tense=p|Voice=a	12	PNOM	_	t_455|ref=De dentitione_27
-12	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=De dentitione_2
-13	.	.	u	u--------	_	12	AuxK	_	t_456|ref=De dentitione_27
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_445|t_447|ref=dent._27
+2	πουλὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_446|t_447|ref=dent._27
+3	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_447|e_23|ref=dent._27
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_448|t_449|ref=dent._27
+5	θηλαζόντων	θηλάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_449|t_447|ref=dent._27
+6	ἀναλαμβάνοντα	ἀναλαμβάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_450|t_447|ref=dent._27
+7	,	,	u	u--------	_	8	AuxX	_	t_451|t_452|ref=dent._27
+8	ὡς	ὡς	c	c--------	_	12	AuxC	_	t_452|e_23|ref=dent._27
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_453|t_454|ref=dent._27
+10	πουλὺ	πολύς	n	n-s---fn-	Case=n|Gender=n|Number=s	11	ATR	_	t_454|t_455|ref=dent._27
+11	ὑπνώδη	ὑπνώδης	a	a-p---nn-	Mood=o|Number=s|Person=3|Tense=p|Voice=a	12	PNOM	_	t_455|e_23|ref=dent._27
+12	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=dent._2
+13	.	.	u	u--------	_	12	AuxK	_	t_456|e_23|ref=dent._27
 
-# source = Hippocrates, De dentitione 27
+# source = Hippocrates, dent. 27
 # text = 29 [0] .
 # sent_id = 64
-1	29	29	x	x--------	_	2	AuxK	_	t_457|ref=De dentitione_27
-2	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=De dentitione_2
-3	.	.	u	u--------	_	2	AuxK	_	t_458|ref=De dentitione_27
+1	29	29	x	x--------	_	2	AuxK	_	t_457|e_24|ref=dent._27
+2	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=dent._2
+3	.	.	u	u--------	_	2	AuxK	_	t_458|e_24|ref=dent._27
 
-# source = Hippocrates, De dentitione 27-28
+# source = Hippocrates, dent. 27-28
 # text = Τὰ μὴ εὐτροφέα τῶν θηλαζόντων ἄτροφα καὶ δυσανάληπτα [0] .
 # sent_id = 65
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_459|ref=De dentitione_27
-2	μὴ	μή	c	c--------	_	3	AuxZ	_	t_460|ref=De dentitione_27
-3	εὐτροφέα	εὐτροφής	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_461|ref=De dentitione_27
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_462|ref=De dentitione_26
-5	θηλαζόντων	θηλάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_463|ref=De dentitione_27
-6	ἄτροφα	ἄτροφος	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_464|ref=De dentitione_28
-7	καὶ	καί	c	c--------	_	9	COORD	_	t_465|ref=De dentitione_26
-8	δυσανάληπτα	δυσανάληπτος	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_466|ref=De dentitione_28
-9	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=De dentitione_2
-10	.	.	u	u--------	_	9	AuxK	_	t_467|ref=De dentitione_28
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_459|t_461|ref=dent._27
+2	μὴ	μή	c	c--------	_	3	AuxZ	_	t_460|t_461|ref=dent._27
+3	εὐτροφέα	εὐτροφής	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_461|e_25|ref=dent._27
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_462|t_463|ref=dent._26
+5	θηλαζόντων	θηλάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_463|t_461|ref=dent._27
+6	ἄτροφα	ἄτροφος	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_464|t_465|ref=dent._28
+7	καὶ	καί	c	c--------	_	9	COORD	_	t_465|e_25|ref=dent._26
+8	δυσανάληπτα	δυσανάληπτος	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_466|t_465|ref=dent._28
+9	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=dent._2
+10	.	.	u	u--------	_	9	AuxK	_	t_467|e_25|ref=dent._28
 
-# source = Hippocrates, De dentitione 28
+# source = Hippocrates, dent. 28
 # text = 30 [0] .
 # sent_id = 66
-1	30	30	u	u--------	_	2	AuxG	_	t_468|ref=De dentitione_28
-2	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=De dentitione_2
-3	.	.	u	u--------	_	2	AuxK	_	t_469|ref=De dentitione_28
+1	30	30	u	u--------	_	2	AuxG	_	t_468|e_26|ref=dent._28
+2	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=dent._2
+3	.	.	u	u--------	_	2	AuxK	_	t_469|e_26|ref=dent._28
 
-# source = Hippocrates, De dentitione 28-29
+# source = Hippocrates, dent. 28-29
 # text = Ἕλκεα ἐν θέρει γιγνόμενα ἐν παρισθμίοις , χείρονα τῶν ἐν τῇσιν ἄλλῃσιν ὥρῃσιν [0] ·
 # sent_id = 67
-1	Ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_470|ref=De dentitione_28
-2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_471|ref=De dentitione_28
-3	θέρει	θέρος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	ADV	_	t_472|ref=De dentitione_28
-4	γιγνόμενα	γίγνομαι	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	1	ATR	_	t_473|ref=De dentitione_28
-5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_474|ref=De dentitione_28
-6	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_475|ref=De dentitione_28
-7	,	,	u	u--------	_	14	AuxX	_	t_476|ref=De dentitione_28
-8	χείρονα	χείρων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	1	ATR	_	t_477|ref=De dentitione_28
-9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ADV	_	t_478|ref=De dentitione_27
-10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_479|ref=De dentitione_28
-11	τῇσιν	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_480|ref=De dentitione_29
-12	ἄλλῃσιν	ἄλλος	a	a-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_481|ref=De dentitione_27
-13	ὥρῃσιν	ὥρα	n	n-p---fd-	Case=d|Gender=f|Number=p	10	ATR	_	t_482|ref=De dentitione_29
-14	[0]	[0]	-	---------	_	0	PRED	_	e_27|ref=De dentitione_2
-15	·	·	u	u--------	_	14	AuxK	_	t_483|ref=De dentitione_29
+1	Ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_470|e_27|ref=dent._28
+2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_471|t_473|ref=dent._28
+3	θέρει	θέρος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	ADV	_	t_472|t_471|ref=dent._28
+4	γιγνόμενα	γίγνομαι	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	1	ATR	_	t_473|t_470|ref=dent._28
+5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_474|t_473|ref=dent._28
+6	παρισθμίοις	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_475|t_474|ref=dent._28
+7	,	,	u	u--------	_	14	AuxX	_	t_476|e_27|ref=dent._28
+8	χείρονα	χείρων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	1	ATR	_	t_477|t_470|ref=dent._28
+9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ADV	_	t_478|t_477|ref=dent._27
+10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_479|t_478|ref=dent._28
+11	τῇσιν	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_480|t_482|ref=dent._29
+12	ἄλλῃσιν	ἄλλος	a	a-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_481|t_482|ref=dent._27
+13	ὥρῃσιν	ὥρα	n	n-p---fd-	Case=d|Gender=f|Number=p	10	ATR	_	t_482|t_479|ref=dent._29
+14	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=dent._2
+15	·	·	u	u--------	_	14	AuxK	_	t_483|e_27|ref=dent._29
 
-# source = Hippocrates, De dentitione 29
+# source = Hippocrates, dent. 29
 # text = τάχιον γὰρ νέμεται .
 # sent_id = 68
-1	τάχιον	ταχύς	a	a-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_484|ref=De dentitione_29
-2	γὰρ	γάρ	g	g--------	_	3	AuxY	_	t_485|ref=De dentitione_29
-3	νέμεται	νέμω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_486|ref=De dentitione_29
-4	.	.	u	u--------	_	3	AuxK	_	t_487|ref=De dentitione_29
+1	τάχιον	ταχύς	a	a-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_484|t_486|ref=dent._29
+2	γὰρ	γάρ	g	g--------	_	3	AuxY	_	t_485|t_486|ref=dent._29
+3	νέμεται	νέμω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_486|0|ref=dent._29
+4	.	.	u	u--------	_	3	AuxK	_	t_487|t_486|ref=dent._29
 
-# source = Hippocrates, De dentitione 29
+# source = Hippocrates, dent. 29
 # text = 31 .
 # sent_id = 69
-1	31	31	x	x--------	_	0	AuxG	_	t_488|ref=De dentitione_29
-2	.	.	u	u--------	_	1	AuxK	_	t_489|ref=De dentitione_29
+1	31	31	x	x--------	_	0	AuxG	_	t_488|0|ref=dent._29
+2	.	.	u	u--------	_	1	AuxK	_	t_489|t_488|ref=dent._29
 
-# source = Hippocrates, De dentitione 29-30
+# source = Hippocrates, dent. 29-30
 # text = Τὰ περὶ σταφυλὴν νεμόμενα ἕλκεα ἐν παρισθμίοισιν , σωζομένοισι τὴν φωνὴν ἀλλοιοῖ [0] .
 # sent_id = 70
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_490|ref=De dentitione_29
-2	περὶ	περί	r	r--------	_	4	AuxP	_	t_491|ref=De dentitione_28
-3	σταφυλὴν	σταφυλή	n	n-s---fa-	Case=a|Gender=f|Number=s	2	ADV	_	t_492|ref=De dentitione_29
-4	νεμόμενα	νέμω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	ATR	_	t_493|ref=De dentitione_30
-5	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_494|ref=De dentitione_28
-6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_495|ref=De dentitione_30
-7	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_496|ref=De dentitione_30
-8	,	,	u	u--------	_	9	AuxX	_	t_497|ref=De dentitione_30
-9	σωζομένοισι	σώζω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ATR	_	t_498|ref=De dentitione_30
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_499|ref=De dentitione_30
-11	φωνὴν	φωνή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_500|ref=De dentitione_30
-12	ἀλλοιοῖ	ἀλλοιόω	a	a-p---mn-	Case=n|Gender=m|Number=p	13	ADV	_	t_501|ref=De dentitione_30
-13	[0]	[0]	-	---------	_	0	PRED	_	e_28|ref=De dentitione_2
-14	.	.	u	u--------	_	13	AuxK	_	t_502|ref=De dentitione_30
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_490|t_494|ref=dent._29
+2	περὶ	περί	r	r--------	_	4	AuxP	_	t_491|t_493|ref=dent._28
+3	σταφυλὴν	σταφυλή	n	n-s---fa-	Case=a|Gender=f|Number=s	2	ADV	_	t_492|t_491|ref=dent._29
+4	νεμόμενα	νέμω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	ATR	_	t_493|t_494|ref=dent._30
+5	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_494|e_28|ref=dent._28
+6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_495|t_494|ref=dent._30
+7	παρισθμίοισιν	παρίσθμιος	n	n-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_496|t_495|ref=dent._30
+8	,	,	u	u--------	_	9	AuxX	_	t_497|t_498|ref=dent._30
+9	σωζομένοισι	σώζω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ATR	_	t_498|t_501|ref=dent._30
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_499|t_500|ref=dent._30
+11	φωνὴν	φωνή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_500|t_498|ref=dent._30
+12	ἀλλοιοῖ	ἀλλοιόω	a	a-p---mn-	Case=n|Gender=m|Number=p	13	ADV	_	t_501|e_28|ref=dent._30
+13	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=dent._2
+14	.	.	u	u--------	_	13	AuxK	_	t_502|e_28|ref=dent._30
 
-# source = Hippocrates, De dentitione 30
+# source = Hippocrates, dent. 30
 # text = 32 .
 # sent_id = 71
-1	32	32	u	u--------	_	0	AuxG	_	t_503|ref=De dentitione_30
-2	.	.	u	u--------	_	1	AuxK	_	t_504|ref=De dentitione_30
+1	32	32	u	u--------	_	0	AuxG	_	t_503|0|ref=dent._30
+2	.	.	u	u--------	_	1	AuxK	_	t_504|t_503|ref=dent._30
 
-# source = Hippocrates, De dentitione 30-31
+# source = Hippocrates, dent. 30-31
 # text = Τὰ περὶ φάρυγγα νεμόμενα ἕλκεα χαλεπώτερα καὶ ὀξύτερα , ὡς ἐπιπολὺ δύσπνοιαν ἐπιφέρει .
 # sent_id = 72
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_505|ref=De dentitione_30
-2	περὶ	περί	r	r--------	_	4	AuxP	_	t_506|ref=De dentitione_30
-3	φάρυγγα	φάρυγξ	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ADV	_	t_507|ref=De dentitione_30
-4	νεμόμενα	νέμω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	ATR	_	t_508|ref=De dentitione_30
-5	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	0	PRED	_	t_509|ref=De dentitione_29
-6	χαλεπώτερα	χαλεπός	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	7	ATR	_	t_510|ref=De dentitione_30
-7	καὶ	καί	c	c--------	_	5	COORD	_	t_511|ref=De dentitione_30
-8	ὀξύτερα	ὀξύς	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	7	ATR	_	t_512|ref=De dentitione_30
-9	,	,	u	u--------	_	10	AuxX	_	t_513|ref=De dentitione_30
-10	ὡς	ὡς	c	c--------	_	5	AuxC	_	t_514|ref=De dentitione_30
-11	ἐπιπολὺ	ἐπιπολὺ	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_515|ref=De dentitione_31
-12	δύσπνοιαν	δύσπνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_516|ref=De dentitione_31
-13	ἐπιφέρει	ἐπιφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_517|ref=De dentitione_31
-14	.	.	u	u--------	_	5	AuxK	_	t_518|ref=De dentitione_31
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_505|t_509|ref=dent._30
+2	περὶ	περί	r	r--------	_	4	AuxP	_	t_506|t_508|ref=dent._30
+3	φάρυγγα	φάρυγξ	n	n-s---ma-	Case=a|Gender=m|Number=s	2	ADV	_	t_507|t_506|ref=dent._30
+4	νεμόμενα	νέμω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	ATR	_	t_508|t_509|ref=dent._30
+5	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	0	PRED	_	t_509|0|ref=dent._29
+6	χαλεπώτερα	χαλεπός	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	7	ATR	_	t_510|t_511|ref=dent._30
+7	καὶ	καί	c	c--------	_	5	COORD	_	t_511|t_509|ref=dent._30
+8	ὀξύτερα	ὀξύς	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	7	ATR	_	t_512|t_511|ref=dent._30
+9	,	,	u	u--------	_	10	AuxX	_	t_513|t_514|ref=dent._30
+10	ὡς	ὡς	c	c--------	_	5	AuxC	_	t_514|t_509|ref=dent._30
+11	ἐπιπολὺ	ἐπιπολὺ	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_515|t_517|ref=dent._31
+12	δύσπνοιαν	δύσπνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_516|t_517|ref=dent._31
+13	ἐπιφέρει	ἐπιφέρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_517|t_514|ref=dent._31
+14	.	.	u	u--------	_	5	AuxK	_	t_518|t_509|ref=dent._31
 

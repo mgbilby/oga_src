@@ -1,1117 +1,1117 @@
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ὦ Ζεῦ , τί χρήσωμαι ;
 # sent_id = 1
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_1|ref=Orationes 20_260
-2	Ζεῦ	ζεύς	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ExD	_	t_2|ref=Orationes 20_260
-3	,	,	u	u--------	_	2	AuxX	_	t_3|ref=Orationes 20_260
-4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_4|ref=Orationes 20_260
-5	χρήσωμαι	χράω2	v	v1sasm---	Mood=s|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_5|ref=Orationes 20_260
-6	;	;	u	u--------	_	5	AuxK	_	t_6|ref=Orationes 20_260
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_1|t_2|ref=Orat.20_260
+2	Ζεῦ	ζεύς	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ExD	_	t_2|t_5|ref=Orat.20_260
+3	,	,	u	u--------	_	2	AuxX	_	t_3|t_2|ref=Orat.20_260
+4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_4|t_5|ref=Orat.20_260
+5	χρήσωμαι	χράω2	v	v1sasm---	Mood=s|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_5|0|ref=Orat.20_260
+6	;	;	u	u--------	_	5	AuxK	_	t_6|t_5|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = πότερον σιωπῶ Σμύρνης κειμένης ;
 # sent_id = 2
-1	πότερον	πότερον	a	a-s---na-	Case=a|Gender=n|Number=s	2	AuxY	_	t_7|ref=Orationes 20_260
-2	σιωπῶ	σιωπάω	v	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_8|ref=Orationes 20_260
-3	Σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	4	SBJ	_	t_9|ref=Orationes 20_260
-4	κειμένης	κεῖμαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	2	ADV	_	t_10|ref=Orationes 20_260
-5	;	;	u	u--------	_	2	AuxK	_	t_11|ref=Orationes 20_260
+1	πότερον	πότερον	a	a-s---na-	Case=a|Gender=n|Number=s	2	AuxY	_	t_7|t_8|ref=Orat.20_260
+2	σιωπῶ	σιωπάω	v	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_8|0|ref=Orat.20_260
+3	Σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	4	SBJ	_	t_9|t_10|ref=Orat.20_260
+4	κειμένης	κεῖμαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	2	ADV	_	t_10|t_8|ref=Orat.20_260
+5	;	;	u	u--------	_	2	AuxK	_	t_11|t_8|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = τίνος μεταλαβὼν ἀδάμαντος φύσιν [0] ;
 # sent_id = 3
-1	τίνος	τις	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_12|ref=Orationes 20_260
-2	μεταλαβὼν	μεταλαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_13|ref=Orationes 20_260
-3	ἀδάμαντος	ἀδάμας	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_14|ref=Orationes 20_260
-4	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_15|ref=Orationes 20_260
-5	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Orationes 20_260
-6	;	;	u	u--------	_	5	AuxK	_	t_16|ref=Orationes 20_260
+1	τίνος	τις	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_12|t_15|ref=Orat.20_260
+2	μεταλαβὼν	μεταλαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_13|e_1|ref=Orat.20_260
+3	ἀδάμαντος	ἀδάμας	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_14|t_15|ref=Orat.20_260
+4	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_15|t_13|ref=Orat.20_260
+5	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Orat.20_260
+6	;	;	u	u--------	_	5	AuxK	_	t_16|e_1|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ἢ τίνα ταύτην καρτερίαν καρτερῶν [0] ;
 # sent_id = 4
-1	ἢ	ἤ1	d	d--------	_	6	AuxY	_	t_17|ref=Orationes 20_260
-2	τίνα	τις	p	p-s---ca-	Case=a|Gender=c|Number=s	4	ATR	_	t_18|ref=Orationes 20_260
-3	ταύτην	οὗτος	p	p-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_19|ref=Orationes 20_260
-4	καρτερίαν	καρτερία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_20|ref=Orationes 20_260
-5	καρτερῶν	καρτερός	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_21|ref=Orationes 20_260
-6	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Orationes 20_260
-7	;	;	u	u--------	_	6	AuxK	_	t_22|ref=Orationes 20_260
+1	ἢ	ἤ1	d	d--------	_	6	AuxY	_	t_17|e_2|ref=Orat.20_260
+2	τίνα	τις	p	p-s---ca-	Case=a|Gender=c|Number=s	4	ATR	_	t_18|t_20|ref=Orat.20_260
+3	ταύτην	οὗτος	p	p-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_19|t_20|ref=Orat.20_260
+4	καρτερίαν	καρτερία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_20|t_21|ref=Orat.20_260
+5	καρτερῶν	καρτερός	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_21|e_2|ref=Orat.20_260
+6	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Orat.20_260
+7	;	;	u	u--------	_	6	AuxK	_	t_22|e_2|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ἀλλʼ ὀδύρωμαι ;
 # sent_id = 5
-1	ἀλλʼ	ἀλλά	d	d--------	_	2	AuxY	_	t_23|ref=Orationes 20_260
-2	ὀδύρωμαι	ὀδύρομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_24|ref=Orationes 20_260
-3	;	;	u	u--------	_	2	AuxK	_	t_25|ref=Orationes 20_260
+1	ἀλλʼ	ἀλλά	d	d--------	_	2	AuxY	_	t_23|t_24|ref=Orat.20_260
+2	ὀδύρωμαι	ὀδύρομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_24|0|ref=Orat.20_260
+3	;	;	u	u--------	_	2	AuxK	_	t_25|t_24|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ποίαν ἁρμονίαν ἁρμοσάμενος , ἢ τίνα τόλμαν τοσαύτην λαβών [0] ;
 # sent_id = 6
-1	ποίαν	ποῖος	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_26|ref=Orationes 20_260
-2	ἁρμονίαν	ἁρμονία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_27|ref=Orationes 20_260
-3	ἁρμοσάμενος	ἁρμόζω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	5	ADV	_	t_28|ref=Orationes 20_260
-4	,	,	u	u--------	_	5	AuxX	_	t_29|ref=Orationes 20_260
-5	ἢ	ἤ1	c	c--------	_	10	COORD	_	t_30|ref=Orationes 20_260
-6	τίνα	τις	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_31|ref=Orationes 20_260
-7	τόλμαν	τόλμα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_32|ref=Orationes 20_260
-8	τοσαύτην	τοσοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_33|ref=Orationes 20_260
-9	λαβών	λαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_34|ref=Orationes 20_260
-10	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Orationes 20_260
-11	;	;	u	u--------	_	10	AuxK	_	t_35|ref=Orationes 20_260
+1	ποίαν	ποῖος	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_26|t_27|ref=Orat.20_260
+2	ἁρμονίαν	ἁρμονία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_27|t_28|ref=Orat.20_260
+3	ἁρμοσάμενος	ἁρμόζω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	5	ADV	_	t_28|t_30|ref=Orat.20_260
+4	,	,	u	u--------	_	5	AuxX	_	t_29|t_30|ref=Orat.20_260
+5	ἢ	ἤ1	c	c--------	_	10	COORD	_	t_30|e_3|ref=Orat.20_260
+6	τίνα	τις	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_31|t_32|ref=Orat.20_260
+7	τόλμαν	τόλμα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_32|t_34|ref=Orat.20_260
+8	τοσαύτην	τοσοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_33|t_32|ref=Orat.20_260
+9	λαβών	λαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_34|t_30|ref=Orat.20_260
+10	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Orat.20_260
+11	;	;	u	u--------	_	10	AuxK	_	t_35|e_3|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ὅσαι γὰρ Ἑλλήνων καὶ βαρβάρων φωναὶ , τῶν τε ὑπὲρ γῆς ἔτι καὶ τῶν ἐκ τοῦ παντὸς αἰῶνος γενομένων , εἰς ταυτὸν ἅπασαι λόγῳ συνελθοῦσαι ἐλάττους τοῦδε τοῦ πράγματος ἐγχειρῆσαι μόνον , μὴ ὅτι τὴν ἀξίαν σῶσαι [0] .
 # sent_id = 7
-1	ὅσαι	ὅσος	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_36|ref=Orationes 20_260
-2	γὰρ	γάρ	d	d--------	_	38	AuxY	_	t_37|ref=Orationes 20_260
-3	Ἑλλήνων	ἕλλην	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_38|ref=Orationes 20_260
-4	καὶ	καί	c	c--------	_	6	COORD	_	t_39|ref=Orationes 20_260
-5	βαρβάρων	βάρβαρος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_40|ref=Orationes 20_260
-6	φωναὶ	φωνή	n	n-p---fn-	Case=n|Gender=f|Number=p	38	PNOM	_	t_41|ref=Orationes 20_260
-7	,	,	u	u--------	_	38	AuxX	_	t_42|ref=Orationes 20_260
-8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_43|ref=Orationes 20_260
-9	τε	τε	d	d--------	_	13	AuxY	_	t_44|ref=Orationes 20_260
-10	ὑπὲρ	ὑπέρ	r	r--------	_	8	AuxP	_	t_45|ref=Orationes 20_260
-11	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_46|ref=Orationes 20_260
-12	ἔτι	ἔτι	d	d--------	_	9	ADV	_	t_47|ref=Orationes 20_260
-13	καὶ	καί	c	c--------	_	6	COORD	_	t_48|ref=Orationes 20_260
-14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_49|ref=Orationes 20_260
-15	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_50|ref=Orationes 20_260
-16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_51|ref=Orationes 20_260
-17	παντὸς	πᾶς	a	a-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_52|ref=Orationes 20_260
-18	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	15	PNOM	_	t_53|ref=Orationes 20_260
-19	γενομένων	γίγνομαι	v	v-papmmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	13	ATR	_	t_54|ref=Orationes 20_260
-20	,	,	u	u--------	_	38	AuxX	_	t_55|ref=Orationes 20_260
-21	εἰς	εἰς	r	r--------	_	25	AuxP	_	t_56|ref=Orationes 20_260
-22	ταυτὸν	οὗτος	p	p-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_57|ref=Orationes 20_260
-23	ἅπασαι	ἅπας	a	a-p---fn-	Case=n|Gender=f|Number=p	30	SBJ	_	t_58|ref=Orationes 20_260
-24	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	25	ADV	_	t_59|ref=Orationes 20_260
-25	συνελθοῦσαι	συνέρχομαι	v	v-papafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=a|Voice=a	30	ADV	_	t_60|ref=Orationes 20_260
-26	ἐλάττους	ἐλάσσων	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	30	OBJ	_	t_61|ref=Orationes 20_260
-27	τοῦδε	ὅδε	p	p-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_62|ref=Orationes 20_260
-28	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_63|ref=Orationes 20_260
-29	πράγματος	πρᾶγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	26	ADV	_	t_64|ref=Orationes 20_260
-30	ἐγχειρῆσαι	ἐγχειρέω	v	v--ana---	Mood=n|Tense=a|Voice=a	38	OBJ	_	t_65|ref=Orationes 20_260
-31	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	30	ADV	_	t_66|ref=Orationes 20_260
-32	,	,	u	u--------	_	38	AuxX	_	t_67|ref=Orationes 20_260
-33	μὴ	μή	d	d--------	_	34	AuxZ	_	t_68|ref=Orationes 20_260
-34	ὅτι	ὅτι	c	c--------	Case=a|Gender=n|Number=s	30	AuxC	_	t_69|ref=Orationes 20_260
-35	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	36	ATR	_	t_70|ref=Orationes 20_260
-36	ἀξίαν	ἀξία	n	n-s---fa-	Case=a|Gender=f|Number=s	37	OBJ	_	t_71|ref=Orationes 20_260
-37	σῶσαι	σώζω	v	v--ana---	Mood=n|Tense=a|Voice=a	34	ADV	_	t_72|ref=Orationes 20_260
-38	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Orationes 20_260
-39	.	.	u	u--------	_	38	AuxK	_	t_73|ref=Orationes 20_260
+1	ὅσαι	ὅσος	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_36|t_41|ref=Orat.20_260
+2	γὰρ	γάρ	d	d--------	_	38	AuxY	_	t_37|e_4|ref=Orat.20_260
+3	Ἑλλήνων	ἕλλην	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_38|t_39|ref=Orat.20_260
+4	καὶ	καί	c	c--------	_	6	COORD	_	t_39|t_41|ref=Orat.20_260
+5	βαρβάρων	βάρβαρος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_40|t_39|ref=Orat.20_260
+6	φωναὶ	φωνή	n	n-p---fn-	Case=n|Gender=f|Number=p	38	PNOM	_	t_41|e_4|ref=Orat.20_260
+7	,	,	u	u--------	_	38	AuxX	_	t_42|e_4|ref=Orat.20_260
+8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_43|t_48|ref=Orat.20_260
+9	τε	τε	d	d--------	_	13	AuxY	_	t_44|t_48|ref=Orat.20_260
+10	ὑπὲρ	ὑπέρ	r	r--------	_	8	AuxP	_	t_45|t_43|ref=Orat.20_260
+11	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_46|t_45|ref=Orat.20_260
+12	ἔτι	ἔτι	d	d--------	_	9	ADV	_	t_47|t_44|ref=Orat.20_260
+13	καὶ	καί	c	c--------	_	6	COORD	_	t_48|t_41|ref=Orat.20_260
+14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_49|t_54|ref=Orat.20_260
+15	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_50|t_54|ref=Orat.20_260
+16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_51|t_53|ref=Orat.20_260
+17	παντὸς	πᾶς	a	a-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_52|t_53|ref=Orat.20_260
+18	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	15	PNOM	_	t_53|t_50|ref=Orat.20_260
+19	γενομένων	γίγνομαι	v	v-papmmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	13	ATR	_	t_54|t_48|ref=Orat.20_260
+20	,	,	u	u--------	_	38	AuxX	_	t_55|e_4|ref=Orat.20_260
+21	εἰς	εἰς	r	r--------	_	25	AuxP	_	t_56|t_60|ref=Orat.20_260
+22	ταυτὸν	οὗτος	p	p-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_57|t_56|ref=Orat.20_260
+23	ἅπασαι	ἅπας	a	a-p---fn-	Case=n|Gender=f|Number=p	30	SBJ	_	t_58|t_65|ref=Orat.20_260
+24	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	25	ADV	_	t_59|t_60|ref=Orat.20_260
+25	συνελθοῦσαι	συνέρχομαι	v	v-papafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=a|Voice=a	30	ADV	_	t_60|t_65|ref=Orat.20_260
+26	ἐλάττους	ἐλάσσων	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	30	OBJ	_	t_61|t_65|ref=Orat.20_260
+27	τοῦδε	ὅδε	p	p-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_62|t_64|ref=Orat.20_260
+28	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_63|t_64|ref=Orat.20_260
+29	πράγματος	πρᾶγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	26	ADV	_	t_64|t_61|ref=Orat.20_260
+30	ἐγχειρῆσαι	ἐγχειρέω	v	v--ana---	Mood=n|Tense=a|Voice=a	38	OBJ	_	t_65|e_4|ref=Orat.20_260
+31	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	30	ADV	_	t_66|t_65|ref=Orat.20_260
+32	,	,	u	u--------	_	38	AuxX	_	t_67|e_4|ref=Orat.20_260
+33	μὴ	μή	d	d--------	_	34	AuxZ	_	t_68|t_69|ref=Orat.20_260
+34	ὅτι	ὅτι	c	c--------	Case=a|Gender=n|Number=s	30	AuxC	_	t_69|t_65|ref=Orat.20_260
+35	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	36	ATR	_	t_70|t_71|ref=Orat.20_260
+36	ἀξίαν	ἀξία	n	n-s---fa-	Case=a|Gender=f|Number=s	37	OBJ	_	t_71|t_72|ref=Orat.20_260
+37	σῶσαι	σώζω	v	v--ana---	Mood=n|Tense=a|Voice=a	34	ADV	_	t_72|t_69|ref=Orat.20_260
+38	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Orat.20_260
+39	.	.	u	u--------	_	38	AuxK	_	t_73|e_4|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ὦ μήκιστα μηκίστων ἰδὼν καὶ ἀκούσας ἐγώ [0] .
 # sent_id = 8
-1	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_74|ref=Orationes 20_260
-2	μήκιστα	μήκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_75|ref=Orationes 20_260
-3	μηκίστων	μήκιστος	a	a-p---mg-	Case=g|Gender=n|Number=p	8	PNOM	_	t_76|ref=Orationes 20_260
-4	ἰδὼν	εἶδον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_77|ref=Orationes 20_260
-5	καὶ	καί	c	c--------	_	8	COORD	_	t_78|ref=Orationes 20_260
-6	ἀκούσας	ἀκούω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_79|ref=Orationes 20_260
-7	ἐγώ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_80|ref=Orationes 20_260
-8	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Orationes 20_260
-9	.	.	u	u--------	_	8	AuxK	_	t_81|ref=Orationes 20_260
+1	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_74|t_78|ref=Orat.20_260
+2	μήκιστα	μήκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_75|e_5|ref=Orat.20_260
+3	μηκίστων	μήκιστος	a	a-p---mg-	Case=g|Gender=n|Number=p	8	PNOM	_	t_76|e_5|ref=Orat.20_260
+4	ἰδὼν	εἶδον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_77|t_78|ref=Orat.20_260
+5	καὶ	καί	c	c--------	_	8	COORD	_	t_78|e_5|ref=Orat.20_260
+6	ἀκούσας	ἀκούω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_79|t_78|ref=Orat.20_260
+7	ἐγώ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_80|e_5|ref=Orat.20_260
+8	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Orat.20_260
+9	.	.	u	u--------	_	8	AuxK	_	t_81|e_5|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ὦ πάντα φέρων χρόνος , οἵαν ἰδέαν πόλεως ἐξευρὼν καὶ τεχνησάμενος , εἶτα ἀναλώσας ἔχεις .
 # sent_id = 9
-1	ὦ	ὦ	i	i--------	_	4	AuxZ	_	t_82|ref=Orationes 20_260
-2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_83|ref=Orationes 20_260
-3	φέρων	φέρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_84|ref=Orationes 20_260
-4	χρόνος	χρόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	ExD	_	t_85|ref=Orationes 20_260
-5	,	,	u	u--------	_	4	AuxX	_	t_86|ref=Orationes 20_260
-6	οἵαν	οἷος	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_87|ref=Orationes 20_260
-7	ἰδέαν	ἰδέα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_88|ref=Orationes 20_260
-8	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_89|ref=Orationes 20_260
-9	ἐξευρὼν	ἐξευρίσκω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_90|ref=Orationes 20_260
-10	καὶ	καί	c	c--------	_	15	COORD	_	t_91|ref=Orationes 20_260
-11	τεχνησάμενος	τεχνάομαι	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	10	ADV	_	t_92|ref=Orationes 20_260
-12	,	,	u	u--------	_	14	AuxX	_	t_93|ref=Orationes 20_260
-13	εἶτα	εἶτα	d	d--------	_	14	ADV	_	t_94|ref=Orationes 20_260
-14	ἀναλώσας	ἀναλίσκω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	15	ADV	_	t_95|ref=Orationes 20_260
-15	ἔχεις	ἔχω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_96|ref=Orationes 20_260
-16	.	.	u	u--------	_	15	AuxK	_	t_97|ref=Orationes 20_260
+1	ὦ	ὦ	i	i--------	_	4	AuxZ	_	t_82|t_85|ref=Orat.20_260
+2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_83|t_84|ref=Orat.20_260
+3	φέρων	φέρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_84|t_85|ref=Orat.20_260
+4	χρόνος	χρόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	ExD	_	t_85|t_96|ref=Orat.20_260
+5	,	,	u	u--------	_	4	AuxX	_	t_86|t_85|ref=Orat.20_260
+6	οἵαν	οἷος	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_87|t_88|ref=Orat.20_260
+7	ἰδέαν	ἰδέα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_88|t_90|ref=Orat.20_260
+8	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_89|t_88|ref=Orat.20_260
+9	ἐξευρὼν	ἐξευρίσκω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_90|t_91|ref=Orat.20_260
+10	καὶ	καί	c	c--------	_	15	COORD	_	t_91|t_96|ref=Orat.20_260
+11	τεχνησάμενος	τεχνάομαι	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	10	ADV	_	t_92|t_91|ref=Orat.20_260
+12	,	,	u	u--------	_	14	AuxX	_	t_93|t_95|ref=Orat.20_260
+13	εἶτα	εἶτα	d	d--------	_	14	ADV	_	t_94|t_95|ref=Orat.20_260
+14	ἀναλώσας	ἀναλίσκω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	15	ADV	_	t_95|t_96|ref=Orat.20_260
+15	ἔχεις	ἔχω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_96|0|ref=Orat.20_260
+16	.	.	u	u--------	_	15	AuxK	_	t_97|t_96|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = ὦ πάντα ἀνόμοια τοῖς πρότερον [0] .
 # sent_id = 10
-1	ὦ	ὦ	p	p-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_98|ref=Orationes 20_260
-2	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	1	ATR	_	t_99|ref=Orationes 20_260
-3	ἀνόμοια	ἀνόμοιος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_100|ref=Orationes 20_260
-4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_101|ref=Orationes 20_260
-5	πρότερον	πρότερος	d	d-------c	Degree=c	4	ATR	_	t_102|ref=Orationes 20_260
-6	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Orationes 20_260
-7	.	.	u	u--------	_	6	AuxK	_	t_103|ref=Orationes 20_260
+1	ὦ	ὦ	p	p-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_98|e_6|ref=Orat.20_260
+2	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	1	ATR	_	t_99|t_98|ref=Orat.20_260
+3	ἀνόμοια	ἀνόμοιος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_100|e_6|ref=Orat.20_260
+4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_101|t_100|ref=Orat.20_260
+5	πρότερον	πρότερος	d	d-------c	Degree=c	4	ATR	_	t_102|t_101|ref=Orat.20_260
+6	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Orat.20_260
+7	.	.	u	u--------	_	6	AuxK	_	t_103|e_6|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = τὰ μὲν ἀρχαῖα Κουρήτων χοροὶ καὶ τροφαὶ καὶ γενέσεις θεῶν καὶ Πέλοπες διαβαίνοντες ἐνθένδε , καὶ Πελοπόννησος ἀποικία , καὶ Θησεὺς οἰκιστὴς τῶν ὑπὸ τὸν Σίπυλον τόπων , καὶ Ὁμήρου γοναὶ , καὶ ἀγῶνες καὶ τρόπαια καὶ νῖκαι παρὰ τοῖς ἄρχουσι καὶ διὰ πάντων ἐθνῶν , καὶ λογίων περιηγήσεις , ἀναγραφόντων καλλίστην τῶν ἁπασῶν [0] [1] [2] .
 # sent_id = 11
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_104|ref=Orationes 20_260
-2	μὲν	μέν	d	d--------	_	47	AuxY	_	t_105|ref=Orationes 20_260
-3	ἀρχαῖα	ἀρχαῖος	a	a-p---na-	Case=a|Gender=n|Number=p	55	OBJ	_	t_106|ref=Orationes 20_260
-4	Κουρήτων	κουρήτων	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_107|ref=Orationes 20_260
-5	χοροὶ	χορός	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_108|ref=Orationes 20_260
-6	καὶ	καί	d	d--------	_	47	AuxY	_	t_109|ref=Orationes 20_260
-7	τροφαὶ	τροφή	n	n-p---fn-	Case=n|Gender=f|Number=p	47	SBJ	_	t_110|ref=Orationes 20_260
-8	καὶ	καί	d	d--------	_	47	AuxY	_	t_111|ref=Orationes 20_260
-9	γενέσεις	γένεσις	n	n-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_112|ref=Orationes 20_260
-10	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_113|ref=Orationes 20_260
-11	καὶ	καί	d	d--------	_	47	AuxY	_	t_114|ref=Orationes 20_260
-12	Πέλοπες	πέλοψ	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_115|ref=Orationes 20_260
-13	διαβαίνοντες	διαβαίνω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	55	PNOM	_	t_116|ref=Orationes 20_260
-14	ἐνθένδε	ἐνθένδε	d	d--------	_	13	ADV	_	t_117|ref=Orationes 20_260
-15	,	,	u	u--------	_	57	AuxX	_	t_118|ref=Orationes 20_260
-16	καὶ	καί	d	d--------	_	47	AuxY	_	t_119|ref=Orationes 20_260
-17	Πελοπόννησος	πελοπόννησος	n	n-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_120|ref=Orationes 20_260
-18	ἀποικία	ἀποικία	n	n-s---fn-	Case=n|Gender=f|Number=s	56	SBJ	_	t_121|ref=Orationes 20_260
-19	,	,	u	u--------	_	57	AuxX	_	t_122|ref=Orationes 20_260
-20	καὶ	καί	d	d--------	_	47	AuxY	_	t_123|ref=Orationes 20_260
-21	Θησεὺς	θησεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	56	SBJ	_	t_124|ref=Orationes 20_260
-22	οἰκιστὴς	οἰκιστής	n	n-s---mn-	Case=n|Gender=m|Number=s	56	PNOM	_	t_125|ref=Orationes 20_260
-23	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_126|ref=Orationes 20_260
-24	ὑπὸ	ὑπό	r	r--------	_	27	AuxP	_	t_127|ref=Orationes 20_260
-25	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	26	ATR	_	t_128|ref=Orationes 20_260
-26	Σίπυλον	σίπυλος	n	n-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_129|ref=Orationes 20_260
-27	τόπων	τόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	22	ATR	_	t_130|ref=Orationes 20_260
-28	,	,	u	u--------	_	57	AuxX	_	t_131|ref=Orationes 20_260
-29	καὶ	καί	d	d--------	_	47	AuxY	_	t_132|ref=Orationes 20_260
-30	Ὁμήρου	ὅμηρος	n	n-s---mg-	Case=g|Gender=m|Number=s	31	ATR	_	t_133|ref=Orationes 20_260
-31	γοναὶ	γονή	n	n-p---fn-	Case=n|Gender=f|Number=p	47	SBJ	_	t_134|ref=Orationes 20_260
-32	,	,	u	u--------	_	57	AuxX	_	t_135|ref=Orationes 20_260
-33	καὶ	καί	d	d--------	_	47	AuxY	_	t_136|ref=Orationes 20_260
-34	ἀγῶνες	ἀγών	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_137|ref=Orationes 20_260
-35	καὶ	καί	d	d--------	_	42	AuxY	_	t_138|ref=Orationes 20_260
-36	τρόπαια	τρόπαιον	n	n-p---nn-	Case=n|Gender=n|Number=p	42	SBJ	_	t_139|ref=Orationes 20_260
-37	καὶ	καί	d	d--------	_	42	AuxY	_	t_140|ref=Orationes 20_260
-38	νῖκαι	νίκη	n	n-p---fn-	Case=n|Gender=f|Number=p	42	SBJ	_	t_141|ref=Orationes 20_260
-39	παρὰ	παρά	r	r--------	_	42	AuxP	_	t_142|ref=Orationes 20_260
-40	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	41	ATR	_	t_143|ref=Orationes 20_260
-41	ἄρχουσι	ἄρχω	n	n-p---md-	Case=d|Gender=m|Number=p	39	ATR	_	t_144|ref=Orationes 20_260
-42	καὶ	καί	c	c--------	_	57	COORD	_	t_145|ref=Orationes 20_260
-43	διὰ	διά	r	r--------	_	42	AuxP	_	t_146|ref=Orationes 20_260
-44	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	45	ATR	_	t_147|ref=Orationes 20_260
-45	ἐθνῶν	ἔθνος	n	n-p---ng-	Case=g|Gender=n|Number=p	43	ADV	_	t_148|ref=Orationes 20_260
-46	,	,	u	u--------	_	57	AuxX	_	t_149|ref=Orationes 20_260
-47	καὶ	καί	c	c--------	_	55	COORD	_	t_150|ref=Orationes 20_260
-48	λογίων	λόγιον	n	n-p---ng-	Case=g|Gender=n|Number=p	49	ATR	_	t_151|ref=Orationes 20_260
-49	περιηγήσεις	περιήγησις	n	n-p---fn-	Case=n|Gender=f|Number=p	47	SBJ	_	t_152|ref=Orationes 20_260
-50	,	,	u	u--------	_	57	AuxX	_	t_153|ref=Orationes 20_260
-51	ἀναγραφόντων	ἀναγράφω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	48	ATR	_	t_154|ref=Orationes 20_260
-52	καλλίστην	καλός	a	a-s---fa-	Case=a|Gender=f|Number=s	51	OBJ	_	t_155|ref=Orationes 20_260
-53	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	54	ATR	_	t_156|ref=Orationes 20_260
-54	ἁπασῶν	ἅπας	a	a-p---fg-	Case=g|Gender=f|Number=p	52	ATR	_	t_157|ref=Orationes 20_260
-55	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Orationes 20_260
-56	[1]	[1]	-	---------	_	47	SBJ	_	e_8|ref=Orationes 20_260
-57	[2]	[2]	-	---------	_	47	PRED	_	e_9|ref=Orationes 20_260
-58	.	.	u	u--------	_	57	AuxK	_	t_158|ref=Orationes 20_260
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_104|t_106|ref=Orat.20_260
+2	μὲν	μέν	d	d--------	_	47	AuxY	_	t_105|t_150|ref=Orat.20_260
+3	ἀρχαῖα	ἀρχαῖος	a	a-p---na-	Case=a|Gender=n|Number=p	55	OBJ	_	t_106|e_7|ref=Orat.20_260
+4	Κουρήτων	κουρήτων	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_107|t_106|ref=Orat.20_260
+5	χοροὶ	χορός	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_108|t_150|ref=Orat.20_260
+6	καὶ	καί	d	d--------	_	47	AuxY	_	t_109|t_150|ref=Orat.20_260
+7	τροφαὶ	τροφή	n	n-p---fn-	Case=n|Gender=f|Number=p	47	SBJ	_	t_110|t_150|ref=Orat.20_260
+8	καὶ	καί	d	d--------	_	47	AuxY	_	t_111|t_150|ref=Orat.20_260
+9	γενέσεις	γένεσις	n	n-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_112|t_111|ref=Orat.20_260
+10	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_113|t_112|ref=Orat.20_260
+11	καὶ	καί	d	d--------	_	47	AuxY	_	t_114|t_150|ref=Orat.20_260
+12	Πέλοπες	πέλοψ	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_115|t_150|ref=Orat.20_260
+13	διαβαίνοντες	διαβαίνω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	55	PNOM	_	t_116|e_7|ref=Orat.20_260
+14	ἐνθένδε	ἐνθένδε	d	d--------	_	13	ADV	_	t_117|t_116|ref=Orat.20_260
+15	,	,	u	u--------	_	57	AuxX	_	t_118|e_9|ref=Orat.20_260
+16	καὶ	καί	d	d--------	_	47	AuxY	_	t_119|t_150|ref=Orat.20_260
+17	Πελοπόννησος	πελοπόννησος	n	n-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_120|t_121|ref=Orat.20_260
+18	ἀποικία	ἀποικία	n	n-s---fn-	Case=n|Gender=f|Number=s	56	SBJ	_	t_121|e_8|ref=Orat.20_260
+19	,	,	u	u--------	_	57	AuxX	_	t_122|e_9|ref=Orat.20_260
+20	καὶ	καί	d	d--------	_	47	AuxY	_	t_123|t_150|ref=Orat.20_260
+21	Θησεὺς	θησεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	56	SBJ	_	t_124|e_8|ref=Orat.20_260
+22	οἰκιστὴς	οἰκιστής	n	n-s---mn-	Case=n|Gender=m|Number=s	56	PNOM	_	t_125|e_8|ref=Orat.20_260
+23	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_126|t_130|ref=Orat.20_260
+24	ὑπὸ	ὑπό	r	r--------	_	27	AuxP	_	t_127|t_130|ref=Orat.20_260
+25	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	26	ATR	_	t_128|t_129|ref=Orat.20_260
+26	Σίπυλον	σίπυλος	n	n-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_129|t_127|ref=Orat.20_260
+27	τόπων	τόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	22	ATR	_	t_130|t_125|ref=Orat.20_260
+28	,	,	u	u--------	_	57	AuxX	_	t_131|e_9|ref=Orat.20_260
+29	καὶ	καί	d	d--------	_	47	AuxY	_	t_132|t_150|ref=Orat.20_260
+30	Ὁμήρου	ὅμηρος	n	n-s---mg-	Case=g|Gender=m|Number=s	31	ATR	_	t_133|t_134|ref=Orat.20_260
+31	γοναὶ	γονή	n	n-p---fn-	Case=n|Gender=f|Number=p	47	SBJ	_	t_134|t_150|ref=Orat.20_260
+32	,	,	u	u--------	_	57	AuxX	_	t_135|e_9|ref=Orat.20_260
+33	καὶ	καί	d	d--------	_	47	AuxY	_	t_136|t_150|ref=Orat.20_260
+34	ἀγῶνες	ἀγών	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_137|t_150|ref=Orat.20_260
+35	καὶ	καί	d	d--------	_	42	AuxY	_	t_138|t_145|ref=Orat.20_260
+36	τρόπαια	τρόπαιον	n	n-p---nn-	Case=n|Gender=n|Number=p	42	SBJ	_	t_139|t_145|ref=Orat.20_260
+37	καὶ	καί	d	d--------	_	42	AuxY	_	t_140|t_145|ref=Orat.20_260
+38	νῖκαι	νίκη	n	n-p---fn-	Case=n|Gender=f|Number=p	42	SBJ	_	t_141|t_145|ref=Orat.20_260
+39	παρὰ	παρά	r	r--------	_	42	AuxP	_	t_142|t_145|ref=Orat.20_260
+40	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	41	ATR	_	t_143|t_144|ref=Orat.20_260
+41	ἄρχουσι	ἄρχω	n	n-p---md-	Case=d|Gender=m|Number=p	39	ATR	_	t_144|t_142|ref=Orat.20_260
+42	καὶ	καί	c	c--------	_	57	COORD	_	t_145|e_9|ref=Orat.20_260
+43	διὰ	διά	r	r--------	_	42	AuxP	_	t_146|t_145|ref=Orat.20_260
+44	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	45	ATR	_	t_147|t_148|ref=Orat.20_260
+45	ἐθνῶν	ἔθνος	n	n-p---ng-	Case=g|Gender=n|Number=p	43	ADV	_	t_148|t_146|ref=Orat.20_260
+46	,	,	u	u--------	_	57	AuxX	_	t_149|e_9|ref=Orat.20_260
+47	καὶ	καί	c	c--------	_	55	COORD	_	t_150|e_7|ref=Orat.20_260
+48	λογίων	λόγιον	n	n-p---ng-	Case=g|Gender=n|Number=p	49	ATR	_	t_151|t_152|ref=Orat.20_260
+49	περιηγήσεις	περιήγησις	n	n-p---fn-	Case=n|Gender=f|Number=p	47	SBJ	_	t_152|t_150|ref=Orat.20_260
+50	,	,	u	u--------	_	57	AuxX	_	t_153|e_9|ref=Orat.20_260
+51	ἀναγραφόντων	ἀναγράφω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	48	ATR	_	t_154|t_151|ref=Orat.20_260
+52	καλλίστην	καλός	a	a-s---fa-	Case=a|Gender=f|Number=s	51	OBJ	_	t_155|t_154|ref=Orat.20_260
+53	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	54	ATR	_	t_156|t_157|ref=Orat.20_260
+54	ἁπασῶν	ἅπας	a	a-p---fg-	Case=g|Gender=f|Number=p	52	ATR	_	t_157|t_155|ref=Orat.20_260
+55	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Orat.20_260
+56	[1]	[1]	-	---------	_	47	SBJ	_	e_8|t_150|ref=Orat.20_260
+57	[2]	[2]	-	---------	_	47	PRED	_	e_9|t_150|ref=Orat.20_260
+58	.	.	u	u--------	_	57	AuxK	_	t_158|e_9|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260
+# source = Aristides, Aelius, Orat.20 260
 # text = καὶ μὴν τά γε ὁρώμενα κρείττω διηγήσεως [0] .
 # sent_id = 12
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_159|ref=Orationes 20_260
-2	μὴν	μήν	d	d--------	_	8	AuxY	_	t_160|ref=Orationes 20_260
-3	τά	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_161|ref=Orationes 20_260
-4	γε	γε	d	d--------	_	5	AuxZ	_	t_162|ref=Orationes 20_260
-5	ὁρώμενα	ὁράω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	8	SBJ	_	t_163|ref=Orationes 20_260
-6	κρείττω	κρείσσων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	8	PNOM	_	t_164|ref=Orationes 20_260
-7	διηγήσεως	διήγησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_165|ref=Orationes 20_260
-8	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Orationes 20_260
-9	.	.	u	u--------	_	8	AuxK	_	t_166|ref=Orationes 20_260
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_159|e_10|ref=Orat.20_260
+2	μὴν	μήν	d	d--------	_	8	AuxY	_	t_160|e_10|ref=Orat.20_260
+3	τά	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_161|t_163|ref=Orat.20_260
+4	γε	γε	d	d--------	_	5	AuxZ	_	t_162|t_163|ref=Orat.20_260
+5	ὁρώμενα	ὁράω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	8	SBJ	_	t_163|e_10|ref=Orat.20_260
+6	κρείττω	κρείσσων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	8	PNOM	_	t_164|e_10|ref=Orat.20_260
+7	διηγήσεως	διήγησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_165|t_164|ref=Orat.20_260
+8	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Orat.20_260
+9	.	.	u	u--------	_	8	AuxK	_	t_166|e_10|ref=Orat.20_260
 
-# source = Aristides, Aelius, Orationes 20 260-261
+# source = Aristides, Aelius, Orat.20 260-261
 # text = προσιόντι μὲν εὐθὺς ἀστραπὴ κάλλους καὶ μεγεθῶν ἀριθμοὶ , καὶ μέτρα καὶ στάσεις ὥσπερ ἁρμονίας μιᾶς [0] [1] ·
 # sent_id = 13
-1	προσιόντι	πρόσειμι1	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_167|ref=Orationes 20_260
-2	μὲν	μέν	d	d--------	_	17	AuxY	_	t_168|ref=Orationes 20_260
-3	εὐθὺς	εὐθύς2	d	d--------	_	17	ADV	_	t_169|ref=Orationes 20_260
-4	ἀστραπὴ	ἀστραπή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_170|ref=Orationes 20_260
-5	κάλλους	κάλλος	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_171|ref=Orationes 20_260
-6	καὶ	καί	c	c--------	_	8	COORD	_	t_172|ref=Orationes 20_260
-7	μεγεθῶν	μέγεθος	n	n-p---fg-	Case=g|Gender=n|Number=p	6	ATR	_	t_173|ref=Orationes 20_260
-8	ἀριθμοὶ	ἀριθμός	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_174|ref=Orationes 20_260
-9	,	,	u	u--------	_	17	AuxX	_	t_175|ref=Orationes 20_260
-10	καὶ	καί	c	c--------	_	17	COORD	_	t_176|ref=Orationes 20_260
-11	μέτρα	μέτρον	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_177|ref=Orationes 20_260
-12	καὶ	καί	c	c--------	_	10	COORD	_	t_178|ref=Orationes 20_260
-13	στάσεις	στάσις	n	n-p---fn-	Case=a|Gender=f|Number=p	12	SBJ	_	t_179|ref=Orationes 20_261
-14	ὥσπερ	ὥσπερ	c	c--------	_	17	AuxC	_	t_180|ref=Orationes 20_261
-15	ἁρμονίας	ἁρμονία	n	n-s---fg-	Case=g|Gender=f|Number=s	18	SBJ	_	t_181|ref=Orationes 20_261
-16	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_182|ref=Orationes 20_261
-17	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Orationes 20_260
-18	[1]	[1]	-	---------	_	14	ADV	_	e_12|ref=Orationes 20_260
-19	·	·	u	u--------	_	17	AuxK	_	t_183|ref=Orationes 20_261
+1	προσιόντι	πρόσειμι1	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_167|e_11|ref=Orat.20_260
+2	μὲν	μέν	d	d--------	_	17	AuxY	_	t_168|e_11|ref=Orat.20_260
+3	εὐθὺς	εὐθύς2	d	d--------	_	17	ADV	_	t_169|e_11|ref=Orat.20_260
+4	ἀστραπὴ	ἀστραπή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_170|t_176|ref=Orat.20_260
+5	κάλλους	κάλλος	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_171|t_172|ref=Orat.20_260
+6	καὶ	καί	c	c--------	_	8	COORD	_	t_172|t_174|ref=Orat.20_260
+7	μεγεθῶν	μέγεθος	n	n-p---fg-	Case=g|Gender=n|Number=p	6	ATR	_	t_173|t_172|ref=Orat.20_260
+8	ἀριθμοὶ	ἀριθμός	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_174|t_176|ref=Orat.20_260
+9	,	,	u	u--------	_	17	AuxX	_	t_175|e_11|ref=Orat.20_260
+10	καὶ	καί	c	c--------	_	17	COORD	_	t_176|e_11|ref=Orat.20_260
+11	μέτρα	μέτρον	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_177|t_178|ref=Orat.20_260
+12	καὶ	καί	c	c--------	_	10	COORD	_	t_178|t_176|ref=Orat.20_260
+13	στάσεις	στάσις	n	n-p---fn-	Case=a|Gender=f|Number=p	12	SBJ	_	t_179|t_178|ref=Orat.20_261
+14	ὥσπερ	ὥσπερ	c	c--------	_	17	AuxC	_	t_180|e_11|ref=Orat.20_261
+15	ἁρμονίας	ἁρμονία	n	n-s---fg-	Case=g|Gender=f|Number=s	18	SBJ	_	t_181|e_12|ref=Orat.20_261
+16	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_182|t_181|ref=Orat.20_261
+17	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Orat.20_260
+18	[1]	[1]	-	---------	_	14	ADV	_	e_12|t_180|ref=Orat.20_260
+19	·	·	u	u--------	_	17	AuxK	_	t_183|e_11|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = πόδες μὲν ἐπʼ ἠιόνων καὶ λιμένων καὶ ἀλσῶν ἐρειδόμενοι , μεσότης δὲ ἴσον τοῦ πεδίου τε ὑπεραίρουσα καὶ τῶν ἄνωθεν ἀπολείπουσα , ἐσχατιὰ δὲ μεσημβρινὴ κατὰ μικρὸν ὑψουμένη , διʼ ὁμοίου τοῦ παντὸς λάθρα λήγουσα εἰς ἀκρόπολιν , σκοπιὰν τῆς τε θαλάττης καὶ τῆς πόλεως ἔχουσαν [0] [1] .
 # sent_id = 14
-1	πόδες	πούς	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_184|ref=Orationes 20_261
-2	μὲν	μέν	d	d--------	_	24	AuxY	_	t_185|ref=Orationes 20_261
-3	ἐπʼ	ἐπί	r	r--------	_	9	AuxP	_	t_186|ref=Orationes 20_261
-4	ἠιόνων	ἠιών	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_187|ref=Orationes 20_261
-5	καὶ	καί	d	d--------	_	7	AuxY	_	t_188|ref=Orationes 20_261
-6	λιμένων	λιμήν	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_189|ref=Orationes 20_261
-7	καὶ	καί	c	c--------	_	3	COORD	_	t_190|ref=Orationes 20_261
-8	ἀλσῶν	ἀλσῶν	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ADV	_	t_191|ref=Orationes 20_261
-9	ἐρειδόμενοι	ἐρείδω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	47	PNOM	_	t_192|ref=Orationes 20_261
-10	,	,	u	u--------	_	0	AuxX	_	t_193|ref=Orationes 20_261
-11	μεσότης	μεσότης	n	n-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_194|ref=Orationes 20_261
-12	δὲ	δέ	d	d--------	_	24	AuxY	_	t_195|ref=Orationes 20_261
-13	ἴσον	ἴσος	a	a-s---na-	Case=a|Gender=n|Number=s	17	ADV	_	t_196|ref=Orationes 20_261
-14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_197|ref=Orationes 20_261
-15	πεδίου	πεδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	17	OBJ	_	t_198|ref=Orationes 20_261
-16	τε	τε	d	d--------	_	18	AuxY	_	t_199|ref=Orationes 20_261
-17	ὑπεραίρουσα	ὑπεραίρω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_200|ref=Orationes 20_261
-18	καὶ	καί	c	c--------	_	11	COORD	_	t_201|ref=Orationes 20_261
-19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	21	OBJ	_	t_202|ref=Orationes 20_261
-20	ἄνωθεν	ἄνωθεν	d	d--------	_	19	ATR	_	t_203|ref=Orationes 20_261
-21	ἀπολείπουσα	ἀπολιμπάνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	ATR	_	t_204|ref=Orationes 20_261
-22	,	,	u	u--------	_	10	AuxX	_	t_205|ref=Orationes 20_261
-23	ἐσχατιὰ	ἐσχατιά	a	a-s---fn-	Case=n|Gender=f|Number=s	25	ATR	_	t_206|ref=Orationes 20_261
-24	δὲ	δέ	c	c--------	_	10	COORD	_	t_207|ref=Orationes 20_261
-25	μεσημβρινὴ	μεσημβρινός	n	n-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_208|ref=Orationes 20_261
-26	κατὰ	κατά	r	r--------	_	28	AuxP	_	t_209|ref=Orationes 20_261
-27	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	26	ADV	_	t_210|ref=Orationes 20_261
-28	ὑψουμένη	ὑψόω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	48	PNOM	_	t_211|ref=Orationes 20_261
-29	,	,	u	u--------	_	10	AuxX	_	t_212|ref=Orationes 20_261
-30	διʼ	διά	r	r--------	_	35	AuxP	_	t_213|ref=Orationes 20_261
-31	ὁμοίου	ὅμοιος	a	a-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_214|ref=Orationes 20_261
-32	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_215|ref=Orationes 20_261
-33	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	30	ADV	_	t_216|ref=Orationes 20_261
-34	λάθρα	λάθρῃ	n	n-p---na-	Case=a|Gender=n|Number=p	35	OBJ	_	t_217|ref=Orationes 20_261
-35	λήγουσα	λήγω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	28	ADV	_	t_218|ref=Orationes 20_261
-36	εἰς	εἰς	r	r--------	_	35	AuxP	_	t_219|ref=Orationes 20_261
-37	ἀκρόπολιν	ἀκρόπολις	n	n-s---fa-	Case=a|Gender=f|Number=s	36	OBJ	_	t_220|ref=Orationes 20_261
-38	,	,	u	u--------	_	10	AuxX	_	t_221|ref=Orationes 20_261
-39	σκοπιὰν	σκοπιά	n	n-s---fa-	Case=a|Gender=f|Number=s	46	OBJ	_	t_222|ref=Orationes 20_261
-40	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_223|ref=Orationes 20_261
-41	τε	τε	d	d--------	_	43	AuxY	_	t_224|ref=Orationes 20_261
-42	θαλάττης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	43	ATR	_	t_225|ref=Orationes 20_261
-43	καὶ	καί	c	c--------	_	39	COORD	_	t_226|ref=Orationes 20_261
-44	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	45	ATR	_	t_227|ref=Orationes 20_261
-45	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	43	ATR	_	t_228|ref=Orationes 20_261
-46	ἔχουσαν	ἔχω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	37	ATR	_	t_229|ref=Orationes 20_261
-47	[0]	[0]	-	---------	_	24	PRED	_	e_13|ref=Orationes 20_260
-48	[1]	[1]	-	---------	_	24	PRED	_	e_14|ref=Orationes 20_260
-49	.	.	u	u--------	_	10	AuxK	_	t_230|ref=Orationes 20_261
+1	πόδες	πούς	n	n-p---mn-	Case=n|Gender=m|Number=p	47	SBJ	_	t_184|e_13|ref=Orat.20_261
+2	μὲν	μέν	d	d--------	_	24	AuxY	_	t_185|t_207|ref=Orat.20_261
+3	ἐπʼ	ἐπί	r	r--------	_	9	AuxP	_	t_186|t_192|ref=Orat.20_261
+4	ἠιόνων	ἠιών	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_187|t_190|ref=Orat.20_261
+5	καὶ	καί	d	d--------	_	7	AuxY	_	t_188|t_190|ref=Orat.20_261
+6	λιμένων	λιμήν	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_189|t_190|ref=Orat.20_261
+7	καὶ	καί	c	c--------	_	3	COORD	_	t_190|t_186|ref=Orat.20_261
+8	ἀλσῶν	ἀλσῶν	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ADV	_	t_191|t_190|ref=Orat.20_261
+9	ἐρειδόμενοι	ἐρείδω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	47	PNOM	_	t_192|e_13|ref=Orat.20_261
+10	,	,	u	u--------	_	0	AuxX	_	t_193|0|ref=Orat.20_261
+11	μεσότης	μεσότης	n	n-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_194|e_14|ref=Orat.20_261
+12	δὲ	δέ	d	d--------	_	24	AuxY	_	t_195|t_207|ref=Orat.20_261
+13	ἴσον	ἴσος	a	a-s---na-	Case=a|Gender=n|Number=s	17	ADV	_	t_196|t_200|ref=Orat.20_261
+14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_197|t_198|ref=Orat.20_261
+15	πεδίου	πεδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	17	OBJ	_	t_198|t_200|ref=Orat.20_261
+16	τε	τε	d	d--------	_	18	AuxY	_	t_199|t_201|ref=Orat.20_261
+17	ὑπεραίρουσα	ὑπεραίρω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_200|t_201|ref=Orat.20_261
+18	καὶ	καί	c	c--------	_	11	COORD	_	t_201|t_194|ref=Orat.20_261
+19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	21	OBJ	_	t_202|t_204|ref=Orat.20_261
+20	ἄνωθεν	ἄνωθεν	d	d--------	_	19	ATR	_	t_203|t_202|ref=Orat.20_261
+21	ἀπολείπουσα	ἀπολιμπάνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	ATR	_	t_204|t_201|ref=Orat.20_261
+22	,	,	u	u--------	_	10	AuxX	_	t_205|t_193|ref=Orat.20_261
+23	ἐσχατιὰ	ἐσχατιά	a	a-s---fn-	Case=n|Gender=f|Number=s	25	ATR	_	t_206|t_208|ref=Orat.20_261
+24	δὲ	δέ	c	c--------	_	10	COORD	_	t_207|t_193|ref=Orat.20_261
+25	μεσημβρινὴ	μεσημβρινός	n	n-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_208|e_14|ref=Orat.20_261
+26	κατὰ	κατά	r	r--------	_	28	AuxP	_	t_209|t_211|ref=Orat.20_261
+27	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	26	ADV	_	t_210|t_209|ref=Orat.20_261
+28	ὑψουμένη	ὑψόω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	48	PNOM	_	t_211|e_14|ref=Orat.20_261
+29	,	,	u	u--------	_	10	AuxX	_	t_212|t_193|ref=Orat.20_261
+30	διʼ	διά	r	r--------	_	35	AuxP	_	t_213|t_218|ref=Orat.20_261
+31	ὁμοίου	ὅμοιος	a	a-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_214|t_216|ref=Orat.20_261
+32	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_215|t_216|ref=Orat.20_261
+33	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	30	ADV	_	t_216|t_213|ref=Orat.20_261
+34	λάθρα	λάθρῃ	n	n-p---na-	Case=a|Gender=n|Number=p	35	OBJ	_	t_217|t_218|ref=Orat.20_261
+35	λήγουσα	λήγω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	28	ADV	_	t_218|t_211|ref=Orat.20_261
+36	εἰς	εἰς	r	r--------	_	35	AuxP	_	t_219|t_218|ref=Orat.20_261
+37	ἀκρόπολιν	ἀκρόπολις	n	n-s---fa-	Case=a|Gender=f|Number=s	36	OBJ	_	t_220|t_219|ref=Orat.20_261
+38	,	,	u	u--------	_	10	AuxX	_	t_221|t_193|ref=Orat.20_261
+39	σκοπιὰν	σκοπιά	n	n-s---fa-	Case=a|Gender=f|Number=s	46	OBJ	_	t_222|t_229|ref=Orat.20_261
+40	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_223|t_225|ref=Orat.20_261
+41	τε	τε	d	d--------	_	43	AuxY	_	t_224|t_226|ref=Orat.20_261
+42	θαλάττης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	43	ATR	_	t_225|t_226|ref=Orat.20_261
+43	καὶ	καί	c	c--------	_	39	COORD	_	t_226|t_222|ref=Orat.20_261
+44	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	45	ATR	_	t_227|t_228|ref=Orat.20_261
+45	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	43	ATR	_	t_228|t_226|ref=Orat.20_261
+46	ἔχουσαν	ἔχω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	37	ATR	_	t_229|t_220|ref=Orat.20_261
+47	[0]	[0]	-	---------	_	24	PRED	_	e_13|t_207|ref=Orat.20_260
+48	[1]	[1]	-	---------	_	24	PRED	_	e_14|t_207|ref=Orat.20_260
+49	.	.	u	u--------	_	10	AuxK	_	t_230|t_193|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = τὸ δὲ οὔ τε λόγῳ ῥητὸν οὔ τε ὄψει βεβαίως καταληπτὸν , ἀλλʼ ἐκφεῦγον οὐκ οἶδʼ ὅπως , ἐπιθυμίαν δὲ τοῦ συλλαβεῖν αὐτὸ παριστὰν ἀεὶ δή ποτε τὸ ὑπὲρ πάσης τῆς πόλεως ἑστηκὸς γάνος [0] ·
 # sent_id = 15
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_231|ref=Orationes 20_261
-2	δὲ	δέ	d	d--------	_	35	AuxY	_	t_232|ref=Orationes 20_261
-3	οὔ	οὐ	d	d--------	_	4	AuxY	_	t_233|ref=Orationes 20_261
-4	τε	τε	c	c--------	_	8	AuxY	_	t_234|ref=Orationes 20_261
-5	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_235|ref=Orationes 20_261
-6	ῥητὸν	ῥητός	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_236|ref=Orationes 20_261
-7	οὔ	οὐ	d	d--------	_	8	AuxY	_	t_237|ref=Orationes 20_261
-8	τε	τε	c	c--------	_	13	COORD	_	t_238|ref=Orationes 20_261
-9	ὄψει	ὄψις	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_239|ref=Orationes 20_261
-10	βεβαίως	βέβαιος	d	d--------	_	11	ADV	_	t_240|ref=Orationes 20_261
-11	καταληπτὸν	καταληπτός	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_241|ref=Orationes 20_261
-12	,	,	u	u--------	_	0	AuxX	_	t_242|ref=Orationes 20_261
-13	ἀλλʼ	ἀλλά	c	c--------	_	35	COORD	_	t_243|ref=Orationes 20_261
-14	ἐκφεῦγον	ἐκφεύγω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	13	OBJ	_	t_244|ref=Orationes 20_261
-15	οὐκ	οὐ	d	d--------	_	16	AuxZ	_	t_245|ref=Orationes 20_261
-16	οἶδʼ	οἶδα	v	v1sria---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	20	PRED	_	t_246|ref=Orationes 20_261
-17	ὅπως	ὅπως	c	c--------	_	16	AuxC	_	t_247|ref=Orationes 20_261
-18	,	,	u	u--------	_	12	AuxX	_	t_248|ref=Orationes 20_261
-19	ἐπιθυμίαν	ἐπιθυμία	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_249|ref=Orationes 20_261
-20	δὲ	δέ	d	d--------	_	12	COORD	_	t_250|ref=Orationes 20_261
-21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_251|ref=Orationes 20_261
-22	συλλαβεῖν	συλλαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	ATR	_	t_252|ref=Orationes 20_261
-23	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_253|ref=Orationes 20_261
-24	παριστὰν	παριστάω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	PRED	_	t_254|ref=Orationes 20_261
-25	ἀεὶ	ἀεί	d	d--------	_	24	ADV	_	t_255|ref=Orationes 20_261
-26	δή	δή	d	d--------	_	24	AuxZ	_	t_256|ref=Orationes 20_261
-27	ποτε	ποτέ	d	d--------	_	24	ADV	_	t_257|ref=Orationes 20_261
-28	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_258|ref=Orationes 20_261
-29	ὑπὲρ	ὑπέρ	r	r--------	_	33	AuxP	_	t_259|ref=Orationes 20_261
-30	πάσης	πᾶς	a	a-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_260|ref=Orationes 20_261
-31	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_261|ref=Orationes 20_261
-32	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	29	OBJ	_	t_262|ref=Orationes 20_261
-33	ἑστηκὸς	ἵστημι	v	v-srpana-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	34	ATR	_	t_263|ref=Orationes 20_261
-34	γάνος	γάνος	n	n-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_264|ref=Orationes 20_261
-35	[0]	[0]	-	---------	_	20	PRED	_	e_15|ref=Orationes 20_260
-36	·	·	u	u--------	_	12	AuxK	_	t_265|ref=Orationes 20_261
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_231|e_15|ref=Orat.20_261
+2	δὲ	δέ	d	d--------	_	35	AuxY	_	t_232|e_15|ref=Orat.20_261
+3	οὔ	οὐ	d	d--------	_	4	AuxY	_	t_233|t_234|ref=Orat.20_261
+4	τε	τε	c	c--------	_	8	AuxY	_	t_234|t_238|ref=Orat.20_261
+5	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_235|t_238|ref=Orat.20_261
+6	ῥητὸν	ῥητός	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_236|t_238|ref=Orat.20_261
+7	οὔ	οὐ	d	d--------	_	8	AuxY	_	t_237|t_238|ref=Orat.20_261
+8	τε	τε	c	c--------	_	13	COORD	_	t_238|t_243|ref=Orat.20_261
+9	ὄψει	ὄψις	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_239|t_241|ref=Orat.20_261
+10	βεβαίως	βέβαιος	d	d--------	_	11	ADV	_	t_240|t_241|ref=Orat.20_261
+11	καταληπτὸν	καταληπτός	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_241|t_238|ref=Orat.20_261
+12	,	,	u	u--------	_	0	AuxX	_	t_242|0|ref=Orat.20_261
+13	ἀλλʼ	ἀλλά	c	c--------	_	35	COORD	_	t_243|e_15|ref=Orat.20_261
+14	ἐκφεῦγον	ἐκφεύγω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	13	OBJ	_	t_244|t_243|ref=Orat.20_261
+15	οὐκ	οὐ	d	d--------	_	16	AuxZ	_	t_245|t_246|ref=Orat.20_261
+16	οἶδʼ	οἶδα	v	v1sria---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	20	PRED	_	t_246|t_250|ref=Orat.20_261
+17	ὅπως	ὅπως	c	c--------	_	16	AuxC	_	t_247|t_246|ref=Orat.20_261
+18	,	,	u	u--------	_	12	AuxX	_	t_248|t_242|ref=Orat.20_261
+19	ἐπιθυμίαν	ἐπιθυμία	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_249|t_254|ref=Orat.20_261
+20	δὲ	δέ	d	d--------	_	12	COORD	_	t_250|t_242|ref=Orat.20_261
+21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_251|t_252|ref=Orat.20_261
+22	συλλαβεῖν	συλλαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	ATR	_	t_252|t_249|ref=Orat.20_261
+23	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_253|t_252|ref=Orat.20_261
+24	παριστὰν	παριστάω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	PRED	_	t_254|t_250|ref=Orat.20_261
+25	ἀεὶ	ἀεί	d	d--------	_	24	ADV	_	t_255|t_254|ref=Orat.20_261
+26	δή	δή	d	d--------	_	24	AuxZ	_	t_256|t_254|ref=Orat.20_261
+27	ποτε	ποτέ	d	d--------	_	24	ADV	_	t_257|t_254|ref=Orat.20_261
+28	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_258|t_264|ref=Orat.20_261
+29	ὑπὲρ	ὑπέρ	r	r--------	_	33	AuxP	_	t_259|t_263|ref=Orat.20_261
+30	πάσης	πᾶς	a	a-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_260|t_262|ref=Orat.20_261
+31	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_261|t_262|ref=Orat.20_261
+32	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	29	OBJ	_	t_262|t_259|ref=Orat.20_261
+33	ἑστηκὸς	ἵστημι	v	v-srpana-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	34	ATR	_	t_263|t_264|ref=Orat.20_261
+34	γάνος	γάνος	n	n-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_264|t_254|ref=Orat.20_261
+35	[0]	[0]	-	---------	_	20	PRED	_	e_15|t_250|ref=Orat.20_260
+36	·	·	u	u--------	_	12	AuxK	_	t_265|t_242|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = οὐ διαφθεῖρον τὰς ὄψεις , ὡς ἔφη Σαπφὼ , ἀλλʼ αὖξον καὶ τρέφον καὶ ἄρδον ἅμα εὐθυμίᾳ ·
 # sent_id = 16
-1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_266|ref=Orationes 20_261
-2	διαφθεῖρον	διαφθείρω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	10	PRED	_	t_267|ref=Orationes 20_261
-3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_268|ref=Orationes 20_261
-4	ὄψεις	ὄψις	n	n-p---fa-	Case=a|Gender=f|Number=p	2	OBJ	_	t_269|ref=Orationes 20_261
-5	,	,	u	u--------	_	0	AuxX	_	t_270|ref=Orationes 20_261
-6	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_271|ref=Orationes 20_261
-7	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	6	AuxY	_	t_272|ref=Orationes 20_261
-8	Σαπφὼ	σαπφώ	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_273|ref=Orationes 20_261
-9	,	,	u	u--------	_	5	AuxX	_	t_274|ref=Orationes 20_261
-10	ἀλλʼ	ἀλλά	c	c--------	_	5	COORD	_	t_275|ref=Orationes 20_261
-11	αὖξον	αὐξάνω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_276|ref=Orationes 20_261
-12	καὶ	καί	d	d--------	_	14	AuxY	_	t_277|ref=Orationes 20_261
-13	τρέφον	τρέφω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_278|ref=Orationes 20_261
-14	καὶ	καί	c	c--------	_	10	COORD	_	t_279|ref=Orationes 20_261
-15	ἄρδον	ἄρδω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_280|ref=Orationes 20_261
-16	ἅμα	ἅμα	d	d--------	_	14	ADV	_	t_281|ref=Orationes 20_261
-17	εὐθυμίᾳ	εὐθυμία	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_282|ref=Orationes 20_261
-18	·	·	u	u--------	_	5	AuxK	_	t_283|ref=Orationes 20_261
+1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_266|t_267|ref=Orat.20_261
+2	διαφθεῖρον	διαφθείρω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	10	PRED	_	t_267|t_275|ref=Orat.20_261
+3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_268|t_269|ref=Orat.20_261
+4	ὄψεις	ὄψις	n	n-p---fa-	Case=a|Gender=f|Number=p	2	OBJ	_	t_269|t_267|ref=Orat.20_261
+5	,	,	u	u--------	_	0	AuxX	_	t_270|0|ref=Orat.20_261
+6	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_271|t_267|ref=Orat.20_261
+7	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	6	AuxY	_	t_272|t_271|ref=Orat.20_261
+8	Σαπφὼ	σαπφώ	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_273|t_272|ref=Orat.20_261
+9	,	,	u	u--------	_	5	AuxX	_	t_274|t_270|ref=Orat.20_261
+10	ἀλλʼ	ἀλλά	c	c--------	_	5	COORD	_	t_275|t_270|ref=Orat.20_261
+11	αὖξον	αὐξάνω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_276|t_279|ref=Orat.20_261
+12	καὶ	καί	d	d--------	_	14	AuxY	_	t_277|t_279|ref=Orat.20_261
+13	τρέφον	τρέφω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_278|t_279|ref=Orat.20_261
+14	καὶ	καί	c	c--------	_	10	COORD	_	t_279|t_275|ref=Orat.20_261
+15	ἄρδον	ἄρδω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_280|t_279|ref=Orat.20_261
+16	ἅμα	ἅμα	d	d--------	_	14	ADV	_	t_281|t_279|ref=Orat.20_261
+17	εὐθυμίᾳ	εὐθυμία	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_282|t_281|ref=Orat.20_261
+18	·	·	u	u--------	_	5	AuxK	_	t_283|t_270|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ὑακινθίνῳ μὲν ἄνθει οὐδαμῶς ὅμοιον , ἀλλʼ οἷον οὐδὲν πώποτε γῆ καὶ ἥλιος ἀνθρώποις ἔφηναν .
 # sent_id = 17
-1	ὑακινθίνῳ	ὑακίνθινος	a	a-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_284|ref=Orationes 20_261
-2	μὲν	μέν	d	d--------	_	7	AuxY	_	t_285|ref=Orationes 20_261
-3	ἄνθει	ἄνθος	n	n-s---nd-	Case=n|Gender=n|Number=d	5	ADV	_	t_286|ref=Orationes 20_261
-4	οὐδαμῶς	οὐδαμῶς	d	d--------	_	5	ADV	_	t_287|ref=Orationes 20_261
-5	ὅμοιον	ὅμοιος	a	a-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_288|ref=Orationes 20_261
-6	,	,	u	u--------	_	15	AuxX	_	t_289|ref=Orationes 20_261
-7	ἀλλʼ	ἀλλά	c	c--------	_	9	COORD	_	t_290|ref=Orationes 20_261
-8	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_291|ref=Orationes 20_261
-9	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_292|ref=Orationes 20_261
-10	πώποτε	πώποτε	d	d--------	_	15	ADV	_	t_293|ref=Orationes 20_261
-11	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_294|ref=Orationes 20_261
-12	καὶ	καί	c	c--------	_	15	COORD	_	t_295|ref=Orationes 20_261
-13	ἥλιος	ἥλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_296|ref=Orationes 20_261
-14	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	15	OBJ	_	t_297|ref=Orationes 20_261
-15	ἔφηναν	φαίνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_298|ref=Orationes 20_261
-16	.	.	u	u--------	_	15	AuxK	_	t_299|ref=Orationes 20_261
+1	ὑακινθίνῳ	ὑακίνθινος	a	a-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_284|t_286|ref=Orat.20_261
+2	μὲν	μέν	d	d--------	_	7	AuxY	_	t_285|t_290|ref=Orat.20_261
+3	ἄνθει	ἄνθος	n	n-s---nd-	Case=n|Gender=n|Number=d	5	ADV	_	t_286|t_288|ref=Orat.20_261
+4	οὐδαμῶς	οὐδαμῶς	d	d--------	_	5	ADV	_	t_287|t_288|ref=Orat.20_261
+5	ὅμοιον	ὅμοιος	a	a-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_288|t_290|ref=Orat.20_261
+6	,	,	u	u--------	_	15	AuxX	_	t_289|t_298|ref=Orat.20_261
+7	ἀλλʼ	ἀλλά	c	c--------	_	9	COORD	_	t_290|t_292|ref=Orat.20_261
+8	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_291|t_292|ref=Orat.20_261
+9	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_292|t_298|ref=Orat.20_261
+10	πώποτε	πώποτε	d	d--------	_	15	ADV	_	t_293|t_298|ref=Orat.20_261
+11	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_294|t_295|ref=Orat.20_261
+12	καὶ	καί	c	c--------	_	15	COORD	_	t_295|t_298|ref=Orat.20_261
+13	ἥλιος	ἥλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_296|t_295|ref=Orat.20_261
+14	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	15	OBJ	_	t_297|t_298|ref=Orat.20_261
+15	ἔφηναν	φαίνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_298|0|ref=Orat.20_261
+16	.	.	u	u--------	_	15	AuxK	_	t_299|t_298|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ὥσπερ δὲ ἄγαλμα ἀκριβῶς πεποικιλμένον πάντη περιιόντι θέαν ἔχει , οὕτω σοι τῇ πρότερον μὲν ὡραιοτάτῃ πόλεων , νυνὶ δʼ ἀωρίαν , περιῆν ἀφʼ ὅτου τις ἀεὶ θεωροίη [0] [1] .
 # sent_id = 18
-1	ὥσπερ	ὥσπερ	c	c--------	_	11	AuxC	_	t_300|ref=Orationes 20_261
-2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_301|ref=Orationes 20_261
-3	ἄγαλμα	ἄγαλμα	n	n-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_302|ref=Orationes 20_261
-4	ἀκριβῶς	ἀκριβής	d	d--------	_	5	ADV	_	t_303|ref=Orationes 20_261
-5	πεποικιλμένον	ποικίλλω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	3	ATR	_	t_304|ref=Orationes 20_261
-6	πάντη	πάντῃ	d	d--------	_	7	ADV	_	t_305|ref=Orationes 20_261
-7	περιιόντι	περίειμι1	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_306|ref=Orationes 20_261
-8	θέαν	θέα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_307|ref=Orationes 20_261
-9	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_308|ref=Orationes 20_261
-10	,	,	u	u--------	_	0	AuxX	_	t_309|ref=Orationes 20_261
-11	οὕτω	οὕτως	d	d--------	_	23	ADV	_	t_310|ref=Orationes 20_261
-12	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_311|ref=Orationes 20_261
-13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_312|ref=Orationes 20_261
-14	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_313|ref=Orationes 20_261
-15	μὲν	μέν	d	d--------	_	20	AuxY	_	t_314|ref=Orationes 20_261
-16	ὡραιοτάτῃ	ὡραῖος	a	a-s---fds	Case=d|Degree=s|Gender=f|Number=s	29	ADV	_	t_315|ref=Orationes 20_261
-17	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	16	ATR	_	t_316|ref=Orationes 20_261
-18	,	,	u	u--------	_	10	AuxX	_	t_317|ref=Orationes 20_261
-19	νυνὶ	νυνί	d	d--------	_	30	ADV	_	t_318|ref=Orationes 20_261
-20	δʼ	δέ	c	c--------	_	10	COORD	_	t_319|ref=Orationes 20_261
-21	ἀωρίαν	ἀωρία	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_320|ref=Orationes 20_261
-22	,	,	u	u--------	_	10	AuxX	_	t_321|ref=Orationes 20_261
-23	περιῆν	περίειμι1	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	20	PRED	_	t_322|ref=Orationes 20_261
-24	ἀφʼ	ἀπό	r	r--------	_	28	AuxP	_	t_323|ref=Orationes 20_261
-25	ὅτου	ὅστις	p	p-s---ng-	Case=g|Gender=n|Number=s	24	ADV	_	t_324|ref=Orationes 20_261
-26	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	28	SBJ	_	t_325|ref=Orationes 20_261
-27	ἀεὶ	ἀεί	d	d--------	_	28	ADV	_	t_326|ref=Orationes 20_261
-28	θεωροίη	θεωρέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	23	ADV	_	t_327|ref=Orationes 20_261
-29	[0]	[0]	-	---------	_	20	PRED	_	e_16|ref=Orationes 20_260
-30	[1]	[1]	-	---------	_	20	PRED	_	e_17|ref=Orationes 20_260
-31	.	.	u	u--------	_	10	AuxK	_	t_328|ref=Orationes 20_261
+1	ὥσπερ	ὥσπερ	c	c--------	_	11	AuxC	_	t_300|t_310|ref=Orat.20_261
+2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_301|t_319|ref=Orat.20_261
+3	ἄγαλμα	ἄγαλμα	n	n-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_302|t_308|ref=Orat.20_261
+4	ἀκριβῶς	ἀκριβής	d	d--------	_	5	ADV	_	t_303|t_304|ref=Orat.20_261
+5	πεποικιλμένον	ποικίλλω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	3	ATR	_	t_304|t_302|ref=Orat.20_261
+6	πάντη	πάντῃ	d	d--------	_	7	ADV	_	t_305|t_306|ref=Orat.20_261
+7	περιιόντι	περίειμι1	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_306|t_308|ref=Orat.20_261
+8	θέαν	θέα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_307|t_308|ref=Orat.20_261
+9	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_308|t_300|ref=Orat.20_261
+10	,	,	u	u--------	_	0	AuxX	_	t_309|0|ref=Orat.20_261
+11	οὕτω	οὕτως	d	d--------	_	23	ADV	_	t_310|t_322|ref=Orat.20_261
+12	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_311|t_322|ref=Orat.20_261
+13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_312|t_315|ref=Orat.20_261
+14	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_313|t_315|ref=Orat.20_261
+15	μὲν	μέν	d	d--------	_	20	AuxY	_	t_314|t_319|ref=Orat.20_261
+16	ὡραιοτάτῃ	ὡραῖος	a	a-s---fds	Case=d|Degree=s|Gender=f|Number=s	29	ADV	_	t_315|e_16|ref=Orat.20_261
+17	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	16	ATR	_	t_316|t_315|ref=Orat.20_261
+18	,	,	u	u--------	_	10	AuxX	_	t_317|t_309|ref=Orat.20_261
+19	νυνὶ	νυνί	d	d--------	_	30	ADV	_	t_318|e_17|ref=Orat.20_261
+20	δʼ	δέ	c	c--------	_	10	COORD	_	t_319|t_309|ref=Orat.20_261
+21	ἀωρίαν	ἀωρία	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_320|e_17|ref=Orat.20_261
+22	,	,	u	u--------	_	10	AuxX	_	t_321|t_309|ref=Orat.20_261
+23	περιῆν	περίειμι1	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	20	PRED	_	t_322|t_319|ref=Orat.20_261
+24	ἀφʼ	ἀπό	r	r--------	_	28	AuxP	_	t_323|t_327|ref=Orat.20_261
+25	ὅτου	ὅστις	p	p-s---ng-	Case=g|Gender=n|Number=s	24	ADV	_	t_324|t_323|ref=Orat.20_261
+26	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	28	SBJ	_	t_325|t_327|ref=Orat.20_261
+27	ἀεὶ	ἀεί	d	d--------	_	28	ADV	_	t_326|t_327|ref=Orat.20_261
+28	θεωροίη	θεωρέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	23	ADV	_	t_327|t_322|ref=Orat.20_261
+29	[0]	[0]	-	---------	_	20	PRED	_	e_16|t_319|ref=Orat.20_260
+30	[1]	[1]	-	---------	_	20	PRED	_	e_17|t_319|ref=Orat.20_260
+31	.	.	u	u--------	_	10	AuxK	_	t_328|t_309|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = νῦν δὴ τὸ κάλλιστον εἶδος παρέσται δοκεῖν , τοῦτο μὲν ἐξαίφνης ἐκφανὴς ἐγγιγνομένη , τοῦτο δὲ ἀπαντικρὺ γιγνομένῳ , τοῦτο δʼ ἐκ προαστείων , ἐκ πορθμῶν , ἐκ πελάγους , ἐκ γῆς , ἐκ θαλάττης [0] [1] [2] .
 # sent_id = 19
-1	νῦν	νῦν	d	d--------	_	6	ADV	_	t_329|ref=Orationes 20_261
-2	δὴ	δή	d	d--------	_	6	AuxY	_	t_330|ref=Orationes 20_261
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_331|ref=Orationes 20_261
-4	κάλλιστον	καλός	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	5	ATR	_	t_332|ref=Orationes 20_261
-5	εἶδος	εἶδος	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_333|ref=Orationes 20_261
-6	παρέσται	πάρειμι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_334|ref=Orationes 20_261
-7	δοκεῖν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_335|ref=Orationes 20_261
-8	,	,	u	u--------	_	6	APOS	_	t_336|ref=Orationes 20_261
-9	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	36	SBJ	_	t_337|ref=Orationes 20_261
-10	μὲν	μέν	d	d--------	_	21	AuxY	_	t_338|ref=Orationes 20_261
-11	ἐξαίφνης	ἐξαίφνης	d	d--------	_	13	ADV	_	t_339|ref=Orationes 20_261
-12	ἐκφανὴς	ἐκφανής	a	a-s---fn-	Case=n|Gender=f|Number=s	13	AtvV	_	t_340|ref=Orationes 20_261
-13	ἐγγιγνομένη	ἐγγίγνομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_341|ref=Orationes 20_261
-14	,	,	u	u--------	_	6	AuxX	_	t_342|ref=Orationes 20_261
-15	τοῦτο	οὗτος	p	p-s---na-	Case=n|Gender=n|Number=s	36	SBJ	_	t_343|ref=Orationes 20_261
-16	δὲ	δέ	d	d--------	_	21	AuxY	_	t_344|ref=Orationes 20_261
-17	ἀπαντικρὺ	ἀπαντικρύ	d	d--------	_	18	ADV	_	t_345|ref=Orationes 20_261
-18	γιγνομένῳ	γίγνομαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	37	ADV	_	t_346|ref=Orationes 20_261
-19	,	,	u	u--------	_	6	AuxX	_	t_347|ref=Orationes 20_261
-20	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	38	SBJ	_	t_348|ref=Orationes 20_261
-21	δʼ	δέ	c	c--------	_	8	COORD	_	t_349|ref=Orationes 20_261
-22	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_350|ref=Orationes 20_261
-23	προαστείων	προάστειον	n	n-p---fg-	Case=g|Gender=f|Number=p	22	ADV	_	t_351|ref=Orationes 20_261
-24	,	,	u	u--------	_	6	AuxX	_	t_352|ref=Orationes 20_261
-25	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_353|ref=Orationes 20_261
-26	πορθμῶν	πορθμός	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ADV	_	t_354|ref=Orationes 20_261
-27	,	,	u	u--------	_	6	AuxX	_	t_355|ref=Orationes 20_261
-28	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_356|ref=Orationes 20_261
-29	πελάγους	πέλαγος	n	n-s---ng-	Case=g|Gender=n|Number=s	28	ADV	_	t_357|ref=Orationes 20_261
-30	,	,	u	u--------	_	6	AuxX	_	t_358|ref=Orationes 20_261
-31	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_359|ref=Orationes 20_261
-32	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	31	ADV	_	t_360|ref=Orationes 20_261
-33	,	,	u	u--------	_	38	COORD	_	t_361|ref=Orationes 20_261
-34	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_362|ref=Orationes 20_261
-35	θαλάττης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	34	ADV	_	t_363|ref=Orationes 20_261
-36	[0]	[0]	-	---------	_	21	PRED	_	e_18|ref=Orationes 20_260
-37	[1]	[1]	-	---------	_	21	PRED	_	e_19|ref=Orationes 20_260
-38	[2]	[2]	-	---------	_	21	PRED	_	e_20|ref=Orationes 20_260
-39	.	.	u	u--------	_	6	AuxK	_	t_364|ref=Orationes 20_261
+1	νῦν	νῦν	d	d--------	_	6	ADV	_	t_329|t_334|ref=Orat.20_261
+2	δὴ	δή	d	d--------	_	6	AuxY	_	t_330|t_334|ref=Orat.20_261
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_331|t_333|ref=Orat.20_261
+4	κάλλιστον	καλός	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	5	ATR	_	t_332|t_333|ref=Orat.20_261
+5	εἶδος	εἶδος	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_333|t_334|ref=Orat.20_261
+6	παρέσται	πάρειμι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_334|0|ref=Orat.20_261
+7	δοκεῖν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_335|t_334|ref=Orat.20_261
+8	,	,	u	u--------	_	6	APOS	_	t_336|t_334|ref=Orat.20_261
+9	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	36	SBJ	_	t_337|e_18|ref=Orat.20_261
+10	μὲν	μέν	d	d--------	_	21	AuxY	_	t_338|t_349|ref=Orat.20_261
+11	ἐξαίφνης	ἐξαίφνης	d	d--------	_	13	ADV	_	t_339|t_341|ref=Orat.20_261
+12	ἐκφανὴς	ἐκφανής	a	a-s---fn-	Case=n|Gender=f|Number=s	13	AtvV	_	t_340|t_341|ref=Orat.20_261
+13	ἐγγιγνομένη	ἐγγίγνομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_341|t_344|ref=Orat.20_261
+14	,	,	u	u--------	_	6	AuxX	_	t_342|t_334|ref=Orat.20_261
+15	τοῦτο	οὗτος	p	p-s---na-	Case=n|Gender=n|Number=s	36	SBJ	_	t_343|e_18|ref=Orat.20_261
+16	δὲ	δέ	d	d--------	_	21	AuxY	_	t_344|t_349|ref=Orat.20_261
+17	ἀπαντικρὺ	ἀπαντικρύ	d	d--------	_	18	ADV	_	t_345|t_346|ref=Orat.20_261
+18	γιγνομένῳ	γίγνομαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	37	ADV	_	t_346|e_19|ref=Orat.20_261
+19	,	,	u	u--------	_	6	AuxX	_	t_347|t_334|ref=Orat.20_261
+20	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	38	SBJ	_	t_348|e_20|ref=Orat.20_261
+21	δʼ	δέ	c	c--------	_	8	COORD	_	t_349|t_336|ref=Orat.20_261
+22	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_350|t_361|ref=Orat.20_261
+23	προαστείων	προάστειον	n	n-p---fg-	Case=g|Gender=f|Number=p	22	ADV	_	t_351|t_350|ref=Orat.20_261
+24	,	,	u	u--------	_	6	AuxX	_	t_352|t_334|ref=Orat.20_261
+25	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_353|t_361|ref=Orat.20_261
+26	πορθμῶν	πορθμός	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ADV	_	t_354|t_353|ref=Orat.20_261
+27	,	,	u	u--------	_	6	AuxX	_	t_355|t_334|ref=Orat.20_261
+28	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_356|t_361|ref=Orat.20_261
+29	πελάγους	πέλαγος	n	n-s---ng-	Case=g|Gender=n|Number=s	28	ADV	_	t_357|t_356|ref=Orat.20_261
+30	,	,	u	u--------	_	6	AuxX	_	t_358|t_334|ref=Orat.20_261
+31	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_359|t_361|ref=Orat.20_261
+32	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	31	ADV	_	t_360|t_359|ref=Orat.20_261
+33	,	,	u	u--------	_	38	COORD	_	t_361|e_20|ref=Orat.20_261
+34	ἐκ	ἐκ	r	r--------	_	33	AuxP	_	t_362|t_361|ref=Orat.20_261
+35	θαλάττης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	34	ADV	_	t_363|t_362|ref=Orat.20_261
+36	[0]	[0]	-	---------	_	21	PRED	_	e_18|t_349|ref=Orat.20_260
+37	[1]	[1]	-	---------	_	21	PRED	_	e_19|t_349|ref=Orat.20_260
+38	[2]	[2]	-	---------	_	21	PRED	_	e_20|t_349|ref=Orat.20_260
+39	.	.	u	u--------	_	6	AuxK	_	t_364|t_334|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ταῦτα μὲν τὰ πρὶν ἐντυχεῖν [0] .
 # sent_id = 20
-1	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_365|ref=Orationes 20_261
-2	μὲν	μέν	g	g--------	_	6	AuxY	_	t_366|ref=Orationes 20_261
-3	τὰ	ὁ	p	p-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_367|ref=Orationes 20_261
-4	πρὶν	πρίν	c	c--------	_	3	AuxC	_	t_368|ref=Orationes 20_261
-5	ἐντυχεῖν	ἐντυγχάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	4	ADV	_	t_369|ref=Orationes 20_261
-6	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=Orationes 20_260
-7	.	.	u	u--------	_	6	AuxK	_	t_370|ref=Orationes 20_261
+1	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_365|e_21|ref=Orat.20_261
+2	μὲν	μέν	g	g--------	_	6	AuxY	_	t_366|e_21|ref=Orat.20_261
+3	τὰ	ὁ	p	p-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_367|e_21|ref=Orat.20_261
+4	πρὶν	πρίν	c	c--------	_	3	AuxC	_	t_368|t_367|ref=Orat.20_261
+5	ἐντυχεῖν	ἐντυγχάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	4	ADV	_	t_369|t_368|ref=Orat.20_261
+6	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Orat.20_260
+7	.	.	u	u--------	_	6	AuxK	_	t_370|e_21|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = συνουσίαι δὲ ὅσαι καὶ ὁμιλίαι τίνα μὲν κόρον ἔσχον ἀνθρώποις ;
 # sent_id = 21
-1	συνουσίαι	συνουσία	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_371|ref=Orationes 20_261
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_372|ref=Orationes 20_261
-3	ὅσαι	ὅσος	a	a-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_373|ref=Orationes 20_261
-4	καὶ	καί	c	c--------	_	9	COORD	_	t_374|ref=Orationes 20_261
-5	ὁμιλίαι	ὁμιλία	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_375|ref=Orationes 20_261
-6	τίνα	τις	a	a-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_376|ref=Orationes 20_261
-7	μὲν	μέν	d	d--------	_	9	AuxY	_	t_377|ref=Orationes 20_261
-8	κόρον	κόρος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_378|ref=Orationes 20_261
-9	ἔσχον	ἔχω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_379|ref=Orationes 20_261
-10	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_380|ref=Orationes 20_261
-11	;	;	u	u--------	_	9	AuxK	_	t_381|ref=Orationes 20_261
+1	συνουσίαι	συνουσία	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_371|t_374|ref=Orat.20_261
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_372|t_379|ref=Orat.20_261
+3	ὅσαι	ὅσος	a	a-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_373|t_374|ref=Orat.20_261
+4	καὶ	καί	c	c--------	_	9	COORD	_	t_374|t_379|ref=Orat.20_261
+5	ὁμιλίαι	ὁμιλία	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_375|t_374|ref=Orat.20_261
+6	τίνα	τις	a	a-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_376|t_378|ref=Orat.20_261
+7	μὲν	μέν	d	d--------	_	9	AuxY	_	t_377|t_379|ref=Orat.20_261
+8	κόρον	κόρος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_378|t_379|ref=Orat.20_261
+9	ἔσχον	ἔχω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_379|0|ref=Orat.20_261
+10	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_380|t_379|ref=Orat.20_261
+11	;	;	u	u--------	_	9	AuxK	_	t_381|t_379|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = τίνι δὲ ἄλλῃ πόλει παρὰ μικρὸν ἐλθεῖν ἀπέλιπον ;
 # sent_id = 22
-1	τίνι	τις	a	a-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_382|ref=Orationes 20_261
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_383|ref=Orationes 20_261
-3	ἄλλῃ	ἄλλῃ	a	a-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_384|ref=Orationes 20_261
-4	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	7	OBJ	_	t_385|ref=Orationes 20_261
-5	παρὰ	παρά	r	r--------	_	7	AuxP	_	t_386|ref=Orationes 20_261
-6	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_387|ref=Orationes 20_261
-7	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_388|ref=Orationes 20_261
-8	ἀπέλιπον	ἀπολιμπάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_389|ref=Orationes 20_261
-9	;	;	u	u--------	_	8	AuxK	_	t_390|ref=Orationes 20_261
+1	τίνι	τις	a	a-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_382|t_385|ref=Orat.20_261
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_383|t_389|ref=Orat.20_261
+3	ἄλλῃ	ἄλλῃ	a	a-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_384|t_385|ref=Orat.20_261
+4	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	7	OBJ	_	t_385|t_388|ref=Orat.20_261
+5	παρὰ	παρά	r	r--------	_	7	AuxP	_	t_386|t_388|ref=Orat.20_261
+6	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_387|t_386|ref=Orat.20_261
+7	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_388|t_389|ref=Orat.20_261
+8	ἀπέλιπον	ἀπολιμπάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_389|0|ref=Orat.20_261
+9	;	;	u	u--------	_	8	AuxK	_	t_390|t_389|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ὦ κρῆναι , καὶ θέατρα , καὶ στενωποὶ , καὶ δρόμοι κατάστεγοι καὶ ὕπαιθροι [0] .
 # sent_id = 23
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_391|ref=Orationes 20_261
-2	κρῆναι	κρήνη	n	n-p---fn-	Case=n|Gender=f|Number=p	13	ExD	_	t_392|ref=Orationes 20_261
-3	,	,	u	u--------	_	13	AuxX	_	t_393|ref=Orationes 20_261
-4	καὶ	καί	c	c--------	_	13	AuxY	_	t_394|ref=Orationes 20_261
-5	θέατρα	θέατρον	n	n-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_395|ref=Orationes 20_261
-6	,	,	u	u--------	_	13	AuxX	_	t_396|ref=Orationes 20_261
-7	καὶ	καί	c	c--------	_	13	AuxY	_	t_397|ref=Orationes 20_261
-8	στενωποὶ	στενωπός	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_398|ref=Orationes 20_261
-9	,	,	u	u--------	_	13	AuxX	_	t_399|ref=Orationes 20_261
-10	καὶ	καί	c	c--------	_	13	AuxY	_	t_400|ref=Orationes 20_261
-11	δρόμοι	δρόμος	n	n-p---mv-	Case=v|Gender=m|Number=p	13	SBJ	_	t_401|ref=Orationes 20_261
-12	κατάστεγοι	κατάστεγος	a	a-p---mn-	Case=v|Gender=m|Number=p	11	ATR	_	t_402|ref=Orationes 20_261
-13	καὶ	καί	c	c--------	_	15	COORD	_	t_403|ref=Orationes 20_261
-14	ὕπαιθροι	ὑπαίθριος	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_404|ref=Orationes 20_261
-15	[0]	[0]	-	---------	_	0	PRED	_	e_22|ref=Orationes 20_260
-16	.	.	u	u--------	_	15	AuxK	_	t_405|ref=Orationes 20_261
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_391|t_392|ref=Orat.20_261
+2	κρῆναι	κρήνη	n	n-p---fn-	Case=n|Gender=f|Number=p	13	ExD	_	t_392|t_403|ref=Orat.20_261
+3	,	,	u	u--------	_	13	AuxX	_	t_393|t_403|ref=Orat.20_261
+4	καὶ	καί	c	c--------	_	13	AuxY	_	t_394|t_403|ref=Orat.20_261
+5	θέατρα	θέατρον	n	n-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_395|t_403|ref=Orat.20_261
+6	,	,	u	u--------	_	13	AuxX	_	t_396|t_403|ref=Orat.20_261
+7	καὶ	καί	c	c--------	_	13	AuxY	_	t_397|t_403|ref=Orat.20_261
+8	στενωποὶ	στενωπός	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_398|t_403|ref=Orat.20_261
+9	,	,	u	u--------	_	13	AuxX	_	t_399|t_403|ref=Orat.20_261
+10	καὶ	καί	c	c--------	_	13	AuxY	_	t_400|t_403|ref=Orat.20_261
+11	δρόμοι	δρόμος	n	n-p---mv-	Case=v|Gender=m|Number=p	13	SBJ	_	t_401|t_403|ref=Orat.20_261
+12	κατάστεγοι	κατάστεγος	a	a-p---mn-	Case=v|Gender=m|Number=p	11	ATR	_	t_402|t_401|ref=Orat.20_261
+13	καὶ	καί	c	c--------	_	15	COORD	_	t_403|e_22|ref=Orat.20_261
+14	ὕπαιθροι	ὑπαίθριος	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_404|t_403|ref=Orat.20_261
+15	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Orat.20_260
+16	.	.	u	u--------	_	15	AuxK	_	t_405|e_22|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ὦ τῆς ὑπερλάμπρου σχῆμα ἀγορᾶς , ὦ χρυσοῦ τε ἐπώνυμοι καὶ ἱερῶν ὁδοὶ καθʼ ἕκαστον πλαίσιον , ἀντʼ ἀγορᾶς ἅπασαι , ὦ λιμένες ποθοῦντες τὰς τῆς φιλτάτης πόλεως ἀγκάλας , ὦ κάλλη γυμνασίων ἀμύθητα , ὦ ναῶν καὶ περιβόλων χάριτες , ποῖ ποτε γῆς ἔδυτε ;
 # sent_id = 24
-1	ὦ	ὦ	i	i--------	_	4	AuxZ	_	t_406|ref=Orationes 20_261
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_407|ref=Orationes 20_261
-3	ὑπερλάμπρου	ὑπέρλαμπρος	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_408|ref=Orationes 20_261
-4	σχῆμα	σχῆμα	n	n-s---nv-	Case=v|Gender=n|Number=s	30	ExD	_	t_409|ref=Orationes 20_261
-5	ἀγορᾶς	ἀγορά	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_410|ref=Orationes 20_261
-6	,	,	u	u--------	_	4	AuxX	_	t_411|ref=Orationes 20_261
-7	ὦ	ὦ	i	i--------	_	10	AuxZ	_	t_412|ref=Orationes 20_261
-8	χρυσοῦ	χρυσός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_413|ref=Orationes 20_261
-9	τε	τε	g	g--------	_	11	AuxY	_	t_414|ref=Orationes 20_261
-10	ἐπώνυμοι	ἐπώνυμος	a	a-p---mv-	Case=v|Gender=m|Number=p	30	ExD	_	t_415|ref=Orationes 20_261
-11	καὶ	καί	c	c--------	_	10	COORD	_	t_416|ref=Orationes 20_261
-12	ἱερῶν	ἱερόν	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_417|ref=Orationes 20_261
-13	ὁδοὶ	ὁδός	n	n-p---mv-	Case=v|Gender=m|Number=p	30	ExD	_	t_418|ref=Orationes 20_261
-14	καθʼ	κατά	r	r--------	_	13	AuxP	_	t_419|ref=Orationes 20_261
-15	ἕκαστον	ἕκαστος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_420|ref=Orationes 20_261
-16	πλαίσιον	πλαίσιον	n	n-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_421|ref=Orationes 20_261
-17	,	,	u	u--------	_	10	AuxX	_	t_422|ref=Orationes 20_261
-18	ἀντʼ	ἀντί	r	r--------	_	30	AuxP	_	t_423|ref=Orationes 20_261
-19	ἀγορᾶς	ἀγορά	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ADV	_	t_424|ref=Orationes 20_261
-20	ἅπασαι	ἅπας	a	a-p---mg-	Case=v|Gender=m|Number=s	30	ExD	_	t_425|ref=Orationes 20_261
-21	,	,	u	u--------	_	45	AuxX	_	t_426|ref=Orationes 20_261
-22	ὦ	ὦ	i	i--------	_	23	AuxZ	_	t_427|ref=Orationes 20_261
-23	λιμένες	λιμήν	n	n-p---mv-	Case=v|Gender=m|Number=p	35	ExD	_	t_428|ref=Orationes 20_261
-24	ποθοῦντες	ποθέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ATR	_	t_429|ref=Orationes 20_261
-25	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_430|ref=Orationes 20_261
-26	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_431|ref=Orationes 20_261
-27	φιλτάτης	φίλτατος	a	a-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_432|ref=Orationes 20_261
-28	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_433|ref=Orationes 20_261
-29	ἀγκάλας	ἀγκάλη	a	a-p---fa-	Case=n|Gender=m|Number=s	24	OBJ	_	t_434|ref=Orationes 20_261
-30	,	,	u	u--------	_	45	COORD	_	t_435|ref=Orationes 20_261
-31	ὦ	ὦ	i	i--------	_	32	AuxZ	_	t_436|ref=Orationes 20_261
-32	κάλλη	κάλλος	n	n-p---nv-	Case=v|Gender=n|Number=p	35	ExD	_	t_437|ref=Orationes 20_261
-33	γυμνασίων	γυμνάσιον	n	n-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_438|ref=Orationes 20_261
-34	ἀμύθητα	ἀμύθητος	a	a-s---fv-	Case=v|Gender=n|Number=p	32	ATR	_	t_439|ref=Orationes 20_261
-35	,	,	u	u--------	_	45	COORD	_	t_440|ref=Orationes 20_261
-36	ὦ	ὦ	i	i--------	_	40	AuxZ	_	t_441|ref=Orationes 20_261
-37	ναῶν	ναῦς	n	n-p---fg-	Case=g|Gender=f|Number=p	38	ATR	_	t_442|ref=Orationes 20_261
-38	καὶ	καί	c	c--------	_	40	COORD	_	t_443|ref=Orationes 20_261
-39	περιβόλων	περίβολος	n	n-p---mg-	Case=g|Gender=f|Number=p	38	ATR	_	t_444|ref=Orationes 20_261
-40	χάριτες	χάρις	n	n-p---mv-	Case=v|Gender=m|Number=p	35	ExD	_	t_445|ref=Orationes 20_261
-41	,	,	u	u--------	_	40	AuxX	_	t_446|ref=Orationes 20_261
-42	ποῖ	ποῖ	d	d--------	_	45	ADV	_	t_447|ref=Orationes 20_261
-43	ποτε	ποτέ	g	g--------	_	42	AuxZ	_	t_448|ref=Orationes 20_261
-44	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_449|ref=Orationes 20_261
-45	ἔδυτε	δύω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_450|ref=Orationes 20_261
-46	;	;	u	u--------	_	45	AuxK	_	t_451|ref=Orationes 20_261
+1	ὦ	ὦ	i	i--------	_	4	AuxZ	_	t_406|t_409|ref=Orat.20_261
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_407|t_410|ref=Orat.20_261
+3	ὑπερλάμπρου	ὑπέρλαμπρος	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_408|t_410|ref=Orat.20_261
+4	σχῆμα	σχῆμα	n	n-s---nv-	Case=v|Gender=n|Number=s	30	ExD	_	t_409|t_435|ref=Orat.20_261
+5	ἀγορᾶς	ἀγορά	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_410|t_409|ref=Orat.20_261
+6	,	,	u	u--------	_	4	AuxX	_	t_411|t_409|ref=Orat.20_261
+7	ὦ	ὦ	i	i--------	_	10	AuxZ	_	t_412|t_415|ref=Orat.20_261
+8	χρυσοῦ	χρυσός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_413|t_416|ref=Orat.20_261
+9	τε	τε	g	g--------	_	11	AuxY	_	t_414|t_416|ref=Orat.20_261
+10	ἐπώνυμοι	ἐπώνυμος	a	a-p---mv-	Case=v|Gender=m|Number=p	30	ExD	_	t_415|t_435|ref=Orat.20_261
+11	καὶ	καί	c	c--------	_	10	COORD	_	t_416|t_415|ref=Orat.20_261
+12	ἱερῶν	ἱερόν	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_417|t_416|ref=Orat.20_261
+13	ὁδοὶ	ὁδός	n	n-p---mv-	Case=v|Gender=m|Number=p	30	ExD	_	t_418|t_435|ref=Orat.20_261
+14	καθʼ	κατά	r	r--------	_	13	AuxP	_	t_419|t_418|ref=Orat.20_261
+15	ἕκαστον	ἕκαστος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_420|t_421|ref=Orat.20_261
+16	πλαίσιον	πλαίσιον	n	n-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_421|t_419|ref=Orat.20_261
+17	,	,	u	u--------	_	10	AuxX	_	t_422|t_415|ref=Orat.20_261
+18	ἀντʼ	ἀντί	r	r--------	_	30	AuxP	_	t_423|t_435|ref=Orat.20_261
+19	ἀγορᾶς	ἀγορά	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ADV	_	t_424|t_423|ref=Orat.20_261
+20	ἅπασαι	ἅπας	a	a-p---mg-	Case=v|Gender=m|Number=s	30	ExD	_	t_425|t_435|ref=Orat.20_261
+21	,	,	u	u--------	_	45	AuxX	_	t_426|t_450|ref=Orat.20_261
+22	ὦ	ὦ	i	i--------	_	23	AuxZ	_	t_427|t_428|ref=Orat.20_261
+23	λιμένες	λιμήν	n	n-p---mv-	Case=v|Gender=m|Number=p	35	ExD	_	t_428|t_440|ref=Orat.20_261
+24	ποθοῦντες	ποθέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ATR	_	t_429|t_428|ref=Orat.20_261
+25	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_430|t_434|ref=Orat.20_261
+26	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_431|t_433|ref=Orat.20_261
+27	φιλτάτης	φίλτατος	a	a-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_432|t_433|ref=Orat.20_261
+28	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_433|t_434|ref=Orat.20_261
+29	ἀγκάλας	ἀγκάλη	a	a-p---fa-	Case=n|Gender=m|Number=s	24	OBJ	_	t_434|t_429|ref=Orat.20_261
+30	,	,	u	u--------	_	45	COORD	_	t_435|t_450|ref=Orat.20_261
+31	ὦ	ὦ	i	i--------	_	32	AuxZ	_	t_436|t_437|ref=Orat.20_261
+32	κάλλη	κάλλος	n	n-p---nv-	Case=v|Gender=n|Number=p	35	ExD	_	t_437|t_440|ref=Orat.20_261
+33	γυμνασίων	γυμνάσιον	n	n-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_438|t_439|ref=Orat.20_261
+34	ἀμύθητα	ἀμύθητος	a	a-s---fv-	Case=v|Gender=n|Number=p	32	ATR	_	t_439|t_437|ref=Orat.20_261
+35	,	,	u	u--------	_	45	COORD	_	t_440|t_450|ref=Orat.20_261
+36	ὦ	ὦ	i	i--------	_	40	AuxZ	_	t_441|t_445|ref=Orat.20_261
+37	ναῶν	ναῦς	n	n-p---fg-	Case=g|Gender=f|Number=p	38	ATR	_	t_442|t_443|ref=Orat.20_261
+38	καὶ	καί	c	c--------	_	40	COORD	_	t_443|t_445|ref=Orat.20_261
+39	περιβόλων	περίβολος	n	n-p---mg-	Case=g|Gender=f|Number=p	38	ATR	_	t_444|t_443|ref=Orat.20_261
+40	χάριτες	χάρις	n	n-p---mv-	Case=v|Gender=m|Number=p	35	ExD	_	t_445|t_440|ref=Orat.20_261
+41	,	,	u	u--------	_	40	AuxX	_	t_446|t_445|ref=Orat.20_261
+42	ποῖ	ποῖ	d	d--------	_	45	ADV	_	t_447|t_450|ref=Orat.20_261
+43	ποτε	ποτέ	g	g--------	_	42	AuxZ	_	t_448|t_447|ref=Orat.20_261
+44	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_449|t_447|ref=Orat.20_261
+45	ἔδυτε	δύω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_450|0|ref=Orat.20_261
+46	;	;	u	u--------	_	45	AuxK	_	t_451|t_450|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ὦ κόσμοι παραλίας , ὦ πάντα ἐκεῖνα ὀνείρατα [0] .
 # sent_id = 25
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_452|ref=Orationes 20_261
-2	κόσμοι	κόσμος	n	n-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_453|ref=Orationes 20_261
-3	παραλίας	παράλιος	a	a-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_454|ref=Orationes 20_261
-4	,	,	u	u--------	_	9	COORD	_	t_455|ref=Orationes 20_261
-5	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_456|ref=Orationes 20_261
-6	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_457|ref=Orationes 20_261
-7	ἐκεῖνα	ἐκεῖνος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_458|ref=Orationes 20_261
-8	ὀνείρατα	ὄνειρος	n	n-p---nn-	Case=n|Gender=n|Number=p	4	ExD	_	t_459|ref=Orationes 20_261
-9	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Orationes 20_260
-10	.	.	u	u--------	_	9	AuxK	_	t_460|ref=Orationes 20_261
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_452|t_453|ref=Orat.20_261
+2	κόσμοι	κόσμος	n	n-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_453|t_455|ref=Orat.20_261
+3	παραλίας	παράλιος	a	a-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_454|t_453|ref=Orat.20_261
+4	,	,	u	u--------	_	9	COORD	_	t_455|e_23|ref=Orat.20_261
+5	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_456|t_459|ref=Orat.20_261
+6	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_457|t_459|ref=Orat.20_261
+7	ἐκεῖνα	ἐκεῖνος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_458|t_459|ref=Orat.20_261
+8	ὀνείρατα	ὄνειρος	n	n-p---nn-	Case=n|Gender=n|Number=p	4	ExD	_	t_459|t_455|ref=Orat.20_261
+9	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Orat.20_260
+10	.	.	u	u--------	_	9	AuxK	_	t_460|e_23|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ποῖαι πηγαὶ δακρύων ἱκαναὶ τοσούτῳ κακῷ [0] ;
 # sent_id = 26
-1	ποῖαι	ποῖος	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_461|ref=Orationes 20_261
-2	πηγαὶ	πηγή	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_462|ref=Orationes 20_261
-3	δακρύων	δάκρυον	n	n-p---ng-	Case=g|Gender=n|Number=p	2	ATR	_	t_463|ref=Orationes 20_261
-4	ἱκαναὶ	ἱκανός	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_464|ref=Orationes 20_261
-5	τοσούτῳ	τοσοῦτος	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_465|ref=Orationes 20_261
-6	κακῷ	κακός	a	a-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_466|ref=Orationes 20_261
-7	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=Orationes 20_260
-8	;	;	u	u--------	_	7	AuxK	_	t_467|ref=Orationes 20_261
+1	ποῖαι	ποῖος	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_461|t_462|ref=Orat.20_261
+2	πηγαὶ	πηγή	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_462|e_24|ref=Orat.20_261
+3	δακρύων	δάκρυον	n	n-p---ng-	Case=g|Gender=n|Number=p	2	ATR	_	t_463|t_462|ref=Orat.20_261
+4	ἱκαναὶ	ἱκανός	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_464|t_462|ref=Orat.20_261
+5	τοσούτῳ	τοσοῦτος	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_465|t_466|ref=Orat.20_261
+6	κακῷ	κακός	a	a-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_466|e_24|ref=Orat.20_261
+7	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=Orat.20_260
+8	;	;	u	u--------	_	7	AuxK	_	t_467|e_24|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261
+# source = Aristides, Aelius, Orat.20 261
 # text = ποῖαι συναυλίαι καὶ συνῳδίαι χορῶν , πάντων τὴν καλλίχορον καὶ πολυύμνητον καὶ τριπόθητον ἀνθρώποις ἀρκέσουσιν ἀνοιμῶξαι πόλιν ;
 # sent_id = 27
-1	ποῖαι	ποῖος	a	a-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_468|ref=Orationes 20_261
-2	συναυλίαι	συναυλία	n	n-p---fn-	Case=n|Gender=f|Number=p	3	SBJ	_	t_469|ref=Orationes 20_261
-3	καὶ	καί	c	c--------	_	15	COORD	_	t_470|ref=Orationes 20_261
-4	συνῳδίαι	συνῳδία	n	n-p---fn-	Case=n|Gender=f|Number=p	3	SBJ	_	t_471|ref=Orationes 20_261
-5	χορῶν	χορός	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_472|ref=Orationes 20_261
-6	,	,	u	u--------	_	15	AuxX	_	t_473|ref=Orationes 20_261
-7	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_474|ref=Orationes 20_261
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_475|ref=Orationes 20_261
-9	καλλίχορον	καλλίχορος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_476|ref=Orationes 20_261
-10	καὶ	καί	c	c--------	_	12	AuxY	_	t_477|ref=Orationes 20_261
-11	πολυύμνητον	πολυύμνητος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_478|ref=Orationes 20_261
-12	καὶ	καί	c	c--------	_	8	COORD	_	t_479|ref=Orationes 20_261
-13	τριπόθητον	τριπόθητος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_480|ref=Orationes 20_261
-14	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	16	OBJ	_	t_481|ref=Orationes 20_261
-15	ἀρκέσουσιν	ἀρκέω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	0	PRED	_	t_482|ref=Orationes 20_261
-16	ἀνοιμῶξαι	ἀνοιμώζω	v	v--ana---	Mood=n|Tense=a|Voice=a	15	OBJ	_	t_483|ref=Orationes 20_261
-17	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_484|ref=Orationes 20_261
-18	;	;	u	u--------	_	15	AuxK	_	t_485|ref=Orationes 20_261
+1	ποῖαι	ποῖος	a	a-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_468|t_470|ref=Orat.20_261
+2	συναυλίαι	συναυλία	n	n-p---fn-	Case=n|Gender=f|Number=p	3	SBJ	_	t_469|t_470|ref=Orat.20_261
+3	καὶ	καί	c	c--------	_	15	COORD	_	t_470|t_482|ref=Orat.20_261
+4	συνῳδίαι	συνῳδία	n	n-p---fn-	Case=n|Gender=f|Number=p	3	SBJ	_	t_471|t_470|ref=Orat.20_261
+5	χορῶν	χορός	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_472|t_470|ref=Orat.20_261
+6	,	,	u	u--------	_	15	AuxX	_	t_473|t_482|ref=Orat.20_261
+7	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_474|t_472|ref=Orat.20_261
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_475|t_484|ref=Orat.20_261
+9	καλλίχορον	καλλίχορος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_476|t_479|ref=Orat.20_261
+10	καὶ	καί	c	c--------	_	12	AuxY	_	t_477|t_479|ref=Orat.20_261
+11	πολυύμνητον	πολυύμνητος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_478|t_479|ref=Orat.20_261
+12	καὶ	καί	c	c--------	_	8	COORD	_	t_479|t_475|ref=Orat.20_261
+13	τριπόθητον	τριπόθητος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_480|t_479|ref=Orat.20_261
+14	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	16	OBJ	_	t_481|t_483|ref=Orat.20_261
+15	ἀρκέσουσιν	ἀρκέω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	0	PRED	_	t_482|0|ref=Orat.20_261
+16	ἀνοιμῶξαι	ἀνοιμώζω	v	v--ana---	Mood=n|Tense=a|Voice=a	15	OBJ	_	t_483|t_482|ref=Orat.20_261
+17	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_484|t_483|ref=Orat.20_261
+18	;	;	u	u--------	_	15	AuxK	_	t_485|t_482|ref=Orat.20_261
 
-# source = Aristides, Aelius, Orationes 20 261-262
+# source = Aristides, Aelius, Orat.20 261-262
 # text = ὦ πτῶμα τῆς Ἀσίας , ὦ λοιπαὶ πόλεις , ὦ πᾶσα μὲν γῆ , πᾶσα δὲ εἴσω Γαδείρων τε καὶ ἔξω Γαδείρων θάλαττα , ὦ κύκλος ἀστέρων , ὦ πάντα ἐφορῶν ἥλιε , οἷον ἠνέσχου θέαμα ὁρῶν [0] .
 # sent_id = 28
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_486|ref=Orationes 20_261
-2	πτῶμα	πτῶμα	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_487|ref=Orationes 20_261
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_488|ref=Orationes 20_261
-4	Ἀσίας	ἀσία	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_489|ref=Orationes 20_261
-5	,	,	u	u--------	_	38	AuxX	_	t_490|ref=Orationes 20_261
-6	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_491|ref=Orationes 20_261
-7	λοιπαὶ	λοιπός	a	a-p---fv-	Case=v|Gender=f|Number=p	8	ATR	_	t_492|ref=Orationes 20_261
-8	πόλεις	πόλις	n	n-p---fv-	Case=v|Gender=f|Number=p	16	ExD	_	t_493|ref=Orationes 20_261
-9	,	,	u	u--------	_	38	AuxX	_	t_494|ref=Orationes 20_261
-10	ὦ	ὦ	i	i--------	_	13	AuxZ	_	t_495|ref=Orationes 20_261
-11	πᾶσα	πᾶς	a	a-s---fn-	Case=v|Gender=f|Number=s	13	ATR	_	t_496|ref=Orationes 20_261
-12	μὲν	μέν	d	d--------	_	16	AuxY	_	t_497|ref=Orationes 20_261
-13	γῆ	γῆ	n	n-s---fv-	Case=v|Gender=f|Number=s	16	ExD	_	t_498|ref=Orationes 20_262
-14	,	,	u	u--------	_	38	AuxX	_	t_499|ref=Orationes 20_262
-15	πᾶσα	πᾶς	a	a-s---fn-	Case=n|Gender=f|Number=s	23	ATR	_	t_500|ref=Orationes 20_262
-16	δὲ	δέ	g	g--------	_	24	COORD	_	t_501|ref=Orationes 20_262
-17	εἴσω	εἴσω	d	d--------	_	20	ADV	_	t_502|ref=Orationes 20_262
-18	Γαδείρων	γαδείρων	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_503|ref=Orationes 20_262
-19	τε	τε	g	g--------	_	20	AuxY	_	t_504|ref=Orationes 20_262
-20	καὶ	καί	c	c--------	_	23	COORD	_	t_505|ref=Orationes 20_262
-21	ἔξω	ἔξω	d	d--------	_	20	AuxP	_	t_506|ref=Orationes 20_262
-22	Γαδείρων	γαδείρων	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_507|ref=Orationes 20_262
-23	θάλαττα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	24	ExD	_	t_508|ref=Orationes 20_262
-24	,	,	u	u--------	_	38	AuxX	_	t_509|ref=Orationes 20_262
-25	ὦ	ὦ	i	i--------	_	26	AuxZ	_	t_510|ref=Orationes 20_262
-26	κύκλος	κύκλος	n	n-s---mn-	Case=n|Gender=m|Number=s	24	ExD	_	t_511|ref=Orationes 20_262
-27	ἀστέρων	ἀστήρ	a	a-p---mg-	Case=g|Degree=c|Gender=m|Number=p	26	ATR	_	t_512|ref=Orationes 20_262
-28	,	,	u	u--------	_	38	AuxX	_	t_513|ref=Orationes 20_262
-29	ὦ	ὦ	i	i--------	_	31	AuxZ	_	t_514|ref=Orationes 20_262
-30	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_515|ref=Orationes 20_262
-31	ἐφορῶν	ἐφοράω	v	v-sppamv-	Case=v|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	32	ATR	_	t_516|ref=Orationes 20_262
-32	ἥλιε	ἥλιος	n	n-s---mv-	Case=v|Gender=m|Number=s	28	ExD	_	t_517|ref=Orationes 20_262
-33	,	,	u	u--------	_	38	COORD	_	t_518|ref=Orationes 20_262
-34	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	36	ATR	_	t_519|ref=Orationes 20_262
-35	ἠνέσχου	ἀνέχω	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	33	PRED	_	t_520|ref=Orationes 20_262
-36	θέαμα	θέαμα	n	n-s---na-	Case=a|Gender=n|Number=s	37	OBJ	_	t_521|ref=Orationes 20_262
-37	ὁρῶν	ὁράω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_522|ref=Orationes 20_262
-38	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=Orationes 20_260
-39	.	.	u	u--------	_	38	AuxK	_	t_523|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_486|t_487|ref=Orat.20_261
+2	πτῶμα	πτῶμα	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_487|t_494|ref=Orat.20_261
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_488|t_489|ref=Orat.20_261
+4	Ἀσίας	ἀσία	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_489|t_487|ref=Orat.20_261
+5	,	,	u	u--------	_	38	AuxX	_	t_490|e_25|ref=Orat.20_261
+6	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_491|t_493|ref=Orat.20_261
+7	λοιπαὶ	λοιπός	a	a-p---fv-	Case=v|Gender=f|Number=p	8	ATR	_	t_492|t_493|ref=Orat.20_261
+8	πόλεις	πόλις	n	n-p---fv-	Case=v|Gender=f|Number=p	16	ExD	_	t_493|t_501|ref=Orat.20_261
+9	,	,	u	u--------	_	38	AuxX	_	t_494|e_25|ref=Orat.20_261
+10	ὦ	ὦ	i	i--------	_	13	AuxZ	_	t_495|t_498|ref=Orat.20_261
+11	πᾶσα	πᾶς	a	a-s---fn-	Case=v|Gender=f|Number=s	13	ATR	_	t_496|t_498|ref=Orat.20_261
+12	μὲν	μέν	d	d--------	_	16	AuxY	_	t_497|t_501|ref=Orat.20_261
+13	γῆ	γῆ	n	n-s---fv-	Case=v|Gender=f|Number=s	16	ExD	_	t_498|t_501|ref=Orat.20_262
+14	,	,	u	u--------	_	38	AuxX	_	t_499|e_25|ref=Orat.20_262
+15	πᾶσα	πᾶς	a	a-s---fn-	Case=n|Gender=f|Number=s	23	ATR	_	t_500|t_508|ref=Orat.20_262
+16	δὲ	δέ	g	g--------	_	24	COORD	_	t_501|t_509|ref=Orat.20_262
+17	εἴσω	εἴσω	d	d--------	_	20	ADV	_	t_502|t_505|ref=Orat.20_262
+18	Γαδείρων	γαδείρων	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_503|t_505|ref=Orat.20_262
+19	τε	τε	g	g--------	_	20	AuxY	_	t_504|t_505|ref=Orat.20_262
+20	καὶ	καί	c	c--------	_	23	COORD	_	t_505|t_508|ref=Orat.20_262
+21	ἔξω	ἔξω	d	d--------	_	20	AuxP	_	t_506|t_505|ref=Orat.20_262
+22	Γαδείρων	γαδείρων	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_507|t_508|ref=Orat.20_262
+23	θάλαττα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	24	ExD	_	t_508|t_509|ref=Orat.20_262
+24	,	,	u	u--------	_	38	AuxX	_	t_509|e_25|ref=Orat.20_262
+25	ὦ	ὦ	i	i--------	_	26	AuxZ	_	t_510|t_511|ref=Orat.20_262
+26	κύκλος	κύκλος	n	n-s---mn-	Case=n|Gender=m|Number=s	24	ExD	_	t_511|t_509|ref=Orat.20_262
+27	ἀστέρων	ἀστήρ	a	a-p---mg-	Case=g|Degree=c|Gender=m|Number=p	26	ATR	_	t_512|t_511|ref=Orat.20_262
+28	,	,	u	u--------	_	38	AuxX	_	t_513|e_25|ref=Orat.20_262
+29	ὦ	ὦ	i	i--------	_	31	AuxZ	_	t_514|t_516|ref=Orat.20_262
+30	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_515|t_516|ref=Orat.20_262
+31	ἐφορῶν	ἐφοράω	v	v-sppamv-	Case=v|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	32	ATR	_	t_516|t_517|ref=Orat.20_262
+32	ἥλιε	ἥλιος	n	n-s---mv-	Case=v|Gender=m|Number=s	28	ExD	_	t_517|t_513|ref=Orat.20_262
+33	,	,	u	u--------	_	38	COORD	_	t_518|e_25|ref=Orat.20_262
+34	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	36	ATR	_	t_519|t_521|ref=Orat.20_262
+35	ἠνέσχου	ἀνέχω	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	33	PRED	_	t_520|t_518|ref=Orat.20_262
+36	θέαμα	θέαμα	n	n-s---na-	Case=a|Gender=n|Number=s	37	OBJ	_	t_521|t_522|ref=Orat.20_262
+37	ὁρῶν	ὁράω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_522|t_520|ref=Orat.20_262
+38	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=Orat.20_260
+39	.	.	u	u--------	_	38	AuxK	_	t_523|e_25|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ παιδιὰ μὲν Ἰλίου πόρθησις , παιδιὰ δὲ Ἀθηναίων ἐν Σικελίᾳ συμφοραὶ καὶ κατασκαφαὶ Θηβῶν , καὶ στρατευμάτων ὄλεθροι καὶ πόλεων δύσεις , καὶ πάνθʼ ὅσα πῦρ καὶ πόλεμοι καὶ σεισμοὶ μέχρι τοῦδε ἀπειργάσαντο [0] [1] [2] .
 # sent_id = 29
-1	ὦ	ὦ	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_524|ref=Orationes 20_262
-2	παιδιὰ	παιδιή	n	n-s---fn-	Case=n|Gender=f|Number=s	35	PNOM	_	t_525|ref=Orationes 20_262
-3	μὲν	μέν	d	d--------	_	24	AuxY	_	t_526|ref=Orationes 20_262
-4	Ἰλίου	ἴλιον	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_527|ref=Orationes 20_262
-5	πόρθησις	πόρθησις	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_528|ref=Orationes 20_262
-6	,	,	u	u--------	_	35	AuxX	_	t_529|ref=Orationes 20_262
-7	παιδιὰ	παιδιή	n	n-s---fn-	Case=n|Gender=f|Number=s	36	PNOM	_	t_530|ref=Orationes 20_262
-8	δὲ	δέ	d	d--------	_	24	AuxY	_	t_531|ref=Orationes 20_262
-9	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_532|ref=Orationes 20_262
-10	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_533|ref=Orationes 20_262
-11	Σικελίᾳ	σικελία	n	n-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_534|ref=Orationes 20_262
-12	συμφοραὶ	συμφορά	n	n-p---fn-	Case=n|Gender=f|Number=p	24	SBJ	_	t_535|ref=Orationes 20_262
-13	καὶ	καί	c	c--------	_	24	AuxY	_	t_536|ref=Orationes 20_262
-14	κατασκαφαὶ	κατασκαφή	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_537|ref=Orationes 20_262
-15	Θηβῶν	θῆβαι	n	n-p---fg-	Case=g|Gender=f|Number=p	14	ATR	_	t_538|ref=Orationes 20_262
-16	,	,	u	u--------	_	35	AuxX	_	t_539|ref=Orationes 20_262
-17	καὶ	καί	d	d--------	_	24	AuxY	_	t_540|ref=Orationes 20_262
-18	στρατευμάτων	στράτευμα	n	n-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_541|ref=Orationes 20_262
-19	ὄλεθροι	ὄλεθρος	n	n-p---mn-	Case=n|Gender=m|Number=p	24	SBJ	_	t_542|ref=Orationes 20_262
-20	καὶ	καί	d	d--------	_	24	AuxY	_	t_543|ref=Orationes 20_262
-21	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	22	ATR	_	t_544|ref=Orationes 20_262
-22	δύσεις	δύσις	n	n-p---fn-	Case=n|Gender=f|Number=p	24	SBJ	_	t_545|ref=Orationes 20_262
-23	,	,	u	u--------	_	35	AuxX	_	t_546|ref=Orationes 20_262
-24	καὶ	καί	c	c--------	_	35	COORD	_	t_547|ref=Orationes 20_262
-25	πάνθʼ	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_548|ref=Orationes 20_262
-26	ὅσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	34	OBJ	_	t_549|ref=Orationes 20_262
-27	πῦρ	πῦρ	n	n-s---nn-	Case=n|Gender=n|Number=s	30	SBJ	_	t_550|ref=Orationes 20_262
-28	καὶ	καί	d	d--------	_	30	AuxY	_	t_551|ref=Orationes 20_262
-29	πόλεμοι	πόλεμος	n	n-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_552|ref=Orationes 20_262
-30	καὶ	καί	c	c--------	_	37	COORD	_	t_553|ref=Orationes 20_262
-31	σεισμοὶ	σεισμός	n	n-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_554|ref=Orationes 20_262
-32	μέχρι	μέχρι	r	r--------	_	34	AuxP	_	t_555|ref=Orationes 20_262
-33	τοῦδε	ὅδε	p	p-s---ng-	Case=g|Gender=n|Number=s	32	ADV	_	t_556|ref=Orationes 20_262
-34	ἀπειργάσαντο	ἀπεργάζομαι	v	v3paie---	Mood=i|Number=p|Person=3|Tense=a|Voice=e	25	ATR	_	t_557|ref=Orationes 20_262
-35	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=Orationes 20_260
-36	[1]	[1]	-	---------	_	24	PRED	_	e_27|ref=Orationes 20_260
-37	[2]	[2]	-	---------	_	24	SBJ	_	e_28|ref=Orationes 20_260
-38	.	.	u	u--------	_	35	AuxK	_	t_558|ref=Orationes 20_262
+1	ὦ	ὦ	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_524|t_525|ref=Orat.20_262
+2	παιδιὰ	παιδιή	n	n-s---fn-	Case=n|Gender=f|Number=s	35	PNOM	_	t_525|e_26|ref=Orat.20_262
+3	μὲν	μέν	d	d--------	_	24	AuxY	_	t_526|t_547|ref=Orat.20_262
+4	Ἰλίου	ἴλιον	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_527|t_528|ref=Orat.20_262
+5	πόρθησις	πόρθησις	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_528|e_26|ref=Orat.20_262
+6	,	,	u	u--------	_	35	AuxX	_	t_529|e_26|ref=Orat.20_262
+7	παιδιὰ	παιδιή	n	n-s---fn-	Case=n|Gender=f|Number=s	36	PNOM	_	t_530|e_27|ref=Orat.20_262
+8	δὲ	δέ	d	d--------	_	24	AuxY	_	t_531|t_547|ref=Orat.20_262
+9	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_532|t_535|ref=Orat.20_262
+10	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_533|t_535|ref=Orat.20_262
+11	Σικελίᾳ	σικελία	n	n-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_534|t_533|ref=Orat.20_262
+12	συμφοραὶ	συμφορά	n	n-p---fn-	Case=n|Gender=f|Number=p	24	SBJ	_	t_535|t_547|ref=Orat.20_262
+13	καὶ	καί	c	c--------	_	24	AuxY	_	t_536|t_547|ref=Orat.20_262
+14	κατασκαφαὶ	κατασκαφή	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_537|t_536|ref=Orat.20_262
+15	Θηβῶν	θῆβαι	n	n-p---fg-	Case=g|Gender=f|Number=p	14	ATR	_	t_538|t_537|ref=Orat.20_262
+16	,	,	u	u--------	_	35	AuxX	_	t_539|e_26|ref=Orat.20_262
+17	καὶ	καί	d	d--------	_	24	AuxY	_	t_540|t_547|ref=Orat.20_262
+18	στρατευμάτων	στράτευμα	n	n-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_541|t_542|ref=Orat.20_262
+19	ὄλεθροι	ὄλεθρος	n	n-p---mn-	Case=n|Gender=m|Number=p	24	SBJ	_	t_542|t_547|ref=Orat.20_262
+20	καὶ	καί	d	d--------	_	24	AuxY	_	t_543|t_547|ref=Orat.20_262
+21	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	22	ATR	_	t_544|t_545|ref=Orat.20_262
+22	δύσεις	δύσις	n	n-p---fn-	Case=n|Gender=f|Number=p	24	SBJ	_	t_545|t_547|ref=Orat.20_262
+23	,	,	u	u--------	_	35	AuxX	_	t_546|e_26|ref=Orat.20_262
+24	καὶ	καί	c	c--------	_	35	COORD	_	t_547|e_26|ref=Orat.20_262
+25	πάνθʼ	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_548|t_547|ref=Orat.20_262
+26	ὅσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	34	OBJ	_	t_549|t_557|ref=Orat.20_262
+27	πῦρ	πῦρ	n	n-s---nn-	Case=n|Gender=n|Number=s	30	SBJ	_	t_550|t_553|ref=Orat.20_262
+28	καὶ	καί	d	d--------	_	30	AuxY	_	t_551|t_553|ref=Orat.20_262
+29	πόλεμοι	πόλεμος	n	n-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_552|t_553|ref=Orat.20_262
+30	καὶ	καί	c	c--------	_	37	COORD	_	t_553|e_28|ref=Orat.20_262
+31	σεισμοὶ	σεισμός	n	n-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_554|t_553|ref=Orat.20_262
+32	μέχρι	μέχρι	r	r--------	_	34	AuxP	_	t_555|t_557|ref=Orat.20_262
+33	τοῦδε	ὅδε	p	p-s---ng-	Case=g|Gender=n|Number=s	32	ADV	_	t_556|t_555|ref=Orat.20_262
+34	ἀπειργάσαντο	ἀπεργάζομαι	v	v3paie---	Mood=i|Number=p|Person=3|Tense=a|Voice=e	25	ATR	_	t_557|t_548|ref=Orat.20_262
+35	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=Orat.20_260
+36	[1]	[1]	-	---------	_	24	PRED	_	e_27|t_547|ref=Orat.20_260
+37	[2]	[2]	-	---------	_	24	SBJ	_	e_28|t_547|ref=Orat.20_260
+38	.	.	u	u--------	_	35	AuxK	_	t_558|e_26|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ πρότερον μὲν κάλλει καὶ μούσαις ἁπάσας πόλεις ἀποκρύπτουσα , νῦν δʼ ἀποκρύψασα τὸ τῆς Ῥόδου πτῶμα [0] .
 # sent_id = 30
-1	ὦ	ὦ	p	p-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_559|ref=Orationes 20_262
-2	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_560|ref=Orationes 20_262
-3	μὲν	μέν	d	d--------	_	12	AuxY	_	t_561|ref=Orationes 20_262
-4	κάλλει	κάλλος	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_562|ref=Orationes 20_262
-5	καὶ	καί	d	d--------	_	9	AuxZ	_	t_563|ref=Orationes 20_262
-6	μούσαις	μοῦσα	a	a-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_564|ref=Orationes 20_262
-7	ἁπάσας	ἅπας	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_565|ref=Orationes 20_262
-8	πόλεις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_566|ref=Orationes 20_262
-9	ἀποκρύπτουσα	ἀποκρύπτω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	PNOM	_	t_567|ref=Orationes 20_262
-10	,	,	u	u--------	_	0	AuxX	_	t_568|ref=Orationes 20_262
-11	νῦν	νῦν	d	d--------	_	18	ADV	_	t_569|ref=Orationes 20_262
-12	δʼ	δέ	c	c--------	_	10	COORD	_	t_570|ref=Orationes 20_262
-13	ἀποκρύψασα	ἀποκρύπτω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	18	ADV	_	t_571|ref=Orationes 20_262
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_572|ref=Orationes 20_262
-15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_573|ref=Orationes 20_262
-16	Ῥόδου	ῥόδος	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_574|ref=Orationes 20_262
-17	πτῶμα	πτῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_575|ref=Orationes 20_262
-18	[0]	[0]	-	---------	_	12	PRED	_	e_29|ref=Orationes 20_260
-19	.	.	u	u--------	_	10	AuxK	_	t_576|ref=Orationes 20_262
+1	ὦ	ὦ	p	p-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_559|t_570|ref=Orat.20_262
+2	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_560|e_29|ref=Orat.20_262
+3	μὲν	μέν	d	d--------	_	12	AuxY	_	t_561|t_570|ref=Orat.20_262
+4	κάλλει	κάλλος	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_562|t_567|ref=Orat.20_262
+5	καὶ	καί	d	d--------	_	9	AuxZ	_	t_563|t_567|ref=Orat.20_262
+6	μούσαις	μοῦσα	a	a-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_564|t_563|ref=Orat.20_262
+7	ἁπάσας	ἅπας	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_565|t_566|ref=Orat.20_262
+8	πόλεις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_566|t_567|ref=Orat.20_262
+9	ἀποκρύπτουσα	ἀποκρύπτω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	PNOM	_	t_567|e_29|ref=Orat.20_262
+10	,	,	u	u--------	_	0	AuxX	_	t_568|0|ref=Orat.20_262
+11	νῦν	νῦν	d	d--------	_	18	ADV	_	t_569|e_29|ref=Orat.20_262
+12	δʼ	δέ	c	c--------	_	10	COORD	_	t_570|t_568|ref=Orat.20_262
+13	ἀποκρύψασα	ἀποκρύπτω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	18	ADV	_	t_571|e_29|ref=Orat.20_262
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_572|t_575|ref=Orat.20_262
+15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_573|t_574|ref=Orat.20_262
+16	Ῥόδου	ῥόδος	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_574|t_575|ref=Orat.20_262
+17	πτῶμα	πτῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_575|t_571|ref=Orat.20_262
+18	[0]	[0]	-	---------	_	12	PRED	_	e_29|t_570|ref=Orat.20_260
+19	.	.	u	u--------	_	10	AuxK	_	t_576|t_568|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ἔμελλες ἄρα τοῖς Ἕλλησιν ᾁδεσθαι δευτέρων σχετλιωτέρων .
 # sent_id = 31
-1	ἔμελλες	μέλλω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	PRED	_	t_577|ref=Orationes 20_262
-2	ἄρα	ἄρα	d	d--------	_	1	AuxY	_	t_578|ref=Orationes 20_262
-3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_579|ref=Orationes 20_262
-4	Ἕλλησιν	ἕλλην	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_580|ref=Orationes 20_262
-5	ᾁδεσθαι	ἀείδω	v	v--pne---	Mood=n|Tense=p|Voice=e	1	OBJ	_	t_581|ref=Orationes 20_262
-6	δευτέρων	δεύτερος	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_582|ref=Orationes 20_262
-7	σχετλιωτέρων	σχέτλιος	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	5	OBJ	_	t_583|ref=Orationes 20_262
-8	.	.	u	u--------	_	1	AuxK	_	t_584|ref=Orationes 20_262
+1	ἔμελλες	μέλλω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	PRED	_	t_577|0|ref=Orat.20_262
+2	ἄρα	ἄρα	d	d--------	_	1	AuxY	_	t_578|t_577|ref=Orat.20_262
+3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_579|t_580|ref=Orat.20_262
+4	Ἕλλησιν	ἕλλην	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_580|t_581|ref=Orat.20_262
+5	ᾁδεσθαι	ἀείδω	v	v--pne---	Mood=n|Tense=p|Voice=e	1	OBJ	_	t_581|t_577|ref=Orat.20_262
+6	δευτέρων	δεύτερος	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_582|t_583|ref=Orat.20_262
+7	σχετλιωτέρων	σχέτλιος	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	5	OBJ	_	t_583|t_581|ref=Orat.20_262
+8	.	.	u	u--------	_	1	AuxK	_	t_584|t_577|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ πᾶσι τοῖς ὁμοφύλοις ἐναγισμάτων ἡμέρα [0] .
 # sent_id = 32
-1	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_585|ref=Orationes 20_262
-2	πᾶσι	πᾶς	a	a-p---nd-	Case=d|Gender=m|Number=p	4	ATR	_	t_586|ref=Orationes 20_262
-3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=n|Number=p	4	ATR	_	t_587|ref=Orationes 20_262
-4	ὁμοφύλοις	ὁμόφυλος	a	a-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_588|ref=Orationes 20_262
-5	ἐναγισμάτων	ἁγίασμα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_589|ref=Orationes 20_262
-6	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	7	ExD	_	t_590|ref=Orationes 20_262
-7	[0]	[0]	-	---------	_	0	PRED	_	e_30|ref=Orationes 20_260
-8	.	.	u	u--------	_	7	AuxK	_	t_591|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_585|t_590|ref=Orat.20_262
+2	πᾶσι	πᾶς	a	a-p---nd-	Case=d|Gender=m|Number=p	4	ATR	_	t_586|t_588|ref=Orat.20_262
+3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=n|Number=p	4	ATR	_	t_587|t_588|ref=Orat.20_262
+4	ὁμοφύλοις	ὁμόφυλος	a	a-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_588|t_589|ref=Orat.20_262
+5	ἐναγισμάτων	ἁγίασμα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_589|t_590|ref=Orat.20_262
+6	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	7	ExD	_	t_590|e_30|ref=Orat.20_262
+7	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Orat.20_260
+8	.	.	u	u--------	_	7	AuxK	_	t_591|e_30|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ κοινὴ τοῖς Ἕλλησιν ἀποφρὰς , οἵαν κεφαλὴν τοῦ γένους ἀπήνεγκας [0] .
 # sent_id = 33
-1	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_592|ref=Orationes 20_262
-2	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	AtvV	_	t_593|ref=Orationes 20_262
-3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_594|ref=Orationes 20_262
-4	Ἕλλησιν	ἕλλην	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_595|ref=Orationes 20_262
-5	ἀποφρὰς	ἀποφράς	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	ADV	_	t_596|ref=Orationes 20_262
-6	,	,	u	u--------	_	12	AuxX	_	t_597|ref=Orationes 20_262
-7	οἵαν	οἷος	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_598|ref=Orationes 20_262
-8	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_599|ref=Orationes 20_262
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_600|ref=Orationes 20_262
-10	γένους	γένος	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_601|ref=Orationes 20_262
-11	ἀπήνεγκας	ἀποφέρω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	6	OBJ	_	t_602|ref=Orationes 20_262
-12	[0]	[0]	-	---------	_	0	PRED	_	e_31|ref=Orationes 20_260
-13	.	.	u	u--------	_	12	AuxK	_	t_603|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_592|t_597|ref=Orat.20_262
+2	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	AtvV	_	t_593|t_596|ref=Orat.20_262
+3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_594|t_595|ref=Orat.20_262
+4	Ἕλλησιν	ἕλλην	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_595|t_596|ref=Orat.20_262
+5	ἀποφρὰς	ἀποφράς	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	ADV	_	t_596|e_31|ref=Orat.20_262
+6	,	,	u	u--------	_	12	AuxX	_	t_597|e_31|ref=Orat.20_262
+7	οἵαν	οἷος	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_598|t_599|ref=Orat.20_262
+8	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_599|t_602|ref=Orat.20_262
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_600|t_601|ref=Orat.20_262
+10	γένους	γένος	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_601|t_599|ref=Orat.20_262
+11	ἀπήνεγκας	ἀποφέρω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	6	OBJ	_	t_602|t_597|ref=Orat.20_262
+12	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=Orat.20_260
+13	.	.	u	u--------	_	12	AuxK	_	t_603|e_31|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = οἷον ἐξεῖλες ὀφθαλμόν .
 # sent_id = 34
-1	οἷον	οἷος	p	p-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_604|ref=Orationes 20_262
-2	ἐξεῖλες	ἐξαιρέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_605|ref=Orationes 20_262
-3	ὀφθαλμόν	ὀφθαλμός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_606|ref=Orationes 20_262
-4	.	.	u	u--------	_	2	AuxK	_	t_607|ref=Orationes 20_262
+1	οἷον	οἷος	p	p-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_604|t_606|ref=Orat.20_262
+2	ἐξεῖλες	ἐξαιρέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_605|0|ref=Orat.20_262
+3	ὀφθαλμόν	ὀφθαλμός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_606|t_605|ref=Orat.20_262
+4	.	.	u	u--------	_	2	AuxK	_	t_607|t_605|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ γῆς ἄγαλμα , ὦ θέατρον τῆς Ἑλλάδος , ὦ Νυμφῶν καὶ Χαρίτων ὕφασμα [0] .
 # sent_id = 35
-1	ὦ	ὦ	i	i--------	_	3	AuxZ	_	t_608|ref=Orationes 20_262
-2	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_609|ref=Orationes 20_262
-3	ἄγαλμα	ἄγαλμα	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_610|ref=Orationes 20_262
-4	,	,	u	u--------	_	9	AuxX	_	t_611|ref=Orationes 20_262
-5	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_612|ref=Orationes 20_262
-6	θέατρον	θέατρον	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_613|ref=Orationes 20_262
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_614|ref=Orationes 20_262
-8	Ἑλλάδος	ἑλλάς	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_615|ref=Orationes 20_262
-9	,	,	u	u--------	_	15	COORD	_	t_616|ref=Orationes 20_262
-10	ὦ	ὦ	i	i--------	_	14	AuxZ	_	t_617|ref=Orationes 20_262
-11	Νυμφῶν	νύμφη	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_618|ref=Orationes 20_262
-12	καὶ	καί	c	c--------	_	14	COORD	_	t_619|ref=Orationes 20_262
-13	Χαρίτων	χάρις	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_620|ref=Orationes 20_262
-14	ὕφασμα	ὕφασμα	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_621|ref=Orationes 20_262
-15	[0]	[0]	-	---------	_	0	PRED	_	e_32|ref=Orationes 20_260
-16	.	.	u	u--------	_	15	AuxK	_	t_622|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	3	AuxZ	_	t_608|t_610|ref=Orat.20_262
+2	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_609|t_610|ref=Orat.20_262
+3	ἄγαλμα	ἄγαλμα	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_610|t_616|ref=Orat.20_262
+4	,	,	u	u--------	_	9	AuxX	_	t_611|t_616|ref=Orat.20_262
+5	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_612|t_613|ref=Orat.20_262
+6	θέατρον	θέατρον	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_613|t_616|ref=Orat.20_262
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_614|t_615|ref=Orat.20_262
+8	Ἑλλάδος	ἑλλάς	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_615|t_610|ref=Orat.20_262
+9	,	,	u	u--------	_	15	COORD	_	t_616|e_32|ref=Orat.20_262
+10	ὦ	ὦ	i	i--------	_	14	AuxZ	_	t_617|t_621|ref=Orat.20_262
+11	Νυμφῶν	νύμφη	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_618|t_619|ref=Orat.20_262
+12	καὶ	καί	c	c--------	_	14	COORD	_	t_619|t_621|ref=Orat.20_262
+13	Χαρίτων	χάρις	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_620|t_619|ref=Orat.20_262
+14	ὕφασμα	ὕφασμα	n	n-s---nv-	Case=v|Gender=n|Number=s	9	ExD	_	t_621|t_616|ref=Orat.20_262
+15	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=Orat.20_260
+16	.	.	u	u--------	_	15	AuxK	_	t_622|e_32|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ πάντα ὑπομείνας ἐγὼ , ποῦ γῆς νυνὶ μονῳδῶ ;
 # sent_id = 36
-1	ὦ	ὦ	i	i--------	_	3	AuxZ	_	t_623|ref=Orationes 20_262
-2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_624|ref=Orationes 20_262
-3	ὑπομείνας	ὑπομένω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_625|ref=Orationes 20_262
-4	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_626|ref=Orationes 20_262
-5	,	,	u	u--------	_	9	AuxX	_	t_627|ref=Orationes 20_262
-6	ποῦ	ποῦ	d	d--------	_	9	OBJ	_	t_628|ref=Orationes 20_262
-7	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_629|ref=Orationes 20_262
-8	νυνὶ	νυνί	d	d--------	_	9	ADV	_	t_630|ref=Orationes 20_262
-9	μονῳδῶ	μονῳδέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_631|ref=Orationes 20_262
-10	;	;	u	u--------	_	9	AuxK	_	t_632|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	3	AuxZ	_	t_623|t_625|ref=Orat.20_262
+2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_624|t_625|ref=Orat.20_262
+3	ὑπομείνας	ὑπομένω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_625|t_631|ref=Orat.20_262
+4	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_626|t_631|ref=Orat.20_262
+5	,	,	u	u--------	_	9	AuxX	_	t_627|t_631|ref=Orat.20_262
+6	ποῦ	ποῦ	d	d--------	_	9	OBJ	_	t_628|t_631|ref=Orat.20_262
+7	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_629|t_628|ref=Orat.20_262
+8	νυνὶ	νυνί	d	d--------	_	9	ADV	_	t_630|t_631|ref=Orat.20_262
+9	μονῳδῶ	μονῳδέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_631|0|ref=Orat.20_262
+10	;	;	u	u--------	_	9	AuxK	_	t_632|t_631|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ποῦ μοι τὸ βουλευτήριον [0] ;
 # sent_id = 37
-1	ποῦ	ποῦ	d	d--------	_	5	PNOM	_	t_633|ref=Orationes 20_262
-2	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	5	ADV	_	t_634|ref=Orationes 20_262
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_635|ref=Orationes 20_262
-4	βουλευτήριον	βουλευτήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_636|ref=Orationes 20_262
-5	[0]	[0]	-	---------	_	0	PRED	_	e_33|ref=Orationes 20_260
-6	;	;	u	u--------	_	5	AuxK	_	t_637|ref=Orationes 20_262
+1	ποῦ	ποῦ	d	d--------	_	5	PNOM	_	t_633|e_33|ref=Orat.20_262
+2	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	5	ADV	_	t_634|e_33|ref=Orat.20_262
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_635|t_636|ref=Orat.20_262
+4	βουλευτήριον	βουλευτήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_636|e_33|ref=Orat.20_262
+5	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Orat.20_260
+6	;	;	u	u--------	_	5	AuxK	_	t_637|e_33|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ποῦ νέων καὶ πρεσβυτέρων σύνοδοι καὶ θόρυβοι διδόντων ἅπαντα [0] ;
 # sent_id = 38
-1	ποῦ	ποῦ	d	d--------	_	10	ADV	_	t_638|ref=Orationes 20_262
-2	νέων	νέος	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_639|ref=Orationes 20_262
-3	καὶ	καί	c	c--------	_	5	COORD	_	t_640|ref=Orationes 20_262
-4	πρεσβυτέρων	πρέσβυς	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	3	ATR	_	t_641|ref=Orationes 20_262
-5	σύνοδοι	σύνοδος2	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_642|ref=Orationes 20_262
-6	καὶ	καί	c	c--------	_	10	COORD	_	t_643|ref=Orationes 20_262
-7	θόρυβοι	θόρυβος	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_644|ref=Orationes 20_262
-8	διδόντων	δίδωμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_645|ref=Orationes 20_262
-9	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_646|ref=Orationes 20_262
-10	[0]	[0]	-	---------	_	0	PRED	_	e_34|ref=Orationes 20_260
-11	;	;	u	u--------	_	10	AuxK	_	t_647|ref=Orationes 20_262
+1	ποῦ	ποῦ	d	d--------	_	10	ADV	_	t_638|e_34|ref=Orat.20_262
+2	νέων	νέος	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_639|t_640|ref=Orat.20_262
+3	καὶ	καί	c	c--------	_	5	COORD	_	t_640|t_642|ref=Orat.20_262
+4	πρεσβυτέρων	πρέσβυς	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	3	ATR	_	t_641|t_640|ref=Orat.20_262
+5	σύνοδοι	σύνοδος2	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_642|t_643|ref=Orat.20_262
+6	καὶ	καί	c	c--------	_	10	COORD	_	t_643|e_34|ref=Orat.20_262
+7	θόρυβοι	θόρυβος	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_644|t_643|ref=Orat.20_262
+8	διδόντων	δίδωμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_645|e_34|ref=Orat.20_262
+9	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_646|t_645|ref=Orat.20_262
+10	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=Orat.20_260
+11	;	;	u	u--------	_	10	AuxK	_	t_647|e_34|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ἦν ποτε ἐν τῷ Σιπύλῳ πόλις , ἣν κατὰ τῆς λίμνης δῦναι λόγος .
 # sent_id = 39
-1	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_648|ref=Orationes 20_262
-2	ποτε	ποτέ	d	d--------	_	1	ADV	_	t_649|ref=Orationes 20_262
-3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_650|ref=Orationes 20_262
-4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_651|ref=Orationes 20_262
-5	Σιπύλῳ	σίπυλος	n	n-s---md-	Case=d|Gender=m|Number=s	3	PNOM	_	t_652|ref=Orationes 20_262
-6	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_653|ref=Orationes 20_262
-7	,	,	u	u--------	_	1	AuxX	_	t_654|ref=Orationes 20_262
-8	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_655|ref=Orationes 20_262
-9	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_656|ref=Orationes 20_262
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_657|ref=Orationes 20_262
-11	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_658|ref=Orationes 20_262
-12	δῦναι	δύω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	ATR	_	t_659|ref=Orationes 20_262
-13	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_660|ref=Orationes 20_262
-14	.	.	u	u--------	_	1	AuxK	_	t_661|ref=Orationes 20_262
+1	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_648|0|ref=Orat.20_262
+2	ποτε	ποτέ	d	d--------	_	1	ADV	_	t_649|t_648|ref=Orat.20_262
+3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_650|t_648|ref=Orat.20_262
+4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_651|t_652|ref=Orat.20_262
+5	Σιπύλῳ	σίπυλος	n	n-s---md-	Case=d|Gender=m|Number=s	3	PNOM	_	t_652|t_650|ref=Orat.20_262
+6	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_653|t_648|ref=Orat.20_262
+7	,	,	u	u--------	_	1	AuxX	_	t_654|t_648|ref=Orat.20_262
+8	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_655|t_659|ref=Orat.20_262
+9	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_656|t_659|ref=Orat.20_262
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_657|t_658|ref=Orat.20_262
+11	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_658|t_656|ref=Orat.20_262
+12	δῦναι	δύω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	ATR	_	t_659|t_653|ref=Orat.20_262
+13	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_660|t_659|ref=Orat.20_262
+14	.	.	u	u--------	_	1	AuxK	_	t_661|t_648|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ Σμύρνα , ὡς πόρρωθέν σοι τὸ προοίμιον ᾔδετο .
 # sent_id = 40
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_662|ref=Orationes 20_262
-2	Σμύρνα	σμύρνα	n	n-s---mv-	Case=v|Gender=f|Number=s	9	ExD	_	t_663|ref=Orationes 20_262
-3	,	,	u	u--------	_	9	AuxX	_	t_664|ref=Orationes 20_262
-4	ὡς	ὡς	d	d--------	_	5	AuxZ	_	t_665|ref=Orationes 20_262
-5	πόρρωθέν	πρόσωθεν	d	d--------	_	9	ADV	_	t_666|ref=Orationes 20_262
-6	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_667|ref=Orationes 20_262
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_668|ref=Orationes 20_262
-8	προοίμιον	προοίμιον	n	n-s---na-	Case=a|Gender=n|Number=s	9	SBJ	_	t_669|ref=Orationes 20_262
-9	ᾔδετο	ἔρδω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_670|ref=Orationes 20_262
-10	.	.	u	u--------	_	9	AuxK	_	t_671|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_662|t_663|ref=Orat.20_262
+2	Σμύρνα	σμύρνα	n	n-s---mv-	Case=v|Gender=f|Number=s	9	ExD	_	t_663|t_670|ref=Orat.20_262
+3	,	,	u	u--------	_	9	AuxX	_	t_664|t_670|ref=Orat.20_262
+4	ὡς	ὡς	d	d--------	_	5	AuxZ	_	t_665|t_666|ref=Orat.20_262
+5	πόρρωθέν	πρόσωθεν	d	d--------	_	9	ADV	_	t_666|t_670|ref=Orat.20_262
+6	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_667|t_670|ref=Orat.20_262
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_668|t_669|ref=Orat.20_262
+8	προοίμιον	προοίμιον	n	n-s---na-	Case=a|Gender=n|Number=s	9	SBJ	_	t_669|t_670|ref=Orat.20_262
+9	ᾔδετο	ἔρδω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_670|0|ref=Orat.20_262
+10	.	.	u	u--------	_	9	AuxK	_	t_671|t_670|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = οἵας ἐκληρονόμησας τύχης , ὡς ἥκιστα σαυτῇ προσηκούσης .
 # sent_id = 41
-1	οἵας	οἷος	a	a-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_672|ref=Orationes 20_262
-2	ἐκληρονόμησας	κληρονομέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_673|ref=Orationes 20_262
-3	τύχης	τύχη	n	n-s---fg-	Case=g|Gender=f|Number=s	2	OBJ	_	t_674|ref=Orationes 20_262
-4	,	,	u	u--------	_	2	AuxX	_	t_675|ref=Orationes 20_262
-5	ὡς	ὡς	d	d--------	_	8	AuxZ	_	t_676|ref=Orationes 20_262
-6	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_677|ref=Orationes 20_262
-7	σαυτῇ	σεαυτοῦ	p	p2s---fd-	Case=d|Gender=f|Number=s|Person=2	8	OBJ	_	t_678|ref=Orationes 20_262
-8	προσηκούσης	προσήκω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_679|ref=Orationes 20_262
-9	.	.	u	u--------	_	2	AuxK	_	t_680|ref=Orationes 20_262
+1	οἵας	οἷος	a	a-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_672|t_674|ref=Orat.20_262
+2	ἐκληρονόμησας	κληρονομέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_673|0|ref=Orat.20_262
+3	τύχης	τύχη	n	n-s---fg-	Case=g|Gender=f|Number=s	2	OBJ	_	t_674|t_673|ref=Orat.20_262
+4	,	,	u	u--------	_	2	AuxX	_	t_675|t_673|ref=Orat.20_262
+5	ὡς	ὡς	d	d--------	_	8	AuxZ	_	t_676|t_679|ref=Orat.20_262
+6	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_677|t_679|ref=Orat.20_262
+7	σαυτῇ	σεαυτοῦ	p	p2s---fd-	Case=d|Gender=f|Number=s|Person=2	8	OBJ	_	t_678|t_679|ref=Orat.20_262
+8	προσηκούσης	προσήκω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_679|t_673|ref=Orat.20_262
+9	.	.	u	u--------	_	2	AuxK	_	t_680|t_673|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = νῦν ἔδει μὲν πάντας οἰωνοὺς εἰς πῦρ ἐνάλλεσθαι , παρέχει δʼ ἡ πόλις ἄφθονον ·
 # sent_id = 42
-1	νῦν	νῦν	d	d--------	_	2	ADV	_	t_681|ref=Orationes 20_262
-2	ἔδει	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	PRED	_	t_682|ref=Orationes 20_262
-3	μὲν	μέν	d	d--------	_	11	AuxY	_	t_683|ref=Orationes 20_262
-4	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_684|ref=Orationes 20_262
-5	οἰωνοὺς	οἰωνός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_685|ref=Orationes 20_262
-6	εἰς	εἰς	r	r--------	_	8	AuxP	_	t_686|ref=Orationes 20_262
-7	πῦρ	πῦρ	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_687|ref=Orationes 20_262
-8	ἐνάλλεσθαι	ἐνάλλομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	2	SBJ	_	t_688|ref=Orationes 20_262
-9	,	,	u	u--------	_	0	AuxX	_	t_689|ref=Orationes 20_262
-10	παρέχει	παρέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_690|ref=Orationes 20_262
-11	δʼ	δέ	c	c--------	_	9	COORD	_	t_691|ref=Orationes 20_262
-12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_692|ref=Orationes 20_262
-13	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_693|ref=Orationes 20_262
-14	ἄφθονον	ἄφθονος	a	a-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_694|ref=Orationes 20_262
-15	·	·	u	u--------	_	9	AuxK	_	t_695|ref=Orationes 20_262
+1	νῦν	νῦν	d	d--------	_	2	ADV	_	t_681|t_682|ref=Orat.20_262
+2	ἔδει	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	PRED	_	t_682|t_691|ref=Orat.20_262
+3	μὲν	μέν	d	d--------	_	11	AuxY	_	t_683|t_691|ref=Orat.20_262
+4	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_684|t_685|ref=Orat.20_262
+5	οἰωνοὺς	οἰωνός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_685|t_688|ref=Orat.20_262
+6	εἰς	εἰς	r	r--------	_	8	AuxP	_	t_686|t_688|ref=Orat.20_262
+7	πῦρ	πῦρ	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_687|t_686|ref=Orat.20_262
+8	ἐνάλλεσθαι	ἐνάλλομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	2	SBJ	_	t_688|t_682|ref=Orat.20_262
+9	,	,	u	u--------	_	0	AuxX	_	t_689|0|ref=Orat.20_262
+10	παρέχει	παρέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_690|t_691|ref=Orat.20_262
+11	δʼ	δέ	c	c--------	_	9	COORD	_	t_691|t_689|ref=Orat.20_262
+12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_692|t_693|ref=Orat.20_262
+13	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_693|t_690|ref=Orat.20_262
+14	ἄφθονον	ἄφθονος	a	a-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_694|t_690|ref=Orat.20_262
+15	·	·	u	u--------	_	9	AuxK	_	t_695|t_689|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = πᾶσαν δὲ τὴν ἤπειρον ἀποκείρασθαι , πάντως αὐτῆς ὁ βόστρυχος οἴχεται ·
 # sent_id = 43
-1	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_696|ref=Orationes 20_262
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_697|ref=Orationes 20_262
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_698|ref=Orationes 20_262
-4	ἤπειρον	ἤπειρος	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_699|ref=Orationes 20_262
-5	ἀποκείρασθαι	ἀποκείρω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	ADV	_	t_700|ref=Orationes 20_262
-6	,	,	u	u--------	_	11	AuxX	_	t_701|ref=Orationes 20_262
-7	πάντως	πάντως	d	d--------	_	11	ADV	_	t_702|ref=Orationes 20_262
-8	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_703|ref=Orationes 20_262
-9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_704|ref=Orationes 20_262
-10	βόστρυχος	βόστρυχος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_705|ref=Orationes 20_262
-11	οἴχεται	οἴχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_706|ref=Orationes 20_262
-12	·	·	u	u--------	_	11	AuxK	_	t_707|ref=Orationes 20_262
+1	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_696|t_699|ref=Orat.20_262
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_697|t_706|ref=Orat.20_262
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_698|t_699|ref=Orat.20_262
+4	ἤπειρον	ἤπειρος	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_699|t_700|ref=Orat.20_262
+5	ἀποκείρασθαι	ἀποκείρω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	ADV	_	t_700|t_706|ref=Orat.20_262
+6	,	,	u	u--------	_	11	AuxX	_	t_701|t_706|ref=Orat.20_262
+7	πάντως	πάντως	d	d--------	_	11	ADV	_	t_702|t_706|ref=Orat.20_262
+8	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_703|t_705|ref=Orat.20_262
+9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_704|t_705|ref=Orat.20_262
+10	βόστρυχος	βόστρυχος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_705|t_706|ref=Orat.20_262
+11	οἴχεται	οἴχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_706|0|ref=Orat.20_262
+12	·	·	u	u--------	_	11	AuxK	_	t_707|t_706|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = νῦν ποταμοὺς δάκρυσι ῥυῆναι , νῦν ὁλκάδας ἐκπλεῦσαι μέλασι τοῖς ἱστίοις [0] .
 # sent_id = 44
-1	νῦν	νῦν	d	d--------	_	4	ADV	_	t_708|ref=Orationes 20_262
-2	ποταμοὺς	ποταμός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_709|ref=Orationes 20_262
-3	δάκρυσι	δάκρυον	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_710|ref=Orationes 20_262
-4	ῥυῆναι	ῥέω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_711|ref=Orationes 20_262
-5	,	,	u	u--------	_	12	COORD	_	t_712|ref=Orationes 20_262
-6	νῦν	νῦν	d	d--------	_	8	ADV	_	t_713|ref=Orationes 20_262
-7	ὁλκάδας	ὁλκάς	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_714|ref=Orationes 20_262
-8	ἐκπλεῦσαι	ἐκπλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_715|ref=Orationes 20_262
-9	μέλασι	μέλας	a	a-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_716|ref=Orationes 20_262
-10	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_717|ref=Orationes 20_262
-11	ἱστίοις	ἱστίον	n	n-p---nd-	Case=d|Gender=n|Number=p	8	ADV	_	t_718|ref=Orationes 20_262
-12	[0]	[0]	-	---------	_	0	PRED	_	e_35|ref=Orationes 20_260
-13	.	.	u	u--------	_	12	AuxK	_	t_719|ref=Orationes 20_262
+1	νῦν	νῦν	d	d--------	_	4	ADV	_	t_708|t_711|ref=Orat.20_262
+2	ποταμοὺς	ποταμός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_709|t_711|ref=Orat.20_262
+3	δάκρυσι	δάκρυον	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_710|t_711|ref=Orat.20_262
+4	ῥυῆναι	ῥέω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_711|t_712|ref=Orat.20_262
+5	,	,	u	u--------	_	12	COORD	_	t_712|e_35|ref=Orat.20_262
+6	νῦν	νῦν	d	d--------	_	8	ADV	_	t_713|t_715|ref=Orat.20_262
+7	ὁλκάδας	ὁλκάς	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_714|t_715|ref=Orat.20_262
+8	ἐκπλεῦσαι	ἐκπλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_715|t_712|ref=Orat.20_262
+9	μέλασι	μέλας	a	a-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_716|t_718|ref=Orat.20_262
+10	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_717|t_718|ref=Orat.20_262
+11	ἱστίοις	ἱστίον	n	n-p---nd-	Case=d|Gender=n|Number=p	8	ADV	_	t_718|t_715|ref=Orat.20_262
+12	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Orat.20_260
+13	.	.	u	u--------	_	12	AuxK	_	t_719|e_35|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ Μέλης διʼ ἐρήμου ῥέων .
 # sent_id = 45
-1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_720|ref=Orationes 20_262
-2	Μέλης	μέλης	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_721|ref=Orationes 20_262
-3	διʼ	διά	r	r--------	_	5	AuxP	_	t_722|ref=Orationes 20_262
-4	ἐρήμου	ἐρῆμος	a	a-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_723|ref=Orationes 20_262
-5	ῥέων	ῥέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ATR	_	t_724|ref=Orationes 20_262
-6	.	.	u	u--------	_	1	AuxK	_	t_725|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	2	AuxZ	_	t_720|t_721|ref=Orat.20_262
+2	Μέλης	μέλης	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_721|0|ref=Orat.20_262
+3	διʼ	διά	r	r--------	_	5	AuxP	_	t_722|t_724|ref=Orat.20_262
+4	ἐρήμου	ἐρῆμος	a	a-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_723|t_722|ref=Orat.20_262
+5	ῥέων	ῥέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ATR	_	t_724|t_721|ref=Orat.20_262
+6	.	.	u	u--------	_	1	AuxK	_	t_725|t_720|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ τῶν προτέρων μελῶν τὰ παρόντα ἀντίφθογγα [0] .
 # sent_id = 46
-1	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_726|ref=Orationes 20_262
-2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_727|ref=Orationes 20_262
-3	προτέρων	πρότερος	a	a-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_728|ref=Orationes 20_262
-4	μελῶν	μέλος	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ADV	_	t_729|ref=Orationes 20_262
-5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_730|ref=Orationes 20_262
-6	παρόντα	πάρειμι1	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_731|ref=Orationes 20_262
-7	ἀντίφθογγα	ἀντίφθογγος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_732|ref=Orationes 20_262
-8	[0]	[0]	-	---------	_	0	PRED	_	e_36|ref=Orationes 20_260
-9	.	.	u	u--------	_	8	AuxK	_	t_733|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_726|t_731|ref=Orat.20_262
+2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_727|t_729|ref=Orat.20_262
+3	προτέρων	πρότερος	a	a-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_728|t_729|ref=Orat.20_262
+4	μελῶν	μέλος	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ADV	_	t_729|e_36|ref=Orat.20_262
+5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_730|t_731|ref=Orat.20_262
+6	παρόντα	πάρειμι1	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_731|e_36|ref=Orat.20_262
+7	ἀντίφθογγα	ἀντίφθογγος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_732|e_36|ref=Orat.20_262
+8	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=Orat.20_260
+9	.	.	u	u--------	_	8	AuxK	_	t_733|e_36|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ὦ κύκνων ᾠδὴ καὶ ἀηδόνων χορὸς ἐνθρηνεῖν [0] .
 # sent_id = 47
-1	ὦ	ὦ	i	i--------	_	3	AuxZ	_	t_734|ref=Orationes 20_262
-2	κύκνων	κύκνος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_735|ref=Orationes 20_262
-3	ᾠδὴ	ᾠδή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	ExD	_	t_736|ref=Orationes 20_262
-4	καὶ	καί	c	c--------	_	8	COORD	_	t_737|ref=Orationes 20_262
-5	ἀηδόνων	ἀηδών	a	a-p---mg-	Case=g|Gender=f|Number=p	6	ATR	_	t_738|ref=Orationes 20_262
-6	χορὸς	χορός	n	n-s---mn-	Case=n|Gender=m|Number=s	8	ExD	_	t_739|ref=Orationes 20_262
-7	ἐνθρηνεῖν	ἐνθρηνέω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	ADV	_	t_740|ref=Orationes 20_262
-8	[0]	[0]	-	---------	_	0	PRED	_	e_37|ref=Orationes 20_260
-9	.	.	u	u--------	_	8	AuxK	_	t_741|ref=Orationes 20_262
+1	ὦ	ὦ	i	i--------	_	3	AuxZ	_	t_734|t_736|ref=Orat.20_262
+2	κύκνων	κύκνος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_735|t_736|ref=Orat.20_262
+3	ᾠδὴ	ᾠδή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	ExD	_	t_736|t_737|ref=Orat.20_262
+4	καὶ	καί	c	c--------	_	8	COORD	_	t_737|e_37|ref=Orat.20_262
+5	ἀηδόνων	ἀηδών	a	a-p---mg-	Case=g|Gender=f|Number=p	6	ATR	_	t_738|t_739|ref=Orat.20_262
+6	χορὸς	χορός	n	n-s---mn-	Case=n|Gender=m|Number=s	8	ExD	_	t_739|e_37|ref=Orat.20_262
+7	ἐνθρηνεῖν	ἐνθρηνέω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	ADV	_	t_740|t_739|ref=Orat.20_262
+8	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Orat.20_260
+9	.	.	u	u--------	_	8	AuxK	_	t_741|e_37|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ἦ που καὶ Γοργόνες εἰ περιῆσαν , οὐκ ἂν τὴν Μέδουσαν , οὐ δὲ τὸν αὑτῶν ὀφθαλμὸν , ἀλλὰ τὸν τῆς Ἀσίας ἐπένθησαν .
 # sent_id = 48
-1	ἦ	ἦ	d	d--------	_	23	AuxY	_	t_742|ref=Orationes 20_262
-2	που	πού	d	d--------	_	6	AuxZ	_	t_743|ref=Orationes 20_262
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_744|ref=Orationes 20_262
-4	Γοργόνες	γοργώ	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_745|ref=Orationes 20_262
-5	εἰ	εἰ	c	c--------	_	23	AuxC	_	t_746|ref=Orationes 20_262
-6	περιῆσαν	περίειμι1	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	5	ADV	_	t_747|ref=Orationes 20_262
-7	,	,	u	u--------	_	23	AuxX	_	t_748|ref=Orationes 20_262
-8	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_749|ref=Orationes 20_262
-9	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_750|ref=Orationes 20_262
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_751|ref=Orationes 20_262
-11	Μέδουσαν	μέδουσα	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_752|ref=Orationes 20_262
-12	,	,	u	u--------	_	23	AuxX	_	t_753|ref=Orationes 20_262
-13	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_754|ref=Orationes 20_262
-14	δὲ	δέ	c	c--------	_	19	COORD	_	t_755|ref=Orationes 20_262
-15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_756|ref=Orationes 20_262
-16	αὑτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_757|ref=Orationes 20_262
-17	ὀφθαλμὸν	ὀφθαλμός	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_758|ref=Orationes 20_262
-18	,	,	u	u--------	_	23	AuxX	_	t_759|ref=Orationes 20_262
-19	ἀλλὰ	ἀλλά	c	c--------	_	23	COORD	_	t_760|ref=Orationes 20_262
-20	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	OBJ	_	t_761|ref=Orationes 20_262
-21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_762|ref=Orationes 20_262
-22	Ἀσίας	ἀσία	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_763|ref=Orationes 20_262
-23	ἐπένθησαν	ἐπιτείνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_764|ref=Orationes 20_262
-24	.	.	u	u--------	_	23	AuxK	_	t_765|ref=Orationes 20_262
+1	ἦ	ἦ	d	d--------	_	23	AuxY	_	t_742|t_764|ref=Orat.20_262
+2	που	πού	d	d--------	_	6	AuxZ	_	t_743|t_747|ref=Orat.20_262
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_744|t_745|ref=Orat.20_262
+4	Γοργόνες	γοργώ	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_745|t_764|ref=Orat.20_262
+5	εἰ	εἰ	c	c--------	_	23	AuxC	_	t_746|t_764|ref=Orat.20_262
+6	περιῆσαν	περίειμι1	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	5	ADV	_	t_747|t_746|ref=Orat.20_262
+7	,	,	u	u--------	_	23	AuxX	_	t_748|t_764|ref=Orat.20_262
+8	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_749|t_752|ref=Orat.20_262
+9	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_750|t_755|ref=Orat.20_262
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_751|t_752|ref=Orat.20_262
+11	Μέδουσαν	μέδουσα	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_752|t_755|ref=Orat.20_262
+12	,	,	u	u--------	_	23	AuxX	_	t_753|t_764|ref=Orat.20_262
+13	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_754|t_758|ref=Orat.20_262
+14	δὲ	δέ	c	c--------	_	19	COORD	_	t_755|t_760|ref=Orat.20_262
+15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_756|t_758|ref=Orat.20_262
+16	αὑτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_757|t_758|ref=Orat.20_262
+17	ὀφθαλμὸν	ὀφθαλμός	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_758|t_755|ref=Orat.20_262
+18	,	,	u	u--------	_	23	AuxX	_	t_759|t_764|ref=Orat.20_262
+19	ἀλλὰ	ἀλλά	c	c--------	_	23	COORD	_	t_760|t_764|ref=Orat.20_262
+20	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	OBJ	_	t_761|t_760|ref=Orat.20_262
+21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_762|t_763|ref=Orat.20_262
+22	Ἀσίας	ἀσία	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_763|t_761|ref=Orat.20_262
+23	ἐπένθησαν	ἐπιτείνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_764|0|ref=Orat.20_262
+24	.	.	u	u--------	_	23	AuxK	_	t_765|t_764|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ποῖον Βόσπορον , ἢ ποίους καταρράκτας , ἢ τίνα Ταρτησσὸν τὸ σὸν , ὦ δαιμονία , κλέος οὐκ ἐπῆλθε ;
 # sent_id = 49
-1	ποῖον	ποῖος	a	a-s---na-	Case=n|Gender=n|Number=s	2	ATR	_	t_766|ref=Orationes 20_262
-2	Βόσπορον	βόσπορος	n	n-s---mv-	Case=v|Gender=m|Number=s	8	APOS	_	t_767|ref=Orationes 20_262
-3	,	,	u	u--------	_	19	AuxX	_	t_768|ref=Orationes 20_262
-4	ἢ	ἤ1	d	d--------	_	8	AuxY	_	t_769|ref=Orationes 20_262
-5	ποίους	ποῖος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_770|ref=Orationes 20_262
-6	καταρράκτας	καταρράκτης	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_771|ref=Orationes 20_262
-7	,	,	u	u--------	_	19	AuxX	_	t_772|ref=Orationes 20_262
-8	ἢ	ἤ1	c	c--------	_	19	COORD	_	t_773|ref=Orationes 20_262
-9	τίνα	τις	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_774|ref=Orationes 20_262
-10	Ταρτησσὸν	ταρτησσός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_775|ref=Orationes 20_262
-11	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_776|ref=Orationes 20_262
-12	σὸν	σός	a	a-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_777|ref=Orationes 20_262
-13	,	,	u	u--------	_	19	AuxX	_	t_778|ref=Orationes 20_262
-14	ὦ	ὦ	i	i--------	_	15	AuxZ	_	t_779|ref=Orationes 20_262
-15	δαιμονία	δαιμόνιος	n	n-d---fv-	Case=v|Gender=f|Number=s	19	ExD	_	t_780|ref=Orationes 20_262
-16	,	,	u	u--------	_	19	AuxX	_	t_781|ref=Orationes 20_262
-17	κλέος	κλέος	n	n-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_782|ref=Orationes 20_262
-18	οὐκ	οὐ	d	d--------	_	19	AuxZ	_	t_783|ref=Orationes 20_262
-19	ἐπῆλθε	ἐπέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_784|ref=Orationes 20_262
-20	;	;	u	u--------	_	19	AuxK	_	t_785|ref=Orationes 20_262
+1	ποῖον	ποῖος	a	a-s---na-	Case=n|Gender=n|Number=s	2	ATR	_	t_766|t_767|ref=Orat.20_262
+2	Βόσπορον	βόσπορος	n	n-s---mv-	Case=v|Gender=m|Number=s	8	APOS	_	t_767|t_773|ref=Orat.20_262
+3	,	,	u	u--------	_	19	AuxX	_	t_768|t_784|ref=Orat.20_262
+4	ἢ	ἤ1	d	d--------	_	8	AuxY	_	t_769|t_773|ref=Orat.20_262
+5	ποίους	ποῖος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_770|t_771|ref=Orat.20_262
+6	καταρράκτας	καταρράκτης	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_771|t_773|ref=Orat.20_262
+7	,	,	u	u--------	_	19	AuxX	_	t_772|t_784|ref=Orat.20_262
+8	ἢ	ἤ1	c	c--------	_	19	COORD	_	t_773|t_784|ref=Orat.20_262
+9	τίνα	τις	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_774|t_775|ref=Orat.20_262
+10	Ταρτησσὸν	ταρτησσός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_775|t_773|ref=Orat.20_262
+11	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_776|t_782|ref=Orat.20_262
+12	σὸν	σός	a	a-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_777|t_782|ref=Orat.20_262
+13	,	,	u	u--------	_	19	AuxX	_	t_778|t_784|ref=Orat.20_262
+14	ὦ	ὦ	i	i--------	_	15	AuxZ	_	t_779|t_780|ref=Orat.20_262
+15	δαιμονία	δαιμόνιος	n	n-d---fv-	Case=v|Gender=f|Number=s	19	ExD	_	t_780|t_784|ref=Orat.20_262
+16	,	,	u	u--------	_	19	AuxX	_	t_781|t_784|ref=Orat.20_262
+17	κλέος	κλέος	n	n-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_782|t_784|ref=Orat.20_262
+18	οὐκ	οὐ	d	d--------	_	19	AuxZ	_	t_783|t_784|ref=Orat.20_262
+19	ἐπῆλθε	ἐπέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_784|0|ref=Orat.20_262
+20	;	;	u	u--------	_	19	AuxK	_	t_785|t_784|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ποίᾳ Μασσαλίᾳ τὸ πένθος τοῦτο ὁρισθήσεται ;
 # sent_id = 50
-1	ποίᾳ	ποῖος	a	a-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_786|ref=Orationes 20_262
-2	Μασσαλίᾳ	μασσαλίη	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_787|ref=Orationes 20_262
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_788|ref=Orationes 20_262
-4	πένθος	πένθος	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_789|ref=Orationes 20_262
-5	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_790|ref=Orationes 20_262
-6	ὁρισθήσεται	ὁρίζω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_791|ref=Orationes 20_262
-7	;	;	u	u--------	_	6	AuxK	_	t_792|ref=Orationes 20_262
+1	ποίᾳ	ποῖος	a	a-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_786|t_787|ref=Orat.20_262
+2	Μασσαλίᾳ	μασσαλίη	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_787|t_791|ref=Orat.20_262
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_788|t_789|ref=Orat.20_262
+4	πένθος	πένθος	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_789|t_791|ref=Orat.20_262
+5	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_790|t_789|ref=Orat.20_262
+6	ὁρισθήσεται	ὁρίζω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_791|0|ref=Orat.20_262
+7	;	;	u	u--------	_	6	AuxK	_	t_792|t_791|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = ἢ τίνι Βορυσθένει ;
 # sent_id = 51
-1	ἢ	ἤ1	d	d--------	_	0	COORD	_	t_793|ref=Orationes 20_262
-2	τίνι	τις	p	p-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_794|ref=Orationes 20_262
-3	Βορυσθένει	τάρας	n	n-s---md-	Case=d|Gender=m|Number=s	1	PRED	_	t_795|ref=Orationes 20_262
-4	;	;	u	u--------	_	1	AuxK	_	t_796|ref=Orationes 20_262
+1	ἢ	ἤ1	d	d--------	_	0	COORD	_	t_793|0|ref=Orat.20_262
+2	τίνι	τις	p	p-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_794|t_795|ref=Orat.20_262
+3	Βορυσθένει	τάρας	n	n-s---md-	Case=d|Gender=m|Number=s	1	PRED	_	t_795|t_793|ref=Orat.20_262
+4	;	;	u	u--------	_	1	AuxK	_	t_796|t_793|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = τίς Ἑλλήνων οὕτως ἔξω τῆς Ἑλλάδος [0] ;
 # sent_id = 52
-1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_797|ref=Orationes 20_262
-2	Ἑλλήνων	ἕλλην	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_798|ref=Orationes 20_262
-3	οὕτως	οὕτως	d	d--------	_	7	ADV	_	t_799|ref=Orationes 20_262
-4	ἔξω	ἔξω	r	r--------	_	7	AuxP	_	t_800|ref=Orationes 20_262
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_801|ref=Orationes 20_262
-6	Ἑλλάδος	ἑλλάς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_802|ref=Orationes 20_262
-7	[0]	[0]	-	---------	_	0	PRED	_	e_38|ref=Orationes 20_260
-8	;	;	u	u--------	_	7	AuxK	_	t_803|ref=Orationes 20_262
+1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_797|e_38|ref=Orat.20_262
+2	Ἑλλήνων	ἕλλην	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_798|t_797|ref=Orat.20_262
+3	οὕτως	οὕτως	d	d--------	_	7	ADV	_	t_799|e_38|ref=Orat.20_262
+4	ἔξω	ἔξω	r	r--------	_	7	AuxP	_	t_800|e_38|ref=Orat.20_262
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_801|t_802|ref=Orat.20_262
+6	Ἑλλάδος	ἑλλάς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_802|t_800|ref=Orat.20_262
+7	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=Orat.20_260
+8	;	;	u	u--------	_	7	AuxK	_	t_803|e_38|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 262
+# source = Aristides, Aelius, Orat.20 262
 # text = τίς βαρβάρων οὕτως ἀδάμαστος καὶ ἀνάλωτος τοῖς τῆς Σμύρνης βέλεσι καὶ φίλτροις , ὅστις οὐκ ἀκοῇ μὲν ἤρα , ἀκοῇ δὲ ἀνιάσεται [0] .
 # sent_id = 53
-1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_804|ref=Orationes 20_262
-2	βαρβάρων	βάρβαρος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_805|ref=Orationes 20_262
-3	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_806|ref=Orationes 20_262
-4	ἀδάμαστος	ἀδάμαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_807|ref=Orationes 20_262
-5	καὶ	καί	c	c--------	_	23	COORD	_	t_808|ref=Orationes 20_262
-6	ἀνάλωτος	ἀνάλωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_809|ref=Orationes 20_262
-7	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	10	ATR	_	t_810|ref=Orationes 20_262
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_811|ref=Orationes 20_262
-9	Σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_812|ref=Orationes 20_262
-10	βέλεσι	βέλος	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_813|ref=Orationes 20_262
-11	καὶ	καί	c	c--------	_	6	COORD	_	t_814|ref=Orationes 20_262
-12	φίλτροις	φίλτρον	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_815|ref=Orationes 20_262
-13	,	,	u	u--------	_	23	AuxX	_	t_816|ref=Orationes 20_262
-14	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	21	SBJ	_	t_817|ref=Orationes 20_262
-15	οὐκ	οὐ	d	d--------	_	18	AuxZ	_	t_818|ref=Orationes 20_262
-16	ἀκοῇ	ἀκοή	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_819|ref=Orationes 20_262
-17	μὲν	μέν	d	d--------	_	21	AuxY	_	t_820|ref=Orationes 20_262
-18	ἤρα	ἐράω1	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	21	ATR	_	t_821|ref=Orationes 20_262
-19	,	,	u	u--------	_	23	AuxX	_	t_822|ref=Orationes 20_262
-20	ἀκοῇ	ἀκοή	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_823|ref=Orationes 20_262
-21	δὲ	δέ	c	c--------	_	2	COORD	_	t_824|ref=Orationes 20_262
-22	ἀνιάσεται	ἀνιάομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	21	ATR	_	t_825|ref=Orationes 20_262
-23	[0]	[0]	-	---------	_	0	PRED	_	e_39|ref=Orationes 20_260
-24	.	.	u	u--------	_	23	AuxK	_	t_826|ref=Orationes 20_262
+1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_804|e_39|ref=Orat.20_262
+2	βαρβάρων	βάρβαρος	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_805|t_804|ref=Orat.20_262
+3	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_806|t_808|ref=Orat.20_262
+4	ἀδάμαστος	ἀδάμαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_807|t_808|ref=Orat.20_262
+5	καὶ	καί	c	c--------	_	23	COORD	_	t_808|e_39|ref=Orat.20_262
+6	ἀνάλωτος	ἀνάλωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_809|t_808|ref=Orat.20_262
+7	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	10	ATR	_	t_810|t_813|ref=Orat.20_262
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_811|t_812|ref=Orat.20_262
+9	Σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_812|t_813|ref=Orat.20_262
+10	βέλεσι	βέλος	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_813|t_814|ref=Orat.20_262
+11	καὶ	καί	c	c--------	_	6	COORD	_	t_814|t_809|ref=Orat.20_262
+12	φίλτροις	φίλτρον	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_815|t_814|ref=Orat.20_262
+13	,	,	u	u--------	_	23	AuxX	_	t_816|e_39|ref=Orat.20_262
+14	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	21	SBJ	_	t_817|t_824|ref=Orat.20_262
+15	οὐκ	οὐ	d	d--------	_	18	AuxZ	_	t_818|t_821|ref=Orat.20_262
+16	ἀκοῇ	ἀκοή	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_819|t_821|ref=Orat.20_262
+17	μὲν	μέν	d	d--------	_	21	AuxY	_	t_820|t_824|ref=Orat.20_262
+18	ἤρα	ἐράω1	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	21	ATR	_	t_821|t_824|ref=Orat.20_262
+19	,	,	u	u--------	_	23	AuxX	_	t_822|e_39|ref=Orat.20_262
+20	ἀκοῇ	ἀκοή	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_823|t_825|ref=Orat.20_262
+21	δὲ	δέ	c	c--------	_	2	COORD	_	t_824|t_805|ref=Orat.20_262
+22	ἀνιάσεται	ἀνιάομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	21	ATR	_	t_825|t_824|ref=Orat.20_262
+23	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Orat.20_260
+24	.	.	u	u--------	_	23	AuxK	_	t_826|e_39|ref=Orat.20_262
 
-# source = Aristides, Aelius, Orationes 20 263
+# source = Aristides, Aelius, Orat.20 263
 # text = Ἡλιάδας μὲν δὴ λέγεται πενθούσας τὸν ἀδελφὸν τελευτώσας αἰγείρων ἀλλάξασθαι φύσιν καὶ τὸ δάκρυον αὐτῶν εἰς ἤλεκτρον παγῆναι ·
 # sent_id = 54
-1	Ἡλιάδας	ἡλιάς	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_827|ref=Orationes 20_263
-2	μὲν	μέν	d	d--------	_	4	AuxY	_	t_828|ref=Orationes 20_263
-3	δὴ	δή	d	d--------	_	4	AuxY	_	t_829|ref=Orationes 20_263
-4	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_830|ref=Orationes 20_263
-5	πενθούσας	πενθέω	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_831|ref=Orationes 20_263
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_832|ref=Orationes 20_263
-7	ἀδελφὸν	ἀδελφός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_833|ref=Orationes 20_263
-8	τελευτώσας	τελευτάω	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_834|ref=Orationes 20_263
-9	αἰγείρων	αἴγειρος	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_835|ref=Orationes 20_263
-10	ἀλλάξασθαι	ἀλλάσσω	v	v--anm---	Mood=n|Tense=a|Voice=m	12	OBJ	_	t_836|ref=Orationes 20_263
-11	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_837|ref=Orationes 20_263
-12	καὶ	καί	c	c--------	_	4	COORD	_	t_838|ref=Orationes 20_263
-13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_839|ref=Orationes 20_263
-14	δάκρυον	δάκρυον	n	n-s---na-	Case=a|Gender=n|Number=s	18	SBJ	_	t_840|ref=Orationes 20_262
-15	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_841|ref=Orationes 20_263
-16	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_842|ref=Orationes 20_263
-17	ἤλεκτρον	ἤλεκτρον	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_843|ref=Orationes 20_263
-18	παγῆναι	πάσσω	v	v--anp---	Mood=n|Tense=a|Voice=p	12	OBJ	_	t_844|ref=Orationes 20_263
-19	·	·	u	u--------	_	4	AuxK	_	t_845|ref=Orationes 20_263
+1	Ἡλιάδας	ἡλιάς	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_827|t_836|ref=Orat.20_263
+2	μὲν	μέν	d	d--------	_	4	AuxY	_	t_828|t_830|ref=Orat.20_263
+3	δὴ	δή	d	d--------	_	4	AuxY	_	t_829|t_830|ref=Orat.20_263
+4	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_830|0|ref=Orat.20_263
+5	πενθούσας	πενθέω	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_831|t_827|ref=Orat.20_263
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_832|t_833|ref=Orat.20_263
+7	ἀδελφὸν	ἀδελφός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_833|t_831|ref=Orat.20_263
+8	τελευτώσας	τελευτάω	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	4	ADV	_	t_834|t_830|ref=Orat.20_263
+9	αἰγείρων	αἴγειρος	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_835|t_834|ref=Orat.20_263
+10	ἀλλάξασθαι	ἀλλάσσω	v	v--anm---	Mood=n|Tense=a|Voice=m	12	OBJ	_	t_836|t_838|ref=Orat.20_263
+11	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_837|t_836|ref=Orat.20_263
+12	καὶ	καί	c	c--------	_	4	COORD	_	t_838|t_830|ref=Orat.20_263
+13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_839|t_840|ref=Orat.20_263
+14	δάκρυον	δάκρυον	n	n-s---na-	Case=a|Gender=n|Number=s	18	SBJ	_	t_840|t_844|ref=Orat.20_262
+15	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_841|t_840|ref=Orat.20_263
+16	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_842|t_844|ref=Orat.20_263
+17	ἤλεκτρον	ἤλεκτρον	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_843|t_842|ref=Orat.20_263
+18	παγῆναι	πάσσω	v	v--anp---	Mood=n|Tense=a|Voice=p	12	OBJ	_	t_844|t_838|ref=Orat.20_263
+19	·	·	u	u--------	_	4	AuxK	_	t_845|t_830|ref=Orat.20_263
 
-# source = Aristides, Aelius, Orationes 20 263
+# source = Aristides, Aelius, Orat.20 263
 # text = σὲ δὲ , ὦ χαριεστάτη πόλεων , αὐτοῖς ὥρα τοῖς δένδρεσι θρηνεῖν .
 # sent_id = 55
-1	σὲ	σύ	p	p-s---fa-	Case=a|Gender=f|Number=s	12	SBJ	_	t_846|ref=Orationes 20_263
-2	δὲ	δέ	g	g--------	_	9	AuxY	_	t_847|ref=Orationes 20_263
-3	,	,	u	u--------	_	5	AuxX	_	t_848|ref=Orationes 20_263
-4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_849|ref=Orationes 20_263
-5	χαριεστάτη	χαρίεις	a	a-s---fns	Case=n|Degree=s|Gender=f|Number=s	9	ExD	_	t_850|ref=Orationes 20_263
-6	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_851|ref=Orationes 20_263
-7	,	,	u	u--------	_	9	AuxX	_	t_852|ref=Orationes 20_263
-8	αὐτοῖς	αὐτός	p	p-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_853|ref=Orationes 20_263
-9	ὥρα	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	0	PRED	_	t_854|ref=Orationes 20_263
-10	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_855|ref=Orationes 20_263
-11	δένδρεσι	δένδρον	n	n-p---nd-	Case=d|Gender=n|Number=p	12	ADV	_	t_856|ref=Orationes 20_263
-12	θρηνεῖν	θρηνέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_857|ref=Orationes 20_263
-13	.	.	u	u--------	_	9	AuxK	_	t_858|ref=Orationes 20_263
+1	σὲ	σύ	p	p-s---fa-	Case=a|Gender=f|Number=s	12	SBJ	_	t_846|t_857|ref=Orat.20_263
+2	δὲ	δέ	g	g--------	_	9	AuxY	_	t_847|t_854|ref=Orat.20_263
+3	,	,	u	u--------	_	5	AuxX	_	t_848|t_850|ref=Orat.20_263
+4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_849|t_850|ref=Orat.20_263
+5	χαριεστάτη	χαρίεις	a	a-s---fns	Case=n|Degree=s|Gender=f|Number=s	9	ExD	_	t_850|t_854|ref=Orat.20_263
+6	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_851|t_850|ref=Orat.20_263
+7	,	,	u	u--------	_	9	AuxX	_	t_852|t_854|ref=Orat.20_263
+8	αὐτοῖς	αὐτός	p	p-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_853|t_856|ref=Orat.20_263
+9	ὥρα	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	0	PRED	_	t_854|0|ref=Orat.20_263
+10	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	11	ATR	_	t_855|t_856|ref=Orat.20_263
+11	δένδρεσι	δένδρον	n	n-p---nd-	Case=d|Gender=n|Number=p	12	ADV	_	t_856|t_857|ref=Orat.20_263
+12	θρηνεῖν	θρηνέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_857|t_854|ref=Orat.20_263
+13	.	.	u	u--------	_	9	AuxK	_	t_858|t_854|ref=Orat.20_263
 

@@ -1,936 +1,936 @@
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = Ἄνθρωποι θνητοὶ κοὶ σάρκινοι , οὐδὲν ἐόντες , πῶς ταχέως ὑψοῦσθε βίου τέλος οὐκ ἐσορῶντες ;
 # sent_id = 1
-1	Ἄνθρωποι	ἄνθρωπος	n	n-p---mv-	Case=v|Gender=m|Number=p	11	ExD	_	t_1|ref=Fragmenta_1
-2	θνητοὶ	θνητός	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ATR	_	t_2|ref=Fragmenta_1
-3	κοὶ	καί	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ATR	_	t_3|ref=Fragmenta_1
-4	σάρκινοι	σάρκινος	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ATR	_	t_4|ref=Fragmenta_1
-5	,	,	u	u--------	_	7	AuxX	_	t_5|ref=Fragmenta_1
-6	οὐδὲν	οὐδείς	a	a-s---na-	Case=a|Gender=n|Number=s	7	PNOM	_	t_6|ref=Fragmenta_1
-7	ἐόντες	εἰμί	v	v-pppamv-	Case=v|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_7|ref=Fragmenta_1
-8	,	,	u	u--------	_	7	AuxX	_	t_8|ref=Fragmenta_1
-9	πῶς	πῶς	d	d--------	_	11	ADV	_	t_9|ref=Fragmenta_1
-10	ταχέως	ταχύς	d	d--------	_	11	ADV	_	t_10|ref=Fragmenta_1
-11	ὑψοῦσθε	ὑψοῦ	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_11|ref=Fragmenta_1
-12	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_12|ref=Fragmenta_1
-13	τέλος	τέλος	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_13|ref=Fragmenta_1
-14	οὐκ	οὐ	d	d--------	_	15	AuxZ	_	t_14|ref=Fragmenta_1
-15	ἐσορῶντες	εἰσοράω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_15|ref=Fragmenta_1
-16	;	;	u	u--------	_	11	AuxK	_	t_16|ref=Fragmenta_1
+1	Ἄνθρωποι	ἄνθρωπος	n	n-p---mv-	Case=v|Gender=m|Number=p	11	ExD	_	t_1|t_11|ref=fr._1
+2	θνητοὶ	θνητός	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ATR	_	t_2|t_1|ref=fr._1
+3	κοὶ	καί	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ATR	_	t_3|t_1|ref=fr._1
+4	σάρκινοι	σάρκινος	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ATR	_	t_4|t_1|ref=fr._1
+5	,	,	u	u--------	_	7	AuxX	_	t_5|t_7|ref=fr._1
+6	οὐδὲν	οὐδείς	a	a-s---na-	Case=a|Gender=n|Number=s	7	PNOM	_	t_6|t_7|ref=fr._1
+7	ἐόντες	εἰμί	v	v-pppamv-	Case=v|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_7|t_11|ref=fr._1
+8	,	,	u	u--------	_	7	AuxX	_	t_8|t_7|ref=fr._1
+9	πῶς	πῶς	d	d--------	_	11	ADV	_	t_9|t_11|ref=fr._1
+10	ταχέως	ταχύς	d	d--------	_	11	ADV	_	t_10|t_11|ref=fr._1
+11	ὑψοῦσθε	ὑψοῦ	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_11|0|ref=fr._1
+12	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_12|t_13|ref=fr._1
+13	τέλος	τέλος	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_13|t_11|ref=fr._1
+14	οὐκ	οὐ	d	d--------	_	15	AuxZ	_	t_14|t_15|ref=fr._1
+15	ἐσορῶντες	εἰσοράω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_15|t_11|ref=fr._1
+16	;	;	u	u--------	_	11	AuxK	_	t_16|t_11|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = οὐ τρέμετ᾿ οὐ δὲ φοβεῖσθε θεόν , τὸν ἐπίσκοπον ὑμῶν , ὕψιστον γνώστην πανεπόπτην μάρτυρα πάντων παντοτρόφον κτίστην , ὅστις γλυκὺ πνεῦμ᾿ ἐν ἄπασιν κάτθετο χἠγητῆρα βροτῶν πάντων ἐποίησεν ;
 # sent_id = 2
-1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_17|ref=Fragmenta_1
-2	τρέμετ᾿	τρέχω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	4	PRED	_	t_18|ref=Fragmenta_1
-3	οὐ	οὐ	g	g--------	_	4	AuxY	_	t_19|ref=Fragmenta_1
-4	δὲ	δέ	g	g--------	_	0	COORD	_	t_20|ref=Fragmenta_1
-5	φοβεῖσθε	φοβέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	4	PRED	_	t_21|ref=Fragmenta_1
-6	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_22|ref=Fragmenta_1
-7	,	,	u	u--------	_	11	AuxX	_	t_23|ref=Fragmenta_1
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_24|ref=Fragmenta_1
-9	ἐπίσκοπον	ἐπίσκοπος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_25|ref=Fragmenta_1
-10	ὑμῶν	σύ	p	p-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_26|ref=Fragmenta_1
-11	,	,	u	u--------	_	5	APOS	_	t_27|ref=Fragmenta_1
-12	ὕψιστον	ὕψιστος	a	a-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_28|ref=Fragmenta_1
-13	γνώστην	γιγνώσκω	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_29|ref=Fragmenta_1
-14	πανεπόπτην	πανεπόπτης	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_30|ref=Fragmenta_1
-15	μάρτυρα	μάρτυς	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_31|ref=Fragmenta_1
-16	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_32|ref=Fragmenta_1
-17	παντοτρόφον	παντοτρόφος	a	a-s---ma-	Case=a|Gender=m|Number=s	18	ATR	_	t_33|ref=Fragmenta_1
-18	κτίστην	κτίστης	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_34|ref=Fragmenta_1
-19	,	,	u	u--------	_	29	AuxX	_	t_35|ref=Fragmenta_1
-20	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_36|ref=Fragmenta_1
-21	γλυκὺ	γλυκύς	a	a-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_37|ref=Fragmenta_1
-22	πνεῦμ᾿	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_38|ref=Fragmenta_1
-23	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_39|ref=Fragmenta_1
-24	ἄπασιν	ἄπασι	n	n-p---fd-	Case=d|Gender=f|Number=p	23	ADV	_	t_40|ref=Fragmenta_1
-25	κάτθετο	κατατίθημι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	ATR	_	t_41|ref=Fragmenta_1
-26	χἠγητῆρα	ἡγητήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OCOMP	_	t_42|ref=Fragmenta_1
-27	βροτῶν	βροτός	n	n-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_43|ref=Fragmenta_1
-28	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_44|ref=Fragmenta_1
-29	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	4	ATR	_	t_45|ref=Fragmenta_1
-30	;	;	u	u--------	_	4	AuxK	_	t_46|ref=Fragmenta_1
+1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_17|t_18|ref=fr._1
+2	τρέμετ᾿	τρέχω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	4	PRED	_	t_18|t_20|ref=fr._1
+3	οὐ	οὐ	g	g--------	_	4	AuxY	_	t_19|t_20|ref=fr._1
+4	δὲ	δέ	g	g--------	_	0	COORD	_	t_20|0|ref=fr._1
+5	φοβεῖσθε	φοβέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	4	PRED	_	t_21|t_20|ref=fr._1
+6	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_22|t_23|ref=fr._1
+7	,	,	u	u--------	_	11	AuxX	_	t_23|t_27|ref=fr._1
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_24|t_25|ref=fr._1
+9	ἐπίσκοπον	ἐπίσκοπος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_25|t_23|ref=fr._1
+10	ὑμῶν	σύ	p	p-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_26|t_25|ref=fr._1
+11	,	,	u	u--------	_	5	APOS	_	t_27|t_21|ref=fr._1
+12	ὕψιστον	ὕψιστος	a	a-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_28|t_29|ref=fr._1
+13	γνώστην	γιγνώσκω	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_29|t_23|ref=fr._1
+14	πανεπόπτην	πανεπόπτης	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_30|t_31|ref=fr._1
+15	μάρτυρα	μάρτυς	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_31|t_23|ref=fr._1
+16	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_32|t_31|ref=fr._1
+17	παντοτρόφον	παντοτρόφος	a	a-s---ma-	Case=a|Gender=m|Number=s	18	ATR	_	t_33|t_34|ref=fr._1
+18	κτίστην	κτίστης	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_34|t_31|ref=fr._1
+19	,	,	u	u--------	_	29	AuxX	_	t_35|t_45|ref=fr._1
+20	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_36|t_45|ref=fr._1
+21	γλυκὺ	γλυκύς	a	a-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_37|t_38|ref=fr._1
+22	πνεῦμ᾿	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_38|t_41|ref=fr._1
+23	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_39|t_41|ref=fr._1
+24	ἄπασιν	ἄπασι	n	n-p---fd-	Case=d|Gender=f|Number=p	23	ADV	_	t_40|t_39|ref=fr._1
+25	κάτθετο	κατατίθημι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	ATR	_	t_41|t_35|ref=fr._1
+26	χἠγητῆρα	ἡγητήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OCOMP	_	t_42|t_45|ref=fr._1
+27	βροτῶν	βροτός	n	n-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_43|t_42|ref=fr._1
+28	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_44|t_43|ref=fr._1
+29	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	4	ATR	_	t_45|t_20|ref=fr._1
+30	;	;	u	u--------	_	4	AuxK	_	t_46|t_20|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = εἷς θεός , ὃς μόνος ἄρχει , ὑπερμεγέθης ἀγένητος παντοκρατωρ αορατος ορωμενος αυτος απαντα , αὐτὸς δ᾿ οὐ βλέπεται θνητῆς ὑπὸ σαρκὸς ἁπάσης ·
 # sent_id = 3
-1	εἷς	εἷς	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_47|ref=Fragmenta_1
-2	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_48|ref=Fragmenta_1
-3	,	,	u	u--------	_	6	AuxX	_	t_49|ref=Fragmenta_1
-4	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_50|ref=Fragmenta_1
-5	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATV	_	t_51|ref=Fragmenta_1
-6	ἄρχει	ἄρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	ATR	_	t_52|ref=Fragmenta_1
-7	,	,	u	u--------	_	14	APOS	_	t_53|ref=Fragmenta_1
-8	ὑπερμεγέθης	ὑπερμεγέθης	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_54|ref=Fragmenta_1
-9	ἀγένητος	ἀγένητος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_55|ref=Fragmenta_1
-10	παντοκρατωρ	παντοκρατωρ	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_56|ref=Fragmenta_1
-11	αορατος	αορατος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_57|ref=Fragmenta_1
-12	ορωμενος	οράω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ADV	_	t_58|ref=Fragmenta_1
-13	αυτος	αυτος	a	a-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_59|ref=Fragmenta_1
-14	απαντα	απαντα	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	17	PRED	_	t_60|ref=Fragmenta_1
-15	,	,	u	u--------	_	17	AuxX	_	t_61|ref=Fragmenta_1
-16	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	19	AtvV	_	t_62|ref=Fragmenta_1
-17	δ᾿	δέ	g	g--------	_	0	COORD	_	t_63|ref=Fragmenta_1
-18	οὐ	οὐ	d	d--------	_	19	AuxZ	_	t_64|ref=Fragmenta_1
-19	βλέπεται	βλέπω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	17	PRED	_	t_65|ref=Fragmenta_1
-20	θνητῆς	θνητός	a	a-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_66|ref=Fragmenta_1
-21	ὑπὸ	ὑπό	r	r--------	_	19	AuxP	_	t_67|ref=Fragmenta_1
-22	σαρκὸς	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	21	ADV	_	t_68|ref=Fragmenta_1
-23	ἁπάσης	ἅπας	a	a-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_69|ref=Fragmenta_1
-24	·	·	u	u--------	_	17	AuxK	_	t_70|ref=Fragmenta_1
+1	εἷς	εἷς	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_47|t_48|ref=fr._1
+2	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_48|t_53|ref=fr._1
+3	,	,	u	u--------	_	6	AuxX	_	t_49|t_52|ref=fr._1
+4	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_50|t_52|ref=fr._1
+5	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATV	_	t_51|t_50|ref=fr._1
+6	ἄρχει	ἄρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	ATR	_	t_52|t_48|ref=fr._1
+7	,	,	u	u--------	_	14	APOS	_	t_53|t_60|ref=fr._1
+8	ὑπερμεγέθης	ὑπερμεγέθης	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_54|t_56|ref=fr._1
+9	ἀγένητος	ἀγένητος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_55|t_56|ref=fr._1
+10	παντοκρατωρ	παντοκρατωρ	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_56|t_48|ref=fr._1
+11	αορατος	αορατος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_57|t_56|ref=fr._1
+12	ορωμενος	οράω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ADV	_	t_58|t_60|ref=fr._1
+13	αυτος	αυτος	a	a-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_59|t_60|ref=fr._1
+14	απαντα	απαντα	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	17	PRED	_	t_60|t_63|ref=fr._1
+15	,	,	u	u--------	_	17	AuxX	_	t_61|t_63|ref=fr._1
+16	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	19	AtvV	_	t_62|t_65|ref=fr._1
+17	δ᾿	δέ	g	g--------	_	0	COORD	_	t_63|0|ref=fr._1
+18	οὐ	οὐ	d	d--------	_	19	AuxZ	_	t_64|t_65|ref=fr._1
+19	βλέπεται	βλέπω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	17	PRED	_	t_65|t_63|ref=fr._1
+20	θνητῆς	θνητός	a	a-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_66|t_68|ref=fr._1
+21	ὑπὸ	ὑπό	r	r--------	_	19	AuxP	_	t_67|t_65|ref=fr._1
+22	σαρκὸς	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	21	ADV	_	t_68|t_67|ref=fr._1
+23	ἁπάσης	ἅπας	a	a-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_69|t_68|ref=fr._1
+24	·	·	u	u--------	_	17	AuxK	_	t_70|t_63|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = τίς γὰρ σὰρξ δύναται τὸν ἐπουράνιον καὶ ἀληθῆ ὀφθαλμοῖσιν ἰδεῖν θεὸν ἄμβροτον , ὃς πόλον οἰκεῖ ;
 # sent_id = 4
-1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_71|ref=Fragmenta_1
-2	γὰρ	γάρ	g	g--------	_	4	AuxY	_	t_72|ref=Fragmenta_1
-3	σὰρξ	σάρξ	d	d--------	_	4	AuxY	_	t_73|ref=Fragmenta_1
-4	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_74|ref=Fragmenta_1
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_75|ref=Fragmenta_1
-6	ἐπουράνιον	ἐπουράνιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_76|ref=Fragmenta_1
-7	καὶ	καί	c	c--------	_	11	COORD	_	t_77|ref=Fragmenta_1
-8	ἀληθῆ	ἀληθής	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_78|ref=Fragmenta_1
-9	ὀφθαλμοῖσιν	ὀφθαλμός	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_79|ref=Fragmenta_1
-10	ἰδεῖν	εἶδον	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_80|ref=Fragmenta_1
-11	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_81|ref=Fragmenta_1
-12	ἄμβροτον	ἄμβροτος	a	a-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_82|ref=Fragmenta_1
-13	,	,	u	u--------	_	16	AuxX	_	t_83|ref=Fragmenta_1
-14	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_84|ref=Fragmenta_1
-15	πόλον	πόλος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_85|ref=Fragmenta_1
-16	οἰκεῖ	οἰκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	ATR	_	t_86|ref=Fragmenta_1
-17	;	;	u	u--------	_	4	AuxK	_	t_87|ref=Fragmenta_1
+1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_71|t_74|ref=fr._1
+2	γὰρ	γάρ	g	g--------	_	4	AuxY	_	t_72|t_74|ref=fr._1
+3	σὰρξ	σάρξ	d	d--------	_	4	AuxY	_	t_73|t_74|ref=fr._1
+4	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_74|0|ref=fr._1
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_75|t_81|ref=fr._1
+6	ἐπουράνιον	ἐπουράνιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_76|t_77|ref=fr._1
+7	καὶ	καί	c	c--------	_	11	COORD	_	t_77|t_81|ref=fr._1
+8	ἀληθῆ	ἀληθής	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_78|t_77|ref=fr._1
+9	ὀφθαλμοῖσιν	ὀφθαλμός	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_79|t_80|ref=fr._1
+10	ἰδεῖν	εἶδον	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_80|t_74|ref=fr._1
+11	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_81|t_80|ref=fr._1
+12	ἄμβροτον	ἄμβροτος	a	a-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_82|t_81|ref=fr._1
+13	,	,	u	u--------	_	16	AuxX	_	t_83|t_86|ref=fr._1
+14	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_84|t_86|ref=fr._1
+15	πόλον	πόλος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_85|t_86|ref=fr._1
+16	οἰκεῖ	οἰκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	ATR	_	t_86|t_81|ref=fr._1
+17	;	;	u	u--------	_	4	AuxK	_	t_87|t_74|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = ἀλλ ’ οὐδ᾿ ἀκτίνων κατεναντίον ἠελίοιο ἄνθρωποι στῆναι δυνατοί , θνητοὶ γεγαῶτες ἄνδρες , ἐν ὀστείοισι φλέβες καὶ σάρκες ἐόντες [0] .
 # sent_id = 5
-1	ἀλλ	ἀλλά	d	d--------	_	21	AuxY	_	t_88|ref=Fragmenta_1
-2	’	’	d	d--------	_	21	AuxY	_	t_89|ref=Fragmenta_1
-3	οὐδ᾿	οὐδέ	d	d--------	_	21	AuxZ	_	t_90|ref=Fragmenta_1
-4	ἀκτίνων	ἀκτίς	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_91|ref=Fragmenta_1
-5	κατεναντίον	κατεναντίον	d	d--------	_	8	AuxP	_	t_92|ref=Fragmenta_1
-6	ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_93|ref=Fragmenta_1
-7	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_94|ref=Fragmenta_1
-8	στῆναι	ἵστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	ADV	_	t_95|ref=Fragmenta_1
-9	δυνατοί	δυνατός	a	a-p---mn-	Case=n|Gender=m|Number=p	21	PNOM	_	t_96|ref=Fragmenta_1
-10	,	,	u	u--------	_	21	APOS	_	t_97|ref=Fragmenta_1
-11	θνητοὶ	θνητός	a	a-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_98|ref=Fragmenta_1
-12	γεγαῶτες	γίγνομαι	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	13	ATR	_	t_99|ref=Fragmenta_1
-13	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_100|ref=Fragmenta_1
-14	,	,	u	u--------	_	20	AuxX	_	t_101|ref=Fragmenta_1
-15	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_102|ref=Fragmenta_1
-16	ὀστείοισι	ὀστέον	n	n-p---nd-	Case=d|Gender=n|Number=p	15	ADV	_	t_103|ref=Fragmenta_1
-17	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_104|ref=Fragmenta_1
-18	καὶ	καί	c	c--------	_	20	COORD	_	t_105|ref=Fragmenta_1
-19	σάρκες	σάρξ	n	n-p---fn-	Case=n|Gender=f|Number=p	18	PNOM	_	t_106|ref=Fragmenta_1
-20	ἐόντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ATR	_	t_107|ref=Fragmenta_1
-21	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Fragmenta_1
-22	.	.	u	u--------	_	21	AuxK	_	t_108|ref=Fragmenta_1
+1	ἀλλ	ἀλλά	d	d--------	_	21	AuxY	_	t_88|e_1|ref=fr._1
+2	’	’	d	d--------	_	21	AuxY	_	t_89|e_1|ref=fr._1
+3	οὐδ᾿	οὐδέ	d	d--------	_	21	AuxZ	_	t_90|e_1|ref=fr._1
+4	ἀκτίνων	ἀκτίς	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_91|t_92|ref=fr._1
+5	κατεναντίον	κατεναντίον	d	d--------	_	8	AuxP	_	t_92|t_95|ref=fr._1
+6	ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_93|t_92|ref=fr._1
+7	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_94|t_97|ref=fr._1
+8	στῆναι	ἵστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	ADV	_	t_95|t_96|ref=fr._1
+9	δυνατοί	δυνατός	a	a-p---mn-	Case=n|Gender=m|Number=p	21	PNOM	_	t_96|e_1|ref=fr._1
+10	,	,	u	u--------	_	21	APOS	_	t_97|e_1|ref=fr._1
+11	θνητοὶ	θνητός	a	a-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_98|t_100|ref=fr._1
+12	γεγαῶτες	γίγνομαι	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	13	ATR	_	t_99|t_100|ref=fr._1
+13	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_100|t_97|ref=fr._1
+14	,	,	u	u--------	_	20	AuxX	_	t_101|t_107|ref=fr._1
+15	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_102|t_107|ref=fr._1
+16	ὀστείοισι	ὀστέον	n	n-p---nd-	Case=d|Gender=n|Number=p	15	ADV	_	t_103|t_102|ref=fr._1
+17	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	18	SBJ	_	t_104|t_105|ref=fr._1
+18	καὶ	καί	c	c--------	_	20	COORD	_	t_105|t_107|ref=fr._1
+19	σάρκες	σάρξ	n	n-p---fn-	Case=n|Gender=f|Number=p	18	PNOM	_	t_106|t_105|ref=fr._1
+20	ἐόντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ATR	_	t_107|t_100|ref=fr._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=fr._1
+22	.	.	u	u--------	_	21	AuxK	_	t_108|e_1|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = αὐτὸν τὸν μόνον ὄντα σέβεσθ᾿ ἡγήτορα κόσμου [0] .
 # sent_id = 6
-1	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	4	SBJ	_	t_109|ref=Fragmenta_1
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_110|ref=Fragmenta_1
-3	μόνον	μόνος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	PNOM	_	t_111|ref=Fragmenta_1
-4	ὄντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_112|ref=Fragmenta_1
-5	σέβεσθ᾿	σέβομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_113|ref=Fragmenta_1
-6	ἡγήτορα	ἡγήτωρ	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OCOMP	_	t_114|ref=Fragmenta_1
-7	κόσμου	κόσμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_115|ref=Fragmenta_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Fragmenta_1
-9	.	.	u	u--------	_	8	AuxK	_	t_116|ref=Fragmenta_1
+1	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	4	SBJ	_	t_109|t_112|ref=fr._1
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_110|t_112|ref=fr._1
+3	μόνον	μόνος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	PNOM	_	t_111|t_112|ref=fr._1
+4	ὄντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_112|t_113|ref=fr._1
+5	σέβεσθ᾿	σέβομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_113|e_2|ref=fr._1
+6	ἡγήτορα	ἡγήτωρ	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OCOMP	_	t_114|t_113|ref=fr._1
+7	κόσμου	κόσμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_115|t_114|ref=fr._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._1
+9	.	.	u	u--------	_	8	AuxK	_	t_116|e_2|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = ὃς μόνος εἰς αἰῶνα καὶ ἐξ αἰῶνος ἐτύχθη αὐτογενὴς ἀγένητος ἅπαντα κρατῶν διὰ παντός , πᾶσι βροτοῖσι νέμων τὸ κριτήριον έν φαΐ κοινῷ .
 # sent_id = 7
-1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_117|ref=Fragmenta_1
-2	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATV	_	t_118|ref=Fragmenta_1
-3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_119|ref=Fragmenta_1
-4	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_120|ref=Fragmenta_1
-5	καὶ	καί	c	c--------	_	8	COORD	_	t_121|ref=Fragmenta_1
-6	ἐξ	ἐκ	r	r--------	_	5	AuxP	_	t_122|ref=Fragmenta_1
-7	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_123|ref=Fragmenta_1
-8	ἐτύχθη	τεύχω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_124|ref=Fragmenta_1
-9	αὐτογενὴς	αὐτογενής	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATV	_	t_125|ref=Fragmenta_1
-10	ἀγένητος	ἀγένητος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATV	_	t_126|ref=Fragmenta_1
-11	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_127|ref=Fragmenta_1
-12	κρατῶν	κρατέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_128|ref=Fragmenta_1
-13	διὰ	διά	r	r--------	_	12	AuxP	_	t_129|ref=Fragmenta_1
-14	παντός	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_130|ref=Fragmenta_1
-15	,	,	u	u--------	_	18	AuxX	_	t_131|ref=Fragmenta_1
-16	πᾶσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_132|ref=Fragmenta_1
-17	βροτοῖσι	βροτός	n	n-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_133|ref=Fragmenta_1
-18	νέμων	νέμω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_134|ref=Fragmenta_1
-19	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	20	ATR	_	t_135|ref=Fragmenta_1
-20	κριτήριον	κριτήριον	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_136|ref=Fragmenta_1
-21	έν	ἐν	n	n-s---nd-	Case=d|Gender=n|Number=s	18	ADV	_	t_137|ref=Fragmenta_1
-22	φαΐ	φημί	n	n-s---nd-	Case=d|Gender=n|Number=s	18	ADV	_	t_138|ref=Fragmenta_1
-23	κοινῷ	κοινός	a	a-s---nd-	Case=d|Gender=n|Number=s	18	ADV	_	t_139|ref=Fragmenta_1
-24	.	.	u	u--------	_	8	AuxK	_	t_140|ref=Fragmenta_1
+1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_117|t_124|ref=fr._1
+2	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATV	_	t_118|t_117|ref=fr._1
+3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_119|t_121|ref=fr._1
+4	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_120|t_119|ref=fr._1
+5	καὶ	καί	c	c--------	_	8	COORD	_	t_121|t_124|ref=fr._1
+6	ἐξ	ἐκ	r	r--------	_	5	AuxP	_	t_122|t_121|ref=fr._1
+7	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_123|t_122|ref=fr._1
+8	ἐτύχθη	τεύχω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_124|0|ref=fr._1
+9	αὐτογενὴς	αὐτογενής	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATV	_	t_125|t_117|ref=fr._1
+10	ἀγένητος	ἀγένητος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATV	_	t_126|t_117|ref=fr._1
+11	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_127|t_128|ref=fr._1
+12	κρατῶν	κρατέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_128|t_124|ref=fr._1
+13	διὰ	διά	r	r--------	_	12	AuxP	_	t_129|t_128|ref=fr._1
+14	παντός	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_130|t_129|ref=fr._1
+15	,	,	u	u--------	_	18	AuxX	_	t_131|t_134|ref=fr._1
+16	πᾶσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_132|t_133|ref=fr._1
+17	βροτοῖσι	βροτός	n	n-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_133|t_134|ref=fr._1
+18	νέμων	νέμω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_134|t_124|ref=fr._1
+19	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	20	ATR	_	t_135|t_136|ref=fr._1
+20	κριτήριον	κριτήριον	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_136|t_134|ref=fr._1
+21	έν	ἐν	n	n-s---nd-	Case=d|Gender=n|Number=s	18	ADV	_	t_137|t_134|ref=fr._1
+22	φαΐ	φημί	n	n-s---nd-	Case=d|Gender=n|Number=s	18	ADV	_	t_138|t_134|ref=fr._1
+23	κοινῷ	κοινός	a	a-s---nd-	Case=d|Gender=n|Number=s	18	ADV	_	t_139|t_134|ref=fr._1
+24	.	.	u	u--------	_	8	AuxK	_	t_140|t_124|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = τῆς κακοβουλοσύνης δὲ τὸν ἄξιον ἕξετε μισθόν , ὅττι θεὸν προλιπόντες ἀληθινὸν ἀέναόν τε δοξάζειν αὐτῷ τε θύειν ἱερὰς ἑκατόμβας δαίμοσι τὰς θυσίας ἐποιήσατε τοῖσιν ἐν Ἅιδῃ .
 # sent_id = 8
-1	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_141|ref=Fragmenta_1
-2	κακοβουλοσύνης	κακοβουλοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_142|ref=Fragmenta_1
-3	δὲ	δέ	d	d--------	_	6	AuxY	_	t_143|ref=Fragmenta_1
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_144|ref=Fragmenta_1
-5	ἄξιον	ἄξιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_145|ref=Fragmenta_1
-6	ἕξετε	ἔχω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	0	PRED	_	t_146|ref=Fragmenta_1
-7	μισθόν	μισθός	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_147|ref=Fragmenta_1
-8	,	,	u	u--------	_	6	AuxX	_	t_148|ref=Fragmenta_1
-9	ὅττι	ὅτι	c	c--------	_	6	AuxC	_	t_149|ref=Fragmenta_1
-10	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_150|ref=Fragmenta_1
-11	προλιπόντες	προλείπω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	24	ADV	_	t_151|ref=Fragmenta_1
-12	ἀληθινὸν	ἀληθινός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_152|ref=Fragmenta_1
-13	ἀέναόν	ἀέναος	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATV	_	t_153|ref=Fragmenta_1
-14	τε	τε	d	d--------	_	17	AuxY	_	t_154|ref=Fragmenta_1
-15	δοξάζειν	δοξάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_155|ref=Fragmenta_1
-16	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	18	OBJ	_	t_156|ref=Fragmenta_1
-17	τε	τε	c	c--------	_	11	COORD	_	t_157|ref=Fragmenta_1
-18	θύειν	θύω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_158|ref=Fragmenta_1
-19	ἱερὰς	ἱερός	a	a-p---fa-	Case=a|Gender=f|Number=p	23	ATR	_	t_159|ref=Fragmenta_1
-20	ἑκατόμβας	ἑκατόμβη	n	n-p---fa-	Case=a|Gender=f|Number=p	24	OBJ	_	t_160|ref=Fragmenta_1
-21	δαίμοσι	δαίμων	n	n-p---md-	Case=d|Gender=m|Number=p	24	OBJ	_	t_161|ref=Fragmenta_1
-22	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	23	ATR	_	t_162|ref=Fragmenta_1
-23	θυσίας	θυσία	n	n-p---fa-	Case=a|Gender=f|Number=p	24	OBJ	_	t_163|ref=Fragmenta_1
-24	ἐποιήσατε	ποιέω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	9	ADV	_	t_164|ref=Fragmenta_1
-25	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	24	OBJ	_	t_165|ref=Fragmenta_1
-26	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_166|ref=Fragmenta_1
-27	Ἅιδῃ	ᾅδης	n	n-s---md-	Case=d|Gender=f|Number=s	26	ATR	_	t_167|ref=Fragmenta_1
-28	.	.	u	u--------	_	6	AuxK	_	t_168|ref=Fragmenta_1
+1	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_141|t_142|ref=fr._1
+2	κακοβουλοσύνης	κακοβουλοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_142|t_147|ref=fr._1
+3	δὲ	δέ	d	d--------	_	6	AuxY	_	t_143|t_146|ref=fr._1
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_144|t_147|ref=fr._1
+5	ἄξιον	ἄξιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_145|t_147|ref=fr._1
+6	ἕξετε	ἔχω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	0	PRED	_	t_146|0|ref=fr._1
+7	μισθόν	μισθός	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_147|t_146|ref=fr._1
+8	,	,	u	u--------	_	6	AuxX	_	t_148|t_146|ref=fr._1
+9	ὅττι	ὅτι	c	c--------	_	6	AuxC	_	t_149|t_146|ref=fr._1
+10	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_150|t_151|ref=fr._1
+11	προλιπόντες	προλείπω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	24	ADV	_	t_151|t_164|ref=fr._1
+12	ἀληθινὸν	ἀληθινός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_152|t_150|ref=fr._1
+13	ἀέναόν	ἀέναος	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATV	_	t_153|t_150|ref=fr._1
+14	τε	τε	d	d--------	_	17	AuxY	_	t_154|t_157|ref=fr._1
+15	δοξάζειν	δοξάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_155|t_157|ref=fr._1
+16	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	18	OBJ	_	t_156|t_158|ref=fr._1
+17	τε	τε	c	c--------	_	11	COORD	_	t_157|t_151|ref=fr._1
+18	θύειν	θύω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_158|t_157|ref=fr._1
+19	ἱερὰς	ἱερός	a	a-p---fa-	Case=a|Gender=f|Number=p	23	ATR	_	t_159|t_163|ref=fr._1
+20	ἑκατόμβας	ἑκατόμβη	n	n-p---fa-	Case=a|Gender=f|Number=p	24	OBJ	_	t_160|t_164|ref=fr._1
+21	δαίμοσι	δαίμων	n	n-p---md-	Case=d|Gender=m|Number=p	24	OBJ	_	t_161|t_164|ref=fr._1
+22	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	23	ATR	_	t_162|t_163|ref=fr._1
+23	θυσίας	θυσία	n	n-p---fa-	Case=a|Gender=f|Number=p	24	OBJ	_	t_163|t_164|ref=fr._1
+24	ἐποιήσατε	ποιέω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	9	ADV	_	t_164|t_149|ref=fr._1
+25	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	24	OBJ	_	t_165|t_164|ref=fr._1
+26	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_166|t_165|ref=fr._1
+27	Ἅιδῃ	ᾅδης	n	n-s---md-	Case=d|Gender=f|Number=s	26	ATR	_	t_167|t_166|ref=fr._1
+28	.	.	u	u--------	_	6	AuxK	_	t_168|t_146|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = τύφῳ καὶ μανίῃ δὲ βαδίζετε καὶ τρίβον ὀρθήν εὐθεῖαν προλιπόντες ἀπήλθετε καὶ δι᾿ ἀκανθῶν καὶ σκολόπων ἐπλανπασθ ·
 # sent_id = 9
-1	τύφῳ	τύφος	n	n-s---fd-	Case=d|Gender=m|Number=s	2	ADV	_	t_169|ref=Fragmenta_1
-2	καὶ	καί	c	c--------	_	5	COORD	_	t_170|ref=Fragmenta_1
-3	μανίῃ	μανία	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_171|ref=Fragmenta_1
-4	δὲ	δέ	d	d--------	_	12	AuxY	_	t_172|ref=Fragmenta_1
-5	βαδίζετε	βαδίζω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	12	PRED	_	t_173|ref=Fragmenta_1
-6	καὶ	καί	c	c--------	_	12	AuxY	_	t_174|ref=Fragmenta_1
-7	τρίβον	τρίοδος	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_175|ref=Fragmenta_1
-8	ὀρθήν	ὀρθός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_176|ref=Fragmenta_1
-9	εὐθεῖαν	εὐθεῖα	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_177|ref=Fragmenta_1
-10	προλιπόντες	προλείπω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	11	ADV	_	t_178|ref=Fragmenta_1
-11	ἀπήλθετε	ἀπέρχομαι	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	12	PRED	_	t_179|ref=Fragmenta_1
-12	καὶ	καί	c	c--------	_	0	COORD	_	t_180|ref=Fragmenta_1
-13	δι᾿	διά	r	r--------	_	17	AuxP	_	t_181|ref=Fragmenta_1
-14	ἀκανθῶν	ἄκανθα	n	n-p---fg-	Case=g|Gender=f|Number=p	15	ADV	_	t_182|ref=Fragmenta_1
-15	καὶ	καί	c	c--------	_	13	COORD	_	t_183|ref=Fragmenta_1
-16	σκολόπων	σκίπων	n	n-p---mg-	Case=g|Gender=f|Number=p	15	ADV	_	t_184|ref=Fragmenta_1
-17	ἐπλανπασθ	πλάσσω	v	v2paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	12	PRED	_	t_185|ref=Fragmenta_1
-18	·	·	u	u--------	_	12	AuxK	_	t_186|ref=Fragmenta_1
+1	τύφῳ	τύφος	n	n-s---fd-	Case=d|Gender=m|Number=s	2	ADV	_	t_169|t_170|ref=fr._1
+2	καὶ	καί	c	c--------	_	5	COORD	_	t_170|t_173|ref=fr._1
+3	μανίῃ	μανία	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_171|t_170|ref=fr._1
+4	δὲ	δέ	d	d--------	_	12	AuxY	_	t_172|t_180|ref=fr._1
+5	βαδίζετε	βαδίζω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	12	PRED	_	t_173|t_180|ref=fr._1
+6	καὶ	καί	c	c--------	_	12	AuxY	_	t_174|t_180|ref=fr._1
+7	τρίβον	τρίοδος	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_175|t_178|ref=fr._1
+8	ὀρθήν	ὀρθός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_176|t_175|ref=fr._1
+9	εὐθεῖαν	εὐθεῖα	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_177|t_175|ref=fr._1
+10	προλιπόντες	προλείπω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	11	ADV	_	t_178|t_179|ref=fr._1
+11	ἀπήλθετε	ἀπέρχομαι	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	12	PRED	_	t_179|t_180|ref=fr._1
+12	καὶ	καί	c	c--------	_	0	COORD	_	t_180|0|ref=fr._1
+13	δι᾿	διά	r	r--------	_	17	AuxP	_	t_181|t_185|ref=fr._1
+14	ἀκανθῶν	ἄκανθα	n	n-p---fg-	Case=g|Gender=f|Number=p	15	ADV	_	t_182|t_183|ref=fr._1
+15	καὶ	καί	c	c--------	_	13	COORD	_	t_183|t_181|ref=fr._1
+16	σκολόπων	σκίπων	n	n-p---mg-	Case=g|Gender=f|Number=p	15	ADV	_	t_184|t_183|ref=fr._1
+17	ἐπλανπασθ	πλάσσω	v	v2paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	12	PRED	_	t_185|t_180|ref=fr._1
+18	·	·	u	u--------	_	12	AuxK	_	t_186|t_180|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = βροτοί , παύσασθε , μάταιοι , ῥεμβόμενοι σκοτίῃ καὶ ἀφεγγέι νυκτὶ μελαίνῃ , καὶ λίπετε σκοτίην νυκτός , φωτὸς δὲ λάβεσθε .
 # sent_id = 10
-1	βροτοί	βροτός	n	n-p---mv-	Case=v|Gender=m|Number=p	20	ExD	_	t_187|ref=Fragmenta_1
-2	,	,	u	u--------	_	5	AuxX	_	t_188|ref=Fragmenta_1
-3	παύσασθε	παύω	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	20	PRED	_	t_189|ref=Fragmenta_1
-4	,	,	u	u--------	_	5	AuxX	_	t_190|ref=Fragmenta_1
-5	μάταιοι	μάταιος	a	a-p---mv-	Case=v|Gender=m|Number=p	20	ExD	_	t_191|ref=Fragmenta_1
-6	,	,	u	u--------	_	5	AuxX	_	t_192|ref=Fragmenta_1
-7	ῥεμβόμενοι	ῥεμβόμενος	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	3	ADV	_	t_193|ref=Fragmenta_1
-8	σκοτίῃ	σκοτία	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_194|ref=Fragmenta_1
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_195|ref=Fragmenta_1
-10	ἀφεγγέι	ἀφεγγής	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_196|ref=Fragmenta_1
-11	νυκτὶ	νύξ	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_197|ref=Fragmenta_1
-12	μελαίνῃ	μέλας	a	a-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_198|ref=Fragmenta_1
-13	,	,	u	u--------	_	20	AuxX	_	t_199|ref=Fragmenta_1
-14	καὶ	καί	c	c--------	_	20	AuxY	_	t_200|ref=Fragmenta_1
-15	λίπετε	λείπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	20	PRED	_	t_201|ref=Fragmenta_1
-16	σκοτίην	σκοτίη	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_202|ref=Fragmenta_1
-17	νυκτός	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	15	OBJ	_	t_203|ref=Fragmenta_1
-18	,	,	u	u--------	_	20	AuxX	_	t_204|ref=Fragmenta_1
-19	φωτὸς	φώς	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_205|ref=Fragmenta_1
-20	δὲ	δέ	g	g--------	_	0	COORD	_	t_206|ref=Fragmenta_1
-21	λάβεσθε	λαμβάνω	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	20	PRED	_	t_207|ref=Fragmenta_1
-22	.	.	u	u--------	_	20	AuxK	_	t_208|ref=Fragmenta_1
+1	βροτοί	βροτός	n	n-p---mv-	Case=v|Gender=m|Number=p	20	ExD	_	t_187|t_206|ref=fr._1
+2	,	,	u	u--------	_	5	AuxX	_	t_188|t_191|ref=fr._1
+3	παύσασθε	παύω	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	20	PRED	_	t_189|t_206|ref=fr._1
+4	,	,	u	u--------	_	5	AuxX	_	t_190|t_191|ref=fr._1
+5	μάταιοι	μάταιος	a	a-p---mv-	Case=v|Gender=m|Number=p	20	ExD	_	t_191|t_206|ref=fr._1
+6	,	,	u	u--------	_	5	AuxX	_	t_192|t_191|ref=fr._1
+7	ῥεμβόμενοι	ῥεμβόμενος	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	3	ADV	_	t_193|t_189|ref=fr._1
+8	σκοτίῃ	σκοτία	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_194|t_195|ref=fr._1
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_195|t_197|ref=fr._1
+10	ἀφεγγέι	ἀφεγγής	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_196|t_195|ref=fr._1
+11	νυκτὶ	νύξ	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_197|t_193|ref=fr._1
+12	μελαίνῃ	μέλας	a	a-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_198|t_197|ref=fr._1
+13	,	,	u	u--------	_	20	AuxX	_	t_199|t_206|ref=fr._1
+14	καὶ	καί	c	c--------	_	20	AuxY	_	t_200|t_206|ref=fr._1
+15	λίπετε	λείπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	20	PRED	_	t_201|t_206|ref=fr._1
+16	σκοτίην	σκοτίη	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_202|t_201|ref=fr._1
+17	νυκτός	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	15	OBJ	_	t_203|t_201|ref=fr._1
+18	,	,	u	u--------	_	20	AuxX	_	t_204|t_206|ref=fr._1
+19	φωτὸς	φώς	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_205|t_207|ref=fr._1
+20	δὲ	δέ	g	g--------	_	0	COORD	_	t_206|0|ref=fr._1
+21	λάβεσθε	λαμβάνω	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	20	PRED	_	t_207|t_206|ref=fr._1
+22	.	.	u	u--------	_	20	AuxK	_	t_208|t_206|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = οὑτος ἰδοὺ πάντεσσι σαφὴς ἀπλάνητος ὑπάρχει .
 # sent_id = 11
-1	οὑτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_209|ref=Fragmenta_1
-2	ἰδοὺ	ἰδού	d	d--------	_	6	ExD	_	t_210|ref=Fragmenta_1
-3	πάντεσσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_211|ref=Fragmenta_1
-4	σαφὴς	σαφής	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_212|ref=Fragmenta_1
-5	ἀπλάνητος	ἀλήμνητος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_213|ref=Fragmenta_1
-6	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_214|ref=Fragmenta_1
-7	.	.	u	u--------	_	6	AuxK	_	t_215|ref=Fragmenta_1
+1	οὑτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_209|t_214|ref=fr._1
+2	ἰδοὺ	ἰδού	d	d--------	_	6	ExD	_	t_210|t_214|ref=fr._1
+3	πάντεσσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_211|t_212|ref=fr._1
+4	σαφὴς	σαφής	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_212|t_214|ref=fr._1
+5	ἀπλάνητος	ἀλήμνητος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_213|t_214|ref=fr._1
+6	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_214|0|ref=fr._1
+7	.	.	u	u--------	_	6	AuxK	_	t_215|t_214|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = ἔλθετε , μὴ σκοτίην δὲ διώκετε καὶ γνόφον αἰεί .
 # sent_id = 12
-1	ἔλθετε	ἔρχομαι	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	5	PRED	_	t_216|ref=Fragmenta_1
-2	,	,	u	u--------	_	5	AuxX	_	t_217|ref=Fragmenta_1
-3	μὴ	μή	c	c--------	_	6	AuxZ	_	t_218|ref=Fragmenta_1
-4	σκοτίην	σκοτίη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_219|ref=Fragmenta_1
-5	δὲ	δέ	g	g--------	_	0	COORD	_	t_220|ref=Fragmenta_1
-6	διώκετε	διώκω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	5	PRED	_	t_221|ref=Fragmenta_1
-7	καὶ	καί	c	c--------	_	6	COORD	_	t_222|ref=Fragmenta_1
-8	γνόφον	γνόφος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_223|ref=Fragmenta_1
-9	αἰεί	ἀεί	d	d--------	_	6	ADV	_	t_224|ref=Fragmenta_1
-10	.	.	u	u--------	_	5	AuxK	_	t_225|ref=Fragmenta_1
+1	ἔλθετε	ἔρχομαι	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	5	PRED	_	t_216|t_220|ref=fr._1
+2	,	,	u	u--------	_	5	AuxX	_	t_217|t_220|ref=fr._1
+3	μὴ	μή	c	c--------	_	6	AuxZ	_	t_218|t_221|ref=fr._1
+4	σκοτίην	σκοτίη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_219|t_222|ref=fr._1
+5	δὲ	δέ	g	g--------	_	0	COORD	_	t_220|0|ref=fr._1
+6	διώκετε	διώκω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	5	PRED	_	t_221|t_220|ref=fr._1
+7	καὶ	καί	c	c--------	_	6	COORD	_	t_222|t_221|ref=fr._1
+8	γνόφον	γνόφος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_223|t_222|ref=fr._1
+9	αἰεί	ἀεί	d	d--------	_	6	ADV	_	t_224|t_221|ref=fr._1
+10	.	.	u	u--------	_	5	AuxK	_	t_225|t_220|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = ἠελίου γλυκυδερκὲς ἰδοὺ φάος φάος λάμπει .
 # sent_id = 13
-1	ἠελίου	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_226|ref=Fragmenta_1
-2	γλυκυδερκὲς	γλυκυδερκής	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_227|ref=Fragmenta_1
-3	ἰδοὺ	ἰδού	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_228|ref=Fragmenta_1
-4	φάος	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	6	SBJ	_	t_229|ref=Fragmenta_1
-5	φάος	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_230|ref=Fragmenta_1
-6	λάμπει	λάμπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_231|ref=Fragmenta_1
-7	.	.	u	u--------	_	6	AuxK	_	t_232|ref=Fragmenta_1
+1	ἠελίου	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_226|t_229|ref=fr._1
+2	γλυκυδερκὲς	γλυκυδερκής	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_227|t_229|ref=fr._1
+3	ἰδοὺ	ἰδού	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_228|t_229|ref=fr._1
+4	φάος	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	6	SBJ	_	t_229|t_231|ref=fr._1
+5	φάος	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_230|t_231|ref=fr._1
+6	λάμπει	λάμπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_231|0|ref=fr._1
+7	.	.	u	u--------	_	6	AuxK	_	t_232|t_231|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = γνῶτε δὲ κατθέμενοι σοφίην ἐν στήθεσιν ὑμῶν ·
 # sent_id = 14
-1	γνῶτε	γιγνώσκω	v	v2pama---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	2	PRED	_	t_233|ref=Fragmenta_1
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_234|ref=Fragmenta_1
-3	κατθέμενοι	κατατίθημι	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	1	ADV	_	t_235|ref=Fragmenta_1
-4	σοφίην	σοφία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_236|ref=Fragmenta_1
-5	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_237|ref=Fragmenta_1
-6	στήθεσιν	στῆθος	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_238|ref=Fragmenta_1
-7	ὑμῶν	σύ	p	p2p----g-	Case=g|Gender=f|Number=p	6	ATR	_	t_239|ref=Fragmenta_1
-8	·	·	u	u--------	_	2	AuxK	_	t_240|ref=Fragmenta_1
+1	γνῶτε	γιγνώσκω	v	v2pama---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	2	PRED	_	t_233|t_234|ref=fr._1
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_234|0|ref=fr._1
+3	κατθέμενοι	κατατίθημι	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	1	ADV	_	t_235|t_233|ref=fr._1
+4	σοφίην	σοφία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_236|t_235|ref=fr._1
+5	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_237|t_235|ref=fr._1
+6	στήθεσιν	στῆθος	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_238|t_237|ref=fr._1
+7	ὑμῶν	σύ	p	p2p----g-	Case=g|Gender=f|Number=p	6	ATR	_	t_239|t_238|ref=fr._1
+8	·	·	u	u--------	_	2	AuxK	_	t_240|t_234|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = εἷς θεός ἐστι βροχὰς ἀνέμους σεισμοὺς ἐπιπέμπων ἀστεροπὰς λιμοὺς λοιμοὺς καὶ κήδεα λυγρά καὶ νιφετοὺς κρύσταλλα .
 # sent_id = 15
-1	εἷς	εἷς	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_241|ref=Fragmenta_1
-2	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_242|ref=Fragmenta_1
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_243|ref=Fragmenta_1
-4	βροχὰς	βροχή	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_244|ref=Fragmenta_1
-5	ἀνέμους	ἄνεμος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_245|ref=Fragmenta_1
-6	σεισμοὺς	σεισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_246|ref=Fragmenta_1
-7	ἐπιπέμπων	ἐπιπέμπω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_247|ref=Fragmenta_1
-8	ἀστεροπὰς	ἀστεροπή	n	n-p---fa-	Case=a|Gender=f|Number=p	14	OBJ	_	t_248|ref=Fragmenta_1
-9	λιμοὺς	λιμός	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_249|ref=Fragmenta_1
-10	λοιμοὺς	λοιμός	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_250|ref=Fragmenta_1
-11	καὶ	καί	c	c--------	_	14	AuxY	_	t_251|ref=Fragmenta_1
-12	κήδεα	κῆδος	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_252|ref=Fragmenta_1
-13	λυγρά	λυγρός	a	a-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_253|ref=Fragmenta_1
-14	καὶ	καί	c	c--------	_	7	COORD	_	t_254|ref=Fragmenta_1
-15	νιφετοὺς	νιφετός	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_255|ref=Fragmenta_1
-16	κρύσταλλα	κρύσταλλος	a	a-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_256|ref=Fragmenta_1
-17	.	.	u	u--------	_	3	AuxK	_	t_257|ref=Fragmenta_1
+1	εἷς	εἷς	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_241|t_242|ref=fr._1
+2	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_242|t_243|ref=fr._1
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_243|0|ref=fr._1
+4	βροχὰς	βροχή	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_244|t_245|ref=fr._1
+5	ἀνέμους	ἄνεμος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_245|t_246|ref=fr._1
+6	σεισμοὺς	σεισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_246|t_254|ref=fr._1
+7	ἐπιπέμπων	ἐπιπέμπω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_247|t_243|ref=fr._1
+8	ἀστεροπὰς	ἀστεροπή	n	n-p---fa-	Case=a|Gender=f|Number=p	14	OBJ	_	t_248|t_254|ref=fr._1
+9	λιμοὺς	λιμός	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_249|t_254|ref=fr._1
+10	λοιμοὺς	λοιμός	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_250|t_249|ref=fr._1
+11	καὶ	καί	c	c--------	_	14	AuxY	_	t_251|t_254|ref=fr._1
+12	κήδεα	κῆδος	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_252|t_254|ref=fr._1
+13	λυγρά	λυγρός	a	a-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_253|t_252|ref=fr._1
+14	καὶ	καί	c	c--------	_	7	COORD	_	t_254|t_247|ref=fr._1
+15	νιφετοὺς	νιφετός	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_255|t_254|ref=fr._1
+16	κρύσταλλα	κρύσταλλος	a	a-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_256|t_255|ref=fr._1
+17	.	.	u	u--------	_	3	AuxK	_	t_257|t_243|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = τί δὴ καθʼ ἓν ἐξαγορεύω ;
 # sent_id = 16
-1	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_258|ref=Fragmenta_1
-2	δὴ	δή	d	d--------	_	5	AuxY	_	t_259|ref=Fragmenta_1
-3	καθʼ	κατά	r	r--------	_	5	AuxP	_	t_260|ref=Fragmenta_1
-4	ἓν	εἷς	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_261|ref=Fragmenta_1
-5	ἐξαγορεύω	ἐξαγορεύω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_262|ref=Fragmenta_1
-6	;	;	u	u--------	_	5	AuxK	_	t_263|ref=Fragmenta_1
+1	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_258|t_262|ref=fr._1
+2	δὴ	δή	d	d--------	_	5	AuxY	_	t_259|t_262|ref=fr._1
+3	καθʼ	κατά	r	r--------	_	5	AuxP	_	t_260|t_262|ref=fr._1
+4	ἓν	εἷς	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_261|t_260|ref=fr._1
+5	ἐξαγορεύω	ἐξαγορεύω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_262|0|ref=fr._1
+6	;	;	u	u--------	_	5	AuxK	_	t_263|t_262|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1
+# source = Oracula Sibyllina, fr. 1
 # text = οὐρανοῦ ἡγεῖται , γαίης κρατεῖ , αὐτὸς ὑπάρχει .
 # sent_id = 17
-1	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	2	OBJ	_	t_264|ref=Fragmenta_1
-2	ἡγεῖται	ἡγέομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_265|ref=Fragmenta_1
-3	,	,	u	u--------	_	6	AuxX	_	t_266|ref=Fragmenta_1
-4	γαίης	γαῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	OBJ	_	t_267|ref=Fragmenta_1
-5	κρατεῖ	κρατέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_268|ref=Fragmenta_1
-6	,	,	u	u--------	_	0	COORD	_	t_269|ref=Fragmenta_1
-7	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_270|ref=Fragmenta_1
-8	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_271|ref=Fragmenta_1
-9	.	.	u	u--------	_	6	AuxK	_	t_272|ref=Fragmenta_1
+1	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	2	OBJ	_	t_264|t_265|ref=fr._1
+2	ἡγεῖται	ἡγέομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_265|t_269|ref=fr._1
+3	,	,	u	u--------	_	6	AuxX	_	t_266|t_269|ref=fr._1
+4	γαίης	γαῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	OBJ	_	t_267|t_268|ref=fr._1
+5	κρατεῖ	κρατέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_268|t_269|ref=fr._1
+6	,	,	u	u--------	_	0	COORD	_	t_269|0|ref=fr._1
+7	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_270|t_271|ref=fr._1
+8	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_271|t_269|ref=fr._1
+9	.	.	u	u--------	_	6	AuxK	_	t_272|t_269|ref=fr._1
 
-# source = Oracula Sibyllina, Fragmenta 1-2
+# source = Oracula Sibyllina, fr. 1-2
 # text = εἰ δὲ θεοὶ γεννῶσι καὶ ἀθάνατοί γε μένουσιν , πλείονες ἀνθρώπων γεγενημένοι ἂν θεοὶ ἠσαν , οὐ δὲ τόπος στῆναι θνητοῖς οὐκ ἂν ποθ᾿ ὑπῆρξεν .
 # sent_id = 18
-1	εἰ	εἰ	c	c--------	_	25	AuxC	_	t_273|ref=Fragmenta_1
-2	δὲ	δέ	d	d--------	_	25	AuxY	_	t_274|ref=Fragmenta_1
-3	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_275|ref=Fragmenta_2
-4	γεννῶσι	γεννάω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	5	ADV	_	t_276|ref=Fragmenta_2
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_277|ref=Fragmenta_2
-6	ἀθάνατοί	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_278|ref=Fragmenta_2
-7	γε	γε	d	d--------	_	6	AuxZ	_	t_279|ref=Fragmenta_2
-8	μένουσιν	μένω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	5	ADV	_	t_280|ref=Fragmenta_2
-9	,	,	u	u--------	_	25	AuxX	_	t_281|ref=Fragmenta_2
-10	πλείονες	πλείων	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	12	PNOM	_	t_282|ref=Fragmenta_2
-11	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ADV	_	t_283|ref=Fragmenta_2
-12	γεγενημένοι	γίγνομαι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	15	ADV	_	t_284|ref=Fragmenta_2
-13	ἂν	ἄν	d	d--------	_	15	AuxY	_	t_285|ref=Fragmenta_2
-14	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_286|ref=Fragmenta_2
-15	ἠσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ADV	_	t_287|ref=Fragmenta_2
-16	,	,	u	u--------	_	25	AuxX	_	t_288|ref=Fragmenta_2
-17	οὐ	οὐ	d	d--------	_	25	AuxZ	_	t_289|ref=Fragmenta_2
-18	δὲ	δέ	c	c--------	_	17	AuxY	_	t_290|ref=Fragmenta_2
-19	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_291|ref=Fragmenta_2
-20	στῆναι	ἵστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	19	ATR	_	t_292|ref=Fragmenta_2
-21	θνητοῖς	θνητός	a	a-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_293|ref=Fragmenta_2
-22	οὐκ	οὐ	d	d--------	_	25	AuxZ	_	t_294|ref=Fragmenta_2
-23	ἂν	ἄν	d	d--------	_	25	AuxY	_	t_295|ref=Fragmenta_2
-24	ποθ᾿	ποτέ	d	d--------	_	20	ADV	_	t_296|ref=Fragmenta_2
-25	ὑπῆρξεν	ὑπάρχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_297|ref=Fragmenta_2
-26	.	.	u	u--------	_	25	AuxK	_	t_298|ref=Fragmenta_2
+1	εἰ	εἰ	c	c--------	_	25	AuxC	_	t_273|t_297|ref=fr._1
+2	δὲ	δέ	d	d--------	_	25	AuxY	_	t_274|t_297|ref=fr._1
+3	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_275|t_276|ref=fr._2
+4	γεννῶσι	γεννάω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	5	ADV	_	t_276|t_277|ref=fr._2
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_277|t_273|ref=fr._2
+6	ἀθάνατοί	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_278|t_280|ref=fr._2
+7	γε	γε	d	d--------	_	6	AuxZ	_	t_279|t_278|ref=fr._2
+8	μένουσιν	μένω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	5	ADV	_	t_280|t_277|ref=fr._2
+9	,	,	u	u--------	_	25	AuxX	_	t_281|t_297|ref=fr._2
+10	πλείονες	πλείων	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	12	PNOM	_	t_282|t_284|ref=fr._2
+11	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ADV	_	t_283|t_282|ref=fr._2
+12	γεγενημένοι	γίγνομαι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	15	ADV	_	t_284|t_287|ref=fr._2
+13	ἂν	ἄν	d	d--------	_	15	AuxY	_	t_285|t_287|ref=fr._2
+14	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_286|t_287|ref=fr._2
+15	ἠσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ADV	_	t_287|t_273|ref=fr._2
+16	,	,	u	u--------	_	25	AuxX	_	t_288|t_297|ref=fr._2
+17	οὐ	οὐ	d	d--------	_	25	AuxZ	_	t_289|t_297|ref=fr._2
+18	δὲ	δέ	c	c--------	_	17	AuxY	_	t_290|t_289|ref=fr._2
+19	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_291|t_297|ref=fr._2
+20	στῆναι	ἵστημι	v	v--ana---	Mood=n|Tense=a|Voice=a	19	ATR	_	t_292|t_291|ref=fr._2
+21	θνητοῖς	θνητός	a	a-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_293|t_292|ref=fr._2
+22	οὐκ	οὐ	d	d--------	_	25	AuxZ	_	t_294|t_297|ref=fr._2
+23	ἂν	ἄν	d	d--------	_	25	AuxY	_	t_295|t_297|ref=fr._2
+24	ποθ᾿	ποτέ	d	d--------	_	20	ADV	_	t_296|t_292|ref=fr._2
+25	ὑπῆρξεν	ὑπάρχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_297|0|ref=fr._2
+26	.	.	u	u--------	_	25	AuxK	_	t_298|t_297|ref=fr._2
 
-# source = Oracula Sibyllina, Fragmenta 2-3
+# source = Oracula Sibyllina, fr. 2-3
 # text = εἰ δὲ γενητὸν ὅλως καὶ φθείρεται , οὐ δύνατ᾿ ἀνδρός ἐκ μηρῶν μήτρας τε θεὸς τετυπωμένος εἶναι [0] ·
 # sent_id = 19
-1	εἰ	εἰ	c	c--------	_	9	AuxC	_	t_299|ref=Fragmenta_2
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_300|ref=Fragmenta_2
-3	γενητὸν	γενητός	a	a-s---ma-	Case=a|Gender=m|Number=s	6	SBJ	_	t_301|ref=Fragmenta_3
-4	ὅλως	ὅλος	d	d--------	_	6	ADV	_	t_302|ref=Fragmenta_3
-5	καὶ	καί	c	c--------	_	6	AuxZ	_	t_303|ref=Fragmenta_3
-6	φθείρεται	φθείρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_304|ref=Fragmenta_3
-7	,	,	u	u--------	_	1	AuxX	_	t_305|ref=Fragmenta_3
-8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_306|ref=Fragmenta_3
-9	δύνατ᾿	δύναμαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	2	PRED	_	t_307|ref=Fragmenta_3
-10	ἀνδρός	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_308|ref=Fragmenta_3
-11	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_309|ref=Fragmenta_3
-12	μηρῶν	μηρός	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_310|ref=Fragmenta_3
-13	μήτρας	μήτρα	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_311|ref=Fragmenta_3
-14	τε	τε	g	g--------	_	11	COORD	_	t_312|ref=Fragmenta_3
-15	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_313|ref=Fragmenta_3
-16	τετυπωμένος	μορφόω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	17	PNOM	_	t_314|ref=Fragmenta_3
-17	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_315|ref=Fragmenta_3
-18	[0]	[0]	-	---------	_	9	APOS	_	e_3|ref=Fragmenta_1
-19	·	·	u	u--------	_	2	AuxK	_	t_316|ref=Fragmenta_3
+1	εἰ	εἰ	c	c--------	_	9	AuxC	_	t_299|t_307|ref=fr._2
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_300|0|ref=fr._2
+3	γενητὸν	γενητός	a	a-s---ma-	Case=a|Gender=m|Number=s	6	SBJ	_	t_301|t_304|ref=fr._3
+4	ὅλως	ὅλος	d	d--------	_	6	ADV	_	t_302|t_304|ref=fr._3
+5	καὶ	καί	c	c--------	_	6	AuxZ	_	t_303|t_304|ref=fr._3
+6	φθείρεται	φθείρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_304|t_299|ref=fr._3
+7	,	,	u	u--------	_	1	AuxX	_	t_305|t_299|ref=fr._3
+8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_306|t_307|ref=fr._3
+9	δύνατ᾿	δύναμαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	2	PRED	_	t_307|t_300|ref=fr._3
+10	ἀνδρός	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_308|t_312|ref=fr._3
+11	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_309|t_314|ref=fr._3
+12	μηρῶν	μηρός	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_310|t_312|ref=fr._3
+13	μήτρας	μήτρα	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_311|t_312|ref=fr._3
+14	τε	τε	g	g--------	_	11	COORD	_	t_312|t_309|ref=fr._3
+15	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_313|t_315|ref=fr._3
+16	τετυπωμένος	μορφόω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	17	PNOM	_	t_314|t_315|ref=fr._3
+17	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_315|t_307|ref=fr._3
+18	[0]	[0]	-	---------	_	9	APOS	_	e_3|t_307|ref=fr._1
+19	·	·	u	u--------	_	2	AuxK	_	t_316|t_300|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ἀλλὰ θεὸς μόνος εἱς πανυπέρτατος , ὃς πεποίηκεν οὐρανὸν ἠέλιόν τε καὶ ἀστέρας ἠδὲ σελήνην καρποφόρον γαῖάν τε καὶ ὕδατος οἴδματα πόντου ουρεἀ θ᾿ ὑψήεντα ἀένναα χεύματα πηγῶν [0] .
 # sent_id = 20
-1	ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_317|ref=Fragmenta_3
-2	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_318|ref=Fragmenta_3
-3	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	AtvV	_	t_319|ref=Fragmenta_3
-4	εἱς	εἷς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_320|ref=Fragmenta_3
-5	πανυπέρτατος	πανυπέρτατος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_321|ref=Fragmenta_3
-6	,	,	u	u--------	_	8	AuxX	_	t_322|ref=Fragmenta_3
-7	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_323|ref=Fragmenta_3
-8	πεποίηκεν	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	2	ATR	_	t_324|ref=Fragmenta_3
-9	οὐρανὸν	οὐρανός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_325|ref=Fragmenta_3
-10	ἠέλιόν	ἠέλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_326|ref=Fragmenta_3
-11	τε	τε	g	g--------	_	19	AuxY	_	t_327|ref=Fragmenta_3
-12	καὶ	καί	c	c--------	_	19	AuxY	_	t_328|ref=Fragmenta_3
-13	ἀστέρας	ἀστήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	12	OBJ	_	t_329|ref=Fragmenta_3
-14	ἠδὲ	ἠδέ	c	c--------	_	19	AuxY	_	t_330|ref=Fragmenta_3
-15	σελήνην	σελήνη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_331|ref=Fragmenta_3
-16	καρποφόρον	καρποφόρος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_332|ref=Fragmenta_3
-17	γαῖάν	γαῖα	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_333|ref=Fragmenta_3
-18	τε	τε	g	g--------	_	19	AuxY	_	t_334|ref=Fragmenta_3
-19	καὶ	καί	c	c--------	_	8	COORD	_	t_335|ref=Fragmenta_3
-20	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	21	ATR	_	t_336|ref=Fragmenta_3
-21	οἴδματα	οἶδμα	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_337|ref=Fragmenta_3
-22	πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_338|ref=Fragmenta_3
-23	ουρεἀ	ουρεά	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	ATR	_	t_339|ref=Fragmenta_3
-24	θ᾿	τε	c	c--------	_	23	ADV	_	t_340|ref=Fragmenta_3
-25	ὑψήεντα	ὑψήεις	a	a-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_341|ref=Fragmenta_3
-26	ἀένναα	ἀένναος	a	a-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_342|ref=Fragmenta_3
-27	χεύματα	χεῦμα	n	n-p---na-	Case=a|Gender=n|Number=p	24	ADV	_	t_343|ref=Fragmenta_3
-28	πηγῶν	πηγή	n	n-p---ng-	Case=g|Gender=f|Number=p	27	ATR	_	t_344|ref=Fragmenta_3
-29	[0]	[0]	-	---------	_	1	PRED	_	e_4|ref=Fragmenta_1
-30	.	.	u	u--------	_	1	AuxK	_	t_345|ref=Fragmenta_3
+1	ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_317|0|ref=fr._3
+2	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_318|e_4|ref=fr._3
+3	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	AtvV	_	t_319|t_320|ref=fr._3
+4	εἱς	εἷς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_320|t_318|ref=fr._3
+5	πανυπέρτατος	πανυπέρτατος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_321|t_318|ref=fr._3
+6	,	,	u	u--------	_	8	AuxX	_	t_322|t_324|ref=fr._3
+7	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_323|t_324|ref=fr._3
+8	πεποίηκεν	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	2	ATR	_	t_324|t_318|ref=fr._3
+9	οὐρανὸν	οὐρανός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_325|t_328|ref=fr._3
+10	ἠέλιόν	ἠέλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_326|t_328|ref=fr._3
+11	τε	τε	g	g--------	_	19	AuxY	_	t_327|t_335|ref=fr._3
+12	καὶ	καί	c	c--------	_	19	AuxY	_	t_328|t_335|ref=fr._3
+13	ἀστέρας	ἀστήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	12	OBJ	_	t_329|t_328|ref=fr._3
+14	ἠδὲ	ἠδέ	c	c--------	_	19	AuxY	_	t_330|t_335|ref=fr._3
+15	σελήνην	σελήνη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_331|t_335|ref=fr._3
+16	καρποφόρον	καρποφόρος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_332|t_331|ref=fr._3
+17	γαῖάν	γαῖα	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_333|t_335|ref=fr._3
+18	τε	τε	g	g--------	_	19	AuxY	_	t_334|t_335|ref=fr._3
+19	καὶ	καί	c	c--------	_	8	COORD	_	t_335|t_324|ref=fr._3
+20	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	21	ATR	_	t_336|t_337|ref=fr._3
+21	οἴδματα	οἶδμα	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_337|t_339|ref=fr._3
+22	πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_338|t_337|ref=fr._3
+23	ουρεἀ	ουρεά	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	ATR	_	t_339|t_335|ref=fr._3
+24	θ᾿	τε	c	c--------	_	23	ADV	_	t_340|t_339|ref=fr._3
+25	ὑψήεντα	ὑψήεις	a	a-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_341|t_343|ref=fr._3
+26	ἀένναα	ἀένναος	a	a-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_342|t_343|ref=fr._3
+27	χεύματα	χεῦμα	n	n-p---na-	Case=a|Gender=n|Number=p	24	ADV	_	t_343|t_340|ref=fr._3
+28	πηγῶν	πηγή	n	n-p---ng-	Case=g|Gender=f|Number=p	27	ATR	_	t_344|t_343|ref=fr._3
+29	[0]	[0]	-	---------	_	1	PRED	_	e_4|t_317|ref=fr._1
+30	.	.	u	u--------	_	1	AuxK	_	t_345|t_317|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = τῶν τ᾿ ἐνύδρων πάλι γεννᾷ ἀνήριθμον πολὺ πλῆθος , ἑρπετὰ δ᾿ ἐν γαίῃ κινούμενα ψυχοτροφεῖται , ποικίλα τε πτηνῶν λιγυροθρόα τραυλίζοντα ξουθὰ λιγυπτερόφωνα ταράσσοντ᾿ ἀέρα ταρσοῖς , έν δὲ νάπαις ὀρέων ἀγρίαν γένναν θέτο θηρῶν ἡμῖν τε κτήνη ὑπέταξεν πάντα βροτοῖσιν .
 # sent_id = 21
-1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_346|ref=Fragmenta_3
-2	τ᾿	τε	g	g--------	_	3	ATR	_	t_347|ref=Fragmenta_3
-3	ἐνύδρων	ἔνυδρος	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_348|ref=Fragmenta_3
-4	πάλι	πάλι	d	d--------	_	5	ADV	_	t_349|ref=Fragmenta_3
-5	γεννᾷ	γεννάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	37	PRED	_	t_350|ref=Fragmenta_3
-6	ἀνήριθμον	ἀνήριθμος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_351|ref=Fragmenta_3
-7	πολὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_352|ref=Fragmenta_3
-8	πλῆθος	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_353|ref=Fragmenta_3
-9	,	,	u	u--------	_	37	AuxX	_	t_354|ref=Fragmenta_3
-10	ἑρπετὰ	ἑρπετόν	n	n-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_355|ref=Fragmenta_3
-11	δ᾿	δέ	g	g--------	_	37	AuxY	_	t_356|ref=Fragmenta_3
-12	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_357|ref=Fragmenta_3
-13	γαίῃ	γαῖα	n	n-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_358|ref=Fragmenta_3
-14	κινούμενα	κινέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	15	ADV	_	t_359|ref=Fragmenta_3
-15	ψυχοτροφεῖται	ψυχοτροφέω	n	n-p---fn-	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	PRED	_	t_360|ref=Fragmenta_3
-16	,	,	u	u--------	_	24	AuxX	_	t_361|ref=Fragmenta_3
-17	ποικίλα	ποικίλος	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_362|ref=Fragmenta_3
-18	τε	τε	g	g--------	_	37	AuxY	_	t_363|ref=Fragmenta_3
-19	πτηνῶν	πτηνός	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_364|ref=Fragmenta_3
-20	λιγυροθρόα	λιγυροθρόος	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_365|ref=Fragmenta_3
-21	τραυλίζοντα	τραυλίζω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	24	ADV	_	t_366|ref=Fragmenta_3
-22	ξουθὰ	ξουθά	d	d--------	Case=a|Gender=n|Number=p	24	ADV	_	t_367|ref=Fragmenta_3
-23	λιγυπτερόφωνα	λιγύφωνος	a	a-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_368|ref=Fragmenta_3
-24	ταράσσοντ᾿	ταράσσω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	37	PRED	_	t_369|ref=Fragmenta_3
-25	ἀέρα	ἀήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_370|ref=Fragmenta_3
-26	ταρσοῖς	ταρσός	n	n-p---md-	Case=d|Gender=n|Number=p	24	ADV	_	t_371|ref=Fragmenta_3
-27	,	,	u	u--------	_	37	AuxX	_	t_372|ref=Fragmenta_3
-28	έν	ἐν	r	r--------	_	34	AuxP	_	t_373|ref=Fragmenta_3
-29	δὲ	δέ	g	g--------	_	37	AuxY	_	t_374|ref=Fragmenta_3
-30	νάπαις	νάπη	n	n-p---fd-	Case=d|Gender=f|Number=p	28	ADV	_	t_375|ref=Fragmenta_3
-31	ὀρέων	ὄρος	n	n-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_376|ref=Fragmenta_3
-32	ἀγρίαν	ἄγριος	a	a-s---fa-	Case=a|Gender=f|Number=s	33	ATR	_	t_377|ref=Fragmenta_3
-33	γένναν	γέννα	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_378|ref=Fragmenta_3
-34	θέτο	τίθημι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	37	PRED	_	t_379|ref=Fragmenta_3
-35	θηρῶν	θήρ	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	33	ATR	_	t_380|ref=Fragmenta_3
-36	ἡμῖν	ἐγώ	p	p-p---md-	Case=d|Gender=m|Number=p	39	OBJ	_	t_381|ref=Fragmenta_3
-37	τε	τε	g	g--------	_	0	COORD	_	t_382|ref=Fragmenta_3
-38	κτήνη	κτῆνος	n	n-s---fn-	Case=n|Gender=n|Number=p	39	SBJ	_	t_383|ref=Fragmenta_3
-39	ὑπέταξεν	ὑποτάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	37	PRED	_	t_384|ref=Fragmenta_3
-40	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	38	ATR	_	t_385|ref=Fragmenta_3
-41	βροτοῖσιν	βροτός	n	n-p---md-	Case=d|Gender=m|Number=p	39	OBJ	_	t_386|ref=Fragmenta_3
-42	.	.	u	u--------	_	37	AuxK	_	t_387|ref=Fragmenta_3
+1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_346|t_348|ref=fr._3
+2	τ᾿	τε	g	g--------	_	3	ATR	_	t_347|t_348|ref=fr._3
+3	ἐνύδρων	ἔνυδρος	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_348|t_353|ref=fr._3
+4	πάλι	πάλι	d	d--------	_	5	ADV	_	t_349|t_350|ref=fr._3
+5	γεννᾷ	γεννάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	37	PRED	_	t_350|t_382|ref=fr._3
+6	ἀνήριθμον	ἀνήριθμος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_351|t_353|ref=fr._3
+7	πολὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_352|t_353|ref=fr._3
+8	πλῆθος	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_353|t_350|ref=fr._3
+9	,	,	u	u--------	_	37	AuxX	_	t_354|t_382|ref=fr._3
+10	ἑρπετὰ	ἑρπετόν	n	n-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_355|t_360|ref=fr._3
+11	δ᾿	δέ	g	g--------	_	37	AuxY	_	t_356|t_382|ref=fr._3
+12	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_357|t_359|ref=fr._3
+13	γαίῃ	γαῖα	n	n-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_358|t_357|ref=fr._3
+14	κινούμενα	κινέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	15	ADV	_	t_359|t_360|ref=fr._3
+15	ψυχοτροφεῖται	ψυχοτροφέω	n	n-p---fn-	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	PRED	_	t_360|t_382|ref=fr._3
+16	,	,	u	u--------	_	24	AuxX	_	t_361|t_369|ref=fr._3
+17	ποικίλα	ποικίλος	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_362|t_366|ref=fr._3
+18	τε	τε	g	g--------	_	37	AuxY	_	t_363|t_382|ref=fr._3
+19	πτηνῶν	πτηνός	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_364|t_365|ref=fr._3
+20	λιγυροθρόα	λιγυροθρόος	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_365|t_366|ref=fr._3
+21	τραυλίζοντα	τραυλίζω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	24	ADV	_	t_366|t_369|ref=fr._3
+22	ξουθὰ	ξουθά	d	d--------	Case=a|Gender=n|Number=p	24	ADV	_	t_367|t_369|ref=fr._3
+23	λιγυπτερόφωνα	λιγύφωνος	a	a-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_368|t_367|ref=fr._3
+24	ταράσσοντ᾿	ταράσσω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	37	PRED	_	t_369|t_382|ref=fr._3
+25	ἀέρα	ἀήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_370|t_369|ref=fr._3
+26	ταρσοῖς	ταρσός	n	n-p---md-	Case=d|Gender=n|Number=p	24	ADV	_	t_371|t_369|ref=fr._3
+27	,	,	u	u--------	_	37	AuxX	_	t_372|t_382|ref=fr._3
+28	έν	ἐν	r	r--------	_	34	AuxP	_	t_373|t_379|ref=fr._3
+29	δὲ	δέ	g	g--------	_	37	AuxY	_	t_374|t_382|ref=fr._3
+30	νάπαις	νάπη	n	n-p---fd-	Case=d|Gender=f|Number=p	28	ADV	_	t_375|t_373|ref=fr._3
+31	ὀρέων	ὄρος	n	n-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_376|t_375|ref=fr._3
+32	ἀγρίαν	ἄγριος	a	a-s---fa-	Case=a|Gender=f|Number=s	33	ATR	_	t_377|t_378|ref=fr._3
+33	γένναν	γέννα	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_378|t_379|ref=fr._3
+34	θέτο	τίθημι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	37	PRED	_	t_379|t_382|ref=fr._3
+35	θηρῶν	θήρ	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	33	ATR	_	t_380|t_378|ref=fr._3
+36	ἡμῖν	ἐγώ	p	p-p---md-	Case=d|Gender=m|Number=p	39	OBJ	_	t_381|t_384|ref=fr._3
+37	τε	τε	g	g--------	_	0	COORD	_	t_382|0|ref=fr._3
+38	κτήνη	κτῆνος	n	n-s---fn-	Case=n|Gender=n|Number=p	39	SBJ	_	t_383|t_384|ref=fr._3
+39	ὑπέταξεν	ὑποτάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	37	PRED	_	t_384|t_382|ref=fr._3
+40	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	38	ATR	_	t_385|t_383|ref=fr._3
+41	βροτοῖσιν	βροτός	n	n-p---md-	Case=d|Gender=m|Number=p	39	OBJ	_	t_386|t_384|ref=fr._3
+42	.	.	u	u--------	_	37	AuxK	_	t_387|t_382|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = πάντων δ᾿ ἡγητῆρα κατέστησεν θεότευκτον , ἀνδρὶ δ᾿ ὑπέταξεν παμποίκιλα κοὐ κατάληπτα .
 # sent_id = 22
-1	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_388|ref=Fragmenta_3
-2	δ᾿	δέ	g	g--------	_	8	AuxY	_	t_389|ref=Fragmenta_3
-3	ἡγητῆρα	ἡγητήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OCOMP	_	t_390|ref=Fragmenta_3
-4	κατέστησεν	καθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_391|ref=Fragmenta_3
-5	θεότευκτον	θεότευκτος	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_392|ref=Fragmenta_3
-6	,	,	u	u--------	_	8	AuxX	_	t_393|ref=Fragmenta_3
-7	ἀνδρὶ	ἀνήρ	n	n-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_394|ref=Fragmenta_3
-8	δ᾿	δέ	c	c--------	_	0	COORD	_	t_395|ref=Fragmenta_3
-9	ὑπέταξεν	ὑποτάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_396|ref=Fragmenta_3
-10	παμποίκιλα	παμποίκιλος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATV	_	t_397|ref=Fragmenta_3
-11	κοὐ	οὐ	d	d--------	_	9	COORD	_	t_398|ref=Fragmenta_3
-12	κατάληπτα	κατάληπτος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATV	_	t_399|ref=Fragmenta_3
-13	.	.	u	u--------	_	8	AuxK	_	t_400|ref=Fragmenta_3
+1	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_388|t_390|ref=fr._3
+2	δ᾿	δέ	g	g--------	_	8	AuxY	_	t_389|t_395|ref=fr._3
+3	ἡγητῆρα	ἡγητήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OCOMP	_	t_390|t_391|ref=fr._3
+4	κατέστησεν	καθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_391|t_395|ref=fr._3
+5	θεότευκτον	θεότευκτος	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_392|t_390|ref=fr._3
+6	,	,	u	u--------	_	8	AuxX	_	t_393|t_395|ref=fr._3
+7	ἀνδρὶ	ἀνήρ	n	n-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_394|t_396|ref=fr._3
+8	δ᾿	δέ	c	c--------	_	0	COORD	_	t_395|0|ref=fr._3
+9	ὑπέταξεν	ὑποτάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_396|t_395|ref=fr._3
+10	παμποίκιλα	παμποίκιλος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATV	_	t_397|t_398|ref=fr._3
+11	κοὐ	οὐ	d	d--------	_	9	COORD	_	t_398|t_396|ref=fr._3
+12	κατάληπτα	κατάληπτος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATV	_	t_399|t_398|ref=fr._3
+13	.	.	u	u--------	_	8	AuxK	_	t_400|t_395|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = τίς γὰρ σὰρξ δύναται θνητῶν γνῶναι τάδ᾿ ἅπαντα ;
 # sent_id = 23
-1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_401|ref=Fragmenta_3
-2	γὰρ	γάρ	g	g--------	_	4	AuxY	_	t_402|ref=Fragmenta_3
-3	σὰρξ	σάρξ	d	d--------	_	4	AuxY	_	t_403|ref=Fragmenta_3
-4	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_404|ref=Fragmenta_3
-5	θνητῶν	θνητός	a	a-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_405|ref=Fragmenta_3
-6	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_406|ref=Fragmenta_3
-7	τάδ᾿	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_407|ref=Fragmenta_3
-8	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_408|ref=Fragmenta_3
-9	;	;	u	u--------	_	4	AuxK	_	t_409|ref=Fragmenta_3
+1	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_401|t_404|ref=fr._3
+2	γὰρ	γάρ	g	g--------	_	4	AuxY	_	t_402|t_404|ref=fr._3
+3	σὰρξ	σάρξ	d	d--------	_	4	AuxY	_	t_403|t_404|ref=fr._3
+4	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_404|0|ref=fr._3
+5	θνητῶν	θνητός	a	a-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_405|t_401|ref=fr._3
+6	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_406|t_404|ref=fr._3
+7	τάδ᾿	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_407|t_406|ref=fr._3
+8	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_408|t_407|ref=fr._3
+9	;	;	u	u--------	_	4	AuxK	_	t_409|t_404|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ἀλλ᾿ αὐτὸς μόνος οἶδεν ὁ ποιήσας τάδ᾿ ἀπ᾿ ἀρχῆς , ἄφθαρτος κτίστης αἰώνιος αἰθέρα ναίων , τοῖς ἀγαθοῖς ἀγαθὸν προφέρων πολὺ πλείονα μισθόν , τοῖς δὲ κακοῖς ἀδίκοις τε χόλον καὶ θυμὸν ἐγείρων καὶ πόλεμον καὶ λοιμὸν ἰδ ἄλγεα δακρυόεντα .
 # sent_id = 24
-1	ἀλλ᾿	ἀλλά	c	c--------	_	4	AuxY	_	t_410|ref=Fragmenta_3
-2	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_411|ref=Fragmenta_3
-3	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATV	_	t_412|ref=Fragmenta_3
-4	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_413|ref=Fragmenta_3
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_414|ref=Fragmenta_3
-6	ποιήσας	ποιέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	SBJ	_	t_415|ref=Fragmenta_3
-7	τάδ᾿	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_416|ref=Fragmenta_3
-8	ἀπ᾿	ἀπό	r	r--------	_	6	AuxP	_	t_417|ref=Fragmenta_3
-9	ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_418|ref=Fragmenta_3
-10	,	,	u	u--------	_	26	AuxX	_	t_419|ref=Fragmenta_3
-11	ἄφθαρτος	ἄφθαρτος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_420|ref=Fragmenta_3
-12	κτίστης	κτίστης	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_421|ref=Fragmenta_3
-13	αἰώνιος	αἰώνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_422|ref=Fragmenta_3
-14	αἰθέρα	αἰθήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_423|ref=Fragmenta_3
-15	ναίων	ναίω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_424|ref=Fragmenta_3
-16	,	,	u	u--------	_	26	AuxX	_	t_425|ref=Fragmenta_3
-17	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_426|ref=Fragmenta_3
-18	ἀγαθοῖς	ἀγαθός	a	a-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_427|ref=Fragmenta_3
-19	ἀγαθὸν	ἀγαθός	a	a-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_428|ref=Fragmenta_3
-20	προφέρων	προφέρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_429|ref=Fragmenta_3
-21	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	22	AuxZ	_	t_430|ref=Fragmenta_3
-22	πλείονα	πλείων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	23	ATR	_	t_431|ref=Fragmenta_3
-23	μισθόν	μισθός	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_432|ref=Fragmenta_3
-24	,	,	u	u--------	_	26	AuxX	_	t_433|ref=Fragmenta_3
-25	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	27	ATR	_	t_434|ref=Fragmenta_3
-26	δὲ	δέ	g	g--------	_	4	COORD	_	t_435|ref=Fragmenta_3
-27	κακοῖς	κακός	a	a-p---md-	Case=d|Gender=m|Number=p	33	OBJ	_	t_436|ref=Fragmenta_3
-28	ἀδίκοις	ἄδικος	a	a-p---md-	Case=d|Gender=m|Number=p	33	OBJ	_	t_437|ref=Fragmenta_3
-29	τε	τε	g	g--------	_	33	COORD	_	t_438|ref=Fragmenta_3
-30	χόλον	χόλος	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_439|ref=Fragmenta_3
-31	καὶ	καί	c	c--------	_	38	AuxY	_	t_440|ref=Fragmenta_3
-32	θυμὸν	θυμός	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_441|ref=Fragmenta_3
-33	ἐγείρων	ἐγείρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_442|ref=Fragmenta_3
-34	καὶ	καί	c	c--------	_	38	AuxY	_	t_443|ref=Fragmenta_3
-35	πόλεμον	πόλεμος	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_444|ref=Fragmenta_3
-36	καὶ	καί	c	c--------	_	38	AuxY	_	t_445|ref=Fragmenta_3
-37	λοιμὸν	λοιμός	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_446|ref=Fragmenta_3
-38	ἰδ	ἰδ	c	c--------	_	33	COORD	_	t_447|ref=Fragmenta_3
-39	ἄλγεα	ἄλγος	n	n-p---na-	Case=a|Gender=n|Number=p	38	OBJ	_	t_448|ref=Fragmenta_3
-40	δακρυόεντα	δακρυόεις	a	a-p---na-	Case=a|Gender=n|Number=p	39	ATR	_	t_449|ref=Fragmenta_3
-41	.	.	u	u--------	_	4	AuxK	_	t_450|ref=Fragmenta_3
+1	ἀλλ᾿	ἀλλά	c	c--------	_	4	AuxY	_	t_410|t_413|ref=fr._3
+2	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_411|t_413|ref=fr._3
+3	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATV	_	t_412|t_411|ref=fr._3
+4	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_413|0|ref=fr._3
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_414|t_415|ref=fr._3
+6	ποιήσας	ποιέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	SBJ	_	t_415|t_419|ref=fr._3
+7	τάδ᾿	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_416|t_415|ref=fr._3
+8	ἀπ᾿	ἀπό	r	r--------	_	6	AuxP	_	t_417|t_415|ref=fr._3
+9	ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_418|t_417|ref=fr._3
+10	,	,	u	u--------	_	26	AuxX	_	t_419|t_435|ref=fr._3
+11	ἄφθαρτος	ἄφθαρτος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_420|t_421|ref=fr._3
+12	κτίστης	κτίστης	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_421|t_419|ref=fr._3
+13	αἰώνιος	αἰώνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_422|t_421|ref=fr._3
+14	αἰθέρα	αἰθήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_423|t_424|ref=fr._3
+15	ναίων	ναίω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_424|t_435|ref=fr._3
+16	,	,	u	u--------	_	26	AuxX	_	t_425|t_435|ref=fr._3
+17	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_426|t_427|ref=fr._3
+18	ἀγαθοῖς	ἀγαθός	a	a-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_427|t_429|ref=fr._3
+19	ἀγαθὸν	ἀγαθός	a	a-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_428|t_432|ref=fr._3
+20	προφέρων	προφέρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_429|t_435|ref=fr._3
+21	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	22	AuxZ	_	t_430|t_431|ref=fr._3
+22	πλείονα	πλείων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	23	ATR	_	t_431|t_432|ref=fr._3
+23	μισθόν	μισθός	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_432|t_429|ref=fr._3
+24	,	,	u	u--------	_	26	AuxX	_	t_433|t_435|ref=fr._3
+25	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	27	ATR	_	t_434|t_436|ref=fr._3
+26	δὲ	δέ	g	g--------	_	4	COORD	_	t_435|t_413|ref=fr._3
+27	κακοῖς	κακός	a	a-p---md-	Case=d|Gender=m|Number=p	33	OBJ	_	t_436|t_442|ref=fr._3
+28	ἀδίκοις	ἄδικος	a	a-p---md-	Case=d|Gender=m|Number=p	33	OBJ	_	t_437|t_442|ref=fr._3
+29	τε	τε	g	g--------	_	33	COORD	_	t_438|t_442|ref=fr._3
+30	χόλον	χόλος	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_439|t_447|ref=fr._3
+31	καὶ	καί	c	c--------	_	38	AuxY	_	t_440|t_447|ref=fr._3
+32	θυμὸν	θυμός	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_441|t_447|ref=fr._3
+33	ἐγείρων	ἐγείρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	26	ADV	_	t_442|t_435|ref=fr._3
+34	καὶ	καί	c	c--------	_	38	AuxY	_	t_443|t_447|ref=fr._3
+35	πόλεμον	πόλεμος	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_444|t_447|ref=fr._3
+36	καὶ	καί	c	c--------	_	38	AuxY	_	t_445|t_447|ref=fr._3
+37	λοιμὸν	λοιμός	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_446|t_447|ref=fr._3
+38	ἰδ	ἰδ	c	c--------	_	33	COORD	_	t_447|t_442|ref=fr._3
+39	ἄλγεα	ἄλγος	n	n-p---na-	Case=a|Gender=n|Number=p	38	OBJ	_	t_448|t_447|ref=fr._3
+40	δακρυόεντα	δακρυόεις	a	a-p---na-	Case=a|Gender=n|Number=p	39	ATR	_	t_449|t_448|ref=fr._3
+41	.	.	u	u--------	_	4	AuxK	_	t_450|t_413|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ἄνθρωποι , τί μάτην ὑψούμενοι ἐκριζοῦσθε ;
 # sent_id = 25
-1	ἄνθρωποι	ἄνθρωπος	n	n-p---mv-	Case=v|Gender=m|Number=p	6	ExD	_	t_451|ref=Fragmenta_3
-2	,	,	u	u--------	_	6	AuxX	_	t_452|ref=Fragmenta_3
-3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_453|ref=Fragmenta_3
-4	μάτην	μάτην	d	d--------	_	6	ADV	_	t_454|ref=Fragmenta_3
-5	ὑψούμενοι	ὑψόω	v	v-pfpmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=f|Voice=m	6	ADV	_	t_455|ref=Fragmenta_3
-6	ἐκριζοῦσθε	ἐκριζόω	v	v2piie---	Mood=i|Number=p|Person=2|Tense=i|Voice=e	0	PRED	_	t_456|ref=Fragmenta_3
-7	;	;	u	u--------	_	6	AuxK	_	t_457|ref=Fragmenta_3
+1	ἄνθρωποι	ἄνθρωπος	n	n-p---mv-	Case=v|Gender=m|Number=p	6	ExD	_	t_451|t_456|ref=fr._3
+2	,	,	u	u--------	_	6	AuxX	_	t_452|t_456|ref=fr._3
+3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_453|t_456|ref=fr._3
+4	μάτην	μάτην	d	d--------	_	6	ADV	_	t_454|t_456|ref=fr._3
+5	ὑψούμενοι	ὑψόω	v	v-pfpmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=f|Voice=m	6	ADV	_	t_455|t_456|ref=fr._3
+6	ἐκριζοῦσθε	ἐκριζόω	v	v2piie---	Mood=i|Number=p|Person=2|Tense=i|Voice=e	0	PRED	_	t_456|0|ref=fr._3
+7	;	;	u	u--------	_	6	AuxK	_	t_457|t_456|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = αἰσχύνθητε γαλᾶς καὶ κνώδαλα θειοποιοῦντες .
 # sent_id = 26
-1	αἰσχύνθητε	αἰσχύνω	v	v2pamp---	Mood=m|Number=p|Person=2|Tense=a|Voice=p	0	PRED	_	t_458|ref=Fragmenta_3
-2	γαλᾶς	γαλέη	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_459|ref=Fragmenta_3
-3	καὶ	καί	c	c--------	_	1	COORD	_	t_460|ref=Fragmenta_3
-4	κνώδαλα	κνώδαλον	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_461|ref=Fragmenta_3
-5	θειοποιοῦντες	θειοποιέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ADV	_	t_462|ref=Fragmenta_3
-6	.	.	u	u--------	_	1	AuxK	_	t_463|ref=Fragmenta_3
+1	αἰσχύνθητε	αἰσχύνω	v	v2pamp---	Mood=m|Number=p|Person=2|Tense=a|Voice=p	0	PRED	_	t_458|0|ref=fr._3
+2	γαλᾶς	γαλέη	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_459|t_460|ref=fr._3
+3	καὶ	καί	c	c--------	_	1	COORD	_	t_460|t_458|ref=fr._3
+4	κνώδαλα	κνώδαλον	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_461|t_460|ref=fr._3
+5	θειοποιοῦντες	θειοποιέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ADV	_	t_462|t_458|ref=fr._3
+6	.	.	u	u--------	_	1	AuxK	_	t_463|t_458|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = οὐ μανίη καὶ λύσσα φρενῶν αἴσθησιν ἀφαιρεῖ , εἰ λοπάδας κλέπτουσι θεοί , συλοῦσι δὲ χύτρας ·
 # sent_id = 27
-1	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_464|ref=Fragmenta_3
-2	μανίη	μανία	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_465|ref=Fragmenta_3
-3	καὶ	καί	c	c--------	_	7	COORD	_	t_466|ref=Fragmenta_3
-4	λύσσα	λύσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_467|ref=Fragmenta_3
-5	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_468|ref=Fragmenta_3
-6	αἴσθησιν	αἴσθησις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_469|ref=Fragmenta_3
-7	ἀφαιρεῖ	ἀφαιρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_470|ref=Fragmenta_3
-8	,	,	u	u--------	_	9	AuxX	_	t_471|ref=Fragmenta_3
-9	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_472|ref=Fragmenta_3
-10	λοπάδας	λοπάς	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_473|ref=Fragmenta_3
-11	κλέπτουσι	κλέπτω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	15	ADV	_	t_474|ref=Fragmenta_3
-12	θεοί	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_475|ref=Fragmenta_3
-13	,	,	u	u--------	_	15	AuxX	_	t_476|ref=Fragmenta_3
-14	συλοῦσι	συλάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	15	ADV	_	t_477|ref=Fragmenta_3
-15	δὲ	δέ	g	g--------	_	9	COORD	_	t_478|ref=Fragmenta_3
-16	χύτρας	χύτρα	n	n-p---fa-	Case=a|Gender=f|Number=p	14	OBJ	_	t_479|ref=Fragmenta_3
-17	·	·	u	u--------	_	7	AuxK	_	t_480|ref=Fragmenta_3
+1	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_464|t_470|ref=fr._3
+2	μανίη	μανία	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_465|t_466|ref=fr._3
+3	καὶ	καί	c	c--------	_	7	COORD	_	t_466|t_470|ref=fr._3
+4	λύσσα	λύσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_467|t_466|ref=fr._3
+5	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_468|t_466|ref=fr._3
+6	αἴσθησιν	αἴσθησις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_469|t_470|ref=fr._3
+7	ἀφαιρεῖ	ἀφαιρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_470|0|ref=fr._3
+8	,	,	u	u--------	_	9	AuxX	_	t_471|t_472|ref=fr._3
+9	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_472|t_470|ref=fr._3
+10	λοπάδας	λοπάς	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_473|t_474|ref=fr._3
+11	κλέπτουσι	κλέπτω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	15	ADV	_	t_474|t_478|ref=fr._3
+12	θεοί	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_475|t_474|ref=fr._3
+13	,	,	u	u--------	_	15	AuxX	_	t_476|t_478|ref=fr._3
+14	συλοῦσι	συλάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	15	ADV	_	t_477|t_478|ref=fr._3
+15	δὲ	δέ	g	g--------	_	9	COORD	_	t_478|t_472|ref=fr._3
+16	χύτρας	χύτρα	n	n-p---fa-	Case=a|Gender=f|Number=p	14	OBJ	_	t_479|t_477|ref=fr._3
+17	·	·	u	u--------	_	7	AuxK	_	t_480|t_470|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ἀντὶ δὲ χρυσήεντα πόλον κατ᾿ ἀπείρονα ναίειν σητόβρωτα δέδορκε , πυκναῖς δʼ ἀράχναις δεδίασται ·
 # sent_id = 28
-1	ἀντὶ	ἀντί	r	r--------	_	9	AuxZ	_	t_481|ref=Fragmenta_3
-2	δὲ	δέ	g	g--------	_	12	AuxY	_	t_482|ref=Fragmenta_3
-3	χρυσήεντα	χρύσεος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_483|ref=Fragmenta_3
-4	πόλον	πόλος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_484|ref=Fragmenta_3
-5	κατ᾿	κατά	r	r--------	_	7	AuxZ	_	t_485|ref=Fragmenta_3
-6	ἀπείρονα	ἀπείρων	a	a-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_486|ref=Fragmenta_3
-7	ναίειν	ναίω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_487|ref=Fragmenta_3
-8	σητόβρωτα	σητόβρωτος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_488|ref=Fragmenta_3
-9	δέδορκε	δέρκομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	12	PRED	_	t_489|ref=Fragmenta_3
-10	,	,	u	u--------	_	12	AuxX	_	t_490|ref=Fragmenta_3
-11	πυκναῖς	πυκνός	a	a-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_491|ref=Fragmenta_3
-12	δʼ	δέ	g	g--------	_	0	COORD	_	t_492|ref=Fragmenta_3
-13	ἀράχναις	ἀράχνη	n	n-p---fd-	Case=d|Gender=f|Number=p	14	OBJ	_	t_493|ref=Fragmenta_3
-14	δεδίασται	δείδω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	12	PRED	_	t_494|ref=Fragmenta_3
-15	·	·	u	u--------	_	12	AuxK	_	t_495|ref=Fragmenta_3
+1	ἀντὶ	ἀντί	r	r--------	_	9	AuxZ	_	t_481|t_489|ref=fr._3
+2	δὲ	δέ	g	g--------	_	12	AuxY	_	t_482|t_492|ref=fr._3
+3	χρυσήεντα	χρύσεος	a	a-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_483|t_484|ref=fr._3
+4	πόλον	πόλος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_484|t_487|ref=fr._3
+5	κατ᾿	κατά	r	r--------	_	7	AuxZ	_	t_485|t_487|ref=fr._3
+6	ἀπείρονα	ἀπείρων	a	a-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_486|t_484|ref=fr._3
+7	ναίειν	ναίω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_487|t_489|ref=fr._3
+8	σητόβρωτα	σητόβρωτος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_488|t_487|ref=fr._3
+9	δέδορκε	δέρκομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	12	PRED	_	t_489|t_492|ref=fr._3
+10	,	,	u	u--------	_	12	AuxX	_	t_490|t_492|ref=fr._3
+11	πυκναῖς	πυκνός	a	a-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_491|t_493|ref=fr._3
+12	δʼ	δέ	g	g--------	_	0	COORD	_	t_492|0|ref=fr._3
+13	ἀράχναις	ἀράχνη	n	n-p---fd-	Case=d|Gender=f|Number=p	14	OBJ	_	t_493|t_494|ref=fr._3
+14	δεδίασται	δείδω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	12	PRED	_	t_494|t_492|ref=fr._3
+15	·	·	u	u--------	_	12	AuxK	_	t_495|t_492|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = προσκυνέοντες ὄφεις κύνας αἰλούρους , ἀνόητοι , καὶ πετεηνὰ σέβεσθε καὶ ἑρπετὰ θηρία γαίης καὶ λίθινα ξόανα καὶ ἀγάλματα χειροποίητα καὶ παρ᾿ ὁδοῖσι λίθων συγχώσματα ·
 # sent_id = 29
-1	προσκυνέοντες	προσκυνέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	2	ADV	_	t_496|ref=Fragmenta_3
-2	ὄφεις	ὄφις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	8	PRED	_	t_497|ref=Fragmenta_3
-3	κύνας	κύων	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_498|ref=Fragmenta_3
-4	αἰλούρους	αἰλούρος	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_499|ref=Fragmenta_3
-5	,	,	u	u--------	_	6	AuxX	_	t_500|ref=Fragmenta_3
-6	ἀνόητοι	ἀνόητος	a	a-p---mv-	Case=v|Gender=m|Number=p	8	ExD	_	t_501|ref=Fragmenta_3
-7	,	,	u	u--------	_	6	AuxX	_	t_502|ref=Fragmenta_3
-8	καὶ	καί	c	c--------	_	0	COORD	_	t_503|ref=Fragmenta_3
-9	πετεηνὰ	πετεινός	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_504|ref=Fragmenta_3
-10	σέβεσθε	σέβομαι	v	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	8	PRED	_	t_505|ref=Fragmenta_3
-11	καὶ	καί	c	c--------	_	21	AuxY	_	t_506|ref=Fragmenta_3
-12	ἑρπετὰ	ἑρπετόν	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_507|ref=Fragmenta_3
-13	θηρία	θηρίον	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_508|ref=Fragmenta_3
-14	γαίης	γαῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_509|ref=Fragmenta_3
-15	καὶ	καί	c	c--------	_	21	AuxY	_	t_510|ref=Fragmenta_3
-16	λίθινα	λίθινος	a	a-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_511|ref=Fragmenta_3
-17	ξόανα	ξόανον	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_512|ref=Fragmenta_3
-18	καὶ	καί	c	c--------	_	21	AuxY	_	t_513|ref=Fragmenta_3
-19	ἀγάλματα	ἄγαλμα	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_514|ref=Fragmenta_3
-20	χειροποίητα	χειροποίητος	a	a-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_515|ref=Fragmenta_3
-21	καὶ	καί	c	c--------	_	10	COORD	_	t_516|ref=Fragmenta_3
-22	παρ᾿	παρά	r	r--------	_	25	AuxP	_	t_517|ref=Fragmenta_3
-23	ὁδοῖσι	ὁδός	n	n-p---fd-	Case=d|Gender=f|Number=p	22	ATR	_	t_518|ref=Fragmenta_3
-24	λίθων	λίθος	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_519|ref=Fragmenta_3
-25	συγχώσματα	σύγχωμα	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_520|ref=Fragmenta_3
-26	·	·	u	u--------	_	8	AuxK	_	t_521|ref=Fragmenta_3
+1	προσκυνέοντες	προσκυνέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	2	ADV	_	t_496|t_497|ref=fr._3
+2	ὄφεις	ὄφις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	8	PRED	_	t_497|t_503|ref=fr._3
+3	κύνας	κύων	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_498|t_497|ref=fr._3
+4	αἰλούρους	αἰλούρος	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_499|t_498|ref=fr._3
+5	,	,	u	u--------	_	6	AuxX	_	t_500|t_501|ref=fr._3
+6	ἀνόητοι	ἀνόητος	a	a-p---mv-	Case=v|Gender=m|Number=p	8	ExD	_	t_501|t_503|ref=fr._3
+7	,	,	u	u--------	_	6	AuxX	_	t_502|t_501|ref=fr._3
+8	καὶ	καί	c	c--------	_	0	COORD	_	t_503|0|ref=fr._3
+9	πετεηνὰ	πετεινός	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_504|t_516|ref=fr._3
+10	σέβεσθε	σέβομαι	v	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	8	PRED	_	t_505|t_503|ref=fr._3
+11	καὶ	καί	c	c--------	_	21	AuxY	_	t_506|t_516|ref=fr._3
+12	ἑρπετὰ	ἑρπετόν	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_507|t_508|ref=fr._3
+13	θηρία	θηρίον	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_508|t_516|ref=fr._3
+14	γαίης	γαῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_509|t_508|ref=fr._3
+15	καὶ	καί	c	c--------	_	21	AuxY	_	t_510|t_516|ref=fr._3
+16	λίθινα	λίθινος	a	a-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_511|t_512|ref=fr._3
+17	ξόανα	ξόανον	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_512|t_516|ref=fr._3
+18	καὶ	καί	c	c--------	_	21	AuxY	_	t_513|t_516|ref=fr._3
+19	ἀγάλματα	ἄγαλμα	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_514|t_516|ref=fr._3
+20	χειροποίητα	χειροποίητος	a	a-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_515|t_514|ref=fr._3
+21	καὶ	καί	c	c--------	_	10	COORD	_	t_516|t_505|ref=fr._3
+22	παρ᾿	παρά	r	r--------	_	25	AuxP	_	t_517|t_520|ref=fr._3
+23	ὁδοῖσι	ὁδός	n	n-p---fd-	Case=d|Gender=f|Number=p	22	ATR	_	t_518|t_517|ref=fr._3
+24	λίθων	λίθος	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_519|t_520|ref=fr._3
+25	συγχώσματα	σύγχωμα	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_520|t_516|ref=fr._3
+26	·	·	u	u--------	_	8	AuxK	_	t_521|t_503|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ταῦτα σέβεσθε ἄλλα τε πολλὰ μάταια , ἂ δὴ καἰσχρὸν ἀγορεύειν [0] ·
 # sent_id = 30
-1	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_522|ref=Fragmenta_3
-2	σέβεσθε	σέβομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	4	PRED	_	t_523|ref=Fragmenta_3
-3	ἄλλα	ἄλλος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_524|ref=Fragmenta_3
-4	τε	τε	g	g--------	_	7	COORD	_	t_525|ref=Fragmenta_3
-5	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_526|ref=Fragmenta_3
-6	μάταια	μάταιος	a	a-p---na-	Case=a|Gender=n|Number=p	12	PNOM	_	t_527|ref=Fragmenta_3
-7	,	,	u	u--------	_	0	COORD	_	t_528|ref=Fragmenta_3
-8	ἂ	ἀνά	g	g--------	_	7	AuxY	_	t_529|ref=Fragmenta_3
-9	δὴ	δή	g	g--------	_	12	AuxY	_	t_530|ref=Fragmenta_3
-10	καἰσχρὸν	αἰσχρός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_531|ref=Fragmenta_3
-11	ἀγορεύειν	ἀγορεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_532|ref=Fragmenta_3
-12	[0]	[0]	-	---------	_	7	PRED	_	e_5|ref=Fragmenta_1
-13	·	·	u	u--------	_	7	AuxK	_	t_533|ref=Fragmenta_3
+1	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_522|t_523|ref=fr._3
+2	σέβεσθε	σέβομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	4	PRED	_	t_523|t_525|ref=fr._3
+3	ἄλλα	ἄλλος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_524|t_527|ref=fr._3
+4	τε	τε	g	g--------	_	7	COORD	_	t_525|t_528|ref=fr._3
+5	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_526|t_527|ref=fr._3
+6	μάταια	μάταιος	a	a-p---na-	Case=a|Gender=n|Number=p	12	PNOM	_	t_527|e_5|ref=fr._3
+7	,	,	u	u--------	_	0	COORD	_	t_528|0|ref=fr._3
+8	ἂ	ἀνά	g	g--------	_	7	AuxY	_	t_529|t_528|ref=fr._3
+9	δὴ	δή	g	g--------	_	12	AuxY	_	t_530|e_5|ref=fr._3
+10	καἰσχρὸν	αἰσχρός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_531|e_5|ref=fr._3
+11	ἀγορεύειν	ἀγορεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_532|e_5|ref=fr._3
+12	[0]	[0]	-	---------	_	7	PRED	_	e_5|t_528|ref=fr._1
+13	·	·	u	u--------	_	7	AuxK	_	t_533|t_528|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = εἰσὶ θεοὶ μερόπων δόλῳ ἡγητῆρες ἀβούλων , τῶν δὴ κ ἀκ στόματος χεῖται θανατηφόρος ἰός .
 # sent_id = 31
-1	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_534|ref=Fragmenta_3
-2	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_535|ref=Fragmenta_3
-3	μερόπων	μέροψ	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_536|ref=Fragmenta_3
-4	δόλῳ	δόλος	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_537|ref=Fragmenta_3
-5	ἡγητῆρες	ἡγητήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	1	PNOM	_	t_538|ref=Fragmenta_3
-6	ἀβούλων	ἄβουλος	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_539|ref=Fragmenta_3
-7	,	,	u	u--------	_	13	AuxX	_	t_540|ref=Fragmenta_3
-8	τῶν	ὁ	p	p-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_541|ref=Fragmenta_3
-9	δὴ	δή	g	g--------	_	13	AuxY	_	t_542|ref=Fragmenta_3
-10	κ	καί	d	d--------	_	12	AuxZ	_	t_543|ref=Fragmenta_3
-11	ἀκ	ἐκ	r	r--------	_	13	AuxP	_	t_544|ref=Fragmenta_3
-12	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	11	OBJ	_	t_545|ref=Fragmenta_3
-13	χεῖται	χέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	ATR	_	t_546|ref=Fragmenta_3
-14	θανατηφόρος	θανατηφόρος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	ATR	_	t_547|ref=Fragmenta_3
-15	ἰός	ἰός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_548|ref=Fragmenta_3
-16	.	.	u	u--------	_	1	AuxK	_	t_549|ref=Fragmenta_3
+1	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_534|0|ref=fr._3
+2	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_535|t_534|ref=fr._3
+3	μερόπων	μέροψ	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_536|t_537|ref=fr._3
+4	δόλῳ	δόλος	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_537|t_534|ref=fr._3
+5	ἡγητῆρες	ἡγητήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	1	PNOM	_	t_538|t_534|ref=fr._3
+6	ἀβούλων	ἄβουλος	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_539|t_538|ref=fr._3
+7	,	,	u	u--------	_	13	AuxX	_	t_540|t_546|ref=fr._3
+8	τῶν	ὁ	p	p-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_541|t_545|ref=fr._3
+9	δὴ	δή	g	g--------	_	13	AuxY	_	t_542|t_546|ref=fr._3
+10	κ	καί	d	d--------	_	12	AuxZ	_	t_543|t_545|ref=fr._3
+11	ἀκ	ἐκ	r	r--------	_	13	AuxP	_	t_544|t_546|ref=fr._3
+12	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	11	OBJ	_	t_545|t_544|ref=fr._3
+13	χεῖται	χέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	ATR	_	t_546|t_538|ref=fr._3
+14	θανατηφόρος	θανατηφόρος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	ATR	_	t_547|t_548|ref=fr._3
+15	ἰός	ἰός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_548|t_546|ref=fr._3
+16	.	.	u	u--------	_	1	AuxK	_	t_549|t_534|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ὃς δ᾿ ἔστιν ζωή τε καὶ ἄφθιτον ἀέναον φῶς καὶ μέλιτος # x23D4 ;
 # sent_id = 32
-1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_550|ref=Fragmenta_3
-2	δ᾿	δέ	d	d--------	_	3	AuxY	_	t_551|ref=Fragmenta_3
-3	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_552|ref=Fragmenta_3
-4	ζωή	ζωή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_553|ref=Fragmenta_3
-5	τε	τε	d	d--------	_	10	AuxY	_	t_554|ref=Fragmenta_3
-6	καὶ	καί	c	c--------	_	10	AuxY	_	t_555|ref=Fragmenta_3
-7	ἄφθιτον	ἄφθιτος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_556|ref=Fragmenta_3
-8	ἀέναον	ἀέναος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_557|ref=Fragmenta_3
-9	φῶς	φάος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_558|ref=Fragmenta_3
-10	καὶ	καί	c	c--------	_	3	COORD	_	t_559|ref=Fragmenta_3
-11	μέλιτος	μέλι	n	n-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_560|ref=Fragmenta_3
-12	#	#	u	u--------	_	3	AuxG	_	t_561|ref=Fragmenta_3
-13	x23D4	x23d	n	n--------	_	3	AuxG	_	t_562|ref=Fragmenta_3
-14	;	;	u	u--------	_	3	AuxK	_	t_563|ref=Fragmenta_3
+1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_550|t_552|ref=fr._3
+2	δ᾿	δέ	d	d--------	_	3	AuxY	_	t_551|t_552|ref=fr._3
+3	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_552|0|ref=fr._3
+4	ζωή	ζωή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_553|t_559|ref=fr._3
+5	τε	τε	d	d--------	_	10	AuxY	_	t_554|t_559|ref=fr._3
+6	καὶ	καί	c	c--------	_	10	AuxY	_	t_555|t_559|ref=fr._3
+7	ἄφθιτον	ἄφθιτος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_556|t_558|ref=fr._3
+8	ἀέναον	ἀέναος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_557|t_558|ref=fr._3
+9	φῶς	φάος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_558|t_559|ref=fr._3
+10	καὶ	καί	c	c--------	_	3	COORD	_	t_559|t_552|ref=fr._3
+11	μέλιτος	μέλι	n	n-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_560|t_559|ref=fr._3
+12	#	#	u	u--------	_	3	AuxG	_	t_561|t_552|ref=fr._3
+13	x23D4	x23d	n	n--------	_	3	AuxG	_	t_562|t_552|ref=fr._3
+14	;	;	u	u--------	_	3	AuxK	_	t_563|t_552|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = – γλυκερώτερον ἀνδράσι χάρμα ἐκπροχέει # x23D4 ;
 # sent_id = 33
-1	–	–	u	u--------	_	5	AuxG	_	t_564|ref=Fragmenta_3
-2	γλυκερώτερον	γλυκύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	4	ATR	_	t_565|ref=Fragmenta_3
-3	ἀνδράσι	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_566|ref=Fragmenta_3
-4	χάρμα	χάρμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_567|ref=Fragmenta_3
-5	ἐκπροχέει	ἐκπροχέω	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_568|ref=Fragmenta_3
-6	#	#	u	u--------	_	5	AuxG	_	t_569|ref=Fragmenta_3
-7	x23D4	x23d	n	n--------	_	4	APOS	_	t_570|ref=Fragmenta_3
-8	;	;	u	u--------	_	5	AuxK	_	t_571|ref=Fragmenta_3
+1	–	–	u	u--------	_	5	AuxG	_	t_564|t_568|ref=fr._3
+2	γλυκερώτερον	γλυκύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	4	ATR	_	t_565|t_567|ref=fr._3
+3	ἀνδράσι	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_566|t_568|ref=fr._3
+4	χάρμα	χάρμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_567|t_568|ref=fr._3
+5	ἐκπροχέει	ἐκπροχέω	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_568|0|ref=fr._3
+6	#	#	u	u--------	_	5	AuxG	_	t_569|t_568|ref=fr._3
+7	x23D4	x23d	n	n--------	_	4	APOS	_	t_570|t_567|ref=fr._3
+8	;	;	u	u--------	_	5	AuxK	_	t_571|t_568|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = – , τῷ δὴ μόνῳ αὐχένα κάμπτε , καὶ τρίβον αἰώνεσσιν ἐν εὐσεβέεσσ ’ ἀνακλίνοις .
 # sent_id = 34
-1	–	–	u	u--------	_	0	AuxG	_	t_572|ref=Fragmenta_3
-2	,	,	u	u--------	_	9	AuxX	_	t_573|ref=Fragmenta_3
-3	τῷ	ὁ	d	d--------	_	7	ADV	_	t_574|ref=Fragmenta_3
-4	δὴ	δή	g	g--------	_	7	AuxY	_	t_575|ref=Fragmenta_3
-5	μόνῳ	μόνος	a	a-s---md-	Case=d|Gender=m|Number=s	7	AtvV	_	t_576|ref=Fragmenta_3
-6	αὐχένα	αὐχήν	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_577|ref=Fragmenta_3
-7	κάμπτε	κάμπτω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	9	PRED	_	t_578|ref=Fragmenta_3
-8	,	,	u	u--------	_	9	AuxX	_	t_579|ref=Fragmenta_3
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_580|ref=Fragmenta_3
-10	τρίβον	τρίοδος	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	9	PRED	_	t_581|ref=Fragmenta_3
-11	αἰώνεσσιν	αἰών	n	n-p---md-	Case=d|Gender=m|Number=p	12	ADV	_	t_582|ref=Fragmenta_3
-12	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_583|ref=Fragmenta_3
-13	εὐσεβέεσσ	εὐσεβέω	a	a-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_584|ref=Fragmenta_3
-14	’	’	v	v-pappmd-	Case=d|Gender=n|Number=p	11	ATR	_	t_585|ref=Fragmenta_3
-15	ἀνακλίνοις	ἀνακλίνω	a	a-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_586|ref=Fragmenta_3
-16	.	.	u	u--------	_	1	AuxK	_	t_587|ref=Fragmenta_3
+1	–	–	u	u--------	_	0	AuxG	_	t_572|0|ref=fr._3
+2	,	,	u	u--------	_	9	AuxX	_	t_573|t_580|ref=fr._3
+3	τῷ	ὁ	d	d--------	_	7	ADV	_	t_574|t_578|ref=fr._3
+4	δὴ	δή	g	g--------	_	7	AuxY	_	t_575|t_578|ref=fr._3
+5	μόνῳ	μόνος	a	a-s---md-	Case=d|Gender=m|Number=s	7	AtvV	_	t_576|t_578|ref=fr._3
+6	αὐχένα	αὐχήν	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_577|t_578|ref=fr._3
+7	κάμπτε	κάμπτω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	9	PRED	_	t_578|t_580|ref=fr._3
+8	,	,	u	u--------	_	9	AuxX	_	t_579|t_580|ref=fr._3
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_580|t_572|ref=fr._3
+10	τρίβον	τρίοδος	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	9	PRED	_	t_581|t_580|ref=fr._3
+11	αἰώνεσσιν	αἰών	n	n-p---md-	Case=d|Gender=m|Number=p	12	ADV	_	t_582|t_583|ref=fr._3
+12	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_583|t_581|ref=fr._3
+13	εὐσεβέεσσ	εὐσεβέω	a	a-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_584|t_582|ref=fr._3
+14	’	’	v	v-pappmd-	Case=d|Gender=n|Number=p	11	ATR	_	t_585|t_582|ref=fr._3
+15	ἀνακλίνοις	ἀνακλίνω	a	a-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_586|t_582|ref=fr._3
+16	.	.	u	u--------	_	1	AuxK	_	t_587|t_572|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = ταῦτα λιπόντες ἅπαντα δίκης μεστὸν τὸ κύπελλον ζωρότερον στιβαρὸν βεβαρημένον εὖ μάλʼ ἄκρητον εἱλκύσατ᾿ ἀφροσύνῃ μεμανηότι πνεύματι πάντες .
 # sent_id = 35
-1	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_588|ref=Fragmenta_3
-2	λιπόντες	λείπω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	14	ADV	_	t_589|ref=Fragmenta_3
-3	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_590|ref=Fragmenta_3
-4	δίκης	δίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_591|ref=Fragmenta_3
-5	μεστὸν	μεστός	a	a-s---na-	Case=a|Gender=m|Number=s	8	ATR	_	t_592|ref=Fragmenta_3
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_593|ref=Fragmenta_3
-7	κύπελλον	κύπελλον	n	n-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_594|ref=Fragmenta_3
-8	ζωρότερον	ζωρός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	14	OBJ	_	t_595|ref=Fragmenta_3
-9	στιβαρὸν	στιβαρός	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_596|ref=Fragmenta_3
-10	βεβαρημένον	βαρύνω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	7	ATR	_	t_597|ref=Fragmenta_3
-11	εὖ	εὖ	d	d--------	_	13	ADV	_	t_598|ref=Fragmenta_3
-12	μάλʼ	μάλα	d	d--------	_	11	AuxZ	_	t_599|ref=Fragmenta_3
-13	ἄκρητον	ἄκρατος	a	a-s---na-	Case=a|Gender=n|Number=s	14	OCOMP	_	t_600|ref=Fragmenta_3
-14	εἱλκύσατ᾿	ἕλκω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_601|ref=Fragmenta_3
-15	ἀφροσύνῃ	ἀφροσύνη	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_602|ref=Fragmenta_3
-16	μεμανηότι	μέμναμαι	v	v-srpand-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	17	ATR	_	t_603|ref=Fragmenta_3
-17	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	14	ADV	_	t_604|ref=Fragmenta_3
-18	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_605|ref=Fragmenta_3
-19	.	.	u	u--------	_	14	AuxK	_	t_606|ref=Fragmenta_3
+1	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_588|t_589|ref=fr._3
+2	λιπόντες	λείπω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	14	ADV	_	t_589|t_601|ref=fr._3
+3	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_590|t_589|ref=fr._3
+4	δίκης	δίκη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_591|t_592|ref=fr._3
+5	μεστὸν	μεστός	a	a-s---na-	Case=a|Gender=m|Number=s	8	ATR	_	t_592|t_595|ref=fr._3
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_593|t_595|ref=fr._3
+7	κύπελλον	κύπελλον	n	n-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_594|t_595|ref=fr._3
+8	ζωρότερον	ζωρός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	14	OBJ	_	t_595|t_601|ref=fr._3
+9	στιβαρὸν	στιβαρός	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_596|t_597|ref=fr._3
+10	βεβαρημένον	βαρύνω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	7	ATR	_	t_597|t_594|ref=fr._3
+11	εὖ	εὖ	d	d--------	_	13	ADV	_	t_598|t_600|ref=fr._3
+12	μάλʼ	μάλα	d	d--------	_	11	AuxZ	_	t_599|t_598|ref=fr._3
+13	ἄκρητον	ἄκρατος	a	a-s---na-	Case=a|Gender=n|Number=s	14	OCOMP	_	t_600|t_601|ref=fr._3
+14	εἱλκύσατ᾿	ἕλκω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_601|0|ref=fr._3
+15	ἀφροσύνῃ	ἀφροσύνη	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_602|t_603|ref=fr._3
+16	μεμανηότι	μέμναμαι	v	v-srpand-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	17	ATR	_	t_603|t_604|ref=fr._3
+17	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	14	ADV	_	t_604|t_601|ref=fr._3
+18	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_605|t_601|ref=fr._3
+19	.	.	u	u--------	_	14	AuxK	_	t_606|t_601|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = κοὐ θέλετ᾿ ἐκνῆψαι καὶ σώφρονα πρὸς νόον ἐλθεῖν καὶ γνῶναι βασιλῆα θεόν , τὸν πάντʼ ἐφορῶντα .
 # sent_id = 36
-1	κοὐ	οὐ	d	d--------	_	2	AuxZ	_	t_607|ref=Fragmenta_3
-2	θέλετ᾿	ἐθέλω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_608|ref=Fragmenta_3
-3	ἐκνῆψαι	ἐκνήφω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_609|ref=Fragmenta_3
-4	καὶ	καί	c	c--------	_	9	AuxY	_	t_610|ref=Fragmenta_3
-5	σώφρονα	σώφρων	a	a-s---ma-	Case=a|Gender=m|Number=s	8	AtvV	_	t_611|ref=Fragmenta_3
-6	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_612|ref=Fragmenta_3
-7	νόον	νόος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_613|ref=Fragmenta_3
-8	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_614|ref=Fragmenta_3
-9	καὶ	καί	c	c--------	_	2	COORD	_	t_615|ref=Fragmenta_3
-10	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_616|ref=Fragmenta_3
-11	βασιλῆα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_617|ref=Fragmenta_3
-12	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_618|ref=Fragmenta_3
-13	,	,	u	u--------	_	10	APOS	_	t_619|ref=Fragmenta_3
-14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_620|ref=Fragmenta_3
-15	πάντʼ	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_621|ref=Fragmenta_3
-16	ἐφορῶντα	ἐφοράω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_622|ref=Fragmenta_3
-17	.	.	u	u--------	_	2	AuxK	_	t_623|ref=Fragmenta_3
+1	κοὐ	οὐ	d	d--------	_	2	AuxZ	_	t_607|t_608|ref=fr._3
+2	θέλετ᾿	ἐθέλω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_608|0|ref=fr._3
+3	ἐκνῆψαι	ἐκνήφω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_609|t_615|ref=fr._3
+4	καὶ	καί	c	c--------	_	9	AuxY	_	t_610|t_615|ref=fr._3
+5	σώφρονα	σώφρων	a	a-s---ma-	Case=a|Gender=m|Number=s	8	AtvV	_	t_611|t_614|ref=fr._3
+6	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_612|t_614|ref=fr._3
+7	νόον	νόος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_613|t_612|ref=fr._3
+8	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_614|t_615|ref=fr._3
+9	καὶ	καί	c	c--------	_	2	COORD	_	t_615|t_608|ref=fr._3
+10	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_616|t_615|ref=fr._3
+11	βασιλῆα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_617|t_618|ref=fr._3
+12	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_618|t_619|ref=fr._3
+13	,	,	u	u--------	_	10	APOS	_	t_619|t_616|ref=fr._3
+14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_620|t_622|ref=fr._3
+15	πάντʼ	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_621|t_622|ref=fr._3
+16	ἐφορῶντα	ἐφοράω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_622|t_618|ref=fr._3
+17	.	.	u	u--------	_	2	AuxK	_	t_623|t_608|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = τ οὔνεκεν αἰθομένοιο πυρὸς σέλας ἔρχετ᾿ ἐφ᾿ ὑμᾶς , λαμπάσι καυθήσεσθε δι᾿ αἰῶνος τὸ πανῆμαρ ψευδέσιν αἰσχυνθέντες ἐπ᾿ εἰδώλοισιν ἀχρήστοις .
 # sent_id = 37
-1	τ	ὁ	l	l-s---na-	_	2	ADV	_	t_624|ref=Fragmenta_3
-2	οὔνεκεν	οὕνεκα	c	c--------	_	11	AuxC	_	t_625|ref=Fragmenta_3
-3	αἰθομένοιο	αἴθω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	ATR	_	t_626|ref=Fragmenta_3
-4	πυρὸς	πῦρ	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_627|ref=Fragmenta_3
-5	σέλας	σέλας	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_628|ref=Fragmenta_3
-6	ἔρχετ᾿	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	ADV	_	t_629|ref=Fragmenta_3
-7	ἐφ᾿	ἐπί	r	r--------	_	6	AuxP	_	t_630|ref=Fragmenta_3
-8	ὑμᾶς	σύ	p	p-p----a-	Case=g|Gender=f|Number=s	7	OBJ	_	t_631|ref=Fragmenta_3
-9	,	,	u	u--------	_	6	AuxX	_	t_632|ref=Fragmenta_3
-10	λαμπάσι	λαμπάς	n	n-p---fd-	Case=d|Gender=m|Number=p	11	OBJ	_	t_633|ref=Fragmenta_3
-11	καυθήσεσθε	καίω	v	v2pfim---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	0	PRED	_	t_634|ref=Fragmenta_3
-12	δι᾿	διά	r	r--------	_	11	AuxP	_	t_635|ref=Fragmenta_3
-13	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ADV	_	t_636|ref=Fragmenta_3
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_637|ref=Fragmenta_3
-15	πανῆμαρ	πανῆμαρ	d	d--------	_	17	ADV	_	t_638|ref=Fragmenta_3
-16	ψευδέσιν	ψευδής	a	a-p---nd-	Case=d|Gender=n|Number=p	17	OBJ	_	t_639|ref=Fragmenta_3
-17	αἰσχυνθέντες	αἰσχύνω	v	v-pappmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	11	ADV	_	t_640|ref=Fragmenta_3
-18	ἐπ᾿	ἐπί	r	r--------	_	17	AuxP	_	t_641|ref=Fragmenta_3
-19	εἰδώλοισιν	εἴδωλον	n	n-p---nd-	Case=d|Gender=n|Number=p	18	ADV	_	t_642|ref=Fragmenta_3
-20	ἀχρήστοις	ἄχρηστος	a	a-p---nd-	Case=d|Gender=n|Number=p	19	ATR	_	t_643|ref=Fragmenta_3
-21	.	.	u	u--------	_	2	AuxK	_	t_644|ref=Fragmenta_3
+1	τ	ὁ	l	l-s---na-	_	2	ADV	_	t_624|t_625|ref=fr._3
+2	οὔνεκεν	οὕνεκα	c	c--------	_	11	AuxC	_	t_625|t_634|ref=fr._3
+3	αἰθομένοιο	αἴθω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	ATR	_	t_626|t_627|ref=fr._3
+4	πυρὸς	πῦρ	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_627|t_628|ref=fr._3
+5	σέλας	σέλας	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_628|t_629|ref=fr._3
+6	ἔρχετ᾿	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	ADV	_	t_629|t_625|ref=fr._3
+7	ἐφ᾿	ἐπί	r	r--------	_	6	AuxP	_	t_630|t_629|ref=fr._3
+8	ὑμᾶς	σύ	p	p-p----a-	Case=g|Gender=f|Number=s	7	OBJ	_	t_631|t_630|ref=fr._3
+9	,	,	u	u--------	_	6	AuxX	_	t_632|t_629|ref=fr._3
+10	λαμπάσι	λαμπάς	n	n-p---fd-	Case=d|Gender=m|Number=p	11	OBJ	_	t_633|t_634|ref=fr._3
+11	καυθήσεσθε	καίω	v	v2pfim---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	0	PRED	_	t_634|0|ref=fr._3
+12	δι᾿	διά	r	r--------	_	11	AuxP	_	t_635|t_634|ref=fr._3
+13	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ADV	_	t_636|t_635|ref=fr._3
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_637|t_638|ref=fr._3
+15	πανῆμαρ	πανῆμαρ	d	d--------	_	17	ADV	_	t_638|t_640|ref=fr._3
+16	ψευδέσιν	ψευδής	a	a-p---nd-	Case=d|Gender=n|Number=p	17	OBJ	_	t_639|t_640|ref=fr._3
+17	αἰσχυνθέντες	αἰσχύνω	v	v-pappmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	11	ADV	_	t_640|t_634|ref=fr._3
+18	ἐπ᾿	ἐπί	r	r--------	_	17	AuxP	_	t_641|t_640|ref=fr._3
+19	εἰδώλοισιν	εἴδωλον	n	n-p---nd-	Case=d|Gender=n|Number=p	18	ADV	_	t_642|t_641|ref=fr._3
+20	ἀχρήστοις	ἄχρηστος	a	a-p---nd-	Case=d|Gender=n|Number=p	19	ATR	_	t_643|t_642|ref=fr._3
+21	.	.	u	u--------	_	2	AuxK	_	t_644|t_625|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3
+# source = Oracula Sibyllina, fr. 3
 # text = οἱ δὲ θεὸν τιμῶντες ἀληθινὸν ἀέναόν τε ζωὴν κληρονομοῦσι , τὸν αἰῶνος χρόνον αὐτοί οἰκοῦντες παραδείσου ὁμῶς ἐριθηλέα κῆπον δαινύμενοι γλυκὺν ἄρτον ἀπ᾿ οὐρανοῦ ἀστερόεντος .
 # sent_id = 38
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_645|ref=Fragmenta_3
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_646|ref=Fragmenta_3
-3	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_647|ref=Fragmenta_3
-4	τιμῶντες	τιμάω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_648|ref=Fragmenta_3
-5	ἀληθινὸν	ἀληθινός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_649|ref=Fragmenta_3
-6	ἀέναόν	ἀέναος	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_650|ref=Fragmenta_3
-7	τε	τε	d	d--------	_	9	COORD	_	t_651|ref=Fragmenta_3
-8	ζωὴν	ζωή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_652|ref=Fragmenta_3
-9	κληρονομοῦσι	κληρονομέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	16	PRED	_	t_653|ref=Fragmenta_3
-10	,	,	u	u--------	_	16	AuxX	_	t_654|ref=Fragmenta_3
-11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_655|ref=Fragmenta_3
-12	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_656|ref=Fragmenta_3
-13	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_657|ref=Fragmenta_3
-14	αὐτοί	αὐτός	p	p-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_658|ref=Fragmenta_3
-15	οἰκοῦντες	οἰκέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_659|ref=Fragmenta_3
-16	παραδείσου	παράδεισος	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	0	PRED	_	t_660|ref=Fragmenta_3
-17	ὁμῶς	ὁμῶς	d	d--------	_	16	ADV	_	t_661|ref=Fragmenta_3
-18	ἐριθηλέα	ἐριθηλής	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_662|ref=Fragmenta_3
-19	κῆπον	κῆπος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_663|ref=Fragmenta_3
-20	δαινύμενοι	δαίνυμι	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_664|ref=Fragmenta_3
-21	γλυκὺν	γλυκύς	a	a-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_665|ref=Fragmenta_3
-22	ἄρτον	ἄρτος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_666|ref=Fragmenta_3
-23	ἀπ᾿	ἀπό	r	r--------	_	20	AuxP	_	t_667|ref=Fragmenta_3
-24	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_668|ref=Fragmenta_3
-25	ἀστερόεντος	ἀστερόεις	a	a-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_669|ref=Fragmenta_3
-26	.	.	u	u--------	_	16	AuxK	_	t_670|ref=Fragmenta_3
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_645|t_653|ref=fr._3
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_646|t_653|ref=fr._3
+3	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_647|t_648|ref=fr._3
+4	τιμῶντες	τιμάω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_648|t_653|ref=fr._3
+5	ἀληθινὸν	ἀληθινός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_649|t_651|ref=fr._3
+6	ἀέναόν	ἀέναος	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_650|t_651|ref=fr._3
+7	τε	τε	d	d--------	_	9	COORD	_	t_651|t_653|ref=fr._3
+8	ζωὴν	ζωή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_652|t_653|ref=fr._3
+9	κληρονομοῦσι	κληρονομέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	16	PRED	_	t_653|t_660|ref=fr._3
+10	,	,	u	u--------	_	16	AuxX	_	t_654|t_660|ref=fr._3
+11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_655|t_657|ref=fr._3
+12	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_656|t_657|ref=fr._3
+13	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_657|t_659|ref=fr._3
+14	αὐτοί	αὐτός	p	p-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_658|t_660|ref=fr._3
+15	οἰκοῦντες	οἰκέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_659|t_660|ref=fr._3
+16	παραδείσου	παράδεισος	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	0	PRED	_	t_660|0|ref=fr._3
+17	ὁμῶς	ὁμῶς	d	d--------	_	16	ADV	_	t_661|t_660|ref=fr._3
+18	ἐριθηλέα	ἐριθηλής	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_662|t_663|ref=fr._3
+19	κῆπον	κῆπος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_663|t_664|ref=fr._3
+20	δαινύμενοι	δαίνυμι	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_664|t_660|ref=fr._3
+21	γλυκὺν	γλυκύς	a	a-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_665|t_666|ref=fr._3
+22	ἄρτον	ἄρτος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_666|t_664|ref=fr._3
+23	ἀπ᾿	ἀπό	r	r--------	_	20	AuxP	_	t_667|t_664|ref=fr._3
+24	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_668|t_667|ref=fr._3
+25	ἀστερόεντος	ἀστερόεις	a	a-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_669|t_668|ref=fr._3
+26	.	.	u	u--------	_	16	AuxK	_	t_670|t_660|ref=fr._3
 
-# source = Oracula Sibyllina, Fragmenta 3-4
+# source = Oracula Sibyllina, fr. 3-4
 # text = κλῦτε δέ μου , μέροπες , βασιλεὺς αἰώνιος ἄρχει .
 # sent_id = 39
-1	κλῦτε	κλύω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	6	PRED	_	t_671|ref=Fragmenta_3
-2	δέ	δέ	g	g--------	_	0	COORD	_	t_672|ref=Fragmenta_3
-3	μου	ἐγώ	p	p-s---mg-	Case=g|Gender=m|Number=s	1	OBJ	_	t_673|ref=Fragmenta_3
-4	,	,	u	u--------	_	5	AuxX	_	t_674|ref=Fragmenta_3
-5	μέροπες	μέροψ	n	n-p---fv-	Case=v|Gender=m|Number=p	1	ExD	_	t_675|ref=Fragmenta_3
-6	,	,	u	u--------	_	2	COORD	_	t_676|ref=Fragmenta_4
-7	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_677|ref=Fragmenta_4
-8	αἰώνιος	αἰώνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_678|ref=Fragmenta_4
-9	ἄρχει	ἄρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_679|ref=Fragmenta_4
-10	.	.	u	u--------	_	2	AuxK	_	t_680|ref=Fragmenta_4
+1	κλῦτε	κλύω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	6	PRED	_	t_671|t_676|ref=fr._3
+2	δέ	δέ	g	g--------	_	0	COORD	_	t_672|0|ref=fr._3
+3	μου	ἐγώ	p	p-s---mg-	Case=g|Gender=m|Number=s	1	OBJ	_	t_673|t_671|ref=fr._3
+4	,	,	u	u--------	_	5	AuxX	_	t_674|t_675|ref=fr._3
+5	μέροπες	μέροψ	n	n-p---fv-	Case=v|Gender=m|Number=p	1	ExD	_	t_675|t_671|ref=fr._3
+6	,	,	u	u--------	_	2	COORD	_	t_676|t_672|ref=fr._4
+7	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_677|t_679|ref=fr._4
+8	αἰώνιος	αἰώνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_678|t_677|ref=fr._4
+9	ἄρχει	ἄρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_679|t_676|ref=fr._4
+10	.	.	u	u--------	_	2	AuxK	_	t_680|t_672|ref=fr._4
 
-# source = Oracula Sibyllina, Fragmenta 4-5
+# source = Oracula Sibyllina, fr. 4-5
 # text = ὃς μόνος ἐστὶ θεὸς κτίστης ἀκράτητος ὑπάρχων ·
 # sent_id = 40
-1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_681|ref=Fragmenta_4
-2	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATV	_	t_682|ref=Fragmenta_4
-3	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_683|ref=Fragmenta_4
-4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_684|ref=Fragmenta_4
-5	κτίστης	κτίστης	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_685|ref=Fragmenta_4
-6	ἀκράτητος	ἀήττητος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	OCOMP	_	t_686|ref=Fragmenta_5
-7	ὑπάρχων	ὑπάρχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_687|ref=Fragmenta_5
-8	·	·	u	u--------	_	3	AuxK	_	t_688|ref=Fragmenta_5
+1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_681|t_684|ref=fr._4
+2	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATV	_	t_682|t_684|ref=fr._4
+3	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_683|0|ref=fr._4
+4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_684|t_683|ref=fr._4
+5	κτίστης	κτίστης	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_685|t_687|ref=fr._4
+6	ἀκράτητος	ἀήττητος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	OCOMP	_	t_686|t_687|ref=fr._5
+7	ὑπάρχων	ὑπάρχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_687|t_683|ref=fr._5
+8	·	·	u	u--------	_	3	AuxK	_	t_688|t_683|ref=fr._5
 
-# source = Oracula Sibyllina, Fragmenta 5
+# source = Oracula Sibyllina, fr. 5
 # text = αὐτὸς δ᾿ ἐστήριζε τύπον μορφῆς μερόπων τε αὐτὸς ἔμιξε φύσιν πάντων , γενέτης βιότοιο .
 # sent_id = 41
-1	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	3	AtvV	_	t_689|ref=Fragmenta_5
-2	δ᾿	δέ	g	g--------	_	7	AuxY	_	t_690|ref=Fragmenta_5
-3	ἐστήριζε	στηρίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	PRED	_	t_691|ref=Fragmenta_5
-4	τύπον	τύπος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_692|ref=Fragmenta_5
-5	μορφῆς	μορφή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_693|ref=Fragmenta_5
-6	μερόπων	μέροψ	n	n-p---ng-	Case=g|Gender=n|Number=p	12	OBJ	_	t_694|ref=Fragmenta_5
-7	τε	τε	g	g--------	_	0	COORD	_	t_695|ref=Fragmenta_5
-8	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	9	AtvV	_	t_696|ref=Fragmenta_5
-9	ἔμιξε	μίγνυμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_697|ref=Fragmenta_5
-10	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_698|ref=Fragmenta_5
-11	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_699|ref=Fragmenta_5
-12	,	,	u	u--------	_	10	APOS	_	t_700|ref=Fragmenta_5
-13	γενέτης	γενέτης	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_701|ref=Fragmenta_5
-14	βιότοιο	βίοτος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_702|ref=Fragmenta_5
-15	.	.	u	u--------	_	7	AuxK	_	t_703|ref=Fragmenta_5
+1	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	3	AtvV	_	t_689|t_691|ref=fr._5
+2	δ᾿	δέ	g	g--------	_	7	AuxY	_	t_690|t_695|ref=fr._5
+3	ἐστήριζε	στηρίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	PRED	_	t_691|t_695|ref=fr._5
+4	τύπον	τύπος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_692|t_691|ref=fr._5
+5	μορφῆς	μορφή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_693|t_692|ref=fr._5
+6	μερόπων	μέροψ	n	n-p---ng-	Case=g|Gender=n|Number=p	12	OBJ	_	t_694|t_700|ref=fr._5
+7	τε	τε	g	g--------	_	0	COORD	_	t_695|0|ref=fr._5
+8	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	9	AtvV	_	t_696|t_697|ref=fr._5
+9	ἔμιξε	μίγνυμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_697|t_695|ref=fr._5
+10	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_698|t_697|ref=fr._5
+11	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_699|t_700|ref=fr._5
+12	,	,	u	u--------	_	10	APOS	_	t_700|t_698|ref=fr._5
+13	γενέτης	γενέτης	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_701|t_702|ref=fr._5
+14	βιότοιο	βίοτος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_702|t_700|ref=fr._5
+15	.	.	u	u--------	_	7	AuxK	_	t_703|t_695|ref=fr._5
 
-# source = Oracula Sibyllina, Fragmenta 5-6
+# source = Oracula Sibyllina, fr. 5-6
 # text = ὁππόταν ἔλθῃ , πῦρ ἔσται σκοτόεντι μέσῃ ἐνὶ νυκτὶ μελαίνῃ .
 # sent_id = 42
-1	ὁππόταν	ὁπόταν	d	d--------	_	2	ADV	_	t_704|ref=Fragmenta_5
-2	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_705|ref=Fragmenta_5
-3	,	,	u	u--------	_	5	AuxX	_	t_706|ref=Fragmenta_5
-4	πῦρ	πῦρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_707|ref=Fragmenta_5
-5	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_708|ref=Fragmenta_5
-6	σκοτόεντι	σκοτόεις	a	a-s---fd-	Case=d|Gender=n|Number=s	9	ATR	_	t_709|ref=Fragmenta_6
-7	μέσῃ	μέσος	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_710|ref=Fragmenta_6
-8	ἐνὶ	ἐν	r	r--------	_	5	AuxP	_	t_711|ref=Fragmenta_6
-9	νυκτὶ	νύξ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_712|ref=Fragmenta_6
-10	μελαίνῃ	μέλας	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_713|ref=Fragmenta_6
-11	.	.	u	u--------	_	5	AuxK	_	t_714|ref=Fragmenta_6
+1	ὁππόταν	ὁπόταν	d	d--------	_	2	ADV	_	t_704|t_705|ref=fr._5
+2	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_705|t_708|ref=fr._5
+3	,	,	u	u--------	_	5	AuxX	_	t_706|t_708|ref=fr._5
+4	πῦρ	πῦρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_707|t_708|ref=fr._5
+5	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_708|0|ref=fr._5
+6	σκοτόεντι	σκοτόεις	a	a-s---fd-	Case=d|Gender=n|Number=s	9	ATR	_	t_709|t_712|ref=fr._6
+7	μέσῃ	μέσος	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_710|t_712|ref=fr._6
+8	ἐνὶ	ἐν	r	r--------	_	5	AuxP	_	t_711|t_708|ref=fr._6
+9	νυκτὶ	νύξ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_712|t_711|ref=fr._6
+10	μελαίνῃ	μέλας	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_713|t_712|ref=fr._6
+11	.	.	u	u--------	_	5	AuxK	_	t_714|t_708|ref=fr._6
 
-# source = Oracula Sibyllina, Fragmenta 6-8
+# source = Oracula Sibyllina, fr. 6-8
 # text = εός> Ἡ γοῦν Ἐρυθραία πρὸς τὸν θεόν [0] ·
 # sent_id = 43
-1	εός>	εός	n	n-s---mn-	_	8	ExD	_	t_715|ref=Fragmenta_6
-2	Ἡ	ὁ	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_716|ref=Fragmenta_6
-3	γοῦν	γοῦν	d	d--------	_	8	AuxY	_	t_717|ref=Fragmenta_6
-4	Ἐρυθραία	ἐρυθραία	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_718|ref=Fragmenta_6
-5	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_719|ref=Fragmenta_6
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_720|ref=Fragmenta_7
-7	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_721|ref=Fragmenta_8
-8	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Fragmenta_1
-9	·	·	u	u--------	_	8	AuxK	_	t_722|ref=Fragmenta_8
+1	εός>	εός	n	n-s---mn-	_	8	ExD	_	t_715|e_6|ref=fr._6
+2	Ἡ	ὁ	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_716|e_6|ref=fr._6
+3	γοῦν	γοῦν	d	d--------	_	8	AuxY	_	t_717|e_6|ref=fr._6
+4	Ἐρυθραία	ἐρυθραία	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_718|t_716|ref=fr._6
+5	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_719|e_6|ref=fr._6
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_720|t_721|ref=fr._7
+7	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_721|t_719|ref=fr._8
+8	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._1
+9	·	·	u	u--------	_	8	AuxK	_	t_722|e_6|ref=fr._8
 
-# source = Oracula Sibyllina, Fragmenta 8
+# source = Oracula Sibyllina, fr. 8
 # text = τί δή μοι , φησίν , ὦ δέσποτα , τὴν τῆς μαντείας ἐπισκήπτεις ἀνάγκην , καὶ οὐχὶ μᾶλλον ἀπὸ τῆς γῆς μετέωρον ἀρθεῖσαν διαφυλάττεις , ἄχρι τῆς μακαριωτάτης σῆς ἐλεύσεως ημερας ;
 # sent_id = 44
-1	τί	τίς	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_723|ref=Fragmenta_8
-2	δή	δή	d	d--------	_	16	AuxY	_	t_724|ref=Fragmenta_8
-3	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	13	OBJ	_	t_725|ref=Fragmenta_8
-4	,	,	u	u--------	_	5	AuxX	_	t_726|ref=Fragmenta_8
-5	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_727|ref=Fragmenta_8
-6	,	,	u	u--------	_	5	AuxX	_	t_728|ref=Fragmenta_8
-7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_729|ref=Fragmenta_8
-8	δέσποτα	δεσπότης	n	n-s---mv-	Case=v|Gender=m|Number=s	16	ExD	_	t_730|ref=Fragmenta_8
-9	,	,	u	u--------	_	5	AuxX	_	t_731|ref=Fragmenta_8
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_732|ref=Fragmenta_8
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_733|ref=Fragmenta_8
-12	μαντείας	μαντεία	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_734|ref=Fragmenta_8
-13	ἐπισκήπτεις	ἐπισκήπτω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	16	OBJ	_	t_735|ref=Fragmenta_8
-14	ἀνάγκην	ἀνάγκη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_736|ref=Fragmenta_8
-15	,	,	u	u--------	_	5	AuxX	_	t_737|ref=Fragmenta_8
-16	καὶ	καί	c	c--------	_	5	COORD	_	t_738|ref=Fragmenta_8
-17	οὐχὶ	οὐ	d	d--------	_	24	AuxZ	_	t_739|ref=Fragmenta_8
-18	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	24	ADV	_	t_740|ref=Fragmenta_8
-19	ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_741|ref=Fragmenta_8
-20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_742|ref=Fragmenta_8
-21	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ADV	_	t_743|ref=Fragmenta_8
-22	μετέωρον	μετέωρος	a	a-s---fa-	Case=a|Gender=f|Number=s	23	AtvV	_	t_744|ref=Fragmenta_8
-23	ἀρθεῖσαν	αἴρω	v	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	24	OBJ	_	t_745|ref=Fragmenta_8
-24	διαφυλάττεις	διαφυλάσσω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	16	OBJ	_	t_746|ref=Fragmenta_8
-25	,	,	u	u--------	_	5	AuxX	_	t_747|ref=Fragmenta_8
-26	ἄχρι	ἄχρι	r	r--------	_	24	AuxP	_	t_748|ref=Fragmenta_8
-27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_749|ref=Fragmenta_8
-28	μακαριωτάτης	μακάριος	a	a-s---fgs	Case=g|Degree=s|Gender=f|Number=s	30	ATR	_	t_750|ref=Fragmenta_8
-29	σῆς	σός	a	a-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_751|ref=Fragmenta_8
-30	ἐλεύσεως	ἄφιξις	n	n-s---fg-	Case=g|Gender=f|Number=s	26	ADV	_	t_752|ref=Fragmenta_8
-31	ημερας	ημερα	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	24	ADV	_	t_753|ref=Fragmenta_8
-32	;	;	u	u--------	_	5	AuxK	_	t_754|ref=Fragmenta_8
+1	τί	τίς	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_723|t_738|ref=fr._8
+2	δή	δή	d	d--------	_	16	AuxY	_	t_724|t_738|ref=fr._8
+3	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	13	OBJ	_	t_725|t_735|ref=fr._8
+4	,	,	u	u--------	_	5	AuxX	_	t_726|t_727|ref=fr._8
+5	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_727|0|ref=fr._8
+6	,	,	u	u--------	_	5	AuxX	_	t_728|t_727|ref=fr._8
+7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_729|t_730|ref=fr._8
+8	δέσποτα	δεσπότης	n	n-s---mv-	Case=v|Gender=m|Number=s	16	ExD	_	t_730|t_738|ref=fr._8
+9	,	,	u	u--------	_	5	AuxX	_	t_731|t_727|ref=fr._8
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_732|t_736|ref=fr._8
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_733|t_734|ref=fr._8
+12	μαντείας	μαντεία	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_734|t_736|ref=fr._8
+13	ἐπισκήπτεις	ἐπισκήπτω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	16	OBJ	_	t_735|t_738|ref=fr._8
+14	ἀνάγκην	ἀνάγκη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_736|t_735|ref=fr._8
+15	,	,	u	u--------	_	5	AuxX	_	t_737|t_727|ref=fr._8
+16	καὶ	καί	c	c--------	_	5	COORD	_	t_738|t_727|ref=fr._8
+17	οὐχὶ	οὐ	d	d--------	_	24	AuxZ	_	t_739|t_746|ref=fr._8
+18	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	24	ADV	_	t_740|t_746|ref=fr._8
+19	ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_741|t_745|ref=fr._8
+20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_742|t_743|ref=fr._8
+21	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ADV	_	t_743|t_741|ref=fr._8
+22	μετέωρον	μετέωρος	a	a-s---fa-	Case=a|Gender=f|Number=s	23	AtvV	_	t_744|t_745|ref=fr._8
+23	ἀρθεῖσαν	αἴρω	v	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	24	OBJ	_	t_745|t_746|ref=fr._8
+24	διαφυλάττεις	διαφυλάσσω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	16	OBJ	_	t_746|t_738|ref=fr._8
+25	,	,	u	u--------	_	5	AuxX	_	t_747|t_727|ref=fr._8
+26	ἄχρι	ἄχρι	r	r--------	_	24	AuxP	_	t_748|t_746|ref=fr._8
+27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_749|t_752|ref=fr._8
+28	μακαριωτάτης	μακάριος	a	a-s---fgs	Case=g|Degree=s|Gender=f|Number=s	30	ATR	_	t_750|t_752|ref=fr._8
+29	σῆς	σός	a	a-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_751|t_752|ref=fr._8
+30	ἐλεύσεως	ἄφιξις	n	n-s---fg-	Case=g|Gender=f|Number=s	26	ADV	_	t_752|t_748|ref=fr._8
+31	ημερας	ημερα	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	24	ADV	_	t_753|t_746|ref=fr._8
+32	;	;	u	u--------	_	5	AuxK	_	t_754|t_727|ref=fr._8
 

@@ -1,838 +1,838 @@
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Πινδάρου γένος [0] .
 # sent_id = 1
-1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1|ref=Vita Thomana et hypothesis Olympiorum_1
-2	γένος	γένος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_2|ref=Vita Thomana et hypothesis Olympiorum_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Vita Thomana et hypothesis Olympiorum_1
-4	.	.	u	u--------	_	3	AuxK	_	t_3|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1|t_2|ref=Vit.Thoman._1
+2	γένος	γένος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_2|e_1|ref=Vit.Thoman._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Vit.Thoman._1
+4	.	.	u	u--------	_	3	AuxK	_	t_3|e_1|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Πίνδαρος τὸ μὲν γένος Θηβαῖος , υἱὸς Δαϊφάντου κατὰ τοὺς ἀληθεστέρους [0] ·
 # sent_id = 2
-1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_4|ref=Vita Thomana et hypothesis Olympiorum_1
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_5|ref=Vita Thomana et hypothesis Olympiorum_1
-3	μὲν	μέν	d	d--------	_	12	AuxY	_	t_6|ref=Vita Thomana et hypothesis Olympiorum_1
-4	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_7|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Θηβαῖος	θηβαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_8|ref=Vita Thomana et hypothesis Olympiorum_1
-6	,	,	u	u--------	_	12	APOS	_	t_9|ref=Vita Thomana et hypothesis Olympiorum_1
-7	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_10|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Δαϊφάντου	δαΐφατος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_11|ref=Vita Thomana et hypothesis Olympiorum_1
-9	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_12|ref=Vita Thomana et hypothesis Olympiorum_1
-10	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_13|ref=Vita Thomana et hypothesis Olympiorum_1
-11	ἀληθεστέρους	ἀληθής	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_14|ref=Vita Thomana et hypothesis Olympiorum_1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Vita Thomana et hypothesis Olympiorum_1
-13	·	·	u	u--------	_	12	AuxK	_	t_15|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_4|e_2|ref=Vit.Thoman._1
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_5|t_7|ref=Vit.Thoman._1
+3	μὲν	μέν	d	d--------	_	12	AuxY	_	t_6|e_2|ref=Vit.Thoman._1
+4	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_7|t_8|ref=Vit.Thoman._1
+5	Θηβαῖος	θηβαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_8|t_9|ref=Vit.Thoman._1
+6	,	,	u	u--------	_	12	APOS	_	t_9|e_2|ref=Vit.Thoman._1
+7	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_10|t_9|ref=Vit.Thoman._1
+8	Δαϊφάντου	δαΐφατος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_11|t_10|ref=Vit.Thoman._1
+9	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_12|e_2|ref=Vit.Thoman._1
+10	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_13|t_14|ref=Vit.Thoman._1
+11	ἀληθεστέρους	ἀληθής	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_14|t_12|ref=Vit.Thoman._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Vit.Thoman._1
+13	·	·	u	u--------	_	12	AuxK	_	t_15|e_2|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = οἱ δὲ Σκοπελίνου [0] ·
 # sent_id = 3
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_16|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_17|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Σκοπελίνου	σκοπέλος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	PNOM	_	t_18|ref=Vita Thomana et hypothesis Olympiorum_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Vita Thomana et hypothesis Olympiorum_1
-5	·	·	u	u--------	_	4	AuxK	_	t_19|ref=Vita Thomana et hypothesis Olympiorum_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_16|e_3|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_17|e_3|ref=Vit.Thoman._1
+3	Σκοπελίνου	σκοπέλος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	PNOM	_	t_18|e_3|ref=Vit.Thoman._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Vit.Thoman._1
+5	·	·	u	u--------	_	4	AuxK	_	t_19|e_3|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = οἱ δὲ τὸν αὐτὸν Σκοπελίνου φασίν .
 # sent_id = 4
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_20|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_21|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_22|ref=Vita Thomana et hypothesis Olympiorum_1
-4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_23|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Σκοπελίνου	σκοπέλος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_24|ref=Vita Thomana et hypothesis Olympiorum_1
-6	φασίν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_25|ref=Vita Thomana et hypothesis Olympiorum_1
-7	.	.	u	u--------	_	6	AuxK	_	t_26|ref=Vita Thomana et hypothesis Olympiorum_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_20|t_25|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_21|t_25|ref=Vit.Thoman._1
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_22|t_23|ref=Vit.Thoman._1
+4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_23|t_25|ref=Vit.Thoman._1
+5	Σκοπελίνου	σκοπέλος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_24|t_23|ref=Vit.Thoman._1
+6	φασίν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_25|0|ref=Vit.Thoman._1
+7	.	.	u	u--------	_	6	AuxK	_	t_26|t_25|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = οἱ δὲ Παγώνδα καὶ Μυρτοῦς , ἀπὸ κώμης Κυνοκεφάλων [0] .
 # sent_id = 5
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_27|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_28|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Παγώνδα	παγώνδης	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_29|ref=Vita Thomana et hypothesis Olympiorum_1
-4	καὶ	καί	c	c--------	_	10	COORD	_	t_30|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Μυρτοῦς	μυρτώ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_31|ref=Vita Thomana et hypothesis Olympiorum_1
-6	,	,	u	u--------	_	10	AuxX	_	t_32|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_33|ref=Vita Thomana et hypothesis Olympiorum_1
-8	κώμης	κώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	PNOM	_	t_34|ref=Vita Thomana et hypothesis Olympiorum_1
-9	Κυνοκεφάλων	κυνοκέφαλος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_35|ref=Vita Thomana et hypothesis Olympiorum_1
-10	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Vita Thomana et hypothesis Olympiorum_1
-11	.	.	u	u--------	_	10	AuxK	_	t_36|ref=Vita Thomana et hypothesis Olympiorum_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_27|e_4|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_28|e_4|ref=Vit.Thoman._1
+3	Παγώνδα	παγώνδης	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_29|t_30|ref=Vit.Thoman._1
+4	καὶ	καί	c	c--------	_	10	COORD	_	t_30|e_4|ref=Vit.Thoman._1
+5	Μυρτοῦς	μυρτώ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_31|t_30|ref=Vit.Thoman._1
+6	,	,	u	u--------	_	10	AuxX	_	t_32|e_4|ref=Vit.Thoman._1
+7	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_33|e_4|ref=Vit.Thoman._1
+8	κώμης	κώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	PNOM	_	t_34|t_33|ref=Vit.Thoman._1
+9	Κυνοκεφάλων	κυνοκέφαλος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_35|t_34|ref=Vit.Thoman._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Vit.Thoman._1
+11	.	.	u	u--------	_	10	AuxK	_	t_36|e_4|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἡ δὲ Μυρτὼ ἐγαμήθη Σκοπελίνῳ τῷ αὐλητῇ , ὃς τὴν αὐλητικὴν διδάσκων τὸν Πίνδαρον , ἐπεὶ εἶδε μείζονος ἕξεως ὄντα , παρέδωκε Λάσῳ τῷ Ἑρμιονεῖ μελοποιῷ , παρ᾿ ᾧ τὴν λυρικὴν ἐπαιδεύθη .
 # sent_id = 6
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_37|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_38|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Μυρτὼ	μυρτώ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_39|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἐγαμήθη	γαμέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_40|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Σκοπελίνῳ	σκοπέλινος	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_41|ref=Vita Thomana et hypothesis Olympiorum_1
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_42|ref=Vita Thomana et hypothesis Olympiorum_1
-7	αὐλητῇ	αὐλητής	n	n-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_43|ref=Vita Thomana et hypothesis Olympiorum_1
-8	,	,	u	u--------	_	4	AuxX	_	t_44|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_45|ref=Vita Thomana et hypothesis Olympiorum_1
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_46|ref=Vita Thomana et hypothesis Olympiorum_1
-11	αὐλητικὴν	αὐλητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_47|ref=Vita Thomana et hypothesis Olympiorum_1
-12	διδάσκων	διδάσκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	22	ADV	_	t_48|ref=Vita Thomana et hypothesis Olympiorum_1
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_49|ref=Vita Thomana et hypothesis Olympiorum_1
-14	Πίνδαρον	πίνδαρος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_50|ref=Vita Thomana et hypothesis Olympiorum_1
-15	,	,	u	u--------	_	4	AuxX	_	t_51|ref=Vita Thomana et hypothesis Olympiorum_1
-16	ἐπεὶ	ἐπεί	c	c--------	_	22	AuxC	_	t_52|ref=Vita Thomana et hypothesis Olympiorum_1
-17	εἶδε	εἶδον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	ADV	_	t_53|ref=Vita Thomana et hypothesis Olympiorum_1
-18	μείζονος	μέγας	a	a-s---fgc	Case=g|Degree=c|Gender=f|Number=s	19	ATR	_	t_54|ref=Vita Thomana et hypothesis Olympiorum_1
-19	ἕξεως	ἕξις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	PNOM	_	t_55|ref=Vita Thomana et hypothesis Olympiorum_1
-20	ὄντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	OBJ	_	t_56|ref=Vita Thomana et hypothesis Olympiorum_1
-21	,	,	u	u--------	_	4	AuxX	_	t_57|ref=Vita Thomana et hypothesis Olympiorum_1
-22	παρέδωκε	παραδίδωμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	ATR	_	t_58|ref=Vita Thomana et hypothesis Olympiorum_1
-23	Λάσῳ	λάσος	n	n-s---md-	Case=d|Gender=m|Number=s	22	OBJ	_	t_59|ref=Vita Thomana et hypothesis Olympiorum_1
-24	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_60|ref=Vita Thomana et hypothesis Olympiorum_1
-25	Ἑρμιονεῖ	ἑρμιονεύς	n	n-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_61|ref=Vita Thomana et hypothesis Olympiorum_1
-26	μελοποιῷ	μελοποιός	n	n-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_62|ref=Vita Thomana et hypothesis Olympiorum_1
-27	,	,	u	u--------	_	4	AuxX	_	t_63|ref=Vita Thomana et hypothesis Olympiorum_1
-28	παρ᾿	παρά	r	r--------	_	32	AuxP	_	t_64|ref=Vita Thomana et hypothesis Olympiorum_1
-29	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_65|ref=Vita Thomana et hypothesis Olympiorum_1
-30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_66|ref=Vita Thomana et hypothesis Olympiorum_1
-31	λυρικὴν	λυρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	32	OBJ	_	t_67|ref=Vita Thomana et hypothesis Olympiorum_1
-32	ἐπαιδεύθη	παιδεύω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	23	ATR	_	t_68|ref=Vita Thomana et hypothesis Olympiorum_1
-33	.	.	u	u--------	_	4	AuxK	_	t_69|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_37|t_39|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_38|t_40|ref=Vit.Thoman._1
+3	Μυρτὼ	μυρτώ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_39|t_40|ref=Vit.Thoman._1
+4	ἐγαμήθη	γαμέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_40|0|ref=Vit.Thoman._1
+5	Σκοπελίνῳ	σκοπέλινος	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_41|t_40|ref=Vit.Thoman._1
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_42|t_41|ref=Vit.Thoman._1
+7	αὐλητῇ	αὐλητής	n	n-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_43|t_41|ref=Vit.Thoman._1
+8	,	,	u	u--------	_	4	AuxX	_	t_44|t_40|ref=Vit.Thoman._1
+9	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_45|t_58|ref=Vit.Thoman._1
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_46|t_47|ref=Vit.Thoman._1
+11	αὐλητικὴν	αὐλητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_47|t_48|ref=Vit.Thoman._1
+12	διδάσκων	διδάσκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	22	ADV	_	t_48|t_58|ref=Vit.Thoman._1
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_49|t_50|ref=Vit.Thoman._1
+14	Πίνδαρον	πίνδαρος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_50|t_48|ref=Vit.Thoman._1
+15	,	,	u	u--------	_	4	AuxX	_	t_51|t_40|ref=Vit.Thoman._1
+16	ἐπεὶ	ἐπεί	c	c--------	_	22	AuxC	_	t_52|t_58|ref=Vit.Thoman._1
+17	εἶδε	εἶδον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	ADV	_	t_53|t_52|ref=Vit.Thoman._1
+18	μείζονος	μέγας	a	a-s---fgc	Case=g|Degree=c|Gender=f|Number=s	19	ATR	_	t_54|t_55|ref=Vit.Thoman._1
+19	ἕξεως	ἕξις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	PNOM	_	t_55|t_56|ref=Vit.Thoman._1
+20	ὄντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	OBJ	_	t_56|t_53|ref=Vit.Thoman._1
+21	,	,	u	u--------	_	4	AuxX	_	t_57|t_40|ref=Vit.Thoman._1
+22	παρέδωκε	παραδίδωμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	ATR	_	t_58|t_41|ref=Vit.Thoman._1
+23	Λάσῳ	λάσος	n	n-s---md-	Case=d|Gender=m|Number=s	22	OBJ	_	t_59|t_58|ref=Vit.Thoman._1
+24	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_60|t_59|ref=Vit.Thoman._1
+25	Ἑρμιονεῖ	ἑρμιονεύς	n	n-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_61|t_59|ref=Vit.Thoman._1
+26	μελοποιῷ	μελοποιός	n	n-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_62|t_59|ref=Vit.Thoman._1
+27	,	,	u	u--------	_	4	AuxX	_	t_63|t_40|ref=Vit.Thoman._1
+28	παρ᾿	παρά	r	r--------	_	32	AuxP	_	t_64|t_68|ref=Vit.Thoman._1
+29	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_65|t_64|ref=Vit.Thoman._1
+30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_66|t_67|ref=Vit.Thoman._1
+31	λυρικὴν	λυρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	32	OBJ	_	t_67|t_68|ref=Vit.Thoman._1
+32	ἐπαιδεύθη	παιδεύω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	23	ATR	_	t_68|t_59|ref=Vit.Thoman._1
+33	.	.	u	u--------	_	4	AuxK	_	t_69|t_40|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = γέγονε δὲ κατὰ [ τοὺς ] χρόνους Αἰσχύλου , καὶ συγγεγένηται , καὶ τέθνηκεν ὅτε καὶ τὰ Περσικὰ ἤκμαζον .
 # sent_id = 7
-1	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	PRED	_	t_70|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_71|ref=Vita Thomana et hypothesis Olympiorum_1
-3	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_72|ref=Vita Thomana et hypothesis Olympiorum_1
-4	[	[	u	u--------	_	0	AuxX	_	t_73|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_74|ref=Vita Thomana et hypothesis Olympiorum_1
-6	]	]	u	u--------	_	4	AuxX	_	t_75|ref=Vita Thomana et hypothesis Olympiorum_1
-7	χρόνους	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	3	PNOM	_	t_76|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Αἰσχύλου	αἰσχύλος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_77|ref=Vita Thomana et hypothesis Olympiorum_1
-9	,	,	u	u--------	_	4	AuxX	_	t_78|ref=Vita Thomana et hypothesis Olympiorum_1
-10	καὶ	καί	d	d--------	_	13	AuxY	_	t_79|ref=Vita Thomana et hypothesis Olympiorum_1
-11	συγγεγένηται	συγγίγνομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	13	PRED	_	t_80|ref=Vita Thomana et hypothesis Olympiorum_1
-12	,	,	u	u--------	_	4	AuxX	_	t_81|ref=Vita Thomana et hypothesis Olympiorum_1
-13	καὶ	καί	c	c--------	_	4	COORD	_	t_82|ref=Vita Thomana et hypothesis Olympiorum_1
-14	τέθνηκεν	θνήσκω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	PRED	_	t_83|ref=Vita Thomana et hypothesis Olympiorum_1
-15	ὅτε	ὅτε	c	c--------	_	14	AuxC	_	t_84|ref=Vita Thomana et hypothesis Olympiorum_1
-16	καὶ	καί	d	d--------	_	18	AuxZ	_	t_85|ref=Vita Thomana et hypothesis Olympiorum_1
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_86|ref=Vita Thomana et hypothesis Olympiorum_1
-18	Περσικὰ	περσικός	a	a-p---na-	Case=a|Gender=n|Number=p	19	OBJ	_	t_87|ref=Vita Thomana et hypothesis Olympiorum_1
-19	ἤκμαζον	ἀκμάζω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ADV	_	t_88|ref=Vita Thomana et hypothesis Olympiorum_1
-20	.	.	u	u--------	_	4	AuxK	_	t_89|ref=Vita Thomana et hypothesis Olympiorum_1
+1	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	PRED	_	t_70|t_82|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_71|t_82|ref=Vit.Thoman._1
+3	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_72|t_70|ref=Vit.Thoman._1
+4	[	[	u	u--------	_	0	AuxX	_	t_73|0|ref=Vit.Thoman._1
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_74|t_76|ref=Vit.Thoman._1
+6	]	]	u	u--------	_	4	AuxX	_	t_75|t_73|ref=Vit.Thoman._1
+7	χρόνους	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	3	PNOM	_	t_76|t_72|ref=Vit.Thoman._1
+8	Αἰσχύλου	αἰσχύλος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_77|t_76|ref=Vit.Thoman._1
+9	,	,	u	u--------	_	4	AuxX	_	t_78|t_73|ref=Vit.Thoman._1
+10	καὶ	καί	d	d--------	_	13	AuxY	_	t_79|t_82|ref=Vit.Thoman._1
+11	συγγεγένηται	συγγίγνομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	13	PRED	_	t_80|t_82|ref=Vit.Thoman._1
+12	,	,	u	u--------	_	4	AuxX	_	t_81|t_73|ref=Vit.Thoman._1
+13	καὶ	καί	c	c--------	_	4	COORD	_	t_82|t_73|ref=Vit.Thoman._1
+14	τέθνηκεν	θνήσκω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	PRED	_	t_83|t_82|ref=Vit.Thoman._1
+15	ὅτε	ὅτε	c	c--------	_	14	AuxC	_	t_84|t_83|ref=Vit.Thoman._1
+16	καὶ	καί	d	d--------	_	18	AuxZ	_	t_85|t_87|ref=Vit.Thoman._1
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_86|t_87|ref=Vit.Thoman._1
+18	Περσικὰ	περσικός	a	a-p---na-	Case=a|Gender=n|Number=p	19	OBJ	_	t_87|t_88|ref=Vit.Thoman._1
+19	ἤκμαζον	ἀκμάζω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ADV	_	t_88|t_84|ref=Vit.Thoman._1
+20	.	.	u	u--------	_	4	AuxK	_	t_89|t_73|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἔσχε δὲ θυγατέρας δύο , Εὔμητιν καὶ Πρωτομάχην .
 # sent_id = 8
-1	ἔσχε	ἔχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_90|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_91|ref=Vita Thomana et hypothesis Olympiorum_1
-3	θυγατέρας	θυγάτηρ	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_92|ref=Vita Thomana et hypothesis Olympiorum_1
-4	δύο	δύο	a	a--------	_	3	ATR	_	t_93|ref=Vita Thomana et hypothesis Olympiorum_1
-5	,	,	u	u--------	_	1	APOS	_	t_94|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Εὔμητιν	εὔμητις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_95|ref=Vita Thomana et hypothesis Olympiorum_1
-7	καὶ	καί	c	c--------	_	5	COORD	_	t_96|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Πρωτομάχην	πρωτομάχη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_97|ref=Vita Thomana et hypothesis Olympiorum_1
-9	.	.	u	u--------	_	1	AuxK	_	t_98|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἔσχε	ἔχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_90|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_91|t_90|ref=Vit.Thoman._1
+3	θυγατέρας	θυγάτηρ	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_92|t_94|ref=Vit.Thoman._1
+4	δύο	δύο	a	a--------	_	3	ATR	_	t_93|t_92|ref=Vit.Thoman._1
+5	,	,	u	u--------	_	1	APOS	_	t_94|t_90|ref=Vit.Thoman._1
+6	Εὔμητιν	εὔμητις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_95|t_96|ref=Vit.Thoman._1
+7	καὶ	καί	c	c--------	_	5	COORD	_	t_96|t_94|ref=Vit.Thoman._1
+8	Πρωτομάχην	πρωτομάχη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_97|t_96|ref=Vit.Thoman._1
+9	.	.	u	u--------	_	1	AuxK	_	t_98|t_90|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = κατῴκει δὲ τὰς Θήβας , πλησίον τοῦ ἱεροῦ τῆς μητρὸς τῶν θεῶν τὴν οἰκίαν ἔχων .
 # sent_id = 9
-1	κατῴκει	κατοικέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_99|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_100|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_101|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	1	OBJ	_	t_102|ref=Vita Thomana et hypothesis Olympiorum_1
-5	,	,	u	u--------	_	1	AuxX	_	t_103|ref=Vita Thomana et hypothesis Olympiorum_1
-6	πλησίον	πλησίος	d	d--------	_	1	ADV	_	t_104|ref=Vita Thomana et hypothesis Olympiorum_1
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_105|ref=Vita Thomana et hypothesis Olympiorum_1
-8	ἱεροῦ	ἱερόν	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_106|ref=Vita Thomana et hypothesis Olympiorum_1
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_107|ref=Vita Thomana et hypothesis Olympiorum_1
-10	μητρὸς	μήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_108|ref=Vita Thomana et hypothesis Olympiorum_1
-11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_109|ref=Vita Thomana et hypothesis Olympiorum_1
-12	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_110|ref=Vita Thomana et hypothesis Olympiorum_1
-13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_111|ref=Vita Thomana et hypothesis Olympiorum_1
-14	οἰκίαν	οἰκία	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_112|ref=Vita Thomana et hypothesis Olympiorum_1
-15	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_113|ref=Vita Thomana et hypothesis Olympiorum_1
-16	.	.	u	u--------	_	1	AuxK	_	t_114|ref=Vita Thomana et hypothesis Olympiorum_1
+1	κατῴκει	κατοικέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_99|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_100|t_99|ref=Vit.Thoman._1
+3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_101|t_102|ref=Vit.Thoman._1
+4	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	1	OBJ	_	t_102|t_99|ref=Vit.Thoman._1
+5	,	,	u	u--------	_	1	AuxX	_	t_103|t_99|ref=Vit.Thoman._1
+6	πλησίον	πλησίος	d	d--------	_	1	ADV	_	t_104|t_99|ref=Vit.Thoman._1
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_105|t_106|ref=Vit.Thoman._1
+8	ἱεροῦ	ἱερόν	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_106|t_104|ref=Vit.Thoman._1
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_107|t_108|ref=Vit.Thoman._1
+10	μητρὸς	μήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_108|t_106|ref=Vit.Thoman._1
+11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_109|t_110|ref=Vit.Thoman._1
+12	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_110|t_108|ref=Vit.Thoman._1
+13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_111|t_112|ref=Vit.Thoman._1
+14	οἰκίαν	οἰκία	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_112|t_113|ref=Vit.Thoman._1
+15	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_113|t_99|ref=Vit.Thoman._1
+16	.	.	u	u--------	_	1	AuxK	_	t_114|t_99|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἐτίμα δὲ τὴν θεὸν σφόδρα , ὢν εὐσεβέστατος , καὶ τὸν Πᾶνα , καὶ τὸν Ἀπόλλωνα , εἰς ὃν καὶ πλεῖστα γέγραφε .
 # sent_id = 10
-1	ἐτίμα	τιμάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_115|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_116|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_117|ref=Vita Thomana et hypothesis Olympiorum_1
-4	θεὸν	θεός	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_118|ref=Vita Thomana et hypothesis Olympiorum_1
-5	σφόδρα	σφόδρα	d	d--------	_	1	ADV	_	t_119|ref=Vita Thomana et hypothesis Olympiorum_1
-6	,	,	u	u--------	_	1	AuxX	_	t_120|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_121|ref=Vita Thomana et hypothesis Olympiorum_1
-8	εὐσεβέστατος	εὐσεβής	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	7	PNOM	_	t_122|ref=Vita Thomana et hypothesis Olympiorum_1
-9	,	,	u	u--------	_	1	AuxX	_	t_123|ref=Vita Thomana et hypothesis Olympiorum_1
-10	καὶ	καί	d	d--------	_	14	AuxY	_	t_124|ref=Vita Thomana et hypothesis Olympiorum_1
-11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_125|ref=Vita Thomana et hypothesis Olympiorum_1
-12	Πᾶνα	πάν	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_126|ref=Vita Thomana et hypothesis Olympiorum_1
-13	,	,	u	u--------	_	1	AuxX	_	t_127|ref=Vita Thomana et hypothesis Olympiorum_1
-14	καὶ	καί	c	c--------	_	1	COORD	_	t_128|ref=Vita Thomana et hypothesis Olympiorum_1
-15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_129|ref=Vita Thomana et hypothesis Olympiorum_1
-16	Ἀπόλλωνα	ἀπόλλων	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_130|ref=Vita Thomana et hypothesis Olympiorum_1
-17	,	,	u	u--------	_	1	AuxX	_	t_131|ref=Vita Thomana et hypothesis Olympiorum_1
-18	εἰς	εἰς	r	r--------	_	22	AuxP	_	t_132|ref=Vita Thomana et hypothesis Olympiorum_1
-19	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	18	ADV	_	t_133|ref=Vita Thomana et hypothesis Olympiorum_1
-20	καὶ	καί	d	d--------	_	21	AuxZ	_	t_134|ref=Vita Thomana et hypothesis Olympiorum_1
-21	πλεῖστα	πλεῖστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	22	ADV	_	t_135|ref=Vita Thomana et hypothesis Olympiorum_1
-22	γέγραφε	γράφω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	16	ATR	_	t_136|ref=Vita Thomana et hypothesis Olympiorum_1
-23	.	.	u	u--------	_	1	AuxK	_	t_137|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἐτίμα	τιμάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_115|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_116|t_115|ref=Vit.Thoman._1
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_117|t_118|ref=Vit.Thoman._1
+4	θεὸν	θεός	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_118|t_128|ref=Vit.Thoman._1
+5	σφόδρα	σφόδρα	d	d--------	_	1	ADV	_	t_119|t_115|ref=Vit.Thoman._1
+6	,	,	u	u--------	_	1	AuxX	_	t_120|t_115|ref=Vit.Thoman._1
+7	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_121|t_115|ref=Vit.Thoman._1
+8	εὐσεβέστατος	εὐσεβής	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	7	PNOM	_	t_122|t_121|ref=Vit.Thoman._1
+9	,	,	u	u--------	_	1	AuxX	_	t_123|t_115|ref=Vit.Thoman._1
+10	καὶ	καί	d	d--------	_	14	AuxY	_	t_124|t_128|ref=Vit.Thoman._1
+11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_125|t_126|ref=Vit.Thoman._1
+12	Πᾶνα	πάν	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_126|t_128|ref=Vit.Thoman._1
+13	,	,	u	u--------	_	1	AuxX	_	t_127|t_115|ref=Vit.Thoman._1
+14	καὶ	καί	c	c--------	_	1	COORD	_	t_128|t_115|ref=Vit.Thoman._1
+15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_129|t_130|ref=Vit.Thoman._1
+16	Ἀπόλλωνα	ἀπόλλων	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_130|t_128|ref=Vit.Thoman._1
+17	,	,	u	u--------	_	1	AuxX	_	t_131|t_115|ref=Vit.Thoman._1
+18	εἰς	εἰς	r	r--------	_	22	AuxP	_	t_132|t_136|ref=Vit.Thoman._1
+19	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	18	ADV	_	t_133|t_132|ref=Vit.Thoman._1
+20	καὶ	καί	d	d--------	_	21	AuxZ	_	t_134|t_135|ref=Vit.Thoman._1
+21	πλεῖστα	πλεῖστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	22	ADV	_	t_135|t_136|ref=Vit.Thoman._1
+22	γέγραφε	γράφω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	16	ATR	_	t_136|t_130|ref=Vit.Thoman._1
+23	.	.	u	u--------	_	1	AuxK	_	t_137|t_115|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = νεώτερος δὲ ἦν Σιμωνίδου , πρεσβύτερος δὲ Βακχυλίδου [0] .
 # sent_id = 11
-1	νεώτερος	νέος	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	3	PNOM	_	t_138|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_139|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	PRED	_	t_140|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Σιμωνίδου	σιμωνίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_141|ref=Vita Thomana et hypothesis Olympiorum_1
-5	,	,	u	u--------	_	0	AuxX	_	t_142|ref=Vita Thomana et hypothesis Olympiorum_1
-6	πρεσβύτερος	πρέσβυς	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	9	PNOM	_	t_143|ref=Vita Thomana et hypothesis Olympiorum_1
-7	δὲ	δέ	c	c--------	_	5	COORD	_	t_144|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Βακχυλίδου	βακχυλίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	9	PNOM	_	t_145|ref=Vita Thomana et hypothesis Olympiorum_1
-9	[0]	[0]	-	---------	_	7	PRED	_	e_5|ref=Vita Thomana et hypothesis Olympiorum_1
-10	.	.	u	u--------	_	5	AuxK	_	t_146|ref=Vita Thomana et hypothesis Olympiorum_1
+1	νεώτερος	νέος	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	3	PNOM	_	t_138|t_140|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_139|t_144|ref=Vit.Thoman._1
+3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	PRED	_	t_140|t_144|ref=Vit.Thoman._1
+4	Σιμωνίδου	σιμωνίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_141|t_138|ref=Vit.Thoman._1
+5	,	,	u	u--------	_	0	AuxX	_	t_142|0|ref=Vit.Thoman._1
+6	πρεσβύτερος	πρέσβυς	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	9	PNOM	_	t_143|e_5|ref=Vit.Thoman._1
+7	δὲ	δέ	c	c--------	_	5	COORD	_	t_144|t_142|ref=Vit.Thoman._1
+8	Βακχυλίδου	βακχυλίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	9	PNOM	_	t_145|e_5|ref=Vit.Thoman._1
+9	[0]	[0]	-	---------	_	7	PRED	_	e_5|t_144|ref=Vit.Thoman._1
+10	.	.	u	u--------	_	5	AuxK	_	t_146|t_142|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = κατὰ δὲ τὴν Ξέρξου κατάβασιν ἤκμαζε τῇ ἡλικίᾳ .
 # sent_id = 12
-1	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_147|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_148|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_149|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Ξέρξου	ξέρξης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_150|ref=Vita Thomana et hypothesis Olympiorum_1
-5	κατάβασιν	κατάβασις	n	n-s---fa-	Case=a|Gender=f|Number=s	1	ADV	_	t_151|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ἤκμαζε	ἀκμάζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_152|ref=Vita Thomana et hypothesis Olympiorum_1
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_153|ref=Vita Thomana et hypothesis Olympiorum_1
-8	ἡλικίᾳ	ἡλικία	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_154|ref=Vita Thomana et hypothesis Olympiorum_1
-9	.	.	u	u--------	_	6	AuxK	_	t_155|ref=Vita Thomana et hypothesis Olympiorum_1
+1	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_147|t_152|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_148|t_152|ref=Vit.Thoman._1
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_149|t_151|ref=Vit.Thoman._1
+4	Ξέρξου	ξέρξης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_150|t_151|ref=Vit.Thoman._1
+5	κατάβασιν	κατάβασις	n	n-s---fa-	Case=a|Gender=f|Number=s	1	ADV	_	t_151|t_147|ref=Vit.Thoman._1
+6	ἤκμαζε	ἀκμάζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_152|0|ref=Vit.Thoman._1
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_153|t_154|ref=Vit.Thoman._1
+8	ἡλικίᾳ	ἡλικία	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_154|t_152|ref=Vit.Thoman._1
+9	.	.	u	u--------	_	6	AuxK	_	t_155|t_152|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἐτιμήθη δὲ σφόδρα ὑπὸ πάντων τῶν Ἑλλήνων διὰ τὸ ὑπὸ τοῦ Ἀπόλλωνος φιλεῖσθαι οὕτως , ὡς καὶ μερίδα λαμβάνειν ἀπὸ τῶν προσφερομένων τῷ θεῷ , καὶ τὸν ἱερέα βοᾶν ἐν ταῖς θυσίαις ·
 # sent_id = 13
-1	ἐτιμήθη	τιμάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_156|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_157|ref=Vita Thomana et hypothesis Olympiorum_1
-3	σφόδρα	σφόδρα	d	d--------	_	1	ADV	_	t_158|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_159|ref=Vita Thomana et hypothesis Olympiorum_1
-5	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_160|ref=Vita Thomana et hypothesis Olympiorum_1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_161|ref=Vita Thomana et hypothesis Olympiorum_1
-7	Ἑλλήνων	ἕλλην	n	n-p---mg-	Case=g|Gender=m|Number=p	4	OBJ	_	t_162|ref=Vita Thomana et hypothesis Olympiorum_1
-8	διὰ	διά	r	r--------	_	1	AuxP	_	t_163|ref=Vita Thomana et hypothesis Olympiorum_1
-9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	26	ATR	_	t_164|ref=Vita Thomana et hypothesis Olympiorum_1
-10	ὑπὸ	ὑπό	r	r--------	_	13	AuxP	_	t_165|ref=Vita Thomana et hypothesis Olympiorum_1
-11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_166|ref=Vita Thomana et hypothesis Olympiorum_1
-12	Ἀπόλλωνος	ἀπόλλων	n	n-s---mg-	Case=g|Gender=m|Number=s	10	OBJ	_	t_167|ref=Vita Thomana et hypothesis Olympiorum_1
-13	φιλεῖσθαι	φιλέω	v	v--pne---	Mood=n|Tense=p|Voice=e	26	ADV	_	t_168|ref=Vita Thomana et hypothesis Olympiorum_1
-14	οὕτως	οὕτως	d	d--------	_	13	ADV	_	t_169|ref=Vita Thomana et hypothesis Olympiorum_1
-15	,	,	u	u--------	_	1	AuxX	_	t_170|ref=Vita Thomana et hypothesis Olympiorum_1
-16	ὡς	ὡς	c	c--------	_	14	AuxC	_	t_171|ref=Vita Thomana et hypothesis Olympiorum_1
-17	καὶ	καί	d	d--------	_	26	AuxY	_	t_172|ref=Vita Thomana et hypothesis Olympiorum_1
-18	μερίδα	μερίς	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_173|ref=Vita Thomana et hypothesis Olympiorum_1
-19	λαμβάνειν	λαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_174|ref=Vita Thomana et hypothesis Olympiorum_1
-20	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_175|ref=Vita Thomana et hypothesis Olympiorum_1
-21	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_176|ref=Vita Thomana et hypothesis Olympiorum_1
-22	προσφερομένων	προσφέρω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	20	ADV	_	t_177|ref=Vita Thomana et hypothesis Olympiorum_1
-23	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	24	ATR	_	t_178|ref=Vita Thomana et hypothesis Olympiorum_1
-24	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	22	OBJ	_	t_179|ref=Vita Thomana et hypothesis Olympiorum_1
-25	,	,	u	u--------	_	1	AuxX	_	t_180|ref=Vita Thomana et hypothesis Olympiorum_1
-26	καὶ	καί	c	c--------	_	8	COORD	_	t_181|ref=Vita Thomana et hypothesis Olympiorum_1
-27	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	28	ATR	_	t_182|ref=Vita Thomana et hypothesis Olympiorum_1
-28	ἱερέα	ἱερεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	29	SBJ	_	t_183|ref=Vita Thomana et hypothesis Olympiorum_1
-29	βοᾶν	βόα	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_184|ref=Vita Thomana et hypothesis Olympiorum_1
-30	ἐν	ἐν	r	r--------	_	29	AuxP	_	t_185|ref=Vita Thomana et hypothesis Olympiorum_1
-31	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	32	ATR	_	t_186|ref=Vita Thomana et hypothesis Olympiorum_1
-32	θυσίαις	θυσία	n	n-p---fd-	Case=d|Gender=f|Number=p	30	ADV	_	t_187|ref=Vita Thomana et hypothesis Olympiorum_1
-33	·	·	u	u--------	_	1	AuxK	_	t_188|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἐτιμήθη	τιμάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_156|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_157|t_156|ref=Vit.Thoman._1
+3	σφόδρα	σφόδρα	d	d--------	_	1	ADV	_	t_158|t_156|ref=Vit.Thoman._1
+4	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_159|t_156|ref=Vit.Thoman._1
+5	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_160|t_162|ref=Vit.Thoman._1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_161|t_162|ref=Vit.Thoman._1
+7	Ἑλλήνων	ἕλλην	n	n-p---mg-	Case=g|Gender=m|Number=p	4	OBJ	_	t_162|t_159|ref=Vit.Thoman._1
+8	διὰ	διά	r	r--------	_	1	AuxP	_	t_163|t_156|ref=Vit.Thoman._1
+9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	26	ATR	_	t_164|t_181|ref=Vit.Thoman._1
+10	ὑπὸ	ὑπό	r	r--------	_	13	AuxP	_	t_165|t_168|ref=Vit.Thoman._1
+11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_166|t_167|ref=Vit.Thoman._1
+12	Ἀπόλλωνος	ἀπόλλων	n	n-s---mg-	Case=g|Gender=m|Number=s	10	OBJ	_	t_167|t_165|ref=Vit.Thoman._1
+13	φιλεῖσθαι	φιλέω	v	v--pne---	Mood=n|Tense=p|Voice=e	26	ADV	_	t_168|t_181|ref=Vit.Thoman._1
+14	οὕτως	οὕτως	d	d--------	_	13	ADV	_	t_169|t_168|ref=Vit.Thoman._1
+15	,	,	u	u--------	_	1	AuxX	_	t_170|t_156|ref=Vit.Thoman._1
+16	ὡς	ὡς	c	c--------	_	14	AuxC	_	t_171|t_169|ref=Vit.Thoman._1
+17	καὶ	καί	d	d--------	_	26	AuxY	_	t_172|t_181|ref=Vit.Thoman._1
+18	μερίδα	μερίς	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_173|t_174|ref=Vit.Thoman._1
+19	λαμβάνειν	λαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_174|t_181|ref=Vit.Thoman._1
+20	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_175|t_174|ref=Vit.Thoman._1
+21	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_176|t_177|ref=Vit.Thoman._1
+22	προσφερομένων	προσφέρω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	20	ADV	_	t_177|t_175|ref=Vit.Thoman._1
+23	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	24	ATR	_	t_178|t_179|ref=Vit.Thoman._1
+24	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	22	OBJ	_	t_179|t_177|ref=Vit.Thoman._1
+25	,	,	u	u--------	_	1	AuxX	_	t_180|t_156|ref=Vit.Thoman._1
+26	καὶ	καί	c	c--------	_	8	COORD	_	t_181|t_163|ref=Vit.Thoman._1
+27	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	28	ATR	_	t_182|t_183|ref=Vit.Thoman._1
+28	ἱερέα	ἱερεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	29	SBJ	_	t_183|t_184|ref=Vit.Thoman._1
+29	βοᾶν	βόα	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_184|t_181|ref=Vit.Thoman._1
+30	ἐν	ἐν	r	r--------	_	29	AuxP	_	t_185|t_184|ref=Vit.Thoman._1
+31	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	32	ATR	_	t_186|t_187|ref=Vit.Thoman._1
+32	θυσίαις	θυσία	n	n-p---fd-	Case=d|Gender=f|Number=p	30	ADV	_	t_187|t_185|ref=Vit.Thoman._1
+33	·	·	u	u--------	_	1	AuxK	_	t_188|t_156|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Πίνδαρον ἐπὶ τὸ δεῖπνον τοῦ θεοῦ [0] .
 # sent_id = 14
-1	Πίνδαρον	πίνδαρος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_189|ref=Vita Thomana et hypothesis Olympiorum_1
-2	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_190|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_191|ref=Vita Thomana et hypothesis Olympiorum_1
-4	δεῖπνον	δεῖπνον	n	n-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_192|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_193|ref=Vita Thomana et hypothesis Olympiorum_1
-6	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_194|ref=Vita Thomana et hypothesis Olympiorum_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Vita Thomana et hypothesis Olympiorum_1
-8	.	.	u	u--------	_	7	AuxK	_	t_195|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Πίνδαρον	πίνδαρος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_189|e_6|ref=Vit.Thoman._1
+2	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_190|e_6|ref=Vit.Thoman._1
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_191|t_192|ref=Vit.Thoman._1
+4	δεῖπνον	δεῖπνον	n	n-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_192|t_190|ref=Vit.Thoman._1
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_193|t_194|ref=Vit.Thoman._1
+6	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_194|t_192|ref=Vit.Thoman._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Vit.Thoman._1
+8	.	.	u	u--------	_	7	AuxK	_	t_195|e_6|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = λόγος καὶ τὸν Πᾶνα εὑρῆσαί ποτε ᾄδοντα περὶ τοῦ Πέλοπος [0] ·
 # sent_id = 15
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_196|ref=Vita Thomana et hypothesis Olympiorum_1
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_197|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_198|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Πᾶνα	πάν	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_199|ref=Vita Thomana et hypothesis Olympiorum_1
-5	εὑρῆσαί	εὑρίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	11	SBJ	_	t_200|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ποτε	ποτέ	d	d--------	_	7	ADV	_	t_201|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ᾄδοντα	ἀείδω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_202|ref=Vita Thomana et hypothesis Olympiorum_1
-8	περὶ	περί	r	r--------	_	7	AuxP	_	t_203|ref=Vita Thomana et hypothesis Olympiorum_1
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_204|ref=Vita Thomana et hypothesis Olympiorum_1
-10	Πέλοπος	πέλοψ	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_205|ref=Vita Thomana et hypothesis Olympiorum_1
-11	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Vita Thomana et hypothesis Olympiorum_1
-12	·	·	u	u--------	_	11	AuxK	_	t_206|ref=Vita Thomana et hypothesis Olympiorum_1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_196|e_7|ref=Vit.Thoman._1
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_197|t_199|ref=Vit.Thoman._1
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_198|t_199|ref=Vit.Thoman._1
+4	Πᾶνα	πάν	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_199|t_202|ref=Vit.Thoman._1
+5	εὑρῆσαί	εὑρίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	11	SBJ	_	t_200|e_7|ref=Vit.Thoman._1
+6	ποτε	ποτέ	d	d--------	_	7	ADV	_	t_201|t_202|ref=Vit.Thoman._1
+7	ᾄδοντα	ἀείδω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_202|t_200|ref=Vit.Thoman._1
+8	περὶ	περί	r	r--------	_	7	AuxP	_	t_203|t_202|ref=Vit.Thoman._1
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_204|t_205|ref=Vit.Thoman._1
+10	Πέλοπος	πέλοψ	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_205|t_203|ref=Vit.Thoman._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Vit.Thoman._1
+12	·	·	u	u--------	_	11	AuxK	_	t_206|e_7|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = λόγος δὲ ὅτι ποτὲ Λακεδαιμόνιοι Βοιωτοὺς ἐμπρήσαντες καὶ Θήβας ἀπέσχοντο μόνης τῆς οἰκίας αὐτοῦ , θεασάμενοι ἐπιγεγραμμένον τὸν στίχον τοῦτον [0] ·
 # sent_id = 16
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	21	PNOM	_	t_207|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_208|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ὅτι	ὅτι	c	c--------	_	21	AuxC	_	t_209|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ποτὲ	ποτέ	d	d--------	_	10	ADV	_	t_210|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Λακεδαιμόνιοι	λακεδαιμόνιος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_211|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Βοιωτοὺς	βοιωτός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_212|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ἐμπρήσαντες	ἐμπίμπρημι	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	10	ADV	_	t_213|ref=Vita Thomana et hypothesis Olympiorum_1
-8	καὶ	καί	d	d--------	_	7	AuxZ	_	t_214|ref=Vita Thomana et hypothesis Olympiorum_1
-9	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_215|ref=Vita Thomana et hypothesis Olympiorum_1
-10	ἀπέσχοντο	ἀπέχω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	3	OBJ	_	t_216|ref=Vita Thomana et hypothesis Olympiorum_1
-11	μόνης	μόνος	a	a-s---fg-	Case=g|Gender=f|Number=s	9	ATV	_	t_217|ref=Vita Thomana et hypothesis Olympiorum_1
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_218|ref=Vita Thomana et hypothesis Olympiorum_1
-13	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_219|ref=Vita Thomana et hypothesis Olympiorum_1
-14	αὐτοῦ	αὐτός	d	d--------	_	11	ADV	_	t_220|ref=Vita Thomana et hypothesis Olympiorum_1
-15	,	,	u	u--------	_	21	AuxX	_	t_221|ref=Vita Thomana et hypothesis Olympiorum_1
-16	θεασάμενοι	θεάομαι	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	10	ADV	_	t_222|ref=Vita Thomana et hypothesis Olympiorum_1
-17	ἐπιγεγραμμένον	ἐπιγράφω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	16	OBJ	_	t_223|ref=Vita Thomana et hypothesis Olympiorum_1
-18	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_224|ref=Vita Thomana et hypothesis Olympiorum_1
-19	στίχον	στίχος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	SBJ	_	t_225|ref=Vita Thomana et hypothesis Olympiorum_1
-20	τοῦτον	οὗτος	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_226|ref=Vita Thomana et hypothesis Olympiorum_1
-21	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Vita Thomana et hypothesis Olympiorum_1
-22	·	·	u	u--------	_	21	AuxK	_	t_227|ref=Vita Thomana et hypothesis Olympiorum_1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	21	PNOM	_	t_207|e_8|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_208|e_8|ref=Vit.Thoman._1
+3	ὅτι	ὅτι	c	c--------	_	21	AuxC	_	t_209|e_8|ref=Vit.Thoman._1
+4	ποτὲ	ποτέ	d	d--------	_	10	ADV	_	t_210|t_216|ref=Vit.Thoman._1
+5	Λακεδαιμόνιοι	λακεδαιμόνιος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_211|t_216|ref=Vit.Thoman._1
+6	Βοιωτοὺς	βοιωτός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_212|t_214|ref=Vit.Thoman._1
+7	ἐμπρήσαντες	ἐμπίμπρημι	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	10	ADV	_	t_213|t_216|ref=Vit.Thoman._1
+8	καὶ	καί	d	d--------	_	7	AuxZ	_	t_214|t_213|ref=Vit.Thoman._1
+9	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_215|t_216|ref=Vit.Thoman._1
+10	ἀπέσχοντο	ἀπέχω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	3	OBJ	_	t_216|t_209|ref=Vit.Thoman._1
+11	μόνης	μόνος	a	a-s---fg-	Case=g|Gender=f|Number=s	9	ATV	_	t_217|t_215|ref=Vit.Thoman._1
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_218|t_219|ref=Vit.Thoman._1
+13	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_219|t_217|ref=Vit.Thoman._1
+14	αὐτοῦ	αὐτός	d	d--------	_	11	ADV	_	t_220|t_217|ref=Vit.Thoman._1
+15	,	,	u	u--------	_	21	AuxX	_	t_221|e_8|ref=Vit.Thoman._1
+16	θεασάμενοι	θεάομαι	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	10	ADV	_	t_222|t_216|ref=Vit.Thoman._1
+17	ἐπιγεγραμμένον	ἐπιγράφω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	16	OBJ	_	t_223|t_222|ref=Vit.Thoman._1
+18	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_224|t_225|ref=Vit.Thoman._1
+19	στίχον	στίχος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	SBJ	_	t_225|t_223|ref=Vit.Thoman._1
+20	τοῦτον	οὗτος	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_226|t_225|ref=Vit.Thoman._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Vit.Thoman._1
+22	·	·	u	u--------	_	21	AuxK	_	t_227|e_8|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Πινδάρου τοῦ μουσοποιοῦ τὴν στέγην μὴ καίετε .
 # sent_id = 17
-1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_228|ref=Vita Thomana et hypothesis Olympiorum_1
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_229|ref=Vita Thomana et hypothesis Olympiorum_1
-3	μουσοποιοῦ	μουσοποιός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_230|ref=Vita Thomana et hypothesis Olympiorum_1
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_231|ref=Vita Thomana et hypothesis Olympiorum_1
-5	στέγην	στέγη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_232|ref=Vita Thomana et hypothesis Olympiorum_1
-6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_233|ref=Vita Thomana et hypothesis Olympiorum_1
-7	καίετε	καίω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_234|ref=Vita Thomana et hypothesis Olympiorum_1
-8	.	.	u	u--------	_	7	AuxK	_	t_235|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Πινδάρου	πίνδαρος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_228|t_232|ref=Vit.Thoman._1
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_229|t_228|ref=Vit.Thoman._1
+3	μουσοποιοῦ	μουσοποιός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_230|t_228|ref=Vit.Thoman._1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_231|t_232|ref=Vit.Thoman._1
+5	στέγην	στέγη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_232|t_234|ref=Vit.Thoman._1
+6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_233|t_234|ref=Vit.Thoman._1
+7	καίετε	καίω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_234|0|ref=Vit.Thoman._1
+8	.	.	u	u--------	_	7	AuxK	_	t_235|t_234|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ὅπερ καὶ τὸν Ἀλέξανδρον μετὰ ταῦτά φασι πεποιηκέναι ·
 # sent_id = 18
-1	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_236|ref=Vita Thomana et hypothesis Olympiorum_1
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_237|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_238|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Ἀλέξανδρον	ἀλέξανδρος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	SBJ	_	t_239|ref=Vita Thomana et hypothesis Olympiorum_1
-5	μετὰ	μετά	r	r--------	_	8	AuxP	_	t_240|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ταῦτά	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	5	ADV	_	t_241|ref=Vita Thomana et hypothesis Olympiorum_1
-7	φασι	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_242|ref=Vita Thomana et hypothesis Olympiorum_1
-8	πεποιηκέναι	ποιέω	v	v--rna---	Mood=n|Tense=r|Voice=a	7	OBJ	_	t_243|ref=Vita Thomana et hypothesis Olympiorum_1
-9	·	·	u	u--------	_	7	AuxK	_	t_244|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_236|t_243|ref=Vit.Thoman._1
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_237|t_239|ref=Vit.Thoman._1
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_238|t_239|ref=Vit.Thoman._1
+4	Ἀλέξανδρον	ἀλέξανδρος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	SBJ	_	t_239|t_243|ref=Vit.Thoman._1
+5	μετὰ	μετά	r	r--------	_	8	AuxP	_	t_240|t_243|ref=Vit.Thoman._1
+6	ταῦτά	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	5	ADV	_	t_241|t_240|ref=Vit.Thoman._1
+7	φασι	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_242|0|ref=Vit.Thoman._1
+8	πεποιηκέναι	ποιέω	v	v--rna---	Mood=n|Tense=r|Voice=a	7	OBJ	_	t_243|t_242|ref=Vit.Thoman._1
+9	·	·	u	u--------	_	7	AuxK	_	t_244|t_242|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = καὶ γὰρ οὗτος ἐμπρήσας τὰς Θήβας μόνης ἐκείνης ἐφείσατο .
 # sent_id = 19
-1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_245|ref=Vita Thomana et hypothesis Olympiorum_1
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_246|ref=Vita Thomana et hypothesis Olympiorum_1
-3	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_247|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἐμπρήσας	ἐμπίμπρημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_248|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_249|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_250|ref=Vita Thomana et hypothesis Olympiorum_1
-7	μόνης	μόνος	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATV	_	t_251|ref=Vita Thomana et hypothesis Olympiorum_1
-8	ἐκείνης	ἐκεῖνος	p	p-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_252|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ἐφείσατο	φείδομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_253|ref=Vita Thomana et hypothesis Olympiorum_1
-10	.	.	u	u--------	_	9	AuxK	_	t_254|ref=Vita Thomana et hypothesis Olympiorum_1
+1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_245|t_247|ref=Vit.Thoman._1
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_246|t_253|ref=Vit.Thoman._1
+3	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_247|t_253|ref=Vit.Thoman._1
+4	ἐμπρήσας	ἐμπίμπρημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_248|t_253|ref=Vit.Thoman._1
+5	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_249|t_250|ref=Vit.Thoman._1
+6	Θήβας	θῆβαι	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_250|t_248|ref=Vit.Thoman._1
+7	μόνης	μόνος	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATV	_	t_251|t_250|ref=Vit.Thoman._1
+8	ἐκείνης	ἐκεῖνος	p	p-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_252|t_251|ref=Vit.Thoman._1
+9	ἐφείσατο	φείδομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_253|0|ref=Vit.Thoman._1
+10	.	.	u	u--------	_	9	AuxK	_	t_254|t_253|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἐχθρωδῶς δὲ διακειμένων τῶν Ἀθηναίων πρὸς τοὺς Θηβαίους , ἐπεὶ εἶπεν ἐν τοῖς ποιήμασιν [0] ·
 # sent_id = 20
-1	ἐχθρωδῶς	ἐχθρωδῶς	d	d--------	_	3	ADV	_	t_255|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_256|ref=Vita Thomana et hypothesis Olympiorum_1
-3	διακειμένων	διάκειμαι	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	15	ADV	_	t_257|ref=Vita Thomana et hypothesis Olympiorum_1
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_258|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	SBJ	_	t_259|ref=Vita Thomana et hypothesis Olympiorum_1
-6	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_260|ref=Vita Thomana et hypothesis Olympiorum_1
-7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_261|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Θηβαίους	θηβαῖος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_262|ref=Vita Thomana et hypothesis Olympiorum_1
-9	,	,	u	u--------	_	15	AuxX	_	t_263|ref=Vita Thomana et hypothesis Olympiorum_1
-10	ἐπεὶ	ἐπεί	c	c--------	_	15	AuxC	_	t_264|ref=Vita Thomana et hypothesis Olympiorum_1
-11	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_265|ref=Vita Thomana et hypothesis Olympiorum_1
-12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_266|ref=Vita Thomana et hypothesis Olympiorum_1
-13	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	14	ATR	_	t_267|ref=Vita Thomana et hypothesis Olympiorum_1
-14	ποιήμασιν	ποίημα	n	n-p---nd-	Case=d|Gender=n|Number=p	12	ADV	_	t_268|ref=Vita Thomana et hypothesis Olympiorum_1
-15	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Vita Thomana et hypothesis Olympiorum_1
-16	·	·	u	u--------	_	15	AuxK	_	t_269|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἐχθρωδῶς	ἐχθρωδῶς	d	d--------	_	3	ADV	_	t_255|t_257|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_256|e_9|ref=Vit.Thoman._1
+3	διακειμένων	διάκειμαι	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	15	ADV	_	t_257|e_9|ref=Vit.Thoman._1
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_258|t_259|ref=Vit.Thoman._1
+5	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	SBJ	_	t_259|t_257|ref=Vit.Thoman._1
+6	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_260|t_257|ref=Vit.Thoman._1
+7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_261|t_262|ref=Vit.Thoman._1
+8	Θηβαίους	θηβαῖος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_262|t_260|ref=Vit.Thoman._1
+9	,	,	u	u--------	_	15	AuxX	_	t_263|e_9|ref=Vit.Thoman._1
+10	ἐπεὶ	ἐπεί	c	c--------	_	15	AuxC	_	t_264|e_9|ref=Vit.Thoman._1
+11	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_265|t_264|ref=Vit.Thoman._1
+12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_266|t_265|ref=Vit.Thoman._1
+13	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	14	ATR	_	t_267|t_268|ref=Vit.Thoman._1
+14	ποιήμασιν	ποίημα	n	n-p---nd-	Case=d|Gender=n|Number=p	12	ADV	_	t_268|t_266|ref=Vit.Thoman._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Vit.Thoman._1
+16	·	·	u	u--------	_	15	AuxK	_	t_269|e_9|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ὦ ταὶ λιπαραὶ καὶ μεγαλοπόλιες Ἀθᾶναι , ἐζημίωσαν αὐτὸν χρήμασι Θηβαῖοι , ἅπερ ὑπὲρ αὐτοῦ ἔτισαν Ἀθηναῖοι .
 # sent_id = 21
-1	ὦ	ὦ	i	i--------	_	4	ADV	_	t_270|ref=Vita Thomana et hypothesis Olympiorum_1
-2	ταὶ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_271|ref=Vita Thomana et hypothesis Olympiorum_1
-3	λιπαραὶ	λιπαρός	a	a-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_272|ref=Vita Thomana et hypothesis Olympiorum_1
-4	καὶ	καί	c	c--------	_	8	COORD	_	t_273|ref=Vita Thomana et hypothesis Olympiorum_1
-5	μεγαλοπόλιες	μεγαλοπόλιστος	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_274|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Ἀθᾶναι	ἀθῆναι	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_275|ref=Vita Thomana et hypothesis Olympiorum_1
-7	,	,	u	u--------	_	8	AuxX	_	t_276|ref=Vita Thomana et hypothesis Olympiorum_1
-8	ἐζημίωσαν	ζημιόω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_277|ref=Vita Thomana et hypothesis Olympiorum_1
-9	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_278|ref=Vita Thomana et hypothesis Olympiorum_1
-10	χρήμασι	χρῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	8	ADV	_	t_279|ref=Vita Thomana et hypothesis Olympiorum_1
-11	Θηβαῖοι	θηβαῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_280|ref=Vita Thomana et hypothesis Olympiorum_1
-12	,	,	u	u--------	_	8	AuxX	_	t_281|ref=Vita Thomana et hypothesis Olympiorum_1
-13	ἅπερ	ὅσπερ	p	p-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_282|ref=Vita Thomana et hypothesis Olympiorum_1
-14	ὑπὲρ	ὑπέρ	r	r--------	_	16	AuxP	_	t_283|ref=Vita Thomana et hypothesis Olympiorum_1
-15	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=m|Number=s	14	ADV	_	t_284|ref=Vita Thomana et hypothesis Olympiorum_1
-16	ἔτισαν	τίνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	8	ADV	_	t_285|ref=Vita Thomana et hypothesis Olympiorum_1
-17	Ἀθηναῖοι	ἀθηναῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_286|ref=Vita Thomana et hypothesis Olympiorum_1
-18	.	.	u	u--------	_	8	AuxK	_	t_287|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ὦ	ὦ	i	i--------	_	4	ADV	_	t_270|t_273|ref=Vit.Thoman._1
+2	ταὶ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_271|t_273|ref=Vit.Thoman._1
+3	λιπαραὶ	λιπαρός	a	a-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_272|t_273|ref=Vit.Thoman._1
+4	καὶ	καί	c	c--------	_	8	COORD	_	t_273|t_277|ref=Vit.Thoman._1
+5	μεγαλοπόλιες	μεγαλοπόλιστος	a	a-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_274|t_275|ref=Vit.Thoman._1
+6	Ἀθᾶναι	ἀθῆναι	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_275|t_273|ref=Vit.Thoman._1
+7	,	,	u	u--------	_	8	AuxX	_	t_276|t_277|ref=Vit.Thoman._1
+8	ἐζημίωσαν	ζημιόω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_277|0|ref=Vit.Thoman._1
+9	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_278|t_277|ref=Vit.Thoman._1
+10	χρήμασι	χρῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	8	ADV	_	t_279|t_277|ref=Vit.Thoman._1
+11	Θηβαῖοι	θηβαῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_280|t_277|ref=Vit.Thoman._1
+12	,	,	u	u--------	_	8	AuxX	_	t_281|t_277|ref=Vit.Thoman._1
+13	ἅπερ	ὅσπερ	p	p-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_282|t_285|ref=Vit.Thoman._1
+14	ὑπὲρ	ὑπέρ	r	r--------	_	16	AuxP	_	t_283|t_285|ref=Vit.Thoman._1
+15	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=m|Number=s	14	ADV	_	t_284|t_283|ref=Vit.Thoman._1
+16	ἔτισαν	τίνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	8	ADV	_	t_285|t_277|ref=Vit.Thoman._1
+17	Ἀθηναῖοι	ἀθηναῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_286|t_285|ref=Vit.Thoman._1
+18	.	.	u	u--------	_	8	AuxK	_	t_287|t_277|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = γέγραπται δὲ αὐτῷ ἑπτακαίδεκα βιβλία , ὧν τέσσαρα ἡ λεγομένη περίοδος λέγει τάδε ·
 # sent_id = 22
-1	γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_288|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_289|ref=Vita Thomana et hypothesis Olympiorum_1
-3	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_290|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἑπτακαίδεκα	ἑπτακαίδεκα	a	a--------	_	5	ATR	_	t_291|ref=Vita Thomana et hypothesis Olympiorum_1
-5	βιβλία	βιβλίον	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_292|ref=Vita Thomana et hypothesis Olympiorum_1
-6	,	,	u	u--------	_	1	AuxX	_	t_293|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_294|ref=Vita Thomana et hypothesis Olympiorum_1
-8	τέσσαρα	τέσσαρες	a	a-s---fn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_295|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_296|ref=Vita Thomana et hypothesis Olympiorum_1
-10	λεγομένη	λέγω3	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	11	ATR	_	t_297|ref=Vita Thomana et hypothesis Olympiorum_1
-11	περίοδος	περίοδος	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_298|ref=Vita Thomana et hypothesis Olympiorum_1
-12	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ATR	_	t_299|ref=Vita Thomana et hypothesis Olympiorum_1
-13	τάδε	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_300|ref=Vita Thomana et hypothesis Olympiorum_1
-14	·	·	u	u--------	_	1	AuxK	_	t_301|ref=Vita Thomana et hypothesis Olympiorum_1
+1	γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_288|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_289|t_288|ref=Vit.Thoman._1
+3	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_290|t_288|ref=Vit.Thoman._1
+4	ἑπτακαίδεκα	ἑπτακαίδεκα	a	a--------	_	5	ATR	_	t_291|t_292|ref=Vit.Thoman._1
+5	βιβλία	βιβλίον	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_292|t_288|ref=Vit.Thoman._1
+6	,	,	u	u--------	_	1	AuxX	_	t_293|t_288|ref=Vit.Thoman._1
+7	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_294|t_295|ref=Vit.Thoman._1
+8	τέσσαρα	τέσσαρες	a	a-s---fn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_295|t_299|ref=Vit.Thoman._1
+9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_296|t_298|ref=Vit.Thoman._1
+10	λεγομένη	λέγω3	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	11	ATR	_	t_297|t_298|ref=Vit.Thoman._1
+11	περίοδος	περίοδος	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_298|t_299|ref=Vit.Thoman._1
+12	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ATR	_	t_299|t_292|ref=Vit.Thoman._1
+13	τάδε	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_300|t_299|ref=Vit.Thoman._1
+14	·	·	u	u--------	_	1	AuxK	_	t_301|t_288|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Ὀλυμπιονίκας Πυθιονίκας Ἰσθμιονίκας Νεμεονίκας [0] .
 # sent_id = 23
-1	Ὀλυμπιονίκας	ὀλυμπιονίκας	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_302|ref=Vita Thomana et hypothesis Olympiorum_1
-2	Πυθιονίκας	πυθιονίκας	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_303|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Ἰσθμιονίκας	ἰσθμιονίκας	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_304|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Νεμεονίκας	νεμεονίκας	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_305|ref=Vita Thomana et hypothesis Olympiorum_1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Vita Thomana et hypothesis Olympiorum_1
-6	.	.	u	u--------	_	5	AuxK	_	t_306|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Ὀλυμπιονίκας	ὀλυμπιονίκας	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_302|e_10|ref=Vit.Thoman._1
+2	Πυθιονίκας	πυθιονίκας	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_303|e_10|ref=Vit.Thoman._1
+3	Ἰσθμιονίκας	ἰσθμιονίκας	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_304|e_10|ref=Vit.Thoman._1
+4	Νεμεονίκας	νεμεονίκας	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_305|e_10|ref=Vit.Thoman._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Vit.Thoman._1
+6	.	.	u	u--------	_	5	AuxK	_	t_306|e_10|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = | [ Ἔστι δὲ τὰ Ὀλύμπια ἀγὼν εἰς τὸν Δία , τὰ Πύθια ἀγὼν εἰς τὸν Ἀπόλλωνα , τὰ Νέμεα ἀγὼν καὶ αὐτὸς εἰς Δία , τὰ δὲ Ἴσθμια ἀγὼν εἰς Ποσειδῶνα [0] .
 # sent_id = 24
-1	|	|	u	u--------	_	0	AuxG	_	t_307|ref=Vita Thomana et hypothesis Olympiorum_1
-2	[	[	u	u--------	_	1	AuxX	_	t_308|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	28	PRED	_	t_309|ref=Vita Thomana et hypothesis Olympiorum_1
-4	δὲ	δέ	d	d--------	_	28	AuxY	_	t_310|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_311|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Ὀλύμπια	ὀλύμπιος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_312|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_313|ref=Vita Thomana et hypothesis Olympiorum_1
-8	εἰς	εἰς	r	r--------	_	7	AuxP	_	t_314|ref=Vita Thomana et hypothesis Olympiorum_1
-9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_315|ref=Vita Thomana et hypothesis Olympiorum_1
-10	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_316|ref=Vita Thomana et hypothesis Olympiorum_1
-11	,	,	u	u--------	_	1	AuxX	_	t_317|ref=Vita Thomana et hypothesis Olympiorum_1
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_318|ref=Vita Thomana et hypothesis Olympiorum_1
-13	Πύθια	πύθιος	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_319|ref=Vita Thomana et hypothesis Olympiorum_1
-14	ἀγὼν	ἀγών	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	22	SBJ	_	t_320|ref=Vita Thomana et hypothesis Olympiorum_1
-15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_321|ref=Vita Thomana et hypothesis Olympiorum_1
-16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_322|ref=Vita Thomana et hypothesis Olympiorum_1
-17	Ἀπόλλωνα	ἀπόλλων	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_323|ref=Vita Thomana et hypothesis Olympiorum_1
-18	,	,	u	u--------	_	1	AuxX	_	t_324|ref=Vita Thomana et hypothesis Olympiorum_1
-19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_325|ref=Vita Thomana et hypothesis Olympiorum_1
-20	Νέμεα	νέμειος	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_326|ref=Vita Thomana et hypothesis Olympiorum_1
-21	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_327|ref=Vita Thomana et hypothesis Olympiorum_1
-22	καὶ	καί	c	c--------	_	23	AuxZ	_	t_328|ref=Vita Thomana et hypothesis Olympiorum_1
-23	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	21	AtvV	_	t_329|ref=Vita Thomana et hypothesis Olympiorum_1
-24	εἰς	εἰς	r	r--------	_	33	AuxP	_	t_330|ref=Vita Thomana et hypothesis Olympiorum_1
-25	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_331|ref=Vita Thomana et hypothesis Olympiorum_1
-26	,	,	u	u--------	_	1	AuxX	_	t_332|ref=Vita Thomana et hypothesis Olympiorum_1
-27	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	29	ATR	_	t_333|ref=Vita Thomana et hypothesis Olympiorum_1
-28	δὲ	δέ	c	c--------	_	1	COORD	_	t_334|ref=Vita Thomana et hypothesis Olympiorum_1
-29	Ἴσθμια	ἴσθμιος	a	a-p---na-	Case=a|Gender=n|Number=p	30	ATR	_	t_335|ref=Vita Thomana et hypothesis Olympiorum_1
-30	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_336|ref=Vita Thomana et hypothesis Olympiorum_1
-31	εἰς	εἰς	r	r--------	_	30	AuxP	_	t_337|ref=Vita Thomana et hypothesis Olympiorum_1
-32	Ποσειδῶνα	ποσειδῶν	n	n-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_338|ref=Vita Thomana et hypothesis Olympiorum_1
-33	[0]	[0]	-	---------	_	28	PRED	_	e_11|ref=Vita Thomana et hypothesis Olympiorum_1
-34	.	.	u	u--------	_	1	AuxK	_	t_339|ref=Vita Thomana et hypothesis Olympiorum_1
+1	|	|	u	u--------	_	0	AuxG	_	t_307|0|ref=Vit.Thoman._1
+2	[	[	u	u--------	_	1	AuxX	_	t_308|t_307|ref=Vit.Thoman._1
+3	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	28	PRED	_	t_309|t_334|ref=Vit.Thoman._1
+4	δὲ	δέ	d	d--------	_	28	AuxY	_	t_310|t_334|ref=Vit.Thoman._1
+5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_311|t_312|ref=Vit.Thoman._1
+6	Ὀλύμπια	ὀλύμπιος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_312|t_313|ref=Vit.Thoman._1
+7	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_313|t_309|ref=Vit.Thoman._1
+8	εἰς	εἰς	r	r--------	_	7	AuxP	_	t_314|t_313|ref=Vit.Thoman._1
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_315|t_316|ref=Vit.Thoman._1
+10	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_316|t_314|ref=Vit.Thoman._1
+11	,	,	u	u--------	_	1	AuxX	_	t_317|t_307|ref=Vit.Thoman._1
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_318|t_319|ref=Vit.Thoman._1
+13	Πύθια	πύθιος	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_319|t_320|ref=Vit.Thoman._1
+14	ἀγὼν	ἀγών	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	22	SBJ	_	t_320|t_328|ref=Vit.Thoman._1
+15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_321|t_320|ref=Vit.Thoman._1
+16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_322|t_323|ref=Vit.Thoman._1
+17	Ἀπόλλωνα	ἀπόλλων	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_323|t_321|ref=Vit.Thoman._1
+18	,	,	u	u--------	_	1	AuxX	_	t_324|t_307|ref=Vit.Thoman._1
+19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_325|t_326|ref=Vit.Thoman._1
+20	Νέμεα	νέμειος	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_326|t_327|ref=Vit.Thoman._1
+21	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_327|e_11|ref=Vit.Thoman._1
+22	καὶ	καί	c	c--------	_	23	AuxZ	_	t_328|t_329|ref=Vit.Thoman._1
+23	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	21	AtvV	_	t_329|t_327|ref=Vit.Thoman._1
+24	εἰς	εἰς	r	r--------	_	33	AuxP	_	t_330|e_11|ref=Vit.Thoman._1
+25	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_331|t_330|ref=Vit.Thoman._1
+26	,	,	u	u--------	_	1	AuxX	_	t_332|t_307|ref=Vit.Thoman._1
+27	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	29	ATR	_	t_333|t_335|ref=Vit.Thoman._1
+28	δὲ	δέ	c	c--------	_	1	COORD	_	t_334|t_307|ref=Vit.Thoman._1
+29	Ἴσθμια	ἴσθμιος	a	a-p---na-	Case=a|Gender=n|Number=p	30	ATR	_	t_335|t_336|ref=Vit.Thoman._1
+30	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_336|e_11|ref=Vit.Thoman._1
+31	εἰς	εἰς	r	r--------	_	30	AuxP	_	t_337|t_336|ref=Vit.Thoman._1
+32	Ποσειδῶνα	ποσειδῶν	n	n-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_338|t_337|ref=Vit.Thoman._1
+33	[0]	[0]	-	---------	_	28	PRED	_	e_11|t_334|ref=Vit.Thoman._1
+34	.	.	u	u--------	_	1	AuxK	_	t_339|t_307|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = τὰ δὲ ἔπαθλα τούτων ἐλαία , δάφνη , σέλινον ξηρόν τε καὶ χλωρόν . [0] ]
 # sent_id = 25
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_340|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_341|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ἔπαθλα	ἔπαθλον	n	n-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_342|ref=Vita Thomana et hypothesis Olympiorum_1
-4	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_343|ref=Vita Thomana et hypothesis Olympiorum_1
-5	ἐλαία	ἐλαία	n	n-s---fn-	Case=n|Gender=f|Number=s	15	PNOM	_	t_344|ref=Vita Thomana et hypothesis Olympiorum_1
-6	,	,	u	u--------	_	15	AuxX	_	t_345|ref=Vita Thomana et hypothesis Olympiorum_1
-7	δάφνη	δάφνη	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_346|ref=Vita Thomana et hypothesis Olympiorum_1
-8	,	,	u	u--------	_	15	AuxX	_	t_347|ref=Vita Thomana et hypothesis Olympiorum_1
-9	σέλινον	σέλινον	n	n-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_348|ref=Vita Thomana et hypothesis Olympiorum_1
-10	ξηρόν	ξηρός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_349|ref=Vita Thomana et hypothesis Olympiorum_1
-11	τε	τε	d	d--------	_	12	AuxY	_	t_350|ref=Vita Thomana et hypothesis Olympiorum_1
-12	καὶ	καί	c	c--------	_	9	COORD	_	t_351|ref=Vita Thomana et hypothesis Olympiorum_1
-13	χλωρόν	χλωρός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_352|ref=Vita Thomana et hypothesis Olympiorum_1
-14	.	.	u	u--------	_	15	AuxK	_	t_353|ref=Vita Thomana et hypothesis Olympiorum_1
-15	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=Vita Thomana et hypothesis Olympiorum_1
-16	]	]	u	u--------	_	15	AuxG	_	t_354|ref=Vita Thomana et hypothesis Olympiorum_1
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_340|t_342|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_341|e_12|ref=Vit.Thoman._1
+3	ἔπαθλα	ἔπαθλον	n	n-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_342|e_12|ref=Vit.Thoman._1
+4	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_343|t_342|ref=Vit.Thoman._1
+5	ἐλαία	ἐλαία	n	n-s---fn-	Case=n|Gender=f|Number=s	15	PNOM	_	t_344|e_12|ref=Vit.Thoman._1
+6	,	,	u	u--------	_	15	AuxX	_	t_345|e_12|ref=Vit.Thoman._1
+7	δάφνη	δάφνη	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_346|t_351|ref=Vit.Thoman._1
+8	,	,	u	u--------	_	15	AuxX	_	t_347|e_12|ref=Vit.Thoman._1
+9	σέλινον	σέλινον	n	n-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_348|e_12|ref=Vit.Thoman._1
+10	ξηρόν	ξηρός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_349|t_351|ref=Vit.Thoman._1
+11	τε	τε	d	d--------	_	12	AuxY	_	t_350|t_351|ref=Vit.Thoman._1
+12	καὶ	καί	c	c--------	_	9	COORD	_	t_351|t_348|ref=Vit.Thoman._1
+13	χλωρόν	χλωρός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_352|t_351|ref=Vit.Thoman._1
+14	.	.	u	u--------	_	15	AuxK	_	t_353|e_12|ref=Vit.Thoman._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Vit.Thoman._1
+16	]	]	u	u--------	_	15	AuxG	_	t_354|e_12|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = | ἀλλὰ περὶ μὲν τῶν ἄλλων καὶ τὰ ἐπιβάλλοντα τούτοις ὕστερον ἐροῦμεν ·
 # sent_id = 26
-1	|	|	u	u--------	_	12	AuxG	_	t_355|ref=Vita Thomana et hypothesis Olympiorum_1
-2	ἀλλὰ	ἀλλά	d	d--------	_	12	AuxY	_	t_356|ref=Vita Thomana et hypothesis Olympiorum_1
-3	περὶ	περί	r	r--------	_	12	AuxP	_	t_357|ref=Vita Thomana et hypothesis Olympiorum_1
-4	μὲν	μέν	d	d--------	_	12	AuxY	_	t_358|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_359|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	7	ADV	_	t_360|ref=Vita Thomana et hypothesis Olympiorum_1
-7	καὶ	καί	c	c--------	_	3	COORD	_	t_361|ref=Vita Thomana et hypothesis Olympiorum_1
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_362|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ἐπιβάλλοντα	ἐπιβάλλω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_363|ref=Vita Thomana et hypothesis Olympiorum_1
-10	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	9	OBJ	_	t_364|ref=Vita Thomana et hypothesis Olympiorum_1
-11	ὕστερον	ὕστερος	d	d-------c	Degree=c	12	ADV	_	t_365|ref=Vita Thomana et hypothesis Olympiorum_1
-12	ἐροῦμεν	λέγω	v	v1pfia---	Mood=i|Number=p|Person=1|Tense=f|Voice=a	0	PRED	_	t_366|ref=Vita Thomana et hypothesis Olympiorum_1
-13	·	·	u	u--------	_	12	AuxK	_	t_367|ref=Vita Thomana et hypothesis Olympiorum_1
+1	|	|	u	u--------	_	12	AuxG	_	t_355|t_366|ref=Vit.Thoman._1
+2	ἀλλὰ	ἀλλά	d	d--------	_	12	AuxY	_	t_356|t_366|ref=Vit.Thoman._1
+3	περὶ	περί	r	r--------	_	12	AuxP	_	t_357|t_366|ref=Vit.Thoman._1
+4	μὲν	μέν	d	d--------	_	12	AuxY	_	t_358|t_366|ref=Vit.Thoman._1
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_359|t_360|ref=Vit.Thoman._1
+6	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	7	ADV	_	t_360|t_361|ref=Vit.Thoman._1
+7	καὶ	καί	c	c--------	_	3	COORD	_	t_361|t_357|ref=Vit.Thoman._1
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_362|t_363|ref=Vit.Thoman._1
+9	ἐπιβάλλοντα	ἐπιβάλλω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_363|t_361|ref=Vit.Thoman._1
+10	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	9	OBJ	_	t_364|t_363|ref=Vit.Thoman._1
+11	ὕστερον	ὕστερος	d	d-------c	Degree=c	12	ADV	_	t_365|t_366|ref=Vit.Thoman._1
+12	ἐροῦμεν	λέγω	v	v1pfia---	Mood=i|Number=p|Person=1|Tense=f|Voice=a	0	PRED	_	t_366|0|ref=Vit.Thoman._1
+13	·	·	u	u--------	_	12	AuxK	_	t_367|t_366|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = νῦν δὲ περὶ τῆς θέσεως τῶν Ὀλυμπιονικῶν λεκτέον .
 # sent_id = 27
-1	νῦν	νῦν	d	d--------	_	8	ADV	_	t_368|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_369|ref=Vita Thomana et hypothesis Olympiorum_1
-3	περὶ	περί	r	r--------	_	8	AuxP	_	t_370|ref=Vita Thomana et hypothesis Olympiorum_1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_371|ref=Vita Thomana et hypothesis Olympiorum_1
-5	θέσεως	θέσις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_372|ref=Vita Thomana et hypothesis Olympiorum_1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_373|ref=Vita Thomana et hypothesis Olympiorum_1
-7	Ὀλυμπιονικῶν	ὀλυμπιονίκης	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_374|ref=Vita Thomana et hypothesis Olympiorum_1
-8	λεκτέον	λεκτέος	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_375|ref=Vita Thomana et hypothesis Olympiorum_1
-9	.	.	u	u--------	_	8	AuxK	_	t_376|ref=Vita Thomana et hypothesis Olympiorum_1
+1	νῦν	νῦν	d	d--------	_	8	ADV	_	t_368|t_375|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_369|t_375|ref=Vit.Thoman._1
+3	περὶ	περί	r	r--------	_	8	AuxP	_	t_370|t_375|ref=Vit.Thoman._1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_371|t_372|ref=Vit.Thoman._1
+5	θέσεως	θέσις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_372|t_370|ref=Vit.Thoman._1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_373|t_374|ref=Vit.Thoman._1
+7	Ὀλυμπιονικῶν	ὀλυμπιονίκης	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_374|t_372|ref=Vit.Thoman._1
+8	λεκτέον	λεκτέος	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_375|0|ref=Vit.Thoman._1
+9	.	.	u	u--------	_	8	AuxK	_	t_376|t_375|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = τινὲς μὲν οὖν ταύτην εἰς τὰ περὶ Οἰνομάου καὶ Πέλοπος τοῖς χρόνοις ἀναφέρουσιν ·
 # sent_id = 28
-1	τινὲς	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_377|ref=Vita Thomana et hypothesis Olympiorum_1
-2	μὲν	μέν	d	d--------	_	13	AuxY	_	t_378|ref=Vita Thomana et hypothesis Olympiorum_1
-3	οὖν	οὖν	d	d--------	_	13	AuxY	_	t_379|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ταύτην	οὗτος	p	p-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_380|ref=Vita Thomana et hypothesis Olympiorum_1
-5	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_381|ref=Vita Thomana et hypothesis Olympiorum_1
-6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ADV	_	t_382|ref=Vita Thomana et hypothesis Olympiorum_1
-7	περὶ	περί	r	r--------	_	6	AuxP	_	t_383|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Οἰνομάου	οἰνόμαος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_384|ref=Vita Thomana et hypothesis Olympiorum_1
-9	καὶ	καί	c	c--------	_	7	COORD	_	t_385|ref=Vita Thomana et hypothesis Olympiorum_1
-10	Πέλοπος	πέλοψ	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_386|ref=Vita Thomana et hypothesis Olympiorum_1
-11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_387|ref=Vita Thomana et hypothesis Olympiorum_1
-12	χρόνοις	χρόνος	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_388|ref=Vita Thomana et hypothesis Olympiorum_1
-13	ἀναφέρουσιν	ἀναφέρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_389|ref=Vita Thomana et hypothesis Olympiorum_1
-14	·	·	u	u--------	_	13	AuxK	_	t_390|ref=Vita Thomana et hypothesis Olympiorum_1
+1	τινὲς	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_377|t_389|ref=Vit.Thoman._1
+2	μὲν	μέν	d	d--------	_	13	AuxY	_	t_378|t_389|ref=Vit.Thoman._1
+3	οὖν	οὖν	d	d--------	_	13	AuxY	_	t_379|t_389|ref=Vit.Thoman._1
+4	ταύτην	οὗτος	p	p-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_380|t_389|ref=Vit.Thoman._1
+5	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_381|t_389|ref=Vit.Thoman._1
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ADV	_	t_382|t_381|ref=Vit.Thoman._1
+7	περὶ	περί	r	r--------	_	6	AuxP	_	t_383|t_382|ref=Vit.Thoman._1
+8	Οἰνομάου	οἰνόμαος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_384|t_385|ref=Vit.Thoman._1
+9	καὶ	καί	c	c--------	_	7	COORD	_	t_385|t_383|ref=Vit.Thoman._1
+10	Πέλοπος	πέλοψ	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_386|t_385|ref=Vit.Thoman._1
+11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_387|t_388|ref=Vit.Thoman._1
+12	χρόνοις	χρόνος	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_388|t_389|ref=Vit.Thoman._1
+13	ἀναφέρουσιν	ἀναφέρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_389|0|ref=Vit.Thoman._1
+14	·	·	u	u--------	_	13	AuxK	_	t_390|t_389|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἄλλοι δέ φασιν ὡς οὕτως αἰσχρὰν οὖσαν τὴν θέσιν οὐκ ἂν διεφύλαξαν ·
 # sent_id = 29
-1	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_391|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_392|ref=Vita Thomana et hypothesis Olympiorum_1
-3	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_393|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_394|ref=Vita Thomana et hypothesis Olympiorum_1
-5	οὕτως	οὕτως	d	d--------	_	7	ADV	_	t_395|ref=Vita Thomana et hypothesis Olympiorum_1
-6	αἰσχρὰν	αἰσχρός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	PNOM	_	t_396|ref=Vita Thomana et hypothesis Olympiorum_1
-7	οὖσαν	εἰμί	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	OBJ	_	t_397|ref=Vita Thomana et hypothesis Olympiorum_1
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_398|ref=Vita Thomana et hypothesis Olympiorum_1
-9	θέσιν	θέσις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_399|ref=Vita Thomana et hypothesis Olympiorum_1
-10	οὐκ	οὐ	d	d--------	_	12	AuxZ	_	t_400|ref=Vita Thomana et hypothesis Olympiorum_1
-11	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_401|ref=Vita Thomana et hypothesis Olympiorum_1
-12	διεφύλαξαν	διαφυλάσσω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	4	OBJ	_	t_402|ref=Vita Thomana et hypothesis Olympiorum_1
-13	·	·	u	u--------	_	3	AuxK	_	t_403|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_391|t_393|ref=Vit.Thoman._1
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_392|t_393|ref=Vit.Thoman._1
+3	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_393|0|ref=Vit.Thoman._1
+4	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_394|t_393|ref=Vit.Thoman._1
+5	οὕτως	οὕτως	d	d--------	_	7	ADV	_	t_395|t_397|ref=Vit.Thoman._1
+6	αἰσχρὰν	αἰσχρός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	PNOM	_	t_396|t_397|ref=Vit.Thoman._1
+7	οὖσαν	εἰμί	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	OBJ	_	t_397|t_402|ref=Vit.Thoman._1
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_398|t_399|ref=Vit.Thoman._1
+9	θέσιν	θέσις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_399|t_402|ref=Vit.Thoman._1
+10	οὐκ	οὐ	d	d--------	_	12	AuxZ	_	t_400|t_402|ref=Vit.Thoman._1
+11	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_401|t_402|ref=Vit.Thoman._1
+12	διεφύλαξαν	διαφυλάσσω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	4	OBJ	_	t_402|t_394|ref=Vit.Thoman._1
+13	·	·	u	u--------	_	3	AuxK	_	t_403|t_393|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἄλλοι δὲ Ἡρακλεῖ ἀνατιθέασιν , ὡς καὶ Πίνδαρος ( O [0] .
 # sent_id = 30
-1	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_404|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_405|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Ἡρακλεῖ	ἡρακλῆς	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_406|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἀνατιθέασιν	ἀνατίθημι	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_407|ref=Vita Thomana et hypothesis Olympiorum_1
-5	,	,	u	u--------	_	4	AuxX	_	t_408|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_409|ref=Vita Thomana et hypothesis Olympiorum_1
-7	καὶ	καί	d	d--------	_	8	AuxZ	_	t_410|ref=Vita Thomana et hypothesis Olympiorum_1
-8	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_411|ref=Vita Thomana et hypothesis Olympiorum_1
-9	(	̔	u	u--------	_	4	AuxG	_	t_412|ref=Vita Thomana et hypothesis Olympiorum_1
-10	O	ὁ	n	n--------	_	11	PNOM	_	t_413|ref=Vita Thomana et hypothesis Olympiorum_1
-11	[0]	[0]	-	---------	_	6	ADV	_	e_13|ref=Vita Thomana et hypothesis Olympiorum_1
-12	.	.	u	u--------	_	4	AuxK	_	t_414|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_404|t_407|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_405|t_407|ref=Vit.Thoman._1
+3	Ἡρακλεῖ	ἡρακλῆς	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_406|t_407|ref=Vit.Thoman._1
+4	ἀνατιθέασιν	ἀνατίθημι	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_407|0|ref=Vit.Thoman._1
+5	,	,	u	u--------	_	4	AuxX	_	t_408|t_407|ref=Vit.Thoman._1
+6	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_409|t_407|ref=Vit.Thoman._1
+7	καὶ	καί	d	d--------	_	8	AuxZ	_	t_410|t_411|ref=Vit.Thoman._1
+8	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_411|e_13|ref=Vit.Thoman._1
+9	(	̔	u	u--------	_	4	AuxG	_	t_412|t_407|ref=Vit.Thoman._1
+10	O	ὁ	n	n--------	_	11	PNOM	_	t_413|e_13|ref=Vit.Thoman._1
+11	[0]	[0]	-	---------	_	6	ADV	_	e_13|t_409|ref=Vit.Thoman._1
+12	.	.	u	u--------	_	4	AuxK	_	t_414|t_407|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = X ) , ἐνδοξοτέροις κοσμῶν τὸν ἀγῶνα [0] .
 # sent_id = 31
-1	X	x	n	n--------	_	8	AuxG	_	t_415|ref=Vita Thomana et hypothesis Olympiorum_1
-2	)	)	u	u--------	_	8	AuxG	_	t_416|ref=Vita Thomana et hypothesis Olympiorum_1
-3	,	,	u	u--------	_	8	AuxX	_	t_417|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἐνδοξοτέροις	ἔνδοξος	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	5	OCOMP	_	t_418|ref=Vita Thomana et hypothesis Olympiorum_1
-5	κοσμῶν	κοσμέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_419|ref=Vita Thomana et hypothesis Olympiorum_1
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_420|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ἀγῶνα	ἀγών	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_421|ref=Vita Thomana et hypothesis Olympiorum_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Vita Thomana et hypothesis Olympiorum_1
-9	.	.	u	u--------	_	8	AuxK	_	t_422|ref=Vita Thomana et hypothesis Olympiorum_1
+1	X	x	n	n--------	_	8	AuxG	_	t_415|e_14|ref=Vit.Thoman._1
+2	)	)	u	u--------	_	8	AuxG	_	t_416|e_14|ref=Vit.Thoman._1
+3	,	,	u	u--------	_	8	AuxX	_	t_417|e_14|ref=Vit.Thoman._1
+4	ἐνδοξοτέροις	ἔνδοξος	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	5	OCOMP	_	t_418|t_419|ref=Vit.Thoman._1
+5	κοσμῶν	κοσμέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_419|e_14|ref=Vit.Thoman._1
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_420|t_421|ref=Vit.Thoman._1
+7	ἀγῶνα	ἀγών	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_421|t_419|ref=Vit.Thoman._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Vit.Thoman._1
+9	.	.	u	u--------	_	8	AuxK	_	t_422|e_14|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἐπεὶ γὰρ τὴν Αὐγείου κόπρον καθῆρε καὶ τῶν ἐπηγγελμένων οὐκ ἔτυχε , συναγαγὼν στρατόπεδον τόν τε Αὐγείαν φονεύει καὶ τὴν Ἦλιν παρίσταται , καὶ πολλὰ λάφυρα περιποιησάμενος ἀγῶνα τίθησι τοῖς μετ᾿ αὐτοῦ πολεμήσασιν ·
 # sent_id = 32
-1	ἐπεὶ	ἐπεί	c	c--------	_	24	AuxC	_	t_423|ref=Vita Thomana et hypothesis Olympiorum_1
-2	γὰρ	γάρ	d	d--------	_	24	AuxY	_	t_424|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_425|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Αὐγείου	αὐγείας	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_426|ref=Vita Thomana et hypothesis Olympiorum_1
-5	κόπρον	κόπρος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_427|ref=Vita Thomana et hypothesis Olympiorum_1
-6	καθῆρε	καθαίρω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	ADV	_	t_428|ref=Vita Thomana et hypothesis Olympiorum_1
-7	καὶ	καί	c	c--------	_	1	COORD	_	t_429|ref=Vita Thomana et hypothesis Olympiorum_1
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_430|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ἐπηγγελμένων	ἐπαγγέλλω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	OBJ	_	t_431|ref=Vita Thomana et hypothesis Olympiorum_1
-10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_432|ref=Vita Thomana et hypothesis Olympiorum_1
-11	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	ADV	_	t_433|ref=Vita Thomana et hypothesis Olympiorum_1
-12	,	,	u	u--------	_	0	AuxX	_	t_434|ref=Vita Thomana et hypothesis Olympiorum_1
-13	συναγαγὼν	συνάγω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	18	ADV	_	t_435|ref=Vita Thomana et hypothesis Olympiorum_1
-14	στρατόπεδον	στρατόπεδον	n	n-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_436|ref=Vita Thomana et hypothesis Olympiorum_1
-15	τόν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_437|ref=Vita Thomana et hypothesis Olympiorum_1
-16	τε	τε	d	d--------	_	24	AuxY	_	t_438|ref=Vita Thomana et hypothesis Olympiorum_1
-17	Αὐγείαν	αὐγεία	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_439|ref=Vita Thomana et hypothesis Olympiorum_1
-18	φονεύει	φονεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	24	PRED	_	t_440|ref=Vita Thomana et hypothesis Olympiorum_1
-19	καὶ	καί	d	d--------	_	24	AuxY	_	t_441|ref=Vita Thomana et hypothesis Olympiorum_1
-20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_442|ref=Vita Thomana et hypothesis Olympiorum_1
-21	Ἦλιν	ἦλις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_443|ref=Vita Thomana et hypothesis Olympiorum_1
-22	παρίσταται	παρίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	24	PRED	_	t_444|ref=Vita Thomana et hypothesis Olympiorum_1
-23	,	,	u	u--------	_	12	AuxX	_	t_445|ref=Vita Thomana et hypothesis Olympiorum_1
-24	καὶ	καί	c	c--------	_	12	COORD	_	t_446|ref=Vita Thomana et hypothesis Olympiorum_1
-25	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	26	ATR	_	t_447|ref=Vita Thomana et hypothesis Olympiorum_1
-26	λάφυρα	λάφυρα	n	n-p---na-	Case=a|Gender=n|Number=p	27	OBJ	_	t_448|ref=Vita Thomana et hypothesis Olympiorum_1
-27	περιποιησάμενος	περιποιέω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_449|ref=Vita Thomana et hypothesis Olympiorum_1
-28	ἀγῶνα	ἀγών	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_450|ref=Vita Thomana et hypothesis Olympiorum_1
-29	τίθησι	τίθημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	24	PRED	_	t_451|ref=Vita Thomana et hypothesis Olympiorum_1
-30	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_452|ref=Vita Thomana et hypothesis Olympiorum_1
-31	μετ᾿	μετά	r	r--------	_	33	AuxP	_	t_453|ref=Vita Thomana et hypothesis Olympiorum_1
-32	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	31	ADV	_	t_454|ref=Vita Thomana et hypothesis Olympiorum_1
-33	πολεμήσασιν	πολεμέω	v	v-papamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	29	OBJ	_	t_455|ref=Vita Thomana et hypothesis Olympiorum_1
-34	·	·	u	u--------	_	12	AuxK	_	t_456|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἐπεὶ	ἐπεί	c	c--------	_	24	AuxC	_	t_423|t_446|ref=Vit.Thoman._1
+2	γὰρ	γάρ	d	d--------	_	24	AuxY	_	t_424|t_446|ref=Vit.Thoman._1
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_425|t_427|ref=Vit.Thoman._1
+4	Αὐγείου	αὐγείας	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_426|t_427|ref=Vit.Thoman._1
+5	κόπρον	κόπρος	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_427|t_428|ref=Vit.Thoman._1
+6	καθῆρε	καθαίρω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	ADV	_	t_428|t_429|ref=Vit.Thoman._1
+7	καὶ	καί	c	c--------	_	1	COORD	_	t_429|t_423|ref=Vit.Thoman._1
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_430|t_431|ref=Vit.Thoman._1
+9	ἐπηγγελμένων	ἐπαγγέλλω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	OBJ	_	t_431|t_433|ref=Vit.Thoman._1
+10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_432|t_433|ref=Vit.Thoman._1
+11	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	ADV	_	t_433|t_429|ref=Vit.Thoman._1
+12	,	,	u	u--------	_	0	AuxX	_	t_434|0|ref=Vit.Thoman._1
+13	συναγαγὼν	συνάγω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	18	ADV	_	t_435|t_440|ref=Vit.Thoman._1
+14	στρατόπεδον	στρατόπεδον	n	n-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_436|t_435|ref=Vit.Thoman._1
+15	τόν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_437|t_439|ref=Vit.Thoman._1
+16	τε	τε	d	d--------	_	24	AuxY	_	t_438|t_446|ref=Vit.Thoman._1
+17	Αὐγείαν	αὐγεία	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_439|t_440|ref=Vit.Thoman._1
+18	φονεύει	φονεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	24	PRED	_	t_440|t_446|ref=Vit.Thoman._1
+19	καὶ	καί	d	d--------	_	24	AuxY	_	t_441|t_446|ref=Vit.Thoman._1
+20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_442|t_443|ref=Vit.Thoman._1
+21	Ἦλιν	ἦλις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_443|t_444|ref=Vit.Thoman._1
+22	παρίσταται	παρίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	24	PRED	_	t_444|t_446|ref=Vit.Thoman._1
+23	,	,	u	u--------	_	12	AuxX	_	t_445|t_434|ref=Vit.Thoman._1
+24	καὶ	καί	c	c--------	_	12	COORD	_	t_446|t_434|ref=Vit.Thoman._1
+25	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	26	ATR	_	t_447|t_448|ref=Vit.Thoman._1
+26	λάφυρα	λάφυρα	n	n-p---na-	Case=a|Gender=n|Number=p	27	OBJ	_	t_448|t_449|ref=Vit.Thoman._1
+27	περιποιησάμενος	περιποιέω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_449|t_451|ref=Vit.Thoman._1
+28	ἀγῶνα	ἀγών	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_450|t_451|ref=Vit.Thoman._1
+29	τίθησι	τίθημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	24	PRED	_	t_451|t_446|ref=Vit.Thoman._1
+30	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_452|t_455|ref=Vit.Thoman._1
+31	μετ᾿	μετά	r	r--------	_	33	AuxP	_	t_453|t_455|ref=Vit.Thoman._1
+32	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	31	ADV	_	t_454|t_453|ref=Vit.Thoman._1
+33	πολεμήσασιν	πολεμέω	v	v-papamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	29	OBJ	_	t_455|t_451|ref=Vit.Thoman._1
+34	·	·	u	u--------	_	12	AuxK	_	t_456|t_434|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ὅθεν καὶ τὸ ἔθος διαμεῖναι [0] .
 # sent_id = 33
-1	ὅθεν	ὅθεν	d	d--------	_	5	ADV	_	t_457|ref=Vita Thomana et hypothesis Olympiorum_1
-2	καὶ	καί	d	d--------	_	5	AuxZ	_	t_458|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_459|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἔθος	ἔθος	n	n-s---na-	Case=a|Gender=n|Number=s	5	SBJ	_	t_460|ref=Vita Thomana et hypothesis Olympiorum_1
-5	διαμεῖναι	διαμένω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	OBJ	_	t_461|ref=Vita Thomana et hypothesis Olympiorum_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Vita Thomana et hypothesis Olympiorum_1
-7	.	.	u	u--------	_	6	AuxK	_	t_462|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ὅθεν	ὅθεν	d	d--------	_	5	ADV	_	t_457|t_461|ref=Vit.Thoman._1
+2	καὶ	καί	d	d--------	_	5	AuxZ	_	t_458|t_461|ref=Vit.Thoman._1
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_459|t_460|ref=Vit.Thoman._1
+4	ἔθος	ἔθος	n	n-s---na-	Case=a|Gender=n|Number=s	5	SBJ	_	t_460|t_461|ref=Vit.Thoman._1
+5	διαμεῖναι	διαμένω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	OBJ	_	t_461|e_15|ref=Vit.Thoman._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Vit.Thoman._1
+7	.	.	u	u--------	_	6	AuxK	_	t_462|e_15|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἀλλ᾿ οὐ δὲ αὕτη ἔμεινεν ἡ θέσις , ἐπεὶ τῆς συμβάσης αὐτοῖς δυσχερείας ὑπόμνησις ἦν .
 # sent_id = 34
-1	ἀλλ᾿	ἀλλά	d	d--------	_	5	AuxY	_	t_463|ref=Vita Thomana et hypothesis Olympiorum_1
-2	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_464|ref=Vita Thomana et hypothesis Olympiorum_1
-3	δὲ	δέ	d	d--------	_	2	AuxZ	_	t_465|ref=Vita Thomana et hypothesis Olympiorum_1
-4	αὕτη	οὗτος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_466|ref=Vita Thomana et hypothesis Olympiorum_1
-5	ἔμεινεν	μένω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_467|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_468|ref=Vita Thomana et hypothesis Olympiorum_1
-7	θέσις	θέσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_469|ref=Vita Thomana et hypothesis Olympiorum_1
-8	,	,	u	u--------	_	5	AuxX	_	t_470|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ἐπεὶ	ἐπεί	c	c--------	_	5	AuxC	_	t_471|ref=Vita Thomana et hypothesis Olympiorum_1
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_472|ref=Vita Thomana et hypothesis Olympiorum_1
-11	συμβάσης	συμβαίνω	v	v-sapafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	13	ATR	_	t_473|ref=Vita Thomana et hypothesis Olympiorum_1
-12	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_474|ref=Vita Thomana et hypothesis Olympiorum_1
-13	δυσχερείας	δυσχέρεια	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_475|ref=Vita Thomana et hypothesis Olympiorum_1
-14	ὑπόμνησις	ὑπόμνησις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_476|ref=Vita Thomana et hypothesis Olympiorum_1
-15	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	ADV	_	t_477|ref=Vita Thomana et hypothesis Olympiorum_1
-16	.	.	u	u--------	_	5	AuxK	_	t_478|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἀλλ᾿	ἀλλά	d	d--------	_	5	AuxY	_	t_463|t_467|ref=Vit.Thoman._1
+2	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_464|t_467|ref=Vit.Thoman._1
+3	δὲ	δέ	d	d--------	_	2	AuxZ	_	t_465|t_464|ref=Vit.Thoman._1
+4	αὕτη	οὗτος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_466|t_469|ref=Vit.Thoman._1
+5	ἔμεινεν	μένω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_467|0|ref=Vit.Thoman._1
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_468|t_469|ref=Vit.Thoman._1
+7	θέσις	θέσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_469|t_467|ref=Vit.Thoman._1
+8	,	,	u	u--------	_	5	AuxX	_	t_470|t_467|ref=Vit.Thoman._1
+9	ἐπεὶ	ἐπεί	c	c--------	_	5	AuxC	_	t_471|t_467|ref=Vit.Thoman._1
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_472|t_475|ref=Vit.Thoman._1
+11	συμβάσης	συμβαίνω	v	v-sapafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	13	ATR	_	t_473|t_475|ref=Vit.Thoman._1
+12	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_474|t_473|ref=Vit.Thoman._1
+13	δυσχερείας	δυσχέρεια	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_475|t_476|ref=Vit.Thoman._1
+14	ὑπόμνησις	ὑπόμνησις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_476|t_477|ref=Vit.Thoman._1
+15	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	ADV	_	t_477|t_471|ref=Vit.Thoman._1
+16	.	.	u	u--------	_	5	AuxK	_	t_478|t_467|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἀλλ᾿ Ἴφιτός τις καὶ Εὐρύλοχος τοὺς Κιρραίους πολεμήσαντες ( οὗτοι δὲ ἦσαν οἱ τὴν πάραλον τῆς Φωκίδος λῃσταὶ κατέχοντες ) καὶ πολλὰ λάφυρα συναγαγόντες , ὁ μὲν Ἴφιτος τὰ Ὀλύμπια κατέβαλεν , ὁ δὲ τὰ Πύθια [0] ·
 # sent_id = 35
-1	ἀλλ᾿	ἀλλά	d	d--------	_	34	AuxY	_	t_479|ref=Vita Thomana et hypothesis Olympiorum_1
-2	Ἴφιτός	ἴφιτος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_480|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τις	τις	a	a-s----n-	Case=n|Gender=m|Number=s	4	ATR	_	t_481|ref=Vita Thomana et hypothesis Olympiorum_1
-4	καὶ	καί	c	c--------	_	34	COORD	_	t_482|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Εὐρύλοχος	εὐρύλοχος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_483|ref=Vita Thomana et hypothesis Olympiorum_1
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_484|ref=Vita Thomana et hypothesis Olympiorum_1
-7	Κιρραίους	κιρραῖος	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_485|ref=Vita Thomana et hypothesis Olympiorum_1
-8	πολεμήσαντες	πολεμέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	ADV	_	t_486|ref=Vita Thomana et hypothesis Olympiorum_1
-9	(	̔	u	u--------	_	12	AuxG	_	t_487|ref=Vita Thomana et hypothesis Olympiorum_1
-10	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_488|ref=Vita Thomana et hypothesis Olympiorum_1
-11	δὲ	δέ	d	d--------	_	12	AuxY	_	t_489|ref=Vita Thomana et hypothesis Olympiorum_1
-12	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_490|ref=Vita Thomana et hypothesis Olympiorum_1
-13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_491|ref=Vita Thomana et hypothesis Olympiorum_1
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_492|ref=Vita Thomana et hypothesis Olympiorum_1
-15	πάραλον	πάραλος	a	a-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_493|ref=Vita Thomana et hypothesis Olympiorum_1
-16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_494|ref=Vita Thomana et hypothesis Olympiorum_1
-17	Φωκίδος	φωκίς	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_495|ref=Vita Thomana et hypothesis Olympiorum_1
-18	λῃσταὶ	λῃστής	n	n-p---mn-	Case=n|Gender=m|Number=p	19	PNOM	_	t_496|ref=Vita Thomana et hypothesis Olympiorum_1
-19	κατέχοντες	κατέχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	PNOM	_	t_497|ref=Vita Thomana et hypothesis Olympiorum_1
-20	)	)	u	u--------	_	12	AuxG	_	t_498|ref=Vita Thomana et hypothesis Olympiorum_1
-21	καὶ	καί	c	c--------	_	34	COORD	_	t_499|ref=Vita Thomana et hypothesis Olympiorum_1
-22	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_500|ref=Vita Thomana et hypothesis Olympiorum_1
-23	λάφυρα	λάφυρα	n	n-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_501|ref=Vita Thomana et hypothesis Olympiorum_1
-24	συναγαγόντες	συνάγω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	ADV	_	t_502|ref=Vita Thomana et hypothesis Olympiorum_1
-25	,	,	u	u--------	_	12	AuxX	_	t_503|ref=Vita Thomana et hypothesis Olympiorum_1
-26	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	28	ATR	_	t_504|ref=Vita Thomana et hypothesis Olympiorum_1
-27	μὲν	μέν	d	d--------	_	34	AuxY	_	t_505|ref=Vita Thomana et hypothesis Olympiorum_1
-28	Ἴφιτος	ἴφιτος	n	n-s---mn-	Case=n|Gender=m|Number=s	31	SBJ	_	t_506|ref=Vita Thomana et hypothesis Olympiorum_1
-29	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	30	ATR	_	t_507|ref=Vita Thomana et hypothesis Olympiorum_1
-30	Ὀλύμπια	ὀλύμπιος	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_508|ref=Vita Thomana et hypothesis Olympiorum_1
-31	κατέβαλεν	καταβάλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	34	PRED	_	t_509|ref=Vita Thomana et hypothesis Olympiorum_1
-32	,	,	u	u--------	_	12	AuxX	_	t_510|ref=Vita Thomana et hypothesis Olympiorum_1
-33	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	37	SBJ	_	t_511|ref=Vita Thomana et hypothesis Olympiorum_1
-34	δὲ	δέ	c	c--------	_	12	COORD	_	t_512|ref=Vita Thomana et hypothesis Olympiorum_1
-35	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	36	ATR	_	t_513|ref=Vita Thomana et hypothesis Olympiorum_1
-36	Πύθια	πύθιος	n	n-p---na-	Case=a|Gender=n|Number=p	37	OBJ	_	t_514|ref=Vita Thomana et hypothesis Olympiorum_1
-37	[0]	[0]	-	---------	_	34	PRED	_	e_16|ref=Vita Thomana et hypothesis Olympiorum_1
-38	·	·	u	u--------	_	12	AuxK	_	t_515|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἀλλ᾿	ἀλλά	d	d--------	_	34	AuxY	_	t_479|t_512|ref=Vit.Thoman._1
+2	Ἴφιτός	ἴφιτος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_480|t_482|ref=Vit.Thoman._1
+3	τις	τις	a	a-s----n-	Case=n|Gender=m|Number=s	4	ATR	_	t_481|t_482|ref=Vit.Thoman._1
+4	καὶ	καί	c	c--------	_	34	COORD	_	t_482|t_512|ref=Vit.Thoman._1
+5	Εὐρύλοχος	εὐρύλοχος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_483|t_482|ref=Vit.Thoman._1
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_484|t_485|ref=Vit.Thoman._1
+7	Κιρραίους	κιρραῖος	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_485|t_486|ref=Vit.Thoman._1
+8	πολεμήσαντες	πολεμέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	ADV	_	t_486|t_499|ref=Vit.Thoman._1
+9	(	̔	u	u--------	_	12	AuxG	_	t_487|t_490|ref=Vit.Thoman._1
+10	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_488|t_490|ref=Vit.Thoman._1
+11	δὲ	δέ	d	d--------	_	12	AuxY	_	t_489|t_490|ref=Vit.Thoman._1
+12	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_490|0|ref=Vit.Thoman._1
+13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_491|t_497|ref=Vit.Thoman._1
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_492|t_493|ref=Vit.Thoman._1
+15	πάραλον	πάραλος	a	a-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_493|t_497|ref=Vit.Thoman._1
+16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_494|t_495|ref=Vit.Thoman._1
+17	Φωκίδος	φωκίς	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_495|t_493|ref=Vit.Thoman._1
+18	λῃσταὶ	λῃστής	n	n-p---mn-	Case=n|Gender=m|Number=p	19	PNOM	_	t_496|t_497|ref=Vit.Thoman._1
+19	κατέχοντες	κατέχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	PNOM	_	t_497|t_490|ref=Vit.Thoman._1
+20	)	)	u	u--------	_	12	AuxG	_	t_498|t_490|ref=Vit.Thoman._1
+21	καὶ	καί	c	c--------	_	34	COORD	_	t_499|t_512|ref=Vit.Thoman._1
+22	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_500|t_501|ref=Vit.Thoman._1
+23	λάφυρα	λάφυρα	n	n-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_501|t_502|ref=Vit.Thoman._1
+24	συναγαγόντες	συνάγω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	21	ADV	_	t_502|t_499|ref=Vit.Thoman._1
+25	,	,	u	u--------	_	12	AuxX	_	t_503|t_490|ref=Vit.Thoman._1
+26	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	28	ATR	_	t_504|t_506|ref=Vit.Thoman._1
+27	μὲν	μέν	d	d--------	_	34	AuxY	_	t_505|t_512|ref=Vit.Thoman._1
+28	Ἴφιτος	ἴφιτος	n	n-s---mn-	Case=n|Gender=m|Number=s	31	SBJ	_	t_506|t_509|ref=Vit.Thoman._1
+29	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	30	ATR	_	t_507|t_508|ref=Vit.Thoman._1
+30	Ὀλύμπια	ὀλύμπιος	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_508|t_509|ref=Vit.Thoman._1
+31	κατέβαλεν	καταβάλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	34	PRED	_	t_509|t_512|ref=Vit.Thoman._1
+32	,	,	u	u--------	_	12	AuxX	_	t_510|t_490|ref=Vit.Thoman._1
+33	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	37	SBJ	_	t_511|e_16|ref=Vit.Thoman._1
+34	δὲ	δέ	c	c--------	_	12	COORD	_	t_512|t_490|ref=Vit.Thoman._1
+35	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	36	ATR	_	t_513|t_514|ref=Vit.Thoman._1
+36	Πύθια	πύθιος	n	n-p---na-	Case=a|Gender=n|Number=p	37	OBJ	_	t_514|e_16|ref=Vit.Thoman._1
+37	[0]	[0]	-	---------	_	34	PRED	_	e_16|t_512|ref=Vit.Thoman._1
+38	·	·	u	u--------	_	12	AuxK	_	t_515|t_490|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = καὶ ταύτην ἐπιμεῖναι τὴν θέσιν συνέβη .
 # sent_id = 36
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_516|ref=Vita Thomana et hypothesis Olympiorum_1
-2	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_517|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ἐπιμεῖναι	ἐπιμένω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	SBJ	_	t_518|ref=Vita Thomana et hypothesis Olympiorum_1
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_519|ref=Vita Thomana et hypothesis Olympiorum_1
-5	θέσιν	θέσις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	SBJ	_	t_520|ref=Vita Thomana et hypothesis Olympiorum_1
-6	συνέβη	συμβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_521|ref=Vita Thomana et hypothesis Olympiorum_1
-7	.	.	u	u--------	_	6	AuxK	_	t_522|ref=Vita Thomana et hypothesis Olympiorum_1
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_516|t_521|ref=Vit.Thoman._1
+2	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_517|t_520|ref=Vit.Thoman._1
+3	ἐπιμεῖναι	ἐπιμένω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	SBJ	_	t_518|t_521|ref=Vit.Thoman._1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_519|t_520|ref=Vit.Thoman._1
+5	θέσιν	θέσις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	SBJ	_	t_520|t_518|ref=Vit.Thoman._1
+6	συνέβη	συμβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_521|0|ref=Vit.Thoman._1
+7	.	.	u	u--------	_	6	AuxK	_	t_522|t_521|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Τέθνηκε δὲ ὁ Πίνδαρος ἓξ καὶ ἑξήκοντα ἐτῶν γεγονὼς ἐπὶ Ἀβίωνος ἄρχοντος κατὰ τὴν ἕκτην καὶ ὀγδοηκοστὴν Ὀλυμπίαδα .
 # sent_id = 37
-1	Τέθνηκε	θνήσκω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_523|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_524|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_525|ref=Vita Thomana et hypothesis Olympiorum_1
-4	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_526|ref=Vita Thomana et hypothesis Olympiorum_1
-5	ἓξ	ἕξ	a	a--------	_	6	ATR	_	t_527|ref=Vita Thomana et hypothesis Olympiorum_1
-6	καὶ	καί	c	c--------	_	8	COORD	_	t_528|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ἑξήκοντα	ἑξήκοντα	a	a--------	_	6	ATR	_	t_529|ref=Vita Thomana et hypothesis Olympiorum_1
-8	ἐτῶν	ἔτος	n	n-p---ng-	Case=g|Gender=n|Number=p	9	PNOM	_	t_530|ref=Vita Thomana et hypothesis Olympiorum_1
-9	γεγονὼς	γίγνομαι	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	1	ADV	_	t_531|ref=Vita Thomana et hypothesis Olympiorum_1
-10	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_532|ref=Vita Thomana et hypothesis Olympiorum_1
-11	Ἀβίωνος	ἀβίων	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_533|ref=Vita Thomana et hypothesis Olympiorum_1
-12	ἄρχοντος	ἄρχω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_534|ref=Vita Thomana et hypothesis Olympiorum_1
-13	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_535|ref=Vita Thomana et hypothesis Olympiorum_1
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_536|ref=Vita Thomana et hypothesis Olympiorum_1
-15	ἕκτην	ἕκτος	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_537|ref=Vita Thomana et hypothesis Olympiorum_1
-16	καὶ	καί	c	c--------	_	18	COORD	_	t_538|ref=Vita Thomana et hypothesis Olympiorum_1
-17	ὀγδοηκοστὴν	ὀγδοηκοστός	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_539|ref=Vita Thomana et hypothesis Olympiorum_1
-18	Ὀλυμπίαδα	ὀλυμπία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_540|ref=Vita Thomana et hypothesis Olympiorum_1
-19	.	.	u	u--------	_	1	AuxK	_	t_541|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Τέθνηκε	θνήσκω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_523|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_524|t_523|ref=Vit.Thoman._1
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_525|t_526|ref=Vit.Thoman._1
+4	Πίνδαρος	πίνδαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_526|t_523|ref=Vit.Thoman._1
+5	ἓξ	ἕξ	a	a--------	_	6	ATR	_	t_527|t_528|ref=Vit.Thoman._1
+6	καὶ	καί	c	c--------	_	8	COORD	_	t_528|t_530|ref=Vit.Thoman._1
+7	ἑξήκοντα	ἑξήκοντα	a	a--------	_	6	ATR	_	t_529|t_528|ref=Vit.Thoman._1
+8	ἐτῶν	ἔτος	n	n-p---ng-	Case=g|Gender=n|Number=p	9	PNOM	_	t_530|t_531|ref=Vit.Thoman._1
+9	γεγονὼς	γίγνομαι	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	1	ADV	_	t_531|t_523|ref=Vit.Thoman._1
+10	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_532|t_531|ref=Vit.Thoman._1
+11	Ἀβίωνος	ἀβίων	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_533|t_532|ref=Vit.Thoman._1
+12	ἄρχοντος	ἄρχω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_534|t_533|ref=Vit.Thoman._1
+13	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_535|t_523|ref=Vit.Thoman._1
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_536|t_540|ref=Vit.Thoman._1
+15	ἕκτην	ἕκτος	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_537|t_538|ref=Vit.Thoman._1
+16	καὶ	καί	c	c--------	_	18	COORD	_	t_538|t_540|ref=Vit.Thoman._1
+17	ὀγδοηκοστὴν	ὀγδοηκοστός	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_539|t_538|ref=Vit.Thoman._1
+18	Ὀλυμπίαδα	ὀλυμπία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_540|t_535|ref=Vit.Thoman._1
+19	.	.	u	u--------	_	1	AuxK	_	t_541|t_523|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἤκουσε δὲ Σιμωνίδου .
 # sent_id = 38
-1	ἤκουσε	ἀκούω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_542|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_543|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Σιμωνίδου	σιμωνίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	1	OBJ	_	t_544|ref=Vita Thomana et hypothesis Olympiorum_1
-4	.	.	u	u--------	_	1	AuxK	_	t_545|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἤκουσε	ἀκούω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_542|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_543|t_542|ref=Vit.Thoman._1
+3	Σιμωνίδου	σιμωνίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	1	OBJ	_	t_544|t_542|ref=Vit.Thoman._1
+4	.	.	u	u--------	_	1	AuxK	_	t_545|t_542|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ὁ δὲ ἐπινίκιος οὗ ἡ ἀρχή [0] ·
 # sent_id = 39
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_546|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_547|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ἐπινίκιος	ἐπινίκιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_548|ref=Vita Thomana et hypothesis Olympiorum_1
-4	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_549|ref=Vita Thomana et hypothesis Olympiorum_1
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_550|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_551|ref=Vita Thomana et hypothesis Olympiorum_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_17|ref=Vita Thomana et hypothesis Olympiorum_1
-8	·	·	u	u--------	_	7	AuxK	_	t_552|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_546|t_548|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_547|e_17|ref=Vit.Thoman._1
+3	ἐπινίκιος	ἐπινίκιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_548|e_17|ref=Vit.Thoman._1
+4	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_549|t_551|ref=Vit.Thoman._1
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_550|t_551|ref=Vit.Thoman._1
+6	ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_551|e_17|ref=Vit.Thoman._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Vit.Thoman._1
+8	·	·	u	u--------	_	7	AuxK	_	t_552|e_17|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Ἄριστον μὲν ὕδωρ , προτέτακται ὑπὸ Ἀριστοφάνους τοῦ συντάξαντος τὰ Πινδαρικὰ διὰ τὸ περιέχειν τοῦ ἀγῶνος ἐγκώμιον καὶ τὰ περὶ τοῦ Πέλοπος , ὃς πρῶτος ἐν Ἤλιδι ἠγωνίσατο .
 # sent_id = 40
-1	Ἄριστον	ἄριστον	n	n-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_553|ref=Vita Thomana et hypothesis Olympiorum_1
-2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_554|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_555|ref=Vita Thomana et hypothesis Olympiorum_1
-4	,	,	u	u--------	_	5	AuxX	_	t_556|ref=Vita Thomana et hypothesis Olympiorum_1
-5	προτέτακται	προτάσσω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_557|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ὑπὸ	ὑπό	r	r--------	_	5	AuxP	_	t_558|ref=Vita Thomana et hypothesis Olympiorum_1
-7	Ἀριστοφάνους	ἀριστοφάνης	n	n-s---mg-	Case=g|Gender=m|Number=s	6	OBJ	_	t_559|ref=Vita Thomana et hypothesis Olympiorum_1
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_560|ref=Vita Thomana et hypothesis Olympiorum_1
-9	συντάξαντος	συντάσσω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ATR	_	t_561|ref=Vita Thomana et hypothesis Olympiorum_1
-10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_562|ref=Vita Thomana et hypothesis Olympiorum_1
-11	Πινδαρικὰ	πινδαρικός	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_563|ref=Vita Thomana et hypothesis Olympiorum_1
-12	διὰ	διά	r	r--------	_	5	AuxP	_	t_564|ref=Vita Thomana et hypothesis Olympiorum_1
-13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_565|ref=Vita Thomana et hypothesis Olympiorum_1
-14	περιέχειν	περιέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	ADV	_	t_566|ref=Vita Thomana et hypothesis Olympiorum_1
-15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_567|ref=Vita Thomana et hypothesis Olympiorum_1
-16	ἀγῶνος	ἀγών	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_568|ref=Vita Thomana et hypothesis Olympiorum_1
-17	ἐγκώμιον	ἐγκώμιον	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_569|ref=Vita Thomana et hypothesis Olympiorum_1
-18	καὶ	καί	c	c--------	_	14	COORD	_	t_570|ref=Vita Thomana et hypothesis Olympiorum_1
-19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_571|ref=Vita Thomana et hypothesis Olympiorum_1
-20	περὶ	περί	r	r--------	_	19	AuxP	_	t_572|ref=Vita Thomana et hypothesis Olympiorum_1
-21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_573|ref=Vita Thomana et hypothesis Olympiorum_1
-22	Πέλοπος	πέλοψ	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_574|ref=Vita Thomana et hypothesis Olympiorum_1
-23	,	,	u	u--------	_	5	AuxX	_	t_575|ref=Vita Thomana et hypothesis Olympiorum_1
-24	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	28	SBJ	_	t_576|ref=Vita Thomana et hypothesis Olympiorum_1
-25	πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	24	ATV	_	t_577|ref=Vita Thomana et hypothesis Olympiorum_1
-26	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_578|ref=Vita Thomana et hypothesis Olympiorum_1
-27	Ἤλιδι	ἦλις	n	n-s---fd-	Case=d|Gender=f|Number=s	26	ADV	_	t_579|ref=Vita Thomana et hypothesis Olympiorum_1
-28	ἠγωνίσατο	ἀγωνίζομαι	v	v3saie---	Mood=i|Number=s|Person=3|Tense=a|Voice=e	22	ATR	_	t_580|ref=Vita Thomana et hypothesis Olympiorum_1
-29	.	.	u	u--------	_	5	AuxK	_	t_581|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Ἄριστον	ἄριστον	n	n-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_553|t_555|ref=Vit.Thoman._1
+2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_554|t_557|ref=Vit.Thoman._1
+3	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_555|t_557|ref=Vit.Thoman._1
+4	,	,	u	u--------	_	5	AuxX	_	t_556|t_557|ref=Vit.Thoman._1
+5	προτέτακται	προτάσσω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_557|0|ref=Vit.Thoman._1
+6	ὑπὸ	ὑπό	r	r--------	_	5	AuxP	_	t_558|t_557|ref=Vit.Thoman._1
+7	Ἀριστοφάνους	ἀριστοφάνης	n	n-s---mg-	Case=g|Gender=m|Number=s	6	OBJ	_	t_559|t_558|ref=Vit.Thoman._1
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_560|t_559|ref=Vit.Thoman._1
+9	συντάξαντος	συντάσσω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ATR	_	t_561|t_559|ref=Vit.Thoman._1
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_562|t_563|ref=Vit.Thoman._1
+11	Πινδαρικὰ	πινδαρικός	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_563|t_561|ref=Vit.Thoman._1
+12	διὰ	διά	r	r--------	_	5	AuxP	_	t_564|t_557|ref=Vit.Thoman._1
+13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_565|t_566|ref=Vit.Thoman._1
+14	περιέχειν	περιέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	ADV	_	t_566|t_564|ref=Vit.Thoman._1
+15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_567|t_568|ref=Vit.Thoman._1
+16	ἀγῶνος	ἀγών	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_568|t_569|ref=Vit.Thoman._1
+17	ἐγκώμιον	ἐγκώμιον	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_569|t_570|ref=Vit.Thoman._1
+18	καὶ	καί	c	c--------	_	14	COORD	_	t_570|t_566|ref=Vit.Thoman._1
+19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_571|t_570|ref=Vit.Thoman._1
+20	περὶ	περί	r	r--------	_	19	AuxP	_	t_572|t_571|ref=Vit.Thoman._1
+21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_573|t_574|ref=Vit.Thoman._1
+22	Πέλοπος	πέλοψ	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_574|t_572|ref=Vit.Thoman._1
+23	,	,	u	u--------	_	5	AuxX	_	t_575|t_557|ref=Vit.Thoman._1
+24	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	28	SBJ	_	t_576|t_580|ref=Vit.Thoman._1
+25	πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	24	ATV	_	t_577|t_576|ref=Vit.Thoman._1
+26	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_578|t_580|ref=Vit.Thoman._1
+27	Ἤλιδι	ἦλις	n	n-s---fd-	Case=d|Gender=f|Number=s	26	ADV	_	t_579|t_578|ref=Vit.Thoman._1
+28	ἠγωνίσατο	ἀγωνίζομαι	v	v3saie---	Mood=i|Number=s|Person=3|Tense=a|Voice=e	22	ATR	_	t_580|t_574|ref=Vit.Thoman._1
+29	.	.	u	u--------	_	5	AuxK	_	t_581|t_557|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = γέγραπται δὲ Ἱέρωνι βασιλεῖ Συρακουσίων ·
 # sent_id = 41
-1	γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_582|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_583|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Ἱέρωνι	ἱέρων	n	n-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_584|ref=Vita Thomana et hypothesis Olympiorum_1
-4	βασιλεῖ	βασιλεύς	n	n-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_585|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Συρακουσίων	συρακούσιος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_586|ref=Vita Thomana et hypothesis Olympiorum_1
-6	·	·	u	u--------	_	1	AuxK	_	t_587|ref=Vita Thomana et hypothesis Olympiorum_1
+1	γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_582|0|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_583|t_582|ref=Vit.Thoman._1
+3	Ἱέρωνι	ἱέρων	n	n-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_584|t_582|ref=Vit.Thoman._1
+4	βασιλεῖ	βασιλεύς	n	n-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_585|t_584|ref=Vit.Thoman._1
+5	Συρακουσίων	συρακούσιος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_586|t_585|ref=Vit.Thoman._1
+6	·	·	u	u--------	_	1	AuxK	_	t_587|t_582|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = αἱ δὲ Συράκουσαι πόλις τῆς Σικελίας [0] ·
 # sent_id = 42
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_588|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_589|ref=Vita Thomana et hypothesis Olympiorum_1
-3	Συράκουσαι	συράκουσαι	n	n-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_590|ref=Vita Thomana et hypothesis Olympiorum_1
-4	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	7	PNOM	_	t_591|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_592|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Σικελίας	σικελία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_593|ref=Vita Thomana et hypothesis Olympiorum_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_18|ref=Vita Thomana et hypothesis Olympiorum_1
-8	·	·	u	u--------	_	7	AuxK	_	t_594|ref=Vita Thomana et hypothesis Olympiorum_1
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_588|t_591|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_589|e_18|ref=Vit.Thoman._1
+3	Συράκουσαι	συράκουσαι	n	n-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_590|t_591|ref=Vit.Thoman._1
+4	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	7	PNOM	_	t_591|e_18|ref=Vit.Thoman._1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_592|t_593|ref=Vit.Thoman._1
+6	Σικελίας	σικελία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_593|t_591|ref=Vit.Thoman._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Vit.Thoman._1
+8	·	·	u	u--------	_	7	AuxK	_	t_594|e_18|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ὃς καὶ κτίστης ἐγένετο Αἴτνης πόλεως , ἀπὸ ὄρους αὐτῆς οὕτως αὐτὴν ὀνομάσας .
 # sent_id = 43
-1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_595|ref=Vita Thomana et hypothesis Olympiorum_1
-2	καὶ	καί	d	d--------	_	4	AuxY	_	t_596|ref=Vita Thomana et hypothesis Olympiorum_1
-3	κτίστης	κτίστης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_597|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_598|ref=Vita Thomana et hypothesis Olympiorum_1
-5	Αἴτνης	αἴτνη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_599|ref=Vita Thomana et hypothesis Olympiorum_1
-6	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_600|ref=Vita Thomana et hypothesis Olympiorum_1
-7	,	,	u	u--------	_	4	AuxX	_	t_601|ref=Vita Thomana et hypothesis Olympiorum_1
-8	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_602|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ὄρους	ὄρος	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_603|ref=Vita Thomana et hypothesis Olympiorum_1
-10	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_604|ref=Vita Thomana et hypothesis Olympiorum_1
-11	οὕτως	οὕτως	d	d--------	_	13	ADV	_	t_605|ref=Vita Thomana et hypothesis Olympiorum_1
-12	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_606|ref=Vita Thomana et hypothesis Olympiorum_1
-13	ὀνομάσας	ὀνομάζω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ADV	_	t_607|ref=Vita Thomana et hypothesis Olympiorum_1
-14	.	.	u	u--------	_	4	AuxK	_	t_608|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_595|t_598|ref=Vit.Thoman._1
+2	καὶ	καί	d	d--------	_	4	AuxY	_	t_596|t_598|ref=Vit.Thoman._1
+3	κτίστης	κτίστης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_597|t_598|ref=Vit.Thoman._1
+4	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_598|0|ref=Vit.Thoman._1
+5	Αἴτνης	αἴτνη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_599|t_600|ref=Vit.Thoman._1
+6	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_600|t_597|ref=Vit.Thoman._1
+7	,	,	u	u--------	_	4	AuxX	_	t_601|t_598|ref=Vit.Thoman._1
+8	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_602|t_607|ref=Vit.Thoman._1
+9	ὄρους	ὄρος	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_603|t_602|ref=Vit.Thoman._1
+10	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_604|t_603|ref=Vit.Thoman._1
+11	οὕτως	οὕτως	d	d--------	_	13	ADV	_	t_605|t_607|ref=Vit.Thoman._1
+12	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_606|t_607|ref=Vit.Thoman._1
+13	ὀνομάσας	ὀνομάζω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ADV	_	t_607|t_598|ref=Vit.Thoman._1
+14	.	.	u	u--------	_	4	AuxK	_	t_608|t_598|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = ἀποστείλας δὲ οὗτος ἵππους εἰς Ὀλυμπίαν ἐνίκησε κέλητι .
 # sent_id = 44
-1	ἀποστείλας	ἀποστέλλω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_609|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_610|ref=Vita Thomana et hypothesis Olympiorum_1
-3	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_611|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ἵππους	ἵππος	n	n-p---ma-	Case=a|Gender=m|Number=p	1	OBJ	_	t_612|ref=Vita Thomana et hypothesis Olympiorum_1
-5	εἰς	εἰς	r	r--------	_	7	AuxP	_	t_613|ref=Vita Thomana et hypothesis Olympiorum_1
-6	Ὀλυμπίαν	ὀλυμπία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_614|ref=Vita Thomana et hypothesis Olympiorum_1
-7	ἐνίκησε	νικάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_615|ref=Vita Thomana et hypothesis Olympiorum_1
-8	κέλητι	κέλητης	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_616|ref=Vita Thomana et hypothesis Olympiorum_1
-9	.	.	u	u--------	_	7	AuxK	_	t_617|ref=Vita Thomana et hypothesis Olympiorum_1
+1	ἀποστείλας	ἀποστέλλω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_609|t_615|ref=Vit.Thoman._1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_610|t_615|ref=Vit.Thoman._1
+3	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_611|t_615|ref=Vit.Thoman._1
+4	ἵππους	ἵππος	n	n-p---ma-	Case=a|Gender=m|Number=p	1	OBJ	_	t_612|t_609|ref=Vit.Thoman._1
+5	εἰς	εἰς	r	r--------	_	7	AuxP	_	t_613|t_615|ref=Vit.Thoman._1
+6	Ὀλυμπίαν	ὀλυμπία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_614|t_613|ref=Vit.Thoman._1
+7	ἐνίκησε	νικάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_615|0|ref=Vit.Thoman._1
+8	κέλητι	κέλητης	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_616|t_615|ref=Vit.Thoman._1
+9	.	.	u	u--------	_	7	AuxK	_	t_617|t_615|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = Τὸ μέτρον τούτου ὑπάρχει τριάς ·
 # sent_id = 45
-1	Τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_618|ref=Vita Thomana et hypothesis Olympiorum_1
-2	μέτρον	μέτρον	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_619|ref=Vita Thomana et hypothesis Olympiorum_1
-3	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_620|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_621|ref=Vita Thomana et hypothesis Olympiorum_1
-5	τριάς	τριάς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_622|ref=Vita Thomana et hypothesis Olympiorum_1
-6	·	·	u	u--------	_	4	AuxK	_	t_623|ref=Vita Thomana et hypothesis Olympiorum_1
+1	Τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_618|t_619|ref=Vit.Thoman._1
+2	μέτρον	μέτρον	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_619|t_621|ref=Vit.Thoman._1
+3	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_620|t_619|ref=Vit.Thoman._1
+4	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_621|0|ref=Vit.Thoman._1
+5	τριάς	τριάς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_622|t_621|ref=Vit.Thoman._1
+6	·	·	u	u--------	_	4	AuxK	_	t_623|t_621|ref=Vit.Thoman._1
 
-# source = Vitae Pindari et varia de Pindaro, Vita Thomana et hypothesis Olympiorum 1
+# source = Vitae Pindari et varia de Pindaro, Vit.Thoman. 1
 # text = τριὰς δέ ἐστι ποίημα ἐν ᾧ στροφὴ , ἀντίστροφος , ἐπῳδός [0] .
 # sent_id = 46
-1	τριὰς	τριάς	m	m-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_624|ref=Vita Thomana et hypothesis Olympiorum_1
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_625|ref=Vita Thomana et hypothesis Olympiorum_1
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_626|ref=Vita Thomana et hypothesis Olympiorum_1
-4	ποίημα	ποίημα	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_627|ref=Vita Thomana et hypothesis Olympiorum_1
-5	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_628|ref=Vita Thomana et hypothesis Olympiorum_1
-6	ᾧ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_629|ref=Vita Thomana et hypothesis Olympiorum_1
-7	στροφὴ	στροφή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_630|ref=Vita Thomana et hypothesis Olympiorum_1
-8	,	,	u	u--------	_	3	AuxX	_	t_631|ref=Vita Thomana et hypothesis Olympiorum_1
-9	ἀντίστροφος	ἀντίστροφος	a	a-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_632|ref=Vita Thomana et hypothesis Olympiorum_1
-10	,	,	u	u--------	_	12	COORD	_	t_633|ref=Vita Thomana et hypothesis Olympiorum_1
-11	ἐπῳδός	ἐπῳδός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_634|ref=Vita Thomana et hypothesis Olympiorum_1
-12	[0]	[0]	-	---------	_	4	ATR	_	e_19|ref=Vita Thomana et hypothesis Olympiorum_1
-13	.	.	u	u--------	_	3	AuxK	_	t_635|ref=Vita Thomana et hypothesis Olympiorum_1
+1	τριὰς	τριάς	m	m-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_624|t_627|ref=Vit.Thoman._1
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_625|t_626|ref=Vit.Thoman._1
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_626|0|ref=Vit.Thoman._1
+4	ποίημα	ποίημα	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_627|t_626|ref=Vit.Thoman._1
+5	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_628|e_19|ref=Vit.Thoman._1
+6	ᾧ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_629|t_628|ref=Vit.Thoman._1
+7	στροφὴ	στροφή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_630|t_633|ref=Vit.Thoman._1
+8	,	,	u	u--------	_	3	AuxX	_	t_631|t_626|ref=Vit.Thoman._1
+9	ἀντίστροφος	ἀντίστροφος	a	a-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_632|t_633|ref=Vit.Thoman._1
+10	,	,	u	u--------	_	12	COORD	_	t_633|e_19|ref=Vit.Thoman._1
+11	ἐπῳδός	ἐπῳδός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_634|t_633|ref=Vit.Thoman._1
+12	[0]	[0]	-	---------	_	4	ATR	_	e_19|t_627|ref=Vit.Thoman._1
+13	.	.	u	u--------	_	3	AuxK	_	t_635|t_626|ref=Vit.Thoman._1
 

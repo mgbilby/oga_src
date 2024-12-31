@@ -1,428 +1,428 @@
-# source = Myia, Epistula ad Phyllidem 1
+# source = Myia, Ep.Pyllid. 1
 # text = Γενομένᾳ τοι ματρὶ παίδων τάδε παραινέω .
 # sent_id = 1
-1	Γενομένᾳ	γίγνομαι	v	v-sapmfd-	Case=d|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	3	ATR	_	t_1|ref=Epistula ad Phyllidem_1
-2	τοι	σύ	g	g--------	_	6	AuxY	_	t_2|ref=Epistula ad Phyllidem_1
-3	ματρὶ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_3|ref=Epistula ad Phyllidem_1
-4	παίδων	παῖς	n	n-p---cg-	Case=g|Gender=c|Number=p	6	OBJ	_	t_4|ref=Epistula ad Phyllidem_1
-5	τάδε	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_5|ref=Epistula ad Phyllidem_1
-6	παραινέω	παραινέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_6|ref=Epistula ad Phyllidem_1
-7	.	.	u	u--------	_	6	AuxK	_	t_7|ref=Epistula ad Phyllidem_1
+1	Γενομένᾳ	γίγνομαι	v	v-sapmfd-	Case=d|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	3	ATR	_	t_1|t_3|ref=Ep.Pyllid._1
+2	τοι	σύ	g	g--------	_	6	AuxY	_	t_2|t_6|ref=Ep.Pyllid._1
+3	ματρὶ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_3|t_6|ref=Ep.Pyllid._1
+4	παίδων	παῖς	n	n-p---cg-	Case=g|Gender=c|Number=p	6	OBJ	_	t_4|t_6|ref=Ep.Pyllid._1
+5	τάδε	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_5|t_6|ref=Ep.Pyllid._1
+6	παραινέω	παραινέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_6|0|ref=Ep.Pyllid._1
+7	.	.	u	u--------	_	6	AuxK	_	t_7|t_6|ref=Ep.Pyllid._1
 
-# source = Myia, Epistula ad Phyllidem 1
+# source = Myia, Ep.Pyllid. 1
 # text = τίτθαν μὲν ἐκλέξασθαι τὰν ἐπιταδειοτάταν καὶ καθάριον , ἔτι δὲ καὶ αἰδήμονα καὶ μὴ ὕπνῳ προσοικειουμέναν μη δὲ μὰν μέθᾳ [0] ·
 # sent_id = 2
-1	τίτθαν	τίτθη	v	v-pppamg-	Case=a|Gender=f|Number=s	0	PRED	_	t_8|ref=Epistula ad Phyllidem_1
-2	μὲν	μέν	d	d--------	_	10	AuxY	_	t_9|ref=Epistula ad Phyllidem_1
-3	ἐκλέξασθαι	ἐκλέγω	v	v--anm---	Mood=n|Tense=a|Voice=m	10	OBJ	_	t_10|ref=Epistula ad Phyllidem_1
-4	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_11|ref=Epistula ad Phyllidem_1
-5	ἐπιταδειοτάταν	ἐπίπονος	a	a-s---fas	Case=a|Degree=s|Gender=f|Number=s	6	OBJ	_	t_12|ref=Epistula ad Phyllidem_1
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_13|ref=Epistula ad Phyllidem_1
-7	καθάριον	καθάριος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_14|ref=Epistula ad Phyllidem_1
-8	,	,	u	u--------	_	1	AuxX	_	t_15|ref=Epistula ad Phyllidem_1
-9	ἔτι	ἔτι	d	d--------	_	18	ADV	_	t_16|ref=Epistula ad Phyllidem_1
-10	δὲ	δέ	d	d--------	_	1	COORD	_	t_17|ref=Epistula ad Phyllidem_1
-11	καὶ	καί	d	d--------	_	13	AuxY	_	t_18|ref=Epistula ad Phyllidem_1
-12	αἰδήμονα	αἰδήμων	a	a-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_19|ref=Epistula ad Phyllidem_1
-13	καὶ	καί	c	c--------	_	18	COORD	_	t_20|ref=Epistula ad Phyllidem_1
-14	μὴ	μή	d	d--------	_	16	AuxZ	_	t_21|ref=Epistula ad Phyllidem_1
-15	ὕπνῳ	ὕπνος	n	n-s---md-	Case=d|Gender=m|Number=s	16	OBJ	_	t_22|ref=Epistula ad Phyllidem_1
-16	προσοικειουμέναν	προσοικειόω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_23|ref=Epistula ad Phyllidem_1
-17	μη	μη	d	d--------	_	20	AuxZ	_	t_24|ref=Epistula ad Phyllidem_1
-18	δὲ	δέ	c	c--------	_	21	COORD	_	t_25|ref=Epistula ad Phyllidem_1
-19	μὰν	μήν	d	d--------	_	20	AuxZ	_	t_26|ref=Epistula ad Phyllidem_1
-20	μέθᾳ	μέθη	n	n-s---fd-	Case=d|Gender=f|Number=s	18	OBJ	_	t_27|ref=Epistula ad Phyllidem_1
-21	[0]	[0]	-	---------	_	10	OBJ	_	e_1|ref=Epistula ad Phyllidem_1
-22	·	·	u	u--------	_	1	AuxK	_	t_28|ref=Epistula ad Phyllidem_1
+1	τίτθαν	τίτθη	v	v-pppamg-	Case=a|Gender=f|Number=s	0	PRED	_	t_8|0|ref=Ep.Pyllid._1
+2	μὲν	μέν	d	d--------	_	10	AuxY	_	t_9|t_17|ref=Ep.Pyllid._1
+3	ἐκλέξασθαι	ἐκλέγω	v	v--anm---	Mood=n|Tense=a|Voice=m	10	OBJ	_	t_10|t_17|ref=Ep.Pyllid._1
+4	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_11|t_13|ref=Ep.Pyllid._1
+5	ἐπιταδειοτάταν	ἐπίπονος	a	a-s---fas	Case=a|Degree=s|Gender=f|Number=s	6	OBJ	_	t_12|t_13|ref=Ep.Pyllid._1
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_13|t_10|ref=Ep.Pyllid._1
+7	καθάριον	καθάριος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_14|t_13|ref=Ep.Pyllid._1
+8	,	,	u	u--------	_	1	AuxX	_	t_15|t_8|ref=Ep.Pyllid._1
+9	ἔτι	ἔτι	d	d--------	_	18	ADV	_	t_16|t_25|ref=Ep.Pyllid._1
+10	δὲ	δέ	d	d--------	_	1	COORD	_	t_17|t_8|ref=Ep.Pyllid._1
+11	καὶ	καί	d	d--------	_	13	AuxY	_	t_18|t_20|ref=Ep.Pyllid._1
+12	αἰδήμονα	αἰδήμων	a	a-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_19|t_20|ref=Ep.Pyllid._1
+13	καὶ	καί	c	c--------	_	18	COORD	_	t_20|t_25|ref=Ep.Pyllid._1
+14	μὴ	μή	d	d--------	_	16	AuxZ	_	t_21|t_23|ref=Ep.Pyllid._1
+15	ὕπνῳ	ὕπνος	n	n-s---md-	Case=d|Gender=m|Number=s	16	OBJ	_	t_22|t_23|ref=Ep.Pyllid._1
+16	προσοικειουμέναν	προσοικειόω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_23|t_20|ref=Ep.Pyllid._1
+17	μη	μη	d	d--------	_	20	AuxZ	_	t_24|t_27|ref=Ep.Pyllid._1
+18	δὲ	δέ	c	c--------	_	21	COORD	_	t_25|e_1|ref=Ep.Pyllid._1
+19	μὰν	μήν	d	d--------	_	20	AuxZ	_	t_26|t_27|ref=Ep.Pyllid._1
+20	μέθᾳ	μέθη	n	n-s---fd-	Case=d|Gender=f|Number=s	18	OBJ	_	t_27|t_25|ref=Ep.Pyllid._1
+21	[0]	[0]	-	---------	_	10	OBJ	_	e_1|t_17|ref=Ep.Pyllid._1
+22	·	·	u	u--------	_	1	AuxK	_	t_28|t_8|ref=Ep.Pyllid._1
 
-# source = Myia, Epistula ad Phyllidem 1
+# source = Myia, Ep.Pyllid. 1
 # text = ἁ τοιάδε γὰρ ἂν κρίνοιτο κρατίστα ποττὸ ἐκτρέφειν ἐλευθέρως παῖδας , ἐάν γε δὴ γάλα τρόφιμον ἔχῃ καὶ μὴ ταῖς πρὸς ἄνδρα κοίταις εὐνίκατος πέλῃ .
 # sent_id = 3
-1	ἁ	ὁ	p	p-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_29|ref=Epistula ad Phyllidem_1
-2	τοιάδε	τοιόσδε	p	p-s---fn-	Case=n|Gender=f|Number=s	5	ADV	_	t_30|ref=Epistula ad Phyllidem_1
-3	γὰρ	γάρ	g	g--------	_	5	AuxY	_	t_31|ref=Epistula ad Phyllidem_1
-4	ἂν	ἄν	g	g--------	_	5	AuxY	_	t_32|ref=Epistula ad Phyllidem_1
-5	κρίνοιτο	κρίνω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_33|ref=Epistula ad Phyllidem_1
-6	κρατίστα	κράτιστος	a	a-s---fn-	Case=n|Gender=f|Number=s	1	ATV	_	t_34|ref=Epistula ad Phyllidem_1
-7	ποττὸ	ποττός	a	a-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_35|ref=Epistula ad Phyllidem_1
-8	ἐκτρέφειν	ἐκτρέφω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_36|ref=Epistula ad Phyllidem_1
-9	ἐλευθέρως	ἐλεύθερος	d	d--------	_	8	ADV	_	t_37|ref=Epistula ad Phyllidem_1
-10	παῖδας	παῖς	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_38|ref=Epistula ad Phyllidem_1
-11	,	,	u	u--------	_	12	AuxX	_	t_39|ref=Epistula ad Phyllidem_1
-12	ἐάν	ἐάν	c	c--------	_	5	AuxC	_	t_40|ref=Epistula ad Phyllidem_1
-13	γε	γε	g	g--------	_	18	AuxZ	_	t_41|ref=Epistula ad Phyllidem_1
-14	δὴ	δή	g	g--------	_	17	AuxY	_	t_42|ref=Epistula ad Phyllidem_1
-15	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_43|ref=Epistula ad Phyllidem_1
-16	τρόφιμον	τρόφιμος	a	a-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_44|ref=Epistula ad Phyllidem_1
-17	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_45|ref=Epistula ad Phyllidem_1
-18	καὶ	καί	c	c--------	_	12	COORD	_	t_46|ref=Epistula ad Phyllidem_1
-19	μὴ	μή	d	d--------	_	25	AuxZ	_	t_47|ref=Epistula ad Phyllidem_1
-20	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	23	ATR	_	t_48|ref=Epistula ad Phyllidem_1
-21	πρὸς	πρός	r	r--------	_	23	AuxP	_	t_49|ref=Epistula ad Phyllidem_1
-22	ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	21	ATR	_	t_50|ref=Epistula ad Phyllidem_1
-23	κοίταις	κοίτη	n	n-p---fd-	Case=d|Gender=f|Number=p	25	OBJ	_	t_51|ref=Epistula ad Phyllidem_1
-24	εὐνίκατος	εὐνίκητος	a	a-s---fn-	Case=n|Gender=f|Number=s	25	PNOM	_	t_52|ref=Epistula ad Phyllidem_1
-25	πέλῃ	πέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_53|ref=Epistula ad Phyllidem_1
-26	.	.	u	u--------	_	5	AuxK	_	t_54|ref=Epistula ad Phyllidem_1
+1	ἁ	ὁ	p	p-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_29|t_33|ref=Ep.Pyllid._1
+2	τοιάδε	τοιόσδε	p	p-s---fn-	Case=n|Gender=f|Number=s	5	ADV	_	t_30|t_33|ref=Ep.Pyllid._1
+3	γὰρ	γάρ	g	g--------	_	5	AuxY	_	t_31|t_33|ref=Ep.Pyllid._1
+4	ἂν	ἄν	g	g--------	_	5	AuxY	_	t_32|t_33|ref=Ep.Pyllid._1
+5	κρίνοιτο	κρίνω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_33|0|ref=Ep.Pyllid._1
+6	κρατίστα	κράτιστος	a	a-s---fn-	Case=n|Gender=f|Number=s	1	ATV	_	t_34|t_29|ref=Ep.Pyllid._1
+7	ποττὸ	ποττός	a	a-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_35|t_36|ref=Ep.Pyllid._1
+8	ἐκτρέφειν	ἐκτρέφω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_36|t_33|ref=Ep.Pyllid._1
+9	ἐλευθέρως	ἐλεύθερος	d	d--------	_	8	ADV	_	t_37|t_36|ref=Ep.Pyllid._1
+10	παῖδας	παῖς	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_38|t_36|ref=Ep.Pyllid._1
+11	,	,	u	u--------	_	12	AuxX	_	t_39|t_40|ref=Ep.Pyllid._1
+12	ἐάν	ἐάν	c	c--------	_	5	AuxC	_	t_40|t_33|ref=Ep.Pyllid._1
+13	γε	γε	g	g--------	_	18	AuxZ	_	t_41|t_46|ref=Ep.Pyllid._1
+14	δὴ	δή	g	g--------	_	17	AuxY	_	t_42|t_45|ref=Ep.Pyllid._1
+15	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_43|t_45|ref=Ep.Pyllid._1
+16	τρόφιμον	τρόφιμος	a	a-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_44|t_45|ref=Ep.Pyllid._1
+17	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_45|t_46|ref=Ep.Pyllid._1
+18	καὶ	καί	c	c--------	_	12	COORD	_	t_46|t_40|ref=Ep.Pyllid._1
+19	μὴ	μή	d	d--------	_	25	AuxZ	_	t_47|t_53|ref=Ep.Pyllid._1
+20	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	23	ATR	_	t_48|t_51|ref=Ep.Pyllid._1
+21	πρὸς	πρός	r	r--------	_	23	AuxP	_	t_49|t_51|ref=Ep.Pyllid._1
+22	ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	21	ATR	_	t_50|t_49|ref=Ep.Pyllid._1
+23	κοίταις	κοίτη	n	n-p---fd-	Case=d|Gender=f|Number=p	25	OBJ	_	t_51|t_53|ref=Ep.Pyllid._1
+24	εὐνίκατος	εὐνίκητος	a	a-s---fn-	Case=n|Gender=f|Number=s	25	PNOM	_	t_52|t_53|ref=Ep.Pyllid._1
+25	πέλῃ	πέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_53|t_46|ref=Ep.Pyllid._1
+26	.	.	u	u--------	_	5	AuxK	_	t_54|t_33|ref=Ep.Pyllid._1
 
-# source = Myia, Epistula ad Phyllidem 1
+# source = Myia, Ep.Pyllid. 1
 # text = μεγάλα γὰρ μερὶς ἐν τῷδε καὶ πρώτα καὶ προκαταρκτικωτέρα ἐς ὅλαν τὰν βιοτὰν πέλει ἐν τᾷ τρεφοίσᾳ ποττὸ καλῶς τραφῆμεν ·
 # sent_id = 4
-1	μεγάλα	μέγας	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_55|ref=Epistula ad Phyllidem_1
-2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_56|ref=Epistula ad Phyllidem_1
-3	μερὶς	μερίς	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_57|ref=Epistula ad Phyllidem_1
-4	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_58|ref=Epistula ad Phyllidem_1
-5	τῷδε	ὅδε	p	p-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_59|ref=Epistula ad Phyllidem_1
-6	καὶ	καί	c	c--------	_	8	AuxY	_	t_60|ref=Epistula ad Phyllidem_1
-7	πρώτα	πρῶτος	a	a-s---fn-	Case=a|Gender=n|Number=p	8	ATR	_	t_61|ref=Epistula ad Phyllidem_1
-8	καὶ	καί	c	c--------	_	14	COORD	_	t_62|ref=Epistula ad Phyllidem_1
-9	προκαταρκτικωτέρα	συνεκτικός	a	a-s---fn-	Case=n|Degree=c|Gender=f|Number=s	8	PNOM	_	t_63|ref=Epistula ad Phyllidem_1
-10	ἐς	εἰς	r	r--------	_	8	AuxP	_	t_64|ref=Epistula ad Phyllidem_1
-11	ὅλαν	ὅλος	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_65|ref=Epistula ad Phyllidem_1
-12	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_66|ref=Epistula ad Phyllidem_1
-13	βιοτὰν	βιοτή	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_67|ref=Epistula ad Phyllidem_1
-14	πέλει	πέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_68|ref=Epistula ad Phyllidem_1
-15	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_69|ref=Epistula ad Phyllidem_1
-16	τᾷ	ὁ	p	p-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_70|ref=Epistula ad Phyllidem_1
-17	τρεφοίσᾳ	τρέφω	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_71|ref=Epistula ad Phyllidem_1
-18	ποττὸ	ποττός	d	d--------	_	20	ADV	_	t_72|ref=Epistula ad Phyllidem_1
-19	καλῶς	καλός	d	d--------	_	20	ADV	_	t_73|ref=Epistula ad Phyllidem_1
-20	τραφῆμεν	τρέφω	v	v--anp---	Mood=n|Tense=a|Voice=p	14	ADV	_	t_74|ref=Epistula ad Phyllidem_1
-21	·	·	u	u--------	_	14	AuxK	_	t_75|ref=Epistula ad Phyllidem_1
+1	μεγάλα	μέγας	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_55|t_57|ref=Ep.Pyllid._1
+2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_56|t_68|ref=Ep.Pyllid._1
+3	μερὶς	μερίς	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_57|t_68|ref=Ep.Pyllid._1
+4	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_58|t_68|ref=Ep.Pyllid._1
+5	τῷδε	ὅδε	p	p-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_59|t_58|ref=Ep.Pyllid._1
+6	καὶ	καί	c	c--------	_	8	AuxY	_	t_60|t_62|ref=Ep.Pyllid._1
+7	πρώτα	πρῶτος	a	a-s---fn-	Case=a|Gender=n|Number=p	8	ATR	_	t_61|t_62|ref=Ep.Pyllid._1
+8	καὶ	καί	c	c--------	_	14	COORD	_	t_62|t_68|ref=Ep.Pyllid._1
+9	προκαταρκτικωτέρα	συνεκτικός	a	a-s---fn-	Case=n|Degree=c|Gender=f|Number=s	8	PNOM	_	t_63|t_62|ref=Ep.Pyllid._1
+10	ἐς	εἰς	r	r--------	_	8	AuxP	_	t_64|t_62|ref=Ep.Pyllid._1
+11	ὅλαν	ὅλος	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_65|t_67|ref=Ep.Pyllid._1
+12	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_66|t_67|ref=Ep.Pyllid._1
+13	βιοτὰν	βιοτή	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_67|t_64|ref=Ep.Pyllid._1
+14	πέλει	πέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_68|0|ref=Ep.Pyllid._1
+15	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_69|t_74|ref=Ep.Pyllid._1
+16	τᾷ	ὁ	p	p-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_70|t_71|ref=Ep.Pyllid._1
+17	τρεφοίσᾳ	τρέφω	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_71|t_69|ref=Ep.Pyllid._1
+18	ποττὸ	ποττός	d	d--------	_	20	ADV	_	t_72|t_74|ref=Ep.Pyllid._1
+19	καλῶς	καλός	d	d--------	_	20	ADV	_	t_73|t_74|ref=Ep.Pyllid._1
+20	τραφῆμεν	τρέφω	v	v--anp---	Mood=n|Tense=a|Voice=p	14	ADV	_	t_74|t_68|ref=Ep.Pyllid._1
+21	·	·	u	u--------	_	14	AuxK	_	t_75|t_68|ref=Ep.Pyllid._1
 
-# source = Myia, Epistula ad Phyllidem 1
+# source = Myia, Ep.Pyllid. 1
 # text = ποιήσει γὰρ πάντα καλὰ ἐν τῷ ποτεοικότι καιρῷ .
 # sent_id = 5
-1	ποιήσει	ποιέω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_76|ref=Epistula ad Phyllidem_1
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_77|ref=Epistula ad Phyllidem_1
-3	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_78|ref=Epistula ad Phyllidem_1
-4	καλὰ	καλός	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_79|ref=Epistula ad Phyllidem_1
-5	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_80|ref=Epistula ad Phyllidem_1
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_81|ref=Epistula ad Phyllidem_1
-7	ποτεοικότι	ποτέοκκα	v	v-srpamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	8	ATR	_	t_82|ref=Epistula ad Phyllidem_1
-8	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_83|ref=Epistula ad Phyllidem_1
-9	.	.	u	u--------	_	1	AuxK	_	t_84|ref=Epistula ad Phyllidem_1
+1	ποιήσει	ποιέω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_76|0|ref=Ep.Pyllid._1
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_77|t_76|ref=Ep.Pyllid._1
+3	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_78|t_76|ref=Ep.Pyllid._1
+4	καλὰ	καλός	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_79|t_78|ref=Ep.Pyllid._1
+5	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_80|t_76|ref=Ep.Pyllid._1
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_81|t_83|ref=Ep.Pyllid._1
+7	ποτεοικότι	ποτέοκκα	v	v-srpamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	8	ATR	_	t_82|t_83|ref=Ep.Pyllid._1
+8	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_83|t_80|ref=Ep.Pyllid._1
+9	.	.	u	u--------	_	1	AuxK	_	t_84|t_76|ref=Ep.Pyllid._1
 
-# source = Myia, Epistula ad Phyllidem 1-2
+# source = Myia, Ep.Pyllid. 1-2
 # text = ( 2 ) τὸν τιτθόν τε καὶ μαζὸν καὶ τροφὰν δόμεν μὴ καττὸ ἐπενθόν , ἀλλὰ μετά τινος προνοίας ·
 # sent_id = 6
-1	(	̔	u	u--------	_	11	AuxG	_	t_85|ref=Epistula ad Phyllidem_1
-2	2	2	c	c--------	_	0	ExD	_	t_86|ref=Epistula ad Phyllidem_2
-3	)	)	u	u--------	_	11	AuxG	_	t_87|ref=Epistula ad Phyllidem_2
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_88|ref=Epistula ad Phyllidem_2
-5	τιτθόν	τιτθός	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_89|ref=Epistula ad Phyllidem_2
-6	τε	τε	g	g--------	_	9	AuxY	_	t_90|ref=Epistula ad Phyllidem_2
-7	καὶ	καί	c	c--------	_	9	AuxY	_	t_91|ref=Epistula ad Phyllidem_2
-8	μαζὸν	μαστός	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_92|ref=Epistula ad Phyllidem_2
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_93|ref=Epistula ad Phyllidem_2
-10	τροφὰν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_94|ref=Epistula ad Phyllidem_2
-11	δόμεν	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	2	PRED	_	t_95|ref=Epistula ad Phyllidem_2
-12	μὴ	μή	d	d--------	_	14	AuxZ	_	t_96|ref=Epistula ad Phyllidem_2
-13	καττὸ	κατά	r	r--------	_	16	AuxP	_	t_97|ref=Epistula ad Phyllidem_2
-14	ἐπενθόν	ἐπενθόν	v	v-sapann-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_98|ref=Epistula ad Phyllidem_2
-15	,	,	u	u--------	_	14	AuxX	_	t_99|ref=Epistula ad Phyllidem_2
-16	ἀλλὰ	ἀλλά	c	c--------	_	11	COORD	_	t_100|ref=Epistula ad Phyllidem_2
-17	μετά	μετά	r	r--------	_	16	AuxP	_	t_101|ref=Epistula ad Phyllidem_2
-18	τινος	τις	p	p-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_102|ref=Epistula ad Phyllidem_2
-19	προνοίας	πρόνοια	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_103|ref=Epistula ad Phyllidem_2
-20	·	·	u	u--------	_	2	AuxK	_	t_104|ref=Epistula ad Phyllidem_2
+1	(	̔	u	u--------	_	11	AuxG	_	t_85|t_95|ref=Ep.Pyllid._1
+2	2	2	c	c--------	_	0	ExD	_	t_86|0|ref=Ep.Pyllid._2
+3	)	)	u	u--------	_	11	AuxG	_	t_87|t_95|ref=Ep.Pyllid._2
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_88|t_89|ref=Ep.Pyllid._2
+5	τιτθόν	τιτθός	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_89|t_93|ref=Ep.Pyllid._2
+6	τε	τε	g	g--------	_	9	AuxY	_	t_90|t_93|ref=Ep.Pyllid._2
+7	καὶ	καί	c	c--------	_	9	AuxY	_	t_91|t_93|ref=Ep.Pyllid._2
+8	μαζὸν	μαστός	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_92|t_93|ref=Ep.Pyllid._2
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_93|t_95|ref=Ep.Pyllid._2
+10	τροφὰν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_94|t_93|ref=Ep.Pyllid._2
+11	δόμεν	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	2	PRED	_	t_95|t_86|ref=Ep.Pyllid._2
+12	μὴ	μή	d	d--------	_	14	AuxZ	_	t_96|t_98|ref=Ep.Pyllid._2
+13	καττὸ	κατά	r	r--------	_	16	AuxP	_	t_97|t_100|ref=Ep.Pyllid._2
+14	ἐπενθόν	ἐπενθόν	v	v-sapann-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_98|t_97|ref=Ep.Pyllid._2
+15	,	,	u	u--------	_	14	AuxX	_	t_99|t_98|ref=Ep.Pyllid._2
+16	ἀλλὰ	ἀλλά	c	c--------	_	11	COORD	_	t_100|t_95|ref=Ep.Pyllid._2
+17	μετά	μετά	r	r--------	_	16	AuxP	_	t_101|t_100|ref=Ep.Pyllid._2
+18	τινος	τις	p	p-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_102|t_103|ref=Ep.Pyllid._2
+19	προνοίας	πρόνοια	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_103|t_101|ref=Ep.Pyllid._2
+20	·	·	u	u--------	_	2	AuxK	_	t_104|t_86|ref=Ep.Pyllid._2
 
-# source = Myia, Epistula ad Phyllidem 2
+# source = Myia, Ep.Pyllid. 2
 # text = οὕτω γὰρ ἐς ὑγίειαν ἄξει τὸ βρέφος .
 # sent_id = 7
-1	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_105|ref=Epistula ad Phyllidem_2
-2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_106|ref=Epistula ad Phyllidem_2
-3	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_107|ref=Epistula ad Phyllidem_2
-4	ὑγίειαν	ὑγίεια	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_108|ref=Epistula ad Phyllidem_2
-5	ἄξει	ἄγω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_109|ref=Epistula ad Phyllidem_2
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_110|ref=Epistula ad Phyllidem_2
-7	βρέφος	βρέφος	n	n-s---na-	Case=a|Gender=n|Number=s	5	SBJ	_	t_111|ref=Epistula ad Phyllidem_2
-8	.	.	u	u--------	_	5	AuxK	_	t_112|ref=Epistula ad Phyllidem_2
+1	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_105|t_109|ref=Ep.Pyllid._2
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_106|t_109|ref=Ep.Pyllid._2
+3	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_107|t_109|ref=Ep.Pyllid._2
+4	ὑγίειαν	ὑγίεια	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_108|t_107|ref=Ep.Pyllid._2
+5	ἄξει	ἄγω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_109|0|ref=Ep.Pyllid._2
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_110|t_111|ref=Ep.Pyllid._2
+7	βρέφος	βρέφος	n	n-s---na-	Case=a|Gender=n|Number=s	5	SBJ	_	t_111|t_109|ref=Ep.Pyllid._2
+8	.	.	u	u--------	_	5	AuxK	_	t_112|t_109|ref=Ep.Pyllid._2
 
-# source = Myia, Epistula ad Phyllidem 2
+# source = Myia, Ep.Pyllid. 2
 # text = μὴ ὅτε αὐτὰ θέλει καθεῦδεν νικῆται , ἀλλʼ ὁπόταν τὸ νεογνὸν ἀναπαύσιος ἔρον ἔχῃ ·
 # sent_id = 8
-1	μὴ	μή	d	d--------	_	5	AuxZ	_	t_113|ref=Epistula ad Phyllidem_2
-2	ὅτε	ὅτε	c	c--------	_	5	ADV	_	t_114|ref=Epistula ad Phyllidem_2
-3	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_115|ref=Epistula ad Phyllidem_2
-4	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	OBJ	_	t_116|ref=Epistula ad Phyllidem_2
-5	καθεῦδεν	καθεύδω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_117|ref=Epistula ad Phyllidem_2
-6	νικῆται	νικάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_118|ref=Epistula ad Phyllidem_2
-7	,	,	u	u--------	_	6	AuxX	_	t_119|ref=Epistula ad Phyllidem_2
-8	ἀλλʼ	ἀλλά	c	c--------	_	6	COORD	_	t_120|ref=Epistula ad Phyllidem_2
-9	ὁπόταν	ὁπόταν	c	c--------	_	8	AuxC	_	t_121|ref=Epistula ad Phyllidem_2
-10	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_122|ref=Epistula ad Phyllidem_2
-11	νεογνὸν	νεογνός	a	a-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_123|ref=Epistula ad Phyllidem_2
-12	ἀναπαύσιος	ἀνάπαυσις	a	a-s---mn-	Case=n|Gender=m|Number=s	11	ATV	_	t_124|ref=Epistula ad Phyllidem_2
-13	ἔρον	ἔρος	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_125|ref=Epistula ad Phyllidem_2
-14	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_126|ref=Epistula ad Phyllidem_2
-15	·	·	u	u--------	_	6	AuxK	_	t_127|ref=Epistula ad Phyllidem_2
+1	μὴ	μή	d	d--------	_	5	AuxZ	_	t_113|t_117|ref=Ep.Pyllid._2
+2	ὅτε	ὅτε	c	c--------	_	5	ADV	_	t_114|t_117|ref=Ep.Pyllid._2
+3	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_115|t_116|ref=Ep.Pyllid._2
+4	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	OBJ	_	t_116|t_117|ref=Ep.Pyllid._2
+5	καθεῦδεν	καθεύδω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_117|t_120|ref=Ep.Pyllid._2
+6	νικῆται	νικάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_118|0|ref=Ep.Pyllid._2
+7	,	,	u	u--------	_	6	AuxX	_	t_119|t_118|ref=Ep.Pyllid._2
+8	ἀλλʼ	ἀλλά	c	c--------	_	6	COORD	_	t_120|t_118|ref=Ep.Pyllid._2
+9	ὁπόταν	ὁπόταν	c	c--------	_	8	AuxC	_	t_121|t_120|ref=Ep.Pyllid._2
+10	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_122|t_123|ref=Ep.Pyllid._2
+11	νεογνὸν	νεογνός	a	a-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_123|t_126|ref=Ep.Pyllid._2
+12	ἀναπαύσιος	ἀνάπαυσις	a	a-s---mn-	Case=n|Gender=m|Number=s	11	ATV	_	t_124|t_123|ref=Ep.Pyllid._2
+13	ἔρον	ἔρος	n	n-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_125|t_126|ref=Ep.Pyllid._2
+14	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_126|t_121|ref=Ep.Pyllid._2
+15	·	·	u	u--------	_	6	AuxK	_	t_127|t_118|ref=Ep.Pyllid._2
 
-# source = Myia, Epistula ad Phyllidem 2
+# source = Myia, Ep.Pyllid. 2
 # text = οὐ μικκὸν γὰρ ἄκος τῷ παιδὶ προσοίσει .
 # sent_id = 9
-1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_128|ref=Epistula ad Phyllidem_2
-2	μικκὸν	μικκός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_129|ref=Epistula ad Phyllidem_2
-3	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_130|ref=Epistula ad Phyllidem_2
-4	ἄκος	ἄκος	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_131|ref=Epistula ad Phyllidem_2
-5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_132|ref=Epistula ad Phyllidem_2
-6	παιδὶ	παῖς	n	n-s---cd-	Case=d|Gender=m|Number=s	7	OBJ	_	t_133|ref=Epistula ad Phyllidem_2
-7	προσοίσει	προσφέρω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_134|ref=Epistula ad Phyllidem_2
-8	.	.	u	u--------	_	7	AuxK	_	t_135|ref=Epistula ad Phyllidem_2
+1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_128|t_129|ref=Ep.Pyllid._2
+2	μικκὸν	μικκός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_129|t_131|ref=Ep.Pyllid._2
+3	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_130|t_134|ref=Ep.Pyllid._2
+4	ἄκος	ἄκος	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_131|t_134|ref=Ep.Pyllid._2
+5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_132|t_133|ref=Ep.Pyllid._2
+6	παιδὶ	παῖς	n	n-s---cd-	Case=d|Gender=m|Number=s	7	OBJ	_	t_133|t_134|ref=Ep.Pyllid._2
+7	προσοίσει	προσφέρω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_134|0|ref=Ep.Pyllid._2
+8	.	.	u	u--------	_	7	AuxK	_	t_135|t_134|ref=Ep.Pyllid._2
 
-# source = Myia, Epistula ad Phyllidem 2
+# source = Myia, Ep.Pyllid. 2
 # text = ἔστω δὲ μή τʼ ὀργίλα τιθάνα μή τε πρόγλωσσος μή τε ἐν ταῖς τῶν σιτίων λήψεσιν ἀδιάφορος , ἀλλὰ τεταγμένα καὶ σώφρων , δυνατὸν δὲ ὂν μὴ βάρβαρος ἀλλὰ Ἑλληνίς [0] [1] [2] .
 # sent_id = 10
-1	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	25	PRED	_	t_136|ref=Epistula ad Phyllidem_2
-2	δὲ	δέ	d	d--------	_	25	AuxY	_	t_137|ref=Epistula ad Phyllidem_2
-3	μή	μή	d	d--------	_	5	AuxZ	_	t_138|ref=Epistula ad Phyllidem_2
-4	τʼ	τε	c	c--------	_	8	AuxY	_	t_139|ref=Epistula ad Phyllidem_2
-5	ὀργίλα	ὀργίλος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_140|ref=Epistula ad Phyllidem_2
-6	τιθάνα	τιθήνη	a	a-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_141|ref=Epistula ad Phyllidem_2
-7	μή	μή	d	d--------	_	9	AuxZ	_	t_142|ref=Epistula ad Phyllidem_2
-8	τε	τε	c	c--------	_	11	AuxY	_	t_143|ref=Epistula ad Phyllidem_2
-9	πρόγλωσσος	πρόγλωσσος	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_144|ref=Epistula ad Phyllidem_2
-10	μή	μή	d	d--------	_	11	AuxY	_	t_145|ref=Epistula ad Phyllidem_2
-11	τε	τε	c	c--------	_	1	COORD	_	t_146|ref=Epistula ad Phyllidem_2
-12	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_147|ref=Epistula ad Phyllidem_2
-13	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	16	ATR	_	t_148|ref=Epistula ad Phyllidem_2
-14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_149|ref=Epistula ad Phyllidem_2
-15	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_150|ref=Epistula ad Phyllidem_2
-16	λήψεσιν	λῆψις	n	n-p---fd-	Case=d|Gender=f|Number=p	12	ADV	_	t_151|ref=Epistula ad Phyllidem_2
-17	ἀδιάφορος	ἀδιάφορος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_152|ref=Epistula ad Phyllidem_2
-18	,	,	u	u--------	_	0	AuxX	_	t_153|ref=Epistula ad Phyllidem_2
-19	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_154|ref=Epistula ad Phyllidem_2
-20	τεταγμένα	τάσσω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	21	ADV	_	t_155|ref=Epistula ad Phyllidem_2
-21	καὶ	καί	c	c--------	_	32	COORD	_	t_156|ref=Epistula ad Phyllidem_2
-22	σώφρων	σώφρων	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_157|ref=Epistula ad Phyllidem_2
-23	,	,	u	u--------	_	18	AuxX	_	t_158|ref=Epistula ad Phyllidem_2
-24	δυνατὸν	δυνατός	a	a-s---nn-	Case=n|Gender=n|Number=s	31	PNOM	_	t_159|ref=Epistula ad Phyllidem_2
-25	δὲ	δέ	c	c--------	_	18	COORD	_	t_160|ref=Epistula ad Phyllidem_2
-26	ὂν	εἰμί	p	p-p---ng-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	33	SBJ	_	t_161|ref=Epistula ad Phyllidem_2
-27	μὴ	μή	d	d--------	_	28	AuxZ	_	t_162|ref=Epistula ad Phyllidem_2
-28	βάρβαρος	βάρβαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_163|ref=Epistula ad Phyllidem_2
-29	ἀλλὰ	ἀλλά	c	c--------	_	33	COORD	_	t_164|ref=Epistula ad Phyllidem_2
-30	Ἑλληνίς	ἑλληνίς	n	n-s---fn-	Case=n|Gender=f|Number=s	29	PNOM	_	t_165|ref=Epistula ad Phyllidem_2
-31	[0]	[0]	-	---------	_	25	PRED	_	e_2|ref=Epistula ad Phyllidem_1
-32	[1]	[1]	-	---------	_	25	PRED	_	e_3|ref=Epistula ad Phyllidem_1
-33	[2]	[2]	-	---------	_	25	PRED	_	e_4|ref=Epistula ad Phyllidem_1
-34	.	.	u	u--------	_	18	AuxK	_	t_166|ref=Epistula ad Phyllidem_2
+1	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	25	PRED	_	t_136|t_160|ref=Ep.Pyllid._2
+2	δὲ	δέ	d	d--------	_	25	AuxY	_	t_137|t_160|ref=Ep.Pyllid._2
+3	μή	μή	d	d--------	_	5	AuxZ	_	t_138|t_140|ref=Ep.Pyllid._2
+4	τʼ	τε	c	c--------	_	8	AuxY	_	t_139|t_143|ref=Ep.Pyllid._2
+5	ὀργίλα	ὀργίλος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_140|t_143|ref=Ep.Pyllid._2
+6	τιθάνα	τιθήνη	a	a-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_141|t_146|ref=Ep.Pyllid._2
+7	μή	μή	d	d--------	_	9	AuxZ	_	t_142|t_144|ref=Ep.Pyllid._2
+8	τε	τε	c	c--------	_	11	AuxY	_	t_143|t_146|ref=Ep.Pyllid._2
+9	πρόγλωσσος	πρόγλωσσος	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_144|t_146|ref=Ep.Pyllid._2
+10	μή	μή	d	d--------	_	11	AuxY	_	t_145|t_146|ref=Ep.Pyllid._2
+11	τε	τε	c	c--------	_	1	COORD	_	t_146|t_136|ref=Ep.Pyllid._2
+12	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_147|t_152|ref=Ep.Pyllid._2
+13	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	16	ATR	_	t_148|t_151|ref=Ep.Pyllid._2
+14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_149|t_150|ref=Ep.Pyllid._2
+15	σιτίων	σιτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_150|t_151|ref=Ep.Pyllid._2
+16	λήψεσιν	λῆψις	n	n-p---fd-	Case=d|Gender=f|Number=p	12	ADV	_	t_151|t_147|ref=Ep.Pyllid._2
+17	ἀδιάφορος	ἀδιάφορος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_152|t_146|ref=Ep.Pyllid._2
+18	,	,	u	u--------	_	0	AuxX	_	t_153|0|ref=Ep.Pyllid._2
+19	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_154|t_136|ref=Ep.Pyllid._2
+20	τεταγμένα	τάσσω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	21	ADV	_	t_155|t_156|ref=Ep.Pyllid._2
+21	καὶ	καί	c	c--------	_	32	COORD	_	t_156|e_3|ref=Ep.Pyllid._2
+22	σώφρων	σώφρων	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_157|t_156|ref=Ep.Pyllid._2
+23	,	,	u	u--------	_	18	AuxX	_	t_158|t_153|ref=Ep.Pyllid._2
+24	δυνατὸν	δυνατός	a	a-s---nn-	Case=n|Gender=n|Number=s	31	PNOM	_	t_159|e_2|ref=Ep.Pyllid._2
+25	δὲ	δέ	c	c--------	_	18	COORD	_	t_160|t_153|ref=Ep.Pyllid._2
+26	ὂν	εἰμί	p	p-p---ng-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	33	SBJ	_	t_161|e_4|ref=Ep.Pyllid._2
+27	μὴ	μή	d	d--------	_	28	AuxZ	_	t_162|t_163|ref=Ep.Pyllid._2
+28	βάρβαρος	βάρβαρος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_163|t_164|ref=Ep.Pyllid._2
+29	ἀλλὰ	ἀλλά	c	c--------	_	33	COORD	_	t_164|e_4|ref=Ep.Pyllid._2
+30	Ἑλληνίς	ἑλληνίς	n	n-s---fn-	Case=n|Gender=f|Number=s	29	PNOM	_	t_165|t_164|ref=Ep.Pyllid._2
+31	[0]	[0]	-	---------	_	25	PRED	_	e_2|t_160|ref=Ep.Pyllid._1
+32	[1]	[1]	-	---------	_	25	PRED	_	e_3|t_160|ref=Ep.Pyllid._1
+33	[2]	[2]	-	---------	_	25	PRED	_	e_4|t_160|ref=Ep.Pyllid._1
+34	.	.	u	u--------	_	18	AuxK	_	t_166|t_153|ref=Ep.Pyllid._2
 
-# source = Myia, Epistula ad Phyllidem 2-3
+# source = Myia, Ep.Pyllid. 2-3
 # text = ( 3 ) ἄριστον , ἐὰν καὶ τοῦ γάλακτος χρηστῶς πιμπλάμενον τὸ νεογνὸν οὕτως ἐς ὕπνον τρέπηται , ἁδεῖα γὰρ νέοις ἂν εἴη καὶ εὐκατέργαστος ἁ τοιάδε σίτασις [0] ·
 # sent_id = 11
-1	(	̔	u	u--------	_	2	AuxG	_	t_167|ref=Epistula ad Phyllidem_2
-2	3	3	x	x--------	_	0	ExD	_	t_168|ref=Epistula ad Phyllidem_2
-3	)	)	u	u--------	_	2	AuxG	_	t_169|ref=Epistula ad Phyllidem_2
-4	ἄριστον	ἄριστον	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	29	PNOM	_	t_170|ref=Epistula ad Phyllidem_2
-5	,	,	u	u--------	_	23	AuxX	_	t_171|ref=Epistula ad Phyllidem_3
-6	ἐὰν	ἐάν	c	c--------	_	23	AuxC	_	t_172|ref=Epistula ad Phyllidem_3
-7	καὶ	καί	c	c--------	_	17	AuxZ	_	t_173|ref=Epistula ad Phyllidem_3
-8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_174|ref=Epistula ad Phyllidem_3
-9	γάλακτος	γάλα	n	n-s---ng-	Case=g|Gender=n|Number=s	11	OBJ	_	t_175|ref=Epistula ad Phyllidem_3
-10	χρηστῶς	χρηστός	d	d--------	_	11	ADV	_	t_176|ref=Epistula ad Phyllidem_3
-11	πιμπλάμενον	πίμπλημι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	17	ADV	_	t_177|ref=Epistula ad Phyllidem_3
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_178|ref=Epistula ad Phyllidem_3
-13	νεογνὸν	νεογνός	a	a-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_179|ref=Epistula ad Phyllidem_3
-14	οὕτως	οὕτως	d	d--------	_	17	ADV	_	t_180|ref=Epistula ad Phyllidem_3
-15	ἐς	εἰς	r	r--------	_	17	AuxP	_	t_181|ref=Epistula ad Phyllidem_3
-16	ὕπνον	ὕπνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_182|ref=Epistula ad Phyllidem_3
-17	τρέπηται	τρέπω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	6	ADV	_	t_183|ref=Epistula ad Phyllidem_3
-18	,	,	u	u--------	_	23	AuxX	_	t_184|ref=Epistula ad Phyllidem_3
-19	ἁδεῖα	ἡδύς	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_185|ref=Epistula ad Phyllidem_3
-20	γὰρ	γάρ	d	d--------	_	23	AuxY	_	t_186|ref=Epistula ad Phyllidem_3
-21	νέοις	νέος	a	a-p---md-	Case=d|Gender=m|Number=p	19	ADV	_	t_187|ref=Epistula ad Phyllidem_3
-22	ἂν	ἄν	d	d--------	_	23	AuxY	_	t_188|ref=Epistula ad Phyllidem_3
-23	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_189|ref=Epistula ad Phyllidem_3
-24	καὶ	καί	c	c--------	_	23	COORD	_	t_190|ref=Epistula ad Phyllidem_3
-25	εὐκατέργαστος	εὐκατέργαστος	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_191|ref=Epistula ad Phyllidem_3
-26	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	28	ATR	_	t_192|ref=Epistula ad Phyllidem_3
-27	τοιάδε	τοιόσδε	p	p-s---fn-	Case=n|Gender=f|Number=s	28	ATR	_	t_193|ref=Epistula ad Phyllidem_3
-28	σίτασις	σίτασις	n	n-s---fn-	Case=n|Gender=f|Number=s	29	SBJ	_	t_194|ref=Epistula ad Phyllidem_3
-29	[0]	[0]	-	---------	_	2	PRED	_	e_5|ref=Epistula ad Phyllidem_1
-30	·	·	u	u--------	_	2	AuxK	_	t_195|ref=Epistula ad Phyllidem_3
+1	(	̔	u	u--------	_	2	AuxG	_	t_167|t_168|ref=Ep.Pyllid._2
+2	3	3	x	x--------	_	0	ExD	_	t_168|0|ref=Ep.Pyllid._2
+3	)	)	u	u--------	_	2	AuxG	_	t_169|t_168|ref=Ep.Pyllid._2
+4	ἄριστον	ἄριστον	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	29	PNOM	_	t_170|e_5|ref=Ep.Pyllid._2
+5	,	,	u	u--------	_	23	AuxX	_	t_171|t_189|ref=Ep.Pyllid._3
+6	ἐὰν	ἐάν	c	c--------	_	23	AuxC	_	t_172|t_189|ref=Ep.Pyllid._3
+7	καὶ	καί	c	c--------	_	17	AuxZ	_	t_173|t_183|ref=Ep.Pyllid._3
+8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_174|t_175|ref=Ep.Pyllid._3
+9	γάλακτος	γάλα	n	n-s---ng-	Case=g|Gender=n|Number=s	11	OBJ	_	t_175|t_177|ref=Ep.Pyllid._3
+10	χρηστῶς	χρηστός	d	d--------	_	11	ADV	_	t_176|t_177|ref=Ep.Pyllid._3
+11	πιμπλάμενον	πίμπλημι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	17	ADV	_	t_177|t_183|ref=Ep.Pyllid._3
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_178|t_179|ref=Ep.Pyllid._3
+13	νεογνὸν	νεογνός	a	a-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_179|t_183|ref=Ep.Pyllid._3
+14	οὕτως	οὕτως	d	d--------	_	17	ADV	_	t_180|t_183|ref=Ep.Pyllid._3
+15	ἐς	εἰς	r	r--------	_	17	AuxP	_	t_181|t_183|ref=Ep.Pyllid._3
+16	ὕπνον	ὕπνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_182|t_181|ref=Ep.Pyllid._3
+17	τρέπηται	τρέπω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	6	ADV	_	t_183|t_172|ref=Ep.Pyllid._3
+18	,	,	u	u--------	_	23	AuxX	_	t_184|t_189|ref=Ep.Pyllid._3
+19	ἁδεῖα	ἡδύς	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_185|t_190|ref=Ep.Pyllid._3
+20	γὰρ	γάρ	d	d--------	_	23	AuxY	_	t_186|t_189|ref=Ep.Pyllid._3
+21	νέοις	νέος	a	a-p---md-	Case=d|Gender=m|Number=p	19	ADV	_	t_187|t_185|ref=Ep.Pyllid._3
+22	ἂν	ἄν	d	d--------	_	23	AuxY	_	t_188|t_189|ref=Ep.Pyllid._3
+23	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_189|t_168|ref=Ep.Pyllid._3
+24	καὶ	καί	c	c--------	_	23	COORD	_	t_190|t_189|ref=Ep.Pyllid._3
+25	εὐκατέργαστος	εὐκατέργαστος	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_191|t_190|ref=Ep.Pyllid._3
+26	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	28	ATR	_	t_192|t_194|ref=Ep.Pyllid._3
+27	τοιάδε	τοιόσδε	p	p-s---fn-	Case=n|Gender=f|Number=s	28	ATR	_	t_193|t_194|ref=Ep.Pyllid._3
+28	σίτασις	σίτασις	n	n-s---fn-	Case=n|Gender=f|Number=s	29	SBJ	_	t_194|e_5|ref=Ep.Pyllid._3
+29	[0]	[0]	-	---------	_	2	PRED	_	e_5|t_168|ref=Ep.Pyllid._1
+30	·	·	u	u--------	_	2	AuxK	_	t_195|t_168|ref=Ep.Pyllid._3
 
-# source = Myia, Epistula ad Phyllidem 3
+# source = Myia, Ep.Pyllid. 3
 # text = αἰ δέ κα ἁτέραν , δόμεν χρὴ ἁπλουστάταν [0] .
 # sent_id = 12
-1	αἰ	εἰ	i	i--------	_	7	ExD	_	t_196|ref=Epistula ad Phyllidem_3
-2	δέ	δέ	g	g--------	_	7	AuxY	_	t_197|ref=Epistula ad Phyllidem_3
-3	κα	καί	g	g--------	_	1	AuxZ	_	t_198|ref=Epistula ad Phyllidem_3
-4	ἁτέραν	ἕτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_199|ref=Epistula ad Phyllidem_3
-5	,	,	u	u--------	_	0	COORD	_	t_200|ref=Epistula ad Phyllidem_3
-6	δόμεν	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	7	SBJ	_	t_201|ref=Epistula ad Phyllidem_3
-7	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_202|ref=Epistula ad Phyllidem_3
-8	ἁπλουστάταν	ἁπλόος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_203|ref=Epistula ad Phyllidem_3
-9	[0]	[0]	-	---------	_	1	ADV	_	e_6|ref=Epistula ad Phyllidem_1
-10	.	.	u	u--------	_	5	AuxK	_	t_204|ref=Epistula ad Phyllidem_3
+1	αἰ	εἰ	i	i--------	_	7	ExD	_	t_196|t_202|ref=Ep.Pyllid._3
+2	δέ	δέ	g	g--------	_	7	AuxY	_	t_197|t_202|ref=Ep.Pyllid._3
+3	κα	καί	g	g--------	_	1	AuxZ	_	t_198|t_196|ref=Ep.Pyllid._3
+4	ἁτέραν	ἕτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_199|e_6|ref=Ep.Pyllid._3
+5	,	,	u	u--------	_	0	COORD	_	t_200|0|ref=Ep.Pyllid._3
+6	δόμεν	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	7	SBJ	_	t_201|t_202|ref=Ep.Pyllid._3
+7	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_202|t_200|ref=Ep.Pyllid._3
+8	ἁπλουστάταν	ἁπλόος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_203|t_201|ref=Ep.Pyllid._3
+9	[0]	[0]	-	---------	_	1	ADV	_	e_6|t_196|ref=Ep.Pyllid._1
+10	.	.	u	u--------	_	5	AuxK	_	t_204|t_200|ref=Ep.Pyllid._3
 
-# source = Myia, Epistula ad Phyllidem 3
+# source = Myia, Ep.Pyllid. 3
 # text = οἴνω δὲ τὸ παράπαν ἀπέχεσθαι τῷ δύναμιν ἰσχυρὰν ἔχεν , ἢ καττὸ σπάνιον μεταδιδόμεν τᾷ κράσει δείκελον γαλακτῶδες [0] .
 # sent_id = 13
-1	οἴνω	οἶνος	n	n-s---mg-	Case=n|Gender=m|Number=p	9	SBJ	_	t_205|ref=Epistula ad Phyllidem_3
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_206|ref=Epistula ad Phyllidem_3
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_207|ref=Epistula ad Phyllidem_3
-4	παράπαν	παράπαν	d	d--------	_	9	ADV	_	t_208|ref=Epistula ad Phyllidem_3
-5	ἀπέχεσθαι	ἀπέχω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	SBJ	_	t_209|ref=Epistula ad Phyllidem_3
-6	τῷ	ὁ	p	p-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_210|ref=Epistula ad Phyllidem_3
-7	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_211|ref=Epistula ad Phyllidem_3
-8	ἰσχυρὰν	ἰσχυρός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_212|ref=Epistula ad Phyllidem_3
-9	ἔχεν	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	PRED	_	t_213|ref=Epistula ad Phyllidem_3
-10	,	,	u	u--------	_	0	AuxX	_	t_214|ref=Epistula ad Phyllidem_3
-11	ἢ	ἤ1	c	c--------	_	10	COORD	_	t_215|ref=Epistula ad Phyllidem_3
-12	καττὸ	κατά	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_216|ref=Epistula ad Phyllidem_3
-13	σπάνιον	σπάνιος	a	a-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_217|ref=Epistula ad Phyllidem_3
-14	μεταδιδόμεν	μεταδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	19	ADV	_	t_218|ref=Epistula ad Phyllidem_3
-15	τᾷ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_219|ref=Epistula ad Phyllidem_3
-16	κράσει	κρᾶσις	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_220|ref=Epistula ad Phyllidem_3
-17	δείκελον	δείκελος	a	a-s---nn-	Case=n|Gender=n|Number=s	19	PNOM	_	t_221|ref=Epistula ad Phyllidem_3
-18	γαλακτῶδες	γαλακτικός	a	a-s---nn-	Case=a|Gender=n|Number=s	19	PNOM	_	t_222|ref=Epistula ad Phyllidem_3
-19	[0]	[0]	-	---------	_	11	PRED	_	e_7|ref=Epistula ad Phyllidem_1
-20	.	.	u	u--------	_	10	AuxK	_	t_223|ref=Epistula ad Phyllidem_3
+1	οἴνω	οἶνος	n	n-s---mg-	Case=n|Gender=m|Number=p	9	SBJ	_	t_205|t_213|ref=Ep.Pyllid._3
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_206|t_213|ref=Ep.Pyllid._3
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_207|t_208|ref=Ep.Pyllid._3
+4	παράπαν	παράπαν	d	d--------	_	9	ADV	_	t_208|t_213|ref=Ep.Pyllid._3
+5	ἀπέχεσθαι	ἀπέχω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	SBJ	_	t_209|t_213|ref=Ep.Pyllid._3
+6	τῷ	ὁ	p	p-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_210|t_213|ref=Ep.Pyllid._3
+7	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_211|t_213|ref=Ep.Pyllid._3
+8	ἰσχυρὰν	ἰσχυρός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_212|t_211|ref=Ep.Pyllid._3
+9	ἔχεν	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	PRED	_	t_213|t_215|ref=Ep.Pyllid._3
+10	,	,	u	u--------	_	0	AuxX	_	t_214|0|ref=Ep.Pyllid._3
+11	ἢ	ἤ1	c	c--------	_	10	COORD	_	t_215|t_214|ref=Ep.Pyllid._3
+12	καττὸ	κατά	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_216|t_217|ref=Ep.Pyllid._3
+13	σπάνιον	σπάνιος	a	a-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_217|t_218|ref=Ep.Pyllid._3
+14	μεταδιδόμεν	μεταδίδωμι	v	v--pna---	Mood=n|Tense=p|Voice=a	19	ADV	_	t_218|e_7|ref=Ep.Pyllid._3
+15	τᾷ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_219|t_220|ref=Ep.Pyllid._3
+16	κράσει	κρᾶσις	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_220|t_218|ref=Ep.Pyllid._3
+17	δείκελον	δείκελος	a	a-s---nn-	Case=n|Gender=n|Number=s	19	PNOM	_	t_221|e_7|ref=Ep.Pyllid._3
+18	γαλακτῶδες	γαλακτικός	a	a-s---nn-	Case=a|Gender=n|Number=s	19	PNOM	_	t_222|e_7|ref=Ep.Pyllid._3
+19	[0]	[0]	-	---------	_	11	PRED	_	e_7|t_215|ref=Ep.Pyllid._1
+20	.	.	u	u--------	_	10	AuxK	_	t_223|t_214|ref=Ep.Pyllid._3
 
-# source = Myia, Epistula ad Phyllidem 3
+# source = Myia, Ep.Pyllid. 3
 # text = τὰ δὲ λουτρὰ μὴ ποιὲν συνεχῆ ·
 # sent_id = 14
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_224|ref=Epistula ad Phyllidem_3
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_225|ref=Epistula ad Phyllidem_3
-3	λουτρὰ	λουτρόν	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_226|ref=Epistula ad Phyllidem_3
-4	μὴ	μή	d	d--------	_	5	AuxZ	_	t_227|ref=Epistula ad Phyllidem_3
-5	ποιὲν	ποιέω	v	v--pna---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_228|ref=Epistula ad Phyllidem_3
-6	συνεχῆ	συνεχής	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATV	_	t_229|ref=Epistula ad Phyllidem_3
-7	·	·	u	u--------	_	5	AuxK	_	t_230|ref=Epistula ad Phyllidem_3
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_224|t_226|ref=Ep.Pyllid._3
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_225|t_228|ref=Ep.Pyllid._3
+3	λουτρὰ	λουτρόν	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_226|t_228|ref=Ep.Pyllid._3
+4	μὴ	μή	d	d--------	_	5	AuxZ	_	t_227|t_228|ref=Ep.Pyllid._3
+5	ποιὲν	ποιέω	v	v--pna---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_228|0|ref=Ep.Pyllid._3
+6	συνεχῆ	συνεχής	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATV	_	t_229|t_226|ref=Ep.Pyllid._3
+7	·	·	u	u--------	_	5	AuxK	_	t_230|t_228|ref=Ep.Pyllid._3
 
-# source = Myia, Epistula ad Phyllidem 3
+# source = Myia, Ep.Pyllid. 3
 # text = ἁ γὰρ τῶν σπανίων καὶ εὐκράτων χρᾶσις ἀμείνων [0] .
 # sent_id = 15
-1	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_231|ref=Epistula ad Phyllidem_3
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_232|ref=Epistula ad Phyllidem_3
-3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_233|ref=Epistula ad Phyllidem_3
-4	σπανίων	σπάνιος	a	a-p---mg-	Case=g|Gender=n|Number=p	5	ATR	_	t_234|ref=Epistula ad Phyllidem_3
-5	καὶ	καί	c	c--------	_	7	COORD	_	t_235|ref=Epistula ad Phyllidem_3
-6	εὐκράτων	εὐκράτης	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_236|ref=Epistula ad Phyllidem_3
-7	χρᾶσις	χρῆσις	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_237|ref=Epistula ad Phyllidem_3
-8	ἀμείνων	ἀμείνων	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	9	PNOM	_	t_238|ref=Epistula ad Phyllidem_3
-9	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Epistula ad Phyllidem_1
-10	.	.	u	u--------	_	9	AuxK	_	t_239|ref=Epistula ad Phyllidem_3
+1	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_231|t_237|ref=Ep.Pyllid._3
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_232|e_8|ref=Ep.Pyllid._3
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_233|t_234|ref=Ep.Pyllid._3
+4	σπανίων	σπάνιος	a	a-p---mg-	Case=g|Gender=n|Number=p	5	ATR	_	t_234|t_235|ref=Ep.Pyllid._3
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_235|t_237|ref=Ep.Pyllid._3
+6	εὐκράτων	εὐκράτης	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_236|t_235|ref=Ep.Pyllid._3
+7	χρᾶσις	χρῆσις	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_237|e_8|ref=Ep.Pyllid._3
+8	ἀμείνων	ἀμείνων	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	9	PNOM	_	t_238|e_8|ref=Ep.Pyllid._3
+9	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Ep.Pyllid._1
+10	.	.	u	u--------	_	9	AuxK	_	t_239|e_8|ref=Ep.Pyllid._3
 
-# source = Myia, Epistula ad Phyllidem 3-4
+# source = Myia, Ep.Pyllid. 3-4
 # text = ( 4 ) κατταυτὰ δὲ καὶ ἀὴρ ἐπιτάδειος θάλπους καὶ ῥίγους ἔχων τὰν συμμετρίαν , καὶ οἴκησις δὲ μή τε ἄγαν περιπνεομένα μή τε ἄγαν κατάστεγνος [0] .
 # sent_id = 16
-1	(	̔	u	u--------	_	2	AuxG	_	t_240|ref=Epistula ad Phyllidem_3
-2	4	4	x	x--------	_	27	ExD	_	t_241|ref=Epistula ad Phyllidem_3
-3	)	)	u	u--------	_	27	AuxG	_	t_242|ref=Epistula ad Phyllidem_3
-4	κατταυτὰ	καταταυτό	n	n-s---fn-	Case=n|Gender=f|Number=s	27	ADV	_	t_243|ref=Epistula ad Phyllidem_3
-5	δὲ	δέ	d	d--------	_	27	AuxY	_	t_244|ref=Epistula ad Phyllidem_3
-6	καὶ	καί	d	d--------	_	7	AuxZ	_	t_245|ref=Epistula ad Phyllidem_3
-7	ἀὴρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	27	SBJ	_	t_246|ref=Epistula ad Phyllidem_3
-8	ἐπιτάδειος	ἐπιτάδειος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_247|ref=Epistula ad Phyllidem_3
-9	θάλπους	θάλπος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	OBJ	_	t_248|ref=Epistula ad Phyllidem_4
-10	καὶ	καί	c	c--------	_	12	COORD	_	t_249|ref=Epistula ad Phyllidem_4
-11	ῥίγους	ῥῖγος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	OBJ	_	t_250|ref=Epistula ad Phyllidem_4
-12	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ATR	_	t_251|ref=Epistula ad Phyllidem_4
-13	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_252|ref=Epistula ad Phyllidem_4
-14	συμμετρίαν	συμμετρία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_253|ref=Epistula ad Phyllidem_4
-15	,	,	u	u--------	_	27	AuxX	_	t_254|ref=Epistula ad Phyllidem_4
-16	καὶ	καί	c	c--------	_	7	AuxZ	_	t_255|ref=Epistula ad Phyllidem_4
-17	οἴκησις	οἴκησις	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_256|ref=Epistula ad Phyllidem_4
-18	δὲ	δέ	d	d--------	_	27	COORD	_	t_257|ref=Epistula ad Phyllidem_4
-19	μή	μή	d	d--------	_	20	AuxY	_	t_258|ref=Epistula ad Phyllidem_4
-20	τε	τε	c	c--------	_	24	AuxY	_	t_259|ref=Epistula ad Phyllidem_4
-21	ἄγαν	ἄγαν	d	d--------	_	22	ADV	_	t_260|ref=Epistula ad Phyllidem_4
-22	περιπνεομένα	περιπνέω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	24	ADV	_	t_261|ref=Epistula ad Phyllidem_4
-23	μή	μή	d	d--------	_	24	AuxY	_	t_262|ref=Epistula ad Phyllidem_4
-24	τε	τε	c	c--------	_	17	COORD	_	t_263|ref=Epistula ad Phyllidem_4
-25	ἄγαν	ἄγαν	d	d--------	_	26	ADV	_	t_264|ref=Epistula ad Phyllidem_4
-26	κατάστεγνος	κατάστεγος	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_265|ref=Epistula ad Phyllidem_4
-27	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Epistula ad Phyllidem_1
-28	.	.	u	u--------	_	2	AuxK	_	t_266|ref=Epistula ad Phyllidem_4
+1	(	̔	u	u--------	_	2	AuxG	_	t_240|t_241|ref=Ep.Pyllid._3
+2	4	4	x	x--------	_	27	ExD	_	t_241|e_9|ref=Ep.Pyllid._3
+3	)	)	u	u--------	_	27	AuxG	_	t_242|e_9|ref=Ep.Pyllid._3
+4	κατταυτὰ	καταταυτό	n	n-s---fn-	Case=n|Gender=f|Number=s	27	ADV	_	t_243|e_9|ref=Ep.Pyllid._3
+5	δὲ	δέ	d	d--------	_	27	AuxY	_	t_244|e_9|ref=Ep.Pyllid._3
+6	καὶ	καί	d	d--------	_	7	AuxZ	_	t_245|t_246|ref=Ep.Pyllid._3
+7	ἀὴρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	27	SBJ	_	t_246|e_9|ref=Ep.Pyllid._3
+8	ἐπιτάδειος	ἐπιτάδειος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_247|t_246|ref=Ep.Pyllid._3
+9	θάλπους	θάλπος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	OBJ	_	t_248|t_249|ref=Ep.Pyllid._4
+10	καὶ	καί	c	c--------	_	12	COORD	_	t_249|t_251|ref=Ep.Pyllid._4
+11	ῥίγους	ῥῖγος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	OBJ	_	t_250|t_249|ref=Ep.Pyllid._4
+12	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ATR	_	t_251|t_246|ref=Ep.Pyllid._4
+13	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_252|t_253|ref=Ep.Pyllid._4
+14	συμμετρίαν	συμμετρία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_253|t_251|ref=Ep.Pyllid._4
+15	,	,	u	u--------	_	27	AuxX	_	t_254|e_9|ref=Ep.Pyllid._4
+16	καὶ	καί	c	c--------	_	7	AuxZ	_	t_255|t_246|ref=Ep.Pyllid._4
+17	οἴκησις	οἴκησις	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_256|e_9|ref=Ep.Pyllid._4
+18	δὲ	δέ	d	d--------	_	27	COORD	_	t_257|e_9|ref=Ep.Pyllid._4
+19	μή	μή	d	d--------	_	20	AuxY	_	t_258|t_259|ref=Ep.Pyllid._4
+20	τε	τε	c	c--------	_	24	AuxY	_	t_259|t_263|ref=Ep.Pyllid._4
+21	ἄγαν	ἄγαν	d	d--------	_	22	ADV	_	t_260|t_261|ref=Ep.Pyllid._4
+22	περιπνεομένα	περιπνέω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	24	ADV	_	t_261|t_263|ref=Ep.Pyllid._4
+23	μή	μή	d	d--------	_	24	AuxY	_	t_262|t_263|ref=Ep.Pyllid._4
+24	τε	τε	c	c--------	_	17	COORD	_	t_263|t_256|ref=Ep.Pyllid._4
+25	ἄγαν	ἄγαν	d	d--------	_	26	ADV	_	t_264|t_265|ref=Ep.Pyllid._4
+26	κατάστεγνος	κατάστεγος	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_265|t_263|ref=Ep.Pyllid._4
+27	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Ep.Pyllid._1
+28	.	.	u	u--------	_	2	AuxK	_	t_266|t_241|ref=Ep.Pyllid._4
 
-# source = Myia, Epistula ad Phyllidem 4
+# source = Myia, Ep.Pyllid. 4
 # text = οὐ μὰν ἀλλὰ καὶ ὕδωρ μή τε ἀπόσκληρον μή τε εὐπαράγωγον , καὶ στρωμνὰ δὲ οὐ τραχεῖα , ἀλλὰ προσπίπτουσα τῷ χρωτὶ εὐαρμόστως [0] [1] ·
 # sent_id = 17
-1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_267|ref=Epistula ad Phyllidem_4
-2	μὰν	μήν	d	d--------	_	3	AuxZ	_	t_268|ref=Epistula ad Phyllidem_4
-3	ἀλλὰ	ἀλλά	d	d--------	_	24	AuxY	_	t_269|ref=Epistula ad Phyllidem_4
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_270|ref=Epistula ad Phyllidem_4
-5	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_271|ref=Epistula ad Phyllidem_4
-6	μή	μή	d	d--------	_	7	AuxY	_	t_272|ref=Epistula ad Phyllidem_4
-7	τε	τε	c	c--------	_	10	AuxY	_	t_273|ref=Epistula ad Phyllidem_4
-8	ἀπόσκληρον	ἀπόσκληρος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_274|ref=Epistula ad Phyllidem_4
-9	μή	μή	d	d--------	_	7	AuxY	_	t_275|ref=Epistula ad Phyllidem_4
-10	τε	τε	c	c--------	_	5	COORD	_	t_276|ref=Epistula ad Phyllidem_4
-11	εὐπαράγωγον	εὐπαράγωγος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_277|ref=Epistula ad Phyllidem_4
-12	,	,	u	u--------	_	24	AuxX	_	t_278|ref=Epistula ad Phyllidem_4
-13	καὶ	καί	c	c--------	_	25	COORD	_	t_279|ref=Epistula ad Phyllidem_4
-14	στρωμνὰ	στρωμνή	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_280|ref=Epistula ad Phyllidem_4
-15	δὲ	δέ	d	d--------	_	24	COORD	_	t_281|ref=Epistula ad Phyllidem_4
-16	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_282|ref=Epistula ad Phyllidem_4
-17	τραχεῖα	τραχύς	a	a-s---fn-	Case=n|Gender=f|Number=s	19	ATR	_	t_283|ref=Epistula ad Phyllidem_4
-18	,	,	u	u--------	_	24	AuxX	_	t_284|ref=Epistula ad Phyllidem_4
-19	ἀλλὰ	ἀλλά	c	c--------	_	14	COORD	_	t_285|ref=Epistula ad Phyllidem_4
-20	προσπίπτουσα	προσπίτνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	19	ATR	_	t_286|ref=Epistula ad Phyllidem_4
-21	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	22	ATR	_	t_287|ref=Epistula ad Phyllidem_4
-22	χρωτὶ	χρώς	n	n-s---md-	Case=d|Gender=m|Number=s	20	OBJ	_	t_288|ref=Epistula ad Phyllidem_4
-23	εὐαρμόστως	εὐάρμοστος	d	d-------s	Degree=s	20	ADV	_	t_289|ref=Epistula ad Phyllidem_4
-24	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Epistula ad Phyllidem_1
-25	[1]	[1]	-	---------	_	15	PRED	_	e_11|ref=Epistula ad Phyllidem_1
-26	·	·	u	u--------	_	24	AuxK	_	t_290|ref=Epistula ad Phyllidem_4
+1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_267|t_268|ref=Ep.Pyllid._4
+2	μὰν	μήν	d	d--------	_	3	AuxZ	_	t_268|t_269|ref=Ep.Pyllid._4
+3	ἀλλὰ	ἀλλά	d	d--------	_	24	AuxY	_	t_269|e_10|ref=Ep.Pyllid._4
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_270|t_271|ref=Ep.Pyllid._4
+5	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_271|e_10|ref=Ep.Pyllid._4
+6	μή	μή	d	d--------	_	7	AuxY	_	t_272|t_273|ref=Ep.Pyllid._4
+7	τε	τε	c	c--------	_	10	AuxY	_	t_273|t_276|ref=Ep.Pyllid._4
+8	ἀπόσκληρον	ἀπόσκληρος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_274|t_276|ref=Ep.Pyllid._4
+9	μή	μή	d	d--------	_	7	AuxY	_	t_275|t_273|ref=Ep.Pyllid._4
+10	τε	τε	c	c--------	_	5	COORD	_	t_276|t_271|ref=Ep.Pyllid._4
+11	εὐπαράγωγον	εὐπαράγωγος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_277|t_276|ref=Ep.Pyllid._4
+12	,	,	u	u--------	_	24	AuxX	_	t_278|e_10|ref=Ep.Pyllid._4
+13	καὶ	καί	c	c--------	_	25	COORD	_	t_279|e_11|ref=Ep.Pyllid._4
+14	στρωμνὰ	στρωμνή	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_280|e_11|ref=Ep.Pyllid._4
+15	δὲ	δέ	d	d--------	_	24	COORD	_	t_281|e_10|ref=Ep.Pyllid._4
+16	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_282|t_283|ref=Ep.Pyllid._4
+17	τραχεῖα	τραχύς	a	a-s---fn-	Case=n|Gender=f|Number=s	19	ATR	_	t_283|t_285|ref=Ep.Pyllid._4
+18	,	,	u	u--------	_	24	AuxX	_	t_284|e_10|ref=Ep.Pyllid._4
+19	ἀλλὰ	ἀλλά	c	c--------	_	14	COORD	_	t_285|t_280|ref=Ep.Pyllid._4
+20	προσπίπτουσα	προσπίτνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	19	ATR	_	t_286|t_285|ref=Ep.Pyllid._4
+21	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	22	ATR	_	t_287|t_288|ref=Ep.Pyllid._4
+22	χρωτὶ	χρώς	n	n-s---md-	Case=d|Gender=m|Number=s	20	OBJ	_	t_288|t_286|ref=Ep.Pyllid._4
+23	εὐαρμόστως	εὐάρμοστος	d	d-------s	Degree=s	20	ADV	_	t_289|t_286|ref=Ep.Pyllid._4
+24	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Ep.Pyllid._1
+25	[1]	[1]	-	---------	_	15	PRED	_	e_11|t_281|ref=Ep.Pyllid._1
+26	·	·	u	u--------	_	24	AuxK	_	t_290|e_10|ref=Ep.Pyllid._4
 
-# source = Myia, Epistula ad Phyllidem 4
+# source = Myia, Ep.Pyllid. 4
 # text = ἐν πᾶσι γὰρ τούτοις τὸ οἰκεῖον ἁ φύσις ἐπιποθεῖ , ἀλλʼ οὐ τὸ πολυτελές [0] .
 # sent_id = 18
-1	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_291|ref=Epistula ad Phyllidem_4
-2	πᾶσι	πᾶς	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_292|ref=Epistula ad Phyllidem_4
-3	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_293|ref=Epistula ad Phyllidem_4
-4	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_294|ref=Epistula ad Phyllidem_4
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_295|ref=Epistula ad Phyllidem_4
-6	οἰκεῖον	οἰκεῖος	a	a-s---na-	Case=a|Gender=n|Number=s	11	SBJ	_	t_296|ref=Epistula ad Phyllidem_4
-7	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_297|ref=Epistula ad Phyllidem_4
-8	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_298|ref=Epistula ad Phyllidem_4
-9	ἐπιποθεῖ	ἐπιποθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_299|ref=Epistula ad Phyllidem_4
-10	,	,	u	u--------	_	9	AuxX	_	t_300|ref=Epistula ad Phyllidem_4
-11	ἀλλʼ	ἀλλά	c	c--------	_	9	COORD	_	t_301|ref=Epistula ad Phyllidem_4
-12	οὐ	οὐ	d	d--------	_	14	AuxZ	_	t_302|ref=Epistula ad Phyllidem_4
-13	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	14	ATR	_	t_303|ref=Epistula ad Phyllidem_4
-14	πολυτελές	πολυτελής	a	a-s---na-	Case=a|Gender=n|Number=s	15	SBJ	_	t_304|ref=Epistula ad Phyllidem_4
-15	[0]	[0]	-	---------	_	11	PRED	_	e_12|ref=Epistula ad Phyllidem_1
-16	.	.	u	u--------	_	9	AuxK	_	t_305|ref=Epistula ad Phyllidem_4
+1	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_291|t_299|ref=Ep.Pyllid._4
+2	πᾶσι	πᾶς	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_292|t_294|ref=Ep.Pyllid._4
+3	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_293|t_299|ref=Ep.Pyllid._4
+4	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_294|t_291|ref=Ep.Pyllid._4
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_295|t_296|ref=Ep.Pyllid._4
+6	οἰκεῖον	οἰκεῖος	a	a-s---na-	Case=a|Gender=n|Number=s	11	SBJ	_	t_296|t_301|ref=Ep.Pyllid._4
+7	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_297|t_298|ref=Ep.Pyllid._4
+8	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_298|t_299|ref=Ep.Pyllid._4
+9	ἐπιποθεῖ	ἐπιποθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_299|0|ref=Ep.Pyllid._4
+10	,	,	u	u--------	_	9	AuxX	_	t_300|t_299|ref=Ep.Pyllid._4
+11	ἀλλʼ	ἀλλά	c	c--------	_	9	COORD	_	t_301|t_299|ref=Ep.Pyllid._4
+12	οὐ	οὐ	d	d--------	_	14	AuxZ	_	t_302|t_304|ref=Ep.Pyllid._4
+13	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	14	ATR	_	t_303|t_304|ref=Ep.Pyllid._4
+14	πολυτελές	πολυτελής	a	a-s---na-	Case=a|Gender=n|Number=s	15	SBJ	_	t_304|e_12|ref=Ep.Pyllid._4
+15	[0]	[0]	-	---------	_	11	PRED	_	e_12|t_301|ref=Ep.Pyllid._1
+16	.	.	u	u--------	_	9	AuxK	_	t_305|t_299|ref=Ep.Pyllid._4
 
-# source = Myia, Epistula ad Phyllidem 4
+# source = Myia, Ep.Pyllid. 4
 # text = ταύτας μὲν ὦν ἐπὶ τῶ παρόντος οὐκ ἀχρεῖον ὑπογράψαι τοι τὰς ἐλπίδας ἐκ τροφᾶς καττὸ ὑφαγεόμενον γινομένας , θεῶ δὲ συλλαμβάνοντος ὑπὲρ τᾶς ἀγωγᾶς τῶ παιδὸς αὖθις τὰς ἐνδεχομένας καὶ ποτεοικυίας κομιοῦμες ὑπομνάσεις [0] .
 # sent_id = 19
-1	ταύτας	οὗτος	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_306|ref=Epistula ad Phyllidem_4
-2	μὲν	μέν	d	d--------	_	20	AuxY	_	t_307|ref=Epistula ad Phyllidem_4
-3	ὦν	οὖν	d	d--------	_	20	AuxY	_	t_308|ref=Epistula ad Phyllidem_4
-4	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_309|ref=Epistula ad Phyllidem_4
-5	τῶ	τῷ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_310|ref=Epistula ad Phyllidem_4
-6	παρόντος	πάρειμι1	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_311|ref=Epistula ad Phyllidem_4
-7	οὐκ	οὐ	d	d--------	_	8	AuxZ	_	t_312|ref=Epistula ad Phyllidem_4
-8	ἀχρεῖον	ἀχρεῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	34	PNOM	_	t_313|ref=Epistula ad Phyllidem_4
-9	ὑπογράψαι	ὑπογράφω	v	v--ana---	Mood=n|Tense=a|Voice=a	20	SBJ	_	t_314|ref=Epistula ad Phyllidem_4
-10	τοι	σύ	d	d--------	Case=d|Gender=m|Number=s	8	ADV	_	t_315|ref=Epistula ad Phyllidem_4
-11	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_316|ref=Epistula ad Phyllidem_4
-12	ἐλπίδας	ἐλπίς	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_317|ref=Epistula ad Phyllidem_4
-13	ἐκ	ἐκ	r	r--------	_	17	AuxP	_	t_318|ref=Epistula ad Phyllidem_4
-14	τροφᾶς	τροφή	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_319|ref=Epistula ad Phyllidem_4
-15	καττὸ	κατά	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_320|ref=Epistula ad Phyllidem_4
-16	ὑφαγεόμενον	ὑφάγω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	17	ADV	_	t_321|ref=Epistula ad Phyllidem_4
-17	γινομένας	γίγνομαι	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	12	ATR	_	t_322|ref=Epistula ad Phyllidem_4
-18	,	,	u	u--------	_	34	AuxX	_	t_323|ref=Epistula ad Phyllidem_4
-19	θεῶ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_324|ref=Epistula ad Phyllidem_4
-20	δὲ	δέ	c	c--------	_	34	COORD	_	t_325|ref=Epistula ad Phyllidem_4
-21	συλλαμβάνοντος	συλλαμβάνω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_326|ref=Epistula ad Phyllidem_4
-22	ὑπὲρ	ὑπέρ	r	r--------	_	21	AuxP	_	t_327|ref=Epistula ad Phyllidem_4
-23	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_328|ref=Epistula ad Phyllidem_4
-24	ἀγωγᾶς	ἀγωγή	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ADV	_	t_329|ref=Epistula ad Phyllidem_4
-25	τῶ	τῷ	l	l-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_330|ref=Epistula ad Phyllidem_4
-26	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_331|ref=Epistula ad Phyllidem_4
-27	αὖθις	αὖθις	d	d--------	_	32	ADV	_	t_332|ref=Epistula ad Phyllidem_4
-28	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	33	ATR	_	t_333|ref=Epistula ad Phyllidem_4
-29	ἐνδεχομένας	ἐνδέχομαι	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	30	ATR	_	t_334|ref=Epistula ad Phyllidem_4
-30	καὶ	καί	c	c--------	_	33	COORD	_	t_335|ref=Epistula ad Phyllidem_4
-31	ποτεοικυίας	ποτεοίκιος	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	30	ATR	_	t_336|ref=Epistula ad Phyllidem_4
-32	κομιοῦμες	κομίζω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	33	ATR	_	t_337|ref=Epistula ad Phyllidem_4
-33	ὑπομνάσεις	ὑπόμνησις	n	n-p---fa-	Case=a|Gender=f|Number=p	21	OBJ	_	t_338|ref=Epistula ad Phyllidem_4
-34	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Epistula ad Phyllidem_1
-35	.	.	u	u--------	_	34	AuxK	_	t_339|ref=Epistula ad Phyllidem_4
+1	ταύτας	οὗτος	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_306|t_317|ref=Ep.Pyllid._4
+2	μὲν	μέν	d	d--------	_	20	AuxY	_	t_307|t_325|ref=Ep.Pyllid._4
+3	ὦν	οὖν	d	d--------	_	20	AuxY	_	t_308|t_325|ref=Ep.Pyllid._4
+4	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_309|t_314|ref=Ep.Pyllid._4
+5	τῶ	τῷ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_310|t_311|ref=Ep.Pyllid._4
+6	παρόντος	πάρειμι1	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_311|t_309|ref=Ep.Pyllid._4
+7	οὐκ	οὐ	d	d--------	_	8	AuxZ	_	t_312|t_313|ref=Ep.Pyllid._4
+8	ἀχρεῖον	ἀχρεῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	34	PNOM	_	t_313|e_13|ref=Ep.Pyllid._4
+9	ὑπογράψαι	ὑπογράφω	v	v--ana---	Mood=n|Tense=a|Voice=a	20	SBJ	_	t_314|t_325|ref=Ep.Pyllid._4
+10	τοι	σύ	d	d--------	Case=d|Gender=m|Number=s	8	ADV	_	t_315|t_313|ref=Ep.Pyllid._4
+11	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_316|t_317|ref=Ep.Pyllid._4
+12	ἐλπίδας	ἐλπίς	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_317|t_314|ref=Ep.Pyllid._4
+13	ἐκ	ἐκ	r	r--------	_	17	AuxP	_	t_318|t_322|ref=Ep.Pyllid._4
+14	τροφᾶς	τροφή	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_319|t_318|ref=Ep.Pyllid._4
+15	καττὸ	κατά	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_320|t_321|ref=Ep.Pyllid._4
+16	ὑφαγεόμενον	ὑφάγω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	17	ADV	_	t_321|t_322|ref=Ep.Pyllid._4
+17	γινομένας	γίγνομαι	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	12	ATR	_	t_322|t_317|ref=Ep.Pyllid._4
+18	,	,	u	u--------	_	34	AuxX	_	t_323|e_13|ref=Ep.Pyllid._4
+19	θεῶ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_324|t_326|ref=Ep.Pyllid._4
+20	δὲ	δέ	c	c--------	_	34	COORD	_	t_325|e_13|ref=Ep.Pyllid._4
+21	συλλαμβάνοντος	συλλαμβάνω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_326|t_325|ref=Ep.Pyllid._4
+22	ὑπὲρ	ὑπέρ	r	r--------	_	21	AuxP	_	t_327|t_326|ref=Ep.Pyllid._4
+23	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_328|t_329|ref=Ep.Pyllid._4
+24	ἀγωγᾶς	ἀγωγή	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ADV	_	t_329|t_327|ref=Ep.Pyllid._4
+25	τῶ	τῷ	l	l-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_330|t_331|ref=Ep.Pyllid._4
+26	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_331|t_338|ref=Ep.Pyllid._4
+27	αὖθις	αὖθις	d	d--------	_	32	ADV	_	t_332|t_337|ref=Ep.Pyllid._4
+28	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	33	ATR	_	t_333|t_338|ref=Ep.Pyllid._4
+29	ἐνδεχομένας	ἐνδέχομαι	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	30	ATR	_	t_334|t_335|ref=Ep.Pyllid._4
+30	καὶ	καί	c	c--------	_	33	COORD	_	t_335|t_338|ref=Ep.Pyllid._4
+31	ποτεοικυίας	ποτεοίκιος	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	30	ATR	_	t_336|t_335|ref=Ep.Pyllid._4
+32	κομιοῦμες	κομίζω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	33	ATR	_	t_337|t_338|ref=Ep.Pyllid._4
+33	ὑπομνάσεις	ὑπόμνησις	n	n-p---fa-	Case=a|Gender=f|Number=p	21	OBJ	_	t_338|t_326|ref=Ep.Pyllid._4
+34	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Ep.Pyllid._1
+35	.	.	u	u--------	_	34	AuxK	_	t_339|e_13|ref=Ep.Pyllid._4
 

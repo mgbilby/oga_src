@@ -1,136 +1,136 @@
-# source = Antigoni Epistula, Epistula 1
+# source = Antigoni ep., ep. 1
 # text = Βασιλεὺς Ἀντίγονος Ζήνωνι φιλοσόφῳ χαίρειν [0] .
 # sent_id = 1
-1	Βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1|ref=Epistula_1
-2	Ἀντίγονος	ἀντίγονος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_2|ref=Epistula_1
-3	Ζήνωνι	ζήνων	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_3|ref=Epistula_1
-4	φιλοσόφῳ	φιλόσοφος	a	a-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_4|ref=Epistula_1
-5	χαίρειν	χαίρω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_5|ref=Epistula_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Epistula_1
-7	.	.	u	u--------	_	6	AuxK	_	t_6|ref=Epistula_1
+1	Βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1|t_2|ref=ep._1
+2	Ἀντίγονος	ἀντίγονος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_2|e_1|ref=ep._1
+3	Ζήνωνι	ζήνων	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_3|t_5|ref=ep._1
+4	φιλοσόφῳ	φιλόσοφος	a	a-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_4|t_3|ref=ep._1
+5	χαίρειν	χαίρω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_5|e_1|ref=ep._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=ep._1
+7	.	.	u	u--------	_	6	AuxK	_	t_6|e_1|ref=ep._1
 
-# source = Antigoni Epistula, Epistula 1
+# source = Antigoni ep., ep. 1
 # text = Ἐγὼ τύχη μὲν καὶ δόξη νομίζω προτερεῖν τοῦ σοῦ βίου , λόγου δὲ καὶ παιδείας καθυστερεῖν καὶ τῆς τελείας εὐδαιμονίας , ἣν σὺ κέκτησαι .
 # sent_id = 2
-1	Ἐγὼ	ἐγώ	p	p-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_7|ref=Epistula_1
-2	τύχη	τύχη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_8|ref=Epistula_1
-3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_9|ref=Epistula_1
-4	καὶ	καί	c	c--------	_	7	COORD	_	t_10|ref=Epistula_1
-5	δόξη	δόξα	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_11|ref=Epistula_1
-6	νομίζω	νομίζω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_12|ref=Epistula_1
-7	προτερεῖν	προτερέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_13|ref=Epistula_1
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_14|ref=Epistula_1
-9	σοῦ	σύ	a	a-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_15|ref=Epistula_1
-10	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	OBJ	_	t_16|ref=Epistula_1
-11	,	,	u	u--------	_	6	AuxX	_	t_17|ref=Epistula_1
-12	λόγου	λόγος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	OBJ	_	t_18|ref=Epistula_1
-13	δὲ	δέ	c	c--------	_	6	COORD	_	t_19|ref=Epistula_1
-14	καὶ	καί	c	c--------	_	17	AuxY	_	t_20|ref=Epistula_1
-15	παιδείας	παιδεία	n	n-s---fg-	Case=g|Gender=f|Number=s	17	OBJ	_	t_21|ref=Epistula_1
-16	καθυστερεῖν	καθυστερέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_22|ref=Epistula_1
-17	καὶ	καί	c	c--------	_	16	COORD	_	t_23|ref=Epistula_1
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_24|ref=Epistula_1
-19	τελείας	τέλειος	a	a-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_25|ref=Epistula_1
-20	εὐδαιμονίας	εὐδαιμονία	n	n-s---fg-	Case=g|Gender=f|Number=s	17	OBJ	_	t_26|ref=Epistula_1
-21	,	,	u	u--------	_	6	AuxX	_	t_27|ref=Epistula_1
-22	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_28|ref=Epistula_1
-23	σὺ	σύ	p	p-s---fn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_29|ref=Epistula_1
-24	κέκτησαι	κτάομαι	v	v2srie---	Mood=i|Number=s|Person=2|Tense=r|Voice=e	20	ATR	_	t_30|ref=Epistula_1
-25	.	.	u	u--------	_	6	AuxK	_	t_31|ref=Epistula_1
+1	Ἐγὼ	ἐγώ	p	p-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_7|t_12|ref=ep._1
+2	τύχη	τύχη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_8|t_10|ref=ep._1
+3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_9|t_12|ref=ep._1
+4	καὶ	καί	c	c--------	_	7	COORD	_	t_10|t_13|ref=ep._1
+5	δόξη	δόξα	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_11|t_10|ref=ep._1
+6	νομίζω	νομίζω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_12|0|ref=ep._1
+7	προτερεῖν	προτερέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_13|t_19|ref=ep._1
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_14|t_16|ref=ep._1
+9	σοῦ	σύ	a	a-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_15|t_16|ref=ep._1
+10	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	OBJ	_	t_16|t_13|ref=ep._1
+11	,	,	u	u--------	_	6	AuxX	_	t_17|t_12|ref=ep._1
+12	λόγου	λόγος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	OBJ	_	t_18|t_23|ref=ep._1
+13	δὲ	δέ	c	c--------	_	6	COORD	_	t_19|t_12|ref=ep._1
+14	καὶ	καί	c	c--------	_	17	AuxY	_	t_20|t_23|ref=ep._1
+15	παιδείας	παιδεία	n	n-s---fg-	Case=g|Gender=f|Number=s	17	OBJ	_	t_21|t_23|ref=ep._1
+16	καθυστερεῖν	καθυστερέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_22|t_19|ref=ep._1
+17	καὶ	καί	c	c--------	_	16	COORD	_	t_23|t_22|ref=ep._1
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_24|t_26|ref=ep._1
+19	τελείας	τέλειος	a	a-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_25|t_26|ref=ep._1
+20	εὐδαιμονίας	εὐδαιμονία	n	n-s---fg-	Case=g|Gender=f|Number=s	17	OBJ	_	t_26|t_23|ref=ep._1
+21	,	,	u	u--------	_	6	AuxX	_	t_27|t_12|ref=ep._1
+22	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_28|t_30|ref=ep._1
+23	σὺ	σύ	p	p-s---fn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_29|t_30|ref=ep._1
+24	κέκτησαι	κτάομαι	v	v2srie---	Mood=i|Number=s|Person=2|Tense=r|Voice=e	20	ATR	_	t_30|t_26|ref=ep._1
+25	.	.	u	u--------	_	6	AuxK	_	t_31|t_12|ref=ep._1
 
-# source = Antigoni Epistula, Epistula 1
+# source = Antigoni ep., ep. 1
 # text = διόπερ κέκρικα προσφωνῆσαί σοι παραγενέσθαι πρὸς ἐμέ , πεπεισμένος σε μὴ ἀντερεῖν πρὸς τὸ ἀξιούμενον .
 # sent_id = 3
-1	διόπερ	διόπερ	d	d--------	_	2	AuxY	_	t_32|ref=Epistula_1
-2	κέκρικα	κρίνω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_33|ref=Epistula_1
-3	προσφωνῆσαί	προσφωνέω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_34|ref=Epistula_1
-4	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_35|ref=Epistula_1
-5	παραγενέσθαι	παραγίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	3	OBJ	_	t_36|ref=Epistula_1
-6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_37|ref=Epistula_1
-7	ἐμέ	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	6	OBJ	_	t_38|ref=Epistula_1
-8	,	,	u	u--------	_	2	AuxX	_	t_39|ref=Epistula_1
-9	πεπεισμένος	πείθω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	2	ADV	_	t_40|ref=Epistula_1
-10	σε	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_41|ref=Epistula_1
-11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_42|ref=Epistula_1
-12	ἀντερεῖν	ἀντιλέγω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_43|ref=Epistula_1
-13	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_44|ref=Epistula_1
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_45|ref=Epistula_1
-15	ἀξιούμενον	ἀξιόω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_46|ref=Epistula_1
-16	.	.	u	u--------	_	2	AuxK	_	t_47|ref=Epistula_1
+1	διόπερ	διόπερ	d	d--------	_	2	AuxY	_	t_32|t_33|ref=ep._1
+2	κέκρικα	κρίνω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_33|0|ref=ep._1
+3	προσφωνῆσαί	προσφωνέω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_34|t_33|ref=ep._1
+4	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_35|t_34|ref=ep._1
+5	παραγενέσθαι	παραγίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	3	OBJ	_	t_36|t_34|ref=ep._1
+6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_37|t_36|ref=ep._1
+7	ἐμέ	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	6	OBJ	_	t_38|t_37|ref=ep._1
+8	,	,	u	u--------	_	2	AuxX	_	t_39|t_33|ref=ep._1
+9	πεπεισμένος	πείθω	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	2	ADV	_	t_40|t_33|ref=ep._1
+10	σε	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_41|t_43|ref=ep._1
+11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_42|t_43|ref=ep._1
+12	ἀντερεῖν	ἀντιλέγω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_43|t_40|ref=ep._1
+13	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_44|t_43|ref=ep._1
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_45|t_46|ref=ep._1
+15	ἀξιούμενον	ἀξιόω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_46|t_44|ref=ep._1
+16	.	.	u	u--------	_	2	AuxK	_	t_47|t_33|ref=ep._1
 
-# source = Antigoni Epistula, Epistula 1
+# source = Antigoni ep., ep. 1
 # text = σὺ οὖν πειράθητι ἐκ παντὸς τρόπου συμμῖξαί μοι , διειληφὼς τοῦτο διότι οὐχ ἑνὸς ἐμοῦ παιδευτὴς ἔση , πάντων δὲ Μακεδόνων συλλήβδην .
 # sent_id = 4
-1	σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_48|ref=Epistula_1
-2	οὖν	οὖν	d	d--------	_	3	AuxY	_	t_49|ref=Epistula_1
-3	πειράθητι	πειράω	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	0	PRED	_	t_50|ref=Epistula_1
-4	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_51|ref=Epistula_1
-5	παντὸς	πᾶς	a	a-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_52|ref=Epistula_1
-6	τρόπου	τρόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_53|ref=Epistula_1
-7	συμμῖξαί	συμμίγνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	3	OBJ	_	t_54|ref=Epistula_1
-8	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	7	OBJ	_	t_55|ref=Epistula_1
-9	,	,	u	u--------	_	3	AuxX	_	t_56|ref=Epistula_1
-10	διειληφὼς	διαλαμβάνω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	7	ADV	_	t_57|ref=Epistula_1
-11	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_58|ref=Epistula_1
-12	διότι	διότι	c	c--------	_	10	AuxC	_	t_59|ref=Epistula_1
-13	οὐχ	οὐ	d	d--------	_	15	AuxZ	_	t_60|ref=Epistula_1
-14	ἑνὸς	εἷς	a	a-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_61|ref=Epistula_1
-15	ἐμοῦ	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	20	ATR	_	t_62|ref=Epistula_1
-16	παιδευτὴς	παιδευτής	n	n-s---mn-	Case=n|Gender=m|Number=s	17	PNOM	_	t_63|ref=Epistula_1
-17	ἔση	εἰμί	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	12	OBJ	_	t_64|ref=Epistula_1
-18	,	,	u	u--------	_	3	AuxX	_	t_65|ref=Epistula_1
-19	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_66|ref=Epistula_1
-20	δὲ	δέ	c	c--------	_	16	COORD	_	t_67|ref=Epistula_1
-21	Μακεδόνων	μακεδών	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_68|ref=Epistula_1
-22	συλλήβδην	συλλήβδην	d	d--------	_	17	ADV	_	t_69|ref=Epistula_1
-23	.	.	u	u--------	_	3	AuxK	_	t_70|ref=Epistula_1
+1	σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_48|t_50|ref=ep._1
+2	οὖν	οὖν	d	d--------	_	3	AuxY	_	t_49|t_50|ref=ep._1
+3	πειράθητι	πειράω	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	0	PRED	_	t_50|0|ref=ep._1
+4	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_51|t_54|ref=ep._1
+5	παντὸς	πᾶς	a	a-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_52|t_53|ref=ep._1
+6	τρόπου	τρόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_53|t_51|ref=ep._1
+7	συμμῖξαί	συμμίγνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	3	OBJ	_	t_54|t_50|ref=ep._1
+8	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	7	OBJ	_	t_55|t_54|ref=ep._1
+9	,	,	u	u--------	_	3	AuxX	_	t_56|t_50|ref=ep._1
+10	διειληφὼς	διαλαμβάνω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	7	ADV	_	t_57|t_54|ref=ep._1
+11	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_58|t_57|ref=ep._1
+12	διότι	διότι	c	c--------	_	10	AuxC	_	t_59|t_57|ref=ep._1
+13	οὐχ	οὐ	d	d--------	_	15	AuxZ	_	t_60|t_62|ref=ep._1
+14	ἑνὸς	εἷς	a	a-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_61|t_67|ref=ep._1
+15	ἐμοῦ	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	20	ATR	_	t_62|t_67|ref=ep._1
+16	παιδευτὴς	παιδευτής	n	n-s---mn-	Case=n|Gender=m|Number=s	17	PNOM	_	t_63|t_64|ref=ep._1
+17	ἔση	εἰμί	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	12	OBJ	_	t_64|t_59|ref=ep._1
+18	,	,	u	u--------	_	3	AuxX	_	t_65|t_50|ref=ep._1
+19	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_66|t_68|ref=ep._1
+20	δὲ	δέ	c	c--------	_	16	COORD	_	t_67|t_63|ref=ep._1
+21	Μακεδόνων	μακεδών	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_68|t_67|ref=ep._1
+22	συλλήβδην	συλλήβδην	d	d--------	_	17	ADV	_	t_69|t_64|ref=ep._1
+23	.	.	u	u--------	_	3	AuxK	_	t_70|t_50|ref=ep._1
 
-# source = Antigoni Epistula, Epistula 1
+# source = Antigoni ep., ep. 1
 # text = ὁ γὰρ τὸν τῆς Μακεδονίας ἄρχοντα καὶ παιδεύων καὶ ἄγων ἐπὶ τὰ κατ ἀρετὴν φανερός ἐστι καὶ τοὺς ὑποτεταγμένους παρασκευάζων πρὸς εὐανδρίαν .
 # sent_id = 5
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_71|ref=Epistula_1
-2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_72|ref=Epistula_1
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_73|ref=Epistula_1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_74|ref=Epistula_1
-5	Μακεδονίας	μακεδονία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_75|ref=Epistula_1
-6	ἄρχοντα	ἄρχω	n	n-s---ma-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	SBJ	_	t_76|ref=Epistula_1
-7	καὶ	καί	d	d--------	_	9	AuxY	_	t_77|ref=Epistula_1
-8	παιδεύων	παιδεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_78|ref=Epistula_1
-9	καὶ	καί	c	c--------	_	17	COORD	_	t_79|ref=Epistula_1
-10	ἄγων	ἄγω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_80|ref=Epistula_1
-11	ἐπὶ	ἐπί	r	r--------	_	10	AuxP	_	t_81|ref=Epistula_1
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ADV	_	t_82|ref=Epistula_1
-13	κατ	κατά	r	r--------	_	12	AuxP	_	t_83|ref=Epistula_1
-14	ἀρετὴν	ἀρετή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_84|ref=Epistula_1
-15	φανερός	φανερός	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_85|ref=Epistula_1
-16	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_86|ref=Epistula_1
-17	καὶ	καί	c	c--------	_	16	COORD	_	t_87|ref=Epistula_1
-18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_88|ref=Epistula_1
-19	ὑποτεταγμένους	ὑποτάσσω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	20	OBJ	_	t_89|ref=Epistula_1
-20	παρασκευάζων	παρασκευάζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	PNOM	_	t_90|ref=Epistula_1
-21	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_91|ref=Epistula_1
-22	εὐανδρίαν	εὐανδρία	n	n-s---fa-	Case=a|Gender=f|Number=s	21	ADV	_	t_92|ref=Epistula_1
-23	.	.	u	u--------	_	16	AuxK	_	t_93|ref=Epistula_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_71|t_86|ref=ep._1
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_72|t_86|ref=ep._1
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_73|t_76|ref=ep._1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_74|t_75|ref=ep._1
+5	Μακεδονίας	μακεδονία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_75|t_76|ref=ep._1
+6	ἄρχοντα	ἄρχω	n	n-s---ma-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	SBJ	_	t_76|t_79|ref=ep._1
+7	καὶ	καί	d	d--------	_	9	AuxY	_	t_77|t_79|ref=ep._1
+8	παιδεύων	παιδεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_78|t_79|ref=ep._1
+9	καὶ	καί	c	c--------	_	17	COORD	_	t_79|t_87|ref=ep._1
+10	ἄγων	ἄγω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_80|t_79|ref=ep._1
+11	ἐπὶ	ἐπί	r	r--------	_	10	AuxP	_	t_81|t_80|ref=ep._1
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ADV	_	t_82|t_81|ref=ep._1
+13	κατ	κατά	r	r--------	_	12	AuxP	_	t_83|t_82|ref=ep._1
+14	ἀρετὴν	ἀρετή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_84|t_83|ref=ep._1
+15	φανερός	φανερός	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_85|t_86|ref=ep._1
+16	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_86|0|ref=ep._1
+17	καὶ	καί	c	c--------	_	16	COORD	_	t_87|t_86|ref=ep._1
+18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_88|t_89|ref=ep._1
+19	ὑποτεταγμένους	ὑποτάσσω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	20	OBJ	_	t_89|t_90|ref=ep._1
+20	παρασκευάζων	παρασκευάζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	PNOM	_	t_90|t_87|ref=ep._1
+21	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_91|t_90|ref=ep._1
+22	εὐανδρίαν	εὐανδρία	n	n-s---fa-	Case=a|Gender=f|Number=s	21	ADV	_	t_92|t_91|ref=ep._1
+23	.	.	u	u--------	_	16	AuxK	_	t_93|t_86|ref=ep._1
 
-# source = Antigoni Epistula, Epistula 1
+# source = Antigoni ep., ep. 1
 # text = οἷος γὰρ ἂν ὁ ἡγούμενος ἧ , τοιούτους εἰχὸς ῶς ἐπὶ τὸ πολὺ γίγνεσθαι καὶ τοὺς ὐποτεταγμένους .
 # sent_id = 6
-1	οἷος	οἷος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_94|ref=Epistula_1
-2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_95|ref=Epistula_1
-3	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_96|ref=Epistula_1
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_97|ref=Epistula_1
-5	ἡγούμενος	ἡγέομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	SBJ	_	t_98|ref=Epistula_1
-6	ἧ	ἧ	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	8	ATR	_	t_99|ref=Epistula_1
-7	,	,	u	u--------	_	14	AuxX	_	t_100|ref=Epistula_1
-8	τοιούτους	τοιοῦτος	p	p-p---ma-	Case=a|Gender=m|Number=p	14	SBJ	_	t_101|ref=Epistula_1
-9	εἰχὸς	εἰκός	d	d--------	_	14	ADV	_	t_102|ref=Epistula_1
-10	ῶς	ώς	d	d--------	_	14	ADV	_	t_103|ref=Epistula_1
-11	ἐπὶ	ἐπί	r	r--------	_	14	AuxP	_	t_104|ref=Epistula_1
-12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_105|ref=Epistula_1
-13	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_106|ref=Epistula_1
-14	γίγνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	0	PRED	_	t_107|ref=Epistula_1
-15	καὶ	καί	d	d--------	_	17	AuxZ	_	t_108|ref=Epistula_1
-16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_109|ref=Epistula_1
-17	ὐποτεταγμένους	ὑποτάσσω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	14	SBJ	_	t_110|ref=Epistula_1
-18	.	.	u	u--------	_	14	AuxK	_	t_111|ref=Epistula_1
+1	οἷος	οἷος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_94|t_99|ref=ep._1
+2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_95|t_107|ref=ep._1
+3	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_96|t_99|ref=ep._1
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_97|t_98|ref=ep._1
+5	ἡγούμενος	ἡγέομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	SBJ	_	t_98|t_99|ref=ep._1
+6	ἧ	ἧ	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	8	ATR	_	t_99|t_101|ref=ep._1
+7	,	,	u	u--------	_	14	AuxX	_	t_100|t_107|ref=ep._1
+8	τοιούτους	τοιοῦτος	p	p-p---ma-	Case=a|Gender=m|Number=p	14	SBJ	_	t_101|t_107|ref=ep._1
+9	εἰχὸς	εἰκός	d	d--------	_	14	ADV	_	t_102|t_107|ref=ep._1
+10	ῶς	ώς	d	d--------	_	14	ADV	_	t_103|t_107|ref=ep._1
+11	ἐπὶ	ἐπί	r	r--------	_	14	AuxP	_	t_104|t_107|ref=ep._1
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_105|t_106|ref=ep._1
+13	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_106|t_104|ref=ep._1
+14	γίγνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	0	PRED	_	t_107|0|ref=ep._1
+15	καὶ	καί	d	d--------	_	17	AuxZ	_	t_108|t_110|ref=ep._1
+16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_109|t_110|ref=ep._1
+17	ὐποτεταγμένους	ὑποτάσσω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	14	SBJ	_	t_110|t_107|ref=ep._1
+18	.	.	u	u--------	_	14	AuxK	_	t_111|t_107|ref=ep._1
 

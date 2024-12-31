@@ -1,966 +1,966 @@
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ΓΑΛΗΝΟΥ ΠΕΡΙ ΤΩΝ ΤΗΣ ΑΝΑΠΝΟΗΣ ΑΙΤΙΩΝ [0] .
 # sent_id = 1
-1	ΓΑΛΗΝΟΥ	γαληνος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1|ref=De causis respirationis_1
-2	ΠΕΡΙ	περί	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_2|ref=De causis respirationis_1
-3	ΤΩΝ	ὁ	a	a-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_3|ref=De causis respirationis_1
-4	ΤΗΣ	τη	n	n-s---mn-	Case=n|Gender=m|Number=s	7	ExD	_	t_4|ref=De causis respirationis_1
-5	ΑΝΑΠΝΟΗΣ	αναπνοη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_5|ref=De causis respirationis_1
-6	ΑΙΤΙΩΝ	αιτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_6|ref=De causis respirationis_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=De causis respirationis_1
-8	.	.	u	u--------	_	7	AuxK	_	t_7|ref=De causis respirationis_1
+1	ΓΑΛΗΝΟΥ	γαληνος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1|t_4|ref=caus.resp._1
+2	ΠΕΡΙ	περί	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_2|e_1|ref=caus.resp._1
+3	ΤΩΝ	ὁ	a	a-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_3|t_1|ref=caus.resp._1
+4	ΤΗΣ	τη	n	n-s---mn-	Case=n|Gender=m|Number=s	7	ExD	_	t_4|e_1|ref=caus.resp._1
+5	ΑΝΑΠΝΟΗΣ	αναπνοη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_5|t_1|ref=caus.resp._1
+6	ΑΙΤΙΩΝ	αιτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_6|t_5|ref=caus.resp._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=caus.resp._1
+8	.	.	u	u--------	_	7	AuxK	_	t_7|e_1|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = Τὰ τῆς ἀναπνοῆς αἴτια ὁ προκείμενος ἀποδεῖξαι λόγος ἐπαγγέλλεται .
 # sent_id = 2
-1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_8|ref=De causis respirationis_1
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_9|ref=De causis respirationis_1
-3	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_10|ref=De causis respirationis_1
-4	αἴτια	αἴτιος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_11|ref=De causis respirationis_1
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_12|ref=De causis respirationis_1
-6	προκείμενος	πρόκειμαι	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	8	ATR	_	t_13|ref=De causis respirationis_1
-7	ἀποδεῖξαι	ἀποδείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_14|ref=De causis respirationis_1
-8	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_15|ref=De causis respirationis_1
-9	ἐπαγγέλλεται	ἐπαγγέλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_16|ref=De causis respirationis_1
-10	.	.	u	u--------	_	9	AuxK	_	t_17|ref=De causis respirationis_1
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_8|t_11|ref=caus.resp._1
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_9|t_10|ref=caus.resp._1
+3	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_10|t_11|ref=caus.resp._1
+4	αἴτια	αἴτιος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_11|t_14|ref=caus.resp._1
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_12|t_15|ref=caus.resp._1
+6	προκείμενος	πρόκειμαι	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	8	ATR	_	t_13|t_15|ref=caus.resp._1
+7	ἀποδεῖξαι	ἀποδείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_14|t_16|ref=caus.resp._1
+8	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_15|t_16|ref=caus.resp._1
+9	ἐπαγγέλλεται	ἐπαγγέλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_16|0|ref=caus.resp._1
+10	.	.	u	u--------	_	9	AuxK	_	t_17|t_16|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = οὔ τε γὰρ βεβαιώσασθαι τὴν ὑπόθεσιν τῆς ἀναπνοῆς , οὔ τε παραποδιζομένην ἢ καὶ τέλεον εἰργομένην ἐπανορθώσασθαι δυνατὸν τὰς αἰτίας αὐτῆς ἀγνοοῦντα [0] .
 # sent_id = 3
-1	οὔ	οὐ	d	d--------	_	2	AuxY	_	t_18|ref=De causis respirationis_1
-2	τε	τε	c	c--------	_	11	AuxY	_	t_19|ref=De causis respirationis_1
-3	γὰρ	γάρ	d	d--------	_	23	AuxY	_	t_20|ref=De causis respirationis_1
-4	βεβαιώσασθαι	βεβαιόω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	SBJ	_	t_21|ref=De causis respirationis_1
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_22|ref=De causis respirationis_1
-6	ὑπόθεσιν	ὑπόθεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_23|ref=De causis respirationis_1
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_24|ref=De causis respirationis_1
-8	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_25|ref=De causis respirationis_1
-9	,	,	u	u--------	_	23	AuxX	_	t_26|ref=De causis respirationis_1
-10	οὔ	οὐ	d	d--------	_	11	AuxY	_	t_27|ref=De causis respirationis_1
-11	τε	τε	c	c--------	_	23	COORD	_	t_28|ref=De causis respirationis_1
-12	παραποδιζομένην	παραποδίζω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	OBJ	_	t_29|ref=De causis respirationis_1
-13	ἢ	ἤ1	c	c--------	_	17	COORD	_	t_30|ref=De causis respirationis_1
-14	καὶ	καί	d	d--------	_	15	AuxZ	_	t_31|ref=De causis respirationis_1
-15	τέλεον	τέλειος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_32|ref=De causis respirationis_1
-16	εἰργομένην	ἔργω1	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_33|ref=De causis respirationis_1
-17	ἐπανορθώσασθαι	ἐπανορθόω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	SBJ	_	t_34|ref=De causis respirationis_1
-18	δυνατὸν	δυνατός	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_35|ref=De causis respirationis_1
-19	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_36|ref=De causis respirationis_1
-20	αἰτίας	αἰτία	n	n-p---fa-	Case=a|Gender=f|Number=p	22	OBJ	_	t_37|ref=De causis respirationis_1
-21	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_38|ref=De causis respirationis_1
-22	ἀγνοοῦντα	ἀγνοέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_39|ref=De causis respirationis_1
-23	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=De causis respirationis_1
-24	.	.	u	u--------	_	23	AuxK	_	t_40|ref=De causis respirationis_1
+1	οὔ	οὐ	d	d--------	_	2	AuxY	_	t_18|t_19|ref=caus.resp._1
+2	τε	τε	c	c--------	_	11	AuxY	_	t_19|t_28|ref=caus.resp._1
+3	γὰρ	γάρ	d	d--------	_	23	AuxY	_	t_20|e_2|ref=caus.resp._1
+4	βεβαιώσασθαι	βεβαιόω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	SBJ	_	t_21|t_28|ref=caus.resp._1
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_22|t_23|ref=caus.resp._1
+6	ὑπόθεσιν	ὑπόθεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_23|t_21|ref=caus.resp._1
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_24|t_25|ref=caus.resp._1
+8	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_25|t_23|ref=caus.resp._1
+9	,	,	u	u--------	_	23	AuxX	_	t_26|e_2|ref=caus.resp._1
+10	οὔ	οὐ	d	d--------	_	11	AuxY	_	t_27|t_28|ref=caus.resp._1
+11	τε	τε	c	c--------	_	23	COORD	_	t_28|e_2|ref=caus.resp._1
+12	παραποδιζομένην	παραποδίζω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	OBJ	_	t_29|t_30|ref=caus.resp._1
+13	ἢ	ἤ1	c	c--------	_	17	COORD	_	t_30|t_34|ref=caus.resp._1
+14	καὶ	καί	d	d--------	_	15	AuxZ	_	t_31|t_32|ref=caus.resp._1
+15	τέλεον	τέλειος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_32|t_33|ref=caus.resp._1
+16	εἰργομένην	ἔργω1	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_33|t_30|ref=caus.resp._1
+17	ἐπανορθώσασθαι	ἐπανορθόω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	SBJ	_	t_34|t_28|ref=caus.resp._1
+18	δυνατὸν	δυνατός	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_35|e_2|ref=caus.resp._1
+19	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_36|t_37|ref=caus.resp._1
+20	αἰτίας	αἰτία	n	n-p---fa-	Case=a|Gender=f|Number=p	22	OBJ	_	t_37|t_39|ref=caus.resp._1
+21	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_38|t_37|ref=caus.resp._1
+22	ἀγνοοῦντα	ἀγνοέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_39|t_34|ref=caus.resp._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=caus.resp._1
+24	.	.	u	u--------	_	23	AuxK	_	t_40|e_2|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ὁ γὰρ τὸ ποιοῦν φωράσας πρὸς ἀλήθειαν , οὗτος εἰδήσει μόνος καὶ τῆς βλάβης τὴν διαφορὰν , καὶ τῆς ἰάσεως τὸν τρόπον .
 # sent_id = 4
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_41|ref=De causis respirationis_1
-2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_42|ref=De causis respirationis_1
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_43|ref=De causis respirationis_1
-4	ποιοῦν	ποιέω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_44|ref=De causis respirationis_1
-5	φωράσας	λανθάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ATR	_	t_45|ref=De causis respirationis_1
-6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_46|ref=De causis respirationis_1
-7	ἀλήθειαν	ἀλήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_47|ref=De causis respirationis_1
-8	,	,	u	u--------	_	10	AuxX	_	t_48|ref=De causis respirationis_1
-9	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_49|ref=De causis respirationis_1
-10	εἰδήσει	οἶδα	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_50|ref=De causis respirationis_1
-11	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATV	_	t_51|ref=De causis respirationis_1
-12	καὶ	καί	d	d--------	_	18	AuxY	_	t_52|ref=De causis respirationis_1
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_53|ref=De causis respirationis_1
-14	βλάβης	βλάβη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_54|ref=De causis respirationis_1
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_55|ref=De causis respirationis_1
-16	διαφορὰν	διαφορά	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_56|ref=De causis respirationis_1
-17	,	,	u	u--------	_	10	AuxX	_	t_57|ref=De causis respirationis_1
-18	καὶ	καί	c	c--------	_	10	COORD	_	t_58|ref=De causis respirationis_1
-19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_59|ref=De causis respirationis_1
-20	ἰάσεως	ἴασις	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_60|ref=De causis respirationis_1
-21	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_61|ref=De causis respirationis_1
-22	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_62|ref=De causis respirationis_1
-23	.	.	u	u--------	_	10	AuxK	_	t_63|ref=De causis respirationis_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_41|t_45|ref=caus.resp._1
+2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_42|t_50|ref=caus.resp._1
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_43|t_44|ref=caus.resp._1
+4	ποιοῦν	ποιέω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	5	OBJ	_	t_44|t_45|ref=caus.resp._1
+5	φωράσας	λανθάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ATR	_	t_45|t_49|ref=caus.resp._1
+6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_46|t_45|ref=caus.resp._1
+7	ἀλήθειαν	ἀλήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_47|t_46|ref=caus.resp._1
+8	,	,	u	u--------	_	10	AuxX	_	t_48|t_50|ref=caus.resp._1
+9	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_49|t_50|ref=caus.resp._1
+10	εἰδήσει	οἶδα	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_50|0|ref=caus.resp._1
+11	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATV	_	t_51|t_49|ref=caus.resp._1
+12	καὶ	καί	d	d--------	_	18	AuxY	_	t_52|t_58|ref=caus.resp._1
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_53|t_54|ref=caus.resp._1
+14	βλάβης	βλάβη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_54|t_56|ref=caus.resp._1
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_55|t_56|ref=caus.resp._1
+16	διαφορὰν	διαφορά	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_56|t_58|ref=caus.resp._1
+17	,	,	u	u--------	_	10	AuxX	_	t_57|t_50|ref=caus.resp._1
+18	καὶ	καί	c	c--------	_	10	COORD	_	t_58|t_50|ref=caus.resp._1
+19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_59|t_60|ref=caus.resp._1
+20	ἰάσεως	ἴασις	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_60|t_62|ref=caus.resp._1
+21	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_61|t_62|ref=caus.resp._1
+22	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_62|t_58|ref=caus.resp._1
+23	.	.	u	u--------	_	10	AuxK	_	t_63|t_50|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ὄντων δὲ τριῶν κατὰ γένος , ὡς τύπῳ φάναι , τῶν αἰτίων τῆς ἀναπνοῆς , δυνάμεως προαιρετικῆς , ὀργάνων τῶν ὑπηρετουμένων τῇ προαιρέσει , κᾀπὶ τούτοις τῆς χρείας , διʼ ἣν καὶ τῶν προκειμένων αἰτίων δεόμεθα , ἡ μὲν χρεία τὸ κυριώτατόν ἐστι τῶν τῆς ἀναπνοῆς αἰτίων , τηροῦσα μὲν τὴν συμμετρίαν τῆς ἐμφύτου θερμασίας , τρέφουσα δὲ τὴν οὐσίαν τοῦ ψυχικοῦ πνεύματος ·
 # sent_id = 5
-1	ὄντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	43	ADV	_	t_64|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	43	AuxY	_	t_65|ref=De causis respirationis_1
-3	τριῶν	τρεῖς	a	a-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_66|ref=De causis respirationis_1
-4	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_67|ref=De causis respirationis_1
-5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_68|ref=De causis respirationis_1
-6	,	,	u	u--------	_	9	AuxX	_	t_69|ref=De causis respirationis_1
-7	ὡς	ὡς	c	c--------	_	43	AuxC	_	t_70|ref=De causis respirationis_1
-8	τύπῳ	τύπος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_71|ref=De causis respirationis_1
-9	φάναι	φημί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	ADV	_	t_72|ref=De causis respirationis_1
-10	,	,	u	u--------	_	9	AuxX	_	t_73|ref=De causis respirationis_1
-11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_74|ref=De causis respirationis_1
-12	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_75|ref=De causis respirationis_1
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_76|ref=De causis respirationis_1
-14	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_77|ref=De causis respirationis_1
-15	,	,	u	u--------	_	43	AuxX	_	t_78|ref=De causis respirationis_1
-16	δυνάμεως	δύναμις	n	n-s---fg-	Case=g|Gender=f|Number=s	19	APOS	_	t_79|ref=De causis respirationis_1
-17	προαιρετικῆς	προαιρετικός	a	a-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_80|ref=De causis respirationis_1
-18	,	,	u	u--------	_	43	AuxX	_	t_81|ref=De causis respirationis_1
-19	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_82|ref=De causis respirationis_1
-20	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_83|ref=De causis respirationis_1
-21	ὑπηρετουμένων	ὑπηρετέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	19	ATR	_	t_84|ref=De causis respirationis_1
-22	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	23	ATR	_	t_85|ref=De causis respirationis_1
-23	προαιρέσει	προαίρεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	21	OBJ	_	t_86|ref=De causis respirationis_1
-24	,	,	u	u--------	_	43	AuxX	_	t_87|ref=De causis respirationis_1
-25	κᾀπὶ	ἐπί	c	c--------	_	43	COORD	_	t_88|ref=De causis respirationis_1
-26	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	25	ADV	_	t_89|ref=De causis respirationis_1
-27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_90|ref=De causis respirationis_1
-28	χρείας	χρεία	n	n-s---fg-	Case=g|Gender=f|Number=s	25	SBJ	_	t_91|ref=De causis respirationis_1
-29	,	,	u	u--------	_	43	AuxX	_	t_92|ref=De causis respirationis_1
-30	διʼ	διά	r	r--------	_	36	AuxP	_	t_93|ref=De causis respirationis_1
-31	ἣν	ὅς	p	p-p---fg-	Case=g|Gender=f|Number=p	30	ADV	_	t_94|ref=De causis respirationis_1
-32	καὶ	καί	c	c--------	_	35	AuxZ	_	t_95|ref=De causis respirationis_1
-33	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	35	ATR	_	t_96|ref=De causis respirationis_1
-34	προκειμένων	πρόκειμαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	35	ATR	_	t_97|ref=De causis respirationis_1
-35	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	36	OBJ	_	t_98|ref=De causis respirationis_1
-36	δεόμεθα	δέομαι	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	28	ATR	_	t_99|ref=De causis respirationis_1
-37	,	,	u	u--------	_	43	AuxX	_	t_100|ref=De causis respirationis_1
-38	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	40	ATR	_	t_101|ref=De causis respirationis_1
-39	μὲν	μέν	d	d--------	_	43	AuxY	_	t_102|ref=De causis respirationis_1
-40	χρεία	χρεία	n	n-s---fn-	Case=n|Gender=f|Number=s	43	SBJ	_	t_103|ref=De causis respirationis_1
-41	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	42	ATR	_	t_104|ref=De causis respirationis_1
-42	κυριώτατόν	κύριος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	43	PNOM	_	t_105|ref=De causis respirationis_1
-43	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_106|ref=De causis respirationis_1
-44	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	47	ATR	_	t_107|ref=De causis respirationis_1
-45	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	46	ATR	_	t_108|ref=De causis respirationis_1
-46	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	47	ATR	_	t_109|ref=De causis respirationis_1
-47	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	42	ATR	_	t_110|ref=De causis respirationis_1
-48	,	,	u	u--------	_	43	AuxX	_	t_111|ref=De causis respirationis_1
-49	τηροῦσα	τηρέω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	58	ADV	_	t_112|ref=De causis respirationis_1
-50	μὲν	μέν	d	d--------	_	58	AuxY	_	t_113|ref=De causis respirationis_1
-51	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	52	ATR	_	t_114|ref=De causis respirationis_1
-52	συμμετρίαν	συμμετρία	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_115|ref=De causis respirationis_1
-53	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	55	ATR	_	t_116|ref=De causis respirationis_1
-54	ἐμφύτου	ἔμφυτος	a	a-s---fg-	Case=g|Gender=f|Number=s	55	ATR	_	t_117|ref=De causis respirationis_1
-55	θερμασίας	θερμασία	n	n-s---fg-	Case=g|Gender=f|Number=s	52	ATR	_	t_118|ref=De causis respirationis_1
-56	,	,	u	u--------	_	43	AuxX	_	t_119|ref=De causis respirationis_1
-57	τρέφουσα	τρέφω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	58	ADV	_	t_120|ref=De causis respirationis_1
-58	δὲ	δέ	d	d--------	_	43	COORD	_	t_121|ref=De causis respirationis_1
-59	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	60	ATR	_	t_122|ref=De causis respirationis_1
-60	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	57	OBJ	_	t_123|ref=De causis respirationis_1
-61	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	63	ATR	_	t_124|ref=De causis respirationis_1
-62	ψυχικοῦ	ψυχικός	a	a-s---ng-	Case=g|Gender=n|Number=s	63	ATR	_	t_125|ref=De causis respirationis_1
-63	πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	60	ATR	_	t_126|ref=De causis respirationis_1
-64	·	·	u	u--------	_	43	AuxK	_	t_127|ref=De causis respirationis_1
+1	ὄντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	43	ADV	_	t_64|t_106|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	43	AuxY	_	t_65|t_106|ref=caus.resp._1
+3	τριῶν	τρεῖς	a	a-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_66|t_75|ref=caus.resp._1
+4	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_67|t_64|ref=caus.resp._1
+5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_68|t_67|ref=caus.resp._1
+6	,	,	u	u--------	_	9	AuxX	_	t_69|t_72|ref=caus.resp._1
+7	ὡς	ὡς	c	c--------	_	43	AuxC	_	t_70|t_106|ref=caus.resp._1
+8	τύπῳ	τύπος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_71|t_70|ref=caus.resp._1
+9	φάναι	φημί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	ADV	_	t_72|t_70|ref=caus.resp._1
+10	,	,	u	u--------	_	9	AuxX	_	t_73|t_72|ref=caus.resp._1
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_74|t_75|ref=caus.resp._1
+12	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_75|t_64|ref=caus.resp._1
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_76|t_77|ref=caus.resp._1
+14	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_77|t_75|ref=caus.resp._1
+15	,	,	u	u--------	_	43	AuxX	_	t_78|t_106|ref=caus.resp._1
+16	δυνάμεως	δύναμις	n	n-s---fg-	Case=g|Gender=f|Number=s	19	APOS	_	t_79|t_82|ref=caus.resp._1
+17	προαιρετικῆς	προαιρετικός	a	a-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_80|t_79|ref=caus.resp._1
+18	,	,	u	u--------	_	43	AuxX	_	t_81|t_106|ref=caus.resp._1
+19	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_82|t_64|ref=caus.resp._1
+20	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_83|t_82|ref=caus.resp._1
+21	ὑπηρετουμένων	ὑπηρετέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	19	ATR	_	t_84|t_82|ref=caus.resp._1
+22	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	23	ATR	_	t_85|t_86|ref=caus.resp._1
+23	προαιρέσει	προαίρεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	21	OBJ	_	t_86|t_84|ref=caus.resp._1
+24	,	,	u	u--------	_	43	AuxX	_	t_87|t_106|ref=caus.resp._1
+25	κᾀπὶ	ἐπί	c	c--------	_	43	COORD	_	t_88|t_106|ref=caus.resp._1
+26	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	25	ADV	_	t_89|t_88|ref=caus.resp._1
+27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_90|t_91|ref=caus.resp._1
+28	χρείας	χρεία	n	n-s---fg-	Case=g|Gender=f|Number=s	25	SBJ	_	t_91|t_88|ref=caus.resp._1
+29	,	,	u	u--------	_	43	AuxX	_	t_92|t_106|ref=caus.resp._1
+30	διʼ	διά	r	r--------	_	36	AuxP	_	t_93|t_99|ref=caus.resp._1
+31	ἣν	ὅς	p	p-p---fg-	Case=g|Gender=f|Number=p	30	ADV	_	t_94|t_93|ref=caus.resp._1
+32	καὶ	καί	c	c--------	_	35	AuxZ	_	t_95|t_98|ref=caus.resp._1
+33	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	35	ATR	_	t_96|t_98|ref=caus.resp._1
+34	προκειμένων	πρόκειμαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	35	ATR	_	t_97|t_98|ref=caus.resp._1
+35	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	36	OBJ	_	t_98|t_99|ref=caus.resp._1
+36	δεόμεθα	δέομαι	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	28	ATR	_	t_99|t_91|ref=caus.resp._1
+37	,	,	u	u--------	_	43	AuxX	_	t_100|t_106|ref=caus.resp._1
+38	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	40	ATR	_	t_101|t_103|ref=caus.resp._1
+39	μὲν	μέν	d	d--------	_	43	AuxY	_	t_102|t_106|ref=caus.resp._1
+40	χρεία	χρεία	n	n-s---fn-	Case=n|Gender=f|Number=s	43	SBJ	_	t_103|t_106|ref=caus.resp._1
+41	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	42	ATR	_	t_104|t_105|ref=caus.resp._1
+42	κυριώτατόν	κύριος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	43	PNOM	_	t_105|t_106|ref=caus.resp._1
+43	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_106|0|ref=caus.resp._1
+44	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	47	ATR	_	t_107|t_110|ref=caus.resp._1
+45	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	46	ATR	_	t_108|t_109|ref=caus.resp._1
+46	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	47	ATR	_	t_109|t_110|ref=caus.resp._1
+47	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	42	ATR	_	t_110|t_105|ref=caus.resp._1
+48	,	,	u	u--------	_	43	AuxX	_	t_111|t_106|ref=caus.resp._1
+49	τηροῦσα	τηρέω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	58	ADV	_	t_112|t_121|ref=caus.resp._1
+50	μὲν	μέν	d	d--------	_	58	AuxY	_	t_113|t_121|ref=caus.resp._1
+51	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	52	ATR	_	t_114|t_115|ref=caus.resp._1
+52	συμμετρίαν	συμμετρία	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_115|t_112|ref=caus.resp._1
+53	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	55	ATR	_	t_116|t_118|ref=caus.resp._1
+54	ἐμφύτου	ἔμφυτος	a	a-s---fg-	Case=g|Gender=f|Number=s	55	ATR	_	t_117|t_118|ref=caus.resp._1
+55	θερμασίας	θερμασία	n	n-s---fg-	Case=g|Gender=f|Number=s	52	ATR	_	t_118|t_115|ref=caus.resp._1
+56	,	,	u	u--------	_	43	AuxX	_	t_119|t_106|ref=caus.resp._1
+57	τρέφουσα	τρέφω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	58	ADV	_	t_120|t_121|ref=caus.resp._1
+58	δὲ	δέ	d	d--------	_	43	COORD	_	t_121|t_106|ref=caus.resp._1
+59	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	60	ATR	_	t_122|t_123|ref=caus.resp._1
+60	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	57	OBJ	_	t_123|t_120|ref=caus.resp._1
+61	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	63	ATR	_	t_124|t_126|ref=caus.resp._1
+62	ψυχικοῦ	ψυχικός	a	a-s---ng-	Case=g|Gender=n|Number=s	63	ATR	_	t_125|t_126|ref=caus.resp._1
+63	πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	60	ATR	_	t_126|t_123|ref=caus.resp._1
+64	·	·	u	u--------	_	43	AuxK	_	t_127|t_106|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ἡ προαίρεσις δὲ διατάττει καὶ οἷον ῥυθμίζει τὰς ἀναπνευστικὰς ἐνεργείας ·
 # sent_id = 6
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_128|ref=De causis respirationis_1
-2	προαίρεσις	προαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_129|ref=De causis respirationis_1
-3	δὲ	δέ	d	d--------	_	5	AuxY	_	t_130|ref=De causis respirationis_1
-4	διατάττει	διατάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_131|ref=De causis respirationis_1
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_132|ref=De causis respirationis_1
-6	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_133|ref=De causis respirationis_1
-7	ῥυθμίζει	ῥυθμίζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_134|ref=De causis respirationis_1
-8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_135|ref=De causis respirationis_1
-9	ἀναπνευστικὰς	ἀναπνευστικός	a	a-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_136|ref=De causis respirationis_1
-10	ἐνεργείας	ἐνέργεια	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_137|ref=De causis respirationis_1
-11	·	·	u	u--------	_	5	AuxK	_	t_138|ref=De causis respirationis_1
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_128|t_129|ref=caus.resp._1
+2	προαίρεσις	προαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_129|t_132|ref=caus.resp._1
+3	δὲ	δέ	d	d--------	_	5	AuxY	_	t_130|t_132|ref=caus.resp._1
+4	διατάττει	διατάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_131|t_132|ref=caus.resp._1
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_132|0|ref=caus.resp._1
+6	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_133|t_134|ref=caus.resp._1
+7	ῥυθμίζει	ῥυθμίζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_134|t_132|ref=caus.resp._1
+8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_135|t_137|ref=caus.resp._1
+9	ἀναπνευστικὰς	ἀναπνευστικός	a	a-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_136|t_137|ref=caus.resp._1
+10	ἐνεργείας	ἐνέργεια	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_137|t_134|ref=caus.resp._1
+11	·	·	u	u--------	_	5	AuxK	_	t_138|t_132|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τό γε μὴν τῶν ὀργάνων εἶδος πολυσχιδὲς καὶ πολύτροπόν τι καθέστηκε .
 # sent_id = 7
-1	τό	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_139|ref=De causis respirationis_1
-2	γε	γε	d	d--------	_	6	AuxZ	_	t_140|ref=De causis respirationis_1
-3	μὴν	μήν	d	d--------	_	11	AuxY	_	t_141|ref=De causis respirationis_1
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_142|ref=De causis respirationis_1
-5	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_143|ref=De causis respirationis_1
-6	εἶδος	εἶδος	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_144|ref=De causis respirationis_1
-7	πολυσχιδὲς	πολυσχιδής	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_145|ref=De causis respirationis_1
-8	καὶ	καί	c	c--------	_	10	COORD	_	t_146|ref=De causis respirationis_1
-9	πολύτροπόν	πολύτροπος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_147|ref=De causis respirationis_1
-10	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_148|ref=De causis respirationis_1
-11	καθέστηκε	καθίστημι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_149|ref=De causis respirationis_1
-12	.	.	u	u--------	_	11	AuxK	_	t_150|ref=De causis respirationis_1
+1	τό	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_139|t_144|ref=caus.resp._1
+2	γε	γε	d	d--------	_	6	AuxZ	_	t_140|t_144|ref=caus.resp._1
+3	μὴν	μήν	d	d--------	_	11	AuxY	_	t_141|t_149|ref=caus.resp._1
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_142|t_143|ref=caus.resp._1
+5	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_143|t_144|ref=caus.resp._1
+6	εἶδος	εἶδος	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_144|t_149|ref=caus.resp._1
+7	πολυσχιδὲς	πολυσχιδής	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_145|t_146|ref=caus.resp._1
+8	καὶ	καί	c	c--------	_	10	COORD	_	t_146|t_148|ref=caus.resp._1
+9	πολύτροπόν	πολύτροπος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_147|t_146|ref=caus.resp._1
+10	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_148|t_144|ref=caus.resp._1
+11	καθέστηκε	καθίστημι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_149|0|ref=caus.resp._1
+12	.	.	u	u--------	_	11	AuxK	_	t_150|t_149|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τὰ μὲν γὰρ τῇ παρακομιδῇ τοῦ πνεύματος ἀνάκειται ·
 # sent_id = 8
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_151|ref=De causis respirationis_1
-2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_152|ref=De causis respirationis_1
-3	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_153|ref=De causis respirationis_1
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_154|ref=De causis respirationis_1
-5	παρακομιδῇ	παρακομιδῇ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_155|ref=De causis respirationis_1
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_156|ref=De causis respirationis_1
-7	πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_157|ref=De causis respirationis_1
-8	ἀνάκειται	ἀνάκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_158|ref=De causis respirationis_1
-9	·	·	u	u--------	_	8	AuxK	_	t_159|ref=De causis respirationis_1
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_151|t_158|ref=caus.resp._1
+2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_152|t_158|ref=caus.resp._1
+3	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_153|t_158|ref=caus.resp._1
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_154|t_155|ref=caus.resp._1
+5	παρακομιδῇ	παρακομιδῇ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_155|t_158|ref=caus.resp._1
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_156|t_157|ref=caus.resp._1
+7	πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_157|t_155|ref=caus.resp._1
+8	ἀνάκειται	ἀνάκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_158|0|ref=caus.resp._1
+9	·	·	u	u--------	_	8	AuxK	_	t_159|t_158|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τὰ δʼ ὑποδέχεται τὸν ἀέρα ·
 # sent_id = 9
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_160|ref=De causis respirationis_1
-2	δʼ	δέ	g	g--------	_	3	AuxY	_	t_161|ref=De causis respirationis_1
-3	ὑποδέχεται	ὑποδέχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_162|ref=De causis respirationis_1
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_163|ref=De causis respirationis_1
-5	ἀέρα	ἀήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_164|ref=De causis respirationis_1
-6	·	·	u	u--------	_	3	AuxK	_	t_165|ref=De causis respirationis_1
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_160|t_162|ref=caus.resp._1
+2	δʼ	δέ	g	g--------	_	3	AuxY	_	t_161|t_162|ref=caus.resp._1
+3	ὑποδέχεται	ὑποδέχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_162|0|ref=caus.resp._1
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_163|t_164|ref=caus.resp._1
+5	ἀέρα	ἀήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_164|t_162|ref=caus.resp._1
+6	·	·	u	u--------	_	3	AuxK	_	t_165|t_162|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τὰ δὲ τούτων ἐστὶ κινητικὰ τῶν κινούντων .
 # sent_id = 10
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_166|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_167|ref=De causis respirationis_1
-3	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_168|ref=De causis respirationis_1
-4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_169|ref=De causis respirationis_1
-5	κινητικὰ	κινητικός	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_170|ref=De causis respirationis_1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_171|ref=De causis respirationis_1
-7	κινούντων	κινέω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_172|ref=De causis respirationis_1
-8	.	.	u	u--------	_	4	AuxK	_	t_173|ref=De causis respirationis_1
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_166|t_169|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_167|t_169|ref=caus.resp._1
+3	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_168|t_166|ref=caus.resp._1
+4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_169|0|ref=caus.resp._1
+5	κινητικὰ	κινητικός	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_170|t_169|ref=caus.resp._1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_171|t_172|ref=caus.resp._1
+7	κινούντων	κινέω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_172|t_170|ref=caus.resp._1
+8	.	.	u	u--------	_	4	AuxK	_	t_173|t_169|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ἀρχὴ μὲν οὖν διὰ τοῦ στόματος καὶ τῶν ῥινῶν ἑλκόμενος ἀὴρ , ὕλη τυγχάνων τῆς κατὰ τὴν ἀναπνοὴν χρείας , διχῇ μεριζόμενος , θατέρῳ μὲν , τῷ μείονι , διὰ τῶν ῥινῶν εἰς τὸν ἐγκέφαλον φερόμενος , θατέρῳ δὲ , τῷ πλείονι , διὰ τῆς τραχείας ἀρτηρίας εἰς τὸν πνεύμονα κομιζόμενος [0] [1] .
 # sent_id = 11
-1	ἀρχὴ	ἀρχή	d	d--------	_	52	ADV	_	t_174|ref=De causis respirationis_1
-2	μὲν	μέν	d	d--------	_	52	AuxY	_	t_175|ref=De causis respirationis_1
-3	οὖν	οὖν	d	d--------	_	52	AuxY	_	t_176|ref=De causis respirationis_1
-4	διὰ	διά	r	r--------	_	10	AuxP	_	t_177|ref=De causis respirationis_1
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_178|ref=De causis respirationis_1
-6	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_179|ref=De causis respirationis_1
-7	καὶ	καί	c	c--------	_	4	COORD	_	t_180|ref=De causis respirationis_1
-8	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_181|ref=De causis respirationis_1
-9	ῥινῶν	ῥίς	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ADV	_	t_182|ref=De causis respirationis_1
-10	ἑλκόμενος	ἕλκω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	52	ADV	_	t_183|ref=De causis respirationis_1
-11	ἀὴρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	52	SBJ	_	t_184|ref=De causis respirationis_1
-12	,	,	u	u--------	_	52	AuxX	_	t_185|ref=De causis respirationis_1
-13	ὕλη	ὕλη	n	n-s---fn-	Case=n|Gender=f|Number=s	14	OBJ	_	t_186|ref=De causis respirationis_1
-14	τυγχάνων	τυγχάνω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	52	ADV	_	t_187|ref=De causis respirationis_1
-15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_188|ref=De causis respirationis_1
-16	κατὰ	κατά	r	r--------	_	19	AuxP	_	t_189|ref=De causis respirationis_1
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_190|ref=De causis respirationis_1
-18	ἀναπνοὴν	ἀναπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_191|ref=De causis respirationis_1
-19	χρείας	χρεία	n	n-s---fg-	Case=g|Gender=f|Number=s	14	OBJ	_	t_192|ref=De causis respirationis_1
-20	,	,	u	u--------	_	52	AuxX	_	t_193|ref=De causis respirationis_1
-21	διχῇ	διχή	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_194|ref=De causis respirationis_1
-22	μεριζόμενος	μερίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_195|ref=De causis respirationis_1
-23	,	,	u	u--------	_	52	AuxX	_	t_196|ref=De causis respirationis_1
-24	θατέρῳ	ἕτερος	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	28	ATR	_	t_197|ref=De causis respirationis_1
-25	μὲν	μέν	d	d--------	_	39	AuxY	_	t_198|ref=De causis respirationis_1
-26	,	,	u	u--------	_	52	AuxX	_	t_199|ref=De causis respirationis_1
-27	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	28	ATR	_	t_200|ref=De causis respirationis_1
-28	μείονι	μείων	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	36	OBJ	_	t_201|ref=De causis respirationis_1
-29	,	,	u	u--------	_	52	AuxX	_	t_202|ref=De causis respirationis_1
-30	διὰ	διά	r	r--------	_	36	AuxP	_	t_203|ref=De causis respirationis_1
-31	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	32	ATR	_	t_204|ref=De causis respirationis_1
-32	ῥινῶν	ῥίς	n	n-p---fg-	Case=g|Gender=f|Number=p	30	ADV	_	t_205|ref=De causis respirationis_1
-33	εἰς	εἰς	r	r--------	_	36	AuxP	_	t_206|ref=De causis respirationis_1
-34	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	35	ATR	_	t_207|ref=De causis respirationis_1
-35	ἐγκέφαλον	ἐγκέφαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	33	OBJ	_	t_208|ref=De causis respirationis_1
-36	φερόμενος	φέρω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_209|ref=De causis respirationis_1
-37	,	,	u	u--------	_	52	AuxX	_	t_210|ref=De causis respirationis_1
-38	θατέρῳ	ἕτερος	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	53	OBJ	_	t_211|ref=De causis respirationis_1
-39	δὲ	δέ	d	d--------	_	52	COORD	_	t_212|ref=De causis respirationis_1
-40	,	,	u	u--------	_	52	AuxX	_	t_213|ref=De causis respirationis_1
-41	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	42	ATR	_	t_214|ref=De causis respirationis_1
-42	πλείονι	πλείων	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	38	ADV	_	t_215|ref=De causis respirationis_1
-43	,	,	u	u--------	_	52	AuxX	_	t_216|ref=De causis respirationis_1
-44	διὰ	διά	r	r--------	_	51	AuxP	_	t_217|ref=De causis respirationis_1
-45	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	47	ATR	_	t_218|ref=De causis respirationis_1
-46	τραχείας	τραχύς	a	a-s---fg-	Case=g|Gender=f|Number=s	47	ATR	_	t_219|ref=De causis respirationis_1
-47	ἀρτηρίας	ἀρτηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	44	ADV	_	t_220|ref=De causis respirationis_1
-48	εἰς	εἰς	r	r--------	_	51	AuxP	_	t_221|ref=De causis respirationis_1
-49	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	50	ATR	_	t_222|ref=De causis respirationis_1
-50	πνεύμονα	πνεύμων	a	a-s---ma-	Case=a|Gender=m|Number=s	48	OBJ	_	t_223|ref=De causis respirationis_1
-51	κομιζόμενος	κομίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_224|ref=De causis respirationis_1
-52	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=De causis respirationis_1
-53	[1]	[1]	-	---------	_	39	ADV	_	e_4|ref=De causis respirationis_1
-54	.	.	u	u--------	_	52	AuxK	_	t_225|ref=De causis respirationis_1
+1	ἀρχὴ	ἀρχή	d	d--------	_	52	ADV	_	t_174|e_3|ref=caus.resp._1
+2	μὲν	μέν	d	d--------	_	52	AuxY	_	t_175|e_3|ref=caus.resp._1
+3	οὖν	οὖν	d	d--------	_	52	AuxY	_	t_176|e_3|ref=caus.resp._1
+4	διὰ	διά	r	r--------	_	10	AuxP	_	t_177|t_183|ref=caus.resp._1
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_178|t_179|ref=caus.resp._1
+6	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_179|t_180|ref=caus.resp._1
+7	καὶ	καί	c	c--------	_	4	COORD	_	t_180|t_177|ref=caus.resp._1
+8	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_181|t_182|ref=caus.resp._1
+9	ῥινῶν	ῥίς	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ADV	_	t_182|t_180|ref=caus.resp._1
+10	ἑλκόμενος	ἕλκω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	52	ADV	_	t_183|e_3|ref=caus.resp._1
+11	ἀὴρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	52	SBJ	_	t_184|e_3|ref=caus.resp._1
+12	,	,	u	u--------	_	52	AuxX	_	t_185|e_3|ref=caus.resp._1
+13	ὕλη	ὕλη	n	n-s---fn-	Case=n|Gender=f|Number=s	14	OBJ	_	t_186|t_187|ref=caus.resp._1
+14	τυγχάνων	τυγχάνω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	52	ADV	_	t_187|e_3|ref=caus.resp._1
+15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_188|t_192|ref=caus.resp._1
+16	κατὰ	κατά	r	r--------	_	19	AuxP	_	t_189|t_192|ref=caus.resp._1
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_190|t_191|ref=caus.resp._1
+18	ἀναπνοὴν	ἀναπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_191|t_189|ref=caus.resp._1
+19	χρείας	χρεία	n	n-s---fg-	Case=g|Gender=f|Number=s	14	OBJ	_	t_192|t_187|ref=caus.resp._1
+20	,	,	u	u--------	_	52	AuxX	_	t_193|e_3|ref=caus.resp._1
+21	διχῇ	διχή	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_194|t_195|ref=caus.resp._1
+22	μεριζόμενος	μερίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_195|t_212|ref=caus.resp._1
+23	,	,	u	u--------	_	52	AuxX	_	t_196|e_3|ref=caus.resp._1
+24	θατέρῳ	ἕτερος	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	28	ATR	_	t_197|t_201|ref=caus.resp._1
+25	μὲν	μέν	d	d--------	_	39	AuxY	_	t_198|t_212|ref=caus.resp._1
+26	,	,	u	u--------	_	52	AuxX	_	t_199|e_3|ref=caus.resp._1
+27	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	28	ATR	_	t_200|t_201|ref=caus.resp._1
+28	μείονι	μείων	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	36	OBJ	_	t_201|t_209|ref=caus.resp._1
+29	,	,	u	u--------	_	52	AuxX	_	t_202|e_3|ref=caus.resp._1
+30	διὰ	διά	r	r--------	_	36	AuxP	_	t_203|t_209|ref=caus.resp._1
+31	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	32	ATR	_	t_204|t_205|ref=caus.resp._1
+32	ῥινῶν	ῥίς	n	n-p---fg-	Case=g|Gender=f|Number=p	30	ADV	_	t_205|t_203|ref=caus.resp._1
+33	εἰς	εἰς	r	r--------	_	36	AuxP	_	t_206|t_209|ref=caus.resp._1
+34	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	35	ATR	_	t_207|t_208|ref=caus.resp._1
+35	ἐγκέφαλον	ἐγκέφαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	33	OBJ	_	t_208|t_206|ref=caus.resp._1
+36	φερόμενος	φέρω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_209|t_212|ref=caus.resp._1
+37	,	,	u	u--------	_	52	AuxX	_	t_210|e_3|ref=caus.resp._1
+38	θατέρῳ	ἕτερος	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	53	OBJ	_	t_211|e_4|ref=caus.resp._1
+39	δὲ	δέ	d	d--------	_	52	COORD	_	t_212|e_3|ref=caus.resp._1
+40	,	,	u	u--------	_	52	AuxX	_	t_213|e_3|ref=caus.resp._1
+41	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	42	ATR	_	t_214|t_215|ref=caus.resp._1
+42	πλείονι	πλείων	a	a-s---mdc	Case=d|Degree=c|Gender=m|Number=s	38	ADV	_	t_215|t_211|ref=caus.resp._1
+43	,	,	u	u--------	_	52	AuxX	_	t_216|e_3|ref=caus.resp._1
+44	διὰ	διά	r	r--------	_	51	AuxP	_	t_217|t_224|ref=caus.resp._1
+45	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	47	ATR	_	t_218|t_220|ref=caus.resp._1
+46	τραχείας	τραχύς	a	a-s---fg-	Case=g|Gender=f|Number=s	47	ATR	_	t_219|t_220|ref=caus.resp._1
+47	ἀρτηρίας	ἀρτηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	44	ADV	_	t_220|t_217|ref=caus.resp._1
+48	εἰς	εἰς	r	r--------	_	51	AuxP	_	t_221|t_224|ref=caus.resp._1
+49	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	50	ATR	_	t_222|t_223|ref=caus.resp._1
+50	πνεύμονα	πνεύμων	a	a-s---ma-	Case=a|Gender=m|Number=s	48	OBJ	_	t_223|t_221|ref=caus.resp._1
+51	κομιζόμενος	κομίζω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_224|t_212|ref=caus.resp._1
+52	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=caus.resp._1
+53	[1]	[1]	-	---------	_	39	ADV	_	e_4|t_212|ref=caus.resp._1
+54	.	.	u	u--------	_	52	AuxK	_	t_225|e_3|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = αὐτή γε μὴν ἡ ἀρτηρία , ὄργανον οὖσα φωνῆς , ὁδός ἐστιν ἀναπνοῆς .
 # sent_id = 12
-1	αὐτή	αὐτός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATV	_	t_226|ref=De causis respirationis_1
-2	γε	γε	g	g--------	_	1	AuxZ	_	t_227|ref=De causis respirationis_1
-3	μὴν	μήν	g	g--------	_	12	AuxY	_	t_228|ref=De causis respirationis_1
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_229|ref=De causis respirationis_1
-5	ἀρτηρία	ἀρτηρία	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_230|ref=De causis respirationis_1
-6	,	,	u	u--------	_	8	AuxX	_	t_231|ref=De causis respirationis_1
-7	ὄργανον	ὄργανον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_232|ref=De causis respirationis_1
-8	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_233|ref=De causis respirationis_1
-9	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_234|ref=De causis respirationis_1
-10	,	,	u	u--------	_	8	AuxX	_	t_235|ref=De causis respirationis_1
-11	ὁδός	ὁδός	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_236|ref=De causis respirationis_1
-12	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_237|ref=De causis respirationis_1
-13	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_238|ref=De causis respirationis_1
-14	.	.	u	u--------	_	12	AuxK	_	t_239|ref=De causis respirationis_1
+1	αὐτή	αὐτός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATV	_	t_226|t_230|ref=caus.resp._1
+2	γε	γε	g	g--------	_	1	AuxZ	_	t_227|t_226|ref=caus.resp._1
+3	μὴν	μήν	g	g--------	_	12	AuxY	_	t_228|t_237|ref=caus.resp._1
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_229|t_230|ref=caus.resp._1
+5	ἀρτηρία	ἀρτηρία	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_230|t_237|ref=caus.resp._1
+6	,	,	u	u--------	_	8	AuxX	_	t_231|t_233|ref=caus.resp._1
+7	ὄργανον	ὄργανον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_232|t_233|ref=caus.resp._1
+8	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_233|t_237|ref=caus.resp._1
+9	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_234|t_232|ref=caus.resp._1
+10	,	,	u	u--------	_	8	AuxX	_	t_235|t_233|ref=caus.resp._1
+11	ὁδός	ὁδός	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_236|t_237|ref=caus.resp._1
+12	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_237|0|ref=caus.resp._1
+13	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_238|t_236|ref=caus.resp._1
+14	.	.	u	u--------	_	12	AuxK	_	t_239|t_237|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ὁ δὲ πνεύμων οἷα βαθὺς γαστὴρ ὑπόκειται τῷ πνεύματι .
 # sent_id = 13
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_240|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_241|ref=De causis respirationis_1
-3	πνεύμων	πνεύμων	a	a-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_242|ref=De causis respirationis_1
-4	οἷα	οἷος	a	a-p---na-	Case=a|Gender=n|Number=p	5	AuxZ	_	t_243|ref=De causis respirationis_1
-5	βαθὺς	βαθύς	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_244|ref=De causis respirationis_1
-6	γαστὴρ	γαστήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_245|ref=De causis respirationis_1
-7	ὑπόκειται	ὑπόκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_246|ref=De causis respirationis_1
-8	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ATR	_	t_247|ref=De causis respirationis_1
-9	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	7	OBJ	_	t_248|ref=De causis respirationis_1
-10	.	.	u	u--------	_	7	AuxK	_	t_249|ref=De causis respirationis_1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_240|t_245|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_241|t_246|ref=caus.resp._1
+3	πνεύμων	πνεύμων	a	a-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_242|t_245|ref=caus.resp._1
+4	οἷα	οἷος	a	a-p---na-	Case=a|Gender=n|Number=p	5	AuxZ	_	t_243|t_244|ref=caus.resp._1
+5	βαθὺς	βαθύς	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_244|t_245|ref=caus.resp._1
+6	γαστὴρ	γαστήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_245|t_246|ref=caus.resp._1
+7	ὑπόκειται	ὑπόκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_246|0|ref=caus.resp._1
+8	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ATR	_	t_247|t_248|ref=caus.resp._1
+9	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	7	OBJ	_	t_248|t_246|ref=caus.resp._1
+10	.	.	u	u--------	_	7	AuxK	_	t_249|t_246|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τούτου δὲ τὰς διαστολάς τε καὶ συστολὰς ὁ θώραξ οἰακίζει , μυσὶ κινούμενος , ὀστοῖς τε διαρθρούμενος .
 # sent_id = 14
-1	τούτου	οὗτος	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_250|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_251|ref=De causis respirationis_1
-3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_252|ref=De causis respirationis_1
-4	διαστολάς	διαστολή	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_253|ref=De causis respirationis_1
-5	τε	τε	d	d--------	_	6	AuxY	_	t_254|ref=De causis respirationis_1
-6	καὶ	καί	c	c--------	_	10	COORD	_	t_255|ref=De causis respirationis_1
-7	συστολὰς	συστολή	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_256|ref=De causis respirationis_1
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_257|ref=De causis respirationis_1
-9	θώραξ	θώραξ	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_258|ref=De causis respirationis_1
-10	οἰακίζει	οἰακίζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_259|ref=De causis respirationis_1
-11	,	,	u	u--------	_	10	AuxX	_	t_260|ref=De causis respirationis_1
-12	μυσὶ	μῦς	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_261|ref=De causis respirationis_1
-13	κινούμενος	κινέω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_262|ref=De causis respirationis_1
-14	,	,	u	u--------	_	10	AuxX	_	t_263|ref=De causis respirationis_1
-15	ὀστοῖς	ὀστέον	n	n-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_264|ref=De causis respirationis_1
-16	τε	τε	c	c--------	_	10	COORD	_	t_265|ref=De causis respirationis_1
-17	διαρθρούμενος	διαρθρόω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_266|ref=De causis respirationis_1
-18	.	.	u	u--------	_	10	AuxK	_	t_267|ref=De causis respirationis_1
+1	τούτου	οὗτος	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_250|t_255|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_251|t_259|ref=caus.resp._1
+3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_252|t_253|ref=caus.resp._1
+4	διαστολάς	διαστολή	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_253|t_255|ref=caus.resp._1
+5	τε	τε	d	d--------	_	6	AuxY	_	t_254|t_255|ref=caus.resp._1
+6	καὶ	καί	c	c--------	_	10	COORD	_	t_255|t_259|ref=caus.resp._1
+7	συστολὰς	συστολή	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_256|t_255|ref=caus.resp._1
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_257|t_258|ref=caus.resp._1
+9	θώραξ	θώραξ	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_258|t_259|ref=caus.resp._1
+10	οἰακίζει	οἰακίζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_259|0|ref=caus.resp._1
+11	,	,	u	u--------	_	10	AuxX	_	t_260|t_259|ref=caus.resp._1
+12	μυσὶ	μῦς	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_261|t_262|ref=caus.resp._1
+13	κινούμενος	κινέω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_262|t_265|ref=caus.resp._1
+14	,	,	u	u--------	_	10	AuxX	_	t_263|t_259|ref=caus.resp._1
+15	ὀστοῖς	ὀστέον	n	n-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_264|t_266|ref=caus.resp._1
+16	τε	τε	c	c--------	_	10	COORD	_	t_265|t_259|ref=caus.resp._1
+17	διαρθρούμενος	διαρθρόω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_266|t_265|ref=caus.resp._1
+18	.	.	u	u--------	_	10	AuxK	_	t_267|t_259|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = καὶ μὴν καὶ τὸ διάφραγμα [0] ·
 # sent_id = 15
-1	καὶ	καί	d	d--------	_	2	AuxZ	_	t_268|ref=De causis respirationis_1
-2	μὴν	μήν	d	d--------	_	6	AuxY	_	t_269|ref=De causis respirationis_1
-3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_270|ref=De causis respirationis_1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_271|ref=De causis respirationis_1
-5	διάφραγμα	διάφραγμα	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_272|ref=De causis respirationis_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=De causis respirationis_1
-7	·	·	u	u--------	_	6	AuxK	_	t_273|ref=De causis respirationis_1
+1	καὶ	καί	d	d--------	_	2	AuxZ	_	t_268|t_269|ref=caus.resp._1
+2	μὴν	μήν	d	d--------	_	6	AuxY	_	t_269|e_5|ref=caus.resp._1
+3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_270|t_272|ref=caus.resp._1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_271|t_272|ref=caus.resp._1
+5	διάφραγμα	διάφραγμα	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_272|e_5|ref=caus.resp._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=caus.resp._1
+7	·	·	u	u--------	_	6	AuxK	_	t_273|e_5|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = καὶ γὰρ δὴ καὶ αὐτὸ τοῦτο ἦν ὄργανον ἀναπνοῆς ·
 # sent_id = 16
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_274|ref=De causis respirationis_1
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_275|ref=De causis respirationis_1
-3	δὴ	δή	d	d--------	_	7	AuxY	_	t_276|ref=De causis respirationis_1
-4	καὶ	καί	d	d--------	_	6	AuxZ	_	t_277|ref=De causis respirationis_1
-5	αὐτὸ	αὐτός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_278|ref=De causis respirationis_1
-6	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_279|ref=De causis respirationis_1
-7	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_280|ref=De causis respirationis_1
-8	ὄργανον	ὄργανον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_281|ref=De causis respirationis_1
-9	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_282|ref=De causis respirationis_1
-10	·	·	u	u--------	_	7	AuxK	_	t_283|ref=De causis respirationis_1
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_274|t_280|ref=caus.resp._1
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_275|t_280|ref=caus.resp._1
+3	δὴ	δή	d	d--------	_	7	AuxY	_	t_276|t_280|ref=caus.resp._1
+4	καὶ	καί	d	d--------	_	6	AuxZ	_	t_277|t_279|ref=caus.resp._1
+5	αὐτὸ	αὐτός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_278|t_279|ref=caus.resp._1
+6	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_279|t_280|ref=caus.resp._1
+7	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_280|0|ref=caus.resp._1
+8	ὄργανον	ὄργανον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_281|t_280|ref=caus.resp._1
+9	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_282|t_281|ref=caus.resp._1
+10	·	·	u	u--------	_	7	AuxK	_	t_283|t_280|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = κυκλοτερὲς δέ ἐστι , καὶ νευρῶδες μὲν περὶ τὸ κέντρον ἑαυτοῦ , σαρκῶδες δὲ τὰ πέριξ [0] .
 # sent_id = 17
-1	κυκλοτερὲς	κυκλοτερής	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_284|ref=De causis respirationis_1
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_285|ref=De causis respirationis_1
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_286|ref=De causis respirationis_1
-4	,	,	u	u--------	_	0	AuxX	_	t_287|ref=De causis respirationis_1
-5	καὶ	καί	c	c--------	_	4	COORD	_	t_288|ref=De causis respirationis_1
-6	νευρῶδες	νευρώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_289|ref=De causis respirationis_1
-7	μὲν	μέν	d	d--------	_	14	AuxY	_	t_290|ref=De causis respirationis_1
-8	περὶ	περί	r	r--------	_	14	AuxP	_	t_291|ref=De causis respirationis_1
-9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_292|ref=De causis respirationis_1
-10	κέντρον	κέντρον	n	n-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_293|ref=De causis respirationis_1
-11	ἑαυτοῦ	ἑαυτοῦ	p	p-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_294|ref=De causis respirationis_1
-12	,	,	u	u--------	_	4	AuxX	_	t_295|ref=De causis respirationis_1
-13	σαρκῶδες	σαρκώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_296|ref=De causis respirationis_1
-14	δὲ	δέ	d	d--------	_	5	COORD	_	t_297|ref=De causis respirationis_1
-15	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_298|ref=De causis respirationis_1
-16	πέριξ	πέριξ	d	d--------	_	15	ATR	_	t_299|ref=De causis respirationis_1
-17	[0]	[0]	-	---------	_	5	PRED	_	e_6|ref=De causis respirationis_1
-18	.	.	u	u--------	_	4	AuxK	_	t_300|ref=De causis respirationis_1
+1	κυκλοτερὲς	κυκλοτερής	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_284|t_286|ref=caus.resp._1
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_285|t_286|ref=caus.resp._1
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_286|t_288|ref=caus.resp._1
+4	,	,	u	u--------	_	0	AuxX	_	t_287|0|ref=caus.resp._1
+5	καὶ	καί	c	c--------	_	4	COORD	_	t_288|t_287|ref=caus.resp._1
+6	νευρῶδες	νευρώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_289|t_297|ref=caus.resp._1
+7	μὲν	μέν	d	d--------	_	14	AuxY	_	t_290|t_297|ref=caus.resp._1
+8	περὶ	περί	r	r--------	_	14	AuxP	_	t_291|t_297|ref=caus.resp._1
+9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_292|t_293|ref=caus.resp._1
+10	κέντρον	κέντρον	n	n-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_293|t_291|ref=caus.resp._1
+11	ἑαυτοῦ	ἑαυτοῦ	p	p-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_294|t_293|ref=caus.resp._1
+12	,	,	u	u--------	_	4	AuxX	_	t_295|t_287|ref=caus.resp._1
+13	σαρκῶδες	σαρκώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_296|e_6|ref=caus.resp._1
+14	δὲ	δέ	d	d--------	_	5	COORD	_	t_297|t_288|ref=caus.resp._1
+15	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_298|t_297|ref=caus.resp._1
+16	πέριξ	πέριξ	d	d--------	_	15	ATR	_	t_299|t_298|ref=caus.resp._1
+17	[0]	[0]	-	---------	_	5	PRED	_	e_6|t_288|ref=caus.resp._1
+18	.	.	u	u--------	_	4	AuxK	_	t_300|t_287|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = οὕτω δὲ καὶ οἱ κατὰ τὰς πλευρὰς μύες , οἱ μὲν ἐν ταῖς μέσαις χώραις αὐτοῦ δύο καὶ εἴκοσιν τυγχάνουσιν , καὶ δύο μὲν οἱ τῶν πρώτων πλευρῶν , ἰσάριθμοι δὲ τούτων οἱ τῶν ἐσχάτων δύο [0] [1] [2] ·
 # sent_id = 18
-1	οὕτω	οὕτως	d	d--------	_	22	ADV	_	t_301|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	22	AuxY	_	t_302|ref=De causis respirationis_1
-3	καὶ	καί	d	d--------	_	8	AuxZ	_	t_303|ref=De causis respirationis_1
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_304|ref=De causis respirationis_1
-5	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_305|ref=De causis respirationis_1
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_306|ref=De causis respirationis_1
-7	πλευρὰς	πλευρά	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_307|ref=De causis respirationis_1
-8	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	20	SBJ	_	t_308|ref=De causis respirationis_1
-9	,	,	u	u--------	_	0	AuxX	_	t_309|ref=De causis respirationis_1
-10	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	20	SBJ	_	t_310|ref=De causis respirationis_1
-11	μὲν	μέν	d	d--------	_	22	AuxY	_	t_311|ref=De causis respirationis_1
-12	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_312|ref=De causis respirationis_1
-13	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_313|ref=De causis respirationis_1
-14	μέσαις	μέσος	a	a-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_314|ref=De causis respirationis_1
-15	χώραις	χώρα	n	n-p---fd-	Case=d|Gender=f|Number=p	12	ATR	_	t_315|ref=De causis respirationis_1
-16	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_316|ref=De causis respirationis_1
-17	δύο	δύο	a	a--------	_	18	PNOM	_	t_317|ref=De causis respirationis_1
-18	καὶ	καί	c	c--------	_	20	COORD	_	t_318|ref=De causis respirationis_1
-19	εἴκοσιν	εἴκοσι	a	a--------	_	18	PNOM	_	t_319|ref=De causis respirationis_1
-20	τυγχάνουσιν	τυγχάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	22	PRED	_	t_320|ref=De causis respirationis_1
-21	,	,	u	u--------	_	9	AuxX	_	t_321|ref=De causis respirationis_1
-22	καὶ	καί	c	c--------	_	9	COORD	_	t_322|ref=De causis respirationis_1
-23	δύο	δύο	a	a--------	_	38	SBJ	_	t_323|ref=De causis respirationis_1
-24	μὲν	μέν	d	d--------	_	31	AuxY	_	t_324|ref=De causis respirationis_1
-25	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	38	SBJ	_	t_325|ref=De causis respirationis_1
-26	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	28	ATR	_	t_326|ref=De causis respirationis_1
-27	πρώτων	πρῶτος	a	a-p---fg-	Case=g|Gender=f|Number=p	28	ATR	_	t_327|ref=De causis respirationis_1
-28	πλευρῶν	πλευρά	n	n-p---fg-	Case=g|Gender=f|Number=p	25	ATR	_	t_328|ref=De causis respirationis_1
-29	,	,	u	u--------	_	9	AuxX	_	t_329|ref=De causis respirationis_1
-30	ἰσάριθμοι	ἰσάριθμος	a	a-p---mn-	Case=n|Gender=m|Number=p	39	PNOM	_	t_330|ref=De causis respirationis_1
-31	δὲ	δέ	c	c--------	_	22	COORD	_	t_331|ref=De causis respirationis_1
-32	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	30	ATR	_	t_332|ref=De causis respirationis_1
-33	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	36	ATR	_	t_333|ref=De causis respirationis_1
-34	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	35	ATR	_	t_334|ref=De causis respirationis_1
-35	ἐσχάτων	ἔσχατος	a	a-p---mg-	Case=g|Gender=m|Number=p	36	ATR	_	t_335|ref=De causis respirationis_1
-36	δύο	δύο	a	a--------	_	39	SBJ	_	t_336|ref=De causis respirationis_1
-37	[0]	[0]	-	---------	_	31	PRED	_	e_7|ref=De causis respirationis_1
-38	[1]	[1]	-	---------	_	31	PRED	_	e_8|ref=De causis respirationis_1
-39	[2]	[2]	-	---------	_	31	PRED	_	e_9|ref=De causis respirationis_1
-40	·	·	u	u--------	_	9	AuxK	_	t_337|ref=De causis respirationis_1
+1	οὕτω	οὕτως	d	d--------	_	22	ADV	_	t_301|t_322|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	22	AuxY	_	t_302|t_322|ref=caus.resp._1
+3	καὶ	καί	d	d--------	_	8	AuxZ	_	t_303|t_308|ref=caus.resp._1
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_304|t_308|ref=caus.resp._1
+5	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_305|t_308|ref=caus.resp._1
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_306|t_307|ref=caus.resp._1
+7	πλευρὰς	πλευρά	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_307|t_305|ref=caus.resp._1
+8	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	20	SBJ	_	t_308|t_320|ref=caus.resp._1
+9	,	,	u	u--------	_	0	AuxX	_	t_309|0|ref=caus.resp._1
+10	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	20	SBJ	_	t_310|t_320|ref=caus.resp._1
+11	μὲν	μέν	d	d--------	_	22	AuxY	_	t_311|t_322|ref=caus.resp._1
+12	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_312|t_310|ref=caus.resp._1
+13	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_313|t_315|ref=caus.resp._1
+14	μέσαις	μέσος	a	a-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_314|t_315|ref=caus.resp._1
+15	χώραις	χώρα	n	n-p---fd-	Case=d|Gender=f|Number=p	12	ATR	_	t_315|t_312|ref=caus.resp._1
+16	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_316|t_315|ref=caus.resp._1
+17	δύο	δύο	a	a--------	_	18	PNOM	_	t_317|t_318|ref=caus.resp._1
+18	καὶ	καί	c	c--------	_	20	COORD	_	t_318|t_320|ref=caus.resp._1
+19	εἴκοσιν	εἴκοσι	a	a--------	_	18	PNOM	_	t_319|t_318|ref=caus.resp._1
+20	τυγχάνουσιν	τυγχάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	22	PRED	_	t_320|t_322|ref=caus.resp._1
+21	,	,	u	u--------	_	9	AuxX	_	t_321|t_309|ref=caus.resp._1
+22	καὶ	καί	c	c--------	_	9	COORD	_	t_322|t_309|ref=caus.resp._1
+23	δύο	δύο	a	a--------	_	38	SBJ	_	t_323|e_8|ref=caus.resp._1
+24	μὲν	μέν	d	d--------	_	31	AuxY	_	t_324|t_331|ref=caus.resp._1
+25	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	38	SBJ	_	t_325|e_8|ref=caus.resp._1
+26	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	28	ATR	_	t_326|t_328|ref=caus.resp._1
+27	πρώτων	πρῶτος	a	a-p---fg-	Case=g|Gender=f|Number=p	28	ATR	_	t_327|t_328|ref=caus.resp._1
+28	πλευρῶν	πλευρά	n	n-p---fg-	Case=g|Gender=f|Number=p	25	ATR	_	t_328|t_325|ref=caus.resp._1
+29	,	,	u	u--------	_	9	AuxX	_	t_329|t_309|ref=caus.resp._1
+30	ἰσάριθμοι	ἰσάριθμος	a	a-p---mn-	Case=n|Gender=m|Number=p	39	PNOM	_	t_330|e_9|ref=caus.resp._1
+31	δὲ	δέ	c	c--------	_	22	COORD	_	t_331|t_322|ref=caus.resp._1
+32	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	30	ATR	_	t_332|t_330|ref=caus.resp._1
+33	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	36	ATR	_	t_333|t_336|ref=caus.resp._1
+34	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	35	ATR	_	t_334|t_335|ref=caus.resp._1
+35	ἐσχάτων	ἔσχατος	a	a-p---mg-	Case=g|Gender=m|Number=p	36	ATR	_	t_335|t_336|ref=caus.resp._1
+36	δύο	δύο	a	a--------	_	39	SBJ	_	t_336|e_9|ref=caus.resp._1
+37	[0]	[0]	-	---------	_	31	PRED	_	e_7|t_331|ref=caus.resp._1
+38	[1]	[1]	-	---------	_	31	PRED	_	e_8|t_331|ref=caus.resp._1
+39	[2]	[2]	-	---------	_	31	PRED	_	e_9|t_331|ref=caus.resp._1
+40	·	·	u	u--------	_	9	AuxK	_	t_337|t_309|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = καὶ πρὸς τούτοις οἱ καθήκοντες ἐκ τοῦ τραχήλου τρεῖς [0] ·
 # sent_id = 19
-1	καὶ	καί	d	d--------	_	10	AuxY	_	t_338|ref=De causis respirationis_1
-2	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_339|ref=De causis respirationis_1
-3	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_340|ref=De causis respirationis_1
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_341|ref=De causis respirationis_1
-5	καθήκοντες	καθήκω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	SBJ	_	t_342|ref=De causis respirationis_1
-6	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_343|ref=De causis respirationis_1
-7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_344|ref=De causis respirationis_1
-8	τραχήλου	τράχηλος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_345|ref=De causis respirationis_1
-9	τρεῖς	τρεῖς	m	m-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_346|ref=De causis respirationis_1
-10	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=De causis respirationis_1
-11	·	·	u	u--------	_	10	AuxK	_	t_347|ref=De causis respirationis_1
+1	καὶ	καί	d	d--------	_	10	AuxY	_	t_338|e_10|ref=caus.resp._1
+2	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_339|e_10|ref=caus.resp._1
+3	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_340|t_339|ref=caus.resp._1
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_341|t_342|ref=caus.resp._1
+5	καθήκοντες	καθήκω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	SBJ	_	t_342|e_10|ref=caus.resp._1
+6	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_343|t_342|ref=caus.resp._1
+7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_344|t_345|ref=caus.resp._1
+8	τραχήλου	τράχηλος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_345|t_343|ref=caus.resp._1
+9	τρεῖς	τρεῖς	m	m-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_346|t_342|ref=caus.resp._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=caus.resp._1
+11	·	·	u	u--------	_	10	AuxK	_	t_347|e_10|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = εἶθʼ οἱ παρατεταμένοι τοῖς ῥαχίταις ἑπτά [0] ·
 # sent_id = 20
-1	εἶθʼ	εἶτα	d	d--------	_	7	AuxY	_	t_348|ref=De causis respirationis_1
-2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_349|ref=De causis respirationis_1
-3	παρατεταμένοι	παράκειμαι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	7	SBJ	_	t_350|ref=De causis respirationis_1
-4	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	5	ATR	_	t_351|ref=De causis respirationis_1
-5	ῥαχίταις	ῥαχίτης	n	n-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_352|ref=De causis respirationis_1
-6	ἑπτά	ἑπτά	m	m--------	_	7	PNOM	_	t_353|ref=De causis respirationis_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=De causis respirationis_1
-8	·	·	u	u--------	_	7	AuxK	_	t_354|ref=De causis respirationis_1
+1	εἶθʼ	εἶτα	d	d--------	_	7	AuxY	_	t_348|e_11|ref=caus.resp._1
+2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_349|t_350|ref=caus.resp._1
+3	παρατεταμένοι	παράκειμαι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	7	SBJ	_	t_350|e_11|ref=caus.resp._1
+4	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	5	ATR	_	t_351|t_352|ref=caus.resp._1
+5	ῥαχίταις	ῥαχίτης	n	n-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_352|t_350|ref=caus.resp._1
+6	ἑπτά	ἑπτά	m	m--------	_	7	PNOM	_	t_353|e_11|ref=caus.resp._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=caus.resp._1
+8	·	·	u	u--------	_	7	AuxK	_	t_354|e_11|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = σὺν αὐτοῖς δὲ οἱ κατ ’ ἐπιγάστριον ὀκτώ [0] .
 # sent_id = 21
-1	σὺν	σύν	r	r--------	_	9	AuxP	_	t_355|ref=De causis respirationis_1
-2	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_356|ref=De causis respirationis_1
-3	δὲ	δέ	d	d--------	_	9	AuxY	_	t_357|ref=De causis respirationis_1
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_358|ref=De causis respirationis_1
-5	κατ	κατά	r	r--------	_	8	AuxP	_	t_359|ref=De causis respirationis_1
-6	’	’	r	r--------	_	8	AuxP	_	t_360|ref=De causis respirationis_1
-7	ἐπιγάστριον	ἐπιγάστριον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_361|ref=De causis respirationis_1
-8	ὀκτώ	ὀκτώ	a	a--------	_	9	SBJ	_	t_362|ref=De causis respirationis_1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=De causis respirationis_1
-10	.	.	u	u--------	_	9	AuxK	_	t_363|ref=De causis respirationis_1
+1	σὺν	σύν	r	r--------	_	9	AuxP	_	t_355|e_12|ref=caus.resp._1
+2	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_356|t_355|ref=caus.resp._1
+3	δὲ	δέ	d	d--------	_	9	AuxY	_	t_357|e_12|ref=caus.resp._1
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_358|t_362|ref=caus.resp._1
+5	κατ	κατά	r	r--------	_	8	AuxP	_	t_359|t_362|ref=caus.resp._1
+6	’	’	r	r--------	_	8	AuxP	_	t_360|t_362|ref=caus.resp._1
+7	ἐπιγάστριον	ἐπιγάστριον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_361|t_360|ref=caus.resp._1
+8	ὀκτώ	ὀκτώ	a	a--------	_	9	SBJ	_	t_362|e_12|ref=caus.resp._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=caus.resp._1
+10	.	.	u	u--------	_	9	AuxK	_	t_363|e_12|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τοσοῦτοι μὲν οἱ ὑπηρετοῦντες μύες τῇ ἀναπνοῇ [0] .
 # sent_id = 22
-1	τοσοῦτοι	τοσοῦτος	p	p-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_364|ref=De causis respirationis_1
-2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_365|ref=De causis respirationis_1
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_366|ref=De causis respirationis_1
-4	ὑπηρετοῦντες	ὑπηρετέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_367|ref=De causis respirationis_1
-5	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_368|ref=De causis respirationis_1
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_369|ref=De causis respirationis_1
-7	ἀναπνοῇ	ἀναπνοή	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_370|ref=De causis respirationis_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=De causis respirationis_1
-9	.	.	u	u--------	_	8	AuxK	_	t_371|ref=De causis respirationis_1
+1	τοσοῦτοι	τοσοῦτος	p	p-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_364|e_13|ref=caus.resp._1
+2	μὲν	μέν	d	d--------	_	8	AuxY	_	t_365|e_13|ref=caus.resp._1
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_366|t_368|ref=caus.resp._1
+4	ὑπηρετοῦντες	ὑπηρετέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_367|t_368|ref=caus.resp._1
+5	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_368|e_13|ref=caus.resp._1
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_369|t_370|ref=caus.resp._1
+7	ἀναπνοῇ	ἀναπνοή	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_370|t_367|ref=caus.resp._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=caus.resp._1
+9	.	.	u	u--------	_	8	AuxK	_	t_371|e_13|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ἐνέργειαι δὲ καθʼ ἕκαστον τούτων , τῶν μὲν τῶν φρενῶν , ἀβίαστον ἐργάζεσθαι τὴν ἀναπνοὴν , τῶν δὲ κατὰ τὰς πλευρὰς , διαστέλλειν τε καὶ συστέλλειν ἀκριβῶς τὸν θώρακα [0] [1] .
 # sent_id = 23
-1	ἐνέργειαι	ἐνέργεια	n	n-s---fd-	Case=d|Gender=f|Number=s	30	PNOM	_	t_372|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	30	AuxY	_	t_373|ref=De causis respirationis_1
-3	καθʼ	κατά	r	r--------	_	30	AuxP	_	t_374|ref=De causis respirationis_1
-4	ἕκαστον	ἕκαστος	a	a-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_375|ref=De causis respirationis_1
-5	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_376|ref=De causis respirationis_1
-6	,	,	u	u--------	_	30	AuxX	_	t_377|ref=De causis respirationis_1
-7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_378|ref=De causis respirationis_1
-8	μὲν	μέν	d	d--------	_	18	AuxY	_	t_379|ref=De causis respirationis_1
-9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_380|ref=De causis respirationis_1
-10	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_381|ref=De causis respirationis_1
-11	,	,	u	u--------	_	30	AuxX	_	t_382|ref=De causis respirationis_1
-12	ἀβίαστον	ἀβίαστος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATV	_	t_383|ref=De causis respirationis_1
-13	ἐργάζεσθαι	ἐργάζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	18	APOS	_	t_384|ref=De causis respirationis_1
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_385|ref=De causis respirationis_1
-15	ἀναπνοὴν	ἀναπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_386|ref=De causis respirationis_1
-16	,	,	u	u--------	_	30	AuxX	_	t_387|ref=De causis respirationis_1
-17	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	31	ATR	_	t_388|ref=De causis respirationis_1
-18	δὲ	δέ	c	c--------	_	30	COORD	_	t_389|ref=De causis respirationis_1
-19	κατὰ	κατά	r	r--------	_	17	AuxP	_	t_390|ref=De causis respirationis_1
-20	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	21	ATR	_	t_391|ref=De causis respirationis_1
-21	πλευρὰς	πλευρά	n	n-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_392|ref=De causis respirationis_1
-22	,	,	u	u--------	_	30	AuxX	_	t_393|ref=De causis respirationis_1
-23	διαστέλλειν	διαστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_394|ref=De causis respirationis_1
-24	τε	τε	c	c--------	_	25	AuxY	_	t_395|ref=De causis respirationis_1
-25	καὶ	καί	c	c--------	_	18	COORD	_	t_396|ref=De causis respirationis_1
-26	συστέλλειν	συστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_397|ref=De causis respirationis_1
-27	ἀκριβῶς	ἀκριβής	d	d--------	_	25	ADV	_	t_398|ref=De causis respirationis_1
-28	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_399|ref=De causis respirationis_1
-29	θώρακα	θώραξ	n	n-s---ma-	Case=a|Gender=m|Number=s	25	SBJ	_	t_400|ref=De causis respirationis_1
-30	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=De causis respirationis_1
-31	[1]	[1]	-	---------	_	18	OBJ	_	e_15|ref=De causis respirationis_1
-32	.	.	u	u--------	_	30	AuxK	_	t_401|ref=De causis respirationis_1
+1	ἐνέργειαι	ἐνέργεια	n	n-s---fd-	Case=d|Gender=f|Number=s	30	PNOM	_	t_372|e_14|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	30	AuxY	_	t_373|e_14|ref=caus.resp._1
+3	καθʼ	κατά	r	r--------	_	30	AuxP	_	t_374|e_14|ref=caus.resp._1
+4	ἕκαστον	ἕκαστος	a	a-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_375|t_374|ref=caus.resp._1
+5	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_376|t_375|ref=caus.resp._1
+6	,	,	u	u--------	_	30	AuxX	_	t_377|e_14|ref=caus.resp._1
+7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_378|t_381|ref=caus.resp._1
+8	μὲν	μέν	d	d--------	_	18	AuxY	_	t_379|t_389|ref=caus.resp._1
+9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_380|t_381|ref=caus.resp._1
+10	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_381|t_375|ref=caus.resp._1
+11	,	,	u	u--------	_	30	AuxX	_	t_382|e_14|ref=caus.resp._1
+12	ἀβίαστον	ἀβίαστος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATV	_	t_383|t_386|ref=caus.resp._1
+13	ἐργάζεσθαι	ἐργάζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	18	APOS	_	t_384|t_389|ref=caus.resp._1
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_385|t_386|ref=caus.resp._1
+15	ἀναπνοὴν	ἀναπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_386|t_384|ref=caus.resp._1
+16	,	,	u	u--------	_	30	AuxX	_	t_387|e_14|ref=caus.resp._1
+17	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	31	ATR	_	t_388|e_15|ref=caus.resp._1
+18	δὲ	δέ	c	c--------	_	30	COORD	_	t_389|e_14|ref=caus.resp._1
+19	κατὰ	κατά	r	r--------	_	17	AuxP	_	t_390|t_388|ref=caus.resp._1
+20	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	21	ATR	_	t_391|t_392|ref=caus.resp._1
+21	πλευρὰς	πλευρά	n	n-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_392|t_390|ref=caus.resp._1
+22	,	,	u	u--------	_	30	AuxX	_	t_393|e_14|ref=caus.resp._1
+23	διαστέλλειν	διαστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_394|t_396|ref=caus.resp._1
+24	τε	τε	c	c--------	_	25	AuxY	_	t_395|t_396|ref=caus.resp._1
+25	καὶ	καί	c	c--------	_	18	COORD	_	t_396|t_389|ref=caus.resp._1
+26	συστέλλειν	συστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_397|t_396|ref=caus.resp._1
+27	ἀκριβῶς	ἀκριβής	d	d--------	_	25	ADV	_	t_398|t_396|ref=caus.resp._1
+28	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_399|t_400|ref=caus.resp._1
+29	θώρακα	θώραξ	n	n-s---ma-	Case=a|Gender=m|Number=s	25	SBJ	_	t_400|t_396|ref=caus.resp._1
+30	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=caus.resp._1
+31	[1]	[1]	-	---------	_	18	OBJ	_	e_15|t_389|ref=caus.resp._1
+32	.	.	u	u--------	_	30	AuxK	_	t_401|e_14|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = διπλῶν δὲ ὄντων αὐτῶν , οἱ μὲν ἐκτὸς τὴν ἐκπνοὴν , οἱ δʼ ἐντὸς τὴν εἰσπνοὴν ἀποτελοῦσιν [0] [1] .
 # sent_id = 24
-1	διπλῶν	διπλόος	a	a-p---mg-	Case=g|Gender=n|Number=p	3	PNOM	_	t_402|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_403|ref=De causis respirationis_1
-3	ὄντων	εἰμί	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_404|ref=De causis respirationis_1
-4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=n|Number=p	3	SBJ	_	t_405|ref=De causis respirationis_1
-5	,	,	u	u--------	_	0	AuxX	_	t_406|ref=De causis respirationis_1
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_407|ref=De causis respirationis_1
-7	μὲν	μέν	d	d--------	_	13	AuxY	_	t_408|ref=De causis respirationis_1
-8	ἐκτὸς	ἐκτός	r	r--------	_	18	AuxP	_	t_409|ref=De causis respirationis_1
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_410|ref=De causis respirationis_1
-10	ἐκπνοὴν	ἐκπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_411|ref=De causis respirationis_1
-11	,	,	u	u--------	_	5	AuxX	_	t_412|ref=De causis respirationis_1
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_413|ref=De causis respirationis_1
-13	δʼ	δέ	c	c--------	_	5	COORD	_	t_414|ref=De causis respirationis_1
-14	ἐντὸς	ἐντός	d	d--------	_	17	ADV	_	t_415|ref=De causis respirationis_1
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_416|ref=De causis respirationis_1
-16	εἰσπνοὴν	εἰσπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_417|ref=De causis respirationis_1
-17	ἀποτελοῦσιν	ἀποτελέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	PRED	_	t_418|ref=De causis respirationis_1
-18	[0]	[0]	-	---------	_	13	PRED	_	e_16|ref=De causis respirationis_1
-19	[1]	[1]	-	---------	_	13	PRED	_	e_17|ref=De causis respirationis_1
-20	.	.	u	u--------	_	5	AuxK	_	t_419|ref=De causis respirationis_1
+1	διπλῶν	διπλόος	a	a-p---mg-	Case=g|Gender=n|Number=p	3	PNOM	_	t_402|t_404|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_403|t_414|ref=caus.resp._1
+3	ὄντων	εἰμί	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_404|t_414|ref=caus.resp._1
+4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=n|Number=p	3	SBJ	_	t_405|t_404|ref=caus.resp._1
+5	,	,	u	u--------	_	0	AuxX	_	t_406|0|ref=caus.resp._1
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_407|e_16|ref=caus.resp._1
+7	μὲν	μέν	d	d--------	_	13	AuxY	_	t_408|t_414|ref=caus.resp._1
+8	ἐκτὸς	ἐκτός	r	r--------	_	18	AuxP	_	t_409|e_16|ref=caus.resp._1
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_410|t_411|ref=caus.resp._1
+10	ἐκπνοὴν	ἐκπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_411|e_16|ref=caus.resp._1
+11	,	,	u	u--------	_	5	AuxX	_	t_412|t_406|ref=caus.resp._1
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_413|t_418|ref=caus.resp._1
+13	δʼ	δέ	c	c--------	_	5	COORD	_	t_414|t_406|ref=caus.resp._1
+14	ἐντὸς	ἐντός	d	d--------	_	17	ADV	_	t_415|t_418|ref=caus.resp._1
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_416|t_417|ref=caus.resp._1
+16	εἰσπνοὴν	εἰσπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_417|t_418|ref=caus.resp._1
+17	ἀποτελοῦσιν	ἀποτελέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	PRED	_	t_418|t_414|ref=caus.resp._1
+18	[0]	[0]	-	---------	_	13	PRED	_	e_16|t_414|ref=caus.resp._1
+19	[1]	[1]	-	---------	_	13	PRED	_	e_17|t_414|ref=caus.resp._1
+20	.	.	u	u--------	_	5	AuxK	_	t_419|t_406|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = καὶ τῶν μὲν πρώ των δυοῖν ἐνέργεια μέν ἐστι διαστέλλειν μόνον τὸ ἄνω τοῦ θώρακος μέρος , τῶν δʼ ἐσχάτων συστέλλειν μόνον τὸ κάτω μέρος .
 # sent_id = 25
-1	καὶ	καί	c	c--------	_	9	AuxY	_	t_420|ref=De causis respirationis_1
-2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=f|Number=p	6	ATR	_	t_421|ref=De causis respirationis_1
-3	μὲν	μέν	d	d--------	_	9	AuxY	_	t_422|ref=De causis respirationis_1
-4	πρώ	πρώ	a	a-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_423|ref=De causis respirationis_1
-5	των	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_424|ref=De causis respirationis_1
-6	δυοῖν	δύο	a	a-d---mg-	Case=g|Gender=m|Number=d	7	ATR	_	t_425|ref=De causis respirationis_1
-7	ἐνέργεια	ἐνέργεια	a	a-p---na-	Case=a|Gender=n|Number=p	9	PNOM	_	t_426|ref=De causis respirationis_1
-8	μέν	μέν	d	d--------	_	19	AuxY	_	t_427|ref=De causis respirationis_1
-9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_428|ref=De causis respirationis_1
-10	διαστέλλειν	διαστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	PNOM	_	t_429|ref=De causis respirationis_1
-11	μόνον	μόνος	d	d--------	_	10	ADV	_	t_430|ref=De causis respirationis_1
-12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_431|ref=De causis respirationis_1
-13	ἄνω	ἄνω	d	d--------	_	16	ATR	_	t_432|ref=De causis respirationis_1
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_433|ref=De causis respirationis_1
-15	θώρακος	θώραξ	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_434|ref=De causis respirationis_1
-16	μέρος	μέρος	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_435|ref=De causis respirationis_1
-17	,	,	u	u--------	_	9	AuxX	_	t_436|ref=De causis respirationis_1
-18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=f|Number=p	20	ATR	_	t_437|ref=De causis respirationis_1
-19	δʼ	δέ	c	c--------	_	9	COORD	_	t_438|ref=De causis respirationis_1
-20	ἐσχάτων	ἔσχατος	a	a-p---ng-	Case=g|Gender=n|Number=p	21	ADV	_	t_439|ref=De causis respirationis_1
-21	συστέλλειν	συστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	PNOM	_	t_440|ref=De causis respirationis_1
-22	μόνον	μόνος	d	d--------	Case=a|Gender=n|Number=s	21	ADV	_	t_441|ref=De causis respirationis_1
-23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_442|ref=De causis respirationis_1
-24	κάτω	κάτω	d	d--------	_	25	ATR	_	t_443|ref=De causis respirationis_1
-25	μέρος	μέρος	n	n-s---na-	Case=a|Gender=n|Number=s	21	OBJ	_	t_444|ref=De causis respirationis_1
-26	.	.	u	u--------	_	9	AuxK	_	t_445|ref=De causis respirationis_1
+1	καὶ	καί	c	c--------	_	9	AuxY	_	t_420|t_428|ref=caus.resp._1
+2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=f|Number=p	6	ATR	_	t_421|t_425|ref=caus.resp._1
+3	μὲν	μέν	d	d--------	_	9	AuxY	_	t_422|t_428|ref=caus.resp._1
+4	πρώ	πρώ	a	a-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_423|t_425|ref=caus.resp._1
+5	των	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_424|t_423|ref=caus.resp._1
+6	δυοῖν	δύο	a	a-d---mg-	Case=g|Gender=m|Number=d	7	ATR	_	t_425|t_426|ref=caus.resp._1
+7	ἐνέργεια	ἐνέργεια	a	a-p---na-	Case=a|Gender=n|Number=p	9	PNOM	_	t_426|t_428|ref=caus.resp._1
+8	μέν	μέν	d	d--------	_	19	AuxY	_	t_427|t_438|ref=caus.resp._1
+9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_428|0|ref=caus.resp._1
+10	διαστέλλειν	διαστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	PNOM	_	t_429|t_438|ref=caus.resp._1
+11	μόνον	μόνος	d	d--------	_	10	ADV	_	t_430|t_429|ref=caus.resp._1
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_431|t_435|ref=caus.resp._1
+13	ἄνω	ἄνω	d	d--------	_	16	ATR	_	t_432|t_435|ref=caus.resp._1
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_433|t_434|ref=caus.resp._1
+15	θώρακος	θώραξ	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_434|t_435|ref=caus.resp._1
+16	μέρος	μέρος	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_435|t_429|ref=caus.resp._1
+17	,	,	u	u--------	_	9	AuxX	_	t_436|t_428|ref=caus.resp._1
+18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=f|Number=p	20	ATR	_	t_437|t_439|ref=caus.resp._1
+19	δʼ	δέ	c	c--------	_	9	COORD	_	t_438|t_428|ref=caus.resp._1
+20	ἐσχάτων	ἔσχατος	a	a-p---ng-	Case=g|Gender=n|Number=p	21	ADV	_	t_439|t_440|ref=caus.resp._1
+21	συστέλλειν	συστέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	PNOM	_	t_440|t_438|ref=caus.resp._1
+22	μόνον	μόνος	d	d--------	Case=a|Gender=n|Number=s	21	ADV	_	t_441|t_440|ref=caus.resp._1
+23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_442|t_444|ref=caus.resp._1
+24	κάτω	κάτω	d	d--------	_	25	ATR	_	t_443|t_444|ref=caus.resp._1
+25	μέρος	μέρος	n	n-s---na-	Case=a|Gender=n|Number=s	21	OBJ	_	t_444|t_440|ref=caus.resp._1
+26	.	.	u	u--------	_	9	AuxK	_	t_445|t_428|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = οἱ δʼ ἐκ τῶν τραχήλων καθήκοντες ἀνασπῶσί τε ἅμα καὶ διαστέλλουσι τὰ τοῦ θώρακος ὑψηλὰ μόρια .
 # sent_id = 26
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_446|ref=De causis respirationis_1
-2	δʼ	δέ	d	d--------	_	10	AuxY	_	t_447|ref=De causis respirationis_1
-3	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_448|ref=De causis respirationis_1
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_449|ref=De causis respirationis_1
-5	τραχήλων	τράχηλος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ADV	_	t_450|ref=De causis respirationis_1
-6	καθήκοντες	καθήκω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	SBJ	_	t_451|ref=De causis respirationis_1
-7	ἀνασπῶσί	ἀνασπάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_452|ref=De causis respirationis_1
-8	τε	τε	c	c--------	_	10	AuxY	_	t_453|ref=De causis respirationis_1
-9	ἅμα	ἅμα	d	d--------	_	10	ADV	_	t_454|ref=De causis respirationis_1
-10	καὶ	καί	c	c--------	_	0	COORD	_	t_455|ref=De causis respirationis_1
-11	διαστέλλουσι	διαστέλλω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_456|ref=De causis respirationis_1
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_457|ref=De causis respirationis_1
-13	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_458|ref=De causis respirationis_1
-14	θώρακος	θώραξ	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_459|ref=De causis respirationis_1
-15	ὑψηλὰ	ὑψηλός	a	a-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_460|ref=De causis respirationis_1
-16	μόρια	μόριον	n	n-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_461|ref=De causis respirationis_1
-17	.	.	u	u--------	_	10	AuxK	_	t_462|ref=De causis respirationis_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_446|t_451|ref=caus.resp._1
+2	δʼ	δέ	d	d--------	_	10	AuxY	_	t_447|t_455|ref=caus.resp._1
+3	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_448|t_451|ref=caus.resp._1
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_449|t_450|ref=caus.resp._1
+5	τραχήλων	τράχηλος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ADV	_	t_450|t_448|ref=caus.resp._1
+6	καθήκοντες	καθήκω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	SBJ	_	t_451|t_455|ref=caus.resp._1
+7	ἀνασπῶσί	ἀνασπάω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_452|t_455|ref=caus.resp._1
+8	τε	τε	c	c--------	_	10	AuxY	_	t_453|t_455|ref=caus.resp._1
+9	ἅμα	ἅμα	d	d--------	_	10	ADV	_	t_454|t_455|ref=caus.resp._1
+10	καὶ	καί	c	c--------	_	0	COORD	_	t_455|0|ref=caus.resp._1
+11	διαστέλλουσι	διαστέλλω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_456|t_455|ref=caus.resp._1
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_457|t_461|ref=caus.resp._1
+13	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_458|t_459|ref=caus.resp._1
+14	θώρακος	θώραξ	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_459|t_461|ref=caus.resp._1
+15	ὑψηλὰ	ὑψηλός	a	a-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_460|t_461|ref=caus.resp._1
+16	μόρια	μόριον	n	n-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_461|t_456|ref=caus.resp._1
+17	.	.	u	u--------	_	10	AuxK	_	t_462|t_455|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τῶν δὲ ὀρθίων τῶν κατὰ τὸν τράχηλον οἱ μὲν πρὸς τὰς κλεῖς ἀνατεινόμενοι προστέλλουσι τὰ ταύτῃ πέρατα τῶν χόνδρων , ὥσπερ καὶ οἱ παρατεταμένοι ταῖς ῥαχίτισι ῥίζαις τῶν πλευρῶν [0] [1] .
 # sent_id = 27
-1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_463|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_464|ref=De causis respirationis_1
-3	ὀρθίων	ὄρθιος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	OBJ	_	t_465|ref=De causis respirationis_1
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_466|ref=De causis respirationis_1
-5	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_467|ref=De causis respirationis_1
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_468|ref=De causis respirationis_1
-7	τράχηλον	τράχηλος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_469|ref=De causis respirationis_1
-8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_470|ref=De causis respirationis_1
-9	μὲν	μέν	d	d--------	_	14	AuxY	_	t_471|ref=De causis respirationis_1
-10	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_472|ref=De causis respirationis_1
-11	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_473|ref=De causis respirationis_1
-12	κλεῖς	κλείς	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_474|ref=De causis respirationis_1
-13	ἀνατεινόμενοι	ἀνατείνω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	14	ADV	_	t_475|ref=De causis respirationis_1
-14	προστέλλουσι	στέλλω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_476|ref=De causis respirationis_1
-15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_477|ref=De causis respirationis_1
-16	ταύτῃ	οὗτος	d	d--------	_	17	ATR	_	t_478|ref=De causis respirationis_1
-17	πέρατα	πέρας	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_479|ref=De causis respirationis_1
-18	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_480|ref=De causis respirationis_1
-19	χόνδρων	χόνδρος	n	n-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_481|ref=De causis respirationis_1
-20	,	,	u	u--------	_	14	AuxX	_	t_482|ref=De causis respirationis_1
-21	ὥσπερ	ὥσπερ	c	c--------	_	14	AuxC	_	t_483|ref=De causis respirationis_1
-22	καὶ	καί	d	d--------	_	24	AuxZ	_	t_484|ref=De causis respirationis_1
-23	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	24	ATR	_	t_485|ref=De causis respirationis_1
-24	παρατεταμένοι	παράκειμαι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	30	SBJ	_	t_486|ref=De causis respirationis_1
-25	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	27	ATR	_	t_487|ref=De causis respirationis_1
-26	ῥαχίτισι	ῥαχίς	a	a-p---fd-	Case=d|Gender=f|Number=p	27	ATR	_	t_488|ref=De causis respirationis_1
-27	ῥίζαις	ῥίζα	n	n-p---fd-	Case=d|Gender=f|Number=p	24	OBJ	_	t_489|ref=De causis respirationis_1
-28	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_490|ref=De causis respirationis_1
-29	πλευρῶν	πλευρά	n	n-p---fg-	Case=g|Gender=f|Number=p	27	ATR	_	t_491|ref=De causis respirationis_1
-30	[0]	[0]	-	---------	_	21	ADV	_	e_18|ref=De causis respirationis_1
-31	[1]	[1]	-	---------	_	30	SBJ	_	e_19|ref=De causis respirationis_1
-32	.	.	u	u--------	_	14	AuxK	_	t_492|ref=De causis respirationis_1
+1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_463|t_465|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_464|t_476|ref=caus.resp._1
+3	ὀρθίων	ὄρθιος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	OBJ	_	t_465|t_475|ref=caus.resp._1
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_466|t_465|ref=caus.resp._1
+5	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_467|t_465|ref=caus.resp._1
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_468|t_469|ref=caus.resp._1
+7	τράχηλον	τράχηλος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_469|t_467|ref=caus.resp._1
+8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_470|t_475|ref=caus.resp._1
+9	μὲν	μέν	d	d--------	_	14	AuxY	_	t_471|t_476|ref=caus.resp._1
+10	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_472|t_475|ref=caus.resp._1
+11	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_473|t_474|ref=caus.resp._1
+12	κλεῖς	κλείς	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_474|t_472|ref=caus.resp._1
+13	ἀνατεινόμενοι	ἀνατείνω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	14	ADV	_	t_475|t_476|ref=caus.resp._1
+14	προστέλλουσι	στέλλω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_476|0|ref=caus.resp._1
+15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_477|t_479|ref=caus.resp._1
+16	ταύτῃ	οὗτος	d	d--------	_	17	ATR	_	t_478|t_479|ref=caus.resp._1
+17	πέρατα	πέρας	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_479|t_476|ref=caus.resp._1
+18	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_480|t_481|ref=caus.resp._1
+19	χόνδρων	χόνδρος	n	n-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_481|t_479|ref=caus.resp._1
+20	,	,	u	u--------	_	14	AuxX	_	t_482|t_476|ref=caus.resp._1
+21	ὥσπερ	ὥσπερ	c	c--------	_	14	AuxC	_	t_483|t_476|ref=caus.resp._1
+22	καὶ	καί	d	d--------	_	24	AuxZ	_	t_484|t_486|ref=caus.resp._1
+23	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	24	ATR	_	t_485|t_486|ref=caus.resp._1
+24	παρατεταμένοι	παράκειμαι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	30	SBJ	_	t_486|e_18|ref=caus.resp._1
+25	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	27	ATR	_	t_487|t_489|ref=caus.resp._1
+26	ῥαχίτισι	ῥαχίς	a	a-p---fd-	Case=d|Gender=f|Number=p	27	ATR	_	t_488|t_489|ref=caus.resp._1
+27	ῥίζαις	ῥίζα	n	n-p---fd-	Case=d|Gender=f|Number=p	24	OBJ	_	t_489|t_486|ref=caus.resp._1
+28	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_490|t_491|ref=caus.resp._1
+29	πλευρῶν	πλευρά	n	n-p---fg-	Case=g|Gender=f|Number=p	27	ATR	_	t_491|t_489|ref=caus.resp._1
+30	[0]	[0]	-	---------	_	21	ADV	_	e_18|t_483|ref=caus.resp._1
+31	[1]	[1]	-	---------	_	30	SBJ	_	e_19|e_18|ref=caus.resp._1
+32	.	.	u	u--------	_	14	AuxK	_	t_492|t_476|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = οἱ δὲ κατʼ ἐπιγάστριον , ἕδρα τῶν φρενῶν ὄντες , τῇ τοῦ θώρακος βοηθοῦσι συστολῇ .
 # sent_id = 28
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_493|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_494|ref=De causis respirationis_1
-3	κατʼ	κατά	r	r--------	_	1	AuxP	_	t_495|ref=De causis respirationis_1
-4	ἐπιγάστριον	ἐπιγάστριον	n	n-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_496|ref=De causis respirationis_1
-5	,	,	u	u--------	_	14	AuxX	_	t_497|ref=De causis respirationis_1
-6	ἕδρα	ἕδρα	n	n-p---na-	Case=a|Gender=n|Number=p	9	PNOM	_	t_498|ref=De causis respirationis_1
-7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_499|ref=De causis respirationis_1
-8	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_500|ref=De causis respirationis_1
-9	ὄντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	ADV	_	t_501|ref=De causis respirationis_1
-10	,	,	u	u--------	_	14	AuxX	_	t_502|ref=De causis respirationis_1
-11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_503|ref=De causis respirationis_1
-12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_504|ref=De causis respirationis_1
-13	θώρακος	θώραξ	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_505|ref=De causis respirationis_1
-14	βοηθοῦσι	βοηθέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_506|ref=De causis respirationis_1
-15	συστολῇ	συστολή	n	n-s---fd-	Case=d|Gender=f|Number=s	14	OBJ	_	t_507|ref=De causis respirationis_1
-16	.	.	u	u--------	_	14	AuxK	_	t_508|ref=De causis respirationis_1
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_493|t_506|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_494|t_506|ref=caus.resp._1
+3	κατʼ	κατά	r	r--------	_	1	AuxP	_	t_495|t_493|ref=caus.resp._1
+4	ἐπιγάστριον	ἐπιγάστριον	n	n-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_496|t_495|ref=caus.resp._1
+5	,	,	u	u--------	_	14	AuxX	_	t_497|t_506|ref=caus.resp._1
+6	ἕδρα	ἕδρα	n	n-p---na-	Case=a|Gender=n|Number=p	9	PNOM	_	t_498|t_501|ref=caus.resp._1
+7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_499|t_500|ref=caus.resp._1
+8	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_500|t_498|ref=caus.resp._1
+9	ὄντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	ADV	_	t_501|t_506|ref=caus.resp._1
+10	,	,	u	u--------	_	14	AuxX	_	t_502|t_506|ref=caus.resp._1
+11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_503|t_507|ref=caus.resp._1
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_504|t_505|ref=caus.resp._1
+13	θώρακος	θώραξ	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_505|t_507|ref=caus.resp._1
+14	βοηθοῦσι	βοηθέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_506|0|ref=caus.resp._1
+15	συστολῇ	συστολή	n	n-s---fd-	Case=d|Gender=f|Number=s	14	OBJ	_	t_507|t_506|ref=caus.resp._1
+16	.	.	u	u--------	_	14	AuxK	_	t_508|t_506|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = διττῶν τοίνυν οὐσῶν κατὰ γένος τῶν ἀναπνοῶν , ἀβιάστου τε καὶ βιαίας , εἶθʼ ἑκατέρας αὐτῶν ἐχούσης οἰκεῖα μόρια β΄ , τήν τε εἰσπνοὴν καὶ τὴν ἐκπνοὴν , τέτταρα τὰ σύμπαντα μόρια γίγνεται τῆς ἀναπνοῆς .
 # sent_id = 29
-1	διττῶν	δισσός	a	a-p---fg-	Case=g|Gender=f|Number=p	3	PNOM	_	t_509|ref=De causis respirationis_1
-2	τοίνυν	τοίνυν	d	d--------	_	33	AuxY	_	t_510|ref=De causis respirationis_1
-3	οὐσῶν	εἰμί	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	14	ADV	_	t_511|ref=De causis respirationis_1
-4	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_512|ref=De causis respirationis_1
-5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_513|ref=De causis respirationis_1
-6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_514|ref=De causis respirationis_1
-7	ἀναπνοῶν	ἀναπνοή	n	n-p---fg-	Case=g|Gender=f|Number=p	3	SBJ	_	t_515|ref=De causis respirationis_1
-8	,	,	u	u--------	_	33	AuxX	_	t_516|ref=De causis respirationis_1
-9	ἀβιάστου	ἀβίαστος	a	a-s---mg-	Case=g|Gender=m|Number=s	11	PNOM	_	t_517|ref=De causis respirationis_1
-10	τε	τε	d	d--------	_	11	AuxY	_	t_518|ref=De causis respirationis_1
-11	καὶ	καί	c	c--------	_	3	COORD	_	t_519|ref=De causis respirationis_1
-12	βιαίας	βίαιος	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_520|ref=De causis respirationis_1
-13	,	,	u	u--------	_	33	AuxX	_	t_521|ref=De causis respirationis_1
-14	εἶθʼ	εἶτα	c	c--------	_	33	COORD	_	t_522|ref=De causis respirationis_1
-15	ἑκατέρας	ἑκάτερος	a	a-s---fg-	Case=g|Gender=f|Number=s	17	SBJ	_	t_523|ref=De causis respirationis_1
-16	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_524|ref=De causis respirationis_1
-17	ἐχούσης	ἔχω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_525|ref=De causis respirationis_1
-18	οἰκεῖα	οἰκεῖος	a	a-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_526|ref=De causis respirationis_1
-19	μόρια	μόριον	n	n-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_527|ref=De causis respirationis_1
-20	β΄	β ́	m	m--------	_	19	ATR	_	t_528|ref=De causis respirationis_1
-21	,	,	u	u--------	_	33	AuxX	_	t_529|ref=De causis respirationis_1
-22	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_530|ref=De causis respirationis_1
-23	τε	τε	d	d--------	_	25	AuxY	_	t_531|ref=De causis respirationis_1
-24	εἰσπνοὴν	εἰσπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	25	APOS	_	t_532|ref=De causis respirationis_1
-25	καὶ	καί	c	c--------	_	19	COORD	_	t_533|ref=De causis respirationis_1
-26	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	27	ATR	_	t_534|ref=De causis respirationis_1
-27	ἐκπνοὴν	ἐκπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_535|ref=De causis respirationis_1
-28	,	,	u	u--------	_	33	AuxX	_	t_536|ref=De causis respirationis_1
-29	τέτταρα	τέσσαρες	a	a-p---nn-	Case=n|Gender=n|Number=p	32	ATR	_	t_537|ref=De causis respirationis_1
-30	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	32	ATR	_	t_538|ref=De causis respirationis_1
-31	σύμπαντα	σύμπας	a	a-p---nn-	Case=n|Gender=n|Number=p	32	ATR	_	t_539|ref=De causis respirationis_1
-32	μόρια	μόριον	a	a-p---nn-	Case=n|Gender=n|Number=p	33	SBJ	_	t_540|ref=De causis respirationis_1
-33	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_541|ref=De causis respirationis_1
-34	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	35	ATR	_	t_542|ref=De causis respirationis_1
-35	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_543|ref=De causis respirationis_1
-36	.	.	u	u--------	_	33	AuxK	_	t_544|ref=De causis respirationis_1
+1	διττῶν	δισσός	a	a-p---fg-	Case=g|Gender=f|Number=p	3	PNOM	_	t_509|t_511|ref=caus.resp._1
+2	τοίνυν	τοίνυν	d	d--------	_	33	AuxY	_	t_510|t_541|ref=caus.resp._1
+3	οὐσῶν	εἰμί	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	14	ADV	_	t_511|t_522|ref=caus.resp._1
+4	κατὰ	κατά	r	r--------	_	3	AuxP	_	t_512|t_511|ref=caus.resp._1
+5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_513|t_512|ref=caus.resp._1
+6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_514|t_515|ref=caus.resp._1
+7	ἀναπνοῶν	ἀναπνοή	n	n-p---fg-	Case=g|Gender=f|Number=p	3	SBJ	_	t_515|t_511|ref=caus.resp._1
+8	,	,	u	u--------	_	33	AuxX	_	t_516|t_541|ref=caus.resp._1
+9	ἀβιάστου	ἀβίαστος	a	a-s---mg-	Case=g|Gender=m|Number=s	11	PNOM	_	t_517|t_519|ref=caus.resp._1
+10	τε	τε	d	d--------	_	11	AuxY	_	t_518|t_519|ref=caus.resp._1
+11	καὶ	καί	c	c--------	_	3	COORD	_	t_519|t_511|ref=caus.resp._1
+12	βιαίας	βίαιος	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_520|t_519|ref=caus.resp._1
+13	,	,	u	u--------	_	33	AuxX	_	t_521|t_541|ref=caus.resp._1
+14	εἶθʼ	εἶτα	c	c--------	_	33	COORD	_	t_522|t_541|ref=caus.resp._1
+15	ἑκατέρας	ἑκάτερος	a	a-s---fg-	Case=g|Gender=f|Number=s	17	SBJ	_	t_523|t_525|ref=caus.resp._1
+16	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_524|t_523|ref=caus.resp._1
+17	ἐχούσης	ἔχω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_525|t_522|ref=caus.resp._1
+18	οἰκεῖα	οἰκεῖος	a	a-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_526|t_527|ref=caus.resp._1
+19	μόρια	μόριον	n	n-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_527|t_525|ref=caus.resp._1
+20	β΄	β ́	m	m--------	_	19	ATR	_	t_528|t_527|ref=caus.resp._1
+21	,	,	u	u--------	_	33	AuxX	_	t_529|t_541|ref=caus.resp._1
+22	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_530|t_532|ref=caus.resp._1
+23	τε	τε	d	d--------	_	25	AuxY	_	t_531|t_533|ref=caus.resp._1
+24	εἰσπνοὴν	εἰσπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	25	APOS	_	t_532|t_533|ref=caus.resp._1
+25	καὶ	καί	c	c--------	_	19	COORD	_	t_533|t_527|ref=caus.resp._1
+26	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	27	ATR	_	t_534|t_535|ref=caus.resp._1
+27	ἐκπνοὴν	ἐκπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_535|t_533|ref=caus.resp._1
+28	,	,	u	u--------	_	33	AuxX	_	t_536|t_541|ref=caus.resp._1
+29	τέτταρα	τέσσαρες	a	a-p---nn-	Case=n|Gender=n|Number=p	32	ATR	_	t_537|t_540|ref=caus.resp._1
+30	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	32	ATR	_	t_538|t_540|ref=caus.resp._1
+31	σύμπαντα	σύμπας	a	a-p---nn-	Case=n|Gender=n|Number=p	32	ATR	_	t_539|t_540|ref=caus.resp._1
+32	μόρια	μόριον	a	a-p---nn-	Case=n|Gender=n|Number=p	33	SBJ	_	t_540|t_541|ref=caus.resp._1
+33	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_541|0|ref=caus.resp._1
+34	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	35	ATR	_	t_542|t_543|ref=caus.resp._1
+35	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_543|t_540|ref=caus.resp._1
+36	.	.	u	u--------	_	33	AuxK	_	t_544|t_541|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = καθ ’ ἕκαστον δὲ τῶν τεττάρων ἰδία τις φύσις ὀργάνων ἐστὶ , ἀβιάστου μὲν εἰσπνοῆς τὸ διάφραγμα , βιαίας δὲ ἥ τε κατὰ τὰ σιμὰ τῶν ὠμοπλατῶν , ἥ τʼ ἐντὸς τῶν μεσοπλευρίων μοῖρα [0] [1] [2] ·
 # sent_id = 30
-1	καθ	κατά	r	r--------	_	11	AuxP	_	t_545|ref=De causis respirationis_1
-2	’	’	r	r--------	_	11	AuxP	_	t_546|ref=De causis respirationis_1
-3	ἕκαστον	ἕκαστος	a	a-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_547|ref=De causis respirationis_1
-4	δὲ	δέ	d	d--------	_	11	AuxY	_	t_548|ref=De causis respirationis_1
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_549|ref=De causis respirationis_1
-6	τεττάρων	τέσσαρες	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_550|ref=De causis respirationis_1
-7	ἰδία	ἴδιος	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_551|ref=De causis respirationis_1
-8	τις	τις	a	a-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_552|ref=De causis respirationis_1
-9	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_553|ref=De causis respirationis_1
-10	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_554|ref=De causis respirationis_1
-11	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_555|ref=De causis respirationis_1
-12	,	,	u	u--------	_	0	APOS	_	t_556|ref=De causis respirationis_1
-13	ἀβιάστου	ἀβίαστος	a	a-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_557|ref=De causis respirationis_1
-14	μὲν	μέν	d	d--------	_	20	AuxY	_	t_558|ref=De causis respirationis_1
-15	εἰσπνοῆς	εἰσπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_559|ref=De causis respirationis_1
-16	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_560|ref=De causis respirationis_1
-17	διάφραγμα	διάφραγμα	n	n-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_561|ref=De causis respirationis_1
-18	,	,	u	u--------	_	12	AuxX	_	t_562|ref=De causis respirationis_1
-19	βιαίας	βίαιος	n	n-s---fg-	Case=g|Gender=f|Number=s	35	PNOM	_	t_563|ref=De causis respirationis_1
-20	δὲ	δέ	d	d--------	_	12	COORD	_	t_564|ref=De causis respirationis_1
-21	ἥ	ὅς	l	l-s---fn-	Case=n|Gender=f|Number=s	36	SBJ	_	t_565|ref=De causis respirationis_1
-22	τε	τε	c	c--------	_	30	AuxY	_	t_566|ref=De causis respirationis_1
-23	κατὰ	κατά	r	r--------	_	21	AuxP	_	t_567|ref=De causis respirationis_1
-24	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_568|ref=De causis respirationis_1
-25	σιμὰ	σιμός	n	n-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_569|ref=De causis respirationis_1
-26	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_570|ref=De causis respirationis_1
-27	ὠμοπλατῶν	ὠμοπλατές	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ATR	_	t_571|ref=De causis respirationis_1
-28	,	,	u	u--------	_	12	AuxX	_	t_572|ref=De causis respirationis_1
-29	ἥ	ὅς	l	l-s---fn-	Case=n|Gender=f|Number=s	34	ATR	_	t_573|ref=De causis respirationis_1
-30	τʼ	τε	c	c--------	_	20	COORD	_	t_574|ref=De causis respirationis_1
-31	ἐντὸς	ἐντός	r	r--------	_	34	AuxP	_	t_575|ref=De causis respirationis_1
-32	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	33	ATR	_	t_576|ref=De causis respirationis_1
-33	μεσοπλευρίων	τετρακόσιοι	a	a-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_577|ref=De causis respirationis_1
-34	μοῖρα	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	37	SBJ	_	t_578|ref=De causis respirationis_1
-35	[0]	[0]	-	---------	_	30	PRED	_	e_20|ref=De causis respirationis_1
-36	[1]	[1]	-	---------	_	30	PRED	_	e_21|ref=De causis respirationis_1
-37	[2]	[2]	-	---------	_	30	PRED	_	e_22|ref=De causis respirationis_1
-38	·	·	u	u--------	_	12	AuxK	_	t_579|ref=De causis respirationis_1
+1	καθ	κατά	r	r--------	_	11	AuxP	_	t_545|t_555|ref=caus.resp._1
+2	’	’	r	r--------	_	11	AuxP	_	t_546|t_555|ref=caus.resp._1
+3	ἕκαστον	ἕκαστος	a	a-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_547|t_545|ref=caus.resp._1
+4	δὲ	δέ	d	d--------	_	11	AuxY	_	t_548|t_555|ref=caus.resp._1
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_549|t_550|ref=caus.resp._1
+6	τεττάρων	τέσσαρες	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_550|t_547|ref=caus.resp._1
+7	ἰδία	ἴδιος	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_551|t_555|ref=caus.resp._1
+8	τις	τις	a	a-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_552|t_553|ref=caus.resp._1
+9	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_553|t_555|ref=caus.resp._1
+10	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_554|t_547|ref=caus.resp._1
+11	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_555|t_556|ref=caus.resp._1
+12	,	,	u	u--------	_	0	APOS	_	t_556|0|ref=caus.resp._1
+13	ἀβιάστου	ἀβίαστος	a	a-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_557|t_559|ref=caus.resp._1
+14	μὲν	μέν	d	d--------	_	20	AuxY	_	t_558|t_564|ref=caus.resp._1
+15	εἰσπνοῆς	εἰσπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_559|t_561|ref=caus.resp._1
+16	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_560|t_561|ref=caus.resp._1
+17	διάφραγμα	διάφραγμα	n	n-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_561|e_20|ref=caus.resp._1
+18	,	,	u	u--------	_	12	AuxX	_	t_562|t_556|ref=caus.resp._1
+19	βιαίας	βίαιος	n	n-s---fg-	Case=g|Gender=f|Number=s	35	PNOM	_	t_563|e_20|ref=caus.resp._1
+20	δὲ	δέ	d	d--------	_	12	COORD	_	t_564|t_556|ref=caus.resp._1
+21	ἥ	ὅς	l	l-s---fn-	Case=n|Gender=f|Number=s	36	SBJ	_	t_565|e_21|ref=caus.resp._1
+22	τε	τε	c	c--------	_	30	AuxY	_	t_566|t_574|ref=caus.resp._1
+23	κατὰ	κατά	r	r--------	_	21	AuxP	_	t_567|t_565|ref=caus.resp._1
+24	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_568|t_569|ref=caus.resp._1
+25	σιμὰ	σιμός	n	n-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_569|t_567|ref=caus.resp._1
+26	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_570|t_571|ref=caus.resp._1
+27	ὠμοπλατῶν	ὠμοπλατές	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ATR	_	t_571|t_569|ref=caus.resp._1
+28	,	,	u	u--------	_	12	AuxX	_	t_572|t_556|ref=caus.resp._1
+29	ἥ	ὅς	l	l-s---fn-	Case=n|Gender=f|Number=s	34	ATR	_	t_573|t_578|ref=caus.resp._1
+30	τʼ	τε	c	c--------	_	20	COORD	_	t_574|t_564|ref=caus.resp._1
+31	ἐντὸς	ἐντός	r	r--------	_	34	AuxP	_	t_575|t_578|ref=caus.resp._1
+32	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	33	ATR	_	t_576|t_577|ref=caus.resp._1
+33	μεσοπλευρίων	τετρακόσιοι	a	a-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_577|t_575|ref=caus.resp._1
+34	μοῖρα	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	37	SBJ	_	t_578|e_22|ref=caus.resp._1
+35	[0]	[0]	-	---------	_	30	PRED	_	e_20|t_574|ref=caus.resp._1
+36	[1]	[1]	-	---------	_	30	PRED	_	e_21|t_574|ref=caus.resp._1
+37	[2]	[2]	-	---------	_	30	PRED	_	e_22|t_574|ref=caus.resp._1
+38	·	·	u	u--------	_	12	AuxK	_	t_579|t_556|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ὡσαύτως δὲ καὶ τῆς ἐκπνοῆς , ἀβιάστου μὲν οἱ κατʼ ἐπιγάστριον μύες , βιαίας δὲ τῶν μεσοπλευρίων ἡ ἐκτὸς μοῖρα [0] [1] .
 # sent_id = 31
-1	ὡσαύτως	ὡσαύτως	d	d--------	_	21	ADV	_	t_580|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_581|ref=De causis respirationis_1
-3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_582|ref=De causis respirationis_1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_583|ref=De causis respirationis_1
-5	ἐκπνοῆς	ἐκπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	21	OBJ	_	t_584|ref=De causis respirationis_1
-6	,	,	u	u--------	_	21	AuxX	_	t_585|ref=De causis respirationis_1
-7	ἀβιάστου	ἀβίαστος	a	a-s---mg-	Case=g|Gender=m|Number=s	22	PNOM	_	t_586|ref=De causis respirationis_1
-8	μὲν	μέν	d	d--------	_	15	AuxY	_	t_587|ref=De causis respirationis_1
-9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_588|ref=De causis respirationis_1
-10	κατʼ	κατά	r	r--------	_	12	AuxP	_	t_589|ref=De causis respirationis_1
-11	ἐπιγάστριον	ἐπιγάστριον	n	n-s---nn-	Case=a|Gender=n|Number=s	10	ATR	_	t_590|ref=De causis respirationis_1
-12	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	22	SBJ	_	t_591|ref=De causis respirationis_1
-13	,	,	u	u--------	_	21	AuxX	_	t_592|ref=De causis respirationis_1
-14	βιαίας	βίαιος	a	a-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_593|ref=De causis respirationis_1
-15	δὲ	δέ	d	d--------	_	21	COORD	_	t_594|ref=De causis respirationis_1
-16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_595|ref=De causis respirationis_1
-17	μεσοπλευρίων	τετρακόσιοι	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_596|ref=De causis respirationis_1
-18	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	20	ATR	_	t_597|ref=De causis respirationis_1
-19	ἐκτὸς	ἐκτός	d	d--------	_	20	ATR	_	t_598|ref=De causis respirationis_1
-20	μοῖρα	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	22	SBJ	_	t_599|ref=De causis respirationis_1
-21	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=De causis respirationis_1
-22	[1]	[1]	-	---------	_	15	PRED	_	e_24|ref=De causis respirationis_1
-23	.	.	u	u--------	_	21	AuxK	_	t_600|ref=De causis respirationis_1
+1	ὡσαύτως	ὡσαύτως	d	d--------	_	21	ADV	_	t_580|e_23|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_581|e_23|ref=caus.resp._1
+3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_582|t_584|ref=caus.resp._1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_583|t_584|ref=caus.resp._1
+5	ἐκπνοῆς	ἐκπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	21	OBJ	_	t_584|e_23|ref=caus.resp._1
+6	,	,	u	u--------	_	21	AuxX	_	t_585|e_23|ref=caus.resp._1
+7	ἀβιάστου	ἀβίαστος	a	a-s---mg-	Case=g|Gender=m|Number=s	22	PNOM	_	t_586|e_24|ref=caus.resp._1
+8	μὲν	μέν	d	d--------	_	15	AuxY	_	t_587|t_594|ref=caus.resp._1
+9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_588|t_591|ref=caus.resp._1
+10	κατʼ	κατά	r	r--------	_	12	AuxP	_	t_589|t_591|ref=caus.resp._1
+11	ἐπιγάστριον	ἐπιγάστριον	n	n-s---nn-	Case=a|Gender=n|Number=s	10	ATR	_	t_590|t_589|ref=caus.resp._1
+12	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	22	SBJ	_	t_591|e_24|ref=caus.resp._1
+13	,	,	u	u--------	_	21	AuxX	_	t_592|e_23|ref=caus.resp._1
+14	βιαίας	βίαιος	a	a-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_593|t_596|ref=caus.resp._1
+15	δὲ	δέ	d	d--------	_	21	COORD	_	t_594|e_23|ref=caus.resp._1
+16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_595|t_596|ref=caus.resp._1
+17	μεσοπλευρίων	τετρακόσιοι	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_596|t_599|ref=caus.resp._1
+18	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	20	ATR	_	t_597|t_599|ref=caus.resp._1
+19	ἐκτὸς	ἐκτός	d	d--------	_	20	ATR	_	t_598|t_599|ref=caus.resp._1
+20	μοῖρα	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	22	SBJ	_	t_599|e_24|ref=caus.resp._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=caus.resp._1
+22	[1]	[1]	-	---------	_	15	PRED	_	e_24|t_594|ref=caus.resp._1
+23	.	.	u	u--------	_	21	AuxK	_	t_600|e_23|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τὰ μὲν δὴ κατὰ τοὺς μῦς ᾧδ ’ ἔχει .
 # sent_id = 32
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_601|ref=De causis respirationis_1
-2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_602|ref=De causis respirationis_1
-3	δὴ	δή	d	d--------	_	9	AuxY	_	t_603|ref=De causis respirationis_1
-4	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_604|ref=De causis respirationis_1
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_605|ref=De causis respirationis_1
-6	μῦς	μῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	4	ADV	_	t_606|ref=De causis respirationis_1
-7	ᾧδ	ὅδε	d	d--------	_	9	ADV	_	t_607|ref=De causis respirationis_1
-8	’	’	d	d--------	_	9	ADV	_	t_608|ref=De causis respirationis_1
-9	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_609|ref=De causis respirationis_1
-10	.	.	u	u--------	_	9	AuxK	_	t_610|ref=De causis respirationis_1
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_601|t_609|ref=caus.resp._1
+2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_602|t_609|ref=caus.resp._1
+3	δὴ	δή	d	d--------	_	9	AuxY	_	t_603|t_609|ref=caus.resp._1
+4	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_604|t_609|ref=caus.resp._1
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_605|t_606|ref=caus.resp._1
+6	μῦς	μῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	4	ADV	_	t_606|t_604|ref=caus.resp._1
+7	ᾧδ	ὅδε	d	d--------	_	9	ADV	_	t_607|t_609|ref=caus.resp._1
+8	’	’	d	d--------	_	9	ADV	_	t_608|t_609|ref=caus.resp._1
+9	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_609|0|ref=caus.resp._1
+10	.	.	u	u--------	_	9	AuxK	_	t_610|t_609|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τῶν δὲ νεύρων τὰ μὲν εἰς τὸ διάφραγμα καθήκοντα , ἐκ τῆς μεταξὺ τετάρτου τε καὶ πέμπτου τῶν ἐν τῷ τραχήλῳ σπονδύλων διαρθρώσεως ὁρμηθέντα , δύο ὄντα , εἰς αὐτὸ τὸ νευρῶδες αὐτοῦ μέρος καταφύεται ·
 # sent_id = 33
-1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_611|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	35	AuxY	_	t_612|ref=De causis respirationis_1
-3	νεύρων	νεῦρον	n	n-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_613|ref=De causis respirationis_1
-4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_614|ref=De causis respirationis_1
-5	μὲν	μέν	d	d--------	_	35	AuxY	_	t_615|ref=De causis respirationis_1
-6	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_616|ref=De causis respirationis_1
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_617|ref=De causis respirationis_1
-8	διάφραγμα	διάφραγμα	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_618|ref=De causis respirationis_1
-9	καθήκοντα	καθήκω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	35	SBJ	_	t_619|ref=De causis respirationis_1
-10	,	,	u	u--------	_	35	AuxX	_	t_620|ref=De causis respirationis_1
-11	ἐκ	ἐκ	r	r--------	_	24	AuxP	_	t_621|ref=De causis respirationis_1
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_622|ref=De causis respirationis_1
-13	μεταξὺ	μεταξύ	d	d--------	_	23	AuxP	_	t_623|ref=De causis respirationis_1
-14	τετάρτου	τέταρτος	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_624|ref=De causis respirationis_1
-15	τε	τε	c	c--------	_	16	AuxY	_	t_625|ref=De causis respirationis_1
-16	καὶ	καί	c	c--------	_	23	COORD	_	t_626|ref=De causis respirationis_1
-17	πέμπτου	πέμπτος	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_627|ref=De causis respirationis_1
-18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	22	ATR	_	t_628|ref=De causis respirationis_1
-19	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_629|ref=De causis respirationis_1
-20	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_630|ref=De causis respirationis_1
-21	τραχήλῳ	τράχηλος	n	n-s---md-	Case=d|Gender=m|Number=s	19	ADV	_	t_631|ref=De causis respirationis_1
-22	σπονδύλων	σπόνδυλος	n	n-p---mg-	Case=g|Gender=n|Number=p	23	ATR	_	t_632|ref=De causis respirationis_1
-23	διαρθρώσεως	διάρθρωσις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_633|ref=De causis respirationis_1
-24	ὁρμηθέντα	ὁρμάω	v	v-pappnn-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	27	ADV	_	t_634|ref=De causis respirationis_1
-25	,	,	u	u--------	_	35	AuxX	_	t_635|ref=De causis respirationis_1
-26	δύο	δύο	m	m-d---nn-	_	27	PNOM	_	t_636|ref=De causis respirationis_1
-27	ὄντα	εἰμί	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	35	ADV	_	t_637|ref=De causis respirationis_1
-28	,	,	u	u--------	_	35	AuxX	_	t_638|ref=De causis respirationis_1
-29	εἰς	εἰς	r	r--------	_	35	AuxP	_	t_639|ref=De causis respirationis_1
-30	αὐτὸ	αὐτός	a	a-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_640|ref=De causis respirationis_1
-31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_641|ref=De causis respirationis_1
-32	νευρῶδες	νευρώδης	a	a-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_642|ref=De causis respirationis_1
-33	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	34	ATR	_	t_643|ref=De causis respirationis_1
-34	μέρος	μέρος	n	n-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_644|ref=De causis respirationis_1
-35	καταφύεται	καταφύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_645|ref=De causis respirationis_1
-36	·	·	u	u--------	_	35	AuxK	_	t_646|ref=De causis respirationis_1
+1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_611|t_613|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	35	AuxY	_	t_612|t_645|ref=caus.resp._1
+3	νεύρων	νεῦρον	n	n-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_613|t_619|ref=caus.resp._1
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_614|t_619|ref=caus.resp._1
+5	μὲν	μέν	d	d--------	_	35	AuxY	_	t_615|t_645|ref=caus.resp._1
+6	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_616|t_619|ref=caus.resp._1
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_617|t_618|ref=caus.resp._1
+8	διάφραγμα	διάφραγμα	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_618|t_616|ref=caus.resp._1
+9	καθήκοντα	καθήκω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	35	SBJ	_	t_619|t_645|ref=caus.resp._1
+10	,	,	u	u--------	_	35	AuxX	_	t_620|t_645|ref=caus.resp._1
+11	ἐκ	ἐκ	r	r--------	_	24	AuxP	_	t_621|t_634|ref=caus.resp._1
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_622|t_633|ref=caus.resp._1
+13	μεταξὺ	μεταξύ	d	d--------	_	23	AuxP	_	t_623|t_633|ref=caus.resp._1
+14	τετάρτου	τέταρτος	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_624|t_626|ref=caus.resp._1
+15	τε	τε	c	c--------	_	16	AuxY	_	t_625|t_626|ref=caus.resp._1
+16	καὶ	καί	c	c--------	_	23	COORD	_	t_626|t_633|ref=caus.resp._1
+17	πέμπτου	πέμπτος	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_627|t_626|ref=caus.resp._1
+18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	22	ATR	_	t_628|t_632|ref=caus.resp._1
+19	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_629|t_632|ref=caus.resp._1
+20	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_630|t_631|ref=caus.resp._1
+21	τραχήλῳ	τράχηλος	n	n-s---md-	Case=d|Gender=m|Number=s	19	ADV	_	t_631|t_629|ref=caus.resp._1
+22	σπονδύλων	σπόνδυλος	n	n-p---mg-	Case=g|Gender=n|Number=p	23	ATR	_	t_632|t_633|ref=caus.resp._1
+23	διαρθρώσεως	διάρθρωσις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_633|t_621|ref=caus.resp._1
+24	ὁρμηθέντα	ὁρμάω	v	v-pappnn-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	27	ADV	_	t_634|t_637|ref=caus.resp._1
+25	,	,	u	u--------	_	35	AuxX	_	t_635|t_645|ref=caus.resp._1
+26	δύο	δύο	m	m-d---nn-	_	27	PNOM	_	t_636|t_637|ref=caus.resp._1
+27	ὄντα	εἰμί	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	35	ADV	_	t_637|t_645|ref=caus.resp._1
+28	,	,	u	u--------	_	35	AuxX	_	t_638|t_645|ref=caus.resp._1
+29	εἰς	εἰς	r	r--------	_	35	AuxP	_	t_639|t_645|ref=caus.resp._1
+30	αὐτὸ	αὐτός	a	a-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_640|t_644|ref=caus.resp._1
+31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_641|t_644|ref=caus.resp._1
+32	νευρῶδες	νευρώδης	a	a-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_642|t_644|ref=caus.resp._1
+33	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	34	ATR	_	t_643|t_644|ref=caus.resp._1
+34	μέρος	μέρος	n	n-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_644|t_639|ref=caus.resp._1
+35	καταφύεται	καταφύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_645|0|ref=caus.resp._1
+36	·	·	u	u--------	_	35	AuxK	_	t_646|t_645|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τὰ δʼ εἰς τοὺς μεσοπλευρίους μῦς ἐκ τῆς ῥάχεως διασπειρόμενα εἰς τὸ στέρνον φέρονται , οὔ τʼ οὖν ὀρθὰ κατὰ τοῦ ζώου μῆκος ἐκτεινόμενα , οὔ τʼ ἐγκάρσια ὁμοίως τοῖς μυσὶν , ἀλλὰ λοξὰ φερόμενα , κεφαλὴν μὲν ἔχοντα τὸν ταύτῃ σπόνδυλον , τελευτὴν δὲ τὸ στέρνον [0] .
 # sent_id = 34
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_647|ref=De causis respirationis_1
-2	δʼ	δέ	d	d--------	_	14	AuxY	_	t_648|ref=De causis respirationis_1
-3	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_649|ref=De causis respirationis_1
-4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_650|ref=De causis respirationis_1
-5	μεσοπλευρίους	τετρακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_651|ref=De causis respirationis_1
-6	μῦς	μῦς	n	n-p----a-	Case=a|Gender=m|Number=p	14	OBJ	_	t_652|ref=De causis respirationis_1
-7	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_653|ref=De causis respirationis_1
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_654|ref=De causis respirationis_1
-9	ῥάχεως	ῥάχις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_655|ref=De causis respirationis_1
-10	διασπειρόμενα	διασπείρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_656|ref=De causis respirationis_1
-11	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_657|ref=De causis respirationis_1
-12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_658|ref=De causis respirationis_1
-13	στέρνον	στέρνον	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_659|ref=De causis respirationis_1
-14	φέρονται	φέρω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_660|ref=De causis respirationis_1
-15	,	,	u	u--------	_	14	AuxX	_	t_661|ref=De causis respirationis_1
-16	οὔ	οὐ	d	d--------	_	24	AuxZ	_	t_662|ref=De causis respirationis_1
-17	τʼ	τε	c	c--------	_	27	AuxY	_	t_663|ref=De causis respirationis_1
-18	οὖν	οὖν	d	d--------	_	24	AuxY	_	t_664|ref=De causis respirationis_1
-19	ὀρθὰ	ὀρθός	a	a-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_665|ref=De causis respirationis_1
-20	κατὰ	κατά	r	r--------	_	24	AuxP	_	t_666|ref=De causis respirationis_1
-21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_667|ref=De causis respirationis_1
-22	ζώου	ζώιον	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ADV	_	t_668|ref=De causis respirationis_1
-23	μῆκος	μῆκος	n	n-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_669|ref=De causis respirationis_1
-24	ἐκτεινόμενα	ἐκτίνω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	27	ATR	_	t_670|ref=De causis respirationis_1
-25	,	,	u	u--------	_	14	AuxX	_	t_671|ref=De causis respirationis_1
-26	οὔ	οὐ	d	d--------	_	27	AuxY	_	t_672|ref=De causis respirationis_1
-27	τʼ	τε	c	c--------	_	33	COORD	_	t_673|ref=De causis respirationis_1
-28	ἐγκάρσια	ἔγκριτος	a	a-p---na-	Case=a|Gender=n|Number=p	27	ADV	_	t_674|ref=De causis respirationis_1
-29	ὁμοίως	ὅμοιος	d	d--------	_	48	ADV	_	t_675|ref=De causis respirationis_1
-30	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	31	ATR	_	t_676|ref=De causis respirationis_1
-31	μυσὶν	μῦς	n	n-p---md-	Case=d|Gender=m|Number=p	29	ADV	_	t_677|ref=De causis respirationis_1
-32	,	,	u	u--------	_	14	AuxX	_	t_678|ref=De causis respirationis_1
-33	ἀλλὰ	ἀλλά	c	c--------	_	14	COORD	_	t_679|ref=De causis respirationis_1
-34	λοξὰ	λοξός	a	a-p---na-	Case=a|Gender=n|Number=p	35	ADV	_	t_680|ref=De causis respirationis_1
-35	φερόμενα	φέρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	33	ADV	_	t_681|ref=De causis respirationis_1
-36	,	,	u	u--------	_	14	AuxX	_	t_682|ref=De causis respirationis_1
-37	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	45	OBJ	_	t_683|ref=De causis respirationis_1
-38	μὲν	μέν	d	d--------	_	39	AuxY	_	t_684|ref=De causis respirationis_1
-39	ἔχοντα	ἔχω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	33	ADV	_	t_685|ref=De causis respirationis_1
-40	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	42	ATR	_	t_686|ref=De causis respirationis_1
-41	ταύτῃ	οὗτος	d	d--------	_	42	ATR	_	t_687|ref=De causis respirationis_1
-42	σπόνδυλον	σπόνδυλος	n	n-s---ma-	Case=a|Gender=m|Number=s	39	OBJ	_	t_688|ref=De causis respirationis_1
-43	,	,	u	u--------	_	14	AuxX	_	t_689|ref=De causis respirationis_1
-44	τελευτὴν	τελευτή	n	n-s---fa-	Case=a|Gender=f|Number=s	45	OCOMP	_	t_690|ref=De causis respirationis_1
-45	δὲ	δέ	d	d--------	_	39	COORD	_	t_691|ref=De causis respirationis_1
-46	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	47	ATR	_	t_692|ref=De causis respirationis_1
-47	στέρνον	στέρνον	n	n-s---na-	Case=a|Gender=n|Number=s	45	OBJ	_	t_693|ref=De causis respirationis_1
-48	[0]	[0]	-	---------	_	27	OBJ	_	e_25|ref=De causis respirationis_1
-49	.	.	u	u--------	_	14	AuxK	_	t_694|ref=De causis respirationis_1
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_647|t_652|ref=caus.resp._1
+2	δʼ	δέ	d	d--------	_	14	AuxY	_	t_648|t_660|ref=caus.resp._1
+3	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_649|t_656|ref=caus.resp._1
+4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_650|t_651|ref=caus.resp._1
+5	μεσοπλευρίους	τετρακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_651|t_649|ref=caus.resp._1
+6	μῦς	μῦς	n	n-p----a-	Case=a|Gender=m|Number=p	14	OBJ	_	t_652|t_660|ref=caus.resp._1
+7	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_653|t_656|ref=caus.resp._1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_654|t_655|ref=caus.resp._1
+9	ῥάχεως	ῥάχις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_655|t_653|ref=caus.resp._1
+10	διασπειρόμενα	διασπείρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	6	ATR	_	t_656|t_652|ref=caus.resp._1
+11	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_657|t_656|ref=caus.resp._1
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_658|t_659|ref=caus.resp._1
+13	στέρνον	στέρνον	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_659|t_657|ref=caus.resp._1
+14	φέρονται	φέρω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_660|0|ref=caus.resp._1
+15	,	,	u	u--------	_	14	AuxX	_	t_661|t_660|ref=caus.resp._1
+16	οὔ	οὐ	d	d--------	_	24	AuxZ	_	t_662|t_670|ref=caus.resp._1
+17	τʼ	τε	c	c--------	_	27	AuxY	_	t_663|t_673|ref=caus.resp._1
+18	οὖν	οὖν	d	d--------	_	24	AuxY	_	t_664|t_670|ref=caus.resp._1
+19	ὀρθὰ	ὀρθός	a	a-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_665|t_669|ref=caus.resp._1
+20	κατὰ	κατά	r	r--------	_	24	AuxP	_	t_666|t_670|ref=caus.resp._1
+21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_667|t_668|ref=caus.resp._1
+22	ζώου	ζώιον	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ADV	_	t_668|t_666|ref=caus.resp._1
+23	μῆκος	μῆκος	n	n-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_669|t_670|ref=caus.resp._1
+24	ἐκτεινόμενα	ἐκτίνω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	27	ATR	_	t_670|t_673|ref=caus.resp._1
+25	,	,	u	u--------	_	14	AuxX	_	t_671|t_660|ref=caus.resp._1
+26	οὔ	οὐ	d	d--------	_	27	AuxY	_	t_672|t_673|ref=caus.resp._1
+27	τʼ	τε	c	c--------	_	33	COORD	_	t_673|t_679|ref=caus.resp._1
+28	ἐγκάρσια	ἔγκριτος	a	a-p---na-	Case=a|Gender=n|Number=p	27	ADV	_	t_674|t_673|ref=caus.resp._1
+29	ὁμοίως	ὅμοιος	d	d--------	_	48	ADV	_	t_675|e_25|ref=caus.resp._1
+30	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	31	ATR	_	t_676|t_677|ref=caus.resp._1
+31	μυσὶν	μῦς	n	n-p---md-	Case=d|Gender=m|Number=p	29	ADV	_	t_677|t_675|ref=caus.resp._1
+32	,	,	u	u--------	_	14	AuxX	_	t_678|t_660|ref=caus.resp._1
+33	ἀλλὰ	ἀλλά	c	c--------	_	14	COORD	_	t_679|t_660|ref=caus.resp._1
+34	λοξὰ	λοξός	a	a-p---na-	Case=a|Gender=n|Number=p	35	ADV	_	t_680|t_681|ref=caus.resp._1
+35	φερόμενα	φέρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	33	ADV	_	t_681|t_679|ref=caus.resp._1
+36	,	,	u	u--------	_	14	AuxX	_	t_682|t_660|ref=caus.resp._1
+37	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	45	OBJ	_	t_683|t_691|ref=caus.resp._1
+38	μὲν	μέν	d	d--------	_	39	AuxY	_	t_684|t_685|ref=caus.resp._1
+39	ἔχοντα	ἔχω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	33	ADV	_	t_685|t_679|ref=caus.resp._1
+40	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	42	ATR	_	t_686|t_688|ref=caus.resp._1
+41	ταύτῃ	οὗτος	d	d--------	_	42	ATR	_	t_687|t_688|ref=caus.resp._1
+42	σπόνδυλον	σπόνδυλος	n	n-s---ma-	Case=a|Gender=m|Number=s	39	OBJ	_	t_688|t_685|ref=caus.resp._1
+43	,	,	u	u--------	_	14	AuxX	_	t_689|t_660|ref=caus.resp._1
+44	τελευτὴν	τελευτή	n	n-s---fa-	Case=a|Gender=f|Number=s	45	OCOMP	_	t_690|t_691|ref=caus.resp._1
+45	δὲ	δέ	d	d--------	_	39	COORD	_	t_691|t_685|ref=caus.resp._1
+46	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	47	ATR	_	t_692|t_693|ref=caus.resp._1
+47	στέρνον	στέρνον	n	n-s---na-	Case=a|Gender=n|Number=s	45	OBJ	_	t_693|t_691|ref=caus.resp._1
+48	[0]	[0]	-	---------	_	27	OBJ	_	e_25|t_673|ref=caus.resp._1
+49	.	.	u	u--------	_	14	AuxK	_	t_694|t_660|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = καὶ μὴν καὶ τὰ εἰς τοὺς ἄλλους μῦς τοὺς τῆς ἀναπνοῆς δημιουργοὺς φερόμενα σχεδὸν ἅπαντα ἐκ τοῦ ῥαχίτου μυελοῦ βεβλάστηκε .
 # sent_id = 35
-1	καὶ	καί	d	d--------	_	20	AuxY	_	t_695|ref=De causis respirationis_1
-2	μὴν	μήν	d	d--------	_	20	AuxY	_	t_696|ref=De causis respirationis_1
-3	καὶ	καί	d	d--------	_	13	AuxZ	_	t_697|ref=De causis respirationis_1
-4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_698|ref=De causis respirationis_1
-5	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_699|ref=De causis respirationis_1
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_700|ref=De causis respirationis_1
-7	ἄλλους	ἄλλος	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_701|ref=De causis respirationis_1
-8	μῦς	μῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_702|ref=De causis respirationis_1
-9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_703|ref=De causis respirationis_1
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_704|ref=De causis respirationis_1
-11	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_705|ref=De causis respirationis_1
-12	δημιουργοὺς	δημιουργός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_706|ref=De causis respirationis_1
-13	φερόμενα	φέρω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	20	SBJ	_	t_707|ref=De causis respirationis_1
-14	σχεδὸν	σχεδόν	d	d--------	_	15	ADV	_	t_708|ref=De causis respirationis_1
-15	ἅπαντα	ἅπας	a	a-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_709|ref=De causis respirationis_1
-16	ἐκ	ἐκ	r	r--------	_	20	AuxP	_	t_710|ref=De causis respirationis_1
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_711|ref=De causis respirationis_1
-18	ῥαχίτου	ῥαχίτης	a	a-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_712|ref=De causis respirationis_1
-19	μυελοῦ	μυελός	n	n-s---mg-	Case=g|Gender=m|Number=s	16	OBJ	_	t_713|ref=De causis respirationis_1
-20	βεβλάστηκε	ψιθυρίζω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_714|ref=De causis respirationis_1
-21	.	.	u	u--------	_	20	AuxK	_	t_715|ref=De causis respirationis_1
+1	καὶ	καί	d	d--------	_	20	AuxY	_	t_695|t_714|ref=caus.resp._1
+2	μὴν	μήν	d	d--------	_	20	AuxY	_	t_696|t_714|ref=caus.resp._1
+3	καὶ	καί	d	d--------	_	13	AuxZ	_	t_697|t_707|ref=caus.resp._1
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_698|t_707|ref=caus.resp._1
+5	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_699|t_707|ref=caus.resp._1
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_700|t_702|ref=caus.resp._1
+7	ἄλλους	ἄλλος	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_701|t_702|ref=caus.resp._1
+8	μῦς	μῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_702|t_699|ref=caus.resp._1
+9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_703|t_702|ref=caus.resp._1
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_704|t_705|ref=caus.resp._1
+11	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_705|t_706|ref=caus.resp._1
+12	δημιουργοὺς	δημιουργός	n	n-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_706|t_702|ref=caus.resp._1
+13	φερόμενα	φέρω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	20	SBJ	_	t_707|t_714|ref=caus.resp._1
+14	σχεδὸν	σχεδόν	d	d--------	_	15	ADV	_	t_708|t_709|ref=caus.resp._1
+15	ἅπαντα	ἅπας	a	a-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_709|t_707|ref=caus.resp._1
+16	ἐκ	ἐκ	r	r--------	_	20	AuxP	_	t_710|t_714|ref=caus.resp._1
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_711|t_713|ref=caus.resp._1
+18	ῥαχίτου	ῥαχίτης	a	a-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_712|t_713|ref=caus.resp._1
+19	μυελοῦ	μυελός	n	n-s---mg-	Case=g|Gender=m|Number=s	16	OBJ	_	t_713|t_710|ref=caus.resp._1
+20	βεβλάστηκε	ψιθυρίζω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_714|0|ref=caus.resp._1
+21	.	.	u	u--------	_	20	AuxK	_	t_715|t_714|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = τοιούτων οὖν καὶ τοσούτων ὑπαρχόντων τῶν τῆς ἀναπνοῆς αἰτίων , εὔδηλον τῷ γε μὴ παντάπασιν ἀνοήτῳ , τίνι διενήνοχεν ἕκαστον αὐτῶν [0] .
 # sent_id = 36
-1	τοιούτων	τοιοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	3	PNOM	_	t_716|ref=De causis respirationis_1
-2	οὖν	οὖν	d	d--------	_	19	AuxY	_	t_717|ref=De causis respirationis_1
-3	καὶ	καί	c	c--------	_	5	COORD	_	t_718|ref=De causis respirationis_1
-4	τοσούτων	τοσοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	3	PNOM	_	t_719|ref=De causis respirationis_1
-5	ὑπαρχόντων	ὑπάρχω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	19	ADV	_	t_720|ref=De causis respirationis_1
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_721|ref=De causis respirationis_1
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_722|ref=De causis respirationis_1
-8	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_723|ref=De causis respirationis_1
-9	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	5	SBJ	_	t_724|ref=De causis respirationis_1
-10	,	,	u	u--------	_	22	AuxX	_	t_725|ref=De causis respirationis_1
-11	εὔδηλον	εὔδηλος	a	a-s---nn-	Case=n|Gender=n|Number=s	22	PNOM	_	t_726|ref=De causis respirationis_1
-12	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_727|ref=De causis respirationis_1
-13	γε	γε	d	d--------	_	15	AuxZ	_	t_728|ref=De causis respirationis_1
-14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_729|ref=De causis respirationis_1
-15	παντάπασιν	παντάπασι	d	d--------	_	16	ADV	_	t_730|ref=De causis respirationis_1
-16	ἀνοήτῳ	ἀνόητος	a	a-s---nd-	Case=d|Gender=n|Number=s	22	ADV	_	t_731|ref=De causis respirationis_1
-17	,	,	u	u--------	_	22	AuxX	_	t_732|ref=De causis respirationis_1
-18	τίνι	τις	p	p-s---nd-	Case=d|Gender=n|Number=s	19	OBJ	_	t_733|ref=De causis respirationis_1
-19	διενήνοχεν	διαφέρω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	22	SBJ	_	t_734|ref=De causis respirationis_1
-20	ἕκαστον	ἕκαστος	a	a-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_735|ref=De causis respirationis_1
-21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=n|Number=p	20	ATR	_	t_736|ref=De causis respirationis_1
-22	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=De causis respirationis_1
-23	.	.	u	u--------	_	22	AuxK	_	t_737|ref=De causis respirationis_1
+1	τοιούτων	τοιοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	3	PNOM	_	t_716|t_718|ref=caus.resp._1
+2	οὖν	οὖν	d	d--------	_	19	AuxY	_	t_717|t_734|ref=caus.resp._1
+3	καὶ	καί	c	c--------	_	5	COORD	_	t_718|t_720|ref=caus.resp._1
+4	τοσούτων	τοσοῦτος	a	a-p---ng-	Case=g|Gender=n|Number=p	3	PNOM	_	t_719|t_718|ref=caus.resp._1
+5	ὑπαρχόντων	ὑπάρχω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	19	ADV	_	t_720|t_734|ref=caus.resp._1
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_721|t_724|ref=caus.resp._1
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_722|t_723|ref=caus.resp._1
+8	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_723|t_724|ref=caus.resp._1
+9	αἰτίων	αἴτιος	a	a-p---ng-	Case=g|Gender=n|Number=p	5	SBJ	_	t_724|t_720|ref=caus.resp._1
+10	,	,	u	u--------	_	22	AuxX	_	t_725|e_26|ref=caus.resp._1
+11	εὔδηλον	εὔδηλος	a	a-s---nn-	Case=n|Gender=n|Number=s	22	PNOM	_	t_726|e_26|ref=caus.resp._1
+12	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_727|t_731|ref=caus.resp._1
+13	γε	γε	d	d--------	_	15	AuxZ	_	t_728|t_730|ref=caus.resp._1
+14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_729|t_730|ref=caus.resp._1
+15	παντάπασιν	παντάπασι	d	d--------	_	16	ADV	_	t_730|t_731|ref=caus.resp._1
+16	ἀνοήτῳ	ἀνόητος	a	a-s---nd-	Case=d|Gender=n|Number=s	22	ADV	_	t_731|e_26|ref=caus.resp._1
+17	,	,	u	u--------	_	22	AuxX	_	t_732|e_26|ref=caus.resp._1
+18	τίνι	τις	p	p-s---nd-	Case=d|Gender=n|Number=s	19	OBJ	_	t_733|t_734|ref=caus.resp._1
+19	διενήνοχεν	διαφέρω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	22	SBJ	_	t_734|e_26|ref=caus.resp._1
+20	ἕκαστον	ἕκαστος	a	a-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_735|t_734|ref=caus.resp._1
+21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=n|Number=p	20	ATR	_	t_736|t_735|ref=caus.resp._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=caus.resp._1
+23	.	.	u	u--------	_	22	AuxK	_	t_737|e_26|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ἡ μὲν γὰρ προαίρεσις ἔοικε τῷ κινοῦντι τὰς ἡνίας καὶ τοὺς ἵππους ἀναβάτῃ ·
 # sent_id = 37
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_738|ref=De causis respirationis_1
-2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_739|ref=De causis respirationis_1
-3	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_740|ref=De causis respirationis_1
-4	προαίρεσις	προαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_741|ref=De causis respirationis_1
-5	ἔοικε	ἔοικα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_742|ref=De causis respirationis_1
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_743|ref=De causis respirationis_1
-7	κινοῦντι	κινέω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	OBJ	_	t_744|ref=De causis respirationis_1
-8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_745|ref=De causis respirationis_1
-9	ἡνίας	ἡνία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_746|ref=De causis respirationis_1
-10	καὶ	καί	c	c--------	_	13	COORD	_	t_747|ref=De causis respirationis_1
-11	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_748|ref=De causis respirationis_1
-12	ἵππους	ἵππος	n	n-p---ma-	Case=a|Gender=m|Number=p	10	OBJ	_	t_749|ref=De causis respirationis_1
-13	ἀναβάτῃ	ἀναβάτης	v	v-sapamd-	Case=d|Gender=m|Number=s	5	OBJ	_	t_750|ref=De causis respirationis_1
-14	·	·	u	u--------	_	5	AuxK	_	t_751|ref=De causis respirationis_1
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_738|t_741|ref=caus.resp._1
+2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_739|t_742|ref=caus.resp._1
+3	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_740|t_742|ref=caus.resp._1
+4	προαίρεσις	προαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_741|t_742|ref=caus.resp._1
+5	ἔοικε	ἔοικα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_742|0|ref=caus.resp._1
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_743|t_744|ref=caus.resp._1
+7	κινοῦντι	κινέω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	OBJ	_	t_744|t_750|ref=caus.resp._1
+8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	9	ATR	_	t_745|t_746|ref=caus.resp._1
+9	ἡνίας	ἡνία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_746|t_747|ref=caus.resp._1
+10	καὶ	καί	c	c--------	_	13	COORD	_	t_747|t_750|ref=caus.resp._1
+11	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_748|t_749|ref=caus.resp._1
+12	ἵππους	ἵππος	n	n-p---ma-	Case=a|Gender=m|Number=p	10	OBJ	_	t_749|t_747|ref=caus.resp._1
+13	ἀναβάτῃ	ἀναβάτης	v	v-sapamd-	Case=d|Gender=m|Number=s	5	OBJ	_	t_750|t_742|ref=caus.resp._1
+14	·	·	u	u--------	_	5	AuxK	_	t_751|t_742|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = ταῖς δʼ ἡνίαις τὰ νεῦρα ἐοίκασι , καθάπερ καὶ ἵπποις οἱ μύες [0] ·
 # sent_id = 38
-1	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_752|ref=De causis respirationis_1
-2	δʼ	δέ	d	d--------	_	6	AuxY	_	t_753|ref=De causis respirationis_1
-3	ἡνίαις	ἡνία	n	n-p---fd-	Case=d|Gender=f|Number=p	6	ADV	_	t_754|ref=De causis respirationis_1
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_755|ref=De causis respirationis_1
-5	νεῦρα	νεῦρον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_756|ref=De causis respirationis_1
-6	ἐοίκασι	ἔοικα	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	0	PRED	_	t_757|ref=De causis respirationis_1
-7	,	,	u	u--------	_	6	AuxX	_	t_758|ref=De causis respirationis_1
-8	καθάπερ	καθά	c	c--------	_	6	AuxC	_	t_759|ref=De causis respirationis_1
-9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_760|ref=De causis respirationis_1
-10	ἵπποις	ἵππος	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_761|ref=De causis respirationis_1
-11	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_762|ref=De causis respirationis_1
-12	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_763|ref=De causis respirationis_1
-13	[0]	[0]	-	---------	_	8	ADV	_	e_27|ref=De causis respirationis_1
-14	·	·	u	u--------	_	6	AuxK	_	t_764|ref=De causis respirationis_1
+1	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_752|t_754|ref=caus.resp._1
+2	δʼ	δέ	d	d--------	_	6	AuxY	_	t_753|t_757|ref=caus.resp._1
+3	ἡνίαις	ἡνία	n	n-p---fd-	Case=d|Gender=f|Number=p	6	ADV	_	t_754|t_757|ref=caus.resp._1
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_755|t_756|ref=caus.resp._1
+5	νεῦρα	νεῦρον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_756|t_757|ref=caus.resp._1
+6	ἐοίκασι	ἔοικα	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	0	PRED	_	t_757|0|ref=caus.resp._1
+7	,	,	u	u--------	_	6	AuxX	_	t_758|t_757|ref=caus.resp._1
+8	καθάπερ	καθά	c	c--------	_	6	AuxC	_	t_759|t_757|ref=caus.resp._1
+9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_760|t_761|ref=caus.resp._1
+10	ἵπποις	ἵππος	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_761|e_27|ref=caus.resp._1
+11	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_762|t_763|ref=caus.resp._1
+12	μύες	μῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_763|e_27|ref=caus.resp._1
+13	[0]	[0]	-	---------	_	8	ADV	_	e_27|t_759|ref=caus.resp._1
+14	·	·	u	u--------	_	6	AuxK	_	t_764|t_757|ref=caus.resp._1
 
-# source = Galen, De causis respirationis 1
+# source = Galen, caus.resp. 1
 # text = οὕτω δὲ καὶ ἡ χρεία τὸ ἔσχατον ὀρεκτὸν καθέστηκε τῆς ἀναπνοῆς , ὥσπερ ἡ νίκη τῆς ἡνιοχικῆς [0] .
 # sent_id = 39
-1	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_765|ref=De causis respirationis_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_766|ref=De causis respirationis_1
-3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_767|ref=De causis respirationis_1
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_768|ref=De causis respirationis_1
-5	χρεία	χρεία	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_769|ref=De causis respirationis_1
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_770|ref=De causis respirationis_1
-7	ἔσχατον	ἔσχατος	a	a-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_771|ref=De causis respirationis_1
-8	ὀρεκτὸν	ὀρεκτός	a	a-s---nn-	Case=a|Gender=n|Number=s	9	OCOMP	_	t_772|ref=De causis respirationis_1
-9	καθέστηκε	καθίστημι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_773|ref=De causis respirationis_1
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_774|ref=De causis respirationis_1
-11	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_775|ref=De causis respirationis_1
-12	,	,	u	u--------	_	9	AuxX	_	t_776|ref=De causis respirationis_1
-13	ὥσπερ	ὥσπερ	c	c--------	_	9	AuxC	_	t_777|ref=De causis respirationis_1
-14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_778|ref=De causis respirationis_1
-15	νίκη	νίκη	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_779|ref=De causis respirationis_1
-16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_780|ref=De causis respirationis_1
-17	ἡνιοχικῆς	ἡνιοχικός	a	a-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_781|ref=De causis respirationis_1
-18	[0]	[0]	-	---------	_	13	ADV	_	e_28|ref=De causis respirationis_1
-19	.	.	u	u--------	_	9	AuxK	_	t_782|ref=De causis respirationis_1
+1	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_765|t_773|ref=caus.resp._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_766|t_773|ref=caus.resp._1
+3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_767|t_769|ref=caus.resp._1
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_768|t_769|ref=caus.resp._1
+5	χρεία	χρεία	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_769|t_773|ref=caus.resp._1
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_770|t_771|ref=caus.resp._1
+7	ἔσχατον	ἔσχατος	a	a-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_771|t_773|ref=caus.resp._1
+8	ὀρεκτὸν	ὀρεκτός	a	a-s---nn-	Case=a|Gender=n|Number=s	9	OCOMP	_	t_772|t_773|ref=caus.resp._1
+9	καθέστηκε	καθίστημι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_773|0|ref=caus.resp._1
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_774|t_775|ref=caus.resp._1
+11	ἀναπνοῆς	ἀναπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_775|t_772|ref=caus.resp._1
+12	,	,	u	u--------	_	9	AuxX	_	t_776|t_773|ref=caus.resp._1
+13	ὥσπερ	ὥσπερ	c	c--------	_	9	AuxC	_	t_777|t_773|ref=caus.resp._1
+14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_778|t_779|ref=caus.resp._1
+15	νίκη	νίκη	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_779|e_28|ref=caus.resp._1
+16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_780|t_781|ref=caus.resp._1
+17	ἡνιοχικῆς	ἡνιοχικός	a	a-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_781|t_779|ref=caus.resp._1
+18	[0]	[0]	-	---------	_	13	ADV	_	e_28|t_777|ref=caus.resp._1
+19	.	.	u	u--------	_	9	AuxK	_	t_782|t_773|ref=caus.resp._1
 

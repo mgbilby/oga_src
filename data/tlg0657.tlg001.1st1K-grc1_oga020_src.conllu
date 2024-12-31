@@ -1,1225 +1,1225 @@
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = 1 Cod .
 # sent_id = 1
-1	1	1	u	u--------	_	2	AuxG	_	t_1|ref=Fragmenta_1.1
-2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_2|ref=Fragmenta_1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_3|ref=Fragmenta_1.1
+1	1	1	u	u--------	_	2	AuxG	_	t_1|t_2|ref=fr._1.1
+2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_2|0|ref=fr._1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_3|t_2|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = Const .
 # sent_id = 2
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_4|ref=Fragmenta_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_5|ref=Fragmenta_1.1
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_4|0|ref=fr._1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_5|t_4|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = fol .
 # sent_id = 3
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_6|ref=Fragmenta_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_7|ref=Fragmenta_1.1
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_6|0|ref=fr._1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_7|t_6|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = 18r Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 4
-1	18r	18r	n	n--------	_	4	AuxG	_	t_8|ref=Fragmenta_1.1
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_9|ref=Fragmenta_1.1
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_10|ref=Fragmenta_1.1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_11|ref=Fragmenta_1.1
+1	18r	18r	n	n--------	_	4	AuxG	_	t_8|e_1|ref=fr._1.1
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_9|e_1|ref=fr._1.1
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_10|t_9|ref=fr._1.1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_11|e_1|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = Ἀριστολόχιος μακρὰ ποιεῖ πρὸς ἑρπετὰ καὶ θανάσιμα ὁλκὴ πινομένη μετ᾿  οἴνου καὶ καταπλασσομένη , τὰ δὲ ἐν μήτρᾳ συνιστάμενα λόχια καὶ ἔμμηνα καὶ ἔμβρυα ἐκβάλλει ποθεῖσα μετὰ πεπέρεως καὶ σμύρνης ·
 # sent_id = 5
-1	Ἀριστολόχιος	ἀριστολόχιος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_12|ref=Fragmenta_1.1
-2	μακρὰ	μακρός	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_13|ref=Fragmenta_1.1
-3	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_14|ref=Fragmenta_1.1
-4	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_15|ref=Fragmenta_1.1
-5	ἑρπετὰ	ἑρπετόν	n	n-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_16|ref=Fragmenta_1.1
-6	καὶ	καί	c	c--------	_	4	COORD	_	t_17|ref=Fragmenta_1.1
-7	θανάσιμα	θανάσιμος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_18|ref=Fragmenta_1.1
-8	ὁλκὴ	ὁλκή	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_19|ref=Fragmenta_1.1
-9	πινομένη	πίνω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_20|ref=Fragmenta_1.1
-10	μετ᾿ 	μετά	r	r--------	_	9	AuxP	_	t_21|ref=Fragmenta_1.1
-11	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_22|ref=Fragmenta_1.1
-12	καὶ	καί	c	c--------	_	3	COORD	_	t_23|ref=Fragmenta_1.1
-13	καταπλασσομένη	καταπλήσσω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_24|ref=Fragmenta_1.1
-14	,	,	u	u--------	_	0	AuxX	_	t_25|ref=Fragmenta_1.1
-15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_26|ref=Fragmenta_1.1
-16	δὲ	δέ	c	c--------	_	14	COORD	_	t_27|ref=Fragmenta_1.1
-17	ἐν	ἐν	r	r--------	_	19	AuxP	_	t_28|ref=Fragmenta_1.1
-18	μήτρᾳ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	17	ADV	_	t_29|ref=Fragmenta_1.1
-19	συνιστάμενα	συνιστάω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	20	ATR	_	t_30|ref=Fragmenta_1.1
-20	λόχια	λόχιον	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_31|ref=Fragmenta_1.1
-21	καὶ	καί	d	d--------	_	23	AuxY	_	t_32|ref=Fragmenta_1.1
-22	ἔμμηνα	ἔμμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_33|ref=Fragmenta_1.1
-23	καὶ	καί	c	c--------	_	25	COORD	_	t_34|ref=Fragmenta_1.1
-24	ἔμβρυα	ἔμβρυον	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_35|ref=Fragmenta_1.1
-25	ἐκβάλλει	ἐκβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_36|ref=Fragmenta_1.1
-26	ποθεῖσα	παρατίθημι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	25	ADV	_	t_37|ref=Fragmenta_1.1
-27	μετὰ	μετά	r	r--------	_	26	AuxP	_	t_38|ref=Fragmenta_1.1
-28	πεπέρεως	πεπέρεως	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ADV	_	t_39|ref=Fragmenta_1.1
-29	καὶ	καί	c	c--------	_	27	COORD	_	t_40|ref=Fragmenta_1.1
-30	σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ADV	_	t_41|ref=Fragmenta_1.1
-31	·	·	u	u--------	_	14	AuxK	_	t_42|ref=Fragmenta_1.1
+1	Ἀριστολόχιος	ἀριστολόχιος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_12|t_14|ref=fr._1.1
+2	μακρὰ	μακρός	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_13|t_14|ref=fr._1.1
+3	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_14|t_27|ref=fr._1.1
+4	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_15|t_14|ref=fr._1.1
+5	ἑρπετὰ	ἑρπετόν	n	n-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_16|t_17|ref=fr._1.1
+6	καὶ	καί	c	c--------	_	4	COORD	_	t_17|t_15|ref=fr._1.1
+7	θανάσιμα	θανάσιμος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_18|t_17|ref=fr._1.1
+8	ὁλκὴ	ὁλκή	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_19|t_14|ref=fr._1.1
+9	πινομένη	πίνω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_20|t_23|ref=fr._1.1
+10	μετ᾿ 	μετά	r	r--------	_	9	AuxP	_	t_21|t_20|ref=fr._1.1
+11	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_22|t_21|ref=fr._1.1
+12	καὶ	καί	c	c--------	_	3	COORD	_	t_23|t_14|ref=fr._1.1
+13	καταπλασσομένη	καταπλήσσω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_24|t_23|ref=fr._1.1
+14	,	,	u	u--------	_	0	AuxX	_	t_25|0|ref=fr._1.1
+15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_26|t_31|ref=fr._1.1
+16	δὲ	δέ	c	c--------	_	14	COORD	_	t_27|t_25|ref=fr._1.1
+17	ἐν	ἐν	r	r--------	_	19	AuxP	_	t_28|t_30|ref=fr._1.1
+18	μήτρᾳ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	17	ADV	_	t_29|t_28|ref=fr._1.1
+19	συνιστάμενα	συνιστάω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	20	ATR	_	t_30|t_31|ref=fr._1.1
+20	λόχια	λόχιον	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_31|t_34|ref=fr._1.1
+21	καὶ	καί	d	d--------	_	23	AuxY	_	t_32|t_34|ref=fr._1.1
+22	ἔμμηνα	ἔμμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_33|t_34|ref=fr._1.1
+23	καὶ	καί	c	c--------	_	25	COORD	_	t_34|t_36|ref=fr._1.1
+24	ἔμβρυα	ἔμβρυον	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_35|t_34|ref=fr._1.1
+25	ἐκβάλλει	ἐκβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_36|t_27|ref=fr._1.1
+26	ποθεῖσα	παρατίθημι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	25	ADV	_	t_37|t_36|ref=fr._1.1
+27	μετὰ	μετά	r	r--------	_	26	AuxP	_	t_38|t_37|ref=fr._1.1
+28	πεπέρεως	πεπέρεως	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ADV	_	t_39|t_40|ref=fr._1.1
+29	καὶ	καί	c	c--------	_	27	COORD	_	t_40|t_38|ref=fr._1.1
+30	σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ADV	_	t_41|t_40|ref=fr._1.1
+31	·	·	u	u--------	_	14	AuxK	_	t_42|t_25|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = καὶ ἐν πεσσῷ δὲ προστεθεῖσα τὸ αὐτὸ δρᾷ .
 # sent_id = 6
-1	καὶ	καί	c	c--------	_	8	AuxY	_	t_43|ref=Fragmenta_1.1
-2	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_44|ref=Fragmenta_1.1
-3	πεσσῷ	πεσσός	n	n-s---nd-	Case=d|Gender=n|Number=s	2	ADV	_	t_45|ref=Fragmenta_1.1
-4	δὲ	δέ	d	d--------	_	8	AuxY	_	t_46|ref=Fragmenta_1.1
-5	προστεθεῖσα	προστίθημι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	8	ADV	_	t_47|ref=Fragmenta_1.1
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_48|ref=Fragmenta_1.1
-7	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_49|ref=Fragmenta_1.1
-8	δρᾷ	δράω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_50|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	8	AuxK	_	t_51|ref=Fragmenta_1.1
+1	καὶ	καί	c	c--------	_	8	AuxY	_	t_43|t_50|ref=fr._1.1
+2	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_44|t_47|ref=fr._1.1
+3	πεσσῷ	πεσσός	n	n-s---nd-	Case=d|Gender=n|Number=s	2	ADV	_	t_45|t_44|ref=fr._1.1
+4	δὲ	δέ	d	d--------	_	8	AuxY	_	t_46|t_50|ref=fr._1.1
+5	προστεθεῖσα	προστίθημι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	8	ADV	_	t_47|t_50|ref=fr._1.1
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_48|t_49|ref=fr._1.1
+7	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_49|t_50|ref=fr._1.1
+8	δρᾷ	δράω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_50|0|ref=fr._1.1
+9	.	.	u	u--------	_	8	AuxK	_	t_51|t_50|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = Diosc .
 # sent_id = 7
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_52|ref=Fragmenta_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_53|ref=Fragmenta_1.1
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_52|0|ref=fr._1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_53|t_52|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = III 4 ( II 7 , 18 sq . [0] )
 # sent_id = 8
-1	III	iii	x	x--------	_	0	AuxG	_	t_54|ref=Fragmenta_1.1
-2	4	4	x	x--------	_	1	AuxG	_	t_55|ref=Fragmenta_1.1
-3	(	̔	u	u--------	_	1	AuxG	_	t_56|ref=Fragmenta_1.1
-4	II	εἰμί	x	x--------	_	1	AuxG	_	t_57|ref=Fragmenta_1.1
-5	7	7	x	x--------	_	7	AuxG	_	t_58|ref=Fragmenta_1.1
-6	,	,	u	u--------	_	1	AuxX	_	t_59|ref=Fragmenta_1.1
-7	18	18	x	x--------	_	10	APOS	_	t_60|ref=Fragmenta_1.1
-8	sq	sqq	x	x--------	_	7	APOS	_	t_61|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	1	AuxK	_	t_62|ref=Fragmenta_1.1
-10	[0]	[0]	-	---------	_	1	ExD	_	e_2|ref=Fragmenta_1.1
-11	)	)	u	u--------	_	1	AuxG	_	t_63|ref=Fragmenta_1.1
+1	III	iii	x	x--------	_	0	AuxG	_	t_54|0|ref=fr._1.1
+2	4	4	x	x--------	_	1	AuxG	_	t_55|t_54|ref=fr._1.1
+3	(	̔	u	u--------	_	1	AuxG	_	t_56|t_54|ref=fr._1.1
+4	II	εἰμί	x	x--------	_	1	AuxG	_	t_57|t_54|ref=fr._1.1
+5	7	7	x	x--------	_	7	AuxG	_	t_58|t_60|ref=fr._1.1
+6	,	,	u	u--------	_	1	AuxX	_	t_59|t_54|ref=fr._1.1
+7	18	18	x	x--------	_	10	APOS	_	t_60|e_2|ref=fr._1.1
+8	sq	sqq	x	x--------	_	7	APOS	_	t_61|t_60|ref=fr._1.1
+9	.	.	u	u--------	_	1	AuxK	_	t_62|t_54|ref=fr._1.1
+10	[0]	[0]	-	---------	_	1	ExD	_	e_2|t_54|ref=fr._1.1
+11	)	)	u	u--------	_	1	AuxG	_	t_63|t_54|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = .
 # sent_id = 9
-1	.	.	u	u--------	_	0	AuxK	_	t_64|ref=Fragmenta_1.1
+1	.	.	u	u--------	_	0	AuxK	_	t_64|0|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = Plin . N. H. 25 , 97 [0] .
 # sent_id = 10
-1	Plin	plin	x	x--------	_	8	ExD	_	t_65|ref=Fragmenta_1.1
-2	.	.	u	u--------	_	8	AuxK	_	t_66|ref=Fragmenta_1.1
-3	N.	n.	x	x--------	_	8	AuxG	_	t_67|ref=Fragmenta_1.1
-4	H.	h.	u	u--------	_	8	AuxG	_	t_68|ref=Fragmenta_1.1
-5	25	25	l	l-s---fn-	_	8	AuxY	_	t_69|ref=Fragmenta_1.1
-6	,	,	u	u--------	_	8	AuxX	_	t_70|ref=Fragmenta_1.1
-7	97	97	l	l-s---fn-	_	8	AuxY	_	t_71|ref=Fragmenta_1.1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	8	AuxK	_	t_72|ref=Fragmenta_1.1
+1	Plin	plin	x	x--------	_	8	ExD	_	t_65|e_3|ref=fr._1.1
+2	.	.	u	u--------	_	8	AuxK	_	t_66|e_3|ref=fr._1.1
+3	N.	n.	x	x--------	_	8	AuxG	_	t_67|e_3|ref=fr._1.1
+4	H.	h.	u	u--------	_	8	AuxG	_	t_68|e_3|ref=fr._1.1
+5	25	25	l	l-s---fn-	_	8	AuxY	_	t_69|e_3|ref=fr._1.1
+6	,	,	u	u--------	_	8	AuxX	_	t_70|e_3|ref=fr._1.1
+7	97	97	l	l-s---fn-	_	8	AuxY	_	t_71|e_3|ref=fr._1.1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._1.1
+9	.	.	u	u--------	_	8	AuxK	_	t_72|e_3|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.1
+# source = Crateuas, fr. 1.1
 # text = 2 Cod .
 # sent_id = 11
-1	2	2	u	u--------	_	2	AuxG	_	t_73|ref=Fragmenta_1.1
-2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_74|ref=Fragmenta_1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_75|ref=Fragmenta_1.1
+1	2	2	u	u--------	_	2	AuxG	_	t_73|t_74|ref=fr._1.1
+2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_74|0|ref=fr._1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_75|t_74|ref=fr._1.1
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = Const .
 # sent_id = 12
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_76|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_77|ref=Fragmenta_1.2
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_76|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_77|t_76|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = fol .
 # sent_id = 13
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_78|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_79|ref=Fragmenta_1.2
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_78|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_79|t_78|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = 19v Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 14
-1	19v	19v	a	a-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_80|ref=Fragmenta_1.2
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_81|ref=Fragmenta_1.2
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_82|ref=Fragmenta_1.2
-4	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_83|ref=Fragmenta_1.2
+1	19v	19v	a	a-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_80|t_81|ref=fr._1.2
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_81|e_4|ref=fr._1.2
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_82|t_81|ref=fr._1.2
+4	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_83|e_4|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = ἀριστολόχιος στρογγύλη πινομένη μετ᾿  οἴνου μέλανος ποιεῖ πρὸς ἑρπετῶν δήγματα ·
 # sent_id = 15
-1	ἀριστολόχιος	ἀριστολόχιος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_84|ref=Fragmenta_1.2
-2	στρογγύλη	στρογγύλος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_85|ref=Fragmenta_1.2
-3	πινομένη	πίνω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	7	ADV	_	t_86|ref=Fragmenta_1.2
-4	μετ᾿ 	μετά	r	r--------	_	3	AuxP	_	t_87|ref=Fragmenta_1.2
-5	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_88|ref=Fragmenta_1.2
-6	μέλανος	μέλας	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_89|ref=Fragmenta_1.2
-7	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_90|ref=Fragmenta_1.2
-8	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_91|ref=Fragmenta_1.2
-9	ἑρπετῶν	ἑρπετόν	n	n-p---fg-	Case=g|Gender=f|Number=p	8	OBJ	_	t_92|ref=Fragmenta_1.2
-10	δήγματα	δῆγμα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_93|ref=Fragmenta_1.2
-11	·	·	u	u--------	_	7	AuxK	_	t_94|ref=Fragmenta_1.2
+1	ἀριστολόχιος	ἀριστολόχιος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_84|t_90|ref=fr._1.2
+2	στρογγύλη	στρογγύλος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_85|t_90|ref=fr._1.2
+3	πινομένη	πίνω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	7	ADV	_	t_86|t_90|ref=fr._1.2
+4	μετ᾿ 	μετά	r	r--------	_	3	AuxP	_	t_87|t_86|ref=fr._1.2
+5	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_88|t_87|ref=fr._1.2
+6	μέλανος	μέλας	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_89|t_88|ref=fr._1.2
+7	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_90|0|ref=fr._1.2
+8	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_91|t_90|ref=fr._1.2
+9	ἑρπετῶν	ἑρπετόν	n	n-p---fg-	Case=g|Gender=f|Number=p	8	OBJ	_	t_92|t_91|ref=fr._1.2
+10	δήγματα	δῆγμα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_93|t_91|ref=fr._1.2
+11	·	·	u	u--------	_	7	AuxK	_	t_94|t_90|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = χωρεῖ δὲ καὶ εἰς ἀντιδότους τὰς θηριακάς , χωρεῖ καὶ εἰς τὰς ποδαγρικὰς συνθέσεις , ἔτι δὲ ἐμπλάστρους .
 # sent_id = 16
-1	χωρεῖ	χωρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_95|ref=Fragmenta_1.2
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_96|ref=Fragmenta_1.2
-3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_97|ref=Fragmenta_1.2
-4	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_98|ref=Fragmenta_1.2
-5	ἀντιδότους	ἀντίδωρος	a	a-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_99|ref=Fragmenta_1.2
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_100|ref=Fragmenta_1.2
-7	θηριακάς	θηριακός	a	a-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_101|ref=Fragmenta_1.2
-8	,	,	u	u--------	_	0	COORD	_	t_102|ref=Fragmenta_1.2
-9	χωρεῖ	χωρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_103|ref=Fragmenta_1.2
-10	καὶ	καί	d	d--------	_	17	AuxZ	_	t_104|ref=Fragmenta_1.2
-11	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_105|ref=Fragmenta_1.2
-12	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_106|ref=Fragmenta_1.2
-13	ποδαγρικὰς	ποδαγρικός	a	a-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_107|ref=Fragmenta_1.2
-14	συνθέσεις	σύνθεσις	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_108|ref=Fragmenta_1.2
-15	,	,	u	u--------	_	8	AuxX	_	t_109|ref=Fragmenta_1.2
-16	ἔτι	ἔτι	d	d--------	_	18	ADV	_	t_110|ref=Fragmenta_1.2
-17	δὲ	δέ	c	c--------	_	11	COORD	_	t_111|ref=Fragmenta_1.2
-18	ἐμπλάστρους	ἄπλατος	a	a-p---fa-	Case=a|Gender=f|Number=p	17	ATR	_	t_112|ref=Fragmenta_1.2
-19	.	.	u	u--------	_	8	AuxK	_	t_113|ref=Fragmenta_1.2
+1	χωρεῖ	χωρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_95|t_102|ref=fr._1.2
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_96|t_102|ref=fr._1.2
+3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_97|t_99|ref=fr._1.2
+4	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_98|t_95|ref=fr._1.2
+5	ἀντιδότους	ἀντίδωρος	a	a-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_99|t_98|ref=fr._1.2
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_100|t_101|ref=fr._1.2
+7	θηριακάς	θηριακός	a	a-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_101|t_98|ref=fr._1.2
+8	,	,	u	u--------	_	0	COORD	_	t_102|0|ref=fr._1.2
+9	χωρεῖ	χωρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_103|t_102|ref=fr._1.2
+10	καὶ	καί	d	d--------	_	17	AuxZ	_	t_104|t_111|ref=fr._1.2
+11	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_105|t_103|ref=fr._1.2
+12	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_106|t_108|ref=fr._1.2
+13	ποδαγρικὰς	ποδαγρικός	a	a-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_107|t_108|ref=fr._1.2
+14	συνθέσεις	σύνθεσις	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_108|t_105|ref=fr._1.2
+15	,	,	u	u--------	_	8	AuxX	_	t_109|t_102|ref=fr._1.2
+16	ἔτι	ἔτι	d	d--------	_	18	ADV	_	t_110|t_112|ref=fr._1.2
+17	δὲ	δέ	c	c--------	_	11	COORD	_	t_111|t_105|ref=fr._1.2
+18	ἐμπλάστρους	ἄπλατος	a	a-p---fa-	Case=a|Gender=f|Number=p	17	ATR	_	t_112|t_111|ref=fr._1.2
+19	.	.	u	u--------	_	8	AuxK	_	t_113|t_102|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = ἄγει δὲ καὶ ἔμμηνα καὶ ἔμβρυα ἐκβάλλει ·
 # sent_id = 17
-1	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_114|ref=Fragmenta_1.2
-2	δὲ	δέ	g	g--------	_	5	AuxY	_	t_115|ref=Fragmenta_1.2
-3	καὶ	καί	c	c--------	_	5	AuxY	_	t_116|ref=Fragmenta_1.2
-4	ἔμμηνα	ἔμμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_117|ref=Fragmenta_1.2
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_118|ref=Fragmenta_1.2
-6	ἔμβρυα	ἔμβρυον	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_119|ref=Fragmenta_1.2
-7	ἐκβάλλει	ἐκβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_120|ref=Fragmenta_1.2
-8	·	·	u	u--------	_	5	AuxK	_	t_121|ref=Fragmenta_1.2
+1	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_114|t_118|ref=fr._1.2
+2	δὲ	δέ	g	g--------	_	5	AuxY	_	t_115|t_118|ref=fr._1.2
+3	καὶ	καί	c	c--------	_	5	AuxY	_	t_116|t_118|ref=fr._1.2
+4	ἔμμηνα	ἔμμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_117|t_114|ref=fr._1.2
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_118|0|ref=fr._1.2
+6	ἔμβρυα	ἔμβρυον	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_119|t_120|ref=fr._1.2
+7	ἐκβάλλει	ἐκβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_120|t_118|ref=fr._1.2
+8	·	·	u	u--------	_	5	AuxK	_	t_121|t_118|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = βοηθεῖ ἄσθματι , λυγμῷ , ῥίγει , σπληνί , ῥήγμασιν , σπάσμασιν .
 # sent_id = 18
-1	βοηθεῖ	βοηθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_122|ref=Fragmenta_1.2
-2	ἄσθματι	ἄσθμα	n	n-s---nd-	Case=d|Gender=n|Number=s	11	OBJ	_	t_123|ref=Fragmenta_1.2
-3	,	,	u	u--------	_	1	AuxX	_	t_124|ref=Fragmenta_1.2
-4	λυγμῷ	λυγμός	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_125|ref=Fragmenta_1.2
-5	,	,	u	u--------	_	1	AuxX	_	t_126|ref=Fragmenta_1.2
-6	ῥίγει	ῥῖγος	n	n-s---nd-	Case=d|Gender=n|Number=s	11	OBJ	_	t_127|ref=Fragmenta_1.2
-7	,	,	u	u--------	_	1	AuxX	_	t_128|ref=Fragmenta_1.2
-8	σπληνί	σπληνίον	n	n-s---nd-	Case=d|Gender=n|Number=s	11	OBJ	_	t_129|ref=Fragmenta_1.2
-9	,	,	u	u--------	_	1	AuxX	_	t_130|ref=Fragmenta_1.2
-10	ῥήγμασιν	ῥῆγμα	n	n-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_131|ref=Fragmenta_1.2
-11	,	,	u	u--------	_	1	COORD	_	t_132|ref=Fragmenta_1.2
-12	σπάσμασιν	σπάσμα	n	n-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_133|ref=Fragmenta_1.2
-13	.	.	u	u--------	_	1	AuxK	_	t_134|ref=Fragmenta_1.2
+1	βοηθεῖ	βοηθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_122|0|ref=fr._1.2
+2	ἄσθματι	ἄσθμα	n	n-s---nd-	Case=d|Gender=n|Number=s	11	OBJ	_	t_123|t_132|ref=fr._1.2
+3	,	,	u	u--------	_	1	AuxX	_	t_124|t_122|ref=fr._1.2
+4	λυγμῷ	λυγμός	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_125|t_132|ref=fr._1.2
+5	,	,	u	u--------	_	1	AuxX	_	t_126|t_122|ref=fr._1.2
+6	ῥίγει	ῥῖγος	n	n-s---nd-	Case=d|Gender=n|Number=s	11	OBJ	_	t_127|t_132|ref=fr._1.2
+7	,	,	u	u--------	_	1	AuxX	_	t_128|t_122|ref=fr._1.2
+8	σπληνί	σπληνίον	n	n-s---nd-	Case=d|Gender=n|Number=s	11	OBJ	_	t_129|t_132|ref=fr._1.2
+9	,	,	u	u--------	_	1	AuxX	_	t_130|t_122|ref=fr._1.2
+10	ῥήγμασιν	ῥῆγμα	n	n-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_131|t_132|ref=fr._1.2
+11	,	,	u	u--------	_	1	COORD	_	t_132|t_122|ref=fr._1.2
+12	σπάσμασιν	σπάσμα	n	n-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_133|t_132|ref=fr._1.2
+13	.	.	u	u--------	_	1	AuxK	_	t_134|t_122|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = ποθεῖσα δὲ μεθ᾿  ὕδατος ἀνάγει σκόλοπας , ἀκίδας , λεπίδας ὀστῶν καταπλασσομένη ἀφίστησιν καὶ σηπεδόνας περιχαράσσει καὶ τὰ ῥυπαρὰ καθαίρει ἕλκη ·
 # sent_id = 19
-1	ποθεῖσα	παρατίθημι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_135|ref=Fragmenta_1.2
-2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_136|ref=Fragmenta_1.2
-3	μεθ᾿ 	μετά	r	r--------	_	1	AuxP	_	t_137|ref=Fragmenta_1.2
-4	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_138|ref=Fragmenta_1.2
-5	ἀνάγει	ἀνάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_139|ref=Fragmenta_1.2
-6	σκόλοπας	σκόλοψ	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_140|ref=Fragmenta_1.2
-7	,	,	u	u--------	_	5	COORD	_	t_141|ref=Fragmenta_1.2
-8	ἀκίδας	ἀκίς	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_142|ref=Fragmenta_1.2
-9	,	,	u	u--------	_	17	AuxX	_	t_143|ref=Fragmenta_1.2
-10	λεπίδας	λεπίς	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_144|ref=Fragmenta_1.2
-11	ὀστῶν	ὀστέον	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_145|ref=Fragmenta_1.2
-12	καταπλασσομένη	καταπλήσσω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	17	ADV	_	t_146|ref=Fragmenta_1.2
-13	ἀφίστησιν	ἀφίστημι	n	n-s---fa-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_147|ref=Fragmenta_1.2
-14	καὶ	καί	c	c--------	_	17	AuxY	_	t_148|ref=Fragmenta_1.2
-15	σηπεδόνας	σηπεδών	n	n-p---ma-	Case=a|Gender=f|Number=p	16	OBJ	_	t_149|ref=Fragmenta_1.2
-16	περιχαράσσει	περιχαράσσει	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_150|ref=Fragmenta_1.2
-17	καὶ	καί	c	c--------	_	0	COORD	_	t_151|ref=Fragmenta_1.2
-18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_152|ref=Fragmenta_1.2
-19	ῥυπαρὰ	ῥυπαρός	a	a-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_153|ref=Fragmenta_1.2
-20	καθαίρει	καθαίρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_154|ref=Fragmenta_1.2
-21	ἕλκη	ἕλκος	n	n-s---fn-	Case=a|Gender=n|Number=p	20	OBJ	_	t_155|ref=Fragmenta_1.2
-22	·	·	u	u--------	_	17	AuxK	_	t_156|ref=Fragmenta_1.2
+1	ποθεῖσα	παρατίθημι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_135|t_139|ref=fr._1.2
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_136|t_151|ref=fr._1.2
+3	μεθ᾿ 	μετά	r	r--------	_	1	AuxP	_	t_137|t_135|ref=fr._1.2
+4	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_138|t_137|ref=fr._1.2
+5	ἀνάγει	ἀνάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_139|t_151|ref=fr._1.2
+6	σκόλοπας	σκόλοψ	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_140|t_141|ref=fr._1.2
+7	,	,	u	u--------	_	5	COORD	_	t_141|t_139|ref=fr._1.2
+8	ἀκίδας	ἀκίς	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_142|t_141|ref=fr._1.2
+9	,	,	u	u--------	_	17	AuxX	_	t_143|t_151|ref=fr._1.2
+10	λεπίδας	λεπίς	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_144|t_146|ref=fr._1.2
+11	ὀστῶν	ὀστέον	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_145|t_144|ref=fr._1.2
+12	καταπλασσομένη	καταπλήσσω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	17	ADV	_	t_146|t_151|ref=fr._1.2
+13	ἀφίστησιν	ἀφίστημι	n	n-s---fa-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_147|t_151|ref=fr._1.2
+14	καὶ	καί	c	c--------	_	17	AuxY	_	t_148|t_151|ref=fr._1.2
+15	σηπεδόνας	σηπεδών	n	n-p---ma-	Case=a|Gender=f|Number=p	16	OBJ	_	t_149|t_150|ref=fr._1.2
+16	περιχαράσσει	περιχαράσσει	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_150|t_151|ref=fr._1.2
+17	καὶ	καί	c	c--------	_	0	COORD	_	t_151|0|ref=fr._1.2
+18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_152|t_153|ref=fr._1.2
+19	ῥυπαρὰ	ῥυπαρός	a	a-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_153|t_154|ref=fr._1.2
+20	καθαίρει	καθαίρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_154|t_151|ref=fr._1.2
+21	ἕλκη	ἕλκος	n	n-s---fn-	Case=a|Gender=n|Number=p	20	OBJ	_	t_155|t_154|ref=fr._1.2
+22	·	·	u	u--------	_	17	AuxK	_	t_156|t_151|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = σμήχει δὲ καὶ ὀδόντας καὶ οὖλα .
 # sent_id = 20
-1	σμήχει	σμήχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_157|ref=Fragmenta_1.2
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_158|ref=Fragmenta_1.2
-3	καὶ	καί	c	c--------	_	5	AuxY	_	t_159|ref=Fragmenta_1.2
-4	ὀδόντας	ὀδούς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_160|ref=Fragmenta_1.2
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_161|ref=Fragmenta_1.2
-6	οὖλα	οὖλον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_162|ref=Fragmenta_1.2
-7	.	.	u	u--------	_	2	AuxK	_	t_163|ref=Fragmenta_1.2
+1	σμήχει	σμήχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_157|t_158|ref=fr._1.2
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_158|0|ref=fr._1.2
+3	καὶ	καί	c	c--------	_	5	AuxY	_	t_159|t_161|ref=fr._1.2
+4	ὀδόντας	ὀδούς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_160|t_161|ref=fr._1.2
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_161|t_157|ref=fr._1.2
+6	οὖλα	οὖλον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_162|t_161|ref=fr._1.2
+7	.	.	u	u--------	_	2	AuxK	_	t_163|t_158|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = Diosc .
 # sent_id = 21
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_164|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_165|ref=Fragmenta_1.2
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_164|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_165|t_164|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = III 4 ( 8 , 3 sq . [0] )
 # sent_id = 22
-1	III	iii	x	x--------	_	0	AuxG	_	t_166|ref=Fragmenta_1.2
-2	4	4	u	u--------	_	1	AuxG	_	t_167|ref=Fragmenta_1.2
-3	(	̔	u	u--------	_	1	AuxG	_	t_168|ref=Fragmenta_1.2
-4	8	8	x	x--------	_	1	AuxG	_	t_169|ref=Fragmenta_1.2
-5	,	,	u	u--------	_	1	AuxX	_	t_170|ref=Fragmenta_1.2
-6	3	3	x	x--------	_	9	APOS	_	t_171|ref=Fragmenta_1.2
-7	sq	sqq	x	x--------	_	9	ExD	_	t_172|ref=Fragmenta_1.2
-8	.	.	u	u--------	_	1	AuxK	_	t_173|ref=Fragmenta_1.2
-9	[0]	[0]	-	---------	_	1	ExD	_	e_5|ref=Fragmenta_1.1
-10	)	)	u	u--------	_	1	AuxG	_	t_174|ref=Fragmenta_1.2
+1	III	iii	x	x--------	_	0	AuxG	_	t_166|0|ref=fr._1.2
+2	4	4	u	u--------	_	1	AuxG	_	t_167|t_166|ref=fr._1.2
+3	(	̔	u	u--------	_	1	AuxG	_	t_168|t_166|ref=fr._1.2
+4	8	8	x	x--------	_	1	AuxG	_	t_169|t_166|ref=fr._1.2
+5	,	,	u	u--------	_	1	AuxX	_	t_170|t_166|ref=fr._1.2
+6	3	3	x	x--------	_	9	APOS	_	t_171|e_5|ref=fr._1.2
+7	sq	sqq	x	x--------	_	9	ExD	_	t_172|e_5|ref=fr._1.2
+8	.	.	u	u--------	_	1	AuxK	_	t_173|t_166|ref=fr._1.2
+9	[0]	[0]	-	---------	_	1	ExD	_	e_5|t_166|ref=fr._1.1
+10	)	)	u	u--------	_	1	AuxG	_	t_174|t_166|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = .
 # sent_id = 23
-1	.	.	u	u--------	_	0	AuxK	_	t_175|ref=Fragmenta_1.2
+1	.	.	u	u--------	_	0	AuxK	_	t_175|0|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = Plin .
 # sent_id = 24
-1	Plin	plin	a	a-s---mv-	_	0	ExD	_	t_176|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_177|ref=Fragmenta_1.2
+1	Plin	plin	a	a-s---mv-	_	0	ExD	_	t_176|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_177|t_176|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = l [0] .
 # sent_id = 25
-1	l	ὁ	x	x--------	_	2	AuxG	_	t_178|ref=Fragmenta_1.2
-2	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Fragmenta_1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_179|ref=Fragmenta_1.2
+1	l	ὁ	x	x--------	_	2	AuxG	_	t_178|e_6|ref=fr._1.2
+2	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_179|e_6|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = s .
 # sent_id = 26
-1	s	s	x	x--------	_	0	ExD	_	t_180|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_181|ref=Fragmenta_1.2
+1	s	s	x	x--------	_	0	ExD	_	t_180|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_181|t_180|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = 3 Cod .
 # sent_id = 27
-1	3	3	x	x--------	_	2	AuxG	_	t_182|ref=Fragmenta_1.2
-2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_183|ref=Fragmenta_1.2
-3	.	.	u	u--------	_	2	AuxK	_	t_184|ref=Fragmenta_1.2
+1	3	3	x	x--------	_	2	AuxG	_	t_182|t_183|ref=fr._1.2
+2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_183|0|ref=fr._1.2
+3	.	.	u	u--------	_	2	AuxK	_	t_184|t_183|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2
+# source = Crateuas, fr. 1.2
 # text = Const .
 # sent_id = 28
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_185|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_186|ref=Fragmenta_1.2
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_185|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_186|t_185|ref=fr._1.2
 
-# source = Crateuas, Fragmenta 1.2-1.3
+# source = Crateuas, fr. 1.2-1.3
 # text = fol .
 # sent_id = 29
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_187|ref=Fragmenta_1.2
-2	.	.	u	u--------	_	1	AuxK	_	t_188|ref=Fragmenta_1.3
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_187|0|ref=fr._1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_188|t_187|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = 25r Κρατεύας ῥιζοτομος .
 # sent_id = 30
-1	25r	25r	v	v2spma---	_	0	ExD	_	t_189|ref=Fragmenta_1.3
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_190|ref=Fragmenta_1.3
-3	ῥιζοτομος	ῥιζοτομος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_191|ref=Fragmenta_1.3
-4	.	.	u	u--------	_	1	AuxK	_	t_192|ref=Fragmenta_1.3
+1	25r	25r	v	v2spma---	_	0	ExD	_	t_189|0|ref=fr._1.3
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_190|t_189|ref=fr._1.3
+3	ῥιζοτομος	ῥιζοτομος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_191|t_190|ref=fr._1.3
+4	.	.	u	u--------	_	1	AuxK	_	t_192|t_189|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = Ἀχίλλειος [0] ·
 # sent_id = 31
-1	Ἀχίλλειος	ἀχίλλειος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_193|ref=Fragmenta_1.3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Fragmenta_1.1
-3	·	·	u	u--------	_	2	AuxK	_	t_194|ref=Fragmenta_1.3
+1	Ἀχίλλειος	ἀχίλλειος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_193|e_7|ref=fr._1.3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._1.1
+3	·	·	u	u--------	_	2	AuxK	_	t_194|e_7|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = ταύτης τῆς βοτάνης ἡ κόμη λεία ἐναίμων ἐστὶν κολλητικὴ καὶ ἀφλέγμαντος , αἱμορραγίας τε ἐφεκτικὴ καὶ τῆς ἐκ μήτρας ἐν προσθέτῳ , καὶ τὸ ἀφέψημα δὲ αὐτῆς ἐστιν ἐγκάθισμα ῥοικαῖς , πίνεται καὶ πρὸς δυσεντερίαν .
 # sent_id = 32
-1	ταύτης	οὗτος	p	p-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_195|ref=Fragmenta_1.3
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_196|ref=Fragmenta_1.3
-3	βοτάνης	βοτάνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_197|ref=Fragmenta_1.3
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_198|ref=Fragmenta_1.3
-5	κόμη	κόμη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_199|ref=Fragmenta_1.3
-6	λεία	λεία	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_200|ref=Fragmenta_1.3
-7	ἐναίμων	ἔναιμος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_201|ref=Fragmenta_1.3
-8	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_202|ref=Fragmenta_1.3
-9	κολλητικὴ	κολλητικός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_203|ref=Fragmenta_1.3
-10	καὶ	καί	c	c--------	_	12	COORD	_	t_204|ref=Fragmenta_1.3
-11	ἀφλέγμαντος	ἀφλέγμαντος	n	n-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_205|ref=Fragmenta_1.3
-12	,	,	u	u--------	_	0	AuxX	_	t_206|ref=Fragmenta_1.3
-13	αἱμορραγίας	αἱμορραγία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_207|ref=Fragmenta_1.3
-14	τε	τε	d	d--------	_	10	AuxY	_	t_208|ref=Fragmenta_1.3
-15	ἐφεκτικὴ	ἐφεκτικός	a	a-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_209|ref=Fragmenta_1.3
-16	καὶ	καί	c	c--------	_	15	COORD	_	t_210|ref=Fragmenta_1.3
-17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_211|ref=Fragmenta_1.3
-18	ἐκ	ἐκ	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_212|ref=Fragmenta_1.3
-19	μήτρας	μήτρα	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_213|ref=Fragmenta_1.3
-20	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_214|ref=Fragmenta_1.3
-21	προσθέτῳ	πρόσθετος	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_215|ref=Fragmenta_1.3
-22	,	,	u	u--------	_	12	AuxX	_	t_216|ref=Fragmenta_1.3
-23	καὶ	καί	c	c--------	_	12	COORD	_	t_217|ref=Fragmenta_1.3
-24	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	25	ATR	_	t_218|ref=Fragmenta_1.3
-25	ἀφέψημα	ἀφέψημα	n	n-s---nn-	Case=n|Gender=n|Number=s	28	SBJ	_	t_219|ref=Fragmenta_1.3
-26	δὲ	δέ	d	d--------	_	23	AuxY	_	t_220|ref=Fragmenta_1.3
-27	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_221|ref=Fragmenta_1.3
-28	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	26	PRED	_	t_222|ref=Fragmenta_1.3
-29	ἐγκάθισμα	ἐγκάθισμα	n	n-s---nn-	Case=n|Gender=n|Number=s	28	PNOM	_	t_223|ref=Fragmenta_1.3
-30	ῥοικαῖς	ῥοικός	n	n-p---fd-	Case=d|Gender=f|Number=p	29	ATR	_	t_224|ref=Fragmenta_1.3
-31	,	,	u	u--------	_	12	AuxX	_	t_225|ref=Fragmenta_1.3
-32	πίνεται	πίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	26	PRED	_	t_226|ref=Fragmenta_1.3
-33	καὶ	καί	c	c--------	_	32	COORD	_	t_227|ref=Fragmenta_1.3
-34	πρὸς	πρός	r	r--------	_	32	AuxP	_	t_228|ref=Fragmenta_1.3
-35	δυσεντερίαν	δυσεντερία	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_229|ref=Fragmenta_1.3
-36	.	.	u	u--------	_	12	AuxK	_	t_230|ref=Fragmenta_1.3
+1	ταύτης	οὗτος	p	p-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_195|t_197|ref=fr._1.3
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_196|t_197|ref=fr._1.3
+3	βοτάνης	βοτάνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_197|t_199|ref=fr._1.3
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_198|t_199|ref=fr._1.3
+5	κόμη	κόμη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_199|t_202|ref=fr._1.3
+6	λεία	λεία	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_200|t_202|ref=fr._1.3
+7	ἐναίμων	ἔναιμος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_201|t_200|ref=fr._1.3
+8	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_202|t_204|ref=fr._1.3
+9	κολλητικὴ	κολλητικός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_203|t_204|ref=fr._1.3
+10	καὶ	καί	c	c--------	_	12	COORD	_	t_204|t_206|ref=fr._1.3
+11	ἀφλέγμαντος	ἀφλέγμαντος	n	n-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_205|t_210|ref=fr._1.3
+12	,	,	u	u--------	_	0	AuxX	_	t_206|0|ref=fr._1.3
+13	αἱμορραγίας	αἱμορραγία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_207|t_210|ref=fr._1.3
+14	τε	τε	d	d--------	_	10	AuxY	_	t_208|t_204|ref=fr._1.3
+15	ἐφεκτικὴ	ἐφεκτικός	a	a-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_209|t_208|ref=fr._1.3
+16	καὶ	καί	c	c--------	_	15	COORD	_	t_210|t_209|ref=fr._1.3
+17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_211|t_213|ref=fr._1.3
+18	ἐκ	ἐκ	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_212|t_210|ref=fr._1.3
+19	μήτρας	μήτρα	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_213|t_210|ref=fr._1.3
+20	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_214|t_210|ref=fr._1.3
+21	προσθέτῳ	πρόσθετος	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_215|t_214|ref=fr._1.3
+22	,	,	u	u--------	_	12	AuxX	_	t_216|t_206|ref=fr._1.3
+23	καὶ	καί	c	c--------	_	12	COORD	_	t_217|t_206|ref=fr._1.3
+24	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	25	ATR	_	t_218|t_219|ref=fr._1.3
+25	ἀφέψημα	ἀφέψημα	n	n-s---nn-	Case=n|Gender=n|Number=s	28	SBJ	_	t_219|t_222|ref=fr._1.3
+26	δὲ	δέ	d	d--------	_	23	AuxY	_	t_220|t_217|ref=fr._1.3
+27	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_221|t_219|ref=fr._1.3
+28	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	26	PRED	_	t_222|t_220|ref=fr._1.3
+29	ἐγκάθισμα	ἐγκάθισμα	n	n-s---nn-	Case=n|Gender=n|Number=s	28	PNOM	_	t_223|t_222|ref=fr._1.3
+30	ῥοικαῖς	ῥοικός	n	n-p---fd-	Case=d|Gender=f|Number=p	29	ATR	_	t_224|t_223|ref=fr._1.3
+31	,	,	u	u--------	_	12	AuxX	_	t_225|t_206|ref=fr._1.3
+32	πίνεται	πίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	26	PRED	_	t_226|t_220|ref=fr._1.3
+33	καὶ	καί	c	c--------	_	32	COORD	_	t_227|t_226|ref=fr._1.3
+34	πρὸς	πρός	r	r--------	_	32	AuxP	_	t_228|t_226|ref=fr._1.3
+35	δυσεντερίαν	δυσεντερία	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_229|t_228|ref=fr._1.3
+36	.	.	u	u--------	_	12	AuxK	_	t_230|t_206|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = ὅλη δὲ κοπεῖσα μετὰ ἀξουγγίας παλαιᾶς τὰ παλαιὰ τῶν ἑλκῶν καὶ δυσαπούλωτα θεραπεύει , ξηρὰ δὲ κοπεῖσα καὶ μέλιτι μιγεῖσά ἐστιν ἀνακαθαρτική .
 # sent_id = 33
-1	ὅλη	ὅλος	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ADV	_	t_231|ref=Fragmenta_1.3
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_232|ref=Fragmenta_1.3
-3	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_233|ref=Fragmenta_1.3
-4	μετὰ	μετά	r	r--------	_	3	AuxP	_	t_234|ref=Fragmenta_1.3
-5	ἀξουγγίας	ἀξουγγία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_235|ref=Fragmenta_1.3
-6	παλαιᾶς	παλαιός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_236|ref=Fragmenta_1.3
-7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_237|ref=Fragmenta_1.3
-8	παλαιὰ	παλαιός	a	a-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_238|ref=Fragmenta_1.3
-9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_239|ref=Fragmenta_1.3
-10	ἑλκῶν	ἕλκος	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_240|ref=Fragmenta_1.3
-11	καὶ	καί	c	c--------	_	13	COORD	_	t_241|ref=Fragmenta_1.3
-12	δυσαπούλωτα	δυσαπάλλακτος	a	a-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_242|ref=Fragmenta_1.3
-13	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_243|ref=Fragmenta_1.3
-14	,	,	u	u--------	_	0	AuxX	_	t_244|ref=Fragmenta_1.3
-15	ξηρὰ	ξηρός	a	a-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_245|ref=Fragmenta_1.3
-16	δὲ	δέ	d	d--------	_	14	COORD	_	t_246|ref=Fragmenta_1.3
-17	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_247|ref=Fragmenta_1.3
-18	καὶ	καί	c	c--------	_	21	COORD	_	t_248|ref=Fragmenta_1.3
-19	μέλιτι	μέλι	n	n-s---nd-	Case=d|Gender=n|Number=s	20	OBJ	_	t_249|ref=Fragmenta_1.3
-20	μιγεῖσά	μίγνυμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_250|ref=Fragmenta_1.3
-21	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_251|ref=Fragmenta_1.3
-22	ἀνακαθαρτική	ἀνακαθαρτικός	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_252|ref=Fragmenta_1.3
-23	.	.	u	u--------	_	14	AuxK	_	t_253|ref=Fragmenta_1.3
+1	ὅλη	ὅλος	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ADV	_	t_231|t_243|ref=fr._1.3
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_232|t_243|ref=fr._1.3
+3	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_233|t_243|ref=fr._1.3
+4	μετὰ	μετά	r	r--------	_	3	AuxP	_	t_234|t_233|ref=fr._1.3
+5	ἀξουγγίας	ἀξουγγία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_235|t_234|ref=fr._1.3
+6	παλαιᾶς	παλαιός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_236|t_235|ref=fr._1.3
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_237|t_238|ref=fr._1.3
+8	παλαιὰ	παλαιός	a	a-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_238|t_241|ref=fr._1.3
+9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_239|t_240|ref=fr._1.3
+10	ἑλκῶν	ἕλκος	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_240|t_238|ref=fr._1.3
+11	καὶ	καί	c	c--------	_	13	COORD	_	t_241|t_243|ref=fr._1.3
+12	δυσαπούλωτα	δυσαπάλλακτος	a	a-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_242|t_241|ref=fr._1.3
+13	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_243|t_246|ref=fr._1.3
+14	,	,	u	u--------	_	0	AuxX	_	t_244|0|ref=fr._1.3
+15	ξηρὰ	ξηρός	a	a-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_245|t_247|ref=fr._1.3
+16	δὲ	δέ	d	d--------	_	14	COORD	_	t_246|t_244|ref=fr._1.3
+17	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_247|t_248|ref=fr._1.3
+18	καὶ	καί	c	c--------	_	21	COORD	_	t_248|t_251|ref=fr._1.3
+19	μέλιτι	μέλι	n	n-s---nd-	Case=d|Gender=n|Number=s	20	OBJ	_	t_249|t_250|ref=fr._1.3
+20	μιγεῖσά	μίγνυμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_250|t_248|ref=fr._1.3
+21	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_251|t_246|ref=fr._1.3
+22	ἀνακαθαρτική	ἀνακαθαρτικός	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_252|t_251|ref=fr._1.3
+23	.	.	u	u--------	_	14	AuxK	_	t_253|t_244|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = Diosc .
 # sent_id = 34
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_254|ref=Fragmenta_1.3
-2	.	.	u	u--------	_	1	AuxK	_	t_255|ref=Fragmenta_1.3
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_254|0|ref=fr._1.3
+2	.	.	u	u--------	_	1	AuxK	_	t_255|t_254|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = IV 36 ( 196 , 6 ) [0] .
 # sent_id = 35
-1	IV	iv	u	u--------	_	8	AuxG	_	t_256|ref=Fragmenta_1.3
-2	36	36	x	x--------	_	8	AuxG	_	t_257|ref=Fragmenta_1.3
-3	(	̔	u	u--------	_	8	AuxG	_	t_258|ref=Fragmenta_1.3
-4	196	196	d	d--------	_	8	ExD	_	t_259|ref=Fragmenta_1.3
-5	,	,	u	u--------	_	8	COORD	_	t_260|ref=Fragmenta_1.3
-6	6	6	x	x--------	_	8	AuxK	_	t_261|ref=Fragmenta_1.3
-7	)	)	u	u--------	_	8	AuxG	_	t_262|ref=Fragmenta_1.3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	8	AuxK	_	t_263|ref=Fragmenta_1.3
+1	IV	iv	u	u--------	_	8	AuxG	_	t_256|e_8|ref=fr._1.3
+2	36	36	x	x--------	_	8	AuxG	_	t_257|e_8|ref=fr._1.3
+3	(	̔	u	u--------	_	8	AuxG	_	t_258|e_8|ref=fr._1.3
+4	196	196	d	d--------	_	8	ExD	_	t_259|e_8|ref=fr._1.3
+5	,	,	u	u--------	_	8	COORD	_	t_260|e_8|ref=fr._1.3
+6	6	6	x	x--------	_	8	AuxK	_	t_261|e_8|ref=fr._1.3
+7	)	)	u	u--------	_	8	AuxG	_	t_262|e_8|ref=fr._1.3
+8	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=fr._1.1
+9	.	.	u	u--------	_	8	AuxK	_	t_263|e_8|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = 4 Cod .
 # sent_id = 36
-1	4	4	u	u--------	_	2	AuxG	_	t_264|ref=Fragmenta_1.3
-2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_265|ref=Fragmenta_1.3
-3	.	.	u	u--------	_	2	AuxK	_	t_266|ref=Fragmenta_1.3
+1	4	4	u	u--------	_	2	AuxG	_	t_264|t_265|ref=fr._1.3
+2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_265|0|ref=fr._1.3
+3	.	.	u	u--------	_	2	AuxK	_	t_266|t_265|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = Const .
 # sent_id = 37
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_267|ref=Fragmenta_1.3
-2	.	.	u	u--------	_	1	AuxK	_	t_268|ref=Fragmenta_1.3
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_267|0|ref=fr._1.3
+2	.	.	u	u--------	_	1	AuxK	_	t_268|t_267|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3
+# source = Crateuas, fr. 1.3
 # text = fol .
 # sent_id = 38
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_269|ref=Fragmenta_1.3
-2	.	.	u	u--------	_	1	AuxK	_	t_270|ref=Fragmenta_1.3
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_269|0|ref=fr._1.3
+2	.	.	u	u--------	_	1	AuxK	_	t_270|t_269|ref=fr._1.3
 
-# source = Crateuas, Fragmenta 1.3-1.4
+# source = Crateuas, fr. 1.3-1.4
 # text = 26r Κρατεύας .
 # sent_id = 39
-1	26r	26r	x	x--------	_	0	ExD	_	t_271|ref=Fragmenta_1.3
-2	Κρατεύας	κρατεύω	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ExD	_	t_272|ref=Fragmenta_1.4
-3	.	.	u	u--------	_	1	AuxK	_	t_273|ref=Fragmenta_1.4
+1	26r	26r	x	x--------	_	0	ExD	_	t_271|0|ref=fr._1.3
+2	Κρατεύας	κρατεύω	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ExD	_	t_272|t_271|ref=fr._1.4
+3	.	.	u	u--------	_	1	AuxK	_	t_273|t_271|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = ἀνεμώνη ἡ φοινικῆ [0] ·
 # sent_id = 40
-1	ἀνεμώνη	ἀνεμώνη	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_274|ref=Fragmenta_1.4
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_275|ref=Fragmenta_1.4
-3	φοινικῆ	φοινικῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_276|ref=Fragmenta_1.4
-4	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Fragmenta_1.1
-5	·	·	u	u--------	_	4	AuxK	_	t_277|ref=Fragmenta_1.4
+1	ἀνεμώνη	ἀνεμώνη	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_274|e_9|ref=fr._1.4
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_275|t_276|ref=fr._1.4
+3	φοινικῆ	φοινικῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_276|e_9|ref=fr._1.4
+4	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._1.1
+5	·	·	u	u--------	_	4	AuxK	_	t_277|e_9|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = ἀνεμώνη δύναμιν ἔχει δριμεῖαν , ὅθεν ὁ χυλὸς τῆς ῥίζης αὐτῆς γίνεται ἔγχυτος πρὸς κεφαλῆς κάθαρσιν .
 # sent_id = 41
-1	ἀνεμώνη	ἀνεμώνη	a	a-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_278|ref=Fragmenta_1.4
-2	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_279|ref=Fragmenta_1.4
-3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_280|ref=Fragmenta_1.4
-4	δριμεῖαν	δριμύς	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_281|ref=Fragmenta_1.4
-5	,	,	u	u--------	_	3	AuxX	_	t_282|ref=Fragmenta_1.4
-6	ὅθεν	ὅθεν	d	d--------	_	3	ADV	_	t_283|ref=Fragmenta_1.4
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_284|ref=Fragmenta_1.4
-8	χυλὸς	χυλός	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_285|ref=Fragmenta_1.4
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_286|ref=Fragmenta_1.4
-10	ῥίζης	ῥίζα	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_287|ref=Fragmenta_1.4
-11	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_288|ref=Fragmenta_1.4
-12	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	ATR	_	t_289|ref=Fragmenta_1.4
-13	ἔγχυτος	ἔγχυτος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_290|ref=Fragmenta_1.4
-14	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_291|ref=Fragmenta_1.4
-15	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_292|ref=Fragmenta_1.4
-16	κάθαρσιν	κάθαρσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_293|ref=Fragmenta_1.4
-17	.	.	u	u--------	_	3	AuxK	_	t_294|ref=Fragmenta_1.4
+1	ἀνεμώνη	ἀνεμώνη	a	a-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_278|t_280|ref=fr._1.4
+2	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_279|t_280|ref=fr._1.4
+3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_280|0|ref=fr._1.4
+4	δριμεῖαν	δριμύς	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_281|t_279|ref=fr._1.4
+5	,	,	u	u--------	_	3	AuxX	_	t_282|t_280|ref=fr._1.4
+6	ὅθεν	ὅθεν	d	d--------	_	3	ADV	_	t_283|t_280|ref=fr._1.4
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_284|t_285|ref=fr._1.4
+8	χυλὸς	χυλός	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_285|t_289|ref=fr._1.4
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_286|t_287|ref=fr._1.4
+10	ῥίζης	ῥίζα	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_287|t_285|ref=fr._1.4
+11	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_288|t_287|ref=fr._1.4
+12	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	ATR	_	t_289|t_279|ref=fr._1.4
+13	ἔγχυτος	ἔγχυτος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_290|t_289|ref=fr._1.4
+14	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_291|t_290|ref=fr._1.4
+15	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_292|t_293|ref=fr._1.4
+16	κάθαρσιν	κάθαρσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_293|t_291|ref=fr._1.4
+17	.	.	u	u--------	_	3	AuxK	_	t_294|t_280|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = μασηθεῖσα δὲ ἡ ῥίζα ἄγει φλέγμα ·
 # sent_id = 42
-1	μασηθεῖσα	μασάομαι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_295|ref=Fragmenta_1.4
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_296|ref=Fragmenta_1.4
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_297|ref=Fragmenta_1.4
-4	ῥίζα	ῥίζα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_298|ref=Fragmenta_1.4
-5	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_299|ref=Fragmenta_1.4
-6	φλέγμα	φλέγμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_300|ref=Fragmenta_1.4
-7	·	·	u	u--------	_	2	AuxK	_	t_301|ref=Fragmenta_1.4
+1	μασηθεῖσα	μασάομαι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_295|t_299|ref=fr._1.4
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_296|0|ref=fr._1.4
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_297|t_298|ref=fr._1.4
+4	ῥίζα	ῥίζα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_298|t_299|ref=fr._1.4
+5	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_299|t_296|ref=fr._1.4
+6	φλέγμα	φλέγμα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_300|t_299|ref=fr._1.4
+7	·	·	u	u--------	_	2	AuxK	_	t_301|t_296|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = ἑψηθεῖσα δὲ ἐν γλυκεῖ καὶ καταπλασσομένη ὀφθαλμῶν φλεγμονὰς αἴρει , ὁμοίως καὶ τὰς οὐλὰς ἀποσμήχει .
 # sent_id = 43
-1	ἑψηθεῖσα	ἑψέω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_302|ref=Fragmenta_1.4
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_303|ref=Fragmenta_1.4
-3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_304|ref=Fragmenta_1.4
-4	γλυκεῖ	γλυκύς	a	a-s---nd-	Case=d|Gender=n|Number=s	3	ADV	_	t_305|ref=Fragmenta_1.4
-5	καὶ	καί	c	c--------	_	9	COORD	_	t_306|ref=Fragmenta_1.4
-6	καταπλασσομένη	καταπλήσσω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_307|ref=Fragmenta_1.4
-7	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	6	OBJ	_	t_308|ref=Fragmenta_1.4
-8	φλεγμονὰς	φλεγμονή	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_309|ref=Fragmenta_1.4
-9	αἴρει	αἴρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_310|ref=Fragmenta_1.4
-10	,	,	u	u--------	_	0	AuxX	_	t_311|ref=Fragmenta_1.4
-11	ὁμοίως	ὅμοιος	d	d--------	_	15	ADV	_	t_312|ref=Fragmenta_1.4
-12	καὶ	καί	d	d--------	_	14	AuxZ	_	t_313|ref=Fragmenta_1.4
-13	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_314|ref=Fragmenta_1.4
-14	οὐλὰς	οὐλή	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_315|ref=Fragmenta_1.4
-15	ἀποσμήχει	ἀποσμήχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_316|ref=Fragmenta_1.4
-16	.	.	u	u--------	_	10	AuxK	_	t_317|ref=Fragmenta_1.4
+1	ἑψηθεῖσα	ἑψέω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_302|t_306|ref=fr._1.4
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_303|t_310|ref=fr._1.4
+3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_304|t_302|ref=fr._1.4
+4	γλυκεῖ	γλυκύς	a	a-s---nd-	Case=d|Gender=n|Number=s	3	ADV	_	t_305|t_304|ref=fr._1.4
+5	καὶ	καί	c	c--------	_	9	COORD	_	t_306|t_310|ref=fr._1.4
+6	καταπλασσομένη	καταπλήσσω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_307|t_306|ref=fr._1.4
+7	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	6	OBJ	_	t_308|t_307|ref=fr._1.4
+8	φλεγμονὰς	φλεγμονή	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_309|t_310|ref=fr._1.4
+9	αἴρει	αἴρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_310|t_311|ref=fr._1.4
+10	,	,	u	u--------	_	0	AuxX	_	t_311|0|ref=fr._1.4
+11	ὁμοίως	ὅμοιος	d	d--------	_	15	ADV	_	t_312|t_316|ref=fr._1.4
+12	καὶ	καί	d	d--------	_	14	AuxZ	_	t_313|t_315|ref=fr._1.4
+13	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_314|t_315|ref=fr._1.4
+14	οὐλὰς	οὐλή	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_315|t_316|ref=fr._1.4
+15	ἀποσμήχει	ἀποσμήχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_316|t_311|ref=fr._1.4
+16	.	.	u	u--------	_	10	AuxK	_	t_317|t_311|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = τὰ δὲ φύλλα καὶ οἱ καυλοὶ συνεψηθέντα πτισάνῃ καὶ ἐσθιόμενα γάλα κατασπᾷ , ἐν προσθέτῳ δὲ ἔμμηνα ἄγει , καταπλασθέντα δὲ λέπρας ἀφίστησιν .
 # sent_id = 44
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_318|ref=Fragmenta_1.4
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_319|ref=Fragmenta_1.4
-3	φύλλα	φύλλον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_320|ref=Fragmenta_1.4
-4	καὶ	καί	c	c--------	_	12	COORD	_	t_321|ref=Fragmenta_1.4
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_322|ref=Fragmenta_1.4
-6	καυλοὶ	καυλός	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_323|ref=Fragmenta_1.4
-7	συνεψηθέντα	συνεψάω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	ATR	_	t_324|ref=Fragmenta_1.4
-8	πτισάνῃ	πτισσάνη	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_325|ref=Fragmenta_1.4
-9	καὶ	καί	c	c--------	_	12	COORD	_	t_326|ref=Fragmenta_1.4
-10	ἐσθιόμενα	ἐσθίω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_327|ref=Fragmenta_1.4
-11	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_328|ref=Fragmenta_1.4
-12	κατασπᾷ	κατασπάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_329|ref=Fragmenta_1.4
-13	,	,	u	u--------	_	0	AuxX	_	t_330|ref=Fragmenta_1.4
-14	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_331|ref=Fragmenta_1.4
-15	προσθέτῳ	πρόσθετος	n	n-s---nd-	Case=d|Gender=n|Number=s	14	ADV	_	t_332|ref=Fragmenta_1.4
-16	δὲ	δέ	d	d--------	_	21	AuxY	_	t_333|ref=Fragmenta_1.4
-17	ἔμμηνα	ἔμμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_334|ref=Fragmenta_1.4
-18	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_335|ref=Fragmenta_1.4
-19	,	,	u	u--------	_	13	AuxX	_	t_336|ref=Fragmenta_1.4
-20	καταπλασθέντα	καταπλάσσω	v	v-pappna-	Case=a|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	23	ADV	_	t_337|ref=Fragmenta_1.4
-21	δὲ	δέ	c	c--------	_	13	COORD	_	t_338|ref=Fragmenta_1.4
-22	λέπρας	λέπρα	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_339|ref=Fragmenta_1.4
-23	ἀφίστησιν	ἀφίστημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_340|ref=Fragmenta_1.4
-24	.	.	u	u--------	_	13	AuxK	_	t_341|ref=Fragmenta_1.4
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_318|t_320|ref=fr._1.4
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_319|t_338|ref=fr._1.4
+3	φύλλα	φύλλον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_320|t_321|ref=fr._1.4
+4	καὶ	καί	c	c--------	_	12	COORD	_	t_321|t_329|ref=fr._1.4
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_322|t_323|ref=fr._1.4
+6	καυλοὶ	καυλός	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_323|t_321|ref=fr._1.4
+7	συνεψηθέντα	συνεψάω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	ATR	_	t_324|t_326|ref=fr._1.4
+8	πτισάνῃ	πτισσάνη	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_325|t_324|ref=fr._1.4
+9	καὶ	καί	c	c--------	_	12	COORD	_	t_326|t_329|ref=fr._1.4
+10	ἐσθιόμενα	ἐσθίω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_327|t_326|ref=fr._1.4
+11	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_328|t_327|ref=fr._1.4
+12	κατασπᾷ	κατασπάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_329|t_338|ref=fr._1.4
+13	,	,	u	u--------	_	0	AuxX	_	t_330|0|ref=fr._1.4
+14	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_331|t_335|ref=fr._1.4
+15	προσθέτῳ	πρόσθετος	n	n-s---nd-	Case=d|Gender=n|Number=s	14	ADV	_	t_332|t_331|ref=fr._1.4
+16	δὲ	δέ	d	d--------	_	21	AuxY	_	t_333|t_338|ref=fr._1.4
+17	ἔμμηνα	ἔμμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_334|t_335|ref=fr._1.4
+18	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_335|t_338|ref=fr._1.4
+19	,	,	u	u--------	_	13	AuxX	_	t_336|t_330|ref=fr._1.4
+20	καταπλασθέντα	καταπλάσσω	v	v-pappna-	Case=a|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	23	ADV	_	t_337|t_340|ref=fr._1.4
+21	δὲ	δέ	c	c--------	_	13	COORD	_	t_338|t_330|ref=fr._1.4
+22	λέπρας	λέπρα	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_339|t_340|ref=fr._1.4
+23	ἀφίστησιν	ἀφίστημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_340|t_338|ref=fr._1.4
+24	.	.	u	u--------	_	13	AuxK	_	t_341|t_330|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = Diosc .
 # sent_id = 45
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_342|ref=Fragmenta_1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_343|ref=Fragmenta_1.4
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_342|0|ref=fr._1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_343|t_342|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = II 176 ( 244 , 11 sq . )
 # sent_id = 46
-1	II	εἰμί	u	u--------	_	2	AuxG	_	t_344|ref=Fragmenta_1.4
-2	176	176	x	x--------	_	0	PRED	_	t_345|ref=Fragmenta_1.4
-3	(	̔	u	u--------	_	2	AuxG	_	t_346|ref=Fragmenta_1.4
-4	244	244	n	n--------	_	5	APOS	_	t_347|ref=Fragmenta_1.4
-5	,	,	u	u--------	_	2	AuxX	_	t_348|ref=Fragmenta_1.4
-6	11	11	x	x--------	_	5	APOS	_	t_349|ref=Fragmenta_1.4
-7	sq	sqq	x	x--------	_	2	ExD	_	t_350|ref=Fragmenta_1.4
-8	.	.	u	u--------	_	2	AuxK	_	t_351|ref=Fragmenta_1.4
-9	)	)	u	u--------	_	2	AuxG	_	t_352|ref=Fragmenta_1.4
+1	II	εἰμί	u	u--------	_	2	AuxG	_	t_344|t_345|ref=fr._1.4
+2	176	176	x	x--------	_	0	PRED	_	t_345|0|ref=fr._1.4
+3	(	̔	u	u--------	_	2	AuxG	_	t_346|t_345|ref=fr._1.4
+4	244	244	n	n--------	_	5	APOS	_	t_347|t_348|ref=fr._1.4
+5	,	,	u	u--------	_	2	AuxX	_	t_348|t_345|ref=fr._1.4
+6	11	11	x	x--------	_	5	APOS	_	t_349|t_348|ref=fr._1.4
+7	sq	sqq	x	x--------	_	2	ExD	_	t_350|t_345|ref=fr._1.4
+8	.	.	u	u--------	_	2	AuxK	_	t_351|t_345|ref=fr._1.4
+9	)	)	u	u--------	_	2	AuxG	_	t_352|t_345|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = .
 # sent_id = 47
-1	.	.	u	u--------	_	0	AuxK	_	t_353|ref=Fragmenta_1.4
+1	.	.	u	u--------	_	0	AuxK	_	t_353|0|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = Plin .
 # sent_id = 48
-1	Plin	plin	a	a-s---mv-	_	0	ExD	_	t_354|ref=Fragmenta_1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_355|ref=Fragmenta_1.4
+1	Plin	plin	a	a-s---mv-	_	0	ExD	_	t_354|0|ref=fr._1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_355|t_354|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = n .
 # sent_id = 49
-1	n	n	x	x--------	_	0	AuxG	_	t_356|ref=Fragmenta_1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_357|ref=Fragmenta_1.4
+1	n	n	x	x--------	_	0	AuxG	_	t_356|0|ref=fr._1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_357|t_356|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = h .
 # sent_id = 50
-1	h	ὁ	x	x--------	_	0	AuxG	_	t_358|ref=Fragmenta_1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_359|ref=Fragmenta_1.4
+1	h	ὁ	x	x--------	_	0	AuxG	_	t_358|0|ref=fr._1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_359|t_358|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = 21 , 164 [0] .
 # sent_id = 51
-1	21	21	x	x--------	_	4	AuxG	_	t_360|ref=Fragmenta_1.4
-2	,	,	u	u--------	_	4	AuxX	_	t_361|ref=Fragmenta_1.4
-3	164	164	x	x--------	_	4	AuxG	_	t_362|ref=Fragmenta_1.4
-4	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_363|ref=Fragmenta_1.4
+1	21	21	x	x--------	_	4	AuxG	_	t_360|e_10|ref=fr._1.4
+2	,	,	u	u--------	_	4	AuxX	_	t_361|e_10|ref=fr._1.4
+3	164	164	x	x--------	_	4	AuxG	_	t_362|e_10|ref=fr._1.4
+4	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_363|e_10|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = 5 Cod .
 # sent_id = 52
-1	5	5	u	u--------	_	2	AuxG	_	t_364|ref=Fragmenta_1.4
-2	Cod	ὁ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_365|ref=Fragmenta_1.4
-3	.	.	u	u--------	_	2	AuxK	_	t_366|ref=Fragmenta_1.4
+1	5	5	u	u--------	_	2	AuxG	_	t_364|t_365|ref=fr._1.4
+2	Cod	ὁ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_365|0|ref=fr._1.4
+3	.	.	u	u--------	_	2	AuxK	_	t_366|t_365|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = Const .
 # sent_id = 53
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_367|ref=Fragmenta_1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_368|ref=Fragmenta_1.4
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_367|0|ref=fr._1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_368|t_367|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4
+# source = Crateuas, fr. 1.4
 # text = fol .
 # sent_id = 54
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_369|ref=Fragmenta_1.4
-2	.	.	u	u--------	_	1	AuxK	_	t_370|ref=Fragmenta_1.4
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_369|0|ref=fr._1.4
+2	.	.	u	u--------	_	1	AuxK	_	t_370|t_369|ref=fr._1.4
 
-# source = Crateuas, Fragmenta 1.4-1.5
+# source = Crateuas, fr. 1.4-1.5
 # text = 27r Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 55
-1	27r	27r	n	n--------	_	4	ExD	_	t_371|ref=Fragmenta_1.4
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_372|ref=Fragmenta_1.4
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_373|ref=Fragmenta_1.4
-4	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_374|ref=Fragmenta_1.5
+1	27r	27r	n	n--------	_	4	ExD	_	t_371|e_11|ref=fr._1.4
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_372|e_11|ref=fr._1.4
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_373|t_372|ref=fr._1.4
+4	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_374|e_11|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = ἀσφόδελος ·
 # sent_id = 56
-1	ἀσφόδελος	ἀσφόδελος	a	a-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_375|ref=Fragmenta_1.5
-2	·	·	u	u--------	_	1	AuxK	_	t_376|ref=Fragmenta_1.5
+1	ἀσφόδελος	ἀσφόδελος	a	a-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_375|0|ref=fr._1.5
+2	·	·	u	u--------	_	1	AuxK	_	t_376|t_375|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = τούτου αἱ ῥίζαι δύναμιν ἔχουσιν διουρητικὴν καὶ ἐμμήνων κατασπαστικήν ·
 # sent_id = 57
-1	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_377|ref=Fragmenta_1.5
-2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_378|ref=Fragmenta_1.5
-3	ῥίζαι	ῥίζα	n	n-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_379|ref=Fragmenta_1.5
-4	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_380|ref=Fragmenta_1.5
-5	ἔχουσιν	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_381|ref=Fragmenta_1.5
-6	διουρητικὴν	διουρητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_382|ref=Fragmenta_1.5
-7	καὶ	καί	c	c--------	_	4	COORD	_	t_383|ref=Fragmenta_1.5
-8	ἐμμήνων	ἔμμηνος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ADV	_	t_384|ref=Fragmenta_1.4
-9	κατασπαστικήν	καταστατικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_385|ref=Fragmenta_1.5
-10	·	·	u	u--------	_	5	AuxK	_	t_386|ref=Fragmenta_1.5
+1	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_377|t_379|ref=fr._1.5
+2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_378|t_379|ref=fr._1.5
+3	ῥίζαι	ῥίζα	n	n-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_379|t_381|ref=fr._1.5
+4	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_380|t_381|ref=fr._1.5
+5	ἔχουσιν	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_381|0|ref=fr._1.5
+6	διουρητικὴν	διουρητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_382|t_383|ref=fr._1.5
+7	καὶ	καί	c	c--------	_	4	COORD	_	t_383|t_380|ref=fr._1.5
+8	ἐμμήνων	ἔμμηνος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ADV	_	t_384|t_385|ref=fr._1.4
+9	κατασπαστικήν	καταστατικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_385|t_383|ref=fr._1.5
+10	·	·	u	u--------	_	5	AuxK	_	t_386|t_381|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = θεραπεύει καὶ ποδάγρας ἀλγήματα καὶ σπάσματα καὶ βῆχας καὶ ῥήγματα ⋖μία τὸ πλῇθος τῆς ῥίζης ἐν οἴνῳ πινομένη .
 # sent_id = 58
-1	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_387|ref=Fragmenta_1.5
-2	καὶ	καί	d	d--------	_	9	AuxY	_	t_388|ref=Fragmenta_1.5
-3	ποδάγρας	ποδάγρα	n	n-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_389|ref=Fragmenta_1.5
-4	ἀλγήματα	ἄλγημα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_390|ref=Fragmenta_1.5
-5	καὶ	καί	d	d--------	_	9	AuxY	_	t_391|ref=Fragmenta_1.5
-6	σπάσματα	σπάσμα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_392|ref=Fragmenta_1.5
-7	καὶ	καί	d	d--------	_	9	AuxY	_	t_393|ref=Fragmenta_1.5
-8	βῆχας	βῆχας	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_394|ref=Fragmenta_1.5
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_395|ref=Fragmenta_1.5
-10	ῥήγματα	ῥῆγμα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_396|ref=Fragmenta_1.5
-11	⋖μία	εἷς	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_397|ref=Fragmenta_1.5
-12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_398|ref=Fragmenta_1.5
-13	πλῇθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_399|ref=Fragmenta_1.5
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_400|ref=Fragmenta_1.5
-15	ῥίζης	ῥίζα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_401|ref=Fragmenta_1.5
-16	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_402|ref=Fragmenta_1.5
-17	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_403|ref=Fragmenta_1.5
-18	πινομένη	πίνω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	1	ADV	_	t_404|ref=Fragmenta_1.5
-19	.	.	u	u--------	_	1	AuxK	_	t_405|ref=Fragmenta_1.5
+1	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_387|0|ref=fr._1.5
+2	καὶ	καί	d	d--------	_	9	AuxY	_	t_388|t_395|ref=fr._1.5
+3	ποδάγρας	ποδάγρα	n	n-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_389|t_390|ref=fr._1.5
+4	ἀλγήματα	ἄλγημα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_390|t_395|ref=fr._1.5
+5	καὶ	καί	d	d--------	_	9	AuxY	_	t_391|t_395|ref=fr._1.5
+6	σπάσματα	σπάσμα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_392|t_395|ref=fr._1.5
+7	καὶ	καί	d	d--------	_	9	AuxY	_	t_393|t_395|ref=fr._1.5
+8	βῆχας	βῆχας	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_394|t_395|ref=fr._1.5
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_395|t_387|ref=fr._1.5
+10	ῥήγματα	ῥῆγμα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_396|t_395|ref=fr._1.5
+11	⋖μία	εἷς	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_397|t_396|ref=fr._1.5
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_398|t_399|ref=fr._1.5
+13	πλῇθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_399|t_404|ref=fr._1.5
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_400|t_401|ref=fr._1.5
+15	ῥίζης	ῥίζα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_401|t_399|ref=fr._1.5
+16	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_402|t_404|ref=fr._1.5
+17	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_403|t_402|ref=fr._1.5
+18	πινομένη	πίνω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	1	ADV	_	t_404|t_387|ref=fr._1.5
+19	.	.	u	u--------	_	1	AuxK	_	t_405|t_387|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = ποιεῖ καὶ αὐεμεστέρους ὄσον ἀστράγαλος βρωθεῖσα καὶ ἐρπετοδήκτοις δίδοται ὠφελίμως πλῆθος τριῶν ·
 # sent_id = 59
-1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_406|ref=Fragmenta_1.5
-2	καὶ	καί	d	d--------	_	7	AuxY	_	t_407|ref=Fragmenta_1.5
-3	αὐεμεστέρους	αὐθήμερος	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	1	OBJ	_	t_408|ref=Fragmenta_1.5
-4	ὄσον	ὄσος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_409|ref=Fragmenta_1.5
-5	ἀστράγαλος	ἀστράγαλος	a	a-s---fn-	Case=n|Gender=f|Number=s	1	AtvV	_	t_410|ref=Fragmenta_1.5
-6	βρωθεῖσα	ἐσθίω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	1	ADV	_	t_411|ref=Fragmenta_1.5
-7	καὶ	καί	c	c--------	_	0	COORD	_	t_412|ref=Fragmenta_1.5
-8	ἐρπετοδήκτοις	ἐρπετοδέκτης	a	a-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_413|ref=Fragmenta_1.5
-9	δίδοται	δίδωμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_414|ref=Fragmenta_1.5
-10	ὠφελίμως	ὠφέλιμος	d	d--------	_	9	ADV	_	t_415|ref=Fragmenta_1.5
-11	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_416|ref=Fragmenta_1.5
-12	τριῶν	τρεῖς	m	m--------	Case=g|Gender=n|Number=p	11	ATR	_	t_417|ref=Fragmenta_1.5
-13	·	·	u	u--------	_	7	AuxK	_	t_418|ref=Fragmenta_1.5
+1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_406|t_412|ref=fr._1.5
+2	καὶ	καί	d	d--------	_	7	AuxY	_	t_407|t_412|ref=fr._1.5
+3	αὐεμεστέρους	αὐθήμερος	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	1	OBJ	_	t_408|t_406|ref=fr._1.5
+4	ὄσον	ὄσος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_409|t_411|ref=fr._1.5
+5	ἀστράγαλος	ἀστράγαλος	a	a-s---fn-	Case=n|Gender=f|Number=s	1	AtvV	_	t_410|t_406|ref=fr._1.5
+6	βρωθεῖσα	ἐσθίω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	1	ADV	_	t_411|t_406|ref=fr._1.5
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_412|0|ref=fr._1.5
+8	ἐρπετοδήκτοις	ἐρπετοδέκτης	a	a-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_413|t_414|ref=fr._1.5
+9	δίδοται	δίδωμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_414|t_412|ref=fr._1.5
+10	ὠφελίμως	ὠφέλιμος	d	d--------	_	9	ADV	_	t_415|t_414|ref=fr._1.5
+11	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_416|t_414|ref=fr._1.5
+12	τριῶν	τρεῖς	m	m--------	Case=g|Gender=n|Number=p	11	ATR	_	t_417|t_416|ref=fr._1.5
+13	·	·	u	u--------	_	7	AuxK	_	t_418|t_412|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = καταπλάσσειν δὲ δεῖ τὰ δήγματα ὅλῃ τῇ βοτάνῃ σὺν οἴνῳ .
 # sent_id = 60
-1	καταπλάσσειν	καταπλάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_419|ref=Fragmenta_1.5
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_420|ref=Fragmenta_1.5
-3	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_421|ref=Fragmenta_1.5
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_422|ref=Fragmenta_1.5
-5	δήγματα	δῆγμα	n	n-p---na-	Case=a|Gender=n|Number=p	1	SBJ	_	t_423|ref=Fragmenta_1.5
-6	ὅλῃ	ὅλος	a	a-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_424|ref=Fragmenta_1.5
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_425|ref=Fragmenta_1.5
-8	βοτάνῃ	βοτάνη	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_426|ref=Fragmenta_1.5
-9	σὺν	σύν	r	r--------	_	1	AuxP	_	t_427|ref=Fragmenta_1.5
-10	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	9	ADV	_	t_428|ref=Fragmenta_1.5
-11	.	.	u	u--------	_	3	AuxK	_	t_429|ref=Fragmenta_1.5
+1	καταπλάσσειν	καταπλάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_419|t_421|ref=fr._1.5
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_420|t_421|ref=fr._1.5
+3	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_421|0|ref=fr._1.5
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_422|t_423|ref=fr._1.5
+5	δήγματα	δῆγμα	n	n-p---na-	Case=a|Gender=n|Number=p	1	SBJ	_	t_423|t_419|ref=fr._1.5
+6	ὅλῃ	ὅλος	a	a-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_424|t_426|ref=fr._1.5
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_425|t_426|ref=fr._1.5
+8	βοτάνῃ	βοτάνη	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_426|t_419|ref=fr._1.5
+9	σὺν	σύν	r	r--------	_	1	AuxP	_	t_427|t_419|ref=fr._1.5
+10	οἴνῳ	οἶνος	n	n-s---md-	Case=d|Gender=m|Number=s	9	ADV	_	t_428|t_427|ref=fr._1.5
+11	.	.	u	u--------	_	3	AuxK	_	t_429|t_421|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = θεραπεύει καὶ τὰ ῥυπαρὰ καὶ νεμόμενα ἕλκη , ποιεῖ καὶ πρὸς μαστῶν καὶ διδύμων φλεγμονὰς καὶ φύματα καὶ δοθιῆνας συγκαθεψομένη τρυγὶ οἴνου ἡ ῥίζα , πρὸς δὲ τὰς προσφάτους φλεγμονὰς μετ᾿  ἀλφίτου [0] .
 # sent_id = 61
-1	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_430|ref=Fragmenta_1.5
-2	καὶ	καί	d	d--------	_	5	AuxY	_	t_431|ref=Fragmenta_1.5
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_432|ref=Fragmenta_1.5
-4	ῥυπαρὰ	ῥυπαρός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_433|ref=Fragmenta_1.5
-5	καὶ	καί	c	c--------	_	7	COORD	_	t_434|ref=Fragmenta_1.5
-6	νεμόμενα	νέμω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	ATR	_	t_435|ref=Fragmenta_1.5
-7	ἕλκη	ἕλκος	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_436|ref=Fragmenta_1.5
-8	,	,	u	u--------	_	0	COORD	_	t_437|ref=Fragmenta_1.5
-9	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_438|ref=Fragmenta_1.5
-10	καὶ	καί	d	d--------	_	18	AuxY	_	t_439|ref=Fragmenta_1.5
-11	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_440|ref=Fragmenta_1.5
-12	μαστῶν	μαστός	n	n-p---mg-	Case=g|Gender=m|Number=p	13	ADV	_	t_441|ref=Fragmenta_1.5
-13	καὶ	καί	c	c--------	_	11	COORD	_	t_442|ref=Fragmenta_1.5
-14	διδύμων	δίδυμος	a	a-p---mg-	Case=g|Gender=m|Number=p	13	ADV	_	t_443|ref=Fragmenta_1.5
-15	φλεγμονὰς	φλεγμονή	n	n-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_444|ref=Fragmenta_1.5
-16	καὶ	καί	c	c--------	_	9	COORD	_	t_445|ref=Fragmenta_1.5
-17	φύματα	φύσημα	n	n-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_446|ref=Fragmenta_1.5
-18	καὶ	καί	c	c--------	_	20	COORD	_	t_447|ref=Fragmenta_1.5
-19	δοθιῆνας	δοθιήν	n	n-p---ma-	Case=a|Gender=m|Number=p	18	OBJ	_	t_448|ref=Fragmenta_1.5
-20	συγκαθεψομένη	συγκαθέψω	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	9	ADV	_	t_449|ref=Fragmenta_1.5
-21	τρυγὶ	τρυγίς	n	n-s---md-	Case=d|Gender=m|Number=s	20	OBJ	_	t_450|ref=Fragmenta_1.5
-22	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_451|ref=Fragmenta_1.5
-23	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	24	ATR	_	t_452|ref=Fragmenta_1.5
-24	ῥίζα	ῥίζα	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_453|ref=Fragmenta_1.5
-25	,	,	u	u--------	_	8	AuxX	_	t_454|ref=Fragmenta_1.5
-26	πρὸς	πρός	r	r--------	_	33	AuxP	_	t_455|ref=Fragmenta_1.5
-27	δὲ	δέ	d	d--------	_	8	COORD	_	t_456|ref=Fragmenta_1.5
-28	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_457|ref=Fragmenta_1.5
-29	προσφάτους	πρόσφατος	a	a-p---fa-	Case=a|Gender=f|Number=p	26	ADV	_	t_458|ref=Fragmenta_1.5
-30	φλεγμονὰς	φλεγμονή	n	n-p---fa-	Case=a|Gender=f|Number=p	33	OBJ	_	t_459|ref=Fragmenta_1.5
-31	μετ᾿ 	μετά	r	r--------	_	33	AuxP	_	t_460|ref=Fragmenta_1.5
-32	ἀλφίτου	ἄλφιτον	n	n-s---fg-	Case=g|Gender=f|Number=s	31	ADV	_	t_461|ref=Fragmenta_1.5
-33	[0]	[0]	-	---------	_	27	PRED	_	e_12|ref=Fragmenta_1.1
-34	.	.	u	u--------	_	8	AuxK	_	t_462|ref=Fragmenta_1.5
+1	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_430|t_456|ref=fr._1.5
+2	καὶ	καί	d	d--------	_	5	AuxY	_	t_431|t_434|ref=fr._1.5
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_432|t_436|ref=fr._1.5
+4	ῥυπαρὰ	ῥυπαρός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_433|t_434|ref=fr._1.5
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_434|t_436|ref=fr._1.5
+6	νεμόμενα	νέμω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	ATR	_	t_435|t_434|ref=fr._1.5
+7	ἕλκη	ἕλκος	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_436|t_430|ref=fr._1.5
+8	,	,	u	u--------	_	0	COORD	_	t_437|0|ref=fr._1.5
+9	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_438|t_456|ref=fr._1.5
+10	καὶ	καί	d	d--------	_	18	AuxY	_	t_439|t_447|ref=fr._1.5
+11	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_440|t_438|ref=fr._1.5
+12	μαστῶν	μαστός	n	n-p---mg-	Case=g|Gender=m|Number=p	13	ADV	_	t_441|t_442|ref=fr._1.5
+13	καὶ	καί	c	c--------	_	11	COORD	_	t_442|t_440|ref=fr._1.5
+14	διδύμων	δίδυμος	a	a-p---mg-	Case=g|Gender=m|Number=p	13	ADV	_	t_443|t_442|ref=fr._1.5
+15	φλεγμονὰς	φλεγμονή	n	n-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_444|t_445|ref=fr._1.5
+16	καὶ	καί	c	c--------	_	9	COORD	_	t_445|t_438|ref=fr._1.5
+17	φύματα	φύσημα	n	n-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_446|t_447|ref=fr._1.5
+18	καὶ	καί	c	c--------	_	20	COORD	_	t_447|t_449|ref=fr._1.5
+19	δοθιῆνας	δοθιήν	n	n-p---ma-	Case=a|Gender=m|Number=p	18	OBJ	_	t_448|t_447|ref=fr._1.5
+20	συγκαθεψομένη	συγκαθέψω	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	9	ADV	_	t_449|t_438|ref=fr._1.5
+21	τρυγὶ	τρυγίς	n	n-s---md-	Case=d|Gender=m|Number=s	20	OBJ	_	t_450|t_449|ref=fr._1.5
+22	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_451|t_450|ref=fr._1.5
+23	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	24	ATR	_	t_452|t_453|ref=fr._1.5
+24	ῥίζα	ῥίζα	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_453|t_438|ref=fr._1.5
+25	,	,	u	u--------	_	8	AuxX	_	t_454|t_437|ref=fr._1.5
+26	πρὸς	πρός	r	r--------	_	33	AuxP	_	t_455|e_12|ref=fr._1.5
+27	δὲ	δέ	d	d--------	_	8	COORD	_	t_456|t_437|ref=fr._1.5
+28	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_457|t_458|ref=fr._1.5
+29	προσφάτους	πρόσφατος	a	a-p---fa-	Case=a|Gender=f|Number=p	26	ADV	_	t_458|t_455|ref=fr._1.5
+30	φλεγμονὰς	φλεγμονή	n	n-p---fa-	Case=a|Gender=f|Number=p	33	OBJ	_	t_459|e_12|ref=fr._1.5
+31	μετ᾿ 	μετά	r	r--------	_	33	AuxP	_	t_460|e_12|ref=fr._1.5
+32	ἀλφίτου	ἄλφιτον	n	n-s---fg-	Case=g|Gender=f|Number=s	31	ADV	_	t_461|t_460|ref=fr._1.5
+33	[0]	[0]	-	---------	_	27	PRED	_	e_12|t_456|ref=fr._1.1
+34	.	.	u	u--------	_	8	AuxK	_	t_462|t_437|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = ὁ δὲ χυλὸς τῆς ῥίζης προσλαβὼν οἴνου παλαιοῦ τι γλυκέος καὶ σμύρνης καὶ κρόκου συνεψηθέντων ἐπὶ τ αὐτὸ ἔγχριστον γίγνεται ὀφθαλμῶν καὶ πρὸς ὦτα πυορροοῦντα σὺν λιβάνῳ καὶ μέλιτι .
 # sent_id = 62
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_463|ref=Fragmenta_1.5
-2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_464|ref=Fragmenta_1.5
-3	χυλὸς	χυλός	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_465|ref=Fragmenta_1.5
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_466|ref=Fragmenta_1.5
-5	ῥίζης	ῥίζα	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_467|ref=Fragmenta_1.5
-6	προσλαβὼν	προσλαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	20	ADV	_	t_468|ref=Fragmenta_1.5
-7	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_469|ref=Fragmenta_1.5
-8	παλαιοῦ	παλαιός	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_470|ref=Fragmenta_1.5
-9	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_471|ref=Fragmenta_1.5
-10	γλυκέος	γλυκύς	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_472|ref=Fragmenta_1.5
-11	καὶ	καί	c	c--------	_	13	AuxY	_	t_473|ref=Fragmenta_1.5
-12	σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_474|ref=Fragmenta_1.5
-13	καὶ	καί	c	c--------	_	15	COORD	_	t_475|ref=Fragmenta_1.5
-14	κρόκου	κρόκος	n	n-s---mg-	Case=g|Gender=m|Number=s	13	SBJ	_	t_476|ref=Fragmenta_1.5
-15	συνεψηθέντων	συνεψάω	v	v-pappmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	20	ADV	_	t_477|ref=Fragmenta_1.5
-16	ἐπὶ	ἐπί	r	r--------	_	15	AuxP	_	t_478|ref=Fragmenta_1.5
-17	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_479|ref=Fragmenta_1.5
-18	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_480|ref=Fragmenta_1.5
-19	ἔγχριστον	ἔγχριστος	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_481|ref=Fragmenta_1.5
-20	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_482|ref=Fragmenta_1.5
-21	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_483|ref=Fragmenta_1.5
-22	καὶ	καί	c	c--------	_	21	AuxZ	_	t_484|ref=Fragmenta_1.5
-23	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_485|ref=Fragmenta_1.5
-24	ὦτα	οὖς	n	n-p---na-	Case=a|Gender=n|Number=p	23	ADV	_	t_486|ref=Fragmenta_1.5
-25	πυορροοῦντα	πυορροέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	18	ATR	_	t_487|ref=Fragmenta_1.5
-26	σὺν	σύν	r	r--------	_	25	AuxP	_	t_488|ref=Fragmenta_1.5
-27	λιβάνῳ	λίβανος	n	n-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_489|ref=Fragmenta_1.5
-28	καὶ	καί	c	c--------	_	26	COORD	_	t_490|ref=Fragmenta_1.5
-29	μέλιτι	μέλι	n	n-s---nd-	Case=d|Gender=n|Number=s	28	ADV	_	t_491|ref=Fragmenta_1.5
-30	.	.	u	u--------	_	20	AuxK	_	t_492|ref=Fragmenta_1.5
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_463|t_465|ref=fr._1.5
+2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_464|t_482|ref=fr._1.5
+3	χυλὸς	χυλός	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_465|t_482|ref=fr._1.5
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_466|t_467|ref=fr._1.5
+5	ῥίζης	ῥίζα	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_467|t_465|ref=fr._1.5
+6	προσλαβὼν	προσλαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	20	ADV	_	t_468|t_482|ref=fr._1.5
+7	οἴνου	οἶνος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_469|t_471|ref=fr._1.5
+8	παλαιοῦ	παλαιός	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_470|t_469|ref=fr._1.5
+9	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_471|t_468|ref=fr._1.5
+10	γλυκέος	γλυκύς	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_472|t_469|ref=fr._1.5
+11	καὶ	καί	c	c--------	_	13	AuxY	_	t_473|t_475|ref=fr._1.5
+12	σμύρνης	σμύρνα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_474|t_475|ref=fr._1.5
+13	καὶ	καί	c	c--------	_	15	COORD	_	t_475|t_477|ref=fr._1.5
+14	κρόκου	κρόκος	n	n-s---mg-	Case=g|Gender=m|Number=s	13	SBJ	_	t_476|t_475|ref=fr._1.5
+15	συνεψηθέντων	συνεψάω	v	v-pappmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	20	ADV	_	t_477|t_482|ref=fr._1.5
+16	ἐπὶ	ἐπί	r	r--------	_	15	AuxP	_	t_478|t_477|ref=fr._1.5
+17	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_479|t_480|ref=fr._1.5
+18	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_480|t_478|ref=fr._1.5
+19	ἔγχριστον	ἔγχριστος	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_481|t_482|ref=fr._1.5
+20	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_482|0|ref=fr._1.5
+21	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_483|t_481|ref=fr._1.5
+22	καὶ	καί	c	c--------	_	21	AuxZ	_	t_484|t_483|ref=fr._1.5
+23	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_485|t_487|ref=fr._1.5
+24	ὦτα	οὖς	n	n-p---na-	Case=a|Gender=n|Number=p	23	ADV	_	t_486|t_485|ref=fr._1.5
+25	πυορροοῦντα	πυορροέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	18	ATR	_	t_487|t_480|ref=fr._1.5
+26	σὺν	σύν	r	r--------	_	25	AuxP	_	t_488|t_487|ref=fr._1.5
+27	λιβάνῳ	λίβανος	n	n-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_489|t_490|ref=fr._1.5
+28	καὶ	καί	c	c--------	_	26	COORD	_	t_490|t_488|ref=fr._1.5
+29	μέλιτι	μέλι	n	n-s---nd-	Case=d|Gender=n|Number=s	28	ADV	_	t_491|t_490|ref=fr._1.5
+30	.	.	u	u--------	_	20	AuxK	_	t_492|t_482|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = Diosc .
 # sent_id = 63
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_493|ref=Fragmenta_1.5
-2	.	.	u	u--------	_	1	AuxK	_	t_494|ref=Fragmenta_1.5
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_493|0|ref=fr._1.5
+2	.	.	u	u--------	_	1	AuxK	_	t_494|t_493|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = II 169 ( 235 , 4 ) [0] .
 # sent_id = 64
-1	II	εἰμί	x	x--------	_	2	AuxG	_	t_495|ref=Fragmenta_1.5
-2	169	169	v	v2spma---	_	0	PRED	_	t_496|ref=Fragmenta_1.5
-3	(	̔	u	u--------	_	2	AuxG	_	t_497|ref=Fragmenta_1.5
-4	235	235	-	---------	_	2	OBJ	_	t_498|ref=Fragmenta_1.5
-5	,	,	u	u--------	_	2	COORD	_	t_499|ref=Fragmenta_1.5
-6	4	4	x	x--------	_	2	AuxK	_	t_500|ref=Fragmenta_1.5
-7	)	)	u	u--------	_	2	AuxG	_	t_501|ref=Fragmenta_1.5
-8	[0]	[0]	-	---------	_	2	OBJ	_	e_13|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	2	AuxK	_	t_502|ref=Fragmenta_1.5
+1	II	εἰμί	x	x--------	_	2	AuxG	_	t_495|t_496|ref=fr._1.5
+2	169	169	v	v2spma---	_	0	PRED	_	t_496|0|ref=fr._1.5
+3	(	̔	u	u--------	_	2	AuxG	_	t_497|t_496|ref=fr._1.5
+4	235	235	-	---------	_	2	OBJ	_	t_498|t_496|ref=fr._1.5
+5	,	,	u	u--------	_	2	COORD	_	t_499|t_496|ref=fr._1.5
+6	4	4	x	x--------	_	2	AuxK	_	t_500|t_496|ref=fr._1.5
+7	)	)	u	u--------	_	2	AuxG	_	t_501|t_496|ref=fr._1.5
+8	[0]	[0]	-	---------	_	2	OBJ	_	e_13|t_496|ref=fr._1.1
+9	.	.	u	u--------	_	2	AuxK	_	t_502|t_496|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = 6 Cod .
 # sent_id = 65
-1	6	6	u	u--------	_	2	AuxG	_	t_503|ref=Fragmenta_1.5
-2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_504|ref=Fragmenta_1.5
-3	.	.	u	u--------	_	2	AuxK	_	t_505|ref=Fragmenta_1.5
+1	6	6	u	u--------	_	2	AuxG	_	t_503|t_504|ref=fr._1.5
+2	Cod	ὁ	v	v2spma---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_504|0|ref=fr._1.5
+3	.	.	u	u--------	_	2	AuxK	_	t_505|t_504|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = Const .
 # sent_id = 66
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_506|ref=Fragmenta_1.5
-2	.	.	u	u--------	_	1	AuxK	_	t_507|ref=Fragmenta_1.5
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_506|0|ref=fr._1.5
+2	.	.	u	u--------	_	1	AuxK	_	t_507|t_506|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = fol .
 # sent_id = 67
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_508|ref=Fragmenta_1.5
-2	.	.	u	u--------	_	1	AuxK	_	t_509|ref=Fragmenta_1.5
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_508|0|ref=fr._1.5
+2	.	.	u	u--------	_	1	AuxK	_	t_509|t_508|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5
+# source = Crateuas, fr. 1.5
 # text = 30r Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 68
-1	30r	30r	n	n--------	_	2	APOS	_	t_510|ref=Fragmenta_1.5
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_511|ref=Fragmenta_1.5
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_512|ref=Fragmenta_1.5
-4	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_513|ref=Fragmenta_1.5
+1	30r	30r	n	n--------	_	2	APOS	_	t_510|t_511|ref=fr._1.5
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_511|e_14|ref=fr._1.5
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_512|t_511|ref=fr._1.5
+4	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_513|e_14|ref=fr._1.5
 
-# source = Crateuas, Fragmenta 1.5-1.6
+# source = Crateuas, fr. 1.5-1.6
 # text = ἀρνόγλωσσον δύναμιν ἔχει τηκτικὴν καὶ ἀφλέγμαντον ·
 # sent_id = 69
-1	ἀρνόγλωσσον	ἀρνόγλωσσος	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_514|ref=Fragmenta_1.5
-2	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_515|ref=Fragmenta_1.5
-3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_516|ref=Fragmenta_1.6
-4	τηκτικὴν	τηκτικός	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_517|ref=Fragmenta_1.6
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_518|ref=Fragmenta_1.6
-6	ἀφλέγμαντον	ἀφλέγμαντος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_519|ref=Fragmenta_1.6
-7	·	·	u	u--------	_	3	AuxK	_	t_520|ref=Fragmenta_1.6
+1	ἀρνόγλωσσον	ἀρνόγλωσσος	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_514|t_515|ref=fr._1.5
+2	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_515|t_516|ref=fr._1.5
+3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_516|0|ref=fr._1.6
+4	τηκτικὴν	τηκτικός	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_517|t_518|ref=fr._1.6
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_518|t_515|ref=fr._1.6
+6	ἀφλέγμαντον	ἀφλέγμαντος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_519|t_518|ref=fr._1.6
+7	·	·	u	u--------	_	3	AuxK	_	t_520|t_516|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = κοπεῖσα γὰρ μετὰ στέατος καὶ ἐπιτιθεμένη τοῖς τὰ χειρώνια ἔχουσιν εὐθετεῖ , πρὸς δὲ τὰ λοιπὰ ποιεῖ σχε Diosc .
 # sent_id = 70
-1	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_521|ref=Fragmenta_1.6
-2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_522|ref=Fragmenta_1.6
-3	μετὰ	μετά	r	r--------	_	1	AuxP	_	t_523|ref=Fragmenta_1.6
-4	στέατος	στέαρ	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_524|ref=Fragmenta_1.6
-5	καὶ	καί	c	c--------	_	11	COORD	_	t_525|ref=Fragmenta_1.6
-6	ἐπιτιθεμένη	ἐπιτίθημι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_526|ref=Fragmenta_1.5
-7	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_527|ref=Fragmenta_1.6
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_528|ref=Fragmenta_1.6
-9	χειρώνια	χειρόνικος	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_529|ref=Fragmenta_1.6
-10	ἔχουσιν	ἔχω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	OBJ	_	t_530|ref=Fragmenta_1.6
-11	εὐθετεῖ	εὐθετέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_531|ref=Fragmenta_1.6
-12	,	,	u	u--------	_	0	AuxX	_	t_532|ref=Fragmenta_1.6
-13	πρὸς	πρός	r	r--------	_	17	AuxP	_	t_533|ref=Fragmenta_1.6
-14	δὲ	δέ	c	c--------	_	12	COORD	_	t_534|ref=Fragmenta_1.6
-15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_535|ref=Fragmenta_1.6
-16	λοιπὰ	λοιπός	a	a-p---na-	Case=a|Gender=n|Number=p	13	ADV	_	t_536|ref=Fragmenta_1.6
-17	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_537|ref=Fragmenta_1.6
-18	σχε	σχάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_538|ref=Fragmenta_1.6
-19	Diosc	diosc	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_539|ref=Fragmenta_1.6
-20	.	.	u	u--------	_	12	AuxK	_	t_540|ref=Fragmenta_1.6
+1	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_521|t_525|ref=fr._1.6
+2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_522|t_534|ref=fr._1.6
+3	μετὰ	μετά	r	r--------	_	1	AuxP	_	t_523|t_521|ref=fr._1.6
+4	στέατος	στέαρ	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_524|t_523|ref=fr._1.6
+5	καὶ	καί	c	c--------	_	11	COORD	_	t_525|t_531|ref=fr._1.6
+6	ἐπιτιθεμένη	ἐπιτίθημι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_526|t_525|ref=fr._1.5
+7	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_527|t_530|ref=fr._1.6
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_528|t_529|ref=fr._1.6
+9	χειρώνια	χειρόνικος	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_529|t_530|ref=fr._1.6
+10	ἔχουσιν	ἔχω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	OBJ	_	t_530|t_526|ref=fr._1.6
+11	εὐθετεῖ	εὐθετέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_531|t_534|ref=fr._1.6
+12	,	,	u	u--------	_	0	AuxX	_	t_532|0|ref=fr._1.6
+13	πρὸς	πρός	r	r--------	_	17	AuxP	_	t_533|t_537|ref=fr._1.6
+14	δὲ	δέ	c	c--------	_	12	COORD	_	t_534|t_532|ref=fr._1.6
+15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_535|t_536|ref=fr._1.6
+16	λοιπὰ	λοιπός	a	a-p---na-	Case=a|Gender=n|Number=p	13	ADV	_	t_536|t_533|ref=fr._1.6
+17	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_537|t_534|ref=fr._1.6
+18	σχε	σχάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_538|t_534|ref=fr._1.6
+19	Diosc	diosc	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_539|t_537|ref=fr._1.6
+20	.	.	u	u--------	_	12	AuxK	_	t_540|t_532|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = II 126 ( 199 , 5 ) [0] .
 # sent_id = 71
-1	II	εἰμί	u	u--------	_	2	AuxG	_	t_541|ref=Fragmenta_1.6
-2	126	126	x	x--------	_	0	PRED	_	t_542|ref=Fragmenta_1.6
-3	(	̔	u	u--------	_	2	AuxG	_	t_543|ref=Fragmenta_1.6
-4	199	199	n	n--------	_	2	ExD	_	t_544|ref=Fragmenta_1.6
-5	,	,	u	u--------	_	2	COORD	_	t_545|ref=Fragmenta_1.6
-6	5	5	x	x--------	_	2	AuxG	_	t_546|ref=Fragmenta_1.6
-7	)	)	u	u--------	_	2	AuxG	_	t_547|ref=Fragmenta_1.6
-8	[0]	[0]	-	---------	_	2	PRED	_	e_15|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	2	AuxK	_	t_548|ref=Fragmenta_1.6
+1	II	εἰμί	u	u--------	_	2	AuxG	_	t_541|t_542|ref=fr._1.6
+2	126	126	x	x--------	_	0	PRED	_	t_542|0|ref=fr._1.6
+3	(	̔	u	u--------	_	2	AuxG	_	t_543|t_542|ref=fr._1.6
+4	199	199	n	n--------	_	2	ExD	_	t_544|t_542|ref=fr._1.6
+5	,	,	u	u--------	_	2	COORD	_	t_545|t_542|ref=fr._1.6
+6	5	5	x	x--------	_	2	AuxG	_	t_546|t_542|ref=fr._1.6
+7	)	)	u	u--------	_	2	AuxG	_	t_547|t_542|ref=fr._1.6
+8	[0]	[0]	-	---------	_	2	PRED	_	e_15|t_542|ref=fr._1.1
+9	.	.	u	u--------	_	2	AuxK	_	t_548|t_542|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = 7 Cod .
 # sent_id = 72
-1	7	7	u	u--------	_	2	AuxG	_	t_549|ref=Fragmenta_1.6
-2	Cod	ὁ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_550|ref=Fragmenta_1.6
-3	.	.	u	u--------	_	1	AuxK	_	t_551|ref=Fragmenta_1.6
+1	7	7	u	u--------	_	2	AuxG	_	t_549|t_550|ref=fr._1.6
+2	Cod	ὁ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_550|0|ref=fr._1.6
+3	.	.	u	u--------	_	1	AuxK	_	t_551|t_549|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = Const .
 # sent_id = 73
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_552|ref=Fragmenta_1.6
-2	.	.	u	u--------	_	1	AuxK	_	t_553|ref=Fragmenta_1.6
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_552|0|ref=fr._1.6
+2	.	.	u	u--------	_	1	AuxK	_	t_553|t_552|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = fol .
 # sent_id = 74
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_554|ref=Fragmenta_1.6
-2	.	.	u	u--------	_	1	AuxK	_	t_555|ref=Fragmenta_1.6
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_554|0|ref=fr._1.6
+2	.	.	u	u--------	_	1	AuxK	_	t_555|t_554|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = 31r Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 75
-1	31r	31r	n	n--------	_	2	APOS	_	t_556|ref=Fragmenta_1.6
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_557|ref=Fragmenta_1.6
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_558|ref=Fragmenta_1.6
-4	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_559|ref=Fragmenta_1.6
+1	31r	31r	n	n--------	_	2	APOS	_	t_556|t_557|ref=fr._1.6
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_557|e_16|ref=fr._1.6
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_558|t_557|ref=fr._1.6
+4	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_559|e_16|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6
+# source = Crateuas, fr. 1.6
 # text = ἄσαρον [0] ·
 # sent_id = 76
-1	ἄσαρον	ἄσαρος	a	a-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_560|ref=Fragmenta_1.6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_17|ref=Fragmenta_1.1
-3	·	·	u	u--------	_	2	AuxK	_	t_561|ref=Fragmenta_1.6
+1	ἄσαρον	ἄσαρος	a	a-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_560|e_17|ref=fr._1.6
+2	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=fr._1.1
+3	·	·	u	u--------	_	2	AuxK	_	t_561|e_17|ref=fr._1.6
 
-# source = Crateuas, Fragmenta 1.6-1.7
+# source = Crateuas, fr. 1.6-1.7
 # text = δύναμιν ἔχει θερμαντικὴν καὶ διουρητικήν , ἁρμόζουσαν ὑδρωπικοῖς , ἰσχιαδικοῖς χρονίοις .
 # sent_id = 77
-1	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_562|ref=Fragmenta_1.6
-2	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_563|ref=Fragmenta_1.6
-3	θερμαντικὴν	θερμαντικός	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_564|ref=Fragmenta_1.7
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_565|ref=Fragmenta_1.7
-5	διουρητικήν	διουρητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_566|ref=Fragmenta_1.7
-6	,	,	u	u--------	_	7	AuxX	_	t_567|ref=Fragmenta_1.7
-7	ἁρμόζουσαν	ἁρμόζω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	1	ATR	_	t_568|ref=Fragmenta_1.7
-8	ὑδρωπικοῖς	ὑδρωπικός	a	a-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_569|ref=Fragmenta_1.7
-9	,	,	u	u--------	_	7	AuxX	_	t_570|ref=Fragmenta_1.7
-10	ἰσχιαδικοῖς	ἰσχιαδικός	a	a-p---nd-	Case=d|Gender=m|Number=p	11	ATR	_	t_571|ref=Fragmenta_1.7
-11	χρονίοις	χρόνιος	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_572|ref=Fragmenta_1.7
-12	.	.	u	u--------	_	2	AuxK	_	t_573|ref=Fragmenta_1.7
+1	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_562|t_563|ref=fr._1.6
+2	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_563|0|ref=fr._1.6
+3	θερμαντικὴν	θερμαντικός	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_564|t_565|ref=fr._1.7
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_565|t_562|ref=fr._1.7
+5	διουρητικήν	διουρητικός	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_566|t_565|ref=fr._1.7
+6	,	,	u	u--------	_	7	AuxX	_	t_567|t_568|ref=fr._1.7
+7	ἁρμόζουσαν	ἁρμόζω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	1	ATR	_	t_568|t_562|ref=fr._1.7
+8	ὑδρωπικοῖς	ὑδρωπικός	a	a-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_569|t_568|ref=fr._1.7
+9	,	,	u	u--------	_	7	AuxX	_	t_570|t_568|ref=fr._1.7
+10	ἰσχιαδικοῖς	ἰσχιαδικός	a	a-p---nd-	Case=d|Gender=m|Number=p	11	ATR	_	t_571|t_572|ref=fr._1.7
+11	χρονίοις	χρόνιος	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_572|t_569|ref=fr._1.7
+12	.	.	u	u--------	_	2	AuxK	_	t_573|t_563|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.6-1.7
+# source = Crateuas, fr. 1.6-1.7
 # text = ἄγουσιν αἱ ῥίζαι καὶ ἔμμηνα , μετὰ μελικράτου δὲ ποθεῖσαι πλῆθος ἓξ ὡς ἐλλέβορος λευκὸς καθαίρουσι [0] ·
 # sent_id = 78
-1	ἄγουσιν	ἄγω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	9	PRED	_	t_574|ref=Fragmenta_1.6
-2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_575|ref=Fragmenta_1.7
-3	ῥίζαι	ῥίζα	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_576|ref=Fragmenta_1.7
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_577|ref=Fragmenta_1.6
-5	ἔμμηνα	ἔμμηνος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_578|ref=Fragmenta_1.7
-6	,	,	u	u--------	_	0	AuxX	_	t_579|ref=Fragmenta_1.7
-7	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_580|ref=Fragmenta_1.7
-8	μελικράτου	μελίκρατος	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_581|ref=Fragmenta_1.7
-9	δὲ	δέ	c	c--------	_	6	COORD	_	t_582|ref=Fragmenta_1.7
-10	ποθεῖσαι	ποθέω	v	v-pappfn-	Case=n|Gender=f|Mood=p|Number=p|Tense=a|Voice=p	16	ADV	_	t_583|ref=Fragmenta_1.7
-11	πλῆθος	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_584|ref=Fragmenta_1.7
-12	ἓξ	ἕξ	m	m--------	_	11	ATR	_	t_585|ref=Fragmenta_1.7
-13	ὡς	ὡς	c	c--------	_	16	AuxC	_	t_586|ref=Fragmenta_1.7
-14	ἐλλέβορος	ἑλλέβορος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_587|ref=Fragmenta_1.7
-15	λευκὸς	λευκός	a	a-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_588|ref=Fragmenta_1.7
-16	καθαίρουσι	καθαίρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	9	PRED	_	t_589|ref=Fragmenta_1.7
-17	[0]	[0]	-	---------	_	13	ADV	_	e_18|ref=Fragmenta_1.1
-18	·	·	u	u--------	_	6	AuxK	_	t_590|ref=Fragmenta_1.7
+1	ἄγουσιν	ἄγω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	9	PRED	_	t_574|t_582|ref=fr._1.6
+2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_575|t_576|ref=fr._1.7
+3	ῥίζαι	ῥίζα	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_576|t_577|ref=fr._1.7
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_577|t_574|ref=fr._1.6
+5	ἔμμηνα	ἔμμηνος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_578|t_577|ref=fr._1.7
+6	,	,	u	u--------	_	0	AuxX	_	t_579|0|ref=fr._1.7
+7	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_580|t_583|ref=fr._1.7
+8	μελικράτου	μελίκρατος	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_581|t_580|ref=fr._1.7
+9	δὲ	δέ	c	c--------	_	6	COORD	_	t_582|t_579|ref=fr._1.7
+10	ποθεῖσαι	ποθέω	v	v-pappfn-	Case=n|Gender=f|Mood=p|Number=p|Tense=a|Voice=p	16	ADV	_	t_583|t_589|ref=fr._1.7
+11	πλῆθος	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_584|t_589|ref=fr._1.7
+12	ἓξ	ἕξ	m	m--------	_	11	ATR	_	t_585|t_584|ref=fr._1.7
+13	ὡς	ὡς	c	c--------	_	16	AuxC	_	t_586|t_589|ref=fr._1.7
+14	ἐλλέβορος	ἑλλέβορος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_587|e_18|ref=fr._1.7
+15	λευκὸς	λευκός	a	a-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_588|t_587|ref=fr._1.7
+16	καθαίρουσι	καθαίρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	9	PRED	_	t_589|t_582|ref=fr._1.7
+17	[0]	[0]	-	---------	_	13	ADV	_	e_18|t_586|ref=fr._1.1
+18	·	·	u	u--------	_	6	AuxK	_	t_590|t_579|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = μείγνυται δὲ καὶ μύροις ναὶ ἀντιδότοις .
 # sent_id = 79
-1	μείγνυται	μίγνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_591|ref=Fragmenta_1.7
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_592|ref=Fragmenta_1.7
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_593|ref=Fragmenta_1.7
-4	μύροις	μύρον	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_594|ref=Fragmenta_1.7
-5	ναὶ	ναί	d	d--------	_	1	AuxY	_	t_595|ref=Fragmenta_1.7
-6	ἀντιδότοις	ἀντίδοτος	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_596|ref=Fragmenta_1.7
-7	.	.	u	u--------	_	1	AuxK	_	t_597|ref=Fragmenta_1.7
+1	μείγνυται	μίγνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_591|0|ref=fr._1.7
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_592|t_591|ref=fr._1.7
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_593|t_594|ref=fr._1.7
+4	μύροις	μύρον	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_594|t_591|ref=fr._1.7
+5	ναὶ	ναί	d	d--------	_	1	AuxY	_	t_595|t_591|ref=fr._1.7
+6	ἀντιδότοις	ἀντίδοτος	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_596|t_594|ref=fr._1.7
+7	.	.	u	u--------	_	1	AuxK	_	t_597|t_591|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = Diosc .
 # sent_id = 80
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_598|ref=Fragmenta_1.7
-2	.	.	u	u--------	_	1	AuxK	_	t_599|ref=Fragmenta_1.7
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_598|0|ref=fr._1.7
+2	.	.	u	u--------	_	1	AuxK	_	t_599|t_598|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = I 10 ( 15 , 6 ) [0] .
 # sent_id = 81
-1	I	εἰ	x	x--------	_	8	AuxG	_	t_600|ref=Fragmenta_1.7
-2	10	10	x	x--------	_	1	AuxG	_	t_601|ref=Fragmenta_1.7
-3	(	̔	u	u--------	_	2	AuxG	_	t_602|ref=Fragmenta_1.7
-4	15	15	x	x--------	_	5	APOS	_	t_603|ref=Fragmenta_1.7
-5	,	,	u	u--------	_	8	COORD	_	t_604|ref=Fragmenta_1.7
-6	6	6	x	x--------	_	8	AuxG	_	t_605|ref=Fragmenta_1.7
-7	)	)	u	u--------	_	2	AuxG	_	t_606|ref=Fragmenta_1.7
-8	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	2	AuxK	_	t_607|ref=Fragmenta_1.7
+1	I	εἰ	x	x--------	_	8	AuxG	_	t_600|e_19|ref=fr._1.7
+2	10	10	x	x--------	_	1	AuxG	_	t_601|t_600|ref=fr._1.7
+3	(	̔	u	u--------	_	2	AuxG	_	t_602|t_601|ref=fr._1.7
+4	15	15	x	x--------	_	5	APOS	_	t_603|t_604|ref=fr._1.7
+5	,	,	u	u--------	_	8	COORD	_	t_604|e_19|ref=fr._1.7
+6	6	6	x	x--------	_	8	AuxG	_	t_605|e_19|ref=fr._1.7
+7	)	)	u	u--------	_	2	AuxG	_	t_606|t_601|ref=fr._1.7
+8	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=fr._1.1
+9	.	.	u	u--------	_	2	AuxK	_	t_607|t_601|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = 8 Cod .
 # sent_id = 82
-1	8	8	i	i--------	_	2	ExD	_	t_608|ref=Fragmenta_1.7
-2	Cod	ὁ	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	ExD	_	t_609|ref=Fragmenta_1.7
-3	.	.	u	u--------	_	1	AuxK	_	t_610|ref=Fragmenta_1.7
+1	8	8	i	i--------	_	2	ExD	_	t_608|t_609|ref=fr._1.7
+2	Cod	ὁ	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	ExD	_	t_609|0|ref=fr._1.7
+3	.	.	u	u--------	_	1	AuxK	_	t_610|t_608|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = Const .
 # sent_id = 83
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_611|ref=Fragmenta_1.7
-2	.	.	u	u--------	_	1	AuxK	_	t_612|ref=Fragmenta_1.7
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_611|0|ref=fr._1.7
+2	.	.	u	u--------	_	1	AuxK	_	t_612|t_611|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = fol .
 # sent_id = 84
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_613|ref=Fragmenta_1.7
-2	.	.	u	u--------	_	1	AuxK	_	t_614|ref=Fragmenta_1.7
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_613|0|ref=fr._1.7
+2	.	.	u	u--------	_	1	AuxK	_	t_614|t_613|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7
+# source = Crateuas, fr. 1.7
 # text = 40r Κρότεύας ῥιζοτομικός [0] .
 # sent_id = 85
-1	40r	40r	n	n--------	_	2	APOS	_	t_615|ref=Fragmenta_1.7
-2	Κρότεύας	κρότευς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_616|ref=Fragmenta_1.7
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_617|ref=Fragmenta_1.7
-4	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_618|ref=Fragmenta_1.7
+1	40r	40r	n	n--------	_	2	APOS	_	t_615|t_616|ref=fr._1.7
+2	Κρότεύας	κρότευς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_616|e_20|ref=fr._1.7
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_617|e_20|ref=fr._1.7
+4	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_618|e_20|ref=fr._1.7
 
-# source = Crateuas, Fragmenta 1.7-1.8
+# source = Crateuas, fr. 1.7-1.8
 # text = ἀναγαλλίδες ἀμφότεραι τραυματικαί , ἀφλέγμαντοι , σκολόπων τε ἐπισπαστικαὶ καὶ νομῶν ἐφεκτικαί [0] .
 # sent_id = 86
-1	ἀναγαλλίδες	ἀναγαλλίς	n	n-p---fn-	Case=n|Gender=f|Number=p	13	PNOM	_	t_619|ref=Fragmenta_1.7
-2	ἀμφότεραι	ἀμφότερος	a	a-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_620|ref=Fragmenta_1.7
-3	τραυματικαί	τραυματικός	a	a-p---fn-	Case=n|Gender=f|Number=p	1	ATR	_	t_621|ref=Fragmenta_1.7
-4	,	,	u	u--------	_	13	AuxX	_	t_622|ref=Fragmenta_1.7
-5	ἀφλέγμαντοι	ἀφλέγμαντος	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_623|ref=Fragmenta_1.7
-6	,	,	u	u--------	_	13	AuxX	_	t_624|ref=Fragmenta_1.7
-7	σκολόπων	σκίπων	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_625|ref=Fragmenta_1.7
-8	τε	τε	d	d--------	_	10	AuxY	_	t_626|ref=Fragmenta_1.7
-9	ἐπισπαστικαὶ	ἐπισπαστικός	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_627|ref=Fragmenta_1.8
-10	καὶ	καί	c	c--------	_	13	COORD	_	t_628|ref=Fragmenta_1.8
-11	νομῶν	νομός	n	n-p---mg-	Case=g|Gender=f|Number=p	12	ATR	_	t_629|ref=Fragmenta_1.8
-12	ἐφεκτικαί	ἐφεκτικός	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_630|ref=Fragmenta_1.8
-13	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=Fragmenta_1.1
-14	.	.	u	u--------	_	13	AuxK	_	t_631|ref=Fragmenta_1.8
+1	ἀναγαλλίδες	ἀναγαλλίς	n	n-p---fn-	Case=n|Gender=f|Number=p	13	PNOM	_	t_619|e_21|ref=fr._1.7
+2	ἀμφότεραι	ἀμφότερος	a	a-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_620|e_21|ref=fr._1.7
+3	τραυματικαί	τραυματικός	a	a-p---fn-	Case=n|Gender=f|Number=p	1	ATR	_	t_621|t_619|ref=fr._1.7
+4	,	,	u	u--------	_	13	AuxX	_	t_622|e_21|ref=fr._1.7
+5	ἀφλέγμαντοι	ἀφλέγμαντος	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_623|t_628|ref=fr._1.7
+6	,	,	u	u--------	_	13	AuxX	_	t_624|e_21|ref=fr._1.7
+7	σκολόπων	σκίπων	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_625|t_627|ref=fr._1.7
+8	τε	τε	d	d--------	_	10	AuxY	_	t_626|t_628|ref=fr._1.7
+9	ἐπισπαστικαὶ	ἐπισπαστικός	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_627|t_628|ref=fr._1.8
+10	καὶ	καί	c	c--------	_	13	COORD	_	t_628|e_21|ref=fr._1.8
+11	νομῶν	νομός	n	n-p---mg-	Case=g|Gender=f|Number=p	12	ATR	_	t_629|t_630|ref=fr._1.8
+12	ἐφεκτικαί	ἐφεκτικός	a	a-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_630|t_628|ref=fr._1.8
+13	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._1.1
+14	.	.	u	u--------	_	13	AuxK	_	t_631|e_21|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = ὁ δὲ χυλὸς αὐτῶν ῥινέγχυτος ὀδόντων πόνον παύσει , ἐὰν εἰς τὸν ἀντικείμενον μυξωτῆρα τοῦ ἀλγοῦντος ἐγχέῃς ·
 # sent_id = 87
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_632|ref=Fragmenta_1.8
-2	δὲ	δέ	g	g--------	_	8	AuxY	_	t_633|ref=Fragmenta_1.8
-3	χυλὸς	χυλός	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_634|ref=Fragmenta_1.8
-4	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_635|ref=Fragmenta_1.8
-5	ῥινέγχυτος	ῥινέγχυτος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_636|ref=Fragmenta_1.8
-6	ὀδόντων	ὀδούς	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_637|ref=Fragmenta_1.7
-7	πόνον	πόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_638|ref=Fragmenta_1.8
-8	παύσει	παύω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_639|ref=Fragmenta_1.8
-9	,	,	u	u--------	_	10	AuxX	_	t_640|ref=Fragmenta_1.8
-10	ἐὰν	ἐάν	c	c--------	_	8	AuxC	_	t_641|ref=Fragmenta_1.8
-11	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_642|ref=Fragmenta_1.8
-12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_643|ref=Fragmenta_1.8
-13	ἀντικείμενον	ἐναντιόομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ATR	_	t_644|ref=Fragmenta_1.8
-14	μυξωτῆρα	μυξωτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_645|ref=Fragmenta_1.8
-15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_646|ref=Fragmenta_1.8
-16	ἀλγοῦντος	ἀλγέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	OBJ	_	t_647|ref=Fragmenta_1.8
-17	ἐγχέῃς	ἐγχύνω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	10	ADV	_	t_648|ref=Fragmenta_1.8
-18	·	·	u	u--------	_	8	AuxK	_	t_649|ref=Fragmenta_1.8
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_632|t_634|ref=fr._1.8
+2	δὲ	δέ	g	g--------	_	8	AuxY	_	t_633|t_639|ref=fr._1.8
+3	χυλὸς	χυλός	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_634|t_639|ref=fr._1.8
+4	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_635|t_634|ref=fr._1.8
+5	ῥινέγχυτος	ῥινέγχυτος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_636|t_634|ref=fr._1.8
+6	ὀδόντων	ὀδούς	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_637|t_638|ref=fr._1.7
+7	πόνον	πόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_638|t_639|ref=fr._1.8
+8	παύσει	παύω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_639|0|ref=fr._1.8
+9	,	,	u	u--------	_	10	AuxX	_	t_640|t_641|ref=fr._1.8
+10	ἐὰν	ἐάν	c	c--------	_	8	AuxC	_	t_641|t_639|ref=fr._1.8
+11	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_642|t_648|ref=fr._1.8
+12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_643|t_645|ref=fr._1.8
+13	ἀντικείμενον	ἐναντιόομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ATR	_	t_644|t_645|ref=fr._1.8
+14	μυξωτῆρα	μυξωτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_645|t_642|ref=fr._1.8
+15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_646|t_647|ref=fr._1.8
+16	ἀλγοῦντος	ἀλγέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	OBJ	_	t_647|t_648|ref=fr._1.8
+17	ἐγχέῃς	ἐγχύνω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	10	ADV	_	t_648|t_641|ref=fr._1.8
+18	·	·	u	u--------	_	8	AuxK	_	t_649|t_639|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = καθαίρει καὶ ἄργεμα μετὰ μέλιτος Ἀττικοῦ καὶ ἀμβλυωπίαις βοηθεῖ , φασὶν δὲ ἔνιοι τὴν μὲν ἔχουσαν τὸ κυάνεον ἄνθος πρόπτωσιν δακτυλίου στέλλειν , τὴν δὲ φοινικοῦν ἐξερεθίζειν καταπλασθεῖσαν .
 # sent_id = 88
-1	καθαίρει	καθαίρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_650|ref=Fragmenta_1.8
-2	καὶ	καί	d	d--------	_	7	AuxY	_	t_651|ref=Fragmenta_1.8
-3	ἄργεμα	ἄργεμα	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_652|ref=Fragmenta_1.8
-4	μετὰ	μετά	r	r--------	_	3	AuxP	_	t_653|ref=Fragmenta_1.8
-5	μέλιτος	μέλι	n	n-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_654|ref=Fragmenta_1.8
-6	Ἀττικοῦ	ἀττικός	a	a-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_655|ref=Fragmenta_1.8
-7	καὶ	καί	c	c--------	_	12	COORD	_	t_656|ref=Fragmenta_1.8
-8	ἀμβλυωπίαις	ἀμβλυωπία	n	n-p---fd-	Case=d|Gender=f|Number=p	9	OBJ	_	t_657|ref=Fragmenta_1.8
-9	βοηθεῖ	βοηθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_658|ref=Fragmenta_1.8
-10	,	,	u	u--------	_	0	AuxX	_	t_659|ref=Fragmenta_1.8
-11	φασὶν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	12	PRED	_	t_660|ref=Fragmenta_1.8
-12	δὲ	δέ	d	d--------	_	10	COORD	_	t_661|ref=Fragmenta_1.8
-13	ἔνιοι	ἔνιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_662|ref=Fragmenta_1.8
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_663|ref=Fragmenta_1.8
-15	μὲν	μέν	d	d--------	_	25	AuxY	_	t_664|ref=Fragmenta_1.8
-16	ἔχουσαν	ἔχω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	20	ATR	_	t_665|ref=Fragmenta_1.8
-17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_666|ref=Fragmenta_1.8
-18	κυάνεον	κυάνεος	a	a-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_667|ref=Fragmenta_1.8
-19	ἄνθος	ἄνθος	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_668|ref=Fragmenta_1.8
-20	πρόπτωσιν	πρόπτωσις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	SBJ	_	t_669|ref=Fragmenta_1.8
-21	δακτυλίου	δακτύλιος	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_670|ref=Fragmenta_1.8
-22	στέλλειν	στέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_671|ref=Fragmenta_1.8
-23	,	,	u	u--------	_	10	AuxX	_	t_672|ref=Fragmenta_1.8
-24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	27	SBJ	_	t_673|ref=Fragmenta_1.8
-25	δὲ	δέ	d	d--------	_	11	COORD	_	t_674|ref=Fragmenta_1.8
-26	φοινικοῦν	φοινίκεος	a	a-s---na-	Case=a|Gender=f|Number=s	27	OBJ	_	t_675|ref=Fragmenta_1.8
-27	ἐξερεθίζειν	ἐξερεθίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_676|ref=Fragmenta_1.8
-28	καταπλασθεῖσαν	καταπλάσσω	v	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	27	ADV	_	t_677|ref=Fragmenta_1.8
-29	.	.	u	u--------	_	10	AuxK	_	t_678|ref=Fragmenta_1.8
+1	καθαίρει	καθαίρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_650|t_656|ref=fr._1.8
+2	καὶ	καί	d	d--------	_	7	AuxY	_	t_651|t_656|ref=fr._1.8
+3	ἄργεμα	ἄργεμα	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_652|t_650|ref=fr._1.8
+4	μετὰ	μετά	r	r--------	_	3	AuxP	_	t_653|t_652|ref=fr._1.8
+5	μέλιτος	μέλι	n	n-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_654|t_653|ref=fr._1.8
+6	Ἀττικοῦ	ἀττικός	a	a-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_655|t_654|ref=fr._1.8
+7	καὶ	καί	c	c--------	_	12	COORD	_	t_656|t_661|ref=fr._1.8
+8	ἀμβλυωπίαις	ἀμβλυωπία	n	n-p---fd-	Case=d|Gender=f|Number=p	9	OBJ	_	t_657|t_658|ref=fr._1.8
+9	βοηθεῖ	βοηθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_658|t_656|ref=fr._1.8
+10	,	,	u	u--------	_	0	AuxX	_	t_659|0|ref=fr._1.8
+11	φασὶν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	12	PRED	_	t_660|t_661|ref=fr._1.8
+12	δὲ	δέ	d	d--------	_	10	COORD	_	t_661|t_659|ref=fr._1.8
+13	ἔνιοι	ἔνιοι	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_662|t_660|ref=fr._1.8
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_663|t_665|ref=fr._1.8
+15	μὲν	μέν	d	d--------	_	25	AuxY	_	t_664|t_674|ref=fr._1.8
+16	ἔχουσαν	ἔχω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	20	ATR	_	t_665|t_669|ref=fr._1.8
+17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_666|t_668|ref=fr._1.8
+18	κυάνεον	κυάνεος	a	a-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_667|t_668|ref=fr._1.8
+19	ἄνθος	ἄνθος	n	n-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_668|t_665|ref=fr._1.8
+20	πρόπτωσιν	πρόπτωσις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	SBJ	_	t_669|t_671|ref=fr._1.8
+21	δακτυλίου	δακτύλιος	n	n-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_670|t_669|ref=fr._1.8
+22	στέλλειν	στέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_671|t_674|ref=fr._1.8
+23	,	,	u	u--------	_	10	AuxX	_	t_672|t_659|ref=fr._1.8
+24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	27	SBJ	_	t_673|t_676|ref=fr._1.8
+25	δὲ	δέ	d	d--------	_	11	COORD	_	t_674|t_660|ref=fr._1.8
+26	φοινικοῦν	φοινίκεος	a	a-s---na-	Case=a|Gender=f|Number=s	27	OBJ	_	t_675|t_676|ref=fr._1.8
+27	ἐξερεθίζειν	ἐξερεθίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_676|t_674|ref=fr._1.8
+28	καταπλασθεῖσαν	καταπλάσσω	v	v-sappfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	27	ADV	_	t_677|t_676|ref=fr._1.8
+29	.	.	u	u--------	_	10	AuxK	_	t_678|t_659|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = χρῶνται δὲ αὐτῇ καὶ εἰς τὰς Δημοκρίτου δυνάμεις .
 # sent_id = 89
-1	χρῶνται	χράω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_679|ref=Fragmenta_1.8
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_680|ref=Fragmenta_1.8
-3	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	1	OBJ	_	t_681|ref=Fragmenta_1.8
-4	καὶ	καί	d	d--------	_	8	AuxZ	_	t_682|ref=Fragmenta_1.8
-5	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_683|ref=Fragmenta_1.8
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_684|ref=Fragmenta_1.8
-7	Δημοκρίτου	δημόκριτος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_685|ref=Fragmenta_1.8
-8	δυνάμεις	δύναμις	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_686|ref=Fragmenta_1.8
-9	.	.	u	u--------	_	1	AuxK	_	t_687|ref=Fragmenta_1.8
+1	χρῶνται	χράω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_679|0|ref=fr._1.8
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_680|t_679|ref=fr._1.8
+3	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	1	OBJ	_	t_681|t_679|ref=fr._1.8
+4	καὶ	καί	d	d--------	_	8	AuxZ	_	t_682|t_686|ref=fr._1.8
+5	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_683|t_679|ref=fr._1.8
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_684|t_686|ref=fr._1.8
+7	Δημοκρίτου	δημόκριτος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_685|t_686|ref=fr._1.8
+8	δυνάμεις	δύναμις	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_686|t_683|ref=fr._1.8
+9	.	.	u	u--------	_	1	AuxK	_	t_687|t_679|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = Diosc .
 # sent_id = 90
-1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_688|ref=Fragmenta_1.8
-2	.	.	u	u--------	_	1	AuxK	_	t_689|ref=Fragmenta_1.8
+1	Diosc	diosc	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_688|0|ref=fr._1.8
+2	.	.	u	u--------	_	1	AuxK	_	t_689|t_688|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = II 178 ( 247 , 6 ) [0] .
 # sent_id = 91
-1	II	εἰμί	x	x--------	_	2	AuxG	_	t_690|ref=Fragmenta_1.8
-2	178	178	x	x--------	_	0	PRED	_	t_691|ref=Fragmenta_1.8
-3	(	̔	u	u--------	_	2	AuxG	_	t_692|ref=Fragmenta_1.8
-4	247	247	u	u--------	_	2	APOS	_	t_693|ref=Fragmenta_1.8
-5	,	,	u	u--------	_	2	COORD	_	t_694|ref=Fragmenta_1.8
-6	6	6	x	x--------	_	2	AuxG	_	t_695|ref=Fragmenta_1.8
-7	)	)	u	u--------	_	2	AuxG	_	t_696|ref=Fragmenta_1.8
-8	[0]	[0]	-	---------	_	2	PRED	_	e_22|ref=Fragmenta_1.1
-9	.	.	u	u--------	_	2	AuxK	_	t_697|ref=Fragmenta_1.8
+1	II	εἰμί	x	x--------	_	2	AuxG	_	t_690|t_691|ref=fr._1.8
+2	178	178	x	x--------	_	0	PRED	_	t_691|0|ref=fr._1.8
+3	(	̔	u	u--------	_	2	AuxG	_	t_692|t_691|ref=fr._1.8
+4	247	247	u	u--------	_	2	APOS	_	t_693|t_691|ref=fr._1.8
+5	,	,	u	u--------	_	2	COORD	_	t_694|t_691|ref=fr._1.8
+6	6	6	x	x--------	_	2	AuxG	_	t_695|t_691|ref=fr._1.8
+7	)	)	u	u--------	_	2	AuxG	_	t_696|t_691|ref=fr._1.8
+8	[0]	[0]	-	---------	_	2	PRED	_	e_22|t_691|ref=fr._1.1
+9	.	.	u	u--------	_	2	AuxK	_	t_697|t_691|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = 9 Cod .
 # sent_id = 92
-1	9	9	u	u--------	_	2	AuxG	_	t_698|ref=Fragmenta_1.8
-2	Cod	ὁ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_699|ref=Fragmenta_1.8
-3	.	.	u	u--------	_	2	AuxK	_	t_700|ref=Fragmenta_1.8
+1	9	9	u	u--------	_	2	AuxG	_	t_698|t_699|ref=fr._1.8
+2	Cod	ὁ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_699|0|ref=fr._1.8
+3	.	.	u	u--------	_	2	AuxK	_	t_700|t_699|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = Const .
 # sent_id = 93
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_701|ref=Fragmenta_1.8
-2	.	.	u	u--------	_	1	AuxK	_	t_702|ref=Fragmenta_1.8
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_701|0|ref=fr._1.8
+2	.	.	u	u--------	_	1	AuxK	_	t_702|t_701|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = fol .
 # sent_id = 94
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_703|ref=Fragmenta_1.8
-2	.	.	u	u--------	_	1	AuxK	_	t_704|ref=Fragmenta_1.8
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_703|0|ref=fr._1.8
+2	.	.	u	u--------	_	1	AuxK	_	t_704|t_703|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = 29r Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 95
-1	29r	29r	n	n--------	_	4	AuxG	_	t_705|ref=Fragmenta_1.8
-2	Κρατεύας	κρατεύω	n	n-s---fg-	Case=n|Gender=m|Number=s	4	SBJ	_	t_706|ref=Fragmenta_1.8
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_707|ref=Fragmenta_1.8
-4	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_708|ref=Fragmenta_1.8
+1	29r	29r	n	n--------	_	4	AuxG	_	t_705|e_23|ref=fr._1.8
+2	Κρατεύας	κρατεύω	n	n-s---fg-	Case=n|Gender=m|Number=s	4	SBJ	_	t_706|e_23|ref=fr._1.8
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_707|t_706|ref=fr._1.8
+4	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_708|e_23|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = ἀργεμώνη [0] ·
 # sent_id = 96
-1	ἀργεμώνη	ἀργεμώνη	a	a-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_709|ref=Fragmenta_1.8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=Fragmenta_1.1
-3	·	·	u	u--------	_	2	AuxK	_	t_710|ref=Fragmenta_1.8
+1	ἀργεμώνη	ἀργεμώνη	a	a-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_709|e_24|ref=fr._1.8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=fr._1.1
+3	·	·	u	u--------	_	2	AuxK	_	t_710|e_24|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.8
+# source = Crateuas, fr. 1.8
 # text = αὕτη ἡ βοτάνη κοπεῖσα μετὰ ἀξουγγίας χοιράδας διαλύει ·
 # sent_id = 97
-1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_711|ref=Fragmenta_1.8
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_712|ref=Fragmenta_1.8
-3	βοτάνη	βοτάνη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_713|ref=Fragmenta_1.8
-4	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	8	ADV	_	t_714|ref=Fragmenta_1.8
-5	μετὰ	μετά	r	r--------	_	4	AuxP	_	t_715|ref=Fragmenta_1.8
-6	ἀξουγγίας	ἀξουγγία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_716|ref=Fragmenta_1.8
-7	χοιράδας	χοιράς	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_717|ref=Fragmenta_1.8
-8	διαλύει	διαλύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_718|ref=Fragmenta_1.8
-9	·	·	u	u--------	_	8	AuxK	_	t_719|ref=Fragmenta_1.8
+1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_711|t_713|ref=fr._1.8
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_712|t_713|ref=fr._1.8
+3	βοτάνη	βοτάνη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_713|t_718|ref=fr._1.8
+4	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	8	ADV	_	t_714|t_718|ref=fr._1.8
+5	μετὰ	μετά	r	r--------	_	4	AuxP	_	t_715|t_714|ref=fr._1.8
+6	ἀξουγγίας	ἀξουγγία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_716|t_715|ref=fr._1.8
+7	χοιράδας	χοιράς	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_717|t_718|ref=fr._1.8
+8	διαλύει	διαλύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_718|0|ref=fr._1.8
+9	·	·	u	u--------	_	8	AuxK	_	t_719|t_718|ref=fr._1.8
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = ποιεῖ καὶ πρὸς ἀλφοὺς μέλανας μετὰ νίτρου καὶ θείου ἀπύρου ξηρὰ κοπεῖσα καὶ σησθεῖσα , ἐν βαλανείῳ τοὺς χρωμένους θεραπεύει προξηροτριβηθέντας ·
 # sent_id = 98
-1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_720|ref=Fragmenta_1.9
-2	καὶ	καί	d	d--------	_	15	AuxY	_	t_721|ref=Fragmenta_1.9
-3	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_722|ref=Fragmenta_1.9
-4	ἀλφοὺς	ἀλφός	n	n-p---ma-	Case=a|Gender=m|Number=p	3	ADV	_	t_723|ref=Fragmenta_1.9
-5	μέλανας	μέλας	a	a-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_724|ref=Fragmenta_1.9
-6	μετὰ	μετά	r	r--------	_	1	AuxP	_	t_725|ref=Fragmenta_1.9
-7	νίτρου	νίτρον	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_726|ref=Fragmenta_1.9
-8	καὶ	καί	c	c--------	_	10	COORD	_	t_727|ref=Fragmenta_1.9
-9	θείου	θεῖος2	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_728|ref=Fragmenta_1.9
-10	ἀπύρου	ἄπυρος	a	a-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_729|ref=Fragmenta_1.9
-11	ξηρὰ	ξηρός	a	a-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_730|ref=Fragmenta_1.8
-12	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_731|ref=Fragmenta_1.9
-13	καὶ	καί	c	c--------	_	1	COORD	_	t_732|ref=Fragmenta_1.9
-14	σησθεῖσα	σήσκω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_733|ref=Fragmenta_1.8
-15	,	,	u	u--------	_	0	COORD	_	t_734|ref=Fragmenta_1.9
-16	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_735|ref=Fragmenta_1.9
-17	βαλανείῳ	βαλανεῖον	n	n-s---nd-	Case=d|Gender=n|Number=s	16	ADV	_	t_736|ref=Fragmenta_1.9
-18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_737|ref=Fragmenta_1.9
-19	χρωμένους	χράομαι	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	20	OBJ	_	t_738|ref=Fragmenta_1.9
-20	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_739|ref=Fragmenta_1.9
-21	προξηροτριβηθέντας	προξηροτριβέω	v	v-pappma-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	19	ADV	_	t_740|ref=Fragmenta_1.9
-22	·	·	u	u--------	_	15	AuxK	_	t_741|ref=Fragmenta_1.9
+1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_720|t_734|ref=fr._1.9
+2	καὶ	καί	d	d--------	_	15	AuxY	_	t_721|t_734|ref=fr._1.9
+3	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_722|t_720|ref=fr._1.9
+4	ἀλφοὺς	ἀλφός	n	n-p---ma-	Case=a|Gender=m|Number=p	3	ADV	_	t_723|t_722|ref=fr._1.9
+5	μέλανας	μέλας	a	a-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_724|t_723|ref=fr._1.9
+6	μετὰ	μετά	r	r--------	_	1	AuxP	_	t_725|t_720|ref=fr._1.9
+7	νίτρου	νίτρον	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_726|t_727|ref=fr._1.9
+8	καὶ	καί	c	c--------	_	10	COORD	_	t_727|t_729|ref=fr._1.9
+9	θείου	θεῖος2	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_728|t_727|ref=fr._1.9
+10	ἀπύρου	ἄπυρος	a	a-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_729|t_725|ref=fr._1.9
+11	ξηρὰ	ξηρός	a	a-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_730|t_732|ref=fr._1.8
+12	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_731|t_732|ref=fr._1.9
+13	καὶ	καί	c	c--------	_	1	COORD	_	t_732|t_720|ref=fr._1.9
+14	σησθεῖσα	σήσκω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_733|t_732|ref=fr._1.8
+15	,	,	u	u--------	_	0	COORD	_	t_734|0|ref=fr._1.9
+16	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_735|t_739|ref=fr._1.9
+17	βαλανείῳ	βαλανεῖον	n	n-s---nd-	Case=d|Gender=n|Number=s	16	ADV	_	t_736|t_735|ref=fr._1.9
+18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_737|t_738|ref=fr._1.9
+19	χρωμένους	χράομαι	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	20	OBJ	_	t_738|t_739|ref=fr._1.9
+20	θεραπεύει	θεραπεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_739|t_734|ref=fr._1.9
+21	προξηροτριβηθέντας	προξηροτριβέω	v	v-pappma-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	19	ADV	_	t_740|t_738|ref=fr._1.9
+22	·	·	u	u--------	_	15	AuxK	_	t_741|t_734|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = ποιεῖ καὶ πρὸς ψώραν 1 ) .
 # sent_id = 99
-1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_742|ref=Fragmenta_1.9
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_743|ref=Fragmenta_1.9
-3	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_744|ref=Fragmenta_1.9
-4	ψώραν	ψώρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_745|ref=Fragmenta_1.9
-5	1	1	u	u--------	_	1	AuxG	_	t_746|ref=Fragmenta_1.9
-6	)	)	u	u--------	_	1	AuxG	_	t_747|ref=Fragmenta_1.9
-7	.	.	u	u--------	_	1	AuxK	_	t_748|ref=Fragmenta_1.9
+1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_742|0|ref=fr._1.9
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_743|t_745|ref=fr._1.9
+3	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_744|t_742|ref=fr._1.9
+4	ψώραν	ψώρα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_745|t_744|ref=fr._1.9
+5	1	1	u	u--------	_	1	AuxG	_	t_746|t_742|ref=fr._1.9
+6	)	)	u	u--------	_	1	AuxG	_	t_747|t_742|ref=fr._1.9
+7	.	.	u	u--------	_	1	AuxK	_	t_748|t_742|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = 10 Cod [0] .
 # sent_id = 100
-1	10	10	x	x--------	_	3	AuxG	_	t_749|ref=Fragmenta_1.9
-2	Cod	ὁ	n	n-s---fn-	_	3	ExD	_	t_750|ref=Fragmenta_1.9
-3	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=Fragmenta_1.1
-4	.	.	u	u--------	_	3	AuxK	_	t_751|ref=Fragmenta_1.9
+1	10	10	x	x--------	_	3	AuxG	_	t_749|e_25|ref=fr._1.9
+2	Cod	ὁ	n	n-s---fn-	_	3	ExD	_	t_750|e_25|ref=fr._1.9
+3	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=fr._1.1
+4	.	.	u	u--------	_	3	AuxK	_	t_751|e_25|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = Const .
 # sent_id = 101
-1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_752|ref=Fragmenta_1.9
-2	.	.	u	u--------	_	1	AuxK	_	t_753|ref=Fragmenta_1.9
+1	Const	const	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_752|0|ref=fr._1.9
+2	.	.	u	u--------	_	1	AuxK	_	t_753|t_752|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = fol .
 # sent_id = 102
-1	fol	fol	v	v2spma---	_	0	PRED	_	t_754|ref=Fragmenta_1.9
-2	.	.	u	u--------	_	1	AuxK	_	t_755|ref=Fragmenta_1.9
+1	fol	fol	v	v2spma---	_	0	PRED	_	t_754|0|ref=fr._1.9
+2	.	.	u	u--------	_	1	AuxK	_	t_755|t_754|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = 33r Κρατεύας ῥιζοτομικός [0] .
 # sent_id = 103
-1	33r	33r	n	n--------	_	4	AuxG	_	t_756|ref=Fragmenta_1.9
-2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_757|ref=Fragmenta_1.9
-3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_758|ref=Fragmenta_1.9
-4	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=Fragmenta_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_759|ref=Fragmenta_1.9
+1	33r	33r	n	n--------	_	4	AuxG	_	t_756|e_26|ref=fr._1.9
+2	Κρατεύας	κρατεύω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_757|e_26|ref=fr._1.9
+3	ῥιζοτομικός	ῥιζοτομικός	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_758|t_757|ref=fr._1.9
+4	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=fr._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_759|e_26|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9
+# source = Crateuas, fr. 1.9
 # text = ἀστέριον [0] ·
 # sent_id = 104
-1	ἀστέριον	ἀστέριος	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_760|ref=Fragmenta_1.9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_27|ref=Fragmenta_1.1
-3	·	·	u	u--------	_	2	AuxK	_	t_761|ref=Fragmenta_1.9
+1	ἀστέριον	ἀστέριος	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_760|e_27|ref=fr._1.9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=fr._1.1
+3	·	·	u	u--------	_	2	AuxK	_	t_761|e_27|ref=fr._1.9
 
-# source = Crateuas, Fragmenta 1.9-1.10
+# source = Crateuas, fr. 1.9-1.10
 # text = αὕτη χλωρὰ κοπεῖσα μετὰ ἀξουγγίας παλαιᾶς ποιεῖ πρὸς λυσσοδήκτους , βρογχοκηλικούς , ὑποθυμιωμένη δὲ φυγαδεύει θηρία .
 # sent_id = 105
-1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_762|ref=Fragmenta_1.9
-2	χλωρὰ	χλωρός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	OBJ	_	t_763|ref=Fragmenta_1.9
-3	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	ADV	_	t_764|ref=Fragmenta_1.9
-4	μετὰ	μετά	r	r--------	_	7	AuxP	_	t_765|ref=Fragmenta_1.9
-5	ἀξουγγίας	ἀξουγγία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_766|ref=Fragmenta_1.9
-6	παλαιᾶς	παλαιός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_767|ref=Fragmenta_1.9
-7	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_768|ref=Fragmenta_1.9
-8	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_769|ref=Fragmenta_1.9
-9	λυσσοδήκτους	λυσσόδηκτος	a	a-p---fa-	Case=a|Gender=m|Number=p	8	OBJ	_	t_770|ref=Fragmenta_1.9
-10	,	,	u	u--------	_	8	COORD	_	t_771|ref=Fragmenta_1.9
-11	βρογχοκηλικούς	βρογχοκηλικός	a	a-p---fa-	Case=a|Gender=f|Number=p	10	OCOMP	_	t_772|ref=Fragmenta_1.9
-12	,	,	u	u--------	_	14	AuxX	_	t_773|ref=Fragmenta_1.10
-13	ὑποθυμιωμένη	ὑποθυμιάομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	15	ADV	_	t_774|ref=Fragmenta_1.10
-14	δὲ	δέ	d	d--------	_	0	COORD	_	t_775|ref=Fragmenta_1.9
-15	φυγαδεύει	φυγαδεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_776|ref=Fragmenta_1.10
-16	θηρία	θηρίον	n	n-p---na-	Case=a|Gender=n|Number=p	15	OBJ	_	t_777|ref=Fragmenta_1.10
-17	.	.	u	u--------	_	14	AuxK	_	t_778|ref=Fragmenta_1.10
+1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_762|t_775|ref=fr._1.9
+2	χλωρὰ	χλωρός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	OBJ	_	t_763|t_764|ref=fr._1.9
+3	κοπεῖσα	κόπτω	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	ADV	_	t_764|t_768|ref=fr._1.9
+4	μετὰ	μετά	r	r--------	_	7	AuxP	_	t_765|t_768|ref=fr._1.9
+5	ἀξουγγίας	ἀξουγγία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_766|t_765|ref=fr._1.9
+6	παλαιᾶς	παλαιός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_767|t_766|ref=fr._1.9
+7	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_768|t_775|ref=fr._1.9
+8	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_769|t_768|ref=fr._1.9
+9	λυσσοδήκτους	λυσσόδηκτος	a	a-p---fa-	Case=a|Gender=m|Number=p	8	OBJ	_	t_770|t_769|ref=fr._1.9
+10	,	,	u	u--------	_	8	COORD	_	t_771|t_769|ref=fr._1.9
+11	βρογχοκηλικούς	βρογχοκηλικός	a	a-p---fa-	Case=a|Gender=f|Number=p	10	OCOMP	_	t_772|t_771|ref=fr._1.9
+12	,	,	u	u--------	_	14	AuxX	_	t_773|t_775|ref=fr._1.10
+13	ὑποθυμιωμένη	ὑποθυμιάομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	15	ADV	_	t_774|t_776|ref=fr._1.10
+14	δὲ	δέ	d	d--------	_	0	COORD	_	t_775|0|ref=fr._1.9
+15	φυγαδεύει	φυγαδεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_776|t_775|ref=fr._1.10
+16	θηρία	θηρίον	n	n-p---na-	Case=a|Gender=n|Number=p	15	OBJ	_	t_777|t_776|ref=fr._1.10
+17	.	.	u	u--------	_	14	AuxK	_	t_778|t_775|ref=fr._1.10
 

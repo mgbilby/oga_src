@@ -39,13 +39,15 @@ A sample sentence header follows:
 
 ## Word locations
 
-To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNL-U format, an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. The information is pulled from the internal document annotations found in the OGA xml files ending in "tok01_cts01". Internal location types and depths vary based on the document.
+To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNL-U format, two new subfields are added.
+
+an internal document location description is appended. This location follows immediately after the OGA token id, represented as t_[number]. A vertical bar separates the internal field values. The information is pulled from the internal document annotations found in the OGA xml files ending in "tok01_cts01". Internal location types and depths vary based on the document.
 
 What follows are several out-of-the-box and adjusted MISC field samples, all representing the third word token (t_3) found in a variety of authors and genres.
 
 | Author | OGA MISC | oga_src MISC |
 |------------------|-----------------|-----------------|
-| Aelius Herodianus   | t_3 | t_3\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
+| Aelius Herodianus   | t_3 | t_3\|0\|ref=Περὶ ὀρθογραφίας_1.1.1.1    |
 | Homeric Hymns   | t_3 | t_3\|ref=Hymn 14 to the Mother of the Gods_1    |
 | Isaeus   | t_3 | t_3\|ref=On The Estate of Apollodorus_0    |
 | New Testament   | t_3 | t_3\|ref=Matthew_1.1    |
@@ -53,6 +55,13 @@ What follows are several out-of-the-box and adjusted MISC field samples, all rep
 | Plutarch   | t_3 | t_3\|ref=Alexander_1.1    |
 | Themistocles   | t_3 | t_3\|ref=Epistulae_1    |
 
+tlg0087.tlg011
+tlg2003.tlg008
+tlg0017.tlg012
+
+tlg0059.tlg029
+tlg0007.tlg047
+tlg0055.tlg001
 
 ## Data sources
 

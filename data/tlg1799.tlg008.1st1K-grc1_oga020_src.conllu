@@ -1,871 +1,871 @@
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = 18 .
 # sent_id = 1
-1	18	18	x	x--------	_	0	AuxG	_	t_1|ref=Data (demonstrationes alterae)_18.1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Data (demonstrationes alterae)_18.1
+1	18	18	x	x--------	_	0	AuxG	_	t_1|0|ref=Data (demonstrationes alterae)_18.1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = Uulgo prop .
 # sent_id = 2
-1	Uulgo	uulgo	n	n-s---mg-	Case=g|Gender=m|Number=s	0	ExD	_	t_3|ref=Data (demonstrationes alterae)_18.1
-2	prop	ἐν	d	d--------	_	1	AuxY	_	t_4|ref=Data (demonstrationes alterae)_18.1
-3	.	.	u	u--------	_	1	AuxK	_	t_5|ref=Data (demonstrationes alterae)_18.1
+1	Uulgo	uulgo	n	n-s---mg-	Case=g|Gender=m|Number=s	0	ExD	_	t_3|0|ref=Data (demonstrationes alterae)_18.1
+2	prop	ἐν	d	d--------	_	1	AuxY	_	t_4|t_3|ref=Data (demonstrationes alterae)_18.1
+3	.	.	u	u--------	_	1	AuxK	_	t_5|t_3|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = LXXXVII .
 # sent_id = 3
-1	LXXXVII	lxxxviii	n	n--------	_	0	ExD	_	t_6|ref=Data (demonstrationes alterae)_18.1
-2	.	.	u	u--------	_	1	AuxK	_	t_7|ref=Data (demonstrationes alterae)_18.1
+1	LXXXVII	lxxxviii	n	n--------	_	0	ExD	_	t_6|0|ref=Data (demonstrationes alterae)_18.1
+2	.	.	u	u--------	_	1	AuxK	_	t_7|t_6|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = Ἐὰν δύο εὐθεῖαι δοθὲν χωρίον περιέχωσιν ἐν δεδο - μένῃ γωνίᾳ , τὸ δὲ ἀπὸ τῆς μείζονος τοῦ ἀπὸ τῆς ἐλάσσονος δοθέντι μεῖζον ᾖ , καὶ ἑκατέρα αὐτῶν ἔσται δοθεῖσα .
 # sent_id = 4
-1	Ἐὰν	ἐάν	c	c--------	_	29	AuxC	_	t_8|ref=Data (demonstrationes alterae)_18.1
-2	δύο	δύο	m	m--------	_	3	ATR	_	t_9|ref=Data (demonstrationes alterae)_18.1
-3	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_10|ref=Data (demonstrationes alterae)_18.1
-4	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_11|ref=Data (demonstrationes alterae)_18.1
-5	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_12|ref=Data (demonstrationes alterae)_18.1
-6	περιέχωσιν	περιέχω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	14	ADV	_	t_13|ref=Data (demonstrationes alterae)_18.1
-7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_14|ref=Data (demonstrationes alterae)_18.1
-8	δεδο	δέω	v	v3srsa---	Mood=s|Number=s|Person=3|Tense=r|Voice=a	11	ATR	_	t_15|ref=Data (demonstrationes alterae)_18.1
-9	-	-	u	u--------	Case=d|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	10	_	_	t_16|ref=Data (demonstrationes alterae)_18.1
-10	μένῃ	μένω	v	v-sppefd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	11	ATR	_	t_17|ref=Data (demonstrationes alterae)_18.1
-11	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_18|ref=Data (demonstrationes alterae)_18.1
-12	,	,	u	u--------	_	29	AuxX	_	t_19|ref=Data (demonstrationes alterae)_18.1
-13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_20|ref=Data (demonstrationes alterae)_18.1
-14	δὲ	δέ	d	d--------	_	1	COORD	_	t_21|ref=Data (demonstrationes alterae)_18.1
-15	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_22|ref=Data (demonstrationes alterae)_18.1
-16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_23|ref=Data (demonstrationes alterae)_18.1
-17	μείζονος	μέγας	a	a-s---ngc	Case=g|Degree=c|Gender=n|Number=s	15	ATR	_	t_24|ref=Data (demonstrationes alterae)_18.1
-18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_25|ref=Data (demonstrationes alterae)_18.1
-19	ἀπὸ	ἀπό	r	r--------	_	22	AuxP	_	t_26|ref=Data (demonstrationes alterae)_18.1
-20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_27|ref=Data (demonstrationes alterae)_18.1
-21	ἐλάσσονος	ἐλάσσων	a	a-s---ngc	Case=g|Degree=c|Gender=n|Number=s	19	ADV	_	t_28|ref=Data (demonstrationes alterae)_18.1
-22	δοθέντι	δίδωμι	v	v-sappnd-	Case=d|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	23	ADV	_	t_29|ref=Data (demonstrationes alterae)_18.1
-23	μεῖζον	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	24	PNOM	_	t_30|ref=Data (demonstrationes alterae)_18.1
-24	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	14	ADV	_	t_31|ref=Data (demonstrationes alterae)_18.1
-25	,	,	u	u--------	_	29	AuxX	_	t_32|ref=Data (demonstrationes alterae)_18.1
-26	καὶ	καί	d	d--------	_	27	AuxZ	_	t_33|ref=Data (demonstrationes alterae)_18.1
-27	ἑκατέρα	ἑκάτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	29	SBJ	_	t_34|ref=Data (demonstrationes alterae)_18.1
-28	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	27	ATR	_	t_35|ref=Data (demonstrationes alterae)_18.1
-29	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_36|ref=Data (demonstrationes alterae)_18.1
-30	δοθεῖσα	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	29	PNOM	_	t_37|ref=Data (demonstrationes alterae)_18.1
-31	.	.	u	u--------	_	29	AuxK	_	t_38|ref=Data (demonstrationes alterae)_18.1
+1	Ἐὰν	ἐάν	c	c--------	_	29	AuxC	_	t_8|t_36|ref=Data (demonstrationes alterae)_18.1
+2	δύο	δύο	m	m--------	_	3	ATR	_	t_9|t_10|ref=Data (demonstrationes alterae)_18.1
+3	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_10|t_13|ref=Data (demonstrationes alterae)_18.1
+4	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_11|t_13|ref=Data (demonstrationes alterae)_18.1
+5	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_12|t_13|ref=Data (demonstrationes alterae)_18.1
+6	περιέχωσιν	περιέχω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	14	ADV	_	t_13|t_21|ref=Data (demonstrationes alterae)_18.1
+7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_14|t_13|ref=Data (demonstrationes alterae)_18.1
+8	δεδο	δέω	v	v3srsa---	Mood=s|Number=s|Person=3|Tense=r|Voice=a	11	ATR	_	t_15|t_18|ref=Data (demonstrationes alterae)_18.1
+9	-	-	u	u--------	Case=d|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	10	_	_	t_16|t_17|ref=Data (demonstrationes alterae)_18.1
+10	μένῃ	μένω	v	v-sppefd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	11	ATR	_	t_17|t_18|ref=Data (demonstrationes alterae)_18.1
+11	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_18|t_14|ref=Data (demonstrationes alterae)_18.1
+12	,	,	u	u--------	_	29	AuxX	_	t_19|t_36|ref=Data (demonstrationes alterae)_18.1
+13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_20|t_31|ref=Data (demonstrationes alterae)_18.1
+14	δὲ	δέ	d	d--------	_	1	COORD	_	t_21|t_8|ref=Data (demonstrationes alterae)_18.1
+15	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_22|t_20|ref=Data (demonstrationes alterae)_18.1
+16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_23|t_24|ref=Data (demonstrationes alterae)_18.1
+17	μείζονος	μέγας	a	a-s---ngc	Case=g|Degree=c|Gender=n|Number=s	15	ATR	_	t_24|t_22|ref=Data (demonstrationes alterae)_18.1
+18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_25|t_26|ref=Data (demonstrationes alterae)_18.1
+19	ἀπὸ	ἀπό	r	r--------	_	22	AuxP	_	t_26|t_29|ref=Data (demonstrationes alterae)_18.1
+20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_27|t_28|ref=Data (demonstrationes alterae)_18.1
+21	ἐλάσσονος	ἐλάσσων	a	a-s---ngc	Case=g|Degree=c|Gender=n|Number=s	19	ADV	_	t_28|t_26|ref=Data (demonstrationes alterae)_18.1
+22	δοθέντι	δίδωμι	v	v-sappnd-	Case=d|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	23	ADV	_	t_29|t_30|ref=Data (demonstrationes alterae)_18.1
+23	μεῖζον	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	24	PNOM	_	t_30|t_31|ref=Data (demonstrationes alterae)_18.1
+24	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	14	ADV	_	t_31|t_21|ref=Data (demonstrationes alterae)_18.1
+25	,	,	u	u--------	_	29	AuxX	_	t_32|t_36|ref=Data (demonstrationes alterae)_18.1
+26	καὶ	καί	d	d--------	_	27	AuxZ	_	t_33|t_34|ref=Data (demonstrationes alterae)_18.1
+27	ἑκατέρα	ἑκάτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	29	SBJ	_	t_34|t_36|ref=Data (demonstrationes alterae)_18.1
+28	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	27	ATR	_	t_35|t_34|ref=Data (demonstrationes alterae)_18.1
+29	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_36|0|ref=Data (demonstrationes alterae)_18.1
+30	δοθεῖσα	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	29	PNOM	_	t_37|t_36|ref=Data (demonstrationes alterae)_18.1
+31	.	.	u	u--------	_	29	AuxK	_	t_38|t_36|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = δύο γὰρ εὐθεῖαι αἱ ΑΒ , ΒΓ δοθὲν περιεχέτωσαν χωρίον τὸ ΑΓ ἐν δεδομένῃ γωνίᾳ τῇ ὑπὸ τῶν ΑΒΓ , τὸ δὲ ἀπὸ τῆς ΑΒ δοθέντι μεῖζον ἔστω τοῦ ἀπὸ τῆς ΒΓ ·
 # sent_id = 5
-1	δύο	δύο	m	m--------	_	3	ATR	_	t_39|ref=Data (demonstrationes alterae)_18.1
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_40|ref=Data (demonstrationes alterae)_18.1
-3	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_41|ref=Data (demonstrationes alterae)_18.1
-4	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_42|ref=Data (demonstrationes alterae)_18.1
-5	ΑΒ	αβ	n	n--------	_	6	APOS	_	t_43|ref=Data (demonstrationes alterae)_18.1
-6	,	,	u	u--------	_	3	COORD	_	t_44|ref=Data (demonstrationes alterae)_18.1
-7	ΒΓ	βγ	n	n--------	_	6	APOS	_	t_45|ref=Data (demonstrationes alterae)_18.1
-8	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	9	ADV	_	t_46|ref=Data (demonstrationes alterae)_18.1
-9	περιεχέτωσαν	περιέχω	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	22	PRED	_	t_47|ref=Data (demonstrationes alterae)_18.1
-10	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_48|ref=Data (demonstrationes alterae)_18.1
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_49|ref=Data (demonstrationes alterae)_18.1
-12	ΑΓ	αγ	n	n--------	_	10	APOS	_	t_50|ref=Data (demonstrationes alterae)_18.1
-13	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_51|ref=Data (demonstrationes alterae)_18.1
-14	δεδομένῃ	δίδωμι	v	v-sapmfd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	15	ATR	_	t_52|ref=Data (demonstrationes alterae)_18.1
-15	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_53|ref=Data (demonstrationes alterae)_18.1
-16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_54|ref=Data (demonstrationes alterae)_18.1
-17	ὑπὸ	ὑπό	r	r--------	_	15	AuxP	_	t_55|ref=Data (demonstrationes alterae)_18.1
-18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	19	ATR	_	t_56|ref=Data (demonstrationes alterae)_18.1
-19	ΑΒΓ	αβγ	n	n--------	_	17	OBJ	_	t_57|ref=Data (demonstrationes alterae)_18.1
-20	,	,	u	u--------	_	0	AuxX	_	t_58|ref=Data (demonstrationes alterae)_18.1
-21	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	28	SBJ	_	t_59|ref=Data (demonstrationes alterae)_18.1
-22	δὲ	δέ	d	d--------	_	20	COORD	_	t_60|ref=Data (demonstrationes alterae)_18.1
-23	ἀπὸ	ἀπό	r	r--------	_	26	AuxP	_	t_61|ref=Data (demonstrationes alterae)_18.1
-24	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_62|ref=Data (demonstrationes alterae)_18.1
-25	ΑΒ	αβ	n	n--------	Case=g|Gender=f|Number=s	23	OBJ	_	t_63|ref=Data (demonstrationes alterae)_18.1
-26	δοθέντι	δίδωμι	v	v-sappmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	28	ADV	_	t_64|ref=Data (demonstrationes alterae)_18.1
-27	μεῖζον	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	28	PNOM	_	t_65|ref=Data (demonstrationes alterae)_18.1
-28	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	22	PRED	_	t_66|ref=Data (demonstrationes alterae)_18.1
-29	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ADV	_	t_67|ref=Data (demonstrationes alterae)_18.1
-30	ἀπὸ	ἀπό	r	r--------	_	29	AuxP	_	t_68|ref=Data (demonstrationes alterae)_18.1
-31	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_69|ref=Data (demonstrationes alterae)_18.1
-32	ΒΓ	βγ	n	n--------	_	30	ATR	_	t_70|ref=Data (demonstrationes alterae)_18.1
-33	·	·	u	u--------	_	20	AuxK	_	t_71|ref=Data (demonstrationes alterae)_18.1
+1	δύο	δύο	m	m--------	_	3	ATR	_	t_39|t_41|ref=Data (demonstrationes alterae)_18.1
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_40|t_47|ref=Data (demonstrationes alterae)_18.1
+3	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_41|t_47|ref=Data (demonstrationes alterae)_18.1
+4	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_42|t_41|ref=Data (demonstrationes alterae)_18.1
+5	ΑΒ	αβ	n	n--------	_	6	APOS	_	t_43|t_44|ref=Data (demonstrationes alterae)_18.1
+6	,	,	u	u--------	_	3	COORD	_	t_44|t_41|ref=Data (demonstrationes alterae)_18.1
+7	ΒΓ	βγ	n	n--------	_	6	APOS	_	t_45|t_44|ref=Data (demonstrationes alterae)_18.1
+8	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	9	ADV	_	t_46|t_47|ref=Data (demonstrationes alterae)_18.1
+9	περιεχέτωσαν	περιέχω	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	22	PRED	_	t_47|t_60|ref=Data (demonstrationes alterae)_18.1
+10	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_48|t_47|ref=Data (demonstrationes alterae)_18.1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_49|t_50|ref=Data (demonstrationes alterae)_18.1
+12	ΑΓ	αγ	n	n--------	_	10	APOS	_	t_50|t_48|ref=Data (demonstrationes alterae)_18.1
+13	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_51|t_48|ref=Data (demonstrationes alterae)_18.1
+14	δεδομένῃ	δίδωμι	v	v-sapmfd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	15	ATR	_	t_52|t_53|ref=Data (demonstrationes alterae)_18.1
+15	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_53|t_51|ref=Data (demonstrationes alterae)_18.1
+16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_54|t_53|ref=Data (demonstrationes alterae)_18.1
+17	ὑπὸ	ὑπό	r	r--------	_	15	AuxP	_	t_55|t_53|ref=Data (demonstrationes alterae)_18.1
+18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	19	ATR	_	t_56|t_57|ref=Data (demonstrationes alterae)_18.1
+19	ΑΒΓ	αβγ	n	n--------	_	17	OBJ	_	t_57|t_55|ref=Data (demonstrationes alterae)_18.1
+20	,	,	u	u--------	_	0	AuxX	_	t_58|0|ref=Data (demonstrationes alterae)_18.1
+21	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	28	SBJ	_	t_59|t_66|ref=Data (demonstrationes alterae)_18.1
+22	δὲ	δέ	d	d--------	_	20	COORD	_	t_60|t_58|ref=Data (demonstrationes alterae)_18.1
+23	ἀπὸ	ἀπό	r	r--------	_	26	AuxP	_	t_61|t_64|ref=Data (demonstrationes alterae)_18.1
+24	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_62|t_63|ref=Data (demonstrationes alterae)_18.1
+25	ΑΒ	αβ	n	n--------	Case=g|Gender=f|Number=s	23	OBJ	_	t_63|t_61|ref=Data (demonstrationes alterae)_18.1
+26	δοθέντι	δίδωμι	v	v-sappmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	28	ADV	_	t_64|t_66|ref=Data (demonstrationes alterae)_18.1
+27	μεῖζον	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	28	PNOM	_	t_65|t_66|ref=Data (demonstrationes alterae)_18.1
+28	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	22	PRED	_	t_66|t_60|ref=Data (demonstrationes alterae)_18.1
+29	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ADV	_	t_67|t_65|ref=Data (demonstrationes alterae)_18.1
+30	ἀπὸ	ἀπό	r	r--------	_	29	AuxP	_	t_68|t_67|ref=Data (demonstrationes alterae)_18.1
+31	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_69|t_70|ref=Data (demonstrationes alterae)_18.1
+32	ΒΓ	βγ	n	n--------	_	30	ATR	_	t_70|t_68|ref=Data (demonstrationes alterae)_18.1
+33	·	·	u	u--------	_	20	AuxK	_	t_71|t_58|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = λέγω , ὅτι δοθεῖσά ἐστιν ἑκατέρα τῶν ΑΒ , ΒΓ .
 # sent_id = 6
-1	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_72|ref=Data (demonstrationes alterae)_18.1
-2	,	,	u	u--------	_	1	AuxX	_	t_73|ref=Data (demonstrationes alterae)_18.1
-3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_74|ref=Data (demonstrationes alterae)_18.1
-4	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	PNOM	_	t_75|ref=Data (demonstrationes alterae)_18.1
-5	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	OBJ	_	t_76|ref=Data (demonstrationes alterae)_18.1
-6	ἑκατέρα	ἑκάτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_77|ref=Data (demonstrationes alterae)_18.1
-7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_78|ref=Data (demonstrationes alterae)_18.1
-8	ΑΒ	αβ	n	n--------	_	9	APOS	_	t_79|ref=Data (demonstrationes alterae)_18.1
-9	,	,	u	u--------	_	7	COORD	_	t_80|ref=Data (demonstrationes alterae)_18.1
-10	ΒΓ	βγ	n	n--------	_	9	APOS	_	t_81|ref=Data (demonstrationes alterae)_18.1
-11	.	.	u	u--------	_	1	AuxK	_	t_82|ref=Data (demonstrationes alterae)_18.1
+1	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_72|0|ref=Data (demonstrationes alterae)_18.1
+2	,	,	u	u--------	_	1	AuxX	_	t_73|t_72|ref=Data (demonstrationes alterae)_18.1
+3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_74|t_72|ref=Data (demonstrationes alterae)_18.1
+4	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	PNOM	_	t_75|t_76|ref=Data (demonstrationes alterae)_18.1
+5	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	OBJ	_	t_76|t_74|ref=Data (demonstrationes alterae)_18.1
+6	ἑκατέρα	ἑκάτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_77|t_76|ref=Data (demonstrationes alterae)_18.1
+7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_78|t_77|ref=Data (demonstrationes alterae)_18.1
+8	ΑΒ	αβ	n	n--------	_	9	APOS	_	t_79|t_80|ref=Data (demonstrationes alterae)_18.1
+9	,	,	u	u--------	_	7	COORD	_	t_80|t_78|ref=Data (demonstrationes alterae)_18.1
+10	ΒΓ	βγ	n	n--------	_	9	APOS	_	t_81|t_80|ref=Data (demonstrationes alterae)_18.1
+11	.	.	u	u--------	_	1	AuxK	_	t_82|t_72|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = ἐπεὶ γὰρ τὸ ἀπὸ τῆς ΑΒ τοῦ ἀπὸ τῆς ΒΓ δοθέντι μεῖζόν ἐστιν , ἀφῃρήσθω τὸ δοθὲν τὸ ὑπὸ τῶν ΑΒ , ΒΔ ·
 # sent_id = 7
-1	ἐπεὶ	ἐπεί	c	c--------	_	15	AuxC	_	t_83|ref=Data (demonstrationes alterae)_18.1
-2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_84|ref=Data (demonstrationes alterae)_18.1
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	SBJ	_	t_85|ref=Data (demonstrationes alterae)_18.1
-4	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_86|ref=Data (demonstrationes alterae)_18.1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_87|ref=Data (demonstrationes alterae)_18.1
-6	ΑΒ	αβ	n	n--------	_	4	ADV	_	t_88|ref=Data (demonstrationes alterae)_18.1
-7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	4	ADV	_	t_89|ref=Data (demonstrationes alterae)_18.1
-8	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_90|ref=Data (demonstrationes alterae)_18.1
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_91|ref=Data (demonstrationes alterae)_18.1
-10	ΒΓ	βγ	n	n--------	_	8	ADV	_	t_92|ref=Data (demonstrationes alterae)_18.1
-11	δοθέντι	δίδωμι	v	v-sappmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_93|ref=Data (demonstrationes alterae)_18.1
-12	μεῖζόν	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	13	PNOM	_	t_94|ref=Data (demonstrationes alterae)_18.1
-13	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_95|ref=Data (demonstrationes alterae)_18.1
-14	,	,	u	u--------	_	15	AuxX	_	t_96|ref=Data (demonstrationes alterae)_18.1
-15	ἀφῃρήσθω	ἀφαιρέω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_97|ref=Data (demonstrationes alterae)_18.1
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_98|ref=Data (demonstrationes alterae)_18.1
-17	δοθὲν	δίδωμι	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	15	SBJ	_	t_99|ref=Data (demonstrationes alterae)_18.1
-18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_100|ref=Data (demonstrationes alterae)_18.1
-19	ὑπὸ	ὑπό	r	r--------	_	17	AuxP	_	t_101|ref=Data (demonstrationes alterae)_18.1
-20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	22	ATR	_	t_102|ref=Data (demonstrationes alterae)_18.1
-21	ΑΒ	αβ	n	n--------	_	22	APOS	_	t_103|ref=Data (demonstrationes alterae)_18.1
-22	,	,	u	u--------	_	19	COORD	_	t_104|ref=Data (demonstrationes alterae)_18.1
-23	ΒΔ	βδ	n	n--------	_	22	APOS	_	t_105|ref=Data (demonstrationes alterae)_18.1
-24	·	·	u	u--------	_	15	AuxK	_	t_106|ref=Data (demonstrationes alterae)_18.1
+1	ἐπεὶ	ἐπεί	c	c--------	_	15	AuxC	_	t_83|t_97|ref=Data (demonstrationes alterae)_18.1
+2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_84|t_97|ref=Data (demonstrationes alterae)_18.1
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	SBJ	_	t_85|t_95|ref=Data (demonstrationes alterae)_18.1
+4	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_86|t_95|ref=Data (demonstrationes alterae)_18.1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_87|t_88|ref=Data (demonstrationes alterae)_18.1
+6	ΑΒ	αβ	n	n--------	_	4	ADV	_	t_88|t_86|ref=Data (demonstrationes alterae)_18.1
+7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	4	ADV	_	t_89|t_86|ref=Data (demonstrationes alterae)_18.1
+8	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_90|t_89|ref=Data (demonstrationes alterae)_18.1
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_91|t_92|ref=Data (demonstrationes alterae)_18.1
+10	ΒΓ	βγ	n	n--------	_	8	ADV	_	t_92|t_90|ref=Data (demonstrationes alterae)_18.1
+11	δοθέντι	δίδωμι	v	v-sappmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_93|t_95|ref=Data (demonstrationes alterae)_18.1
+12	μεῖζόν	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	13	PNOM	_	t_94|t_95|ref=Data (demonstrationes alterae)_18.1
+13	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_95|t_83|ref=Data (demonstrationes alterae)_18.1
+14	,	,	u	u--------	_	15	AuxX	_	t_96|t_97|ref=Data (demonstrationes alterae)_18.1
+15	ἀφῃρήσθω	ἀφαιρέω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_97|0|ref=Data (demonstrationes alterae)_18.1
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_98|t_99|ref=Data (demonstrationes alterae)_18.1
+17	δοθὲν	δίδωμι	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	15	SBJ	_	t_99|t_97|ref=Data (demonstrationes alterae)_18.1
+18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_100|t_99|ref=Data (demonstrationes alterae)_18.1
+19	ὑπὸ	ὑπό	r	r--------	_	17	AuxP	_	t_101|t_99|ref=Data (demonstrationes alterae)_18.1
+20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	22	ATR	_	t_102|t_104|ref=Data (demonstrationes alterae)_18.1
+21	ΑΒ	αβ	n	n--------	_	22	APOS	_	t_103|t_104|ref=Data (demonstrationes alterae)_18.1
+22	,	,	u	u--------	_	19	COORD	_	t_104|t_101|ref=Data (demonstrationes alterae)_18.1
+23	ΒΔ	βδ	n	n--------	_	22	APOS	_	t_105|t_104|ref=Data (demonstrationes alterae)_18.1
+24	·	·	u	u--------	_	15	AuxK	_	t_106|t_97|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text =   λοιπὸν ἄρα τὸ ὑπὸ τῶν BA , ΑΔ ἴσον ἐστὶ τῷ ἀπὸ τῆς ΒΓ .
 # sent_id = 8
-1	 	,	u	u--------	_	11	AuxG	_	t_107|ref=Data (demonstrationes alterae)_18.1
-2	λοιπὸν	λοιπός	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_108|ref=Data (demonstrationes alterae)_18.1
-3	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_109|ref=Data (demonstrationes alterae)_18.1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_110|ref=Data (demonstrationes alterae)_18.1
-5	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_111|ref=Data (demonstrationes alterae)_18.1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_112|ref=Data (demonstrationes alterae)_18.1
-7	BA	ba	n	n--------	_	8	APOS	_	t_113|ref=Data (demonstrationes alterae)_18.1
-8	,	,	u	u--------	_	5	COORD	_	t_114|ref=Data (demonstrationes alterae)_18.1
-9	ΑΔ	αδ	n	n--------	_	8	APOS	_	t_115|ref=Data (demonstrationes alterae)_18.1
-10	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_116|ref=Data (demonstrationes alterae)_18.1
-11	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_117|ref=Data (demonstrationes alterae)_18.1
-12	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_118|ref=Data (demonstrationes alterae)_18.1
-13	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_119|ref=Data (demonstrationes alterae)_18.1
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_120|ref=Data (demonstrationes alterae)_18.1
-15	ΒΓ	βγ	n	n--------	_	13	ATR	_	t_121|ref=Data (demonstrationes alterae)_18.1
-16	.	.	u	u--------	_	11	AuxK	_	t_122|ref=Data (demonstrationes alterae)_18.1
+1	 	,	u	u--------	_	11	AuxG	_	t_107|t_117|ref=Data (demonstrationes alterae)_18.1
+2	λοιπὸν	λοιπός	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_108|t_117|ref=Data (demonstrationes alterae)_18.1
+3	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_109|t_117|ref=Data (demonstrationes alterae)_18.1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_110|t_117|ref=Data (demonstrationes alterae)_18.1
+5	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_111|t_110|ref=Data (demonstrationes alterae)_18.1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_112|t_111|ref=Data (demonstrationes alterae)_18.1
+7	BA	ba	n	n--------	_	8	APOS	_	t_113|t_114|ref=Data (demonstrationes alterae)_18.1
+8	,	,	u	u--------	_	5	COORD	_	t_114|t_111|ref=Data (demonstrationes alterae)_18.1
+9	ΑΔ	αδ	n	n--------	_	8	APOS	_	t_115|t_114|ref=Data (demonstrationes alterae)_18.1
+10	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_116|t_117|ref=Data (demonstrationes alterae)_18.1
+11	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_117|0|ref=Data (demonstrationes alterae)_18.1
+12	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_118|t_116|ref=Data (demonstrationes alterae)_18.1
+13	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_119|t_118|ref=Data (demonstrationes alterae)_18.1
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_120|t_121|ref=Data (demonstrationes alterae)_18.1
+15	ΒΓ	βγ	n	n--------	_	13	ATR	_	t_121|t_119|ref=Data (demonstrationes alterae)_18.1
+16	.	.	u	u--------	_	11	AuxK	_	t_122|t_117|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καὶ ἐπεὶ δοθέν ἐστι τὸ ὑπὸ τῶν ΑΒ , ΒΓ , ἔστι δὲ καὶ τὸ ὑπὸ τῶν ΑΒ , ΒΔ δοθέν , λόγος ἄρα τοῦ ὑπὸ τῶν ΑΒ , ΒΔ πρὸς τὸ ὑπὸ τῶν ΑΒ , ΒΓ δοθείς [0] .
 # sent_id = 9
-1	καὶ	καί	c	c--------	_	39	AuxY	_	t_123|ref=Data (demonstrationes alterae)_18.1
-2	ἐπεὶ	ἐπεί	c	c--------	_	38	AuxC	_	t_124|ref=Data (demonstrationes alterae)_18.1
-3	δοθέν	δίδωμι	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	4	PNOM	_	t_125|ref=Data (demonstrationes alterae)_18.1
-4	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	ADV	_	t_126|ref=Data (demonstrationes alterae)_18.1
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_127|ref=Data (demonstrationes alterae)_18.1
-6	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_128|ref=Data (demonstrationes alterae)_18.1
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	OBJ	_	t_129|ref=Data (demonstrationes alterae)_18.1
-8	ΑΒ	αβ	n	n--------	_	9	APOS	_	t_130|ref=Data (demonstrationes alterae)_18.1
-9	,	,	u	u--------	_	7	COORD	_	t_131|ref=Data (demonstrationes alterae)_18.1
-10	ΒΓ	βγ	n	n--------	_	9	APOS	_	t_132|ref=Data (demonstrationes alterae)_18.1
-11	,	,	u	u--------	_	39	AuxX	_	t_133|ref=Data (demonstrationes alterae)_18.1
-12	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	ADV	_	t_134|ref=Data (demonstrationes alterae)_18.1
-13	δὲ	δέ	d	d--------	_	2	COORD	_	t_135|ref=Data (demonstrationes alterae)_18.1
-14	καὶ	καί	c	c--------	_	21	AuxZ	_	t_136|ref=Data (demonstrationes alterae)_18.1
-15	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_137|ref=Data (demonstrationes alterae)_18.1
-16	ὑπὸ	ὑπό	r	r--------	_	21	AuxP	_	t_138|ref=Data (demonstrationes alterae)_18.1
-17	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	OBJ	_	t_139|ref=Data (demonstrationes alterae)_18.1
-18	ΑΒ	αβ	n	n--------	_	19	APOS	_	t_140|ref=Data (demonstrationes alterae)_18.1
-19	,	,	u	u--------	_	17	COORD	_	t_141|ref=Data (demonstrationes alterae)_18.1
-20	ΒΔ	βδ	n	n--------	_	19	APOS	_	t_142|ref=Data (demonstrationes alterae)_18.1
-21	δοθέν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	12	PNOM	_	t_143|ref=Data (demonstrationes alterae)_18.1
-22	,	,	u	u--------	_	39	AuxX	_	t_144|ref=Data (demonstrationes alterae)_18.1
-23	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	38	SBJ	_	t_145|ref=Data (demonstrationes alterae)_18.1
-24	ἄρα	ἄρα	d	d--------	_	39	AuxY	_	t_146|ref=Data (demonstrationes alterae)_18.1
-25	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	23	ATR	_	t_147|ref=Data (demonstrationes alterae)_18.1
-26	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_148|ref=Data (demonstrationes alterae)_18.1
-27	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	OBJ	_	t_149|ref=Data (demonstrationes alterae)_18.1
-28	ΑΒ	αβ	n	n--------	_	29	APOS	_	t_150|ref=Data (demonstrationes alterae)_18.1
-29	,	,	u	u--------	_	27	COORD	_	t_151|ref=Data (demonstrationes alterae)_18.1
-30	ΒΔ	βδ	n	n--------	_	29	APOS	_	t_152|ref=Data (demonstrationes alterae)_18.1
-31	πρὸς	πρός	r	r--------	_	38	AuxP	_	t_153|ref=Data (demonstrationes alterae)_18.1
-32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ADV	_	t_154|ref=Data (demonstrationes alterae)_18.1
-33	ὑπὸ	ὑπό	r	r--------	_	32	AuxP	_	t_155|ref=Data (demonstrationes alterae)_18.1
-34	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	36	ATR	_	t_156|ref=Data (demonstrationes alterae)_18.1
-35	ΑΒ	αβ	n	n--------	_	36	APOS	_	t_157|ref=Data (demonstrationes alterae)_18.1
-36	,	,	u	u--------	_	33	COORD	_	t_158|ref=Data (demonstrationes alterae)_18.1
-37	ΒΓ	βγ	n	n--------	_	36	APOS	_	t_159|ref=Data (demonstrationes alterae)_18.1
-38	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	39	PNOM	_	t_160|ref=Data (demonstrationes alterae)_18.1
-39	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Data (demonstrationes alterae)_18.1
-40	.	.	u	u--------	_	39	AuxK	_	t_161|ref=Data (demonstrationes alterae)_18.1
+1	καὶ	καί	c	c--------	_	39	AuxY	_	t_123|e_1|ref=Data (demonstrationes alterae)_18.1
+2	ἐπεὶ	ἐπεί	c	c--------	_	38	AuxC	_	t_124|t_160|ref=Data (demonstrationes alterae)_18.1
+3	δοθέν	δίδωμι	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	4	PNOM	_	t_125|t_126|ref=Data (demonstrationes alterae)_18.1
+4	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	ADV	_	t_126|t_135|ref=Data (demonstrationes alterae)_18.1
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_127|t_126|ref=Data (demonstrationes alterae)_18.1
+6	ὑπὸ	ὑπό	r	r--------	_	4	AuxP	_	t_128|t_126|ref=Data (demonstrationes alterae)_18.1
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	OBJ	_	t_129|t_128|ref=Data (demonstrationes alterae)_18.1
+8	ΑΒ	αβ	n	n--------	_	9	APOS	_	t_130|t_131|ref=Data (demonstrationes alterae)_18.1
+9	,	,	u	u--------	_	7	COORD	_	t_131|t_129|ref=Data (demonstrationes alterae)_18.1
+10	ΒΓ	βγ	n	n--------	_	9	APOS	_	t_132|t_131|ref=Data (demonstrationes alterae)_18.1
+11	,	,	u	u--------	_	39	AuxX	_	t_133|e_1|ref=Data (demonstrationes alterae)_18.1
+12	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	ADV	_	t_134|t_135|ref=Data (demonstrationes alterae)_18.1
+13	δὲ	δέ	d	d--------	_	2	COORD	_	t_135|t_124|ref=Data (demonstrationes alterae)_18.1
+14	καὶ	καί	c	c--------	_	21	AuxZ	_	t_136|t_143|ref=Data (demonstrationes alterae)_18.1
+15	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_137|t_143|ref=Data (demonstrationes alterae)_18.1
+16	ὑπὸ	ὑπό	r	r--------	_	21	AuxP	_	t_138|t_143|ref=Data (demonstrationes alterae)_18.1
+17	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	OBJ	_	t_139|t_138|ref=Data (demonstrationes alterae)_18.1
+18	ΑΒ	αβ	n	n--------	_	19	APOS	_	t_140|t_141|ref=Data (demonstrationes alterae)_18.1
+19	,	,	u	u--------	_	17	COORD	_	t_141|t_139|ref=Data (demonstrationes alterae)_18.1
+20	ΒΔ	βδ	n	n--------	_	19	APOS	_	t_142|t_141|ref=Data (demonstrationes alterae)_18.1
+21	δοθέν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	12	PNOM	_	t_143|t_134|ref=Data (demonstrationes alterae)_18.1
+22	,	,	u	u--------	_	39	AuxX	_	t_144|e_1|ref=Data (demonstrationes alterae)_18.1
+23	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	38	SBJ	_	t_145|t_160|ref=Data (demonstrationes alterae)_18.1
+24	ἄρα	ἄρα	d	d--------	_	39	AuxY	_	t_146|e_1|ref=Data (demonstrationes alterae)_18.1
+25	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	23	ATR	_	t_147|t_145|ref=Data (demonstrationes alterae)_18.1
+26	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_148|t_147|ref=Data (demonstrationes alterae)_18.1
+27	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	OBJ	_	t_149|t_148|ref=Data (demonstrationes alterae)_18.1
+28	ΑΒ	αβ	n	n--------	_	29	APOS	_	t_150|t_151|ref=Data (demonstrationes alterae)_18.1
+29	,	,	u	u--------	_	27	COORD	_	t_151|t_149|ref=Data (demonstrationes alterae)_18.1
+30	ΒΔ	βδ	n	n--------	_	29	APOS	_	t_152|t_151|ref=Data (demonstrationes alterae)_18.1
+31	πρὸς	πρός	r	r--------	_	38	AuxP	_	t_153|t_160|ref=Data (demonstrationes alterae)_18.1
+32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ADV	_	t_154|t_153|ref=Data (demonstrationes alterae)_18.1
+33	ὑπὸ	ὑπό	r	r--------	_	32	AuxP	_	t_155|t_154|ref=Data (demonstrationes alterae)_18.1
+34	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	36	ATR	_	t_156|t_158|ref=Data (demonstrationes alterae)_18.1
+35	ΑΒ	αβ	n	n--------	_	36	APOS	_	t_157|t_158|ref=Data (demonstrationes alterae)_18.1
+36	,	,	u	u--------	_	33	COORD	_	t_158|t_155|ref=Data (demonstrationes alterae)_18.1
+37	ΒΓ	βγ	n	n--------	_	36	APOS	_	t_159|t_158|ref=Data (demonstrationes alterae)_18.1
+38	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	39	PNOM	_	t_160|e_1|ref=Data (demonstrationes alterae)_18.1
+39	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Data (demonstrationes alterae)_18.1
+40	.	.	u	u--------	_	39	AuxK	_	t_161|e_1|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καί ἐστιν , ὡς τὸ ὑπὸ τῶν ΑΒ , ΒΔ πρὸς τὸ ὑπὸ τῶν ΑΒ , ΒΓ , οὕτως ἡ ΔΒ πρὸς ΒΓ [0] [1] ·
 # sent_id = 10
-1	καί	καί	c	c--------	_	2	AuxY	_	t_162|ref=Data (demonstrationes alterae)_18.1
-2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_163|ref=Data (demonstrationes alterae)_18.1
-3	,	,	u	u--------	_	2	AuxX	_	t_164|ref=Data (demonstrationes alterae)_18.1
-4	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_165|ref=Data (demonstrationes alterae)_18.1
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_166|ref=Data (demonstrationes alterae)_18.1
-6	ὑπὸ	ὑπό	r	r--------	_	24	AuxP	_	t_167|ref=Data (demonstrationes alterae)_18.1
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	OBJ	_	t_168|ref=Data (demonstrationes alterae)_18.1
-8	ΑΒ	αβ	n	n--------	_	9	APOS	_	t_169|ref=Data (demonstrationes alterae)_18.1
-9	,	,	u	u--------	_	6	APOS	_	t_170|ref=Data (demonstrationes alterae)_18.1
-10	ΒΔ	βδ	n	n--------	_	9	APOS	_	t_171|ref=Data (demonstrationes alterae)_18.1
-11	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_172|ref=Data (demonstrationes alterae)_18.1
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	25	SBJ	_	t_173|ref=Data (demonstrationes alterae)_18.1
-13	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_174|ref=Data (demonstrationes alterae)_18.1
-14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	OBJ	_	t_175|ref=Data (demonstrationes alterae)_18.1
-15	ΑΒ	αβ	n	n--------	_	16	APOS	_	t_176|ref=Data (demonstrationes alterae)_18.1
-16	,	,	u	u--------	_	13	COORD	_	t_177|ref=Data (demonstrationes alterae)_18.1
-17	ΒΓ	βγ	n	n--------	_	16	APOS	_	t_178|ref=Data (demonstrationes alterae)_18.1
-18	,	,	u	u--------	_	2	AuxX	_	t_179|ref=Data (demonstrationes alterae)_18.1
-19	οὕτως	οὕτως	d	d--------	_	2	ADV	_	t_180|ref=Data (demonstrationes alterae)_18.1
-20	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	21	ATR	_	t_181|ref=Data (demonstrationes alterae)_18.1
-21	ΔΒ	δβ	n	n--------	_	25	SBJ	_	t_182|ref=Data (demonstrationes alterae)_18.1
-22	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_183|ref=Data (demonstrationes alterae)_18.1
-23	ΒΓ	βγ	n	n--------	_	22	ADV	_	t_184|ref=Data (demonstrationes alterae)_18.1
-24	[0]	[0]	-	---------	_	4	ADV	_	e_2|ref=Data (demonstrationes alterae)_18.1
-25	[1]	[1]	-	---------	_	4	ADV	_	e_3|ref=Data (demonstrationes alterae)_18.1
-26	·	·	u	u--------	_	2	AuxK	_	t_185|ref=Data (demonstrationes alterae)_18.1
+1	καί	καί	c	c--------	_	2	AuxY	_	t_162|t_163|ref=Data (demonstrationes alterae)_18.1
+2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_163|0|ref=Data (demonstrationes alterae)_18.1
+3	,	,	u	u--------	_	2	AuxX	_	t_164|t_163|ref=Data (demonstrationes alterae)_18.1
+4	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_165|t_163|ref=Data (demonstrationes alterae)_18.1
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_166|e_2|ref=Data (demonstrationes alterae)_18.1
+6	ὑπὸ	ὑπό	r	r--------	_	24	AuxP	_	t_167|e_2|ref=Data (demonstrationes alterae)_18.1
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	OBJ	_	t_168|t_167|ref=Data (demonstrationes alterae)_18.1
+8	ΑΒ	αβ	n	n--------	_	9	APOS	_	t_169|t_170|ref=Data (demonstrationes alterae)_18.1
+9	,	,	u	u--------	_	6	APOS	_	t_170|t_167|ref=Data (demonstrationes alterae)_18.1
+10	ΒΔ	βδ	n	n--------	_	9	APOS	_	t_171|t_170|ref=Data (demonstrationes alterae)_18.1
+11	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_172|t_163|ref=Data (demonstrationes alterae)_18.1
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	25	SBJ	_	t_173|e_3|ref=Data (demonstrationes alterae)_18.1
+13	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_174|e_3|ref=Data (demonstrationes alterae)_18.1
+14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	OBJ	_	t_175|t_174|ref=Data (demonstrationes alterae)_18.1
+15	ΑΒ	αβ	n	n--------	_	16	APOS	_	t_176|t_177|ref=Data (demonstrationes alterae)_18.1
+16	,	,	u	u--------	_	13	COORD	_	t_177|t_174|ref=Data (demonstrationes alterae)_18.1
+17	ΒΓ	βγ	n	n--------	_	16	APOS	_	t_178|t_177|ref=Data (demonstrationes alterae)_18.1
+18	,	,	u	u--------	_	2	AuxX	_	t_179|t_163|ref=Data (demonstrationes alterae)_18.1
+19	οὕτως	οὕτως	d	d--------	_	2	ADV	_	t_180|t_163|ref=Data (demonstrationes alterae)_18.1
+20	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	21	ATR	_	t_181|t_182|ref=Data (demonstrationes alterae)_18.1
+21	ΔΒ	δβ	n	n--------	_	25	SBJ	_	t_182|e_3|ref=Data (demonstrationes alterae)_18.1
+22	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_183|e_3|ref=Data (demonstrationes alterae)_18.1
+23	ΒΓ	βγ	n	n--------	_	22	ADV	_	t_184|t_183|ref=Data (demonstrationes alterae)_18.1
+24	[0]	[0]	-	---------	_	4	ADV	_	e_2|t_165|ref=Data (demonstrationes alterae)_18.1
+25	[1]	[1]	-	---------	_	4	ADV	_	e_3|t_165|ref=Data (demonstrationes alterae)_18.1
+26	·	·	u	u--------	_	2	AuxK	_	t_185|t_163|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = λόγος ἄρα καὶ τῆς ΔΒ πρὸς ΒΓ δοθείς [0] ·
 # sent_id = 11
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_186|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	9	AuxY	_	t_187|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_188|ref=Data (demonstrationes alterae)_18.1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_189|ref=Data (demonstrationes alterae)_18.1
-5	ΔΒ	δβ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	APOS	_	t_190|ref=Data (demonstrationes alterae)_18.1
-6	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_191|ref=Data (demonstrationes alterae)_18.1
-7	ΒΓ	βγ	n	n--------	_	6	OBJ	_	t_192|ref=Data (demonstrationes alterae)_18.1
-8	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	PNOM	_	t_193|ref=Data (demonstrationes alterae)_18.1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Data (demonstrationes alterae)_18.1
-10	·	·	u	u--------	_	9	AuxK	_	t_194|ref=Data (demonstrationes alterae)_18.1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_186|e_4|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	9	AuxY	_	t_187|e_4|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_188|t_190|ref=Data (demonstrationes alterae)_18.1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_189|t_190|ref=Data (demonstrationes alterae)_18.1
+5	ΔΒ	δβ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	APOS	_	t_190|t_186|ref=Data (demonstrationes alterae)_18.1
+6	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_191|t_193|ref=Data (demonstrationes alterae)_18.1
+7	ΒΓ	βγ	n	n--------	_	6	OBJ	_	t_192|t_191|ref=Data (demonstrationes alterae)_18.1
+8	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	PNOM	_	t_193|e_4|ref=Data (demonstrationes alterae)_18.1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Data (demonstrationes alterae)_18.1
+10	·	·	u	u--------	_	9	AuxK	_	t_194|e_4|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = λόγος ἄρα καὶ τοῦ ἀπὸ τῆς ΔΒ πρὸς τὸ ἀπὸ τῆς ΒΓ δοθείς [0] .
 # sent_id = 12
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_195|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	14	AuxY	_	t_196|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	c	c--------	_	1	AuxZ	_	t_197|ref=Data (demonstrationes alterae)_18.1
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_198|ref=Data (demonstrationes alterae)_18.1
-5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_199|ref=Data (demonstrationes alterae)_18.1
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_200|ref=Data (demonstrationes alterae)_18.1
-7	ΔΒ	δβ	n	n--------	_	5	ATR	_	t_201|ref=Data (demonstrationes alterae)_18.1
-8	πρὸς	πρός	r	r--------	_	14	AuxP	_	t_202|ref=Data (demonstrationes alterae)_18.1
-9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_203|ref=Data (demonstrationes alterae)_18.1
-10	ἀπὸ	ἀπό	r	r--------	_	9	AuxP	_	t_204|ref=Data (demonstrationes alterae)_18.1
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_205|ref=Data (demonstrationes alterae)_18.1
-12	ΒΓ	βγ	n	n--------	_	10	ADV	_	t_206|ref=Data (demonstrationes alterae)_18.1
-13	δοθείς	δίδωμι	n	n-s---mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	SBJ	_	t_207|ref=Data (demonstrationes alterae)_18.1
-14	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Data (demonstrationes alterae)_18.1
-15	.	.	u	u--------	_	14	AuxK	_	t_208|ref=Data (demonstrationes alterae)_18.1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_195|e_5|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	14	AuxY	_	t_196|e_5|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	c	c--------	_	1	AuxZ	_	t_197|t_195|ref=Data (demonstrationes alterae)_18.1
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_198|t_195|ref=Data (demonstrationes alterae)_18.1
+5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_199|t_198|ref=Data (demonstrationes alterae)_18.1
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_200|t_201|ref=Data (demonstrationes alterae)_18.1
+7	ΔΒ	δβ	n	n--------	_	5	ATR	_	t_201|t_199|ref=Data (demonstrationes alterae)_18.1
+8	πρὸς	πρός	r	r--------	_	14	AuxP	_	t_202|e_5|ref=Data (demonstrationes alterae)_18.1
+9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_203|t_202|ref=Data (demonstrationes alterae)_18.1
+10	ἀπὸ	ἀπό	r	r--------	_	9	AuxP	_	t_204|t_203|ref=Data (demonstrationes alterae)_18.1
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_205|t_206|ref=Data (demonstrationes alterae)_18.1
+12	ΒΓ	βγ	n	n--------	_	10	ADV	_	t_206|t_204|ref=Data (demonstrationes alterae)_18.1
+13	δοθείς	δίδωμι	n	n-s---mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	SBJ	_	t_207|e_5|ref=Data (demonstrationes alterae)_18.1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Data (demonstrationes alterae)_18.1
+15	.	.	u	u--------	_	14	AuxK	_	t_208|e_5|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = τῷ δὲ ἀπὸ τῆς ΓΒ ἴσον τὸ ὑπὸ τῶν ΒΑ , ΑΔ [0] ·
 # sent_id = 13
-1	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	6	ADV	_	t_209|ref=Data (demonstrationes alterae)_18.1
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_210|ref=Data (demonstrationes alterae)_18.1
-3	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_211|ref=Data (demonstrationes alterae)_18.1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_212|ref=Data (demonstrationes alterae)_18.1
-5	ΓΒ	γβ	n	n--------	_	3	ATR	_	t_213|ref=Data (demonstrationes alterae)_18.1
-6	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_214|ref=Data (demonstrationes alterae)_18.1
-7	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	13	SBJ	_	t_215|ref=Data (demonstrationes alterae)_18.1
-8	ὑπὸ	ὑπό	r	r--------	_	7	AuxP	_	t_216|ref=Data (demonstrationes alterae)_18.1
-9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=n|Number=p	8	OBJ	_	t_217|ref=Data (demonstrationes alterae)_18.1
-10	ΒΑ	βα	n	n--------	_	11	APOS	_	t_218|ref=Data (demonstrationes alterae)_18.1
-11	,	,	u	u--------	_	9	COORD	_	t_219|ref=Data (demonstrationes alterae)_18.1
-12	ΑΔ	αδ	n	n--------	_	11	APOS	_	t_220|ref=Data (demonstrationes alterae)_18.1
-13	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Data (demonstrationes alterae)_18.1
-14	·	·	u	u--------	_	13	AuxK	_	t_221|ref=Data (demonstrationes alterae)_18.1
+1	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	6	ADV	_	t_209|t_214|ref=Data (demonstrationes alterae)_18.1
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_210|e_6|ref=Data (demonstrationes alterae)_18.1
+3	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_211|t_209|ref=Data (demonstrationes alterae)_18.1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_212|t_213|ref=Data (demonstrationes alterae)_18.1
+5	ΓΒ	γβ	n	n--------	_	3	ATR	_	t_213|t_211|ref=Data (demonstrationes alterae)_18.1
+6	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_214|e_6|ref=Data (demonstrationes alterae)_18.1
+7	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	13	SBJ	_	t_215|e_6|ref=Data (demonstrationes alterae)_18.1
+8	ὑπὸ	ὑπό	r	r--------	_	7	AuxP	_	t_216|t_215|ref=Data (demonstrationes alterae)_18.1
+9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=n|Number=p	8	OBJ	_	t_217|t_216|ref=Data (demonstrationes alterae)_18.1
+10	ΒΑ	βα	n	n--------	_	11	APOS	_	t_218|t_219|ref=Data (demonstrationes alterae)_18.1
+11	,	,	u	u--------	_	9	COORD	_	t_219|t_217|ref=Data (demonstrationes alterae)_18.1
+12	ΑΔ	αδ	n	n--------	_	11	APOS	_	t_220|t_219|ref=Data (demonstrationes alterae)_18.1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Data (demonstrationes alterae)_18.1
+14	·	·	u	u--------	_	13	AuxK	_	t_221|e_6|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = λόγος ἄρα καὶ τοῦ ὑπὸ τῶν ΒΑ , ΑΔ πρὸς τὸ ἀπὸ τῆς ΔΒ δοθείς [0] ·
 # sent_id = 14
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_222|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	16	AuxY	_	t_223|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	c	c--------	_	8	AuxY	_	t_224|ref=Data (demonstrationes alterae)_18.1
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	1	ATR	_	t_225|ref=Data (demonstrationes alterae)_18.1
-5	ὑπὸ	ὑπό	r	r--------	_	8	AuxP	_	t_226|ref=Data (demonstrationes alterae)_18.1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_227|ref=Data (demonstrationes alterae)_18.1
-7	ΒΑ	βα	n	n--------	_	8	APOS	_	t_228|ref=Data (demonstrationes alterae)_18.1
-8	,	,	u	u--------	_	16	AuxX	_	t_229|ref=Data (demonstrationes alterae)_18.1
-9	ΑΔ	αδ	n	n--------	_	8	APOS	_	t_230|ref=Data (demonstrationes alterae)_18.1
-10	πρὸς	πρός	r	r--------	_	16	AuxP	_	t_231|ref=Data (demonstrationes alterae)_18.1
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_232|ref=Data (demonstrationes alterae)_18.1
-12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_233|ref=Data (demonstrationes alterae)_18.1
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_234|ref=Data (demonstrationes alterae)_18.1
-14	ΔΒ	δβ	n	n--------	Case=g|Gender=f|Number=s	12	ATR	_	t_235|ref=Data (demonstrationes alterae)_18.1
-15	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	16	ADV	_	t_236|ref=Data (demonstrationes alterae)_18.1
-16	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Data (demonstrationes alterae)_18.1
-17	·	·	u	u--------	_	16	AuxK	_	t_237|ref=Data (demonstrationes alterae)_18.1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_222|e_7|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	16	AuxY	_	t_223|e_7|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	c	c--------	_	8	AuxY	_	t_224|t_229|ref=Data (demonstrationes alterae)_18.1
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	1	ATR	_	t_225|t_222|ref=Data (demonstrationes alterae)_18.1
+5	ὑπὸ	ὑπό	r	r--------	_	8	AuxP	_	t_226|t_229|ref=Data (demonstrationes alterae)_18.1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_227|t_226|ref=Data (demonstrationes alterae)_18.1
+7	ΒΑ	βα	n	n--------	_	8	APOS	_	t_228|t_229|ref=Data (demonstrationes alterae)_18.1
+8	,	,	u	u--------	_	16	AuxX	_	t_229|e_7|ref=Data (demonstrationes alterae)_18.1
+9	ΑΔ	αδ	n	n--------	_	8	APOS	_	t_230|t_229|ref=Data (demonstrationes alterae)_18.1
+10	πρὸς	πρός	r	r--------	_	16	AuxP	_	t_231|e_7|ref=Data (demonstrationes alterae)_18.1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_232|t_231|ref=Data (demonstrationes alterae)_18.1
+12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_233|t_232|ref=Data (demonstrationes alterae)_18.1
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_234|t_235|ref=Data (demonstrationes alterae)_18.1
+14	ΔΒ	δβ	n	n--------	Case=g|Gender=f|Number=s	12	ATR	_	t_235|t_233|ref=Data (demonstrationes alterae)_18.1
+15	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	16	ADV	_	t_236|e_7|ref=Data (demonstrationes alterae)_18.1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Data (demonstrationes alterae)_18.1
+17	·	·	u	u--------	_	16	AuxK	_	t_237|e_7|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καὶ τοῦ τετράκις ἄρα ὑπὸ τῶν ΒΑ , ΑΔ μετὰ τοῦ ἀπὸ τῆς ΔΒ πρὸς τὸ ἀπὸ τῆς ΒΔ λόγος δοθείς [0] .
 # sent_id = 15
-1	καὶ	καί	c	c--------	_	22	AuxY	_	t_238|ref=Data (demonstrationes alterae)_18.1
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	3	ADV	_	t_239|ref=Data (demonstrationes alterae)_18.1
-3	τετράκις	τετράκις	d	d--------	_	22	ADV	_	t_240|ref=Data (demonstrationes alterae)_18.1
-4	ἄρα	ἄρα	d	d--------	_	22	AuxY	_	t_241|ref=Data (demonstrationes alterae)_18.1
-5	ὑπὸ	ὑπό	r	r--------	_	21	AuxP	_	t_242|ref=Data (demonstrationes alterae)_18.1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_243|ref=Data (demonstrationes alterae)_18.1
-7	ΒΑ	βα	n	n--------	_	8	APOS	_	t_244|ref=Data (demonstrationes alterae)_18.1
-8	,	,	u	u--------	_	6	COORD	_	t_245|ref=Data (demonstrationes alterae)_18.1
-9	ΑΔ	αδ	n	n--------	_	8	APOS	_	t_246|ref=Data (demonstrationes alterae)_18.1
-10	μετὰ	μετά	r	r--------	_	21	AuxP	_	t_247|ref=Data (demonstrationes alterae)_18.1
-11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_248|ref=Data (demonstrationes alterae)_18.1
-12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_249|ref=Data (demonstrationes alterae)_18.1
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_250|ref=Data (demonstrationes alterae)_18.1
-14	ΔΒ	δβ	n	n--------	Case=g|Gender=f|Number=s	12	ATR	_	t_251|ref=Data (demonstrationes alterae)_18.1
-15	πρὸς	πρός	r	r--------	_	21	AuxP	_	t_252|ref=Data (demonstrationes alterae)_18.1
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_253|ref=Data (demonstrationes alterae)_18.1
-17	ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_254|ref=Data (demonstrationes alterae)_18.1
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_255|ref=Data (demonstrationes alterae)_18.1
-19	ΒΔ	βδ	n	n--------	Case=g|Gender=f|Number=s	17	ATR	_	t_256|ref=Data (demonstrationes alterae)_18.1
-20	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_257|ref=Data (demonstrationes alterae)_18.1
-21	δοθείς	δίδωμι	n	n-s---mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	22	PNOM	_	t_258|ref=Data (demonstrationes alterae)_18.1
-22	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Data (demonstrationes alterae)_18.1
-23	.	.	u	u--------	_	22	AuxK	_	t_259|ref=Data (demonstrationes alterae)_18.1
+1	καὶ	καί	c	c--------	_	22	AuxY	_	t_238|e_8|ref=Data (demonstrationes alterae)_18.1
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	3	ADV	_	t_239|t_240|ref=Data (demonstrationes alterae)_18.1
+3	τετράκις	τετράκις	d	d--------	_	22	ADV	_	t_240|e_8|ref=Data (demonstrationes alterae)_18.1
+4	ἄρα	ἄρα	d	d--------	_	22	AuxY	_	t_241|e_8|ref=Data (demonstrationes alterae)_18.1
+5	ὑπὸ	ὑπό	r	r--------	_	21	AuxP	_	t_242|t_258|ref=Data (demonstrationes alterae)_18.1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_243|t_242|ref=Data (demonstrationes alterae)_18.1
+7	ΒΑ	βα	n	n--------	_	8	APOS	_	t_244|t_245|ref=Data (demonstrationes alterae)_18.1
+8	,	,	u	u--------	_	6	COORD	_	t_245|t_243|ref=Data (demonstrationes alterae)_18.1
+9	ΑΔ	αδ	n	n--------	_	8	APOS	_	t_246|t_245|ref=Data (demonstrationes alterae)_18.1
+10	μετὰ	μετά	r	r--------	_	21	AuxP	_	t_247|t_258|ref=Data (demonstrationes alterae)_18.1
+11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_248|t_247|ref=Data (demonstrationes alterae)_18.1
+12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_249|t_248|ref=Data (demonstrationes alterae)_18.1
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_250|t_251|ref=Data (demonstrationes alterae)_18.1
+14	ΔΒ	δβ	n	n--------	Case=g|Gender=f|Number=s	12	ATR	_	t_251|t_249|ref=Data (demonstrationes alterae)_18.1
+15	πρὸς	πρός	r	r--------	_	21	AuxP	_	t_252|t_258|ref=Data (demonstrationes alterae)_18.1
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_253|t_252|ref=Data (demonstrationes alterae)_18.1
+17	ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_254|t_253|ref=Data (demonstrationes alterae)_18.1
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_255|t_256|ref=Data (demonstrationes alterae)_18.1
+19	ΒΔ	βδ	n	n--------	Case=g|Gender=f|Number=s	17	ATR	_	t_256|t_254|ref=Data (demonstrationes alterae)_18.1
+20	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_257|e_8|ref=Data (demonstrationes alterae)_18.1
+21	δοθείς	δίδωμι	n	n-s---mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	22	PNOM	_	t_258|e_8|ref=Data (demonstrationes alterae)_18.1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Data (demonstrationes alterae)_18.1
+23	.	.	u	u--------	_	22	AuxK	_	t_259|e_8|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = ἀλλὰ τὸ τετράκις ὑπὸ τῶν ΒΑ , ΑΔ μετὰ τοῦ ἀπὸ τῆς ΒΔ τὸ ἀπὸ συναμφοτέρου τῆς ΒΑ , ΑΔ ἐστιν ·
 # sent_id = 16
-1	ἀλλὰ	ἀλλά	c	c--------	_	21	AuxY	_	t_260|ref=Data (demonstrationes alterae)_18.1
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_261|ref=Data (demonstrationes alterae)_18.1
-3	τετράκις	τετράκις	d	d--------	_	21	SBJ	_	t_262|ref=Data (demonstrationes alterae)_18.1
-4	ὑπὸ	ὑπό	r	r--------	_	3	AuxP	_	t_263|ref=Data (demonstrationes alterae)_18.1
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	OBJ	_	t_264|ref=Data (demonstrationes alterae)_18.1
-6	ΒΑ	βα	n	n--------	_	4	OBJ	_	t_265|ref=Data (demonstrationes alterae)_18.1
-7	,	,	u	u--------	_	21	AuxX	_	t_266|ref=Data (demonstrationes alterae)_18.1
-8	ΑΔ	αδ	n	n--------	_	3	APOS	_	t_267|ref=Data (demonstrationes alterae)_18.1
-9	μετὰ	μετά	r	r--------	_	21	AuxP	_	t_268|ref=Data (demonstrationes alterae)_18.1
-10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_269|ref=Data (demonstrationes alterae)_18.1
-11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_270|ref=Data (demonstrationes alterae)_18.1
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_271|ref=Data (demonstrationes alterae)_18.1
-13	ΒΔ	βδ	n	n--------	_	11	ATR	_	t_272|ref=Data (demonstrationes alterae)_18.1
-14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_273|ref=Data (demonstrationes alterae)_18.1
-15	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_274|ref=Data (demonstrationes alterae)_18.1
-16	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_275|ref=Data (demonstrationes alterae)_18.1
-17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_276|ref=Data (demonstrationes alterae)_18.1
-18	ΒΑ	βα	n	n-s---fg-	Case=g|Gender=f|Number=s	15	APOS	_	t_277|ref=Data (demonstrationes alterae)_18.1
-19	,	,	u	u--------	_	21	AuxX	_	t_278|ref=Data (demonstrationes alterae)_18.1
-20	ΑΔ	αδ	n	n--------	_	21	PNOM	_	t_279|ref=Data (demonstrationes alterae)_18.1
-21	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_280|ref=Data (demonstrationes alterae)_18.1
-22	·	·	u	u--------	_	21	AuxK	_	t_281|ref=Data (demonstrationes alterae)_18.1
+1	ἀλλὰ	ἀλλά	c	c--------	_	21	AuxY	_	t_260|t_280|ref=Data (demonstrationes alterae)_18.1
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_261|t_262|ref=Data (demonstrationes alterae)_18.1
+3	τετράκις	τετράκις	d	d--------	_	21	SBJ	_	t_262|t_280|ref=Data (demonstrationes alterae)_18.1
+4	ὑπὸ	ὑπό	r	r--------	_	3	AuxP	_	t_263|t_262|ref=Data (demonstrationes alterae)_18.1
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	OBJ	_	t_264|t_263|ref=Data (demonstrationes alterae)_18.1
+6	ΒΑ	βα	n	n--------	_	4	OBJ	_	t_265|t_263|ref=Data (demonstrationes alterae)_18.1
+7	,	,	u	u--------	_	21	AuxX	_	t_266|t_280|ref=Data (demonstrationes alterae)_18.1
+8	ΑΔ	αδ	n	n--------	_	3	APOS	_	t_267|t_262|ref=Data (demonstrationes alterae)_18.1
+9	μετὰ	μετά	r	r--------	_	21	AuxP	_	t_268|t_280|ref=Data (demonstrationes alterae)_18.1
+10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_269|t_268|ref=Data (demonstrationes alterae)_18.1
+11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_270|t_269|ref=Data (demonstrationes alterae)_18.1
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_271|t_272|ref=Data (demonstrationes alterae)_18.1
+13	ΒΔ	βδ	n	n--------	_	11	ATR	_	t_272|t_270|ref=Data (demonstrationes alterae)_18.1
+14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_273|t_280|ref=Data (demonstrationes alterae)_18.1
+15	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_274|t_273|ref=Data (demonstrationes alterae)_18.1
+16	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_275|t_274|ref=Data (demonstrationes alterae)_18.1
+17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_276|t_277|ref=Data (demonstrationes alterae)_18.1
+18	ΒΑ	βα	n	n-s---fg-	Case=g|Gender=f|Number=s	15	APOS	_	t_277|t_274|ref=Data (demonstrationes alterae)_18.1
+19	,	,	u	u--------	_	21	AuxX	_	t_278|t_280|ref=Data (demonstrationes alterae)_18.1
+20	ΑΔ	αδ	n	n--------	_	21	PNOM	_	t_279|t_280|ref=Data (demonstrationes alterae)_18.1
+21	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_280|0|ref=Data (demonstrationes alterae)_18.1
+22	·	·	u	u--------	_	21	AuxK	_	t_281|t_280|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = λόγος ἄρα καὶ τοῦ ἀπὸ συναμφοτέρου τῆς ΒΑ , ΑΔ πρὸς τὸ ἀπὸ τῆς ΔΒ δοθείς [0] ·
 # sent_id = 17
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_282|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	17	AuxY	_	t_283|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	c	c--------	_	1	AuxZ	_	t_284|ref=Data (demonstrationes alterae)_18.1
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_285|ref=Data (demonstrationes alterae)_18.1
-5	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_286|ref=Data (demonstrationes alterae)_18.1
-6	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_287|ref=Data (demonstrationes alterae)_18.1
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_288|ref=Data (demonstrationes alterae)_18.1
-8	ΒΑ	βα	n	n-s---fg-	Case=g|Gender=f|Number=s	6	APOS	_	t_289|ref=Data (demonstrationes alterae)_18.1
-9	,	,	u	u--------	_	17	AuxX	_	t_290|ref=Data (demonstrationes alterae)_18.1
-10	ΑΔ	αδ	n	n--------	_	1	APOS	_	t_291|ref=Data (demonstrationes alterae)_18.1
-11	πρὸς	πρός	r	r--------	_	17	AuxP	_	t_292|ref=Data (demonstrationes alterae)_18.1
-12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_293|ref=Data (demonstrationes alterae)_18.1
-13	ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_294|ref=Data (demonstrationes alterae)_18.1
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_295|ref=Data (demonstrationes alterae)_18.1
-15	ΔΒ	δβ	n	n--------	Case=g|Gender=f|Number=s	13	ADV	_	t_296|ref=Data (demonstrationes alterae)_18.1
-16	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ATR	_	t_297|ref=Data (demonstrationes alterae)_18.1
-17	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Data (demonstrationes alterae)_18.1
-18	·	·	u	u--------	_	17	AuxK	_	t_298|ref=Data (demonstrationes alterae)_18.1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_282|e_9|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	17	AuxY	_	t_283|e_9|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	c	c--------	_	1	AuxZ	_	t_284|t_282|ref=Data (demonstrationes alterae)_18.1
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_285|t_287|ref=Data (demonstrationes alterae)_18.1
+5	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_286|t_282|ref=Data (demonstrationes alterae)_18.1
+6	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_287|t_286|ref=Data (demonstrationes alterae)_18.1
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_288|t_289|ref=Data (demonstrationes alterae)_18.1
+8	ΒΑ	βα	n	n-s---fg-	Case=g|Gender=f|Number=s	6	APOS	_	t_289|t_287|ref=Data (demonstrationes alterae)_18.1
+9	,	,	u	u--------	_	17	AuxX	_	t_290|e_9|ref=Data (demonstrationes alterae)_18.1
+10	ΑΔ	αδ	n	n--------	_	1	APOS	_	t_291|t_282|ref=Data (demonstrationes alterae)_18.1
+11	πρὸς	πρός	r	r--------	_	17	AuxP	_	t_292|e_9|ref=Data (demonstrationes alterae)_18.1
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_293|t_292|ref=Data (demonstrationes alterae)_18.1
+13	ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_294|t_297|ref=Data (demonstrationes alterae)_18.1
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_295|t_296|ref=Data (demonstrationes alterae)_18.1
+15	ΔΒ	δβ	n	n--------	Case=g|Gender=f|Number=s	13	ADV	_	t_296|t_294|ref=Data (demonstrationes alterae)_18.1
+16	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ATR	_	t_297|t_282|ref=Data (demonstrationes alterae)_18.1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Data (demonstrationes alterae)_18.1
+18	·	·	u	u--------	_	17	AuxK	_	t_298|e_9|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = λόγος ἄρα καὶ συναμφοτέρου τῆς ΒΑ , ΑΔ πρὸς ΔΒ δοθείς [0] .
 # sent_id = 18
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_299|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	12	AuxY	_	t_300|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_301|ref=Data (demonstrationes alterae)_18.1
-4	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=f|Number=s	1	ATR	_	t_302|ref=Data (demonstrationes alterae)_18.1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_303|ref=Data (demonstrationes alterae)_18.1
-6	ΒΑ	βα	n	n-s---fg-	Case=g|Gender=f|Number=s	7	SBJ	_	t_304|ref=Data (demonstrationes alterae)_18.1
-7	,	,	u	u--------	_	12	AuxX	_	t_305|ref=Data (demonstrationes alterae)_18.1
-8	ΑΔ	αδ	n	n--------	_	6	APOS	_	t_306|ref=Data (demonstrationes alterae)_18.1
-9	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_307|ref=Data (demonstrationes alterae)_18.1
-10	ΔΒ	δβ	n	n--------	_	9	OBJ	_	t_308|ref=Data (demonstrationes alterae)_18.1
-11	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	PNOM	_	t_309|ref=Data (demonstrationes alterae)_18.1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Data (demonstrationes alterae)_18.1
-13	.	.	u	u--------	_	12	AuxK	_	t_310|ref=Data (demonstrationes alterae)_18.1
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_299|e_10|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	12	AuxY	_	t_300|e_10|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_301|t_302|ref=Data (demonstrationes alterae)_18.1
+4	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=f|Number=s	1	ATR	_	t_302|t_299|ref=Data (demonstrationes alterae)_18.1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_303|t_304|ref=Data (demonstrationes alterae)_18.1
+6	ΒΑ	βα	n	n-s---fg-	Case=g|Gender=f|Number=s	7	SBJ	_	t_304|t_305|ref=Data (demonstrationes alterae)_18.1
+7	,	,	u	u--------	_	12	AuxX	_	t_305|e_10|ref=Data (demonstrationes alterae)_18.1
+8	ΑΔ	αδ	n	n--------	_	6	APOS	_	t_306|t_304|ref=Data (demonstrationes alterae)_18.1
+9	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_307|t_309|ref=Data (demonstrationes alterae)_18.1
+10	ΔΒ	δβ	n	n--------	_	9	OBJ	_	t_308|t_307|ref=Data (demonstrationes alterae)_18.1
+11	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	PNOM	_	t_309|e_10|ref=Data (demonstrationes alterae)_18.1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Data (demonstrationes alterae)_18.1
+13	.	.	u	u--------	_	12	AuxK	_	t_310|e_10|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καὶ συνθέντι συναμφοτέρου τῆς ΒΑ , ΑΔ μετὰ τῆς ΔΒ , τουτέστι δύο τῶν ΑΒ πρὸς ΒΔ λόγος ἐστὶ δοθείς ·
 # sent_id = 19
-1	καὶ	καί	c	c--------	_	19	AuxY	_	t_311|ref=Data (demonstrationes alterae)_18.1
-2	συνθέντι	συντίθημι	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	19	ADV	_	t_312|ref=Data (demonstrationes alterae)_18.1
-3	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=n|Number=s	2	OBJ	_	t_313|ref=Data (demonstrationes alterae)_18.1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_314|ref=Data (demonstrationes alterae)_18.1
-5	ΒΑ	βα	n	n--------	Case=g|Gender=f|Number=s	3	APOS	_	t_315|ref=Data (demonstrationes alterae)_18.1
-6	,	,	u	u--------	_	19	AuxX	_	t_316|ref=Data (demonstrationes alterae)_18.1
-7	ΑΔ	αδ	n	n--------	_	5	APOS	_	t_317|ref=Data (demonstrationes alterae)_18.1
-8	μετὰ	μετά	r	r--------	_	2	AuxP	_	t_318|ref=Data (demonstrationes alterae)_18.1
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_319|ref=Data (demonstrationes alterae)_18.1
-10	ΔΒ	δβ	n	n--------	_	8	ADV	_	t_320|ref=Data (demonstrationes alterae)_18.1
-11	,	,	u	u--------	_	19	AuxX	_	t_321|ref=Data (demonstrationes alterae)_18.1
-12	τουτέστι	τουτέστι	d	d--------	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	ADV	_	t_322|ref=Data (demonstrationes alterae)_18.1
-13	δύο	δύο	m	m--------	_	18	ATR	_	t_323|ref=Data (demonstrationes alterae)_18.1
-14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=m|Number=p	13	ATR	_	t_324|ref=Data (demonstrationes alterae)_18.1
-15	ΑΒ	αβ	n	n--------	_	13	ATR	_	t_325|ref=Data (demonstrationes alterae)_18.1
-16	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_326|ref=Data (demonstrationes alterae)_18.1
-17	ΒΔ	βδ	n	n--------	_	16	ADV	_	t_327|ref=Data (demonstrationes alterae)_18.1
-18	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_328|ref=Data (demonstrationes alterae)_18.1
-19	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_329|ref=Data (demonstrationes alterae)_18.1
-20	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	19	PNOM	_	t_330|ref=Data (demonstrationes alterae)_18.1
-21	·	·	u	u--------	_	19	AuxK	_	t_331|ref=Data (demonstrationes alterae)_18.1
+1	καὶ	καί	c	c--------	_	19	AuxY	_	t_311|t_329|ref=Data (demonstrationes alterae)_18.1
+2	συνθέντι	συντίθημι	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	19	ADV	_	t_312|t_329|ref=Data (demonstrationes alterae)_18.1
+3	συναμφοτέρου	συναμφότερος	a	a-s---ng-	Case=g|Gender=n|Number=s	2	OBJ	_	t_313|t_312|ref=Data (demonstrationes alterae)_18.1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_314|t_315|ref=Data (demonstrationes alterae)_18.1
+5	ΒΑ	βα	n	n--------	Case=g|Gender=f|Number=s	3	APOS	_	t_315|t_313|ref=Data (demonstrationes alterae)_18.1
+6	,	,	u	u--------	_	19	AuxX	_	t_316|t_329|ref=Data (demonstrationes alterae)_18.1
+7	ΑΔ	αδ	n	n--------	_	5	APOS	_	t_317|t_315|ref=Data (demonstrationes alterae)_18.1
+8	μετὰ	μετά	r	r--------	_	2	AuxP	_	t_318|t_312|ref=Data (demonstrationes alterae)_18.1
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_319|t_320|ref=Data (demonstrationes alterae)_18.1
+10	ΔΒ	δβ	n	n--------	_	8	ADV	_	t_320|t_318|ref=Data (demonstrationes alterae)_18.1
+11	,	,	u	u--------	_	19	AuxX	_	t_321|t_329|ref=Data (demonstrationes alterae)_18.1
+12	τουτέστι	τουτέστι	d	d--------	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	ADV	_	t_322|t_329|ref=Data (demonstrationes alterae)_18.1
+13	δύο	δύο	m	m--------	_	18	ATR	_	t_323|t_328|ref=Data (demonstrationes alterae)_18.1
+14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=m|Number=p	13	ATR	_	t_324|t_323|ref=Data (demonstrationes alterae)_18.1
+15	ΑΒ	αβ	n	n--------	_	13	ATR	_	t_325|t_323|ref=Data (demonstrationes alterae)_18.1
+16	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_326|t_330|ref=Data (demonstrationes alterae)_18.1
+17	ΒΔ	βδ	n	n--------	_	16	ADV	_	t_327|t_326|ref=Data (demonstrationes alterae)_18.1
+18	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_328|t_329|ref=Data (demonstrationes alterae)_18.1
+19	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_329|0|ref=Data (demonstrationes alterae)_18.1
+20	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	19	PNOM	_	t_330|t_329|ref=Data (demonstrationes alterae)_18.1
+21	·	·	u	u--------	_	19	AuxK	_	t_331|t_329|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καὶ τῆς ΑΒ ἄρα πρὸς ΒΔ λόγος ἐστὶ δοθείς .
 # sent_id = 20
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_332|ref=Data (demonstrationes alterae)_18.1
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_333|ref=Data (demonstrationes alterae)_18.1
-3	ΑΒ	αβ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_334|ref=Data (demonstrationes alterae)_18.1
-4	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_335|ref=Data (demonstrationes alterae)_18.1
-5	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_336|ref=Data (demonstrationes alterae)_18.1
-6	ΒΔ	βδ	n	n--------	_	5	ADV	_	t_337|ref=Data (demonstrationes alterae)_18.1
-7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_338|ref=Data (demonstrationes alterae)_18.1
-8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_339|ref=Data (demonstrationes alterae)_18.1
-9	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	PNOM	_	t_340|ref=Data (demonstrationes alterae)_18.1
-10	.	.	u	u--------	_	8	AuxK	_	t_341|ref=Data (demonstrationes alterae)_18.1
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_332|t_339|ref=Data (demonstrationes alterae)_18.1
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_333|t_334|ref=Data (demonstrationes alterae)_18.1
+3	ΑΒ	αβ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_334|t_338|ref=Data (demonstrationes alterae)_18.1
+4	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_335|t_339|ref=Data (demonstrationes alterae)_18.1
+5	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_336|t_340|ref=Data (demonstrationes alterae)_18.1
+6	ΒΔ	βδ	n	n--------	_	5	ADV	_	t_337|t_336|ref=Data (demonstrationes alterae)_18.1
+7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_338|t_339|ref=Data (demonstrationes alterae)_18.1
+8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_339|0|ref=Data (demonstrationes alterae)_18.1
+9	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	PNOM	_	t_340|t_339|ref=Data (demonstrationes alterae)_18.1
+10	.	.	u	u--------	_	8	AuxK	_	t_341|t_339|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = τῆς δὲ ΔΒ πρὸς τὴν ΒΓ λόγος ἐστὶ δοθείς ·
 # sent_id = 21
-1	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_342|ref=Data (demonstrationes alterae)_18.1
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_343|ref=Data (demonstrationes alterae)_18.1
-3	ΔΒ	δβ	n	n--------	_	7	ATR	_	t_344|ref=Data (demonstrationes alterae)_18.1
-4	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_345|ref=Data (demonstrationes alterae)_18.1
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_346|ref=Data (demonstrationes alterae)_18.1
-6	ΒΓ	βγ	n	n--------	_	4	ADV	_	t_347|ref=Data (demonstrationes alterae)_18.1
-7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_348|ref=Data (demonstrationes alterae)_18.1
-8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_349|ref=Data (demonstrationes alterae)_18.1
-9	δοθείς	δίδωμι	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	PNOM	_	t_350|ref=Data (demonstrationes alterae)_18.1
-10	·	·	u	u--------	_	8	AuxK	_	t_351|ref=Data (demonstrationes alterae)_18.1
+1	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_342|t_344|ref=Data (demonstrationes alterae)_18.1
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_343|t_349|ref=Data (demonstrationes alterae)_18.1
+3	ΔΒ	δβ	n	n--------	_	7	ATR	_	t_344|t_348|ref=Data (demonstrationes alterae)_18.1
+4	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_345|t_350|ref=Data (demonstrationes alterae)_18.1
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_346|t_347|ref=Data (demonstrationes alterae)_18.1
+6	ΒΓ	βγ	n	n--------	_	4	ADV	_	t_347|t_345|ref=Data (demonstrationes alterae)_18.1
+7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_348|t_349|ref=Data (demonstrationes alterae)_18.1
+8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_349|0|ref=Data (demonstrationes alterae)_18.1
+9	δοθείς	δίδωμι	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	PNOM	_	t_350|t_349|ref=Data (demonstrationes alterae)_18.1
+10	·	·	u	u--------	_	8	AuxK	_	t_351|t_349|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καὶ τῆς ΑΒ ἄρα πρὸς ΒΓ λόγος δοθείς [0] .
 # sent_id = 22
-1	καὶ	καί	c	c--------	_	9	AuxY	_	t_352|ref=Data (demonstrationes alterae)_18.1
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_353|ref=Data (demonstrationes alterae)_18.1
-3	ΑΒ	αβ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_354|ref=Data (demonstrationes alterae)_18.1
-4	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_355|ref=Data (demonstrationes alterae)_18.1
-5	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_356|ref=Data (demonstrationes alterae)_18.1
-6	ΒΓ	βγ	n	n--------	_	5	OBJ	_	t_357|ref=Data (demonstrationes alterae)_18.1
-7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_358|ref=Data (demonstrationes alterae)_18.1
-8	δοθείς	δίδωμι	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	PNOM	_	t_359|ref=Data (demonstrationes alterae)_18.1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Data (demonstrationes alterae)_18.1
-10	.	.	u	u--------	_	9	AuxK	_	t_360|ref=Data (demonstrationes alterae)_18.1
+1	καὶ	καί	c	c--------	_	9	AuxY	_	t_352|e_11|ref=Data (demonstrationes alterae)_18.1
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_353|t_354|ref=Data (demonstrationes alterae)_18.1
+3	ΑΒ	αβ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_354|t_358|ref=Data (demonstrationes alterae)_18.1
+4	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_355|t_359|ref=Data (demonstrationes alterae)_18.1
+5	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_356|t_359|ref=Data (demonstrationes alterae)_18.1
+6	ΒΓ	βγ	n	n--------	_	5	OBJ	_	t_357|t_356|ref=Data (demonstrationes alterae)_18.1
+7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_358|e_11|ref=Data (demonstrationes alterae)_18.1
+8	δοθείς	δίδωμι	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	PNOM	_	t_359|e_11|ref=Data (demonstrationes alterae)_18.1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Data (demonstrationes alterae)_18.1
+10	.	.	u	u--------	_	9	AuxK	_	t_360|e_11|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καὶ ἐπεὶ λόγος τῆς ΑΒ πρὸς ΒΔ δοθείς , καί ἐστιν , ὡς ἡ ΑΒ πρὸς ΒΔ , οὕτως τὸ ἀπὸ τῆς ΑΒ πρὸς τὸ ὑπὸ τῶν ΑΒ , ΒΔ , λόγος ἄρα καὶ τοῦ ἀπὸ τῆς ΑΒ πρὸς τὸ ὑπὸ τῶν ΑΒ , ΒΔ δοθείς [0] [1] .
 # sent_id = 23
-1	καὶ	καί	c	c--------	_	11	AuxY	_	t_361|ref=Data (demonstrationes alterae)_18.1
-2	ἐπεὶ	ἐπεί	c	c--------	_	46	AuxC	_	t_362|ref=Data (demonstrationes alterae)_18.1
-3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_363|ref=Data (demonstrationes alterae)_18.1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_364|ref=Data (demonstrationes alterae)_18.1
-5	ΑΒ	αβ	n	n--------	_	3	ATR	_	t_365|ref=Data (demonstrationes alterae)_18.1
-6	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_366|ref=Data (demonstrationes alterae)_18.1
-7	ΒΔ	βδ	n	n--------	_	6	ADV	_	t_367|ref=Data (demonstrationes alterae)_18.1
-8	δοθείς	δίδωμι	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	10	ADV	_	t_368|ref=Data (demonstrationes alterae)_18.1
-9	,	,	u	u--------	_	46	AuxX	_	t_369|ref=Data (demonstrationes alterae)_18.1
-10	καί	καί	c	c--------	_	2	COORD	_	t_370|ref=Data (demonstrationes alterae)_18.1
-11	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_371|ref=Data (demonstrationes alterae)_18.1
-12	,	,	u	u--------	_	46	AuxX	_	t_372|ref=Data (demonstrationes alterae)_18.1
-13	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_373|ref=Data (demonstrationes alterae)_18.1
-14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_374|ref=Data (demonstrationes alterae)_18.1
-15	ΑΒ	αβ	n	n--------	_	47	SBJ	_	t_375|ref=Data (demonstrationes alterae)_18.1
-16	πρὸς	πρός	r	r--------	_	47	AuxP	_	t_376|ref=Data (demonstrationes alterae)_18.1
-17	ΒΔ	βδ	n	n--------	_	16	ADV	_	t_377|ref=Data (demonstrationes alterae)_18.1
-18	,	,	u	u--------	_	46	AuxX	_	t_378|ref=Data (demonstrationes alterae)_18.1
-19	οὕτως	οὕτως	d	d--------	_	11	ADV	_	t_379|ref=Data (demonstrationes alterae)_18.1
-20	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_380|ref=Data (demonstrationes alterae)_18.1
-21	ἀπὸ	ἀπό	r	r--------	_	20	AuxP	_	t_381|ref=Data (demonstrationes alterae)_18.1
-22	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_382|ref=Data (demonstrationes alterae)_18.1
-23	ΑΒ	αβ	n	n--------	_	21	ATR	_	t_383|ref=Data (demonstrationes alterae)_18.1
-24	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_384|ref=Data (demonstrationes alterae)_18.1
-25	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ADV	_	t_385|ref=Data (demonstrationes alterae)_18.1
-26	ὑπὸ	ὑπό	r	r--------	_	48	AuxP	_	t_386|ref=Data (demonstrationes alterae)_18.1
-27	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_387|ref=Data (demonstrationes alterae)_18.1
-28	ΑΒ	αβ	n	n--------	_	29	APOS	_	t_388|ref=Data (demonstrationes alterae)_18.1
-29	,	,	u	u--------	_	27	COORD	_	t_389|ref=Data (demonstrationes alterae)_18.1
-30	ΒΔ	βδ	n	n--------	_	29	APOS	_	t_390|ref=Data (demonstrationes alterae)_18.1
-31	,	,	u	u--------	_	46	AuxX	_	t_391|ref=Data (demonstrationes alterae)_18.1
-32	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_392|ref=Data (demonstrationes alterae)_18.1
-33	ἄρα	ἄρα	d	d--------	_	46	AuxY	_	t_393|ref=Data (demonstrationes alterae)_18.1
-34	καὶ	καί	c	c--------	_	35	AuxZ	_	t_394|ref=Data (demonstrationes alterae)_18.1
-35	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_395|ref=Data (demonstrationes alterae)_18.1
-36	ἀπὸ	ἀπό	r	r--------	_	35	AuxP	_	t_396|ref=Data (demonstrationes alterae)_18.1
-37	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	38	ATR	_	t_397|ref=Data (demonstrationes alterae)_18.1
-38	ΑΒ	αβ	n	n--------	Case=g|Gender=f|Number=s	36	ATR	_	t_398|ref=Data (demonstrationes alterae)_18.1
-39	πρὸς	πρός	r	r--------	_	46	AuxP	_	t_399|ref=Data (demonstrationes alterae)_18.1
-40	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	39	ADV	_	t_400|ref=Data (demonstrationes alterae)_18.1
-41	ὑπὸ	ὑπό	r	r--------	_	40	AuxP	_	t_401|ref=Data (demonstrationes alterae)_18.1
-42	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	41	OBJ	_	t_402|ref=Data (demonstrationes alterae)_18.1
-43	ΑΒ	αβ	n	n--------	_	44	APOS	_	t_403|ref=Data (demonstrationes alterae)_18.1
-44	,	,	u	u--------	_	46	AuxX	_	t_404|ref=Data (demonstrationes alterae)_18.1
-45	ΒΔ	βδ	n	n--------	_	44	APOS	_	t_405|ref=Data (demonstrationes alterae)_18.1
-46	δοθείς	δίδωμι	v	v2spia---	Case=n|Gender=m|Number=s	0	PRED	_	t_406|ref=Data (demonstrationes alterae)_18.1
-47	[0]	[0]	-	---------	_	13	ADV	_	e_12|ref=Data (demonstrationes alterae)_18.1
-48	[1]	[1]	-	---------	_	11	SBJ	_	e_13|ref=Data (demonstrationes alterae)_18.1
-49	.	.	u	u--------	_	46	AuxK	_	t_407|ref=Data (demonstrationes alterae)_18.1
+1	καὶ	καί	c	c--------	_	11	AuxY	_	t_361|t_371|ref=Data (demonstrationes alterae)_18.1
+2	ἐπεὶ	ἐπεί	c	c--------	_	46	AuxC	_	t_362|t_406|ref=Data (demonstrationes alterae)_18.1
+3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_363|t_368|ref=Data (demonstrationes alterae)_18.1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_364|t_365|ref=Data (demonstrationes alterae)_18.1
+5	ΑΒ	αβ	n	n--------	_	3	ATR	_	t_365|t_363|ref=Data (demonstrationes alterae)_18.1
+6	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_366|t_368|ref=Data (demonstrationes alterae)_18.1
+7	ΒΔ	βδ	n	n--------	_	6	ADV	_	t_367|t_366|ref=Data (demonstrationes alterae)_18.1
+8	δοθείς	δίδωμι	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	10	ADV	_	t_368|t_370|ref=Data (demonstrationes alterae)_18.1
+9	,	,	u	u--------	_	46	AuxX	_	t_369|t_406|ref=Data (demonstrationes alterae)_18.1
+10	καί	καί	c	c--------	_	2	COORD	_	t_370|t_362|ref=Data (demonstrationes alterae)_18.1
+11	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_371|t_370|ref=Data (demonstrationes alterae)_18.1
+12	,	,	u	u--------	_	46	AuxX	_	t_372|t_406|ref=Data (demonstrationes alterae)_18.1
+13	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_373|t_371|ref=Data (demonstrationes alterae)_18.1
+14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_374|t_375|ref=Data (demonstrationes alterae)_18.1
+15	ΑΒ	αβ	n	n--------	_	47	SBJ	_	t_375|e_12|ref=Data (demonstrationes alterae)_18.1
+16	πρὸς	πρός	r	r--------	_	47	AuxP	_	t_376|e_12|ref=Data (demonstrationes alterae)_18.1
+17	ΒΔ	βδ	n	n--------	_	16	ADV	_	t_377|t_376|ref=Data (demonstrationes alterae)_18.1
+18	,	,	u	u--------	_	46	AuxX	_	t_378|t_406|ref=Data (demonstrationes alterae)_18.1
+19	οὕτως	οὕτως	d	d--------	_	11	ADV	_	t_379|t_371|ref=Data (demonstrationes alterae)_18.1
+20	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_380|t_371|ref=Data (demonstrationes alterae)_18.1
+21	ἀπὸ	ἀπό	r	r--------	_	20	AuxP	_	t_381|t_380|ref=Data (demonstrationes alterae)_18.1
+22	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_382|t_383|ref=Data (demonstrationes alterae)_18.1
+23	ΑΒ	αβ	n	n--------	_	21	ATR	_	t_383|t_381|ref=Data (demonstrationes alterae)_18.1
+24	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_384|t_371|ref=Data (demonstrationes alterae)_18.1
+25	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ADV	_	t_385|t_384|ref=Data (demonstrationes alterae)_18.1
+26	ὑπὸ	ὑπό	r	r--------	_	48	AuxP	_	t_386|e_13|ref=Data (demonstrationes alterae)_18.1
+27	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_387|t_386|ref=Data (demonstrationes alterae)_18.1
+28	ΑΒ	αβ	n	n--------	_	29	APOS	_	t_388|t_389|ref=Data (demonstrationes alterae)_18.1
+29	,	,	u	u--------	_	27	COORD	_	t_389|t_387|ref=Data (demonstrationes alterae)_18.1
+30	ΒΔ	βδ	n	n--------	_	29	APOS	_	t_390|t_389|ref=Data (demonstrationes alterae)_18.1
+31	,	,	u	u--------	_	46	AuxX	_	t_391|t_406|ref=Data (demonstrationes alterae)_18.1
+32	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_392|t_371|ref=Data (demonstrationes alterae)_18.1
+33	ἄρα	ἄρα	d	d--------	_	46	AuxY	_	t_393|t_406|ref=Data (demonstrationes alterae)_18.1
+34	καὶ	καί	c	c--------	_	35	AuxZ	_	t_394|t_395|ref=Data (demonstrationes alterae)_18.1
+35	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_395|t_392|ref=Data (demonstrationes alterae)_18.1
+36	ἀπὸ	ἀπό	r	r--------	_	35	AuxP	_	t_396|t_395|ref=Data (demonstrationes alterae)_18.1
+37	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	38	ATR	_	t_397|t_398|ref=Data (demonstrationes alterae)_18.1
+38	ΑΒ	αβ	n	n--------	Case=g|Gender=f|Number=s	36	ATR	_	t_398|t_396|ref=Data (demonstrationes alterae)_18.1
+39	πρὸς	πρός	r	r--------	_	46	AuxP	_	t_399|t_406|ref=Data (demonstrationes alterae)_18.1
+40	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	39	ADV	_	t_400|t_399|ref=Data (demonstrationes alterae)_18.1
+41	ὑπὸ	ὑπό	r	r--------	_	40	AuxP	_	t_401|t_400|ref=Data (demonstrationes alterae)_18.1
+42	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	41	OBJ	_	t_402|t_401|ref=Data (demonstrationes alterae)_18.1
+43	ΑΒ	αβ	n	n--------	_	44	APOS	_	t_403|t_404|ref=Data (demonstrationes alterae)_18.1
+44	,	,	u	u--------	_	46	AuxX	_	t_404|t_406|ref=Data (demonstrationes alterae)_18.1
+45	ΒΔ	βδ	n	n--------	_	44	APOS	_	t_405|t_404|ref=Data (demonstrationes alterae)_18.1
+46	δοθείς	δίδωμι	v	v2spia---	Case=n|Gender=m|Number=s	0	PRED	_	t_406|0|ref=Data (demonstrationes alterae)_18.1
+47	[0]	[0]	-	---------	_	13	ADV	_	e_12|t_373|ref=Data (demonstrationes alterae)_18.1
+48	[1]	[1]	-	---------	_	11	SBJ	_	e_13|t_371|ref=Data (demonstrationes alterae)_18.1
+49	.	.	u	u--------	_	46	AuxK	_	t_407|t_406|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = δοθὲν δὲ τὸ ὑπὸ τῶν ΑΒ , ΒΔ [0] ·
 # sent_id = 24
-1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	9	PNOM	_	t_408|ref=Data (demonstrationes alterae)_18.1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_409|ref=Data (demonstrationes alterae)_18.1
-3	τὸ	ὁ	l	l-s---na-	Case=n|Gender=n|Number=s	1	SBJ	_	t_410|ref=Data (demonstrationes alterae)_18.1
-4	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_411|ref=Data (demonstrationes alterae)_18.1
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_412|ref=Data (demonstrationes alterae)_18.1
-6	ΑΒ	αβ	n	n--------	_	7	APOS	_	t_413|ref=Data (demonstrationes alterae)_18.1
-7	,	,	u	u--------	_	4	COORD	_	t_414|ref=Data (demonstrationes alterae)_18.1
-8	ΒΔ	βδ	n	n--------	_	7	APOS	_	t_415|ref=Data (demonstrationes alterae)_18.1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Data (demonstrationes alterae)_18.1
-10	·	·	u	u--------	_	9	AuxK	_	t_416|ref=Data (demonstrationes alterae)_18.1
+1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	9	PNOM	_	t_408|e_14|ref=Data (demonstrationes alterae)_18.1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_409|e_14|ref=Data (demonstrationes alterae)_18.1
+3	τὸ	ὁ	l	l-s---na-	Case=n|Gender=n|Number=s	1	SBJ	_	t_410|t_408|ref=Data (demonstrationes alterae)_18.1
+4	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_411|t_408|ref=Data (demonstrationes alterae)_18.1
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_412|t_414|ref=Data (demonstrationes alterae)_18.1
+6	ΑΒ	αβ	n	n--------	_	7	APOS	_	t_413|t_414|ref=Data (demonstrationes alterae)_18.1
+7	,	,	u	u--------	_	4	COORD	_	t_414|t_411|ref=Data (demonstrationes alterae)_18.1
+8	ΒΔ	βδ	n	n--------	_	7	APOS	_	t_415|t_414|ref=Data (demonstrationes alterae)_18.1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Data (demonstrationes alterae)_18.1
+10	·	·	u	u--------	_	9	AuxK	_	t_416|e_14|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = οὕτως γὰρ δοθὲν ἀφῄρηται ·
 # sent_id = 25
-1	οὕτως	οὕτως	d	d--------	_	3	ADV	_	t_417|ref=Data (demonstrationes alterae)_18.1
-2	γὰρ	γάρ	d	d--------	_	4	AuxY	_	t_418|ref=Data (demonstrationes alterae)_18.1
-3	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	4	ADV	_	t_419|ref=Data (demonstrationes alterae)_18.1
-4	ἀφῄρηται	ἀφαιρέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_420|ref=Data (demonstrationes alterae)_18.1
-5	·	·	u	u--------	_	4	AuxK	_	t_421|ref=Data (demonstrationes alterae)_18.1
+1	οὕτως	οὕτως	d	d--------	_	3	ADV	_	t_417|t_419|ref=Data (demonstrationes alterae)_18.1
+2	γὰρ	γάρ	d	d--------	_	4	AuxY	_	t_418|t_420|ref=Data (demonstrationes alterae)_18.1
+3	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	4	ADV	_	t_419|t_420|ref=Data (demonstrationes alterae)_18.1
+4	ἀφῄρηται	ἀφαιρέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_420|0|ref=Data (demonstrationes alterae)_18.1
+5	·	·	u	u--------	_	4	AuxK	_	t_421|t_420|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = δοθὲν ἄρα καὶ τὸ ἀπὸ τῆς ΑΒ [0] ·
 # sent_id = 26
-1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	8	PNOM	_	t_422|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_423|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_424|ref=Data (demonstrationes alterae)_18.1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_425|ref=Data (demonstrationes alterae)_18.1
-5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_426|ref=Data (demonstrationes alterae)_18.1
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_427|ref=Data (demonstrationes alterae)_18.1
-7	ΑΒ	αβ	n	n--------	_	5	ATR	_	t_428|ref=Data (demonstrationes alterae)_18.1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Data (demonstrationes alterae)_18.1
-9	·	·	u	u--------	_	8	AuxK	_	t_429|ref=Data (demonstrationes alterae)_18.1
+1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	8	PNOM	_	t_422|e_15|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_423|e_15|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_424|t_425|ref=Data (demonstrationes alterae)_18.1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_425|t_422|ref=Data (demonstrationes alterae)_18.1
+5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_426|t_425|ref=Data (demonstrationes alterae)_18.1
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_427|t_428|ref=Data (demonstrationes alterae)_18.1
+7	ΑΒ	αβ	n	n--------	_	5	ATR	_	t_428|t_426|ref=Data (demonstrationes alterae)_18.1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Data (demonstrationes alterae)_18.1
+9	·	·	u	u--------	_	8	AuxK	_	t_429|e_15|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = δοθεῖσα ἄρα ἡ ΑΒ [0] .
 # sent_id = 27
-1	δοθεῖσα	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_430|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	5	AuxY	_	t_431|ref=Data (demonstrationes alterae)_18.1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_432|ref=Data (demonstrationes alterae)_18.1
-4	ΑΒ	αβ	n	n--------	_	5	SBJ	_	t_433|ref=Data (demonstrationes alterae)_18.1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Data (demonstrationes alterae)_18.1
-6	.	.	u	u--------	_	5	AuxK	_	t_434|ref=Data (demonstrationes alterae)_18.1
+1	δοθεῖσα	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	5	ADV	_	t_430|e_16|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	5	AuxY	_	t_431|e_16|ref=Data (demonstrationes alterae)_18.1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_432|t_433|ref=Data (demonstrationes alterae)_18.1
+4	ΑΒ	αβ	n	n--------	_	5	SBJ	_	t_433|e_16|ref=Data (demonstrationes alterae)_18.1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Data (demonstrationes alterae)_18.1
+6	.	.	u	u--------	_	5	AuxK	_	t_434|e_16|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = καί ἐστι λόγος τῆς ΑΒ πρὸς ΒΓ δοθείς ·
 # sent_id = 28
-1	καί	καί	d	d--------	_	2	AuxY	_	t_435|ref=Data (demonstrationes alterae)_18.1
-2	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_436|ref=Data (demonstrationes alterae)_18.1
-3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_437|ref=Data (demonstrationes alterae)_18.1
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_438|ref=Data (demonstrationes alterae)_18.1
-5	ΑΒ	αβ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_439|ref=Data (demonstrationes alterae)_18.1
-6	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_440|ref=Data (demonstrationes alterae)_18.1
-7	ΒΓ	βγ	n	n--------	_	6	ADV	_	t_441|ref=Data (demonstrationes alterae)_18.1
-8	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	2	PNOM	_	t_442|ref=Data (demonstrationes alterae)_18.1
-9	·	·	u	u--------	_	2	AuxK	_	t_443|ref=Data (demonstrationes alterae)_18.1
+1	καί	καί	d	d--------	_	2	AuxY	_	t_435|t_436|ref=Data (demonstrationes alterae)_18.1
+2	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_436|0|ref=Data (demonstrationes alterae)_18.1
+3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_437|t_436|ref=Data (demonstrationes alterae)_18.1
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_438|t_439|ref=Data (demonstrationes alterae)_18.1
+5	ΑΒ	αβ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_439|t_437|ref=Data (demonstrationes alterae)_18.1
+6	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_440|t_436|ref=Data (demonstrationes alterae)_18.1
+7	ΒΓ	βγ	n	n--------	_	6	ADV	_	t_441|t_440|ref=Data (demonstrationes alterae)_18.1
+8	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	2	PNOM	_	t_442|t_436|ref=Data (demonstrationes alterae)_18.1
+9	·	·	u	u--------	_	2	AuxK	_	t_443|t_436|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = δοθεῖσα ἄρα καὶ ἡ ΒΓ [0] .
 # sent_id = 29
-1	δοθεῖσα	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_444|ref=Data (demonstrationes alterae)_18.1
-2	ἄρα	ἄρα	d	d--------	_	6	AuxY	_	t_445|ref=Data (demonstrationes alterae)_18.1
-3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_446|ref=Data (demonstrationes alterae)_18.1
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_447|ref=Data (demonstrationes alterae)_18.1
-5	ΒΓ	βγ	n	n--------	_	6	SBJ	_	t_448|ref=Data (demonstrationes alterae)_18.1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_17|ref=Data (demonstrationes alterae)_18.1
-7	.	.	u	u--------	_	6	AuxK	_	t_449|ref=Data (demonstrationes alterae)_18.1
+1	δοθεῖσα	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	6	ADV	_	t_444|e_17|ref=Data (demonstrationes alterae)_18.1
+2	ἄρα	ἄρα	d	d--------	_	6	AuxY	_	t_445|e_17|ref=Data (demonstrationes alterae)_18.1
+3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_446|t_448|ref=Data (demonstrationes alterae)_18.1
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_447|t_448|ref=Data (demonstrationes alterae)_18.1
+5	ΒΓ	βγ	n	n--------	_	6	SBJ	_	t_448|e_17|ref=Data (demonstrationes alterae)_18.1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Data (demonstrationes alterae)_18.1
+7	.	.	u	u--------	_	6	AuxK	_	t_449|e_17|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1
 # text = Λῆμμα τοῦ ἐπάνω [0] .
 # sent_id = 30
-1	Λῆμμα	λῆμμα	n	n-s---nn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_450|ref=Data (demonstrationes alterae)_18.1
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_451|ref=Data (demonstrationes alterae)_18.1
-3	ἐπάνω	ἐπάνω	d	d--------	_	1	ATR	_	t_452|ref=Data (demonstrationes alterae)_18.1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_18|ref=Data (demonstrationes alterae)_18.1
-5	.	.	u	u--------	_	4	AuxK	_	t_453|ref=Data (demonstrationes alterae)_18.1
+1	Λῆμμα	λῆμμα	n	n-s---nn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_450|e_18|ref=Data (demonstrationes alterae)_18.1
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_451|t_452|ref=Data (demonstrationes alterae)_18.1
+3	ἐπάνω	ἐπάνω	d	d--------	_	1	ATR	_	t_452|t_450|ref=Data (demonstrationes alterae)_18.1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Data (demonstrationes alterae)_18.1
+5	.	.	u	u--------	_	4	AuxK	_	t_453|e_18|ref=Data (demonstrationes alterae)_18.1
 
 # source = Euclid, Data (demonstrationes alterae) 18.1-18.2
 # text = Πῶς δοθέν ἐστι τὸ ὑπὸ τῶν ΑΒΓ ὀρθογώνιον ἀμβλείας ὑποκειμένης τῆς ὑπὸ ΑΒΓ γωνίας ;
 # sent_id = 31
-1	Πῶς	πῶς	d	d--------	_	3	ADV	_	t_454|ref=Data (demonstrationes alterae)_18.1
-2	δοθέν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	3	PNOM	_	t_455|ref=Data (demonstrationes alterae)_18.1
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_456|ref=Data (demonstrationes alterae)_18.1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_457|ref=Data (demonstrationes alterae)_18.1
-5	ὑπὸ	ὑπό	r	r--------	_	8	AuxP	_	t_458|ref=Data (demonstrationes alterae)_18.1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_459|ref=Data (demonstrationes alterae)_18.1
-7	ΑΒΓ	αβγ	n	n--------	_	5	OBJ	_	t_460|ref=Data (demonstrationes alterae)_18.1
-8	ὀρθογώνιον	ὀρθογώνιος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_461|ref=Data (demonstrationes alterae)_18.1
-9	ἀμβλείας	ἀμβλύς	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_462|ref=Data (demonstrationes alterae)_18.1
-10	ὑποκειμένης	ὑπόκειμαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_463|ref=Data (demonstrationes alterae)_18.1
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_464|ref=Data (demonstrationes alterae)_18.1
-12	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_465|ref=Data (demonstrationes alterae)_18.1
-13	ΑΒΓ	αβγ	n	n--------	_	12	ATR	_	t_466|ref=Data (demonstrationes alterae)_18.1
-14	γωνίας	γωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_467|ref=Data (demonstrationes alterae)_18.2
-15	;	;	u	u--------	_	3	AuxK	_	t_468|ref=Data (demonstrationes alterae)_18.2
+1	Πῶς	πῶς	d	d--------	_	3	ADV	_	t_454|t_456|ref=Data (demonstrationes alterae)_18.1
+2	δοθέν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	3	PNOM	_	t_455|t_456|ref=Data (demonstrationes alterae)_18.1
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_456|0|ref=Data (demonstrationes alterae)_18.1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_457|t_461|ref=Data (demonstrationes alterae)_18.1
+5	ὑπὸ	ὑπό	r	r--------	_	8	AuxP	_	t_458|t_461|ref=Data (demonstrationes alterae)_18.1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_459|t_458|ref=Data (demonstrationes alterae)_18.1
+7	ΑΒΓ	αβγ	n	n--------	_	5	OBJ	_	t_460|t_458|ref=Data (demonstrationes alterae)_18.1
+8	ὀρθογώνιον	ὀρθογώνιος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_461|t_456|ref=Data (demonstrationes alterae)_18.1
+9	ἀμβλείας	ἀμβλύς	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_462|t_463|ref=Data (demonstrationes alterae)_18.1
+10	ὑποκειμένης	ὑπόκειμαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_463|t_456|ref=Data (demonstrationes alterae)_18.1
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_464|t_467|ref=Data (demonstrationes alterae)_18.1
+12	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_465|t_467|ref=Data (demonstrationes alterae)_18.1
+13	ΑΒΓ	αβγ	n	n--------	_	12	ATR	_	t_466|t_465|ref=Data (demonstrationes alterae)_18.1
+14	γωνίας	γωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_467|t_463|ref=Data (demonstrationes alterae)_18.2
+15	;	;	u	u--------	_	3	AuxK	_	t_468|t_456|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ἤχθω ἀπὸ τοῦ Β σημείου κάθετος ἡ ΒΔ , καὶ ἐκ - βεβλήσθω ἡ ΓΔ ἐπὶ τὸ Θ , καὶ συμπεπληρώσθω τὸ ΒΔΘΑ ὀρθογώνιον ·
 # sent_id = 32
-1	ἤχθω	ἄγω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	20	PRED	_	t_469|ref=Data (demonstrationes alterae)_18.2
-2	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_470|ref=Data (demonstrationes alterae)_18.1
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_471|ref=Data (demonstrationes alterae)_18.2
-4	Β	β	n	n--------	_	5	APOS	_	t_472|ref=Data (demonstrationes alterae)_18.2
-5	σημείου	σημεῖον	n	n-s---ng-	Case=g|Gender=n|Number=s	2	ADV	_	t_473|ref=Data (demonstrationes alterae)_18.2
-6	κάθετος	κάθετος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_474|ref=Data (demonstrationes alterae)_18.2
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_475|ref=Data (demonstrationes alterae)_18.2
-8	ΒΔ	βδ	n	n--------	_	10	APOS	_	t_476|ref=Data (demonstrationes alterae)_18.2
-9	,	,	u	u--------	_	0	AuxX	_	t_477|ref=Data (demonstrationes alterae)_18.2
-10	καὶ	καί	c	c--------	_	20	COORD	_	t_478|ref=Data (demonstrationes alterae)_18.2
-11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_479|ref=Data (demonstrationes alterae)_18.2
-12	-	-	u	u--------	_	9	AuxX	_	t_480|ref=Data (demonstrationes alterae)_18.2
-13	βεβλήσθω	βάλλω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	20	PRED	_	t_481|ref=Data (demonstrationes alterae)_18.2
-14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_482|ref=Data (demonstrationes alterae)_18.2
-15	ΓΔ	γδ	n	n--------	_	13	SBJ	_	t_483|ref=Data (demonstrationes alterae)_18.2
-16	ἐπὶ	ἐπί	r	r--------	_	13	AuxP	_	t_484|ref=Data (demonstrationes alterae)_18.2
-17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_485|ref=Data (demonstrationes alterae)_18.2
-18	Θ	θ	n	n--------	_	16	OBJ	_	t_486|ref=Data (demonstrationes alterae)_18.2
-19	,	,	u	u--------	_	9	AuxX	_	t_487|ref=Data (demonstrationes alterae)_18.2
-20	καὶ	καί	c	c--------	_	9	COORD	_	t_488|ref=Data (demonstrationes alterae)_18.2
-21	συμπεπληρώσθω	συμπληρόω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	20	PRED	_	t_489|ref=Data (demonstrationes alterae)_18.2
-22	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	ATR	_	t_490|ref=Data (demonstrationes alterae)_18.2
-23	ΒΔΘΑ	βδθα	n	n--------	_	24	APOS	_	t_491|ref=Data (demonstrationes alterae)_18.2
-24	ὀρθογώνιον	ὀρθογώνιος	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_492|ref=Data (demonstrationes alterae)_18.2
-25	·	·	u	u--------	_	9	AuxK	_	t_493|ref=Data (demonstrationes alterae)_18.2
+1	ἤχθω	ἄγω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	20	PRED	_	t_469|t_488|ref=Data (demonstrationes alterae)_18.2
+2	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_470|t_469|ref=Data (demonstrationes alterae)_18.1
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_471|t_473|ref=Data (demonstrationes alterae)_18.2
+4	Β	β	n	n--------	_	5	APOS	_	t_472|t_473|ref=Data (demonstrationes alterae)_18.2
+5	σημείου	σημεῖον	n	n-s---ng-	Case=g|Gender=n|Number=s	2	ADV	_	t_473|t_470|ref=Data (demonstrationes alterae)_18.2
+6	κάθετος	κάθετος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_474|t_476|ref=Data (demonstrationes alterae)_18.2
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_475|t_476|ref=Data (demonstrationes alterae)_18.2
+8	ΒΔ	βδ	n	n--------	_	10	APOS	_	t_476|t_478|ref=Data (demonstrationes alterae)_18.2
+9	,	,	u	u--------	_	0	AuxX	_	t_477|0|ref=Data (demonstrationes alterae)_18.2
+10	καὶ	καί	c	c--------	_	20	COORD	_	t_478|t_488|ref=Data (demonstrationes alterae)_18.2
+11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_479|t_478|ref=Data (demonstrationes alterae)_18.2
+12	-	-	u	u--------	_	9	AuxX	_	t_480|t_477|ref=Data (demonstrationes alterae)_18.2
+13	βεβλήσθω	βάλλω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	20	PRED	_	t_481|t_488|ref=Data (demonstrationes alterae)_18.2
+14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_482|t_483|ref=Data (demonstrationes alterae)_18.2
+15	ΓΔ	γδ	n	n--------	_	13	SBJ	_	t_483|t_481|ref=Data (demonstrationes alterae)_18.2
+16	ἐπὶ	ἐπί	r	r--------	_	13	AuxP	_	t_484|t_481|ref=Data (demonstrationes alterae)_18.2
+17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_485|t_486|ref=Data (demonstrationes alterae)_18.2
+18	Θ	θ	n	n--------	_	16	OBJ	_	t_486|t_484|ref=Data (demonstrationes alterae)_18.2
+19	,	,	u	u--------	_	9	AuxX	_	t_487|t_477|ref=Data (demonstrationes alterae)_18.2
+20	καὶ	καί	c	c--------	_	9	COORD	_	t_488|t_477|ref=Data (demonstrationes alterae)_18.2
+21	συμπεπληρώσθω	συμπληρόω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	20	PRED	_	t_489|t_488|ref=Data (demonstrationes alterae)_18.2
+22	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	ATR	_	t_490|t_492|ref=Data (demonstrationes alterae)_18.2
+23	ΒΔΘΑ	βδθα	n	n--------	_	24	APOS	_	t_491|t_492|ref=Data (demonstrationes alterae)_18.2
+24	ὀρθογώνιον	ὀρθογώνιος	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_492|t_489|ref=Data (demonstrationes alterae)_18.2
+25	·	·	u	u--------	_	9	AuxK	_	t_493|t_477|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ἴσον ἄρα ἐστὶ τῷ ΑΓ .
 # sent_id = 33
-1	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_494|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	3	AuxY	_	t_495|ref=Data (demonstrationes alterae)_18.2
-3	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_496|ref=Data (demonstrationes alterae)_18.2
-4	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_497|ref=Data (demonstrationes alterae)_18.2
-5	ΑΓ	αγ	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_498|ref=Data (demonstrationes alterae)_18.2
-6	.	.	u	u--------	_	3	AuxK	_	t_499|ref=Data (demonstrationes alterae)_18.2
+1	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_494|t_496|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	3	AuxY	_	t_495|t_496|ref=Data (demonstrationes alterae)_18.2
+3	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_496|0|ref=Data (demonstrationes alterae)_18.2
+4	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_497|t_498|ref=Data (demonstrationes alterae)_18.2
+5	ΑΓ	αγ	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_498|t_494|ref=Data (demonstrationes alterae)_18.2
+6	.	.	u	u--------	_	3	AuxK	_	t_499|t_496|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = καὶ ἐκ - βεβλήσθω ἡ ΔΒ ἐπὶ τὸ Ζ , καὶ κείσθω τῇ ΒΓ ἴση ἡ ΒΖ , καὶ συμπεπληρώσθω τὸ ΑΖ ὀρθογώνιον .
 # sent_id = 34
-1	καὶ	καί	c	c--------	_	4	AuxY	_	t_500|ref=Data (demonstrationes alterae)_18.2
-2	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_501|ref=Data (demonstrationes alterae)_18.2
-3	-	-	u	u--------	_	0	AuxX	_	t_502|ref=Data (demonstrationes alterae)_18.2
-4	βεβλήσθω	βάλλω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	19	PRED	_	t_503|ref=Data (demonstrationes alterae)_18.2
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_504|ref=Data (demonstrationes alterae)_18.2
-6	ΔΒ	δβ	n	n--------	_	2	APOS	_	t_505|ref=Data (demonstrationes alterae)_18.2
-7	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_506|ref=Data (demonstrationes alterae)_18.2
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_507|ref=Data (demonstrationes alterae)_18.2
-9	Ζ	ζ	n	n--------	_	7	OBJ	_	t_508|ref=Data (demonstrationes alterae)_18.2
-10	,	,	u	u--------	_	3	AuxX	_	t_509|ref=Data (demonstrationes alterae)_18.2
-11	καὶ	καί	c	c--------	_	19	AuxY	_	t_510|ref=Data (demonstrationes alterae)_18.2
-12	κείσθω	κεῖμαι	v	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_511|ref=Data (demonstrationes alterae)_18.2
-13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	14	ATR	_	t_512|ref=Data (demonstrationes alterae)_18.2
-14	ΒΓ	βγ	n	n--------	_	15	APOS	_	t_513|ref=Data (demonstrationes alterae)_18.2
-15	ἴση	ἴσος	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ADV	_	t_514|ref=Data (demonstrationes alterae)_18.2
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_515|ref=Data (demonstrationes alterae)_18.2
-17	ΒΖ	βζ	n	n--------	_	15	APOS	_	t_516|ref=Data (demonstrationes alterae)_18.2
-18	,	,	u	u--------	_	3	AuxX	_	t_517|ref=Data (demonstrationes alterae)_18.2
-19	καὶ	καί	c	c--------	_	3	COORD	_	t_518|ref=Data (demonstrationes alterae)_18.2
-20	συμπεπληρώσθω	συμπληρόω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	19	PRED	_	t_519|ref=Data (demonstrationes alterae)_18.2
-21	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	23	ATR	_	t_520|ref=Data (demonstrationes alterae)_18.2
-22	ΑΖ	αζ	n	n--------	_	23	APOS	_	t_521|ref=Data (demonstrationes alterae)_18.2
-23	ὀρθογώνιον	ὀρθογώνιος	n	n-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_522|ref=Data (demonstrationes alterae)_18.2
-24	.	.	u	u--------	_	3	AuxK	_	t_523|ref=Data (demonstrationes alterae)_18.2
+1	καὶ	καί	c	c--------	_	4	AuxY	_	t_500|t_503|ref=Data (demonstrationes alterae)_18.2
+2	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_501|t_503|ref=Data (demonstrationes alterae)_18.2
+3	-	-	u	u--------	_	0	AuxX	_	t_502|0|ref=Data (demonstrationes alterae)_18.2
+4	βεβλήσθω	βάλλω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	19	PRED	_	t_503|t_518|ref=Data (demonstrationes alterae)_18.2
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_504|t_505|ref=Data (demonstrationes alterae)_18.2
+6	ΔΒ	δβ	n	n--------	_	2	APOS	_	t_505|t_501|ref=Data (demonstrationes alterae)_18.2
+7	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_506|t_503|ref=Data (demonstrationes alterae)_18.2
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_507|t_508|ref=Data (demonstrationes alterae)_18.2
+9	Ζ	ζ	n	n--------	_	7	OBJ	_	t_508|t_506|ref=Data (demonstrationes alterae)_18.2
+10	,	,	u	u--------	_	3	AuxX	_	t_509|t_502|ref=Data (demonstrationes alterae)_18.2
+11	καὶ	καί	c	c--------	_	19	AuxY	_	t_510|t_518|ref=Data (demonstrationes alterae)_18.2
+12	κείσθω	κεῖμαι	v	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_511|t_518|ref=Data (demonstrationes alterae)_18.2
+13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	14	ATR	_	t_512|t_513|ref=Data (demonstrationes alterae)_18.2
+14	ΒΓ	βγ	n	n--------	_	15	APOS	_	t_513|t_514|ref=Data (demonstrationes alterae)_18.2
+15	ἴση	ἴσος	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ADV	_	t_514|t_511|ref=Data (demonstrationes alterae)_18.2
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_515|t_516|ref=Data (demonstrationes alterae)_18.2
+17	ΒΖ	βζ	n	n--------	_	15	APOS	_	t_516|t_514|ref=Data (demonstrationes alterae)_18.2
+18	,	,	u	u--------	_	3	AuxX	_	t_517|t_502|ref=Data (demonstrationes alterae)_18.2
+19	καὶ	καί	c	c--------	_	3	COORD	_	t_518|t_502|ref=Data (demonstrationes alterae)_18.2
+20	συμπεπληρώσθω	συμπληρόω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	19	PRED	_	t_519|t_518|ref=Data (demonstrationes alterae)_18.2
+21	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	23	ATR	_	t_520|t_522|ref=Data (demonstrationes alterae)_18.2
+22	ΑΖ	αζ	n	n--------	_	23	APOS	_	t_521|t_522|ref=Data (demonstrationes alterae)_18.2
+23	ὀρθογώνιον	ὀρθογώνιος	n	n-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_522|t_519|ref=Data (demonstrationes alterae)_18.2
+24	.	.	u	u--------	_	3	AuxK	_	t_523|t_502|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ἐπεὶ οὖν δοθεῖσά ἐστιν ἡ ὑπὸ ΑΒΓ ὑπόκειται γάρ ·
 # sent_id = 35
-1	ἐπεὶ	ἐπεί	c	c--------	_	8	AuxC	_	t_524|ref=Data (demonstrationes alterae)_18.2
-2	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_525|ref=Data (demonstrationes alterae)_18.2
-3	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	4	PNOM	_	t_526|ref=Data (demonstrationes alterae)_18.2
-4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_527|ref=Data (demonstrationes alterae)_18.2
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_528|ref=Data (demonstrationes alterae)_18.2
-6	ὑπὸ	ὑπό	r	r--------	_	5	AuxP	_	t_529|ref=Data (demonstrationes alterae)_18.2
-7	ΑΒΓ	αβγ	n	n--------	_	6	OBJ	_	t_530|ref=Data (demonstrationes alterae)_18.2
-8	ὑπόκειται	ὑπόκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_531|ref=Data (demonstrationes alterae)_18.2
-9	γάρ	γάρ	d	d--------	_	8	AuxY	_	t_532|ref=Data (demonstrationes alterae)_18.2
-10	·	·	u	u--------	_	8	AuxK	_	t_533|ref=Data (demonstrationes alterae)_18.2
+1	ἐπεὶ	ἐπεί	c	c--------	_	8	AuxC	_	t_524|t_531|ref=Data (demonstrationes alterae)_18.2
+2	οὖν	οὖν	d	d--------	_	8	AuxY	_	t_525|t_531|ref=Data (demonstrationes alterae)_18.2
+3	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	4	PNOM	_	t_526|t_527|ref=Data (demonstrationes alterae)_18.2
+4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_527|t_524|ref=Data (demonstrationes alterae)_18.2
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_528|t_527|ref=Data (demonstrationes alterae)_18.2
+6	ὑπὸ	ὑπό	r	r--------	_	5	AuxP	_	t_529|t_528|ref=Data (demonstrationes alterae)_18.2
+7	ΑΒΓ	αβγ	n	n--------	_	6	OBJ	_	t_530|t_529|ref=Data (demonstrationes alterae)_18.2
+8	ὑπόκειται	ὑπόκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_531|0|ref=Data (demonstrationes alterae)_18.2
+9	γάρ	γάρ	d	d--------	_	8	AuxY	_	t_532|t_531|ref=Data (demonstrationes alterae)_18.2
+10	·	·	u	u--------	_	8	AuxK	_	t_533|t_531|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = δο - θεῖσα δὲ καὶ ἡ ὑπὸ ΑΒΔ [0] ·
 # sent_id = 36
-1	δο	δο	x	x--------	Case=v|Gender=m|Number=s	9	ExD	_	t_534|ref=Data (demonstrationes alterae)_18.2
-2	-	-	u	u--------	_	9	AuxK	_	t_535|ref=Data (demonstrationes alterae)_18.2
-3	θεῖσα	τίθημι	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_536|ref=Data (demonstrationes alterae)_18.2
-4	δὲ	δέ	d	d--------	_	9	AuxY	_	t_537|ref=Data (demonstrationes alterae)_18.2
-5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_538|ref=Data (demonstrationes alterae)_18.2
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_539|ref=Data (demonstrationes alterae)_18.2
-7	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_540|ref=Data (demonstrationes alterae)_18.2
-8	ΑΒΔ	αβδ	n	n--------	_	7	OBJ	_	t_541|ref=Data (demonstrationes alterae)_18.2
-9	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Data (demonstrationes alterae)_18.1
-10	·	·	u	u--------	_	9	AuxK	_	t_542|ref=Data (demonstrationes alterae)_18.2
+1	δο	δο	x	x--------	Case=v|Gender=m|Number=s	9	ExD	_	t_534|e_19|ref=Data (demonstrationes alterae)_18.2
+2	-	-	u	u--------	_	9	AuxK	_	t_535|e_19|ref=Data (demonstrationes alterae)_18.2
+3	θεῖσα	τίθημι	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_536|e_19|ref=Data (demonstrationes alterae)_18.2
+4	δὲ	δέ	d	d--------	_	9	AuxY	_	t_537|e_19|ref=Data (demonstrationes alterae)_18.2
+5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_538|t_539|ref=Data (demonstrationes alterae)_18.2
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_539|e_19|ref=Data (demonstrationes alterae)_18.2
+7	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_540|t_539|ref=Data (demonstrationes alterae)_18.2
+8	ΑΒΔ	αβδ	n	n--------	_	7	OBJ	_	t_541|t_540|ref=Data (demonstrationes alterae)_18.2
+9	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Data (demonstrationes alterae)_18.1
+10	·	·	u	u--------	_	9	AuxK	_	t_542|e_19|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ὀρθὴ γάρ [0] ·
 # sent_id = 37
-1	ὀρθὴ	ὀρθός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_543|ref=Data (demonstrationes alterae)_18.2
-2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_544|ref=Data (demonstrationes alterae)_18.2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Data (demonstrationes alterae)_18.1
-4	·	·	u	u--------	_	3	AuxK	_	t_545|ref=Data (demonstrationes alterae)_18.2
+1	ὀρθὴ	ὀρθός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_543|e_20|ref=Data (demonstrationes alterae)_18.2
+2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_544|e_20|ref=Data (demonstrationes alterae)_18.2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Data (demonstrationes alterae)_18.1
+4	·	·	u	u--------	_	3	AuxK	_	t_545|e_20|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = λοιπὴ ἄρα ἡ ὑπὸ ΔΒΓ δοθεῖσά ἐστιν .
 # sent_id = 38
-1	λοιπὴ	λοιπός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_546|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_547|ref=Data (demonstrationes alterae)_18.2
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_548|ref=Data (demonstrationes alterae)_18.2
-4	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_549|ref=Data (demonstrationes alterae)_18.2
-5	ΔΒΓ	δβγ	n	n--------	_	4	OBJ	_	t_550|ref=Data (demonstrationes alterae)_18.2
-6	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	SBJ	_	t_551|ref=Data (demonstrationes alterae)_18.2
-7	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_552|ref=Data (demonstrationes alterae)_18.2
-8	.	.	u	u--------	_	7	AuxK	_	t_553|ref=Data (demonstrationes alterae)_18.2
+1	λοιπὴ	λοιπός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_546|t_552|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_547|t_552|ref=Data (demonstrationes alterae)_18.2
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_548|t_551|ref=Data (demonstrationes alterae)_18.2
+4	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_549|t_551|ref=Data (demonstrationes alterae)_18.2
+5	ΔΒΓ	δβγ	n	n--------	_	4	OBJ	_	t_550|t_549|ref=Data (demonstrationes alterae)_18.2
+6	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	SBJ	_	t_551|t_552|ref=Data (demonstrationes alterae)_18.2
+7	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_552|0|ref=Data (demonstrationes alterae)_18.2
+8	.	.	u	u--------	_	7	AuxK	_	t_553|t_552|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = καὶ ὀρθὴ ἡ Δ [0] ·
 # sent_id = 39
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_554|ref=Data (demonstrationes alterae)_18.2
-2	ὀρθὴ	ὀρθός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_555|ref=Data (demonstrationes alterae)_18.2
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_556|ref=Data (demonstrationes alterae)_18.2
-4	Δ	δ	n	n-s---fn-	_	5	SBJ	_	t_557|ref=Data (demonstrationes alterae)_18.2
-5	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=Data (demonstrationes alterae)_18.1
-6	·	·	u	u--------	_	5	AuxK	_	t_558|ref=Data (demonstrationes alterae)_18.2
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_554|e_21|ref=Data (demonstrationes alterae)_18.2
+2	ὀρθὴ	ὀρθός	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_555|e_21|ref=Data (demonstrationes alterae)_18.2
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_556|t_557|ref=Data (demonstrationes alterae)_18.2
+4	Δ	δ	n	n-s---fn-	_	5	SBJ	_	t_557|e_21|ref=Data (demonstrationes alterae)_18.2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Data (demonstrationes alterae)_18.1
+6	·	·	u	u--------	_	5	AuxK	_	t_558|e_21|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = λοιπὴ ἄρα , ἡ Γ δοθεῖσά ἐστιν ·
 # sent_id = 40
-1	λοιπὴ	λοιπός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_559|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_560|ref=Data (demonstrationes alterae)_18.2
-3	,	,	u	u--------	_	7	AuxX	_	t_561|ref=Data (demonstrationes alterae)_18.2
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_562|ref=Data (demonstrationes alterae)_18.2
-5	Γ	γ	n	n--------	_	6	PNOM	_	t_563|ref=Data (demonstrationes alterae)_18.2
-6	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	SBJ	_	t_564|ref=Data (demonstrationes alterae)_18.2
-7	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_565|ref=Data (demonstrationes alterae)_18.2
-8	·	·	u	u--------	_	7	AuxK	_	t_566|ref=Data (demonstrationes alterae)_18.2
+1	λοιπὴ	λοιπός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_559|t_565|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_560|t_565|ref=Data (demonstrationes alterae)_18.2
+3	,	,	u	u--------	_	7	AuxX	_	t_561|t_565|ref=Data (demonstrationes alterae)_18.2
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_562|t_563|ref=Data (demonstrationes alterae)_18.2
+5	Γ	γ	n	n--------	_	6	PNOM	_	t_563|t_564|ref=Data (demonstrationes alterae)_18.2
+6	δοθεῖσά	δίδωμι	v	v-sappfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=p	7	SBJ	_	t_564|t_565|ref=Data (demonstrationes alterae)_18.2
+7	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_565|0|ref=Data (demonstrationes alterae)_18.2
+8	·	·	u	u--------	_	7	AuxK	_	t_566|t_565|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = δοθὲν ἄρα τὸ ΒΓΔ τρίγωνον τῷ εἴδει [0] ·
 # sent_id = 41
-1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	8	PNOM	_	t_567|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_568|ref=Data (demonstrationes alterae)_18.2
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_569|ref=Data (demonstrationes alterae)_18.2
-4	ΒΓΔ	βγδ	n	n--------	_	5	APOS	_	t_570|ref=Data (demonstrationes alterae)_18.2
-5	τρίγωνον	τρίγωνος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_571|ref=Data (demonstrationes alterae)_18.2
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	7	ATR	_	t_572|ref=Data (demonstrationes alterae)_18.2
-7	εἴδει	εἶδος	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_573|ref=Data (demonstrationes alterae)_18.2
-8	[0]	[0]	-	---------	_	0	PRED	_	e_22|ref=Data (demonstrationes alterae)_18.1
-9	·	·	u	u--------	_	8	AuxK	_	t_574|ref=Data (demonstrationes alterae)_18.2
+1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	8	PNOM	_	t_567|e_22|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_568|e_22|ref=Data (demonstrationes alterae)_18.2
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_569|t_570|ref=Data (demonstrationes alterae)_18.2
+4	ΒΓΔ	βγδ	n	n--------	_	5	APOS	_	t_570|t_571|ref=Data (demonstrationes alterae)_18.2
+5	τρίγωνον	τρίγωνος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_571|e_22|ref=Data (demonstrationes alterae)_18.2
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	7	ATR	_	t_572|t_573|ref=Data (demonstrationes alterae)_18.2
+7	εἴδει	εἶδος	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_573|t_571|ref=Data (demonstrationes alterae)_18.2
+8	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Data (demonstrationes alterae)_18.1
+9	·	·	u	u--------	_	8	AuxK	_	t_574|e_22|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = λόγος ἄρα τῆς ΔΒ πρὸς ΒΓ δοθείς [0] .
 # sent_id = 42
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_575|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_576|ref=Data (demonstrationes alterae)_18.2
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_577|ref=Data (demonstrationes alterae)_18.2
-4	ΔΒ	δβ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_578|ref=Data (demonstrationes alterae)_18.2
-5	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_579|ref=Data (demonstrationes alterae)_18.2
-6	ΒΓ	βγ	n	n--------	_	5	OBJ	_	t_580|ref=Data (demonstrationes alterae)_18.2
-7	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	PNOM	_	t_581|ref=Data (demonstrationes alterae)_18.2
-8	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Data (demonstrationes alterae)_18.1
-9	.	.	u	u--------	_	8	AuxK	_	t_582|ref=Data (demonstrationes alterae)_18.2
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_575|e_23|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_576|e_23|ref=Data (demonstrationes alterae)_18.2
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_577|t_578|ref=Data (demonstrationes alterae)_18.2
+4	ΔΒ	δβ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_578|t_575|ref=Data (demonstrationes alterae)_18.2
+5	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_579|t_581|ref=Data (demonstrationes alterae)_18.2
+6	ΒΓ	βγ	n	n--------	_	5	OBJ	_	t_580|t_579|ref=Data (demonstrationes alterae)_18.2
+7	δοθείς	δίδωμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	PNOM	_	t_581|e_23|ref=Data (demonstrationes alterae)_18.2
+8	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Data (demonstrationes alterae)_18.1
+9	.	.	u	u--------	_	8	AuxK	_	t_582|e_23|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ἴση δὲ ἡ ΒΓ τῇ ΒΖ [0] ·
 # sent_id = 43
-1	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_583|ref=Data (demonstrationes alterae)_18.2
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_584|ref=Data (demonstrationes alterae)_18.2
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_585|ref=Data (demonstrationes alterae)_18.2
-4	ΒΓ	βγ	n	n--------	_	7	SBJ	_	t_586|ref=Data (demonstrationes alterae)_18.2
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_587|ref=Data (demonstrationes alterae)_18.2
-6	ΒΖ	βζ	n	n--------	_	1	ADV	_	t_588|ref=Data (demonstrationes alterae)_18.2
-7	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=Data (demonstrationes alterae)_18.1
-8	·	·	u	u--------	_	7	AuxK	_	t_589|ref=Data (demonstrationes alterae)_18.2
+1	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_583|e_24|ref=Data (demonstrationes alterae)_18.2
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_584|e_24|ref=Data (demonstrationes alterae)_18.2
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_585|t_586|ref=Data (demonstrationes alterae)_18.2
+4	ΒΓ	βγ	n	n--------	_	7	SBJ	_	t_586|e_24|ref=Data (demonstrationes alterae)_18.2
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_587|t_588|ref=Data (demonstrationes alterae)_18.2
+6	ΒΖ	βζ	n	n--------	_	1	ADV	_	t_588|t_583|ref=Data (demonstrationes alterae)_18.2
+7	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=Data (demonstrationes alterae)_18.1
+8	·	·	u	u--------	_	7	AuxK	_	t_589|e_24|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = λόγος ἄρα καὶ τῆς ΔΒ πρὸς ΒΖ δο - θείς [0] ·
 # sent_id = 44
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_590|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_591|ref=Data (demonstrationes alterae)_18.2
-3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_592|ref=Data (demonstrationes alterae)_18.2
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_593|ref=Data (demonstrationes alterae)_18.2
-5	ΔΒ	δβ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	APOS	_	t_594|ref=Data (demonstrationes alterae)_18.2
-6	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_595|ref=Data (demonstrationes alterae)_18.2
-7	ΒΖ	βζ	n	n--------	_	6	OBJ	_	t_596|ref=Data (demonstrationes alterae)_18.2
-8	δο	δο	x	x--------	_	6	OBJ	_	t_597|ref=Data (demonstrationes alterae)_18.2
-9	-	-	d	d--------	_	11	AuxP	_	t_598|ref=Data (demonstrationes alterae)_18.2
-10	θείς	τίθημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	11	PNOM	_	t_599|ref=Data (demonstrationes alterae)_18.2
-11	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=Data (demonstrationes alterae)_18.1
-12	·	·	u	u--------	_	11	AuxK	_	t_600|ref=Data (demonstrationes alterae)_18.2
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_590|e_25|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_591|e_25|ref=Data (demonstrationes alterae)_18.2
+3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_592|t_594|ref=Data (demonstrationes alterae)_18.2
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_593|t_594|ref=Data (demonstrationes alterae)_18.2
+5	ΔΒ	δβ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	APOS	_	t_594|t_590|ref=Data (demonstrationes alterae)_18.2
+6	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_595|t_599|ref=Data (demonstrationes alterae)_18.2
+7	ΒΖ	βζ	n	n--------	_	6	OBJ	_	t_596|t_595|ref=Data (demonstrationes alterae)_18.2
+8	δο	δο	x	x--------	_	6	OBJ	_	t_597|t_595|ref=Data (demonstrationes alterae)_18.2
+9	-	-	d	d--------	_	11	AuxP	_	t_598|e_25|ref=Data (demonstrationes alterae)_18.2
+10	θείς	τίθημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	11	PNOM	_	t_599|e_25|ref=Data (demonstrationes alterae)_18.2
+11	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=Data (demonstrationes alterae)_18.1
+12	·	·	u	u--------	_	11	AuxK	_	t_600|e_25|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ὥστε καὶ τοῦ ΒΘ πρὸς ΖΑ λόγος δοθείς [0] .
 # sent_id = 45
-1	ὥστε	ὥστε	c	c--------	_	9	AuxY	_	t_601|ref=Data (demonstrationes alterae)_18.2
-2	καὶ	καί	c	c--------	_	4	AuxZ	_	t_602|ref=Data (demonstrationes alterae)_18.2
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_603|ref=Data (demonstrationes alterae)_18.2
-4	ΒΘ	βθ	n	n--------	_	7	ATR	_	t_604|ref=Data (demonstrationes alterae)_18.2
-5	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_605|ref=Data (demonstrationes alterae)_18.2
-6	ΖΑ	ζα	n	n--------	_	5	OBJ	_	t_606|ref=Data (demonstrationes alterae)_18.2
-7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_607|ref=Data (demonstrationes alterae)_18.2
-8	δοθείς	δίδωμι	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	PNOM	_	t_608|ref=Data (demonstrationes alterae)_18.2
-9	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=Data (demonstrationes alterae)_18.1
-10	.	.	u	u--------	_	9	AuxK	_	t_609|ref=Data (demonstrationes alterae)_18.2
+1	ὥστε	ὥστε	c	c--------	_	9	AuxY	_	t_601|e_26|ref=Data (demonstrationes alterae)_18.2
+2	καὶ	καί	c	c--------	_	4	AuxZ	_	t_602|t_604|ref=Data (demonstrationes alterae)_18.2
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_603|t_604|ref=Data (demonstrationes alterae)_18.2
+4	ΒΘ	βθ	n	n--------	_	7	ATR	_	t_604|t_607|ref=Data (demonstrationes alterae)_18.2
+5	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_605|t_608|ref=Data (demonstrationes alterae)_18.2
+6	ΖΑ	ζα	n	n--------	_	5	OBJ	_	t_606|t_605|ref=Data (demonstrationes alterae)_18.2
+7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_607|t_608|ref=Data (demonstrationes alterae)_18.2
+8	δοθείς	δίδωμι	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	PNOM	_	t_608|e_26|ref=Data (demonstrationes alterae)_18.2
+9	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=Data (demonstrationes alterae)_18.1
+10	.	.	u	u--------	_	9	AuxK	_	t_609|e_26|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = ἴσον δὲ τὸ ΒΘ τῷ ΑΓ [0] ·
 # sent_id = 46
-1	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_610|ref=Data (demonstrationes alterae)_18.2
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_611|ref=Data (demonstrationes alterae)_18.2
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_612|ref=Data (demonstrationes alterae)_18.2
-4	ΒΘ	βθ	n	n--------	_	7	SBJ	_	t_613|ref=Data (demonstrationes alterae)_18.2
-5	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	6	ATR	_	t_614|ref=Data (demonstrationes alterae)_18.2
-6	ΑΓ	αγ	x	x--------	_	1	ADV	_	t_615|ref=Data (demonstrationes alterae)_18.2
-7	[0]	[0]	-	---------	_	0	PRED	_	e_27|ref=Data (demonstrationes alterae)_18.1
-8	·	·	u	u--------	_	7	AuxK	_	t_616|ref=Data (demonstrationes alterae)_18.2
+1	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_610|e_27|ref=Data (demonstrationes alterae)_18.2
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_611|e_27|ref=Data (demonstrationes alterae)_18.2
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_612|t_613|ref=Data (demonstrationes alterae)_18.2
+4	ΒΘ	βθ	n	n--------	_	7	SBJ	_	t_613|e_27|ref=Data (demonstrationes alterae)_18.2
+5	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	6	ATR	_	t_614|t_615|ref=Data (demonstrationes alterae)_18.2
+6	ΑΓ	αγ	x	x--------	_	1	ADV	_	t_615|t_610|ref=Data (demonstrationes alterae)_18.2
+7	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=Data (demonstrationes alterae)_18.1
+8	·	·	u	u--------	_	7	AuxK	_	t_616|e_27|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = λόγος ἄρα τοῦ ΑΓ πρὸς ΑΖ δοθείς [0] .
 # sent_id = 47
-1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_617|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_618|ref=Data (demonstrationes alterae)_18.2
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_619|ref=Data (demonstrationes alterae)_18.2
-4	ΑΓ	αγ	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_620|ref=Data (demonstrationes alterae)_18.2
-5	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_621|ref=Data (demonstrationes alterae)_18.2
-6	ΑΖ	αζ	n	n--------	Case=a|Gender=m|Number=s	5	OBJ	_	t_622|ref=Data (demonstrationes alterae)_18.2
-7	δοθείς	δίδωμι	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_623|ref=Data (demonstrationes alterae)_18.2
-8	[0]	[0]	-	---------	_	7	PRED	_	e_28|ref=Data (demonstrationes alterae)_18.1
-9	.	.	u	u--------	_	7	AuxK	_	t_624|ref=Data (demonstrationes alterae)_18.2
+1	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_617|t_623|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_618|t_623|ref=Data (demonstrationes alterae)_18.2
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_619|t_620|ref=Data (demonstrationes alterae)_18.2
+4	ΑΓ	αγ	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_620|t_617|ref=Data (demonstrationes alterae)_18.2
+5	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_621|t_623|ref=Data (demonstrationes alterae)_18.2
+6	ΑΖ	αζ	n	n--------	Case=a|Gender=m|Number=s	5	OBJ	_	t_622|t_621|ref=Data (demonstrationes alterae)_18.2
+7	δοθείς	δίδωμι	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_623|0|ref=Data (demonstrationes alterae)_18.2
+8	[0]	[0]	-	---------	_	7	PRED	_	e_28|t_623|ref=Data (demonstrationes alterae)_18.1
+9	.	.	u	u--------	_	7	AuxK	_	t_624|t_623|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = καὶ δοθὲν τὸ ΑΓ [0] ·
 # sent_id = 48
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_625|ref=Data (demonstrationes alterae)_18.2
-2	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	5	PNOM	_	t_626|ref=Data (demonstrationes alterae)_18.2
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_627|ref=Data (demonstrationes alterae)_18.2
-4	ΑΓ	αγ	n	n--------	_	5	SBJ	_	t_628|ref=Data (demonstrationes alterae)_18.2
-5	[0]	[0]	-	---------	_	0	PRED	_	e_29|ref=Data (demonstrationes alterae)_18.1
-6	·	·	u	u--------	_	5	AuxK	_	t_629|ref=Data (demonstrationes alterae)_18.2
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_625|e_29|ref=Data (demonstrationes alterae)_18.2
+2	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	5	PNOM	_	t_626|e_29|ref=Data (demonstrationes alterae)_18.2
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_627|t_628|ref=Data (demonstrationes alterae)_18.2
+4	ΑΓ	αγ	n	n--------	_	5	SBJ	_	t_628|e_29|ref=Data (demonstrationes alterae)_18.2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Data (demonstrationes alterae)_18.1
+6	·	·	u	u--------	_	5	AuxK	_	t_629|e_29|ref=Data (demonstrationes alterae)_18.2
 
 # source = Euclid, Data (demonstrationes alterae) 18.2
 # text = δοθὲν ἄρα καὶ τὸ ΑΖ , τουτέστι τὸ ὑπὸ ΑΒΖ , τουτέστι τὸ ὑπὸ AΒΓ [0] .
 # sent_id = 49
-1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	11	PRED	_	t_630|ref=Data (demonstrationes alterae)_18.2
-2	ἄρα	ἄρα	d	d--------	_	1	AuxY	_	t_631|ref=Data (demonstrationes alterae)_18.2
-3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_632|ref=Data (demonstrationes alterae)_18.2
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_633|ref=Data (demonstrationes alterae)_18.2
-5	ΑΖ	αζ	n	n--------	_	1	SBJ	_	t_634|ref=Data (demonstrationes alterae)_18.2
-6	,	,	u	u--------	_	0	AuxX	_	t_635|ref=Data (demonstrationes alterae)_18.2
-7	τουτέστι	τουτέστι	p	p-s---nn-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_636|ref=Data (demonstrationes alterae)_18.2
-8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_637|ref=Data (demonstrationes alterae)_18.2
-9	ὑπὸ	ὑπό	r	r--------	_	8	AuxP	_	t_638|ref=Data (demonstrationes alterae)_18.2
-10	ΑΒΖ	αβζ	n	n--------	_	9	ATR	_	t_639|ref=Data (demonstrationes alterae)_18.2
-11	,	,	u	u--------	_	6	COORD	_	t_640|ref=Data (demonstrationes alterae)_18.2
-12	τουτέστι	τουτέστι	p	p-s---nn-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PNOM	_	t_641|ref=Data (demonstrationes alterae)_18.2
-13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_642|ref=Data (demonstrationes alterae)_18.2
-14	ὑπὸ	ὑπό	r	r--------	_	13	AuxP	_	t_643|ref=Data (demonstrationes alterae)_18.2
-15	AΒΓ	aβγ	n	n--------	_	14	ATR	_	t_644|ref=Data (demonstrationes alterae)_18.2
-16	[0]	[0]	-	---------	_	11	PRED	_	e_30|ref=Data (demonstrationes alterae)_18.1
-17	.	.	u	u--------	_	6	AuxK	_	t_645|ref=Data (demonstrationes alterae)_18.2
+1	δοθὲν	δίδωμι	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	11	PRED	_	t_630|t_640|ref=Data (demonstrationes alterae)_18.2
+2	ἄρα	ἄρα	d	d--------	_	1	AuxY	_	t_631|t_630|ref=Data (demonstrationes alterae)_18.2
+3	καὶ	καί	c	c--------	_	5	AuxZ	_	t_632|t_634|ref=Data (demonstrationes alterae)_18.2
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_633|t_634|ref=Data (demonstrationes alterae)_18.2
+5	ΑΖ	αζ	n	n--------	_	1	SBJ	_	t_634|t_630|ref=Data (demonstrationes alterae)_18.2
+6	,	,	u	u--------	_	0	AuxX	_	t_635|0|ref=Data (demonstrationes alterae)_18.2
+7	τουτέστι	τουτέστι	p	p-s---nn-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_636|t_640|ref=Data (demonstrationes alterae)_18.2
+8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_637|t_636|ref=Data (demonstrationes alterae)_18.2
+9	ὑπὸ	ὑπό	r	r--------	_	8	AuxP	_	t_638|t_637|ref=Data (demonstrationes alterae)_18.2
+10	ΑΒΖ	αβζ	n	n--------	_	9	ATR	_	t_639|t_638|ref=Data (demonstrationes alterae)_18.2
+11	,	,	u	u--------	_	6	COORD	_	t_640|t_635|ref=Data (demonstrationes alterae)_18.2
+12	τουτέστι	τουτέστι	p	p-s---nn-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PNOM	_	t_641|e_30|ref=Data (demonstrationes alterae)_18.2
+13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_642|t_641|ref=Data (demonstrationes alterae)_18.2
+14	ὑπὸ	ὑπό	r	r--------	_	13	AuxP	_	t_643|t_642|ref=Data (demonstrationes alterae)_18.2
+15	AΒΓ	aβγ	n	n--------	_	14	ATR	_	t_644|t_643|ref=Data (demonstrationes alterae)_18.2
+16	[0]	[0]	-	---------	_	11	PRED	_	e_30|t_640|ref=Data (demonstrationes alterae)_18.1
+17	.	.	u	u--------	_	6	AuxK	_	t_645|t_635|ref=Data (demonstrationes alterae)_18.2
 

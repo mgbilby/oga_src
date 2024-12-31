@@ -1,554 +1,554 @@
-# source = Moschion Gnomologus, Hypothecae 1
+# source = Moschion Gnomologus, Hypothec. 1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Hypothecae_1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Hypothecae_1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=Hypothec._1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=Hypothec._1
 
-# source = Moschion Gnomologus, Hypothecae 1
+# source = Moschion Gnomologus, Hypothec. 1
 # text = Παραφύλαττε σαυτὸν ἐν παντὶ τῷ βίῳ , μὴ λάθῃ σε συναρπάσασα ἀδόκητος φαντασία ἢ φόβῳ καταπληξαμένη ἢ ἡδονῇ γοητεύσασα ἢ ἐπιθυμίᾳ παραλογισαμένη ἢ λύπῃ ἐξαλλοιώσασα ἢ ὀργῇ ἐξοιστρήσασα ἢ δόξῃ ἐκθυελλώσασα .
 # sent_id = 2
-1	Παραφύλαττε	παραφυλάσσω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_3|ref=Hypothecae_1
-2	σαυτὸν	σεαυτοῦ	p	p2s---ma-	Case=a|Gender=m|Number=s|Person=2	1	OBJ	_	t_4|ref=Hypothecae_1
-3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_5|ref=Hypothecae_1
-4	παντὶ	πᾶς	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_6|ref=Hypothecae_1
-5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_7|ref=Hypothecae_1
-6	βίῳ	βίος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_8|ref=Hypothecae_1
-7	,	,	u	u--------	_	1	AuxX	_	t_9|ref=Hypothecae_1
-8	μὴ	μή	c	c--------	_	1	AuxC	_	t_10|ref=Hypothecae_1
-9	λάθῃ	λανθάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_11|ref=Hypothecae_1
-10	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	11	OBJ	_	t_12|ref=Hypothecae_1
-11	συναρπάσασα	συναρπάζω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_13|ref=Hypothecae_1
-12	ἀδόκητος	ἀδόκητος	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_14|ref=Hypothecae_1
-13	φαντασία	φαντασία	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_15|ref=Hypothecae_1
-14	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_16|ref=Hypothecae_1
-15	φόβῳ	φόβος	n	n-s---md-	Case=d|Gender=m|Number=s	16	OBJ	_	t_17|ref=Hypothecae_1
-16	καταπληξαμένη	καταπλήσσω	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_18|ref=Hypothecae_1
-17	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_19|ref=Hypothecae_1
-18	ἡδονῇ	ἡδονή	n	n-s---fd-	Case=d|Gender=f|Number=s	19	ADV	_	t_20|ref=Hypothecae_1
-19	γοητεύσασα	γοητεύω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_21|ref=Hypothecae_1
-20	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_22|ref=Hypothecae_1
-21	ἐπιθυμίᾳ	ἐπιθυμία	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_23|ref=Hypothecae_1
-22	παραλογισαμένη	παραλογίζομαι	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_24|ref=Hypothecae_1
-23	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_25|ref=Hypothecae_1
-24	λύπῃ	λύπη	n	n-s---fd-	Case=d|Gender=f|Number=s	25	ADV	_	t_26|ref=Hypothecae_1
-25	ἐξαλλοιώσασα	ἐξαλλοιόω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_27|ref=Hypothecae_1
-26	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_28|ref=Hypothecae_1
-27	ὀργῇ	ὀργή	n	n-s---fd-	Case=d|Gender=f|Number=s	28	ADV	_	t_29|ref=Hypothecae_1
-28	ἐξοιστρήσασα	ἐξοιστρέω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_30|ref=Hypothecae_1
-29	ἢ	ἤ1	c	c--------	_	9	COORD	_	t_31|ref=Hypothecae_1
-30	δόξῃ	δόξα	n	n-s---fd-	Case=d|Gender=f|Number=s	31	ADV	_	t_32|ref=Hypothecae_1
-31	ἐκθυελλώσασα	ἐκθυελλόω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_33|ref=Hypothecae_1
-32	.	.	u	u--------	_	1	AuxK	_	t_34|ref=Hypothecae_1
+1	Παραφύλαττε	παραφυλάσσω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_3|0|ref=Hypothec._1
+2	σαυτὸν	σεαυτοῦ	p	p2s---ma-	Case=a|Gender=m|Number=s|Person=2	1	OBJ	_	t_4|t_3|ref=Hypothec._1
+3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_5|t_3|ref=Hypothec._1
+4	παντὶ	πᾶς	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_6|t_8|ref=Hypothec._1
+5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_7|t_8|ref=Hypothec._1
+6	βίῳ	βίος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_8|t_5|ref=Hypothec._1
+7	,	,	u	u--------	_	1	AuxX	_	t_9|t_3|ref=Hypothec._1
+8	μὴ	μή	c	c--------	_	1	AuxC	_	t_10|t_3|ref=Hypothec._1
+9	λάθῃ	λανθάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_11|t_10|ref=Hypothec._1
+10	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	11	OBJ	_	t_12|t_13|ref=Hypothec._1
+11	συναρπάσασα	συναρπάζω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_13|t_11|ref=Hypothec._1
+12	ἀδόκητος	ἀδόκητος	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_14|t_15|ref=Hypothec._1
+13	φαντασία	φαντασία	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_15|t_11|ref=Hypothec._1
+14	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_16|t_31|ref=Hypothec._1
+15	φόβῳ	φόβος	n	n-s---md-	Case=d|Gender=m|Number=s	16	OBJ	_	t_17|t_18|ref=Hypothec._1
+16	καταπληξαμένη	καταπλήσσω	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_18|t_31|ref=Hypothec._1
+17	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_19|t_31|ref=Hypothec._1
+18	ἡδονῇ	ἡδονή	n	n-s---fd-	Case=d|Gender=f|Number=s	19	ADV	_	t_20|t_21|ref=Hypothec._1
+19	γοητεύσασα	γοητεύω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_21|t_31|ref=Hypothec._1
+20	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_22|t_31|ref=Hypothec._1
+21	ἐπιθυμίᾳ	ἐπιθυμία	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_23|t_24|ref=Hypothec._1
+22	παραλογισαμένη	παραλογίζομαι	v	v-sapmfn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_24|t_31|ref=Hypothec._1
+23	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_25|t_31|ref=Hypothec._1
+24	λύπῃ	λύπη	n	n-s---fd-	Case=d|Gender=f|Number=s	25	ADV	_	t_26|t_27|ref=Hypothec._1
+25	ἐξαλλοιώσασα	ἐξαλλοιόω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_27|t_31|ref=Hypothec._1
+26	ἢ	ἤ1	c	c--------	_	29	AuxY	_	t_28|t_31|ref=Hypothec._1
+27	ὀργῇ	ὀργή	n	n-s---fd-	Case=d|Gender=f|Number=s	28	ADV	_	t_29|t_30|ref=Hypothec._1
+28	ἐξοιστρήσασα	ἐξοιστρέω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_30|t_31|ref=Hypothec._1
+29	ἢ	ἤ1	c	c--------	_	9	COORD	_	t_31|t_11|ref=Hypothec._1
+30	δόξῃ	δόξα	n	n-s---fd-	Case=d|Gender=f|Number=s	31	ADV	_	t_32|t_33|ref=Hypothec._1
+31	ἐκθυελλώσασα	ἐκθυελλόω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	29	ADV	_	t_33|t_31|ref=Hypothec._1
+32	.	.	u	u--------	_	1	AuxK	_	t_34|t_3|ref=Hypothec._1
 
-# source = Moschion Gnomologus, Hypothecae 2
+# source = Moschion Gnomologus, Hypothec. 2
 # text = 2 .
 # sent_id = 3
-1	2	2	u	u--------	_	0	AuxG	_	t_35|ref=Hypothecae_2
-2	.	.	u	u--------	_	1	AuxK	_	t_36|ref=Hypothecae_2
+1	2	2	u	u--------	_	0	AuxG	_	t_35|0|ref=Hypothec._2
+2	.	.	u	u--------	_	1	AuxK	_	t_36|t_35|ref=Hypothec._2
 
-# source = Moschion Gnomologus, Hypothecae 2
+# source = Moschion Gnomologus, Hypothec. 2
 # text = Ἔπειτα πράττειν ἀναγκάσει οἷς ἐγχειρῶν μὲν οὐ παρακολουθεῖς , παυόμενος δὲ μετανοεῖς , ταράττει δὲ τὰ πλείονα καὶ ἀτρεμίζεις ἥκιστα , δίκην ἀκυβερνήτου νεὼς ἐν χειμερίῳ κλύδωνι ἢ ὑπʼ ἀντιπάλων ῥιπιζομένης ἀνέμων ζόφῳ [0] .
 # sent_id = 4
-1	Ἔπειτα	ἔπειτα	d	d--------	_	3	AuxY	_	t_37|ref=Hypothecae_2
-2	πράττειν	πράσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_38|ref=Hypothecae_2
-3	ἀναγκάσει	ἀναγκάζω	v	v2sfim---	Case=d|Gender=f|Number=s	0	PRED	_	t_39|ref=Hypothecae_2
-4	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	5	OBJ	_	t_40|ref=Hypothecae_2
-5	ἐγχειρῶν	ἐγχειρέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_41|ref=Hypothecae_2
-6	μὲν	μέν	d	d--------	_	8	AuxY	_	t_42|ref=Hypothecae_2
-7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_43|ref=Hypothecae_2
-8	παρακολουθεῖς	παρακολουθέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	15	OBJ	_	t_44|ref=Hypothecae_2
-9	,	,	u	u--------	_	3	AuxX	_	t_45|ref=Hypothecae_2
-10	παυόμενος	παύω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_46|ref=Hypothecae_2
-11	δὲ	δέ	d	d--------	_	15	AuxY	_	t_47|ref=Hypothecae_2
-12	μετανοεῖς	μετανοέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	15	ATR	_	t_48|ref=Hypothecae_2
-13	,	,	u	u--------	_	3	AuxX	_	t_49|ref=Hypothecae_2
-14	ταράττει	ταράσσω	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	18	OBJ	_	t_50|ref=Hypothecae_2
-15	δὲ	δέ	g	g--------	_	2	COORD	_	t_51|ref=Hypothecae_2
-16	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_52|ref=Hypothecae_2
-17	πλείονα	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	14	OBJ	_	t_53|ref=Hypothecae_2
-18	καὶ	καί	c	c--------	_	15	COORD	_	t_54|ref=Hypothecae_2
-19	ἀτρεμίζεις	ἀτρεμίζω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	18	OBJ	_	t_55|ref=Hypothecae_2
-20	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_56|ref=Hypothecae_2
-21	,	,	u	u--------	_	3	AuxX	_	t_57|ref=Hypothecae_2
-22	δίκην	δίκη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_58|ref=Hypothecae_2
-23	ἀκυβερνήτου	ἀκύμων	a	a-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_59|ref=Hypothecae_2
-24	νεὼς	ναῦς	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_60|ref=Hypothecae_2
-25	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_61|ref=Hypothecae_2
-26	χειμερίῳ	χειμέριος	a	a-s---md-	Case=d|Gender=m|Number=s	27	ATR	_	t_62|ref=Hypothecae_2
-27	κλύδωνι	κλύδων	n	n-s---md-	Case=d|Gender=m|Number=s	25	ADV	_	t_63|ref=Hypothecae_2
-28	ἢ	ἤ1	c	c--------	_	18	COORD	_	t_64|ref=Hypothecae_2
-29	ὑπʼ	ὑπό	r	r--------	_	31	AuxP	_	t_65|ref=Hypothecae_2
-30	ἀντιπάλων	ἀντίπαλος	a	a-p---mg-	Case=g|Gender=m|Number=p	32	ATR	_	t_66|ref=Hypothecae_2
-31	ῥιπιζομένης	ῥιπίζω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	28	ADV	_	t_67|ref=Hypothecae_2
-32	ἀνέμων	ἄνεμος	n	n-p---mg-	Case=g|Gender=m|Number=p	33	ATR	_	t_68|ref=Hypothecae_2
-33	ζόφῳ	ζόφος	n	n-s---md-	Case=d|Gender=m|Number=s	29	OBJ	_	t_69|ref=Hypothecae_2
-34	[0]	[0]	-	---------	_	3	PRED	_	e_1|ref=Hypothecae_1
-35	.	.	u	u--------	_	3	AuxK	_	t_70|ref=Hypothecae_2
+1	Ἔπειτα	ἔπειτα	d	d--------	_	3	AuxY	_	t_37|t_39|ref=Hypothec._2
+2	πράττειν	πράσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_38|t_39|ref=Hypothec._2
+3	ἀναγκάσει	ἀναγκάζω	v	v2sfim---	Case=d|Gender=f|Number=s	0	PRED	_	t_39|0|ref=Hypothec._2
+4	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	5	OBJ	_	t_40|t_41|ref=Hypothec._2
+5	ἐγχειρῶν	ἐγχειρέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_41|t_44|ref=Hypothec._2
+6	μὲν	μέν	d	d--------	_	8	AuxY	_	t_42|t_44|ref=Hypothec._2
+7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_43|t_44|ref=Hypothec._2
+8	παρακολουθεῖς	παρακολουθέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	15	OBJ	_	t_44|t_51|ref=Hypothec._2
+9	,	,	u	u--------	_	3	AuxX	_	t_45|t_39|ref=Hypothec._2
+10	παυόμενος	παύω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_46|t_48|ref=Hypothec._2
+11	δὲ	δέ	d	d--------	_	15	AuxY	_	t_47|t_51|ref=Hypothec._2
+12	μετανοεῖς	μετανοέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	15	ATR	_	t_48|t_51|ref=Hypothec._2
+13	,	,	u	u--------	_	3	AuxX	_	t_49|t_39|ref=Hypothec._2
+14	ταράττει	ταράσσω	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	18	OBJ	_	t_50|t_54|ref=Hypothec._2
+15	δὲ	δέ	g	g--------	_	2	COORD	_	t_51|t_38|ref=Hypothec._2
+16	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_52|t_53|ref=Hypothec._2
+17	πλείονα	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	14	OBJ	_	t_53|t_50|ref=Hypothec._2
+18	καὶ	καί	c	c--------	_	15	COORD	_	t_54|t_51|ref=Hypothec._2
+19	ἀτρεμίζεις	ἀτρεμίζω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	18	OBJ	_	t_55|t_54|ref=Hypothec._2
+20	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_56|t_55|ref=Hypothec._2
+21	,	,	u	u--------	_	3	AuxX	_	t_57|t_39|ref=Hypothec._2
+22	δίκην	δίκη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_58|t_55|ref=Hypothec._2
+23	ἀκυβερνήτου	ἀκύμων	a	a-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_59|t_60|ref=Hypothec._2
+24	νεὼς	ναῦς	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_60|t_58|ref=Hypothec._2
+25	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_61|t_64|ref=Hypothec._2
+26	χειμερίῳ	χειμέριος	a	a-s---md-	Case=d|Gender=m|Number=s	27	ATR	_	t_62|t_63|ref=Hypothec._2
+27	κλύδωνι	κλύδων	n	n-s---md-	Case=d|Gender=m|Number=s	25	ADV	_	t_63|t_61|ref=Hypothec._2
+28	ἢ	ἤ1	c	c--------	_	18	COORD	_	t_64|t_54|ref=Hypothec._2
+29	ὑπʼ	ὑπό	r	r--------	_	31	AuxP	_	t_65|t_67|ref=Hypothec._2
+30	ἀντιπάλων	ἀντίπαλος	a	a-p---mg-	Case=g|Gender=m|Number=p	32	ATR	_	t_66|t_68|ref=Hypothec._2
+31	ῥιπιζομένης	ῥιπίζω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	28	ADV	_	t_67|t_64|ref=Hypothec._2
+32	ἀνέμων	ἄνεμος	n	n-p---mg-	Case=g|Gender=m|Number=p	33	ATR	_	t_68|t_69|ref=Hypothec._2
+33	ζόφῳ	ζόφος	n	n-s---md-	Case=d|Gender=m|Number=s	29	OBJ	_	t_69|t_65|ref=Hypothec._2
+34	[0]	[0]	-	---------	_	3	PRED	_	e_1|t_39|ref=Hypothec._1
+35	.	.	u	u--------	_	3	AuxK	_	t_70|t_39|ref=Hypothec._2
 
-# source = Moschion Gnomologus, Hypothecae 2-3
+# source = Moschion Gnomologus, Hypothec. 2-3
 # text = 3 .
 # sent_id = 5
-1	3	3	x	x--------	_	0	AuxG	_	t_71|ref=Hypothecae_2
-2	.	.	u	u--------	_	1	AuxK	_	t_72|ref=Hypothecae_3
+1	3	3	x	x--------	_	0	AuxG	_	t_71|0|ref=Hypothec._2
+2	.	.	u	u--------	_	1	AuxK	_	t_72|t_71|ref=Hypothec._3
 
-# source = Moschion Gnomologus, Hypothecae 3
+# source = Moschion Gnomologus, Hypothec. 3
 # text = Ἀλλὰ γὰρ ὡς ἐν πολέμῳ τινὶ χρώμενος ὅπλῳ τῷ λόγῳ πρὸς τὴν κακίαν καὶ σκοπῶν τὸ καλὸν καὶ προβαλλόμενος διατέλει ὑπάρχων τὸ μὲν ἦθος εὐσταθής , τὴν δὲ γνώμην εὐσθενής , τὸν δὲ λόγον ἐμβριθής , τὴν δὲ πρᾶξιν εὐπρεπής [0] ·
 # sent_id = 6
-1	Ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_73|ref=Hypothecae_3
-2	γὰρ	γάρ	d	d--------	_	20	AuxY	_	t_74|ref=Hypothecae_3
-3	ὡς	ὡς	c	c--------	_	20	AuxC	_	t_75|ref=Hypothecae_3
-4	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_76|ref=Hypothecae_3
-5	πολέμῳ	πόλεμος	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_77|ref=Hypothecae_3
-6	τινὶ	τις	p	p-s---cd-	Case=d|Gender=c|Number=s	5	ATR	_	t_78|ref=Hypothecae_3
-7	χρώμενος	χράομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_79|ref=Hypothecae_3
-8	ὅπλῳ	ὅπλον	n	n-s---nd-	Case=d|Gender=n|Number=s	7	OBJ	_	t_80|ref=Hypothecae_3
-9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_81|ref=Hypothecae_3
-10	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_82|ref=Hypothecae_3
-11	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_83|ref=Hypothecae_3
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_84|ref=Hypothecae_3
-13	κακίαν	κακία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_85|ref=Hypothecae_3
-14	καὶ	καί	c	c--------	_	18	AuxY	_	t_86|ref=Hypothecae_3
-15	σκοπῶν	σκοπέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_87|ref=Hypothecae_3
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_88|ref=Hypothecae_3
-17	καλὸν	καλός	a	a-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_89|ref=Hypothecae_3
-18	καὶ	καί	c	c--------	_	20	COORD	_	t_90|ref=Hypothecae_3
-19	προβαλλόμενος	προβάλλω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_91|ref=Hypothecae_3
-20	διατέλει	διατελέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_92|ref=Hypothecae_3
-21	ὑπάρχων	ὑπάρχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_93|ref=Hypothecae_3
-22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_94|ref=Hypothecae_3
-23	μὲν	μέν	d	d--------	_	38	AuxY	_	t_95|ref=Hypothecae_3
-24	ἦθος	ἦθος	n	n-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_96|ref=Hypothecae_3
-25	εὐσταθής	εὐσταθής	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_97|ref=Hypothecae_3
-26	,	,	u	u--------	_	20	AuxX	_	t_98|ref=Hypothecae_3
-27	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_99|ref=Hypothecae_3
-28	δὲ	δέ	d	d--------	_	38	AuxY	_	t_100|ref=Hypothecae_3
-29	γνώμην	γνώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	41	ADV	_	t_101|ref=Hypothecae_3
-30	εὐσθενής	εὐσθενής	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_102|ref=Hypothecae_3
-31	,	,	u	u--------	_	20	AuxX	_	t_103|ref=Hypothecae_3
-32	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	34	ATR	_	t_104|ref=Hypothecae_3
-33	δὲ	δέ	d	d--------	_	38	AuxY	_	t_105|ref=Hypothecae_3
-34	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	41	ADV	_	t_106|ref=Hypothecae_3
-35	ἐμβριθής	ἐμβριθής	a	a-s---mn-	Case=n|Gender=m|Number=s	41	PNOM	_	t_107|ref=Hypothecae_3
-36	,	,	u	u--------	_	20	AuxX	_	t_108|ref=Hypothecae_3
-37	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	39	ATR	_	t_109|ref=Hypothecae_3
-38	δὲ	δέ	d	d--------	_	21	COORD	_	t_110|ref=Hypothecae_3
-39	πρᾶξιν	πρᾶξις	n	n-s---fa-	Case=a|Gender=f|Number=s	40	ADV	_	t_111|ref=Hypothecae_3
-40	εὐπρεπής	εὐπρεπής	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_112|ref=Hypothecae_3
-41	[0]	[0]	-	---------	_	38	ADV	_	e_2|ref=Hypothecae_1
-42	·	·	u	u--------	_	1	AuxK	_	t_113|ref=Hypothecae_3
+1	Ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_73|0|ref=Hypothec._3
+2	γὰρ	γάρ	d	d--------	_	20	AuxY	_	t_74|t_92|ref=Hypothec._3
+3	ὡς	ὡς	c	c--------	_	20	AuxC	_	t_75|t_92|ref=Hypothec._3
+4	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_76|t_79|ref=Hypothec._3
+5	πολέμῳ	πόλεμος	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_77|t_76|ref=Hypothec._3
+6	τινὶ	τις	p	p-s---cd-	Case=d|Gender=c|Number=s	5	ATR	_	t_78|t_77|ref=Hypothec._3
+7	χρώμενος	χράομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_79|t_90|ref=Hypothec._3
+8	ὅπλῳ	ὅπλον	n	n-s---nd-	Case=d|Gender=n|Number=s	7	OBJ	_	t_80|t_79|ref=Hypothec._3
+9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_81|t_82|ref=Hypothec._3
+10	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_82|t_79|ref=Hypothec._3
+11	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_83|t_79|ref=Hypothec._3
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_84|t_85|ref=Hypothec._3
+13	κακίαν	κακία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_85|t_83|ref=Hypothec._3
+14	καὶ	καί	c	c--------	_	18	AuxY	_	t_86|t_90|ref=Hypothec._3
+15	σκοπῶν	σκοπέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_87|t_90|ref=Hypothec._3
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_88|t_89|ref=Hypothec._3
+17	καλὸν	καλός	a	a-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_89|t_87|ref=Hypothec._3
+18	καὶ	καί	c	c--------	_	20	COORD	_	t_90|t_92|ref=Hypothec._3
+19	προβαλλόμενος	προβάλλω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_91|t_90|ref=Hypothec._3
+20	διατέλει	διατελέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_92|t_73|ref=Hypothec._3
+21	ὑπάρχων	ὑπάρχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_93|t_92|ref=Hypothec._3
+22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_94|t_96|ref=Hypothec._3
+23	μὲν	μέν	d	d--------	_	38	AuxY	_	t_95|t_110|ref=Hypothec._3
+24	ἦθος	ἦθος	n	n-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_96|t_97|ref=Hypothec._3
+25	εὐσταθής	εὐσταθής	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_97|t_110|ref=Hypothec._3
+26	,	,	u	u--------	_	20	AuxX	_	t_98|t_92|ref=Hypothec._3
+27	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_99|t_101|ref=Hypothec._3
+28	δὲ	δέ	d	d--------	_	38	AuxY	_	t_100|t_110|ref=Hypothec._3
+29	γνώμην	γνώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	41	ADV	_	t_101|e_2|ref=Hypothec._3
+30	εὐσθενής	εὐσθενής	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_102|t_110|ref=Hypothec._3
+31	,	,	u	u--------	_	20	AuxX	_	t_103|t_92|ref=Hypothec._3
+32	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	34	ATR	_	t_104|t_106|ref=Hypothec._3
+33	δὲ	δέ	d	d--------	_	38	AuxY	_	t_105|t_110|ref=Hypothec._3
+34	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	41	ADV	_	t_106|e_2|ref=Hypothec._3
+35	ἐμβριθής	ἐμβριθής	a	a-s---mn-	Case=n|Gender=m|Number=s	41	PNOM	_	t_107|e_2|ref=Hypothec._3
+36	,	,	u	u--------	_	20	AuxX	_	t_108|t_92|ref=Hypothec._3
+37	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	39	ATR	_	t_109|t_111|ref=Hypothec._3
+38	δὲ	δέ	d	d--------	_	21	COORD	_	t_110|t_93|ref=Hypothec._3
+39	πρᾶξιν	πρᾶξις	n	n-s---fa-	Case=a|Gender=f|Number=s	40	ADV	_	t_111|t_112|ref=Hypothec._3
+40	εὐπρεπής	εὐπρεπής	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_112|t_110|ref=Hypothec._3
+41	[0]	[0]	-	---------	_	38	ADV	_	e_2|t_110|ref=Hypothec._1
+42	·	·	u	u--------	_	1	AuxK	_	t_113|t_73|ref=Hypothec._3
 
-# source = Moschion Gnomologus, Hypothecae 3
+# source = Moschion Gnomologus, Hypothec. 3
 # text = καὶ τὴν μὲν ὄψιν σεμνός , τὴν δὲ ὁμιλίαν ἤπιος , τὸν δὲ τρόπον ἥμερος [0] [1] ·
 # sent_id = 7
-1	καὶ	καί	c	c--------	_	13	AuxY	_	t_114|ref=Hypothecae_3
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_115|ref=Hypothecae_3
-3	μὲν	μέν	d	d--------	_	16	AuxY	_	t_116|ref=Hypothecae_3
-4	ὄψιν	ὄψις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ADV	_	t_117|ref=Hypothecae_3
-5	σεμνός	σεμνός	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_118|ref=Hypothecae_3
-6	,	,	u	u--------	_	0	AuxX	_	t_119|ref=Hypothecae_3
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_120|ref=Hypothecae_3
-8	δὲ	δέ	d	d--------	_	13	AuxY	_	t_121|ref=Hypothecae_3
-9	ὁμιλίαν	ὁμιλία	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ADV	_	t_122|ref=Hypothecae_3
-10	ἤπιος	ἤπιος	a	a-s---mn-	Case=n|Gender=m|Number=s	17	PNOM	_	t_123|ref=Hypothecae_3
-11	,	,	u	u--------	_	6	AuxX	_	t_124|ref=Hypothecae_3
-12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_125|ref=Hypothecae_3
-13	δὲ	δέ	d	d--------	_	6	COORD	_	t_126|ref=Hypothecae_3
-14	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	ADV	_	t_127|ref=Hypothecae_3
-15	ἥμερος	ἥμερος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	PNOM	_	t_128|ref=Hypothecae_3
-16	[0]	[0]	-	---------	_	13	PRED	_	e_3|ref=Hypothecae_1
-17	[1]	[1]	-	---------	_	13	PRED	_	e_4|ref=Hypothecae_1
-18	·	·	u	u--------	_	6	AuxK	_	t_129|ref=Hypothecae_3
+1	καὶ	καί	c	c--------	_	13	AuxY	_	t_114|t_126|ref=Hypothec._3
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_115|t_117|ref=Hypothec._3
+3	μὲν	μέν	d	d--------	_	16	AuxY	_	t_116|e_3|ref=Hypothec._3
+4	ὄψιν	ὄψις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ADV	_	t_117|e_3|ref=Hypothec._3
+5	σεμνός	σεμνός	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_118|e_3|ref=Hypothec._3
+6	,	,	u	u--------	_	0	AuxX	_	t_119|0|ref=Hypothec._3
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_120|t_122|ref=Hypothec._3
+8	δὲ	δέ	d	d--------	_	13	AuxY	_	t_121|t_126|ref=Hypothec._3
+9	ὁμιλίαν	ὁμιλία	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ADV	_	t_122|e_4|ref=Hypothec._3
+10	ἤπιος	ἤπιος	a	a-s---mn-	Case=n|Gender=m|Number=s	17	PNOM	_	t_123|e_4|ref=Hypothec._3
+11	,	,	u	u--------	_	6	AuxX	_	t_124|t_119|ref=Hypothec._3
+12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_125|t_127|ref=Hypothec._3
+13	δὲ	δέ	d	d--------	_	6	COORD	_	t_126|t_119|ref=Hypothec._3
+14	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	ADV	_	t_127|e_4|ref=Hypothec._3
+15	ἥμερος	ἥμερος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	PNOM	_	t_128|e_4|ref=Hypothec._3
+16	[0]	[0]	-	---------	_	13	PRED	_	e_3|t_126|ref=Hypothec._1
+17	[1]	[1]	-	---------	_	13	PRED	_	e_4|t_126|ref=Hypothec._1
+18	·	·	u	u--------	_	6	AuxK	_	t_129|t_119|ref=Hypothec._3
 
-# source = Moschion Gnomologus, Hypothecae 3
+# source = Moschion Gnomologus, Hypothec. 3
 # text = εὐγνώμων δὲ τὴν διάνοιαν , τὸν δὲ βίον χρηστός [0] ·
 # sent_id = 8
-1	εὐγνώμων	εὐγνώμων	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_130|ref=Hypothecae_3
-2	δὲ	δέ	g	g--------	_	10	AuxY	_	t_131|ref=Hypothecae_3
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_132|ref=Hypothecae_3
-4	διάνοιαν	διάνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	1	ADV	_	t_133|ref=Hypothecae_3
-5	,	,	u	u--------	_	10	AuxX	_	t_134|ref=Hypothecae_3
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_135|ref=Hypothecae_3
-7	δὲ	δέ	g	g--------	_	10	COORD	_	t_136|ref=Hypothecae_3
-8	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_137|ref=Hypothecae_3
-9	χρηστός	χρηστός	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_138|ref=Hypothecae_3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Hypothecae_1
-11	·	·	u	u--------	_	10	AuxK	_	t_139|ref=Hypothecae_3
+1	εὐγνώμων	εὐγνώμων	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_130|t_136|ref=Hypothec._3
+2	δὲ	δέ	g	g--------	_	10	AuxY	_	t_131|e_5|ref=Hypothec._3
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_132|t_133|ref=Hypothec._3
+4	διάνοιαν	διάνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	1	ADV	_	t_133|t_130|ref=Hypothec._3
+5	,	,	u	u--------	_	10	AuxX	_	t_134|e_5|ref=Hypothec._3
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_135|t_137|ref=Hypothec._3
+7	δὲ	δέ	g	g--------	_	10	COORD	_	t_136|e_5|ref=Hypothec._3
+8	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_137|t_138|ref=Hypothec._3
+9	χρηστός	χρηστός	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_138|t_136|ref=Hypothec._3
+10	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Hypothec._1
+11	·	·	u	u--------	_	10	AuxK	_	t_139|e_5|ref=Hypothec._3
 
-# source = Moschion Gnomologus, Hypothecae 3
+# source = Moschion Gnomologus, Hypothec. 3
 # text = μὴ θρασὺς καὶ ὀργίλος , ἀλλὰ θαρσαλέος καὶ πρᾷος [0] .
 # sent_id = 9
-1	μὴ	μή	d	d--------	_	3	AuxZ	_	t_140|ref=Hypothecae_3
-2	θρασὺς	θρασύς	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_141|ref=Hypothecae_3
-3	καὶ	καί	c	c--------	_	6	COORD	_	t_142|ref=Hypothecae_3
-4	ὀργίλος	ὀργίλος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_143|ref=Hypothecae_3
-5	,	,	u	u--------	_	6	AuxX	_	t_144|ref=Hypothecae_3
-6	ἀλλὰ	ἀλλά	c	c--------	_	10	COORD	_	t_145|ref=Hypothecae_3
-7	θαρσαλέος	θαρσαλέος	a	a-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_146|ref=Hypothecae_3
-8	καὶ	καί	c	c--------	_	6	COORD	_	t_147|ref=Hypothecae_3
-9	πρᾷος	πρᾶος	a	a-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_148|ref=Hypothecae_3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Hypothecae_1
-11	.	.	u	u--------	_	10	AuxK	_	t_149|ref=Hypothecae_3
+1	μὴ	μή	d	d--------	_	3	AuxZ	_	t_140|t_142|ref=Hypothec._3
+2	θρασὺς	θρασύς	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_141|t_142|ref=Hypothec._3
+3	καὶ	καί	c	c--------	_	6	COORD	_	t_142|t_145|ref=Hypothec._3
+4	ὀργίλος	ὀργίλος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_143|t_142|ref=Hypothec._3
+5	,	,	u	u--------	_	6	AuxX	_	t_144|t_145|ref=Hypothec._3
+6	ἀλλὰ	ἀλλά	c	c--------	_	10	COORD	_	t_145|e_6|ref=Hypothec._3
+7	θαρσαλέος	θαρσαλέος	a	a-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_146|t_147|ref=Hypothec._3
+8	καὶ	καί	c	c--------	_	6	COORD	_	t_147|t_145|ref=Hypothec._3
+9	πρᾷος	πρᾶος	a	a-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_148|t_147|ref=Hypothec._3
+10	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Hypothec._1
+11	.	.	u	u--------	_	10	AuxK	_	t_149|e_6|ref=Hypothec._3
 
-# source = Moschion Gnomologus, Hypothecae 3
+# source = Moschion Gnomologus, Hypothec. 3
 # text = 4 [0] .
 # sent_id = 10
-1	4	4	u	u--------	_	2	AuxK	_	t_150|ref=Hypothecae_3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Hypothecae_1
-3	.	.	u	u--------	_	2	AuxK	_	t_151|ref=Hypothecae_3
+1	4	4	u	u--------	_	2	AuxK	_	t_150|e_7|ref=Hypothec._3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Hypothec._1
+3	.	.	u	u--------	_	2	AuxK	_	t_151|e_7|ref=Hypothec._3
 
-# source = Moschion Gnomologus, Hypothecae 3-4
+# source = Moschion Gnomologus, Hypothec. 3-4
 # text = Ἀνδρεῖος γὰρ οὐχ ὁ τύπτων καὶ καταβάλλων τὰ σώματα , ἀλλʼ ὁ ἀνεξικακῶν καὶ πάντῃ ἑστὼς τῇ διανοίᾳ [0] .
 # sent_id = 11
-1	Ἀνδρεῖος	ἀνδρεῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	PNOM	_	t_152|ref=Hypothecae_3
-2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_153|ref=Hypothecae_3
-3	οὐχ	οὐ	d	d--------	_	6	AuxZ	_	t_154|ref=Hypothecae_3
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_155|ref=Hypothecae_3
-5	τύπτων	τύπτω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	SBJ	_	t_156|ref=Hypothecae_4
-6	καὶ	καί	c	c--------	_	11	COORD	_	t_157|ref=Hypothecae_3
-7	καταβάλλων	καταβάλλω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	PNOM	_	t_158|ref=Hypothecae_4
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_159|ref=Hypothecae_4
-9	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_160|ref=Hypothecae_4
-10	,	,	u	u--------	_	19	AuxX	_	t_161|ref=Hypothecae_4
-11	ἀλλʼ	ἀλλά	c	c--------	_	19	COORD	_	t_162|ref=Hypothecae_4
-12	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_163|ref=Hypothecae_4
-13	ἀνεξικακῶν	ἀνεξικακέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_164|ref=Hypothecae_4
-14	καὶ	καί	c	c--------	_	11	COORD	_	t_165|ref=Hypothecae_4
-15	πάντῃ	πάντῃ	d	d--------	_	16	ADV	_	t_166|ref=Hypothecae_4
-16	ἑστὼς	ἵστημι	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	14	SBJ	_	t_167|ref=Hypothecae_4
-17	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_168|ref=Hypothecae_4
-18	διανοίᾳ	διάνοια	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_169|ref=Hypothecae_4
-19	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Hypothecae_1
-20	.	.	u	u--------	_	19	AuxK	_	t_170|ref=Hypothecae_4
+1	Ἀνδρεῖος	ἀνδρεῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	PNOM	_	t_152|e_8|ref=Hypothec._3
+2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_153|e_8|ref=Hypothec._3
+3	οὐχ	οὐ	d	d--------	_	6	AuxZ	_	t_154|t_157|ref=Hypothec._3
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_155|t_157|ref=Hypothec._3
+5	τύπτων	τύπτω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	SBJ	_	t_156|t_157|ref=Hypothec._4
+6	καὶ	καί	c	c--------	_	11	COORD	_	t_157|t_162|ref=Hypothec._3
+7	καταβάλλων	καταβάλλω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	PNOM	_	t_158|t_157|ref=Hypothec._4
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_159|t_160|ref=Hypothec._4
+9	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_160|t_157|ref=Hypothec._4
+10	,	,	u	u--------	_	19	AuxX	_	t_161|e_8|ref=Hypothec._4
+11	ἀλλʼ	ἀλλά	c	c--------	_	19	COORD	_	t_162|e_8|ref=Hypothec._4
+12	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_163|t_165|ref=Hypothec._4
+13	ἀνεξικακῶν	ἀνεξικακέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_164|t_165|ref=Hypothec._4
+14	καὶ	καί	c	c--------	_	11	COORD	_	t_165|t_162|ref=Hypothec._4
+15	πάντῃ	πάντῃ	d	d--------	_	16	ADV	_	t_166|t_167|ref=Hypothec._4
+16	ἑστὼς	ἵστημι	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	14	SBJ	_	t_167|t_165|ref=Hypothec._4
+17	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_168|t_169|ref=Hypothec._4
+18	διανοίᾳ	διάνοια	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_169|t_167|ref=Hypothec._4
+19	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Hypothec._1
+20	.	.	u	u--------	_	19	AuxK	_	t_170|e_8|ref=Hypothec._4
 
-# source = Moschion Gnomologus, Hypothecae 4
+# source = Moschion Gnomologus, Hypothec. 4
 # text = cf . [0] ;
 # sent_id = 12
-1	cf	cf	x	x--------	_	3	OBJ	_	t_171|ref=Hypothecae_4
-2	.	.	u	u--------	_	3	AuxK	_	t_172|ref=Hypothecae_4
-3	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Hypothecae_1
-4	;	;	u	u--------	_	3	AuxK	_	t_173|ref=Hypothecae_4
+1	cf	cf	x	x--------	_	3	OBJ	_	t_171|e_9|ref=Hypothec._4
+2	.	.	u	u--------	_	3	AuxK	_	t_172|e_9|ref=Hypothec._4
+3	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Hypothec._1
+4	;	;	u	u--------	_	3	AuxK	_	t_173|e_9|ref=Hypothec._4
 
-# source = Moschion Gnomologus, Hypothecae 4
+# source = Moschion Gnomologus, Hypothec. 4
 # text = 5 .
 # sent_id = 13
-1	5	5	u	u--------	_	0	AuxG	_	t_174|ref=Hypothecae_4
-2	.	.	u	u--------	_	1	AuxK	_	t_175|ref=Hypothecae_4
+1	5	5	u	u--------	_	0	AuxG	_	t_174|0|ref=Hypothec._4
+2	.	.	u	u--------	_	1	AuxK	_	t_175|t_174|ref=Hypothec._4
 
-# source = Moschion Gnomologus, Hypothecae 4-5
+# source = Moschion Gnomologus, Hypothec. 4-5
 # text = Καὶ ἐγκρατὴς οὐχ ὁ τῶν ἀπόντων ἀπεχόμενος , ἀλλʼ ὁ τῶν παρόντων μὴ ἁπτόμενος [0] .
 # sent_id = 14
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_176|ref=Hypothecae_4
-2	ἐγκρατὴς	ἐγκρατής	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_177|ref=Hypothecae_4
-3	οὐχ	οὐ	d	d--------	_	9	AuxZ	_	t_178|ref=Hypothecae_4
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_179|ref=Hypothecae_4
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_180|ref=Hypothecae_4
-6	ἀπόντων	ἄπειμι1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ATR	_	t_181|ref=Hypothecae_4
-7	ἀπεχόμενος	ἀπέχω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	SBJ	_	t_182|ref=Hypothecae_4
-8	,	,	u	u--------	_	9	AuxX	_	t_183|ref=Hypothecae_5
-9	ἀλλʼ	ἀλλά	c	c--------	_	15	COORD	_	t_184|ref=Hypothecae_5
-10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_185|ref=Hypothecae_5
-11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_186|ref=Hypothecae_5
-12	παρόντων	πάρειμι1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	OBJ	_	t_187|ref=Hypothecae_5
-13	μὴ	μή	d	d--------	_	14	AuxZ	_	t_188|ref=Hypothecae_5
-14	ἁπτόμενος	ἅπτω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	SBJ	_	t_189|ref=Hypothecae_5
-15	[0]	[0]	-	---------	_	1	PRED	_	e_10|ref=Hypothecae_1
-16	.	.	u	u--------	_	1	AuxK	_	t_190|ref=Hypothecae_5
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_176|0|ref=Hypothec._4
+2	ἐγκρατὴς	ἐγκρατής	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_177|e_10|ref=Hypothec._4
+3	οὐχ	οὐ	d	d--------	_	9	AuxZ	_	t_178|t_184|ref=Hypothec._4
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_179|t_182|ref=Hypothec._4
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_180|t_181|ref=Hypothec._4
+6	ἀπόντων	ἄπειμι1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ATR	_	t_181|t_182|ref=Hypothec._4
+7	ἀπεχόμενος	ἀπέχω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	SBJ	_	t_182|t_184|ref=Hypothec._4
+8	,	,	u	u--------	_	9	AuxX	_	t_183|t_184|ref=Hypothec._5
+9	ἀλλʼ	ἀλλά	c	c--------	_	15	COORD	_	t_184|e_10|ref=Hypothec._5
+10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_185|t_189|ref=Hypothec._5
+11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_186|t_187|ref=Hypothec._5
+12	παρόντων	πάρειμι1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	OBJ	_	t_187|t_189|ref=Hypothec._5
+13	μὴ	μή	d	d--------	_	14	AuxZ	_	t_188|t_189|ref=Hypothec._5
+14	ἁπτόμενος	ἅπτω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	SBJ	_	t_189|t_184|ref=Hypothec._5
+15	[0]	[0]	-	---------	_	1	PRED	_	e_10|t_176|ref=Hypothec._1
+16	.	.	u	u--------	_	1	AuxK	_	t_190|t_176|ref=Hypothec._5
 
-# source = Moschion Gnomologus, Hypothecae 5
+# source = Moschion Gnomologus, Hypothec. 5
 # text = cf .
 # sent_id = 15
-1	cf	cf	v	v2spma---	_	0	ExD	_	t_191|ref=Hypothecae_5
-2	.	.	u	u--------	_	1	AuxK	_	t_192|ref=Hypothecae_5
+1	cf	cf	v	v2spma---	_	0	ExD	_	t_191|0|ref=Hypothec._5
+2	.	.	u	u--------	_	1	AuxK	_	t_192|t_191|ref=Hypothec._5
 
-# source = Moschion Gnomologus, Hypothecae 5
+# source = Moschion Gnomologus, Hypothec. 5
 # text = 6 .
 # sent_id = 16
-1	6	6	u	u--------	_	0	AuxG	_	t_193|ref=Hypothecae_5
-2	.	.	u	u--------	_	1	AuxK	_	t_194|ref=Hypothecae_5
+1	6	6	u	u--------	_	0	AuxG	_	t_193|0|ref=Hypothec._5
+2	.	.	u	u--------	_	1	AuxK	_	t_194|t_193|ref=Hypothec._5
 
-# source = Moschion Gnomologus, Hypothecae 5
+# source = Moschion Gnomologus, Hypothec. 5
 # text = = 7 .
 # sent_id = 17
-1	=	=	u	u--------	_	2	AuxG	_	t_195|ref=Hypothecae_5
-2	7	7	v	v2spma---	_	0	PRED	_	t_196|ref=Hypothecae_5
-3	.	.	u	u--------	_	2	AuxK	_	t_197|ref=Hypothecae_5
+1	=	=	u	u--------	_	2	AuxG	_	t_195|t_196|ref=Hypothec._5
+2	7	7	v	v2spma---	_	0	PRED	_	t_196|0|ref=Hypothec._5
+3	.	.	u	u--------	_	2	AuxK	_	t_197|t_196|ref=Hypothec._5
 
-# source = Moschion Gnomologus, Hypothecae 5-7
+# source = Moschion Gnomologus, Hypothec. 5-7
 # text = Καὶ δίκαιος οὐχ ὁ διὰ δόξαν τι νείμας , ἀλλʼ ὁ διʼ ἀλήθε θειαν [0] [1] .
 # sent_id = 18
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_198|ref=Hypothecae_5
-2	δίκαιος	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_199|ref=Hypothecae_5
-3	οὐχ	οὐ	d	d--------	_	8	AuxZ	_	t_200|ref=Hypothecae_5
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_201|ref=Hypothecae_5
-5	διὰ	διά	r	r--------	_	8	AuxP	_	t_202|ref=Hypothecae_5
-6	δόξαν	δόξα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_203|ref=Hypothecae_6
-7	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_204|ref=Hypothecae_6
-8	νείμας	νέμω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	15	SBJ	_	t_205|ref=Hypothecae_6
-9	,	,	u	u--------	_	2	AuxX	_	t_206|ref=Hypothecae_7
-10	ἀλλʼ	ἀλλά	c	c--------	_	1	COORD	_	t_207|ref=Hypothecae_7
-11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_208|ref=Hypothecae_7
-12	διʼ	διά	r	r--------	_	16	AuxP	_	t_209|ref=Hypothecae_7
-13	ἀλήθε	ἀλήθω	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_210|ref=Hypothecae_7
-14	θειαν	θεα	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_211|ref=Hypothecae_7
-15	[0]	[0]	-	---------	_	1	PRED	_	e_11|ref=Hypothecae_1
-16	[1]	[1]	-	---------	_	10	SBJ	_	e_12|ref=Hypothecae_1
-17	.	.	u	u--------	_	1	AuxK	_	t_212|ref=Hypothecae_7
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_198|0|ref=Hypothec._5
+2	δίκαιος	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_199|e_11|ref=Hypothec._5
+3	οὐχ	οὐ	d	d--------	_	8	AuxZ	_	t_200|t_205|ref=Hypothec._5
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_201|t_205|ref=Hypothec._5
+5	διὰ	διά	r	r--------	_	8	AuxP	_	t_202|t_205|ref=Hypothec._5
+6	δόξαν	δόξα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_203|t_202|ref=Hypothec._6
+7	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_204|t_203|ref=Hypothec._6
+8	νείμας	νέμω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	15	SBJ	_	t_205|e_11|ref=Hypothec._6
+9	,	,	u	u--------	_	2	AuxX	_	t_206|t_199|ref=Hypothec._7
+10	ἀλλʼ	ἀλλά	c	c--------	_	1	COORD	_	t_207|t_198|ref=Hypothec._7
+11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_208|e_12|ref=Hypothec._7
+12	διʼ	διά	r	r--------	_	16	AuxP	_	t_209|e_12|ref=Hypothec._7
+13	ἀλήθε	ἀλήθω	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_210|t_209|ref=Hypothec._7
+14	θειαν	θεα	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_211|t_209|ref=Hypothec._7
+15	[0]	[0]	-	---------	_	1	PRED	_	e_11|t_198|ref=Hypothec._1
+16	[1]	[1]	-	---------	_	10	SBJ	_	e_12|t_207|ref=Hypothec._1
+17	.	.	u	u--------	_	1	AuxK	_	t_212|t_198|ref=Hypothec._7
 
-# source = Moschion Gnomologus, Hypothecae 7
+# source = Moschion Gnomologus, Hypothec. 7
 # text = 8 [0] .
 # sent_id = 19
-1	8	8	x	x--------	_	2	AuxK	_	t_213|ref=Hypothecae_7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Hypothecae_1
-3	.	.	u	u--------	_	2	AuxK	_	t_214|ref=Hypothecae_7
+1	8	8	x	x--------	_	2	AuxK	_	t_213|e_13|ref=Hypothec._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Hypothec._1
+3	.	.	u	u--------	_	2	AuxK	_	t_214|e_13|ref=Hypothec._7
 
-# source = Moschion Gnomologus, Hypothecae 7-8
+# source = Moschion Gnomologus, Hypothec. 7-8
 # text = Καὶ φρόνιμος οὐχ ὁ διὰ τύχην τι ποιήσας , ἀλλʼ ὁ διὰ προαίρεσιν [0] [1] .
 # sent_id = 20
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_215|ref=Hypothecae_7
-2	φρόνιμος	φρόνιμος	a	a-s---mn-	Case=n|Gender=m|Number=s	14	PNOM	_	t_216|ref=Hypothecae_7
-3	οὐχ	οὐ	d	d--------	_	2	AuxZ	_	t_217|ref=Hypothecae_7
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_218|ref=Hypothecae_7
-5	διὰ	διά	r	r--------	_	8	AuxP	_	t_219|ref=Hypothecae_7
-6	τύχην	τύχη	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_220|ref=Hypothecae_7
-7	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_221|ref=Hypothecae_7
-8	ποιήσας	ποιέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	SBJ	_	t_222|ref=Hypothecae_7
-9	,	,	u	u--------	_	14	AuxX	_	t_223|ref=Hypothecae_7
-10	ἀλλʼ	ἀλλά	c	c--------	_	14	COORD	_	t_224|ref=Hypothecae_7
-11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	15	ATR	_	t_225|ref=Hypothecae_8
-12	διὰ	διά	r	r--------	_	15	AuxP	_	t_226|ref=Hypothecae_7
-13	προαίρεσιν	προαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_227|ref=Hypothecae_8
-14	[0]	[0]	-	---------	_	1	PRED	_	e_14|ref=Hypothecae_1
-15	[1]	[1]	-	---------	_	10	PRED	_	e_15|ref=Hypothecae_1
-16	.	.	u	u--------	_	1	AuxK	_	t_228|ref=Hypothecae_8
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_215|0|ref=Hypothec._7
+2	φρόνιμος	φρόνιμος	a	a-s---mn-	Case=n|Gender=m|Number=s	14	PNOM	_	t_216|e_14|ref=Hypothec._7
+3	οὐχ	οὐ	d	d--------	_	2	AuxZ	_	t_217|t_216|ref=Hypothec._7
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_218|t_222|ref=Hypothec._7
+5	διὰ	διά	r	r--------	_	8	AuxP	_	t_219|t_222|ref=Hypothec._7
+6	τύχην	τύχη	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_220|t_219|ref=Hypothec._7
+7	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_221|t_222|ref=Hypothec._7
+8	ποιήσας	ποιέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	SBJ	_	t_222|t_224|ref=Hypothec._7
+9	,	,	u	u--------	_	14	AuxX	_	t_223|e_14|ref=Hypothec._7
+10	ἀλλʼ	ἀλλά	c	c--------	_	14	COORD	_	t_224|e_14|ref=Hypothec._7
+11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	15	ATR	_	t_225|e_15|ref=Hypothec._8
+12	διὰ	διά	r	r--------	_	15	AuxP	_	t_226|e_15|ref=Hypothec._7
+13	προαίρεσιν	προαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_227|t_226|ref=Hypothec._8
+14	[0]	[0]	-	---------	_	1	PRED	_	e_14|t_215|ref=Hypothec._1
+15	[1]	[1]	-	---------	_	10	PRED	_	e_15|t_224|ref=Hypothec._1
+16	.	.	u	u--------	_	1	AuxK	_	t_228|t_215|ref=Hypothec._8
 
-# source = Moschion Gnomologus, Hypothecae 8
+# source = Moschion Gnomologus, Hypothec. 8
 # text = 9 [0] .
 # sent_id = 21
-1	9	9	x	x--------	_	2	AuxK	_	t_229|ref=Hypothecae_8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Hypothecae_1
-3	.	.	u	u--------	_	2	AuxK	_	t_230|ref=Hypothecae_8
+1	9	9	x	x--------	_	2	AuxK	_	t_229|e_16|ref=Hypothec._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Hypothec._1
+3	.	.	u	u--------	_	2	AuxK	_	t_230|e_16|ref=Hypothec._8
 
-# source = Moschion Gnomologus, Hypothecae 8-9
+# source = Moschion Gnomologus, Hypothec. 8-9
 # text = Ἵνʼ οὖν δόξῃ μὲν ᾖς ἀχείρωτος , τύχῃ δὲ ἐλεύθερος , κακίᾳ δὲ ἀπολιόρκητος , μὴ ὡς κειμηλίους δεξάμενος ἀπόθῃ τοὺς λόγ ους , ἀλλʼ ὡς ἀλεξικάκῳ δυνάμει χρώμενος ἴθι ἐπὶ θύρας ἀρετ ῆς καὶ εὐδαιμονήσεις [0] [1] .
 # sent_id = 22
-1	Ἵνʼ	ἵνα	p	p-s---fd-	_	13	ADV	_	t_231|ref=Hypothecae_8
-2	οὖν	οὖν	d	d--------	_	25	AuxY	_	t_232|ref=Hypothecae_8
-3	δόξῃ	δόξα	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_233|ref=Hypothecae_8
-4	μὲν	μέν	d	d--------	_	13	AuxY	_	t_234|ref=Hypothecae_8
-5	ᾖς	εἰμί	n	n-s---fn-	Case=n|Gender=f|Number=s	3	ADV	_	t_235|ref=Hypothecae_8
-6	ἀχείρωτος	ἀχείρωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	37	PNOM	_	t_236|ref=Hypothecae_8
-7	,	,	u	u--------	_	0	AuxX	_	t_237|ref=Hypothecae_8
-8	τύχῃ	τύχη	n	n-s---fd-	Case=d|Gender=f|Number=s	37	ADV	_	t_238|ref=Hypothecae_8
-9	δὲ	δέ	d	d--------	_	13	AuxY	_	t_239|ref=Hypothecae_8
-10	ἐλεύθερος	ἐλεύθερος	a	a-s---mn-	Case=n|Gender=m|Number=s	37	PNOM	_	t_240|ref=Hypothecae_8
-11	,	,	u	u--------	_	7	AuxX	_	t_241|ref=Hypothecae_8
-12	κακίᾳ	κακία	n	n-p---fn-	Case=n|Gender=f|Number=p	14	ADV	_	t_242|ref=Hypothecae_8
-13	δὲ	δέ	c	c--------	_	25	COORD	_	t_243|ref=Hypothecae_8
-14	ἀπολιόρκητος	ἀπολιόρκητος	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_244|ref=Hypothecae_9
-15	,	,	u	u--------	_	7	AuxX	_	t_245|ref=Hypothecae_8
-16	μὴ	μή	d	d--------	_	20	AuxZ	_	t_246|ref=Hypothecae_9
-17	ὡς	ὡς	c	c--------	_	20	AuxC	_	t_247|ref=Hypothecae_9
-18	κειμηλίους	κειμήλιος	a	a-p---ma-	Case=a|Gender=m|Number=p	19	OBJ	_	t_248|ref=Hypothecae_9
-19	δεξάμενος	δέχομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	20	ADV	_	t_249|ref=Hypothecae_9
-20	ἀπόθῃ	ἀποτίθημι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	25	PRED	_	t_250|ref=Hypothecae_9
-21	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_251|ref=Hypothecae_9
-22	λόγ	λόγος	n	n-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_252|ref=Hypothecae_9
-23	ους	ους	n	n-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_253|ref=Hypothecae_9
-24	,	,	u	u--------	_	7	AuxX	_	t_254|ref=Hypothecae_9
-25	ἀλλʼ	ἀλλά	c	c--------	_	7	COORD	_	t_255|ref=Hypothecae_9
-26	ὡς	ὡς	d	d--------	_	29	AuxZ	_	t_256|ref=Hypothecae_9
-27	ἀλεξικάκῳ	ἀλεξίκακος	a	a-s---fd-	Case=d|Gender=f|Number=s	28	ATR	_	t_257|ref=Hypothecae_9
-28	δυνάμει	δύναμις	n	n-s---fd-	Case=d|Gender=f|Number=s	29	OBJ	_	t_258|ref=Hypothecae_9
-29	χρώμενος	χράομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	30	ADV	_	t_259|ref=Hypothecae_9
-30	ἴθι	εἶμι	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	35	PRED	_	t_260|ref=Hypothecae_9
-31	ἐπὶ	ἐπί	r	r--------	_	30	AuxP	_	t_261|ref=Hypothecae_9
-32	θύρας	θύρα	n	n-p---fa-	Case=a|Gender=f|Number=p	31	OBJ	_	t_262|ref=Hypothecae_9
-33	ἀρετ	ἀρετή	n	n-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_263|ref=Hypothecae_9
-34	ῆς	ή	n	n-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_264|ref=Hypothecae_9
-35	καὶ	καί	c	c--------	_	25	COORD	_	t_265|ref=Hypothecae_9
-36	εὐδαιμονήσεις	εὐδαιμονέω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	35	PRED	_	t_266|ref=Hypothecae_9
-37	[0]	[0]	-	---------	_	13	ADV	_	e_17|ref=Hypothecae_1
-38	[1]	[1]	-	---------	_	13	ADV	_	e_18|ref=Hypothecae_1
-39	.	.	u	u--------	_	7	AuxK	_	t_267|ref=Hypothecae_9
+1	Ἵνʼ	ἵνα	p	p-s---fd-	_	13	ADV	_	t_231|t_243|ref=Hypothec._8
+2	οὖν	οὖν	d	d--------	_	25	AuxY	_	t_232|t_255|ref=Hypothec._8
+3	δόξῃ	δόξα	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_233|t_243|ref=Hypothec._8
+4	μὲν	μέν	d	d--------	_	13	AuxY	_	t_234|t_243|ref=Hypothec._8
+5	ᾖς	εἰμί	n	n-s---fn-	Case=n|Gender=f|Number=s	3	ADV	_	t_235|t_233|ref=Hypothec._8
+6	ἀχείρωτος	ἀχείρωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	37	PNOM	_	t_236|e_17|ref=Hypothec._8
+7	,	,	u	u--------	_	0	AuxX	_	t_237|0|ref=Hypothec._8
+8	τύχῃ	τύχη	n	n-s---fd-	Case=d|Gender=f|Number=s	37	ADV	_	t_238|e_17|ref=Hypothec._8
+9	δὲ	δέ	d	d--------	_	13	AuxY	_	t_239|t_243|ref=Hypothec._8
+10	ἐλεύθερος	ἐλεύθερος	a	a-s---mn-	Case=n|Gender=m|Number=s	37	PNOM	_	t_240|e_17|ref=Hypothec._8
+11	,	,	u	u--------	_	7	AuxX	_	t_241|t_237|ref=Hypothec._8
+12	κακίᾳ	κακία	n	n-p---fn-	Case=n|Gender=f|Number=p	14	ADV	_	t_242|t_244|ref=Hypothec._8
+13	δὲ	δέ	c	c--------	_	25	COORD	_	t_243|t_255|ref=Hypothec._8
+14	ἀπολιόρκητος	ἀπολιόρκητος	a	a-s---mn-	Case=n|Gender=m|Number=s	38	PNOM	_	t_244|e_18|ref=Hypothec._9
+15	,	,	u	u--------	_	7	AuxX	_	t_245|t_237|ref=Hypothec._8
+16	μὴ	μή	d	d--------	_	20	AuxZ	_	t_246|t_250|ref=Hypothec._9
+17	ὡς	ὡς	c	c--------	_	20	AuxC	_	t_247|t_250|ref=Hypothec._9
+18	κειμηλίους	κειμήλιος	a	a-p---ma-	Case=a|Gender=m|Number=p	19	OBJ	_	t_248|t_249|ref=Hypothec._9
+19	δεξάμενος	δέχομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	20	ADV	_	t_249|t_250|ref=Hypothec._9
+20	ἀπόθῃ	ἀποτίθημι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	25	PRED	_	t_250|t_255|ref=Hypothec._9
+21	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_251|t_253|ref=Hypothec._9
+22	λόγ	λόγος	n	n-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_252|t_250|ref=Hypothec._9
+23	ους	ους	n	n-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_253|t_250|ref=Hypothec._9
+24	,	,	u	u--------	_	7	AuxX	_	t_254|t_237|ref=Hypothec._9
+25	ἀλλʼ	ἀλλά	c	c--------	_	7	COORD	_	t_255|t_237|ref=Hypothec._9
+26	ὡς	ὡς	d	d--------	_	29	AuxZ	_	t_256|t_259|ref=Hypothec._9
+27	ἀλεξικάκῳ	ἀλεξίκακος	a	a-s---fd-	Case=d|Gender=f|Number=s	28	ATR	_	t_257|t_258|ref=Hypothec._9
+28	δυνάμει	δύναμις	n	n-s---fd-	Case=d|Gender=f|Number=s	29	OBJ	_	t_258|t_259|ref=Hypothec._9
+29	χρώμενος	χράομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	30	ADV	_	t_259|t_260|ref=Hypothec._9
+30	ἴθι	εἶμι	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	35	PRED	_	t_260|t_265|ref=Hypothec._9
+31	ἐπὶ	ἐπί	r	r--------	_	30	AuxP	_	t_261|t_260|ref=Hypothec._9
+32	θύρας	θύρα	n	n-p---fa-	Case=a|Gender=f|Number=p	31	OBJ	_	t_262|t_261|ref=Hypothec._9
+33	ἀρετ	ἀρετή	n	n-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_263|t_262|ref=Hypothec._9
+34	ῆς	ή	n	n-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_264|t_262|ref=Hypothec._9
+35	καὶ	καί	c	c--------	_	25	COORD	_	t_265|t_255|ref=Hypothec._9
+36	εὐδαιμονήσεις	εὐδαιμονέω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	35	PRED	_	t_266|t_265|ref=Hypothec._9
+37	[0]	[0]	-	---------	_	13	ADV	_	e_17|t_243|ref=Hypothec._1
+38	[1]	[1]	-	---------	_	13	ADV	_	e_18|t_243|ref=Hypothec._1
+39	.	.	u	u--------	_	7	AuxK	_	t_267|t_237|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 9
+# source = Moschion Gnomologus, Hypothec. 9
 # text = 10 [0] .
 # sent_id = 23
-1	10	10	u	u--------	_	2	AuxG	_	t_268|ref=Hypothecae_9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Hypothecae_1
-3	.	.	u	u--------	_	2	AuxK	_	t_269|ref=Hypothecae_9
+1	10	10	u	u--------	_	2	AuxG	_	t_268|e_19|ref=Hypothec._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Hypothec._1
+3	.	.	u	u--------	_	2	AuxK	_	t_269|e_19|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 9
+# source = Moschion Gnomologus, Hypothec. 9
 # text = Μὴ πίστευε τύχῃ καὶ πιστεύσεις θεῷ .
 # sent_id = 24
-1	Μὴ	μή	c	c--------	_	4	AuxY	_	t_270|ref=Hypothecae_9
-2	πίστευε	πιστεύω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	PRED	_	t_271|ref=Hypothecae_9
-3	τύχῃ	τύχη	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_272|ref=Hypothecae_9
-4	καὶ	καί	c	c--------	_	0	COORD	_	t_273|ref=Hypothecae_9
-5	πιστεύσεις	πιστεύω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	4	PRED	_	t_274|ref=Hypothecae_9
-6	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_275|ref=Hypothecae_9
-7	.	.	u	u--------	_	4	AuxK	_	t_276|ref=Hypothecae_9
+1	Μὴ	μή	c	c--------	_	4	AuxY	_	t_270|t_273|ref=Hypothec._9
+2	πίστευε	πιστεύω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	PRED	_	t_271|t_273|ref=Hypothec._9
+3	τύχῃ	τύχη	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_272|t_271|ref=Hypothec._9
+4	καὶ	καί	c	c--------	_	0	COORD	_	t_273|0|ref=Hypothec._9
+5	πιστεύσεις	πιστεύω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	4	PRED	_	t_274|t_273|ref=Hypothec._9
+6	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_275|t_274|ref=Hypothec._9
+7	.	.	u	u--------	_	4	AuxK	_	t_276|t_273|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 9
+# source = Moschion Gnomologus, Hypothec. 9
 # text = 11 .
 # sent_id = 25
-1	11	11	x	x--------	_	0	AuxG	_	t_277|ref=Hypothecae_9
-2	.	.	u	u--------	_	1	AuxK	_	t_278|ref=Hypothecae_9
+1	11	11	x	x--------	_	0	AuxG	_	t_277|0|ref=Hypothec._9
+2	.	.	u	u--------	_	1	AuxK	_	t_278|t_277|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 9
+# source = Moschion Gnomologus, Hypothec. 9
 # text = 12 .
 # sent_id = 26
-1	12	12	x	x--------	_	0	AuxG	_	t_279|ref=Hypothecae_9
-2	.	.	u	u--------	_	1	AuxK	_	t_280|ref=Hypothecae_9
+1	12	12	x	x--------	_	0	AuxG	_	t_279|0|ref=Hypothec._9
+2	.	.	u	u--------	_	1	AuxK	_	t_280|t_279|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 9
+# source = Moschion Gnomologus, Hypothec. 9
 # text = 13 .
 # sent_id = 27
-1	13	13	x	x--------	_	0	AuxG	_	t_281|ref=Hypothecae_9
-2	.	.	u	u--------	_	1	AuxK	_	t_282|ref=Hypothecae_9
+1	13	13	x	x--------	_	0	AuxG	_	t_281|0|ref=Hypothec._9
+2	.	.	u	u--------	_	1	AuxK	_	t_282|t_281|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 9
+# source = Moschion Gnomologus, Hypothec. 9
 # text = = 14 .
 # sent_id = 28
-1	=	=	u	u--------	_	2	AuxG	_	t_283|ref=Hypothecae_9
-2	14	14	v	v1spia---	_	0	PRED	_	t_284|ref=Hypothecae_9
-3	.	.	u	u--------	_	2	AuxK	_	t_285|ref=Hypothecae_9
+1	=	=	u	u--------	_	2	AuxG	_	t_283|t_284|ref=Hypothec._9
+2	14	14	v	v1spia---	_	0	PRED	_	t_284|0|ref=Hypothec._9
+3	.	.	u	u--------	_	2	AuxK	_	t_285|t_284|ref=Hypothec._9
 
-# source = Moschion Gnomologus, Hypothecae 10-11
+# source = Moschion Gnomologus, Hypothec. 10-11
 # text = Τὰ ἁμαρτήματά σου πειρῶ μὴ λόγοις ἐπικαλύπτειν , ἀλλὰ θεραπεύειν ἐλέγχοις .
 # sent_id = 29
-1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	2	ATR	_	t_286|ref=Hypothecae_10
-2	ἁμαρτήματά	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_287|ref=Hypothecae_9
-3	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	2	ATR	_	t_288|ref=Hypothecae_10
-4	πειρῶ	πειράω	v	v1spia---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_289|ref=Hypothecae_10
-5	μὴ	μή	d	d--------	_	7	AuxZ	_	t_290|ref=Hypothecae_10
-6	λόγοις	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	7	ADV	_	t_291|ref=Hypothecae_10
-7	ἐπικαλύπτειν	ἐπικαλύπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_292|ref=Hypothecae_10
-8	,	,	u	u--------	_	4	AuxX	_	t_293|ref=Hypothecae_10
-9	ἀλλὰ	ἀλλά	c	c--------	_	4	COORD	_	t_294|ref=Hypothecae_10
-10	θεραπεύειν	θεραπεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_295|ref=Hypothecae_10
-11	ἐλέγχοις	ἔλεγχος2	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_296|ref=Hypothecae_11
-12	.	.	u	u--------	_	4	AuxK	_	t_297|ref=Hypothecae_11
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	2	ATR	_	t_286|t_287|ref=Hypothec._10
+2	ἁμαρτήματά	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_287|t_292|ref=Hypothec._9
+3	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	2	ATR	_	t_288|t_287|ref=Hypothec._10
+4	πειρῶ	πειράω	v	v1spia---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_289|0|ref=Hypothec._10
+5	μὴ	μή	d	d--------	_	7	AuxZ	_	t_290|t_292|ref=Hypothec._10
+6	λόγοις	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	7	ADV	_	t_291|t_292|ref=Hypothec._10
+7	ἐπικαλύπτειν	ἐπικαλύπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_292|t_294|ref=Hypothec._10
+8	,	,	u	u--------	_	4	AuxX	_	t_293|t_289|ref=Hypothec._10
+9	ἀλλὰ	ἀλλά	c	c--------	_	4	COORD	_	t_294|t_289|ref=Hypothec._10
+10	θεραπεύειν	θεραπεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_295|t_294|ref=Hypothec._10
+11	ἐλέγχοις	ἔλεγχος2	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_296|t_295|ref=Hypothec._11
+12	.	.	u	u--------	_	4	AuxK	_	t_297|t_289|ref=Hypothec._11
 
-# source = Moschion Gnomologus, Hypothecae 11
+# source = Moschion Gnomologus, Hypothec. 11
 # text = 15 .
 # sent_id = 30
-1	15	15	u	u--------	_	0	AuxG	_	t_298|ref=Hypothecae_11
-2	.	.	u	u--------	_	1	AuxK	_	t_299|ref=Hypothecae_11
+1	15	15	u	u--------	_	0	AuxG	_	t_298|0|ref=Hypothec._11
+2	.	.	u	u--------	_	1	AuxK	_	t_299|t_298|ref=Hypothec._11
 
-# source = Moschion Gnomologus, Hypothecae 11-14
+# source = Moschion Gnomologus, Hypothec. 11-14
 # text = Οὐχ οὕτως χαλεπὸν τὸ ἁμαρτάνειν , ὡς τὸ ἁμαρτάνοντα μὴ ἐξελέγχειν [0] .
 # sent_id = 31
-1	Οὐχ	οὐ	d	d--------	_	2	AuxZ	_	t_300|ref=Hypothecae_11
-2	οὕτως	οὕτως	d	d--------	_	3	ADV	_	t_301|ref=Hypothecae_11
-3	χαλεπὸν	χαλεπός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_302|ref=Hypothecae_11
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_303|ref=Hypothecae_14
-5	ἁμαρτάνειν	ἁμαρτάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_304|ref=Hypothecae_14
-6	,	,	u	u--------	_	7	AuxX	_	t_305|ref=Hypothecae_14
-7	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_306|ref=Hypothecae_14
-8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_307|ref=Hypothecae_14
-9	ἁμαρτάνοντα	ἁμαρτάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	OBJ	_	t_308|ref=Hypothecae_14
-10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_309|ref=Hypothecae_14
-11	ἐξελέγχειν	ἐξελέγχω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	ADV	_	t_310|ref=Hypothecae_14
-12	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Hypothecae_1
-13	.	.	u	u--------	_	12	AuxK	_	t_311|ref=Hypothecae_14
+1	Οὐχ	οὐ	d	d--------	_	2	AuxZ	_	t_300|t_301|ref=Hypothec._11
+2	οὕτως	οὕτως	d	d--------	_	3	ADV	_	t_301|t_302|ref=Hypothec._11
+3	χαλεπὸν	χαλεπός	a	a-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_302|e_20|ref=Hypothec._11
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_303|t_304|ref=Hypothec._14
+5	ἁμαρτάνειν	ἁμαρτάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_304|e_20|ref=Hypothec._14
+6	,	,	u	u--------	_	7	AuxX	_	t_305|t_306|ref=Hypothec._14
+7	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_306|t_301|ref=Hypothec._14
+8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_307|t_310|ref=Hypothec._14
+9	ἁμαρτάνοντα	ἁμαρτάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	OBJ	_	t_308|t_310|ref=Hypothec._14
+10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_309|t_310|ref=Hypothec._14
+11	ἐξελέγχειν	ἐξελέγχω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	ADV	_	t_310|t_306|ref=Hypothec._14
+12	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Hypothec._1
+13	.	.	u	u--------	_	12	AuxK	_	t_311|e_20|ref=Hypothec._14
 
-# source = Moschion Gnomologus, Hypothecae 14
+# source = Moschion Gnomologus, Hypothec. 14
 # text = 15 a .
 # sent_id = 32
-1	15	15	x	x--------	_	0	AuxG	_	t_312|ref=Hypothecae_14
-2	a	a	i	i--------	_	1	ExD	_	t_313|ref=Hypothecae_14
-3	.	.	u	u--------	_	1	AuxK	_	t_314|ref=Hypothecae_14
+1	15	15	x	x--------	_	0	AuxG	_	t_312|0|ref=Hypothec._14
+2	a	a	i	i--------	_	1	ExD	_	t_313|t_312|ref=Hypothec._14
+3	.	.	u	u--------	_	1	AuxK	_	t_314|t_312|ref=Hypothec._14
 
-# source = Moschion Gnomologus, Hypothecae 14-15a
+# source = Moschion Gnomologus, Hypothec. 14-15a
 # text = Ὥσπερ σωματικὸν πάθος οὐ κρυπτόμενον οὐ δὲ ἐπαιν ούμενον ὑγιάζεται , οὕτως οὐ δὲ ψυχὴ κακῶς φρουρουμένη καὶ συναγορευομένη θεραπεύεται .
 # sent_id = 33
-1	Ὥσπερ	ὥσπερ	c	c--------	_	20	AuxC	_	t_315|ref=Hypothecae_14
-2	σωματικὸν	σωματικός	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_316|ref=Hypothecae_14
-3	πάθος	πάθος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_317|ref=Hypothecae_15
-4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_318|ref=Hypothecae_15
-5	κρυπτόμενον	κρύπτω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_319|ref=Hypothecae_15
-6	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_320|ref=Hypothecae_15
-7	δὲ	δέ	c	c--------	_	3	COORD	_	t_321|ref=Hypothecae_15
-8	ἐπαιν	ἐπαινός	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	PNOM	_	t_322|ref=Hypothecae_15
-9	ούμενον	όομαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_323|ref=Hypothecae_15
-10	ὑγιάζεται	ὑγιαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_324|ref=Hypothecae_15
-11	,	,	u	u--------	_	20	AuxX	_	t_325|ref=Hypothecae_15
-12	οὕτως	οὕτως	d	d--------	_	20	ADV	_	t_326|ref=Hypothecae_15
-13	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_327|ref=Hypothecae_15
-14	δὲ	δέ	c	c--------	_	15	AuxZ	_	t_328|ref=Hypothecae_15
-15	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_329|ref=Hypothecae_15
-16	κακῶς	κακός	d	d--------	_	18	ADV	_	t_330|ref=Hypothecae_14
-17	φρουρουμένη	φρουρέω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_331|ref=Hypothecae_15
-18	καὶ	καί	c	c--------	_	20	COORD	_	t_332|ref=Hypothecae_15a
-19	συναγορευομένη	συναγορεύω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_333|ref=Hypothecae_15a
-20	θεραπεύεται	θεραπεύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_334|ref=Hypothecae_15a
-21	.	.	u	u--------	_	20	AuxK	_	t_335|ref=Hypothecae_15a
+1	Ὥσπερ	ὥσπερ	c	c--------	_	20	AuxC	_	t_315|t_334|ref=Hypothec._14
+2	σωματικὸν	σωματικός	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_316|t_317|ref=Hypothec._14
+3	πάθος	πάθος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_317|t_324|ref=Hypothec._15
+4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_318|t_319|ref=Hypothec._15
+5	κρυπτόμενον	κρύπτω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_319|t_321|ref=Hypothec._15
+6	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_320|t_322|ref=Hypothec._15
+7	δὲ	δέ	c	c--------	_	3	COORD	_	t_321|t_317|ref=Hypothec._15
+8	ἐπαιν	ἐπαινός	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	PNOM	_	t_322|t_321|ref=Hypothec._15
+9	ούμενον	όομαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_323|t_321|ref=Hypothec._15
+10	ὑγιάζεται	ὑγιαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_324|t_315|ref=Hypothec._15
+11	,	,	u	u--------	_	20	AuxX	_	t_325|t_334|ref=Hypothec._15
+12	οὕτως	οὕτως	d	d--------	_	20	ADV	_	t_326|t_334|ref=Hypothec._15
+13	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_327|t_334|ref=Hypothec._15
+14	δὲ	δέ	c	c--------	_	15	AuxZ	_	t_328|t_329|ref=Hypothec._15
+15	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_329|t_334|ref=Hypothec._15
+16	κακῶς	κακός	d	d--------	_	18	ADV	_	t_330|t_332|ref=Hypothec._14
+17	φρουρουμένη	φρουρέω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_331|t_332|ref=Hypothec._15
+18	καὶ	καί	c	c--------	_	20	COORD	_	t_332|t_334|ref=Hypothec._15a
+19	συναγορευομένη	συναγορεύω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_333|t_332|ref=Hypothec._15a
+20	θεραπεύεται	θεραπεύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_334|0|ref=Hypothec._15a
+21	.	.	u	u--------	_	20	AuxK	_	t_335|t_334|ref=Hypothec._15a
 
-# source = Moschion Gnomologus, Hypothecae 15a
+# source = Moschion Gnomologus, Hypothec. 15a
 # text = 16 .
 # sent_id = 34
-1	16	16	x	x--------	_	0	AuxG	_	t_336|ref=Hypothecae_15a
-2	.	.	u	u--------	_	1	AuxK	_	t_337|ref=Hypothecae_15a
+1	16	16	x	x--------	_	0	AuxG	_	t_336|0|ref=Hypothec._15a
+2	.	.	u	u--------	_	1	AuxK	_	t_337|t_336|ref=Hypothec._15a
 
-# source = Moschion Gnomologus, Hypothecae 15a
+# source = Moschion Gnomologus, Hypothec. 15a
 # text = = 17 .
 # sent_id = 35
-1	=	=	u	u--------	_	2	AuxG	_	t_338|ref=Hypothecae_15a
-2	17	17	x	x--------	_	0	AuxG	_	t_339|ref=Hypothecae_15a
-3	.	.	u	u--------	_	2	AuxK	_	t_340|ref=Hypothecae_15a
+1	=	=	u	u--------	_	2	AuxG	_	t_338|t_339|ref=Hypothec._15a
+2	17	17	x	x--------	_	0	AuxG	_	t_339|0|ref=Hypothec._15a
+3	.	.	u	u--------	_	2	AuxK	_	t_340|t_339|ref=Hypothec._15a
 
-# source = Moschion Gnomologus, Hypothecae 15a
+# source = Moschion Gnomologus, Hypothec. 15a
 # text = Μὴ φεῦγε πενίαν , ἀλλʼ ἀδικίαν ·
 # sent_id = 36
-1	Μὴ	μή	g	g--------	_	2	AuxZ	_	t_341|ref=Hypothecae_15a
-2	φεῦγε	φεύγω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_342|ref=Hypothecae_15a
-3	πενίαν	πενία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_343|ref=Hypothecae_15a
-4	,	,	u	u--------	_	5	AuxX	_	t_344|ref=Hypothecae_15a
-5	ἀλλʼ	ἀλλά	c	c--------	_	2	COORD	_	t_345|ref=Hypothecae_15a
-6	ἀδικίαν	ἀδικία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_346|ref=Hypothecae_15a
-7	·	·	u	u--------	_	2	AuxK	_	t_347|ref=Hypothecae_15a
+1	Μὴ	μή	g	g--------	_	2	AuxZ	_	t_341|t_342|ref=Hypothec._15a
+2	φεῦγε	φεύγω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_342|0|ref=Hypothec._15a
+3	πενίαν	πενία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_343|t_345|ref=Hypothec._15a
+4	,	,	u	u--------	_	5	AuxX	_	t_344|t_345|ref=Hypothec._15a
+5	ἀλλʼ	ἀλλά	c	c--------	_	2	COORD	_	t_345|t_342|ref=Hypothec._15a
+6	ἀδικίαν	ἀδικία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_346|t_345|ref=Hypothec._15a
+7	·	·	u	u--------	_	2	AuxK	_	t_347|t_342|ref=Hypothec._15a
 
-# source = Moschion Gnomologus, Hypothecae 15a-16
+# source = Moschion Gnomologus, Hypothec. 15a-16
 # text = οὐδεὶς γὰρ ὅτι πένης μετήλλαξεν , ἀλλʼ ὅτι ἄδικος [0] [1] ·
 # sent_id = 37
-1	οὐδεὶς	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_348|ref=Hypothecae_15a
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_349|ref=Hypothecae_15a
-3	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_350|ref=Hypothecae_15a
-4	πένης	πένης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	OBJ	_	t_351|ref=Hypothecae_15a
-5	μετήλλαξεν	μεταλλάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	3	OBJ	_	t_352|ref=Hypothecae_15a
-6	,	,	u	u--------	_	0	AuxX	_	t_353|ref=Hypothecae_15a
-7	ἀλλʼ	ἀλλά	c	c--------	_	6	COORD	_	t_354|ref=Hypothecae_15a
-8	ὅτι	ὅτι	c	c--------	_	11	AuxC	_	t_355|ref=Hypothecae_15a
-9	ἄδικος	ἄδικος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_356|ref=Hypothecae_16
-10	[0]	[0]	-	---------	_	7	PRED	_	e_21|ref=Hypothecae_1
-11	[1]	[1]	-	---------	_	7	PRED	_	e_22|ref=Hypothecae_1
-12	·	·	u	u--------	_	6	AuxK	_	t_357|ref=Hypothecae_16
+1	οὐδεὶς	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_348|t_354|ref=Hypothec._15a
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_349|t_354|ref=Hypothec._15a
+3	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_350|e_21|ref=Hypothec._15a
+4	πένης	πένης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	OBJ	_	t_351|t_352|ref=Hypothec._15a
+5	μετήλλαξεν	μεταλλάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	3	OBJ	_	t_352|t_350|ref=Hypothec._15a
+6	,	,	u	u--------	_	0	AuxX	_	t_353|0|ref=Hypothec._15a
+7	ἀλλʼ	ἀλλά	c	c--------	_	6	COORD	_	t_354|t_353|ref=Hypothec._15a
+8	ὅτι	ὅτι	c	c--------	_	11	AuxC	_	t_355|e_22|ref=Hypothec._15a
+9	ἄδικος	ἄδικος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_356|e_22|ref=Hypothec._16
+10	[0]	[0]	-	---------	_	7	PRED	_	e_21|t_354|ref=Hypothec._1
+11	[1]	[1]	-	---------	_	7	PRED	_	e_22|t_354|ref=Hypothec._1
+12	·	·	u	u--------	_	6	AuxK	_	t_357|t_353|ref=Hypothec._16
 
-# source = Moschion Gnomologus, Hypothecae 16-17
+# source = Moschion Gnomologus, Hypothec. 16-17
 # text = οὐκ οὖν οὐ δʼ ὅτι πλούσιος ὢν βιοῖ , ἐπαινετός , ἀλλʼ ὅτι δίκαιος [0] [1] .
 # sent_id = 38
-1	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_358|ref=Hypothecae_16
-2	οὖν	οὖν	d	d--------	_	15	AuxY	_	t_359|ref=Hypothecae_17
-3	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_360|ref=Hypothecae_17
-4	δʼ	δέ	c	c--------	_	3	AuxY	_	t_361|ref=Hypothecae_17
-5	ὅτι	ὅτι	c	c--------	_	12	AuxC	_	t_362|ref=Hypothecae_17
-6	πλούσιος	πλούσιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_363|ref=Hypothecae_17
-7	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_364|ref=Hypothecae_17
-8	βιοῖ	βιός	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_365|ref=Hypothecae_17
-9	,	,	u	u--------	_	15	AuxX	_	t_366|ref=Hypothecae_17
-10	ἐπαινετός	ἐπαινετός	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_367|ref=Hypothecae_17
-11	,	,	u	u--------	_	15	AuxX	_	t_368|ref=Hypothecae_17
-12	ἀλλʼ	ἀλλά	c	c--------	_	15	COORD	_	t_369|ref=Hypothecae_17
-13	ὅτι	ὅτι	c	c--------	_	12	AuxC	_	t_370|ref=Hypothecae_17
-14	δίκαιος	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_371|ref=Hypothecae_17
-15	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Hypothecae_1
-16	[1]	[1]	-	---------	_	13	ADV	_	e_24|ref=Hypothecae_1
-17	.	.	u	u--------	_	15	AuxK	_	t_372|ref=Hypothecae_17
+1	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_358|t_367|ref=Hypothec._16
+2	οὖν	οὖν	d	d--------	_	15	AuxY	_	t_359|e_23|ref=Hypothec._17
+3	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_360|t_365|ref=Hypothec._17
+4	δʼ	δέ	c	c--------	_	3	AuxY	_	t_361|t_360|ref=Hypothec._17
+5	ὅτι	ὅτι	c	c--------	_	12	AuxC	_	t_362|t_369|ref=Hypothec._17
+6	πλούσιος	πλούσιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_363|t_364|ref=Hypothec._17
+7	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_364|t_365|ref=Hypothec._17
+8	βιοῖ	βιός	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_365|t_362|ref=Hypothec._17
+9	,	,	u	u--------	_	15	AuxX	_	t_366|e_23|ref=Hypothec._17
+10	ἐπαινετός	ἐπαινετός	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_367|e_23|ref=Hypothec._17
+11	,	,	u	u--------	_	15	AuxX	_	t_368|e_23|ref=Hypothec._17
+12	ἀλλʼ	ἀλλά	c	c--------	_	15	COORD	_	t_369|e_23|ref=Hypothec._17
+13	ὅτι	ὅτι	c	c--------	_	12	AuxC	_	t_370|t_369|ref=Hypothec._17
+14	δίκαιος	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	16	PNOM	_	t_371|e_24|ref=Hypothec._17
+15	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Hypothec._1
+16	[1]	[1]	-	---------	_	13	ADV	_	e_24|t_370|ref=Hypothec._1
+17	.	.	u	u--------	_	15	AuxK	_	t_372|e_23|ref=Hypothec._17
 
-# source = Moschion Gnomologus, Hypothecae 17
+# source = Moschion Gnomologus, Hypothec. 17
 # text = 18 .
 # sent_id = 39
-1	18	18	x	x--------	_	0	AuxG	_	t_373|ref=Hypothecae_17
-2	.	.	u	u--------	_	1	AuxK	_	t_374|ref=Hypothecae_17
+1	18	18	x	x--------	_	0	AuxG	_	t_373|0|ref=Hypothec._17
+2	.	.	u	u--------	_	1	AuxK	_	t_374|t_373|ref=Hypothec._17
 

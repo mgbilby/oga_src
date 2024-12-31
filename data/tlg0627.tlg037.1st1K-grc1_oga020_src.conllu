@@ -1,671 +1,671 @@
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ΠΕΡΙ ΠΑΡΘΕΝΙΩΝ [0] .
 # sent_id = 1
-1	ΠΕΡΙ	περί	a	a-s---fn-	Case=n|Gender=f|Number=s	3	OBJ	_	t_1|ref=De virginum morbis_1
-2	ΠΑΡΘΕΝΙΩΝ	παρθενιων	n	n-s---mn-	Case=n|Gender=m|Number=s	3	ExD	_	t_2|ref=De virginum morbis_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=De virginum morbis_1
-4	.	.	u	u--------	_	3	AuxK	_	t_3|ref=De virginum morbis_1
+1	ΠΕΡΙ	περί	a	a-s---fn-	Case=n|Gender=f|Number=s	3	OBJ	_	t_1|e_1|ref=virg.morb._1
+2	ΠΑΡΘΕΝΙΩΝ	παρθενιων	n	n-s---mn-	Case=n|Gender=m|Number=s	3	ExD	_	t_2|e_1|ref=virg.morb._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=virg.morb._1
+4	.	.	u	u--------	_	3	AuxK	_	t_3|e_1|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = 1 .
 # sent_id = 2
-1	1	1	u	u--------	_	0	AuxG	_	t_4|ref=De virginum morbis_1
-2	.	.	u	u--------	_	1	AuxK	_	t_5|ref=De virginum morbis_1
+1	1	1	u	u--------	_	0	AuxG	_	t_4|0|ref=virg.morb._1
+2	.	.	u	u--------	_	1	AuxK	_	t_5|t_4|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Ἀρχή μοι τῆς ξυνθέσιος τῶν αἰειγενέων ἰητρίκῆς [0] ·
 # sent_id = 3
-1	Ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_6|ref=De virginum morbis_1
-2	μοι	ἐγώ	p	p-s---fd-	Case=d|Gender=m|Number=s	1	ATR	_	t_7|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_8|ref=De virginum morbis_1
-4	ξυνθέσιος	συνθήκη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_9|ref=De virginum morbis_1
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_10|ref=De virginum morbis_1
-6	αἰειγενέων	ἀειγενής	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_11|ref=De virginum morbis_1
-7	ἰητρίκῆς	ἰητρικός	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_12|ref=De virginum morbis_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=De virginum morbis_1
-9	·	·	u	u--------	_	8	AuxK	_	t_13|ref=De virginum morbis_1
+1	Ἀρχή	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_6|e_2|ref=virg.morb._1
+2	μοι	ἐγώ	p	p-s---fd-	Case=d|Gender=m|Number=s	1	ATR	_	t_7|t_6|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_8|t_12|ref=virg.morb._1
+4	ξυνθέσιος	συνθήκη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_9|t_12|ref=virg.morb._1
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_10|t_11|ref=virg.morb._1
+6	αἰειγενέων	ἀειγενής	a	a-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_11|t_12|ref=virg.morb._1
+7	ἰητρίκῆς	ἰητρικός	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_12|t_6|ref=virg.morb._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=virg.morb._1
+9	·	·	u	u--------	_	8	AuxK	_	t_13|e_2|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = οὐ γὰρ δυνατὸν τῶν νουσημάτων τὴν φύσιν γνῶναι , ὅ πέρ ἐστι τῆς τέχνης ἐξευρεῖν , ἢν μὴ γνῷ τὴν ἐν τῷ ἀμερεῖ κατὰ τὴν ἀρχὴν , ἐξ ἧς διέκρίθη [0] .
 # sent_id = 4
-1	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_14|ref=De virginum morbis_1
-2	γὰρ	γάρ	d	d--------	_	31	AuxY	_	t_15|ref=De virginum morbis_1
-3	δυνατὸν	δυνατός	a	a-s---nn-	Case=n|Gender=n|Number=s	31	PNOM	_	t_16|ref=De virginum morbis_1
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_17|ref=De virginum morbis_1
-5	νουσημάτων	νόσημα	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_18|ref=De virginum morbis_1
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_19|ref=De virginum morbis_1
-7	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_20|ref=De virginum morbis_1
-8	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	31	SBJ	_	t_21|ref=De virginum morbis_1
-9	,	,	u	u--------	_	31	AuxX	_	t_22|ref=De virginum morbis_1
-10	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_23|ref=De virginum morbis_1
-11	πέρ	πέρ	d	d--------	_	10	AuxZ	_	t_24|ref=De virginum morbis_1
-12	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	OBJ	_	t_25|ref=De virginum morbis_1
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_26|ref=De virginum morbis_1
-14	τέχνης	τέχνη	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_27|ref=De virginum morbis_1
-15	ἐξευρεῖν	ἐξευρίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_28|ref=De virginum morbis_1
-16	,	,	u	u--------	_	31	AuxX	_	t_29|ref=De virginum morbis_1
-17	ἢν	ἐάν	c	c--------	_	15	AuxC	_	t_30|ref=De virginum morbis_1
-18	μὴ	μή	d	d--------	_	19	AuxZ	_	t_31|ref=De virginum morbis_1
-19	γνῷ	γιγνώσκω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	17	ADV	_	t_32|ref=De virginum morbis_1
-20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_33|ref=De virginum morbis_1
-21	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_34|ref=De virginum morbis_1
-22	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	23	ATR	_	t_35|ref=De virginum morbis_1
-23	ἀμερεῖ	ἀμερής	a	a-s---nd-	Case=d|Gender=n|Number=s	21	ATR	_	t_36|ref=De virginum morbis_1
-24	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_37|ref=De virginum morbis_1
-25	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_38|ref=De virginum morbis_1
-26	ἀρχὴν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	24	ADV	_	t_39|ref=De virginum morbis_1
-27	,	,	u	u--------	_	31	AuxX	_	t_40|ref=De virginum morbis_1
-28	ἐξ	ἐκ	r	r--------	_	30	AuxP	_	t_41|ref=De virginum morbis_1
-29	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	28	ADV	_	t_42|ref=De virginum morbis_1
-30	διέκρίθη	διακρίνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	26	ATR	_	t_43|ref=De virginum morbis_1
-31	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=De virginum morbis_1
-32	.	.	u	u--------	_	31	AuxK	_	t_44|ref=De virginum morbis_1
+1	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_14|t_16|ref=virg.morb._1
+2	γὰρ	γάρ	d	d--------	_	31	AuxY	_	t_15|e_3|ref=virg.morb._1
+3	δυνατὸν	δυνατός	a	a-s---nn-	Case=n|Gender=n|Number=s	31	PNOM	_	t_16|e_3|ref=virg.morb._1
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_17|t_18|ref=virg.morb._1
+5	νουσημάτων	νόσημα	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_18|t_20|ref=virg.morb._1
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_19|t_20|ref=virg.morb._1
+7	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_20|t_21|ref=virg.morb._1
+8	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	31	SBJ	_	t_21|e_3|ref=virg.morb._1
+9	,	,	u	u--------	_	31	AuxX	_	t_22|e_3|ref=virg.morb._1
+10	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_23|t_25|ref=virg.morb._1
+11	πέρ	πέρ	d	d--------	_	10	AuxZ	_	t_24|t_23|ref=virg.morb._1
+12	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	OBJ	_	t_25|t_28|ref=virg.morb._1
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_26|t_27|ref=virg.morb._1
+14	τέχνης	τέχνη	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_27|t_23|ref=virg.morb._1
+15	ἐξευρεῖν	ἐξευρίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_28|t_21|ref=virg.morb._1
+16	,	,	u	u--------	_	31	AuxX	_	t_29|e_3|ref=virg.morb._1
+17	ἢν	ἐάν	c	c--------	_	15	AuxC	_	t_30|t_28|ref=virg.morb._1
+18	μὴ	μή	d	d--------	_	19	AuxZ	_	t_31|t_32|ref=virg.morb._1
+19	γνῷ	γιγνώσκω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	17	ADV	_	t_32|t_30|ref=virg.morb._1
+20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_33|t_32|ref=virg.morb._1
+21	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_34|t_33|ref=virg.morb._1
+22	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	23	ATR	_	t_35|t_36|ref=virg.morb._1
+23	ἀμερεῖ	ἀμερής	a	a-s---nd-	Case=d|Gender=n|Number=s	21	ATR	_	t_36|t_34|ref=virg.morb._1
+24	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_37|t_33|ref=virg.morb._1
+25	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_38|t_39|ref=virg.morb._1
+26	ἀρχὴν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	24	ADV	_	t_39|t_37|ref=virg.morb._1
+27	,	,	u	u--------	_	31	AuxX	_	t_40|e_3|ref=virg.morb._1
+28	ἐξ	ἐκ	r	r--------	_	30	AuxP	_	t_41|t_43|ref=virg.morb._1
+29	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	28	ADV	_	t_42|t_41|ref=virg.morb._1
+30	διέκρίθη	διακρίνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	26	ATR	_	t_43|t_39|ref=virg.morb._1
+31	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=virg.morb._1
+32	.	.	u	u--------	_	31	AuxK	_	t_44|e_3|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Πρῶτον περὶ τῆς ἱερῆς νούσου καλεομένης , καὶ περὶ τῶν ἀποπλήκτων , καὶ περὶ τῶν δειμάτων , ὁκόσα φοβεῦνται οἱ ἄνθρωποι ἰσχυρῶς , ὥστε παραφρονέειν καὶ ὁρῇν δοκέειν δαίμονάς τινας ἐφ ’ ἑωυτῶν δυσμενέας , ὁκότε μὲν νυκτὸς , ὁκότε δὲ ἡμέρῃς , ὁκότε δὲ ἀμφοτέρῃσι τῇσιν ὥρῃσιν [0] [1] [2] ·
 # sent_id = 5
-1	Πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	49	ADV	_	t_45|ref=De virginum morbis_1
-2	περὶ	περί	r	r--------	_	13	AuxP	_	t_46|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_47|ref=De virginum morbis_1
-4	ἱερῆς	ἱερός	a	a-s---fg-	Case=g|Gender=f|Number=s	6	PNOM	_	t_48|ref=De virginum morbis_1
-5	νούσου	νοῦσος	n	n-s---fg-	Case=g|Gender=f|Number=s	6	PNOM	_	t_49|ref=De virginum morbis_1
-6	καλεομένης	καλέω	v	v-sfpmfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	2	ADV	_	t_50|ref=De virginum morbis_1
-7	,	,	u	u--------	_	49	AuxX	_	t_51|ref=De virginum morbis_1
-8	καὶ	καί	d	d--------	_	13	AuxY	_	t_52|ref=De virginum morbis_1
-9	περὶ	περί	r	r--------	_	13	AuxP	_	t_53|ref=De virginum morbis_1
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_54|ref=De virginum morbis_1
-11	ἀποπλήκτων	ἀπόπληκτος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ADV	_	t_55|ref=De virginum morbis_1
-12	,	,	u	u--------	_	49	AuxX	_	t_56|ref=De virginum morbis_1
-13	καὶ	καί	c	c--------	_	49	COORD	_	t_57|ref=De virginum morbis_1
-14	περὶ	περί	r	r--------	_	13	AuxP	_	t_58|ref=De virginum morbis_1
-15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_59|ref=De virginum morbis_1
-16	δειμάτων	δεῖμα	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ADV	_	t_60|ref=De virginum morbis_1
-17	,	,	u	u--------	_	49	AuxX	_	t_61|ref=De virginum morbis_1
-18	ὁκόσα	ὁπόσος	a	a-p---na-	Case=a|Gender=n|Number=p	19	OBJ	_	t_62|ref=De virginum morbis_1
-19	φοβεῦνται	φοβέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	16	ATR	_	t_63|ref=De virginum morbis_1
-20	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	21	ATR	_	t_64|ref=De virginum morbis_1
-21	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	19	SBJ	_	t_65|ref=De virginum morbis_1
-22	ἰσχυρῶς	ἰσχυρός	d	d--------	_	19	ADV	_	t_66|ref=De virginum morbis_1
-23	,	,	u	u--------	_	49	AuxX	_	t_67|ref=De virginum morbis_1
-24	ὥστε	ὥστε	c	c--------	_	22	AuxC	_	t_68|ref=De virginum morbis_1
-25	παραφρονέειν	παραφρονέω	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_69|ref=De virginum morbis_1
-26	καὶ	καί	c	c--------	_	24	COORD	_	t_70|ref=De virginum morbis_1
-27	ὁρῇν	ὁράω	v	v--pna---	Mood=n|Tense=p|Voice=a	28	ADV	_	t_71|ref=De virginum morbis_1
-28	δοκέειν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_72|ref=De virginum morbis_1
-29	δαίμονάς	δαίμων	n	n-p---ma-	Case=a|Gender=m|Number=p	28	SBJ	_	t_73|ref=De virginum morbis_1
-30	τινας	τις	a	a-p---ma-	Case=a|Number=p	29	ATR	_	t_74|ref=De virginum morbis_1
-31	ἐφ	ἐπί	r	r--------	_	34	AuxP	_	t_75|ref=De virginum morbis_1
-32	’	’	r	r--------	_	34	AuxP	_	t_76|ref=De virginum morbis_1
-33	ἑωυτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	32	ADV	_	t_77|ref=De virginum morbis_1
-34	δυσμενέας	δυσμενής	a	a-p---ma-	Case=a|Gender=m|Number=p	29	ATR	_	t_78|ref=De virginum morbis_1
-35	,	,	u	u--------	_	49	AuxX	_	t_79|ref=De virginum morbis_1
-36	ὁκότε	ὁκότε	d	d--------	_	50	AuxZ	_	t_80|ref=De virginum morbis_1
-37	μὲν	μέν	d	d--------	_	45	AuxY	_	t_81|ref=De virginum morbis_1
-38	νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	50	ADV	_	t_82|ref=De virginum morbis_1
-39	,	,	u	u--------	_	49	AuxX	_	t_83|ref=De virginum morbis_1
-40	ὁκότε	ὁκότε	d	d--------	_	50	ADV	_	t_84|ref=De virginum morbis_1
-41	δὲ	δέ	d	d--------	_	45	AuxY	_	t_85|ref=De virginum morbis_1
-42	ἡμέρῃς	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	50	ADV	_	t_86|ref=De virginum morbis_1
-43	,	,	u	u--------	_	49	AuxX	_	t_87|ref=De virginum morbis_1
-44	ὁκότε	ὁκότε	d	d--------	_	51	AuxZ	_	t_88|ref=De virginum morbis_1
-45	δὲ	δέ	c	c--------	_	28	COORD	_	t_89|ref=De virginum morbis_1
-46	ἀμφοτέρῃσι	ἀμφότερος	a	a-p---fd-	Case=d|Gender=f|Number=p	48	ATR	_	t_90|ref=De virginum morbis_1
-47	τῇσιν	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	48	ATR	_	t_91|ref=De virginum morbis_1
-48	ὥρῃσιν	ὥρα	n	n-p---fd-	Case=d|Gender=f|Number=p	51	ADV	_	t_92|ref=De virginum morbis_1
-49	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=De virginum morbis_1
-50	[1]	[1]	-	---------	_	45	ADV	_	e_5|ref=De virginum morbis_1
-51	[2]	[2]	-	---------	_	45	ADV	_	e_6|ref=De virginum morbis_1
-52	·	·	u	u--------	_	49	AuxK	_	t_93|ref=De virginum morbis_1
+1	Πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	49	ADV	_	t_45|e_4|ref=virg.morb._1
+2	περὶ	περί	r	r--------	_	13	AuxP	_	t_46|t_57|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_47|t_49|ref=virg.morb._1
+4	ἱερῆς	ἱερός	a	a-s---fg-	Case=g|Gender=f|Number=s	6	PNOM	_	t_48|t_50|ref=virg.morb._1
+5	νούσου	νοῦσος	n	n-s---fg-	Case=g|Gender=f|Number=s	6	PNOM	_	t_49|t_50|ref=virg.morb._1
+6	καλεομένης	καλέω	v	v-sfpmfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	2	ADV	_	t_50|t_46|ref=virg.morb._1
+7	,	,	u	u--------	_	49	AuxX	_	t_51|e_4|ref=virg.morb._1
+8	καὶ	καί	d	d--------	_	13	AuxY	_	t_52|t_57|ref=virg.morb._1
+9	περὶ	περί	r	r--------	_	13	AuxP	_	t_53|t_57|ref=virg.morb._1
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_54|t_55|ref=virg.morb._1
+11	ἀποπλήκτων	ἀπόπληκτος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ADV	_	t_55|t_53|ref=virg.morb._1
+12	,	,	u	u--------	_	49	AuxX	_	t_56|e_4|ref=virg.morb._1
+13	καὶ	καί	c	c--------	_	49	COORD	_	t_57|e_4|ref=virg.morb._1
+14	περὶ	περί	r	r--------	_	13	AuxP	_	t_58|t_57|ref=virg.morb._1
+15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_59|t_60|ref=virg.morb._1
+16	δειμάτων	δεῖμα	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ADV	_	t_60|t_58|ref=virg.morb._1
+17	,	,	u	u--------	_	49	AuxX	_	t_61|e_4|ref=virg.morb._1
+18	ὁκόσα	ὁπόσος	a	a-p---na-	Case=a|Gender=n|Number=p	19	OBJ	_	t_62|t_63|ref=virg.morb._1
+19	φοβεῦνται	φοβέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	16	ATR	_	t_63|t_60|ref=virg.morb._1
+20	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	21	ATR	_	t_64|t_65|ref=virg.morb._1
+21	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	19	SBJ	_	t_65|t_63|ref=virg.morb._1
+22	ἰσχυρῶς	ἰσχυρός	d	d--------	_	19	ADV	_	t_66|t_63|ref=virg.morb._1
+23	,	,	u	u--------	_	49	AuxX	_	t_67|e_4|ref=virg.morb._1
+24	ὥστε	ὥστε	c	c--------	_	22	AuxC	_	t_68|t_66|ref=virg.morb._1
+25	παραφρονέειν	παραφρονέω	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_69|t_70|ref=virg.morb._1
+26	καὶ	καί	c	c--------	_	24	COORD	_	t_70|t_68|ref=virg.morb._1
+27	ὁρῇν	ὁράω	v	v--pna---	Mood=n|Tense=p|Voice=a	28	ADV	_	t_71|t_72|ref=virg.morb._1
+28	δοκέειν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_72|t_70|ref=virg.morb._1
+29	δαίμονάς	δαίμων	n	n-p---ma-	Case=a|Gender=m|Number=p	28	SBJ	_	t_73|t_72|ref=virg.morb._1
+30	τινας	τις	a	a-p---ma-	Case=a|Number=p	29	ATR	_	t_74|t_73|ref=virg.morb._1
+31	ἐφ	ἐπί	r	r--------	_	34	AuxP	_	t_75|t_78|ref=virg.morb._1
+32	’	’	r	r--------	_	34	AuxP	_	t_76|t_78|ref=virg.morb._1
+33	ἑωυτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	32	ADV	_	t_77|t_76|ref=virg.morb._1
+34	δυσμενέας	δυσμενής	a	a-p---ma-	Case=a|Gender=m|Number=p	29	ATR	_	t_78|t_73|ref=virg.morb._1
+35	,	,	u	u--------	_	49	AuxX	_	t_79|e_4|ref=virg.morb._1
+36	ὁκότε	ὁκότε	d	d--------	_	50	AuxZ	_	t_80|e_5|ref=virg.morb._1
+37	μὲν	μέν	d	d--------	_	45	AuxY	_	t_81|t_89|ref=virg.morb._1
+38	νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	50	ADV	_	t_82|e_5|ref=virg.morb._1
+39	,	,	u	u--------	_	49	AuxX	_	t_83|e_4|ref=virg.morb._1
+40	ὁκότε	ὁκότε	d	d--------	_	50	ADV	_	t_84|e_5|ref=virg.morb._1
+41	δὲ	δέ	d	d--------	_	45	AuxY	_	t_85|t_89|ref=virg.morb._1
+42	ἡμέρῃς	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	50	ADV	_	t_86|e_5|ref=virg.morb._1
+43	,	,	u	u--------	_	49	AuxX	_	t_87|e_4|ref=virg.morb._1
+44	ὁκότε	ὁκότε	d	d--------	_	51	AuxZ	_	t_88|e_6|ref=virg.morb._1
+45	δὲ	δέ	c	c--------	_	28	COORD	_	t_89|t_72|ref=virg.morb._1
+46	ἀμφοτέρῃσι	ἀμφότερος	a	a-p---fd-	Case=d|Gender=f|Number=p	48	ATR	_	t_90|t_92|ref=virg.morb._1
+47	τῇσιν	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	48	ATR	_	t_91|t_92|ref=virg.morb._1
+48	ὥρῃσιν	ὥρα	n	n-p---fd-	Case=d|Gender=f|Number=p	51	ADV	_	t_92|e_6|ref=virg.morb._1
+49	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=virg.morb._1
+50	[1]	[1]	-	---------	_	45	ADV	_	e_5|t_89|ref=virg.morb._1
+51	[2]	[2]	-	---------	_	45	ADV	_	e_6|t_89|ref=virg.morb._1
+52	·	·	u	u--------	_	49	AuxK	_	t_93|e_4|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἔπειτα ἀπὸ τῆς τοιαύτης ὄψιος πολλοὶ ἤδη ἀπηγχονίσθησαν , πλέονες δὲ γυναῖκες ἢ ἄνδρες [0] ·
 # sent_id = 6
-1	ἔπειτα	ἔπειτα	d	d--------	_	11	AuxY	_	t_94|ref=De virginum morbis_1
-2	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_95|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_96|ref=De virginum morbis_1
-4	τοιαύτης	τοιοῦτος	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_97|ref=De virginum morbis_1
-5	ὄψιος	ὄψις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_98|ref=De virginum morbis_1
-6	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_99|ref=De virginum morbis_1
-7	ἤδη	ἤδη	d	d--------	_	8	ADV	_	t_100|ref=De virginum morbis_1
-8	ἀπηγχονίσθησαν	ἀπαγχονίζω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	11	PRED	_	t_101|ref=De virginum morbis_1
-9	,	,	u	u--------	_	0	AuxX	_	t_102|ref=De virginum morbis_1
-10	πλέονες	πλείων	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	15	SBJ	_	t_103|ref=De virginum morbis_1
-11	δὲ	δέ	c	c--------	_	9	COORD	_	t_104|ref=De virginum morbis_1
-12	γυναῖκες	γυνή	n	n-p---fn-	Case=n|Gender=f|Number=p	15	SBJ	_	t_105|ref=De virginum morbis_1
-13	ἢ	ἤ1	c	c--------	_	10	AuxC	_	t_106|ref=De virginum morbis_1
-14	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	13	ADV	_	t_107|ref=De virginum morbis_1
-15	[0]	[0]	-	---------	_	11	PRED	_	e_7|ref=De virginum morbis_1
-16	·	·	u	u--------	_	9	AuxK	_	t_108|ref=De virginum morbis_1
+1	ἔπειτα	ἔπειτα	d	d--------	_	11	AuxY	_	t_94|t_104|ref=virg.morb._1
+2	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_95|t_101|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_96|t_98|ref=virg.morb._1
+4	τοιαύτης	τοιοῦτος	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_97|t_98|ref=virg.morb._1
+5	ὄψιος	ὄψις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_98|t_95|ref=virg.morb._1
+6	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_99|t_101|ref=virg.morb._1
+7	ἤδη	ἤδη	d	d--------	_	8	ADV	_	t_100|t_101|ref=virg.morb._1
+8	ἀπηγχονίσθησαν	ἀπαγχονίζω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	11	PRED	_	t_101|t_104|ref=virg.morb._1
+9	,	,	u	u--------	_	0	AuxX	_	t_102|0|ref=virg.morb._1
+10	πλέονες	πλείων	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	15	SBJ	_	t_103|e_7|ref=virg.morb._1
+11	δὲ	δέ	c	c--------	_	9	COORD	_	t_104|t_102|ref=virg.morb._1
+12	γυναῖκες	γυνή	n	n-p---fn-	Case=n|Gender=f|Number=p	15	SBJ	_	t_105|e_7|ref=virg.morb._1
+13	ἢ	ἤ1	c	c--------	_	10	AuxC	_	t_106|t_103|ref=virg.morb._1
+14	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	13	ADV	_	t_107|t_106|ref=virg.morb._1
+15	[0]	[0]	-	---------	_	11	PRED	_	e_7|t_104|ref=virg.morb._1
+16	·	·	u	u--------	_	9	AuxK	_	t_108|t_102|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἀθυμοτέρη γὰρ καὶ ὀλιγωτέρη ἡ φύσις ἡ γυναικείη [0] .
 # sent_id = 7
-1	ἀθυμοτέρη	ἀθυμότερος	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	3	PNOM	_	t_109|ref=De virginum morbis_1
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_110|ref=De virginum morbis_1
-3	καὶ	καί	c	c--------	_	9	COORD	_	t_111|ref=De virginum morbis_1
-4	ὀλιγωτέρη	ὀλίγος	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	3	PNOM	_	t_112|ref=De virginum morbis_1
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_113|ref=De virginum morbis_1
-6	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_114|ref=De virginum morbis_1
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_115|ref=De virginum morbis_1
-8	γυναικείη	γυναικεῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_116|ref=De virginum morbis_1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=De virginum morbis_1
-10	.	.	u	u--------	_	9	AuxK	_	t_117|ref=De virginum morbis_1
+1	ἀθυμοτέρη	ἀθυμότερος	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	3	PNOM	_	t_109|t_111|ref=virg.morb._1
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_110|e_8|ref=virg.morb._1
+3	καὶ	καί	c	c--------	_	9	COORD	_	t_111|e_8|ref=virg.morb._1
+4	ὀλιγωτέρη	ὀλίγος	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	3	PNOM	_	t_112|t_111|ref=virg.morb._1
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_113|t_114|ref=virg.morb._1
+6	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_114|e_8|ref=virg.morb._1
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_115|t_114|ref=virg.morb._1
+8	γυναικείη	γυναικεῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_116|t_114|ref=virg.morb._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=virg.morb._1
+10	.	.	u	u--------	_	9	AuxK	_	t_117|e_8|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Αἱ δὲ παρθένοι , ὁκόσῃσιν ὥρη γάμου , παρανδρούμεναι , τοῦτο μᾶλλον πάσχουσιν ἅμα τῇ καθόδῳ τῶν ἐπιμηνίων , πρότερον οὐ μάλα ταῦτα κακοπαθέουσαι [0] ·
 # sent_id = 8
-1	Αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_118|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_119|ref=De virginum morbis_1
-3	παρθένοι	παρθένος	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_120|ref=De virginum morbis_1
-4	,	,	u	u--------	_	13	AuxX	_	t_121|ref=De virginum morbis_1
-5	ὁκόσῃσιν	ὁπόσος	a	a-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_122|ref=De virginum morbis_1
-6	ὥρη	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_123|ref=De virginum morbis_1
-7	γάμου	γάμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_124|ref=De virginum morbis_1
-8	,	,	u	u--------	_	13	AuxX	_	t_125|ref=De virginum morbis_1
-9	παρανδρούμεναι	παρανδρόω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	13	ADV	_	t_126|ref=De virginum morbis_1
-10	,	,	u	u--------	_	13	AuxX	_	t_127|ref=De virginum morbis_1
-11	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_128|ref=De virginum morbis_1
-12	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	13	ADV	_	t_129|ref=De virginum morbis_1
-13	πάσχουσιν	πάσχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_130|ref=De virginum morbis_1
-14	ἅμα	ἅμα	r	r--------	_	13	AuxP	_	t_131|ref=De virginum morbis_1
-15	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_132|ref=De virginum morbis_1
-16	καθόδῳ	κάθοδος	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_133|ref=De virginum morbis_1
-17	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_134|ref=De virginum morbis_1
-18	ἐπιμηνίων	ἐπιμήνιος	a	a-p---mg-	Case=g|Gender=f|Number=p	16	ATR	_	t_135|ref=De virginum morbis_1
-19	,	,	u	u--------	_	13	AuxX	_	t_136|ref=De virginum morbis_1
-20	πρότερον	πρότερος	d	d-------c	Degree=c	24	ADV	_	t_137|ref=De virginum morbis_1
-21	οὐ	οὐ	d	d--------	_	22	AuxZ	_	t_138|ref=De virginum morbis_1
-22	μάλα	μάλα	d	d--------	_	20	ADV	_	t_139|ref=De virginum morbis_1
-23	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_140|ref=De virginum morbis_1
-24	κακοπαθέουσαι	κακοπαθέω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_141|ref=De virginum morbis_1
-25	[0]	[0]	-	---------	_	9	ADV	_	e_9|ref=De virginum morbis_1
-26	·	·	u	u--------	_	13	AuxK	_	t_142|ref=De virginum morbis_1
+1	Αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_118|t_120|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_119|t_130|ref=virg.morb._1
+3	παρθένοι	παρθένος	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_120|t_130|ref=virg.morb._1
+4	,	,	u	u--------	_	13	AuxX	_	t_121|t_130|ref=virg.morb._1
+5	ὁκόσῃσιν	ὁπόσος	a	a-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_122|e_9|ref=virg.morb._1
+6	ὥρη	ὥρα	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_123|e_9|ref=virg.morb._1
+7	γάμου	γάμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_124|t_123|ref=virg.morb._1
+8	,	,	u	u--------	_	13	AuxX	_	t_125|t_130|ref=virg.morb._1
+9	παρανδρούμεναι	παρανδρόω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	13	ADV	_	t_126|t_130|ref=virg.morb._1
+10	,	,	u	u--------	_	13	AuxX	_	t_127|t_130|ref=virg.morb._1
+11	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_128|t_130|ref=virg.morb._1
+12	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	13	ADV	_	t_129|t_130|ref=virg.morb._1
+13	πάσχουσιν	πάσχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_130|0|ref=virg.morb._1
+14	ἅμα	ἅμα	r	r--------	_	13	AuxP	_	t_131|t_130|ref=virg.morb._1
+15	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_132|t_133|ref=virg.morb._1
+16	καθόδῳ	κάθοδος	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_133|t_131|ref=virg.morb._1
+17	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_134|t_135|ref=virg.morb._1
+18	ἐπιμηνίων	ἐπιμήνιος	a	a-p---mg-	Case=g|Gender=f|Number=p	16	ATR	_	t_135|t_133|ref=virg.morb._1
+19	,	,	u	u--------	_	13	AuxX	_	t_136|t_130|ref=virg.morb._1
+20	πρότερον	πρότερος	d	d-------c	Degree=c	24	ADV	_	t_137|t_141|ref=virg.morb._1
+21	οὐ	οὐ	d	d--------	_	22	AuxZ	_	t_138|t_139|ref=virg.morb._1
+22	μάλα	μάλα	d	d--------	_	20	ADV	_	t_139|t_137|ref=virg.morb._1
+23	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	24	OBJ	_	t_140|t_141|ref=virg.morb._1
+24	κακοπαθέουσαι	κακοπαθέω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_141|t_130|ref=virg.morb._1
+25	[0]	[0]	-	---------	_	9	ADV	_	e_9|t_126|ref=virg.morb._1
+26	·	·	u	u--------	_	13	AuxK	_	t_142|t_130|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ὕστερον γὰρ τὸ αἷμα ξυλλείβεται ἐς τὰς μήτρας , ὡς ἀποῤῥευσόμενον ·
 # sent_id = 9
-1	ὕστερον	ὕστερος	d	d-------c	Case=a|Gender=n|Number=s	5	ADV	_	t_143|ref=De virginum morbis_1
-2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_144|ref=De virginum morbis_1
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_145|ref=De virginum morbis_1
-4	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_146|ref=De virginum morbis_1
-5	ξυλλείβεται	συλλαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_147|ref=De virginum morbis_1
-6	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_148|ref=De virginum morbis_1
-7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_149|ref=De virginum morbis_1
-8	μήτρας	μήτρα	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_150|ref=De virginum morbis_1
-9	,	,	u	u--------	_	5	AuxX	_	t_151|ref=De virginum morbis_1
-10	ὡς	ὡς	c	c--------	_	5	AuxC	_	t_152|ref=De virginum morbis_1
-11	ἀποῤῥευσόμενον	ἀπορρέω	v	v-sfpmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=m	10	ADV	_	t_153|ref=De virginum morbis_1
-12	·	·	u	u--------	_	5	AuxK	_	t_154|ref=De virginum morbis_1
+1	ὕστερον	ὕστερος	d	d-------c	Case=a|Gender=n|Number=s	5	ADV	_	t_143|t_147|ref=virg.morb._1
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_144|t_147|ref=virg.morb._1
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_145|t_146|ref=virg.morb._1
+4	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_146|t_147|ref=virg.morb._1
+5	ξυλλείβεται	συλλαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_147|0|ref=virg.morb._1
+6	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_148|t_147|ref=virg.morb._1
+7	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_149|t_150|ref=virg.morb._1
+8	μήτρας	μήτρα	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_150|t_148|ref=virg.morb._1
+9	,	,	u	u--------	_	5	AuxX	_	t_151|t_147|ref=virg.morb._1
+10	ὡς	ὡς	c	c--------	_	5	AuxC	_	t_152|t_147|ref=virg.morb._1
+11	ἀποῤῥευσόμενον	ἀπορρέω	v	v-sfpmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=m	10	ADV	_	t_153|t_152|ref=virg.morb._1
+12	·	·	u	u--------	_	5	AuxK	_	t_154|t_147|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ὁκόταν οὖν τὸ στόμα τῆς ἐξόδου μὴ ᾖ ἀνεστομωμένον , τὸ δὲ αἷμα πλέον ἐπιῤῥέῃ διά τε τὰ σιτία καὶ τὴν αὔξησιν τοῦ σώματος , τηνικαῦτα οὐκ ἔχον τὸ αἷμα ἔκρουν ἀναΐσσει ὑπὸ πλήθεος ἐς τὴν καρδίην καὶ ἐς τὴν διάφραξιν ·
 # sent_id = 10
-1	ὁκόταν	ὁπόταν	c	c--------	_	32	AuxC	_	t_155|ref=De virginum morbis_1
-2	οὖν	οὖν	d	d--------	_	32	AuxY	_	t_156|ref=De virginum morbis_1
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_157|ref=De virginum morbis_1
-4	στόμα	στόμα	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_158|ref=De virginum morbis_1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_159|ref=De virginum morbis_1
-6	ἐξόδου	ἔξοδος1	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_160|ref=De virginum morbis_1
-7	μὴ	μή	d	d--------	_	9	AuxZ	_	t_161|ref=De virginum morbis_1
-8	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_162|ref=De virginum morbis_1
-9	ἀνεστομωμένον	ἀναστομάω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	8	PNOM	_	t_163|ref=De virginum morbis_1
-10	,	,	u	u--------	_	32	AuxX	_	t_164|ref=De virginum morbis_1
-11	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_165|ref=De virginum morbis_1
-12	δὲ	δέ	d	d--------	_	1	COORD	_	t_166|ref=De virginum morbis_1
-13	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_167|ref=De virginum morbis_1
-14	πλέον	πλέος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_168|ref=De virginum morbis_1
-15	ἐπιῤῥέῃ	ἐπιρρέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_169|ref=De virginum morbis_1
-16	διά	διά	r	r--------	_	15	AuxP	_	t_170|ref=De virginum morbis_1
-17	τε	τε	c	c--------	_	20	AuxY	_	t_171|ref=De virginum morbis_1
-18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_172|ref=De virginum morbis_1
-19	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	20	ADV	_	t_173|ref=De virginum morbis_1
-20	καὶ	καί	c	c--------	_	16	COORD	_	t_174|ref=De virginum morbis_1
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_175|ref=De virginum morbis_1
-22	αὔξησιν	αὔξησις	n	n-s---fa-	Case=a|Gender=f|Number=s	20	ADV	_	t_176|ref=De virginum morbis_1
-23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_177|ref=De virginum morbis_1
-24	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_178|ref=De virginum morbis_1
-25	,	,	u	u--------	_	32	AuxX	_	t_179|ref=De virginum morbis_1
-26	τηνικαῦτα	τηνικαῦτα	d	d--------	_	32	ADV	_	t_180|ref=De virginum morbis_1
-27	οὐκ	οὐ	d	d--------	_	28	AuxZ	_	t_181|ref=De virginum morbis_1
-28	ἔχον	ἔχω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	32	ADV	_	t_182|ref=De virginum morbis_1
-29	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	ATR	_	t_183|ref=De virginum morbis_1
-30	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_184|ref=De virginum morbis_1
-31	ἔκρουν	κρούω	v	v-sppann-	Mood=i|Number=p|Person=3|Tense=i|Voice=a	30	ATR	_	t_185|ref=De virginum morbis_1
-32	ἀναΐσσει	ἀναίσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_186|ref=De virginum morbis_1
-33	ὑπὸ	ὑπό	r	r--------	_	32	AuxP	_	t_187|ref=De virginum morbis_1
-34	πλήθεος	πλῆθος	n	n-s---ng-	Case=g|Gender=n|Number=s	33	ADV	_	t_188|ref=De virginum morbis_1
-35	ἐς	εἰς	r	r--------	_	38	AuxP	_	t_189|ref=De virginum morbis_1
-36	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	37	ATR	_	t_190|ref=De virginum morbis_1
-37	καρδίην	καρδίη	n	n-s---fa-	Case=a|Gender=f|Number=s	35	ADV	_	t_191|ref=De virginum morbis_1
-38	καὶ	καί	c	c--------	_	32	COORD	_	t_192|ref=De virginum morbis_1
-39	ἐς	εἰς	r	r--------	_	38	AuxP	_	t_193|ref=De virginum morbis_1
-40	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	41	ATR	_	t_194|ref=De virginum morbis_1
-41	διάφραξιν	διάφραξις	n	n-s---fa-	Case=a|Gender=f|Number=s	39	ADV	_	t_195|ref=De virginum morbis_1
-42	·	·	u	u--------	_	32	AuxK	_	t_196|ref=De virginum morbis_1
+1	ὁκόταν	ὁπόταν	c	c--------	_	32	AuxC	_	t_155|t_186|ref=virg.morb._1
+2	οὖν	οὖν	d	d--------	_	32	AuxY	_	t_156|t_186|ref=virg.morb._1
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_157|t_158|ref=virg.morb._1
+4	στόμα	στόμα	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_158|t_162|ref=virg.morb._1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_159|t_160|ref=virg.morb._1
+6	ἐξόδου	ἔξοδος1	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_160|t_158|ref=virg.morb._1
+7	μὴ	μή	d	d--------	_	9	AuxZ	_	t_161|t_163|ref=virg.morb._1
+8	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_162|t_166|ref=virg.morb._1
+9	ἀνεστομωμένον	ἀναστομάω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	8	PNOM	_	t_163|t_162|ref=virg.morb._1
+10	,	,	u	u--------	_	32	AuxX	_	t_164|t_186|ref=virg.morb._1
+11	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_165|t_167|ref=virg.morb._1
+12	δὲ	δέ	d	d--------	_	1	COORD	_	t_166|t_155|ref=virg.morb._1
+13	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_167|t_169|ref=virg.morb._1
+14	πλέον	πλέος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_168|t_167|ref=virg.morb._1
+15	ἐπιῤῥέῃ	ἐπιρρέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_169|t_166|ref=virg.morb._1
+16	διά	διά	r	r--------	_	15	AuxP	_	t_170|t_169|ref=virg.morb._1
+17	τε	τε	c	c--------	_	20	AuxY	_	t_171|t_174|ref=virg.morb._1
+18	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	19	ATR	_	t_172|t_173|ref=virg.morb._1
+19	σιτία	σιτίον	n	n-p---na-	Case=a|Gender=n|Number=p	20	ADV	_	t_173|t_174|ref=virg.morb._1
+20	καὶ	καί	c	c--------	_	16	COORD	_	t_174|t_170|ref=virg.morb._1
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_175|t_176|ref=virg.morb._1
+22	αὔξησιν	αὔξησις	n	n-s---fa-	Case=a|Gender=f|Number=s	20	ADV	_	t_176|t_174|ref=virg.morb._1
+23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_177|t_178|ref=virg.morb._1
+24	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_178|t_176|ref=virg.morb._1
+25	,	,	u	u--------	_	32	AuxX	_	t_179|t_186|ref=virg.morb._1
+26	τηνικαῦτα	τηνικαῦτα	d	d--------	_	32	ADV	_	t_180|t_186|ref=virg.morb._1
+27	οὐκ	οὐ	d	d--------	_	28	AuxZ	_	t_181|t_182|ref=virg.morb._1
+28	ἔχον	ἔχω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	32	ADV	_	t_182|t_186|ref=virg.morb._1
+29	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	ATR	_	t_183|t_184|ref=virg.morb._1
+30	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_184|t_182|ref=virg.morb._1
+31	ἔκρουν	κρούω	v	v-sppann-	Mood=i|Number=p|Person=3|Tense=i|Voice=a	30	ATR	_	t_185|t_184|ref=virg.morb._1
+32	ἀναΐσσει	ἀναίσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_186|0|ref=virg.morb._1
+33	ὑπὸ	ὑπό	r	r--------	_	32	AuxP	_	t_187|t_186|ref=virg.morb._1
+34	πλήθεος	πλῆθος	n	n-s---ng-	Case=g|Gender=n|Number=s	33	ADV	_	t_188|t_187|ref=virg.morb._1
+35	ἐς	εἰς	r	r--------	_	38	AuxP	_	t_189|t_192|ref=virg.morb._1
+36	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	37	ATR	_	t_190|t_191|ref=virg.morb._1
+37	καρδίην	καρδίη	n	n-s---fa-	Case=a|Gender=f|Number=s	35	ADV	_	t_191|t_189|ref=virg.morb._1
+38	καὶ	καί	c	c--------	_	32	COORD	_	t_192|t_186|ref=virg.morb._1
+39	ἐς	εἰς	r	r--------	_	38	AuxP	_	t_193|t_192|ref=virg.morb._1
+40	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	41	ATR	_	t_194|t_195|ref=virg.morb._1
+41	διάφραξιν	διάφραξις	n	n-s---fa-	Case=a|Gender=f|Number=s	39	ADV	_	t_195|t_193|ref=virg.morb._1
+42	·	·	u	u--------	_	32	AuxK	_	t_196|t_186|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ὁκόταν οὖν ταῦτα πληρωθέωσιν , ἐμωρώθη ἡ καρδίη ·
 # sent_id = 11
-1	ὁκόταν	ὁπόταν	c	c--------	_	6	AuxC	_	t_197|ref=De virginum morbis_1
-2	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_198|ref=De virginum morbis_1
-3	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_199|ref=De virginum morbis_1
-4	πληρωθέωσιν	πληρόω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	1	ADV	_	t_200|ref=De virginum morbis_1
-5	,	,	u	u--------	_	6	AuxX	_	t_201|ref=De virginum morbis_1
-6	ἐμωρώθη	πηρόω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_202|ref=De virginum morbis_1
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_203|ref=De virginum morbis_1
-8	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_204|ref=De virginum morbis_1
-9	·	·	u	u--------	_	6	AuxK	_	t_205|ref=De virginum morbis_1
+1	ὁκόταν	ὁπόταν	c	c--------	_	6	AuxC	_	t_197|t_202|ref=virg.morb._1
+2	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_198|t_202|ref=virg.morb._1
+3	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_199|t_200|ref=virg.morb._1
+4	πληρωθέωσιν	πληρόω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	1	ADV	_	t_200|t_197|ref=virg.morb._1
+5	,	,	u	u--------	_	6	AuxX	_	t_201|t_202|ref=virg.morb._1
+6	ἐμωρώθη	πηρόω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_202|0|ref=virg.morb._1
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_203|t_204|ref=virg.morb._1
+8	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_204|t_202|ref=virg.morb._1
+9	·	·	u	u--------	_	6	AuxK	_	t_205|t_202|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = εἶτα ἐκ τῆς μωρώσιος νάρκη [0] ·
 # sent_id = 12
-1	εἶτα	εἶτα	d	d--------	_	6	AuxY	_	t_206|ref=De virginum morbis_1
-2	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_207|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_208|ref=De virginum morbis_1
-4	μωρώσιος	μωρώσιος	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_209|ref=De virginum morbis_1
-5	νάρκη	νάρκη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_210|ref=De virginum morbis_1
-6	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=De virginum morbis_1
-7	·	·	u	u--------	_	6	AuxK	_	t_211|ref=De virginum morbis_1
+1	εἶτα	εἶτα	d	d--------	_	6	AuxY	_	t_206|e_10|ref=virg.morb._1
+2	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_207|e_10|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_208|t_207|ref=virg.morb._1
+4	μωρώσιος	μωρώσιος	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_209|t_210|ref=virg.morb._1
+5	νάρκη	νάρκη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_210|e_10|ref=virg.morb._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=virg.morb._1
+7	·	·	u	u--------	_	6	AuxK	_	t_211|e_10|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = εἶτʼ ἐκ τῆς νάρκης παράνοια ἔλαβεν .
 # sent_id = 13
-1	εἶτʼ	εἶτα	d	d--------	_	6	AuxY	_	t_212|ref=De virginum morbis_1
-2	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_213|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_214|ref=De virginum morbis_1
-4	νάρκης	νάρκη	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_215|ref=De virginum morbis_1
-5	παράνοια	παράνοια	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_216|ref=De virginum morbis_1
-6	ἔλαβεν	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_217|ref=De virginum morbis_1
-7	.	.	u	u--------	_	6	AuxK	_	t_218|ref=De virginum morbis_1
+1	εἶτʼ	εἶτα	d	d--------	_	6	AuxY	_	t_212|t_217|ref=virg.morb._1
+2	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_213|t_217|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_214|t_215|ref=virg.morb._1
+4	νάρκης	νάρκη	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_215|t_213|ref=virg.morb._1
+5	παράνοια	παράνοια	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_216|t_217|ref=virg.morb._1
+6	ἔλαβεν	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_217|0|ref=virg.morb._1
+7	.	.	u	u--------	_	6	AuxK	_	t_218|t_217|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Ὥσπερ ὁκόταν καθημένου πουλὺν χρόνον τὸ ἐκ τῶν ἰσχίων καὶ μηρῶν αἷμα ἀποπιεχθὲν ἐς τὰς κνήμας καὶ τοὺς πόδας νάρκην παράσχῃ [0] ·
 # sent_id = 14
-1	Ὥσπερ	ὥσπερ	c	c--------	_	22	AuxC	_	t_219|ref=De virginum morbis_1
-2	ὁκόταν	ὁπόταν	d	d--------	_	21	ADV	_	t_220|ref=De virginum morbis_1
-3	καθημένου	κάθημαι	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_221|ref=De virginum morbis_1
-4	πουλὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_222|ref=De virginum morbis_1
-5	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_223|ref=De virginum morbis_1
-6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_224|ref=De virginum morbis_1
-7	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_225|ref=De virginum morbis_1
-8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_226|ref=De virginum morbis_1
-9	ἰσχίων	ἴσχιον	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_227|ref=De virginum morbis_1
-10	καὶ	καί	c	c--------	_	7	COORD	_	t_228|ref=De virginum morbis_1
-11	μηρῶν	μηρός	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_229|ref=De virginum morbis_1
-12	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_230|ref=De virginum morbis_1
-13	ἀποπιεχθὲν	ἀποπιέσσω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	21	ADV	_	t_231|ref=De virginum morbis_1
-14	ἐς	εἰς	r	r--------	_	13	AuxP	_	t_232|ref=De virginum morbis_1
-15	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_233|ref=De virginum morbis_1
-16	κνήμας	κνήμη	n	n-p---fa-	Case=a|Gender=f|Number=p	17	OBJ	_	t_234|ref=De virginum morbis_1
-17	καὶ	καί	c	c--------	_	14	COORD	_	t_235|ref=De virginum morbis_1
-18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_236|ref=De virginum morbis_1
-19	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_237|ref=De virginum morbis_1
-20	νάρκην	νάρκη	n	n-s---fa-	Case=a|Gender=f|Number=s	21	OBJ	_	t_238|ref=De virginum morbis_1
-21	παράσχῃ	παρέχω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_239|ref=De virginum morbis_1
-22	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=De virginum morbis_1
-23	·	·	u	u--------	_	22	AuxK	_	t_240|ref=De virginum morbis_1
+1	Ὥσπερ	ὥσπερ	c	c--------	_	22	AuxC	_	t_219|e_11|ref=virg.morb._1
+2	ὁκόταν	ὁπόταν	d	d--------	_	21	ADV	_	t_220|t_239|ref=virg.morb._1
+3	καθημένου	κάθημαι	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_221|t_239|ref=virg.morb._1
+4	πουλὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_222|t_223|ref=virg.morb._1
+5	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_223|t_221|ref=virg.morb._1
+6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	12	ATR	_	t_224|t_230|ref=virg.morb._1
+7	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_225|t_230|ref=virg.morb._1
+8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_226|t_227|ref=virg.morb._1
+9	ἰσχίων	ἴσχιον	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_227|t_228|ref=virg.morb._1
+10	καὶ	καί	c	c--------	_	7	COORD	_	t_228|t_225|ref=virg.morb._1
+11	μηρῶν	μηρός	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_229|t_228|ref=virg.morb._1
+12	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_230|t_239|ref=virg.morb._1
+13	ἀποπιεχθὲν	ἀποπιέσσω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	21	ADV	_	t_231|t_239|ref=virg.morb._1
+14	ἐς	εἰς	r	r--------	_	13	AuxP	_	t_232|t_231|ref=virg.morb._1
+15	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_233|t_234|ref=virg.morb._1
+16	κνήμας	κνήμη	n	n-p---fa-	Case=a|Gender=f|Number=p	17	OBJ	_	t_234|t_235|ref=virg.morb._1
+17	καὶ	καί	c	c--------	_	14	COORD	_	t_235|t_232|ref=virg.morb._1
+18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_236|t_237|ref=virg.morb._1
+19	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_237|t_235|ref=virg.morb._1
+20	νάρκην	νάρκη	n	n-s---fa-	Case=a|Gender=f|Number=s	21	OBJ	_	t_238|t_239|ref=virg.morb._1
+21	παράσχῃ	παρέχω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_239|t_219|ref=virg.morb._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=virg.morb._1
+23	·	·	u	u--------	_	22	AuxK	_	t_240|e_11|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ὑπὸ δὲ τῆς νάρκης ἀκρατέες οἱ πόδες ἐς ὁδοιπορίην γίνονται , ἔστʼ ἂν ἀναχωρήσῃ τὸ αἷμα ἐς ἑωυτό ·
 # sent_id = 15
-1	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_241|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_242|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_243|ref=De virginum morbis_1
-4	νάρκης	νάρκη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	OBJ	_	t_244|ref=De virginum morbis_1
-5	ἀκρατέες	ἀκρατής	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_245|ref=De virginum morbis_1
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_246|ref=De virginum morbis_1
-7	πόδες	πούς	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_247|ref=De virginum morbis_1
-8	ἐς	εἰς	r	r--------	_	10	AuxP	_	t_248|ref=De virginum morbis_1
-9	ὁδοιπορίην	ὁδοιπορία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_249|ref=De virginum morbis_1
-10	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_250|ref=De virginum morbis_1
-11	,	,	u	u--------	_	10	AuxX	_	t_251|ref=De virginum morbis_1
-12	ἔστʼ	εἰμί	c	c--------	_	10	AuxC	_	t_252|ref=De virginum morbis_1
-13	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_253|ref=De virginum morbis_1
-14	ἀναχωρήσῃ	ἀναχωρέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	12	ADV	_	t_254|ref=De virginum morbis_1
-15	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	ATR	_	t_255|ref=De virginum morbis_1
-16	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_256|ref=De virginum morbis_1
-17	ἐς	εἰς	r	r--------	_	14	AuxP	_	t_257|ref=De virginum morbis_1
-18	ἑωυτό	ἑαυτοῦ	p	p-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_258|ref=De virginum morbis_1
-19	·	·	u	u--------	_	10	AuxK	_	t_259|ref=De virginum morbis_1
+1	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_241|t_250|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_242|t_250|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_243|t_244|ref=virg.morb._1
+4	νάρκης	νάρκη	n	n-s---fg-	Case=g|Gender=f|Number=s	1	OBJ	_	t_244|t_241|ref=virg.morb._1
+5	ἀκρατέες	ἀκρατής	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_245|t_250|ref=virg.morb._1
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_246|t_247|ref=virg.morb._1
+7	πόδες	πούς	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_247|t_250|ref=virg.morb._1
+8	ἐς	εἰς	r	r--------	_	10	AuxP	_	t_248|t_250|ref=virg.morb._1
+9	ὁδοιπορίην	ὁδοιπορία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_249|t_248|ref=virg.morb._1
+10	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_250|0|ref=virg.morb._1
+11	,	,	u	u--------	_	10	AuxX	_	t_251|t_250|ref=virg.morb._1
+12	ἔστʼ	εἰμί	c	c--------	_	10	AuxC	_	t_252|t_250|ref=virg.morb._1
+13	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_253|t_254|ref=virg.morb._1
+14	ἀναχωρήσῃ	ἀναχωρέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	12	ADV	_	t_254|t_252|ref=virg.morb._1
+15	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	ATR	_	t_255|t_256|ref=virg.morb._1
+16	αἷμα	αἷμα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_256|t_254|ref=virg.morb._1
+17	ἐς	εἰς	r	r--------	_	14	AuxP	_	t_257|t_254|ref=virg.morb._1
+18	ἑωυτό	ἑαυτοῦ	p	p-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_258|t_257|ref=virg.morb._1
+19	·	·	u	u--------	_	10	AuxK	_	t_259|t_250|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἀναχωρέει δὲ τάχιστα , ὁκόταν ἀναστὰς ἐν ὕδατι ψυχρῷ τέγγῃ τὸ ἄνω τῶν σφυρῶν .
 # sent_id = 16
-1	ἀναχωρέει	ἀναχωρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_260|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_261|ref=De virginum morbis_1
-3	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	ADV	_	t_262|ref=De virginum morbis_1
-4	,	,	u	u--------	_	1	AuxX	_	t_263|ref=De virginum morbis_1
-5	ὁκόταν	ὁπόταν	c	c--------	_	1	AuxC	_	t_264|ref=De virginum morbis_1
-6	ἀναστὰς	ἀνίστημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_265|ref=De virginum morbis_1
-7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_266|ref=De virginum morbis_1
-8	ὕδατι	ὕδωρ	n	n-s---nd-	Case=d|Gender=n|Number=s	7	ADV	_	t_267|ref=De virginum morbis_1
-9	ψυχρῷ	ψυχρός	a	a-s---nd-	Case=d|Gender=n|Number=s	8	ATR	_	t_268|ref=De virginum morbis_1
-10	τέγγῃ	τέγγω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_269|ref=De virginum morbis_1
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_270|ref=De virginum morbis_1
-12	ἄνω	ἄνω	d	d--------	_	10	OBJ	_	t_271|ref=De virginum morbis_1
-13	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	14	ATR	_	t_272|ref=De virginum morbis_1
-14	σφυρῶν	σφυρόν	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_273|ref=De virginum morbis_1
-15	.	.	u	u--------	_	1	AuxK	_	t_274|ref=De virginum morbis_1
+1	ἀναχωρέει	ἀναχωρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_260|0|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_261|t_260|ref=virg.morb._1
+3	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	ADV	_	t_262|t_260|ref=virg.morb._1
+4	,	,	u	u--------	_	1	AuxX	_	t_263|t_260|ref=virg.morb._1
+5	ὁκόταν	ὁπόταν	c	c--------	_	1	AuxC	_	t_264|t_260|ref=virg.morb._1
+6	ἀναστὰς	ἀνίστημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_265|t_269|ref=virg.morb._1
+7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_266|t_265|ref=virg.morb._1
+8	ὕδατι	ὕδωρ	n	n-s---nd-	Case=d|Gender=n|Number=s	7	ADV	_	t_267|t_266|ref=virg.morb._1
+9	ψυχρῷ	ψυχρός	a	a-s---nd-	Case=d|Gender=n|Number=s	8	ATR	_	t_268|t_267|ref=virg.morb._1
+10	τέγγῃ	τέγγω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_269|t_264|ref=virg.morb._1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_270|t_271|ref=virg.morb._1
+12	ἄνω	ἄνω	d	d--------	_	10	OBJ	_	t_271|t_269|ref=virg.morb._1
+13	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	14	ATR	_	t_272|t_273|ref=virg.morb._1
+14	σφυρῶν	σφυρόν	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_273|t_271|ref=virg.morb._1
+15	.	.	u	u--------	_	1	AuxK	_	t_274|t_260|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Αὕτη μὲν οὖν ἡ νάρκη εὐήνιος , ταχὺ γὰρ παλιῤῥοεῖ διὰ τὴν ἰθύτητα τῶν φλεβῶν , καὶ ὁ τόπος τοῦ σώματος οὐκ ἐπίκαιρος [0] ·
 # sent_id = 17
-1	Αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_275|ref=De virginum morbis_1
-2	μὲν	μέν	d	d--------	_	17	AuxY	_	t_276|ref=De virginum morbis_1
-3	οὖν	οὖν	d	d--------	_	17	AuxY	_	t_277|ref=De virginum morbis_1
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_278|ref=De virginum morbis_1
-5	νάρκη	νάρκη	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_279|ref=De virginum morbis_1
-6	εὐήνιος	εὐήνιος	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_280|ref=De virginum morbis_1
-7	,	,	u	u--------	_	10	AuxX	_	t_281|ref=De virginum morbis_1
-8	ταχὺ	ταχύς	d	d--------	Case=a|Gender=n|Number=s	10	ADV	_	t_282|ref=De virginum morbis_1
-9	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_283|ref=De virginum morbis_1
-10	παλιῤῥοεῖ	παλιῤῥοέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	24	ExD	_	t_284|ref=De virginum morbis_1
-11	διὰ	διά	r	r--------	_	10	AuxP	_	t_285|ref=De virginum morbis_1
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_286|ref=De virginum morbis_1
-13	ἰθύτητα	ἰθύτης	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_287|ref=De virginum morbis_1
-14	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_288|ref=De virginum morbis_1
-15	φλεβῶν	φλέψ	n	n-p---fg-	Case=g|Gender=n|Number=p	13	ATR	_	t_289|ref=De virginum morbis_1
-16	,	,	u	u--------	_	10	AuxX	_	t_290|ref=De virginum morbis_1
-17	καὶ	καί	c	c--------	_	0	COORD	_	t_291|ref=De virginum morbis_1
-18	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	ATR	_	t_292|ref=De virginum morbis_1
-19	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_293|ref=De virginum morbis_1
-20	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	21	ATR	_	t_294|ref=De virginum morbis_1
-21	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_295|ref=De virginum morbis_1
-22	οὐκ	οὐ	d	d--------	_	23	AuxZ	_	t_296|ref=De virginum morbis_1
-23	ἐπίκαιρος	ἐπίκαιρος	a	a-s---mn-	Case=n|Gender=m|Number=s	24	PNOM	_	t_297|ref=De virginum morbis_1
-24	[0]	[0]	-	---------	_	17	PRED	_	e_12|ref=De virginum morbis_1
-25	·	·	u	u--------	_	17	AuxK	_	t_298|ref=De virginum morbis_1
+1	Αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_275|t_279|ref=virg.morb._1
+2	μὲν	μέν	d	d--------	_	17	AuxY	_	t_276|t_291|ref=virg.morb._1
+3	οὖν	οὖν	d	d--------	_	17	AuxY	_	t_277|t_291|ref=virg.morb._1
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_278|t_279|ref=virg.morb._1
+5	νάρκη	νάρκη	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_279|e_12|ref=virg.morb._1
+6	εὐήνιος	εὐήνιος	a	a-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_280|e_12|ref=virg.morb._1
+7	,	,	u	u--------	_	10	AuxX	_	t_281|t_284|ref=virg.morb._1
+8	ταχὺ	ταχύς	d	d--------	Case=a|Gender=n|Number=s	10	ADV	_	t_282|t_284|ref=virg.morb._1
+9	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_283|t_284|ref=virg.morb._1
+10	παλιῤῥοεῖ	παλιῤῥοέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	24	ExD	_	t_284|e_12|ref=virg.morb._1
+11	διὰ	διά	r	r--------	_	10	AuxP	_	t_285|t_284|ref=virg.morb._1
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_286|t_287|ref=virg.morb._1
+13	ἰθύτητα	ἰθύτης	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_287|t_285|ref=virg.morb._1
+14	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_288|t_289|ref=virg.morb._1
+15	φλεβῶν	φλέψ	n	n-p---fg-	Case=g|Gender=n|Number=p	13	ATR	_	t_289|t_287|ref=virg.morb._1
+16	,	,	u	u--------	_	10	AuxX	_	t_290|t_284|ref=virg.morb._1
+17	καὶ	καί	c	c--------	_	0	COORD	_	t_291|0|ref=virg.morb._1
+18	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	ATR	_	t_292|t_293|ref=virg.morb._1
+19	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_293|e_12|ref=virg.morb._1
+20	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	21	ATR	_	t_294|t_295|ref=virg.morb._1
+21	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_295|t_293|ref=virg.morb._1
+22	οὐκ	οὐ	d	d--------	_	23	AuxZ	_	t_296|t_297|ref=virg.morb._1
+23	ἐπίκαιρος	ἐπίκαιρος	a	a-s---mn-	Case=n|Gender=m|Number=s	24	PNOM	_	t_297|e_12|ref=virg.morb._1
+24	[0]	[0]	-	---------	_	17	PRED	_	e_12|t_291|ref=virg.morb._1
+25	·	·	u	u--------	_	17	AuxK	_	t_298|t_291|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἐκ δὲ τῆς καρδίης καὶ τῶν φρενῶν βραδέως παλιῤῥοεῖ ·
 # sent_id = 18
-1	ἐκ	ἐκ	r	r--------	_	9	AuxP	_	t_299|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_300|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_301|ref=De virginum morbis_1
-4	καρδίης	καρδίη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_302|ref=De virginum morbis_1
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_303|ref=De virginum morbis_1
-6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_304|ref=De virginum morbis_1
-7	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_305|ref=De virginum morbis_1
-8	βραδέως	βραδύς	d	d--------	_	9	ADV	_	t_306|ref=De virginum morbis_1
-9	παλιῤῥοεῖ	παλιῤῥοέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_307|ref=De virginum morbis_1
-10	·	·	u	u--------	_	9	AuxK	_	t_308|ref=De virginum morbis_1
+1	ἐκ	ἐκ	r	r--------	_	9	AuxP	_	t_299|t_307|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_300|t_307|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_301|t_302|ref=virg.morb._1
+4	καρδίης	καρδίη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_302|t_303|ref=virg.morb._1
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_303|t_299|ref=virg.morb._1
+6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_304|t_305|ref=virg.morb._1
+7	φρενῶν	φρήν	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_305|t_303|ref=virg.morb._1
+8	βραδέως	βραδύς	d	d--------	_	9	ADV	_	t_306|t_307|ref=virg.morb._1
+9	παλιῤῥοεῖ	παλιῤῥοέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_307|0|ref=virg.morb._1
+10	·	·	u	u--------	_	9	AuxK	_	t_308|t_307|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἐπικάρσιαι γὰρ αἱ φλέβες καὶ ὁ τόπος ἐπίκαιρος ἔς τε παραφροσύνην καὶ μανίην ἕτοιμος [0] .
 # sent_id = 19
-1	ἐπικάρσιαι	ἐπικάρσιος	a	a-p---fn-	Case=n|Gender=f|Number=p	15	PNOM	_	t_309|ref=De virginum morbis_1
-2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_310|ref=De virginum morbis_1
-3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_311|ref=De virginum morbis_1
-4	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	15	SBJ	_	t_312|ref=De virginum morbis_1
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_313|ref=De virginum morbis_1
-6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_314|ref=De virginum morbis_1
-7	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_315|ref=De virginum morbis_1
-8	ἐπίκαιρος	ἐπίκαιρος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_316|ref=De virginum morbis_1
-9	ἔς	εἰς	r	r--------	_	14	AuxP	_	t_317|ref=De virginum morbis_1
-10	τε	τε	g	g--------	_	5	AuxY	_	t_318|ref=De virginum morbis_1
-11	παραφροσύνην	παραφροσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_319|ref=De virginum morbis_1
-12	καὶ	καί	c	c--------	_	9	COORD	_	t_320|ref=De virginum morbis_1
-13	μανίην	μανία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_321|ref=De virginum morbis_1
-14	ἕτοιμος	ἑτοῖμος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_322|ref=De virginum morbis_1
-15	[0]	[0]	-	---------	_	5	PRED	_	e_13|ref=De virginum morbis_1
-16	.	.	u	u--------	_	5	AuxK	_	t_323|ref=De virginum morbis_1
+1	ἐπικάρσιαι	ἐπικάρσιος	a	a-p---fn-	Case=n|Gender=f|Number=p	15	PNOM	_	t_309|e_13|ref=virg.morb._1
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_310|t_313|ref=virg.morb._1
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_311|t_312|ref=virg.morb._1
+4	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	15	SBJ	_	t_312|e_13|ref=virg.morb._1
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_313|0|ref=virg.morb._1
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_314|t_315|ref=virg.morb._1
+7	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_315|e_13|ref=virg.morb._1
+8	ἐπίκαιρος	ἐπίκαιρος	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_316|e_13|ref=virg.morb._1
+9	ἔς	εἰς	r	r--------	_	14	AuxP	_	t_317|t_322|ref=virg.morb._1
+10	τε	τε	g	g--------	_	5	AuxY	_	t_318|t_313|ref=virg.morb._1
+11	παραφροσύνην	παραφροσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_319|t_320|ref=virg.morb._1
+12	καὶ	καί	c	c--------	_	9	COORD	_	t_320|t_317|ref=virg.morb._1
+13	μανίην	μανία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_321|t_320|ref=virg.morb._1
+14	ἕτοιμος	ἑτοῖμος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_322|t_318|ref=virg.morb._1
+15	[0]	[0]	-	---------	_	5	PRED	_	e_13|t_313|ref=virg.morb._1
+16	.	.	u	u--------	_	5	AuxK	_	t_323|t_313|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Ὁκόταν δὲ πληρωθέωσι ταῦτα τὰ μέρεα , καὶ φρίκη ξὺν πυρετῷ ἀναΐσσει ·
 # sent_id = 20
-1	Ὁκόταν	ὁπόταν	c	c--------	_	12	AuxC	_	t_324|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_325|ref=De virginum morbis_1
-3	πληρωθέωσι	πληρόω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	1	ADV	_	t_326|ref=De virginum morbis_1
-4	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_327|ref=De virginum morbis_1
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_328|ref=De virginum morbis_1
-6	μέρεα	μέρος	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_329|ref=De virginum morbis_1
-7	,	,	u	u--------	_	3	AuxX	_	t_330|ref=De virginum morbis_1
-8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_331|ref=De virginum morbis_1
-9	φρίκη	φρίκη	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_332|ref=De virginum morbis_1
-10	ξὺν	σύν	r	r--------	_	12	AuxP	_	t_333|ref=De virginum morbis_1
-11	πυρετῷ	πυρετός	n	n-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_334|ref=De virginum morbis_1
-12	ἀναΐσσει	ἀναίσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_335|ref=De virginum morbis_1
-13	·	·	u	u--------	_	2	AuxK	_	t_336|ref=De virginum morbis_1
+1	Ὁκόταν	ὁπόταν	c	c--------	_	12	AuxC	_	t_324|t_335|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_325|0|ref=virg.morb._1
+3	πληρωθέωσι	πληρόω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	1	ADV	_	t_326|t_324|ref=virg.morb._1
+4	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_327|t_329|ref=virg.morb._1
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_328|t_329|ref=virg.morb._1
+6	μέρεα	μέρος	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_329|t_326|ref=virg.morb._1
+7	,	,	u	u--------	_	3	AuxX	_	t_330|t_326|ref=virg.morb._1
+8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_331|t_332|ref=virg.morb._1
+9	φρίκη	φρίκη	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_332|t_335|ref=virg.morb._1
+10	ξὺν	σύν	r	r--------	_	12	AuxP	_	t_333|t_335|ref=virg.morb._1
+11	πυρετῷ	πυρετός	n	n-s---nd-	Case=d|Gender=n|Number=s	10	ADV	_	t_334|t_333|ref=virg.morb._1
+12	ἀναΐσσει	ἀναίσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_335|t_325|ref=virg.morb._1
+13	·	·	u	u--------	_	2	AuxK	_	t_336|t_325|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = πλανήτας τοὺς πυρετοὺς καλέουσιν .
 # sent_id = 21
-1	πλανήτας	πλάνης	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OCOMP	_	t_337|ref=De virginum morbis_1
-2	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_338|ref=De virginum morbis_1
-3	πυρετοὺς	πυρετός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_339|ref=De virginum morbis_1
-4	καλέουσιν	καλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_340|ref=De virginum morbis_1
-5	.	.	u	u--------	_	4	AuxK	_	t_341|ref=De virginum morbis_1
+1	πλανήτας	πλάνης	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OCOMP	_	t_337|t_340|ref=virg.morb._1
+2	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_338|t_339|ref=virg.morb._1
+3	πυρετοὺς	πυρετός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_339|t_340|ref=virg.morb._1
+4	καλέουσιν	καλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_340|0|ref=virg.morb._1
+5	.	.	u	u--------	_	4	AuxK	_	t_341|t_340|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Ἐχόντων δὲ τουτέων ὧδε , ὑπὸ μὲν τῆς ὀξυφλεγμασίης μαίνεται , ὑπὸ δὲ τῆς σηπεδόνος φονᾷ , ὑπὸ δὲ τοῦ ζοφεροῦ φοβέεται καὶ δέδοικεν , ὑπὸ δὲ τῆς περὶ τὴν καρδίην πιέξιος ἀγχόνας κραίνουσιν , ὑπὸ δὲ τῆς κακίης τοῦ αἵματος ἀλύων καὶ ἀδημονέων ὁ θυμὸς κακὸν ἐφέλκεται ·
 # sent_id = 22
-1	Ἐχόντων	ἔχω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_342|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_343|ref=De virginum morbis_1
-3	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_344|ref=De virginum morbis_1
-4	ὧδε	ὧδε	d	d--------	_	1	ADV	_	t_345|ref=De virginum morbis_1
-5	,	,	u	u--------	_	1	AuxX	_	t_346|ref=De virginum morbis_1
-6	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_347|ref=De virginum morbis_1
-7	μὲν	μέν	d	d--------	_	10	AuxY	_	t_348|ref=De virginum morbis_1
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_349|ref=De virginum morbis_1
-9	ὀξυφλεγμασίης	ὀξυφλεγμασίη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_350|ref=De virginum morbis_1
-10	μαίνεται	μαίνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	PRED	_	t_351|ref=De virginum morbis_1
-11	,	,	u	u--------	_	16	AuxX	_	t_352|ref=De virginum morbis_1
-12	ὑπὸ	ὑπό	r	r--------	_	16	AuxP	_	t_353|ref=De virginum morbis_1
-13	δὲ	δέ	d	d--------	_	37	AuxY	_	t_354|ref=De virginum morbis_1
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_355|ref=De virginum morbis_1
-15	σηπεδόνος	σηπεδών	n	n-s---fg-	Case=g|Gender=f|Number=s	12	OBJ	_	t_356|ref=De virginum morbis_1
-16	φονᾷ	φονάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	37	PRED	_	t_357|ref=De virginum morbis_1
-17	,	,	u	u--------	_	16	AuxX	_	t_358|ref=De virginum morbis_1
-18	ὑπὸ	ὑπό	r	r--------	_	23	AuxP	_	t_359|ref=De virginum morbis_1
-19	δὲ	δέ	d	d--------	_	37	AuxY	_	t_360|ref=De virginum morbis_1
-20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_361|ref=De virginum morbis_1
-21	ζοφεροῦ	ζοφερός	a	a-s---mg-	Case=g|Gender=m|Number=s	18	OBJ	_	t_362|ref=De virginum morbis_1
-22	φοβέεται	φοβέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	23	PRED	_	t_363|ref=De virginum morbis_1
-23	καὶ	καί	c	c--------	_	37	COORD	_	t_364|ref=De virginum morbis_1
-24	δέδοικεν	δείδω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	23	PRED	_	t_365|ref=De virginum morbis_1
-25	,	,	u	u--------	_	23	AuxX	_	t_366|ref=De virginum morbis_1
-26	ὑπὸ	ὑπό	r	r--------	_	34	AuxP	_	t_367|ref=De virginum morbis_1
-27	δὲ	δέ	d	d--------	_	37	AuxY	_	t_368|ref=De virginum morbis_1
-28	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	OBJ	_	t_369|ref=De virginum morbis_1
-29	περὶ	περί	r	r--------	_	28	AuxP	_	t_370|ref=De virginum morbis_1
-30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_371|ref=De virginum morbis_1
-31	καρδίην	καρδίη	n	n-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_372|ref=De virginum morbis_1
-32	πιέξιος	πιέξιος	a	a-s---fn-	Case=n|Gender=f|Number=s	34	ADV	_	t_373|ref=De virginum morbis_1
-33	ἀγχόνας	ἀγχόνη	n	n-p---fa-	Case=a|Gender=f|Number=p	34	OBJ	_	t_374|ref=De virginum morbis_1
-34	κραίνουσιν	κραίνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	37	PRED	_	t_375|ref=De virginum morbis_1
-35	,	,	u	u--------	_	34	AuxX	_	t_376|ref=De virginum morbis_1
-36	ὑπὸ	ὑπό	r	r--------	_	48	AuxP	_	t_377|ref=De virginum morbis_1
-37	δὲ	δέ	d	d--------	_	2	COORD	_	t_378|ref=De virginum morbis_1
-38	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_379|ref=De virginum morbis_1
-39	κακίης	κακότης	n	n-s---fg-	Case=g|Gender=f|Number=s	36	OBJ	_	t_380|ref=De virginum morbis_1
-40	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	41	ATR	_	t_381|ref=De virginum morbis_1
-41	αἵματος	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	43	OBJ	_	t_382|ref=De virginum morbis_1
-42	ἀλύων	ἀλύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	43	ADV	_	t_383|ref=De virginum morbis_1
-43	καὶ	καί	c	c--------	_	48	COORD	_	t_384|ref=De virginum morbis_1
-44	ἀδημονέων	ἀδημονέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	43	ADV	_	t_385|ref=De virginum morbis_1
-45	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	46	ATR	_	t_386|ref=De virginum morbis_1
-46	θυμὸς	θυμός	n	n-s---mn-	Case=n|Gender=m|Number=s	48	SBJ	_	t_387|ref=De virginum morbis_1
-47	κακὸν	κακός	a	a-s---na-	Case=a|Gender=n|Number=s	48	OBJ	_	t_388|ref=De virginum morbis_1
-48	ἐφέλκεται	ἐφέλκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	PRED	_	t_389|ref=De virginum morbis_1
-49	·	·	u	u--------	_	2	AuxK	_	t_390|ref=De virginum morbis_1
+1	Ἐχόντων	ἔχω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_342|t_351|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_343|0|ref=virg.morb._1
+3	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_344|t_342|ref=virg.morb._1
+4	ὧδε	ὧδε	d	d--------	_	1	ADV	_	t_345|t_342|ref=virg.morb._1
+5	,	,	u	u--------	_	1	AuxX	_	t_346|t_342|ref=virg.morb._1
+6	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_347|t_351|ref=virg.morb._1
+7	μὲν	μέν	d	d--------	_	10	AuxY	_	t_348|t_351|ref=virg.morb._1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_349|t_350|ref=virg.morb._1
+9	ὀξυφλεγμασίης	ὀξυφλεγμασίη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_350|t_347|ref=virg.morb._1
+10	μαίνεται	μαίνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	PRED	_	t_351|t_378|ref=virg.morb._1
+11	,	,	u	u--------	_	16	AuxX	_	t_352|t_357|ref=virg.morb._1
+12	ὑπὸ	ὑπό	r	r--------	_	16	AuxP	_	t_353|t_357|ref=virg.morb._1
+13	δὲ	δέ	d	d--------	_	37	AuxY	_	t_354|t_378|ref=virg.morb._1
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_355|t_356|ref=virg.morb._1
+15	σηπεδόνος	σηπεδών	n	n-s---fg-	Case=g|Gender=f|Number=s	12	OBJ	_	t_356|t_353|ref=virg.morb._1
+16	φονᾷ	φονάω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	37	PRED	_	t_357|t_378|ref=virg.morb._1
+17	,	,	u	u--------	_	16	AuxX	_	t_358|t_357|ref=virg.morb._1
+18	ὑπὸ	ὑπό	r	r--------	_	23	AuxP	_	t_359|t_364|ref=virg.morb._1
+19	δὲ	δέ	d	d--------	_	37	AuxY	_	t_360|t_378|ref=virg.morb._1
+20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_361|t_362|ref=virg.morb._1
+21	ζοφεροῦ	ζοφερός	a	a-s---mg-	Case=g|Gender=m|Number=s	18	OBJ	_	t_362|t_359|ref=virg.morb._1
+22	φοβέεται	φοβέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	23	PRED	_	t_363|t_364|ref=virg.morb._1
+23	καὶ	καί	c	c--------	_	37	COORD	_	t_364|t_378|ref=virg.morb._1
+24	δέδοικεν	δείδω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	23	PRED	_	t_365|t_364|ref=virg.morb._1
+25	,	,	u	u--------	_	23	AuxX	_	t_366|t_364|ref=virg.morb._1
+26	ὑπὸ	ὑπό	r	r--------	_	34	AuxP	_	t_367|t_375|ref=virg.morb._1
+27	δὲ	δέ	d	d--------	_	37	AuxY	_	t_368|t_378|ref=virg.morb._1
+28	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	OBJ	_	t_369|t_367|ref=virg.morb._1
+29	περὶ	περί	r	r--------	_	28	AuxP	_	t_370|t_369|ref=virg.morb._1
+30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_371|t_372|ref=virg.morb._1
+31	καρδίην	καρδίη	n	n-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_372|t_370|ref=virg.morb._1
+32	πιέξιος	πιέξιος	a	a-s---fn-	Case=n|Gender=f|Number=s	34	ADV	_	t_373|t_375|ref=virg.morb._1
+33	ἀγχόνας	ἀγχόνη	n	n-p---fa-	Case=a|Gender=f|Number=p	34	OBJ	_	t_374|t_375|ref=virg.morb._1
+34	κραίνουσιν	κραίνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	37	PRED	_	t_375|t_378|ref=virg.morb._1
+35	,	,	u	u--------	_	34	AuxX	_	t_376|t_375|ref=virg.morb._1
+36	ὑπὸ	ὑπό	r	r--------	_	48	AuxP	_	t_377|t_389|ref=virg.morb._1
+37	δὲ	δέ	d	d--------	_	2	COORD	_	t_378|t_343|ref=virg.morb._1
+38	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_379|t_380|ref=virg.morb._1
+39	κακίης	κακότης	n	n-s---fg-	Case=g|Gender=f|Number=s	36	OBJ	_	t_380|t_377|ref=virg.morb._1
+40	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	41	ATR	_	t_381|t_382|ref=virg.morb._1
+41	αἵματος	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	43	OBJ	_	t_382|t_384|ref=virg.morb._1
+42	ἀλύων	ἀλύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	43	ADV	_	t_383|t_384|ref=virg.morb._1
+43	καὶ	καί	c	c--------	_	48	COORD	_	t_384|t_389|ref=virg.morb._1
+44	ἀδημονέων	ἀδημονέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	43	ADV	_	t_385|t_384|ref=virg.morb._1
+45	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	46	ATR	_	t_386|t_387|ref=virg.morb._1
+46	θυμὸς	θυμός	n	n-s---mn-	Case=n|Gender=m|Number=s	48	SBJ	_	t_387|t_389|ref=virg.morb._1
+47	κακὸν	κακός	a	a-s---na-	Case=a|Gender=n|Number=s	48	OBJ	_	t_388|t_389|ref=virg.morb._1
+48	ἐφέλκεται	ἐφέλκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	PRED	_	t_389|t_378|ref=virg.morb._1
+49	·	·	u	u--------	_	2	AuxK	_	t_390|t_343|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἕτερον δὲ καὶ φοβερὰ ὀνομάζει ·
 # sent_id = 23
-1	ἕτερον	ἕτερος	a	a-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_391|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_392|ref=De virginum morbis_1
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_393|ref=De virginum morbis_1
-4	φοβερὰ	φοβερός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_394|ref=De virginum morbis_1
-5	ὀνομάζει	ὀνομάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_395|ref=De virginum morbis_1
-6	·	·	u	u--------	_	5	AuxK	_	t_396|ref=De virginum morbis_1
+1	ἕτερον	ἕτερος	a	a-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_391|t_395|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_392|t_395|ref=virg.morb._1
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_393|t_394|ref=virg.morb._1
+4	φοβερὰ	φοβερός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_394|t_395|ref=virg.morb._1
+5	ὀνομάζει	ὀνομάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_395|0|ref=virg.morb._1
+6	·	·	u	u--------	_	5	AuxK	_	t_396|t_395|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = καὶ κελεύουσιν ἅλλεσθαι καὶ καταπίπτειν ἐς τὰ φρέατα καὶ ἄγχεσθαι , ἅτε ἀμείνονά τε ἐόντα καὶ χρείην ἔχοντα παντοίην ·
 # sent_id = 24
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_397|ref=De virginum morbis_1
-2	κελεύουσιν	κελεύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_398|ref=De virginum morbis_1
-3	ἅλλεσθαι	ἅλλομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_399|ref=De virginum morbis_1
-4	καὶ	καί	d	d--------	_	9	AuxY	_	t_400|ref=De virginum morbis_1
-5	καταπίπτειν	καταπίπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_401|ref=De virginum morbis_1
-6	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_402|ref=De virginum morbis_1
-7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_403|ref=De virginum morbis_1
-8	φρέατα	φρέαρ	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_404|ref=De virginum morbis_1
-9	καὶ	καί	c	c--------	_	2	COORD	_	t_405|ref=De virginum morbis_1
-10	ἄγχεσθαι	ἄγχω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_406|ref=De virginum morbis_1
-11	,	,	u	u--------	_	2	AuxX	_	t_407|ref=De virginum morbis_1
-12	ἅτε	ἅτε	d	d--------	_	16	AuxZ	_	t_408|ref=De virginum morbis_1
-13	ἀμείνονά	ἀμείνων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	15	PNOM	_	t_409|ref=De virginum morbis_1
-14	τε	τε	d	d--------	_	16	AuxY	_	t_410|ref=De virginum morbis_1
-15	ἐόντα	εἰμί	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_411|ref=De virginum morbis_1
-16	καὶ	καί	c	c--------	_	9	COORD	_	t_412|ref=De virginum morbis_1
-17	χρείην	χρεία	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_413|ref=De virginum morbis_1
-18	ἔχοντα	ἔχω	v	v-pppana-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_414|ref=De virginum morbis_1
-19	παντοίην	παντοῖος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_415|ref=De virginum morbis_1
-20	·	·	u	u--------	_	2	AuxK	_	t_416|ref=De virginum morbis_1
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_397|t_398|ref=virg.morb._1
+2	κελεύουσιν	κελεύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_398|0|ref=virg.morb._1
+3	ἅλλεσθαι	ἅλλομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_399|t_405|ref=virg.morb._1
+4	καὶ	καί	d	d--------	_	9	AuxY	_	t_400|t_405|ref=virg.morb._1
+5	καταπίπτειν	καταπίπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_401|t_405|ref=virg.morb._1
+6	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_402|t_401|ref=virg.morb._1
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_403|t_404|ref=virg.morb._1
+8	φρέατα	φρέαρ	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_404|t_402|ref=virg.morb._1
+9	καὶ	καί	c	c--------	_	2	COORD	_	t_405|t_398|ref=virg.morb._1
+10	ἄγχεσθαι	ἄγχω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_406|t_405|ref=virg.morb._1
+11	,	,	u	u--------	_	2	AuxX	_	t_407|t_398|ref=virg.morb._1
+12	ἅτε	ἅτε	d	d--------	_	16	AuxZ	_	t_408|t_412|ref=virg.morb._1
+13	ἀμείνονά	ἀμείνων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	15	PNOM	_	t_409|t_411|ref=virg.morb._1
+14	τε	τε	d	d--------	_	16	AuxY	_	t_410|t_412|ref=virg.morb._1
+15	ἐόντα	εἰμί	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_411|t_412|ref=virg.morb._1
+16	καὶ	καί	c	c--------	_	9	COORD	_	t_412|t_405|ref=virg.morb._1
+17	χρείην	χρεία	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_413|t_414|ref=virg.morb._1
+18	ἔχοντα	ἔχω	v	v-pppana-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_414|t_412|ref=virg.morb._1
+19	παντοίην	παντοῖος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_415|t_413|ref=virg.morb._1
+20	·	·	u	u--------	_	2	AuxK	_	t_416|t_398|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ὁκότε δὲ ἄνευ φαντασμάτων , ἡδονή τις , ἀφʼ ἧς ἐρᾷ τοῦ θανάτου ὥσπέρ τινος ἀγαθοῦ [0] [1] .
 # sent_id = 25
-1	ὁκότε	ὁκότε	c	c--------	_	17	AuxC	_	t_417|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_418|ref=De virginum morbis_1
-3	ἄνευ	ἄνευ	r	r--------	_	17	AuxP	_	t_419|ref=De virginum morbis_1
-4	φαντασμάτων	φάντασμα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_420|ref=De virginum morbis_1
-5	,	,	u	u--------	_	18	AuxX	_	t_421|ref=De virginum morbis_1
-6	ἡδονή	ἡδονή	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_422|ref=De virginum morbis_1
-7	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	6	ATR	_	t_423|ref=De virginum morbis_1
-8	,	,	u	u--------	_	18	AuxX	_	t_424|ref=De virginum morbis_1
-9	ἀφʼ	ἀπό	r	r--------	_	11	AuxP	_	t_425|ref=De virginum morbis_1
-10	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_426|ref=De virginum morbis_1
-11	ἐρᾷ	ἐράω1	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	ATR	_	t_427|ref=De virginum morbis_1
-12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_428|ref=De virginum morbis_1
-13	θανάτου	θάνατος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_429|ref=De virginum morbis_1
-14	ὥσπέρ	ὥσπερ	c	c--------	_	11	AuxC	_	t_430|ref=De virginum morbis_1
-15	τινος	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_431|ref=De virginum morbis_1
-16	ἀγαθοῦ	ἀγαθός	a	a-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_432|ref=De virginum morbis_1
-17	[0]	[0]	-	---------	_	18	SBJ	_	e_14|ref=De virginum morbis_1
-18	[1]	[1]	-	---------	_	0	PRED	_	e_15|ref=De virginum morbis_1
-19	.	.	u	u--------	_	18	AuxK	_	t_433|ref=De virginum morbis_1
+1	ὁκότε	ὁκότε	c	c--------	_	17	AuxC	_	t_417|e_14|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_418|e_14|ref=virg.morb._1
+3	ἄνευ	ἄνευ	r	r--------	_	17	AuxP	_	t_419|e_14|ref=virg.morb._1
+4	φαντασμάτων	φάντασμα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_420|t_419|ref=virg.morb._1
+5	,	,	u	u--------	_	18	AuxX	_	t_421|e_15|ref=virg.morb._1
+6	ἡδονή	ἡδονή	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_422|e_14|ref=virg.morb._1
+7	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	6	ATR	_	t_423|t_422|ref=virg.morb._1
+8	,	,	u	u--------	_	18	AuxX	_	t_424|e_15|ref=virg.morb._1
+9	ἀφʼ	ἀπό	r	r--------	_	11	AuxP	_	t_425|t_427|ref=virg.morb._1
+10	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_426|t_425|ref=virg.morb._1
+11	ἐρᾷ	ἐράω1	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	ATR	_	t_427|t_422|ref=virg.morb._1
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_428|t_429|ref=virg.morb._1
+13	θανάτου	θάνατος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_429|t_427|ref=virg.morb._1
+14	ὥσπέρ	ὥσπερ	c	c--------	_	11	AuxC	_	t_430|t_427|ref=virg.morb._1
+15	τινος	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_431|t_432|ref=virg.morb._1
+16	ἀγαθοῦ	ἀγαθός	a	a-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_432|t_430|ref=virg.morb._1
+17	[0]	[0]	-	---------	_	18	SBJ	_	e_14|e_15|ref=virg.morb._1
+18	[1]	[1]	-	---------	_	0	PRED	_	e_15|0|ref=virg.morb._1
+19	.	.	u	u--------	_	18	AuxK	_	t_433|e_15|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Φρονησάσης δὲ τῆς ἀνθρώπου , τῇ Ἀρτέμιδι αἱ γυναῖκες ἄλλα τε πολλὰ , ἀλλὰ δὴ καὶ τὰ πουλυτελέστατα τῶν ἱματίων καθιεροῦσι τῶν γυναικείων , κελευόντων τῶν μάντεων , ἐξαπατεώμεναι .
 # sent_id = 26
-1	Φρονησάσης	φρονέω	n	n-s---fg-	Case=g|Gender=f|Number=s	21	ADV	_	t_434|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_435|ref=De virginum morbis_1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_436|ref=De virginum morbis_1
-4	ἀνθρώπου	ἄνθρωπος	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_437|ref=De virginum morbis_1
-5	,	,	u	u--------	_	21	AuxX	_	t_438|ref=De virginum morbis_1
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_439|ref=De virginum morbis_1
-7	Ἀρτέμιδι	ἄρτεμις	n	n-s---fd-	Case=d|Gender=f|Number=s	21	OBJ	_	t_440|ref=De virginum morbis_1
-8	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_441|ref=De virginum morbis_1
-9	γυναῖκες	γυνή	n	n-p---fn-	Case=n|Gender=f|Number=p	21	SBJ	_	t_442|ref=De virginum morbis_1
-10	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_443|ref=De virginum morbis_1
-11	τε	τε	d	d--------	_	21	AuxY	_	t_444|ref=De virginum morbis_1
-12	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_445|ref=De virginum morbis_1
-13	,	,	u	u--------	_	21	AuxX	_	t_446|ref=De virginum morbis_1
-14	ἀλλὰ	ἀλλά	c	c--------	_	21	AuxY	_	t_447|ref=De virginum morbis_1
-15	δὴ	δή	d	d--------	_	21	AuxZ	_	t_448|ref=De virginum morbis_1
-16	καὶ	καί	d	d--------	_	18	AuxZ	_	t_449|ref=De virginum morbis_1
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_450|ref=De virginum morbis_1
-18	πουλυτελέστατα	πουλυτέλειος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	21	OBJ	_	t_451|ref=De virginum morbis_1
-19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_452|ref=De virginum morbis_1
-20	ἱματίων	ἱμάτιον	n	n-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_453|ref=De virginum morbis_1
-21	καθιεροῦσι	καθιερόω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_454|ref=De virginum morbis_1
-22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_455|ref=De virginum morbis_1
-23	γυναικείων	γυναικεῖος	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_456|ref=De virginum morbis_1
-24	,	,	u	u--------	_	21	AuxX	_	t_457|ref=De virginum morbis_1
-25	κελευόντων	κελεύω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	21	ADV	_	t_458|ref=De virginum morbis_1
-26	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_459|ref=De virginum morbis_1
-27	μάντεων	μάντις	n	n-p---mg-	Case=g|Gender=m|Number=p	25	SBJ	_	t_460|ref=De virginum morbis_1
-28	,	,	u	u--------	_	21	AuxX	_	t_461|ref=De virginum morbis_1
-29	ἐξαπατεώμεναι	ἐξαπατάω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	21	OBJ	_	t_462|ref=De virginum morbis_1
-30	.	.	u	u--------	_	21	AuxK	_	t_463|ref=De virginum morbis_1
+1	Φρονησάσης	φρονέω	n	n-s---fg-	Case=g|Gender=f|Number=s	21	ADV	_	t_434|t_454|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_435|t_454|ref=virg.morb._1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_436|t_437|ref=virg.morb._1
+4	ἀνθρώπου	ἄνθρωπος	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_437|t_434|ref=virg.morb._1
+5	,	,	u	u--------	_	21	AuxX	_	t_438|t_454|ref=virg.morb._1
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_439|t_440|ref=virg.morb._1
+7	Ἀρτέμιδι	ἄρτεμις	n	n-s---fd-	Case=d|Gender=f|Number=s	21	OBJ	_	t_440|t_454|ref=virg.morb._1
+8	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_441|t_442|ref=virg.morb._1
+9	γυναῖκες	γυνή	n	n-p---fn-	Case=n|Gender=f|Number=p	21	SBJ	_	t_442|t_454|ref=virg.morb._1
+10	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_443|t_454|ref=virg.morb._1
+11	τε	τε	d	d--------	_	21	AuxY	_	t_444|t_454|ref=virg.morb._1
+12	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_445|t_443|ref=virg.morb._1
+13	,	,	u	u--------	_	21	AuxX	_	t_446|t_454|ref=virg.morb._1
+14	ἀλλὰ	ἀλλά	c	c--------	_	21	AuxY	_	t_447|t_454|ref=virg.morb._1
+15	δὴ	δή	d	d--------	_	21	AuxZ	_	t_448|t_454|ref=virg.morb._1
+16	καὶ	καί	d	d--------	_	18	AuxZ	_	t_449|t_451|ref=virg.morb._1
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_450|t_451|ref=virg.morb._1
+18	πουλυτελέστατα	πουλυτέλειος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	21	OBJ	_	t_451|t_454|ref=virg.morb._1
+19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_452|t_453|ref=virg.morb._1
+20	ἱματίων	ἱμάτιον	n	n-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_453|t_451|ref=virg.morb._1
+21	καθιεροῦσι	καθιερόω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_454|0|ref=virg.morb._1
+22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_455|t_453|ref=virg.morb._1
+23	γυναικείων	γυναικεῖος	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_456|t_453|ref=virg.morb._1
+24	,	,	u	u--------	_	21	AuxX	_	t_457|t_454|ref=virg.morb._1
+25	κελευόντων	κελεύω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	21	ADV	_	t_458|t_454|ref=virg.morb._1
+26	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_459|t_460|ref=virg.morb._1
+27	μάντεων	μάντις	n	n-p---mg-	Case=g|Gender=m|Number=p	25	SBJ	_	t_460|t_458|ref=virg.morb._1
+28	,	,	u	u--------	_	21	AuxX	_	t_461|t_454|ref=virg.morb._1
+29	ἐξαπατεώμεναι	ἐξαπατάω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	21	OBJ	_	t_462|t_454|ref=virg.morb._1
+30	.	.	u	u--------	_	21	AuxK	_	t_463|t_454|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Ἡ δὲ τῆσδε ἀπαλλαγὴ , ὁκόταν τι μὴ ἐμποδίζῃ τοῦ αἵματος τὴν ἀπόῤῥυσιν [0] .
 # sent_id = 27
-1	Ἡ	ὁ	p	p-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_464|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_465|ref=De virginum morbis_1
-3	τῆσδε	ὅδε	p	p-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_466|ref=De virginum morbis_1
-4	ἀπαλλαγὴ	ἀπαλλαγή	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_467|ref=De virginum morbis_1
-5	,	,	u	u--------	_	6	AuxX	_	t_468|ref=De virginum morbis_1
-6	ὁκόταν	ὁπόταν	c	c--------	_	14	AuxC	_	t_469|ref=De virginum morbis_1
-7	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_470|ref=De virginum morbis_1
-8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_471|ref=De virginum morbis_1
-9	ἐμποδίζῃ	ἐμποδίζω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	6	ADV	_	t_472|ref=De virginum morbis_1
-10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_473|ref=De virginum morbis_1
-11	αἵματος	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	9	OBJ	_	t_474|ref=De virginum morbis_1
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_475|ref=De virginum morbis_1
-13	ἀπόῤῥυσιν	ἀπόῤῥυσις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_476|ref=De virginum morbis_1
-14	[0]	[0]	-	---------	_	2	PRED	_	e_16|ref=De virginum morbis_1
-15	.	.	u	u--------	_	2	AuxK	_	t_477|ref=De virginum morbis_1
+1	Ἡ	ὁ	p	p-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_464|t_467|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_465|0|ref=virg.morb._1
+3	τῆσδε	ὅδε	p	p-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_466|t_467|ref=virg.morb._1
+4	ἀπαλλαγὴ	ἀπαλλαγή	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_467|e_16|ref=virg.morb._1
+5	,	,	u	u--------	_	6	AuxX	_	t_468|t_469|ref=virg.morb._1
+6	ὁκόταν	ὁπόταν	c	c--------	_	14	AuxC	_	t_469|e_16|ref=virg.morb._1
+7	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_470|t_472|ref=virg.morb._1
+8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_471|t_472|ref=virg.morb._1
+9	ἐμποδίζῃ	ἐμποδίζω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	6	ADV	_	t_472|t_469|ref=virg.morb._1
+10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_473|t_474|ref=virg.morb._1
+11	αἵματος	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	9	OBJ	_	t_474|t_472|ref=virg.morb._1
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_475|t_476|ref=virg.morb._1
+13	ἀπόῤῥυσιν	ἀπόῤῥυσις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_476|t_472|ref=virg.morb._1
+14	[0]	[0]	-	---------	_	2	PRED	_	e_16|t_465|ref=virg.morb._1
+15	.	.	u	u--------	_	2	AuxK	_	t_477|t_465|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = Κελεύω δʼ ἔγωγε τὰς παρθένους , ὁκόταν τὸ τοιοῦτον πάσχωσιν , ὡς τάχιστα ξυνοικῆσαι ἀνδράσιν ·
 # sent_id = 28
-1	Κελεύω	κελεύω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_478|ref=De virginum morbis_1
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_479|ref=De virginum morbis_1
-3	ἔγωγε	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	1	SBJ	_	t_480|ref=De virginum morbis_1
-4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_481|ref=De virginum morbis_1
-5	παρθένους	παρθένος	n	n-p---fa-	Case=a|Gender=f|Number=p	14	SBJ	_	t_482|ref=De virginum morbis_1
-6	,	,	u	u--------	_	1	AuxX	_	t_483|ref=De virginum morbis_1
-7	ὁκόταν	ὁπόταν	c	c--------	_	14	AuxC	_	t_484|ref=De virginum morbis_1
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_485|ref=De virginum morbis_1
-9	τοιοῦτον	τοιοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_486|ref=De virginum morbis_1
-10	πάσχωσιν	πάσχω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	7	ADV	_	t_487|ref=De virginum morbis_1
-11	,	,	u	u--------	_	1	AuxX	_	t_488|ref=De virginum morbis_1
-12	ὡς	ὡς	c	c--------	_	13	AuxZ	_	t_489|ref=De virginum morbis_1
-13	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	14	ADV	_	t_490|ref=De virginum morbis_1
-14	ξυνοικῆσαι	συνοικέω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_491|ref=De virginum morbis_1
-15	ἀνδράσιν	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_492|ref=De virginum morbis_1
-16	·	·	u	u--------	_	1	AuxK	_	t_493|ref=De virginum morbis_1
+1	Κελεύω	κελεύω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_478|0|ref=virg.morb._1
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_479|t_478|ref=virg.morb._1
+3	ἔγωγε	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	1	SBJ	_	t_480|t_478|ref=virg.morb._1
+4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_481|t_482|ref=virg.morb._1
+5	παρθένους	παρθένος	n	n-p---fa-	Case=a|Gender=f|Number=p	14	SBJ	_	t_482|t_491|ref=virg.morb._1
+6	,	,	u	u--------	_	1	AuxX	_	t_483|t_478|ref=virg.morb._1
+7	ὁκόταν	ὁπόταν	c	c--------	_	14	AuxC	_	t_484|t_491|ref=virg.morb._1
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_485|t_486|ref=virg.morb._1
+9	τοιοῦτον	τοιοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_486|t_487|ref=virg.morb._1
+10	πάσχωσιν	πάσχω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	7	ADV	_	t_487|t_484|ref=virg.morb._1
+11	,	,	u	u--------	_	1	AuxX	_	t_488|t_478|ref=virg.morb._1
+12	ὡς	ὡς	c	c--------	_	13	AuxZ	_	t_489|t_490|ref=virg.morb._1
+13	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	14	ADV	_	t_490|t_491|ref=virg.morb._1
+14	ξυνοικῆσαι	συνοικέω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_491|t_478|ref=virg.morb._1
+15	ἀνδράσιν	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_492|t_491|ref=virg.morb._1
+16	·	·	u	u--------	_	1	AuxK	_	t_493|t_478|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = ἢν γὰρ κυήσωσιν , ὑγιέες γίνονται ·
 # sent_id = 29
-1	ἢν	ἐάν	c	c--------	_	6	AuxC	_	t_494|ref=De virginum morbis_1
-2	γὰρ	γάρ	g	g--------	_	6	AuxY	_	t_495|ref=De virginum morbis_1
-3	κυήσωσιν	κυέω	v	v3pasa---	Mood=s|Number=p|Person=3|Tense=a|Voice=a	1	ADV	_	t_496|ref=De virginum morbis_1
-4	,	,	u	u--------	_	1	AuxX	_	t_497|ref=De virginum morbis_1
-5	ὑγιέες	ὑγιής	a	a-p---mn-	Case=n|Gender=m|Number=p	6	PNOM	_	t_498|ref=De virginum morbis_1
-6	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_499|ref=De virginum morbis_1
-7	·	·	u	u--------	_	6	AuxK	_	t_500|ref=De virginum morbis_1
+1	ἢν	ἐάν	c	c--------	_	6	AuxC	_	t_494|t_499|ref=virg.morb._1
+2	γὰρ	γάρ	g	g--------	_	6	AuxY	_	t_495|t_499|ref=virg.morb._1
+3	κυήσωσιν	κυέω	v	v3pasa---	Mood=s|Number=p|Person=3|Tense=a|Voice=a	1	ADV	_	t_496|t_494|ref=virg.morb._1
+4	,	,	u	u--------	_	1	AuxX	_	t_497|t_494|ref=virg.morb._1
+5	ὑγιέες	ὑγιής	a	a-p---mn-	Case=n|Gender=m|Number=p	6	PNOM	_	t_498|t_499|ref=virg.morb._1
+6	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_499|0|ref=virg.morb._1
+7	·	·	u	u--------	_	6	AuxK	_	t_500|t_499|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = εἰ δὲ μὴ , ἢ αὐτίκα ἅμα τῇ ἥβῃ ἢ ὀλίγον ὕστερον ἁλώσεται , εἴπερ μὴ ἑτέρῃ νούσῳ [0] [1] ·
 # sent_id = 30
-1	εἰ	εἰ	c	c--------	_	13	AuxC	_	t_501|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_502|ref=De virginum morbis_1
-3	μὴ	μή	d	d--------	_	19	AuxZ	_	t_503|ref=De virginum morbis_1
-4	,	,	u	u--------	_	13	AuxX	_	t_504|ref=De virginum morbis_1
-5	ἢ	ἤ1	d	d--------	_	10	AuxY	_	t_505|ref=De virginum morbis_1
-6	αὐτίκα	αὐτίκα	d	d--------	_	10	ADV	_	t_506|ref=De virginum morbis_1
-7	ἅμα	ἅμα	r	r--------	_	10	AuxP	_	t_507|ref=De virginum morbis_1
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_508|ref=De virginum morbis_1
-9	ἥβῃ	ἥβη	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_509|ref=De virginum morbis_1
-10	ἢ	ἤ1	c	c--------	_	13	COORD	_	t_510|ref=De virginum morbis_1
-11	ὀλίγον	ὀλίγος	a	a-s---na-	Case=a|Gender=n|Number=s	12	ADV	_	t_511|ref=De virginum morbis_1
-12	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_512|ref=De virginum morbis_1
-13	ἁλώσεται	ἁλίσκομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_513|ref=De virginum morbis_1
-14	,	,	u	u--------	_	13	AuxX	_	t_514|ref=De virginum morbis_1
-15	εἴπερ	εἴπερ	c	c--------	_	13	AuxC	_	t_515|ref=De virginum morbis_1
-16	μὴ	μή	d	d--------	_	20	AuxZ	_	t_516|ref=De virginum morbis_1
-17	ἑτέρῃ	ἕτερος	a	a-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_517|ref=De virginum morbis_1
-18	νούσῳ	νόσος	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_518|ref=De virginum morbis_1
-19	[0]	[0]	-	---------	_	1	ADV	_	e_17|ref=De virginum morbis_1
-20	[1]	[1]	-	---------	_	15	ADV	_	e_18|ref=De virginum morbis_1
-21	·	·	u	u--------	_	13	AuxK	_	t_519|ref=De virginum morbis_1
+1	εἰ	εἰ	c	c--------	_	13	AuxC	_	t_501|t_513|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_502|t_513|ref=virg.morb._1
+3	μὴ	μή	d	d--------	_	19	AuxZ	_	t_503|e_17|ref=virg.morb._1
+4	,	,	u	u--------	_	13	AuxX	_	t_504|t_513|ref=virg.morb._1
+5	ἢ	ἤ1	d	d--------	_	10	AuxY	_	t_505|t_510|ref=virg.morb._1
+6	αὐτίκα	αὐτίκα	d	d--------	_	10	ADV	_	t_506|t_510|ref=virg.morb._1
+7	ἅμα	ἅμα	r	r--------	_	10	AuxP	_	t_507|t_510|ref=virg.morb._1
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_508|t_509|ref=virg.morb._1
+9	ἥβῃ	ἥβη	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_509|t_507|ref=virg.morb._1
+10	ἢ	ἤ1	c	c--------	_	13	COORD	_	t_510|t_513|ref=virg.morb._1
+11	ὀλίγον	ὀλίγος	a	a-s---na-	Case=a|Gender=n|Number=s	12	ADV	_	t_511|t_512|ref=virg.morb._1
+12	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_512|t_510|ref=virg.morb._1
+13	ἁλώσεται	ἁλίσκομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_513|0|ref=virg.morb._1
+14	,	,	u	u--------	_	13	AuxX	_	t_514|t_513|ref=virg.morb._1
+15	εἴπερ	εἴπερ	c	c--------	_	13	AuxC	_	t_515|t_513|ref=virg.morb._1
+16	μὴ	μή	d	d--------	_	20	AuxZ	_	t_516|e_18|ref=virg.morb._1
+17	ἑτέρῃ	ἕτερος	a	a-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_517|t_518|ref=virg.morb._1
+18	νούσῳ	νόσος	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_518|e_18|ref=virg.morb._1
+19	[0]	[0]	-	---------	_	1	ADV	_	e_17|t_501|ref=virg.morb._1
+20	[1]	[1]	-	---------	_	15	ADV	_	e_18|t_515|ref=virg.morb._1
+21	·	·	u	u--------	_	13	AuxK	_	t_519|t_513|ref=virg.morb._1
 
-# source = Hippocrates, De virginum morbis 1
+# source = Hippocrates, virg.morb. 1
 # text = τῶν δὲ ἠνδρωμένων γυναικῶν αἱ στεῖραι μἅλλον ταῦτα πάσχουσιν .
 # sent_id = 31
-1	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_520|ref=De virginum morbis_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_521|ref=De virginum morbis_1
-3	ἠνδρωμένων	ἀνδρόω	v	v-prpefg-	Case=g|Gender=f|Mood=p|Number=p|Tense=r|Voice=e	4	ATR	_	t_522|ref=De virginum morbis_1
-4	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_523|ref=De virginum morbis_1
-5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_524|ref=De virginum morbis_1
-6	στεῖραι	στεῖρα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_525|ref=De virginum morbis_1
-7	μἅλλον	ἄλλος	d	d--------	_	9	ADV	_	t_526|ref=De virginum morbis_1
-8	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_527|ref=De virginum morbis_1
-9	πάσχουσιν	πάσχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_528|ref=De virginum morbis_1
-10	.	.	u	u--------	_	9	AuxK	_	t_529|ref=De virginum morbis_1
+1	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_520|t_523|ref=virg.morb._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_521|t_528|ref=virg.morb._1
+3	ἠνδρωμένων	ἀνδρόω	v	v-prpefg-	Case=g|Gender=f|Mood=p|Number=p|Tense=r|Voice=e	4	ATR	_	t_522|t_523|ref=virg.morb._1
+4	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_523|t_525|ref=virg.morb._1
+5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_524|t_525|ref=virg.morb._1
+6	στεῖραι	στεῖρα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_525|t_528|ref=virg.morb._1
+7	μἅλλον	ἄλλος	d	d--------	_	9	ADV	_	t_526|t_528|ref=virg.morb._1
+8	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_527|t_528|ref=virg.morb._1
+9	πάσχουσιν	πάσχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_528|0|ref=virg.morb._1
+10	.	.	u	u--------	_	9	AuxK	_	t_529|t_528|ref=virg.morb._1
 

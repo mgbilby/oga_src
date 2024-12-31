@@ -1,1478 +1,1478 @@
-# source = Septuaginta, Jonas 1.1-1.2
+# source = Septuaginta, Jon 1.1-1.2
 # text = ΚΑΙ ἐγένετο λόγος Κυρίου πρὸς Ἰωνᾶν τὸν τοῦ Ἀμαθεὶ λέγων , ʼἈνάστηθι καὶ πορεύθητι εἰς Νινευὴ τὴν πόλιν τὴν μεγάλην καὶ κήρυξον ἐν αὐτῇ , ὅτι ἀνέβη ἡ κραυγὴ τῆς κακίας αὐτῆς πρὸς μέ .
 # sent_id = 1
-1	ΚΑΙ	καί	d	d--------	_	2	AuxY	_	t_1|ref=Jonas_1.1
-2	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_2|ref=Jonas_1.1
-3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_3|ref=Jonas_1.1
-4	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_4|ref=Jonas_1.1
-5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_5|ref=Jonas_1.1
-6	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_6|ref=Jonas_1.1
-7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_7|ref=Jonas_1.1
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_8|ref=Jonas_1.1
-9	Ἀμαθεὶ	ἀμαθεί	n	n-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_9|ref=Jonas_1.1
-10	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_10|ref=Jonas_1.1
-11	,	,	u	u--------	_	2	AuxX	_	t_11|ref=Jonas_1.1
-12	ʼἈνάστηθι	ἀνίστημι	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	21	OBJ	_	t_12|ref=Jonas_1.2
-13	καὶ	καί	c	c--------	_	21	AuxY	_	t_13|ref=Jonas_1.2
-14	πορεύθητι	πορεύω	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	21	OBJ	_	t_14|ref=Jonas_1.2
-15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_15|ref=Jonas_1.2
-16	Νινευὴ	νινευή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_16|ref=Jonas_1.2
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_17|ref=Jonas_1.2
-18	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_18|ref=Jonas_1.2
-19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_19|ref=Jonas_1.2
-20	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_20|ref=Jonas_1.2
-21	καὶ	καί	c	c--------	_	10	COORD	_	t_21|ref=Jonas_1.2
-22	κήρυξον	κηρύσσω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	21	OBJ	_	t_22|ref=Jonas_1.2
-23	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_23|ref=Jonas_1.2
-24	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	23	ADV	_	t_24|ref=Jonas_1.2
-25	,	,	u	u--------	_	2	AuxX	_	t_25|ref=Jonas_1.2
-26	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_26|ref=Jonas_1.2
-27	ἀνέβη	ἀναβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	26	OBJ	_	t_27|ref=Jonas_1.2
-28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_28|ref=Jonas_1.2
-29	κραυγὴ	κραυγή	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_29|ref=Jonas_1.2
-30	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_30|ref=Jonas_1.2
-31	κακίας	κακία	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_31|ref=Jonas_1.2
-32	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_32|ref=Jonas_1.2
-33	πρὸς	πρός	r	r--------	_	27	AuxP	_	t_33|ref=Jonas_1.2
-34	μέ	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	33	OBJ	_	t_34|ref=Jonas_1.2
-35	.	.	u	u--------	_	2	AuxK	_	t_35|ref=Jonas_1.2
+1	ΚΑΙ	καί	d	d--------	_	2	AuxY	_	t_1|t_2|ref=Jon_1.1
+2	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_2|0|ref=Jon_1.1
+3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_3|t_2|ref=Jon_1.1
+4	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_4|t_3|ref=Jon_1.1
+5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_5|t_2|ref=Jon_1.1
+6	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_6|t_5|ref=Jon_1.1
+7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_7|t_6|ref=Jon_1.1
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_8|t_9|ref=Jon_1.1
+9	Ἀμαθεὶ	ἀμαθεί	n	n-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_9|t_6|ref=Jon_1.1
+10	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_10|t_2|ref=Jon_1.1
+11	,	,	u	u--------	_	2	AuxX	_	t_11|t_2|ref=Jon_1.1
+12	ʼἈνάστηθι	ἀνίστημι	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	21	OBJ	_	t_12|t_21|ref=Jon_1.2
+13	καὶ	καί	c	c--------	_	21	AuxY	_	t_13|t_21|ref=Jon_1.2
+14	πορεύθητι	πορεύω	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	21	OBJ	_	t_14|t_21|ref=Jon_1.2
+15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_15|t_14|ref=Jon_1.2
+16	Νινευὴ	νινευή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_16|t_15|ref=Jon_1.2
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_17|t_18|ref=Jon_1.2
+18	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_18|t_16|ref=Jon_1.2
+19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_19|t_18|ref=Jon_1.2
+20	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_20|t_18|ref=Jon_1.2
+21	καὶ	καί	c	c--------	_	10	COORD	_	t_21|t_10|ref=Jon_1.2
+22	κήρυξον	κηρύσσω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	21	OBJ	_	t_22|t_21|ref=Jon_1.2
+23	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_23|t_22|ref=Jon_1.2
+24	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	23	ADV	_	t_24|t_23|ref=Jon_1.2
+25	,	,	u	u--------	_	2	AuxX	_	t_25|t_2|ref=Jon_1.2
+26	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_26|t_10|ref=Jon_1.2
+27	ἀνέβη	ἀναβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	26	OBJ	_	t_27|t_26|ref=Jon_1.2
+28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_28|t_29|ref=Jon_1.2
+29	κραυγὴ	κραυγή	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_29|t_27|ref=Jon_1.2
+30	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_30|t_31|ref=Jon_1.2
+31	κακίας	κακία	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_31|t_29|ref=Jon_1.2
+32	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_32|t_31|ref=Jon_1.2
+33	πρὸς	πρός	r	r--------	_	27	AuxP	_	t_33|t_27|ref=Jon_1.2
+34	μέ	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	33	OBJ	_	t_34|t_33|ref=Jon_1.2
+35	.	.	u	u--------	_	2	AuxK	_	t_35|t_2|ref=Jon_1.2
 
-# source = Septuaginta, Jonas 1.3
+# source = Septuaginta, Jon 1.3
 # text = καὶ ἀνέστη Ἰωνᾶς τοῦ φυγεῖν εἰς Θαρσεὶς ἐκ προσώπου Κυρίου , καὶ κατέβη εἰς Ἰόππην ·
 # sent_id = 2
-1	καὶ	καί	d	d--------	_	12	AuxY	_	t_36|ref=Jonas_1.3
-2	ἀνέστη	ἀνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_37|ref=Jonas_1.3
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_38|ref=Jonas_1.3
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_39|ref=Jonas_1.3
-5	φυγεῖν	φεύγω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_40|ref=Jonas_1.3
-6	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_41|ref=Jonas_1.3
-7	Θαρσεὶς	θαρσέω	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_42|ref=Jonas_1.3
-8	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_43|ref=Jonas_1.3
-9	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_44|ref=Jonas_1.3
-10	Κυρίου	κύριος	n	n-s---ng-	Case=g|Gender=m|Number=s	9	ATR	_	t_45|ref=Jonas_1.3
-11	,	,	u	u--------	_	0	AuxX	_	t_46|ref=Jonas_1.3
-12	καὶ	καί	c	c--------	_	11	COORD	_	t_47|ref=Jonas_1.3
-13	κατέβη	καταβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_48|ref=Jonas_1.3
-14	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_49|ref=Jonas_1.3
-15	Ἰόππην	ἰόππη	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_50|ref=Jonas_1.3
-16	·	·	u	u--------	_	11	AuxK	_	t_51|ref=Jonas_1.3
+1	καὶ	καί	d	d--------	_	12	AuxY	_	t_36|t_47|ref=Jon_1.3
+2	ἀνέστη	ἀνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_37|t_47|ref=Jon_1.3
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_38|t_37|ref=Jon_1.3
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_39|t_40|ref=Jon_1.3
+5	φυγεῖν	φεύγω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_40|t_37|ref=Jon_1.3
+6	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_41|t_40|ref=Jon_1.3
+7	Θαρσεὶς	θαρσέω	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_42|t_41|ref=Jon_1.3
+8	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_43|t_37|ref=Jon_1.3
+9	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_44|t_43|ref=Jon_1.3
+10	Κυρίου	κύριος	n	n-s---ng-	Case=g|Gender=m|Number=s	9	ATR	_	t_45|t_44|ref=Jon_1.3
+11	,	,	u	u--------	_	0	AuxX	_	t_46|0|ref=Jon_1.3
+12	καὶ	καί	c	c--------	_	11	COORD	_	t_47|t_46|ref=Jon_1.3
+13	κατέβη	καταβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_48|t_47|ref=Jon_1.3
+14	εἰς	εἰς	r	r--------	_	13	AuxP	_	t_49|t_48|ref=Jon_1.3
+15	Ἰόππην	ἰόππη	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_50|t_49|ref=Jon_1.3
+16	·	·	u	u--------	_	11	AuxK	_	t_51|t_46|ref=Jon_1.3
 
-# source = Septuaginta, Jonas 1.3
+# source = Septuaginta, Jon 1.3
 # text = καὶ εὗρεν πλοῖον βαδίζον εἰς Θαρσείς , καὶ ἔδωκεν τὸ ναῦλον αὐτοῦ καὶ ἐνέβη εἰς αὐτὸ τοῦ πλεῦσαι μετʼ αὐτῶν εἰς Θαρσεὶς ἐκ προσώπου Κυρίου .
 # sent_id = 3
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_52|ref=Jonas_1.3
-2	εὗρεν	εὑρίσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_53|ref=Jonas_1.3
-3	πλοῖον	πλοῖον	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_54|ref=Jonas_1.3
-4	βαδίζον	βαδίζω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_55|ref=Jonas_1.3
-5	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_56|ref=Jonas_1.3
-6	Θαρσείς	θαρσέω	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_57|ref=Jonas_1.3
-7	,	,	u	u--------	_	0	AuxX	_	t_58|ref=Jonas_1.3
-8	καὶ	καί	d	d--------	_	13	AuxY	_	t_59|ref=Jonas_1.3
-9	ἔδωκεν	δίδωμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_60|ref=Jonas_1.3
-10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_61|ref=Jonas_1.3
-11	ναῦλον	ναῦλος	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_62|ref=Jonas_1.3
-12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_63|ref=Jonas_1.3
-13	καὶ	καί	c	c--------	_	7	COORD	_	t_64|ref=Jonas_1.3
-14	ἐνέβη	ἐμβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_65|ref=Jonas_1.3
-15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_66|ref=Jonas_1.3
-16	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_67|ref=Jonas_1.3
-17	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_68|ref=Jonas_1.3
-18	πλεῦσαι	πλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	ATR	_	t_69|ref=Jonas_1.3
-19	μετʼ	μετά	r	r--------	_	18	AuxP	_	t_70|ref=Jonas_1.3
-20	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ADV	_	t_71|ref=Jonas_1.3
-21	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_72|ref=Jonas_1.3
-22	Θαρσεὶς	θαρσέω	n	n-p---fa-	Case=a|Number=s	21	OBJ	_	t_73|ref=Jonas_1.3
-23	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_74|ref=Jonas_1.3
-24	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	23	ADV	_	t_75|ref=Jonas_1.3
-25	Κυρίου	κύριος	n	n-s---ng-	Case=g|Gender=m|Number=s	24	ATR	_	t_76|ref=Jonas_1.3
-26	.	.	u	u--------	_	7	AuxK	_	t_77|ref=Jonas_1.3
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_52|t_64|ref=Jon_1.3
+2	εὗρεν	εὑρίσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_53|t_64|ref=Jon_1.3
+3	πλοῖον	πλοῖον	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_54|t_53|ref=Jon_1.3
+4	βαδίζον	βαδίζω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_55|t_54|ref=Jon_1.3
+5	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_56|t_55|ref=Jon_1.3
+6	Θαρσείς	θαρσέω	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_57|t_56|ref=Jon_1.3
+7	,	,	u	u--------	_	0	AuxX	_	t_58|0|ref=Jon_1.3
+8	καὶ	καί	d	d--------	_	13	AuxY	_	t_59|t_64|ref=Jon_1.3
+9	ἔδωκεν	δίδωμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_60|t_64|ref=Jon_1.3
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_61|t_62|ref=Jon_1.3
+11	ναῦλον	ναῦλος	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_62|t_60|ref=Jon_1.3
+12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_63|t_62|ref=Jon_1.3
+13	καὶ	καί	c	c--------	_	7	COORD	_	t_64|t_58|ref=Jon_1.3
+14	ἐνέβη	ἐμβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	PRED	_	t_65|t_64|ref=Jon_1.3
+15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_66|t_65|ref=Jon_1.3
+16	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_67|t_66|ref=Jon_1.3
+17	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_68|t_69|ref=Jon_1.3
+18	πλεῦσαι	πλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	ATR	_	t_69|t_67|ref=Jon_1.3
+19	μετʼ	μετά	r	r--------	_	18	AuxP	_	t_70|t_69|ref=Jon_1.3
+20	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ADV	_	t_71|t_70|ref=Jon_1.3
+21	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_72|t_69|ref=Jon_1.3
+22	Θαρσεὶς	θαρσέω	n	n-p---fa-	Case=a|Number=s	21	OBJ	_	t_73|t_72|ref=Jon_1.3
+23	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_74|t_69|ref=Jon_1.3
+24	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	23	ADV	_	t_75|t_74|ref=Jon_1.3
+25	Κυρίου	κύριος	n	n-s---ng-	Case=g|Gender=m|Number=s	24	ATR	_	t_76|t_75|ref=Jon_1.3
+26	.	.	u	u--------	_	7	AuxK	_	t_77|t_58|ref=Jon_1.3
 
-# source = Septuaginta, Jonas 1.4
+# source = Septuaginta, Jon 1.4
 # text = Καὶ Κύριος ἐξήγειρεν πνεῦμα ἐπὶ τὴν θάλασσαν , καὶ ἐγένετο κλύδων μέγας ἐν τῇ θαλάσσῃ , καὶ τὸ πλοῖον ἐκινδύνευεν συντριβῆναι .
 # sent_id = 4
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_78|ref=Jonas_1.4
-2	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_79|ref=Jonas_1.4
-3	ἐξήγειρεν	ἐπεγείρω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	17	PRED	_	t_80|ref=Jonas_1.4
-4	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_81|ref=Jonas_1.4
-5	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_82|ref=Jonas_1.4
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_83|ref=Jonas_1.4
-7	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_84|ref=Jonas_1.4
-8	,	,	u	u--------	_	3	AuxX	_	t_85|ref=Jonas_1.4
-9	καὶ	καί	c	c--------	_	17	AuxY	_	t_86|ref=Jonas_1.4
-10	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	17	PRED	_	t_87|ref=Jonas_1.4
-11	κλύδων	κλύδων	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_88|ref=Jonas_1.4
-12	μέγας	μέγας	a	a-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_89|ref=Jonas_1.4
-13	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_90|ref=Jonas_1.4
-14	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_91|ref=Jonas_1.4
-15	θαλάσσῃ	θάλασσα	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_92|ref=Jonas_1.4
-16	,	,	u	u--------	_	11	AuxX	_	t_93|ref=Jonas_1.4
-17	καὶ	καί	c	c--------	_	1	COORD	_	t_94|ref=Jonas_1.4
-18	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_95|ref=Jonas_1.4
-19	πλοῖον	πλοῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_96|ref=Jonas_1.4
-20	ἐκινδύνευεν	κινδυνεύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	17	PRED	_	t_97|ref=Jonas_1.4
-21	συντριβῆναι	συντρίβω	v	v--anp---	Mood=n|Tense=a|Voice=p	20	OBJ	_	t_98|ref=Jonas_1.4
-22	.	.	u	u--------	_	1	AuxK	_	t_99|ref=Jonas_1.4
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_78|0|ref=Jon_1.4
+2	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_79|t_80|ref=Jon_1.4
+3	ἐξήγειρεν	ἐπεγείρω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	17	PRED	_	t_80|t_94|ref=Jon_1.4
+4	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_81|t_80|ref=Jon_1.4
+5	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_82|t_80|ref=Jon_1.4
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_83|t_84|ref=Jon_1.4
+7	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_84|t_82|ref=Jon_1.4
+8	,	,	u	u--------	_	3	AuxX	_	t_85|t_80|ref=Jon_1.4
+9	καὶ	καί	c	c--------	_	17	AuxY	_	t_86|t_94|ref=Jon_1.4
+10	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	17	PRED	_	t_87|t_94|ref=Jon_1.4
+11	κλύδων	κλύδων	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_88|t_87|ref=Jon_1.4
+12	μέγας	μέγας	a	a-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_89|t_88|ref=Jon_1.4
+13	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_90|t_87|ref=Jon_1.4
+14	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_91|t_92|ref=Jon_1.4
+15	θαλάσσῃ	θάλασσα	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_92|t_90|ref=Jon_1.4
+16	,	,	u	u--------	_	11	AuxX	_	t_93|t_88|ref=Jon_1.4
+17	καὶ	καί	c	c--------	_	1	COORD	_	t_94|t_78|ref=Jon_1.4
+18	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_95|t_96|ref=Jon_1.4
+19	πλοῖον	πλοῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_96|t_97|ref=Jon_1.4
+20	ἐκινδύνευεν	κινδυνεύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	17	PRED	_	t_97|t_94|ref=Jon_1.4
+21	συντριβῆναι	συντρίβω	v	v--anp---	Mood=n|Tense=a|Voice=p	20	OBJ	_	t_98|t_97|ref=Jon_1.4
+22	.	.	u	u--------	_	1	AuxK	_	t_99|t_78|ref=Jon_1.4
 
-# source = Septuaginta, Jonas 1.5
+# source = Septuaginta, Jon 1.5
 # text = καὶ ἐφοβήθησαν οἱ ναυτικοὶ καὶ ἀνεβόησαν ἕκαστος πρὸς τὸν θεὸν αὐτοῦ , καὶ ἐκβολὴν ἐποιήσαντο τῶν σκευῶν τῶν ἐν τῷ πλοίῳ εἰς τὴν θάλασσαν , τοῦ κουφισθῆναι ἀπʼ αὐτῶν ·
 # sent_id = 5
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_100|ref=Jonas_1.5
-2	ἐφοβήθησαν	φοβέω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	13	PRED	_	t_101|ref=Jonas_1.5
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_102|ref=Jonas_1.5
-4	ναυτικοὶ	ναυτικός	a	a-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_103|ref=Jonas_1.5
-5	καὶ	καί	d	d--------	_	13	AuxY	_	t_104|ref=Jonas_1.5
-6	ἀνεβόησαν	ἀναβοάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	13	PRED	_	t_105|ref=Jonas_1.5
-7	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	AtvV	_	t_106|ref=Jonas_1.5
-8	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_107|ref=Jonas_1.5
-9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_108|ref=Jonas_1.5
-10	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_109|ref=Jonas_1.5
-11	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_110|ref=Jonas_1.5
-12	,	,	u	u--------	_	0	AuxX	_	t_111|ref=Jonas_1.5
-13	καὶ	καί	c	c--------	_	12	COORD	_	t_112|ref=Jonas_1.5
-14	ἐκβολὴν	ἐκβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_113|ref=Jonas_1.5
-15	ἐποιήσαντο	ποιέω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	13	PRED	_	t_114|ref=Jonas_1.5
-16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_115|ref=Jonas_1.5
-17	σκευῶν	σκεῦος	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_116|ref=Jonas_1.5
-18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_117|ref=Jonas_1.5
-19	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_118|ref=Jonas_1.5
-20	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	21	ATR	_	t_119|ref=Jonas_1.5
-21	πλοίῳ	πλοῖον	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ATR	_	t_120|ref=Jonas_1.5
-22	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_121|ref=Jonas_1.5
-23	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_122|ref=Jonas_1.5
-24	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	22	ADV	_	t_123|ref=Jonas_1.5
-25	,	,	u	u--------	_	12	AuxX	_	t_124|ref=Jonas_1.5
-26	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ATR	_	t_125|ref=Jonas_1.5
-27	κουφισθῆναι	κουφίζω	v	v--anp---	Mood=n|Tense=a|Voice=p	17	ATR	_	t_126|ref=Jonas_1.5
-28	ἀπʼ	ἀπό	r	r--------	_	27	AuxP	_	t_127|ref=Jonas_1.5
-29	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	28	OBJ	_	t_128|ref=Jonas_1.5
-30	·	·	u	u--------	_	12	AuxK	_	t_129|ref=Jonas_1.5
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_100|t_112|ref=Jon_1.5
+2	ἐφοβήθησαν	φοβέω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	13	PRED	_	t_101|t_112|ref=Jon_1.5
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_102|t_103|ref=Jon_1.5
+4	ναυτικοὶ	ναυτικός	a	a-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_103|t_101|ref=Jon_1.5
+5	καὶ	καί	d	d--------	_	13	AuxY	_	t_104|t_112|ref=Jon_1.5
+6	ἀνεβόησαν	ἀναβοάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	13	PRED	_	t_105|t_112|ref=Jon_1.5
+7	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	AtvV	_	t_106|t_105|ref=Jon_1.5
+8	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_107|t_105|ref=Jon_1.5
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_108|t_109|ref=Jon_1.5
+10	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_109|t_107|ref=Jon_1.5
+11	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_110|t_109|ref=Jon_1.5
+12	,	,	u	u--------	_	0	AuxX	_	t_111|0|ref=Jon_1.5
+13	καὶ	καί	c	c--------	_	12	COORD	_	t_112|t_111|ref=Jon_1.5
+14	ἐκβολὴν	ἐκβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_113|t_114|ref=Jon_1.5
+15	ἐποιήσαντο	ποιέω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	13	PRED	_	t_114|t_112|ref=Jon_1.5
+16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_115|t_116|ref=Jon_1.5
+17	σκευῶν	σκεῦος	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_116|t_113|ref=Jon_1.5
+18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_117|t_116|ref=Jon_1.5
+19	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_118|t_116|ref=Jon_1.5
+20	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	21	ATR	_	t_119|t_120|ref=Jon_1.5
+21	πλοίῳ	πλοῖον	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ATR	_	t_120|t_118|ref=Jon_1.5
+22	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_121|t_114|ref=Jon_1.5
+23	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_122|t_123|ref=Jon_1.5
+24	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	22	ADV	_	t_123|t_121|ref=Jon_1.5
+25	,	,	u	u--------	_	12	AuxX	_	t_124|t_111|ref=Jon_1.5
+26	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ATR	_	t_125|t_126|ref=Jon_1.5
+27	κουφισθῆναι	κουφίζω	v	v--anp---	Mood=n|Tense=a|Voice=p	17	ATR	_	t_126|t_116|ref=Jon_1.5
+28	ἀπʼ	ἀπό	r	r--------	_	27	AuxP	_	t_127|t_126|ref=Jon_1.5
+29	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	28	OBJ	_	t_128|t_127|ref=Jon_1.5
+30	·	·	u	u--------	_	12	AuxK	_	t_129|t_111|ref=Jon_1.5
 
-# source = Septuaginta, Jonas 1.5
+# source = Septuaginta, Jon 1.5
 # text = Ἰωνᾶς δὲ κατέβη εἰς τὴν κοίλην τοῦ πλοίου , καὶ ἐκάθευδεν καὶ ἔρεγχεν .
 # sent_id = 6
-1	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_130|ref=Jonas_1.5
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_131|ref=Jonas_1.5
-3	κατέβη	καταβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	PRED	_	t_132|ref=Jonas_1.5
-4	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_133|ref=Jonas_1.5
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_134|ref=Jonas_1.5
-6	κοίλην	κοῖλος	a	a-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_135|ref=Jonas_1.5
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_136|ref=Jonas_1.5
-8	πλοίου	πλοῖον	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_137|ref=Jonas_1.5
-9	,	,	u	u--------	_	0	AuxX	_	t_138|ref=Jonas_1.5
-10	καὶ	καί	d	d--------	_	9	COORD	_	t_139|ref=Jonas_1.5
-11	ἐκάθευδεν	καθεύδω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	PRED	_	t_140|ref=Jonas_1.5
-12	καὶ	καί	c	c--------	_	10	COORD	_	t_141|ref=Jonas_1.5
-13	ἔρεγχεν	ῥέζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	PRED	_	t_142|ref=Jonas_1.5
-14	.	.	u	u--------	_	9	AuxK	_	t_143|ref=Jonas_1.5
+1	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_130|t_132|ref=Jon_1.5
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_131|t_139|ref=Jon_1.5
+3	κατέβη	καταβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	PRED	_	t_132|t_139|ref=Jon_1.5
+4	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_133|t_132|ref=Jon_1.5
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_134|t_135|ref=Jon_1.5
+6	κοίλην	κοῖλος	a	a-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_135|t_133|ref=Jon_1.5
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_136|t_137|ref=Jon_1.5
+8	πλοίου	πλοῖον	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_137|t_135|ref=Jon_1.5
+9	,	,	u	u--------	_	0	AuxX	_	t_138|0|ref=Jon_1.5
+10	καὶ	καί	d	d--------	_	9	COORD	_	t_139|t_138|ref=Jon_1.5
+11	ἐκάθευδεν	καθεύδω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	PRED	_	t_140|t_141|ref=Jon_1.5
+12	καὶ	καί	c	c--------	_	10	COORD	_	t_141|t_139|ref=Jon_1.5
+13	ἔρεγχεν	ῥέζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	PRED	_	t_142|t_141|ref=Jon_1.5
+14	.	.	u	u--------	_	9	AuxK	_	t_143|t_138|ref=Jon_1.5
 
-# source = Septuaginta, Jonas 1.6
+# source = Septuaginta, Jon 1.6
 # text = καὶ προσῆλθεν πρὸς αὐτὸν ὁ πρωρεὺς καὶ εἶπεν αὐτῷ Τί σὺ ῥέγχεις ;
 # sent_id = 7
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_144|ref=Jonas_1.6
-2	προσῆλθεν	προσέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_145|ref=Jonas_1.6
-3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_146|ref=Jonas_1.6
-4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_147|ref=Jonas_1.6
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_148|ref=Jonas_1.6
-6	πρωρεὺς	πρωρεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_149|ref=Jonas_1.6
-7	καὶ	καί	c	c--------	_	0	COORD	_	t_150|ref=Jonas_1.6
-8	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_151|ref=Jonas_1.6
-9	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_152|ref=Jonas_1.6
-10	Τί	τίς	u	u--------	_	7	AuxX	_	t_153|ref=Jonas_1.6
-11	σὺ	σύ	p	p2s---cn-	Case=n|Gender=c|Number=s|Person=2	12	SBJ	_	t_154|ref=Jonas_1.6
-12	ῥέγχεις	ῥέγχω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	8	OBJ	_	t_155|ref=Jonas_1.6
-13	;	;	u	u--------	_	7	AuxK	_	t_156|ref=Jonas_1.6
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_144|t_150|ref=Jon_1.6
+2	προσῆλθεν	προσέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_145|t_150|ref=Jon_1.6
+3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_146|t_145|ref=Jon_1.6
+4	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_147|t_146|ref=Jon_1.6
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_148|t_149|ref=Jon_1.6
+6	πρωρεὺς	πρωρεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_149|t_145|ref=Jon_1.6
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_150|0|ref=Jon_1.6
+8	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_151|t_150|ref=Jon_1.6
+9	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_152|t_151|ref=Jon_1.6
+10	Τί	τίς	u	u--------	_	7	AuxX	_	t_153|t_150|ref=Jon_1.6
+11	σὺ	σύ	p	p2s---cn-	Case=n|Gender=c|Number=s|Person=2	12	SBJ	_	t_154|t_155|ref=Jon_1.6
+12	ῥέγχεις	ῥέγχω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	8	OBJ	_	t_155|t_151|ref=Jon_1.6
+13	;	;	u	u--------	_	7	AuxK	_	t_156|t_150|ref=Jon_1.6
 
-# source = Septuaginta, Jonas 1.6
+# source = Septuaginta, Jon 1.6
 # text = ἀνάστα καὶ ἐπικαλοῦ τὸν θεόν σου , ὅπως διασώσῃ ὁ θεὸς ἡμᾶς καὶ μὴ ἀπολώμεθα .
 # sent_id = 8
-1	ἀνάστα	ἀνίστημι	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	2	PRED	_	t_157|ref=Jonas_1.6
-2	καὶ	καί	c	c--------	_	0	COORD	_	t_158|ref=Jonas_1.6
-3	ἐπικαλοῦ	ἐπικαλέω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	2	PRED	_	t_159|ref=Jonas_1.6
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_160|ref=Jonas_1.6
-5	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_161|ref=Jonas_1.6
-6	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_162|ref=Jonas_1.6
-7	,	,	u	u--------	_	2	AuxX	_	t_163|ref=Jonas_1.6
-8	ὅπως	ὅπως	c	c--------	_	3	AuxC	_	t_164|ref=Jonas_1.6
-9	διασώσῃ	διασῴζω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	13	ADV	_	t_165|ref=Jonas_1.6
-10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_166|ref=Jonas_1.6
-11	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_167|ref=Jonas_1.6
-12	ἡμᾶς	ἐγώ	p	p1p---ca-	Case=a|Gender=c|Number=p|Person=1	9	OBJ	_	t_168|ref=Jonas_1.6
-13	καὶ	καί	c	c--------	_	8	COORD	_	t_169|ref=Jonas_1.6
-14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_170|ref=Jonas_1.6
-15	ἀπολώμεθα	ἀπόλλυμι	v	v1pase---	Mood=s|Number=p|Person=1|Tense=a|Voice=e	13	ADV	_	t_171|ref=Jonas_1.6
-16	.	.	u	u--------	_	2	AuxK	_	t_172|ref=Jonas_1.6
+1	ἀνάστα	ἀνίστημι	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	2	PRED	_	t_157|t_158|ref=Jon_1.6
+2	καὶ	καί	c	c--------	_	0	COORD	_	t_158|0|ref=Jon_1.6
+3	ἐπικαλοῦ	ἐπικαλέω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	2	PRED	_	t_159|t_158|ref=Jon_1.6
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_160|t_161|ref=Jon_1.6
+5	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_161|t_159|ref=Jon_1.6
+6	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_162|t_161|ref=Jon_1.6
+7	,	,	u	u--------	_	2	AuxX	_	t_163|t_158|ref=Jon_1.6
+8	ὅπως	ὅπως	c	c--------	_	3	AuxC	_	t_164|t_159|ref=Jon_1.6
+9	διασώσῃ	διασῴζω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	13	ADV	_	t_165|t_169|ref=Jon_1.6
+10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_166|t_167|ref=Jon_1.6
+11	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_167|t_165|ref=Jon_1.6
+12	ἡμᾶς	ἐγώ	p	p1p---ca-	Case=a|Gender=c|Number=p|Person=1	9	OBJ	_	t_168|t_165|ref=Jon_1.6
+13	καὶ	καί	c	c--------	_	8	COORD	_	t_169|t_164|ref=Jon_1.6
+14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_170|t_171|ref=Jon_1.6
+15	ἀπολώμεθα	ἀπόλλυμι	v	v1pase---	Mood=s|Number=p|Person=1|Tense=a|Voice=e	13	ADV	_	t_171|t_169|ref=Jon_1.6
+16	.	.	u	u--------	_	2	AuxK	_	t_172|t_158|ref=Jon_1.6
 
-# source = Septuaginta, Jonas 1.7
+# source = Septuaginta, Jon 1.7
 # text = καὶ εἶπευ ἕκαστος πρὸς τὸν πλησίον αὐτοῦ Δεῦτε βάλωμεν κλήρους καὶ ἐπιγνῶμεν τίνος ἕνεκεν ἡ κακία αὕτη ἐστὶν ἐν ἡμῖν .
 # sent_id = 9
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_173|ref=Jonas_1.7
-2	εἶπευ	εἶπον	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	11	PRED	_	t_174|ref=Jonas_1.7
-3	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	AtvV	_	t_175|ref=Jonas_1.7
-4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_176|ref=Jonas_1.7
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_177|ref=Jonas_1.7
-6	πλησίον	πλησίος	d	d--------	Case=a|Gender=m|Number=s	4	OBJ	_	t_178|ref=Jonas_1.7
-7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_179|ref=Jonas_1.7
-8	Δεῦτε	δεῦτε	d	d--------	_	11	AuxY	_	t_180|ref=Jonas_1.7
-9	βάλωμεν	βάλλω	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	11	PRED	_	t_181|ref=Jonas_1.7
-10	κλήρους	κλῆρος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_182|ref=Jonas_1.7
-11	καὶ	καί	c	c--------	_	0	COORD	_	t_183|ref=Jonas_1.7
-12	ἐπιγνῶμεν	ἐπιγιγνώσκω	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	11	PRED	_	t_184|ref=Jonas_1.7
-13	τίνος	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_185|ref=Jonas_1.7
-14	ἕνεκεν	ἕνεκα	r	r--------	_	18	AuxP	_	t_186|ref=Jonas_1.7
-15	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_187|ref=Jonas_1.7
-16	κακία	κακία	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_188|ref=Jonas_1.7
-17	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_189|ref=Jonas_1.7
-18	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	OBJ	_	t_190|ref=Jonas_1.7
-19	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_191|ref=Jonas_1.7
-20	ἡμῖν	ἐγώ	p	p1p---cd-	Case=d|Gender=c|Number=p|Person=1	19	PNOM	_	t_192|ref=Jonas_1.7
-21	.	.	u	u--------	_	11	AuxK	_	t_193|ref=Jonas_1.7
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_173|t_174|ref=Jon_1.7
+2	εἶπευ	εἶπον	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	11	PRED	_	t_174|t_183|ref=Jon_1.7
+3	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	AtvV	_	t_175|t_174|ref=Jon_1.7
+4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_176|t_174|ref=Jon_1.7
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_177|t_178|ref=Jon_1.7
+6	πλησίον	πλησίος	d	d--------	Case=a|Gender=m|Number=s	4	OBJ	_	t_178|t_176|ref=Jon_1.7
+7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_179|t_178|ref=Jon_1.7
+8	Δεῦτε	δεῦτε	d	d--------	_	11	AuxY	_	t_180|t_183|ref=Jon_1.7
+9	βάλωμεν	βάλλω	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	11	PRED	_	t_181|t_183|ref=Jon_1.7
+10	κλήρους	κλῆρος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_182|t_181|ref=Jon_1.7
+11	καὶ	καί	c	c--------	_	0	COORD	_	t_183|0|ref=Jon_1.7
+12	ἐπιγνῶμεν	ἐπιγιγνώσκω	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	11	PRED	_	t_184|t_183|ref=Jon_1.7
+13	τίνος	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_185|t_186|ref=Jon_1.7
+14	ἕνεκεν	ἕνεκα	r	r--------	_	18	AuxP	_	t_186|t_190|ref=Jon_1.7
+15	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_187|t_188|ref=Jon_1.7
+16	κακία	κακία	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_188|t_190|ref=Jon_1.7
+17	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_189|t_188|ref=Jon_1.7
+18	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	OBJ	_	t_190|t_184|ref=Jon_1.7
+19	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_191|t_190|ref=Jon_1.7
+20	ἡμῖν	ἐγώ	p	p1p---cd-	Case=d|Gender=c|Number=p|Person=1	19	PNOM	_	t_192|t_191|ref=Jon_1.7
+21	.	.	u	u--------	_	11	AuxK	_	t_193|t_183|ref=Jon_1.7
 
-# source = Septuaginta, Jonas 1.7
+# source = Septuaginta, Jon 1.7
 # text = καὶ ἔβαλον κλήρους .
 # sent_id = 10
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_194|ref=Jonas_1.7
-2	ἔβαλον	βάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_195|ref=Jonas_1.7
-3	κλήρους	κλῆρος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_196|ref=Jonas_1.7
-4	.	.	u	u--------	_	2	AuxK	_	t_197|ref=Jonas_1.7
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_194|t_195|ref=Jon_1.7
+2	ἔβαλον	βάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_195|0|ref=Jon_1.7
+3	κλήρους	κλῆρος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_196|t_195|ref=Jon_1.7
+4	.	.	u	u--------	_	2	AuxK	_	t_197|t_195|ref=Jon_1.7
 
-# source = Septuaginta, Jonas 1.7
+# source = Septuaginta, Jon 1.7
 # text = καὶ ἔπεσεν ὁ κλῆρος ἐπὶ Ἰωνᾶν .
 # sent_id = 11
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_198|ref=Jonas_1.7
-2	ἔπεσεν	πίπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_199|ref=Jonas_1.7
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_200|ref=Jonas_1.7
-4	κλῆρος	κλῆρος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_201|ref=Jonas_1.7
-5	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_202|ref=Jonas_1.7
-6	Ἰωνᾶν	νωέας	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_203|ref=Jonas_1.7
-7	.	.	u	u--------	_	2	AuxK	_	t_204|ref=Jonas_1.7
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_198|t_199|ref=Jon_1.7
+2	ἔπεσεν	πίπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_199|0|ref=Jon_1.7
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_200|t_201|ref=Jon_1.7
+4	κλῆρος	κλῆρος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_201|t_199|ref=Jon_1.7
+5	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_202|t_199|ref=Jon_1.7
+6	Ἰωνᾶν	νωέας	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_203|t_202|ref=Jon_1.7
+7	.	.	u	u--------	_	2	AuxK	_	t_204|t_199|ref=Jon_1.7
 
-# source = Septuaginta, Jonas 1.8
+# source = Septuaginta, Jon 1.8
 # text = καὶ εἶπον πρὸς αὐτόν Ἀπάγγειλον ἡμῖν τίς σου ἡ ἐργασία ἐστίν , καὶ πόθεν ἔρχῃ .
 # sent_id = 12
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_205|ref=Jonas_1.8
-2	εἶπον	εἶπον	v	v3paia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_206|ref=Jonas_1.8
-3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_207|ref=Jonas_1.8
-4	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_208|ref=Jonas_1.8
-5	Ἀπάγγειλον	ἀπαγγέλλω	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_209|ref=Jonas_1.8
-6	ἡμῖν	ἐγώ	p	p-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_210|ref=Jonas_1.8
-7	τίς	τις	p	p-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_211|ref=Jonas_1.8
-8	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_212|ref=Jonas_1.8
-9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_213|ref=Jonas_1.8
-10	ἐργασία	ἐργασία	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_214|ref=Jonas_1.8
-11	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	OBJ	_	t_215|ref=Jonas_1.8
-12	,	,	u	u--------	_	2	AuxX	_	t_216|ref=Jonas_1.8
-13	καὶ	καί	c	c--------	_	2	COORD	_	t_217|ref=Jonas_1.8
-14	πόθεν	πόθεν	d	d--------	_	15	ADV	_	t_218|ref=Jonas_1.8
-15	ἔρχῃ	ἔρχομαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	13	OBJ	_	t_219|ref=Jonas_1.8
-16	.	.	u	u--------	_	2	AuxK	_	t_220|ref=Jonas_1.8
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_205|t_206|ref=Jon_1.8
+2	εἶπον	εἶπον	v	v3paia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_206|0|ref=Jon_1.8
+3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_207|t_206|ref=Jon_1.8
+4	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_208|t_209|ref=Jon_1.8
+5	Ἀπάγγειλον	ἀπαγγέλλω	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_209|t_206|ref=Jon_1.8
+6	ἡμῖν	ἐγώ	p	p-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_210|t_206|ref=Jon_1.8
+7	τίς	τις	p	p-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_211|t_215|ref=Jon_1.8
+8	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_212|t_214|ref=Jon_1.8
+9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_213|t_214|ref=Jon_1.8
+10	ἐργασία	ἐργασία	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_214|t_215|ref=Jon_1.8
+11	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	OBJ	_	t_215|t_217|ref=Jon_1.8
+12	,	,	u	u--------	_	2	AuxX	_	t_216|t_206|ref=Jon_1.8
+13	καὶ	καί	c	c--------	_	2	COORD	_	t_217|t_206|ref=Jon_1.8
+14	πόθεν	πόθεν	d	d--------	_	15	ADV	_	t_218|t_219|ref=Jon_1.8
+15	ἔρχῃ	ἔρχομαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	13	OBJ	_	t_219|t_217|ref=Jon_1.8
+16	.	.	u	u--------	_	2	AuxK	_	t_220|t_206|ref=Jon_1.8
 
-# source = Septuaginta, Jonas 1.8
+# source = Septuaginta, Jon 1.8
 # text = καὶ ἐκ ποίας χώρας καὶ ἐκ ποίου λαοῦ εἶ σύ ;
 # sent_id = 13
-1	καὶ	καί	d	d--------	_	9	AuxY	_	t_221|ref=Jonas_1.8
-2	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_222|ref=Jonas_1.8
-3	ποίας	ποῖος	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_223|ref=Jonas_1.8
-4	χώρας	χώρα	n	n-s---fg-	Case=g|Gender=f|Number=s	2	PNOM	_	t_224|ref=Jonas_1.8
-5	καὶ	καί	c	c--------	_	9	COORD	_	t_225|ref=Jonas_1.8
-6	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_226|ref=Jonas_1.8
-7	ποίου	ποῖος	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_227|ref=Jonas_1.8
-8	λαοῦ	λαός	n	n-s---mg-	Case=g|Gender=m|Number=s	6	PNOM	_	t_228|ref=Jonas_1.8
-9	εἶ	εἰμί	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_229|ref=Jonas_1.8
-10	σύ	σύ	p	p-s---fn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_230|ref=Jonas_1.8
-11	;	;	u	u--------	_	9	AuxK	_	t_231|ref=Jonas_1.8
+1	καὶ	καί	d	d--------	_	9	AuxY	_	t_221|t_229|ref=Jon_1.8
+2	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_222|t_225|ref=Jon_1.8
+3	ποίας	ποῖος	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_223|t_224|ref=Jon_1.8
+4	χώρας	χώρα	n	n-s---fg-	Case=g|Gender=f|Number=s	2	PNOM	_	t_224|t_222|ref=Jon_1.8
+5	καὶ	καί	c	c--------	_	9	COORD	_	t_225|t_229|ref=Jon_1.8
+6	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_226|t_225|ref=Jon_1.8
+7	ποίου	ποῖος	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_227|t_228|ref=Jon_1.8
+8	λαοῦ	λαός	n	n-s---mg-	Case=g|Gender=m|Number=s	6	PNOM	_	t_228|t_226|ref=Jon_1.8
+9	εἶ	εἰμί	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_229|0|ref=Jon_1.8
+10	σύ	σύ	p	p-s---fn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_230|t_229|ref=Jon_1.8
+11	;	;	u	u--------	_	9	AuxK	_	t_231|t_229|ref=Jon_1.8
 
-# source = Septuaginta, Jonas 1.9
+# source = Septuaginta, Jon 1.9
 # text = καὶ εἶπεν πρὸς αὐτούς Δοῦλος Κυρίου ἐγὼ εἰμι , καὶ τὸν κύριον θεὸν τοῦ οὐρανοῦ ἐγῶ σέβομαι , ὃς ἐποίησεν τὴν θάλασσαν καὶ τὴν ξηράν .
 # sent_id = 14
-1	καὶ	καί	d	d--------	_	10	AuxY	_	t_232|ref=Jonas_1.9
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	AuxY	_	t_233|ref=Jonas_1.9
-3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_234|ref=Jonas_1.9
-4	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_235|ref=Jonas_1.9
-5	Δοῦλος	δοῦλος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_236|ref=Jonas_1.9
-6	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	PNOM	_	t_237|ref=Jonas_1.9
-7	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_238|ref=Jonas_1.9
-8	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	10	OBJ	_	t_239|ref=Jonas_1.9
-9	,	,	u	u--------	_	0	AuxX	_	t_240|ref=Jonas_1.9
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_241|ref=Jonas_1.9
-11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_242|ref=Jonas_1.9
-12	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_243|ref=Jonas_1.9
-13	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_244|ref=Jonas_1.9
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_245|ref=Jonas_1.9
-15	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_246|ref=Jonas_1.9
-16	ἐγῶ	ἐγώ	p	p1s---mn-	Case=n|Gender=c|Number=s|Person=1	17	SBJ	_	t_247|ref=Jonas_1.9
-17	σέβομαι	σέβομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	10	OBJ	_	t_248|ref=Jonas_1.9
-18	,	,	u	u--------	_	9	AuxX	_	t_249|ref=Jonas_1.9
-19	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_250|ref=Jonas_1.9
-20	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	ATR	_	t_251|ref=Jonas_1.9
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_252|ref=Jonas_1.9
-22	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_253|ref=Jonas_1.9
-23	καὶ	καί	c	c--------	_	20	COORD	_	t_254|ref=Jonas_1.9
-24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_255|ref=Jonas_1.9
-25	ξηράν	ξηρός	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_256|ref=Jonas_1.9
-26	.	.	u	u--------	_	9	AuxK	_	t_257|ref=Jonas_1.9
+1	καὶ	καί	d	d--------	_	10	AuxY	_	t_232|t_241|ref=Jon_1.9
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	AuxY	_	t_233|t_241|ref=Jon_1.9
+3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_234|t_233|ref=Jon_1.9
+4	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_235|t_234|ref=Jon_1.9
+5	Δοῦλος	δοῦλος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_236|t_239|ref=Jon_1.9
+6	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	PNOM	_	t_237|t_239|ref=Jon_1.9
+7	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_238|t_239|ref=Jon_1.9
+8	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	10	OBJ	_	t_239|t_241|ref=Jon_1.9
+9	,	,	u	u--------	_	0	AuxX	_	t_240|0|ref=Jon_1.9
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_241|t_240|ref=Jon_1.9
+11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_242|t_244|ref=Jon_1.9
+12	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_243|t_244|ref=Jon_1.9
+13	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_244|t_248|ref=Jon_1.9
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_245|t_246|ref=Jon_1.9
+15	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_246|t_244|ref=Jon_1.9
+16	ἐγῶ	ἐγώ	p	p1s---mn-	Case=n|Gender=c|Number=s|Person=1	17	SBJ	_	t_247|t_248|ref=Jon_1.9
+17	σέβομαι	σέβομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	10	OBJ	_	t_248|t_241|ref=Jon_1.9
+18	,	,	u	u--------	_	9	AuxX	_	t_249|t_240|ref=Jon_1.9
+19	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_250|t_251|ref=Jon_1.9
+20	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	ATR	_	t_251|t_244|ref=Jon_1.9
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_252|t_253|ref=Jon_1.9
+22	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_253|t_254|ref=Jon_1.9
+23	καὶ	καί	c	c--------	_	20	COORD	_	t_254|t_251|ref=Jon_1.9
+24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_255|t_256|ref=Jon_1.9
+25	ξηράν	ξηρός	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_256|t_254|ref=Jon_1.9
+26	.	.	u	u--------	_	9	AuxK	_	t_257|t_240|ref=Jon_1.9
 
-# source = Septuaginta, Jonas 1.10
+# source = Septuaginta, Jon 1.10
 # text = καὶ ἐφοβήθησαν οἱ ἄνδρες φόβον μέγαν καὶ εἶπαν πρὸς αὐτόν Τί τοῦτο ἐποίησας ;
 # sent_id = 15
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_258|ref=Jonas_1.10
-2	ἐφοβήθησαν	φοβέω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	7	PRED	_	t_259|ref=Jonas_1.10
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_260|ref=Jonas_1.10
-4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_261|ref=Jonas_1.10
-5	φόβον	φόβος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_262|ref=Jonas_1.10
-6	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_263|ref=Jonas_1.10
-7	καὶ	καί	c	c--------	_	0	COORD	_	t_264|ref=Jonas_1.10
-8	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	7	PRED	_	t_265|ref=Jonas_1.10
-9	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_266|ref=Jonas_1.10
-10	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_267|ref=Jonas_1.10
-11	Τί	τίς	p	p-s---na-	_	13	ADV	_	t_268|ref=Jonas_1.10
-12	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_269|ref=Jonas_1.10
-13	ἐποίησας	ποιέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	8	OBJ	_	t_270|ref=Jonas_1.10
-14	;	;	u	u--------	_	7	AuxK	_	t_271|ref=Jonas_1.10
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_258|t_264|ref=Jon_1.10
+2	ἐφοβήθησαν	φοβέω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	7	PRED	_	t_259|t_264|ref=Jon_1.10
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_260|t_261|ref=Jon_1.10
+4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_261|t_259|ref=Jon_1.10
+5	φόβον	φόβος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_262|t_259|ref=Jon_1.10
+6	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_263|t_262|ref=Jon_1.10
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_264|0|ref=Jon_1.10
+8	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	7	PRED	_	t_265|t_264|ref=Jon_1.10
+9	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_266|t_265|ref=Jon_1.10
+10	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_267|t_266|ref=Jon_1.10
+11	Τί	τίς	p	p-s---na-	_	13	ADV	_	t_268|t_270|ref=Jon_1.10
+12	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_269|t_270|ref=Jon_1.10
+13	ἐποίησας	ποιέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	8	OBJ	_	t_270|t_265|ref=Jon_1.10
+14	;	;	u	u--------	_	7	AuxK	_	t_271|t_264|ref=Jon_1.10
 
-# source = Septuaginta, Jonas 1.10
+# source = Septuaginta, Jon 1.10
 # text = διότι ἔγνωσαν οἱ ἄνδρες ὅτι ἐκ προσώπου Κυρίου ἦν φεύγων , ὅτι ἀπήγγειλεν αὐτοῖς .
 # sent_id = 16
-1	διότι	διότι	d	d--------	_	2	AuxY	_	t_272|ref=Jonas_1.10
-2	ἔγνωσαν	γιγνώσκω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_273|ref=Jonas_1.10
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_274|ref=Jonas_1.10
-4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_275|ref=Jonas_1.10
-5	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_276|ref=Jonas_1.10
-6	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_277|ref=Jonas_1.10
-7	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_278|ref=Jonas_1.10
-8	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_279|ref=Jonas_1.10
-9	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	5	OBJ	_	t_280|ref=Jonas_1.10
-10	φεύγων	φεύγω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	PNOM	_	t_281|ref=Jonas_1.10
-11	,	,	u	u--------	_	2	AuxX	_	t_282|ref=Jonas_1.10
-12	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_283|ref=Jonas_1.10
-13	ἀπήγγειλεν	ἀπαγγέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	OBJ	_	t_284|ref=Jonas_1.10
-14	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_285|ref=Jonas_1.10
-15	.	.	u	u--------	_	2	AuxK	_	t_286|ref=Jonas_1.10
+1	διότι	διότι	d	d--------	_	2	AuxY	_	t_272|t_273|ref=Jon_1.10
+2	ἔγνωσαν	γιγνώσκω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_273|0|ref=Jon_1.10
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_274|t_275|ref=Jon_1.10
+4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_275|t_273|ref=Jon_1.10
+5	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_276|t_273|ref=Jon_1.10
+6	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_277|t_281|ref=Jon_1.10
+7	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_278|t_277|ref=Jon_1.10
+8	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_279|t_278|ref=Jon_1.10
+9	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	5	OBJ	_	t_280|t_276|ref=Jon_1.10
+10	φεύγων	φεύγω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	PNOM	_	t_281|t_280|ref=Jon_1.10
+11	,	,	u	u--------	_	2	AuxX	_	t_282|t_273|ref=Jon_1.10
+12	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_283|t_273|ref=Jon_1.10
+13	ἀπήγγειλεν	ἀπαγγέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	OBJ	_	t_284|t_283|ref=Jon_1.10
+14	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_285|t_284|ref=Jon_1.10
+15	.	.	u	u--------	_	2	AuxK	_	t_286|t_273|ref=Jon_1.10
 
-# source = Septuaginta, Jonas 1.11
+# source = Septuaginta, Jon 1.11
 # text = καὶ εἶπαν πρὸς αὐτόν Τί σοι ποιήσομεν , καὶ κοπάσει ἡ θάλασσα ἀφʼ ἡμῶν ;
 # sent_id = 17
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_287|ref=Jonas_1.11
-2	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_288|ref=Jonas_1.11
-3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_289|ref=Jonas_1.11
-4	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_290|ref=Jonas_1.11
-5	Τί	τίς	p	p-p---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_291|ref=Jonas_1.11
-6	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_292|ref=Jonas_1.11
-7	ποιήσομεν	ποιέω	v	v1pfia---	Mood=i|Number=p|Person=1|Tense=f|Voice=a	9	OBJ	_	t_293|ref=Jonas_1.11
-8	,	,	u	u--------	_	2	AuxX	_	t_294|ref=Jonas_1.11
-9	καὶ	καί	c	c--------	_	2	COORD	_	t_295|ref=Jonas_1.11
-10	κοπάσει	κοπάζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	9	PRED	_	t_296|ref=Jonas_1.11
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_297|ref=Jonas_1.11
-12	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_298|ref=Jonas_1.11
-13	ἀφʼ	ἀπό	r	r--------	_	10	AuxP	_	t_299|ref=Jonas_1.11
-14	ἡμῶν	ἐγώ	p	p1p---cg-	Case=g|Gender=c|Number=p|Person=1	13	ADV	_	t_300|ref=Jonas_1.11
-15	;	;	u	u--------	_	2	AuxK	_	t_301|ref=Jonas_1.11
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_287|t_288|ref=Jon_1.11
+2	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_288|0|ref=Jon_1.11
+3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_289|t_288|ref=Jon_1.11
+4	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_290|t_289|ref=Jon_1.11
+5	Τί	τίς	p	p-p---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_291|t_293|ref=Jon_1.11
+6	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_292|t_293|ref=Jon_1.11
+7	ποιήσομεν	ποιέω	v	v1pfia---	Mood=i|Number=p|Person=1|Tense=f|Voice=a	9	OBJ	_	t_293|t_295|ref=Jon_1.11
+8	,	,	u	u--------	_	2	AuxX	_	t_294|t_288|ref=Jon_1.11
+9	καὶ	καί	c	c--------	_	2	COORD	_	t_295|t_288|ref=Jon_1.11
+10	κοπάσει	κοπάζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	9	PRED	_	t_296|t_295|ref=Jon_1.11
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_297|t_298|ref=Jon_1.11
+12	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_298|t_296|ref=Jon_1.11
+13	ἀφʼ	ἀπό	r	r--------	_	10	AuxP	_	t_299|t_296|ref=Jon_1.11
+14	ἡμῶν	ἐγώ	p	p1p---cg-	Case=g|Gender=c|Number=p|Person=1	13	ADV	_	t_300|t_299|ref=Jon_1.11
+15	;	;	u	u--------	_	2	AuxK	_	t_301|t_288|ref=Jon_1.11
 
-# source = Septuaginta, Jonas 1.11
+# source = Septuaginta, Jon 1.11
 # text = ὅτι ἡ θάλασσα ἐπορεύετο καὶ ἐξήγειρεν μᾶλλον κλύδωνα [0] .
 # sent_id = 18
-1	ὅτι	ὅτι	c	c--------	_	9	AuxC	_	t_302|ref=Jonas_1.11
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_303|ref=Jonas_1.11
-3	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_304|ref=Jonas_1.11
-4	ἐπορεύετο	πορεύω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	5	ADV	_	t_305|ref=Jonas_1.11
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_306|ref=Jonas_1.11
-6	ἐξήγειρεν	ἐπεγείρω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	5	ADV	_	t_307|ref=Jonas_1.11
-7	μᾶλλον	μᾶλλον	d	d--------	_	6	ADV	_	t_308|ref=Jonas_1.11
-8	κλύδωνα	κλύδων	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_309|ref=Jonas_1.11
-9	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Jonas_1.1
-10	.	.	u	u--------	_	9	AuxK	_	t_310|ref=Jonas_1.11
+1	ὅτι	ὅτι	c	c--------	_	9	AuxC	_	t_302|e_1|ref=Jon_1.11
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_303|t_304|ref=Jon_1.11
+3	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_304|t_306|ref=Jon_1.11
+4	ἐπορεύετο	πορεύω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	5	ADV	_	t_305|t_306|ref=Jon_1.11
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_306|t_302|ref=Jon_1.11
+6	ἐξήγειρεν	ἐπεγείρω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	5	ADV	_	t_307|t_306|ref=Jon_1.11
+7	μᾶλλον	μᾶλλον	d	d--------	_	6	ADV	_	t_308|t_307|ref=Jon_1.11
+8	κλύδωνα	κλύδων	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_309|t_307|ref=Jon_1.11
+9	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Jon_1.1
+10	.	.	u	u--------	_	9	AuxK	_	t_310|e_1|ref=Jon_1.11
 
-# source = Septuaginta, Jonas 1.11-1.12
+# source = Septuaginta, Jon 1.11-1.12
 # text = καὶ εἶπεν Ἰωνᾶς πρὸς αὐτούς Ἄρατέ με καὶ ἐμβάλετέ με εἰς τὴν θάλασσαν , καὶ κοπάσει ἡ θάλασσα ἀφʼ ὑμῶν ·
 # sent_id = 19
-1	καὶ	καί	d	d--------	_	15	AuxY	_	t_311|ref=Jonas_1.11
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_312|ref=Jonas_1.12
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_313|ref=Jonas_1.12
-4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_314|ref=Jonas_1.12
-5	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_315|ref=Jonas_1.12
-6	Ἄρατέ	αἴρω	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_316|ref=Jonas_1.12
-7	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	2	OBJ	_	t_317|ref=Jonas_1.12
-8	καὶ	καί	c	c--------	_	15	AuxY	_	t_318|ref=Jonas_1.12
-9	ἐμβάλετέ	ἐμβάλλω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	15	PRED	_	t_319|ref=Jonas_1.12
-10	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	9	OBJ	_	t_320|ref=Jonas_1.12
-11	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_321|ref=Jonas_1.12
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_322|ref=Jonas_1.12
-13	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_323|ref=Jonas_1.12
-14	,	,	u	u--------	_	0	AuxX	_	t_324|ref=Jonas_1.12
-15	καὶ	καί	c	c--------	_	14	COORD	_	t_325|ref=Jonas_1.12
-16	κοπάσει	κοπάζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	15	PRED	_	t_326|ref=Jonas_1.12
-17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_327|ref=Jonas_1.12
-18	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_328|ref=Jonas_1.12
-19	ἀφʼ	ἀπό	r	r--------	_	16	AuxP	_	t_329|ref=Jonas_1.12
-20	ὑμῶν	σύ	p	p2p----g-	Case=g|Number=p|Person=2	19	OBJ	_	t_330|ref=Jonas_1.12
-21	·	·	u	u--------	_	14	AuxK	_	t_331|ref=Jonas_1.12
+1	καὶ	καί	d	d--------	_	15	AuxY	_	t_311|t_325|ref=Jon_1.11
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_312|t_325|ref=Jon_1.12
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_313|t_312|ref=Jon_1.12
+4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_314|t_312|ref=Jon_1.12
+5	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_315|t_314|ref=Jon_1.12
+6	Ἄρατέ	αἴρω	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_316|t_312|ref=Jon_1.12
+7	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	2	OBJ	_	t_317|t_312|ref=Jon_1.12
+8	καὶ	καί	c	c--------	_	15	AuxY	_	t_318|t_325|ref=Jon_1.12
+9	ἐμβάλετέ	ἐμβάλλω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	15	PRED	_	t_319|t_325|ref=Jon_1.12
+10	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	9	OBJ	_	t_320|t_319|ref=Jon_1.12
+11	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_321|t_319|ref=Jon_1.12
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_322|t_323|ref=Jon_1.12
+13	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_323|t_321|ref=Jon_1.12
+14	,	,	u	u--------	_	0	AuxX	_	t_324|0|ref=Jon_1.12
+15	καὶ	καί	c	c--------	_	14	COORD	_	t_325|t_324|ref=Jon_1.12
+16	κοπάσει	κοπάζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	15	PRED	_	t_326|t_325|ref=Jon_1.12
+17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_327|t_328|ref=Jon_1.12
+18	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_328|t_326|ref=Jon_1.12
+19	ἀφʼ	ἀπό	r	r--------	_	16	AuxP	_	t_329|t_326|ref=Jon_1.12
+20	ὑμῶν	σύ	p	p2p----g-	Case=g|Number=p|Person=2	19	OBJ	_	t_330|t_329|ref=Jon_1.12
+21	·	·	u	u--------	_	14	AuxK	_	t_331|t_324|ref=Jon_1.12
 
-# source = Septuaginta, Jonas 1.12
+# source = Septuaginta, Jon 1.12
 # text = διότι ἔγνωκα ἐγὼ ὅτι δι᾿ ἐμὲ ὁ κλύδων ὁ μέγας οὗτος ἐφʼ ὑμᾶς ἐστίν .
 # sent_id = 20
-1	διότι	διότι	d	d--------	_	2	AuxY	_	t_332|ref=Jonas_1.12
-2	ἔγνωκα	γιγνώσκω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_333|ref=Jonas_1.12
-3	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_334|ref=Jonas_1.12
-4	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_335|ref=Jonas_1.12
-5	δι᾿	διά	r	r--------	_	8	AuxP	_	t_336|ref=Jonas_1.12
-6	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_337|ref=Jonas_1.12
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_338|ref=Jonas_1.12
-8	κλύδων	κλύδων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_339|ref=Jonas_1.12
-9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_340|ref=Jonas_1.12
-10	μέγας	μέγας	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_341|ref=Jonas_1.12
-11	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_342|ref=Jonas_1.12
-12	ἐφʼ	ἐπί	r	r--------	_	14	AuxP	_	t_343|ref=Jonas_1.12
-13	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	12	PNOM	_	t_344|ref=Jonas_1.12
-14	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	OBJ	_	t_345|ref=Jonas_1.12
-15	.	.	u	u--------	_	2	AuxK	_	t_346|ref=Jonas_1.12
+1	διότι	διότι	d	d--------	_	2	AuxY	_	t_332|t_333|ref=Jon_1.12
+2	ἔγνωκα	γιγνώσκω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_333|0|ref=Jon_1.12
+3	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_334|t_333|ref=Jon_1.12
+4	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_335|t_333|ref=Jon_1.12
+5	δι᾿	διά	r	r--------	_	8	AuxP	_	t_336|t_339|ref=Jon_1.12
+6	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_337|t_336|ref=Jon_1.12
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_338|t_339|ref=Jon_1.12
+8	κλύδων	κλύδων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_339|t_345|ref=Jon_1.12
+9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_340|t_339|ref=Jon_1.12
+10	μέγας	μέγας	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_341|t_339|ref=Jon_1.12
+11	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_342|t_345|ref=Jon_1.12
+12	ἐφʼ	ἐπί	r	r--------	_	14	AuxP	_	t_343|t_345|ref=Jon_1.12
+13	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	12	PNOM	_	t_344|t_343|ref=Jon_1.12
+14	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	OBJ	_	t_345|t_335|ref=Jon_1.12
+15	.	.	u	u--------	_	2	AuxK	_	t_346|t_333|ref=Jon_1.12
 
-# source = Septuaginta, Jonas 1.12-1.13
+# source = Septuaginta, Jon 1.12-1.13
 # text = καὶ παρεβιάζοντο οἱ ἄνδρες τοῦ ἐπιστρέψαι πρὸς τὴν γῆν , καὶ οὐκ ἡδύναντο , ὅτι ἡ θάλασσα ἐπορεύετο καὶ ἐξηγείρετο μᾶλλον ἐπʼ αὐτούς .
 # sent_id = 21
-1	καὶ	καί	d	d--------	_	11	AuxY	_	t_347|ref=Jonas_1.12
-2	παρεβιάζοντο	παραβιάζομαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	11	PRED	_	t_348|ref=Jonas_1.13
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_349|ref=Jonas_1.13
-4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_350|ref=Jonas_1.13
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_351|ref=Jonas_1.13
-6	ἐπιστρέψαι	ἐπιστρέφω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_352|ref=Jonas_1.13
-7	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_353|ref=Jonas_1.13
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_354|ref=Jonas_1.13
-9	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_355|ref=Jonas_1.13
-10	,	,	u	u--------	_	0	AuxX	_	t_356|ref=Jonas_1.13
-11	καὶ	καί	c	c--------	_	10	COORD	_	t_357|ref=Jonas_1.13
-12	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_358|ref=Jonas_1.13
-13	ἡδύναντο	δύναμαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	11	PRED	_	t_359|ref=Jonas_1.13
-14	,	,	u	u--------	_	10	AuxX	_	t_360|ref=Jonas_1.13
-15	ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_361|ref=Jonas_1.13
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_362|ref=Jonas_1.13
-17	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_363|ref=Jonas_1.13
-18	ἐπορεύετο	πορεύω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	19	ADV	_	t_364|ref=Jonas_1.13
-19	καὶ	καί	c	c--------	_	15	COORD	_	t_365|ref=Jonas_1.13
-20	ἐξηγείρετο	ἐξαγριόω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	19	ADV	_	t_366|ref=Jonas_1.13
-21	μᾶλλον	μᾶλλον	d	d--------	_	20	ADV	_	t_367|ref=Jonas_1.13
-22	ἐπʼ	ἐπί	r	r--------	_	20	AuxP	_	t_368|ref=Jonas_1.13
-23	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	22	ADV	_	t_369|ref=Jonas_1.13
-24	.	.	u	u--------	_	10	AuxK	_	t_370|ref=Jonas_1.13
+1	καὶ	καί	d	d--------	_	11	AuxY	_	t_347|t_357|ref=Jon_1.12
+2	παρεβιάζοντο	παραβιάζομαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	11	PRED	_	t_348|t_357|ref=Jon_1.13
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_349|t_350|ref=Jon_1.13
+4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_350|t_357|ref=Jon_1.13
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_351|t_352|ref=Jon_1.13
+6	ἐπιστρέψαι	ἐπιστρέφω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_352|t_348|ref=Jon_1.13
+7	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_353|t_352|ref=Jon_1.13
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_354|t_355|ref=Jon_1.13
+9	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_355|t_353|ref=Jon_1.13
+10	,	,	u	u--------	_	0	AuxX	_	t_356|0|ref=Jon_1.13
+11	καὶ	καί	c	c--------	_	10	COORD	_	t_357|t_356|ref=Jon_1.13
+12	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_358|t_359|ref=Jon_1.13
+13	ἡδύναντο	δύναμαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	11	PRED	_	t_359|t_357|ref=Jon_1.13
+14	,	,	u	u--------	_	10	AuxX	_	t_360|t_356|ref=Jon_1.13
+15	ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_361|t_359|ref=Jon_1.13
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_362|t_363|ref=Jon_1.13
+17	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_363|t_365|ref=Jon_1.13
+18	ἐπορεύετο	πορεύω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	19	ADV	_	t_364|t_365|ref=Jon_1.13
+19	καὶ	καί	c	c--------	_	15	COORD	_	t_365|t_361|ref=Jon_1.13
+20	ἐξηγείρετο	ἐξαγριόω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	19	ADV	_	t_366|t_365|ref=Jon_1.13
+21	μᾶλλον	μᾶλλον	d	d--------	_	20	ADV	_	t_367|t_366|ref=Jon_1.13
+22	ἐπʼ	ἐπί	r	r--------	_	20	AuxP	_	t_368|t_366|ref=Jon_1.13
+23	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	22	ADV	_	t_369|t_368|ref=Jon_1.13
+24	.	.	u	u--------	_	10	AuxK	_	t_370|t_356|ref=Jon_1.13
 
-# source = Septuaginta, Jonas 1.13-1.14
+# source = Septuaginta, Jon 1.13-1.14
 # text = καὶ ἀνεβόησαν πρὸς Κύριον καὶ εἶπαν Μηδαμῶς , Κύριε ·
 # sent_id = 22
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_371|ref=Jonas_1.13
-2	ἀνεβόησαν	ἀναβοάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	5	PRED	_	t_372|ref=Jonas_1.14
-3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_373|ref=Jonas_1.14
-4	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_374|ref=Jonas_1.14
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_375|ref=Jonas_1.14
-6	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	5	PRED	_	t_376|ref=Jonas_1.14
-7	Μηδαμῶς	μηδαμῶς	d	d--------	_	6	ADV	_	t_377|ref=Jonas_1.14
-8	,	,	u	u--------	_	5	AuxX	_	t_378|ref=Jonas_1.14
-9	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_379|ref=Jonas_1.14
-10	·	·	u	u--------	_	5	AuxK	_	t_380|ref=Jonas_1.14
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_371|t_375|ref=Jon_1.13
+2	ἀνεβόησαν	ἀναβοάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	5	PRED	_	t_372|t_375|ref=Jon_1.14
+3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_373|t_372|ref=Jon_1.14
+4	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_374|t_373|ref=Jon_1.14
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_375|0|ref=Jon_1.14
+6	εἶπαν	λέγω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	5	PRED	_	t_376|t_375|ref=Jon_1.14
+7	Μηδαμῶς	μηδαμῶς	d	d--------	_	6	ADV	_	t_377|t_376|ref=Jon_1.14
+8	,	,	u	u--------	_	5	AuxX	_	t_378|t_375|ref=Jon_1.14
+9	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_379|t_376|ref=Jon_1.14
+10	·	·	u	u--------	_	5	AuxK	_	t_380|t_375|ref=Jon_1.14
 
-# source = Septuaginta, Jonas 1.14
+# source = Septuaginta, Jon 1.14
 # text = μὴ ἀπολώμεθα ἕνεκεν τῆς ψυχῆς τοῦ ἀνθρώπου τούτου , καὶ μὴ δῷς ἐφʼ ἡμᾶς αἷμα δίκαιον , διότι σύ , Κύριε , ὃν τρόπον ἐβούλου πεποίηκας .
 # sent_id = 23
-1	μὴ	μή	d	d--------	_	2	AuxZ	_	t_381|ref=Jonas_1.14
-2	ἀπολώμεθα	ἀπόλλυμι	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	10	PRED	_	t_382|ref=Jonas_1.14
-3	ἕνεκεν	ἕνεκα	r	r--------	_	2	AuxP	_	t_383|ref=Jonas_1.14
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_384|ref=Jonas_1.14
-5	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_385|ref=Jonas_1.14
-6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_386|ref=Jonas_1.14
-7	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_387|ref=Jonas_1.14
-8	τούτου	οὗτος	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_388|ref=Jonas_1.14
-9	,	,	u	u--------	_	0	AuxX	_	t_389|ref=Jonas_1.14
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_390|ref=Jonas_1.14
-11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_391|ref=Jonas_1.14
-12	δῷς	δίδωμι	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	10	PRED	_	t_392|ref=Jonas_1.14
-13	ἐφʼ	ἐπί	r	r--------	_	12	AuxP	_	t_393|ref=Jonas_1.14
-14	ἡμᾶς	ἐγώ	p	p-p---ma-	Case=a|Gender=m|Number=p	13	ADV	_	t_394|ref=Jonas_1.14
-15	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_395|ref=Jonas_1.14
-16	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_396|ref=Jonas_1.14
-17	,	,	u	u--------	_	9	AuxX	_	t_397|ref=Jonas_1.14
-18	διότι	διότι	c	c--------	_	12	AuxC	_	t_398|ref=Jonas_1.14
-19	σύ	σύ	p	p2s----n-	Case=n|Number=s|Person=2	26	SBJ	_	t_399|ref=Jonas_1.14
-20	,	,	u	u--------	_	9	AuxX	_	t_400|ref=Jonas_1.14
-21	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_401|ref=Jonas_1.14
-22	,	,	u	u--------	_	9	AuxX	_	t_402|ref=Jonas_1.14
-23	ὃν	ὅς	a	a-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_403|ref=Jonas_1.14
-24	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	26	ADV	_	t_404|ref=Jonas_1.14
-25	ἐβούλου	βούλομαι	v	v2siie---	Mood=i|Number=s|Person=2|Tense=i|Voice=e	26	OBJ	_	t_405|ref=Jonas_1.14
-26	πεποίηκας	ποιέω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	18	OBJ	_	t_406|ref=Jonas_1.14
-27	.	.	u	u--------	_	9	AuxK	_	t_407|ref=Jonas_1.14
+1	μὴ	μή	d	d--------	_	2	AuxZ	_	t_381|t_382|ref=Jon_1.14
+2	ἀπολώμεθα	ἀπόλλυμι	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	10	PRED	_	t_382|t_390|ref=Jon_1.14
+3	ἕνεκεν	ἕνεκα	r	r--------	_	2	AuxP	_	t_383|t_382|ref=Jon_1.14
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_384|t_385|ref=Jon_1.14
+5	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_385|t_383|ref=Jon_1.14
+6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_386|t_387|ref=Jon_1.14
+7	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_387|t_385|ref=Jon_1.14
+8	τούτου	οὗτος	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_388|t_387|ref=Jon_1.14
+9	,	,	u	u--------	_	0	AuxX	_	t_389|0|ref=Jon_1.14
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_390|t_389|ref=Jon_1.14
+11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_391|t_392|ref=Jon_1.14
+12	δῷς	δίδωμι	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	10	PRED	_	t_392|t_390|ref=Jon_1.14
+13	ἐφʼ	ἐπί	r	r--------	_	12	AuxP	_	t_393|t_392|ref=Jon_1.14
+14	ἡμᾶς	ἐγώ	p	p-p---ma-	Case=a|Gender=m|Number=p	13	ADV	_	t_394|t_393|ref=Jon_1.14
+15	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_395|t_392|ref=Jon_1.14
+16	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_396|t_395|ref=Jon_1.14
+17	,	,	u	u--------	_	9	AuxX	_	t_397|t_389|ref=Jon_1.14
+18	διότι	διότι	c	c--------	_	12	AuxC	_	t_398|t_392|ref=Jon_1.14
+19	σύ	σύ	p	p2s----n-	Case=n|Number=s|Person=2	26	SBJ	_	t_399|t_406|ref=Jon_1.14
+20	,	,	u	u--------	_	9	AuxX	_	t_400|t_389|ref=Jon_1.14
+21	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_401|t_392|ref=Jon_1.14
+22	,	,	u	u--------	_	9	AuxX	_	t_402|t_389|ref=Jon_1.14
+23	ὃν	ὅς	a	a-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_403|t_404|ref=Jon_1.14
+24	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	26	ADV	_	t_404|t_406|ref=Jon_1.14
+25	ἐβούλου	βούλομαι	v	v2siie---	Mood=i|Number=s|Person=2|Tense=i|Voice=e	26	OBJ	_	t_405|t_406|ref=Jon_1.14
+26	πεποίηκας	ποιέω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	18	OBJ	_	t_406|t_398|ref=Jon_1.14
+27	.	.	u	u--------	_	9	AuxK	_	t_407|t_389|ref=Jon_1.14
 
-# source = Septuaginta, Jonas 1.14-1.15
+# source = Septuaginta, Jon 1.14-1.15
 # text = καὶ ἔλαβον τὸν Ἰωνᾶν καὶ ἐξέβαλον αὐτὸν εἰς τὴν θάλασσαν , καὶ ἔστη ἡ θάλασσα ἐκ τοῦ σάλου αὐτῆς .
 # sent_id = 24
-1	καὶ	καί	d	d--------	_	12	AuxY	_	t_408|ref=Jonas_1.14
-2	ἔλαβον	λαμβάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_409|ref=Jonas_1.15
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_410|ref=Jonas_1.15
-4	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_411|ref=Jonas_1.15
-5	καὶ	καί	c	c--------	_	12	AuxY	_	t_412|ref=Jonas_1.15
-6	ἐξέβαλον	ἐκβάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_413|ref=Jonas_1.15
-7	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_414|ref=Jonas_1.15
-8	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_415|ref=Jonas_1.15
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_416|ref=Jonas_1.15
-10	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_417|ref=Jonas_1.15
-11	,	,	u	u--------	_	0	AuxX	_	t_418|ref=Jonas_1.15
-12	καὶ	καί	c	c--------	_	11	COORD	_	t_419|ref=Jonas_1.15
-13	ἔστη	ἵστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_420|ref=Jonas_1.15
-14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_421|ref=Jonas_1.15
-15	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_422|ref=Jonas_1.15
-16	ἐκ	ἐκ	r	r--------	_	13	AuxP	_	t_423|ref=Jonas_1.15
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_424|ref=Jonas_1.15
-18	σάλου	σάλος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ADV	_	t_425|ref=Jonas_1.15
-19	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_426|ref=Jonas_1.15
-20	.	.	u	u--------	_	11	AuxK	_	t_427|ref=Jonas_1.15
+1	καὶ	καί	d	d--------	_	12	AuxY	_	t_408|t_419|ref=Jon_1.14
+2	ἔλαβον	λαμβάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_409|t_419|ref=Jon_1.15
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_410|t_411|ref=Jon_1.15
+4	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_411|t_409|ref=Jon_1.15
+5	καὶ	καί	c	c--------	_	12	AuxY	_	t_412|t_419|ref=Jon_1.15
+6	ἐξέβαλον	ἐκβάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_413|t_419|ref=Jon_1.15
+7	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_414|t_413|ref=Jon_1.15
+8	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_415|t_413|ref=Jon_1.15
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_416|t_417|ref=Jon_1.15
+10	θάλασσαν	θάλασσα	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_417|t_415|ref=Jon_1.15
+11	,	,	u	u--------	_	0	AuxX	_	t_418|0|ref=Jon_1.15
+12	καὶ	καί	c	c--------	_	11	COORD	_	t_419|t_418|ref=Jon_1.15
+13	ἔστη	ἵστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_420|t_419|ref=Jon_1.15
+14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_421|t_422|ref=Jon_1.15
+15	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_422|t_420|ref=Jon_1.15
+16	ἐκ	ἐκ	r	r--------	_	13	AuxP	_	t_423|t_420|ref=Jon_1.15
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_424|t_425|ref=Jon_1.15
+18	σάλου	σάλος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ADV	_	t_425|t_423|ref=Jon_1.15
+19	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_426|t_425|ref=Jon_1.15
+20	.	.	u	u--------	_	11	AuxK	_	t_427|t_418|ref=Jon_1.15
 
-# source = Septuaginta, Jonas 1.15-1.16
+# source = Septuaginta, Jon 1.15-1.16
 # text = καὶ ἐφοβήθησαν οἱ ἄνδρες φόβῳ μεγάλῳ τὸν κύριον , καὶ ἔθυσαν θυσίας τῷ κυρίῳ καὶ εὔξαντο εὐχάς .
 # sent_id = 25
-1	καὶ	καί	d	d--------	_	15	AuxY	_	t_428|ref=Jonas_1.15
-2	ἐφοβήθησαν	φοβέω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	15	PRED	_	t_429|ref=Jonas_1.16
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_430|ref=Jonas_1.16
-4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_431|ref=Jonas_1.16
-5	φόβῳ	φόβος	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_432|ref=Jonas_1.16
-6	μεγάλῳ	μέγας	a	a-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_433|ref=Jonas_1.16
-7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_434|ref=Jonas_1.16
-8	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_435|ref=Jonas_1.16
-9	,	,	u	u--------	_	0	AuxX	_	t_436|ref=Jonas_1.16
-10	καὶ	καί	d	d--------	_	15	AuxY	_	t_437|ref=Jonas_1.16
-11	ἔθυσαν	θύω1	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	15	PRED	_	t_438|ref=Jonas_1.16
-12	θυσίας	θυσία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_439|ref=Jonas_1.16
-13	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_440|ref=Jonas_1.16
-14	κυρίῳ	κύριος	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_441|ref=Jonas_1.16
-15	καὶ	καί	c	c--------	_	9	COORD	_	t_442|ref=Jonas_1.16
-16	εὔξαντο	εὔχομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	15	PRED	_	t_443|ref=Jonas_1.16
-17	εὐχάς	εὐχή	n	n-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_444|ref=Jonas_1.16
-18	.	.	u	u--------	_	9	AuxK	_	t_445|ref=Jonas_1.16
+1	καὶ	καί	d	d--------	_	15	AuxY	_	t_428|t_442|ref=Jon_1.15
+2	ἐφοβήθησαν	φοβέω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	15	PRED	_	t_429|t_442|ref=Jon_1.16
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_430|t_431|ref=Jon_1.16
+4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_431|t_429|ref=Jon_1.16
+5	φόβῳ	φόβος	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_432|t_429|ref=Jon_1.16
+6	μεγάλῳ	μέγας	a	a-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_433|t_432|ref=Jon_1.16
+7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_434|t_435|ref=Jon_1.16
+8	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_435|t_429|ref=Jon_1.16
+9	,	,	u	u--------	_	0	AuxX	_	t_436|0|ref=Jon_1.16
+10	καὶ	καί	d	d--------	_	15	AuxY	_	t_437|t_442|ref=Jon_1.16
+11	ἔθυσαν	θύω1	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	15	PRED	_	t_438|t_442|ref=Jon_1.16
+12	θυσίας	θυσία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_439|t_438|ref=Jon_1.16
+13	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_440|t_441|ref=Jon_1.16
+14	κυρίῳ	κύριος	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_441|t_438|ref=Jon_1.16
+15	καὶ	καί	c	c--------	_	9	COORD	_	t_442|t_436|ref=Jon_1.16
+16	εὔξαντο	εὔχομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	15	PRED	_	t_443|t_442|ref=Jon_1.16
+17	εὐχάς	εὐχή	n	n-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_444|t_443|ref=Jon_1.16
+18	.	.	u	u--------	_	9	AuxK	_	t_445|t_436|ref=Jon_1.16
 
-# source = Septuaginta, Jonas 1.16-2.1
+# source = Septuaginta, Jon 1.16-2.1
 # text = Καὶ προσέταξεν Κύριος κήτει μεγάλῳ καταπιεῖν τὸν καὶ ἦν Ἰωνᾶς ἐν τῇ κοιλίᾳ τοῦ κήτους τρεῖς ἡμέρας καὶ τρεῖς νύκτας .
 # sent_id = 26
-1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_446|ref=Jonas_1.16
-2	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_447|ref=Jonas_2.1
-3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_448|ref=Jonas_2.1
-4	κήτει	κῆτος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	OBJ	_	t_449|ref=Jonas_2.1
-5	μεγάλῳ	μέγας	a	a-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_450|ref=Jonas_2.1
-6	καταπιεῖν	καταπίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_451|ref=Jonas_2.1
-7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_452|ref=Jonas_2.1
-8	καὶ	καί	c	c--------	_	4	COORD	_	t_453|ref=Jonas_2.1
-9	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	ATR	_	t_454|ref=Jonas_2.1
-10	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_455|ref=Jonas_2.1
-11	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_456|ref=Jonas_2.1
-12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_457|ref=Jonas_2.1
-13	κοιλίᾳ	κοιλία	n	n-s---fd-	Case=d|Gender=f|Number=s	11	PNOM	_	t_458|ref=Jonas_2.1
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_459|ref=Jonas_2.1
-15	κήτους	κήτους	n	n-s---ng-	Case=g|Gender=m|Number=s	13	ATR	_	t_460|ref=Jonas_2.1
-16	τρεῖς	τρεῖς	a	a--------	_	17	ATR	_	t_461|ref=Jonas_2.1
-17	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	18	ADV	_	t_462|ref=Jonas_2.1
-18	καὶ	καί	c	c--------	_	9	COORD	_	t_463|ref=Jonas_2.1
-19	τρεῖς	τρεῖς	a	a-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_464|ref=Jonas_2.1
-20	νύκτας	νύξ	n	n-p---fa-	Case=a|Gender=f|Number=p	18	ADV	_	t_465|ref=Jonas_2.1
-21	.	.	u	u--------	_	2	AuxK	_	t_466|ref=Jonas_2.1
+1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_446|t_447|ref=Jon_1.16
+2	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_447|0|ref=Jon_2.1
+3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_448|t_447|ref=Jon_2.1
+4	κήτει	κῆτος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	OBJ	_	t_449|t_447|ref=Jon_2.1
+5	μεγάλῳ	μέγας	a	a-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_450|t_449|ref=Jon_2.1
+6	καταπιεῖν	καταπίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_451|t_447|ref=Jon_2.1
+7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_452|t_451|ref=Jon_2.1
+8	καὶ	καί	c	c--------	_	4	COORD	_	t_453|t_449|ref=Jon_2.1
+9	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	ATR	_	t_454|t_453|ref=Jon_2.1
+10	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_455|t_454|ref=Jon_2.1
+11	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_456|t_454|ref=Jon_2.1
+12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_457|t_458|ref=Jon_2.1
+13	κοιλίᾳ	κοιλία	n	n-s---fd-	Case=d|Gender=f|Number=s	11	PNOM	_	t_458|t_456|ref=Jon_2.1
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_459|t_460|ref=Jon_2.1
+15	κήτους	κήτους	n	n-s---ng-	Case=g|Gender=m|Number=s	13	ATR	_	t_460|t_458|ref=Jon_2.1
+16	τρεῖς	τρεῖς	a	a--------	_	17	ATR	_	t_461|t_462|ref=Jon_2.1
+17	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	18	ADV	_	t_462|t_463|ref=Jon_2.1
+18	καὶ	καί	c	c--------	_	9	COORD	_	t_463|t_454|ref=Jon_2.1
+19	τρεῖς	τρεῖς	a	a-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_464|t_465|ref=Jon_2.1
+20	νύκτας	νύξ	n	n-p---fa-	Case=a|Gender=f|Number=p	18	ADV	_	t_465|t_463|ref=Jon_2.1
+21	.	.	u	u--------	_	2	AuxK	_	t_466|t_447|ref=Jon_2.1
 
-# source = Septuaginta, Jonas 2.1-2.3
+# source = Septuaginta, Jon 2.1-2.3
 # text = καὶ προσηύξατο Ἰωνᾶς πρὸς Κύριον τὸν θεὸν αὐτοῦ ἐκ τῆς κοιλίας τοῦ κήτους , καὶ εἶπεν Ἐβόησα ἐν θλίψει μου πρὸς Κύριον τὸν θεόν μου , καὶ εἰσήκουσέν μου .
 # sent_id = 27
-1	καὶ	καί	d	d--------	_	15	AuxY	_	t_467|ref=Jonas_2.1
-2	προσηύξατο	προσεύχομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	15	PRED	_	t_468|ref=Jonas_2.2
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_469|ref=Jonas_2.2
-4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_470|ref=Jonas_2.2
-5	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_471|ref=Jonas_2.2
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_472|ref=Jonas_2.2
-7	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	APOS	_	t_473|ref=Jonas_2.2
-8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_474|ref=Jonas_2.2
-9	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_475|ref=Jonas_2.2
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_476|ref=Jonas_2.2
-11	κοιλίας	κοιλία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_477|ref=Jonas_2.2
-12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_478|ref=Jonas_2.2
-13	κήτους	κήτους	n	n-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_479|ref=Jonas_2.2
-14	,	,	u	u--------	_	0	AuxX	_	t_480|ref=Jonas_2.2
-15	καὶ	καί	c	c--------	_	14	COORD	_	t_481|ref=Jonas_2.2
-16	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	27	PRED	_	t_482|ref=Jonas_2.3
-17	Ἐβόησα	βοάω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	16	OBJ	_	t_483|ref=Jonas_2.3
-18	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_484|ref=Jonas_2.3
-19	θλίψει	θλίψις	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_485|ref=Jonas_2.3
-20	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	19	ATR	_	t_486|ref=Jonas_2.3
-21	πρὸς	πρός	r	r--------	_	17	AuxP	_	t_487|ref=Jonas_2.3
-22	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_488|ref=Jonas_2.3
-23	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_489|ref=Jonas_2.3
-24	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	22	APOS	_	t_490|ref=Jonas_2.3
-25	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	24	ATR	_	t_491|ref=Jonas_2.3
-26	,	,	u	u--------	_	14	AuxX	_	t_492|ref=Jonas_2.3
-27	καὶ	καί	c	c--------	_	14	COORD	_	t_493|ref=Jonas_2.3
-28	εἰσήκουσέν	εἰσακούω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	27	PRED	_	t_494|ref=Jonas_2.3
-29	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	28	OBJ	_	t_495|ref=Jonas_2.3
-30	.	.	u	u--------	_	14	AuxK	_	t_496|ref=Jonas_2.3
+1	καὶ	καί	d	d--------	_	15	AuxY	_	t_467|t_481|ref=Jon_2.1
+2	προσηύξατο	προσεύχομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	15	PRED	_	t_468|t_481|ref=Jon_2.2
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_469|t_468|ref=Jon_2.2
+4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_470|t_468|ref=Jon_2.2
+5	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_471|t_470|ref=Jon_2.2
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_472|t_473|ref=Jon_2.2
+7	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	APOS	_	t_473|t_471|ref=Jon_2.2
+8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_474|t_473|ref=Jon_2.2
+9	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_475|t_468|ref=Jon_2.2
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_476|t_477|ref=Jon_2.2
+11	κοιλίας	κοιλία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_477|t_475|ref=Jon_2.2
+12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_478|t_479|ref=Jon_2.2
+13	κήτους	κήτους	n	n-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_479|t_477|ref=Jon_2.2
+14	,	,	u	u--------	_	0	AuxX	_	t_480|0|ref=Jon_2.2
+15	καὶ	καί	c	c--------	_	14	COORD	_	t_481|t_480|ref=Jon_2.2
+16	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	27	PRED	_	t_482|t_493|ref=Jon_2.3
+17	Ἐβόησα	βοάω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	16	OBJ	_	t_483|t_482|ref=Jon_2.3
+18	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_484|t_483|ref=Jon_2.3
+19	θλίψει	θλίψις	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_485|t_484|ref=Jon_2.3
+20	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	19	ATR	_	t_486|t_485|ref=Jon_2.3
+21	πρὸς	πρός	r	r--------	_	17	AuxP	_	t_487|t_483|ref=Jon_2.3
+22	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_488|t_487|ref=Jon_2.3
+23	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_489|t_490|ref=Jon_2.3
+24	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	22	APOS	_	t_490|t_488|ref=Jon_2.3
+25	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	24	ATR	_	t_491|t_490|ref=Jon_2.3
+26	,	,	u	u--------	_	14	AuxX	_	t_492|t_480|ref=Jon_2.3
+27	καὶ	καί	c	c--------	_	14	COORD	_	t_493|t_480|ref=Jon_2.3
+28	εἰσήκουσέν	εἰσακούω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	27	PRED	_	t_494|t_493|ref=Jon_2.3
+29	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	28	OBJ	_	t_495|t_494|ref=Jon_2.3
+30	.	.	u	u--------	_	14	AuxK	_	t_496|t_480|ref=Jon_2.3
 
-# source = Septuaginta, Jonas 2.3
+# source = Septuaginta, Jon 2.3
 # text = ἐκ κοιλίας ᾅδου κραυγῆς μου ἤκουσας φωνῆς μου ·
 # sent_id = 28
-1	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_497|ref=Jonas_2.3
-2	κοιλίας	κοιλία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_498|ref=Jonas_2.3
-3	ᾅδου	ᾅδης	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_499|ref=Jonas_2.3
-4	κραυγῆς	κραυγή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_500|ref=Jonas_2.3
-5	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_501|ref=Jonas_2.3
-6	ἤκουσας	ἀκούω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_502|ref=Jonas_2.3
-7	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_503|ref=Jonas_2.3
-8	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_504|ref=Jonas_2.3
-9	·	·	u	u--------	_	6	AuxK	_	t_505|ref=Jonas_2.3
+1	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_497|t_502|ref=Jon_2.3
+2	κοιλίας	κοιλία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_498|t_497|ref=Jon_2.3
+3	ᾅδου	ᾅδης	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_499|t_498|ref=Jon_2.3
+4	κραυγῆς	κραυγή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_500|t_502|ref=Jon_2.3
+5	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_501|t_503|ref=Jon_2.3
+6	ἤκουσας	ἀκούω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_502|0|ref=Jon_2.3
+7	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_503|t_502|ref=Jon_2.3
+8	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_504|t_503|ref=Jon_2.3
+9	·	·	u	u--------	_	6	AuxK	_	t_505|t_502|ref=Jon_2.3
 
-# source = Septuaginta, Jonas 2.3-2.4
+# source = Septuaginta, Jon 2.3-2.4
 # text = ⁴ἀπέρριψάς με εἰς βάθη καρδίας θαλάσσης , καὶ ποταμοί με ἐκύκλωσαν , πάντες οἱ μετεωρισμοί σου καὶ τὰ κύματά σου ἐπʼ ἐμὲ διῆλθον .
 # sent_id = 29
-1	⁴ἀπέρριψάς	ἀπορρίπτω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_506|ref=Jonas_2.3
-2	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	1	OBJ	_	t_507|ref=Jonas_2.4
-3	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_508|ref=Jonas_2.4
-4	βάθη	βάθος	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_509|ref=Jonas_2.4
-5	καρδίας	καρδία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_510|ref=Jonas_2.4
-6	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_511|ref=Jonas_2.4
-7	,	,	u	u--------	_	0	AuxX	_	t_512|ref=Jonas_2.4
-8	καὶ	καί	c	c--------	_	12	AuxY	_	t_513|ref=Jonas_2.4
-9	ποταμοί	ποταμός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_514|ref=Jonas_2.4
-10	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	11	OBJ	_	t_515|ref=Jonas_2.4
-11	ἐκύκλωσαν	κυκλόω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_516|ref=Jonas_2.4
-12	,	,	u	u--------	_	7	COORD	_	t_517|ref=Jonas_2.4
-13	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_518|ref=Jonas_2.4
-14	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_519|ref=Jonas_2.4
-15	μετεωρισμοί	μετεωρισμός	n	n-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_520|ref=Jonas_2.4
-16	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_521|ref=Jonas_2.4
-17	καὶ	καί	c	c--------	_	23	COORD	_	t_522|ref=Jonas_2.4
-18	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	19	ATR	_	t_523|ref=Jonas_2.4
-19	κύματά	κῦμα	n	n-p---nn-	Case=n|Gender=n|Number=p	17	SBJ	_	t_524|ref=Jonas_2.4
-20	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	19	ATR	_	t_525|ref=Jonas_2.4
-21	ἐπʼ	ἐπί	r	r--------	_	23	AuxP	_	t_526|ref=Jonas_2.4
-22	ἐμὲ	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	21	OBJ	_	t_527|ref=Jonas_2.4
-23	διῆλθον	διέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_528|ref=Jonas_2.4
-24	.	.	u	u--------	_	7	AuxK	_	t_529|ref=Jonas_2.4
+1	⁴ἀπέρριψάς	ἀπορρίπτω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_506|t_517|ref=Jon_2.3
+2	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	1	OBJ	_	t_507|t_506|ref=Jon_2.4
+3	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_508|t_506|ref=Jon_2.4
+4	βάθη	βάθος	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_509|t_508|ref=Jon_2.4
+5	καρδίας	καρδία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_510|t_509|ref=Jon_2.4
+6	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_511|t_510|ref=Jon_2.4
+7	,	,	u	u--------	_	0	AuxX	_	t_512|0|ref=Jon_2.4
+8	καὶ	καί	c	c--------	_	12	AuxY	_	t_513|t_517|ref=Jon_2.4
+9	ποταμοί	ποταμός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_514|t_516|ref=Jon_2.4
+10	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	11	OBJ	_	t_515|t_516|ref=Jon_2.4
+11	ἐκύκλωσαν	κυκλόω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_516|t_517|ref=Jon_2.4
+12	,	,	u	u--------	_	7	COORD	_	t_517|t_512|ref=Jon_2.4
+13	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_518|t_520|ref=Jon_2.4
+14	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_519|t_520|ref=Jon_2.4
+15	μετεωρισμοί	μετεωρισμός	n	n-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_520|t_522|ref=Jon_2.4
+16	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_521|t_520|ref=Jon_2.4
+17	καὶ	καί	c	c--------	_	23	COORD	_	t_522|t_528|ref=Jon_2.4
+18	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	19	ATR	_	t_523|t_524|ref=Jon_2.4
+19	κύματά	κῦμα	n	n-p---nn-	Case=n|Gender=n|Number=p	17	SBJ	_	t_524|t_522|ref=Jon_2.4
+20	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	19	ATR	_	t_525|t_524|ref=Jon_2.4
+21	ἐπʼ	ἐπί	r	r--------	_	23	AuxP	_	t_526|t_528|ref=Jon_2.4
+22	ἐμὲ	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	21	OBJ	_	t_527|t_526|ref=Jon_2.4
+23	διῆλθον	διέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	12	PRED	_	t_528|t_517|ref=Jon_2.4
+24	.	.	u	u--------	_	7	AuxK	_	t_529|t_512|ref=Jon_2.4
 
-# source = Septuaginta, Jonas 2.4-2.5
+# source = Septuaginta, Jon 2.4-2.5
 # text = ⁵καὶ ἐγώ εἶπα Ἀπῶσμαι ἐξ ὀφθαλμῶν σου ·
 # sent_id = 30
-1	⁵καὶ	5	d	d--------	_	0	COORD	_	t_530|ref=Jonas_2.4
-2	ἐγώ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	3	SBJ	_	t_531|ref=Jonas_2.5
-3	εἶπα	λέγω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	1	PRED	_	t_532|ref=Jonas_2.5
-4	Ἀπῶσμαι	ἀπωθέω	n	n-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_533|ref=Jonas_2.5
-5	ἐξ	ἐκ	r	r--------	_	3	AuxP	_	t_534|ref=Jonas_2.5
-6	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_535|ref=Jonas_2.5
-7	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	6	ATR	_	t_536|ref=Jonas_2.5
-8	·	·	u	u--------	_	1	AuxK	_	t_537|ref=Jonas_2.5
+1	⁵καὶ	5	d	d--------	_	0	COORD	_	t_530|0|ref=Jon_2.4
+2	ἐγώ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	3	SBJ	_	t_531|t_532|ref=Jon_2.5
+3	εἶπα	λέγω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	1	PRED	_	t_532|t_530|ref=Jon_2.5
+4	Ἀπῶσμαι	ἀπωθέω	n	n-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_533|t_532|ref=Jon_2.5
+5	ἐξ	ἐκ	r	r--------	_	3	AuxP	_	t_534|t_532|ref=Jon_2.5
+6	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_535|t_534|ref=Jon_2.5
+7	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	6	ATR	_	t_536|t_535|ref=Jon_2.5
+8	·	·	u	u--------	_	1	AuxK	_	t_537|t_530|ref=Jon_2.5
 
-# source = Septuaginta, Jonas 2.5
+# source = Septuaginta, Jon 2.5
 # text = ἆρα προσθήσω τοῦ ἐπιβλέψαι πρὸς τὸν λαὸν τὸν ἅγιόν σου ;
 # sent_id = 31
-1	ἆρα	ἆρα	d	d--------	_	2	AuxY	_	t_538|ref=Jonas_2.5
-2	προσθήσω	προστίθημι	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_539|ref=Jonas_2.5
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_540|ref=Jonas_2.5
-4	ἐπιβλέψαι	ἐπιβλέπω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_541|ref=Jonas_2.5
-5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_542|ref=Jonas_2.5
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_543|ref=Jonas_2.5
-7	λαὸν	λαός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_544|ref=Jonas_2.5
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_545|ref=Jonas_2.5
-9	ἅγιόν	ἅγιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_546|ref=Jonas_2.5
-10	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	7	ATR	_	t_547|ref=Jonas_2.5
-11	;	;	u	u--------	_	2	AuxK	_	t_548|ref=Jonas_2.5
+1	ἆρα	ἆρα	d	d--------	_	2	AuxY	_	t_538|t_539|ref=Jon_2.5
+2	προσθήσω	προστίθημι	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_539|0|ref=Jon_2.5
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_540|t_541|ref=Jon_2.5
+4	ἐπιβλέψαι	ἐπιβλέπω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_541|t_539|ref=Jon_2.5
+5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_542|t_541|ref=Jon_2.5
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_543|t_544|ref=Jon_2.5
+7	λαὸν	λαός	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_544|t_542|ref=Jon_2.5
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_545|t_544|ref=Jon_2.5
+9	ἅγιόν	ἅγιος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_546|t_544|ref=Jon_2.5
+10	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	7	ATR	_	t_547|t_544|ref=Jon_2.5
+11	;	;	u	u--------	_	2	AuxK	_	t_548|t_539|ref=Jon_2.5
 
-# source = Septuaginta, Jonas 2.5-2.6
+# source = Septuaginta, Jon 2.5-2.6
 # text = ⁶περιεχύθη ὕδωρ μοι ἕως ψυχῆς [0] .
 # sent_id = 32
-1	⁶περιεχύθη	περιχέω	n	n-s---fn-	Mood=i|Number=s|Person=3|Tense=a|Voice=p	6	PNOM	_	t_549|ref=Jonas_2.5
-2	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_550|ref=Jonas_2.6
-3	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	6	ADV	_	t_551|ref=Jonas_2.6
-4	ἕως	ἕως	r	r--------	_	6	AuxP	_	t_552|ref=Jonas_2.6
-5	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_553|ref=Jonas_2.6
-6	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Jonas_1.1
-7	.	.	u	u--------	_	6	AuxK	_	t_554|ref=Jonas_2.6
+1	⁶περιεχύθη	περιχέω	n	n-s---fn-	Mood=i|Number=s|Person=3|Tense=a|Voice=p	6	PNOM	_	t_549|e_2|ref=Jon_2.5
+2	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_550|e_2|ref=Jon_2.6
+3	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	6	ADV	_	t_551|e_2|ref=Jon_2.6
+4	ἕως	ἕως	r	r--------	_	6	AuxP	_	t_552|e_2|ref=Jon_2.6
+5	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_553|t_552|ref=Jon_2.6
+6	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Jon_1.1
+7	.	.	u	u--------	_	6	AuxK	_	t_554|e_2|ref=Jon_2.6
 
-# source = Septuaginta, Jonas 2.6-2.7
+# source = Septuaginta, Jon 2.6-2.7
 # text = ἄβυσσος ἐκύκλωσέν με ἐσχάτη , ἔδυ ἡ κεφαλή μου εἰς σχισμὰς ὀρέων , ⁷κατέβην εἰς γῆν ἧς οἱ μοχλοὶ αὐτῆς κάτοχοι αἰώνιοι [0] ·
 # sent_id = 33
-1	ἄβυσσος	ἄβυσσος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_555|ref=Jonas_2.6
-2	ἐκύκλωσέν	κυκλόω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_556|ref=Jonas_2.6
-3	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	2	OBJ	_	t_557|ref=Jonas_2.6
-4	ἐσχάτη	ἔσχατος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_558|ref=Jonas_2.6
-5	,	,	u	u--------	_	0	COORD	_	t_559|ref=Jonas_2.6
-6	ἔδυ	δύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_560|ref=Jonas_2.6
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_561|ref=Jonas_2.6
-8	κεφαλή	κεφαλή	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_562|ref=Jonas_2.6
-9	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	8	ATR	_	t_563|ref=Jonas_2.6
-10	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_564|ref=Jonas_2.6
-11	σχισμὰς	σχισμή	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_565|ref=Jonas_2.6
-12	ὀρέων	ὄρος	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_566|ref=Jonas_2.6
-13	,	,	u	u--------	_	6	AuxX	_	t_567|ref=Jonas_2.6
-14	⁷κατέβην	καταβαίνω	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_568|ref=Jonas_2.6
-15	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_569|ref=Jonas_2.6
-16	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_570|ref=Jonas_2.7
-17	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	23	OBJ	_	t_571|ref=Jonas_2.7
-18	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_572|ref=Jonas_2.7
-19	μοχλοὶ	μοχλός	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_573|ref=Jonas_2.7
-20	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_574|ref=Jonas_2.7
-21	κάτοχοι	κάτοχος	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_575|ref=Jonas_2.7
-22	αἰώνιοι	αἰώνιος	a	a-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_576|ref=Jonas_2.7
-23	[0]	[0]	-	---------	_	16	ATR	_	e_3|ref=Jonas_1.1
-24	·	·	u	u--------	_	5	AuxK	_	t_577|ref=Jonas_2.7
+1	ἄβυσσος	ἄβυσσος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_555|t_556|ref=Jon_2.6
+2	ἐκύκλωσέν	κυκλόω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_556|t_559|ref=Jon_2.6
+3	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	2	OBJ	_	t_557|t_556|ref=Jon_2.6
+4	ἐσχάτη	ἔσχατος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_558|t_556|ref=Jon_2.6
+5	,	,	u	u--------	_	0	COORD	_	t_559|0|ref=Jon_2.6
+6	ἔδυ	δύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_560|t_559|ref=Jon_2.6
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_561|t_562|ref=Jon_2.6
+8	κεφαλή	κεφαλή	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_562|t_560|ref=Jon_2.6
+9	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	8	ATR	_	t_563|t_562|ref=Jon_2.6
+10	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_564|t_560|ref=Jon_2.6
+11	σχισμὰς	σχισμή	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_565|t_564|ref=Jon_2.6
+12	ὀρέων	ὄρος	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_566|t_565|ref=Jon_2.6
+13	,	,	u	u--------	_	6	AuxX	_	t_567|t_560|ref=Jon_2.6
+14	⁷κατέβην	καταβαίνω	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_568|t_570|ref=Jon_2.6
+15	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_569|t_560|ref=Jon_2.6
+16	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_570|t_569|ref=Jon_2.7
+17	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	23	OBJ	_	t_571|e_3|ref=Jon_2.7
+18	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_572|t_573|ref=Jon_2.7
+19	μοχλοὶ	μοχλός	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_573|e_3|ref=Jon_2.7
+20	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_574|t_573|ref=Jon_2.7
+21	κάτοχοι	κάτοχος	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_575|e_3|ref=Jon_2.7
+22	αἰώνιοι	αἰώνιος	a	a-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_576|t_573|ref=Jon_2.7
+23	[0]	[0]	-	---------	_	16	ATR	_	e_3|t_570|ref=Jon_1.1
+24	·	·	u	u--------	_	5	AuxK	_	t_577|t_559|ref=Jon_2.7
 
-# source = Septuaginta, Jonas 2.7-2.8
+# source = Septuaginta, Jon 2.7-2.8
 # text = καὶ ἀναβήτω φθορὰ ζωῆς μου , Κύριε ὁ θεός μου , 8ἐν τῷ ἐκλιπεῖν ἀπʼ ἐμοῦ τὴν ψυχήν μου τοῦ κυρίου ἐμνήσθην , καὶ ἔλθοι πρὸς σὲ ἡ εὐχή μου εἰς ναὸν ἅγιόν σου .
 # sent_id = 34
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_578|ref=Jonas_2.7
-2	ἀναβήτω	ἀναβαίνω	v	v3sama---	Mood=m|Number=s|Person=3|Tense=a|Voice=a	24	PRED	_	t_579|ref=Jonas_2.7
-3	φθορὰ	φθορά	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_580|ref=Jonas_2.7
-4	ζωῆς	ζωή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_581|ref=Jonas_2.7
-5	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	4	ATR	_	t_582|ref=Jonas_2.7
-6	,	,	u	u--------	_	0	AuxX	_	t_583|ref=Jonas_2.7
-7	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_584|ref=Jonas_2.7
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_585|ref=Jonas_2.7
-9	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	APOS	_	t_586|ref=Jonas_2.7
-10	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	9	ATR	_	t_587|ref=Jonas_2.7
-11	,	,	u	u--------	_	6	AuxX	_	t_588|ref=Jonas_2.7
-12	8ἐν	8ἐν	r	r--------	_	22	ExD	_	t_589|ref=Jonas_2.7
-13	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	14	ATR	_	t_590|ref=Jonas_2.7
-14	ἐκλιπεῖν	ἐκλείπω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	ADV	_	t_591|ref=Jonas_2.7
-15	ἀπʼ	ἀπό	r	r--------	_	14	AuxP	_	t_592|ref=Jonas_2.8
-16	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	15	OBJ	_	t_593|ref=Jonas_2.8
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_594|ref=Jonas_2.8
-18	ψυχήν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_595|ref=Jonas_2.8
-19	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	18	ATR	_	t_596|ref=Jonas_2.8
-20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_597|ref=Jonas_2.8
-21	κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_598|ref=Jonas_2.8
-22	ἐμνήσθην	μιμνήσκω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	24	PRED	_	t_599|ref=Jonas_2.8
-23	,	,	u	u--------	_	6	AuxX	_	t_600|ref=Jonas_2.8
-24	καὶ	καί	c	c--------	_	6	COORD	_	t_601|ref=Jonas_2.8
-25	ἔλθοι	ἔρχομαι	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	24	PRED	_	t_602|ref=Jonas_2.8
-26	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_603|ref=Jonas_2.8
-27	σὲ	σύ	p	p-s---ma-	Case=a|Gender=c|Number=s|Person=2	26	OBJ	_	t_604|ref=Jonas_2.8
-28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_605|ref=Jonas_2.8
-29	εὐχή	εὐχή	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_606|ref=Jonas_2.8
-30	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	29	ATR	_	t_607|ref=Jonas_2.8
-31	εἰς	εἰς	r	r--------	_	25	AuxP	_	t_608|ref=Jonas_2.8
-32	ναὸν	ναός	n	n-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_609|ref=Jonas_2.8
-33	ἅγιόν	ἅγιος	a	a-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_610|ref=Jonas_2.8
-34	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	32	ATR	_	t_611|ref=Jonas_2.8
-35	.	.	u	u--------	_	6	AuxK	_	t_612|ref=Jonas_2.8
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_578|t_579|ref=Jon_2.7
+2	ἀναβήτω	ἀναβαίνω	v	v3sama---	Mood=m|Number=s|Person=3|Tense=a|Voice=a	24	PRED	_	t_579|t_601|ref=Jon_2.7
+3	φθορὰ	φθορά	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_580|t_579|ref=Jon_2.7
+4	ζωῆς	ζωή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_581|t_580|ref=Jon_2.7
+5	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	4	ATR	_	t_582|t_581|ref=Jon_2.7
+6	,	,	u	u--------	_	0	AuxX	_	t_583|0|ref=Jon_2.7
+7	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_584|t_579|ref=Jon_2.7
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_585|t_586|ref=Jon_2.7
+9	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	APOS	_	t_586|t_584|ref=Jon_2.7
+10	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	9	ATR	_	t_587|t_586|ref=Jon_2.7
+11	,	,	u	u--------	_	6	AuxX	_	t_588|t_583|ref=Jon_2.7
+12	8ἐν	8ἐν	r	r--------	_	22	ExD	_	t_589|t_599|ref=Jon_2.7
+13	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	14	ATR	_	t_590|t_591|ref=Jon_2.7
+14	ἐκλιπεῖν	ἐκλείπω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	ADV	_	t_591|t_589|ref=Jon_2.7
+15	ἀπʼ	ἀπό	r	r--------	_	14	AuxP	_	t_592|t_591|ref=Jon_2.8
+16	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	15	OBJ	_	t_593|t_592|ref=Jon_2.8
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_594|t_595|ref=Jon_2.8
+18	ψυχήν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_595|t_591|ref=Jon_2.8
+19	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	18	ATR	_	t_596|t_595|ref=Jon_2.8
+20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_597|t_598|ref=Jon_2.8
+21	κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_598|t_595|ref=Jon_2.8
+22	ἐμνήσθην	μιμνήσκω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	24	PRED	_	t_599|t_601|ref=Jon_2.8
+23	,	,	u	u--------	_	6	AuxX	_	t_600|t_583|ref=Jon_2.8
+24	καὶ	καί	c	c--------	_	6	COORD	_	t_601|t_583|ref=Jon_2.8
+25	ἔλθοι	ἔρχομαι	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	24	PRED	_	t_602|t_601|ref=Jon_2.8
+26	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_603|t_602|ref=Jon_2.8
+27	σὲ	σύ	p	p-s---ma-	Case=a|Gender=c|Number=s|Person=2	26	OBJ	_	t_604|t_603|ref=Jon_2.8
+28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_605|t_606|ref=Jon_2.8
+29	εὐχή	εὐχή	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_606|t_602|ref=Jon_2.8
+30	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	29	ATR	_	t_607|t_606|ref=Jon_2.8
+31	εἰς	εἰς	r	r--------	_	25	AuxP	_	t_608|t_602|ref=Jon_2.8
+32	ναὸν	ναός	n	n-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_609|t_608|ref=Jon_2.8
+33	ἅγιόν	ἅγιος	a	a-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_610|t_609|ref=Jon_2.8
+34	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	32	ATR	_	t_611|t_609|ref=Jon_2.8
+35	.	.	u	u--------	_	6	AuxK	_	t_612|t_583|ref=Jon_2.8
 
-# source = Septuaginta, Jonas 2.8-2.9
+# source = Septuaginta, Jon 2.8-2.9
 # text = ⁹φυλασσόμενοι μάταια καὶ ψευδῆ ἔλεος αὐτῶν ἐγκατέλιπον .
 # sent_id = 35
-1	⁹φυλασσόμενοι	φυλάσσω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	7	ADV	_	t_613|ref=Jonas_2.8
-2	μάταια	μάταιος	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_614|ref=Jonas_2.8
-3	καὶ	καί	c	c--------	_	1	COORD	_	t_615|ref=Jonas_2.8
-4	ψευδῆ	ψευδής	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_616|ref=Jonas_2.9
-5	ἔλεος	ἔλεος	n	n-s---ng-	Case=g|Gender=n|Number=s	3	OBJ	_	t_617|ref=Jonas_2.9
-6	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_618|ref=Jonas_2.9
-7	ἐγκατέλιπον	ἐγκαταλείπω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_619|ref=Jonas_2.9
-8	.	.	u	u--------	_	7	AuxK	_	t_620|ref=Jonas_2.9
+1	⁹φυλασσόμενοι	φυλάσσω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	7	ADV	_	t_613|t_619|ref=Jon_2.8
+2	μάταια	μάταιος	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_614|t_615|ref=Jon_2.8
+3	καὶ	καί	c	c--------	_	1	COORD	_	t_615|t_613|ref=Jon_2.8
+4	ψευδῆ	ψευδής	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_616|t_615|ref=Jon_2.9
+5	ἔλεος	ἔλεος	n	n-s---ng-	Case=g|Gender=n|Number=s	3	OBJ	_	t_617|t_615|ref=Jon_2.9
+6	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_618|t_617|ref=Jon_2.9
+7	ἐγκατέλιπον	ἐγκαταλείπω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_619|0|ref=Jon_2.9
+8	.	.	u	u--------	_	7	AuxK	_	t_620|t_619|ref=Jon_2.9
 
-# source = Septuaginta, Jonas 2.9-2.10
+# source = Septuaginta, Jon 2.9-2.10
 # text = ¹⁰ἐγὼ δὲ μετὰ φωνῆς αἰνέσεως καὶ ἐξομολογήσεως θύσω σοι , ὅσα ηὐξάμην ἀποδώσω σοι σωτηρίου τῷ κυρίῳ .
 # sent_id = 36
-1	¹⁰ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_621|ref=Jonas_2.9
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_622|ref=Jonas_2.9
-3	μετὰ	μετά	r	r--------	_	8	AuxP	_	t_623|ref=Jonas_2.9
-4	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_624|ref=Jonas_2.10
-5	αἰνέσεως	αἴνεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_625|ref=Jonas_2.10
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_626|ref=Jonas_2.10
-7	ἐξομολογήσεως	ἐξομολόγησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_627|ref=Jonas_2.10
-8	θύσω	θύω1	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_628|ref=Jonas_2.10
-9	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_629|ref=Jonas_2.10
-10	,	,	u	u--------	_	8	AuxX	_	t_630|ref=Jonas_2.10
-11	ὅσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_631|ref=Jonas_2.10
-12	ηὐξάμην	εὔχομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	13	OBJ	_	t_632|ref=Jonas_2.10
-13	ἀποδώσω	ἀποδίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	8	OBJ	_	t_633|ref=Jonas_2.10
-14	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_634|ref=Jonas_2.10
-15	σωτηρίου	σωτήριος	a	a-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_635|ref=Jonas_2.10
-16	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	17	ATR	_	t_636|ref=Jonas_2.10
-17	κυρίῳ	κύριος	n	n-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_637|ref=Jonas_2.10
-18	.	.	u	u--------	_	8	AuxK	_	t_638|ref=Jonas_2.10
+1	¹⁰ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_621|t_628|ref=Jon_2.9
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_622|t_628|ref=Jon_2.9
+3	μετὰ	μετά	r	r--------	_	8	AuxP	_	t_623|t_628|ref=Jon_2.9
+4	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_624|t_623|ref=Jon_2.10
+5	αἰνέσεως	αἴνεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_625|t_626|ref=Jon_2.10
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_626|t_623|ref=Jon_2.10
+7	ἐξομολογήσεως	ἐξομολόγησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_627|t_626|ref=Jon_2.10
+8	θύσω	θύω1	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_628|0|ref=Jon_2.10
+9	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_629|t_628|ref=Jon_2.10
+10	,	,	u	u--------	_	8	AuxX	_	t_630|t_628|ref=Jon_2.10
+11	ὅσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_631|t_632|ref=Jon_2.10
+12	ηὐξάμην	εὔχομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	13	OBJ	_	t_632|t_633|ref=Jon_2.10
+13	ἀποδώσω	ἀποδίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	8	OBJ	_	t_633|t_628|ref=Jon_2.10
+14	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_634|t_633|ref=Jon_2.10
+15	σωτηρίου	σωτήριος	a	a-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_635|t_637|ref=Jon_2.10
+16	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	17	ATR	_	t_636|t_637|ref=Jon_2.10
+17	κυρίῳ	κύριος	n	n-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_637|t_634|ref=Jon_2.10
+18	.	.	u	u--------	_	8	AuxK	_	t_638|t_628|ref=Jon_2.10
 
-# source = Septuaginta, Jonas 2.10-2.11
+# source = Septuaginta, Jon 2.10-2.11
 # text = ¹¹Καὶ προσετάγη τῷ κήτει , καὶ ἐξέβαλεν τὸν Ἰωνᾶν ἐπὶ τὴν ξηράν .
 # sent_id = 37
-1	¹¹Καὶ	11	c	c--------	_	0	COORD	_	t_639|ref=Jonas_2.10
-2	προσετάγη	προστάσσω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	6	PRED	_	t_640|ref=Jonas_2.10
-3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_641|ref=Jonas_2.10
-4	κήτει	κῆτος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	OBJ	_	t_642|ref=Jonas_2.11
-5	,	,	u	u--------	_	1	AuxX	_	t_643|ref=Jonas_2.11
-6	καὶ	καί	c	c--------	_	1	COORD	_	t_644|ref=Jonas_2.11
-7	ἐξέβαλεν	ἐκβάλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_645|ref=Jonas_2.11
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_646|ref=Jonas_2.11
-9	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_647|ref=Jonas_2.11
-10	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_648|ref=Jonas_2.11
-11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_649|ref=Jonas_2.11
-12	ξηράν	ξηρός	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_650|ref=Jonas_2.11
-13	.	.	u	u--------	_	1	AuxK	_	t_651|ref=Jonas_2.11
+1	¹¹Καὶ	11	c	c--------	_	0	COORD	_	t_639|0|ref=Jon_2.10
+2	προσετάγη	προστάσσω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	6	PRED	_	t_640|t_644|ref=Jon_2.10
+3	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	4	ATR	_	t_641|t_642|ref=Jon_2.10
+4	κήτει	κῆτος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	OBJ	_	t_642|t_640|ref=Jon_2.11
+5	,	,	u	u--------	_	1	AuxX	_	t_643|t_639|ref=Jon_2.11
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_644|t_639|ref=Jon_2.11
+7	ἐξέβαλεν	ἐκβάλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_645|t_644|ref=Jon_2.11
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_646|t_647|ref=Jon_2.11
+9	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_647|t_645|ref=Jon_2.11
+10	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_648|t_645|ref=Jon_2.11
+11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_649|t_650|ref=Jon_2.11
+12	ξηράν	ξηρός	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_650|t_648|ref=Jon_2.11
+13	.	.	u	u--------	_	1	AuxK	_	t_651|t_639|ref=Jon_2.11
 
-# source = Septuaginta, Jonas 2.11-3.2
+# source = Septuaginta, Jon 2.11-3.2
 # text = Καὶ ἐγένετο λόγος Κυρίου πρὸς Ἰωνᾶν ἐκ δευτέρου λέγων Ἀνάστηθι πορεύθητι εἰς Νινευὴ τὴν πόλιν τὴν μεγάλην , καὶ κήρυξον ἐν αὐτῇ κατὰ τὸ κήρυγμα τὸ ἔμπροσθεν ὃ ἐγὼ ἐλάλησα πρὸς σέ .
 # sent_id = 38
-1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_652|ref=Jonas_2.11
-2	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_653|ref=Jonas_2.11
-3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_654|ref=Jonas_2.11
-4	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_655|ref=Jonas_3.1
-5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_656|ref=Jonas_3.1
-6	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_657|ref=Jonas_3.1
-7	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_658|ref=Jonas_3.1
-8	δευτέρου	δεύτερος	d	d--------	_	7	ADV	_	t_659|ref=Jonas_3.1
-9	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_660|ref=Jonas_3.1
-10	Ἀνάστηθι	ἀνίστημι	n	n-s---md-	Case=d|Gender=f|Number=s	11	OBJ	_	t_661|ref=Jonas_3.1
-11	πορεύθητι	πορεύω	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	19	OBJ	_	t_662|ref=Jonas_3.1
-12	εἰς	εἰς	r	r--------	_	11	AuxP	_	t_663|ref=Jonas_3.1
-13	Νινευὴ	νινευή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_664|ref=Jonas_3.2
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_665|ref=Jonas_3.2
-15	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_666|ref=Jonas_3.2
-16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_667|ref=Jonas_3.2
-17	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_668|ref=Jonas_3.2
-18	,	,	u	u--------	_	2	AuxX	_	t_669|ref=Jonas_3.2
-19	καὶ	καί	c	c--------	_	9	COORD	_	t_670|ref=Jonas_3.2
-20	κήρυξον	κηρύσσω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	19	OBJ	_	t_671|ref=Jonas_3.2
-21	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_672|ref=Jonas_3.2
-22	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	21	ADV	_	t_673|ref=Jonas_3.2
-23	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_674|ref=Jonas_3.2
-24	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_675|ref=Jonas_3.2
-25	κήρυγμα	κήρυγμα	n	n-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_676|ref=Jonas_3.2
-26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_677|ref=Jonas_3.2
-27	ἔμπροσθεν	ἔμπροσθεν	d	d--------	_	25	ATR	_	t_678|ref=Jonas_3.2
-28	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_679|ref=Jonas_3.2
-29	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	30	SBJ	_	t_680|ref=Jonas_3.2
-30	ἐλάλησα	λαλέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	25	ATR	_	t_681|ref=Jonas_3.2
-31	πρὸς	πρός	r	r--------	_	30	AuxP	_	t_682|ref=Jonas_3.2
-32	σέ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_683|ref=Jonas_3.2
-33	.	.	u	u--------	_	2	AuxK	_	t_684|ref=Jonas_3.2
+1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_652|t_653|ref=Jon_2.11
+2	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_653|0|ref=Jon_2.11
+3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_654|t_653|ref=Jon_2.11
+4	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_655|t_654|ref=Jon_3.1
+5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_656|t_653|ref=Jon_3.1
+6	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	5	ADV	_	t_657|t_656|ref=Jon_3.1
+7	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_658|t_653|ref=Jon_3.1
+8	δευτέρου	δεύτερος	d	d--------	_	7	ADV	_	t_659|t_658|ref=Jon_3.1
+9	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	ADV	_	t_660|t_653|ref=Jon_3.1
+10	Ἀνάστηθι	ἀνίστημι	n	n-s---md-	Case=d|Gender=f|Number=s	11	OBJ	_	t_661|t_662|ref=Jon_3.1
+11	πορεύθητι	πορεύω	v	v2samp---	Mood=m|Number=s|Person=2|Tense=a|Voice=p	19	OBJ	_	t_662|t_670|ref=Jon_3.1
+12	εἰς	εἰς	r	r--------	_	11	AuxP	_	t_663|t_662|ref=Jon_3.1
+13	Νινευὴ	νινευή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_664|t_663|ref=Jon_3.2
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_665|t_666|ref=Jon_3.2
+15	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_666|t_664|ref=Jon_3.2
+16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_667|t_666|ref=Jon_3.2
+17	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_668|t_666|ref=Jon_3.2
+18	,	,	u	u--------	_	2	AuxX	_	t_669|t_653|ref=Jon_3.2
+19	καὶ	καί	c	c--------	_	9	COORD	_	t_670|t_660|ref=Jon_3.2
+20	κήρυξον	κηρύσσω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	19	OBJ	_	t_671|t_670|ref=Jon_3.2
+21	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_672|t_671|ref=Jon_3.2
+22	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	21	ADV	_	t_673|t_672|ref=Jon_3.2
+23	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_674|t_671|ref=Jon_3.2
+24	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_675|t_676|ref=Jon_3.2
+25	κήρυγμα	κήρυγμα	n	n-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_676|t_674|ref=Jon_3.2
+26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_677|t_676|ref=Jon_3.2
+27	ἔμπροσθεν	ἔμπροσθεν	d	d--------	_	25	ATR	_	t_678|t_676|ref=Jon_3.2
+28	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_679|t_681|ref=Jon_3.2
+29	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	30	SBJ	_	t_680|t_681|ref=Jon_3.2
+30	ἐλάλησα	λαλέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	25	ATR	_	t_681|t_676|ref=Jon_3.2
+31	πρὸς	πρός	r	r--------	_	30	AuxP	_	t_682|t_681|ref=Jon_3.2
+32	σέ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	31	OBJ	_	t_683|t_682|ref=Jon_3.2
+33	.	.	u	u--------	_	2	AuxK	_	t_684|t_653|ref=Jon_3.2
 
-# source = Septuaginta, Jonas 3.2-3.3
+# source = Septuaginta, Jon 3.2-3.3
 # text = καὶ ἀνέστη Ἰωνᾶς καὶ ἐπορεύθη εἰς Νινευή , καθὰ ἐλάλησεν Κύριος ·
 # sent_id = 39
-1	καὶ	καί	d	d--------	_	4	AuxY	_	t_685|ref=Jonas_3.2
-2	ἀνέστη	ἀνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	4	PRED	_	t_686|ref=Jonas_3.2
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_687|ref=Jonas_3.2
-4	καὶ	καί	c	c--------	_	0	COORD	_	t_688|ref=Jonas_3.3
-5	ἐπορεύθη	πορεύω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	4	PRED	_	t_689|ref=Jonas_3.3
-6	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_690|ref=Jonas_3.3
-7	Νινευή	νινευή	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_691|ref=Jonas_3.3
-8	,	,	u	u--------	_	4	AuxX	_	t_692|ref=Jonas_3.3
-9	καθὰ	καθά	c	c--------	_	5	AuxC	_	t_693|ref=Jonas_3.3
-10	ἐλάλησεν	λαλέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	9	ADV	_	t_694|ref=Jonas_3.3
-11	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_695|ref=Jonas_3.3
-12	·	·	u	u--------	_	4	AuxK	_	t_696|ref=Jonas_3.3
+1	καὶ	καί	d	d--------	_	4	AuxY	_	t_685|t_688|ref=Jon_3.2
+2	ἀνέστη	ἀνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	4	PRED	_	t_686|t_688|ref=Jon_3.2
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_687|t_686|ref=Jon_3.2
+4	καὶ	καί	c	c--------	_	0	COORD	_	t_688|0|ref=Jon_3.3
+5	ἐπορεύθη	πορεύω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	4	PRED	_	t_689|t_688|ref=Jon_3.3
+6	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_690|t_689|ref=Jon_3.3
+7	Νινευή	νινευή	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_691|t_690|ref=Jon_3.3
+8	,	,	u	u--------	_	4	AuxX	_	t_692|t_688|ref=Jon_3.3
+9	καθὰ	καθά	c	c--------	_	5	AuxC	_	t_693|t_689|ref=Jon_3.3
+10	ἐλάλησεν	λαλέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	9	ADV	_	t_694|t_693|ref=Jon_3.3
+11	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_695|t_694|ref=Jon_3.3
+12	·	·	u	u--------	_	4	AuxK	_	t_696|t_688|ref=Jon_3.3
 
-# source = Septuaginta, Jonas 3.3
+# source = Septuaginta, Jon 3.3
 # text = ἡ δὲ Νινευὴ ἦν πόλις μεγάλη τῷ θεῷ , ὡσεὶ πορείας ὁδοῦ ἡμερῶν τριῶν .
 # sent_id = 40
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_697|ref=Jonas_3.3
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_698|ref=Jonas_3.3
-3	Νινευὴ	νινευή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_699|ref=Jonas_3.3
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_700|ref=Jonas_3.3
-5	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_701|ref=Jonas_3.3
-6	μεγάλη	μέγας	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_702|ref=Jonas_3.3
-7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_703|ref=Jonas_3.3
-8	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_704|ref=Jonas_3.3
-9	,	,	u	u--------	_	4	AuxX	_	t_705|ref=Jonas_3.3
-10	ὡσεὶ	ὡσεί	d	d--------	_	11	AuxZ	_	t_706|ref=Jonas_3.3
-11	πορείας	πορεία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_707|ref=Jonas_3.3
-12	ὁδοῦ	ὁδός	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_708|ref=Jonas_3.3
-13	ἡμερῶν	ἡμέρα	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_709|ref=Jonas_3.3
-14	τριῶν	τρεῖς	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_710|ref=Jonas_3.3
-15	.	.	u	u--------	_	4	AuxK	_	t_711|ref=Jonas_3.3
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_697|t_699|ref=Jon_3.3
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_698|t_700|ref=Jon_3.3
+3	Νινευὴ	νινευή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_699|t_700|ref=Jon_3.3
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_700|0|ref=Jon_3.3
+5	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_701|t_700|ref=Jon_3.3
+6	μεγάλη	μέγας	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_702|t_701|ref=Jon_3.3
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_703|t_704|ref=Jon_3.3
+8	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_704|t_702|ref=Jon_3.3
+9	,	,	u	u--------	_	4	AuxX	_	t_705|t_700|ref=Jon_3.3
+10	ὡσεὶ	ὡσεί	d	d--------	_	11	AuxZ	_	t_706|t_707|ref=Jon_3.3
+11	πορείας	πορεία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_707|t_700|ref=Jon_3.3
+12	ὁδοῦ	ὁδός	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_708|t_707|ref=Jon_3.3
+13	ἡμερῶν	ἡμέρα	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_709|t_708|ref=Jon_3.3
+14	τριῶν	τρεῖς	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_710|t_709|ref=Jon_3.3
+15	.	.	u	u--------	_	4	AuxK	_	t_711|t_700|ref=Jon_3.3
 
-# source = Septuaginta, Jonas 3.3-3.4
+# source = Septuaginta, Jon 3.3-3.4
 # text = καὶ ἤρξατο Ἰωνᾶς τοῦ εἰσελθεῖν εἰς τὴν πόλιν ὡσεὶ πορείαν ἡμέρας μιᾶς , καὶ ἐκήρυξεν καὶ εἶπεν Ἔτι τρεῖς ἡμέραι καὶ Νινευὴ καταστραφήσεται .
 # sent_id = 41
-1	καὶ	καί	d	d--------	_	14	AuxY	_	t_712|ref=Jonas_3.3
-2	ἤρξατο	ἄρχω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	14	PRED	_	t_713|ref=Jonas_3.3
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_714|ref=Jonas_3.3
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_715|ref=Jonas_3.4
-5	εἰσελθεῖν	εἰσέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_716|ref=Jonas_3.4
-6	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_717|ref=Jonas_3.4
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_718|ref=Jonas_3.4
-8	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_719|ref=Jonas_3.4
-9	ὡσεὶ	ὡσεί	d	d--------	_	12	AuxZ	_	t_720|ref=Jonas_3.4
-10	πορείαν	πορεία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_721|ref=Jonas_3.4
-11	ἡμέρας	ἡμέρα	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_722|ref=Jonas_3.4
-12	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_723|ref=Jonas_3.4
-13	,	,	u	u--------	_	0	AuxX	_	t_724|ref=Jonas_3.4
-14	καὶ	καί	c	c--------	_	13	COORD	_	t_725|ref=Jonas_3.4
-15	ἐκήρυξεν	κηρύσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_726|ref=Jonas_3.4
-16	καὶ	καί	c	c--------	_	14	COORD	_	t_727|ref=Jonas_3.4
-17	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_728|ref=Jonas_3.4
-18	Ἔτι	ἔτι	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_729|ref=Jonas_3.4
-19	τρεῖς	τρεῖς	a	a--------	_	20	ATR	_	t_730|ref=Jonas_3.4
-20	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	17	ADV	_	t_731|ref=Jonas_3.4
-21	καὶ	καί	c	c--------	_	17	COORD	_	t_732|ref=Jonas_3.4
-22	Νινευὴ	νινευή	n	n-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_733|ref=Jonas_3.4
-23	καταστραφήσεται	καταστράπτω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	21	OBJ	_	t_734|ref=Jonas_3.4
-24	.	.	u	u--------	_	13	AuxK	_	t_735|ref=Jonas_3.4
+1	καὶ	καί	d	d--------	_	14	AuxY	_	t_712|t_725|ref=Jon_3.3
+2	ἤρξατο	ἄρχω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	14	PRED	_	t_713|t_725|ref=Jon_3.3
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_714|t_713|ref=Jon_3.3
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_715|t_716|ref=Jon_3.4
+5	εἰσελθεῖν	εἰσέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_716|t_713|ref=Jon_3.4
+6	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_717|t_716|ref=Jon_3.4
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_718|t_719|ref=Jon_3.4
+8	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_719|t_717|ref=Jon_3.4
+9	ὡσεὶ	ὡσεί	d	d--------	_	12	AuxZ	_	t_720|t_723|ref=Jon_3.4
+10	πορείαν	πορεία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_721|t_716|ref=Jon_3.4
+11	ἡμέρας	ἡμέρα	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_722|t_721|ref=Jon_3.4
+12	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_723|t_722|ref=Jon_3.4
+13	,	,	u	u--------	_	0	AuxX	_	t_724|0|ref=Jon_3.4
+14	καὶ	καί	c	c--------	_	13	COORD	_	t_725|t_724|ref=Jon_3.4
+15	ἐκήρυξεν	κηρύσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_726|t_727|ref=Jon_3.4
+16	καὶ	καί	c	c--------	_	14	COORD	_	t_727|t_725|ref=Jon_3.4
+17	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_728|t_727|ref=Jon_3.4
+18	Ἔτι	ἔτι	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_729|t_728|ref=Jon_3.4
+19	τρεῖς	τρεῖς	a	a--------	_	20	ATR	_	t_730|t_731|ref=Jon_3.4
+20	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	17	ADV	_	t_731|t_728|ref=Jon_3.4
+21	καὶ	καί	c	c--------	_	17	COORD	_	t_732|t_728|ref=Jon_3.4
+22	Νινευὴ	νινευή	n	n-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_733|t_734|ref=Jon_3.4
+23	καταστραφήσεται	καταστράπτω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	21	OBJ	_	t_734|t_732|ref=Jon_3.4
+24	.	.	u	u--------	_	13	AuxK	_	t_735|t_724|ref=Jon_3.4
 
-# source = Septuaginta, Jonas 3.4-3.5
+# source = Septuaginta, Jon 3.4-3.5
 # text = καὶ ἐνεπίστευσαν οἱ ἄνδρες Νινευὴ τῷ θεῷ , καὶ ἐκήρυξαν νηστίαν , καὶ ἐνεδύσαντο σάκκους ἀπὸ μεγάλου αὐτῶν ἕως μικροῦ αὐτῶν .
 # sent_id = 42
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_736|ref=Jonas_3.4
-2	ἐνεπίστευσαν	ἐμπιστεύω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	13	PRED	_	t_737|ref=Jonas_3.4
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_738|ref=Jonas_3.4
-4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_739|ref=Jonas_3.5
-5	Νινευὴ	νινευή	n	n-s---mg-	Case=g|Gender=m|Number=s	2	OBJ	_	t_740|ref=Jonas_3.5
-6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_741|ref=Jonas_3.5
-7	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_742|ref=Jonas_3.5
-8	,	,	u	u--------	_	0	AuxX	_	t_743|ref=Jonas_3.5
-9	καὶ	καί	d	d--------	_	13	AuxY	_	t_744|ref=Jonas_3.5
-10	ἐκήρυξαν	κηρύσσω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	13	PRED	_	t_745|ref=Jonas_3.5
-11	νηστίαν	νηστία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_746|ref=Jonas_3.5
-12	,	,	u	u--------	_	8	AuxX	_	t_747|ref=Jonas_3.5
-13	καὶ	καί	c	c--------	_	8	COORD	_	t_748|ref=Jonas_3.5
-14	ἐνεδύσαντο	ἐνδύω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	13	PRED	_	t_749|ref=Jonas_3.5
-15	σάκκους	σάκκος	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_750|ref=Jonas_3.5
-16	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_751|ref=Jonas_3.5
-17	μεγάλου	μέγας	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_752|ref=Jonas_3.5
-18	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_753|ref=Jonas_3.5
-19	ἕως	ἕως	r	r--------	_	14	AuxP	_	t_754|ref=Jonas_3.5
-20	μικροῦ	μικρός	a	a-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_755|ref=Jonas_3.5
-21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_756|ref=Jonas_3.5
-22	.	.	u	u--------	_	8	AuxK	_	t_757|ref=Jonas_3.5
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_736|t_748|ref=Jon_3.4
+2	ἐνεπίστευσαν	ἐμπιστεύω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	13	PRED	_	t_737|t_748|ref=Jon_3.4
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_738|t_739|ref=Jon_3.4
+4	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_739|t_748|ref=Jon_3.5
+5	Νινευὴ	νινευή	n	n-s---mg-	Case=g|Gender=m|Number=s	2	OBJ	_	t_740|t_737|ref=Jon_3.5
+6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_741|t_742|ref=Jon_3.5
+7	θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_742|t_737|ref=Jon_3.5
+8	,	,	u	u--------	_	0	AuxX	_	t_743|0|ref=Jon_3.5
+9	καὶ	καί	d	d--------	_	13	AuxY	_	t_744|t_748|ref=Jon_3.5
+10	ἐκήρυξαν	κηρύσσω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	13	PRED	_	t_745|t_748|ref=Jon_3.5
+11	νηστίαν	νηστία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_746|t_745|ref=Jon_3.5
+12	,	,	u	u--------	_	8	AuxX	_	t_747|t_743|ref=Jon_3.5
+13	καὶ	καί	c	c--------	_	8	COORD	_	t_748|t_743|ref=Jon_3.5
+14	ἐνεδύσαντο	ἐνδύω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	13	PRED	_	t_749|t_748|ref=Jon_3.5
+15	σάκκους	σάκκος	n	n-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_750|t_749|ref=Jon_3.5
+16	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_751|t_749|ref=Jon_3.5
+17	μεγάλου	μέγας	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_752|t_751|ref=Jon_3.5
+18	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_753|t_752|ref=Jon_3.5
+19	ἕως	ἕως	r	r--------	_	14	AuxP	_	t_754|t_749|ref=Jon_3.5
+20	μικροῦ	μικρός	a	a-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_755|t_754|ref=Jon_3.5
+21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_756|t_755|ref=Jon_3.5
+22	.	.	u	u--------	_	8	AuxK	_	t_757|t_743|ref=Jon_3.5
 
-# source = Septuaginta, Jonas 3.5-3.6
+# source = Septuaginta, Jon 3.5-3.6
 # text = καὶ ἤγγισεν ὁ λόγος πρὸς τὸν βασιλέα τῆς Νινευή ·
 # sent_id = 43
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_758|ref=Jonas_3.5
-2	ἤγγισεν	ἐγγίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_759|ref=Jonas_3.5
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_760|ref=Jonas_3.5
-4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_761|ref=Jonas_3.6
-5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_762|ref=Jonas_3.6
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_763|ref=Jonas_3.6
-7	βασιλέα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_764|ref=Jonas_3.6
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_765|ref=Jonas_3.6
-9	Νινευή	νινευή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_766|ref=Jonas_3.6
-10	·	·	u	u--------	_	2	AuxK	_	t_767|ref=Jonas_3.6
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_758|t_759|ref=Jon_3.5
+2	ἤγγισεν	ἐγγίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_759|0|ref=Jon_3.5
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_760|t_761|ref=Jon_3.5
+4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_761|t_759|ref=Jon_3.6
+5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_762|t_759|ref=Jon_3.6
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_763|t_764|ref=Jon_3.6
+7	βασιλέα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_764|t_762|ref=Jon_3.6
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_765|t_766|ref=Jon_3.6
+9	Νινευή	νινευή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_766|t_764|ref=Jon_3.6
+10	·	·	u	u--------	_	2	AuxK	_	t_767|t_759|ref=Jon_3.6
 
-# source = Septuaginta, Jonas 3.6
+# source = Septuaginta, Jon 3.6
 # text = καὶ ἐξανέστη ἀπὸ τοῦ θρόνου αὐτοῦ , καὶ περιείλατο τὴν στολὴν αὐτοῦ ἀφʼ ἑαυτοῦ καὶ περιεβάλετο σάκκον , καὶ ἐκάθισεν ἐπὶ σποδοῦ .
 # sent_id = 44
-1	καὶ	καί	d	d--------	_	19	AuxY	_	t_768|ref=Jonas_3.6
-2	ἐξανέστη	ἐξανίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	PRED	_	t_769|ref=Jonas_3.6
-3	ἀπὸ	ἀπό	r	r--------	_	2	AuxP	_	t_770|ref=Jonas_3.6
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_771|ref=Jonas_3.6
-5	θρόνου	θρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_772|ref=Jonas_3.6
-6	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_773|ref=Jonas_3.6
-7	,	,	u	u--------	_	0	AuxX	_	t_774|ref=Jonas_3.6
-8	καὶ	καί	c	c--------	_	19	AuxY	_	t_775|ref=Jonas_3.6
-9	περιείλατο	περιείλω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	PRED	_	t_776|ref=Jonas_3.6
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_777|ref=Jonas_3.6
-11	στολὴν	στολή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_778|ref=Jonas_3.6
-12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_779|ref=Jonas_3.6
-13	ἀφʼ	ἀπό	r	r--------	_	9	AuxP	_	t_780|ref=Jonas_3.6
-14	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	13	ADV	_	t_781|ref=Jonas_3.6
-15	καὶ	καί	c	c--------	_	19	AuxY	_	t_782|ref=Jonas_3.6
-16	περιεβάλετο	περιβάλλω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	PRED	_	t_783|ref=Jonas_3.6
-17	σάκκον	σάκκος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_784|ref=Jonas_3.6
-18	,	,	u	u--------	_	7	AuxX	_	t_785|ref=Jonas_3.6
-19	καὶ	καί	c	c--------	_	7	COORD	_	t_786|ref=Jonas_3.6
-20	ἐκάθισεν	καθίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	PRED	_	t_787|ref=Jonas_3.6
-21	ἐπὶ	ἐπί	r	r--------	_	20	AuxP	_	t_788|ref=Jonas_3.6
-22	σποδοῦ	σποδός	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_789|ref=Jonas_3.6
-23	.	.	u	u--------	_	7	AuxK	_	t_790|ref=Jonas_3.6
+1	καὶ	καί	d	d--------	_	19	AuxY	_	t_768|t_786|ref=Jon_3.6
+2	ἐξανέστη	ἐξανίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	PRED	_	t_769|t_786|ref=Jon_3.6
+3	ἀπὸ	ἀπό	r	r--------	_	2	AuxP	_	t_770|t_769|ref=Jon_3.6
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_771|t_772|ref=Jon_3.6
+5	θρόνου	θρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_772|t_770|ref=Jon_3.6
+6	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_773|t_772|ref=Jon_3.6
+7	,	,	u	u--------	_	0	AuxX	_	t_774|0|ref=Jon_3.6
+8	καὶ	καί	c	c--------	_	19	AuxY	_	t_775|t_786|ref=Jon_3.6
+9	περιείλατο	περιείλω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	PRED	_	t_776|t_786|ref=Jon_3.6
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_777|t_778|ref=Jon_3.6
+11	στολὴν	στολή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_778|t_776|ref=Jon_3.6
+12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_779|t_778|ref=Jon_3.6
+13	ἀφʼ	ἀπό	r	r--------	_	9	AuxP	_	t_780|t_776|ref=Jon_3.6
+14	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	13	ADV	_	t_781|t_780|ref=Jon_3.6
+15	καὶ	καί	c	c--------	_	19	AuxY	_	t_782|t_786|ref=Jon_3.6
+16	περιεβάλετο	περιβάλλω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	PRED	_	t_783|t_786|ref=Jon_3.6
+17	σάκκον	σάκκος	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_784|t_783|ref=Jon_3.6
+18	,	,	u	u--------	_	7	AuxX	_	t_785|t_774|ref=Jon_3.6
+19	καὶ	καί	c	c--------	_	7	COORD	_	t_786|t_774|ref=Jon_3.6
+20	ἐκάθισεν	καθίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	PRED	_	t_787|t_786|ref=Jon_3.6
+21	ἐπὶ	ἐπί	r	r--------	_	20	AuxP	_	t_788|t_787|ref=Jon_3.6
+22	σποδοῦ	σποδός	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_789|t_788|ref=Jon_3.6
+23	.	.	u	u--------	_	7	AuxK	_	t_790|t_774|ref=Jon_3.6
 
-# source = Septuaginta, Jonas 3.6-3.7
+# source = Septuaginta, Jon 3.6-3.7
 # text = καὶ ἐκηρύχθη καὶ ἐρρέθη ἐν τῇ Νινευὴ παρὰ τοῦ βασιλέως καὶ παρὰ τῶν μεγιστάνων αὐτοῦ λέγων Οἱ ἄνθρωποι καὶ τὰ κτήνη καὶ οἱ βόες καὶ τὰ πρόβατα μὴ γευσάσθωσαν μηδὲν μη δὲ νεμέσθωσαν μη δὲ ὕδωρ πιέτωσαν .
 # sent_id = 45
-1	καὶ	καί	d	d--------	_	3	AuxY	_	t_791|ref=Jonas_3.6
-2	ἐκηρύχθη	κηρύσσω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	3	PRED	_	t_792|ref=Jonas_3.6
-3	καὶ	καί	c	c--------	_	0	COORD	_	t_793|ref=Jonas_3.6
-4	ἐρρέθη	ἐρῶ	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	3	PRED	_	t_794|ref=Jonas_3.7
-5	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_795|ref=Jonas_3.7
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_796|ref=Jonas_3.7
-7	Νινευὴ	νινευή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_797|ref=Jonas_3.7
-8	παρὰ	παρά	r	r--------	_	11	AuxP	_	t_798|ref=Jonas_3.7
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_799|ref=Jonas_3.7
-10	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_800|ref=Jonas_3.7
-11	καὶ	καί	c	c--------	_	3	COORD	_	t_801|ref=Jonas_3.7
-12	παρὰ	παρά	r	r--------	_	11	AuxP	_	t_802|ref=Jonas_3.7
-13	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_803|ref=Jonas_3.7
-14	μεγιστάνων	δυνάστης	a	a-p---mgs	Case=g|Degree=s|Gender=m|Number=p	12	ADV	_	t_804|ref=Jonas_3.7
-15	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_805|ref=Jonas_3.7
-16	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_806|ref=Jonas_3.7
-17	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	18	ATR	_	t_807|ref=Jonas_3.7
-18	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_808|ref=Jonas_3.7
-19	καὶ	καί	d	d--------	_	25	AuxY	_	t_809|ref=Jonas_3.7
-20	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_810|ref=Jonas_3.7
-21	κτήνη	κτῆνος	n	n-p---nn-	Case=n|Gender=n|Number=p	25	SBJ	_	t_811|ref=Jonas_3.7
-22	καὶ	καί	d	d--------	_	25	AuxY	_	t_812|ref=Jonas_3.7
-23	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	24	ATR	_	t_813|ref=Jonas_3.7
-24	βόες	βοῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_814|ref=Jonas_3.7
-25	καὶ	καί	c	c--------	_	29	COORD	_	t_815|ref=Jonas_3.7
-26	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	27	ATR	_	t_816|ref=Jonas_3.7
-27	πρόβατα	πρόβατον	n	n-p---nn-	Case=n|Gender=n|Number=p	25	SBJ	_	t_817|ref=Jonas_3.7
-28	μὴ	μή	d	d--------	_	29	AuxZ	_	t_818|ref=Jonas_3.7
-29	γευσάσθωσαν	γεύω	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	35	OBJ	_	t_819|ref=Jonas_3.7
-30	μηδὲν	μηδείς	p	p-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_820|ref=Jonas_3.7
-31	μη	μη	d	d--------	_	33	AuxZ	_	t_821|ref=Jonas_3.7
-32	δὲ	δέ	d	d--------	_	35	AuxY	_	t_822|ref=Jonas_3.7
-33	νεμέσθωσαν	νέμω	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	35	OBJ	_	t_823|ref=Jonas_3.7
-34	μη	μη	d	d--------	_	37	AuxZ	_	t_824|ref=Jonas_3.7
-35	δὲ	δέ	c	c--------	_	16	COORD	_	t_825|ref=Jonas_3.7
-36	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	37	OBJ	_	t_826|ref=Jonas_3.7
-37	πιέτωσαν	πίνω	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	35	OBJ	_	t_827|ref=Jonas_3.7
-38	.	.	u	u--------	_	3	AuxK	_	t_828|ref=Jonas_3.7
+1	καὶ	καί	d	d--------	_	3	AuxY	_	t_791|t_793|ref=Jon_3.6
+2	ἐκηρύχθη	κηρύσσω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	3	PRED	_	t_792|t_793|ref=Jon_3.6
+3	καὶ	καί	c	c--------	_	0	COORD	_	t_793|0|ref=Jon_3.6
+4	ἐρρέθη	ἐρῶ	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	3	PRED	_	t_794|t_793|ref=Jon_3.7
+5	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_795|t_793|ref=Jon_3.7
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_796|t_797|ref=Jon_3.7
+7	Νινευὴ	νινευή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_797|t_795|ref=Jon_3.7
+8	παρὰ	παρά	r	r--------	_	11	AuxP	_	t_798|t_801|ref=Jon_3.7
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_799|t_800|ref=Jon_3.7
+10	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_800|t_798|ref=Jon_3.7
+11	καὶ	καί	c	c--------	_	3	COORD	_	t_801|t_793|ref=Jon_3.7
+12	παρὰ	παρά	r	r--------	_	11	AuxP	_	t_802|t_801|ref=Jon_3.7
+13	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_803|t_804|ref=Jon_3.7
+14	μεγιστάνων	δυνάστης	a	a-p---mgs	Case=g|Degree=s|Gender=m|Number=p	12	ADV	_	t_804|t_802|ref=Jon_3.7
+15	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_805|t_804|ref=Jon_3.7
+16	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_806|t_793|ref=Jon_3.7
+17	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	18	ATR	_	t_807|t_808|ref=Jon_3.7
+18	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_808|t_815|ref=Jon_3.7
+19	καὶ	καί	d	d--------	_	25	AuxY	_	t_809|t_815|ref=Jon_3.7
+20	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_810|t_811|ref=Jon_3.7
+21	κτήνη	κτῆνος	n	n-p---nn-	Case=n|Gender=n|Number=p	25	SBJ	_	t_811|t_815|ref=Jon_3.7
+22	καὶ	καί	d	d--------	_	25	AuxY	_	t_812|t_815|ref=Jon_3.7
+23	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	24	ATR	_	t_813|t_814|ref=Jon_3.7
+24	βόες	βοῦς	n	n-p---mn-	Case=n|Gender=m|Number=p	25	SBJ	_	t_814|t_815|ref=Jon_3.7
+25	καὶ	καί	c	c--------	_	29	COORD	_	t_815|t_819|ref=Jon_3.7
+26	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	27	ATR	_	t_816|t_817|ref=Jon_3.7
+27	πρόβατα	πρόβατον	n	n-p---nn-	Case=n|Gender=n|Number=p	25	SBJ	_	t_817|t_815|ref=Jon_3.7
+28	μὴ	μή	d	d--------	_	29	AuxZ	_	t_818|t_819|ref=Jon_3.7
+29	γευσάσθωσαν	γεύω	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	35	OBJ	_	t_819|t_825|ref=Jon_3.7
+30	μηδὲν	μηδείς	p	p-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_820|t_819|ref=Jon_3.7
+31	μη	μη	d	d--------	_	33	AuxZ	_	t_821|t_823|ref=Jon_3.7
+32	δὲ	δέ	d	d--------	_	35	AuxY	_	t_822|t_825|ref=Jon_3.7
+33	νεμέσθωσαν	νέμω	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	35	OBJ	_	t_823|t_825|ref=Jon_3.7
+34	μη	μη	d	d--------	_	37	AuxZ	_	t_824|t_827|ref=Jon_3.7
+35	δὲ	δέ	c	c--------	_	16	COORD	_	t_825|t_806|ref=Jon_3.7
+36	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	37	OBJ	_	t_826|t_827|ref=Jon_3.7
+37	πιέτωσαν	πίνω	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	35	OBJ	_	t_827|t_825|ref=Jon_3.7
+38	.	.	u	u--------	_	3	AuxK	_	t_828|t_793|ref=Jon_3.7
 
-# source = Septuaginta, Jonas 3.7-3.8
+# source = Septuaginta, Jon 3.7-3.8
 # text = καὶ περιεβάλοντο σάκκους οἱ ἄνθρωποι καὶ τὰ κτήνη , καὶ ἀνεβόησαν πρὸς τὸν θεὸν ἐκτενῶς ·
 # sent_id = 46
-1	καὶ	καί	d	d--------	_	10	AuxY	_	t_829|ref=Jonas_3.7
-2	περιεβάλοντο	περιβάλλω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	10	PRED	_	t_830|ref=Jonas_3.7
-3	σάκκους	σάκκος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_831|ref=Jonas_3.7
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_832|ref=Jonas_3.8
-5	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_833|ref=Jonas_3.8
-6	καὶ	καί	c	c--------	_	2	COORD	_	t_834|ref=Jonas_3.8
-7	τὰ	ὁ	l	l-p---na-	Case=n|Gender=n|Number=p	8	ATR	_	t_835|ref=Jonas_3.8
-8	κτήνη	κτῆνος	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_836|ref=Jonas_3.8
-9	,	,	u	u--------	_	0	AuxX	_	t_837|ref=Jonas_3.8
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_838|ref=Jonas_3.8
-11	ἀνεβόησαν	ἀναβοάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	PRED	_	t_839|ref=Jonas_3.8
-12	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_840|ref=Jonas_3.8
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_841|ref=Jonas_3.8
-14	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_842|ref=Jonas_3.8
-15	ἐκτενῶς	ἐκτενής	d	d--------	_	11	ADV	_	t_843|ref=Jonas_3.8
-16	·	·	u	u--------	_	9	AuxK	_	t_844|ref=Jonas_3.8
+1	καὶ	καί	d	d--------	_	10	AuxY	_	t_829|t_838|ref=Jon_3.7
+2	περιεβάλοντο	περιβάλλω	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	10	PRED	_	t_830|t_838|ref=Jon_3.7
+3	σάκκους	σάκκος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_831|t_834|ref=Jon_3.7
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_832|t_833|ref=Jon_3.8
+5	ἄνθρωποι	ἄνθρωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_833|t_830|ref=Jon_3.8
+6	καὶ	καί	c	c--------	_	2	COORD	_	t_834|t_830|ref=Jon_3.8
+7	τὰ	ὁ	l	l-p---na-	Case=n|Gender=n|Number=p	8	ATR	_	t_835|t_836|ref=Jon_3.8
+8	κτήνη	κτῆνος	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_836|t_834|ref=Jon_3.8
+9	,	,	u	u--------	_	0	AuxX	_	t_837|0|ref=Jon_3.8
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_838|t_837|ref=Jon_3.8
+11	ἀνεβόησαν	ἀναβοάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	PRED	_	t_839|t_838|ref=Jon_3.8
+12	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_840|t_839|ref=Jon_3.8
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_841|t_842|ref=Jon_3.8
+14	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_842|t_840|ref=Jon_3.8
+15	ἐκτενῶς	ἐκτενής	d	d--------	_	11	ADV	_	t_843|t_839|ref=Jon_3.8
+16	·	·	u	u--------	_	9	AuxK	_	t_844|t_837|ref=Jon_3.8
 
-# source = Septuaginta, Jonas 3.8-3.9
+# source = Septuaginta, Jon 3.8-3.9
 # text = καὶ ἀπέστρεψαν ἕκαστος ἀπὸ τῆς ὁδοῦ αὐτοῦ τῆς πονηρᾶς καὶ ἀπὸ τῆς ἀδικίας τῆς ἐν χερσὶν αὐτῶν , λέγοντες Τίς οἶδεν εἰ μετανοήσει ὁ θεὸς καὶ ἀποστρέψει ἐξ ὀργῆς θυμοῦ αὐτοῦ , καὶ οὐ μὴ ἀπολώμεθα ;
 # sent_id = 47
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_845|ref=Jonas_3.8
-2	ἀπέστρεψαν	ἀποστρέφω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_846|ref=Jonas_3.8
-3	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_847|ref=Jonas_3.8
-4	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_848|ref=Jonas_3.8
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_849|ref=Jonas_3.8
-6	ὁδοῦ	ὁδός	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_850|ref=Jonas_3.8
-7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_851|ref=Jonas_3.8
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_852|ref=Jonas_3.8
-9	πονηρᾶς	πονηρός	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_853|ref=Jonas_3.8
-10	καὶ	καί	c	c--------	_	2	COORD	_	t_854|ref=Jonas_3.8
-11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_855|ref=Jonas_3.8
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_856|ref=Jonas_3.8
-13	ἀδικίας	ἀδικία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_857|ref=Jonas_3.8
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_858|ref=Jonas_3.8
-15	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_859|ref=Jonas_3.8
-16	χερσὶν	χείρ	n	n-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_860|ref=Jonas_3.8
-17	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_861|ref=Jonas_3.8
-18	,	,	u	u--------	_	2	AuxX	_	t_862|ref=Jonas_3.8
-19	λέγοντες	λέγω3	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	2	ADV	_	t_863|ref=Jonas_3.8
-20	Τίς	τις	c	c--------	_	19	AuxC	_	t_864|ref=Jonas_3.8
-21	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	33	OBJ	_	t_865|ref=Jonas_3.8
-22	εἰ	εἰ	c	c--------	_	19	AuxC	_	t_866|ref=Jonas_3.8
-23	μετανοήσει	μετανοέω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	26	OBJ	_	t_867|ref=Jonas_3.9
-24	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	25	ATR	_	t_868|ref=Jonas_3.9
-25	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_869|ref=Jonas_3.9
-26	καὶ	καί	c	c--------	_	33	COORD	_	t_870|ref=Jonas_3.9
-27	ἀποστρέψει	ἀποστρέφω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	26	OBJ	_	t_871|ref=Jonas_3.9
-28	ἐξ	ἐκ	r	r--------	_	27	AuxP	_	t_872|ref=Jonas_3.9
-29	ὀργῆς	ὀργή	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ADV	_	t_873|ref=Jonas_3.9
-30	θυμοῦ	θυμός	n	n-s---mg-	Case=g|Gender=m|Number=s	29	ATR	_	t_874|ref=Jonas_3.9
-31	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	30	ATR	_	t_875|ref=Jonas_3.9
-32	,	,	u	u--------	_	2	AuxX	_	t_876|ref=Jonas_3.9
-33	καὶ	καί	c	c--------	_	19	COORD	_	t_877|ref=Jonas_3.9
-34	οὐ	οὐ	d	d--------	_	36	AuxZ	_	t_878|ref=Jonas_3.9
-35	μὴ	μή	d	d--------	_	36	AuxZ	_	t_879|ref=Jonas_3.9
-36	ἀπολώμεθα	ἀπόλλυμι	v	v1pase---	Mood=s|Number=p|Person=1|Tense=a|Voice=e	33	OBJ	_	t_880|ref=Jonas_3.9
-37	;	;	u	u--------	_	2	AuxK	_	t_881|ref=Jonas_3.9
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_845|t_846|ref=Jon_3.8
+2	ἀπέστρεψαν	ἀποστρέφω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_846|0|ref=Jon_3.8
+3	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_847|t_846|ref=Jon_3.8
+4	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_848|t_854|ref=Jon_3.8
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_849|t_850|ref=Jon_3.8
+6	ὁδοῦ	ὁδός	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_850|t_848|ref=Jon_3.8
+7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_851|t_850|ref=Jon_3.8
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_852|t_850|ref=Jon_3.8
+9	πονηρᾶς	πονηρός	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_853|t_850|ref=Jon_3.8
+10	καὶ	καί	c	c--------	_	2	COORD	_	t_854|t_846|ref=Jon_3.8
+11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_855|t_854|ref=Jon_3.8
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_856|t_857|ref=Jon_3.8
+13	ἀδικίας	ἀδικία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_857|t_855|ref=Jon_3.8
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_858|t_857|ref=Jon_3.8
+15	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_859|t_857|ref=Jon_3.8
+16	χερσὶν	χείρ	n	n-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_860|t_859|ref=Jon_3.8
+17	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_861|t_860|ref=Jon_3.8
+18	,	,	u	u--------	_	2	AuxX	_	t_862|t_846|ref=Jon_3.8
+19	λέγοντες	λέγω3	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	2	ADV	_	t_863|t_846|ref=Jon_3.8
+20	Τίς	τις	c	c--------	_	19	AuxC	_	t_864|t_863|ref=Jon_3.8
+21	οἶδεν	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	33	OBJ	_	t_865|t_877|ref=Jon_3.8
+22	εἰ	εἰ	c	c--------	_	19	AuxC	_	t_866|t_863|ref=Jon_3.8
+23	μετανοήσει	μετανοέω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	26	OBJ	_	t_867|t_870|ref=Jon_3.9
+24	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	25	ATR	_	t_868|t_869|ref=Jon_3.9
+25	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_869|t_867|ref=Jon_3.9
+26	καὶ	καί	c	c--------	_	33	COORD	_	t_870|t_877|ref=Jon_3.9
+27	ἀποστρέψει	ἀποστρέφω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	26	OBJ	_	t_871|t_870|ref=Jon_3.9
+28	ἐξ	ἐκ	r	r--------	_	27	AuxP	_	t_872|t_871|ref=Jon_3.9
+29	ὀργῆς	ὀργή	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ADV	_	t_873|t_872|ref=Jon_3.9
+30	θυμοῦ	θυμός	n	n-s---mg-	Case=g|Gender=m|Number=s	29	ATR	_	t_874|t_873|ref=Jon_3.9
+31	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	30	ATR	_	t_875|t_874|ref=Jon_3.9
+32	,	,	u	u--------	_	2	AuxX	_	t_876|t_846|ref=Jon_3.9
+33	καὶ	καί	c	c--------	_	19	COORD	_	t_877|t_863|ref=Jon_3.9
+34	οὐ	οὐ	d	d--------	_	36	AuxZ	_	t_878|t_880|ref=Jon_3.9
+35	μὴ	μή	d	d--------	_	36	AuxZ	_	t_879|t_880|ref=Jon_3.9
+36	ἀπολώμεθα	ἀπόλλυμι	v	v1pase---	Mood=s|Number=p|Person=1|Tense=a|Voice=e	33	OBJ	_	t_880|t_877|ref=Jon_3.9
+37	;	;	u	u--------	_	2	AuxK	_	t_881|t_846|ref=Jon_3.9
 
-# source = Septuaginta, Jonas 3.9-3.10
+# source = Septuaginta, Jon 3.9-3.10
 # text = καὶ εἶδεν ὁ θεὸς τὰ ἔργα αὐτῶν , ὅτι ἀπέστρεψαν ἀπὸ τῶν ὁδῶν αὐτῶν τῶν πονηρῶν ·
 # sent_id = 48
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_882|ref=Jonas_3.9
-2	εἶδεν	ὁράω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_883|ref=Jonas_3.9
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_884|ref=Jonas_3.9
-4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_885|ref=Jonas_3.10
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_886|ref=Jonas_3.10
-6	ἔργα	ἔργον	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_887|ref=Jonas_3.10
-7	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_888|ref=Jonas_3.10
-8	,	,	u	u--------	_	2	APOS	_	t_889|ref=Jonas_3.10
-9	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_890|ref=Jonas_3.10
-10	ἀπέστρεψαν	ἀποστρέφω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	9	OBJ	_	t_891|ref=Jonas_3.10
-11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_892|ref=Jonas_3.10
-12	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_893|ref=Jonas_3.10
-13	ὁδῶν	ὁδός	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ADV	_	t_894|ref=Jonas_3.10
-14	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=f|Number=p	13	ATR	_	t_895|ref=Jonas_3.10
-15	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_896|ref=Jonas_3.10
-16	πονηρῶν	πονηρός	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_897|ref=Jonas_3.10
-17	·	·	u	u--------	_	2	AuxK	_	t_898|ref=Jonas_3.10
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_882|t_883|ref=Jon_3.9
+2	εἶδεν	ὁράω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_883|0|ref=Jon_3.9
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_884|t_885|ref=Jon_3.9
+4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_885|t_883|ref=Jon_3.10
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_886|t_887|ref=Jon_3.10
+6	ἔργα	ἔργον	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_887|t_889|ref=Jon_3.10
+7	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_888|t_887|ref=Jon_3.10
+8	,	,	u	u--------	_	2	APOS	_	t_889|t_883|ref=Jon_3.10
+9	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_890|t_889|ref=Jon_3.10
+10	ἀπέστρεψαν	ἀποστρέφω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	9	OBJ	_	t_891|t_890|ref=Jon_3.10
+11	ἀπὸ	ἀπό	r	r--------	_	10	AuxP	_	t_892|t_891|ref=Jon_3.10
+12	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_893|t_894|ref=Jon_3.10
+13	ὁδῶν	ὁδός	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ADV	_	t_894|t_892|ref=Jon_3.10
+14	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=f|Number=p	13	ATR	_	t_895|t_894|ref=Jon_3.10
+15	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_896|t_894|ref=Jon_3.10
+16	πονηρῶν	πονηρός	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_897|t_894|ref=Jon_3.10
+17	·	·	u	u--------	_	2	AuxK	_	t_898|t_883|ref=Jon_3.10
 
-# source = Septuaginta, Jonas 3.10
+# source = Septuaginta, Jon 3.10
 # text = καὶ μετενόησεν ὁ θεὸς ἐπὶ τῇ κακίᾳ ᾗ ἐλάλησεν τοῦ ποιῆσαι αὐτοῖς , καὶ οὐκ ἐποίησεν .
 # sent_id = 49
-1	καὶ	καί	d	d--------	_	14	AuxY	_	t_899|ref=Jonas_3.10
-2	μετενόησεν	μετανοέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_900|ref=Jonas_3.10
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_901|ref=Jonas_3.10
-4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_902|ref=Jonas_3.10
-5	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_903|ref=Jonas_3.10
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_904|ref=Jonas_3.10
-7	κακίᾳ	κακία	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_905|ref=Jonas_3.10
-8	ᾗ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_906|ref=Jonas_3.10
-9	ἐλάλησεν	λαλέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	OBJ	_	t_907|ref=Jonas_3.10
-10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_908|ref=Jonas_3.10
-11	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_909|ref=Jonas_3.10
-12	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_910|ref=Jonas_3.10
-13	,	,	u	u--------	_	0	AuxX	_	t_911|ref=Jonas_3.10
-14	καὶ	καί	c	c--------	_	13	COORD	_	t_912|ref=Jonas_3.10
-15	οὐκ	οὐ	d	d--------	_	16	AuxZ	_	t_913|ref=Jonas_3.10
-16	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_914|ref=Jonas_3.10
-17	.	.	u	u--------	_	13	AuxK	_	t_915|ref=Jonas_3.10
+1	καὶ	καί	d	d--------	_	14	AuxY	_	t_899|t_912|ref=Jon_3.10
+2	μετενόησεν	μετανοέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_900|t_912|ref=Jon_3.10
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_901|t_902|ref=Jon_3.10
+4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_902|t_900|ref=Jon_3.10
+5	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_903|t_900|ref=Jon_3.10
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_904|t_905|ref=Jon_3.10
+7	κακίᾳ	κακία	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_905|t_903|ref=Jon_3.10
+8	ᾗ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_906|t_907|ref=Jon_3.10
+9	ἐλάλησεν	λαλέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	OBJ	_	t_907|t_900|ref=Jon_3.10
+10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_908|t_909|ref=Jon_3.10
+11	ποιῆσαι	ποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_909|t_907|ref=Jon_3.10
+12	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_910|t_909|ref=Jon_3.10
+13	,	,	u	u--------	_	0	AuxX	_	t_911|0|ref=Jon_3.10
+14	καὶ	καί	c	c--------	_	13	COORD	_	t_912|t_911|ref=Jon_3.10
+15	οὐκ	οὐ	d	d--------	_	16	AuxZ	_	t_913|t_914|ref=Jon_3.10
+16	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_914|t_912|ref=Jon_3.10
+17	.	.	u	u--------	_	13	AuxK	_	t_915|t_911|ref=Jon_3.10
 
-# source = Septuaginta, Jonas 3.10-4.1
+# source = Septuaginta, Jon 3.10-4.1
 # text = Καὶ ἐλυπήθη Ἰωνᾶς λύπην μεγάλην , καὶ συνεχύθη ·
 # sent_id = 50
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_916|ref=Jonas_3.10
-2	ἐλυπήθη	λυπέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	7	PRED	_	t_917|ref=Jonas_3.10
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---fg-	Case=g|Gender=m|Number=p	4	ATR	_	t_918|ref=Jonas_3.10
-4	λύπην	λύπη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_919|ref=Jonas_4.1
-5	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_920|ref=Jonas_4.1
-6	,	,	u	u--------	_	2	AuxX	_	t_921|ref=Jonas_4.1
-7	καὶ	καί	c	c--------	_	1	COORD	_	t_922|ref=Jonas_4.1
-8	συνεχύθη	συγχέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	7	PRED	_	t_923|ref=Jonas_4.1
-9	·	·	u	u--------	_	1	AuxK	_	t_924|ref=Jonas_4.1
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_916|0|ref=Jon_3.10
+2	ἐλυπήθη	λυπέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	7	PRED	_	t_917|t_922|ref=Jon_3.10
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---fg-	Case=g|Gender=m|Number=p	4	ATR	_	t_918|t_919|ref=Jon_3.10
+4	λύπην	λύπη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_919|t_917|ref=Jon_4.1
+5	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_920|t_919|ref=Jon_4.1
+6	,	,	u	u--------	_	2	AuxX	_	t_921|t_917|ref=Jon_4.1
+7	καὶ	καί	c	c--------	_	1	COORD	_	t_922|t_916|ref=Jon_4.1
+8	συνεχύθη	συγχέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	7	PRED	_	t_923|t_922|ref=Jon_4.1
+9	·	·	u	u--------	_	1	AuxK	_	t_924|t_916|ref=Jon_4.1
 
-# source = Septuaginta, Jonas 4.1-4.2
+# source = Septuaginta, Jon 4.1-4.2
 # text = καὶ προσεύξατο πρὸς Κύριον καὶ εἶπεν Ὦ Κύριε , οὐχ οὗτοι οἱ λόγοι μου , ἔτι ὄντος μου ἐν τῇ γῇ μου διὰ τοῦτο προέφθασα τοῦ φυγεῖν εἰς Θαρσείς , διότι ἔγνων ὅτι σὺ ἐλεήμων καὶ οἰκτίρμων , μακρόθυμος καὶ πολυέλεος καὶ μετανοῶν ἐπὶ ταῖς κακίαις [0] .
 # sent_id = 51
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_925|ref=Jonas_4.1
-2	προσεύξατο	προσεύχομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	5	PRED	_	t_926|ref=Jonas_4.1
-3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_927|ref=Jonas_4.1
-4	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_928|ref=Jonas_4.2
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_929|ref=Jonas_4.2
-6	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_930|ref=Jonas_4.2
-7	Ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_931|ref=Jonas_4.2
-8	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	25	ExD	_	t_932|ref=Jonas_4.2
-9	,	,	u	u--------	_	5	AuxX	_	t_933|ref=Jonas_4.2
-10	οὐχ	οὐ	d	d--------	_	11	AuxZ	_	t_934|ref=Jonas_4.2
-11	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	47	PNOM	_	t_935|ref=Jonas_4.2
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_936|ref=Jonas_4.2
-13	λόγοι	λόγος	n	n-p---mn-	Case=n|Gender=m|Number=p	47	PNOM	_	t_937|ref=Jonas_4.2
-14	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	13	ATR	_	t_938|ref=Jonas_4.2
-15	,	,	u	u--------	_	5	AuxX	_	t_939|ref=Jonas_4.2
-16	ἔτι	ἔτι	d	d--------	_	17	ADV	_	t_940|ref=Jonas_4.2
-17	ὄντος	εἰμί	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	25	ADV	_	t_941|ref=Jonas_4.2
-18	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	17	SBJ	_	t_942|ref=Jonas_4.2
-19	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_943|ref=Jonas_4.2
-20	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_944|ref=Jonas_4.2
-21	γῇ	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	19	PNOM	_	t_945|ref=Jonas_4.2
-22	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	17	SBJ	_	t_946|ref=Jonas_4.2
-23	διὰ	διά	r	r--------	_	25	AuxP	_	t_947|ref=Jonas_4.2
-24	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_948|ref=Jonas_4.2
-25	προέφθασα	προφθάνω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	PRED	_	t_949|ref=Jonas_4.2
-26	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ATR	_	t_950|ref=Jonas_4.2
-27	φυγεῖν	φεύγω	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_951|ref=Jonas_4.2
-28	εἰς	εἰς	r	r--------	_	27	AuxP	_	t_952|ref=Jonas_4.2
-29	Θαρσείς	θαρσέω	n	n-s---fg-	Case=g|Gender=f|Number=s	28	OBJ	_	t_953|ref=Jonas_4.2
-30	,	,	u	u--------	_	5	AuxX	_	t_954|ref=Jonas_4.2
-31	διότι	διότι	c	c--------	_	25	AuxC	_	t_955|ref=Jonas_4.2
-32	ἔγνων	γιγνώσκω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	31	ADV	_	t_956|ref=Jonas_4.2
-33	ὅτι	ὅτι	c	c--------	_	32	AuxC	_	t_957|ref=Jonas_4.2
-34	σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	47	SBJ	_	t_958|ref=Jonas_4.2
-35	ἐλεήμων	ἐλεήμων	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_959|ref=Jonas_4.2
-36	καὶ	καί	d	d--------	_	42	AuxY	_	t_960|ref=Jonas_4.2
-37	οἰκτίρμων	οἰκτίρμων	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_961|ref=Jonas_4.2
-38	,	,	u	u--------	_	5	AuxX	_	t_962|ref=Jonas_4.2
-39	μακρόθυμος	μακρόθυμος	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_963|ref=Jonas_4.2
-40	καὶ	καί	d	d--------	_	42	AuxY	_	t_964|ref=Jonas_4.2
-41	πολυέλεος	πολυέλεος	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_965|ref=Jonas_4.2
-42	καὶ	καί	c	c--------	_	47	COORD	_	t_966|ref=Jonas_4.2
-43	μετανοῶν	μετανοέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	42	PNOM	_	t_967|ref=Jonas_4.2
-44	ἐπὶ	ἐπί	r	r--------	_	43	AuxP	_	t_968|ref=Jonas_4.2
-45	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	46	ATR	_	t_969|ref=Jonas_4.2
-46	κακίαις	κακία	n	n-p---fd-	Case=d|Gender=f|Number=p	44	ADV	_	t_970|ref=Jonas_4.2
-47	[0]	[0]	-	---------	_	31	ADV	_	e_4|ref=Jonas_1.1
-48	.	.	u	u--------	_	5	AuxK	_	t_971|ref=Jonas_4.2
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_925|t_929|ref=Jon_4.1
+2	προσεύξατο	προσεύχομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	5	PRED	_	t_926|t_929|ref=Jon_4.1
+3	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_927|t_926|ref=Jon_4.1
+4	Κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_928|t_927|ref=Jon_4.2
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_929|0|ref=Jon_4.2
+6	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_930|t_929|ref=Jon_4.2
+7	Ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_931|t_932|ref=Jon_4.2
+8	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	25	ExD	_	t_932|t_949|ref=Jon_4.2
+9	,	,	u	u--------	_	5	AuxX	_	t_933|t_929|ref=Jon_4.2
+10	οὐχ	οὐ	d	d--------	_	11	AuxZ	_	t_934|t_935|ref=Jon_4.2
+11	οὗτοι	οὗτος	p	p-p---mn-	Case=n|Gender=m|Number=p	47	PNOM	_	t_935|e_4|ref=Jon_4.2
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_936|t_937|ref=Jon_4.2
+13	λόγοι	λόγος	n	n-p---mn-	Case=n|Gender=m|Number=p	47	PNOM	_	t_937|e_4|ref=Jon_4.2
+14	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	13	ATR	_	t_938|t_937|ref=Jon_4.2
+15	,	,	u	u--------	_	5	AuxX	_	t_939|t_929|ref=Jon_4.2
+16	ἔτι	ἔτι	d	d--------	_	17	ADV	_	t_940|t_941|ref=Jon_4.2
+17	ὄντος	εἰμί	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	25	ADV	_	t_941|t_949|ref=Jon_4.2
+18	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	17	SBJ	_	t_942|t_941|ref=Jon_4.2
+19	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_943|t_941|ref=Jon_4.2
+20	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_944|t_945|ref=Jon_4.2
+21	γῇ	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	19	PNOM	_	t_945|t_943|ref=Jon_4.2
+22	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	17	SBJ	_	t_946|t_941|ref=Jon_4.2
+23	διὰ	διά	r	r--------	_	25	AuxP	_	t_947|t_949|ref=Jon_4.2
+24	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_948|t_947|ref=Jon_4.2
+25	προέφθασα	προφθάνω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	PRED	_	t_949|t_929|ref=Jon_4.2
+26	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ATR	_	t_950|t_951|ref=Jon_4.2
+27	φυγεῖν	φεύγω	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_951|t_949|ref=Jon_4.2
+28	εἰς	εἰς	r	r--------	_	27	AuxP	_	t_952|t_951|ref=Jon_4.2
+29	Θαρσείς	θαρσέω	n	n-s---fg-	Case=g|Gender=f|Number=s	28	OBJ	_	t_953|t_952|ref=Jon_4.2
+30	,	,	u	u--------	_	5	AuxX	_	t_954|t_929|ref=Jon_4.2
+31	διότι	διότι	c	c--------	_	25	AuxC	_	t_955|t_949|ref=Jon_4.2
+32	ἔγνων	γιγνώσκω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	31	ADV	_	t_956|t_955|ref=Jon_4.2
+33	ὅτι	ὅτι	c	c--------	_	32	AuxC	_	t_957|t_956|ref=Jon_4.2
+34	σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	47	SBJ	_	t_958|e_4|ref=Jon_4.2
+35	ἐλεήμων	ἐλεήμων	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_959|t_966|ref=Jon_4.2
+36	καὶ	καί	d	d--------	_	42	AuxY	_	t_960|t_966|ref=Jon_4.2
+37	οἰκτίρμων	οἰκτίρμων	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_961|t_966|ref=Jon_4.2
+38	,	,	u	u--------	_	5	AuxX	_	t_962|t_929|ref=Jon_4.2
+39	μακρόθυμος	μακρόθυμος	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_963|t_966|ref=Jon_4.2
+40	καὶ	καί	d	d--------	_	42	AuxY	_	t_964|t_966|ref=Jon_4.2
+41	πολυέλεος	πολυέλεος	a	a-s---mn-	Case=n|Gender=m|Number=s	42	PNOM	_	t_965|t_966|ref=Jon_4.2
+42	καὶ	καί	c	c--------	_	47	COORD	_	t_966|e_4|ref=Jon_4.2
+43	μετανοῶν	μετανοέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	42	PNOM	_	t_967|t_966|ref=Jon_4.2
+44	ἐπὶ	ἐπί	r	r--------	_	43	AuxP	_	t_968|t_967|ref=Jon_4.2
+45	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	46	ATR	_	t_969|t_970|ref=Jon_4.2
+46	κακίαις	κακία	n	n-p---fd-	Case=d|Gender=f|Number=p	44	ADV	_	t_970|t_968|ref=Jon_4.2
+47	[0]	[0]	-	---------	_	31	ADV	_	e_4|t_955|ref=Jon_1.1
+48	.	.	u	u--------	_	5	AuxK	_	t_971|t_929|ref=Jon_4.2
 
-# source = Septuaginta, Jonas 4.2-4.3
+# source = Septuaginta, Jon 4.2-4.3
 # text = καὶ νῦν , δέσποτα Κύριε , λάβε τὴν ψυχήν μου ἀπʼ ἐμοῦ , ὅτι καλὸν τὸ ἀποθανεῖν με ἢ ζῇν με [0] .
 # sent_id = 52
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_972|ref=Jonas_4.2
-2	νῦν	νῦν	d	d--------	_	7	ADV	_	t_973|ref=Jonas_4.2
-3	,	,	u	u--------	_	7	AuxX	_	t_974|ref=Jonas_4.2
-4	δέσποτα	δεσπότης	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ATR	_	t_975|ref=Jonas_4.2
-5	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_976|ref=Jonas_4.3
-6	,	,	u	u--------	_	7	AuxX	_	t_977|ref=Jonas_4.3
-7	λάβε	λαμβάνω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_978|ref=Jonas_4.3
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_979|ref=Jonas_4.3
-9	ψυχήν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_980|ref=Jonas_4.3
-10	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	9	ATR	_	t_981|ref=Jonas_4.3
-11	ἀπʼ	ἀπό	r	r--------	_	7	AuxP	_	t_982|ref=Jonas_4.3
-12	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=m|Number=s	11	ADV	_	t_983|ref=Jonas_4.3
-13	,	,	u	u--------	_	7	AuxX	_	t_984|ref=Jonas_4.3
-14	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_985|ref=Jonas_4.3
-15	καλὸν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	22	PNOM	_	t_986|ref=Jonas_4.3
-16	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_987|ref=Jonas_4.3
-17	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	22	SBJ	_	t_988|ref=Jonas_4.3
-18	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	17	SBJ	_	t_989|ref=Jonas_4.3
-19	ἢ	ἤ1	c	c--------	_	15	AuxC	_	t_990|ref=Jonas_4.3
-20	ζῇν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	SBJ	_	t_991|ref=Jonas_4.3
-21	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	20	SBJ	_	t_992|ref=Jonas_4.3
-22	[0]	[0]	-	---------	_	14	ADV	_	e_5|ref=Jonas_1.1
-23	.	.	u	u--------	_	7	AuxK	_	t_993|ref=Jonas_4.3
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_972|t_978|ref=Jon_4.2
+2	νῦν	νῦν	d	d--------	_	7	ADV	_	t_973|t_978|ref=Jon_4.2
+3	,	,	u	u--------	_	7	AuxX	_	t_974|t_978|ref=Jon_4.2
+4	δέσποτα	δεσπότης	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ATR	_	t_975|t_976|ref=Jon_4.2
+5	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_976|t_978|ref=Jon_4.3
+6	,	,	u	u--------	_	7	AuxX	_	t_977|t_978|ref=Jon_4.3
+7	λάβε	λαμβάνω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_978|0|ref=Jon_4.3
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_979|t_980|ref=Jon_4.3
+9	ψυχήν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_980|t_978|ref=Jon_4.3
+10	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	9	ATR	_	t_981|t_980|ref=Jon_4.3
+11	ἀπʼ	ἀπό	r	r--------	_	7	AuxP	_	t_982|t_978|ref=Jon_4.3
+12	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=m|Number=s	11	ADV	_	t_983|t_982|ref=Jon_4.3
+13	,	,	u	u--------	_	7	AuxX	_	t_984|t_978|ref=Jon_4.3
+14	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_985|t_978|ref=Jon_4.3
+15	καλὸν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	22	PNOM	_	t_986|e_5|ref=Jon_4.3
+16	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_987|t_988|ref=Jon_4.3
+17	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	22	SBJ	_	t_988|e_5|ref=Jon_4.3
+18	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	17	SBJ	_	t_989|t_988|ref=Jon_4.3
+19	ἢ	ἤ1	c	c--------	_	15	AuxC	_	t_990|t_986|ref=Jon_4.3
+20	ζῇν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	SBJ	_	t_991|t_990|ref=Jon_4.3
+21	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	20	SBJ	_	t_992|t_991|ref=Jon_4.3
+22	[0]	[0]	-	---------	_	14	ADV	_	e_5|t_985|ref=Jon_1.1
+23	.	.	u	u--------	_	7	AuxK	_	t_993|t_978|ref=Jon_4.3
 
-# source = Septuaginta, Jonas 4.3-4.4
+# source = Septuaginta, Jon 4.3-4.4
 # text = καὶ εἶπεν Κύριος πρὸς Ἰωνᾶν Εἰ σφόδρα λελύπησαι σύ ;
 # sent_id = 53
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_994|ref=Jonas_4.3
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_995|ref=Jonas_4.3
-3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_996|ref=Jonas_4.3
-4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_997|ref=Jonas_4.3
-5	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_998|ref=Jonas_4.3
-6	Εἰ	εἰ	c	c--------	_	2	ExD	_	t_999|ref=Jonas_4.4
-7	σφόδρα	σφόδρα	d	d--------	_	8	ADV	_	t_1000|ref=Jonas_4.4
-8	λελύπησαι	λελύπημαι	v	v2srie---	Mood=i|Number=s|Person=2|Tense=r|Voice=e	6	OBJ	_	t_1001|ref=Jonas_4.4
-9	σύ	σύ	p	a-d---fac	Case=n|Number=s|Person=2	8	SBJ	_	t_1002|ref=Jonas_4.4
-10	;	;	u	u--------	_	2	AuxK	_	t_1003|ref=Jonas_4.4
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_994|t_995|ref=Jon_4.3
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_995|0|ref=Jon_4.3
+3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_996|t_995|ref=Jon_4.3
+4	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_997|t_995|ref=Jon_4.3
+5	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_998|t_997|ref=Jon_4.3
+6	Εἰ	εἰ	c	c--------	_	2	ExD	_	t_999|t_995|ref=Jon_4.4
+7	σφόδρα	σφόδρα	d	d--------	_	8	ADV	_	t_1000|t_1001|ref=Jon_4.4
+8	λελύπησαι	λελύπημαι	v	v2srie---	Mood=i|Number=s|Person=2|Tense=r|Voice=e	6	OBJ	_	t_1001|t_999|ref=Jon_4.4
+9	σύ	σύ	p	a-d---fac	Case=n|Number=s|Person=2	8	SBJ	_	t_1002|t_1001|ref=Jon_4.4
+10	;	;	u	u--------	_	2	AuxK	_	t_1003|t_995|ref=Jon_4.4
 
-# source = Septuaginta, Jonas 4.4-4.5
+# source = Septuaginta, Jon 4.4-4.5
 # text = καὶ ἐξῆλθεν Ἰωνᾶς ἐκ τῆς πόλεως , καὶ ἐκάθισεν ἀπέναντι τῆς πόλεως ·
 # sent_id = 54
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_1004|ref=Jonas_4.4
-2	ἐξῆλθεν	ἐξέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1005|ref=Jonas_4.4
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1006|ref=Jonas_4.4
-4	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_1007|ref=Jonas_4.4
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1008|ref=Jonas_4.4
-6	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_1009|ref=Jonas_4.5
-7	,	,	u	u--------	_	0	AuxX	_	t_1010|ref=Jonas_4.5
-8	καὶ	καί	c	c--------	_	7	COORD	_	t_1011|ref=Jonas_4.5
-9	ἐκάθισεν	καθίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1012|ref=Jonas_4.5
-10	ἀπέναντι	ἀπέναντι	r	r--------	_	9	AuxP	_	t_1013|ref=Jonas_4.5
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1014|ref=Jonas_4.5
-12	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1015|ref=Jonas_4.5
-13	·	·	u	u--------	_	7	AuxK	_	t_1016|ref=Jonas_4.5
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_1004|t_1011|ref=Jon_4.4
+2	ἐξῆλθεν	ἐξέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1005|t_1011|ref=Jon_4.4
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1006|t_1005|ref=Jon_4.4
+4	ἐκ	ἐκ	r	r--------	_	2	AuxP	_	t_1007|t_1005|ref=Jon_4.4
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1008|t_1009|ref=Jon_4.4
+6	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_1009|t_1007|ref=Jon_4.5
+7	,	,	u	u--------	_	0	AuxX	_	t_1010|0|ref=Jon_4.5
+8	καὶ	καί	c	c--------	_	7	COORD	_	t_1011|t_1010|ref=Jon_4.5
+9	ἐκάθισεν	καθίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1012|t_1011|ref=Jon_4.5
+10	ἀπέναντι	ἀπέναντι	r	r--------	_	9	AuxP	_	t_1013|t_1012|ref=Jon_4.5
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1014|t_1015|ref=Jon_4.5
+12	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1015|t_1013|ref=Jon_4.5
+13	·	·	u	u--------	_	7	AuxK	_	t_1016|t_1010|ref=Jon_4.5
 
-# source = Septuaginta, Jonas 4.5
+# source = Septuaginta, Jon 4.5
 # text = καὶ ἐποίησεν ἑαυτῷ ἐκεῖ σκηνὴν καὶ ἐκάθητο ὑποκάτω αὐτῆς ἐν σκιῷ , ἕως οὗ ἀπίδῃ τί ἔσται τῇ πόλει .
 # sent_id = 55
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_1017|ref=Jonas_4.5
-2	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_1018|ref=Jonas_4.5
-3	ἑαυτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_1019|ref=Jonas_4.5
-4	ἐκεῖ	ἐκεῖ	d	d--------	_	2	ADV	_	t_1020|ref=Jonas_4.5
-5	σκηνὴν	σκηνή	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_1021|ref=Jonas_4.5
-6	καὶ	καί	c	c--------	_	0	COORD	_	t_1022|ref=Jonas_4.5
-7	ἐκάθητο	κάθημαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	6	PRED	_	t_1023|ref=Jonas_4.5
-8	ὑποκάτω	ὑποκάτω	r	r--------	_	7	AuxP	_	t_1024|ref=Jonas_4.5
-9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_1025|ref=Jonas_4.5
-10	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1026|ref=Jonas_4.5
-11	σκιῷ	σκιά	n	n-s---md-	Case=d|Gender=m|Number=s	10	ADV	_	t_1027|ref=Jonas_4.5
-12	,	,	u	u--------	_	6	AuxX	_	t_1028|ref=Jonas_4.5
-13	ἕως	ἕως	r	r--------	_	7	AuxC	_	t_1029|ref=Jonas_4.5
-14	οὗ	ὅς	d	d--------	_	13	ADV	_	t_1030|ref=Jonas_4.5
-15	ἀπίδῃ	ἄπειμι	n	n-s---fd-	Case=d|Gender=f|Number=s	17	ADV	_	t_1031|ref=Jonas_4.5
-16	τί	τίς	p	p-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_1032|ref=Jonas_4.5
-17	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	13	ADV	_	t_1033|ref=Jonas_4.5
-18	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_1034|ref=Jonas_4.5
-19	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	17	PNOM	_	t_1035|ref=Jonas_4.5
-20	.	.	u	u--------	_	6	AuxK	_	t_1036|ref=Jonas_4.5
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_1017|t_1022|ref=Jon_4.5
+2	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_1018|t_1022|ref=Jon_4.5
+3	ἑαυτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_1019|t_1018|ref=Jon_4.5
+4	ἐκεῖ	ἐκεῖ	d	d--------	_	2	ADV	_	t_1020|t_1018|ref=Jon_4.5
+5	σκηνὴν	σκηνή	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_1021|t_1018|ref=Jon_4.5
+6	καὶ	καί	c	c--------	_	0	COORD	_	t_1022|0|ref=Jon_4.5
+7	ἐκάθητο	κάθημαι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	6	PRED	_	t_1023|t_1022|ref=Jon_4.5
+8	ὑποκάτω	ὑποκάτω	r	r--------	_	7	AuxP	_	t_1024|t_1023|ref=Jon_4.5
+9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_1025|t_1024|ref=Jon_4.5
+10	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1026|t_1023|ref=Jon_4.5
+11	σκιῷ	σκιά	n	n-s---md-	Case=d|Gender=m|Number=s	10	ADV	_	t_1027|t_1026|ref=Jon_4.5
+12	,	,	u	u--------	_	6	AuxX	_	t_1028|t_1022|ref=Jon_4.5
+13	ἕως	ἕως	r	r--------	_	7	AuxC	_	t_1029|t_1023|ref=Jon_4.5
+14	οὗ	ὅς	d	d--------	_	13	ADV	_	t_1030|t_1029|ref=Jon_4.5
+15	ἀπίδῃ	ἄπειμι	n	n-s---fd-	Case=d|Gender=f|Number=s	17	ADV	_	t_1031|t_1033|ref=Jon_4.5
+16	τί	τίς	p	p-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_1032|t_1033|ref=Jon_4.5
+17	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	13	ADV	_	t_1033|t_1029|ref=Jon_4.5
+18	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_1034|t_1035|ref=Jon_4.5
+19	πόλει	πόλις	n	n-s---fd-	Case=d|Gender=f|Number=s	17	PNOM	_	t_1035|t_1033|ref=Jon_4.5
+20	.	.	u	u--------	_	6	AuxK	_	t_1036|t_1022|ref=Jon_4.5
 
-# source = Septuaginta, Jonas 4.5-4.6
+# source = Septuaginta, Jon 4.5-4.6
 # text = καὶ προσέταξεν Κύριος ὁ θεὸς κολοκύνθῃ , καὶ ἀνέβη ὑπὲρ κεφαλῆς τοῦ Ἰωνᾶ τοῦ εἶναι σκιὰν ὑπεράνω τῆς κεφαλῆς αὐτοῦ , τοῦ σκιάζειν αὐτῷ ἀπὸ τῶν κακῶν αὐτοῦ ·
 # sent_id = 56
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_1037|ref=Jonas_4.5
-2	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1038|ref=Jonas_4.5
-3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1039|ref=Jonas_4.5
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1040|ref=Jonas_4.5
-5	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_1041|ref=Jonas_4.5
-6	κολοκύνθῃ	κολοκύνθη	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_1042|ref=Jonas_4.6
-7	,	,	u	u--------	_	0	AuxX	_	t_1043|ref=Jonas_4.6
-8	καὶ	καί	c	c--------	_	7	COORD	_	t_1044|ref=Jonas_4.6
-9	ἀνέβη	ἀναβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1045|ref=Jonas_4.6
-10	ὑπὲρ	ὑπέρ	r	r--------	_	9	AuxP	_	t_1046|ref=Jonas_4.6
-11	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1047|ref=Jonas_4.6
-12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_1048|ref=Jonas_4.6
-13	Ἰωνᾶ	ἰωνᾶς	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1049|ref=Jonas_4.6
-14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1050|ref=Jonas_4.6
-15	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	11	ATR	_	t_1051|ref=Jonas_4.6
-16	σκιὰν	σκιά	n	n-s---fa-	Case=a|Gender=f|Number=s	15	PNOM	_	t_1052|ref=Jonas_4.6
-17	ὑπεράνω	ὑπεράνω	d	d--------	_	16	AuxP	_	t_1053|ref=Jonas_4.6
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1054|ref=Jonas_4.6
-19	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_1055|ref=Jonas_4.6
-20	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_1056|ref=Jonas_4.6
-21	,	,	u	u--------	_	7	AuxX	_	t_1057|ref=Jonas_4.6
-22	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	23	ATR	_	t_1058|ref=Jonas_4.6
-23	σκιάζειν	σκιάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	PNOM	_	t_1059|ref=Jonas_4.6
-24	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_1060|ref=Jonas_4.6
-25	ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_1061|ref=Jonas_4.6
-26	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_1062|ref=Jonas_4.6
-27	κακῶν	κακός	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ADV	_	t_1063|ref=Jonas_4.6
-28	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_1064|ref=Jonas_4.6
-29	·	·	u	u--------	_	7	AuxK	_	t_1065|ref=Jonas_4.6
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_1037|t_1044|ref=Jon_4.5
+2	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1038|t_1044|ref=Jon_4.5
+3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1039|t_1038|ref=Jon_4.5
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1040|t_1039|ref=Jon_4.5
+5	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_1041|t_1039|ref=Jon_4.5
+6	κολοκύνθῃ	κολοκύνθη	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_1042|t_1038|ref=Jon_4.6
+7	,	,	u	u--------	_	0	AuxX	_	t_1043|0|ref=Jon_4.6
+8	καὶ	καί	c	c--------	_	7	COORD	_	t_1044|t_1043|ref=Jon_4.6
+9	ἀνέβη	ἀναβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_1045|t_1044|ref=Jon_4.6
+10	ὑπὲρ	ὑπέρ	r	r--------	_	9	AuxP	_	t_1046|t_1045|ref=Jon_4.6
+11	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1047|t_1046|ref=Jon_4.6
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_1048|t_1049|ref=Jon_4.6
+13	Ἰωνᾶ	ἰωνᾶς	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1049|t_1047|ref=Jon_4.6
+14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1050|t_1051|ref=Jon_4.6
+15	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	11	ATR	_	t_1051|t_1047|ref=Jon_4.6
+16	σκιὰν	σκιά	n	n-s---fa-	Case=a|Gender=f|Number=s	15	PNOM	_	t_1052|t_1051|ref=Jon_4.6
+17	ὑπεράνω	ὑπεράνω	d	d--------	_	16	AuxP	_	t_1053|t_1052|ref=Jon_4.6
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1054|t_1055|ref=Jon_4.6
+19	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_1055|t_1053|ref=Jon_4.6
+20	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_1056|t_1055|ref=Jon_4.6
+21	,	,	u	u--------	_	7	AuxX	_	t_1057|t_1043|ref=Jon_4.6
+22	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	23	ATR	_	t_1058|t_1059|ref=Jon_4.6
+23	σκιάζειν	σκιάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	PNOM	_	t_1059|t_1051|ref=Jon_4.6
+24	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_1060|t_1059|ref=Jon_4.6
+25	ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_1061|t_1059|ref=Jon_4.6
+26	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_1062|t_1063|ref=Jon_4.6
+27	κακῶν	κακός	a	a-p---ng-	Case=g|Gender=n|Number=p	25	ADV	_	t_1063|t_1061|ref=Jon_4.6
+28	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_1064|t_1063|ref=Jon_4.6
+29	·	·	u	u--------	_	7	AuxK	_	t_1065|t_1043|ref=Jon_4.6
 
-# source = Septuaginta, Jonas 4.6
+# source = Septuaginta, Jon 4.6
 # text = καὶ ἐχάρη Ἰωνᾶς ἐπὶ τῇ κολοκύνθῃ χαρὰν μεγάλην .
 # sent_id = 57
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1066|ref=Jonas_4.6
-2	ἐχάρη	χαίρω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1067|ref=Jonas_4.6
-3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1068|ref=Jonas_4.6
-4	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_1069|ref=Jonas_4.6
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_1070|ref=Jonas_4.6
-6	κολοκύνθῃ	κολοκύνθη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_1071|ref=Jonas_4.6
-7	χαρὰν	χαρά	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_1072|ref=Jonas_4.6
-8	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_1073|ref=Jonas_4.6
-9	.	.	u	u--------	_	2	AuxK	_	t_1074|ref=Jonas_4.6
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1066|t_1067|ref=Jon_4.6
+2	ἐχάρη	χαίρω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1067|0|ref=Jon_4.6
+3	Ἰωνᾶς	ἰωνᾶς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1068|t_1067|ref=Jon_4.6
+4	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_1069|t_1067|ref=Jon_4.6
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_1070|t_1071|ref=Jon_4.6
+6	κολοκύνθῃ	κολοκύνθη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_1071|t_1069|ref=Jon_4.6
+7	χαρὰν	χαρά	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_1072|t_1067|ref=Jon_4.6
+8	μεγάλην	μέγας	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_1073|t_1072|ref=Jon_4.6
+9	.	.	u	u--------	_	2	AuxK	_	t_1074|t_1067|ref=Jon_4.6
 
-# source = Septuaginta, Jonas 4.6-4.7
+# source = Septuaginta, Jon 4.6-4.7
 # text = καὶ προσέταξεν ὁ θεὸς σκώληκι ἑωθινῇ τῇ ἐπαύριον , καὶ ἐπάταξεν τὴν κολοκύνθαν , καὶ ἀπεξηράνθη .
 # sent_id = 58
-1	καὶ	καί	d	d--------	_	15	AuxY	_	t_1075|ref=Jonas_4.6
-2	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_1076|ref=Jonas_4.6
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1077|ref=Jonas_4.6
-4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1078|ref=Jonas_4.6
-5	σκώληκι	σκώληξ	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_1079|ref=Jonas_4.6
-6	ἑωθινῇ	ἑωθινός	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_1080|ref=Jonas_4.7
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_1081|ref=Jonas_4.7
-8	ἐπαύριον	ἐπαύριον	d	d--------	_	5	ATR	_	t_1082|ref=Jonas_4.7
-9	,	,	u	u--------	_	0	AuxX	_	t_1083|ref=Jonas_4.7
-10	καὶ	καί	c	c--------	_	15	AuxY	_	t_1084|ref=Jonas_4.7
-11	ἐπάταξεν	πατάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_1085|ref=Jonas_4.7
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1086|ref=Jonas_4.7
-13	κολοκύνθαν	κολοκύνθη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_1087|ref=Jonas_4.7
-14	,	,	u	u--------	_	9	AuxX	_	t_1088|ref=Jonas_4.7
-15	καὶ	καί	c	c--------	_	9	COORD	_	t_1089|ref=Jonas_4.7
-16	ἀπεξηράνθη	ἀποξηραίνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	15	PRED	_	t_1090|ref=Jonas_4.7
-17	.	.	u	u--------	_	9	AuxK	_	t_1091|ref=Jonas_4.7
+1	καὶ	καί	d	d--------	_	15	AuxY	_	t_1075|t_1089|ref=Jon_4.6
+2	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_1076|t_1089|ref=Jon_4.6
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1077|t_1078|ref=Jon_4.6
+4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1078|t_1076|ref=Jon_4.6
+5	σκώληκι	σκώληξ	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_1079|t_1076|ref=Jon_4.6
+6	ἑωθινῇ	ἑωθινός	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_1080|t_1079|ref=Jon_4.7
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_1081|t_1082|ref=Jon_4.7
+8	ἐπαύριον	ἐπαύριον	d	d--------	_	5	ATR	_	t_1082|t_1079|ref=Jon_4.7
+9	,	,	u	u--------	_	0	AuxX	_	t_1083|0|ref=Jon_4.7
+10	καὶ	καί	c	c--------	_	15	AuxY	_	t_1084|t_1089|ref=Jon_4.7
+11	ἐπάταξεν	πατάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_1085|t_1089|ref=Jon_4.7
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1086|t_1087|ref=Jon_4.7
+13	κολοκύνθαν	κολοκύνθη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_1087|t_1085|ref=Jon_4.7
+14	,	,	u	u--------	_	9	AuxX	_	t_1088|t_1083|ref=Jon_4.7
+15	καὶ	καί	c	c--------	_	9	COORD	_	t_1089|t_1083|ref=Jon_4.7
+16	ἀπεξηράνθη	ἀποξηραίνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	15	PRED	_	t_1090|t_1089|ref=Jon_4.7
+17	.	.	u	u--------	_	9	AuxK	_	t_1091|t_1083|ref=Jon_4.7
 
-# source = Septuaginta, Jonas 4.7-4.8
+# source = Septuaginta, Jon 4.7-4.8
 # text = καὶ ἐγένετο ἅμα τῷ ἀνατεῖλαι τὸν ἥλιον καὶ προσέταξεν ὁ θεὸς πνεύματι καύσωνος συνκαίοντι , καὶ ἐπάταξεν ὁ ἥλιος ἐπὶ τὴν κεφαλὴν Ἰωνᾶ ·
 # sent_id = 59
-1	καὶ	καί	d	d--------	_	16	AuxY	_	t_1092|ref=Jonas_4.7
-2	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	16	PRED	_	t_1093|ref=Jonas_4.7
-3	ἅμα	ἅμα	r	r--------	_	2	AuxP	_	t_1094|ref=Jonas_4.7
-4	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_1095|ref=Jonas_4.7
-5	ἀνατεῖλαι	ἀνατέλλω	v	v--ana---	Mood=n|Tense=a|Voice=a	3	ADV	_	t_1096|ref=Jonas_4.7
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1097|ref=Jonas_4.8
-7	ἥλιον	ἥλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_1098|ref=Jonas_4.8
-8	καὶ	καί	c	c--------	_	16	AuxY	_	t_1099|ref=Jonas_4.8
-9	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_1100|ref=Jonas_4.8
-10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_1101|ref=Jonas_4.8
-11	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1102|ref=Jonas_4.8
-12	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	9	OBJ	_	t_1103|ref=Jonas_4.8
-13	καύσωνος	καύσων	a	a-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_1104|ref=Jonas_4.8
-14	συνκαίοντι	συγκαίω	v	v-sppand-	Case=d|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_1105|ref=Jonas_4.8
-15	,	,	u	u--------	_	0	AuxX	_	t_1106|ref=Jonas_4.8
-16	καὶ	καί	c	c--------	_	15	COORD	_	t_1107|ref=Jonas_4.8
-17	ἐπάταξεν	πατάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_1108|ref=Jonas_4.8
-18	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	ATR	_	t_1109|ref=Jonas_4.8
-19	ἥλιος	ἥλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_1110|ref=Jonas_4.8
-20	ἐπὶ	ἐπί	r	r--------	_	17	AuxP	_	t_1111|ref=Jonas_4.8
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_1112|ref=Jonas_4.8
-22	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	20	ADV	_	t_1113|ref=Jonas_4.8
-23	Ἰωνᾶ	ἰωνᾶς	n	n-s---fv-	Case=n|Gender=f|Number=s	22	ATR	_	t_1114|ref=Jonas_4.8
-24	·	·	u	u--------	_	15	AuxK	_	t_1115|ref=Jonas_4.8
+1	καὶ	καί	d	d--------	_	16	AuxY	_	t_1092|t_1107|ref=Jon_4.7
+2	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	16	PRED	_	t_1093|t_1107|ref=Jon_4.7
+3	ἅμα	ἅμα	r	r--------	_	2	AuxP	_	t_1094|t_1093|ref=Jon_4.7
+4	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	5	ATR	_	t_1095|t_1096|ref=Jon_4.7
+5	ἀνατεῖλαι	ἀνατέλλω	v	v--ana---	Mood=n|Tense=a|Voice=a	3	ADV	_	t_1096|t_1094|ref=Jon_4.7
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1097|t_1098|ref=Jon_4.8
+7	ἥλιον	ἥλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_1098|t_1096|ref=Jon_4.8
+8	καὶ	καί	c	c--------	_	16	AuxY	_	t_1099|t_1107|ref=Jon_4.8
+9	προσέταξεν	προστάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_1100|t_1107|ref=Jon_4.8
+10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_1101|t_1102|ref=Jon_4.8
+11	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1102|t_1100|ref=Jon_4.8
+12	πνεύματι	πνεῦμα	n	n-s---nd-	Case=d|Gender=n|Number=s	9	OBJ	_	t_1103|t_1100|ref=Jon_4.8
+13	καύσωνος	καύσων	a	a-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_1104|t_1103|ref=Jon_4.8
+14	συνκαίοντι	συγκαίω	v	v-sppand-	Case=d|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_1105|t_1103|ref=Jon_4.8
+15	,	,	u	u--------	_	0	AuxX	_	t_1106|0|ref=Jon_4.8
+16	καὶ	καί	c	c--------	_	15	COORD	_	t_1107|t_1106|ref=Jon_4.8
+17	ἐπάταξεν	πατάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_1108|t_1107|ref=Jon_4.8
+18	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	ATR	_	t_1109|t_1110|ref=Jon_4.8
+19	ἥλιος	ἥλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_1110|t_1108|ref=Jon_4.8
+20	ἐπὶ	ἐπί	r	r--------	_	17	AuxP	_	t_1111|t_1108|ref=Jon_4.8
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_1112|t_1113|ref=Jon_4.8
+22	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	20	ADV	_	t_1113|t_1111|ref=Jon_4.8
+23	Ἰωνᾶ	ἰωνᾶς	n	n-s---fv-	Case=n|Gender=f|Number=s	22	ATR	_	t_1114|t_1113|ref=Jon_4.8
+24	·	·	u	u--------	_	15	AuxK	_	t_1115|t_1106|ref=Jon_4.8
 
-# source = Septuaginta, Jonas 4.8
+# source = Septuaginta, Jon 4.8
 # text = καὶ ὠλιγοψύχησεν καὶ ἀπελέγετο τὴν ψυχὴν αὐτοῦ , καὶ εἶπεν Καλόν μοι ἀποθανεῖν με ἢ ζῇν [0] .
 # sent_id = 60
-1	καὶ	καί	d	d--------	_	9	AuxY	_	t_1116|ref=Jonas_4.8
-2	ὠλιγοψύχησεν	ὀλιγοψυχέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	9	PRED	_	t_1117|ref=Jonas_4.8
-3	καὶ	καί	d	d--------	_	9	AuxY	_	t_1118|ref=Jonas_4.8
-4	ἀπελέγετο	ἀποφαίνω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	9	PRED	_	t_1119|ref=Jonas_4.8
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1120|ref=Jonas_4.8
-6	ψυχὴν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1121|ref=Jonas_4.8
-7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1122|ref=Jonas_4.8
-8	,	,	u	u--------	_	0	AuxX	_	t_1123|ref=Jonas_4.8
-9	καὶ	καί	c	c--------	_	8	COORD	_	t_1124|ref=Jonas_4.8
-10	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	9	PRED	_	t_1125|ref=Jonas_4.8
-11	Καλόν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_1126|ref=Jonas_4.8
-12	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	17	ADV	_	t_1127|ref=Jonas_4.8
-13	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	17	SBJ	_	t_1128|ref=Jonas_4.8
-14	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_1129|ref=Jonas_4.8
-15	ἢ	ἤ1	c	c--------	_	11	AuxC	_	t_1130|ref=Jonas_4.8
-16	ζῇν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	ADV	_	t_1131|ref=Jonas_4.8
-17	[0]	[0]	-	---------	_	9	PRED	_	e_6|ref=Jonas_1.1
-18	.	.	u	u--------	_	8	AuxK	_	t_1132|ref=Jonas_4.8
+1	καὶ	καί	d	d--------	_	9	AuxY	_	t_1116|t_1124|ref=Jon_4.8
+2	ὠλιγοψύχησεν	ὀλιγοψυχέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	9	PRED	_	t_1117|t_1124|ref=Jon_4.8
+3	καὶ	καί	d	d--------	_	9	AuxY	_	t_1118|t_1124|ref=Jon_4.8
+4	ἀπελέγετο	ἀποφαίνω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	9	PRED	_	t_1119|t_1124|ref=Jon_4.8
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1120|t_1121|ref=Jon_4.8
+6	ψυχὴν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1121|t_1119|ref=Jon_4.8
+7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1122|t_1121|ref=Jon_4.8
+8	,	,	u	u--------	_	0	AuxX	_	t_1123|0|ref=Jon_4.8
+9	καὶ	καί	c	c--------	_	8	COORD	_	t_1124|t_1123|ref=Jon_4.8
+10	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	9	PRED	_	t_1125|t_1124|ref=Jon_4.8
+11	Καλόν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_1126|e_6|ref=Jon_4.8
+12	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	17	ADV	_	t_1127|e_6|ref=Jon_4.8
+13	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	17	SBJ	_	t_1128|e_6|ref=Jon_4.8
+14	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_1129|t_1128|ref=Jon_4.8
+15	ἢ	ἤ1	c	c--------	_	11	AuxC	_	t_1130|t_1126|ref=Jon_4.8
+16	ζῇν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	ADV	_	t_1131|t_1130|ref=Jon_4.8
+17	[0]	[0]	-	---------	_	9	PRED	_	e_6|t_1124|ref=Jon_1.1
+18	.	.	u	u--------	_	8	AuxK	_	t_1132|t_1123|ref=Jon_4.8
 
-# source = Septuaginta, Jonas 4.8-4.9
+# source = Septuaginta, Jon 4.8-4.9
 # text = καὶ εἶπεν ὁ θεὸς πρὸς Ἰωνᾶν Εἰ σφόδρα λελύπησαι σὺ ἐπὶ τῇ κολοκύνθῃ ;
 # sent_id = 61
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1133|ref=Jonas_4.8
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1134|ref=Jonas_4.8
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1135|ref=Jonas_4.8
-4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1136|ref=Jonas_4.8
-5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_1137|ref=Jonas_4.8
-6	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_1138|ref=Jonas_4.8
-7	Εἰ	εἰ	n	n-s---mv-	_	2	ExD	_	t_1139|ref=Jonas_4.9
-8	σφόδρα	σφόδρα	d	d--------	_	9	ADV	_	t_1140|ref=Jonas_4.9
-9	λελύπησαι	λελύπημαι	v	v2srie---	Mood=i|Number=s|Person=2|Tense=r|Voice=e	7	OBJ	_	t_1141|ref=Jonas_4.9
-10	σὺ	σύ	p	p2s----n-	Case=n|Number=s|Person=2	9	SBJ	_	t_1142|ref=Jonas_4.9
-11	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_1143|ref=Jonas_4.9
-12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_1144|ref=Jonas_4.9
-13	κολοκύνθῃ	κολοκύνθη	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_1145|ref=Jonas_4.9
-14	;	;	u	u--------	_	2	AuxK	_	t_1146|ref=Jonas_4.9
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1133|t_1134|ref=Jon_4.8
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1134|0|ref=Jon_4.8
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1135|t_1136|ref=Jon_4.8
+4	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1136|t_1134|ref=Jon_4.8
+5	πρὸς	πρός	r	r--------	_	2	AuxP	_	t_1137|t_1134|ref=Jon_4.8
+6	Ἰωνᾶν	νωέας	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_1138|t_1137|ref=Jon_4.8
+7	Εἰ	εἰ	n	n-s---mv-	_	2	ExD	_	t_1139|t_1134|ref=Jon_4.9
+8	σφόδρα	σφόδρα	d	d--------	_	9	ADV	_	t_1140|t_1141|ref=Jon_4.9
+9	λελύπησαι	λελύπημαι	v	v2srie---	Mood=i|Number=s|Person=2|Tense=r|Voice=e	7	OBJ	_	t_1141|t_1139|ref=Jon_4.9
+10	σὺ	σύ	p	p2s----n-	Case=n|Number=s|Person=2	9	SBJ	_	t_1142|t_1141|ref=Jon_4.9
+11	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_1143|t_1141|ref=Jon_4.9
+12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_1144|t_1145|ref=Jon_4.9
+13	κολοκύνθῃ	κολοκύνθη	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_1145|t_1143|ref=Jon_4.9
+14	;	;	u	u--------	_	2	AuxK	_	t_1146|t_1134|ref=Jon_4.9
 
-# source = Septuaginta, Jonas 4.9
+# source = Septuaginta, Jon 4.9
 # text = καὶ εἶπεν Σφόδρα λελύπημαι ἐγὼ ἕως θανάτου .
 # sent_id = 62
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1147|ref=Jonas_4.9
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1148|ref=Jonas_4.9
-3	Σφόδρα	σφόδρα	n	n-s---ma-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1149|ref=Jonas_4.9
-4	λελύπημαι	λελύπημαι	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	2	OBJ	_	t_1150|ref=Jonas_4.9
-5	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1151|ref=Jonas_4.9
-6	ἕως	ἕως	r	r--------	_	4	AuxP	_	t_1152|ref=Jonas_4.9
-7	θανάτου	θάνατος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_1153|ref=Jonas_4.9
-8	.	.	u	u--------	_	2	AuxK	_	t_1154|ref=Jonas_4.9
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1147|t_1148|ref=Jon_4.9
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1148|0|ref=Jon_4.9
+3	Σφόδρα	σφόδρα	n	n-s---ma-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1149|t_1148|ref=Jon_4.9
+4	λελύπημαι	λελύπημαι	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	2	OBJ	_	t_1150|t_1148|ref=Jon_4.9
+5	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1151|t_1150|ref=Jon_4.9
+6	ἕως	ἕως	r	r--------	_	4	AuxP	_	t_1152|t_1150|ref=Jon_4.9
+7	θανάτου	θάνατος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_1153|t_1152|ref=Jon_4.9
+8	.	.	u	u--------	_	2	AuxK	_	t_1154|t_1148|ref=Jon_4.9
 
-# source = Septuaginta, Jonas 4.9-4.10
+# source = Septuaginta, Jon 4.9-4.10
 # text = καὶ εἶπεν Κύριος Σὺ ἐφείσω ὑπὲρ τῆς κολοκύνθης , ὑπὲρ ἧς οὐκ ἐκακοπάθησας ἐπʼ αὐτήν , καὶ οὐκ ἐξέθρεψας αὐτήν , ἣ ἐγενήθη ὑπὸ νύκτα καὶ ὑπὸ νύκτα ἀπώλετο .
 # sent_id = 63
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1155|ref=Jonas_4.9
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1156|ref=Jonas_4.9
-3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1157|ref=Jonas_4.9
-4	Σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1158|ref=Jonas_4.9
-5	ἐφείσω	φείδομαι	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	17	OBJ	_	t_1159|ref=Jonas_4.9
-6	ὑπὲρ	ὑπέρ	r	r--------	_	5	AuxP	_	t_1160|ref=Jonas_4.9
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1161|ref=Jonas_4.10
-8	κολοκύνθης	κολοκύνθη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_1162|ref=Jonas_4.10
-9	,	,	u	u--------	_	2	AuxX	_	t_1163|ref=Jonas_4.10
-10	ὑπὲρ	ὑπέρ	r	r--------	_	13	AuxP	_	t_1164|ref=Jonas_4.10
-11	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1165|ref=Jonas_4.10
-12	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_1166|ref=Jonas_4.10
-13	ἐκακοπάθησας	κακοπαθέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	8	ATR	_	t_1167|ref=Jonas_4.10
-14	ἐπʼ	ἐπί	r	r--------	_	13	AuxP	_	t_1168|ref=Jonas_4.10
-15	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_1169|ref=Jonas_4.10
-16	,	,	u	u--------	_	2	AuxX	_	t_1170|ref=Jonas_4.10
-17	καὶ	καί	c	c--------	_	2	COORD	_	t_1171|ref=Jonas_4.10
-18	οὐκ	οὐ	d	d--------	_	19	AuxZ	_	t_1172|ref=Jonas_4.10
-19	ἐξέθρεψας	ἐκτρέφω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	17	OBJ	_	t_1173|ref=Jonas_4.10
-20	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_1174|ref=Jonas_4.10
-21	,	,	u	u--------	_	2	AuxX	_	t_1175|ref=Jonas_4.10
-22	ἣ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_1176|ref=Jonas_4.10
-23	ἐγενήθη	γίγνομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	26	ATR	_	t_1177|ref=Jonas_4.10
-24	ὑπὸ	ὑπό	r	r--------	_	26	AuxP	_	t_1178|ref=Jonas_4.10
-25	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	24	ADV	_	t_1179|ref=Jonas_4.10
-26	καὶ	καί	c	c--------	_	20	COORD	_	t_1180|ref=Jonas_4.10
-27	ὑπὸ	ὑπό	r	r--------	_	29	AuxP	_	t_1181|ref=Jonas_4.10
-28	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	27	ADV	_	t_1182|ref=Jonas_4.10
-29	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	26	ATR	_	t_1183|ref=Jonas_4.10
-30	.	.	u	u--------	_	2	AuxK	_	t_1184|ref=Jonas_4.10
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1155|t_1156|ref=Jon_4.9
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1156|0|ref=Jon_4.9
+3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1157|t_1159|ref=Jon_4.9
+4	Σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1158|t_1159|ref=Jon_4.9
+5	ἐφείσω	φείδομαι	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	17	OBJ	_	t_1159|t_1171|ref=Jon_4.9
+6	ὑπὲρ	ὑπέρ	r	r--------	_	5	AuxP	_	t_1160|t_1159|ref=Jon_4.9
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1161|t_1162|ref=Jon_4.10
+8	κολοκύνθης	κολοκύνθη	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_1162|t_1160|ref=Jon_4.10
+9	,	,	u	u--------	_	2	AuxX	_	t_1163|t_1156|ref=Jon_4.10
+10	ὑπὲρ	ὑπέρ	r	r--------	_	13	AuxP	_	t_1164|t_1167|ref=Jon_4.10
+11	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1165|t_1164|ref=Jon_4.10
+12	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_1166|t_1167|ref=Jon_4.10
+13	ἐκακοπάθησας	κακοπαθέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	8	ATR	_	t_1167|t_1162|ref=Jon_4.10
+14	ἐπʼ	ἐπί	r	r--------	_	13	AuxP	_	t_1168|t_1167|ref=Jon_4.10
+15	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_1169|t_1168|ref=Jon_4.10
+16	,	,	u	u--------	_	2	AuxX	_	t_1170|t_1156|ref=Jon_4.10
+17	καὶ	καί	c	c--------	_	2	COORD	_	t_1171|t_1156|ref=Jon_4.10
+18	οὐκ	οὐ	d	d--------	_	19	AuxZ	_	t_1172|t_1173|ref=Jon_4.10
+19	ἐξέθρεψας	ἐκτρέφω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	17	OBJ	_	t_1173|t_1171|ref=Jon_4.10
+20	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_1174|t_1173|ref=Jon_4.10
+21	,	,	u	u--------	_	2	AuxX	_	t_1175|t_1156|ref=Jon_4.10
+22	ἣ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_1176|t_1177|ref=Jon_4.10
+23	ἐγενήθη	γίγνομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	26	ATR	_	t_1177|t_1180|ref=Jon_4.10
+24	ὑπὸ	ὑπό	r	r--------	_	26	AuxP	_	t_1178|t_1180|ref=Jon_4.10
+25	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	24	ADV	_	t_1179|t_1178|ref=Jon_4.10
+26	καὶ	καί	c	c--------	_	20	COORD	_	t_1180|t_1174|ref=Jon_4.10
+27	ὑπὸ	ὑπό	r	r--------	_	29	AuxP	_	t_1181|t_1183|ref=Jon_4.10
+28	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	27	ADV	_	t_1182|t_1181|ref=Jon_4.10
+29	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	26	ATR	_	t_1183|t_1180|ref=Jon_4.10
+30	.	.	u	u--------	_	2	AuxK	_	t_1184|t_1156|ref=Jon_4.10
 
-# source = Septuaginta, Jonas 4.10-4.11
+# source = Septuaginta, Jon 4.10-4.11
 # text = ἐγὼ δὲ οὐ φείσομαι ὑπὲρ Νινευὴ τῆς πόλεως τῆς μεγάλης , ἐν ᾗ κατοικοῦσιν πλείους δώδεκα μυριάδες ἀνθρώπων , οἵτινες οὐκ ἔγνωσαν δεξιὰν αὐτῶν ἢ ἀριστερὰν αὐτῶν , καὶ κτήνη πολλά ;
 # sent_id = 64
-1	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	4	SBJ	_	t_1185|ref=Jonas_4.10
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1186|ref=Jonas_4.10
-3	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_1187|ref=Jonas_4.10
-4	φείσομαι	φείδομαι	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	0	PRED	_	t_1188|ref=Jonas_4.10
-5	ὑπὲρ	ὑπέρ	r	r--------	_	4	AuxP	_	t_1189|ref=Jonas_4.10
-6	Νινευὴ	νινευή	n	n--------	Case=g|Gender=f|Number=s	5	ADV	_	t_1190|ref=Jonas_4.10
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1191|ref=Jonas_4.11
-8	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1192|ref=Jonas_4.11
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1193|ref=Jonas_4.11
-10	μεγάλης	μέγας	a	a-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1194|ref=Jonas_4.11
-11	,	,	u	u--------	_	4	AuxX	_	t_1195|ref=Jonas_4.11
-12	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_1196|ref=Jonas_4.11
-13	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_1197|ref=Jonas_4.11
-14	κατοικοῦσιν	κατοικέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	ATR	_	t_1198|ref=Jonas_4.11
-15	πλείους	πλείων	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	17	ATR	_	t_1199|ref=Jonas_4.11
-16	δώδεκα	δώδεκα	a	a--------	_	17	ATR	_	t_1200|ref=Jonas_4.11
-17	μυριάδες	μυριάς	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_1201|ref=Jonas_4.11
-18	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_1202|ref=Jonas_4.11
-19	,	,	u	u--------	_	4	AuxX	_	t_1203|ref=Jonas_4.11
-20	οἵτινες	ὅστις	p	p-p---mn-	Case=n|Gender=m|Number=p	22	SBJ	_	t_1204|ref=Jonas_4.11
-21	οὐκ	οὐ	d	d--------	_	22	AuxZ	_	t_1205|ref=Jonas_4.11
-22	ἔγνωσαν	γιγνώσκω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	6	ATR	_	t_1206|ref=Jonas_4.11
-23	δεξιὰν	δεξιός	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_1207|ref=Jonas_4.11
-24	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_1208|ref=Jonas_4.11
-25	ἢ	ἤ1	c	c--------	_	22	COORD	_	t_1209|ref=Jonas_4.11
-26	ἀριστερὰν	ἀριστερός	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_1210|ref=Jonas_4.11
-27	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=f|Number=p	26	ATR	_	t_1211|ref=Jonas_4.11
-28	,	,	u	u--------	_	4	AuxX	_	t_1212|ref=Jonas_4.11
-29	καὶ	καί	c	c--------	_	22	COORD	_	t_1213|ref=Jonas_4.11
-30	κτήνη	κτῆνος	n	n-p---na-	Case=a|Gender=n|Number=p	29	OBJ	_	t_1214|ref=Jonas_4.11
-31	πολλά	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	30	ATR	_	t_1215|ref=Jonas_4.11
-32	;	;	u	u--------	_	4	AuxK	_	t_1216|ref=Jonas_4.11
+1	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	4	SBJ	_	t_1185|t_1188|ref=Jon_4.10
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1186|t_1188|ref=Jon_4.10
+3	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_1187|t_1188|ref=Jon_4.10
+4	φείσομαι	φείδομαι	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	0	PRED	_	t_1188|0|ref=Jon_4.10
+5	ὑπὲρ	ὑπέρ	r	r--------	_	4	AuxP	_	t_1189|t_1188|ref=Jon_4.10
+6	Νινευὴ	νινευή	n	n--------	Case=g|Gender=f|Number=s	5	ADV	_	t_1190|t_1189|ref=Jon_4.10
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1191|t_1192|ref=Jon_4.11
+8	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1192|t_1190|ref=Jon_4.11
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1193|t_1192|ref=Jon_4.11
+10	μεγάλης	μέγας	a	a-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1194|t_1192|ref=Jon_4.11
+11	,	,	u	u--------	_	4	AuxX	_	t_1195|t_1188|ref=Jon_4.11
+12	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_1196|t_1198|ref=Jon_4.11
+13	ᾗ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_1197|t_1196|ref=Jon_4.11
+14	κατοικοῦσιν	κατοικέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	ATR	_	t_1198|t_1190|ref=Jon_4.11
+15	πλείους	πλείων	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	17	ATR	_	t_1199|t_1201|ref=Jon_4.11
+16	δώδεκα	δώδεκα	a	a--------	_	17	ATR	_	t_1200|t_1201|ref=Jon_4.11
+17	μυριάδες	μυριάς	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_1201|t_1198|ref=Jon_4.11
+18	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_1202|t_1201|ref=Jon_4.11
+19	,	,	u	u--------	_	4	AuxX	_	t_1203|t_1188|ref=Jon_4.11
+20	οἵτινες	ὅστις	p	p-p---mn-	Case=n|Gender=m|Number=p	22	SBJ	_	t_1204|t_1206|ref=Jon_4.11
+21	οὐκ	οὐ	d	d--------	_	22	AuxZ	_	t_1205|t_1206|ref=Jon_4.11
+22	ἔγνωσαν	γιγνώσκω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	6	ATR	_	t_1206|t_1190|ref=Jon_4.11
+23	δεξιὰν	δεξιός	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_1207|t_1209|ref=Jon_4.11
+24	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_1208|t_1207|ref=Jon_4.11
+25	ἢ	ἤ1	c	c--------	_	22	COORD	_	t_1209|t_1206|ref=Jon_4.11
+26	ἀριστερὰν	ἀριστερός	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_1210|t_1209|ref=Jon_4.11
+27	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=f|Number=p	26	ATR	_	t_1211|t_1210|ref=Jon_4.11
+28	,	,	u	u--------	_	4	AuxX	_	t_1212|t_1188|ref=Jon_4.11
+29	καὶ	καί	c	c--------	_	22	COORD	_	t_1213|t_1206|ref=Jon_4.11
+30	κτήνη	κτῆνος	n	n-p---na-	Case=a|Gender=n|Number=p	29	OBJ	_	t_1214|t_1213|ref=Jon_4.11
+31	πολλά	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	30	ATR	_	t_1215|t_1214|ref=Jon_4.11
+32	;	;	u	u--------	_	4	AuxK	_	t_1216|t_1188|ref=Jon_4.11
 

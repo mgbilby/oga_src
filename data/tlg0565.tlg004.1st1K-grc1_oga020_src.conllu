@@ -1,953 +1,953 @@
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ΙΠΠΟΚΡΑΤΟΥϹ ΓΕΝΟϹ ΓΕΝΟϹ ΚΑΙ ΒΙΟϹ ΚΑΤΑ ϹΩΡΑΝΟΝ Ἱπποκράτηϲ γένει μὲν ἦν Κῷοϲ , υἱὸϲ Ἠρακλείδα καὶ Φαιναρέτηϲ , εἰϲ Ἠρακλέα καὶ Ἀϲκληπιὸν τὸ γένοϲ ἀναφέρων , ἀφʼ οὖ μὲν εἰκοϲτόϲ , ἀφʼ οὐ δὲ ἐννεακαιδέκατοϲ .
 # sent_id = 1
-1	ΙΠΠΟΚΡΑΤΟΥϹ	ιπποκρατης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1|ref=Vita Hippocratis_1
-2	ΓΕΝΟϹ	γενοσ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_2|ref=Vita Hippocratis_1
-3	ΓΕΝΟϹ	γενοσ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_3|ref=Vita Hippocratis_1
-4	ΚΑΙ	καί	c	c--------	_	11	COORD	_	t_4|ref=Vita Hippocratis_1
-5	ΒΙΟϹ	βιοσ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_5|ref=Vita Hippocratis_1
-6	ΚΑΤΑ	κατά	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_6|ref=Vita Hippocratis_1
-7	ϹΩΡΑΝΟΝ	σωρανος	n	n-s---mv-	Case=a|Gender=m|Number=s	6	ATR	_	t_7|ref=Vita Hippocratis_1
-8	Ἱπποκράτηϲ	ἱπποκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_8|ref=Vita Hippocratis_1
-9	γένει	γένος	n	n-s---nd-	Case=d|Gender=n|Number=s	25	ADV	_	t_9|ref=Vita Hippocratis_1
-10	μὲν	μέν	d	d--------	_	11	AuxY	_	t_10|ref=Vita Hippocratis_1
-11	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_11|ref=Vita Hippocratis_1
-12	Κῷοϲ	κῷος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_12|ref=Vita Hippocratis_1
-13	,	,	u	u--------	_	11	AuxX	_	t_13|ref=Vita Hippocratis_1
-14	υἱὸϲ	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_14|ref=Vita Hippocratis_1
-15	Ἠρακλείδα	ἀρακλείδας	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_15|ref=Vita Hippocratis_1
-16	καὶ	καί	c	c--------	_	14	COORD	_	t_16|ref=Vita Hippocratis_1
-17	Φαιναρέτηϲ	φαιναρέτη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_17|ref=Vita Hippocratis_1
-18	,	,	u	u--------	_	11	AuxX	_	t_18|ref=Vita Hippocratis_1
-19	εἰϲ	εἰς	r	r--------	_	25	AuxP	_	t_19|ref=Vita Hippocratis_1
-20	Ἠρακλέα	ἠρακλῆς	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_20|ref=Vita Hippocratis_1
-21	καὶ	καί	c	c--------	_	19	COORD	_	t_21|ref=Vita Hippocratis_1
-22	Ἀϲκληπιὸν	ἀςκληπιός	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_22|ref=Vita Hippocratis_1
-23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_23|ref=Vita Hippocratis_1
-24	γένοϲ	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_24|ref=Vita Hippocratis_1
-25	ἀναφέρων	ἀναφέρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_25|ref=Vita Hippocratis_1
-26	,	,	u	u--------	_	11	AuxX	_	t_26|ref=Vita Hippocratis_1
-27	ἀφʼ	ἀπό	r	r--------	_	30	AuxP	_	t_27|ref=Vita Hippocratis_1
-28	οὖ	οὖ	d	d--------	_	27	ADV	_	t_28|ref=Vita Hippocratis_1
-29	μὲν	μέν	d	d--------	_	34	AuxY	_	t_29|ref=Vita Hippocratis_1
-30	εἰκοϲτόϲ	εἰκοςτός	n	n-s---mn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	34	ATV	_	t_30|ref=Vita Hippocratis_1
-31	,	,	u	u--------	_	11	AuxX	_	t_31|ref=Vita Hippocratis_1
-32	ἀφʼ	ἀπό	r	r--------	_	34	AuxP	_	t_32|ref=Vita Hippocratis_1
-33	οὐ	οὐ	d	d--------	_	35	AuxZ	_	t_33|ref=Vita Hippocratis_1
-34	δὲ	δέ	c	c--------	_	11	COORD	_	t_34|ref=Vita Hippocratis_1
-35	ἐννεακαιδέκατοϲ	ἐννεακαιδέκατος	a	a-s---fn-	Case=n|Gender=f|Number=s	32	ADV	_	t_35|ref=Vita Hippocratis_1
-36	.	.	u	u--------	_	11	AuxK	_	t_36|ref=Vita Hippocratis_1
+1	ΙΠΠΟΚΡΑΤΟΥϹ	ιπποκρατης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1|t_4|ref=Vit.Hipp._1
+2	ΓΕΝΟϹ	γενοσ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_2|t_4|ref=Vit.Hipp._1
+3	ΓΕΝΟϹ	γενοσ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_3|t_4|ref=Vit.Hipp._1
+4	ΚΑΙ	καί	c	c--------	_	11	COORD	_	t_4|t_11|ref=Vit.Hipp._1
+5	ΒΙΟϹ	βιοσ	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_5|t_4|ref=Vit.Hipp._1
+6	ΚΑΤΑ	κατά	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_6|t_4|ref=Vit.Hipp._1
+7	ϹΩΡΑΝΟΝ	σωρανος	n	n-s---mv-	Case=a|Gender=m|Number=s	6	ATR	_	t_7|t_6|ref=Vit.Hipp._1
+8	Ἱπποκράτηϲ	ἱπποκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_8|t_11|ref=Vit.Hipp._1
+9	γένει	γένος	n	n-s---nd-	Case=d|Gender=n|Number=s	25	ADV	_	t_9|t_25|ref=Vit.Hipp._1
+10	μὲν	μέν	d	d--------	_	11	AuxY	_	t_10|t_11|ref=Vit.Hipp._1
+11	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_11|0|ref=Vit.Hipp._1
+12	Κῷοϲ	κῷος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_12|t_13|ref=Vit.Hipp._1
+13	,	,	u	u--------	_	11	AuxX	_	t_13|t_11|ref=Vit.Hipp._1
+14	υἱὸϲ	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_14|t_13|ref=Vit.Hipp._1
+15	Ἠρακλείδα	ἀρακλείδας	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_15|t_16|ref=Vit.Hipp._1
+16	καὶ	καί	c	c--------	_	14	COORD	_	t_16|t_14|ref=Vit.Hipp._1
+17	Φαιναρέτηϲ	φαιναρέτη	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_17|t_16|ref=Vit.Hipp._1
+18	,	,	u	u--------	_	11	AuxX	_	t_18|t_11|ref=Vit.Hipp._1
+19	εἰϲ	εἰς	r	r--------	_	25	AuxP	_	t_19|t_25|ref=Vit.Hipp._1
+20	Ἠρακλέα	ἠρακλῆς	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_20|t_21|ref=Vit.Hipp._1
+21	καὶ	καί	c	c--------	_	19	COORD	_	t_21|t_19|ref=Vit.Hipp._1
+22	Ἀϲκληπιὸν	ἀςκληπιός	n	n-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_22|t_21|ref=Vit.Hipp._1
+23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_23|t_24|ref=Vit.Hipp._1
+24	γένοϲ	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_24|t_25|ref=Vit.Hipp._1
+25	ἀναφέρων	ἀναφέρω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_25|t_11|ref=Vit.Hipp._1
+26	,	,	u	u--------	_	11	AuxX	_	t_26|t_11|ref=Vit.Hipp._1
+27	ἀφʼ	ἀπό	r	r--------	_	30	AuxP	_	t_27|t_30|ref=Vit.Hipp._1
+28	οὖ	οὖ	d	d--------	_	27	ADV	_	t_28|t_27|ref=Vit.Hipp._1
+29	μὲν	μέν	d	d--------	_	34	AuxY	_	t_29|t_34|ref=Vit.Hipp._1
+30	εἰκοϲτόϲ	εἰκοςτός	n	n-s---mn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	34	ATV	_	t_30|t_34|ref=Vit.Hipp._1
+31	,	,	u	u--------	_	11	AuxX	_	t_31|t_11|ref=Vit.Hipp._1
+32	ἀφʼ	ἀπό	r	r--------	_	34	AuxP	_	t_32|t_34|ref=Vit.Hipp._1
+33	οὐ	οὐ	d	d--------	_	35	AuxZ	_	t_33|t_35|ref=Vit.Hipp._1
+34	δὲ	δέ	c	c--------	_	11	COORD	_	t_34|t_11|ref=Vit.Hipp._1
+35	ἐννεακαιδέκατοϲ	ἐννεακαιδέκατος	a	a-s---fn-	Case=n|Gender=f|Number=s	32	ADV	_	t_35|t_32|ref=Vit.Hipp._1
+36	.	.	u	u--------	_	11	AuxK	_	t_36|t_11|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = μνημονεύει δὲ τῆϲ γενεαλογίαϲ αὐτοῦ Ἐρατοϲθἐνηϲ καὶ Φερεκύδηϲ καὶ Ἀ π ολλόδωροϲ καὶ Ἄρειοϲ ὁ Τ αρϲεύϲ .
 # sent_id = 2
-1	μνημονεύει	μνημονεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_37|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_38|ref=Vita Hippocratis_1
-3	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_39|ref=Vita Hippocratis_1
-4	γενεαλογίαϲ	γενεαλογία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	OBJ	_	t_40|ref=Vita Hippocratis_1
-5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_41|ref=Vita Hippocratis_1
-6	Ἐρατοϲθἐνηϲ	ἐρατοςθήνης	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_42|ref=Vita Hippocratis_1
-7	καὶ	καί	d	d--------	_	13	AuxY	_	t_43|ref=Vita Hippocratis_1
-8	Φερεκύδηϲ	φερεκύδης	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_44|ref=Vita Hippocratis_1
-9	καὶ	καί	d	d--------	_	13	AuxY	_	t_45|ref=Vita Hippocratis_1
-10	Ἀ	ἀ	n	n-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_46|ref=Vita Hippocratis_1
-11	π	π	n	n-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_47|ref=Vita Hippocratis_1
-12	ολλόδωροϲ	ολλόδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_48|ref=Vita Hippocratis_1
-13	καὶ	καί	c	c--------	_	1	COORD	_	t_49|ref=Vita Hippocratis_1
-14	Ἄρειοϲ	ἄρειος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_50|ref=Vita Hippocratis_1
-15	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_51|ref=Vita Hippocratis_1
-16	Τ	ὁ	n	n--------	_	14	ATR	_	t_52|ref=Vita Hippocratis_1
-17	αρϲεύϲ	αρςεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_53|ref=Vita Hippocratis_1
-18	.	.	u	u--------	_	1	AuxK	_	t_54|ref=Vita Hippocratis_1
+1	μνημονεύει	μνημονεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_37|0|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_38|t_37|ref=Vit.Hipp._1
+3	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_39|t_40|ref=Vit.Hipp._1
+4	γενεαλογίαϲ	γενεαλογία	n	n-s---fg-	Case=g|Gender=f|Number=s	1	OBJ	_	t_40|t_37|ref=Vit.Hipp._1
+5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_41|t_40|ref=Vit.Hipp._1
+6	Ἐρατοϲθἐνηϲ	ἐρατοςθήνης	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_42|t_49|ref=Vit.Hipp._1
+7	καὶ	καί	d	d--------	_	13	AuxY	_	t_43|t_49|ref=Vit.Hipp._1
+8	Φερεκύδηϲ	φερεκύδης	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_44|t_49|ref=Vit.Hipp._1
+9	καὶ	καί	d	d--------	_	13	AuxY	_	t_45|t_49|ref=Vit.Hipp._1
+10	Ἀ	ἀ	n	n-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_46|t_48|ref=Vit.Hipp._1
+11	π	π	n	n-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_47|t_48|ref=Vit.Hipp._1
+12	ολλόδωροϲ	ολλόδωρος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_48|t_49|ref=Vit.Hipp._1
+13	καὶ	καί	c	c--------	_	1	COORD	_	t_49|t_37|ref=Vit.Hipp._1
+14	Ἄρειοϲ	ἄρειος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_50|t_49|ref=Vit.Hipp._1
+15	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_51|t_50|ref=Vit.Hipp._1
+16	Τ	ὁ	n	n--------	_	14	ATR	_	t_52|t_50|ref=Vit.Hipp._1
+17	αρϲεύϲ	αρςεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_53|t_50|ref=Vit.Hipp._1
+18	.	.	u	u--------	_	1	AuxK	_	t_54|t_37|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = μαθητὴϲ δὲ γέγονεν Ἡρακλείδα τοῦ [ ἰδίου ] πατρόϲ , εἶτα Ἡροδίκου , κατὰ δέ τιναϲ καὶ Γοργίου τοῦ Λεοντίνου ῥήτοροϲ , φιλο - ϲόφου δὲ Δημοκρίτου Ἀβδηρίτου [0] .
 # sent_id = 3
-1	μαθητὴϲ	μαθητής	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_55|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_56|ref=Vita Hippocratis_1
-3	γέγονεν	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_57|ref=Vita Hippocratis_1
-4	Ἡρακλείδα	ἡρακλείδαι	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_58|ref=Vita Hippocratis_1
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_59|ref=Vita Hippocratis_1
-6	[	[	u	u--------	_	3	AuxX	_	t_60|ref=Vita Hippocratis_1
-7	ἰδίου	ἴδιος	a	a-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_61|ref=Vita Hippocratis_1
-8	]	]	u	u--------	_	3	AuxX	_	t_62|ref=Vita Hippocratis_1
-9	πατρόϲ	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_63|ref=Vita Hippocratis_1
-10	,	,	u	u--------	_	3	AuxX	_	t_64|ref=Vita Hippocratis_1
-11	εἶτα	εἶτα	d	d--------	_	3	COORD	_	t_65|ref=Vita Hippocratis_1
-12	Ἡροδίκου	ἐπαφρόδιτος	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_66|ref=Vita Hippocratis_1
-13	,	,	u	u--------	_	3	AuxX	_	t_67|ref=Vita Hippocratis_1
-14	κατὰ	κατά	r	r--------	_	29	AuxP	_	t_68|ref=Vita Hippocratis_1
-15	δέ	δέ	c	c--------	_	3	COORD	_	t_69|ref=Vita Hippocratis_1
-16	τιναϲ	τις	p	p-p---ma-	Case=a|Gender=m|Number=p	14	ADV	_	t_70|ref=Vita Hippocratis_1
-17	καὶ	καί	d	d--------	_	21	AuxZ	_	t_71|ref=Vita Hippocratis_1
-18	Γοργίου	γοργίας	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_72|ref=Vita Hippocratis_1
-19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_73|ref=Vita Hippocratis_1
-20	Λεοντίνου	λεοντῖνος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_74|ref=Vita Hippocratis_1
-21	ῥήτοροϲ	ῥήτωρ	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_75|ref=Vita Hippocratis_1
-22	,	,	u	u--------	_	3	AuxX	_	t_76|ref=Vita Hippocratis_1
-23	φιλο	φιλόπαις	a	a-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_77|ref=Vita Hippocratis_1
-24	-	-	a	a-s---mg-	Case=g|Gender=m|Number=s	26	ADV	_	t_78|ref=Vita Hippocratis_1
-25	ϲόφου	φήμη	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_79|ref=Vita Hippocratis_1
-26	δὲ	δέ	c	c--------	_	3	COORD	_	t_80|ref=Vita Hippocratis_1
-27	Δημοκρίτου	δημόκριτος	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_81|ref=Vita Hippocratis_1
-28	Ἀβδηρίτου	ἀβδηρίτης	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_82|ref=Vita Hippocratis_1
-29	[0]	[0]	-	---------	_	15	PRED	_	e_1|ref=Vita Hippocratis_1
-30	.	.	u	u--------	_	3	AuxK	_	t_83|ref=Vita Hippocratis_1
+1	μαθητὴϲ	μαθητής	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_55|t_57|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_56|t_69|ref=Vit.Hipp._1
+3	γέγονεν	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_57|0|ref=Vit.Hipp._1
+4	Ἡρακλείδα	ἡρακλείδαι	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_58|t_55|ref=Vit.Hipp._1
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_59|t_58|ref=Vit.Hipp._1
+6	[	[	u	u--------	_	3	AuxX	_	t_60|t_57|ref=Vit.Hipp._1
+7	ἰδίου	ἴδιος	a	a-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_61|t_63|ref=Vit.Hipp._1
+8	]	]	u	u--------	_	3	AuxX	_	t_62|t_57|ref=Vit.Hipp._1
+9	πατρόϲ	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_63|t_58|ref=Vit.Hipp._1
+10	,	,	u	u--------	_	3	AuxX	_	t_64|t_57|ref=Vit.Hipp._1
+11	εἶτα	εἶτα	d	d--------	_	3	COORD	_	t_65|t_57|ref=Vit.Hipp._1
+12	Ἡροδίκου	ἐπαφρόδιτος	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_66|t_80|ref=Vit.Hipp._1
+13	,	,	u	u--------	_	3	AuxX	_	t_67|t_57|ref=Vit.Hipp._1
+14	κατὰ	κατά	r	r--------	_	29	AuxP	_	t_68|e_1|ref=Vit.Hipp._1
+15	δέ	δέ	c	c--------	_	3	COORD	_	t_69|t_57|ref=Vit.Hipp._1
+16	τιναϲ	τις	p	p-p---ma-	Case=a|Gender=m|Number=p	14	ADV	_	t_70|t_68|ref=Vit.Hipp._1
+17	καὶ	καί	d	d--------	_	21	AuxZ	_	t_71|t_75|ref=Vit.Hipp._1
+18	Γοργίου	γοργίας	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_72|t_70|ref=Vit.Hipp._1
+19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_73|t_72|ref=Vit.Hipp._1
+20	Λεοντίνου	λεοντῖνος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_74|t_72|ref=Vit.Hipp._1
+21	ῥήτοροϲ	ῥήτωρ	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_75|t_72|ref=Vit.Hipp._1
+22	,	,	u	u--------	_	3	AuxX	_	t_76|t_57|ref=Vit.Hipp._1
+23	φιλο	φιλόπαις	a	a-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_77|t_81|ref=Vit.Hipp._1
+24	-	-	a	a-s---mg-	Case=g|Gender=m|Number=s	26	ADV	_	t_78|t_80|ref=Vit.Hipp._1
+25	ϲόφου	φήμη	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_79|t_81|ref=Vit.Hipp._1
+26	δὲ	δέ	c	c--------	_	3	COORD	_	t_80|t_57|ref=Vit.Hipp._1
+27	Δημοκρίτου	δημόκριτος	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_81|t_80|ref=Vit.Hipp._1
+28	Ἀβδηρίτου	ἀβδηρίτης	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_82|t_81|ref=Vit.Hipp._1
+29	[0]	[0]	-	---------	_	15	PRED	_	e_1|t_69|ref=Vit.Hipp._1
+30	.	.	u	u--------	_	3	AuxK	_	t_83|t_57|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = κατὰ δὲ τοὺϲ Πελοποννηϲιακοὺϲ ῆκμαϲε χρόνουϲ γεννηθείϲ , ὥϲ φηϲιν Ἰϲχόμαχοϲ ἐν τῷ πρωίω Περὶ τῆϲ Ἱπποκράτουϲ αἱρἐϲεωϲ , κατὰ τὸ πρῶτον ἔτοϲ τῆϲ ὀγδοηκοϲτῆϲ ὀλυμπιάδοϲ , ὡϲ δὲ Ϲωρανὸϲ ὁ Κῷοϲ ἐρευνήϲαϲ τὰ ἐν Κῷ γραμμα - τοψυλακεῖα προϲτίθηϲι , μοναρχοῦντοϲ Ἀβριάδα , μηνὸϲ Ἀλγριανίου ἑβδόμη καὶ εἰκοϲτῇ , παρʼ ὄ καὶ ἐναγίζειν ἐν αὐτῇ μέχρι νῦν Ἱπποκράτει φηὶ τοῦϲ Κώουϲ .
 # sent_id = 4
-1	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_84|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	60	AuxY	_	t_85|ref=Vita Hippocratis_1
-3	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_86|ref=Vita Hippocratis_1
-4	Πελοποννηϲιακοὺϲ	πελοποννησικός	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_87|ref=Vita Hippocratis_1
-5	ῆκμαϲε	ἀκμάζω	n	n-p---ma-	Case=a|Gender=m|Number=p	1	ADV	_	t_88|ref=Vita Hippocratis_1
-6	χρόνουϲ	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	1	ADV	_	t_89|ref=Vita Hippocratis_1
-7	γεννηθείϲ	γεννάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	60	ADV	_	t_90|ref=Vita Hippocratis_1
-8	,	,	u	u--------	_	9	AuxX	_	t_91|ref=Vita Hippocratis_1
-9	ὥϲ	ὡς	c	c--------	_	7	AuxC	_	t_92|ref=Vita Hippocratis_1
-10	φηϲιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	AuxY	_	t_93|ref=Vita Hippocratis_1
-11	Ἰϲχόμαχοϲ	ἰσχόμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_94|ref=Vita Hippocratis_1
-12	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_95|ref=Vita Hippocratis_1
-13	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	15	ATR	_	t_96|ref=Vita Hippocratis_1
-14	πρωίω	πρωΐ	d	d--------	_	15	ATR	_	t_97|ref=Vita Hippocratis_1
-15	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_98|ref=Vita Hippocratis_1
-16	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_99|ref=Vita Hippocratis_1
-17	Ἱπποκράτουϲ	ἱπποκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_100|ref=Vita Hippocratis_1
-18	αἱρἐϲεωϲ	αἵρεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_101|ref=Vita Hippocratis_1
-19	,	,	u	u--------	_	8	AuxX	_	t_102|ref=Vita Hippocratis_1
-20	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_103|ref=Vita Hippocratis_1
-21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_104|ref=Vita Hippocratis_1
-22	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_105|ref=Vita Hippocratis_1
-23	ἔτοϲ	ἔτος	n	n-s---na-	Case=a|Gender=n|Number=s	20	ADV	_	t_106|ref=Vita Hippocratis_1
-24	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_107|ref=Vita Hippocratis_1
-25	ὀγδοηκοϲτῆϲ	ὀγδοηκοςτός	a	a-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_108|ref=Vita Hippocratis_1
-26	ὀλυμπιάδοϲ	ὀλυμπιάδος	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_109|ref=Vita Hippocratis_1
-27	,	,	u	u--------	_	8	AuxX	_	t_110|ref=Vita Hippocratis_1
-28	ὡϲ	ὡς	c	c--------	_	60	AuxC	_	t_111|ref=Vita Hippocratis_1
-29	δὲ	δέ	d	d--------	_	33	COORD	_	t_112|ref=Vita Hippocratis_1
-30	Ϲωρανὸϲ	σωρανός	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_113|ref=Vita Hippocratis_1
-31	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	30	ATR	_	t_114|ref=Vita Hippocratis_1
-32	Κῷοϲ	κῷος	a	a-s---mn-	Case=n|Gender=m|Number=s	30	ATR	_	t_115|ref=Vita Hippocratis_1
-33	ἐρευνήϲαϲ	ἐρευνάω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	28	ADV	_	t_116|ref=Vita Hippocratis_1
-34	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	37	ATR	_	t_117|ref=Vita Hippocratis_1
-35	ἐν	ἐν	r	r--------	_	37	AuxP	_	t_118|ref=Vita Hippocratis_1
-36	Κῷ	κῷος	n	n-s---md-	Case=d|Gender=n|Number=s	35	ATR	_	t_119|ref=Vita Hippocratis_1
-37	γραμμα	γράμμα	n	n-p---na-	Case=a|Gender=n|Number=s	33	OBJ	_	t_120|ref=Vita Hippocratis_1
-38	-	-	u	u--------	_	60	AuxG	_	t_121|ref=Vita Hippocratis_1
-39	τοψυλακεῖα	τοψυλακεῖον	n	n-p---na-	Case=a|Gender=n|Number=p	37	ATR	_	t_122|ref=Vita Hippocratis_1
-40	προϲτίθηϲι	προςτίθημι	n	n-p---fd-	Case=d|Gender=f|Number=p	42	ADV	_	t_123|ref=Vita Hippocratis_1
-41	,	,	u	u--------	_	8	AuxX	_	t_124|ref=Vita Hippocratis_1
-42	μοναρχοῦντοϲ	μοναρχέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	33	ADV	_	t_125|ref=Vita Hippocratis_1
-43	Ἀβριάδα	ἀβριάς	n	n-s---fa-	Case=a|Gender=f|Number=s	42	OBJ	_	t_126|ref=Vita Hippocratis_1
-44	,	,	u	u--------	_	60	AuxX	_	t_127|ref=Vita Hippocratis_1
-45	μηνὸϲ	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	56	ATR	_	t_128|ref=Vita Hippocratis_1
-46	Ἀλγριανίου	ἀλγριανιός	n	n-s---mg-	Case=g|Gender=m|Number=s	45	ATR	_	t_129|ref=Vita Hippocratis_1
-47	ἑβδόμη	ἕβδομος	a	a-s---fn-	Case=n|Gender=f|Number=s	48	ATR	_	t_130|ref=Vita Hippocratis_1
-48	καὶ	καί	c	c--------	_	45	COORD	_	t_131|ref=Vita Hippocratis_1
-49	εἰκοϲτῇ	εἰκοςτής	n	n-s---md-	Case=d|Gender=f|Number=s	48	ATR	_	t_132|ref=Vita Hippocratis_1
-50	,	,	u	u--------	_	8	AuxX	_	t_133|ref=Vita Hippocratis_1
-51	παρʼ	παρά	r	r--------	_	54	AuxP	_	t_134|ref=Vita Hippocratis_1
-52	ὄ	ὄις	n	n-s---na-	Case=a|Gender=n|Number=s	51	ADV	_	t_135|ref=Vita Hippocratis_1
-53	καὶ	καί	d	d--------	_	54	AuxZ	_	t_136|ref=Vita Hippocratis_1
-54	ἐναγίζειν	ἐναγίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	60	OBJ	_	t_137|ref=Vita Hippocratis_1
-55	ἐν	ἐν	r	r--------	_	54	AuxP	_	t_138|ref=Vita Hippocratis_1
-56	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	55	ADV	_	t_139|ref=Vita Hippocratis_1
-57	μέχρι	μέχρι	r	r--------	_	54	AuxP	_	t_140|ref=Vita Hippocratis_1
-58	νῦν	νῦν	d	d--------	_	57	ADV	_	t_141|ref=Vita Hippocratis_1
-59	Ἱπποκράτει	ἱπποκράτης	n	n-s---md-	Case=d|Gender=m|Number=s	54	OBJ	_	t_142|ref=Vita Hippocratis_1
-60	φηὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_143|ref=Vita Hippocratis_1
-61	τοῦϲ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	62	ATR	_	t_144|ref=Vita Hippocratis_1
-62	Κώουϲ	κῶος	n	n-s---mg-	Case=g|Gender=m|Number=s	59	ATR	_	t_145|ref=Vita Hippocratis_1
-63	.	.	u	u--------	_	8	AuxK	_	t_146|ref=Vita Hippocratis_1
+1	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_84|t_90|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	60	AuxY	_	t_85|t_143|ref=Vit.Hipp._1
+3	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_86|t_89|ref=Vit.Hipp._1
+4	Πελοποννηϲιακοὺϲ	πελοποννησικός	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_87|t_88|ref=Vit.Hipp._1
+5	ῆκμαϲε	ἀκμάζω	n	n-p---ma-	Case=a|Gender=m|Number=p	1	ADV	_	t_88|t_84|ref=Vit.Hipp._1
+6	χρόνουϲ	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	1	ADV	_	t_89|t_84|ref=Vit.Hipp._1
+7	γεννηθείϲ	γεννάω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	60	ADV	_	t_90|t_143|ref=Vit.Hipp._1
+8	,	,	u	u--------	_	9	AuxX	_	t_91|t_92|ref=Vit.Hipp._1
+9	ὥϲ	ὡς	c	c--------	_	7	AuxC	_	t_92|t_90|ref=Vit.Hipp._1
+10	φηϲιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	AuxY	_	t_93|t_92|ref=Vit.Hipp._1
+11	Ἰϲχόμαχοϲ	ἰσχόμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_94|t_93|ref=Vit.Hipp._1
+12	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_95|t_93|ref=Vit.Hipp._1
+13	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	15	ATR	_	t_96|t_98|ref=Vit.Hipp._1
+14	πρωίω	πρωΐ	d	d--------	_	15	ATR	_	t_97|t_98|ref=Vit.Hipp._1
+15	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_98|t_95|ref=Vit.Hipp._1
+16	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_99|t_101|ref=Vit.Hipp._1
+17	Ἱπποκράτουϲ	ἱπποκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_100|t_101|ref=Vit.Hipp._1
+18	αἱρἐϲεωϲ	αἵρεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_101|t_98|ref=Vit.Hipp._1
+19	,	,	u	u--------	_	8	AuxX	_	t_102|t_91|ref=Vit.Hipp._1
+20	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_103|t_90|ref=Vit.Hipp._1
+21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_104|t_106|ref=Vit.Hipp._1
+22	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_105|t_106|ref=Vit.Hipp._1
+23	ἔτοϲ	ἔτος	n	n-s---na-	Case=a|Gender=n|Number=s	20	ADV	_	t_106|t_103|ref=Vit.Hipp._1
+24	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_107|t_109|ref=Vit.Hipp._1
+25	ὀγδοηκοϲτῆϲ	ὀγδοηκοςτός	a	a-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_108|t_109|ref=Vit.Hipp._1
+26	ὀλυμπιάδοϲ	ὀλυμπιάδος	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_109|t_106|ref=Vit.Hipp._1
+27	,	,	u	u--------	_	8	AuxX	_	t_110|t_91|ref=Vit.Hipp._1
+28	ὡϲ	ὡς	c	c--------	_	60	AuxC	_	t_111|t_143|ref=Vit.Hipp._1
+29	δὲ	δέ	d	d--------	_	33	COORD	_	t_112|t_116|ref=Vit.Hipp._1
+30	Ϲωρανὸϲ	σωρανός	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_113|t_116|ref=Vit.Hipp._1
+31	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	30	ATR	_	t_114|t_113|ref=Vit.Hipp._1
+32	Κῷοϲ	κῷος	a	a-s---mn-	Case=n|Gender=m|Number=s	30	ATR	_	t_115|t_113|ref=Vit.Hipp._1
+33	ἐρευνήϲαϲ	ἐρευνάω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	28	ADV	_	t_116|t_111|ref=Vit.Hipp._1
+34	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	37	ATR	_	t_117|t_120|ref=Vit.Hipp._1
+35	ἐν	ἐν	r	r--------	_	37	AuxP	_	t_118|t_120|ref=Vit.Hipp._1
+36	Κῷ	κῷος	n	n-s---md-	Case=d|Gender=n|Number=s	35	ATR	_	t_119|t_118|ref=Vit.Hipp._1
+37	γραμμα	γράμμα	n	n-p---na-	Case=a|Gender=n|Number=s	33	OBJ	_	t_120|t_116|ref=Vit.Hipp._1
+38	-	-	u	u--------	_	60	AuxG	_	t_121|t_143|ref=Vit.Hipp._1
+39	τοψυλακεῖα	τοψυλακεῖον	n	n-p---na-	Case=a|Gender=n|Number=p	37	ATR	_	t_122|t_120|ref=Vit.Hipp._1
+40	προϲτίθηϲι	προςτίθημι	n	n-p---fd-	Case=d|Gender=f|Number=p	42	ADV	_	t_123|t_125|ref=Vit.Hipp._1
+41	,	,	u	u--------	_	8	AuxX	_	t_124|t_91|ref=Vit.Hipp._1
+42	μοναρχοῦντοϲ	μοναρχέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	33	ADV	_	t_125|t_116|ref=Vit.Hipp._1
+43	Ἀβριάδα	ἀβριάς	n	n-s---fa-	Case=a|Gender=f|Number=s	42	OBJ	_	t_126|t_125|ref=Vit.Hipp._1
+44	,	,	u	u--------	_	60	AuxX	_	t_127|t_143|ref=Vit.Hipp._1
+45	μηνὸϲ	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	56	ATR	_	t_128|t_139|ref=Vit.Hipp._1
+46	Ἀλγριανίου	ἀλγριανιός	n	n-s---mg-	Case=g|Gender=m|Number=s	45	ATR	_	t_129|t_128|ref=Vit.Hipp._1
+47	ἑβδόμη	ἕβδομος	a	a-s---fn-	Case=n|Gender=f|Number=s	48	ATR	_	t_130|t_131|ref=Vit.Hipp._1
+48	καὶ	καί	c	c--------	_	45	COORD	_	t_131|t_128|ref=Vit.Hipp._1
+49	εἰκοϲτῇ	εἰκοςτής	n	n-s---md-	Case=d|Gender=f|Number=s	48	ATR	_	t_132|t_131|ref=Vit.Hipp._1
+50	,	,	u	u--------	_	8	AuxX	_	t_133|t_91|ref=Vit.Hipp._1
+51	παρʼ	παρά	r	r--------	_	54	AuxP	_	t_134|t_137|ref=Vit.Hipp._1
+52	ὄ	ὄις	n	n-s---na-	Case=a|Gender=n|Number=s	51	ADV	_	t_135|t_134|ref=Vit.Hipp._1
+53	καὶ	καί	d	d--------	_	54	AuxZ	_	t_136|t_137|ref=Vit.Hipp._1
+54	ἐναγίζειν	ἐναγίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	60	OBJ	_	t_137|t_143|ref=Vit.Hipp._1
+55	ἐν	ἐν	r	r--------	_	54	AuxP	_	t_138|t_137|ref=Vit.Hipp._1
+56	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	55	ADV	_	t_139|t_138|ref=Vit.Hipp._1
+57	μέχρι	μέχρι	r	r--------	_	54	AuxP	_	t_140|t_137|ref=Vit.Hipp._1
+58	νῦν	νῦν	d	d--------	_	57	ADV	_	t_141|t_140|ref=Vit.Hipp._1
+59	Ἱπποκράτει	ἱπποκράτης	n	n-s---md-	Case=d|Gender=m|Number=s	54	OBJ	_	t_142|t_137|ref=Vit.Hipp._1
+60	φηὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_143|0|ref=Vit.Hipp._1
+61	τοῦϲ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	62	ATR	_	t_144|t_145|ref=Vit.Hipp._1
+62	Κώουϲ	κῶος	n	n-s---mg-	Case=g|Gender=m|Number=s	59	ATR	_	t_145|t_142|ref=Vit.Hipp._1
+63	.	.	u	u--------	_	8	AuxK	_	t_146|t_91|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ϲυναϲκηθεὶϲ δὲ ἐν τῇ ἰατρικῇ καὶ τοῖϲ ἐγκυκλίοιϲ μαθή - μαϲι τῶν γονέων αὐτοῦ τελευτηϲάντων μετέϲτη τῆϲ [ ἰδίαϲ ] πατρίδοϲ , ὡϲ μὲν κακοήθωϲ Ἀνδρέαϲ φηϲὶν ἐν τῷ Περἱ τῆϲ ἰατρικῆϲ γενεαλογίαϲ , διὰ τὸ ἐμπρῆϲαι τὸ ἐν Κνίδω γραμματοφυλακεῖον ·
 # sent_id = 5
-1	ϲυναϲκηθεὶϲ	συνακούω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	ADV	_	t_147|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_148|ref=Vita Hippocratis_1
-3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_149|ref=Vita Hippocratis_1
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_150|ref=Vita Hippocratis_1
-5	ἰατρικῇ	ἰατρικός	a	a-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_151|ref=Vita Hippocratis_1
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_152|ref=Vita Hippocratis_1
-7	τοῖϲ	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_153|ref=Vita Hippocratis_1
-8	ἐγκυκλίοιϲ	ἐγκύκλιος	a	a-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_154|ref=Vita Hippocratis_1
-9	μαθή	μαθή	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	10	AuxY	_	t_155|ref=Vita Hippocratis_1
-10	-	-	u	u--------	_	0	PRED	_	t_156|ref=Vita Hippocratis_1
-11	μαϲι	μας	p	p-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_157|ref=Vita Hippocratis_1
-12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_158|ref=Vita Hippocratis_1
-13	γονέων	γονεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_159|ref=Vita Hippocratis_1
-14	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_160|ref=Vita Hippocratis_1
-15	τελευτηϲάντων	τελευτάω	a	a-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_161|ref=Vita Hippocratis_1
-16	μετέϲτη	μεθίστημι	n	n-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_162|ref=Vita Hippocratis_1
-17	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_163|ref=Vita Hippocratis_1
-18	[	[	u	u--------	_	10	AuxX	_	t_164|ref=Vita Hippocratis_1
-19	ἰδίαϲ	ἴδιος	a	a-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_165|ref=Vita Hippocratis_1
-20	]	]	u	u--------	_	10	AuxX	_	t_166|ref=Vita Hippocratis_1
-21	πατρίδοϲ	πατρίς	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_167|ref=Vita Hippocratis_1
-22	,	,	u	u--------	_	10	AuxX	_	t_168|ref=Vita Hippocratis_1
-23	ὡϲ	ὡς	c	c--------	_	9	AuxC	_	t_169|ref=Vita Hippocratis_1
-24	μὲν	μέν	d	d--------	_	27	AuxY	_	t_170|ref=Vita Hippocratis_1
-25	κακοήθωϲ	κακοήθης	d	d--------	_	27	ADV	_	t_171|ref=Vita Hippocratis_1
-26	Ἀνδρέαϲ	ἀνδρέας	n	n-s---mn-	Case=n|Gender=m|Number=s	27	SBJ	_	t_172|ref=Vita Hippocratis_1
-27	φηϲὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	23	ADV	_	t_173|ref=Vita Hippocratis_1
-28	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_174|ref=Vita Hippocratis_1
-29	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_175|ref=Vita Hippocratis_1
-30	Περἱ	πέρ	n	n-s---md-	_	28	ADV	_	t_176|ref=Vita Hippocratis_1
-31	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	33	ATR	_	t_177|ref=Vita Hippocratis_1
-32	ἰατρικῆϲ	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	33	ATR	_	t_178|ref=Vita Hippocratis_1
-33	γενεαλογίαϲ	γενεαλογία	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_179|ref=Vita Hippocratis_1
-34	,	,	u	u--------	_	10	AuxX	_	t_180|ref=Vita Hippocratis_1
-35	διὰ	διά	r	r--------	_	9	AuxP	_	t_181|ref=Vita Hippocratis_1
-36	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	37	ATR	_	t_182|ref=Vita Hippocratis_1
-37	ἐμπρῆϲαι	ἐμπίμπρημι	v	v--rne---	Mood=n|Tense=r|Voice=e	35	ADV	_	t_183|ref=Vita Hippocratis_1
-38	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	41	ATR	_	t_184|ref=Vita Hippocratis_1
-39	ἐν	ἐν	r	r--------	_	41	AuxP	_	t_185|ref=Vita Hippocratis_1
-40	Κνίδω	κνίδος	n	n-s---nd-	Case=d|Number=s	39	ATR	_	t_186|ref=Vita Hippocratis_1
-41	γραμματοφυλακεῖον	γραμματοφυλακεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	37	SBJ	_	t_187|ref=Vita Hippocratis_1
-42	·	·	u	u--------	_	10	AuxK	_	t_188|ref=Vita Hippocratis_1
+1	ϲυναϲκηθεὶϲ	συνακούω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	ADV	_	t_147|t_155|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_148|t_155|ref=Vit.Hipp._1
+3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_149|t_147|ref=Vit.Hipp._1
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_150|t_151|ref=Vit.Hipp._1
+5	ἰατρικῇ	ἰατρικός	a	a-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_151|t_152|ref=Vit.Hipp._1
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_152|t_149|ref=Vit.Hipp._1
+7	τοῖϲ	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_153|t_154|ref=Vit.Hipp._1
+8	ἐγκυκλίοιϲ	ἐγκύκλιος	a	a-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_154|t_152|ref=Vit.Hipp._1
+9	μαθή	μαθή	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	10	AuxY	_	t_155|t_156|ref=Vit.Hipp._1
+10	-	-	u	u--------	_	0	PRED	_	t_156|0|ref=Vit.Hipp._1
+11	μαϲι	μας	p	p-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_157|t_155|ref=Vit.Hipp._1
+12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_158|t_159|ref=Vit.Hipp._1
+13	γονέων	γονεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_159|t_162|ref=Vit.Hipp._1
+14	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_160|t_159|ref=Vit.Hipp._1
+15	τελευτηϲάντων	τελευτάω	a	a-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_161|t_159|ref=Vit.Hipp._1
+16	μετέϲτη	μεθίστημι	n	n-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_162|t_155|ref=Vit.Hipp._1
+17	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_163|t_167|ref=Vit.Hipp._1
+18	[	[	u	u--------	_	10	AuxX	_	t_164|t_156|ref=Vit.Hipp._1
+19	ἰδίαϲ	ἴδιος	a	a-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_165|t_167|ref=Vit.Hipp._1
+20	]	]	u	u--------	_	10	AuxX	_	t_166|t_156|ref=Vit.Hipp._1
+21	πατρίδοϲ	πατρίς	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_167|t_162|ref=Vit.Hipp._1
+22	,	,	u	u--------	_	10	AuxX	_	t_168|t_156|ref=Vit.Hipp._1
+23	ὡϲ	ὡς	c	c--------	_	9	AuxC	_	t_169|t_155|ref=Vit.Hipp._1
+24	μὲν	μέν	d	d--------	_	27	AuxY	_	t_170|t_173|ref=Vit.Hipp._1
+25	κακοήθωϲ	κακοήθης	d	d--------	_	27	ADV	_	t_171|t_173|ref=Vit.Hipp._1
+26	Ἀνδρέαϲ	ἀνδρέας	n	n-s---mn-	Case=n|Gender=m|Number=s	27	SBJ	_	t_172|t_173|ref=Vit.Hipp._1
+27	φηϲὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	23	ADV	_	t_173|t_169|ref=Vit.Hipp._1
+28	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_174|t_173|ref=Vit.Hipp._1
+29	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_175|t_174|ref=Vit.Hipp._1
+30	Περἱ	πέρ	n	n-s---md-	_	28	ADV	_	t_176|t_174|ref=Vit.Hipp._1
+31	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	33	ATR	_	t_177|t_179|ref=Vit.Hipp._1
+32	ἰατρικῆϲ	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	33	ATR	_	t_178|t_179|ref=Vit.Hipp._1
+33	γενεαλογίαϲ	γενεαλογία	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_179|t_175|ref=Vit.Hipp._1
+34	,	,	u	u--------	_	10	AuxX	_	t_180|t_156|ref=Vit.Hipp._1
+35	διὰ	διά	r	r--------	_	9	AuxP	_	t_181|t_155|ref=Vit.Hipp._1
+36	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	37	ATR	_	t_182|t_183|ref=Vit.Hipp._1
+37	ἐμπρῆϲαι	ἐμπίμπρημι	v	v--rne---	Mood=n|Tense=r|Voice=e	35	ADV	_	t_183|t_181|ref=Vit.Hipp._1
+38	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	41	ATR	_	t_184|t_187|ref=Vit.Hipp._1
+39	ἐν	ἐν	r	r--------	_	41	AuxP	_	t_185|t_187|ref=Vit.Hipp._1
+40	Κνίδω	κνίδος	n	n-s---nd-	Case=d|Number=s	39	ATR	_	t_186|t_185|ref=Vit.Hipp._1
+41	γραμματοφυλακεῖον	γραμματοφυλακεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	37	SBJ	_	t_187|t_183|ref=Vit.Hipp._1
+42	·	·	u	u--------	_	10	AuxK	_	t_188|t_156|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἄλλοι δέ φαϲιν , ὅτι προθέϲει τοῦ κατὰ τόπουϲ τὰ ἀποτελούμενα θεάϲαϲθαι καὶ ϲυγγυμναϲθῆναι ποικιλώτερον [0] ·
 # sent_id = 6
-1	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_189|ref=Vita Hippocratis_1
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_190|ref=Vita Hippocratis_1
-3	φαϲιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_191|ref=Vita Hippocratis_1
-4	,	,	u	u--------	_	3	AuxX	_	t_192|ref=Vita Hippocratis_1
-5	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_193|ref=Vita Hippocratis_1
-6	προθέϲει	πρόθεσις	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	OBJ	_	t_194|ref=Vita Hippocratis_1
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_195|ref=Vita Hippocratis_1
-8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_196|ref=Vita Hippocratis_1
-9	τόπουϲ	τόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	8	ADV	_	t_197|ref=Vita Hippocratis_1
-10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_198|ref=Vita Hippocratis_1
-11	ἀποτελούμενα	ἀποτελέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	12	OBJ	_	t_199|ref=Vita Hippocratis_1
-12	θεάϲαϲθαι	θεάομαι	v	v2sria---	Mood=n|Tense=a|Voice=m	13	OBJ	_	t_200|ref=Vita Hippocratis_1
-13	καὶ	καί	c	c--------	_	6	COORD	_	t_201|ref=Vita Hippocratis_1
-14	ϲυγγυμναϲθῆναι	συγγυμνάζω	v	v--anp---	Mood=n|Tense=a|Voice=p	13	SBJ	_	t_202|ref=Vita Hippocratis_1
-15	ποικιλώτερον	ποικίλος	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	16	PNOM	_	t_203|ref=Vita Hippocratis_1
-16	[0]	[0]	-	---------	_	5	OBJ	_	e_2|ref=Vita Hippocratis_1
-17	·	·	u	u--------	_	3	AuxK	_	t_204|ref=Vita Hippocratis_1
+1	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_189|t_191|ref=Vit.Hipp._1
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_190|t_191|ref=Vit.Hipp._1
+3	φαϲιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_191|0|ref=Vit.Hipp._1
+4	,	,	u	u--------	_	3	AuxX	_	t_192|t_191|ref=Vit.Hipp._1
+5	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_193|t_191|ref=Vit.Hipp._1
+6	προθέϲει	πρόθεσις	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	OBJ	_	t_194|t_193|ref=Vit.Hipp._1
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_195|t_201|ref=Vit.Hipp._1
+8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_196|t_199|ref=Vit.Hipp._1
+9	τόπουϲ	τόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	8	ADV	_	t_197|t_196|ref=Vit.Hipp._1
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_198|t_199|ref=Vit.Hipp._1
+11	ἀποτελούμενα	ἀποτελέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	12	OBJ	_	t_199|t_200|ref=Vit.Hipp._1
+12	θεάϲαϲθαι	θεάομαι	v	v2sria---	Mood=n|Tense=a|Voice=m	13	OBJ	_	t_200|t_201|ref=Vit.Hipp._1
+13	καὶ	καί	c	c--------	_	6	COORD	_	t_201|t_194|ref=Vit.Hipp._1
+14	ϲυγγυμναϲθῆναι	συγγυμνάζω	v	v--anp---	Mood=n|Tense=a|Voice=p	13	SBJ	_	t_202|t_201|ref=Vit.Hipp._1
+15	ποικιλώτερον	ποικίλος	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	16	PNOM	_	t_203|e_2|ref=Vit.Hipp._1
+16	[0]	[0]	-	---------	_	5	OBJ	_	e_2|t_193|ref=Vit.Hipp._1
+17	·	·	u	u--------	_	3	AuxK	_	t_204|t_191|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ὡϲ δὲ Ϲωρανὸϲ ὁ Κῷοϲ ἱϲτορεῖ , ὄνειροϲ αὐτῷ παρέϲτη κελεύων τὴν Θεϲϲαλῶν γῆν κατοικεῖν .
 # sent_id = 7
-1	ὡϲ	ὡς	c	c--------	_	10	AuxC	_	t_205|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_206|ref=Vita Hippocratis_1
-3	Ϲωρανὸϲ	σωρανός	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_207|ref=Vita Hippocratis_1
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_208|ref=Vita Hippocratis_1
-5	Κῷοϲ	κῷος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_209|ref=Vita Hippocratis_1
-6	ἱϲτορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_210|ref=Vita Hippocratis_1
-7	,	,	u	u--------	_	10	AuxX	_	t_211|ref=Vita Hippocratis_1
-8	ὄνειροϲ	ὄνειρος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_212|ref=Vita Hippocratis_1
-9	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_213|ref=Vita Hippocratis_1
-10	παρέϲτη	παρίστημι	n	n-s---fn-	_	0	PRED	_	t_214|ref=Vita Hippocratis_1
-11	κελεύων	κελεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_215|ref=Vita Hippocratis_1
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_216|ref=Vita Hippocratis_1
-13	Θεϲϲαλῶν	θεςςαλός	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_217|ref=Vita Hippocratis_1
-14	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_218|ref=Vita Hippocratis_1
-15	κατοικεῖν	κατοικέω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_219|ref=Vita Hippocratis_1
-16	.	.	u	u--------	_	10	AuxK	_	t_220|ref=Vita Hippocratis_1
+1	ὡϲ	ὡς	c	c--------	_	10	AuxC	_	t_205|t_214|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_206|t_214|ref=Vit.Hipp._1
+3	Ϲωρανὸϲ	σωρανός	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_207|t_210|ref=Vit.Hipp._1
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_208|t_207|ref=Vit.Hipp._1
+5	Κῷοϲ	κῷος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_209|t_207|ref=Vit.Hipp._1
+6	ἱϲτορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_210|t_205|ref=Vit.Hipp._1
+7	,	,	u	u--------	_	10	AuxX	_	t_211|t_214|ref=Vit.Hipp._1
+8	ὄνειροϲ	ὄνειρος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_212|t_214|ref=Vit.Hipp._1
+9	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_213|t_214|ref=Vit.Hipp._1
+10	παρέϲτη	παρίστημι	n	n-s---fn-	_	0	PRED	_	t_214|0|ref=Vit.Hipp._1
+11	κελεύων	κελεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_215|t_214|ref=Vit.Hipp._1
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_216|t_218|ref=Vit.Hipp._1
+13	Θεϲϲαλῶν	θεςςαλός	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_217|t_218|ref=Vit.Hipp._1
+14	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_218|t_219|ref=Vit.Hipp._1
+15	κατοικεῖν	κατοικέω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_219|t_215|ref=Vit.Hipp._1
+16	.	.	u	u--------	_	10	AuxK	_	t_220|t_214|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = τὴν δὲ ϲύμπαϲαν Ἑλλάδα θεραπεύων ἐθαυμάϲθη , ὥὑϲτε καὶ ὑπὸ Περ - δίκκα τοῦ Μακεδόνων βαϲιλέωϲ φθιϲικοῦ νομιϲθέντοϲ παρακληθέντα δημοϲίᾳ πρὸϲ αὐτὸν ἐλθεῖν μετ᾿ εὐρυφῶντοϲ , ὅϲ καθ᾿ ἡλικίαν πρεϲβύ - τεροϲ ἦν αὐτοῦ , καὶ ϲημειώϲαϲθαι ψυχῆϲ εἶναι τὸ πάθοϲ .
 # sent_id = 8
-1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_221|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_222|ref=Vita Hippocratis_1
-3	ϲύμπαϲαν	σύνμπας	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_223|ref=Vita Hippocratis_1
-4	Ἑλλάδα	ἑλλάς	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_224|ref=Vita Hippocratis_1
-5	θεραπεύων	θεραπεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_225|ref=Vita Hippocratis_1
-6	ἐθαυμάϲθη	θαυμάζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_226|ref=Vita Hippocratis_1
-7	,	,	u	u--------	_	6	AuxX	_	t_227|ref=Vita Hippocratis_1
-8	ὥὑϲτε	ὅς	d	d--------	_	9	AuxP	_	t_228|ref=Vita Hippocratis_1
-9	καὶ	καί	d	d--------	_	18	AuxZ	_	t_229|ref=Vita Hippocratis_1
-10	ὑπὸ	ὑπό	r	r--------	_	9	AuxP	_	t_230|ref=Vita Hippocratis_1
-11	Περ	πέρ	a	a-s---fn-	Case=a|Gender=f|Number=s	13	ATR	_	t_231|ref=Vita Hippocratis_1
-12	-	-	u	u--------	_	13	AuxX	_	t_232|ref=Vita Hippocratis_1
-13	δίκκα	δίκκα	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_233|ref=Vita Hippocratis_1
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_234|ref=Vita Hippocratis_1
-15	Μακεδόνων	μακεδών	n	n-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_235|ref=Vita Hippocratis_1
-16	βαϲιλέωϲ	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_236|ref=Vita Hippocratis_1
-17	φθιϲικοῦ	φθιικός	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_237|ref=Vita Hippocratis_1
-18	νομιϲθέντοϲ	νομίζω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	19	ADV	_	t_238|ref=Vita Hippocratis_1
-19	παρακληθέντα	παρακαλέω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	23	ADV	_	t_239|ref=Vita Hippocratis_1
-20	δημοϲίᾳ	δημοσίᾳ	n	n-s---fd-	Case=d|Gender=f|Number=s	23	ADV	_	t_240|ref=Vita Hippocratis_1
-21	πρὸϲ	πρός	r	r--------	_	23	AuxP	_	t_241|ref=Vita Hippocratis_1
-22	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_242|ref=Vita Hippocratis_1
-23	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	36	OBJ	_	t_243|ref=Vita Hippocratis_1
-24	μετ᾿	μετά	r	r--------	_	23	AuxP	_	t_244|ref=Vita Hippocratis_1
-25	εὐρυφῶντοϲ	εὐρυφῶν	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	24	ADV	_	t_245|ref=Vita Hippocratis_1
-26	,	,	u	u--------	_	6	AuxX	_	t_246|ref=Vita Hippocratis_1
-27	ὅϲ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_247|ref=Vita Hippocratis_1
-28	καθ᾿	κατά	r	r--------	_	33	AuxP	_	t_248|ref=Vita Hippocratis_1
-29	ἡλικίαν	ἡλικία	n	n-s---fa-	Case=a|Gender=f|Number=s	28	ADV	_	t_249|ref=Vita Hippocratis_1
-30	πρεϲβύ	πρέσβυς	d	d--------	_	32	ADV	_	t_250|ref=Vita Hippocratis_1
-31	-	-	a	a-s---mgc	Case=g|Degree=c|Gender=m|Number=s	33	PNOM	_	t_251|ref=Vita Hippocratis_1
-32	τεροϲ	ἕτερος	a	a-s---mn-	Case=n|Gender=m|Number=s	33	PNOM	_	t_252|ref=Vita Hippocratis_1
-33	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	25	ATR	_	t_253|ref=Vita Hippocratis_1
-34	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	32	ADV	_	t_254|ref=Vita Hippocratis_1
-35	,	,	u	u--------	_	6	AuxX	_	t_255|ref=Vita Hippocratis_1
-36	καὶ	καί	c	c--------	_	6	COORD	_	t_256|ref=Vita Hippocratis_1
-37	ϲημειώϲαϲθαι	παραινέω	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	36	ADV	_	t_257|ref=Vita Hippocratis_1
-38	ψυχῆϲ	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	39	PNOM	_	t_258|ref=Vita Hippocratis_1
-39	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	37	OBJ	_	t_259|ref=Vita Hippocratis_1
-40	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	41	ATR	_	t_260|ref=Vita Hippocratis_1
-41	πάθοϲ	πάθος	n	n-s---na-	Case=a|Gender=n|Number=s	39	SBJ	_	t_261|ref=Vita Hippocratis_1
-42	.	.	u	u--------	_	6	AuxK	_	t_262|ref=Vita Hippocratis_1
+1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_221|t_224|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_222|t_226|ref=Vit.Hipp._1
+3	ϲύμπαϲαν	σύνμπας	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_223|t_224|ref=Vit.Hipp._1
+4	Ἑλλάδα	ἑλλάς	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_224|t_225|ref=Vit.Hipp._1
+5	θεραπεύων	θεραπεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_225|t_226|ref=Vit.Hipp._1
+6	ἐθαυμάϲθη	θαυμάζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_226|0|ref=Vit.Hipp._1
+7	,	,	u	u--------	_	6	AuxX	_	t_227|t_226|ref=Vit.Hipp._1
+8	ὥὑϲτε	ὅς	d	d--------	_	9	AuxP	_	t_228|t_229|ref=Vit.Hipp._1
+9	καὶ	καί	d	d--------	_	18	AuxZ	_	t_229|t_238|ref=Vit.Hipp._1
+10	ὑπὸ	ὑπό	r	r--------	_	9	AuxP	_	t_230|t_229|ref=Vit.Hipp._1
+11	Περ	πέρ	a	a-s---fn-	Case=a|Gender=f|Number=s	13	ATR	_	t_231|t_233|ref=Vit.Hipp._1
+12	-	-	u	u--------	_	13	AuxX	_	t_232|t_233|ref=Vit.Hipp._1
+13	δίκκα	δίκκα	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_233|t_228|ref=Vit.Hipp._1
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_234|t_236|ref=Vit.Hipp._1
+15	Μακεδόνων	μακεδών	n	n-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_235|t_236|ref=Vit.Hipp._1
+16	βαϲιλέωϲ	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_236|t_238|ref=Vit.Hipp._1
+17	φθιϲικοῦ	φθιικός	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_237|t_236|ref=Vit.Hipp._1
+18	νομιϲθέντοϲ	νομίζω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	19	ADV	_	t_238|t_239|ref=Vit.Hipp._1
+19	παρακληθέντα	παρακαλέω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	23	ADV	_	t_239|t_243|ref=Vit.Hipp._1
+20	δημοϲίᾳ	δημοσίᾳ	n	n-s---fd-	Case=d|Gender=f|Number=s	23	ADV	_	t_240|t_243|ref=Vit.Hipp._1
+21	πρὸϲ	πρός	r	r--------	_	23	AuxP	_	t_241|t_243|ref=Vit.Hipp._1
+22	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	21	OBJ	_	t_242|t_241|ref=Vit.Hipp._1
+23	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	36	OBJ	_	t_243|t_256|ref=Vit.Hipp._1
+24	μετ᾿	μετά	r	r--------	_	23	AuxP	_	t_244|t_243|ref=Vit.Hipp._1
+25	εὐρυφῶντοϲ	εὐρυφῶν	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	24	ADV	_	t_245|t_244|ref=Vit.Hipp._1
+26	,	,	u	u--------	_	6	AuxX	_	t_246|t_226|ref=Vit.Hipp._1
+27	ὅϲ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_247|t_253|ref=Vit.Hipp._1
+28	καθ᾿	κατά	r	r--------	_	33	AuxP	_	t_248|t_253|ref=Vit.Hipp._1
+29	ἡλικίαν	ἡλικία	n	n-s---fa-	Case=a|Gender=f|Number=s	28	ADV	_	t_249|t_248|ref=Vit.Hipp._1
+30	πρεϲβύ	πρέσβυς	d	d--------	_	32	ADV	_	t_250|t_252|ref=Vit.Hipp._1
+31	-	-	a	a-s---mgc	Case=g|Degree=c|Gender=m|Number=s	33	PNOM	_	t_251|t_253|ref=Vit.Hipp._1
+32	τεροϲ	ἕτερος	a	a-s---mn-	Case=n|Gender=m|Number=s	33	PNOM	_	t_252|t_253|ref=Vit.Hipp._1
+33	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	25	ATR	_	t_253|t_245|ref=Vit.Hipp._1
+34	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	32	ADV	_	t_254|t_252|ref=Vit.Hipp._1
+35	,	,	u	u--------	_	6	AuxX	_	t_255|t_226|ref=Vit.Hipp._1
+36	καὶ	καί	c	c--------	_	6	COORD	_	t_256|t_226|ref=Vit.Hipp._1
+37	ϲημειώϲαϲθαι	παραινέω	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	36	ADV	_	t_257|t_256|ref=Vit.Hipp._1
+38	ψυχῆϲ	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	39	PNOM	_	t_258|t_259|ref=Vit.Hipp._1
+39	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	37	OBJ	_	t_259|t_257|ref=Vit.Hipp._1
+40	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	41	ATR	_	t_260|t_261|ref=Vit.Hipp._1
+41	πάθοϲ	πάθος	n	n-s---na-	Case=a|Gender=n|Number=s	39	SBJ	_	t_261|t_259|ref=Vit.Hipp._1
+42	.	.	u	u--------	_	6	AuxK	_	t_262|t_226|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἥρα γὰρ μετὰ τὸν τοῦ πατρὸϲ Ἀλεξάνδρου θάνατον φίλαϲ τῆϲ παλλακίδοϲ αὐτοῦ , πρὸϲ ἣν δηλώϲαντα τὸ γεγονόϲ , ἐπειδὴ παρεφύλαξεν ταύτηϲ βλεπομένηϲ παντελῶϲ ἐκεῖνον τρέπεϲθαι , λῦϲαι μὲν τὴν νόϲον , ἄνα - κτήϲαϲθαι δὲ τὸν βαϲιλέα .
 # sent_id = 9
-1	ἥρα	ἥρα	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_263|ref=Vita Hippocratis_1
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_264|ref=Vita Hippocratis_1
-3	μετὰ	μετά	r	r--------	_	1	AuxP	_	t_265|ref=Vita Hippocratis_1
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_266|ref=Vita Hippocratis_1
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_267|ref=Vita Hippocratis_1
-6	πατρὸϲ	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_268|ref=Vita Hippocratis_1
-7	Ἀλεξάνδρου	ἀλέξανδρος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_269|ref=Vita Hippocratis_1
-8	θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_270|ref=Vita Hippocratis_1
-9	φίλαϲ	φίλος	a	a-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_271|ref=Vita Hippocratis_1
-10	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_272|ref=Vita Hippocratis_1
-11	παλλακίδοϲ	παλλακίς	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_273|ref=Vita Hippocratis_1
-12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_274|ref=Vita Hippocratis_1
-13	,	,	u	u--------	_	1	AuxX	_	t_275|ref=Vita Hippocratis_1
-14	πρὸϲ	πρός	r	r--------	_	16	AuxP	_	t_276|ref=Vita Hippocratis_1
-15	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_277|ref=Vita Hippocratis_1
-16	δηλώϲαντα	δηλόω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ADV	_	t_278|ref=Vita Hippocratis_1
-17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_279|ref=Vita Hippocratis_1
-18	γεγονόϲ	γίγνομαι	v	v-srpana-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	16	OBJ	_	t_280|ref=Vita Hippocratis_1
-19	,	,	u	u--------	_	1	AuxX	_	t_281|ref=Vita Hippocratis_1
-20	ἐπειδὴ	ἐπεί	c	c--------	_	16	AuxC	_	t_282|ref=Vita Hippocratis_1
-21	παρεφύλαξεν	παραφυλάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	20	ADV	_	t_283|ref=Vita Hippocratis_1
-22	ταύτηϲ	οὗτος	p	p-s---fg-	Case=g|Gender=f|Number=s	23	SBJ	_	t_284|ref=Vita Hippocratis_1
-23	βλεπομένηϲ	βλέπω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_285|ref=Vita Hippocratis_1
-24	παντελῶϲ	παντελής	d	d--------	_	26	ADV	_	t_286|ref=Vita Hippocratis_1
-25	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	26	SBJ	_	t_287|ref=Vita Hippocratis_1
-26	τρέπεϲθαι	τρέπω	v	v--pne---	Mood=n|Tense=p|Voice=e	21	OBJ	_	t_288|ref=Vita Hippocratis_1
-27	,	,	u	u--------	_	1	AuxX	_	t_289|ref=Vita Hippocratis_1
-28	λῦϲαι	λύω	v	v--ana---	Mood=n|Tense=a|Voice=a	36	OBJ	_	t_290|ref=Vita Hippocratis_1
-29	μὲν	μέν	d	d--------	_	36	AuxY	_	t_291|ref=Vita Hippocratis_1
-30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_292|ref=Vita Hippocratis_1
-31	νόϲον	νόςος	n	n-s---fa-	Case=a|Gender=f|Number=s	28	OBJ	_	t_293|ref=Vita Hippocratis_1
-32	,	,	u	u--------	_	1	AuxX	_	t_294|ref=Vita Hippocratis_1
-33	ἄνα	ἀνά	n	n-s---ma-	Case=a|Gender=m|Number=s	28	OBJ	_	t_295|ref=Vita Hippocratis_1
-34	-	-	u	u--------	_	1	AuxG	_	t_296|ref=Vita Hippocratis_1
-35	κτήϲαϲθαι	κτάομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	36	OBJ	_	t_297|ref=Vita Hippocratis_1
-36	δὲ	δέ	c	c--------	_	1	COORD	_	t_298|ref=Vita Hippocratis_1
-37	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	38	ATR	_	t_299|ref=Vita Hippocratis_1
-38	βαϲιλέα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	35	OBJ	_	t_300|ref=Vita Hippocratis_1
-39	.	.	u	u--------	_	1	AuxK	_	t_301|ref=Vita Hippocratis_1
+1	ἥρα	ἥρα	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_263|0|ref=Vit.Hipp._1
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_264|t_263|ref=Vit.Hipp._1
+3	μετὰ	μετά	r	r--------	_	1	AuxP	_	t_265|t_263|ref=Vit.Hipp._1
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_266|t_270|ref=Vit.Hipp._1
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_267|t_269|ref=Vit.Hipp._1
+6	πατρὸϲ	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_268|t_269|ref=Vit.Hipp._1
+7	Ἀλεξάνδρου	ἀλέξανδρος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_269|t_270|ref=Vit.Hipp._1
+8	θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_270|t_265|ref=Vit.Hipp._1
+9	φίλαϲ	φίλος	a	a-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_271|t_270|ref=Vit.Hipp._1
+10	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_272|t_273|ref=Vit.Hipp._1
+11	παλλακίδοϲ	παλλακίς	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_273|t_271|ref=Vit.Hipp._1
+12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_274|t_273|ref=Vit.Hipp._1
+13	,	,	u	u--------	_	1	AuxX	_	t_275|t_263|ref=Vit.Hipp._1
+14	πρὸϲ	πρός	r	r--------	_	16	AuxP	_	t_276|t_278|ref=Vit.Hipp._1
+15	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_277|t_276|ref=Vit.Hipp._1
+16	δηλώϲαντα	δηλόω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ADV	_	t_278|t_263|ref=Vit.Hipp._1
+17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_279|t_280|ref=Vit.Hipp._1
+18	γεγονόϲ	γίγνομαι	v	v-srpana-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	16	OBJ	_	t_280|t_278|ref=Vit.Hipp._1
+19	,	,	u	u--------	_	1	AuxX	_	t_281|t_263|ref=Vit.Hipp._1
+20	ἐπειδὴ	ἐπεί	c	c--------	_	16	AuxC	_	t_282|t_278|ref=Vit.Hipp._1
+21	παρεφύλαξεν	παραφυλάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	20	ADV	_	t_283|t_282|ref=Vit.Hipp._1
+22	ταύτηϲ	οὗτος	p	p-s---fg-	Case=g|Gender=f|Number=s	23	SBJ	_	t_284|t_285|ref=Vit.Hipp._1
+23	βλεπομένηϲ	βλέπω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_285|t_283|ref=Vit.Hipp._1
+24	παντελῶϲ	παντελής	d	d--------	_	26	ADV	_	t_286|t_288|ref=Vit.Hipp._1
+25	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	26	SBJ	_	t_287|t_288|ref=Vit.Hipp._1
+26	τρέπεϲθαι	τρέπω	v	v--pne---	Mood=n|Tense=p|Voice=e	21	OBJ	_	t_288|t_283|ref=Vit.Hipp._1
+27	,	,	u	u--------	_	1	AuxX	_	t_289|t_263|ref=Vit.Hipp._1
+28	λῦϲαι	λύω	v	v--ana---	Mood=n|Tense=a|Voice=a	36	OBJ	_	t_290|t_298|ref=Vit.Hipp._1
+29	μὲν	μέν	d	d--------	_	36	AuxY	_	t_291|t_298|ref=Vit.Hipp._1
+30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_292|t_293|ref=Vit.Hipp._1
+31	νόϲον	νόςος	n	n-s---fa-	Case=a|Gender=f|Number=s	28	OBJ	_	t_293|t_290|ref=Vit.Hipp._1
+32	,	,	u	u--------	_	1	AuxX	_	t_294|t_263|ref=Vit.Hipp._1
+33	ἄνα	ἀνά	n	n-s---ma-	Case=a|Gender=m|Number=s	28	OBJ	_	t_295|t_290|ref=Vit.Hipp._1
+34	-	-	u	u--------	_	1	AuxG	_	t_296|t_263|ref=Vit.Hipp._1
+35	κτήϲαϲθαι	κτάομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	36	OBJ	_	t_297|t_298|ref=Vit.Hipp._1
+36	δὲ	δέ	c	c--------	_	1	COORD	_	t_298|t_263|ref=Vit.Hipp._1
+37	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	38	ATR	_	t_299|t_300|ref=Vit.Hipp._1
+38	βαϲιλέα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	35	OBJ	_	t_300|t_297|ref=Vit.Hipp._1
+39	.	.	u	u--------	_	1	AuxK	_	t_301|t_263|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = παρεκλήθη δὲ ὑπὸ [ τῶν ] Ἀβδηριτῶν πρὸϲ αὐτοὺϲ ἀπελθεῖν καὶ Δημόκριτον μὲν ὡϲ ἐν μανίᾳ θεραπεῦϲαι , ῥύϲαϲθαι δὲ λοιμοῦ τὴν πόλιν ὅλην .
 # sent_id = 10
-1	παρεκλήθη	παρακαλέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_302|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_303|ref=Vita Hippocratis_1
-3	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_304|ref=Vita Hippocratis_1
-4	[	[	u	u--------	_	1	AuxX	_	t_305|ref=Vita Hippocratis_1
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_306|ref=Vita Hippocratis_1
-6	]	]	u	u--------	_	1	AuxX	_	t_307|ref=Vita Hippocratis_1
-7	Ἀβδηριτῶν	ἀβδηρίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	3	OBJ	_	t_308|ref=Vita Hippocratis_1
-8	πρὸϲ	πρός	r	r--------	_	10	AuxP	_	t_309|ref=Vita Hippocratis_1
-9	αὐτοὺϲ	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_310|ref=Vita Hippocratis_1
-10	ἀπελθεῖν	ἀπέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	11	SBJ	_	t_311|ref=Vita Hippocratis_1
-11	καὶ	καί	c	c--------	_	1	COORD	_	t_312|ref=Vita Hippocratis_1
-12	Δημόκριτον	δημόκριτος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	SBJ	_	t_313|ref=Vita Hippocratis_1
-13	μὲν	μέν	d	d--------	_	20	AuxY	_	t_314|ref=Vita Hippocratis_1
-14	ὡϲ	ὡς	d	d--------	_	16	AuxZ	_	t_315|ref=Vita Hippocratis_1
-15	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_316|ref=Vita Hippocratis_1
-16	μανίᾳ	μανία	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_317|ref=Vita Hippocratis_1
-17	θεραπεῦϲαι	θεραπεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	20	SBJ	_	t_318|ref=Vita Hippocratis_1
-18	,	,	u	u--------	_	1	AuxX	_	t_319|ref=Vita Hippocratis_1
-19	ῥύϲαϲθαι	ῥύομαι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	20	SBJ	_	t_320|ref=Vita Hippocratis_1
-20	δὲ	δέ	c	c--------	_	11	COORD	_	t_321|ref=Vita Hippocratis_1
-21	λοιμοῦ	λοιμός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	OBJ	_	t_322|ref=Vita Hippocratis_1
-22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_323|ref=Vita Hippocratis_1
-23	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_324|ref=Vita Hippocratis_1
-24	ὅλην	ὅλος	a	a-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_325|ref=Vita Hippocratis_1
-25	.	.	u	u--------	_	1	AuxK	_	t_326|ref=Vita Hippocratis_1
+1	παρεκλήθη	παρακαλέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_302|0|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_303|t_302|ref=Vit.Hipp._1
+3	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_304|t_302|ref=Vit.Hipp._1
+4	[	[	u	u--------	_	1	AuxX	_	t_305|t_302|ref=Vit.Hipp._1
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_306|t_308|ref=Vit.Hipp._1
+6	]	]	u	u--------	_	1	AuxX	_	t_307|t_302|ref=Vit.Hipp._1
+7	Ἀβδηριτῶν	ἀβδηρίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	3	OBJ	_	t_308|t_304|ref=Vit.Hipp._1
+8	πρὸϲ	πρός	r	r--------	_	10	AuxP	_	t_309|t_311|ref=Vit.Hipp._1
+9	αὐτοὺϲ	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_310|t_309|ref=Vit.Hipp._1
+10	ἀπελθεῖν	ἀπέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	11	SBJ	_	t_311|t_312|ref=Vit.Hipp._1
+11	καὶ	καί	c	c--------	_	1	COORD	_	t_312|t_302|ref=Vit.Hipp._1
+12	Δημόκριτον	δημόκριτος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	SBJ	_	t_313|t_318|ref=Vit.Hipp._1
+13	μὲν	μέν	d	d--------	_	20	AuxY	_	t_314|t_321|ref=Vit.Hipp._1
+14	ὡϲ	ὡς	d	d--------	_	16	AuxZ	_	t_315|t_317|ref=Vit.Hipp._1
+15	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_316|t_318|ref=Vit.Hipp._1
+16	μανίᾳ	μανία	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_317|t_316|ref=Vit.Hipp._1
+17	θεραπεῦϲαι	θεραπεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	20	SBJ	_	t_318|t_321|ref=Vit.Hipp._1
+18	,	,	u	u--------	_	1	AuxX	_	t_319|t_302|ref=Vit.Hipp._1
+19	ῥύϲαϲθαι	ῥύομαι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	20	SBJ	_	t_320|t_321|ref=Vit.Hipp._1
+20	δὲ	δέ	c	c--------	_	11	COORD	_	t_321|t_312|ref=Vit.Hipp._1
+21	λοιμοῦ	λοιμός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	OBJ	_	t_322|t_320|ref=Vit.Hipp._1
+22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_323|t_324|ref=Vit.Hipp._1
+23	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_324|t_320|ref=Vit.Hipp._1
+24	ὅλην	ὅλος	a	a-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_325|t_324|ref=Vit.Hipp._1
+25	.	.	u	u--------	_	1	AuxK	_	t_326|t_302|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἀλλὰ καὶ εἰϲ τὴν Ἰλλυριῶν καὶ Παιόνων βαρβάρων γῆν λοιμοῦ καταϲκήψαντοϲ καὶ δεομένων τῶν ἐκεῖ βαϲιλέων πρὸϲ αὐτοὺϲ ἐλθεῖν , παρὰ τῶν πρέϲβεων τίνα ἦν ἐκεῖ τὰ πολλὰ τῶν πνευμάτων μαθὼν ἐκείνουϲ μὲν ἀπράκτουϲ ἀπέπεμψε , ϲυλλογιϲάμενοϲ δὲ τὴν νόϲον ἐπὶ τὴν Ἀττικὴν ἥξειν , προειπών τὸ γενηϲόμενον καὶ τῶν πόλεων καὶ τῶν μαθητῶν ἐπεμελήθη .
 # sent_id = 11
-1	ἀλλὰ	ἀλλά	d	d--------	_	38	AuxY	_	t_327|ref=Vita Hippocratis_1
-2	καὶ	καί	d	d--------	_	38	AuxY	_	t_328|ref=Vita Hippocratis_1
-3	εἰϲ	εἰς	r	r--------	_	11	AuxP	_	t_329|ref=Vita Hippocratis_1
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_330|ref=Vita Hippocratis_1
-5	Ἰλλυριῶν	ἰλλύριος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_331|ref=Vita Hippocratis_1
-6	καὶ	καί	c	c--------	_	9	COORD	_	t_332|ref=Vita Hippocratis_1
-7	Παιόνων	παίονες	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_333|ref=Vita Hippocratis_1
-8	βαρβάρων	βάρβαρος	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_334|ref=Vita Hippocratis_1
-9	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_335|ref=Vita Hippocratis_1
-10	λοιμοῦ	λοιμός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	SBJ	_	t_336|ref=Vita Hippocratis_1
-11	καταϲκήψαντοϲ	καταςκήπτω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	ADV	_	t_337|ref=Vita Hippocratis_1
-12	καὶ	καί	c	c--------	_	38	COORD	_	t_338|ref=Vita Hippocratis_1
-13	δεομένων	δέω2	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ADV	_	t_339|ref=Vita Hippocratis_1
-14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_340|ref=Vita Hippocratis_1
-15	ἐκεῖ	ἐκεῖ	d	d--------	_	16	ATR	_	t_341|ref=Vita Hippocratis_1
-16	βαϲιλέων	βασιλεύς	n	n-p---fg-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	13	SBJ	_	t_342|ref=Vita Hippocratis_1
-17	πρὸϲ	πρός	r	r--------	_	19	AuxP	_	t_343|ref=Vita Hippocratis_1
-18	αὐτοὺϲ	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_344|ref=Vita Hippocratis_1
-19	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	13	OBJ	_	t_345|ref=Vita Hippocratis_1
-20	,	,	u	u--------	_	0	AuxX	_	t_346|ref=Vita Hippocratis_1
-21	παρὰ	παρά	r	r--------	_	31	AuxP	_	t_347|ref=Vita Hippocratis_1
-22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_348|ref=Vita Hippocratis_1
-23	πρέϲβεων	πρέςβεος	n	n-p---mg-	Case=g|Gender=m|Number=p	21	ADV	_	t_349|ref=Vita Hippocratis_1
-24	τίνα	τις	p	p-p---na-	Case=a|Gender=n|Number=p	25	SBJ	_	t_350|ref=Vita Hippocratis_1
-25	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	31	OBJ	_	t_351|ref=Vita Hippocratis_1
-26	ἐκεῖ	ἐκεῖ	d	d--------	_	25	ADV	_	t_352|ref=Vita Hippocratis_1
-27	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	28	ATR	_	t_353|ref=Vita Hippocratis_1
-28	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	25	SBJ	_	t_354|ref=Vita Hippocratis_1
-29	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_355|ref=Vita Hippocratis_1
-30	πνευμάτων	πνεῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	28	ATR	_	t_356|ref=Vita Hippocratis_1
-31	μαθὼν	μανθάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	35	ADV	_	t_357|ref=Vita Hippocratis_1
-32	ἐκείνουϲ	ἐκεῖνος	p	p-p---ma-	Case=a|Gender=m|Number=p	35	OBJ	_	t_358|ref=Vita Hippocratis_1
-33	μὲν	μέν	d	d--------	_	38	AuxY	_	t_359|ref=Vita Hippocratis_1
-34	ἀπράκτουϲ	ἄπρακτος	a	a-p---ma-	Case=a|Gender=m|Number=p	32	ATV	_	t_360|ref=Vita Hippocratis_1
-35	ἀπέπεμψε	ἀποπέμπω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	38	PRED	_	t_361|ref=Vita Hippocratis_1
-36	,	,	u	u--------	_	20	AuxX	_	t_362|ref=Vita Hippocratis_1
-37	ϲυλλογιϲάμενοϲ	ςυλλογίζομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	55	ADV	_	t_363|ref=Vita Hippocratis_1
-38	δὲ	δέ	c	c--------	_	20	COORD	_	t_364|ref=Vita Hippocratis_1
-39	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	40	ATR	_	t_365|ref=Vita Hippocratis_1
-40	νόϲον	νόςος	n	n-s---fa-	Case=a|Gender=f|Number=s	44	SBJ	_	t_366|ref=Vita Hippocratis_1
-41	ἐπὶ	ἐπί	r	r--------	_	44	AuxP	_	t_367|ref=Vita Hippocratis_1
-42	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	43	ATR	_	t_368|ref=Vita Hippocratis_1
-43	Ἀττικὴν	ἀττική	n	n-s---fa-	Case=a|Gender=f|Number=s	41	OBJ	_	t_369|ref=Vita Hippocratis_1
-44	ἥξειν	ἥκω	v	v--fna---	Mood=n|Tense=f|Voice=a	37	OBJ	_	t_370|ref=Vita Hippocratis_1
-45	,	,	u	u--------	_	20	AuxX	_	t_371|ref=Vita Hippocratis_1
-46	προειπών	προεῖπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	55	ADV	_	t_372|ref=Vita Hippocratis_1
-47	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	48	ATR	_	t_373|ref=Vita Hippocratis_1
-48	γενηϲόμενον	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	46	OBJ	_	t_374|ref=Vita Hippocratis_1
-49	καὶ	καί	d	d--------	_	52	AuxY	_	t_375|ref=Vita Hippocratis_1
-50	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	51	ATR	_	t_376|ref=Vita Hippocratis_1
-51	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	52	OBJ	_	t_377|ref=Vita Hippocratis_1
-52	καὶ	καί	c	c--------	_	55	COORD	_	t_378|ref=Vita Hippocratis_1
-53	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	54	ATR	_	t_379|ref=Vita Hippocratis_1
-54	μαθητῶν	μαθητής	n	n-p---mg-	Case=g|Gender=m|Number=p	52	OBJ	_	t_380|ref=Vita Hippocratis_1
-55	ἐπεμελήθη	ἐπιμελέομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	38	PRED	_	t_381|ref=Vita Hippocratis_1
-56	.	.	u	u--------	_	20	AuxK	_	t_382|ref=Vita Hippocratis_1
+1	ἀλλὰ	ἀλλά	d	d--------	_	38	AuxY	_	t_327|t_364|ref=Vit.Hipp._1
+2	καὶ	καί	d	d--------	_	38	AuxY	_	t_328|t_364|ref=Vit.Hipp._1
+3	εἰϲ	εἰς	r	r--------	_	11	AuxP	_	t_329|t_337|ref=Vit.Hipp._1
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_330|t_335|ref=Vit.Hipp._1
+5	Ἰλλυριῶν	ἰλλύριος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_331|t_332|ref=Vit.Hipp._1
+6	καὶ	καί	c	c--------	_	9	COORD	_	t_332|t_335|ref=Vit.Hipp._1
+7	Παιόνων	παίονες	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_333|t_332|ref=Vit.Hipp._1
+8	βαρβάρων	βάρβαρος	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_334|t_332|ref=Vit.Hipp._1
+9	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_335|t_329|ref=Vit.Hipp._1
+10	λοιμοῦ	λοιμός	n	n-s---mg-	Case=g|Gender=m|Number=s	11	SBJ	_	t_336|t_337|ref=Vit.Hipp._1
+11	καταϲκήψαντοϲ	καταςκήπτω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	ADV	_	t_337|t_338|ref=Vit.Hipp._1
+12	καὶ	καί	c	c--------	_	38	COORD	_	t_338|t_364|ref=Vit.Hipp._1
+13	δεομένων	δέω2	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ADV	_	t_339|t_338|ref=Vit.Hipp._1
+14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_340|t_342|ref=Vit.Hipp._1
+15	ἐκεῖ	ἐκεῖ	d	d--------	_	16	ATR	_	t_341|t_342|ref=Vit.Hipp._1
+16	βαϲιλέων	βασιλεύς	n	n-p---fg-	Case=n|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	13	SBJ	_	t_342|t_339|ref=Vit.Hipp._1
+17	πρὸϲ	πρός	r	r--------	_	19	AuxP	_	t_343|t_345|ref=Vit.Hipp._1
+18	αὐτοὺϲ	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_344|t_343|ref=Vit.Hipp._1
+19	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	13	OBJ	_	t_345|t_339|ref=Vit.Hipp._1
+20	,	,	u	u--------	_	0	AuxX	_	t_346|0|ref=Vit.Hipp._1
+21	παρὰ	παρά	r	r--------	_	31	AuxP	_	t_347|t_357|ref=Vit.Hipp._1
+22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_348|t_349|ref=Vit.Hipp._1
+23	πρέϲβεων	πρέςβεος	n	n-p---mg-	Case=g|Gender=m|Number=p	21	ADV	_	t_349|t_347|ref=Vit.Hipp._1
+24	τίνα	τις	p	p-p---na-	Case=a|Gender=n|Number=p	25	SBJ	_	t_350|t_351|ref=Vit.Hipp._1
+25	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	31	OBJ	_	t_351|t_357|ref=Vit.Hipp._1
+26	ἐκεῖ	ἐκεῖ	d	d--------	_	25	ADV	_	t_352|t_351|ref=Vit.Hipp._1
+27	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	28	ATR	_	t_353|t_354|ref=Vit.Hipp._1
+28	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	25	SBJ	_	t_354|t_351|ref=Vit.Hipp._1
+29	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_355|t_356|ref=Vit.Hipp._1
+30	πνευμάτων	πνεῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	28	ATR	_	t_356|t_354|ref=Vit.Hipp._1
+31	μαθὼν	μανθάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	35	ADV	_	t_357|t_361|ref=Vit.Hipp._1
+32	ἐκείνουϲ	ἐκεῖνος	p	p-p---ma-	Case=a|Gender=m|Number=p	35	OBJ	_	t_358|t_361|ref=Vit.Hipp._1
+33	μὲν	μέν	d	d--------	_	38	AuxY	_	t_359|t_364|ref=Vit.Hipp._1
+34	ἀπράκτουϲ	ἄπρακτος	a	a-p---ma-	Case=a|Gender=m|Number=p	32	ATV	_	t_360|t_358|ref=Vit.Hipp._1
+35	ἀπέπεμψε	ἀποπέμπω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	38	PRED	_	t_361|t_364|ref=Vit.Hipp._1
+36	,	,	u	u--------	_	20	AuxX	_	t_362|t_346|ref=Vit.Hipp._1
+37	ϲυλλογιϲάμενοϲ	ςυλλογίζομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	55	ADV	_	t_363|t_381|ref=Vit.Hipp._1
+38	δὲ	δέ	c	c--------	_	20	COORD	_	t_364|t_346|ref=Vit.Hipp._1
+39	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	40	ATR	_	t_365|t_366|ref=Vit.Hipp._1
+40	νόϲον	νόςος	n	n-s---fa-	Case=a|Gender=f|Number=s	44	SBJ	_	t_366|t_370|ref=Vit.Hipp._1
+41	ἐπὶ	ἐπί	r	r--------	_	44	AuxP	_	t_367|t_370|ref=Vit.Hipp._1
+42	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	43	ATR	_	t_368|t_369|ref=Vit.Hipp._1
+43	Ἀττικὴν	ἀττική	n	n-s---fa-	Case=a|Gender=f|Number=s	41	OBJ	_	t_369|t_367|ref=Vit.Hipp._1
+44	ἥξειν	ἥκω	v	v--fna---	Mood=n|Tense=f|Voice=a	37	OBJ	_	t_370|t_363|ref=Vit.Hipp._1
+45	,	,	u	u--------	_	20	AuxX	_	t_371|t_346|ref=Vit.Hipp._1
+46	προειπών	προεῖπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	55	ADV	_	t_372|t_381|ref=Vit.Hipp._1
+47	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	48	ATR	_	t_373|t_374|ref=Vit.Hipp._1
+48	γενηϲόμενον	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	46	OBJ	_	t_374|t_372|ref=Vit.Hipp._1
+49	καὶ	καί	d	d--------	_	52	AuxY	_	t_375|t_378|ref=Vit.Hipp._1
+50	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	51	ATR	_	t_376|t_377|ref=Vit.Hipp._1
+51	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	52	OBJ	_	t_377|t_378|ref=Vit.Hipp._1
+52	καὶ	καί	c	c--------	_	55	COORD	_	t_378|t_381|ref=Vit.Hipp._1
+53	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	54	ATR	_	t_379|t_380|ref=Vit.Hipp._1
+54	μαθητῶν	μαθητής	n	n-p---mg-	Case=g|Gender=m|Number=p	52	OBJ	_	t_380|t_378|ref=Vit.Hipp._1
+55	ἐπεμελήθη	ἐπιμελέομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	38	PRED	_	t_381|t_364|ref=Vit.Hipp._1
+56	.	.	u	u--------	_	20	AuxK	_	t_382|t_346|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = τοϲοῦτον δὲ φιλέλλην ὑπῆρξεν , ὥϲτε τῆϲ δόξηϲ αὐτοῦ μέχρι Περϲῶν διαπύϲτου γενομένηϲ καὶ διὰ τοῦτο καὶ τοῦ Ἀλρταξέρξου διὰ Ὑϲτάνουϲ τοῦ Ἐλληϲποντίων ὑπάρχου ἐπὶ μεγάλαιϲ δωρεαῖϲ δεομένου πρὸϲ αὐτὸν ἐλθεῖν , διὰ τὸ ϲεμνὸν καὶ ἀφιλάργυρον καὶ φιλοίκειον ἀρνήϲαϲθαι , ὡϲ καὶ τοῦτο διὰ τῆϲ πρὸϲ αὐτὸν ἐπιϲτολῆϲ δηλοῦται .
 # sent_id = 12
-1	τοϲοῦτον	τοσοῦτος	a	a-s---na-	Case=a|Gender=m|Number=s	4	OBJ	_	t_383|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_384|ref=Vita Hippocratis_1
-3	φιλέλλην	φιλέλλην	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_385|ref=Vita Hippocratis_1
-4	ὑπῆρξεν	ὑπάρχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_386|ref=Vita Hippocratis_1
-5	,	,	u	u--------	_	4	AuxX	_	t_387|ref=Vita Hippocratis_1
-6	ὥϲτε	ὡς	c	c--------	_	14	AuxC	_	t_388|ref=Vita Hippocratis_1
-7	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_389|ref=Vita Hippocratis_1
-8	δόξηϲ	δόξα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	SBJ	_	t_390|ref=Vita Hippocratis_1
-9	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_391|ref=Vita Hippocratis_1
-10	μέχρι	μέχρι	r	r--------	_	13	AuxP	_	t_392|ref=Vita Hippocratis_1
-11	Περϲῶν	πέρςαι	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ADV	_	t_393|ref=Vita Hippocratis_1
-12	διαπύϲτου	διαπύστως	a	a-s---fg-	Case=g|Gender=f|Number=s	13	PNOM	_	t_394|ref=Vita Hippocratis_1
-13	γενομένηϲ	γίγνομαι	v	v-sapmfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	14	ADV	_	t_395|ref=Vita Hippocratis_1
-14	καὶ	καί	c	c--------	_	4	COORD	_	t_396|ref=Vita Hippocratis_1
-15	διὰ	διά	r	r--------	_	14	AuxP	_	t_397|ref=Vita Hippocratis_1
-16	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_398|ref=Vita Hippocratis_1
-17	καὶ	καί	d	d--------	_	19	AuxZ	_	t_399|ref=Vita Hippocratis_1
-18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_400|ref=Vita Hippocratis_1
-19	Ἀλρταξέρξου	ἀλρταξέρξης	n	n-s---mg-	Case=g|Gender=m|Number=s	28	SBJ	_	t_401|ref=Vita Hippocratis_1
-20	διὰ	διά	r	r--------	_	28	AuxP	_	t_402|ref=Vita Hippocratis_1
-21	Ὑϲτάνουϲ	ὑςτάν	n	n-p---fa-	Case=a|Gender=f|Number=p	20	ADV	_	t_403|ref=Vita Hippocratis_1
-22	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_404|ref=Vita Hippocratis_1
-23	Ἐλληϲποντίων	ἑλλησπόντιος	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ATR	_	t_405|ref=Vita Hippocratis_1
-24	ὑπάρχου	ὑπάρχω	n	n-s---mg-	Case=g|Gender=m|Number=s	28	SBJ	_	t_406|ref=Vita Hippocratis_1
-25	ἐπὶ	ἐπί	r	r--------	_	31	AuxP	_	t_407|ref=Vita Hippocratis_1
-26	μεγάλαιϲ	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	27	ATR	_	t_408|ref=Vita Hippocratis_1
-27	δωρεαῖϲ	δωρεά	n	n-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_409|ref=Vita Hippocratis_1
-28	δεομένου	δέω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ADV	_	t_410|ref=Vita Hippocratis_1
-29	πρὸϲ	πρός	r	r--------	_	31	AuxP	_	t_411|ref=Vita Hippocratis_1
-30	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_412|ref=Vita Hippocratis_1
-31	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	28	OBJ	_	t_413|ref=Vita Hippocratis_1
-32	,	,	u	u--------	_	4	AuxX	_	t_414|ref=Vita Hippocratis_1
-33	διὰ	διά	r	r--------	_	31	AuxP	_	t_415|ref=Vita Hippocratis_1
-34	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	38	ATR	_	t_416|ref=Vita Hippocratis_1
-35	ϲεμνὸν	σεμνός	a	a-s---na-	Case=a|Gender=n|Number=s	38	ATR	_	t_417|ref=Vita Hippocratis_1
-36	καὶ	καί	d	d--------	_	38	AuxY	_	t_418|ref=Vita Hippocratis_1
-37	ἀφιλάργυρον	ἀφιλάργυρος	a	a-s---ma-	Case=a|Gender=m|Number=s	38	ATR	_	t_419|ref=Vita Hippocratis_1
-38	καὶ	καί	c	c--------	_	40	COORD	_	t_420|ref=Vita Hippocratis_1
-39	φιλοίκειον	φιλοίκειον	a	a-s---ma-	Case=a|Gender=m|Number=s	38	ATR	_	t_421|ref=Vita Hippocratis_1
-40	ἀρνήϲαϲθαι	ἀρνέομαι	v	v--rne---	Mood=n|Tense=r|Voice=e	33	ADV	_	t_422|ref=Vita Hippocratis_1
-41	,	,	u	u--------	_	4	AuxX	_	t_423|ref=Vita Hippocratis_1
-42	ὡϲ	ὡς	c	c--------	_	40	AuxC	_	t_424|ref=Vita Hippocratis_1
-43	καὶ	καί	d	d--------	_	44	AuxZ	_	t_425|ref=Vita Hippocratis_1
-44	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	50	SBJ	_	t_426|ref=Vita Hippocratis_1
-45	διὰ	διά	r	r--------	_	50	AuxP	_	t_427|ref=Vita Hippocratis_1
-46	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_428|ref=Vita Hippocratis_1
-47	πρὸϲ	πρός	r	r--------	_	49	AuxP	_	t_429|ref=Vita Hippocratis_1
-48	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	47	ATR	_	t_430|ref=Vita Hippocratis_1
-49	ἐπιϲτολῆϲ	ἐπιστολή	n	n-s---fg-	Case=g|Gender=f|Number=s	45	ADV	_	t_431|ref=Vita Hippocratis_1
-50	δηλοῦται	δηλόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	42	ADV	_	t_432|ref=Vita Hippocratis_1
-51	.	.	u	u--------	_	4	AuxK	_	t_433|ref=Vita Hippocratis_1
+1	τοϲοῦτον	τοσοῦτος	a	a-s---na-	Case=a|Gender=m|Number=s	4	OBJ	_	t_383|t_386|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_384|t_386|ref=Vit.Hipp._1
+3	φιλέλλην	φιλέλλην	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_385|t_386|ref=Vit.Hipp._1
+4	ὑπῆρξεν	ὑπάρχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_386|0|ref=Vit.Hipp._1
+5	,	,	u	u--------	_	4	AuxX	_	t_387|t_386|ref=Vit.Hipp._1
+6	ὥϲτε	ὡς	c	c--------	_	14	AuxC	_	t_388|t_396|ref=Vit.Hipp._1
+7	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_389|t_390|ref=Vit.Hipp._1
+8	δόξηϲ	δόξα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	SBJ	_	t_390|t_395|ref=Vit.Hipp._1
+9	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_391|t_390|ref=Vit.Hipp._1
+10	μέχρι	μέχρι	r	r--------	_	13	AuxP	_	t_392|t_395|ref=Vit.Hipp._1
+11	Περϲῶν	πέρςαι	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ADV	_	t_393|t_392|ref=Vit.Hipp._1
+12	διαπύϲτου	διαπύστως	a	a-s---fg-	Case=g|Gender=f|Number=s	13	PNOM	_	t_394|t_395|ref=Vit.Hipp._1
+13	γενομένηϲ	γίγνομαι	v	v-sapmfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	14	ADV	_	t_395|t_396|ref=Vit.Hipp._1
+14	καὶ	καί	c	c--------	_	4	COORD	_	t_396|t_386|ref=Vit.Hipp._1
+15	διὰ	διά	r	r--------	_	14	AuxP	_	t_397|t_396|ref=Vit.Hipp._1
+16	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_398|t_397|ref=Vit.Hipp._1
+17	καὶ	καί	d	d--------	_	19	AuxZ	_	t_399|t_401|ref=Vit.Hipp._1
+18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_400|t_401|ref=Vit.Hipp._1
+19	Ἀλρταξέρξου	ἀλρταξέρξης	n	n-s---mg-	Case=g|Gender=m|Number=s	28	SBJ	_	t_401|t_410|ref=Vit.Hipp._1
+20	διὰ	διά	r	r--------	_	28	AuxP	_	t_402|t_410|ref=Vit.Hipp._1
+21	Ὑϲτάνουϲ	ὑςτάν	n	n-p---fa-	Case=a|Gender=f|Number=p	20	ADV	_	t_403|t_402|ref=Vit.Hipp._1
+22	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_404|t_406|ref=Vit.Hipp._1
+23	Ἐλληϲποντίων	ἑλλησπόντιος	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ATR	_	t_405|t_406|ref=Vit.Hipp._1
+24	ὑπάρχου	ὑπάρχω	n	n-s---mg-	Case=g|Gender=m|Number=s	28	SBJ	_	t_406|t_410|ref=Vit.Hipp._1
+25	ἐπὶ	ἐπί	r	r--------	_	31	AuxP	_	t_407|t_413|ref=Vit.Hipp._1
+26	μεγάλαιϲ	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	27	ATR	_	t_408|t_409|ref=Vit.Hipp._1
+27	δωρεαῖϲ	δωρεά	n	n-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_409|t_407|ref=Vit.Hipp._1
+28	δεομένου	δέω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ADV	_	t_410|t_396|ref=Vit.Hipp._1
+29	πρὸϲ	πρός	r	r--------	_	31	AuxP	_	t_411|t_413|ref=Vit.Hipp._1
+30	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_412|t_411|ref=Vit.Hipp._1
+31	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	28	OBJ	_	t_413|t_410|ref=Vit.Hipp._1
+32	,	,	u	u--------	_	4	AuxX	_	t_414|t_386|ref=Vit.Hipp._1
+33	διὰ	διά	r	r--------	_	31	AuxP	_	t_415|t_413|ref=Vit.Hipp._1
+34	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	38	ATR	_	t_416|t_420|ref=Vit.Hipp._1
+35	ϲεμνὸν	σεμνός	a	a-s---na-	Case=a|Gender=n|Number=s	38	ATR	_	t_417|t_420|ref=Vit.Hipp._1
+36	καὶ	καί	d	d--------	_	38	AuxY	_	t_418|t_420|ref=Vit.Hipp._1
+37	ἀφιλάργυρον	ἀφιλάργυρος	a	a-s---ma-	Case=a|Gender=m|Number=s	38	ATR	_	t_419|t_420|ref=Vit.Hipp._1
+38	καὶ	καί	c	c--------	_	40	COORD	_	t_420|t_422|ref=Vit.Hipp._1
+39	φιλοίκειον	φιλοίκειον	a	a-s---ma-	Case=a|Gender=m|Number=s	38	ATR	_	t_421|t_420|ref=Vit.Hipp._1
+40	ἀρνήϲαϲθαι	ἀρνέομαι	v	v--rne---	Mood=n|Tense=r|Voice=e	33	ADV	_	t_422|t_415|ref=Vit.Hipp._1
+41	,	,	u	u--------	_	4	AuxX	_	t_423|t_386|ref=Vit.Hipp._1
+42	ὡϲ	ὡς	c	c--------	_	40	AuxC	_	t_424|t_422|ref=Vit.Hipp._1
+43	καὶ	καί	d	d--------	_	44	AuxZ	_	t_425|t_426|ref=Vit.Hipp._1
+44	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	50	SBJ	_	t_426|t_432|ref=Vit.Hipp._1
+45	διὰ	διά	r	r--------	_	50	AuxP	_	t_427|t_432|ref=Vit.Hipp._1
+46	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_428|t_431|ref=Vit.Hipp._1
+47	πρὸϲ	πρός	r	r--------	_	49	AuxP	_	t_429|t_431|ref=Vit.Hipp._1
+48	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	47	ATR	_	t_430|t_429|ref=Vit.Hipp._1
+49	ἐπιϲτολῆϲ	ἐπιστολή	n	n-s---fg-	Case=g|Gender=f|Number=s	45	ADV	_	t_431|t_427|ref=Vit.Hipp._1
+50	δηλοῦται	δηλόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	42	ADV	_	t_432|t_424|ref=Vit.Hipp._1
+51	.	.	u	u--------	_	4	AuxK	_	t_433|t_386|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἐρρύϲατο δὲ τὴν ἑαυτοῦ πατρίδα πολεμεῖϲθαι μέλλουϲαν ὑπὸ Ἀθηναίων , Θεϲϲαλῶν δεηθεὶϲ ἐπιβοηθῆϲαι .
 # sent_id = 13
-1	ἐρρύϲατο	ῥύομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_434|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_435|ref=Vita Hippocratis_1
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_436|ref=Vita Hippocratis_1
-4	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_437|ref=Vita Hippocratis_1
-5	πατρίδα	πατρίς	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_438|ref=Vita Hippocratis_1
-6	πολεμεῖϲθαι	πολεμέω	v	v2spia---	Case=n|Gender=f|Number=p	1	OBJ	_	t_439|ref=Vita Hippocratis_1
-7	μέλλουϲαν	μέλλω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_440|ref=Vita Hippocratis_1
-8	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_441|ref=Vita Hippocratis_1
-9	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	OBJ	_	t_442|ref=Vita Hippocratis_1
-10	,	,	u	u--------	_	1	AuxX	_	t_443|ref=Vita Hippocratis_1
-11	Θεϲϲαλῶν	θεςςαλός	n	n-p---mg-	Case=g|Gender=m|Number=p	12	OBJ	_	t_444|ref=Vita Hippocratis_1
-12	δεηθεὶϲ	δέω2	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	1	ADV	_	t_445|ref=Vita Hippocratis_1
-13	ἐπιβοηθῆϲαι	ἐπιβοηθέω	v	v--ane---	Mood=n|Tense=a|Voice=e	12	OBJ	_	t_446|ref=Vita Hippocratis_1
-14	.	.	u	u--------	_	1	AuxK	_	t_447|ref=Vita Hippocratis_1
+1	ἐρρύϲατο	ῥύομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_434|0|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_435|t_434|ref=Vit.Hipp._1
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_436|t_438|ref=Vit.Hipp._1
+4	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_437|t_438|ref=Vit.Hipp._1
+5	πατρίδα	πατρίς	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_438|t_434|ref=Vit.Hipp._1
+6	πολεμεῖϲθαι	πολεμέω	v	v2spia---	Case=n|Gender=f|Number=p	1	OBJ	_	t_439|t_434|ref=Vit.Hipp._1
+7	μέλλουϲαν	μέλλω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_440|t_438|ref=Vit.Hipp._1
+8	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_441|t_434|ref=Vit.Hipp._1
+9	Ἀθηναίων	ἀθήναιος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	OBJ	_	t_442|t_441|ref=Vit.Hipp._1
+10	,	,	u	u--------	_	1	AuxX	_	t_443|t_434|ref=Vit.Hipp._1
+11	Θεϲϲαλῶν	θεςςαλός	n	n-p---mg-	Case=g|Gender=m|Number=p	12	OBJ	_	t_444|t_445|ref=Vit.Hipp._1
+12	δεηθεὶϲ	δέω2	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	1	ADV	_	t_445|t_434|ref=Vit.Hipp._1
+13	ἐπιβοηθῆϲαι	ἐπιβοηθέω	v	v--ane---	Mood=n|Tense=a|Voice=e	12	OBJ	_	t_446|t_445|ref=Vit.Hipp._1
+14	.	.	u	u--------	_	1	AuxK	_	t_447|t_434|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = διὸ καὶ λαμπρῶν ἔτυχε τιμῶν παρὰ ἰνψοιϲ , ἀλλὰ καὶ Θεϲϲαλοῖϲ καὶ Ἀργείοιϲ καὶ Ἀθηναίοιϲ , οἷτινεϲ καὶ δεύτερον αὐτὸν ἀφ᾿ Ἡρακλέουϲ δημοϲίᾳ τοῖϲ Ἐλευϲινίοιϲ ἐμύηϲαν καὶ πολίτην ἔγραψαν καὶ τὴν ἐν πρυτανείῳ ϲίτηϲιν ἔδοϲαν εἰϲ ἐκγόνουϲ .
 # sent_id = 14
-1	διὸ	διό	d	d--------	_	4	AuxY	_	t_448|ref=Vita Hippocratis_1
-2	καὶ	καί	d	d--------	_	4	AuxY	_	t_449|ref=Vita Hippocratis_1
-3	λαμπρῶν	λαμπρός	a	a-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_450|ref=Vita Hippocratis_1
-4	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_451|ref=Vita Hippocratis_1
-5	τιμῶν	τιμή	n	n-p---fg-	Case=g|Gender=f|Number=p	4	OBJ	_	t_452|ref=Vita Hippocratis_1
-6	παρὰ	παρά	r	r--------	_	5	AuxP	_	t_453|ref=Vita Hippocratis_1
-7	ἰνψοιϲ	ἴνψοι	n	n-p---md-	Case=d|Gender=m|Number=p	6	ADV	_	t_454|ref=Vita Hippocratis_1
-8	,	,	u	u--------	_	4	AuxX	_	t_455|ref=Vita Hippocratis_1
-9	ἀλλὰ	ἀλλά	c	c--------	_	4	COORD	_	t_456|ref=Vita Hippocratis_1
-10	καὶ	καί	d	d--------	_	14	AuxY	_	t_457|ref=Vita Hippocratis_1
-11	Θεϲϲαλοῖϲ	θεςςαλός	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_458|ref=Vita Hippocratis_1
-12	καὶ	καί	d	d--------	_	14	AuxY	_	t_459|ref=Vita Hippocratis_1
-13	Ἀργείοιϲ	ἀργεῖος	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_460|ref=Vita Hippocratis_1
-14	καὶ	καί	c	c--------	_	9	COORD	_	t_461|ref=Vita Hippocratis_1
-15	Ἀθηναίοιϲ	ἀθήναιος	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_462|ref=Vita Hippocratis_1
-16	,	,	u	u--------	_	4	AuxX	_	t_463|ref=Vita Hippocratis_1
-17	οἷτινεϲ	ὅστις	p	p-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_464|ref=Vita Hippocratis_1
-18	καὶ	καί	d	d--------	_	19	AuxZ	_	t_465|ref=Vita Hippocratis_1
-19	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	29	ADV	_	t_466|ref=Vita Hippocratis_1
-20	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_467|ref=Vita Hippocratis_1
-21	ἀφ᾿	ἀπό	r	r--------	_	29	AuxP	_	t_468|ref=Vita Hippocratis_1
-22	Ἡρακλέουϲ	ἡρακλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ADV	_	t_469|ref=Vita Hippocratis_1
-23	δημοϲίᾳ	δημοσίᾳ	n	n-s---fd-	Case=d|Gender=f|Number=s	29	ADV	_	t_470|ref=Vita Hippocratis_1
-24	τοῖϲ	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	25	ATR	_	t_471|ref=Vita Hippocratis_1
-25	Ἐλευϲινίοιϲ	ἐλευσία	n	n-p---md-	Case=d|Gender=m|Number=p	29	OBJ	_	t_472|ref=Vita Hippocratis_1
-26	ἐμύηϲαν	μυέω	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OCOMP	_	t_473|ref=Vita Hippocratis_1
-27	καὶ	καί	c	c--------	_	29	COORD	_	t_474|ref=Vita Hippocratis_1
-28	πολίτην	πολίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	27	OCOMP	_	t_475|ref=Vita Hippocratis_1
-29	ἔγραψαν	γράφω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	30	ATR	_	t_476|ref=Vita Hippocratis_1
-30	καὶ	καί	c	c--------	_	14	COORD	_	t_477|ref=Vita Hippocratis_1
-31	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_478|ref=Vita Hippocratis_1
-32	ἐν	ἐν	r	r--------	_	34	AuxP	_	t_479|ref=Vita Hippocratis_1
-33	πρυτανείῳ	πρυτανεῖον	n	n-s---nd-	Case=d|Gender=n|Number=s	32	ATR	_	t_480|ref=Vita Hippocratis_1
-34	ϲίτηϲιν	ςίτηςις	n	n-p---fd-	Case=d|Gender=f|Number=p	35	OBJ	_	t_481|ref=Vita Hippocratis_1
-35	ἔδοϲαν	δίδωμι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	30	ATR	_	t_482|ref=Vita Hippocratis_1
-36	εἰϲ	εἰς	r	r--------	_	35	AuxP	_	t_483|ref=Vita Hippocratis_1
-37	ἐκγόνουϲ	ἔκγονος	a	a-p---ma-	Case=a|Gender=m|Number=p	36	ADV	_	t_484|ref=Vita Hippocratis_1
-38	.	.	u	u--------	_	4	AuxK	_	t_485|ref=Vita Hippocratis_1
+1	διὸ	διό	d	d--------	_	4	AuxY	_	t_448|t_451|ref=Vit.Hipp._1
+2	καὶ	καί	d	d--------	_	4	AuxY	_	t_449|t_451|ref=Vit.Hipp._1
+3	λαμπρῶν	λαμπρός	a	a-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_450|t_452|ref=Vit.Hipp._1
+4	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_451|0|ref=Vit.Hipp._1
+5	τιμῶν	τιμή	n	n-p---fg-	Case=g|Gender=f|Number=p	4	OBJ	_	t_452|t_451|ref=Vit.Hipp._1
+6	παρὰ	παρά	r	r--------	_	5	AuxP	_	t_453|t_452|ref=Vit.Hipp._1
+7	ἰνψοιϲ	ἴνψοι	n	n-p---md-	Case=d|Gender=m|Number=p	6	ADV	_	t_454|t_453|ref=Vit.Hipp._1
+8	,	,	u	u--------	_	4	AuxX	_	t_455|t_451|ref=Vit.Hipp._1
+9	ἀλλὰ	ἀλλά	c	c--------	_	4	COORD	_	t_456|t_451|ref=Vit.Hipp._1
+10	καὶ	καί	d	d--------	_	14	AuxY	_	t_457|t_461|ref=Vit.Hipp._1
+11	Θεϲϲαλοῖϲ	θεςςαλός	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_458|t_461|ref=Vit.Hipp._1
+12	καὶ	καί	d	d--------	_	14	AuxY	_	t_459|t_461|ref=Vit.Hipp._1
+13	Ἀργείοιϲ	ἀργεῖος	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_460|t_461|ref=Vit.Hipp._1
+14	καὶ	καί	c	c--------	_	9	COORD	_	t_461|t_456|ref=Vit.Hipp._1
+15	Ἀθηναίοιϲ	ἀθήναιος	n	n-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_462|t_461|ref=Vit.Hipp._1
+16	,	,	u	u--------	_	4	AuxX	_	t_463|t_451|ref=Vit.Hipp._1
+17	οἷτινεϲ	ὅστις	p	p-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_464|t_477|ref=Vit.Hipp._1
+18	καὶ	καί	d	d--------	_	19	AuxZ	_	t_465|t_466|ref=Vit.Hipp._1
+19	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	29	ADV	_	t_466|t_476|ref=Vit.Hipp._1
+20	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_467|t_476|ref=Vit.Hipp._1
+21	ἀφ᾿	ἀπό	r	r--------	_	29	AuxP	_	t_468|t_476|ref=Vit.Hipp._1
+22	Ἡρακλέουϲ	ἡρακλῆς	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ADV	_	t_469|t_468|ref=Vit.Hipp._1
+23	δημοϲίᾳ	δημοσίᾳ	n	n-s---fd-	Case=d|Gender=f|Number=s	29	ADV	_	t_470|t_476|ref=Vit.Hipp._1
+24	τοῖϲ	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	25	ATR	_	t_471|t_472|ref=Vit.Hipp._1
+25	Ἐλευϲινίοιϲ	ἐλευσία	n	n-p---md-	Case=d|Gender=m|Number=p	29	OBJ	_	t_472|t_476|ref=Vit.Hipp._1
+26	ἐμύηϲαν	μυέω	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OCOMP	_	t_473|t_474|ref=Vit.Hipp._1
+27	καὶ	καί	c	c--------	_	29	COORD	_	t_474|t_476|ref=Vit.Hipp._1
+28	πολίτην	πολίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	27	OCOMP	_	t_475|t_474|ref=Vit.Hipp._1
+29	ἔγραψαν	γράφω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	30	ATR	_	t_476|t_477|ref=Vit.Hipp._1
+30	καὶ	καί	c	c--------	_	14	COORD	_	t_477|t_461|ref=Vit.Hipp._1
+31	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_478|t_481|ref=Vit.Hipp._1
+32	ἐν	ἐν	r	r--------	_	34	AuxP	_	t_479|t_481|ref=Vit.Hipp._1
+33	πρυτανείῳ	πρυτανεῖον	n	n-s---nd-	Case=d|Gender=n|Number=s	32	ATR	_	t_480|t_479|ref=Vit.Hipp._1
+34	ϲίτηϲιν	ςίτηςις	n	n-p---fd-	Case=d|Gender=f|Number=p	35	OBJ	_	t_481|t_482|ref=Vit.Hipp._1
+35	ἔδοϲαν	δίδωμι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	30	ATR	_	t_482|t_477|ref=Vit.Hipp._1
+36	εἰϲ	εἰς	r	r--------	_	35	AuxP	_	t_483|t_482|ref=Vit.Hipp._1
+37	ἐκγόνουϲ	ἔκγονος	a	a-p---ma-	Case=a|Gender=m|Number=p	36	ADV	_	t_484|t_483|ref=Vit.Hipp._1
+38	.	.	u	u--------	_	4	AuxK	_	t_485|t_451|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἀφθόνωϲ δὲ τοὺϲ ἐπιτηδείουϲ ἐδίδαϲκε τὴν τέχνην μετὰ τοῦ προϲήκοντοϲ Ὅρκου .
 # sent_id = 15
-1	ἀφθόνωϲ	ἄφθονος	d	d--------	_	5	ADV	_	t_486|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_487|ref=Vita Hippocratis_1
-3	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_488|ref=Vita Hippocratis_1
-4	ἐπιτηδείουϲ	ἐπιτήδειος	a	a-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_489|ref=Vita Hippocratis_1
-5	ἐδίδαϲκε	διδάσκω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_490|ref=Vita Hippocratis_1
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_491|ref=Vita Hippocratis_1
-7	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_492|ref=Vita Hippocratis_1
-8	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_493|ref=Vita Hippocratis_1
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_494|ref=Vita Hippocratis_1
-10	προϲήκοντοϲ	προςήκω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_495|ref=Vita Hippocratis_1
-11	Ὅρκου	ὅρκος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_496|ref=Vita Hippocratis_1
-12	.	.	u	u--------	_	5	AuxK	_	t_497|ref=Vita Hippocratis_1
+1	ἀφθόνωϲ	ἄφθονος	d	d--------	_	5	ADV	_	t_486|t_490|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_487|t_490|ref=Vit.Hipp._1
+3	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_488|t_489|ref=Vit.Hipp._1
+4	ἐπιτηδείουϲ	ἐπιτήδειος	a	a-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_489|t_490|ref=Vit.Hipp._1
+5	ἐδίδαϲκε	διδάσκω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_490|0|ref=Vit.Hipp._1
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_491|t_492|ref=Vit.Hipp._1
+7	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_492|t_490|ref=Vit.Hipp._1
+8	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_493|t_490|ref=Vit.Hipp._1
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_494|t_496|ref=Vit.Hipp._1
+10	προϲήκοντοϲ	προςήκω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_495|t_496|ref=Vit.Hipp._1
+11	Ὅρκου	ὅρκος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_496|t_493|ref=Vit.Hipp._1
+12	.	.	u	u--------	_	5	AuxK	_	t_497|t_490|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἐτελεύτα δὲ παρὰ Λαριϲϲαίοιϲ .
 # sent_id = 16
-1	ἐτελεύτα	τελευτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_498|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_499|ref=Vita Hippocratis_1
-3	παρὰ	παρά	r	r--------	_	1	AuxP	_	t_500|ref=Vita Hippocratis_1
-4	Λαριϲϲαίοιϲ	λαριςςαῖος	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_501|ref=Vita Hippocratis_1
-5	.	.	u	u--------	_	1	AuxK	_	t_502|ref=Vita Hippocratis_1
+1	ἐτελεύτα	τελευτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_498|0|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_499|t_498|ref=Vit.Hipp._1
+3	παρὰ	παρά	r	r--------	_	1	AuxP	_	t_500|t_498|ref=Vit.Hipp._1
+4	Λαριϲϲαίοιϲ	λαριςςαῖος	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_501|t_500|ref=Vit.Hipp._1
+5	.	.	u	u--------	_	1	AuxK	_	t_502|t_498|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ὅτε καὶ Δημόκριτοϲ φέρεται τελευτήϲαϲ , καὶ οἱ μὲν ἐνενή - κοντα ἐτῶν , οἱ δὲ ὀγδοήκοντα πέντε φαϲίν , ἄλλοι ἑκατὸν τεϲϲάρων , τινὲϲ ἑκατὸν ἐννέα [0] [1] .
 # sent_id = 17
-1	ὅτε	ὅτε	d	d--------	_	7	AuxY	_	t_503|ref=Vita Hippocratis_1
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_504|ref=Vita Hippocratis_1
-3	Δημόκριτοϲ	δημόκριτος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_505|ref=Vita Hippocratis_1
-4	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_506|ref=Vita Hippocratis_1
-5	τελευτήϲαϲ	τελευτάω	a	a-p---fa-	Case=a|Gender=f|Number=p	4	OCOMP	_	t_507|ref=Vita Hippocratis_1
-6	,	,	u	u--------	_	0	AuxX	_	t_508|ref=Vita Hippocratis_1
-7	καὶ	καί	c	c--------	_	6	COORD	_	t_509|ref=Vita Hippocratis_1
-8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	28	SBJ	_	t_510|ref=Vita Hippocratis_1
-9	μὲν	μέν	d	d--------	_	16	AuxY	_	t_511|ref=Vita Hippocratis_1
-10	ἐνενή	ἐνενή	a	a--------	_	13	ATR	_	t_512|ref=Vita Hippocratis_1
-11	-	-	u	u--------	Mood=i|Number=p|Person=3|Tense=i|Voice=a	13	APOS	_	t_513|ref=Vita Hippocratis_1
-12	κοντα	κοντα	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_514|ref=Vita Hippocratis_1
-13	ἐτῶν	ἔτος	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_515|ref=Vita Hippocratis_1
-14	,	,	u	u--------	_	6	AuxX	_	t_516|ref=Vita Hippocratis_1
-15	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	28	SBJ	_	t_517|ref=Vita Hippocratis_1
-16	δὲ	δέ	c	c--------	_	7	COORD	_	t_518|ref=Vita Hippocratis_1
-17	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	19	ATR	_	t_519|ref=Vita Hippocratis_1
-18	πέντε	πέντε	a	a--------	_	19	ATR	_	t_520|ref=Vita Hippocratis_1
-19	φαϲίν	φαςίς	n	n-p---fn-	Case=n|Gender=f|Number=p	28	OBJ	_	t_521|ref=Vita Hippocratis_1
-20	,	,	u	u--------	_	7	COORD	_	t_522|ref=Vita Hippocratis_1
-21	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	29	SBJ	_	t_523|ref=Vita Hippocratis_1
-22	ἑκατὸν	ἑκατόν	a	a--------	_	23	ATR	_	t_524|ref=Vita Hippocratis_1
-23	τεϲϲάρων	τέσσαρες	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_525|ref=Vita Hippocratis_1
-24	,	,	u	u--------	_	6	COORD	_	t_526|ref=Vita Hippocratis_1
-25	τινὲϲ	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	29	SBJ	_	t_527|ref=Vita Hippocratis_1
-26	ἑκατὸν	ἑκατόν	a	a--------	_	25	ATR	_	t_528|ref=Vita Hippocratis_1
-27	ἐννέα	ἐννέα	a	a--------	_	25	ATR	_	t_529|ref=Vita Hippocratis_1
-28	[0]	[0]	-	---------	_	24	PRED	_	e_3|ref=Vita Hippocratis_1
-29	[1]	[1]	-	---------	_	24	PRED	_	e_4|ref=Vita Hippocratis_1
-30	.	.	u	u--------	_	6	AuxK	_	t_530|ref=Vita Hippocratis_1
+1	ὅτε	ὅτε	d	d--------	_	7	AuxY	_	t_503|t_509|ref=Vit.Hipp._1
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_504|t_505|ref=Vit.Hipp._1
+3	Δημόκριτοϲ	δημόκριτος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_505|t_506|ref=Vit.Hipp._1
+4	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_506|t_509|ref=Vit.Hipp._1
+5	τελευτήϲαϲ	τελευτάω	a	a-p---fa-	Case=a|Gender=f|Number=p	4	OCOMP	_	t_507|t_506|ref=Vit.Hipp._1
+6	,	,	u	u--------	_	0	AuxX	_	t_508|0|ref=Vit.Hipp._1
+7	καὶ	καί	c	c--------	_	6	COORD	_	t_509|t_508|ref=Vit.Hipp._1
+8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	28	SBJ	_	t_510|e_3|ref=Vit.Hipp._1
+9	μὲν	μέν	d	d--------	_	16	AuxY	_	t_511|t_518|ref=Vit.Hipp._1
+10	ἐνενή	ἐνενή	a	a--------	_	13	ATR	_	t_512|t_515|ref=Vit.Hipp._1
+11	-	-	u	u--------	Mood=i|Number=p|Person=3|Tense=i|Voice=a	13	APOS	_	t_513|t_515|ref=Vit.Hipp._1
+12	κοντα	κοντα	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_514|t_515|ref=Vit.Hipp._1
+13	ἐτῶν	ἔτος	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_515|t_510|ref=Vit.Hipp._1
+14	,	,	u	u--------	_	6	AuxX	_	t_516|t_508|ref=Vit.Hipp._1
+15	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	28	SBJ	_	t_517|e_3|ref=Vit.Hipp._1
+16	δὲ	δέ	c	c--------	_	7	COORD	_	t_518|t_509|ref=Vit.Hipp._1
+17	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	19	ATR	_	t_519|t_521|ref=Vit.Hipp._1
+18	πέντε	πέντε	a	a--------	_	19	ATR	_	t_520|t_521|ref=Vit.Hipp._1
+19	φαϲίν	φαςίς	n	n-p---fn-	Case=n|Gender=f|Number=p	28	OBJ	_	t_521|e_3|ref=Vit.Hipp._1
+20	,	,	u	u--------	_	7	COORD	_	t_522|t_509|ref=Vit.Hipp._1
+21	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	29	SBJ	_	t_523|e_4|ref=Vit.Hipp._1
+22	ἑκατὸν	ἑκατόν	a	a--------	_	23	ATR	_	t_524|t_525|ref=Vit.Hipp._1
+23	τεϲϲάρων	τέσσαρες	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_525|t_523|ref=Vit.Hipp._1
+24	,	,	u	u--------	_	6	COORD	_	t_526|t_508|ref=Vit.Hipp._1
+25	τινὲϲ	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	29	SBJ	_	t_527|e_4|ref=Vit.Hipp._1
+26	ἑκατὸν	ἑκατόν	a	a--------	_	25	ATR	_	t_528|t_527|ref=Vit.Hipp._1
+27	ἐννέα	ἐννέα	a	a--------	_	25	ATR	_	t_529|t_527|ref=Vit.Hipp._1
+28	[0]	[0]	-	---------	_	24	PRED	_	e_3|t_526|ref=Vit.Hipp._1
+29	[1]	[1]	-	---------	_	24	PRED	_	e_4|t_526|ref=Vit.Hipp._1
+30	.	.	u	u--------	_	6	AuxK	_	t_530|t_508|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = τέθαπται δὲ μεταξὺ Γυρτῶνοϲ καὶ Λαρίϲϲηϲ , καὶ .
 # sent_id = 18
-1	τέθαπται	θάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	8	PRED	_	t_531|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_532|ref=Vita Hippocratis_1
-3	μεταξὺ	μεταξύ	r	r--------	_	1	AuxP	_	t_533|ref=Vita Hippocratis_1
-4	Γυρτῶνοϲ	γυρτών	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_534|ref=Vita Hippocratis_1
-5	καὶ	καί	c	c--------	_	3	COORD	_	t_535|ref=Vita Hippocratis_1
-6	Λαρίϲϲηϲ	λάρςη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_536|ref=Vita Hippocratis_1
-7	,	,	u	u--------	_	0	AuxX	_	t_537|ref=Vita Hippocratis_1
-8	καὶ	καί	c	c--------	_	7	COORD	_	t_538|ref=Vita Hippocratis_1
-9	.	.	u	u--------	_	7	AuxK	_	t_539|ref=Vita Hippocratis_1
+1	τέθαπται	θάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	8	PRED	_	t_531|t_538|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_532|t_538|ref=Vit.Hipp._1
+3	μεταξὺ	μεταξύ	r	r--------	_	1	AuxP	_	t_533|t_531|ref=Vit.Hipp._1
+4	Γυρτῶνοϲ	γυρτών	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_534|t_535|ref=Vit.Hipp._1
+5	καὶ	καί	c	c--------	_	3	COORD	_	t_535|t_533|ref=Vit.Hipp._1
+6	Λαρίϲϲηϲ	λάρςη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_536|t_535|ref=Vit.Hipp._1
+7	,	,	u	u--------	_	0	AuxX	_	t_537|0|ref=Vit.Hipp._1
+8	καὶ	καί	c	c--------	_	7	COORD	_	t_538|t_537|ref=Vit.Hipp._1
+9	.	.	u	u--------	_	7	AuxK	_	t_539|t_537|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = δείκνυται ἄχρι δεῦρο τὸ μνῆμα .
 # sent_id = 19
-1	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_540|ref=Vita Hippocratis_1
-2	ἄχρι	ἄχρι	d	d--------	_	1	ADV	_	t_541|ref=Vita Hippocratis_1
-3	δεῦρο	δεῦρο	d	d--------	_	1	ADV	_	t_542|ref=Vita Hippocratis_1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_543|ref=Vita Hippocratis_1
-5	μνῆμα	μνῆμα	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_544|ref=Vita Hippocratis_1
-6	.	.	u	u--------	_	1	AuxK	_	t_545|ref=Vita Hippocratis_1
+1	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_540|0|ref=Vit.Hipp._1
+2	ἄχρι	ἄχρι	d	d--------	_	1	ADV	_	t_541|t_540|ref=Vit.Hipp._1
+3	δεῦρο	δεῦρο	d	d--------	_	1	ADV	_	t_542|t_540|ref=Vit.Hipp._1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_543|t_544|ref=Vit.Hipp._1
+5	μνῆμα	μνῆμα	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_544|t_540|ref=Vit.Hipp._1
+6	.	.	u	u--------	_	1	AuxK	_	t_545|t_540|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἐν ? [0] ?
 # sent_id = 20
-1	ἐν	ἐν	d	d--------	_	3	ADV	_	t_546|ref=Vita Hippocratis_1
-2	?	?	u	u--------	_	3	AuxK	_	t_547|ref=Vita Hippocratis_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Vita Hippocratis_1
-4	?	?	u	u--------	_	3	AuxK	_	t_548|ref=Vita Hippocratis_1
+1	ἐν	ἐν	d	d--------	_	3	ADV	_	t_546|e_5|ref=Vit.Hipp._1
+2	?	?	u	u--------	_	3	AuxK	_	t_547|e_5|ref=Vit.Hipp._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Vit.Hipp._1
+4	?	?	u	u--------	_	3	AuxK	_	t_548|e_5|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = μέχρι πολλοῦ ϲμῆνοϲ ἦν ἐργα - ζόμενον μέλι , ἀφ᾿ οὐ τὰ ἀφθῶντα παιδάρια χρίουϲαι παρὰ τῷ τάφῳ ῥᾳδίωϲ ἀπήλλαττον αἱ τιτθαί .
 # sent_id = 21
-1	μέχρι	μέχρι	r	r--------	_	4	AuxP	_	t_549|ref=Vita Hippocratis_1
-2	πολλοῦ	πολύς	a	a-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_550|ref=Vita Hippocratis_1
-3	ϲμῆνοϲ	ςμῆνος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	PNOM	_	t_551|ref=Vita Hippocratis_1
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_552|ref=Vita Hippocratis_1
-5	ἐργα	ἔργον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_553|ref=Vita Hippocratis_1
-6	-	-	u	u--------	_	4	AuxX	_	t_554|ref=Vita Hippocratis_1
-7	ζόμενον	στηρίζω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	8	ATR	_	t_555|ref=Vita Hippocratis_1
-8	μέλι	μέλι	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_556|ref=Vita Hippocratis_1
-9	,	,	u	u--------	_	4	AuxX	_	t_557|ref=Vita Hippocratis_1
-10	ἀφ᾿	ἀπό	r	r--------	_	20	AuxP	_	t_558|ref=Vita Hippocratis_1
-11	οὐ	οὐ	d	d--------	_	15	AuxZ	_	t_559|ref=Vita Hippocratis_1
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_560|ref=Vita Hippocratis_1
-13	ἀφθῶντα	ἀφθόω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	14	ATR	_	t_561|ref=Vita Hippocratis_1
-14	παιδάρια	παιδάριον	n	n-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_562|ref=Vita Hippocratis_1
-15	χρίουϲαι	χρίω	a	a-p---fn-	Case=n|Gender=f|Number=p	14	ATR	_	t_563|ref=Vita Hippocratis_1
-16	παρὰ	παρά	r	r--------	_	20	AuxP	_	t_564|ref=Vita Hippocratis_1
-17	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	18	ATR	_	t_565|ref=Vita Hippocratis_1
-18	τάφῳ	τάφος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_566|ref=Vita Hippocratis_1
-19	ῥᾳδίωϲ	ῥᾴδιος	d	d--------	_	20	ADV	_	t_567|ref=Vita Hippocratis_1
-20	ἀπήλλαττον	ἀπαλλαξείω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	4	PRED	_	t_568|ref=Vita Hippocratis_1
-21	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	22	ATR	_	t_569|ref=Vita Hippocratis_1
-22	τιτθαί	τιτθή	n	n-p---fn-	Case=n|Gender=f|Number=p	20	SBJ	_	t_570|ref=Vita Hippocratis_1
-23	.	.	u	u--------	_	4	AuxK	_	t_571|ref=Vita Hippocratis_1
+1	μέχρι	μέχρι	r	r--------	_	4	AuxP	_	t_549|t_552|ref=Vit.Hipp._1
+2	πολλοῦ	πολύς	a	a-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_550|t_551|ref=Vit.Hipp._1
+3	ϲμῆνοϲ	ςμῆνος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	PNOM	_	t_551|t_549|ref=Vit.Hipp._1
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_552|0|ref=Vit.Hipp._1
+5	ἐργα	ἔργον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_553|t_552|ref=Vit.Hipp._1
+6	-	-	u	u--------	_	4	AuxX	_	t_554|t_552|ref=Vit.Hipp._1
+7	ζόμενον	στηρίζω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	8	ATR	_	t_555|t_556|ref=Vit.Hipp._1
+8	μέλι	μέλι	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_556|t_552|ref=Vit.Hipp._1
+9	,	,	u	u--------	_	4	AuxX	_	t_557|t_552|ref=Vit.Hipp._1
+10	ἀφ᾿	ἀπό	r	r--------	_	20	AuxP	_	t_558|t_568|ref=Vit.Hipp._1
+11	οὐ	οὐ	d	d--------	_	15	AuxZ	_	t_559|t_563|ref=Vit.Hipp._1
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_560|t_562|ref=Vit.Hipp._1
+13	ἀφθῶντα	ἀφθόω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	14	ATR	_	t_561|t_562|ref=Vit.Hipp._1
+14	παιδάρια	παιδάριον	n	n-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_562|t_558|ref=Vit.Hipp._1
+15	χρίουϲαι	χρίω	a	a-p---fn-	Case=n|Gender=f|Number=p	14	ATR	_	t_563|t_562|ref=Vit.Hipp._1
+16	παρὰ	παρά	r	r--------	_	20	AuxP	_	t_564|t_568|ref=Vit.Hipp._1
+17	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	18	ATR	_	t_565|t_566|ref=Vit.Hipp._1
+18	τάφῳ	τάφος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_566|t_564|ref=Vit.Hipp._1
+19	ῥᾳδίωϲ	ῥᾴδιος	d	d--------	_	20	ADV	_	t_567|t_568|ref=Vit.Hipp._1
+20	ἀπήλλαττον	ἀπαλλαξείω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	4	PRED	_	t_568|t_552|ref=Vit.Hipp._1
+21	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	22	ATR	_	t_569|t_570|ref=Vit.Hipp._1
+22	τιτθαί	τιτθή	n	n-p---fn-	Case=n|Gender=f|Number=p	20	SBJ	_	t_570|t_568|ref=Vit.Hipp._1
+23	.	.	u	u--------	_	4	AuxK	_	t_571|t_552|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ἐν δὲ ταῖϲ πολλαῖϲ εἰκόϲιν ἐϲκεπαϲμέ - νοϲ τὴν κεφαλὴν γράφεται , ὡϲ μέν τινεϲ λέγουϲι πίλῳ , παράϲημον εὐγενείαϲ , καθάπερ Ὁδυϲϲεύϲ , ἄλλοι δὲ τῷ ἱματίῳ [0] ·
 # sent_id = 22
-1	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_572|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_573|ref=Vita Hippocratis_1
-3	ταῖϲ	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_574|ref=Vita Hippocratis_1
-4	πολλαῖϲ	πολύς	a	a-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_575|ref=Vita Hippocratis_1
-5	εἰκόϲιν	εἰκός	n	n-p---fd-	Case=d|Gender=f|Number=p	1	ADV	_	t_576|ref=Vita Hippocratis_1
-6	ἐϲκεπαϲμέ	εἰςκεπάζω	n	n-p---fa-	Case=a|Gender=f|Number=p	1	ADV	_	t_577|ref=Vita Hippocratis_1
-7	-	-	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_578|ref=Vita Hippocratis_1
-8	νοϲ	νος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_579|ref=Vita Hippocratis_1
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_580|ref=Vita Hippocratis_1
-10	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_581|ref=Vita Hippocratis_1
-11	γράφεται	γράφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_582|ref=Vita Hippocratis_1
-12	,	,	u	u--------	_	11	AuxX	_	t_583|ref=Vita Hippocratis_1
-13	ὡϲ	ὡς	c	c--------	_	11	AuxC	_	t_584|ref=Vita Hippocratis_1
-14	μέν	μέν	d	d--------	_	26	AuxY	_	t_585|ref=Vita Hippocratis_1
-15	τινεϲ	τις	p	p-p---mn-	Case=n|Gender=c|Number=p	16	SBJ	_	t_586|ref=Vita Hippocratis_1
-16	λέγουϲι	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	ExD	_	t_587|ref=Vita Hippocratis_1
-17	πίλῳ	πῖλος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_588|ref=Vita Hippocratis_1
-18	,	,	u	u--------	_	11	AuxX	_	t_589|ref=Vita Hippocratis_1
-19	παράϲημον	παράςημος	a	a-s---na-	Case=a|Gender=n|Number=s	26	ADV	_	t_590|ref=Vita Hippocratis_1
-20	εὐγενείαϲ	εὐγένεια	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_591|ref=Vita Hippocratis_1
-21	,	,	u	u--------	_	11	AuxX	_	t_592|ref=Vita Hippocratis_1
-22	καθάπερ	καθά	c	c--------	_	11	AuxC	_	t_593|ref=Vita Hippocratis_1
-23	Ὁδυϲϲεύϲ	ὁδυςςεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_594|ref=Vita Hippocratis_1
-24	,	,	u	u--------	_	11	AuxX	_	t_595|ref=Vita Hippocratis_1
-25	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	29	SBJ	_	t_596|ref=Vita Hippocratis_1
-26	δὲ	δέ	c	c--------	_	11	COORD	_	t_597|ref=Vita Hippocratis_1
-27	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	28	ATR	_	t_598|ref=Vita Hippocratis_1
-28	ἱματίῳ	ἱμάτιον	n	n-s---nd-	Case=d|Gender=n|Number=s	29	ADV	_	t_599|ref=Vita Hippocratis_1
-29	[0]	[0]	-	---------	_	26	ADV	_	e_6|ref=Vita Hippocratis_1
-30	·	·	u	u--------	_	11	AuxK	_	t_600|ref=Vita Hippocratis_1
+1	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_572|t_582|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_573|t_582|ref=Vit.Hipp._1
+3	ταῖϲ	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_574|t_576|ref=Vit.Hipp._1
+4	πολλαῖϲ	πολύς	a	a-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_575|t_576|ref=Vit.Hipp._1
+5	εἰκόϲιν	εἰκός	n	n-p---fd-	Case=d|Gender=f|Number=p	1	ADV	_	t_576|t_572|ref=Vit.Hipp._1
+6	ἐϲκεπαϲμέ	εἰςκεπάζω	n	n-p---fa-	Case=a|Gender=f|Number=p	1	ADV	_	t_577|t_572|ref=Vit.Hipp._1
+7	-	-	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_578|t_579|ref=Vit.Hipp._1
+8	νοϲ	νος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_579|t_582|ref=Vit.Hipp._1
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_580|t_581|ref=Vit.Hipp._1
+10	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_581|t_582|ref=Vit.Hipp._1
+11	γράφεται	γράφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_582|0|ref=Vit.Hipp._1
+12	,	,	u	u--------	_	11	AuxX	_	t_583|t_582|ref=Vit.Hipp._1
+13	ὡϲ	ὡς	c	c--------	_	11	AuxC	_	t_584|t_582|ref=Vit.Hipp._1
+14	μέν	μέν	d	d--------	_	26	AuxY	_	t_585|t_597|ref=Vit.Hipp._1
+15	τινεϲ	τις	p	p-p---mn-	Case=n|Gender=c|Number=p	16	SBJ	_	t_586|t_587|ref=Vit.Hipp._1
+16	λέγουϲι	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	ExD	_	t_587|t_584|ref=Vit.Hipp._1
+17	πίλῳ	πῖλος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_588|t_587|ref=Vit.Hipp._1
+18	,	,	u	u--------	_	11	AuxX	_	t_589|t_582|ref=Vit.Hipp._1
+19	παράϲημον	παράςημος	a	a-s---na-	Case=a|Gender=n|Number=s	26	ADV	_	t_590|t_597|ref=Vit.Hipp._1
+20	εὐγενείαϲ	εὐγένεια	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_591|t_590|ref=Vit.Hipp._1
+21	,	,	u	u--------	_	11	AuxX	_	t_592|t_582|ref=Vit.Hipp._1
+22	καθάπερ	καθά	c	c--------	_	11	AuxC	_	t_593|t_582|ref=Vit.Hipp._1
+23	Ὁδυϲϲεύϲ	ὁδυςςεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_594|e_6|ref=Vit.Hipp._1
+24	,	,	u	u--------	_	11	AuxX	_	t_595|t_582|ref=Vit.Hipp._1
+25	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	29	SBJ	_	t_596|e_6|ref=Vit.Hipp._1
+26	δὲ	δέ	c	c--------	_	11	COORD	_	t_597|t_582|ref=Vit.Hipp._1
+27	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	28	ATR	_	t_598|t_599|ref=Vit.Hipp._1
+28	ἱματίῳ	ἱμάτιον	n	n-s---nd-	Case=d|Gender=n|Number=s	29	ADV	_	t_599|e_6|ref=Vit.Hipp._1
+29	[0]	[0]	-	---------	_	26	ADV	_	e_6|t_597|ref=Vit.Hipp._1
+30	·	·	u	u--------	_	11	AuxK	_	t_600|t_582|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = καὶ τούτων οἱ μὲν δι᾿ εὐπρέπειαν , ἐπεὶ φαλακρὸϲ ἦν , οἱ δὲ διὰ τὸ ἀϲθενὲϲ τῆϲ κεφαλῆϲ , οἱ δὲ δι᾿ ἔμφαϲιν τοῦ δεῖν τὸ τοῦ ἡγεμονικοῦ χωρίον φρουρεῖν , οἱ δὲ τοῦ φιλαποδήμου τεκμήριον , οἱ δὲ τῆϲ ἐν τοῖϲ ϲυγγράμμαϲιν ἀϲαφείαϲ , οἱ δὲ πρὸϲ παράϲταϲιν τοῦ δεῖν κ ἀν τῶ ὑγιαίνειν φυλάϲ - ϲεϲθαι τὰ βλάπτοντα , τινὲϲ δὲ ὅτι χειρίζων πρὸϲ τὸ τῶν χειρῶν ἀπαραπόδιϲτον ϲυμπεριλαμβάνων τὸ τοῦ ἱματίου περικεχυμένον ἐπετί - θει τῇ κεφαλῇ [0] [1] [2] .
 # sent_id = 23
-1	καὶ	καί	c	c--------	_	81	AuxY	_	t_601|ref=Vita Hippocratis_1
-2	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_602|ref=Vita Hippocratis_1
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	82	SBJ	_	t_603|ref=Vita Hippocratis_1
-4	μὲν	μέν	d	d--------	_	82	AuxY	_	t_604|ref=Vita Hippocratis_1
-5	δι᾿	διά	r	r--------	_	82	AuxP	_	t_605|ref=Vita Hippocratis_1
-6	εὐπρέπειαν	εὐπρέπεια	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_606|ref=Vita Hippocratis_1
-7	,	,	u	u--------	_	81	AuxX	_	t_607|ref=Vita Hippocratis_1
-8	ἐπεὶ	ἐπεί	c	c--------	_	82	AuxC	_	t_608|ref=Vita Hippocratis_1
-9	φαλακρὸϲ	φαλακρός	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_609|ref=Vita Hippocratis_1
-10	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	ADV	_	t_610|ref=Vita Hippocratis_1
-11	,	,	u	u--------	_	81	AuxX	_	t_611|ref=Vita Hippocratis_1
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	82	SBJ	_	t_612|ref=Vita Hippocratis_1
-13	δὲ	δέ	d	d--------	_	63	AuxY	_	t_613|ref=Vita Hippocratis_1
-14	διὰ	διά	r	r--------	_	82	AuxP	_	t_614|ref=Vita Hippocratis_1
-15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_615|ref=Vita Hippocratis_1
-16	ἀϲθενὲϲ	ἀςθενής	a	a-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_616|ref=Vita Hippocratis_1
-17	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_617|ref=Vita Hippocratis_1
-18	κεφαλῆϲ	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_618|ref=Vita Hippocratis_1
-19	,	,	u	u--------	_	81	AuxX	_	t_619|ref=Vita Hippocratis_1
-20	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_620|ref=Vita Hippocratis_1
-21	δὲ	δέ	d	d--------	_	63	AuxY	_	t_621|ref=Vita Hippocratis_1
-22	δι᾿	διά	r	r--------	_	63	AuxP	_	t_622|ref=Vita Hippocratis_1
-23	ἔμφαϲιν	ἔμφαςις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	ADV	_	t_623|ref=Vita Hippocratis_1
-24	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	25	ATR	_	t_624|ref=Vita Hippocratis_1
-25	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	23	ATR	_	t_625|ref=Vita Hippocratis_1
-26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_626|ref=Vita Hippocratis_1
-27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_627|ref=Vita Hippocratis_1
-28	ἡγεμονικοῦ	ἡγεμονικός	a	a-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_628|ref=Vita Hippocratis_1
-29	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_629|ref=Vita Hippocratis_1
-30	φρουρεῖν	φρουρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	SBJ	_	t_630|ref=Vita Hippocratis_1
-31	,	,	u	u--------	_	81	AuxX	_	t_631|ref=Vita Hippocratis_1
-32	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_632|ref=Vita Hippocratis_1
-33	δὲ	δέ	d	d--------	_	63	AuxY	_	t_633|ref=Vita Hippocratis_1
-34	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	35	ATR	_	t_634|ref=Vita Hippocratis_1
-35	φιλαποδήμου	φιλάδελφος	n	n-s---mg-	Case=g|Gender=n|Number=s	36	ATR	_	t_635|ref=Vita Hippocratis_1
-36	τεκμήριον	τεκμήριον	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_636|ref=Vita Hippocratis_1
-37	,	,	u	u--------	_	81	AuxX	_	t_637|ref=Vita Hippocratis_1
-38	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_638|ref=Vita Hippocratis_1
-39	δὲ	δέ	d	d--------	_	63	AuxY	_	t_639|ref=Vita Hippocratis_1
-40	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_640|ref=Vita Hippocratis_1
-41	ἐν	ἐν	r	r--------	_	44	AuxP	_	t_641|ref=Vita Hippocratis_1
-42	τοῖϲ	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	43	ATR	_	t_642|ref=Vita Hippocratis_1
-43	ϲυγγράμμαϲιν	σύγγραμμα	n	n-p---nd-	Case=d|Gender=n|Number=p	41	ATR	_	t_643|ref=Vita Hippocratis_1
-44	ἀϲαφείαϲ	ἀςφαγία	n	n-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_644|ref=Vita Hippocratis_1
-45	,	,	u	u--------	_	81	AuxX	_	t_645|ref=Vita Hippocratis_1
-46	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_646|ref=Vita Hippocratis_1
-47	δὲ	δέ	d	d--------	_	81	COORD	_	t_647|ref=Vita Hippocratis_1
-48	πρὸϲ	πρός	r	r--------	_	63	AuxP	_	t_648|ref=Vita Hippocratis_1
-49	παράϲταϲιν	παράστασις	n	n-p---fa-	Case=a|Gender=f|Number=p	48	ADV	_	t_649|ref=Vita Hippocratis_1
-50	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	51	ATR	_	t_650|ref=Vita Hippocratis_1
-51	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	49	ATR	_	t_651|ref=Vita Hippocratis_1
-52	κ	καί	d	d--------	_	55	AuxZ	_	t_652|ref=Vita Hippocratis_1
-53	ἀν	ἐν	r	r--------	_	55	AuxP	_	t_653|ref=Vita Hippocratis_1
-54	τῶ	τῷ	l	l-s---nd-	Case=d|Gender=n|Number=s	53	ADV	_	t_654|ref=Vita Hippocratis_1
-55	ὑγιαίνειν	ὑγιαίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	56	ATR	_	t_655|ref=Vita Hippocratis_1
-56	φυλάϲ	φυλή	n	n-p---fa-	Case=a|Gender=f|Number=p	58	OBJ	_	t_656|ref=Vita Hippocratis_1
-57	-	-	u	u--------	_	81	AuxG	_	t_657|ref=Vita Hippocratis_1
-58	ϲεϲθαι	εἰμί	v	v--rne---	Mood=n|Tense=r|Voice=e	63	SBJ	_	t_658|ref=Vita Hippocratis_1
-59	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	60	ATR	_	t_659|ref=Vita Hippocratis_1
-60	βλάπτοντα	βλάπτω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	58	OBJ	_	t_660|ref=Vita Hippocratis_1
-61	,	,	u	u--------	_	81	AuxX	_	t_661|ref=Vita Hippocratis_1
-62	τινὲϲ	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	81	SBJ	_	t_662|ref=Vita Hippocratis_1
-63	δὲ	δέ	d	d--------	_	81	COORD	_	t_663|ref=Vita Hippocratis_1
-64	ὅτι	ὅτι	c	c--------	_	63	AuxC	_	t_664|ref=Vita Hippocratis_1
-65	χειρίζων	χειρίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	78	ADV	_	t_665|ref=Vita Hippocratis_1
-66	πρὸϲ	πρός	r	r--------	_	65	AuxP	_	t_666|ref=Vita Hippocratis_1
-67	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	70	ATR	_	t_667|ref=Vita Hippocratis_1
-68	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	69	ATR	_	t_668|ref=Vita Hippocratis_1
-69	χειρῶν	χείρ	n	n-p---fg-	Case=g|Gender=f|Number=p	70	ATR	_	t_669|ref=Vita Hippocratis_1
-70	ἀπαραπόδιϲτον	ἀπαραπόδιςτος	a	a-s---na-	Case=a|Gender=n|Number=s	66	OBJ	_	t_670|ref=Vita Hippocratis_1
-71	ϲυμπεριλαμβάνων	συμπεριλαμβάνω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	78	ADV	_	t_671|ref=Vita Hippocratis_1
-72	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	75	ATR	_	t_672|ref=Vita Hippocratis_1
-73	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	74	ATR	_	t_673|ref=Vita Hippocratis_1
-74	ἱματίου	ἱμάτιον	n	n-s---ng-	Case=g|Gender=n|Number=s	75	ATR	_	t_674|ref=Vita Hippocratis_1
-75	περικεχυμένον	περιχέω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	78	OBJ	_	t_675|ref=Vita Hippocratis_1
-76	ἐπετί	ἐπίτι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	64	OBJ	_	t_676|ref=Vita Hippocratis_1
-77	-	-	-	---------	Mood=i|Number=s|Person=3|Tense=l|Voice=a	63	OBJ	_	t_677|ref=Vita Hippocratis_1
-78	θει	θει	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	64	OBJ	_	t_678|ref=Vita Hippocratis_1
-79	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	80	ATR	_	t_679|ref=Vita Hippocratis_1
-80	κεφαλῇ	κεφαλή	n	n-s---fd-	Case=d|Gender=f|Number=s	78	OBJ	_	t_680|ref=Vita Hippocratis_1
-81	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Vita Hippocratis_1
-82	[1]	[1]	-	---------	_	47	PRED	_	e_8|ref=Vita Hippocratis_1
-83	[2]	[2]	-	---------	_	81	PRED	_	e_9|ref=Vita Hippocratis_1
-84	.	.	u	u--------	_	81	AuxK	_	t_681|ref=Vita Hippocratis_1
+1	καὶ	καί	c	c--------	_	81	AuxY	_	t_601|e_7|ref=Vit.Hipp._1
+2	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_602|t_603|ref=Vit.Hipp._1
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	82	SBJ	_	t_603|e_8|ref=Vit.Hipp._1
+4	μὲν	μέν	d	d--------	_	82	AuxY	_	t_604|e_8|ref=Vit.Hipp._1
+5	δι᾿	διά	r	r--------	_	82	AuxP	_	t_605|e_8|ref=Vit.Hipp._1
+6	εὐπρέπειαν	εὐπρέπεια	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_606|t_605|ref=Vit.Hipp._1
+7	,	,	u	u--------	_	81	AuxX	_	t_607|e_7|ref=Vit.Hipp._1
+8	ἐπεὶ	ἐπεί	c	c--------	_	82	AuxC	_	t_608|e_8|ref=Vit.Hipp._1
+9	φαλακρὸϲ	φαλακρός	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_609|t_610|ref=Vit.Hipp._1
+10	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	ADV	_	t_610|t_608|ref=Vit.Hipp._1
+11	,	,	u	u--------	_	81	AuxX	_	t_611|e_7|ref=Vit.Hipp._1
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	82	SBJ	_	t_612|e_8|ref=Vit.Hipp._1
+13	δὲ	δέ	d	d--------	_	63	AuxY	_	t_613|t_663|ref=Vit.Hipp._1
+14	διὰ	διά	r	r--------	_	82	AuxP	_	t_614|e_8|ref=Vit.Hipp._1
+15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_615|t_616|ref=Vit.Hipp._1
+16	ἀϲθενὲϲ	ἀςθενής	a	a-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_616|t_614|ref=Vit.Hipp._1
+17	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_617|t_618|ref=Vit.Hipp._1
+18	κεφαλῆϲ	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_618|t_616|ref=Vit.Hipp._1
+19	,	,	u	u--------	_	81	AuxX	_	t_619|e_7|ref=Vit.Hipp._1
+20	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_620|t_663|ref=Vit.Hipp._1
+21	δὲ	δέ	d	d--------	_	63	AuxY	_	t_621|t_663|ref=Vit.Hipp._1
+22	δι᾿	διά	r	r--------	_	63	AuxP	_	t_622|t_663|ref=Vit.Hipp._1
+23	ἔμφαϲιν	ἔμφαςις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	ADV	_	t_623|t_622|ref=Vit.Hipp._1
+24	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	25	ATR	_	t_624|t_625|ref=Vit.Hipp._1
+25	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	23	ATR	_	t_625|t_623|ref=Vit.Hipp._1
+26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_626|t_629|ref=Vit.Hipp._1
+27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_627|t_628|ref=Vit.Hipp._1
+28	ἡγεμονικοῦ	ἡγεμονικός	a	a-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_628|t_629|ref=Vit.Hipp._1
+29	χωρίον	χωρίον	n	n-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_629|t_630|ref=Vit.Hipp._1
+30	φρουρεῖν	φρουρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	SBJ	_	t_630|t_625|ref=Vit.Hipp._1
+31	,	,	u	u--------	_	81	AuxX	_	t_631|e_7|ref=Vit.Hipp._1
+32	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_632|t_663|ref=Vit.Hipp._1
+33	δὲ	δέ	d	d--------	_	63	AuxY	_	t_633|t_663|ref=Vit.Hipp._1
+34	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	35	ATR	_	t_634|t_635|ref=Vit.Hipp._1
+35	φιλαποδήμου	φιλάδελφος	n	n-s---mg-	Case=g|Gender=n|Number=s	36	ATR	_	t_635|t_636|ref=Vit.Hipp._1
+36	τεκμήριον	τεκμήριον	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_636|t_625|ref=Vit.Hipp._1
+37	,	,	u	u--------	_	81	AuxX	_	t_637|e_7|ref=Vit.Hipp._1
+38	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_638|t_663|ref=Vit.Hipp._1
+39	δὲ	δέ	d	d--------	_	63	AuxY	_	t_639|t_663|ref=Vit.Hipp._1
+40	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_640|t_644|ref=Vit.Hipp._1
+41	ἐν	ἐν	r	r--------	_	44	AuxP	_	t_641|t_644|ref=Vit.Hipp._1
+42	τοῖϲ	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	43	ATR	_	t_642|t_643|ref=Vit.Hipp._1
+43	ϲυγγράμμαϲιν	σύγγραμμα	n	n-p---nd-	Case=d|Gender=n|Number=p	41	ATR	_	t_643|t_641|ref=Vit.Hipp._1
+44	ἀϲαφείαϲ	ἀςφαγία	n	n-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_644|t_649|ref=Vit.Hipp._1
+45	,	,	u	u--------	_	81	AuxX	_	t_645|e_7|ref=Vit.Hipp._1
+46	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	63	SBJ	_	t_646|t_663|ref=Vit.Hipp._1
+47	δὲ	δέ	d	d--------	_	81	COORD	_	t_647|e_7|ref=Vit.Hipp._1
+48	πρὸϲ	πρός	r	r--------	_	63	AuxP	_	t_648|t_663|ref=Vit.Hipp._1
+49	παράϲταϲιν	παράστασις	n	n-p---fa-	Case=a|Gender=f|Number=p	48	ADV	_	t_649|t_648|ref=Vit.Hipp._1
+50	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	51	ATR	_	t_650|t_651|ref=Vit.Hipp._1
+51	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	49	ATR	_	t_651|t_649|ref=Vit.Hipp._1
+52	κ	καί	d	d--------	_	55	AuxZ	_	t_652|t_655|ref=Vit.Hipp._1
+53	ἀν	ἐν	r	r--------	_	55	AuxP	_	t_653|t_655|ref=Vit.Hipp._1
+54	τῶ	τῷ	l	l-s---nd-	Case=d|Gender=n|Number=s	53	ADV	_	t_654|t_653|ref=Vit.Hipp._1
+55	ὑγιαίνειν	ὑγιαίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	56	ATR	_	t_655|t_656|ref=Vit.Hipp._1
+56	φυλάϲ	φυλή	n	n-p---fa-	Case=a|Gender=f|Number=p	58	OBJ	_	t_656|t_658|ref=Vit.Hipp._1
+57	-	-	u	u--------	_	81	AuxG	_	t_657|e_7|ref=Vit.Hipp._1
+58	ϲεϲθαι	εἰμί	v	v--rne---	Mood=n|Tense=r|Voice=e	63	SBJ	_	t_658|t_663|ref=Vit.Hipp._1
+59	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	60	ATR	_	t_659|t_660|ref=Vit.Hipp._1
+60	βλάπτοντα	βλάπτω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	58	OBJ	_	t_660|t_658|ref=Vit.Hipp._1
+61	,	,	u	u--------	_	81	AuxX	_	t_661|e_7|ref=Vit.Hipp._1
+62	τινὲϲ	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	81	SBJ	_	t_662|e_7|ref=Vit.Hipp._1
+63	δὲ	δέ	d	d--------	_	81	COORD	_	t_663|e_7|ref=Vit.Hipp._1
+64	ὅτι	ὅτι	c	c--------	_	63	AuxC	_	t_664|t_663|ref=Vit.Hipp._1
+65	χειρίζων	χειρίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	78	ADV	_	t_665|t_678|ref=Vit.Hipp._1
+66	πρὸϲ	πρός	r	r--------	_	65	AuxP	_	t_666|t_665|ref=Vit.Hipp._1
+67	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	70	ATR	_	t_667|t_670|ref=Vit.Hipp._1
+68	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	69	ATR	_	t_668|t_669|ref=Vit.Hipp._1
+69	χειρῶν	χείρ	n	n-p---fg-	Case=g|Gender=f|Number=p	70	ATR	_	t_669|t_670|ref=Vit.Hipp._1
+70	ἀπαραπόδιϲτον	ἀπαραπόδιςτος	a	a-s---na-	Case=a|Gender=n|Number=s	66	OBJ	_	t_670|t_666|ref=Vit.Hipp._1
+71	ϲυμπεριλαμβάνων	συμπεριλαμβάνω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	78	ADV	_	t_671|t_678|ref=Vit.Hipp._1
+72	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	75	ATR	_	t_672|t_675|ref=Vit.Hipp._1
+73	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	74	ATR	_	t_673|t_674|ref=Vit.Hipp._1
+74	ἱματίου	ἱμάτιον	n	n-s---ng-	Case=g|Gender=n|Number=s	75	ATR	_	t_674|t_675|ref=Vit.Hipp._1
+75	περικεχυμένον	περιχέω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	78	OBJ	_	t_675|t_678|ref=Vit.Hipp._1
+76	ἐπετί	ἐπίτι	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	64	OBJ	_	t_676|t_664|ref=Vit.Hipp._1
+77	-	-	-	---------	Mood=i|Number=s|Person=3|Tense=l|Voice=a	63	OBJ	_	t_677|t_663|ref=Vit.Hipp._1
+78	θει	θει	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	64	OBJ	_	t_678|t_664|ref=Vit.Hipp._1
+79	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	80	ATR	_	t_679|t_680|ref=Vit.Hipp._1
+80	κεφαλῇ	κεφαλή	n	n-s---fd-	Case=d|Gender=f|Number=s	78	OBJ	_	t_680|t_678|ref=Vit.Hipp._1
+81	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Vit.Hipp._1
+82	[1]	[1]	-	---------	_	47	PRED	_	e_8|t_647|ref=Vit.Hipp._1
+83	[2]	[2]	-	---------	_	81	PRED	_	e_9|e_7|ref=Vit.Hipp._1
+84	.	.	u	u--------	_	81	AuxK	_	t_681|e_7|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = περὶ δὲ τῶν ϲυγγραμμάτων αὐτοῦ πολλὴ γέγονε δια - φωνία ἄλλων ἄλλα δοξαϲάντων .
 # sent_id = 24
-1	περὶ	περί	r	r--------	_	7	AuxP	_	t_682|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_683|ref=Vita Hippocratis_1
-3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_684|ref=Vita Hippocratis_1
-4	ϲυγγραμμάτων	σύγγραμμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_685|ref=Vita Hippocratis_1
-5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_686|ref=Vita Hippocratis_1
-6	πολλὴ	πολύς	a	a-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_687|ref=Vita Hippocratis_1
-7	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_688|ref=Vita Hippocratis_1
-8	δια	διά	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_689|ref=Vita Hippocratis_1
-9	-	-	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_690|ref=Vita Hippocratis_1
-10	φωνία	φωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_691|ref=Vita Hippocratis_1
-11	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	13	SBJ	_	t_692|ref=Vita Hippocratis_1
-12	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_693|ref=Vita Hippocratis_1
-13	δοξαϲάντων	δοκέω	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	7	ADV	_	t_694|ref=Vita Hippocratis_1
-14	.	.	u	u--------	_	7	AuxK	_	t_695|ref=Vita Hippocratis_1
+1	περὶ	περί	r	r--------	_	7	AuxP	_	t_682|t_688|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_683|t_688|ref=Vit.Hipp._1
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_684|t_685|ref=Vit.Hipp._1
+4	ϲυγγραμμάτων	σύγγραμμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_685|t_682|ref=Vit.Hipp._1
+5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_686|t_685|ref=Vit.Hipp._1
+6	πολλὴ	πολύς	a	a-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_687|t_689|ref=Vit.Hipp._1
+7	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_688|0|ref=Vit.Hipp._1
+8	δια	διά	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_689|t_688|ref=Vit.Hipp._1
+9	-	-	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_690|t_688|ref=Vit.Hipp._1
+10	φωνία	φωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_691|t_688|ref=Vit.Hipp._1
+11	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	13	SBJ	_	t_692|t_694|ref=Vit.Hipp._1
+12	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_693|t_694|ref=Vit.Hipp._1
+13	δοξαϲάντων	δοκέω	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	7	ADV	_	t_694|t_688|ref=Vit.Hipp._1
+14	.	.	u	u--------	_	7	AuxK	_	t_695|t_688|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ὅθεν οὐκ εὐμαρὲϲ τὸ περὶ αὐτῶν ἀποφήναϲθαι , διὰ τὸ πολλὰϲ αἰτίαϲ ἐπιϲκοτεῖν τῇ κρίϲει , πρῶτον τὴν ἐπωνυμίαν , δεύτερον τὸ δύναϲθαι τὸν χαρακτῆρα τῆϲ φράϲεωϲ τηρῆϲαι , τρίτον διὰ τὸ ἕνα καὶ τὸν αὐτὸν ποτὲ μὲν ῥωμαλεώτερον , ἄλλοτε ἀϲθενέϲτερον διὰ τὴν ἡλικίαν ϲυγγράφειν [0] .
 # sent_id = 25
-1	ὅθεν	ὅθεν	d	d--------	_	47	ADV	_	t_696|ref=Vita Hippocratis_1
-2	οὐκ	οὐ	d	d--------	_	3	AuxZ	_	t_697|ref=Vita Hippocratis_1
-3	εὐμαρὲϲ	εὐμαρής	a	a-s---nn-	Case=n|Gender=n|Number=s	47	PNOM	_	t_698|ref=Vita Hippocratis_1
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_699|ref=Vita Hippocratis_1
-5	περὶ	περί	r	r--------	_	7	AuxP	_	t_700|ref=Vita Hippocratis_1
-6	αὐτῶν	αὐτός	p	p-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_701|ref=Vita Hippocratis_1
-7	ἀποφήναϲθαι	ἀποφαίνω	v	v--anm---	Mood=n|Tense=a|Voice=m	47	SBJ	_	t_702|ref=Vita Hippocratis_1
-8	,	,	u	u--------	_	47	AuxX	_	t_703|ref=Vita Hippocratis_1
-9	διὰ	διά	r	r--------	_	7	AuxP	_	t_704|ref=Vita Hippocratis_1
-10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_705|ref=Vita Hippocratis_1
-11	πολλὰϲ	πολύς	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_706|ref=Vita Hippocratis_1
-12	αἰτίαϲ	αἰτία	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_707|ref=Vita Hippocratis_1
-13	ἐπιϲκοτεῖν	ἐπιςκοτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	ADV	_	t_708|ref=Vita Hippocratis_1
-14	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_709|ref=Vita Hippocratis_1
-15	κρίϲει	κρίνω	n	n-s---fd-	Case=d|Gender=f|Number=s	13	OBJ	_	t_710|ref=Vita Hippocratis_1
-16	,	,	u	u--------	_	47	AuxX	_	t_711|ref=Vita Hippocratis_1
-17	πρῶτον	πρῶτος	d	d--------	Case=a|Gender=n|Number=s	20	ADV	_	t_712|ref=Vita Hippocratis_1
-18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_713|ref=Vita Hippocratis_1
-19	ἐπωνυμίαν	ἐπωνυμία	n	n-s---fa-	Case=a|Gender=f|Number=s	20	APOS	_	t_714|ref=Vita Hippocratis_1
-20	,	,	u	u--------	_	47	COORD	_	t_715|ref=Vita Hippocratis_1
-21	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	29	ADV	_	t_716|ref=Vita Hippocratis_1
-22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_717|ref=Vita Hippocratis_1
-23	δύναϲθαι	δύναμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	20	OBJ	_	t_718|ref=Vita Hippocratis_1
-24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_719|ref=Vita Hippocratis_1
-25	χαρακτῆρα	χαρακτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	28	OBJ	_	t_720|ref=Vita Hippocratis_1
-26	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_721|ref=Vita Hippocratis_1
-27	φράϲεωϲ	φράςις	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_722|ref=Vita Hippocratis_1
-28	τηρῆϲαι	τηρέω	v	v--ana---	Mood=n|Tense=a|Voice=a	23	OBJ	_	t_723|ref=Vita Hippocratis_1
-29	,	,	u	u--------	_	47	COORD	_	t_724|ref=Vita Hippocratis_1
-30	τρίτον	τρίτος	d	d--------	Case=a|Gender=n|Number=s	31	ADV	_	t_725|ref=Vita Hippocratis_1
-31	διὰ	διά	r	r--------	_	29	AuxP	_	t_726|ref=Vita Hippocratis_1
-32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	46	ATR	_	t_727|ref=Vita Hippocratis_1
-33	ἕνα	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	40	OBJ	_	t_728|ref=Vita Hippocratis_1
-34	καὶ	καί	d	d--------	_	36	AuxZ	_	t_729|ref=Vita Hippocratis_1
-35	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	36	ATR	_	t_730|ref=Vita Hippocratis_1
-36	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	46	OBJ	_	t_731|ref=Vita Hippocratis_1
-37	ποτὲ	ποτέ	d	d--------	_	39	ADV	_	t_732|ref=Vita Hippocratis_1
-38	μὲν	μέν	d	d--------	_	40	AuxY	_	t_733|ref=Vita Hippocratis_1
-39	ῥωμαλεώτερον	ῥωμαλέος	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	40	ADV	_	t_734|ref=Vita Hippocratis_1
-40	,	,	u	u--------	_	46	COORD	_	t_735|ref=Vita Hippocratis_1
-41	ἄλλοτε	ἄλλοτε	d	d--------	_	40	ADV	_	t_736|ref=Vita Hippocratis_1
-42	ἀϲθενέϲτερον	ἀςθενής	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	40	ADV	_	t_737|ref=Vita Hippocratis_1
-43	διὰ	διά	r	r--------	_	46	AuxP	_	t_738|ref=Vita Hippocratis_1
-44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	45	ATR	_	t_739|ref=Vita Hippocratis_1
-45	ἡλικίαν	ἡλικία	n	n-s---fa-	Case=a|Gender=f|Number=s	43	ADV	_	t_740|ref=Vita Hippocratis_1
-46	ϲυγγράφειν	συγγράφω	v	v--pna---	Mood=n|Tense=p|Voice=a	31	ADV	_	t_741|ref=Vita Hippocratis_1
-47	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Vita Hippocratis_1
-48	.	.	u	u--------	_	47	AuxK	_	t_742|ref=Vita Hippocratis_1
+1	ὅθεν	ὅθεν	d	d--------	_	47	ADV	_	t_696|e_10|ref=Vit.Hipp._1
+2	οὐκ	οὐ	d	d--------	_	3	AuxZ	_	t_697|t_698|ref=Vit.Hipp._1
+3	εὐμαρὲϲ	εὐμαρής	a	a-s---nn-	Case=n|Gender=n|Number=s	47	PNOM	_	t_698|e_10|ref=Vit.Hipp._1
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_699|t_702|ref=Vit.Hipp._1
+5	περὶ	περί	r	r--------	_	7	AuxP	_	t_700|t_702|ref=Vit.Hipp._1
+6	αὐτῶν	αὐτός	p	p-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_701|t_700|ref=Vit.Hipp._1
+7	ἀποφήναϲθαι	ἀποφαίνω	v	v--anm---	Mood=n|Tense=a|Voice=m	47	SBJ	_	t_702|e_10|ref=Vit.Hipp._1
+8	,	,	u	u--------	_	47	AuxX	_	t_703|e_10|ref=Vit.Hipp._1
+9	διὰ	διά	r	r--------	_	7	AuxP	_	t_704|t_702|ref=Vit.Hipp._1
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_705|t_708|ref=Vit.Hipp._1
+11	πολλὰϲ	πολύς	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_706|t_707|ref=Vit.Hipp._1
+12	αἰτίαϲ	αἰτία	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_707|t_708|ref=Vit.Hipp._1
+13	ἐπιϲκοτεῖν	ἐπιςκοτέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	ADV	_	t_708|t_704|ref=Vit.Hipp._1
+14	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_709|t_710|ref=Vit.Hipp._1
+15	κρίϲει	κρίνω	n	n-s---fd-	Case=d|Gender=f|Number=s	13	OBJ	_	t_710|t_708|ref=Vit.Hipp._1
+16	,	,	u	u--------	_	47	AuxX	_	t_711|e_10|ref=Vit.Hipp._1
+17	πρῶτον	πρῶτος	d	d--------	Case=a|Gender=n|Number=s	20	ADV	_	t_712|t_715|ref=Vit.Hipp._1
+18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_713|t_714|ref=Vit.Hipp._1
+19	ἐπωνυμίαν	ἐπωνυμία	n	n-s---fa-	Case=a|Gender=f|Number=s	20	APOS	_	t_714|t_715|ref=Vit.Hipp._1
+20	,	,	u	u--------	_	47	COORD	_	t_715|e_10|ref=Vit.Hipp._1
+21	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	29	ADV	_	t_716|t_724|ref=Vit.Hipp._1
+22	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_717|t_718|ref=Vit.Hipp._1
+23	δύναϲθαι	δύναμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	20	OBJ	_	t_718|t_715|ref=Vit.Hipp._1
+24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_719|t_720|ref=Vit.Hipp._1
+25	χαρακτῆρα	χαρακτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	28	OBJ	_	t_720|t_723|ref=Vit.Hipp._1
+26	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_721|t_722|ref=Vit.Hipp._1
+27	φράϲεωϲ	φράςις	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_722|t_720|ref=Vit.Hipp._1
+28	τηρῆϲαι	τηρέω	v	v--ana---	Mood=n|Tense=a|Voice=a	23	OBJ	_	t_723|t_718|ref=Vit.Hipp._1
+29	,	,	u	u--------	_	47	COORD	_	t_724|e_10|ref=Vit.Hipp._1
+30	τρίτον	τρίτος	d	d--------	Case=a|Gender=n|Number=s	31	ADV	_	t_725|t_726|ref=Vit.Hipp._1
+31	διὰ	διά	r	r--------	_	29	AuxP	_	t_726|t_724|ref=Vit.Hipp._1
+32	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	46	ATR	_	t_727|t_741|ref=Vit.Hipp._1
+33	ἕνα	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	40	OBJ	_	t_728|t_735|ref=Vit.Hipp._1
+34	καὶ	καί	d	d--------	_	36	AuxZ	_	t_729|t_731|ref=Vit.Hipp._1
+35	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	36	ATR	_	t_730|t_731|ref=Vit.Hipp._1
+36	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	46	OBJ	_	t_731|t_741|ref=Vit.Hipp._1
+37	ποτὲ	ποτέ	d	d--------	_	39	ADV	_	t_732|t_734|ref=Vit.Hipp._1
+38	μὲν	μέν	d	d--------	_	40	AuxY	_	t_733|t_735|ref=Vit.Hipp._1
+39	ῥωμαλεώτερον	ῥωμαλέος	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	40	ADV	_	t_734|t_735|ref=Vit.Hipp._1
+40	,	,	u	u--------	_	46	COORD	_	t_735|t_741|ref=Vit.Hipp._1
+41	ἄλλοτε	ἄλλοτε	d	d--------	_	40	ADV	_	t_736|t_735|ref=Vit.Hipp._1
+42	ἀϲθενέϲτερον	ἀςθενής	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	40	ADV	_	t_737|t_735|ref=Vit.Hipp._1
+43	διὰ	διά	r	r--------	_	46	AuxP	_	t_738|t_741|ref=Vit.Hipp._1
+44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	45	ATR	_	t_739|t_740|ref=Vit.Hipp._1
+45	ἡλικίαν	ἡλικία	n	n-s---fa-	Case=a|Gender=f|Number=s	43	ADV	_	t_740|t_738|ref=Vit.Hipp._1
+46	ϲυγγράφειν	συγγράφω	v	v--pna---	Mood=n|Tense=p|Voice=a	31	ADV	_	t_741|t_726|ref=Vit.Hipp._1
+47	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Vit.Hipp._1
+48	.	.	u	u--------	_	47	AuxK	_	t_742|e_10|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = καὶ ἄλλαϲ δὲ [ μετὰ τούτων ] αἰτίαϲ ἔϲτιν εἰπεῖν .
 # sent_id = 26
-1	καὶ	καί	d	d--------	_	2	AuxZ	_	t_743|ref=Vita Hippocratis_1
-2	ἄλλαϲ	ἄλλος	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_744|ref=Vita Hippocratis_1
-3	δὲ	δέ	d	d--------	_	10	AuxY	_	t_745|ref=Vita Hippocratis_1
-4	[	[	u	u--------	_	10	AuxX	_	t_746|ref=Vita Hippocratis_1
-5	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_747|ref=Vita Hippocratis_1
-6	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_748|ref=Vita Hippocratis_1
-7	]	]	u	u--------	_	10	AuxX	_	t_749|ref=Vita Hippocratis_1
-8	αἰτίαϲ	αἰτία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_750|ref=Vita Hippocratis_1
-9	ἔϲτιν	εἰμί	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_751|ref=Vita Hippocratis_1
-10	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_752|ref=Vita Hippocratis_1
-11	.	.	u	u--------	_	10	AuxK	_	t_753|ref=Vita Hippocratis_1
+1	καὶ	καί	d	d--------	_	2	AuxZ	_	t_743|t_744|ref=Vit.Hipp._1
+2	ἄλλαϲ	ἄλλος	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_744|t_750|ref=Vit.Hipp._1
+3	δὲ	δέ	d	d--------	_	10	AuxY	_	t_745|t_752|ref=Vit.Hipp._1
+4	[	[	u	u--------	_	10	AuxX	_	t_746|t_752|ref=Vit.Hipp._1
+5	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_747|t_752|ref=Vit.Hipp._1
+6	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_748|t_747|ref=Vit.Hipp._1
+7	]	]	u	u--------	_	10	AuxX	_	t_749|t_752|ref=Vit.Hipp._1
+8	αἰτίαϲ	αἰτία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_750|t_752|ref=Vit.Hipp._1
+9	ἔϲτιν	εἰμί	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_751|t_752|ref=Vit.Hipp._1
+10	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_752|0|ref=Vit.Hipp._1
+11	.	.	u	u--------	_	10	AuxK	_	t_753|t_752|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = [ ἀφιλάργυροϲ δὲ καὶ τοῖϲ τρόποιϲ ϲεμνὸϲ καὶ φιλέλλην ὑπῆρχεν , ὅτι καὶ τοὺϲ ὁμοεθνεῖϲ ἐθεράπευε ϲυμπάϲῃ ϲπουδῇ , ὡϲ καὶ λοιμῶν ὅλαϲ ῥύϲαϲθαι πόλειϲ , καθάπερ εἴρηται .
 # sent_id = 27
-1	[	[	u	u--------	_	10	AuxX	_	t_754|ref=Vita Hippocratis_1
-2	ἀφιλάργυροϲ	ἀφιλάργυρος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ADV	_	t_755|ref=Vita Hippocratis_1
-3	δὲ	δέ	d	d--------	_	10	AuxY	_	t_756|ref=Vita Hippocratis_1
-4	καὶ	καί	d	d--------	_	8	AuxY	_	t_757|ref=Vita Hippocratis_1
-5	τοῖϲ	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_758|ref=Vita Hippocratis_1
-6	τρόποιϲ	τρόπος	n	n-p---md-	Case=d|Gender=m|Number=p	2	ADV	_	t_759|ref=Vita Hippocratis_1
-7	ϲεμνὸϲ	σεμνός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ADV	_	t_760|ref=Vita Hippocratis_1
-8	καὶ	καί	c	c--------	_	10	COORD	_	t_761|ref=Vita Hippocratis_1
-9	φιλέλλην	φιλέλλην	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_762|ref=Vita Hippocratis_1
-10	ὑπῆρχεν	ὑπάρχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_763|ref=Vita Hippocratis_1
-11	,	,	u	u--------	_	10	AuxX	_	t_764|ref=Vita Hippocratis_1
-12	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_765|ref=Vita Hippocratis_1
-13	καὶ	καί	d	d--------	_	15	AuxZ	_	t_766|ref=Vita Hippocratis_1
-14	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_767|ref=Vita Hippocratis_1
-15	ὁμοεθνεῖϲ	ὁμοεθνής	a	a-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_768|ref=Vita Hippocratis_1
-16	ἐθεράπευε	θεραπεύω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	12	ADV	_	t_769|ref=Vita Hippocratis_1
-17	ϲυμπάϲῃ	συμπαύω	n	n-p---fd-	Case=d|Gender=f|Number=p	16	ADV	_	t_770|ref=Vita Hippocratis_1
-18	ϲπουδῇ	σπουδή	n	n-p---fd-	Case=d|Gender=f|Number=p	17	ADV	_	t_771|ref=Vita Hippocratis_1
-19	,	,	u	u--------	_	10	AuxX	_	t_772|ref=Vita Hippocratis_1
-20	ὡϲ	ὡς	c	c--------	_	17	AuxC	_	t_773|ref=Vita Hippocratis_1
-21	καὶ	καί	d	d--------	_	24	AuxZ	_	t_774|ref=Vita Hippocratis_1
-22	λοιμῶν	λοιμός	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ADV	_	t_775|ref=Vita Hippocratis_1
-23	ὅλαϲ	ὅλος	a	a-p---fa-	Case=a|Gender=f|Number=p	25	ATR	_	t_776|ref=Vita Hippocratis_1
-24	ῥύϲαϲθαι	ῥύομαι	v	v2saia---	Case=a|Gender=f|Number=p	20	ADV	_	t_777|ref=Vita Hippocratis_1
-25	πόλειϲ	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	24	OBJ	_	t_778|ref=Vita Hippocratis_1
-26	,	,	u	u--------	_	10	AuxX	_	t_779|ref=Vita Hippocratis_1
-27	καθάπερ	καθά	c	c--------	_	24	AuxC	_	t_780|ref=Vita Hippocratis_1
-28	εἴρηται	ἐρῶ	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	27	ADV	_	t_781|ref=Vita Hippocratis_1
-29	.	.	u	u--------	_	10	AuxK	_	t_782|ref=Vita Hippocratis_1
+1	[	[	u	u--------	_	10	AuxX	_	t_754|t_763|ref=Vit.Hipp._1
+2	ἀφιλάργυροϲ	ἀφιλάργυρος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	ADV	_	t_755|t_763|ref=Vit.Hipp._1
+3	δὲ	δέ	d	d--------	_	10	AuxY	_	t_756|t_763|ref=Vit.Hipp._1
+4	καὶ	καί	d	d--------	_	8	AuxY	_	t_757|t_761|ref=Vit.Hipp._1
+5	τοῖϲ	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_758|t_759|ref=Vit.Hipp._1
+6	τρόποιϲ	τρόπος	n	n-p---md-	Case=d|Gender=m|Number=p	2	ADV	_	t_759|t_755|ref=Vit.Hipp._1
+7	ϲεμνὸϲ	σεμνός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ADV	_	t_760|t_761|ref=Vit.Hipp._1
+8	καὶ	καί	c	c--------	_	10	COORD	_	t_761|t_763|ref=Vit.Hipp._1
+9	φιλέλλην	φιλέλλην	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_762|t_761|ref=Vit.Hipp._1
+10	ὑπῆρχεν	ὑπάρχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_763|0|ref=Vit.Hipp._1
+11	,	,	u	u--------	_	10	AuxX	_	t_764|t_763|ref=Vit.Hipp._1
+12	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_765|t_763|ref=Vit.Hipp._1
+13	καὶ	καί	d	d--------	_	15	AuxZ	_	t_766|t_768|ref=Vit.Hipp._1
+14	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_767|t_768|ref=Vit.Hipp._1
+15	ὁμοεθνεῖϲ	ὁμοεθνής	a	a-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_768|t_769|ref=Vit.Hipp._1
+16	ἐθεράπευε	θεραπεύω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	12	ADV	_	t_769|t_765|ref=Vit.Hipp._1
+17	ϲυμπάϲῃ	συμπαύω	n	n-p---fd-	Case=d|Gender=f|Number=p	16	ADV	_	t_770|t_769|ref=Vit.Hipp._1
+18	ϲπουδῇ	σπουδή	n	n-p---fd-	Case=d|Gender=f|Number=p	17	ADV	_	t_771|t_770|ref=Vit.Hipp._1
+19	,	,	u	u--------	_	10	AuxX	_	t_772|t_763|ref=Vit.Hipp._1
+20	ὡϲ	ὡς	c	c--------	_	17	AuxC	_	t_773|t_770|ref=Vit.Hipp._1
+21	καὶ	καί	d	d--------	_	24	AuxZ	_	t_774|t_777|ref=Vit.Hipp._1
+22	λοιμῶν	λοιμός	n	n-p---mg-	Case=g|Gender=m|Number=p	24	ADV	_	t_775|t_777|ref=Vit.Hipp._1
+23	ὅλαϲ	ὅλος	a	a-p---fa-	Case=a|Gender=f|Number=p	25	ATR	_	t_776|t_778|ref=Vit.Hipp._1
+24	ῥύϲαϲθαι	ῥύομαι	v	v2saia---	Case=a|Gender=f|Number=p	20	ADV	_	t_777|t_773|ref=Vit.Hipp._1
+25	πόλειϲ	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	24	OBJ	_	t_778|t_777|ref=Vit.Hipp._1
+26	,	,	u	u--------	_	10	AuxX	_	t_779|t_763|ref=Vit.Hipp._1
+27	καθάπερ	καθά	c	c--------	_	24	AuxC	_	t_780|t_777|ref=Vit.Hipp._1
+28	εἴρηται	ἐρῶ	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	27	ADV	_	t_781|t_780|ref=Vit.Hipp._1
+29	.	.	u	u--------	_	10	AuxK	_	t_782|t_763|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = ὅθεν καὶ λαμ - πρῶν ἔτυχε τιμῶν οὐ παρὰ Κῴοιϲ μόνον , ἀλλὰ καὶ Ἀργείοιϲ καὶ Ἀθηναίοιϲ . ]
 # sent_id = 28
-1	ὅθεν	ὅθεν	d	d--------	_	6	ADV	_	t_783|ref=Vita Hippocratis_1
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_784|ref=Vita Hippocratis_1
-3	λαμ	λαμ	n	n-s---mv-	Case=v|Gender=m|Number=s	6	OBJ	_	t_785|ref=Vita Hippocratis_1
-4	-	-	u	u--------	_	6	AuxX	_	t_786|ref=Vita Hippocratis_1
-5	πρῶν	πρών	a	a-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_787|ref=Vita Hippocratis_1
-6	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_788|ref=Vita Hippocratis_1
-7	τιμῶν	τιμή	n	n-p---fg-	Case=g|Gender=f|Number=p	6	OBJ	_	t_789|ref=Vita Hippocratis_1
-8	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_790|ref=Vita Hippocratis_1
-9	παρὰ	παρά	r	r--------	_	13	AuxP	_	t_791|ref=Vita Hippocratis_1
-10	Κῴοιϲ	κῷος	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_792|ref=Vita Hippocratis_1
-11	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	10	AuxZ	_	t_793|ref=Vita Hippocratis_1
-12	,	,	u	u--------	_	6	AuxX	_	t_794|ref=Vita Hippocratis_1
-13	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_795|ref=Vita Hippocratis_1
-14	καὶ	καί	d	d--------	_	16	AuxZ	_	t_796|ref=Vita Hippocratis_1
-15	Ἀργείοιϲ	ἀργεῖος	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_797|ref=Vita Hippocratis_1
-16	καὶ	καί	c	c--------	_	13	COORD	_	t_798|ref=Vita Hippocratis_1
-17	Ἀθηναίοιϲ	ἀθήναιος	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_799|ref=Vita Hippocratis_1
-18	.	.	u	u--------	_	6	AuxK	_	t_800|ref=Vita Hippocratis_1
-19	]	]	u	u--------	_	6	AuxG	_	t_801|ref=Vita Hippocratis_1
+1	ὅθεν	ὅθεν	d	d--------	_	6	ADV	_	t_783|t_788|ref=Vit.Hipp._1
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_784|t_785|ref=Vit.Hipp._1
+3	λαμ	λαμ	n	n-s---mv-	Case=v|Gender=m|Number=s	6	OBJ	_	t_785|t_788|ref=Vit.Hipp._1
+4	-	-	u	u--------	_	6	AuxX	_	t_786|t_788|ref=Vit.Hipp._1
+5	πρῶν	πρών	a	a-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_787|t_789|ref=Vit.Hipp._1
+6	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_788|0|ref=Vit.Hipp._1
+7	τιμῶν	τιμή	n	n-p---fg-	Case=g|Gender=f|Number=p	6	OBJ	_	t_789|t_788|ref=Vit.Hipp._1
+8	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_790|t_793|ref=Vit.Hipp._1
+9	παρὰ	παρά	r	r--------	_	13	AuxP	_	t_791|t_795|ref=Vit.Hipp._1
+10	Κῴοιϲ	κῷος	n	n-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_792|t_795|ref=Vit.Hipp._1
+11	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	10	AuxZ	_	t_793|t_792|ref=Vit.Hipp._1
+12	,	,	u	u--------	_	6	AuxX	_	t_794|t_788|ref=Vit.Hipp._1
+13	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_795|t_788|ref=Vit.Hipp._1
+14	καὶ	καί	d	d--------	_	16	AuxZ	_	t_796|t_798|ref=Vit.Hipp._1
+15	Ἀργείοιϲ	ἀργεῖος	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_797|t_798|ref=Vit.Hipp._1
+16	καὶ	καί	c	c--------	_	13	COORD	_	t_798|t_795|ref=Vit.Hipp._1
+17	Ἀθηναίοιϲ	ἀθήναιος	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_799|t_798|ref=Vit.Hipp._1
+18	.	.	u	u--------	_	6	AuxK	_	t_800|t_788|ref=Vit.Hipp._1
+19	]	]	u	u--------	_	6	AuxG	_	t_801|t_788|ref=Vit.Hipp._1
 
-# source = Soranus, Vita Hippocratis 1
+# source = Soranus, Vit.Hipp. 1
 # text = παῖδαϲ δὲ κατέλιπε [ θανὼν ] δύο , Θεϲϲαλὸν καὶ Δράκοντα , καὶ μαθητὰϲ παμπληθεῖϲ , ἐπιφανεϲτάτουϲ δὲ τοὺϲ ἑαυτοῦ παῖδαϲ [ λέγεται γενέϲθαι ] .
 # sent_id = 29
-1	παῖδαϲ	παῖς	n	n-p---ma-	Case=a|Gender=m|Number=p	13	OBJ	_	t_802|ref=Vita Hippocratis_1
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_803|ref=Vita Hippocratis_1
-3	κατέλιπε	καταλιμπάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_804|ref=Vita Hippocratis_1
-4	[	[	u	u--------	_	3	AuxX	_	t_805|ref=Vita Hippocratis_1
-5	θανὼν	θνήσκω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	3	ADV	_	t_806|ref=Vita Hippocratis_1
-6	]	]	u	u--------	_	23	AuxX	_	t_807|ref=Vita Hippocratis_1
-7	δύο	δύο	a	a--------	_	1	ATR	_	t_808|ref=Vita Hippocratis_1
-8	,	,	u	u--------	_	3	APOS	_	t_809|ref=Vita Hippocratis_1
-9	Θεϲϲαλὸν	θεςςαλός	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_810|ref=Vita Hippocratis_1
-10	καὶ	καί	c	c--------	_	8	COORD	_	t_811|ref=Vita Hippocratis_1
-11	Δράκοντα	δράκων	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_812|ref=Vita Hippocratis_1
-12	,	,	u	u--------	_	23	AuxX	_	t_813|ref=Vita Hippocratis_1
-13	καὶ	καί	c	c--------	_	3	COORD	_	t_814|ref=Vita Hippocratis_1
-14	μαθητὰϲ	μαθητής	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_815|ref=Vita Hippocratis_1
-15	παμπληθεῖϲ	παμπληθής	a	a-p---ma-	Case=a|Gender=m|Number=p	14	ATR	_	t_816|ref=Vita Hippocratis_1
-16	,	,	u	u--------	_	23	AuxX	_	t_817|ref=Vita Hippocratis_1
-17	ἐπιφανεϲτάτουϲ	ἐπιφανής	a	a-p---mas	Case=a|Degree=s|Gender=m|Number=p	21	ATR	_	t_818|ref=Vita Hippocratis_1
-18	δὲ	δέ	c	c--------	_	3	COORD	_	t_819|ref=Vita Hippocratis_1
-19	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	21	ATR	_	t_820|ref=Vita Hippocratis_1
-20	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_821|ref=Vita Hippocratis_1
-21	παῖδαϲ	παῖς	n	n-p----a-	Case=a|Number=p	24	SBJ	_	t_822|ref=Vita Hippocratis_1
-22	[	[	u	u--------	_	23	AuxG	_	t_823|ref=Vita Hippocratis_1
-23	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	18	PRED	_	t_824|ref=Vita Hippocratis_1
-24	γενέϲθαι	γίγνομαι	v	v--ane---	Mood=n|Tense=a|Voice=e	18	SBJ	_	t_825|ref=Vita Hippocratis_1
-25	]	]	u	u--------	_	23	AuxG	_	t_826|ref=Vita Hippocratis_1
-26	.	.	u	u--------	_	23	AuxK	_	t_827|ref=Vita Hippocratis_1
+1	παῖδαϲ	παῖς	n	n-p---ma-	Case=a|Gender=m|Number=p	13	OBJ	_	t_802|t_814|ref=Vit.Hipp._1
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_803|t_804|ref=Vit.Hipp._1
+3	κατέλιπε	καταλιμπάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_804|0|ref=Vit.Hipp._1
+4	[	[	u	u--------	_	3	AuxX	_	t_805|t_804|ref=Vit.Hipp._1
+5	θανὼν	θνήσκω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	3	ADV	_	t_806|t_804|ref=Vit.Hipp._1
+6	]	]	u	u--------	_	23	AuxX	_	t_807|t_824|ref=Vit.Hipp._1
+7	δύο	δύο	a	a--------	_	1	ATR	_	t_808|t_802|ref=Vit.Hipp._1
+8	,	,	u	u--------	_	3	APOS	_	t_809|t_804|ref=Vit.Hipp._1
+9	Θεϲϲαλὸν	θεςςαλός	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_810|t_811|ref=Vit.Hipp._1
+10	καὶ	καί	c	c--------	_	8	COORD	_	t_811|t_809|ref=Vit.Hipp._1
+11	Δράκοντα	δράκων	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_812|t_811|ref=Vit.Hipp._1
+12	,	,	u	u--------	_	23	AuxX	_	t_813|t_824|ref=Vit.Hipp._1
+13	καὶ	καί	c	c--------	_	3	COORD	_	t_814|t_804|ref=Vit.Hipp._1
+14	μαθητὰϲ	μαθητής	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_815|t_814|ref=Vit.Hipp._1
+15	παμπληθεῖϲ	παμπληθής	a	a-p---ma-	Case=a|Gender=m|Number=p	14	ATR	_	t_816|t_815|ref=Vit.Hipp._1
+16	,	,	u	u--------	_	23	AuxX	_	t_817|t_824|ref=Vit.Hipp._1
+17	ἐπιφανεϲτάτουϲ	ἐπιφανής	a	a-p---mas	Case=a|Degree=s|Gender=m|Number=p	21	ATR	_	t_818|t_822|ref=Vit.Hipp._1
+18	δὲ	δέ	c	c--------	_	3	COORD	_	t_819|t_804|ref=Vit.Hipp._1
+19	τοὺϲ	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	21	ATR	_	t_820|t_822|ref=Vit.Hipp._1
+20	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_821|t_822|ref=Vit.Hipp._1
+21	παῖδαϲ	παῖς	n	n-p----a-	Case=a|Number=p	24	SBJ	_	t_822|t_825|ref=Vit.Hipp._1
+22	[	[	u	u--------	_	23	AuxG	_	t_823|t_824|ref=Vit.Hipp._1
+23	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	18	PRED	_	t_824|t_819|ref=Vit.Hipp._1
+24	γενέϲθαι	γίγνομαι	v	v--ane---	Mood=n|Tense=a|Voice=e	18	SBJ	_	t_825|t_819|ref=Vit.Hipp._1
+25	]	]	u	u--------	_	23	AuxG	_	t_826|t_824|ref=Vit.Hipp._1
+26	.	.	u	u--------	_	23	AuxK	_	t_827|t_824|ref=Vit.Hipp._1
 

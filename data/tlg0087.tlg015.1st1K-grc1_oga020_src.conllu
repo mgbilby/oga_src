@@ -1,167 +1,167 @@
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=Monob.aqua_1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = Choer .
 # sent_id = 2
-1	Choer	κίλιξ	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_3|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	.	.	u	u--------	_	1	AuxK	_	t_4|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	Choer	κίλιξ	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_3|0|ref=Monob.aqua_1
+2	.	.	u	u--------	_	1	AuxK	_	t_4|t_3|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = Dict .
 # sent_id = 3
-1	Dict	λέγω3	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_5|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	.	.	u	u--------	_	1	AuxK	_	t_6|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	Dict	λέγω3	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_5|0|ref=Monob.aqua_1
+2	.	.	u	u--------	_	1	AuxK	_	t_6|t_5|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = p [0] .
 # sent_id = 4
-1	p	p	x	x--------	_	2	AuxG	_	t_7|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-3	.	.	u	u--------	_	2	AuxK	_	t_8|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	p	p	x	x--------	_	2	AuxG	_	t_7|e_1|ref=Monob.aqua_1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Monob.aqua_1
+3	.	.	u	u--------	_	2	AuxK	_	t_8|e_1|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = 208 , Bekk .
 # sent_id = 5
-1	208	208	x	x--------	_	3	AuxX	_	t_9|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	,	,	u	u--------	_	3	AuxX	_	t_10|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-3	Bekk	bekk	x	x--------	_	0	ExD	_	t_11|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-4	.	.	u	u--------	_	3	AuxK	_	t_12|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	208	208	x	x--------	_	3	AuxX	_	t_9|t_11|ref=Monob.aqua_1
+2	,	,	u	u--------	_	3	AuxX	_	t_10|t_11|ref=Monob.aqua_1
+3	Bekk	bekk	x	x--------	_	0	ExD	_	t_11|0|ref=Monob.aqua_1
+4	.	.	u	u--------	_	3	AuxK	_	t_12|t_11|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = Anecd .
 # sent_id = 6
-1	Anecd	anecd	v	v3saia---	_	0	AuxG	_	t_13|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	.	.	u	u--------	_	1	AuxK	_	t_14|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	Anecd	anecd	v	v3saia---	_	0	AuxG	_	t_13|0|ref=Monob.aqua_1
+2	.	.	u	u--------	_	1	AuxK	_	t_14|t_13|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = 1193 :
 # sent_id = 7
-1	1193	1193	x	x--------	_	0	PRED	_	t_15|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	:	:	u	u--------	_	1	AuxK	_	t_16|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	1193	1193	x	x--------	_	0	PRED	_	t_15|0|ref=Monob.aqua_1
+2	:	:	u	u--------	_	1	AuxK	_	t_16|t_15|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1
+# source = Aelius Herodianus, Monob.aqua 1
 # text = λέγει ὁ Ἡρωδιανὸϲ ἐν τῷ περὶ τοῦ ὕδωρ μονοβίβλῳ , ὡϲ οὐ δεῖ διὰ τῶν δύο ϲϲ τὰϲ τοιαύταϲ δοτικὰϲ προφέρεϲθαι , ἀλλὰ δι᾿ ἑνὸϲ οἷον χαρίεϲι τιμήεϲι ὥϲπερ Πλάτωϲι , Πάριϲι , Δημοϲθένεϲι .
 # sent_id = 8
-1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_17|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_18|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-3	Ἡρωδιανὸϲ	ἡρωδιανός	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_19|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-4	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_20|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-5	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ATR	_	t_21|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-6	περὶ	περί	r	r--------	_	9	AuxP	_	t_22|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_23|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-8	ὕδωρ	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_24|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-9	μονοβίβλῳ	μονόβιβλος	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_25|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-10	,	,	u	u--------	_	1	AuxX	_	t_26|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-11	ὡϲ	ὡς	c	c--------	_	1	AuxC	_	t_27|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-12	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_28|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-13	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	OBJ	_	t_29|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-14	διὰ	διά	r	r--------	_	23	AuxP	_	t_30|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-15	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_31|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-16	δύο	δύο	m	m--------	_	14	ADV	_	t_32|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-17	ϲϲ	ςς	m	m-s---mn-	Case=a|Gender=f|Number=p	14	ADV	_	t_33|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-18	τὰϲ	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_34|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-19	τοιαύταϲ	τοιοῦτος	p	p-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_35|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-20	δοτικὰϲ	δοτικός	a	a-p---fa-	Case=a|Gender=f|Number=p	21	OBJ	_	t_36|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-21	προφέρεϲθαι	προφέρω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_37|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-22	,	,	u	u--------	_	1	AuxX	_	t_38|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-23	ἀλλὰ	ἀλλά	c	c--------	_	21	COORD	_	t_39|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-24	δι᾿	διά	r	r--------	_	23	AuxP	_	t_40|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-25	ἑνὸϲ	εἷς	m	m-s---mg-	Case=g|Gender=m|Number=s	24	ADV	_	t_41|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-26	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	25	AuxZ	_	t_42|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-27	χαρίεϲι	χαρὰ	n	n-s---fd-	Case=d|Gender=f|Number=s	28	ADV	_	t_43|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-28	τιμήεϲι	τιμήεις	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	25	ATR	_	t_44|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-29	ὥϲπερ	ὥσπερ	c	c--------	_	28	AuxC	_	t_45|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-30	Πλάτωϲι	πλάτος	n	n-s---md-	Case=d|Gender=m|Number=s	33	APOS	_	t_46|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-31	,	,	u	u--------	_	1	AuxX	_	t_47|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-32	Πάριϲι	πάρις	n	n-s---md-	Case=d|Gender=f|Number=s	33	APOS	_	t_48|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-33	,	,	u	u--------	_	29	COORD	_	t_49|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-34	Δημοϲθένεϲι	δημοσθένης	n	n-p---md-	Case=d|Gender=m|Number=p	33	ADV	_	t_50|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-35	.	.	u	u--------	_	1	AuxK	_	t_51|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
+1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_17|0|ref=Monob.aqua_1
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_18|t_19|ref=Monob.aqua_1
+3	Ἡρωδιανὸϲ	ἡρωδιανός	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_19|t_17|ref=Monob.aqua_1
+4	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_20|t_17|ref=Monob.aqua_1
+5	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ATR	_	t_21|t_25|ref=Monob.aqua_1
+6	περὶ	περί	r	r--------	_	9	AuxP	_	t_22|t_25|ref=Monob.aqua_1
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_23|t_22|ref=Monob.aqua_1
+8	ὕδωρ	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_24|t_22|ref=Monob.aqua_1
+9	μονοβίβλῳ	μονόβιβλος	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_25|t_20|ref=Monob.aqua_1
+10	,	,	u	u--------	_	1	AuxX	_	t_26|t_17|ref=Monob.aqua_1
+11	ὡϲ	ὡς	c	c--------	_	1	AuxC	_	t_27|t_17|ref=Monob.aqua_1
+12	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_28|t_32|ref=Monob.aqua_1
+13	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	OBJ	_	t_29|t_27|ref=Monob.aqua_1
+14	διὰ	διά	r	r--------	_	23	AuxP	_	t_30|t_39|ref=Monob.aqua_1
+15	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_31|t_32|ref=Monob.aqua_1
+16	δύο	δύο	m	m--------	_	14	ADV	_	t_32|t_30|ref=Monob.aqua_1
+17	ϲϲ	ςς	m	m-s---mn-	Case=a|Gender=f|Number=p	14	ADV	_	t_33|t_30|ref=Monob.aqua_1
+18	τὰϲ	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_34|t_36|ref=Monob.aqua_1
+19	τοιαύταϲ	τοιοῦτος	p	p-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_35|t_36|ref=Monob.aqua_1
+20	δοτικὰϲ	δοτικός	a	a-p---fa-	Case=a|Gender=f|Number=p	21	OBJ	_	t_36|t_37|ref=Monob.aqua_1
+21	προφέρεϲθαι	προφέρω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_37|t_29|ref=Monob.aqua_1
+22	,	,	u	u--------	_	1	AuxX	_	t_38|t_17|ref=Monob.aqua_1
+23	ἀλλὰ	ἀλλά	c	c--------	_	21	COORD	_	t_39|t_37|ref=Monob.aqua_1
+24	δι᾿	διά	r	r--------	_	23	AuxP	_	t_40|t_39|ref=Monob.aqua_1
+25	ἑνὸϲ	εἷς	m	m-s---mg-	Case=g|Gender=m|Number=s	24	ADV	_	t_41|t_40|ref=Monob.aqua_1
+26	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	25	AuxZ	_	t_42|t_41|ref=Monob.aqua_1
+27	χαρίεϲι	χαρὰ	n	n-s---fd-	Case=d|Gender=f|Number=s	28	ADV	_	t_43|t_44|ref=Monob.aqua_1
+28	τιμήεϲι	τιμήεις	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	25	ATR	_	t_44|t_41|ref=Monob.aqua_1
+29	ὥϲπερ	ὥσπερ	c	c--------	_	28	AuxC	_	t_45|t_44|ref=Monob.aqua_1
+30	Πλάτωϲι	πλάτος	n	n-s---md-	Case=d|Gender=m|Number=s	33	APOS	_	t_46|t_49|ref=Monob.aqua_1
+31	,	,	u	u--------	_	1	AuxX	_	t_47|t_17|ref=Monob.aqua_1
+32	Πάριϲι	πάρις	n	n-s---md-	Case=d|Gender=f|Number=s	33	APOS	_	t_48|t_49|ref=Monob.aqua_1
+33	,	,	u	u--------	_	29	COORD	_	t_49|t_45|ref=Monob.aqua_1
+34	Δημοϲθένεϲι	δημοσθένης	n	n-p---md-	Case=d|Gender=m|Number=p	33	ADV	_	t_50|t_49|ref=Monob.aqua_1
+35	.	.	u	u--------	_	1	AuxK	_	t_51|t_17|ref=Monob.aqua_1
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 1-2
+# source = Aelius Herodianus, Monob.aqua 1-2
 # text = 2 .
 # sent_id = 9
-1	2	2	u	u--------	_	0	AuxG	_	t_52|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-2	.	.	u	u--------	_	1	AuxK	_	t_53|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
+1	2	2	u	u--------	_	0	AuxG	_	t_52|0|ref=Monob.aqua_1
+2	.	.	u	u--------	_	1	AuxK	_	t_53|t_52|ref=Monob.aqua_2
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 2
+# source = Aelius Herodianus, Monob.aqua 2
 # text = Choer .
 # sent_id = 10
-1	Choer	κίλιξ	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_54|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-2	.	.	u	u--------	_	1	AuxK	_	t_55|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
+1	Choer	κίλιξ	n	n-s---mv-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_54|0|ref=Monob.aqua_2
+2	.	.	u	u--------	_	1	AuxK	_	t_55|t_54|ref=Monob.aqua_2
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 2
+# source = Aelius Herodianus, Monob.aqua 2
 # text = Dict .
 # sent_id = 11
-1	Dict	λέγω3	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_56|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-2	.	.	u	u--------	_	1	AuxK	_	t_57|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
+1	Dict	λέγω3	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_56|0|ref=Monob.aqua_2
+2	.	.	u	u--------	_	1	AuxK	_	t_57|t_56|ref=Monob.aqua_2
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 2
+# source = Aelius Herodianus, Monob.aqua 2
 # text = 381 , 19 , E. M. 491 , 35 [0] :
 # sent_id = 12
-1	381	381	x	x--------	_	10	AuxG	_	t_58|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-2	,	,	u	u--------	_	10	AuxX	_	t_59|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-3	19	19	x	x--------	_	10	AuxG	_	t_60|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-4	,	,	u	u--------	_	10	COORD	_	t_61|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-5	E.	e.	u	u--------	_	10	AuxG	_	t_62|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-6	M.	m.	u	u--------	_	10	AuxG	_	t_63|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-7	491	491	d	d--------	_	4	AuxX	_	t_64|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-8	,	,	u	u--------	_	10	AuxX	_	t_65|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-9	35	35	x	x--------	_	10	AuxG	_	t_66|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-10	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-11	:	:	u	u--------	_	10	AuxK	_	t_67|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
+1	381	381	x	x--------	_	10	AuxG	_	t_58|e_2|ref=Monob.aqua_2
+2	,	,	u	u--------	_	10	AuxX	_	t_59|e_2|ref=Monob.aqua_2
+3	19	19	x	x--------	_	10	AuxG	_	t_60|e_2|ref=Monob.aqua_2
+4	,	,	u	u--------	_	10	COORD	_	t_61|e_2|ref=Monob.aqua_2
+5	E.	e.	u	u--------	_	10	AuxG	_	t_62|e_2|ref=Monob.aqua_2
+6	M.	m.	u	u--------	_	10	AuxG	_	t_63|e_2|ref=Monob.aqua_2
+7	491	491	d	d--------	_	4	AuxX	_	t_64|t_61|ref=Monob.aqua_2
+8	,	,	u	u--------	_	10	AuxX	_	t_65|e_2|ref=Monob.aqua_2
+9	35	35	x	x--------	_	10	AuxG	_	t_66|e_2|ref=Monob.aqua_2
+10	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Monob.aqua_1
+11	:	:	u	u--------	_	10	AuxK	_	t_67|e_2|ref=Monob.aqua_2
 
-# source = Aelius Herodianus, Μονόβιβλον περὶ τοῦ ὕδωρ 2
+# source = Aelius Herodianus, Monob.aqua 2
 # text = λέγει ὁ Ἡρωδιανὸϲ ἐν τῷ μονοβίβλῳ αὐτοῦ , ὅτι τὰ εἰϲ ᾱρ οὐδέτερα παραληγόμενα τῷ ω ἄκλιτά ἐϲτιν οἷον μῶμαρ ( ϲημαίνει δὲ τὸν μῶμον ) , βῶμαρ ( ϲημαίνει δὲ τὸν βωμόν ) , νῶκαρ ( ϲημαίνει δὲ τὴν ϲτέρηϲιν τῆϲ ψυχῆϲ ) [0] .
 # sent_id = 13
-1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_68|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_69|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-3	Ἡρωδιανὸϲ	ἡρωδιανός	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_70|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-4	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_71|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-5	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	6	ATR	_	t_72|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-6	μονοβίβλῳ	μονόβιβλος	n	n-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_73|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_74|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-8	,	,	u	u--------	_	1	AuxX	_	t_75|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-9	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_76|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	14	ATR	_	t_77|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-11	εἰϲ	εἰς	r	r--------	_	14	AuxP	_	t_78|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-12	ᾱρ	ᾱρ	n	n-s---ma-	_	11	OBJ	_	t_79|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-13	οὐδέτερα	οὐδέτερος	a	a-p---nn-	Case=a|Gender=n|Number=p	14	ATR	_	t_80|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-14	παραληγόμενα	παραλήγω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	45	SBJ	_	t_81|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-15	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	14	ATR	_	t_82|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-16	ω	ω	x	x--------	_	14	OBJ	_	t_83|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-17	ἄκλιτά	ἄκλιτος	a	a-p---nn-	Case=n|Gender=n|Number=p	45	PNOM	_	t_84|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-18	ἐϲτιν	εἰμί	r	r--------	_	19	ADV	_	t_85|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-19	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	17	AuxC	_	t_86|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-20	μῶμαρ	μῶμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_87|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-21	(	̔	u	u--------	_	1	AuxG	_	t_88|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-22	ϲημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	ExD	_	t_89|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-23	δὲ	δέ	d	d--------	_	22	AuxY	_	t_90|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_91|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-25	μῶμον	μῶμος	n	n-s---ma-	Case=a|Gender=m|Number=s	22	OBJ	_	t_92|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-26	)	)	u	u--------	_	1	AuxG	_	t_93|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-27	,	,	u	u--------	_	1	AuxX	_	t_94|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-28	βῶμαρ	βῶμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	31	OBJ	_	t_95|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-29	(	̔	u	u--------	_	31	AuxG	_	t_96|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-30	ϲημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	31	OBJ	_	t_97|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-31	δὲ	δέ	d	d--------	_	19	AuxY	_	t_98|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-32	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	33	ATR	_	t_99|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-33	βωμόν	βωμός	n	n-s---ma-	Case=a|Gender=m|Number=s	30	OBJ	_	t_100|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-34	)	)	u	u--------	_	1	AuxG	_	t_101|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-35	,	,	u	u--------	_	1	AuxX	_	t_102|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-36	νῶκαρ	νῶκαρ	n	n-s---na-	Case=a|Gender=n|Number=s	45	SBJ	_	t_103|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-37	(	̔	u	u--------	_	1	AuxG	_	t_104|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-38	ϲημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	45	PNOM	_	t_105|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-39	δὲ	δέ	d	d--------	_	45	AuxY	_	t_106|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-40	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	41	ATR	_	t_107|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-41	ϲτέρηϲιν	ςτέρηςις	a	a-s---fa-	Case=a|Gender=f|Number=s	38	OBJ	_	t_108|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-42	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	43	ATR	_	t_109|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-43	ψυχῆϲ	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	41	ATR	_	t_110|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-44	)	)	u	u--------	_	1	AuxG	_	t_111|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
-45	[0]	[0]	-	---------	_	9	OBJ	_	e_3|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_1
-46	.	.	u	u--------	_	1	AuxK	_	t_112|ref=Μονόβιβλον περὶ τοῦ ὕδωρ_2
+1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_68|0|ref=Monob.aqua_2
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_69|t_70|ref=Monob.aqua_2
+3	Ἡρωδιανὸϲ	ἡρωδιανός	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_70|t_68|ref=Monob.aqua_2
+4	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_71|t_68|ref=Monob.aqua_2
+5	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	6	ATR	_	t_72|t_73|ref=Monob.aqua_2
+6	μονοβίβλῳ	μονόβιβλος	n	n-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_73|t_71|ref=Monob.aqua_2
+7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_74|t_73|ref=Monob.aqua_2
+8	,	,	u	u--------	_	1	AuxX	_	t_75|t_68|ref=Monob.aqua_2
+9	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_76|t_68|ref=Monob.aqua_2
+10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	14	ATR	_	t_77|t_81|ref=Monob.aqua_2
+11	εἰϲ	εἰς	r	r--------	_	14	AuxP	_	t_78|t_81|ref=Monob.aqua_2
+12	ᾱρ	ᾱρ	n	n-s---ma-	_	11	OBJ	_	t_79|t_78|ref=Monob.aqua_2
+13	οὐδέτερα	οὐδέτερος	a	a-p---nn-	Case=a|Gender=n|Number=p	14	ATR	_	t_80|t_81|ref=Monob.aqua_2
+14	παραληγόμενα	παραλήγω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	45	SBJ	_	t_81|e_3|ref=Monob.aqua_2
+15	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	14	ATR	_	t_82|t_81|ref=Monob.aqua_2
+16	ω	ω	x	x--------	_	14	OBJ	_	t_83|t_81|ref=Monob.aqua_2
+17	ἄκλιτά	ἄκλιτος	a	a-p---nn-	Case=n|Gender=n|Number=p	45	PNOM	_	t_84|e_3|ref=Monob.aqua_2
+18	ἐϲτιν	εἰμί	r	r--------	_	19	ADV	_	t_85|t_86|ref=Monob.aqua_2
+19	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	17	AuxC	_	t_86|t_84|ref=Monob.aqua_2
+20	μῶμαρ	μῶμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_87|t_89|ref=Monob.aqua_2
+21	(	̔	u	u--------	_	1	AuxG	_	t_88|t_68|ref=Monob.aqua_2
+22	ϲημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	ExD	_	t_89|t_86|ref=Monob.aqua_2
+23	δὲ	δέ	d	d--------	_	22	AuxY	_	t_90|t_89|ref=Monob.aqua_2
+24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_91|t_92|ref=Monob.aqua_2
+25	μῶμον	μῶμος	n	n-s---ma-	Case=a|Gender=m|Number=s	22	OBJ	_	t_92|t_89|ref=Monob.aqua_2
+26	)	)	u	u--------	_	1	AuxG	_	t_93|t_68|ref=Monob.aqua_2
+27	,	,	u	u--------	_	1	AuxX	_	t_94|t_68|ref=Monob.aqua_2
+28	βῶμαρ	βῶμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	31	OBJ	_	t_95|t_98|ref=Monob.aqua_2
+29	(	̔	u	u--------	_	31	AuxG	_	t_96|t_98|ref=Monob.aqua_2
+30	ϲημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	31	OBJ	_	t_97|t_98|ref=Monob.aqua_2
+31	δὲ	δέ	d	d--------	_	19	AuxY	_	t_98|t_86|ref=Monob.aqua_2
+32	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	33	ATR	_	t_99|t_100|ref=Monob.aqua_2
+33	βωμόν	βωμός	n	n-s---ma-	Case=a|Gender=m|Number=s	30	OBJ	_	t_100|t_97|ref=Monob.aqua_2
+34	)	)	u	u--------	_	1	AuxG	_	t_101|t_68|ref=Monob.aqua_2
+35	,	,	u	u--------	_	1	AuxX	_	t_102|t_68|ref=Monob.aqua_2
+36	νῶκαρ	νῶκαρ	n	n-s---na-	Case=a|Gender=n|Number=s	45	SBJ	_	t_103|e_3|ref=Monob.aqua_2
+37	(	̔	u	u--------	_	1	AuxG	_	t_104|t_68|ref=Monob.aqua_2
+38	ϲημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	45	PNOM	_	t_105|e_3|ref=Monob.aqua_2
+39	δὲ	δέ	d	d--------	_	45	AuxY	_	t_106|e_3|ref=Monob.aqua_2
+40	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	41	ATR	_	t_107|t_108|ref=Monob.aqua_2
+41	ϲτέρηϲιν	ςτέρηςις	a	a-s---fa-	Case=a|Gender=f|Number=s	38	OBJ	_	t_108|t_105|ref=Monob.aqua_2
+42	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	43	ATR	_	t_109|t_110|ref=Monob.aqua_2
+43	ψυχῆϲ	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	41	ATR	_	t_110|t_108|ref=Monob.aqua_2
+44	)	)	u	u--------	_	1	AuxG	_	t_111|t_68|ref=Monob.aqua_2
+45	[0]	[0]	-	---------	_	9	OBJ	_	e_3|t_76|ref=Monob.aqua_1
+46	.	.	u	u--------	_	1	AuxK	_	t_112|t_68|ref=Monob.aqua_2
 

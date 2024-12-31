@@ -1,1110 +1,1110 @@
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = ΠΕΡΙ ΟΚΤΑΜΗΝΟΥ .
 # sent_id = 1
-1	ΠΕΡΙ	περί	a	a-s---mv-	Case=g|Gender=m|Number=s	0	ExD	_	t_1|ref=De octimestri partu_10
-2	ΟΚΤΑΜΗΝΟΥ	οκταμηνος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2|ref=De octimestri partu_10
-3	.	.	u	u--------	_	1	AuxK	_	t_3|ref=De octimestri partu_10
+1	ΠΕΡΙ	περί	a	a-s---mv-	Case=g|Gender=m|Number=s	0	ExD	_	t_1|0|ref=oct.part._10
+2	ΟΚΤΑΜΗΝΟΥ	οκταμηνος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2|t_1|ref=oct.part._10
+3	.	.	u	u--------	_	1	AuxK	_	t_3|t_1|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = 10 [0] .
 # sent_id = 2
-1	10	10	u	u--------	_	2	AuxG	_	t_4|ref=De octimestri partu_10
-2	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=De octimestri partu_10
-3	.	.	u	u--------	_	2	AuxK	_	t_5|ref=De octimestri partu_10
+1	10	10	u	u--------	_	2	AuxG	_	t_4|e_1|ref=oct.part._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=oct.part._10
+3	.	.	u	u--------	_	2	AuxK	_	t_5|e_1|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = Περὶ δὲ ὀκταμήνου γενέσιος φημὶ δισσὰς ἐφεξῆς κακοπαθείας γενομένας ἀδυνάτους εἶναι ποιέειν φέρειν τὰ παιδία , καὶ διὰ τοῦτο οὐ περιγίνεσθαι τὰ ὀκτάμηνα ·
 # sent_id = 3
-1	Περὶ	περί	r	r--------	_	5	ADV	_	t_6|ref=De octimestri partu_10
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_7|ref=De octimestri partu_10
-3	ὀκταμήνου	ὀκτάμηνος	a	a-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_8|ref=De octimestri partu_10
-4	γενέσιος	γενέσιος	a	a-s---mn-	Case=g|Gender=f|Number=s	1	ADV	_	t_9|ref=De octimestri partu_10
-5	φημὶ	φημί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_10|ref=De octimestri partu_10
-6	δισσὰς	δισσός	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_11|ref=De octimestri partu_10
-7	ἐφεξῆς	ἐφεξῆς	d	d--------	_	9	PNOM	_	t_12|ref=De octimestri partu_10
-8	κακοπαθείας	κακοπάθεια	n	n-p---fa-	Case=a|Gender=f|Number=p	11	SBJ	_	t_13|ref=De octimestri partu_10
-9	γενομένας	γίγνομαι	v	v-papmfa-	Case=a|Gender=f|Mood=p|Number=p|Tense=a|Voice=m	8	ATR	_	t_14|ref=De octimestri partu_10
-10	ἀδυνάτους	ἀδύνατος	a	a-p---fa-	Case=a|Gender=f|Number=p	11	PNOM	_	t_15|ref=De octimestri partu_10
-11	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_16|ref=De octimestri partu_10
-12	ποιέειν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	ADV	_	t_17|ref=De octimestri partu_10
-13	φέρειν	φέρω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	ADV	_	t_18|ref=De octimestri partu_10
-14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_19|ref=De octimestri partu_10
-15	παιδία	παιδίον	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_20|ref=De octimestri partu_10
-16	,	,	u	u--------	_	5	AuxX	_	t_21|ref=De octimestri partu_10
-17	καὶ	καί	c	c--------	_	5	COORD	_	t_22|ref=De octimestri partu_10
-18	διὰ	διά	r	r--------	_	21	AuxP	_	t_23|ref=De octimestri partu_10
-19	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_24|ref=De octimestri partu_10
-20	οὐ	οὐ	d	d--------	_	21	AuxZ	_	t_25|ref=De octimestri partu_10
-21	περιγίνεσθαι	περιγίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	17	OBJ	_	t_26|ref=De octimestri partu_10
-22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_27|ref=De octimestri partu_10
-23	ὀκτάμηνα	ὀκτάμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	21	SBJ	_	t_28|ref=De octimestri partu_10
-24	·	·	u	u--------	_	5	AuxK	_	t_29|ref=De octimestri partu_10
+1	Περὶ	περί	r	r--------	_	5	ADV	_	t_6|t_10|ref=oct.part._10
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_7|t_10|ref=oct.part._10
+3	ὀκταμήνου	ὀκτάμηνος	a	a-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_8|t_9|ref=oct.part._10
+4	γενέσιος	γενέσιος	a	a-s---mn-	Case=g|Gender=f|Number=s	1	ADV	_	t_9|t_6|ref=oct.part._10
+5	φημὶ	φημί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_10|0|ref=oct.part._10
+6	δισσὰς	δισσός	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_11|t_13|ref=oct.part._10
+7	ἐφεξῆς	ἐφεξῆς	d	d--------	_	9	PNOM	_	t_12|t_14|ref=oct.part._10
+8	κακοπαθείας	κακοπάθεια	n	n-p---fa-	Case=a|Gender=f|Number=p	11	SBJ	_	t_13|t_16|ref=oct.part._10
+9	γενομένας	γίγνομαι	v	v-papmfa-	Case=a|Gender=f|Mood=p|Number=p|Tense=a|Voice=m	8	ATR	_	t_14|t_13|ref=oct.part._10
+10	ἀδυνάτους	ἀδύνατος	a	a-p---fa-	Case=a|Gender=f|Number=p	11	PNOM	_	t_15|t_16|ref=oct.part._10
+11	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_16|t_22|ref=oct.part._10
+12	ποιέειν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	ADV	_	t_17|t_15|ref=oct.part._10
+13	φέρειν	φέρω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	ADV	_	t_18|t_15|ref=oct.part._10
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_19|t_20|ref=oct.part._10
+15	παιδία	παιδίον	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_20|t_17|ref=oct.part._10
+16	,	,	u	u--------	_	5	AuxX	_	t_21|t_10|ref=oct.part._10
+17	καὶ	καί	c	c--------	_	5	COORD	_	t_22|t_10|ref=oct.part._10
+18	διὰ	διά	r	r--------	_	21	AuxP	_	t_23|t_26|ref=oct.part._10
+19	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_24|t_23|ref=oct.part._10
+20	οὐ	οὐ	d	d--------	_	21	AuxZ	_	t_25|t_26|ref=oct.part._10
+21	περιγίνεσθαι	περιγίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	17	OBJ	_	t_26|t_22|ref=oct.part._10
+22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_27|t_28|ref=oct.part._10
+23	ὀκτάμηνα	ὀκτάμηνος	n	n-p---na-	Case=a|Gender=n|Number=p	21	SBJ	_	t_28|t_26|ref=oct.part._10
+24	·	·	u	u--------	_	5	AuxK	_	t_29|t_10|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = συγκυρεῖ γὰρ αὐτέοις ἐφεξῆς κακοπαθεῖν τήν τε ἐν τῇ μήτρῃ γενομένην κακοπαθείην καὶ τὴν ὅταν ὁ τόκος γένηται , καὶ διὰ τοῦτο τῶν ὀκταμήνων οὐδὲν περιγίνεται .
 # sent_id = 4
-1	συγκυρεῖ	συγκυρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	PRED	_	t_30|ref=De octimestri partu_10
-2	γὰρ	γάρ	d	d--------	_	20	AuxY	_	t_31|ref=De octimestri partu_10
-3	αὐτέοις	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	1	OBJ	_	t_32|ref=De octimestri partu_10
-4	ἐφεξῆς	ἐφεξῆς	d	d--------	_	1	ADV	_	t_33|ref=De octimestri partu_10
-5	κακοπαθεῖν	κακοπαθέω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_34|ref=De octimestri partu_10
-6	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_35|ref=De octimestri partu_10
-7	τε	τε	d	d--------	_	13	AuxY	_	t_36|ref=De octimestri partu_10
-8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_37|ref=De octimestri partu_10
-9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_38|ref=De octimestri partu_10
-10	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_39|ref=De octimestri partu_10
-11	γενομένην	γίγνομαι	v	v-sapmfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	12	ATR	_	t_40|ref=De octimestri partu_10
-12	κακοπαθείην	κακοπάθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_41|ref=De octimestri partu_10
-13	καὶ	καί	c	c--------	_	5	COORD	_	t_42|ref=De octimestri partu_10
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_43|ref=De octimestri partu_10
-15	ὅταν	ὅταν	c	c--------	_	13	AuxC	_	t_44|ref=De octimestri partu_10
-16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_45|ref=De octimestri partu_10
-17	τόκος	τόκος	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_46|ref=De octimestri partu_10
-18	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	15	ADV	_	t_47|ref=De octimestri partu_10
-19	,	,	u	u--------	_	0	AuxX	_	t_48|ref=De octimestri partu_10
-20	καὶ	καί	c	c--------	_	19	COORD	_	t_49|ref=De octimestri partu_10
-21	διὰ	διά	r	r--------	_	26	AuxP	_	t_50|ref=De octimestri partu_10
-22	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_51|ref=De octimestri partu_10
-23	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	24	ATR	_	t_52|ref=De octimestri partu_10
-24	ὀκταμήνων	ὀκτάμηνος	n	n-p---fg-	Case=g|Gender=n|Number=p	25	ATR	_	t_53|ref=De octimestri partu_10
-25	οὐδὲν	οὐδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	26	SBJ	_	t_54|ref=De octimestri partu_10
-26	περιγίνεται	περιγίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	20	PRED	_	t_55|ref=De octimestri partu_10
-27	.	.	u	u--------	_	19	AuxK	_	t_56|ref=De octimestri partu_10
+1	συγκυρεῖ	συγκυρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	PRED	_	t_30|t_49|ref=oct.part._10
+2	γὰρ	γάρ	d	d--------	_	20	AuxY	_	t_31|t_49|ref=oct.part._10
+3	αὐτέοις	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	1	OBJ	_	t_32|t_30|ref=oct.part._10
+4	ἐφεξῆς	ἐφεξῆς	d	d--------	_	1	ADV	_	t_33|t_30|ref=oct.part._10
+5	κακοπαθεῖν	κακοπαθέω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_34|t_30|ref=oct.part._10
+6	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_35|t_41|ref=oct.part._10
+7	τε	τε	d	d--------	_	13	AuxY	_	t_36|t_42|ref=oct.part._10
+8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_37|t_40|ref=oct.part._10
+9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_38|t_39|ref=oct.part._10
+10	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_39|t_37|ref=oct.part._10
+11	γενομένην	γίγνομαι	v	v-sapmfa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	12	ATR	_	t_40|t_41|ref=oct.part._10
+12	κακοπαθείην	κακοπάθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_41|t_42|ref=oct.part._10
+13	καὶ	καί	c	c--------	_	5	COORD	_	t_42|t_34|ref=oct.part._10
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_43|t_42|ref=oct.part._10
+15	ὅταν	ὅταν	c	c--------	_	13	AuxC	_	t_44|t_42|ref=oct.part._10
+16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_45|t_46|ref=oct.part._10
+17	τόκος	τόκος	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_46|t_47|ref=oct.part._10
+18	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	15	ADV	_	t_47|t_44|ref=oct.part._10
+19	,	,	u	u--------	_	0	AuxX	_	t_48|0|ref=oct.part._10
+20	καὶ	καί	c	c--------	_	19	COORD	_	t_49|t_48|ref=oct.part._10
+21	διὰ	διά	r	r--------	_	26	AuxP	_	t_50|t_55|ref=oct.part._10
+22	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_51|t_50|ref=oct.part._10
+23	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	24	ATR	_	t_52|t_53|ref=oct.part._10
+24	ὀκταμήνων	ὀκτάμηνος	n	n-p---fg-	Case=g|Gender=n|Number=p	25	ATR	_	t_53|t_54|ref=oct.part._10
+25	οὐδὲν	οὐδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	26	SBJ	_	t_54|t_55|ref=oct.part._10
+26	περιγίνεται	περιγίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	20	PRED	_	t_55|t_49|ref=oct.part._10
+27	.	.	u	u--------	_	19	AuxK	_	t_56|t_48|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = Ἐπεὶ καὶ τὰ δεκάμηνα καλεόμενα λέγω ἐν ἑπτὰ τέσσαράκονθ ’ ἡμέρῃσι μᾶλλον τίκτεσθαι ·
 # sent_id = 5
-1	Ἐπεὶ	ἐπεί	d	d--------	_	0	COORD	_	t_57|ref=De octimestri partu_10
-2	καὶ	καί	d	d--------	_	5	AuxZ	_	t_58|ref=De octimestri partu_10
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_59|ref=De octimestri partu_10
-4	δεκάμηνα	δέκατος	a	a-p---na-	Case=a|Gender=n|Number=p	5	PNOM	_	t_60|ref=De octimestri partu_10
-5	καλεόμενα	καλέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	13	SBJ	_	t_61|ref=De octimestri partu_10
-6	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	1	PRED	_	t_62|ref=De octimestri partu_10
-7	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_63|ref=De octimestri partu_10
-8	ἑπτὰ	ἑπτὰ	m	m--------	_	11	ATR	_	t_64|ref=De octimestri partu_10
-9	τέσσαράκονθ	τέσσαρες	a	a--------	_	11	ATR	_	t_65|ref=De octimestri partu_10
-10	’	’	a	a--------	_	11	ATR	_	t_66|ref=De octimestri partu_10
-11	ἡμέρῃσι	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	7	ADV	_	t_67|ref=De octimestri partu_10
-12	μᾶλλον	μᾶλλον	d	d--------	_	13	ADV	_	t_68|ref=De octimestri partu_10
-13	τίκτεσθαι	τίκτω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_69|ref=De octimestri partu_10
-14	·	·	u	u--------	_	1	AuxK	_	t_70|ref=De octimestri partu_10
+1	Ἐπεὶ	ἐπεί	d	d--------	_	0	COORD	_	t_57|0|ref=oct.part._10
+2	καὶ	καί	d	d--------	_	5	AuxZ	_	t_58|t_61|ref=oct.part._10
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_59|t_61|ref=oct.part._10
+4	δεκάμηνα	δέκατος	a	a-p---na-	Case=a|Gender=n|Number=p	5	PNOM	_	t_60|t_61|ref=oct.part._10
+5	καλεόμενα	καλέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	13	SBJ	_	t_61|t_69|ref=oct.part._10
+6	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	1	PRED	_	t_62|t_57|ref=oct.part._10
+7	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_63|t_69|ref=oct.part._10
+8	ἑπτὰ	ἑπτὰ	m	m--------	_	11	ATR	_	t_64|t_67|ref=oct.part._10
+9	τέσσαράκονθ	τέσσαρες	a	a--------	_	11	ATR	_	t_65|t_67|ref=oct.part._10
+10	’	’	a	a--------	_	11	ATR	_	t_66|t_67|ref=oct.part._10
+11	ἡμέρῃσι	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	7	ADV	_	t_67|t_63|ref=oct.part._10
+12	μᾶλλον	μᾶλλον	d	d--------	_	13	ADV	_	t_68|t_69|ref=oct.part._10
+13	τίκτεσθαι	τίκτω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_69|t_62|ref=oct.part._10
+14	·	·	u	u--------	_	1	AuxK	_	t_70|t_57|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = καὶ μάλιστα προσήκει ἐκτρέφεσθαι ·
 # sent_id = 6
-1	καὶ	καί	c	c--------	_	3	AuxY	_	t_71|ref=De octimestri partu_10
-2	μάλιστα	μάλιστα	d	d--------	_	3	ADV	_	t_72|ref=De octimestri partu_10
-3	προσήκει	προσήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_73|ref=De octimestri partu_10
-4	ἐκτρέφεσθαι	ἐκτρέφω	v	v--pne---	Mood=n|Tense=p|Voice=e	3	SBJ	_	t_74|ref=De octimestri partu_10
-5	·	·	u	u--------	_	3	AuxK	_	t_75|ref=De octimestri partu_10
+1	καὶ	καί	c	c--------	_	3	AuxY	_	t_71|t_73|ref=oct.part._10
+2	μάλιστα	μάλιστα	d	d--------	_	3	ADV	_	t_72|t_73|ref=oct.part._10
+3	προσήκει	προσήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_73|0|ref=oct.part._10
+4	ἐκτρέφεσθαι	ἐκτρέφω	v	v--pne---	Mood=n|Tense=p|Voice=e	3	SBJ	_	t_74|t_73|ref=oct.part._10
+5	·	·	u	u--------	_	3	AuxK	_	t_75|t_73|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = καὶ τελεώτατόν ἐστιν ἐν τῇσι ταύτῃσι τεσσαράκοντα ἡμέρῃσι .
 # sent_id = 7
-1	καὶ	καί	d	d--------	_	3	AuxY	_	t_76|ref=De octimestri partu_10
-2	τελεώτατόν	τέλειος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	3	PNOM	_	t_77|ref=De octimestri partu_10
-3	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_78|ref=De octimestri partu_10
-4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_79|ref=De octimestri partu_10
-5	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_80|ref=De octimestri partu_10
-6	ταύτῃσι	οὗτος	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_81|ref=De octimestri partu_10
-7	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	8	ATR	_	t_82|ref=De octimestri partu_10
-8	ἡμέρῃσι	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	4	ADV	_	t_83|ref=De octimestri partu_10
-9	.	.	u	u--------	_	3	AuxK	_	t_84|ref=De octimestri partu_10
+1	καὶ	καί	d	d--------	_	3	AuxY	_	t_76|t_78|ref=oct.part._10
+2	τελεώτατόν	τέλειος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	3	PNOM	_	t_77|t_78|ref=oct.part._10
+3	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_78|0|ref=oct.part._10
+4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_79|t_78|ref=oct.part._10
+5	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_80|t_83|ref=oct.part._10
+6	ταύτῃσι	οὗτος	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_81|t_83|ref=oct.part._10
+7	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	8	ATR	_	t_82|t_83|ref=oct.part._10
+8	ἡμέρῃσι	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	4	ADV	_	t_83|t_79|ref=oct.part._10
+9	.	.	u	u--------	_	3	AuxK	_	t_84|t_78|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = Ἐπήν δὲ γένηται , πλείω ἀπόλλυται ·
 # sent_id = 8
-1	Ἐπήν	ἐπήν	c	c--------	_	3	PNOM	_	t_85|ref=De octimestri partu_10
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_86|ref=De octimestri partu_10
-3	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	6	ADV	_	t_87|ref=De octimestri partu_10
-4	,	,	u	u--------	_	3	AuxX	_	t_88|ref=De octimestri partu_10
-5	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	6	SBJ	_	t_89|ref=De octimestri partu_10
-6	ἀπόλλυται	ἀπόλλυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_90|ref=De octimestri partu_10
-7	·	·	u	u--------	_	2	AuxK	_	t_91|ref=De octimestri partu_10
+1	Ἐπήν	ἐπήν	c	c--------	_	3	PNOM	_	t_85|t_87|ref=oct.part._10
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_86|0|ref=oct.part._10
+3	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	6	ADV	_	t_87|t_90|ref=oct.part._10
+4	,	,	u	u--------	_	3	AuxX	_	t_88|t_87|ref=oct.part._10
+5	πλείω	πλείων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	6	SBJ	_	t_89|t_90|ref=oct.part._10
+6	ἀπόλλυται	ἀπόλλυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_90|t_86|ref=oct.part._10
+7	·	·	u	u--------	_	2	AuxK	_	t_91|t_86|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = ἀναγκάζεται γὰρ πολλὰ μεταλαμβάνοντα ἐν ὀλίγῳ χρόνῳ πολλὰ νοσέειν , ἐξ ὧν οἱ θάνατοι γίνονται .
 # sent_id = 9
-1	ἀναγκάζεται	ἀναγκάζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_92|ref=De octimestri partu_10
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_93|ref=De octimestri partu_10
-3	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_94|ref=De octimestri partu_10
-4	μεταλαμβάνοντα	μεταλαμβάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	SBJ	_	t_95|ref=De octimestri partu_10
-5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_96|ref=De octimestri partu_10
-6	ὀλίγῳ	ὀλίγος	a	a-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_97|ref=De octimestri partu_10
-7	χρόνῳ	χρόνος	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_98|ref=De octimestri partu_10
-8	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_99|ref=De octimestri partu_10
-9	νοσέειν	νοσέω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	SBJ	_	t_100|ref=De octimestri partu_10
-10	,	,	u	u--------	_	1	AuxX	_	t_101|ref=De octimestri partu_10
-11	ἐξ	ἐκ	r	r--------	_	15	AuxP	_	t_102|ref=De octimestri partu_10
-12	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	11	PNOM	_	t_103|ref=De octimestri partu_10
-13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_104|ref=De octimestri partu_10
-14	θάνατοι	θάνατος	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_105|ref=De octimestri partu_10
-15	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	8	ATR	_	t_106|ref=De octimestri partu_10
-16	.	.	u	u--------	_	1	AuxK	_	t_107|ref=De octimestri partu_10
+1	ἀναγκάζεται	ἀναγκάζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_92|0|ref=oct.part._10
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_93|t_92|ref=oct.part._10
+3	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_94|t_95|ref=oct.part._10
+4	μεταλαμβάνοντα	μεταλαμβάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	SBJ	_	t_95|t_100|ref=oct.part._10
+5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_96|t_95|ref=oct.part._10
+6	ὀλίγῳ	ὀλίγος	a	a-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_97|t_98|ref=oct.part._10
+7	χρόνῳ	χρόνος	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_98|t_96|ref=oct.part._10
+8	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_99|t_100|ref=oct.part._10
+9	νοσέειν	νοσέω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	SBJ	_	t_100|t_92|ref=oct.part._10
+10	,	,	u	u--------	_	1	AuxX	_	t_101|t_92|ref=oct.part._10
+11	ἐξ	ἐκ	r	r--------	_	15	AuxP	_	t_102|t_106|ref=oct.part._10
+12	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	11	PNOM	_	t_103|t_102|ref=oct.part._10
+13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_104|t_105|ref=oct.part._10
+14	θάνατοι	θάνατος	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_105|t_106|ref=oct.part._10
+15	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	8	ATR	_	t_106|t_99|ref=oct.part._10
+16	.	.	u	u--------	_	1	AuxK	_	t_107|t_92|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = Ἄρχεται δὲ πονέειν τὸ παιδίον πρὸς τοῦ τόκου γινόμενον καὶ κινδυνεύειν ἀπολέσθαι , ὅταν ἐν τῇ μήτρῃ στρέφηται ·
 # sent_id = 10
-1	Ἄρχεται	ἄρχω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_108|ref=De octimestri partu_10
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_109|ref=De octimestri partu_10
-3	πονέειν	πονέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_110|ref=De octimestri partu_10
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_111|ref=De octimestri partu_10
-5	παιδίον	παιδίον	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_112|ref=De octimestri partu_10
-6	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_113|ref=De octimestri partu_10
-7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_114|ref=De octimestri partu_10
-8	τόκου	τόκος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	PNOM	_	t_115|ref=De octimestri partu_10
-9	γινόμενον	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_116|ref=De octimestri partu_10
-10	καὶ	καί	c	c--------	_	1	COORD	_	t_117|ref=De octimestri partu_10
-11	κινδυνεύειν	κινδυνεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_118|ref=De octimestri partu_10
-12	ἀπολέσθαι	ἀπόλλυμι	v	v--anm---	Mood=n|Tense=a|Voice=m	11	OBJ	_	t_119|ref=De octimestri partu_10
-13	,	,	u	u--------	_	1	AuxX	_	t_120|ref=De octimestri partu_10
-14	ὅταν	ὅταν	c	c--------	_	12	AuxC	_	t_121|ref=De octimestri partu_10
-15	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_122|ref=De octimestri partu_10
-16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_123|ref=De octimestri partu_10
-17	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_124|ref=De octimestri partu_10
-18	στρέφηται	στρέφω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	14	ADV	_	t_125|ref=De octimestri partu_10
-19	·	·	u	u--------	_	1	AuxK	_	t_126|ref=De octimestri partu_10
+1	Ἄρχεται	ἄρχω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_108|0|ref=oct.part._10
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_109|t_108|ref=oct.part._10
+3	πονέειν	πονέω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_110|t_117|ref=oct.part._10
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_111|t_112|ref=oct.part._10
+5	παιδίον	παιδίον	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_112|t_110|ref=oct.part._10
+6	πρὸς	πρός	r	r--------	_	9	AuxP	_	t_113|t_116|ref=oct.part._10
+7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_114|t_115|ref=oct.part._10
+8	τόκου	τόκος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	PNOM	_	t_115|t_113|ref=oct.part._10
+9	γινόμενον	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_116|t_110|ref=oct.part._10
+10	καὶ	καί	c	c--------	_	1	COORD	_	t_117|t_108|ref=oct.part._10
+11	κινδυνεύειν	κινδυνεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_118|t_117|ref=oct.part._10
+12	ἀπολέσθαι	ἀπόλλυμι	v	v--anm---	Mood=n|Tense=a|Voice=m	11	OBJ	_	t_119|t_118|ref=oct.part._10
+13	,	,	u	u--------	_	1	AuxX	_	t_120|t_108|ref=oct.part._10
+14	ὅταν	ὅταν	c	c--------	_	12	AuxC	_	t_121|t_119|ref=oct.part._10
+15	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_122|t_125|ref=oct.part._10
+16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_123|t_124|ref=oct.part._10
+17	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_124|t_122|ref=oct.part._10
+18	στρέφηται	στρέφω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	14	ADV	_	t_125|t_121|ref=oct.part._10
+19	·	·	u	u--------	_	1	AuxK	_	t_126|t_108|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = φύεται γὰρ πάντα ἄνω τὴν κεφαλὴν ἔχοντα ·
 # sent_id = 11
-1	φύεται	φύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_127|ref=De octimestri partu_10
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_128|ref=De octimestri partu_10
-3	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_129|ref=De octimestri partu_10
-4	ἄνω	ἄνω	d	d--------	_	1	ADV	_	t_130|ref=De octimestri partu_10
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_131|ref=De octimestri partu_10
-6	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_132|ref=De octimestri partu_10
-7	ἔχοντα	ἔχω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_133|ref=De octimestri partu_10
-8	·	·	u	u--------	_	1	AuxK	_	t_134|ref=De octimestri partu_10
+1	φύεται	φύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_127|0|ref=oct.part._10
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_128|t_127|ref=oct.part._10
+3	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_129|t_127|ref=oct.part._10
+4	ἄνω	ἄνω	d	d--------	_	1	ADV	_	t_130|t_127|ref=oct.part._10
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_131|t_132|ref=oct.part._10
+6	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_132|t_133|ref=oct.part._10
+7	ἔχοντα	ἔχω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_133|t_129|ref=oct.part._10
+8	·	·	u	u--------	_	1	AuxK	_	t_134|t_127|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = τίκτεται δὲ τὰ πολλὰ ἐπὶ κεφαλήν ·
 # sent_id = 12
-1	τίκτεται	τίκτω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_135|ref=De octimestri partu_10
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_136|ref=De octimestri partu_10
-3	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_137|ref=De octimestri partu_10
-4	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_138|ref=De octimestri partu_10
-5	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_139|ref=De octimestri partu_10
-6	κεφαλήν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_140|ref=De octimestri partu_10
-7	·	·	u	u--------	_	1	AuxK	_	t_141|ref=De octimestri partu_10
+1	τίκτεται	τίκτω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_135|0|ref=oct.part._10
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_136|t_135|ref=oct.part._10
+3	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_137|t_138|ref=oct.part._10
+4	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_138|t_135|ref=oct.part._10
+5	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_139|t_135|ref=oct.part._10
+6	κεφαλήν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_140|t_139|ref=oct.part._10
+7	·	·	u	u--------	_	1	AuxK	_	t_141|t_135|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = καὶ ἀσφαλέστερον ἀπαλλάσσει τῶν ἐπὶ πόδας τικτομένων ·
 # sent_id = 13
-1	καὶ	καί	c	c--------	_	3	AuxY	_	t_142|ref=De octimestri partu_10
-2	ἀσφαλέστερον	ἀσφαλής	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	3	ADV	_	t_143|ref=De octimestri partu_10
-3	ἀπαλλάσσει	ἀπαλλάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_144|ref=De octimestri partu_10
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_145|ref=De octimestri partu_10
-5	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_146|ref=De octimestri partu_10
-6	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_147|ref=De octimestri partu_10
-7	τικτομένων	τίκτω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	OBJ	_	t_148|ref=De octimestri partu_10
-8	·	·	u	u--------	_	3	AuxK	_	t_149|ref=De octimestri partu_10
+1	καὶ	καί	c	c--------	_	3	AuxY	_	t_142|t_144|ref=oct.part._10
+2	ἀσφαλέστερον	ἀσφαλής	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	3	ADV	_	t_143|t_144|ref=oct.part._10
+3	ἀπαλλάσσει	ἀπαλλάσσω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_144|0|ref=oct.part._10
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_145|t_148|ref=oct.part._10
+5	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_146|t_148|ref=oct.part._10
+6	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_147|t_146|ref=oct.part._10
+7	τικτομένων	τίκτω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	OBJ	_	t_148|t_144|ref=oct.part._10
+8	·	·	u	u--------	_	3	AuxK	_	t_149|t_144|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = τὰ γὰρ συγκαμπτόμενα τοῦ σώματος ἐπὶ κεφαλὴν οὔπω κωλύει ἰόντος τοῦ παιδίου ·
 # sent_id = 14
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_150|ref=De octimestri partu_10
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_151|ref=De octimestri partu_10
-3	συγκαμπτόμενα	συγκάμπτω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	SBJ	_	t_152|ref=De octimestri partu_10
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_153|ref=De octimestri partu_10
-5	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_154|ref=De octimestri partu_10
-6	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_155|ref=De octimestri partu_10
-7	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_156|ref=De octimestri partu_10
-8	οὔπω	οὔπω	d	d--------	_	9	AuxZ	_	t_157|ref=De octimestri partu_10
-9	κωλύει	κωλύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_158|ref=De octimestri partu_10
-10	ἰόντος	εἶμι	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_159|ref=De octimestri partu_10
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_160|ref=De octimestri partu_10
-12	παιδίου	παιδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	10	SBJ	_	t_161|ref=De octimestri partu_10
-13	·	·	u	u--------	_	9	AuxK	_	t_162|ref=De octimestri partu_10
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_150|t_152|ref=oct.part._10
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_151|t_158|ref=oct.part._10
+3	συγκαμπτόμενα	συγκάμπτω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	SBJ	_	t_152|t_158|ref=oct.part._10
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_153|t_154|ref=oct.part._10
+5	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_154|t_152|ref=oct.part._10
+6	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_155|t_152|ref=oct.part._10
+7	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_156|t_155|ref=oct.part._10
+8	οὔπω	οὔπω	d	d--------	_	9	AuxZ	_	t_157|t_158|ref=oct.part._10
+9	κωλύει	κωλύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_158|0|ref=oct.part._10
+10	ἰόντος	εἶμι	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_159|t_158|ref=oct.part._10
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_160|t_161|ref=oct.part._10
+12	παιδίου	παιδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	10	SBJ	_	t_161|t_159|ref=oct.part._10
+13	·	·	u	u--------	_	9	AuxK	_	t_162|t_158|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = ἀλλὰ μᾶλλον , ὅταν ἐπὶ πόδας ὁρμήσῃ , τὰ ἐμφράγματα γίνεται .
 # sent_id = 15
-1	ἀλλὰ	ἀλλά	d	d--------	_	11	AuxY	_	t_163|ref=De octimestri partu_10
-2	μᾶλλον	μᾶλλον	d	d--------	_	11	ADV	_	t_164|ref=De octimestri partu_10
-3	,	,	u	u--------	_	11	AuxX	_	t_165|ref=De octimestri partu_10
-4	ὅταν	ὅταν	c	c--------	_	11	AuxC	_	t_166|ref=De octimestri partu_10
-5	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_167|ref=De octimestri partu_10
-6	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_168|ref=De octimestri partu_10
-7	ὁρμήσῃ	ὁρμάω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	4	ADV	_	t_169|ref=De octimestri partu_10
-8	,	,	u	u--------	_	11	AuxX	_	t_170|ref=De octimestri partu_10
-9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_171|ref=De octimestri partu_10
-10	ἐμφράγματα	ἐμφράγμα	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_172|ref=De octimestri partu_10
-11	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_173|ref=De octimestri partu_10
-12	.	.	u	u--------	_	11	AuxK	_	t_174|ref=De octimestri partu_10
+1	ἀλλὰ	ἀλλά	d	d--------	_	11	AuxY	_	t_163|t_173|ref=oct.part._10
+2	μᾶλλον	μᾶλλον	d	d--------	_	11	ADV	_	t_164|t_173|ref=oct.part._10
+3	,	,	u	u--------	_	11	AuxX	_	t_165|t_173|ref=oct.part._10
+4	ὅταν	ὅταν	c	c--------	_	11	AuxC	_	t_166|t_173|ref=oct.part._10
+5	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_167|t_169|ref=oct.part._10
+6	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_168|t_167|ref=oct.part._10
+7	ὁρμήσῃ	ὁρμάω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	4	ADV	_	t_169|t_166|ref=oct.part._10
+8	,	,	u	u--------	_	11	AuxX	_	t_170|t_173|ref=oct.part._10
+9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_171|t_172|ref=oct.part._10
+10	ἐμφράγματα	ἐμφράγμα	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_172|t_173|ref=oct.part._10
+11	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_173|0|ref=oct.part._10
+12	.	.	u	u--------	_	11	AuxK	_	t_174|t_173|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = Αἱ γὰρ στροφαὶ ἐν τῇ γαστρὶ καὶ ἄλλος κίνδυνος [0] ·
 # sent_id = 16
-1	Αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_175|ref=De octimestri partu_10
-2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_176|ref=De octimestri partu_10
-3	στροφαὶ	στροφή	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_177|ref=De octimestri partu_10
-4	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_178|ref=De octimestri partu_10
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_179|ref=De octimestri partu_10
-6	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_180|ref=De octimestri partu_10
-7	καὶ	καί	c	c--------	_	10	COORD	_	t_181|ref=De octimestri partu_10
-8	ἄλλος	ἄλλος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_182|ref=De octimestri partu_10
-9	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_183|ref=De octimestri partu_10
-10	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=De octimestri partu_10
-11	·	·	u	u--------	_	10	AuxK	_	t_184|ref=De octimestri partu_10
+1	Αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_175|t_177|ref=oct.part._10
+2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_176|e_2|ref=oct.part._10
+3	στροφαὶ	στροφή	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_177|t_181|ref=oct.part._10
+4	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_178|e_2|ref=oct.part._10
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_179|t_180|ref=oct.part._10
+6	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_180|t_178|ref=oct.part._10
+7	καὶ	καί	c	c--------	_	10	COORD	_	t_181|e_2|ref=oct.part._10
+8	ἄλλος	ἄλλος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_182|t_183|ref=oct.part._10
+9	κίνδυνος	κίνδυνος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_183|t_181|ref=oct.part._10
+10	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=oct.part._10
+11	·	·	u	u--------	_	10	AuxK	_	t_184|e_2|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = καὶ οἱ ὀμφαλοὶ πολλάκις ἤδη τῶν παιδίων ἐφάνησαν περὶ τοὺς τραχήλους ·
 # sent_id = 17
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_185|ref=De octimestri partu_10
-2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_186|ref=De octimestri partu_10
-3	ὀμφαλοὶ	ὀμφαλός	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_187|ref=De octimestri partu_10
-4	πολλάκις	πολλάκις	d	d--------	_	8	ADV	_	t_188|ref=De octimestri partu_10
-5	ἤδη	ἤδη	d	d--------	_	8	ADV	_	t_189|ref=De octimestri partu_10
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_190|ref=De octimestri partu_10
-7	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_191|ref=De octimestri partu_10
-8	ἐφάνησαν	φαίνω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	PRED	_	t_192|ref=De octimestri partu_10
-9	περὶ	περί	r	r--------	_	8	AuxP	_	t_193|ref=De octimestri partu_10
-10	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_194|ref=De octimestri partu_10
-11	τραχήλους	τράχηλος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_195|ref=De octimestri partu_10
-12	·	·	u	u--------	_	8	AuxK	_	t_196|ref=De octimestri partu_10
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_185|t_192|ref=oct.part._10
+2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_186|t_187|ref=oct.part._10
+3	ὀμφαλοὶ	ὀμφαλός	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_187|t_192|ref=oct.part._10
+4	πολλάκις	πολλάκις	d	d--------	_	8	ADV	_	t_188|t_192|ref=oct.part._10
+5	ἤδη	ἤδη	d	d--------	_	8	ADV	_	t_189|t_192|ref=oct.part._10
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_190|t_191|ref=oct.part._10
+7	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_191|t_187|ref=oct.part._10
+8	ἐφάνησαν	φαίνω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	PRED	_	t_192|0|ref=oct.part._10
+9	περὶ	περί	r	r--------	_	8	AuxP	_	t_193|t_192|ref=oct.part._10
+10	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_194|t_195|ref=oct.part._10
+11	τραχήλους	τράχηλος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_195|t_193|ref=oct.part._10
+12	·	·	u	u--------	_	8	AuxK	_	t_196|t_192|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = ἢν γὰρ κατὰ τὸ μόριον , ὁποτέρωθεν ἂν τύχῃ ὁ ὀμφαλὸς τῇ μήτρῃ μᾶλλον παρατεταμένος , ταύτῃ τὸ παιδίον τῆς κεφαλῆς τὴν περιαγωγὴν ποιήσηται , τοῦ ὀμφαλοῦ στρεφομένου ἢ περὶ τὸν αὐχένα ἢ καὶ κατὰ τὸν ὦμον , τὴν περιβολὴν τοῦ ὀμφαλοῦ ἀντιτείνειν , τουτέου δὲ γενομένου καὶ τὴν μητέρα ἀνάγκη πονῆσαι μᾶλλον καὶ τὸ παιδίον ἢ ἀπολέσθαι ἢ χαλεπώτερον ἐξελθεῖν [0] [1] [2] .
 # sent_id = 18
-1	ἢν	ἐάν	c	c--------	_	46	AuxC	_	t_197|ref=De octimestri partu_10
-2	γὰρ	γάρ	d	d--------	_	24	AuxY	_	t_198|ref=De octimestri partu_10
-3	κατὰ	κατά	r	r--------	_	62	AuxP	_	t_199|ref=De octimestri partu_10
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_200|ref=De octimestri partu_10
-5	μόριον	μόριον	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_201|ref=De octimestri partu_10
-6	,	,	u	u--------	_	0	AuxX	_	t_202|ref=De octimestri partu_10
-7	ὁποτέρωθεν	ὁπότερος	d	d--------	_	9	ADV	_	t_203|ref=De octimestri partu_10
-8	ἂν	ἄν	d	d--------	_	9	AuxY	_	t_204|ref=De octimestri partu_10
-9	τύχῃ	τύχη	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ATR	_	t_205|ref=De octimestri partu_10
-10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_206|ref=De octimestri partu_10
-11	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_207|ref=De octimestri partu_10
-12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_208|ref=De octimestri partu_10
-13	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	15	OBJ	_	t_209|ref=De octimestri partu_10
-14	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	15	ADV	_	t_210|ref=De octimestri partu_10
-15	παρατεταμένος	παράκειμαι	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	9	ADV	_	t_211|ref=De octimestri partu_10
-16	,	,	u	u--------	_	6	AuxX	_	t_212|ref=De octimestri partu_10
-17	ταύτῃ	οὗτος	p	p-s---fd-	_	24	ADV	_	t_213|ref=De octimestri partu_10
-18	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_214|ref=De octimestri partu_10
-19	παιδίον	παιδίον	n	n-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_215|ref=De octimestri partu_10
-20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_216|ref=De octimestri partu_10
-21	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_217|ref=De octimestri partu_10
-22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_218|ref=De octimestri partu_10
-23	περιαγωγὴν	περιαγωγή	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_219|ref=De octimestri partu_10
-24	ποιήσηται	ποιέω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_220|ref=De octimestri partu_10
-25	,	,	u	u--------	_	6	AuxX	_	t_221|ref=De octimestri partu_10
-26	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_222|ref=De octimestri partu_10
-27	ὀμφαλοῦ	ὀμφαλός	n	n-s---mg-	Case=g|Gender=m|Number=s	28	SBJ	_	t_223|ref=De octimestri partu_10
-28	στρεφομένου	στρέφω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	43	ADV	_	t_224|ref=De octimestri partu_10
-29	ἢ	ἤ1	c	c--------	_	33	AuxY	_	t_225|ref=De octimestri partu_10
-30	περὶ	περί	r	r--------	_	33	AuxP	_	t_226|ref=De octimestri partu_10
-31	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_227|ref=De octimestri partu_10
-32	αὐχένα	αὐχήν	n	n-s---ma-	Case=a|Gender=m|Number=s	30	ADV	_	t_228|ref=De octimestri partu_10
-33	ἢ	ἤ1	c	c--------	_	28	COORD	_	t_229|ref=De octimestri partu_10
-34	καὶ	καί	d	d--------	_	37	AuxZ	_	t_230|ref=De octimestri partu_10
-35	κατὰ	κατά	r	r--------	_	33	AuxP	_	t_231|ref=De octimestri partu_10
-36	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	37	ATR	_	t_232|ref=De octimestri partu_10
-37	ὦμον	ὦμος	n	n-s---ma-	Case=a|Gender=m|Number=s	35	ADV	_	t_233|ref=De octimestri partu_10
-38	,	,	u	u--------	_	6	AuxX	_	t_234|ref=De octimestri partu_10
-39	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	40	ATR	_	t_235|ref=De octimestri partu_10
-40	περιβολὴν	περιβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_236|ref=De octimestri partu_10
-41	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	42	ATR	_	t_237|ref=De octimestri partu_10
-42	ὀμφαλοῦ	ὀμφαλός	n	n-s---mg-	Case=g|Gender=m|Number=s	40	ATR	_	t_238|ref=De octimestri partu_10
-43	ἀντιτείνειν	ἀντιτείνω	v	v--pna---	Mood=n|Tense=p|Voice=a	46	OBJ	_	t_239|ref=De octimestri partu_10
-44	,	,	u	u--------	_	6	AuxX	_	t_240|ref=De octimestri partu_10
-45	τουτέου	οὗτος	a	a-s---mg-	Case=g|Gender=n|Number=s	47	SBJ	_	t_241|ref=De octimestri partu_10
-46	δὲ	δέ	d	d--------	_	6	COORD	_	t_242|ref=De octimestri partu_10
-47	γενομένου	γίγνομαι	v	v-sapmmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	52	ADV	_	t_243|ref=De octimestri partu_10
-48	καὶ	καί	c	c--------	_	50	AuxZ	_	t_244|ref=De octimestri partu_10
-49	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	50	ATR	_	t_245|ref=De octimestri partu_10
-50	μητέρα	μήτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	52	SBJ	_	t_246|ref=De octimestri partu_10
-51	ἀνάγκη	ἀνάγκη	v	v--ana---	Case=n|Gender=f|Number=s	64	PNOM	_	t_247|ref=De octimestri partu_10
-52	πονῆσαι	πονέω	v	v--ana---	Mood=n|Tense=a|Voice=a	64	SBJ	_	t_248|ref=De octimestri partu_10
-53	μᾶλλον	μᾶλλον	d	d--------	_	52	ADV	_	t_249|ref=De octimestri partu_10
-54	καὶ	καί	d	d--------	_	56	AuxZ	_	t_250|ref=De octimestri partu_10
-55	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	56	ATR	_	t_251|ref=De octimestri partu_10
-56	παιδίον	παιδίον	n	n-s---na-	Case=a|Gender=n|Number=s	59	SBJ	_	t_252|ref=De octimestri partu_10
-57	ἢ	ἤ1	c	c--------	_	59	AuxY	_	t_253|ref=De octimestri partu_10
-58	ἀπολέσθαι	ἀπόλλυμι	v	v--anm---	Mood=n|Tense=a|Voice=m	59	SBJ	_	t_254|ref=De octimestri partu_10
-59	ἢ	ἤ1	c	c--------	_	52	COORD	_	t_255|ref=De octimestri partu_10
-60	χαλεπώτερον	χαλεπός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	61	ADV	_	t_256|ref=De octimestri partu_10
-61	ἐξελθεῖν	ἐξέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	59	OBJ	_	t_257|ref=De octimestri partu_10
-62	[0]	[0]	-	---------	_	46	PRED	_	e_3|ref=De octimestri partu_10
-63	[1]	[1]	-	---------	_	46	PRED	_	e_4|ref=De octimestri partu_10
-64	[2]	[2]	-	---------	_	46	PRED	_	e_5|ref=De octimestri partu_10
-65	.	.	u	u--------	_	6	AuxK	_	t_258|ref=De octimestri partu_10
+1	ἢν	ἐάν	c	c--------	_	46	AuxC	_	t_197|t_242|ref=oct.part._10
+2	γὰρ	γάρ	d	d--------	_	24	AuxY	_	t_198|t_220|ref=oct.part._10
+3	κατὰ	κατά	r	r--------	_	62	AuxP	_	t_199|e_3|ref=oct.part._10
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_200|t_201|ref=oct.part._10
+5	μόριον	μόριον	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_201|t_199|ref=oct.part._10
+6	,	,	u	u--------	_	0	AuxX	_	t_202|0|ref=oct.part._10
+7	ὁποτέρωθεν	ὁπότερος	d	d--------	_	9	ADV	_	t_203|t_205|ref=oct.part._10
+8	ἂν	ἄν	d	d--------	_	9	AuxY	_	t_204|t_205|ref=oct.part._10
+9	τύχῃ	τύχη	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ATR	_	t_205|t_201|ref=oct.part._10
+10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_206|t_207|ref=oct.part._10
+11	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_207|t_205|ref=oct.part._10
+12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_208|t_209|ref=oct.part._10
+13	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	15	OBJ	_	t_209|t_211|ref=oct.part._10
+14	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	15	ADV	_	t_210|t_211|ref=oct.part._10
+15	παρατεταμένος	παράκειμαι	v	v-srpemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	9	ADV	_	t_211|t_205|ref=oct.part._10
+16	,	,	u	u--------	_	6	AuxX	_	t_212|t_202|ref=oct.part._10
+17	ταύτῃ	οὗτος	p	p-s---fd-	_	24	ADV	_	t_213|t_220|ref=oct.part._10
+18	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_214|t_215|ref=oct.part._10
+19	παιδίον	παιδίον	n	n-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_215|t_220|ref=oct.part._10
+20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_216|t_217|ref=oct.part._10
+21	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_217|t_219|ref=oct.part._10
+22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_218|t_219|ref=oct.part._10
+23	περιαγωγὴν	περιαγωγή	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_219|t_220|ref=oct.part._10
+24	ποιήσηται	ποιέω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_220|t_197|ref=oct.part._10
+25	,	,	u	u--------	_	6	AuxX	_	t_221|t_202|ref=oct.part._10
+26	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_222|t_223|ref=oct.part._10
+27	ὀμφαλοῦ	ὀμφαλός	n	n-s---mg-	Case=g|Gender=m|Number=s	28	SBJ	_	t_223|t_224|ref=oct.part._10
+28	στρεφομένου	στρέφω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	43	ADV	_	t_224|t_239|ref=oct.part._10
+29	ἢ	ἤ1	c	c--------	_	33	AuxY	_	t_225|t_229|ref=oct.part._10
+30	περὶ	περί	r	r--------	_	33	AuxP	_	t_226|t_229|ref=oct.part._10
+31	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_227|t_228|ref=oct.part._10
+32	αὐχένα	αὐχήν	n	n-s---ma-	Case=a|Gender=m|Number=s	30	ADV	_	t_228|t_226|ref=oct.part._10
+33	ἢ	ἤ1	c	c--------	_	28	COORD	_	t_229|t_224|ref=oct.part._10
+34	καὶ	καί	d	d--------	_	37	AuxZ	_	t_230|t_233|ref=oct.part._10
+35	κατὰ	κατά	r	r--------	_	33	AuxP	_	t_231|t_229|ref=oct.part._10
+36	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	37	ATR	_	t_232|t_233|ref=oct.part._10
+37	ὦμον	ὦμος	n	n-s---ma-	Case=a|Gender=m|Number=s	35	ADV	_	t_233|t_231|ref=oct.part._10
+38	,	,	u	u--------	_	6	AuxX	_	t_234|t_202|ref=oct.part._10
+39	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	40	ATR	_	t_235|t_236|ref=oct.part._10
+40	περιβολὴν	περιβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_236|t_239|ref=oct.part._10
+41	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	42	ATR	_	t_237|t_238|ref=oct.part._10
+42	ὀμφαλοῦ	ὀμφαλός	n	n-s---mg-	Case=g|Gender=m|Number=s	40	ATR	_	t_238|t_236|ref=oct.part._10
+43	ἀντιτείνειν	ἀντιτείνω	v	v--pna---	Mood=n|Tense=p|Voice=a	46	OBJ	_	t_239|t_242|ref=oct.part._10
+44	,	,	u	u--------	_	6	AuxX	_	t_240|t_202|ref=oct.part._10
+45	τουτέου	οὗτος	a	a-s---mg-	Case=g|Gender=n|Number=s	47	SBJ	_	t_241|t_243|ref=oct.part._10
+46	δὲ	δέ	d	d--------	_	6	COORD	_	t_242|t_202|ref=oct.part._10
+47	γενομένου	γίγνομαι	v	v-sapmmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	52	ADV	_	t_243|t_248|ref=oct.part._10
+48	καὶ	καί	c	c--------	_	50	AuxZ	_	t_244|t_246|ref=oct.part._10
+49	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	50	ATR	_	t_245|t_246|ref=oct.part._10
+50	μητέρα	μήτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	52	SBJ	_	t_246|t_248|ref=oct.part._10
+51	ἀνάγκη	ἀνάγκη	v	v--ana---	Case=n|Gender=f|Number=s	64	PNOM	_	t_247|e_5|ref=oct.part._10
+52	πονῆσαι	πονέω	v	v--ana---	Mood=n|Tense=a|Voice=a	64	SBJ	_	t_248|e_5|ref=oct.part._10
+53	μᾶλλον	μᾶλλον	d	d--------	_	52	ADV	_	t_249|t_248|ref=oct.part._10
+54	καὶ	καί	d	d--------	_	56	AuxZ	_	t_250|t_252|ref=oct.part._10
+55	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	56	ATR	_	t_251|t_252|ref=oct.part._10
+56	παιδίον	παιδίον	n	n-s---na-	Case=a|Gender=n|Number=s	59	SBJ	_	t_252|t_255|ref=oct.part._10
+57	ἢ	ἤ1	c	c--------	_	59	AuxY	_	t_253|t_255|ref=oct.part._10
+58	ἀπολέσθαι	ἀπόλλυμι	v	v--anm---	Mood=n|Tense=a|Voice=m	59	SBJ	_	t_254|t_255|ref=oct.part._10
+59	ἢ	ἤ1	c	c--------	_	52	COORD	_	t_255|t_248|ref=oct.part._10
+60	χαλεπώτερον	χαλεπός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	61	ADV	_	t_256|t_257|ref=oct.part._10
+61	ἐξελθεῖν	ἐξέρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	59	OBJ	_	t_257|t_255|ref=oct.part._10
+62	[0]	[0]	-	---------	_	46	PRED	_	e_3|t_242|ref=oct.part._10
+63	[1]	[1]	-	---------	_	46	PRED	_	e_4|t_242|ref=oct.part._10
+64	[2]	[2]	-	---------	_	46	PRED	_	e_5|t_242|ref=oct.part._10
+65	.	.	u	u--------	_	6	AuxK	_	t_258|t_202|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = Ὥστε ἤδη καὶ πολλὰ ἔνδον τὴν ἀρχὴν τῆς νούσου τῶν παιδίων ἦλθεν ἔχοντα , ἐξ ἧς τὰ μὲν ἀπώλετο , τὰ δὲ νοσήσαντα περιεγένετο .
 # sent_id = 19
-1	Ὥστε	ὥστε	d	d--------	_	12	AuxY	_	t_259|ref=De octimestri partu_10
-2	ἤδη	ἤδη	d	d--------	_	12	ADV	_	t_260|ref=De octimestri partu_10
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_261|ref=De octimestri partu_10
-4	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_262|ref=De octimestri partu_10
-5	ἔνδον	ἔνδον	d	d--------	_	13	ADV	_	t_263|ref=De octimestri partu_10
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_264|ref=De octimestri partu_10
-7	ἀρχὴν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_265|ref=De octimestri partu_10
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_266|ref=De octimestri partu_10
-9	νούσου	νοῦσος	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_267|ref=De octimestri partu_10
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_268|ref=De octimestri partu_10
-11	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_269|ref=De octimestri partu_10
-12	ἦλθεν	ἔρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_270|ref=De octimestri partu_10
-13	ἔχοντα	ἔχω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_271|ref=De octimestri partu_10
-14	,	,	u	u--------	_	12	AuxX	_	t_272|ref=De octimestri partu_10
-15	ἐξ	ἐκ	r	r--------	_	19	AuxP	_	t_273|ref=De octimestri partu_10
-16	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ADV	_	t_274|ref=De octimestri partu_10
-17	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_275|ref=De octimestri partu_10
-18	μὲν	μέν	d	d--------	_	22	AuxY	_	t_276|ref=De octimestri partu_10
-19	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	22	ATR	_	t_277|ref=De octimestri partu_10
-20	,	,	u	u--------	_	12	AuxX	_	t_278|ref=De octimestri partu_10
-21	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_279|ref=De octimestri partu_10
-22	δὲ	δέ	c	c--------	_	4	COORD	_	t_280|ref=De octimestri partu_10
-23	νοσήσαντα	νοσέω	v	v-papann-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=a	24	ADV	_	t_281|ref=De octimestri partu_10
-24	περιεγένετο	περιγίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	22	ATR	_	t_282|ref=De octimestri partu_10
-25	.	.	u	u--------	_	12	AuxK	_	t_283|ref=De octimestri partu_10
+1	Ὥστε	ὥστε	d	d--------	_	12	AuxY	_	t_259|t_270|ref=oct.part._10
+2	ἤδη	ἤδη	d	d--------	_	12	ADV	_	t_260|t_270|ref=oct.part._10
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_261|t_262|ref=oct.part._10
+4	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_262|t_270|ref=oct.part._10
+5	ἔνδον	ἔνδον	d	d--------	_	13	ADV	_	t_263|t_271|ref=oct.part._10
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_264|t_265|ref=oct.part._10
+7	ἀρχὴν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_265|t_271|ref=oct.part._10
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_266|t_267|ref=oct.part._10
+9	νούσου	νοῦσος	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_267|t_265|ref=oct.part._10
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_268|t_269|ref=oct.part._10
+11	παιδίων	παιδίον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_269|t_265|ref=oct.part._10
+12	ἦλθεν	ἔρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_270|0|ref=oct.part._10
+13	ἔχοντα	ἔχω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_271|t_270|ref=oct.part._10
+14	,	,	u	u--------	_	12	AuxX	_	t_272|t_270|ref=oct.part._10
+15	ἐξ	ἐκ	r	r--------	_	19	AuxP	_	t_273|t_277|ref=oct.part._10
+16	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ADV	_	t_274|t_273|ref=oct.part._10
+17	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_275|t_277|ref=oct.part._10
+18	μὲν	μέν	d	d--------	_	22	AuxY	_	t_276|t_280|ref=oct.part._10
+19	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	22	ATR	_	t_277|t_280|ref=oct.part._10
+20	,	,	u	u--------	_	12	AuxX	_	t_278|t_270|ref=oct.part._10
+21	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_279|t_282|ref=oct.part._10
+22	δὲ	δέ	c	c--------	_	4	COORD	_	t_280|t_262|ref=oct.part._10
+23	νοσήσαντα	νοσέω	v	v-papann-	Case=n|Gender=n|Mood=p|Number=p|Tense=a|Voice=a	24	ADV	_	t_281|t_282|ref=oct.part._10
+24	περιεγένετο	περιγίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	22	ATR	_	t_282|t_280|ref=oct.part._10
+25	.	.	u	u--------	_	12	AuxK	_	t_283|t_270|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10
+# source = Hippocrates, oct.part. 10
 # text = 11 .
 # sent_id = 20
-1	11	11	x	x--------	_	0	AuxG	_	t_284|ref=De octimestri partu_10
-2	.	.	u	u--------	_	1	AuxK	_	t_285|ref=De octimestri partu_10
+1	11	11	x	x--------	_	0	AuxG	_	t_284|0|ref=oct.part._10
+2	.	.	u	u--------	_	1	AuxK	_	t_285|t_284|ref=oct.part._10
 
-# source = Hippocrates, De octimestri partu 10-11
+# source = Hippocrates, oct.part. 10-11
 # text = Ὁκόσα δʼ ἂν εὐπορήσῃ καὶ ἀσφαλέως ἐς τ οὐμφανὲς ἐξίῃ , ἀνεθέντα ἐξαίφνης ἐκ τῆς ἀνάγκης τῆς ἐν τῇ γαστρὶ , παχύτερα καὶ μέζω παραυτίκα ἢ κατὰ λόγον ἐγένετο , οὐκ αὐξήματος , ἀλλʼ οἰδήματος γενομένου , ἐξ ὧν δὴ πολλὰ ἀπώλετο ·
 # sent_id = 21
-1	Ὁκόσα	ὁπόσος	n	n-s---fn-	Case=n|Gender=f|Number=s	29	SBJ	_	t_286|ref=De octimestri partu_10
-2	δʼ	δέ	d	d--------	_	29	AuxY	_	t_287|ref=De octimestri partu_10
-3	ἂν	ἄν	c	c--------	_	29	AuxC	_	t_288|ref=De octimestri partu_10
-4	εὐπορήσῃ	εὐπορέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_289|ref=De octimestri partu_11
-5	καὶ	καί	c	c--------	_	3	COORD	_	t_290|ref=De octimestri partu_11
-6	ἀσφαλέως	ἀσφαλής	d	d--------	_	10	ADV	_	t_291|ref=De octimestri partu_11
-7	ἐς	εἰς	r	r--------	_	10	AuxP	_	t_292|ref=De octimestri partu_11
-8	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_293|ref=De octimestri partu_11
-9	οὐμφανὲς	οὐμφανής	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_294|ref=De octimestri partu_11
-10	ἐξίῃ	ἐξίημι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_295|ref=De octimestri partu_11
-11	,	,	u	u--------	_	29	AuxX	_	t_296|ref=De octimestri partu_11
-12	ἀνεθέντα	ἀνίημι	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	29	ADV	_	t_297|ref=De octimestri partu_11
-13	ἐξαίφνης	ἐξαίφνης	d	d--------	_	12	ADV	_	t_298|ref=De octimestri partu_11
-14	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_299|ref=De octimestri partu_11
-15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_300|ref=De octimestri partu_11
-16	ἀνάγκης	ἀνάγκη	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_301|ref=De octimestri partu_11
-17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_302|ref=De octimestri partu_11
-18	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_303|ref=De octimestri partu_11
-19	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	20	ATR	_	t_304|ref=De octimestri partu_11
-20	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_305|ref=De octimestri partu_11
-21	,	,	u	u--------	_	29	AuxX	_	t_306|ref=De octimestri partu_11
-22	παχύτερα	παχύς	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	23	PNOM	_	t_307|ref=De octimestri partu_11
-23	καὶ	καί	c	c--------	_	29	COORD	_	t_308|ref=De octimestri partu_11
-24	μέζω	μέγας	a	a-d---fn-	Case=n|Degree=c|Gender=n|Number=p	23	PNOM	_	t_309|ref=De octimestri partu_11
-25	παραυτίκα	παραυτίκα	d	d--------	_	29	ADV	_	t_310|ref=De octimestri partu_11
-26	ἢ	ἤ1	c	c--------	_	23	AuxC	_	t_311|ref=De octimestri partu_11
-27	κατὰ	κατά	r	r--------	_	23	AuxP	_	t_312|ref=De octimestri partu_11
-28	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	27	ADV	_	t_313|ref=De octimestri partu_11
-29	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_314|ref=De octimestri partu_11
-30	,	,	u	u--------	_	29	AuxX	_	t_315|ref=De octimestri partu_11
-31	οὐκ	οὐ	d	d--------	_	32	AuxZ	_	t_316|ref=De octimestri partu_11
-32	αὐξήματος	αὐξάνωμα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	PNOM	_	t_317|ref=De octimestri partu_11
-33	,	,	u	u--------	_	29	AuxX	_	t_318|ref=De octimestri partu_11
-34	ἀλλʼ	ἀλλά	c	c--------	_	36	COORD	_	t_319|ref=De octimestri partu_11
-35	οἰδήματος	οἴδημα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	PNOM	_	t_320|ref=De octimestri partu_11
-36	γενομένου	γίγνομαι	v	v-sapmng-	Case=g|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_321|ref=De octimestri partu_11
-37	,	,	u	u--------	_	29	AuxX	_	t_322|ref=De octimestri partu_11
-38	ἐξ	ἐκ	r	r--------	_	42	AuxP	_	t_323|ref=De octimestri partu_11
-39	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	38	ADV	_	t_324|ref=De octimestri partu_11
-40	δὴ	δή	d	d--------	_	42	AuxY	_	t_325|ref=De octimestri partu_11
-41	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	42	SBJ	_	t_326|ref=De octimestri partu_11
-42	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	34	ATR	_	t_327|ref=De octimestri partu_11
-43	·	·	u	u--------	_	29	AuxK	_	t_328|ref=De octimestri partu_11
+1	Ὁκόσα	ὁπόσος	n	n-s---fn-	Case=n|Gender=f|Number=s	29	SBJ	_	t_286|t_314|ref=oct.part._10
+2	δʼ	δέ	d	d--------	_	29	AuxY	_	t_287|t_314|ref=oct.part._10
+3	ἂν	ἄν	c	c--------	_	29	AuxC	_	t_288|t_314|ref=oct.part._10
+4	εὐπορήσῃ	εὐπορέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_289|t_290|ref=oct.part._11
+5	καὶ	καί	c	c--------	_	3	COORD	_	t_290|t_288|ref=oct.part._11
+6	ἀσφαλέως	ἀσφαλής	d	d--------	_	10	ADV	_	t_291|t_295|ref=oct.part._11
+7	ἐς	εἰς	r	r--------	_	10	AuxP	_	t_292|t_295|ref=oct.part._11
+8	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_293|t_294|ref=oct.part._11
+9	οὐμφανὲς	οὐμφανής	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_294|t_292|ref=oct.part._11
+10	ἐξίῃ	ἐξίημι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_295|t_290|ref=oct.part._11
+11	,	,	u	u--------	_	29	AuxX	_	t_296|t_314|ref=oct.part._11
+12	ἀνεθέντα	ἀνίημι	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	29	ADV	_	t_297|t_314|ref=oct.part._11
+13	ἐξαίφνης	ἐξαίφνης	d	d--------	_	12	ADV	_	t_298|t_297|ref=oct.part._11
+14	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_299|t_297|ref=oct.part._11
+15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_300|t_301|ref=oct.part._11
+16	ἀνάγκης	ἀνάγκη	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_301|t_299|ref=oct.part._11
+17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_302|t_301|ref=oct.part._11
+18	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_303|t_301|ref=oct.part._11
+19	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	20	ATR	_	t_304|t_305|ref=oct.part._11
+20	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_305|t_303|ref=oct.part._11
+21	,	,	u	u--------	_	29	AuxX	_	t_306|t_314|ref=oct.part._11
+22	παχύτερα	παχύς	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	23	PNOM	_	t_307|t_308|ref=oct.part._11
+23	καὶ	καί	c	c--------	_	29	COORD	_	t_308|t_314|ref=oct.part._11
+24	μέζω	μέγας	a	a-d---fn-	Case=n|Degree=c|Gender=n|Number=p	23	PNOM	_	t_309|t_308|ref=oct.part._11
+25	παραυτίκα	παραυτίκα	d	d--------	_	29	ADV	_	t_310|t_314|ref=oct.part._11
+26	ἢ	ἤ1	c	c--------	_	23	AuxC	_	t_311|t_308|ref=oct.part._11
+27	κατὰ	κατά	r	r--------	_	23	AuxP	_	t_312|t_308|ref=oct.part._11
+28	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	27	ADV	_	t_313|t_312|ref=oct.part._11
+29	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_314|0|ref=oct.part._11
+30	,	,	u	u--------	_	29	AuxX	_	t_315|t_314|ref=oct.part._11
+31	οὐκ	οὐ	d	d--------	_	32	AuxZ	_	t_316|t_317|ref=oct.part._11
+32	αὐξήματος	αὐξάνωμα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	PNOM	_	t_317|t_319|ref=oct.part._11
+33	,	,	u	u--------	_	29	AuxX	_	t_318|t_314|ref=oct.part._11
+34	ἀλλʼ	ἀλλά	c	c--------	_	36	COORD	_	t_319|t_321|ref=oct.part._11
+35	οἰδήματος	οἴδημα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	PNOM	_	t_320|t_319|ref=oct.part._11
+36	γενομένου	γίγνομαι	v	v-sapmng-	Case=g|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	29	ADV	_	t_321|t_314|ref=oct.part._11
+37	,	,	u	u--------	_	29	AuxX	_	t_322|t_314|ref=oct.part._11
+38	ἐξ	ἐκ	r	r--------	_	42	AuxP	_	t_323|t_327|ref=oct.part._11
+39	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	38	ADV	_	t_324|t_323|ref=oct.part._11
+40	δὴ	δή	d	d--------	_	42	AuxY	_	t_325|t_327|ref=oct.part._11
+41	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	42	SBJ	_	t_326|t_327|ref=oct.part._11
+42	ἀπώλετο	ἀπόλλυμι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	34	ATR	_	t_327|t_319|ref=oct.part._11
+43	·	·	u	u--------	_	29	AuxK	_	t_328|t_314|ref=oct.part._11
 
-# source = Hippocrates, De octimestri partu 11
+# source = Hippocrates, oct.part. 11
 # text = ἢν γὰρ μὴ συνίζῃ τὸ οἴδημα θᾶσσον , ἢ τριταῖον ἢ ὀλίγῳ πολυχρονιώτερον , νοῦσοι γίνονται ἀπ ’ αὐτέου .
 # sent_id = 22
-1	ἢν	ἐάν	c	c--------	_	16	AuxC	_	t_329|ref=De octimestri partu_11
-2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_330|ref=De octimestri partu_11
-3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_331|ref=De octimestri partu_11
-4	συνίζῃ	συνίημι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_332|ref=De octimestri partu_11
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_333|ref=De octimestri partu_11
-6	οἴδημα	οἴδημα	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_334|ref=De octimestri partu_11
-7	θᾶσσον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	11	ATR	_	t_335|ref=De octimestri partu_11
-8	,	,	u	u--------	_	16	AuxX	_	t_336|ref=De octimestri partu_11
-9	ἢ	ἤ1	c	c--------	_	11	AuxY	_	t_337|ref=De octimestri partu_11
-10	τριταῖον	τριταῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_338|ref=De octimestri partu_11
-11	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_339|ref=De octimestri partu_11
-12	ὀλίγῳ	ὀλίγος	a	a-s---nd-	Case=d|Gender=n|Number=s	13	ADV	_	t_340|ref=De octimestri partu_11
-13	πολυχρονιώτερον	πολυχρόνιος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	11	ATR	_	t_341|ref=De octimestri partu_11
-14	,	,	u	u--------	_	16	AuxX	_	t_342|ref=De octimestri partu_11
-15	νοῦσοι	νοῦσος	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_343|ref=De octimestri partu_11
-16	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_344|ref=De octimestri partu_11
-17	ἀπ	ἀπό	r	r--------	_	16	AuxP	_	t_345|ref=De octimestri partu_11
-18	’	’	r	r--------	_	16	AuxP	_	t_346|ref=De octimestri partu_11
-19	αὐτέου	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	18	ADV	_	t_347|ref=De octimestri partu_11
-20	.	.	u	u--------	_	16	AuxK	_	t_348|ref=De octimestri partu_11
+1	ἢν	ἐάν	c	c--------	_	16	AuxC	_	t_329|t_344|ref=oct.part._11
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_330|t_344|ref=oct.part._11
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_331|t_332|ref=oct.part._11
+4	συνίζῃ	συνίημι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_332|t_329|ref=oct.part._11
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_333|t_334|ref=oct.part._11
+6	οἴδημα	οἴδημα	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_334|t_332|ref=oct.part._11
+7	θᾶσσον	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	11	ATR	_	t_335|t_339|ref=oct.part._11
+8	,	,	u	u--------	_	16	AuxX	_	t_336|t_344|ref=oct.part._11
+9	ἢ	ἤ1	c	c--------	_	11	AuxY	_	t_337|t_339|ref=oct.part._11
+10	τριταῖον	τριταῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_338|t_339|ref=oct.part._11
+11	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_339|t_334|ref=oct.part._11
+12	ὀλίγῳ	ὀλίγος	a	a-s---nd-	Case=d|Gender=n|Number=s	13	ADV	_	t_340|t_341|ref=oct.part._11
+13	πολυχρονιώτερον	πολυχρόνιος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	11	ATR	_	t_341|t_339|ref=oct.part._11
+14	,	,	u	u--------	_	16	AuxX	_	t_342|t_344|ref=oct.part._11
+15	νοῦσοι	νοῦσος	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_343|t_344|ref=oct.part._11
+16	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_344|0|ref=oct.part._11
+17	ἀπ	ἀπό	r	r--------	_	16	AuxP	_	t_345|t_344|ref=oct.part._11
+18	’	’	r	r--------	_	16	AuxP	_	t_346|t_344|ref=oct.part._11
+19	αὐτέου	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	18	ADV	_	t_347|t_346|ref=oct.part._11
+20	.	.	u	u--------	_	16	AuxK	_	t_348|t_344|ref=oct.part._11
 
-# source = Hippocrates, De octimestri partu 11
+# source = Hippocrates, oct.part. 11
 # text = 12 .
 # sent_id = 23
-1	12	12	x	x--------	_	0	AuxG	_	t_349|ref=De octimestri partu_11
-2	.	.	u	u--------	_	1	AuxK	_	t_350|ref=De octimestri partu_11
+1	12	12	x	x--------	_	0	AuxG	_	t_349|0|ref=oct.part._11
+2	.	.	u	u--------	_	1	AuxK	_	t_350|t_349|ref=oct.part._11
 
-# source = Hippocrates, De octimestri partu 11-12
+# source = Hippocrates, oct.part. 11-12
 # text = Αἵ τε τροφαὶ καὶ αἱ ἀναπνοαὶ σφαλεραὶ μεταλλασσόμεναι [0] ·
 # sent_id = 24
-1	Αἵ	ὅς	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_351|ref=De octimestri partu_11
-2	τε	τε	d	d--------	_	4	AuxY	_	t_352|ref=De octimestri partu_11
-3	τροφαὶ	τροφή	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_353|ref=De octimestri partu_11
-4	καὶ	καί	c	c--------	_	9	COORD	_	t_354|ref=De octimestri partu_12
-5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_355|ref=De octimestri partu_12
-6	ἀναπνοαὶ	ἀναπνοή	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_356|ref=De octimestri partu_12
-7	σφαλεραὶ	σφαλερός	a	a-p---fn-	Case=n|Gender=f|Number=p	8	AtvV	_	t_357|ref=De octimestri partu_12
-8	μεταλλασσόμεναι	μεταλλάσσω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	9	PNOM	_	t_358|ref=De octimestri partu_12
-9	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=De octimestri partu_10
-10	·	·	u	u--------	_	9	AuxK	_	t_359|ref=De octimestri partu_12
+1	Αἵ	ὅς	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_351|t_353|ref=oct.part._11
+2	τε	τε	d	d--------	_	4	AuxY	_	t_352|t_354|ref=oct.part._11
+3	τροφαὶ	τροφή	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_353|t_354|ref=oct.part._11
+4	καὶ	καί	c	c--------	_	9	COORD	_	t_354|e_6|ref=oct.part._12
+5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_355|t_356|ref=oct.part._12
+6	ἀναπνοαὶ	ἀναπνοή	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_356|t_354|ref=oct.part._12
+7	σφαλεραὶ	σφαλερός	a	a-p---fn-	Case=n|Gender=f|Number=p	8	AtvV	_	t_357|t_358|ref=oct.part._12
+8	μεταλλασσόμεναι	μεταλλάσσω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	9	PNOM	_	t_358|e_6|ref=oct.part._12
+9	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=oct.part._10
+10	·	·	u	u--------	_	9	AuxK	_	t_359|e_6|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = ἤν τι γὰρ νοσηρὸν ἐσάγωνται , κατὰ τὸ στόμα καὶ κατὰ τὰς ῥῖνας ἐσάγονται ·
 # sent_id = 25
-1	ἤν	ἐάν	c	c--------	_	14	AuxC	_	t_360|ref=De octimestri partu_12
-2	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_361|ref=De octimestri partu_12
-3	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_362|ref=De octimestri partu_12
-4	νοσηρὸν	νοσηρός	a	a-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_363|ref=De octimestri partu_12
-5	ἐσάγωνται	εἰσάγω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_364|ref=De octimestri partu_12
-6	,	,	u	u--------	_	14	AuxX	_	t_365|ref=De octimestri partu_12
-7	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_366|ref=De octimestri partu_12
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_367|ref=De octimestri partu_12
-9	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_368|ref=De octimestri partu_12
-10	καὶ	καί	c	c--------	_	14	COORD	_	t_369|ref=De octimestri partu_12
-11	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_370|ref=De octimestri partu_12
-12	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_371|ref=De octimestri partu_12
-13	ῥῖνας	ῥίς	n	n-p---fa-	Case=a|Gender=f|Number=p	11	ADV	_	t_372|ref=De octimestri partu_12
-14	ἐσάγονται	εἰσάγω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_373|ref=De octimestri partu_12
-15	·	·	u	u--------	_	14	AuxK	_	t_374|ref=De octimestri partu_12
+1	ἤν	ἐάν	c	c--------	_	14	AuxC	_	t_360|t_373|ref=oct.part._12
+2	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_361|t_364|ref=oct.part._12
+3	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_362|t_373|ref=oct.part._12
+4	νοσηρὸν	νοσηρός	a	a-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_363|t_361|ref=oct.part._12
+5	ἐσάγωνται	εἰσάγω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_364|t_360|ref=oct.part._12
+6	,	,	u	u--------	_	14	AuxX	_	t_365|t_373|ref=oct.part._12
+7	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_366|t_369|ref=oct.part._12
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_367|t_368|ref=oct.part._12
+9	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_368|t_366|ref=oct.part._12
+10	καὶ	καί	c	c--------	_	14	COORD	_	t_369|t_373|ref=oct.part._12
+11	κατὰ	κατά	r	r--------	_	10	AuxP	_	t_370|t_369|ref=oct.part._12
+12	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_371|t_372|ref=oct.part._12
+13	ῥῖνας	ῥίς	n	n-p---fa-	Case=a|Gender=f|Number=p	11	ADV	_	t_372|t_370|ref=oct.part._12
+14	ἐσάγονται	εἰσάγω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_373|0|ref=oct.part._12
+15	·	·	u	u--------	_	14	AuxK	_	t_374|t_373|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = καὶ ἀντὶ τοῦ τοσαῦτα εἶναι τὰ ἐσιόντα ὅσα ἐξαρκέει καὶ μὴ περιγίνεσθαι , πολλῷ πλέω εἰσέρχεται , ὥστε ἀναγκάζεσθαι ὑπὸ τοῦ πλήθεος τῶν ἐσιόντων καὶ ὑπὸ τῆς διαθέσιος ἧς διάκειται τὸ σῶμα τοῦ παιδίου ἤδη τὰ μὲν κατὰ τὸ στόμα τε καὶ τὰς ῥῖνας πάλιν ἐξιέναι , τὰ δὲ κατὰ τὸ ἔντερον καὶ τὴν κύστιν κάτω περαιοῦσθαι , πρόσθεν οὐδενὸς τουτέων οὕτω γενομένου .
 # sent_id = 26
-1	καὶ	καί	c	c--------	_	16	AuxY	_	t_375|ref=De octimestri partu_12
-2	ἀντὶ	ἀντί	r	r--------	_	16	AuxP	_	t_376|ref=De octimestri partu_12
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_377|ref=De octimestri partu_12
-4	τοσαῦτα	τοσοῦτος	a	a-p---na-	Case=a|Gender=n|Number=p	5	PNOM	_	t_378|ref=De octimestri partu_12
-5	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ADV	_	t_379|ref=De octimestri partu_12
-6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_380|ref=De octimestri partu_12
-7	ἐσιόντα	εἴσειμι	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	5	SBJ	_	t_381|ref=De octimestri partu_12
-8	ὅσα	ὅσος	p	p-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_382|ref=De octimestri partu_12
-9	ἐξαρκέει	ἐξαρκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	ATR	_	t_383|ref=De octimestri partu_12
-10	καὶ	καί	c	c--------	_	2	COORD	_	t_384|ref=De octimestri partu_12
-11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_385|ref=De octimestri partu_12
-12	περιγίνεσθαι	περιγίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	10	SBJ	_	t_386|ref=De octimestri partu_12
-13	,	,	u	u--------	_	16	AuxX	_	t_387|ref=De octimestri partu_12
-14	πολλῷ	πολύς	a	a-s---nd-	Case=d|Gender=n|Number=s	15	ADV	_	t_388|ref=De octimestri partu_12
-15	πλέω	πλείων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	16	SBJ	_	t_389|ref=De octimestri partu_12
-16	εἰσέρχεται	εἰσέρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_390|ref=De octimestri partu_12
-17	,	,	u	u--------	_	16	AuxX	_	t_391|ref=De octimestri partu_12
-18	ὥστε	ὥστε	c	c--------	_	15	AuxC	_	t_392|ref=De octimestri partu_12
-19	ἀναγκάζεσθαι	ἀναγκάζω	v	v--pne---	Mood=n|Tense=p|Voice=e	18	ADV	_	t_393|ref=De octimestri partu_12
-20	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_394|ref=De octimestri partu_12
-21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_395|ref=De octimestri partu_12
-22	πλήθεος	πλῆθος	n	n-s---ng-	Case=g|Gender=n|Number=s	20	OBJ	_	t_396|ref=De octimestri partu_12
-23	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	24	ATR	_	t_397|ref=De octimestri partu_12
-24	ἐσιόντων	εἴσειμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	22	ATR	_	t_398|ref=De octimestri partu_12
-25	καὶ	καί	c	c--------	_	19	COORD	_	t_399|ref=De octimestri partu_12
-26	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_400|ref=De octimestri partu_12
-27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_401|ref=De octimestri partu_12
-28	διαθέσιος	διαθέσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	26	OBJ	_	t_402|ref=De octimestri partu_12
-29	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	30	OBJ	_	t_403|ref=De octimestri partu_12
-30	διάκειται	διάκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	28	ATR	_	t_404|ref=De octimestri partu_12
-31	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	32	ATR	_	t_405|ref=De octimestri partu_12
-32	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	30	SBJ	_	t_406|ref=De octimestri partu_12
-33	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	34	ATR	_	t_407|ref=De octimestri partu_12
-34	παιδίου	παιδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	32	ATR	_	t_408|ref=De octimestri partu_12
-35	ἤδη	ἤδη	d	d--------	_	46	ADV	_	t_409|ref=De octimestri partu_12
-36	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	46	SBJ	_	t_410|ref=De octimestri partu_12
-37	μὲν	μέν	d	d--------	_	46	AuxY	_	t_411|ref=De octimestri partu_12
-38	κατὰ	κατά	r	r--------	_	46	AuxP	_	t_412|ref=De octimestri partu_12
-39	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	40	ATR	_	t_413|ref=De octimestri partu_12
-40	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	42	ADV	_	t_414|ref=De octimestri partu_12
-41	τε	τε	c	c--------	_	42	AuxY	_	t_415|ref=De octimestri partu_12
-42	καὶ	καί	c	c--------	_	38	COORD	_	t_416|ref=De octimestri partu_12
-43	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	44	ATR	_	t_417|ref=De octimestri partu_12
-44	ῥῖνας	ῥίς	n	n-p---fa-	Case=a|Gender=f|Number=p	42	ADV	_	t_418|ref=De octimestri partu_12
-45	πάλιν	πάλιν	d	d--------	_	46	ADV	_	t_419|ref=De octimestri partu_12
-46	ἐξιέναι	ἐξίημι	v	v--pna---	Mood=n|Tense=p|Voice=a	49	OBJ	_	t_420|ref=De octimestri partu_12
-47	,	,	u	u--------	_	16	AuxX	_	t_421|ref=De octimestri partu_12
-48	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	57	SBJ	_	t_422|ref=De octimestri partu_12
-49	δὲ	δέ	d	d--------	_	19	COORD	_	t_423|ref=De octimestri partu_12
-50	κατὰ	κατά	r	r--------	_	57	AuxP	_	t_424|ref=De octimestri partu_12
-51	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	52	ATR	_	t_425|ref=De octimestri partu_12
-52	ἔντερον	ἔντερον	a	a-s---na-	Case=a|Gender=n|Number=s	53	ADV	_	t_426|ref=De octimestri partu_12
-53	καὶ	καί	c	c--------	_	50	COORD	_	t_427|ref=De octimestri partu_12
-54	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	55	ATR	_	t_428|ref=De octimestri partu_12
-55	κύστιν	κύστις	n	n-s---fa-	Case=a|Gender=f|Number=s	53	ADV	_	t_429|ref=De octimestri partu_12
-56	κάτω	κάτω	d	d--------	_	57	ADV	_	t_430|ref=De octimestri partu_12
-57	περαιοῦσθαι	περαιόω	v	v--pne---	Mood=n|Tense=p|Voice=e	49	OBJ	_	t_431|ref=De octimestri partu_12
-58	,	,	u	u--------	_	16	AuxX	_	t_432|ref=De octimestri partu_12
-59	πρόσθεν	πρόσθεν	d	d--------	_	63	ADV	_	t_433|ref=De octimestri partu_12
-60	οὐδενὸς	οὐδείς	p	p-s---ng-	Case=g|Gender=n|Number=s	63	SBJ	_	t_434|ref=De octimestri partu_12
-61	τουτέων	οὗτος	a	a-p---ng-	Case=g|Gender=n|Number=p	60	ATR	_	t_435|ref=De octimestri partu_12
-62	οὕτω	οὕτως	d	d--------	_	63	ADV	_	t_436|ref=De octimestri partu_12
-63	γενομένου	γίγνομαι	v	v-sapmng-	Case=g|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	16	ADV	_	t_437|ref=De octimestri partu_12
-64	.	.	u	u--------	_	16	AuxK	_	t_438|ref=De octimestri partu_12
+1	καὶ	καί	c	c--------	_	16	AuxY	_	t_375|t_390|ref=oct.part._12
+2	ἀντὶ	ἀντί	r	r--------	_	16	AuxP	_	t_376|t_390|ref=oct.part._12
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_377|t_384|ref=oct.part._12
+4	τοσαῦτα	τοσοῦτος	a	a-p---na-	Case=a|Gender=n|Number=p	5	PNOM	_	t_378|t_379|ref=oct.part._12
+5	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ADV	_	t_379|t_376|ref=oct.part._12
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_380|t_381|ref=oct.part._12
+7	ἐσιόντα	εἴσειμι	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	5	SBJ	_	t_381|t_379|ref=oct.part._12
+8	ὅσα	ὅσος	p	p-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_382|t_383|ref=oct.part._12
+9	ἐξαρκέει	ἐξαρκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	ATR	_	t_383|t_381|ref=oct.part._12
+10	καὶ	καί	c	c--------	_	2	COORD	_	t_384|t_376|ref=oct.part._12
+11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_385|t_386|ref=oct.part._12
+12	περιγίνεσθαι	περιγίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	10	SBJ	_	t_386|t_384|ref=oct.part._12
+13	,	,	u	u--------	_	16	AuxX	_	t_387|t_390|ref=oct.part._12
+14	πολλῷ	πολύς	a	a-s---nd-	Case=d|Gender=n|Number=s	15	ADV	_	t_388|t_389|ref=oct.part._12
+15	πλέω	πλείων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	16	SBJ	_	t_389|t_390|ref=oct.part._12
+16	εἰσέρχεται	εἰσέρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_390|0|ref=oct.part._12
+17	,	,	u	u--------	_	16	AuxX	_	t_391|t_390|ref=oct.part._12
+18	ὥστε	ὥστε	c	c--------	_	15	AuxC	_	t_392|t_389|ref=oct.part._12
+19	ἀναγκάζεσθαι	ἀναγκάζω	v	v--pne---	Mood=n|Tense=p|Voice=e	18	ADV	_	t_393|t_392|ref=oct.part._12
+20	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_394|t_399|ref=oct.part._12
+21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_395|t_396|ref=oct.part._12
+22	πλήθεος	πλῆθος	n	n-s---ng-	Case=g|Gender=n|Number=s	20	OBJ	_	t_396|t_394|ref=oct.part._12
+23	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	24	ATR	_	t_397|t_398|ref=oct.part._12
+24	ἐσιόντων	εἴσειμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	22	ATR	_	t_398|t_396|ref=oct.part._12
+25	καὶ	καί	c	c--------	_	19	COORD	_	t_399|t_393|ref=oct.part._12
+26	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_400|t_399|ref=oct.part._12
+27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_401|t_402|ref=oct.part._12
+28	διαθέσιος	διαθέσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	26	OBJ	_	t_402|t_400|ref=oct.part._12
+29	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	30	OBJ	_	t_403|t_404|ref=oct.part._12
+30	διάκειται	διάκειμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	28	ATR	_	t_404|t_402|ref=oct.part._12
+31	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	32	ATR	_	t_405|t_406|ref=oct.part._12
+32	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	30	SBJ	_	t_406|t_404|ref=oct.part._12
+33	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	34	ATR	_	t_407|t_408|ref=oct.part._12
+34	παιδίου	παιδίον	n	n-s---ng-	Case=g|Gender=n|Number=s	32	ATR	_	t_408|t_406|ref=oct.part._12
+35	ἤδη	ἤδη	d	d--------	_	46	ADV	_	t_409|t_420|ref=oct.part._12
+36	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	46	SBJ	_	t_410|t_420|ref=oct.part._12
+37	μὲν	μέν	d	d--------	_	46	AuxY	_	t_411|t_420|ref=oct.part._12
+38	κατὰ	κατά	r	r--------	_	46	AuxP	_	t_412|t_420|ref=oct.part._12
+39	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	40	ATR	_	t_413|t_414|ref=oct.part._12
+40	στόμα	στόμα	n	n-s---na-	Case=a|Gender=n|Number=s	42	ADV	_	t_414|t_416|ref=oct.part._12
+41	τε	τε	c	c--------	_	42	AuxY	_	t_415|t_416|ref=oct.part._12
+42	καὶ	καί	c	c--------	_	38	COORD	_	t_416|t_412|ref=oct.part._12
+43	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	44	ATR	_	t_417|t_418|ref=oct.part._12
+44	ῥῖνας	ῥίς	n	n-p---fa-	Case=a|Gender=f|Number=p	42	ADV	_	t_418|t_416|ref=oct.part._12
+45	πάλιν	πάλιν	d	d--------	_	46	ADV	_	t_419|t_420|ref=oct.part._12
+46	ἐξιέναι	ἐξίημι	v	v--pna---	Mood=n|Tense=p|Voice=a	49	OBJ	_	t_420|t_423|ref=oct.part._12
+47	,	,	u	u--------	_	16	AuxX	_	t_421|t_390|ref=oct.part._12
+48	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	57	SBJ	_	t_422|t_431|ref=oct.part._12
+49	δὲ	δέ	d	d--------	_	19	COORD	_	t_423|t_393|ref=oct.part._12
+50	κατὰ	κατά	r	r--------	_	57	AuxP	_	t_424|t_431|ref=oct.part._12
+51	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	52	ATR	_	t_425|t_426|ref=oct.part._12
+52	ἔντερον	ἔντερον	a	a-s---na-	Case=a|Gender=n|Number=s	53	ADV	_	t_426|t_427|ref=oct.part._12
+53	καὶ	καί	c	c--------	_	50	COORD	_	t_427|t_424|ref=oct.part._12
+54	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	55	ATR	_	t_428|t_429|ref=oct.part._12
+55	κύστιν	κύστις	n	n-s---fa-	Case=a|Gender=f|Number=s	53	ADV	_	t_429|t_427|ref=oct.part._12
+56	κάτω	κάτω	d	d--------	_	57	ADV	_	t_430|t_431|ref=oct.part._12
+57	περαιοῦσθαι	περαιόω	v	v--pne---	Mood=n|Tense=p|Voice=e	49	OBJ	_	t_431|t_423|ref=oct.part._12
+58	,	,	u	u--------	_	16	AuxX	_	t_432|t_390|ref=oct.part._12
+59	πρόσθεν	πρόσθεν	d	d--------	_	63	ADV	_	t_433|t_437|ref=oct.part._12
+60	οὐδενὸς	οὐδείς	p	p-s---ng-	Case=g|Gender=n|Number=s	63	SBJ	_	t_434|t_437|ref=oct.part._12
+61	τουτέων	οὗτος	a	a-p---ng-	Case=g|Gender=n|Number=p	60	ATR	_	t_435|t_434|ref=oct.part._12
+62	οὕτω	οὕτως	d	d--------	_	63	ADV	_	t_436|t_437|ref=oct.part._12
+63	γενομένου	γίγνομαι	v	v-sapmng-	Case=g|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	16	ADV	_	t_437|t_390|ref=oct.part._12
+64	.	.	u	u--------	_	16	AuxK	_	t_438|t_390|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = Καὶ ἀντὶ πνευμάτων τε καὶ χυμῶν οὕτω συγγενέων , ὅκως ἀεὶ ἀνάγκη ἐν τῇσι μήτρῃσι γίνεσθαι συνηθείην τε ἔχοντα καὶ εὐμενείην , πᾶσι ξένοισι χρῆται ὠμοτέροισι καὶ ξηροτέροισι καὶ ἧσσον ἐξηνθρωπισμένοισιν , ἐξ ὧν ἀνάγκη πόνους γίνεσθαι πολλοὺς , πολλοὺς δὲ καὶ θανάτους [0] [1] ·
 # sent_id = 27
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_439|ref=De octimestri partu_12
-2	ἀντὶ	ἀντί	r	r--------	_	25	AuxP	_	t_440|ref=De octimestri partu_12
-3	πνευμάτων	πνεῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_441|ref=De octimestri partu_12
-4	τε	τε	c	c--------	_	5	AuxY	_	t_442|ref=De octimestri partu_12
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_443|ref=De octimestri partu_12
-6	χυμῶν	χυμός	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_444|ref=De octimestri partu_12
-7	οὕτω	οὕτως	d	d--------	_	25	ADV	_	t_445|ref=De octimestri partu_12
-8	συγγενέων	συγγενής	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_446|ref=De octimestri partu_12
-9	,	,	u	u--------	_	25	AuxX	_	t_447|ref=De octimestri partu_12
-10	ὅκως	ὅπως	c	c--------	_	25	AuxC	_	t_448|ref=De octimestri partu_12
-11	ἀεὶ	ἀεί	d	d--------	_	44	ADV	_	t_449|ref=De octimestri partu_12
-12	ἀνάγκη	ἀνάγκη	n	n-s---fn-	Case=n|Gender=f|Number=s	44	PNOM	_	t_450|ref=De octimestri partu_12
-13	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_451|ref=De octimestri partu_12
-14	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_452|ref=De octimestri partu_12
-15	μήτρῃσι	μήτηρ	n	n-p---fd-	Case=d|Gender=f|Number=p	13	ADV	_	t_453|ref=De octimestri partu_12
-16	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	44	SBJ	_	t_454|ref=De octimestri partu_12
-17	συνηθείην	συνήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_455|ref=De octimestri partu_12
-18	τε	τε	c	c--------	_	20	AuxY	_	t_456|ref=De octimestri partu_12
-19	ἔχοντα	ἔχω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_457|ref=De octimestri partu_12
-20	καὶ	καί	c	c--------	_	16	COORD	_	t_458|ref=De octimestri partu_12
-21	εὐμενείην	εὐμενέω	n	n-s---fa-	Case=a|Gender=f|Number=s	20	SBJ	_	t_459|ref=De octimestri partu_12
-22	,	,	u	u--------	_	25	AuxX	_	t_460|ref=De octimestri partu_12
-23	πᾶσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	24	ATR	_	t_461|ref=De octimestri partu_12
-24	ξένοισι	ξένος	a	a-p---md-	Case=d|Gender=m|Number=p	25	OBJ	_	t_462|ref=De octimestri partu_12
-25	χρῆται	χράομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	PRED	_	t_463|ref=De octimestri partu_12
-26	ὠμοτέροισι	ὠμοτέρος	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	29	OCOMP	_	t_464|ref=De octimestri partu_12
-27	καὶ	καί	c	c--------	_	29	AuxY	_	t_465|ref=De octimestri partu_12
-28	ξηροτέροισι	ξηρός	a	a-p---mdc	Case=d|Degree=c|Gender=n|Number=p	29	OCOMP	_	t_466|ref=De octimestri partu_12
-29	καὶ	καί	c	c--------	_	25	COORD	_	t_467|ref=De octimestri partu_12
-30	ἧσσον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	31	ADV	_	t_468|ref=De octimestri partu_12
-31	ἐξηνθρωπισμένοισιν	ἐξανθρωπίζω	v	v-prpemd-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	29	ATR	_	t_469|ref=De octimestri partu_12
-32	,	,	u	u--------	_	45	AuxX	_	t_470|ref=De octimestri partu_12
-33	ἐξ	ἐκ	r	r--------	_	37	AuxP	_	t_471|ref=De octimestri partu_12
-34	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	33	ADV	_	t_472|ref=De octimestri partu_12
-35	ἀνάγκη	ἀνάγκη	n	n-s---fn-	Case=n|Gender=f|Number=s	45	PNOM	_	t_473|ref=De octimestri partu_12
-36	πόνους	πόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	37	SBJ	_	t_474|ref=De octimestri partu_12
-37	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	45	SBJ	_	t_475|ref=De octimestri partu_12
-38	πολλοὺς	πολύς	a	a-p---ma-	Case=a|Gender=m|Number=p	36	ATR	_	t_476|ref=De octimestri partu_12
-39	,	,	u	u--------	_	45	AuxX	_	t_477|ref=De octimestri partu_12
-40	πολλοὺς	πολύς	a	a-p---ma-	Case=a|Gender=m|Number=p	41	ATR	_	t_478|ref=De octimestri partu_12
-41	δὲ	δέ	c	c--------	_	37	COORD	_	t_479|ref=De octimestri partu_12
-42	καὶ	καί	d	d--------	_	41	COORD	_	t_480|ref=De octimestri partu_12
-43	θανάτους	θάνατος	n	n-p---ma-	Case=a|Gender=m|Number=p	41	ATR	_	t_481|ref=De octimestri partu_12
-44	[0]	[0]	-	---------	_	10	ADV	_	e_7|ref=De octimestri partu_10
-45	[1]	[1]	-	---------	_	24	ATR	_	e_8|ref=De octimestri partu_10
-46	·	·	u	u--------	_	1	AuxK	_	t_482|ref=De octimestri partu_12
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_439|0|ref=oct.part._12
+2	ἀντὶ	ἀντί	r	r--------	_	25	AuxP	_	t_440|t_463|ref=oct.part._12
+3	πνευμάτων	πνεῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_441|t_443|ref=oct.part._12
+4	τε	τε	c	c--------	_	5	AuxY	_	t_442|t_443|ref=oct.part._12
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_443|t_440|ref=oct.part._12
+6	χυμῶν	χυμός	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ADV	_	t_444|t_443|ref=oct.part._12
+7	οὕτω	οὕτως	d	d--------	_	25	ADV	_	t_445|t_463|ref=oct.part._12
+8	συγγενέων	συγγενής	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_446|t_444|ref=oct.part._12
+9	,	,	u	u--------	_	25	AuxX	_	t_447|t_463|ref=oct.part._12
+10	ὅκως	ὅπως	c	c--------	_	25	AuxC	_	t_448|t_463|ref=oct.part._12
+11	ἀεὶ	ἀεί	d	d--------	_	44	ADV	_	t_449|e_7|ref=oct.part._12
+12	ἀνάγκη	ἀνάγκη	n	n-s---fn-	Case=n|Gender=f|Number=s	44	PNOM	_	t_450|e_7|ref=oct.part._12
+13	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_451|t_454|ref=oct.part._12
+14	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	15	ATR	_	t_452|t_453|ref=oct.part._12
+15	μήτρῃσι	μήτηρ	n	n-p---fd-	Case=d|Gender=f|Number=p	13	ADV	_	t_453|t_451|ref=oct.part._12
+16	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	44	SBJ	_	t_454|e_7|ref=oct.part._12
+17	συνηθείην	συνήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_455|t_458|ref=oct.part._12
+18	τε	τε	c	c--------	_	20	AuxY	_	t_456|t_458|ref=oct.part._12
+19	ἔχοντα	ἔχω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_457|t_454|ref=oct.part._12
+20	καὶ	καί	c	c--------	_	16	COORD	_	t_458|t_454|ref=oct.part._12
+21	εὐμενείην	εὐμενέω	n	n-s---fa-	Case=a|Gender=f|Number=s	20	SBJ	_	t_459|t_458|ref=oct.part._12
+22	,	,	u	u--------	_	25	AuxX	_	t_460|t_463|ref=oct.part._12
+23	πᾶσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	24	ATR	_	t_461|t_462|ref=oct.part._12
+24	ξένοισι	ξένος	a	a-p---md-	Case=d|Gender=m|Number=p	25	OBJ	_	t_462|t_463|ref=oct.part._12
+25	χρῆται	χράομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	PRED	_	t_463|t_439|ref=oct.part._12
+26	ὠμοτέροισι	ὠμοτέρος	a	a-p---mdc	Case=d|Degree=c|Gender=m|Number=p	29	OCOMP	_	t_464|t_467|ref=oct.part._12
+27	καὶ	καί	c	c--------	_	29	AuxY	_	t_465|t_467|ref=oct.part._12
+28	ξηροτέροισι	ξηρός	a	a-p---mdc	Case=d|Degree=c|Gender=n|Number=p	29	OCOMP	_	t_466|t_467|ref=oct.part._12
+29	καὶ	καί	c	c--------	_	25	COORD	_	t_467|t_463|ref=oct.part._12
+30	ἧσσον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	31	ADV	_	t_468|t_469|ref=oct.part._12
+31	ἐξηνθρωπισμένοισιν	ἐξανθρωπίζω	v	v-prpemd-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	29	ATR	_	t_469|t_467|ref=oct.part._12
+32	,	,	u	u--------	_	45	AuxX	_	t_470|e_8|ref=oct.part._12
+33	ἐξ	ἐκ	r	r--------	_	37	AuxP	_	t_471|t_475|ref=oct.part._12
+34	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	33	ADV	_	t_472|t_471|ref=oct.part._12
+35	ἀνάγκη	ἀνάγκη	n	n-s---fn-	Case=n|Gender=f|Number=s	45	PNOM	_	t_473|e_8|ref=oct.part._12
+36	πόνους	πόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	37	SBJ	_	t_474|t_475|ref=oct.part._12
+37	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	45	SBJ	_	t_475|e_8|ref=oct.part._12
+38	πολλοὺς	πολύς	a	a-p---ma-	Case=a|Gender=m|Number=p	36	ATR	_	t_476|t_474|ref=oct.part._12
+39	,	,	u	u--------	_	45	AuxX	_	t_477|e_8|ref=oct.part._12
+40	πολλοὺς	πολύς	a	a-p---ma-	Case=a|Gender=m|Number=p	41	ATR	_	t_478|t_479|ref=oct.part._12
+41	δὲ	δέ	c	c--------	_	37	COORD	_	t_479|t_475|ref=oct.part._12
+42	καὶ	καί	d	d--------	_	41	COORD	_	t_480|t_479|ref=oct.part._12
+43	θανάτους	θάνατος	n	n-p---ma-	Case=a|Gender=m|Number=p	41	ATR	_	t_481|t_479|ref=oct.part._12
+44	[0]	[0]	-	---------	_	10	ADV	_	e_7|t_448|ref=oct.part._10
+45	[1]	[1]	-	---------	_	24	ATR	_	e_8|t_462|ref=oct.part._10
+46	·	·	u	u--------	_	1	AuxK	_	t_482|t_439|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = ἐπεὶ καὶ τοῖσιν ἀνδράσι πολλάκις αἱ μεταλλαγαὶ τῶν χωρίων τε καὶ τῶν διαιτημάτων τὰς νούσους ποιέουσιν .
 # sent_id = 28
-1	ἐπεὶ	ἐπεί	d	d--------	_	16	AuxY	_	t_483|ref=De octimestri partu_12
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_484|ref=De octimestri partu_12
-3	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_485|ref=De octimestri partu_12
-4	ἀνδράσι	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_486|ref=De octimestri partu_12
-5	πολλάκις	πολλάκις	d	d--------	_	16	ADV	_	t_487|ref=De octimestri partu_12
-6	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_488|ref=De octimestri partu_12
-7	μεταλλαγαὶ	μεταλλαγή	n	n-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_489|ref=De octimestri partu_12
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_490|ref=De octimestri partu_12
-9	χωρίων	χωρίον	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_491|ref=De octimestri partu_12
-10	τε	τε	c	c--------	_	11	AuxY	_	t_492|ref=De octimestri partu_12
-11	καὶ	καί	c	c--------	_	7	COORD	_	t_493|ref=De octimestri partu_12
-12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_494|ref=De octimestri partu_12
-13	διαιτημάτων	διαίτημα	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_495|ref=De octimestri partu_12
-14	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	15	ATR	_	t_496|ref=De octimestri partu_12
-15	νούσους	νοῦσος	a	a-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_497|ref=De octimestri partu_12
-16	ποιέουσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_498|ref=De octimestri partu_12
-17	.	.	u	u--------	_	16	AuxK	_	t_499|ref=De octimestri partu_12
+1	ἐπεὶ	ἐπεί	d	d--------	_	16	AuxY	_	t_483|t_498|ref=oct.part._12
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_484|t_486|ref=oct.part._12
+3	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_485|t_486|ref=oct.part._12
+4	ἀνδράσι	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_486|t_498|ref=oct.part._12
+5	πολλάκις	πολλάκις	d	d--------	_	16	ADV	_	t_487|t_498|ref=oct.part._12
+6	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_488|t_489|ref=oct.part._12
+7	μεταλλαγαὶ	μεταλλαγή	n	n-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_489|t_498|ref=oct.part._12
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_490|t_491|ref=oct.part._12
+9	χωρίων	χωρίον	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_491|t_493|ref=oct.part._12
+10	τε	τε	c	c--------	_	11	AuxY	_	t_492|t_493|ref=oct.part._12
+11	καὶ	καί	c	c--------	_	7	COORD	_	t_493|t_489|ref=oct.part._12
+12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_494|t_495|ref=oct.part._12
+13	διαιτημάτων	διαίτημα	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_495|t_493|ref=oct.part._12
+14	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	15	ATR	_	t_496|t_497|ref=oct.part._12
+15	νούσους	νοῦσος	a	a-p---fa-	Case=a|Gender=f|Number=p	16	OBJ	_	t_497|t_498|ref=oct.part._12
+16	ποιέουσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_498|0|ref=oct.part._12
+17	.	.	u	u--------	_	16	AuxK	_	t_499|t_498|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = Ὁ δʼ αὐτὸς λόγος ἐστὶ καὶ περὶ τῶν ἐσθημάτων ·
 # sent_id = 29
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_500|ref=De octimestri partu_12
-2	δʼ	δέ	d	d--------	_	5	AuxY	_	t_501|ref=De octimestri partu_12
-3	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_502|ref=De octimestri partu_12
-4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_503|ref=De octimestri partu_12
-5	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_504|ref=De octimestri partu_12
-6	καὶ	καί	d	d--------	_	9	AuxZ	_	t_505|ref=De octimestri partu_12
-7	περὶ	περί	r	r--------	_	5	AuxP	_	t_506|ref=De octimestri partu_12
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_507|ref=De octimestri partu_12
-9	ἐσθημάτων	ἔσθημα	n	n-p---ng-	Case=g|Gender=n|Number=p	7	PNOM	_	t_508|ref=De octimestri partu_12
-10	·	·	u	u--------	_	5	AuxK	_	t_509|ref=De octimestri partu_12
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_500|t_503|ref=oct.part._12
+2	δʼ	δέ	d	d--------	_	5	AuxY	_	t_501|t_504|ref=oct.part._12
+3	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_502|t_503|ref=oct.part._12
+4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_503|t_504|ref=oct.part._12
+5	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_504|0|ref=oct.part._12
+6	καὶ	καί	d	d--------	_	9	AuxZ	_	t_505|t_508|ref=oct.part._12
+7	περὶ	περί	r	r--------	_	5	AuxP	_	t_506|t_504|ref=oct.part._12
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_507|t_508|ref=oct.part._12
+9	ἐσθημάτων	ἔσθημα	n	n-p---ng-	Case=g|Gender=n|Number=p	7	PNOM	_	t_508|t_506|ref=oct.part._12
+10	·	·	u	u--------	_	5	AuxK	_	t_509|t_504|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = ἀντὶ γὰρ τοῦ σαρκὶ καὶ χυμοῖς ἠμφιέσθαι χλιεροῖς τε καὶ ὑγροῖς καὶ ξυγγενέσι , τοιαῦτα ἀμφιέννυται τὰ παιδία οἷά περ οἱ ἄνδρες [0] .
 # sent_id = 30
-1	ἀντὶ	ἀντί	r	r--------	_	16	AuxP	_	t_510|ref=De octimestri partu_12
-2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_511|ref=De octimestri partu_12
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_512|ref=De octimestri partu_12
-4	σαρκὶ	σάρξ	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_513|ref=De octimestri partu_12
-5	καὶ	καί	c	c--------	_	7	COORD	_	t_514|ref=De octimestri partu_12
-6	χυμοῖς	χυμός	n	n-p---md-	Case=d|Gender=m|Number=p	5	ADV	_	t_515|ref=De octimestri partu_12
-7	ἠμφιέσθαι	ἀμφιέννυμι	v	v--rne---	Mood=n|Tense=r|Voice=e	1	ADV	_	t_516|ref=De octimestri partu_12
-8	χλιεροῖς	χλιερός	a	a-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_517|ref=De octimestri partu_12
-9	τε	τε	c	c--------	_	12	AuxY	_	t_518|ref=De octimestri partu_12
-10	καὶ	καί	c	c--------	_	12	AuxY	_	t_519|ref=De octimestri partu_12
-11	ὑγροῖς	ὑγρός	a	a-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_520|ref=De octimestri partu_12
-12	καὶ	καί	c	c--------	_	7	COORD	_	t_521|ref=De octimestri partu_12
-13	ξυγγενέσι	συγγενής	a	a-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_522|ref=De octimestri partu_12
-14	,	,	u	u--------	_	16	AuxX	_	t_523|ref=De octimestri partu_12
-15	τοιαῦτα	τοιοῦτος	a	a-p---nn-	Case=n|Gender=n|Number=p	18	ATR	_	t_524|ref=De octimestri partu_12
-16	ἀμφιέννυται	ἀμφιέννυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_525|ref=De octimestri partu_12
-17	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	18	ATR	_	t_526|ref=De octimestri partu_12
-18	παιδία	παιδίον	n	n-p---nn-	Case=a|Gender=n|Number=p	16	SBJ	_	t_527|ref=De octimestri partu_12
-19	οἷά	οἷος	p	p-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_528|ref=De octimestri partu_12
-20	περ	πέρ	d	d--------	_	23	AuxZ	_	t_529|ref=De octimestri partu_12
-21	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	22	ATR	_	t_530|ref=De octimestri partu_12
-22	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_531|ref=De octimestri partu_12
-23	[0]	[0]	-	---------	_	18	ATR	_	e_9|ref=De octimestri partu_10
-24	.	.	u	u--------	_	16	AuxK	_	t_532|ref=De octimestri partu_12
+1	ἀντὶ	ἀντί	r	r--------	_	16	AuxP	_	t_510|t_525|ref=oct.part._12
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_511|t_525|ref=oct.part._12
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_512|t_516|ref=oct.part._12
+4	σαρκὶ	σάρξ	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_513|t_514|ref=oct.part._12
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_514|t_516|ref=oct.part._12
+6	χυμοῖς	χυμός	n	n-p---md-	Case=d|Gender=m|Number=p	5	ADV	_	t_515|t_514|ref=oct.part._12
+7	ἠμφιέσθαι	ἀμφιέννυμι	v	v--rne---	Mood=n|Tense=r|Voice=e	1	ADV	_	t_516|t_510|ref=oct.part._12
+8	χλιεροῖς	χλιερός	a	a-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_517|t_521|ref=oct.part._12
+9	τε	τε	c	c--------	_	12	AuxY	_	t_518|t_521|ref=oct.part._12
+10	καὶ	καί	c	c--------	_	12	AuxY	_	t_519|t_521|ref=oct.part._12
+11	ὑγροῖς	ὑγρός	a	a-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_520|t_521|ref=oct.part._12
+12	καὶ	καί	c	c--------	_	7	COORD	_	t_521|t_516|ref=oct.part._12
+13	ξυγγενέσι	συγγενής	a	a-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_522|t_521|ref=oct.part._12
+14	,	,	u	u--------	_	16	AuxX	_	t_523|t_525|ref=oct.part._12
+15	τοιαῦτα	τοιοῦτος	a	a-p---nn-	Case=n|Gender=n|Number=p	18	ATR	_	t_524|t_527|ref=oct.part._12
+16	ἀμφιέννυται	ἀμφιέννυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_525|0|ref=oct.part._12
+17	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	18	ATR	_	t_526|t_527|ref=oct.part._12
+18	παιδία	παιδίον	n	n-p---nn-	Case=a|Gender=n|Number=p	16	SBJ	_	t_527|t_525|ref=oct.part._12
+19	οἷά	οἷος	p	p-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_528|e_9|ref=oct.part._12
+20	περ	πέρ	d	d--------	_	23	AuxZ	_	t_529|e_9|ref=oct.part._12
+21	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	22	ATR	_	t_530|t_531|ref=oct.part._12
+22	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	23	SBJ	_	t_531|e_9|ref=oct.part._12
+23	[0]	[0]	-	---------	_	18	ATR	_	e_9|t_527|ref=oct.part._10
+24	.	.	u	u--------	_	16	AuxK	_	t_532|t_525|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = Οἱ δὲ ὀμφαλοὶ ἔσοδοί εἰσι τοῖσι παιδίοισι μοῦνον τοῦ σώματος ·
 # sent_id = 31
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_533|ref=De octimestri partu_12
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_534|ref=De octimestri partu_12
-3	ὀμφαλοὶ	ὀμφαλός	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_535|ref=De octimestri partu_12
-4	ἔσοδοί	ἔσοδος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_536|ref=De octimestri partu_12
-5	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_537|ref=De octimestri partu_12
-6	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_538|ref=De octimestri partu_12
-7	παιδίοισι	παιδίον	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_539|ref=De octimestri partu_12
-8	μοῦνον	μόνος	n	n-s---na-	Case=a|Gender=n|Number=s	5	PNOM	_	t_540|ref=De octimestri partu_12
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_541|ref=De octimestri partu_12
-10	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_542|ref=De octimestri partu_12
-11	·	·	u	u--------	_	5	AuxK	_	t_543|ref=De octimestri partu_12
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_533|t_535|ref=oct.part._12
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_534|t_537|ref=oct.part._12
+3	ὀμφαλοὶ	ὀμφαλός	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_535|t_537|ref=oct.part._12
+4	ἔσοδοί	ἔσοδος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_536|t_537|ref=oct.part._12
+5	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_537|0|ref=oct.part._12
+6	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_538|t_539|ref=oct.part._12
+7	παιδίοισι	παιδίον	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_539|t_536|ref=oct.part._12
+8	μοῦνον	μόνος	n	n-s---na-	Case=a|Gender=n|Number=s	5	PNOM	_	t_540|t_537|ref=oct.part._12
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_541|t_542|ref=oct.part._12
+10	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_542|t_540|ref=oct.part._12
+11	·	·	u	u--------	_	5	AuxK	_	t_543|t_537|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = τῇ μήτρῃ προσέχεται διὰ τουτέων , καὶ κοινωνεῖ τῶν ἐσιόντων ·
 # sent_id = 32
-1	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_544|ref=De octimestri partu_12
-2	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	3	OBJ	_	t_545|ref=De octimestri partu_12
-3	προσέχεται	προσέχω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_546|ref=De octimestri partu_12
-4	διὰ	διά	r	r--------	_	3	AuxP	_	t_547|ref=De octimestri partu_12
-5	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_548|ref=De octimestri partu_12
-6	,	,	u	u--------	_	0	AuxX	_	t_549|ref=De octimestri partu_12
-7	καὶ	καί	c	c--------	_	6	COORD	_	t_550|ref=De octimestri partu_12
-8	κοινωνεῖ	κοινωνέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_551|ref=De octimestri partu_12
-9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_552|ref=De octimestri partu_12
-10	ἐσιόντων	εἴσειμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	OBJ	_	t_553|ref=De octimestri partu_12
-11	·	·	u	u--------	_	6	AuxK	_	t_554|ref=De octimestri partu_12
+1	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_544|t_545|ref=oct.part._12
+2	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	3	OBJ	_	t_545|t_546|ref=oct.part._12
+3	προσέχεται	προσέχω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	PRED	_	t_546|t_550|ref=oct.part._12
+4	διὰ	διά	r	r--------	_	3	AuxP	_	t_547|t_546|ref=oct.part._12
+5	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_548|t_547|ref=oct.part._12
+6	,	,	u	u--------	_	0	AuxX	_	t_549|0|ref=oct.part._12
+7	καὶ	καί	c	c--------	_	6	COORD	_	t_550|t_549|ref=oct.part._12
+8	κοινωνεῖ	κοινωνέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_551|t_550|ref=oct.part._12
+9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_552|t_553|ref=oct.part._12
+10	ἐσιόντων	εἴσειμι	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	OBJ	_	t_553|t_551|ref=oct.part._12
+11	·	·	u	u--------	_	6	AuxK	_	t_554|t_549|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = τὰ δʼ ἄλλα ξυμμύει ·
 # sent_id = 33
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_555|ref=De octimestri partu_12
-2	δʼ	δέ	g	g--------	_	4	AuxY	_	t_556|ref=De octimestri partu_12
-3	ἄλλα	ἄλλος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_557|ref=De octimestri partu_12
-4	ξυμμύει	συμμύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_558|ref=De octimestri partu_12
-5	·	·	u	u--------	_	4	AuxK	_	t_559|ref=De octimestri partu_12
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_555|t_557|ref=oct.part._12
+2	δʼ	δέ	g	g--------	_	4	AuxY	_	t_556|t_558|ref=oct.part._12
+3	ἄλλα	ἄλλος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_557|t_558|ref=oct.part._12
+4	ξυμμύει	συμμύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_558|0|ref=oct.part._12
+5	·	·	u	u--------	_	4	AuxK	_	t_559|t_558|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = καὶ οὐκ ἀνεστομωμένα ἐστὶ πρόσθεν ἢ ἐν ἐξόδῳ ᾖ τὸ παιδίον ἐκ τῆς γαστρός [0] ·
 # sent_id = 34
-1	καὶ	καί	c	c--------	_	4	AuxY	_	t_560|ref=De octimestri partu_12
-2	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_561|ref=De octimestri partu_12
-3	ἀνεστομωμένα	ἀναστομάω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	PNOM	_	t_562|ref=De octimestri partu_12
-4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_563|ref=De octimestri partu_12
-5	πρόσθεν	πρόσθεν	d	d--------	_	3	ADV	_	t_564|ref=De octimestri partu_12
-6	ἢ	ἤ1	c	c--------	_	3	AuxC	_	t_565|ref=De octimestri partu_12
-7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_566|ref=De octimestri partu_12
-8	ἐξόδῳ	ἔξοδος1	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_567|ref=De octimestri partu_12
-9	ᾖ	εἰμί	d	d--------	_	15	ADV	_	t_568|ref=De octimestri partu_12
-10	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_569|ref=De octimestri partu_12
-11	παιδίον	παιδίον	n	n-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_570|ref=De octimestri partu_12
-12	ἐκ	ἐκ	r	r--------	_	15	AuxP	_	t_571|ref=De octimestri partu_12
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_572|ref=De octimestri partu_12
-14	γαστρός	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_573|ref=De octimestri partu_12
-15	[0]	[0]	-	---------	_	6	ADV	_	e_10|ref=De octimestri partu_10
-16	·	·	u	u--------	_	4	AuxK	_	t_574|ref=De octimestri partu_12
+1	καὶ	καί	c	c--------	_	4	AuxY	_	t_560|t_563|ref=oct.part._12
+2	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_561|t_563|ref=oct.part._12
+3	ἀνεστομωμένα	ἀναστομάω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	PNOM	_	t_562|t_563|ref=oct.part._12
+4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_563|0|ref=oct.part._12
+5	πρόσθεν	πρόσθεν	d	d--------	_	3	ADV	_	t_564|t_562|ref=oct.part._12
+6	ἢ	ἤ1	c	c--------	_	3	AuxC	_	t_565|t_562|ref=oct.part._12
+7	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_566|t_565|ref=oct.part._12
+8	ἐξόδῳ	ἔξοδος1	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_567|t_566|ref=oct.part._12
+9	ᾖ	εἰμί	d	d--------	_	15	ADV	_	t_568|e_10|ref=oct.part._12
+10	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_569|t_570|ref=oct.part._12
+11	παιδίον	παιδίον	n	n-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_570|e_10|ref=oct.part._12
+12	ἐκ	ἐκ	r	r--------	_	15	AuxP	_	t_571|e_10|ref=oct.part._12
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_572|t_573|ref=oct.part._12
+14	γαστρός	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_573|t_571|ref=oct.part._12
+15	[0]	[0]	-	---------	_	6	ADV	_	e_10|t_565|ref=oct.part._10
+16	·	·	u	u--------	_	4	AuxK	_	t_574|t_563|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = ὁκόταν δὲ ἐν ἐξόδῳ ᾖ , τὰ μὲν ἄλλα ἀναστομοῦται , ὁ δὲ ὀμφαλὸς λεπτύνεταί τε καὶ ξυμμύει καὶ ἀποξηραίνεται .
 # sent_id = 35
-1	ὁκόταν	ὁπόταν	c	c--------	_	13	AuxC	_	t_575|ref=De octimestri partu_12
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_576|ref=De octimestri partu_12
-3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_577|ref=De octimestri partu_12
-4	ἐξόδῳ	ἔξοδος1	n	n-s---fd-	Case=d|Gender=f|Number=s	3	PNOM	_	t_578|ref=De octimestri partu_12
-5	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_579|ref=De octimestri partu_12
-6	,	,	u	u--------	_	0	AuxX	_	t_580|ref=De octimestri partu_12
-7	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_581|ref=De octimestri partu_12
-8	μὲν	μέν	d	d--------	_	13	AuxY	_	t_582|ref=De octimestri partu_12
-9	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	10	SBJ	_	t_583|ref=De octimestri partu_12
-10	ἀναστομοῦται	ἀναστομόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	PRED	_	t_584|ref=De octimestri partu_12
-11	,	,	u	u--------	_	6	AuxX	_	t_585|ref=De octimestri partu_12
-12	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_586|ref=De octimestri partu_12
-13	δὲ	δέ	c	c--------	_	6	COORD	_	t_587|ref=De octimestri partu_12
-14	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_588|ref=De octimestri partu_12
-15	λεπτύνεταί	λεπτύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_589|ref=De octimestri partu_12
-16	τε	τε	d	d--------	_	19	AuxY	_	t_590|ref=De octimestri partu_12
-17	καὶ	καί	d	d--------	_	19	AuxY	_	t_591|ref=De octimestri partu_12
-18	ξυμμύει	συμμύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	PRED	_	t_592|ref=De octimestri partu_12
-19	καὶ	καί	c	c--------	_	13	COORD	_	t_593|ref=De octimestri partu_12
-20	ἀποξηραίνεται	ἀποξηραίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_594|ref=De octimestri partu_12
-21	.	.	u	u--------	_	6	AuxK	_	t_595|ref=De octimestri partu_12
+1	ὁκόταν	ὁπόταν	c	c--------	_	13	AuxC	_	t_575|t_587|ref=oct.part._12
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_576|t_587|ref=oct.part._12
+3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_577|t_579|ref=oct.part._12
+4	ἐξόδῳ	ἔξοδος1	n	n-s---fd-	Case=d|Gender=f|Number=s	3	PNOM	_	t_578|t_577|ref=oct.part._12
+5	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_579|t_575|ref=oct.part._12
+6	,	,	u	u--------	_	0	AuxX	_	t_580|0|ref=oct.part._12
+7	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_581|t_583|ref=oct.part._12
+8	μὲν	μέν	d	d--------	_	13	AuxY	_	t_582|t_587|ref=oct.part._12
+9	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	10	SBJ	_	t_583|t_584|ref=oct.part._12
+10	ἀναστομοῦται	ἀναστομόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	PRED	_	t_584|t_587|ref=oct.part._12
+11	,	,	u	u--------	_	6	AuxX	_	t_585|t_580|ref=oct.part._12
+12	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_586|t_588|ref=oct.part._12
+13	δὲ	δέ	c	c--------	_	6	COORD	_	t_587|t_580|ref=oct.part._12
+14	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_588|t_593|ref=oct.part._12
+15	λεπτύνεταί	λεπτύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_589|t_593|ref=oct.part._12
+16	τε	τε	d	d--------	_	19	AuxY	_	t_590|t_593|ref=oct.part._12
+17	καὶ	καί	d	d--------	_	19	AuxY	_	t_591|t_593|ref=oct.part._12
+18	ξυμμύει	συμμύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	PRED	_	t_592|t_593|ref=oct.part._12
+19	καὶ	καί	c	c--------	_	13	COORD	_	t_593|t_587|ref=oct.part._12
+20	ἀποξηραίνεται	ἀποξηραίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_594|t_593|ref=oct.part._12
+21	.	.	u	u--------	_	6	AuxK	_	t_595|t_580|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = Ὥσπερ δὲ τοῖσιν ἐκ τῆς γῆς φυομένοισιν οἱ καρποὶ ἁδρυνόμενοι ἀποκρίνονται καὶ ἀποπίπτουσι κατὰ τὴν διάφυσιν , οὕτω καὶ τοῖσι παιδίοισιν ἁδρυνομένοισί τε καὶ τελείοισι γινομένοισιν ὁ μὲν ὀμφαλὸς ξυνέμυσε , τὰ δὲ ἄλλα ἀνεστομώθη , ὥστε εἰσδέχεσθαί τε τὰ ἐσιόντα καὶ ἐξόδους ἔχειν κατὰ φύσιν , ᾗσιν ἀνάγκη τοὺς ζῶντας χρέεσθαι ·
 # sent_id = 36
-1	Ὥσπερ	ὥσπερ	c	c--------	_	18	AuxC	_	t_596|ref=De octimestri partu_12
-2	δὲ	δέ	d	d--------	_	33	AuxY	_	t_597|ref=De octimestri partu_12
-3	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_598|ref=De octimestri partu_12
-4	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_599|ref=De octimestri partu_12
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_600|ref=De octimestri partu_12
-6	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_601|ref=De octimestri partu_12
-7	φυομένοισιν	φύω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	12	OBJ	_	t_602|ref=De octimestri partu_12
-8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_603|ref=De octimestri partu_12
-9	καρποὶ	καρπός	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_604|ref=De octimestri partu_12
-10	ἁδρυνόμενοι	ἁδρύνω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ADV	_	t_605|ref=De octimestri partu_12
-11	ἀποκρίνονται	ἀποκρίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	12	ADV	_	t_606|ref=De octimestri partu_12
-12	καὶ	καί	c	c--------	_	1	COORD	_	t_607|ref=De octimestri partu_12
-13	ἀποπίπτουσι	ἀποπίπτω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	12	ADV	_	t_608|ref=De octimestri partu_12
-14	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_609|ref=De octimestri partu_12
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_610|ref=De octimestri partu_12
-16	διάφυσιν	διάφυσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_611|ref=De octimestri partu_12
-17	,	,	u	u--------	_	0	AuxX	_	t_612|ref=De octimestri partu_12
-18	οὕτω	οὕτως	d	d--------	_	33	ADV	_	t_613|ref=De octimestri partu_12
-19	καὶ	καί	d	d--------	_	21	AuxZ	_	t_614|ref=De octimestri partu_12
-20	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	21	ATR	_	t_615|ref=De octimestri partu_12
-21	παιδίοισιν	παιδίον	n	n-p---nd-	Case=d|Gender=m|Number=p	30	OBJ	_	t_616|ref=De octimestri partu_12
-22	ἁδρυνομένοισί	ἁδρύνω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	24	ATR	_	t_617|ref=De octimestri partu_12
-23	τε	τε	d	d--------	_	24	AuxY	_	t_618|ref=De octimestri partu_12
-24	καὶ	καί	c	c--------	_	21	COORD	_	t_619|ref=De octimestri partu_12
-25	τελείοισι	τέλειος	a	a-p---md-	Case=d|Gender=m|Number=p	26	PNOM	_	t_620|ref=De octimestri partu_12
-26	γινομένοισιν	γίγνομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	24	ATR	_	t_621|ref=De octimestri partu_12
-27	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	29	ATR	_	t_622|ref=De octimestri partu_12
-28	μὲν	μέν	d	d--------	_	33	AuxY	_	t_623|ref=De octimestri partu_12
-29	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_624|ref=De octimestri partu_12
-30	ξυνέμυσε	συμμύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	33	PRED	_	t_625|ref=De octimestri partu_12
-31	,	,	u	u--------	_	17	AuxX	_	t_626|ref=De octimestri partu_12
-32	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	34	ATR	_	t_627|ref=De octimestri partu_12
-33	δὲ	δέ	c	c--------	_	17	COORD	_	t_628|ref=De octimestri partu_12
-34	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	35	SBJ	_	t_629|ref=De octimestri partu_12
-35	ἀνεστομώθη	ἀναστομάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	33	PRED	_	t_630|ref=De octimestri partu_12
-36	,	,	u	u--------	_	17	AuxX	_	t_631|ref=De octimestri partu_12
-37	ὥστε	ὥστε	c	c--------	_	35	AuxC	_	t_632|ref=De octimestri partu_12
-38	εἰσδέχεσθαί	εἰσδέχομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	42	ADV	_	t_633|ref=De octimestri partu_12
-39	τε	τε	d	d--------	_	42	AuxY	_	t_634|ref=De octimestri partu_12
-40	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	41	ATR	_	t_635|ref=De octimestri partu_12
-41	ἐσιόντα	εἴσειμι	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	38	OBJ	_	t_636|ref=De octimestri partu_12
-42	καὶ	καί	c	c--------	_	37	COORD	_	t_637|ref=De octimestri partu_12
-43	ἐξόδους	ἔξοδος1	n	n-p---fa-	Case=a|Gender=f|Number=p	44	OBJ	_	t_638|ref=De octimestri partu_12
-44	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	42	ADV	_	t_639|ref=De octimestri partu_12
-45	κατὰ	κατά	r	r--------	_	44	AuxP	_	t_640|ref=De octimestri partu_12
-46	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	45	ADV	_	t_641|ref=De octimestri partu_12
-47	,	,	u	u--------	_	17	AuxX	_	t_642|ref=De octimestri partu_12
-48	ᾗσιν	ἑός	p	p-p---fd-	Case=d|Gender=f|Number=p	52	OBJ	_	t_643|ref=De octimestri partu_12
-49	ἀνάγκη	ἀνάγκη	n	n-s---fn-	Case=n|Gender=f|Number=s	42	PNOM	_	t_644|ref=De octimestri partu_12
-50	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	51	ATR	_	t_645|ref=De octimestri partu_12
-51	ζῶντας	ζάω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	52	OBJ	_	t_646|ref=De octimestri partu_12
-52	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	42	ADV	_	t_647|ref=De octimestri partu_12
-53	·	·	u	u--------	_	17	AuxK	_	t_648|ref=De octimestri partu_12
+1	Ὥσπερ	ὥσπερ	c	c--------	_	18	AuxC	_	t_596|t_613|ref=oct.part._12
+2	δὲ	δέ	d	d--------	_	33	AuxY	_	t_597|t_628|ref=oct.part._12
+3	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	7	ATR	_	t_598|t_602|ref=oct.part._12
+4	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_599|t_602|ref=oct.part._12
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_600|t_601|ref=oct.part._12
+6	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_601|t_599|ref=oct.part._12
+7	φυομένοισιν	φύω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	12	OBJ	_	t_602|t_607|ref=oct.part._12
+8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_603|t_604|ref=oct.part._12
+9	καρποὶ	καρπός	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_604|t_607|ref=oct.part._12
+10	ἁδρυνόμενοι	ἁδρύνω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	12	ADV	_	t_605|t_607|ref=oct.part._12
+11	ἀποκρίνονται	ἀποκρίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	12	ADV	_	t_606|t_607|ref=oct.part._12
+12	καὶ	καί	c	c--------	_	1	COORD	_	t_607|t_596|ref=oct.part._12
+13	ἀποπίπτουσι	ἀποπίπτω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	12	ADV	_	t_608|t_607|ref=oct.part._12
+14	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_609|t_608|ref=oct.part._12
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_610|t_611|ref=oct.part._12
+16	διάφυσιν	διάφυσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_611|t_609|ref=oct.part._12
+17	,	,	u	u--------	_	0	AuxX	_	t_612|0|ref=oct.part._12
+18	οὕτω	οὕτως	d	d--------	_	33	ADV	_	t_613|t_628|ref=oct.part._12
+19	καὶ	καί	d	d--------	_	21	AuxZ	_	t_614|t_616|ref=oct.part._12
+20	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	21	ATR	_	t_615|t_616|ref=oct.part._12
+21	παιδίοισιν	παιδίον	n	n-p---nd-	Case=d|Gender=m|Number=p	30	OBJ	_	t_616|t_625|ref=oct.part._12
+22	ἁδρυνομένοισί	ἁδρύνω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	24	ATR	_	t_617|t_619|ref=oct.part._12
+23	τε	τε	d	d--------	_	24	AuxY	_	t_618|t_619|ref=oct.part._12
+24	καὶ	καί	c	c--------	_	21	COORD	_	t_619|t_616|ref=oct.part._12
+25	τελείοισι	τέλειος	a	a-p---md-	Case=d|Gender=m|Number=p	26	PNOM	_	t_620|t_621|ref=oct.part._12
+26	γινομένοισιν	γίγνομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	24	ATR	_	t_621|t_619|ref=oct.part._12
+27	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	29	ATR	_	t_622|t_624|ref=oct.part._12
+28	μὲν	μέν	d	d--------	_	33	AuxY	_	t_623|t_628|ref=oct.part._12
+29	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_624|t_625|ref=oct.part._12
+30	ξυνέμυσε	συμμύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	33	PRED	_	t_625|t_628|ref=oct.part._12
+31	,	,	u	u--------	_	17	AuxX	_	t_626|t_612|ref=oct.part._12
+32	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	34	ATR	_	t_627|t_629|ref=oct.part._12
+33	δὲ	δέ	c	c--------	_	17	COORD	_	t_628|t_612|ref=oct.part._12
+34	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	35	SBJ	_	t_629|t_630|ref=oct.part._12
+35	ἀνεστομώθη	ἀναστομάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	33	PRED	_	t_630|t_628|ref=oct.part._12
+36	,	,	u	u--------	_	17	AuxX	_	t_631|t_612|ref=oct.part._12
+37	ὥστε	ὥστε	c	c--------	_	35	AuxC	_	t_632|t_630|ref=oct.part._12
+38	εἰσδέχεσθαί	εἰσδέχομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	42	ADV	_	t_633|t_637|ref=oct.part._12
+39	τε	τε	d	d--------	_	42	AuxY	_	t_634|t_637|ref=oct.part._12
+40	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	41	ATR	_	t_635|t_636|ref=oct.part._12
+41	ἐσιόντα	εἴσειμι	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	38	OBJ	_	t_636|t_633|ref=oct.part._12
+42	καὶ	καί	c	c--------	_	37	COORD	_	t_637|t_632|ref=oct.part._12
+43	ἐξόδους	ἔξοδος1	n	n-p---fa-	Case=a|Gender=f|Number=p	44	OBJ	_	t_638|t_639|ref=oct.part._12
+44	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	42	ADV	_	t_639|t_637|ref=oct.part._12
+45	κατὰ	κατά	r	r--------	_	44	AuxP	_	t_640|t_639|ref=oct.part._12
+46	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	45	ADV	_	t_641|t_640|ref=oct.part._12
+47	,	,	u	u--------	_	17	AuxX	_	t_642|t_612|ref=oct.part._12
+48	ᾗσιν	ἑός	p	p-p---fd-	Case=d|Gender=f|Number=p	52	OBJ	_	t_643|t_647|ref=oct.part._12
+49	ἀνάγκη	ἀνάγκη	n	n-s---fn-	Case=n|Gender=f|Number=s	42	PNOM	_	t_644|t_637|ref=oct.part._12
+50	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	51	ATR	_	t_645|t_646|ref=oct.part._12
+51	ζῶντας	ζάω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	52	OBJ	_	t_646|t_647|ref=oct.part._12
+52	χρέεσθαι	χράω2	v	v--pne---	Mood=n|Tense=p|Voice=e	42	ADV	_	t_647|t_637|ref=oct.part._12
+53	·	·	u	u--------	_	17	AuxK	_	t_648|t_612|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = ἕκαστα γὰρ χωρίζεται ῥέποντα κατὰ τὰς συλλοχίας ·
 # sent_id = 37
-1	ἕκαστα	ἕκαστος	a	a-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_649|ref=De octimestri partu_12
-2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_650|ref=De octimestri partu_12
-3	χωρίζεται	χωρίζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_651|ref=De octimestri partu_12
-4	ῥέποντα	ῥέπω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	3	ADV	_	t_652|ref=De octimestri partu_12
-5	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_653|ref=De octimestri partu_12
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_654|ref=De octimestri partu_12
-7	συλλοχίας	συλλοχία	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_655|ref=De octimestri partu_12
-8	·	·	u	u--------	_	3	AuxK	_	t_656|ref=De octimestri partu_12
+1	ἕκαστα	ἕκαστος	a	a-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_649|t_651|ref=oct.part._12
+2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_650|t_651|ref=oct.part._12
+3	χωρίζεται	χωρίζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_651|0|ref=oct.part._12
+4	ῥέποντα	ῥέπω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	3	ADV	_	t_652|t_651|ref=oct.part._12
+5	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_653|t_652|ref=oct.part._12
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_654|t_655|ref=oct.part._12
+7	συλλοχίας	συλλοχία	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_655|t_653|ref=oct.part._12
+8	·	·	u	u--------	_	3	AuxK	_	t_656|t_651|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = κρατιστεύει δὲ τὰ τῷ ἡλίῳ ξυντροφώτατα .
 # sent_id = 38
-1	κρατιστεύει	κρατιστεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_657|ref=De octimestri partu_12
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_658|ref=De octimestri partu_12
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_659|ref=De octimestri partu_12
-4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_660|ref=De octimestri partu_12
-5	ἡλίῳ	ἥλιος	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_661|ref=De octimestri partu_12
-6	ξυντροφώτατα	σύντροφος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	OBJ	_	t_662|ref=De octimestri partu_12
-7	.	.	u	u--------	_	1	AuxK	_	t_663|ref=De octimestri partu_12
+1	κρατιστεύει	κρατιστεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_657|0|ref=oct.part._12
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_658|t_657|ref=oct.part._12
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_659|t_662|ref=oct.part._12
+4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_660|t_661|ref=oct.part._12
+5	ἡλίῳ	ἥλιος	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_661|t_662|ref=oct.part._12
+6	ξυντροφώτατα	σύντροφος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	OBJ	_	t_662|t_657|ref=oct.part._12
+7	.	.	u	u--------	_	1	AuxK	_	t_663|t_657|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12
+# source = Hippocrates, oct.part. 12
 # text = 13 .
 # sent_id = 39
-1	13	13	x	x--------	_	0	AuxG	_	t_664|ref=De octimestri partu_12
-2	.	.	u	u--------	_	1	AuxK	_	t_665|ref=De octimestri partu_12
+1	13	13	x	x--------	_	0	AuxG	_	t_664|0|ref=oct.part._12
+2	.	.	u	u--------	_	1	AuxK	_	t_665|t_664|ref=oct.part._12
 
-# source = Hippocrates, De octimestri partu 12-13
+# source = Hippocrates, oct.part. 12-13
 # text = Οἱ δὲ δεκάμηνοι τῶν τόκων καὶ ἑνδεκάμηνοι ἐκ τῶν ἑπτά τεσσαρακοντάδων τὸν αὐτὸν τρόπον γίνονται καὶ ἐκ τοῦ ἡμίσεος τοῦ ἐνιαυτοῦ οἱ ἑπτάμηνοι ·
 # sent_id = 40
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_666|ref=De octimestri partu_12
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_667|ref=De octimestri partu_12
-3	δεκάμηνοι	δεκάμηνος	a	a-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_668|ref=De octimestri partu_12
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_669|ref=De octimestri partu_12
-5	τόκων	τόκος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_670|ref=De octimestri partu_12
-6	καὶ	καί	c	c--------	_	16	COORD	_	t_671|ref=De octimestri partu_12
-7	ἑνδεκάμηνοι	ἑνδεκάμηνος	a	a-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_672|ref=De octimestri partu_12
-8	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_673|ref=De octimestri partu_12
-9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_674|ref=De octimestri partu_13
-10	ἑπτά	ἑπτά	m	m--------	_	11	ATR	_	t_675|ref=De octimestri partu_13
-11	τεσσαρακοντάδων	τεσσαρακοντάδας	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_676|ref=De octimestri partu_13
-12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_677|ref=De octimestri partu_13
-13	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_678|ref=De octimestri partu_13
-14	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_679|ref=De octimestri partu_13
-15	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_680|ref=De octimestri partu_13
-16	καὶ	καί	c	c--------	_	15	COORD	_	t_681|ref=De octimestri partu_13
-17	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_682|ref=De octimestri partu_13
-18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_683|ref=De octimestri partu_13
-19	ἡμίσεος	ἥμισυς	a	a-s---ng-	Case=g|Gender=m|Number=s	17	PNOM	_	t_684|ref=De octimestri partu_13
-20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_685|ref=De octimestri partu_13
-21	ἐνιαυτοῦ	ἐνιαυτός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_686|ref=De octimestri partu_13
-22	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	23	ATR	_	t_687|ref=De octimestri partu_13
-23	ἑπτάμηνοι	ἑπτάμηνος	a	a-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_688|ref=De octimestri partu_13
-24	·	·	u	u--------	_	15	AuxK	_	t_689|ref=De octimestri partu_13
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_666|t_671|ref=oct.part._12
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_667|t_680|ref=oct.part._12
+3	δεκάμηνοι	δεκάμηνος	a	a-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_668|t_671|ref=oct.part._12
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_669|t_670|ref=oct.part._12
+5	τόκων	τόκος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_670|t_671|ref=oct.part._12
+6	καὶ	καί	c	c--------	_	16	COORD	_	t_671|t_681|ref=oct.part._12
+7	ἑνδεκάμηνοι	ἑνδεκάμηνος	a	a-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_672|t_671|ref=oct.part._12
+8	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_673|t_671|ref=oct.part._12
+9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_674|t_676|ref=oct.part._13
+10	ἑπτά	ἑπτά	m	m--------	_	11	ATR	_	t_675|t_676|ref=oct.part._13
+11	τεσσαρακοντάδων	τεσσαρακοντάδας	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_676|t_673|ref=oct.part._13
+12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_677|t_679|ref=oct.part._13
+13	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_678|t_679|ref=oct.part._13
+14	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_679|t_680|ref=oct.part._13
+15	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_680|0|ref=oct.part._13
+16	καὶ	καί	c	c--------	_	15	COORD	_	t_681|t_680|ref=oct.part._13
+17	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_682|t_681|ref=oct.part._13
+18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_683|t_684|ref=oct.part._13
+19	ἡμίσεος	ἥμισυς	a	a-s---ng-	Case=g|Gender=m|Number=s	17	PNOM	_	t_684|t_682|ref=oct.part._13
+20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_685|t_686|ref=oct.part._13
+21	ἐνιαυτοῦ	ἐνιαυτός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_686|t_684|ref=oct.part._13
+22	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	23	ATR	_	t_687|t_688|ref=oct.part._13
+23	ἑπτάμηνοι	ἑπτάμηνος	a	a-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_688|t_681|ref=oct.part._13
+24	·	·	u	u--------	_	15	AuxK	_	t_689|t_680|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = τῇσι γὰρ πλείστῃσι τῶν γυναικῶν ἀναγκαῖόν ἐστιν ἐν γαστρὶ λαμβάνειν μετὰ τὰ καταμήνια , ἢν ἴῃ ἡ λύσις ·
 # sent_id = 41
-1	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_690|ref=De octimestri partu_13
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_691|ref=De octimestri partu_13
-3	πλείστῃσι	πλεῖστος	a	a-p---fd-	Case=d|Gender=f|Number=p	7	ADV	_	t_692|ref=De octimestri partu_13
-4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_693|ref=De octimestri partu_13
-5	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_694|ref=De octimestri partu_13
-6	ἀναγκαῖόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_695|ref=De octimestri partu_13
-7	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_696|ref=De octimestri partu_13
-8	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_697|ref=De octimestri partu_13
-9	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_698|ref=De octimestri partu_13
-10	λαμβάνειν	λαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_699|ref=De octimestri partu_13
-11	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_700|ref=De octimestri partu_13
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_701|ref=De octimestri partu_13
-13	καταμήνια	καταμήνιον	n	n-p---na-	Case=a|Gender=n|Number=p	11	ADV	_	t_702|ref=De octimestri partu_13
-14	,	,	u	u--------	_	7	AuxX	_	t_703|ref=De octimestri partu_13
-15	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_704|ref=De octimestri partu_13
-16	ἴῃ	εἶμι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	15	ADV	_	t_705|ref=De octimestri partu_13
-17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_706|ref=De octimestri partu_13
-18	λύσις	λύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_707|ref=De octimestri partu_13
-19	·	·	u	u--------	_	7	AuxK	_	t_708|ref=De octimestri partu_13
+1	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_690|t_692|ref=oct.part._13
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_691|t_696|ref=oct.part._13
+3	πλείστῃσι	πλεῖστος	a	a-p---fd-	Case=d|Gender=f|Number=p	7	ADV	_	t_692|t_696|ref=oct.part._13
+4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_693|t_694|ref=oct.part._13
+5	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_694|t_692|ref=oct.part._13
+6	ἀναγκαῖόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_695|t_696|ref=oct.part._13
+7	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_696|0|ref=oct.part._13
+8	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_697|t_699|ref=oct.part._13
+9	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_698|t_697|ref=oct.part._13
+10	λαμβάνειν	λαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_699|t_696|ref=oct.part._13
+11	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_700|t_699|ref=oct.part._13
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_701|t_702|ref=oct.part._13
+13	καταμήνια	καταμήνιον	n	n-p---na-	Case=a|Gender=n|Number=p	11	ADV	_	t_702|t_700|ref=oct.part._13
+14	,	,	u	u--------	_	7	AuxX	_	t_703|t_696|ref=oct.part._13
+15	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_704|t_696|ref=oct.part._13
+16	ἴῃ	εἶμι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	15	ADV	_	t_705|t_704|ref=oct.part._13
+17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_706|t_707|ref=oct.part._13
+18	λύσις	λύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_707|t_705|ref=oct.part._13
+19	·	·	u	u--------	_	7	AuxK	_	t_708|t_696|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = δεῖ τοίνυν τῇ γυναικὶ χρόνον δοῦναι τοῦ μηνὸς , ἐν ᾧ αὐτῇ ἡ κάθαρσις ἔσται ·
 # sent_id = 42
-1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_709|ref=De octimestri partu_13
-2	τοίνυν	τοίνυν	d	d--------	_	1	AuxY	_	t_710|ref=De octimestri partu_13
-3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_711|ref=De octimestri partu_13
-4	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_712|ref=De octimestri partu_13
-5	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_713|ref=De octimestri partu_13
-6	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	1	SBJ	_	t_714|ref=De octimestri partu_13
-7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_715|ref=De octimestri partu_13
-8	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_716|ref=De octimestri partu_13
-9	,	,	u	u--------	_	1	AuxX	_	t_717|ref=De octimestri partu_13
-10	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_718|ref=De octimestri partu_13
-11	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	10	ADV	_	t_719|ref=De octimestri partu_13
-12	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	15	PNOM	_	t_720|ref=De octimestri partu_13
-13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_721|ref=De octimestri partu_13
-14	κάθαρσις	κάθαρσις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_722|ref=De octimestri partu_13
-15	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	8	ATR	_	t_723|ref=De octimestri partu_13
-16	·	·	u	u--------	_	1	AuxK	_	t_724|ref=De octimestri partu_13
+1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_709|0|ref=oct.part._13
+2	τοίνυν	τοίνυν	d	d--------	_	1	AuxY	_	t_710|t_709|ref=oct.part._13
+3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_711|t_712|ref=oct.part._13
+4	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_712|t_714|ref=oct.part._13
+5	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_713|t_714|ref=oct.part._13
+6	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	1	SBJ	_	t_714|t_709|ref=oct.part._13
+7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_715|t_716|ref=oct.part._13
+8	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_716|t_713|ref=oct.part._13
+9	,	,	u	u--------	_	1	AuxX	_	t_717|t_709|ref=oct.part._13
+10	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_718|t_723|ref=oct.part._13
+11	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	10	ADV	_	t_719|t_718|ref=oct.part._13
+12	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	15	PNOM	_	t_720|t_723|ref=oct.part._13
+13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_721|t_722|ref=oct.part._13
+14	κάθαρσις	κάθαρσις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_722|t_723|ref=oct.part._13
+15	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	8	ATR	_	t_723|t_716|ref=oct.part._13
+16	·	·	u	u--------	_	1	AuxK	_	t_724|t_709|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = καὶ ὁ χρόνος οὗτος ᾗσιν ἐλάχιστος γίνεται , τρεῖς ἡμέραι , τῇσι δὲ πλείστῃσι καὶ πολὺ πλείονες [0] .
 # sent_id = 43
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_725|ref=De octimestri partu_13
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_726|ref=De octimestri partu_13
-3	χρόνος	χρόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_727|ref=De octimestri partu_13
-4	οὗτος	οὗτος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_728|ref=De octimestri partu_13
-5	ᾗσιν	ἑός	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_729|ref=De octimestri partu_13
-6	ἐλάχιστος	ἐλαχύς	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	10	ATR	_	t_730|ref=De octimestri partu_13
-7	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_731|ref=De octimestri partu_13
-8	,	,	u	u--------	_	7	AuxX	_	t_732|ref=De octimestri partu_13
-9	τρεῖς	τρεῖς	a	a--------	_	10	ATR	_	t_733|ref=De octimestri partu_13
-10	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	13	PNOM	_	t_734|ref=De octimestri partu_13
-11	,	,	u	u--------	_	7	AuxX	_	t_735|ref=De octimestri partu_13
-12	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	14	ATR	_	t_736|ref=De octimestri partu_13
-13	δὲ	δέ	c	c--------	_	8	COORD	_	t_737|ref=De octimestri partu_13
-14	πλείστῃσι	πλεῖστος	a	a-p---fd-	Case=d|Gender=f|Number=p	18	ADV	_	t_738|ref=De octimestri partu_13
-15	καὶ	καί	d	d--------	_	17	AuxZ	_	t_739|ref=De octimestri partu_13
-16	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	17	ADV	_	t_740|ref=De octimestri partu_13
-17	πλείονες	πλείων	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	18	PNOM	_	t_741|ref=De octimestri partu_13
-18	[0]	[0]	-	---------	_	13	PRED	_	e_11|ref=De octimestri partu_10
-19	.	.	u	u--------	_	7	AuxK	_	t_742|ref=De octimestri partu_13
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_725|t_731|ref=oct.part._13
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_726|t_727|ref=oct.part._13
+3	χρόνος	χρόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_727|t_731|ref=oct.part._13
+4	οὗτος	οὗτος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_728|t_727|ref=oct.part._13
+5	ᾗσιν	ἑός	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_729|t_731|ref=oct.part._13
+6	ἐλάχιστος	ἐλαχύς	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	10	ATR	_	t_730|t_734|ref=oct.part._13
+7	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_731|0|ref=oct.part._13
+8	,	,	u	u--------	_	7	AuxX	_	t_732|t_731|ref=oct.part._13
+9	τρεῖς	τρεῖς	a	a--------	_	10	ATR	_	t_733|t_734|ref=oct.part._13
+10	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	13	PNOM	_	t_734|t_737|ref=oct.part._13
+11	,	,	u	u--------	_	7	AuxX	_	t_735|t_731|ref=oct.part._13
+12	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	14	ATR	_	t_736|t_738|ref=oct.part._13
+13	δὲ	δέ	c	c--------	_	8	COORD	_	t_737|t_732|ref=oct.part._13
+14	πλείστῃσι	πλεῖστος	a	a-p---fd-	Case=d|Gender=f|Number=p	18	ADV	_	t_738|e_11|ref=oct.part._13
+15	καὶ	καί	d	d--------	_	17	AuxZ	_	t_739|t_741|ref=oct.part._13
+16	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	17	ADV	_	t_740|t_741|ref=oct.part._13
+17	πλείονες	πλείων	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	18	PNOM	_	t_741|e_11|ref=oct.part._13
+18	[0]	[0]	-	---------	_	13	PRED	_	e_11|t_737|ref=oct.part._10
+19	.	.	u	u--------	_	7	AuxK	_	t_742|t_731|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = Ἔστι δὲ καὶ ἄλλα πολλὰ κωλύματα καὶ τῇσι γυναιξὶ καὶ τοῖσιν ἀνδράσιν ἐξ ὧν βραδύνεται ἡ ξύλληψις .
 # sent_id = 44
-1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_743|ref=De octimestri partu_13
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_744|ref=De octimestri partu_13
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_745|ref=De octimestri partu_13
-4	ἄλλα	ἄλλος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_746|ref=De octimestri partu_13
-5	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_747|ref=De octimestri partu_13
-6	κωλύματα	κώλωμα	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_748|ref=De octimestri partu_13
-7	καὶ	καί	d	d--------	_	10	AuxY	_	t_749|ref=De octimestri partu_13
-8	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	9	ATR	_	t_750|ref=De octimestri partu_13
-9	γυναιξὶ	γυνή	n	n-p---fd-	Case=d|Gender=f|Number=p	10	ATR	_	t_751|ref=De octimestri partu_13
-10	καὶ	καί	c	c--------	_	1	COORD	_	t_752|ref=De octimestri partu_13
-11	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_753|ref=De octimestri partu_13
-12	ἀνδράσιν	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_754|ref=De octimestri partu_13
-13	ἐξ	ἐκ	r	r--------	_	15	AuxP	_	t_755|ref=De octimestri partu_13
-14	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	13	ADV	_	t_756|ref=De octimestri partu_13
-15	βραδύνεται	βραδύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ATR	_	t_757|ref=De octimestri partu_13
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_758|ref=De octimestri partu_13
-17	ξύλληψις	ξύλληψις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_759|ref=De octimestri partu_13
-18	.	.	u	u--------	_	1	AuxK	_	t_760|ref=De octimestri partu_13
+1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_743|0|ref=oct.part._13
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_744|t_743|ref=oct.part._13
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_745|t_746|ref=oct.part._13
+4	ἄλλα	ἄλλος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_746|t_748|ref=oct.part._13
+5	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_747|t_748|ref=oct.part._13
+6	κωλύματα	κώλωμα	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_748|t_743|ref=oct.part._13
+7	καὶ	καί	d	d--------	_	10	AuxY	_	t_749|t_752|ref=oct.part._13
+8	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	9	ATR	_	t_750|t_751|ref=oct.part._13
+9	γυναιξὶ	γυνή	n	n-p---fd-	Case=d|Gender=f|Number=p	10	ATR	_	t_751|t_752|ref=oct.part._13
+10	καὶ	καί	c	c--------	_	1	COORD	_	t_752|t_743|ref=oct.part._13
+11	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_753|t_754|ref=oct.part._13
+12	ἀνδράσιν	ἀνήρ	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_754|t_752|ref=oct.part._13
+13	ἐξ	ἐκ	r	r--------	_	15	AuxP	_	t_755|t_757|ref=oct.part._13
+14	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	13	ADV	_	t_756|t_755|ref=oct.part._13
+15	βραδύνεται	βραδύνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ATR	_	t_757|t_748|ref=oct.part._13
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_758|t_759|ref=oct.part._13
+17	ξύλληψις	ξύλληψις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_759|t_757|ref=oct.part._13
+18	.	.	u	u--------	_	1	AuxK	_	t_760|t_743|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = Χρὴ δὲ ἐν τοῖσι μάλιστα καὶ τόδε λογίζεσθαι , ὅτι ἡ νουμηνίη ἡμέρη μία ἐοῦσα ἐγγύτατα τριηκοστημόριόν ἐστι τοῦ μηνός ·
 # sent_id = 45
-1	Χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_761|ref=De octimestri partu_13
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_762|ref=De octimestri partu_13
-3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_763|ref=De octimestri partu_13
-4	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=n|Number=p	3	ADV	_	t_764|ref=De octimestri partu_13
-5	μάλιστα	μάλιστα	d	d--------	_	8	ADV	_	t_765|ref=De octimestri partu_13
-6	καὶ	καί	d	d--------	_	7	AuxZ	_	t_766|ref=De octimestri partu_13
-7	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_767|ref=De octimestri partu_13
-8	λογίζεσθαι	λογίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	1	SBJ	_	t_768|ref=De octimestri partu_13
-9	,	,	u	u--------	_	8	APOS	_	t_769|ref=De octimestri partu_13
-10	ὅτι	ὅτι	c	c--------	_	9	AuxC	_	t_770|ref=De octimestri partu_13
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_771|ref=De octimestri partu_13
-12	νουμηνίη	νουμηνία	n	n-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_772|ref=De octimestri partu_13
-13	ἡμέρη	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_773|ref=De octimestri partu_13
-14	μία	εἷς	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_774|ref=De octimestri partu_13
-15	ἐοῦσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	PNOM	_	t_775|ref=De octimestri partu_13
-16	ἐγγύτατα	ἐγγύς	d	d--------	Case=n|Gender=f|Number=s	18	PNOM	_	t_776|ref=De octimestri partu_13
-17	τριηκοστημόριόν	τριάκοντα	a	a-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_777|ref=De octimestri partu_13
-18	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	OBJ	_	t_778|ref=De octimestri partu_13
-19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_779|ref=De octimestri partu_13
-20	μηνός	μήν	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ADV	_	t_780|ref=De octimestri partu_13
-21	·	·	u	u--------	_	1	AuxK	_	t_781|ref=De octimestri partu_13
+1	Χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_761|0|ref=oct.part._13
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_762|t_761|ref=oct.part._13
+3	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_763|t_761|ref=oct.part._13
+4	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=n|Number=p	3	ADV	_	t_764|t_763|ref=oct.part._13
+5	μάλιστα	μάλιστα	d	d--------	_	8	ADV	_	t_765|t_768|ref=oct.part._13
+6	καὶ	καί	d	d--------	_	7	AuxZ	_	t_766|t_767|ref=oct.part._13
+7	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_767|t_769|ref=oct.part._13
+8	λογίζεσθαι	λογίζομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	1	SBJ	_	t_768|t_761|ref=oct.part._13
+9	,	,	u	u--------	_	8	APOS	_	t_769|t_768|ref=oct.part._13
+10	ὅτι	ὅτι	c	c--------	_	9	AuxC	_	t_770|t_769|ref=oct.part._13
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_771|t_773|ref=oct.part._13
+12	νουμηνίη	νουμηνία	n	n-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_772|t_773|ref=oct.part._13
+13	ἡμέρη	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_773|t_778|ref=oct.part._13
+14	μία	εἷς	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_774|t_773|ref=oct.part._13
+15	ἐοῦσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	PNOM	_	t_775|t_778|ref=oct.part._13
+16	ἐγγύτατα	ἐγγύς	d	d--------	Case=n|Gender=f|Number=s	18	PNOM	_	t_776|t_778|ref=oct.part._13
+17	τριηκοστημόριόν	τριάκοντα	a	a-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_777|t_776|ref=oct.part._13
+18	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	OBJ	_	t_778|t_770|ref=oct.part._13
+19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_779|t_780|ref=oct.part._13
+20	μηνός	μήν	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ADV	_	t_780|t_776|ref=oct.part._13
+21	·	·	u	u--------	_	1	AuxK	_	t_781|t_761|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = αἱ δὲ δύο ἡμέραι σχεδὸν πεντεκαιδεκατημόριον τοῦ μηνός [0] ·
 # sent_id = 46
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_782|ref=De octimestri partu_13
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_783|ref=De octimestri partu_13
-3	δύο	δύο	a	a--------	_	4	ATR	_	t_784|ref=De octimestri partu_13
-4	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_785|ref=De octimestri partu_13
-5	σχεδὸν	σχεδόν	d	d--------	_	6	ADV	_	t_786|ref=De octimestri partu_13
-6	πεντεκαιδεκατημόριον	πεντεκαιδεκατημόριον	a	a--------	_	9	PNOM	_	t_787|ref=De octimestri partu_13
-7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_788|ref=De octimestri partu_13
-8	μηνός	μήν	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_789|ref=De octimestri partu_13
-9	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=De octimestri partu_10
-10	·	·	u	u--------	_	9	AuxK	_	t_790|ref=De octimestri partu_13
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_782|t_785|ref=oct.part._13
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_783|e_12|ref=oct.part._13
+3	δύο	δύο	a	a--------	_	4	ATR	_	t_784|t_785|ref=oct.part._13
+4	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_785|e_12|ref=oct.part._13
+5	σχεδὸν	σχεδόν	d	d--------	_	6	ADV	_	t_786|t_787|ref=oct.part._13
+6	πεντεκαιδεκατημόριον	πεντεκαιδεκατημόριον	a	a--------	_	9	PNOM	_	t_787|e_12|ref=oct.part._13
+7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_788|t_789|ref=oct.part._13
+8	μηνός	μήν	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_789|t_787|ref=oct.part._13
+9	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=oct.part._10
+10	·	·	u	u--------	_	9	AuxK	_	t_790|e_12|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = αἱ δὲ τρεῖς ἡμέραι δεκατημόριον τοῦ μηνὸς , καὶ τ ἄλλα κατὰ λόγον τουτέων [0] [1] ·
 # sent_id = 47
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_791|ref=De octimestri partu_13
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_792|ref=De octimestri partu_13
-3	τρεῖς	τρεῖς	a	a--------	_	4	ATR	_	t_793|ref=De octimestri partu_13
-4	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	15	SBJ	_	t_794|ref=De octimestri partu_13
-5	δεκατημόριον	δεκατημόριον	n	n-s---na-	Case=n|Gender=n|Number=s	15	PNOM	_	t_795|ref=De octimestri partu_13
-6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_796|ref=De octimestri partu_13
-7	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_797|ref=De octimestri partu_13
-8	,	,	u	u--------	_	0	AuxX	_	t_798|ref=De octimestri partu_13
-9	καὶ	καί	c	c--------	_	8	COORD	_	t_799|ref=De octimestri partu_13
-10	τ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_800|ref=De octimestri partu_13
-11	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_801|ref=De octimestri partu_13
-12	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_802|ref=De octimestri partu_13
-13	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_803|ref=De octimestri partu_13
-14	τουτέων	οὗτος	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_804|ref=De octimestri partu_13
-15	[0]	[0]	-	---------	_	9	PRED	_	e_13|ref=De octimestri partu_10
-16	[1]	[1]	-	---------	_	9	PRED	_	e_14|ref=De octimestri partu_10
-17	·	·	u	u--------	_	8	AuxK	_	t_805|ref=De octimestri partu_13
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_791|t_794|ref=oct.part._13
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_792|t_799|ref=oct.part._13
+3	τρεῖς	τρεῖς	a	a--------	_	4	ATR	_	t_793|t_794|ref=oct.part._13
+4	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	15	SBJ	_	t_794|e_13|ref=oct.part._13
+5	δεκατημόριον	δεκατημόριον	n	n-s---na-	Case=n|Gender=n|Number=s	15	PNOM	_	t_795|e_13|ref=oct.part._13
+6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_796|t_797|ref=oct.part._13
+7	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_797|t_795|ref=oct.part._13
+8	,	,	u	u--------	_	0	AuxX	_	t_798|0|ref=oct.part._13
+9	καὶ	καί	c	c--------	_	8	COORD	_	t_799|t_798|ref=oct.part._13
+10	τ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_800|t_801|ref=oct.part._13
+11	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_801|e_14|ref=oct.part._13
+12	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_802|e_14|ref=oct.part._13
+13	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_803|t_802|ref=oct.part._13
+14	τουτέων	οὗτος	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_804|t_803|ref=oct.part._13
+15	[0]	[0]	-	---------	_	9	PRED	_	e_13|t_799|ref=oct.part._10
+16	[1]	[1]	-	---------	_	9	PRED	_	e_14|t_799|ref=oct.part._10
+17	·	·	u	u--------	_	8	AuxK	_	t_805|t_798|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = καὶ οὐχ οἷόν τε ἐν τοῖσιν ἐλάσσοσί γε μορίοις γίνεσθαι οὔ τε τὴν λύσιν τῶν καταμηνίων οὔ τε τὴν ξύλληψιν τῶν ἐμβρύων [0] .
 # sent_id = 48
-1	καὶ	καί	c	c--------	_	23	AuxY	_	t_806|ref=De octimestri partu_13
-2	οὐχ	οὐ	d	d--------	_	3	AuxZ	_	t_807|ref=De octimestri partu_13
-3	οἷόν	οἷος	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_808|ref=De octimestri partu_13
-4	τε	τε	d	d--------	_	3	AuxZ	_	t_809|ref=De octimestri partu_13
-5	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_810|ref=De octimestri partu_13
-6	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	9	ATR	_	t_811|ref=De octimestri partu_13
-7	ἐλάσσοσί	ἐλάσσων	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	9	ATR	_	t_812|ref=De octimestri partu_13
-8	γε	γε	d	d--------	_	7	AuxZ	_	t_813|ref=De octimestri partu_13
-9	μορίοις	μόριον	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_814|ref=De octimestri partu_13
-10	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	23	SBJ	_	t_815|ref=De octimestri partu_13
-11	οὔ	οὐ	d	d--------	_	14	AuxZ	_	t_816|ref=De octimestri partu_13
-12	τε	τε	c	c--------	_	18	AuxY	_	t_817|ref=De octimestri partu_13
-13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_818|ref=De octimestri partu_13
-14	λύσιν	λύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	18	SBJ	_	t_819|ref=De octimestri partu_13
-15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_820|ref=De octimestri partu_13
-16	καταμηνίων	καταμήνιον	a	a-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_821|ref=De octimestri partu_13
-17	οὔ	οὐ	d	d--------	_	20	AuxZ	_	t_822|ref=De octimestri partu_13
-18	τε	τε	c	c--------	_	10	COORD	_	t_823|ref=De octimestri partu_13
-19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_824|ref=De octimestri partu_13
-20	ξύλληψιν	σύλληψις	n	n-s---fa-	Case=a|Gender=f|Number=s	18	SBJ	_	t_825|ref=De octimestri partu_13
-21	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	22	ATR	_	t_826|ref=De octimestri partu_13
-22	ἐμβρύων	ἔμβρυον	a	a-p---mg-	Case=g|Gender=f|Number=p	20	ATR	_	t_827|ref=De octimestri partu_13
-23	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=De octimestri partu_10
-24	.	.	u	u--------	_	23	AuxK	_	t_828|ref=De octimestri partu_13
+1	καὶ	καί	c	c--------	_	23	AuxY	_	t_806|e_15|ref=oct.part._13
+2	οὐχ	οὐ	d	d--------	_	3	AuxZ	_	t_807|t_808|ref=oct.part._13
+3	οἷόν	οἷος	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_808|e_15|ref=oct.part._13
+4	τε	τε	d	d--------	_	3	AuxZ	_	t_809|t_808|ref=oct.part._13
+5	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_810|t_815|ref=oct.part._13
+6	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	9	ATR	_	t_811|t_814|ref=oct.part._13
+7	ἐλάσσοσί	ἐλάσσων	a	a-p---ndc	Case=d|Degree=c|Gender=n|Number=p	9	ATR	_	t_812|t_814|ref=oct.part._13
+8	γε	γε	d	d--------	_	7	AuxZ	_	t_813|t_812|ref=oct.part._13
+9	μορίοις	μόριον	n	n-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_814|t_810|ref=oct.part._13
+10	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	23	SBJ	_	t_815|e_15|ref=oct.part._13
+11	οὔ	οὐ	d	d--------	_	14	AuxZ	_	t_816|t_819|ref=oct.part._13
+12	τε	τε	c	c--------	_	18	AuxY	_	t_817|t_823|ref=oct.part._13
+13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_818|t_819|ref=oct.part._13
+14	λύσιν	λύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	18	SBJ	_	t_819|t_823|ref=oct.part._13
+15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_820|t_821|ref=oct.part._13
+16	καταμηνίων	καταμήνιον	a	a-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_821|t_819|ref=oct.part._13
+17	οὔ	οὐ	d	d--------	_	20	AuxZ	_	t_822|t_825|ref=oct.part._13
+18	τε	τε	c	c--------	_	10	COORD	_	t_823|t_815|ref=oct.part._13
+19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_824|t_825|ref=oct.part._13
+20	ξύλληψιν	σύλληψις	n	n-s---fa-	Case=a|Gender=f|Number=s	18	SBJ	_	t_825|t_823|ref=oct.part._13
+21	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	22	ATR	_	t_826|t_827|ref=oct.part._13
+22	ἐμβρύων	ἔμβρυον	a	a-p---mg-	Case=g|Gender=f|Number=p	20	ATR	_	t_827|t_825|ref=oct.part._13
+23	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=oct.part._10
+24	.	.	u	u--------	_	23	AuxK	_	t_828|e_15|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = Ἐκ τουτέων οὖν ἁπάντων ἀναγκαῖόν ἐστι τῇσι πλείστῃσι τῶν γυναικῶν περὶ διχομηνίην ἐν γαστρὶ λαβεῖν καὶ ποῤῥωτέρω , ὥστε πολλάκις δοκεῖν ἐπιλαμβάνειν τοῦ ἑνδεκάτου μηνὸς τὰς ὀγδοήκοντα καὶ διακοσίας ·
 # sent_id = 49
-1	Ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_829|ref=De octimestri partu_13
-2	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_830|ref=De octimestri partu_13
-3	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_831|ref=De octimestri partu_13
-4	ἁπάντων	ἅπας	a	a-p---ng-	Case=g|Gender=n|Number=p	2	ATR	_	t_832|ref=De octimestri partu_13
-5	ἀναγκαῖόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_833|ref=De octimestri partu_13
-6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_834|ref=De octimestri partu_13
-7	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_835|ref=De octimestri partu_13
-8	πλείστῃσι	πλεῖστος	a	a-p---fd-	Case=d|Gender=f|Number=p	16	OBJ	_	t_836|ref=De octimestri partu_13
-9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_837|ref=De octimestri partu_13
-10	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_838|ref=De octimestri partu_13
-11	περὶ	περί	r	r--------	_	15	AuxP	_	t_839|ref=De octimestri partu_13
-12	διχομηνίην	διχόμηνι	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_840|ref=De octimestri partu_13
-13	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_841|ref=De octimestri partu_13
-14	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_842|ref=De octimestri partu_13
-15	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	SBJ	_	t_843|ref=De octimestri partu_13
-16	καὶ	καί	c	c--------	_	15	COORD	_	t_844|ref=De octimestri partu_13
-17	ποῤῥωτέρω	ποῤῥωτέρω	d	d--------	_	16	ADV	_	t_845|ref=De octimestri partu_13
-18	,	,	u	u--------	_	6	AuxX	_	t_846|ref=De octimestri partu_13
-19	ὥστε	ὥστε	c	c--------	_	6	AuxC	_	t_847|ref=De octimestri partu_13
-20	πολλάκις	πολλάκις	d	d--------	_	21	ADV	_	t_848|ref=De octimestri partu_13
-21	δοκεῖν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	ADV	_	t_849|ref=De octimestri partu_13
-22	ἐπιλαμβάνειν	ἐπιλαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	OBJ	_	t_850|ref=De octimestri partu_13
-23	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_851|ref=De octimestri partu_13
-24	ἑνδεκάτου	ἑνδέκατος	a	a-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_852|ref=De octimestri partu_13
-25	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	22	ADV	_	t_853|ref=De octimestri partu_13
-26	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	28	ATR	_	t_854|ref=De octimestri partu_13
-27	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	28	OBJ	_	t_855|ref=De octimestri partu_13
-28	καὶ	καί	c	c--------	_	22	COORD	_	t_856|ref=De octimestri partu_13
-29	διακοσίας	διακόσιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	28	OBJ	_	t_857|ref=De octimestri partu_13
-30	·	·	u	u--------	_	6	AuxK	_	t_858|ref=De octimestri partu_13
+1	Ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_829|t_834|ref=oct.part._13
+2	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_830|t_829|ref=oct.part._13
+3	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_831|t_834|ref=oct.part._13
+4	ἁπάντων	ἅπας	a	a-p---ng-	Case=g|Gender=n|Number=p	2	ATR	_	t_832|t_830|ref=oct.part._13
+5	ἀναγκαῖόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_833|t_834|ref=oct.part._13
+6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_834|0|ref=oct.part._13
+7	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_835|t_836|ref=oct.part._13
+8	πλείστῃσι	πλεῖστος	a	a-p---fd-	Case=d|Gender=f|Number=p	16	OBJ	_	t_836|t_844|ref=oct.part._13
+9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_837|t_838|ref=oct.part._13
+10	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_838|t_836|ref=oct.part._13
+11	περὶ	περί	r	r--------	_	15	AuxP	_	t_839|t_843|ref=oct.part._13
+12	διχομηνίην	διχόμηνι	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_840|t_839|ref=oct.part._13
+13	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_841|t_843|ref=oct.part._13
+14	γαστρὶ	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_842|t_841|ref=oct.part._13
+15	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	6	SBJ	_	t_843|t_834|ref=oct.part._13
+16	καὶ	καί	c	c--------	_	15	COORD	_	t_844|t_843|ref=oct.part._13
+17	ποῤῥωτέρω	ποῤῥωτέρω	d	d--------	_	16	ADV	_	t_845|t_844|ref=oct.part._13
+18	,	,	u	u--------	_	6	AuxX	_	t_846|t_834|ref=oct.part._13
+19	ὥστε	ὥστε	c	c--------	_	6	AuxC	_	t_847|t_834|ref=oct.part._13
+20	πολλάκις	πολλάκις	d	d--------	_	21	ADV	_	t_848|t_849|ref=oct.part._13
+21	δοκεῖν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	19	ADV	_	t_849|t_847|ref=oct.part._13
+22	ἐπιλαμβάνειν	ἐπιλαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	OBJ	_	t_850|t_849|ref=oct.part._13
+23	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_851|t_853|ref=oct.part._13
+24	ἑνδεκάτου	ἑνδέκατος	a	a-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_852|t_853|ref=oct.part._13
+25	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	22	ADV	_	t_853|t_850|ref=oct.part._13
+26	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	28	ATR	_	t_854|t_856|ref=oct.part._13
+27	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	28	OBJ	_	t_855|t_856|ref=oct.part._13
+28	καὶ	καί	c	c--------	_	22	COORD	_	t_856|t_850|ref=oct.part._13
+29	διακοσίας	διακόσιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	28	OBJ	_	t_857|t_856|ref=oct.part._13
+30	·	·	u	u--------	_	6	AuxK	_	t_858|t_834|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = τοῦτο γάρ ἐστιν ἑπτὰ τεσσαρακοντάδες .
 # sent_id = 50
-1	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_859|ref=De octimestri partu_13
-2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_860|ref=De octimestri partu_13
-3	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_861|ref=De octimestri partu_13
-4	ἑπτὰ	ἑπτὰ	m	m--------	_	5	ATR	_	t_862|ref=De octimestri partu_13
-5	τεσσαρακοντάδες	τεσσαρακοντάδες	n	n-p---fn-	Case=n|Gender=f|Number=p	3	PNOM	_	t_863|ref=De octimestri partu_13
-6	.	.	u	u--------	_	3	AuxK	_	t_864|ref=De octimestri partu_13
+1	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_859|t_861|ref=oct.part._13
+2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_860|t_861|ref=oct.part._13
+3	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_861|0|ref=oct.part._13
+4	ἑπτὰ	ἑπτὰ	m	m--------	_	5	ATR	_	t_862|t_863|ref=oct.part._13
+5	τεσσαρακοντάδες	τεσσαρακοντάδες	n	n-p---fn-	Case=n|Gender=f|Number=p	3	PNOM	_	t_863|t_861|ref=oct.part._13
+6	.	.	u	u--------	_	3	AuxK	_	t_864|t_861|ref=oct.part._13
 
-# source = Hippocrates, De octimestri partu 13
+# source = Hippocrates, oct.part. 13
 # text = Ὅ τι γὰρ ἂν ἔξω τῆς διχομηνίης ξυλλαμβάνῃ ἡ γυνὴ , τοῦτο πᾶν ἀναγκαῖόν ἐστι τοῦ ἑνδεκάτου μηνὸς ἐπιλαβεῖν , ἤν περ ἐς τελευταίην περίοδον καταστῇ .
 # sent_id = 51
-1	Ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_865|ref=De octimestri partu_13
-2	τι	τις	a	a-s---na-	Case=a|Gender=n|Number=s	1	ATR	_	t_866|ref=De octimestri partu_13
-3	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_867|ref=De octimestri partu_13
-4	ἂν	ἄν	d	d--------	_	8	AuxY	_	t_868|ref=De octimestri partu_13
-5	ἔξω	ἔξω	r	r--------	_	8	AuxP	_	t_869|ref=De octimestri partu_13
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_870|ref=De octimestri partu_13
-7	διχομηνίης	διχόμηνια	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_871|ref=De octimestri partu_13
-8	ξυλλαμβάνῃ	συλλαμβάνω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ATR	_	t_872|ref=De octimestri partu_13
-9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_873|ref=De octimestri partu_13
-10	γυνὴ	γυνή	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_874|ref=De octimestri partu_13
-11	,	,	u	u--------	_	15	AuxX	_	t_875|ref=De octimestri partu_13
-12	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_876|ref=De octimestri partu_13
-13	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_877|ref=De octimestri partu_13
-14	ἀναγκαῖόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_878|ref=De octimestri partu_13
-15	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_879|ref=De octimestri partu_13
-16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_880|ref=De octimestri partu_13
-17	ἑνδεκάτου	ἑνδέκατος	a	a-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_881|ref=De octimestri partu_13
-18	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_882|ref=De octimestri partu_13
-19	ἐπιλαβεῖν	ἐπιλαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	ADV	_	t_883|ref=De octimestri partu_13
-20	,	,	u	u--------	_	15	AuxX	_	t_884|ref=De octimestri partu_13
-21	ἤν	ἐάν	c	c--------	_	15	AuxC	_	t_885|ref=De octimestri partu_13
-22	περ	πέρ	d	d--------	_	26	AuxZ	_	t_886|ref=De octimestri partu_13
-23	ἐς	εἰς	r	r--------	_	26	AuxP	_	t_887|ref=De octimestri partu_13
-24	τελευταίην	τελευταῖος	a	a-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_888|ref=De octimestri partu_13
-25	περίοδον	περίοδος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	ADV	_	t_889|ref=De octimestri partu_13
-26	καταστῇ	καθίστημι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	21	ADV	_	t_890|ref=De octimestri partu_13
-27	.	.	u	u--------	_	15	AuxK	_	t_891|ref=De octimestri partu_13
+1	Ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_865|t_872|ref=oct.part._13
+2	τι	τις	a	a-s---na-	Case=a|Gender=n|Number=s	1	ATR	_	t_866|t_865|ref=oct.part._13
+3	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_867|t_879|ref=oct.part._13
+4	ἂν	ἄν	d	d--------	_	8	AuxY	_	t_868|t_872|ref=oct.part._13
+5	ἔξω	ἔξω	r	r--------	_	8	AuxP	_	t_869|t_872|ref=oct.part._13
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_870|t_871|ref=oct.part._13
+7	διχομηνίης	διχόμηνια	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_871|t_869|ref=oct.part._13
+8	ξυλλαμβάνῃ	συλλαμβάνω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ATR	_	t_872|t_876|ref=oct.part._13
+9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_873|t_874|ref=oct.part._13
+10	γυνὴ	γυνή	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_874|t_872|ref=oct.part._13
+11	,	,	u	u--------	_	15	AuxX	_	t_875|t_879|ref=oct.part._13
+12	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_876|t_883|ref=oct.part._13
+13	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_877|t_876|ref=oct.part._13
+14	ἀναγκαῖόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_878|t_879|ref=oct.part._13
+15	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_879|0|ref=oct.part._13
+16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_880|t_882|ref=oct.part._13
+17	ἑνδεκάτου	ἑνδέκατος	a	a-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_881|t_882|ref=oct.part._13
+18	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_882|t_883|ref=oct.part._13
+19	ἐπιλαβεῖν	ἐπιλαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	14	ADV	_	t_883|t_878|ref=oct.part._13
+20	,	,	u	u--------	_	15	AuxX	_	t_884|t_879|ref=oct.part._13
+21	ἤν	ἐάν	c	c--------	_	15	AuxC	_	t_885|t_879|ref=oct.part._13
+22	περ	πέρ	d	d--------	_	26	AuxZ	_	t_886|t_890|ref=oct.part._13
+23	ἐς	εἰς	r	r--------	_	26	AuxP	_	t_887|t_890|ref=oct.part._13
+24	τελευταίην	τελευταῖος	a	a-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_888|t_889|ref=oct.part._13
+25	περίοδον	περίοδος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	ADV	_	t_889|t_887|ref=oct.part._13
+26	καταστῇ	καθίστημι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	21	ADV	_	t_890|t_885|ref=oct.part._13
+27	.	.	u	u--------	_	15	AuxK	_	t_891|t_879|ref=oct.part._13
 

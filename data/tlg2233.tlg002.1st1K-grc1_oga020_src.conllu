@@ -1,1025 +1,1025 @@
-# source = Pseudo-Polemon, Physiognomonica 70
+# source = Pseudo-Polemon, Physiog. 70
 # text = [ p [0] .
 # sent_id = 1
-1	[	[	u	u--------	_	3	AuxG	_	t_1|ref=Physiognomonica_70
-2	p	p	n	n--------	_	3	OBJ	_	t_2|ref=Physiognomonica_70
-3	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Physiognomonica_70
-4	.	.	u	u--------	_	3	AuxK	_	t_3|ref=Physiognomonica_70
+1	[	[	u	u--------	_	3	AuxG	_	t_1|e_1|ref=Physiog._70
+2	p	p	n	n--------	_	3	OBJ	_	t_2|e_1|ref=Physiog._70
+3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Physiog._70
+4	.	.	u	u--------	_	3	AuxK	_	t_3|e_1|ref=Physiog._70
 
-# source = Pseudo-Polemon, Physiognomonica 70
+# source = Pseudo-Polemon, Physiog. 70
 # text = 298 Fr . ]
 # sent_id = 2
-1	298	298	u	u--------	_	2	AuxG	_	t_4|ref=Physiognomonica_70
-2	Fr	fr	n	n--------	_	0	AuxG	_	t_5|ref=Physiognomonica_70
-3	.	.	u	u--------	_	2	AuxK	_	t_6|ref=Physiognomonica_70
-4	]	]	u	u--------	_	2	AuxG	_	t_7|ref=Physiognomonica_70
+1	298	298	u	u--------	_	2	AuxG	_	t_4|t_5|ref=Physiog._70
+2	Fr	fr	n	n--------	_	0	AuxG	_	t_5|0|ref=Physiog._70
+3	.	.	u	u--------	_	2	AuxK	_	t_6|t_5|ref=Physiog._70
+4	]	]	u	u--------	_	2	AuxG	_	t_7|t_5|ref=Physiog._70
 
-# source = Pseudo-Polemon, Physiognomonica 70
+# source = Pseudo-Polemon, Physiog. 70
 # text = Θυμώδους σημεῖα τάδε εἰσίν ·
 # sent_id = 3
-1	Θυμώδους	θυμώδης	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_8|ref=Physiognomonica_70
-2	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_9|ref=Physiognomonica_70
-3	τάδε	ὅδε	p	p-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_10|ref=Physiognomonica_70
-4	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_11|ref=Physiognomonica_70
-5	·	·	u	u--------	_	4	AuxK	_	t_12|ref=Physiognomonica_70
+1	Θυμώδους	θυμώδης	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_8|t_9|ref=Physiog._70
+2	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_9|t_11|ref=Physiog._70
+3	τάδε	ὅδε	p	p-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_10|t_11|ref=Physiog._70
+4	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_11|0|ref=Physiog._70
+5	·	·	u	u--------	_	4	AuxK	_	t_12|t_11|ref=Physiog._70
 
-# source = Pseudo-Polemon, Physiognomonica 70
+# source = Pseudo-Polemon, Physiog. 70
 # text = ὀρθὸς τῷ σχήματι , εὔπλευρος , εὔρυθμος , ἐπίπυρρος , ὠμοπλάται [ p [0] .
 # sent_id = 4
-1	ὀρθὸς	ὀρθός	a	a-s---mn-	Case=n|Gender=m|Number=s	14	PNOM	_	t_13|ref=Physiognomonica_70
-2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_14|ref=Physiognomonica_70
-3	σχήματι	σχῆμα	n	n-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_15|ref=Physiognomonica_70
-4	,	,	u	u--------	_	14	AuxX	_	t_16|ref=Physiognomonica_70
-5	εὔπλευρος	εὔπλευρος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_17|ref=Physiognomonica_70
-6	,	,	u	u--------	_	14	AuxX	_	t_18|ref=Physiognomonica_70
-7	εὔρυθμος	εὔρυθμος	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_19|ref=Physiognomonica_70
-8	,	,	u	u--------	_	14	AuxX	_	t_20|ref=Physiognomonica_70
-9	ἐπίπυρρος	ἐπίπυρρος	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_21|ref=Physiognomonica_70
-10	,	,	u	u--------	_	14	COORD	_	t_22|ref=Physiognomonica_70
-11	ὠμοπλάται	ἀκραία	a	a-s---fn-	Case=n|Gender=f|Number=p	10	PNOM	_	t_23|ref=Physiognomonica_70
-12	[	[	u	u--------	_	13	AuxX	_	t_24|ref=Physiognomonica_70
-13	p	p	n	n--------	_	10	PNOM	_	t_25|ref=Physiognomonica_70
-14	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Physiognomonica_70
-15	.	.	u	u--------	_	14	AuxK	_	t_26|ref=Physiognomonica_70
+1	ὀρθὸς	ὀρθός	a	a-s---mn-	Case=n|Gender=m|Number=s	14	PNOM	_	t_13|e_2|ref=Physiog._70
+2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_14|t_15|ref=Physiog._70
+3	σχήματι	σχῆμα	n	n-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_15|t_13|ref=Physiog._70
+4	,	,	u	u--------	_	14	AuxX	_	t_16|e_2|ref=Physiog._70
+5	εὔπλευρος	εὔπλευρος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_17|t_22|ref=Physiog._70
+6	,	,	u	u--------	_	14	AuxX	_	t_18|e_2|ref=Physiog._70
+7	εὔρυθμος	εὔρυθμος	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_19|t_22|ref=Physiog._70
+8	,	,	u	u--------	_	14	AuxX	_	t_20|e_2|ref=Physiog._70
+9	ἐπίπυρρος	ἐπίπυρρος	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_21|t_22|ref=Physiog._70
+10	,	,	u	u--------	_	14	COORD	_	t_22|e_2|ref=Physiog._70
+11	ὠμοπλάται	ἀκραία	a	a-s---fn-	Case=n|Gender=f|Number=p	10	PNOM	_	t_23|t_22|ref=Physiog._70
+12	[	[	u	u--------	_	13	AuxX	_	t_24|t_25|ref=Physiog._70
+13	p	p	n	n--------	_	10	PNOM	_	t_25|t_22|ref=Physiog._70
+14	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Physiog._70
+15	.	.	u	u--------	_	14	AuxK	_	t_26|e_2|ref=Physiog._70
 
-# source = Pseudo-Polemon, Physiognomonica 70
+# source = Pseudo-Polemon, Physiog. 70
 # text = 299 ] διεστηκότες μεγάλοι καὶ ἐγκρατεῖς , λεῖος τὰ περὶ στῆθος καὶ βουβῶνα , δασυπώγων , τὰ νῶτα εὐρύς , ὁ περί - τροχος τῶν τριχῶν κάτω βλέπων , καὶ ὅσοις τὸ περὶ τὴν κεφαλὴν δέρμα περιίσταται , καὶ οἱ στρογγυλοπρόσωποι , καὶ ὀφρύες οἷαι τῶν στρυφνῶν , καὶ ῥινῶν κοιλότης [0] [1] [2] .
 # sent_id = 5
-1	299	299	d	d--------	_	0	ExD	_	t_27|ref=Physiognomonica_70
-2	]	]	u	u--------	_	1	AuxX	_	t_28|ref=Physiognomonica_70
-3	διεστηκότες	διίστημι	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	52	SBJ	_	t_29|ref=Physiognomonica_70
-4	μεγάλοι	μέγας	a	a-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_30|ref=Physiognomonica_70
-5	καὶ	καί	c	c--------	_	3	COORD	_	t_31|ref=Physiognomonica_70
-6	ἐγκρατεῖς	ἐγκρατής	a	a-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_32|ref=Physiognomonica_70
-7	,	,	u	u--------	_	1	AuxX	_	t_33|ref=Physiognomonica_70
-8	λεῖος	λεῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	49	SBJ	_	t_34|ref=Physiognomonica_70
-9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	49	ADV	_	t_35|ref=Physiognomonica_70
-10	περὶ	περί	r	r--------	_	9	AuxP	_	t_36|ref=Physiognomonica_70
-11	στῆθος	στῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_37|ref=Physiognomonica_70
-12	καὶ	καί	c	c--------	_	10	COORD	_	t_38|ref=Physiognomonica_70
-13	βουβῶνα	βουβών	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_39|ref=Physiognomonica_70
-14	,	,	u	u--------	_	1	AuxX	_	t_40|ref=Physiognomonica_70
-15	δασυπώγων	δασυπώγων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	49	SBJ	_	t_41|ref=Physiognomonica_70
-16	,	,	u	u--------	_	1	AuxX	_	t_42|ref=Physiognomonica_70
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_43|ref=Physiognomonica_70
-18	νῶτα	νῶτον	n	n-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_44|ref=Physiognomonica_70
-19	εὐρύς	εὐρύς	v	v-srpana-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	24	ATR	_	t_45|ref=Physiognomonica_70
-20	,	,	u	u--------	_	1	AuxX	_	t_46|ref=Physiognomonica_70
-21	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	24	ATR	_	t_47|ref=Physiognomonica_70
-22	περί	περί	r	r--------	_	24	AuxP	_	t_48|ref=Physiognomonica_70
-23	-	-	u	u--------	Case=a|Gender=f|Number=p	24	ATR	_	t_49|ref=Physiognomonica_70
-24	τροχος	τροχος	n	n-s---mn-	Case=n|Gender=m|Number=s	49	SBJ	_	t_50|ref=Physiognomonica_70
-25	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	26	ATR	_	t_51|ref=Physiognomonica_70
-26	τριχῶν	θρίξ	n	n-p---fg-	Case=g|Gender=f|Number=p	27	ADV	_	t_52|ref=Physiognomonica_70
-27	κάτω	κάτω	d	d--------	_	28	ADV	_	t_53|ref=Physiognomonica_70
-28	βλέπων	βλέπω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	24	ATR	_	t_54|ref=Physiognomonica_70
-29	,	,	u	u--------	_	1	AuxX	_	t_55|ref=Physiognomonica_70
-30	καὶ	καί	c	c--------	_	49	AuxY	_	t_56|ref=Physiognomonica_70
-31	ὅσοις	ὅσος	a	a-p---nd-	Case=d|Gender=n|Number=p	37	ADV	_	t_57|ref=Physiognomonica_70
-32	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	36	ATR	_	t_58|ref=Physiognomonica_70
-33	περὶ	περί	r	r--------	_	36	AuxP	_	t_59|ref=Physiognomonica_70
-34	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	35	ATR	_	t_60|ref=Physiognomonica_70
-35	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	33	ATR	_	t_61|ref=Physiognomonica_70
-36	δέρμα	δέρμα	n	n-s---nn-	Case=n|Gender=n|Number=s	37	SBJ	_	t_62|ref=Physiognomonica_70
-37	περιίσταται	περιίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	24	ATR	_	t_63|ref=Physiognomonica_70
-38	,	,	u	u--------	_	1	AuxX	_	t_64|ref=Physiognomonica_70
-39	καὶ	καί	c	c--------	_	49	AuxY	_	t_65|ref=Physiognomonica_70
-40	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	41	ATR	_	t_66|ref=Physiognomonica_70
-41	στρογγυλοπρόσωποι	στρογγυλοπρόσωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	53	SBJ	_	t_67|ref=Physiognomonica_70
-42	,	,	u	u--------	_	1	AuxX	_	t_68|ref=Physiognomonica_70
-43	καὶ	καί	c	c--------	_	49	AuxY	_	t_69|ref=Physiognomonica_70
-44	ὀφρύες	ὀφρύς	n	n-p---fn-	Case=n|Gender=f|Number=p	49	SBJ	_	t_70|ref=Physiognomonica_70
-45	οἷαι	οἷος	a	a-p---fn-	Case=n|Gender=f|Number=p	54	PNOM	_	t_71|ref=Physiognomonica_70
-46	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	47	ATR	_	t_72|ref=Physiognomonica_70
-47	στρυφνῶν	στρυφνός	n	n-p---fg-	Case=g|Gender=f|Number=p	45	ATR	_	t_73|ref=Physiognomonica_70
-48	,	,	u	u--------	_	1	AuxX	_	t_74|ref=Physiognomonica_70
-49	καὶ	καί	c	c--------	_	52	COORD	_	t_75|ref=Physiognomonica_70
-50	ῥινῶν	ῥίς	n	n-p---fg-	Case=g|Gender=f|Number=p	51	ATR	_	t_76|ref=Physiognomonica_70
-51	κοιλότης	κοιλότης	n	n-s---fn-	Case=n|Gender=f|Number=s	49	SBJ	_	t_77|ref=Physiognomonica_70
-52	[0]	[0]	-	---------	_	1	PRED	_	e_3|ref=Physiognomonica_70
-53	[1]	[1]	-	---------	_	49	SBJ	_	e_4|ref=Physiognomonica_70
-54	[2]	[2]	-	---------	_	49	SBJ	_	e_5|ref=Physiognomonica_70
-55	.	.	u	u--------	_	1	AuxK	_	t_78|ref=Physiognomonica_70
+1	299	299	d	d--------	_	0	ExD	_	t_27|0|ref=Physiog._70
+2	]	]	u	u--------	_	1	AuxX	_	t_28|t_27|ref=Physiog._70
+3	διεστηκότες	διίστημι	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	52	SBJ	_	t_29|e_3|ref=Physiog._70
+4	μεγάλοι	μέγας	a	a-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_30|t_31|ref=Physiog._70
+5	καὶ	καί	c	c--------	_	3	COORD	_	t_31|t_29|ref=Physiog._70
+6	ἐγκρατεῖς	ἐγκρατής	a	a-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_32|t_31|ref=Physiog._70
+7	,	,	u	u--------	_	1	AuxX	_	t_33|t_27|ref=Physiog._70
+8	λεῖος	λεῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	49	SBJ	_	t_34|t_75|ref=Physiog._70
+9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	49	ADV	_	t_35|t_75|ref=Physiog._70
+10	περὶ	περί	r	r--------	_	9	AuxP	_	t_36|t_35|ref=Physiog._70
+11	στῆθος	στῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_37|t_38|ref=Physiog._70
+12	καὶ	καί	c	c--------	_	10	COORD	_	t_38|t_36|ref=Physiog._70
+13	βουβῶνα	βουβών	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_39|t_38|ref=Physiog._70
+14	,	,	u	u--------	_	1	AuxX	_	t_40|t_27|ref=Physiog._70
+15	δασυπώγων	δασυπώγων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	49	SBJ	_	t_41|t_75|ref=Physiog._70
+16	,	,	u	u--------	_	1	AuxX	_	t_42|t_27|ref=Physiog._70
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_43|t_44|ref=Physiog._70
+18	νῶτα	νῶτον	n	n-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_44|t_45|ref=Physiog._70
+19	εὐρύς	εὐρύς	v	v-srpana-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	24	ATR	_	t_45|t_50|ref=Physiog._70
+20	,	,	u	u--------	_	1	AuxX	_	t_46|t_27|ref=Physiog._70
+21	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	24	ATR	_	t_47|t_50|ref=Physiog._70
+22	περί	περί	r	r--------	_	24	AuxP	_	t_48|t_50|ref=Physiog._70
+23	-	-	u	u--------	Case=a|Gender=f|Number=p	24	ATR	_	t_49|t_50|ref=Physiog._70
+24	τροχος	τροχος	n	n-s---mn-	Case=n|Gender=m|Number=s	49	SBJ	_	t_50|t_75|ref=Physiog._70
+25	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	26	ATR	_	t_51|t_52|ref=Physiog._70
+26	τριχῶν	θρίξ	n	n-p---fg-	Case=g|Gender=f|Number=p	27	ADV	_	t_52|t_53|ref=Physiog._70
+27	κάτω	κάτω	d	d--------	_	28	ADV	_	t_53|t_54|ref=Physiog._70
+28	βλέπων	βλέπω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	24	ATR	_	t_54|t_50|ref=Physiog._70
+29	,	,	u	u--------	_	1	AuxX	_	t_55|t_27|ref=Physiog._70
+30	καὶ	καί	c	c--------	_	49	AuxY	_	t_56|t_75|ref=Physiog._70
+31	ὅσοις	ὅσος	a	a-p---nd-	Case=d|Gender=n|Number=p	37	ADV	_	t_57|t_63|ref=Physiog._70
+32	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	36	ATR	_	t_58|t_62|ref=Physiog._70
+33	περὶ	περί	r	r--------	_	36	AuxP	_	t_59|t_62|ref=Physiog._70
+34	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	35	ATR	_	t_60|t_61|ref=Physiog._70
+35	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	33	ATR	_	t_61|t_59|ref=Physiog._70
+36	δέρμα	δέρμα	n	n-s---nn-	Case=n|Gender=n|Number=s	37	SBJ	_	t_62|t_63|ref=Physiog._70
+37	περιίσταται	περιίστημι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	24	ATR	_	t_63|t_50|ref=Physiog._70
+38	,	,	u	u--------	_	1	AuxX	_	t_64|t_27|ref=Physiog._70
+39	καὶ	καί	c	c--------	_	49	AuxY	_	t_65|t_75|ref=Physiog._70
+40	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	41	ATR	_	t_66|t_67|ref=Physiog._70
+41	στρογγυλοπρόσωποι	στρογγυλοπρόσωπος	n	n-p---mn-	Case=n|Gender=m|Number=p	53	SBJ	_	t_67|e_4|ref=Physiog._70
+42	,	,	u	u--------	_	1	AuxX	_	t_68|t_27|ref=Physiog._70
+43	καὶ	καί	c	c--------	_	49	AuxY	_	t_69|t_75|ref=Physiog._70
+44	ὀφρύες	ὀφρύς	n	n-p---fn-	Case=n|Gender=f|Number=p	49	SBJ	_	t_70|t_75|ref=Physiog._70
+45	οἷαι	οἷος	a	a-p---fn-	Case=n|Gender=f|Number=p	54	PNOM	_	t_71|e_5|ref=Physiog._70
+46	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	47	ATR	_	t_72|t_73|ref=Physiog._70
+47	στρυφνῶν	στρυφνός	n	n-p---fg-	Case=g|Gender=f|Number=p	45	ATR	_	t_73|t_71|ref=Physiog._70
+48	,	,	u	u--------	_	1	AuxX	_	t_74|t_27|ref=Physiog._70
+49	καὶ	καί	c	c--------	_	52	COORD	_	t_75|e_3|ref=Physiog._70
+50	ῥινῶν	ῥίς	n	n-p---fg-	Case=g|Gender=f|Number=p	51	ATR	_	t_76|t_77|ref=Physiog._70
+51	κοιλότης	κοιλότης	n	n-s---fn-	Case=n|Gender=f|Number=s	49	SBJ	_	t_77|t_75|ref=Physiog._70
+52	[0]	[0]	-	---------	_	1	PRED	_	e_3|t_27|ref=Physiog._70
+53	[1]	[1]	-	---------	_	49	SBJ	_	e_4|t_75|ref=Physiog._70
+54	[2]	[2]	-	---------	_	49	SBJ	_	e_5|t_75|ref=Physiog._70
+55	.	.	u	u--------	_	1	AuxK	_	t_78|t_27|ref=Physiog._70
 
-# source = Pseudo-Polemon, Physiognomonica 70
+# source = Pseudo-Polemon, Physiog. 70
 # text = Φιλολοιδόρου σημεῖα [0] ·
 # sent_id = 6
-1	Φιλολοιδόρου	φιλολοιδόρος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_79|ref=Physiognomonica_70
-2	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_80|ref=Physiognomonica_70
-3	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Physiognomonica_70
-4	·	·	u	u--------	_	3	AuxK	_	t_81|ref=Physiognomonica_70
+1	Φιλολοιδόρου	φιλολοιδόρος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_79|t_80|ref=Physiog._70
+2	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_80|e_6|ref=Physiog._70
+3	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Physiog._70
+4	·	·	u	u--------	_	3	AuxK	_	t_81|e_6|ref=Physiog._70
 
-# source = Pseudo-Polemon, Physiognomonica 70-71
+# source = Pseudo-Polemon, Physiog. 70-71
 # text = τὸ ἄνω χεῖλος μετέωρον καὶ τὸ κάτω προπετές , ὑπέρυθροι [ p [0] [1] .
 # sent_id = 7
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_82|ref=Physiognomonica_70
-2	ἄνω	ἄνω	d	d--------	_	3	ATR	_	t_83|ref=Physiognomonica_70
-3	χεῖλος	χεῖλος	n	n-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_84|ref=Physiognomonica_71
-4	μετέωρον	μετέωρος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_85|ref=Physiognomonica_71
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_86|ref=Physiognomonica_70
-6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_87|ref=Physiognomonica_71
-7	κάτω	κάτω	d	d--------	_	6	ATR	_	t_88|ref=Physiognomonica_71
-8	προπετές	προπετής	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_89|ref=Physiognomonica_71
-9	,	,	u	u--------	_	13	AuxX	_	t_90|ref=Physiognomonica_71
-10	ὑπέρυθροι	ὑπέρυθρος	a	a-p---mn-	Case=n|Gender=m|Number=p	14	PNOM	_	t_91|ref=Physiognomonica_71
-11	[	[	u	u--------	_	14	AuxX	_	t_92|ref=Physiognomonica_71
-12	p	p	n	n--------	_	14	PNOM	_	t_93|ref=Physiognomonica_71
-13	[0]	[0]	-	---------	_	5	PRED	_	e_7|ref=Physiognomonica_70
-14	[1]	[1]	-	---------	_	5	PRED	_	e_8|ref=Physiognomonica_70
-15	.	.	u	u--------	_	13	AuxK	_	t_94|ref=Physiognomonica_71
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_82|t_84|ref=Physiog._70
+2	ἄνω	ἄνω	d	d--------	_	3	ATR	_	t_83|t_84|ref=Physiog._70
+3	χεῖλος	χεῖλος	n	n-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_84|e_7|ref=Physiog._71
+4	μετέωρον	μετέωρος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_85|e_7|ref=Physiog._71
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_86|0|ref=Physiog._70
+6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_87|e_8|ref=Physiog._71
+7	κάτω	κάτω	d	d--------	_	6	ATR	_	t_88|t_87|ref=Physiog._71
+8	προπετές	προπετής	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_89|e_8|ref=Physiog._71
+9	,	,	u	u--------	_	13	AuxX	_	t_90|e_7|ref=Physiog._71
+10	ὑπέρυθροι	ὑπέρυθρος	a	a-p---mn-	Case=n|Gender=m|Number=p	14	PNOM	_	t_91|e_8|ref=Physiog._71
+11	[	[	u	u--------	_	14	AuxX	_	t_92|e_8|ref=Physiog._71
+12	p	p	n	n--------	_	14	PNOM	_	t_93|e_8|ref=Physiog._71
+13	[0]	[0]	-	---------	_	5	PRED	_	e_7|t_86|ref=Physiog._70
+14	[1]	[1]	-	---------	_	5	PRED	_	e_8|t_86|ref=Physiog._70
+15	.	.	u	u--------	_	13	AuxK	_	t_94|e_7|ref=Physiog._71
 
-# source = Pseudo-Polemon, Physiognomonica 71
+# source = Pseudo-Polemon, Physiog. 71
 # text = 30 ] ἐπίπυρροι ·
 # sent_id = 8
-1	30	30	u	u--------	_	0	AuxG	_	t_95|ref=Physiognomonica_71
-2	]	]	u	u--------	_	1	AuxG	_	t_96|ref=Physiognomonica_71
-3	ἐπίπυρροι	ἐπίπυρρος	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	1	ExD	_	t_97|ref=Physiognomonica_71
-4	·	·	u	u--------	_	1	AuxK	_	t_98|ref=Physiognomonica_71
+1	30	30	u	u--------	_	0	AuxG	_	t_95|0|ref=Physiog._71
+2	]	]	u	u--------	_	1	AuxG	_	t_96|t_95|ref=Physiog._71
+3	ἐπίπυρροι	ἐπίπυρρος	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	1	ExD	_	t_97|t_95|ref=Physiog._71
+4	·	·	u	u--------	_	1	AuxK	_	t_98|t_95|ref=Physiog._71
 
-# source = Pseudo-Polemon, Physiognomonica 71
+# source = Pseudo-Polemon, Physiog. 71
 # text = ἀναφέρεται ἐπὶ τοὺς κύνας ἴδοι δʼ ἄν τις καὶ ἐπὶ τῶν γεγηρακότων ἵππων .
 # sent_id = 9
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_99|ref=Physiognomonica_71
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_100|ref=Physiognomonica_71
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_101|ref=Physiognomonica_71
-4	κύνας	κύων	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_102|ref=Physiognomonica_71
-5	ἴδοι	εἶδον	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_103|ref=Physiognomonica_71
-6	δʼ	δέ	c	c--------	_	0	COORD	_	t_104|ref=Physiognomonica_71
-7	ἄν	ἄν	d	d--------	_	5	AuxY	_	t_105|ref=Physiognomonica_71
-8	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_106|ref=Physiognomonica_71
-9	καὶ	καί	d	d--------	_	13	AuxZ	_	t_107|ref=Physiognomonica_71
-10	ἐπὶ	ἐπί	r	r--------	_	5	AuxP	_	t_108|ref=Physiognomonica_71
-11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_109|ref=Physiognomonica_71
-12	γεγηρακότων	γηράσκω	v	v-prpamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	13	ATR	_	t_110|ref=Physiognomonica_71
-13	ἵππων	ἵππος	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ADV	_	t_111|ref=Physiognomonica_71
-14	.	.	u	u--------	_	6	AuxK	_	t_112|ref=Physiognomonica_71
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	PRED	_	t_99|t_104|ref=Physiog._71
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_100|t_99|ref=Physiog._71
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_101|t_102|ref=Physiog._71
+4	κύνας	κύων	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_102|t_100|ref=Physiog._71
+5	ἴδοι	εἶδον	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_103|t_104|ref=Physiog._71
+6	δʼ	δέ	c	c--------	_	0	COORD	_	t_104|0|ref=Physiog._71
+7	ἄν	ἄν	d	d--------	_	5	AuxY	_	t_105|t_103|ref=Physiog._71
+8	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_106|t_103|ref=Physiog._71
+9	καὶ	καί	d	d--------	_	13	AuxZ	_	t_107|t_111|ref=Physiog._71
+10	ἐπὶ	ἐπί	r	r--------	_	5	AuxP	_	t_108|t_103|ref=Physiog._71
+11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_109|t_111|ref=Physiog._71
+12	γεγηρακότων	γηράσκω	v	v-prpamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	13	ATR	_	t_110|t_111|ref=Physiog._71
+13	ἵππων	ἵππος	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ADV	_	t_111|t_108|ref=Physiog._71
+14	.	.	u	u--------	_	6	AuxK	_	t_112|t_104|ref=Physiog._71
 
-# source = Pseudo-Polemon, Physiognomonica 71
+# source = Pseudo-Polemon, Physiog. 71
 # text = Λάγνου σημεῖα [0] ·
 # sent_id = 10
-1	Λάγνου	λάγνος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_113|ref=Physiognomonica_71
-2	σημεῖα	σημεῖον	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_114|ref=Physiognomonica_71
-3	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Physiognomonica_70
-4	·	·	u	u--------	_	3	AuxK	_	t_115|ref=Physiognomonica_71
+1	Λάγνου	λάγνος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_113|t_114|ref=Physiog._71
+2	σημεῖα	σημεῖον	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_114|e_9|ref=Physiog._71
+3	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Physiog._70
+4	·	·	u	u--------	_	3	AuxK	_	t_115|e_9|ref=Physiog._71
 
-# source = Pseudo-Polemon, Physiognomonica 71-72
+# source = Pseudo-Polemon, Physiog. 71-72
 # text = λευκόχρως , δασὺς τῇ ὑπήνῃ , εὐθείας καὶ παχείας τὰς τρίχας ἔχων , λιπαρὸν τὸ ὄμμα καὶ μάργον , σκέλη λεπτὰ καὶ νευρώδη καὶ ὅλως ὀρνιθώδη , δασύτης σκε - λῶν , γαστρὸς καὶ ὀμμάτων λιπαρότης , καὶ τὸ ἀνεσπάσθαι τὸ γένειον πρὸς τὴν ῥῖνα καὶ περιφέρειαν κοίλην ἔχειν τὸν τόπον τὸν [ p [0] .
 # sent_id = 11
-1	λευκόχρως	λευκόχρους	d	d--------	_	55	ExD	_	t_116|ref=Physiognomonica_71
-2	,	,	u	u--------	_	53	AuxX	_	t_117|ref=Physiognomonica_71
-3	δασὺς	δασύς	a	a-s---mn-	Case=n|Gender=m|Number=s	55	PNOM	_	t_118|ref=Physiognomonica_71
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_119|ref=Physiognomonica_71
-5	ὑπήνῃ	ὑπήνη	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_120|ref=Physiognomonica_71
-6	,	,	u	u--------	_	53	AuxX	_	t_121|ref=Physiognomonica_72
-7	εὐθείας	εὐθεῖα	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_122|ref=Physiognomonica_72
-8	καὶ	καί	c	c--------	_	11	COORD	_	t_123|ref=Physiognomonica_71
-9	παχείας	παχύς	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_124|ref=Physiognomonica_72
-10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_125|ref=Physiognomonica_72
-11	τρίχας	θρίξ	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_126|ref=Physiognomonica_72
-12	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	55	ADV	_	t_127|ref=Physiognomonica_72
-13	,	,	u	u--------	_	53	AuxX	_	t_128|ref=Physiognomonica_72
-14	λιπαρὸν	λιπαρός	a	a-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_129|ref=Physiognomonica_72
-15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_130|ref=Physiognomonica_72
-16	ὄμμα	ὄμμα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_131|ref=Physiognomonica_72
-17	καὶ	καί	c	c--------	_	16	COORD	_	t_132|ref=Physiognomonica_72
-18	μάργον	μάργος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_133|ref=Physiognomonica_72
-19	,	,	u	u--------	_	53	AuxX	_	t_134|ref=Physiognomonica_72
-20	σκέλη	σκέλος	n	n-p---na-	Case=a|Gender=n|Number=p	38	OBJ	_	t_135|ref=Physiognomonica_72
-21	λεπτὰ	λεπτός	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_136|ref=Physiognomonica_72
-22	καὶ	καί	c	c--------	_	24	AuxY	_	t_137|ref=Physiognomonica_72
-23	νευρώδη	νευρώδης	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_138|ref=Physiognomonica_72
-24	καὶ	καί	c	c--------	_	20	COORD	_	t_139|ref=Physiognomonica_72
-25	ὅλως	ὅλος	d	d--------	_	26	ADV	_	t_140|ref=Physiognomonica_72
-26	ὀρνιθώδη	ὀρνιθώδης	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_141|ref=Physiognomonica_72
-27	,	,	u	u--------	_	53	AuxX	_	t_142|ref=Physiognomonica_72
-28	δασύτης	δασύτης	a	a-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_143|ref=Physiognomonica_72
-29	σκε	σκώ	v	v2spma---	Case=v|Gender=m|Number=s	38	OBJ	_	t_144|ref=Physiognomonica_72
-30	-	-	u	u--------	_	53	AuxX	_	t_145|ref=Physiognomonica_72
-31	λῶν	λείπω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	29	ATR	_	t_146|ref=Physiognomonica_72
-32	,	,	u	u--------	_	53	AuxX	_	t_147|ref=Physiognomonica_72
-33	γαστρὸς	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	34	APOS	_	t_148|ref=Physiognomonica_72
-34	καὶ	καί	c	c--------	_	31	COORD	_	t_149|ref=Physiognomonica_72
-35	ὀμμάτων	ὄμμα	n	n-p---ng-	Case=g|Gender=n|Number=p	36	ATR	_	t_150|ref=Physiognomonica_72
-36	λιπαρότης	λιπαρότης	n	n-s---fn-	Case=n|Gender=f|Number=s	29	APOS	_	t_151|ref=Physiognomonica_72
-37	,	,	u	u--------	_	53	AuxX	_	t_152|ref=Physiognomonica_72
-38	καὶ	καί	c	c--------	_	53	COORD	_	t_153|ref=Physiognomonica_72
-39	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	40	ATR	_	t_154|ref=Physiognomonica_72
-40	ἀνεσπάσθαι	ἀνασπάω	v	v--anm---	Mood=n|Tense=a|Voice=m	46	SBJ	_	t_155|ref=Physiognomonica_72
-41	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	42	ATR	_	t_156|ref=Physiognomonica_72
-42	γένειον	γένειον	n	n-s---na-	Case=a|Gender=n|Number=s	40	SBJ	_	t_157|ref=Physiognomonica_72
-43	πρὸς	πρός	r	r--------	_	40	AuxP	_	t_158|ref=Physiognomonica_72
-44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	45	ATR	_	t_159|ref=Physiognomonica_72
-45	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_160|ref=Physiognomonica_72
-46	καὶ	καί	c	c--------	_	38	COORD	_	t_161|ref=Physiognomonica_72
-47	περιφέρειαν	περιφέρεια	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_162|ref=Physiognomonica_72
-48	κοίλην	κοῖλος	a	a-s---fa-	Case=a|Gender=f|Number=s	47	ATR	_	t_163|ref=Physiognomonica_72
-49	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	46	OBJ	_	t_164|ref=Physiognomonica_72
-50	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	51	ATR	_	t_165|ref=Physiognomonica_72
-51	τόπον	τόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	49	OBJ	_	t_166|ref=Physiognomonica_72
-52	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	51	ATR	_	t_167|ref=Physiognomonica_72
-53	[	[	u	u--------	_	55	AuxG	_	t_168|ref=Physiognomonica_72
-54	p	p	n	n--------	_	46	OBJ	_	t_169|ref=Physiognomonica_72
-55	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Physiognomonica_70
-56	.	.	u	u--------	_	53	AuxK	_	t_170|ref=Physiognomonica_72
+1	λευκόχρως	λευκόχρους	d	d--------	_	55	ExD	_	t_116|e_10|ref=Physiog._71
+2	,	,	u	u--------	_	53	AuxX	_	t_117|t_168|ref=Physiog._71
+3	δασὺς	δασύς	a	a-s---mn-	Case=n|Gender=m|Number=s	55	PNOM	_	t_118|e_10|ref=Physiog._71
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_119|t_120|ref=Physiog._71
+5	ὑπήνῃ	ὑπήνη	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_120|t_118|ref=Physiog._71
+6	,	,	u	u--------	_	53	AuxX	_	t_121|t_168|ref=Physiog._72
+7	εὐθείας	εὐθεῖα	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_122|t_123|ref=Physiog._72
+8	καὶ	καί	c	c--------	_	11	COORD	_	t_123|t_126|ref=Physiog._71
+9	παχείας	παχύς	a	a-p---fa-	Case=a|Gender=f|Number=p	8	ATR	_	t_124|t_123|ref=Physiog._72
+10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_125|t_126|ref=Physiog._72
+11	τρίχας	θρίξ	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_126|t_127|ref=Physiog._72
+12	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	55	ADV	_	t_127|e_10|ref=Physiog._72
+13	,	,	u	u--------	_	53	AuxX	_	t_128|t_168|ref=Physiog._72
+14	λιπαρὸν	λιπαρός	a	a-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_129|t_132|ref=Physiog._72
+15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_130|t_131|ref=Physiog._72
+16	ὄμμα	ὄμμα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_131|t_127|ref=Physiog._72
+17	καὶ	καί	c	c--------	_	16	COORD	_	t_132|t_131|ref=Physiog._72
+18	μάργον	μάργος	n	n-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_133|t_132|ref=Physiog._72
+19	,	,	u	u--------	_	53	AuxX	_	t_134|t_168|ref=Physiog._72
+20	σκέλη	σκέλος	n	n-p---na-	Case=a|Gender=n|Number=p	38	OBJ	_	t_135|t_153|ref=Physiog._72
+21	λεπτὰ	λεπτός	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_136|t_139|ref=Physiog._72
+22	καὶ	καί	c	c--------	_	24	AuxY	_	t_137|t_139|ref=Physiog._72
+23	νευρώδη	νευρώδης	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_138|t_139|ref=Physiog._72
+24	καὶ	καί	c	c--------	_	20	COORD	_	t_139|t_135|ref=Physiog._72
+25	ὅλως	ὅλος	d	d--------	_	26	ADV	_	t_140|t_141|ref=Physiog._72
+26	ὀρνιθώδη	ὀρνιθώδης	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_141|t_139|ref=Physiog._72
+27	,	,	u	u--------	_	53	AuxX	_	t_142|t_168|ref=Physiog._72
+28	δασύτης	δασύτης	a	a-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_143|t_149|ref=Physiog._72
+29	σκε	σκώ	v	v2spma---	Case=v|Gender=m|Number=s	38	OBJ	_	t_144|t_153|ref=Physiog._72
+30	-	-	u	u--------	_	53	AuxX	_	t_145|t_168|ref=Physiog._72
+31	λῶν	λείπω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	29	ATR	_	t_146|t_144|ref=Physiog._72
+32	,	,	u	u--------	_	53	AuxX	_	t_147|t_168|ref=Physiog._72
+33	γαστρὸς	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	34	APOS	_	t_148|t_149|ref=Physiog._72
+34	καὶ	καί	c	c--------	_	31	COORD	_	t_149|t_146|ref=Physiog._72
+35	ὀμμάτων	ὄμμα	n	n-p---ng-	Case=g|Gender=n|Number=p	36	ATR	_	t_150|t_151|ref=Physiog._72
+36	λιπαρότης	λιπαρότης	n	n-s---fn-	Case=n|Gender=f|Number=s	29	APOS	_	t_151|t_144|ref=Physiog._72
+37	,	,	u	u--------	_	53	AuxX	_	t_152|t_168|ref=Physiog._72
+38	καὶ	καί	c	c--------	_	53	COORD	_	t_153|t_168|ref=Physiog._72
+39	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	40	ATR	_	t_154|t_155|ref=Physiog._72
+40	ἀνεσπάσθαι	ἀνασπάω	v	v--anm---	Mood=n|Tense=a|Voice=m	46	SBJ	_	t_155|t_161|ref=Physiog._72
+41	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	42	ATR	_	t_156|t_157|ref=Physiog._72
+42	γένειον	γένειον	n	n-s---na-	Case=a|Gender=n|Number=s	40	SBJ	_	t_157|t_155|ref=Physiog._72
+43	πρὸς	πρός	r	r--------	_	40	AuxP	_	t_158|t_155|ref=Physiog._72
+44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	45	ATR	_	t_159|t_160|ref=Physiog._72
+45	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_160|t_158|ref=Physiog._72
+46	καὶ	καί	c	c--------	_	38	COORD	_	t_161|t_153|ref=Physiog._72
+47	περιφέρειαν	περιφέρεια	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_162|t_164|ref=Physiog._72
+48	κοίλην	κοῖλος	a	a-s---fa-	Case=a|Gender=f|Number=s	47	ATR	_	t_163|t_162|ref=Physiog._72
+49	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	46	OBJ	_	t_164|t_161|ref=Physiog._72
+50	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	51	ATR	_	t_165|t_166|ref=Physiog._72
+51	τόπον	τόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	49	OBJ	_	t_166|t_164|ref=Physiog._72
+52	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	51	ATR	_	t_167|t_166|ref=Physiog._72
+53	[	[	u	u--------	_	55	AuxG	_	t_168|e_10|ref=Physiog._72
+54	p	p	n	n--------	_	46	OBJ	_	t_169|t_161|ref=Physiog._72
+55	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Physiog._70
+56	.	.	u	u--------	_	53	AuxK	_	t_170|t_168|ref=Physiog._72
 
-# source = Pseudo-Polemon, Physiognomonica 72
+# source = Pseudo-Polemon, Physiog. 72
 # text = 31 ] μεταξὺ τῆς ῥινὸς καὶ τοῦ γενείου , οἷον εἶχε Σωκράτης ὁ καλός [0] .
 # sent_id = 12
-1	31	31	x	x--------	_	15	AuxG	_	t_171|ref=Physiognomonica_72
-2	]	]	u	u--------	_	15	AuxX	_	t_172|ref=Physiognomonica_72
-3	μεταξὺ	μεταξύ	r	r--------	_	15	AuxP	_	t_173|ref=Physiognomonica_72
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_174|ref=Physiognomonica_72
-5	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_175|ref=Physiognomonica_72
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_176|ref=Physiognomonica_72
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_177|ref=Physiognomonica_72
-8	γενείου	γένειον	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_178|ref=Physiognomonica_72
-9	,	,	u	u--------	_	15	AuxX	_	t_179|ref=Physiognomonica_72
-10	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_180|ref=Physiognomonica_72
-11	εἶχε	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	15	OBJ	_	t_181|ref=Physiognomonica_72
-12	Σωκράτης	σωκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_182|ref=Physiognomonica_72
-13	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_183|ref=Physiognomonica_72
-14	καλός	καλός	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_184|ref=Physiognomonica_72
-15	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Physiognomonica_70
-16	.	.	u	u--------	_	15	AuxK	_	t_185|ref=Physiognomonica_72
+1	31	31	x	x--------	_	15	AuxG	_	t_171|e_11|ref=Physiog._72
+2	]	]	u	u--------	_	15	AuxX	_	t_172|e_11|ref=Physiog._72
+3	μεταξὺ	μεταξύ	r	r--------	_	15	AuxP	_	t_173|e_11|ref=Physiog._72
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_174|t_175|ref=Physiog._72
+5	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_175|t_176|ref=Physiog._72
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_176|t_173|ref=Physiog._72
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_177|t_178|ref=Physiog._72
+8	γενείου	γένειον	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_178|t_176|ref=Physiog._72
+9	,	,	u	u--------	_	15	AuxX	_	t_179|e_11|ref=Physiog._72
+10	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_180|t_181|ref=Physiog._72
+11	εἶχε	ἔχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	15	OBJ	_	t_181|e_11|ref=Physiog._72
+12	Σωκράτης	σωκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_182|t_181|ref=Physiog._72
+13	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_183|t_182|ref=Physiog._72
+14	καλός	καλός	a	a-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_184|t_182|ref=Physiog._72
+15	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Physiog._70
+16	.	.	u	u--------	_	15	AuxK	_	t_185|e_11|ref=Physiog._72
 
-# source = Pseudo-Polemon, Physiognomonica 72
+# source = Pseudo-Polemon, Physiog. 72
 # text = καὶ οἷς ὑγροὶ οἱ ὀφθαλμοί , οἱ τοιοῦτοι λάγνοι καὶ οἷς ἡ φλὲψ ἐν τῷ βραχίονι , καὶ οἱ ῥικνοὶ τὰς κνήμας [0] [1] .
 # sent_id = 13
-1	καὶ	καί	c	c--------	_	23	AuxY	_	t_186|ref=Physiognomonica_72
-2	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_187|ref=Physiognomonica_72
-3	ὑγροὶ	ὑγρός	a	a-p---mn-	Case=n|Gender=m|Number=p	23	PNOM	_	t_188|ref=Physiognomonica_72
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_189|ref=Physiognomonica_72
-5	ὀφθαλμοί	ὀφθαλμός	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_190|ref=Physiognomonica_72
-6	,	,	u	u--------	_	0	AuxX	_	t_191|ref=Physiognomonica_72
-7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_192|ref=Physiognomonica_72
-8	τοιοῦτοι	τοιοῦτος	p	p-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_193|ref=Physiognomonica_72
-9	λάγνοι	λάγνος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_194|ref=Physiognomonica_72
-10	καὶ	καί	c	c--------	_	18	COORD	_	t_195|ref=Physiognomonica_72
-11	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	24	PNOM	_	t_196|ref=Physiognomonica_72
-12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_197|ref=Physiognomonica_72
-13	φλὲψ	φλέψ	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_198|ref=Physiognomonica_72
-14	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_199|ref=Physiognomonica_72
-15	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_200|ref=Physiognomonica_72
-16	βραχίονι	βραχίων	n	n-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_201|ref=Physiognomonica_72
-17	,	,	u	u--------	_	6	AuxX	_	t_202|ref=Physiognomonica_72
-18	καὶ	καί	c	c--------	_	6	COORD	_	t_203|ref=Physiognomonica_72
-19	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	20	ATR	_	t_204|ref=Physiognomonica_72
-20	ῥικνοὶ	ῥικνός	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_205|ref=Physiognomonica_72
-21	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	22	ATR	_	t_206|ref=Physiognomonica_72
-22	κνήμας	κνήμη	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_207|ref=Physiognomonica_72
-23	[0]	[0]	-	---------	_	18	PRED	_	e_12|ref=Physiognomonica_70
-24	[1]	[1]	-	---------	_	18	PRED	_	e_13|ref=Physiognomonica_70
-25	.	.	u	u--------	_	23	AuxK	_	t_208|ref=Physiognomonica_72
+1	καὶ	καί	c	c--------	_	23	AuxY	_	t_186|e_12|ref=Physiog._72
+2	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_187|t_188|ref=Physiog._72
+3	ὑγροὶ	ὑγρός	a	a-p---mn-	Case=n|Gender=m|Number=p	23	PNOM	_	t_188|e_12|ref=Physiog._72
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_189|t_190|ref=Physiog._72
+5	ὀφθαλμοί	ὀφθαλμός	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_190|t_195|ref=Physiog._72
+6	,	,	u	u--------	_	0	AuxX	_	t_191|0|ref=Physiog._72
+7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_192|t_194|ref=Physiog._72
+8	τοιοῦτοι	τοιοῦτος	p	p-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_193|t_194|ref=Physiog._72
+9	λάγνοι	λάγνος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_194|t_195|ref=Physiog._72
+10	καὶ	καί	c	c--------	_	18	COORD	_	t_195|t_203|ref=Physiog._72
+11	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	24	PNOM	_	t_196|e_13|ref=Physiog._72
+12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_197|t_198|ref=Physiog._72
+13	φλὲψ	φλέψ	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_198|e_13|ref=Physiog._72
+14	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_199|e_13|ref=Physiog._72
+15	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_200|t_201|ref=Physiog._72
+16	βραχίονι	βραχίων	n	n-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_201|t_199|ref=Physiog._72
+17	,	,	u	u--------	_	6	AuxX	_	t_202|t_191|ref=Physiog._72
+18	καὶ	καί	c	c--------	_	6	COORD	_	t_203|t_191|ref=Physiog._72
+19	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	20	ATR	_	t_204|t_205|ref=Physiog._72
+20	ῥικνοὶ	ῥικνός	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_205|t_203|ref=Physiog._72
+21	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	22	ATR	_	t_206|t_207|ref=Physiog._72
+22	κνήμας	κνήμη	n	n-p---fa-	Case=a|Gender=f|Number=p	23	OBJ	_	t_207|e_12|ref=Physiog._72
+23	[0]	[0]	-	---------	_	18	PRED	_	e_12|t_203|ref=Physiog._70
+24	[1]	[1]	-	---------	_	18	PRED	_	e_13|t_203|ref=Physiog._70
+25	.	.	u	u--------	_	23	AuxK	_	t_208|e_12|ref=Physiog._72
 
-# source = Pseudo-Polemon, Physiognomonica 72
+# source = Pseudo-Polemon, Physiog. 72
 # text = Λάλου σημεῖα [0] ·
 # sent_id = 14
-1	Λάλου	λάλος	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_209|ref=Physiognomonica_72
-2	σημεῖα	σημεῖον	n	n-s---fn-	Case=n|Gender=f|Number=s	3	ExD	_	t_210|ref=Physiognomonica_72
-3	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Physiognomonica_70
-4	·	·	u	u--------	_	3	AuxK	_	t_211|ref=Physiognomonica_72
+1	Λάλου	λάλος	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_209|e_14|ref=Physiog._72
+2	σημεῖα	σημεῖον	n	n-s---fn-	Case=n|Gender=f|Number=s	3	ExD	_	t_210|e_14|ref=Physiog._72
+3	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Physiog._70
+4	·	·	u	u--------	_	3	AuxK	_	t_211|e_14|ref=Physiog._72
 
-# source = Pseudo-Polemon, Physiognomonica 72-73
+# source = Pseudo-Polemon, Physiog. 72-73
 # text = οἱ τὰ ἄνω μείζω ἔχοντες καὶ γλα - φυροὶ τῷ εἴδει καὶ δασεῖς τὰ περὶ τὴν κοιλίαν [0] .
 # sent_id = 15
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_212|ref=Physiognomonica_72
-2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_213|ref=Physiognomonica_72
-3	ἄνω	ἄνω	d	d--------	_	2	ATR	_	t_214|ref=Physiognomonica_72
-4	μείζω	μέγας	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	2	ATR	_	t_215|ref=Physiognomonica_72
-5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	SBJ	_	t_216|ref=Physiognomonica_72
-6	καὶ	καί	c	c--------	_	5	COORD	_	t_217|ref=Physiognomonica_72
-7	γλα	γλα	n	n-p---na-	Case=a|Gender=f|Number=s	6	OBJ	_	t_218|ref=Physiognomonica_72
-8	-	-	u	u--------	_	18	AuxG	_	t_219|ref=Physiognomonica_72
-9	φυροὶ	φυρός	a	a-p---mn-	Case=n|Gender=m|Number=p	12	PNOM	_	t_220|ref=Physiognomonica_72
-10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_221|ref=Physiognomonica_72
-11	εἴδει	εἶδος	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ADV	_	t_222|ref=Physiognomonica_73
-12	καὶ	καί	c	c--------	_	18	COORD	_	t_223|ref=Physiognomonica_73
-13	δασεῖς	δασύς	n	n-p---mn-	Case=n|Gender=m|Number=p	12	PNOM	_	t_224|ref=Physiognomonica_72
-14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_225|ref=Physiognomonica_73
-15	περὶ	περί	r	r--------	_	14	AuxP	_	t_226|ref=Physiognomonica_73
-16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_227|ref=Physiognomonica_73
-17	κοιλίαν	κοιλία	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_228|ref=Physiognomonica_73
-18	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Physiognomonica_70
-19	.	.	u	u--------	_	18	AuxK	_	t_229|ref=Physiognomonica_73
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_212|t_216|ref=Physiog._72
+2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_213|t_216|ref=Physiog._72
+3	ἄνω	ἄνω	d	d--------	_	2	ATR	_	t_214|t_213|ref=Physiog._72
+4	μείζω	μέγας	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	2	ATR	_	t_215|t_213|ref=Physiog._72
+5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	SBJ	_	t_216|e_15|ref=Physiog._72
+6	καὶ	καί	c	c--------	_	5	COORD	_	t_217|t_216|ref=Physiog._72
+7	γλα	γλα	n	n-p---na-	Case=a|Gender=f|Number=s	6	OBJ	_	t_218|t_217|ref=Physiog._72
+8	-	-	u	u--------	_	18	AuxG	_	t_219|e_15|ref=Physiog._72
+9	φυροὶ	φυρός	a	a-p---mn-	Case=n|Gender=m|Number=p	12	PNOM	_	t_220|t_223|ref=Physiog._72
+10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_221|t_222|ref=Physiog._72
+11	εἴδει	εἶδος	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ADV	_	t_222|t_223|ref=Physiog._73
+12	καὶ	καί	c	c--------	_	18	COORD	_	t_223|e_15|ref=Physiog._73
+13	δασεῖς	δασύς	n	n-p---mn-	Case=n|Gender=m|Number=p	12	PNOM	_	t_224|t_223|ref=Physiog._72
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_225|t_224|ref=Physiog._73
+15	περὶ	περί	r	r--------	_	14	AuxP	_	t_226|t_225|ref=Physiog._73
+16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_227|t_228|ref=Physiog._73
+17	κοιλίαν	κοιλία	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_228|t_226|ref=Physiog._73
+18	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Physiog._70
+19	.	.	u	u--------	_	18	AuxK	_	t_229|e_15|ref=Physiog._73
 
-# source = Pseudo-Polemon, Physiognomonica 73
+# source = Pseudo-Polemon, Physiog. 73
 # text = Φιλύπνου [ p .
 # sent_id = 16
-1	Φιλύπνου	φιλόυπνος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ExD	_	t_230|ref=Physiognomonica_73
-2	[	[	u	u--------	_	3	AuxX	_	t_231|ref=Physiognomonica_73
-3	p	p	x	x--------	_	0	AuxG	_	t_232|ref=Physiognomonica_73
-4	.	.	u	u--------	_	3	AuxK	_	t_233|ref=Physiognomonica_73
+1	Φιλύπνου	φιλόυπνος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ExD	_	t_230|t_232|ref=Physiog._73
+2	[	[	u	u--------	_	3	AuxX	_	t_231|t_232|ref=Physiog._73
+3	p	p	x	x--------	_	0	AuxG	_	t_232|0|ref=Physiog._73
+4	.	.	u	u--------	_	3	AuxK	_	t_233|t_232|ref=Physiog._73
 
-# source = Pseudo-Polemon, Physiognomonica 73
+# source = Pseudo-Polemon, Physiog. 73
 # text = 32 ] σημεῖα [0] ·
 # sent_id = 17
-1	32	32	u	u--------	_	4	AuxG	_	t_234|ref=Physiognomonica_73
-2	]	]	u	u--------	_	4	AuxG	_	t_235|ref=Physiognomonica_73
-3	σημεῖα	σημεῖον	n	n-p---na-	Case=a|Gender=n|Number=p	4	ExD	_	t_236|ref=Physiognomonica_73
-4	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Physiognomonica_70
-5	·	·	u	u--------	_	4	AuxK	_	t_237|ref=Physiognomonica_73
+1	32	32	u	u--------	_	4	AuxG	_	t_234|e_16|ref=Physiog._73
+2	]	]	u	u--------	_	4	AuxG	_	t_235|e_16|ref=Physiog._73
+3	σημεῖα	σημεῖον	n	n-p---na-	Case=a|Gender=n|Number=p	4	ExD	_	t_236|e_16|ref=Physiog._73
+4	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Physiog._70
+5	·	·	u	u--------	_	4	AuxK	_	t_237|e_16|ref=Physiog._73
 
-# source = Pseudo-Polemon, Physiognomonica 73-74
+# source = Pseudo-Polemon, Physiog. 73-74
 # text = οἱ τὰ ἄνω ἔχοντες μείζω καὶ ὑπνώδεις καὶ θερμοὶ καὶ εὔεκτον σάρκα ἔχοντες [0] .
 # sent_id = 18
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_238|ref=Physiognomonica_73
-2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_239|ref=Physiognomonica_73
-3	ἄνω	ἄνω	d	d--------	_	2	ATR	_	t_240|ref=Physiognomonica_73
-4	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	SBJ	_	t_241|ref=Physiognomonica_73
-5	μείζω	μέγας	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	4	OBJ	_	t_242|ref=Physiognomonica_73
-6	καὶ	καί	c	c--------	_	10	AuxY	_	t_243|ref=Physiognomonica_73
-7	ὑπνώδεις	ὑπνώδης	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_244|ref=Physiognomonica_73
-8	καὶ	καί	c	c--------	_	10	AuxY	_	t_245|ref=Physiognomonica_74
-9	θερμοὶ	θερμός	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_246|ref=Physiognomonica_74
-10	καὶ	καί	c	c--------	_	14	COORD	_	t_247|ref=Physiognomonica_74
-11	εὔεκτον	εὔεκτος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_248|ref=Physiognomonica_74
-12	σάρκα	σάρξ	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_249|ref=Physiognomonica_74
-13	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	PNOM	_	t_250|ref=Physiognomonica_74
-14	[0]	[0]	-	---------	_	0	PRED	_	e_17|ref=Physiognomonica_70
-15	.	.	u	u--------	_	14	AuxK	_	t_251|ref=Physiognomonica_74
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_238|t_241|ref=Physiog._73
+2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_239|t_241|ref=Physiog._73
+3	ἄνω	ἄνω	d	d--------	_	2	ATR	_	t_240|t_239|ref=Physiog._73
+4	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	14	SBJ	_	t_241|e_17|ref=Physiog._73
+5	μείζω	μέγας	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	4	OBJ	_	t_242|t_241|ref=Physiog._73
+6	καὶ	καί	c	c--------	_	10	AuxY	_	t_243|t_247|ref=Physiog._73
+7	ὑπνώδεις	ὑπνώδης	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_244|t_247|ref=Physiog._73
+8	καὶ	καί	c	c--------	_	10	AuxY	_	t_245|t_247|ref=Physiog._74
+9	θερμοὶ	θερμός	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_246|t_247|ref=Physiog._74
+10	καὶ	καί	c	c--------	_	14	COORD	_	t_247|e_17|ref=Physiog._74
+11	εὔεκτον	εὔεκτος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_248|t_249|ref=Physiog._74
+12	σάρκα	σάρξ	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_249|t_250|ref=Physiog._74
+13	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	PNOM	_	t_250|t_247|ref=Physiog._74
+14	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Physiog._70
+15	.	.	u	u--------	_	14	AuxK	_	t_251|e_17|ref=Physiog._74
 
-# source = Pseudo-Polemon, Physiognomonica 73-74
+# source = Pseudo-Polemon, Physiog. 73-74
 # text = Φθονεροῦ σημεῖα [0] ·
 # sent_id = 19
-1	Φθονεροῦ	φθονερός	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_252|ref=Physiognomonica_73
-2	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_253|ref=Physiognomonica_74
-3	[0]	[0]	-	---------	_	0	PRED	_	e_18|ref=Physiognomonica_70
-4	·	·	u	u--------	_	3	AuxK	_	t_254|ref=Physiognomonica_74
+1	Φθονεροῦ	φθονερός	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_252|t_253|ref=Physiog._73
+2	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_253|e_18|ref=Physiog._74
+3	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Physiog._70
+4	·	·	u	u--------	_	3	AuxK	_	t_254|e_18|ref=Physiog._74
 
-# source = Pseudo-Polemon, Physiognomonica 74
+# source = Pseudo-Polemon, Physiog. 74
 # text = οἱ τὰ ἀριστερὰ μείζω ἔχοντες καὶ οἷς αἱ ὀφρύες ἐπὶ τὰ βλέφαρα καθήκουσιν [0] .
 # sent_id = 20
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_255|ref=Physiognomonica_74
-2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_256|ref=Physiognomonica_74
-3	ἀριστερὰ	ἀριστερός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_257|ref=Physiognomonica_74
-4	μείζω	μέγας	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	3	ATR	_	t_258|ref=Physiognomonica_74
-5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_259|ref=Physiognomonica_74
-6	καὶ	καί	c	c--------	_	14	COORD	_	t_260|ref=Physiognomonica_74
-7	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_261|ref=Physiognomonica_74
-8	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_262|ref=Physiognomonica_74
-9	ὀφρύες	ὀφρύς	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_263|ref=Physiognomonica_74
-10	ἐπὶ	ἐπί	r	r--------	_	13	AuxP	_	t_264|ref=Physiognomonica_74
-11	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_265|ref=Physiognomonica_74
-12	βλέφαρα	βλέφαρον	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_266|ref=Physiognomonica_74
-13	καθήκουσιν	καθήκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	ATR	_	t_267|ref=Physiognomonica_74
-14	[0]	[0]	-	---------	_	0	PRED	_	e_19|ref=Physiognomonica_70
-15	.	.	u	u--------	_	14	AuxK	_	t_268|ref=Physiognomonica_74
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_255|t_260|ref=Physiog._74
+2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_256|t_257|ref=Physiog._74
+3	ἀριστερὰ	ἀριστερός	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_257|t_259|ref=Physiog._74
+4	μείζω	μέγας	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	3	ATR	_	t_258|t_257|ref=Physiog._74
+5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	SBJ	_	t_259|t_260|ref=Physiog._74
+6	καὶ	καί	c	c--------	_	14	COORD	_	t_260|e_19|ref=Physiog._74
+7	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	13	ADV	_	t_261|t_267|ref=Physiog._74
+8	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_262|t_263|ref=Physiog._74
+9	ὀφρύες	ὀφρύς	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_263|t_267|ref=Physiog._74
+10	ἐπὶ	ἐπί	r	r--------	_	13	AuxP	_	t_264|t_267|ref=Physiog._74
+11	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_265|t_266|ref=Physiog._74
+12	βλέφαρα	βλέφαρον	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_266|t_264|ref=Physiog._74
+13	καθήκουσιν	καθήκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	ATR	_	t_267|t_260|ref=Physiog._74
+14	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Physiog._70
+15	.	.	u	u--------	_	14	AuxK	_	t_268|e_19|ref=Physiog._74
 
-# source = Pseudo-Polemon, Physiognomonica 75
+# source = Pseudo-Polemon, Physiog. 75
 # text = Ὅσοῖς ὁ σπόνδυλος ἐξέστηκε κατὰ τὴν συναφὴν τοῦ τραχήλου , [ p .
 # sent_id = 21
-1	Ὅσοῖς	ὅσος	p	p-p---nd-	Case=d|Gender=m|Number=p	4	OBJ	_	t_269|ref=Physiognomonica_75
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_270|ref=Physiognomonica_75
-3	σπόνδυλος	σπόνδυλος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_271|ref=Physiognomonica_74
-4	ἐξέστηκε	ἐξίστημι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	12	ATR	_	t_272|ref=Physiognomonica_75
-5	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_273|ref=Physiognomonica_75
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_274|ref=Physiognomonica_75
-7	συναφὴν	συναφή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_275|ref=Physiognomonica_75
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_276|ref=Physiognomonica_75
-9	τραχήλου	τράχηλος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_277|ref=Physiognomonica_75
-10	,	,	u	u--------	_	12	AuxX	_	t_278|ref=Physiognomonica_75
-11	[	[	u	u--------	_	0	AuxG	_	t_279|ref=Physiognomonica_75
-12	p	p	n	n--------	_	11	ExD	_	t_280|ref=Physiognomonica_75
-13	.	.	u	u--------	_	12	AuxK	_	t_281|ref=Physiognomonica_75
+1	Ὅσοῖς	ὅσος	p	p-p---nd-	Case=d|Gender=m|Number=p	4	OBJ	_	t_269|t_272|ref=Physiog._75
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_270|t_271|ref=Physiog._75
+3	σπόνδυλος	σπόνδυλος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_271|t_272|ref=Physiog._74
+4	ἐξέστηκε	ἐξίστημι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	12	ATR	_	t_272|t_280|ref=Physiog._75
+5	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_273|t_272|ref=Physiog._75
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_274|t_275|ref=Physiog._75
+7	συναφὴν	συναφή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_275|t_273|ref=Physiog._75
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_276|t_277|ref=Physiog._75
+9	τραχήλου	τράχηλος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_277|t_275|ref=Physiog._75
+10	,	,	u	u--------	_	12	AuxX	_	t_278|t_280|ref=Physiog._75
+11	[	[	u	u--------	_	0	AuxG	_	t_279|0|ref=Physiog._75
+12	p	p	n	n--------	_	11	ExD	_	t_280|t_279|ref=Physiog._75
+13	.	.	u	u--------	_	12	AuxK	_	t_281|t_280|ref=Physiog._75
 
-# source = Pseudo-Polemon, Physiognomonica 75
+# source = Pseudo-Polemon, Physiog. 75
 # text = 303 ] ὑβρισταί ·
 # sent_id = 22
-1	303	303	x	x--------	_	0	AuxG	_	t_282|ref=Physiognomonica_75
-2	]	]	u	u--------	_	1	AuxG	_	t_283|ref=Physiognomonica_75
-3	ὑβρισταί	ὑβριστής	d	d--------	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	ExD	_	t_284|ref=Physiognomonica_75
-4	·	·	u	u--------	_	1	AuxK	_	t_285|ref=Physiognomonica_75
+1	303	303	x	x--------	_	0	AuxG	_	t_282|0|ref=Physiog._75
+2	]	]	u	u--------	_	1	AuxG	_	t_283|t_282|ref=Physiog._75
+3	ὑβρισταί	ὑβριστής	d	d--------	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	ExD	_	t_284|t_282|ref=Physiog._75
+4	·	·	u	u--------	_	1	AuxK	_	t_285|t_282|ref=Physiog._75
 
-# source = Pseudo-Polemon, Physiognomonica 74-76
+# source = Pseudo-Polemon, Physiog. 74-76
 # text = ἀναφέρεται ἐπὶ τοὺς ὗς .
 # sent_id = 23
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_286|ref=Physiognomonica_74
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_287|ref=Physiognomonica_75
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_288|ref=Physiognomonica_76
-4	ὗς	ὗς	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_289|ref=Physiognomonica_76
-5	.	.	u	u--------	_	1	AuxK	_	t_290|ref=Physiognomonica_76
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_286|0|ref=Physiog._74
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_287|t_286|ref=Physiog._75
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_288|t_289|ref=Physiog._76
+4	ὗς	ὗς	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_289|t_287|ref=Physiog._76
+5	.	.	u	u--------	_	1	AuxK	_	t_290|t_286|ref=Physiog._76
 
-# source = Pseudo-Polemon, Physiognomonica 76
+# source = Pseudo-Polemon, Physiog. 76
 # text = Οἱ τῶν χειλῶν τὸ κάτω τοῦ ἄνω προβεβλημένον ἔχοντες βλάκες , μετέωροι , ἀσθενεῖς , μοχθηροί [0] ·
 # sent_id = 24
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_291|ref=Physiognomonica_76
-2	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_292|ref=Physiognomonica_76
-3	χειλῶν	χειλή	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_293|ref=Physiognomonica_76
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_294|ref=Physiognomonica_76
-5	κάτω	κάτω	d	d--------	_	9	OBJ	_	t_295|ref=Physiognomonica_76
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_296|ref=Physiognomonica_76
-7	ἄνω	ἄνω	d	d--------	_	8	ADV	_	t_297|ref=Physiognomonica_76
-8	προβεβλημένον	προβάλλω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	5	ATR	_	t_298|ref=Physiognomonica_76
-9	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	ATR	_	t_299|ref=Physiognomonica_76
-10	βλάκες	βλάξ	n	n-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_300|ref=Physiognomonica_76
-11	,	,	u	u--------	_	15	AuxX	_	t_301|ref=Physiognomonica_76
-12	μετέωροι	μετέωρος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_302|ref=Physiognomonica_76
-13	,	,	u	u--------	_	17	AuxX	_	t_303|ref=Physiognomonica_76
-14	ἀσθενεῖς	ἀσθενής	a	a-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_304|ref=Physiognomonica_76
-15	,	,	u	u--------	_	10	COORD	_	t_305|ref=Physiognomonica_76
-16	μοχθηροί	μοχθηρός	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_306|ref=Physiognomonica_76
-17	[0]	[0]	-	---------	_	0	PRED	_	e_20|ref=Physiognomonica_70
-18	·	·	u	u--------	_	17	AuxK	_	t_307|ref=Physiognomonica_76
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_291|t_300|ref=Physiog._76
+2	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_292|t_293|ref=Physiog._76
+3	χειλῶν	χειλή	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_293|t_295|ref=Physiog._76
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_294|t_295|ref=Physiog._76
+5	κάτω	κάτω	d	d--------	_	9	OBJ	_	t_295|t_299|ref=Physiog._76
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_296|t_297|ref=Physiog._76
+7	ἄνω	ἄνω	d	d--------	_	8	ADV	_	t_297|t_298|ref=Physiog._76
+8	προβεβλημένον	προβάλλω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	5	ATR	_	t_298|t_295|ref=Physiog._76
+9	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	10	ATR	_	t_299|t_300|ref=Physiog._76
+10	βλάκες	βλάξ	n	n-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_300|e_20|ref=Physiog._76
+11	,	,	u	u--------	_	15	AuxX	_	t_301|t_305|ref=Physiog._76
+12	μετέωροι	μετέωρος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_302|t_305|ref=Physiog._76
+13	,	,	u	u--------	_	17	AuxX	_	t_303|e_20|ref=Physiog._76
+14	ἀσθενεῖς	ἀσθενής	a	a-p---mn-	Case=n|Gender=m|Number=p	15	ATR	_	t_304|t_305|ref=Physiog._76
+15	,	,	u	u--------	_	10	COORD	_	t_305|t_300|ref=Physiog._76
+16	μοχθηροί	μοχθηρός	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_306|t_305|ref=Physiog._76
+17	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Physiog._70
+18	·	·	u	u--------	_	17	AuxK	_	t_307|e_20|ref=Physiog._76
 
-# source = Pseudo-Polemon, Physiognomonica 76-77
+# source = Pseudo-Polemon, Physiog. 76-77
 # text = ἀναφέρεται ἐπὶ τοὺς ὄνους .
 # sent_id = 25
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_308|ref=Physiognomonica_76
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_309|ref=Physiognomonica_76
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_310|ref=Physiognomonica_77
-4	ὄνους	ὄνος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_311|ref=Physiognomonica_77
-5	.	.	u	u--------	_	1	AuxK	_	t_312|ref=Physiognomonica_77
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_308|0|ref=Physiog._76
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_309|t_308|ref=Physiog._76
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_310|t_311|ref=Physiog._77
+4	ὄνους	ὄνος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_311|t_309|ref=Physiog._77
+5	.	.	u	u--------	_	1	AuxK	_	t_312|t_308|ref=Physiog._77
 
-# source = Pseudo-Polemon, Physiognomonica 77
+# source = Pseudo-Polemon, Physiog. 77
 # text = Οἱ τὴν ῥῖνα ἄγαν πλατεῖαν ἔχοντες δειλοί [0] ·
 # sent_id = 26
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_313|ref=Physiognomonica_77
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_314|ref=Physiognomonica_77
-3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_315|ref=Physiognomonica_77
-4	ἄγαν	ἄγαν	d	d--------	_	5	ADV	_	t_316|ref=Physiognomonica_77
-5	πλατεῖαν	πλατεῖον	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_317|ref=Physiognomonica_77
-6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_318|ref=Physiognomonica_77
-7	δειλοί	δειλός	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_319|ref=Physiognomonica_77
-8	[0]	[0]	-	---------	_	0	PRED	_	e_21|ref=Physiognomonica_70
-9	·	·	u	u--------	_	8	AuxK	_	t_320|ref=Physiognomonica_77
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_313|t_318|ref=Physiog._77
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_314|t_315|ref=Physiog._77
+3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_315|t_318|ref=Physiog._77
+4	ἄγαν	ἄγαν	d	d--------	_	5	ADV	_	t_316|t_317|ref=Physiog._77
+5	πλατεῖαν	πλατεῖον	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_317|t_315|ref=Physiog._77
+6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_318|e_21|ref=Physiog._77
+7	δειλοί	δειλός	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_319|e_21|ref=Physiog._77
+8	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Physiog._70
+9	·	·	u	u--------	_	8	AuxK	_	t_320|e_21|ref=Physiog._77
 
-# source = Pseudo-Polemon, Physiognomonica 77
+# source = Pseudo-Polemon, Physiog. 77
 # text = ἀνα - φέρεται ἐπὶ τοὺς ὗς .
 # sent_id = 27
-1	ἀνα	ἀνά	d	d--------	_	3	ExD	_	t_321|ref=Physiognomonica_77
-2	-	-	u	u--------	_	3	AuxG	_	t_322|ref=Physiognomonica_77
-3	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_323|ref=Physiognomonica_77
-4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_324|ref=Physiognomonica_77
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_325|ref=Physiognomonica_77
-6	ὗς	ὗς	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_326|ref=Physiognomonica_76
-7	.	.	u	u--------	_	3	AuxK	_	t_327|ref=Physiognomonica_77
+1	ἀνα	ἀνά	d	d--------	_	3	ExD	_	t_321|t_323|ref=Physiog._77
+2	-	-	u	u--------	_	3	AuxG	_	t_322|t_323|ref=Physiog._77
+3	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_323|0|ref=Physiog._77
+4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_324|t_323|ref=Physiog._77
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_325|t_326|ref=Physiog._77
+6	ὗς	ὗς	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_326|t_324|ref=Physiog._76
+7	.	.	u	u--------	_	3	AuxK	_	t_327|t_323|ref=Physiog._77
 
-# source = Pseudo-Polemon, Physiognomonica 77-78
+# source = Pseudo-Polemon, Physiog. 77-78
 # text = Οἱ τὴν ῥῖνα ἄγαν βραχεῖαν ἔχοντες ῥᾴθυμοι [0] ·
 # sent_id = 28
-1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_328|ref=Physiognomonica_77
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_329|ref=Physiognomonica_77
-3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_330|ref=Physiognomonica_77
-4	ἄγαν	ἄγαν	d	d--------	_	5	AuxZ	_	t_331|ref=Physiognomonica_77
-5	βραχεῖαν	βραχύς	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_332|ref=Physiognomonica_77
-6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_333|ref=Physiognomonica_78
-7	ῥᾴθυμοι	ῥᾴθυμος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_334|ref=Physiognomonica_78
-8	[0]	[0]	-	---------	_	0	PRED	_	e_22|ref=Physiognomonica_70
-9	·	·	u	u--------	_	8	AuxK	_	t_335|ref=Physiognomonica_78
+1	Οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_328|e_22|ref=Physiog._77
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_329|t_330|ref=Physiog._77
+3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_330|t_333|ref=Physiog._77
+4	ἄγαν	ἄγαν	d	d--------	_	5	AuxZ	_	t_331|t_332|ref=Physiog._77
+5	βραχεῖαν	βραχύς	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_332|t_330|ref=Physiog._77
+6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_333|e_22|ref=Physiog._78
+7	ῥᾴθυμοι	ῥᾴθυμος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_334|e_22|ref=Physiog._78
+8	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Physiog._70
+9	·	·	u	u--------	_	8	AuxK	_	t_335|e_22|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ἀναφέρεται [ p .
 # sent_id = 29
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_336|ref=Physiognomonica_78
-2	[	[	u	u--------	_	1	AuxX	_	t_337|ref=Physiognomonica_78
-3	p	p	n	n--------	_	1	ExD	_	t_338|ref=Physiognomonica_78
-4	.	.	u	u--------	_	1	AuxK	_	t_339|ref=Physiognomonica_78
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_336|0|ref=Physiog._78
+2	[	[	u	u--------	_	1	AuxX	_	t_337|t_336|ref=Physiog._78
+3	p	p	n	n--------	_	1	ExD	_	t_338|t_336|ref=Physiog._78
+4	.	.	u	u--------	_	1	AuxK	_	t_339|t_336|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 77-78
+# source = Pseudo-Polemon, Physiog. 77-78
 # text = 304 ] ἐπὶ τοὺς βοῦς ἢ τῶν ὀρνίθων τοὺς πλατυρύγχους [0] .
 # sent_id = 30
-1	304	304	x	x--------	_	11	AuxG	_	t_340|ref=Physiognomonica_77
-2	]	]	u	u--------	_	11	AuxX	_	t_341|ref=Physiognomonica_78
-3	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_342|ref=Physiognomonica_78
-4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_343|ref=Physiognomonica_78
-5	βοῦς	βοῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ADV	_	t_344|ref=Physiognomonica_78
-6	ἢ	ἤ1	c	c--------	_	3	COORD	_	t_345|ref=Physiognomonica_78
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_346|ref=Physiognomonica_78
-8	ὀρνίθων	ὄρνις	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_347|ref=Physiognomonica_78
-9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	10	ATR	_	t_348|ref=Physiognomonica_78
-10	πλατυρύγχους	πλατυρύγχους	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ADV	_	t_349|ref=Physiognomonica_78
-11	[0]	[0]	-	---------	_	0	PRED	_	e_23|ref=Physiognomonica_70
-12	.	.	u	u--------	_	11	AuxK	_	t_350|ref=Physiognomonica_78
+1	304	304	x	x--------	_	11	AuxG	_	t_340|e_23|ref=Physiog._77
+2	]	]	u	u--------	_	11	AuxX	_	t_341|e_23|ref=Physiog._78
+3	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_342|e_23|ref=Physiog._78
+4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_343|t_344|ref=Physiog._78
+5	βοῦς	βοῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ADV	_	t_344|t_345|ref=Physiog._78
+6	ἢ	ἤ1	c	c--------	_	3	COORD	_	t_345|t_342|ref=Physiog._78
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_346|t_347|ref=Physiog._78
+8	ὀρνίθων	ὄρνις	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_347|t_349|ref=Physiog._78
+9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	10	ATR	_	t_348|t_349|ref=Physiog._78
+10	πλατυρύγχους	πλατυρύγχους	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ADV	_	t_349|t_345|ref=Physiog._78
+11	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Physiog._70
+12	.	.	u	u--------	_	11	AuxK	_	t_350|e_23|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = οἱ τὴν ῥῖνα εὐθεῖαν ἔχοντες πρόγλωσσοι [0] ·
 # sent_id = 31
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_351|ref=Physiognomonica_78
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_352|ref=Physiognomonica_78
-3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_353|ref=Physiognomonica_78
-4	εὐθεῖαν	εὐθεῖα	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_354|ref=Physiognomonica_78
-5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	SBJ	_	t_355|ref=Physiognomonica_78
-6	πρόγλωσσοι	πρόγλωσσος	a	a-p---mn-	Case=n|Gender=m|Number=p	7	PNOM	_	t_356|ref=Physiognomonica_78
-7	[0]	[0]	-	---------	_	0	PRED	_	e_24|ref=Physiognomonica_70
-8	·	·	u	u--------	_	7	AuxK	_	t_357|ref=Physiognomonica_78
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_351|t_355|ref=Physiog._78
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_352|t_353|ref=Physiog._78
+3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_353|t_355|ref=Physiog._78
+4	εὐθεῖαν	εὐθεῖα	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_354|t_353|ref=Physiog._78
+5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	SBJ	_	t_355|e_24|ref=Physiog._78
+6	πρόγλωσσοι	πρόγλωσσος	a	a-p---mn-	Case=n|Gender=m|Number=p	7	PNOM	_	t_356|e_24|ref=Physiog._78
+7	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=Physiog._70
+8	·	·	u	u--------	_	7	AuxK	_	t_357|e_24|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ἀναφέρεται ἐπὶ τὸ θῆλυ καὶ τὰς χῆνας .
 # sent_id = 32
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_358|ref=Physiognomonica_78
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_359|ref=Physiognomonica_78
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_360|ref=Physiognomonica_78
-4	θῆλυ	θῆλυς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_361|ref=Physiognomonica_78
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_362|ref=Physiognomonica_78
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_363|ref=Physiognomonica_78
-7	χῆνας	χήν	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_364|ref=Physiognomonica_78
-8	.	.	u	u--------	_	1	AuxK	_	t_365|ref=Physiognomonica_78
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_358|0|ref=Physiog._78
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_359|t_358|ref=Physiog._78
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_360|t_361|ref=Physiog._78
+4	θῆλυ	θῆλυς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_361|t_362|ref=Physiog._78
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_362|t_359|ref=Physiog._78
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_363|t_364|ref=Physiog._78
+7	χῆνας	χήν	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_364|t_362|ref=Physiog._78
+8	.	.	u	u--------	_	1	AuxK	_	t_365|t_358|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = οἱ τὴν ῥῖνα βραχεῖαν καὶ σιμὴν ἔχοντες κλέπται καὶ λάγνοι [0] ·
 # sent_id = 33
-1	οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_366|ref=Physiognomonica_78
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_367|ref=Physiognomonica_78
-3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_368|ref=Physiognomonica_78
-4	βραχεῖαν	βραχύς	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_369|ref=Physiognomonica_78
-5	καὶ	καί	c	c--------	_	3	COORD	_	t_370|ref=Physiognomonica_78
-6	σιμὴν	σιμός	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_371|ref=Physiognomonica_78
-7	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	SBJ	_	t_372|ref=Physiognomonica_78
-8	κλέπται	κλέπτης	n	n-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_373|ref=Physiognomonica_78
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_374|ref=Physiognomonica_78
-10	λάγνοι	λάγνος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_375|ref=Physiognomonica_78
-11	[0]	[0]	-	---------	_	0	PRED	_	e_25|ref=Physiognomonica_70
-12	·	·	u	u--------	_	11	AuxK	_	t_376|ref=Physiognomonica_78
+1	οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_366|e_25|ref=Physiog._78
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_367|t_368|ref=Physiog._78
+3	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_368|t_372|ref=Physiog._78
+4	βραχεῖαν	βραχύς	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_369|t_370|ref=Physiog._78
+5	καὶ	καί	c	c--------	_	3	COORD	_	t_370|t_368|ref=Physiog._78
+6	σιμὴν	σιμός	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_371|t_370|ref=Physiog._78
+7	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	SBJ	_	t_372|e_25|ref=Physiog._78
+8	κλέπται	κλέπτης	n	n-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_373|t_374|ref=Physiog._78
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_374|e_25|ref=Physiog._78
+10	λάγνοι	λάγνος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_375|t_374|ref=Physiog._78
+11	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=Physiog._70
+12	·	·	u	u--------	_	11	AuxK	_	t_376|e_25|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ἀναφέρεται ἐπὶ τοὺς ἐλάφους καὶ τοὺς ἀγρίους ὗς .
 # sent_id = 34
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_377|ref=Physiognomonica_78
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_378|ref=Physiognomonica_78
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_379|ref=Physiognomonica_78
-4	ἐλάφους	ἔλαφος	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_380|ref=Physiognomonica_78
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_381|ref=Physiognomonica_78
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_382|ref=Physiognomonica_78
-7	ἀγρίους	ἄγριος	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_383|ref=Physiognomonica_78
-8	ὗς	ὗς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_384|ref=Physiognomonica_78
-9	.	.	u	u--------	_	1	AuxK	_	t_385|ref=Physiognomonica_78
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_377|0|ref=Physiog._78
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_378|t_377|ref=Physiog._78
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_379|t_380|ref=Physiog._78
+4	ἐλάφους	ἔλαφος	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_380|t_381|ref=Physiog._78
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_381|t_378|ref=Physiog._78
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_382|t_384|ref=Physiog._78
+7	ἀγρίους	ἄγριος	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_383|t_384|ref=Physiog._78
+8	ὗς	ὗς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_384|t_381|ref=Physiog._78
+9	.	.	u	u--------	_	1	AuxK	_	t_385|t_377|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ὅσοις μυκτῆρες πεπταμένοι καὶ σινμοί , θυμώδεις [0] [1] ·
 # sent_id = 35
-1	ὅσοις	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_386|ref=Physiognomonica_78
-2	μυκτῆρες	μυκτῆρς	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_387|ref=Physiognomonica_78
-3	πεπταμένοι	πετάννυμι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	4	ATR	_	t_388|ref=Physiognomonica_78
-4	καὶ	καί	c	c--------	_	9	COORD	_	t_389|ref=Physiognomonica_78
-5	σινμοί	σινμός	n	n-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_390|ref=Physiognomonica_78
-6	,	,	u	u--------	_	9	COORD	_	t_391|ref=Physiognomonica_78
-7	θυμώδεις	θυμώδης	a	a-p---mn-	Case=n|Gender=m|Number=p	6	PNOM	_	t_392|ref=Physiognomonica_78
-8	[0]	[0]	-	---------	_	0	PRED	_	e_26|ref=Physiognomonica_70
-9	[1]	[1]	-	---------	_	8	SBJ	_	e_27|ref=Physiognomonica_70
-10	·	·	u	u--------	_	8	AuxK	_	t_393|ref=Physiognomonica_78
+1	ὅσοις	ὅσος	a	a-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_386|t_389|ref=Physiog._78
+2	μυκτῆρες	μυκτῆρς	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_387|t_391|ref=Physiog._78
+3	πεπταμένοι	πετάννυμι	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	4	ATR	_	t_388|t_389|ref=Physiog._78
+4	καὶ	καί	c	c--------	_	9	COORD	_	t_389|e_27|ref=Physiog._78
+5	σινμοί	σινμός	n	n-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_390|t_389|ref=Physiog._78
+6	,	,	u	u--------	_	9	COORD	_	t_391|e_27|ref=Physiog._78
+7	θυμώδεις	θυμώδης	a	a-p---mn-	Case=n|Gender=m|Number=p	6	PNOM	_	t_392|t_391|ref=Physiog._78
+8	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=Physiog._70
+9	[1]	[1]	-	---------	_	8	SBJ	_	e_27|e_26|ref=Physiog._70
+10	·	·	u	u--------	_	8	AuxK	_	t_393|e_26|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ἀναφέρεται ἐπὶ τὸ πάθος τὸ ἐν τῷ θυμῷ γινό - μενον ·
 # sent_id = 36
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_394|ref=Physiognomonica_78
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_395|ref=Physiognomonica_78
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_396|ref=Physiognomonica_78
-4	πάθος	πάθος	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_397|ref=Physiognomonica_78
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_398|ref=Physiognomonica_78
-6	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_399|ref=Physiognomonica_78
-7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_400|ref=Physiognomonica_78
-8	θυμῷ	θυμός	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_401|ref=Physiognomonica_78
-9	γινό	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	ATR	_	t_402|ref=Physiognomonica_78
-10	-	-	u	u--------	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ATR	_	t_403|ref=Physiognomonica_78
-11	μενον	μένω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	ATR	_	t_404|ref=Physiognomonica_78
-12	·	·	u	u--------	_	1	AuxK	_	t_405|ref=Physiognomonica_78
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_394|0|ref=Physiog._78
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_395|t_394|ref=Physiog._78
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_396|t_397|ref=Physiog._78
+4	πάθος	πάθος	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_397|t_395|ref=Physiog._78
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_398|t_397|ref=Physiog._78
+6	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_399|t_402|ref=Physiog._78
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_400|t_401|ref=Physiog._78
+8	θυμῷ	θυμός	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_401|t_399|ref=Physiog._78
+9	γινό	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	ATR	_	t_402|t_397|ref=Physiog._78
+10	-	-	u	u--------	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ATR	_	t_403|t_404|ref=Physiog._78
+11	μενον	μένω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	ATR	_	t_404|t_397|ref=Physiog._78
+12	·	·	u	u--------	_	1	AuxK	_	t_405|t_394|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ἴδοι δʼ ἄν τις καὶ ἐπὶ τῶν γεννάδων ἵππων .
 # sent_id = 37
-1	ἴδοι	εἶδον	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_406|ref=Physiognomonica_78
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_407|ref=Physiognomonica_78
-3	ἄν	ἄν	d	d--------	_	1	AuxY	_	t_408|ref=Physiognomonica_78
-4	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_409|ref=Physiognomonica_78
-5	καὶ	καί	d	d--------	_	9	AuxZ	_	t_410|ref=Physiognomonica_78
-6	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_411|ref=Physiognomonica_78
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	8	ATR	_	t_412|ref=Physiognomonica_78
-8	γεννάδων	γεννάδας	n	n-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_413|ref=Physiognomonica_78
-9	ἵππων	ἵππος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ADV	_	t_414|ref=Physiognomonica_78
-10	.	.	u	u--------	_	1	AuxK	_	t_415|ref=Physiognomonica_78
+1	ἴδοι	εἶδον	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_406|0|ref=Physiog._78
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_407|t_406|ref=Physiog._78
+3	ἄν	ἄν	d	d--------	_	1	AuxY	_	t_408|t_406|ref=Physiog._78
+4	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_409|t_406|ref=Physiog._78
+5	καὶ	καί	d	d--------	_	9	AuxZ	_	t_410|t_414|ref=Physiog._78
+6	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_411|t_406|ref=Physiog._78
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	8	ATR	_	t_412|t_413|ref=Physiog._78
+8	γεννάδων	γεννάδας	n	n-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_413|t_414|ref=Physiog._78
+9	ἵππων	ἵππος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ADV	_	t_414|t_411|ref=Physiog._78
+10	.	.	u	u--------	_	1	AuxK	_	t_415|t_406|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = Οἱ τὸ πρόσωπον σαρκῶδες ἔχοντες [ p [0] .
 # sent_id = 38
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_416|ref=Physiognomonica_78
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_417|ref=Physiognomonica_78
-3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_418|ref=Physiognomonica_78
-4	σαρκῶδες	σαρκώδης	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_419|ref=Physiognomonica_78
-5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_420|ref=Physiognomonica_78
-6	[	[	u	u--------	_	7	AuxX	_	t_421|ref=Physiognomonica_78
-7	p	p	n	n--------	_	8	ExD	_	t_422|ref=Physiognomonica_78
-8	[0]	[0]	-	---------	_	0	PRED	_	e_28|ref=Physiognomonica_70
-9	.	.	u	u--------	_	8	AuxK	_	t_423|ref=Physiognomonica_78
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_416|e_28|ref=Physiog._78
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_417|t_418|ref=Physiog._78
+3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_418|t_420|ref=Physiog._78
+4	σαρκῶδες	σαρκώδης	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_419|t_420|ref=Physiog._78
+5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_420|e_28|ref=Physiog._78
+6	[	[	u	u--------	_	7	AuxX	_	t_421|t_422|ref=Physiog._78
+7	p	p	n	n--------	_	8	ExD	_	t_422|e_28|ref=Physiog._78
+8	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=Physiog._70
+9	.	.	u	u--------	_	8	AuxK	_	t_423|e_28|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = 305 ] ῥᾴθυμοι ·
 # sent_id = 39
-1	305	305	u	u--------	_	0	PRED	_	t_424|ref=Physiognomonica_78
-2	]	]	u	u--------	_	1	AuxG	_	t_425|ref=Physiognomonica_78
-3	ῥᾴθυμοι	ῥᾴθυμος	v	v1spie---	Case=n|Gender=m|Number=p	1	PRED	_	t_426|ref=Physiognomonica_78
-4	·	·	u	u--------	_	1	AuxK	_	t_427|ref=Physiognomonica_78
+1	305	305	u	u--------	_	0	PRED	_	t_424|0|ref=Physiog._78
+2	]	]	u	u--------	_	1	AuxG	_	t_425|t_424|ref=Physiog._78
+3	ῥᾴθυμοι	ῥᾴθυμος	v	v1spie---	Case=n|Gender=m|Number=p	1	PRED	_	t_426|t_424|ref=Physiog._78
+4	·	·	u	u--------	_	1	AuxK	_	t_427|t_424|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78
+# source = Pseudo-Polemon, Physiog. 78
 # text = ἀναφέρεται ἐπὶ τὸ θῆλυ καὶ τοὺς βοῦς .
 # sent_id = 40
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_428|ref=Physiognomonica_78
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_429|ref=Physiognomonica_78
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_430|ref=Physiognomonica_78
-4	θῆλυ	θῆλυς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_431|ref=Physiognomonica_78
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_432|ref=Physiognomonica_78
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_433|ref=Physiognomonica_78
-7	βοῦς	βοῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_434|ref=Physiognomonica_78
-8	.	.	u	u--------	_	1	AuxK	_	t_435|ref=Physiognomonica_78
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_428|0|ref=Physiog._78
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_429|t_428|ref=Physiog._78
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_430|t_431|ref=Physiog._78
+4	θῆλυ	θῆλυς	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_431|t_432|ref=Physiog._78
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_432|t_429|ref=Physiog._78
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_433|t_434|ref=Physiog._78
+7	βοῦς	βοῦς	n	n-p---ma-	Case=a|Gender=m|Number=p	5	ADV	_	t_434|t_432|ref=Physiog._78
+8	.	.	u	u--------	_	1	AuxK	_	t_435|t_428|ref=Physiog._78
 
-# source = Pseudo-Polemon, Physiognomonica 78-79
+# source = Pseudo-Polemon, Physiog. 78-79
 # text = οἱ τὸ πρόσωπον ἄγαν ὀστῶδες ἔχοντες ἐπίπονοι καὶ δειλοὶ καὶ μικρόψυχοι [0] ·
 # sent_id = 41
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_436|ref=Physiognomonica_78
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_437|ref=Physiognomonica_78
-3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_438|ref=Physiognomonica_78
-4	ἄγαν	ἄγαν	d	d--------	_	6	ADV	_	t_439|ref=Physiognomonica_78
-5	ὀστῶδες	ὀστώδης	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_440|ref=Physiognomonica_78
-6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_441|ref=Physiognomonica_78
-7	ἐπίπονοι	ἐπίπονος	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_442|ref=Physiognomonica_78
-8	καὶ	καί	c	c--------	_	10	AuxY	_	t_443|ref=Physiognomonica_79
-9	δειλοὶ	δειλός	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_444|ref=Physiognomonica_79
-10	καὶ	καί	c	c--------	_	12	COORD	_	t_445|ref=Physiognomonica_79
-11	μικρόψυχοι	μικρόψυχος	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_446|ref=Physiognomonica_79
-12	[0]	[0]	-	---------	_	0	PRED	_	e_29|ref=Physiognomonica_70
-13	·	·	u	u--------	_	12	AuxK	_	t_447|ref=Physiognomonica_79
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_436|t_440|ref=Physiog._78
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_437|t_438|ref=Physiog._78
+3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_438|t_441|ref=Physiog._78
+4	ἄγαν	ἄγαν	d	d--------	_	6	ADV	_	t_439|t_441|ref=Physiog._78
+5	ὀστῶδες	ὀστώδης	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_440|e_29|ref=Physiog._78
+6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_441|t_440|ref=Physiog._78
+7	ἐπίπονοι	ἐπίπονος	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_442|t_445|ref=Physiog._78
+8	καὶ	καί	c	c--------	_	10	AuxY	_	t_443|t_445|ref=Physiog._79
+9	δειλοὶ	δειλός	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_444|t_445|ref=Physiog._79
+10	καὶ	καί	c	c--------	_	12	COORD	_	t_445|e_29|ref=Physiog._79
+11	μικρόψυχοι	μικρόψυχος	a	a-p---mn-	Case=n|Gender=m|Number=p	10	PNOM	_	t_446|t_445|ref=Physiog._79
+12	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Physiog._70
+13	·	·	u	u--------	_	12	AuxK	_	t_447|e_29|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79
+# source = Pseudo-Polemon, Physiog. 79
 # text = ἀνα - φέρεται ἐπὶ τοὺς ὄνους καὶ πιθήκους καὶ ἐλάφους .
 # sent_id = 42
-1	ἀνα	ἀνά	d	d--------	_	3	SBJ	_	t_448|ref=Physiognomonica_79
-2	-	-	u	u--------	_	3	AuxG	_	t_449|ref=Physiognomonica_79
-3	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_450|ref=Physiognomonica_78
-4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_451|ref=Physiognomonica_79
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_452|ref=Physiognomonica_79
-6	ὄνους	ὄνος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_453|ref=Physiognomonica_79
-7	καὶ	καί	d	d--------	_	9	AuxY	_	t_454|ref=Physiognomonica_79
-8	πιθήκους	πίθηκος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_455|ref=Physiognomonica_79
-9	καὶ	καί	c	c--------	_	4	COORD	_	t_456|ref=Physiognomonica_79
-10	ἐλάφους	ἔλαφος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_457|ref=Physiognomonica_79
-11	.	.	u	u--------	_	3	AuxK	_	t_458|ref=Physiognomonica_79
+1	ἀνα	ἀνά	d	d--------	_	3	SBJ	_	t_448|t_450|ref=Physiog._79
+2	-	-	u	u--------	_	3	AuxG	_	t_449|t_450|ref=Physiog._79
+3	φέρεται	φέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_450|0|ref=Physiog._78
+4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_451|t_450|ref=Physiog._79
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_452|t_453|ref=Physiog._79
+6	ὄνους	ὄνος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_453|t_456|ref=Physiog._79
+7	καὶ	καί	d	d--------	_	9	AuxY	_	t_454|t_456|ref=Physiog._79
+8	πιθήκους	πίθηκος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_455|t_456|ref=Physiog._79
+9	καὶ	καί	c	c--------	_	4	COORD	_	t_456|t_451|ref=Physiog._79
+10	ἐλάφους	ἔλαφος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	ADV	_	t_457|t_456|ref=Physiog._79
+11	.	.	u	u--------	_	3	AuxK	_	t_458|t_450|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79
+# source = Pseudo-Polemon, Physiog. 79
 # text = οἱ τὸ πρόσωπον ἄγαν μικρὸν ἔχοντες κακοῦργοι [0] ·
 # sent_id = 43
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_459|ref=Physiognomonica_79
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_460|ref=Physiognomonica_79
-3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_461|ref=Physiognomonica_79
-4	ἄγαν	ἄγαν	d	d--------	_	5	AuxZ	_	t_462|ref=Physiognomonica_79
-5	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_463|ref=Physiognomonica_79
-6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_464|ref=Physiognomonica_79
-7	κακοῦργοι	κακοῦργος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_465|ref=Physiognomonica_79
-8	[0]	[0]	-	---------	_	0	PRED	_	e_30|ref=Physiognomonica_70
-9	·	·	u	u--------	_	8	AuxK	_	t_466|ref=Physiognomonica_79
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_459|t_464|ref=Physiog._79
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_460|t_461|ref=Physiog._79
+3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_461|t_464|ref=Physiog._79
+4	ἄγαν	ἄγαν	d	d--------	_	5	AuxZ	_	t_462|t_463|ref=Physiog._79
+5	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_463|t_461|ref=Physiog._79
+6	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_464|e_30|ref=Physiog._79
+7	κακοῦργοι	κακοῦργος	a	a-p---mn-	Case=n|Gender=m|Number=p	8	PNOM	_	t_465|e_30|ref=Physiog._79
+8	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Physiog._70
+9	·	·	u	u--------	_	8	AuxK	_	t_466|e_30|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79
+# source = Pseudo-Polemon, Physiog. 79
 # text = ἀναφέρεται ἐπὶ τοὺς πιθήκους .
 # sent_id = 44
-1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_467|ref=Physiognomonica_79
-2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_468|ref=Physiognomonica_79
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_469|ref=Physiognomonica_79
-4	πιθήκους	πίθηκος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_470|ref=Physiognomonica_79
-5	.	.	u	u--------	_	1	AuxK	_	t_471|ref=Physiognomonica_79
+1	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_467|0|ref=Physiog._79
+2	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_468|t_467|ref=Physiog._79
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_469|t_470|ref=Physiog._79
+4	πιθήκους	πίθηκος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_470|t_468|ref=Physiog._79
+5	.	.	u	u--------	_	1	AuxK	_	t_471|t_467|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79
+# source = Pseudo-Polemon, Physiog. 79
 # text = οἱ τὸ πρόσωπον μικροπρεπὲς ἔχοντες μικρό - ψυχοι , ἀνελεύθεροι [0] .
 # sent_id = 45
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_472|ref=Physiognomonica_79
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_473|ref=Physiognomonica_79
-3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_474|ref=Physiognomonica_79
-4	μικροπρεπὲς	μικροπρεπής	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_475|ref=Physiognomonica_79
-5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	SBJ	_	t_476|ref=Physiognomonica_79
-6	μικρό	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_477|ref=Physiognomonica_79
-7	-	-	u	u--------	_	9	AuxX	_	t_478|ref=Physiognomonica_79
-8	ψυχοι	ψυχοσ	a	a-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_479|ref=Physiognomonica_79
-9	,	,	u	u--------	_	11	COORD	_	t_480|ref=Physiognomonica_79
-10	ἀνελεύθεροι	ἀνελεύθερος	a	a-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_481|ref=Physiognomonica_79
-11	[0]	[0]	-	---------	_	0	PRED	_	e_31|ref=Physiognomonica_70
-12	.	.	u	u--------	_	11	AuxK	_	t_482|ref=Physiognomonica_79
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_472|t_476|ref=Physiog._79
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_473|t_474|ref=Physiog._79
+3	πρόσωπον	πρόσωπον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_474|t_476|ref=Physiog._79
+4	μικροπρεπὲς	μικροπρεπής	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_475|t_474|ref=Physiog._79
+5	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	11	SBJ	_	t_476|e_31|ref=Physiog._79
+6	μικρό	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_477|t_474|ref=Physiog._79
+7	-	-	u	u--------	_	9	AuxX	_	t_478|t_480|ref=Physiog._79
+8	ψυχοι	ψυχοσ	a	a-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_479|t_480|ref=Physiog._79
+9	,	,	u	u--------	_	11	COORD	_	t_480|e_31|ref=Physiog._79
+10	ἀνελεύθεροι	ἀνελεύθερος	a	a-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_481|t_480|ref=Physiog._79
+11	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=Physiog._70
+12	.	.	u	u--------	_	11	AuxK	_	t_482|e_31|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79
+# source = Pseudo-Polemon, Physiog. 79
 # text = Οἱ μεγάλα ἔχοντες χείλη ἀσελγεῖς , οἷς δὲ μεῖζον τὸ ἄνω τοῦ κάτω , ἄψυχοι [0] [1] ·
 # sent_id = 46
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_483|ref=Physiognomonica_79
-2	μεγάλα	μέγας	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_484|ref=Physiognomonica_79
-3	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	SBJ	_	t_485|ref=Physiognomonica_79
-4	χείλη	χεῖλος	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_486|ref=Physiognomonica_79
-5	ἀσελγεῖς	ἀσελγής	a	a-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_487|ref=Physiognomonica_79
-6	,	,	u	u--------	_	8	AuxX	_	t_488|ref=Physiognomonica_79
-7	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_489|ref=Physiognomonica_79
-8	δὲ	δέ	g	g--------	_	0	COORD	_	t_490|ref=Physiognomonica_79
-9	μεῖζον	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	17	PNOM	_	t_491|ref=Physiognomonica_79
-10	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_492|ref=Physiognomonica_79
-11	ἄνω	ἄνω	d	d--------	_	17	SBJ	_	t_493|ref=Physiognomonica_79
-12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_494|ref=Physiognomonica_79
-13	κάτω	κάτω	d	d--------	_	11	ATR	_	t_495|ref=Physiognomonica_79
-14	,	,	u	u--------	_	17	AuxX	_	t_496|ref=Physiognomonica_79
-15	ἄψυχοι	ἄψυχος	a	a-p---mn-	Case=n|Gender=m|Number=p	17	PNOM	_	t_497|ref=Physiognomonica_79
-16	[0]	[0]	-	---------	_	8	PRED	_	e_32|ref=Physiognomonica_70
-17	[1]	[1]	-	---------	_	8	PRED	_	e_33|ref=Physiognomonica_70
-18	·	·	u	u--------	_	8	AuxK	_	t_498|ref=Physiognomonica_79
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_483|t_485|ref=Physiog._79
+2	μεγάλα	μέγας	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_484|t_485|ref=Physiog._79
+3	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	SBJ	_	t_485|e_32|ref=Physiog._79
+4	χείλη	χεῖλος	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_486|t_485|ref=Physiog._79
+5	ἀσελγεῖς	ἀσελγής	a	a-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_487|e_32|ref=Physiog._79
+6	,	,	u	u--------	_	8	AuxX	_	t_488|t_490|ref=Physiog._79
+7	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_489|e_33|ref=Physiog._79
+8	δὲ	δέ	g	g--------	_	0	COORD	_	t_490|0|ref=Physiog._79
+9	μεῖζον	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	17	PNOM	_	t_491|e_33|ref=Physiog._79
+10	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_492|t_493|ref=Physiog._79
+11	ἄνω	ἄνω	d	d--------	_	17	SBJ	_	t_493|e_33|ref=Physiog._79
+12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_494|t_491|ref=Physiog._79
+13	κάτω	κάτω	d	d--------	_	11	ATR	_	t_495|t_493|ref=Physiog._79
+14	,	,	u	u--------	_	17	AuxX	_	t_496|e_33|ref=Physiog._79
+15	ἄψυχοι	ἄψυχος	a	a-p---mn-	Case=n|Gender=m|Number=p	17	PNOM	_	t_497|e_33|ref=Physiog._79
+16	[0]	[0]	-	---------	_	8	PRED	_	e_32|t_490|ref=Physiog._70
+17	[1]	[1]	-	---------	_	8	PRED	_	e_33|t_490|ref=Physiog._70
+18	·	·	u	u--------	_	8	AuxK	_	t_498|t_490|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79
+# source = Pseudo-Polemon, Physiog. 79
 # text = οἷς δὲ ἔμπαλιν τοῦ ἄνω τὸ κάτω , ἐναντίον βλάκες [0] [1] .
 # sent_id = 47
-1	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_499|ref=Physiognomonica_79
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_500|ref=Physiognomonica_79
-3	ἔμπαλιν	ἔμπαλιν	d	d--------	_	12	ADV	_	t_501|ref=Physiognomonica_79
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_502|ref=Physiognomonica_79
-5	ἄνω	ἄνω	d	d--------	_	11	ADV	_	t_503|ref=Physiognomonica_79
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_504|ref=Physiognomonica_79
-7	κάτω	κάτω	d	d--------	_	12	SBJ	_	t_505|ref=Physiognomonica_79
-8	,	,	u	u--------	_	11	AuxX	_	t_506|ref=Physiognomonica_79
-9	ἐναντίον	ἐναντίον	d	d--------	_	11	ADV	_	t_507|ref=Physiognomonica_79
-10	βλάκες	βλάξ	n	n-p---mn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_508|ref=Physiognomonica_79
-11	[0]	[0]	-	---------	_	0	PRED	_	e_34|ref=Physiognomonica_70
-12	[1]	[1]	-	---------	_	11	SBJ	_	e_35|ref=Physiognomonica_70
-13	.	.	u	u--------	_	11	AuxK	_	t_509|ref=Physiognomonica_79
+1	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_499|e_35|ref=Physiog._79
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_500|e_34|ref=Physiog._79
+3	ἔμπαλιν	ἔμπαλιν	d	d--------	_	12	ADV	_	t_501|e_35|ref=Physiog._79
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_502|t_503|ref=Physiog._79
+5	ἄνω	ἄνω	d	d--------	_	11	ADV	_	t_503|e_34|ref=Physiog._79
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_504|t_505|ref=Physiog._79
+7	κάτω	κάτω	d	d--------	_	12	SBJ	_	t_505|e_35|ref=Physiog._79
+8	,	,	u	u--------	_	11	AuxX	_	t_506|e_34|ref=Physiog._79
+9	ἐναντίον	ἐναντίον	d	d--------	_	11	ADV	_	t_507|e_34|ref=Physiog._79
+10	βλάκες	βλάξ	n	n-p---mn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_508|e_34|ref=Physiog._79
+11	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=Physiog._70
+12	[1]	[1]	-	---------	_	11	SBJ	_	e_35|e_34|ref=Physiog._70
+13	.	.	u	u--------	_	11	AuxK	_	t_509|e_34|ref=Physiog._79
 
-# source = Pseudo-Polemon, Physiognomonica 79-80
+# source = Pseudo-Polemon, Physiog. 79-80
 # text = ὑώδεις δέ εἰσιν , οἷς τὰ κατὰ τοὺς κυνό - δοντας ἐπῆρται , οἷς δὲ τὰ κατὰ τοὺς τομεῖς , κυνώδεις [0] [1] .
 # sent_id = 48
-1	ὑώδεις	ὑώδης	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_510|ref=Physiognomonica_79
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_511|ref=Physiognomonica_79
-3	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_512|ref=Physiognomonica_79
-4	,	,	u	u--------	_	3	AuxX	_	t_513|ref=Physiognomonica_79
-5	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_514|ref=Physiognomonica_80
-6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_515|ref=Physiognomonica_80
-7	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_516|ref=Physiognomonica_80
-8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_517|ref=Physiognomonica_80
-9	κυνό	κυνός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_518|ref=Physiognomonica_80
-10	-	-	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_519|ref=Physiognomonica_80
-11	δοντας	δω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_520|ref=Physiognomonica_80
-12	ἐπῆρται	ἐπαίρω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	15	ATR	_	t_521|ref=Physiognomonica_80
-13	,	,	u	u--------	_	3	AuxX	_	t_522|ref=Physiognomonica_80
-14	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	22	ADV	_	t_523|ref=Physiognomonica_80
-15	δὲ	δέ	c	c--------	_	3	COORD	_	t_524|ref=Physiognomonica_80
-16	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	23	SBJ	_	t_525|ref=Physiognomonica_80
-17	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_526|ref=Physiognomonica_80
-18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_527|ref=Physiognomonica_80
-19	τομεῖς	τομάω	n	n-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_528|ref=Physiognomonica_80
-20	,	,	u	u--------	_	3	AuxX	_	t_529|ref=Physiognomonica_80
-21	κυνώδεις	κυνώδης	a	a-p---ma-	Case=a|Gender=m|Number=p	23	PNOM	_	t_530|ref=Physiognomonica_80
-22	[0]	[0]	-	---------	_	15	SBJ	_	e_36|ref=Physiognomonica_70
-23	[1]	[1]	-	---------	_	22	SBJ	_	e_37|ref=Physiognomonica_70
-24	.	.	u	u--------	_	3	AuxK	_	t_531|ref=Physiognomonica_80
+1	ὑώδεις	ὑώδης	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_510|t_512|ref=Physiog._79
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_511|t_512|ref=Physiog._79
+3	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_512|0|ref=Physiog._79
+4	,	,	u	u--------	_	3	AuxX	_	t_513|t_512|ref=Physiog._79
+5	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_514|t_521|ref=Physiog._80
+6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_515|t_521|ref=Physiog._80
+7	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_516|t_515|ref=Physiog._80
+8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_517|t_518|ref=Physiog._80
+9	κυνό	κυνός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_518|t_516|ref=Physiog._80
+10	-	-	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_519|t_516|ref=Physiog._80
+11	δοντας	δω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_520|t_521|ref=Physiog._80
+12	ἐπῆρται	ἐπαίρω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	15	ATR	_	t_521|t_524|ref=Physiog._80
+13	,	,	u	u--------	_	3	AuxX	_	t_522|t_512|ref=Physiog._80
+14	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	22	ADV	_	t_523|e_36|ref=Physiog._80
+15	δὲ	δέ	c	c--------	_	3	COORD	_	t_524|t_512|ref=Physiog._80
+16	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	23	SBJ	_	t_525|e_37|ref=Physiog._80
+17	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_526|t_525|ref=Physiog._80
+18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_527|t_528|ref=Physiog._80
+19	τομεῖς	τομάω	n	n-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_528|t_526|ref=Physiog._80
+20	,	,	u	u--------	_	3	AuxX	_	t_529|t_512|ref=Physiog._80
+21	κυνώδεις	κυνώδης	a	a-p---ma-	Case=a|Gender=m|Number=p	23	PNOM	_	t_530|e_37|ref=Physiog._80
+22	[0]	[0]	-	---------	_	15	SBJ	_	e_36|t_524|ref=Physiog._70
+23	[1]	[1]	-	---------	_	22	SBJ	_	e_37|e_36|ref=Physiog._70
+24	.	.	u	u--------	_	3	AuxK	_	t_531|t_512|ref=Physiog._80
 
-# source = Pseudo-Polemon, Physiognomonica 80
+# source = Pseudo-Polemon, Physiog. 80
 # text = [ p 306 ] Τῶν ἐρώντων ὑπάρχει σημεῖα τοιαῦτα ·
 # sent_id = 49
-1	[	[	u	u--------	_	2	AuxG	_	t_532|ref=Physiognomonica_80
-2	p	p	n	n--------	_	7	ExD	_	t_533|ref=Physiognomonica_80
-3	306	306	n	n--------	_	2	ExD	_	t_534|ref=Physiognomonica_80
-4	]	]	u	u--------	_	1	AuxG	_	t_535|ref=Physiognomonica_80
-5	Τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_536|ref=Physiognomonica_80
-6	ἐρώντων	ἐράω1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	ATR	_	t_537|ref=Physiognomonica_80
-7	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_538|ref=Physiognomonica_80
-8	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	7	SBJ	_	t_539|ref=Physiognomonica_80
-9	τοιαῦτα	τοιοῦτος	p	p-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_540|ref=Physiognomonica_80
-10	·	·	u	u--------	_	1	AuxK	_	t_541|ref=Physiognomonica_80
+1	[	[	u	u--------	_	2	AuxG	_	t_532|t_533|ref=Physiog._80
+2	p	p	n	n--------	_	7	ExD	_	t_533|t_538|ref=Physiog._80
+3	306	306	n	n--------	_	2	ExD	_	t_534|t_533|ref=Physiog._80
+4	]	]	u	u--------	_	1	AuxG	_	t_535|t_532|ref=Physiog._80
+5	Τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_536|t_537|ref=Physiog._80
+6	ἐρώντων	ἐράω1	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	ATR	_	t_537|t_539|ref=Physiog._80
+7	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_538|0|ref=Physiog._80
+8	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	7	SBJ	_	t_539|t_538|ref=Physiog._80
+9	τοιαῦτα	τοιοῦτος	p	p-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_540|t_539|ref=Physiog._80
+10	·	·	u	u--------	_	1	AuxK	_	t_541|t_532|ref=Physiog._80
 
-# source = Pseudo-Polemon, Physiognomonica 80-81
+# source = Pseudo-Polemon, Physiog. 80-81
 # text = ὀφθαλ - μοὶ κοῖλοι οὐ δακρύοντες , φαινόμενοι δὲ ὡς ἂν ἡδονῆς πεπλη - σμένοι εἰσίν , κινεῖται δὲ αὐτοῖς καὶ τὰ βλέφαρα πυκνά , τῶν τοῦ σώματος μερῶν συμπιπτόντων μόνοις τοῖς ἐρῶσιν οὐ συμπίπτουσιν .
 # sent_id = 50
-1	ὀφθαλ	ὀφθαλμός	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_542|ref=Physiognomonica_80
-2	-	-	u	u--------	_	0	AuxG	_	t_543|ref=Physiognomonica_80
-3	μοὶ	ἐγώ	l	l-p---mn-	Case=n|Gender=m|Number=p	1	ATR	_	t_544|ref=Physiognomonica_80
-4	κοῖλοι	κοῖλος	a	a-p---mn-	Case=n|Gender=m|Number=p	1	APOS	_	t_545|ref=Physiognomonica_80
-5	οὐ	οὐ	d	d--------	_	6	AuxZ	_	t_546|ref=Physiognomonica_80
-6	δακρύοντες	δακρύω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ATR	_	t_547|ref=Physiognomonica_80
-7	,	,	u	u--------	_	2	AuxX	_	t_548|ref=Physiognomonica_80
-8	φαινόμενοι	φαίνω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_549|ref=Physiognomonica_80
-9	δὲ	δέ	d	d--------	_	16	COORD	_	t_550|ref=Physiognomonica_80
-10	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_551|ref=Physiognomonica_80
-11	ἂν	ἄν	d	d--------	_	13	AuxY	_	t_552|ref=Physiognomonica_80
-12	ἡδονῆς	ἡδονή	n	n-s---fg-	Case=g|Gender=f|Number=s	13	OBJ	_	t_553|ref=Physiognomonica_80
-13	πεπλη	πλήσσω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	10	ADV	_	t_554|ref=Physiognomonica_80
-14	-	-	u	u--------	_	2	AuxG	_	t_555|ref=Physiognomonica_80
-15	σμένοι	στηρίζω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	16	PNOM	_	t_556|ref=Physiognomonica_80
-16	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	19	PRED	_	t_557|ref=Physiognomonica_80
-17	,	,	u	u--------	_	2	AuxX	_	t_558|ref=Physiognomonica_80
-18	κινεῖται	κινέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_559|ref=Physiognomonica_80
-19	δὲ	δέ	d	d--------	_	2	COORD	_	t_560|ref=Physiognomonica_80
-20	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_561|ref=Physiognomonica_80
-21	καὶ	καί	d	d--------	_	23	AuxZ	_	t_562|ref=Physiognomonica_80
-22	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	23	ATR	_	t_563|ref=Physiognomonica_80
-23	βλέφαρα	βλέφαρον	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_564|ref=Physiognomonica_80
-24	πυκνά	πυκνός	a	a-p---nn-	Case=n|Gender=n|Number=p	23	ATR	_	t_565|ref=Physiognomonica_80
-25	,	,	u	u--------	_	2	AuxX	_	t_566|ref=Physiognomonica_80
-26	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	29	ATR	_	t_567|ref=Physiognomonica_80
-27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_568|ref=Physiognomonica_80
-28	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_569|ref=Physiognomonica_81
-29	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	30	SBJ	_	t_570|ref=Physiognomonica_81
-30	συμπιπτόντων	συμπίτνω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	18	ADV	_	t_571|ref=Physiognomonica_81
-31	μόνοις	μόνος	a	a-p---md-	Case=d|Gender=m|Number=p	33	ATV	_	t_572|ref=Physiognomonica_81
-32	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_573|ref=Physiognomonica_81
-33	ἐρῶσιν	ἐράω1	n	n-p---md-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	35	OBJ	_	t_574|ref=Physiognomonica_81
-34	οὐ	οὐ	d	d--------	_	35	AuxZ	_	t_575|ref=Physiognomonica_81
-35	συμπίπτουσιν	συμπίτνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	18	ADV	_	t_576|ref=Physiognomonica_81
-36	.	.	u	u--------	_	2	AuxK	_	t_577|ref=Physiognomonica_81
+1	ὀφθαλ	ὀφθαλμός	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_542|t_557|ref=Physiog._80
+2	-	-	u	u--------	_	0	AuxG	_	t_543|0|ref=Physiog._80
+3	μοὶ	ἐγώ	l	l-p---mn-	Case=n|Gender=m|Number=p	1	ATR	_	t_544|t_542|ref=Physiog._80
+4	κοῖλοι	κοῖλος	a	a-p---mn-	Case=n|Gender=m|Number=p	1	APOS	_	t_545|t_542|ref=Physiog._80
+5	οὐ	οὐ	d	d--------	_	6	AuxZ	_	t_546|t_547|ref=Physiog._80
+6	δακρύοντες	δακρύω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	ATR	_	t_547|t_550|ref=Physiog._80
+7	,	,	u	u--------	_	2	AuxX	_	t_548|t_543|ref=Physiog._80
+8	φαινόμενοι	φαίνω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_549|t_557|ref=Physiog._80
+9	δὲ	δέ	d	d--------	_	16	COORD	_	t_550|t_557|ref=Physiog._80
+10	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_551|t_549|ref=Physiog._80
+11	ἂν	ἄν	d	d--------	_	13	AuxY	_	t_552|t_554|ref=Physiog._80
+12	ἡδονῆς	ἡδονή	n	n-s---fg-	Case=g|Gender=f|Number=s	13	OBJ	_	t_553|t_554|ref=Physiog._80
+13	πεπλη	πλήσσω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	10	ADV	_	t_554|t_551|ref=Physiog._80
+14	-	-	u	u--------	_	2	AuxG	_	t_555|t_543|ref=Physiog._80
+15	σμένοι	στηρίζω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	16	PNOM	_	t_556|t_557|ref=Physiog._80
+16	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	19	PRED	_	t_557|t_560|ref=Physiog._80
+17	,	,	u	u--------	_	2	AuxX	_	t_558|t_543|ref=Physiog._80
+18	κινεῖται	κινέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_559|t_560|ref=Physiog._80
+19	δὲ	δέ	d	d--------	_	2	COORD	_	t_560|t_543|ref=Physiog._80
+20	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_561|t_559|ref=Physiog._80
+21	καὶ	καί	d	d--------	_	23	AuxZ	_	t_562|t_564|ref=Physiog._80
+22	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	23	ATR	_	t_563|t_564|ref=Physiog._80
+23	βλέφαρα	βλέφαρον	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_564|t_559|ref=Physiog._80
+24	πυκνά	πυκνός	a	a-p---nn-	Case=n|Gender=n|Number=p	23	ATR	_	t_565|t_564|ref=Physiog._80
+25	,	,	u	u--------	_	2	AuxX	_	t_566|t_543|ref=Physiog._80
+26	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	29	ATR	_	t_567|t_570|ref=Physiog._80
+27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_568|t_569|ref=Physiog._80
+28	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_569|t_570|ref=Physiog._81
+29	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	30	SBJ	_	t_570|t_571|ref=Physiog._81
+30	συμπιπτόντων	συμπίτνω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	18	ADV	_	t_571|t_559|ref=Physiog._81
+31	μόνοις	μόνος	a	a-p---md-	Case=d|Gender=m|Number=p	33	ATV	_	t_572|t_574|ref=Physiog._81
+32	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_573|t_574|ref=Physiog._81
+33	ἐρῶσιν	ἐράω1	n	n-p---md-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	35	OBJ	_	t_574|t_576|ref=Physiog._81
+34	οὐ	οὐ	d	d--------	_	35	AuxZ	_	t_575|t_576|ref=Physiog._81
+35	συμπίπτουσιν	συμπίτνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	18	ADV	_	t_576|t_559|ref=Physiog._81
+36	.	.	u	u--------	_	2	AuxK	_	t_577|t_543|ref=Physiog._81
 
-# source = Pseudo-Polemon, Physiognomonica 81
+# source = Pseudo-Polemon, Physiog. 81
 # text = πορνεία ἀνδρὸς καὶ γυναικὸς ἐν μετεωρι - σμοῖς ὀφθαλμῶν καὶ ἐν τοῖς βλεφάροις γινώσκεται .
 # sent_id = 51
-1	πορνεία	πορνεία	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_578|ref=Physiognomonica_81
-2	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_579|ref=Physiognomonica_81
-3	καὶ	καί	c	c--------	_	1	COORD	_	t_580|ref=Physiognomonica_81
-4	γυναικὸς	γυνή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_581|ref=Physiognomonica_81
-5	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_582|ref=Physiognomonica_81
-6	μετεωρι	μετεωρίζω	d	d-------c	Case=d|Gender=n|Number=s	5	ADV	_	t_583|ref=Physiognomonica_81
-7	-	-	u	u--------	_	14	AuxX	_	t_584|ref=Physiognomonica_81
-8	σμοῖς	σμός	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_585|ref=Physiognomonica_81
-9	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_586|ref=Physiognomonica_81
-10	καὶ	καί	c	c--------	_	14	COORD	_	t_587|ref=Physiognomonica_81
-11	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_588|ref=Physiognomonica_81
-12	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_589|ref=Physiognomonica_81
-13	βλεφάροις	βλέφαρον	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_590|ref=Physiognomonica_81
-14	γινώσκεται	γιγνώσκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_591|ref=Physiognomonica_81
-15	.	.	u	u--------	_	14	AuxK	_	t_592|ref=Physiognomonica_81
+1	πορνεία	πορνεία	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_578|t_591|ref=Physiog._81
+2	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_579|t_580|ref=Physiog._81
+3	καὶ	καί	c	c--------	_	1	COORD	_	t_580|t_578|ref=Physiog._81
+4	γυναικὸς	γυνή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_581|t_580|ref=Physiog._81
+5	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_582|t_591|ref=Physiog._81
+6	μετεωρι	μετεωρίζω	d	d-------c	Case=d|Gender=n|Number=s	5	ADV	_	t_583|t_582|ref=Physiog._81
+7	-	-	u	u--------	_	14	AuxX	_	t_584|t_591|ref=Physiog._81
+8	σμοῖς	σμός	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_585|t_587|ref=Physiog._81
+9	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_586|t_585|ref=Physiog._81
+10	καὶ	καί	c	c--------	_	14	COORD	_	t_587|t_591|ref=Physiog._81
+11	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_588|t_587|ref=Physiog._81
+12	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_589|t_590|ref=Physiog._81
+13	βλεφάροις	βλέφαρον	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_590|t_588|ref=Physiog._81
+14	γινώσκεται	γιγνώσκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_591|0|ref=Physiog._81
+15	.	.	u	u--------	_	14	AuxK	_	t_592|t_591|ref=Physiog._81
 
-# source = Pseudo-Polemon, Physiognomonica 81
+# source = Pseudo-Polemon, Physiog. 81
 # text = [ p [0] .
 # sent_id = 52
-1	[	[	u	u--------	_	3	AuxG	_	t_593|ref=Physiognomonica_81
-2	p	p	n	n--------	_	3	OBJ	_	t_594|ref=Physiognomonica_81
-3	[0]	[0]	-	---------	_	0	PRED	_	e_38|ref=Physiognomonica_70
-4	.	.	u	u--------	_	3	AuxK	_	t_595|ref=Physiognomonica_81
+1	[	[	u	u--------	_	3	AuxG	_	t_593|e_38|ref=Physiog._81
+2	p	p	n	n--------	_	3	OBJ	_	t_594|e_38|ref=Physiog._81
+3	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=Physiog._70
+4	.	.	u	u--------	_	3	AuxK	_	t_595|e_38|ref=Physiog._81
 
-# source = Pseudo-Polemon, Physiognomonica 81
+# source = Pseudo-Polemon, Physiog. 81
 # text = 307 Fr . ]
 # sent_id = 53
-1	307	307	x	x--------	_	0	AuxG	_	t_596|ref=Physiognomonica_81
-2	Fr	fr	n	n-s---fn-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ExD	_	t_597|ref=Physiognomonica_81
-3	.	.	u	u--------	_	1	AuxK	_	t_598|ref=Physiognomonica_81
-4	]	]	u	u--------	_	1	AuxG	_	t_599|ref=Physiognomonica_81
+1	307	307	x	x--------	_	0	AuxG	_	t_596|0|ref=Physiog._81
+2	Fr	fr	n	n-s---fn-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ExD	_	t_597|t_596|ref=Physiog._81
+3	.	.	u	u--------	_	1	AuxK	_	t_598|t_596|ref=Physiog._81
+4	]	]	u	u--------	_	1	AuxG	_	t_599|t_596|ref=Physiog._81
 
-# source = Pseudo-Polemon, Physiognomonica 81
+# source = Pseudo-Polemon, Physiog. 81
 # text = Γυναῖκες ἑταιρίστριαι , γυναικώδει φίλαν - δροι , ἀκάθαρτοι , αἷς αἱ κνῆμαι [ p [0] .
 # sent_id = 54
-1	Γυναῖκες	γυνή	n	n-p---fv-	Case=v|Gender=f|Number=p	16	ExD	_	t_600|ref=Physiognomonica_81
-2	ἑταιρίστριαι	ἑταιρίστριον	a	a-p---fv-	Case=v|Gender=f|Number=p	1	ATR	_	t_601|ref=Physiognomonica_81
-3	,	,	u	u--------	_	16	AuxX	_	t_602|ref=Physiognomonica_81
-4	γυναικώδει	γυναικώδης	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_603|ref=Physiognomonica_81
-5	φίλαν	φίλα	a	a-s---fa-	Case=a|Gender=f|Number=s	1	ATR	_	t_604|ref=Physiognomonica_81
-6	-	-	u	u--------	_	16	AuxG	_	t_605|ref=Physiognomonica_81
-7	δροι	δρος	a	a-p---fv-	Case=v|Gender=f|Number=p	8	ATR	_	t_606|ref=Physiognomonica_81
-8	,	,	u	u--------	_	16	COORD	_	t_607|ref=Physiognomonica_81
-9	ἀκάθαρτοι	ἀκάθαρτος	a	a-p---fn-	Case=n|Gender=f|Number=p	8	ATR	_	t_608|ref=Physiognomonica_81
-10	,	,	u	u--------	_	16	AuxX	_	t_609|ref=Physiognomonica_81
-11	αἷς	ὅς	p	p-p---fd-	Case=d|Gender=f|Number=p	15	ADV	_	t_610|ref=Physiognomonica_81
-12	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	13	ATR	_	t_611|ref=Physiognomonica_81
-13	κνῆμαι	κνῆμαι	n	n-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_612|ref=Physiognomonica_81
-14	[	[	u	u--------	_	15	AuxX	_	t_613|ref=Physiognomonica_81
-15	p	p	n	n--------	_	16	ExD	_	t_614|ref=Physiognomonica_81
-16	[0]	[0]	-	---------	_	0	PRED	_	e_39|ref=Physiognomonica_70
-17	.	.	u	u--------	_	16	AuxK	_	t_615|ref=Physiognomonica_81
+1	Γυναῖκες	γυνή	n	n-p---fv-	Case=v|Gender=f|Number=p	16	ExD	_	t_600|e_39|ref=Physiog._81
+2	ἑταιρίστριαι	ἑταιρίστριον	a	a-p---fv-	Case=v|Gender=f|Number=p	1	ATR	_	t_601|t_600|ref=Physiog._81
+3	,	,	u	u--------	_	16	AuxX	_	t_602|e_39|ref=Physiog._81
+4	γυναικώδει	γυναικώδης	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_603|t_604|ref=Physiog._81
+5	φίλαν	φίλα	a	a-s---fa-	Case=a|Gender=f|Number=s	1	ATR	_	t_604|t_600|ref=Physiog._81
+6	-	-	u	u--------	_	16	AuxG	_	t_605|e_39|ref=Physiog._81
+7	δροι	δρος	a	a-p---fv-	Case=v|Gender=f|Number=p	8	ATR	_	t_606|t_607|ref=Physiog._81
+8	,	,	u	u--------	_	16	COORD	_	t_607|e_39|ref=Physiog._81
+9	ἀκάθαρτοι	ἀκάθαρτος	a	a-p---fn-	Case=n|Gender=f|Number=p	8	ATR	_	t_608|t_607|ref=Physiog._81
+10	,	,	u	u--------	_	16	AuxX	_	t_609|e_39|ref=Physiog._81
+11	αἷς	ὅς	p	p-p---fd-	Case=d|Gender=f|Number=p	15	ADV	_	t_610|t_614|ref=Physiog._81
+12	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	13	ATR	_	t_611|t_612|ref=Physiog._81
+13	κνῆμαι	κνῆμαι	n	n-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_612|e_39|ref=Physiog._81
+14	[	[	u	u--------	_	15	AuxX	_	t_613|t_614|ref=Physiog._81
+15	p	p	n	n--------	_	16	ExD	_	t_614|e_39|ref=Physiog._81
+16	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Physiog._70
+17	.	.	u	u--------	_	16	AuxK	_	t_615|e_39|ref=Physiog._81
 
-# source = Pseudo-Polemon, Physiognomonica 81-83
+# source = Pseudo-Polemon, Physiog. 81-83
 # text = 38 ] περὶ τὸ σφυρὸν παχεῖαι καὶ οἱ δάκτυλοι τῶν ποδῶν μικρὸν ἀπεσχισμένοι , ὥσπερ τοῖς στε - γανόποσι τῶν ὀρνίθων , καὶ αἷς σκαφοειδὴς ὁ περίδρομος τῆς κεφαλῆς [0] [1] .
 # sent_id = 55
-1	38	38	u	u--------	_	0	AuxG	_	t_616|ref=Physiognomonica_81
-2	]	]	u	u--------	_	1	AuxX	_	t_617|ref=Physiognomonica_81
-3	περὶ	περί	r	r--------	_	30	AuxP	_	t_618|ref=Physiognomonica_81
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_619|ref=Physiognomonica_81
-5	σφυρὸν	σφυρόν	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_620|ref=Physiognomonica_81
-6	παχεῖαι	παχύς	a	a-p---fn-	Case=n|Gender=f|Number=p	30	PNOM	_	t_621|ref=Physiognomonica_81
-7	καὶ	καί	c	c--------	_	1	COORD	_	t_622|ref=Physiognomonica_81
-8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_623|ref=Physiognomonica_81
-9	δάκτυλοι	δάκτυλος	n	n-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_624|ref=Physiognomonica_81
-10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_625|ref=Physiognomonica_81
-11	ποδῶν	πούς	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_626|ref=Physiognomonica_81
-12	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_627|ref=Physiognomonica_81
-13	ἀπεσχισμένοι	ἀποσχίζω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	30	PNOM	_	t_628|ref=Physiognomonica_81
-14	,	,	u	u--------	_	1	AuxX	_	t_629|ref=Physiognomonica_81
-15	ὥσπερ	ὥσπερ	c	c--------	_	30	AuxC	_	t_630|ref=Physiognomonica_83
-16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_631|ref=Physiognomonica_83
-17	στε	ἔστε	m	m--------	_	15	ADV	_	t_632|ref=Physiognomonica_81
-18	-	-	u	u--------	_	30	AuxX	_	t_633|ref=Physiognomonica_83
-19	γανόποσι	γανόπεσ	n	n-p---md-	Case=d|Gender=m|Number=p	31	OBJ	_	t_634|ref=Physiognomonica_83
-20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_635|ref=Physiognomonica_83
-21	ὀρνίθων	ὄρνις	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_636|ref=Physiognomonica_83
-22	,	,	u	u--------	_	1	AuxX	_	t_637|ref=Physiognomonica_83
-23	καὶ	καί	c	c--------	_	7	COORD	_	t_638|ref=Physiognomonica_83
-24	αἷς	ὅς	p	p-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_639|ref=Physiognomonica_83
-25	σκαφοειδὴς	σκαφοειδής	a	a-s---mn-	Case=n|Gender=m|Number=s	31	PNOM	_	t_640|ref=Physiognomonica_83
-26	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	27	ATR	_	t_641|ref=Physiognomonica_83
-27	περίδρομος	περίδρομος	n	n-s---mn-	Case=n|Gender=m|Number=s	31	SBJ	_	t_642|ref=Physiognomonica_83
-28	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_643|ref=Physiognomonica_83
-29	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_644|ref=Physiognomonica_83
-30	[0]	[0]	-	---------	_	1	PRED	_	e_40|ref=Physiognomonica_70
-31	[1]	[1]	-	---------	_	15	ADV	_	e_41|ref=Physiognomonica_70
-32	.	.	u	u--------	_	1	AuxK	_	t_645|ref=Physiognomonica_83
+1	38	38	u	u--------	_	0	AuxG	_	t_616|0|ref=Physiog._81
+2	]	]	u	u--------	_	1	AuxX	_	t_617|t_616|ref=Physiog._81
+3	περὶ	περί	r	r--------	_	30	AuxP	_	t_618|e_40|ref=Physiog._81
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_619|t_620|ref=Physiog._81
+5	σφυρὸν	σφυρόν	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_620|t_618|ref=Physiog._81
+6	παχεῖαι	παχύς	a	a-p---fn-	Case=n|Gender=f|Number=p	30	PNOM	_	t_621|e_40|ref=Physiog._81
+7	καὶ	καί	c	c--------	_	1	COORD	_	t_622|t_616|ref=Physiog._81
+8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_623|t_624|ref=Physiog._81
+9	δάκτυλοι	δάκτυλος	n	n-p---mn-	Case=n|Gender=m|Number=p	30	SBJ	_	t_624|e_40|ref=Physiog._81
+10	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_625|t_626|ref=Physiog._81
+11	ποδῶν	πούς	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_626|t_624|ref=Physiog._81
+12	μικρὸν	μικρός	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_627|t_628|ref=Physiog._81
+13	ἀπεσχισμένοι	ἀποσχίζω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	30	PNOM	_	t_628|e_40|ref=Physiog._81
+14	,	,	u	u--------	_	1	AuxX	_	t_629|t_616|ref=Physiog._81
+15	ὥσπερ	ὥσπερ	c	c--------	_	30	AuxC	_	t_630|e_40|ref=Physiog._83
+16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_631|t_634|ref=Physiog._83
+17	στε	ἔστε	m	m--------	_	15	ADV	_	t_632|t_630|ref=Physiog._81
+18	-	-	u	u--------	_	30	AuxX	_	t_633|e_40|ref=Physiog._83
+19	γανόποσι	γανόπεσ	n	n-p---md-	Case=d|Gender=m|Number=p	31	OBJ	_	t_634|e_41|ref=Physiog._83
+20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_635|t_636|ref=Physiog._83
+21	ὀρνίθων	ὄρνις	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_636|t_634|ref=Physiog._83
+22	,	,	u	u--------	_	1	AuxX	_	t_637|t_616|ref=Physiog._83
+23	καὶ	καί	c	c--------	_	7	COORD	_	t_638|t_622|ref=Physiog._83
+24	αἷς	ὅς	p	p-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_639|t_640|ref=Physiog._83
+25	σκαφοειδὴς	σκαφοειδής	a	a-s---mn-	Case=n|Gender=m|Number=s	31	PNOM	_	t_640|e_41|ref=Physiog._83
+26	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	27	ATR	_	t_641|t_642|ref=Physiog._83
+27	περίδρομος	περίδρομος	n	n-s---mn-	Case=n|Gender=m|Number=s	31	SBJ	_	t_642|e_41|ref=Physiog._83
+28	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_643|t_644|ref=Physiog._83
+29	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_644|t_642|ref=Physiog._83
+30	[0]	[0]	-	---------	_	1	PRED	_	e_40|t_616|ref=Physiog._70
+31	[1]	[1]	-	---------	_	15	ADV	_	e_41|t_630|ref=Physiog._70
+32	.	.	u	u--------	_	1	AuxK	_	t_645|t_616|ref=Physiog._83
 
-# source = Pseudo-Polemon, Physiognomonica 83
+# source = Pseudo-Polemon, Physiog. 83
 # text = [ p [0] .
 # sent_id = 56
-1	[	[	u	u--------	_	3	AuxG	_	t_646|ref=Physiognomonica_83
-2	p	p	n	n--------	_	3	OBJ	_	t_647|ref=Physiognomonica_83
-3	[0]	[0]	-	---------	_	0	PRED	_	e_42|ref=Physiognomonica_70
-4	.	.	u	u--------	_	3	AuxK	_	t_648|ref=Physiognomonica_83
+1	[	[	u	u--------	_	3	AuxG	_	t_646|e_42|ref=Physiog._83
+2	p	p	n	n--------	_	3	OBJ	_	t_647|e_42|ref=Physiog._83
+3	[0]	[0]	-	---------	_	0	PRED	_	e_42|0|ref=Physiog._70
+4	.	.	u	u--------	_	3	AuxK	_	t_648|e_42|ref=Physiog._83
 
-# source = Pseudo-Polemon, Physiognomonica 83
+# source = Pseudo-Polemon, Physiog. 83
 # text = 309 ] Οἱ στενόποδες ἠλίθιοι , δειλοί οἱ δὲ μὴ ἔχοντες τὸ [ p [0] [1] .
 # sent_id = 57
-1	309	309	x	x--------	_	0	AuxG	_	t_649|ref=Physiognomonica_83
-2	]	]	u	u--------	_	1	AuxG	_	t_650|ref=Physiognomonica_83
-3	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_651|ref=Physiognomonica_83
-4	στενόποδες	στενόπους	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_652|ref=Physiognomonica_83
-5	ἠλίθιοι	ἠλίθιος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_653|ref=Physiognomonica_81
-6	,	,	u	u--------	_	9	AuxX	_	t_654|ref=Physiognomonica_83
-7	δειλοί	δειλός	a	a-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_655|ref=Physiognomonica_83
-8	οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	11	ATR	_	t_656|ref=Physiognomonica_83
-9	δὲ	δέ	g	g--------	_	1	COORD	_	t_657|ref=Physiognomonica_83
-10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_658|ref=Physiognomonica_83
-11	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	SBJ	_	t_659|ref=Physiognomonica_83
-12	τὸ	ὁ	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_660|ref=Physiognomonica_83
-13	[	[	u	u--------	_	14	AuxX	_	t_661|ref=Physiognomonica_83
-14	p	p	x	x--------	_	16	OBJ	_	t_662|ref=Physiognomonica_83
-15	[0]	[0]	-	---------	_	9	PRED	_	e_43|ref=Physiognomonica_70
-16	[1]	[1]	-	---------	_	9	PRED	_	e_44|ref=Physiognomonica_70
-17	.	.	u	u--------	_	1	AuxK	_	t_663|ref=Physiognomonica_83
+1	309	309	x	x--------	_	0	AuxG	_	t_649|0|ref=Physiog._83
+2	]	]	u	u--------	_	1	AuxG	_	t_650|t_649|ref=Physiog._83
+3	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_651|e_43|ref=Physiog._83
+4	στενόποδες	στενόπους	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_652|e_43|ref=Physiog._83
+5	ἠλίθιοι	ἠλίθιος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_653|e_43|ref=Physiog._81
+6	,	,	u	u--------	_	9	AuxX	_	t_654|t_657|ref=Physiog._83
+7	δειλοί	δειλός	a	a-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_655|e_44|ref=Physiog._83
+8	οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	11	ATR	_	t_656|t_659|ref=Physiog._83
+9	δὲ	δέ	g	g--------	_	1	COORD	_	t_657|t_649|ref=Physiog._83
+10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_658|t_659|ref=Physiog._83
+11	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	SBJ	_	t_659|e_44|ref=Physiog._83
+12	τὸ	ὁ	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_660|t_659|ref=Physiog._83
+13	[	[	u	u--------	_	14	AuxX	_	t_661|t_662|ref=Physiog._83
+14	p	p	x	x--------	_	16	OBJ	_	t_662|e_44|ref=Physiog._83
+15	[0]	[0]	-	---------	_	9	PRED	_	e_43|t_657|ref=Physiog._70
+16	[1]	[1]	-	---------	_	9	PRED	_	e_44|t_657|ref=Physiog._70
+17	.	.	u	u--------	_	1	AuxK	_	t_663|t_649|ref=Physiog._83
 
-# source = Pseudo-Polemon, Physiognomonica 83
+# source = Pseudo-Polemon, Physiog. 83
 # text = 310 ] ἐντὸς κοῖλον τοῦ ποδός , ἀλλʼ ὅλῳ βαίνοντες παν - οῦργοι , ὥσπερ καὶ τὴν ἀλώπεκα λόγος ἔχει [0] .
 # sent_id = 58
-1	310	310	u	u--------	_	21	AuxG	_	t_664|ref=Physiognomonica_83
-2	]	]	u	u--------	_	21	AuxG	_	t_665|ref=Physiognomonica_83
-3	ἐντὸς	ἐντός	r	r--------	_	21	AuxP	_	t_666|ref=Physiognomonica_83
-4	κοῖλον	κοῖλος	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_667|ref=Physiognomonica_83
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_668|ref=Physiognomonica_83
-6	ποδός	πούς	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_669|ref=Physiognomonica_83
-7	,	,	u	u--------	_	21	AuxX	_	t_670|ref=Physiognomonica_83
-8	ἀλλʼ	ἀλλά	c	c--------	_	21	COORD	_	t_671|ref=Physiognomonica_83
-9	ὅλῳ	ὅλος	a	a-s---md-	Case=d|Gender=n|Number=s	10	OBJ	_	t_672|ref=Physiognomonica_83
-10	βαίνοντες	βαίνω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_673|ref=Physiognomonica_83
-11	παν	παν	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_674|ref=Physiognomonica_83
-12	-	-	u	u--------	_	13	AuxX	_	t_675|ref=Physiognomonica_83
-13	οῦργοι	ἔρργος	n	n-p---mn-	Case=n|Gender=m|Number=p	21	SBJ	_	t_676|ref=Physiognomonica_83
-14	,	,	u	u--------	_	21	AuxX	_	t_677|ref=Physiognomonica_83
-15	ὥσπερ	ὥσπερ	d	d--------	_	20	ADV	_	t_678|ref=Physiognomonica_83
-16	καὶ	καί	d	d--------	_	18	AuxZ	_	t_679|ref=Physiognomonica_83
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_680|ref=Physiognomonica_83
-18	ἀλώπεκα	ἀλώπηξ	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_681|ref=Physiognomonica_83
-19	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_682|ref=Physiognomonica_83
-20	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	ATR	_	t_683|ref=Physiognomonica_83
-21	[0]	[0]	-	---------	_	0	PRED	_	e_45|ref=Physiognomonica_70
-22	.	.	u	u--------	_	21	AuxK	_	t_684|ref=Physiognomonica_83
+1	310	310	u	u--------	_	21	AuxG	_	t_664|e_45|ref=Physiog._83
+2	]	]	u	u--------	_	21	AuxG	_	t_665|e_45|ref=Physiog._83
+3	ἐντὸς	ἐντός	r	r--------	_	21	AuxP	_	t_666|e_45|ref=Physiog._83
+4	κοῖλον	κοῖλος	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_667|t_666|ref=Physiog._83
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_668|t_669|ref=Physiog._83
+6	ποδός	πούς	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_669|t_667|ref=Physiog._83
+7	,	,	u	u--------	_	21	AuxX	_	t_670|e_45|ref=Physiog._83
+8	ἀλλʼ	ἀλλά	c	c--------	_	21	COORD	_	t_671|e_45|ref=Physiog._83
+9	ὅλῳ	ὅλος	a	a-s---md-	Case=d|Gender=n|Number=s	10	OBJ	_	t_672|t_673|ref=Physiog._83
+10	βαίνοντες	βαίνω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_673|t_671|ref=Physiog._83
+11	παν	παν	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_674|t_673|ref=Physiog._83
+12	-	-	u	u--------	_	13	AuxX	_	t_675|t_676|ref=Physiog._83
+13	οῦργοι	ἔρργος	n	n-p---mn-	Case=n|Gender=m|Number=p	21	SBJ	_	t_676|e_45|ref=Physiog._83
+14	,	,	u	u--------	_	21	AuxX	_	t_677|e_45|ref=Physiog._83
+15	ὥσπερ	ὥσπερ	d	d--------	_	20	ADV	_	t_678|t_683|ref=Physiog._83
+16	καὶ	καί	d	d--------	_	18	AuxZ	_	t_679|t_681|ref=Physiog._83
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_680|t_681|ref=Physiog._83
+18	ἀλώπεκα	ἀλώπηξ	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_681|t_683|ref=Physiog._83
+19	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_682|t_683|ref=Physiog._83
+20	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	ATR	_	t_683|t_676|ref=Physiog._83
+21	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Physiog._70
+22	.	.	u	u--------	_	21	AuxK	_	t_684|e_45|ref=Physiog._83
 
-# source = Pseudo-Polemon, Physiognomonica 83-85
+# source = Pseudo-Polemon, Physiog. 83-85
 # text = Οἱ βραχυδάκτυλοι καὶ παχυδάκτυλοι χειρῶν τε καὶ ποδῶν ἠλίθιοι [0] ·
 # sent_id = 59
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_685|ref=Physiognomonica_83
-2	βραχυδάκτυλοι	βραχυδάκτυλος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_686|ref=Physiognomonica_83
-3	καὶ	καί	c	c--------	_	10	COORD	_	t_687|ref=Physiognomonica_85
-4	παχυδάκτυλοι	παχυδάκτυλος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_688|ref=Physiognomonica_85
-5	χειρῶν	χείρ	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_689|ref=Physiognomonica_83
-6	τε	τε	g	g--------	_	7	AuxY	_	t_690|ref=Physiognomonica_85
-7	καὶ	καί	c	c--------	_	9	COORD	_	t_691|ref=Physiognomonica_85
-8	ποδῶν	πούς	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_692|ref=Physiognomonica_85
-9	ἠλίθιοι	ἠλίθιος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_693|ref=Physiognomonica_85
-10	[0]	[0]	-	---------	_	0	PRED	_	e_46|ref=Physiognomonica_70
-11	·	·	u	u--------	_	10	AuxK	_	t_694|ref=Physiognomonica_85
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_685|e_46|ref=Physiog._83
+2	βραχυδάκτυλοι	βραχυδάκτυλος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_686|t_687|ref=Physiog._83
+3	καὶ	καί	c	c--------	_	10	COORD	_	t_687|e_46|ref=Physiog._85
+4	παχυδάκτυλοι	παχυδάκτυλος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_688|t_687|ref=Physiog._85
+5	χειρῶν	χείρ	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_689|t_691|ref=Physiog._83
+6	τε	τε	g	g--------	_	7	AuxY	_	t_690|t_691|ref=Physiog._85
+7	καὶ	καί	c	c--------	_	9	COORD	_	t_691|t_693|ref=Physiog._85
+8	ποδῶν	πούς	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_692|t_691|ref=Physiog._85
+9	ἠλίθιοι	ἠλίθιος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	PNOM	_	t_693|t_687|ref=Physiog._85
+10	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Physiog._70
+11	·	·	u	u--------	_	10	AuxK	_	t_694|e_46|ref=Physiog._85
 
-# source = Pseudo-Polemon, Physiognomonica 85
+# source = Pseudo-Polemon, Physiog. 85
 # text = πάντως δὲ οὐ τούτους ὑπολαμβάνειν τοῦτο , ἀλλὰ εἰ σῶμα μή τε βραχεῖς μή τε παχεῖς ὦσιν , ἀμέλει [ δὲ ] οὕτως ὑπολαμβάνειν .
 # sent_id = 60
-1	πάντως	πάντως	d	d--------	_	5	ADV	_	t_695|ref=Physiognomonica_85
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_696|ref=Physiognomonica_85
-3	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_697|ref=Physiognomonica_85
-4	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	5	SBJ	_	t_698|ref=Physiognomonica_85
-5	ὑπολαμβάνειν	ὑπολαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_699|ref=Physiognomonica_85
-6	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_700|ref=Physiognomonica_85
-7	,	,	u	u--------	_	0	AuxX	_	t_701|ref=Physiognomonica_85
-8	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_702|ref=Physiognomonica_85
-9	εἰ	εἰ	c	c--------	_	24	AuxC	_	t_703|ref=Physiognomonica_85
-10	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_704|ref=Physiognomonica_85
-11	μή	μή	d	d--------	_	12	AuxY	_	t_705|ref=Physiognomonica_85
-12	τε	τε	c	c--------	_	15	AuxY	_	t_706|ref=Physiognomonica_85
-13	βραχεῖς	βραχύς	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_707|ref=Physiognomonica_85
-14	μή	μή	d	d--------	_	15	AuxY	_	t_708|ref=Physiognomonica_85
-15	τε	τε	c	c--------	_	17	COORD	_	t_709|ref=Physiognomonica_85
-16	παχεῖς	παχύς	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_710|ref=Physiognomonica_85
-17	ὦσιν	εἰμί	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	9	ADV	_	t_711|ref=Physiognomonica_85
-18	,	,	u	u--------	_	7	AuxX	_	t_712|ref=Physiognomonica_85
-19	ἀμέλει	ἀμέλει	d	d--------	_	24	ADV	_	t_713|ref=Physiognomonica_85
-20	[	[	u	u--------	_	7	AuxX	_	t_714|ref=Physiognomonica_85
-21	δὲ	δέ	d	d--------	_	24	AuxY	_	t_715|ref=Physiognomonica_85
-22	]	]	u	u--------	_	7	AuxX	_	t_716|ref=Physiognomonica_85
-23	οὕτως	οὕτως	d	d--------	_	24	ADV	_	t_717|ref=Physiognomonica_85
-24	ὑπολαμβάνειν	ὑπολαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_718|ref=Physiognomonica_85
-25	.	.	u	u--------	_	7	AuxK	_	t_719|ref=Physiognomonica_85
+1	πάντως	πάντως	d	d--------	_	5	ADV	_	t_695|t_699|ref=Physiog._85
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_696|t_699|ref=Physiog._85
+3	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_697|t_699|ref=Physiog._85
+4	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	5	SBJ	_	t_698|t_699|ref=Physiog._85
+5	ὑπολαμβάνειν	ὑπολαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_699|t_702|ref=Physiog._85
+6	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_700|t_699|ref=Physiog._85
+7	,	,	u	u--------	_	0	AuxX	_	t_701|0|ref=Physiog._85
+8	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_702|t_701|ref=Physiog._85
+9	εἰ	εἰ	c	c--------	_	24	AuxC	_	t_703|t_718|ref=Physiog._85
+10	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_704|t_711|ref=Physiog._85
+11	μή	μή	d	d--------	_	12	AuxY	_	t_705|t_706|ref=Physiog._85
+12	τε	τε	c	c--------	_	15	AuxY	_	t_706|t_709|ref=Physiog._85
+13	βραχεῖς	βραχύς	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_707|t_709|ref=Physiog._85
+14	μή	μή	d	d--------	_	15	AuxY	_	t_708|t_709|ref=Physiog._85
+15	τε	τε	c	c--------	_	17	COORD	_	t_709|t_711|ref=Physiog._85
+16	παχεῖς	παχύς	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_710|t_709|ref=Physiog._85
+17	ὦσιν	εἰμί	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	9	ADV	_	t_711|t_703|ref=Physiog._85
+18	,	,	u	u--------	_	7	AuxX	_	t_712|t_701|ref=Physiog._85
+19	ἀμέλει	ἀμέλει	d	d--------	_	24	ADV	_	t_713|t_718|ref=Physiog._85
+20	[	[	u	u--------	_	7	AuxX	_	t_714|t_701|ref=Physiog._85
+21	δὲ	δέ	d	d--------	_	24	AuxY	_	t_715|t_718|ref=Physiog._85
+22	]	]	u	u--------	_	7	AuxX	_	t_716|t_701|ref=Physiog._85
+23	οὕτως	οὕτως	d	d--------	_	24	ADV	_	t_717|t_718|ref=Physiog._85
+24	ὑπολαμβάνειν	ὑπολαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_718|t_702|ref=Physiog._85
+25	.	.	u	u--------	_	7	AuxK	_	t_719|t_701|ref=Physiog._85
 
-# source = Pseudo-Polemon, Physiognomonica 85-86
+# source = Pseudo-Polemon, Physiog. 85-86
 # text = οἱ συμπεφυκότας τοὺς δακτύλους ἔχον - τες δειμαλέοι , ὥσπερ καὶ οἱ κύνες εἰσίν [0] .
 # sent_id = 61
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_720|ref=Physiognomonica_85
-2	συμπεφυκότας	συμφύω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	5	SBJ	_	t_721|ref=Physiognomonica_85
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_722|ref=Physiognomonica_85
-4	δακτύλους	δάκτυλος	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_723|ref=Physiognomonica_85
-5	ἔχον	ἔχω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_724|ref=Physiognomonica_85
-6	-	-	u	u--------	_	5	AuxG	_	t_725|ref=Physiognomonica_85
-7	τες	τε	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_726|ref=Physiognomonica_85
-8	δειμαλέοι	δειμαλέος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_727|ref=Physiognomonica_85
-9	,	,	u	u--------	_	5	AuxX	_	t_728|ref=Physiognomonica_83
-10	ὥσπερ	ὥσπερ	c	c--------	_	5	AuxC	_	t_729|ref=Physiognomonica_85
-11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_730|ref=Physiognomonica_86
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_731|ref=Physiognomonica_86
-13	κύνες	κύων	n	n-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_732|ref=Physiognomonica_86
-14	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	ADV	_	t_733|ref=Physiognomonica_86
-15	[0]	[0]	-	---------	_	10	ADV	_	e_47|ref=Physiognomonica_70
-16	.	.	u	u--------	_	5	AuxK	_	t_734|ref=Physiognomonica_86
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_720|t_721|ref=Physiog._85
+2	συμπεφυκότας	συμφύω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	5	SBJ	_	t_721|t_724|ref=Physiog._85
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_722|t_723|ref=Physiog._85
+4	δακτύλους	δάκτυλος	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_723|t_724|ref=Physiog._85
+5	ἔχον	ἔχω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_724|0|ref=Physiog._85
+6	-	-	u	u--------	_	5	AuxG	_	t_725|t_724|ref=Physiog._85
+7	τες	τε	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_726|t_724|ref=Physiog._85
+8	δειμαλέοι	δειμαλέος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	PNOM	_	t_727|e_47|ref=Physiog._85
+9	,	,	u	u--------	_	5	AuxX	_	t_728|t_724|ref=Physiog._83
+10	ὥσπερ	ὥσπερ	c	c--------	_	5	AuxC	_	t_729|t_724|ref=Physiog._85
+11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_730|t_732|ref=Physiog._86
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_731|t_732|ref=Physiog._86
+13	κύνες	κύων	n	n-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_732|t_733|ref=Physiog._86
+14	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	ADV	_	t_733|t_729|ref=Physiog._86
+15	[0]	[0]	-	---------	_	10	ADV	_	e_47|t_729|ref=Physiog._70
+16	.	.	u	u--------	_	5	AuxK	_	t_734|t_724|ref=Physiog._86
 

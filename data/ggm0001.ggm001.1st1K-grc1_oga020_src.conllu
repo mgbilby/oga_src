@@ -1,578 +1,578 @@
-# source = Anonymous, Anametresis Pontou 1.1
+# source = Anonymous, Anamet. 1.1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Anametresis Pontou_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Anametresis Pontou_1.1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=Anamet._1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=Anamet._1.1
 
-# source = Anonymous, Anametresis Pontou 1.1
+# source = Anonymous, Anamet. 1.1
 # text = Χρὴ γινώσκειν ὅτι πάσης τῆς γῆς ὁ περίμετρος [0] .
 # sent_id = 2
-1	Χρὴ	χρή	n	n-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_3|ref=Anametresis Pontou_1.1
-2	γινώσκειν	γιγνώσκω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_4|ref=Anametresis Pontou_1.1
-3	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_5|ref=Anametresis Pontou_1.1
-4	πάσης	πᾶς	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_6|ref=Anametresis Pontou_1.1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_7|ref=Anametresis Pontou_1.1
-6	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_8|ref=Anametresis Pontou_1.1
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_9|ref=Anametresis Pontou_1.1
-8	περίμετρος	περίμετρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_10|ref=Anametresis Pontou_1.1
-9	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Anametresis Pontou_1.1
-10	.	.	u	u--------	_	9	AuxK	_	t_11|ref=Anametresis Pontou_1.1
+1	Χρὴ	χρή	n	n-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_3|e_1|ref=Anamet._1.1
+2	γινώσκειν	γιγνώσκω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_4|e_1|ref=Anamet._1.1
+3	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_5|t_4|ref=Anamet._1.1
+4	πάσης	πᾶς	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_6|t_8|ref=Anamet._1.1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_7|t_8|ref=Anamet._1.1
+6	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_8|t_10|ref=Anamet._1.1
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_9|t_10|ref=Anamet._1.1
+8	περίμετρος	περίμετρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_10|e_1|ref=Anamet._1.1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Anamet._1.1
+10	.	.	u	u--------	_	9	AuxK	_	t_11|e_1|ref=Anamet._1.1
 
-# source = Anonymous, Anametresis Pontou 1.1
+# source = Anonymous, Anamet. 1.1
 # text = στάδιά ἐστι δισχίλια καὶ μυριάδες εἴκοσι πέντε ·
 # sent_id = 3
-1	στάδιά	στάδιον	n	n-p---na-	Case=n|Gender=n|Number=p	4	SBJ	_	t_12|ref=Anametresis Pontou_1.1
-2	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_13|ref=Anametresis Pontou_1.1
-3	δισχίλια	δισχίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_14|ref=Anametresis Pontou_1.1
-4	καὶ	καί	c	c--------	_	2	COORD	_	t_15|ref=Anametresis Pontou_1.1
-5	μυριάδες	μυριάς	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_16|ref=Anametresis Pontou_1.1
-6	εἴκοσι	εἴκοσι	m	m--------	_	5	ATR	_	t_17|ref=Anametresis Pontou_1.1
-7	πέντε	πέντε	m	m--------	_	5	ATR	_	t_18|ref=Anametresis Pontou_1.1
-8	·	·	u	u--------	_	2	AuxK	_	t_19|ref=Anametresis Pontou_1.1
+1	στάδιά	στάδιον	n	n-p---na-	Case=n|Gender=n|Number=p	4	SBJ	_	t_12|t_15|ref=Anamet._1.1
+2	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_13|0|ref=Anamet._1.1
+3	δισχίλια	δισχίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_14|t_15|ref=Anamet._1.1
+4	καὶ	καί	c	c--------	_	2	COORD	_	t_15|t_13|ref=Anamet._1.1
+5	μυριάδες	μυριάς	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_16|t_15|ref=Anamet._1.1
+6	εἴκοσι	εἴκοσι	m	m--------	_	5	ATR	_	t_17|t_16|ref=Anamet._1.1
+7	πέντε	πέντε	m	m--------	_	5	ATR	_	t_18|t_16|ref=Anamet._1.1
+8	·	·	u	u--------	_	2	AuxK	_	t_19|t_13|ref=Anamet._1.1
 
-# source = Anonymous, Anametresis Pontou 1.1
+# source = Anonymous, Anamet. 1.1
 # text = μῆκος δὲ τῆς ἡμετέρας οἰκουμένης ἀπὸ στόματος Γάγγου ἕως Γαδείρων στάδια ὀκτακισμύρια τρισχίλια ὀκ τακόσια [0] ·
 # sent_id = 4
-1	μῆκος	μῆκος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_20|ref=Anametresis Pontou_1.1
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_21|ref=Anametresis Pontou_1.1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_22|ref=Anametresis Pontou_1.1
-4	ἡμετέρας	ἡμέτερος	a	a-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_23|ref=Anametresis Pontou_1.1
-5	οἰκουμένης	οἰκουμένη	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	1	ATR	_	t_24|ref=Anametresis Pontou_1.1
-6	ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_25|ref=Anametresis Pontou_1.1
-7	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_26|ref=Anametresis Pontou_1.1
-8	Γάγγου	γάγγης	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_27|ref=Anametresis Pontou_1.1
-9	ἕως	ἕως	r	r--------	_	5	AuxP	_	t_28|ref=Anametresis Pontou_1.1
-10	Γαδείρων	γαδείρων	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ADV	_	t_29|ref=Anametresis Pontou_1.1
-11	στάδια	στάδιον	n	n-p---nn-	Case=a|Gender=n|Number=p	16	ADV	_	t_30|ref=Anametresis Pontou_1.1
-12	ὀκτακισμύρια	ὀκτακισμύριοι	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_31|ref=Anametresis Pontou_1.1
-13	τρισχίλια	τρισχίλιοι	m	m-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_32|ref=Anametresis Pontou_1.1
-14	ὀκ	ὀκ	m	m-p---na-	_	15	ATR	_	t_33|ref=Anametresis Pontou_1.1
-15	τακόσια	τακόσιος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_34|ref=Anametresis Pontou_1.1
-16	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Anametresis Pontou_1.1
-17	·	·	u	u--------	_	16	AuxK	_	t_35|ref=Anametresis Pontou_1.1
+1	μῆκος	μῆκος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_20|e_2|ref=Anamet._1.1
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_21|e_2|ref=Anamet._1.1
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_22|t_20|ref=Anamet._1.1
+4	ἡμετέρας	ἡμέτερος	a	a-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_23|t_20|ref=Anamet._1.1
+5	οἰκουμένης	οἰκουμένη	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	1	ATR	_	t_24|t_20|ref=Anamet._1.1
+6	ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_25|t_24|ref=Anamet._1.1
+7	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_26|t_25|ref=Anamet._1.1
+8	Γάγγου	γάγγης	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_27|t_26|ref=Anamet._1.1
+9	ἕως	ἕως	r	r--------	_	5	AuxP	_	t_28|t_24|ref=Anamet._1.1
+10	Γαδείρων	γαδείρων	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ADV	_	t_29|t_28|ref=Anamet._1.1
+11	στάδια	στάδιον	n	n-p---nn-	Case=a|Gender=n|Number=p	16	ADV	_	t_30|e_2|ref=Anamet._1.1
+12	ὀκτακισμύρια	ὀκτακισμύριοι	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_31|t_30|ref=Anamet._1.1
+13	τρισχίλια	τρισχίλιοι	m	m-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_32|t_30|ref=Anamet._1.1
+14	ὀκ	ὀκ	m	m-p---na-	_	15	ATR	_	t_33|t_34|ref=Anamet._1.1
+15	τακόσια	τακόσιος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_34|t_30|ref=Anamet._1.1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Anamet._1.1
+17	·	·	u	u--------	_	16	AuxK	_	t_35|e_2|ref=Anamet._1.1
 
-# source = Anonymous, Anametresis Pontou 1.1
+# source = Anonymous, Anamet. 1.1
 # text = τὸ δὲ πλάτος ἀπὸ τῆς Αἰθιοπικῆς θαλάσσης ἕως τοῦ Τανάϊδος ποταμοῦ στάδια τρισμύρια πεντακισχίλια τὸ δὲ μεταξὺ Εὐφράτου καὶ Τίγριδος ποταμοῦ , ὃ καλεῖται Μεσοποτάμιον , διάστημα ἔχει σταδίων τρισχιλίων , Ταύτην τὴν ἀναμέτρησιν πεποίηκεν Ἐρατοσθένης ὁ τῶν ἀρχαίων μαθητικώτατος [0] .
 # sent_id = 5
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_36|ref=Anametresis Pontou_1.1
-2	δὲ	δέ	d	d--------	_	31	AuxY	_	t_37|ref=Anametresis Pontou_1.1
-3	πλάτος	πλάτος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_38|ref=Anametresis Pontou_1.1
-4	ἀπὸ	ἀπό	r	r--------	_	3	AuxP	_	t_39|ref=Anametresis Pontou_1.1
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_40|ref=Anametresis Pontou_1.1
-6	Αἰθιοπικῆς	αἰθιοπικός	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_41|ref=Anametresis Pontou_1.1
-7	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_42|ref=Anametresis Pontou_1.1
-8	ἕως	ἕως	r	r--------	_	3	AuxP	_	t_43|ref=Anametresis Pontou_1.1
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_44|ref=Anametresis Pontou_1.1
-10	Τανάϊδος	ἴστρος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_45|ref=Anametresis Pontou_1.1
-11	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_46|ref=Anametresis Pontou_1.1
-12	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	41	ADV	_	t_47|ref=Anametresis Pontou_1.1
-13	τρισμύρια	τρισμύριαι	a	a-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_48|ref=Anametresis Pontou_1.1
-14	πεντακισχίλια	πεντακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_49|ref=Anametresis Pontou_1.1
-15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	28	SBJ	_	t_50|ref=Anametresis Pontou_1.1
-16	δὲ	δέ	c	c--------	_	31	COORD	_	t_51|ref=Anametresis Pontou_1.1
-17	μεταξὺ	μεταξύ	r	r--------	_	15	AuxP	_	t_52|ref=Anametresis Pontou_1.1
-18	Εὐφράτου	εὐφράτης	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_53|ref=Anametresis Pontou_1.1
-19	καὶ	καί	c	c--------	_	17	COORD	_	t_54|ref=Anametresis Pontou_1.1
-20	Τίγριδος	τίγρις	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_55|ref=Anametresis Pontou_1.1
-21	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_56|ref=Anametresis Pontou_1.1
-22	,	,	u	u--------	_	0	AuxX	_	t_57|ref=Anametresis Pontou_1.1
-23	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_58|ref=Anametresis Pontou_1.1
-24	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	15	ATR	_	t_59|ref=Anametresis Pontou_1.1
-25	Μεσοποτάμιον	μεσοποτάμιον	n	n-s---nn-	Case=n|Gender=n|Number=s	24	PNOM	_	t_60|ref=Anametresis Pontou_1.1
-26	,	,	u	u--------	_	22	AuxX	_	t_61|ref=Anametresis Pontou_1.1
-27	διάστημα	διάστημα	n	n-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_62|ref=Anametresis Pontou_1.1
-28	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_63|ref=Anametresis Pontou_1.1
-29	σταδίων	στάδιον	n	n-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_64|ref=Anametresis Pontou_1.1
-30	τρισχιλίων	τρισχίλιοι	a	a-p---ng-	Case=g|Gender=n|Number=p	29	ATR	_	t_65|ref=Anametresis Pontou_1.1
-31	,	,	u	u--------	_	22	COORD	_	t_66|ref=Anametresis Pontou_1.1
-32	Ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_67|ref=Anametresis Pontou_1.1
-33	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_68|ref=Anametresis Pontou_1.1
-34	ἀναμέτρησιν	ἀναμέτρησις	n	n-s---fa-	Case=a|Gender=f|Number=s	35	OBJ	_	t_69|ref=Anametresis Pontou_1.1
-35	πεποίηκεν	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	31	PRED	_	t_70|ref=Anametresis Pontou_1.1
-36	Ἐρατοσθένης	ἐρατοσθένης	n	n-p---ma-	Case=a|Gender=m|Number=p	35	SBJ	_	t_71|ref=Anametresis Pontou_1.1
-37	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	36	ATR	_	t_72|ref=Anametresis Pontou_1.1
-38	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	39	ATR	_	t_73|ref=Anametresis Pontou_1.1
-39	ἀρχαίων	ἀρχαῖος	a	a-p---mg-	Case=g|Gender=m|Number=p	40	ATR	_	t_74|ref=Anametresis Pontou_1.1
-40	μαθητικώτατος	μαθητικός	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	36	ATR	_	t_75|ref=Anametresis Pontou_1.1
-41	[0]	[0]	-	---------	_	16	PRED	_	e_3|ref=Anametresis Pontou_1.1
-42	.	.	u	u--------	_	31	AuxK	_	t_76|ref=Anametresis Pontou_1.1
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_36|t_38|ref=Anamet._1.1
+2	δὲ	δέ	d	d--------	_	31	AuxY	_	t_37|t_66|ref=Anamet._1.1
+3	πλάτος	πλάτος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_38|t_51|ref=Anamet._1.1
+4	ἀπὸ	ἀπό	r	r--------	_	3	AuxP	_	t_39|t_38|ref=Anamet._1.1
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_40|t_42|ref=Anamet._1.1
+6	Αἰθιοπικῆς	αἰθιοπικός	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_41|t_42|ref=Anamet._1.1
+7	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_42|t_39|ref=Anamet._1.1
+8	ἕως	ἕως	r	r--------	_	3	AuxP	_	t_43|t_38|ref=Anamet._1.1
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_44|t_46|ref=Anamet._1.1
+10	Τανάϊδος	ἴστρος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_45|t_46|ref=Anamet._1.1
+11	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_46|t_43|ref=Anamet._1.1
+12	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	41	ADV	_	t_47|e_3|ref=Anamet._1.1
+13	τρισμύρια	τρισμύριαι	a	a-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_48|t_47|ref=Anamet._1.1
+14	πεντακισχίλια	πεντακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_49|t_47|ref=Anamet._1.1
+15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	28	SBJ	_	t_50|t_63|ref=Anamet._1.1
+16	δὲ	δέ	c	c--------	_	31	COORD	_	t_51|t_66|ref=Anamet._1.1
+17	μεταξὺ	μεταξύ	r	r--------	_	15	AuxP	_	t_52|t_50|ref=Anamet._1.1
+18	Εὐφράτου	εὐφράτης	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_53|t_54|ref=Anamet._1.1
+19	καὶ	καί	c	c--------	_	17	COORD	_	t_54|t_52|ref=Anamet._1.1
+20	Τίγριδος	τίγρις	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_55|t_54|ref=Anamet._1.1
+21	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_56|t_54|ref=Anamet._1.1
+22	,	,	u	u--------	_	0	AuxX	_	t_57|0|ref=Anamet._1.1
+23	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_58|t_59|ref=Anamet._1.1
+24	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	15	ATR	_	t_59|t_50|ref=Anamet._1.1
+25	Μεσοποτάμιον	μεσοποτάμιον	n	n-s---nn-	Case=n|Gender=n|Number=s	24	PNOM	_	t_60|t_59|ref=Anamet._1.1
+26	,	,	u	u--------	_	22	AuxX	_	t_61|t_57|ref=Anamet._1.1
+27	διάστημα	διάστημα	n	n-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_62|t_63|ref=Anamet._1.1
+28	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_63|t_51|ref=Anamet._1.1
+29	σταδίων	στάδιον	n	n-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_64|t_62|ref=Anamet._1.1
+30	τρισχιλίων	τρισχίλιοι	a	a-p---ng-	Case=g|Gender=n|Number=p	29	ATR	_	t_65|t_64|ref=Anamet._1.1
+31	,	,	u	u--------	_	22	COORD	_	t_66|t_57|ref=Anamet._1.1
+32	Ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_67|t_69|ref=Anamet._1.1
+33	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_68|t_69|ref=Anamet._1.1
+34	ἀναμέτρησιν	ἀναμέτρησις	n	n-s---fa-	Case=a|Gender=f|Number=s	35	OBJ	_	t_69|t_70|ref=Anamet._1.1
+35	πεποίηκεν	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	31	PRED	_	t_70|t_66|ref=Anamet._1.1
+36	Ἐρατοσθένης	ἐρατοσθένης	n	n-p---ma-	Case=a|Gender=m|Number=p	35	SBJ	_	t_71|t_70|ref=Anamet._1.1
+37	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	36	ATR	_	t_72|t_71|ref=Anamet._1.1
+38	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	39	ATR	_	t_73|t_74|ref=Anamet._1.1
+39	ἀρχαίων	ἀρχαῖος	a	a-p---mg-	Case=g|Gender=m|Number=p	40	ATR	_	t_74|t_75|ref=Anamet._1.1
+40	μαθητικώτατος	μαθητικός	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	36	ATR	_	t_75|t_71|ref=Anamet._1.1
+41	[0]	[0]	-	---------	_	16	PRED	_	e_3|t_51|ref=Anamet._1.1
+42	.	.	u	u--------	_	31	AuxK	_	t_76|t_66|ref=Anamet._1.1
 
-# source = Anonymous, Anametresis Pontou 1.1
+# source = Anonymous, Anamet. 1.1
 # text = 2 .
 # sent_id = 6
-1	2	2	u	u--------	_	0	AuxG	_	t_77|ref=Anametresis Pontou_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_78|ref=Anametresis Pontou_1.1
+1	2	2	u	u--------	_	0	AuxG	_	t_77|0|ref=Anamet._1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_78|t_77|ref=Anamet._1.1
 
-# source = Anonymous, Anametresis Pontou 1.1-2.2
+# source = Anonymous, Anamet. 1.1-2.2
 # text = Ἀπὸ τοῦ Βυζαντίου εἰς τὸ Σωσθένιον στάδια ὀγδοήκοντα , μίλια δέκα καὶ ἥμισυ [0] ·
 # sent_id = 7
-1	Ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_79|ref=Anametresis Pontou_1.1
-2	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_80|ref=Anametresis Pontou_2.2
-3	Βυζαντίου	βυζάντιος	n	n-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_81|ref=Anametresis Pontou_2.2
-4	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_82|ref=Anametresis Pontou_2.2
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_83|ref=Anametresis Pontou_2.2
-6	Σωσθένιον	σωσθένης	n	n-s---na-	Case=a|Gender=n|Number=s	4	PNOM	_	t_84|ref=Anametresis Pontou_2.2
-7	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_85|ref=Anametresis Pontou_2.2
-8	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	7	ATR	_	t_86|ref=Anametresis Pontou_2.2
-9	,	,	u	u--------	_	14	AuxX	_	t_87|ref=Anametresis Pontou_2.2
-10	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_88|ref=Anametresis Pontou_2.2
-11	δέκα	δέκα	a	a--------	_	12	ATR	_	t_89|ref=Anametresis Pontou_2.2
-12	καὶ	καί	c	c--------	_	10	COORD	_	t_90|ref=Anametresis Pontou_2.2
-13	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_91|ref=Anametresis Pontou_2.2
-14	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Anametresis Pontou_1.1
-15	·	·	u	u--------	_	14	AuxK	_	t_92|ref=Anametresis Pontou_2.2
+1	Ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_79|e_4|ref=Anamet._1.1
+2	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_80|t_81|ref=Anamet._2.2
+3	Βυζαντίου	βυζάντιος	n	n-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_81|t_79|ref=Anamet._2.2
+4	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_82|e_4|ref=Anamet._2.2
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_83|t_84|ref=Anamet._2.2
+6	Σωσθένιον	σωσθένης	n	n-s---na-	Case=a|Gender=n|Number=s	4	PNOM	_	t_84|t_82|ref=Anamet._2.2
+7	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_85|e_4|ref=Anamet._2.2
+8	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	7	ATR	_	t_86|t_85|ref=Anamet._2.2
+9	,	,	u	u--------	_	14	AuxX	_	t_87|e_4|ref=Anamet._2.2
+10	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_88|t_87|ref=Anamet._2.2
+11	δέκα	δέκα	a	a--------	_	12	ATR	_	t_89|t_90|ref=Anamet._2.2
+12	καὶ	καί	c	c--------	_	10	COORD	_	t_90|t_88|ref=Anamet._2.2
+13	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_91|t_90|ref=Anamet._2.2
+14	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Anamet._1.1
+15	·	·	u	u--------	_	14	AuxK	_	t_92|e_4|ref=Anamet._2.2
 
-# source = Anonymous, Anametresis Pontou 2.2
+# source = Anonymous, Anamet. 2.2
 # text = ἀπὸ δὲ τοῦ Σωσθενίου εἰς τὸ Ἱερὸν στάδια τεσσαράκοντα , μίλια πέντε ἥμισυ [0] ·
 # sent_id = 8
-1	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_93|ref=Anametresis Pontou_2.2
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_94|ref=Anametresis Pontou_2.2
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_95|ref=Anametresis Pontou_2.2
-4	Σωσθενίου	σωσθένης	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_96|ref=Anametresis Pontou_2.2
-5	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_97|ref=Anametresis Pontou_2.2
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_98|ref=Anametresis Pontou_2.2
-7	Ἱερὸν	ἱερόν	n	n-s---na-	Case=a|Gender=n|Number=s	5	PNOM	_	t_99|ref=Anametresis Pontou_2.2
-8	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_100|ref=Anametresis Pontou_2.2
-9	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	8	ATR	_	t_101|ref=Anametresis Pontou_2.2
-10	,	,	u	u--------	_	14	COORD	_	t_102|ref=Anametresis Pontou_2.2
-11	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	10	PNOM	_	t_103|ref=Anametresis Pontou_2.2
-12	πέντε	πέντε	a	a--------	_	11	ATR	_	t_104|ref=Anametresis Pontou_2.2
-13	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	10	PNOM	_	t_105|ref=Anametresis Pontou_2.2
-14	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Anametresis Pontou_1.1
-15	·	·	u	u--------	_	14	AuxK	_	t_106|ref=Anametresis Pontou_2.2
+1	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_93|e_5|ref=Anamet._2.2
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_94|e_5|ref=Anamet._2.2
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_95|t_96|ref=Anamet._2.2
+4	Σωσθενίου	σωσθένης	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_96|t_93|ref=Anamet._2.2
+5	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_97|e_5|ref=Anamet._2.2
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_98|t_99|ref=Anamet._2.2
+7	Ἱερὸν	ἱερόν	n	n-s---na-	Case=a|Gender=n|Number=s	5	PNOM	_	t_99|t_97|ref=Anamet._2.2
+8	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_100|e_5|ref=Anamet._2.2
+9	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	8	ATR	_	t_101|t_100|ref=Anamet._2.2
+10	,	,	u	u--------	_	14	COORD	_	t_102|e_5|ref=Anamet._2.2
+11	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	10	PNOM	_	t_103|t_102|ref=Anamet._2.2
+12	πέντε	πέντε	a	a--------	_	11	ATR	_	t_104|t_103|ref=Anamet._2.2
+13	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	10	PNOM	_	t_105|t_102|ref=Anamet._2.2
+14	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Anamet._1.1
+15	·	·	u	u--------	_	14	AuxK	_	t_106|e_5|ref=Anamet._2.2
 
-# source = Anonymous, Anametresis Pontou 2.2
+# source = Anonymous, Anamet. 2.2
 # text = τὸ πᾶν μίλια δεκαέξ [0] .
 # sent_id = 9
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_107|ref=Anametresis Pontou_2.2
-2	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_108|ref=Anametresis Pontou_2.2
-3	μίλια	μίλιον	a	a-p---na-	Case=a|Gender=n|Number=p	5	ADV	_	t_109|ref=Anametresis Pontou_2.2
-4	δεκαέξ	δεκαέξ	a	a--------	_	5	PNOM	_	t_110|ref=Anametresis Pontou_2.2
-5	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Anametresis Pontou_1.1
-6	.	.	u	u--------	_	5	AuxK	_	t_111|ref=Anametresis Pontou_2.2
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_107|t_108|ref=Anamet._2.2
+2	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_108|t_109|ref=Anamet._2.2
+3	μίλια	μίλιον	a	a-p---na-	Case=a|Gender=n|Number=p	5	ADV	_	t_109|e_6|ref=Anamet._2.2
+4	δεκαέξ	δεκαέξ	a	a--------	_	5	PNOM	_	t_110|e_6|ref=Anamet._2.2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Anamet._1.1
+6	.	.	u	u--------	_	5	AuxK	_	t_111|e_6|ref=Anamet._2.2
 
-# source = Anonymous, Anametresis Pontou 2.2
+# source = Anonymous, Anamet. 2.2
 # text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἤτοι στόματος τοῦ Πόντου ἕως τοῦ ἱεροῦ στόματος τοῦ Ἴστρου ποταμοῦ στάδια τρισχίλια ἑξακόσια τεσσαράκοντα , μίλια τετρακόσια ὀγδοήκοντα πέντε ἥμισυ [0] .
 # sent_id = 10
-1	Ἀπὸ	ἀπό	r	r--------	_	28	AuxP	_	t_112|ref=Anametresis Pontou_2.2
-2	δὲ	δέ	d	d--------	_	28	AuxY	_	t_113|ref=Anametresis Pontou_2.2
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_114|ref=Anametresis Pontou_2.2
-4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_115|ref=Anametresis Pontou_2.2
-5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_116|ref=Anametresis Pontou_2.2
-6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_117|ref=Anametresis Pontou_2.2
-7	ἤτοι	ἤτοι	d	d--------	_	28	AuxY	_	t_118|ref=Anametresis Pontou_2.2
-8	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_119|ref=Anametresis Pontou_2.2
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_120|ref=Anametresis Pontou_2.2
-10	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_121|ref=Anametresis Pontou_2.2
-11	ἕως	ἕως	r	r--------	_	28	AuxP	_	t_122|ref=Anametresis Pontou_2.2
-12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_123|ref=Anametresis Pontou_2.2
-13	ἱεροῦ	ἱερόν	a	a-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_124|ref=Anametresis Pontou_2.2
-14	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	11	ADV	_	t_125|ref=Anametresis Pontou_2.2
-15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_126|ref=Anametresis Pontou_2.2
-16	Ἴστρου	ἴστρος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_127|ref=Anametresis Pontou_2.2
-17	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_128|ref=Anametresis Pontou_2.2
-18	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	28	ADV	_	t_129|ref=Anametresis Pontou_2.2
-19	τρισχίλια	τρισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_130|ref=Anametresis Pontou_2.2
-20	ἑξακόσια	ἑξακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_131|ref=Anametresis Pontou_2.2
-21	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	22	ATR	_	t_132|ref=Anametresis Pontou_2.2
-22	,	,	u	u--------	_	28	COORD	_	t_133|ref=Anametresis Pontou_2.2
-23	μίλια	μίλιον	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_134|ref=Anametresis Pontou_2.2
-24	τετρακόσια	τετρακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_135|ref=Anametresis Pontou_2.2
-25	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	27	ATR	_	t_136|ref=Anametresis Pontou_2.2
-26	πέντε	πέντε	m	m--------	_	27	ATR	_	t_137|ref=Anametresis Pontou_2.2
-27	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	22	PNOM	_	t_138|ref=Anametresis Pontou_2.2
-28	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Anametresis Pontou_1.1
-29	.	.	u	u--------	_	28	AuxK	_	t_139|ref=Anametresis Pontou_2.2
+1	Ἀπὸ	ἀπό	r	r--------	_	28	AuxP	_	t_112|e_7|ref=Anamet._2.2
+2	δὲ	δέ	d	d--------	_	28	AuxY	_	t_113|e_7|ref=Anamet._2.2
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_114|t_119|ref=Anamet._2.2
+4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_115|t_116|ref=Anamet._2.2
+5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_116|t_119|ref=Anamet._2.2
+6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_117|t_116|ref=Anamet._2.2
+7	ἤτοι	ἤτοι	d	d--------	_	28	AuxY	_	t_118|e_7|ref=Anamet._2.2
+8	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_119|t_112|ref=Anamet._2.2
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_120|t_121|ref=Anamet._2.2
+10	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_121|t_119|ref=Anamet._2.2
+11	ἕως	ἕως	r	r--------	_	28	AuxP	_	t_122|e_7|ref=Anamet._2.2
+12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_123|t_125|ref=Anamet._2.2
+13	ἱεροῦ	ἱερόν	a	a-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_124|t_125|ref=Anamet._2.2
+14	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	11	ADV	_	t_125|t_122|ref=Anamet._2.2
+15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_126|t_128|ref=Anamet._2.2
+16	Ἴστρου	ἴστρος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_127|t_128|ref=Anamet._2.2
+17	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_128|t_133|ref=Anamet._2.2
+18	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	28	ADV	_	t_129|e_7|ref=Anamet._2.2
+19	τρισχίλια	τρισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_130|t_129|ref=Anamet._2.2
+20	ἑξακόσια	ἑξακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_131|t_133|ref=Anamet._2.2
+21	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	22	ATR	_	t_132|t_133|ref=Anamet._2.2
+22	,	,	u	u--------	_	28	COORD	_	t_133|e_7|ref=Anamet._2.2
+23	μίλια	μίλιον	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_134|t_136|ref=Anamet._2.2
+24	τετρακόσια	τετρακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_135|t_136|ref=Anamet._2.2
+25	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	27	ATR	_	t_136|t_138|ref=Anamet._2.2
+26	πέντε	πέντε	m	m--------	_	27	ATR	_	t_137|t_138|ref=Anamet._2.2
+27	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	22	PNOM	_	t_138|t_133|ref=Anamet._2.2
+28	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Anamet._1.1
+29	.	.	u	u--------	_	28	AuxK	_	t_139|e_7|ref=Anamet._2.2
 
-# source = Anonymous, Anametresis Pontou 2.2
+# source = Anonymous, Anamet. 2.2
 # text = 3 .
 # sent_id = 11
-1	3	3	x	x--------	_	0	AuxG	_	t_140|ref=Anametresis Pontou_2.2
-2	.	.	u	u--------	_	1	AuxK	_	t_141|ref=Anametresis Pontou_2.2
+1	3	3	x	x--------	_	0	AuxG	_	t_140|0|ref=Anamet._2.2
+2	.	.	u	u--------	_	1	AuxK	_	t_141|t_140|ref=Anamet._2.2
 
-# source = Anonymous, Anametresis Pontou 2.2-2.3
+# source = Anonymous, Anamet. 2.2-2.3
 # text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως Βορυσθένους ποταμοῦ τοῦ καὶ Δανάπρεως καλουμένου στάδια πεντακισχίλια ἑξακόσια , μίλια ἑπτακόσια τεσσαρακονταὲξ ἥμισυ [0] .
 # sent_id = 12
-1	Ἀπὸ	ἀπό	r	r--------	_	22	AuxP	_	t_142|ref=Anametresis Pontou_2.2
-2	δὲ	δέ	d	d--------	_	22	AuxY	_	t_143|ref=Anametresis Pontou_2.2
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_144|ref=Anametresis Pontou_2.2
-4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_145|ref=Anametresis Pontou_2.2
-5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_146|ref=Anametresis Pontou_2.2
-6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_147|ref=Anametresis Pontou_2.3
-7	ἕως	ἕως	r	r--------	_	22	AuxP	_	t_148|ref=Anametresis Pontou_2.3
-8	Βορυσθένους	τάρας	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_149|ref=Anametresis Pontou_2.3
-9	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_150|ref=Anametresis Pontou_2.3
-10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_151|ref=Anametresis Pontou_2.3
-11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_152|ref=Anametresis Pontou_2.3
-12	Δανάπρεως	δανάπρις	n	n-s---mg-	Case=g|Gender=m|Number=s	13	PNOM	_	t_153|ref=Anametresis Pontou_2.3
-13	καλουμένου	καλέω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_154|ref=Anametresis Pontou_2.3
-14	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	22	ADV	_	t_155|ref=Anametresis Pontou_2.3
-15	πεντακισχίλια	πεντακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_156|ref=Anametresis Pontou_2.3
-16	ἑξακόσια	ἑξακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_157|ref=Anametresis Pontou_2.3
-17	,	,	u	u--------	_	22	AuxX	_	t_158|ref=Anametresis Pontou_2.3
-18	μίλια	μίλιον	n	n-p---na-	Case=a|Gender=n|Number=p	21	ATR	_	t_159|ref=Anametresis Pontou_2.3
-19	ἑπτακόσια	ἑπτακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_160|ref=Anametresis Pontou_2.3
-20	τεσσαρακονταὲξ	τεσσαρακονταέξ	a	a--------	_	21	ATR	_	t_161|ref=Anametresis Pontou_2.3
-21	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	17	PNOM	_	t_162|ref=Anametresis Pontou_2.3
-22	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Anametresis Pontou_1.1
-23	.	.	u	u--------	_	22	AuxK	_	t_163|ref=Anametresis Pontou_2.3
+1	Ἀπὸ	ἀπό	r	r--------	_	22	AuxP	_	t_142|e_8|ref=Anamet._2.2
+2	δὲ	δέ	d	d--------	_	22	AuxY	_	t_143|e_8|ref=Anamet._2.2
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_144|t_146|ref=Anamet._2.2
+4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_145|t_146|ref=Anamet._2.2
+5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_146|t_142|ref=Anamet._2.2
+6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_147|t_146|ref=Anamet._2.3
+7	ἕως	ἕως	r	r--------	_	22	AuxP	_	t_148|e_8|ref=Anamet._2.3
+8	Βορυσθένους	τάρας	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_149|t_150|ref=Anamet._2.3
+9	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_150|t_148|ref=Anamet._2.3
+10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_151|t_150|ref=Anamet._2.3
+11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_152|t_154|ref=Anamet._2.3
+12	Δανάπρεως	δανάπρις	n	n-s---mg-	Case=g|Gender=m|Number=s	13	PNOM	_	t_153|t_154|ref=Anamet._2.3
+13	καλουμένου	καλέω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_154|t_150|ref=Anamet._2.3
+14	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	22	ADV	_	t_155|e_8|ref=Anamet._2.3
+15	πεντακισχίλια	πεντακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_156|t_155|ref=Anamet._2.3
+16	ἑξακόσια	ἑξακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_157|t_155|ref=Anamet._2.3
+17	,	,	u	u--------	_	22	AuxX	_	t_158|e_8|ref=Anamet._2.3
+18	μίλια	μίλιον	n	n-p---na-	Case=a|Gender=n|Number=p	21	ATR	_	t_159|t_162|ref=Anamet._2.3
+19	ἑπτακόσια	ἑπτακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_160|t_161|ref=Anamet._2.3
+20	τεσσαρακονταὲξ	τεσσαρακονταέξ	a	a--------	_	21	ATR	_	t_161|t_162|ref=Anamet._2.3
+21	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	17	PNOM	_	t_162|t_158|ref=Anamet._2.3
+22	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Anamet._1.1
+23	.	.	u	u--------	_	22	AuxK	_	t_163|e_8|ref=Anamet._2.3
 
-# source = Anonymous, Anametresis Pontou 2.3
+# source = Anonymous, Anamet. 2.3
 # text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως Πορθμίας πόλεως , τῆς ἐν τέλει τῆς Εὐρώπης τῶν τοῦ Πόντου μερῶν τῆς ἐν τῷ στομίῳ τῆς Μαιώτιδος λίμνης ἤτοι Βοσπόρου τοῦ Κιμμερίου καλουμένου , στάδια μύρια χίλια ἑκατόν , μίλια χίλια τετρακόσια ὀγδοήκοντα [0] .
 # sent_id = 13
-1	Ἀπὸ	ἀπό	r	r--------	_	42	AuxP	_	t_164|ref=Anametresis Pontou_2.3
-2	δὲ	δέ	d	d--------	_	42	AuxY	_	t_165|ref=Anametresis Pontou_2.3
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_166|ref=Anametresis Pontou_2.3
-4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_167|ref=Anametresis Pontou_2.3
-5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_168|ref=Anametresis Pontou_2.3
-6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_169|ref=Anametresis Pontou_2.3
-7	ἕως	ἕως	r	r--------	_	42	AuxP	_	t_170|ref=Anametresis Pontou_2.3
-8	Πορθμίας	πορθμία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_171|ref=Anametresis Pontou_2.3
-9	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_172|ref=Anametresis Pontou_2.3
-10	,	,	u	u--------	_	42	AuxX	_	t_173|ref=Anametresis Pontou_2.3
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_174|ref=Anametresis Pontou_2.3
-12	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_175|ref=Anametresis Pontou_2.3
-13	τέλει	τέλος	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ATR	_	t_176|ref=Anametresis Pontou_2.3
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_177|ref=Anametresis Pontou_2.3
-15	Εὐρώπης	εὐρώπη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_178|ref=Anametresis Pontou_2.3
-16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_179|ref=Anametresis Pontou_2.3
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_180|ref=Anametresis Pontou_2.3
-18	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_181|ref=Anametresis Pontou_2.3
-19	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_182|ref=Anametresis Pontou_2.3
-20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_183|ref=Anametresis Pontou_2.3
-21	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_184|ref=Anametresis Pontou_2.3
-22	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	23	ATR	_	t_185|ref=Anametresis Pontou_2.3
-23	στομίῳ	στόμιον	n	n-s---nd-	Case=d|Gender=n|Number=s	21	ATR	_	t_186|ref=Anametresis Pontou_2.3
-24	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_187|ref=Anametresis Pontou_2.3
-25	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_188|ref=Anametresis Pontou_2.3
-26	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_189|ref=Anametresis Pontou_2.3
-27	ἤτοι	ἤτοι	d	d--------	_	28	AuxZ	_	t_190|ref=Anametresis Pontou_2.3
-28	Βοσπόρου	βόσπορος	n	n-s---ng-	Case=g|Gender=m|Number=s	37	PNOM	_	t_191|ref=Anametresis Pontou_2.3
-29	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_192|ref=Anametresis Pontou_2.3
-30	Κιμμερίου	κιμμέριοι	n	n-s---ng-	Case=g|Gender=n|Number=s	31	PNOM	_	t_193|ref=Anametresis Pontou_2.3
-31	καλουμένου	καλέω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	28	ATR	_	t_194|ref=Anametresis Pontou_2.3
-32	,	,	u	u--------	_	42	AuxX	_	t_195|ref=Anametresis Pontou_2.3
-33	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	42	ADV	_	t_196|ref=Anametresis Pontou_2.3
-34	μύρια	μυρίος	n	n-p---nn-	Case=a|Gender=n|Number=p	33	ATR	_	t_197|ref=Anametresis Pontou_2.3
-35	χίλια	χίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	33	ATR	_	t_198|ref=Anametresis Pontou_2.3
-36	ἑκατόν	ἑκατόν	a	a--------	_	33	ATR	_	t_199|ref=Anametresis Pontou_2.3
-37	,	,	u	u--------	_	42	AuxX	_	t_200|ref=Anametresis Pontou_2.3
-38	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	37	SBJ	_	t_201|ref=Anametresis Pontou_2.3
-39	χίλια	χίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	38	ATR	_	t_202|ref=Anametresis Pontou_2.3
-40	τετρακόσια	τετρακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	38	ATR	_	t_203|ref=Anametresis Pontou_2.3
-41	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	38	ATR	_	t_204|ref=Anametresis Pontou_2.3
-42	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Anametresis Pontou_1.1
-43	.	.	u	u--------	_	42	AuxK	_	t_205|ref=Anametresis Pontou_2.3
+1	Ἀπὸ	ἀπό	r	r--------	_	42	AuxP	_	t_164|e_9|ref=Anamet._2.3
+2	δὲ	δέ	d	d--------	_	42	AuxY	_	t_165|e_9|ref=Anamet._2.3
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_166|t_168|ref=Anamet._2.3
+4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_167|t_168|ref=Anamet._2.3
+5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_168|t_172|ref=Anamet._2.3
+6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_169|t_168|ref=Anamet._2.3
+7	ἕως	ἕως	r	r--------	_	42	AuxP	_	t_170|e_9|ref=Anamet._2.3
+8	Πορθμίας	πορθμία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_171|t_172|ref=Anamet._2.3
+9	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_172|t_170|ref=Anamet._2.3
+10	,	,	u	u--------	_	42	AuxX	_	t_173|e_9|ref=Anamet._2.3
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_174|t_172|ref=Anamet._2.3
+12	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_175|t_172|ref=Anamet._2.3
+13	τέλει	τέλος	n	n-s---nd-	Case=d|Gender=n|Number=s	12	ATR	_	t_176|t_175|ref=Anamet._2.3
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_177|t_178|ref=Anamet._2.3
+15	Εὐρώπης	εὐρώπη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_178|t_182|ref=Anamet._2.3
+16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_179|t_182|ref=Anamet._2.3
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_180|t_181|ref=Anamet._2.3
+18	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_181|t_182|ref=Anamet._2.3
+19	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_182|t_176|ref=Anamet._2.3
+20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_183|t_189|ref=Anamet._2.3
+21	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_184|t_189|ref=Anamet._2.3
+22	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	23	ATR	_	t_185|t_186|ref=Anamet._2.3
+23	στομίῳ	στόμιον	n	n-s---nd-	Case=d|Gender=n|Number=s	21	ATR	_	t_186|t_184|ref=Anamet._2.3
+24	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_187|t_188|ref=Anamet._2.3
+25	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_188|t_189|ref=Anamet._2.3
+26	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_189|t_178|ref=Anamet._2.3
+27	ἤτοι	ἤτοι	d	d--------	_	28	AuxZ	_	t_190|t_191|ref=Anamet._2.3
+28	Βοσπόρου	βόσπορος	n	n-s---ng-	Case=g|Gender=m|Number=s	37	PNOM	_	t_191|t_200|ref=Anamet._2.3
+29	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_192|t_191|ref=Anamet._2.3
+30	Κιμμερίου	κιμμέριοι	n	n-s---ng-	Case=g|Gender=n|Number=s	31	PNOM	_	t_193|t_194|ref=Anamet._2.3
+31	καλουμένου	καλέω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	28	ATR	_	t_194|t_191|ref=Anamet._2.3
+32	,	,	u	u--------	_	42	AuxX	_	t_195|e_9|ref=Anamet._2.3
+33	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	42	ADV	_	t_196|e_9|ref=Anamet._2.3
+34	μύρια	μυρίος	n	n-p---nn-	Case=a|Gender=n|Number=p	33	ATR	_	t_197|t_196|ref=Anamet._2.3
+35	χίλια	χίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	33	ATR	_	t_198|t_196|ref=Anamet._2.3
+36	ἑκατόν	ἑκατόν	a	a--------	_	33	ATR	_	t_199|t_196|ref=Anamet._2.3
+37	,	,	u	u--------	_	42	AuxX	_	t_200|e_9|ref=Anamet._2.3
+38	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	37	SBJ	_	t_201|t_200|ref=Anamet._2.3
+39	χίλια	χίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	38	ATR	_	t_202|t_201|ref=Anamet._2.3
+40	τετρακόσια	τετρακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	38	ATR	_	t_203|t_201|ref=Anamet._2.3
+41	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	38	ATR	_	t_204|t_201|ref=Anamet._2.3
+42	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Anamet._1.1
+43	.	.	u	u--------	_	42	AuxK	_	t_205|e_9|ref=Anamet._2.3
 
-# source = Anonymous, Anametresis Pontou 2.3
+# source = Anonymous, Anamet. 2.3
 # text = Λέγεται δὲ τῆς Εὐρώπης τῆς Ποντικῆς ὁ περίπλους ἴσος εἶναι τῶ περίπλῳ τῶν τῆς Ἀσίας μερῶν .
 # sent_id = 14
-1	Λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_206|ref=Anametresis Pontou_2.3
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_207|ref=Anametresis Pontou_2.3
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_208|ref=Anametresis Pontou_2.3
-4	Εὐρώπης	εὐρώπη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_209|ref=Anametresis Pontou_2.3
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_210|ref=Anametresis Pontou_2.3
-6	Ποντικῆς	ποντικός	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_211|ref=Anametresis Pontou_2.3
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_212|ref=Anametresis Pontou_2.3
-8	περίπλους	περίπλοος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_213|ref=Anametresis Pontou_2.3
-9	ἴσος	ἴσος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_214|ref=Anametresis Pontou_2.3
-10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_215|ref=Anametresis Pontou_2.3
-11	τῶ	τῷ	l	l-s---nd-	Case=d|Gender=n|Number=s	12	ATR	_	t_216|ref=Anametresis Pontou_2.3
-12	περίπλῳ	περίπλους	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_217|ref=Anametresis Pontou_2.3
-13	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_218|ref=Anametresis Pontou_2.3
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_219|ref=Anametresis Pontou_2.3
-15	Ἀσίας	ἀσία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_220|ref=Anametresis Pontou_2.3
-16	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_221|ref=Anametresis Pontou_2.3
-17	.	.	u	u--------	_	1	AuxK	_	t_222|ref=Anametresis Pontou_2.3
+1	Λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_206|0|ref=Anamet._2.3
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_207|t_206|ref=Anamet._2.3
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_208|t_209|ref=Anamet._2.3
+4	Εὐρώπης	εὐρώπη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_209|t_213|ref=Anamet._2.3
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_210|t_209|ref=Anamet._2.3
+6	Ποντικῆς	ποντικός	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_211|t_209|ref=Anamet._2.3
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_212|t_213|ref=Anamet._2.3
+8	περίπλους	περίπλοος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_213|t_206|ref=Anamet._2.3
+9	ἴσος	ἴσος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_214|t_215|ref=Anamet._2.3
+10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_215|t_206|ref=Anamet._2.3
+11	τῶ	τῷ	l	l-s---nd-	Case=d|Gender=n|Number=s	12	ATR	_	t_216|t_217|ref=Anamet._2.3
+12	περίπλῳ	περίπλους	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_217|t_214|ref=Anamet._2.3
+13	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_218|t_221|ref=Anamet._2.3
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_219|t_220|ref=Anamet._2.3
+15	Ἀσίας	ἀσία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_220|t_221|ref=Anamet._2.3
+16	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_221|t_217|ref=Anamet._2.3
+17	.	.	u	u--------	_	1	AuxK	_	t_222|t_206|ref=Anamet._2.3
 
-# source = Anonymous, Anametresis Pontou 2.3
+# source = Anonymous, Anamet. 2.3
 # text = 4 [0] .
 # sent_id = 15
-1	4	4	u	u--------	_	2	AuxK	_	t_223|ref=Anametresis Pontou_2.3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Anametresis Pontou_1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_224|ref=Anametresis Pontou_2.3
+1	4	4	u	u--------	_	2	AuxK	_	t_223|e_10|ref=Anamet._2.3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Anamet._1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_224|e_10|ref=Anamet._2.3
 
-# source = Anonymous, Anametresis Pontou 2.3-2.4
+# source = Anonymous, Anamet. 2.3-2.4
 # text = Ἀπὸ δὲ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως Ἀμισοῦ στάδια τετρακισχίλια ἑξακόσια ἐξήκοντα , μίλια ἑξακόσια εἰκοσιὲν ἥμισυ [0] .
 # sent_id = 16
-1	Ἀπὸ	ἀπό	r	r--------	_	18	AuxP	_	t_225|ref=Anametresis Pontou_2.3
-2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_226|ref=Anametresis Pontou_2.3
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_227|ref=Anametresis Pontou_2.3
-4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_228|ref=Anametresis Pontou_2.3
-5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_229|ref=Anametresis Pontou_2.3
-6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_230|ref=Anametresis Pontou_2.3
-7	ἕως	ἕως	r	r--------	_	18	AuxP	_	t_231|ref=Anametresis Pontou_2.3
-8	Ἀμισοῦ	ἀμισός	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_232|ref=Anametresis Pontou_2.4
-9	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_233|ref=Anametresis Pontou_2.3
-10	τετρακισχίλια	τετρακισχίλιοι	a	a-p---nn-	Case=a|Gender=n|Number=p	9	ATR	_	t_234|ref=Anametresis Pontou_2.4
-11	ἑξακόσια	ἑξακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_235|ref=Anametresis Pontou_2.4
-12	ἐξήκοντα	ἐξήκω	a	a--------	_	13	ATR	_	t_236|ref=Anametresis Pontou_2.4
-13	,	,	u	u--------	_	18	COORD	_	t_237|ref=Anametresis Pontou_2.4
-14	μίλια	μίλιον	a	a-p---nn-	Case=a|Gender=n|Number=p	17	ATR	_	t_238|ref=Anametresis Pontou_2.4
-15	ἑξακόσια	ἑξακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	14	ATR	_	t_239|ref=Anametresis Pontou_2.4
-16	εἰκοσιὲν	εἰκοσιτέσσαρες	m	m--------	_	17	ATR	_	t_240|ref=Anametresis Pontou_2.4
-17	ἥμισυ	ἥμισυς	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_241|ref=Anametresis Pontou_2.4
-18	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Anametresis Pontou_1.1
-19	.	.	u	u--------	_	18	AuxK	_	t_242|ref=Anametresis Pontou_2.4
+1	Ἀπὸ	ἀπό	r	r--------	_	18	AuxP	_	t_225|e_11|ref=Anamet._2.3
+2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_226|e_11|ref=Anamet._2.3
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_227|t_229|ref=Anamet._2.3
+4	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_228|t_229|ref=Anamet._2.3
+5	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_229|t_225|ref=Anamet._2.3
+6	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_230|t_229|ref=Anamet._2.3
+7	ἕως	ἕως	r	r--------	_	18	AuxP	_	t_231|e_11|ref=Anamet._2.3
+8	Ἀμισοῦ	ἀμισός	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_232|t_231|ref=Anamet._2.4
+9	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_233|e_11|ref=Anamet._2.3
+10	τετρακισχίλια	τετρακισχίλιοι	a	a-p---nn-	Case=a|Gender=n|Number=p	9	ATR	_	t_234|t_233|ref=Anamet._2.4
+11	ἑξακόσια	ἑξακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_235|t_236|ref=Anamet._2.4
+12	ἐξήκοντα	ἐξήκω	a	a--------	_	13	ATR	_	t_236|t_237|ref=Anamet._2.4
+13	,	,	u	u--------	_	18	COORD	_	t_237|e_11|ref=Anamet._2.4
+14	μίλια	μίλιον	a	a-p---nn-	Case=a|Gender=n|Number=p	17	ATR	_	t_238|t_241|ref=Anamet._2.4
+15	ἑξακόσια	ἑξακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	14	ATR	_	t_239|t_238|ref=Anamet._2.4
+16	εἰκοσιὲν	εἰκοσιτέσσαρες	m	m--------	_	17	ATR	_	t_240|t_241|ref=Anamet._2.4
+17	ἥμισυ	ἥμισυς	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_241|t_237|ref=Anamet._2.4
+18	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Anamet._1.1
+19	.	.	u	u--------	_	18	AuxK	_	t_242|e_11|ref=Anamet._2.4
 
-# source = Anonymous, Anametresis Pontou 2.4
+# source = Anonymous, Anamet. 2.4
 # text = Ἀπὸ δὲ Ἀμισοῦ ἕως τοῦ Φάσεως ποταμοῦ στάδια τρισχίλια ὀκτακόσια δύο , μίλια πεντακόσια ἑπτά [0] .
 # sent_id = 17
-1	Ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_243|ref=Anametresis Pontou_2.4
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_244|ref=Anametresis Pontou_2.4
-3	Ἀμισοῦ	ἀμισός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_245|ref=Anametresis Pontou_2.4
-4	ἕως	ἕως	r	r--------	_	16	AuxP	_	t_246|ref=Anametresis Pontou_2.4
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_247|ref=Anametresis Pontou_2.4
-6	Φάσεως	φάσις	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_248|ref=Anametresis Pontou_2.4
-7	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_249|ref=Anametresis Pontou_2.4
-8	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_250|ref=Anametresis Pontou_2.4
-9	τρισχίλια	τρισχίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_251|ref=Anametresis Pontou_2.4
-10	ὀκτακόσια	ὀκτακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_252|ref=Anametresis Pontou_2.4
-11	δύο	δύο	a	a--------	_	12	ATR	_	t_253|ref=Anametresis Pontou_2.4
-12	,	,	u	u--------	_	16	COORD	_	t_254|ref=Anametresis Pontou_2.4
-13	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	12	PNOM	_	t_255|ref=Anametresis Pontou_2.4
-14	πεντακόσια	πεντακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_256|ref=Anametresis Pontou_2.4
-15	ἑπτά	ἑπτά	a	a--------	_	13	ATR	_	t_257|ref=Anametresis Pontou_2.4
-16	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=Anametresis Pontou_1.1
-17	.	.	u	u--------	_	16	AuxK	_	t_258|ref=Anametresis Pontou_2.4
+1	Ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_243|e_12|ref=Anamet._2.4
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_244|e_12|ref=Anamet._2.4
+3	Ἀμισοῦ	ἀμισός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_245|t_243|ref=Anamet._2.4
+4	ἕως	ἕως	r	r--------	_	16	AuxP	_	t_246|e_12|ref=Anamet._2.4
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_247|t_249|ref=Anamet._2.4
+6	Φάσεως	φάσις	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_248|t_249|ref=Anamet._2.4
+7	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ADV	_	t_249|t_246|ref=Anamet._2.4
+8	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_250|e_12|ref=Anamet._2.4
+9	τρισχίλια	τρισχίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_251|t_250|ref=Anamet._2.4
+10	ὀκτακόσια	ὀκτακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_252|t_254|ref=Anamet._2.4
+11	δύο	δύο	a	a--------	_	12	ATR	_	t_253|t_254|ref=Anamet._2.4
+12	,	,	u	u--------	_	16	COORD	_	t_254|e_12|ref=Anamet._2.4
+13	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	12	PNOM	_	t_255|t_254|ref=Anamet._2.4
+14	πεντακόσια	πεντακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_256|t_255|ref=Anamet._2.4
+15	ἑπτά	ἑπτά	a	a--------	_	13	ATR	_	t_257|t_255|ref=Anamet._2.4
+16	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Anamet._1.1
+17	.	.	u	u--------	_	16	AuxK	_	t_258|e_12|ref=Anamet._2.4
 
-# source = Anonymous, Anametresis Pontou 2.4
+# source = Anonymous, Anamet. 2.4
 # text = Ἀπὸ δὲ τοῦ Φάσεως ποταμοῦ ἕως τοῦ στόματος τῆς Μαιώτιδος λίμνης ἤτοι ἕως τῆς Ἀχιλλείου κώμης στάδια τετρακισχίλια εἴκοσι πέντε , μίλια πεντακόσια τριακονταὲξ ἥμισυ , ὡς γίνεσθαι ἀπὸ τοῦ Ἱεροῦ Διὸς Οὐρίου ἕως τοῦ στόματος τῆς Μαιώτιδος λίμνης στάδια μύρια δισ χίλια τετρακόσια ὀγδοήκοντα ἑπτὰ , μίλια χίλια ἑξακόσια ἐξήκοντα πέντε ἥμισυ [0] .
 # sent_id = 18
-1	Ἀπὸ	ἀπό	r	r--------	_	54	AuxP	_	t_259|ref=Anametresis Pontou_2.4
-2	δὲ	δέ	d	d--------	_	54	AuxY	_	t_260|ref=Anametresis Pontou_2.4
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_261|ref=Anametresis Pontou_2.4
-4	Φάσεως	φάσις	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_262|ref=Anametresis Pontou_2.4
-5	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_263|ref=Anametresis Pontou_2.4
-6	ἕως	ἕως	r	r--------	_	54	AuxP	_	t_264|ref=Anametresis Pontou_2.4
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_265|ref=Anametresis Pontou_2.4
-8	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_266|ref=Anametresis Pontou_2.4
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_267|ref=Anametresis Pontou_2.4
-10	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_268|ref=Anametresis Pontou_2.4
-11	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_269|ref=Anametresis Pontou_2.4
-12	ἤτοι	ἤτοι	d	d--------	_	54	AuxY	_	t_270|ref=Anametresis Pontou_2.4
-13	ἕως	ἕως	r	r--------	_	54	AuxP	_	t_271|ref=Anametresis Pontou_2.4
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_272|ref=Anametresis Pontou_2.4
-15	Ἀχιλλείου	ἀχίλλειος	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_273|ref=Anametresis Pontou_2.4
-16	κώμης	κώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_274|ref=Anametresis Pontou_2.4
-17	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	54	ADV	_	t_275|ref=Anametresis Pontou_2.4
-18	τετρακισχίλια	τετρακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_276|ref=Anametresis Pontou_2.4
-19	εἴκοσι	εἴκοσι	a	a--------	_	17	ATR	_	t_277|ref=Anametresis Pontou_2.4
-20	πέντε	πέντε	a	a--------	_	17	ATR	_	t_278|ref=Anametresis Pontou_2.4
-21	,	,	u	u--------	_	54	AuxX	_	t_279|ref=Anametresis Pontou_2.4
-22	μίλια	μίλιον	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_280|ref=Anametresis Pontou_2.4
-23	πεντακόσια	πεντακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	24	ATR	_	t_281|ref=Anametresis Pontou_2.4
-24	τριακονταὲξ	τριακονταέξ	m	m--------	_	25	ATR	_	t_282|ref=Anametresis Pontou_2.4
-25	ἥμισυ	ἥμισυς	a	a--------	Case=a|Gender=n|Number=s	21	SBJ	_	t_283|ref=Anametresis Pontou_2.4
-26	,	,	u	u--------	_	54	AuxX	_	t_284|ref=Anametresis Pontou_2.4
-27	ὡς	ὡς	c	c--------	_	54	AuxC	_	t_285|ref=Anametresis Pontou_2.4
-28	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	27	ADV	_	t_286|ref=Anametresis Pontou_2.4
-29	ἀπὸ	ἀπό	r	r--------	_	28	AuxP	_	t_287|ref=Anametresis Pontou_2.4
-30	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_288|ref=Anametresis Pontou_2.4
-31	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_289|ref=Anametresis Pontou_2.4
-32	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	29	ADV	_	t_290|ref=Anametresis Pontou_2.4
-33	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_291|ref=Anametresis Pontou_2.4
-34	ἕως	ἕως	r	r--------	_	28	AuxP	_	t_292|ref=Anametresis Pontou_2.4
-35	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	36	ATR	_	t_293|ref=Anametresis Pontou_2.4
-36	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	ADV	_	t_294|ref=Anametresis Pontou_2.4
-37	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_295|ref=Anametresis Pontou_2.4
-38	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_296|ref=Anametresis Pontou_2.4
-39	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	36	ATR	_	t_297|ref=Anametresis Pontou_2.4
-40	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	28	ADV	_	t_298|ref=Anametresis Pontou_2.4
-41	μύρια	μυρίος	a	a-p---na-	Case=a|Gender=n|Number=p	40	ATR	_	t_299|ref=Anametresis Pontou_2.4
-42	δισ	δίσ	a	a-p---nn-	_	45	ATR	_	t_300|ref=Anametresis Pontou_2.4
-43	χίλια	χίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	45	ATR	_	t_301|ref=Anametresis Pontou_2.4
-44	τετρακόσια	τετρακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	45	ATR	_	t_302|ref=Anametresis Pontou_2.4
-45	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	47	ATR	_	t_303|ref=Anametresis Pontou_2.4
-46	ἑπτὰ	ἑπτὰ	a	a--------	_	40	ATR	_	t_304|ref=Anametresis Pontou_2.4
-47	,	,	u	u--------	_	54	AuxX	_	t_305|ref=Anametresis Pontou_2.4
-48	μίλια	μίλιον	a	a-p---na-	Case=n|Gender=n|Number=p	53	ATR	_	t_306|ref=Anametresis Pontou_2.4
-49	χίλια	χίλιοι	a	a-p---na-	Case=n|Gender=n|Number=p	51	ATR	_	t_307|ref=Anametresis Pontou_2.4
-50	ἑξακόσια	ἑξακόσιοι	a	a-p---na-	Case=n|Gender=n|Number=p	51	ATR	_	t_308|ref=Anametresis Pontou_2.4
-51	ἐξήκοντα	ἐξήκω	a	a--------	_	48	ATR	_	t_309|ref=Anametresis Pontou_2.4
-52	πέντε	πέντε	a	a--------	_	48	ATR	_	t_310|ref=Anametresis Pontou_2.4
-53	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	47	PNOM	_	t_311|ref=Anametresis Pontou_2.4
-54	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Anametresis Pontou_1.1
-55	.	.	u	u--------	_	54	AuxK	_	t_312|ref=Anametresis Pontou_2.4
+1	Ἀπὸ	ἀπό	r	r--------	_	54	AuxP	_	t_259|e_13|ref=Anamet._2.4
+2	δὲ	δέ	d	d--------	_	54	AuxY	_	t_260|e_13|ref=Anamet._2.4
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_261|t_263|ref=Anamet._2.4
+4	Φάσεως	φάσις	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_262|t_263|ref=Anamet._2.4
+5	ποταμοῦ	ποταμός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_263|t_259|ref=Anamet._2.4
+6	ἕως	ἕως	r	r--------	_	54	AuxP	_	t_264|e_13|ref=Anamet._2.4
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_265|t_266|ref=Anamet._2.4
+8	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_266|t_264|ref=Anamet._2.4
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_267|t_269|ref=Anamet._2.4
+10	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_268|t_269|ref=Anamet._2.4
+11	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_269|t_266|ref=Anamet._2.4
+12	ἤτοι	ἤτοι	d	d--------	_	54	AuxY	_	t_270|e_13|ref=Anamet._2.4
+13	ἕως	ἕως	r	r--------	_	54	AuxP	_	t_271|e_13|ref=Anamet._2.4
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_272|t_274|ref=Anamet._2.4
+15	Ἀχιλλείου	ἀχίλλειος	a	a-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_273|t_274|ref=Anamet._2.4
+16	κώμης	κώμη	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_274|t_271|ref=Anamet._2.4
+17	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	54	ADV	_	t_275|e_13|ref=Anamet._2.4
+18	τετρακισχίλια	τετρακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_276|t_275|ref=Anamet._2.4
+19	εἴκοσι	εἴκοσι	a	a--------	_	17	ATR	_	t_277|t_275|ref=Anamet._2.4
+20	πέντε	πέντε	a	a--------	_	17	ATR	_	t_278|t_275|ref=Anamet._2.4
+21	,	,	u	u--------	_	54	AuxX	_	t_279|e_13|ref=Anamet._2.4
+22	μίλια	μίλιον	a	a-p---na-	Case=a|Gender=n|Number=p	24	ATR	_	t_280|t_282|ref=Anamet._2.4
+23	πεντακόσια	πεντακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	24	ATR	_	t_281|t_282|ref=Anamet._2.4
+24	τριακονταὲξ	τριακονταέξ	m	m--------	_	25	ATR	_	t_282|t_283|ref=Anamet._2.4
+25	ἥμισυ	ἥμισυς	a	a--------	Case=a|Gender=n|Number=s	21	SBJ	_	t_283|t_279|ref=Anamet._2.4
+26	,	,	u	u--------	_	54	AuxX	_	t_284|e_13|ref=Anamet._2.4
+27	ὡς	ὡς	c	c--------	_	54	AuxC	_	t_285|e_13|ref=Anamet._2.4
+28	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	27	ADV	_	t_286|t_285|ref=Anamet._2.4
+29	ἀπὸ	ἀπό	r	r--------	_	28	AuxP	_	t_287|t_286|ref=Anamet._2.4
+30	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_288|t_290|ref=Anamet._2.4
+31	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_289|t_290|ref=Anamet._2.4
+32	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	29	ADV	_	t_290|t_287|ref=Anamet._2.4
+33	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_291|t_290|ref=Anamet._2.4
+34	ἕως	ἕως	r	r--------	_	28	AuxP	_	t_292|t_286|ref=Anamet._2.4
+35	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	36	ATR	_	t_293|t_294|ref=Anamet._2.4
+36	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	ADV	_	t_294|t_292|ref=Anamet._2.4
+37	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_295|t_297|ref=Anamet._2.4
+38	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_296|t_297|ref=Anamet._2.4
+39	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	36	ATR	_	t_297|t_294|ref=Anamet._2.4
+40	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	28	ADV	_	t_298|t_286|ref=Anamet._2.4
+41	μύρια	μυρίος	a	a-p---na-	Case=a|Gender=n|Number=p	40	ATR	_	t_299|t_298|ref=Anamet._2.4
+42	δισ	δίσ	a	a-p---nn-	_	45	ATR	_	t_300|t_303|ref=Anamet._2.4
+43	χίλια	χίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	45	ATR	_	t_301|t_303|ref=Anamet._2.4
+44	τετρακόσια	τετρακόσιοι	a	a-p---na-	Case=a|Gender=n|Number=p	45	ATR	_	t_302|t_303|ref=Anamet._2.4
+45	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	47	ATR	_	t_303|t_305|ref=Anamet._2.4
+46	ἑπτὰ	ἑπτὰ	a	a--------	_	40	ATR	_	t_304|t_298|ref=Anamet._2.4
+47	,	,	u	u--------	_	54	AuxX	_	t_305|e_13|ref=Anamet._2.4
+48	μίλια	μίλιον	a	a-p---na-	Case=n|Gender=n|Number=p	53	ATR	_	t_306|t_311|ref=Anamet._2.4
+49	χίλια	χίλιοι	a	a-p---na-	Case=n|Gender=n|Number=p	51	ATR	_	t_307|t_309|ref=Anamet._2.4
+50	ἑξακόσια	ἑξακόσιοι	a	a-p---na-	Case=n|Gender=n|Number=p	51	ATR	_	t_308|t_309|ref=Anamet._2.4
+51	ἐξήκοντα	ἐξήκω	a	a--------	_	48	ATR	_	t_309|t_306|ref=Anamet._2.4
+52	πέντε	πέντε	a	a--------	_	48	ATR	_	t_310|t_306|ref=Anamet._2.4
+53	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	47	PNOM	_	t_311|t_305|ref=Anamet._2.4
+54	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Anamet._1.1
+55	.	.	u	u--------	_	54	AuxK	_	t_312|e_13|ref=Anamet._2.4
 
-# source = Anonymous, Anametresis Pontou 2.4
+# source = Anonymous, Anamet. 2.4
 # text = 5 .
 # sent_id = 19
-1	5	5	u	u--------	_	0	AuxG	_	t_313|ref=Anametresis Pontou_2.4
-2	.	.	u	u--------	_	1	AuxK	_	t_314|ref=Anametresis Pontou_2.4
+1	5	5	u	u--------	_	0	AuxG	_	t_313|0|ref=Anamet._2.4
+2	.	.	u	u--------	_	1	AuxK	_	t_314|t_313|ref=Anamet._2.4
 
-# source = Anonymous, Anametresis Pontou 2.4-2.5
+# source = Anonymous, Anamet. 2.4-2.5
 # text = Ὁμοῦ γίνεται ὁ περίπλους τοῦ Εὐξείνου Πόντου , τῶν τε δεξιῶν τῶν παρὰ τὴν Ἀσίαν μερῶν τοῦ Πόντου , ἀριστερῶν δὲ τῶν παρὰ τὴν Εὐρώπην μερῶν τοῦ Πόντου , ἀπὸ τοῦ Ἱεροῦ Διὸς Οὐρίου , στάδια δισμύρια τρισχίλια πεντακόσια ὀγδοήκοντα ἑπτὰ , μίλια τρισχίλια ἑκατὸν τεσσαράκοντα πέντε .
 # sent_id = 20
-1	Ὁμοῦ	ὁμοῦ	d	d--------	_	2	PNOM	_	t_315|ref=Anametresis Pontou_2.4
-2	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_316|ref=Anametresis Pontou_2.4
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_317|ref=Anametresis Pontou_2.4
-4	περίπλους	περίπλοος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_318|ref=Anametresis Pontou_2.4
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_319|ref=Anametresis Pontou_2.4
-6	Εὐξείνου	εὔξεινος	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_320|ref=Anametresis Pontou_2.4
-7	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_321|ref=Anametresis Pontou_2.4
-8	,	,	u	u--------	_	2	AuxX	_	t_322|ref=Anametresis Pontou_2.4
-9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_323|ref=Anametresis Pontou_2.4
-10	τε	τε	c	c--------	_	21	AuxY	_	t_324|ref=Anametresis Pontou_2.4
-11	δεξιῶν	δεξιός	a	a-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_325|ref=Anametresis Pontou_2.4
-12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_326|ref=Anametresis Pontou_2.5
-13	παρὰ	παρά	r	r--------	_	16	AuxP	_	t_327|ref=Anametresis Pontou_2.5
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_328|ref=Anametresis Pontou_2.5
-15	Ἀσίαν	ἀσία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_329|ref=Anametresis Pontou_2.5
-16	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_330|ref=Anametresis Pontou_2.5
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_331|ref=Anametresis Pontou_2.5
-18	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_332|ref=Anametresis Pontou_2.5
-19	,	,	u	u--------	_	2	AuxX	_	t_333|ref=Anametresis Pontou_2.5
-20	ἀριστερῶν	ἀριστερός	a	a-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_334|ref=Anametresis Pontou_2.5
-21	δὲ	δέ	c	c--------	_	4	COORD	_	t_335|ref=Anametresis Pontou_2.5
-22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_336|ref=Anametresis Pontou_2.5
-23	παρὰ	παρά	r	r--------	_	26	AuxP	_	t_337|ref=Anametresis Pontou_2.5
-24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_338|ref=Anametresis Pontou_2.5
-25	Εὐρώπην	εὐρώπη	n	n-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_339|ref=Anametresis Pontou_2.5
-26	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_340|ref=Anametresis Pontou_2.5
-27	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	28	ATR	_	t_341|ref=Anametresis Pontou_2.5
-28	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_342|ref=Anametresis Pontou_2.5
-29	,	,	u	u--------	_	2	AuxX	_	t_343|ref=Anametresis Pontou_2.5
-30	ἀπὸ	ἀπό	r	r--------	_	26	AuxP	_	t_344|ref=Anametresis Pontou_2.5
-31	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_345|ref=Anametresis Pontou_2.5
-32	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_346|ref=Anametresis Pontou_2.5
-33	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	30	ADV	_	t_347|ref=Anametresis Pontou_2.5
-34	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_348|ref=Anametresis Pontou_2.5
-35	,	,	u	u--------	_	2	AuxX	_	t_349|ref=Anametresis Pontou_2.5
-36	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	2	ADV	_	t_350|ref=Anametresis Pontou_2.5
-37	δισμύρια	δισμύριοι	a	a-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_351|ref=Anametresis Pontou_2.5
-38	τρισχίλια	τρισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_352|ref=Anametresis Pontou_2.5
-39	πεντακόσια	πεντακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	42	ATR	_	t_353|ref=Anametresis Pontou_2.5
-40	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	42	ATR	_	t_354|ref=Anametresis Pontou_2.5
-41	ἑπτὰ	ἑπτὰ	a	a--------	_	42	ATR	_	t_355|ref=Anametresis Pontou_2.5
-42	,	,	u	u--------	_	36	COORD	_	t_356|ref=Anametresis Pontou_2.5
-43	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	42	ATR	_	t_357|ref=Anametresis Pontou_2.5
-44	τρισχίλια	τρισχίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	46	ATR	_	t_358|ref=Anametresis Pontou_2.5
-45	ἑκατὸν	ἑκατόν	a	a--------	_	46	ATR	_	t_359|ref=Anametresis Pontou_2.5
-46	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	43	ATR	_	t_360|ref=Anametresis Pontou_2.5
-47	πέντε	πέντε	a	a--------	_	46	ATR	_	t_361|ref=Anametresis Pontou_2.5
-48	.	.	u	u--------	_	2	AuxK	_	t_362|ref=Anametresis Pontou_2.5
+1	Ὁμοῦ	ὁμοῦ	d	d--------	_	2	PNOM	_	t_315|t_316|ref=Anamet._2.4
+2	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_316|0|ref=Anamet._2.4
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_317|t_318|ref=Anamet._2.4
+4	περίπλους	περίπλοος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_318|t_316|ref=Anamet._2.4
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_319|t_321|ref=Anamet._2.4
+6	Εὐξείνου	εὔξεινος	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_320|t_321|ref=Anamet._2.4
+7	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_321|t_318|ref=Anamet._2.4
+8	,	,	u	u--------	_	2	AuxX	_	t_322|t_316|ref=Anamet._2.4
+9	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_323|t_330|ref=Anamet._2.4
+10	τε	τε	c	c--------	_	21	AuxY	_	t_324|t_335|ref=Anamet._2.4
+11	δεξιῶν	δεξιός	a	a-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_325|t_330|ref=Anamet._2.4
+12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_326|t_330|ref=Anamet._2.5
+13	παρὰ	παρά	r	r--------	_	16	AuxP	_	t_327|t_330|ref=Anamet._2.5
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_328|t_329|ref=Anamet._2.5
+15	Ἀσίαν	ἀσία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_329|t_327|ref=Anamet._2.5
+16	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_330|t_335|ref=Anamet._2.5
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_331|t_332|ref=Anamet._2.5
+18	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_332|t_330|ref=Anamet._2.5
+19	,	,	u	u--------	_	2	AuxX	_	t_333|t_316|ref=Anamet._2.5
+20	ἀριστερῶν	ἀριστερός	a	a-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_334|t_340|ref=Anamet._2.5
+21	δὲ	δέ	c	c--------	_	4	COORD	_	t_335|t_318|ref=Anamet._2.5
+22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_336|t_340|ref=Anamet._2.5
+23	παρὰ	παρά	r	r--------	_	26	AuxP	_	t_337|t_340|ref=Anamet._2.5
+24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_338|t_339|ref=Anamet._2.5
+25	Εὐρώπην	εὐρώπη	n	n-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_339|t_337|ref=Anamet._2.5
+26	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_340|t_335|ref=Anamet._2.5
+27	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	28	ATR	_	t_341|t_342|ref=Anamet._2.5
+28	Πόντου	πόντος	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_342|t_340|ref=Anamet._2.5
+29	,	,	u	u--------	_	2	AuxX	_	t_343|t_316|ref=Anamet._2.5
+30	ἀπὸ	ἀπό	r	r--------	_	26	AuxP	_	t_344|t_340|ref=Anamet._2.5
+31	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_345|t_347|ref=Anamet._2.5
+32	Ἱεροῦ	ἱερόν	a	a-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_346|t_347|ref=Anamet._2.5
+33	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	30	ADV	_	t_347|t_344|ref=Anamet._2.5
+34	Οὐρίου	οὔριος	a	a-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_348|t_347|ref=Anamet._2.5
+35	,	,	u	u--------	_	2	AuxX	_	t_349|t_316|ref=Anamet._2.5
+36	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	2	ADV	_	t_350|t_316|ref=Anamet._2.5
+37	δισμύρια	δισμύριοι	a	a-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_351|t_356|ref=Anamet._2.5
+38	τρισχίλια	τρισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_352|t_356|ref=Anamet._2.5
+39	πεντακόσια	πεντακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	42	ATR	_	t_353|t_356|ref=Anamet._2.5
+40	ὀγδοήκοντα	ὀγδοήκοντα	a	a--------	_	42	ATR	_	t_354|t_356|ref=Anamet._2.5
+41	ἑπτὰ	ἑπτὰ	a	a--------	_	42	ATR	_	t_355|t_356|ref=Anamet._2.5
+42	,	,	u	u--------	_	36	COORD	_	t_356|t_350|ref=Anamet._2.5
+43	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	42	ATR	_	t_357|t_356|ref=Anamet._2.5
+44	τρισχίλια	τρισχίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	46	ATR	_	t_358|t_360|ref=Anamet._2.5
+45	ἑκατὸν	ἑκατόν	a	a--------	_	46	ATR	_	t_359|t_360|ref=Anamet._2.5
+46	τεσσαράκοντα	τεσσαράκοντα	a	a--------	_	43	ATR	_	t_360|t_357|ref=Anamet._2.5
+47	πέντε	πέντε	a	a--------	_	46	ATR	_	t_361|t_360|ref=Anamet._2.5
+48	.	.	u	u--------	_	2	AuxK	_	t_362|t_316|ref=Anamet._2.5
 
-# source = Anonymous, Anametresis Pontou 2.5
+# source = Anonymous, Anamet. 2.5
 # text = Ἔστι δὲ καὶ ὁ περίπλους τῆς Μαιώτιδος λίμνης στάδια ἐννακισχίλια .
 # sent_id = 21
-1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_363|ref=Anametresis Pontou_2.5
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_364|ref=Anametresis Pontou_2.5
-3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_365|ref=Anametresis Pontou_2.5
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_366|ref=Anametresis Pontou_2.5
-5	περίπλους	περίπλοος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_367|ref=Anametresis Pontou_2.5
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_368|ref=Anametresis Pontou_2.5
-7	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_369|ref=Anametresis Pontou_2.5
-8	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_370|ref=Anametresis Pontou_2.5
-9	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	1	ADV	_	t_371|ref=Anametresis Pontou_2.5
-10	ἐννακισχίλια	ἐννακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_372|ref=Anametresis Pontou_2.5
-11	.	.	u	u--------	_	1	AuxK	_	t_373|ref=Anametresis Pontou_2.5
+1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_363|0|ref=Anamet._2.5
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_364|t_363|ref=Anamet._2.5
+3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_365|t_367|ref=Anamet._2.5
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_366|t_367|ref=Anamet._2.5
+5	περίπλους	περίπλοος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_367|t_363|ref=Anamet._2.5
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_368|t_370|ref=Anamet._2.5
+7	Μαιώτιδος	μαιῶτις	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_369|t_370|ref=Anamet._2.5
+8	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_370|t_367|ref=Anamet._2.5
+9	στάδια	στάδιον	n	n-p---nn-	Case=n|Gender=n|Number=p	1	ADV	_	t_371|t_363|ref=Anamet._2.5
+10	ἐννακισχίλια	ἐννακισχίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_372|t_371|ref=Anamet._2.5
+11	.	.	u	u--------	_	1	AuxK	_	t_373|t_363|ref=Anamet._2.5
 
-# source = Anonymous, Anametresis Pontou 2.5
+# source = Anonymous, Anamet. 2.5
 # text = μίλια χίλια διακόσια [0] .
 # sent_id = 22
-1	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_374|ref=Anametresis Pontou_2.5
-2	χίλια	χίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_375|ref=Anametresis Pontou_2.5
-3	διακόσια	διακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_376|ref=Anametresis Pontou_2.5
-4	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Anametresis Pontou_1.1
-5	.	.	u	u--------	_	4	AuxK	_	t_377|ref=Anametresis Pontou_2.5
+1	μίλια	μίλιον	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_374|e_14|ref=Anamet._2.5
+2	χίλια	χίλιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_375|e_14|ref=Anamet._2.5
+3	διακόσια	διακόσιοι	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_376|e_14|ref=Anamet._2.5
+4	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Anamet._1.1
+5	.	.	u	u--------	_	4	AuxK	_	t_377|e_14|ref=Anamet._2.5
 
-# source = Anonymous, Anametresis Pontou 2.5
+# source = Anonymous, Anamet. 2.5
 # text = 6 .
 # sent_id = 23
-1	6	6	u	u--------	_	0	AuxG	_	t_378|ref=Anametresis Pontou_2.5
-2	.	.	u	u--------	_	1	AuxK	_	t_379|ref=Anametresis Pontou_2.5
+1	6	6	u	u--------	_	0	AuxG	_	t_378|0|ref=Anamet._2.5
+2	.	.	u	u--------	_	1	AuxK	_	t_379|t_378|ref=Anamet._2.5
 
-# source = Anonymous, Anametresis Pontou 2.5
+# source = Anonymous, Anamet. 2.5
 # text = Περὶ τοῦ σταδίου .
 # sent_id = 24
-1	Περὶ	περί	v	v2spma---	_	0	ExD	_	t_380|ref=Anametresis Pontou_2.5
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_381|ref=Anametresis Pontou_2.5
-3	σταδίου	στάδιον	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_382|ref=Anametresis Pontou_2.5
-4	.	.	u	u--------	_	1	AuxK	_	t_383|ref=Anametresis Pontou_2.5
+1	Περὶ	περί	v	v2spma---	_	0	ExD	_	t_380|0|ref=Anamet._2.5
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_381|t_382|ref=Anamet._2.5
+3	σταδίου	στάδιον	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_382|t_380|ref=Anamet._2.5
+4	.	.	u	u--------	_	1	AuxK	_	t_383|t_380|ref=Anamet._2.5
 
-# source = Anonymous, Anametresis Pontou 2.5-2.6
+# source = Anonymous, Anamet. 2.5-2.6
 # text = Τὸ στάδιον πήχεις ἔχει τετρακοσίους , πόδας ὀκτακοσίους , ὀργυιὰς ἑκατὸν τριάκοντα τρεῖς ἥμισυ .
 # sent_id = 25
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_384|ref=Anametresis Pontou_2.5
-2	στάδιον	στάδιον	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_385|ref=Anametresis Pontou_2.5
-3	πήχεις	πῆχυς	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_386|ref=Anametresis Pontou_2.5
-4	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_387|ref=Anametresis Pontou_2.5
-5	τετρακοσίους	τετρακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_388|ref=Anametresis Pontou_2.5
-6	,	,	u	u--------	_	4	AuxX	_	t_389|ref=Anametresis Pontou_2.5
-7	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_390|ref=Anametresis Pontou_2.5
-8	ὀκτακοσίους	ὀκτακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_391|ref=Anametresis Pontou_2.5
-9	,	,	u	u--------	_	4	COORD	_	t_392|ref=Anametresis Pontou_2.6
-10	ὀργυιὰς	ὄργυια	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_393|ref=Anametresis Pontou_2.6
-11	ἑκατὸν	ἑκατόν	a	a--------	_	10	ATR	_	t_394|ref=Anametresis Pontou_2.6
-12	τριάκοντα	τριάκοντα	a	a--------	_	14	ATR	_	t_395|ref=Anametresis Pontou_2.6
-13	τρεῖς	τρεῖς	a	a--------	Case=a|Gender=f|Number=p	14	ATR	_	t_396|ref=Anametresis Pontou_2.6
-14	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_397|ref=Anametresis Pontou_2.6
-15	.	.	u	u--------	_	4	AuxK	_	t_398|ref=Anametresis Pontou_2.6
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_384|t_385|ref=Anamet._2.5
+2	στάδιον	στάδιον	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_385|t_387|ref=Anamet._2.5
+3	πήχεις	πῆχυς	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_386|t_392|ref=Anamet._2.5
+4	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_387|0|ref=Anamet._2.5
+5	τετρακοσίους	τετρακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_388|t_386|ref=Anamet._2.5
+6	,	,	u	u--------	_	4	AuxX	_	t_389|t_387|ref=Anamet._2.5
+7	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_390|t_392|ref=Anamet._2.5
+8	ὀκτακοσίους	ὀκτακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_391|t_390|ref=Anamet._2.5
+9	,	,	u	u--------	_	4	COORD	_	t_392|t_387|ref=Anamet._2.6
+10	ὀργυιὰς	ὄργυια	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_393|t_392|ref=Anamet._2.6
+11	ἑκατὸν	ἑκατόν	a	a--------	_	10	ATR	_	t_394|t_393|ref=Anamet._2.6
+12	τριάκοντα	τριάκοντα	a	a--------	_	14	ATR	_	t_395|t_397|ref=Anamet._2.6
+13	τρεῖς	τρεῖς	a	a--------	Case=a|Gender=f|Number=p	14	ATR	_	t_396|t_397|ref=Anamet._2.6
+14	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_397|t_393|ref=Anamet._2.6
+15	.	.	u	u--------	_	4	AuxK	_	t_398|t_387|ref=Anamet._2.6
 
-# source = Anonymous, Anametresis Pontou 2.6
+# source = Anonymous, Anamet. 2.6
 # text = 7 [0] .
 # sent_id = 26
-1	7	7	u	u--------	_	2	AuxG	_	t_399|ref=Anametresis Pontou_2.6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_15|ref=Anametresis Pontou_1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_400|ref=Anametresis Pontou_2.6
+1	7	7	u	u--------	_	2	AuxG	_	t_399|e_15|ref=Anamet._2.6
+2	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Anamet._1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_400|e_15|ref=Anamet._2.6
 
-# source = Anonymous, Anametresis Pontou 2.6
+# source = Anonymous, Anamet. 2.6
 # text = Περὶ τοῦ μιλίου .
 # sent_id = 27
-1	Περὶ	περί	d	d--------	_	0	ExD	_	t_401|ref=Anametresis Pontou_2.6
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_402|ref=Anametresis Pontou_2.6
-3	μιλίου	μίλλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_403|ref=Anametresis Pontou_2.6
-4	.	.	u	u--------	_	1	AuxK	_	t_404|ref=Anametresis Pontou_2.6
+1	Περὶ	περί	d	d--------	_	0	ExD	_	t_401|0|ref=Anamet._2.6
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_402|t_403|ref=Anamet._2.6
+3	μιλίου	μίλλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_403|t_401|ref=Anamet._2.6
+4	.	.	u	u--------	_	1	AuxK	_	t_404|t_401|ref=Anamet._2.6
 
-# source = Anonymous, Anametresis Pontou 2.6-2.7
+# source = Anonymous, Anamet. 2.6-2.7
 # text = Τὸ μίλιον ἔχει στάδια ἑπτὰ ἥμισυ , πήχεις τρισχιλίους , πόδας ἑξακισχιλίους .
 # sent_id = 28
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_405|ref=Anametresis Pontou_2.6
-2	μίλιον	μίλιον	a	a-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_406|ref=Anametresis Pontou_2.6
-3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_407|ref=Anametresis Pontou_2.6
-4	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_408|ref=Anametresis Pontou_2.6
-5	ἑπτὰ	ἑπτὰ	m	m--------	_	6	ATR	_	t_409|ref=Anametresis Pontou_2.6
-6	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_410|ref=Anametresis Pontou_2.6
-7	,	,	u	u--------	_	3	AuxX	_	t_411|ref=Anametresis Pontou_2.6
-8	πήχεις	πῆχυς	n	n-p---ma-	Case=a|Gender=m|Number=p	10	OBJ	_	t_412|ref=Anametresis Pontou_2.6
-9	τρισχιλίους	τρισχίλιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_413|ref=Anametresis Pontou_2.7
-10	,	,	u	u--------	_	3	COORD	_	t_414|ref=Anametresis Pontou_2.6
-11	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	10	ADV	_	t_415|ref=Anametresis Pontou_2.7
-12	ἑξακισχιλίους	ἑξακισχίλιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_416|ref=Anametresis Pontou_2.7
-13	.	.	u	u--------	_	3	AuxK	_	t_417|ref=Anametresis Pontou_2.7
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_405|t_406|ref=Anamet._2.6
+2	μίλιον	μίλιον	a	a-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_406|t_407|ref=Anamet._2.6
+3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_407|0|ref=Anamet._2.6
+4	στάδια	στάδιον	n	n-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_408|t_414|ref=Anamet._2.6
+5	ἑπτὰ	ἑπτὰ	m	m--------	_	6	ATR	_	t_409|t_410|ref=Anamet._2.6
+6	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_410|t_408|ref=Anamet._2.6
+7	,	,	u	u--------	_	3	AuxX	_	t_411|t_407|ref=Anamet._2.6
+8	πήχεις	πῆχυς	n	n-p---ma-	Case=a|Gender=m|Number=p	10	OBJ	_	t_412|t_414|ref=Anamet._2.6
+9	τρισχιλίους	τρισχίλιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_413|t_412|ref=Anamet._2.7
+10	,	,	u	u--------	_	3	COORD	_	t_414|t_407|ref=Anamet._2.6
+11	πόδας	πούς	n	n-p---ma-	Case=a|Gender=m|Number=p	10	ADV	_	t_415|t_414|ref=Anamet._2.7
+12	ἑξακισχιλίους	ἑξακισχίλιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_416|t_415|ref=Anamet._2.7
+13	.	.	u	u--------	_	3	AuxK	_	t_417|t_407|ref=Anamet._2.7
 
-# source = Anonymous, Anametresis Pontou 2.7
+# source = Anonymous, Anamet. 2.7
 # text = 8 [0] .
 # sent_id = 29
-1	8	8	x	x--------	_	2	AuxK	_	t_418|ref=Anametresis Pontou_2.7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|ref=Anametresis Pontou_1.1
-3	.	.	u	u--------	_	2	AuxK	_	t_419|ref=Anametresis Pontou_2.7
+1	8	8	x	x--------	_	2	AuxK	_	t_418|e_16|ref=Anamet._2.7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Anamet._1.1
+3	.	.	u	u--------	_	2	AuxK	_	t_419|e_16|ref=Anamet._2.7
 
-# source = Anonymous, Anametresis Pontou 2.7
+# source = Anonymous, Anamet. 2.7
 # text = Περὶ τοῦ ἐνιαυτοῦ .
 # sent_id = 30
-1	Περὶ	περί	d	d--------	_	0	COORD	_	t_420|ref=Anametresis Pontou_2.7
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_421|ref=Anametresis Pontou_2.7
-3	ἐνιαυτοῦ	ἐνιαυτός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_422|ref=Anametresis Pontou_2.7
-4	.	.	u	u--------	_	1	AuxK	_	t_423|ref=Anametresis Pontou_2.7
+1	Περὶ	περί	d	d--------	_	0	COORD	_	t_420|0|ref=Anamet._2.7
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_421|t_422|ref=Anamet._2.7
+3	ἐνιαυτοῦ	ἐνιαυτός	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_422|t_420|ref=Anamet._2.7
+4	.	.	u	u--------	_	1	AuxK	_	t_423|t_420|ref=Anamet._2.7
 
-# source = Anonymous, Anametresis Pontou 2.7-2.8
+# source = Anonymous, Anamet. 2.7-2.8
 # text = Ἅπας ἔχει ὥρας ὀκτακισχιλίας ἑπτακοσίας ἐξήκοντα ἓξ , ἡμέρας τριακοσίας ἑξήκοντα πέντε καὶ τέταρτον .
 # sent_id = 31
-1	Ἅπας	ἅπας	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_424|ref=Anametresis Pontou_2.7
-2	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_425|ref=Anametresis Pontou_2.7
-3	ὥρας	ὥρα	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_426|ref=Anametresis Pontou_2.7
-4	ὀκτακισχιλίας	ὀκτακισχίλιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_427|ref=Anametresis Pontou_2.7
-5	ἑπτακοσίας	ἑπτακόσιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_428|ref=Anametresis Pontou_2.7
-6	ἐξήκοντα	ἐξήκω	a	a--------	_	8	ATR	_	t_429|ref=Anametresis Pontou_2.7
-7	ἓξ	ἕξ	a	a--------	_	6	ATR	_	t_430|ref=Anametresis Pontou_2.7
-8	,	,	u	u--------	_	2	COORD	_	t_431|ref=Anametresis Pontou_2.7
-9	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	8	ADV	_	t_432|ref=Anametresis Pontou_2.7
-10	τριακοσίας	τριακόσιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_433|ref=Anametresis Pontou_2.8
-11	ἑξήκοντα	ἑξήκοντα	a	a--------	_	13	ATR	_	t_434|ref=Anametresis Pontou_2.7
-12	πέντε	πέντε	a	a--------	_	13	ATR	_	t_435|ref=Anametresis Pontou_2.8
-13	καὶ	καί	c	c--------	_	9	COORD	_	t_436|ref=Anametresis Pontou_2.8
-14	τέταρτον	τέταρτος	a	a--------	_	13	ATR	_	t_437|ref=Anametresis Pontou_2.8
-15	.	.	u	u--------	_	2	AuxK	_	t_438|ref=Anametresis Pontou_2.8
+1	Ἅπας	ἅπας	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_424|t_425|ref=Anamet._2.7
+2	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_425|0|ref=Anamet._2.7
+3	ὥρας	ὥρα	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_426|t_431|ref=Anamet._2.7
+4	ὀκτακισχιλίας	ὀκτακισχίλιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_427|t_426|ref=Anamet._2.7
+5	ἑπτακοσίας	ἑπτακόσιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_428|t_426|ref=Anamet._2.7
+6	ἐξήκοντα	ἐξήκω	a	a--------	_	8	ATR	_	t_429|t_431|ref=Anamet._2.7
+7	ἓξ	ἕξ	a	a--------	_	6	ATR	_	t_430|t_429|ref=Anamet._2.7
+8	,	,	u	u--------	_	2	COORD	_	t_431|t_425|ref=Anamet._2.7
+9	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	8	ADV	_	t_432|t_431|ref=Anamet._2.7
+10	τριακοσίας	τριακόσιοι	a	a-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_433|t_436|ref=Anamet._2.8
+11	ἑξήκοντα	ἑξήκοντα	a	a--------	_	13	ATR	_	t_434|t_436|ref=Anamet._2.7
+12	πέντε	πέντε	a	a--------	_	13	ATR	_	t_435|t_436|ref=Anamet._2.8
+13	καὶ	καί	c	c--------	_	9	COORD	_	t_436|t_432|ref=Anamet._2.8
+14	τέταρτον	τέταρτος	a	a--------	_	13	ATR	_	t_437|t_436|ref=Anamet._2.8
+15	.	.	u	u--------	_	2	AuxK	_	t_438|t_425|ref=Anamet._2.8
 

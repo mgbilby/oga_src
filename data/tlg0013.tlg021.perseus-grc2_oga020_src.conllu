@@ -1,58 +1,58 @@
-# source = Homeric Hymns, Hymn 21 To Apollo 1-3
+# source = Homeric Hymns, HH21.Apol. 1-3
 # text = φοῖβε , σὲ μὲν καὶ κύκνος ὑπὸ πτερύγων λίγʼ ἀείδει , ὄχθῃ ἐπιθρώσκων ποταμὸν πάρα δινήεντα , Πηνειόν ·
 # sent_id = 1
-1	φοῖβε	φοῖβος	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	2	PRED	_	t_1|ref=Hymn 21 To Apollo_1
-2	,	,	u	u--------	_	0	COORD	_	t_2|ref=Hymn 21 To Apollo_1
-3	σὲ	σύ	p	p-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_3|ref=Hymn 21 To Apollo_1
-4	μὲν	μέν	g	g--------	_	10	AuxY	_	t_4|ref=Hymn 21 To Apollo_1
-5	καὶ	καί	c	c--------	_	6	AuxZ	_	t_5|ref=Hymn 21 To Apollo_1
-6	κύκνος	κύκνος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_6|ref=Hymn 21 To Apollo_1
-7	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_7|ref=Hymn 21 To Apollo_1
-8	πτερύγων	πτέρυξ	n	n-p---fg-	Case=g|Gender=f|Number=p	7	OBJ	_	t_8|ref=Hymn 21 To Apollo_1
-9	λίγʼ	λίγα	d	d--------	_	10	ADV	_	t_9|ref=Hymn 21 To Apollo_1
-10	ἀείδει	ἀείδω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_10|ref=Hymn 21 To Apollo_1
-11	,	,	u	u--------	_	13	AuxX	_	t_11|ref=Hymn 21 To Apollo_1
-12	ὄχθῃ	ὄχθη	n	n-s---fd-	Case=d|Gender=f|Number=s	13	OBJ	_	t_12|ref=Hymn 21 To Apollo_2
-13	ἐπιθρώσκων	ἐπιθρώσκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_13|ref=Hymn 21 To Apollo_2
-14	ποταμὸν	ποταμός	n	n-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_14|ref=Hymn 21 To Apollo_2
-15	πάρα	παρά	r	r--------	_	13	AuxP	_	t_15|ref=Hymn 21 To Apollo_2
-16	δινήεντα	δινήεις	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_16|ref=Hymn 21 To Apollo_2
-17	,	,	u	u--------	_	13	APOS	_	t_17|ref=Hymn 21 To Apollo_2
-18	Πηνειόν	πηνειός	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_18|ref=Hymn 21 To Apollo_3
-19	·	·	u	u--------	_	2	AuxK	_	t_19|ref=Hymn 21 To Apollo_3
+1	φοῖβε	φοῖβος	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	2	PRED	_	t_1|t_2|ref=HH21.Apol._1
+2	,	,	u	u--------	_	0	COORD	_	t_2|0|ref=HH21.Apol._1
+3	σὲ	σύ	p	p-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_3|t_10|ref=HH21.Apol._1
+4	μὲν	μέν	g	g--------	_	10	AuxY	_	t_4|t_10|ref=HH21.Apol._1
+5	καὶ	καί	c	c--------	_	6	AuxZ	_	t_5|t_6|ref=HH21.Apol._1
+6	κύκνος	κύκνος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_6|t_10|ref=HH21.Apol._1
+7	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_7|t_10|ref=HH21.Apol._1
+8	πτερύγων	πτέρυξ	n	n-p---fg-	Case=g|Gender=f|Number=p	7	OBJ	_	t_8|t_7|ref=HH21.Apol._1
+9	λίγʼ	λίγα	d	d--------	_	10	ADV	_	t_9|t_10|ref=HH21.Apol._1
+10	ἀείδει	ἀείδω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_10|t_2|ref=HH21.Apol._1
+11	,	,	u	u--------	_	13	AuxX	_	t_11|t_13|ref=HH21.Apol._1
+12	ὄχθῃ	ὄχθη	n	n-s---fd-	Case=d|Gender=f|Number=s	13	OBJ	_	t_12|t_13|ref=HH21.Apol._2
+13	ἐπιθρώσκων	ἐπιθρώσκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_13|t_10|ref=HH21.Apol._2
+14	ποταμὸν	ποταμός	n	n-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_14|t_17|ref=HH21.Apol._2
+15	πάρα	παρά	r	r--------	_	13	AuxP	_	t_15|t_13|ref=HH21.Apol._2
+16	δινήεντα	δινήεις	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_16|t_14|ref=HH21.Apol._2
+17	,	,	u	u--------	_	13	APOS	_	t_17|t_13|ref=HH21.Apol._2
+18	Πηνειόν	πηνειός	a	a-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_18|t_14|ref=HH21.Apol._3
+19	·	·	u	u--------	_	2	AuxK	_	t_19|t_2|ref=HH21.Apol._3
 
-# source = Homeric Hymns, Hymn 21 To Apollo 3-4
+# source = Homeric Hymns, HH21.Apol. 3-4
 # text = σὲ δʼ ἀοιδὸς ἔχων φόρμιγγα λίγειαν ἡδυεπὴς πρῶτόν τε καὶ ὕστατον αἰὲν ἀείδει .
 # sent_id = 2
-1	σὲ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_20|ref=Hymn 21 To Apollo_3
-2	δʼ	δέ	g	g--------	_	0	COORD	_	t_21|ref=Hymn 21 To Apollo_3
-3	ἀοιδὸς	ἀοιδός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_22|ref=Hymn 21 To Apollo_3
-4	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_23|ref=Hymn 21 To Apollo_3
-5	φόρμιγγα	φόρμιγξ	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_24|ref=Hymn 21 To Apollo_3
-6	λίγειαν	λιγύς	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_25|ref=Hymn 21 To Apollo_3
-7	ἡδυεπὴς	ἡδυεπής	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_26|ref=Hymn 21 To Apollo_4
-8	πρῶτόν	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_27|ref=Hymn 21 To Apollo_4
-9	τε	τε	g	g--------	_	10	AuxY	_	t_28|ref=Hymn 21 To Apollo_4
-10	καὶ	καί	c	c--------	_	13	COORD	_	t_29|ref=Hymn 21 To Apollo_4
-11	ὕστατον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_30|ref=Hymn 21 To Apollo_4
-12	αἰὲν	ἀεί	d	d--------	_	13	ADV	_	t_31|ref=Hymn 21 To Apollo_4
-13	ἀείδει	ἀείδω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_32|ref=Hymn 21 To Apollo_4
-14	.	.	u	u--------	_	2	AuxK	_	t_33|ref=Hymn 21 To Apollo_4
+1	σὲ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_20|t_32|ref=HH21.Apol._3
+2	δʼ	δέ	g	g--------	_	0	COORD	_	t_21|0|ref=HH21.Apol._3
+3	ἀοιδὸς	ἀοιδός	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_22|t_32|ref=HH21.Apol._3
+4	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_23|t_22|ref=HH21.Apol._3
+5	φόρμιγγα	φόρμιγξ	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_24|t_23|ref=HH21.Apol._3
+6	λίγειαν	λιγύς	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_25|t_24|ref=HH21.Apol._3
+7	ἡδυεπὴς	ἡδυεπής	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_26|t_22|ref=HH21.Apol._4
+8	πρῶτόν	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_27|t_29|ref=HH21.Apol._4
+9	τε	τε	g	g--------	_	10	AuxY	_	t_28|t_29|ref=HH21.Apol._4
+10	καὶ	καί	c	c--------	_	13	COORD	_	t_29|t_32|ref=HH21.Apol._4
+11	ὕστατον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_30|t_29|ref=HH21.Apol._4
+12	αἰὲν	ἀεί	d	d--------	_	13	ADV	_	t_31|t_32|ref=HH21.Apol._4
+13	ἀείδει	ἀείδω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_32|t_21|ref=HH21.Apol._4
+14	.	.	u	u--------	_	2	AuxK	_	t_33|t_21|ref=HH21.Apol._4
 
-# source = Homeric Hymns, Hymn 21 To Apollo 5
+# source = Homeric Hymns, HH21.Apol. 5
 # text = καὶ σὺ μὲν οὕτω χαῖρε , ἄναξ , ἵλαμαι δέ σʼ ἀοιδῇ .
 # sent_id = 3
-1	καὶ	καί	c	c--------	_	0	COORD	_	t_34|ref=Hymn 21 To Apollo_5
-2	σὺ	σύ	p	p-s---mn-	Case=n|Number=s	10	SBJ	_	t_35|ref=Hymn 21 To Apollo_5
-3	μὲν	μέν	g	g--------	_	10	AuxY	_	t_36|ref=Hymn 21 To Apollo_5
-4	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_37|ref=Hymn 21 To Apollo_5
-5	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	10	PRED	_	t_38|ref=Hymn 21 To Apollo_5
-6	,	,	u	u--------	_	7	AuxX	_	t_39|ref=Hymn 21 To Apollo_5
-7	ἄναξ	ἄναξ	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_40|ref=Hymn 21 To Apollo_5
-8	,	,	u	u--------	_	7	AuxX	_	t_41|ref=Hymn 21 To Apollo_5
-9	ἵλαμαι	ἱκνέομαι	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	10	PRED	_	t_42|ref=Hymn 21 To Apollo_5
-10	δέ	δέ	g	g--------	_	1	COORD	_	t_43|ref=Hymn 21 To Apollo_5
-11	σʼ	σύ	p	p-s----a-	Case=a|Number=s	9	OBJ	_	t_44|ref=Hymn 21 To Apollo_5
-12	ἀοιδῇ	ἀοιδή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_45|ref=Hymn 21 To Apollo_5
-13	.	.	u	u--------	_	10	AuxK	_	t_46|ref=Hymn 21 To Apollo_5
+1	καὶ	καί	c	c--------	_	0	COORD	_	t_34|0|ref=HH21.Apol._5
+2	σὺ	σύ	p	p-s---mn-	Case=n|Number=s	10	SBJ	_	t_35|t_43|ref=HH21.Apol._5
+3	μὲν	μέν	g	g--------	_	10	AuxY	_	t_36|t_43|ref=HH21.Apol._5
+4	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_37|t_38|ref=HH21.Apol._5
+5	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	10	PRED	_	t_38|t_43|ref=HH21.Apol._5
+6	,	,	u	u--------	_	7	AuxX	_	t_39|t_40|ref=HH21.Apol._5
+7	ἄναξ	ἄναξ	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_40|t_43|ref=HH21.Apol._5
+8	,	,	u	u--------	_	7	AuxX	_	t_41|t_40|ref=HH21.Apol._5
+9	ἵλαμαι	ἱκνέομαι	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	10	PRED	_	t_42|t_43|ref=HH21.Apol._5
+10	δέ	δέ	g	g--------	_	1	COORD	_	t_43|t_34|ref=HH21.Apol._5
+11	σʼ	σύ	p	p-s----a-	Case=a|Number=s	9	OBJ	_	t_44|t_42|ref=HH21.Apol._5
+12	ἀοιδῇ	ἀοιδή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_45|t_42|ref=HH21.Apol._5
+13	.	.	u	u--------	_	10	AuxK	_	t_46|t_43|ref=HH21.Apol._5
 

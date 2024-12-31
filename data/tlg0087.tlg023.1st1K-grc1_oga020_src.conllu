@@ -1,760 +1,760 @@
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 1
+# source = Aelius Herodianus, pronom. 1
 # text = 1 .
 # sent_id = 1
-1	1	1	u	u--------	_	0	AuxG	_	t_1|ref=Περὶ ἀντωνυμιῶν_1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Περὶ ἀντωνυμιῶν_1
+1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=pronom._1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=pronom._1
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 1
+# source = Aelius Herodianus, pronom. 1
 # text = περὶ τῆϲ τάϲεωϲ τοῦ μονοϲυλλάβου ( sc .
 # sent_id = 2
-1	περὶ	περί	r	r--------	_	5	AuxP	_	t_3|ref=Περὶ ἀντωνυμιῶν_1
-2	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_4|ref=Περὶ ἀντωνυμιῶν_1
-3	τάϲεωϲ	τάσις	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_5|ref=Περὶ ἀντωνυμιῶν_1
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_6|ref=Περὶ ἀντωνυμιῶν_1
-5	μονοϲυλλάβου	μονοςύλλαβος	v	v2spme---	Case=g|Gender=n|Number=s	0	PRED	_	t_7|ref=Περὶ ἀντωνυμιῶν_1
-6	(	̔	u	u--------	_	5	AuxG	_	t_8|ref=Περὶ ἀντωνυμιῶν_1
-7	sc	sc	n	n--------	_	5	ExD	_	t_9|ref=Περὶ ἀντωνυμιῶν_1
-8	.	.	u	u--------	_	5	AuxK	_	t_10|ref=Περὶ ἀντωνυμιῶν_1
+1	περὶ	περί	r	r--------	_	5	AuxP	_	t_3|t_7|ref=pronom._1
+2	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_4|t_5|ref=pronom._1
+3	τάϲεωϲ	τάσις	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_5|t_3|ref=pronom._1
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_6|t_5|ref=pronom._1
+5	μονοϲυλλάβου	μονοςύλλαβος	v	v2spme---	Case=g|Gender=n|Number=s	0	PRED	_	t_7|0|ref=pronom._1
+6	(	̔	u	u--------	_	5	AuxG	_	t_8|t_7|ref=pronom._1
+7	sc	sc	n	n--------	_	5	ExD	_	t_9|t_7|ref=pronom._1
+8	.	.	u	u--------	_	5	AuxK	_	t_10|t_7|ref=pronom._1
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 1
+# source = Aelius Herodianus, pronom. 1
 # text = νώ ) , διὰ τί οὐ περιεϲπάϲθη , ἐν τῷ περὶ ἀντωνυμιῶν δηλοῦται .
 # sent_id = 3
-1	νώ	νώ	n	n-s---mv-	_	13	ExD	_	t_11|ref=Περὶ ἀντωνυμιῶν_1
-2	)	)	u	u--------	_	13	AuxG	_	t_12|ref=Περὶ ἀντωνυμιῶν_1
-3	,	,	u	u--------	_	13	AuxX	_	t_13|ref=Περὶ ἀντωνυμιῶν_1
-4	διὰ	διά	r	r--------	_	7	AuxP	_	t_14|ref=Περὶ ἀντωνυμιῶν_1
-5	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_15|ref=Περὶ ἀντωνυμιῶν_1
-6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_16|ref=Περὶ ἀντωνυμιῶν_1
-7	περιεϲπάϲθη	περιςπάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	13	SBJ	_	t_17|ref=Περὶ ἀντωνυμιῶν_1
-8	,	,	u	u--------	_	13	AuxX	_	t_18|ref=Περὶ ἀντωνυμιῶν_1
-9	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_19|ref=Περὶ ἀντωνυμιῶν_1
-10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_20|ref=Περὶ ἀντωνυμιῶν_1
-11	περὶ	περί	r	r--------	_	10	AuxP	_	t_21|ref=Περὶ ἀντωνυμιῶν_1
-12	ἀντωνυμιῶν	ἀντωνυμία	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_22|ref=Περὶ ἀντωνυμιῶν_1
-13	δηλοῦται	δηλόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_23|ref=Περὶ ἀντωνυμιῶν_1
-14	.	.	u	u--------	_	13	AuxK	_	t_24|ref=Περὶ ἀντωνυμιῶν_1
+1	νώ	νώ	n	n-s---mv-	_	13	ExD	_	t_11|t_23|ref=pronom._1
+2	)	)	u	u--------	_	13	AuxG	_	t_12|t_23|ref=pronom._1
+3	,	,	u	u--------	_	13	AuxX	_	t_13|t_23|ref=pronom._1
+4	διὰ	διά	r	r--------	_	7	AuxP	_	t_14|t_17|ref=pronom._1
+5	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_15|t_14|ref=pronom._1
+6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_16|t_17|ref=pronom._1
+7	περιεϲπάϲθη	περιςπάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	13	SBJ	_	t_17|t_23|ref=pronom._1
+8	,	,	u	u--------	_	13	AuxX	_	t_18|t_23|ref=pronom._1
+9	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_19|t_23|ref=pronom._1
+10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_20|t_19|ref=pronom._1
+11	περὶ	περί	r	r--------	_	10	AuxP	_	t_21|t_20|ref=pronom._1
+12	ἀντωνυμιῶν	ἀντωνυμία	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_22|t_21|ref=pronom._1
+13	δηλοῦται	δηλόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_23|0|ref=pronom._1
+14	.	.	u	u--------	_	13	AuxK	_	t_24|t_23|ref=pronom._1
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 2
+# source = Aelius Herodianus, pronom. 2
 # text = 2 .
 # sent_id = 4
-1	2	2	u	u--------	_	0	AuxG	_	t_25|ref=Περὶ ἀντωνυμιῶν_2
-2	.	.	u	u--------	_	1	AuxK	_	t_26|ref=Περὶ ἀντωνυμιῶν_2
+1	2	2	u	u--------	_	0	AuxG	_	t_25|0|ref=pronom._2
+2	.	.	u	u--------	_	1	AuxK	_	t_26|t_25|ref=pronom._2
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 2
+# source = Aelius Herodianus, pronom. 2
 # text = ὅϲτιϲ οἷ εἰϲ ἁπλῆν μεταλαμβάνεται ἡ ἀντωνυμία , ὅϲτιϲ αὐτῷ , ὅμωϲ δὲ ὠρθοτονήθη .
 # sent_id = 5
-1	ὅϲτιϲ	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_27|ref=Περὶ ἀντωνυμιῶν_2
-2	οἷ	οἷ	p	p-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_28|ref=Περὶ ἀντωνυμιῶν_2
-3	εἰϲ	εἰς	r	r--------	_	5	AuxP	_	t_29|ref=Περὶ ἀντωνυμιῶν_2
-4	ἁπλῆν	ἁπλόος	a	a-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_30|ref=Περὶ ἀντωνυμιῶν_2
-5	μεταλαμβάνεται	μεταλαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_31|ref=Περὶ ἀντωνυμιῶν_2
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_32|ref=Περὶ ἀντωνυμιῶν_2
-7	ἀντωνυμία	ἀντωνυμία	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_33|ref=Περὶ ἀντωνυμιῶν_2
-8	,	,	u	u--------	_	5	AuxX	_	t_34|ref=Περὶ ἀντωνυμιῶν_2
-9	ὅϲτιϲ	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_35|ref=Περὶ ἀντωνυμιῶν_2
-10	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_36|ref=Περὶ ἀντωνυμιῶν_2
-11	,	,	u	u--------	_	5	AuxX	_	t_37|ref=Περὶ ἀντωνυμιῶν_2
-12	ὅμωϲ	ὅμως	d	d--------	_	14	AuxY	_	t_38|ref=Περὶ ἀντωνυμιῶν_2
-13	δὲ	δέ	d	d--------	_	5	COORD	_	t_39|ref=Περὶ ἀντωνυμιῶν_2
-14	ὠρθοτονήθη	ὀρθοτονέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	PRED	_	t_40|ref=Περὶ ἀντωνυμιῶν_2
-15	.	.	u	u--------	_	5	AuxK	_	t_41|ref=Περὶ ἀντωνυμιῶν_2
+1	ὅϲτιϲ	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_27|t_31|ref=pronom._2
+2	οἷ	οἷ	p	p-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_28|t_31|ref=pronom._2
+3	εἰϲ	εἰς	r	r--------	_	5	AuxP	_	t_29|t_31|ref=pronom._2
+4	ἁπλῆν	ἁπλόος	a	a-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_30|t_29|ref=pronom._2
+5	μεταλαμβάνεται	μεταλαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_31|0|ref=pronom._2
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_32|t_33|ref=pronom._2
+7	ἀντωνυμία	ἀντωνυμία	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_33|t_31|ref=pronom._2
+8	,	,	u	u--------	_	5	AuxX	_	t_34|t_31|ref=pronom._2
+9	ὅϲτιϲ	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_35|t_39|ref=pronom._2
+10	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_36|t_35|ref=pronom._2
+11	,	,	u	u--------	_	5	AuxX	_	t_37|t_31|ref=pronom._2
+12	ὅμωϲ	ὅμως	d	d--------	_	14	AuxY	_	t_38|t_40|ref=pronom._2
+13	δὲ	δέ	d	d--------	_	5	COORD	_	t_39|t_31|ref=pronom._2
+14	ὠρθοτονήθη	ὀρθοτονέω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	PRED	_	t_40|t_31|ref=pronom._2
+15	.	.	u	u--------	_	5	AuxK	_	t_41|t_31|ref=pronom._2
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 2
+# source = Aelius Herodianus, pronom. 2
 # text = περιϲπαϲθήϲεται οὖν .
 # sent_id = 6
-1	περιϲπαϲθήϲεται	περιςπάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_42|ref=Περὶ ἀντωνυμιῶν_2
-2	οὖν	οὖν	g	g--------	_	1	AuxY	_	t_43|ref=Περὶ ἀντωνυμιῶν_2
-3	.	.	u	u--------	_	1	AuxK	_	t_44|ref=Περὶ ἀντωνυμιῶν_2
+1	περιϲπαϲθήϲεται	περιςπάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_42|0|ref=pronom._2
+2	οὖν	οὖν	g	g--------	_	1	AuxY	_	t_43|t_42|ref=pronom._2
+3	.	.	u	u--------	_	1	AuxK	_	t_44|t_42|ref=pronom._2
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 2
+# source = Aelius Herodianus, pronom. 2
 # text = δείκνυται ἐν τοῖϲ περὶ ἀντωνυμιῶν ὡϲ ὅτι ἡ ἐμοί ἐπὶ δοτικῆϲ καὶ ἔτι ἡ ϲοί ὀξύνονται .
 # sent_id = 7
-1	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_45|ref=Περὶ ἀντωνυμιῶν_2
-2	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_46|ref=Περὶ ἀντωνυμιῶν_2
-3	τοῖϲ	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	2	ADV	_	t_47|ref=Περὶ ἀντωνυμιῶν_2
-4	περὶ	περί	r	r--------	_	3	AuxP	_	t_48|ref=Περὶ ἀντωνυμιῶν_2
-5	ἀντωνυμιῶν	ἀντωνυμία	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_49|ref=Περὶ ἀντωνυμιῶν_2
-6	ὡϲ	ὡς	c	c--------	_	1	AuxC	_	t_50|ref=Περὶ ἀντωνυμιῶν_2
-7	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_51|ref=Περὶ ἀντωνυμιῶν_2
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_52|ref=Περὶ ἀντωνυμιῶν_2
-9	ἐμοί	ἐγώ	a	a-p---mn-	Case=d|Gender=c|Number=s|Person=1	16	ADV	_	t_53|ref=Περὶ ἀντωνυμιῶν_2
-10	ἐπὶ	ἐπί	r	r--------	_	16	AuxP	_	t_54|ref=Περὶ ἀντωνυμιῶν_2
-11	δοτικῆϲ	δοτικός	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_55|ref=Περὶ ἀντωνυμιῶν_2
-12	καὶ	καί	d	d--------	_	16	COORD	_	t_56|ref=Περὶ ἀντωνυμιῶν_2
-13	ἔτι	ἔτι	d	d--------	_	16	ADV	_	t_57|ref=Περὶ ἀντωνυμιῶν_2
-14	ἡ	ὁ	d	d--------	Case=n|Gender=m|Number=p	15	AuxZ	_	t_58|ref=Περὶ ἀντωνυμιῶν_2
-15	ϲοί	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_59|ref=Περὶ ἀντωνυμιῶν_2
-16	ὀξύνονται	ὀξύνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	SBJ	_	t_60|ref=Περὶ ἀντωνυμιῶν_2
-17	.	.	u	u--------	_	1	AuxK	_	t_61|ref=Περὶ ἀντωνυμιῶν_2
+1	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_45|0|ref=pronom._2
+2	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_46|t_45|ref=pronom._2
+3	τοῖϲ	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	2	ADV	_	t_47|t_46|ref=pronom._2
+4	περὶ	περί	r	r--------	_	3	AuxP	_	t_48|t_47|ref=pronom._2
+5	ἀντωνυμιῶν	ἀντωνυμία	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_49|t_48|ref=pronom._2
+6	ὡϲ	ὡς	c	c--------	_	1	AuxC	_	t_50|t_45|ref=pronom._2
+7	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_51|t_45|ref=pronom._2
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_52|t_60|ref=pronom._2
+9	ἐμοί	ἐγώ	a	a-p---mn-	Case=d|Gender=c|Number=s|Person=1	16	ADV	_	t_53|t_60|ref=pronom._2
+10	ἐπὶ	ἐπί	r	r--------	_	16	AuxP	_	t_54|t_60|ref=pronom._2
+11	δοτικῆϲ	δοτικός	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_55|t_54|ref=pronom._2
+12	καὶ	καί	d	d--------	_	16	COORD	_	t_56|t_60|ref=pronom._2
+13	ἔτι	ἔτι	d	d--------	_	16	ADV	_	t_57|t_60|ref=pronom._2
+14	ἡ	ὁ	d	d--------	Case=n|Gender=m|Number=p	15	AuxZ	_	t_58|t_59|ref=pronom._2
+15	ϲοί	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_59|t_60|ref=pronom._2
+16	ὀξύνονται	ὀξύνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	SBJ	_	t_60|t_51|ref=pronom._2
+17	.	.	u	u--------	_	1	AuxK	_	t_61|t_45|ref=pronom._2
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 2
+# source = Aelius Herodianus, pronom. 2
 # text = ἡ δὲ οἶ περιεϲπάϲθη ἀνακολούθωϲ .
 # sent_id = 8
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_62|ref=Περὶ ἀντωνυμιῶν_2
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_63|ref=Περὶ ἀντωνυμιῶν_2
-3	οἶ	οἶ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_64|ref=Περὶ ἀντωνυμιῶν_2
-4	περιεϲπάϲθη	περιςπάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_65|ref=Περὶ ἀντωνυμιῶν_2
-5	ἀνακολούθωϲ	ἀνάκολούθως	d	d--------	_	4	ADV	_	t_66|ref=Περὶ ἀντωνυμιῶν_2
-6	.	.	u	u--------	_	4	AuxK	_	t_67|ref=Περὶ ἀντωνυμιῶν_2
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_62|t_64|ref=pronom._2
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_63|t_65|ref=pronom._2
+3	οἶ	οἶ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_64|t_65|ref=pronom._2
+4	περιεϲπάϲθη	περιςπάω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_65|0|ref=pronom._2
+5	ἀνακολούθωϲ	ἀνάκολούθως	d	d--------	_	4	ADV	_	t_66|t_65|ref=pronom._2
+6	.	.	u	u--------	_	4	AuxK	_	t_67|t_65|ref=pronom._2
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 3
+# source = Aelius Herodianus, pronom. 3
 # text = 3 .
 # sent_id = 9
-1	3	3	x	x--------	_	0	AuxG	_	t_68|ref=Περὶ ἀντωνυμιῶν_3
-2	.	.	u	u--------	_	1	AuxK	_	t_69|ref=Περὶ ἀντωνυμιῶν_3
+1	3	3	x	x--------	_	0	AuxG	_	t_68|0|ref=pronom._3
+2	.	.	u	u--------	_	1	AuxK	_	t_69|t_68|ref=pronom._3
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 3
+# source = Aelius Herodianus, pronom. 3
 # text = sed incongruum videtur , quum illi antiquorum non recusaverint Graecorum etiam errores imitari , nos Apollonii et H erodiani vestigia linquere et non inter nomina haec ( sc [0] .
 # sent_id = 10
-1	sed	ἀλλά	d	d--------	_	3	AuxY	_	t_70|ref=Περὶ ἀντωνυμιῶν_3
-2	incongruum	εἰςcongruum	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_71|ref=Περὶ ἀντωνυμιῶν_3
-3	videtur	ὑπολαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_72|ref=Περὶ ἀντωνυμιῶν_3
-4	,	,	u	u--------	_	3	AuxX	_	t_73|ref=Περὶ ἀντωνυμιῶν_3
-5	quum	ὅστις	c	c--------	_	3	AuxY	_	t_74|ref=Περὶ ἀντωνυμιῶν_3
-6	illi	ilν	p	p-s---md-	Case=n|Gender=m|Number=p	13	SBJ	_	t_75|ref=Περὶ ἀντωνυμιῶν_3
-7	antiquorum	antiquus	a	a-p---mg-	Case=g|Gender=m|Number=p	9	OBJ	_	t_76|ref=Περὶ ἀντωνυμιῶν_3
-8	non	οὐ	d	d--------	_	9	AuxZ	_	t_77|ref=Περὶ ἀντωνυμιῶν_3
-9	recusaverint	recusατέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	OBJ	_	t_78|ref=Περὶ ἀντωνυμιῶν_3
-10	Graecorum	graecorum	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_79|ref=Περὶ ἀντωνυμιῶν_3
-11	etiam	οὐκέτι	d	d--------	_	13	ADV	_	t_80|ref=Περὶ ἀντωνυμιῶν_3
-12	errores	οὐρούενος	d	d--------	_	3	ADV	_	t_81|ref=Περὶ ἀντωνυμιῶν_3
-13	imitari	ἐναίρομαι	v	v--pna---	Mood=n|Tense=p|Voice=a	3	ADV	_	t_82|ref=Περὶ ἀντωνυμιῶν_3
-14	,	,	u	u--------	_	3	AuxX	_	t_83|ref=Περὶ ἀντωνυμιῶν_3
-15	nos	ἐγώ	i	i--------	_	21	ExD	_	t_84|ref=Περὶ ἀντωνυμιῶν_3
-16	Apollonii	apollonii	n	n-s---md-	Case=n|Gender=m|Number=p	17	APOS	_	t_85|ref=Περὶ ἀντωνυμιῶν_3
-17	et	καί	c	c--------	_	21	COORD	_	t_86|ref=Περὶ ἀντωνυμιῶν_3
-18	H	ὁ	n	n-s---mg-	_	20	APOS	_	t_87|ref=Περὶ ἀντωνυμιῶν_3
-19	erodiani	οὐodianus	n	n-s---md-	Case=d|Gender=m|Number=s	17	OBJ	_	t_88|ref=Περὶ ἀντωνυμιῶν_3
-20	vestigia	vatigia	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_89|ref=Περὶ ἀντωνυμιῶν_3
-21	linquere	linδω	d	d--------	_	3	OBJ	_	t_90|ref=Περὶ ἀντωνυμιῶν_3
-22	et	καί	d	d--------	_	3	ADV	_	t_91|ref=Περὶ ἀντωνυμιῶν_3
-23	non	οὐ	n	n-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_92|ref=Περὶ ἀντωνυμιῶν_3
-24	inter	ἐν	r	r--------	_	21	AuxP	_	t_93|ref=Περὶ ἀντωνυμιῶν_3
-25	nomina	ἐπωνυμία	n	n-p---na-	Case=a|Gender=n|Number=p	24	ADV	_	t_94|ref=Περὶ ἀντωνυμιῶν_3
-26	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_95|ref=Περὶ ἀντωνυμιῶν_3
-27	(	̔	u	u--------	_	4	AuxG	_	t_96|ref=Περὶ ἀντωνυμιῶν_3
-28	sc	sc	n	n--------	_	25	APOS	_	t_97|ref=Περὶ ἀντωνυμιῶν_3
-29	[0]	[0]	-	---------	_	4	PRED	_	e_1|ref=Περὶ ἀντωνυμιῶν_1
-30	.	.	u	u--------	_	3	AuxK	_	t_98|ref=Περὶ ἀντωνυμιῶν_3
+1	sed	ἀλλά	d	d--------	_	3	AuxY	_	t_70|t_72|ref=pronom._3
+2	incongruum	εἰςcongruum	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_71|t_72|ref=pronom._3
+3	videtur	ὑπολαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_72|0|ref=pronom._3
+4	,	,	u	u--------	_	3	AuxX	_	t_73|t_72|ref=pronom._3
+5	quum	ὅστις	c	c--------	_	3	AuxY	_	t_74|t_72|ref=pronom._3
+6	illi	ilν	p	p-s---md-	Case=n|Gender=m|Number=p	13	SBJ	_	t_75|t_82|ref=pronom._3
+7	antiquorum	antiquus	a	a-p---mg-	Case=g|Gender=m|Number=p	9	OBJ	_	t_76|t_78|ref=pronom._3
+8	non	οὐ	d	d--------	_	9	AuxZ	_	t_77|t_78|ref=pronom._3
+9	recusaverint	recusατέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	OBJ	_	t_78|t_82|ref=pronom._3
+10	Graecorum	graecorum	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_79|t_76|ref=pronom._3
+11	etiam	οὐκέτι	d	d--------	_	13	ADV	_	t_80|t_82|ref=pronom._3
+12	errores	οὐρούενος	d	d--------	_	3	ADV	_	t_81|t_72|ref=pronom._3
+13	imitari	ἐναίρομαι	v	v--pna---	Mood=n|Tense=p|Voice=a	3	ADV	_	t_82|t_72|ref=pronom._3
+14	,	,	u	u--------	_	3	AuxX	_	t_83|t_72|ref=pronom._3
+15	nos	ἐγώ	i	i--------	_	21	ExD	_	t_84|t_90|ref=pronom._3
+16	Apollonii	apollonii	n	n-s---md-	Case=n|Gender=m|Number=p	17	APOS	_	t_85|t_86|ref=pronom._3
+17	et	καί	c	c--------	_	21	COORD	_	t_86|t_90|ref=pronom._3
+18	H	ὁ	n	n-s---mg-	_	20	APOS	_	t_87|t_89|ref=pronom._3
+19	erodiani	οὐodianus	n	n-s---md-	Case=d|Gender=m|Number=s	17	OBJ	_	t_88|t_86|ref=pronom._3
+20	vestigia	vatigia	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_89|t_90|ref=pronom._3
+21	linquere	linδω	d	d--------	_	3	OBJ	_	t_90|t_72|ref=pronom._3
+22	et	καί	d	d--------	_	3	ADV	_	t_91|t_72|ref=pronom._3
+23	non	οὐ	n	n-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_92|t_89|ref=pronom._3
+24	inter	ἐν	r	r--------	_	21	AuxP	_	t_93|t_90|ref=pronom._3
+25	nomina	ἐπωνυμία	n	n-p---na-	Case=a|Gender=n|Number=p	24	ADV	_	t_94|t_93|ref=pronom._3
+26	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_95|t_94|ref=pronom._3
+27	(	̔	u	u--------	_	4	AuxG	_	t_96|t_73|ref=pronom._3
+28	sc	sc	n	n--------	_	25	APOS	_	t_97|t_94|ref=pronom._3
+29	[0]	[0]	-	---------	_	4	PRED	_	e_1|t_73|ref=pronom._1
+30	.	.	u	u--------	_	3	AuxK	_	t_98|t_72|ref=pronom._3
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 3
+# source = Aelius Herodianus, pronom. 3
 # text = talis tot tantus similia ) potius ponere [0] .
 # sent_id = 11
-1	talis	talis	d	d--------	_	4	ADV	_	t_99|ref=Περὶ ἀντωνυμιῶν_3
-2	tot	ὁ	i	i--------	_	8	AuxY	_	t_100|ref=Περὶ ἀντωνυμιῶν_3
-3	tantus	tantus	p	p-s---cn-	Case=n|Gender=f|Number=s	4	ATR	_	t_101|ref=Περὶ ἀντωνυμιῶν_3
-4	similia	παραπλήσιος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_102|ref=Περὶ ἀντωνυμιῶν_3
-5	)	)	u	u--------	_	8	AuxG	_	t_103|ref=Περὶ ἀντωνυμιῶν_3
-6	potius	potius	a	a-s---ng-	Case=g|Gender=n|Number=s	7	OBJ	_	t_104|ref=Περὶ ἀντωνυμιῶν_3
-7	ponere	ponέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	ExD	_	t_105|ref=Περὶ ἀντωνυμιῶν_3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Περὶ ἀντωνυμιῶν_1
-9	.	.	u	u--------	_	8	AuxK	_	t_106|ref=Περὶ ἀντωνυμιῶν_3
+1	talis	talis	d	d--------	_	4	ADV	_	t_99|t_102|ref=pronom._3
+2	tot	ὁ	i	i--------	_	8	AuxY	_	t_100|e_2|ref=pronom._3
+3	tantus	tantus	p	p-s---cn-	Case=n|Gender=f|Number=s	4	ATR	_	t_101|t_102|ref=pronom._3
+4	similia	παραπλήσιος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_102|e_2|ref=pronom._3
+5	)	)	u	u--------	_	8	AuxG	_	t_103|e_2|ref=pronom._3
+6	potius	potius	a	a-s---ng-	Case=g|Gender=n|Number=s	7	OBJ	_	t_104|t_105|ref=pronom._3
+7	ponere	ponέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	ExD	_	t_105|e_2|ref=pronom._3
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=pronom._1
+9	.	.	u	u--------	_	8	AuxK	_	t_106|e_2|ref=pronom._3
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 3
+# source = Aelius Herodianus, pronom. 3
 # text = 4 [0] .
 # sent_id = 12
-1	4	4	u	u--------	_	2	AuxK	_	t_107|ref=Περὶ ἀντωνυμιῶν_3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Περὶ ἀντωνυμιῶν_1
-3	.	.	u	u--------	_	2	AuxK	_	t_108|ref=Περὶ ἀντωνυμιῶν_3
+1	4	4	u	u--------	_	2	AuxK	_	t_107|e_3|ref=pronom._3
+2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=pronom._1
+3	.	.	u	u--------	_	2	AuxK	_	t_108|e_3|ref=pronom._3
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἰϲτέον ὅτι ἡ εὐθεῖα ἐμαυτόϲ καὶ .
 # sent_id = 13
-1	ἰϲτέον	ἰςτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_109|ref=Περὶ ἀντωνυμιῶν_4
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_110|ref=Περὶ ἀντωνυμιῶν_3
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_111|ref=Περὶ ἀντωνυμιῶν_4
-4	εὐθεῖα	εὐθεῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_112|ref=Περὶ ἀντωνυμιῶν_4
-5	ἐμαυτόϲ	ἐμαυτοῦ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	6	OBJ	_	t_113|ref=Περὶ ἀντωνυμιῶν_4
-6	καὶ	καί	c	c--------	_	2	COORD	_	t_114|ref=Περὶ ἀντωνυμιῶν_4
-7	.	.	u	u--------	_	1	AuxK	_	t_115|ref=Περὶ ἀντωνυμιῶν_4
+1	ἰϲτέον	ἰςτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_109|0|ref=pronom._4
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_110|t_109|ref=pronom._3
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_111|t_112|ref=pronom._4
+4	εὐθεῖα	εὐθεῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_112|t_114|ref=pronom._4
+5	ἐμαυτόϲ	ἐμαυτοῦ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	6	OBJ	_	t_113|t_114|ref=pronom._4
+6	καὶ	καί	c	c--------	_	2	COORD	_	t_114|t_110|ref=pronom._4
+7	.	.	u	u--------	_	1	AuxK	_	t_115|t_109|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἐγαυτόϲ οὐ δύναται εἶναι ·
 # sent_id = 14
-1	ἐγαυτόϲ	ἐγώ	p	p1s---cn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_116|ref=Περὶ ἀντωνυμιῶν_4
-2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_117|ref=Περὶ ἀντωνυμιῶν_4
-3	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_118|ref=Περὶ ἀντωνυμιῶν_4
-4	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_119|ref=Περὶ ἀντωνυμιῶν_4
-5	·	·	u	u--------	_	3	AuxK	_	t_120|ref=Περὶ ἀντωνυμιῶν_4
+1	ἐγαυτόϲ	ἐγώ	p	p1s---cn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_116|t_118|ref=pronom._4
+2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_117|t_118|ref=pronom._4
+3	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_118|0|ref=pronom._4
+4	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_119|t_118|ref=pronom._4
+5	·	·	u	u--------	_	3	AuxK	_	t_120|t_118|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ὅτι πᾶϲα ϲύνθετοϲ ἀντωνυμία θέλει εἶναι καὶ ὁμοιόπτωτοϲ καὶ ὁμοιοπρόϲωποϲ καὶ ἰϲάριθμοϲ οἷον τὸ ἐμαυτοῦ καὶ ίϲαριθμόν ἐϲτι καὶ ὁμοιόπτωτον καὶ ὁμοιοπρόϲωπον ἀπὸ τοῦ ἐμοῦ αὐτοῦ [0] .
 # sent_id = 15
-1	ὅτι	ὅτι	d	d--------	_	5	AuxY	_	t_121|ref=Περὶ ἀντωνυμιῶν_4
-2	πᾶϲα	πᾶς	a	a-s---fn-	Case=n|Gender=m|Number=s	4	ATR	_	t_122|ref=Περὶ ἀντωνυμιῶν_4
-3	ϲύνθετοϲ	σύνθετος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_123|ref=Περὶ ἀντωνυμιῶν_4
-4	ἀντωνυμία	ἀντωνυμία	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_124|ref=Περὶ ἀντωνυμιῶν_4
-5	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_125|ref=Περὶ ἀντωνυμιῶν_4
-6	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_126|ref=Περὶ ἀντωνυμιῶν_4
-7	καὶ	καί	d	d--------	_	16	AuxY	_	t_127|ref=Περὶ ἀντωνυμιῶν_4
-8	ὁμοιόπτωτοϲ	ὁμοιόπτωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_128|ref=Περὶ ἀντωνυμιῶν_4
-9	καὶ	καί	d	d--------	_	16	AuxY	_	t_129|ref=Περὶ ἀντωνυμιῶν_4
-10	ὁμοιοπρόϲωποϲ	ὁμοιοπρόπος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_130|ref=Περὶ ἀντωνυμιῶν_4
-11	καὶ	καί	d	d--------	_	16	AuxY	_	t_131|ref=Περὶ ἀντωνυμιῶν_4
-12	ἰϲάριθμοϲ	ἰςάριθμος	n	n-s---na-	Case=a|Gender=n|Number=s	16	PNOM	_	t_132|ref=Περὶ ἀντωνυμιῶν_4
-13	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_133|ref=Περὶ ἀντωνυμιῶν_4
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_134|ref=Περὶ ἀντωνυμιῶν_4
-15	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_135|ref=Περὶ ἀντωνυμιῶν_4
-16	καὶ	καί	c	c--------	_	5	COORD	_	t_136|ref=Περὶ ἀντωνυμιῶν_4
-17	ίϲαριθμόν	ιςαριθμός	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_137|ref=Περὶ ἀντωνυμιῶν_4
-18	ἐϲτι	εἰμί	d	d--------	_	21	ADV	_	t_138|ref=Περὶ ἀντωνυμιῶν_4
-19	καὶ	καί	d	d--------	_	21	AuxY	_	t_139|ref=Περὶ ἀντωνυμιῶν_4
-20	ὁμοιόπτωτον	ὁμοιόπτωτος	a	a-s---nn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_140|ref=Περὶ ἀντωνυμιῶν_4
-21	καὶ	καί	c	c--------	_	6	COORD	_	t_141|ref=Περὶ ἀντωνυμιῶν_4
-22	ὁμοιοπρόϲωπον	ὁμοιοπρόςωπος	a	a-s---nn-	Case=a|Gender=m|Number=s	21	PNOM	_	t_142|ref=Περὶ ἀντωνυμιῶν_4
-23	ἀπὸ	ἀπό	r	r--------	_	22	AuxP	_	t_143|ref=Περὶ ἀντωνυμιῶν_4
-24	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	25	ATR	_	t_144|ref=Περὶ ἀντωνυμιῶν_4
-25	ἐμοῦ	ἐγώ	a	a-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_145|ref=Περὶ ἀντωνυμιῶν_4
-26	αὐτοῦ	αὐτός	a	a-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_146|ref=Περὶ ἀντωνυμιῶν_4
-27	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Περὶ ἀντωνυμιῶν_1
-28	.	.	u	u--------	_	27	AuxK	_	t_147|ref=Περὶ ἀντωνυμιῶν_4
+1	ὅτι	ὅτι	d	d--------	_	5	AuxY	_	t_121|t_125|ref=pronom._4
+2	πᾶϲα	πᾶς	a	a-s---fn-	Case=n|Gender=m|Number=s	4	ATR	_	t_122|t_124|ref=pronom._4
+3	ϲύνθετοϲ	σύνθετος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_123|t_124|ref=pronom._4
+4	ἀντωνυμία	ἀντωνυμία	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_124|t_125|ref=pronom._4
+5	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_125|e_4|ref=pronom._4
+6	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_126|t_125|ref=pronom._4
+7	καὶ	καί	d	d--------	_	16	AuxY	_	t_127|t_136|ref=pronom._4
+8	ὁμοιόπτωτοϲ	ὁμοιόπτωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_128|t_131|ref=pronom._4
+9	καὶ	καί	d	d--------	_	16	AuxY	_	t_129|t_136|ref=pronom._4
+10	ὁμοιοπρόϲωποϲ	ὁμοιοπρόπος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	PNOM	_	t_130|t_131|ref=pronom._4
+11	καὶ	καί	d	d--------	_	16	AuxY	_	t_131|t_136|ref=pronom._4
+12	ἰϲάριθμοϲ	ἰςάριθμος	n	n-s---na-	Case=a|Gender=n|Number=s	16	PNOM	_	t_132|t_136|ref=pronom._4
+13	οἷον	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_133|t_132|ref=pronom._4
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_134|t_132|ref=pronom._4
+15	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_135|t_134|ref=pronom._4
+16	καὶ	καί	c	c--------	_	5	COORD	_	t_136|t_125|ref=pronom._4
+17	ίϲαριθμόν	ιςαριθμός	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_137|t_136|ref=pronom._4
+18	ἐϲτι	εἰμί	d	d--------	_	21	ADV	_	t_138|t_141|ref=pronom._4
+19	καὶ	καί	d	d--------	_	21	AuxY	_	t_139|t_141|ref=pronom._4
+20	ὁμοιόπτωτον	ὁμοιόπτωτος	a	a-s---nn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_140|t_141|ref=pronom._4
+21	καὶ	καί	c	c--------	_	6	COORD	_	t_141|t_126|ref=pronom._4
+22	ὁμοιοπρόϲωπον	ὁμοιοπρόςωπος	a	a-s---nn-	Case=a|Gender=m|Number=s	21	PNOM	_	t_142|t_141|ref=pronom._4
+23	ἀπὸ	ἀπό	r	r--------	_	22	AuxP	_	t_143|t_142|ref=pronom._4
+24	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	25	ATR	_	t_144|t_145|ref=pronom._4
+25	ἐμοῦ	ἐγώ	a	a-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_145|t_143|ref=pronom._4
+26	αὐτοῦ	αὐτός	a	a-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_146|t_145|ref=pronom._4
+27	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=pronom._1
+28	.	.	u	u--------	_	27	AuxK	_	t_147|e_4|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἀμφότερα γὰρ τό τʼ ἐμοῦ καὶ αὐτοῦ ἑνικά ἐϲτι καὶ τρίτου προϲώπου καὶ πτώϲεωϲ γενικῆϲ .
 # sent_id = 16
-1	ἀμφότερα	ἀμφότερος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_148|ref=Περὶ ἀντωνυμιῶν_4
-2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_149|ref=Περὶ ἀντωνυμιῶν_4
-3	τό	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_150|ref=Περὶ ἀντωνυμιῶν_4
-4	τʼ	τε	g	g--------	_	6	AuxY	_	t_151|ref=Περὶ ἀντωνυμιῶν_4
-5	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	6	ATR	_	t_152|ref=Περὶ ἀντωνυμιῶν_4
-6	καὶ	καί	c	c--------	_	13	COORD	_	t_153|ref=Περὶ ἀντωνυμιῶν_4
-7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_154|ref=Περὶ ἀντωνυμιῶν_4
-8	ἑνικά	ἑνικός	a	a-p---na-	Case=a|Gender=n|Number=p	0	PRED	_	t_155|ref=Περὶ ἀντωνυμιῶν_4
-9	ἐϲτι	εἰμί	r	r--------	_	8	AuxP	_	t_156|ref=Περὶ ἀντωνυμιῶν_4
-10	καὶ	καί	c	c--------	_	13	AuxY	_	t_157|ref=Περὶ ἀντωνυμιῶν_4
-11	τρίτου	τρίτος	a	a-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_158|ref=Περὶ ἀντωνυμιῶν_4
-12	προϲώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_159|ref=Περὶ ἀντωνυμιῶν_4
-13	καὶ	καί	c	c--------	_	9	COORD	_	t_160|ref=Περὶ ἀντωνυμιῶν_4
-14	πτώϲεωϲ	πτῶςις	n	n-s---fg-	Case=g|Gender=f|Number=s	13	APOS	_	t_161|ref=Περὶ ἀντωνυμιῶν_4
-15	γενικῆϲ	γενικός	a	a-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_162|ref=Περὶ ἀντωνυμιῶν_4
-16	.	.	u	u--------	_	8	AuxK	_	t_163|ref=Περὶ ἀντωνυμιῶν_4
+1	ἀμφότερα	ἀμφότερος	a	a-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_148|t_155|ref=pronom._4
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_149|t_155|ref=pronom._4
+3	τό	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_150|t_155|ref=pronom._4
+4	τʼ	τε	g	g--------	_	6	AuxY	_	t_151|t_153|ref=pronom._4
+5	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	6	ATR	_	t_152|t_153|ref=pronom._4
+6	καὶ	καί	c	c--------	_	13	COORD	_	t_153|t_160|ref=pronom._4
+7	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_154|t_153|ref=pronom._4
+8	ἑνικά	ἑνικός	a	a-p---na-	Case=a|Gender=n|Number=p	0	PRED	_	t_155|0|ref=pronom._4
+9	ἐϲτι	εἰμί	r	r--------	_	8	AuxP	_	t_156|t_155|ref=pronom._4
+10	καὶ	καί	c	c--------	_	13	AuxY	_	t_157|t_160|ref=pronom._4
+11	τρίτου	τρίτος	a	a-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_158|t_159|ref=pronom._4
+12	προϲώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_159|t_160|ref=pronom._4
+13	καὶ	καί	c	c--------	_	9	COORD	_	t_160|t_156|ref=pronom._4
+14	πτώϲεωϲ	πτῶςις	n	n-s---fg-	Case=g|Gender=f|Number=s	13	APOS	_	t_161|t_160|ref=pronom._4
+15	γενικῆϲ	γενικός	a	a-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_162|t_161|ref=pronom._4
+16	.	.	u	u--------	_	8	AuxK	_	t_163|t_155|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἐὰν οὖν γένηται ἡ εὐθεῖα τούτων ἐμαυτόϲ , ἔμελλεν εἶναι ἀνομοιόπτωτοϲ , ὅπερ ἐϲτὶν ἀδύνατον ἐπὶ ϲυνθέτου ἀντωνυμίαϲ .
 # sent_id = 17
-1	ἐὰν	ἐάν	c	c--------	_	9	AuxC	_	t_164|ref=Περὶ ἀντωνυμιῶν_4
-2	οὖν	οὖν	d	d--------	_	9	AuxY	_	t_165|ref=Περὶ ἀντωνυμιῶν_4
-3	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_166|ref=Περὶ ἀντωνυμιῶν_4
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_167|ref=Περὶ ἀντωνυμιῶν_4
-5	εὐθεῖα	εὐθεῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_168|ref=Περὶ ἀντωνυμιῶν_4
-6	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_169|ref=Περὶ ἀντωνυμιῶν_4
-7	ἐμαυτόϲ	ἐμαυτοῦ	p	p1s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_170|ref=Περὶ ἀντωνυμιῶν_4
-8	,	,	u	u--------	_	9	AuxX	_	t_171|ref=Περὶ ἀντωνυμιῶν_4
-9	ἔμελλεν	μέλλω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_172|ref=Περὶ ἀντωνυμιῶν_4
-10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_173|ref=Περὶ ἀντωνυμιῶν_4
-11	ἀνομοιόπτωτοϲ	ἀνομοιόπτωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_174|ref=Περὶ ἀντωνυμιῶν_4
-12	,	,	u	u--------	_	9	AuxX	_	t_175|ref=Περὶ ἀντωνυμιῶν_4
-13	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_176|ref=Περὶ ἀντωνυμιῶν_4
-14	ἐϲτὶν	εἰμί	d	d--------	_	9	ADV	_	t_177|ref=Περὶ ἀντωνυμιῶν_4
-15	ἀδύνατον	ἀδύνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_178|ref=Περὶ ἀντωνυμιῶν_4
-16	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_179|ref=Περὶ ἀντωνυμιῶν_4
-17	ϲυνθέτου	σύνθετος	a	a-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_180|ref=Περὶ ἀντωνυμιῶν_4
-18	ἀντωνυμίαϲ	ἀντωνυμία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ADV	_	t_181|ref=Περὶ ἀντωνυμιῶν_4
-19	.	.	u	u--------	_	9	AuxK	_	t_182|ref=Περὶ ἀντωνυμιῶν_4
+1	ἐὰν	ἐάν	c	c--------	_	9	AuxC	_	t_164|t_172|ref=pronom._4
+2	οὖν	οὖν	d	d--------	_	9	AuxY	_	t_165|t_172|ref=pronom._4
+3	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_166|t_164|ref=pronom._4
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_167|t_168|ref=pronom._4
+5	εὐθεῖα	εὐθεῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_168|t_166|ref=pronom._4
+6	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_169|t_168|ref=pronom._4
+7	ἐμαυτόϲ	ἐμαυτοῦ	p	p1s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_170|t_168|ref=pronom._4
+8	,	,	u	u--------	_	9	AuxX	_	t_171|t_172|ref=pronom._4
+9	ἔμελλεν	μέλλω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_172|0|ref=pronom._4
+10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_173|t_172|ref=pronom._4
+11	ἀνομοιόπτωτοϲ	ἀνομοιόπτωτος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_174|t_173|ref=pronom._4
+12	,	,	u	u--------	_	9	AuxX	_	t_175|t_172|ref=pronom._4
+13	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_176|t_177|ref=pronom._4
+14	ἐϲτὶν	εἰμί	d	d--------	_	9	ADV	_	t_177|t_172|ref=pronom._4
+15	ἀδύνατον	ἀδύνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_178|t_177|ref=pronom._4
+16	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_179|t_172|ref=pronom._4
+17	ϲυνθέτου	σύνθετος	a	a-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_180|t_181|ref=pronom._4
+18	ἀντωνυμίαϲ	ἀντωνυμία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ADV	_	t_181|t_179|ref=pronom._4
+19	.	.	u	u--------	_	9	AuxK	_	t_182|t_172|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τὸ γὰρ αὐτόϲ ἐϲτὶν εὐθεῖα , τὸ δὲ ἐμέ αἰτιατικὴ καὶ οὐκ ἔϲτιν εὐθεῖα [0] ·
 # sent_id = 18
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_183|ref=Περὶ ἀντωνυμιῶν_4
-2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_184|ref=Περὶ ἀντωνυμιῶν_4
-3	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	15	ADV	_	t_185|ref=Περὶ ἀντωνυμιῶν_4
-4	ἐϲτὶν	εἰμί	d	d--------	_	15	ADV	_	t_186|ref=Περὶ ἀντωνυμιῶν_4
-5	εὐθεῖα	εὐθεῖα	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_187|ref=Περὶ ἀντωνυμιῶν_4
-6	,	,	u	u--------	_	15	AuxX	_	t_188|ref=Περὶ ἀντωνυμιῶν_4
-7	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	11	SBJ	_	t_189|ref=Περὶ ἀντωνυμιῶν_4
-8	δὲ	δέ	d	d--------	_	15	COORD	_	t_190|ref=Περὶ ἀντωνυμιῶν_4
-9	ἐμέ	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	11	ADV	_	t_191|ref=Περὶ ἀντωνυμιῶν_4
-10	αἰτιατικὴ	αἰτιατική	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_192|ref=Περὶ ἀντωνυμιῶν_4
-11	καὶ	καί	c	c--------	_	15	COORD	_	t_193|ref=Περὶ ἀντωνυμιῶν_4
-12	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_194|ref=Περὶ ἀντωνυμιῶν_4
-13	ἔϲτιν	εἰμί	a	a-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_195|ref=Περὶ ἀντωνυμιῶν_4
-14	εὐθεῖα	εὐθεῖα	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_196|ref=Περὶ ἀντωνυμιῶν_4
-15	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Περὶ ἀντωνυμιῶν_1
-16	·	·	u	u--------	_	15	AuxK	_	t_197|ref=Περὶ ἀντωνυμιῶν_4
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_183|t_185|ref=pronom._4
+2	γὰρ	γάρ	d	d--------	_	15	AuxY	_	t_184|e_5|ref=pronom._4
+3	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	15	ADV	_	t_185|e_5|ref=pronom._4
+4	ἐϲτὶν	εἰμί	d	d--------	_	15	ADV	_	t_186|e_5|ref=pronom._4
+5	εὐθεῖα	εὐθεῖα	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_187|t_190|ref=pronom._4
+6	,	,	u	u--------	_	15	AuxX	_	t_188|e_5|ref=pronom._4
+7	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	11	SBJ	_	t_189|t_193|ref=pronom._4
+8	δὲ	δέ	d	d--------	_	15	COORD	_	t_190|e_5|ref=pronom._4
+9	ἐμέ	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	11	ADV	_	t_191|t_193|ref=pronom._4
+10	αἰτιατικὴ	αἰτιατική	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_192|t_193|ref=pronom._4
+11	καὶ	καί	c	c--------	_	15	COORD	_	t_193|e_5|ref=pronom._4
+12	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_194|t_196|ref=pronom._4
+13	ἔϲτιν	εἰμί	a	a-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_195|t_196|ref=pronom._4
+14	εὐθεῖα	εὐθεῖα	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_196|t_193|ref=pronom._4
+15	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=pronom._1
+16	·	·	u	u--------	_	15	AuxK	_	t_197|e_5|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἀπὸ γὰρ τοῦ ἐμόϲ οὐκ ἠδύνατο γενέϲθαι , ἐπειδὴ οὐδέποτε κτητικὴ ἀντωνυμία ποιεῖ ϲύνθετον ἀντωνυμίαν .
 # sent_id = 19
-1	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_198|ref=Περὶ ἀντωνυμιῶν_4
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_199|ref=Περὶ ἀντωνυμιῶν_4
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_200|ref=Περὶ ἀντωνυμιῶν_4
-4	ἐμόϲ	ἐμός	a	a-s---ng-	Case=g|Gender=m|Number=s	1	ADV	_	t_201|ref=Περὶ ἀντωνυμιῶν_4
-5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_202|ref=Περὶ ἀντωνυμιῶν_4
-6	ἠδύνατο	δύναμαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_203|ref=Περὶ ἀντωνυμιῶν_4
-7	γενέϲθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	6	OBJ	_	t_204|ref=Περὶ ἀντωνυμιῶν_4
-8	,	,	u	u--------	_	6	AuxX	_	t_205|ref=Περὶ ἀντωνυμιῶν_4
-9	ἐπειδὴ	ἐπεί	c	c--------	_	6	AuxC	_	t_206|ref=Περὶ ἀντωνυμιῶν_4
-10	οὐδέποτε	οὐδέποτε	d	d--------	_	13	ADV	_	t_207|ref=Περὶ ἀντωνυμιῶν_4
-11	κτητικὴ	κτητικός	a	a-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_208|ref=Περὶ ἀντωνυμιῶν_4
-12	ἀντωνυμία	ἀντωνυμία	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_209|ref=Περὶ ἀντωνυμιῶν_4
-13	ποιεῖ	ποιέω	v	v2spia---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_210|ref=Περὶ ἀντωνυμιῶν_4
-14	ϲύνθετον	σύνθετος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_211|ref=Περὶ ἀντωνυμιῶν_4
-15	ἀντωνυμίαν	ἀντωνυμία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_212|ref=Περὶ ἀντωνυμιῶν_4
-16	.	.	u	u--------	_	6	AuxK	_	t_213|ref=Περὶ ἀντωνυμιῶν_4
+1	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_198|t_204|ref=pronom._4
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_199|t_203|ref=pronom._4
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_200|t_201|ref=pronom._4
+4	ἐμόϲ	ἐμός	a	a-s---ng-	Case=g|Gender=m|Number=s	1	ADV	_	t_201|t_198|ref=pronom._4
+5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_202|t_203|ref=pronom._4
+6	ἠδύνατο	δύναμαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_203|0|ref=pronom._4
+7	γενέϲθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	6	OBJ	_	t_204|t_203|ref=pronom._4
+8	,	,	u	u--------	_	6	AuxX	_	t_205|t_203|ref=pronom._4
+9	ἐπειδὴ	ἐπεί	c	c--------	_	6	AuxC	_	t_206|t_203|ref=pronom._4
+10	οὐδέποτε	οὐδέποτε	d	d--------	_	13	ADV	_	t_207|t_210|ref=pronom._4
+11	κτητικὴ	κτητικός	a	a-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_208|t_209|ref=pronom._4
+12	ἀντωνυμία	ἀντωνυμία	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_209|t_210|ref=pronom._4
+13	ποιεῖ	ποιέω	v	v2spia---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_210|t_206|ref=pronom._4
+14	ϲύνθετον	σύνθετος	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_211|t_212|ref=pronom._4
+15	ἀντωνυμίαν	ἀντωνυμία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_212|t_210|ref=pronom._4
+16	.	.	u	u--------	_	6	AuxK	_	t_213|t_203|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἀπὸ γὰρ τῶν πρωτοτύπων ἀντῶνυμιῶν γίνονται αἱ ϲύνθετοι ἀντωνυμίαι οἶον ἐμοῦ αὐτοῦ ἐμαυτοῦ , ἐμοὶ [0] .
 # sent_id = 20
-1	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_214|ref=Περὶ ἀντωνυμιῶν_4
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_215|ref=Περὶ ἀντωνυμιῶν_4
-3	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_216|ref=Περὶ ἀντωνυμιῶν_4
-4	πρωτοτύπων	πρωτότυπος	a	a-p---fg-	Case=g|Gender=n|Number=p	5	ATR	_	t_217|ref=Περὶ ἀντωνυμιῶν_4
-5	ἀντῶνυμιῶν	ἀντώνυμι	n	n-p---fg-	Case=g|Gender=f|Number=p	1	ADV	_	t_218|ref=Περὶ ἀντωνυμιῶν_4
-6	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_219|ref=Περὶ ἀντωνυμιῶν_4
-7	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_220|ref=Περὶ ἀντωνυμιῶν_4
-8	ϲύνθετοι	σύνθετος	a	a-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_221|ref=Περὶ ἀντωνυμιῶν_4
-9	ἀντωνυμίαι	ἀντωνυμία	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_222|ref=Περὶ ἀντωνυμιῶν_4
-10	οἶον	οἶος	a	a-s---na-	Case=a|Gender=n|Number=s	16	PNOM	_	t_223|ref=Περὶ ἀντωνυμιῶν_4
-11	ἐμοῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_224|ref=Περὶ ἀντωνυμιῶν_4
-12	αὐτοῦ	αὐτός	a	a-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_225|ref=Περὶ ἀντωνυμιῶν_4
-13	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_226|ref=Περὶ ἀντωνυμιῶν_4
-14	,	,	u	u--------	_	6	COORD	_	t_227|ref=Περὶ ἀντωνυμιῶν_4
-15	ἐμοὶ	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	16	ADV	_	t_228|ref=Περὶ ἀντωνυμιῶν_4
-16	[0]	[0]	-	---------	_	14	PNOM	_	e_6|ref=Περὶ ἀντωνυμιῶν_1
-17	.	.	u	u--------	_	6	AuxK	_	t_229|ref=Περὶ ἀντωνυμιῶν_4
+1	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_214|t_219|ref=pronom._4
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_215|t_219|ref=pronom._4
+3	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_216|t_218|ref=pronom._4
+4	πρωτοτύπων	πρωτότυπος	a	a-p---fg-	Case=g|Gender=n|Number=p	5	ATR	_	t_217|t_218|ref=pronom._4
+5	ἀντῶνυμιῶν	ἀντώνυμι	n	n-p---fg-	Case=g|Gender=f|Number=p	1	ADV	_	t_218|t_214|ref=pronom._4
+6	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_219|0|ref=pronom._4
+7	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_220|t_222|ref=pronom._4
+8	ϲύνθετοι	σύνθετος	a	a-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_221|t_222|ref=pronom._4
+9	ἀντωνυμίαι	ἀντωνυμία	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_222|t_219|ref=pronom._4
+10	οἶον	οἶος	a	a-s---na-	Case=a|Gender=n|Number=s	16	PNOM	_	t_223|e_6|ref=pronom._4
+11	ἐμοῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_224|e_6|ref=pronom._4
+12	αὐτοῦ	αὐτός	a	a-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_225|t_224|ref=pronom._4
+13	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_226|e_6|ref=pronom._4
+14	,	,	u	u--------	_	6	COORD	_	t_227|t_219|ref=pronom._4
+15	ἐμοὶ	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	16	ADV	_	t_228|e_6|ref=pronom._4
+16	[0]	[0]	-	---------	_	14	PNOM	_	e_6|t_227|ref=pronom._1
+17	.	.	u	u--------	_	6	AuxK	_	t_229|t_219|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = αὐτῷ ἐμαυτῷ , ἐμὲ αὐτόν ἐμαυτόν [0] .
 # sent_id = 21
-1	αὐτῷ	αὐτός	a	a-s---md-	Case=d|Gender=m|Number=s	2	ATR	_	t_230|ref=Περὶ ἀντωνυμιῶν_4
-2	ἐμαυτῷ	ἐμαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_231|ref=Περὶ ἀντωνυμιῶν_4
-3	,	,	u	u--------	_	7	AuxX	_	t_232|ref=Περὶ ἀντωνυμιῶν_4
-4	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_233|ref=Περὶ ἀντωνυμιῶν_4
-5	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_234|ref=Περὶ ἀντωνυμιῶν_4
-6	ἐμαυτόν	ἐμαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_235|ref=Περὶ ἀντωνυμιῶν_4
-7	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Περὶ ἀντωνυμιῶν_1
-8	.	.	u	u--------	_	7	AuxK	_	t_236|ref=Περὶ ἀντωνυμιῶν_4
+1	αὐτῷ	αὐτός	a	a-s---md-	Case=d|Gender=m|Number=s	2	ATR	_	t_230|t_231|ref=pronom._4
+2	ἐμαυτῷ	ἐμαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_231|t_232|ref=pronom._4
+3	,	,	u	u--------	_	7	AuxX	_	t_232|e_7|ref=pronom._4
+4	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_233|t_232|ref=pronom._4
+5	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_234|t_235|ref=pronom._4
+6	ἐμαυτόν	ἐμαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_235|t_232|ref=pronom._4
+7	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=pronom._1
+8	.	.	u	u--------	_	7	AuxK	_	t_236|e_7|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἐγαυτόϲ οὐ δύναται εἶναι , ἐπειδὴ αἱ ϲύνθεται ἀντωνυμίαι πρότερον ἐν τῇ ἁπλότητι τὰϲ δύο ϲυνθέϲειϲ .
 # sent_id = 22
-1	ἐγαυτόϲ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_237|ref=Περὶ ἀντωνυμιῶν_4
-2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_238|ref=Περὶ ἀντωνυμιῶν_4
-3	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_239|ref=Περὶ ἀντωνυμιῶν_4
-4	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_240|ref=Περὶ ἀντωνυμιῶν_4
-5	,	,	u	u--------	_	3	AuxX	_	t_241|ref=Περὶ ἀντωνυμιῶν_4
-6	ἐπειδὴ	ἐπεί	c	c--------	_	3	AuxC	_	t_242|ref=Περὶ ἀντωνυμιῶν_4
-7	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_243|ref=Περὶ ἀντωνυμιῶν_4
-8	ϲύνθεται	σύνθετος	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ADV	_	t_244|ref=Περὶ ἀντωνυμιῶν_4
-9	ἀντωνυμίαι	ἀντωνυμία	n	n-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_245|ref=Περὶ ἀντωνυμιῶν_4
-10	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_246|ref=Περὶ ἀντωνυμιῶν_4
-11	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_247|ref=Περὶ ἀντωνυμιῶν_4
-12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_248|ref=Περὶ ἀντωνυμιῶν_4
-13	ἁπλότητι	ἁπλότης	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_249|ref=Περὶ ἀντωνυμιῶν_4
-14	τὰϲ	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_250|ref=Περὶ ἀντωνυμιῶν_4
-15	δύο	δύο	a	a--------	_	16	ATR	_	t_251|ref=Περὶ ἀντωνυμιῶν_4
-16	ϲυνθέϲειϲ	σύνθεσις	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_252|ref=Περὶ ἀντωνυμιῶν_4
-17	.	.	u	u--------	_	3	AuxK	_	t_253|ref=Περὶ ἀντωνυμιῶν_4
+1	ἐγαυτόϲ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_237|t_239|ref=pronom._4
+2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_238|t_239|ref=pronom._4
+3	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_239|0|ref=pronom._4
+4	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_240|t_239|ref=pronom._4
+5	,	,	u	u--------	_	3	AuxX	_	t_241|t_239|ref=pronom._4
+6	ἐπειδὴ	ἐπεί	c	c--------	_	3	AuxC	_	t_242|t_239|ref=pronom._4
+7	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	9	ATR	_	t_243|t_245|ref=pronom._4
+8	ϲύνθεται	σύνθετος	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ADV	_	t_244|t_242|ref=pronom._4
+9	ἀντωνυμίαι	ἀντωνυμία	n	n-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_245|t_244|ref=pronom._4
+10	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_246|t_244|ref=pronom._4
+11	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_247|t_244|ref=pronom._4
+12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_248|t_249|ref=pronom._4
+13	ἁπλότητι	ἁπλότης	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_249|t_247|ref=pronom._4
+14	τὰϲ	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_250|t_252|ref=pronom._4
+15	δύο	δύο	a	a--------	_	16	ATR	_	t_251|t_252|ref=pronom._4
+16	ϲυνθέϲειϲ	σύνθεσις	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_252|t_244|ref=pronom._4
+17	.	.	u	u--------	_	3	AuxK	_	t_253|t_239|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἐπιδέχονται , τήν τε αὐτοπαθῆ καὶ τὴν ἀλλοπαθῆ καὶ οὕτω ϲυντίθενται οἷον ἐμοῦ ἤκουϲαϲ καὶ ἐμοῦ ἤκουϲα .
 # sent_id = 23
-1	ἐπιδέχονται	ἐπιδέχομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	9	PRED	_	t_254|ref=Περὶ ἀντωνυμιῶν_4
-2	,	,	u	u--------	_	0	AuxX	_	t_255|ref=Περὶ ἀντωνυμιῶν_4
-3	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_256|ref=Περὶ ἀντωνυμιῶν_4
-4	τε	τε	g	g--------	_	6	AuxY	_	t_257|ref=Περὶ ἀντωνυμιῶν_4
-5	αὐτοπαθῆ	αὐτοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_258|ref=Περὶ ἀντωνυμιῶν_4
-6	καὶ	καί	c	c--------	_	1	COORD	_	t_259|ref=Περὶ ἀντωνυμιῶν_4
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_260|ref=Περὶ ἀντωνυμιῶν_4
-8	ἀλλοπαθῆ	ἀλλοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_261|ref=Περὶ ἀντωνυμιῶν_4
-9	καὶ	καί	c	c--------	_	2	COORD	_	t_262|ref=Περὶ ἀντωνυμιῶν_4
-10	οὕτω	οὕτως	d	d--------	_	11	ADV	_	t_263|ref=Περὶ ἀντωνυμιῶν_4
-11	ϲυντίθενται	συντίθημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	9	PRED	_	t_264|ref=Περὶ ἀντωνυμιῶν_4
-12	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_265|ref=Περὶ ἀντωνυμιῶν_4
-13	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	15	OBJ	_	t_266|ref=Περὶ ἀντωνυμιῶν_4
-14	ἤκουϲαϲ	ἀκούω	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_267|ref=Περὶ ἀντωνυμιῶν_4
-15	καὶ	καί	c	c--------	_	11	COORD	_	t_268|ref=Περὶ ἀντωνυμιῶν_4
-16	ἐμοῦ	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	15	OBJ	_	t_269|ref=Περὶ ἀντωνυμιῶν_4
-17	ἤκουϲα	ἀκούω	n	n-p---na-	Case=a|Gender=n|Number=p	15	OBJ	_	t_270|ref=Περὶ ἀντωνυμιῶν_4
-18	.	.	u	u--------	_	2	AuxK	_	t_271|ref=Περὶ ἀντωνυμιῶν_4
+1	ἐπιδέχονται	ἐπιδέχομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	9	PRED	_	t_254|t_262|ref=pronom._4
+2	,	,	u	u--------	_	0	AuxX	_	t_255|0|ref=pronom._4
+3	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_256|t_258|ref=pronom._4
+4	τε	τε	g	g--------	_	6	AuxY	_	t_257|t_259|ref=pronom._4
+5	αὐτοπαθῆ	αὐτοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_258|t_259|ref=pronom._4
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_259|t_254|ref=pronom._4
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_260|t_261|ref=pronom._4
+8	ἀλλοπαθῆ	ἀλλοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_261|t_259|ref=pronom._4
+9	καὶ	καί	c	c--------	_	2	COORD	_	t_262|t_255|ref=pronom._4
+10	οὕτω	οὕτως	d	d--------	_	11	ADV	_	t_263|t_264|ref=pronom._4
+11	ϲυντίθενται	συντίθημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	9	PRED	_	t_264|t_262|ref=pronom._4
+12	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_265|t_264|ref=pronom._4
+13	ἐμοῦ	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	15	OBJ	_	t_266|t_268|ref=pronom._4
+14	ἤκουϲαϲ	ἀκούω	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_267|t_268|ref=pronom._4
+15	καὶ	καί	c	c--------	_	11	COORD	_	t_268|t_264|ref=pronom._4
+16	ἐμοῦ	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	15	OBJ	_	t_269|t_268|ref=pronom._4
+17	ἤκουϲα	ἀκούω	n	n-p---na-	Case=a|Gender=n|Number=p	15	OBJ	_	t_270|t_268|ref=pronom._4
+18	.	.	u	u--------	_	2	AuxK	_	t_271|t_255|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = διὰ τοῦτο γὰρ ἐπενοήθηϲαν αἱ ϲύνθετοι ἀντωνυμίαι , ἵνα διάκριϲιν ποιήϲωϲι τῆϲ ἀλλοπαθοῦϲ καὶ ϲχῶϲι τὸ αὐτοπαθὲϲ μόνον , αἱ δὲ ἀπίαῖ τὸ ἀλλοπαθέϲ [0] .
 # sent_id = 24
-1	διὰ	διά	r	r--------	_	4	AuxP	_	t_272|ref=Περὶ ἀντωνυμιῶν_4
-2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_273|ref=Περὶ ἀντωνυμιῶν_4
-3	γὰρ	γάρ	d	d--------	_	4	AuxY	_	t_274|ref=Περὶ ἀντωνυμιῶν_4
-4	ἐπενοήθηϲαν	ἐπινοέω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	0	PRED	_	t_275|ref=Περὶ ἀντωνυμιῶν_4
-5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_276|ref=Περὶ ἀντωνυμιῶν_4
-6	ϲύνθετοι	σύνθετος	a	a-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_277|ref=Περὶ ἀντωνυμιῶν_4
-7	ἀντωνυμίαι	ἀντωνυμία	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_278|ref=Περὶ ἀντωνυμιῶν_4
-8	,	,	u	u--------	_	4	AuxX	_	t_279|ref=Περὶ ἀντωνυμιῶν_4
-9	ἵνα	ἵνα	c	c--------	_	4	AuxC	_	t_280|ref=Περὶ ἀντωνυμιῶν_4
-10	διάκριϲιν	διάκριςις	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_281|ref=Περὶ ἀντωνυμιῶν_4
-11	ποιήϲωϲι	ποιέω	v	v2spoa---	Case=d|Gender=n|Number=s	14	ADV	_	t_282|ref=Περὶ ἀντωνυμιῶν_4
-12	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_283|ref=Περὶ ἀντωνυμιῶν_4
-13	ἀλλοπαθοῦϲ	ἀλλοπαθής	a	a-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_284|ref=Περὶ ἀντωνυμιῶν_4
-14	καὶ	καί	c	c--------	_	21	COORD	_	t_285|ref=Περὶ ἀντωνυμιῶν_4
-15	ϲχῶϲι	ςκός	d	d--------	_	14	ADV	_	t_286|ref=Περὶ ἀντωνυμιῶν_4
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_287|ref=Περὶ ἀντωνυμιῶν_4
-17	αὐτοπαθὲϲ	αὐτοπαθής	a	a-s---na-	Case=a|Gender=n|Number=s	25	SBJ	_	t_288|ref=Περὶ ἀντωνυμιῶν_4
-18	μόνον	μόνος	d	d--------	_	25	ADV	_	t_289|ref=Περὶ ἀντωνυμιῶν_4
-19	,	,	u	u--------	_	4	AuxX	_	t_290|ref=Περὶ ἀντωνυμιῶν_4
-20	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	22	ATR	_	t_291|ref=Περὶ ἀντωνυμιῶν_4
-21	δὲ	δέ	d	d--------	_	9	COORD	_	t_292|ref=Περὶ ἀντωνυμιῶν_4
-22	ἀπίαῖ	ἀπιάομαι	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_293|ref=Περὶ ἀντωνυμιῶν_4
-23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_294|ref=Περὶ ἀντωνυμιῶν_4
-24	ἀλλοπαθέϲ	ἀλλοπαθής	a	a-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_295|ref=Περὶ ἀντωνυμιῶν_4
-25	[0]	[0]	-	---------	_	14	ADV	_	e_8|ref=Περὶ ἀντωνυμιῶν_1
-26	.	.	u	u--------	_	4	AuxK	_	t_296|ref=Περὶ ἀντωνυμιῶν_4
+1	διὰ	διά	r	r--------	_	4	AuxP	_	t_272|t_275|ref=pronom._4
+2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_273|t_272|ref=pronom._4
+3	γὰρ	γάρ	d	d--------	_	4	AuxY	_	t_274|t_275|ref=pronom._4
+4	ἐπενοήθηϲαν	ἐπινοέω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	0	PRED	_	t_275|0|ref=pronom._4
+5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_276|t_278|ref=pronom._4
+6	ϲύνθετοι	σύνθετος	a	a-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_277|t_278|ref=pronom._4
+7	ἀντωνυμίαι	ἀντωνυμία	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_278|t_275|ref=pronom._4
+8	,	,	u	u--------	_	4	AuxX	_	t_279|t_275|ref=pronom._4
+9	ἵνα	ἵνα	c	c--------	_	4	AuxC	_	t_280|t_275|ref=pronom._4
+10	διάκριϲιν	διάκριςις	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_281|t_282|ref=pronom._4
+11	ποιήϲωϲι	ποιέω	v	v2spoa---	Case=d|Gender=n|Number=s	14	ADV	_	t_282|t_285|ref=pronom._4
+12	τῆϲ	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_283|t_284|ref=pronom._4
+13	ἀλλοπαθοῦϲ	ἀλλοπαθής	a	a-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_284|t_282|ref=pronom._4
+14	καὶ	καί	c	c--------	_	21	COORD	_	t_285|t_292|ref=pronom._4
+15	ϲχῶϲι	ςκός	d	d--------	_	14	ADV	_	t_286|t_285|ref=pronom._4
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_287|t_288|ref=pronom._4
+17	αὐτοπαθὲϲ	αὐτοπαθής	a	a-s---na-	Case=a|Gender=n|Number=s	25	SBJ	_	t_288|e_8|ref=pronom._4
+18	μόνον	μόνος	d	d--------	_	25	ADV	_	t_289|e_8|ref=pronom._4
+19	,	,	u	u--------	_	4	AuxX	_	t_290|t_275|ref=pronom._4
+20	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	22	ATR	_	t_291|t_293|ref=pronom._4
+21	δὲ	δέ	d	d--------	_	9	COORD	_	t_292|t_280|ref=pronom._4
+22	ἀπίαῖ	ἀπιάομαι	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_293|e_8|ref=pronom._4
+23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_294|t_295|ref=pronom._4
+24	ἀλλοπαθέϲ	ἀλλοπαθής	a	a-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_295|e_8|ref=pronom._4
+25	[0]	[0]	-	---------	_	14	ADV	_	e_8|t_285|ref=pronom._1
+26	.	.	u	u--------	_	4	AuxK	_	t_296|t_275|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τὸ οὖν ἐγὼ αὐτό , ἐπειδὴ ἐν τῇ ἁπλότητι οὐκ ἐπιδέχεται τὰϲ δύο ϲυντάξειϲ τήν τε ἀλλοπαθῆ καὶ τὴν αὐτοπαθῆ , εἰκότωϲ οὐ δύναται ποιῆϲαι ϲύνθετον ἀντωνυ μίαν .
 # sent_id = 25
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_297|ref=Περὶ ἀντωνυμιῶν_4
-2	οὖν	οὖν	d	d--------	_	24	AuxY	_	t_298|ref=Περὶ ἀντωνυμιῶν_4
-3	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	24	SBJ	_	t_299|ref=Περὶ ἀντωνυμιῶν_4
-4	αὐτό	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_300|ref=Περὶ ἀντωνυμιῶν_4
-5	,	,	u	u--------	_	24	AuxX	_	t_301|ref=Περὶ ἀντωνυμιῶν_4
-6	ἐπειδὴ	ἐπεί	c	c--------	_	24	AuxC	_	t_302|ref=Περὶ ἀντωνυμιῶν_4
-7	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_303|ref=Περὶ ἀντωνυμιῶν_4
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_304|ref=Περὶ ἀντωνυμιῶν_4
-9	ἁπλότητι	ἁπλότης	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_305|ref=Περὶ ἀντωνυμιῶν_4
-10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_306|ref=Περὶ ἀντωνυμιῶν_4
-11	ἐπιδέχεται	ἐπιδέχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ADV	_	t_307|ref=Περὶ ἀντωνυμιῶν_4
-12	τὰϲ	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_308|ref=Περὶ ἀντωνυμιῶν_4
-13	δύο	δύο	m	m-d---fa-	Case=a|Gender=f|Number=d	14	ATR	_	t_309|ref=Περὶ ἀντωνυμιῶν_4
-14	ϲυντάξειϲ	σύνταξις	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_310|ref=Περὶ ἀντωνυμιῶν_4
-15	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_311|ref=Περὶ ἀντωνυμιῶν_4
-16	τε	τε	d	d--------	_	18	AuxY	_	t_312|ref=Περὶ ἀντωνυμιῶν_4
-17	ἀλλοπαθῆ	ἀλλοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_313|ref=Περὶ ἀντωνυμιῶν_4
-18	καὶ	καί	c	c--------	_	14	COORD	_	t_314|ref=Περὶ ἀντωνυμιῶν_4
-19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_315|ref=Περὶ ἀντωνυμιῶν_4
-20	αὐτοπαθῆ	αὐτοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_316|ref=Περὶ ἀντωνυμιῶν_4
-21	,	,	u	u--------	_	24	AuxX	_	t_317|ref=Περὶ ἀντωνυμιῶν_4
-22	εἰκότωϲ	εἰκότως	d	d--------	_	24	ADV	_	t_318|ref=Περὶ ἀντωνυμιῶν_4
-23	οὐ	οὐ	d	d--------	_	24	AuxZ	_	t_319|ref=Περὶ ἀντωνυμιῶν_4
-24	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_320|ref=Περὶ ἀντωνυμιῶν_4
-25	ποιῆϲαι	ποιέω	n	n-s---fg-	Case=g|Gender=f|Number=s	24	OBJ	_	t_321|ref=Περὶ ἀντωνυμιῶν_4
-26	ϲύνθετον	σύνθετος	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OCOMP	_	t_322|ref=Περὶ ἀντωνυμιῶν_4
-27	ἀντωνυ	ἀντωνυ	n	n-s---fa-	Case=g|Gender=f|Number=s	28	ATR	_	t_323|ref=Περὶ ἀντωνυμιῶν_4
-28	μίαν	εἷς	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_324|ref=Περὶ ἀντωνυμιῶν_4
-29	.	.	u	u--------	_	24	AuxK	_	t_325|ref=Περὶ ἀντωνυμιῶν_4
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_297|t_299|ref=pronom._4
+2	οὖν	οὖν	d	d--------	_	24	AuxY	_	t_298|t_320|ref=pronom._4
+3	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	24	SBJ	_	t_299|t_320|ref=pronom._4
+4	αὐτό	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_300|t_299|ref=pronom._4
+5	,	,	u	u--------	_	24	AuxX	_	t_301|t_320|ref=pronom._4
+6	ἐπειδὴ	ἐπεί	c	c--------	_	24	AuxC	_	t_302|t_320|ref=pronom._4
+7	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_303|t_307|ref=pronom._4
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_304|t_305|ref=pronom._4
+9	ἁπλότητι	ἁπλότης	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_305|t_303|ref=pronom._4
+10	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_306|t_307|ref=pronom._4
+11	ἐπιδέχεται	ἐπιδέχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ADV	_	t_307|t_302|ref=pronom._4
+12	τὰϲ	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	14	ATR	_	t_308|t_310|ref=pronom._4
+13	δύο	δύο	m	m-d---fa-	Case=a|Gender=f|Number=d	14	ATR	_	t_309|t_310|ref=pronom._4
+14	ϲυντάξειϲ	σύνταξις	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_310|t_307|ref=pronom._4
+15	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_311|t_313|ref=pronom._4
+16	τε	τε	d	d--------	_	18	AuxY	_	t_312|t_314|ref=pronom._4
+17	ἀλλοπαθῆ	ἀλλοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_313|t_314|ref=pronom._4
+18	καὶ	καί	c	c--------	_	14	COORD	_	t_314|t_310|ref=pronom._4
+19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_315|t_316|ref=pronom._4
+20	αὐτοπαθῆ	αὐτοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_316|t_314|ref=pronom._4
+21	,	,	u	u--------	_	24	AuxX	_	t_317|t_320|ref=pronom._4
+22	εἰκότωϲ	εἰκότως	d	d--------	_	24	ADV	_	t_318|t_320|ref=pronom._4
+23	οὐ	οὐ	d	d--------	_	24	AuxZ	_	t_319|t_320|ref=pronom._4
+24	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_320|0|ref=pronom._4
+25	ποιῆϲαι	ποιέω	n	n-s---fg-	Case=g|Gender=f|Number=s	24	OBJ	_	t_321|t_320|ref=pronom._4
+26	ϲύνθετον	σύνθετος	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OCOMP	_	t_322|t_321|ref=pronom._4
+27	ἀντωνυ	ἀντωνυ	n	n-s---fa-	Case=g|Gender=f|Number=s	28	ATR	_	t_323|t_324|ref=pronom._4
+28	μίαν	εἷς	a	a-s---fa-	Case=a|Gender=f|Number=s	25	OBJ	_	t_324|t_321|ref=pronom._4
+29	.	.	u	u--------	_	24	AuxK	_	t_325|t_320|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ὅτι γὰρ ἡ ἐγω αὐτόϲ τὴν ἀλλοπαθῆ μόνον ἔχει καὶ οὐχὶ τὴν αὐτοπαθῆ , δῆλον ἐντεῦθεν [0] ·
 # sent_id = 26
-1	ὅτι	ὅτι	c	c--------	_	17	AuxC	_	t_326|ref=Περὶ ἀντωνυμιῶν_4
-2	γὰρ	γάρ	d	d--------	_	17	AuxY	_	t_327|ref=Περὶ ἀντωνυμιῶν_4
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_328|ref=Περὶ ἀντωνυμιῶν_4
-4	ἐγω	ἐγώ	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_329|ref=Περὶ ἀντωνυμιῶν_4
-5	αὐτόϲ	αὐτός	p	p-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_330|ref=Περὶ ἀντωνυμιῶν_4
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_331|ref=Περὶ ἀντωνυμιῶν_4
-7	ἀλλοπαθῆ	ἀλλοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_332|ref=Περὶ ἀντωνυμιῶν_4
-8	μόνον	μόνος	d	d--------	_	7	AuxZ	_	t_333|ref=Περὶ ἀντωνυμιῶν_4
-9	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	SBJ	_	t_334|ref=Περὶ ἀντωνυμιῶν_4
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_335|ref=Περὶ ἀντωνυμιῶν_4
-11	οὐχὶ	οὐ	d	d--------	_	13	AuxZ	_	t_336|ref=Περὶ ἀντωνυμιῶν_4
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_337|ref=Περὶ ἀντωνυμιῶν_4
-13	αὐτοπαθῆ	αὐτοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_338|ref=Περὶ ἀντωνυμιῶν_4
-14	,	,	u	u--------	_	17	AuxX	_	t_339|ref=Περὶ ἀντωνυμιῶν_4
-15	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_340|ref=Περὶ ἀντωνυμιῶν_4
-16	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	17	ADV	_	t_341|ref=Περὶ ἀντωνυμιῶν_4
-17	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Περὶ ἀντωνυμιῶν_1
-18	·	·	u	u--------	_	17	AuxK	_	t_342|ref=Περὶ ἀντωνυμιῶν_4
+1	ὅτι	ὅτι	c	c--------	_	17	AuxC	_	t_326|e_9|ref=pronom._4
+2	γὰρ	γάρ	d	d--------	_	17	AuxY	_	t_327|e_9|ref=pronom._4
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_328|t_329|ref=pronom._4
+4	ἐγω	ἐγώ	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_329|t_334|ref=pronom._4
+5	αὐτόϲ	αὐτός	p	p-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_330|t_329|ref=pronom._4
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_331|t_332|ref=pronom._4
+7	ἀλλοπαθῆ	ἀλλοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_332|t_335|ref=pronom._4
+8	μόνον	μόνος	d	d--------	_	7	AuxZ	_	t_333|t_332|ref=pronom._4
+9	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	SBJ	_	t_334|t_326|ref=pronom._4
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_335|t_334|ref=pronom._4
+11	οὐχὶ	οὐ	d	d--------	_	13	AuxZ	_	t_336|t_338|ref=pronom._4
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_337|t_338|ref=pronom._4
+13	αὐτοπαθῆ	αὐτοπαθής	a	a-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_338|t_335|ref=pronom._4
+14	,	,	u	u--------	_	17	AuxX	_	t_339|e_9|ref=pronom._4
+15	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_340|e_9|ref=pronom._4
+16	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	17	ADV	_	t_341|e_9|ref=pronom._4
+17	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=pronom._1
+18	·	·	u	u--------	_	17	AuxK	_	t_342|e_9|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = λεγόντων ἡμῶν ἐγὼ αὐτὸϲ ἤκουϲα , λέγοντοϲ τίνοϲ , ἆρα Ϲωκράτουϲ οὐκ , ἀλλὰ Ἀλκιβιάδου [0] ·
 # sent_id = 27
-1	λεγόντων	λέγω3	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_343|ref=Περὶ ἀντωνυμιῶν_4
-2	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=c|Number=p|Person=1	1	SBJ	_	t_344|ref=Περὶ ἀντωνυμιῶν_4
-3	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	5	SBJ	_	t_345|ref=Περὶ ἀντωνυμιῶν_4
-4	αὐτὸϲ	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATV	_	t_346|ref=Περὶ ἀντωνυμιῶν_4
-5	ἤκουϲα	ἀκούω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	PRED	_	t_347|ref=Περὶ ἀντωνυμιῶν_4
-6	,	,	u	u--------	_	5	AuxX	_	t_348|ref=Περὶ ἀντωνυμιῶν_4
-7	λέγοντοϲ	λέγω3	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_349|ref=Περὶ ἀντωνυμιῶν_4
-8	τίνοϲ	τις	p	p-s---mg-	Case=g|Gender=m|Number=s	7	SBJ	_	t_350|ref=Περὶ ἀντωνυμιῶν_4
-9	,	,	u	u--------	_	5	AuxX	_	t_351|ref=Περὶ ἀντωνυμιῶν_4
-10	ἆρα	ἆρα	d	d--------	_	16	AuxY	_	t_352|ref=Περὶ ἀντωνυμιῶν_4
-11	Ϲωκράτουϲ	σωκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_353|ref=Περὶ ἀντωνυμιῶν_4
-12	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_354|ref=Περὶ ἀντωνυμιῶν_4
-13	,	,	u	u--------	_	5	AuxX	_	t_355|ref=Περὶ ἀντωνυμιῶν_4
-14	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_356|ref=Περὶ ἀντωνυμιῶν_4
-15	Ἀλκιβιάδου	ἀλκιβιάδης	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_357|ref=Περὶ ἀντωνυμιῶν_4
-16	[0]	[0]	-	---------	_	14	OBJ	_	e_10|ref=Περὶ ἀντωνυμιῶν_1
-17	·	·	u	u--------	_	5	AuxK	_	t_358|ref=Περὶ ἀντωνυμιῶν_4
+1	λεγόντων	λέγω3	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_343|t_347|ref=pronom._4
+2	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=c|Number=p|Person=1	1	SBJ	_	t_344|t_343|ref=pronom._4
+3	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	5	SBJ	_	t_345|t_347|ref=pronom._4
+4	αὐτὸϲ	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATV	_	t_346|t_345|ref=pronom._4
+5	ἤκουϲα	ἀκούω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	PRED	_	t_347|0|ref=pronom._4
+6	,	,	u	u--------	_	5	AuxX	_	t_348|t_347|ref=pronom._4
+7	λέγοντοϲ	λέγω3	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_349|t_347|ref=pronom._4
+8	τίνοϲ	τις	p	p-s---mg-	Case=g|Gender=m|Number=s	7	SBJ	_	t_350|t_349|ref=pronom._4
+9	,	,	u	u--------	_	5	AuxX	_	t_351|t_347|ref=pronom._4
+10	ἆρα	ἆρα	d	d--------	_	16	AuxY	_	t_352|e_10|ref=pronom._4
+11	Ϲωκράτουϲ	σωκράτης	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_353|t_356|ref=pronom._4
+12	οὐκ	οὐ	d	d--------	_	11	AuxZ	_	t_354|t_353|ref=pronom._4
+13	,	,	u	u--------	_	5	AuxX	_	t_355|t_347|ref=pronom._4
+14	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_356|t_349|ref=pronom._4
+15	Ἀλκιβιάδου	ἀλκιβιάδης	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_357|t_356|ref=pronom._4
+16	[0]	[0]	-	---------	_	14	OBJ	_	e_10|t_356|ref=pronom._1
+17	·	·	u	u--------	_	5	AuxK	_	t_358|t_347|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ὥϲτε οὖν ἀλλοπαθήϲ ἐϲτιν , αὐτοπαθὴϲ δὲ οὐ δύναται εἶναι ἡ ἐγ αὐτόϲ , ἐπειδὴ οὐδέποτε εὐθεῖα εἰϲ εὐθεῖαν δρᾶ ἤγουν ἐνεργεῖ .
 # sent_id = 28
-1	ὥϲτε	ὡς	c	c--------	_	9	AuxC	_	t_359|ref=Περὶ ἀντωνυμιῶν_4
-2	οὖν	οὖν	d	d--------	_	22	AuxY	_	t_360|ref=Περὶ ἀντωνυμιῶν_4
-3	ἀλλοπαθήϲ	ἀλλοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_361|ref=Περὶ ἀντωνυμιῶν_4
-4	ἐϲτιν	εἰμί	a	a-s---na-	_	3	ADV	_	t_362|ref=Περὶ ἀντωνυμιῶν_4
-5	,	,	u	u--------	_	22	AuxX	_	t_363|ref=Περὶ ἀντωνυμιῶν_4
-6	αὐτοπαθὴϲ	αὐτοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_364|ref=Περὶ ἀντωνυμιῶν_4
-7	δὲ	δέ	c	c--------	_	10	COORD	_	t_365|ref=Περὶ ἀντωνυμιῶν_4
-8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_366|ref=Περὶ ἀντωνυμιῶν_4
-9	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	22	PRED	_	t_367|ref=Περὶ ἀντωνυμιῶν_4
-10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_368|ref=Περὶ ἀντωνυμιῶν_4
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_369|ref=Περὶ ἀντωνυμιῶν_4
-12	ἐγ	ἐν	n	n-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_370|ref=Περὶ ἀντωνυμιῶν_4
-13	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_371|ref=Περὶ ἀντωνυμιῶν_4
-14	,	,	u	u--------	_	22	AuxX	_	t_372|ref=Περὶ ἀντωνυμιῶν_4
-15	ἐπειδὴ	ἐπεί	c	c--------	_	22	AuxC	_	t_373|ref=Περὶ ἀντωνυμιῶν_4
-16	οὐδέποτε	οὐδέποτε	d	d--------	_	21	ADV	_	t_374|ref=Περὶ ἀντωνυμιῶν_4
-17	εὐθεῖα	εὐθεῖα	a	a-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_375|ref=Περὶ ἀντωνυμιῶν_4
-18	εἰϲ	εἰς	r	r--------	_	20	AuxP	_	t_376|ref=Περὶ ἀντωνυμιῶν_4
-19	εὐθεῖαν	εὐθεῖα	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ADV	_	t_377|ref=Περὶ ἀντωνυμιῶν_4
-20	δρᾶ	δράω	v	v-pppena-	Case=n|Gender=f|Number=s	21	OBJ	_	t_378|ref=Περὶ ἀντωνυμιῶν_4
-21	ἤγουν	ἤγουν	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ADV	_	t_379|ref=Περὶ ἀντωνυμιῶν_4
-22	ἐνεργεῖ	ἐνεργέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_380|ref=Περὶ ἀντωνυμιῶν_4
-23	.	.	u	u--------	_	22	AuxK	_	t_381|ref=Περὶ ἀντωνυμιῶν_4
+1	ὥϲτε	ὡς	c	c--------	_	9	AuxC	_	t_359|t_367|ref=pronom._4
+2	οὖν	οὖν	d	d--------	_	22	AuxY	_	t_360|t_380|ref=pronom._4
+3	ἀλλοπαθήϲ	ἀλλοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_361|t_365|ref=pronom._4
+4	ἐϲτιν	εἰμί	a	a-s---na-	_	3	ADV	_	t_362|t_361|ref=pronom._4
+5	,	,	u	u--------	_	22	AuxX	_	t_363|t_380|ref=pronom._4
+6	αὐτοπαθὴϲ	αὐτοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_364|t_365|ref=pronom._4
+7	δὲ	δέ	c	c--------	_	10	COORD	_	t_365|t_368|ref=pronom._4
+8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_366|t_367|ref=pronom._4
+9	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	22	PRED	_	t_367|t_380|ref=pronom._4
+10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_368|t_367|ref=pronom._4
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_369|t_370|ref=pronom._4
+12	ἐγ	ἐν	n	n-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_370|t_371|ref=pronom._4
+13	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_371|t_367|ref=pronom._4
+14	,	,	u	u--------	_	22	AuxX	_	t_372|t_380|ref=pronom._4
+15	ἐπειδὴ	ἐπεί	c	c--------	_	22	AuxC	_	t_373|t_380|ref=pronom._4
+16	οὐδέποτε	οὐδέποτε	d	d--------	_	21	ADV	_	t_374|t_379|ref=pronom._4
+17	εὐθεῖα	εὐθεῖα	a	a-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_375|t_378|ref=pronom._4
+18	εἰϲ	εἰς	r	r--------	_	20	AuxP	_	t_376|t_378|ref=pronom._4
+19	εὐθεῖαν	εὐθεῖα	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ADV	_	t_377|t_376|ref=pronom._4
+20	δρᾶ	δράω	v	v-pppena-	Case=n|Gender=f|Number=s	21	OBJ	_	t_378|t_379|ref=pronom._4
+21	ἤγουν	ἤγουν	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ADV	_	t_379|t_373|ref=pronom._4
+22	ἐνεργεῖ	ἐνεργέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_380|0|ref=pronom._4
+23	.	.	u	u--------	_	22	AuxK	_	t_381|t_380|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = οὐδεὶϲ γὰρ λέγει Ϲωκράτηϲ Πλάτων ἤκουϲεν , ἀλλὰ Ϲωκράτηϲ Πλάτωνοϲ ἤκουϲεν .
 # sent_id = 29
-1	οὐδεὶϲ	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_382|ref=Περὶ ἀντωνυμιῶν_4
-2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_383|ref=Περὶ ἀντωνυμιῶν_4
-3	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_384|ref=Περὶ ἀντωνυμιῶν_4
-4	Ϲωκράτηϲ	σωκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_385|ref=Περὶ ἀντωνυμιῶν_4
-5	Πλάτων	πλάτων	n	n-s---mn-	Case=g|Gender=m|Number=p	6	SBJ	_	t_386|ref=Περὶ ἀντωνυμιῶν_4
-6	ἤκουϲεν	ἀκούω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	OBJ	_	t_387|ref=Περὶ ἀντωνυμιῶν_4
-7	,	,	u	u--------	_	3	AuxX	_	t_388|ref=Περὶ ἀντωνυμιῶν_4
-8	ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_389|ref=Περὶ ἀντωνυμιῶν_4
-9	Ϲωκράτηϲ	σωκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_390|ref=Περὶ ἀντωνυμιῶν_4
-10	Πλάτωνοϲ	πλάτων	n	n-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_391|ref=Περὶ ἀντωνυμιῶν_4
-11	ἤκουϲεν	ἀκούω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	8	PRED	_	t_392|ref=Περὶ ἀντωνυμιῶν_4
-12	.	.	u	u--------	_	7	AuxK	_	t_393|ref=Περὶ ἀντωνυμιῶν_4
+1	οὐδεὶϲ	οὐδείς	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_382|t_384|ref=pronom._4
+2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_383|t_384|ref=pronom._4
+3	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_384|t_389|ref=pronom._4
+4	Ϲωκράτηϲ	σωκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_385|t_387|ref=pronom._4
+5	Πλάτων	πλάτων	n	n-s---mn-	Case=g|Gender=m|Number=p	6	SBJ	_	t_386|t_387|ref=pronom._4
+6	ἤκουϲεν	ἀκούω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	OBJ	_	t_387|t_389|ref=pronom._4
+7	,	,	u	u--------	_	3	AuxX	_	t_388|t_384|ref=pronom._4
+8	ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_389|0|ref=pronom._4
+9	Ϲωκράτηϲ	σωκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_390|t_392|ref=pronom._4
+10	Πλάτωνοϲ	πλάτων	n	n-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_391|t_392|ref=pronom._4
+11	ἤκουϲεν	ἀκούω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	8	PRED	_	t_392|t_389|ref=pronom._4
+12	.	.	u	u--------	_	7	AuxK	_	t_393|t_388|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἐπειδὴ οὖν ἐγὼ αὐτὸϲ εὐθεῖαί εἰϲι δύο , ἡ ἐγώ καὶ αὐτόϲ , τούτου χάριν οὐ δύναται εἶναι αὐτοπαθήϲ [0] .
 # sent_id = 30
-1	ἐπειδὴ	ἐπεί	c	c--------	_	17	AuxC	_	t_394|ref=Περὶ ἀντωνυμιῶν_4
-2	οὖν	οὖν	d	d--------	_	17	AuxY	_	t_395|ref=Περὶ ἀντωνυμιῶν_4
-3	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_396|ref=Περὶ ἀντωνυμιῶν_4
-4	αὐτὸϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	5	ADV	_	t_397|ref=Περὶ ἀντωνυμιῶν_4
-5	εὐθεῖαί	εὐθεῖα	v	v1spie---	Case=n|Gender=f|Number=p	1	ADV	_	t_398|ref=Περὶ ἀντωνυμιῶν_4
-6	εἰϲι	εἰμί	r	r--------	_	5	AuxP	_	t_399|ref=Περὶ ἀντωνυμιῶν_4
-7	δύο	δύο	m	m-d---na-	_	6	ADV	_	t_400|ref=Περὶ ἀντωνυμιῶν_4
-8	,	,	u	u--------	_	5	APOS	_	t_401|ref=Περὶ ἀντωνυμιῶν_4
-9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_402|ref=Περὶ ἀντωνυμιῶν_4
-10	ἐγώ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	11	SBJ	_	t_403|ref=Περὶ ἀντωνυμιῶν_4
-11	καὶ	καί	c	c--------	_	20	COORD	_	t_404|ref=Περὶ ἀντωνυμιῶν_4
-12	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_405|ref=Περὶ ἀντωνυμιῶν_4
-13	,	,	u	u--------	_	17	AuxX	_	t_406|ref=Περὶ ἀντωνυμιῶν_4
-14	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	15	ADV	_	t_407|ref=Περὶ ἀντωνυμιῶν_4
-15	χάριν	χάρις	r	r--------	_	13	AuxP	_	t_408|ref=Περὶ ἀντωνυμιῶν_4
-16	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_409|ref=Περὶ ἀντωνυμιῶν_4
-17	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_410|ref=Περὶ ἀντωνυμιῶν_4
-18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_411|ref=Περὶ ἀντωνυμιῶν_4
-19	αὐτοπαθήϲ	αὐτοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	18	PNOM	_	t_412|ref=Περὶ ἀντωνυμιῶν_4
-20	[0]	[0]	-	---------	_	1	ADV	_	e_11|ref=Περὶ ἀντωνυμιῶν_1
-21	.	.	u	u--------	_	17	AuxK	_	t_413|ref=Περὶ ἀντωνυμιῶν_4
+1	ἐπειδὴ	ἐπεί	c	c--------	_	17	AuxC	_	t_394|t_410|ref=pronom._4
+2	οὖν	οὖν	d	d--------	_	17	AuxY	_	t_395|t_410|ref=pronom._4
+3	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_396|t_401|ref=pronom._4
+4	αὐτὸϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	5	ADV	_	t_397|t_398|ref=pronom._4
+5	εὐθεῖαί	εὐθεῖα	v	v1spie---	Case=n|Gender=f|Number=p	1	ADV	_	t_398|t_394|ref=pronom._4
+6	εἰϲι	εἰμί	r	r--------	_	5	AuxP	_	t_399|t_398|ref=pronom._4
+7	δύο	δύο	m	m-d---na-	_	6	ADV	_	t_400|t_399|ref=pronom._4
+8	,	,	u	u--------	_	5	APOS	_	t_401|t_398|ref=pronom._4
+9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_402|t_404|ref=pronom._4
+10	ἐγώ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	11	SBJ	_	t_403|t_404|ref=pronom._4
+11	καὶ	καί	c	c--------	_	20	COORD	_	t_404|e_11|ref=pronom._4
+12	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_405|t_404|ref=pronom._4
+13	,	,	u	u--------	_	17	AuxX	_	t_406|t_410|ref=pronom._4
+14	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	15	ADV	_	t_407|t_408|ref=pronom._4
+15	χάριν	χάρις	r	r--------	_	13	AuxP	_	t_408|t_406|ref=pronom._4
+16	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_409|t_410|ref=pronom._4
+17	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_410|0|ref=pronom._4
+18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_411|t_410|ref=pronom._4
+19	αὐτοπαθήϲ	αὐτοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	18	PNOM	_	t_412|t_411|ref=pronom._4
+20	[0]	[0]	-	---------	_	1	ADV	_	e_11|t_394|ref=pronom._1
+21	.	.	u	u--------	_	17	AuxK	_	t_413|t_410|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τοιαῦτα ἔχομεν εἰπεῖν καὶ περὶ τοῦ μὴ δύναϲθαι ϲτῆναι τὸ ἐγὼ αὐτόϲ καὶ τὰ δυϊκὰ καὶ τὰ πληθυντικά .
 # sent_id = 31
-1	τοιαῦτα	τοιοῦτος	p	p-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_414|ref=Περὶ ἀντωνυμιῶν_4
-2	ἔχομεν	ἔχω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_415|ref=Περὶ ἀντωνυμιῶν_4
-3	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_416|ref=Περὶ ἀντωνυμιῶν_4
-4	καὶ	καί	d	d--------	_	16	AuxY	_	t_417|ref=Περὶ ἀντωνυμιῶν_4
-5	περὶ	περί	r	r--------	_	3	AuxP	_	t_418|ref=Περὶ ἀντωνυμιῶν_4
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_419|ref=Περὶ ἀντωνυμιῶν_4
-7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_420|ref=Περὶ ἀντωνυμιῶν_4
-8	δύναϲθαι	δύναμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	5	ADV	_	t_421|ref=Περὶ ἀντωνυμιῶν_4
-9	ϲτῆναι	ἵστημι	v	v--anp---	Mood=n|Tense=a|Voice=p	8	OBJ	_	t_422|ref=Περὶ ἀντωνυμιῶν_4
-10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_423|ref=Περὶ ἀντωνυμιῶν_4
-11	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_424|ref=Περὶ ἀντωνυμιῶν_4
-12	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_425|ref=Περὶ ἀντωνυμιῶν_4
-13	καὶ	καί	c	c--------	_	16	AuxY	_	t_426|ref=Περὶ ἀντωνυμιῶν_4
-14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_427|ref=Περὶ ἀντωνυμιῶν_4
-15	δυϊκὰ	δυικός	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_428|ref=Περὶ ἀντωνυμιῶν_4
-16	καὶ	καί	c	c--------	_	9	COORD	_	t_429|ref=Περὶ ἀντωνυμιῶν_4
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_430|ref=Περὶ ἀντωνυμιῶν_4
-18	πληθυντικά	πληθυντικός	a	a-p---na-	Case=a|Gender=n|Number=p	16	SBJ	_	t_431|ref=Περὶ ἀντωνυμιῶν_4
-19	.	.	u	u--------	_	2	AuxK	_	t_432|ref=Περὶ ἀντωνυμιῶν_4
+1	τοιαῦτα	τοιοῦτος	p	p-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_414|t_416|ref=pronom._4
+2	ἔχομεν	ἔχω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_415|0|ref=pronom._4
+3	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	2	OBJ	_	t_416|t_415|ref=pronom._4
+4	καὶ	καί	d	d--------	_	16	AuxY	_	t_417|t_429|ref=pronom._4
+5	περὶ	περί	r	r--------	_	3	AuxP	_	t_418|t_416|ref=pronom._4
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_419|t_421|ref=pronom._4
+7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_420|t_421|ref=pronom._4
+8	δύναϲθαι	δύναμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	5	ADV	_	t_421|t_418|ref=pronom._4
+9	ϲτῆναι	ἵστημι	v	v--anp---	Mood=n|Tense=a|Voice=p	8	OBJ	_	t_422|t_421|ref=pronom._4
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_423|t_421|ref=pronom._4
+11	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_424|t_421|ref=pronom._4
+12	αὐτόϲ	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_425|t_424|ref=pronom._4
+13	καὶ	καί	c	c--------	_	16	AuxY	_	t_426|t_429|ref=pronom._4
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_427|t_428|ref=pronom._4
+15	δυϊκὰ	δυικός	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_428|t_429|ref=pronom._4
+16	καὶ	καί	c	c--------	_	9	COORD	_	t_429|t_422|ref=pronom._4
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_430|t_431|ref=pronom._4
+18	πληθυντικά	πληθυντικός	a	a-p---na-	Case=a|Gender=n|Number=p	16	SBJ	_	t_431|t_429|ref=pronom._4
+19	.	.	u	u--------	_	2	AuxK	_	t_432|t_415|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = Ζήτει .
 # sent_id = 32
-1	Ζήτει	ζητέω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_433|ref=Περὶ ἀντωνυμιῶν_4
-2	.	.	u	u--------	_	1	AuxK	_	t_434|ref=Περὶ ἀντωνυμιῶν_4
+1	Ζήτει	ζητέω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_433|0|ref=pronom._4
+2	.	.	u	u--------	_	1	AuxK	_	t_434|t_433|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = « ὥϲτε τευ ἢ παρὰ πάμπαν ἀνείμονοϲ ἠὲ πενιχροῦ « ( γ 348 ) [0] .
 # sent_id = 33
-1	«	«	u	u--------	_	15	AuxG	_	t_435|ref=Περὶ ἀντωνυμιῶν_4
-2	ὥϲτε	ὡς	c	c--------	_	15	AuxY	_	t_436|ref=Περὶ ἀντωνυμιῶν_4
-3	τευ	τις	p	p-s----g-	Case=g|Number=s	15	OBJ	_	t_437|ref=Περὶ ἀντωνυμιῶν_4
-4	ἢ	ἤ1	c	c--------	_	8	AuxY	_	t_438|ref=Περὶ ἀντωνυμιῶν_4
-5	παρὰ	παρά	r	r--------	_	8	ADV	_	t_439|ref=Περὶ ἀντωνυμιῶν_4
-6	πάμπαν	πάμπαν	d	d--------	_	5	AuxZ	_	t_440|ref=Περὶ ἀντωνυμιῶν_4
-7	ἀνείμονοϲ	ἀνείμων	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_441|ref=Περὶ ἀντωνυμιῶν_4
-8	ἠὲ	ἤ	c	c--------	_	3	COORD	_	t_442|ref=Περὶ ἀντωνυμιῶν_4
-9	πενιχροῦ	πενιχρός	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_443|ref=Περὶ ἀντωνυμιῶν_4
-10	«	«	u	u--------	_	15	AuxG	_	t_444|ref=Περὶ ἀντωνυμιῶν_4
-11	(	̔	u	u--------	_	15	AuxG	_	t_445|ref=Περὶ ἀντωνυμιῶν_4
-12	γ	γ	n	n--------	_	13	APOS	_	t_446|ref=Περὶ ἀντωνυμιῶν_4
-13	348	348	n	n--------	_	15	APOS	_	t_447|ref=Περὶ ἀντωνυμιῶν_4
-14	)	)	u	u--------	_	15	AuxG	_	t_448|ref=Περὶ ἀντωνυμιῶν_4
-15	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=Περὶ ἀντωνυμιῶν_1
-16	.	.	u	u--------	_	15	AuxK	_	t_449|ref=Περὶ ἀντωνυμιῶν_4
+1	«	«	u	u--------	_	15	AuxG	_	t_435|e_12|ref=pronom._4
+2	ὥϲτε	ὡς	c	c--------	_	15	AuxY	_	t_436|e_12|ref=pronom._4
+3	τευ	τις	p	p-s----g-	Case=g|Number=s	15	OBJ	_	t_437|e_12|ref=pronom._4
+4	ἢ	ἤ1	c	c--------	_	8	AuxY	_	t_438|t_442|ref=pronom._4
+5	παρὰ	παρά	r	r--------	_	8	ADV	_	t_439|t_442|ref=pronom._4
+6	πάμπαν	πάμπαν	d	d--------	_	5	AuxZ	_	t_440|t_439|ref=pronom._4
+7	ἀνείμονοϲ	ἀνείμων	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_441|t_442|ref=pronom._4
+8	ἠὲ	ἤ	c	c--------	_	3	COORD	_	t_442|t_437|ref=pronom._4
+9	πενιχροῦ	πενιχρός	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_443|t_442|ref=pronom._4
+10	«	«	u	u--------	_	15	AuxG	_	t_444|e_12|ref=pronom._4
+11	(	̔	u	u--------	_	15	AuxG	_	t_445|e_12|ref=pronom._4
+12	γ	γ	n	n--------	_	13	APOS	_	t_446|t_447|ref=pronom._4
+13	348	348	n	n--------	_	15	APOS	_	t_447|e_12|ref=pronom._4
+14	)	)	u	u--------	_	15	AuxG	_	t_448|e_12|ref=pronom._4
+15	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=pronom._1
+16	.	.	u	u--------	_	15	AuxK	_	t_449|e_12|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τὸ τευ ὄνομα νῦν ἀόριϲτον ·
 # sent_id = 34
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_450|ref=Περὶ ἀντωνυμιῶν_4
-2	τευ	τις	p	p-s----g-	Case=g|Number=s	3	ATR	_	t_451|ref=Περὶ ἀντωνυμιῶν_4
-3	ὄνομα	ὄνομα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_452|ref=Περὶ ἀντωνυμιῶν_4
-4	νῦν	νῦν	d	d--------	_	5	ADV	_	t_453|ref=Περὶ ἀντωνυμιῶν_4
-5	ἀόριϲτον	ἀόριστος	a	a-s---na-	Case=a|Gender=n|Number=s	0	PRED	_	t_454|ref=Περὶ ἀντωνυμιῶν_4
-6	·	·	u	u--------	_	5	AuxK	_	t_455|ref=Περὶ ἀντωνυμιῶν_4
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_450|t_452|ref=pronom._4
+2	τευ	τις	p	p-s----g-	Case=g|Number=s	3	ATR	_	t_451|t_452|ref=pronom._4
+3	ὄνομα	ὄνομα	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_452|t_454|ref=pronom._4
+4	νῦν	νῦν	d	d--------	_	5	ADV	_	t_453|t_454|ref=pronom._4
+5	ἀόριϲτον	ἀόριστος	a	a-s---na-	Case=a|Gender=n|Number=s	0	PRED	_	t_454|0|ref=pronom._4
+6	·	·	u	u--------	_	5	AuxK	_	t_455|t_454|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τὸ δὲ « τεῦ δμώϲ εἰϲ ἀνδρῶν τεῦ δʼ ὄρχατον » ( ω 257 ) πυϲματικόν ἐϲτι .
 # sent_id = 35
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	OBJ	_	t_456|ref=Περὶ ἀντωνυμιῶν_4
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_457|ref=Περὶ ἀντωνυμιῶν_4
-3	«	«	u	u--------	_	16	AuxG	_	t_458|ref=Περὶ ἀντωνυμιῶν_4
-4	τεῦ	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_459|ref=Περὶ ἀντωνυμιῶν_4
-5	δμώϲ	δμώς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_460|ref=Περὶ ἀντωνυμιῶν_4
-6	εἰϲ	εἰς	v	v2spia---	_	16	AuxP	_	t_461|ref=Περὶ ἀντωνυμιῶν_4
-7	ἀνδρῶν	ἀνήρ	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_462|ref=Περὶ ἀντωνυμιῶν_4
-8	τεῦ	τις	p	p-s----g-	Case=g|Gender=c|Number=s|Person=2	9	ATR	_	t_463|ref=Περὶ ἀντωνυμιῶν_4
-9	δʼ	δέ	g	g--------	_	6	COORD	_	t_464|ref=Περὶ ἀντωνυμιῶν_4
-10	ὄρχατον	ὄρχατος	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_465|ref=Περὶ ἀντωνυμιῶν_4
-11	»	»	u	u--------	_	16	AuxG	_	t_466|ref=Περὶ ἀντωνυμιῶν_4
-12	(	̔	u	u--------	_	16	AuxG	_	t_467|ref=Περὶ ἀντωνυμιῶν_4
-13	ω	ω	x	x--------	_	6	ExD	_	t_468|ref=Περὶ ἀντωνυμιῶν_4
-14	257	257	n	n--------	_	6	ExD	_	t_469|ref=Περὶ ἀντωνυμιῶν_4
-15	)	)	u	u--------	_	16	AuxG	_	t_470|ref=Περὶ ἀντωνυμιῶν_4
-16	πυϲματικόν	πυςματικός	v	v3paia---	Case=a|Gender=n|Number=s	0	PRED	_	t_471|ref=Περὶ ἀντωνυμιῶν_4
-17	ἐϲτι	εἰμί	d	d--------	_	16	ADV	_	t_472|ref=Περὶ ἀντωνυμιῶν_4
-18	.	.	u	u--------	_	16	AuxK	_	t_473|ref=Περὶ ἀντωνυμιῶν_4
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	OBJ	_	t_456|t_471|ref=pronom._4
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_457|t_471|ref=pronom._4
+3	«	«	u	u--------	_	16	AuxG	_	t_458|t_471|ref=pronom._4
+4	τεῦ	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_459|t_460|ref=pronom._4
+5	δμώϲ	δμώς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_460|t_464|ref=pronom._4
+6	εἰϲ	εἰς	v	v2spia---	_	16	AuxP	_	t_461|t_471|ref=pronom._4
+7	ἀνδρῶν	ἀνήρ	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_462|t_463|ref=pronom._4
+8	τεῦ	τις	p	p-s----g-	Case=g|Gender=c|Number=s|Person=2	9	ATR	_	t_463|t_464|ref=pronom._4
+9	δʼ	δέ	g	g--------	_	6	COORD	_	t_464|t_461|ref=pronom._4
+10	ὄρχατον	ὄρχατος	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_465|t_464|ref=pronom._4
+11	»	»	u	u--------	_	16	AuxG	_	t_466|t_471|ref=pronom._4
+12	(	̔	u	u--------	_	16	AuxG	_	t_467|t_471|ref=pronom._4
+13	ω	ω	x	x--------	_	6	ExD	_	t_468|t_461|ref=pronom._4
+14	257	257	n	n--------	_	6	ExD	_	t_469|t_461|ref=pronom._4
+15	)	)	u	u--------	_	16	AuxG	_	t_470|t_471|ref=pronom._4
+16	πυϲματικόν	πυςματικός	v	v3paia---	Case=a|Gender=n|Number=s	0	PRED	_	t_471|0|ref=pronom._4
+17	ἐϲτι	εἰμί	d	d--------	_	16	ADV	_	t_472|t_471|ref=pronom._4
+18	.	.	u	u--------	_	16	AuxK	_	t_473|t_471|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τὸ μὲν οὖν πρῶτόν ἐϲτι τοῦ , ὅπερ ϲύνηθεϲ Ἀττικοῖϲ , ὃ κατὰ διάλυϲιν τέο « τέο μέχριϲ ὀδυρόμενοϲ ; [0] »
 # sent_id = 36
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_474|ref=Περὶ ἀντωνυμιῶν_4
-2	μὲν	μέν	d	d--------	_	21	AuxY	_	t_475|ref=Περὶ ἀντωνυμιῶν_4
-3	οὖν	οὖν	d	d--------	_	21	AuxY	_	t_476|ref=Περὶ ἀντωνυμιῶν_4
-4	πρῶτόν	πρῶτος	d	d--------	Case=a|Gender=n|Number=s	21	ADV	_	t_477|ref=Περὶ ἀντωνυμιῶν_4
-5	ἐϲτι	εἰμί	r	r--------	_	21	AuxP	_	t_478|ref=Περὶ ἀντωνυμιῶν_4
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ADV	_	t_479|ref=Περὶ ἀντωνυμιῶν_4
-7	,	,	u	u--------	_	21	AuxX	_	t_480|ref=Περὶ ἀντωνυμιῶν_4
-8	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_481|ref=Περὶ ἀντωνυμιῶν_4
-9	ϲύνηθεϲ	συνήθης	a	a-s---nn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_482|ref=Περὶ ἀντωνυμιῶν_4
-10	Ἀττικοῖϲ	ἀττικός	n	n-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_483|ref=Περὶ ἀντωνυμιῶν_4
-11	,	,	u	u--------	_	21	AuxX	_	t_484|ref=Περὶ ἀντωνυμιῶν_4
-12	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	15	SBJ	_	t_485|ref=Περὶ ἀντωνυμιῶν_4
-13	κατὰ	κατά	r	r--------	_	15	AuxP	_	t_486|ref=Περὶ ἀντωνυμιῶν_4
-14	διάλυϲιν	διάλυσις	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_487|ref=Περὶ ἀντωνυμιῶν_4
-15	τέο	τις	p	p-s---ng-	Mood=i|Number=s|Person=2|Tense=i|Voice=e	21	OBJ	_	t_488|ref=Περὶ ἀντωνυμιῶν_4
-16	«	«	u	u--------	_	21	AuxG	_	t_489|ref=Περὶ ἀντωνυμιῶν_4
-17	τέο	τις	p	p-s---mg-	Case=g|Gender=m|Number=s	15	OBJ	_	t_490|ref=Περὶ ἀντωνυμιῶν_4
-18	μέχριϲ	μέχρι	d	d--------	_	19	ADV	_	t_491|ref=Περὶ ἀντωνυμιῶν_4
-19	ὀδυρόμενοϲ	ὀδύρομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_492|ref=Περὶ ἀντωνυμιῶν_4
-20	;	;	u	u--------	_	21	AuxK	_	t_493|ref=Περὶ ἀντωνυμιῶν_4
-21	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Περὶ ἀντωνυμιῶν_1
-22	»	»	u	u--------	_	21	AuxG	_	t_494|ref=Περὶ ἀντωνυμιῶν_4
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_474|t_477|ref=pronom._4
+2	μὲν	μέν	d	d--------	_	21	AuxY	_	t_475|e_13|ref=pronom._4
+3	οὖν	οὖν	d	d--------	_	21	AuxY	_	t_476|e_13|ref=pronom._4
+4	πρῶτόν	πρῶτος	d	d--------	Case=a|Gender=n|Number=s	21	ADV	_	t_477|e_13|ref=pronom._4
+5	ἐϲτι	εἰμί	r	r--------	_	21	AuxP	_	t_478|e_13|ref=pronom._4
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ADV	_	t_479|t_478|ref=pronom._4
+7	,	,	u	u--------	_	21	AuxX	_	t_480|e_13|ref=pronom._4
+8	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_481|t_482|ref=pronom._4
+9	ϲύνηθεϲ	συνήθης	a	a-s---nn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_482|e_13|ref=pronom._4
+10	Ἀττικοῖϲ	ἀττικός	n	n-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_483|t_482|ref=pronom._4
+11	,	,	u	u--------	_	21	AuxX	_	t_484|e_13|ref=pronom._4
+12	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	15	SBJ	_	t_485|t_488|ref=pronom._4
+13	κατὰ	κατά	r	r--------	_	15	AuxP	_	t_486|t_488|ref=pronom._4
+14	διάλυϲιν	διάλυσις	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_487|t_486|ref=pronom._4
+15	τέο	τις	p	p-s---ng-	Mood=i|Number=s|Person=2|Tense=i|Voice=e	21	OBJ	_	t_488|e_13|ref=pronom._4
+16	«	«	u	u--------	_	21	AuxG	_	t_489|e_13|ref=pronom._4
+17	τέο	τις	p	p-s---mg-	Case=g|Gender=m|Number=s	15	OBJ	_	t_490|t_488|ref=pronom._4
+18	μέχριϲ	μέχρι	d	d--------	_	19	ADV	_	t_491|t_492|ref=pronom._4
+19	ὀδυρόμενοϲ	ὀδύρομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_492|e_13|ref=pronom._4
+20	;	;	u	u--------	_	21	AuxK	_	t_493|e_13|ref=pronom._4
+21	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=pronom._1
+22	»	»	u	u--------	_	21	AuxG	_	t_494|e_13|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ( 128 ) ϲυναλειφόμενον δὲ γίνεται τεῦ ὡϲ ἐμοῦ ἐμεῦ , ϲοῦ ϲεῦ ἐκ τοῦ ἐμέο καὶ ϲέο .
 # sent_id = 37
-1	(	̔	u	u--------	_	6	AuxG	_	t_495|ref=Περὶ ἀντωνυμιῶν_4
-2	128	128	n	n--------	_	6	ExD	_	t_496|ref=Περὶ ἀντωνυμιῶν_4
-3	)	)	u	u--------	_	6	AuxG	_	t_497|ref=Περὶ ἀντωνυμιῶν_4
-4	ϲυναλειφόμενον	συναλίζω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	6	ADV	_	t_498|ref=Περὶ ἀντωνυμιῶν_4
-5	δὲ	δέ	g	g--------	_	6	AuxY	_	t_499|ref=Περὶ ἀντωνυμιῶν_4
-6	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_500|ref=Περὶ ἀντωνυμιῶν_4
-7	τεῦ	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	4	OBJ	_	t_501|ref=Περὶ ἀντωνυμιῶν_4
-8	ὡϲ	ὡς	c	c--------	_	9	AuxZ	_	t_502|ref=Περὶ ἀντωνυμιῶν_4
-9	ἐμοῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=f|Number=s	10	ATR	_	t_503|ref=Περὶ ἀντωνυμιῶν_4
-10	ἐμεῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_504|ref=Περὶ ἀντωνυμιῶν_4
-11	,	,	u	u--------	_	4	APOS	_	t_505|ref=Περὶ ἀντωνυμιῶν_4
-12	ϲοῦ	σύ	a	a-s---mg-	Case=g|Gender=f|Number=s	13	ATR	_	t_506|ref=Περὶ ἀντωνυμιῶν_4
-13	ϲεῦ	σύ	n	n-s---mg-	Case=g|Gender=n|Number=s	11	SBJ	_	t_507|ref=Περὶ ἀντωνυμιῶν_4
-14	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_508|ref=Περὶ ἀντωνυμιῶν_4
-15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	17	ATR	_	t_509|ref=Περὶ ἀντωνυμιῶν_4
-16	ἐμέο	ἐγώ	a	a-s---mg-	Case=g|Gender=m|Number=s	17	ADV	_	t_510|ref=Περὶ ἀντωνυμιῶν_4
-17	καὶ	καί	c	c--------	_	14	COORD	_	t_511|ref=Περὶ ἀντωνυμιῶν_4
-18	ϲέο	σύ	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ADV	_	t_512|ref=Περὶ ἀντωνυμιῶν_4
-19	.	.	u	u--------	_	6	AuxK	_	t_513|ref=Περὶ ἀντωνυμιῶν_4
+1	(	̔	u	u--------	_	6	AuxG	_	t_495|t_500|ref=pronom._4
+2	128	128	n	n--------	_	6	ExD	_	t_496|t_500|ref=pronom._4
+3	)	)	u	u--------	_	6	AuxG	_	t_497|t_500|ref=pronom._4
+4	ϲυναλειφόμενον	συναλίζω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	6	ADV	_	t_498|t_500|ref=pronom._4
+5	δὲ	δέ	g	g--------	_	6	AuxY	_	t_499|t_500|ref=pronom._4
+6	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_500|0|ref=pronom._4
+7	τεῦ	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	4	OBJ	_	t_501|t_498|ref=pronom._4
+8	ὡϲ	ὡς	c	c--------	_	9	AuxZ	_	t_502|t_503|ref=pronom._4
+9	ἐμοῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=f|Number=s	10	ATR	_	t_503|t_504|ref=pronom._4
+10	ἐμεῦ	ἐγώ	p	p-s---mg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_504|t_498|ref=pronom._4
+11	,	,	u	u--------	_	4	APOS	_	t_505|t_498|ref=pronom._4
+12	ϲοῦ	σύ	a	a-s---mg-	Case=g|Gender=f|Number=s	13	ATR	_	t_506|t_507|ref=pronom._4
+13	ϲεῦ	σύ	n	n-s---mg-	Case=g|Gender=n|Number=s	11	SBJ	_	t_507|t_505|ref=pronom._4
+14	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_508|t_498|ref=pronom._4
+15	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=n|Number=s	17	ATR	_	t_509|t_511|ref=pronom._4
+16	ἐμέο	ἐγώ	a	a-s---mg-	Case=g|Gender=m|Number=s	17	ADV	_	t_510|t_511|ref=pronom._4
+17	καὶ	καί	c	c--------	_	14	COORD	_	t_511|t_508|ref=pronom._4
+18	ϲέο	σύ	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ADV	_	t_512|t_511|ref=pronom._4
+19	.	.	u	u--------	_	6	AuxK	_	t_513|t_500|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τὸ τέο τετόλμηκεν Ἀρχίλοχοϲ « τεοῦ χολούμενοϲ » εἰπεῖν ἀντὶ τοῦ τίνοϲ .
 # sent_id = 38
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_514|ref=Περὶ ἀντωνυμιῶν_4
-2	τέο	τις	p	p-s---ng-	Case=a|Gender=n|Number=s	9	OBJ	_	t_515|ref=Περὶ ἀντωνυμιῶν_4
-3	τετόλμηκεν	τολμάω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_516|ref=Περὶ ἀντωνυμιῶν_4
-4	Ἀρχίλοχοϲ	ἀρχίλοχος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_517|ref=Περὶ ἀντωνυμιῶν_4
-5	«	«	u	u--------	_	3	AuxG	_	t_518|ref=Περὶ ἀντωνυμιῶν_4
-6	τεοῦ	τεός	p	p-s---ng-	Case=g|Gender=n|Number=s	7	OBJ	_	t_519|ref=Περὶ ἀντωνυμιῶν_4
-7	χολούμενοϲ	χολόω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	ADV	_	t_520|ref=Περὶ ἀντωνυμιῶν_4
-8	»	»	u	u--------	_	3	AuxG	_	t_521|ref=Περὶ ἀντωνυμιῶν_4
-9	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	3	OBJ	_	t_522|ref=Περὶ ἀντωνυμιῶν_4
-10	ἀντὶ	ἀντί	r	r--------	_	9	AuxP	_	t_523|ref=Περὶ ἀντωνυμιῶν_4
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_524|ref=Περὶ ἀντωνυμιῶν_4
-12	τίνοϲ	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	10	ADV	_	t_525|ref=Περὶ ἀντωνυμιῶν_4
-13	.	.	u	u--------	_	3	AuxK	_	t_526|ref=Περὶ ἀντωνυμιῶν_4
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_514|t_515|ref=pronom._4
+2	τέο	τις	p	p-s---ng-	Case=a|Gender=n|Number=s	9	OBJ	_	t_515|t_522|ref=pronom._4
+3	τετόλμηκεν	τολμάω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_516|0|ref=pronom._4
+4	Ἀρχίλοχοϲ	ἀρχίλοχος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_517|t_516|ref=pronom._4
+5	«	«	u	u--------	_	3	AuxG	_	t_518|t_516|ref=pronom._4
+6	τεοῦ	τεός	p	p-s---ng-	Case=g|Gender=n|Number=s	7	OBJ	_	t_519|t_520|ref=pronom._4
+7	χολούμενοϲ	χολόω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	ADV	_	t_520|t_522|ref=pronom._4
+8	»	»	u	u--------	_	3	AuxG	_	t_521|t_516|ref=pronom._4
+9	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	3	OBJ	_	t_522|t_516|ref=pronom._4
+10	ἀντὶ	ἀντί	r	r--------	_	9	AuxP	_	t_523|t_522|ref=pronom._4
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_524|t_525|ref=pronom._4
+12	τίνοϲ	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	10	ADV	_	t_525|t_523|ref=pronom._4
+13	.	.	u	u--------	_	3	AuxK	_	t_526|t_516|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ἡ δοτικὴ τέῳ καὶ τὸ ἀόριϲτον αὐτοῦ ὅτεῳ καὶ ἐπὶ γενικῆϲ « ὅττεό ϲε χρή » ( α 124 ) [0] .
 # sent_id = 39
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_527|ref=Περὶ ἀντωνυμιῶν_4
-2	δοτικὴ	δοτικός	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_528|ref=Περὶ ἀντωνυμιῶν_4
-3	τέῳ	τις	p	p-s---nd-	Case=d|Gender=n|Number=s	21	ADV	_	t_529|ref=Περὶ ἀντωνυμιῶν_4
-4	καὶ	καί	c	c--------	_	21	COORD	_	t_530|ref=Περὶ ἀντωνυμιῶν_4
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_531|ref=Περὶ ἀντωνυμιῶν_4
-6	ἀόριϲτον	ἀόριστος	a	a-s---na-	Case=a|Gender=n|Number=s	4	SBJ	_	t_532|ref=Περὶ ἀντωνυμιῶν_4
-7	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_533|ref=Περὶ ἀντωνυμιῶν_4
-8	ὅτεῳ	ὅστις	p	p-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_534|ref=Περὶ ἀντωνυμιῶν_4
-9	καὶ	καί	c	c--------	_	8	AuxZ	_	t_535|ref=Περὶ ἀντωνυμιῶν_4
-10	ἐπὶ	ἐπί	r	r--------	_	21	AuxP	_	t_536|ref=Περὶ ἀντωνυμιῶν_4
-11	γενικῆϲ	γενικός	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_537|ref=Περὶ ἀντωνυμιῶν_4
-12	«	«	u	u--------	_	21	AuxG	_	t_538|ref=Περὶ ἀντωνυμιῶν_4
-13	ὅττεό	ὅστις	p	p-s---nn-	Case=g|Gender=n|Number=s	15	SBJ	_	t_539|ref=Περὶ ἀντωνυμιῶν_4
-14	ϲε	ςε	p	p-s---cn-	Case=v|Gender=m|Number=s	15	SBJ	_	t_540|ref=Περὶ ἀντωνυμιῶν_4
-15	χρή	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	OBJ	_	t_541|ref=Περὶ ἀντωνυμιῶν_4
-16	»	»	u	u--------	_	21	AuxG	_	t_542|ref=Περὶ ἀντωνυμιῶν_4
-17	(	̔	u	u--------	_	21	AuxG	_	t_543|ref=Περὶ ἀντωνυμιῶν_4
-18	α	α	x	x--------	_	4	SBJ	_	t_544|ref=Περὶ ἀντωνυμιῶν_4
-19	124	124	d	d--------	_	21	SBJ	_	t_545|ref=Περὶ ἀντωνυμιῶν_4
-20	)	)	u	u--------	_	21	AuxG	_	t_546|ref=Περὶ ἀντωνυμιῶν_4
-21	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Περὶ ἀντωνυμιῶν_1
-22	.	.	u	u--------	_	21	AuxK	_	t_547|ref=Περὶ ἀντωνυμιῶν_4
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_527|t_528|ref=pronom._4
+2	δοτικὴ	δοτικός	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_528|e_14|ref=pronom._4
+3	τέῳ	τις	p	p-s---nd-	Case=d|Gender=n|Number=s	21	ADV	_	t_529|e_14|ref=pronom._4
+4	καὶ	καί	c	c--------	_	21	COORD	_	t_530|e_14|ref=pronom._4
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_531|t_532|ref=pronom._4
+6	ἀόριϲτον	ἀόριστος	a	a-s---na-	Case=a|Gender=n|Number=s	4	SBJ	_	t_532|t_530|ref=pronom._4
+7	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_533|t_532|ref=pronom._4
+8	ὅτεῳ	ὅστις	p	p-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_534|t_532|ref=pronom._4
+9	καὶ	καί	c	c--------	_	8	AuxZ	_	t_535|t_534|ref=pronom._4
+10	ἐπὶ	ἐπί	r	r--------	_	21	AuxP	_	t_536|e_14|ref=pronom._4
+11	γενικῆϲ	γενικός	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_537|t_536|ref=pronom._4
+12	«	«	u	u--------	_	21	AuxG	_	t_538|e_14|ref=pronom._4
+13	ὅττεό	ὅστις	p	p-s---nn-	Case=g|Gender=n|Number=s	15	SBJ	_	t_539|t_541|ref=pronom._4
+14	ϲε	ςε	p	p-s---cn-	Case=v|Gender=m|Number=s	15	SBJ	_	t_540|t_541|ref=pronom._4
+15	χρή	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	OBJ	_	t_541|e_14|ref=pronom._4
+16	»	»	u	u--------	_	21	AuxG	_	t_542|e_14|ref=pronom._4
+17	(	̔	u	u--------	_	21	AuxG	_	t_543|e_14|ref=pronom._4
+18	α	α	x	x--------	_	4	SBJ	_	t_544|t_530|ref=pronom._4
+19	124	124	d	d--------	_	21	SBJ	_	t_545|e_14|ref=pronom._4
+20	)	)	u	u--------	_	21	AuxG	_	t_546|e_14|ref=pronom._4
+21	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=pronom._1
+22	.	.	u	u--------	_	21	AuxK	_	t_547|e_14|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = τοῦτο τὸ ὄνομα αἰτιατικὴν καὶ ὀρθὴν οὐκ ἔχει .
 # sent_id = 40
-1	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_548|ref=Περὶ ἀντωνυμιῶν_4
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_549|ref=Περὶ ἀντωνυμιῶν_4
-3	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_550|ref=Περὶ ἀντωνυμιῶν_4
-4	αἰτιατικὴν	αἰτιατική	a	a-s---fa-	Case=a|Gender=f|Number=s	5	OCOMP	_	t_551|ref=Περὶ ἀντωνυμιῶν_4
-5	καὶ	καί	c	c--------	_	8	COORD	_	t_552|ref=Περὶ ἀντωνυμιῶν_4
-6	ὀρθὴν	ὀρθός	a	a-s---fa-	Case=a|Gender=f|Number=s	5	OCOMP	_	t_553|ref=Περὶ ἀντωνυμιῶν_4
-7	οὐκ	οὐ	d	d--------	_	8	AuxZ	_	t_554|ref=Περὶ ἀντωνυμιῶν_4
-8	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_555|ref=Περὶ ἀντωνυμιῶν_4
-9	.	.	u	u--------	_	8	AuxK	_	t_556|ref=Περὶ ἀντωνυμιῶν_4
+1	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_548|t_550|ref=pronom._4
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_549|t_550|ref=pronom._4
+3	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_550|t_555|ref=pronom._4
+4	αἰτιατικὴν	αἰτιατική	a	a-s---fa-	Case=a|Gender=f|Number=s	5	OCOMP	_	t_551|t_552|ref=pronom._4
+5	καὶ	καί	c	c--------	_	8	COORD	_	t_552|t_555|ref=pronom._4
+6	ὀρθὴν	ὀρθός	a	a-s---fa-	Case=a|Gender=f|Number=s	5	OCOMP	_	t_553|t_552|ref=pronom._4
+7	οὐκ	οὐ	d	d--------	_	8	AuxZ	_	t_554|t_555|ref=pronom._4
+8	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_555|0|ref=pronom._4
+9	.	.	u	u--------	_	8	AuxK	_	t_556|t_555|ref=pronom._4
 
-# source = Aelius Herodianus, Περὶ ἀντωνυμιῶν 4
+# source = Aelius Herodianus, pronom. 4
 # text = ὡϲαύτωϲ καὶ ἐπὶ τῶν πληθυντικῶν « ὅτεών τε πόλιν καὶ γαῖαν ἱκάνω » ( κ 39 ) καὶ « ὁτέοιϲιν » ( 0 491 ) .
 # sent_id = 41
-1	ὡϲαύτωϲ	ὡςαύτως	d	d--------	_	18	ADV	_	t_557|ref=Περὶ ἀντωνυμιῶν_4
-2	καὶ	καί	c	c--------	_	5	AuxZ	_	t_558|ref=Περὶ ἀντωνυμιῶν_4
-3	ἐπὶ	ἐπί	r	r--------	_	18	AuxP	_	t_559|ref=Περὶ ἀντωνυμιῶν_4
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_560|ref=Περὶ ἀντωνυμιῶν_4
-5	πληθυντικῶν	πληθυντικός	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_561|ref=Περὶ ἀντωνυμιῶν_4
-6	«	«	u	u--------	_	23	AuxG	_	t_562|ref=Περὶ ἀντωνυμιῶν_4
-7	ὅτεών	ὅστις	p	p-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_563|ref=Περὶ ἀντωνυμιῶν_4
-8	τε	τε	c	c--------	_	10	AuxY	_	t_564|ref=Περὶ ἀντωνυμιῶν_4
-9	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_565|ref=Περὶ ἀντωνυμιῶν_4
-10	καὶ	καί	c	c--------	_	12	COORD	_	t_566|ref=Περὶ ἀντωνυμιῶν_4
-11	γαῖαν	γαῖα	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_567|ref=Περὶ ἀντωνυμιῶν_4
-12	ἱκάνω	ἱκάνω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	18	OBJ	_	t_568|ref=Περὶ ἀντωνυμιῶν_4
-13	»	»	u	u--------	_	23	AuxG	_	t_569|ref=Περὶ ἀντωνυμιῶν_4
-14	(	̔	u	u--------	_	23	AuxG	_	t_570|ref=Περὶ ἀντωνυμιῶν_4
-15	κ	καί	d	d--------	_	23	COORD	_	t_571|ref=Περὶ ἀντωνυμιῶν_4
-16	39	39	d	d--------	_	23	AuxY	_	t_572|ref=Περὶ ἀντωνυμιῶν_4
-17	)	)	u	u--------	_	23	AuxG	_	t_573|ref=Περὶ ἀντωνυμιῶν_4
-18	καὶ	καί	c	c--------	_	15	COORD	_	t_574|ref=Περὶ ἀντωνυμιῶν_4
-19	«	«	u	u--------	_	23	AuxG	_	t_575|ref=Περὶ ἀντωνυμιῶν_4
-20	ὁτέοιϲιν	ὁτέος	p	p-p---nd-	Case=d|Gender=n|Number=p	18	OBJ	_	t_576|ref=Περὶ ἀντωνυμιῶν_4
-21	»	»	u	u--------	_	23	AuxG	_	t_577|ref=Περὶ ἀντωνυμιῶν_4
-22	(	̔	u	u--------	_	23	AuxG	_	t_578|ref=Περὶ ἀντωνυμιῶν_4
-23	0	0	u	u--------	_	0	AuxG	_	t_579|ref=Περὶ ἀντωνυμιῶν_4
-24	491	491	n	n--------	_	15	APOS	_	t_580|ref=Περὶ ἀντωνυμιῶν_4
-25	)	)	u	u--------	_	23	AuxG	_	t_581|ref=Περὶ ἀντωνυμιῶν_4
-26	.	.	u	u--------	_	23	AuxK	_	t_582|ref=Περὶ ἀντωνυμιῶν_4
+1	ὡϲαύτωϲ	ὡςαύτως	d	d--------	_	18	ADV	_	t_557|t_574|ref=pronom._4
+2	καὶ	καί	c	c--------	_	5	AuxZ	_	t_558|t_561|ref=pronom._4
+3	ἐπὶ	ἐπί	r	r--------	_	18	AuxP	_	t_559|t_574|ref=pronom._4
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_560|t_561|ref=pronom._4
+5	πληθυντικῶν	πληθυντικός	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_561|t_559|ref=pronom._4
+6	«	«	u	u--------	_	23	AuxG	_	t_562|t_579|ref=pronom._4
+7	ὅτεών	ὅστις	p	p-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_563|t_566|ref=pronom._4
+8	τε	τε	c	c--------	_	10	AuxY	_	t_564|t_566|ref=pronom._4
+9	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_565|t_566|ref=pronom._4
+10	καὶ	καί	c	c--------	_	12	COORD	_	t_566|t_568|ref=pronom._4
+11	γαῖαν	γαῖα	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_567|t_566|ref=pronom._4
+12	ἱκάνω	ἱκάνω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	18	OBJ	_	t_568|t_574|ref=pronom._4
+13	»	»	u	u--------	_	23	AuxG	_	t_569|t_579|ref=pronom._4
+14	(	̔	u	u--------	_	23	AuxG	_	t_570|t_579|ref=pronom._4
+15	κ	καί	d	d--------	_	23	COORD	_	t_571|t_579|ref=pronom._4
+16	39	39	d	d--------	_	23	AuxY	_	t_572|t_579|ref=pronom._4
+17	)	)	u	u--------	_	23	AuxG	_	t_573|t_579|ref=pronom._4
+18	καὶ	καί	c	c--------	_	15	COORD	_	t_574|t_571|ref=pronom._4
+19	«	«	u	u--------	_	23	AuxG	_	t_575|t_579|ref=pronom._4
+20	ὁτέοιϲιν	ὁτέος	p	p-p---nd-	Case=d|Gender=n|Number=p	18	OBJ	_	t_576|t_574|ref=pronom._4
+21	»	»	u	u--------	_	23	AuxG	_	t_577|t_579|ref=pronom._4
+22	(	̔	u	u--------	_	23	AuxG	_	t_578|t_579|ref=pronom._4
+23	0	0	u	u--------	_	0	AuxG	_	t_579|0|ref=pronom._4
+24	491	491	n	n--------	_	15	APOS	_	t_580|t_571|ref=pronom._4
+25	)	)	u	u--------	_	23	AuxG	_	t_581|t_579|ref=pronom._4
+26	.	.	u	u--------	_	23	AuxK	_	t_582|t_579|ref=pronom._4
 

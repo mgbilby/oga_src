@@ -1,95 +1,95 @@
-# source = Menecrates Medicus, Epistula 1
+# source = Menecrates Medicus, ep. 1
 # text = Μενεκράτης Ζεὺς Φιλίππῳ χαίρειν [0] .
 # sent_id = 1
-1	Μενεκράτης	μενεκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1|ref=Epistula_1
-2	Ζεὺς	ζεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2|ref=Epistula_1
-3	Φιλίππῳ	φίλιππος	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_3|ref=Epistula_1
-4	χαίρειν	χαίρω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_4|ref=Epistula_1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Epistula_1
-6	.	.	u	u--------	_	5	AuxK	_	t_5|ref=Epistula_1
+1	Μενεκράτης	μενεκράτης	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1|e_1|ref=ep._1
+2	Ζεὺς	ζεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2|e_1|ref=ep._1
+3	Φιλίππῳ	φίλιππος	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_3|t_4|ref=ep._1
+4	χαίρειν	χαίρω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_4|e_1|ref=ep._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=ep._1
+6	.	.	u	u--------	_	5	AuxK	_	t_5|e_1|ref=ep._1
 
-# source = Menecrates Medicus, Epistula 1
+# source = Menecrates Medicus, ep. 1
 # text = Σὺ μὲν Μακεδονίας βασιλεύεις , ἐγὼ δὲ ἰατρικῆς καὶ σὺ μὲν ὑγιαίνοντας δύνασαι , ὅταν βουληθῇς , ἀπολ ·
 # sent_id = 2
-1	Σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_6|ref=Epistula_1
-2	μὲν	μέν	d	d--------	_	7	AuxY	_	t_7|ref=Epistula_1
-3	Μακεδονίας	μακεδονία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_8|ref=Epistula_1
-4	βασιλεύεις	βασιλεύω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	7	PRED	_	t_9|ref=Epistula_1
-5	,	,	u	u--------	_	0	AuxX	_	t_10|ref=Epistula_1
-6	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	9	SBJ	_	t_11|ref=Epistula_1
-7	δὲ	δέ	c	c--------	_	5	COORD	_	t_12|ref=Epistula_1
-8	ἰατρικῆς	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_13|ref=Epistula_1
-9	καὶ	καί	c	c--------	_	10	AuxZ	_	t_14|ref=Epistula_1
-10	σὺ	σύ	p	p2s----n-	Case=n|Number=s|Person=2	18	SBJ	_	t_15|ref=Epistula_1
-11	μὲν	μέν	d	d--------	_	13	AuxY	_	t_16|ref=Epistula_1
-12	ὑγιαίνοντας	ὑγιαίνω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	OBJ	_	t_17|ref=Epistula_1
-13	δύνασαι	δύναμαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	7	PRED	_	t_18|ref=Epistula_1
-14	,	,	u	u--------	_	5	AuxX	_	t_19|ref=Epistula_1
-15	ὅταν	ὅταν	c	c--------	_	18	AuxC	_	t_20|ref=Epistula_1
-16	βουληθῇς	βούλομαι	v	v2sasp---	Mood=s|Number=s|Person=2|Tense=a|Voice=p	15	ADV	_	t_21|ref=Epistula_1
-17	,	,	u	u--------	_	5	AuxX	_	t_22|ref=Epistula_1
-18	ἀπολ	ἀπόλλυμι	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	7	PRED	_	t_23|ref=Epistula_1
-19	·	·	u	u--------	_	5	AuxK	_	t_24|ref=Epistula_1
+1	Σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_6|t_9|ref=ep._1
+2	μὲν	μέν	d	d--------	_	7	AuxY	_	t_7|t_12|ref=ep._1
+3	Μακεδονίας	μακεδονία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_8|t_9|ref=ep._1
+4	βασιλεύεις	βασιλεύω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	7	PRED	_	t_9|t_12|ref=ep._1
+5	,	,	u	u--------	_	0	AuxX	_	t_10|0|ref=ep._1
+6	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	9	SBJ	_	t_11|t_14|ref=ep._1
+7	δὲ	δέ	c	c--------	_	5	COORD	_	t_12|t_10|ref=ep._1
+8	ἰατρικῆς	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_13|t_8|ref=ep._1
+9	καὶ	καί	c	c--------	_	10	AuxZ	_	t_14|t_15|ref=ep._1
+10	σὺ	σύ	p	p2s----n-	Case=n|Number=s|Person=2	18	SBJ	_	t_15|t_23|ref=ep._1
+11	μὲν	μέν	d	d--------	_	13	AuxY	_	t_16|t_18|ref=ep._1
+12	ὑγιαίνοντας	ὑγιαίνω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	OBJ	_	t_17|t_23|ref=ep._1
+13	δύνασαι	δύναμαι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	7	PRED	_	t_18|t_12|ref=ep._1
+14	,	,	u	u--------	_	5	AuxX	_	t_19|t_10|ref=ep._1
+15	ὅταν	ὅταν	c	c--------	_	18	AuxC	_	t_20|t_23|ref=ep._1
+16	βουληθῇς	βούλομαι	v	v2sasp---	Mood=s|Number=s|Person=2|Tense=a|Voice=p	15	ADV	_	t_21|t_20|ref=ep._1
+17	,	,	u	u--------	_	5	AuxX	_	t_22|t_10|ref=ep._1
+18	ἀπολ	ἀπόλλυμι	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	7	PRED	_	t_23|t_12|ref=ep._1
+19	·	·	u	u--------	_	5	AuxK	_	t_24|t_10|ref=ep._1
 
-# source = Menecrates Medicus, Epistula 1
+# source = Menecrates Medicus, ep. 1
 # text = λύναι , ἐγὼ δὲ τοὺς νοσοῦντας σώζειν καὶ τοὺς εὐρώ - στους ἀνόσους , οἳ ἂν ἐμοὶ πείθωνται , παρέχειν μέχρι γήρως ζῶντας [0] .
 # sent_id = 3
-1	λύναι	λύω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_25|ref=Epistula_1
-2	,	,	u	u--------	_	24	AuxX	_	t_26|ref=Epistula_1
-3	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	24	SBJ	_	t_27|ref=Epistula_1
-4	δὲ	δέ	g	g--------	_	24	AuxY	_	t_28|ref=Epistula_1
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_29|ref=Epistula_1
-6	νοσοῦντας	νοσέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	OBJ	_	t_30|ref=Epistula_1
-7	σώζειν	σώζω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_31|ref=Epistula_1
-8	καὶ	καί	c	c--------	_	24	COORD	_	t_32|ref=Epistula_1
-9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	10	ATR	_	t_33|ref=Epistula_1
-10	εὐρώ	εὐρώ	a	a-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_34|ref=Epistula_1
-11	-	-	u	u--------	_	24	AuxG	_	t_35|ref=Epistula_1
-12	στους	στοῖχος	v	v-pppama-	Case=a|Gender=m|Number=p	20	OBJ	_	t_36|ref=Epistula_1
-13	ἀνόσους	ἄνόσους	a	a-p---ma-	Case=a|Gender=m|Number=p	12	OBJ	_	t_37|ref=Epistula_1
-14	,	,	u	u--------	_	24	AuxX	_	t_38|ref=Epistula_1
-15	οἳ	ὅς	p	p-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_39|ref=Epistula_1
-16	ἂν	ἄν	d	d--------	_	18	AuxY	_	t_40|ref=Epistula_1
-17	ἐμοὶ	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	18	OBJ	_	t_41|ref=Epistula_1
-18	πείθωνται	πείθω	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	13	ATR	_	t_42|ref=Epistula_1
-19	,	,	u	u--------	_	24	AuxX	_	t_43|ref=Epistula_1
-20	παρέχειν	παρέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	SBJ	_	t_44|ref=Epistula_1
-21	μέχρι	μέχρι	r	r--------	_	20	AuxP	_	t_45|ref=Epistula_1
-22	γήρως	γῆρας	n	n-s---ng-	Case=g|Gender=n|Number=s	21	ADV	_	t_46|ref=Epistula_1
-23	ζῶντας	ζάω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	20	ADV	_	t_47|ref=Epistula_1
-24	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Epistula_1
-25	.	.	u	u--------	_	24	AuxK	_	t_48|ref=Epistula_1
+1	λύναι	λύω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	OBJ	_	t_25|e_2|ref=ep._1
+2	,	,	u	u--------	_	24	AuxX	_	t_26|e_2|ref=ep._1
+3	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	24	SBJ	_	t_27|e_2|ref=ep._1
+4	δὲ	δέ	g	g--------	_	24	AuxY	_	t_28|e_2|ref=ep._1
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_29|t_30|ref=ep._1
+6	νοσοῦντας	νοσέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	OBJ	_	t_30|t_31|ref=ep._1
+7	σώζειν	σώζω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_31|t_32|ref=ep._1
+8	καὶ	καί	c	c--------	_	24	COORD	_	t_32|e_2|ref=ep._1
+9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	10	ATR	_	t_33|t_34|ref=ep._1
+10	εὐρώ	εὐρώ	a	a-p---ma-	Case=a|Gender=m|Number=p	8	SBJ	_	t_34|t_32|ref=ep._1
+11	-	-	u	u--------	_	24	AuxG	_	t_35|e_2|ref=ep._1
+12	στους	στοῖχος	v	v-pppama-	Case=a|Gender=m|Number=p	20	OBJ	_	t_36|t_44|ref=ep._1
+13	ἀνόσους	ἄνόσους	a	a-p---ma-	Case=a|Gender=m|Number=p	12	OBJ	_	t_37|t_36|ref=ep._1
+14	,	,	u	u--------	_	24	AuxX	_	t_38|e_2|ref=ep._1
+15	οἳ	ὅς	p	p-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_39|t_42|ref=ep._1
+16	ἂν	ἄν	d	d--------	_	18	AuxY	_	t_40|t_42|ref=ep._1
+17	ἐμοὶ	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	18	OBJ	_	t_41|t_42|ref=ep._1
+18	πείθωνται	πείθω	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	13	ATR	_	t_42|t_37|ref=ep._1
+19	,	,	u	u--------	_	24	AuxX	_	t_43|e_2|ref=ep._1
+20	παρέχειν	παρέχω	v	v--pna---	Mood=n|Tense=p|Voice=a	24	SBJ	_	t_44|e_2|ref=ep._1
+21	μέχρι	μέχρι	r	r--------	_	20	AuxP	_	t_45|t_44|ref=ep._1
+22	γήρως	γῆρας	n	n-s---ng-	Case=g|Gender=n|Number=s	21	ADV	_	t_46|t_45|ref=ep._1
+23	ζῶντας	ζάω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	20	ADV	_	t_47|t_44|ref=ep._1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=ep._1
+25	.	.	u	u--------	_	24	AuxK	_	t_48|e_2|ref=ep._1
 
-# source = Menecrates Medicus, Epistula 1
+# source = Menecrates Medicus, ep. 1
 # text = τοιγαροῦν σὲ μὲν Μακεδόνες δορυ - φοροῦσιν , ἐμὲ δὲ καὶ οἱ θεοὶ μέλλοντες ἔσεσθαι [0] ·
 # sent_id = 4
-1	τοιγαροῦν	τοιγάρ	d	d--------	_	10	AuxY	_	t_49|ref=Epistula_1
-2	σὲ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_50|ref=Epistula_1
-3	μὲν	μέν	d	d--------	_	10	AuxY	_	t_51|ref=Epistula_1
-4	Μακεδόνες	μακεδών	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_52|ref=Epistula_1
-5	δορυ	δορυ	n	n-p---ma-	Case=n|Gender=m|Number=p	7	OBJ	_	t_53|ref=Epistula_1
-6	-	-	a	a-p---ma-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	7	ADV	_	t_54|ref=Epistula_1
-7	φοροῦσιν	φορέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_55|ref=Epistula_1
-8	,	,	u	u--------	_	0	AuxX	_	t_56|ref=Epistula_1
-9	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s|Person=1	15	SBJ	_	t_57|ref=Epistula_1
-10	δὲ	δέ	c	c--------	_	8	COORD	_	t_58|ref=Epistula_1
-11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_59|ref=Epistula_1
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_60|ref=Epistula_1
-13	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_61|ref=Epistula_1
-14	μέλλοντες	μέλλω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	PNOM	_	t_62|ref=Epistula_1
-15	ἔσεσθαι	εἰμί	v	v--fnm---	Mood=n|Tense=f|Voice=m	14	OBJ	_	t_63|ref=Epistula_1
-16	[0]	[0]	-	---------	_	10	PRED	_	e_3|ref=Epistula_1
-17	·	·	u	u--------	_	8	AuxK	_	t_64|ref=Epistula_1
+1	τοιγαροῦν	τοιγάρ	d	d--------	_	10	AuxY	_	t_49|t_58|ref=ep._1
+2	σὲ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_50|t_55|ref=ep._1
+3	μὲν	μέν	d	d--------	_	10	AuxY	_	t_51|t_58|ref=ep._1
+4	Μακεδόνες	μακεδών	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_52|t_55|ref=ep._1
+5	δορυ	δορυ	n	n-p---ma-	Case=n|Gender=m|Number=p	7	OBJ	_	t_53|t_55|ref=ep._1
+6	-	-	a	a-p---ma-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	7	ADV	_	t_54|t_55|ref=ep._1
+7	φοροῦσιν	φορέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_55|t_58|ref=ep._1
+8	,	,	u	u--------	_	0	AuxX	_	t_56|0|ref=ep._1
+9	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s|Person=1	15	SBJ	_	t_57|t_63|ref=ep._1
+10	δὲ	δέ	c	c--------	_	8	COORD	_	t_58|t_56|ref=ep._1
+11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_59|t_61|ref=ep._1
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_60|t_61|ref=ep._1
+13	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_61|e_3|ref=ep._1
+14	μέλλοντες	μέλλω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	PNOM	_	t_62|e_3|ref=ep._1
+15	ἔσεσθαι	εἰμί	v	v--fnm---	Mood=n|Tense=f|Voice=m	14	OBJ	_	t_63|t_62|ref=ep._1
+16	[0]	[0]	-	---------	_	10	PRED	_	e_3|t_58|ref=ep._1
+17	·	·	u	u--------	_	8	AuxK	_	t_64|t_56|ref=ep._1
 
-# source = Menecrates Medicus, Epistula 1
+# source = Menecrates Medicus, ep. 1
 # text = Ζεὐς ΝΤΤΙΥΙΕγ γὰρ ἐγὼ αὐτοῖς βίον παρέχω .
 # sent_id = 5
-1	Ζεὐς	ζέυς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	ExD	_	t_65|ref=Epistula_1
-2	ΝΤΤΙΥΙΕγ	νττιυιεγ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_66|ref=Epistula_1
-3	γὰρ	γάρ	g	g--------	_	7	AuxY	_	t_67|ref=Epistula_1
-4	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_68|ref=Epistula_1
-5	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_69|ref=Epistula_1
-6	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_70|ref=Epistula_1
-7	παρέχω	παρέχω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_71|ref=Epistula_1
-8	.	.	u	u--------	_	7	AuxK	_	t_72|ref=Epistula_1
+1	Ζεὐς	ζέυς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	ExD	_	t_65|t_71|ref=ep._1
+2	ΝΤΤΙΥΙΕγ	νττιυιεγ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_66|t_65|ref=ep._1
+3	γὰρ	γάρ	g	g--------	_	7	AuxY	_	t_67|t_71|ref=ep._1
+4	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_68|t_71|ref=ep._1
+5	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_69|t_71|ref=ep._1
+6	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_70|t_71|ref=ep._1
+7	παρέχω	παρέχω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_71|0|ref=ep._1
+8	.	.	u	u--------	_	7	AuxK	_	t_72|t_71|ref=ep._1
 

@@ -1,726 +1,726 @@
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = FRAGMENTUM .
 # sent_id = 1
-1	FRAGMENTUM	θεοδωρήτος	n	n--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_1|ref=Catoptrica_1
-2	.	.	u	u--------	_	1	AuxK	_	t_2|ref=Catoptrica_1
+1	FRAGMENTUM	θεοδωρήτος	n	n--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	ExD	_	t_1|0|ref=Catopt._1
+2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = Ἐπειδὴ γὰρ τοῦτο ὡμολογημένον ἐστὶ παρὰ πᾶσιν , ὅτι οὐδὲν μάτην ἐργάζεται ἡ φύσις οὐ δὲ ματαιοπονεῖ , ἐὰν μὴ δώσωμεν πρὸς ἴσας γωνίας γίνεσθαι τὴν ἀνάκλασιν , πρὸς ἀνίσους ματαιοπονεῖ ἡ φύσις , καὶ ἀντὶ τοῦ διὰ βραχείας περιόδου φθάσαι τὸ ὁρώμενον τὴν ὄψιν , διὰ μακρᾶς περιόδου τοῦτο φανήσεται καταλαμβάνουσα .
 # sent_id = 2
-1	Ἐπειδὴ	ἐπεί	c	c--------	_	35	AuxC	_	t_3|ref=Catoptrica_1
-2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_4|ref=Catoptrica_1
-3	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_5|ref=Catoptrica_1
-4	ὡμολογημένον	ὁμολογέω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	5	PNOM	_	t_6|ref=Catoptrica_1
-5	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_7|ref=Catoptrica_1
-6	παρὰ	παρά	r	r--------	_	4	AuxP	_	t_8|ref=Catoptrica_1
-7	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	6	ADV	_	t_9|ref=Catoptrica_1
-8	,	,	u	u--------	_	5	APOS	_	t_10|ref=Catoptrica_1
-9	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_11|ref=Catoptrica_1
-10	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	12	ADV	_	t_12|ref=Catoptrica_1
-11	μάτην	μάτην	d	d--------	_	12	ADV	_	t_13|ref=Catoptrica_1
-12	ἐργάζεται	ἐργάζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	SBJ	_	t_14|ref=Catoptrica_1
-13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_15|ref=Catoptrica_1
-14	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_16|ref=Catoptrica_1
-15	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_17|ref=Catoptrica_1
-16	δὲ	δέ	c	c--------	_	9	COORD	_	t_18|ref=Catoptrica_1
-17	ματαιοπονεῖ	ματαιοπονέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	SBJ	_	t_19|ref=Catoptrica_1
-18	,	,	u	u--------	_	1	AuxX	_	t_20|ref=Catoptrica_1
-19	ἐὰν	ἐάν	c	c--------	_	31	AuxC	_	t_21|ref=Catoptrica_1
-20	μὴ	μή	d	d--------	_	21	AuxZ	_	t_22|ref=Catoptrica_1
-21	δώσωμεν	δίδωμι	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	19	ADV	_	t_23|ref=Catoptrica_1
-22	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_24|ref=Catoptrica_1
-23	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	24	ATR	_	t_25|ref=Catoptrica_1
-24	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	22	PNOM	_	t_26|ref=Catoptrica_1
-25	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	21	OBJ	_	t_27|ref=Catoptrica_1
-26	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	27	ATR	_	t_28|ref=Catoptrica_1
-27	ἀνάκλασιν	ἀνάκλασις	n	n-s---fa-	Case=a|Gender=f|Number=s	25	SBJ	_	t_29|ref=Catoptrica_1
-28	,	,	u	u--------	_	35	AuxX	_	t_30|ref=Catoptrica_1
-29	πρὸς	πρός	r	r--------	_	31	AuxP	_	t_31|ref=Catoptrica_1
-30	ἀνίσους	ἄνισος	a	a-p---ma-	Case=a|Gender=m|Number=p	29	ADV	_	t_32|ref=Catoptrica_1
-31	ματαιοπονεῖ	ματαιοπονέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	35	PRED	_	t_33|ref=Catoptrica_1
-32	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	33	ATR	_	t_34|ref=Catoptrica_1
-33	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	31	SBJ	_	t_35|ref=Catoptrica_1
-34	,	,	u	u--------	_	35	AuxX	_	t_36|ref=Catoptrica_1
-35	καὶ	καί	c	c--------	_	0	COORD	_	t_37|ref=Catoptrica_1
-36	ἀντὶ	ἀντί	r	r--------	_	51	AuxP	_	t_38|ref=Catoptrica_1
-37	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	41	ATR	_	t_39|ref=Catoptrica_1
-38	διὰ	διά	r	r--------	_	41	AuxP	_	t_40|ref=Catoptrica_1
-39	βραχείας	βραχύς	a	a-s---fg-	Case=g|Gender=f|Number=s	40	ATR	_	t_41|ref=Catoptrica_1
-40	περιόδου	περίοδος	n	n-s---fg-	Case=g|Gender=f|Number=s	38	ADV	_	t_42|ref=Catoptrica_1
-41	φθάσαι	φθάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	36	ADV	_	t_43|ref=Catoptrica_1
-42	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	43	ATR	_	t_44|ref=Catoptrica_1
-43	ὁρώμενον	ὁράω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	41	OBJ	_	t_45|ref=Catoptrica_1
-44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	45	ATR	_	t_46|ref=Catoptrica_1
-45	ὄψιν	ὄψις	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_47|ref=Catoptrica_1
-46	,	,	u	u--------	_	35	AuxX	_	t_48|ref=Catoptrica_1
-47	διὰ	διά	r	r--------	_	51	AuxP	_	t_49|ref=Catoptrica_1
-48	μακρᾶς	μακρός	a	a-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_50|ref=Catoptrica_1
-49	περιόδου	περίοδος	n	n-s---fg-	Case=g|Gender=f|Number=s	47	ADV	_	t_51|ref=Catoptrica_1
-50	τοῦτο	οὗτος	p	p-s---na-	Case=n|Gender=n|Number=s	51	SBJ	_	t_52|ref=Catoptrica_1
-51	φανήσεται	φαίνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	35	ADV	_	t_53|ref=Catoptrica_1
-52	καταλαμβάνουσα	καταλαμβάνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	51	PNOM	_	t_54|ref=Catoptrica_1
-53	.	.	u	u--------	_	35	AuxK	_	t_55|ref=Catoptrica_1
+1	Ἐπειδὴ	ἐπεί	c	c--------	_	35	AuxC	_	t_3|t_37|ref=Catopt._1
+2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_4|t_7|ref=Catopt._1
+3	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_5|t_10|ref=Catopt._1
+4	ὡμολογημένον	ὁμολογέω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	5	PNOM	_	t_6|t_7|ref=Catopt._1
+5	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_7|t_3|ref=Catopt._1
+6	παρὰ	παρά	r	r--------	_	4	AuxP	_	t_8|t_6|ref=Catopt._1
+7	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	6	ADV	_	t_9|t_8|ref=Catopt._1
+8	,	,	u	u--------	_	5	APOS	_	t_10|t_7|ref=Catopt._1
+9	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_11|t_10|ref=Catopt._1
+10	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	12	ADV	_	t_12|t_14|ref=Catopt._1
+11	μάτην	μάτην	d	d--------	_	12	ADV	_	t_13|t_14|ref=Catopt._1
+12	ἐργάζεται	ἐργάζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	SBJ	_	t_14|t_18|ref=Catopt._1
+13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_15|t_16|ref=Catopt._1
+14	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_16|t_18|ref=Catopt._1
+15	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_17|t_19|ref=Catopt._1
+16	δὲ	δέ	c	c--------	_	9	COORD	_	t_18|t_11|ref=Catopt._1
+17	ματαιοπονεῖ	ματαιοπονέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	SBJ	_	t_19|t_18|ref=Catopt._1
+18	,	,	u	u--------	_	1	AuxX	_	t_20|t_3|ref=Catopt._1
+19	ἐὰν	ἐάν	c	c--------	_	31	AuxC	_	t_21|t_33|ref=Catopt._1
+20	μὴ	μή	d	d--------	_	21	AuxZ	_	t_22|t_23|ref=Catopt._1
+21	δώσωμεν	δίδωμι	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	19	ADV	_	t_23|t_21|ref=Catopt._1
+22	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_24|t_27|ref=Catopt._1
+23	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	24	ATR	_	t_25|t_26|ref=Catopt._1
+24	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	22	PNOM	_	t_26|t_24|ref=Catopt._1
+25	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	21	OBJ	_	t_27|t_23|ref=Catopt._1
+26	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	27	ATR	_	t_28|t_29|ref=Catopt._1
+27	ἀνάκλασιν	ἀνάκλασις	n	n-s---fa-	Case=a|Gender=f|Number=s	25	SBJ	_	t_29|t_27|ref=Catopt._1
+28	,	,	u	u--------	_	35	AuxX	_	t_30|t_37|ref=Catopt._1
+29	πρὸς	πρός	r	r--------	_	31	AuxP	_	t_31|t_33|ref=Catopt._1
+30	ἀνίσους	ἄνισος	a	a-p---ma-	Case=a|Gender=m|Number=p	29	ADV	_	t_32|t_31|ref=Catopt._1
+31	ματαιοπονεῖ	ματαιοπονέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	35	PRED	_	t_33|t_37|ref=Catopt._1
+32	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	33	ATR	_	t_34|t_35|ref=Catopt._1
+33	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	31	SBJ	_	t_35|t_33|ref=Catopt._1
+34	,	,	u	u--------	_	35	AuxX	_	t_36|t_37|ref=Catopt._1
+35	καὶ	καί	c	c--------	_	0	COORD	_	t_37|0|ref=Catopt._1
+36	ἀντὶ	ἀντί	r	r--------	_	51	AuxP	_	t_38|t_53|ref=Catopt._1
+37	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	41	ATR	_	t_39|t_43|ref=Catopt._1
+38	διὰ	διά	r	r--------	_	41	AuxP	_	t_40|t_43|ref=Catopt._1
+39	βραχείας	βραχύς	a	a-s---fg-	Case=g|Gender=f|Number=s	40	ATR	_	t_41|t_42|ref=Catopt._1
+40	περιόδου	περίοδος	n	n-s---fg-	Case=g|Gender=f|Number=s	38	ADV	_	t_42|t_40|ref=Catopt._1
+41	φθάσαι	φθάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	36	ADV	_	t_43|t_38|ref=Catopt._1
+42	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	43	ATR	_	t_44|t_45|ref=Catopt._1
+43	ὁρώμενον	ὁράω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	41	OBJ	_	t_45|t_43|ref=Catopt._1
+44	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	45	ATR	_	t_46|t_47|ref=Catopt._1
+45	ὄψιν	ὄψις	n	n-s---fa-	Case=a|Gender=f|Number=s	43	OBJ	_	t_47|t_45|ref=Catopt._1
+46	,	,	u	u--------	_	35	AuxX	_	t_48|t_37|ref=Catopt._1
+47	διὰ	διά	r	r--------	_	51	AuxP	_	t_49|t_53|ref=Catopt._1
+48	μακρᾶς	μακρός	a	a-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_50|t_51|ref=Catopt._1
+49	περιόδου	περίοδος	n	n-s---fg-	Case=g|Gender=f|Number=s	47	ADV	_	t_51|t_49|ref=Catopt._1
+50	τοῦτο	οὗτος	p	p-s---na-	Case=n|Gender=n|Number=s	51	SBJ	_	t_52|t_53|ref=Catopt._1
+51	φανήσεται	φαίνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	35	ADV	_	t_53|t_37|ref=Catopt._1
+52	καταλαμβάνουσα	καταλαμβάνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	51	PNOM	_	t_54|t_53|ref=Catopt._1
+53	.	.	u	u--------	_	35	AuxK	_	t_55|t_37|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = εὑρεθήσονται γὰρ αἱ τὰς ἀνίσους γωνίας περιέχουσαι εὐθεῖαι , αἵτινες ἀπὸ τῆς ὄψεως φερομένας πρὸς τὸ κάτοπτρον κ ἀκεῖθεν πρὸς τὸ ὁρώμενον , μείζονες οὖσαι τῶν τὰς ἴσας γωνίας περιεχουσῶν εὐθειῶν [0] .
 # sent_id = 3
-1	εὑρεθήσονται	εὑρίσκω	v	v3pfip---	Mood=i|Number=p|Person=3|Tense=f|Voice=p	0	PRED	_	t_56|ref=Catoptrica_1
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_57|ref=Catoptrica_1
-3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	8	ATR	_	t_58|ref=Catoptrica_1
-4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_59|ref=Catoptrica_1
-5	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_60|ref=Catoptrica_1
-6	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_61|ref=Catoptrica_1
-7	περιέχουσαι	περιέχω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ATR	_	t_62|ref=Catoptrica_1
-8	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	1	SBJ	_	t_63|ref=Catoptrica_1
-9	,	,	u	u--------	_	1	AuxX	_	t_64|ref=Catoptrica_1
-10	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	32	SBJ	_	t_65|ref=Catoptrica_1
-11	ἀπὸ	ἀπό	r	r--------	_	18	AuxP	_	t_66|ref=Catoptrica_1
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_67|ref=Catoptrica_1
-13	ὄψεως	ὄψις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_68|ref=Catoptrica_1
-14	φερομένας	φέρω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_69|ref=Catoptrica_1
-15	πρὸς	πρός	r	r--------	_	14	AuxP	_	t_70|ref=Catoptrica_1
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_71|ref=Catoptrica_1
-17	κάτοπτρον	κάτοπτρον	n	n-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_72|ref=Catoptrica_1
-18	κ	καί	d	d--------	_	32	COORD	_	t_73|ref=Catoptrica_1
-19	ἀκεῖθεν	ἐκεῖθεν	d	d--------	_	32	ADV	_	t_74|ref=Catoptrica_1
-20	πρὸς	πρός	r	r--------	_	32	AuxP	_	t_75|ref=Catoptrica_1
-21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_76|ref=Catoptrica_1
-22	ὁρώμενον	ὁράω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_77|ref=Catoptrica_1
-23	,	,	u	u--------	_	1	AuxX	_	t_78|ref=Catoptrica_1
-24	μείζονες	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	25	PNOM	_	t_79|ref=Catoptrica_1
-25	οὖσαι	εἰμί	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	ADV	_	t_80|ref=Catoptrica_1
-26	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	31	ATR	_	t_81|ref=Catoptrica_1
-27	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_82|ref=Catoptrica_1
-28	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_83|ref=Catoptrica_1
-29	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	30	OBJ	_	t_84|ref=Catoptrica_1
-30	περιεχουσῶν	περιέχω	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	31	ATR	_	t_85|ref=Catoptrica_1
-31	εὐθειῶν	εὐθεῖα	n	n-p---fg-	Case=g|Gender=f|Number=p	24	ADV	_	t_86|ref=Catoptrica_1
-32	[0]	[0]	-	---------	_	25	COORD	_	e_1|ref=Catoptrica_1
-33	.	.	u	u--------	_	1	AuxK	_	t_87|ref=Catoptrica_1
+1	εὑρεθήσονται	εὑρίσκω	v	v3pfip---	Mood=i|Number=p|Person=3|Tense=f|Voice=p	0	PRED	_	t_56|0|ref=Catopt._1
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_57|t_56|ref=Catopt._1
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	8	ATR	_	t_58|t_63|ref=Catopt._1
+4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_59|t_61|ref=Catopt._1
+5	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_60|t_61|ref=Catopt._1
+6	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_61|t_62|ref=Catopt._1
+7	περιέχουσαι	περιέχω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ATR	_	t_62|t_63|ref=Catopt._1
+8	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	1	SBJ	_	t_63|t_56|ref=Catopt._1
+9	,	,	u	u--------	_	1	AuxX	_	t_64|t_56|ref=Catopt._1
+10	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	32	SBJ	_	t_65|e_1|ref=Catopt._1
+11	ἀπὸ	ἀπό	r	r--------	_	18	AuxP	_	t_66|t_73|ref=Catopt._1
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_67|t_68|ref=Catopt._1
+13	ὄψεως	ὄψις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_68|t_66|ref=Catopt._1
+14	φερομένας	φέρω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_69|t_73|ref=Catopt._1
+15	πρὸς	πρός	r	r--------	_	14	AuxP	_	t_70|t_69|ref=Catopt._1
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_71|t_72|ref=Catopt._1
+17	κάτοπτρον	κάτοπτρον	n	n-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_72|t_70|ref=Catopt._1
+18	κ	καί	d	d--------	_	32	COORD	_	t_73|e_1|ref=Catopt._1
+19	ἀκεῖθεν	ἐκεῖθεν	d	d--------	_	32	ADV	_	t_74|e_1|ref=Catopt._1
+20	πρὸς	πρός	r	r--------	_	32	AuxP	_	t_75|e_1|ref=Catopt._1
+21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_76|t_77|ref=Catopt._1
+22	ὁρώμενον	ὁράω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_77|t_75|ref=Catopt._1
+23	,	,	u	u--------	_	1	AuxX	_	t_78|t_56|ref=Catopt._1
+24	μείζονες	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	25	PNOM	_	t_79|t_80|ref=Catopt._1
+25	οὖσαι	εἰμί	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	ADV	_	t_80|t_56|ref=Catopt._1
+26	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	31	ATR	_	t_81|t_86|ref=Catopt._1
+27	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_82|t_84|ref=Catopt._1
+28	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	29	ATR	_	t_83|t_84|ref=Catopt._1
+29	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	30	OBJ	_	t_84|t_85|ref=Catopt._1
+30	περιεχουσῶν	περιέχω	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	31	ATR	_	t_85|t_86|ref=Catopt._1
+31	εὐθειῶν	εὐθεῖα	n	n-p---fg-	Case=g|Gender=f|Number=p	24	ADV	_	t_86|t_79|ref=Catopt._1
+32	[0]	[0]	-	---------	_	25	COORD	_	e_1|t_80|ref=Catopt._1
+33	.	.	u	u--------	_	1	AuxK	_	t_87|t_56|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = καὶ ὅτι τοῦτο ἀληθές , δῆλον ἐντεῦθεν [0] [1] .
 # sent_id = 4
-1	καὶ	καί	d	d--------	_	8	AuxY	_	t_88|ref=Catoptrica_1
-2	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_89|ref=Catoptrica_1
-3	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_90|ref=Catoptrica_1
-4	ἀληθές	ἀληθής	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_91|ref=Catoptrica_1
-5	,	,	u	u--------	_	8	AuxX	_	t_92|ref=Catoptrica_1
-6	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_93|ref=Catoptrica_1
-7	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	9	ADV	_	t_94|ref=Catoptrica_1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Catoptrica_1
-9	[1]	[1]	-	---------	_	2	SBJ	_	e_3|ref=Catoptrica_1
-10	.	.	u	u--------	_	8	AuxK	_	t_95|ref=Catoptrica_1
+1	καὶ	καί	d	d--------	_	8	AuxY	_	t_88|e_2|ref=Catopt._1
+2	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_89|e_2|ref=Catopt._1
+3	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_90|e_3|ref=Catopt._1
+4	ἀληθές	ἀληθής	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_91|e_2|ref=Catopt._1
+5	,	,	u	u--------	_	8	AuxX	_	t_92|e_2|ref=Catopt._1
+6	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_93|e_2|ref=Catopt._1
+7	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	9	ADV	_	t_94|e_3|ref=Catopt._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Catopt._1
+9	[1]	[1]	-	---------	_	2	SBJ	_	e_3|t_89|ref=Catopt._1
+10	.	.	u	u--------	_	8	AuxK	_	t_95|e_2|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = Ὑποκείσω γὰρ τὸ κάτοπτρον εὐθεῖά τις ἡ ΑΒ , καὶ ἔστω τὸ μὲν ὁρῶν Γ , τὸ δʼ ὁρώμενον τὸ ∠ , τὸ δὲ Ε σημεῖον τοῦ κατόπτρου , ἐν ᾧ προσπίπτουσα ἡ ὄψις ἀνακλᾶται πρὸς τὸ ὁρώμενον , ἔστω , καὶ ἐπεζεύχθω ἡ ΓΕ Ε∠ [0] .
 # sent_id = 5
-1	Ὑποκείσω	ὑποκείμαι	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	10	PRED	_	t_96|ref=Catoptrica_1
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_97|ref=Catoptrica_1
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_98|ref=Catoptrica_1
-4	κάτοπτρον	κάτοπτρον	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_99|ref=Catoptrica_1
-5	εὐθεῖά	εὐθύς	n	n-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_100|ref=Catoptrica_1
-6	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	8	ATR	_	t_101|ref=Catoptrica_1
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_102|ref=Catoptrica_1
-8	ΑΒ	αβ	n	n--------	_	4	APOS	_	t_103|ref=Catoptrica_1
-9	,	,	u	u--------	_	0	AuxX	_	t_104|ref=Catoptrica_1
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_105|ref=Catoptrica_1
-11	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	24	PRED	_	t_106|ref=Catoptrica_1
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_107|ref=Catoptrica_1
-13	μὲν	μέν	d	d--------	_	18	AuxY	_	t_108|ref=Catoptrica_1
-14	ὁρῶν	ὁράω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_109|ref=Catoptrica_1
-15	Γ	γ	n	n--------	_	14	APOS	_	t_110|ref=Catoptrica_1
-16	,	,	u	u--------	_	9	AuxX	_	t_111|ref=Catoptrica_1
-17	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_112|ref=Catoptrica_1
-18	δʼ	δέ	d	d--------	_	11	COORD	_	t_113|ref=Catoptrica_1
-19	ὁρώμενον	ὁράω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	47	SBJ	_	t_114|ref=Catoptrica_1
-20	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	21	ATR	_	t_115|ref=Catoptrica_1
-21	∠	∠	n	n--------	_	19	APOS	_	t_116|ref=Catoptrica_1
-22	,	,	u	u--------	_	9	AuxX	_	t_117|ref=Catoptrica_1
-23	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	26	ATR	_	t_118|ref=Catoptrica_1
-24	δὲ	δέ	d	d--------	_	42	AuxY	_	t_119|ref=Catoptrica_1
-25	Ε	ε	n	n-s---nn-	Case=n|Gender=n|Number=s	40	SBJ	_	t_120|ref=Catoptrica_1
-26	σημεῖον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	40	SBJ	_	t_121|ref=Catoptrica_1
-27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_122|ref=Catoptrica_1
-28	κατόπτρου	κάτοπτρον	n	n-s---ng-	Case=g|Gender=n|Number=s	26	ATR	_	t_123|ref=Catoptrica_1
-29	,	,	u	u--------	_	9	AuxX	_	t_124|ref=Catoptrica_1
-30	ἐν	ἐν	r	r--------	_	35	AuxP	_	t_125|ref=Catoptrica_1
-31	ᾧ	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	30	ADV	_	t_126|ref=Catoptrica_1
-32	προσπίπτουσα	προσπίτνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_127|ref=Catoptrica_1
-33	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	34	ATR	_	t_128|ref=Catoptrica_1
-34	ὄψις	ὄψις	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_129|ref=Catoptrica_1
-35	ἀνακλᾶται	ἀνακλάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	26	ATR	_	t_130|ref=Catoptrica_1
-36	πρὸς	πρός	r	r--------	_	35	AuxP	_	t_131|ref=Catoptrica_1
-37	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	38	ATR	_	t_132|ref=Catoptrica_1
-38	ὁρώμενον	ὁράω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	36	OBJ	_	t_133|ref=Catoptrica_1
-39	,	,	u	u--------	_	9	AuxX	_	t_134|ref=Catoptrica_1
-40	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	42	PRED	_	t_135|ref=Catoptrica_1
-41	,	,	u	u--------	_	9	AuxX	_	t_136|ref=Catoptrica_1
-42	καὶ	καί	c	c--------	_	9	COORD	_	t_137|ref=Catoptrica_1
-43	ἐπεζεύχθω	ἐφήδομαι	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	42	PRED	_	t_138|ref=Catoptrica_1
-44	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	45	ATR	_	t_139|ref=Catoptrica_1
-45	ΓΕ	γε	n	n--------	Case=n|Gender=f|Number=s	43	SBJ	_	t_140|ref=Catoptrica_1
-46	Ε∠	ε∠	n	n--------	_	45	APOS	_	t_141|ref=Catoptrica_1
-47	[0]	[0]	-	---------	_	18	PRED	_	e_4|ref=Catoptrica_1
-48	.	.	u	u--------	_	9	AuxK	_	t_142|ref=Catoptrica_1
+1	Ὑποκείσω	ὑποκείμαι	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	10	PRED	_	t_96|t_105|ref=Catopt._1
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_97|t_96|ref=Catopt._1
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_98|t_99|ref=Catopt._1
+4	κάτοπτρον	κάτοπτρον	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_99|t_96|ref=Catopt._1
+5	εὐθεῖά	εὐθύς	n	n-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_100|t_99|ref=Catopt._1
+6	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	8	ATR	_	t_101|t_103|ref=Catopt._1
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_102|t_103|ref=Catopt._1
+8	ΑΒ	αβ	n	n--------	_	4	APOS	_	t_103|t_99|ref=Catopt._1
+9	,	,	u	u--------	_	0	AuxX	_	t_104|0|ref=Catopt._1
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_105|t_104|ref=Catopt._1
+11	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	24	PRED	_	t_106|t_119|ref=Catopt._1
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_107|t_110|ref=Catopt._1
+13	μὲν	μέν	d	d--------	_	18	AuxY	_	t_108|t_113|ref=Catopt._1
+14	ὁρῶν	ὁράω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_109|t_106|ref=Catopt._1
+15	Γ	γ	n	n--------	_	14	APOS	_	t_110|t_109|ref=Catopt._1
+16	,	,	u	u--------	_	9	AuxX	_	t_111|t_104|ref=Catopt._1
+17	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_112|t_114|ref=Catopt._1
+18	δʼ	δέ	d	d--------	_	11	COORD	_	t_113|t_106|ref=Catopt._1
+19	ὁρώμενον	ὁράω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	47	SBJ	_	t_114|e_4|ref=Catopt._1
+20	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	21	ATR	_	t_115|t_116|ref=Catopt._1
+21	∠	∠	n	n--------	_	19	APOS	_	t_116|t_114|ref=Catopt._1
+22	,	,	u	u--------	_	9	AuxX	_	t_117|t_104|ref=Catopt._1
+23	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	26	ATR	_	t_118|t_121|ref=Catopt._1
+24	δὲ	δέ	d	d--------	_	42	AuxY	_	t_119|t_137|ref=Catopt._1
+25	Ε	ε	n	n-s---nn-	Case=n|Gender=n|Number=s	40	SBJ	_	t_120|t_135|ref=Catopt._1
+26	σημεῖον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	40	SBJ	_	t_121|t_135|ref=Catopt._1
+27	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	28	ATR	_	t_122|t_123|ref=Catopt._1
+28	κατόπτρου	κάτοπτρον	n	n-s---ng-	Case=g|Gender=n|Number=s	26	ATR	_	t_123|t_121|ref=Catopt._1
+29	,	,	u	u--------	_	9	AuxX	_	t_124|t_104|ref=Catopt._1
+30	ἐν	ἐν	r	r--------	_	35	AuxP	_	t_125|t_130|ref=Catopt._1
+31	ᾧ	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	30	ADV	_	t_126|t_125|ref=Catopt._1
+32	προσπίπτουσα	προσπίτνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_127|t_130|ref=Catopt._1
+33	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	34	ATR	_	t_128|t_129|ref=Catopt._1
+34	ὄψις	ὄψις	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_129|t_130|ref=Catopt._1
+35	ἀνακλᾶται	ἀνακλάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	26	ATR	_	t_130|t_121|ref=Catopt._1
+36	πρὸς	πρός	r	r--------	_	35	AuxP	_	t_131|t_130|ref=Catopt._1
+37	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	38	ATR	_	t_132|t_133|ref=Catopt._1
+38	ὁρώμενον	ὁράω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	36	OBJ	_	t_133|t_131|ref=Catopt._1
+39	,	,	u	u--------	_	9	AuxX	_	t_134|t_104|ref=Catopt._1
+40	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	42	PRED	_	t_135|t_137|ref=Catopt._1
+41	,	,	u	u--------	_	9	AuxX	_	t_136|t_104|ref=Catopt._1
+42	καὶ	καί	c	c--------	_	9	COORD	_	t_137|t_104|ref=Catopt._1
+43	ἐπεζεύχθω	ἐφήδομαι	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	42	PRED	_	t_138|t_137|ref=Catopt._1
+44	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	45	ATR	_	t_139|t_140|ref=Catopt._1
+45	ΓΕ	γε	n	n--------	Case=n|Gender=f|Number=s	43	SBJ	_	t_140|t_138|ref=Catopt._1
+46	Ε∠	ε∠	n	n--------	_	45	APOS	_	t_141|t_140|ref=Catopt._1
+47	[0]	[0]	-	---------	_	18	PRED	_	e_4|t_113|ref=Catopt._1
+48	.	.	u	u--------	_	9	AuxK	_	t_142|t_104|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = λέγω ὅτι ἡ ὑπὸ ΑΕΓ γωνία ἴση ἐστὶ τῇ ὑπὸ ∠ΕΒ .
 # sent_id = 6
-1	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_143|ref=Catoptrica_1
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_144|ref=Catoptrica_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_145|ref=Catoptrica_1
-4	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_146|ref=Catoptrica_1
-5	ΑΕΓ	αεγ	n	n--------	_	4	APOS	_	t_147|ref=Catoptrica_1
-6	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_148|ref=Catoptrica_1
-7	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_149|ref=Catoptrica_1
-8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	OBJ	_	t_150|ref=Catoptrica_1
-9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_151|ref=Catoptrica_1
-10	ὑπὸ	ὑπό	r	r--------	_	9	AuxP	_	t_152|ref=Catoptrica_1
-11	∠ΕΒ	∠εβ	n	n--------	_	10	APOS	_	t_153|ref=Catoptrica_1
-12	.	.	u	u--------	_	1	AuxK	_	t_154|ref=Catoptrica_1
+1	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_143|0|ref=Catopt._1
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_144|t_143|ref=Catopt._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_145|t_148|ref=Catopt._1
+4	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_146|t_148|ref=Catopt._1
+5	ΑΕΓ	αεγ	n	n--------	_	4	APOS	_	t_147|t_146|ref=Catopt._1
+6	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_148|t_150|ref=Catopt._1
+7	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_149|t_150|ref=Catopt._1
+8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	OBJ	_	t_150|t_144|ref=Catopt._1
+9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_151|t_149|ref=Catopt._1
+10	ὑπὸ	ὑπό	r	r--------	_	9	AuxP	_	t_152|t_151|ref=Catopt._1
+11	∠ΕΒ	∠εβ	n	n--------	_	10	APOS	_	t_153|t_152|ref=Catopt._1
+12	.	.	u	u--------	_	1	AuxK	_	t_154|t_143|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = εἰ γὰρ μὴ ἔστιν ἴση , ἔστω ἕτερον σημεῖον τοῦ κατόπτρου , ἐν ᾧ προσπίπτουσα ἡ ὄψις πρὸς ἀνίσους γωνίας ἀνακλᾶται , τὸ Ζ , καὶ ἐπεζεύχθω ἡ ΓΖ , Ζ∠ .
 # sent_id = 7
-1	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_155|ref=Catoptrica_1
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_156|ref=Catoptrica_1
-3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_157|ref=Catoptrica_1
-4	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_158|ref=Catoptrica_1
-5	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_159|ref=Catoptrica_1
-6	,	,	u	u--------	_	7	AuxX	_	t_160|ref=Catoptrica_1
-7	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	26	PRED	_	t_161|ref=Catoptrica_1
-8	ἕτερον	ἕτερος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_162|ref=Catoptrica_1
-9	σημεῖον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_163|ref=Catoptrica_1
-10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_164|ref=Catoptrica_1
-11	κατόπτρου	κάτοπτρον	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_165|ref=Catoptrica_1
-12	,	,	u	u--------	_	7	AuxX	_	t_166|ref=Catoptrica_1
-13	ἐν	ἐν	r	r--------	_	21	AuxP	_	t_167|ref=Catoptrica_1
-14	ᾧ	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	13	ADV	_	t_168|ref=Catoptrica_1
-15	προσπίπτουσα	προσπίτνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_169|ref=Catoptrica_1
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_170|ref=Catoptrica_1
-17	ὄψις	ὄψις	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_171|ref=Catoptrica_1
-18	πρὸς	πρός	r	r--------	_	15	AuxP	_	t_172|ref=Catoptrica_1
-19	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_173|ref=Catoptrica_1
-20	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	18	OBJ	_	t_174|ref=Catoptrica_1
-21	ἀνακλᾶται	ἀνακλάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	ATR	_	t_175|ref=Catoptrica_1
-22	,	,	u	u--------	_	7	AuxX	_	t_176|ref=Catoptrica_1
-23	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	ATR	_	t_177|ref=Catoptrica_1
-24	Ζ	ζ	n	n--------	_	9	APOS	_	t_178|ref=Catoptrica_1
-25	,	,	u	u--------	_	7	AuxX	_	t_179|ref=Catoptrica_1
-26	καὶ	καί	c	c--------	_	0	COORD	_	t_180|ref=Catoptrica_1
-27	ἐπεζεύχθω	ἐφήδομαι	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	26	ATR	_	t_181|ref=Catoptrica_1
-28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	30	ATR	_	t_182|ref=Catoptrica_1
-29	ΓΖ	γζ	n	n--------	_	30	APOS	_	t_183|ref=Catoptrica_1
-30	,	,	u	u--------	_	27	COORD	_	t_184|ref=Catoptrica_1
-31	Ζ∠	ζ	n	n--------	_	30	APOS	_	t_185|ref=Catoptrica_1
-32	.	.	u	u--------	_	7	AuxK	_	t_186|ref=Catoptrica_1
+1	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_155|t_161|ref=Catopt._1
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_156|t_161|ref=Catopt._1
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_157|t_158|ref=Catopt._1
+4	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_158|t_155|ref=Catopt._1
+5	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_159|t_158|ref=Catopt._1
+6	,	,	u	u--------	_	7	AuxX	_	t_160|t_161|ref=Catopt._1
+7	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	26	PRED	_	t_161|t_180|ref=Catopt._1
+8	ἕτερον	ἕτερος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_162|t_163|ref=Catopt._1
+9	σημεῖον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_163|t_161|ref=Catopt._1
+10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_164|t_165|ref=Catopt._1
+11	κατόπτρου	κάτοπτρον	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_165|t_163|ref=Catopt._1
+12	,	,	u	u--------	_	7	AuxX	_	t_166|t_161|ref=Catopt._1
+13	ἐν	ἐν	r	r--------	_	21	AuxP	_	t_167|t_175|ref=Catopt._1
+14	ᾧ	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	13	ADV	_	t_168|t_167|ref=Catopt._1
+15	προσπίπτουσα	προσπίτνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_169|t_175|ref=Catopt._1
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_170|t_171|ref=Catopt._1
+17	ὄψις	ὄψις	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_171|t_175|ref=Catopt._1
+18	πρὸς	πρός	r	r--------	_	15	AuxP	_	t_172|t_169|ref=Catopt._1
+19	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	20	ATR	_	t_173|t_174|ref=Catopt._1
+20	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	18	OBJ	_	t_174|t_172|ref=Catopt._1
+21	ἀνακλᾶται	ἀνακλάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	ATR	_	t_175|t_163|ref=Catopt._1
+22	,	,	u	u--------	_	7	AuxX	_	t_176|t_161|ref=Catopt._1
+23	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	ATR	_	t_177|t_178|ref=Catopt._1
+24	Ζ	ζ	n	n--------	_	9	APOS	_	t_178|t_163|ref=Catopt._1
+25	,	,	u	u--------	_	7	AuxX	_	t_179|t_161|ref=Catopt._1
+26	καὶ	καί	c	c--------	_	0	COORD	_	t_180|0|ref=Catopt._1
+27	ἐπεζεύχθω	ἐφήδομαι	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	26	ATR	_	t_181|t_180|ref=Catopt._1
+28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	30	ATR	_	t_182|t_184|ref=Catopt._1
+29	ΓΖ	γζ	n	n--------	_	30	APOS	_	t_183|t_184|ref=Catopt._1
+30	,	,	u	u--------	_	27	COORD	_	t_184|t_181|ref=Catopt._1
+31	Ζ∠	ζ	n	n--------	_	30	APOS	_	t_185|t_184|ref=Catopt._1
+32	.	.	u	u--------	_	7	AuxK	_	t_186|t_161|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = δῆλον ὅτι ἡ ὑπὸ ΓΖΑ γωνία μείζων ἐστὶ τῆς ὑπὸ ∠ΖΕ γωνίας [0] .
 # sent_id = 8
-1	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_187|ref=Catoptrica_1
-2	ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_188|ref=Catoptrica_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_189|ref=Catoptrica_1
-4	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_190|ref=Catoptrica_1
-5	ΓΖΑ	γζα	n	n--------	_	4	ATR	_	t_191|ref=Catoptrica_1
-6	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_192|ref=Catoptrica_1
-7	μείζων	μέγας	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	8	PNOM	_	t_193|ref=Catoptrica_1
-8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	SBJ	_	t_194|ref=Catoptrica_1
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_195|ref=Catoptrica_1
-10	ὑπὸ	ὑπό	r	r--------	_	12	AuxP	_	t_196|ref=Catoptrica_1
-11	∠ΖΕ	∠ζε	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_197|ref=Catoptrica_1
-12	γωνίας	γωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_198|ref=Catoptrica_1
-13	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Catoptrica_1
-14	.	.	u	u--------	_	13	AuxK	_	t_199|ref=Catoptrica_1
+1	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_187|e_5|ref=Catopt._1
+2	ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_188|e_5|ref=Catopt._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_189|t_192|ref=Catopt._1
+4	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_190|t_192|ref=Catopt._1
+5	ΓΖΑ	γζα	n	n--------	_	4	ATR	_	t_191|t_190|ref=Catopt._1
+6	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_192|t_194|ref=Catopt._1
+7	μείζων	μέγας	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	8	PNOM	_	t_193|t_194|ref=Catopt._1
+8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	SBJ	_	t_194|t_188|ref=Catopt._1
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_195|t_198|ref=Catopt._1
+10	ὑπὸ	ὑπό	r	r--------	_	12	AuxP	_	t_196|t_198|ref=Catopt._1
+11	∠ΖΕ	∠ζε	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_197|t_196|ref=Catopt._1
+12	γωνίας	γωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_198|t_193|ref=Catopt._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Catopt._1
+14	.	.	u	u--------	_	13	AuxK	_	t_199|e_5|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = λέγω ὅτι αἱ ΓΖ , Ζ∠ εὐθεῖαι , αἵτινες τὰς ἀνίσους γωνίας περιέχουσιν ὑποκειμένης τῆς ΑΒ εὐθείας , μείζονές εἰσι τῶν ΓΕ , Ε∠ εὐθειῶν , αἵτινες τὰς ἴσας γωνίας περιέχουσι μετὰ τῆς ΑΒ .
 # sent_id = 9
-1	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_200|ref=Catoptrica_1
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_201|ref=Catoptrica_1
-3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_202|ref=Catoptrica_1
-4	ΓΖ	γζ	n	n--------	_	5	APOS	_	t_203|ref=Catoptrica_1
-5	,	,	u	u--------	_	7	COORD	_	t_204|ref=Catoptrica_1
-6	Ζ∠	ζ	n	n--------	_	5	APOS	_	t_205|ref=Catoptrica_1
-7	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	20	SBJ	_	t_206|ref=Catoptrica_1
-8	,	,	u	u--------	_	1	AuxX	_	t_207|ref=Catoptrica_1
-9	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_208|ref=Catoptrica_1
-10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_209|ref=Catoptrica_1
-11	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_210|ref=Catoptrica_1
-12	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_211|ref=Catoptrica_1
-13	περιέχουσιν	περιέχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ATR	_	t_212|ref=Catoptrica_1
-14	ὑποκειμένης	ὑπόκειμαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_213|ref=Catoptrica_1
-15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_214|ref=Catoptrica_1
-16	ΑΒ	αβ	n	n--------	_	17	APOS	_	t_215|ref=Catoptrica_1
-17	εὐθείας	εὐθεῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	14	SBJ	_	t_216|ref=Catoptrica_1
-18	,	,	u	u--------	_	1	AuxX	_	t_217|ref=Catoptrica_1
-19	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	20	PNOM	_	t_218|ref=Catoptrica_1
-20	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	OBJ	_	t_219|ref=Catoptrica_1
-21	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	25	ATR	_	t_220|ref=Catoptrica_1
-22	ΓΕ	γε	n	n--------	_	23	APOS	_	t_221|ref=Catoptrica_1
-23	,	,	u	u--------	_	25	COORD	_	t_222|ref=Catoptrica_1
-24	Ε∠	ε∠	n	n--------	_	23	APOS	_	t_223|ref=Catoptrica_1
-25	εὐθειῶν	εὐθεῖα	n	n-p---fg-	Case=g|Gender=f|Number=p	19	ADV	_	t_224|ref=Catoptrica_1
-26	,	,	u	u--------	_	1	AuxX	_	t_225|ref=Catoptrica_1
-27	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	31	SBJ	_	t_226|ref=Catoptrica_1
-28	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	30	ATR	_	t_227|ref=Catoptrica_1
-29	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	30	ATR	_	t_228|ref=Catoptrica_1
-30	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	31	OBJ	_	t_229|ref=Catoptrica_1
-31	περιέχουσι	περιέχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	25	ATR	_	t_230|ref=Catoptrica_1
-32	μετὰ	μετά	r	r--------	_	31	AuxP	_	t_231|ref=Catoptrica_1
-33	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_232|ref=Catoptrica_1
-34	ΑΒ	αβ	n	n--------	Case=g|Gender=f|Number=s	32	ADV	_	t_233|ref=Catoptrica_1
-35	.	.	u	u--------	_	1	AuxK	_	t_234|ref=Catoptrica_1
+1	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_200|0|ref=Catopt._1
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_201|t_200|ref=Catopt._1
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_202|t_206|ref=Catopt._1
+4	ΓΖ	γζ	n	n--------	_	5	APOS	_	t_203|t_204|ref=Catopt._1
+5	,	,	u	u--------	_	7	COORD	_	t_204|t_206|ref=Catopt._1
+6	Ζ∠	ζ	n	n--------	_	5	APOS	_	t_205|t_204|ref=Catopt._1
+7	εὐθεῖαι	εὐθεῖα	n	n-p---fn-	Case=n|Gender=f|Number=p	20	SBJ	_	t_206|t_219|ref=Catopt._1
+8	,	,	u	u--------	_	1	AuxX	_	t_207|t_200|ref=Catopt._1
+9	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_208|t_212|ref=Catopt._1
+10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_209|t_211|ref=Catopt._1
+11	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_210|t_211|ref=Catopt._1
+12	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_211|t_212|ref=Catopt._1
+13	περιέχουσιν	περιέχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ATR	_	t_212|t_206|ref=Catopt._1
+14	ὑποκειμένης	ὑπόκειμαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_213|t_212|ref=Catopt._1
+15	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_214|t_216|ref=Catopt._1
+16	ΑΒ	αβ	n	n--------	_	17	APOS	_	t_215|t_216|ref=Catopt._1
+17	εὐθείας	εὐθεῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	14	SBJ	_	t_216|t_213|ref=Catopt._1
+18	,	,	u	u--------	_	1	AuxX	_	t_217|t_200|ref=Catopt._1
+19	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	20	PNOM	_	t_218|t_219|ref=Catopt._1
+20	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	OBJ	_	t_219|t_201|ref=Catopt._1
+21	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	25	ATR	_	t_220|t_224|ref=Catopt._1
+22	ΓΕ	γε	n	n--------	_	23	APOS	_	t_221|t_222|ref=Catopt._1
+23	,	,	u	u--------	_	25	COORD	_	t_222|t_224|ref=Catopt._1
+24	Ε∠	ε∠	n	n--------	_	23	APOS	_	t_223|t_222|ref=Catopt._1
+25	εὐθειῶν	εὐθεῖα	n	n-p---fg-	Case=g|Gender=f|Number=p	19	ADV	_	t_224|t_218|ref=Catopt._1
+26	,	,	u	u--------	_	1	AuxX	_	t_225|t_200|ref=Catopt._1
+27	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	31	SBJ	_	t_226|t_230|ref=Catopt._1
+28	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	30	ATR	_	t_227|t_229|ref=Catopt._1
+29	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	30	ATR	_	t_228|t_229|ref=Catopt._1
+30	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	31	OBJ	_	t_229|t_230|ref=Catopt._1
+31	περιέχουσι	περιέχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	25	ATR	_	t_230|t_224|ref=Catopt._1
+32	μετὰ	μετά	r	r--------	_	31	AuxP	_	t_231|t_230|ref=Catopt._1
+33	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_232|t_233|ref=Catopt._1
+34	ΑΒ	αβ	n	n--------	Case=g|Gender=f|Number=s	32	ADV	_	t_233|t_231|ref=Catopt._1
+35	.	.	u	u--------	_	1	AuxK	_	t_234|t_200|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ἤχθω γὰρ κάθετος ἀπὸ τοῦ ∠ ἐπὶ τὴν ΑΒ κατὰ τὸ Η σημεῖον | καὶ ἐκβεβλήσθω ἐπʼ εὐθείας ὡς ἐπὶ τὸ Θ. φανερὸν δὴ ὅτι αἱ πρὸς τῷ γωνίαι ἴσαι εἰσίν [0] .
 # sent_id = 10
-1	ἤχθω	ἄγω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	15	PRED	_	t_235|ref=Catoptrica_1
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_236|ref=Catoptrica_1
-3	κάθετος	κάθετος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_237|ref=Catoptrica_1
-4	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_238|ref=Catoptrica_1
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=m|Number=s	6	ATR	_	t_239|ref=Catoptrica_1
-6	∠	∠	n	n--------	_	4	ADV	_	t_240|ref=Catoptrica_1
-7	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_241|ref=Catoptrica_1
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_242|ref=Catoptrica_1
-9	ΑΒ	αβ	n	n--------	_	7	ADV	_	t_243|ref=Catoptrica_1
-10	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_244|ref=Catoptrica_1
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_245|ref=Catoptrica_1
-12	Η	η	n	n-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_246|ref=Catoptrica_1
-13	σημεῖον	σημεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_247|ref=Catoptrica_1
-14	|	|	u	u--------	_	32	AuxG	_	t_248|ref=Catoptrica_1
-15	καὶ	καί	c	c--------	_	0	COORD	_	t_249|ref=Catoptrica_1
-16	ἐκβεβλήσθω	διαβαίνω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	15	PRED	_	t_250|ref=Catoptrica_1
-17	ἐπʼ	ἐπί	r	r--------	_	16	AuxP	_	t_251|ref=Catoptrica_1
-18	εὐθείας	εὐθεῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_252|ref=Catoptrica_1
-19	ὡς	ὡς	c	c--------	_	16	AuxC	_	t_253|ref=Catoptrica_1
-20	ἐπὶ	ἐπί	r	r--------	_	32	AuxP	_	t_254|ref=Catoptrica_1
-21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_255|ref=Catoptrica_1
-22	Θ.	θ.	n	n--------	_	32	ADV	_	t_256|ref=Catoptrica_1
-23	φανερὸν	φανερός	a	a-s---nn-	Case=n|Gender=n|Number=s	32	PNOM	_	t_257|ref=Catoptrica_1
-24	δὴ	δή	d	d--------	_	32	AuxY	_	t_258|ref=Catoptrica_1
-25	ὅτι	ὅτι	c	c--------	_	32	AuxC	_	t_259|ref=Catoptrica_1
-26	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	29	ATR	_	t_260|ref=Catoptrica_1
-27	πρὸς	πρός	r	r--------	_	29	AuxP	_	t_261|ref=Catoptrica_1
-28	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	27	ATR	_	t_262|ref=Catoptrica_1
-29	γωνίαι	γωνία	n	n-p---fn-	Case=n|Gender=f|Number=p	31	SBJ	_	t_263|ref=Catoptrica_1
-30	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	31	PNOM	_	t_264|ref=Catoptrica_1
-31	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	25	SBJ	_	t_265|ref=Catoptrica_1
-32	[0]	[0]	-	---------	_	19	ADV	_	e_6|ref=Catoptrica_1
-33	.	.	u	u--------	_	15	AuxK	_	t_266|ref=Catoptrica_1
+1	ἤχθω	ἄγω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	15	PRED	_	t_235|t_249|ref=Catopt._1
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_236|t_235|ref=Catopt._1
+3	κάθετος	κάθετος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_237|t_235|ref=Catopt._1
+4	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_238|t_235|ref=Catopt._1
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=m|Number=s	6	ATR	_	t_239|t_240|ref=Catopt._1
+6	∠	∠	n	n--------	_	4	ADV	_	t_240|t_238|ref=Catopt._1
+7	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_241|t_235|ref=Catopt._1
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_242|t_243|ref=Catopt._1
+9	ΑΒ	αβ	n	n--------	_	7	ADV	_	t_243|t_241|ref=Catopt._1
+10	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_244|t_235|ref=Catopt._1
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_245|t_247|ref=Catopt._1
+12	Η	η	n	n-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_246|t_247|ref=Catopt._1
+13	σημεῖον	σημεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_247|t_244|ref=Catopt._1
+14	|	|	u	u--------	_	32	AuxG	_	t_248|e_6|ref=Catopt._1
+15	καὶ	καί	c	c--------	_	0	COORD	_	t_249|0|ref=Catopt._1
+16	ἐκβεβλήσθω	διαβαίνω	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	15	PRED	_	t_250|t_249|ref=Catopt._1
+17	ἐπʼ	ἐπί	r	r--------	_	16	AuxP	_	t_251|t_250|ref=Catopt._1
+18	εὐθείας	εὐθεῖα	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_252|t_251|ref=Catopt._1
+19	ὡς	ὡς	c	c--------	_	16	AuxC	_	t_253|t_250|ref=Catopt._1
+20	ἐπὶ	ἐπί	r	r--------	_	32	AuxP	_	t_254|e_6|ref=Catopt._1
+21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_255|t_256|ref=Catopt._1
+22	Θ.	θ.	n	n--------	_	32	ADV	_	t_256|e_6|ref=Catopt._1
+23	φανερὸν	φανερός	a	a-s---nn-	Case=n|Gender=n|Number=s	32	PNOM	_	t_257|e_6|ref=Catopt._1
+24	δὴ	δή	d	d--------	_	32	AuxY	_	t_258|e_6|ref=Catopt._1
+25	ὅτι	ὅτι	c	c--------	_	32	AuxC	_	t_259|e_6|ref=Catopt._1
+26	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	29	ATR	_	t_260|t_263|ref=Catopt._1
+27	πρὸς	πρός	r	r--------	_	29	AuxP	_	t_261|t_263|ref=Catopt._1
+28	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	27	ATR	_	t_262|t_261|ref=Catopt._1
+29	γωνίαι	γωνία	n	n-p---fn-	Case=n|Gender=f|Number=p	31	SBJ	_	t_263|t_265|ref=Catopt._1
+30	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	31	PNOM	_	t_264|t_265|ref=Catopt._1
+31	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	25	SBJ	_	t_265|t_259|ref=Catopt._1
+32	[0]	[0]	-	---------	_	19	ADV	_	e_6|t_253|ref=Catopt._1
+33	.	.	u	u--------	_	15	AuxK	_	t_266|t_249|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ὀρθαὶ γάρ εἰσι .
 # sent_id = 11
-1	ὀρθαὶ	ὀρθός	a	a-p---fn-	Case=n|Gender=f|Number=p	3	PNOM	_	t_267|ref=Catoptrica_1
-2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_268|ref=Catoptrica_1
-3	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_269|ref=Catoptrica_1
-4	.	.	u	u--------	_	3	AuxK	_	t_270|ref=Catoptrica_1
+1	ὀρθαὶ	ὀρθός	a	a-p---fn-	Case=n|Gender=f|Number=p	3	PNOM	_	t_267|t_269|ref=Catopt._1
+2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_268|t_269|ref=Catopt._1
+3	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_269|0|ref=Catopt._1
+4	.	.	u	u--------	_	3	AuxK	_	t_270|t_269|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = καὶ ἔστω ἡ ∠Η τῇ ΗΘ ἴση , καὶ ἐπεζεύχθω ἡ ΘΖ καὶ ἡ ΘΕ .
 # sent_id = 12
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_271|ref=Catoptrica_1
-2	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_272|ref=Catoptrica_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_273|ref=Catoptrica_1
-4	∠Η	∠η	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_274|ref=Catoptrica_1
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_275|ref=Catoptrica_1
-6	ΗΘ	ηθ	n	n--------	_	7	APOS	_	t_276|ref=Catoptrica_1
-7	ἴση	ἴσος	n	n-s---fn-	Case=n|Gender=f|Number=s	2	PNOM	_	t_277|ref=Catoptrica_1
-8	,	,	u	u--------	_	0	AuxX	_	t_278|ref=Catoptrica_1
-9	καὶ	καί	c	c--------	_	8	COORD	_	t_279|ref=Catoptrica_1
-10	ἐπεζεύχθω	ἐφήδομαι	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	9	PRED	_	t_280|ref=Catoptrica_1
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_281|ref=Catoptrica_1
-12	ΘΖ	θζ	n	n--------	_	13	APOS	_	t_282|ref=Catoptrica_1
-13	καὶ	καί	c	c--------	_	10	COORD	_	t_283|ref=Catoptrica_1
-14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_284|ref=Catoptrica_1
-15	ΘΕ	θε	n	n--------	_	13	APOS	_	t_285|ref=Catoptrica_1
-16	.	.	u	u--------	_	8	AuxK	_	t_286|ref=Catoptrica_1
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_271|t_272|ref=Catopt._1
+2	ἔστω	εἰμί	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_272|t_279|ref=Catopt._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_273|t_274|ref=Catopt._1
+4	∠Η	∠η	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_274|t_272|ref=Catopt._1
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_275|t_276|ref=Catopt._1
+6	ΗΘ	ηθ	n	n--------	_	7	APOS	_	t_276|t_277|ref=Catopt._1
+7	ἴση	ἴσος	n	n-s---fn-	Case=n|Gender=f|Number=s	2	PNOM	_	t_277|t_272|ref=Catopt._1
+8	,	,	u	u--------	_	0	AuxX	_	t_278|0|ref=Catopt._1
+9	καὶ	καί	c	c--------	_	8	COORD	_	t_279|t_278|ref=Catopt._1
+10	ἐπεζεύχθω	ἐφήδομαι	v	v3srme---	Mood=m|Number=s|Person=3|Tense=r|Voice=e	9	PRED	_	t_280|t_279|ref=Catopt._1
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_281|t_282|ref=Catopt._1
+12	ΘΖ	θζ	n	n--------	_	13	APOS	_	t_282|t_283|ref=Catopt._1
+13	καὶ	καί	c	c--------	_	10	COORD	_	t_283|t_280|ref=Catopt._1
+14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_284|t_285|ref=Catopt._1
+15	ΘΕ	θε	n	n--------	_	13	APOS	_	t_285|t_283|ref=Catopt._1
+16	.	.	u	u--------	_	8	AuxK	_	t_286|t_278|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = αὕτη μὲν ἡ κατασκευή [0] .
 # sent_id = 13
-1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_287|ref=Catoptrica_1
-2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_288|ref=Catoptrica_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_289|ref=Catoptrica_1
-4	κατασκευή	κατασκευή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_290|ref=Catoptrica_1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Catoptrica_1
-6	.	.	u	u--------	_	5	AuxK	_	t_291|ref=Catoptrica_1
+1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_287|e_7|ref=Catopt._1
+2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_288|e_7|ref=Catopt._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_289|t_290|ref=Catopt._1
+4	κατασκευή	κατασκευή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_290|e_7|ref=Catopt._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Catopt._1
+6	.	.	u	u--------	_	5	AuxK	_	t_291|e_7|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ἐπεὶ οὖν ἴση ἐστὶν ἡ ∠ τῇ ΗΘ , ἀλλὰ καὶ ἡ ὑπὸ ∠ΗΕ γωνία τῇ ὑπὸ ΘΗΕ γωνίᾳ ἴση ἐστί , κοινὴ δὲ πλευρὰ τῶν δύο τριγώνων ἡ ΗΕ , καὶ βάσις ἡ ΘΕ βάσει τῇ Ε∠ ἴση ἐστί , καὶ τὸ ΗΘΕ τρίγωνον τῷ ∠ΗΕ τριγώνῳ ἴσον ἐστί , καὶ αἱ λοιπαὶ γωνίαι ταῖς λοιπαῖς γωνίαις εἰσὶν ἴσαι , ὑφʼ ἃς αἱ ἴσαι πλευραὶ ὑποτείνουσιν [0] .
 # sent_id = 14
-1	ἐπεὶ	ἐπεί	c	c--------	_	52	AuxC	_	t_292|ref=Catoptrica_1
-2	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_293|ref=Catoptrica_1
-3	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_294|ref=Catoptrica_1
-4	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_295|ref=Catoptrica_1
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_296|ref=Catoptrica_1
-6	∠	∠	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_297|ref=Catoptrica_1
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_298|ref=Catoptrica_1
-8	ΗΘ	ηθ	n	n--------	_	3	ADV	_	t_299|ref=Catoptrica_1
-9	,	,	u	u--------	_	0	AuxX	_	t_300|ref=Catoptrica_1
-10	ἀλλὰ	ἀλλά	c	c--------	_	1	AuxY	_	t_301|ref=Catoptrica_1
-11	καὶ	καί	c	c--------	_	15	AuxZ	_	t_302|ref=Catoptrica_1
-12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_303|ref=Catoptrica_1
-13	ὑπὸ	ὑπό	r	r--------	_	15	AuxP	_	t_304|ref=Catoptrica_1
-14	∠ΗΕ	∠ηε	n	n--------	Case=a|Gender=f|Number=s	13	ATR	_	t_305|ref=Catoptrica_1
-15	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_306|ref=Catoptrica_1
-16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_307|ref=Catoptrica_1
-17	ὑπὸ	ὑπό	r	r--------	_	19	AuxP	_	t_308|ref=Catoptrica_1
-18	ΘΗΕ	θεάομαι	n	n--------	Case=a|Gender=f|Number=s	17	ATR	_	t_309|ref=Catoptrica_1
-19	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_310|ref=Catoptrica_1
-20	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_311|ref=Catoptrica_1
-21	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_312|ref=Catoptrica_1
-22	,	,	u	u--------	_	9	AuxX	_	t_313|ref=Catoptrica_1
-23	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	40	PNOM	_	t_314|ref=Catoptrica_1
-24	δὲ	δέ	d	d--------	_	52	AuxY	_	t_315|ref=Catoptrica_1
-25	πλευρὰ	πλευρόν	n	n-s---fn-	Case=n|Gender=f|Number=s	40	SBJ	_	t_316|ref=Catoptrica_1
-26	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	28	ATR	_	t_317|ref=Catoptrica_1
-27	δύο	δύο	m	m-d---ng-	Case=g|Gender=n|Number=d	28	ATR	_	t_318|ref=Catoptrica_1
-28	τριγώνων	τρίγωνος	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_319|ref=Catoptrica_1
-29	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	35	ATR	_	t_320|ref=Catoptrica_1
-30	ΗΕ	ηε	n	n--------	Case=n|Gender=f|Number=s	25	APOS	_	t_321|ref=Catoptrica_1
-31	,	,	u	u--------	_	9	AuxX	_	t_322|ref=Catoptrica_1
-32	καὶ	καί	c	c--------	_	52	AuxY	_	t_323|ref=Catoptrica_1
-33	βάσις	βάσις	n	n-s---fn-	Case=n|Gender=f|Number=s	40	SBJ	_	t_324|ref=Catoptrica_1
-34	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	35	ATR	_	t_325|ref=Catoptrica_1
-35	ΘΕ	θε	n	n--------	_	33	APOS	_	t_326|ref=Catoptrica_1
-36	βάσει	βάσις	n	n-s---fd-	Case=d|Gender=f|Number=s	39	AuxP	_	t_327|ref=Catoptrica_1
-37	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	38	ATR	_	t_328|ref=Catoptrica_1
-38	Ε∠	ε∠	n	n--------	_	36	APOS	_	t_329|ref=Catoptrica_1
-39	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	40	PNOM	_	t_330|ref=Catoptrica_1
-40	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_331|ref=Catoptrica_1
-41	,	,	u	u--------	_	9	AuxX	_	t_332|ref=Catoptrica_1
-42	καὶ	καί	c	c--------	_	52	AuxY	_	t_333|ref=Catoptrica_1
-43	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	45	ATR	_	t_334|ref=Catoptrica_1
-44	ΗΘΕ	ηθε	n	n--------	_	45	APOS	_	t_335|ref=Catoptrica_1
-45	τρίγωνον	τρίγωνος	n	n-s---nn-	Case=n|Gender=n|Number=s	50	SBJ	_	t_336|ref=Catoptrica_1
-46	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	48	ATR	_	t_337|ref=Catoptrica_1
-47	∠ΗΕ	∠ηε	n	n--------	_	48	APOS	_	t_338|ref=Catoptrica_1
-48	τριγώνῳ	τρίγωνος	a	a-s---nd-	Case=d|Gender=n|Number=s	49	ADV	_	t_339|ref=Catoptrica_1
-49	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	50	PNOM	_	t_340|ref=Catoptrica_1
-50	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_341|ref=Catoptrica_1
-51	,	,	u	u--------	_	9	AuxX	_	t_342|ref=Catoptrica_1
-52	καὶ	καί	c	c--------	_	9	COORD	_	t_343|ref=Catoptrica_1
-53	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	55	ATR	_	t_344|ref=Catoptrica_1
-54	λοιπαὶ	λοιπός	a	a-p---fn-	Case=n|Gender=f|Number=p	55	ATR	_	t_345|ref=Catoptrica_1
-55	γωνίαι	γωνία	n	n-p---fn-	Case=n|Gender=f|Number=p	59	SBJ	_	t_346|ref=Catoptrica_1
-56	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	58	ATR	_	t_347|ref=Catoptrica_1
-57	λοιπαῖς	λοιπός	a	a-p---fd-	Case=d|Gender=f|Number=p	58	ATR	_	t_348|ref=Catoptrica_1
-58	γωνίαις	γωνία	n	n-p---fd-	Case=d|Gender=f|Number=p	60	ADV	_	t_349|ref=Catoptrica_1
-59	εἰσὶν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	52	PRED	_	t_350|ref=Catoptrica_1
-60	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	59	PNOM	_	t_351|ref=Catoptrica_1
-61	,	,	u	u--------	_	9	AuxX	_	t_352|ref=Catoptrica_1
-62	ὑφʼ	ὑπό	r	r--------	_	67	AuxP	_	t_353|ref=Catoptrica_1
-63	ἃς	ὅς	p	p-p---fa-	Case=a|Gender=f|Number=p	62	OBJ	_	t_354|ref=Catoptrica_1
-64	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	66	ATR	_	t_355|ref=Catoptrica_1
-65	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	66	ATR	_	t_356|ref=Catoptrica_1
-66	πλευραὶ	πλευρά	n	n-p---fn-	Case=n|Gender=f|Number=p	67	SBJ	_	t_357|ref=Catoptrica_1
-67	ὑποτείνουσιν	ὑποτείνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	58	ATR	_	t_358|ref=Catoptrica_1
-68	[0]	[0]	-	---------	_	52	PRED	_	e_8|ref=Catoptrica_1
-69	.	.	u	u--------	_	9	AuxK	_	t_359|ref=Catoptrica_1
+1	ἐπεὶ	ἐπεί	c	c--------	_	52	AuxC	_	t_292|t_343|ref=Catopt._1
+2	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_293|t_295|ref=Catopt._1
+3	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_294|t_295|ref=Catopt._1
+4	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_295|t_343|ref=Catopt._1
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_296|t_297|ref=Catopt._1
+6	∠	∠	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_297|t_295|ref=Catopt._1
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_298|t_299|ref=Catopt._1
+8	ΗΘ	ηθ	n	n--------	_	3	ADV	_	t_299|t_294|ref=Catopt._1
+9	,	,	u	u--------	_	0	AuxX	_	t_300|0|ref=Catopt._1
+10	ἀλλὰ	ἀλλά	c	c--------	_	1	AuxY	_	t_301|t_292|ref=Catopt._1
+11	καὶ	καί	c	c--------	_	15	AuxZ	_	t_302|t_306|ref=Catopt._1
+12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_303|t_306|ref=Catopt._1
+13	ὑπὸ	ὑπό	r	r--------	_	15	AuxP	_	t_304|t_306|ref=Catopt._1
+14	∠ΗΕ	∠ηε	n	n--------	Case=a|Gender=f|Number=s	13	ATR	_	t_305|t_304|ref=Catopt._1
+15	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_306|t_312|ref=Catopt._1
+16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_307|t_310|ref=Catopt._1
+17	ὑπὸ	ὑπό	r	r--------	_	19	AuxP	_	t_308|t_310|ref=Catopt._1
+18	ΘΗΕ	θεάομαι	n	n--------	Case=a|Gender=f|Number=s	17	ATR	_	t_309|t_308|ref=Catopt._1
+19	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_310|t_311|ref=Catopt._1
+20	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_311|t_312|ref=Catopt._1
+21	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_312|t_343|ref=Catopt._1
+22	,	,	u	u--------	_	9	AuxX	_	t_313|t_300|ref=Catopt._1
+23	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	40	PNOM	_	t_314|t_331|ref=Catopt._1
+24	δὲ	δέ	d	d--------	_	52	AuxY	_	t_315|t_343|ref=Catopt._1
+25	πλευρὰ	πλευρόν	n	n-s---fn-	Case=n|Gender=f|Number=s	40	SBJ	_	t_316|t_331|ref=Catopt._1
+26	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	28	ATR	_	t_317|t_319|ref=Catopt._1
+27	δύο	δύο	m	m-d---ng-	Case=g|Gender=n|Number=d	28	ATR	_	t_318|t_319|ref=Catopt._1
+28	τριγώνων	τρίγωνος	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_319|t_316|ref=Catopt._1
+29	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	35	ATR	_	t_320|t_326|ref=Catopt._1
+30	ΗΕ	ηε	n	n--------	Case=n|Gender=f|Number=s	25	APOS	_	t_321|t_316|ref=Catopt._1
+31	,	,	u	u--------	_	9	AuxX	_	t_322|t_300|ref=Catopt._1
+32	καὶ	καί	c	c--------	_	52	AuxY	_	t_323|t_343|ref=Catopt._1
+33	βάσις	βάσις	n	n-s---fn-	Case=n|Gender=f|Number=s	40	SBJ	_	t_324|t_331|ref=Catopt._1
+34	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	35	ATR	_	t_325|t_326|ref=Catopt._1
+35	ΘΕ	θε	n	n--------	_	33	APOS	_	t_326|t_324|ref=Catopt._1
+36	βάσει	βάσις	n	n-s---fd-	Case=d|Gender=f|Number=s	39	AuxP	_	t_327|t_330|ref=Catopt._1
+37	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	38	ATR	_	t_328|t_329|ref=Catopt._1
+38	Ε∠	ε∠	n	n--------	_	36	APOS	_	t_329|t_327|ref=Catopt._1
+39	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	40	PNOM	_	t_330|t_331|ref=Catopt._1
+40	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_331|t_343|ref=Catopt._1
+41	,	,	u	u--------	_	9	AuxX	_	t_332|t_300|ref=Catopt._1
+42	καὶ	καί	c	c--------	_	52	AuxY	_	t_333|t_343|ref=Catopt._1
+43	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	45	ATR	_	t_334|t_336|ref=Catopt._1
+44	ΗΘΕ	ηθε	n	n--------	_	45	APOS	_	t_335|t_336|ref=Catopt._1
+45	τρίγωνον	τρίγωνος	n	n-s---nn-	Case=n|Gender=n|Number=s	50	SBJ	_	t_336|t_341|ref=Catopt._1
+46	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	48	ATR	_	t_337|t_339|ref=Catopt._1
+47	∠ΗΕ	∠ηε	n	n--------	_	48	APOS	_	t_338|t_339|ref=Catopt._1
+48	τριγώνῳ	τρίγωνος	a	a-s---nd-	Case=d|Gender=n|Number=s	49	ADV	_	t_339|t_340|ref=Catopt._1
+49	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	50	PNOM	_	t_340|t_341|ref=Catopt._1
+50	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	52	PRED	_	t_341|t_343|ref=Catopt._1
+51	,	,	u	u--------	_	9	AuxX	_	t_342|t_300|ref=Catopt._1
+52	καὶ	καί	c	c--------	_	9	COORD	_	t_343|t_300|ref=Catopt._1
+53	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	55	ATR	_	t_344|t_346|ref=Catopt._1
+54	λοιπαὶ	λοιπός	a	a-p---fn-	Case=n|Gender=f|Number=p	55	ATR	_	t_345|t_346|ref=Catopt._1
+55	γωνίαι	γωνία	n	n-p---fn-	Case=n|Gender=f|Number=p	59	SBJ	_	t_346|t_350|ref=Catopt._1
+56	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	58	ATR	_	t_347|t_349|ref=Catopt._1
+57	λοιπαῖς	λοιπός	a	a-p---fd-	Case=d|Gender=f|Number=p	58	ATR	_	t_348|t_349|ref=Catopt._1
+58	γωνίαις	γωνία	n	n-p---fd-	Case=d|Gender=f|Number=p	60	ADV	_	t_349|t_351|ref=Catopt._1
+59	εἰσὶν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	52	PRED	_	t_350|t_343|ref=Catopt._1
+60	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	59	PNOM	_	t_351|t_350|ref=Catopt._1
+61	,	,	u	u--------	_	9	AuxX	_	t_352|t_300|ref=Catopt._1
+62	ὑφʼ	ὑπό	r	r--------	_	67	AuxP	_	t_353|t_358|ref=Catopt._1
+63	ἃς	ὅς	p	p-p---fa-	Case=a|Gender=f|Number=p	62	OBJ	_	t_354|t_353|ref=Catopt._1
+64	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	66	ATR	_	t_355|t_357|ref=Catopt._1
+65	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	66	ATR	_	t_356|t_357|ref=Catopt._1
+66	πλευραὶ	πλευρά	n	n-p---fn-	Case=n|Gender=f|Number=p	67	SBJ	_	t_357|t_358|ref=Catopt._1
+67	ὑποτείνουσιν	ὑποτείνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	58	ATR	_	t_358|t_349|ref=Catopt._1
+68	[0]	[0]	-	---------	_	52	PRED	_	e_8|t_343|ref=Catopt._1
+69	.	.	u	u--------	_	9	AuxK	_	t_359|t_300|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ἴση ἄρα ἡ ΘΕ τῇ Ε∠ [0] .
 # sent_id = 15
-1	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_360|ref=Catoptrica_1
-2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_361|ref=Catoptrica_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_362|ref=Catoptrica_1
-4	ΘΕ	θε	n	n--------	_	7	SBJ	_	t_363|ref=Catoptrica_1
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_364|ref=Catoptrica_1
-6	Ε∠	ε∠	n	n--------	_	1	ADV	_	t_365|ref=Catoptrica_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_9|ref=Catoptrica_1
-8	.	.	u	u--------	_	7	AuxK	_	t_366|ref=Catoptrica_1
+1	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_360|e_9|ref=Catopt._1
+2	ἄρα	ἄρα	d	d--------	_	7	AuxY	_	t_361|e_9|ref=Catopt._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_362|t_363|ref=Catopt._1
+4	ΘΕ	θε	n	n--------	_	7	SBJ	_	t_363|e_9|ref=Catopt._1
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_364|t_365|ref=Catopt._1
+6	Ε∠	ε∠	n	n--------	_	1	ADV	_	t_365|t_360|ref=Catopt._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Catopt._1
+8	.	.	u	u--------	_	7	AuxK	_	t_366|e_9|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = πάλιν ἐπειδὴ τῇ ΗΘ ἴση ἐστὶν ἡ Η∠ καὶ γωνία ἡ ὑπὸ ∠ΗΖ γωνίᾳ τῇ ὑπὸ ΘΗΖ ἴση ἐστί , κοινὴ δὲ ἡ ΗΖ τῶν δύο τριγώνων τῶν ∠ΗΖ καὶ ΘΗΖ , καὶ βάσις ἄρα ἡ ΘΖ βάσει τῇ Ζ∠ ἴση ἐστί , καὶ τὸ ΖΗ∠ τρίγωνον τῷ ΘΗΖ τριγώνῳ ἴσον ἐστίν [0] .
 # sent_id = 16
-1	πάλιν	πάλιν	d	d--------	_	6	ADV	_	t_367|ref=Catoptrica_1
-2	ἐπειδὴ	ἐπεί	c	c--------	_	44	AuxC	_	t_368|ref=Catoptrica_1
-3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_369|ref=Catoptrica_1
-4	ΗΘ	ηθ	n	n--------	_	5	ADV	_	t_370|ref=Catoptrica_1
-5	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_371|ref=Catoptrica_1
-6	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_372|ref=Catoptrica_1
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_373|ref=Catoptrica_1
-8	Η∠	η∠	n	n--------	_	4	APOS	_	t_374|ref=Catoptrica_1
-9	καὶ	καί	c	c--------	_	2	COORD	_	t_375|ref=Catoptrica_1
-10	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_376|ref=Catoptrica_1
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_377|ref=Catoptrica_1
-12	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_378|ref=Catoptrica_1
-13	∠ΗΖ	∠ηζ	n	n--------	_	12	APOS	_	t_379|ref=Catoptrica_1
-14	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_380|ref=Catoptrica_1
-15	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_381|ref=Catoptrica_1
-16	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_382|ref=Catoptrica_1
-17	ΘΗΖ	θηζ	n	n--------	_	16	ATR	_	t_383|ref=Catoptrica_1
-18	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	19	PNOM	_	t_384|ref=Catoptrica_1
-19	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_385|ref=Catoptrica_1
-20	,	,	u	u--------	_	0	AuxX	_	t_386|ref=Catoptrica_1
-21	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	53	PNOM	_	t_387|ref=Catoptrica_1
-22	δὲ	δέ	d	d--------	_	2	COORD	_	t_388|ref=Catoptrica_1
-23	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	24	ATR	_	t_389|ref=Catoptrica_1
-24	ΗΖ	ηζ	n	n-s---fn-	Case=n|Gender=f|Number=s	53	SBJ	_	t_390|ref=Catoptrica_1
-25	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_391|ref=Catoptrica_1
-26	δύο	δύο	m	m-d---ng-	Case=g|Gender=n|Number=d	27	ATR	_	t_392|ref=Catoptrica_1
-27	τριγώνων	τρίγωνος	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ADV	_	t_393|ref=Catoptrica_1
-28	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_394|ref=Catoptrica_1
-29	∠ΗΖ	∠ηζ	n	n--------	_	30	APOS	_	t_395|ref=Catoptrica_1
-30	καὶ	καί	c	c--------	_	27	COORD	_	t_396|ref=Catoptrica_1
-31	ΘΗΖ	θηζ	n	n--------	_	30	APOS	_	t_397|ref=Catoptrica_1
-32	,	,	u	u--------	_	20	AuxX	_	t_398|ref=Catoptrica_1
-33	καὶ	καί	c	c--------	_	44	AuxY	_	t_399|ref=Catoptrica_1
-34	βάσις	βάσις	n	n-s---fn-	Case=n|Gender=f|Number=s	42	SBJ	_	t_400|ref=Catoptrica_1
-35	ἄρα	ἄρα	d	d--------	_	42	AuxY	_	t_401|ref=Catoptrica_1
-36	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	37	ATR	_	t_402|ref=Catoptrica_1
-37	ΘΖ	θζ	n	n--------	_	34	APOS	_	t_403|ref=Catoptrica_1
-38	βάσει	βάσις	r	r--------	_	42	AuxP	_	t_404|ref=Catoptrica_1
-39	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	40	ATR	_	t_405|ref=Catoptrica_1
-40	Ζ∠	ζ	n	n--------	_	38	ADV	_	t_406|ref=Catoptrica_1
-41	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	42	PNOM	_	t_407|ref=Catoptrica_1
-42	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	44	PRED	_	t_408|ref=Catoptrica_1
-43	,	,	u	u--------	_	20	AuxX	_	t_409|ref=Catoptrica_1
-44	καὶ	καί	c	c--------	_	20	COORD	_	t_410|ref=Catoptrica_1
-45	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	46	ATR	_	t_411|ref=Catoptrica_1
-46	ΖΗ∠	ζη∠	n	n--------	_	47	APOS	_	t_412|ref=Catoptrica_1
-47	τρίγωνον	τρίγωνος	a	a-s---nn-	Case=n|Gender=n|Number=s	52	SBJ	_	t_413|ref=Catoptrica_1
-48	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	50	ATR	_	t_414|ref=Catoptrica_1
-49	ΘΗΖ	θηζ	n	n--------	_	50	APOS	_	t_415|ref=Catoptrica_1
-50	τριγώνῳ	τρίγωνος	n	n-s---nd-	Case=d|Gender=n|Number=s	51	ADV	_	t_416|ref=Catoptrica_1
-51	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	52	PNOM	_	t_417|ref=Catoptrica_1
-52	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	44	PRED	_	t_418|ref=Catoptrica_1
-53	[0]	[0]	-	---------	_	44	PRED	_	e_10|ref=Catoptrica_1
-54	.	.	u	u--------	_	20	AuxK	_	t_419|ref=Catoptrica_1
+1	πάλιν	πάλιν	d	d--------	_	6	ADV	_	t_367|t_372|ref=Catopt._1
+2	ἐπειδὴ	ἐπεί	c	c--------	_	44	AuxC	_	t_368|t_410|ref=Catopt._1
+3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_369|t_370|ref=Catopt._1
+4	ΗΘ	ηθ	n	n--------	_	5	ADV	_	t_370|t_371|ref=Catopt._1
+5	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_371|t_372|ref=Catopt._1
+6	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_372|t_375|ref=Catopt._1
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_373|t_374|ref=Catopt._1
+8	Η∠	η∠	n	n--------	_	4	APOS	_	t_374|t_370|ref=Catopt._1
+9	καὶ	καί	c	c--------	_	2	COORD	_	t_375|t_368|ref=Catopt._1
+10	γωνία	γωνία	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_376|t_385|ref=Catopt._1
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_377|t_376|ref=Catopt._1
+12	ὑπὸ	ὑπό	r	r--------	_	10	AuxP	_	t_378|t_376|ref=Catopt._1
+13	∠ΗΖ	∠ηζ	n	n--------	_	12	APOS	_	t_379|t_378|ref=Catopt._1
+14	γωνίᾳ	γωνία	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_380|t_384|ref=Catopt._1
+15	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_381|t_382|ref=Catopt._1
+16	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_382|t_380|ref=Catopt._1
+17	ΘΗΖ	θηζ	n	n--------	_	16	ATR	_	t_383|t_382|ref=Catopt._1
+18	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	19	PNOM	_	t_384|t_385|ref=Catopt._1
+19	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_385|t_388|ref=Catopt._1
+20	,	,	u	u--------	_	0	AuxX	_	t_386|0|ref=Catopt._1
+21	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	53	PNOM	_	t_387|e_10|ref=Catopt._1
+22	δὲ	δέ	d	d--------	_	2	COORD	_	t_388|t_368|ref=Catopt._1
+23	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	24	ATR	_	t_389|t_390|ref=Catopt._1
+24	ΗΖ	ηζ	n	n-s---fn-	Case=n|Gender=f|Number=s	53	SBJ	_	t_390|e_10|ref=Catopt._1
+25	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_391|t_393|ref=Catopt._1
+26	δύο	δύο	m	m-d---ng-	Case=g|Gender=n|Number=d	27	ATR	_	t_392|t_393|ref=Catopt._1
+27	τριγώνων	τρίγωνος	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ADV	_	t_393|t_387|ref=Catopt._1
+28	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_394|t_393|ref=Catopt._1
+29	∠ΗΖ	∠ηζ	n	n--------	_	30	APOS	_	t_395|t_396|ref=Catopt._1
+30	καὶ	καί	c	c--------	_	27	COORD	_	t_396|t_393|ref=Catopt._1
+31	ΘΗΖ	θηζ	n	n--------	_	30	APOS	_	t_397|t_396|ref=Catopt._1
+32	,	,	u	u--------	_	20	AuxX	_	t_398|t_386|ref=Catopt._1
+33	καὶ	καί	c	c--------	_	44	AuxY	_	t_399|t_410|ref=Catopt._1
+34	βάσις	βάσις	n	n-s---fn-	Case=n|Gender=f|Number=s	42	SBJ	_	t_400|t_408|ref=Catopt._1
+35	ἄρα	ἄρα	d	d--------	_	42	AuxY	_	t_401|t_408|ref=Catopt._1
+36	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	37	ATR	_	t_402|t_403|ref=Catopt._1
+37	ΘΖ	θζ	n	n--------	_	34	APOS	_	t_403|t_400|ref=Catopt._1
+38	βάσει	βάσις	r	r--------	_	42	AuxP	_	t_404|t_408|ref=Catopt._1
+39	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	40	ATR	_	t_405|t_406|ref=Catopt._1
+40	Ζ∠	ζ	n	n--------	_	38	ADV	_	t_406|t_404|ref=Catopt._1
+41	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	42	PNOM	_	t_407|t_408|ref=Catopt._1
+42	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	44	PRED	_	t_408|t_410|ref=Catopt._1
+43	,	,	u	u--------	_	20	AuxX	_	t_409|t_386|ref=Catopt._1
+44	καὶ	καί	c	c--------	_	20	COORD	_	t_410|t_386|ref=Catopt._1
+45	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	46	ATR	_	t_411|t_412|ref=Catopt._1
+46	ΖΗ∠	ζη∠	n	n--------	_	47	APOS	_	t_412|t_413|ref=Catopt._1
+47	τρίγωνον	τρίγωνος	a	a-s---nn-	Case=n|Gender=n|Number=s	52	SBJ	_	t_413|t_418|ref=Catopt._1
+48	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	50	ATR	_	t_414|t_416|ref=Catopt._1
+49	ΘΗΖ	θηζ	n	n--------	_	50	APOS	_	t_415|t_416|ref=Catopt._1
+50	τριγώνῳ	τρίγωνος	n	n-s---nd-	Case=d|Gender=n|Number=s	51	ADV	_	t_416|t_417|ref=Catopt._1
+51	ἴσον	ἴσος	a	a-s---nn-	Case=n|Gender=n|Number=s	52	PNOM	_	t_417|t_418|ref=Catopt._1
+52	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	44	PRED	_	t_418|t_410|ref=Catopt._1
+53	[0]	[0]	-	---------	_	44	PRED	_	e_10|t_410|ref=Catopt._1
+54	.	.	u	u--------	_	20	AuxK	_	t_419|t_386|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ἴση ἄρα ἐστὶν ἡ ΘΖ τῇ Ζ∠ .
 # sent_id = 17
-1	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_420|ref=Catoptrica_1
-2	ἄρα	ἄρα	d	d--------	_	3	AuxY	_	t_421|ref=Catoptrica_1
-3	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_422|ref=Catoptrica_1
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_423|ref=Catoptrica_1
-5	ΘΖ	θζ	n	n--------	_	3	SBJ	_	t_424|ref=Catoptrica_1
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_425|ref=Catoptrica_1
-7	Ζ∠	ζ	n	n--------	_	1	ADV	_	t_426|ref=Catoptrica_1
-8	.	.	u	u--------	_	3	AuxK	_	t_427|ref=Catoptrica_1
+1	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_420|t_422|ref=Catopt._1
+2	ἄρα	ἄρα	d	d--------	_	3	AuxY	_	t_421|t_422|ref=Catopt._1
+3	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_422|0|ref=Catopt._1
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_423|t_424|ref=Catopt._1
+5	ΘΖ	θζ	n	n--------	_	3	SBJ	_	t_424|t_422|ref=Catopt._1
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_425|t_426|ref=Catopt._1
+7	Ζ∠	ζ	n	n--------	_	1	ADV	_	t_426|t_420|ref=Catopt._1
+8	.	.	u	u--------	_	3	AuxK	_	t_427|t_422|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = καὶ ἐπεὶ ἴση VG [0] :
 # sent_id = 18
-1	καὶ	καί	d	d--------	_	5	AuxY	_	t_428|ref=Catoptrica_1
-2	ἐπεὶ	ἐπεί	d	d--------	_	5	AuxY	_	t_429|ref=Catoptrica_1
-3	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_430|ref=Catoptrica_1
-4	VG	v	u	u--------	_	5	PNOM	_	t_431|ref=Catoptrica_1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_11|ref=Catoptrica_1
-6	:	:	u	u--------	_	5	AuxK	_	t_432|ref=Catoptrica_1
+1	καὶ	καί	d	d--------	_	5	AuxY	_	t_428|e_11|ref=Catopt._1
+2	ἐπεὶ	ἐπεί	d	d--------	_	5	AuxY	_	t_429|e_11|ref=Catopt._1
+3	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_430|e_11|ref=Catopt._1
+4	VG	v	u	u--------	_	5	PNOM	_	t_431|e_11|ref=Catopt._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Catopt._1
+6	:	:	u	u--------	_	5	AuxK	_	t_432|e_11|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = τὸ Ald .
 # sent_id = 19
-1	τὸ	ὁ	l	l-s---ma-	_	2	ATR	_	t_433|ref=Catoptrica_1
-2	Ald	ald	d	d--------	_	0	ExD	_	t_434|ref=Catoptrica_1
-3	.	.	u	u--------	_	2	AuxK	_	t_435|ref=Catoptrica_1
+1	τὸ	ὁ	l	l-s---ma-	_	2	ATR	_	t_433|t_434|ref=Catopt._1
+2	Ald	ald	d	d--------	_	0	ExD	_	t_434|0|ref=Catopt._1
+3	.	.	u	u--------	_	2	AuxK	_	t_435|t_434|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = 15 δ G [0] :
 # sent_id = 20
-1	15	15	a	a--------	_	4	AuxK	_	t_436|ref=Catoptrica_1
-2	δ	δ	d	d--------	_	4	AuxY	_	t_437|ref=Catoptrica_1
-3	G	g	x	x--------	_	4	SBJ	_	t_438|ref=Catoptrica_1
-4	[0]	[0]	-	---------	_	0	PRED	_	e_12|ref=Catoptrica_1
-5	:	:	u	u--------	_	4	AuxK	_	t_439|ref=Catoptrica_1
+1	15	15	a	a--------	_	4	AuxK	_	t_436|e_12|ref=Catopt._1
+2	δ	δ	d	d--------	_	4	AuxY	_	t_437|e_12|ref=Catopt._1
+3	G	g	x	x--------	_	4	SBJ	_	t_438|e_12|ref=Catopt._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Catopt._1
+5	:	:	u	u--------	_	4	AuxK	_	t_439|e_12|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = δηθ V AId 17 f .
 # sent_id = 21
-1	δηθ	δηθ	d	d--------	_	3	ADV	_	t_440|ref=Catoptrica_1
-2	V	v	x	x--------	_	3	ExD	_	t_441|ref=Catoptrica_1
-3	AId	aid	x	x--------	_	0	PRED	_	t_442|ref=Catoptrica_1
-4	17	17	x	x--------	_	3	APOS	_	t_443|ref=Catoptrica_1
-5	f	f	n	n--------	_	3	APOS	_	t_444|ref=Catoptrica_1
-6	.	.	u	u--------	_	3	AuxK	_	t_445|ref=Catoptrica_1
+1	δηθ	δηθ	d	d--------	_	3	ADV	_	t_440|t_442|ref=Catopt._1
+2	V	v	x	x--------	_	3	ExD	_	t_441|t_442|ref=Catopt._1
+3	AId	aid	x	x--------	_	0	PRED	_	t_442|0|ref=Catopt._1
+4	17	17	x	x--------	_	3	APOS	_	t_443|t_442|ref=Catopt._1
+5	f	f	n	n--------	_	3	APOS	_	t_444|t_442|ref=Catopt._1
+6	.	.	u	u--------	_	3	AuxK	_	t_445|t_442|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = βάσις 〈 ἄρα 〉 ἐστὶν ἡ ΘΕ τῇ Ε∠ , κοινὴ προσκείσθω ἡ ΕΓ .
 # sent_id = 22
-1	βάσις	βάσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_446|ref=Catoptrica_1
-2	〈	〈	u	u--------	_	0	AuxG	_	t_447|ref=Catoptrica_1
-3	ἄρα	ἄρα	d	d--------	_	5	AuxY	_	t_448|ref=Catoptrica_1
-4	〉	〉	u	u--------	_	2	AuxG	_	t_449|ref=Catoptrica_1
-5	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_450|ref=Catoptrica_1
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_451|ref=Catoptrica_1
-7	ΘΕ	θε	n	n--------	_	1	APOS	_	t_452|ref=Catoptrica_1
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_453|ref=Catoptrica_1
-9	Ε∠	ε∠	n	n--------	_	5	PNOM	_	t_454|ref=Catoptrica_1
-10	,	,	u	u--------	_	2	COORD	_	t_455|ref=Catoptrica_1
-11	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_456|ref=Catoptrica_1
-12	προσκείσθω	πρόσκειμαι	v	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_457|ref=Catoptrica_1
-13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_458|ref=Catoptrica_1
-14	ΕΓ	εγ	n	n--------	_	12	SBJ	_	t_459|ref=Catoptrica_1
-15	.	.	u	u--------	_	2	AuxK	_	t_460|ref=Catoptrica_1
+1	βάσις	βάσις	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_446|t_450|ref=Catopt._1
+2	〈	〈	u	u--------	_	0	AuxG	_	t_447|0|ref=Catopt._1
+3	ἄρα	ἄρα	d	d--------	_	5	AuxY	_	t_448|t_450|ref=Catopt._1
+4	〉	〉	u	u--------	_	2	AuxG	_	t_449|t_447|ref=Catopt._1
+5	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_450|t_455|ref=Catopt._1
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_451|t_452|ref=Catopt._1
+7	ΘΕ	θε	n	n--------	_	1	APOS	_	t_452|t_446|ref=Catopt._1
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_453|t_454|ref=Catopt._1
+9	Ε∠	ε∠	n	n--------	_	5	PNOM	_	t_454|t_450|ref=Catopt._1
+10	,	,	u	u--------	_	2	COORD	_	t_455|t_447|ref=Catopt._1
+11	κοινὴ	κοινός	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_456|t_457|ref=Catopt._1
+12	προσκείσθω	πρόσκειμαι	v	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_457|t_455|ref=Catopt._1
+13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_458|t_459|ref=Catopt._1
+14	ΕΓ	εγ	n	n--------	_	12	SBJ	_	t_459|t_457|ref=Catopt._1
+15	.	.	u	u--------	_	2	AuxK	_	t_460|t_447|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = δύο ἄρα αἱ ΓΕ , Ε∠ δυσὶ ταῖς ΓΕ , ΕΘ ἴσαι εἰσίν .
 # sent_id = 23
-1	δύο	δύο	m	m--------	_	13	PNOM	_	t_461|ref=Catoptrica_1
-2	ἄρα	ἄρα	d	d--------	_	13	AuxY	_	t_462|ref=Catoptrica_1
-3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_463|ref=Catoptrica_1
-4	ΓΕ	γε	n	n--------	_	5	APOS	_	t_464|ref=Catoptrica_1
-5	,	,	u	u--------	_	3	COORD	_	t_465|ref=Catoptrica_1
-6	Ε∠	ε∠	n	n--------	_	5	APOS	_	t_466|ref=Catoptrica_1
-7	δυσὶ	δύο	m	m-p---nd-	Case=d|Gender=f|Number=s	13	PNOM	_	t_467|ref=Catoptrica_1
-8	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_468|ref=Catoptrica_1
-9	ΓΕ	γε	n	n--------	_	5	APOS	_	t_469|ref=Catoptrica_1
-10	,	,	u	u--------	_	7	COORD	_	t_470|ref=Catoptrica_1
-11	ΕΘ	εθ	n	n-s---mn-	_	10	APOS	_	t_471|ref=Catoptrica_1
-12	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	13	PNOM	_	t_472|ref=Catoptrica_1
-13	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_473|ref=Catoptrica_1
-14	.	.	u	u--------	_	13	AuxK	_	t_474|ref=Catoptrica_1
+1	δύο	δύο	m	m--------	_	13	PNOM	_	t_461|t_473|ref=Catopt._1
+2	ἄρα	ἄρα	d	d--------	_	13	AuxY	_	t_462|t_473|ref=Catopt._1
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_463|t_473|ref=Catopt._1
+4	ΓΕ	γε	n	n--------	_	5	APOS	_	t_464|t_465|ref=Catopt._1
+5	,	,	u	u--------	_	3	COORD	_	t_465|t_463|ref=Catopt._1
+6	Ε∠	ε∠	n	n--------	_	5	APOS	_	t_466|t_465|ref=Catopt._1
+7	δυσὶ	δύο	m	m-p---nd-	Case=d|Gender=f|Number=s	13	PNOM	_	t_467|t_473|ref=Catopt._1
+8	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_468|t_467|ref=Catopt._1
+9	ΓΕ	γε	n	n--------	_	5	APOS	_	t_469|t_465|ref=Catopt._1
+10	,	,	u	u--------	_	7	COORD	_	t_470|t_467|ref=Catopt._1
+11	ΕΘ	εθ	n	n-s---mn-	_	10	APOS	_	t_471|t_470|ref=Catopt._1
+12	ἴσαι	ἴσος	a	a-p---fn-	Case=n|Gender=f|Number=p	13	PNOM	_	t_472|t_473|ref=Catopt._1
+13	εἰσίν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_473|0|ref=Catopt._1
+14	.	.	u	u--------	_	13	AuxK	_	t_474|t_473|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ὅλη ἄρα ἡ ΓΘ δυσὶ ταῖς ΓΕ , Ε∠ ἴση ἐστί .
 # sent_id = 24
-1	ὅλη	ὅλος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_475|ref=Catoptrica_1
-2	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_476|ref=Catoptrica_1
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_477|ref=Catoptrica_1
-4	ΓΘ	γθ	n	n--------	_	11	SBJ	_	t_478|ref=Catoptrica_1
-5	δυσὶ	δύο	m	m-p---nd-	Case=d|Gender=f|Number=p	11	PNOM	_	t_479|ref=Catoptrica_1
-6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_480|ref=Catoptrica_1
-7	ΓΕ	γε	n	n--------	_	8	APOS	_	t_481|ref=Catoptrica_1
-8	,	,	u	u--------	_	6	COORD	_	t_482|ref=Catoptrica_1
-9	Ε∠	ε∠	n	n--------	_	8	APOS	_	t_483|ref=Catoptrica_1
-10	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_484|ref=Catoptrica_1
-11	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_485|ref=Catoptrica_1
-12	.	.	u	u--------	_	11	AuxK	_	t_486|ref=Catoptrica_1
+1	ὅλη	ὅλος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_475|t_478|ref=Catopt._1
+2	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_476|t_485|ref=Catopt._1
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_477|t_478|ref=Catopt._1
+4	ΓΘ	γθ	n	n--------	_	11	SBJ	_	t_478|t_485|ref=Catopt._1
+5	δυσὶ	δύο	m	m-p---nd-	Case=d|Gender=f|Number=p	11	PNOM	_	t_479|t_485|ref=Catopt._1
+6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_480|t_479|ref=Catopt._1
+7	ΓΕ	γε	n	n--------	_	8	APOS	_	t_481|t_482|ref=Catopt._1
+8	,	,	u	u--------	_	6	COORD	_	t_482|t_480|ref=Catopt._1
+9	Ε∠	ε∠	n	n--------	_	8	APOS	_	t_483|t_482|ref=Catopt._1
+10	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_484|t_485|ref=Catopt._1
+11	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_485|0|ref=Catopt._1
+12	.	.	u	u--------	_	11	AuxK	_	t_486|t_485|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = καὶ ἐπεὶ παντὸς τριγώνου αἱ δύο πλευραὶ τῆς λοιπῆς μείζονές εἰσι πάντῃ μεταλαμβανόμεναι , τριγώνου ἄρα τοῦ ΘΖΓ αἱ δύο πλευραὶ αἱ ΘΖ , ΖΓ μιᾶς τῆς ΓΘ μείζονές εἰσιν .
 # sent_id = 25
-1	καὶ	καί	c	c--------	_	30	AuxY	_	t_487|ref=Catoptrica_1
-2	ἐπεὶ	ἐπεί	c	c--------	_	30	AuxC	_	t_488|ref=Catoptrica_1
-3	παντὸς	πᾶς	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_489|ref=Catoptrica_1
-4	τριγώνου	τρίγωνον	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_490|ref=Catoptrica_1
-5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_491|ref=Catoptrica_1
-6	δύο	δύο	m	m-d---fn-	Case=n|Gender=f|Number=d	7	ATR	_	t_492|ref=Catoptrica_1
-7	πλευραὶ	πλευρά	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_493|ref=Catoptrica_1
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_494|ref=Catoptrica_1
-9	λοιπῆς	λοιπός	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_495|ref=Catoptrica_1
-10	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	11	PNOM	_	t_496|ref=Catoptrica_1
-11	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	ADV	_	t_497|ref=Catoptrica_1
-12	πάντῃ	πάντῃ	d	d--------	_	13	ADV	_	t_498|ref=Catoptrica_1
-13	μεταλαμβανόμεναι	μεταλαμβάνω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	11	PNOM	_	t_499|ref=Catoptrica_1
-14	,	,	u	u--------	_	30	AuxX	_	t_500|ref=Catoptrica_1
-15	τριγώνου	τρίγωνον	n	n-s---ng-	Case=g|Gender=n|Number=s	29	ADV	_	t_501|ref=Catoptrica_1
-16	ἄρα	ἄρα	d	d--------	_	30	AuxY	_	t_502|ref=Catoptrica_1
-17	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_503|ref=Catoptrica_1
-18	ΘΖΓ	θζγ	n	n--------	_	21	APOS	_	t_504|ref=Catoptrica_1
-19	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_505|ref=Catoptrica_1
-20	δύο	δύο	m	m-d---fn-	Case=n|Gender=f|Number=d	21	ATR	_	t_506|ref=Catoptrica_1
-21	πλευραὶ	πλευρά	n	n-p---fn-	Case=n|Gender=f|Number=p	30	SBJ	_	t_507|ref=Catoptrica_1
-22	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_508|ref=Catoptrica_1
-23	ΘΖ	θζ	n	n--------	_	24	PNOM	_	t_509|ref=Catoptrica_1
-24	,	,	u	u--------	_	29	COORD	_	t_510|ref=Catoptrica_1
-25	ΖΓ	ζγ	n	n-s---mn-	Case=n|Gender=m|Number=s	24	PNOM	_	t_511|ref=Catoptrica_1
-26	μιᾶς	εἷς	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ADV	_	t_512|ref=Catoptrica_1
-27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_513|ref=Catoptrica_1
-28	ΓΘ	γθ	n	n--------	_	26	APOS	_	t_514|ref=Catoptrica_1
-29	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	30	PNOM	_	t_515|ref=Catoptrica_1
-30	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_516|ref=Catoptrica_1
-31	.	.	u	u--------	_	30	AuxK	_	t_517|ref=Catoptrica_1
+1	καὶ	καί	c	c--------	_	30	AuxY	_	t_487|t_516|ref=Catopt._1
+2	ἐπεὶ	ἐπεί	c	c--------	_	30	AuxC	_	t_488|t_516|ref=Catopt._1
+3	παντὸς	πᾶς	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_489|t_490|ref=Catopt._1
+4	τριγώνου	τρίγωνον	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_490|t_493|ref=Catopt._1
+5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	7	ATR	_	t_491|t_493|ref=Catopt._1
+6	δύο	δύο	m	m-d---fn-	Case=n|Gender=f|Number=d	7	ATR	_	t_492|t_493|ref=Catopt._1
+7	πλευραὶ	πλευρά	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_493|t_497|ref=Catopt._1
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_494|t_495|ref=Catopt._1
+9	λοιπῆς	λοιπός	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_495|t_493|ref=Catopt._1
+10	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	11	PNOM	_	t_496|t_497|ref=Catopt._1
+11	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	ADV	_	t_497|t_488|ref=Catopt._1
+12	πάντῃ	πάντῃ	d	d--------	_	13	ADV	_	t_498|t_499|ref=Catopt._1
+13	μεταλαμβανόμεναι	μεταλαμβάνω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	11	PNOM	_	t_499|t_497|ref=Catopt._1
+14	,	,	u	u--------	_	30	AuxX	_	t_500|t_516|ref=Catopt._1
+15	τριγώνου	τρίγωνον	n	n-s---ng-	Case=g|Gender=n|Number=s	29	ADV	_	t_501|t_515|ref=Catopt._1
+16	ἄρα	ἄρα	d	d--------	_	30	AuxY	_	t_502|t_516|ref=Catopt._1
+17	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_503|t_504|ref=Catopt._1
+18	ΘΖΓ	θζγ	n	n--------	_	21	APOS	_	t_504|t_507|ref=Catopt._1
+19	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_505|t_507|ref=Catopt._1
+20	δύο	δύο	m	m-d---fn-	Case=n|Gender=f|Number=d	21	ATR	_	t_506|t_507|ref=Catopt._1
+21	πλευραὶ	πλευρά	n	n-p---fn-	Case=n|Gender=f|Number=p	30	SBJ	_	t_507|t_516|ref=Catopt._1
+22	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_508|t_507|ref=Catopt._1
+23	ΘΖ	θζ	n	n--------	_	24	PNOM	_	t_509|t_510|ref=Catopt._1
+24	,	,	u	u--------	_	29	COORD	_	t_510|t_515|ref=Catopt._1
+25	ΖΓ	ζγ	n	n-s---mn-	Case=n|Gender=m|Number=s	24	PNOM	_	t_511|t_510|ref=Catopt._1
+26	μιᾶς	εἷς	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ADV	_	t_512|t_510|ref=Catopt._1
+27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_513|t_514|ref=Catopt._1
+28	ΓΘ	γθ	n	n--------	_	26	APOS	_	t_514|t_512|ref=Catopt._1
+29	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	30	PNOM	_	t_515|t_516|ref=Catopt._1
+30	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_516|0|ref=Catopt._1
+31	.	.	u	u--------	_	30	AuxK	_	t_517|t_516|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ἀλλʼ ἡ ΓΘ ἴση ἐστὶ ταῖς ΓΕ , Ε∠ .
 # sent_id = 26
-1	ἀλλʼ	ἀλλά	c	c--------	_	5	AuxY	_	t_518|ref=Catoptrica_1
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_519|ref=Catoptrica_1
-3	ΓΘ	γθ	n	n--------	_	4	APOS	_	t_520|ref=Catoptrica_1
-4	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_521|ref=Catoptrica_1
-5	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_522|ref=Catoptrica_1
-6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_523|ref=Catoptrica_1
-7	ΓΕ	γε	n	n--------	_	8	APOS	_	t_524|ref=Catoptrica_1
-8	,	,	u	u--------	_	6	COORD	_	t_525|ref=Catoptrica_1
-9	Ε∠	ε∠	n	n--------	_	8	APOS	_	t_526|ref=Catoptrica_1
-10	.	.	u	u--------	_	5	AuxK	_	t_527|ref=Catoptrica_1
+1	ἀλλʼ	ἀλλά	c	c--------	_	5	AuxY	_	t_518|t_522|ref=Catopt._1
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_519|t_520|ref=Catopt._1
+3	ΓΘ	γθ	n	n--------	_	4	APOS	_	t_520|t_521|ref=Catopt._1
+4	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_521|t_522|ref=Catopt._1
+5	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_522|0|ref=Catopt._1
+6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_523|t_521|ref=Catopt._1
+7	ΓΕ	γε	n	n--------	_	8	APOS	_	t_524|t_525|ref=Catopt._1
+8	,	,	u	u--------	_	6	COORD	_	t_525|t_523|ref=Catopt._1
+9	Ε∠	ε∠	n	n--------	_	8	APOS	_	t_526|t_525|ref=Catopt._1
+10	.	.	u	u--------	_	5	AuxK	_	t_527|t_522|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = αἱ ΘΖ [0] .
 # sent_id = 27
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_528|ref=Catoptrica_1
-2	ΘΖ	θζ	n	n--------	_	3	PNOM	_	t_529|ref=Catoptrica_1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_13|ref=Catoptrica_1
-4	.	.	u	u--------	_	3	AuxK	_	t_530|ref=Catoptrica_1
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_528|t_529|ref=Catopt._1
+2	ΘΖ	θζ	n	n--------	_	3	PNOM	_	t_529|e_13|ref=Catopt._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Catopt._1
+4	.	.	u	u--------	_	3	AuxK	_	t_530|e_13|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ΖΓ ἄρα μείζονές εἰσι τῶν ΓΕ , Ε∠ .
 # sent_id = 28
-1	ΖΓ	ζγ	n	n--------	_	4	PNOM	_	t_531|ref=Catoptrica_1
-2	ἄρα	ἄρα	d	d--------	_	4	AuxY	_	t_532|ref=Catoptrica_1
-3	μείζονές	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=m|Number=p	4	PNOM	_	t_533|ref=Catoptrica_1
-4	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_534|ref=Catoptrica_1
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_535|ref=Catoptrica_1
-6	ΓΕ	γε	n	n--------	_	7	APOS	_	t_536|ref=Catoptrica_1
-7	,	,	u	u--------	_	3	COORD	_	t_537|ref=Catoptrica_1
-8	Ε∠	ε∠	n	n--------	_	7	APOS	_	t_538|ref=Catoptrica_1
-9	.	.	u	u--------	_	4	AuxK	_	t_539|ref=Catoptrica_1
+1	ΖΓ	ζγ	n	n--------	_	4	PNOM	_	t_531|t_534|ref=Catopt._1
+2	ἄρα	ἄρα	d	d--------	_	4	AuxY	_	t_532|t_534|ref=Catopt._1
+3	μείζονές	μέγας	a	a-s---nnc	Case=n|Degree=c|Gender=m|Number=p	4	PNOM	_	t_533|t_534|ref=Catopt._1
+4	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_534|0|ref=Catopt._1
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_535|t_533|ref=Catopt._1
+6	ΓΕ	γε	n	n--------	_	7	APOS	_	t_536|t_537|ref=Catopt._1
+7	,	,	u	u--------	_	3	COORD	_	t_537|t_533|ref=Catopt._1
+8	Ε∠	ε∠	n	n--------	_	7	APOS	_	t_538|t_537|ref=Catopt._1
+9	.	.	u	u--------	_	4	AuxK	_	t_539|t_534|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = ἀλλʼ ἡ ΘΖ τῇ Ζ∠ ἐστὶν ἴση .
 # sent_id = 29
-1	ἀλλʼ	ἀλλά	c	c--------	_	6	AuxY	_	t_540|ref=Catoptrica_1
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_541|ref=Catoptrica_1
-3	ΘΖ	θζ	n	n--------	_	6	SBJ	_	t_542|ref=Catoptrica_1
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_543|ref=Catoptrica_1
-5	Ζ∠	ζ	n	n--------	_	7	ADV	_	t_544|ref=Catoptrica_1
-6	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_545|ref=Catoptrica_1
-7	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_546|ref=Catoptrica_1
-8	.	.	u	u--------	_	6	AuxK	_	t_547|ref=Catoptrica_1
+1	ἀλλʼ	ἀλλά	c	c--------	_	6	AuxY	_	t_540|t_545|ref=Catopt._1
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_541|t_542|ref=Catopt._1
+3	ΘΖ	θζ	n	n--------	_	6	SBJ	_	t_542|t_545|ref=Catopt._1
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_543|t_544|ref=Catopt._1
+5	Ζ∠	ζ	n	n--------	_	7	ADV	_	t_544|t_546|ref=Catopt._1
+6	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_545|0|ref=Catopt._1
+7	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_546|t_545|ref=Catopt._1
+8	.	.	u	u--------	_	6	AuxK	_	t_547|t_545|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = αἱ ΖΓ , Ζ∠ ἄρα τῶν ΓΕ , Ε∠ μείζονές εἰσι .
 # sent_id = 30
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_548|ref=Catoptrica_1
-2	ΖΓ	ζγ	n	n--------	_	3	APOS	_	t_549|ref=Catoptrica_1
-3	,	,	u	u--------	_	1	COORD	_	t_550|ref=Catoptrica_1
-4	Ζ∠	ζ	n	n--------	_	3	APOS	_	t_551|ref=Catoptrica_1
-5	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_552|ref=Catoptrica_1
-6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=n|Number=p	10	ADV	_	t_553|ref=Catoptrica_1
-7	ΓΕ	γε	n	n--------	_	3	APOS	_	t_554|ref=Catoptrica_1
-8	,	,	u	u--------	_	10	COORD	_	t_555|ref=Catoptrica_1
-9	Ε∠	ε∠	n	n--------	_	3	APOS	_	t_556|ref=Catoptrica_1
-10	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	11	PNOM	_	t_557|ref=Catoptrica_1
-11	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_558|ref=Catoptrica_1
-12	.	.	u	u--------	_	11	AuxK	_	t_559|ref=Catoptrica_1
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_548|t_558|ref=Catopt._1
+2	ΖΓ	ζγ	n	n--------	_	3	APOS	_	t_549|t_550|ref=Catopt._1
+3	,	,	u	u--------	_	1	COORD	_	t_550|t_548|ref=Catopt._1
+4	Ζ∠	ζ	n	n--------	_	3	APOS	_	t_551|t_550|ref=Catopt._1
+5	ἄρα	ἄρα	d	d--------	_	11	AuxY	_	t_552|t_558|ref=Catopt._1
+6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=n|Number=p	10	ADV	_	t_553|t_557|ref=Catopt._1
+7	ΓΕ	γε	n	n--------	_	3	APOS	_	t_554|t_550|ref=Catopt._1
+8	,	,	u	u--------	_	10	COORD	_	t_555|t_557|ref=Catopt._1
+9	Ε∠	ε∠	n	n--------	_	3	APOS	_	t_556|t_550|ref=Catopt._1
+10	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	11	PNOM	_	t_557|t_558|ref=Catopt._1
+11	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_558|0|ref=Catopt._1
+12	.	.	u	u--------	_	11	AuxK	_	t_559|t_558|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = καί εἰσιν αἱ ΓΖ , ∠ αἱ τὰς ἀνίσους γωνίας περιέχουσαι ·
 # sent_id = 31
-1	καί	καί	d	d--------	_	2	AuxY	_	t_560|ref=Catoptrica_1
-2	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_561|ref=Catoptrica_1
-3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_562|ref=Catoptrica_1
-4	ΓΖ	γζ	n	n--------	_	5	APOS	_	t_563|ref=Catoptrica_1
-5	,	,	u	u--------	_	2	COORD	_	t_564|ref=Catoptrica_1
-6	∠	∠	n	n--------	_	5	APOS	_	t_565|ref=Catoptrica_1
-7	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_566|ref=Catoptrica_1
-8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_567|ref=Catoptrica_1
-9	ἀνίσους	ἄνισος	n	n-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_568|ref=Catoptrica_1
-10	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_569|ref=Catoptrica_1
-11	περιέχουσαι	περιέχω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	2	PNOM	_	t_570|ref=Catoptrica_1
-12	·	·	u	u--------	_	2	AuxK	_	t_571|ref=Catoptrica_1
+1	καί	καί	d	d--------	_	2	AuxY	_	t_560|t_561|ref=Catopt._1
+2	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_561|0|ref=Catopt._1
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_562|t_564|ref=Catopt._1
+4	ΓΖ	γζ	n	n--------	_	5	APOS	_	t_563|t_564|ref=Catopt._1
+5	,	,	u	u--------	_	2	COORD	_	t_564|t_561|ref=Catopt._1
+6	∠	∠	n	n--------	_	5	APOS	_	t_565|t_564|ref=Catopt._1
+7	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	11	ATR	_	t_566|t_570|ref=Catopt._1
+8	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_567|t_569|ref=Catopt._1
+9	ἀνίσους	ἄνισος	n	n-p---fa-	Case=a|Gender=f|Number=p	10	ATR	_	t_568|t_569|ref=Catopt._1
+10	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_569|t_570|ref=Catopt._1
+11	περιέχουσαι	περιέχω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	2	PNOM	_	t_570|t_561|ref=Catopt._1
+12	·	·	u	u--------	_	2	AuxK	_	t_571|t_561|ref=Catopt._1
 
-# source = Hero of Alexandria, Catoptrica 1
+# source = Hero of Alexandria, Catopt. 1
 # text = αἱ ἄρα τὰς ἀνίσους γωνίας περιέχουσαι μείζονές εἰσι τῶν τὰς ἴσας γωνίας περιεχουσῶν .
 # sent_id = 32
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_572|ref=Catoptrica_1
-2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_573|ref=Catoptrica_1
-3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_574|ref=Catoptrica_1
-4	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_575|ref=Catoptrica_1
-5	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_576|ref=Catoptrica_1
-6	περιέχουσαι	περιέχω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_577|ref=Catoptrica_1
-7	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	8	PNOM	_	t_578|ref=Catoptrica_1
-8	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_579|ref=Catoptrica_1
-9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_580|ref=Catoptrica_1
-10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_581|ref=Catoptrica_1
-11	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_582|ref=Catoptrica_1
-12	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_583|ref=Catoptrica_1
-13	περιεχουσῶν	περιέχω	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_584|ref=Catoptrica_1
-14	.	.	u	u--------	_	8	AuxK	_	t_585|ref=Catoptrica_1
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_572|t_577|ref=Catopt._1
+2	ἄρα	ἄρα	d	d--------	_	8	AuxY	_	t_573|t_579|ref=Catopt._1
+3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_574|t_576|ref=Catopt._1
+4	ἀνίσους	ἄνισος	a	a-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_575|t_576|ref=Catopt._1
+5	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_576|t_577|ref=Catopt._1
+6	περιέχουσαι	περιέχω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_577|t_579|ref=Catopt._1
+7	μείζονές	μέγας	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	8	PNOM	_	t_578|t_579|ref=Catopt._1
+8	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_579|0|ref=Catopt._1
+9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_580|t_584|ref=Catopt._1
+10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_581|t_583|ref=Catopt._1
+11	ἴσας	ἴσος	a	a-p---fa-	Case=a|Gender=f|Number=p	12	ATR	_	t_582|t_583|ref=Catopt._1
+12	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_583|t_584|ref=Catopt._1
+13	περιεχουσῶν	περιέχω	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_584|t_578|ref=Catopt._1
+14	.	.	u	u--------	_	8	AuxK	_	t_585|t_579|ref=Catopt._1
 

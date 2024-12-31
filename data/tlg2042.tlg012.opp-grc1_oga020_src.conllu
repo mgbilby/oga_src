@@ -1,249 +1,249 @@
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = Das Fragment aus der Oktateuchkate ne [0] .
 # sent_id = 1
-1	Das	ὁ	i	i--------	_	2	ExD	_	t_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	Fragment	πολίτευμα	v	v2spma---	_	7	ExD	_	t_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	aus	ἐκ	v	v--fna---	_	7	AuxY	_	t_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	der	ὁ	p	p2s---ca-	_	7	AuxY	_	t_4|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	Oktateuchkate	ὀιζησία	v	v2spma---	Case=v|Gender=m|Number=s	7	OBJ	_	t_5|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	ne	μή	d	d--------	_	2	ATR	_	t_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	.	.	u	u--------	_	7	AuxK	_	t_7|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	Das	ὁ	i	i--------	_	2	ExD	_	t_1|t_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	Fragment	πολίτευμα	v	v2spma---	_	7	ExD	_	t_2|e_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	aus	ἐκ	v	v--fna---	_	7	AuxY	_	t_3|e_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	der	ὁ	p	p2s---ca-	_	7	AuxY	_	t_4|e_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	Oktateuchkate	ὀιζησία	v	v2spma---	Case=v|Gender=m|Number=s	7	OBJ	_	t_5|e_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	ne	μή	d	d--------	_	2	ATR	_	t_6|t_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	.	.	u	u--------	_	7	AuxK	_	t_7|e_1|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = Ὠριγένους εἰς το αὐτὸ ἐκ τῶν εἰς τοὺς Θρήνους .
 # sent_id = 2
-1	Ὠριγένους	ὠριγένους	n	n-s---ng-	Case=g|Gender=n|Number=s	0	PRED	_	t_8|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_9|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	το	το	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_10|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_11|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_12|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_13|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_14|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_15|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	Θρήνους	θρῆνος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_16|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	.	.	u	u--------	_	1	AuxK	_	t_17|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	Ὠριγένους	ὠριγένους	n	n-s---ng-	Case=g|Gender=n|Number=s	0	PRED	_	t_8|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_9|t_8|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	το	το	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_10|t_11|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_11|t_9|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_12|t_8|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_13|t_12|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	εἰς	εἰς	r	r--------	_	6	AuxP	_	t_14|t_13|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_15|t_16|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	Θρήνους	θρῆνος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_16|t_14|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	.	.	u	u--------	_	1	AuxK	_	t_17|t_8|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = Τίς γὰρ τὸ >δίκαιον οὐ δικαίως [0] ;
 # sent_id = 3
-1	Τίς	τις	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_18|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_19|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_20|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	>δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_21|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	οὐ	οὐ	d	d--------	_	6	AuxZ	_	t_22|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	δικαίως	δίκαιος	d	d--------	_	7	ADV	_	t_23|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	;	;	u	u--------	_	7	AuxK	_	t_24|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	Τίς	τις	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_18|e_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_19|e_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_20|t_21|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	>δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_21|e_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	οὐ	οὐ	d	d--------	_	6	AuxZ	_	t_22|t_23|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	δικαίως	δίκαιος	d	d--------	_	7	ADV	_	t_23|e_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	;	;	u	u--------	_	7	AuxK	_	t_24|e_2|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = διαλαβόντες δὲ ἐκεῖνο , εὐχερῶς καὶ ἐπὶ τοῦτο μετελευσόμεθα , ὅτι ἔστι δικαίως τὸ ἄδικον διώκειν .
 # sent_id = 4
-1	διαλαβόντες	διαλαμβάνω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	9	ADV	_	t_25|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_26|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	ἐκεῖνο	ἐκεῖνος	p	p-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_27|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	,	,	u	u--------	_	9	AuxX	_	t_28|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	εὐχερῶς	εὐχερής	d	d--------	_	9	ADV	_	t_29|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	καὶ	καί	d	d--------	_	8	AuxZ	_	t_30|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_31|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_32|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	μετελευσόμεθα	μετέρχομαι	v	v1pfim---	Mood=i|Number=p|Person=1|Tense=f|Voice=m	0	PRED	_	t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	,	,	u	u--------	_	9	APOS	_	t_34|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_35|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	ATR	_	t_36|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	δικαίως	δίκαιος	d	d--------	_	16	ADV	_	t_37|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_38|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	ἄδικον	ἄδικος	a	a-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_39|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	διώκειν	διώκω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_40|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	.	.	u	u--------	_	9	AuxK	_	t_41|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	διαλαβόντες	διαλαμβάνω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	9	ADV	_	t_25|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_26|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	ἐκεῖνο	ἐκεῖνος	p	p-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_27|t_25|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	,	,	u	u--------	_	9	AuxX	_	t_28|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	εὐχερῶς	εὐχερής	d	d--------	_	9	ADV	_	t_29|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	καὶ	καί	d	d--------	_	8	AuxZ	_	t_30|t_32|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_31|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_32|t_31|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	μετελευσόμεθα	μετέρχομαι	v	v1pfim---	Mood=i|Number=p|Person=1|Tense=f|Voice=m	0	PRED	_	t_33|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	,	,	u	u--------	_	9	APOS	_	t_34|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_35|t_34|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	ATR	_	t_36|t_35|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	δικαίως	δίκαιος	d	d--------	_	16	ADV	_	t_37|t_40|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_38|t_39|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	ἄδικον	ἄδικος	a	a-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_39|t_40|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	διώκειν	διώκω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_40|t_36|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	.	.	u	u--------	_	9	AuxK	_	t_41|t_33|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = ἐξήγησις μὲν τοῦ δικαίως τὸ δίκαιον διώκειν αὔτη , ἐπὰν καὶ τὸ πραττόμενον καθῆκον ᾖ , καὶ ὑγιεῖ διαθέσει ἐνεργῆται [0] ·
 # sent_id = 5
-1	ἐξήγησις	ἐξήγησις	n	n-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_42|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	μὲν	μέν	d	d--------	_	21	AuxY	_	t_43|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_44|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	δικαίως	δίκαιος	d	d--------	_	7	ADV	_	t_45|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_46|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_47|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	διώκειν	διώκω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	ATR	_	t_48|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	αὔτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_49|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	,	,	u	u--------	_	21	AuxX	_	t_50|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	ἐπὰν	ἐπάν	c	c--------	_	21	AuxC	_	t_51|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_52|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_53|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	πραττόμενον	πράσσω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	15	SBJ	_	t_54|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	καθῆκον	καθήκω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	15	PNOM	_	t_55|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	17	ADV	_	t_56|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	,	,	u	u--------	_	21	AuxX	_	t_57|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	καὶ	καί	c	c--------	_	10	COORD	_	t_58|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-18	ὑγιεῖ	ὑγιής	a	a-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_59|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-19	διαθέσει	διάθεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_60|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-20	ἐνεργῆται	ἐνεργέω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	17	ADV	_	t_61|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-21	[0]	[0]	-	---------	_	0	PRED	_	e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-22	·	·	u	u--------	_	21	AuxK	_	t_62|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	ἐξήγησις	ἐξήγησις	n	n-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_42|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	μὲν	μέν	d	d--------	_	21	AuxY	_	t_43|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_44|t_48|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	δικαίως	δίκαιος	d	d--------	_	7	ADV	_	t_45|t_48|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_46|t_47|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_47|t_48|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	διώκειν	διώκω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	ATR	_	t_48|t_42|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	αὔτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_49|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	,	,	u	u--------	_	21	AuxX	_	t_50|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	ἐπὰν	ἐπάν	c	c--------	_	21	AuxC	_	t_51|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	καὶ	καί	d	d--------	_	13	AuxZ	_	t_52|t_54|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_53|t_54|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	πραττόμενον	πράσσω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	15	SBJ	_	t_54|t_56|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	καθῆκον	καθήκω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	15	PNOM	_	t_55|t_56|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	17	ADV	_	t_56|t_58|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	,	,	u	u--------	_	21	AuxX	_	t_57|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	καὶ	καί	c	c--------	_	10	COORD	_	t_58|t_51|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+18	ὑγιεῖ	ὑγιής	a	a-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_59|t_60|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+19	διαθέσει	διάθεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_60|t_61|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+20	ἐνεργῆται	ἐνεργέω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	17	ADV	_	t_61|t_58|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+22	·	·	u	u--------	_	21	AuxK	_	t_62|e_3|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = ὡς εἴ τις σωφροσύνην διʼ οὐδὲν ἄλλο ἢ δέ αὐτὴν κατορθώσαι , Ἰωσὴφ ἀναγέγραπται πεποιηκέναι [0] .
 # sent_id = 6
-1	ὡς	ὡς	c	c--------	_	16	AuxC	_	t_63|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	εἴ	εἰ	c	c--------	_	14	AuxC	_	t_64|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	4	SBJ	_	t_65|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	σωφροσύνην	σωφροσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_66|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	διʼ	διά	r	r--------	_	15	AuxP	_	t_67|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_68|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	ἄλλο	ἄλλος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_69|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	ἢ	ἤ1	c	c--------	_	7	AuxC	_	t_70|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	δέ	δέ	d	d--------	_	11	AuxY	_	t_71|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_72|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	κατορθώσαι	κατορθόω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_73|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	,	,	u	u--------	_	16	AuxX	_	t_74|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	Ἰωσὴφ	ἰωσήφ	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_75|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	ἀναγέγραπται	ἀναγράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	OBJ	_	t_76|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	πεποιηκέναι	ποιέω	v	v--rna---	Mood=n|Tense=r|Voice=a	14	OBJ	_	t_77|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	[0]	[0]	-	---------	_	0	PRED	_	e_4|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	.	.	u	u--------	_	16	AuxK	_	t_78|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	ὡς	ὡς	c	c--------	_	16	AuxC	_	t_63|e_4|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	εἴ	εἰ	c	c--------	_	14	AuxC	_	t_64|t_76|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	4	SBJ	_	t_65|t_66|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	σωφροσύνην	σωφροσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_66|t_73|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	διʼ	διά	r	r--------	_	15	AuxP	_	t_67|t_77|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_68|t_67|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	ἄλλο	ἄλλος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_69|t_68|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	ἢ	ἤ1	c	c--------	_	7	AuxC	_	t_70|t_69|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	δέ	δέ	d	d--------	_	11	AuxY	_	t_71|t_73|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_72|t_73|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	κατορθώσαι	κατορθόω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	8	ADV	_	t_73|t_70|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	,	,	u	u--------	_	16	AuxX	_	t_74|e_4|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	Ἰωσὴφ	ἰωσήφ	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_75|t_76|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	ἀναγέγραπται	ἀναγράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	OBJ	_	t_76|t_63|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	πεποιηκέναι	ποιέω	v	v--rna---	Mood=n|Tense=r|Voice=a	14	OBJ	_	t_77|t_76|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	.	.	u	u--------	_	16	AuxK	_	t_78|e_4|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = τοῦ δὲ ἀδίκως τὸ δίκαιον διώκειν ἡ σαφήνειά ἐστι τοιαύτη , ἐπὰν τὸ καθῆκον μέν τις ἐπιτελῇ , προθέσει δὲ μοχθηρᾷ , ὡς εἴ τις δόξαν τὴν παρʼ ἀνθρώποις θηρώμενος κοινωνήσαι τῶν ὑπαρχόντων πένησιν , ὅπερ ἀπαγορεύων ὁ σωτήρ φησιν · [0] »
 # sent_id = 7
-1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_79|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_80|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	ἀδίκως	ἄδικος	d	d--------	_	6	ADV	_	t_81|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_82|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_83|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	διώκειν	διώκω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	ATR	_	t_84|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_85|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	σαφήνειά	σαφήνεια	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_86|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	τοιαύτη	τοιοῦτος	p	p-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_88|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	,	,	u	u--------	_	9	AuxX	_	t_89|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	ἐπὰν	ἐπάν	c	c--------	_	9	AuxC	_	t_90|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_91|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	καθῆκον	καθήκω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	17	OBJ	_	t_92|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	μέν	μέν	d	d--------	_	20	AuxY	_	t_93|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_94|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	ἐπιτελῇ	ἐπιτελέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	20	ADV	_	t_95|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-18	,	,	u	u--------	_	9	AuxX	_	t_96|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-19	προθέσει	πρόθεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_97|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-20	δὲ	δέ	c	c--------	_	12	COORD	_	t_98|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-21	μοχθηρᾷ	μοχθηρός	a	a-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_99|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-22	,	,	u	u--------	_	9	AuxX	_	t_100|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-23	ὡς	ὡς	c	c--------	_	10	AuxC	_	t_101|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-24	εἴ	εἰ	c	c--------	_	42	AuxC	_	t_102|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-25	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	31	SBJ	_	t_103|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-26	δόξαν	δόξα	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_104|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-27	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_105|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-28	παρʼ	παρά	r	r--------	_	26	AuxP	_	t_106|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-29	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	28	ATR	_	t_107|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-30	θηρώμενος	θηράω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	31	ADV	_	t_108|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-31	κοινωνήσαι	κοινωνέω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	24	ADV	_	t_109|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-32	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	33	ATR	_	t_110|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-33	ὑπαρχόντων	ὑπάρχω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	34	ATR	_	t_111|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-34	πένησιν	πένης	n	n-p---md-	Case=d|Gender=m|Number=p	31	OBJ	_	t_112|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-35	,	,	u	u--------	_	9	AuxX	_	t_113|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-36	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	40	OBJ	_	t_114|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-37	ἀπαγορεύων	ἀπαγορεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	40	ADV	_	t_115|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-38	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	39	ATR	_	t_116|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-39	σωτήρ	σωτήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	40	SBJ	_	t_117|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-40	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	34	ATR	_	t_118|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-41	·	·	u	u--------	_	9	AuxK	_	t_119|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-42	[0]	[0]	-	---------	_	23	ADV	_	e_5|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-43	»	»	u	u--------	_	9	AuxK	_	t_120|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_79|t_84|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_80|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	ἀδίκως	ἄδικος	d	d--------	_	6	ADV	_	t_81|t_84|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_82|t_83|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_83|t_84|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	διώκειν	διώκω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	ATR	_	t_84|t_86|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_85|t_86|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	σαφήνειά	σαφήνεια	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_86|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_87|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	τοιαύτη	τοιοῦτος	p	p-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_88|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	,	,	u	u--------	_	9	AuxX	_	t_89|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	ἐπὰν	ἐπάν	c	c--------	_	9	AuxC	_	t_90|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_91|t_92|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	καθῆκον	καθήκω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	17	OBJ	_	t_92|t_95|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	μέν	μέν	d	d--------	_	20	AuxY	_	t_93|t_98|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_94|t_95|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	ἐπιτελῇ	ἐπιτελέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	20	ADV	_	t_95|t_98|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+18	,	,	u	u--------	_	9	AuxX	_	t_96|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+19	προθέσει	πρόθεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_97|t_98|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+20	δὲ	δέ	c	c--------	_	12	COORD	_	t_98|t_90|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+21	μοχθηρᾷ	μοχθηρός	a	a-s---fd-	Case=d|Gender=f|Number=s	19	ATR	_	t_99|t_97|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+22	,	,	u	u--------	_	9	AuxX	_	t_100|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+23	ὡς	ὡς	c	c--------	_	10	AuxC	_	t_101|t_88|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+24	εἴ	εἰ	c	c--------	_	42	AuxC	_	t_102|e_5|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+25	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	31	SBJ	_	t_103|t_109|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+26	δόξαν	δόξα	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_104|t_108|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+27	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_105|t_104|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+28	παρʼ	παρά	r	r--------	_	26	AuxP	_	t_106|t_104|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+29	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	28	ATR	_	t_107|t_106|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+30	θηρώμενος	θηράω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	31	ADV	_	t_108|t_109|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+31	κοινωνήσαι	κοινωνέω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	24	ADV	_	t_109|t_102|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+32	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	33	ATR	_	t_110|t_111|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+33	ὑπαρχόντων	ὑπάρχω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	34	ATR	_	t_111|t_112|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+34	πένησιν	πένης	n	n-p---md-	Case=d|Gender=m|Number=p	31	OBJ	_	t_112|t_109|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+35	,	,	u	u--------	_	9	AuxX	_	t_113|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+36	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	40	OBJ	_	t_114|t_118|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+37	ἀπαγορεύων	ἀπαγορεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	40	ADV	_	t_115|t_118|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+38	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	39	ATR	_	t_116|t_117|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+39	σωτήρ	σωτήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	40	SBJ	_	t_117|t_118|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+40	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	34	ATR	_	t_118|t_112|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+41	·	·	u	u--------	_	9	AuxK	_	t_119|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+42	[0]	[0]	-	---------	_	23	ADV	_	e_5|t_101|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+43	»	»	u	u--------	_	9	AuxK	_	t_120|t_87|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = ἐὰν ποιῇς ἐλεημοσύνην , μὴ σαλπίσῃς ἔμπροσθέν σου , ὥσπερ οἱ ὑποκριταὶ ποιοῦσιν ἐν ταῖς συναγωγαῖς καὶ ἐν ταῖς ῥύμαις , ὅπως δοξασθῶσιν ὑπὸ τῶν ἀνθρώπων « .
 # sent_id = 8
-1	ἐὰν	ἐάν	c	c--------	_	6	AuxC	_	t_121|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	ποιῇς	ποιέω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	1	ADV	_	t_122|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	ἐλεημοσύνην	ἐλεημοσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_123|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	,	,	u	u--------	_	6	AuxX	_	t_124|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	μὴ	μή	d	d--------	_	6	AuxZ	_	t_125|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	σαλπίσῃς	σαλπίζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	ἔμπροσθέν	ἔμπροσθέν	d	d--------	_	6	ADV	_	t_127|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	7	ADV	_	t_128|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	,	,	u	u--------	_	6	AuxX	_	t_129|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	ὥσπερ	ὥσπερ	c	c--------	_	6	AuxC	_	t_130|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_131|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	ὑποκριταὶ	ὑποκριτής	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_132|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	ποιοῦσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	ADV	_	t_133|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_134|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	16	ATR	_	t_135|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	συναγωγαῖς	συναγωγή	n	n-p---fd-	Case=d|Gender=f|Number=p	14	ADV	_	t_136|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	καὶ	καί	c	c--------	_	13	COORD	_	t_137|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-18	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_138|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-19	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	20	ATR	_	t_139|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-20	ῥύμαις	ῥύμη	n	n-p---fd-	Case=d|Gender=f|Number=p	18	ADV	_	t_140|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-21	,	,	u	u--------	_	6	AuxX	_	t_141|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-22	ὅπως	ὅπως	c	c--------	_	6	AuxC	_	t_142|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-23	δοξασθῶσιν	δοξάζω	v	v3pasp---	Mood=s|Number=p|Person=3|Tense=a|Voice=p	22	ADV	_	t_143|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-24	ὑπὸ	ὑπό	r	r--------	_	23	AuxP	_	t_144|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-25	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_145|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-26	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	24	OBJ	_	t_146|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-27	«	«	u	u--------	_	6	AuxG	_	t_147|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-28	.	.	u	u--------	_	6	AuxK	_	t_148|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	ἐὰν	ἐάν	c	c--------	_	6	AuxC	_	t_121|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	ποιῇς	ποιέω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	1	ADV	_	t_122|t_121|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	ἐλεημοσύνην	ἐλεημοσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_123|t_122|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	,	,	u	u--------	_	6	AuxX	_	t_124|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	μὴ	μή	d	d--------	_	6	AuxZ	_	t_125|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	σαλπίσῃς	σαλπίζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_126|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	ἔμπροσθέν	ἔμπροσθέν	d	d--------	_	6	ADV	_	t_127|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	7	ADV	_	t_128|t_127|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	,	,	u	u--------	_	6	AuxX	_	t_129|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	ὥσπερ	ὥσπερ	c	c--------	_	6	AuxC	_	t_130|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_131|t_132|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	ὑποκριταὶ	ὑποκριτής	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_132|t_133|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	ποιοῦσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	ADV	_	t_133|t_130|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_134|t_137|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	16	ATR	_	t_135|t_136|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	συναγωγαῖς	συναγωγή	n	n-p---fd-	Case=d|Gender=f|Number=p	14	ADV	_	t_136|t_134|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	καὶ	καί	c	c--------	_	13	COORD	_	t_137|t_133|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+18	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_138|t_137|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+19	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	20	ATR	_	t_139|t_140|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+20	ῥύμαις	ῥύμη	n	n-p---fd-	Case=d|Gender=f|Number=p	18	ADV	_	t_140|t_138|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+21	,	,	u	u--------	_	6	AuxX	_	t_141|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+22	ὅπως	ὅπως	c	c--------	_	6	AuxC	_	t_142|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+23	δοξασθῶσιν	δοξάζω	v	v3pasp---	Mood=s|Number=p|Person=3|Tense=a|Voice=p	22	ADV	_	t_143|t_142|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+24	ὑπὸ	ὑπό	r	r--------	_	23	AuxP	_	t_144|t_143|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+25	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_145|t_146|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+26	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	24	OBJ	_	t_146|t_144|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+27	«	«	u	u--------	_	6	AuxG	_	t_147|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+28	.	.	u	u--------	_	6	AuxK	_	t_148|t_126|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = τὸ δὲ δικαίως τὸ ἄδικον ποιεῖν νοηθείη ἄν , ὅταν προθέσει τὰ κρείττονα ποιεῖν τις προελόμενος παρ ἄγνοιαν τοῦ καλοῦ πράττῃ τὰ χείρονα ·
 # sent_id = 9
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_149|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_150|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	δικαίως	δίκαιος	d	d--------	_	6	ADV	_	t_151|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_152|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	ἄδικον	ἄδικος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_153|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_154|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	νοηθείη	νοέω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	ἄν	ἄν	d	d--------	_	7	AuxY	_	t_156|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	,	,	u	u--------	_	7	AuxX	_	t_157|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	ὅταν	ὅταν	c	c--------	_	7	AuxC	_	t_158|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	προθέσει	πρόθεσις	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	10	ADV	_	t_159|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_160|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	κρείττονα	κρείσσων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	14	OBJ	_	t_161|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_162|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	21	SBJ	_	t_163|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	προελόμενος	προαιρέω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	21	ADV	_	t_164|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	παρ	παρά	r	r--------	_	16	AuxP	_	t_165|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-18	ἄγνοιαν	ἄγνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ADV	_	t_166|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_167|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-20	καλοῦ	καλός	a	a-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_168|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-21	πράττῃ	πράσσω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_169|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_170|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-23	χείρονα	χείρων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	21	OBJ	_	t_171|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-24	·	·	u	u--------	_	7	AuxK	_	t_172|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_149|t_154|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_150|t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	δικαίως	δίκαιος	d	d--------	_	6	ADV	_	t_151|t_154|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_152|t_153|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	ἄδικον	ἄδικος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_153|t_154|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_154|t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	νοηθείη	νοέω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_155|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	ἄν	ἄν	d	d--------	_	7	AuxY	_	t_156|t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	,	,	u	u--------	_	7	AuxX	_	t_157|t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	ὅταν	ὅταν	c	c--------	_	7	AuxC	_	t_158|t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	προθέσει	πρόθεσις	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	10	ADV	_	t_159|t_158|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_160|t_161|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	κρείττονα	κρείσσων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	14	OBJ	_	t_161|t_162|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_162|t_159|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	21	SBJ	_	t_163|t_169|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	προελόμενος	προαιρέω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	21	ADV	_	t_164|t_169|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	παρ	παρά	r	r--------	_	16	AuxP	_	t_165|t_164|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+18	ἄγνοιαν	ἄγνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ADV	_	t_166|t_165|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_167|t_168|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+20	καλοῦ	καλός	a	a-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_168|t_166|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+21	πράττῃ	πράσσω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_169|t_158|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+22	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_170|t_171|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+23	χείρονα	χείρων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	21	OBJ	_	t_171|t_169|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+24	·	·	u	u--------	_	7	AuxK	_	t_172|t_155|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = ὁποῖός ποτε γέγονε Παῦλος προδιδοὺς τὰς ἐκκλησίας κατὰ ζῆλον θεοσεβείας .
 # sent_id = 10
-1	ὁποῖός	ὁποῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_173|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	ποτε	ποτέ	d	d--------	_	3	ADV	_	t_174|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_175|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	Παῦλος	παῦλος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_176|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	προδιδοὺς	προδίδωμι	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_177|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_178|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	ἐκκλησίας	ἐκκλησία	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_179|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_180|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	ζῆλον	ζῆλος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	ADV	_	t_181|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	θεοσεβείας	θεοσεβεία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_182|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	.	.	u	u--------	_	3	AuxK	_	t_183|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	ὁποῖός	ὁποῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_173|t_175|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	ποτε	ποτέ	d	d--------	_	3	ADV	_	t_174|t_175|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	γέγονε	γίγνομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_175|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	Παῦλος	παῦλος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_176|t_175|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	προδιδοὺς	προδίδωμι	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_177|t_175|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	7	ATR	_	t_178|t_179|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	ἐκκλησίας	ἐκκλησία	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_179|t_177|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_180|t_177|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	ζῆλον	ζῆλος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	ADV	_	t_181|t_180|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	θεοσεβείας	θεοσεβεία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_182|t_181|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	.	.	u	u--------	_	3	AuxK	_	t_183|t_175|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 
 # source = Origen, Fragmentum In Lamentationes (In Catenis de Octateucho) 1
 # text = ἀδίκως δὲ τὸ ἄδικον , ὅταν καὶ τὸ πραττόμενον ἄδικον ᾖ καὶ ἡ προαίρεσις κακοποιητίκη [0] .
 # sent_id = 11
-1	ἀδίκως	ἄδικος	d	d--------	_	16	ADV	_	t_184|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_185|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_186|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-4	ἄδικον	ἄδικος	a	a-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_187|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-5	,	,	u	u--------	_	16	AuxX	_	t_188|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-6	ὅταν	ὅταν	c	c--------	_	16	AuxC	_	t_189|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-7	καὶ	καί	d	d--------	_	12	AuxY	_	t_190|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_191|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-9	πραττόμενον	πράσσω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	11	SBJ	_	t_192|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-10	ἄδικον	ἄδικος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_193|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-11	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_194|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-12	καὶ	καί	c	c--------	_	6	COORD	_	t_195|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_196|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-14	προαίρεσις	προαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_197|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-15	κακοποιητίκη	κακοποιητική	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	11	PNOM	_	t_198|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-16	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
-17	.	.	u	u--------	_	16	AuxK	_	t_199|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+1	ἀδίκως	ἄδικος	d	d--------	_	16	ADV	_	t_184|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_185|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_186|t_187|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+4	ἄδικον	ἄδικος	a	a-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_187|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+5	,	,	u	u--------	_	16	AuxX	_	t_188|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+6	ὅταν	ὅταν	c	c--------	_	16	AuxC	_	t_189|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+7	καὶ	καί	d	d--------	_	12	AuxY	_	t_190|t_195|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_191|t_192|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+9	πραττόμενον	πράσσω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	11	SBJ	_	t_192|t_194|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+10	ἄδικον	ἄδικος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_193|t_194|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+11	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_194|t_195|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+12	καὶ	καί	c	c--------	_	6	COORD	_	t_195|t_189|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_196|t_197|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+14	προαίρεσις	προαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_197|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+15	κακοποιητίκη	κακοποιητική	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	11	PNOM	_	t_198|t_194|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
+17	.	.	u	u--------	_	16	AuxK	_	t_199|e_6|ref=Fragmentum In Lamentationes (In Catenis de Octateucho)_1
 

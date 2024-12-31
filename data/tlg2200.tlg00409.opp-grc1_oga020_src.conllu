@@ -1,1337 +1,1337 @@
-# source = Libanius, Oratio 9 1
+# source = Libanius, Orat. 9 1
 # text = ΕΙΣ ΤΑΣ ΚΑΛΑΝΔΑΣ .
 # sent_id = 1
-1	ΕΙΣ	εισ	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_1|ref=Oratio 9_1
-2	ΤΑΣ	ὁ	n	n-s---mn-	Case=g|Gender=f|Number=s	3	ATR	_	t_2|ref=Oratio 9_1
-3	ΚΑΛΑΝΔΑΣ	καλέσσα	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_3|ref=Oratio 9_1
-4	.	.	u	u--------	_	1	AuxK	_	t_4|ref=Oratio 9_1
+1	ΕΙΣ	εισ	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_1|0|ref=Orat. 9_1
+2	ΤΑΣ	ὁ	n	n-s---mn-	Case=g|Gender=f|Number=s	3	ATR	_	t_2|t_3|ref=Orat. 9_1
+3	ΚΑΛΑΝΔΑΣ	καλέσσα	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_3|t_1|ref=Orat. 9_1
+4	.	.	u	u--------	_	1	AuxK	_	t_4|t_1|ref=Orat. 9_1
 
-# source = Libanius, Oratio 9 1
+# source = Libanius, Orat. 9 1
 # text = Ἡ μὲν οὖν ἑορτὴ καὶ αὐτὴ προσάγει τὸ αὑτῆς εὖ ποιήσουσα ἡμᾶς , ἡμεῖς δὲ οὔπω πρότερον αὐτῇ πεποιήκαμεν ἐγκώμιον , καὶ ταῦτα εἰδότες , ὅτι τιμὴ μὲν τοῦτο καὶ αὐτοῖς τοῖς δαίμοσιν ὧν ἑορταί , δαίμονος δὲ μεγάλου τήνδε εἶναι συμβαίνει τὴν ἑορτήν [0] .
 # sent_id = 2
-1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_5|ref=Oratio 9_1
-2	μὲν	μέν	d	d--------	_	15	AuxY	_	t_6|ref=Oratio 9_1
-3	οὖν	οὖν	d	d--------	_	15	AuxY	_	t_7|ref=Oratio 9_1
-4	ἑορτὴ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_8|ref=Oratio 9_1
-5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_9|ref=Oratio 9_1
-6	αὐτὴ	αὐτός	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATV	_	t_10|ref=Oratio 9_1
-7	προσάγει	προσάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_11|ref=Oratio 9_1
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_12|ref=Oratio 9_1
-9	αὑτῆς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_13|ref=Oratio 9_1
-10	εὖ	εὖ	d	d--------	_	11	ADV	_	t_14|ref=Oratio 9_1
-11	ποιήσουσα	ποιέω	v	v-sfpafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=f|Voice=a	7	ADV	_	t_15|ref=Oratio 9_1
-12	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	11	OBJ	_	t_16|ref=Oratio 9_1
-13	,	,	u	u--------	_	0	AuxX	_	t_17|ref=Oratio 9_1
-14	ἡμεῖς	ἐγώ	p	p1p---mn-	Case=n|Gender=m|Number=p|Person=1	19	SBJ	_	t_18|ref=Oratio 9_1
-15	δὲ	δέ	c	c--------	_	13	COORD	_	t_19|ref=Oratio 9_1
-16	οὔπω	οὔπω	d	d--------	_	19	AuxZ	_	t_20|ref=Oratio 9_1
-17	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_21|ref=Oratio 9_1
-18	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	19	OBJ	_	t_22|ref=Oratio 9_1
-19	πεποιήκαμεν	ποιέω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	15	PRED	_	t_23|ref=Oratio 9_1
-20	ἐγκώμιον	ἐγκώμιον	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_24|ref=Oratio 9_1
-21	,	,	u	u--------	_	13	AuxX	_	t_25|ref=Oratio 9_1
-22	καὶ	καί	d	d--------	_	24	AuxZ	_	t_26|ref=Oratio 9_1
-23	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	25	OBJ	_	t_27|ref=Oratio 9_1
-24	εἰδότες	οἶδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	19	ADV	_	t_28|ref=Oratio 9_1
-25	,	,	u	u--------	_	24	APOS	_	t_29|ref=Oratio 9_1
-26	ὅτι	ὅτι	c	c--------	_	25	AuxC	_	t_30|ref=Oratio 9_1
-27	τιμὴ	τιμή	n	n-s---fn-	Case=n|Gender=f|Number=s	34	SBJ	_	t_31|ref=Oratio 9_1
-28	μὲν	μέν	d	d--------	_	38	AuxY	_	t_32|ref=Oratio 9_1
-29	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	34	SBJ	_	t_33|ref=Oratio 9_1
-30	καὶ	καί	d	d--------	_	33	AuxZ	_	t_34|ref=Oratio 9_1
-31	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_35|ref=Oratio 9_1
-32	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_36|ref=Oratio 9_1
-33	δαίμοσιν	δαίμων	n	n-p---md-	Case=d|Gender=m|Number=p	34	PNOM	_	t_37|ref=Oratio 9_1
-34	ὧν	ὅς	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	38	OBJ	_	t_38|ref=Oratio 9_1
-35	ἑορταί	ἑορτή	n	n-p---mn-	Mood=i|Number=s|Person=3|Tense=r|Voice=e	34	PNOM	_	t_39|ref=Oratio 9_1
-36	,	,	u	u--------	_	13	AuxX	_	t_40|ref=Oratio 9_1
-37	δαίμονος	δαίμων	n	n-s---mg-	Case=g|Gender=m|Number=s	41	PNOM	_	t_41|ref=Oratio 9_1
-38	δὲ	δέ	c	c--------	_	26	COORD	_	t_42|ref=Oratio 9_1
-39	μεγάλου	μέγας	a	a-s---mg-	Case=g|Gender=m|Number=s	37	ATR	_	t_43|ref=Oratio 9_1
-40	τήνδε	ὅδε	a	a-s---fa-	Case=a|Gender=f|Number=s	44	ATR	_	t_44|ref=Oratio 9_1
-41	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	42	SBJ	_	t_45|ref=Oratio 9_1
-42	συμβαίνει	συμβαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	38	OBJ	_	t_46|ref=Oratio 9_1
-43	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	44	ATR	_	t_47|ref=Oratio 9_1
-44	ἑορτήν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	41	SBJ	_	t_48|ref=Oratio 9_1
-45	[0]	[0]	-	---------	_	38	OBJ	_	e_1|ref=Oratio 9_1
-46	.	.	u	u--------	_	13	AuxK	_	t_49|ref=Oratio 9_1
+1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_5|t_8|ref=Orat. 9_1
+2	μὲν	μέν	d	d--------	_	15	AuxY	_	t_6|t_19|ref=Orat. 9_1
+3	οὖν	οὖν	d	d--------	_	15	AuxY	_	t_7|t_19|ref=Orat. 9_1
+4	ἑορτὴ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_8|t_11|ref=Orat. 9_1
+5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_9|t_10|ref=Orat. 9_1
+6	αὐτὴ	αὐτός	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATV	_	t_10|t_8|ref=Orat. 9_1
+7	προσάγει	προσάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_11|t_19|ref=Orat. 9_1
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_12|t_15|ref=Orat. 9_1
+9	αὑτῆς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_13|t_12|ref=Orat. 9_1
+10	εὖ	εὖ	d	d--------	_	11	ADV	_	t_14|t_15|ref=Orat. 9_1
+11	ποιήσουσα	ποιέω	v	v-sfpafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=f|Voice=a	7	ADV	_	t_15|t_11|ref=Orat. 9_1
+12	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	11	OBJ	_	t_16|t_15|ref=Orat. 9_1
+13	,	,	u	u--------	_	0	AuxX	_	t_17|0|ref=Orat. 9_1
+14	ἡμεῖς	ἐγώ	p	p1p---mn-	Case=n|Gender=m|Number=p|Person=1	19	SBJ	_	t_18|t_23|ref=Orat. 9_1
+15	δὲ	δέ	c	c--------	_	13	COORD	_	t_19|t_17|ref=Orat. 9_1
+16	οὔπω	οὔπω	d	d--------	_	19	AuxZ	_	t_20|t_23|ref=Orat. 9_1
+17	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_21|t_23|ref=Orat. 9_1
+18	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	19	OBJ	_	t_22|t_23|ref=Orat. 9_1
+19	πεποιήκαμεν	ποιέω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	15	PRED	_	t_23|t_19|ref=Orat. 9_1
+20	ἐγκώμιον	ἐγκώμιον	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_24|t_23|ref=Orat. 9_1
+21	,	,	u	u--------	_	13	AuxX	_	t_25|t_17|ref=Orat. 9_1
+22	καὶ	καί	d	d--------	_	24	AuxZ	_	t_26|t_28|ref=Orat. 9_1
+23	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	25	OBJ	_	t_27|t_29|ref=Orat. 9_1
+24	εἰδότες	οἶδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	19	ADV	_	t_28|t_23|ref=Orat. 9_1
+25	,	,	u	u--------	_	24	APOS	_	t_29|t_28|ref=Orat. 9_1
+26	ὅτι	ὅτι	c	c--------	_	25	AuxC	_	t_30|t_29|ref=Orat. 9_1
+27	τιμὴ	τιμή	n	n-s---fn-	Case=n|Gender=f|Number=s	34	SBJ	_	t_31|t_38|ref=Orat. 9_1
+28	μὲν	μέν	d	d--------	_	38	AuxY	_	t_32|t_42|ref=Orat. 9_1
+29	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	34	SBJ	_	t_33|t_38|ref=Orat. 9_1
+30	καὶ	καί	d	d--------	_	33	AuxZ	_	t_34|t_37|ref=Orat. 9_1
+31	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_35|t_37|ref=Orat. 9_1
+32	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_36|t_37|ref=Orat. 9_1
+33	δαίμοσιν	δαίμων	n	n-p---md-	Case=d|Gender=m|Number=p	34	PNOM	_	t_37|t_38|ref=Orat. 9_1
+34	ὧν	ὅς	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	38	OBJ	_	t_38|t_42|ref=Orat. 9_1
+35	ἑορταί	ἑορτή	n	n-p---mn-	Mood=i|Number=s|Person=3|Tense=r|Voice=e	34	PNOM	_	t_39|t_38|ref=Orat. 9_1
+36	,	,	u	u--------	_	13	AuxX	_	t_40|t_17|ref=Orat. 9_1
+37	δαίμονος	δαίμων	n	n-s---mg-	Case=g|Gender=m|Number=s	41	PNOM	_	t_41|t_45|ref=Orat. 9_1
+38	δὲ	δέ	c	c--------	_	26	COORD	_	t_42|t_30|ref=Orat. 9_1
+39	μεγάλου	μέγας	a	a-s---mg-	Case=g|Gender=m|Number=s	37	ATR	_	t_43|t_41|ref=Orat. 9_1
+40	τήνδε	ὅδε	a	a-s---fa-	Case=a|Gender=f|Number=s	44	ATR	_	t_44|t_48|ref=Orat. 9_1
+41	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	42	SBJ	_	t_45|t_46|ref=Orat. 9_1
+42	συμβαίνει	συμβαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	38	OBJ	_	t_46|t_42|ref=Orat. 9_1
+43	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	44	ATR	_	t_47|t_48|ref=Orat. 9_1
+44	ἑορτήν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	41	SBJ	_	t_48|t_45|ref=Orat. 9_1
+45	[0]	[0]	-	---------	_	38	OBJ	_	e_1|t_42|ref=Orat. 9_1
+46	.	.	u	u--------	_	13	AuxK	_	t_49|t_17|ref=Orat. 9_1
 
-# source = Libanius, Oratio 9 1-2
+# source = Libanius, Orat. 9 1-2
 # text = πρὸς ὃν τί ἂν ἀποκριναίμεθα μεμφόμενόν τε καὶ καταιτιώ - μενον , εἰ τοσαῦτα ἀνθρώπους ἐπαινέσαντες ἑορτῆς τοσαύτης ἠμελήκαμεν , καὶ ταῦτα εἰδότες τῶν πρὸ ἡμῶν τινας τοῦτο οὐ πεπονθότας .
 # sent_id = 3
-1	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_50|ref=Oratio 9_1
-2	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_51|ref=Oratio 9_2
-3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_52|ref=Oratio 9_2
-4	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_53|ref=Oratio 9_2
-5	ἀποκριναίμεθα	ἀποκρίνω	v	v2ppoe---	Mood=o|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_54|ref=Oratio 9_2
-6	μεμφόμενόν	μέμφομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	8	OBJ	_	t_55|ref=Oratio 9_2
-7	τε	τε	d	d--------	_	8	AuxY	_	t_56|ref=Oratio 9_2
-8	καὶ	καί	c	c--------	_	5	COORD	_	t_57|ref=Oratio 9_2
-9	καταιτιώ	καταιτιάομαι	n	n-d---fa-	Case=a|Gender=m|Number=d	8	OBJ	_	t_58|ref=Oratio 9_2
-10	-	-	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	11	OBJ	_	t_59|ref=Oratio 9_2
-11	μενον	μένω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	8	ADV	_	t_60|ref=Oratio 9_2
-12	,	,	u	u--------	_	5	AuxX	_	t_61|ref=Oratio 9_2
-13	εἰ	εἰ	c	c--------	_	5	AuxC	_	t_62|ref=Oratio 9_2
-14	τοσαῦτα	τοσοῦτος	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_63|ref=Oratio 9_2
-15	ἀνθρώπους	ἄνθρωπος	n	n-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_64|ref=Oratio 9_2
-16	ἐπαινέσαντες	ἐπαινέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	19	ADV	_	t_65|ref=Oratio 9_2
-17	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	19	OBJ	_	t_66|ref=Oratio 9_2
-18	τοσαύτης	τοσοῦτος	a	a-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_67|ref=Oratio 9_2
-19	ἠμελήκαμεν	ἀμελέω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	13	ADV	_	t_68|ref=Oratio 9_2
-20	,	,	u	u--------	_	5	AuxX	_	t_69|ref=Oratio 9_2
-21	καὶ	καί	d	d--------	_	23	AuxZ	_	t_70|ref=Oratio 9_2
-22	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_71|ref=Oratio 9_2
-23	εἰδότες	οἶδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	5	ADV	_	t_72|ref=Oratio 9_2
-24	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_73|ref=Oratio 9_2
-25	πρὸ	πρό	r	r--------	_	24	AuxP	_	t_74|ref=Oratio 9_2
-26	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	24	ATR	_	t_75|ref=Oratio 9_2
-27	τινας	τις	p	p-p---ma-	Case=a|Gender=m|Number=p	30	SBJ	_	t_76|ref=Oratio 9_2
-28	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_77|ref=Oratio 9_2
-29	οὐ	οὐ	d	d--------	_	30	AuxZ	_	t_78|ref=Oratio 9_2
-30	πεπονθότας	πάσχω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	23	OBJ	_	t_79|ref=Oratio 9_2
-31	.	.	u	u--------	_	5	AuxK	_	t_80|ref=Oratio 9_2
+1	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_50|t_54|ref=Orat. 9_1
+2	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_51|t_50|ref=Orat. 9_2
+3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_52|t_50|ref=Orat. 9_2
+4	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_53|t_54|ref=Orat. 9_2
+5	ἀποκριναίμεθα	ἀποκρίνω	v	v2ppoe---	Mood=o|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_54|0|ref=Orat. 9_2
+6	μεμφόμενόν	μέμφομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	8	OBJ	_	t_55|t_57|ref=Orat. 9_2
+7	τε	τε	d	d--------	_	8	AuxY	_	t_56|t_57|ref=Orat. 9_2
+8	καὶ	καί	c	c--------	_	5	COORD	_	t_57|t_54|ref=Orat. 9_2
+9	καταιτιώ	καταιτιάομαι	n	n-d---fa-	Case=a|Gender=m|Number=d	8	OBJ	_	t_58|t_57|ref=Orat. 9_2
+10	-	-	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	11	OBJ	_	t_59|t_60|ref=Orat. 9_2
+11	μενον	μένω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	8	ADV	_	t_60|t_57|ref=Orat. 9_2
+12	,	,	u	u--------	_	5	AuxX	_	t_61|t_54|ref=Orat. 9_2
+13	εἰ	εἰ	c	c--------	_	5	AuxC	_	t_62|t_54|ref=Orat. 9_2
+14	τοσαῦτα	τοσοῦτος	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_63|t_65|ref=Orat. 9_2
+15	ἀνθρώπους	ἄνθρωπος	n	n-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_64|t_65|ref=Orat. 9_2
+16	ἐπαινέσαντες	ἐπαινέω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	19	ADV	_	t_65|t_68|ref=Orat. 9_2
+17	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	19	OBJ	_	t_66|t_68|ref=Orat. 9_2
+18	τοσαύτης	τοσοῦτος	a	a-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_67|t_66|ref=Orat. 9_2
+19	ἠμελήκαμεν	ἀμελέω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	13	ADV	_	t_68|t_62|ref=Orat. 9_2
+20	,	,	u	u--------	_	5	AuxX	_	t_69|t_54|ref=Orat. 9_2
+21	καὶ	καί	d	d--------	_	23	AuxZ	_	t_70|t_72|ref=Orat. 9_2
+22	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_71|t_72|ref=Orat. 9_2
+23	εἰδότες	οἶδα	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	5	ADV	_	t_72|t_54|ref=Orat. 9_2
+24	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_73|t_76|ref=Orat. 9_2
+25	πρὸ	πρό	r	r--------	_	24	AuxP	_	t_74|t_73|ref=Orat. 9_2
+26	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	24	ATR	_	t_75|t_73|ref=Orat. 9_2
+27	τινας	τις	p	p-p---ma-	Case=a|Gender=m|Number=p	30	SBJ	_	t_76|t_79|ref=Orat. 9_2
+28	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_77|t_79|ref=Orat. 9_2
+29	οὐ	οὐ	d	d--------	_	30	AuxZ	_	t_78|t_79|ref=Orat. 9_2
+30	πεπονθότας	πάσχω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	23	OBJ	_	t_79|t_72|ref=Orat. 9_2
+31	.	.	u	u--------	_	5	AuxK	_	t_80|t_54|ref=Orat. 9_2
 
-# source = Libanius, Oratio 9 2-3
+# source = Libanius, Orat. 9 2-3
 # text = ἐπεὶ οὖν οὐκ ἂν οὐκ ἐπαινοῦντες ἀπελογησάμεθα — τί γὰρ | ἂν καὶ λέγοι - μὲν ;
 # sent_id = 4
-1	ἐπεὶ	ἐπεί	c	c--------	_	14	AuxC	_	t_81|ref=Oratio 9_2
-2	οὖν	οὖν	d	d--------	_	7	AuxY	_	t_82|ref=Oratio 9_3
-3	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_83|ref=Oratio 9_3
-4	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_84|ref=Oratio 9_3
-5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_85|ref=Oratio 9_3
-6	ἐπαινοῦντες	ἐπαινέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_86|ref=Oratio 9_3
-7	ἀπελογησάμεθα	ἀπολογέομαι	v	v1paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=m	1	ADV	_	t_87|ref=Oratio 9_3
-8	—	—	u	u--------	_	14	AuxG	_	t_88|ref=Oratio 9_3
-9	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_89|ref=Oratio 9_3
-10	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_90|ref=Oratio 9_3
-11	|	|	u	u--------	_	14	AuxG	_	t_91|ref=Oratio 9_3
-12	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_92|ref=Oratio 9_3
-13	καὶ	καί	d	d--------	_	14	AuxZ	_	t_93|ref=Oratio 9_3
-14	λέγοι	λέγω3	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_94|ref=Oratio 9_3
-15	-	-	u	u--------	_	14	AuxG	_	t_95|ref=Oratio 9_3
-16	μὲν	μέν	d	d--------	_	14	AuxY	_	t_96|ref=Oratio 9_3
-17	;	;	u	u--------	_	14	AuxK	_	t_97|ref=Oratio 9_3
+1	ἐπεὶ	ἐπεί	c	c--------	_	14	AuxC	_	t_81|t_94|ref=Orat. 9_2
+2	οὖν	οὖν	d	d--------	_	7	AuxY	_	t_82|t_87|ref=Orat. 9_3
+3	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_83|t_87|ref=Orat. 9_3
+4	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_84|t_87|ref=Orat. 9_3
+5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_85|t_86|ref=Orat. 9_3
+6	ἐπαινοῦντες	ἐπαινέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ADV	_	t_86|t_87|ref=Orat. 9_3
+7	ἀπελογησάμεθα	ἀπολογέομαι	v	v1paim---	Mood=i|Number=p|Person=1|Tense=a|Voice=m	1	ADV	_	t_87|t_81|ref=Orat. 9_3
+8	—	—	u	u--------	_	14	AuxG	_	t_88|t_94|ref=Orat. 9_3
+9	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	14	OBJ	_	t_89|t_94|ref=Orat. 9_3
+10	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_90|t_94|ref=Orat. 9_3
+11	|	|	u	u--------	_	14	AuxG	_	t_91|t_94|ref=Orat. 9_3
+12	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_92|t_94|ref=Orat. 9_3
+13	καὶ	καί	d	d--------	_	14	AuxZ	_	t_93|t_94|ref=Orat. 9_3
+14	λέγοι	λέγω3	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_94|0|ref=Orat. 9_3
+15	-	-	u	u--------	_	14	AuxG	_	t_95|t_94|ref=Orat. 9_3
+16	μὲν	μέν	d	d--------	_	14	AuxY	_	t_96|t_94|ref=Orat. 9_3
+17	;	;	u	u--------	_	14	AuxK	_	t_97|t_94|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = — ἐπαινοῦντες ἀπολογησώμεθα .
 # sent_id = 5
-1	—	—	u	u--------	_	3	AuxG	_	t_98|ref=Oratio 9_3
-2	ἐπαινοῦντες	ἐπαινέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ADV	_	t_99|ref=Oratio 9_3
-3	ἀπολογησώμεθα	ἀπολογέομαι	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	0	PRED	_	t_100|ref=Oratio 9_3
-4	.	.	u	u--------	_	3	AuxK	_	t_101|ref=Oratio 9_3
+1	—	—	u	u--------	_	3	AuxG	_	t_98|t_100|ref=Orat. 9_3
+2	ἐπαινοῦντες	ἐπαινέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ADV	_	t_99|t_100|ref=Orat. 9_3
+3	ἀπολογησώμεθα	ἀπολογέομαι	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	0	PRED	_	t_100|0|ref=Orat. 9_3
+4	.	.	u	u--------	_	3	AuxK	_	t_101|t_100|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = βέλτιον γὰρ ἀπο - δόντας τελευτᾶν τὸν βίον ἢ ὀφείλοντας [0] [1] .
 # sent_id = 6
-1	βέλτιον	βελτίων	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	11	PNOM	_	t_102|ref=Oratio 9_3
-2	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_103|ref=Oratio 9_3
-3	ἀπο	ἀπό	r	r--------	_	11	PNOM	_	t_104|ref=Oratio 9_3
-4	-	-	u	u--------	_	11	AuxG	_	t_105|ref=Oratio 9_3
-5	δόντας	δίδωμι	v	v-papama-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	6	ADV	_	t_106|ref=Oratio 9_3
-6	τελευτᾶν	τελευτάω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_107|ref=Oratio 9_3
-7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_108|ref=Oratio 9_3
-8	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_109|ref=Oratio 9_3
-9	ἢ	ἤ1	c	c--------	_	1	AuxC	_	t_110|ref=Oratio 9_3
-10	ὀφείλοντας	ὀφείλω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_111|ref=Oratio 9_3
-11	[0]	[0]	-	---------	_	0	PRED	_	e_2|ref=Oratio 9_1
-12	[1]	[1]	-	---------	_	9	ADV	_	e_3|ref=Oratio 9_1
-13	.	.	u	u--------	_	11	AuxK	_	t_112|ref=Oratio 9_3
+1	βέλτιον	βελτίων	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	11	PNOM	_	t_102|e_2|ref=Orat. 9_3
+2	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_103|e_2|ref=Orat. 9_3
+3	ἀπο	ἀπό	r	r--------	_	11	PNOM	_	t_104|e_2|ref=Orat. 9_3
+4	-	-	u	u--------	_	11	AuxG	_	t_105|e_2|ref=Orat. 9_3
+5	δόντας	δίδωμι	v	v-papama-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	6	ADV	_	t_106|t_107|ref=Orat. 9_3
+6	τελευτᾶν	τελευτάω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_107|e_2|ref=Orat. 9_3
+7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_108|t_109|ref=Orat. 9_3
+8	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_109|t_107|ref=Orat. 9_3
+9	ἢ	ἤ1	c	c--------	_	1	AuxC	_	t_110|t_102|ref=Orat. 9_3
+10	ὀφείλοντας	ὀφείλω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_111|e_3|ref=Orat. 9_3
+11	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Orat. 9_1
+12	[1]	[1]	-	---------	_	9	ADV	_	e_3|t_110|ref=Orat. 9_1
+13	.	.	u	u--------	_	11	AuxK	_	t_112|e_2|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = C = codex Chisianus Α = Monacensis gr [0] .
 # sent_id = 7
-1	C	ὁ	n	n--------	_	0	AuxG	_	t_113|ref=Oratio 9_3
-2	=	=	u	u--------	_	1	AuxG	_	t_114|ref=Oratio 9_3
-3	codex	codex	n	n-s---fn-	Case=n|Gender=f|Number=s	9	ExD	_	t_115|ref=Oratio 9_3
-4	Chisianus	chisianus	n	n-s---mn-	Case=n|Gender=m|Number=s	9	ExD	_	t_116|ref=Oratio 9_3
-5	Α	α	n	n--------	_	1	ExD	_	t_117|ref=Oratio 9_3
-6	=	=	u	u--------	_	1	AuxG	_	t_118|ref=Oratio 9_3
-7	Monacensis	monacensis	a	a-s---mn-	Case=n|Gender=f|Number=s	9	ExD	_	t_119|ref=Oratio 9_3
-8	gr	gr	x	x--------	_	7	ADV	_	t_120|ref=Oratio 9_3
-9	[0]	[0]	-	---------	_	1	PRED	_	e_4|ref=Oratio 9_1
-10	.	.	u	u--------	_	1	AuxK	_	t_121|ref=Oratio 9_3
+1	C	ὁ	n	n--------	_	0	AuxG	_	t_113|0|ref=Orat. 9_3
+2	=	=	u	u--------	_	1	AuxG	_	t_114|t_113|ref=Orat. 9_3
+3	codex	codex	n	n-s---fn-	Case=n|Gender=f|Number=s	9	ExD	_	t_115|e_4|ref=Orat. 9_3
+4	Chisianus	chisianus	n	n-s---mn-	Case=n|Gender=m|Number=s	9	ExD	_	t_116|e_4|ref=Orat. 9_3
+5	Α	α	n	n--------	_	1	ExD	_	t_117|t_113|ref=Orat. 9_3
+6	=	=	u	u--------	_	1	AuxG	_	t_118|t_113|ref=Orat. 9_3
+7	Monacensis	monacensis	a	a-s---mn-	Case=n|Gender=f|Number=s	9	ExD	_	t_119|e_4|ref=Orat. 9_3
+8	gr	gr	x	x--------	_	7	ADV	_	t_120|t_119|ref=Orat. 9_3
+9	[0]	[0]	-	---------	_	1	PRED	_	e_4|t_113|ref=Orat. 9_1
+10	.	.	u	u--------	_	1	AuxK	_	t_121|t_113|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = 483 ( Augustanus ) Ρ = Palatinus gr [0] .
 # sent_id = 8
-1	483	483	x	x--------	_	9	AuxX	_	t_122|ref=Oratio 9_3
-2	(	̔	u	u--------	_	9	AuxG	_	t_123|ref=Oratio 9_3
-3	Augustanus	augustanus	n	n-s---mv-	Case=n|Gender=m|Number=s	9	ExD	_	t_124|ref=Oratio 9_3
-4	)	)	u	u--------	_	9	AuxG	_	t_125|ref=Oratio 9_3
-5	Ρ	ρ	n	n--------	_	9	ExD	_	t_126|ref=Oratio 9_3
-6	=	=	u	u--------	_	9	AuxX	_	t_127|ref=Oratio 9_3
-7	Palatinus	palatinus	n	n-s---fn-	_	9	ExD	_	t_128|ref=Oratio 9_3
-8	gr	gr	x	x--------	_	9	ExD	_	t_129|ref=Oratio 9_3
-9	[0]	[0]	-	---------	_	0	PRED	_	e_5|ref=Oratio 9_1
-10	.	.	u	u--------	_	9	AuxK	_	t_130|ref=Oratio 9_3
+1	483	483	x	x--------	_	9	AuxX	_	t_122|e_5|ref=Orat. 9_3
+2	(	̔	u	u--------	_	9	AuxG	_	t_123|e_5|ref=Orat. 9_3
+3	Augustanus	augustanus	n	n-s---mv-	Case=n|Gender=m|Number=s	9	ExD	_	t_124|e_5|ref=Orat. 9_3
+4	)	)	u	u--------	_	9	AuxG	_	t_125|e_5|ref=Orat. 9_3
+5	Ρ	ρ	n	n--------	_	9	ExD	_	t_126|e_5|ref=Orat. 9_3
+6	=	=	u	u--------	_	9	AuxX	_	t_127|e_5|ref=Orat. 9_3
+7	Palatinus	palatinus	n	n-s---fn-	_	9	ExD	_	t_128|e_5|ref=Orat. 9_3
+8	gr	gr	x	x--------	_	9	ExD	_	t_129|e_5|ref=Orat. 9_3
+9	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Orat. 9_1
+10	.	.	u	u--------	_	9	AuxK	_	t_130|e_5|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = 282 Va = Vaticanus gr .
 # sent_id = 9
-1	282	282	x	x--------	_	0	AuxG	_	t_131|ref=Oratio 9_3
-2	Va	va	x	x--------	Case=n|Gender=f|Number=s	1	ExD	_	t_132|ref=Oratio 9_3
-3	=	=	u	u--------	_	1	AuxG	_	t_133|ref=Oratio 9_3
-4	Vaticanus	vaticanus	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ExD	_	t_134|ref=Oratio 9_3
-5	gr	gr	d	d--------	_	1	ExD	_	t_135|ref=Oratio 9_3
-6	.	.	u	u--------	_	1	AuxK	_	t_136|ref=Oratio 9_3
+1	282	282	x	x--------	_	0	AuxG	_	t_131|0|ref=Orat. 9_3
+2	Va	va	x	x--------	Case=n|Gender=f|Number=s	1	ExD	_	t_132|t_131|ref=Orat. 9_3
+3	=	=	u	u--------	_	1	AuxG	_	t_133|t_131|ref=Orat. 9_3
+4	Vaticanus	vaticanus	n	n-s---mv-	Case=v|Gender=m|Number=s	5	ExD	_	t_134|t_135|ref=Orat. 9_3
+5	gr	gr	d	d--------	_	1	ExD	_	t_135|t_131|ref=Orat. 9_3
+6	.	.	u	u--------	_	1	AuxK	_	t_136|t_131|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = 81 Ν = Neapolitanus II Ε 17 Ι = Marcianus append [0] .
 # sent_id = 10
-1	81	81	x	x--------	_	12	AuxG	_	t_137|ref=Oratio 9_3
-2	Ν	ἄν	n	n--------	_	12	ExD	_	t_138|ref=Oratio 9_3
-3	=	=	u	u--------	_	12	AuxG	_	t_139|ref=Oratio 9_3
-4	Neapolitanus	neapolitanus	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ExD	_	t_140|ref=Oratio 9_3
-5	II	εἰμί	u	u--------	_	12	AuxG	_	t_141|ref=Oratio 9_3
-6	Ε	ε	n	n--------	_	2	APOS	_	t_142|ref=Oratio 9_3
-7	17	17	n	n--------	_	8	AuxG	_	t_143|ref=Oratio 9_3
-8	Ι	ι	n	n--------	_	2	APOS	_	t_144|ref=Oratio 9_3
-9	=	=	u	u--------	_	12	AuxK	_	t_145|ref=Oratio 9_3
-10	Marcianus	marcianus	n	n-s---fn-	_	12	ExD	_	t_146|ref=Oratio 9_3
-11	append	append	v	v2sama---	_	12	ExD	_	t_147|ref=Oratio 9_3
-12	[0]	[0]	-	---------	_	0	PRED	_	e_6|ref=Oratio 9_1
-13	.	.	u	u--------	_	12	AuxK	_	t_148|ref=Oratio 9_3
+1	81	81	x	x--------	_	12	AuxG	_	t_137|e_6|ref=Orat. 9_3
+2	Ν	ἄν	n	n--------	_	12	ExD	_	t_138|e_6|ref=Orat. 9_3
+3	=	=	u	u--------	_	12	AuxG	_	t_139|e_6|ref=Orat. 9_3
+4	Neapolitanus	neapolitanus	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ExD	_	t_140|e_6|ref=Orat. 9_3
+5	II	εἰμί	u	u--------	_	12	AuxG	_	t_141|e_6|ref=Orat. 9_3
+6	Ε	ε	n	n--------	_	2	APOS	_	t_142|t_138|ref=Orat. 9_3
+7	17	17	n	n--------	_	8	AuxG	_	t_143|t_144|ref=Orat. 9_3
+8	Ι	ι	n	n--------	_	2	APOS	_	t_144|t_138|ref=Orat. 9_3
+9	=	=	u	u--------	_	12	AuxK	_	t_145|e_6|ref=Orat. 9_3
+10	Marcianus	marcianus	n	n-s---fn-	_	12	ExD	_	t_146|e_6|ref=Orat. 9_3
+11	append	append	v	v2sama---	_	12	ExD	_	t_147|e_6|ref=Orat. 9_3
+12	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Orat. 9_1
+13	.	.	u	u--------	_	12	AuxK	_	t_148|e_6|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = XCI 2 Β = Barberinus II 41 Μ = Marcianus gr [0] .
 # sent_id = 11
-1	XCI	xci	n	n--------	_	12	AuxG	_	t_149|ref=Oratio 9_3
-2	2	2	d	d--------	_	12	ExD	_	t_150|ref=Oratio 9_3
-3	Β	β	x	x--------	_	12	APOS	_	t_151|ref=Oratio 9_3
-4	=	=	u	u--------	_	12	AuxG	_	t_152|ref=Oratio 9_3
-5	Barberinus	barberinus	n	n-s---fn-	Case=n|Number=s	12	ExD	_	t_153|ref=Oratio 9_3
-6	II	εἰμί	u	u--------	_	12	AuxX	_	t_154|ref=Oratio 9_3
-7	41	41	x	x--------	_	12	AuxG	_	t_155|ref=Oratio 9_3
-8	Μ	μ	n	n--------	_	12	AuxG	_	t_156|ref=Oratio 9_3
-9	=	=	u	u--------	_	12	AuxG	_	t_157|ref=Oratio 9_3
-10	Marcianus	marcianus	n	n-s---fn-	_	12	ExD	_	t_158|ref=Oratio 9_3
-11	gr	gr	x	x--------	_	12	OBJ	_	t_159|ref=Oratio 9_3
-12	[0]	[0]	-	---------	_	0	PRED	_	e_7|ref=Oratio 9_1
-13	.	.	u	u--------	_	12	AuxK	_	t_160|ref=Oratio 9_3
+1	XCI	xci	n	n--------	_	12	AuxG	_	t_149|e_7|ref=Orat. 9_3
+2	2	2	d	d--------	_	12	ExD	_	t_150|e_7|ref=Orat. 9_3
+3	Β	β	x	x--------	_	12	APOS	_	t_151|e_7|ref=Orat. 9_3
+4	=	=	u	u--------	_	12	AuxG	_	t_152|e_7|ref=Orat. 9_3
+5	Barberinus	barberinus	n	n-s---fn-	Case=n|Number=s	12	ExD	_	t_153|e_7|ref=Orat. 9_3
+6	II	εἰμί	u	u--------	_	12	AuxX	_	t_154|e_7|ref=Orat. 9_3
+7	41	41	x	x--------	_	12	AuxG	_	t_155|e_7|ref=Orat. 9_3
+8	Μ	μ	n	n--------	_	12	AuxG	_	t_156|e_7|ref=Orat. 9_3
+9	=	=	u	u--------	_	12	AuxG	_	t_157|e_7|ref=Orat. 9_3
+10	Marcianus	marcianus	n	n-s---fn-	_	12	ExD	_	t_158|e_7|ref=Orat. 9_3
+11	gr	gr	x	x--------	_	12	OBJ	_	t_159|e_7|ref=Orat. 9_3
+12	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Orat. 9_1
+13	.	.	u	u--------	_	12	AuxK	_	t_160|e_7|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = 437 4 [0] .
 # sent_id = 12
-1	437	437	x	x--------	_	3	AuxG	_	t_161|ref=Oratio 9_3
-2	4	4	x	x--------	_	3	AuxG	_	t_162|ref=Oratio 9_3
-3	[0]	[0]	-	---------	_	0	PRED	_	e_8|ref=Oratio 9_1
-4	.	.	u	u--------	_	3	AuxK	_	t_163|ref=Oratio 9_3
+1	437	437	x	x--------	_	3	AuxG	_	t_161|e_8|ref=Orat. 9_3
+2	4	4	x	x--------	_	3	AuxG	_	t_162|e_8|ref=Orat. 9_3
+3	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Orat. 9_1
+4	.	.	u	u--------	_	3	AuxK	_	t_163|e_8|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = Ταύτην τὴν ἑορτὴν εὕροιτʼ ἄν , ὦ νέοι , τεταμέ - νην ἐφʼ ἅπαν ὅσον ἡ Ῥωμαίων ἀρχὴ τέταται , καὶ νεῖταί τε ἕκαστος καὶ χαίρει καὶ γέγηθε .
 # sent_id = 13
-1	Ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_164|ref=Oratio 9_3
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_165|ref=Oratio 9_3
-3	ἑορτὴν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_166|ref=Oratio 9_3
-4	εὕροιτʼ	εὑρίσκω	v	v2paoa---	Mood=o|Number=p|Person=2|Tense=a|Voice=a	21	PRED	_	t_167|ref=Oratio 9_3
-5	ἄν	ἄν	c	c--------	_	4	AuxY	_	t_168|ref=Oratio 9_3
-6	,	,	u	u--------	_	0	AuxX	_	t_169|ref=Oratio 9_3
-7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_170|ref=Oratio 9_3
-8	νέοι	νέος	a	a-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_171|ref=Oratio 9_3
-9	,	,	u	u--------	_	6	AuxX	_	t_172|ref=Oratio 9_3
-10	τεταμέ	τείνω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	4	ADV	_	t_173|ref=Oratio 9_3
-11	-	-	u	u--------	_	6	AuxG	_	t_174|ref=Oratio 9_3
-12	νην	ναν	p	p-s---fa-	Case=a|Gender=f|Number=s	21	OBJ	_	t_175|ref=Oratio 9_3
-13	ἐφʼ	ἐπί	r	r--------	_	19	AuxP	_	t_176|ref=Oratio 9_3
-14	ἅπαν	ἅπας	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_177|ref=Oratio 9_3
-15	ὅσον	ὅσος	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_178|ref=Oratio 9_3
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_179|ref=Oratio 9_3
-17	Ῥωμαίων	ῥωμαῖος	n	n-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_180|ref=Oratio 9_3
-18	ἀρχὴ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_181|ref=Oratio 9_3
-19	τέταται	τείνω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	12	ATR	_	t_182|ref=Oratio 9_3
-20	,	,	u	u--------	_	6	AuxX	_	t_183|ref=Oratio 9_3
-21	καὶ	καί	c	c--------	_	6	COORD	_	t_184|ref=Oratio 9_3
-22	νεῖταί	νέμω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	27	PRED	_	t_185|ref=Oratio 9_3
-23	τε	τε	d	d--------	_	27	AuxY	_	t_186|ref=Oratio 9_3
-24	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	27	SBJ	_	t_187|ref=Oratio 9_3
-25	καὶ	καί	d	d--------	_	27	AuxY	_	t_188|ref=Oratio 9_3
-26	χαίρει	χαίρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_189|ref=Oratio 9_3
-27	καὶ	καί	c	c--------	_	21	COORD	_	t_190|ref=Oratio 9_3
-28	γέγηθε	γηθέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	27	PRED	_	t_191|ref=Oratio 9_3
-29	.	.	u	u--------	_	6	AuxK	_	t_192|ref=Oratio 9_3
+1	Ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_164|t_166|ref=Orat. 9_3
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_165|t_166|ref=Orat. 9_3
+3	ἑορτὴν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_166|t_173|ref=Orat. 9_3
+4	εὕροιτʼ	εὑρίσκω	v	v2paoa---	Mood=o|Number=p|Person=2|Tense=a|Voice=a	21	PRED	_	t_167|t_184|ref=Orat. 9_3
+5	ἄν	ἄν	c	c--------	_	4	AuxY	_	t_168|t_167|ref=Orat. 9_3
+6	,	,	u	u--------	_	0	AuxX	_	t_169|0|ref=Orat. 9_3
+7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_170|t_171|ref=Orat. 9_3
+8	νέοι	νέος	a	a-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_171|t_167|ref=Orat. 9_3
+9	,	,	u	u--------	_	6	AuxX	_	t_172|t_169|ref=Orat. 9_3
+10	τεταμέ	τείνω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	4	ADV	_	t_173|t_167|ref=Orat. 9_3
+11	-	-	u	u--------	_	6	AuxG	_	t_174|t_169|ref=Orat. 9_3
+12	νην	ναν	p	p-s---fa-	Case=a|Gender=f|Number=s	21	OBJ	_	t_175|t_184|ref=Orat. 9_3
+13	ἐφʼ	ἐπί	r	r--------	_	19	AuxP	_	t_176|t_182|ref=Orat. 9_3
+14	ἅπαν	ἅπας	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_177|t_176|ref=Orat. 9_3
+15	ὅσον	ὅσος	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_178|t_176|ref=Orat. 9_3
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_179|t_181|ref=Orat. 9_3
+17	Ῥωμαίων	ῥωμαῖος	n	n-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_180|t_181|ref=Orat. 9_3
+18	ἀρχὴ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_181|t_182|ref=Orat. 9_3
+19	τέταται	τείνω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	12	ATR	_	t_182|t_175|ref=Orat. 9_3
+20	,	,	u	u--------	_	6	AuxX	_	t_183|t_169|ref=Orat. 9_3
+21	καὶ	καί	c	c--------	_	6	COORD	_	t_184|t_169|ref=Orat. 9_3
+22	νεῖταί	νέμω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	27	PRED	_	t_185|t_190|ref=Orat. 9_3
+23	τε	τε	d	d--------	_	27	AuxY	_	t_186|t_190|ref=Orat. 9_3
+24	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	27	SBJ	_	t_187|t_190|ref=Orat. 9_3
+25	καὶ	καί	d	d--------	_	27	AuxY	_	t_188|t_190|ref=Orat. 9_3
+26	χαίρει	χαίρω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	PRED	_	t_189|t_190|ref=Orat. 9_3
+27	καὶ	καί	c	c--------	_	21	COORD	_	t_190|t_184|ref=Orat. 9_3
+28	γέγηθε	γηθέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	27	PRED	_	t_191|t_190|ref=Orat. 9_3
+29	.	.	u	u--------	_	6	AuxK	_	t_192|t_169|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3
+# source = Libanius, Orat. 9 3
 # text = καὶ εἰ δὴ ἦν οἷόν τε κατεπείγειν χρόνον ἀνθρώποις , ὃ περὶ τὸν ἥλιον γενέσθαι φησὶν ὑπὸ τῆς Ἥρας [ ὁ ] Ὅμηρος , πειγον ἂν ἔθνη τε ἅπαντα καὶ πόλις ἅπασα καὶ οἶκος ἅπας καὶ ἀνθρώπων ἕκαστος .
 # sent_id = 14
-1	καὶ	καί	d	d--------	_	25	AuxY	_	t_193|ref=Oratio 9_3
-2	εἰ	εἰ	c	c--------	_	25	AuxC	_	t_194|ref=Oratio 9_3
-3	δὴ	δή	d	d--------	_	25	AuxY	_	t_195|ref=Oratio 9_3
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	ADV	_	t_196|ref=Oratio 9_3
-5	οἷόν	οἷος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_197|ref=Oratio 9_3
-6	τε	τε	d	d--------	_	5	AuxZ	_	t_198|ref=Oratio 9_3
-7	κατεπείγειν	κατεπείγω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	ADV	_	t_199|ref=Oratio 9_3
-8	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_200|ref=Oratio 9_3
-9	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_201|ref=Oratio 9_3
-10	,	,	u	u--------	_	25	AuxX	_	t_202|ref=Oratio 9_3
-11	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	15	SBJ	_	t_203|ref=Oratio 9_3
-12	περὶ	περί	r	r--------	_	15	AuxP	_	t_204|ref=Oratio 9_3
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_205|ref=Oratio 9_3
-14	ἥλιον	ἥλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_206|ref=Oratio 9_3
-15	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	16	OBJ	_	t_207|ref=Oratio 9_3
-16	φησὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	ATR	_	t_208|ref=Oratio 9_3
-17	ὑπὸ	ὑπό	r	r--------	_	15	AuxP	_	t_209|ref=Oratio 9_3
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_210|ref=Oratio 9_3
-19	Ἥρας	ἥρα	n	n-s---fg-	Case=g|Gender=f|Number=s	17	OBJ	_	t_211|ref=Oratio 9_3
-20	[	[	u	u--------	_	25	AuxX	_	t_212|ref=Oratio 9_3
-21	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	23	ATR	_	t_213|ref=Oratio 9_3
-22	]	]	u	u--------	_	25	AuxX	_	t_214|ref=Oratio 9_3
-23	Ὅμηρος	ὅμηρος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_215|ref=Oratio 9_3
-24	,	,	u	u--------	_	25	AuxX	_	t_216|ref=Oratio 9_3
-25	πειγον	ἐπείγω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_217|ref=Oratio 9_3
-26	ἂν	ἄν	d	d--------	_	25	AuxY	_	t_218|ref=Oratio 9_3
-27	ἔθνη	ἔθνος	n	n-p---nn-	Case=n|Gender=n|Number=p	25	OBJ	_	t_219|ref=Oratio 9_3
-28	τε	τε	v	v2ppsa---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	25	ADV	_	t_220|ref=Oratio 9_3
-29	ἅπαντα	ἅπας	a	a-p---nn-	Case=n|Gender=n|Number=p	27	ATR	_	t_221|ref=Oratio 9_3
-30	καὶ	καί	d	d--------	_	36	AuxY	_	t_222|ref=Oratio 9_3
-31	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	36	SBJ	_	t_223|ref=Oratio 9_3
-32	ἅπασα	ἅπας	a	a-s---fn-	Case=n|Gender=f|Number=s	31	ATR	_	t_224|ref=Oratio 9_3
-33	καὶ	καί	d	d--------	_	36	AuxY	_	t_225|ref=Oratio 9_3
-34	οἶκος	οἶκος	n	n-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_226|ref=Oratio 9_3
-35	ἅπας	ἅπας	a	a-s---mn-	Case=n|Gender=m|Number=s	34	ATR	_	t_227|ref=Oratio 9_3
-36	καὶ	καί	c	c--------	_	25	COORD	_	t_228|ref=Oratio 9_3
-37	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	38	ATR	_	t_229|ref=Oratio 9_3
-38	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_230|ref=Oratio 9_3
-39	.	.	u	u--------	_	25	AuxK	_	t_231|ref=Oratio 9_3
+1	καὶ	καί	d	d--------	_	25	AuxY	_	t_193|t_217|ref=Orat. 9_3
+2	εἰ	εἰ	c	c--------	_	25	AuxC	_	t_194|t_217|ref=Orat. 9_3
+3	δὴ	δή	d	d--------	_	25	AuxY	_	t_195|t_217|ref=Orat. 9_3
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	ADV	_	t_196|t_194|ref=Orat. 9_3
+5	οἷόν	οἷος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_197|t_196|ref=Orat. 9_3
+6	τε	τε	d	d--------	_	5	AuxZ	_	t_198|t_197|ref=Orat. 9_3
+7	κατεπείγειν	κατεπείγω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	ADV	_	t_199|t_197|ref=Orat. 9_3
+8	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_200|t_199|ref=Orat. 9_3
+9	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_201|t_199|ref=Orat. 9_3
+10	,	,	u	u--------	_	25	AuxX	_	t_202|t_217|ref=Orat. 9_3
+11	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	15	SBJ	_	t_203|t_207|ref=Orat. 9_3
+12	περὶ	περί	r	r--------	_	15	AuxP	_	t_204|t_207|ref=Orat. 9_3
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_205|t_206|ref=Orat. 9_3
+14	ἥλιον	ἥλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_206|t_204|ref=Orat. 9_3
+15	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	16	OBJ	_	t_207|t_208|ref=Orat. 9_3
+16	φησὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	ATR	_	t_208|t_200|ref=Orat. 9_3
+17	ὑπὸ	ὑπό	r	r--------	_	15	AuxP	_	t_209|t_207|ref=Orat. 9_3
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_210|t_211|ref=Orat. 9_3
+19	Ἥρας	ἥρα	n	n-s---fg-	Case=g|Gender=f|Number=s	17	OBJ	_	t_211|t_209|ref=Orat. 9_3
+20	[	[	u	u--------	_	25	AuxX	_	t_212|t_217|ref=Orat. 9_3
+21	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	23	ATR	_	t_213|t_215|ref=Orat. 9_3
+22	]	]	u	u--------	_	25	AuxX	_	t_214|t_217|ref=Orat. 9_3
+23	Ὅμηρος	ὅμηρος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_215|t_208|ref=Orat. 9_3
+24	,	,	u	u--------	_	25	AuxX	_	t_216|t_217|ref=Orat. 9_3
+25	πειγον	ἐπείγω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_217|0|ref=Orat. 9_3
+26	ἂν	ἄν	d	d--------	_	25	AuxY	_	t_218|t_217|ref=Orat. 9_3
+27	ἔθνη	ἔθνος	n	n-p---nn-	Case=n|Gender=n|Number=p	25	OBJ	_	t_219|t_217|ref=Orat. 9_3
+28	τε	τε	v	v2ppsa---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	25	ADV	_	t_220|t_217|ref=Orat. 9_3
+29	ἅπαντα	ἅπας	a	a-p---nn-	Case=n|Gender=n|Number=p	27	ATR	_	t_221|t_219|ref=Orat. 9_3
+30	καὶ	καί	d	d--------	_	36	AuxY	_	t_222|t_228|ref=Orat. 9_3
+31	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	36	SBJ	_	t_223|t_228|ref=Orat. 9_3
+32	ἅπασα	ἅπας	a	a-s---fn-	Case=n|Gender=f|Number=s	31	ATR	_	t_224|t_223|ref=Orat. 9_3
+33	καὶ	καί	d	d--------	_	36	AuxY	_	t_225|t_228|ref=Orat. 9_3
+34	οἶκος	οἶκος	n	n-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_226|t_228|ref=Orat. 9_3
+35	ἅπας	ἅπας	a	a-s---mn-	Case=n|Gender=m|Number=s	34	ATR	_	t_227|t_226|ref=Orat. 9_3
+36	καὶ	καί	c	c--------	_	25	COORD	_	t_228|t_217|ref=Orat. 9_3
+37	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	38	ATR	_	t_229|t_230|ref=Orat. 9_3
+38	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_230|t_228|ref=Orat. 9_3
+39	.	.	u	u--------	_	25	AuxK	_	t_231|t_217|ref=Orat. 9_3
 
-# source = Libanius, Oratio 9 3-5
+# source = Libanius, Orat. 9 3-5
 # text = ἀνθεῖ δὲ ἐν ἅπασι μὲν ἡ ἑορτὴ πεδίοις , ἐν ἅπασι δὲ γηλόφοις , ἐν ἅπασι δὲ ὄρεσι καὶ λίμναις καὶ ποταμοῖς , ἐν οἷς πλοῖά τε καὶ πλέοντες , καὶ ἐν τῇ θαλάττῃ δʼ ἄν , εἰ μὴ ἄπλους ἦν ὑπὸ τῆς ὥρας ἡ θάλαττα , ναυτῶν τε καὶ ἐμπόρων τεμνόντων τε ὁμοῦ τὰ πελάγη καὶ ἑορταζόντων [0] .
 # sent_id = 15
-1	ἀνθεῖ	ἀνθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	35	PRED	_	t_232|ref=Oratio 9_3
-2	δὲ	δέ	d	d--------	_	35	AuxY	_	t_233|ref=Oratio 9_3
-3	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_234|ref=Oratio 9_3
-4	ἅπασι	ἅπας	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_235|ref=Oratio 9_3
-5	μὲν	μέν	d	d--------	_	35	AuxY	_	t_236|ref=Oratio 9_3
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_237|ref=Oratio 9_3
-7	ἑορτὴ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_238|ref=Oratio 9_3
-8	πεδίοις	πεδίον	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_239|ref=Oratio 9_3
-9	,	,	u	u--------	_	0	AuxX	_	t_240|ref=Oratio 9_5
-10	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_241|ref=Oratio 9_5
-11	ἅπασι	ἅπας	a	a-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_242|ref=Oratio 9_5
-12	δὲ	δέ	d	d--------	_	17	AuxY	_	t_243|ref=Oratio 9_5
-13	γηλόφοις	γήλοφος	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_244|ref=Oratio 9_5
-14	,	,	u	u--------	_	9	AuxX	_	t_245|ref=Oratio 9_5
-15	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_246|ref=Oratio 9_5
-16	ἅπασι	ἅπας	a	a-p---nd-	Case=d|Gender=m|Number=p	18	ATR	_	t_247|ref=Oratio 9_5
-17	δὲ	δέ	c	c--------	_	35	AuxY	_	t_248|ref=Oratio 9_5
-18	ὄρεσι	ὄρος	n	n-p---nd-	Case=d|Gender=n|Number=p	21	ADV	_	t_249|ref=Oratio 9_5
-19	καὶ	καί	d	d--------	_	21	AuxY	_	t_250|ref=Oratio 9_5
-20	λίμναις	λίμνη	n	n-p---md-	Case=d|Gender=m|Number=p	21	ADV	_	t_251|ref=Oratio 9_5
-21	καὶ	καί	c	c--------	_	15	COORD	_	t_252|ref=Oratio 9_5
-22	ποταμοῖς	ποταμός	n	n-p---md-	Case=d|Gender=m|Number=p	21	ADV	_	t_253|ref=Oratio 9_5
-23	,	,	u	u--------	_	9	AuxX	_	t_254|ref=Oratio 9_5
-24	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_255|ref=Oratio 9_5
-25	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	24	ADV	_	t_256|ref=Oratio 9_5
-26	πλοῖά	πλοῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	28	SBJ	_	t_257|ref=Oratio 9_5
-27	τε	τε	d	d--------	_	28	AuxY	_	t_258|ref=Oratio 9_5
-28	καὶ	καί	c	c--------	_	59	COORD	_	t_259|ref=Oratio 9_5
-29	πλέοντες	πλέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	28	ADV	_	t_260|ref=Oratio 9_5
-30	,	,	u	u--------	_	9	AuxX	_	t_261|ref=Oratio 9_5
-31	καὶ	καί	c	c--------	_	59	COORD	_	t_262|ref=Oratio 9_5
-32	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_263|ref=Oratio 9_5
-33	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	34	ATR	_	t_264|ref=Oratio 9_5
-34	θαλάττῃ	θάλασσα	n	n-s---fd-	Case=d|Gender=f|Number=s	32	ADV	_	t_265|ref=Oratio 9_5
-35	δʼ	δέ	c	c--------	_	9	COORD	_	t_266|ref=Oratio 9_5
-36	ἄν	ἄν	d	d--------	_	31	AuxY	_	t_267|ref=Oratio 9_5
-37	,	,	u	u--------	_	9	AuxX	_	t_268|ref=Oratio 9_5
-38	εἰ	εἰ	c	c--------	_	31	AuxC	_	t_269|ref=Oratio 9_5
-39	μὴ	μή	d	d--------	_	41	AuxZ	_	t_270|ref=Oratio 9_5
-40	ἄπλους	ἄπλοος	a	a-s---fn-	Case=n|Gender=f|Number=s	41	PNOM	_	t_271|ref=Oratio 9_5
-41	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	38	ADV	_	t_272|ref=Oratio 9_5
-42	ὑπὸ	ὑπό	r	r--------	_	41	AuxP	_	t_273|ref=Oratio 9_5
-43	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_274|ref=Oratio 9_5
-44	ὥρας	ὥρα	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ADV	_	t_275|ref=Oratio 9_5
-45	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	46	ATR	_	t_276|ref=Oratio 9_5
-46	θάλαττα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	41	SBJ	_	t_277|ref=Oratio 9_5
-47	,	,	u	u--------	_	9	AuxX	_	t_278|ref=Oratio 9_5
-48	ναυτῶν	ναύτης	n	n-p---mg-	Case=g|Gender=m|Number=p	50	SBJ	_	t_279|ref=Oratio 9_5
-49	τε	τε	d	d--------	_	57	AuxY	_	t_280|ref=Oratio 9_5
-50	καὶ	καί	c	c--------	_	57	COORD	_	t_281|ref=Oratio 9_5
-51	ἐμπόρων	ἔμπορος	a	a-p---mg-	Case=g|Gender=m|Number=p	50	SBJ	_	t_282|ref=Oratio 9_5
-52	τεμνόντων	τέμνω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	57	ADV	_	t_283|ref=Oratio 9_5
-53	τε	τε	d	d--------	_	57	AuxY	_	t_284|ref=Oratio 9_5
-54	ὁμοῦ	ὁμοῦ	d	d--------	_	57	ADV	_	t_285|ref=Oratio 9_5
-55	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	56	ATR	_	t_286|ref=Oratio 9_5
-56	πελάγη	πέλαγος	n	n-p---na-	Case=a|Gender=n|Number=p	52	OBJ	_	t_287|ref=Oratio 9_5
-57	καὶ	καί	c	c--------	_	31	COORD	_	t_288|ref=Oratio 9_5
-58	ἑορταζόντων	ἑορτάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	57	ADV	_	t_289|ref=Oratio 9_5
-59	[0]	[0]	-	---------	_	35	PRED	_	e_9|ref=Oratio 9_1
-60	.	.	u	u--------	_	9	AuxK	_	t_290|ref=Oratio 9_5
+1	ἀνθεῖ	ἀνθέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	35	PRED	_	t_232|t_266|ref=Orat. 9_3
+2	δὲ	δέ	d	d--------	_	35	AuxY	_	t_233|t_266|ref=Orat. 9_3
+3	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_234|t_262|ref=Orat. 9_3
+4	ἅπασι	ἅπας	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_235|t_239|ref=Orat. 9_3
+5	μὲν	μέν	d	d--------	_	35	AuxY	_	t_236|t_266|ref=Orat. 9_3
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_237|t_238|ref=Orat. 9_3
+7	ἑορτὴ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_238|t_232|ref=Orat. 9_3
+8	πεδίοις	πεδίον	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_239|t_234|ref=Orat. 9_3
+9	,	,	u	u--------	_	0	AuxX	_	t_240|0|ref=Orat. 9_5
+10	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_241|t_262|ref=Orat. 9_5
+11	ἅπασι	ἅπας	a	a-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_242|t_244|ref=Orat. 9_5
+12	δὲ	δέ	d	d--------	_	17	AuxY	_	t_243|t_248|ref=Orat. 9_5
+13	γηλόφοις	γήλοφος	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_244|t_241|ref=Orat. 9_5
+14	,	,	u	u--------	_	9	AuxX	_	t_245|t_240|ref=Orat. 9_5
+15	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_246|t_262|ref=Orat. 9_5
+16	ἅπασι	ἅπας	a	a-p---nd-	Case=d|Gender=m|Number=p	18	ATR	_	t_247|t_249|ref=Orat. 9_5
+17	δὲ	δέ	c	c--------	_	35	AuxY	_	t_248|t_266|ref=Orat. 9_5
+18	ὄρεσι	ὄρος	n	n-p---nd-	Case=d|Gender=n|Number=p	21	ADV	_	t_249|t_252|ref=Orat. 9_5
+19	καὶ	καί	d	d--------	_	21	AuxY	_	t_250|t_252|ref=Orat. 9_5
+20	λίμναις	λίμνη	n	n-p---md-	Case=d|Gender=m|Number=p	21	ADV	_	t_251|t_252|ref=Orat. 9_5
+21	καὶ	καί	c	c--------	_	15	COORD	_	t_252|t_246|ref=Orat. 9_5
+22	ποταμοῖς	ποταμός	n	n-p---md-	Case=d|Gender=m|Number=p	21	ADV	_	t_253|t_252|ref=Orat. 9_5
+23	,	,	u	u--------	_	9	AuxX	_	t_254|t_240|ref=Orat. 9_5
+24	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_255|t_259|ref=Orat. 9_5
+25	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	24	ADV	_	t_256|t_255|ref=Orat. 9_5
+26	πλοῖά	πλοῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	28	SBJ	_	t_257|t_259|ref=Orat. 9_5
+27	τε	τε	d	d--------	_	28	AuxY	_	t_258|t_259|ref=Orat. 9_5
+28	καὶ	καί	c	c--------	_	59	COORD	_	t_259|e_9|ref=Orat. 9_5
+29	πλέοντες	πλέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	28	ADV	_	t_260|t_259|ref=Orat. 9_5
+30	,	,	u	u--------	_	9	AuxX	_	t_261|t_240|ref=Orat. 9_5
+31	καὶ	καί	c	c--------	_	59	COORD	_	t_262|e_9|ref=Orat. 9_5
+32	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_263|t_262|ref=Orat. 9_5
+33	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	34	ATR	_	t_264|t_265|ref=Orat. 9_5
+34	θαλάττῃ	θάλασσα	n	n-s---fd-	Case=d|Gender=f|Number=s	32	ADV	_	t_265|t_263|ref=Orat. 9_5
+35	δʼ	δέ	c	c--------	_	9	COORD	_	t_266|t_240|ref=Orat. 9_5
+36	ἄν	ἄν	d	d--------	_	31	AuxY	_	t_267|t_262|ref=Orat. 9_5
+37	,	,	u	u--------	_	9	AuxX	_	t_268|t_240|ref=Orat. 9_5
+38	εἰ	εἰ	c	c--------	_	31	AuxC	_	t_269|t_262|ref=Orat. 9_5
+39	μὴ	μή	d	d--------	_	41	AuxZ	_	t_270|t_272|ref=Orat. 9_5
+40	ἄπλους	ἄπλοος	a	a-s---fn-	Case=n|Gender=f|Number=s	41	PNOM	_	t_271|t_272|ref=Orat. 9_5
+41	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	38	ADV	_	t_272|t_269|ref=Orat. 9_5
+42	ὑπὸ	ὑπό	r	r--------	_	41	AuxP	_	t_273|t_272|ref=Orat. 9_5
+43	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_274|t_275|ref=Orat. 9_5
+44	ὥρας	ὥρα	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ADV	_	t_275|t_273|ref=Orat. 9_5
+45	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	46	ATR	_	t_276|t_277|ref=Orat. 9_5
+46	θάλαττα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	41	SBJ	_	t_277|t_272|ref=Orat. 9_5
+47	,	,	u	u--------	_	9	AuxX	_	t_278|t_240|ref=Orat. 9_5
+48	ναυτῶν	ναύτης	n	n-p---mg-	Case=g|Gender=m|Number=p	50	SBJ	_	t_279|t_281|ref=Orat. 9_5
+49	τε	τε	d	d--------	_	57	AuxY	_	t_280|t_288|ref=Orat. 9_5
+50	καὶ	καί	c	c--------	_	57	COORD	_	t_281|t_288|ref=Orat. 9_5
+51	ἐμπόρων	ἔμπορος	a	a-p---mg-	Case=g|Gender=m|Number=p	50	SBJ	_	t_282|t_281|ref=Orat. 9_5
+52	τεμνόντων	τέμνω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	57	ADV	_	t_283|t_288|ref=Orat. 9_5
+53	τε	τε	d	d--------	_	57	AuxY	_	t_284|t_288|ref=Orat. 9_5
+54	ὁμοῦ	ὁμοῦ	d	d--------	_	57	ADV	_	t_285|t_288|ref=Orat. 9_5
+55	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	56	ATR	_	t_286|t_287|ref=Orat. 9_5
+56	πελάγη	πέλαγος	n	n-p---na-	Case=a|Gender=n|Number=p	52	OBJ	_	t_287|t_283|ref=Orat. 9_5
+57	καὶ	καί	c	c--------	_	31	COORD	_	t_288|t_262|ref=Orat. 9_5
+58	ἑορταζόντων	ἑορτάζω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	57	ADV	_	t_289|t_288|ref=Orat. 9_5
+59	[0]	[0]	-	---------	_	35	PRED	_	e_9|t_266|ref=Orat. 9_1
+60	.	.	u	u--------	_	9	AuxK	_	t_290|t_240|ref=Orat. 9_5
 
-# source = Libanius, Oratio 9 5
+# source = Libanius, Orat. 9 5
 # text = ταχοῦ δὲ πότοι καὶ τράπεζαι Συβαριτικαὶ καὶ γέλωτες [0] .
 # sent_id = 16
-1	ταχοῦ	ταχύς	d	d--------	Case=g|Gender=m|Number=s	9	ADV	_	t_291|ref=Oratio 9_5
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_292|ref=Oratio 9_5
-3	πότοι	πότος	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_293|ref=Oratio 9_5
-4	καὶ	καί	d	d--------	_	7	AuxY	_	t_294|ref=Oratio 9_5
-5	τράπεζαι	τράπεζα	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_295|ref=Oratio 9_5
-6	Συβαριτικαὶ	συβαρίτης	a	a-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_296|ref=Oratio 9_5
-7	καὶ	καί	c	c--------	_	9	COORD	_	t_297|ref=Oratio 9_5
-8	γέλωτες	γέλως	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_298|ref=Oratio 9_5
-9	[0]	[0]	-	---------	_	0	PRED	_	e_10|ref=Oratio 9_1
-10	.	.	u	u--------	_	9	AuxK	_	t_299|ref=Oratio 9_5
+1	ταχοῦ	ταχύς	d	d--------	Case=g|Gender=m|Number=s	9	ADV	_	t_291|e_10|ref=Orat. 9_5
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_292|e_10|ref=Orat. 9_5
+3	πότοι	πότος	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_293|t_297|ref=Orat. 9_5
+4	καὶ	καί	d	d--------	_	7	AuxY	_	t_294|t_297|ref=Orat. 9_5
+5	τράπεζαι	τράπεζα	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_295|t_297|ref=Orat. 9_5
+6	Συβαριτικαὶ	συβαρίτης	a	a-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_296|t_295|ref=Orat. 9_5
+7	καὶ	καί	c	c--------	_	9	COORD	_	t_297|e_10|ref=Orat. 9_5
+8	γέλωτες	γέλως	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_298|t_297|ref=Orat. 9_5
+9	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Orat. 9_1
+10	.	.	u	u--------	_	9	AuxK	_	t_299|e_10|ref=Orat. 9_5
 
-# source = Libanius, Oratio 9 6
+# source = Libanius, Orat. 9 6
 # text = αἱ μὲν τῶν εὐδαιμόνων τοιαῦται , τῆς εἰωθυίας δὲ καὶ 15 ἡ τοῦ πένητος ἀμείνων [0] [1] .
 # sent_id = 17
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_300|ref=Oratio 9_6
-2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_301|ref=Oratio 9_6
-3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_302|ref=Oratio 9_6
-4	εὐδαιμόνων	εὐδαίμων	a	a-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_303|ref=Oratio 9_6
-5	τοιαῦται	τοιοῦτος	p	p-p---fn-	Case=n|Gender=f|Number=p	16	PNOM	_	t_304|ref=Oratio 9_6
-6	,	,	u	u--------	_	0	AuxX	_	t_305|ref=Oratio 9_6
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_306|ref=Oratio 9_6
-8	εἰωθυίας	ἔθω	v	v-srpafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	11	ATR	_	t_307|ref=Oratio 9_6
-9	δὲ	δέ	d	d--------	_	6	COORD	_	t_308|ref=Oratio 9_5
-10	καὶ	καί	c	c--------	_	11	AuxZ	_	t_309|ref=Oratio 9_6
-11	15	15	m	m--------	_	17	PNOM	_	t_310|ref=Oratio 9_6
-12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_311|ref=Oratio 9_6
-13	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_312|ref=Oratio 9_6
-14	πένητος	πένης	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ADV	_	t_313|ref=Oratio 9_6
-15	ἀμείνων	ἀμείνων	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	17	PNOM	_	t_314|ref=Oratio 9_6
-16	[0]	[0]	-	---------	_	9	PRED	_	e_11|ref=Oratio 9_1
-17	[1]	[1]	-	---------	_	9	PRED	_	e_12|ref=Oratio 9_1
-18	.	.	u	u--------	_	6	AuxK	_	t_315|ref=Oratio 9_6
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_300|e_11|ref=Orat. 9_6
+2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_301|t_308|ref=Orat. 9_6
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_302|t_303|ref=Orat. 9_6
+4	εὐδαιμόνων	εὐδαίμων	a	a-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_303|t_300|ref=Orat. 9_6
+5	τοιαῦται	τοιοῦτος	p	p-p---fn-	Case=n|Gender=f|Number=p	16	PNOM	_	t_304|e_11|ref=Orat. 9_6
+6	,	,	u	u--------	_	0	AuxX	_	t_305|0|ref=Orat. 9_6
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_306|t_307|ref=Orat. 9_6
+8	εἰωθυίας	ἔθω	v	v-srpafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	11	ATR	_	t_307|t_310|ref=Orat. 9_6
+9	δὲ	δέ	d	d--------	_	6	COORD	_	t_308|t_305|ref=Orat. 9_5
+10	καὶ	καί	c	c--------	_	11	AuxZ	_	t_309|t_310|ref=Orat. 9_6
+11	15	15	m	m--------	_	17	PNOM	_	t_310|e_12|ref=Orat. 9_6
+12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_311|e_12|ref=Orat. 9_6
+13	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_312|t_313|ref=Orat. 9_6
+14	πένητος	πένης	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ADV	_	t_313|t_314|ref=Orat. 9_6
+15	ἀμείνων	ἀμείνων	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	17	PNOM	_	t_314|e_12|ref=Orat. 9_6
+16	[0]	[0]	-	---------	_	9	PRED	_	e_11|t_308|ref=Orat. 9_1
+17	[1]	[1]	-	---------	_	9	PRED	_	e_12|t_308|ref=Orat. 9_1
+18	.	.	u	u--------	_	6	AuxK	_	t_315|t_305|ref=Orat. 9_6
 
-# source = Libanius, Oratio 9 6
+# source = Libanius, Orat. 9 6
 # text = ἔρως γάρ τις λαμβάνει τοὺς ἀνθρώπους δαπάνης , ὥστε τὸν ἄλλον χρόνον τῇ συλ - λογῇ χαίροντες τότε ἐν κέρδει τὴν ἀνάλωσιν ποιοῦνται , πρότερον δὲ εἰωθότες τὴν γαστέρα κολάζειν τότε ὁπό - σον αὐτῇ δύνανται χαρίζονται .
 # sent_id = 18
-1	ἔρως	ἔρως	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_316|ref=Oratio 9_6
-2	γάρ	γάρ	d	d--------	_	4	AuxY	_	t_317|ref=Oratio 9_6
-3	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	1	ATR	_	t_318|ref=Oratio 9_6
-4	λαμβάνει	λαμβάνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_319|ref=Oratio 9_6
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_320|ref=Oratio 9_6
-6	ἀνθρώπους	ἄνθρωπος	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_321|ref=Oratio 9_6
-7	δαπάνης	δαπάνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_322|ref=Oratio 9_6
-8	,	,	u	u--------	_	4	AuxX	_	t_323|ref=Oratio 9_6
-9	ὥστε	ὥστε	c	c--------	_	4	AuxC	_	t_324|ref=Oratio 9_6
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_325|ref=Oratio 9_6
-11	ἄλλον	ἄλλος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_326|ref=Oratio 9_6
-12	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	ADV	_	t_327|ref=Oratio 9_6
-13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_328|ref=Oratio 9_6
-14	συλ	συλλαμβάνω	a	a--------	_	16	ATR	_	t_329|ref=Oratio 9_6
-15	-	-	a	a-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_330|ref=Oratio 9_6
-16	λογῇ	λογέω	n	n-s---fd-	Case=d|Gender=f|Number=s	17	OBJ	_	t_331|ref=Oratio 9_6
-17	χαίροντες	χαίρω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ADV	_	t_332|ref=Oratio 9_6
-18	τότε	τότε	d	d--------	_	23	ADV	_	t_333|ref=Oratio 9_6
-19	ἐν	ἐν	r	r--------	_	23	AuxP	_	t_334|ref=Oratio 9_6
-20	κέρδει	κέρδος	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ADV	_	t_335|ref=Oratio 9_6
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_336|ref=Oratio 9_6
-22	ἀνάλωσιν	ἀνάλωσις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_337|ref=Oratio 9_6
-23	ποιοῦνται	ποιέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	26	ADV	_	t_338|ref=Oratio 9_6
-24	,	,	u	u--------	_	4	AuxX	_	t_339|ref=Oratio 9_6
-25	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	30	ADV	_	t_340|ref=Oratio 9_6
-26	δὲ	δέ	c	c--------	_	9	COORD	_	t_341|ref=Oratio 9_6
-27	εἰωθότες	ἔθω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	26	ADV	_	t_342|ref=Oratio 9_6
-28	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_343|ref=Oratio 9_6
-29	γαστέρα	γαστήρ	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_344|ref=Oratio 9_6
-30	κολάζειν	κολάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	27	OBJ	_	t_345|ref=Oratio 9_6
-31	τότε	τότε	d	d--------	_	30	ADV	_	t_346|ref=Oratio 9_6
-32	ὁπό	ὁπόθι	d	d--------	_	37	ADV	_	t_347|ref=Oratio 9_6
-33	-	-	x	x--------	_	36	AuxZ	_	t_348|ref=Oratio 9_6
-34	σον	σύ	a	a-s---na-	Case=a|Gender=n|Number=s	37	ADV	_	t_349|ref=Oratio 9_6
-35	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	37	OBJ	_	t_350|ref=Oratio 9_6
-36	δύνανται	δύναμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	37	ADV	_	t_351|ref=Oratio 9_6
-37	χαρίζονται	χαρίζω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	26	ADV	_	t_352|ref=Oratio 9_6
-38	.	.	u	u--------	_	4	AuxK	_	t_353|ref=Oratio 9_6
+1	ἔρως	ἔρως	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_316|t_319|ref=Orat. 9_6
+2	γάρ	γάρ	d	d--------	_	4	AuxY	_	t_317|t_319|ref=Orat. 9_6
+3	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	1	ATR	_	t_318|t_316|ref=Orat. 9_6
+4	λαμβάνει	λαμβάνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_319|0|ref=Orat. 9_6
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_320|t_321|ref=Orat. 9_6
+6	ἀνθρώπους	ἄνθρωπος	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_321|t_319|ref=Orat. 9_6
+7	δαπάνης	δαπάνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_322|t_319|ref=Orat. 9_6
+8	,	,	u	u--------	_	4	AuxX	_	t_323|t_319|ref=Orat. 9_6
+9	ὥστε	ὥστε	c	c--------	_	4	AuxC	_	t_324|t_319|ref=Orat. 9_6
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_325|t_327|ref=Orat. 9_6
+11	ἄλλον	ἄλλος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_326|t_327|ref=Orat. 9_6
+12	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	ADV	_	t_327|t_338|ref=Orat. 9_6
+13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_328|t_331|ref=Orat. 9_6
+14	συλ	συλλαμβάνω	a	a--------	_	16	ATR	_	t_329|t_331|ref=Orat. 9_6
+15	-	-	a	a-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_330|t_331|ref=Orat. 9_6
+16	λογῇ	λογέω	n	n-s---fd-	Case=d|Gender=f|Number=s	17	OBJ	_	t_331|t_332|ref=Orat. 9_6
+17	χαίροντες	χαίρω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ADV	_	t_332|t_338|ref=Orat. 9_6
+18	τότε	τότε	d	d--------	_	23	ADV	_	t_333|t_338|ref=Orat. 9_6
+19	ἐν	ἐν	r	r--------	_	23	AuxP	_	t_334|t_338|ref=Orat. 9_6
+20	κέρδει	κέρδος	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ADV	_	t_335|t_334|ref=Orat. 9_6
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_336|t_337|ref=Orat. 9_6
+22	ἀνάλωσιν	ἀνάλωσις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_337|t_338|ref=Orat. 9_6
+23	ποιοῦνται	ποιέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	26	ADV	_	t_338|t_341|ref=Orat. 9_6
+24	,	,	u	u--------	_	4	AuxX	_	t_339|t_319|ref=Orat. 9_6
+25	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	30	ADV	_	t_340|t_345|ref=Orat. 9_6
+26	δὲ	δέ	c	c--------	_	9	COORD	_	t_341|t_324|ref=Orat. 9_6
+27	εἰωθότες	ἔθω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	26	ADV	_	t_342|t_341|ref=Orat. 9_6
+28	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_343|t_344|ref=Orat. 9_6
+29	γαστέρα	γαστήρ	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_344|t_345|ref=Orat. 9_6
+30	κολάζειν	κολάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	27	OBJ	_	t_345|t_342|ref=Orat. 9_6
+31	τότε	τότε	d	d--------	_	30	ADV	_	t_346|t_345|ref=Orat. 9_6
+32	ὁπό	ὁπόθι	d	d--------	_	37	ADV	_	t_347|t_352|ref=Orat. 9_6
+33	-	-	x	x--------	_	36	AuxZ	_	t_348|t_351|ref=Orat. 9_6
+34	σον	σύ	a	a-s---na-	Case=a|Gender=n|Number=s	37	ADV	_	t_349|t_352|ref=Orat. 9_6
+35	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	37	OBJ	_	t_350|t_352|ref=Orat. 9_6
+36	δύνανται	δύναμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	37	ADV	_	t_351|t_352|ref=Orat. 9_6
+37	χαρίζονται	χαρίζω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	26	ADV	_	t_352|t_341|ref=Orat. 9_6
+38	.	.	u	u--------	_	4	AuxK	_	t_353|t_319|ref=Orat. 9_6
 
-# source = Libanius, Oratio 9 6-7
+# source = Libanius, Orat. 9 6-7
 # text = καὶ τὸ ἔτι κάλλιον , οὐ δὲ μετεμέλησε κεχαρισμένοις , ὡς δὴ τὰ δίκαια πρὸς αὐτὴν οὕτω πεποιηκόσιν [0] .
 # sent_id = 19
-1	καὶ	καί	d	d--------	_	19	AuxY	_	t_354|ref=Oratio 9_6
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_355|ref=Oratio 9_6
-3	ἔτι	ἔτι	d	d--------	_	4	ADV	_	t_356|ref=Oratio 9_6
-4	κάλλιον	καλός	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	19	PNOM	_	t_357|ref=Oratio 9_6
-5	,	,	u	u--------	_	8	AuxX	_	t_358|ref=Oratio 9_6
-6	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_359|ref=Oratio 9_6
-7	δὲ	δέ	d	d--------	_	6	AuxZ	_	t_360|ref=Oratio 9_6
-8	μετεμέλησε	μεταμέλομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_361|ref=Oratio 9_6
-9	κεχαρισμένοις	χαρίζομαι	v	v-prpemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	8	OBJ	_	t_362|ref=Oratio 9_6
-10	,	,	u	u--------	_	5	AuxX	_	t_363|ref=Oratio 9_6
-11	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_364|ref=Oratio 9_6
-12	δὴ	δή	d	d--------	_	18	AuxY	_	t_365|ref=Oratio 9_6
-13	τὰ	ὁ	l	l-p---nn-	Case=a|Gender=n|Number=p	14	ATR	_	t_366|ref=Oratio 9_7
-14	δίκαια	δίκαιος	a	a-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_367|ref=Oratio 9_7
-15	πρὸς	πρός	r	r--------	_	18	AuxP	_	t_368|ref=Oratio 9_7
-16	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_369|ref=Oratio 9_7
-17	οὕτω	οὕτως	d	d--------	_	18	ADV	_	t_370|ref=Oratio 9_7
-18	πεποιηκόσιν	ποιέω	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	8	ADV	_	t_371|ref=Oratio 9_7
-19	[0]	[0]	-	---------	_	5	ADV	_	e_13|ref=Oratio 9_1
-20	.	.	u	u--------	_	5	AuxK	_	t_372|ref=Oratio 9_7
+1	καὶ	καί	d	d--------	_	19	AuxY	_	t_354|e_13|ref=Orat. 9_6
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_355|t_357|ref=Orat. 9_6
+3	ἔτι	ἔτι	d	d--------	_	4	ADV	_	t_356|t_357|ref=Orat. 9_6
+4	κάλλιον	καλός	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	19	PNOM	_	t_357|e_13|ref=Orat. 9_6
+5	,	,	u	u--------	_	8	AuxX	_	t_358|t_361|ref=Orat. 9_6
+6	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_359|t_361|ref=Orat. 9_6
+7	δὲ	δέ	d	d--------	_	6	AuxZ	_	t_360|t_359|ref=Orat. 9_6
+8	μετεμέλησε	μεταμέλομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_361|0|ref=Orat. 9_6
+9	κεχαρισμένοις	χαρίζομαι	v	v-prpemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	8	OBJ	_	t_362|t_361|ref=Orat. 9_6
+10	,	,	u	u--------	_	5	AuxX	_	t_363|t_358|ref=Orat. 9_6
+11	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_364|t_361|ref=Orat. 9_6
+12	δὴ	δή	d	d--------	_	18	AuxY	_	t_365|t_371|ref=Orat. 9_6
+13	τὰ	ὁ	l	l-p---nn-	Case=a|Gender=n|Number=p	14	ATR	_	t_366|t_367|ref=Orat. 9_7
+14	δίκαια	δίκαιος	a	a-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_367|t_371|ref=Orat. 9_7
+15	πρὸς	πρός	r	r--------	_	18	AuxP	_	t_368|t_371|ref=Orat. 9_7
+16	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	15	ADV	_	t_369|t_368|ref=Orat. 9_7
+17	οὕτω	οὕτως	d	d--------	_	18	ADV	_	t_370|t_371|ref=Orat. 9_7
+18	πεποιηκόσιν	ποιέω	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	8	ADV	_	t_371|t_361|ref=Orat. 9_7
+19	[0]	[0]	-	---------	_	5	ADV	_	e_13|t_358|ref=Orat. 9_1
+20	.	.	u	u--------	_	5	AuxK	_	t_372|t_358|ref=Orat. 9_7
 
-# source = Libanius, Oratio 9 7
+# source = Libanius, Orat. 9 7
 # text = εἶναι γὰρ ἐκ τοῦ νόμου φαγεῖν τε πλέον καὶ πιεῖν , καὶ τοὺς τοῦτο δρῶντας ἱκανῶς τούτους εἶναι τοὺς ἃ βούλοιτʼ ἂν ἡ ἑορτὴ ποιηκότας .
 # sent_id = 20
-1	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_373|ref=Oratio 9_7
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_374|ref=Oratio 9_7
-3	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_375|ref=Oratio 9_7
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_376|ref=Oratio 9_7
-5	νόμου	νόμος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	PNOM	_	t_377|ref=Oratio 9_7
-6	φαγεῖν	ἐσθίω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	PNOM	_	t_378|ref=Oratio 9_7
-7	τε	τε	d	d--------	_	9	AuxY	_	t_379|ref=Oratio 9_7
-8	πλέον	πλέος	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_380|ref=Oratio 9_7
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_381|ref=Oratio 9_7
-10	πιεῖν	πίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	SBJ	_	t_382|ref=Oratio 9_7
-11	,	,	u	u--------	_	1	AuxX	_	t_383|ref=Oratio 9_7
-12	καὶ	καί	c	c--------	_	1	COORD	_	t_384|ref=Oratio 9_7
-13	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_385|ref=Oratio 9_7
-14	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_386|ref=Oratio 9_7
-15	δρῶντας	δράω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	SBJ	_	t_387|ref=Oratio 9_7
-16	ἱκανῶς	ἱκανός	d	d--------	_	18	ADV	_	t_388|ref=Oratio 9_7
-17	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	18	PNOM	_	t_389|ref=Oratio 9_7
-18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_390|ref=Oratio 9_7
-19	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_391|ref=Oratio 9_7
-20	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_392|ref=Oratio 9_7
-21	βούλοιτʼ	βούλομαι	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	17	ATR	_	t_393|ref=Oratio 9_7
-22	ἂν	ἄν	d	d--------	_	21	AuxY	_	t_394|ref=Oratio 9_7
-23	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	24	ATR	_	t_395|ref=Oratio 9_7
-24	ἑορτὴ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_396|ref=Oratio 9_7
-25	ποιηκότας	ποιέω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	18	PNOM	_	t_397|ref=Oratio 9_7
-26	.	.	u	u--------	_	1	AuxK	_	t_398|ref=Oratio 9_7
+1	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_373|0|ref=Orat. 9_7
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_374|t_373|ref=Orat. 9_7
+3	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_375|t_373|ref=Orat. 9_7
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_376|t_377|ref=Orat. 9_7
+5	νόμου	νόμος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	PNOM	_	t_377|t_375|ref=Orat. 9_7
+6	φαγεῖν	ἐσθίω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	PNOM	_	t_378|t_381|ref=Orat. 9_7
+7	τε	τε	d	d--------	_	9	AuxY	_	t_379|t_381|ref=Orat. 9_7
+8	πλέον	πλέος	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_380|t_381|ref=Orat. 9_7
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_381|t_373|ref=Orat. 9_7
+10	πιεῖν	πίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	SBJ	_	t_382|t_381|ref=Orat. 9_7
+11	,	,	u	u--------	_	1	AuxX	_	t_383|t_373|ref=Orat. 9_7
+12	καὶ	καί	c	c--------	_	1	COORD	_	t_384|t_373|ref=Orat. 9_7
+13	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_385|t_387|ref=Orat. 9_7
+14	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_386|t_387|ref=Orat. 9_7
+15	δρῶντας	δράω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	SBJ	_	t_387|t_390|ref=Orat. 9_7
+16	ἱκανῶς	ἱκανός	d	d--------	_	18	ADV	_	t_388|t_390|ref=Orat. 9_7
+17	τούτους	οὗτος	p	p-p---ma-	Case=a|Gender=m|Number=p	18	PNOM	_	t_389|t_390|ref=Orat. 9_7
+18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_390|t_384|ref=Orat. 9_7
+19	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_391|t_389|ref=Orat. 9_7
+20	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_392|t_393|ref=Orat. 9_7
+21	βούλοιτʼ	βούλομαι	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	17	ATR	_	t_393|t_389|ref=Orat. 9_7
+22	ἂν	ἄν	d	d--------	_	21	AuxY	_	t_394|t_393|ref=Orat. 9_7
+23	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	24	ATR	_	t_395|t_396|ref=Orat. 9_7
+24	ἑορτὴ	ἑορτή	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_396|t_393|ref=Orat. 9_7
+25	ποιηκότας	ποιέω	v	v-prpama-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	18	PNOM	_	t_397|t_390|ref=Orat. 9_7
+26	.	.	u	u--------	_	1	AuxK	_	t_398|t_373|ref=Orat. 9_7
 
-# source = Libanius, Oratio 9 7-8
+# source = Libanius, Orat. 9 7-8
 # text = τιμῶν τε ἡ γῆ πλήρης τιμώντων λους ἀνθρώπων δώροις τε καὶ ξενίοις , τοῖς μὲν ἐκ πόλεων εἰς πόλεις ἐρχομένοις , | τοῖς δὲ ἐξ ἀγρῶν εἰς ἀγρούς , τοῖς δὲ ἐξ ἀγρῶν εἰς ἄστη , τοῖς μὲν τεθη - ραμένοις , τοῖς δὲ ἐκτεθραμμένοις [0] [1] [2] .
 # sent_id = 21
-1	τιμῶν	τιμή	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_399|ref=Oratio 9_7
-2	τε	τε	d	d--------	_	46	AuxY	_	t_400|ref=Oratio 9_7
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_401|ref=Oratio 9_7
-4	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	46	SBJ	_	t_402|ref=Oratio 9_7
-5	πλήρης	πλήρης	a	a-s---fn-	Case=n|Gender=f|Number=s	46	PNOM	_	t_403|ref=Oratio 9_7
-6	τιμώντων	τιμάω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_404|ref=Oratio 9_7
-7	λους	λος	p	p-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_405|ref=Oratio 9_7
-8	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_406|ref=Oratio 9_7
-9	δώροις	δῶρον	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_407|ref=Oratio 9_7
-10	τε	τε	c	c--------	_	11	AuxY	_	t_408|ref=Oratio 9_7
-11	καὶ	καί	c	c--------	_	6	COORD	_	t_409|ref=Oratio 9_7
-12	ξενίοις	ξένιος	a	a-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_410|ref=Oratio 9_7
-13	,	,	u	u--------	_	46	AuxX	_	t_411|ref=Oratio 9_7
-14	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	20	ATR	_	t_412|ref=Oratio 9_8
-15	μὲν	μέν	d	d--------	_	31	AuxY	_	t_413|ref=Oratio 9_8
-16	ἐκ	ἐκ	r	r--------	_	20	AuxP	_	t_414|ref=Oratio 9_8
-17	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	16	ADV	_	t_415|ref=Oratio 9_8
-18	εἰς	εἰς	r	r--------	_	20	AuxP	_	t_416|ref=Oratio 9_8
-19	πόλεις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	18	OBJ	_	t_417|ref=Oratio 9_8
-20	ἐρχομένοις	ἔρχομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	31	OBJ	_	t_418|ref=Oratio 9_8
-21	,	,	u	u--------	_	46	AuxX	_	t_419|ref=Oratio 9_8
-22	|	|	d	d--------	_	31	AuxY	_	t_420|ref=Oratio 9_8
-23	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	47	OBJ	_	t_421|ref=Oratio 9_8
-24	δὲ	δέ	d	d--------	_	31	AuxY	_	t_422|ref=Oratio 9_8
-25	ἐξ	ἐκ	r	r--------	_	23	AuxP	_	t_423|ref=Oratio 9_8
-26	ἀγρῶν	ἀγρός	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_424|ref=Oratio 9_8
-27	εἰς	εἰς	r	r--------	_	47	AuxP	_	t_425|ref=Oratio 9_8
-28	ἀγρούς	ἀγρός	n	n-p---ma-	Case=a|Gender=m|Number=p	27	OBJ	_	t_426|ref=Oratio 9_8
-29	,	,	u	u--------	_	46	AuxX	_	t_427|ref=Oratio 9_8
-30	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	47	OBJ	_	t_428|ref=Oratio 9_8
-31	δὲ	δέ	c	c--------	_	46	COORD	_	t_429|ref=Oratio 9_8
-32	ἐξ	ἐκ	r	r--------	_	30	AuxP	_	t_430|ref=Oratio 9_8
-33	ἀγρῶν	ἀγρός	n	n-p---mg-	Case=g|Gender=m|Number=p	32	ATR	_	t_431|ref=Oratio 9_8
-34	εἰς	εἰς	r	r--------	_	48	AuxP	_	t_432|ref=Oratio 9_8
-35	ἄστη	ἄστη	n	n-p---na-	Case=a|Gender=n|Number=p	34	OBJ	_	t_433|ref=Oratio 9_8
-36	,	,	u	u--------	_	46	AuxX	_	t_434|ref=Oratio 9_8
-37	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	48	OBJ	_	t_435|ref=Oratio 9_8
-38	μὲν	μέν	d	d--------	_	44	AuxY	_	t_436|ref=Oratio 9_8
-39	τεθη	τεθηπα	n	n-p---na-	Case=a|Gender=n|Number=p	37	ATR	_	t_437|ref=Oratio 9_8
-40	-	-	u	u--------	_	41	AuxX	_	t_438|ref=Oratio 9_8
-41	ραμένοις	αἴρω	v	v-papmmd-	Case=d|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	44	OBJ	_	t_439|ref=Oratio 9_8
-42	,	,	u	u--------	_	46	AuxX	_	t_440|ref=Oratio 9_8
-43	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	45	OBJ	_	t_441|ref=Oratio 9_8
-44	δὲ	δέ	d	d--------	_	31	COORD	_	t_442|ref=Oratio 9_8
-45	ἐκτεθραμμένοις	ἐκτρέφω	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	44	OBJ	_	t_443|ref=Oratio 9_8
-46	[0]	[0]	-	---------	_	0	PRED	_	e_14|ref=Oratio 9_1
-47	[1]	[1]	-	---------	_	31	ADV	_	e_15|ref=Oratio 9_1
-48	[2]	[2]	-	---------	_	31	ADV	_	e_16|ref=Oratio 9_1
-49	.	.	u	u--------	_	46	AuxK	_	t_444|ref=Oratio 9_8
+1	τιμῶν	τιμή	n	n-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_399|t_403|ref=Orat. 9_7
+2	τε	τε	d	d--------	_	46	AuxY	_	t_400|e_14|ref=Orat. 9_7
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_401|t_402|ref=Orat. 9_7
+4	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	46	SBJ	_	t_402|e_14|ref=Orat. 9_7
+5	πλήρης	πλήρης	a	a-s---fn-	Case=n|Gender=f|Number=s	46	PNOM	_	t_403|e_14|ref=Orat. 9_7
+6	τιμώντων	τιμάω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_404|t_399|ref=Orat. 9_7
+7	λους	λος	p	p-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_405|t_404|ref=Orat. 9_7
+8	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_406|t_405|ref=Orat. 9_7
+9	δώροις	δῶρον	n	n-p---nd-	Case=d|Gender=n|Number=p	11	ADV	_	t_407|t_409|ref=Orat. 9_7
+10	τε	τε	c	c--------	_	11	AuxY	_	t_408|t_409|ref=Orat. 9_7
+11	καὶ	καί	c	c--------	_	6	COORD	_	t_409|t_404|ref=Orat. 9_7
+12	ξενίοις	ξένιος	a	a-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_410|t_409|ref=Orat. 9_7
+13	,	,	u	u--------	_	46	AuxX	_	t_411|e_14|ref=Orat. 9_7
+14	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	20	ATR	_	t_412|t_418|ref=Orat. 9_8
+15	μὲν	μέν	d	d--------	_	31	AuxY	_	t_413|t_429|ref=Orat. 9_8
+16	ἐκ	ἐκ	r	r--------	_	20	AuxP	_	t_414|t_418|ref=Orat. 9_8
+17	πόλεων	πόλις	n	n-p---fg-	Case=g|Gender=f|Number=p	16	ADV	_	t_415|t_414|ref=Orat. 9_8
+18	εἰς	εἰς	r	r--------	_	20	AuxP	_	t_416|t_418|ref=Orat. 9_8
+19	πόλεις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	18	OBJ	_	t_417|t_416|ref=Orat. 9_8
+20	ἐρχομένοις	ἔρχομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	31	OBJ	_	t_418|t_429|ref=Orat. 9_8
+21	,	,	u	u--------	_	46	AuxX	_	t_419|e_14|ref=Orat. 9_8
+22	|	|	d	d--------	_	31	AuxY	_	t_420|t_429|ref=Orat. 9_8
+23	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	47	OBJ	_	t_421|e_15|ref=Orat. 9_8
+24	δὲ	δέ	d	d--------	_	31	AuxY	_	t_422|t_429|ref=Orat. 9_8
+25	ἐξ	ἐκ	r	r--------	_	23	AuxP	_	t_423|t_421|ref=Orat. 9_8
+26	ἀγρῶν	ἀγρός	n	n-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_424|t_423|ref=Orat. 9_8
+27	εἰς	εἰς	r	r--------	_	47	AuxP	_	t_425|e_15|ref=Orat. 9_8
+28	ἀγρούς	ἀγρός	n	n-p---ma-	Case=a|Gender=m|Number=p	27	OBJ	_	t_426|t_425|ref=Orat. 9_8
+29	,	,	u	u--------	_	46	AuxX	_	t_427|e_14|ref=Orat. 9_8
+30	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	47	OBJ	_	t_428|e_15|ref=Orat. 9_8
+31	δὲ	δέ	c	c--------	_	46	COORD	_	t_429|e_14|ref=Orat. 9_8
+32	ἐξ	ἐκ	r	r--------	_	30	AuxP	_	t_430|t_428|ref=Orat. 9_8
+33	ἀγρῶν	ἀγρός	n	n-p---mg-	Case=g|Gender=m|Number=p	32	ATR	_	t_431|t_430|ref=Orat. 9_8
+34	εἰς	εἰς	r	r--------	_	48	AuxP	_	t_432|e_16|ref=Orat. 9_8
+35	ἄστη	ἄστη	n	n-p---na-	Case=a|Gender=n|Number=p	34	OBJ	_	t_433|t_432|ref=Orat. 9_8
+36	,	,	u	u--------	_	46	AuxX	_	t_434|e_14|ref=Orat. 9_8
+37	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	48	OBJ	_	t_435|e_16|ref=Orat. 9_8
+38	μὲν	μέν	d	d--------	_	44	AuxY	_	t_436|t_442|ref=Orat. 9_8
+39	τεθη	τεθηπα	n	n-p---na-	Case=a|Gender=n|Number=p	37	ATR	_	t_437|t_435|ref=Orat. 9_8
+40	-	-	u	u--------	_	41	AuxX	_	t_438|t_439|ref=Orat. 9_8
+41	ραμένοις	αἴρω	v	v-papmmd-	Case=d|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	44	OBJ	_	t_439|t_442|ref=Orat. 9_8
+42	,	,	u	u--------	_	46	AuxX	_	t_440|e_14|ref=Orat. 9_8
+43	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	45	OBJ	_	t_441|t_443|ref=Orat. 9_8
+44	δὲ	δέ	d	d--------	_	31	COORD	_	t_442|t_429|ref=Orat. 9_8
+45	ἐκτεθραμμένοις	ἐκτρέφω	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	44	OBJ	_	t_443|t_442|ref=Orat. 9_8
+46	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Orat. 9_1
+47	[1]	[1]	-	---------	_	31	ADV	_	e_15|t_429|ref=Orat. 9_1
+48	[2]	[2]	-	---------	_	31	ADV	_	e_16|t_429|ref=Orat. 9_1
+49	.	.	u	u--------	_	46	AuxK	_	t_444|e_14|ref=Orat. 9_8
 
-# source = Libanius, Oratio 9 8
+# source = Libanius, Orat. 9 8
 # text = πλήρεις δὲ ἀτραποί τε καὶ λεωφόροι φορτίων , ὧν τὰ μὲν ἀνθρώπων , τὰ δὲ τετραπόδων , τούτων δέ γε αὐτῶν ἑτέρων τε τιμιω - τέρων ὁδοί τε ἐν ἄστει κατάστεγοι στενωποί τε μεστοὶ [0] [1] [2] .
 # sent_id = 22
-1	πλήρεις	πλήρης	a	a-p---mn-	Case=n|Gender=m|Number=p	35	PNOM	_	t_445|ref=Oratio 9_8
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_446|ref=Oratio 9_8
-3	ἀτραποί	ἀτραπός	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_447|ref=Oratio 9_8
-4	τε	τε	d	d--------	_	5	AuxY	_	t_448|ref=Oratio 9_8
-5	καὶ	καί	c	c--------	_	35	COORD	_	t_449|ref=Oratio 9_8
-6	λεωφόροι	διῶρυξ	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_450|ref=Oratio 9_8
-7	φορτίων	φορτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_451|ref=Oratio 9_8
-8	,	,	u	u--------	_	35	AuxX	_	t_452|ref=Oratio 9_8
-9	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_453|ref=Oratio 9_8
-10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_454|ref=Oratio 9_8
-11	μὲν	μέν	d	d--------	_	15	AuxY	_	t_455|ref=Oratio 9_8
-12	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_456|ref=Oratio 9_8
-13	,	,	u	u--------	_	35	AuxX	_	t_457|ref=Oratio 9_8
-14	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_458|ref=Oratio 9_8
-15	δὲ	δέ	d	d--------	_	19	COORD	_	t_459|ref=Oratio 9_8
-16	τετραπόδων	τετράπους	n	n-p---ng-	Case=g|Gender=f|Number=p	23	ATR	_	t_460|ref=Oratio 9_8
-17	,	,	u	u--------	_	35	AuxX	_	t_461|ref=Oratio 9_8
-18	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	24	ADV	_	t_462|ref=Oratio 9_8
-19	δέ	δέ	c	c--------	_	2	COORD	_	t_463|ref=Oratio 9_8
-20	γε	γε	d	d--------	_	18	AuxZ	_	t_464|ref=Oratio 9_8
-21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_465|ref=Oratio 9_8
-22	ἑτέρων	ἕτερος	a	a-p---mg-	Case=g|Gender=n|Number=p	24	ADV	_	t_466|ref=Oratio 9_8
-23	τε	τε	c	c--------	_	33	AuxY	_	t_467|ref=Oratio 9_8
-24	τιμιω	τιμω	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	37	PNOM	_	t_468|ref=Oratio 9_8
-25	-	-	u	u--------	Case=g|Gender=n|Number=p	26	ATR	_	t_469|ref=Oratio 9_8
-26	τέρων	ἕτερος	a	a-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_470|ref=Oratio 9_8
-27	ὁδοί	ὁδός	n	n-p---mn-	Case=n|Gender=f|Number=p	37	SBJ	_	t_471|ref=Oratio 9_8
-28	τε	τε	d	d--------	_	19	AuxY	_	t_472|ref=Oratio 9_8
-29	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_473|ref=Oratio 9_8
-30	ἄστει	ἄστυ	n	n-s---nd-	Case=d|Gender=n|Number=s	29	ATR	_	t_474|ref=Oratio 9_8
-31	κατάστεγοι	κατάστεγος	a	a-p---fn-	Case=n|Gender=m|Number=p	33	PNOM	_	t_475|ref=Oratio 9_8
-32	στενωποί	στενωπός	a	a-p---mn-	Case=n|Gender=m|Number=p	33	PNOM	_	t_476|ref=Oratio 9_8
-33	τε	τε	c	c--------	_	37	COORD	_	t_477|ref=Oratio 9_8
-34	μεστοὶ	μεστός	a	a-p---mn-	Case=n|Gender=m|Number=p	33	PNOM	_	t_478|ref=Oratio 9_8
-35	[0]	[0]	-	---------	_	19	PRED	_	e_17|ref=Oratio 9_1
-36	[1]	[1]	-	---------	_	19	PRED	_	e_18|ref=Oratio 9_1
-37	[2]	[2]	-	---------	_	19	PRED	_	e_19|ref=Oratio 9_1
-38	.	.	u	u--------	_	2	AuxK	_	t_479|ref=Oratio 9_8
+1	πλήρεις	πλήρης	a	a-p---mn-	Case=n|Gender=m|Number=p	35	PNOM	_	t_445|e_17|ref=Orat. 9_8
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_446|0|ref=Orat. 9_8
+3	ἀτραποί	ἀτραπός	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_447|t_449|ref=Orat. 9_8
+4	τε	τε	d	d--------	_	5	AuxY	_	t_448|t_449|ref=Orat. 9_8
+5	καὶ	καί	c	c--------	_	35	COORD	_	t_449|e_17|ref=Orat. 9_8
+6	λεωφόροι	διῶρυξ	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_450|t_449|ref=Orat. 9_8
+7	φορτίων	φορτίον	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_451|t_449|ref=Orat. 9_8
+8	,	,	u	u--------	_	35	AuxX	_	t_452|e_17|ref=Orat. 9_8
+9	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_453|t_454|ref=Orat. 9_8
+10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_454|t_459|ref=Orat. 9_8
+11	μὲν	μέν	d	d--------	_	15	AuxY	_	t_455|t_459|ref=Orat. 9_8
+12	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_456|t_459|ref=Orat. 9_8
+13	,	,	u	u--------	_	35	AuxX	_	t_457|e_17|ref=Orat. 9_8
+14	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_458|t_459|ref=Orat. 9_8
+15	δὲ	δέ	d	d--------	_	19	COORD	_	t_459|t_463|ref=Orat. 9_8
+16	τετραπόδων	τετράπους	n	n-p---ng-	Case=g|Gender=f|Number=p	23	ATR	_	t_460|t_467|ref=Orat. 9_8
+17	,	,	u	u--------	_	35	AuxX	_	t_461|e_17|ref=Orat. 9_8
+18	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	24	ADV	_	t_462|t_468|ref=Orat. 9_8
+19	δέ	δέ	c	c--------	_	2	COORD	_	t_463|t_446|ref=Orat. 9_8
+20	γε	γε	d	d--------	_	18	AuxZ	_	t_464|t_462|ref=Orat. 9_8
+21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_465|t_470|ref=Orat. 9_8
+22	ἑτέρων	ἕτερος	a	a-p---mg-	Case=g|Gender=n|Number=p	24	ADV	_	t_466|t_468|ref=Orat. 9_8
+23	τε	τε	c	c--------	_	33	AuxY	_	t_467|t_477|ref=Orat. 9_8
+24	τιμιω	τιμω	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	37	PNOM	_	t_468|e_19|ref=Orat. 9_8
+25	-	-	u	u--------	Case=g|Gender=n|Number=p	26	ATR	_	t_469|t_470|ref=Orat. 9_8
+26	τέρων	ἕτερος	a	a-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_470|t_471|ref=Orat. 9_8
+27	ὁδοί	ὁδός	n	n-p---mn-	Case=n|Gender=f|Number=p	37	SBJ	_	t_471|e_19|ref=Orat. 9_8
+28	τε	τε	d	d--------	_	19	AuxY	_	t_472|t_463|ref=Orat. 9_8
+29	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_473|t_471|ref=Orat. 9_8
+30	ἄστει	ἄστυ	n	n-s---nd-	Case=d|Gender=n|Number=s	29	ATR	_	t_474|t_473|ref=Orat. 9_8
+31	κατάστεγοι	κατάστεγος	a	a-p---fn-	Case=n|Gender=m|Number=p	33	PNOM	_	t_475|t_477|ref=Orat. 9_8
+32	στενωποί	στενωπός	a	a-p---mn-	Case=n|Gender=m|Number=p	33	PNOM	_	t_476|t_477|ref=Orat. 9_8
+33	τε	τε	c	c--------	_	37	COORD	_	t_477|e_19|ref=Orat. 9_8
+34	μεστοὶ	μεστός	a	a-p---mn-	Case=n|Gender=m|Number=p	33	PNOM	_	t_478|t_477|ref=Orat. 9_8
+35	[0]	[0]	-	---------	_	19	PRED	_	e_17|t_463|ref=Orat. 9_1
+36	[1]	[1]	-	---------	_	19	PRED	_	e_18|t_463|ref=Orat. 9_1
+37	[2]	[2]	-	---------	_	19	PRED	_	e_19|t_463|ref=Orat. 9_1
+38	.	.	u	u--------	_	2	AuxK	_	t_479|t_446|ref=Orat. 9_8
 
-# source = Libanius, Oratio 9 8-9
+# source = Libanius, Orat. 9 8-9
 # text = καὶ τοῖς μὲν ἴση ἡ τέρψις δοῦναί τε καὶ λαβεῖν , τοῖς δέ , εἰ καὶ μὴ λαβεῖν ἐνείη , τό γε δοῦναι ἡδὺ κατ ’ αὐτό γε τοῦτο τὸ δυνηθῆναι δοῦναι [0] [1] .
 # sent_id = 23
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_480|ref=Oratio 9_8
-2	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_481|ref=Oratio 9_8
-3	μὲν	μέν	d	d--------	_	13	AuxY	_	t_482|ref=Oratio 9_8
-4	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	33	PNOM	_	t_483|ref=Oratio 9_8
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_484|ref=Oratio 9_8
-6	τέρψις	τέρψις	n	n-s---fn-	Case=n|Gender=f|Number=s	33	SBJ	_	t_485|ref=Oratio 9_8
-7	δοῦναί	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	ATR	_	t_486|ref=Oratio 9_8
-8	τε	τε	d	d--------	_	9	AuxY	_	t_487|ref=Oratio 9_8
-9	καὶ	καί	c	c--------	_	6	COORD	_	t_488|ref=Oratio 9_8
-10	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	SBJ	_	t_489|ref=Oratio 9_8
-11	,	,	u	u--------	_	0	AuxX	_	t_490|ref=Oratio 9_8
-12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	34	ADV	_	t_491|ref=Oratio 9_8
-13	δέ	δέ	d	d--------	_	11	COORD	_	t_492|ref=Oratio 9_8
-14	,	,	u	u--------	_	11	AuxX	_	t_493|ref=Oratio 9_8
-15	εἰ	εἰ	c	c--------	_	34	AuxC	_	t_494|ref=Oratio 9_8
-16	καὶ	καί	d	d--------	_	19	AuxZ	_	t_495|ref=Oratio 9_8
-17	μὴ	μή	d	d--------	_	19	AuxZ	_	t_496|ref=Oratio 9_8
-18	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	SBJ	_	t_497|ref=Oratio 9_8
-19	ἐνείη	ἔνειμι	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	15	ADV	_	t_498|ref=Oratio 9_8
-20	,	,	u	u--------	_	11	AuxX	_	t_499|ref=Oratio 9_9
-21	τό	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	23	ATR	_	t_500|ref=Oratio 9_9
-22	γε	γε	d	d--------	_	23	AuxZ	_	t_501|ref=Oratio 9_9
-23	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	34	SBJ	_	t_502|ref=Oratio 9_9
-24	ἡδὺ	ἡδύς	a	a-s---nn-	Case=n|Gender=n|Number=s	34	PNOM	_	t_503|ref=Oratio 9_9
-25	κατ	κατά	r	r--------	_	34	AuxP	_	t_504|ref=Oratio 9_9
-26	’	’	r	r--------	_	34	AuxP	_	t_505|ref=Oratio 9_9
-27	αὐτό	αὐτός	a	a-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_506|ref=Oratio 9_9
-28	γε	γε	d	d--------	_	29	AuxZ	_	t_507|ref=Oratio 9_9
-29	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_508|ref=Oratio 9_9
-30	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ATR	_	t_509|ref=Oratio 9_9
-31	δυνηθῆναι	δύναμαι	v	v--anp---	Mood=n|Tense=a|Voice=p	25	ADV	_	t_510|ref=Oratio 9_9
-32	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	31	OBJ	_	t_511|ref=Oratio 9_9
-33	[0]	[0]	-	---------	_	13	PRED	_	e_20|ref=Oratio 9_1
-34	[1]	[1]	-	---------	_	13	PRED	_	e_21|ref=Oratio 9_1
-35	.	.	u	u--------	_	11	AuxK	_	t_512|ref=Oratio 9_9
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_480|t_492|ref=Orat. 9_8
+2	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_481|t_483|ref=Orat. 9_8
+3	μὲν	μέν	d	d--------	_	13	AuxY	_	t_482|t_492|ref=Orat. 9_8
+4	ἴση	ἴσος	a	a-s---fn-	Case=n|Gender=f|Number=s	33	PNOM	_	t_483|e_20|ref=Orat. 9_8
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_484|t_485|ref=Orat. 9_8
+6	τέρψις	τέρψις	n	n-s---fn-	Case=n|Gender=f|Number=s	33	SBJ	_	t_485|e_20|ref=Orat. 9_8
+7	δοῦναί	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	ATR	_	t_486|t_488|ref=Orat. 9_8
+8	τε	τε	d	d--------	_	9	AuxY	_	t_487|t_488|ref=Orat. 9_8
+9	καὶ	καί	c	c--------	_	6	COORD	_	t_488|t_485|ref=Orat. 9_8
+10	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	SBJ	_	t_489|t_488|ref=Orat. 9_8
+11	,	,	u	u--------	_	0	AuxX	_	t_490|0|ref=Orat. 9_8
+12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	34	ADV	_	t_491|e_21|ref=Orat. 9_8
+13	δέ	δέ	d	d--------	_	11	COORD	_	t_492|t_490|ref=Orat. 9_8
+14	,	,	u	u--------	_	11	AuxX	_	t_493|t_490|ref=Orat. 9_8
+15	εἰ	εἰ	c	c--------	_	34	AuxC	_	t_494|e_21|ref=Orat. 9_8
+16	καὶ	καί	d	d--------	_	19	AuxZ	_	t_495|t_498|ref=Orat. 9_8
+17	μὴ	μή	d	d--------	_	19	AuxZ	_	t_496|t_498|ref=Orat. 9_8
+18	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	SBJ	_	t_497|t_498|ref=Orat. 9_8
+19	ἐνείη	ἔνειμι	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	15	ADV	_	t_498|t_494|ref=Orat. 9_8
+20	,	,	u	u--------	_	11	AuxX	_	t_499|t_490|ref=Orat. 9_9
+21	τό	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	23	ATR	_	t_500|t_502|ref=Orat. 9_9
+22	γε	γε	d	d--------	_	23	AuxZ	_	t_501|t_502|ref=Orat. 9_9
+23	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	34	SBJ	_	t_502|e_21|ref=Orat. 9_9
+24	ἡδὺ	ἡδύς	a	a-s---nn-	Case=n|Gender=n|Number=s	34	PNOM	_	t_503|e_21|ref=Orat. 9_9
+25	κατ	κατά	r	r--------	_	34	AuxP	_	t_504|e_21|ref=Orat. 9_9
+26	’	’	r	r--------	_	34	AuxP	_	t_505|e_21|ref=Orat. 9_9
+27	αὐτό	αὐτός	a	a-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_506|t_508|ref=Orat. 9_9
+28	γε	γε	d	d--------	_	29	AuxZ	_	t_507|t_508|ref=Orat. 9_9
+29	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_508|t_504|ref=Orat. 9_9
+30	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ATR	_	t_509|t_510|ref=Orat. 9_9
+31	δυνηθῆναι	δύναμαι	v	v--anp---	Mood=n|Tense=a|Voice=p	25	ADV	_	t_510|t_504|ref=Orat. 9_9
+32	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	31	OBJ	_	t_511|t_510|ref=Orat. 9_9
+33	[0]	[0]	-	---------	_	13	PRED	_	e_20|t_492|ref=Orat. 9_1
+34	[1]	[1]	-	---------	_	13	PRED	_	e_21|t_492|ref=Orat. 9_1
+35	.	.	u	u--------	_	11	AuxK	_	t_512|t_490|ref=Orat. 9_9
 
-# source = Libanius, Oratio 9 9
+# source = Libanius, Orat. 9 9
 # text = ποιεῖ δὲ καλὴν τὴν γῆν τῷ μὲν ἦρι τὰ ἄνθη , τῇ δὲ ἑορτῇ τὰ δῶρα πανταχῆ πανταχόθεν ἰόντα [0] .
 # sent_id = 24
-1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_513|ref=Oratio 9_9
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_514|ref=Oratio 9_9
-3	καλὴν	καλός	a	a-s---fa-	Case=a|Gender=f|Number=s	1	OCOMP	_	t_515|ref=Oratio 9_9
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_516|ref=Oratio 9_9
-5	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_517|ref=Oratio 9_9
-6	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	8	ATR	_	t_518|ref=Oratio 9_9
-7	μὲν	μέν	d	d--------	_	13	AuxY	_	t_519|ref=Oratio 9_9
-8	ἦρι	ἦρι	n	n-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_520|ref=Oratio 9_9
-9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_521|ref=Oratio 9_9
-10	ἄνθη	ἄνθος	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_522|ref=Oratio 9_9
-11	,	,	u	u--------	_	0	AuxX	_	t_523|ref=Oratio 9_9
-12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	14	ATR	_	t_524|ref=Oratio 9_9
-13	δὲ	δέ	c	c--------	_	11	COORD	_	t_525|ref=Oratio 9_9
-14	ἑορτῇ	ἑορτή	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_526|ref=Oratio 9_9
-15	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	16	ATR	_	t_527|ref=Oratio 9_9
-16	δῶρα	δῶρον	n	n-p---nn-	Case=n|Gender=n|Number=p	20	SBJ	_	t_528|ref=Oratio 9_9
-17	πανταχῆ	πανταχῆ	d	d--------	_	19	ADV	_	t_529|ref=Oratio 9_9
-18	πανταχόθεν	πανταχόθεν	d	d--------	_	19	ADV	_	t_530|ref=Oratio 9_9
-19	ἰόντα	εἶμι	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	16	ATR	_	t_531|ref=Oratio 9_9
-20	[0]	[0]	-	---------	_	13	PRED	_	e_22|ref=Oratio 9_1
-21	.	.	u	u--------	_	11	AuxK	_	t_532|ref=Oratio 9_9
+1	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_513|t_525|ref=Orat. 9_9
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_514|t_525|ref=Orat. 9_9
+3	καλὴν	καλός	a	a-s---fa-	Case=a|Gender=f|Number=s	1	OCOMP	_	t_515|t_513|ref=Orat. 9_9
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_516|t_517|ref=Orat. 9_9
+5	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_517|t_513|ref=Orat. 9_9
+6	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	8	ATR	_	t_518|t_520|ref=Orat. 9_9
+7	μὲν	μέν	d	d--------	_	13	AuxY	_	t_519|t_525|ref=Orat. 9_9
+8	ἦρι	ἦρι	n	n-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_520|t_513|ref=Orat. 9_9
+9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_521|t_522|ref=Orat. 9_9
+10	ἄνθη	ἄνθος	n	n-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_522|t_513|ref=Orat. 9_9
+11	,	,	u	u--------	_	0	AuxX	_	t_523|0|ref=Orat. 9_9
+12	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	14	ATR	_	t_524|t_526|ref=Orat. 9_9
+13	δὲ	δέ	c	c--------	_	11	COORD	_	t_525|t_523|ref=Orat. 9_9
+14	ἑορτῇ	ἑορτή	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_526|e_22|ref=Orat. 9_9
+15	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	16	ATR	_	t_527|t_528|ref=Orat. 9_9
+16	δῶρα	δῶρον	n	n-p---nn-	Case=n|Gender=n|Number=p	20	SBJ	_	t_528|e_22|ref=Orat. 9_9
+17	πανταχῆ	πανταχῆ	d	d--------	_	19	ADV	_	t_529|t_531|ref=Orat. 9_9
+18	πανταχόθεν	πανταχόθεν	d	d--------	_	19	ADV	_	t_530|t_531|ref=Orat. 9_9
+19	ἰόντα	εἶμι	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	16	ATR	_	t_531|t_528|ref=Orat. 9_9
+20	[0]	[0]	-	---------	_	13	PRED	_	e_22|t_525|ref=Orat. 9_1
+21	.	.	u	u--------	_	11	AuxK	_	t_532|t_523|ref=Orat. 9_9
 
-# source = Libanius, Oratio 9 9-10
+# source = Libanius, Orat. 9 9-10
 # text = καὶ τοῦτό γε ἔτους τὸ ἥδιστον εἶναι λέγων τις οὐκ ἂν ἁμάρτοι , ὥστ ’ εἰ πάντα τὸν χρόνον ζῆν ὑπῆρχεν ἐν ἴσοις , οὐκ ἂν ἦσαν ἐν ὅσῳπερ νῦν λόγῳ παρὰ τοῖς ἀνθρώποις αἱ μακάρων νῆσοι [0] .
 # sent_id = 25
-1	καὶ	καί	d	d--------	_	12	AuxY	_	t_533|ref=Oratio 9_9
-2	τοῦτό	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_534|ref=Oratio 9_9
-3	γε	γε	d	d--------	_	2	AuxZ	_	t_535|ref=Oratio 9_9
-4	ἔτους	ἔτος	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_536|ref=Oratio 9_9
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_537|ref=Oratio 9_9
-6	ἥδιστον	ἡδύς	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	7	PNOM	_	t_538|ref=Oratio 9_9
-7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_539|ref=Oratio 9_9
-8	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_540|ref=Oratio 9_9
-9	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_541|ref=Oratio 9_9
-10	οὐκ	οὐ	d	d--------	_	12	AuxZ	_	t_542|ref=Oratio 9_9
-11	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_543|ref=Oratio 9_9
-12	ἁμάρτοι	ἁμαρτάνω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_544|ref=Oratio 9_9
-13	,	,	u	u--------	_	12	AuxX	_	t_545|ref=Oratio 9_9
-14	ὥστ	ὥστε	c	c--------	_	12	AuxC	_	t_546|ref=Oratio 9_9
-15	’	’	c	c--------	_	12	AuxC	_	t_547|ref=Oratio 9_9
-16	εἰ	εἰ	c	c--------	_	27	AuxC	_	t_548|ref=Oratio 9_9
-17	πάντα	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_549|ref=Oratio 9_9
-18	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_550|ref=Oratio 9_9
-19	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	ADV	_	t_551|ref=Oratio 9_9
-20	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	SBJ	_	t_552|ref=Oratio 9_9
-21	ὑπῆρχεν	ὑπάρχω	v	v3plia---	Mood=i|Number=p|Person=3|Tense=l|Voice=a	16	ADV	_	t_553|ref=Oratio 9_9
-22	ἐν	ἐν	r	r--------	_	21	AuxP	_	t_554|ref=Oratio 9_9
-23	ἴσοις	ἴσος	a	a-p---nd-	Case=d|Gender=n|Number=p	22	ADV	_	t_555|ref=Oratio 9_10
-24	,	,	u	u--------	_	12	AuxX	_	t_556|ref=Oratio 9_10
-25	οὐκ	οὐ	d	d--------	_	27	AuxZ	_	t_557|ref=Oratio 9_10
-26	ἂν	ἄν	d	d--------	_	27	AuxY	_	t_558|ref=Oratio 9_10
-27	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ADV	_	t_559|ref=Oratio 9_10
-28	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_560|ref=Oratio 9_10
-29	ὅσῳπερ	ὅσος	a	a-s---md-	Case=d|Gender=m|Number=s	31	ATR	_	t_561|ref=Oratio 9_10
-30	νῦν	νῦν	d	d--------	_	38	ADV	_	t_562|ref=Oratio 9_10
-31	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_563|ref=Oratio 9_10
-32	παρὰ	παρά	r	r--------	_	37	AuxP	_	t_564|ref=Oratio 9_10
-33	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	34	ATR	_	t_565|ref=Oratio 9_10
-34	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	32	ADV	_	t_566|ref=Oratio 9_10
-35	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	37	ATR	_	t_567|ref=Oratio 9_10
-36	μακάρων	μάκαρ	n	n-p---mg-	Case=g|Gender=m|Number=p	37	ATR	_	t_568|ref=Oratio 9_10
-37	νῆσοι	νῆσος	n	n-p---fn-	Case=n|Gender=f|Number=p	27	SBJ	_	t_569|ref=Oratio 9_10
-38	[0]	[0]	-	---------	_	27	ADV	_	e_23|ref=Oratio 9_1
-39	.	.	u	u--------	_	12	AuxK	_	t_570|ref=Oratio 9_10
+1	καὶ	καί	d	d--------	_	12	AuxY	_	t_533|t_544|ref=Orat. 9_9
+2	τοῦτό	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_534|t_539|ref=Orat. 9_9
+3	γε	γε	d	d--------	_	2	AuxZ	_	t_535|t_534|ref=Orat. 9_9
+4	ἔτους	ἔτος	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_536|t_538|ref=Orat. 9_9
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_537|t_538|ref=Orat. 9_9
+6	ἥδιστον	ἡδύς	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	7	PNOM	_	t_538|t_539|ref=Orat. 9_9
+7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_539|t_540|ref=Orat. 9_9
+8	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_540|t_544|ref=Orat. 9_9
+9	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_541|t_544|ref=Orat. 9_9
+10	οὐκ	οὐ	d	d--------	_	12	AuxZ	_	t_542|t_544|ref=Orat. 9_9
+11	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_543|t_544|ref=Orat. 9_9
+12	ἁμάρτοι	ἁμαρτάνω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_544|0|ref=Orat. 9_9
+13	,	,	u	u--------	_	12	AuxX	_	t_545|t_544|ref=Orat. 9_9
+14	ὥστ	ὥστε	c	c--------	_	12	AuxC	_	t_546|t_544|ref=Orat. 9_9
+15	’	’	c	c--------	_	12	AuxC	_	t_547|t_544|ref=Orat. 9_9
+16	εἰ	εἰ	c	c--------	_	27	AuxC	_	t_548|t_559|ref=Orat. 9_9
+17	πάντα	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_549|t_551|ref=Orat. 9_9
+18	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_550|t_551|ref=Orat. 9_9
+19	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	ADV	_	t_551|t_553|ref=Orat. 9_9
+20	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	SBJ	_	t_552|t_553|ref=Orat. 9_9
+21	ὑπῆρχεν	ὑπάρχω	v	v3plia---	Mood=i|Number=p|Person=3|Tense=l|Voice=a	16	ADV	_	t_553|t_548|ref=Orat. 9_9
+22	ἐν	ἐν	r	r--------	_	21	AuxP	_	t_554|t_553|ref=Orat. 9_9
+23	ἴσοις	ἴσος	a	a-p---nd-	Case=d|Gender=n|Number=p	22	ADV	_	t_555|t_554|ref=Orat. 9_10
+24	,	,	u	u--------	_	12	AuxX	_	t_556|t_544|ref=Orat. 9_10
+25	οὐκ	οὐ	d	d--------	_	27	AuxZ	_	t_557|t_559|ref=Orat. 9_10
+26	ἂν	ἄν	d	d--------	_	27	AuxY	_	t_558|t_559|ref=Orat. 9_10
+27	ἦσαν	εἰμί	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ADV	_	t_559|t_547|ref=Orat. 9_10
+28	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_560|t_559|ref=Orat. 9_10
+29	ὅσῳπερ	ὅσος	a	a-s---md-	Case=d|Gender=m|Number=s	31	ATR	_	t_561|t_563|ref=Orat. 9_10
+30	νῦν	νῦν	d	d--------	_	38	ADV	_	t_562|e_23|ref=Orat. 9_10
+31	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_563|t_560|ref=Orat. 9_10
+32	παρὰ	παρά	r	r--------	_	37	AuxP	_	t_564|t_569|ref=Orat. 9_10
+33	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	34	ATR	_	t_565|t_566|ref=Orat. 9_10
+34	ἀνθρώποις	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	32	ADV	_	t_566|t_564|ref=Orat. 9_10
+35	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	37	ATR	_	t_567|t_569|ref=Orat. 9_10
+36	μακάρων	μάκαρ	n	n-p---mg-	Case=g|Gender=m|Number=p	37	ATR	_	t_568|t_569|ref=Orat. 9_10
+37	νῆσοι	νῆσος	n	n-p---fn-	Case=n|Gender=f|Number=p	27	SBJ	_	t_569|t_559|ref=Orat. 9_10
+38	[0]	[0]	-	---------	_	27	ADV	_	e_23|t_559|ref=Orat. 9_1
+39	.	.	u	u--------	_	12	AuxK	_	t_570|t_544|ref=Orat. 9_10
 
-# source = Libanius, Oratio 9 10
+# source = Libanius, Orat. 9 10
 # text = ἡδὺ μὲν γὰρ καὶ ἡ πρώτη χελι - δών , ἀλλʼ οὐ κωλύει πονεῖν , ἡ δὲ ἀξιοῖ τὰς αὑτῆς ἡμέρας ὅτιπερ πόνου μετέχει , πᾶν τοῦτο ὑποχωρεῖν τρέπει τε ταῖς γνώμαις καθαραῖς ἀπολαύειν [0] .
 # sent_id = 26
-1	ἡδὺ	ἡδύς	a	a-s---nn-	Case=n|Gender=n|Number=s	35	PNOM	_	t_571|ref=Oratio 9_10
-2	μὲν	μέν	d	d--------	_	17	AuxY	_	t_572|ref=Oratio 9_10
-3	γὰρ	γάρ	d	d--------	_	17	AuxY	_	t_573|ref=Oratio 9_10
-4	καὶ	καί	d	d--------	_	6	AuxZ	_	t_574|ref=Oratio 9_10
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_575|ref=Oratio 9_10
-6	πρώτη	πρῶτος	a	a-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_576|ref=Oratio 9_10
-7	χελι	χελι	d	d--------	_	9	ATR	_	t_577|ref=Oratio 9_10
-8	-	-	l	l-s---fn-	Case=n|Gender=f|Number=s	9	AuxZ	_	t_578|ref=Oratio 9_10
-9	δών	δίδωμι	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_579|ref=Oratio 9_10
-10	,	,	u	u--------	_	0	AuxX	_	t_580|ref=Oratio 9_10
-11	ἀλλʼ	ἀλλά	c	c--------	_	17	COORD	_	t_581|ref=Oratio 9_10
-12	οὐ	οὐ	d	d--------	_	13	AuxZ	_	t_582|ref=Oratio 9_10
-13	κωλύει	κωλύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_583|ref=Oratio 9_10
-14	πονεῖν	πονέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_584|ref=Oratio 9_10
-15	,	,	u	u--------	_	10	AuxX	_	t_585|ref=Oratio 9_10
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_586|ref=Oratio 9_10
-17	δὲ	δέ	d	d--------	_	10	COORD	_	t_587|ref=Oratio 9_10
-18	ἀξιοῖ	ἀξιόω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	30	PRED	_	t_588|ref=Oratio 9_10
-19	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	21	ATR	_	t_589|ref=Oratio 9_10
-20	αὑτῆς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_590|ref=Oratio 9_10
-21	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	18	ADV	_	t_591|ref=Oratio 9_10
-22	ὅτιπερ	ὅτιπερ	c	c--------	_	18	AuxC	_	t_592|ref=Oratio 9_10
-23	πόνου	πόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	24	OBJ	_	t_593|ref=Oratio 9_10
-24	μετέχει	μετέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_594|ref=Oratio 9_10
-25	,	,	u	u--------	_	10	AuxX	_	t_595|ref=Oratio 9_10
-26	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	27	ATR	_	t_596|ref=Oratio 9_10
-27	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_597|ref=Oratio 9_10
-28	ὑποχωρεῖν	ὑποχωρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	29	OBJ	_	t_598|ref=Oratio 9_10
-29	τρέπει	τρέπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	30	PRED	_	t_599|ref=Oratio 9_10
-30	τε	τε	c	c--------	_	17	COORD	_	t_600|ref=Oratio 9_10
-31	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	32	ATR	_	t_601|ref=Oratio 9_10
-32	γνώμαις	γνώμη	n	n-p---fd-	Case=d|Gender=f|Number=p	34	OBJ	_	t_602|ref=Oratio 9_10
-33	καθαραῖς	καθαρός	a	a-p---fd-	Case=d|Gender=f|Number=p	32	ATR	_	t_603|ref=Oratio 9_10
-34	ἀπολαύειν	ἀπολαύω	v	v--pna---	Mood=n|Tense=p|Voice=a	29	OBJ	_	t_604|ref=Oratio 9_10
-35	[0]	[0]	-	---------	_	17	PRED	_	e_24|ref=Oratio 9_1
-36	.	.	u	u--------	_	10	AuxK	_	t_605|ref=Oratio 9_10
+1	ἡδὺ	ἡδύς	a	a-s---nn-	Case=n|Gender=n|Number=s	35	PNOM	_	t_571|e_24|ref=Orat. 9_10
+2	μὲν	μέν	d	d--------	_	17	AuxY	_	t_572|t_587|ref=Orat. 9_10
+3	γὰρ	γάρ	d	d--------	_	17	AuxY	_	t_573|t_587|ref=Orat. 9_10
+4	καὶ	καί	d	d--------	_	6	AuxZ	_	t_574|t_576|ref=Orat. 9_10
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_575|t_576|ref=Orat. 9_10
+6	πρώτη	πρῶτος	a	a-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_576|e_24|ref=Orat. 9_10
+7	χελι	χελι	d	d--------	_	9	ATR	_	t_577|t_579|ref=Orat. 9_10
+8	-	-	l	l-s---fn-	Case=n|Gender=f|Number=s	9	AuxZ	_	t_578|t_579|ref=Orat. 9_10
+9	δών	δίδωμι	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_579|e_24|ref=Orat. 9_10
+10	,	,	u	u--------	_	0	AuxX	_	t_580|0|ref=Orat. 9_10
+11	ἀλλʼ	ἀλλά	c	c--------	_	17	COORD	_	t_581|t_587|ref=Orat. 9_10
+12	οὐ	οὐ	d	d--------	_	13	AuxZ	_	t_582|t_583|ref=Orat. 9_10
+13	κωλύει	κωλύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_583|t_581|ref=Orat. 9_10
+14	πονεῖν	πονέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_584|t_583|ref=Orat. 9_10
+15	,	,	u	u--------	_	10	AuxX	_	t_585|t_580|ref=Orat. 9_10
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_586|t_588|ref=Orat. 9_10
+17	δὲ	δέ	d	d--------	_	10	COORD	_	t_587|t_580|ref=Orat. 9_10
+18	ἀξιοῖ	ἀξιόω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	30	PRED	_	t_588|t_600|ref=Orat. 9_10
+19	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	21	ATR	_	t_589|t_591|ref=Orat. 9_10
+20	αὑτῆς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_590|t_591|ref=Orat. 9_10
+21	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	18	ADV	_	t_591|t_588|ref=Orat. 9_10
+22	ὅτιπερ	ὅτιπερ	c	c--------	_	18	AuxC	_	t_592|t_588|ref=Orat. 9_10
+23	πόνου	πόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	24	OBJ	_	t_593|t_594|ref=Orat. 9_10
+24	μετέχει	μετέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_594|t_592|ref=Orat. 9_10
+25	,	,	u	u--------	_	10	AuxX	_	t_595|t_580|ref=Orat. 9_10
+26	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	27	ATR	_	t_596|t_597|ref=Orat. 9_10
+27	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_597|t_598|ref=Orat. 9_10
+28	ὑποχωρεῖν	ὑποχωρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	29	OBJ	_	t_598|t_599|ref=Orat. 9_10
+29	τρέπει	τρέπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	30	PRED	_	t_599|t_600|ref=Orat. 9_10
+30	τε	τε	c	c--------	_	17	COORD	_	t_600|t_587|ref=Orat. 9_10
+31	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	32	ATR	_	t_601|t_602|ref=Orat. 9_10
+32	γνώμαις	γνώμη	n	n-p---fd-	Case=d|Gender=f|Number=p	34	OBJ	_	t_602|t_604|ref=Orat. 9_10
+33	καθαραῖς	καθαρός	a	a-p---fd-	Case=d|Gender=f|Number=p	32	ATR	_	t_603|t_602|ref=Orat. 9_10
+34	ἀπολαύειν	ἀπολαύω	v	v--pna---	Mood=n|Tense=p|Voice=a	29	OBJ	_	t_604|t_599|ref=Orat. 9_10
+35	[0]	[0]	-	---------	_	17	PRED	_	e_24|t_587|ref=Orat. 9_1
+36	.	.	u	u--------	_	10	AuxK	_	t_605|t_580|ref=Orat. 9_10
 
-# source = Libanius, Oratio 9 10
+# source = Libanius, Orat. 9 10
 # text = αὗται φόβους νέων ἀγέλαις λύουσι διττούς , ὧν ὁ μὲν ἐκ διδασκάλων , τὸν δὲ ἐπάγει παιδαγωγός [0] [1] .
 # sent_id = 27
-1	αὗται	οὗτος	p	p-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_606|ref=Oratio 9_10
-2	φόβους	φόβος	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_607|ref=Oratio 9_10
-3	νέων	νέος	a	a-p---ng-	Case=g|Gender=f|Number=p	4	ATR	_	t_608|ref=Oratio 9_10
-4	ἀγέλαις	ἀγέλη	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_609|ref=Oratio 9_10
-5	λύουσι	λύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_610|ref=Oratio 9_10
-6	διττούς	δισσός	a	a-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_611|ref=Oratio 9_10
-7	,	,	u	u--------	_	5	AuxX	_	t_612|ref=Oratio 9_10
-8	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	18	OBJ	_	t_613|ref=Oratio 9_10
-9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_614|ref=Oratio 9_10
-10	μὲν	μέν	d	d--------	_	15	AuxY	_	t_615|ref=Oratio 9_10
-11	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_616|ref=Oratio 9_10
-12	διδασκάλων	διδάσκαλος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	PNOM	_	t_617|ref=Oratio 9_10
-13	,	,	u	u--------	_	5	AuxX	_	t_618|ref=Oratio 9_10
-14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_619|ref=Oratio 9_10
-15	δὲ	δέ	c	c--------	_	2	COORD	_	t_620|ref=Oratio 9_10
-16	ἐπάγει	ἐπάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ATR	_	t_621|ref=Oratio 9_10
-17	παιδαγωγός	παιδαγωγός	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_622|ref=Oratio 9_10
-18	[0]	[0]	-	---------	_	15	ATR	_	e_25|ref=Oratio 9_1
-19	[1]	[1]	-	---------	_	15	ATR	_	e_26|ref=Oratio 9_1
-20	.	.	u	u--------	_	5	AuxK	_	t_623|ref=Oratio 9_10
+1	αὗται	οὗτος	p	p-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_606|t_610|ref=Orat. 9_10
+2	φόβους	φόβος	n	n-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_607|t_610|ref=Orat. 9_10
+3	νέων	νέος	a	a-p---ng-	Case=g|Gender=f|Number=p	4	ATR	_	t_608|t_609|ref=Orat. 9_10
+4	ἀγέλαις	ἀγέλη	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_609|t_610|ref=Orat. 9_10
+5	λύουσι	λύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_610|0|ref=Orat. 9_10
+6	διττούς	δισσός	a	a-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_611|t_607|ref=Orat. 9_10
+7	,	,	u	u--------	_	5	AuxX	_	t_612|t_610|ref=Orat. 9_10
+8	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	18	OBJ	_	t_613|e_25|ref=Orat. 9_10
+9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_614|e_25|ref=Orat. 9_10
+10	μὲν	μέν	d	d--------	_	15	AuxY	_	t_615|t_620|ref=Orat. 9_10
+11	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_616|e_25|ref=Orat. 9_10
+12	διδασκάλων	διδάσκαλος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	PNOM	_	t_617|t_616|ref=Orat. 9_10
+13	,	,	u	u--------	_	5	AuxX	_	t_618|t_610|ref=Orat. 9_10
+14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_619|t_621|ref=Orat. 9_10
+15	δὲ	δέ	c	c--------	_	2	COORD	_	t_620|t_607|ref=Orat. 9_10
+16	ἐπάγει	ἐπάγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ATR	_	t_621|t_620|ref=Orat. 9_10
+17	παιδαγωγός	παιδαγωγός	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_622|t_621|ref=Orat. 9_10
+18	[0]	[0]	-	---------	_	15	ATR	_	e_25|t_620|ref=Orat. 9_1
+19	[1]	[1]	-	---------	_	15	ATR	_	e_26|t_620|ref=Orat. 9_1
+20	.	.	u	u--------	_	5	AuxK	_	t_623|t_610|ref=Orat. 9_10
 
-# source = Libanius, Oratio 9 10-11
+# source = Libanius, Orat. 9 10-11
 # text = αὗται δούλοις ὡς οἷόν τε ἐλευθερίαν φέρουσι .
 # sent_id = 28
-1	αὗται	οὗτος	p	p-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_624|ref=Oratio 9_10
-2	δούλοις	δοῦλος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_625|ref=Oratio 9_10
-3	ὡς	ὡς	d	d--------	_	4	AuxZ	_	t_626|ref=Oratio 9_10
-4	οἷόν	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	7	PNOM	_	t_627|ref=Oratio 9_10
-5	τε	τε	d	d--------	_	4	AuxZ	_	t_628|ref=Oratio 9_10
-6	ἐλευθερίαν	ἐλευθερία	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_629|ref=Oratio 9_10
-7	φέρουσι	φέρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_630|ref=Oratio 9_11
-8	.	.	u	u--------	_	7	AuxK	_	t_631|ref=Oratio 9_11
+1	αὗται	οὗτος	p	p-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_624|t_630|ref=Orat. 9_10
+2	δούλοις	δοῦλος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_625|t_630|ref=Orat. 9_10
+3	ὡς	ὡς	d	d--------	_	4	AuxZ	_	t_626|t_627|ref=Orat. 9_10
+4	οἷόν	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	7	PNOM	_	t_627|t_630|ref=Orat. 9_10
+5	τε	τε	d	d--------	_	4	AuxZ	_	t_628|t_627|ref=Orat. 9_10
+6	ἐλευθερίαν	ἐλευθερία	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_629|t_630|ref=Orat. 9_10
+7	φέρουσι	φέρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_630|0|ref=Orat. 9_11
+8	.	.	u	u--------	_	7	AuxK	_	t_631|t_630|ref=Orat. 9_11
 
-# source = Libanius, Oratio 9 11
+# source = Libanius, Orat. 9 11
 # text = καί πού τι καὶ ῥᾳ - θυμήσας οἰκέτης ἔδοξε μὲν ἀδικεῖν , πληγὴ δὲ οὐδαμοῦ , ἀλλὰ κ ἂν ἔργον φυγὼν προσκαθίζηται κύβοις , ἡ πρὸς τὰς ἡμέρας αἰδὼς ἐξῃτήσατο τὸν ἄνθρωπον [0] .
 # sent_id = 29
-1	καί	καί	d	d--------	_	17	AuxY	_	t_632|ref=Oratio 9_11
-2	πού	πού	d	d--------	_	5	ADV	_	t_633|ref=Oratio 9_11
-3	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_634|ref=Oratio 9_11
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_635|ref=Oratio 9_11
-5	ῥᾳ	ῥᾳ	d	d--------	_	9	ADV	_	t_636|ref=Oratio 9_11
-6	-	-	u	u--------	_	0	AuxG	_	t_637|ref=Oratio 9_11
-7	θυμήσας	θυμόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_638|ref=Oratio 9_11
-8	οἰκέτης	οἰκέτης	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_639|ref=Oratio 9_11
-9	ἔδοξε	δοκέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_640|ref=Oratio 9_11
-10	μὲν	μέν	d	d--------	_	14	AuxY	_	t_641|ref=Oratio 9_11
-11	ἀδικεῖν	ἀδικέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_642|ref=Oratio 9_11
-12	,	,	u	u--------	_	6	AuxX	_	t_643|ref=Oratio 9_11
-13	πληγὴ	πληγή	n	n-s---fn-	Case=n|Gender=f|Number=s	33	SBJ	_	t_644|ref=Oratio 9_11
-14	δὲ	δέ	c	c--------	_	17	COORD	_	t_645|ref=Oratio 9_11
-15	οὐδαμοῦ	οὐδαμοῦ	d	d--------	_	33	PNOM	_	t_646|ref=Oratio 9_11
-16	,	,	u	u--------	_	6	AuxX	_	t_647|ref=Oratio 9_11
-17	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_648|ref=Oratio 9_11
-18	κ	καί	d	d--------	_	22	AuxZ	_	t_649|ref=Oratio 9_11
-19	ἂν	ἄν	c	c--------	_	30	AuxC	_	t_650|ref=Oratio 9_11
-20	ἔργον	ἔργον	n	n-s---na-	Case=a|Gender=n|Number=s	21	OBJ	_	t_651|ref=Oratio 9_11
-21	φυγὼν	φεύγω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	22	ADV	_	t_652|ref=Oratio 9_11
-22	προσκαθίζηται	προσκαθίζω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	19	ADV	_	t_653|ref=Oratio 9_11
-23	κύβοις	κύβος	n	n-p---md-	Case=d|Gender=m|Number=p	22	OBJ	_	t_654|ref=Oratio 9_11
-24	,	,	u	u--------	_	6	AuxX	_	t_655|ref=Oratio 9_11
-25	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_656|ref=Oratio 9_11
-26	πρὸς	πρός	r	r--------	_	29	AuxP	_	t_657|ref=Oratio 9_11
-27	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	28	ATR	_	t_658|ref=Oratio 9_11
-28	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	26	ATR	_	t_659|ref=Oratio 9_11
-29	αἰδὼς	αἰδώς	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_660|ref=Oratio 9_11
-30	ἐξῃτήσατο	ἐξαιτέω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	17	PRED	_	t_661|ref=Oratio 9_11
-31	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_662|ref=Oratio 9_11
-32	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	30	OBJ	_	t_663|ref=Oratio 9_11
-33	[0]	[0]	-	---------	_	14	PRED	_	e_27|ref=Oratio 9_1
-34	.	.	u	u--------	_	6	AuxK	_	t_664|ref=Oratio 9_11
+1	καί	καί	d	d--------	_	17	AuxY	_	t_632|t_648|ref=Orat. 9_11
+2	πού	πού	d	d--------	_	5	ADV	_	t_633|t_636|ref=Orat. 9_11
+3	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_634|t_636|ref=Orat. 9_11
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_635|t_636|ref=Orat. 9_11
+5	ῥᾳ	ῥᾳ	d	d--------	_	9	ADV	_	t_636|t_640|ref=Orat. 9_11
+6	-	-	u	u--------	_	0	AuxG	_	t_637|0|ref=Orat. 9_11
+7	θυμήσας	θυμόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_638|t_640|ref=Orat. 9_11
+8	οἰκέτης	οἰκέτης	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_639|t_640|ref=Orat. 9_11
+9	ἔδοξε	δοκέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	PRED	_	t_640|t_645|ref=Orat. 9_11
+10	μὲν	μέν	d	d--------	_	14	AuxY	_	t_641|t_645|ref=Orat. 9_11
+11	ἀδικεῖν	ἀδικέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_642|t_640|ref=Orat. 9_11
+12	,	,	u	u--------	_	6	AuxX	_	t_643|t_637|ref=Orat. 9_11
+13	πληγὴ	πληγή	n	n-s---fn-	Case=n|Gender=f|Number=s	33	SBJ	_	t_644|e_27|ref=Orat. 9_11
+14	δὲ	δέ	c	c--------	_	17	COORD	_	t_645|t_648|ref=Orat. 9_11
+15	οὐδαμοῦ	οὐδαμοῦ	d	d--------	_	33	PNOM	_	t_646|e_27|ref=Orat. 9_11
+16	,	,	u	u--------	_	6	AuxX	_	t_647|t_637|ref=Orat. 9_11
+17	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_648|t_637|ref=Orat. 9_11
+18	κ	καί	d	d--------	_	22	AuxZ	_	t_649|t_653|ref=Orat. 9_11
+19	ἂν	ἄν	c	c--------	_	30	AuxC	_	t_650|t_661|ref=Orat. 9_11
+20	ἔργον	ἔργον	n	n-s---na-	Case=a|Gender=n|Number=s	21	OBJ	_	t_651|t_652|ref=Orat. 9_11
+21	φυγὼν	φεύγω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	22	ADV	_	t_652|t_653|ref=Orat. 9_11
+22	προσκαθίζηται	προσκαθίζω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	19	ADV	_	t_653|t_650|ref=Orat. 9_11
+23	κύβοις	κύβος	n	n-p---md-	Case=d|Gender=m|Number=p	22	OBJ	_	t_654|t_653|ref=Orat. 9_11
+24	,	,	u	u--------	_	6	AuxX	_	t_655|t_637|ref=Orat. 9_11
+25	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_656|t_660|ref=Orat. 9_11
+26	πρὸς	πρός	r	r--------	_	29	AuxP	_	t_657|t_660|ref=Orat. 9_11
+27	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	28	ATR	_	t_658|t_659|ref=Orat. 9_11
+28	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	26	ATR	_	t_659|t_657|ref=Orat. 9_11
+29	αἰδὼς	αἰδώς	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_660|t_661|ref=Orat. 9_11
+30	ἐξῃτήσατο	ἐξαιτέω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	17	PRED	_	t_661|t_648|ref=Orat. 9_11
+31	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_662|t_663|ref=Orat. 9_11
+32	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	30	OBJ	_	t_663|t_661|ref=Orat. 9_11
+33	[0]	[0]	-	---------	_	14	PRED	_	e_27|t_645|ref=Orat. 9_1
+34	.	.	u	u--------	_	6	AuxK	_	t_664|t_637|ref=Orat. 9_11
 
-# source = Libanius, Oratio 9 11
+# source = Libanius, Orat. 9 11
 # text = καὶ δὴ καὶ δίκας ἀνέβαλον καὶ γραφὰς καὶ τιμωρίας κλεί - σασαι δικαστηρίοις μὲν θύρας , κατηγόροις δὲ τὰ στό - ματα [0] .
 # sent_id = 30
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_665|ref=Oratio 9_11
-2	δὴ	δή	d	d--------	_	6	AuxY	_	t_666|ref=Oratio 9_11
-3	καὶ	καί	d	d--------	_	6	AuxY	_	t_667|ref=Oratio 9_11
-4	δίκας	δίκη	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_668|ref=Oratio 9_11
-5	ἀνέβαλον	ἀναβάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	6	PRED	_	t_669|ref=Oratio 9_11
-6	καὶ	καί	c	c--------	_	0	COORD	_	t_670|ref=Oratio 9_11
-7	γραφὰς	γραφή	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_671|ref=Oratio 9_11
-8	καὶ	καί	c	c--------	_	10	COORD	_	t_672|ref=Oratio 9_11
-9	τιμωρίας	τιμωρία	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_673|ref=Oratio 9_11
-10	κλεί	κλείς	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	6	PRED	_	t_674|ref=Oratio 9_11
-11	-	-	u	u--------	_	6	AuxG	_	t_675|ref=Oratio 9_11
-12	σασαι	σασεω	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	18	PRED	_	t_676|ref=Oratio 9_11
-13	δικαστηρίοις	δικαστήριον	n	n-p---nd-	Case=d|Gender=n|Number=p	12	OBJ	_	t_677|ref=Oratio 9_11
-14	μὲν	μέν	d	d--------	_	18	AuxY	_	t_678|ref=Oratio 9_11
-15	θύρας	θύρα	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_679|ref=Oratio 9_11
-16	,	,	u	u--------	_	6	AuxX	_	t_680|ref=Oratio 9_11
-17	κατηγόροις	κατήγορος	a	a-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_681|ref=Oratio 9_11
-18	δὲ	δέ	c	c--------	_	6	COORD	_	t_682|ref=Oratio 9_11
-19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_683|ref=Oratio 9_11
-20	στό	στό	a	a-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_684|ref=Oratio 9_11
-21	-	-	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_685|ref=Oratio 9_11
-22	ματα	ματα	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_686|ref=Oratio 9_11
-23	[0]	[0]	-	---------	_	18	PRED	_	e_28|ref=Oratio 9_1
-24	.	.	u	u--------	_	6	AuxK	_	t_687|ref=Oratio 9_11
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_665|t_670|ref=Orat. 9_11
+2	δὴ	δή	d	d--------	_	6	AuxY	_	t_666|t_670|ref=Orat. 9_11
+3	καὶ	καί	d	d--------	_	6	AuxY	_	t_667|t_670|ref=Orat. 9_11
+4	δίκας	δίκη	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_668|t_669|ref=Orat. 9_11
+5	ἀνέβαλον	ἀναβάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	6	PRED	_	t_669|t_670|ref=Orat. 9_11
+6	καὶ	καί	c	c--------	_	0	COORD	_	t_670|0|ref=Orat. 9_11
+7	γραφὰς	γραφή	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_671|t_672|ref=Orat. 9_11
+8	καὶ	καί	c	c--------	_	10	COORD	_	t_672|t_674|ref=Orat. 9_11
+9	τιμωρίας	τιμωρία	n	n-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_673|t_672|ref=Orat. 9_11
+10	κλεί	κλείς	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	6	PRED	_	t_674|t_670|ref=Orat. 9_11
+11	-	-	u	u--------	_	6	AuxG	_	t_675|t_670|ref=Orat. 9_11
+12	σασαι	σασεω	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	18	PRED	_	t_676|t_682|ref=Orat. 9_11
+13	δικαστηρίοις	δικαστήριον	n	n-p---nd-	Case=d|Gender=n|Number=p	12	OBJ	_	t_677|t_676|ref=Orat. 9_11
+14	μὲν	μέν	d	d--------	_	18	AuxY	_	t_678|t_682|ref=Orat. 9_11
+15	θύρας	θύρα	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_679|t_676|ref=Orat. 9_11
+16	,	,	u	u--------	_	6	AuxX	_	t_680|t_670|ref=Orat. 9_11
+17	κατηγόροις	κατήγορος	a	a-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_681|e_28|ref=Orat. 9_11
+18	δὲ	δέ	c	c--------	_	6	COORD	_	t_682|t_670|ref=Orat. 9_11
+19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_683|t_686|ref=Orat. 9_11
+20	στό	στό	a	a-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_684|t_686|ref=Orat. 9_11
+21	-	-	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_685|e_28|ref=Orat. 9_11
+22	ματα	ματα	n	n-p---na-	Case=a|Gender=n|Number=p	23	OBJ	_	t_686|e_28|ref=Orat. 9_11
+23	[0]	[0]	-	---------	_	18	PRED	_	e_28|t_682|ref=Orat. 9_1
+24	.	.	u	u--------	_	6	AuxK	_	t_687|t_670|ref=Orat. 9_11
 
-# source = Libanius, Oratio 9 11-12
+# source = Libanius, Orat. 9 11-12
 # text = ἡδονῆς τι καὶ ἐπʼ αὐτά μοι δοκοῦσι τὰ δεσμω - τήρια πέμπειν .
 # sent_id = 31
-1	ἡδονῆς	ἡδονή	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_688|ref=Oratio 9_11
-2	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_689|ref=Oratio 9_11
-3	καὶ	καί	d	d--------	_	7	COORD	_	t_690|ref=Oratio 9_11
-4	ἐπʼ	ἐπί	r	r--------	_	12	AuxP	_	t_691|ref=Oratio 9_11
-5	αὐτά	αὐτός	a	a-p---na-	Case=a|Gender=n|Number=p	4	ADV	_	t_692|ref=Oratio 9_12
-6	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_693|ref=Oratio 9_12
-7	δοκοῦσι	δοκέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_694|ref=Oratio 9_12
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_695|ref=Oratio 9_12
-9	δεσμω	δεσμω	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_696|ref=Oratio 9_12
-10	-	-	n	n-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_697|ref=Oratio 9_12
-11	τήρια	τήριον	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_698|ref=Oratio 9_12
-12	πέμπειν	πέμπω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_699|ref=Oratio 9_12
-13	.	.	u	u--------	_	7	AuxK	_	t_700|ref=Oratio 9_12
+1	ἡδονῆς	ἡδονή	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_688|t_689|ref=Orat. 9_11
+2	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_689|t_699|ref=Orat. 9_11
+3	καὶ	καί	d	d--------	_	7	COORD	_	t_690|t_694|ref=Orat. 9_11
+4	ἐπʼ	ἐπί	r	r--------	_	12	AuxP	_	t_691|t_699|ref=Orat. 9_11
+5	αὐτά	αὐτός	a	a-p---na-	Case=a|Gender=n|Number=p	4	ADV	_	t_692|t_691|ref=Orat. 9_12
+6	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_693|t_694|ref=Orat. 9_12
+7	δοκοῦσι	δοκέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_694|0|ref=Orat. 9_12
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_695|t_698|ref=Orat. 9_12
+9	δεσμω	δεσμω	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_696|t_698|ref=Orat. 9_12
+10	-	-	n	n-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_697|t_696|ref=Orat. 9_12
+11	τήρια	τήριον	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_698|t_699|ref=Orat. 9_12
+12	πέμπειν	πέμπω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_699|t_694|ref=Orat. 9_12
+13	.	.	u	u--------	_	7	AuxK	_	t_700|t_694|ref=Orat. 9_12
 
-# source = Libanius, Oratio 9 12
+# source = Libanius, Orat. 9 12
 # text = καί ποτε τὸν ἐπʼ αὐτοῖς τεταγμένον ἠρόμην , εἴ | τι καὶ ἐκεῖσε τῆς ἑορτῆς ἔρχεται .
 # sent_id = 32
-1	καί	καί	d	d--------	_	7	AuxY	_	t_701|ref=Oratio 9_12
-2	ποτε	ποτέ	d	d--------	_	7	ADV	_	t_702|ref=Oratio 9_12
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_703|ref=Oratio 9_12
-4	ἐπʼ	ἐπί	r	r--------	_	6	AuxP	_	t_704|ref=Oratio 9_12
-5	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_705|ref=Oratio 9_12
-6	τεταγμένον	τάσσω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	7	OBJ	_	t_706|ref=Oratio 9_12
-7	ἠρόμην	ἔρομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_707|ref=Oratio 9_12
-8	,	,	u	u--------	_	7	AuxX	_	t_708|ref=Oratio 9_12
-9	εἴ	εἰ	c	c--------	_	7	AuxC	_	t_709|ref=Oratio 9_12
-10	|	|	x	x--------	_	16	ADV	_	t_710|ref=Oratio 9_12
-11	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_711|ref=Oratio 9_12
-12	καὶ	καί	d	d--------	_	13	AuxZ	_	t_712|ref=Oratio 9_12
-13	ἐκεῖσε	ἐκεῖσε	d	d--------	_	16	ADV	_	t_713|ref=Oratio 9_12
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_714|ref=Oratio 9_11
-15	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_715|ref=Oratio 9_12
-16	ἔρχεται	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	OBJ	_	t_716|ref=Oratio 9_12
-17	.	.	u	u--------	_	7	AuxK	_	t_717|ref=Oratio 9_12
+1	καί	καί	d	d--------	_	7	AuxY	_	t_701|t_707|ref=Orat. 9_12
+2	ποτε	ποτέ	d	d--------	_	7	ADV	_	t_702|t_707|ref=Orat. 9_12
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_703|t_706|ref=Orat. 9_12
+4	ἐπʼ	ἐπί	r	r--------	_	6	AuxP	_	t_704|t_706|ref=Orat. 9_12
+5	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	4	ADV	_	t_705|t_704|ref=Orat. 9_12
+6	τεταγμένον	τάσσω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	7	OBJ	_	t_706|t_707|ref=Orat. 9_12
+7	ἠρόμην	ἔρομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_707|0|ref=Orat. 9_12
+8	,	,	u	u--------	_	7	AuxX	_	t_708|t_707|ref=Orat. 9_12
+9	εἴ	εἰ	c	c--------	_	7	AuxC	_	t_709|t_707|ref=Orat. 9_12
+10	|	|	x	x--------	_	16	ADV	_	t_710|t_716|ref=Orat. 9_12
+11	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_711|t_716|ref=Orat. 9_12
+12	καὶ	καί	d	d--------	_	13	AuxZ	_	t_712|t_713|ref=Orat. 9_12
+13	ἐκεῖσε	ἐκεῖσε	d	d--------	_	16	ADV	_	t_713|t_716|ref=Orat. 9_12
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_714|t_715|ref=Orat. 9_11
+15	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_715|t_711|ref=Orat. 9_12
+16	ἔρχεται	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	9	OBJ	_	t_716|t_709|ref=Orat. 9_12
+17	.	.	u	u--------	_	7	AuxK	_	t_717|t_707|ref=Orat. 9_12
 
-# source = Libanius, Oratio 9 12
+# source = Libanius, Orat. 9 12
 # text = ὁ δὲ ἔφησέ τε ἰέναι καὶ δεικνύναι τὴν ἑορτὴν κ ἀν τοῖς δεσμώταις τὴν ἑαυτῆς δύναμιν νέφους τε ἀφαιροῦσαν τοῦ κατὰ τῶν προσώπων καί τινα αὐτῶν καὶ μειδιᾶσαι πείθουσαν [0] .
 # sent_id = 33
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_718|ref=Oratio 9_12
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_719|ref=Oratio 9_12
-3	ἔφησέ	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_720|ref=Oratio 9_12
-4	τε	τε	d	d--------	_	10	AuxY	_	t_721|ref=Oratio 9_12
-5	ἰέναι	εἶμι	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_722|ref=Oratio 9_12
-6	καὶ	καί	c	c--------	_	10	AuxY	_	t_723|ref=Oratio 9_12
-7	δεικνύναι	δείκνυμι	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_724|ref=Oratio 9_12
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_725|ref=Oratio 9_12
-9	ἑορτὴν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_726|ref=Oratio 9_12
-10	κ	καί	c	c--------	_	3	COORD	_	t_727|ref=Oratio 9_12
-11	ἀν	ἐν	r	r--------	_	30	AuxP	_	t_728|ref=Oratio 9_12
-12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	13	ATR	_	t_729|ref=Oratio 9_12
-13	δεσμώταις	δεσμώτης	n	n-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_730|ref=Oratio 9_12
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_731|ref=Oratio 9_12
-15	ἑαυτῆς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_732|ref=Oratio 9_12
-16	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_733|ref=Oratio 9_12
-17	νέφους	νέφος	n	n-s---ng-	Case=g|Gender=n|Number=s	19	OBJ	_	t_734|ref=Oratio 9_12
-18	τε	τε	d	d--------	_	24	AuxY	_	t_735|ref=Oratio 9_12
-19	ἀφαιροῦσαν	ἀφαιρέω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	24	ADV	_	t_736|ref=Oratio 9_12
-20	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_737|ref=Oratio 9_12
-21	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_738|ref=Oratio 9_12
-22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	23	ATR	_	t_739|ref=Oratio 9_12
-23	προσώπων	πρόσωπον	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_740|ref=Oratio 9_12
-24	καί	καί	c	c--------	_	10	COORD	_	t_741|ref=Oratio 9_12
-25	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	24	SBJ	_	t_742|ref=Oratio 9_12
-26	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_743|ref=Oratio 9_12
-27	καὶ	καί	c	c--------	_	28	AuxZ	_	t_744|ref=Oratio 9_12
-28	μειδιᾶσαι	μειδιάω	v	v--ana---	Mood=n|Tense=a|Voice=a	29	OBJ	_	t_745|ref=Oratio 9_12
-29	πείθουσαν	πείθω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	24	ADV	_	t_746|ref=Oratio 9_12
-30	[0]	[0]	-	---------	_	10	OBJ	_	e_29|ref=Oratio 9_1
-31	.	.	u	u--------	_	3	AuxK	_	t_747|ref=Oratio 9_12
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_718|t_720|ref=Orat. 9_12
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_719|t_720|ref=Orat. 9_12
+3	ἔφησέ	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_720|0|ref=Orat. 9_12
+4	τε	τε	d	d--------	_	10	AuxY	_	t_721|t_727|ref=Orat. 9_12
+5	ἰέναι	εἶμι	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_722|t_727|ref=Orat. 9_12
+6	καὶ	καί	c	c--------	_	10	AuxY	_	t_723|t_727|ref=Orat. 9_12
+7	δεικνύναι	δείκνυμι	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_724|t_727|ref=Orat. 9_12
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_725|t_726|ref=Orat. 9_12
+9	ἑορτὴν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_726|t_724|ref=Orat. 9_12
+10	κ	καί	c	c--------	_	3	COORD	_	t_727|t_720|ref=Orat. 9_12
+11	ἀν	ἐν	r	r--------	_	30	AuxP	_	t_728|e_29|ref=Orat. 9_12
+12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	13	ATR	_	t_729|t_730|ref=Orat. 9_12
+13	δεσμώταις	δεσμώτης	n	n-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_730|t_728|ref=Orat. 9_12
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_731|t_733|ref=Orat. 9_12
+15	ἑαυτῆς	ἑαυτοῦ	p	p-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_732|t_733|ref=Orat. 9_12
+16	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_733|e_29|ref=Orat. 9_12
+17	νέφους	νέφος	n	n-s---ng-	Case=g|Gender=n|Number=s	19	OBJ	_	t_734|t_736|ref=Orat. 9_12
+18	τε	τε	d	d--------	_	24	AuxY	_	t_735|t_741|ref=Orat. 9_12
+19	ἀφαιροῦσαν	ἀφαιρέω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	24	ADV	_	t_736|t_741|ref=Orat. 9_12
+20	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_737|t_741|ref=Orat. 9_12
+21	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_738|t_737|ref=Orat. 9_12
+22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	23	ATR	_	t_739|t_740|ref=Orat. 9_12
+23	προσώπων	πρόσωπον	n	n-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_740|t_738|ref=Orat. 9_12
+24	καί	καί	c	c--------	_	10	COORD	_	t_741|t_727|ref=Orat. 9_12
+25	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	24	SBJ	_	t_742|t_741|ref=Orat. 9_12
+26	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_743|t_742|ref=Orat. 9_12
+27	καὶ	καί	c	c--------	_	28	AuxZ	_	t_744|t_745|ref=Orat. 9_12
+28	μειδιᾶσαι	μειδιάω	v	v--ana---	Mood=n|Tense=a|Voice=a	29	OBJ	_	t_745|t_746|ref=Orat. 9_12
+29	πείθουσαν	πείθω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	24	ADV	_	t_746|t_741|ref=Orat. 9_12
+30	[0]	[0]	-	---------	_	10	OBJ	_	e_29|t_727|ref=Orat. 9_1
+31	.	.	u	u--------	_	3	AuxK	_	t_747|t_720|ref=Orat. 9_12
 
-# source = Libanius, Oratio 9 12-13
+# source = Libanius, Orat. 9 12-13
 # text = ἔπεισε δὲ καὶ πατέρα θανάτῳ παιδὸς κείμενον αὑτόν τε ἐσθίοντα τροφήν τε δυσχεραίνοντα διαλλαγῆναί τε πρὸς αὐτὴν ἀποθέσθαι τε τὴν ἀχλὺν λῆξαί τε αὐχμῶντα καὶ ἐλθεῖν ἐπὶ λουτρά , καὶ ἃ μη - δεὶς τῶν δεινοτάτων πείθειν ἐδυνήθη λέγων , ταῦτα ἐδυνήθη τῆς ἑορτῆς ἡ ῥώμη .
 # sent_id = 34
-1	ἔπεισε	πείθω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	30	PRED	_	t_748|ref=Oratio 9_12
-2	δὲ	δέ	d	d--------	_	30	AuxY	_	t_749|ref=Oratio 9_12
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_750|ref=Oratio 9_12
-4	πατέρα	πατήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_751|ref=Oratio 9_12
-5	θανάτῳ	θάνατος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_752|ref=Oratio 9_12
-6	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_753|ref=Oratio 9_12
-7	κείμενον	κεῖμαι	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	8	ATR	_	t_754|ref=Oratio 9_12
-8	αὑτόν	ἑαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	14	SBJ	_	t_755|ref=Oratio 9_12
-9	τε	τε	d	d--------	_	12	AuxY	_	t_756|ref=Oratio 9_12
-10	ἐσθίοντα	εἰσθέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_757|ref=Oratio 9_12
-11	τροφήν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_758|ref=Oratio 9_12
-12	τε	τε	c	c--------	_	14	COORD	_	t_759|ref=Oratio 9_12
-13	δυσχεραίνοντα	δυσχεραίνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_760|ref=Oratio 9_12
-14	διαλλαγῆναί	διαλλάσσω	v	v--anp---	Mood=n|Tense=a|Voice=p	25	OBJ	_	t_761|ref=Oratio 9_12
-15	τε	τε	d	d--------	_	25	AuxY	_	t_762|ref=Oratio 9_12
-16	πρὸς	πρός	r	r--------	_	14	AuxP	_	t_763|ref=Oratio 9_12
-17	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_764|ref=Oratio 9_12
-18	ἀποθέσθαι	ἀποτίθημι	v	v--ane---	Mood=n|Tense=a|Voice=e	25	OBJ	_	t_765|ref=Oratio 9_12
-19	τε	τε	d	d--------	_	25	AuxY	_	t_766|ref=Oratio 9_12
-20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_767|ref=Oratio 9_12
-21	ἀχλὺν	ἀχλύς	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_768|ref=Oratio 9_12
-22	λῆξαί	λήγω	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_769|ref=Oratio 9_12
-23	τε	τε	d	d--------	_	25	AuxY	_	t_770|ref=Oratio 9_12
-24	αὐχμῶντα	αὐχμάω	v	v-sppama-	Case=a|Gender=m|Number=s	22	ADV	_	t_771|ref=Oratio 9_12
-25	καὶ	καί	c	c--------	_	1	COORD	_	t_772|ref=Oratio 9_12
-26	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_773|ref=Oratio 9_12
-27	ἐπὶ	ἐπί	r	r--------	_	26	AuxP	_	t_774|ref=Oratio 9_12
-28	λουτρά	λουτρόν	n	n-p---na-	Case=a|Gender=n|Number=p	27	OBJ	_	t_775|ref=Oratio 9_12
-29	,	,	u	u--------	_	0	AuxX	_	t_776|ref=Oratio 9_12
-30	καὶ	καί	c	c--------	_	29	COORD	_	t_777|ref=Oratio 9_13
-31	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	37	OBJ	_	t_778|ref=Oratio 9_13
-32	μη	μη	d	d--------	_	38	AuxZ	_	t_779|ref=Oratio 9_13
-33	-	-	u	u--------	_	38	AuxG	_	t_780|ref=Oratio 9_13
-34	δεὶς	δίδωμι	p	p-s---mn-	Case=n|Gender=m|Number=s	38	SBJ	_	t_781|ref=Oratio 9_13
-35	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	36	ATR	_	t_782|ref=Oratio 9_13
-36	δεινοτάτων	δεινός	a	a-p---ngs	Case=g|Degree=s|Gender=n|Number=p	34	ATR	_	t_783|ref=Oratio 9_13
-37	πείθειν	πείθω	v	v--pna---	Mood=n|Tense=p|Voice=a	38	OBJ	_	t_784|ref=Oratio 9_13
-38	ἐδυνήθη	δύναμαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	41	ATR	_	t_785|ref=Oratio 9_13
-39	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	38	ADV	_	t_786|ref=Oratio 9_13
-40	,	,	u	u--------	_	29	AuxX	_	t_787|ref=Oratio 9_13
-41	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	42	OBJ	_	t_788|ref=Oratio 9_13
-42	ἐδυνήθη	δύναμαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	30	PRED	_	t_789|ref=Oratio 9_13
-43	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_790|ref=Oratio 9_13
-44	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	42	OBJ	_	t_791|ref=Oratio 9_13
-45	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	46	ATR	_	t_792|ref=Oratio 9_13
-46	ῥώμη	ῥώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	42	SBJ	_	t_793|ref=Oratio 9_13
-47	.	.	u	u--------	_	29	AuxK	_	t_794|ref=Oratio 9_13
+1	ἔπεισε	πείθω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	30	PRED	_	t_748|t_777|ref=Orat. 9_12
+2	δὲ	δέ	d	d--------	_	30	AuxY	_	t_749|t_777|ref=Orat. 9_12
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_750|t_751|ref=Orat. 9_12
+4	πατέρα	πατήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_751|t_748|ref=Orat. 9_12
+5	θανάτῳ	θάνατος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_752|t_754|ref=Orat. 9_12
+6	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_753|t_752|ref=Orat. 9_12
+7	κείμενον	κεῖμαι	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	8	ATR	_	t_754|t_755|ref=Orat. 9_12
+8	αὑτόν	ἑαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	14	SBJ	_	t_755|t_761|ref=Orat. 9_12
+9	τε	τε	d	d--------	_	12	AuxY	_	t_756|t_759|ref=Orat. 9_12
+10	ἐσθίοντα	εἰσθέω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_757|t_759|ref=Orat. 9_12
+11	τροφήν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_758|t_760|ref=Orat. 9_12
+12	τε	τε	c	c--------	_	14	COORD	_	t_759|t_761|ref=Orat. 9_12
+13	δυσχεραίνοντα	δυσχεραίνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_760|t_759|ref=Orat. 9_12
+14	διαλλαγῆναί	διαλλάσσω	v	v--anp---	Mood=n|Tense=a|Voice=p	25	OBJ	_	t_761|t_772|ref=Orat. 9_12
+15	τε	τε	d	d--------	_	25	AuxY	_	t_762|t_772|ref=Orat. 9_12
+16	πρὸς	πρός	r	r--------	_	14	AuxP	_	t_763|t_761|ref=Orat. 9_12
+17	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_764|t_763|ref=Orat. 9_12
+18	ἀποθέσθαι	ἀποτίθημι	v	v--ane---	Mood=n|Tense=a|Voice=e	25	OBJ	_	t_765|t_772|ref=Orat. 9_12
+19	τε	τε	d	d--------	_	25	AuxY	_	t_766|t_772|ref=Orat. 9_12
+20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_767|t_768|ref=Orat. 9_12
+21	ἀχλὺν	ἀχλύς	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_768|t_765|ref=Orat. 9_12
+22	λῆξαί	λήγω	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_769|t_772|ref=Orat. 9_12
+23	τε	τε	d	d--------	_	25	AuxY	_	t_770|t_772|ref=Orat. 9_12
+24	αὐχμῶντα	αὐχμάω	v	v-sppama-	Case=a|Gender=m|Number=s	22	ADV	_	t_771|t_769|ref=Orat. 9_12
+25	καὶ	καί	c	c--------	_	1	COORD	_	t_772|t_748|ref=Orat. 9_12
+26	ἐλθεῖν	ἔρχομαι	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_773|t_772|ref=Orat. 9_12
+27	ἐπὶ	ἐπί	r	r--------	_	26	AuxP	_	t_774|t_773|ref=Orat. 9_12
+28	λουτρά	λουτρόν	n	n-p---na-	Case=a|Gender=n|Number=p	27	OBJ	_	t_775|t_774|ref=Orat. 9_12
+29	,	,	u	u--------	_	0	AuxX	_	t_776|0|ref=Orat. 9_12
+30	καὶ	καί	c	c--------	_	29	COORD	_	t_777|t_776|ref=Orat. 9_13
+31	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	37	OBJ	_	t_778|t_784|ref=Orat. 9_13
+32	μη	μη	d	d--------	_	38	AuxZ	_	t_779|t_785|ref=Orat. 9_13
+33	-	-	u	u--------	_	38	AuxG	_	t_780|t_785|ref=Orat. 9_13
+34	δεὶς	δίδωμι	p	p-s---mn-	Case=n|Gender=m|Number=s	38	SBJ	_	t_781|t_785|ref=Orat. 9_13
+35	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	36	ATR	_	t_782|t_783|ref=Orat. 9_13
+36	δεινοτάτων	δεινός	a	a-p---ngs	Case=g|Degree=s|Gender=n|Number=p	34	ATR	_	t_783|t_781|ref=Orat. 9_13
+37	πείθειν	πείθω	v	v--pna---	Mood=n|Tense=p|Voice=a	38	OBJ	_	t_784|t_785|ref=Orat. 9_13
+38	ἐδυνήθη	δύναμαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	41	ATR	_	t_785|t_788|ref=Orat. 9_13
+39	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	38	ADV	_	t_786|t_785|ref=Orat. 9_13
+40	,	,	u	u--------	_	29	AuxX	_	t_787|t_776|ref=Orat. 9_13
+41	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	42	OBJ	_	t_788|t_789|ref=Orat. 9_13
+42	ἐδυνήθη	δύναμαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	30	PRED	_	t_789|t_777|ref=Orat. 9_13
+43	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_790|t_791|ref=Orat. 9_13
+44	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	42	OBJ	_	t_791|t_789|ref=Orat. 9_13
+45	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	46	ATR	_	t_792|t_793|ref=Orat. 9_13
+46	ῥώμη	ῥώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	42	SBJ	_	t_793|t_789|ref=Orat. 9_13
+47	.	.	u	u--------	_	29	AuxK	_	t_794|t_776|ref=Orat. 9_13
 
-# source = Libanius, Oratio 9 13-14
+# source = Libanius, Orat. 9 13-14
 # text = διήλλαξε δὲ καὶ πολίτη πολίτην καὶ ξένῳ ξένον καὶ παῖδα παιδὶ καὶ γυναῖκα γυναικὶ τά τε ἐν ταῖς συγγενείαις διεστηκότα συνέστησε τῶν εἰς διαλλαγὰς ἀγόντων τοῦτο μόνον λεγόντων , τὴν ἑορτήν , τῶν ἄλλων σφίσι τῶν πρότερον καταπεφρονημένων .
 # sent_id = 35
-1	διήλλαξε	διαλλάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_795|ref=Oratio 9_13
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_796|ref=Oratio 9_13
-3	καὶ	καί	d	d--------	_	16	AuxY	_	t_797|ref=Oratio 9_13
-4	πολίτη	πολίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_798|ref=Oratio 9_13
-5	πολίτην	πολίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_799|ref=Oratio 9_13
-6	καὶ	καί	d	d--------	_	12	AuxY	_	t_800|ref=Oratio 9_13
-7	ξένῳ	ξένος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_801|ref=Oratio 9_13
-8	ξένον	ξένος1	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_802|ref=Oratio 9_13
-9	καὶ	καί	d	d--------	_	12	AuxY	_	t_803|ref=Oratio 9_13
-10	παῖδα	παῖς	n	n-s----a-	Case=a|Number=s	12	OBJ	_	t_804|ref=Oratio 9_13
-11	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_805|ref=Oratio 9_13
-12	καὶ	καί	c	c--------	_	1	COORD	_	t_806|ref=Oratio 9_13
-13	γυναῖκα	γυνή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_807|ref=Oratio 9_13
-14	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_808|ref=Oratio 9_13
-15	τά	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_809|ref=Oratio 9_13
-16	τε	τε	c	c--------	_	0	COORD	_	t_810|ref=Oratio 9_13
-17	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_811|ref=Oratio 9_13
-18	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	19	ATR	_	t_812|ref=Oratio 9_13
-19	συγγενείαις	συγγένεια	n	n-p---fd-	Case=d|Gender=f|Number=p	17	ADV	_	t_813|ref=Oratio 9_13
-20	διεστηκότα	διίστημι	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	21	OBJ	_	t_814|ref=Oratio 9_13
-21	συνέστησε	συνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_815|ref=Oratio 9_13
-22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_816|ref=Oratio 9_13
-23	εἰς	εἰς	r	r--------	_	25	AuxP	_	t_817|ref=Oratio 9_13
-24	διαλλαγὰς	διαλλαγή	n	n-p---fa-	Case=a|Gender=f|Number=p	23	ADV	_	t_818|ref=Oratio 9_13
-25	ἀγόντων	ἄγω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	28	OBJ	_	t_819|ref=Oratio 9_13
-26	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_820|ref=Oratio 9_13
-27	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	25	AuxZ	_	t_821|ref=Oratio 9_13
-28	λεγόντων	λέγω3	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	21	OBJ	_	t_822|ref=Oratio 9_13
-29	,	,	u	u--------	_	16	AuxX	_	t_823|ref=Oratio 9_13
-30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_824|ref=Oratio 9_14
-31	ἑορτήν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	29	OBJ	_	t_825|ref=Oratio 9_14
-32	,	,	u	u--------	_	16	AuxX	_	t_826|ref=Oratio 9_14
-33	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	34	ATR	_	t_827|ref=Oratio 9_14
-34	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_828|ref=Oratio 9_14
-35	σφίσι	σφεῖς	p	p-p---md-	Case=d|Gender=m|Number=p	38	OBJ	_	t_829|ref=Oratio 9_14
-36	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	34	ATR	_	t_830|ref=Oratio 9_14
-37	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	38	ADV	_	t_831|ref=Oratio 9_14
-38	καταπεφρονημένων	καταφρονέω	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	34	ATR	_	t_832|ref=Oratio 9_14
-39	.	.	u	u--------	_	16	AuxK	_	t_833|ref=Oratio 9_14
+1	διήλλαξε	διαλλάσσω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_795|t_810|ref=Orat. 9_13
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_796|t_810|ref=Orat. 9_13
+3	καὶ	καί	d	d--------	_	16	AuxY	_	t_797|t_810|ref=Orat. 9_13
+4	πολίτη	πολίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_798|t_806|ref=Orat. 9_13
+5	πολίτην	πολίτης	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_799|t_798|ref=Orat. 9_13
+6	καὶ	καί	d	d--------	_	12	AuxY	_	t_800|t_806|ref=Orat. 9_13
+7	ξένῳ	ξένος	n	n-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_801|t_802|ref=Orat. 9_13
+8	ξένον	ξένος1	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_802|t_798|ref=Orat. 9_13
+9	καὶ	καί	d	d--------	_	12	AuxY	_	t_803|t_806|ref=Orat. 9_13
+10	παῖδα	παῖς	n	n-s----a-	Case=a|Number=s	12	OBJ	_	t_804|t_806|ref=Orat. 9_13
+11	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_805|t_795|ref=Orat. 9_13
+12	καὶ	καί	c	c--------	_	1	COORD	_	t_806|t_795|ref=Orat. 9_13
+13	γυναῖκα	γυνή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_807|t_806|ref=Orat. 9_13
+14	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_808|t_807|ref=Orat. 9_13
+15	τά	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_809|t_814|ref=Orat. 9_13
+16	τε	τε	c	c--------	_	0	COORD	_	t_810|0|ref=Orat. 9_13
+17	ἐν	ἐν	r	r--------	_	20	AuxP	_	t_811|t_814|ref=Orat. 9_13
+18	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	19	ATR	_	t_812|t_813|ref=Orat. 9_13
+19	συγγενείαις	συγγένεια	n	n-p---fd-	Case=d|Gender=f|Number=p	17	ADV	_	t_813|t_811|ref=Orat. 9_13
+20	διεστηκότα	διίστημι	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	21	OBJ	_	t_814|t_815|ref=Orat. 9_13
+21	συνέστησε	συνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	PRED	_	t_815|t_810|ref=Orat. 9_13
+22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_816|t_819|ref=Orat. 9_13
+23	εἰς	εἰς	r	r--------	_	25	AuxP	_	t_817|t_819|ref=Orat. 9_13
+24	διαλλαγὰς	διαλλαγή	n	n-p---fa-	Case=a|Gender=f|Number=p	23	ADV	_	t_818|t_817|ref=Orat. 9_13
+25	ἀγόντων	ἄγω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	28	OBJ	_	t_819|t_822|ref=Orat. 9_13
+26	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	28	OBJ	_	t_820|t_822|ref=Orat. 9_13
+27	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	25	AuxZ	_	t_821|t_819|ref=Orat. 9_13
+28	λεγόντων	λέγω3	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	21	OBJ	_	t_822|t_815|ref=Orat. 9_13
+29	,	,	u	u--------	_	16	AuxX	_	t_823|t_810|ref=Orat. 9_13
+30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_824|t_825|ref=Orat. 9_14
+31	ἑορτήν	ἑορτή	n	n-s---fa-	Case=a|Gender=f|Number=s	29	OBJ	_	t_825|t_823|ref=Orat. 9_14
+32	,	,	u	u--------	_	16	AuxX	_	t_826|t_810|ref=Orat. 9_14
+33	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	34	ATR	_	t_827|t_828|ref=Orat. 9_14
+34	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	31	ATR	_	t_828|t_825|ref=Orat. 9_14
+35	σφίσι	σφεῖς	p	p-p---md-	Case=d|Gender=m|Number=p	38	OBJ	_	t_829|t_832|ref=Orat. 9_14
+36	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	34	ATR	_	t_830|t_828|ref=Orat. 9_14
+37	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	38	ADV	_	t_831|t_832|ref=Orat. 9_14
+38	καταπεφρονημένων	καταφρονέω	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	34	ATR	_	t_832|t_828|ref=Orat. 9_14
+39	.	.	u	u--------	_	16	AuxK	_	t_833|t_810|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = 15 .
 # sent_id = 36
-1	15	15	u	u--------	_	0	AuxG	_	t_834|ref=Oratio 9_14
-2	.	.	u	u--------	_	1	AuxK	_	t_835|ref=Oratio 9_14
+1	15	15	u	u--------	_	0	AuxG	_	t_834|0|ref=Orat. 9_14
+2	.	.	u	u--------	_	1	AuxK	_	t_835|t_834|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = Μέγα δὲ αὐτῆς καὶ τόδε [0] ·
 # sent_id = 37
-1	Μέγα	μέγας	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_836|ref=Oratio 9_14
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_837|ref=Oratio 9_14
-3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_838|ref=Oratio 9_14
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_839|ref=Oratio 9_14
-5	τόδε	ὅδε	p	p-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_840|ref=Oratio 9_14
-6	[0]	[0]	-	---------	_	0	PRED	_	e_30|ref=Oratio 9_1
-7	·	·	u	u--------	_	6	AuxK	_	t_841|ref=Oratio 9_14
+1	Μέγα	μέγας	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_836|e_30|ref=Orat. 9_14
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_837|e_30|ref=Orat. 9_14
+3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_838|t_836|ref=Orat. 9_14
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_839|t_840|ref=Orat. 9_14
+5	τόδε	ὅδε	p	p-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_840|e_30|ref=Orat. 9_14
+6	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Orat. 9_1
+7	·	·	u	u--------	_	6	AuxK	_	t_841|e_30|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = διδάσκαλος ἀνθρώ - ποις γίνεται τοῦ μὴ σφόδρα ἔχεσθαι χρυσίου , προΐεσθαι δὲ καὶ εἰς ἄλλων ἐντιθέναι δεξιάς .
 # sent_id = 38
-1	διδάσκαλος	διδάσκαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_842|ref=Oratio 9_14
-2	ἀνθρώ	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_843|ref=Oratio 9_14
-3	-	-	n	n-s----n-	Case=n|Number=s	2	ATR	_	t_844|ref=Oratio 9_14
-4	ποις	ποι	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_845|ref=Oratio 9_14
-5	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_846|ref=Oratio 9_14
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_847|ref=Oratio 9_14
-7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_848|ref=Oratio 9_14
-8	σφόδρα	σφόδρα	d	d--------	_	9	ADV	_	t_849|ref=Oratio 9_14
-9	ἔχεσθαι	ἔχω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	ATR	_	t_850|ref=Oratio 9_14
-10	χρυσίου	χρυσίον	n	n-s---ng-	Case=g|Gender=n|Number=s	9	OBJ	_	t_851|ref=Oratio 9_14
-11	,	,	u	u--------	_	5	AuxX	_	t_852|ref=Oratio 9_14
-12	προΐεσθαι	προίημι	v	v--pne---	Mood=n|Tense=p|Voice=e	14	ADV	_	t_853|ref=Oratio 9_14
-13	δὲ	δέ	c	c--------	_	4	COORD	_	t_854|ref=Oratio 9_14
-14	καὶ	καί	c	c--------	_	13	COORD	_	t_855|ref=Oratio 9_14
-15	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_856|ref=Oratio 9_14
-16	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	15	OBJ	_	t_857|ref=Oratio 9_14
-17	ἐντιθέναι	ἐντίθημι	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_858|ref=Oratio 9_14
-18	δεξιάς	δεξιά	n	n-p---fa-	Case=a|Gender=f|Number=p	17	OBJ	_	t_859|ref=Oratio 9_14
-19	.	.	u	u--------	_	5	AuxK	_	t_860|ref=Oratio 9_14
+1	διδάσκαλος	διδάσκαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_842|t_846|ref=Orat. 9_14
+2	ἀνθρώ	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_843|t_845|ref=Orat. 9_14
+3	-	-	n	n-s----n-	Case=n|Number=s	2	ATR	_	t_844|t_843|ref=Orat. 9_14
+4	ποις	ποι	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_845|t_846|ref=Orat. 9_14
+5	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_846|0|ref=Orat. 9_14
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_847|t_850|ref=Orat. 9_14
+7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_848|t_849|ref=Orat. 9_14
+8	σφόδρα	σφόδρα	d	d--------	_	9	ADV	_	t_849|t_850|ref=Orat. 9_14
+9	ἔχεσθαι	ἔχω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	ATR	_	t_850|t_854|ref=Orat. 9_14
+10	χρυσίου	χρυσίον	n	n-s---ng-	Case=g|Gender=n|Number=s	9	OBJ	_	t_851|t_850|ref=Orat. 9_14
+11	,	,	u	u--------	_	5	AuxX	_	t_852|t_846|ref=Orat. 9_14
+12	προΐεσθαι	προίημι	v	v--pne---	Mood=n|Tense=p|Voice=e	14	ADV	_	t_853|t_855|ref=Orat. 9_14
+13	δὲ	δέ	c	c--------	_	4	COORD	_	t_854|t_845|ref=Orat. 9_14
+14	καὶ	καί	c	c--------	_	13	COORD	_	t_855|t_854|ref=Orat. 9_14
+15	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_856|t_858|ref=Orat. 9_14
+16	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	15	OBJ	_	t_857|t_856|ref=Orat. 9_14
+17	ἐντιθέναι	ἐντίθημι	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_858|t_855|ref=Orat. 9_14
+18	δεξιάς	δεξιά	n	n-p---fa-	Case=a|Gender=f|Number=p	17	OBJ	_	t_859|t_858|ref=Orat. 9_14
+19	.	.	u	u--------	_	5	AuxK	_	t_860|t_846|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = παιδεύεται δὲ ταύ - την τὴν παιδείαν ὑπʼ αὐτῆς καὶ βασιλεὺς ὑπακούων μὲν τῆς νυκτὸς ἀλεκτρυόσιν ἐγείρουσι , τοὺς θησαυροὺς δὲ αὑτῷ ποιῶν ἐλάττους ταῖς δόσεσι , τῇ χειρὶ κοσμῶν τὸ διδόμενον , αὐτουργῶν , ἀλλʼ οὐ κελεύων .
 # sent_id = 39
-1	παιδεύεται	παιδεύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_861|ref=Oratio 9_14
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_862|ref=Oratio 9_14
-3	ταύ	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_863|ref=Oratio 9_14
-4	-	-	u	u--------	_	10	AuxX	_	t_864|ref=Oratio 9_14
-5	την	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_865|ref=Oratio 9_14
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_866|ref=Oratio 9_14
-7	παιδείαν	παιδεία	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_867|ref=Oratio 9_14
-8	ὑπʼ	ὑπό	r	r--------	_	1	AuxP	_	t_868|ref=Oratio 9_14
-9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	OBJ	_	t_869|ref=Oratio 9_14
-10	καὶ	καί	c	c--------	_	0	COORD	_	t_870|ref=Oratio 9_14
-11	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_871|ref=Oratio 9_14
-12	ὑπακούων	ὑπακούω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_872|ref=Oratio 9_14
-13	μὲν	μέν	d	d--------	_	21	AuxY	_	t_873|ref=Oratio 9_14
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_874|ref=Oratio 9_14
-15	νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_875|ref=Oratio 9_14
-16	ἀλεκτρυόσιν	ἀλεκτρυών	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	17	OBJ	_	t_876|ref=Oratio 9_14
-17	ἐγείρουσι	ἐγείρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_877|ref=Oratio 9_14
-18	,	,	u	u--------	_	10	AuxX	_	t_878|ref=Oratio 9_14
-19	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	20	ATR	_	t_879|ref=Oratio 9_14
-20	θησαυροὺς	θησαυρός	n	n-p---ma-	Case=a|Gender=m|Number=p	23	OBJ	_	t_880|ref=Oratio 9_14
-21	δὲ	δέ	c	c--------	_	17	COORD	_	t_881|ref=Oratio 9_14
-22	αὑτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	20	ATR	_	t_882|ref=Oratio 9_14
-23	ποιῶν	ποιέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_883|ref=Oratio 9_14
-24	ἐλάττους	ἐλάσσων	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	23	OCOMP	_	t_884|ref=Oratio 9_14
-25	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	26	ATR	_	t_885|ref=Oratio 9_14
-26	δόσεσι	δόσις	n	n-p---fd-	Case=d|Gender=f|Number=p	24	ADV	_	t_886|ref=Oratio 9_14
-27	,	,	u	u--------	_	10	AuxX	_	t_887|ref=Oratio 9_14
-28	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_888|ref=Oratio 9_14
-29	χειρὶ	χείρ	n	n-s---fd-	Case=d|Gender=f|Number=s	30	ADV	_	t_889|ref=Oratio 9_14
-30	κοσμῶν	κοσμέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	36	ADV	_	t_890|ref=Oratio 9_14
-31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_891|ref=Oratio 9_14
-32	διδόμενον	δίδωμι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	30	OBJ	_	t_892|ref=Oratio 9_14
-33	,	,	u	u--------	_	10	AuxX	_	t_893|ref=Oratio 9_14
-34	αὐτουργῶν	αὐτουργός	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	36	ADV	_	t_894|ref=Oratio 9_14
-35	,	,	u	u--------	_	10	AuxX	_	t_895|ref=Oratio 9_14
-36	ἀλλʼ	ἀλλά	c	c--------	_	21	COORD	_	t_896|ref=Oratio 9_14
-37	οὐ	οὐ	d	d--------	_	38	AuxZ	_	t_897|ref=Oratio 9_14
-38	κελεύων	κελεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	36	ADV	_	t_898|ref=Oratio 9_14
-39	.	.	u	u--------	_	10	AuxK	_	t_899|ref=Oratio 9_14
+1	παιδεύεται	παιδεύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_861|t_870|ref=Orat. 9_14
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_862|t_870|ref=Orat. 9_14
+3	ταύ	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_863|t_861|ref=Orat. 9_14
+4	-	-	u	u--------	_	10	AuxX	_	t_864|t_870|ref=Orat. 9_14
+5	την	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_865|t_867|ref=Orat. 9_14
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_866|t_867|ref=Orat. 9_14
+7	παιδείαν	παιδεία	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_867|t_861|ref=Orat. 9_14
+8	ὑπʼ	ὑπό	r	r--------	_	1	AuxP	_	t_868|t_861|ref=Orat. 9_14
+9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	OBJ	_	t_869|t_868|ref=Orat. 9_14
+10	καὶ	καί	c	c--------	_	0	COORD	_	t_870|0|ref=Orat. 9_14
+11	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_871|t_877|ref=Orat. 9_14
+12	ὑπακούων	ὑπακούω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_872|t_877|ref=Orat. 9_14
+13	μὲν	μέν	d	d--------	_	21	AuxY	_	t_873|t_881|ref=Orat. 9_14
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_874|t_875|ref=Orat. 9_14
+15	νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_875|t_877|ref=Orat. 9_14
+16	ἀλεκτρυόσιν	ἀλεκτρυών	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	17	OBJ	_	t_876|t_877|ref=Orat. 9_14
+17	ἐγείρουσι	ἐγείρω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_877|t_870|ref=Orat. 9_14
+18	,	,	u	u--------	_	10	AuxX	_	t_878|t_870|ref=Orat. 9_14
+19	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	20	ATR	_	t_879|t_880|ref=Orat. 9_14
+20	θησαυροὺς	θησαυρός	n	n-p---ma-	Case=a|Gender=m|Number=p	23	OBJ	_	t_880|t_883|ref=Orat. 9_14
+21	δὲ	δέ	c	c--------	_	17	COORD	_	t_881|t_877|ref=Orat. 9_14
+22	αὑτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	20	ATR	_	t_882|t_880|ref=Orat. 9_14
+23	ποιῶν	ποιέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_883|t_881|ref=Orat. 9_14
+24	ἐλάττους	ἐλάσσων	a	a-p---mac	Case=a|Degree=c|Gender=m|Number=p	23	OCOMP	_	t_884|t_883|ref=Orat. 9_14
+25	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	26	ATR	_	t_885|t_886|ref=Orat. 9_14
+26	δόσεσι	δόσις	n	n-p---fd-	Case=d|Gender=f|Number=p	24	ADV	_	t_886|t_884|ref=Orat. 9_14
+27	,	,	u	u--------	_	10	AuxX	_	t_887|t_870|ref=Orat. 9_14
+28	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_888|t_889|ref=Orat. 9_14
+29	χειρὶ	χείρ	n	n-s---fd-	Case=d|Gender=f|Number=s	30	ADV	_	t_889|t_890|ref=Orat. 9_14
+30	κοσμῶν	κοσμέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	36	ADV	_	t_890|t_896|ref=Orat. 9_14
+31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_891|t_892|ref=Orat. 9_14
+32	διδόμενον	δίδωμι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	30	OBJ	_	t_892|t_890|ref=Orat. 9_14
+33	,	,	u	u--------	_	10	AuxX	_	t_893|t_870|ref=Orat. 9_14
+34	αὐτουργῶν	αὐτουργός	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	36	ADV	_	t_894|t_896|ref=Orat. 9_14
+35	,	,	u	u--------	_	10	AuxX	_	t_895|t_870|ref=Orat. 9_14
+36	ἀλλʼ	ἀλλά	c	c--------	_	21	COORD	_	t_896|t_881|ref=Orat. 9_14
+37	οὐ	οὐ	d	d--------	_	38	AuxZ	_	t_897|t_898|ref=Orat. 9_14
+38	κελεύων	κελεύω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	36	ADV	_	t_898|t_896|ref=Orat. 9_14
+39	.	.	u	u--------	_	10	AuxK	_	t_899|t_870|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = 16 .
 # sent_id = 40
-1	16	16	x	x--------	_	0	AuxG	_	t_900|ref=Oratio 9_14
-2	.	.	u	u--------	_	1	AuxK	_	t_901|ref=Oratio 9_14
+1	16	16	x	x--------	_	0	AuxG	_	t_900|0|ref=Orat. 9_14
+2	.	.	u	u--------	_	1	AuxK	_	t_901|t_900|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = Τί δέ [0] ;
 # sent_id = 41
-1	Τί	τίς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_902|ref=Oratio 9_14
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_903|ref=Oratio 9_14
-3	[0]	[0]	-	---------	_	0	PRED	_	e_31|ref=Oratio 9_1
-4	;	;	u	u--------	_	3	AuxK	_	t_904|ref=Oratio 9_14
+1	Τί	τίς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_902|e_31|ref=Orat. 9_14
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_903|e_31|ref=Orat. 9_14
+3	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=Orat. 9_1
+4	;	;	u	u--------	_	3	AuxK	_	t_904|e_31|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = τοῖς διδασκάλοις οὐ φίλη [0] ;
 # sent_id = 42
-1	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_905|ref=Oratio 9_14
-2	διδασκάλοις	διδάσκαλος	n	n-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_906|ref=Oratio 9_14
-3	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_907|ref=Oratio 9_14
-4	φίλη	φίλος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_908|ref=Oratio 9_14
-5	[0]	[0]	-	---------	_	0	PRED	_	e_32|ref=Oratio 9_1
-6	;	;	u	u--------	_	5	AuxK	_	t_909|ref=Oratio 9_14
+1	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_905|t_906|ref=Orat. 9_14
+2	διδασκάλοις	διδάσκαλος	n	n-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_906|t_908|ref=Orat. 9_14
+3	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_907|t_908|ref=Orat. 9_14
+4	φίλη	φίλος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_908|e_32|ref=Orat. 9_14
+5	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=Orat. 9_1
+6	;	;	u	u--------	_	5	AuxK	_	t_909|e_32|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = φιλτάτη μὲν οὖν καὶ οὐχ ἦττόν γε ἢ τὸ θέρος τοῖς σπείρασι [0] [1] .
 # sent_id = 43
-1	φιλτάτη	φίλος	a	a-s---fns	Case=n|Degree=s|Gender=f|Number=s	4	PNOM	_	t_910|ref=Oratio 9_14
-2	μὲν	μέν	d	d--------	_	13	AuxY	_	t_911|ref=Oratio 9_14
-3	οὖν	οὖν	d	d--------	_	13	AuxY	_	t_912|ref=Oratio 9_14
-4	καὶ	καί	c	c--------	_	13	COORD	_	t_913|ref=Oratio 9_14
-5	οὐχ	οὐ	d	d--------	_	6	AuxZ	_	t_914|ref=Oratio 9_14
-6	ἦττόν	ἦττον	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	4	PNOM	_	t_915|ref=Oratio 9_14
-7	γε	γε	d	d--------	_	6	AuxZ	_	t_916|ref=Oratio 9_14
-8	ἢ	ἤ1	c	c--------	_	6	AuxC	_	t_917|ref=Oratio 9_14
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_918|ref=Oratio 9_14
-10	θέρος	θέρος	n	n-s---na-	Case=a|Gender=n|Number=s	14	SBJ	_	t_919|ref=Oratio 9_14
-11	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	12	ATR	_	t_920|ref=Oratio 9_14
-12	σπείρασι	σπεῖρα	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_921|ref=Oratio 9_14
-13	[0]	[0]	-	---------	_	0	PRED	_	e_33|ref=Oratio 9_1
-14	[1]	[1]	-	---------	_	8	ADV	_	e_34|ref=Oratio 9_1
-15	.	.	u	u--------	_	13	AuxK	_	t_922|ref=Oratio 9_14
+1	φιλτάτη	φίλος	a	a-s---fns	Case=n|Degree=s|Gender=f|Number=s	4	PNOM	_	t_910|t_913|ref=Orat. 9_14
+2	μὲν	μέν	d	d--------	_	13	AuxY	_	t_911|e_33|ref=Orat. 9_14
+3	οὖν	οὖν	d	d--------	_	13	AuxY	_	t_912|e_33|ref=Orat. 9_14
+4	καὶ	καί	c	c--------	_	13	COORD	_	t_913|e_33|ref=Orat. 9_14
+5	οὐχ	οὐ	d	d--------	_	6	AuxZ	_	t_914|t_915|ref=Orat. 9_14
+6	ἦττόν	ἦττον	a	a-s---nnc	Case=n|Degree=c|Gender=n|Number=s	4	PNOM	_	t_915|t_913|ref=Orat. 9_14
+7	γε	γε	d	d--------	_	6	AuxZ	_	t_916|t_915|ref=Orat. 9_14
+8	ἢ	ἤ1	c	c--------	_	6	AuxC	_	t_917|t_915|ref=Orat. 9_14
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_918|t_919|ref=Orat. 9_14
+10	θέρος	θέρος	n	n-s---na-	Case=a|Gender=n|Number=s	14	SBJ	_	t_919|e_34|ref=Orat. 9_14
+11	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	12	ATR	_	t_920|t_921|ref=Orat. 9_14
+12	σπείρασι	σπεῖρα	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_921|e_34|ref=Orat. 9_14
+13	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Orat. 9_1
+14	[1]	[1]	-	---------	_	8	ADV	_	e_34|t_917|ref=Orat. 9_1
+15	.	.	u	u--------	_	13	AuxK	_	t_922|e_33|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = χρυσᾶ γέ τοι μῆλα παρέχει τρυγᾶν ἐπαινεῖν τε σφῶν αὐτῶν τοὺς περιττοὺς πόνους , ὡς οὐ τηνάλλως ἀνηλωμένους , ὅταν ἐφʼ ὅτῳ ἐγίγνοντο , ἤδη παρῇ καὶ βάθρον δέχηται τὸν καρπόν .
 # sent_id = 44
-1	χρυσᾶ	χρύσεος	a	a-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_923|ref=Oratio 9_14
-2	γέ	γε	d	d--------	_	1	AuxZ	_	t_924|ref=Oratio 9_14
-3	τοι	σύ	d	d--------	_	5	AuxY	_	t_925|ref=Oratio 9_14
-4	μῆλα	μῆλον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_926|ref=Oratio 9_14
-5	παρέχει	παρέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_927|ref=Oratio 9_14
-6	τρυγᾶν	τρυγάω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_928|ref=Oratio 9_14
-7	ἐπαινεῖν	ἐπαινέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_929|ref=Oratio 9_14
-8	τε	τε	d	d--------	_	5	COORD	_	t_930|ref=Oratio 9_14
-9	σφῶν	σφεῖς	p	p-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_931|ref=Oratio 9_14
-10	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_932|ref=Oratio 9_14
-11	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_933|ref=Oratio 9_14
-12	περιττοὺς	περισσός	a	a-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_934|ref=Oratio 9_14
-13	πόνους	πόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_935|ref=Oratio 9_14
-14	,	,	u	u--------	_	5	AuxX	_	t_936|ref=Oratio 9_14
-15	ὡς	ὡς	c	c--------	_	5	AuxC	_	t_937|ref=Oratio 9_14
-16	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_938|ref=Oratio 9_14
-17	τηνάλλως	τηνάλλως	d	d--------	_	18	ADV	_	t_939|ref=Oratio 9_14
-18	ἀνηλωμένους	ἀναλίσκω	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	27	ADV	_	t_940|ref=Oratio 9_14
-19	,	,	u	u--------	_	5	AuxX	_	t_941|ref=Oratio 9_14
-20	ὅταν	ὅταν	c	c--------	_	18	AuxC	_	t_942|ref=Oratio 9_14
-21	ἐφʼ	ἐπί	r	r--------	_	23	AuxP	_	t_943|ref=Oratio 9_14
-22	ὅτῳ	ὅστις	p	p-s---nd-	Case=d|Gender=n|Number=s	21	PNOM	_	t_944|ref=Oratio 9_14
-23	ἐγίγνοντο	γίγνομαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	27	ADV	_	t_945|ref=Oratio 9_14
-24	,	,	u	u--------	_	5	AuxX	_	t_946|ref=Oratio 9_14
-25	ἤδη	ἤδη	d	d--------	_	26	ADV	_	t_947|ref=Oratio 9_14
-26	παρῇ	πάρειμι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	27	ADV	_	t_948|ref=Oratio 9_14
-27	καὶ	καί	c	c--------	_	15	COORD	_	t_949|ref=Oratio 9_14
-28	βάθρον	βάθρον	n	n-s---nn-	Case=n|Gender=n|Number=s	29	SBJ	_	t_950|ref=Oratio 9_14
-29	δέχηται	δέχομαι	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	27	ADV	_	t_951|ref=Oratio 9_14
-30	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_952|ref=Oratio 9_14
-31	καρπόν	καρπός	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_953|ref=Oratio 9_14
-32	.	.	u	u--------	_	5	AuxK	_	t_954|ref=Oratio 9_14
+1	χρυσᾶ	χρύσεος	a	a-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_923|t_926|ref=Orat. 9_14
+2	γέ	γε	d	d--------	_	1	AuxZ	_	t_924|t_923|ref=Orat. 9_14
+3	τοι	σύ	d	d--------	_	5	AuxY	_	t_925|t_927|ref=Orat. 9_14
+4	μῆλα	μῆλον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_926|t_927|ref=Orat. 9_14
+5	παρέχει	παρέχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_927|0|ref=Orat. 9_14
+6	τρυγᾶν	τρυγάω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_928|t_930|ref=Orat. 9_14
+7	ἐπαινεῖν	ἐπαινέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	SBJ	_	t_929|t_930|ref=Orat. 9_14
+8	τε	τε	d	d--------	_	5	COORD	_	t_930|t_927|ref=Orat. 9_14
+9	σφῶν	σφεῖς	p	p-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_931|t_935|ref=Orat. 9_14
+10	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_932|t_931|ref=Orat. 9_14
+11	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_933|t_935|ref=Orat. 9_14
+12	περιττοὺς	περισσός	a	a-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_934|t_935|ref=Orat. 9_14
+13	πόνους	πόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_935|t_929|ref=Orat. 9_14
+14	,	,	u	u--------	_	5	AuxX	_	t_936|t_927|ref=Orat. 9_14
+15	ὡς	ὡς	c	c--------	_	5	AuxC	_	t_937|t_927|ref=Orat. 9_14
+16	οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_938|t_939|ref=Orat. 9_14
+17	τηνάλλως	τηνάλλως	d	d--------	_	18	ADV	_	t_939|t_940|ref=Orat. 9_14
+18	ἀνηλωμένους	ἀναλίσκω	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	27	ADV	_	t_940|t_949|ref=Orat. 9_14
+19	,	,	u	u--------	_	5	AuxX	_	t_941|t_927|ref=Orat. 9_14
+20	ὅταν	ὅταν	c	c--------	_	18	AuxC	_	t_942|t_940|ref=Orat. 9_14
+21	ἐφʼ	ἐπί	r	r--------	_	23	AuxP	_	t_943|t_945|ref=Orat. 9_14
+22	ὅτῳ	ὅστις	p	p-s---nd-	Case=d|Gender=n|Number=s	21	PNOM	_	t_944|t_943|ref=Orat. 9_14
+23	ἐγίγνοντο	γίγνομαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	27	ADV	_	t_945|t_949|ref=Orat. 9_14
+24	,	,	u	u--------	_	5	AuxX	_	t_946|t_927|ref=Orat. 9_14
+25	ἤδη	ἤδη	d	d--------	_	26	ADV	_	t_947|t_948|ref=Orat. 9_14
+26	παρῇ	πάρειμι	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	27	ADV	_	t_948|t_949|ref=Orat. 9_14
+27	καὶ	καί	c	c--------	_	15	COORD	_	t_949|t_937|ref=Orat. 9_14
+28	βάθρον	βάθρον	n	n-s---nn-	Case=n|Gender=n|Number=s	29	SBJ	_	t_950|t_951|ref=Orat. 9_14
+29	δέχηται	δέχομαι	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	27	ADV	_	t_951|t_949|ref=Orat. 9_14
+30	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_952|t_953|ref=Orat. 9_14
+31	καρπόν	καρπός	n	n-s---ma-	Case=a|Gender=m|Number=s	29	OBJ	_	t_953|t_951|ref=Orat. 9_14
+32	.	.	u	u--------	_	5	AuxK	_	t_954|t_927|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = κοινὸν δὲ ἄρα τὸ τῆς ἐντεῦθεν σύνης | τῷ τε λαβόντι τῷ τε δόντι [0] .
 # sent_id = 45
-1	κοινὸν	κοινός	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_955|ref=Oratio 9_14
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_956|ref=Oratio 9_14
-3	ἄρα	ἄρα	d	d--------	_	15	AuxY	_	t_957|ref=Oratio 9_14
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_958|ref=Oratio 9_14
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_959|ref=Oratio 9_14
-6	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	7	ATR	_	t_960|ref=Oratio 9_14
-7	σύνης	δικαιοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_961|ref=Oratio 9_14
-8	|	|	u	u--------	_	15	AuxX	_	t_962|ref=Oratio 9_14
-9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	11	ATR	_	t_963|ref=Oratio 9_14
-10	τε	τε	g	g--------	_	13	AuxY	_	t_964|ref=Oratio 9_14
-11	λαβόντι	λαμβάνω	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	OBJ	_	t_965|ref=Oratio 9_14
-12	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_966|ref=Oratio 9_14
-13	τε	τε	g	g--------	_	15	COORD	_	t_967|ref=Oratio 9_14
-14	δόντι	δίδωμι	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	OBJ	_	t_968|ref=Oratio 9_14
-15	[0]	[0]	-	---------	_	0	PRED	_	e_35|ref=Oratio 9_1
-16	.	.	u	u--------	_	15	AuxK	_	t_969|ref=Oratio 9_14
+1	κοινὸν	κοινός	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_955|e_35|ref=Orat. 9_14
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_956|e_35|ref=Orat. 9_14
+3	ἄρα	ἄρα	d	d--------	_	15	AuxY	_	t_957|e_35|ref=Orat. 9_14
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_958|e_35|ref=Orat. 9_14
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_959|t_961|ref=Orat. 9_14
+6	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	7	ATR	_	t_960|t_961|ref=Orat. 9_14
+7	σύνης	δικαιοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_961|t_958|ref=Orat. 9_14
+8	|	|	u	u--------	_	15	AuxX	_	t_962|e_35|ref=Orat. 9_14
+9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	11	ATR	_	t_963|t_965|ref=Orat. 9_14
+10	τε	τε	g	g--------	_	13	AuxY	_	t_964|t_967|ref=Orat. 9_14
+11	λαβόντι	λαμβάνω	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	OBJ	_	t_965|t_967|ref=Orat. 9_14
+12	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_966|t_968|ref=Orat. 9_14
+13	τε	τε	g	g--------	_	15	COORD	_	t_967|e_35|ref=Orat. 9_14
+14	δόντι	δίδωμι	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	OBJ	_	t_968|t_967|ref=Orat. 9_14
+15	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Orat. 9_1
+16	.	.	u	u--------	_	15	AuxK	_	t_969|e_35|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14
+# source = Libanius, Orat. 9 14
 # text = ἔστι γὰρ δὴ καταθέντι τοὺς μισθοὺς δικαιοσύνης δόξα καὶ ἅμα παρακέκληκε τὸν εἰληφότα καὶ πεποίηκε βελτίονα .
 # sent_id = 46
-1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_970|ref=Oratio 9_14
-2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_971|ref=Oratio 9_14
-3	δὴ	δή	d	d--------	_	9	AuxY	_	t_972|ref=Oratio 9_14
-4	καταθέντι	κατατίθημι	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	PNOM	_	t_973|ref=Oratio 9_14
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_974|ref=Oratio 9_14
-6	μισθοὺς	μισθός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_975|ref=Oratio 9_14
-7	δικαιοσύνης	δικαιοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_976|ref=Oratio 9_14
-8	δόξα	δόξα	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_977|ref=Oratio 9_14
-9	καὶ	καί	c	c--------	_	0	COORD	_	t_978|ref=Oratio 9_14
-10	ἅμα	ἅμα	d	d--------	_	14	ADV	_	t_979|ref=Oratio 9_14
-11	παρακέκληκε	παρακαλέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	14	PRED	_	t_980|ref=Oratio 9_14
-12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_981|ref=Oratio 9_14
-13	εἰληφότα	λαμβάνω	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	11	OBJ	_	t_982|ref=Oratio 9_14
-14	καὶ	καί	c	c--------	_	9	COORD	_	t_983|ref=Oratio 9_14
-15	πεποίηκε	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	14	PRED	_	t_984|ref=Oratio 9_14
-16	βελτίονα	βελτίων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	15	OCOMP	_	t_985|ref=Oratio 9_14
-17	.	.	u	u--------	_	9	AuxK	_	t_986|ref=Oratio 9_14
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_970|t_978|ref=Orat. 9_14
+2	γὰρ	γάρ	d	d--------	_	9	AuxY	_	t_971|t_978|ref=Orat. 9_14
+3	δὴ	δή	d	d--------	_	9	AuxY	_	t_972|t_978|ref=Orat. 9_14
+4	καταθέντι	κατατίθημι	v	v-sapamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	PNOM	_	t_973|t_970|ref=Orat. 9_14
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_974|t_975|ref=Orat. 9_14
+6	μισθοὺς	μισθός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_975|t_973|ref=Orat. 9_14
+7	δικαιοσύνης	δικαιοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_976|t_977|ref=Orat. 9_14
+8	δόξα	δόξα	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_977|t_970|ref=Orat. 9_14
+9	καὶ	καί	c	c--------	_	0	COORD	_	t_978|0|ref=Orat. 9_14
+10	ἅμα	ἅμα	d	d--------	_	14	ADV	_	t_979|t_983|ref=Orat. 9_14
+11	παρακέκληκε	παρακαλέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	14	PRED	_	t_980|t_983|ref=Orat. 9_14
+12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_981|t_982|ref=Orat. 9_14
+13	εἰληφότα	λαμβάνω	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	11	OBJ	_	t_982|t_980|ref=Orat. 9_14
+14	καὶ	καί	c	c--------	_	9	COORD	_	t_983|t_978|ref=Orat. 9_14
+15	πεποίηκε	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	14	PRED	_	t_984|t_983|ref=Orat. 9_14
+16	βελτίονα	βελτίων	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	15	OCOMP	_	t_985|t_984|ref=Orat. 9_14
+17	.	.	u	u--------	_	9	AuxK	_	t_986|t_978|ref=Orat. 9_14
 
-# source = Libanius, Oratio 9 14-17
+# source = Libanius, Orat. 9 14-17
 # text = οὕτω καὶ περὶ κτῆσιν παιδείας ἥδε ἂν λυσιτελοίη .
 # sent_id = 47
-1	οὕτω	οὕτως	d	d--------	_	8	ADV	_	t_987|ref=Oratio 9_14
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_988|ref=Oratio 9_14
-3	περὶ	περί	r	r--------	_	8	AuxP	_	t_989|ref=Oratio 9_17
-4	κτῆσιν	κτῆσις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_990|ref=Oratio 9_17
-5	παιδείας	παιδεία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_991|ref=Oratio 9_17
-6	ἥδε	ὅδε	p	p-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_992|ref=Oratio 9_17
-7	ἂν	ἄν	d	d--------	_	8	AuxY	_	t_993|ref=Oratio 9_17
-8	λυσιτελοίη	λυσιτελέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_994|ref=Oratio 9_17
-9	.	.	u	u--------	_	8	AuxK	_	t_995|ref=Oratio 9_17
+1	οὕτω	οὕτως	d	d--------	_	8	ADV	_	t_987|t_994|ref=Orat. 9_14
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_988|t_990|ref=Orat. 9_14
+3	περὶ	περί	r	r--------	_	8	AuxP	_	t_989|t_994|ref=Orat. 9_17
+4	κτῆσιν	κτῆσις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_990|t_989|ref=Orat. 9_17
+5	παιδείας	παιδεία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_991|t_990|ref=Orat. 9_17
+6	ἥδε	ὅδε	p	p-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_992|t_994|ref=Orat. 9_17
+7	ἂν	ἄν	d	d--------	_	8	AuxY	_	t_993|t_994|ref=Orat. 9_17
+8	λυσιτελοίη	λυσιτελέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_994|0|ref=Orat. 9_17
+9	.	.	u	u--------	_	8	AuxK	_	t_995|t_994|ref=Orat. 9_17
 
-# source = Libanius, Oratio 9 17
+# source = Libanius, Orat. 9 17
 # text = 18 .
 # sent_id = 48
-1	18	18	x	x--------	_	0	AuxG	_	t_996|ref=Oratio 9_17
-2	.	.	u	u--------	_	1	AuxK	_	t_997|ref=Oratio 9_17
+1	18	18	x	x--------	_	0	AuxG	_	t_996|0|ref=Orat. 9_17
+2	.	.	u	u--------	_	1	AuxK	_	t_997|t_996|ref=Orat. 9_17
 
-# source = Libanius, Oratio 9 17
+# source = Libanius, Orat. 9 17
 # text = Κόσμος δὲ αὐτῇ καὶ τὸ τῶν ὑπάτων ὄνομά τε καὶ σχῆμα καὶ ἔργον [0] ·
 # sent_id = 49
-1	Κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_998|ref=Oratio 9_17
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_999|ref=Oratio 9_17
-3	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	1	ATR	_	t_1000|ref=Oratio 9_17
-4	καὶ	καί	c	c--------	_	14	COORD	_	t_1001|ref=Oratio 9_17
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_1002|ref=Oratio 9_17
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1003|ref=Oratio 9_14
-7	ὑπάτων	ὕπατος	a	a-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1004|ref=Oratio 9_17
-8	ὄνομά	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1005|ref=Oratio 9_17
-9	τε	τε	d	d--------	_	12	AuxY	_	t_1006|ref=Oratio 9_17
-10	καὶ	καί	d	d--------	_	12	AuxY	_	t_1007|ref=Oratio 9_17
-11	σχῆμα	σχῆμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1008|ref=Oratio 9_17
-12	καὶ	καί	c	c--------	_	14	COORD	_	t_1009|ref=Oratio 9_17
-13	ἔργον	ἔργον	n	n-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_1010|ref=Oratio 9_17
-14	[0]	[0]	-	---------	_	0	PRED	_	e_36|ref=Oratio 9_1
-15	·	·	u	u--------	_	14	AuxK	_	t_1011|ref=Oratio 9_17
+1	Κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_998|t_1009|ref=Orat. 9_17
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_999|e_36|ref=Orat. 9_17
+3	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	1	ATR	_	t_1000|t_998|ref=Orat. 9_17
+4	καὶ	καί	c	c--------	_	14	COORD	_	t_1001|e_36|ref=Orat. 9_17
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_1002|t_1005|ref=Orat. 9_17
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1003|t_1004|ref=Orat. 9_14
+7	ὑπάτων	ὕπατος	a	a-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1004|t_1005|ref=Orat. 9_17
+8	ὄνομά	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1005|t_1009|ref=Orat. 9_17
+9	τε	τε	d	d--------	_	12	AuxY	_	t_1006|t_1009|ref=Orat. 9_17
+10	καὶ	καί	d	d--------	_	12	AuxY	_	t_1007|t_1009|ref=Orat. 9_17
+11	σχῆμα	σχῆμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1008|t_1009|ref=Orat. 9_17
+12	καὶ	καί	c	c--------	_	14	COORD	_	t_1009|e_36|ref=Orat. 9_17
+13	ἔργον	ἔργον	n	n-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_1010|t_1009|ref=Orat. 9_17
+14	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=Orat. 9_1
+15	·	·	u	u--------	_	14	AuxK	_	t_1011|e_36|ref=Orat. 9_17
 
-# source = Libanius, Oratio 9 17
+# source = Libanius, Orat. 9 17
 # text = ὧν τοὺς μὲν ἀφίησι , τοὺς δὲ ἀντικαθίστησι .
 # sent_id = 50
-1	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_1012|ref=Oratio 9_17
-2	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_1013|ref=Oratio 9_17
-3	μὲν	μέν	d	d--------	_	7	AuxY	_	t_1014|ref=Oratio 9_17
-4	ἀφίησι	ἀφίημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_1015|ref=Oratio 9_17
-5	,	,	u	u--------	_	0	AuxX	_	t_1016|ref=Oratio 9_17
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_1017|ref=Oratio 9_17
-7	δὲ	δέ	c	c--------	_	5	COORD	_	t_1018|ref=Oratio 9_17
-8	ἀντικαθίστησι	ἀντικαθίστημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_1019|ref=Oratio 9_17
-9	.	.	u	u--------	_	5	AuxK	_	t_1020|ref=Oratio 9_17
+1	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_1012|t_1013|ref=Orat. 9_17
+2	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_1013|t_1015|ref=Orat. 9_17
+3	μὲν	μέν	d	d--------	_	7	AuxY	_	t_1014|t_1018|ref=Orat. 9_17
+4	ἀφίησι	ἀφίημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_1015|t_1018|ref=Orat. 9_17
+5	,	,	u	u--------	_	0	AuxX	_	t_1016|0|ref=Orat. 9_17
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_1017|t_1019|ref=Orat. 9_17
+7	δὲ	δέ	c	c--------	_	5	COORD	_	t_1018|t_1016|ref=Orat. 9_17
+8	ἀντικαθίστησι	ἀντικαθίστημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_1019|t_1018|ref=Orat. 9_17
+9	.	.	u	u--------	_	5	AuxK	_	t_1020|t_1016|ref=Orat. 9_17
 
-# source = Libanius, Oratio 9 17
+# source = Libanius, Orat. 9 17
 # text = διὰ τοὺς πορευσομένους [0] .
 # sent_id = 51
-1	διὰ	διά	r	r--------	_	4	AuxP	_	t_1021|ref=Oratio 9_17
-2	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1022|ref=Oratio 9_17
-3	πορευσομένους	πορεύω	v	v-pfpmma-	Case=a|Gender=m|Mood=p|Number=p|Tense=f|Voice=m	1	ADV	_	t_1023|ref=Oratio 9_17
-4	[0]	[0]	-	---------	_	0	PRED	_	e_37|ref=Oratio 9_1
-5	.	.	u	u--------	_	4	AuxK	_	t_1024|ref=Oratio 9_17
+1	διὰ	διά	r	r--------	_	4	AuxP	_	t_1021|e_37|ref=Orat. 9_17
+2	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1022|t_1023|ref=Orat. 9_17
+3	πορευσομένους	πορεύω	v	v-pfpmma-	Case=a|Gender=m|Mood=p|Number=p|Tense=f|Voice=m	1	ADV	_	t_1023|t_1021|ref=Orat. 9_17
+4	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Orat. 9_1
+5	.	.	u	u--------	_	4	AuxK	_	t_1024|e_37|ref=Orat. 9_17
 
-# source = Libanius, Oratio 9 17
+# source = Libanius, Orat. 9 17
 # text = ἔπειτα ἧκε τὸ αὐτό , βωμοί τε θεῶν νῦν μὲν οὐ πάντα ἔχουσι τὰ πρόσθεν νόμου κεκωλυκότος , πρὸ δέ γε τοῦ κωλύματος ἥδε ἡ νουμηνία πολὺ μὲν πῦρ , πολὺ δὲ αἷμα , πολλὴν δὲ ἐποίει κνίσσαν ἀπὸ παντὸς χ [0] [1] ·
 # sent_id = 52
-1	ἔπειτα	ἔπειτα	d	d--------	_	2	ADV	_	t_1025|ref=Oratio 9_17
-2	ἧκε	ἵημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_1026|ref=Oratio 9_17
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1027|ref=Oratio 9_17
-4	αὐτό	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_1028|ref=Oratio 9_17
-5	,	,	u	u--------	_	0	AuxX	_	t_1029|ref=Oratio 9_17
-6	βωμοί	βωμός	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_1030|ref=Oratio 9_17
-7	τε	τε	c	c--------	_	5	COORD	_	t_1031|ref=Oratio 9_17
-8	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1032|ref=Oratio 9_17
-9	νῦν	νῦν	d	d--------	_	13	ADV	_	t_1033|ref=Oratio 9_17
-10	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1034|ref=Oratio 9_17
-11	οὐ	οὐ	d	d--------	_	13	AuxZ	_	t_1035|ref=Oratio 9_17
-12	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_1036|ref=Oratio 9_17
-13	ἔχουσι	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	20	PRED	_	t_1037|ref=Oratio 9_17
-14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_1038|ref=Oratio 9_17
-15	πρόσθεν	πρόσθεν	d	d--------	_	12	ATR	_	t_1039|ref=Oratio 9_17
-16	νόμου	νόμος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	SBJ	_	t_1040|ref=Oratio 9_17
-17	κεκωλυκότος	κωλύω	v	v-srpamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	13	ADV	_	t_1041|ref=Oratio 9_17
-18	,	,	u	u--------	_	5	AuxX	_	t_1042|ref=Oratio 9_17
-19	πρὸ	πρό	r	r--------	_	36	AuxP	_	t_1043|ref=Oratio 9_17
-20	δέ	δέ	g	g--------	_	7	COORD	_	t_1044|ref=Oratio 9_17
-21	γε	γε	d	d--------	_	23	AuxZ	_	t_1045|ref=Oratio 9_17
-22	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	23	ATR	_	t_1046|ref=Oratio 9_17
-23	κωλύματος	κατάρρημα	n	n-s---ng-	Case=g|Gender=n|Number=s	19	ADV	_	t_1047|ref=Oratio 9_17
-24	ἥδε	ὅδε	p	p-s---fn-	Case=n|Gender=f|Number=s	26	ATR	_	t_1048|ref=Oratio 9_17
-25	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	26	ATR	_	t_1049|ref=Oratio 9_17
-26	νουμηνία	νουμηνία	n	n-s---fn-	Case=n|Gender=f|Number=s	32	SBJ	_	t_1050|ref=Oratio 9_17
-27	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_1051|ref=Oratio 9_17
-28	μὲν	μέν	d	d--------	_	32	AuxY	_	t_1052|ref=Oratio 9_17
-29	πῦρ	πῦρ	n	n-s---na-	Case=a|Gender=n|Number=s	42	OBJ	_	t_1053|ref=Oratio 9_17
-30	,	,	u	u--------	_	5	AuxX	_	t_1054|ref=Oratio 9_17
-31	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	33	ATR	_	t_1055|ref=Oratio 9_17
-32	δὲ	δέ	c	c--------	_	36	COORD	_	t_1056|ref=Oratio 9_17
-33	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	43	ADV	_	t_1057|ref=Oratio 9_17
-34	,	,	u	u--------	_	5	AuxX	_	t_1058|ref=Oratio 9_17
-35	πολλὴν	πολύς	a	a-s---fa-	Case=a|Gender=f|Number=s	38	ATR	_	t_1059|ref=Oratio 9_17
-36	δὲ	δέ	c	c--------	_	7	COORD	_	t_1060|ref=Oratio 9_17
-37	ἐποίει	ποιέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	36	PRED	_	t_1061|ref=Oratio 9_17
-38	κνίσσαν	κνῖσα	n	n-s---fa-	Case=a|Gender=f|Number=s	37	OBJ	_	t_1062|ref=Oratio 9_17
-39	ἀπὸ	ἀπό	r	r--------	_	37	AuxP	_	t_1063|ref=Oratio 9_17
-40	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	39	ADV	_	t_1064|ref=Oratio 9_17
-41	χ	χ	x	x--------	_	39	ADV	_	t_1065|ref=Oratio 9_17
-42	[0]	[0]	-	---------	_	32	OBJ	_	e_38|ref=Oratio 9_1
-43	[1]	[1]	-	---------	_	32	ADV	_	e_39|ref=Oratio 9_1
-44	·	·	u	u--------	_	5	AuxK	_	t_1066|ref=Oratio 9_17
+1	ἔπειτα	ἔπειτα	d	d--------	_	2	ADV	_	t_1025|t_1026|ref=Orat. 9_17
+2	ἧκε	ἵημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	7	PRED	_	t_1026|t_1031|ref=Orat. 9_17
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1027|t_1028|ref=Orat. 9_17
+4	αὐτό	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_1028|t_1026|ref=Orat. 9_17
+5	,	,	u	u--------	_	0	AuxX	_	t_1029|0|ref=Orat. 9_17
+6	βωμοί	βωμός	n	n-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_1030|t_1037|ref=Orat. 9_17
+7	τε	τε	c	c--------	_	5	COORD	_	t_1031|t_1029|ref=Orat. 9_17
+8	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1032|t_1030|ref=Orat. 9_17
+9	νῦν	νῦν	d	d--------	_	13	ADV	_	t_1033|t_1037|ref=Orat. 9_17
+10	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1034|t_1044|ref=Orat. 9_17
+11	οὐ	οὐ	d	d--------	_	13	AuxZ	_	t_1035|t_1037|ref=Orat. 9_17
+12	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_1036|t_1037|ref=Orat. 9_17
+13	ἔχουσι	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	20	PRED	_	t_1037|t_1044|ref=Orat. 9_17
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_1038|t_1036|ref=Orat. 9_17
+15	πρόσθεν	πρόσθεν	d	d--------	_	12	ATR	_	t_1039|t_1036|ref=Orat. 9_17
+16	νόμου	νόμος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	SBJ	_	t_1040|t_1041|ref=Orat. 9_17
+17	κεκωλυκότος	κωλύω	v	v-srpamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	13	ADV	_	t_1041|t_1037|ref=Orat. 9_17
+18	,	,	u	u--------	_	5	AuxX	_	t_1042|t_1029|ref=Orat. 9_17
+19	πρὸ	πρό	r	r--------	_	36	AuxP	_	t_1043|t_1060|ref=Orat. 9_17
+20	δέ	δέ	g	g--------	_	7	COORD	_	t_1044|t_1031|ref=Orat. 9_17
+21	γε	γε	d	d--------	_	23	AuxZ	_	t_1045|t_1047|ref=Orat. 9_17
+22	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	23	ATR	_	t_1046|t_1047|ref=Orat. 9_17
+23	κωλύματος	κατάρρημα	n	n-s---ng-	Case=g|Gender=n|Number=s	19	ADV	_	t_1047|t_1043|ref=Orat. 9_17
+24	ἥδε	ὅδε	p	p-s---fn-	Case=n|Gender=f|Number=s	26	ATR	_	t_1048|t_1050|ref=Orat. 9_17
+25	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	26	ATR	_	t_1049|t_1050|ref=Orat. 9_17
+26	νουμηνία	νουμηνία	n	n-s---fn-	Case=n|Gender=f|Number=s	32	SBJ	_	t_1050|t_1056|ref=Orat. 9_17
+27	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	29	ATR	_	t_1051|t_1053|ref=Orat. 9_17
+28	μὲν	μέν	d	d--------	_	32	AuxY	_	t_1052|t_1056|ref=Orat. 9_17
+29	πῦρ	πῦρ	n	n-s---na-	Case=a|Gender=n|Number=s	42	OBJ	_	t_1053|e_38|ref=Orat. 9_17
+30	,	,	u	u--------	_	5	AuxX	_	t_1054|t_1029|ref=Orat. 9_17
+31	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	33	ATR	_	t_1055|t_1057|ref=Orat. 9_17
+32	δὲ	δέ	c	c--------	_	36	COORD	_	t_1056|t_1060|ref=Orat. 9_17
+33	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	43	ADV	_	t_1057|e_39|ref=Orat. 9_17
+34	,	,	u	u--------	_	5	AuxX	_	t_1058|t_1029|ref=Orat. 9_17
+35	πολλὴν	πολύς	a	a-s---fa-	Case=a|Gender=f|Number=s	38	ATR	_	t_1059|t_1062|ref=Orat. 9_17
+36	δὲ	δέ	c	c--------	_	7	COORD	_	t_1060|t_1031|ref=Orat. 9_17
+37	ἐποίει	ποιέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	36	PRED	_	t_1061|t_1060|ref=Orat. 9_17
+38	κνίσσαν	κνῖσα	n	n-s---fa-	Case=a|Gender=f|Number=s	37	OBJ	_	t_1062|t_1061|ref=Orat. 9_17
+39	ἀπὸ	ἀπό	r	r--------	_	37	AuxP	_	t_1063|t_1061|ref=Orat. 9_17
+40	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	39	ADV	_	t_1064|t_1063|ref=Orat. 9_17
+41	χ	χ	x	x--------	_	39	ADV	_	t_1065|t_1063|ref=Orat. 9_17
+42	[0]	[0]	-	---------	_	32	OBJ	_	e_38|t_1056|ref=Orat. 9_1
+43	[1]	[1]	-	---------	_	32	ADV	_	e_39|t_1056|ref=Orat. 9_1
+44	·	·	u	u--------	_	5	AuxK	_	t_1066|t_1029|ref=Orat. 9_17
 
-# source = Libanius, Oratio 9 17
+# source = Libanius, Orat. 9 17
 # text = ωρίου πρὸς τὸν οὐρα - νὸν ἀνιοῦσαν , ὥστε καὶ τοῖς θεοῖς εἶναι λαμπρὰν ἐν τῇ ἑορτῇ τὴν δαῖτα .
 # sent_id = 53
-1	ωρίου	ώριος	v	v3siia---	Case=g|Gender=n|Number=s	0	PRED	_	t_1067|ref=Oratio 9_17
-2	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_1068|ref=Oratio 9_17
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1069|ref=Oratio 9_17
-4	οὐρα	οὐρα	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1070|ref=Oratio 9_17
-5	-	-	u	u--------	_	1	AuxX	_	t_1071|ref=Oratio 9_17
-6	νὸν	νόν	p	p-s---ma-	Case=a|Gender=f|Number=s	1	ADV	_	t_1072|ref=Oratio 9_17
-7	ἀνιοῦσαν	ἄνειμι	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_1073|ref=Oratio 9_17
-8	,	,	u	u--------	_	1	AuxX	_	t_1074|ref=Oratio 9_17
-9	ὥστε	ὥστε	c	c--------	_	1	AuxC	_	t_1075|ref=Oratio 9_17
-10	καὶ	καί	d	d--------	_	12	AuxZ	_	t_1076|ref=Oratio 9_17
-11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_1077|ref=Oratio 9_17
-12	θεοῖς	θεός	n	n-p---md-	Case=d|Gender=m|Number=p	14	ADV	_	t_1078|ref=Oratio 9_17
-13	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	ADV	_	t_1079|ref=Oratio 9_17
-14	λαμπρὰν	λαμπρός	a	a-s---fa-	Case=a|Gender=f|Number=s	13	PNOM	_	t_1080|ref=Oratio 9_17
-15	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_1081|ref=Oratio 9_17
-16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_1082|ref=Oratio 9_17
-17	ἑορτῇ	ἑορτή	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_1083|ref=Oratio 9_17
-18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_1084|ref=Oratio 9_17
-19	δαῖτα	δαίς	n	n-s---fa-	Case=a|Gender=f|Number=s	13	SBJ	_	t_1085|ref=Oratio 9_17
-20	.	.	u	u--------	_	1	AuxK	_	t_1086|ref=Oratio 9_17
+1	ωρίου	ώριος	v	v3siia---	Case=g|Gender=n|Number=s	0	PRED	_	t_1067|0|ref=Orat. 9_17
+2	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_1068|t_1067|ref=Orat. 9_17
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1069|t_1070|ref=Orat. 9_17
+4	οὐρα	οὐρα	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1070|t_1068|ref=Orat. 9_17
+5	-	-	u	u--------	_	1	AuxX	_	t_1071|t_1067|ref=Orat. 9_17
+6	νὸν	νόν	p	p-s---ma-	Case=a|Gender=f|Number=s	1	ADV	_	t_1072|t_1067|ref=Orat. 9_17
+7	ἀνιοῦσαν	ἄνειμι	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_1073|t_1072|ref=Orat. 9_17
+8	,	,	u	u--------	_	1	AuxX	_	t_1074|t_1067|ref=Orat. 9_17
+9	ὥστε	ὥστε	c	c--------	_	1	AuxC	_	t_1075|t_1067|ref=Orat. 9_17
+10	καὶ	καί	d	d--------	_	12	AuxZ	_	t_1076|t_1078|ref=Orat. 9_17
+11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	12	ATR	_	t_1077|t_1078|ref=Orat. 9_17
+12	θεοῖς	θεός	n	n-p---md-	Case=d|Gender=m|Number=p	14	ADV	_	t_1078|t_1080|ref=Orat. 9_17
+13	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	ADV	_	t_1079|t_1075|ref=Orat. 9_17
+14	λαμπρὰν	λαμπρός	a	a-s---fa-	Case=a|Gender=f|Number=s	13	PNOM	_	t_1080|t_1079|ref=Orat. 9_17
+15	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_1081|t_1079|ref=Orat. 9_17
+16	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_1082|t_1083|ref=Orat. 9_17
+17	ἑορτῇ	ἑορτή	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_1083|t_1081|ref=Orat. 9_17
+18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_1084|t_1085|ref=Orat. 9_17
+19	δαῖτα	δαίς	n	n-s---fa-	Case=a|Gender=f|Number=s	13	SBJ	_	t_1085|t_1079|ref=Orat. 9_17
+20	.	.	u	u--------	_	1	AuxK	_	t_1086|t_1067|ref=Orat. 9_17
 
