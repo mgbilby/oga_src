@@ -37,11 +37,11 @@ A sample sentence header follows:
 \# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·  
 \# sent_id = 1  
 
-## Word locations
+## MISC field expansions: parent token id & token reference location
 
 To the last or rightmost field for each word token, which is called the "MISC" field in the CoNNL-U format, two new subfields are added.
 
-1. The parent's document-wide id token id (t_#) or document-wide elliptical id (e_#). The CoNNL-U HEAD field values are internal to the sentence. These supplemental identifiers are derived from those HEAD values, while adding clarity and precision to syntactical analysis, particularly at the document level.
+1. The parent's document-wide id token id (t_#) or document-wide elliptical id (e_#). The CoNNL-U HEAD field values are internal to the sentence. These supplemental identifiers are mapped based on those HEAD values, while adding clarity and precision to syntactical analysis, particularly at the document level.
 
 2. A document abbreviation and internal document location, which facilitates contextualization, comprehension, and comparisons with other digital editions. For well-known Classical texts, the abbreviations generally correspond to the Perseus abbreviation list(https://www.perseus.tufts.edu/hopper/abbrevhelp). Document abbreviations for Christian texts are a mix of commonplace scholarly abbreviations (SBL, Lampe) and abbreviations that I've minted for this specific project, particularly for texts that have longer titles or are not cited as commonly in the scholarly literature. The internal document locations/references are pulled from the location codes in the OGA xml files ending in "tok01_cts01". As is evident in the table below, internal location types and depths can vary considerably from document to document.
 
