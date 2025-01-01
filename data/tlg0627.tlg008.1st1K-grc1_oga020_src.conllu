@@ -1,17 +1,17 @@
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = ΚΑΤ᾿ ΙΗΤΡΕΙΟΝ .
 # sent_id = 1
 1	ΚΑΤ᾿	κατά	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1|0|ref=offic.med._1
 2	ΙΗΤΡΕΙΟΝ	ιητρειον	n	n-s---mn-	Case=n|Gender=m|Number=s	1	APOS	_	t_2|t_1|ref=offic.med._1
 3	.	.	u	u--------	_	1	AuxK	_	t_3|t_1|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = 1 .
 # sent_id = 2
 1	1	1	u	u--------	_	0	AuxG	_	t_4|0|ref=offic.med._1
 2	.	.	u	u--------	_	1	AuxK	_	t_5|t_4|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = Ἢ ὅμοια ἢ ἀνόμοια ἐξ ἀρχῆς [0] ·
 # sent_id = 3
 1	Ἢ	ἤ1	i	i--------	_	3	AuxZ	_	t_6|t_8|ref=offic.med._1
@@ -23,7 +23,7 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=offic.med._1
 8	·	·	u	u--------	_	7	AuxK	_	t_12|e_1|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = ἀπὸ τῶν μεγίστων , ἀπὸ τῶν ῥηΐστων , ἀπὸ τῶν πάντη πάντως γιγνωσκομένων [0] .
 # sent_id = 4
 1	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_13|t_20|ref=offic.med._1
@@ -42,7 +42,7 @@
 14	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=offic.med._1
 15	.	.	u	u--------	_	14	AuxK	_	t_26|e_2|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = Ἃ καὶ ἰδεῖν , καὶ θιγεῖν , καὶ ἀκοῦσαι ἔστιν ·
 # sent_id = 5
 1	Ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_27|t_34|ref=offic.med._1
@@ -57,7 +57,7 @@
 10	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_36|0|ref=offic.med._1
 11	·	·	u	u--------	_	10	AuxK	_	t_37|t_36|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = ἃ καὶ τῇ ὄφει , καὶ τῇ ἁφῇ , καὶ τῇ ἀκοῇ , καὶ τῇ ῥινὶ , καὶ τῇ γλώσσῃ , καὶ τῇ γνώμῃ ἔστιν αἰσθέσθαι ·
 # sent_id = 6
 1	ἃ	ὅς	p	p-p---na-	_	26	OBJ	_	t_38|t_63|ref=offic.med._1
@@ -88,7 +88,7 @@
 26	αἰσθέσθαι	αἰσθάνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	25	SBJ	_	t_63|t_62|ref=offic.med._1
 27	·	·	u	u--------	_	25	AuxK	_	t_64|t_62|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = ἃ , οἷς γιγνώσκομεν ἅπασιν , ἔστι γνῶναι .
 # sent_id = 7
 1	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_65|t_72|ref=offic.med._1
@@ -101,13 +101,13 @@
 8	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	7	SBJ	_	t_72|t_71|ref=offic.med._1
 9	.	.	u	u--------	_	7	AuxK	_	t_73|t_71|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 1
+# source = Hippocrates, offic.med._1
 # text = 2 .
 # sent_id = 8
 1	2	2	u	u--------	_	0	AuxG	_	t_74|0|ref=offic.med._1
 2	.	.	u	u--------	_	1	AuxK	_	t_75|t_74|ref=offic.med._1
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = Τὰ δ᾿ ἐς χειρουργίην κατ᾿ ἰητρεῖον ·
 # sent_id = 9
 1	Τὰ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	2	PRED	_	t_76|t_77|ref=offic.med._2
@@ -118,14 +118,14 @@
 6	ἰητρεῖον	ἰατρεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_81|t_80|ref=offic.med._2
 7	·	·	u	u--------	_	2	AuxK	_	t_82|t_77|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὁ ἀσθενέων ·
 # sent_id = 10
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_83|t_84|ref=offic.med._2
 2	ἀσθενέων	ἀσθενής	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	0	ExD	_	t_84|0|ref=offic.med._2
 3	·	·	u	u--------	_	2	AuxK	_	t_85|t_84|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὁ δρῶν οἱ ὑπηρέται [0] ·
 # sent_id = 11
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_86|t_87|ref=offic.med._2
@@ -135,7 +135,7 @@
 5	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=offic.med._1
 6	·	·	u	u--------	_	5	AuxK	_	t_90|e_3|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = τὰ ὄργανα [0] ·
 # sent_id = 12
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	2	ATR	_	t_91|t_92|ref=offic.med._2
@@ -143,7 +143,7 @@
 3	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=offic.med._1
 4	·	·	u	u--------	_	3	AuxK	_	t_93|e_4|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = τὸ φῶς [0] ·
 # sent_id = 13
 1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_94|t_95|ref=offic.med._2
@@ -151,34 +151,34 @@
 3	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=offic.med._1
 4	·	·	u	u--------	_	3	AuxK	_	t_96|e_5|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὅκου ·
 # sent_id = 14
 1	ὅκου	ὅπου	i	i--------	_	0	ExD	_	t_97|0|ref=offic.med._2
 2	·	·	u	u--------	_	1	AuxK	_	t_98|t_97|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὅκως [0] ·
 # sent_id = 15
 1	ὅκως	ὅπως	c	c--------	_	2	AuxC	_	t_99|e_6|ref=offic.med._2
 2	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=offic.med._1
 3	·	·	u	u--------	_	2	AuxK	_	t_100|e_6|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὅσα [0] ·
 # sent_id = 16
 1	ὅσα	ὅσος	p	p-p---nn-	Case=n|Gender=n|Number=p	2	SBJ	_	t_101|e_7|ref=offic.med._2
 2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=offic.med._1
 3	·	·	u	u--------	_	2	AuxK	_	t_102|e_7|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὅκως [0] ·
 # sent_id = 17
 1	ὅκως	ὅπως	c	c--------	_	2	AuxC	_	t_103|e_8|ref=offic.med._2
 2	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=offic.med._1
 3	·	·	u	u--------	_	2	AuxK	_	t_104|e_8|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὅκου τὸ σῶμα , τὰ ἄρμενα ·
 # sent_id = 18
 1	ὅκου	ὅπου	c	c--------	_	0	AuxC	_	t_105|0|ref=offic.med._2
@@ -189,7 +189,7 @@
 6	ἄρμενα	ἄρμενα	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_110|t_108|ref=offic.med._2
 7	·	·	u	u--------	_	1	AuxK	_	t_111|t_105|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὁ χρόνος [0] ·
 # sent_id = 19
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_112|t_113|ref=offic.med._2
@@ -197,27 +197,27 @@
 3	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=offic.med._1
 4	·	·	u	u--------	_	3	AuxK	_	t_114|e_9|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὁ τρόπος ·
 # sent_id = 20
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_115|t_116|ref=offic.med._2
 2	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_116|0|ref=offic.med._2
 3	·	·	u	u--------	_	2	AuxK	_	t_117|t_116|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = ὁ τόπος .
 # sent_id = 21
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_118|t_119|ref=offic.med._2
 2	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_119|0|ref=offic.med._2
 3	.	.	u	u--------	_	2	AuxK	_	t_120|t_119|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2
+# source = Hippocrates, offic.med._2
 # text = 3 .
 # sent_id = 22
 1	3	3	x	x--------	_	0	AuxG	_	t_121|0|ref=offic.med._2
 2	.	.	u	u--------	_	1	AuxK	_	t_122|t_121|ref=offic.med._2
 
-# source = Hippocrates, offic.med. 2-3
+# source = Hippocrates, offic.med._2-3
 # text = Ὁ δρῶν , ἢ καθήμενος , ἢ ἑστεὼς , ξυμμέτρως πρὸς ἑωυτὸν , πρὸς τὸ χειριζόμενον , πρὸς τὴν αὐγήν [0] .
 # sent_id = 23
 1	Ὁ	ὁ	p	p-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_123|t_124|ref=offic.med._2
@@ -243,7 +243,7 @@
 21	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=offic.med._1
 22	.	.	u	u--------	_	21	AuxK	_	t_143|e_10|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Αὐγέης μὲν οὖν δύο εἴδεα , τὸ μὲν κοινὸν , τὸ δὲ τεχνητόν [0] [1] .
 # sent_id = 24
 1	Αὐγέης	αὐγέη	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_144|e_11|ref=offic.med._3
@@ -263,7 +263,7 @@
 15	[1]	[1]	-	---------	_	12	PRED	_	e_12|t_155|ref=offic.med._1
 16	.	.	u	u--------	_	6	AuxK	_	t_157|t_149|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Τὸ μὲν οὖν κοινὸν οὐκ ἐφ᾿ ἡμῖν ·
 # sent_id = 25
 1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_158|t_161|ref=offic.med._3
@@ -275,7 +275,7 @@
 7	ἡμῖν	ἐγώ	p	p1p---cd-	Case=d|Gender=c|Number=p|Person=1	6	ADV	_	t_164|t_163|ref=offic.med._3
 8	·	·	u	u--------	_	6	AuxK	_	t_165|t_163|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = τὸ δὲ τεχνητὸν , καὶ ἐφ᾿ ἡμῖν [0] .
 # sent_id = 26
 1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_166|t_168|ref=offic.med._3
@@ -288,7 +288,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=offic.med._1
 9	.	.	u	u--------	_	8	AuxK	_	t_173|e_13|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Ὧν ἑκατέρου δισσαὶ χρήσιες , ἢ πρὸς αὐγὴν , ἢ ὑπ᾿ αὐγήν [0] [1] .
 # sent_id = 27
 1	Ὧν	ὅς	p	p-p---fg-	Case=g|Gender=f|Number=p	2	ATR	_	t_174|t_175|ref=offic.med._3
@@ -307,7 +307,7 @@
 14	[1]	[1]	-	---------	_	10	ADV	_	e_15|t_183|ref=offic.med._1
 15	.	.	u	u--------	_	13	AuxK	_	t_186|e_14|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Ὑπ᾿ αὐγὴν μὲν οὖν ὀλίγη τε ἡ χρῆσις , καταφανής τε ἡ μετριότης [0] .
 # sent_id = 28
 1	Ὑπ᾿	ὑπό	r	r--------	_	14	AuxP	_	t_187|e_16|ref=offic.med._3
@@ -326,7 +326,7 @@
 14	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=offic.med._1
 15	.	.	u	u--------	_	14	AuxK	_	t_200|e_16|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Τὰ δὲ πρὸς αὐγὴν ἐκ τῶν παρεουσέων , ἐκ τῶν ξυμφερουσέων αὐγέων , πρὸς τὴν λαμπροτάτην τρέπειν τὸ χειριζόμενον [0] ·
 # sent_id = 29
 1	Τὰ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_201|t_217|ref=offic.med._3
@@ -351,7 +351,7 @@
 20	[0]	[0]	-	---------	_	2	PRED	_	e_17|t_202|ref=offic.med._1
 21	·	·	u	u--------	_	2	AuxK	_	t_220|t_202|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = πλὴν ὁκόσα λαθεῖν δεῖ , ἢ ὁρῇν αἰσχρόν ·
 # sent_id = 30
 1	πλὴν	πλήν	d	d--------	_	4	AuxY	_	t_221|t_224|ref=offic.med._3
@@ -364,7 +364,7 @@
 8	αἰσχρόν	αἰσχρός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OCOMP	_	t_228|t_227|ref=offic.med._3
 9	·	·	u	u--------	_	4	AuxK	_	t_229|t_224|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = οὕτω δὲ τὸ μὲν χειριζόμενον ἐναντίον τῇ αὐγῇ , τὸν δὲ χειρίζοντα , ἐναντίον τῷ χειριζομένῳ , πλὴν ὥστε μὴ ἐπισκοτάζειν [0] [1] ·
 # sent_id = 31
 1	οὕτω	οὕτως	d	d--------	_	11	ADV	_	t_230|t_240|ref=offic.med._3
@@ -392,7 +392,7 @@
 23	[1]	[1]	-	---------	_	11	PRED	_	e_19|t_240|ref=offic.med._1
 24	·	·	u	u--------	_	9	AuxK	_	t_251|t_238|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = οὕτω γὰρ ἂν ὁ μὲν δρῶν ὁρῴη , τὸ δὲ χειριζόμενον οὐχ ὁρῷτε .
 # sent_id = 32
 1	οὕτω	οὕτως	d	d--------	_	7	ADV	_	t_252|t_258|ref=offic.med._3
@@ -410,7 +410,7 @@
 13	ὁρῷτε	ὁράω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	10	PRED	_	t_264|t_261|ref=offic.med._3
 14	.	.	u	u--------	_	8	AuxK	_	t_265|t_259|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Πρὸς ἑωυτὸν δὲ , καθημένῳ πόδες ἐς τὴν ἄνω ἴξιν κατ᾿ ἰθὺ γούνασιν διάστασιν δὲ , ὀλίγον ξυμβεβῶτες ·
 # sent_id = 33
 1	Πρὸς	πρός	r	r--------	_	13	AuxP	_	t_266|t_278|ref=offic.med._3
@@ -433,7 +433,7 @@
 18	ξυμβεβῶτες	συμβαίνω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	13	ADV	_	t_283|t_278|ref=offic.med._3
 19	·	·	u	u--------	_	13	AuxK	_	t_284|t_278|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = γούνατα δὲ ἀνωτέρω βουβώνων σμικρὸν , διάστασιν δὲ , ἀγκώνων θέσει καὶ παραθέσει [0] [1] .
 # sent_id = 34
 1	γούνατα	γόνυ	n	n-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_285|e_20|ref=offic.med._3
@@ -453,7 +453,7 @@
 15	[1]	[1]	-	---------	_	8	PRED	_	e_21|t_292|ref=offic.med._1
 16	.	.	u	u--------	_	8	AuxK	_	t_298|t_292|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Ἱμάτιον , εὐσταλέως , εὐκρινέως , ἴσως , ὁμοίως , ἀγκῶσιν , ὤμοισιν [0] .
 # sent_id = 35
 1	Ἱμάτιον	ἱμάτιον	n	n-s---na-	Case=a|Gender=n|Number=s	14	ExD	_	t_299|e_22|ref=offic.med._3
@@ -472,7 +472,7 @@
 14	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=offic.med._1
 15	.	.	u	u--------	_	14	AuxK	_	t_312|e_22|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Πρὸς δὲ τὸ χειριζόμενον , τοῦ μὲν πρόσω καὶ ἐγγὺς , καὶ τοῦ ἄνω , καὶ τοῦ κάτω , καὶ ἔνθα ἢ ἔνθα , ἢ μέσον [0] [1] [2] .
 # sent_id = 36
 1	Πρὸς	πρός	r	r--------	_	27	AuxP	_	t_313|e_23|ref=offic.med._3
@@ -506,7 +506,7 @@
 29	[2]	[2]	-	---------	_	25	OBJ	_	e_25|t_337|ref=offic.med._1
 30	.	.	u	u--------	_	27	AuxK	_	t_339|e_23|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Τοῦ μὲν πρόσω καὶ ἐγγὺς ὅριον , ἀγκῶνας ἐς μὲν τὸ πρόσθεν γούνατα μὴ ἀμείβειν , ἐς δὲ τὸ ὄπισθεν , πλευράς [0] [1] ·
 # sent_id = 37
 1	Τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_340|t_342|ref=offic.med._3
@@ -535,7 +535,7 @@
 24	[1]	[1]	-	---------	_	18	ADV	_	e_27|t_357|ref=offic.med._1
 25	·	·	u	u--------	_	7	AuxK	_	t_362|t_346|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = τοῦ δὲ ἄνω , μὴ ἀνωτέρω μαζῶν ἄκρας χεῖρας ἔχειν [0] ·
 # sent_id = 38
 1	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_363|e_28|ref=offic.med._3
@@ -551,7 +551,7 @@
 11	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=offic.med._1
 12	·	·	u	u--------	_	11	AuxK	_	t_373|e_28|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = τοῦ δὲ κάτω , μὴ κατωτέρω , ἢ ὡς τὸ στῆθος ἐπὶ γούνασιν ἔχοντα , ἔχειν ἄκρας χεῖρας ἐγγωνίους πρὸς βραχίονας [0] [1] ·
 # sent_id = 39
 1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_374|t_376|ref=offic.med._3
@@ -579,7 +579,7 @@
 23	[1]	[1]	-	---------	_	22	ADV	_	e_30|e_29|ref=offic.med._1
 24	·	·	u	u--------	_	22	AuxK	_	t_395|e_29|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = τὰ μὲν κατὰ μέσον οὕτως [0] ·
 # sent_id = 40
 1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_396|e_31|ref=offic.med._3
@@ -590,7 +590,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=offic.med._1
 7	·	·	u	u--------	_	6	AuxK	_	t_401|e_31|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = τὰ δὲ ἔνθα , ἢ ἔνθα , μὴ ἔξω τῆς ἔδρης , κατὰ λόγον δὲ τῆς ἐπιτροφῆς προσβαλλόμενον τὸ σῶμα , καὶ τοῦ σώματος τὸ ἐργαζόμενον [0] [1] .
 # sent_id = 41
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	27	ADV	_	t_402|e_32|ref=offic.med._3
@@ -623,7 +623,7 @@
 28	[1]	[1]	-	---------	_	15	PRED	_	e_33|t_416|ref=offic.med._1
 29	.	.	u	u--------	_	4	AuxK	_	t_428|t_405|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Ἑστεῶτα δὲ , ἰδεῖν μὲν ἐπ᾿ ἀμφοτέρων βεβῶτα ἐξ ἴσου τῶν ποδῶν ἅλις , δρῇν δὲ τῷ ἑτέρῳ ἐπιβεβῶτα , μὴ τῷ κατὰ τὴν δρῶσαν χεῖρα [0] ·
 # sent_id = 42
 1	Ἑστεῶτα	ἵστημι	n	n-s---ma-	Case=a|Gender=m|Number=s	4	SBJ	_	t_429|t_432|ref=offic.med._3
@@ -655,7 +655,7 @@
 27	[0]	[0]	-	---------	_	16	PRED	_	e_34|t_444|ref=offic.med._1
 28	·	·	u	u--------	_	3	AuxK	_	t_455|t_431|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = ὕψος γούνατος πρὸς βουβῶνας , ὡς ἐν ἕδρῃ [0] [1] ·
 # sent_id = 43
 1	ὕψος	ὕψος	n	n-s---na-	Case=a|Gender=n|Number=s	9	SBJ	_	t_456|e_35|ref=offic.med._3
@@ -670,7 +670,7 @@
 10	[1]	[1]	-	---------	_	6	ADV	_	e_36|t_461|ref=offic.med._1
 11	·	·	u	u--------	_	9	AuxK	_	t_464|e_35|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = καὶ τὰ ἄλλα ὅρια τὰ αὐτά [0] .
 # sent_id = 44
 1	καὶ	καί	d	d--------	_	7	AuxY	_	t_465|e_37|ref=offic.med._3
@@ -682,7 +682,7 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=offic.med._1
 8	.	.	u	u--------	_	7	AuxK	_	t_471|e_37|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Ὁ δὲ χειριζόμενος τῷ χειρίζοντι τῷ ἄλλῳ τοῦ σώματος μέρει ὑπηρετείτων , ἢ ἑστεὼς , ἢ καθήμενος , ἢ κείμενος , ὅκως ἂν ῥήϊστα , ὃ δεῖ , σχῆμα ἔχων διατελέῃ , φυλάσσων ὑπόῤῥυσιν , ὑπόστασιν , ἔκτρεψιν , καταντίαν , ὡς ὃ δεῖ , σώζηται καὶ σχῆμα καὶ εἶδος τοῦ χειριζομένου , ἐν παρέξει , ἐν χειρισμῷ , ἐν τῇ ἔπειτα ἕξει [0] .
 # sent_id = 45
 1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	46	SBJ	_	t_472|t_517|ref=offic.med._3
@@ -751,14 +751,14 @@
 64	[0]	[0]	-	---------	_	42	ADV	_	e_38|t_513|ref=offic.med._1
 65	.	.	u	u--------	_	2	AuxK	_	t_535|t_473|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = 4 [0] .
 # sent_id = 46
 1	4	4	u	u--------	_	2	AuxK	_	t_536|e_39|ref=offic.med._3
 2	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=offic.med._1
 3	.	.	u	u--------	_	2	AuxK	_	t_537|e_39|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = Ὄνυχας μή τε ὑπερέχειν , μή τε ἐλλείπειν ·
 # sent_id = 47
 1	Ὄνυχας	ὄνυξ	p	p-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_538|t_544|ref=offic.med._3
@@ -771,7 +771,7 @@
 8	ἐλλείπειν	ἐλλείπω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	PRED	_	t_545|t_544|ref=offic.med._3
 9	·	·	u	u--------	_	7	AuxK	_	t_546|t_544|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = δακτύλων κορυφῇσι χρῆσις [0] ·
 # sent_id = 48
 1	δακτύλων	δάκτυλος	n	n-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_547|t_548|ref=offic.med._3
@@ -780,7 +780,7 @@
 4	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=offic.med._1
 5	·	·	u	u--------	_	4	AuxK	_	t_550|e_40|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = ἀσκέειν , δακτύλοισι μὲν ἄκροις , τὰ πλεῖστα λιχανῷ πρὸς μέγαν ·
 # sent_id = 49
 1	ἀσκέειν	ἀσκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_551|0|ref=offic.med._3
@@ -796,7 +796,7 @@
 11	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ADV	_	t_561|t_560|ref=offic.med._3
 12	·	·	u	u--------	_	1	AuxK	_	t_562|t_551|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = ὅλῃ δὲ , καταπρηνεῖ ·
 # sent_id = 50
 1	ὅλῃ	ὅλος	d	d--------	_	4	ADV	_	t_563|t_566|ref=offic.med._3
@@ -805,7 +805,7 @@
 4	καταπρηνεῖ	καταπρηνής	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_566|0|ref=offic.med._3
 5	·	·	u	u--------	_	4	AuxK	_	t_567|t_566|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = ἀμφοτέρῃσι δὲ , ἐναντίῃσιν [0] ·
 # sent_id = 51
 1	ἀμφοτέρῃσι	ἀμφότερος	a	a-p---fd-	Case=d|Gender=f|Number=p	4	ADV	_	t_568|t_571|ref=offic.med._3
@@ -815,7 +815,7 @@
 5	[0]	[0]	-	---------	_	2	PRED	_	e_41|t_569|ref=offic.med._1
 6	·	·	u	u--------	_	2	AuxK	_	t_572|t_569|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 3
+# source = Hippocrates, offic.med._3
 # text = δακτύλων εὐφυΐα , μέγα τὸ ἐν μέσῳ τῶν δακτύλων , καὶ ἀπεναντίον τὸν μέγαν τῷ λιχανῷ [0] .
 # sent_id = 52
 1	δακτύλων	δάκτυλος	n	n-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_573|t_574|ref=offic.med._3
@@ -837,7 +837,7 @@
 17	[0]	[0]	-	---------	_	0	PRED	_	e_42|0|ref=offic.med._1
 18	.	.	u	u--------	_	17	AuxK	_	t_589|e_42|ref=offic.med._3
 
-# source = Hippocrates, offic.med. 4
+# source = Hippocrates, offic.med._4
 # text = Νοῦσος δὲ δι᾿ ἣν καὶ βλάπτονται , οἷσιν ἐκ γενεῆς ἢ ἐν τροφῇ εἴθισται ὁ μέγας ὑπὸ τῶν ἄλλων δακτύλων κατέχεσθαι , δῆλον [0] .
 # sent_id = 53
 1	Νοῦσος	νοῦσος	n	n-s---fn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_590|e_43|ref=offic.med._4
@@ -866,7 +866,7 @@
 24	[0]	[0]	-	---------	_	0	PRED	_	e_43|0|ref=offic.med._1
 25	.	.	u	u--------	_	24	AuxK	_	t_613|e_43|ref=offic.med._4
 
-# source = Hippocrates, offic.med. 4
+# source = Hippocrates, offic.med._4
 # text = Τὰ ἔργα πάντα ἀσκέειν ἑκατέρῃ δρῶντα , καὶ ἀμφοτέρῃσιν ἅμα ( ὅμοιαι γάρ εἰσιν ἀμφότεραι ) , στοχαζόμενον ἀγαθῶς , καλῶς , ταχέως , ἀπόνως , εὐρύθμως , εὐπόρως .
 # sent_id = 54
 1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	2	ATR	_	t_614|t_615|ref=offic.med._4
@@ -900,13 +900,13 @@
 29	εὐπόρως	εὔπορος	d	d--------	_	28	ADV	_	t_642|t_641|ref=offic.med._4
 30	.	.	u	u--------	_	4	AuxK	_	t_643|t_617|ref=offic.med._4
 
-# source = Hippocrates, offic.med. 4
+# source = Hippocrates, offic.med._4
 # text = 5 .
 # sent_id = 55
 1	5	5	u	u--------	_	0	AuxG	_	t_644|0|ref=offic.med._4
 2	.	.	u	u--------	_	1	AuxK	_	t_645|t_644|ref=offic.med._4
 
-# source = Hippocrates, offic.med. 4
+# source = Hippocrates, offic.med._4
 # text = Ὅργανα μὲν , καὶ ὅτε , καὶ οἵως , εἰρήσεται ·
 # sent_id = 56
 1	Ὅργανα	ὅργανον	n	n-p---na-	Case=n|Gender=n|Number=p	10	OBJ	_	t_646|t_655|ref=offic.med._4
@@ -921,14 +921,14 @@
 10	εἰρήσεται	ἔρομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_655|0|ref=offic.med._3
 11	·	·	u	u--------	_	10	AuxK	_	t_656|t_655|ref=offic.med._4
 
-# source = Hippocrates, offic.med. 4
+# source = Hippocrates, offic.med._4
 # text = ὅκου δεῖ ·
 # sent_id = 57
 1	ὅκου	ὅπου	d	d--------	_	2	ADV	_	t_657|t_658|ref=offic.med._4
 2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_658|0|ref=offic.med._4
 3	·	·	u	u--------	_	2	AuxK	_	t_659|t_658|ref=offic.med._4
 
-# source = Hippocrates, offic.med. 4
+# source = Hippocrates, offic.med._4
 # text = μὴ ἐμποδὼν τῷ ἔργῳ , μη δὲ ἐμποδὼν τῇ ἀναιρέσει , παρὰ τὸ ἐργαζόμενον δὲ τοῦ σώματος [0] ·
 # sent_id = 58
 1	μὴ	μή	d	d--------	_	2	AuxZ	_	t_660|t_661|ref=offic.med._4
@@ -951,7 +951,7 @@
 18	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=offic.med._1
 19	·	·	u	u--------	_	18	AuxK	_	t_677|e_44|ref=offic.med._4
 
-# source = Hippocrates, offic.med. 4-5
+# source = Hippocrates, offic.med._4-5
 # text = ἄλλος δὲ ἢν διδῷ , ἕτοιμος ὀλίγῳ πρότερον ἔστω , ποιείτω δὲ , ὅταν κελεύῃς .
 # sent_id = 59
 1	ἄλλος	ἄλλος	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_678|t_681|ref=offic.med._4
@@ -971,13 +971,13 @@
 15	κελεύῃς	κελεύω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	14	ADV	_	t_692|t_691|ref=offic.med._5
 16	.	.	u	u--------	_	5	AuxK	_	t_693|t_682|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 5
+# source = Hippocrates, offic.med._5
 # text = 6 .
 # sent_id = 60
 1	6	6	u	u--------	_	0	AuxG	_	t_694|0|ref=offic.med._5
 2	.	.	u	u--------	_	1	AuxK	_	t_695|t_694|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 5
+# source = Hippocrates, offic.med._5
 # text = Οἱ δὲ περὶ τὸν ἀσθενέοντα τὸ μὲν χειριζόμενον παρεχόντων , ὡς ἂν δοκῇ [0] ·
 # sent_id = 61
 1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_696|t_704|ref=offic.med._5
@@ -996,7 +996,7 @@
 14	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=offic.med._1
 15	·	·	u	u--------	_	14	AuxK	_	t_709|e_45|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 5
+# source = Hippocrates, offic.med._5
 # text = τὸ δὲ ἄλλο σῶμα κατεχόντων , ὡς ἂν ἀτρεμέῃ , σιγῶντες , ἀκούοντες τοῦ ἐφεστεῶτος [0] .
 # sent_id = 62
 1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_710|t_713|ref=offic.med._5
@@ -1017,14 +1017,14 @@
 16	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=offic.med._1
 17	.	.	u	u--------	_	16	AuxK	_	t_725|e_46|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 5
+# source = Hippocrates, offic.med._5
 # text = 7 [0] .
 # sent_id = 63
 1	7	7	u	u--------	_	2	AuxG	_	t_726|e_47|ref=offic.med._5
 2	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=offic.med._1
 3	.	.	u	u--------	_	2	AuxK	_	t_727|e_47|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 5
+# source = Hippocrates, offic.med._5
 # text = Ἐπιδέσιος δύο εἴδεα , εἰργασμένον , καὶ ἐργαζόμενον [0] .
 # sent_id = 64
 1	Ἐπιδέσιος	ἐπιδέσιος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_728|e_48|ref=offic.med._5
@@ -1038,7 +1038,7 @@
 9	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=offic.med._1
 10	.	.	u	u--------	_	9	AuxK	_	t_736|e_48|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 5-6
+# source = Hippocrates, offic.med._5-6
 # text = Ἐργαζόμενον μὲν , ταχέως , ἀπόνως , εὐπόρως , εὐρύθμως [0] ·
 # sent_id = 65
 1	Ἐργαζόμενον	ἐργάζομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	11	ADV	_	t_737|e_49|ref=offic.med._5
@@ -1054,7 +1054,7 @@
 11	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=offic.med._1
 12	·	·	u	u--------	_	11	AuxK	_	t_747|e_49|ref=offic.med._6
 
-# source = Hippocrates, offic.med. 6
+# source = Hippocrates, offic.med._6
 # text = ταχέως μὲν , ἀνύειν τὰ ἔργα [0] ·
 # sent_id = 66
 1	ταχέως	ταχύς	d	d--------	_	7	ADV	_	t_748|e_50|ref=offic.med._6
@@ -1066,7 +1066,7 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=offic.med._1
 8	·	·	u	u--------	_	7	AuxK	_	t_754|e_50|ref=offic.med._6
 
-# source = Hippocrates, offic.med. 6
+# source = Hippocrates, offic.med._6
 # text = ἀπόνως δὲ , ῥηῖδίως δρῇν [0] ·
 # sent_id = 67
 1	ἀπόνως	ἄπονος	d	d--------	_	3	ADV	_	t_755|t_757|ref=offic.med._6
@@ -1077,7 +1077,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_51|0|ref=offic.med._1
 7	·	·	u	u--------	_	6	AuxK	_	t_760|e_51|ref=offic.med._6
 
-# source = Hippocrates, offic.med. 6
+# source = Hippocrates, offic.med._6
 # text = εὐπόρως δὲ , ἐς πᾶν ἑτοίμως [0] ·
 # sent_id = 68
 1	εὐπόρως	εὔπορος	d	d--------	_	3	ADV	_	t_761|t_763|ref=offic.med._6
@@ -1089,7 +1089,7 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=offic.med._1
 8	·	·	u	u--------	_	7	AuxK	_	t_767|e_52|ref=offic.med._6
 
-# source = Hippocrates, offic.med. 6-5
+# source = Hippocrates, offic.med._6-5
 # text = εὐρύθμως δὲ , ὁρῆσθαι ἡδέως [0] ·
 # sent_id = 69
 1	εὐρύθμως	εὔρυθμος	d	d--------	_	6	ADV	_	t_768|e_53|ref=offic.med._6
@@ -1100,7 +1100,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=offic.med._1
 7	·	·	u	u--------	_	6	AuxK	_	t_773|e_53|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = ἀφ᾿ ὧν δὲ ταῦτα ἀσκημάτων , εἴρηται [0] .
 # sent_id = 70
 1	ἀφ᾿	ἀπό	r	r--------	_	8	AuxP	_	t_774|e_54|ref=offic.med._7
@@ -1113,7 +1113,7 @@
 8	[0]	[0]	-	---------	_	7	OBJ	_	e_54|t_780|ref=offic.med._1
 9	.	.	u	u--------	_	7	AuxK	_	t_781|t_780|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = Εἰργασμένον δὲ ἀγαθῶς , καλῶς [0] ·
 # sent_id = 71
 1	Εἰργασμένον	ἐργάζομαι	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	6	ADV	_	t_782|e_55|ref=offic.med._7
@@ -1124,7 +1124,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=offic.med._1
 7	·	·	u	u--------	_	6	AuxK	_	t_787|e_55|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = καλῶς μὲν , ἁπλῶς , εὐκρινέως [0] [1] ·
 # sent_id = 72
 1	καλῶς	καλός	d	d--------	_	5	ADV	_	t_788|t_792|ref=offic.med._7
@@ -1137,7 +1137,7 @@
 8	[1]	[1]	-	---------	_	0	PRED	_	e_57|0|ref=offic.med._1
 9	·	·	u	u--------	_	8	AuxK	_	t_794|e_57|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 6-5
+# source = Hippocrates, offic.med._6-5
 # text = ἢ ὅμοια καὶ ἴσα , ἴσως καὶ ὁμοίως [0] ·
 # sent_id = 73
 1	ἢ	ἤ1	c	c--------	_	9	AuxY	_	t_795|e_58|ref=offic.med._6
@@ -1151,7 +1151,7 @@
 9	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=offic.med._1
 10	·	·	u	u--------	_	9	AuxK	_	t_803|e_58|ref=offic.med._5
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = ἢ ἄνισα καὶ ἀνόμοια [ , ἀνίσως καὶ ἀνομοίως ] [0] ·
 # sent_id = 74
 1	ἢ	ἤ1	d	d--------	_	11	AuxY	_	t_804|e_59|ref=offic.med._7
@@ -1167,7 +1167,7 @@
 11	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=offic.med._1
 12	·	·	u	u--------	_	11	AuxK	_	t_814|e_59|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = τὰ δὲ εἴδεα , ἁπλοῦν , σκέπαρνον , σιμὸν , ὀφθαλμὸς , ῥόμβος , καὶ ἡμίτομον [0] [1] ·
 # sent_id = 75
 1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_815|t_817|ref=offic.med._7
@@ -1190,7 +1190,7 @@
 18	[1]	[1]	-	---------	_	15	PRED	_	e_61|t_829|ref=offic.med._1
 19	·	·	u	u--------	_	2	AuxK	_	t_831|t_816|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = ἁρμόζον τὸ εἶδος τῷ εἴδει καὶ τῷ πάθει τοῦ ἐπιδεομένου [0] .
 # sent_id = 76
 1	ἁρμόζον	ἁρμόζω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	PNOM	_	t_832|e_62|ref=offic.med._7
@@ -1206,14 +1206,14 @@
 11	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=offic.med._1
 12	.	.	u	u--------	_	11	AuxK	_	t_842|e_62|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = 8 [0] .
 # sent_id = 77
 1	8	8	x	x--------	_	2	AuxK	_	t_843|e_63|ref=offic.med._7
 2	[0]	[0]	-	---------	_	0	PRED	_	e_63|0|ref=offic.med._1
 3	.	.	u	u--------	_	2	AuxK	_	t_844|e_63|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = Ἀγαθὰ δὲ δύο εἴδεα τοῦ ἐπιδεομένου [0] ·
 # sent_id = 78
 1	Ἀγαθὰ	ἀγαθός	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_845|e_64|ref=offic.med._7
@@ -1225,7 +1225,7 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=offic.med._1
 8	·	·	u	u--------	_	7	AuxK	_	t_851|e_64|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = ἰσχύος μὲν , ἢ πιέξει , ἢ πλήθει ὀθονίων [0] [1] .
 # sent_id = 79
 1	ἰσχύος	ἰσχύς	n	n-s---fg-	Case=g|Gender=f|Number=s	10	PNOM	_	t_852|e_65|ref=offic.med._7
@@ -1241,7 +1241,7 @@
 11	[1]	[1]	-	---------	_	7	PRED	_	e_66|t_858|ref=offic.med._1
 12	.	.	u	u--------	_	10	AuxK	_	t_861|e_65|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = Τὸ μὲν οὖν , αὕτη ἡ ἐπίδεσις ἰῆται , τὸ δὲ τοῖσιν ἰωμένοισιν ὑπηρετέει .
 # sent_id = 80
 1	Τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	8	OBJ	_	t_862|t_869|ref=offic.med._7
@@ -1260,7 +1260,7 @@
 14	ὑπηρετέει	ὑπηρετέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_875|t_872|ref=offic.med._7
 15	.	.	u	u--------	_	11	AuxK	_	t_876|t_872|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = Ἐς μὲν οὖν ταῦτα νόμος [0] ·
 # sent_id = 81
 1	Ἐς	εἰς	r	r--------	Case=n|Gender=m|Number=s	6	PNOM	_	t_877|e_67|ref=offic.med._7
@@ -1271,7 +1271,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_67|0|ref=offic.med._1
 7	·	·	u	u--------	_	6	AuxK	_	t_882|e_67|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7
+# source = Hippocrates, offic.med._7
 # text = ἐν δὲ τουτέοισι μέγιστα ἐπιδέσιος [0] ·
 # sent_id = 82
 1	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_883|e_68|ref=offic.med._7
@@ -1282,7 +1282,7 @@
 6	[0]	[0]	-	---------	_	2	PRED	_	e_68|t_884|ref=offic.med._1
 7	·	·	u	u--------	_	2	AuxK	_	t_888|t_884|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 7-8
+# source = Hippocrates, offic.med._7-8
 # text = πίεξις μὲν , ὥστε τὰ ἐπικείμενα μὴ ἀφεστάναι , μη δὲ ἐρηρεῖσθαι κάρτα , ἀλλὰ ἡρμόσθαι μὲν , προσηναγκάσθαι δὲ μὴ , ἧσσον μὲν τὰ ἔσχατα , ἥκιστα δὲ τὰ μέσα [0] [1] [2] .
 # sent_id = 83
 1	πίεξις	πίεξις	n	n-s---fn-	Case=n|Gender=f|Number=s	32	SBJ	_	t_889|e_69|ref=offic.med._7
@@ -1321,7 +1321,7 @@
 34	[2]	[2]	-	---------	_	29	ADV	_	e_71|t_917|ref=offic.med._1
 35	.	.	u	u--------	_	32	AuxK	_	t_920|e_69|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = Ἅμμα , καὶ ῥάμμα νεμόμενον μὴ κάτω , ἀλλ᾿ ἄνω , ἐν παρέξει , καὶ σχέσει , καὶ ἐπιδέσει , καὶ πιέξει .
 # sent_id = 84
 1	Ἅμμα	ἅμμα	n	n-s---mv-	Case=v|Gender=m|Number=s	21	ExD	_	t_921|t_941|ref=offic.med._8
@@ -1348,7 +1348,7 @@
 22	πιέξει	πιέζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	21	PRED	_	t_942|t_941|ref=offic.med._8
 23	.	.	u	u--------	_	2	AuxK	_	t_943|t_922|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8-7
+# source = Hippocrates, offic.med._8-7
 # text = Ἀρχὰς βάλλεσθαι μὴ ἐπὶ τὸ ἕλκος , ἀλλ᾿ ἔνθα τὸ ἅμμα [0] .
 # sent_id = 85
 1	Ἀρχὰς	ἀρχή	n	n-p---fa-	Case=a|Gender=f|Number=p	2	OBJ	_	t_944|t_945|ref=offic.med._8
@@ -1365,7 +1365,7 @@
 12	[0]	[0]	-	---------	_	8	ADV	_	e_72|t_951|ref=offic.med._1
 13	.	.	u	u--------	_	2	AuxK	_	t_955|t_945|ref=offic.med._7
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = Τὸ δὲ ἅμμα μή τε ἐν τρίβῳ , μή τε ἐν ἔργῳ , μή τε ἐκεῖσε , ὅκου ἐνεόν [0] [1] .
 # sent_id = 86
 1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_956|t_958|ref=offic.med._8
@@ -1391,7 +1391,7 @@
 21	[1]	[1]	-	---------	_	16	ATR	_	e_74|t_971|ref=offic.med._1
 22	.	.	u	u--------	_	2	AuxK	_	t_975|t_957|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = Ἅμμα δὲ καὶ ῥάμμα μαλθακὸν , οὐ μέγα [0] .
 # sent_id = 87
 1	Ἅμμα	ἅμμα	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_976|t_978|ref=offic.med._8
@@ -1405,14 +1405,14 @@
 9	[0]	[0]	-	---------	_	2	PRED	_	e_75|t_977|ref=offic.med._1
 10	.	.	u	u--------	_	2	AuxK	_	t_984|t_977|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = 9 [0] .
 # sent_id = 88
 1	9	9	x	x--------	_	2	AuxK	_	t_985|e_76|ref=offic.med._8
 2	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=offic.med._2
 3	.	.	u	u--------	_	2	AuxK	_	t_986|e_76|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = Εὖ γε μὴν γνόντα , ὅτι ἐς τὰ κατάντη καὶ ἀπόξη φεύγει πᾶς ἐπίδεσμος , οἷον , κεφαλῆς μὲν τὸ ἄνω , κνήμης δὲ τὸ κάτω [0] [1] .
 # sent_id = 89
 1	Εὖ	εὖ	n	n-s---ma-	Case=v|Gender=m|Number=s	4	OBJ	_	t_987|t_990|ref=offic.med._8
@@ -1445,7 +1445,7 @@
 28	[1]	[1]	-	---------	_	24	ADV	_	e_78|t_1010|ref=offic.med._2
 29	.	.	u	u--------	_	27	AuxK	_	t_1013|e_77|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = Ἐπιδεῖν δεξιὰ ἐπ᾿ ἀριστερὰ , ἀριστερὰ ἐπὶ δεξιὰ , πλὴν τῆς κεφαλῆς [0] [1] ·
 # sent_id = 90
 1	Ἐπιδεῖν	ἐφοράω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	SBJ	_	t_1014|t_1018|ref=offic.med._8
@@ -1464,7 +1464,7 @@
 14	[1]	[1]	-	---------	_	5	OBJ	_	e_80|t_1018|ref=offic.med._2
 15	·	·	u	u--------	_	13	AuxK	_	t_1026|e_79|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = ταύτην δὲ κατ᾿ ἴξιν .
 # sent_id = 91
 1	ταύτην	οὗτος	p	p-s---fa-	Case=a|Gender=f|Number=s	0	PRED	_	t_1027|0|ref=offic.med._8
@@ -1473,7 +1473,7 @@
 4	ἴξιν	ἴξις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ADV	_	t_1030|t_1029|ref=offic.med._8
 5	.	.	u	u--------	_	1	AuxK	_	t_1031|t_1027|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8
+# source = Hippocrates, offic.med._8
 # text = Τὰ δ᾿ ὑπεναντία , ἀπὸ δύο ἀρχέων [0] ·
 # sent_id = 92
 1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_1032|e_81|ref=offic.med._8
@@ -1486,7 +1486,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_81|0|ref=offic.med._2
 9	·	·	u	u--------	_	8	AuxK	_	t_1039|e_81|ref=offic.med._8
 
-# source = Hippocrates, offic.med. 8-9
+# source = Hippocrates, offic.med._8-9
 # text = ἢν δὲ ἀπὸ μιῆς , ἐφ᾿ ὅμοιον ἐς τὸ μόνιμον , οἷον τὸ μέσον τῆς κεφαλῆς , ἢ ὅ τι ἄλλο τοιοῦτον [0] .
 # sent_id = 93
 1	ἢν	ἐάν	c	c--------	_	23	AuxC	_	t_1040|e_82|ref=offic.med._8
@@ -1514,7 +1514,7 @@
 23	[0]	[0]	-	---------	_	0	PRED	_	e_82|0|ref=offic.med._2
 24	.	.	u	u--------	_	23	AuxK	_	t_1062|e_82|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Τὰ δὲ κινεύμενα , οἷον ἄρθρα , ὅπη μὲν ξυγκάμπτεται , ὡς ἥκιστα , καὶ εὐσταλέστατα περιβάλλειν , οἷον ἰγνύῃ [0] [1] ·
 # sent_id = 94
 1	Τὰ	ὁ	p	p-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_1063|t_1065|ref=offic.med._9
@@ -1541,7 +1541,7 @@
 22	[1]	[1]	-	---------	_	5	ADV	_	e_84|t_1067|ref=offic.med._2
 23	·	·	u	u--------	_	2	AuxK	_	t_1083|t_1064|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = ὅπη δὲ περιτείνεται , ἁπλᾶ τε καὶ πλατέα , οἷον μύλῃ [0] ·
 # sent_id = 95
 1	ὅπη	ὅπη	d	d--------	_	3	ADV	_	t_1084|t_1086|ref=offic.med._9
@@ -1558,7 +1558,7 @@
 12	[0]	[0]	-	---------	_	0	PRED	_	e_85|0|ref=offic.med._2
 13	·	·	u	u--------	_	12	AuxK	_	t_1095|e_85|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = προσπεριβάλλειν δὲ καταλήψιος μὲν τῶν περὶ ταῦτα εἵνεκα , ἀναλήψιος δὲ τοῦ ξύμπαντος ἐπιδέσμου , ἐν τοῖσιν ἀτρεμέουσι καὶ λαπαρωτέροισι τοῦ σώματος , οἷον τὸ ἄνω καὶ τὸ κάτω τοῦ γούνατος [0] [1] ·
 # sent_id = 96
 1	προσπεριβάλλειν	προσπεριβάλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	32	SBJ	_	t_1096|e_86|ref=offic.med._9
@@ -1596,7 +1596,7 @@
 33	[1]	[1]	-	---------	_	24	ADV	_	e_87|t_1119|ref=offic.med._2
 34	·	·	u	u--------	_	32	AuxK	_	t_1127|e_86|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = ὁμολογέει δὲ ὤμου μὲν ἡ περὶ τὴν ἑτέρην μασχάλην περιβολὴ , βουβῶνος δὲ , ἡ περὶ τὸν ἕτερον κενεῶνα , καὶ κνήμης , ἡ ὑπὲρ γαστροκνημίης [0] [1] [2] .
 # sent_id = 97
 1	ὁμολογέει	ὁμολογέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_1128|t_1140|ref=offic.med._9
@@ -1630,7 +1630,7 @@
 29	[2]	[2]	-	---------	_	23	PRED	_	e_90|t_1150|ref=offic.med._2
 30	.	.	u	u--------	_	11	AuxK	_	t_1154|t_1138|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Ὁκόσοισι μὲν ἄνω ἠ φυγὴ , κάτωθεν ἡ ἀντίληψις [0] [1] ·
 # sent_id = 98
 1	Ὁκόσοισι	ὅσος	n	n-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_1155|e_91|ref=offic.med._9
@@ -1646,7 +1646,7 @@
 11	[1]	[1]	-	---------	_	6	PRED	_	e_92|t_1160|ref=offic.med._2
 12	·	·	u	u--------	_	6	AuxK	_	t_1164|t_1160|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = οἷσι δὲ κάτω , τ οὐναντίον [0] ·
 # sent_id = 99
 1	οἷσι	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_1165|t_1167|ref=offic.med._9
@@ -1658,7 +1658,7 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_93|0|ref=offic.med._2
 8	·	·	u	u--------	_	7	AuxK	_	t_1171|e_93|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = οἷσι δὲ μὴ ἔστι , οἷον κεφαλῇ , τουτέων ἐν τῷ ὁμαλωτάτῳ τὰς καταλήψιας ποιέεσθαι , καὶ ἥκιστα λοξῷ τῷ ἐπιδέσμῳ χρέεσθαι , ὡς τὸ μονιμώτατον ὕστατον περιβληθὲν τὰ πλανωδέστατα κατέχῃ [0] .
 # sent_id = 100
 1	οἷσι	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_1172|t_1175|ref=offic.med._9
@@ -1695,7 +1695,7 @@
 32	[0]	[0]	-	---------	_	0	PRED	_	e_94|0|ref=offic.med._2
 33	.	.	u	u--------	_	32	AuxK	_	t_1203|e_94|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Ὁκόσοισι δὲ τοῖσιν ὀθονίοισι μὴ εὐκαταλήπτως , μη δὲ εὐαναλήπτως ἔχει , ῥάμμασι τὰς ἀναλήψιας ποιέεσθαι ἐκ καταβολῆς ἢ ξυῤῥαφῆς .
 # sent_id = 101
 1	Ὁκόσοισι	ὅσος	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ATR	_	t_1204|t_1207|ref=offic.med._9
@@ -1720,14 +1720,14 @@
 20	ξυῤῥαφῆς	ξυραφή	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ADV	_	t_1223|t_1222|ref=offic.med._9
 21	.	.	u	u--------	_	16	AuxK	_	t_1224|t_1219|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = 10 [0] .
 # sent_id = 102
 1	10	10	u	u--------	_	2	AuxG	_	t_1225|e_95|ref=offic.med._9
 2	[0]	[0]	-	---------	_	0	PRED	_	e_95|0|ref=offic.med._2
 3	.	.	u	u--------	_	2	AuxK	_	t_1226|e_95|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Ἐπιδέσματα καθαρὰ , κοῦφα , μαλθακὰ , λεπτά [0] .
 # sent_id = 103
 1	Ἐπιδέσματα	ἐπίβλημα	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1227|e_96|ref=offic.med._9
@@ -1741,7 +1741,7 @@
 9	[0]	[0]	-	---------	_	0	PRED	_	e_96|0|ref=offic.med._2
 10	.	.	u	u--------	_	9	AuxK	_	t_1235|e_96|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Ἑλίσσειν ἀμφοτέρῃσιν ἅμα , καὶ ἑκατέρῃ χωρὶς ἀσκέειν .
 # sent_id = 104
 1	Ἑλίσσειν	ἑλίσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	PRED	_	t_1236|t_1240|ref=offic.med._9
@@ -1754,7 +1754,7 @@
 8	ἀσκέειν	ἀσκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	PRED	_	t_1243|t_1240|ref=offic.med._9
 9	.	.	u	u--------	_	5	AuxK	_	t_1244|t_1240|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Τῇ πρεπούσῃ δὲ , ἐς τὰ πλάτη καὶ τὰ πάχη τῶν μορίων τεκμαιρόμενον , χρέεσθαι [0] .
 # sent_id = 105
 1	Τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_1245|t_1246|ref=offic.med._9
@@ -1775,7 +1775,7 @@
 16	[0]	[0]	-	---------	_	3	PRED	_	e_97|t_1247|ref=offic.med._2
 17	.	.	u	u--------	_	3	AuxK	_	t_1260|t_1247|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Ἑλίξιος κεφαλαὶ σκληραὶ , ὁμαλαὶ , εὐκρινέες [0] .
 # sent_id = 106
 1	Ἑλίξιος	ἑλίξιος	a	a-s---mn-	Case=g|Gender=f|Number=s	2	ATR	_	t_1261|t_1262|ref=offic.med._9
@@ -1788,7 +1788,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_98|0|ref=offic.med._2
 9	.	.	u	u--------	_	8	AuxK	_	t_1268|e_98|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Τὰ δὲ δὴ μέλλοντα ἀποπίπτειν κακίω ταχέως ἀποπεσόντων [0] ·
 # sent_id = 107
 1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_1269|t_1272|ref=offic.med._9
@@ -1802,7 +1802,7 @@
 9	[0]	[0]	-	---------	_	2	PRED	_	e_99|t_1270|ref=offic.med._2
 10	·	·	u	u--------	_	2	AuxK	_	t_1277|t_1270|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = τὰ δὲ , ὡς μή τε πιέζειν , μή τε ἀποπίπτειν [0] [1] .
 # sent_id = 108
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_1278|e_100|ref=offic.med._9
@@ -1820,13 +1820,13 @@
 13	[1]	[1]	-	---------	_	4	ADV	_	e_101|t_1281|ref=offic.med._2
 14	.	.	u	u--------	_	12	AuxK	_	t_1289|e_100|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = 11 .
 # sent_id = 109
 1	11	11	x	x--------	_	0	AuxG	_	t_1290|0|ref=offic.med._9
 2	.	.	u	u--------	_	1	AuxK	_	t_1291|t_1290|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9
+# source = Hippocrates, offic.med._9
 # text = Ὧν δὲ ἔχεται ἢ ἐπίδεσις , ἢ ὑπόδεσις , ἢ ἀμφότερα [0] ·
 # sent_id = 110
 1	Ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	3	OBJ	_	t_1292|t_1294|ref=offic.med._9
@@ -1843,7 +1843,7 @@
 12	[0]	[0]	-	---------	_	0	PRED	_	e_102|0|ref=offic.med._2
 13	·	·	u	u--------	_	12	AuxK	_	t_1303|e_102|ref=offic.med._9
 
-# source = Hippocrates, offic.med. 9-10
+# source = Hippocrates, offic.med._9-10
 # text = ὑπόδεσις μὲν αἰτίη , ὥστε ἢ ἀφεστεῶτα προστεῖλαι , ἢ ἐκπεπταμένα συστεῖλαι , ἢ ξυνεσταλμένα διαστεῖλαι , ἢ διεστραμμένα διορθῶσαι , ἢ τ ἀναντία [0] [1] .
 # sent_id = 111
 1	ὑπόδεσις	ὑπόδεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_1304|e_103|ref=offic.med._9
@@ -1874,7 +1874,7 @@
 26	[1]	[1]	-	---------	_	22	ADV	_	e_104|t_1325|ref=offic.med._2
 27	.	.	u	u--------	_	25	AuxK	_	t_1328|e_103|ref=offic.med._10
 
-# source = Hippocrates, offic.med. 10
+# source = Hippocrates, offic.med._10
 # text = Παρασκευάζειν δὲ ὀθόνια κοῦρα , λεπτὰ , μαλθακὰ , καθαρὰ , πλατέα , μὴ ἔχοντα ξυῤῥαφὰς , μηδ᾿ ἐξαστίας , καὶ ὑγιέα , ὥστε τάνυσιν φέρειν , καὶ ὀλίγῳ κρέσσω , μὴ ξηρὰ , ἀλλ᾿ ἔγχυμα χυμῷ , ᾧ ἕκαστα ξύντροφα [0] .
 # sent_id = 112
 1	Παρασκευάζειν	παρασκευάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_1329|0|ref=offic.med._10
@@ -1921,7 +1921,7 @@
 42	[0]	[0]	-	---------	_	28	ATR	_	e_105|t_1356|ref=offic.med._2
 43	.	.	u	u--------	_	1	AuxK	_	t_1370|t_1329|ref=offic.med._10
 
-# source = Hippocrates, offic.med. 10
+# source = Hippocrates, offic.med._10
 # text = Ἀφεστεῶτα μὲν , ὥστε τὰ μετέωρα τῆς ἕδρης ψαύειν μὲν , πιέζειν δὲ μή ·
 # sent_id = 113
 1	Ἀφεστεῶτα	ἀφίστημι	n	n-s---ma-	Case=a|Gender=m|Number=s	0	PRED	_	t_1371|0|ref=offic.med._10
@@ -1940,7 +1940,7 @@
 14	μή	μή	d	d--------	_	12	AuxZ	_	t_1384|t_1382|ref=offic.med._10
 15	·	·	u	u--------	_	1	AuxK	_	t_1385|t_1371|ref=offic.med._10
 
-# source = Hippocrates, offic.med. 10-11
+# source = Hippocrates, offic.med._10-11
 # text = ἄρχεσθαι δὲ ἐκ τοῦ ὑγιέος τελευτᾷν δὲ πρὸς τὸ ἕλκος , ὡς τὸ μὲν ὑπεὸν ἐξαθέλγηται , ἕτερον δὲ μὴ ἐπιξυλλέγηται ·
 # sent_id = 114
 1	ἄρχεσθαι	ἄρχω	v	v--pne---	Mood=n|Tense=p|Voice=e	0	PRED	_	t_1386|0|ref=offic.med._10
@@ -1966,7 +1966,7 @@
 21	ἐπιξυλλέγηται	ἐπιξυλλέγω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	19	ADV	_	t_1406|t_1404|ref=offic.med._11
 22	·	·	u	u--------	_	1	AuxK	_	t_1407|t_1386|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = ἐπιδεῖν τὰ μὲν ὀρθὰ ἐς ὀρθὸν , τὰ δὲ λοξὰ λοξῶς , ἐν σχήματι ἀπόνῳ , ἐν ᾧ μή τε ἀπόσφιγξις , μή τε ἀπόστασις ἔσται τις , ἐξ οὗ , ὅταν μεταλλάσσῃ ἢ ἐς ἀνάληψιν ἢ ἐς θέσιν , οὐ μεταλλάξουσιν , ἀλλ᾿ ὅμοια ταῦτα ἕξουσι , μύεις , φλέβες , νεῦρα , ὀστέα , ᾗ μάλιστα εὔθετα καὶ εὔσχετα [0] [1] [2] ·
 # sent_id = 115
 1	ἐπιδεῖν	ἐφοράω	v	v--ana---	Mood=n|Tense=a|Voice=a	62	OBJ	_	t_1408|e_106|ref=offic.med._11
@@ -2035,7 +2035,7 @@
 64	[2]	[2]	-	---------	_	46	ATR	_	e_108|t_1453|ref=offic.med._2
 65	·	·	u	u--------	_	62	AuxK	_	t_1469|e_106|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = ἀναλελάφθαι δὲ , ἢ κέεσθαι ἐν σχήματι ἀπόνῳ τῷ κατὰ φύσιν ·
 # sent_id = 116
 1	ἀναλελάφθαι	ἀναλείπω	v	v--rne---	Mood=n|Tense=r|Voice=e	4	PRED	_	t_1470|t_1473|ref=offic.med._11
@@ -2051,7 +2051,7 @@
 11	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1480|t_1479|ref=offic.med._11
 12	·	·	u	u--------	_	3	AuxK	_	t_1481|t_1472|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = ὧν δὲ ἂν ἀποστῇ , τ ἀναντία [0] .
 # sent_id = 117
 1	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	4	OBJ	_	t_1482|t_1485|ref=offic.med._11
@@ -2064,7 +2064,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_109|0|ref=offic.med._2
 9	.	.	u	u--------	_	8	AuxK	_	t_1489|e_109|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = Ὧν δὲ ἐκπεπταμένα ξυστεῖλαι , τὰ μὲν ἄλλα κατὰ τὰ αὐτὰ , ἐκ πολλοῦ δέ τινος δεῖ τὴν ξυναγωγὴν , καὶ ἐκ προσαγωγῆς τὴν πίεξιν , τὸ πρῶτον ἥκιστα , ἔπειτα ἐπὶ μᾶλλον , ὅριον τοῦ μάλιστα τὸ ξυμψαύειν [0] [1] [2] .
 # sent_id = 118
 1	Ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	3	OBJ	_	t_1490|t_1492|ref=offic.med._11
@@ -2111,7 +2111,7 @@
 42	[2]	[2]	-	---------	_	31	SBJ	_	e_112|t_1520|ref=offic.med._2
 43	.	.	u	u--------	_	5	AuxK	_	t_1529|t_1494|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = Ὧν δὲ ξυνεσταλμένα διαστεῖλαι ξὺν μὲν φλεγμονῇ τ ἀναντία [0] ·
 # sent_id = 119
 1	Ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1530|t_1532|ref=offic.med._11
@@ -2126,7 +2126,7 @@
 10	[0]	[0]	-	---------	_	0	PRED	_	e_113|0|ref=offic.med._2
 11	·	·	u	u--------	_	10	AuxK	_	t_1539|e_113|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = ἄνευ δὲ ταύτης , παρασκευῇ μὲν τῇ αὐτῇ , ἐπιδέσει δὲ ἐναντίῃ [0] [1] .
 # sent_id = 120
 1	ἄνευ	ἄνευ	r	r--------	_	13	AuxP	_	t_1540|e_114|ref=offic.med._11
@@ -2145,7 +2145,7 @@
 14	[1]	[1]	-	---------	_	11	PRED	_	e_115|t_1550|ref=offic.med._2
 15	.	.	u	u--------	_	4	AuxK	_	t_1552|t_1543|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = Διεστραμμένα δὲ διορθῶσαι , τὰ μὲν ἄλλα κατὰ τὰ αὐτά ·
 # sent_id = 121
 1	Διεστραμμένα	διεστραμμένος	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	3	OBJ	_	t_1553|t_1555|ref=offic.med._11
@@ -2160,7 +2160,7 @@
 10	αὐτά	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	8	ADV	_	t_1562|t_1560|ref=offic.med._11
 11	·	·	u	u--------	_	2	AuxK	_	t_1563|t_1554|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = δεῖ δὲ τὰ μὲν ἀπεληλυθότα ἐπαγαγεῖν ὑποδέσει , παρακολλήσει , ἀναλήψει ·
 # sent_id = 122
 1	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_1564|t_1573|ref=offic.med._11
@@ -2176,7 +2176,7 @@
 11	ἀναλήψει	ἀνάληψις	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	10	PRED	_	t_1574|t_1573|ref=offic.med._11
 12	·	·	u	u--------	_	8	AuxK	_	t_1575|t_1571|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = τὰ δὲ ἐναντία , ἐναντίως [0] .
 # sent_id = 123
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_1576|t_1578|ref=offic.med._11
@@ -2187,13 +2187,13 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_116|0|ref=offic.med._2
 7	.	.	u	u--------	_	6	AuxK	_	t_1581|e_116|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = 12 .
 # sent_id = 124
 1	12	12	x	x--------	_	0	AuxG	_	t_1582|0|ref=offic.med._11
 2	.	.	u	u--------	_	1	AuxK	_	t_1583|t_1582|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = Κατήγμασι δὲ , σπληνῶν μήκεα , πλάτεα , πάχεα , πλήθεα [0] ·
 # sent_id = 125
 1	Κατήγμασι	κάταγμα	n	n-p---nd-	Case=d|Gender=n|Number=p	12	OBJ	_	t_1584|e_117|ref=offic.med._11
@@ -2210,7 +2210,7 @@
 12	[0]	[0]	-	---------	_	2	PRED	_	e_117|t_1585|ref=offic.med._2
 13	·	·	u	u--------	_	2	AuxK	_	t_1595|t_1585|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = μῆκος , ὅση ἡ ἐπίδεσις [0] ·
 # sent_id = 126
 1	μῆκος	μῆκος	n	n-s---na-	Case=a|Gender=n|Number=s	6	PNOM	_	t_1596|e_118|ref=offic.med._11
@@ -2221,7 +2221,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_118|0|ref=offic.med._2
 7	·	·	u	u--------	_	6	AuxK	_	t_1601|e_118|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = πλάτος τριῶν ἢ τεσσάρων δακτύλων [0] ·
 # sent_id = 127
 1	πλάτος	πλάτος	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_1602|e_119|ref=offic.med._11
@@ -2232,7 +2232,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_119|0|ref=offic.med._2
 7	·	·	u	u--------	_	6	AuxK	_	t_1607|e_119|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = πάχος , τριπτύχους ἢ τετραπτύχους [0] ·
 # sent_id = 128
 1	πάχος	πάχος	n	n-s---na-	Case=a|Gender=n|Number=s	6	ExD	_	t_1608|e_120|ref=offic.med._11
@@ -2243,7 +2243,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_120|0|ref=offic.med._2
 7	·	·	u	u--------	_	6	AuxK	_	t_1613|e_120|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = πλῆθος , κυκλεῦντας μὴ ὑπερβάλλειν , μη δὲ ἐλλείπειν ·
 # sent_id = 129
 1	πλῆθος	πλῆθος	n	n-s---nv-	Case=a|Gender=n|Number=s	8	ExD	_	t_1614|t_1621|ref=offic.med._11
@@ -2257,7 +2257,7 @@
 9	ἐλλείπειν	ἐλλείπω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	PRED	_	t_1622|t_1621|ref=offic.med._11
 10	·	·	u	u--------	_	8	AuxK	_	t_1623|t_1621|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = οἷσι δὲ ἐς διόρθωσιν , μῆκος , κυκλεῦντα [0] ·
 # sent_id = 130
 1	οἷσι	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_1624|e_121|ref=offic.med._11
@@ -2271,7 +2271,7 @@
 9	[0]	[0]	-	---------	_	2	PRED	_	e_121|t_1625|ref=offic.med._2
 10	·	·	u	u--------	_	2	AuxK	_	t_1632|t_1625|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = πλάτος καὶ πάχος τῇ ἐνδείῃ τεκμαίρεσθαι , μὴ ἀθρόα πληρεῦντα .
 # sent_id = 131
 1	πλάτος	πλάτος	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_1633|t_1634|ref=offic.med._11
@@ -2286,7 +2286,7 @@
 10	πληρεῦντα	πληρόω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_1642|t_1638|ref=offic.med._11
 11	.	.	u	u--------	_	6	AuxK	_	t_1643|t_1638|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = Τῶν δὲ ὀθονίων ὑποδεσμίδες εἰσὶ δύο ·
 # sent_id = 132
 1	Τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_1644|t_1646|ref=offic.med._11
@@ -2297,7 +2297,7 @@
 6	δύο	δύο	m	m-d---fn-	_	4	ATR	_	t_1649|t_1647|ref=offic.med._11
 7	·	·	u	u--------	_	2	AuxK	_	t_1650|t_1645|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = τῇ πρώτῃ ἐκ τοῦ σίνεος ἐς τὸ ἄνω τελευτώσῃ , τῇ δὲ δευτέρῃ , ἐκ τοῦ σίνεος ἐς τὸ κάτω , ἐκ τοῦ κάτω ἐς τὸ ἄνω τελευτώσῃ [0] [1] ·
 # sent_id = 133
 1	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_1651|t_1652|ref=offic.med._11
@@ -2332,7 +2332,7 @@
 30	[1]	[1]	-	---------	_	21	PRED	_	e_123|t_1671|ref=offic.med._2
 31	·	·	u	u--------	_	10	AuxK	_	t_1679|t_1660|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11
+# source = Hippocrates, offic.med._11
 # text = τὰ κατὰ τὸ σίνος πιέζειν μάλιστα , ἥκιστα τὰ ἄκρα , τὰ δὲ ἄλλακατὰ λόγον [0] [1] .
 # sent_id = 134
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_1680|t_1684|ref=offic.med._11
@@ -2354,7 +2354,7 @@
 17	[1]	[1]	-	---------	_	13	OBJ	_	e_125|t_1692|ref=offic.med._2
 18	.	.	u	u--------	_	7	AuxK	_	t_1695|t_1686|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 11-12
+# source = Hippocrates, offic.med._11-12
 # text = Ἡ δὲ ἐπίδεσις πουλὺ τοῦ ὑγιέος προσλαμβανέτω .
 # sent_id = 135
 1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_1696|t_1698|ref=offic.med._11
@@ -2366,7 +2366,7 @@
 7	προσλαμβανέτω	προσλαμβάνω	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1702|t_1697|ref=offic.med._12
 8	.	.	u	u--------	_	2	AuxK	_	t_1703|t_1697|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12-11
+# source = Hippocrates, offic.med._12-11
 # text = Ἐπιδέσμων δὲ πλῆθος , μῆκος , πλάτος [0] ·
 # sent_id = 136
 1	Ἐπιδέσμων	ἐπίδεσμος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1704|t_1709|ref=offic.med._12
@@ -2379,7 +2379,7 @@
 8	[0]	[0]	-	---------	_	2	PRED	_	e_126|t_1705|ref=offic.med._2
 9	·	·	u	u--------	_	2	AuxK	_	t_1711|t_1705|ref=offic.med._11
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = πλῆθος μὲν , μὴ ἡσσᾶσθαι τοῦ σίνεος , μη δὲ νάρθηξιν ἐνέρεισιν εἶναι , μη δὲ ἄχθος , μη δὲ περίῤῥεψιν , μη δὲ ἐκθήλυνσιν [0] [1] ·
 # sent_id = 137
 1	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	5	SBJ	_	t_1712|t_1716|ref=offic.med._12
@@ -2411,7 +2411,7 @@
 27	[1]	[1]	-	---------	_	24	PRED	_	e_128|t_1735|ref=offic.med._2
 28	·	·	u	u--------	_	24	AuxK	_	t_1737|t_1735|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = μῆκος δὲ καὶ πλάτος , τριῶν , ἢ τεσσάρων , ἢ πέντε , ἢ ἓξ , πήχεων μὲν μῆκος , δακτύλων δὲ πλάτος [0] [1] .
 # sent_id = 138
 1	μῆκος	μῆκος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_1738|t_1740|ref=offic.med._12
@@ -2441,7 +2441,7 @@
 25	[1]	[1]	-	---------	_	22	PRED	_	e_130|t_1759|ref=offic.med._3
 26	.	.	u	u--------	_	5	AuxK	_	t_1761|t_1742|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Καὶ παραιρήματος περιβολαὶ τοσαῦται , ὥστε μὴ πιέζειν [0] ·
 # sent_id = 139
 1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1762|0|ref=offic.med._12
@@ -2455,7 +2455,7 @@
 9	[0]	[0]	-	---------	_	1	PRED	_	e_131|t_1762|ref=offic.med._3
 10	·	·	u	u--------	_	1	AuxK	_	t_1770|t_1762|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = μαλθακὰ δὲ , μὴ παχέα [0] ·
 # sent_id = 140
 1	μαλθακὰ	μαλθακός	a	a-p---nn-	Case=n|Gender=n|Number=p	3	PNOM	_	t_1771|t_1773|ref=offic.med._12
@@ -2466,7 +2466,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_132|0|ref=offic.med._3
 7	·	·	u	u--------	_	6	AuxK	_	t_1776|e_132|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = ταῦτα πάντα , ὡς ἐπὶ μήκει καὶ πλάτει καὶ πάχει τοῦ παθόντος [0] .
 # sent_id = 141
 1	ταῦτα	οὗτος	a	a-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_1777|e_133|ref=offic.med._12
@@ -2484,7 +2484,7 @@
 13	[0]	[0]	-	---------	_	0	PRED	_	e_133|0|ref=offic.med._3
 14	.	.	u	u--------	_	13	AuxK	_	t_1789|e_133|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Νάρθηκες δὲ λεῖοι , ὁμαλοὶ , σιμοὶ κατ᾿ ἄκρα , σμικρῷ μείους ἔνθεν καὶ ἔνθεν τῆς ἐπιδέσιος , παχύτατοι δὲ , ᾗ ἐξήριπε τὸ κάτηγμα [0] [1] .
 # sent_id = 142
 1	Νάρθηκες	νάρθηξ	n	n-p---mn-	Case=n|Gender=m|Number=p	26	SBJ	_	t_1790|e_134|ref=offic.med._12
@@ -2516,7 +2516,7 @@
 27	[1]	[1]	-	---------	_	20	PRED	_	e_135|t_1809|ref=offic.med._3
 28	.	.	u	u--------	_	4	AuxK	_	t_1815|t_1793|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Ὁκόσα δὲ κυρτὰ καὶ ἄσαρκα φύσει , φυλασσόμενον τῶν ὑπερεχόντων , οἷον κατὰ δακτύλους ἢ σφυρὰ , ἢ τῇ θέσει , ἢ τῇ βραχύτητι [0] [1] .
 # sent_id = 143
 1	Ὁκόσα	ὁπόσος	n	n-s---fn-	Case=n|Gender=f|Number=s	25	SBJ	_	t_1816|e_136|ref=offic.med._12
@@ -2547,7 +2547,7 @@
 26	[1]	[1]	-	---------	_	12	ADV	_	e_137|t_1827|ref=offic.med._3
 27	.	.	u	u--------	_	25	AuxK	_	t_1840|e_136|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Παραιρήμασι δὲ ἑρμάζειν , μὴ πιέζειν τὸ πρῶτον .
 # sent_id = 144
 1	Παραιρήμασι	παράλειμμα	n	n-p---nd-	Case=d|Gender=n|Number=p	3	OBJ	_	t_1841|t_1843|ref=offic.med._12
@@ -2560,7 +2560,7 @@
 8	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_1848|t_1846|ref=offic.med._12
 9	.	.	u	u--------	_	4	AuxK	_	t_1849|t_1844|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Κηρωτῇ μαλθακῇ , καὶ λείῃ , καὶ καθαρῇ ἑλισσέσθω .
 # sent_id = 145
 1	Κηρωτῇ	κηρωτή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_1850|t_1858|ref=offic.med._12
@@ -2574,13 +2574,13 @@
 9	ἑλισσέσθω	ἑλίσσω	v	v3spme---	Mood=m|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1858|0|ref=offic.med._12
 10	.	.	u	u--------	_	9	AuxK	_	t_1859|t_1858|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = 13 .
 # sent_id = 146
 1	13	13	x	x--------	_	0	AuxG	_	t_1860|0|ref=offic.med._12
 2	.	.	u	u--------	_	1	AuxK	_	t_1861|t_1860|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Ὕδατος θερμότης , πλῆθος [0] ·
 # sent_id = 147
 1	Ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_1862|t_1863|ref=offic.med._12
@@ -2590,7 +2590,7 @@
 5	[0]	[0]	-	---------	_	0	PRED	_	e_138|0|ref=offic.med._3
 6	·	·	u	u--------	_	5	AuxK	_	t_1866|e_138|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = θερμότης μὲν , κατὰ τῆς ἑωυτοῦ χειρὸς καταχεῖν [0] ·
 # sent_id = 148
 1	θερμότης	θερμότης	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_1867|e_139|ref=offic.med._12
@@ -2604,7 +2604,7 @@
 9	[0]	[0]	-	---------	_	0	PRED	_	e_139|0|ref=offic.med._3
 10	·	·	u	u--------	_	9	AuxK	_	t_1875|e_139|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = πλῆθος δὲ , χαλάσαι μὲν καὶ ἰσχνῆναι τὸ πλεῖστον , ἄριστον , σαρκῶσαι δὲ καὶ ἁπαλῦναι , τὸ μέτριον [0] ·
 # sent_id = 149
 1	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	20	ADV	_	t_1876|e_140|ref=offic.med._12
@@ -2629,7 +2629,7 @@
 20	[0]	[0]	-	---------	_	0	PRED	_	e_140|0|ref=offic.med._3
 21	·	·	u	u--------	_	20	AuxK	_	t_1895|e_140|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = μέτρον δὲ τῆς καταχύσιος , ἔτι μετεωριζομένου , δεῖ , πρὶν ξυμπίπτειν , παύεσθαι ·
 # sent_id = 150
 1	μέτρον	μέτρον	n	n-s---na-	Case=a|Gender=n|Number=s	14	SBJ	_	t_1896|t_1909|ref=offic.med._12
@@ -2648,7 +2648,7 @@
 14	παύεσθαι	παύω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	SBJ	_	t_1909|t_1904|ref=offic.med._12
 15	·	·	u	u--------	_	9	AuxK	_	t_1910|t_1904|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = τὸ μὲν γὰρ πρῶτον αἴρεται , ἔπειτα δὲ ἰσχναίνεται .
 # sent_id = 151
 1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1911|t_1914|ref=offic.med._12
@@ -2662,13 +2662,13 @@
 9	ἰσχναίνεται	ἰσχναίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	8	PRED	_	t_1919|t_1918|ref=offic.med._12
 10	.	.	u	u--------	_	8	AuxK	_	t_1920|t_1918|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = 14 .
 # sent_id = 152
 1	14	14	x	x--------	_	0	AuxG	_	t_1921|0|ref=offic.med._12
 2	.	.	u	u--------	_	1	AuxK	_	t_1922|t_1921|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Θέσις δὲ μαλθακὴ , ὁμαλὴ , ἀνάῤῥοπος τοῖσιν ἐξέχουσι τοῦ σώματος , οἷον πτέρνῃ καὶ ἰσχίῳ , ὡς μή τε ἀνακλᾶται , μή τε ἀποκλᾶται , μή τε ἐκτρέπηται [0] [1] .
 # sent_id = 153
 1	Θέσις	θέσις	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_1923|e_141|ref=offic.med._12
@@ -2704,7 +2704,7 @@
 31	[1]	[1]	-	---------	_	18	ADV	_	e_142|t_1940|ref=offic.med._3
 32	.	.	u	u--------	_	30	AuxK	_	t_1952|e_141|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = Σωλῆνα παντὶ τῷ σκέλει , ἢ ἡμίσει [0] ·
 # sent_id = 154
 1	Σωλῆνα	σωλήν	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_1953|e_143|ref=offic.med._12
@@ -2717,7 +2717,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_143|0|ref=offic.med._3
 9	·	·	u	u--------	_	8	AuxK	_	t_1960|e_143|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = ἐς τὸ πάθος δὲ βλέπειν καὶ τ ἄλλα ὅσα βλάπτει δῆλα [0] .
 # sent_id = 155
 1	ἐς	εἰς	r	r--------	_	5	AuxP	_	t_1961|t_1965|ref=offic.med._12
@@ -2734,13 +2734,13 @@
 12	[0]	[0]	-	---------	_	0	PRED	_	e_144|0|ref=offic.med._3
 13	.	.	u	u--------	_	12	AuxK	_	t_1972|e_144|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12
+# source = Hippocrates, offic.med._12
 # text = 15 .
 # sent_id = 156
 1	15	15	u	u--------	_	0	AuxG	_	t_1973|0|ref=offic.med._12
 2	.	.	u	u--------	_	1	AuxK	_	t_1974|t_1973|ref=offic.med._12
 
-# source = Hippocrates, offic.med. 12-13
+# source = Hippocrates, offic.med._12-13
 # text = Πάρεξις δὲ , καὶ διάτασις , καὶ ἀνάπλασις , καὶ τὰ ἄλλα κατὰ φύσιν , Φύσις δὲ ἐν μὲν ἔργοις , τοῦ ἔργου τῇ πρήξει , ὃ βούλεται , τεκμαρτέον [0] [1] ·
 # sent_id = 157
 1	Πάρεξις	πάρεξις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_1975|t_1984|ref=offic.med._12
@@ -2777,7 +2777,7 @@
 32	[1]	[1]	-	---------	_	17	PRED	_	e_146|t_1991|ref=offic.med._3
 33	·	·	u	u--------	_	3	AuxK	_	t_2005|t_1977|ref=offic.med._13
 
-# source = Hippocrates, offic.med. 13
+# source = Hippocrates, offic.med._13
 # text = ἐς δὲ ταῦτα , ἐκ τοῦ ἐλινύοντος , ἐκ τοῦ κοινοῦ , ἐκ τοῦ ἔθεος [0] [1] ·
 # sent_id = 158
 1	ἐς	εἰς	r	r--------	_	16	AuxP	_	t_2006|e_147|ref=offic.med._13
@@ -2799,7 +2799,7 @@
 17	[1]	[1]	-	---------	_	16	PRED	_	e_148|e_147|ref=offic.med._3
 18	·	·	u	u--------	_	16	AuxK	_	t_2021|e_147|ref=offic.med._13
 
-# source = Hippocrates, offic.med. 13
+# source = Hippocrates, offic.med._13
 # text = ἐκ μὲν τοῦ ἐλινύοντος καὶ ἀφειμένου , τὰς ἰθυωρίας σκέπτεσθαι , οἷον τὸ τῆς χειρός [0] ·
 # sent_id = 159
 1	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_2022|t_2031|ref=offic.med._13
@@ -2820,7 +2820,7 @@
 16	[0]	[0]	-	---------	_	0	PRED	_	e_149|0|ref=offic.med._3
 17	·	·	u	u--------	_	16	AuxK	_	t_2037|e_149|ref=offic.med._13
 
-# source = Hippocrates, offic.med. 13
+# source = Hippocrates, offic.med._13
 # text = ἐκ δὲ τοῦ κοινοῦ , ἔκτασιν , ξύγκαμψιν , οἷον τὸ ἐγγὺς τοῦ ἐγγωνίου πήχεος πρὸς βραχίονα [0] [1] ·
 # sent_id = 160
 1	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_2038|e_150|ref=offic.med._13
@@ -2844,7 +2844,7 @@
 19	[1]	[1]	-	---------	_	10	ADV	_	e_151|t_2047|ref=offic.med._3
 20	·	·	u	u--------	_	18	AuxK	_	t_2055|e_150|ref=offic.med._13
 
-# source = Hippocrates, offic.med. 13-14
+# source = Hippocrates, offic.med._13-14
 # text = ἐκ δὲ τοῦ ἔθεος , ὅτι οὐκ ἄλλα σχήματα φέρειν δυνατώτερον , οἷον σκέλεα ἔκτασιν [0] [1] ·
 # sent_id = 161
 1	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_2056|e_152|ref=offic.med._13
@@ -2866,7 +2866,7 @@
 17	[1]	[1]	-	---------	_	6	ADV	_	e_153|t_2061|ref=offic.med._3
 18	·	·	u	u--------	_	16	AuxK	_	t_2071|e_152|ref=offic.med._14
 
-# source = Hippocrates, offic.med. 14
+# source = Hippocrates, offic.med._14
 # text = ἀπὸ τουτέων γὰρ ῥήϊστα πλεῖστον χρόνον ἔχοι ἂν μὴ μεταλλάσσοντα .
 # sent_id = 162
 1	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_2072|t_2078|ref=offic.med._14
@@ -2881,7 +2881,7 @@
 10	μεταλλάσσοντα	μεταλλάσσω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_2081|t_2078|ref=offic.med._14
 11	.	.	u	u--------	_	7	AuxK	_	t_2082|t_2078|ref=offic.med._14
 
-# source = Hippocrates, offic.med. 14
+# source = Hippocrates, offic.med._14
 # text = Ἐν δὲ τῇ μεταλλαγῇ ἐκ διατάσιος ὅμοια ταῦτα ἕξουσιν ἐς ἕξιν ἢ θέσιν μύες , φλέβες , νεῦρα , ὀστέα , ᾗ μάλιστα εὔθετα καὶ εὔσχετα .
 # sent_id = 163
 1	Ἐν	ἐν	r	r--------	_	9	AuxP	_	t_2083|t_2091|ref=offic.med._14
@@ -2912,13 +2912,13 @@
 26	εὔσχετα	εὔσχετος	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_2108|t_2107|ref=offic.med._14
 27	.	.	u	u--------	_	2	AuxK	_	t_2109|t_2084|ref=offic.med._14
 
-# source = Hippocrates, offic.med. 14
+# source = Hippocrates, offic.med._14
 # text = 16 .
 # sent_id = 164
 1	16	16	x	x--------	_	0	AuxG	_	t_2110|0|ref=offic.med._14
 2	.	.	u	u--------	_	1	AuxK	_	t_2111|t_2110|ref=offic.med._14
 
-# source = Hippocrates, offic.med. 14-15
+# source = Hippocrates, offic.med._14-15
 # text = Διάτασις μάλιστα , τὰ μέγιστα καὶ πάχιστα , καὶ ὅκου ἀμφότερα [0] [1] ·
 # sent_id = 165
 1	Διάτασις	διάτασις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_2112|e_154|ref=offic.med._14
@@ -2936,7 +2936,7 @@
 13	[1]	[1]	-	---------	_	9	ADV	_	e_155|t_2120|ref=offic.med._3
 14	·	·	u	u--------	_	12	AuxK	_	t_2123|e_154|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = δεύτερα , ὧν τὸ ὑποτεταγμένον [0] ·
 # sent_id = 166
 1	δεύτερα	δεύτερος	a	a-p---nn-	Case=n|Degree=c|Gender=n|Number=p	6	PNOM	_	t_2124|e_156|ref=offic.med._15
@@ -2947,7 +2947,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_156|0|ref=offic.med._3
 7	·	·	u	u--------	_	6	AuxK	_	t_2129|e_156|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἥκιστα , ὧν τὸ ἄνω [0] ·
 # sent_id = 167
 1	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_2130|e_157|ref=offic.med._15
@@ -2958,7 +2958,7 @@
 6	[0]	[0]	-	---------	_	0	PRED	_	e_157|0|ref=offic.med._3
 7	·	·	u	u--------	_	6	AuxK	_	t_2135|e_157|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = μᾶλλον δὲ τοῦ μετρίου , βλάβη , πλὴν παιδίων [0] [1] ·
 # sent_id = 168
 1	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	10	ADV	_	t_2136|e_158|ref=offic.med._15
@@ -2974,7 +2974,7 @@
 11	[1]	[1]	-	---------	_	10	SBJ	_	e_159|e_158|ref=offic.med._3
 12	·	·	u	u--------	_	10	AuxK	_	t_2145|e_158|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἔχειν ἀνάντη σμικρόν .
 # sent_id = 169
 1	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_2146|0|ref=offic.med._15
@@ -2982,7 +2982,7 @@
 3	σμικρόν	μικρός	a	a-s---ma-	Case=a|Gender=m|Number=s	2	ATR	_	t_2148|t_2147|ref=offic.med._15
 4	.	.	u	u--------	_	1	AuxK	_	t_2149|t_2146|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = Διορθώσιος παράδειγμα , τὸ ὁμώνυμον , τὸ ὁμόζυγον , τὸ ὅμοιον , τὸ ὑγιές [0] .
 # sent_id = 170
 1	Διορθώσιος	διορθόω	a	a-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_2150|e_160|ref=offic.med._15
@@ -3002,13 +3002,13 @@
 15	[0]	[0]	-	---------	_	0	PRED	_	e_160|0|ref=offic.med._3
 16	.	.	u	u--------	_	15	AuxK	_	t_2164|e_160|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = 17 .
 # sent_id = 171
 1	17	17	x	x--------	_	0	AuxG	_	t_2165|0|ref=offic.med._15
 2	.	.	u	u--------	_	1	AuxK	_	t_2166|t_2165|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = Ἀνάτριψις δύναται λῦσαι , δῆσαι , σαρκῶσαι , μινυθῆσαι ·
 # sent_id = 172
 1	Ἀνάτριψις	ἀνάτριψις	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_2167|t_2168|ref=offic.med._15
@@ -3022,7 +3022,7 @@
 9	μινυθῆσαι	μινυθής	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_2175|t_2174|ref=offic.med._15
 10	·	·	u	u--------	_	2	AuxK	_	t_2176|t_2168|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἡ σκληρὴ , δῆσαι ·
 # sent_id = 173
 1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2177|t_2178|ref=offic.med._15
@@ -3031,7 +3031,7 @@
 4	δῆσαι	δέω	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_2180|0|ref=offic.med._15
 5	·	·	u	u--------	_	4	AuxK	_	t_2181|t_2180|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἡ μαλακὴ , λῦσαι ·
 # sent_id = 174
 1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2182|t_2183|ref=offic.med._15
@@ -3040,7 +3040,7 @@
 4	λῦσαι	λύω	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_2185|0|ref=offic.med._13
 5	·	·	u	u--------	_	4	AuxK	_	t_2186|t_2185|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἡ πολλὴ , μινυθῆσαι [0] ·
 # sent_id = 175
 1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2187|t_2188|ref=offic.med._15
@@ -3050,7 +3050,7 @@
 5	[0]	[0]	-	---------	_	0	PRED	_	e_161|0|ref=offic.med._3
 6	·	·	u	u--------	_	5	AuxK	_	t_2191|e_161|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἡ μετρίη , παχῦναι [0] .
 # sent_id = 176
 1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2192|t_2193|ref=offic.med._15
@@ -3060,13 +3060,13 @@
 5	[0]	[0]	-	---------	_	0	PRED	_	e_162|0|ref=offic.med._3
 6	.	.	u	u--------	_	5	AuxK	_	t_2196|e_162|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = 18 .
 # sent_id = 177
 1	18	18	x	x--------	_	0	AuxG	_	t_2197|0|ref=offic.med._15
 2	.	.	u	u--------	_	1	AuxK	_	t_2198|t_2197|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = Ἐπιδεῖν δὲ τὸ πρῶτον [0] ·
 # sent_id = 178
 1	Ἐπιδεῖν	ἐφοράω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_2199|e_163|ref=offic.med._15
@@ -3076,7 +3076,7 @@
 5	[0]	[0]	-	---------	_	2	PRED	_	e_163|t_2200|ref=offic.med._3
 6	·	·	u	u--------	_	2	AuxK	_	t_2203|t_2200|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ὁ μὲν ἐπιδεδεμένος μάλιστα φάτω πεπιέχθαι κατὰ τὸ σίνος , ἥκιστα τὰ ἄκρα [0] ·
 # sent_id = 179
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_2204|t_2206|ref=offic.med._15
@@ -3095,7 +3095,7 @@
 14	[0]	[0]	-	---------	_	10	OBJ	_	e_164|t_2213|ref=offic.med._3
 15	·	·	u	u--------	_	5	AuxK	_	t_2217|t_2208|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = ἡρμάσθαι δὲ , μὴ πεπιέχθαι ·
 # sent_id = 180
 1	ἡρμάσθαι	ὁρμάω	v	v--anm---	Mood=n|Tense=a|Voice=m	3	PRED	_	t_2218|t_2220|ref=offic.med._15
@@ -3105,7 +3105,7 @@
 5	πεπιέχθαι	πείθω	v	v--rne---	Mood=n|Tense=r|Voice=e	3	PRED	_	t_2222|t_2220|ref=offic.med._15
 6	·	·	u	u--------	_	2	AuxK	_	t_2223|t_2219|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = πλήθει , μὴ ἰσχύϊ [0] ·
 # sent_id = 181
 1	πλήθει	πλῆθος	n	n-s---nd-	Case=d|Gender=n|Number=s	2	ADV	_	t_2224|t_2225|ref=offic.med._15
@@ -3115,7 +3115,7 @@
 5	[0]	[0]	-	---------	_	0	PRED	_	e_165|0|ref=offic.med._3
 6	·	·	u	u--------	_	5	AuxK	_	t_2228|e_165|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = τὴν δὲ ἡμέρην ταύτην καὶ νύκτα , ὀλίγῳ μᾶλλον , τὴν δ᾿ ὑστέρην , ἧσσον [0] [1] ·
 # sent_id = 182
 1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_2229|t_2231|ref=offic.med._15
@@ -3137,7 +3137,7 @@
 17	[1]	[1]	-	---------	_	12	PRED	_	e_167|t_2240|ref=offic.med._3
 18	·	·	u	u--------	_	7	AuxK	_	t_2244|t_2235|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = τρίτη , χαλαρά [0] .
 # sent_id = 183
 1	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_2245|e_168|ref=offic.med._15
@@ -3146,7 +3146,7 @@
 4	[0]	[0]	-	---------	_	0	PRED	_	e_168|0|ref=offic.med._3
 5	.	.	u	u--------	_	4	AuxK	_	t_2248|e_168|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15
+# source = Hippocrates, offic.med._15
 # text = Εὑρεθήτω δὲ τῇ μὲν ὑστεραίῃ ἐν ἄκροισιν οἴδημα μαλθακόν ·
 # sent_id = 184
 1	Εὑρεθήτω	εὑρίσκω	v	v3samp---	Mood=m|Number=s|Person=3|Tense=a|Voice=p	2	PRED	_	t_2249|t_2250|ref=offic.med._15
@@ -3160,7 +3160,7 @@
 9	μαλθακόν	μαλθακός	a	a-s---nn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	8	ATR	_	t_2257|t_2256|ref=offic.med._15
 10	·	·	u	u--------	_	2	AuxK	_	t_2258|t_2250|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 15-16
+# source = Hippocrates, offic.med._15-16
 # text = τῇ τρίτῃ δὲ τὸ ἐπιδεθὲν λυθὲν , ἰσχνότερον , παρὰ πάσας τὰς ἐπιδέσιας τοῦτο [0] .
 # sent_id = 185
 1	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	2	ATR	_	t_2259|t_2260|ref=offic.med._15
@@ -3180,7 +3180,7 @@
 15	[0]	[0]	-	---------	_	0	PRED	_	e_169|0|ref=offic.med._3
 16	.	.	u	u--------	_	15	AuxK	_	t_2273|e_169|ref=offic.med._16
 
-# source = Hippocrates, offic.med. 16
+# source = Hippocrates, offic.med._16
 # text = Τῇ δὲ ὑστεραίῃ ἐπιδέσει , ἢν δικαίως ἐπιδεδεμένον φανῇ , μαθεῖν δεῖ ·
 # sent_id = 186
 1	Τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_2274|t_2277|ref=offic.med._16
@@ -3197,7 +3197,7 @@
 12	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_2285|t_2275|ref=offic.med._16
 13	·	·	u	u--------	_	2	AuxK	_	t_2286|t_2275|ref=offic.med._16
 
-# source = Hippocrates, offic.med. 16
+# source = Hippocrates, offic.med._16
 # text = ἐντεῦθεν δὲ μᾶλλον καὶ ἐπὶ πλέοσι πιεχθήτω ·
 # sent_id = 187
 1	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	7	ADV	_	t_2287|t_2293|ref=offic.med._16
@@ -3209,7 +3209,7 @@
 7	πιεχθήτω	πιέζω	v	v3samp---	Mood=m|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_2293|0|ref=offic.med._16
 8	·	·	u	u--------	_	7	AuxK	_	t_2294|t_2293|ref=offic.med._16
 
-# source = Hippocrates, offic.med. 16
+# source = Hippocrates, offic.med._16
 # text = τῇ δὲ τρίτῃ ἐπὶ μᾶλλον καὶ ἐπὶ πλέοσιν [0] .
 # sent_id = 188
 1	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_2295|t_2297|ref=offic.med._16
@@ -3223,7 +3223,7 @@
 9	[0]	[0]	-	---------	_	2	PRED	_	e_170|t_2296|ref=offic.med._3
 10	.	.	u	u--------	_	2	AuxK	_	t_2303|t_2296|ref=offic.med._16
 
-# source = Hippocrates, offic.med. 16
+# source = Hippocrates, offic.med._16
 # text = Τῇ δὲ ἑβδόμῃ ἀπὸ τῆς πρώτης ἐπιδέσιος λυθέντα , εὑρεθήτω ἰσχνὰ , χαλαρὰ τὰ ὀστέα .
 # sent_id = 189
 1	Τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_2304|t_2306|ref=offic.med._16
@@ -3243,7 +3243,7 @@
 15	ὀστέα	ὀστέον	n	n-p---na-	Case=n|Gender=n|Number=p	10	OBJ	_	t_2318|t_2313|ref=offic.med._16
 16	.	.	u	u--------	_	2	AuxK	_	t_2319|t_2305|ref=offic.med._16
 
-# source = Hippocrates, offic.med. 16-17
+# source = Hippocrates, offic.med._16-17
 # text = Ἐς δὲ νάρθηκας , δεθέντα , ἢ ἰσχνὰ καὶ ἄκνησμα καὶ ἀνέλκεα ᾖ , ἐᾷν μέχρις εἴκοσιν ἡμερέων ἀπὸ τοῦ σίνεος ·
 # sent_id = 190
 1	Ἐς	εἰς	r	r--------	_	3	AuxP	_	t_2320|t_2322|ref=offic.med._16
@@ -3269,7 +3269,7 @@
 21	σίνεος	σίνος	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ADV	_	t_2340|t_2338|ref=offic.med._17
 22	·	·	u	u--------	_	2	AuxK	_	t_2341|t_2321|ref=offic.med._17
 
-# source = Hippocrates, offic.med. 17-15
+# source = Hippocrates, offic.med._17-15
 # text = ἢν δέ τι ὑποπτεύηται , λῦσαι ἐν τῷ μέσῳ ·
 # sent_id = 191
 1	ἢν	ἐάν	c	c--------	_	6	AuxC	_	t_2342|t_2347|ref=offic.med._17
@@ -3283,7 +3283,7 @@
 9	μέσῳ	μέσος	a	a-s---md-	Case=d|Gender=n|Number=s	7	ADV	_	t_2350|t_2348|ref=offic.med._17
 10	·	·	u	u--------	_	6	AuxK	_	t_2351|t_2347|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 17
+# source = Hippocrates, offic.med._17
 # text = νάρθηκας διὰ τρίτης ἐρείδειν .
 # sent_id = 192
 1	νάρθηκας	νάρθηξ	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_2352|0|ref=offic.med._17
@@ -3292,13 +3292,13 @@
 4	ἐρείδειν	ἐρείδω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_2355|t_2352|ref=offic.med._17
 5	.	.	u	u--------	_	1	AuxK	_	t_2356|t_2352|ref=offic.med._17
 
-# source = Hippocrates, offic.med. 15-17
+# source = Hippocrates, offic.med._15-17
 # text = 19 .
 # sent_id = 193
 1	19	19	x	x--------	_	0	AuxG	_	t_2357|0|ref=offic.med._15
 2	.	.	u	u--------	_	1	AuxK	_	t_2358|t_2357|ref=offic.med._17
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = Ἡ ἀνάληψις , ἡ θέσις , ἡ ἐπίδεσις , ὡς ἐν τῷ αὐτῷ σχήματι διαφυλάσσειν [0] .
 # sent_id = 194
 1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2359|t_2360|ref=offic.med._18
@@ -3319,7 +3319,7 @@
 16	[0]	[0]	-	---------	_	0	PRED	_	e_171|0|ref=offic.med._3
 17	.	.	u	u--------	_	16	AuxK	_	t_2374|e_171|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = Κεφάλαια σχημάτων , ἔθεα , φύσιες ἑκάστου τῶν μελέων [0] ·
 # sent_id = 195
 1	Κεφάλαια	κεφάλαιος	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2375|t_2379|ref=offic.med._18
@@ -3334,7 +3334,7 @@
 10	[0]	[0]	-	---------	_	0	PRED	_	e_172|0|ref=offic.med._3
 11	·	·	u	u--------	_	10	AuxK	_	t_2384|e_172|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = τὰ εἴδεα , ἐκ τοῦ τρέχειν , ὁδοιπορέειν , ἑστάναι , κατακεῖσθαι , ἐκ τοῦ ἔργου , ἐκ τοῦ ἀφεῖσθαι [0] .
 # sent_id = 196
 1	τὰ	ὁ	l	l-p---nn-	Case=a|Gender=n|Number=p	2	ATR	_	t_2385|t_2386|ref=offic.med._18
@@ -3360,13 +3360,13 @@
 21	[0]	[0]	-	---------	_	0	PRED	_	e_173|0|ref=offic.med._3
 22	.	.	u	u--------	_	21	AuxK	_	t_2405|e_173|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = 20 .
 # sent_id = 197
 1	20	2	u	u--------	_	0	AuxG	_	t_2406|0|ref=offic.med._18
 2	.	.	u	u--------	_	1	AuxK	_	t_2407|t_2406|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18-15
+# source = Hippocrates, offic.med._18-15
 # text = Ὅτι χρῆσις κρατύνει , ἀργίη δὲ τήκει [0] .
 # sent_id = 198
 1	Ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_2408|e_174|ref=offic.med._18
@@ -3379,13 +3379,13 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_174|0|ref=offic.med._3
 9	.	.	u	u--------	_	8	AuxK	_	t_2415|e_174|ref=offic.med._15
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = 21 .
 # sent_id = 199
 1	21	21	x	x--------	_	0	AuxG	_	t_2416|0|ref=offic.med._18
 2	.	.	u	u--------	_	1	AuxK	_	t_2417|t_2416|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = Ἡ πίεξις πλήθει , μὴ ἰσχύϊ [0] .
 # sent_id = 200
 1	Ἡ	ὁ	n	n-s---mn-	_	7	SBJ	_	t_2418|e_175|ref=offic.med._18
@@ -3397,13 +3397,13 @@
 7	[0]	[0]	-	---------	_	0	PRED	_	e_175|0|ref=offic.med._3
 8	.	.	u	u--------	_	7	AuxK	_	t_2424|e_175|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = 22 .
 # sent_id = 201
 1	22	22	x	x--------	_	0	AuxG	_	t_2425|0|ref=offic.med._18
 2	.	.	u	u--------	_	1	AuxK	_	t_2426|t_2425|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = Ὁκόσα δὲ ἐκχυμώματα , ἢ φλάσματα , ἢ σπάσματα , ἢ οἰδήματα ἀφλέγμαντα , ἐξερύεται αἷμα ἐκ τοῦ τρώματος , ἐς μὲν τὸ ἄνω τοῦ σώματος πλεῖστον , βραχὺ δέ τι καὶ ἐς τὸ κάτω [0] [1] ·
 # sent_id = 202
 1	Ὁκόσα	ὁπόσος	n	n-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_2427|t_2429|ref=offic.med._18
@@ -3445,7 +3445,7 @@
 37	[1]	[1]	-	---------	_	30	ADV	_	e_177|t_2456|ref=offic.med._3
 38	·	·	u	u--------	_	15	AuxK	_	t_2462|t_2441|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18-16
+# source = Hippocrates, offic.med._18-16
 # text = μὴ κατάντη τὴν χεῖρα ἔχοντα , ἢ τὸ σκέλος [0] ·
 # sent_id = 203
 1	μὴ	μή	d	d--------	_	2	AuxZ	_	t_2463|t_2464|ref=offic.med._18
@@ -3460,7 +3460,7 @@
 10	[0]	[0]	-	---------	_	0	PRED	_	e_178|0|ref=offic.med._3
 11	·	·	u	u--------	_	10	AuxK	_	t_2472|e_178|ref=offic.med._16
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = τιθέμενον τὴν ἀρχὴν κατὰ τὸ τρῶμα , καὶ μάλιστα ἐρείδοντα , ἥκιστα τὰ ἄκρα , μέσως τὰ διὰ μέσου [0] ·
 # sent_id = 204
 1	τιθέμενον	τίθημι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	8	ADV	_	t_2473|t_2480|ref=offic.med._18
@@ -3485,7 +3485,7 @@
 20	[0]	[0]	-	---------	_	0	PRED	_	e_179|0|ref=offic.med._3
 21	·	·	u	u--------	_	20	AuxK	_	t_2492|e_179|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = τὸ ἔσχατον πρὸς τὰ ἄνω τοῦ σώματος νεμόμενον [0] ·
 # sent_id = 205
 1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_2493|t_2494|ref=offic.med._18
@@ -3499,7 +3499,7 @@
 9	[0]	[0]	-	---------	_	0	PRED	_	e_180|0|ref=offic.med._3
 10	·	·	u	u--------	_	9	AuxK	_	t_2501|e_180|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = ἐπιδέσει , πιέξει ·
 # sent_id = 206
 1	ἐπιδέσει	ἐπιδέω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	2	PRED	_	t_2502|t_2503|ref=offic.med._18
@@ -3507,7 +3507,7 @@
 3	πιέξει	πιέζω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	2	PRED	_	t_2504|t_2503|ref=offic.med._18
 4	·	·	u	u--------	_	2	AuxK	_	t_2505|t_2503|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18
+# source = Hippocrates, offic.med._18
 # text = ἀτὰρ καὶ ταῦτα , πλήθει μᾶλλον , ἢ ἰσχύϊ [0] [1] ·
 # sent_id = 207
 1	ἀτὰρ	ἀτάρ	g	g--------	_	10	AuxY	_	t_2506|e_181|ref=offic.med._18
@@ -3523,7 +3523,7 @@
 11	[1]	[1]	-	---------	_	8	ADV	_	e_182|t_2513|ref=offic.med._3
 12	·	·	u	u--------	_	10	AuxK	_	t_2515|e_181|ref=offic.med._18
 
-# source = Hippocrates, offic.med. 18-19
+# source = Hippocrates, offic.med._18-19
 # text = μάλιστα δὲ τουτέοισιν ὀθόνια λεπτὰ , κοῦφα , μαλθακὰ , καθαρὰ , πλατέα , ὑγιέα , ὡς ἂν ἄνευ ναρθήκων [0] [1] ·
 # sent_id = 208
 1	μάλιστα	μάλιστα	d	d-------s	Degree=s	21	ADV	_	t_2516|e_183|ref=offic.med._18
@@ -3550,7 +3550,7 @@
 22	[1]	[1]	-	---------	_	17	ADV	_	e_184|t_2532|ref=offic.med._3
 23	·	·	u	u--------	_	21	AuxK	_	t_2536|e_183|ref=offic.med._19
 
-# source = Hippocrates, offic.med. 19
+# source = Hippocrates, offic.med._19
 # text = καὶ καταχύσει χρῆσθαι [0] .
 # sent_id = 209
 1	καὶ	καί	c	c--------	_	4	AuxY	_	t_2537|e_185|ref=offic.med._19
@@ -3559,13 +3559,13 @@
 4	[0]	[0]	-	---------	_	0	PRED	_	e_185|0|ref=offic.med._3
 5	.	.	u	u--------	_	4	AuxK	_	t_2540|e_185|ref=offic.med._19
 
-# source = Hippocrates, offic.med. 19
+# source = Hippocrates, offic.med._19
 # text = 23 .
 # sent_id = 210
 1	23	23	x	x--------	_	0	ExD	_	t_2541|0|ref=offic.med._19
 2	.	.	u	u--------	_	1	AuxK	_	t_2542|t_2541|ref=offic.med._19
 
-# source = Hippocrates, offic.med. 19-21
+# source = Hippocrates, offic.med._19-21
 # text = Τὰ δὲ ἐκπτώματα , ἢ στέμματα , ἢ διαστήματα , ἢ ἀποσπάσματα , ἢ ἀποκλάσματα , ἢ διαστρέμματα , οἷα τὰ κυλλὰ , τὰ ἑτερόῤῥοπα , ὅθεν μὲν ἐξέστη , ξυνδιδόντα , ὅπη δὲ ξυντείνοντα , ὡς ἐς τ ἀναντία ῥέπῃ , ἐπιδεθέντα , ἢ πρὶν ἐπιδεθῆναι , σμικρῷ μᾶλλον , ἢ ὥστε ἐξ ἴσου εἶναι [0] [1] [2] ·
 # sent_id = 211
 1	Τὰ	ὁ	l	l-p---nn-	Case=a|Gender=n|Number=p	3	ATR	_	t_2543|t_2545|ref=offic.med._19
@@ -3629,7 +3629,7 @@
 59	[2]	[2]	-	---------	_	20	ADV	_	e_188|t_2562|ref=offic.med._3
 60	·	·	u	u--------	_	57	AuxK	_	t_2599|e_186|ref=offic.med._21
 
-# source = Hippocrates, offic.med. 22
+# source = Hippocrates, offic.med._22
 # text = καὶ τοῖσιν ἐπιδέσμοισι , καὶ τοῖσι σπλήνεσι , καὶ τοῖσιν ἀναλήμμασι , καὶ τοῖσι σχήμασι , κατατάσει , ἀνατρίψει , διορθώσει , ταῦτα καὶ καταχύσει πλείονι .
 # sent_id = 212
 1	καὶ	καί	c	c--------	_	24	AuxY	_	t_2600|t_2623|ref=offic.med._22
@@ -3660,13 +3660,13 @@
 26	πλείονι	πλείων	a	a-s---ndc	Case=d|Degree=c|Gender=n|Number=s	25	OBJ	_	t_2625|t_2624|ref=offic.med._22
 27	.	.	u	u--------	_	4	AuxK	_	t_2626|t_2603|ref=offic.med._22
 
-# source = Hippocrates, offic.med. 22
+# source = Hippocrates, offic.med._22
 # text = 24 .
 # sent_id = 213
 1	24	24	x	x--------	_	0	AuxG	_	t_2627|0|ref=offic.med._22
 2	.	.	u	u--------	_	1	AuxK	_	t_2628|t_2627|ref=offic.med._22
 
-# source = Hippocrates, offic.med. 22
+# source = Hippocrates, offic.med._22
 # text = Τὰ δὲ μινυθήματα , πουλὺ προσλαμβάνοντα τοῦ ὑγιέος , ἐπιδεῖν ὡς ἂν ἐξ ἐπιδρομῆς τὰ ξυντακέντα πλέον ἢ αὐτὰ ἐμινύθει , ἀλλοίῃ τῇ ἐπιδέσει παραλλάξαντα , ἐκκλίνειν ἐς τὴν αὔξησιν καὶ ἀνάπλασιν τῶν σαρκῶν ποιήσηται [0] .
 # sent_id = 214
 1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_2629|t_2631|ref=offic.med._22
@@ -3707,7 +3707,7 @@
 36	[0]	[0]	-	---------	_	2	PRED	_	e_189|t_2630|ref=offic.med._3
 37	.	.	u	u--------	_	2	AuxK	_	t_2664|t_2630|ref=offic.med._22
 
-# source = Hippocrates, offic.med. 22
+# source = Hippocrates, offic.med._22
 # text = Βέλτιον δὲ καὶ τὸ ἄνωθεν , οἷον κνήμης , καὶ τὸν ἕτερον μηρὸν , καὶ τὸ σκέλος τὸ ὑγιὲς συνεπιδεῖν , ὡς ὁμοιότερον ᾖ , καὶ ὁμοίως ἐλινύῃ , καὶ ὁμοίως τῆς τροφῆς ἀποκλείηται καὶ δέχηται [0] [1] [2] ·
 # sent_id = 215
 1	Βέλτιον	βελτίων	n	n-s---na-	Case=a|Gender=n|Number=s	37	PNOM	_	t_2665|e_190|ref=offic.med._22
@@ -3751,7 +3751,7 @@
 39	[2]	[2]	-	---------	_	30	PRED	_	e_192|t_2694|ref=offic.med._3
 40	·	·	u	u--------	_	6	AuxK	_	t_2701|t_2670|ref=offic.med._22
 
-# source = Hippocrates, offic.med. 22
+# source = Hippocrates, offic.med._22
 # text = ὀθονίων πλήθει , μὴ πιέξει ·
 # sent_id = 216
 1	ὀθονίων	ὀθόνιον	a	a-p---mg-	Case=g|Gender=m|Number=p	2	OBJ	_	t_2702|t_2703|ref=offic.med._22
@@ -3761,7 +3761,7 @@
 5	πιέξει	πιέζω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	3	PRED	_	t_2706|t_2704|ref=offic.med._22
 6	·	·	u	u--------	_	3	AuxK	_	t_2707|t_2704|ref=offic.med._22
 
-# source = Hippocrates, offic.med. 22
+# source = Hippocrates, offic.med._22
 # text = ἀνιέντα πρῶτον τὸ μάλιστα δεόμενον , καὶ ἀνατρίψει χρώμενον σαρκούσῃ , καὶ καταχύσει ·
 # sent_id = 217
 1	ἀνιέντα	ἀνίημι	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_2708|t_2714|ref=offic.med._22
@@ -3779,7 +3779,7 @@
 13	καταχύσει	κατάχρυσις	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	12	PRED	_	t_2720|t_2719|ref=offic.med._22
 14	·	·	u	u--------	_	6	AuxK	_	t_2721|t_2713|ref=offic.med._22
 
-# source = Hippocrates, offic.med. 22-19
+# source = Hippocrates, offic.med._22-19
 # text = ἄνευ ναρθήκων [0] .
 # sent_id = 218
 1	ἄνευ	ἄνευ	r	r--------	_	3	AuxP	_	t_2722|e_193|ref=offic.med._22
@@ -3787,13 +3787,13 @@
 3	[0]	[0]	-	---------	_	0	PRED	_	e_193|0|ref=offic.med._3
 4	.	.	u	u--------	_	3	AuxK	_	t_2724|e_193|ref=offic.med._19
 
-# source = Hippocrates, offic.med. 22-23
+# source = Hippocrates, offic.med._22-23
 # text = 25 .
 # sent_id = 219
 1	25	25	x	x--------	_	0	AuxG	_	t_2725|0|ref=offic.med._22
 2	.	.	u	u--------	_	1	AuxK	_	t_2726|t_2725|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23
+# source = Hippocrates, offic.med._23
 # text = Τὰ δὲ ἑρμάσματα καὶ ἀποστηρίγματα , οἷον στήθει , πλευρῇσι , κεφαλῇ , καὶ τοῖσιν ἄλλοισιν , ὅσα τοιαῦτα [0] [1] ·
 # sent_id = 220
 1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_2727|t_2729|ref=offic.med._23
@@ -3819,7 +3819,7 @@
 21	[1]	[1]	-	---------	_	14	ATR	_	e_195|t_2740|ref=offic.med._3
 22	·	·	u	u--------	_	2	AuxK	_	t_2746|t_2728|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23
+# source = Hippocrates, offic.med._23
 # text = τὰ μὲν , σφυγμῶν ἕνεκεν , ὡς μὴ ἐνσείηται [0] ·
 # sent_id = 221
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_2747|e_196|ref=offic.med._23
@@ -3834,7 +3834,7 @@
 10	[0]	[0]	-	---------	_	0	PRED	_	e_196|0|ref=offic.med._3
 11	·	·	u	u--------	_	10	AuxK	_	t_2756|e_196|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23
+# source = Hippocrates, offic.med._23
 # text = τὰ δὲ , καὶ τῶν διαστασίων τῶν κατὰ τὰς ἁρμονίας ἐν τοῖσι κατὰ τὴν κεφαλὴν ὀστέοισιν , ἐρεισμάτων χάριν [0] ·
 # sent_id = 222
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	OBJ	_	t_2757|e_197|ref=offic.med._23
@@ -3859,7 +3859,7 @@
 20	[0]	[0]	-	---------	_	0	PRED	_	e_197|0|ref=offic.med._3
 21	·	·	u	u--------	_	20	AuxK	_	t_2776|e_197|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23
+# source = Hippocrates, offic.med._23
 # text = ἐπί τε βηχέων , ἢ πταρμέων , ἢ ἄλλης κινήσιος , οἷα τὰ κατὰ θώρηκα καὶ κεφαλὴν ἀποστηρίγματα γίγνεται [0] .
 # sent_id = 223
 1	ἐπί	ἐπί	a	a-s---mn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	PNOM	_	t_2777|t_2784|ref=offic.med._23
@@ -3884,7 +3884,7 @@
 20	[0]	[0]	-	---------	_	0	PRED	_	e_198|0|ref=offic.med._3
 21	.	.	u	u--------	_	20	AuxK	_	t_2796|e_198|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23
+# source = Hippocrates, offic.med._23
 # text = Τουτέων ἁπάντων αἱ αὐταὶ ξυμμετρίαι τῆς ἐπιδέσιος [0] ·
 # sent_id = 224
 1	Τουτέων	οὗτος	p	p-p---mg-	Case=g|Gender=n|Number=p	5	ATR	_	t_2797|t_2801|ref=offic.med._23
@@ -3897,7 +3897,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_199|0|ref=offic.med._3
 9	·	·	u	u--------	_	8	AuxK	_	t_2804|e_199|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23
+# source = Hippocrates, offic.med._23
 # text = ᾗ μὲν γὰρ τὰ σίνη , μάλιστα πιέζει ·
 # sent_id = 225
 1	ᾗ	ὅς	p	p-p---na-	Case=n|Gender=f|Number=s	5	ADV	_	t_2805|t_2809|ref=offic.med._23
@@ -3910,7 +3910,7 @@
 8	πιέζει	πιέζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2812|0|ref=offic.med._23
 9	·	·	u	u--------	_	8	AuxK	_	t_2813|t_2812|ref=offic.med._23
 
-# source = Hippocrates, offic.med. 23-24
+# source = Hippocrates, offic.med._23-24
 # text = ὑποτιθέναι οὖν μαλθακόν τι ἁρμόζον τῷ πάθει [0] ·
 # sent_id = 226
 1	ὑποτιθέναι	ὑποτίθημι	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_2814|e_200|ref=offic.med._23
@@ -3923,7 +3923,7 @@
 8	[0]	[0]	-	---------	_	0	PRED	_	e_200|0|ref=offic.med._3
 9	·	·	u	u--------	_	8	AuxK	_	t_2821|e_200|ref=offic.med._24
 
-# source = Hippocrates, offic.med. 24
+# source = Hippocrates, offic.med._24
 # text = ἐπιδεῖν δὲ μὴ μᾶλλον πιεζεῦντα , ἢ ὥστε τοὺς σφυγμοὺς μὴ ἐνσείειν , μη δὲ μᾶλλον ἢ ὥστε τῶν διεστηκότων τὰ ἔσχατα τῶν ἁρμονιῶν ψαύειν ἀλλήλων , μη δὲ τὰς βῆχας καὶ τοὺς πταρμοὺς ὥστε κωλύειν , ἀλλ᾿ ὥστε ἀποστήριγμα εἶναι , ὡς μή τε διαναγκάζηται , μή τε ἐνσείηται [0] [1] [2] .
 # sent_id = 227
 1	ἐπιδεῖν	ἐφοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_2822|0|ref=offic.med._24
