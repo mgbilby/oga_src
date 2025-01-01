@@ -33,7 +33,7 @@ In the file, the header fields are structured as follows:
 
 A sample sentence header follows:
 
-\# source = Plutarch, De Heroditi malignate 1  
+\# source = Plutarch, Herod.malign._1  
 \# text = τοῦ Ἡροδότου πολλοὺς μέν , ὦ Ἀλέξανδρε , καὶ ἡ λέξις ὡς ἀφελὴς καὶ δίχα πόνου καὶ ῥᾳδίως ἐπιτρέχουσα τοῖς πράγμασιν ἐξηπάτηκε ·  
 \# sent_id = 1  
 
