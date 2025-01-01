@@ -57,6 +57,11 @@ What follows are several out-of-the-box and adjusted MISC field samples, all rep
 | tlg0007.tlg047   | t_3 | t_3\|t_2\|ref=Alex._1.1   |
 | tlg0055.tlg001   | t_3 | t_3\|t_1\|ref=ep._1   |
 
+## Other corrections and adjustments
+
+The document-wide token id values--the first substring of each MISC field--are adjusted to separate sequential numbering for ellipses (or elliptical) tokens: e_1, e_2, e_3, etc.
+
+The file for tlg5026.tlg001 was split into two roughly equal halves, following [this Issue conversation](https://github.com/OpenGreekAndLatin/First1KGreek/issues/2808), because the file size exceeded the 100MB threshold permitted by standard Github operations. This brings the total file count of oga_src to 2000 files, one more than the 1999 documents in the OGA corpus.
 
 ## Data sources
 
