@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository contains a simplified version and value-added adaptation of the Opera Graeca Adnotata (hereafter, OGA). The OGA corpus version used here is v0.2.0, released 2024-11-24.
+This repository contains a simplified version and value-added adaptation of the Opera Graeca Adnotata (hereafter, OGA). The OGA corpus version used here is v0.2.0, released 2024-11-24, containing annotations of 40M+ base tokens and 1999 base documents.
 
 Useability of OGA may pose an issue for  researchers and general users because of:
  - the size of the [corpus on Zenodo](https://doi.org/10.5281/zenodo.14206061) (8.6 GB zipped)
@@ -67,7 +67,7 @@ The file for tlg5026.tlg001 was split into two roughly equal halves, following [
 
 Version 0.2.0 of the Opera Graeca Adnotata, curated by Giuseppe Celano at the University of Leipzig, was archived at [Zenodo](https://doi.org/10.5281/zenodo.14206061) on 2024-11-24, and is the sole source of the data used in this repository. 
 
-The OGA corpus v0.2.0 contains annotations of 40M+ base tokens and 1999 base texts/files. These files were in turn derived from several major corpora of digital editions of classical Greek texts, most notably the [Perseus Project](https://github.com/PerseusDL/canonical-greekLit) (Tufts University) and closely connected [First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek) project (Mount Allison University, Tufts University, University of Leipzig, University of Virginia), along with the [Thesaurus Linguae Graecae](https://stephanus.tlg.uci.edu/index.php#login=true) (University of California, Irvine) and the [Patristic Text Archive](https://github.com/PatristicTextArchive/pta_data) (Berlin-Brandenburg Academy of Sciences and Humanities).
+The OGA corpus was in turn derived from several major corpora of digital editions of classical Greek texts, most notably the [Perseus Project](https://github.com/PerseusDL/canonical-greekLit) (Tufts University) and closely connected [First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek) project (Mount Allison University, Tufts University, University of Leipzig, University of Virginia), along with the [Thesaurus Linguae Graecae](https://stephanus.tlg.uci.edu/index.php#login=true) (University of California, Irvine) and the [Patristic Text Archive](https://github.com/PatristicTextArchive/pta_data) (Berlin-Brandenburg Academy of Sciences and Humanities).
 
 OGA annotation includes morphosyntactical features based on the [Ancient Greek Dependency Treebank, or AGDT](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md), as well as data (sometimes provisional) pertaining to authorship and likely date or date range of composition.
 
