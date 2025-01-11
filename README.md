@@ -27,7 +27,7 @@ Sentence headers are newly added. Each header contains three lines: source, text
 
 In the file, the header fields are structured as follows:
 
-\# source = [author], [title] [internal_location_start]-[internal_location_end]  
+\# source = [author], [title]_[internal_location_start]-[internal_location_end]  
 \# text = [concatenation of all words and punctuation marks in the sentence]  
 \# sent_id = [sentence_number_in_document_sequence]  
 
