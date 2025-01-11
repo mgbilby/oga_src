@@ -48,11 +48,11 @@
 6	πεποίηκεν	ποιέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_31|0|ref=exc._1
 7	.	.	u	u--------	_	6	AuxK	_	t_32|t_31|ref=exc._1
 
-# source = Cassius Longinus, exc._1
+# source = Cassius Longinus, exc._2
 # text = 2 .
 # sent_id = 5
-1	2	2	u	u--------	_	0	AuxG	_	t_33|0|ref=exc._1
-2	.	.	u	u--------	_	1	AuxK	_	t_34|t_33|ref=exc._1
+1	2	2	u	u--------	_	0	AuxG	_	t_33|0|ref=exc._2
+2	.	.	u	u--------	_	1	AuxK	_	t_34|t_33|ref=exc._2
 
 # source = Cassius Longinus, exc._2
 # text = Ὅτι ὁ Ἀριστοτέλης τοὺς πάντα μεταφέροντας αἰνίγματα γράφειν ἔλεγεν .
@@ -82,11 +82,11 @@
 9	εἴδει	εἶδος	n	n-s---nd-	Case=d|Gender=n|Number=s	5	OBJ	_	t_53|t_49|ref=exc._2
 10	.	.	u	u--------	_	2	AuxK	_	t_54|t_46|ref=exc._2
 
-# source = Cassius Longinus, exc._2
+# source = Cassius Longinus, exc._3
 # text = 3 .
 # sent_id = 8
-1	3	3	x	x--------	_	0	AuxG	_	t_55|0|ref=exc._2
-2	.	.	u	u--------	_	1	AuxK	_	t_56|t_55|ref=exc._2
+1	3	3	x	x--------	_	0	AuxG	_	t_55|0|ref=exc._3
+2	.	.	u	u--------	_	1	AuxK	_	t_56|t_55|ref=exc._3
 
 # source = Cassius Longinus, exc._3
 # text = Ὅτι τροπὴ ἐκ τοῦ πανούργου καὶ ἐξάλλαξις οὐδεμία ἦν ἐν τοῖς ἀρχαίοις , ἀλλὰ καὶ τὰ τοῦ νοῦ σχήματα ὀψέ ποτε εἰς τοὺς δικανικοὺς λόγους παρεισῆλθεν ·
@@ -142,18 +142,18 @@
 18	ἁρμονίαν	ἁρμονία	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ADV	_	t_101|t_100|ref=exc._3
 19	.	.	u	u--------	_	13	AuxK	_	t_102|t_96|ref=exc._3
 
-# source = Cassius Longinus, exc._3
+# source = Cassius Longinus, exc._4
 # text = 4 [0] .
 # sent_id = 11
-1	4	4	u	u--------	_	2	AuxK	_	t_103|e_3|ref=exc._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=exc._1
-3	.	.	u	u--------	_	2	AuxK	_	t_104|e_3|ref=exc._3
+1	4	4	u	u--------	_	2	AuxK	_	t_103|e_3|ref=exc._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=exc._4
+3	.	.	u	u--------	_	2	AuxK	_	t_104|e_3|ref=exc._4
 
 # source = Cassius Longinus, exc._4
 # text = Ὅτι δεῖ σκέπτεσθαι τὴν δύναμιν τῶν κεφαλαίων , καὶ τὴν τῶν ἀντιθέσεων διαφοράν , καὶ μή τε ἀπὸ τῶν ἀσθενῶν ἄρχεσθαι μή τε τελευτᾶν εἰς ταῦτα , ἀλλὰ μιμεῖσθαι τὴν ἐν τοῖς πολέμοις τακτικὴν εἰς μέσον τοὺς χείρους λοχίζουσαν .
 # sent_id = 12
 1	Ὅτι	ὅτι	d	d--------	_	2	AuxY	_	t_105|t_106|ref=exc._4
-2	δεῖ	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_106|0|ref=exc._3
+2	δεῖ	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_106|0|ref=exc._4
 3	σκέπτεσθαι	σκέπτομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	15	SBJ	_	t_107|t_119|ref=exc._4
 4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_108|t_109|ref=exc._4
 5	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_109|t_113|ref=exc._4
@@ -207,7 +207,7 @@
 9	μόνον	μόνος	d	d--------	_	11	AuxZ	_	t_153|t_155|ref=exc._4
 10	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_154|t_151|ref=exc._4
 11	συγγραφῇ	συγγραφή	n	n-s---fd-	Case=d|Gender=f|Number=s	10	ADV	_	t_155|t_154|ref=exc._4
-12	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=exc._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=exc._4
 13	.	.	u	u--------	_	12	AuxK	_	t_156|e_4|ref=exc._4
 
 # source = Cassius Longinus, exc._4
@@ -234,23 +234,23 @@
 19	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_175|t_173|ref=exc._4
 20	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	21	ATR	_	t_176|t_177|ref=exc._4
 21	ὁπλίτας	ὁπλίτης	n	n-p---ma-	Case=a|Gender=m|Number=p	19	OBJ	_	t_177|t_175|ref=exc._4
-22	[0]	[0]	-	---------	_	8	ADV	_	e_5|t_164|ref=exc._1
-23	[1]	[1]	-	---------	_	8	ADV	_	e_6|t_164|ref=exc._1
+22	[0]	[0]	-	---------	_	8	ADV	_	e_5|t_164|ref=exc._4
+23	[1]	[1]	-	---------	_	8	ADV	_	e_6|t_164|ref=exc._4
 24	.	.	u	u--------	_	6	AuxK	_	t_178|t_162|ref=exc._4
 
-# source = Cassius Longinus, exc._4
+# source = Cassius Longinus, exc._5
 # text = 5 .
 # sent_id = 15
-1	5	5	u	u--------	_	0	AuxG	_	t_179|0|ref=exc._4
-2	.	.	u	u--------	_	1	AuxK	_	t_180|t_179|ref=exc._4
+1	5	5	u	u--------	_	0	AuxG	_	t_179|0|ref=exc._5
+2	.	.	u	u--------	_	1	AuxK	_	t_180|t_179|ref=exc._5
 
-# source = Cassius Longinus, exc._4-5
+# source = Cassius Longinus, exc._5
 # text = Ὅτι Δημοσθένης δεινότατος ὢν ἐν ταῖς ἀντιθέσεσιν οὐκ ἀεὶ τῇ τέχνῃ ἐμμένει , ἀλλʼ αὐτὸς γίνεται τέχνη πολλάκις [0] .
 # sent_id = 16
-1	Ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_181|e_7|ref=exc._4
-2	Δημοσθένης	δημοσθένης	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_182|t_192|ref=exc._4
-3	δεινότατος	δεινός	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	4	PNOM	_	t_183|t_184|ref=exc._4
-4	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_184|t_192|ref=exc._4
+1	Ὅτι	ὅτι	c	c--------	_	19	AuxC	_	t_181|e_7|ref=exc._5
+2	Δημοσθένης	δημοσθένης	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_182|t_192|ref=exc._5
+3	δεινότατος	δεινός	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	4	PNOM	_	t_183|t_184|ref=exc._5
+4	ὢν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_184|t_192|ref=exc._5
 5	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_185|t_192|ref=exc._5
 6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_186|t_187|ref=exc._5
 7	ἀντιθέσεσιν	ἀντίθεσις	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_187|t_185|ref=exc._5
@@ -265,7 +265,7 @@
 16	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	ADV	_	t_196|t_194|ref=exc._5
 17	τέχνη	τέχνη	n	n-s---fn-	Case=n|Gender=f|Number=s	16	PNOM	_	t_197|t_196|ref=exc._5
 18	πολλάκις	πολλάκις	d	d--------	_	16	ADV	_	t_198|t_196|ref=exc._5
-19	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=exc._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=exc._5
 20	.	.	u	u--------	_	19	AuxK	_	t_199|e_7|ref=exc._5
 
 # source = Cassius Longinus, exc._5
@@ -274,28 +274,28 @@
 1	ὡσαύτως	ὡσαύτως	d	d--------	_	4	ADV	_	t_200|e_8|ref=exc._5
 2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_201|t_202|ref=exc._5
 3	Ἀριστείδης	ἀριστείδης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_202|e_8|ref=exc._5
-4	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=exc._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=exc._5
 5	.	.	u	u--------	_	4	AuxK	_	t_203|e_8|ref=exc._5
 
-# source = Cassius Longinus, exc._5
+# source = Cassius Longinus, exc._6
 # text = 6 .
 # sent_id = 18
-1	6	6	u	u--------	_	0	AuxG	_	t_204|0|ref=exc._5
-2	.	.	u	u--------	_	1	AuxK	_	t_205|t_204|ref=exc._5
+1	6	6	u	u--------	_	0	AuxG	_	t_204|0|ref=exc._6
+2	.	.	u	u--------	_	1	AuxK	_	t_205|t_204|ref=exc._6
 
-# source = Cassius Longinus, exc._5-6
+# source = Cassius Longinus, exc._6
 # text = Ὅτι τὸ παραγράφεσθαι ἐπὶ τῶν λαμπρῶν προσώπων ἄτοπόν φησι [0] ·
 # sent_id = 19
-1	Ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_206|e_9|ref=exc._5
-2	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	3	ATR	_	t_207|t_208|ref=exc._5
-3	παραγράφεσθαι	παραγράφω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_208|t_214|ref=exc._5
-4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_209|t_208|ref=exc._5
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_210|t_212|ref=exc._5
-6	λαμπρῶν	λαμπρός	a	a-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_211|t_212|ref=exc._5
+1	Ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_206|e_9|ref=exc._6
+2	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	3	ATR	_	t_207|t_208|ref=exc._6
+3	παραγράφεσθαι	παραγράφω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_208|t_214|ref=exc._6
+4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_209|t_208|ref=exc._6
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_210|t_212|ref=exc._6
+6	λαμπρῶν	λαμπρός	a	a-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_211|t_212|ref=exc._6
 7	προσώπων	πρόσωπον	n	n-p---ng-	Case=g|Gender=n|Number=p	4	OBJ	_	t_212|t_209|ref=exc._6
 8	ἄτοπόν	ἄτοπος	a	a-s---na-	Case=a|Gender=n|Number=s	9	OCOMP	_	t_213|t_214|ref=exc._6
 9	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_214|t_206|ref=exc._6
-10	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=exc._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=exc._6
 11	·	·	u	u--------	_	10	AuxK	_	t_215|e_9|ref=exc._6
 
 # source = Cassius Longinus, exc._6
@@ -311,25 +311,25 @@
 8	ἐμποιεῖ	ἐμποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_223|t_221|ref=exc._6
 9	.	.	u	u--------	_	5	AuxK	_	t_224|t_220|ref=exc._6
 
-# source = Cassius Longinus, exc._6
+# source = Cassius Longinus, exc._7
 # text = 7 [0] .
 # sent_id = 21
-1	7	7	u	u--------	_	2	AuxG	_	t_225|e_10|ref=exc._6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=exc._1
-3	.	.	u	u--------	_	2	AuxK	_	t_226|e_10|ref=exc._6
+1	7	7	u	u--------	_	2	AuxG	_	t_225|e_10|ref=exc._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=exc._7
+3	.	.	u	u--------	_	2	AuxK	_	t_226|e_10|ref=exc._7
 
-# source = Cassius Longinus, exc._6-7
+# source = Cassius Longinus, exc._7
 # text = Ὅτι χρὴ ἐν ταῖς συνθήκαις τῶν κώλων εὐπρεπῆ εἶναι τὴν λέξιν καὶ τὴν συνθήκην οὐκ ἀνάρμοστον , ὡς ἂν παίωνας εἶναι καὶ ἡρῴους τοὺς πλείστους , ἐξ ὧν εὔογκος ἡ ἑρμηνεία γίνεται καὶ σεμνή [0] ·
 # sent_id = 22
-1	Ὅτι	ὅτι	c	c--------	_	35	AuxC	_	t_227|e_11|ref=exc._6
-2	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_228|t_227|ref=exc._6
-3	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_229|t_235|ref=exc._6
-4	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_230|t_231|ref=exc._6
-5	συνθήκαις	συνθήκη	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_231|t_229|ref=exc._6
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_232|t_233|ref=exc._6
-7	κώλων	κῶλον	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_233|t_231|ref=exc._6
+1	Ὅτι	ὅτι	c	c--------	_	35	AuxC	_	t_227|e_11|ref=exc._7
+2	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_228|t_227|ref=exc._7
+3	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_229|t_235|ref=exc._7
+4	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_230|t_231|ref=exc._7
+5	συνθήκαις	συνθήκη	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_231|t_229|ref=exc._7
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_232|t_233|ref=exc._7
+7	κώλων	κῶλον	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_233|t_231|ref=exc._7
 8	εὐπρεπῆ	εὐπρεπής	a	a-s---fa-	Case=a|Gender=f|Number=s	12	PNOM	_	t_234|t_238|ref=exc._7
-9	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	2	SBJ	_	t_235|t_228|ref=exc._6
+9	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	2	SBJ	_	t_235|t_228|ref=exc._7
 10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_236|t_237|ref=exc._7
 11	λέξιν	λέξις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	SBJ	_	t_237|t_238|ref=exc._7
 12	καὶ	καί	c	c--------	_	9	COORD	_	t_238|t_235|ref=exc._7
@@ -355,7 +355,7 @@
 32	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	25	ATR	_	t_258|t_251|ref=exc._7
 33	καὶ	καί	c	c--------	_	32	COORD	_	t_259|t_258|ref=exc._7
 34	σεμνή	σεμνός	a	a-s---fn-	Case=n|Gender=f|Number=s	33	PNOM	_	t_260|t_259|ref=exc._7
-35	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=exc._1
+35	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=exc._7
 36	·	·	u	u--------	_	35	AuxK	_	t_261|e_11|ref=exc._7
 
 # source = Cassius Longinus, exc._7
@@ -367,7 +367,7 @@
 4	Πλάτωνος	πλάτων	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_265|t_266|ref=exc._7
 5	καὶ	καί	c	c--------	_	1	COORD	_	t_266|t_262|ref=exc._7
 6	Δημοσθένους	δημοσθένης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_267|t_266|ref=exc._7
-7	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=exc._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=exc._7
 8	·	·	u	u--------	_	7	AuxK	_	t_268|e_12|ref=exc._7
 
 # source = Cassius Longinus, exc._7
@@ -379,32 +379,32 @@
 4	γνώμονες	γνώμων	n	n-p---mn-	Case=n|Gender=m|Number=p	7	PNOM	_	t_272|e_13|ref=exc._7
 5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_273|t_274|ref=exc._7
 6	τοιούτων	τοιοῦτος	p	p-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_274|t_272|ref=exc._7
-7	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=exc._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=exc._7
 8	.	.	u	u--------	_	7	AuxK	_	t_275|e_13|ref=exc._7
 
-# source = Cassius Longinus, exc._7
+# source = Cassius Longinus, exc._8
 # text = 8 [0] .
 # sent_id = 25
-1	8	8	x	x--------	_	2	AuxK	_	t_276|e_14|ref=exc._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=exc._1
-3	.	.	u	u--------	_	2	AuxK	_	t_277|e_14|ref=exc._7
+1	8	8	x	x--------	_	2	AuxK	_	t_276|e_14|ref=exc._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=exc._8
+3	.	.	u	u--------	_	2	AuxK	_	t_277|e_14|ref=exc._8
 
-# source = Cassius Longinus, exc._7-8
+# source = Cassius Longinus, exc._8
 # text = Ὅτι ἐν τοῖς ἀδόξοις καὶ φέρουσιν αἰσχύνην τῷ ἀπολογουμένῳ κάλλιστος ὁ διʼ εἰκασίας τρόπος , οἱονεὶ πορνείας κατηγορηθεὶς μὴ παρὰ ἕκαστον πειρῶ ἀπολογεῖσθαι καὶ λύειν εὐτελὲς γὰρ καὶ καθαιροῦν τὸ ἀξίωμα , κ ἂν τὰ μάλιστα πολλοὺς ἔχῃς ἐλέγχους τοῦ συκοφαντήματος [0] .
 # sent_id = 26
-1	Ὅτι	ὅτι	c	c--------	_	42	AuxC	_	t_278|e_15|ref=exc._7
-2	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_279|t_299|ref=exc._7
-3	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	5	ATR	_	t_280|t_282|ref=exc._7
-4	ἀδόξοις	ἄδοξος	a	a-p---md-	Case=d|Gender=n|Number=p	5	ATR	_	t_281|t_282|ref=exc._7
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_282|t_279|ref=exc._7
-6	φέρουσιν	φέρω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_283|t_282|ref=exc._7
-7	αἰσχύνην	αἰσχύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_284|t_283|ref=exc._7
-8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_285|t_286|ref=exc._7
-9	ἀπολογουμένῳ	ἀπολογέομαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	10	ADV	_	t_286|t_287|ref=exc._7
-10	κάλλιστος	καλός	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	42	PNOM	_	t_287|e_15|ref=exc._7
-11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_288|t_291|ref=exc._7
+1	Ὅτι	ὅτι	c	c--------	_	42	AuxC	_	t_278|e_15|ref=exc._8
+2	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_279|t_299|ref=exc._8
+3	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	5	ATR	_	t_280|t_282|ref=exc._8
+4	ἀδόξοις	ἄδοξος	a	a-p---md-	Case=d|Gender=n|Number=p	5	ATR	_	t_281|t_282|ref=exc._8
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_282|t_279|ref=exc._8
+6	φέρουσιν	φέρω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_283|t_282|ref=exc._8
+7	αἰσχύνην	αἰσχύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_284|t_283|ref=exc._8
+8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_285|t_286|ref=exc._8
+9	ἀπολογουμένῳ	ἀπολογέομαι	v	v-sppemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	10	ADV	_	t_286|t_287|ref=exc._8
+10	κάλλιστος	καλός	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	42	PNOM	_	t_287|e_15|ref=exc._8
+11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_288|t_291|ref=exc._8
 12	διʼ	διά	r	r--------	_	14	AuxP	_	t_289|t_291|ref=exc._8
-13	εἰκασίας	εἰκασία	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_290|t_289|ref=exc._7
+13	εἰκασίας	εἰκασία	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_290|t_289|ref=exc._8
 14	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	42	SBJ	_	t_291|e_15|ref=exc._8
 15	,	,	u	u--------	_	42	AuxX	_	t_292|e_15|ref=exc._8
 16	οἱονεὶ	οἱονεί	d	d--------	_	18	ADV	_	t_293|t_295|ref=exc._8
@@ -433,7 +433,7 @@
 39	ἐλέγχους	ἔλεγχος2	n	n-p---ma-	Case=a|Gender=m|Number=p	38	OBJ	_	t_316|t_315|ref=exc._8
 40	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	41	ATR	_	t_317|t_318|ref=exc._8
 41	συκοφαντήματος	συκοφαντέω	n	n-s---ng-	Case=g|Gender=n|Number=s	39	ATR	_	t_318|t_316|ref=exc._8
-42	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=exc._1
+42	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=exc._8
 43	.	.	u	u--------	_	42	AuxK	_	t_319|e_15|ref=exc._8
 
 # source = Cassius Longinus, exc._8
@@ -500,83 +500,83 @@
 6	ἀπολογίας	ἀπολογία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_366|t_364|ref=exc._8
 7	.	.	u	u--------	_	1	AuxK	_	t_367|t_361|ref=exc._8
 
-# source = Cassius Longinus, exc._8
+# source = Cassius Longinus, exc._9
 # text = 9 [0] .
 # sent_id = 31
-1	9	9	x	x--------	_	2	AuxK	_	t_368|e_16|ref=exc._8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=exc._1
-3	.	.	u	u--------	_	2	AuxK	_	t_369|e_16|ref=exc._8
+1	9	9	x	x--------	_	2	AuxK	_	t_368|e_16|ref=exc._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=exc._9
+3	.	.	u	u--------	_	2	AuxK	_	t_369|e_16|ref=exc._9
 
-# source = Cassius Longinus, exc._8
+# source = Cassius Longinus, exc._9
 # text = Ὅτι ὁ πρῶτος ἄριστα πρὸς τὴν πεζὴν λέξιν τὸν Ὁμηρικὸν ὄγκον μετενεγκὼν Πλάτων ἐστίν .
 # sent_id = 32
-1	Ὅτι	ὅτι	d	d--------	_	14	AuxY	_	t_370|t_383|ref=exc._8
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_371|t_381|ref=exc._8
-3	πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	AtvV	_	t_372|t_381|ref=exc._8
-4	ἄριστα	ἄριστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	3	ADV	_	t_373|t_372|ref=exc._8
-5	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_374|t_381|ref=exc._8
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_375|t_377|ref=exc._8
-7	πεζὴν	πεζός	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_376|t_377|ref=exc._8
-8	λέξιν	λέξις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_377|t_374|ref=exc._8
-9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_378|t_380|ref=exc._8
-10	Ὁμηρικὸν	ὁμηρικός	a	a-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_379|t_380|ref=exc._8
-11	ὄγκον	ὄγκος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_380|t_381|ref=exc._8
-12	μετενεγκὼν	μεταφέρω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	SBJ	_	t_381|t_383|ref=exc._8
-13	Πλάτων	πλάτων	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_382|t_383|ref=exc._8
+1	Ὅτι	ὅτι	d	d--------	_	14	AuxY	_	t_370|t_383|ref=exc._9
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_371|t_381|ref=exc._9
+3	πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	12	AtvV	_	t_372|t_381|ref=exc._9
+4	ἄριστα	ἄριστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	3	ADV	_	t_373|t_372|ref=exc._9
+5	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_374|t_381|ref=exc._9
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_375|t_377|ref=exc._9
+7	πεζὴν	πεζός	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_376|t_377|ref=exc._9
+8	λέξιν	λέξις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_377|t_374|ref=exc._9
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_378|t_380|ref=exc._9
+10	Ὁμηρικὸν	ὁμηρικός	a	a-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_379|t_380|ref=exc._9
+11	ὄγκον	ὄγκος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_380|t_381|ref=exc._9
+12	μετενεγκὼν	μεταφέρω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	SBJ	_	t_381|t_383|ref=exc._9
+13	Πλάτων	πλάτων	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_382|t_383|ref=exc._9
 14	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_383|0|ref=exc._9
-15	.	.	u	u--------	_	14	AuxK	_	t_384|t_383|ref=exc._8
-
-# source = Cassius Longinus, exc._9
-# text = 10 [0] .
-# sent_id = 33
-1	10	10	u	u--------	_	2	AuxG	_	t_385|e_17|ref=exc._9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=exc._1
-3	.	.	u	u--------	_	2	AuxK	_	t_386|e_17|ref=exc._9
-
-# source = Cassius Longinus, exc._9
-# text = Ὅτι πολλάκις ἐνδείᾳ φύσεως καὶ οἱ ἐπιστήμονες κατὰ τὴν ἐργασίαν ἀποτυγχάνουσιν .
-# sent_id = 34
-1	Ὅτι	ὅτι	d	d--------	_	11	AuxY	_	t_387|t_397|ref=exc._9
-2	πολλάκις	πολλάκις	d	d--------	_	11	ADV	_	t_388|t_397|ref=exc._9
-3	ἐνδείᾳ	ἔνδεια	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_389|t_397|ref=exc._9
-4	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_390|t_389|ref=exc._9
-5	καὶ	καί	d	d--------	_	7	AuxZ	_	t_391|t_393|ref=exc._9
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_392|t_393|ref=exc._9
-7	ἐπιστήμονες	ἐπιστήμων	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_393|t_397|ref=exc._9
-8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_394|t_397|ref=exc._9
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_395|t_396|ref=exc._9
-10	ἐργασίαν	ἐργασία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_396|t_394|ref=exc._9
-11	ἀποτυγχάνουσιν	ἀποτυγχάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_397|0|ref=exc._9
-12	.	.	u	u--------	_	11	AuxK	_	t_398|t_397|ref=exc._9
-
-# source = Cassius Longinus, exc._9
-# text = 11 .
-# sent_id = 35
-1	11	11	x	x--------	_	0	AuxG	_	t_399|0|ref=exc._9
-2	.	.	u	u--------	_	1	AuxK	_	t_400|t_399|ref=exc._9
+15	.	.	u	u--------	_	14	AuxK	_	t_384|t_383|ref=exc._9
 
 # source = Cassius Longinus, exc._10
+# text = 10 [0] .
+# sent_id = 33
+1	10	10	u	u--------	_	2	AuxG	_	t_385|e_17|ref=exc._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=exc._10
+3	.	.	u	u--------	_	2	AuxK	_	t_386|e_17|ref=exc._10
+
+# source = Cassius Longinus, exc._10
+# text = Ὅτι πολλάκις ἐνδείᾳ φύσεως καὶ οἱ ἐπιστήμονες κατὰ τὴν ἐργασίαν ἀποτυγχάνουσιν .
+# sent_id = 34
+1	Ὅτι	ὅτι	d	d--------	_	11	AuxY	_	t_387|t_397|ref=exc._10
+2	πολλάκις	πολλάκις	d	d--------	_	11	ADV	_	t_388|t_397|ref=exc._10
+3	ἐνδείᾳ	ἔνδεια	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ADV	_	t_389|t_397|ref=exc._10
+4	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_390|t_389|ref=exc._10
+5	καὶ	καί	d	d--------	_	7	AuxZ	_	t_391|t_393|ref=exc._10
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_392|t_393|ref=exc._10
+7	ἐπιστήμονες	ἐπιστήμων	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_393|t_397|ref=exc._10
+8	κατὰ	κατά	r	r--------	_	11	AuxP	_	t_394|t_397|ref=exc._10
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_395|t_396|ref=exc._10
+10	ἐργασίαν	ἐργασία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_396|t_394|ref=exc._10
+11	ἀποτυγχάνουσιν	ἀποτυγχάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_397|0|ref=exc._10
+12	.	.	u	u--------	_	11	AuxK	_	t_398|t_397|ref=exc._10
+
+# source = Cassius Longinus, exc._11
+# text = 11 .
+# sent_id = 35
+1	11	11	x	x--------	_	0	AuxG	_	t_399|0|ref=exc._11
+2	.	.	u	u--------	_	1	AuxK	_	t_400|t_399|ref=exc._11
+
+# source = Cassius Longinus, exc._11
 # text = Ὅτι Θεόφραστος ἓξ τρόπους αὐξήσεως παραδέδωκεν ·
 # sent_id = 36
-1	Ὅτι	ὅτι	d	d--------	_	6	AuxY	_	t_401|t_406|ref=exc._10
-2	Θεόφραστος	θεόφραστος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_402|t_406|ref=exc._9
-3	ἓξ	ἕξ	m	m--------	_	4	ATR	_	t_403|t_404|ref=exc._10
-4	τρόπους	τρόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_404|t_406|ref=exc._10
-5	αὐξήσεως	αὔξησις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_405|t_404|ref=exc._10
-6	παραδέδωκεν	παραδίδωμι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_406|0|ref=exc._10
-7	·	·	u	u--------	_	6	AuxK	_	t_407|t_406|ref=exc._10
+1	Ὅτι	ὅτι	d	d--------	_	6	AuxY	_	t_401|t_406|ref=exc._11
+2	Θεόφραστος	θεόφραστος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_402|t_406|ref=exc._11
+3	ἓξ	ἕξ	m	m--------	_	4	ATR	_	t_403|t_404|ref=exc._11
+4	τρόπους	τρόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_404|t_406|ref=exc._11
+5	αὐξήσεως	αὔξησις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_405|t_404|ref=exc._11
+6	παραδέδωκεν	παραδίδωμι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_406|0|ref=exc._11
+7	·	·	u	u--------	_	6	AuxK	_	t_407|t_406|ref=exc._11
 
-# source = Cassius Longinus, exc._10-11
+# source = Cassius Longinus, exc._11
 # text = τὰ μὲν γὰρ ἐκ τῶν πραγμάτων λέγει ἔχειν τὴν αὔξησιν , τὰ δὲ ἐκ τῶν ἀποβαινόντων , τὰ δὲ ἐξ ἀντιπαραβολῆς καὶ κρίσεως , τὰ δὲ ἐκ τῶν καιρῶν καὶ τοῦ πάθους φαίνεται μεγάλα [0] [1] .
 # sent_id = 37
-1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	SBJ	_	t_408|t_415|ref=exc._10
-2	μὲν	μέν	d	d--------	_	26	AuxY	_	t_409|t_433|ref=exc._10
-3	γὰρ	γάρ	d	d--------	_	26	AuxY	_	t_410|t_433|ref=exc._10
-4	ἐκ	ἐκ	r	r--------	_	8	AuxP	_	t_411|t_415|ref=exc._10
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_412|t_413|ref=exc._10
-6	πραγμάτων	πρᾶγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_413|t_411|ref=exc._10
-7	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_414|0|ref=exc._10
-8	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_415|t_414|ref=exc._10
+1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	SBJ	_	t_408|t_415|ref=exc._11
+2	μὲν	μέν	d	d--------	_	26	AuxY	_	t_409|t_433|ref=exc._11
+3	γὰρ	γάρ	d	d--------	_	26	AuxY	_	t_410|t_433|ref=exc._11
+4	ἐκ	ἐκ	r	r--------	_	8	AuxP	_	t_411|t_415|ref=exc._11
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_412|t_413|ref=exc._11
+6	πραγμάτων	πρᾶγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_413|t_411|ref=exc._11
+7	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_414|0|ref=exc._11
+8	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_415|t_414|ref=exc._11
 9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_416|t_417|ref=exc._11
 10	αὔξησιν	αὔξησις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_417|t_415|ref=exc._11
 11	,	,	u	u--------	_	7	AuxX	_	t_418|t_414|ref=exc._11
@@ -603,8 +603,8 @@
 32	πάθους	πάθος	n	n-s---ng-	Case=g|Gender=n|Number=s	30	ADV	_	t_439|t_437|ref=exc._11
 33	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	26	PRED	_	t_440|t_433|ref=exc._11
 34	μεγάλα	μέγας	a	a-p---nn-	Case=n|Gender=n|Number=p	33	PNOM	_	t_441|t_440|ref=exc._11
-35	[0]	[0]	-	---------	_	26	SBJ	_	e_18|t_433|ref=exc._1
-36	[1]	[1]	-	---------	_	26	PRED	_	e_19|t_433|ref=exc._1
+35	[0]	[0]	-	---------	_	26	SBJ	_	e_18|t_433|ref=exc._11
+36	[1]	[1]	-	---------	_	26	PRED	_	e_19|t_433|ref=exc._11
 37	.	.	u	u--------	_	7	AuxK	_	t_442|t_414|ref=exc._11
 
 # source = Cassius Longinus, exc._11
@@ -626,121 +626,121 @@
 14	ῥοπήν	ῥοπή	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_456|t_452|ref=exc._11
 15	.	.	u	u--------	_	9	AuxK	_	t_457|t_451|ref=exc._11
 
-# source = Cassius Longinus, exc._11
+# source = Cassius Longinus, exc._12
 # text = 12 .
 # sent_id = 39
-1	12	12	x	x--------	_	0	AuxG	_	t_458|0|ref=exc._11
-2	.	.	u	u--------	_	1	AuxK	_	t_459|t_458|ref=exc._11
+1	12	12	x	x--------	_	0	AuxG	_	t_458|0|ref=exc._12
+2	.	.	u	u--------	_	1	AuxK	_	t_459|t_458|ref=exc._12
 
-# source = Cassius Longinus, exc._11
+# source = Cassius Longinus, exc._12
 # text = Ὅτι τὴν πλεονάσασαν περὶ τὴν Ἀσίαν ἔκλυσιν ἀνεκτήσατο Ἀριστείδης ·
 # sent_id = 40
-1	Ὅτι	ὅτι	d	d--------	_	8	AuxY	_	t_460|t_467|ref=exc._11
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_461|t_466|ref=exc._11
-3	πλεονάσασαν	πλεονάζω	v	v-sapafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	7	ATR	_	t_462|t_466|ref=exc._11
-4	περὶ	περί	r	r--------	_	7	AuxP	_	t_463|t_466|ref=exc._11
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_464|t_465|ref=exc._11
-6	Ἀσίαν	ἀσία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_465|t_463|ref=exc._11
-7	ἔκλυσιν	ἔκλυσις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_466|t_467|ref=exc._11
-8	ἀνεκτήσατο	ἀνακτάομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_467|0|ref=exc._11
-9	Ἀριστείδης	ἀριστείδης	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_468|t_467|ref=exc._11
-10	·	·	u	u--------	_	8	AuxK	_	t_469|t_467|ref=exc._11
+1	Ὅτι	ὅτι	d	d--------	_	8	AuxY	_	t_460|t_467|ref=exc._12
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_461|t_466|ref=exc._12
+3	πλεονάσασαν	πλεονάζω	v	v-sapafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	7	ATR	_	t_462|t_466|ref=exc._12
+4	περὶ	περί	r	r--------	_	7	AuxP	_	t_463|t_466|ref=exc._12
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_464|t_465|ref=exc._12
+6	Ἀσίαν	ἀσία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_465|t_463|ref=exc._12
+7	ἔκλυσιν	ἔκλυσις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_466|t_467|ref=exc._12
+8	ἀνεκτήσατο	ἀνακτάομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_467|0|ref=exc._12
+9	Ἀριστείδης	ἀριστείδης	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_468|t_467|ref=exc._12
+10	·	·	u	u--------	_	8	AuxK	_	t_469|t_467|ref=exc._12
 
-# source = Cassius Longinus, exc._11
+# source = Cassius Longinus, exc._12
 # text = συνεχῶς γάρ ἐστι καὶῥέων καὶ πιθανός .
 # sent_id = 41
-1	συνεχῶς	συνεχής	d	d--------	_	3	ADV	_	t_470|t_472|ref=exc._11
-2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_471|t_472|ref=exc._11
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_472|0|ref=exc._11
-4	καὶῥέων	ῥέα	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	PNOM	_	t_473|t_474|ref=exc._11
-5	καὶ	καί	c	c--------	_	3	COORD	_	t_474|t_472|ref=exc._11
-6	πιθανός	πιθανός	a	a-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_475|t_474|ref=exc._11
-7	.	.	u	u--------	_	3	AuxK	_	t_476|t_472|ref=exc._11
+1	συνεχῶς	συνεχής	d	d--------	_	3	ADV	_	t_470|t_472|ref=exc._12
+2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_471|t_472|ref=exc._12
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_472|0|ref=exc._12
+4	καὶῥέων	ῥέα	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	PNOM	_	t_473|t_474|ref=exc._12
+5	καὶ	καί	c	c--------	_	3	COORD	_	t_474|t_472|ref=exc._12
+6	πιθανός	πιθανός	a	a-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_475|t_474|ref=exc._12
+7	.	.	u	u--------	_	3	AuxK	_	t_476|t_472|ref=exc._12
 
-# source = Cassius Longinus, exc._12
+# source = Cassius Longinus, exc._13
 # text = 13 .
 # sent_id = 42
-1	13	13	x	x--------	_	0	AuxG	_	t_477|0|ref=exc._12
-2	.	.	u	u--------	_	1	AuxK	_	t_478|t_477|ref=exc._12
+1	13	13	x	x--------	_	0	AuxG	_	t_477|0|ref=exc._13
+2	.	.	u	u--------	_	1	AuxK	_	t_478|t_477|ref=exc._13
 
-# source = Cassius Longinus, exc._12
+# source = Cassius Longinus, exc._13
 # text = Ὅτι ἠθικὸς λόγος γίνεται κατὰ διάνοιαν , ὅταν χρηστὴν ἔχῃ προαίρεσιν καὶ πρὸς τὰ βελτίω ῥέπουσαν [0] .
 # sent_id = 43
-1	Ὅτι	ὅτι	c	c--------	_	17	AuxC	_	t_479|e_20|ref=exc._12
-2	ἠθικὸς	ἠθικός	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_480|t_481|ref=exc._12
-3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_481|t_482|ref=exc._12
-4	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	OBJ	_	t_482|t_479|ref=exc._12
-5	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_483|t_482|ref=exc._12
-6	διάνοιαν	διάνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_484|t_483|ref=exc._12
-7	,	,	u	u--------	_	8	AuxX	_	t_485|t_486|ref=exc._12
-8	ὅταν	ὅταν	c	c--------	_	4	AuxC	_	t_486|t_482|ref=exc._12
-9	χρηστὴν	χρηστός	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_487|t_489|ref=exc._12
-10	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	8	ADV	_	t_488|t_486|ref=exc._12
-11	προαίρεσιν	προαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_489|t_488|ref=exc._12
-12	καὶ	καί	d	d--------	_	11	AuxZ	_	t_490|t_489|ref=exc._12
-13	πρὸς	πρός	r	r--------	_	16	AuxP	_	t_491|t_494|ref=exc._12
-14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_492|t_493|ref=exc._12
-15	βελτίω	βελτίων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	13	ADV	_	t_493|t_491|ref=exc._12
-16	ῥέπουσαν	ῥέπω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_494|t_489|ref=exc._12
-17	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=exc._1
-18	.	.	u	u--------	_	17	AuxK	_	t_495|e_20|ref=exc._12
+1	Ὅτι	ὅτι	c	c--------	_	17	AuxC	_	t_479|e_20|ref=exc._13
+2	ἠθικὸς	ἠθικός	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_480|t_481|ref=exc._13
+3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_481|t_482|ref=exc._13
+4	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	OBJ	_	t_482|t_479|ref=exc._13
+5	κατὰ	κατά	r	r--------	_	4	AuxP	_	t_483|t_482|ref=exc._13
+6	διάνοιαν	διάνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_484|t_483|ref=exc._13
+7	,	,	u	u--------	_	8	AuxX	_	t_485|t_486|ref=exc._13
+8	ὅταν	ὅταν	c	c--------	_	4	AuxC	_	t_486|t_482|ref=exc._13
+9	χρηστὴν	χρηστός	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_487|t_489|ref=exc._13
+10	ἔχῃ	ἔχω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	8	ADV	_	t_488|t_486|ref=exc._13
+11	προαίρεσιν	προαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_489|t_488|ref=exc._13
+12	καὶ	καί	d	d--------	_	11	AuxZ	_	t_490|t_489|ref=exc._13
+13	πρὸς	πρός	r	r--------	_	16	AuxP	_	t_491|t_494|ref=exc._13
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_492|t_493|ref=exc._13
+15	βελτίω	βελτίων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	13	ADV	_	t_493|t_491|ref=exc._13
+16	ῥέπουσαν	ῥέπω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_494|t_489|ref=exc._13
+17	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=exc._13
+18	.	.	u	u--------	_	17	AuxK	_	t_495|e_20|ref=exc._13
 
-# source = Cassius Longinus, exc._13
+# source = Cassius Longinus, exc._14
 # text = 14 .
 # sent_id = 44
-1	14	14	x	x--------	_	0	AuxG	_	t_496|0|ref=exc._13
-2	.	.	u	u--------	_	1	AuxK	_	t_497|t_496|ref=exc._13
+1	14	14	x	x--------	_	0	AuxG	_	t_496|0|ref=exc._14
+2	.	.	u	u--------	_	1	AuxK	_	t_497|t_496|ref=exc._14
 
-# source = Cassius Longinus, exc._13
+# source = Cassius Longinus, exc._14
 # text = Ὅτι ἄριστοι λόγοι καὶ μιμήσεως ἄξιοι οἱ μὴ ἔχοντες ἐνὸς χαρακτῆρα , ἀλλὰ διαφόρων [0] [1] .
 # sent_id = 45
-1	Ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_498|e_21|ref=exc._13
-2	ἄριστοι	ἄριστος	a	a-p---mns	Case=n|Degree=s|Gender=m|Number=p	3	ATR	_	t_499|t_500|ref=exc._13
-3	λόγοι	λόγος	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_500|e_22|ref=exc._13
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_501|t_498|ref=exc._13
-5	μιμήσεως	μίμησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_502|t_503|ref=exc._13
-6	ἄξιοι	ἄξιος	a	a-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_503|e_22|ref=exc._13
-7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_504|t_506|ref=exc._13
-8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_505|t_506|ref=exc._13
-9	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	SBJ	_	t_506|t_510|ref=exc._13
-10	ἐνὸς	ἐν	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_507|t_508|ref=exc._13
-11	χαρακτῆρα	χαρακτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_508|t_506|ref=exc._13
-12	,	,	u	u--------	_	9	AuxX	_	t_509|t_506|ref=exc._13
-13	ἀλλὰ	ἀλλά	c	c--------	_	4	COORD	_	t_510|t_501|ref=exc._13
-14	διαφόρων	διάφορος	a	a-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_511|t_510|ref=exc._13
-15	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=exc._1
-16	[1]	[1]	-	---------	_	1	OBJ	_	e_22|t_498|ref=exc._1
-17	.	.	u	u--------	_	15	AuxK	_	t_512|e_21|ref=exc._13
+1	Ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_498|e_21|ref=exc._14
+2	ἄριστοι	ἄριστος	a	a-p---mns	Case=n|Degree=s|Gender=m|Number=p	3	ATR	_	t_499|t_500|ref=exc._14
+3	λόγοι	λόγος	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_500|e_22|ref=exc._14
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_501|t_498|ref=exc._14
+5	μιμήσεως	μίμησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_502|t_503|ref=exc._14
+6	ἄξιοι	ἄξιος	a	a-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_503|e_22|ref=exc._14
+7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_504|t_506|ref=exc._14
+8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_505|t_506|ref=exc._14
+9	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	SBJ	_	t_506|t_510|ref=exc._14
+10	ἐνὸς	ἐν	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	ATR	_	t_507|t_508|ref=exc._14
+11	χαρακτῆρα	χαρακτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_508|t_506|ref=exc._14
+12	,	,	u	u--------	_	9	AuxX	_	t_509|t_506|ref=exc._14
+13	ἀλλὰ	ἀλλά	c	c--------	_	4	COORD	_	t_510|t_501|ref=exc._14
+14	διαφόρων	διάφορος	a	a-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_511|t_510|ref=exc._14
+15	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=exc._14
+16	[1]	[1]	-	---------	_	1	OBJ	_	e_22|t_498|ref=exc._14
+17	.	.	u	u--------	_	15	AuxK	_	t_512|e_21|ref=exc._14
 
-# source = Cassius Longinus, exc._13-12
+# source = Cassius Longinus, exc._15
 # text = 15 .
 # sent_id = 46
-1	15	15	u	u--------	_	0	AuxG	_	t_513|0|ref=exc._13
-2	.	.	u	u--------	_	1	AuxK	_	t_514|t_513|ref=exc._12
+1	15	15	u	u--------	_	0	AuxG	_	t_513|0|ref=exc._15
+2	.	.	u	u--------	_	1	AuxK	_	t_514|t_513|ref=exc._15
 
-# source = Cassius Longinus, exc._13-15
+# source = Cassius Longinus, exc._15
 # text = Ὅτι τὰ κεφάλαια τῆς δημηγορίας τέτταρα λέγει εἶναι , ὅσαπερ καὶ καθάπαξ εἴωθεν ἐμπίπτειν εἰς τὰς συμβουλάς , τὸ δίκαιον τὸ συμφέρον τὸ δυνατὸν τὸ ἔνδοξον , ταῦτα δʼ ἄριστα τὸν Θουκυδίδην φησὶ φυλάξαι .
 # sent_id = 47
-1	Ὅτι	ὅτι	d	d--------	_	29	AuxY	_	t_515|t_543|ref=exc._13
-2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_516|t_517|ref=exc._14
-3	κεφάλαια	κεφάλαιος	a	a-p---na-	Case=a|Gender=n|Number=p	8	SBJ	_	t_517|t_522|ref=exc._14
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_518|t_519|ref=exc._14
-5	δημηγορίας	δημηγορία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_519|t_517|ref=exc._14
-6	τέτταρα	τέσσαρες	a	a-p---na-	Case=a|Gender=n|Number=p	8	PNOM	_	t_520|t_522|ref=exc._14
-7	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	29	PRED	_	t_521|t_543|ref=exc._14
-8	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_522|t_521|ref=exc._14
-9	,	,	u	u--------	_	0	AuxX	_	t_523|0|ref=exc._14
-10	ὅσαπερ	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	14	SBJ	_	t_524|t_528|ref=exc._14
-11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_525|t_526|ref=exc._14
-12	καθάπαξ	καθάπαξ	d	d--------	_	13	ADV	_	t_526|t_527|ref=exc._14
-13	εἴωθεν	ἔθω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	18	ADV	_	t_527|t_532|ref=exc._14
-14	ἐμπίπτειν	ἐμπίτνω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_528|t_527|ref=exc._14
-15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_529|t_528|ref=exc._14
-16	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	17	ATR	_	t_530|t_531|ref=exc._14
-17	συμβουλάς	συμβουλή	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_531|t_529|ref=exc._14
-18	,	,	u	u--------	_	9	AuxX	_	t_532|t_523|ref=exc._14
-19	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_533|t_536|ref=exc._14
-20	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_534|t_536|ref=exc._14
+1	Ὅτι	ὅτι	d	d--------	_	29	AuxY	_	t_515|t_543|ref=exc._15
+2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_516|t_517|ref=exc._15
+3	κεφάλαια	κεφάλαιος	a	a-p---na-	Case=a|Gender=n|Number=p	8	SBJ	_	t_517|t_522|ref=exc._15
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_518|t_519|ref=exc._15
+5	δημηγορίας	δημηγορία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_519|t_517|ref=exc._15
+6	τέτταρα	τέσσαρες	a	a-p---na-	Case=a|Gender=n|Number=p	8	PNOM	_	t_520|t_522|ref=exc._15
+7	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	29	PRED	_	t_521|t_543|ref=exc._15
+8	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_522|t_521|ref=exc._15
+9	,	,	u	u--------	_	0	AuxX	_	t_523|0|ref=exc._15
+10	ὅσαπερ	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	14	SBJ	_	t_524|t_528|ref=exc._15
+11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_525|t_526|ref=exc._15
+12	καθάπαξ	καθάπαξ	d	d--------	_	13	ADV	_	t_526|t_527|ref=exc._15
+13	εἴωθεν	ἔθω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	18	ADV	_	t_527|t_532|ref=exc._15
+14	ἐμπίπτειν	ἐμπίτνω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_528|t_527|ref=exc._15
+15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_529|t_528|ref=exc._15
+16	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	17	ATR	_	t_530|t_531|ref=exc._15
+17	συμβουλάς	συμβουλή	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_531|t_529|ref=exc._15
+18	,	,	u	u--------	_	9	AuxX	_	t_532|t_523|ref=exc._15
+19	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_533|t_536|ref=exc._15
+20	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_534|t_536|ref=exc._15
 21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	20	ATR	_	t_535|t_534|ref=exc._15
 22	συμφέρον	συμφέρω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_536|t_528|ref=exc._15
 23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_537|t_538|ref=exc._15
@@ -757,132 +757,132 @@
 34	φυλάξαι	φυλάσσω	v	v--ana---	Mood=n|Tense=a|Voice=a	33	OBJ	_	t_548|t_547|ref=exc._15
 35	.	.	u	u--------	_	9	AuxK	_	t_549|t_523|ref=exc._15
 
-# source = Cassius Longinus, exc._15
+# source = Cassius Longinus, exc._16
 # text = 16 .
 # sent_id = 48
-1	16	16	x	x--------	_	0	AuxG	_	t_550|0|ref=exc._15
-2	.	.	u	u--------	_	1	AuxK	_	t_551|t_550|ref=exc._15
-
-# source = Cassius Longinus, exc._15
-# text = Ὅτι αἱ γνωμολογίαι ἄρισται ἐπὶ τῇ κατασκευῇ [0] .
-# sent_id = 49
-1	Ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_552|e_23|ref=exc._15
-2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_553|t_554|ref=exc._15
-3	γνωμολογίαι	γνωμολογία	n	n-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_554|e_23|ref=exc._15
-4	ἄρισται	ἄριστος	a	a-p---fn-	Case=n|Gender=f|Number=p	8	PNOM	_	t_555|e_23|ref=exc._15
-5	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_556|t_555|ref=exc._15
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_557|t_558|ref=exc._15
-7	κατασκευῇ	κατασκευή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_558|t_556|ref=exc._15
-8	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=exc._1
-9	.	.	u	u--------	_	8	AuxK	_	t_559|e_23|ref=exc._15
-
-# source = Cassius Longinus, exc._15
-# text = οὐ δεῖ δὲ κατακόρως ταύταις κεχρῆσθαι .
-# sent_id = 50
-1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_560|t_561|ref=exc._15
-2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_561|0|ref=exc._15
-3	δὲ	δέ	g	g--------	_	2	AuxY	_	t_562|t_561|ref=exc._15
-4	κατακόρως	κατάκορος	d	d--------	_	6	ADV	_	t_563|t_565|ref=exc._15
-5	ταύταις	οὗτος	p	p-p---fd-	Case=d|Gender=f|Number=p	6	OBJ	_	t_564|t_565|ref=exc._15
-6	κεχρῆσθαι	χράω2	v	v--rne---	Mood=n|Tense=r|Voice=e	2	SBJ	_	t_565|t_561|ref=exc._15
-7	.	.	u	u--------	_	2	AuxK	_	t_566|t_561|ref=exc._15
-
-# source = Cassius Longinus, exc._15
-# text = 17 .
-# sent_id = 51
-1	17	17	x	x--------	_	0	AuxG	_	t_567|0|ref=exc._15
-2	.	.	u	u--------	_	1	AuxK	_	t_568|t_567|ref=exc._15
-
-# source = Cassius Longinus, exc._15-16
-# text = Ὅτι τὸν κατὰ Μειδίου λόγον ἐπιφορικόν φησιν εἶναι , εἰλῆφθαι δὲ ἑκ τῆς ποιότητος τοῦ προσώπου [0] .
-# sent_id = 52
-1	Ὅτι	ὅτι	c	c--------	_	17	AuxC	_	t_569|e_24|ref=exc._15
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_570|t_573|ref=exc._15
-3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_571|t_573|ref=exc._15
-4	Μειδίου	μειδίας	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_572|t_571|ref=exc._16
-5	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	SBJ	_	t_573|t_576|ref=exc._16
-6	ἐπιφορικόν	ἐπιφορικός	a	a-s---ma-	Case=a|Gender=m|Number=s	8	PNOM	_	t_574|t_576|ref=exc._16
-7	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_575|t_569|ref=exc._16
-8	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_576|t_579|ref=exc._16
-9	,	,	u	u--------	_	8	AuxX	_	t_577|t_576|ref=exc._16
-10	εἰλῆφθαι	λαμβάνω	v	v--rne---	Mood=n|Tense=r|Voice=e	11	OBJ	_	t_578|t_579|ref=exc._16
-11	δὲ	δέ	d	d--------	_	7	COORD	_	t_579|t_575|ref=exc._16
-12	ἑκ	ἑκ	r	r--------	_	10	AuxP	_	t_580|t_578|ref=exc._16
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_581|t_582|ref=exc._15
-14	ποιότητος	ποιότης	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_582|t_580|ref=exc._16
-15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_583|t_584|ref=exc._16
-16	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_584|t_582|ref=exc._16
-17	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=exc._1
-18	.	.	u	u--------	_	17	AuxK	_	t_585|e_24|ref=exc._16
+1	16	16	x	x--------	_	0	AuxG	_	t_550|0|ref=exc._16
+2	.	.	u	u--------	_	1	AuxK	_	t_551|t_550|ref=exc._16
 
 # source = Cassius Longinus, exc._16
-# text = 18 .
-# sent_id = 53
-1	18	18	x	x--------	_	0	AuxG	_	t_586|0|ref=exc._16
-2	.	.	u	u--------	_	1	AuxK	_	t_587|t_586|ref=exc._16
+# text = Ὅτι αἱ γνωμολογίαι ἄρισται ἐπὶ τῇ κατασκευῇ [0] .
+# sent_id = 49
+1	Ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_552|e_23|ref=exc._16
+2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_553|t_554|ref=exc._16
+3	γνωμολογίαι	γνωμολογία	n	n-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_554|e_23|ref=exc._16
+4	ἄρισται	ἄριστος	a	a-p---fn-	Case=n|Gender=f|Number=p	8	PNOM	_	t_555|e_23|ref=exc._16
+5	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_556|t_555|ref=exc._16
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_557|t_558|ref=exc._16
+7	κατασκευῇ	κατασκευή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_558|t_556|ref=exc._16
+8	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=exc._16
+9	.	.	u	u--------	_	8	AuxK	_	t_559|e_23|ref=exc._16
 
-# source = Cassius Longinus, exc._16-17
-# text = Ὅτι τέχνης ἐστὶ μᾶλλον τὸ ποῖα δεῖ προτάττειν , καὶ ποῖα ἐπιζευγνύειν [0] .
-# sent_id = 54
-1	Ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_588|e_25|ref=exc._16
-2	τέχνης	τέχνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_589|t_591|ref=exc._16
-3	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_590|t_588|ref=exc._17
-4	μᾶλλον	μᾶλλον	d	d--------	_	3	ADV	_	t_591|t_590|ref=exc._17
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_592|t_595|ref=exc._17
-6	ποῖα	ποῖος	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_593|t_595|ref=exc._17
-7	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PNOM	_	t_594|t_597|ref=exc._17
-8	προτάττειν	προτάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_595|t_594|ref=exc._17
-9	,	,	u	u--------	_	13	AuxX	_	t_596|e_25|ref=exc._17
-10	καὶ	καί	c	c--------	_	3	COORD	_	t_597|t_590|ref=exc._17
-11	ποῖα	ποῖος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_598|t_599|ref=exc._17
-12	ἐπιζευγνύειν	ἐπιζεύγνυμι	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_599|t_597|ref=exc._17
-13	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=exc._1
-14	.	.	u	u--------	_	13	AuxK	_	t_600|e_25|ref=exc._17
+# source = Cassius Longinus, exc._16
+# text = οὐ δεῖ δὲ κατακόρως ταύταις κεχρῆσθαι .
+# sent_id = 50
+1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_560|t_561|ref=exc._16
+2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_561|0|ref=exc._16
+3	δὲ	δέ	g	g--------	_	2	AuxY	_	t_562|t_561|ref=exc._16
+4	κατακόρως	κατάκορος	d	d--------	_	6	ADV	_	t_563|t_565|ref=exc._16
+5	ταύταις	οὗτος	p	p-p---fd-	Case=d|Gender=f|Number=p	6	OBJ	_	t_564|t_565|ref=exc._16
+6	κεχρῆσθαι	χράω2	v	v--rne---	Mood=n|Tense=r|Voice=e	2	SBJ	_	t_565|t_561|ref=exc._16
+7	.	.	u	u--------	_	2	AuxK	_	t_566|t_561|ref=exc._16
 
 # source = Cassius Longinus, exc._17
-# text = 19 .
-# sent_id = 55
-1	19	19	x	x--------	_	0	AuxG	_	t_601|0|ref=exc._17
-2	.	.	u	u--------	_	1	AuxK	_	t_602|t_601|ref=exc._17
+# text = 17 .
+# sent_id = 51
+1	17	17	x	x--------	_	0	AuxG	_	t_567|0|ref=exc._17
+2	.	.	u	u--------	_	1	AuxK	_	t_568|t_567|ref=exc._17
 
-# source = Cassius Longinus, exc._17-18
-# text = Ὅτι ὑπόστασιν καλοῦσιν τὸ ἔμφασιν ἔχον καὶ πάθους τινὸς ἐνδεικτικόν , καθάπερ τὸ Δημοσθενικόν [0] ·
-# sent_id = 56
-1	Ὅτι	ὅτι	c	c--------	_	3	AuxY	_	t_603|t_605|ref=exc._17
-2	ὑπόστασιν	ὑπόστασις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OCOMP	_	t_604|t_605|ref=exc._17
-3	καλοῦσιν	καλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_605|0|ref=exc._17
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_606|t_608|ref=exc._17
-5	ἔμφασιν	ἔμφασις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_607|t_608|ref=exc._17
-6	ἔχον	ἔχω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	7	OBJ	_	t_608|t_609|ref=exc._16
-7	καὶ	καί	c	c--------	_	3	COORD	_	t_609|t_605|ref=exc._17
-8	πάθους	πάθος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	ADV	_	t_610|t_612|ref=exc._18
-9	τινὸς	τις	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_611|t_610|ref=exc._18
-10	ἐνδεικτικόν	ἐνδεικτικός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OCOMP	_	t_612|t_609|ref=exc._18
-11	,	,	u	u--------	_	3	AuxX	_	t_613|t_605|ref=exc._18
-12	καθάπερ	καθά	c	c--------	_	3	AuxC	_	t_614|t_605|ref=exc._18
-13	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	14	ATR	_	t_615|t_616|ref=exc._18
-14	Δημοσθενικόν	δημοσθενικός	a	a-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_616|e_26|ref=exc._18
-15	[0]	[0]	-	---------	_	12	ADV	_	e_26|t_614|ref=exc._1
-16	·	·	u	u--------	_	3	AuxK	_	t_617|t_605|ref=exc._18
+# source = Cassius Longinus, exc._17
+# text = Ὅτι τὸν κατὰ Μειδίου λόγον ἐπιφορικόν φησιν εἶναι , εἰλῆφθαι δὲ ἑκ τῆς ποιότητος τοῦ προσώπου [0] .
+# sent_id = 52
+1	Ὅτι	ὅτι	c	c--------	_	17	AuxC	_	t_569|e_24|ref=exc._17
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_570|t_573|ref=exc._17
+3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_571|t_573|ref=exc._17
+4	Μειδίου	μειδίας	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_572|t_571|ref=exc._17
+5	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	SBJ	_	t_573|t_576|ref=exc._17
+6	ἐπιφορικόν	ἐπιφορικός	a	a-s---ma-	Case=a|Gender=m|Number=s	8	PNOM	_	t_574|t_576|ref=exc._17
+7	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_575|t_569|ref=exc._17
+8	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_576|t_579|ref=exc._17
+9	,	,	u	u--------	_	8	AuxX	_	t_577|t_576|ref=exc._17
+10	εἰλῆφθαι	λαμβάνω	v	v--rne---	Mood=n|Tense=r|Voice=e	11	OBJ	_	t_578|t_579|ref=exc._17
+11	δὲ	δέ	d	d--------	_	7	COORD	_	t_579|t_575|ref=exc._17
+12	ἑκ	ἑκ	r	r--------	_	10	AuxP	_	t_580|t_578|ref=exc._17
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_581|t_582|ref=exc._17
+14	ποιότητος	ποιότης	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_582|t_580|ref=exc._17
+15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_583|t_584|ref=exc._17
+16	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_584|t_582|ref=exc._17
+17	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=exc._17
+18	.	.	u	u--------	_	17	AuxK	_	t_585|e_24|ref=exc._17
 
 # source = Cassius Longinus, exc._18
+# text = 18 .
+# sent_id = 53
+1	18	18	x	x--------	_	0	AuxG	_	t_586|0|ref=exc._18
+2	.	.	u	u--------	_	1	AuxK	_	t_587|t_586|ref=exc._18
+
+# source = Cassius Longinus, exc._18
+# text = Ὅτι τέχνης ἐστὶ μᾶλλον τὸ ποῖα δεῖ προτάττειν , καὶ ποῖα ἐπιζευγνύειν [0] .
+# sent_id = 54
+1	Ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_588|e_25|ref=exc._18
+2	τέχνης	τέχνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_589|t_591|ref=exc._18
+3	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_590|t_588|ref=exc._18
+4	μᾶλλον	μᾶλλον	d	d--------	_	3	ADV	_	t_591|t_590|ref=exc._18
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_592|t_595|ref=exc._18
+6	ποῖα	ποῖος	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_593|t_595|ref=exc._18
+7	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PNOM	_	t_594|t_597|ref=exc._18
+8	προτάττειν	προτάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	SBJ	_	t_595|t_594|ref=exc._18
+9	,	,	u	u--------	_	13	AuxX	_	t_596|e_25|ref=exc._18
+10	καὶ	καί	c	c--------	_	3	COORD	_	t_597|t_590|ref=exc._18
+11	ποῖα	ποῖος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_598|t_599|ref=exc._18
+12	ἐπιζευγνύειν	ἐπιζεύγνυμι	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_599|t_597|ref=exc._18
+13	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=exc._18
+14	.	.	u	u--------	_	13	AuxK	_	t_600|e_25|ref=exc._18
+
+# source = Cassius Longinus, exc._19
+# text = 19 .
+# sent_id = 55
+1	19	19	x	x--------	_	0	AuxG	_	t_601|0|ref=exc._19
+2	.	.	u	u--------	_	1	AuxK	_	t_602|t_601|ref=exc._19
+
+# source = Cassius Longinus, exc._19
+# text = Ὅτι ὑπόστασιν καλοῦσιν τὸ ἔμφασιν ἔχον καὶ πάθους τινὸς ἐνδεικτικόν , καθάπερ τὸ Δημοσθενικόν [0] ·
+# sent_id = 56
+1	Ὅτι	ὅτι	c	c--------	_	3	AuxY	_	t_603|t_605|ref=exc._19
+2	ὑπόστασιν	ὑπόστασις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OCOMP	_	t_604|t_605|ref=exc._19
+3	καλοῦσιν	καλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_605|0|ref=exc._19
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_606|t_608|ref=exc._19
+5	ἔμφασιν	ἔμφασις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_607|t_608|ref=exc._19
+6	ἔχον	ἔχω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	7	OBJ	_	t_608|t_609|ref=exc._19
+7	καὶ	καί	c	c--------	_	3	COORD	_	t_609|t_605|ref=exc._19
+8	πάθους	πάθος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	ADV	_	t_610|t_612|ref=exc._19
+9	τινὸς	τις	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_611|t_610|ref=exc._19
+10	ἐνδεικτικόν	ἐνδεικτικός	a	a-s---na-	Case=a|Gender=n|Number=s	7	OCOMP	_	t_612|t_609|ref=exc._19
+11	,	,	u	u--------	_	3	AuxX	_	t_613|t_605|ref=exc._19
+12	καθάπερ	καθά	c	c--------	_	3	AuxC	_	t_614|t_605|ref=exc._19
+13	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	14	ATR	_	t_615|t_616|ref=exc._19
+14	Δημοσθενικόν	δημοσθενικός	a	a-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_616|e_26|ref=exc._19
+15	[0]	[0]	-	---------	_	12	ADV	_	e_26|t_614|ref=exc._19
+16	·	·	u	u--------	_	3	AuxK	_	t_617|t_605|ref=exc._19
+
+# source = Cassius Longinus, exc._19
 # text = , , οὕτως ὠργίσθη καὶ παρωξύνθη “ .
 # sent_id = 57
-1	,	,	u	u--------	_	5	AuxG	_	t_618|t_622|ref=exc._18
-2	,	,	u	u--------	_	5	AuxG	_	t_619|t_622|ref=exc._18
-3	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_620|t_622|ref=exc._18
-4	ὠργίσθη	ὀργίζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	PRED	_	t_621|t_622|ref=exc._18
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_622|0|ref=exc._18
-6	παρωξύνθη	παροξύνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	PRED	_	t_623|t_622|ref=exc._18
-7	“	“	u	u--------	_	5	AuxG	_	t_624|t_622|ref=exc._17
-8	.	.	u	u--------	_	1	AuxK	_	t_625|t_618|ref=exc._18
+1	,	,	u	u--------	_	5	AuxG	_	t_618|t_622|ref=exc._19
+2	,	,	u	u--------	_	5	AuxG	_	t_619|t_622|ref=exc._19
+3	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_620|t_622|ref=exc._19
+4	ὠργίσθη	ὀργίζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	PRED	_	t_621|t_622|ref=exc._19
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_622|0|ref=exc._19
+6	παρωξύνθη	παροξύνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	PRED	_	t_623|t_622|ref=exc._19
+7	“	“	u	u--------	_	5	AuxG	_	t_624|t_622|ref=exc._19
+8	.	.	u	u--------	_	1	AuxK	_	t_625|t_618|ref=exc._19
 
 # source = Cassius Longinus, exc._19
 # text = καὶ ἄλλως [0] ·
 # sent_id = 58
 1	καὶ	καί	d	d--------	_	3	AuxY	_	t_626|e_27|ref=exc._19
 2	ἄλλως	ἄλλως	d	d--------	_	3	ADV	_	t_627|e_27|ref=exc._19
-3	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=exc._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=exc._19
 4	·	·	u	u--------	_	3	AuxK	_	t_628|e_27|ref=exc._19
 
 # source = Cassius Longinus, exc._19
@@ -895,135 +895,135 @@
 5	οὗτος	οὗτος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_633|t_634|ref=exc._19
 6	ἠνόχληκεν	ἐνοχλέω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	8	OBJ	_	t_634|e_28|ref=exc._19
 7	“	“	u	u--------	_	8	AuxG	_	t_635|e_28|ref=exc._19
-8	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=exc._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=exc._19
 9	.	.	u	u--------	_	8	AuxK	_	t_636|e_28|ref=exc._19
 
-# source = Cassius Longinus, exc._19
+# source = Cassius Longinus, exc._20
 # text = 20 .
 # sent_id = 60
-1	20	2	u	u--------	_	0	AuxG	_	t_637|0|ref=exc._19
-2	.	.	u	u--------	_	1	AuxK	_	t_638|t_637|ref=exc._19
+1	20	2	u	u--------	_	0	AuxG	_	t_637|0|ref=exc._20
+2	.	.	u	u--------	_	1	AuxK	_	t_638|t_637|ref=exc._20
 
-# source = Cassius Longinus, exc._19-20
+# source = Cassius Longinus, exc._20
 # text = Ὅτι δεῖ τὰ προοίμια ἐν μὲν τοῖς συμβουλευτικοῖς ἑκ τῶν κεφαλαίων , ἐν δὲ τοῖς δικανικοῖς ἑκ τῶν ὑπολήψεων ,   ἐν δὲ τοῖς πανηγυρικοῖς ἐκ τῆς ὅλης σχέσεως τοῦ λόγου λαμβάνειν [0] [1] .
 # sent_id = 61
-1	Ὅτι	ὅτι	c	c--------	_	33	AuxC	_	t_639|e_29|ref=exc._19
-2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_640|t_639|ref=exc._19
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_641|t_642|ref=exc._19
-4	προοίμια	προοίμιον	n	n-p---na-	Case=a|Gender=n|Number=p	23	SBJ	_	t_642|t_661|ref=exc._18
-5	ἐν	ἐν	r	r--------	_	23	AuxP	_	t_643|t_661|ref=exc._19
-6	μὲν	μέν	d	d--------	_	23	AuxY	_	t_644|t_661|ref=exc._19
-7	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_645|t_646|ref=exc._19
-8	συμβουλευτικοῖς	δικανικός	a	a-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_646|t_643|ref=exc._19
-9	ἑκ	ἑκ	r	r--------	_	34	AuxP	_	t_647|e_30|ref=exc._19
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_648|t_649|ref=exc._19
-11	κεφαλαίων	κεφάλαιος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ADV	_	t_649|t_647|ref=exc._19
-12	,	,	u	u--------	_	33	AuxX	_	t_650|e_29|ref=exc._19
-13	ἐν	ἐν	r	r--------	_	34	AuxP	_	t_651|e_30|ref=exc._19
-14	δὲ	δέ	d	d--------	_	23	AuxY	_	t_652|t_661|ref=exc._19
-15	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	16	ATR	_	t_653|t_654|ref=exc._19
-16	δικανικοῖς	δικανικός	a	a-p---nd-	Case=d|Gender=m|Number=p	13	ADV	_	t_654|t_651|ref=exc._19
-17	ἑκ	ἑκ	r	r--------	_	34	AuxP	_	t_655|e_30|ref=exc._19
-18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	19	ATR	_	t_656|t_657|ref=exc._19
-19	ὑπολήψεων	ὑπόληψις	n	n-p---fg-	Case=g|Gender=f|Number=p	17	ADV	_	t_657|t_655|ref=exc._19
-20	,	,	u	u--------	_	33	AuxX	_	t_658|e_29|ref=exc._19
-21	 	,	u	u--------	_	33	AuxG	_	t_659|e_29|ref=exc._19
-22	ἐν	ἐν	r	r--------	_	32	AuxP	_	t_660|t_670|ref=exc._19
-23	δὲ	δέ	d	d--------	_	2	COORD	_	t_661|t_640|ref=exc._19
-24	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	25	ATR	_	t_662|t_663|ref=exc._19
-25	πανηγυρικοῖς	πανηγυρικός	a	a-p---nd-	Case=d|Gender=n|Number=p	22	ADV	_	t_663|t_660|ref=exc._19
-26	ἐκ	ἐκ	r	r--------	_	32	AuxP	_	t_664|t_670|ref=exc._19
+1	Ὅτι	ὅτι	c	c--------	_	33	AuxC	_	t_639|e_29|ref=exc._20
+2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_640|t_639|ref=exc._20
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_641|t_642|ref=exc._20
+4	προοίμια	προοίμιον	n	n-p---na-	Case=a|Gender=n|Number=p	23	SBJ	_	t_642|t_661|ref=exc._20
+5	ἐν	ἐν	r	r--------	_	23	AuxP	_	t_643|t_661|ref=exc._20
+6	μὲν	μέν	d	d--------	_	23	AuxY	_	t_644|t_661|ref=exc._20
+7	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_645|t_646|ref=exc._20
+8	συμβουλευτικοῖς	δικανικός	a	a-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_646|t_643|ref=exc._20
+9	ἑκ	ἑκ	r	r--------	_	34	AuxP	_	t_647|e_30|ref=exc._20
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_648|t_649|ref=exc._20
+11	κεφαλαίων	κεφάλαιος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ADV	_	t_649|t_647|ref=exc._20
+12	,	,	u	u--------	_	33	AuxX	_	t_650|e_29|ref=exc._20
+13	ἐν	ἐν	r	r--------	_	34	AuxP	_	t_651|e_30|ref=exc._20
+14	δὲ	δέ	d	d--------	_	23	AuxY	_	t_652|t_661|ref=exc._20
+15	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	16	ATR	_	t_653|t_654|ref=exc._20
+16	δικανικοῖς	δικανικός	a	a-p---nd-	Case=d|Gender=m|Number=p	13	ADV	_	t_654|t_651|ref=exc._20
+17	ἑκ	ἑκ	r	r--------	_	34	AuxP	_	t_655|e_30|ref=exc._20
+18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	19	ATR	_	t_656|t_657|ref=exc._20
+19	ὑπολήψεων	ὑπόληψις	n	n-p---fg-	Case=g|Gender=f|Number=p	17	ADV	_	t_657|t_655|ref=exc._20
+20	,	,	u	u--------	_	33	AuxX	_	t_658|e_29|ref=exc._20
+21	 	,	u	u--------	_	33	AuxG	_	t_659|e_29|ref=exc._20
+22	ἐν	ἐν	r	r--------	_	32	AuxP	_	t_660|t_670|ref=exc._20
+23	δὲ	δέ	d	d--------	_	2	COORD	_	t_661|t_640|ref=exc._20
+24	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	25	ATR	_	t_662|t_663|ref=exc._20
+25	πανηγυρικοῖς	πανηγυρικός	a	a-p---nd-	Case=d|Gender=n|Number=p	22	ADV	_	t_663|t_660|ref=exc._20
+26	ἐκ	ἐκ	r	r--------	_	32	AuxP	_	t_664|t_670|ref=exc._20
 27	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_665|t_667|ref=exc._20
 28	ὅλης	ὅλος	a	a-s---fg-	Case=g|Gender=f|Number=s	29	ATR	_	t_666|t_667|ref=exc._20
 29	σχέσεως	σχέσις	n	n-s---fg-	Case=g|Gender=f|Number=s	26	ADV	_	t_667|t_664|ref=exc._20
 30	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	31	ATR	_	t_668|t_669|ref=exc._20
 31	λόγου	λόγος	n	n-s---mg-	Case=g|Gender=m|Number=s	29	ATR	_	t_669|t_667|ref=exc._20
 32	λαμβάνειν	λαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	23	SBJ	_	t_670|t_661|ref=exc._20
-33	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=exc._1
-34	[1]	[1]	-	---------	_	23	SBJ	_	e_30|t_661|ref=exc._1
+33	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=exc._20
+34	[1]	[1]	-	---------	_	23	SBJ	_	e_30|t_661|ref=exc._20
 35	.	.	u	u--------	_	33	AuxK	_	t_671|e_29|ref=exc._20
 
-# source = Cassius Longinus, exc._20
+# source = Cassius Longinus, exc._21
 # text = 21 .
 # sent_id = 62
-1	21	21	x	x--------	_	0	AuxG	_	t_672|0|ref=exc._20
-2	.	.	u	u--------	_	1	AuxK	_	t_673|t_672|ref=exc._20
+1	21	21	x	x--------	_	0	AuxG	_	t_672|0|ref=exc._21
+2	.	.	u	u--------	_	1	AuxK	_	t_673|t_672|ref=exc._21
 
-# source = Cassius Longinus, exc._20
+# source = Cassius Longinus, exc._21
 # text = Ὅτι χρὴ τὸν παραμυθούμενον μὴ μετὰ σοφιστικῆς τρανότητος , ἀλλὰ μετὰ συμπεπονθυίας λέγειν ἁπλότητος [0] ·
 # sent_id = 63
-1	Ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_674|e_31|ref=exc._20
-2	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_675|t_674|ref=exc._20
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_676|t_677|ref=exc._20
-4	παραμυθούμενον	παραμυθέομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	13	SBJ	_	t_677|t_686|ref=exc._20
-5	μὴ	μή	c	c--------	_	8	AuxZ	_	t_678|t_681|ref=exc._20
-6	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_679|t_683|ref=exc._20
-7	σοφιστικῆς	σοφιστικός	a	a-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_680|t_681|ref=exc._20
-8	τρανότητος	τρανότης	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_681|t_679|ref=exc._20
-9	,	,	u	u--------	_	6	AuxX	_	t_682|t_679|ref=exc._20
-10	ἀλλὰ	ἀλλά	c	c--------	_	13	COORD	_	t_683|t_686|ref=exc._20
-11	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_684|t_683|ref=exc._20
-12	συμπεπονθυίας	συμπράσσω	v	v-srpafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	14	ATR	_	t_685|t_687|ref=exc._20
-13	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	2	SBJ	_	t_686|t_675|ref=exc._20
-14	ἁπλότητος	ἁπλότης	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_687|t_684|ref=exc._20
-15	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=exc._1
-16	·	·	u	u--------	_	15	AuxK	_	t_688|e_31|ref=exc._20
+1	Ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_674|e_31|ref=exc._21
+2	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_675|t_674|ref=exc._21
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_676|t_677|ref=exc._21
+4	παραμυθούμενον	παραμυθέομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	13	SBJ	_	t_677|t_686|ref=exc._21
+5	μὴ	μή	c	c--------	_	8	AuxZ	_	t_678|t_681|ref=exc._21
+6	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_679|t_683|ref=exc._21
+7	σοφιστικῆς	σοφιστικός	a	a-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_680|t_681|ref=exc._21
+8	τρανότητος	τρανότης	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_681|t_679|ref=exc._21
+9	,	,	u	u--------	_	6	AuxX	_	t_682|t_679|ref=exc._21
+10	ἀλλὰ	ἀλλά	c	c--------	_	13	COORD	_	t_683|t_686|ref=exc._21
+11	μετὰ	μετά	r	r--------	_	10	AuxP	_	t_684|t_683|ref=exc._21
+12	συμπεπονθυίας	συμπράσσω	v	v-srpafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	14	ATR	_	t_685|t_687|ref=exc._21
+13	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	2	SBJ	_	t_686|t_675|ref=exc._21
+14	ἁπλότητος	ἁπλότης	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_687|t_684|ref=exc._21
+15	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=exc._21
+16	·	·	u	u--------	_	15	AuxK	_	t_688|e_31|ref=exc._21
 
-# source = Cassius Longinus, exc._20
+# source = Cassius Longinus, exc._21
 # text = οὐ γὰρ ῥητορικῶς ἀλλὰ θεραπευτικῶς ἔξεστι λέγειν .
 # sent_id = 64
-1	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_689|t_691|ref=exc._20
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_690|t_694|ref=exc._20
-3	ῥητορικῶς	ῥητορικός	d	d--------	_	4	ADV	_	t_691|t_692|ref=exc._20
-4	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_692|t_695|ref=exc._20
-5	θεραπευτικῶς	θεραπευτικός	d	d--------	_	4	ADV	_	t_693|t_692|ref=exc._20
-6	ἔξεστι	ἔξεστι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_694|0|ref=exc._20
-7	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_695|t_694|ref=exc._20
-8	.	.	u	u--------	_	6	AuxK	_	t_696|t_694|ref=exc._20
+1	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_689|t_691|ref=exc._21
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_690|t_694|ref=exc._21
+3	ῥητορικῶς	ῥητορικός	d	d--------	_	4	ADV	_	t_691|t_692|ref=exc._21
+4	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_692|t_695|ref=exc._21
+5	θεραπευτικῶς	θεραπευτικός	d	d--------	_	4	ADV	_	t_693|t_692|ref=exc._21
+6	ἔξεστι	ἔξεστι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_694|0|ref=exc._21
+7	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_695|t_694|ref=exc._21
+8	.	.	u	u--------	_	6	AuxK	_	t_696|t_694|ref=exc._21
 
-# source = Cassius Longinus, exc._20
+# source = Cassius Longinus, exc._22
 # text = 22 .
 # sent_id = 65
-1	22	22	x	x--------	_	0	AuxG	_	t_697|0|ref=exc._20
-2	.	.	u	u--------	_	1	AuxK	_	t_698|t_697|ref=exc._20
+1	22	22	x	x--------	_	0	AuxG	_	t_697|0|ref=exc._22
+2	.	.	u	u--------	_	1	AuxK	_	t_698|t_697|ref=exc._22
 
-# source = Cassius Longinus, exc._20-22
+# source = Cassius Longinus, exc._22
 # text = Ὅτι πραγματικὴ σύνταξίς ἐστιν ἡ πρὸς τὸ σημαινόμενον τὴν ἀναφορὰν ἔχουσα , ἀλλʼ οὐ πρὸς τοὺς χαρακτῆρας τῶν ὀνομάτων ἤγουν τῶν λέξεων , ὡς τὸ „ ἀπενέοντο ἡ πληθὺς ἐπὶ νῆας Ἀχὰιῶν “ [0] .
 # sent_id = 66
-1	Ὅτι	ὅτι	c	c--------	_	34	AuxC	_	t_699|e_32|ref=exc._20
-2	πραγματικὴ	πραγματικός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_700|t_701|ref=exc._20
-3	σύνταξίς	σύνταξις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_701|t_702|ref=exc._20
-4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	OBJ	_	t_702|t_711|ref=exc._21
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_703|t_709|ref=exc._21
-6	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_704|t_709|ref=exc._21
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_705|t_706|ref=exc._21
-8	σημαινόμενον	σημαίνω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	6	ADV	_	t_706|t_704|ref=exc._21
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_707|t_708|ref=exc._21
-10	ἀναφορὰν	ἀναφορά	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_708|t_709|ref=exc._21
-11	ἔχουσα	ἔχω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	4	SBJ	_	t_709|t_702|ref=exc._21
-12	,	,	u	u--------	_	34	AuxX	_	t_710|e_32|ref=exc._21
-13	ἀλλʼ	ἀλλά	c	c--------	_	1	COORD	_	t_711|t_699|ref=exc._21
-14	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_712|t_718|ref=exc._21
-15	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_713|t_718|ref=exc._21
-16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_714|t_715|ref=exc._21
-17	χαρακτῆρας	χαρακτήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	15	ADV	_	t_715|t_713|ref=exc._21
-18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_716|t_717|ref=exc._21
-19	ὀνομάτων	ὄνομα	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_717|t_715|ref=exc._21
-20	ἤγουν	ἤγουν	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	13	OBJ	_	t_718|t_711|ref=exc._20
-21	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	22	ATR	_	t_719|t_720|ref=exc._21
-22	λέξεων	λέξις	n	n-p---fg-	Case=g|Gender=f|Number=p	17	ATR	_	t_720|t_715|ref=exc._21
-23	,	,	u	u--------	_	34	AuxX	_	t_721|e_32|ref=exc._21
-24	ὡς	ὡς	c	c--------	_	20	AuxC	_	t_722|t_718|ref=exc._21
-25	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	27	ATR	_	t_723|t_725|ref=exc._21
-26	„	„	u	u--------	_	34	AuxG	_	t_724|e_32|ref=exc._21
-27	ἀπενέοντο	ἀπονέομαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	24	ADV	_	t_725|t_722|ref=exc._21
-28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_726|t_727|ref=exc._21
-29	πληθὺς	πληθύς	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_727|t_725|ref=exc._21
+1	Ὅτι	ὅτι	c	c--------	_	34	AuxC	_	t_699|e_32|ref=exc._22
+2	πραγματικὴ	πραγματικός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_700|t_701|ref=exc._22
+3	σύνταξίς	σύνταξις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_701|t_702|ref=exc._22
+4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	OBJ	_	t_702|t_711|ref=exc._22
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_703|t_709|ref=exc._22
+6	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_704|t_709|ref=exc._22
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_705|t_706|ref=exc._22
+8	σημαινόμενον	σημαίνω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	6	ADV	_	t_706|t_704|ref=exc._22
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_707|t_708|ref=exc._22
+10	ἀναφορὰν	ἀναφορά	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_708|t_709|ref=exc._22
+11	ἔχουσα	ἔχω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	4	SBJ	_	t_709|t_702|ref=exc._22
+12	,	,	u	u--------	_	34	AuxX	_	t_710|e_32|ref=exc._22
+13	ἀλλʼ	ἀλλά	c	c--------	_	1	COORD	_	t_711|t_699|ref=exc._22
+14	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_712|t_718|ref=exc._22
+15	πρὸς	πρός	r	r--------	_	20	AuxP	_	t_713|t_718|ref=exc._22
+16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_714|t_715|ref=exc._22
+17	χαρακτῆρας	χαρακτήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	15	ADV	_	t_715|t_713|ref=exc._22
+18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_716|t_717|ref=exc._22
+19	ὀνομάτων	ὄνομα	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_717|t_715|ref=exc._22
+20	ἤγουν	ἤγουν	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	13	OBJ	_	t_718|t_711|ref=exc._22
+21	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	22	ATR	_	t_719|t_720|ref=exc._22
+22	λέξεων	λέξις	n	n-p---fg-	Case=g|Gender=f|Number=p	17	ATR	_	t_720|t_715|ref=exc._22
+23	,	,	u	u--------	_	34	AuxX	_	t_721|e_32|ref=exc._22
+24	ὡς	ὡς	c	c--------	_	20	AuxC	_	t_722|t_718|ref=exc._22
+25	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	27	ATR	_	t_723|t_725|ref=exc._22
+26	„	„	u	u--------	_	34	AuxG	_	t_724|e_32|ref=exc._22
+27	ἀπενέοντο	ἀπονέομαι	v	v3piie---	Mood=i|Number=p|Person=3|Tense=i|Voice=e	24	ADV	_	t_725|t_722|ref=exc._22
+28	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	29	ATR	_	t_726|t_727|ref=exc._22
+29	πληθὺς	πληθύς	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_727|t_725|ref=exc._22
 30	ἐπὶ	ἐπί	r	r--------	_	27	AuxP	_	t_728|t_725|ref=exc._22
 31	νῆας	ναῦς	n	n-p---fa-	Case=a|Gender=f|Number=p	30	OBJ	_	t_729|t_728|ref=exc._22
 32	Ἀχὰιῶν	ἀχαία	n	n-p---fg-	Case=g|Gender=f|Number=p	31	ATR	_	t_730|t_729|ref=exc._22
 33	“	“	u	u--------	_	34	AuxG	_	t_731|e_32|ref=exc._22
-34	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=exc._1
+34	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=exc._22
 35	.	.	u	u--------	_	34	AuxK	_	t_732|e_32|ref=exc._22
 
 # source = Cassius Longinus, exc._22
@@ -1038,7 +1038,7 @@
 7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_739|t_740|ref=exc._22
 8	δῆμος	δῆμος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_740|e_33|ref=exc._22
 9	“	“	u	u--------	_	10	AuxG	_	t_741|e_33|ref=exc._22
-10	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=exc._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=exc._22
 11	.	.	u	u--------	_	10	AuxK	_	t_742|e_33|ref=exc._22
 
 # source = Cassius Longinus, exc._22
@@ -1054,72 +1054,72 @@
 8	“	“	u	u--------	_	7	AuxG	_	t_750|t_749|ref=exc._22
 9	.	.	u	u--------	_	7	AuxK	_	t_751|t_749|ref=exc._22
 
-# source = Cassius Longinus, exc._22
+# source = Cassius Longinus, exc._23
 # text = 23 .
 # sent_id = 69
-1	23	23	x	x--------	_	0	ExD	_	t_752|0|ref=exc._22
-2	.	.	u	u--------	_	1	AuxK	_	t_753|t_752|ref=exc._22
+1	23	23	x	x--------	_	0	ExD	_	t_752|0|ref=exc._23
+2	.	.	u	u--------	_	1	AuxK	_	t_753|t_752|ref=exc._23
 
-# source = Cassius Longinus, exc._22
+# source = Cassius Longinus, exc._23
 # text = Ὅτι ἐπὶ δεινῷ λόγῳ οὐ χρὴ τοῖς γυμνοῖς χρῆσθαι τῶν ὀνομάτων , ἀλλὰ τοῖς διʼ ἐμφάσεως τὸ βούλημα σημαίνουσιν [0] .
 # sent_id = 70
-1	Ὅτι	ὅτι	c	c--------	_	20	AuxC	_	t_754|e_34|ref=exc._22
-2	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_755|t_759|ref=exc._22
-3	δεινῷ	δεινός	a	a-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_756|t_757|ref=exc._22
-4	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_757|t_755|ref=exc._22
-5	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_758|t_761|ref=exc._22
-6	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_759|t_754|ref=exc._22
-7	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	8	ATR	_	t_760|t_761|ref=exc._22
-8	γυμνοῖς	γυμνός	a	a-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_761|t_766|ref=exc._22
-9	χρῆσθαι	χράω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	SBJ	_	t_762|t_759|ref=exc._22
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_763|t_764|ref=exc._22
-11	ὀνομάτων	ὄνομα	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_764|t_761|ref=exc._22
-12	,	,	u	u--------	_	6	AuxX	_	t_765|t_759|ref=exc._22
-13	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_766|t_762|ref=exc._22
-14	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_767|t_772|ref=exc._22
-15	διʼ	διά	r	r--------	_	19	AuxP	_	t_768|t_772|ref=exc._22
-16	ἐμφάσεως	ἔμφασις	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ADV	_	t_769|t_768|ref=exc._22
-17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_770|t_771|ref=exc._22
-18	βούλημα	βούλημα	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_771|t_772|ref=exc._22
-19	σημαίνουσιν	σημαίνω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	OBJ	_	t_772|t_766|ref=exc._22
-20	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=exc._1
-21	.	.	u	u--------	_	20	AuxK	_	t_773|e_34|ref=exc._22
+1	Ὅτι	ὅτι	c	c--------	_	20	AuxC	_	t_754|e_34|ref=exc._23
+2	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_755|t_759|ref=exc._23
+3	δεινῷ	δεινός	a	a-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_756|t_757|ref=exc._23
+4	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_757|t_755|ref=exc._23
+5	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_758|t_761|ref=exc._23
+6	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	OBJ	_	t_759|t_754|ref=exc._23
+7	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	8	ATR	_	t_760|t_761|ref=exc._23
+8	γυμνοῖς	γυμνός	a	a-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_761|t_766|ref=exc._23
+9	χρῆσθαι	χράω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	SBJ	_	t_762|t_759|ref=exc._23
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_763|t_764|ref=exc._23
+11	ὀνομάτων	ὄνομα	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_764|t_761|ref=exc._23
+12	,	,	u	u--------	_	6	AuxX	_	t_765|t_759|ref=exc._23
+13	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_766|t_762|ref=exc._23
+14	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_767|t_772|ref=exc._23
+15	διʼ	διά	r	r--------	_	19	AuxP	_	t_768|t_772|ref=exc._23
+16	ἐμφάσεως	ἔμφασις	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ADV	_	t_769|t_768|ref=exc._23
+17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_770|t_771|ref=exc._23
+18	βούλημα	βούλημα	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_771|t_772|ref=exc._23
+19	σημαίνουσιν	σημαίνω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	13	OBJ	_	t_772|t_766|ref=exc._23
+20	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=exc._23
+21	.	.	u	u--------	_	20	AuxK	_	t_773|e_34|ref=exc._23
 
-# source = Cassius Longinus, exc._22
+# source = Cassius Longinus, exc._24
 # text = 24 .
 # sent_id = 71
-1	24	24	x	x--------	_	0	AuxG	_	t_774|0|ref=exc._22
-2	.	.	u	u--------	_	1	AuxK	_	t_775|t_774|ref=exc._22
+1	24	24	x	x--------	_	0	AuxG	_	t_774|0|ref=exc._24
+2	.	.	u	u--------	_	1	AuxK	_	t_775|t_774|ref=exc._24
 
-# source = Cassius Longinus, exc._22-23
+# source = Cassius Longinus, exc._24
 # text = Ὅτι ῥητορικῆς ἔργον τὰ μὲν σμικρὰ μεγάλως λέγειν , τὰ δὲ μεγάλα σμικρῶς , καὶ τὰ μὲν καινὰ παλαιῶς , τὰ δὲ παλαιὰ καινῶς [0] [1] [2] .
 # sent_id = 72
-1	Ὅτι	ὅτι	c	c--------	_	25	AuxC	_	t_776|e_35|ref=exc._22
-2	ῥητορικῆς	ῥητορικός	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_777|t_778|ref=exc._22
-3	ἔργον	ἔργον	n	n-s---na-	Case=n|Gender=n|Number=s	25	PNOM	_	t_778|e_35|ref=exc._22
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_779|t_781|ref=exc._22
-5	μὲν	μέν	d	d--------	_	11	AuxY	_	t_780|t_786|ref=exc._22
-6	σμικρὰ	μικρός	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_781|t_783|ref=exc._22
-7	μεγάλως	μεγάλως	d	d--------	_	8	ADV	_	t_782|t_783|ref=exc._22
-8	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_783|t_786|ref=exc._22
-9	,	,	u	u--------	_	25	AuxX	_	t_784|e_35|ref=exc._22
-10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_785|t_787|ref=exc._23
-11	δὲ	δέ	d	d--------	_	15	COORD	_	t_786|t_790|ref=exc._23
-12	μεγάλα	μέγας	a	a-p---na-	Case=a|Gender=n|Number=p	26	SBJ	_	t_787|e_36|ref=exc._23
-13	σμικρῶς	μικρός	d	d--------	_	26	ADV	_	t_788|e_36|ref=exc._23
-14	,	,	u	u--------	_	25	AuxX	_	t_789|e_35|ref=exc._23
-15	καὶ	καί	c	c--------	_	1	COORD	_	t_790|t_776|ref=exc._23
-16	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_791|t_793|ref=exc._23
-17	μὲν	μέν	d	d--------	_	22	AuxY	_	t_792|t_797|ref=exc._23
-18	καινὰ	καινός	a	a-p---na-	Case=a|Gender=n|Number=p	26	OBJ	_	t_793|e_36|ref=exc._23
-19	παλαιῶς	παλαιός	d	d--------	_	26	ADV	_	t_794|e_36|ref=exc._23
-20	,	,	u	u--------	_	25	AuxX	_	t_795|e_35|ref=exc._23
-21	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_796|t_798|ref=exc._23
-22	δὲ	δέ	d	d--------	_	15	COORD	_	t_797|t_790|ref=exc._23
-23	παλαιὰ	παλαιός	a	a-p---na-	Case=a|Gender=n|Number=p	27	SBJ	_	t_798|e_37|ref=exc._23
-24	καινῶς	καινός	d	d--------	_	27	ADV	_	t_799|e_37|ref=exc._23
-25	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=exc._2
-26	[1]	[1]	-	---------	_	15	OBJ	_	e_36|t_790|ref=exc._2
-27	[2]	[2]	-	---------	_	22	OBJ	_	e_37|t_797|ref=exc._2
-28	.	.	u	u--------	_	25	AuxK	_	t_800|e_35|ref=exc._23
+1	Ὅτι	ὅτι	c	c--------	_	25	AuxC	_	t_776|e_35|ref=exc._24
+2	ῥητορικῆς	ῥητορικός	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_777|t_778|ref=exc._24
+3	ἔργον	ἔργον	n	n-s---na-	Case=n|Gender=n|Number=s	25	PNOM	_	t_778|e_35|ref=exc._24
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_779|t_781|ref=exc._24
+5	μὲν	μέν	d	d--------	_	11	AuxY	_	t_780|t_786|ref=exc._24
+6	σμικρὰ	μικρός	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_781|t_783|ref=exc._24
+7	μεγάλως	μεγάλως	d	d--------	_	8	ADV	_	t_782|t_783|ref=exc._24
+8	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_783|t_786|ref=exc._24
+9	,	,	u	u--------	_	25	AuxX	_	t_784|e_35|ref=exc._24
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_785|t_787|ref=exc._24
+11	δὲ	δέ	d	d--------	_	15	COORD	_	t_786|t_790|ref=exc._24
+12	μεγάλα	μέγας	a	a-p---na-	Case=a|Gender=n|Number=p	26	SBJ	_	t_787|e_36|ref=exc._24
+13	σμικρῶς	μικρός	d	d--------	_	26	ADV	_	t_788|e_36|ref=exc._24
+14	,	,	u	u--------	_	25	AuxX	_	t_789|e_35|ref=exc._24
+15	καὶ	καί	c	c--------	_	1	COORD	_	t_790|t_776|ref=exc._24
+16	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_791|t_793|ref=exc._24
+17	μὲν	μέν	d	d--------	_	22	AuxY	_	t_792|t_797|ref=exc._24
+18	καινὰ	καινός	a	a-p---na-	Case=a|Gender=n|Number=p	26	OBJ	_	t_793|e_36|ref=exc._24
+19	παλαιῶς	παλαιός	d	d--------	_	26	ADV	_	t_794|e_36|ref=exc._24
+20	,	,	u	u--------	_	25	AuxX	_	t_795|e_35|ref=exc._24
+21	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_796|t_798|ref=exc._24
+22	δὲ	δέ	d	d--------	_	15	COORD	_	t_797|t_790|ref=exc._24
+23	παλαιὰ	παλαιός	a	a-p---na-	Case=a|Gender=n|Number=p	27	SBJ	_	t_798|e_37|ref=exc._24
+24	καινῶς	καινός	d	d--------	_	27	ADV	_	t_799|e_37|ref=exc._24
+25	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=exc._24
+26	[1]	[1]	-	---------	_	15	OBJ	_	e_36|t_790|ref=exc._24
+27	[2]	[2]	-	---------	_	22	OBJ	_	e_37|t_797|ref=exc._24
+28	.	.	u	u--------	_	25	AuxK	_	t_800|e_35|ref=exc._24
 

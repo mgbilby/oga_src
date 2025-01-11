@@ -288,15 +288,15 @@
 13	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=instr.odor._1
 14	.	.	u	u--------	_	13	AuxK	_	t_240|e_6|ref=instr.odor._1
 
-# source = Galen, instr.odor._1-2
+# source = Galen, instr.odor._2
 # text = Καὶ τοίνυν τῆς ῥινὸς ἐχούσης μέσον διάφραγμα καὶ πόρους ἀξιολόγους δύο , τούτους δὴ τοὺς φαινομένους , ἕνα καθʼ ἑκάτερον μυκτῆρα , χρὴ γινώσκειν ἀνωτέρω τῶν μέσων τῆς ῥινὸς ἑκάτερον αὐτῶν δίχα σχιζόμενον [0] .
 # sent_id = 12
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_241|0|ref=instr.odor._1
-2	τοίνυν	τοίνυν	d	d--------	_	23	AuxY	_	t_242|t_263|ref=instr.odor._1
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_243|t_244|ref=instr.odor._1
-4	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	5	SBJ	_	t_244|t_245|ref=instr.odor._1
-5	ἐχούσης	ἔχω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	23	ADV	_	t_245|t_263|ref=instr.odor._1
-6	μέσον	μέσος	a	a-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_246|t_247|ref=instr.odor._1
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_241|0|ref=instr.odor._2
+2	τοίνυν	τοίνυν	d	d--------	_	23	AuxY	_	t_242|t_263|ref=instr.odor._2
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_243|t_244|ref=instr.odor._2
+4	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	5	SBJ	_	t_244|t_245|ref=instr.odor._2
+5	ἐχούσης	ἔχω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	23	ADV	_	t_245|t_263|ref=instr.odor._2
+6	μέσον	μέσος	a	a-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_246|t_247|ref=instr.odor._2
 7	διάφραγμα	διάφραγμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_247|t_248|ref=instr.odor._2
 8	καὶ	καί	c	c--------	_	5	COORD	_	t_248|t_245|ref=instr.odor._2
 9	πόρους	πόρος	n	n-p---ma-	Case=a|Gender=m|Number=p	8	OBJ	_	t_249|t_248|ref=instr.odor._2
@@ -324,7 +324,7 @@
 31	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=m|Number=p	30	ATR	_	t_271|t_270|ref=instr.odor._2
 32	δίχα	δίχα	d	d--------	_	33	ADV	_	t_272|t_273|ref=instr.odor._2
 33	σχιζόμενον	σχίζω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	24	ADV	_	t_273|t_264|ref=instr.odor._2
-34	[0]	[0]	-	---------	_	19	ADV	_	e_7|t_259|ref=instr.odor._1
+34	[0]	[0]	-	---------	_	19	ADV	_	e_7|t_259|ref=instr.odor._2
 35	.	.	u	u--------	_	1	AuxK	_	t_274|t_241|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -439,7 +439,7 @@
 33	ὀπαῖς	ὀπή	n	n-p---fd-	Case=d|Gender=f|Number=p	35	ADV	_	t_373|t_375|ref=instr.odor._2
 34	λεπταῖς	λεπτός	a	a-p---fd-	Case=d|Gender=f|Number=p	33	ATR	_	t_374|t_373|ref=instr.odor._2
 35	τέτρηται	τλάω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	19	PRED	_	t_375|t_359|ref=instr.odor._2
-36	[0]	[0]	-	---------	_	19	PRED	_	e_8|t_359|ref=instr.odor._1
+36	[0]	[0]	-	---------	_	19	PRED	_	e_8|t_359|ref=instr.odor._2
 37	.	.	u	u--------	_	10	AuxK	_	t_376|t_350|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -536,7 +536,7 @@
 37	πόροις	πόρω	n	n-p---md-	Case=d|Gender=m|Number=p	35	OBJ	_	t_453|t_451|ref=instr.odor._2
 38	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	39	ATR	_	t_454|t_455|ref=instr.odor._2
 39	ῥινός	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	37	ATR	_	t_455|t_453|ref=instr.odor._2
-40	[0]	[0]	-	---------	_	6	ADV	_	e_9|t_422|ref=instr.odor._1
+40	[0]	[0]	-	---------	_	6	ADV	_	e_9|t_422|ref=instr.odor._2
 41	.	.	u	u--------	_	14	AuxK	_	t_456|t_430|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -622,8 +622,8 @@
 49	διὰ	διά	r	r--------	_	47	AuxP	_	t_530|t_528|ref=instr.odor._2
 50	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	51	ATR	_	t_531|t_532|ref=instr.odor._2
 51	στόματος	στόμα	n	n-s---ng-	Case=g|Gender=n|Number=s	49	ADV	_	t_532|t_530|ref=instr.odor._2
-52	[0]	[0]	-	---------	_	7	ATR	_	e_10|t_488|ref=instr.odor._1
-53	[1]	[1]	-	---------	_	48	PRED	_	e_11|t_529|ref=instr.odor._1
+52	[0]	[0]	-	---------	_	7	ATR	_	e_10|t_488|ref=instr.odor._2
+53	[1]	[1]	-	---------	_	48	PRED	_	e_11|t_529|ref=instr.odor._2
 54	.	.	u	u--------	_	6	AuxK	_	t_533|t_487|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -781,8 +781,8 @@
 15	γεύσεως	γεῦσις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	OBJ	_	t_671|t_666|ref=instr.odor._2
 16	αἰσθητικῷ	αἰσθητικός	a	a-s---md-	Case=d|Gender=n|Number=s	17	PNOM	_	t_672|t_673|ref=instr.odor._2
 17	γεγενημένῳ	γίγνομαι	v	v-srpemd-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	12	ATR	_	t_673|t_668|ref=instr.odor._2
-18	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=instr.odor._1
-19	[1]	[1]	-	---------	_	2	ADV	_	e_13|t_658|ref=instr.odor._1
+18	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=instr.odor._2
+19	[1]	[1]	-	---------	_	2	ADV	_	e_13|t_658|ref=instr.odor._2
 20	.	.	u	u--------	_	18	AuxK	_	t_674|e_12|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -828,7 +828,7 @@
 38	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	37	ATR	_	t_712|t_711|ref=instr.odor._2
 39	δέδεικται	δείκνυμι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	34	ADV	_	t_713|t_708|ref=instr.odor._2
 40	λόγοις	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	35	ADV	_	t_714|t_709|ref=instr.odor._2
-41	[0]	[0]	-	---------	_	18	PRED	_	e_14|t_692|ref=instr.odor._1
+41	[0]	[0]	-	---------	_	18	PRED	_	e_14|t_692|ref=instr.odor._2
 42	.	.	u	u--------	_	17	AuxK	_	t_715|t_691|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -863,8 +863,8 @@
 27	μάλιστα	μάλιστα	d	d-------s	Degree=s	31	ADV	_	t_742|e_16|ref=instr.odor._2
 28	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	29	ATR	_	t_743|t_744|ref=instr.odor._2
 29	στόμα	στόμα	n	n-s---nn-	Case=n|Gender=n|Number=s	31	SBJ	_	t_744|e_16|ref=instr.odor._2
-30	[0]	[0]	-	---------	_	16	PRED	_	e_15|t_731|ref=instr.odor._1
-31	[1]	[1]	-	---------	_	25	PRED	_	e_16|t_740|ref=instr.odor._1
+30	[0]	[0]	-	---------	_	16	PRED	_	e_15|t_731|ref=instr.odor._2
+31	[1]	[1]	-	---------	_	25	PRED	_	e_16|t_740|ref=instr.odor._2
 32	.	.	u	u--------	_	6	AuxK	_	t_745|t_721|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -902,9 +902,9 @@
 30	ἐκτεταμένην	ἐκτείνω	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	35	ATR	_	t_775|e_19|ref=instr.odor._2
 31	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_776|t_777|ref=instr.odor._2
 32	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	28	ADV	_	t_777|t_773|ref=instr.odor._2
-33	[0]	[0]	-	---------	_	22	ADV	_	e_17|t_767|ref=instr.odor._1
-34	[1]	[1]	-	---------	_	27	ADV	_	e_18|t_772|ref=instr.odor._1
-35	[2]	[2]	-	---------	_	27	ADV	_	e_19|t_772|ref=instr.odor._1
+33	[0]	[0]	-	---------	_	22	ADV	_	e_17|t_767|ref=instr.odor._2
+34	[1]	[1]	-	---------	_	27	ADV	_	e_18|t_772|ref=instr.odor._2
+35	[2]	[2]	-	---------	_	27	ADV	_	e_19|t_772|ref=instr.odor._2
 36	.	.	u	u--------	_	7	AuxK	_	t_778|t_752|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -1057,9 +1057,9 @@
 30	ὡς	ὡς	c	c--------	_	27	AuxC	_	t_907|t_904|ref=instr.odor._2
 31	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	32	ATR	_	t_908|t_909|ref=instr.odor._2
 32	ὑγρόν	ὑγρός	a	a-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_909|e_22|ref=instr.odor._2
-33	[0]	[0]	-	---------	_	21	ADV	_	e_20|t_898|ref=instr.odor._1
-34	[1]	[1]	-	---------	_	30	ADV	_	e_21|t_907|ref=instr.odor._1
-35	[2]	[2]	-	---------	_	30	ADV	_	e_22|t_907|ref=instr.odor._1
+33	[0]	[0]	-	---------	_	21	ADV	_	e_20|t_898|ref=instr.odor._2
+34	[1]	[1]	-	---------	_	30	ADV	_	e_21|t_907|ref=instr.odor._2
+35	[2]	[2]	-	---------	_	30	ADV	_	e_22|t_907|ref=instr.odor._2
 36	.	.	u	u--------	_	12	AuxK	_	t_910|t_889|ref=instr.odor._2
 
 # source = Galen, instr.odor._2
@@ -1119,31 +1119,31 @@
 34	διαφορεῖσθαι	διαφορέω	v	v--pne---	Mood=n|Tense=p|Voice=e	25	OBJ	_	t_958|t_949|ref=instr.odor._2
 35	.	.	u	u--------	_	3	AuxK	_	t_959|t_927|ref=instr.odor._2
 
-# source = Galen, instr.odor._2-3
+# source = Galen, instr.odor._3
 # text = Ζητήσωμεν οὖν ἤδη τὸ τῆς ὀσφρήσεως ὄργανον , ἀρξάμενοι μὲν ἀπὸ τῆς τῶν συνεχῶν κατασκευῆς τοῖς μυκτῆρσι μορίων , ἑξῆς δὲ τούτοις ἐπισκεψάμενοι τὰ τῆς ἐνεργείας ἴδια συμβεβηκότα .
 # sent_id = 36
-1	Ζητήσωμεν	ζητέω	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	0	PRED	_	t_960|0|ref=instr.odor._2
-2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_961|t_960|ref=instr.odor._2
-3	ἤδη	ἤδη	d	d--------	_	1	ADV	_	t_962|t_960|ref=instr.odor._2
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_963|t_966|ref=instr.odor._2
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_964|t_965|ref=instr.odor._2
-6	ὀσφρήσεως	ὄσφρησις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_965|t_966|ref=instr.odor._2
-7	ὄργανον	ὄργανον	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_966|t_960|ref=instr.odor._2
-8	,	,	u	u--------	_	1	AuxX	_	t_967|t_960|ref=instr.odor._2
-9	ἀρξάμενοι	ἄρχω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	21	ADV	_	t_968|t_980|ref=instr.odor._2
-10	μὲν	μέν	d	d--------	_	21	AuxY	_	t_969|t_980|ref=instr.odor._2
-11	ἀπὸ	ἀπό	r	r--------	_	9	AuxP	_	t_970|t_968|ref=instr.odor._2
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_971|t_974|ref=instr.odor._2
-13	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_972|t_973|ref=instr.odor._2
-14	συνεχῶν	συνεχής	a	a-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_973|t_974|ref=instr.odor._2
-15	κατασκευῆς	κατασκευή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_974|t_970|ref=instr.odor._2
-16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_975|t_976|ref=instr.odor._2
-17	μυκτῆρσι	μυκτῆρς	n	n-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_976|t_968|ref=instr.odor._2
-18	μορίων	μόριον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_977|t_976|ref=instr.odor._2
-19	,	,	u	u--------	_	1	AuxX	_	t_978|t_960|ref=instr.odor._2
-20	ἑξῆς	ἑξῆς	d	d--------	_	23	ADV	_	t_979|t_982|ref=instr.odor._2
-21	δὲ	δέ	d	d--------	_	1	COORD	_	t_980|t_960|ref=instr.odor._2
-22	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	23	ADV	_	t_981|t_982|ref=instr.odor._2
+1	Ζητήσωμεν	ζητέω	v	v1pasa---	Mood=s|Number=p|Person=1|Tense=a|Voice=a	0	PRED	_	t_960|0|ref=instr.odor._3
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_961|t_960|ref=instr.odor._3
+3	ἤδη	ἤδη	d	d--------	_	1	ADV	_	t_962|t_960|ref=instr.odor._3
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_963|t_966|ref=instr.odor._3
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_964|t_965|ref=instr.odor._3
+6	ὀσφρήσεως	ὄσφρησις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_965|t_966|ref=instr.odor._3
+7	ὄργανον	ὄργανον	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_966|t_960|ref=instr.odor._3
+8	,	,	u	u--------	_	1	AuxX	_	t_967|t_960|ref=instr.odor._3
+9	ἀρξάμενοι	ἄρχω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	21	ADV	_	t_968|t_980|ref=instr.odor._3
+10	μὲν	μέν	d	d--------	_	21	AuxY	_	t_969|t_980|ref=instr.odor._3
+11	ἀπὸ	ἀπό	r	r--------	_	9	AuxP	_	t_970|t_968|ref=instr.odor._3
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_971|t_974|ref=instr.odor._3
+13	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_972|t_973|ref=instr.odor._3
+14	συνεχῶν	συνεχής	a	a-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_973|t_974|ref=instr.odor._3
+15	κατασκευῆς	κατασκευή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_974|t_970|ref=instr.odor._3
+16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_975|t_976|ref=instr.odor._3
+17	μυκτῆρσι	μυκτῆρς	n	n-p---md-	Case=d|Gender=m|Number=p	9	OBJ	_	t_976|t_968|ref=instr.odor._3
+18	μορίων	μόριον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_977|t_976|ref=instr.odor._3
+19	,	,	u	u--------	_	1	AuxX	_	t_978|t_960|ref=instr.odor._3
+20	ἑξῆς	ἑξῆς	d	d--------	_	23	ADV	_	t_979|t_982|ref=instr.odor._3
+21	δὲ	δέ	d	d--------	_	1	COORD	_	t_980|t_960|ref=instr.odor._3
+22	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	23	ADV	_	t_981|t_982|ref=instr.odor._3
 23	ἐπισκεψάμενοι	ἐπισκέπτομαι	v	v-papemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=e	21	ADV	_	t_982|t_980|ref=instr.odor._3
 24	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	27	ATR	_	t_983|t_986|ref=instr.odor._3
 25	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_984|t_985|ref=instr.odor._3
@@ -1212,7 +1212,7 @@
 55	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	56	ATR	_	t_1043|t_1044|ref=instr.odor._3
 56	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	57	ATR	_	t_1044|t_1045|ref=instr.odor._3
 57	ὀστοῦν	ὀστέον	n	n-s---ma-	Case=a|Gender=m|Number=s	53	PNOM	_	t_1045|t_1041|ref=instr.odor._3
-58	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=instr.odor._1
+58	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=instr.odor._3
 59	·	·	u	u--------	_	58	AuxK	_	t_1046|e_23|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1248,8 +1248,8 @@
 16	ἁπτικῆς	ἁπτικός	a	a-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_1070|t_1071|ref=instr.odor._3
 17	αἰσθήσεως	αἴσθησις	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1071|t_1066|ref=instr.odor._3
 18	μέτεστιν	μέτειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	19	OBJ	_	t_1072|e_24|ref=instr.odor._3
-19	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=instr.odor._1
-20	[1]	[1]	-	---------	_	19	SBJ	_	e_25|e_24|ref=instr.odor._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=instr.odor._3
+20	[1]	[1]	-	---------	_	19	SBJ	_	e_25|e_24|ref=instr.odor._3
 21	.	.	u	u--------	_	19	AuxK	_	t_1073|e_24|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1293,7 +1293,7 @@
 36	καθάπερ	καθά	c	c--------	_	34	AuxC	_	t_1109|t_1107|ref=instr.odor._3
 37	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	38	ATR	_	t_1110|t_1111|ref=instr.odor._3
 38	γλῶττα	γλῶσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	39	SBJ	_	t_1111|e_26|ref=instr.odor._3
-39	[0]	[0]	-	---------	_	36	ADV	_	e_26|t_1109|ref=instr.odor._1
+39	[0]	[0]	-	---------	_	36	ADV	_	e_26|t_1109|ref=instr.odor._3
 40	.	.	u	u--------	_	17	AuxK	_	t_1112|t_1090|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1321,7 +1321,7 @@
 20	τοσοῦτον	τοσοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_1132|t_1134|ref=instr.odor._3
 21	νεύρων	νεῦρον	n	n-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_1133|t_1132|ref=instr.odor._3
 22	μετειληφώς	μεταλαμβάνω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	1	ADV	_	t_1134|t_1113|ref=instr.odor._3
-23	[0]	[0]	-	---------	_	20	ATR	_	e_27|t_1132|ref=instr.odor._1
+23	[0]	[0]	-	---------	_	20	ATR	_	e_27|t_1132|ref=instr.odor._3
 24	.	.	u	u--------	_	1	AuxK	_	t_1135|t_1113|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1347,7 +1347,7 @@
 18	ὥσπερ	ὥσπερ	c	c--------	_	16	AuxC	_	t_1153|t_1151|ref=instr.odor._3
 19	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	20	ATR	_	t_1154|t_1155|ref=instr.odor._3
 20	λοιπαί	λοιπός	a	a-p---fn-	Case=n|Gender=f|Number=p	21	SBJ	_	t_1155|e_28|ref=instr.odor._3
-21	[0]	[0]	-	---------	_	18	ADV	_	e_28|t_1153|ref=instr.odor._1
+21	[0]	[0]	-	---------	_	18	ADV	_	e_28|t_1153|ref=instr.odor._3
 22	.	.	u	u--------	_	16	AuxK	_	t_1156|t_1151|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1360,7 +1360,7 @@
 5	ὄψεως	ὄψις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1161|t_1162|ref=instr.odor._3
 6	ὄργανον	ὄργανον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_1162|e_29|ref=instr.odor._3
 7	φωτοειδές	φωτοειδής	a	a-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_1163|e_29|ref=instr.odor._3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=instr.odor._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=instr.odor._3
 9	·	·	u	u--------	_	8	AuxK	_	t_1164|e_29|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1371,7 +1371,7 @@
 3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1167|t_1168|ref=instr.odor._3
 4	ἀκοῆς	ἀκοή	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_1168|t_1165|ref=instr.odor._3
 5	ἀερῶδες	ἀερώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1169|e_30|ref=instr.odor._3
-6	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=instr.odor._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=instr.odor._3
 7	·	·	u	u--------	_	6	AuxK	_	t_1170|e_30|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1384,8 +1384,8 @@
 5	ὑγρὸν	ὑγρός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1175|t_1176|ref=instr.odor._3
 6	καὶ	καί	c	c--------	_	9	COORD	_	t_1176|e_32|ref=instr.odor._3
 7	σπογγοειδές	σπογγοειδής	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1177|t_1176|ref=instr.odor._3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=instr.odor._1
-9	[1]	[1]	-	---------	_	1	ADV	_	e_32|t_1171|ref=instr.odor._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=instr.odor._3
+9	[1]	[1]	-	---------	_	1	ADV	_	e_32|t_1171|ref=instr.odor._3
 10	·	·	u	u--------	_	8	AuxK	_	t_1178|e_31|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1398,7 +1398,7 @@
 5	σκληρὸν	σκληρός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1183|t_1184|ref=instr.odor._3
 6	καὶ	καί	c	c--------	_	8	COORD	_	t_1184|e_33|ref=instr.odor._3
 7	γεῶδες	γεώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1185|t_1184|ref=instr.odor._3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=instr.odor._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=instr.odor._3
 9	·	·	u	u--------	_	8	AuxK	_	t_1186|e_33|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1619,7 +1619,7 @@
 6	ἀναγκαῖον	ἀναγκαῖος	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_1371|e_34|ref=instr.odor._3
 7	ὑπάρχειν	ὑπάρχω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_1372|e_34|ref=instr.odor._3
 8	αὐτό	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_1373|t_1372|ref=instr.odor._3
-9	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=instr.odor._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=instr.odor._3
 10	·	·	u	u--------	_	9	AuxK	_	t_1374|e_34|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1631,7 +1631,7 @@
 4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_1378|t_1379|ref=instr.odor._3
 5	ὀσμῶν	ὀσμή	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_1379|t_1380|ref=instr.odor._3
 6	οὐσία	οὐσία	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1380|e_35|ref=instr.odor._3
-7	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=instr.odor._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=instr.odor._3
 8	.	.	u	u--------	_	7	AuxK	_	t_1381|e_35|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1834,8 +1834,8 @@
 31	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	32	ATR	_	t_1560|t_1561|ref=instr.odor._3
 32	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	30	ATR	_	t_1561|t_1559|ref=instr.odor._3
 33	χιτών	χιτών	n	n-s---mn-	Case=n|Gender=m|Number=s	35	SBJ	_	t_1562|e_37|ref=instr.odor._3
-34	[0]	[0]	-	---------	_	28	ADV	_	e_36|t_1557|ref=instr.odor._1
-35	[1]	[1]	-	---------	_	28	ADV	_	e_37|t_1557|ref=instr.odor._1
+34	[0]	[0]	-	---------	_	28	ADV	_	e_36|t_1557|ref=instr.odor._3
+35	[1]	[1]	-	---------	_	28	ADV	_	e_37|t_1557|ref=instr.odor._3
 36	·	·	u	u--------	_	1	AuxK	_	t_1563|t_1530|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1890,8 +1890,8 @@
 47	καὶ	καί	c	c--------	_	36	COORD	_	t_1610|t_1599|ref=instr.odor._3
 48	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	49	ATR	_	t_1611|t_1612|ref=instr.odor._3
 49	ῥινός	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	47	ADV	_	t_1612|t_1610|ref=instr.odor._3
-50	[0]	[0]	-	---------	_	26	OBJ	_	e_38|t_1589|ref=instr.odor._1
-51	[1]	[1]	-	---------	_	0	PRED	_	e_39|0|ref=instr.odor._1
+50	[0]	[0]	-	---------	_	26	OBJ	_	e_38|t_1589|ref=instr.odor._3
+51	[1]	[1]	-	---------	_	0	PRED	_	e_39|0|ref=instr.odor._3
 52	.	.	u	u--------	_	9	AuxK	_	t_1613|t_1572|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -1927,7 +1927,7 @@
 28	καὶ	καί	c	c--------	_	25	COORD	_	t_1641|t_1638|ref=instr.odor._3
 29	τραχείας	τραχύς	a	a-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_1642|t_1643|ref=instr.odor._3
 30	ἀρτηρίας	ἀρτηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_1643|t_1641|ref=instr.odor._3
-31	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=instr.odor._1
+31	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=instr.odor._3
 32	.	.	u	u--------	_	31	AuxK	_	t_1644|e_40|ref=instr.odor._3
 
 # source = Galen, instr.odor._3
@@ -2005,53 +2005,53 @@
 14	αὐτό	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	13	SBJ	_	t_1710|t_1709|ref=instr.odor._3
 15	.	.	u	u--------	_	12	AuxK	_	t_1711|t_1708|ref=instr.odor._3
 
-# source = Galen, instr.odor._3
+# source = Galen, instr.odor._4
 # text = Λείπει τοίνυν ἐπισκέψασθαι περὶ τοῦ λοὶ ποῦ πέρατος τῶν κατὰ τὴν ῥῖνα πόρων , ὃ διὰ τῶν ἠθμοειδῶν ὀστῶν ἐπὶ τὸν ἐγκέφαλον ἀναφέρεται .
 # sent_id = 65
-1	Λείπει	λείπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1712|0|ref=instr.odor._3
-2	τοίνυν	τοίνυν	d	d--------	_	1	AuxY	_	t_1713|t_1712|ref=instr.odor._3
-3	ἐπισκέψασθαι	ἐπισκέπτομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	1	OBJ	_	t_1714|t_1712|ref=instr.odor._3
-4	περὶ	περί	r	r--------	_	3	AuxP	_	t_1715|t_1714|ref=instr.odor._3
-5	τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_1716|t_1715|ref=instr.odor._3
-6	λοὶ	λοῖος	p	p-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_1717|t_1715|ref=instr.odor._3
-7	ποῦ	ποῦ	d	d--------	_	8	ATR	_	t_1718|t_1719|ref=instr.odor._3
-8	πέρατος	πέρας	n	n-s---mn-	Case=n|Gender=m|Number=s	3	OBJ	_	t_1719|t_1714|ref=instr.odor._3
-9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1720|t_1724|ref=instr.odor._3
-10	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_1721|t_1724|ref=instr.odor._3
-11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_1722|t_1723|ref=instr.odor._3
-12	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1723|t_1721|ref=instr.odor._3
-13	πόρων	πόρος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1724|t_1719|ref=instr.odor._3
-14	,	,	u	u--------	_	1	AuxX	_	t_1725|t_1712|ref=instr.odor._3
-15	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	23	SBJ	_	t_1726|t_1734|ref=instr.odor._3
-16	διὰ	διά	r	r--------	_	23	AuxP	_	t_1727|t_1734|ref=instr.odor._3
-17	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_1728|t_1730|ref=instr.odor._3
-18	ἠθμοειδῶν	ἠθμώδης	a	a-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_1729|t_1730|ref=instr.odor._3
-19	ὀστῶν	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	16	ADV	_	t_1730|t_1727|ref=instr.odor._3
-20	ἐπὶ	ἐπί	r	r--------	_	23	AuxP	_	t_1731|t_1734|ref=instr.odor._3
-21	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_1732|t_1733|ref=instr.odor._3
-22	ἐγκέφαλον	ἐγκέφαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_1733|t_1731|ref=instr.odor._3
-23	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	3	OBJ	_	t_1734|t_1714|ref=instr.odor._3
-24	.	.	u	u--------	_	1	AuxK	_	t_1735|t_1712|ref=instr.odor._3
+1	Λείπει	λείπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1712|0|ref=instr.odor._4
+2	τοίνυν	τοίνυν	d	d--------	_	1	AuxY	_	t_1713|t_1712|ref=instr.odor._4
+3	ἐπισκέψασθαι	ἐπισκέπτομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	1	OBJ	_	t_1714|t_1712|ref=instr.odor._4
+4	περὶ	περί	r	r--------	_	3	AuxP	_	t_1715|t_1714|ref=instr.odor._4
+5	τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_1716|t_1715|ref=instr.odor._4
+6	λοὶ	λοῖος	p	p-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_1717|t_1715|ref=instr.odor._4
+7	ποῦ	ποῦ	d	d--------	_	8	ATR	_	t_1718|t_1719|ref=instr.odor._4
+8	πέρατος	πέρας	n	n-s---mn-	Case=n|Gender=m|Number=s	3	OBJ	_	t_1719|t_1714|ref=instr.odor._4
+9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1720|t_1724|ref=instr.odor._4
+10	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_1721|t_1724|ref=instr.odor._4
+11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_1722|t_1723|ref=instr.odor._4
+12	ῥῖνα	ῥίς	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1723|t_1721|ref=instr.odor._4
+13	πόρων	πόρος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1724|t_1719|ref=instr.odor._4
+14	,	,	u	u--------	_	1	AuxX	_	t_1725|t_1712|ref=instr.odor._4
+15	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	23	SBJ	_	t_1726|t_1734|ref=instr.odor._4
+16	διὰ	διά	r	r--------	_	23	AuxP	_	t_1727|t_1734|ref=instr.odor._4
+17	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_1728|t_1730|ref=instr.odor._4
+18	ἠθμοειδῶν	ἠθμώδης	a	a-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_1729|t_1730|ref=instr.odor._4
+19	ὀστῶν	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	16	ADV	_	t_1730|t_1727|ref=instr.odor._4
+20	ἐπὶ	ἐπί	r	r--------	_	23	AuxP	_	t_1731|t_1734|ref=instr.odor._4
+21	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_1732|t_1733|ref=instr.odor._4
+22	ἐγκέφαλον	ἐγκέφαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_1733|t_1731|ref=instr.odor._4
+23	ἀναφέρεται	ἀναφέρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	3	OBJ	_	t_1734|t_1714|ref=instr.odor._4
+24	.	.	u	u--------	_	1	AuxK	_	t_1735|t_1712|ref=instr.odor._4
 
-# source = Galen, instr.odor._3-4
+# source = Galen, instr.odor._4
 # text = ἀλλὰ κᾀνταῦθα τὰ μὲν τῆς κατασκευῆς ὅμοια , χιτὼν ὑπαλείφων τὸν πόρον , ὡσαύτως ἔχων τῷ κά τω κατὰ τὴν οἰκείαν οὐσίαν καὶ τὴν τῶν νεύρων ἰσχνότητα , τὰ δὲ ἀπὸ τῶν συμβεβηκότων ἕτερα [0] [1] .
 # sent_id = 66
-1	ἀλλὰ	ἀλλά	d	d--------	_	35	AuxY	_	t_1736|e_41|ref=instr.odor._3
-2	κᾀνταῦθα	ἐνταῦθα	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_1737|e_41|ref=instr.odor._3
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	35	SBJ	_	t_1738|e_41|ref=instr.odor._3
-4	μὲν	μέν	d	d--------	_	35	AuxY	_	t_1739|e_41|ref=instr.odor._3
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1740|t_1741|ref=instr.odor._3
-6	κατασκευῆς	κατασκευή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1741|t_1742|ref=instr.odor._3
-7	ὅμοια	ὅμοιος	a	a-p---na-	Case=n|Gender=n|Number=p	35	PNOM	_	t_1742|e_41|ref=instr.odor._3
-8	,	,	u	u--------	_	35	AuxX	_	t_1743|e_41|ref=instr.odor._3
-9	χιτὼν	χιτών	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_1744|t_1765|ref=instr.odor._3
-10	ὑπαλείφων	ὑπαλείφω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_1745|e_41|ref=instr.odor._3
-11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_1746|t_1747|ref=instr.odor._3
-12	πόρον	πόρος	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_1747|t_1745|ref=instr.odor._3
-13	,	,	u	u--------	_	35	AuxX	_	t_1748|e_41|ref=instr.odor._3
-14	ὡσαύτως	ὡσαύτως	d	d--------	_	15	ADV	_	t_1749|t_1750|ref=instr.odor._3
-15	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	30	ADV	_	t_1750|t_1765|ref=instr.odor._3
-16	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	18	ATR	_	t_1751|t_1753|ref=instr.odor._3
+1	ἀλλὰ	ἀλλά	d	d--------	_	35	AuxY	_	t_1736|e_41|ref=instr.odor._4
+2	κᾀνταῦθα	ἐνταῦθα	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_1737|e_41|ref=instr.odor._4
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	35	SBJ	_	t_1738|e_41|ref=instr.odor._4
+4	μὲν	μέν	d	d--------	_	35	AuxY	_	t_1739|e_41|ref=instr.odor._4
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1740|t_1741|ref=instr.odor._4
+6	κατασκευῆς	κατασκευή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1741|t_1742|ref=instr.odor._4
+7	ὅμοια	ὅμοιος	a	a-p---na-	Case=n|Gender=n|Number=p	35	PNOM	_	t_1742|e_41|ref=instr.odor._4
+8	,	,	u	u--------	_	35	AuxX	_	t_1743|e_41|ref=instr.odor._4
+9	χιτὼν	χιτών	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_1744|t_1765|ref=instr.odor._4
+10	ὑπαλείφων	ὑπαλείφω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	35	ADV	_	t_1745|e_41|ref=instr.odor._4
+11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_1746|t_1747|ref=instr.odor._4
+12	πόρον	πόρος	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_1747|t_1745|ref=instr.odor._4
+13	,	,	u	u--------	_	35	AuxX	_	t_1748|e_41|ref=instr.odor._4
+14	ὡσαύτως	ὡσαύτως	d	d--------	_	15	ADV	_	t_1749|t_1750|ref=instr.odor._4
+15	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	30	ADV	_	t_1750|t_1765|ref=instr.odor._4
+16	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	18	ATR	_	t_1751|t_1753|ref=instr.odor._4
 17	κά	καί	r	r--------	_	15	AuxP	_	t_1752|t_1750|ref=instr.odor._4
 18	τω	τις	d	d--------	_	15	OBJ	_	t_1753|t_1750|ref=instr.odor._4
 19	κατὰ	κατά	r	r--------	_	15	AuxP	_	t_1754|t_1750|ref=instr.odor._4
@@ -2070,8 +2070,8 @@
 32	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	33	ATR	_	t_1767|t_1768|ref=instr.odor._4
 33	συμβεβηκότων	συμβαίνω	v	v-prpang-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=a	31	ADV	_	t_1768|t_1766|ref=instr.odor._4
 34	ἕτερα	ἕτερος	a	a-p---na-	Case=a|Gender=n|Number=p	36	OBJ	_	t_1769|e_42|ref=instr.odor._4
-35	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=instr.odor._1
-36	[1]	[1]	-	---------	_	30	ADV	_	e_42|t_1765|ref=instr.odor._1
+35	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=instr.odor._4
+36	[1]	[1]	-	---------	_	30	ADV	_	e_42|t_1765|ref=instr.odor._4
 37	.	.	u	u--------	_	35	AuxK	_	t_1770|e_41|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2139,8 +2139,8 @@
 30	ὁπόταν	ὁπόταν	c	c--------	_	27	AuxC	_	t_1826|t_1823|ref=instr.odor._4
 31	ἀποτείνηται	ἀποτείνω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	30	ADV	_	t_1827|t_1826|ref=instr.odor._4
 32	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_1828|t_1827|ref=instr.odor._4
-33	[0]	[0]	-	---------	_	6	PRED	_	e_43|t_1802|ref=instr.odor._1
-34	[1]	[1]	-	---------	_	6	PRED	_	e_44|t_1802|ref=instr.odor._1
+33	[0]	[0]	-	---------	_	6	PRED	_	e_43|t_1802|ref=instr.odor._4
+34	[1]	[1]	-	---------	_	6	PRED	_	e_44|t_1802|ref=instr.odor._4
 35	·	·	u	u--------	_	5	AuxK	_	t_1829|t_1801|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2169,7 +2169,7 @@
 21	,	,	u	u--------	_	24	AuxX	_	t_1850|e_45|ref=instr.odor._4
 22	ἐπειδὰν	ἐπειδάν	c	c--------	_	19	AuxC	_	t_1851|t_1848|ref=instr.odor._4
 23	χέηται	χέω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	22	ADV	_	t_1852|t_1851|ref=instr.odor._4
-24	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=instr.odor._1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=instr.odor._4
 25	.	.	u	u--------	_	24	AuxK	_	t_1853|e_45|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2422,8 +2422,8 @@
 22	βάθει	βάθος	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_2066|t_2064|ref=instr.odor._4
 23	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_2067|t_2068|ref=instr.odor._4
 24	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2068|t_2066|ref=instr.odor._4
-25	[0]	[0]	-	---------	_	14	PRED	_	e_46|t_2058|ref=instr.odor._1
-26	[1]	[1]	-	---------	_	14	PRED	_	e_47|t_2058|ref=instr.odor._1
+25	[0]	[0]	-	---------	_	14	PRED	_	e_46|t_2058|ref=instr.odor._4
+26	[1]	[1]	-	---------	_	14	PRED	_	e_47|t_2058|ref=instr.odor._4
 27	.	.	u	u--------	_	8	AuxK	_	t_2069|t_2052|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2491,7 +2491,7 @@
 18	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	ATR	_	t_2121|t_2122|ref=instr.odor._4
 19	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_2122|t_2123|ref=instr.odor._4
 20	ἐμπλησθῇ	ἐμπίπλημι	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	14	ADV	_	t_2123|t_2117|ref=instr.odor._4
-21	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=instr.odor._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=instr.odor._4
 22	·	·	u	u--------	_	21	AuxK	_	t_2124|e_48|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2517,7 +2517,7 @@
 18	ὀλίγον	ὀλίγος	a	a-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_2142|t_2143|ref=instr.odor._4
 19	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	20	ADV	_	t_2143|t_2144|ref=instr.odor._4
 20	ἐρῶ	ἐρέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	17	ADV	_	t_2144|t_2141|ref=instr.odor._4
-21	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=instr.odor._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=instr.odor._4
 22	·	·	u	u--------	_	21	AuxK	_	t_2145|e_49|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2603,7 +2603,7 @@
 16	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	19	SBJ	_	t_2215|e_50|ref=instr.odor._4
 17	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_2216|t_2217|ref=instr.odor._4
 18	ὀσμῶν	ὀσμή	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_2217|t_2214|ref=instr.odor._4
-19	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=instr.odor._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=instr.odor._4
 20	·	·	u	u--------	_	19	AuxK	_	t_2218|e_50|ref=instr.odor._4
 
 # source = Galen, instr.odor._4
@@ -2625,63 +2625,63 @@
 14	ψεῦδος	ψεῦδος	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_2232|t_2230|ref=instr.odor._4
 15	.	.	u	u--------	_	13	AuxK	_	t_2233|t_2231|ref=instr.odor._4
 
-# source = Galen, instr.odor._4
+# source = Galen, instr.odor._5
 # text = Ὅπως οὖν ἀκριβεστέρα γένοιτο παντὸς τοῦ δόγματος ἡ βάσανος , ἀρξώμεθα τῶν προειρημένων κεφαλαίων ἀπὸ τοῦ τελευταίου .
 # sent_id = 87
-1	Ὅπως	ὅπως	c	c--------	_	11	AuxC	_	t_2234|t_2244|ref=instr.odor._4
-2	οὖν	οὖν	d	d--------	_	11	AuxY	_	t_2235|t_2244|ref=instr.odor._4
-3	ἀκριβεστέρα	ἀκριβής	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	4	PNOM	_	t_2236|t_2237|ref=instr.odor._4
-4	γένοιτο	γίγνομαι	v	v3saom---	Mood=o|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_2237|t_2234|ref=instr.odor._4
-5	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_2238|t_2240|ref=instr.odor._4
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_2239|t_2240|ref=instr.odor._4
-7	δόγματος	δόγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_2240|t_2236|ref=instr.odor._4
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_2241|t_2242|ref=instr.odor._4
-9	βάσανος	βάσανος	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_2242|t_2237|ref=instr.odor._4
-10	,	,	u	u--------	_	11	AuxX	_	t_2243|t_2244|ref=instr.odor._4
-11	ἀρξώμεθα	ἄρχω	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	0	PRED	_	t_2244|0|ref=instr.odor._4
-12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_2245|t_2247|ref=instr.odor._4
-13	προειρημένων	προερέω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	14	ATR	_	t_2246|t_2247|ref=instr.odor._4
-14	κεφαλαίων	κεφάλαιος	n	n-p---ng-	Case=g|Gender=n|Number=p	11	OBJ	_	t_2247|t_2244|ref=instr.odor._4
-15	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_2248|t_2244|ref=instr.odor._4
-16	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_2249|t_2250|ref=instr.odor._4
-17	τελευταίου	τελευταῖος	a	a-s---ng-	Case=g|Gender=n|Number=s	15	ADV	_	t_2250|t_2248|ref=instr.odor._4
-18	.	.	u	u--------	_	11	AuxK	_	t_2251|t_2244|ref=instr.odor._4
+1	Ὅπως	ὅπως	c	c--------	_	11	AuxC	_	t_2234|t_2244|ref=instr.odor._5
+2	οὖν	οὖν	d	d--------	_	11	AuxY	_	t_2235|t_2244|ref=instr.odor._5
+3	ἀκριβεστέρα	ἀκριβής	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	4	PNOM	_	t_2236|t_2237|ref=instr.odor._5
+4	γένοιτο	γίγνομαι	v	v3saom---	Mood=o|Number=s|Person=3|Tense=a|Voice=m	1	ADV	_	t_2237|t_2234|ref=instr.odor._5
+5	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_2238|t_2240|ref=instr.odor._5
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_2239|t_2240|ref=instr.odor._5
+7	δόγματος	δόγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ADV	_	t_2240|t_2236|ref=instr.odor._5
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_2241|t_2242|ref=instr.odor._5
+9	βάσανος	βάσανος	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_2242|t_2237|ref=instr.odor._5
+10	,	,	u	u--------	_	11	AuxX	_	t_2243|t_2244|ref=instr.odor._5
+11	ἀρξώμεθα	ἄρχω	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	0	PRED	_	t_2244|0|ref=instr.odor._5
+12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_2245|t_2247|ref=instr.odor._5
+13	προειρημένων	προερέω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	14	ATR	_	t_2246|t_2247|ref=instr.odor._5
+14	κεφαλαίων	κεφάλαιος	n	n-p---ng-	Case=g|Gender=n|Number=p	11	OBJ	_	t_2247|t_2244|ref=instr.odor._5
+15	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_2248|t_2244|ref=instr.odor._5
+16	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_2249|t_2250|ref=instr.odor._5
+17	τελευταίου	τελευταῖος	a	a-s---ng-	Case=g|Gender=n|Number=s	15	ADV	_	t_2250|t_2248|ref=instr.odor._5
+18	.	.	u	u--------	_	11	AuxK	_	t_2251|t_2244|ref=instr.odor._5
 
-# source = Galen, instr.odor._4-5
+# source = Galen, instr.odor._5
 # text = τί δή ποτε γὰρ εἰσπνεόντων ἡ τῶν ὀσμῶν αἴσθησις γίγνεται , κατʼ ἄλλον δὲ οὐδένα χρόνον , εἴπερ ἐν τοῖς τῆς ῥινὸς πόροις ἡ γένεσις αὐτῆς ἐστιν , ἐπισκεπτομένοις ἡμῖν ἓν τοῦτο μόνον ηὑρίσκετο πιθανὸν , ὡς μὴ κατὰ τὴν ἐκτὸς ἐπιφάνειαν τοῦ τῆς ῥινὸς χιτῶνος , ἀλλὰ διὰ βάθους συχνοῦ τὸ τῆς ὀσφρήσεως ὄργανον τετάχθαι , πόρων μέν τινων ἐπʼ αὐτὸ τεινόντων , οὐ μὴν ἀνεῳγμένων γε διὰ παντὸς , ἀλλʼ οἷον ἐπιθήματά τινα ἐχόντων ὑμενώδη λεπτά [0] ·
 # sent_id = 88
-1	τί	τίς	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_2252|t_2261|ref=instr.odor._4
-2	δή	δή	d	d--------	_	10	AuxY	_	t_2253|t_2261|ref=instr.odor._4
-3	ποτε	ποτέ	d	d--------	_	10	ADV	_	t_2254|t_2261|ref=instr.odor._4
-4	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_2255|t_2261|ref=instr.odor._4
-5	εἰσπνεόντων	εἰσπνέω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_2256|t_2261|ref=instr.odor._4
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_2257|t_2260|ref=instr.odor._4
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_2258|t_2259|ref=instr.odor._4
-8	ὀσμῶν	ὀσμή	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_2259|t_2260|ref=instr.odor._4
-9	αἴσθησις	αἴσθησις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_2260|t_2261|ref=instr.odor._4
-10	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	PRED	_	t_2261|t_2265|ref=instr.odor._4
-11	,	,	u	u--------	_	0	AuxX	_	t_2262|0|ref=instr.odor._4
-12	κατʼ	κατά	r	r--------	_	34	AuxP	_	t_2263|t_2285|ref=instr.odor._4
-13	ἄλλον	ἄλλος	p	p-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_2264|t_2267|ref=instr.odor._4
-14	δὲ	δέ	d	d--------	_	11	COORD	_	t_2265|t_2262|ref=instr.odor._4
-15	οὐδένα	οὐδείς	p	p-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_2266|t_2267|ref=instr.odor._4
-16	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_2267|t_2263|ref=instr.odor._4
-17	,	,	u	u--------	_	11	AuxX	_	t_2268|t_2262|ref=instr.odor._4
-18	εἴπερ	εἴπερ	c	c--------	_	34	AuxC	_	t_2269|t_2285|ref=instr.odor._4
-19	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_2270|t_2278|ref=instr.odor._4
-20	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	23	ATR	_	t_2271|t_2274|ref=instr.odor._4
-21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2272|t_2273|ref=instr.odor._4
-22	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_2273|t_2274|ref=instr.odor._4
-23	πόροις	πόρω	n	n-p---md-	Case=d|Gender=m|Number=p	19	PNOM	_	t_2274|t_2270|ref=instr.odor._4
-24	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	25	ATR	_	t_2275|t_2276|ref=instr.odor._4
-25	γένεσις	γένεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_2276|t_2278|ref=instr.odor._4
-26	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_2277|t_2276|ref=instr.odor._4
-27	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_2278|t_2269|ref=instr.odor._4
-28	,	,	u	u--------	_	11	AuxX	_	t_2279|t_2262|ref=instr.odor._4
-29	ἐπισκεπτομένοις	ἐπισκέπτομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	30	ATR	_	t_2280|t_2281|ref=instr.odor._4
-30	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	34	OBJ	_	t_2281|t_2285|ref=instr.odor._4
-31	ἓν	εἷς	a	a-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_2282|t_2283|ref=instr.odor._4
-32	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	36	SBJ	_	t_2283|t_2287|ref=instr.odor._4
+1	τί	τίς	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_2252|t_2261|ref=instr.odor._5
+2	δή	δή	d	d--------	_	10	AuxY	_	t_2253|t_2261|ref=instr.odor._5
+3	ποτε	ποτέ	d	d--------	_	10	ADV	_	t_2254|t_2261|ref=instr.odor._5
+4	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_2255|t_2261|ref=instr.odor._5
+5	εἰσπνεόντων	εἰσπνέω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_2256|t_2261|ref=instr.odor._5
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_2257|t_2260|ref=instr.odor._5
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_2258|t_2259|ref=instr.odor._5
+8	ὀσμῶν	ὀσμή	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_2259|t_2260|ref=instr.odor._5
+9	αἴσθησις	αἴσθησις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_2260|t_2261|ref=instr.odor._5
+10	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	PRED	_	t_2261|t_2265|ref=instr.odor._5
+11	,	,	u	u--------	_	0	AuxX	_	t_2262|0|ref=instr.odor._5
+12	κατʼ	κατά	r	r--------	_	34	AuxP	_	t_2263|t_2285|ref=instr.odor._5
+13	ἄλλον	ἄλλος	p	p-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_2264|t_2267|ref=instr.odor._5
+14	δὲ	δέ	d	d--------	_	11	COORD	_	t_2265|t_2262|ref=instr.odor._5
+15	οὐδένα	οὐδείς	p	p-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_2266|t_2267|ref=instr.odor._5
+16	χρόνον	χρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_2267|t_2263|ref=instr.odor._5
+17	,	,	u	u--------	_	11	AuxX	_	t_2268|t_2262|ref=instr.odor._5
+18	εἴπερ	εἴπερ	c	c--------	_	34	AuxC	_	t_2269|t_2285|ref=instr.odor._5
+19	ἐν	ἐν	r	r--------	_	27	AuxP	_	t_2270|t_2278|ref=instr.odor._5
+20	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	23	ATR	_	t_2271|t_2274|ref=instr.odor._5
+21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2272|t_2273|ref=instr.odor._5
+22	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_2273|t_2274|ref=instr.odor._5
+23	πόροις	πόρω	n	n-p---md-	Case=d|Gender=m|Number=p	19	PNOM	_	t_2274|t_2270|ref=instr.odor._5
+24	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	25	ATR	_	t_2275|t_2276|ref=instr.odor._5
+25	γένεσις	γένεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_2276|t_2278|ref=instr.odor._5
+26	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_2277|t_2276|ref=instr.odor._5
+27	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_2278|t_2269|ref=instr.odor._5
+28	,	,	u	u--------	_	11	AuxX	_	t_2279|t_2262|ref=instr.odor._5
+29	ἐπισκεπτομένοις	ἐπισκέπτομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	30	ATR	_	t_2280|t_2281|ref=instr.odor._5
+30	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	34	OBJ	_	t_2281|t_2285|ref=instr.odor._5
+31	ἓν	εἷς	a	a-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_2282|t_2283|ref=instr.odor._5
+32	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	36	SBJ	_	t_2283|t_2287|ref=instr.odor._5
 33	μόνον	μόνος	a	a-s---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_2284|t_2283|ref=instr.odor._5
 34	ηὑρίσκετο	εὑρίσκω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	14	PRED	_	t_2285|t_2265|ref=instr.odor._5
 35	πιθανὸν	πιθανός	a	a-s---na-	Case=a|Gender=n|Number=s	34	OCOMP	_	t_2286|t_2285|ref=instr.odor._5
@@ -2728,7 +2728,7 @@
 76	ἐχόντων	ἔχω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	72	ADV	_	t_2327|t_2323|ref=instr.odor._5
 77	ὑμενώδη	ὑμενώδης	a	a-p---na-	Case=a|Gender=n|Number=p	74	ATR	_	t_2328|t_2325|ref=instr.odor._5
 78	λεπτά	λεπτός	a	a-p---na-	Case=a|Gender=n|Number=p	74	ATR	_	t_2329|t_2325|ref=instr.odor._5
-79	[0]	[0]	-	---------	_	48	OBJ	_	e_51|t_2299|ref=instr.odor._1
+79	[0]	[0]	-	---------	_	48	OBJ	_	e_51|t_2299|ref=instr.odor._5
 80	·	·	u	u--------	_	11	AuxK	_	t_2330|t_2262|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -2755,7 +2755,7 @@
 19	διαγνωστικὸν	διαγνωστικός	a	a-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_2349|t_2351|ref=instr.odor._5
 20	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	19	ADV	_	t_2350|t_2349|ref=instr.odor._5
 21	μόριον	μόριον	n	n-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_2351|t_2347|ref=instr.odor._5
-22	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=instr.odor._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=instr.odor._5
 23	.	.	u	u--------	_	22	AuxK	_	t_2352|e_52|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -2843,8 +2843,8 @@
 12	ὥσπερ	ὥσπερ	c	c--------	_	15	AuxC	_	t_2420|e_53|ref=instr.odor._5
 13	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	ATR	_	t_2421|t_2422|ref=instr.odor._5
 14	ὄμμα	ὄμμα	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_2422|e_54|ref=instr.odor._5
-15	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=instr.odor._1
-16	[1]	[1]	-	---------	_	12	ADV	_	e_54|t_2420|ref=instr.odor._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=instr.odor._5
+16	[1]	[1]	-	---------	_	12	ADV	_	e_54|t_2420|ref=instr.odor._5
 17	·	·	u	u--------	_	15	AuxK	_	t_2423|e_53|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -2906,7 +2906,7 @@
 17	αἰσθάνεται	αἰσθάνομαι	v	v3spim---	Mood=i|Number=s|Person=3|Tense=p|Voice=m	15	ADV	_	t_2469|t_2467|ref=instr.odor._5
 18	μὴ	μή	c	c--------	_	17	AuxC	_	t_2470|t_2469|ref=instr.odor._5
 19	ἀναπνέοντα	ἀναπνέω	v	v-sppama-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	18	OBJ	_	t_2471|t_2470|ref=instr.odor._5
-20	[0]	[0]	-	---------	_	11	ADV	_	e_55|t_2463|ref=instr.odor._1
+20	[0]	[0]	-	---------	_	11	ADV	_	e_55|t_2463|ref=instr.odor._5
 21	·	·	u	u--------	_	1	AuxK	_	t_2472|t_2453|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -2992,7 +2992,7 @@
 20	ὀσμῶν	ὀσμή	n	n-p---fg-	Case=g|Gender=f|Number=p	21	ATR	_	t_2542|t_2543|ref=instr.odor._5
 21	αἴσθησιν	αἴσθησις	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_2543|t_2544|ref=instr.odor._5
 22	ἔχομεν	ἔχω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	13	ATR	_	t_2544|t_2535|ref=instr.odor._5
-23	[0]	[0]	-	---------	_	0	PRED	_	e_56|0|ref=instr.odor._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_56|0|ref=instr.odor._5
 24	.	.	u	u--------	_	23	AuxK	_	t_2545|e_56|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3030,7 +3030,7 @@
 30	πόρους	πόρος	n	n-p---ma-	Case=a|Gender=m|Number=p	28	ADV	_	t_2575|t_2573|ref=instr.odor._5
 31	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_2576|t_2577|ref=instr.odor._5
 32	ῥινός	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_2577|t_2575|ref=instr.odor._5
-33	[0]	[0]	-	---------	_	16	ADV	_	e_57|t_2561|ref=instr.odor._1
+33	[0]	[0]	-	---------	_	16	ADV	_	e_57|t_2561|ref=instr.odor._5
 34	.	.	u	u--------	_	14	AuxK	_	t_2578|t_2559|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3179,7 +3179,7 @@
 63	ὀσφρητικοὺς	ὀσφρητικός	a	a-p---ma-	Case=a|Gender=m|Number=p	64	ATR	_	t_2703|t_2704|ref=instr.odor._5
 64	πόρους	πόρος	n	n-p---ma-	Case=a|Gender=m|Number=p	65	SBJ	_	t_2704|t_2705|ref=instr.odor._5
 65	ὑπάρχειν	ὑπάρχω	v	v--pna---	Mood=n|Tense=p|Voice=a	59	OBJ	_	t_2705|t_2699|ref=instr.odor._5
-66	[0]	[0]	-	---------	_	35	ADV	_	e_58|t_2675|ref=instr.odor._1
+66	[0]	[0]	-	---------	_	35	ADV	_	e_58|t_2675|ref=instr.odor._5
 67	.	.	u	u--------	_	4	AuxK	_	t_2706|t_2644|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3196,8 +3196,8 @@
 9	,	,	u	u--------	_	12	AuxX	_	t_2715|e_59|ref=instr.odor._5
 10	ἐνθένδε	ἐνθένδε	d	d--------	_	13	ADV	_	t_2716|e_60|ref=instr.odor._5
 11	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_2717|e_59|ref=instr.odor._5
-12	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=instr.odor._1
-13	[1]	[1]	-	---------	_	3	SBJ	_	e_60|t_2709|ref=instr.odor._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=instr.odor._5
+13	[1]	[1]	-	---------	_	3	SBJ	_	e_60|t_2709|ref=instr.odor._5
 14	.	.	u	u--------	_	12	AuxK	_	t_2718|e_59|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3406,7 +3406,7 @@
 16	αἰσθέσθαι	αἰσθάνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	9	SBJ	_	t_2895|t_2888|ref=instr.odor._5
 17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_2896|t_2897|ref=instr.odor._5
 18	ὀσμῆς	ὀσμή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	OBJ	_	t_2897|t_2895|ref=instr.odor._5
-19	[0]	[0]	-	---------	_	1	ADV	_	e_61|t_2880|ref=instr.odor._1
+19	[0]	[0]	-	---------	_	1	ADV	_	e_61|t_2880|ref=instr.odor._5
 20	·	·	u	u--------	_	9	AuxK	_	t_2898|t_2888|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3425,8 +3425,8 @@
 11	ἄνευ	ἄνευ	r	r--------	_	15	AuxP	_	t_2909|e_63|ref=instr.odor._5
 12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_2910|t_2911|ref=instr.odor._5
 13	εἰσπνοῆς	εἰσπνοή	n	n-s---fg-	Case=g|Gender=f|Number=s	11	ADV	_	t_2911|t_2909|ref=instr.odor._5
-14	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=instr.odor._1
-15	[1]	[1]	-	---------	_	8	SBJ	_	e_63|t_2906|ref=instr.odor._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=instr.odor._5
+15	[1]	[1]	-	---------	_	8	SBJ	_	e_63|t_2906|ref=instr.odor._5
 16	.	.	u	u--------	_	14	AuxK	_	t_2912|e_62|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3468,7 +3468,7 @@
 22	διοικοῦσα	διοικέω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	PNOM	_	t_2942|t_2938|ref=instr.odor._5
 23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_2943|t_2944|ref=instr.odor._5
 24	ὀζόμενον	οἴομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	22	OBJ	_	t_2944|t_2942|ref=instr.odor._5
-25	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=instr.odor._1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=instr.odor._5
 26	.	.	u	u--------	_	25	AuxK	_	t_2945|e_64|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3525,7 +3525,7 @@
 12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_2986|t_2987|ref=instr.odor._5
 13	κινούμενον	κινέω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	11	ADV	_	t_2987|t_2985|ref=instr.odor._5
 14	ἀκολουθίᾳ	ἀκολουθία	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_2988|t_2983|ref=instr.odor._5
-15	[0]	[0]	-	---------	_	0	PRED	_	e_65|0|ref=instr.odor._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_65|0|ref=instr.odor._5
 16	·	·	u	u--------	_	15	AuxK	_	t_2989|e_65|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3563,7 +3563,7 @@
 30	τε	τε	c	c--------	_	13	COORD	_	t_3019|t_3002|ref=instr.odor._5
 31	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_3020|t_3021|ref=instr.odor._5
 32	φάρυγγος	φάρυγξ	n	n-s---mg-	Case=g|Gender=m|Number=s	30	ADV	_	t_3021|t_3019|ref=instr.odor._5
-33	[0]	[0]	-	---------	_	0	PRED	_	e_66|0|ref=instr.odor._1
+33	[0]	[0]	-	---------	_	0	PRED	_	e_66|0|ref=instr.odor._5
 34	·	·	u	u--------	_	33	AuxK	_	t_3022|e_66|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3747,8 +3747,8 @@
 8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_3174|e_68|ref=instr.odor._5
 9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_3175|t_3176|ref=instr.odor._5
 10	καρδίας	καρδία	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_3176|t_3174|ref=instr.odor._5
-11	[0]	[0]	-	---------	_	0	PRED	_	e_67|0|ref=instr.odor._1
-12	[1]	[1]	-	---------	_	7	ADV	_	e_68|t_3173|ref=instr.odor._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_67|0|ref=instr.odor._5
+12	[1]	[1]	-	---------	_	7	ADV	_	e_68|t_3173|ref=instr.odor._5
 13	·	·	u	u--------	_	11	AuxK	_	t_3177|e_67|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -3969,7 +3969,7 @@
 37	τʼ	τε	c	c--------	_	31	COORD	_	t_3378|t_3372|ref=instr.odor._5
 38	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	39	OBJ	_	t_3379|t_3380|ref=instr.odor._5
 39	δοκεῖν	δοκέω	v	v--pna---	Mood=n|Tense=p|Voice=a	31	ADV	_	t_3380|t_3372|ref=instr.odor._5
-40	[0]	[0]	-	---------	_	0	PRED	_	e_69|0|ref=instr.odor._1
+40	[0]	[0]	-	---------	_	0	PRED	_	e_69|0|ref=instr.odor._5
 41	.	.	u	u--------	_	40	AuxK	_	t_3381|e_69|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4150,7 +4150,7 @@
 19	δυνατὸν	δυνατός	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_3530|t_3531|ref=instr.odor._5
 20	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	22	OBJ	_	t_3531|e_70|ref=instr.odor._5
 21	πολύ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_3532|t_3530|ref=instr.odor._5
-22	[0]	[0]	-	---------	_	0	PRED	_	e_70|0|ref=instr.odor._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_70|0|ref=instr.odor._5
 23	.	.	u	u--------	_	22	AuxK	_	t_3533|e_70|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4323,7 +4323,7 @@
 8	πόρους	πόρος	n	n-p---ma-	Case=a|Gender=m|Number=p	10	SBJ	_	t_3678|t_3680|ref=instr.odor._5
 9	ἀδύνατον	ἀδύνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_3679|e_71|ref=instr.odor._5
 10	ὑπάρχειν	ὑπάρχω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_3680|e_71|ref=instr.odor._5
-11	[0]	[0]	-	---------	_	0	PRED	_	e_71|0|ref=instr.odor._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_71|0|ref=instr.odor._5
 12	.	.	u	u--------	_	11	AuxK	_	t_3681|e_71|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4342,7 +4342,7 @@
 11	τοιοῦτον	τοιοῦτος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_3692|t_3691|ref=instr.odor._5
 12	μηδενὸς	μηδείς	p	p-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_3693|t_3694|ref=instr.odor._5
 13	ἕνεκα	ἕνεκα	r	r--------	_	9	AuxP	_	t_3694|t_3690|ref=instr.odor._5
-14	[0]	[0]	-	---------	_	0	PRED	_	e_72|0|ref=instr.odor._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_72|0|ref=instr.odor._5
 15	.	.	u	u--------	_	14	AuxK	_	t_3695|e_72|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4368,7 +4368,7 @@
 18	κατὰ	κατά	r	r--------	_	17	AuxP	_	t_3713|t_3712|ref=instr.odor._5
 19	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_3714|t_3715|ref=instr.odor._5
 20	ὦτα	οὖς	n	n-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_3715|t_3713|ref=instr.odor._5
-21	[0]	[0]	-	---------	_	14	ADV	_	e_73|t_3709|ref=instr.odor._1
+21	[0]	[0]	-	---------	_	14	ADV	_	e_73|t_3709|ref=instr.odor._5
 22	.	.	u	u--------	_	11	AuxK	_	t_3716|t_3706|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4450,7 +4450,7 @@
 49	οἷόν	οἷος	a	a-s---na-	Case=a|Gender=n|Number=s	52	ADV	_	t_3786|e_74|ref=instr.odor._5
 50	τισι	τις	a	a-p---nd-	Case=d|Gender=n|Number=p	51	ATR	_	t_3787|t_3788|ref=instr.odor._5
 51	προβλήμασι	λῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	52	OBJ	_	t_3788|e_74|ref=instr.odor._5
-52	[0]	[0]	-	---------	_	48	ADV	_	e_74|t_3785|ref=instr.odor._1
+52	[0]	[0]	-	---------	_	48	ADV	_	e_74|t_3785|ref=instr.odor._5
 53	.	.	u	u--------	_	7	AuxK	_	t_3789|t_3744|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4538,7 +4538,7 @@
 11	σκεπασθῆναι	σκέπτομαι	v	v--anp---	Mood=n|Tense=a|Voice=p	9	ADV	_	t_3865|t_3863|ref=instr.odor._5
 12	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_3866|t_3867|ref=instr.odor._5
 13	ὀφθαλμούς	ὀφθαλμός	n	n-p---ma-	Case=a|Gender=m|Number=p	11	SBJ	_	t_3867|t_3865|ref=instr.odor._5
-14	[0]	[0]	-	---------	_	0	PRED	_	e_75|0|ref=instr.odor._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_75|0|ref=instr.odor._5
 15	.	.	u	u--------	_	14	AuxK	_	t_3868|e_75|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4692,7 +4692,7 @@
 19	ἀπόρημα	ἀπόρημα	n	n-s---nn-	Case=n|Gender=n|Number=s	22	PNOM	_	t_4002|e_76|ref=instr.odor._5
 20	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_4003|t_4004|ref=instr.odor._5
 21	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_4004|t_4002|ref=instr.odor._5
-22	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=instr.odor._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=instr.odor._5
 23	.	.	u	u--------	_	22	AuxK	_	t_4005|e_76|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4720,7 +4720,7 @@
 20	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	21	OBJ	_	t_4025|t_4026|ref=instr.odor._5
 21	ἐργάσασθαι	ἐργάζομαι	v	v--ane---	Mood=n|Tense=a|Voice=e	23	SBJ	_	t_4026|e_77|ref=instr.odor._5
 22	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	21	SBJ	_	t_4027|t_4026|ref=instr.odor._5
-23	[0]	[0]	-	---------	_	0	PRED	_	e_77|0|ref=instr.odor._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_77|0|ref=instr.odor._5
 24	.	.	u	u--------	_	23	AuxK	_	t_4028|e_77|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4738,7 +4738,7 @@
 10	θεοῖς	θεός	n	n-p---md-	Case=d|Gender=m|Number=p	12	ADV	_	t_4038|t_4040|ref=instr.odor._5
 11	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_4039|t_4037|ref=instr.odor._5
 12	ἀδύνατα	ἀδύνατος	a	a-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_4040|t_4039|ref=instr.odor._5
-13	[0]	[0]	-	---------	_	9	SBJ	_	e_78|t_4037|ref=instr.odor._1
+13	[0]	[0]	-	---------	_	9	SBJ	_	e_78|t_4037|ref=instr.odor._5
 14	.	.	u	u--------	_	8	AuxK	_	t_4041|t_4036|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4774,7 +4774,7 @@
 28	ἀλλʼ	ἀλλά	c	c--------	_	3	COORD	_	t_4069|t_4044|ref=instr.odor._5
 29	ὅτι	ὅτι	c	c--------	_	28	AuxC	_	t_4070|t_4069|ref=instr.odor._5
 30	μᾶλλον	μᾶλλον	d	d--------	_	31	ADV	_	t_4071|e_79|ref=instr.odor._5
-31	[0]	[0]	-	---------	_	29	ADV	_	e_79|t_4070|ref=instr.odor._1
+31	[0]	[0]	-	---------	_	29	ADV	_	e_79|t_4070|ref=instr.odor._5
 32	.	.	u	u--------	_	3	AuxK	_	t_4072|t_4044|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4845,8 +4845,8 @@
 27	ἀκριβῶς	ἀκριβής	d	d--------	_	28	ADV	_	t_4127|t_4128|ref=instr.odor._5
 28	αἰσθανομένας	αἰσθάνομαι	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	29	ADV	_	t_4128|t_4129|ref=instr.odor._5
 29	φυλάττειν	φυλάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	31	SBJ	_	t_4129|e_81|ref=instr.odor._5
-30	[0]	[0]	-	---------	_	9	ADV	_	e_80|t_4109|ref=instr.odor._1
-31	[1]	[1]	-	---------	_	0	PRED	_	e_81|0|ref=instr.odor._1
+30	[0]	[0]	-	---------	_	9	ADV	_	e_80|t_4109|ref=instr.odor._5
+31	[1]	[1]	-	---------	_	0	PRED	_	e_81|0|ref=instr.odor._5
 32	.	.	u	u--------	_	31	AuxK	_	t_4130|e_81|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4933,7 +4933,7 @@
 13	τοῦθʼ	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_4201|t_4203|ref=instr.odor._5
 14	ἡμᾶς	ἐγώ	p	p-p---ma-	Case=a|Gender=m|Number=p	15	OBJ	_	t_4202|t_4203|ref=instr.odor._5
 15	ὁρᾷν	ὁράω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_4203|e_82|ref=instr.odor._5
-16	[0]	[0]	-	---------	_	0	PRED	_	e_82|0|ref=instr.odor._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_82|0|ref=instr.odor._5
 17	.	.	u	u--------	_	16	AuxK	_	t_4204|e_82|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4951,7 +4951,7 @@
 10	κλείειν	κλείω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_4214|t_4213|ref=instr.odor._5
 11	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_4215|t_4216|ref=instr.odor._5
 12	βλέφαρα	βλέφαρον	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_4216|t_4214|ref=instr.odor._5
-13	[0]	[0]	-	---------	_	1	ADV	_	e_83|t_4205|ref=instr.odor._1
+13	[0]	[0]	-	---------	_	1	ADV	_	e_83|t_4205|ref=instr.odor._5
 14	.	.	u	u--------	_	9	AuxK	_	t_4217|t_4213|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -4979,7 +4979,7 @@
 7	γὰρ	γάρ	g	g--------	_	10	AuxY	_	t_4233|e_84|ref=instr.odor._5
 8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_4234|t_4235|ref=instr.odor._5
 9	καιρός	καιρός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_4235|e_84|ref=instr.odor._5
-10	[0]	[0]	-	---------	_	5	PRED	_	e_84|t_4231|ref=instr.odor._1
+10	[0]	[0]	-	---------	_	5	PRED	_	e_84|t_4231|ref=instr.odor._5
 11	.	.	u	u--------	_	5	AuxK	_	t_4236|t_4231|ref=instr.odor._5
 
 # source = Galen, instr.odor._5
@@ -5113,109 +5113,109 @@
 25	δοκῶ	δοκέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_4350|0|ref=instr.odor._5
 26	.	.	u	u--------	_	25	AuxK	_	t_4351|t_4350|ref=instr.odor._5
 
-# source = Galen, instr.odor._5
+# source = Galen, instr.odor._6
 # text = Σκεψώμεθα δʼ ἐφεξῆς , ὅπως οἱ πταρμοὶ τὰ τῆς κεφαλῆς ἰῶνται βάρη .
 # sent_id = 171
-1	Σκεψώμεθα	σκέπτομαι	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	2	PRED	_	t_4352|t_4353|ref=instr.odor._5
-2	δʼ	δέ	d	d--------	_	0	COORD	_	t_4353|0|ref=instr.odor._5
-3	ἐφεξῆς	ἐφεξῆς	d	d--------	_	1	ADV	_	t_4354|t_4352|ref=instr.odor._5
-4	,	,	u	u--------	_	5	AuxX	_	t_4355|t_4356|ref=instr.odor._5
-5	ὅπως	ὅπως	c	c--------	_	1	AuxC	_	t_4356|t_4352|ref=instr.odor._5
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_4357|t_4358|ref=instr.odor._5
-7	πταρμοὶ	πταρμός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_4358|t_4362|ref=instr.odor._5
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_4359|t_4363|ref=instr.odor._5
-9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_4360|t_4361|ref=instr.odor._5
-10	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_4361|t_4363|ref=instr.odor._5
-11	ἰῶνται	ἰάομαι	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	5	ADV	_	t_4362|t_4356|ref=instr.odor._5
-12	βάρη	βάρος	n	n-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_4363|t_4362|ref=instr.odor._5
-13	.	.	u	u--------	_	2	AuxK	_	t_4364|t_4353|ref=instr.odor._5
+1	Σκεψώμεθα	σκέπτομαι	v	v1pasm---	Mood=s|Number=p|Person=1|Tense=a|Voice=m	2	PRED	_	t_4352|t_4353|ref=instr.odor._6
+2	δʼ	δέ	d	d--------	_	0	COORD	_	t_4353|0|ref=instr.odor._6
+3	ἐφεξῆς	ἐφεξῆς	d	d--------	_	1	ADV	_	t_4354|t_4352|ref=instr.odor._6
+4	,	,	u	u--------	_	5	AuxX	_	t_4355|t_4356|ref=instr.odor._6
+5	ὅπως	ὅπως	c	c--------	_	1	AuxC	_	t_4356|t_4352|ref=instr.odor._6
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_4357|t_4358|ref=instr.odor._6
+7	πταρμοὶ	πταρμός	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_4358|t_4362|ref=instr.odor._6
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	12	ATR	_	t_4359|t_4363|ref=instr.odor._6
+9	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_4360|t_4361|ref=instr.odor._6
+10	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_4361|t_4363|ref=instr.odor._6
+11	ἰῶνται	ἰάομαι	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	5	ADV	_	t_4362|t_4356|ref=instr.odor._6
+12	βάρη	βάρος	n	n-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_4363|t_4362|ref=instr.odor._6
+13	.	.	u	u--------	_	2	AuxK	_	t_4364|t_4353|ref=instr.odor._6
 
-# source = Galen, instr.odor._5
+# source = Galen, instr.odor._6
 # text = γίνονται μὲν γὰρ , ἐπὶ προηγησαμέναις μεγίσταις εἰσπνοαῖς ἐκφυσήσεως ἑπομένης τάχιστα .
 # sent_id = 172
-1	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_4365|0|ref=instr.odor._5
-2	μὲν	μέν	d	d--------	_	1	AuxY	_	t_4366|t_4365|ref=instr.odor._5
-3	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_4367|t_4365|ref=instr.odor._5
-4	,	,	u	u--------	_	1	AuxX	_	t_4368|t_4365|ref=instr.odor._5
-5	ἐπὶ	ἐπί	r	r--------	_	10	AuxP	_	t_4369|t_4374|ref=instr.odor._5
-6	προηγησαμέναις	προηγέομαι	v	v-pppefd-	Case=d|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	8	ATR	_	t_4370|t_4372|ref=instr.odor._5
-7	μεγίσταις	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_4371|t_4372|ref=instr.odor._5
-8	εἰσπνοαῖς	εἰσπνοή	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_4372|t_4369|ref=instr.odor._5
-9	ἐκφυσήσεως	ἐκφύσησις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_4373|t_4374|ref=instr.odor._5
-10	ἑπομένης	ἕπομαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	1	ADV	_	t_4374|t_4365|ref=instr.odor._5
-11	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	ADV	_	t_4375|t_4365|ref=instr.odor._5
-12	.	.	u	u--------	_	1	AuxK	_	t_4376|t_4365|ref=instr.odor._5
+1	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_4365|0|ref=instr.odor._6
+2	μὲν	μέν	d	d--------	_	1	AuxY	_	t_4366|t_4365|ref=instr.odor._6
+3	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_4367|t_4365|ref=instr.odor._6
+4	,	,	u	u--------	_	1	AuxX	_	t_4368|t_4365|ref=instr.odor._6
+5	ἐπὶ	ἐπί	r	r--------	_	10	AuxP	_	t_4369|t_4374|ref=instr.odor._6
+6	προηγησαμέναις	προηγέομαι	v	v-pppefd-	Case=d|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	8	ATR	_	t_4370|t_4372|ref=instr.odor._6
+7	μεγίσταις	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_4371|t_4372|ref=instr.odor._6
+8	εἰσπνοαῖς	εἰσπνοή	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_4372|t_4369|ref=instr.odor._6
+9	ἐκφυσήσεως	ἐκφύσησις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_4373|t_4374|ref=instr.odor._6
+10	ἑπομένης	ἕπομαι	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	1	ADV	_	t_4374|t_4365|ref=instr.odor._6
+11	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	1	ADV	_	t_4375|t_4365|ref=instr.odor._6
+12	.	.	u	u--------	_	1	AuxK	_	t_4376|t_4365|ref=instr.odor._6
 
-# source = Galen, instr.odor._5
+# source = Galen, instr.odor._6
 # text = ὀνομάζω δὲ ἐκφύσησιν τὴν ἀθρόαν ἐκπνοήν .
 # sent_id = 173
-1	ὀνομάζω	ὀνομάζω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_4377|0|ref=instr.odor._5
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_4378|t_4377|ref=instr.odor._5
-3	ἐκφύσησιν	ἐκφύσησις	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OCOMP	_	t_4379|t_4377|ref=instr.odor._5
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_4380|t_4382|ref=instr.odor._5
-5	ἀθρόαν	ἀθρόος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_4381|t_4382|ref=instr.odor._5
-6	ἐκπνοήν	ἐκπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_4382|t_4377|ref=instr.odor._5
-7	.	.	u	u--------	_	1	AuxK	_	t_4383|t_4377|ref=instr.odor._5
+1	ὀνομάζω	ὀνομάζω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_4377|0|ref=instr.odor._6
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_4378|t_4377|ref=instr.odor._6
+3	ἐκφύσησιν	ἐκφύσησις	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OCOMP	_	t_4379|t_4377|ref=instr.odor._6
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_4380|t_4382|ref=instr.odor._6
+5	ἀθρόαν	ἀθρόος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_4381|t_4382|ref=instr.odor._6
+6	ἐκπνοήν	ἐκπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_4382|t_4377|ref=instr.odor._6
+7	.	.	u	u--------	_	1	AuxK	_	t_4383|t_4377|ref=instr.odor._6
 
-# source = Galen, instr.odor._5
+# source = Galen, instr.odor._6
 # text = εἰ δέ γε μηδὲν ἐξ ἐγκεφάλου διʼ αὐτῶν ἐκενοῦτο , πρὸς τῷ μὴ παύσασθαι τὰ βάρη τῆς κεφαλῆς ὑπὸ τῶν πταρμῶν πολλάκις ἔτι καὶ συνεπληροῦτο ἂν μᾶλλον ὑπὸ τῆς ἀθρόας ἔξω τοῦ πνεύματος φορᾶς καὶ προσέτι τῆς ὑπʼ αὐτοῦ γενομένης πληγῆς .
 # sent_id = 174
-1	εἰ	εἰ	c	c--------	_	25	AuxC	_	t_4384|t_4408|ref=instr.odor._5
-2	δέ	δέ	d	d--------	_	25	AuxY	_	t_4385|t_4408|ref=instr.odor._5
-3	γε	γε	d	d--------	_	4	AuxZ	_	t_4386|t_4387|ref=instr.odor._5
-4	μηδὲν	μηδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_4387|t_4392|ref=instr.odor._5
-5	ἐξ	ἐκ	r	r--------	_	9	AuxP	_	t_4388|t_4392|ref=instr.odor._5
-6	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=n|Number=s	5	ADV	_	t_4389|t_4388|ref=instr.odor._5
-7	διʼ	διά	r	r--------	_	9	AuxP	_	t_4390|t_4392|ref=instr.odor._5
-8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=n|Number=p	7	ADV	_	t_4391|t_4390|ref=instr.odor._5
-9	ἐκενοῦτο	κενόω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	1	ADV	_	t_4392|t_4384|ref=instr.odor._5
-10	,	,	u	u--------	_	25	AuxX	_	t_4393|t_4408|ref=instr.odor._5
-11	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_4394|t_4408|ref=instr.odor._5
-12	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	14	ATR	_	t_4395|t_4397|ref=instr.odor._5
-13	μὴ	μή	d	d--------	_	14	AuxZ	_	t_4396|t_4397|ref=instr.odor._5
-14	παύσασθαι	παύω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	ADV	_	t_4397|t_4394|ref=instr.odor._5
-15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_4398|t_4399|ref=instr.odor._5
-16	βάρη	βάρος	n	n-p---na-	Case=a|Gender=n|Number=p	14	SBJ	_	t_4399|t_4397|ref=instr.odor._5
-17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_4400|t_4401|ref=instr.odor._5
-18	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_4401|t_4399|ref=instr.odor._5
-19	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_4402|t_4397|ref=instr.odor._5
-20	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	21	ATR	_	t_4403|t_4404|ref=instr.odor._5
-21	πταρμῶν	πταρμός	n	n-p---mg-	Case=g|Gender=m|Number=p	19	OBJ	_	t_4404|t_4402|ref=instr.odor._5
-22	πολλάκις	πολλάκις	d	d--------	_	25	ADV	_	t_4405|t_4408|ref=instr.odor._5
-23	ἔτι	ἔτι	d	d--------	_	25	ADV	_	t_4406|t_4408|ref=instr.odor._5
-24	καὶ	καί	d	d--------	_	25	AuxZ	_	t_4407|t_4408|ref=instr.odor._5
-25	συνεπληροῦτο	συμπληρόω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_4408|0|ref=instr.odor._5
-26	ἂν	ἄν	d	d--------	_	25	AuxY	_	t_4409|t_4408|ref=instr.odor._5
-27	μᾶλλον	μᾶλλον	d	d-------c	_	25	ADV	_	t_4410|t_4408|ref=instr.odor._5
-28	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_4411|t_4408|ref=instr.odor._5
-29	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_4412|t_4417|ref=instr.odor._5
-30	ἀθρόας	ἀθρόος	a	a-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_4413|t_4417|ref=instr.odor._5
-31	ἔξω	ἔξω	r	r--------	_	30	AuxP	_	t_4414|t_4413|ref=instr.odor._5
-32	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_4415|t_4416|ref=instr.odor._5
-33	πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	31	ATR	_	t_4416|t_4414|ref=instr.odor._5
-34	φορᾶς	φορά	n	n-s---fg-	Case=g|Gender=f|Number=s	35	ADV	_	t_4417|t_4418|ref=instr.odor._5
-35	καὶ	καί	c	c--------	_	28	COORD	_	t_4418|t_4411|ref=instr.odor._5
-36	προσέτι	προσέτι	d	d--------	_	40	ADV	_	t_4419|t_4423|ref=instr.odor._5
-37	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	41	ATR	_	t_4420|t_4424|ref=instr.odor._5
-38	ὑπʼ	ὑπό	r	r--------	_	40	AuxP	_	t_4421|t_4423|ref=instr.odor._5
-39	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	38	OBJ	_	t_4422|t_4421|ref=instr.odor._5
-40	γενομένης	γίγνομαι	v	v-sapmfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	41	ATR	_	t_4423|t_4424|ref=instr.odor._5
-41	πληγῆς	πληγή	n	n-s---fg-	Case=g|Gender=f|Number=s	35	OBJ	_	t_4424|t_4418|ref=instr.odor._5
-42	.	.	u	u--------	_	25	AuxK	_	t_4425|t_4408|ref=instr.odor._5
+1	εἰ	εἰ	c	c--------	_	25	AuxC	_	t_4384|t_4408|ref=instr.odor._6
+2	δέ	δέ	d	d--------	_	25	AuxY	_	t_4385|t_4408|ref=instr.odor._6
+3	γε	γε	d	d--------	_	4	AuxZ	_	t_4386|t_4387|ref=instr.odor._6
+4	μηδὲν	μηδείς	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_4387|t_4392|ref=instr.odor._6
+5	ἐξ	ἐκ	r	r--------	_	9	AuxP	_	t_4388|t_4392|ref=instr.odor._6
+6	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=n|Number=s	5	ADV	_	t_4389|t_4388|ref=instr.odor._6
+7	διʼ	διά	r	r--------	_	9	AuxP	_	t_4390|t_4392|ref=instr.odor._6
+8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=n|Number=p	7	ADV	_	t_4391|t_4390|ref=instr.odor._6
+9	ἐκενοῦτο	κενόω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	1	ADV	_	t_4392|t_4384|ref=instr.odor._6
+10	,	,	u	u--------	_	25	AuxX	_	t_4393|t_4408|ref=instr.odor._6
+11	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_4394|t_4408|ref=instr.odor._6
+12	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	14	ATR	_	t_4395|t_4397|ref=instr.odor._6
+13	μὴ	μή	d	d--------	_	14	AuxZ	_	t_4396|t_4397|ref=instr.odor._6
+14	παύσασθαι	παύω	v	v--anm---	Mood=n|Tense=a|Voice=m	11	ADV	_	t_4397|t_4394|ref=instr.odor._6
+15	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_4398|t_4399|ref=instr.odor._6
+16	βάρη	βάρος	n	n-p---na-	Case=a|Gender=n|Number=p	14	SBJ	_	t_4399|t_4397|ref=instr.odor._6
+17	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_4400|t_4401|ref=instr.odor._6
+18	κεφαλῆς	κεφαλή	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_4401|t_4399|ref=instr.odor._6
+19	ὑπὸ	ὑπό	r	r--------	_	14	AuxP	_	t_4402|t_4397|ref=instr.odor._6
+20	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	21	ATR	_	t_4403|t_4404|ref=instr.odor._6
+21	πταρμῶν	πταρμός	n	n-p---mg-	Case=g|Gender=m|Number=p	19	OBJ	_	t_4404|t_4402|ref=instr.odor._6
+22	πολλάκις	πολλάκις	d	d--------	_	25	ADV	_	t_4405|t_4408|ref=instr.odor._6
+23	ἔτι	ἔτι	d	d--------	_	25	ADV	_	t_4406|t_4408|ref=instr.odor._6
+24	καὶ	καί	d	d--------	_	25	AuxZ	_	t_4407|t_4408|ref=instr.odor._6
+25	συνεπληροῦτο	συμπληρόω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_4408|0|ref=instr.odor._6
+26	ἂν	ἄν	d	d--------	_	25	AuxY	_	t_4409|t_4408|ref=instr.odor._6
+27	μᾶλλον	μᾶλλον	d	d-------c	_	25	ADV	_	t_4410|t_4408|ref=instr.odor._6
+28	ὑπὸ	ὑπό	r	r--------	_	25	AuxP	_	t_4411|t_4408|ref=instr.odor._6
+29	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_4412|t_4417|ref=instr.odor._6
+30	ἀθρόας	ἀθρόος	a	a-s---fg-	Case=g|Gender=f|Number=s	34	ATR	_	t_4413|t_4417|ref=instr.odor._6
+31	ἔξω	ἔξω	r	r--------	_	30	AuxP	_	t_4414|t_4413|ref=instr.odor._6
+32	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_4415|t_4416|ref=instr.odor._6
+33	πνεύματος	πνεῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	31	ATR	_	t_4416|t_4414|ref=instr.odor._6
+34	φορᾶς	φορά	n	n-s---fg-	Case=g|Gender=f|Number=s	35	ADV	_	t_4417|t_4418|ref=instr.odor._6
+35	καὶ	καί	c	c--------	_	28	COORD	_	t_4418|t_4411|ref=instr.odor._6
+36	προσέτι	προσέτι	d	d--------	_	40	ADV	_	t_4419|t_4423|ref=instr.odor._6
+37	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	41	ATR	_	t_4420|t_4424|ref=instr.odor._6
+38	ὑπʼ	ὑπό	r	r--------	_	40	AuxP	_	t_4421|t_4423|ref=instr.odor._6
+39	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	38	OBJ	_	t_4422|t_4421|ref=instr.odor._6
+40	γενομένης	γίγνομαι	v	v-sapmfg-	Case=g|Gender=f|Mood=p|Number=s|Tense=a|Voice=m	41	ATR	_	t_4423|t_4424|ref=instr.odor._6
+41	πληγῆς	πληγή	n	n-s---fg-	Case=g|Gender=f|Number=s	35	OBJ	_	t_4424|t_4418|ref=instr.odor._6
+42	.	.	u	u--------	_	25	AuxK	_	t_4425|t_4408|ref=instr.odor._6
 
-# source = Galen, instr.odor._5
+# source = Galen, instr.odor._6
 # text = οὕτως οὖν φαίνεται καὶ ἐπὶ ταῖς μεγάλαις φωναῖς διατιθεμένη .
 # sent_id = 175
-1	οὕτως	οὕτως	d	d--------	_	3	ADV	_	t_4426|t_4428|ref=instr.odor._5
-2	οὖν	οὖν	d	d--------	_	3	AuxY	_	t_4427|t_4428|ref=instr.odor._5
-3	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_4428|0|ref=instr.odor._5
-4	καὶ	καί	d	d--------	_	8	AuxZ	_	t_4429|t_4433|ref=instr.odor._5
-5	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_4430|t_4434|ref=instr.odor._5
-6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_4431|t_4433|ref=instr.odor._5
-7	μεγάλαις	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_4432|t_4433|ref=instr.odor._5
-8	φωναῖς	φωνή	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_4433|t_4430|ref=instr.odor._5
-9	διατιθεμένη	διατίθημι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_4434|t_4428|ref=instr.odor._5
-10	.	.	u	u--------	_	3	AuxK	_	t_4435|t_4428|ref=instr.odor._5
+1	οὕτως	οὕτως	d	d--------	_	3	ADV	_	t_4426|t_4428|ref=instr.odor._6
+2	οὖν	οὖν	d	d--------	_	3	AuxY	_	t_4427|t_4428|ref=instr.odor._6
+3	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_4428|0|ref=instr.odor._6
+4	καὶ	καί	d	d--------	_	8	AuxZ	_	t_4429|t_4433|ref=instr.odor._6
+5	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_4430|t_4434|ref=instr.odor._6
+6	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_4431|t_4433|ref=instr.odor._6
+7	μεγάλαις	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_4432|t_4433|ref=instr.odor._6
+8	φωναῖς	φωνή	n	n-p---fd-	Case=d|Gender=f|Number=p	5	ADV	_	t_4433|t_4430|ref=instr.odor._6
+9	διατιθεμένη	διατίθημι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	3	ADV	_	t_4434|t_4428|ref=instr.odor._6
+10	.	.	u	u--------	_	3	AuxK	_	t_4435|t_4428|ref=instr.odor._6
 
 # source = Galen, instr.odor._6
 # text = καὶ μὲν δὴ καὶ πάθη τινὰ τῶν κατὰ τὸν ἐγκέφαλον συνισταμένων , οἷα μάλιστά ἐστι τὰ ληθαργικὰ καὶ καρώδη , καὶ διὰ τῶν πταρμικῶν οὐχ ἥκιστα θεραπεύεται φαρμάκων .
@@ -5280,7 +5280,7 @@
 25	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	26	ATR	_	t_4489|t_4490|ref=instr.odor._6
 26	ἐγκέφαλον	ἐγκέφαλος	n	n-s---ma-	Case=a|Gender=m|Number=s	24	ADV	_	t_4490|t_4488|ref=instr.odor._6
 27	πνευμάτων	πνεῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	19	SBJ	_	t_4491|t_4483|ref=instr.odor._6
-28	[0]	[0]	-	---------	_	0	PRED	_	e_85|0|ref=instr.odor._1
+28	[0]	[0]	-	---------	_	0	PRED	_	e_85|0|ref=instr.odor._6
 29	.	.	u	u--------	_	28	AuxK	_	t_4492|e_85|ref=instr.odor._6
 
 # source = Galen, instr.odor._6
@@ -5350,8 +5350,8 @@
 39	μερῶν	μέρος	n	n-p---ng-	Case=g|Gender=n|Number=p	36	ADV	_	t_4550|t_4547|ref=instr.odor._6
 40	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	39	ATR	_	t_4551|t_4550|ref=instr.odor._6
 41	μήνιγγα	μήνιγξ	n	n-s---fa-	Case=a|Gender=f|Number=s	33	ADV	_	t_4552|t_4544|ref=instr.odor._6
-42	[0]	[0]	-	---------	_	0	PRED	_	e_86|0|ref=instr.odor._1
-43	[1]	[1]	-	---------	_	16	SBJ	_	e_87|t_4527|ref=instr.odor._1
+42	[0]	[0]	-	---------	_	0	PRED	_	e_86|0|ref=instr.odor._6
+43	[1]	[1]	-	---------	_	16	SBJ	_	e_87|t_4527|ref=instr.odor._6
 44	.	.	u	u--------	_	42	AuxK	_	t_4553|e_86|ref=instr.odor._6
 
 # source = Galen, instr.odor._6
@@ -5503,7 +5503,7 @@
 37	,	,	u	u--------	_	40	AuxX	_	t_4681|e_88|ref=instr.odor._6
 38	ἢ	ἤ1	c	c--------	_	33	COORD	_	t_4682|t_4677|ref=instr.odor._6
 39	ψυχόντων	ψύχω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	38	ADV	_	t_4683|t_4682|ref=instr.odor._6
-40	[0]	[0]	-	---------	_	0	PRED	_	e_88|0|ref=instr.odor._1
+40	[0]	[0]	-	---------	_	0	PRED	_	e_88|0|ref=instr.odor._6
 41	.	.	u	u--------	_	40	AuxK	_	t_4684|e_88|ref=instr.odor._6
 
 # source = Galen, instr.odor._6

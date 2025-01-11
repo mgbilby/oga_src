@@ -319,17 +319,17 @@
 10	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=medic._1
 11	.	.	u	u--------	_	10	AuxK	_	t_245|e_4|ref=medic._1
 
-# source = Hippocrates, medic._1
+# source = Hippocrates, medic._2
 # text = 2 .
 # sent_id = 19
-1	2	2	u	u--------	_	0	AuxG	_	t_246|0|ref=medic._1
-2	.	.	u	u--------	_	1	AuxK	_	t_247|t_246|ref=medic._1
+1	2	2	u	u--------	_	0	AuxG	_	t_246|0|ref=medic._2
+2	.	.	u	u--------	_	1	AuxK	_	t_247|t_246|ref=medic._2
 
-# source = Hippocrates, medic._1-2
+# source = Hippocrates, medic._2
 # text = Τὰ δὲ ἐς τὴν ἰητρικὴν τέχνην παραγγέλματα , διʼ ὧν ἔστιν εἶναι τεχνικὸν , ἀπʼ ἀρχῆς συνοπτέον , ἀφʼ ὧν καὶ μανθάνειν ὤνθρωπος ἄρξαιτο ·
 # sent_id = 20
-1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_248|t_254|ref=medic._1
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_249|0|ref=medic._1
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_248|t_254|ref=medic._2
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_249|0|ref=medic._2
 3	ἐς	εἰς	r	r--------	_	7	AuxP	_	t_250|t_254|ref=medic._2
 4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_251|t_253|ref=medic._2
 5	ἰητρικὴν	ἰατρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_252|t_253|ref=medic._2
@@ -414,7 +414,7 @@
 12	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	13	ATR	_	t_319|t_320|ref=medic._2
 13	θεραπευομένοις	θεραπεύω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	10	ADV	_	t_320|t_317|ref=medic._2
 14	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	PRED	_	t_321|t_318|ref=medic._2
-15	[0]	[0]	-	---------	_	11	PRED	_	e_5|t_318|ref=medic._1
+15	[0]	[0]	-	---------	_	11	PRED	_	e_5|t_318|ref=medic._2
 16	·	·	u	u--------	_	8	AuxK	_	t_322|t_315|ref=medic._2
 
 # source = Hippocrates, medic._2
@@ -463,7 +463,7 @@
 9	προσώπῳ	πρόσωπον	n	n-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_355|t_352|ref=medic._2
 10	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_356|t_357|ref=medic._2
 11	αὐγάς	αὐγή	n	n-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_357|t_353|ref=medic._2
-12	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=medic._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=medic._2
 13	·	·	u	u--------	_	12	AuxK	_	t_358|e_6|ref=medic._2
 
 # source = Hippocrates, medic._2
@@ -487,7 +487,7 @@
 5	ἀσθενέοντας	ἀσθενέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_370|t_371|ref=medic._2
 6	ὀφθαλμοὺς	ὀφθαλμός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_371|t_372|ref=medic._2
 7	ἐπιταράξαι	ἐπιταράξαι	v	v--ana---	Mood=n|Tense=a|Voice=a	8	SBJ	_	t_372|e_7|ref=medic._2
-8	[0]	[0]	-	---------	_	2	PRED	_	e_7|t_367|ref=medic._1
+8	[0]	[0]	-	---------	_	2	PRED	_	e_7|t_367|ref=medic._2
 9	·	·	u	u--------	_	2	AuxK	_	t_373|t_367|ref=medic._2
 
 # source = Hippocrates, medic._2
@@ -521,7 +521,7 @@
 12	κατʼ	κατά	r	r--------	_	14	AuxP	_	t_395|t_397|ref=medic._2
 13	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	12	PNOM	_	t_396|t_395|ref=medic._2
 14	ὦσιν	εἰμί	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	11	ADV	_	t_397|t_394|ref=medic._2
-15	[0]	[0]	-	---------	_	8	ADV	_	e_8|t_391|ref=medic._1
+15	[0]	[0]	-	---------	_	8	ADV	_	e_8|t_391|ref=medic._2
 16	.	.	u	u--------	_	2	AuxK	_	t_398|t_385|ref=medic._2
 
 # source = Hippocrates, medic._2
@@ -588,8 +588,8 @@
 17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_445|t_446|ref=medic._2
 18	τραύματα	τραῦμα	n	n-p---na-	Case=a|Gender=n|Number=p	15	ADV	_	t_446|t_443|ref=medic._2
 19	σπόγγοις	σπόγγος	n	n-p---md-	Case=d|Gender=m|Number=p	21	OBJ	_	t_447|e_10|ref=medic._2
-20	[0]	[0]	-	---------	_	16	PRED	_	e_9|t_444|ref=medic._1
-21	[1]	[1]	-	---------	_	16	PRED	_	e_10|t_444|ref=medic._1
+20	[0]	[0]	-	---------	_	16	PRED	_	e_9|t_444|ref=medic._2
+21	[1]	[1]	-	---------	_	16	PRED	_	e_10|t_444|ref=medic._2
 22	·	·	u	u--------	_	2	AuxK	_	t_448|t_430|ref=medic._2
 
 # source = Hippocrates, medic._2
@@ -624,23 +624,23 @@
 16	λεπτότητι	παχύτης	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_471|t_470|ref=medic._2
 17	.	.	u	u--------	_	2	AuxK	_	t_472|t_457|ref=medic._2
 
-# source = Hippocrates, medic._2
+# source = Hippocrates, medic._3
 # text = 3 .
 # sent_id = 37
-1	3	3	x	x--------	_	0	AuxG	_	t_473|0|ref=medic._2
-2	.	.	u	u--------	_	1	AuxK	_	t_474|t_473|ref=medic._2
+1	3	3	x	x--------	_	0	AuxG	_	t_473|0|ref=medic._3
+2	.	.	u	u--------	_	1	AuxK	_	t_474|t_473|ref=medic._3
 
-# source = Hippocrates, medic._2-3
+# source = Hippocrates, medic._3
 # text = Τὰ δὲ προσφερόμενα ἅπαντα μὲν χρὴ συνορῇν ὅπως συνοίσει ·
 # sent_id = 38
-1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_475|t_477|ref=medic._2
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_476|0|ref=medic._2
-3	προσφερόμενα	προσφέρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	7	OBJ	_	t_477|t_481|ref=medic._2
-4	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_478|t_477|ref=medic._2
-5	μὲν	μέν	d	d--------	_	7	AuxY	_	t_479|t_481|ref=medic._2
-6	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_480|t_476|ref=medic._2
-7	συνορῇν	συνοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_481|t_480|ref=medic._2
-8	ὅπως	ὅπως	c	c--------	_	7	AuxC	_	t_482|t_481|ref=medic._2
+1	Τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_475|t_477|ref=medic._3
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_476|0|ref=medic._3
+3	προσφερόμενα	προσφέρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	7	OBJ	_	t_477|t_481|ref=medic._3
+4	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_478|t_477|ref=medic._3
+5	μὲν	μέν	d	d--------	_	7	AuxY	_	t_479|t_481|ref=medic._3
+6	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_480|t_476|ref=medic._3
+7	συνορῇν	συνοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_481|t_480|ref=medic._3
+8	ὅπως	ὅπως	c	c--------	_	7	AuxC	_	t_482|t_481|ref=medic._3
 9	συνοίσει	συμφέρω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	8	ADV	_	t_483|t_482|ref=medic._3
 10	·	·	u	u--------	_	2	AuxK	_	t_484|t_476|ref=medic._3
 
@@ -657,8 +657,8 @@
 8	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_492|t_494|ref=medic._3
 9	νοσοῦντι	νοσέω	v	v-sppand-	Case=d|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	10	ATR	_	t_493|t_494|ref=medic._3
 10	μέρει	μέρος	n	n-s---nd-	Case=d|Gender=n|Number=s	6	OBJ	_	t_494|t_490|ref=medic._3
-11	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=medic._1
-12	[1]	[1]	-	---------	_	11	SBJ	_	e_12|e_11|ref=medic._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=medic._3
+12	[1]	[1]	-	---------	_	11	SBJ	_	e_12|e_11|ref=medic._3
 13	·	·	u	u--------	_	11	AuxK	_	t_495|e_11|ref=medic._3
 
 # source = Hippocrates, medic._3
@@ -753,28 +753,28 @@
 13	διαφορήν	διαφορά	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_566|t_565|ref=medic._3
 14	.	.	u	u--------	_	12	AuxK	_	t_567|t_565|ref=medic._3
 
-# source = Hippocrates, medic._3
+# source = Hippocrates, medic._4
 # text = 4 [0] .
 # sent_id = 45
-1	4	4	u	u--------	_	2	AuxK	_	t_568|e_13|ref=medic._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=medic._1
-3	.	.	u	u--------	_	2	AuxK	_	t_569|e_13|ref=medic._3
+1	4	4	u	u--------	_	2	AuxK	_	t_568|e_13|ref=medic._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=medic._4
+3	.	.	u	u--------	_	2	AuxK	_	t_569|e_13|ref=medic._4
 
-# source = Hippocrates, medic._3-4
+# source = Hippocrates, medic._4
 # text = Ἔστι δὲ οἰκείη ἐπίδεσις τῆς ἰητρικῆς , ἀφʼ ἧς ὠφελεῖσθαι τὸν θεραπευόμενον [ δεῖ ] ·
 # sent_id = 46
-1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_570|0|ref=medic._3
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_571|t_570|ref=medic._3
-3	οἰκείη	οἰκεῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	1	PNOM	_	t_572|t_570|ref=medic._3
-4	ἐπίδεσις	ἐπίδεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_573|t_570|ref=medic._3
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_574|t_575|ref=medic._3
-6	ἰητρικῆς	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_575|t_573|ref=medic._3
-7	,	,	u	u--------	_	1	AuxX	_	t_576|t_570|ref=medic._3
-8	ἀφʼ	ἀπό	r	r--------	_	10	AuxP	_	t_577|t_579|ref=medic._3
-9	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_578|t_577|ref=medic._3
-10	ὠφελεῖσθαι	ὠφελέω	v	v--pne---	Mood=n|Tense=p|Voice=e	14	SBJ	_	t_579|t_583|ref=medic._3
+1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_570|0|ref=medic._4
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_571|t_570|ref=medic._4
+3	οἰκείη	οἰκεῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	1	PNOM	_	t_572|t_570|ref=medic._4
+4	ἐπίδεσις	ἐπίδεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_573|t_570|ref=medic._4
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_574|t_575|ref=medic._4
+6	ἰητρικῆς	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_575|t_573|ref=medic._4
+7	,	,	u	u--------	_	1	AuxX	_	t_576|t_570|ref=medic._4
+8	ἀφʼ	ἀπό	r	r--------	_	10	AuxP	_	t_577|t_579|ref=medic._4
+9	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_578|t_577|ref=medic._4
+10	ὠφελεῖσθαι	ὠφελέω	v	v--pne---	Mood=n|Tense=p|Voice=e	14	SBJ	_	t_579|t_583|ref=medic._4
 11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_580|t_581|ref=medic._4
-12	θεραπευόμενον	θεραπεύω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	10	SBJ	_	t_581|t_579|ref=medic._3
+12	θεραπευόμενον	θεραπεύω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	10	SBJ	_	t_581|t_579|ref=medic._4
 13	[	[	u	u--------	_	1	AuxG	_	t_582|t_570|ref=medic._4
 14	δεῖ	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	4	ATR	_	t_583|t_573|ref=medic._4
 15	]	]	u	u--------	_	1	AuxG	_	t_584|t_570|ref=medic._4
@@ -833,7 +833,7 @@
 27	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_629|t_628|ref=medic._4
 28	ἐνιαχοῦ	ἐνιαχοῦ	d	d--------	_	29	ADV	_	t_630|t_631|ref=medic._4
 29	χρηστέον	χρηστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	25	ADV	_	t_631|t_627|ref=medic._4
-30	[0]	[0]	-	---------	_	25	ADV	_	e_14|t_627|ref=medic._1
+30	[0]	[0]	-	---------	_	25	ADV	_	e_14|t_627|ref=medic._4
 31	·	·	u	u--------	_	14	AuxK	_	t_632|t_616|ref=medic._4
 
 # source = Hippocrates, medic._4
@@ -847,7 +847,7 @@
 6	μηδὲν	μηδείς	p	p-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_638|t_639|ref=medic._4
 7	ὠφελούσας	ὠφελέω	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_639|t_640|ref=medic._4
 8	ἀπογινώσκειν	ἀπογιγνώσκω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_640|e_15|ref=medic._4
-9	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=medic._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=medic._4
 10	·	·	u	u--------	_	9	AuxK	_	t_641|e_15|ref=medic._4
 
 # source = Hippocrates, medic._4
@@ -884,28 +884,28 @@
 10	συμφέρον	συμφέρω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	8	OBJ	_	t_666|t_664|ref=medic._4
 11	.	.	u	u--------	_	1	AuxK	_	t_667|t_657|ref=medic._4
 
-# source = Hippocrates, medic._4
+# source = Hippocrates, medic._5
 # text = 5 .
 # sent_id = 52
-1	5	5	u	u--------	_	0	AuxG	_	t_668|0|ref=medic._4
-2	.	.	u	u--------	_	1	AuxK	_	t_669|t_668|ref=medic._4
+1	5	5	u	u--------	_	0	AuxG	_	t_668|0|ref=medic._5
+2	.	.	u	u--------	_	1	AuxK	_	t_669|t_668|ref=medic._5
 
-# source = Hippocrates, medic._4-5
+# source = Hippocrates, medic._5
 # text = Ἐπὶ δὲ τῶν χειρουργιῶν , ὅσαι διὰ τομῆς εἰσιν ἢ καύσιος , τὸ ταχέως ἢ βραδέως ὁμοίως ἐπαινεῖται ·
 # sent_id = 53
-1	Ἐπὶ	ἐπί	r	r--------	_	18	AuxP	_	t_670|t_687|ref=medic._4
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_671|0|ref=medic._4
-3	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_672|t_673|ref=medic._4
-4	χειρουργιῶν	χειρουργία	n	n-p---fg-	Case=g|Gender=f|Number=p	1	ADV	_	t_673|t_670|ref=medic._4
-5	,	,	u	u--------	_	9	AuxX	_	t_674|t_678|ref=medic._4
-6	ὅσαι	ὅσος	p	p-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_675|t_678|ref=medic._4
-7	διὰ	διά	r	r--------	_	9	AuxP	_	t_676|t_678|ref=medic._4
-8	τομῆς	τομή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_677|t_679|ref=medic._4
-9	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	4	ATR	_	t_678|t_673|ref=medic._4
-10	ἢ	ἤ1	c	c--------	_	7	COORD	_	t_679|t_676|ref=medic._4
-11	καύσιος	καύσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	10	PNOM	_	t_680|t_679|ref=medic._4
-12	,	,	u	u--------	_	9	AuxX	_	t_681|t_678|ref=medic._4
-13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_682|t_683|ref=medic._4
+1	Ἐπὶ	ἐπί	r	r--------	_	18	AuxP	_	t_670|t_687|ref=medic._5
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_671|0|ref=medic._5
+3	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_672|t_673|ref=medic._5
+4	χειρουργιῶν	χειρουργία	n	n-p---fg-	Case=g|Gender=f|Number=p	1	ADV	_	t_673|t_670|ref=medic._5
+5	,	,	u	u--------	_	9	AuxX	_	t_674|t_678|ref=medic._5
+6	ὅσαι	ὅσος	p	p-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_675|t_678|ref=medic._5
+7	διὰ	διά	r	r--------	_	9	AuxP	_	t_676|t_678|ref=medic._5
+8	τομῆς	τομή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_677|t_679|ref=medic._5
+9	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	4	ATR	_	t_678|t_673|ref=medic._5
+10	ἢ	ἤ1	c	c--------	_	7	COORD	_	t_679|t_676|ref=medic._5
+11	καύσιος	καύσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	10	PNOM	_	t_680|t_679|ref=medic._5
+12	,	,	u	u--------	_	9	AuxX	_	t_681|t_678|ref=medic._5
+13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_682|t_683|ref=medic._5
 14	ταχέως	ταχύς	d	d--------	_	15	ADV	_	t_683|t_684|ref=medic._5
 15	ἢ	ἤ1	c	c--------	_	18	COORD	_	t_684|t_687|ref=medic._5
 16	βραδέως	βραδύς	d	d--------	_	15	ADV	_	t_685|t_684|ref=medic._5
@@ -986,7 +986,7 @@
 10	χρηστέον	χρηστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_744|e_16|ref=medic._5
 11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	12	ATR	_	t_745|t_746|ref=medic._5
 12	χειρουργίᾳ	χειρουργία	n	n-s---fd-	Case=d|Gender=f|Number=s	10	OBJ	_	t_746|t_744|ref=medic._5
-13	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=medic._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=medic._5
 14	·	·	u	u--------	_	13	AuxK	_	t_747|e_16|ref=medic._5
 
 # source = Hippocrates, medic._5
@@ -1019,33 +1019,33 @@
 10	θεραπευομένοις	θεραπεύω	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	5	OBJ	_	t_768|t_763|ref=medic._5
 11	.	.	u	u--------	_	5	AuxK	_	t_769|t_763|ref=medic._5
 
-# source = Hippocrates, medic._5
+# source = Hippocrates, medic._6
 # text = 6 .
 # sent_id = 60
-1	6	6	u	u--------	_	0	AuxG	_	t_770|0|ref=medic._5
-2	.	.	u	u--------	_	1	AuxK	_	t_771|t_770|ref=medic._5
+1	6	6	u	u--------	_	0	AuxG	_	t_770|0|ref=medic._6
+2	.	.	u	u--------	_	1	AuxK	_	t_771|t_770|ref=medic._6
 
-# source = Hippocrates, medic._5
+# source = Hippocrates, medic._6
 # text = Τὸ δʼ αὐτὸ ἐπὶ τῶν ὀργάνων λέγοιτʼ ἄν ·
 # sent_id = 61
-1	Τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	3	ATR	_	t_772|t_774|ref=medic._5
-2	δʼ	δέ	g	g--------	_	0	COORD	_	t_773|0|ref=medic._5
-3	αὐτὸ	αὐτός	a	a-s---nn-	Case=n|Gender=n|Number=s	7	OBJ	_	t_774|t_778|ref=medic._5
-4	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_775|t_778|ref=medic._5
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_776|t_777|ref=medic._5
-6	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_777|t_775|ref=medic._5
-7	λέγοιτʼ	λέγω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_778|t_773|ref=medic._5
-8	ἄν	ἄν	g	g--------	_	7	AuxY	_	t_779|t_778|ref=medic._5
-9	·	·	u	u--------	_	2	AuxK	_	t_780|t_773|ref=medic._5
+1	Τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	3	ATR	_	t_772|t_774|ref=medic._6
+2	δʼ	δέ	g	g--------	_	0	COORD	_	t_773|0|ref=medic._6
+3	αὐτὸ	αὐτός	a	a-s---nn-	Case=n|Gender=n|Number=s	7	OBJ	_	t_774|t_778|ref=medic._6
+4	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_775|t_778|ref=medic._6
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_776|t_777|ref=medic._6
+6	ὀργάνων	ὄργανον	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_777|t_775|ref=medic._6
+7	λέγοιτʼ	λέγω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_778|t_773|ref=medic._6
+8	ἄν	ἄν	g	g--------	_	7	AuxY	_	t_779|t_778|ref=medic._6
+9	·	·	u	u--------	_	2	AuxK	_	t_780|t_773|ref=medic._6
 
-# source = Hippocrates, medic._5-6
+# source = Hippocrates, medic._6
 # text = τοῖς δὲ μαχαιρίοις ὀξέσι τε χρῆσθαι καὶ πλατέσιν οὐκ ἐπὶ πάντων ὁμοίως παραγγέλλομεν ·
 # sent_id = 62
-1	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_781|t_783|ref=medic._5
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_782|t_793|ref=medic._5
-3	μαχαιρίοις	μαχαιρίον	n	n-p---nd-	Case=d|Gender=n|Number=p	6	OBJ	_	t_783|t_786|ref=medic._5
-4	ὀξέσι	ὀξύς	a	a-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_784|t_783|ref=medic._5
-5	τε	τε	c	c--------	_	7	AuxY	_	t_785|t_787|ref=medic._5
+1	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_781|t_783|ref=medic._6
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_782|t_793|ref=medic._6
+3	μαχαιρίοις	μαχαιρίον	n	n-p---nd-	Case=d|Gender=n|Number=p	6	OBJ	_	t_783|t_786|ref=medic._6
+4	ὀξέσι	ὀξύς	a	a-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_784|t_783|ref=medic._6
+5	τε	τε	c	c--------	_	7	AuxY	_	t_785|t_787|ref=medic._6
 6	χρῆσθαι	χράω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	OBJ	_	t_786|t_793|ref=medic._6
 7	καὶ	καί	c	c--------	_	6	COORD	_	t_787|t_786|ref=medic._6
 8	πλατέσιν	πλατύς	a	a-p---nd-	Case=d|Gender=n|Number=p	7	OBJ	_	t_788|t_787|ref=medic._6
@@ -1122,7 +1122,7 @@
 6	ῥύσιν	ῥύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	SBJ	_	t_843|t_844|ref=medic._6
 7	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	9	SBJ	_	t_844|e_17|ref=medic._6
 8	κατακορῆ	κατακορέω	a	a-s---fa-	Case=a|Gender=f|Number=s	7	PNOM	_	t_845|t_844|ref=medic._6
-9	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=medic._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=medic._6
 10	·	·	u	u--------	_	9	AuxK	_	t_846|e_17|ref=medic._6
 
 # source = Hippocrates, medic._6
@@ -1160,7 +1160,7 @@
 16	χρῆσθαι	χράω	v	v--pne---	Mood=n|Tense=p|Voice=e	19	OBJ	_	t_872|e_18|ref=medic._6
 17	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_873|t_874|ref=medic._6
 18	μαχαιρίοισι	μαχαιρίον	n	n-p---md-	Case=d|Gender=m|Number=p	16	OBJ	_	t_874|t_872|ref=medic._6
-19	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=medic._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=medic._6
 20	·	·	u	u--------	_	19	AuxK	_	t_875|e_18|ref=medic._6
 
 # source = Hippocrates, medic._6
@@ -1176,7 +1176,7 @@
 8	ἄλλως	ἄλλως	d	d--------	_	11	ADV	_	t_883|e_19|ref=medic._6
 9	δὲ	δέ	g	g--------	_	7	COORD	_	t_884|t_882|ref=medic._6
 10	οὐδαμῶς	οὐδαμῶς	d	d--------	_	11	ADV	_	t_885|e_19|ref=medic._6
-11	[0]	[0]	-	---------	_	9	PRED	_	e_19|t_884|ref=medic._1
+11	[0]	[0]	-	---------	_	9	PRED	_	e_19|t_884|ref=medic._6
 12	·	·	u	u--------	_	7	AuxK	_	t_886|t_882|ref=medic._6
 
 # source = Hippocrates, medic._6
@@ -1196,39 +1196,39 @@
 12	θέλει	ἐθέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	OBJ	_	t_898|t_892|ref=medic._6
 13	.	.	u	u--------	_	3	AuxK	_	t_899|t_889|ref=medic._6
 
-# source = Hippocrates, medic._6
+# source = Hippocrates, medic._7
 # text = 7 [0] .
 # sent_id = 71
-1	7	7	u	u--------	_	2	AuxG	_	t_900|e_20|ref=medic._6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=medic._1
-3	.	.	u	u--------	_	2	AuxK	_	t_901|e_20|ref=medic._6
+1	7	7	u	u--------	_	2	AuxG	_	t_900|e_20|ref=medic._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=medic._7
+3	.	.	u	u--------	_	2	AuxK	_	t_901|e_20|ref=medic._7
 
-# source = Hippocrates, medic._6
+# source = Hippocrates, medic._7
 # text = Δύο δὲ τρόπους φαμὲν χρησίμους εἶναι σικυῶν ·
 # sent_id = 72
-1	Δύο	δύο	m	m--------	_	3	ATR	_	t_902|t_904|ref=medic._6
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_903|0|ref=medic._6
-3	τρόπους	τρόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	SBJ	_	t_904|t_907|ref=medic._6
-4	φαμὲν	φημί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	2	PRED	_	t_905|t_903|ref=medic._6
-5	χρησίμους	χρήσιμος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	PNOM	_	t_906|t_907|ref=medic._6
-6	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_907|t_905|ref=medic._6
-7	σικυῶν	σικυών	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_908|t_906|ref=medic._6
-8	·	·	u	u--------	_	2	AuxK	_	t_909|t_903|ref=medic._6
+1	Δύο	δύο	m	m--------	_	3	ATR	_	t_902|t_904|ref=medic._7
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_903|0|ref=medic._7
+3	τρόπους	τρόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	SBJ	_	t_904|t_907|ref=medic._7
+4	φαμὲν	φημί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	2	PRED	_	t_905|t_903|ref=medic._7
+5	χρησίμους	χρήσιμος	a	a-p---ma-	Case=a|Gender=m|Number=p	6	PNOM	_	t_906|t_907|ref=medic._7
+6	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_907|t_905|ref=medic._7
+7	σικυῶν	σικυών	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_908|t_906|ref=medic._7
+8	·	·	u	u--------	_	2	AuxK	_	t_909|t_903|ref=medic._7
 
-# source = Hippocrates, medic._6-7
+# source = Hippocrates, medic._7
 # text = ὅτε μὲν γὰρ ῥεῦμα ξυνεστηκὸς πόῤῥω τῆς ἐπιφαινομένης σαρκός [ ἐστι ] , τὸν μὲν κύκλον αὐτῆς εἶναι δεῖ βραχὺν , αὐτὴν δὲ γαστρώδη , μὴ προμήκη τὸ πρὸς τὴν χεῖρα μέρος , μὴ βαρεῖαν [0] ·
 # sent_id = 73
-1	ὅτε	ὅτε	c	c--------	_	19	AuxC	_	t_910|t_928|ref=medic._6
-2	μὲν	μέν	d	d--------	_	19	AuxY	_	t_911|t_928|ref=medic._6
-3	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_912|t_928|ref=medic._6
-4	ῥεῦμα	ῥεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_913|t_920|ref=medic._6
-5	ξυνεστηκὸς	συνίστημι	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	11	PNOM	_	t_914|t_920|ref=medic._6
-6	πόῤῥω	πόρρω	d	d--------	_	11	ADV	_	t_915|t_920|ref=medic._6
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_916|t_918|ref=medic._6
-8	ἐπιφαινομένης	ἐπιφαίνω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_917|t_918|ref=medic._6
-9	σαρκός	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_918|t_915|ref=medic._6
+1	ὅτε	ὅτε	c	c--------	_	19	AuxC	_	t_910|t_928|ref=medic._7
+2	μὲν	μέν	d	d--------	_	19	AuxY	_	t_911|t_928|ref=medic._7
+3	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_912|t_928|ref=medic._7
+4	ῥεῦμα	ῥεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_913|t_920|ref=medic._7
+5	ξυνεστηκὸς	συνίστημι	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	11	PNOM	_	t_914|t_920|ref=medic._7
+6	πόῤῥω	πόρρω	d	d--------	_	11	ADV	_	t_915|t_920|ref=medic._7
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_916|t_918|ref=medic._7
+8	ἐπιφαινομένης	ἐπιφαίνω	v	v-sppefg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_917|t_918|ref=medic._7
+9	σαρκός	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_918|t_915|ref=medic._7
 10	[	[	u	u--------	_	19	AuxX	_	t_919|t_928|ref=medic._7
-11	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_920|t_910|ref=medic._6
+11	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_920|t_910|ref=medic._7
 12	]	]	u	u--------	_	19	AuxX	_	t_921|t_928|ref=medic._7
 13	,	,	u	u--------	_	19	AuxX	_	t_922|t_928|ref=medic._7
 14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_923|t_925|ref=medic._7
@@ -1253,7 +1253,7 @@
 33	,	,	u	u--------	_	36	COORD	_	t_942|e_21|ref=medic._7
 34	μὴ	μή	d	d--------	_	35	AuxZ	_	t_943|t_944|ref=medic._7
 35	βαρεῖαν	βαρύς	a	a-s---fa-	Case=a|Gender=f|Number=s	33	PNOM	_	t_944|t_942|ref=medic._7
-36	[0]	[0]	-	---------	_	23	SBJ	_	e_21|t_932|ref=medic._1
+36	[0]	[0]	-	---------	_	23	SBJ	_	e_21|t_932|ref=medic._7
 37	·	·	u	u--------	_	19	AuxK	_	t_945|t_928|ref=medic._7
 
 # source = Hippocrates, medic._7
@@ -1301,8 +1301,8 @@
 18	δὲ	δέ	c	c--------	_	4	COORD	_	t_981|t_967|ref=medic._7
 19	κύκλον	κύκλος	n	n-s---ma-	Case=a|Gender=m|Number=s	22	ADV	_	t_982|e_23|ref=medic._7
 20	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	22	PNOM	_	t_983|e_23|ref=medic._7
-21	[0]	[0]	-	---------	_	18	PRED	_	e_22|t_981|ref=medic._1
-22	[1]	[1]	-	---------	_	18	PRED	_	e_23|t_981|ref=medic._1
+21	[0]	[0]	-	---------	_	18	PRED	_	e_22|t_981|ref=medic._7
+22	[1]	[1]	-	---------	_	18	PRED	_	e_23|t_981|ref=medic._7
 23	·	·	u	u--------	_	4	AuxK	_	t_984|t_967|ref=medic._7
 
 # source = Hippocrates, medic._7
@@ -1342,7 +1342,7 @@
 14	ἐκ	ἐκ	r	r--------	_	11	AuxP	_	t_1012|t_1009|ref=medic._7
 15	πλείονος	πλείων	a	a-s---mgc	Case=g|Degree=c|Gender=m|Number=s	16	ATR	_	t_1013|t_1014|ref=medic._7
 16	τόπου	τόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ADV	_	t_1014|t_1012|ref=medic._7
-17	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=medic._1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=medic._7
 18	.	.	u	u--------	_	17	AuxK	_	t_1015|e_24|ref=medic._7
 
 # source = Hippocrates, medic._7
@@ -1467,7 +1467,7 @@
 4	,	,	u	u--------	_	7	AuxX	_	t_1112|e_25|ref=medic._7
 5	κάτωθεν	κάτωθεν	d	d--------	_	6	OBJ	_	t_1113|t_1114|ref=medic._7
 6	ἕλκεσθαι	ἕλκω	v	v--pne---	Mood=n|Tense=p|Voice=e	7	OBJ	_	t_1114|e_25|ref=medic._7
-7	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=medic._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=medic._7
 8	·	·	u	u--------	_	7	AuxK	_	t_1115|e_25|ref=medic._7
 
 # source = Hippocrates, medic._7
@@ -1523,7 +1523,7 @@
 7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_1151|t_1152|ref=medic._7
 8	λίην	λίαν	d	d--------	_	9	ADV	_	t_1152|t_1153|ref=medic._7
 9	στενοῖς	στενός	a	a-p---nd-	Case=d|Gender=n|Number=p	1	ATR	_	t_1153|t_1145|ref=medic._7
-10	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=medic._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=medic._7
 11	·	·	u	u--------	_	10	AuxK	_	t_1154|e_26|ref=medic._7
 
 # source = Hippocrates, medic._7
@@ -1549,50 +1549,50 @@
 18	τμηθέωσιν	τέμνω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	16	ADV	_	t_1172|t_1170|ref=medic._7
 19	.	.	u	u--------	_	8	AuxK	_	t_1173|t_1162|ref=medic._7
 
-# source = Hippocrates, medic._7
+# source = Hippocrates, medic._8
 # text = 8 [0] .
 # sent_id = 89
-1	8	8	x	x--------	_	2	AuxK	_	t_1174|e_27|ref=medic._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=medic._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1175|e_27|ref=medic._7
+1	8	8	x	x--------	_	2	AuxK	_	t_1174|e_27|ref=medic._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=medic._8
+3	.	.	u	u--------	_	2	AuxK	_	t_1175|e_27|ref=medic._8
 
-# source = Hippocrates, medic._7
+# source = Hippocrates, medic._8
 # text = Τὰς δὲ ἐπὶ τῶν βραχιόνων φλέβας τῇσι καταλήψεσι χρὴ φυλάσσειν ·
 # sent_id = 90
-1	Τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_1176|t_1181|ref=medic._7
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1177|0|ref=medic._7
-3	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_1178|t_1181|ref=medic._7
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1179|t_1180|ref=medic._7
-5	βραχιόνων	βραχίων	a	a-p---mg-	Case=g|Gender=f|Number=p	3	ATR	_	t_1180|t_1178|ref=medic._7
-6	φλέβας	φλέψ	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_1181|t_1185|ref=medic._7
-7	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_1182|t_1183|ref=medic._7
-8	καταλήψεσι	κατάληψις	n	n-p---fd-	Case=d|Gender=f|Number=p	10	ADV	_	t_1183|t_1185|ref=medic._7
-9	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1184|t_1177|ref=medic._7
-10	φυλάσσειν	φυλάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_1185|t_1184|ref=medic._7
-11	·	·	u	u--------	_	2	AuxK	_	t_1186|t_1177|ref=medic._7
+1	Τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_1176|t_1181|ref=medic._8
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1177|0|ref=medic._8
+3	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_1178|t_1181|ref=medic._8
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1179|t_1180|ref=medic._8
+5	βραχιόνων	βραχίων	a	a-p---mg-	Case=g|Gender=f|Number=p	3	ATR	_	t_1180|t_1178|ref=medic._8
+6	φλέβας	φλέψ	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_1181|t_1185|ref=medic._8
+7	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_1182|t_1183|ref=medic._8
+8	καταλήψεσι	κατάληψις	n	n-p---fd-	Case=d|Gender=f|Number=p	10	ADV	_	t_1183|t_1185|ref=medic._8
+9	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1184|t_1177|ref=medic._8
+10	φυλάσσειν	φυλάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	SBJ	_	t_1185|t_1184|ref=medic._8
+11	·	·	u	u--------	_	2	AuxK	_	t_1186|t_1177|ref=medic._8
 
-# source = Hippocrates, medic._7
+# source = Hippocrates, medic._8
 # text = ἡ γὰρ καλύπτουσα σὰρξ πολλοῖς οὐ καλῶς συνήρμοσται τῇ φλεβί ·
 # sent_id = 91
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_1187|t_1190|ref=medic._7
-2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_1188|t_1194|ref=medic._7
-3	καλύπτουσα	καλύπτω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	4	ATR	_	t_1189|t_1190|ref=medic._7
-4	σὰρξ	σάρξ	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_1190|t_1194|ref=medic._7
-5	πολλοῖς	πολύς	a	a-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_1191|t_1196|ref=medic._7
-6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_1192|t_1193|ref=medic._7
-7	καλῶς	καλός	d	d--------	_	8	ADV	_	t_1193|t_1194|ref=medic._7
-8	συνήρμοσται	συναρμόζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1194|0|ref=medic._7
-9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1195|t_1196|ref=medic._7
-10	φλεβί	φλέψ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	OBJ	_	t_1196|t_1194|ref=medic._7
-11	·	·	u	u--------	_	8	AuxK	_	t_1197|t_1194|ref=medic._7
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_1187|t_1190|ref=medic._8
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_1188|t_1194|ref=medic._8
+3	καλύπτουσα	καλύπτω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	4	ATR	_	t_1189|t_1190|ref=medic._8
+4	σὰρξ	σάρξ	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_1190|t_1194|ref=medic._8
+5	πολλοῖς	πολύς	a	a-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_1191|t_1196|ref=medic._8
+6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_1192|t_1193|ref=medic._8
+7	καλῶς	καλός	d	d--------	_	8	ADV	_	t_1193|t_1194|ref=medic._8
+8	συνήρμοσται	συναρμόζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1194|0|ref=medic._8
+9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1195|t_1196|ref=medic._8
+10	φλεβί	φλέψ	n	n-s---fd-	Case=d|Gender=f|Number=s	8	OBJ	_	t_1196|t_1194|ref=medic._8
+11	·	·	u	u--------	_	8	AuxK	_	t_1197|t_1194|ref=medic._8
 
-# source = Hippocrates, medic._7-8
+# source = Hippocrates, medic._8
 # text = τῆς γὰρ σαρκὸς ὀλισθηρῆς οὔσης , οὐ καθʼ ἑαυτὰς ξυμβαίνει τὰς τομὰς ἀμφοτέρων γίνεσθαι ·
 # sent_id = 92
-1	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_1198|t_1200|ref=medic._7
-2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_1199|t_1207|ref=medic._7
+1	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_1198|t_1200|ref=medic._8
+2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_1199|t_1207|ref=medic._8
 3	σαρκὸς	σάρξ	n	n-s---fg-	Case=g|Gender=f|Number=s	5	SBJ	_	t_1200|t_1202|ref=medic._8
-4	ὀλισθηρῆς	ὀλισθηρός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	PNOM	_	t_1201|t_1202|ref=medic._7
+4	ὀλισθηρῆς	ὀλισθηρός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	PNOM	_	t_1201|t_1202|ref=medic._8
 5	οὔσης	εἰμί	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_1202|t_1207|ref=medic._8
 6	,	,	u	u--------	_	10	AuxX	_	t_1203|t_1207|ref=medic._8
 7	οὐ	οὐ	d	d--------	_	10	AuxZ	_	t_1204|t_1207|ref=medic._8
@@ -1667,47 +1667,47 @@
 7	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_1261|t_1260|ref=medic._8
 8	.	.	u	u--------	_	6	AuxK	_	t_1262|t_1260|ref=medic._8
 
-# source = Hippocrates, medic._8
+# source = Hippocrates, medic._9
 # text = 9 [0] .
 # sent_id = 96
-1	9	9	x	x--------	_	2	AuxK	_	t_1263|e_28|ref=medic._8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=medic._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1264|e_28|ref=medic._8
+1	9	9	x	x--------	_	2	AuxK	_	t_1263|e_28|ref=medic._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=medic._9
+3	.	.	u	u--------	_	2	AuxK	_	t_1264|e_28|ref=medic._9
 
-# source = Hippocrates, medic._8
+# source = Hippocrates, medic._9
 # text = Τὰ μὲν οὖν κατʼ ἰητρεῖον ἀναγκαῖα ὄργανα , καὶ περὶ ἃ δεῖ τεχνικὸν εἶναι τὸν μανθάνοντα , ταῦτʼ ἐστίν ·
 # sent_id = 97
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_1265|t_1271|ref=medic._8
-2	μὲν	μέν	d	d--------	_	19	AuxY	_	t_1266|t_1283|ref=medic._8
-3	οὖν	οὖν	d	d--------	_	19	AuxY	_	t_1267|t_1283|ref=medic._8
-4	κατʼ	κατά	r	r--------	_	7	AuxP	_	t_1268|t_1271|ref=medic._8
-5	ἰητρεῖον	ἰατρεῖον	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1269|t_1268|ref=medic._8
-6	ἀναγκαῖα	ἀναγκαῖος	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1270|t_1271|ref=medic._8
-7	ὄργανα	ὄργανον	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1271|t_1273|ref=medic._8
-8	,	,	u	u--------	_	19	AuxX	_	t_1272|t_1283|ref=medic._8
-9	καὶ	καί	c	c--------	_	19	COORD	_	t_1273|t_1283|ref=medic._8
-10	περὶ	περί	r	r--------	_	14	AuxP	_	t_1274|t_1278|ref=medic._8
-11	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_1275|t_1274|ref=medic._8
-12	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ATR	_	t_1276|t_1273|ref=medic._8
-13	τεχνικὸν	τεχνικός	a	a-s---ma-	Case=a|Gender=m|Number=s	14	PNOM	_	t_1277|t_1278|ref=medic._8
-14	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_1278|t_1276|ref=medic._8
-15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_1279|t_1280|ref=medic._8
-16	μανθάνοντα	μανθάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_1280|t_1278|ref=medic._8
-17	,	,	u	u--------	_	19	AuxX	_	t_1281|t_1283|ref=medic._8
-18	ταῦτʼ	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_1282|t_1283|ref=medic._8
-19	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1283|0|ref=medic._8
-20	·	·	u	u--------	_	19	AuxK	_	t_1284|t_1283|ref=medic._8
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_1265|t_1271|ref=medic._9
+2	μὲν	μέν	d	d--------	_	19	AuxY	_	t_1266|t_1283|ref=medic._9
+3	οὖν	οὖν	d	d--------	_	19	AuxY	_	t_1267|t_1283|ref=medic._9
+4	κατʼ	κατά	r	r--------	_	7	AuxP	_	t_1268|t_1271|ref=medic._9
+5	ἰητρεῖον	ἰατρεῖον	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1269|t_1268|ref=medic._9
+6	ἀναγκαῖα	ἀναγκαῖος	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1270|t_1271|ref=medic._9
+7	ὄργανα	ὄργανον	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1271|t_1273|ref=medic._9
+8	,	,	u	u--------	_	19	AuxX	_	t_1272|t_1283|ref=medic._9
+9	καὶ	καί	c	c--------	_	19	COORD	_	t_1273|t_1283|ref=medic._9
+10	περὶ	περί	r	r--------	_	14	AuxP	_	t_1274|t_1278|ref=medic._9
+11	ἃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_1275|t_1274|ref=medic._9
+12	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ATR	_	t_1276|t_1273|ref=medic._9
+13	τεχνικὸν	τεχνικός	a	a-s---ma-	Case=a|Gender=m|Number=s	14	PNOM	_	t_1277|t_1278|ref=medic._9
+14	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	12	SBJ	_	t_1278|t_1276|ref=medic._9
+15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_1279|t_1280|ref=medic._9
+16	μανθάνοντα	μανθάνω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	SBJ	_	t_1280|t_1278|ref=medic._9
+17	,	,	u	u--------	_	19	AuxX	_	t_1281|t_1283|ref=medic._9
+18	ταῦτʼ	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_1282|t_1283|ref=medic._9
+19	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1283|0|ref=medic._9
+20	·	·	u	u--------	_	19	AuxK	_	t_1284|t_1283|ref=medic._9
 
-# source = Hippocrates, medic._8-9
+# source = Hippocrates, medic._9
 # text = ὀδοντάγρῃσι γὰρ καὶ σταφυλάγρῃσι χρῆσθαι τὸν τυχόντα ἐστίν ·
 # sent_id = 98
-1	ὀδοντάγρῃσι	ὀδοντάγρα	n	n-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_1285|t_1287|ref=medic._8
-2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_1286|t_1292|ref=medic._8
-3	καὶ	καί	c	c--------	_	5	COORD	_	t_1287|t_1289|ref=medic._8
-4	σταφυλάγρῃσι	σταφυλάγρα	n	n-p---fd-	Case=d|Gender=f|Number=p	3	OBJ	_	t_1288|t_1287|ref=medic._8
-5	χρῆσθαι	χράω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	SBJ	_	t_1289|t_1292|ref=medic._8
+1	ὀδοντάγρῃσι	ὀδοντάγρα	n	n-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_1285|t_1287|ref=medic._9
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_1286|t_1292|ref=medic._9
+3	καὶ	καί	c	c--------	_	5	COORD	_	t_1287|t_1289|ref=medic._9
+4	σταφυλάγρῃσι	σταφυλάγρα	n	n-p---fd-	Case=d|Gender=f|Number=p	3	OBJ	_	t_1288|t_1287|ref=medic._9
+5	χρῆσθαι	χράω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	SBJ	_	t_1289|t_1292|ref=medic._9
 6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1290|t_1291|ref=medic._9
-7	τυχόντα	τυγχάνω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	OBJ	_	t_1291|t_1289|ref=medic._8
+7	τυχόντα	τυγχάνω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	OBJ	_	t_1291|t_1289|ref=medic._9
 8	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1292|0|ref=medic._9
 9	·	·	u	u--------	_	8	AuxK	_	t_1293|t_1292|ref=medic._9
 
@@ -1723,48 +1723,48 @@
 7	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1300|0|ref=medic._9
 8	.	.	u	u--------	_	7	AuxK	_	t_1301|t_1300|ref=medic._9
 
-# source = Hippocrates, medic._9
+# source = Hippocrates, medic._10
 # text = 10 [0] .
 # sent_id = 100
-1	10	10	u	u--------	_	2	AuxG	_	t_1302|e_29|ref=medic._9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=medic._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1303|e_29|ref=medic._9
+1	10	10	u	u--------	_	2	AuxG	_	t_1302|e_29|ref=medic._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=medic._10
+3	.	.	u	u--------	_	2	AuxK	_	t_1303|e_29|ref=medic._10
 
-# source = Hippocrates, medic._9
+# source = Hippocrates, medic._10
 # text = Περὶ δὲ φυμάτων καὶ ἑλκέων , ὁκόσα μειζόνων ἐστὶ νοσημάτων , τὰ μὲν φύματα τεχνικώτατον ὑπειληφέναι δεῖ δύνασθαι διαλύειν , καὶ τὰς συστάσεις αὐτῶν κωλύειν ·
 # sent_id = 101
-1	Περὶ	περί	r	r--------	_	17	AuxP	_	t_1304|t_1320|ref=medic._9
-2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_1305|t_1320|ref=medic._9
-3	φυμάτων	φῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_1306|t_1307|ref=medic._9
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_1307|t_1304|ref=medic._9
-5	ἑλκέων	ἕλκος	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ADV	_	t_1308|t_1307|ref=medic._9
-6	,	,	u	u--------	_	17	AuxX	_	t_1309|t_1320|ref=medic._9
-7	ὁκόσα	ὁπόσος	p	p-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1310|t_1312|ref=medic._9
-8	μειζόνων	μέγας	a	a-p---ngc	Case=g|Degree=c|Gender=n|Number=p	10	ATR	_	t_1311|t_1313|ref=medic._9
-9	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	ATR	_	t_1312|t_1317|ref=medic._9
-10	νοσημάτων	νόσημα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_1313|t_1307|ref=medic._9
-11	,	,	u	u--------	_	17	AuxX	_	t_1314|t_1320|ref=medic._9
-12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_1315|t_1317|ref=medic._9
-13	μὲν	μέν	d	d--------	_	17	AuxY	_	t_1316|t_1320|ref=medic._9
-14	φύματα	φύσημα	n	n-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_1317|t_1319|ref=medic._9
-15	τεχνικώτατον	τεχνικός	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	16	ADV	_	t_1318|t_1319|ref=medic._9
-16	ὑπειληφέναι	ὑπολαμβάνω	v	v--rna---	Mood=n|Tense=r|Voice=a	18	OBJ	_	t_1319|t_1321|ref=medic._9
-17	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1320|0|ref=medic._9
-18	δύνασθαι	δύναμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	17	SBJ	_	t_1321|t_1320|ref=medic._9
-19	διαλύειν	διαλύω	v	v--pna---	Mood=n|Tense=p|Voice=a	18	OBJ	_	t_1322|t_1321|ref=medic._9
-20	,	,	u	u--------	_	17	AuxX	_	t_1323|t_1320|ref=medic._9
-21	καὶ	καί	c	c--------	_	18	COORD	_	t_1324|t_1321|ref=medic._9
-22	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	23	ATR	_	t_1325|t_1326|ref=medic._9
-23	συστάσεις	σύστασις	n	n-p---fa-	Case=a|Gender=f|Number=p	25	OBJ	_	t_1326|t_1328|ref=medic._9
-24	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	23	ATR	_	t_1327|t_1326|ref=medic._9
-25	κωλύειν	κωλύω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	SBJ	_	t_1328|t_1324|ref=medic._9
-26	·	·	u	u--------	_	17	AuxK	_	t_1329|t_1320|ref=medic._9
+1	Περὶ	περί	r	r--------	_	17	AuxP	_	t_1304|t_1320|ref=medic._10
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_1305|t_1320|ref=medic._10
+3	φυμάτων	φῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ADV	_	t_1306|t_1307|ref=medic._10
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_1307|t_1304|ref=medic._10
+5	ἑλκέων	ἕλκος	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ADV	_	t_1308|t_1307|ref=medic._10
+6	,	,	u	u--------	_	17	AuxX	_	t_1309|t_1320|ref=medic._10
+7	ὁκόσα	ὁπόσος	p	p-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1310|t_1312|ref=medic._10
+8	μειζόνων	μέγας	a	a-p---ngc	Case=g|Degree=c|Gender=n|Number=p	10	ATR	_	t_1311|t_1313|ref=medic._10
+9	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	ATR	_	t_1312|t_1317|ref=medic._10
+10	νοσημάτων	νόσημα	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_1313|t_1307|ref=medic._10
+11	,	,	u	u--------	_	17	AuxX	_	t_1314|t_1320|ref=medic._10
+12	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_1315|t_1317|ref=medic._10
+13	μὲν	μέν	d	d--------	_	17	AuxY	_	t_1316|t_1320|ref=medic._10
+14	φύματα	φύσημα	n	n-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_1317|t_1319|ref=medic._10
+15	τεχνικώτατον	τεχνικός	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	16	ADV	_	t_1318|t_1319|ref=medic._10
+16	ὑπειληφέναι	ὑπολαμβάνω	v	v--rna---	Mood=n|Tense=r|Voice=a	18	OBJ	_	t_1319|t_1321|ref=medic._10
+17	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1320|0|ref=medic._10
+18	δύνασθαι	δύναμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	17	SBJ	_	t_1321|t_1320|ref=medic._10
+19	διαλύειν	διαλύω	v	v--pna---	Mood=n|Tense=p|Voice=a	18	OBJ	_	t_1322|t_1321|ref=medic._10
+20	,	,	u	u--------	_	17	AuxX	_	t_1323|t_1320|ref=medic._10
+21	καὶ	καί	c	c--------	_	18	COORD	_	t_1324|t_1321|ref=medic._10
+22	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	23	ATR	_	t_1325|t_1326|ref=medic._10
+23	συστάσεις	σύστασις	n	n-p---fa-	Case=a|Gender=f|Number=p	25	OBJ	_	t_1326|t_1328|ref=medic._10
+24	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	23	ATR	_	t_1327|t_1326|ref=medic._10
+25	κωλύειν	κωλύω	v	v--pna---	Mood=n|Tense=p|Voice=a	21	SBJ	_	t_1328|t_1324|ref=medic._10
+26	·	·	u	u--------	_	17	AuxK	_	t_1329|t_1320|ref=medic._10
 
 # source = Hippocrates, medic._10
 # text = ἐχόμενον δὲ τουτέων , στέλλειν εἰς τὸν ἐπιφανῆ τόπον ὡς εἰς βραχύτατον , καὶ τὴν σύστασιν ὁμαλῶς διὰ παντὸς ποιεῖσθαι τοῦ φύματος [0] ·
 # sent_id = 102
 1	ἐχόμενον	ἔχω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	5	ADV	_	t_1330|t_1334|ref=medic._10
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_1331|t_1343|ref=medic._9
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_1331|t_1343|ref=medic._10
 3	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	OBJ	_	t_1332|t_1330|ref=medic._10
 4	,	,	u	u--------	_	0	AuxX	_	t_1333|0|ref=medic._10
 5	στέλλειν	στέλλω	v	v--pna---	Mood=n|Tense=p|Voice=a	14	PRED	_	t_1334|t_1343|ref=medic._10
@@ -1785,7 +1785,7 @@
 20	ποιεῖσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	14	PRED	_	t_1349|t_1343|ref=medic._10
 21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1350|t_1351|ref=medic._10
 22	φύματος	φύσημα	n	n-s---ng-	Case=g|Gender=n|Number=s	18	ADV	_	t_1351|t_1347|ref=medic._10
-23	[0]	[0]	-	---------	_	14	PRED	_	e_30|t_1343|ref=medic._1
+23	[0]	[0]	-	---------	_	14	PRED	_	e_30|t_1343|ref=medic._10
 24	·	·	u	u--------	_	4	AuxK	_	t_1352|t_1333|ref=medic._10
 
 # source = Hippocrates, medic._10
@@ -1841,51 +1841,51 @@
 8	εἴρηται	ἐρῶ	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1392|0|ref=medic._10
 9	.	.	u	u--------	_	8	AuxK	_	t_1393|t_1392|ref=medic._10
 
-# source = Hippocrates, medic._10
+# source = Hippocrates, medic._11
 # text = 11 .
 # sent_id = 106
-1	11	11	x	x--------	_	0	AuxG	_	t_1394|0|ref=medic._10
-2	.	.	u	u--------	_	1	AuxK	_	t_1395|t_1394|ref=medic._10
+1	11	11	x	x--------	_	0	AuxG	_	t_1394|0|ref=medic._11
+2	.	.	u	u--------	_	1	AuxK	_	t_1395|t_1394|ref=medic._11
 
-# source = Hippocrates, medic._10
+# source = Hippocrates, medic._11
 # text = Τὰ δὲ ἕλκεα δοκεῖ πορείας ἔχειν τέσσαρας , μίαν μὲν ἐς βάθος ·
 # sent_id = 107
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1396|t_1398|ref=medic._10
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1397|0|ref=medic._10
-3	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_1398|t_1399|ref=medic._10
-4	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1399|t_1397|ref=medic._10
-5	πορείας	πορεία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1400|t_1402|ref=medic._10
-6	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_1401|t_1399|ref=medic._10
-7	τέσσαρας	τέσσαρες	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_1402|t_1401|ref=medic._10
-8	,	,	u	u--------	_	6	APOS	_	t_1403|t_1401|ref=medic._10
-9	μίαν	εἷς	m	m-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_1404|t_1403|ref=medic._10
-10	μὲν	μέν	d	d--------	_	9	AuxY	_	t_1405|t_1404|ref=medic._10
-11	ἐς	εἰς	r	r--------	_	9	AuxP	_	t_1406|t_1404|ref=medic._10
-12	βάθος	βάθος	n	n-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_1407|t_1406|ref=medic._10
-13	·	·	u	u--------	_	2	AuxK	_	t_1408|t_1397|ref=medic._10
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1396|t_1398|ref=medic._11
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1397|0|ref=medic._11
+3	ἕλκεα	ἕλκος	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_1398|t_1399|ref=medic._11
+4	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1399|t_1397|ref=medic._11
+5	πορείας	πορεία	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1400|t_1402|ref=medic._11
+6	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_1401|t_1399|ref=medic._11
+7	τέσσαρας	τέσσαρες	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_1402|t_1401|ref=medic._11
+8	,	,	u	u--------	_	6	APOS	_	t_1403|t_1401|ref=medic._11
+9	μίαν	εἷς	m	m-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_1404|t_1403|ref=medic._11
+10	μὲν	μέν	d	d--------	_	9	AuxY	_	t_1405|t_1404|ref=medic._11
+11	ἐς	εἰς	r	r--------	_	9	AuxP	_	t_1406|t_1404|ref=medic._11
+12	βάθος	βάθος	n	n-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_1407|t_1406|ref=medic._11
+13	·	·	u	u--------	_	2	AuxK	_	t_1408|t_1397|ref=medic._11
 
-# source = Hippocrates, medic._10
+# source = Hippocrates, medic._11
 # text = ταῦτα δʼ ἔστι τὰ συριγγώδη καὶ ὅσα ὕπουλά ἐστι , καὶ ἔνδοθεν κεκοιλασμένα ·
 # sent_id = 108
-1	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_1409|t_1419|ref=medic._10
-2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_1410|t_1411|ref=medic._10
-3	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1411|0|ref=medic._10
-4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1412|t_1413|ref=medic._10
-5	συριγγώδη	συριγγώδης	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_1413|t_1414|ref=medic._10
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_1414|t_1411|ref=medic._10
-7	ὅσα	ὅσος	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1415|t_1417|ref=medic._10
-8	ὕπουλά	ὕπουλος	a	a-p---nn-	Case=n|Gender=n|Number=p	9	PNOM	_	t_1416|t_1417|ref=medic._10
-9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	SBJ	_	t_1417|t_1414|ref=medic._10
-10	,	,	u	u--------	_	3	AuxX	_	t_1418|t_1411|ref=medic._10
-11	καὶ	καί	c	c--------	_	3	COORD	_	t_1419|t_1411|ref=medic._10
-12	ἔνδοθεν	ἔνδοθεν	d	d--------	_	13	ADV	_	t_1420|t_1421|ref=medic._10
-13	κεκοιλασμένα	κοιλάζω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	PNOM	_	t_1421|t_1419|ref=medic._10
-14	·	·	u	u--------	_	3	AuxK	_	t_1422|t_1411|ref=medic._10
+1	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_1409|t_1419|ref=medic._11
+2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_1410|t_1411|ref=medic._11
+3	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1411|0|ref=medic._11
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1412|t_1413|ref=medic._11
+5	συριγγώδη	συριγγώδης	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_1413|t_1414|ref=medic._11
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_1414|t_1411|ref=medic._11
+7	ὅσα	ὅσος	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1415|t_1417|ref=medic._11
+8	ὕπουλά	ὕπουλος	a	a-p---nn-	Case=n|Gender=n|Number=p	9	PNOM	_	t_1416|t_1417|ref=medic._11
+9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	SBJ	_	t_1417|t_1414|ref=medic._11
+10	,	,	u	u--------	_	3	AuxX	_	t_1418|t_1411|ref=medic._11
+11	καὶ	καί	c	c--------	_	3	COORD	_	t_1419|t_1411|ref=medic._11
+12	ἔνδοθεν	ἔνδοθεν	d	d--------	_	13	ADV	_	t_1420|t_1421|ref=medic._11
+13	κεκοιλασμένα	κοιλάζω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	PNOM	_	t_1421|t_1419|ref=medic._11
+14	·	·	u	u--------	_	3	AuxK	_	t_1422|t_1411|ref=medic._11
 
-# source = Hippocrates, medic._10-11
+# source = Hippocrates, medic._11
 # text = ἡ δʼ ἑτέρη εἰς ὕψος , τὰ ὑπερσαρκεῦντα [0] ·
 # sent_id = 109
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_1423|t_1425|ref=medic._10
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_1423|t_1425|ref=medic._11
 2	δʼ	δέ	d	d--------	_	9	AuxY	_	t_1424|e_31|ref=medic._11
 3	ἑτέρη	ἕτερος	a	a-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_1425|e_31|ref=medic._11
 4	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_1426|e_31|ref=medic._11
@@ -1893,7 +1893,7 @@
 6	,	,	u	u--------	_	9	AuxX	_	t_1428|e_31|ref=medic._11
 7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_1429|t_1430|ref=medic._11
 8	ὑπερσαρκεῦντα	ὑπερσαρκέω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	6	OBJ	_	t_1430|t_1428|ref=medic._11
-9	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=medic._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=medic._11
 10	·	·	u	u--------	_	9	AuxK	_	t_1431|e_31|ref=medic._11
 
 # source = Hippocrates, medic._11
@@ -1962,7 +1962,7 @@
 3	κοιναὶ	κοινός	a	a-p---fn-	Case=n|Gender=f|Number=p	6	PNOM	_	t_1472|e_32|ref=medic._11
 4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1473|t_1474|ref=medic._11
 5	ξυμφύοντος	συμφύω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_1474|t_1472|ref=medic._11
-6	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=medic._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=medic._11
 7	·	·	u	u--------	_	6	AuxK	_	t_1475|e_32|ref=medic._11
 
 # source = Hippocrates, medic._11
@@ -2017,57 +2017,57 @@
 28	εἴρηται	ἐρῶ	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1518|0|ref=medic._11
 29	.	.	u	u--------	_	28	AuxK	_	t_1519|t_1518|ref=medic._11
 
-# source = Hippocrates, medic._11
+# source = Hippocrates, medic._12
 # text = 12 .
 # sent_id = 118
-1	12	12	x	x--------	_	0	AuxG	_	t_1520|0|ref=medic._11
-2	.	.	u	u--------	_	1	AuxK	_	t_1521|t_1520|ref=medic._11
+1	12	12	x	x--------	_	0	AuxG	_	t_1520|0|ref=medic._12
+2	.	.	u	u--------	_	1	AuxK	_	t_1521|t_1520|ref=medic._12
 
-# source = Hippocrates, medic._11
+# source = Hippocrates, medic._12
 # text = Περὶ δὲ καταπλασμάτων ὧδε [0] ·
 # sent_id = 119
-1	Περὶ	περί	r	r--------	_	5	AuxP	_	t_1522|e_33|ref=medic._11
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1523|e_33|ref=medic._11
-3	καταπλασμάτων	κατάπλασμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1524|t_1522|ref=medic._11
-4	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_1525|e_33|ref=medic._11
-5	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=medic._1
-6	·	·	u	u--------	_	5	AuxK	_	t_1526|e_33|ref=medic._11
+1	Περὶ	περί	r	r--------	_	5	AuxP	_	t_1522|e_33|ref=medic._12
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1523|e_33|ref=medic._12
+3	καταπλασμάτων	κατάπλασμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1524|t_1522|ref=medic._12
+4	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_1525|e_33|ref=medic._12
+5	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=medic._12
+6	·	·	u	u--------	_	5	AuxK	_	t_1526|e_33|ref=medic._12
 
-# source = Hippocrates, medic._11-12
+# source = Hippocrates, medic._12
 # text = τῶν ἐπιτιθεμένων ὀθονίων ὅκου ἂν ἡ χρῆσις κατὰ τοῦ νοσεύματος ἀκριβὴς εἶναι δοκέῃ , [ καὶ ] τῷ ἕλκει ἁρμόζου τὸ ἐπιτιθέμενον ὀθόνιον , τῷ δὲ καταπλάσματι πρὸς τὸν κύκλῳ τόπον τοῦ ἕλκεος χρῶ ·
 # sent_id = 120
-1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1527|t_1529|ref=medic._11
-2	ἐπιτιθεμένων	ἐπιτίθημι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	ATR	_	t_1528|t_1529|ref=medic._11
-3	ὀθονίων	ὀθόνιον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1529|t_1533|ref=medic._11
-4	ὅκου	ὅπου	d	d--------	_	13	ADV	_	t_1530|t_1539|ref=medic._11
-5	ἂν	ἄν	d	d--------	_	13	AuxY	_	t_1531|t_1539|ref=medic._11
-6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1532|t_1533|ref=medic._11
-7	χρῆσις	χρῆσις	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1533|t_1539|ref=medic._11
-8	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_1534|t_1539|ref=medic._11
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1535|t_1536|ref=medic._11
-10	νοσεύματος	νόσευμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_1536|t_1534|ref=medic._11
-11	ἀκριβὴς	ἀκριβής	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_1537|t_1538|ref=medic._11
-12	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_1538|t_1539|ref=medic._11
-13	δοκέῃ	δοκέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	26	ADV	_	t_1539|t_1552|ref=medic._11
-14	,	,	u	u--------	_	0	AuxX	_	t_1540|0|ref=medic._11
-15	[	[	u	u--------	_	26	AuxX	_	t_1541|t_1552|ref=medic._11
-16	καὶ	καί	d	d--------	_	26	AuxY	_	t_1542|t_1552|ref=medic._11
-17	]	]	u	u--------	_	26	AuxX	_	t_1543|t_1552|ref=medic._11
-18	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	19	ATR	_	t_1544|t_1545|ref=medic._11
-19	ἕλκει	ἕλκω	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_1545|t_1546|ref=medic._11
-20	ἁρμόζου	ἁρμόζω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	26	PRED	_	t_1546|t_1552|ref=medic._11
-21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_1547|t_1549|ref=medic._11
-22	ἐπιτιθέμενον	ἐπιτίθημι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	23	ATR	_	t_1548|t_1549|ref=medic._11
-23	ὀθόνιον	ὀθόνιον	n	n-s---na-	Case=a|Gender=n|Number=s	20	OBJ	_	t_1549|t_1546|ref=medic._11
-24	,	,	u	u--------	_	14	AuxX	_	t_1550|t_1540|ref=medic._11
-25	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	27	ATR	_	t_1551|t_1553|ref=medic._11
+1	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1527|t_1529|ref=medic._12
+2	ἐπιτιθεμένων	ἐπιτίθημι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	ATR	_	t_1528|t_1529|ref=medic._12
+3	ὀθονίων	ὀθόνιον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1529|t_1533|ref=medic._12
+4	ὅκου	ὅπου	d	d--------	_	13	ADV	_	t_1530|t_1539|ref=medic._12
+5	ἂν	ἄν	d	d--------	_	13	AuxY	_	t_1531|t_1539|ref=medic._12
+6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1532|t_1533|ref=medic._12
+7	χρῆσις	χρῆσις	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1533|t_1539|ref=medic._12
+8	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_1534|t_1539|ref=medic._12
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1535|t_1536|ref=medic._12
+10	νοσεύματος	νόσευμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_1536|t_1534|ref=medic._12
+11	ἀκριβὴς	ἀκριβής	a	a-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_1537|t_1538|ref=medic._12
+12	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_1538|t_1539|ref=medic._12
+13	δοκέῃ	δοκέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	26	ADV	_	t_1539|t_1552|ref=medic._12
+14	,	,	u	u--------	_	0	AuxX	_	t_1540|0|ref=medic._12
+15	[	[	u	u--------	_	26	AuxX	_	t_1541|t_1552|ref=medic._12
+16	καὶ	καί	d	d--------	_	26	AuxY	_	t_1542|t_1552|ref=medic._12
+17	]	]	u	u--------	_	26	AuxX	_	t_1543|t_1552|ref=medic._12
+18	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	19	ATR	_	t_1544|t_1545|ref=medic._12
+19	ἕλκει	ἕλκω	n	n-s---nd-	Case=d|Gender=n|Number=s	20	ADV	_	t_1545|t_1546|ref=medic._12
+20	ἁρμόζου	ἁρμόζω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	26	PRED	_	t_1546|t_1552|ref=medic._12
+21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	23	ATR	_	t_1547|t_1549|ref=medic._12
+22	ἐπιτιθέμενον	ἐπιτίθημι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	23	ATR	_	t_1548|t_1549|ref=medic._12
+23	ὀθόνιον	ὀθόνιον	n	n-s---na-	Case=a|Gender=n|Number=s	20	OBJ	_	t_1549|t_1546|ref=medic._12
+24	,	,	u	u--------	_	14	AuxX	_	t_1550|t_1540|ref=medic._12
+25	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	27	ATR	_	t_1551|t_1553|ref=medic._12
 26	δὲ	δέ	d	d--------	_	14	COORD	_	t_1552|t_1540|ref=medic._12
 27	καταπλάσματι	κατάπλασμα	n	n-s---nd-	Case=d|Gender=n|Number=s	34	OBJ	_	t_1553|t_1560|ref=medic._12
 28	πρὸς	πρός	r	r--------	_	34	AuxP	_	t_1554|t_1560|ref=medic._12
 29	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_1555|t_1557|ref=medic._12
 30	κύκλῳ	κύκλος	n	n-s---md-	Case=d|Gender=m|Number=s	31	ATR	_	t_1556|t_1557|ref=medic._12
 31	τόπον	τόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	28	ADV	_	t_1557|t_1554|ref=medic._12
-32	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_1558|t_1559|ref=medic._11
+32	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	33	ATR	_	t_1558|t_1559|ref=medic._12
 33	ἕλκεος	ἕλκος	n	n-s---ng-	Case=g|Gender=n|Number=s	31	ATR	_	t_1559|t_1557|ref=medic._12
 34	χρῶ	χράομαι	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	26	PRED	_	t_1560|t_1552|ref=medic._12
 35	·	·	u	u--------	_	26	AuxK	_	t_1561|t_1552|ref=medic._12
@@ -2135,46 +2135,46 @@
 8	τοιαύτην	τοιοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	PNOM	_	t_1607|t_1605|ref=medic._12
 9	.	.	u	u--------	_	7	AuxK	_	t_1608|t_1606|ref=medic._12
 
-# source = Hippocrates, medic._12
+# source = Hippocrates, medic._13
 # text = 13 .
 # sent_id = 125
-1	13	13	x	x--------	_	0	AuxG	_	t_1609|0|ref=medic._12
-2	.	.	u	u--------	_	1	AuxK	_	t_1610|t_1609|ref=medic._12
+1	13	13	x	x--------	_	0	AuxG	_	t_1609|0|ref=medic._13
+2	.	.	u	u--------	_	1	AuxK	_	t_1610|t_1609|ref=medic._13
 
-# source = Hippocrates, medic._12-13
+# source = Hippocrates, medic._13
 # text = Περὶ δὲ καιρῶν , ὁκότε τούτοις ἑκάστοις χρηστέον ἐστὶ , καὶ τὰς δυνάμιας ὡς χρὴ τῶν γεγραμμένων καταμανθάνειν , παραλέλειπται δὲ τὰ τοιαῦτα , ἐπεὶ πλεῖον προῆκται τῆς κατʼ ἰητρικὴν ἐπιμελείας καὶ πόῤῥω τοῦ τῆς τέχνης ἤδη προεληλυθότος ἐστίν .
 # sent_id = 126
-1	Περὶ	περί	r	r--------	_	20	AuxP	_	t_1611|t_1630|ref=medic._12
-2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_1612|t_1630|ref=medic._12
-3	καιρῶν	καιρός	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_1613|t_1611|ref=medic._12
-4	,	,	u	u--------	_	20	AuxX	_	t_1614|t_1630|ref=medic._12
-5	ὁκότε	ὁκότε	c	c--------	_	8	AuxC	_	t_1615|t_1618|ref=medic._12
-6	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	8	OBJ	_	t_1616|t_1618|ref=medic._12
-7	ἑκάστοις	ἕκαστος	a	a-p---nd-	Case=d|Gender=n|Number=p	6	ATR	_	t_1617|t_1616|ref=medic._12
-8	χρηστέον	χρηστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ADV	_	t_1618|t_1619|ref=medic._12
-9	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ATR	_	t_1619|t_1613|ref=medic._12
-10	,	,	u	u--------	_	20	AuxX	_	t_1620|t_1630|ref=medic._12
-11	καὶ	καί	c	c--------	_	5	AuxZ	_	t_1621|t_1615|ref=medic._12
-12	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_1622|t_1623|ref=medic._12
-13	δυνάμιας	δύναμις	n	n-p---fa-	Case=a|Gender=f|Number=p	18	SBJ	_	t_1623|t_1628|ref=medic._12
-14	ὡς	ὡς	c	c--------	_	18	AuxC	_	t_1624|t_1628|ref=medic._12
-15	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	ADV	_	t_1625|t_1621|ref=medic._12
-16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_1626|t_1627|ref=medic._12
-17	γεγραμμένων	γράφω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	13	ATR	_	t_1627|t_1623|ref=medic._12
-18	καταμανθάνειν	καταμανθάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	SBJ	_	t_1628|t_1625|ref=medic._12
-19	,	,	u	u--------	_	20	AuxX	_	t_1629|t_1630|ref=medic._12
-20	παραλέλειπται	παραλείπω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1630|0|ref=medic._12
-21	δὲ	δέ	d	d--------	_	20	AuxY	_	t_1631|t_1630|ref=medic._12
-22	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	23	ATR	_	t_1632|t_1633|ref=medic._12
-23	τοιαῦτα	τοιοῦτος	p	p-p---nn-	Case=n|Gender=n|Number=p	20	SBJ	_	t_1633|t_1630|ref=medic._12
-24	,	,	u	u--------	_	20	AuxX	_	t_1634|t_1630|ref=medic._12
-25	ἐπεὶ	ἐπεί	c	c--------	_	20	AuxC	_	t_1635|t_1630|ref=medic._12
-26	πλεῖον	πλείων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	27	ADV	_	t_1636|t_1637|ref=medic._12
-27	προῆκται	προάγω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	25	ADV	_	t_1637|t_1635|ref=medic._12
-28	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_1638|t_1641|ref=medic._12
-29	κατʼ	κατά	r	r--------	_	31	AuxP	_	t_1639|t_1641|ref=medic._12
-30	ἰητρικὴν	ἰατρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_1640|t_1639|ref=medic._12
-31	ἐπιμελείας	ἐπιμέλεια	n	n-s---fg-	Case=g|Gender=f|Number=s	27	OBJ	_	t_1641|t_1637|ref=medic._12
+1	Περὶ	περί	r	r--------	_	20	AuxP	_	t_1611|t_1630|ref=medic._13
+2	δὲ	δέ	d	d--------	_	20	AuxY	_	t_1612|t_1630|ref=medic._13
+3	καιρῶν	καιρός	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_1613|t_1611|ref=medic._13
+4	,	,	u	u--------	_	20	AuxX	_	t_1614|t_1630|ref=medic._13
+5	ὁκότε	ὁκότε	c	c--------	_	8	AuxC	_	t_1615|t_1618|ref=medic._13
+6	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	8	OBJ	_	t_1616|t_1618|ref=medic._13
+7	ἑκάστοις	ἕκαστος	a	a-p---nd-	Case=d|Gender=n|Number=p	6	ATR	_	t_1617|t_1616|ref=medic._13
+8	χρηστέον	χρηστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ADV	_	t_1618|t_1619|ref=medic._13
+9	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ATR	_	t_1619|t_1613|ref=medic._13
+10	,	,	u	u--------	_	20	AuxX	_	t_1620|t_1630|ref=medic._13
+11	καὶ	καί	c	c--------	_	5	AuxZ	_	t_1621|t_1615|ref=medic._13
+12	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	13	ATR	_	t_1622|t_1623|ref=medic._13
+13	δυνάμιας	δύναμις	n	n-p---fa-	Case=a|Gender=f|Number=p	18	SBJ	_	t_1623|t_1628|ref=medic._13
+14	ὡς	ὡς	c	c--------	_	18	AuxC	_	t_1624|t_1628|ref=medic._13
+15	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	ADV	_	t_1625|t_1621|ref=medic._13
+16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_1626|t_1627|ref=medic._13
+17	γεγραμμένων	γράφω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	13	ATR	_	t_1627|t_1623|ref=medic._13
+18	καταμανθάνειν	καταμανθάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	15	SBJ	_	t_1628|t_1625|ref=medic._13
+19	,	,	u	u--------	_	20	AuxX	_	t_1629|t_1630|ref=medic._13
+20	παραλέλειπται	παραλείπω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1630|0|ref=medic._13
+21	δὲ	δέ	d	d--------	_	20	AuxY	_	t_1631|t_1630|ref=medic._13
+22	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	23	ATR	_	t_1632|t_1633|ref=medic._13
+23	τοιαῦτα	τοιοῦτος	p	p-p---nn-	Case=n|Gender=n|Number=p	20	SBJ	_	t_1633|t_1630|ref=medic._13
+24	,	,	u	u--------	_	20	AuxX	_	t_1634|t_1630|ref=medic._13
+25	ἐπεὶ	ἐπεί	c	c--------	_	20	AuxC	_	t_1635|t_1630|ref=medic._13
+26	πλεῖον	πλείων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	27	ADV	_	t_1636|t_1637|ref=medic._13
+27	προῆκται	προάγω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	25	ADV	_	t_1637|t_1635|ref=medic._13
+28	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_1638|t_1641|ref=medic._13
+29	κατʼ	κατά	r	r--------	_	31	AuxP	_	t_1639|t_1641|ref=medic._13
+30	ἰητρικὴν	ἰατρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	29	ATR	_	t_1640|t_1639|ref=medic._13
+31	ἐπιμελείας	ἐπιμέλεια	n	n-s---fg-	Case=g|Gender=f|Number=s	27	OBJ	_	t_1641|t_1637|ref=medic._13
 32	καὶ	καί	c	c--------	_	26	COORD	_	t_1642|t_1636|ref=medic._13
 33	πόῤῥω	πόρρω	d	d--------	_	39	ADV	_	t_1643|t_1649|ref=medic._13
 34	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	36	ATR	_	t_1644|t_1646|ref=medic._13
@@ -2185,54 +2185,54 @@
 39	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	32	ADV	_	t_1649|t_1642|ref=medic._13
 40	.	.	u	u--------	_	20	AuxK	_	t_1650|t_1630|ref=medic._13
 
-# source = Hippocrates, medic._13
+# source = Hippocrates, medic._14
 # text = 14 .
 # sent_id = 127
-1	14	14	x	x--------	_	0	AuxG	_	t_1651|0|ref=medic._13
-2	.	.	u	u--------	_	1	AuxK	_	t_1652|t_1651|ref=medic._13
+1	14	14	x	x--------	_	0	AuxG	_	t_1651|0|ref=medic._14
+2	.	.	u	u--------	_	1	AuxK	_	t_1652|t_1651|ref=medic._14
 
-# source = Hippocrates, medic._13
+# source = Hippocrates, medic._14
 # text = Ἐχόμενον δὲ τούτων ἐστὶ καὶ κατὰ στρατιὴν γινομένων τρωμάτων χειρουργίη περὶ τὴν ἐξαίρεσιν τῶν βελέων .
 # sent_id = 128
-1	Ἐχόμενον	ἔχω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	PNOM	_	t_1653|t_1656|ref=medic._13
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1654|t_1656|ref=medic._13
-3	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_1655|t_1653|ref=medic._13
-4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1656|0|ref=medic._13
-5	καὶ	καί	d	d--------	_	9	AuxZ	_	t_1657|t_1661|ref=medic._13
-6	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_1658|t_1660|ref=medic._13
-7	στρατιὴν	στρατία	n	n-s---fa-	Case=a|Gender=f|Number=s	6	PNOM	_	t_1659|t_1658|ref=medic._13
-8	γινομένων	γίγνομαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_1660|t_1661|ref=medic._13
-9	τρωμάτων	τραῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_1661|t_1653|ref=medic._13
-10	χειρουργίη	χειρουργία	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1662|t_1656|ref=medic._13
-11	περὶ	περί	r	r--------	_	10	AuxP	_	t_1663|t_1662|ref=medic._13
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1664|t_1665|ref=medic._13
-13	ἐξαίρεσιν	ἐξαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_1665|t_1663|ref=medic._13
-14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_1666|t_1667|ref=medic._13
-15	βελέων	βέλος	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1667|t_1665|ref=medic._13
-16	.	.	u	u--------	_	4	AuxK	_	t_1668|t_1656|ref=medic._13
+1	Ἐχόμενον	ἔχω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	4	PNOM	_	t_1653|t_1656|ref=medic._14
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1654|t_1656|ref=medic._14
+3	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_1655|t_1653|ref=medic._14
+4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1656|0|ref=medic._14
+5	καὶ	καί	d	d--------	_	9	AuxZ	_	t_1657|t_1661|ref=medic._14
+6	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_1658|t_1660|ref=medic._14
+7	στρατιὴν	στρατία	n	n-s---fa-	Case=a|Gender=f|Number=s	6	PNOM	_	t_1659|t_1658|ref=medic._14
+8	γινομένων	γίγνομαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	ATR	_	t_1660|t_1661|ref=medic._14
+9	τρωμάτων	τραῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ATR	_	t_1661|t_1653|ref=medic._14
+10	χειρουργίη	χειρουργία	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1662|t_1656|ref=medic._14
+11	περὶ	περί	r	r--------	_	10	AuxP	_	t_1663|t_1662|ref=medic._14
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1664|t_1665|ref=medic._14
+13	ἐξαίρεσιν	ἐξαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_1665|t_1663|ref=medic._14
+14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_1666|t_1667|ref=medic._14
+15	βελέων	βέλος	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1667|t_1665|ref=medic._14
+16	.	.	u	u--------	_	4	AuxK	_	t_1668|t_1656|ref=medic._14
 
-# source = Hippocrates, medic._13
+# source = Hippocrates, medic._14
 # text = Ἐν τῇσι κατὰ πτόλιν διατριβῇσι βραχεῖά τίς ἐστι τουτέων ἡ χρῆσις ·
 # sent_id = 129
-1	Ἐν	ἐν	r	r--------	_	8	AuxP	_	t_1669|t_1676|ref=medic._13
-2	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_1670|t_1673|ref=medic._13
-3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_1671|t_1673|ref=medic._13
-4	πτόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_1672|t_1671|ref=medic._13
-5	διατριβῇσι	διατριβή	n	n-p---fd-	Case=d|Gender=f|Number=p	1	ADV	_	t_1673|t_1669|ref=medic._13
-6	βραχεῖά	βραχύς	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_1674|t_1676|ref=medic._13
-7	τίς	τις	p	p-s---cn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_1675|t_1676|ref=medic._13
-8	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1676|0|ref=medic._13
-9	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=f|Number=p	11	ATR	_	t_1677|t_1679|ref=medic._13
-10	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_1678|t_1679|ref=medic._13
-11	χρῆσις	χρῆσις	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_1679|t_1676|ref=medic._13
-12	·	·	u	u--------	_	8	AuxK	_	t_1680|t_1676|ref=medic._13
+1	Ἐν	ἐν	r	r--------	_	8	AuxP	_	t_1669|t_1676|ref=medic._14
+2	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_1670|t_1673|ref=medic._14
+3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_1671|t_1673|ref=medic._14
+4	πτόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_1672|t_1671|ref=medic._14
+5	διατριβῇσι	διατριβή	n	n-p---fd-	Case=d|Gender=f|Number=p	1	ADV	_	t_1673|t_1669|ref=medic._14
+6	βραχεῖά	βραχύς	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_1674|t_1676|ref=medic._14
+7	τίς	τις	p	p-s---cn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_1675|t_1676|ref=medic._14
+8	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1676|0|ref=medic._14
+9	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=f|Number=p	11	ATR	_	t_1677|t_1679|ref=medic._14
+10	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_1678|t_1679|ref=medic._14
+11	χρῆσις	χρῆσις	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_1679|t_1676|ref=medic._14
+12	·	·	u	u--------	_	8	AuxK	_	t_1680|t_1676|ref=medic._14
 
-# source = Hippocrates, medic._13-14
+# source = Hippocrates, medic._14
 # text = ὀλιγάκις γὰρ ἐν παντὶ τῷ χρόνῳ γίνονται πολιτικαὶ στρατιαὶ καὶ πολεμικαί ·
 # sent_id = 130
-1	ὀλιγάκις	ὀλιγάκις	d	d--------	_	7	ADV	_	t_1681|t_1687|ref=medic._13
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_1682|t_1687|ref=medic._13
-3	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1683|t_1687|ref=medic._13
+1	ὀλιγάκις	ὀλιγάκις	d	d--------	_	7	ADV	_	t_1681|t_1687|ref=medic._14
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_1682|t_1687|ref=medic._14
+3	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1683|t_1687|ref=medic._14
 4	παντὶ	πᾶς	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1684|t_1686|ref=medic._14
 5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1685|t_1686|ref=medic._14
 6	χρόνῳ	χρόνος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1686|t_1683|ref=medic._14

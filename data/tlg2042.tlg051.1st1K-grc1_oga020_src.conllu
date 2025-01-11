@@ -102,12 +102,12 @@
 22	[0]	[0]	-	---------	_	13	PRED	_	e_1|t_74|ref=Lev.sel._1
 23	.	.	u	u--------	_	13	AuxK	_	t_83|t_74|ref=Lev.sel._1
 
-# source = Origen, Lev.sel._1-2
+# source = Origen, Lev.sel._2
 # text = Τοῦ αὐτῦ [0] .
 # sent_id = 6
-1	Τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_84|t_85|ref=Lev.sel._1
+1	Τοῦ	ὁ	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_84|t_85|ref=Lev.sel._2
 2	αὐτῦ	αὐτός	d	d--------	_	3	ADV	_	t_85|e_2|ref=Lev.sel._2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Lev.sel._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Lev.sel._2
 4	.	.	u	u--------	_	3	AuxK	_	t_86|e_2|ref=Lev.sel._2
 
 # source = Origen, Lev.sel._2
@@ -133,7 +133,7 @@
 18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_104|t_105|ref=Lev.sel._2
 19	Δημιουργοῦ	δημιουργός	n	n-s---mg-	Case=g|Gender=m|Number=s	20	SBJ	_	t_105|t_106|ref=Lev.sel._2
 20	ἐχούσης	ἔχω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	15	ADV	_	t_106|t_101|ref=Lev.sel._2
-21	[0]	[0]	-	---------	_	10	ADV	_	e_3|t_96|ref=Lev.sel._1
+21	[0]	[0]	-	---------	_	10	ADV	_	e_3|t_96|ref=Lev.sel._2
 22	.	.	u	u--------	_	9	AuxK	_	t_107|t_95|ref=Lev.sel._2
 
 # source = Origen, Lev.sel._2
@@ -166,7 +166,7 @@
 11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	SBJ	_	t_128|t_130|ref=Lev.sel._2
 12	μὲν	μέν	d	d--------	_	13	AuxZ	_	t_129|t_130|ref=Lev.sel._2
 13	λέγοντος	λέγω3	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	PNOM	_	t_130|e_4|ref=Lev.sel._2
-14	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Lev.sel._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Lev.sel._2
 15	·	·	u	u--------	_	14	AuxK	_	t_131|e_4|ref=Lev.sel._2
 
 # source = Origen, Lev.sel._2
@@ -194,7 +194,7 @@
 1	τοῦ	ὁ	p	p-s---mg-	Case=g|Gender=m|Number=s	3	SBJ	_	t_147|t_149|ref=Lev.sel._2
 2	δὲ	δέ	g	g--------	_	0	COORD	_	t_148|0|ref=Lev.sel._2
 3	βοῶντος	βοάω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_149|e_5|ref=Lev.sel._2
-4	[0]	[0]	-	---------	_	2	PRED	_	e_5|t_148|ref=Lev.sel._1
+4	[0]	[0]	-	---------	_	2	PRED	_	e_5|t_148|ref=Lev.sel._2
 5	·	·	u	u--------	_	2	AuxK	_	t_150|t_148|ref=Lev.sel._2
 
 # source = Origen, Lev.sel._2
@@ -219,14 +219,14 @@
 17	μαθήματα	μάθημα	n	n-p---nn-	Case=n|Gender=n|Number=p	13	SBJ	_	t_167|t_163|ref=Lev.sel._2
 18	.	.	u	u--------	_	8	AuxK	_	t_168|t_158|ref=Lev.sel._2
 
-# source = Origen, Lev.sel._2-3
+# source = Origen, Lev.sel._3
 # text = Ἄνθρωπος ἐξ ὐμῶν , ἐὰν προσαγάγῃ δῶρα τῷ Κυρίῳ .
 # sent_id = 13
-1	Ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_169|t_170|ref=Lev.sel._2
-2	ἐξ	ἐκ	r	r--------	_	0	AuxP	_	t_170|0|ref=Lev.sel._2
-3	ὐμῶν	ἐγώ	a	a-p---mg-	Case=g|Gender=m|Number=p	2	ADV	_	t_171|t_170|ref=Lev.sel._2
-4	,	,	u	u--------	_	2	AuxX	_	t_172|t_170|ref=Lev.sel._2
-5	ἐὰν	ἐάν	c	c--------	_	2	AuxC	_	t_173|t_170|ref=Lev.sel._2
+1	Ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_169|t_170|ref=Lev.sel._3
+2	ἐξ	ἐκ	r	r--------	_	0	AuxP	_	t_170|0|ref=Lev.sel._3
+3	ὐμῶν	ἐγώ	a	a-p---mg-	Case=g|Gender=m|Number=p	2	ADV	_	t_171|t_170|ref=Lev.sel._3
+4	,	,	u	u--------	_	2	AuxX	_	t_172|t_170|ref=Lev.sel._3
+5	ἐὰν	ἐάν	c	c--------	_	2	AuxC	_	t_173|t_170|ref=Lev.sel._3
 6	προσαγάγῃ	προσάγω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_174|t_173|ref=Lev.sel._3
 7	δῶρα	δῶρον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_175|t_174|ref=Lev.sel._3
 8	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_176|t_177|ref=Lev.sel._3
@@ -261,7 +261,7 @@
 23	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	24	ATR	_	t_201|t_202|ref=Lev.sel._3
 24	Γενέσει	γένεσις	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_202|t_200|ref=Lev.sel._3
 25	λεγόμενον	λέγω3	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_203|t_198|ref=Lev.sel._3
-26	[0]	[0]	-	---------	_	15	OBJ	_	e_6|t_193|ref=Lev.sel._1
+26	[0]	[0]	-	---------	_	15	OBJ	_	e_6|t_193|ref=Lev.sel._3
 27	·	·	u	u--------	_	1	AuxK	_	t_204|t_179|ref=Lev.sel._3
 
 # source = Origen, Lev.sel._3
@@ -324,7 +324,7 @@
 10	προσαγάγῃ	προσάγω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	9	ADV	_	t_251|t_250|ref=Lev.sel._3
 11	δῶρα	δῶρον	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_252|t_251|ref=Lev.sel._3
 12	·	·	u	u--------	_	13	AuxK	_	t_253|e_7|ref=Lev.sel._3
-13	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Lev.sel._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Lev.sel._3
 14	»	»	u	u--------	_	13	AuxG	_	t_254|e_7|ref=Lev.sel._3
 
 # source = Origen, Lev.sel._3
@@ -339,7 +339,7 @@
 7	ἐὰν	ἐάν	c	c--------	_	10	AuxC	_	t_261|e_8|ref=Lev.sel._3
 8	ψυχή	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	APOS	_	t_262|t_261|ref=Lev.sel._3
 9	.	.	u	u--------	_	10	AuxK	_	t_263|e_8|ref=Lev.sel._3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Lev.sel._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Lev.sel._3
 11	»	»	u	u--------	_	10	AuxG	_	t_264|e_8|ref=Lev.sel._3
 
 # source = Origen, Lev.sel._3
@@ -349,7 +349,7 @@
 2	ἅψυχον	ἅψυχος	a	a-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_266|e_9|ref=Lev.sel._3
 3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_267|t_268|ref=Lev.sel._3
 4	ψυχή	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_268|e_9|ref=Lev.sel._3
-5	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Lev.sel._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Lev.sel._3
 6	·	·	u	u--------	_	5	AuxK	_	t_269|e_9|ref=Lev.sel._3
 
 # source = Origen, Lev.sel._3
@@ -377,22 +377,22 @@
 20	μόνον	μόνος	d	d--------	_	17	ADV	_	t_289|t_286|ref=Lev.sel._3
 21	.	.	u	u--------	_	9	AuxK	_	t_290|t_278|ref=Lev.sel._3
 
-# source = Origen, Lev.sel._3
+# source = Origen, Lev.sel._4
 # text = Προχεοῦσι τὸ αἷμα ἐπὶ τὸ θυσιαστήριον .
 # sent_id = 21
-1	Προχεοῦσι	προχέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_291|0|ref=Lev.sel._3
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_292|t_293|ref=Lev.sel._3
-3	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_293|t_291|ref=Lev.sel._3
-4	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_294|t_291|ref=Lev.sel._3
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_295|t_296|ref=Lev.sel._3
-6	θυσιαστήριον	θυσιαστήριον	n	n-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_296|t_294|ref=Lev.sel._3
-7	.	.	u	u--------	_	1	AuxK	_	t_297|t_291|ref=Lev.sel._3
+1	Προχεοῦσι	προχέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_291|0|ref=Lev.sel._4
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_292|t_293|ref=Lev.sel._4
+3	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_293|t_291|ref=Lev.sel._4
+4	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_294|t_291|ref=Lev.sel._4
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_295|t_296|ref=Lev.sel._4
+6	θυσιαστήριον	θυσιαστήριον	n	n-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_296|t_294|ref=Lev.sel._4
+7	.	.	u	u--------	_	1	AuxK	_	t_297|t_291|ref=Lev.sel._4
 
-# source = Origen, Lev.sel._3-4
+# source = Origen, Lev.sel._4
 # text = Θυσιαστήριον καρπώσεως ὁ βωμὸς λέγεται , ἐφʼ οὗ θυσίαι ὁλοκαυτώσεως [0] ·
 # sent_id = 22
-1	Θυσιαστήριον	θυσιαστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_298|t_302|ref=Lev.sel._3
-2	καρπώσεως	καρπόω	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_299|t_298|ref=Lev.sel._3
+1	Θυσιαστήριον	θυσιαστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_298|t_302|ref=Lev.sel._4
+2	καρπώσεως	καρπόω	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_299|t_298|ref=Lev.sel._4
 3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_300|t_301|ref=Lev.sel._4
 4	βωμὸς	βωμός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_301|t_302|ref=Lev.sel._4
 5	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_302|0|ref=Lev.sel._4
@@ -401,7 +401,7 @@
 8	οὗ	ὅς	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_305|t_304|ref=Lev.sel._4
 9	θυσίαι	θυσία	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_306|e_10|ref=Lev.sel._4
 10	ὁλοκαυτώσεως	ἀνάθημα	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_307|t_306|ref=Lev.sel._4
-11	[0]	[0]	-	---------	_	4	ATR	_	e_10|t_301|ref=Lev.sel._1
+11	[0]	[0]	-	---------	_	4	ATR	_	e_10|t_301|ref=Lev.sel._4
 12	·	·	u	u--------	_	5	AuxK	_	t_308|t_302|ref=Lev.sel._4
 
 # source = Origen, Lev.sel._4
@@ -414,33 +414,33 @@
 5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_313|t_314|ref=Lev.sel._4
 6	ἔσω	ἔσω	d	d--------	_	9	SBJ	_	t_314|e_12|ref=Lev.sel._4
 7	θυσιαστἡριον	θυσιαστἥριον	n	n-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_315|e_12|ref=Lev.sel._4
-8	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Lev.sel._1
-9	[1]	[1]	-	---------	_	8	PRED	_	e_12|e_11|ref=Lev.sel._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Lev.sel._4
+9	[1]	[1]	-	---------	_	8	PRED	_	e_12|e_11|ref=Lev.sel._4
 10	.	.	u	u--------	_	8	AuxK	_	t_316|e_11|ref=Lev.sel._4
 
-# source = Origen, Lev.sel._4
+# source = Origen, Lev.sel._5
 # text = Τοῦ αὐτὸῦ [0] .
 # sent_id = 24
-1	Τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_317|t_318|ref=Lev.sel._4
-2	αὐτὸῦ	αὐτός	a	a-s---ng-	_	3	ADV	_	t_318|e_13|ref=Lev.sel._4
-3	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Lev.sel._1
-4	.	.	u	u--------	_	3	AuxK	_	t_319|e_13|ref=Lev.sel._4
+1	Τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_317|t_318|ref=Lev.sel._5
+2	αὐτὸῦ	αὐτός	a	a-s---ng-	_	3	ADV	_	t_318|e_13|ref=Lev.sel._5
+3	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Lev.sel._5
+4	.	.	u	u--------	_	3	AuxK	_	t_319|e_13|ref=Lev.sel._5
 
-# source = Origen, Lev.sel._4-5
+# source = Origen, Lev.sel._5
 # text = Ἐπειδὴ ἔχαιρον ταῖς θυσίαις οἱ Ἰουδαῖοι ἐν Αἰγύπτῳ ταύταις προσεθίσαντες , ὡς καὶ ἡ ἐν τῇ ἐρήμῳ μοσχοποιία μαρτυρεῖ , ἐπέτρεψεν ὁ Θεὸς ταύτας αὐτῷ προσαγαγεῖν , ταύτῃ χαλινώσας τῆς πολυθείας τὰς ἀτάκτους ὁρμὰς καὶ τοῦ μὴ θύειν δαί .
 # sent_id = 25
-1	Ἐπειδὴ	ἐπεί	c	c--------	_	21	AuxC	_	t_320|t_340|ref=Lev.sel._4
-2	ἔχαιρον	χαίρω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ADV	_	t_321|t_320|ref=Lev.sel._4
-3	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_322|t_323|ref=Lev.sel._4
-4	θυσίαις	θυσία	n	n-p---fd-	Case=d|Gender=f|Number=p	2	OBJ	_	t_323|t_321|ref=Lev.sel._4
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_324|t_325|ref=Lev.sel._4
-6	Ἰουδαῖοι	ἰουδαῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_325|t_321|ref=Lev.sel._4
-7	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_326|t_321|ref=Lev.sel._4
-8	Αἰγύπτῳ	αἴγυπτος	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_327|t_326|ref=Lev.sel._4
-9	ταύταις	οὗτος	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_328|t_327|ref=Lev.sel._4
+1	Ἐπειδὴ	ἐπεί	c	c--------	_	21	AuxC	_	t_320|t_340|ref=Lev.sel._5
+2	ἔχαιρον	χαίρω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ADV	_	t_321|t_320|ref=Lev.sel._5
+3	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_322|t_323|ref=Lev.sel._5
+4	θυσίαις	θυσία	n	n-p---fd-	Case=d|Gender=f|Number=p	2	OBJ	_	t_323|t_321|ref=Lev.sel._5
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_324|t_325|ref=Lev.sel._5
+6	Ἰουδαῖοι	ἰουδαῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_325|t_321|ref=Lev.sel._5
+7	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_326|t_321|ref=Lev.sel._5
+8	Αἰγύπτῳ	αἴγυπτος	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_327|t_326|ref=Lev.sel._5
+9	ταύταις	οὗτος	a	a-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_328|t_327|ref=Lev.sel._5
 10	προσεθίσαντες	προσεθίζω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	2	ADV	_	t_329|t_321|ref=Lev.sel._5
 11	,	,	u	u--------	_	21	AuxX	_	t_330|t_340|ref=Lev.sel._5
-12	ὡς	ὡς	c	c--------	_	21	AuxC	_	t_331|t_340|ref=Lev.sel._4
+12	ὡς	ὡς	c	c--------	_	21	AuxC	_	t_331|t_340|ref=Lev.sel._5
 13	καὶ	καί	d	d--------	_	18	AuxZ	_	t_332|t_337|ref=Lev.sel._5
 14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_333|t_337|ref=Lev.sel._5
 15	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_334|t_337|ref=Lev.sel._5
@@ -474,31 +474,31 @@
 # text = μοσι [0] .
 # sent_id = 26
 1	μοσι	μοσι	n	n-p---fd-	Case=d|Gender=m|Number=p	2	OBJ	_	t_360|e_14|ref=Lev.sel._5
-2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Lev.sel._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Lev.sel._5
 3	.	.	u	u--------	_	2	AuxK	_	t_361|e_14|ref=Lev.sel._5
 
-# source = Origen, Lev.sel._5
+# source = Origen, Lev.sel._6
 # text = Ἐὰν δὲ ψυχὴ μία ἁμάρτῃ ἀκουσίως [0] .
 # sent_id = 27
-1	Ἐὰν	ἐάν	c	c--------	_	7	AuxC	_	t_362|e_15|ref=Lev.sel._5
-2	δὲ	δέ	g	g--------	_	7	AuxY	_	t_363|e_15|ref=Lev.sel._5
-3	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_364|t_366|ref=Lev.sel._5
-4	μία	εἷς	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_365|t_364|ref=Lev.sel._5
-5	ἁμάρτῃ	ἁμαρτάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_366|t_362|ref=Lev.sel._5
-6	ἀκουσίως	ἀκούσιος	d	d--------	_	5	ADV	_	t_367|t_366|ref=Lev.sel._5
-7	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Lev.sel._1
-8	.	.	u	u--------	_	7	AuxK	_	t_368|e_15|ref=Lev.sel._5
+1	Ἐὰν	ἐάν	c	c--------	_	7	AuxC	_	t_362|e_15|ref=Lev.sel._6
+2	δὲ	δέ	g	g--------	_	7	AuxY	_	t_363|e_15|ref=Lev.sel._6
+3	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_364|t_366|ref=Lev.sel._6
+4	μία	εἷς	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_365|t_364|ref=Lev.sel._6
+5	ἁμάρτῃ	ἁμαρτάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_366|t_362|ref=Lev.sel._6
+6	ἀκουσίως	ἀκούσιος	d	d--------	_	5	ADV	_	t_367|t_366|ref=Lev.sel._6
+7	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Lev.sel._6
+8	.	.	u	u--------	_	7	AuxK	_	t_368|e_15|ref=Lev.sel._6
 
-# source = Origen, Lev.sel._5-6
+# source = Origen, Lev.sel._6
 # text = Ἀκούσιόν ἐστιν ὅπερ ἄν τις ποιῇ κακόν .
 # sent_id = 28
-1	Ἀκούσιόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_369|t_370|ref=Lev.sel._5
-2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_370|0|ref=Lev.sel._5
-3	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_371|t_374|ref=Lev.sel._5
-4	ἄν	ἄν	d	d--------	_	6	AuxY	_	t_372|t_374|ref=Lev.sel._5
-5	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	6	SBJ	_	t_373|t_374|ref=Lev.sel._5
-6	ποιῇ	ποιέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	SBJ	_	t_374|t_370|ref=Lev.sel._5
-7	κακόν	κακός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	OBJ	_	t_375|t_374|ref=Lev.sel._5
+1	Ἀκούσιόν	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_369|t_370|ref=Lev.sel._6
+2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_370|0|ref=Lev.sel._6
+3	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_371|t_374|ref=Lev.sel._6
+4	ἄν	ἄν	d	d--------	_	6	AuxY	_	t_372|t_374|ref=Lev.sel._6
+5	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	6	SBJ	_	t_373|t_374|ref=Lev.sel._6
+6	ποιῇ	ποιέω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	SBJ	_	t_374|t_370|ref=Lev.sel._6
+7	κακόν	κακός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	OBJ	_	t_375|t_374|ref=Lev.sel._6
 8	.	.	u	u--------	_	2	AuxK	_	t_376|t_370|ref=Lev.sel._6
 
 # source = Origen, Lev.sel._6
@@ -509,7 +509,7 @@
 3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_379|t_380|ref=Lev.sel._6
 4	ἀγνόημα	ἀγνόημα	n	n-s---nn-	Case=n|Gender=n|Number=s	9	OBJ	_	t_380|t_385|ref=Lev.sel._6
 5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_381|t_380|ref=Lev.sel._6
-6	ἀκούσιον	ἀκούσιος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_382|t_380|ref=Lev.sel._5
+6	ἀκούσιον	ἀκούσιος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_382|t_380|ref=Lev.sel._6
 7	,	,	u	u--------	_	1	AuxX	_	t_383|t_377|ref=Lev.sel._6
 8	ἁμαρτίαν	ἁμαρτία	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_384|t_385|ref=Lev.sel._6
 9	κολεἴ	κολάζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	SBJ	_	t_385|t_378|ref=Lev.sel._6
@@ -542,32 +542,32 @@
 7	μελλόντων	μέλλω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_404|t_398|ref=Lev.sel._6
 8	.	.	u	u--------	_	3	AuxK	_	t_405|t_400|ref=Lev.sel._6
 
-# source = Origen, Lev.sel._6
+# source = Origen, Lev.sel._7
 # text = Τοῦ αὐτοῦ [0] .
 # sent_id = 32
-1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_406|t_407|ref=Lev.sel._6
-2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_407|e_16|ref=Lev.sel._6
-3	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Lev.sel._1
-4	.	.	u	u--------	_	3	AuxK	_	t_408|e_16|ref=Lev.sel._6
+1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_406|t_407|ref=Lev.sel._7
+2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_407|e_16|ref=Lev.sel._7
+3	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Lev.sel._7
+4	.	.	u	u--------	_	3	AuxK	_	t_408|e_16|ref=Lev.sel._7
 
-# source = Origen, Lev.sel._6-7
+# source = Origen, Lev.sel._7
 # text = « ψυχὴ ἐὰν ἁμάρτῃ ἀκουσίως , φησὶ , καὶ μὴ ποιήσῃ ἀπὸ πασῶν τῶν ἐντολῶν Κυρίου , κατὰ φύσιν ἔχει .
 # sent_id = 33
-1	«	«	u	u--------	_	20	AuxG	_	t_409|t_428|ref=Lev.sel._6
-2	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_410|t_428|ref=Lev.sel._6
-3	ἐὰν	ἐάν	c	c--------	_	20	AuxC	_	t_411|t_428|ref=Lev.sel._6
-4	ἁμάρτῃ	ἁμαρτάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	9	ADV	_	t_412|t_417|ref=Lev.sel._6
-5	ἀκουσίως	ἀκούσιος	d	d--------	_	4	ADV	_	t_413|t_412|ref=Lev.sel._6
-6	,	,	u	u--------	_	20	AuxX	_	t_414|t_428|ref=Lev.sel._6
-7	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	AuxY	_	t_415|t_428|ref=Lev.sel._6
-8	,	,	u	u--------	_	20	AuxX	_	t_416|t_428|ref=Lev.sel._6
-9	καὶ	καί	c	c--------	_	3	COORD	_	t_417|t_411|ref=Lev.sel._6
-10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_418|t_419|ref=Lev.sel._6
-11	ποιήσῃ	ποιέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	9	ADV	_	t_419|t_417|ref=Lev.sel._6
-12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_420|t_419|ref=Lev.sel._6
+1	«	«	u	u--------	_	20	AuxG	_	t_409|t_428|ref=Lev.sel._7
+2	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_410|t_428|ref=Lev.sel._7
+3	ἐὰν	ἐάν	c	c--------	_	20	AuxC	_	t_411|t_428|ref=Lev.sel._7
+4	ἁμάρτῃ	ἁμαρτάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	9	ADV	_	t_412|t_417|ref=Lev.sel._7
+5	ἀκουσίως	ἀκούσιος	d	d--------	_	4	ADV	_	t_413|t_412|ref=Lev.sel._7
+6	,	,	u	u--------	_	20	AuxX	_	t_414|t_428|ref=Lev.sel._7
+7	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	AuxY	_	t_415|t_428|ref=Lev.sel._7
+8	,	,	u	u--------	_	20	AuxX	_	t_416|t_428|ref=Lev.sel._7
+9	καὶ	καί	c	c--------	_	3	COORD	_	t_417|t_411|ref=Lev.sel._7
+10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_418|t_419|ref=Lev.sel._7
+11	ποιήσῃ	ποιέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	9	ADV	_	t_419|t_417|ref=Lev.sel._7
+12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_420|t_419|ref=Lev.sel._7
 13	πασῶν	πᾶς	a	a-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_421|t_423|ref=Lev.sel._7
 14	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_422|t_423|ref=Lev.sel._7
-15	ἐντολῶν	ἐντολή	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ADV	_	t_423|t_420|ref=Lev.sel._6
+15	ἐντολῶν	ἐντολή	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ADV	_	t_423|t_420|ref=Lev.sel._7
 16	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_424|t_423|ref=Lev.sel._7
 17	,	,	u	u--------	_	20	AuxX	_	t_425|t_428|ref=Lev.sel._7
 18	κατὰ	κατά	r	r--------	_	20	AuxP	_	t_426|t_428|ref=Lev.sel._7
@@ -642,7 +642,7 @@
 4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_475|t_476|ref=Lev.sel._7
 5	δρῶντος	δράω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	2	SBJ	_	t_476|t_473|ref=Lev.sel._7
 6	ἐξεπίτηδες	ἐξεπίτηδες	d	d--------	_	7	ADV	_	t_477|e_17|ref=Lev.sel._7
-7	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Lev.sel._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Lev.sel._7
 8	·	·	u	u--------	_	7	AuxK	_	t_478|e_17|ref=Lev.sel._7
 
 # source = Origen, Lev.sel._7
@@ -660,35 +660,35 @@
 10	περιτεμὼν	περιτέμνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_488|t_487|ref=Lev.sel._7
 11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_489|t_490|ref=Lev.sel._7
 12	Τιμόθεον	τιμόθεος	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_490|t_488|ref=Lev.sel._7
-13	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Lev.sel._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Lev.sel._7
 14	.	.	u	u--------	_	13	AuxK	_	t_491|e_18|ref=Lev.sel._7
 
-# source = Origen, Lev.sel._7
+# source = Origen, Lev.sel._8
 # text = Ἡ ψυχὴ ἐκείνη ἥτις ἐὰν ἄψηται παντὸς πράγματος ἀκαθάρτου , ἢ θνησιμαίου [0] .
 # sent_id = 40
-1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_492|t_493|ref=Lev.sel._7
-2	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_493|e_19|ref=Lev.sel._7
-3	ἐκείνη	ἐκεῖνος	p	p-s---fn-	Case=n|Gender=f|Number=s	13	PNOM	_	t_494|e_19|ref=Lev.sel._7
-4	ἥτις	ὅστις	p	p-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_495|t_497|ref=Lev.sel._7
-5	ἐὰν	ἐάν	d	d--------	_	6	AuxY	_	t_496|t_497|ref=Lev.sel._7
-6	ἄψηται	ἅπτω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ATR	_	t_497|t_493|ref=Lev.sel._7
-7	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_498|t_499|ref=Lev.sel._7
-8	πράγματος	πρᾶγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	OBJ	_	t_499|t_497|ref=Lev.sel._7
-9	ἀκαθάρτου	ἀκάθαρτος	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_500|t_499|ref=Lev.sel._7
-10	,	,	u	u--------	_	13	AuxX	_	t_501|e_19|ref=Lev.sel._7
-11	ἢ	ἤ1	c	c--------	_	8	COORD	_	t_502|t_499|ref=Lev.sel._7
-12	θνησιμαίου	θνησιμαῖος	a	a-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_503|t_502|ref=Lev.sel._7
-13	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Lev.sel._1
-14	.	.	u	u--------	_	13	AuxK	_	t_504|e_19|ref=Lev.sel._7
+1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_492|t_493|ref=Lev.sel._8
+2	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_493|e_19|ref=Lev.sel._8
+3	ἐκείνη	ἐκεῖνος	p	p-s---fn-	Case=n|Gender=f|Number=s	13	PNOM	_	t_494|e_19|ref=Lev.sel._8
+4	ἥτις	ὅστις	p	p-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_495|t_497|ref=Lev.sel._8
+5	ἐὰν	ἐάν	d	d--------	_	6	AuxY	_	t_496|t_497|ref=Lev.sel._8
+6	ἄψηται	ἅπτω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ATR	_	t_497|t_493|ref=Lev.sel._8
+7	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_498|t_499|ref=Lev.sel._8
+8	πράγματος	πρᾶγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	6	OBJ	_	t_499|t_497|ref=Lev.sel._8
+9	ἀκαθάρτου	ἀκάθαρτος	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_500|t_499|ref=Lev.sel._8
+10	,	,	u	u--------	_	13	AuxX	_	t_501|e_19|ref=Lev.sel._8
+11	ἢ	ἤ1	c	c--------	_	8	COORD	_	t_502|t_499|ref=Lev.sel._8
+12	θνησιμαίου	θνησιμαῖος	a	a-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_503|t_502|ref=Lev.sel._8
+13	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Lev.sel._8
+14	.	.	u	u--------	_	13	AuxK	_	t_504|e_19|ref=Lev.sel._8
 
-# source = Origen, Lev.sel._7-8
+# source = Origen, Lev.sel._8
 # text = Θνησιμαῖον δέ φησι τὸν ἀποθανόντα τῷ Θεῷ ἄνθρωπον , ᾧ χρὴ μη δὲ συνεσθίειν [0] ·
 # sent_id = 41
-1	Θνησιμαῖον	θνησιμαῖος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	PNOM	_	t_505|e_20|ref=Lev.sel._7
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_506|t_507|ref=Lev.sel._7
-3	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_507|0|ref=Lev.sel._7
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_508|t_512|ref=Lev.sel._7
-5	ἀποθανόντα	ἀποθνήσκω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ATR	_	t_509|t_512|ref=Lev.sel._7
+1	Θνησιμαῖον	θνησιμαῖος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	PNOM	_	t_505|e_20|ref=Lev.sel._8
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_506|t_507|ref=Lev.sel._8
+3	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_507|0|ref=Lev.sel._8
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_508|t_512|ref=Lev.sel._8
+5	ἀποθανόντα	ἀποθνήσκω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ATR	_	t_509|t_512|ref=Lev.sel._8
 6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_510|t_511|ref=Lev.sel._8
 7	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_511|t_509|ref=Lev.sel._8
 8	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	SBJ	_	t_512|e_20|ref=Lev.sel._8
@@ -698,7 +698,7 @@
 12	μη	μη	d	d--------	_	14	AuxZ	_	t_516|t_518|ref=Lev.sel._8
 13	δὲ	δέ	d	d--------	_	12	AuxZ	_	t_517|t_516|ref=Lev.sel._8
 14	συνεσθίειν	συμπίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_518|t_515|ref=Lev.sel._8
-15	[0]	[0]	-	---------	_	3	OBJ	_	e_20|t_507|ref=Lev.sel._1
+15	[0]	[0]	-	---------	_	3	OBJ	_	e_20|t_507|ref=Lev.sel._8
 16	·	·	u	u--------	_	3	AuxK	_	t_519|t_507|ref=Lev.sel._8
 
 # source = Origen, Lev.sel._8
@@ -706,7 +706,7 @@
 # sent_id = 42
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_520|t_522|ref=Lev.sel._8
 2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_521|t_525|ref=Lev.sel._8
-3	ἁπτόμενος	ἅπτω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	SBJ	_	t_522|t_525|ref=Lev.sel._7
+3	ἁπτόμενος	ἅπτω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	SBJ	_	t_522|t_525|ref=Lev.sel._8
 4	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_523|t_522|ref=Lev.sel._8
 5	ἀκάθαρτός	ἀκάθαρτος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_524|t_525|ref=Lev.sel._8
 6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_525|0|ref=Lev.sel._8
@@ -770,37 +770,37 @@
 37	,	,	u	u--------	_	3	AuxX	_	t_575|t_541|ref=Lev.sel._8
 38	Κύριε	κύριος	n	n-s---mv-	Case=v|Gender=m|Number=s	36	ExD	_	t_576|t_574|ref=Lev.sel._8
 39	.	.	u	u--------	_	3	AuxK	_	t_577|t_541|ref=Lev.sel._8
-40	[0]	[0]	-	---------	_	24	ADV	_	e_21|t_562|ref=Lev.sel._1
+40	[0]	[0]	-	---------	_	24	ADV	_	e_21|t_562|ref=Lev.sel._8
 41	»	»	u	u--------	_	3	AuxG	_	t_578|t_541|ref=Lev.sel._8
 
-# source = Origen, Lev.sel._8
+# source = Origen, Lev.sel._9
 # text = Πᾶς ὃς ἐὰν ἄψηται αὐτῶν ἀγιασθήσετα .
 # sent_id = 45
-1	Πᾶς	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_579|t_584|ref=Lev.sel._8
-2	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_580|t_582|ref=Lev.sel._8
-3	ἐὰν	ἐάν	d	d--------	_	4	AuxY	_	t_581|t_582|ref=Lev.sel._8
-4	ἄψηται	ἅπτω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	6	SBJ	_	t_582|t_584|ref=Lev.sel._8
-5	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_583|t_580|ref=Lev.sel._8
-6	ἀγιασθήσετα	ἐναγίζω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_584|0|ref=Lev.sel._8
-7	.	.	u	u--------	_	6	AuxK	_	t_585|t_584|ref=Lev.sel._8
+1	Πᾶς	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_579|t_584|ref=Lev.sel._9
+2	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_580|t_582|ref=Lev.sel._9
+3	ἐὰν	ἐάν	d	d--------	_	4	AuxY	_	t_581|t_582|ref=Lev.sel._9
+4	ἄψηται	ἅπτω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	6	SBJ	_	t_582|t_584|ref=Lev.sel._9
+5	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_583|t_580|ref=Lev.sel._9
+6	ἀγιασθήσετα	ἐναγίζω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_584|0|ref=Lev.sel._9
+7	.	.	u	u--------	_	6	AuxK	_	t_585|t_584|ref=Lev.sel._9
 
-# source = Origen, Lev.sel._8-9
+# source = Origen, Lev.sel._9
 # text = Τινὲ , τὸ « ἁγιασθήσεται , » μολυνθήσεται , σεφασὶν , οὐ διὰ τὴν θυσίαν , οἶμαι , ἀλλὰ διὰ τὸ τολμηρὸν αὐτοῦ ἁπτομένου .
 # sent_id = 46
-1	Τινὲ	τις	n	n-s---mv-	Case=v|Gender=m|Number=s	8	ExD	_	t_586|t_593|ref=Lev.sel._8
-2	,	,	u	u--------	_	8	AuxX	_	t_587|t_593|ref=Lev.sel._8
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_588|t_593|ref=Lev.sel._8
-4	«	«	u	u--------	_	8	AuxG	_	t_589|t_593|ref=Lev.sel._8
-5	ἁγιασθήσεται	ἁγιάζω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	8	SBJ	_	t_590|t_593|ref=Lev.sel._8
-6	,	,	u	u--------	_	8	AuxX	_	t_591|t_593|ref=Lev.sel._8
-7	»	»	u	u--------	_	8	AuxG	_	t_592|t_593|ref=Lev.sel._8
-8	μολυνθήσεται	μολύνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_593|0|ref=Lev.sel._8
-9	,	,	u	u--------	_	8	AuxX	_	t_594|t_593|ref=Lev.sel._8
-10	σεφασὶν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	8	ExD	_	t_595|t_593|ref=Lev.sel._8
-11	,	,	u	u--------	_	8	AuxX	_	t_596|t_593|ref=Lev.sel._8
-12	οὐ	οὐ	d	d--------	_	15	AuxZ	_	t_597|t_600|ref=Lev.sel._8
-13	διὰ	διά	r	r--------	_	19	AuxP	_	t_598|t_604|ref=Lev.sel._8
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_599|t_600|ref=Lev.sel._8
+1	Τινὲ	τις	n	n-s---mv-	Case=v|Gender=m|Number=s	8	ExD	_	t_586|t_593|ref=Lev.sel._9
+2	,	,	u	u--------	_	8	AuxX	_	t_587|t_593|ref=Lev.sel._9
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_588|t_593|ref=Lev.sel._9
+4	«	«	u	u--------	_	8	AuxG	_	t_589|t_593|ref=Lev.sel._9
+5	ἁγιασθήσεται	ἁγιάζω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	8	SBJ	_	t_590|t_593|ref=Lev.sel._9
+6	,	,	u	u--------	_	8	AuxX	_	t_591|t_593|ref=Lev.sel._9
+7	»	»	u	u--------	_	8	AuxG	_	t_592|t_593|ref=Lev.sel._9
+8	μολυνθήσεται	μολύνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_593|0|ref=Lev.sel._9
+9	,	,	u	u--------	_	8	AuxX	_	t_594|t_593|ref=Lev.sel._9
+10	σεφασὶν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	8	ExD	_	t_595|t_593|ref=Lev.sel._9
+11	,	,	u	u--------	_	8	AuxX	_	t_596|t_593|ref=Lev.sel._9
+12	οὐ	οὐ	d	d--------	_	15	AuxZ	_	t_597|t_600|ref=Lev.sel._9
+13	διὰ	διά	r	r--------	_	19	AuxP	_	t_598|t_604|ref=Lev.sel._9
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_599|t_600|ref=Lev.sel._9
 15	θυσίαν	θυσία	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_600|t_598|ref=Lev.sel._9
 16	,	,	u	u--------	_	8	AuxX	_	t_601|t_593|ref=Lev.sel._9
 17	οἶμαι	οἴομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	8	AuxY	_	t_602|t_593|ref=Lev.sel._9
@@ -833,43 +833,43 @@
 7	.	.	u	u--------	_	6	AuxK	_	t_621|t_620|ref=Lev.sel._9
 8	»	»	u	u--------	_	6	AuxG	_	t_622|t_620|ref=Lev.sel._9
 
-# source = Origen, Lev.sel._9
+# source = Origen, Lev.sel._10
 # text = Τοῦ αὐτοῦ [0] .
 # sent_id = 49
-1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_623|t_624|ref=Lev.sel._9
-2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_624|e_22|ref=Lev.sel._9
-3	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Lev.sel._1
-4	.	.	u	u--------	_	3	AuxK	_	t_625|e_22|ref=Lev.sel._9
+1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_623|t_624|ref=Lev.sel._10
+2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_624|e_22|ref=Lev.sel._10
+3	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Lev.sel._10
+4	.	.	u	u--------	_	3	AuxK	_	t_625|e_22|ref=Lev.sel._10
 
-# source = Origen, Lev.sel._9
+# source = Origen, Lev.sel._10
 # text = Λέγομεν ὡς διατροφῆς ἀφορμὴ μᾶλλον τοῖς ἱερεῦσιν ἧσαν αἱ θυσίαι καὶ σκιὰ τῆς εὐσεβείας [0] .
 # sent_id = 50
-1	Λέγομεν	λέγω3	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_626|0|ref=Lev.sel._9
-2	ὡς	ὡς	c	c--------	_	1	AuxC	_	t_627|t_626|ref=Lev.sel._9
-3	διατροφῆς	διατροφή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_628|t_629|ref=Lev.sel._9
-4	ἀφορμὴ	ἀφορμή	n	n-s---fn-	Case=n|Gender=f|Number=s	15	PNOM	_	t_629|e_23|ref=Lev.sel._9
-5	μᾶλλον	μᾶλλον	d	d--------	_	8	ADV	_	t_630|t_633|ref=Lev.sel._9
-6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_631|t_632|ref=Lev.sel._9
-7	ἱερεῦσιν	ἱερεύς	n	n-p---md-	Case=d|Gender=m|Number=p	8	ADV	_	t_632|t_633|ref=Lev.sel._9
-8	ἧσαν	ἧμαι	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	2	OBJ	_	t_633|t_627|ref=Lev.sel._9
-9	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_634|t_635|ref=Lev.sel._9
-10	θυσίαι	θυσία	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_635|t_636|ref=Lev.sel._9
-11	καὶ	καί	c	c--------	_	8	COORD	_	t_636|t_633|ref=Lev.sel._9
-12	σκιὰ	σκιά	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_637|t_636|ref=Lev.sel._9
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_638|t_639|ref=Lev.sel._9
-14	εὐσεβείας	εὐσέβεια	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_639|t_637|ref=Lev.sel._9
-15	[0]	[0]	-	---------	_	2	OBJ	_	e_23|t_627|ref=Lev.sel._1
-16	.	.	u	u--------	_	1	AuxK	_	t_640|t_626|ref=Lev.sel._9
+1	Λέγομεν	λέγω3	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_626|0|ref=Lev.sel._10
+2	ὡς	ὡς	c	c--------	_	1	AuxC	_	t_627|t_626|ref=Lev.sel._10
+3	διατροφῆς	διατροφή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_628|t_629|ref=Lev.sel._10
+4	ἀφορμὴ	ἀφορμή	n	n-s---fn-	Case=n|Gender=f|Number=s	15	PNOM	_	t_629|e_23|ref=Lev.sel._10
+5	μᾶλλον	μᾶλλον	d	d--------	_	8	ADV	_	t_630|t_633|ref=Lev.sel._10
+6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_631|t_632|ref=Lev.sel._10
+7	ἱερεῦσιν	ἱερεύς	n	n-p---md-	Case=d|Gender=m|Number=p	8	ADV	_	t_632|t_633|ref=Lev.sel._10
+8	ἧσαν	ἧμαι	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	2	OBJ	_	t_633|t_627|ref=Lev.sel._10
+9	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	10	ATR	_	t_634|t_635|ref=Lev.sel._10
+10	θυσίαι	θυσία	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_635|t_636|ref=Lev.sel._10
+11	καὶ	καί	c	c--------	_	8	COORD	_	t_636|t_633|ref=Lev.sel._10
+12	σκιὰ	σκιά	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_637|t_636|ref=Lev.sel._10
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_638|t_639|ref=Lev.sel._10
+14	εὐσεβείας	εὐσέβεια	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_639|t_637|ref=Lev.sel._10
+15	[0]	[0]	-	---------	_	2	OBJ	_	e_23|t_627|ref=Lev.sel._10
+16	.	.	u	u--------	_	1	AuxK	_	t_640|t_626|ref=Lev.sel._10
 
-# source = Origen, Lev.sel._9-10
+# source = Origen, Lev.sel._10
 # text = Διπλοῦν δέ ἐστι τὸ κέρδος τὸ ἀπὸ τοῦ θύειν ·
 # sent_id = 51
-1	Διπλοῦν	διπλόος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_641|t_643|ref=Lev.sel._9
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_642|t_643|ref=Lev.sel._9
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_643|0|ref=Lev.sel._9
+1	Διπλοῦν	διπλόος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_641|t_643|ref=Lev.sel._10
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_642|t_643|ref=Lev.sel._10
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_643|0|ref=Lev.sel._10
 4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_644|t_645|ref=Lev.sel._10
 5	κέρδος	κέρδος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_645|t_643|ref=Lev.sel._10
-6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_646|t_645|ref=Lev.sel._9
+6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_646|t_645|ref=Lev.sel._10
 7	ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_647|t_645|ref=Lev.sel._10
 8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_648|t_649|ref=Lev.sel._10
 9	θύειν	θύω	v	v--pna---	Mood=n|Tense=p|Voice=a	7	ATR	_	t_649|t_647|ref=Lev.sel._10
@@ -889,7 +889,7 @@
 9	ἃ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_659|t_660|ref=Lev.sel._10
 10	θύει	θύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	OBJ	_	t_660|t_664|ref=Lev.sel._10
 11	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	14	SBJ	_	t_661|t_664|ref=Lev.sel._10
-12	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_662|t_664|ref=Lev.sel._9
+12	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_662|t_664|ref=Lev.sel._10
 13	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_663|t_664|ref=Lev.sel._10
 14	προσκυνήσειεν	προσκυνέω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	8	OBJ	_	t_664|t_658|ref=Lev.sel._10
 15	,	,	u	u--------	_	18	AuxX	_	t_665|t_668|ref=Lev.sel._10
@@ -900,36 +900,36 @@
 20	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	18	OBJ	_	t_670|t_668|ref=Lev.sel._10
 21	.	.	u	u--------	_	18	AuxK	_	t_671|t_668|ref=Lev.sel._10
 
-# source = Origen, Lev.sel._10
+# source = Origen, Lev.sel._11
 # text = Καὶ οὐ μὴ ἀποθάνητε .
 # sent_id = 53
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_672|0|ref=Lev.sel._10
-2	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_673|t_675|ref=Lev.sel._10
-3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_674|t_675|ref=Lev.sel._10
-4	ἀποθάνητε	ἀποθνῄσκω	v	v2pasa---	Mood=s|Number=p|Person=2|Tense=a|Voice=a	1	PRED	_	t_675|t_672|ref=Lev.sel._10
-5	.	.	u	u--------	_	1	AuxK	_	t_676|t_672|ref=Lev.sel._10
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_672|0|ref=Lev.sel._11
+2	οὐ	οὐ	d	d--------	_	4	AuxZ	_	t_673|t_675|ref=Lev.sel._11
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_674|t_675|ref=Lev.sel._11
+4	ἀποθάνητε	ἀποθνῄσκω	v	v2pasa---	Mood=s|Number=p|Person=2|Tense=a|Voice=a	1	PRED	_	t_675|t_672|ref=Lev.sel._11
+5	.	.	u	u--------	_	1	AuxK	_	t_676|t_672|ref=Lev.sel._11
 
-# source = Origen, Lev.sel._10-11
+# source = Origen, Lev.sel._11
 # text = Θάνατον ὁ λόγος ἔοικεν ἀπειλεῖν ἱερεῦσιν , οἶνον καὶ σίκερα πίνουσιν , ἡνίκα ἂν εἰς τὴν σκηνὴν εἰσπορεύωνται .
 # sent_id = 54
-1	Θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_677|t_681|ref=Lev.sel._10
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_678|t_679|ref=Lev.sel._10
-3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_679|t_680|ref=Lev.sel._10
-4	ἔοικεν	ἔοικα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_680|0|ref=Lev.sel._10
-5	ἀπειλεῖν	ἀπειλέω	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_681|t_680|ref=Lev.sel._10
-6	ἱερεῦσιν	ἱερεύς	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_682|t_681|ref=Lev.sel._10
-7	,	,	u	u--------	_	4	AuxX	_	t_683|t_680|ref=Lev.sel._10
-8	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_684|t_685|ref=Lev.sel._10
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_685|t_687|ref=Lev.sel._10
-10	σίκερα	σίκερα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_686|t_685|ref=Lev.sel._10
-11	πίνουσιν	πίνω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_687|t_682|ref=Lev.sel._10
-12	,	,	u	u--------	_	4	AuxX	_	t_688|t_680|ref=Lev.sel._10
-13	ἡνίκα	ἡνίκα	c	c--------	_	5	AuxC	_	t_689|t_681|ref=Lev.sel._10
-14	ἂν	ἄν	d	d--------	_	18	AuxY	_	t_690|t_694|ref=Lev.sel._10
-15	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_691|t_694|ref=Lev.sel._10
-16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_692|t_693|ref=Lev.sel._10
-17	σκηνὴν	σκηνή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_693|t_691|ref=Lev.sel._10
-18	εἰσπορεύωνται	εἰσπορεύω	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	13	ADV	_	t_694|t_689|ref=Lev.sel._10
+1	Θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	SBJ	_	t_677|t_681|ref=Lev.sel._11
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_678|t_679|ref=Lev.sel._11
+3	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_679|t_680|ref=Lev.sel._11
+4	ἔοικεν	ἔοικα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_680|0|ref=Lev.sel._11
+5	ἀπειλεῖν	ἀπειλέω	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_681|t_680|ref=Lev.sel._11
+6	ἱερεῦσιν	ἱερεύς	n	n-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_682|t_681|ref=Lev.sel._11
+7	,	,	u	u--------	_	4	AuxX	_	t_683|t_680|ref=Lev.sel._11
+8	οἶνον	οἶνος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_684|t_685|ref=Lev.sel._11
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_685|t_687|ref=Lev.sel._11
+10	σίκερα	σίκερα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_686|t_685|ref=Lev.sel._11
+11	πίνουσιν	πίνω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_687|t_682|ref=Lev.sel._11
+12	,	,	u	u--------	_	4	AuxX	_	t_688|t_680|ref=Lev.sel._11
+13	ἡνίκα	ἡνίκα	c	c--------	_	5	AuxC	_	t_689|t_681|ref=Lev.sel._11
+14	ἂν	ἄν	d	d--------	_	18	AuxY	_	t_690|t_694|ref=Lev.sel._11
+15	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_691|t_694|ref=Lev.sel._11
+16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_692|t_693|ref=Lev.sel._11
+17	σκηνὴν	σκηνή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_693|t_691|ref=Lev.sel._11
+18	εἰσπορεύωνται	εἰσπορεύω	v	v3ppse---	Mood=s|Number=p|Person=3|Tense=p|Voice=e	13	ADV	_	t_694|t_689|ref=Lev.sel._11
 19	.	.	u	u--------	_	4	AuxK	_	t_695|t_680|ref=Lev.sel._11
 
 # source = Origen, Lev.sel._11
@@ -1015,42 +1015,42 @@
 19	μνημόσυνον	μνημόσυνον	n	n-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_765|t_761|ref=Lev.sel._11
 20	.	.	u	u--------	_	13	AuxK	_	t_766|t_759|ref=Lev.sel._11
 
-# source = Origen, Lev.sel._11
+# source = Origen, Lev.sel._12
 # text = Διὰ τί οὐκ ἐφάγετε τὸ περὶ τῆς ἀμαρτίας ἐν τόπῳ ἁγίῳ ;
 # sent_id = 58
-1	Διὰ	διά	r	r--------	_	4	AuxP	_	t_767|t_770|ref=Lev.sel._11
-2	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_768|t_767|ref=Lev.sel._11
-3	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_769|t_770|ref=Lev.sel._11
-4	ἐφάγετε	ἐσθίω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_770|0|ref=Lev.sel._11
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_771|t_770|ref=Lev.sel._11
-6	περὶ	περί	r	r--------	_	5	AuxP	_	t_772|t_771|ref=Lev.sel._11
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_773|t_774|ref=Lev.sel._11
-8	ἀμαρτίας	ἀμαρτία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_774|t_772|ref=Lev.sel._11
-9	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_775|t_770|ref=Lev.sel._11
-10	τόπῳ	τόπος	n	n-s---md-	Case=d|Gender=m|Number=s	9	ADV	_	t_776|t_775|ref=Lev.sel._11
-11	ἁγίῳ	ἅγιος	a	a-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_777|t_776|ref=Lev.sel._11
-12	;	;	u	u--------	_	4	AuxK	_	t_778|t_770|ref=Lev.sel._11
+1	Διὰ	διά	r	r--------	_	4	AuxP	_	t_767|t_770|ref=Lev.sel._12
+2	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_768|t_767|ref=Lev.sel._12
+3	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_769|t_770|ref=Lev.sel._12
+4	ἐφάγετε	ἐσθίω	v	v2paia---	Mood=i|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_770|0|ref=Lev.sel._12
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_771|t_770|ref=Lev.sel._12
+6	περὶ	περί	r	r--------	_	5	AuxP	_	t_772|t_771|ref=Lev.sel._12
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_773|t_774|ref=Lev.sel._12
+8	ἀμαρτίας	ἀμαρτία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_774|t_772|ref=Lev.sel._12
+9	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_775|t_770|ref=Lev.sel._12
+10	τόπῳ	τόπος	n	n-s---md-	Case=d|Gender=m|Number=s	9	ADV	_	t_776|t_775|ref=Lev.sel._12
+11	ἁγίῳ	ἅγιος	a	a-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_777|t_776|ref=Lev.sel._12
+12	;	;	u	u--------	_	4	AuxK	_	t_778|t_770|ref=Lev.sel._12
 
-# source = Origen, Lev.sel._11-12
+# source = Origen, Lev.sel._12
 # text = Δείκνυσι δὲ ὅτι μὴ τῶν ἱερέων ἐσθιόντων , ἀτέλεστος ἡ θυσία , καὶ ἡ ἁμαρτία μένει [0] ·
 # sent_id = 59
-1	Δείκνυσι	δείκνυμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_779|0|ref=Lev.sel._11
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_780|t_779|ref=Lev.sel._11
-3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_781|t_779|ref=Lev.sel._11
-4	μὴ	μή	d	d--------	_	7	AuxZ	_	t_782|t_785|ref=Lev.sel._11
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_783|t_784|ref=Lev.sel._11
-6	ἱερέων	ἱερεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	7	SBJ	_	t_784|t_785|ref=Lev.sel._11
-7	ἐσθιόντων	ἐσθίω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	17	ADV	_	t_785|e_24|ref=Lev.sel._11
-8	,	,	u	u--------	_	1	AuxX	_	t_786|t_779|ref=Lev.sel._11
-9	ἀτέλεστος	ἀτέλεστος	a	a-s---fn-	Case=n|Gender=f|Number=s	17	PNOM	_	t_787|e_24|ref=Lev.sel._11
-10	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_788|t_789|ref=Lev.sel._11
-11	θυσία	θυσία	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_789|e_24|ref=Lev.sel._11
+1	Δείκνυσι	δείκνυμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_779|0|ref=Lev.sel._12
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_780|t_779|ref=Lev.sel._12
+3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_781|t_779|ref=Lev.sel._12
+4	μὴ	μή	d	d--------	_	7	AuxZ	_	t_782|t_785|ref=Lev.sel._12
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_783|t_784|ref=Lev.sel._12
+6	ἱερέων	ἱερεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	7	SBJ	_	t_784|t_785|ref=Lev.sel._12
+7	ἐσθιόντων	ἐσθίω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	17	ADV	_	t_785|e_24|ref=Lev.sel._12
+8	,	,	u	u--------	_	1	AuxX	_	t_786|t_779|ref=Lev.sel._12
+9	ἀτέλεστος	ἀτέλεστος	a	a-s---fn-	Case=n|Gender=f|Number=s	17	PNOM	_	t_787|e_24|ref=Lev.sel._12
+10	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_788|t_789|ref=Lev.sel._12
+11	θυσία	θυσία	n	n-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_789|e_24|ref=Lev.sel._12
 12	,	,	u	u--------	_	1	AuxX	_	t_790|t_779|ref=Lev.sel._12
 13	καὶ	καί	c	c--------	_	3	COORD	_	t_791|t_781|ref=Lev.sel._12
 14	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	15	ATR	_	t_792|t_793|ref=Lev.sel._12
 15	ἁμαρτία	ἁμαρτία	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_793|t_794|ref=Lev.sel._12
 16	μένει	μένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_794|t_791|ref=Lev.sel._12
-17	[0]	[0]	-	---------	_	13	OBJ	_	e_24|t_791|ref=Lev.sel._1
+17	[0]	[0]	-	---------	_	13	OBJ	_	e_24|t_791|ref=Lev.sel._12
 18	·	·	u	u--------	_	1	AuxK	_	t_795|t_779|ref=Lev.sel._12
 
 # source = Origen, Lev.sel._12
@@ -1069,38 +1069,38 @@
 11	φαγεῖν	ἐσθίω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	SBJ	_	t_806|t_804|ref=Lev.sel._12
 12	.	.	u	u--------	_	1	AuxK	_	t_807|t_796|ref=Lev.sel._12
 
-# source = Origen, Lev.sel._12
+# source = Origen, Lev.sel._13
 # text = Εἰ σήμερον προσαγηόχασι τὰ περὶ τῆς ἀμαρτίας αὐτῶν [0] .
 # sent_id = 61
-1	Εἰ	εἰ	c	c--------	_	9	AuxC	_	t_808|e_25|ref=Lev.sel._12
-2	σήμερον	σήμερον	d	d--------	_	3	ADV	_	t_809|t_810|ref=Lev.sel._12
-3	προσαγηόχασι	προσάγω	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	1	ADV	_	t_810|t_808|ref=Lev.sel._12
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_811|t_810|ref=Lev.sel._12
-5	περὶ	περί	r	r--------	_	4	AuxP	_	t_812|t_811|ref=Lev.sel._12
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_813|t_814|ref=Lev.sel._12
-7	ἀμαρτίας	ἀμαρτία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_814|t_812|ref=Lev.sel._12
-8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_815|t_814|ref=Lev.sel._12
-9	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=Lev.sel._1
-10	.	.	u	u--------	_	9	AuxK	_	t_816|e_25|ref=Lev.sel._12
+1	Εἰ	εἰ	c	c--------	_	9	AuxC	_	t_808|e_25|ref=Lev.sel._13
+2	σήμερον	σήμερον	d	d--------	_	3	ADV	_	t_809|t_810|ref=Lev.sel._13
+3	προσαγηόχασι	προσάγω	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	1	ADV	_	t_810|t_808|ref=Lev.sel._13
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_811|t_810|ref=Lev.sel._13
+5	περὶ	περί	r	r--------	_	4	AuxP	_	t_812|t_811|ref=Lev.sel._13
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_813|t_814|ref=Lev.sel._13
+7	ἀμαρτίας	ἀμαρτία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_814|t_812|ref=Lev.sel._13
+8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_815|t_814|ref=Lev.sel._13
+9	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=Lev.sel._13
+10	.	.	u	u--------	_	9	AuxK	_	t_816|e_25|ref=Lev.sel._13
 
-# source = Origen, Lev.sel._12-13
+# source = Origen, Lev.sel._13
 # text = Ἐπεὶ συνέβη , φησὶ , τοῖς περὶ Ναδὰβ καὶ Ἀβιοὺδ προσκρούσασι τῷ Θεᾤ ἀποθανεῖν , ὄτε καιρὸς ἦν φαγεῖν αὐτοὺς τὸ περὶ ἁμαρτίας τοῦ λαοῦ τοῦ ἀφεθῆναι ἃ ἥμαρτε , πῶς οἱ ἐν ἁμαρτίαις ἡμεῖς σήμερον ἐλεγχθέντες διὰ τοῦ φαγεῖν τὴν ἄφεσιν προξενήσομεν ;
 # sent_id = 62
-1	Ἐπεὶ	ἐπεί	c	c--------	_	43	AuxC	_	t_817|t_859|ref=Lev.sel._12
-2	συνέβη	συμβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	ADV	_	t_818|t_832|ref=Lev.sel._12
-3	,	,	u	u--------	_	43	AuxX	_	t_819|t_859|ref=Lev.sel._12
-4	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	43	AuxY	_	t_820|t_859|ref=Lev.sel._12
-5	,	,	u	u--------	_	43	AuxX	_	t_821|t_859|ref=Lev.sel._12
-6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_822|t_827|ref=Lev.sel._12
-7	περὶ	περί	r	r--------	_	11	AuxP	_	t_823|t_827|ref=Lev.sel._12
-8	Ναδὰβ	ναδὰβ	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_824|t_825|ref=Lev.sel._12
-9	καὶ	καί	c	c--------	_	7	COORD	_	t_825|t_823|ref=Lev.sel._12
-10	Ἀβιοὺδ	ἀβιοὺδ	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_826|t_825|ref=Lev.sel._12
-11	προσκρούσασι	προσκρούω	v	v-papamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	14	OBJ	_	t_827|t_830|ref=Lev.sel._12
-12	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	13	ATR	_	t_828|t_829|ref=Lev.sel._12
-13	Θεᾤ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_829|t_830|ref=Lev.sel._12
-14	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	SBJ	_	t_830|t_818|ref=Lev.sel._12
-15	,	,	u	u--------	_	43	AuxX	_	t_831|t_859|ref=Lev.sel._12
+1	Ἐπεὶ	ἐπεί	c	c--------	_	43	AuxC	_	t_817|t_859|ref=Lev.sel._13
+2	συνέβη	συμβαίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	16	ADV	_	t_818|t_832|ref=Lev.sel._13
+3	,	,	u	u--------	_	43	AuxX	_	t_819|t_859|ref=Lev.sel._13
+4	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	43	AuxY	_	t_820|t_859|ref=Lev.sel._13
+5	,	,	u	u--------	_	43	AuxX	_	t_821|t_859|ref=Lev.sel._13
+6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_822|t_827|ref=Lev.sel._13
+7	περὶ	περί	r	r--------	_	11	AuxP	_	t_823|t_827|ref=Lev.sel._13
+8	Ναδὰβ	ναδὰβ	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_824|t_825|ref=Lev.sel._13
+9	καὶ	καί	c	c--------	_	7	COORD	_	t_825|t_823|ref=Lev.sel._13
+10	Ἀβιοὺδ	ἀβιοὺδ	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_826|t_825|ref=Lev.sel._13
+11	προσκρούσασι	προσκρούω	v	v-papamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	14	OBJ	_	t_827|t_830|ref=Lev.sel._13
+12	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	13	ATR	_	t_828|t_829|ref=Lev.sel._13
+13	Θεᾤ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_829|t_830|ref=Lev.sel._13
+14	ἀποθανεῖν	ἀποθνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	SBJ	_	t_830|t_818|ref=Lev.sel._13
+15	,	,	u	u--------	_	43	AuxX	_	t_831|t_859|ref=Lev.sel._13
 16	ὄτε	ὅτι	c	c--------	_	1	AuxC	_	t_832|t_817|ref=Lev.sel._13
 17	καιρὸς	καιρός	n	n-s---mn-	Case=n|Gender=m|Number=s	18	PNOM	_	t_833|t_834|ref=Lev.sel._13
 18	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	16	ADV	_	t_834|t_832|ref=Lev.sel._13
@@ -1109,7 +1109,7 @@
 21	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_837|t_835|ref=Lev.sel._13
 22	περὶ	περί	r	r--------	_	19	AuxP	_	t_838|t_835|ref=Lev.sel._13
 23	ἁμαρτίας	ἁμαρτία	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ADV	_	t_839|t_838|ref=Lev.sel._13
-24	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_840|t_841|ref=Lev.sel._12
+24	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_840|t_841|ref=Lev.sel._13
 25	λαοῦ	λαός	n	n-s---mg-	Case=g|Gender=m|Number=s	23	ATR	_	t_841|t_839|ref=Lev.sel._13
 26	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	27	ATR	_	t_842|t_843|ref=Lev.sel._13
 27	ἀφεθῆναι	ἀφίημι	v	v--anp---	Mood=n|Tense=a|Voice=p	17	ATR	_	t_843|t_833|ref=Lev.sel._13
@@ -1145,54 +1145,54 @@
 9	άσασθαι	άομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	1	OBJ	_	t_869|t_861|ref=Lev.sel._13
 10	.	.	u	u--------	_	1	AuxK	_	t_870|t_861|ref=Lev.sel._13
 
-# source = Origen, Lev.sel._13
+# source = Origen, Lev.sel._14
 # text = Ταῦτα τὰ κτήνη ἃ φάγεσθε [0] .
 # sent_id = 64
-1	Ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_871|e_26|ref=Lev.sel._13
-2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_872|t_873|ref=Lev.sel._13
-3	κτήνη	κτῆνος	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_873|e_26|ref=Lev.sel._13
-4	ἃ	ὅς	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_874|e_26|ref=Lev.sel._13
-5	φάγεσθε	ἐσθίω	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	0	PRED	_	t_875|0|ref=Lev.sel._13
-6	[0]	[0]	-	---------	_	5	APOS	_	e_26|t_875|ref=Lev.sel._1
-7	.	.	u	u--------	_	5	AuxK	_	t_876|t_875|ref=Lev.sel._13
+1	Ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_871|e_26|ref=Lev.sel._14
+2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_872|t_873|ref=Lev.sel._14
+3	κτήνη	κτῆνος	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_873|e_26|ref=Lev.sel._14
+4	ἃ	ὅς	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_874|e_26|ref=Lev.sel._14
+5	φάγεσθε	ἐσθίω	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	0	PRED	_	t_875|0|ref=Lev.sel._14
+6	[0]	[0]	-	---------	_	5	APOS	_	e_26|t_875|ref=Lev.sel._14
+7	.	.	u	u--------	_	5	AuxK	_	t_876|t_875|ref=Lev.sel._14
 
-# source = Origen, Lev.sel._13
+# source = Origen, Lev.sel._14
 # text = Θηρία μὲν οὗν οὐδαμῶς ἐστι καθαρά ·
 # sent_id = 65
-1	Θηρία	θηρίον	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_877|t_881|ref=Lev.sel._13
-2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_878|t_881|ref=Lev.sel._13
-3	οὗν	οὖν	d	d--------	_	5	AuxY	_	t_879|t_881|ref=Lev.sel._13
-4	οὐδαμῶς	οὐδαμῶς	d	d--------	_	5	ADV	_	t_880|t_881|ref=Lev.sel._13
-5	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_881|0|ref=Lev.sel._13
-6	καθαρά	καθαρός	a	a-s---fn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_882|t_881|ref=Lev.sel._13
-7	·	·	u	u--------	_	5	AuxK	_	t_883|t_881|ref=Lev.sel._13
+1	Θηρία	θηρίον	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_877|t_881|ref=Lev.sel._14
+2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_878|t_881|ref=Lev.sel._14
+3	οὗν	οὖν	d	d--------	_	5	AuxY	_	t_879|t_881|ref=Lev.sel._14
+4	οὐδαμῶς	οὐδαμῶς	d	d--------	_	5	ADV	_	t_880|t_881|ref=Lev.sel._14
+5	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_881|0|ref=Lev.sel._14
+6	καθαρά	καθαρός	a	a-s---fn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_882|t_881|ref=Lev.sel._14
+7	·	·	u	u--------	_	5	AuxK	_	t_883|t_881|ref=Lev.sel._14
 
-# source = Origen, Lev.sel._13
+# source = Origen, Lev.sel._14
 # text = πάντα γὰρ ἀκάθαρτα κατὰ τὸν εἰπόντα νόμον [0] ·
 # sent_id = 66
-1	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_884|e_27|ref=Lev.sel._13
-2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_885|e_27|ref=Lev.sel._13
-3	ἀκάθαρτα	ἀκάθαρτος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_886|e_27|ref=Lev.sel._13
-4	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_887|e_27|ref=Lev.sel._13
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_888|t_890|ref=Lev.sel._13
-6	εἰπόντα	εἶπον	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ATR	_	t_889|t_890|ref=Lev.sel._13
-7	νόμον	νόμος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_890|t_887|ref=Lev.sel._13
-8	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=Lev.sel._1
-9	·	·	u	u--------	_	8	AuxK	_	t_891|e_27|ref=Lev.sel._13
+1	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_884|e_27|ref=Lev.sel._14
+2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_885|e_27|ref=Lev.sel._14
+3	ἀκάθαρτα	ἀκάθαρτος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_886|e_27|ref=Lev.sel._14
+4	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_887|e_27|ref=Lev.sel._14
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_888|t_890|ref=Lev.sel._14
+6	εἰπόντα	εἶπον	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ATR	_	t_889|t_890|ref=Lev.sel._14
+7	νόμον	νόμος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	ADV	_	t_890|t_887|ref=Lev.sel._14
+8	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=Lev.sel._14
+9	·	·	u	u--------	_	8	AuxK	_	t_891|e_27|ref=Lev.sel._14
 
-# source = Origen, Lev.sel._13-14
+# source = Origen, Lev.sel._14
 # text = « Πᾶν ὂ ἐὰν πορεύηται ἐπὶ χειρῶν αὐτοῦ ἐν πᾶσι τοῖς θηρίοις , ἀκάθαρτα ἔσται ὑμῖν . »
 # sent_id = 67
-1	«	«	u	u--------	_	15	AuxG	_	t_892|t_906|ref=Lev.sel._13
-2	Πᾶν	πᾶς	n	n-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_893|t_906|ref=Lev.sel._13
-3	ὂ	ὄ	p	p-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_894|t_896|ref=Lev.sel._13
-4	ἐὰν	ἐάν	c	c--------	_	5	AuxC	_	t_895|t_896|ref=Lev.sel._13
+1	«	«	u	u--------	_	15	AuxG	_	t_892|t_906|ref=Lev.sel._14
+2	Πᾶν	πᾶς	n	n-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_893|t_906|ref=Lev.sel._14
+3	ὂ	ὄ	p	p-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_894|t_896|ref=Lev.sel._14
+4	ἐὰν	ἐάν	c	c--------	_	5	AuxC	_	t_895|t_896|ref=Lev.sel._14
 5	πορεύηται	πορεύω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	2	ATR	_	t_896|t_893|ref=Lev.sel._14
 6	ἐπὶ	ἐπί	r	r--------	_	5	AuxP	_	t_897|t_896|ref=Lev.sel._14
 7	χειρῶν	χείρ	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ADV	_	t_898|t_897|ref=Lev.sel._14
 8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_899|t_898|ref=Lev.sel._14
 9	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_900|t_896|ref=Lev.sel._14
-10	πᾶσι	πᾶς	a	a-p---nd-	Case=d|Gender=n|Number=p	12	ATR	_	t_901|t_903|ref=Lev.sel._13
+10	πᾶσι	πᾶς	a	a-p---nd-	Case=d|Gender=n|Number=p	12	ATR	_	t_901|t_903|ref=Lev.sel._14
 11	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	12	ATR	_	t_902|t_903|ref=Lev.sel._14
 12	θηρίοις	θηρίον	n	n-p---nd-	Case=d|Gender=n|Number=p	9	ADV	_	t_903|t_900|ref=Lev.sel._14
 13	,	,	u	u--------	_	5	AuxX	_	t_904|t_896|ref=Lev.sel._14
@@ -1212,7 +1212,7 @@
 5	θηρία	θηρίον	n	n-p---nn-	Case=n|Gender=n|Number=p	1	PNOM	_	t_914|t_910|ref=Lev.sel._14
 6	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_915|t_917|ref=Lev.sel._14
 7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_916|t_917|ref=Lev.sel._14
-8	ὠμότατοι	ὠμός	a	a-p---mns	Case=n|Degree=s|Gender=m|Number=p	1	SBJ	_	t_917|t_910|ref=Lev.sel._13
+8	ὠμότατοι	ὠμός	a	a-p---mns	Case=n|Degree=s|Gender=m|Number=p	1	SBJ	_	t_917|t_910|ref=Lev.sel._14
 9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_918|t_919|ref=Lev.sel._14
 10	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_919|t_917|ref=Lev.sel._14
 11	,	,	u	u--------	_	1	AuxX	_	t_920|t_910|ref=Lev.sel._14
@@ -1239,7 +1239,7 @@
 11	σάρκας	σάρξ	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_937|t_935|ref=Lev.sel._14
 12	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	11	ATR	_	t_938|t_937|ref=Lev.sel._14
 13	·	·	u	u--------	_	14	AuxK	_	t_939|e_28|ref=Lev.sel._14
-14	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=Lev.sel._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=Lev.sel._14
 15	»	»	u	u--------	_	14	AuxG	_	t_940|e_28|ref=Lev.sel._14
 
 # source = Origen, Lev.sel._14
@@ -1248,56 +1248,56 @@
 1	καὶ	καί	d	d--------	_	4	AuxY	_	t_941|e_29|ref=Lev.sel._14
 2	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_942|e_29|ref=Lev.sel._14
 3	ἐξῆς	ἐξοῦ	d	d--------	_	2	ATR	_	t_943|t_942|ref=Lev.sel._14
-4	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Lev.sel._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Lev.sel._14
 5	.	.	u	u--------	_	4	AuxK	_	t_944|e_29|ref=Lev.sel._14
 
-# source = Origen, Lev.sel._14
+# source = Origen, Lev.sel._15
 # text = Ηᾶν κτῆνος δικηλοῦν ὁπλήν .
 # sent_id = 71
-1	Ηᾶν	ηάω	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ExD	_	t_945|t_947|ref=Lev.sel._14
-2	κτῆνος	κτῆνος	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_946|t_947|ref=Lev.sel._14
-3	δικηλοῦν	δικηλόω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_947|0|ref=Lev.sel._14
-4	ὁπλήν	ὁπλή	a	a-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_948|t_947|ref=Lev.sel._14
-5	.	.	u	u--------	_	3	AuxK	_	t_949|t_947|ref=Lev.sel._14
+1	Ηᾶν	ηάω	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ExD	_	t_945|t_947|ref=Lev.sel._15
+2	κτῆνος	κτῆνος	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_946|t_947|ref=Lev.sel._15
+3	δικηλοῦν	δικηλόω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_947|0|ref=Lev.sel._15
+4	ὁπλήν	ὁπλή	a	a-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_948|t_947|ref=Lev.sel._15
+5	.	.	u	u--------	_	3	AuxK	_	t_949|t_947|ref=Lev.sel._15
 
-# source = Origen, Lev.sel._14
+# source = Origen, Lev.sel._15
 # text = Δικηλῆ τὸν εὐσεβῶς ἐν τῷ αἰῶνι τούτῳ πολιτευόμενον καὶ διὰ τὸν μέλλοντα αἰῶνα ἐπʼ ἐκεῖνον σπεύδοντα [0] ·
 # sent_id = 72
-1	Δικηλῆ	δικηλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_950|e_30|ref=Lev.sel._14
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_951|t_958|ref=Lev.sel._14
-3	εὐσεβῶς	εὐσεβής	d	d--------	_	8	ADV	_	t_952|t_957|ref=Lev.sel._14
-4	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_953|t_957|ref=Lev.sel._14
-5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_954|t_955|ref=Lev.sel._14
-6	αἰῶνι	αἰών	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_955|t_953|ref=Lev.sel._14
-7	τούτῳ	οὗτος	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_956|t_955|ref=Lev.sel._14
-8	πολιτευόμενον	πολιτεύω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_957|t_958|ref=Lev.sel._14
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_958|t_950|ref=Lev.sel._14
-10	διὰ	διά	r	r--------	_	16	AuxP	_	t_959|t_965|ref=Lev.sel._14
-11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_960|t_962|ref=Lev.sel._14
-12	μέλλοντα	μέλλω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	ATR	_	t_961|t_962|ref=Lev.sel._14
-13	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	10	ADV	_	t_962|t_959|ref=Lev.sel._14
-14	ἐπʼ	ἐπί	r	r--------	_	16	AuxP	_	t_963|t_965|ref=Lev.sel._14
-15	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	14	ADV	_	t_964|t_963|ref=Lev.sel._14
-16	σπεύδοντα	σπεύδω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ATR	_	t_965|t_958|ref=Lev.sel._14
-17	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Lev.sel._1
-18	·	·	u	u--------	_	17	AuxK	_	t_966|e_30|ref=Lev.sel._14
+1	Δικηλῆ	δικηλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	17	OBJ	_	t_950|e_30|ref=Lev.sel._15
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_951|t_958|ref=Lev.sel._15
+3	εὐσεβῶς	εὐσεβής	d	d--------	_	8	ADV	_	t_952|t_957|ref=Lev.sel._15
+4	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_953|t_957|ref=Lev.sel._15
+5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_954|t_955|ref=Lev.sel._15
+6	αἰῶνι	αἰών	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_955|t_953|ref=Lev.sel._15
+7	τούτῳ	οὗτος	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_956|t_955|ref=Lev.sel._15
+8	πολιτευόμενον	πολιτεύω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	9	ATR	_	t_957|t_958|ref=Lev.sel._15
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_958|t_950|ref=Lev.sel._15
+10	διὰ	διά	r	r--------	_	16	AuxP	_	t_959|t_965|ref=Lev.sel._15
+11	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_960|t_962|ref=Lev.sel._15
+12	μέλλοντα	μέλλω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	13	ATR	_	t_961|t_962|ref=Lev.sel._15
+13	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	10	ADV	_	t_962|t_959|ref=Lev.sel._15
+14	ἐπʼ	ἐπί	r	r--------	_	16	AuxP	_	t_963|t_965|ref=Lev.sel._15
+15	ἐκεῖνον	ἐκεῖνος	p	p-s---ma-	Case=a|Gender=m|Number=s	14	ADV	_	t_964|t_963|ref=Lev.sel._15
+16	σπεύδοντα	σπεύδω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ATR	_	t_965|t_958|ref=Lev.sel._15
+17	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Lev.sel._15
+18	·	·	u	u--------	_	17	AuxK	_	t_966|e_30|ref=Lev.sel._15
 
-# source = Origen, Lev.sel._14-15
+# source = Origen, Lev.sel._15
 # text = πρὸς δὲ τὸ διχηλεῖν καὶ ὀνυχιστῆρας ὀνυχίζειν περιαιρούμενον τὰ περιττὰ καὶ νεκρὰ [0] .
 # sent_id = 73
-1	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_967|e_31|ref=Lev.sel._14
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_968|e_31|ref=Lev.sel._14
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_969|t_971|ref=Lev.sel._14
-4	διχηλεῖν	διχηλέω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_970|t_971|ref=Lev.sel._14
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_971|t_967|ref=Lev.sel._14
-6	ὀνυχιστῆρας	ὀνυχιστής	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_972|t_973|ref=Lev.sel._14
-7	ὀνυχίζειν	ὀνυχίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	ADV	_	t_973|t_971|ref=Lev.sel._14
+1	πρὸς	πρός	r	r--------	_	13	AuxP	_	t_967|e_31|ref=Lev.sel._15
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_968|e_31|ref=Lev.sel._15
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_969|t_971|ref=Lev.sel._15
+4	διχηλεῖν	διχηλέω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_970|t_971|ref=Lev.sel._15
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_971|t_967|ref=Lev.sel._15
+6	ὀνυχιστῆρας	ὀνυχιστής	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_972|t_973|ref=Lev.sel._15
+7	ὀνυχίζειν	ὀνυχίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	5	ADV	_	t_973|t_971|ref=Lev.sel._15
 8	περιαιρούμενον	περιαιρέω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	13	ADV	_	t_974|e_31|ref=Lev.sel._15
 9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_975|t_976|ref=Lev.sel._15
 10	περιττὰ	περισσός	a	a-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_976|t_977|ref=Lev.sel._15
 11	καὶ	καί	c	c--------	_	8	COORD	_	t_977|t_974|ref=Lev.sel._15
 12	νεκρὰ	νεκρός	a	a-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_978|t_977|ref=Lev.sel._15
-13	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=Lev.sel._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=Lev.sel._15
 14	.	.	u	u--------	_	13	AuxK	_	t_979|e_31|ref=Lev.sel._15
 
 # source = Origen, Lev.sel._15
@@ -1321,13 +1321,13 @@
 4	τουτέστι	τουτέστι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	ExD	_	t_991|e_32|ref=Lev.sel._15
 5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_992|t_993|ref=Lev.sel._15
 6	πορείας	πορεία	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_993|t_990|ref=Lev.sel._15
-7	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=Lev.sel._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=Lev.sel._15
 8	.	.	u	u--------	_	7	AuxK	_	t_994|e_32|ref=Lev.sel._15
 
-# source = Origen, Lev.sel._14-15
+# source = Origen, Lev.sel._15
 # text = Πρὸς τ οὐτοις καὶ ἀνὰ μηρυκισμὸν οὐκ ἀποτιθέμενον μόνον τὴν πνευματικὴν τροφὴν , ἀλλὰ καὶ ἀναμιμνησκόμενον καὶ συνεχῶς αὐτὴν μελετῶντα [0] .
 # sent_id = 76
-1	Πρὸς	πρός	r	r--------	_	4	AuxP	_	t_995|t_998|ref=Lev.sel._14
+1	Πρὸς	πρός	r	r--------	_	4	AuxP	_	t_995|t_998|ref=Lev.sel._15
 2	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_996|t_997|ref=Lev.sel._15
 3	οὐτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_997|t_995|ref=Lev.sel._15
 4	καὶ	καί	c	c--------	_	14	COORD	_	t_998|t_1008|ref=Lev.sel._15
@@ -1347,58 +1347,58 @@
 18	συνεχῶς	συνεχής	d	d--------	_	20	ADV	_	t_1012|t_1014|ref=Lev.sel._15
 19	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_1013|t_1014|ref=Lev.sel._15
 20	μελετῶντα	μελετάω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	17	ADV	_	t_1014|t_1011|ref=Lev.sel._15
-21	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Lev.sel._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Lev.sel._15
 22	.	.	u	u--------	_	21	AuxK	_	t_1015|e_33|ref=Lev.sel._15
 
-# source = Origen, Lev.sel._15
+# source = Origen, Lev.sel._16
 # text = Οὖτος ὁ νόμος περὶ τῶν κτηνῶν καὶ τῶν πετεινῶν καὶ πάσης ψυχῆς [0] .
 # sent_id = 77
-1	Οὖτος	οὖτος	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_1016|e_34|ref=Lev.sel._15
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1017|t_1018|ref=Lev.sel._15
-3	νόμος	νόμος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_1018|e_34|ref=Lev.sel._15
-4	περὶ	περί	r	r--------	_	13	AuxP	_	t_1019|e_34|ref=Lev.sel._15
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1020|t_1021|ref=Lev.sel._15
-6	κτηνῶν	κτῆνος	n	n-p---ng-	Case=g|Gender=n|Number=p	10	PNOM	_	t_1021|t_1025|ref=Lev.sel._15
-7	καὶ	καί	d	d--------	_	10	AuxY	_	t_1022|t_1025|ref=Lev.sel._15
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_1023|t_1024|ref=Lev.sel._15
-9	πετεινῶν	πετεινόν	n	n-p---ng-	Case=g|Gender=n|Number=p	10	PNOM	_	t_1024|t_1025|ref=Lev.sel._15
-10	καὶ	καί	c	c--------	_	4	COORD	_	t_1025|t_1019|ref=Lev.sel._15
-11	πάσης	πᾶς	a	a-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1026|t_1027|ref=Lev.sel._15
-12	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1027|t_1025|ref=Lev.sel._15
-13	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=Lev.sel._1
-14	.	.	u	u--------	_	13	AuxK	_	t_1028|e_34|ref=Lev.sel._15
+1	Οὖτος	οὖτος	p	p-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_1016|e_34|ref=Lev.sel._16
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1017|t_1018|ref=Lev.sel._16
+3	νόμος	νόμος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_1018|e_34|ref=Lev.sel._16
+4	περὶ	περί	r	r--------	_	13	AuxP	_	t_1019|e_34|ref=Lev.sel._16
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1020|t_1021|ref=Lev.sel._16
+6	κτηνῶν	κτῆνος	n	n-p---ng-	Case=g|Gender=n|Number=p	10	PNOM	_	t_1021|t_1025|ref=Lev.sel._16
+7	καὶ	καί	d	d--------	_	10	AuxY	_	t_1022|t_1025|ref=Lev.sel._16
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_1023|t_1024|ref=Lev.sel._16
+9	πετεινῶν	πετεινόν	n	n-p---ng-	Case=g|Gender=n|Number=p	10	PNOM	_	t_1024|t_1025|ref=Lev.sel._16
+10	καὶ	καί	c	c--------	_	4	COORD	_	t_1025|t_1019|ref=Lev.sel._16
+11	πάσης	πᾶς	a	a-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1026|t_1027|ref=Lev.sel._16
+12	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1027|t_1025|ref=Lev.sel._16
+13	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=Lev.sel._16
+14	.	.	u	u--------	_	13	AuxK	_	t_1028|e_34|ref=Lev.sel._16
 
-# source = Origen, Lev.sel._15
+# source = Origen, Lev.sel._16
 # text = Πολὺν ποιεῖται λόγον περὶ καθαρολ καὶ ἀκαθάρτου ·
 # sent_id = 78
-1	Πολὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_1029|t_1031|ref=Lev.sel._15
-2	ποιεῖται	ποιέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1030|0|ref=Lev.sel._15
-3	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1031|t_1030|ref=Lev.sel._15
-4	περὶ	περί	r	r--------	_	2	AuxP	_	t_1032|t_1030|ref=Lev.sel._15
-5	καθαρολ	καθαρολ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_1033|t_1034|ref=Lev.sel._15
-6	καὶ	καί	c	c--------	_	4	COORD	_	t_1034|t_1032|ref=Lev.sel._15
-7	ἀκαθάρτου	ἀκάθαρτος	a	a-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_1035|t_1034|ref=Lev.sel._15
-8	·	·	u	u--------	_	2	AuxK	_	t_1036|t_1030|ref=Lev.sel._15
+1	Πολὺν	πολύς	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_1029|t_1031|ref=Lev.sel._16
+2	ποιεῖται	ποιέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1030|0|ref=Lev.sel._16
+3	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1031|t_1030|ref=Lev.sel._16
+4	περὶ	περί	r	r--------	_	2	AuxP	_	t_1032|t_1030|ref=Lev.sel._16
+5	καθαρολ	καθαρολ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_1033|t_1034|ref=Lev.sel._16
+6	καὶ	καί	c	c--------	_	4	COORD	_	t_1034|t_1032|ref=Lev.sel._16
+7	ἀκαθάρτου	ἀκάθαρτος	a	a-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_1035|t_1034|ref=Lev.sel._16
+8	·	·	u	u--------	_	2	AuxK	_	t_1036|t_1030|ref=Lev.sel._16
 
-# source = Origen, Lev.sel._15
+# source = Origen, Lev.sel._16
 # text = πρῶτον ἁγίαν εἶναι τὴν ψυχὴν ἐκπαιδεύει .
 # sent_id = 79
-1	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_1037|t_1042|ref=Lev.sel._15
-2	ἁγίαν	ἅγιος	a	a-s---fa-	Case=a|Gender=f|Number=s	3	PNOM	_	t_1038|t_1039|ref=Lev.sel._15
-3	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_1039|t_1042|ref=Lev.sel._15
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_1040|t_1041|ref=Lev.sel._15
-5	ψυχὴν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	3	SBJ	_	t_1041|t_1039|ref=Lev.sel._15
-6	ἐκπαιδεύει	ἐκπαιδεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1042|0|ref=Lev.sel._15
-7	.	.	u	u--------	_	6	AuxK	_	t_1043|t_1042|ref=Lev.sel._15
+1	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_1037|t_1042|ref=Lev.sel._16
+2	ἁγίαν	ἅγιος	a	a-s---fa-	Case=a|Gender=f|Number=s	3	PNOM	_	t_1038|t_1039|ref=Lev.sel._16
+3	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	6	SBJ	_	t_1039|t_1042|ref=Lev.sel._16
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_1040|t_1041|ref=Lev.sel._16
+5	ψυχὴν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	3	SBJ	_	t_1041|t_1039|ref=Lev.sel._16
+6	ἐκπαιδεύει	ἐκπαιδεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1042|0|ref=Lev.sel._16
+7	.	.	u	u--------	_	6	AuxK	_	t_1043|t_1042|ref=Lev.sel._16
 
-# source = Origen, Lev.sel._15-16
+# source = Origen, Lev.sel._16
 # text = Εἰ γὰρ τὸ φυσικὸν τοιοῦτον οἷον ἐκ προστάγματος Θεοῦ γέγονεν , ἀκάθαρτον , πόσῳ μᾶλλον τὸ ἀπὸ μοχθηρᾶς προαιρέσεως , καὶ οὐκ ἐκ προστάγμα τος Θεοῦ γεγονός [0] [1] ;
 # sent_id = 80
-1	Εἰ	εἰ	c	c--------	_	28	AuxC	_	t_1044|e_35|ref=Lev.sel._15
-2	γὰρ	γάρ	d	d--------	_	28	AuxY	_	t_1045|e_35|ref=Lev.sel._15
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1046|t_1047|ref=Lev.sel._15
-4	φυσικὸν	φυσικός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_1047|t_1053|ref=Lev.sel._15
-5	τοιοῦτον	τοιοῦτος	p	p-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_1048|t_1053|ref=Lev.sel._15
+1	Εἰ	εἰ	c	c--------	_	28	AuxC	_	t_1044|e_35|ref=Lev.sel._16
+2	γὰρ	γάρ	d	d--------	_	28	AuxY	_	t_1045|e_35|ref=Lev.sel._16
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1046|t_1047|ref=Lev.sel._16
+4	φυσικὸν	φυσικός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_1047|t_1053|ref=Lev.sel._16
+5	τοιοῦτον	τοιοῦτος	p	p-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_1048|t_1053|ref=Lev.sel._16
 6	οἷον	οἷος	p	p-s---nn-	Case=a|Gender=n|Number=s	10	PNOM	_	t_1049|t_1053|ref=Lev.sel._16
 7	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_1050|t_1053|ref=Lev.sel._16
 8	προστάγματος	πρόσταγμα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_1051|t_1050|ref=Lev.sel._16
@@ -1411,7 +1411,7 @@
 15	μᾶλλον	μᾶλλον	d	d-------c	_	21	ADV	_	t_1058|t_1064|ref=Lev.sel._16
 16	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	29	SBJ	_	t_1059|e_36|ref=Lev.sel._16
 17	ἀπὸ	ἀπό	r	r--------	_	16	AuxP	_	t_1060|t_1059|ref=Lev.sel._16
-18	μοχθηρᾶς	μοχθηρός	a	a-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1061|t_1062|ref=Lev.sel._15
+18	μοχθηρᾶς	μοχθηρός	a	a-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1061|t_1062|ref=Lev.sel._16
 19	προαιρέσεως	προαίρεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_1062|t_1060|ref=Lev.sel._16
 20	,	,	u	u--------	_	28	AuxX	_	t_1063|e_35|ref=Lev.sel._16
 21	καὶ	καί	c	c--------	_	29	COORD	_	t_1064|e_36|ref=Lev.sel._16
@@ -1421,8 +1421,8 @@
 25	τος	τος	n	n-s---ng-	Case=g|Gender=n|Number=s	23	PNOM	_	t_1068|t_1066|ref=Lev.sel._16
 26	Θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_1069|t_1068|ref=Lev.sel._16
 27	γεγονός	γίγνομαι	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	21	PNOM	_	t_1070|t_1064|ref=Lev.sel._16
-28	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Lev.sel._1
-29	[1]	[1]	-	---------	_	28	PRED	_	e_36|e_35|ref=Lev.sel._1
+28	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Lev.sel._16
+29	[1]	[1]	-	---------	_	28	PRED	_	e_36|e_35|ref=Lev.sel._16
 30	;	;	u	u--------	_	28	AuxK	_	t_1071|e_35|ref=Lev.sel._16
 
 # source = Origen, Lev.sel._16
@@ -1453,61 +1453,61 @@
 23	ποιοῦν	ποιέω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	22	ADV	_	t_1094|t_1093|ref=Lev.sel._16
 24	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_1095|t_1096|ref=Lev.sel._16
 25	ἀπηγόρευσεν	ἀπαγορεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	23	OBJ	_	t_1096|t_1094|ref=Lev.sel._16
-26	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Lev.sel._1
+26	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Lev.sel._16
 27	;	;	u	u--------	_	26	AuxK	_	t_1097|e_37|ref=Lev.sel._16
 
-# source = Origen, Lev.sel._16
+# source = Origen, Lev.sel._17
 # text = Ἀνδρὡπτῳ ἐάν τανι γένηται ἐν δέρματι χρωτὸς αὐτοῦ οὐλή .
 # sent_id = 82
-1	Ἀνδρὡπτῳ	ἀνδρώψ	n	n-s---md-	Case=d|Gender=m|Number=s	0	ADV	_	t_1098|0|ref=Lev.sel._16
-2	ἐάν	ἐάν	c	c--------	_	1	AuxC	_	t_1099|t_1098|ref=Lev.sel._16
-3	τανι	τανι	n	n-s---fn-	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ADV	_	t_1100|t_1099|ref=Lev.sel._16
-4	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ADV	_	t_1101|t_1099|ref=Lev.sel._16
-5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1102|t_1101|ref=Lev.sel._16
-6	δέρματι	δέρμα	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ADV	_	t_1103|t_1102|ref=Lev.sel._16
-7	χρωτὸς	χρώς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1104|t_1101|ref=Lev.sel._16
-8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1105|t_1104|ref=Lev.sel._16
-9	οὐλή	οὐλή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1106|t_1101|ref=Lev.sel._16
-10	.	.	u	u--------	_	1	AuxK	_	t_1107|t_1098|ref=Lev.sel._16
+1	Ἀνδρὡπτῳ	ἀνδρώψ	n	n-s---md-	Case=d|Gender=m|Number=s	0	ADV	_	t_1098|0|ref=Lev.sel._17
+2	ἐάν	ἐάν	c	c--------	_	1	AuxC	_	t_1099|t_1098|ref=Lev.sel._17
+3	τανι	τανι	n	n-s---fn-	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ADV	_	t_1100|t_1099|ref=Lev.sel._17
+4	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ADV	_	t_1101|t_1099|ref=Lev.sel._17
+5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1102|t_1101|ref=Lev.sel._17
+6	δέρματι	δέρμα	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ADV	_	t_1103|t_1102|ref=Lev.sel._17
+7	χρωτὸς	χρώς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1104|t_1101|ref=Lev.sel._17
+8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1105|t_1104|ref=Lev.sel._17
+9	οὐλή	οὐλή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1106|t_1101|ref=Lev.sel._17
+10	.	.	u	u--------	_	1	AuxK	_	t_1107|t_1098|ref=Lev.sel._17
 
-# source = Origen, Lev.sel._16
+# source = Origen, Lev.sel._17
 # text = Ἀνάγεται ταῦτα ἐπί τινας μώμους τῆς ψυχῆς .
 # sent_id = 83
-1	Ἀνάγεται	ἀνάγω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1108|0|ref=Lev.sel._16
-2	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_1109|t_1108|ref=Lev.sel._16
-3	ἐπί	ἐπί	r	r--------	_	1	AuxP	_	t_1110|t_1108|ref=Lev.sel._16
-4	τινας	τις	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_1111|t_1112|ref=Lev.sel._16
-5	μώμους	μώμους	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_1112|t_1110|ref=Lev.sel._16
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1113|t_1114|ref=Lev.sel._16
-7	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_1114|t_1112|ref=Lev.sel._16
-8	.	.	u	u--------	_	1	AuxK	_	t_1115|t_1108|ref=Lev.sel._16
+1	Ἀνάγεται	ἀνάγω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1108|0|ref=Lev.sel._17
+2	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_1109|t_1108|ref=Lev.sel._17
+3	ἐπί	ἐπί	r	r--------	_	1	AuxP	_	t_1110|t_1108|ref=Lev.sel._17
+4	τινας	τις	a	a-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_1111|t_1112|ref=Lev.sel._17
+5	μώμους	μώμους	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_1112|t_1110|ref=Lev.sel._17
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1113|t_1114|ref=Lev.sel._17
+7	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_1114|t_1112|ref=Lev.sel._17
+8	.	.	u	u--------	_	1	AuxK	_	t_1115|t_1108|ref=Lev.sel._17
 
-# source = Origen, Lev.sel._16-17
+# source = Origen, Lev.sel._17
 # text = Καὶ ὥσπερ ἐπὶ τῶν τοῦ σώματος τραυμάτων μετὰ τὴν θεραπείαν ἔσθʼ ὅτε ἴχνος τοῦ πεπονθέναι τοὺς τόπους καταλείπεται ἐν τῇ καλουμένῃ οὐλῇ [0] ·
 # sent_id = 84
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1116|0|ref=Lev.sel._16
-2	ὥσπερ	ὥσπερ	c	c--------	_	18	AuxC	_	t_1117|t_1133|ref=Lev.sel._16
-3	ἐπὶ	ἐπί	r	r--------	_	23	AuxP	_	t_1118|e_38|ref=Lev.sel._16
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1119|t_1122|ref=Lev.sel._16
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1120|t_1121|ref=Lev.sel._16
-6	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_1121|t_1122|ref=Lev.sel._16
-7	τραυμάτων	τραῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_1122|t_1118|ref=Lev.sel._16
-8	μετὰ	μετά	r	r--------	_	11	AuxP	_	t_1123|t_1126|ref=Lev.sel._16
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1124|t_1125|ref=Lev.sel._16
-10	θεραπείαν	θεραπεία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_1125|t_1123|ref=Lev.sel._16
-11	ἔσθʼ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_1126|t_1116|ref=Lev.sel._16
-12	ὅτε	ὅτε	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1127|t_1128|ref=Lev.sel._16
-13	ἴχνος	ἴχνος	n	n-s---nn-	Case=n|Gender=n|Number=s	18	SBJ	_	t_1128|t_1133|ref=Lev.sel._16
-14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1129|t_1130|ref=Lev.sel._16
-15	πεπονθέναι	πάσχω	v	v--rna---	Mood=n|Tense=r|Voice=a	13	ATR	_	t_1130|t_1128|ref=Lev.sel._16
-16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_1131|t_1132|ref=Lev.sel._16
-17	τόπους	τόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	15	OBJ	_	t_1132|t_1130|ref=Lev.sel._16
-18	καταλείπεται	καταλιμπάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	PRED	_	t_1133|t_1116|ref=Lev.sel._16
-19	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_1134|t_1133|ref=Lev.sel._16
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1116|0|ref=Lev.sel._17
+2	ὥσπερ	ὥσπερ	c	c--------	_	18	AuxC	_	t_1117|t_1133|ref=Lev.sel._17
+3	ἐπὶ	ἐπί	r	r--------	_	23	AuxP	_	t_1118|e_38|ref=Lev.sel._17
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1119|t_1122|ref=Lev.sel._17
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1120|t_1121|ref=Lev.sel._17
+6	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_1121|t_1122|ref=Lev.sel._17
+7	τραυμάτων	τραῦμα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_1122|t_1118|ref=Lev.sel._17
+8	μετὰ	μετά	r	r--------	_	11	AuxP	_	t_1123|t_1126|ref=Lev.sel._17
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1124|t_1125|ref=Lev.sel._17
+10	θεραπείαν	θεραπεία	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_1125|t_1123|ref=Lev.sel._17
+11	ἔσθʼ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_1126|t_1116|ref=Lev.sel._17
+12	ὅτε	ὅτε	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1127|t_1128|ref=Lev.sel._17
+13	ἴχνος	ἴχνος	n	n-s---nn-	Case=n|Gender=n|Number=s	18	SBJ	_	t_1128|t_1133|ref=Lev.sel._17
+14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1129|t_1130|ref=Lev.sel._17
+15	πεπονθέναι	πάσχω	v	v--rna---	Mood=n|Tense=r|Voice=a	13	ATR	_	t_1130|t_1128|ref=Lev.sel._17
+16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_1131|t_1132|ref=Lev.sel._17
+17	τόπους	τόπος	n	n-p---ma-	Case=a|Gender=m|Number=p	15	OBJ	_	t_1132|t_1130|ref=Lev.sel._17
+18	καταλείπεται	καταλιμπάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	PRED	_	t_1133|t_1116|ref=Lev.sel._17
+19	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_1134|t_1133|ref=Lev.sel._17
 20	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_1135|t_1136|ref=Lev.sel._17
 21	καλουμένῃ	καλέω	v	v-sppefd-	Case=d|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	19	ADV	_	t_1136|t_1134|ref=Lev.sel._17
 22	οὐλῇ	οὐλή	n	n-s---fd-	Case=d|Gender=f|Number=s	21	PNOM	_	t_1137|t_1136|ref=Lev.sel._17
-23	[0]	[0]	-	---------	_	2	ADV	_	e_38|t_1117|ref=Lev.sel._1
+23	[0]	[0]	-	---------	_	2	ADV	_	e_38|t_1117|ref=Lev.sel._17
 24	·	·	u	u--------	_	1	AuxK	_	t_1138|t_1116|ref=Lev.sel._17
 
 # source = Origen, Lev.sel._17
@@ -1552,60 +1552,60 @@
 13	ἐξεπίστασθαι	ἐξεπίσταμαι	v	v--pne---	Mood=n|Tense=p|Voice=e	1	OBJ	_	t_1171|t_1159|ref=Lev.sel._17
 14	.	.	u	u--------	_	2	AuxK	_	t_1172|t_1160|ref=Lev.sel._17
 
-# source = Origen, Lev.sel._17
+# source = Origen, Lev.sel._18
 # text = Ἀνδρὶ ἢ γυναικὶ ᾧ ἐὰν γένηται αὐτῷ ἀρἡ λέπρας .
 # sent_id = 87
-1	Ἀνδρὶ	ἀνήρ	n	n-s---md-	Case=d|Gender=m|Number=s	2	PNOM	_	t_1173|t_1174|ref=Lev.sel._17
-2	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_1174|t_1178|ref=Lev.sel._17
-3	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	PNOM	_	t_1175|t_1174|ref=Lev.sel._17
-4	ᾧ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_1176|t_1178|ref=Lev.sel._17
-5	ἐὰν	ἐάν	c	c--------	_	6	AuxY	_	t_1177|t_1178|ref=Lev.sel._17
-6	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1178|0|ref=Lev.sel._17
-7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	6	PNOM	_	t_1179|t_1178|ref=Lev.sel._17
-8	ἀρἡ	ἀρή	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_1180|t_1178|ref=Lev.sel._17
-9	λέπρας	λέπρα	n	n-s---fg-	Case=a|Gender=f|Number=p	6	SBJ	_	t_1181|t_1178|ref=Lev.sel._17
-10	.	.	u	u--------	_	6	AuxK	_	t_1182|t_1178|ref=Lev.sel._17
+1	Ἀνδρὶ	ἀνήρ	n	n-s---md-	Case=d|Gender=m|Number=s	2	PNOM	_	t_1173|t_1174|ref=Lev.sel._18
+2	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_1174|t_1178|ref=Lev.sel._18
+3	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	2	PNOM	_	t_1175|t_1174|ref=Lev.sel._18
+4	ᾧ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_1176|t_1178|ref=Lev.sel._18
+5	ἐὰν	ἐάν	c	c--------	_	6	AuxY	_	t_1177|t_1178|ref=Lev.sel._18
+6	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1178|0|ref=Lev.sel._18
+7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	6	PNOM	_	t_1179|t_1178|ref=Lev.sel._18
+8	ἀρἡ	ἀρή	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_1180|t_1178|ref=Lev.sel._18
+9	λέπρας	λέπρα	n	n-s---fg-	Case=a|Gender=f|Number=p	6	SBJ	_	t_1181|t_1178|ref=Lev.sel._18
+10	.	.	u	u--------	_	6	AuxK	_	t_1182|t_1178|ref=Lev.sel._18
 
-# source = Origen, Lev.sel._17
+# source = Origen, Lev.sel._18
 # text = Παρατηρητέον ἐφʼ ὧν μὲν λέγεται ἀνθρώπων [0] ·
 # sent_id = 88
-1	Παρατηρητέον	παρατηρητέον	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_1183|e_39|ref=Lev.sel._17
-2	ἐφʼ	ἐπί	r	r--------	_	5	AuxP	_	t_1184|t_1187|ref=Lev.sel._17
-3	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ADV	_	t_1185|t_1184|ref=Lev.sel._17
-4	μὲν	μέν	d	d--------	_	5	AuxY	_	t_1186|t_1187|ref=Lev.sel._17
-5	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	SBJ	_	t_1187|e_39|ref=Lev.sel._17
-6	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1188|t_1185|ref=Lev.sel._17
-7	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Lev.sel._1
-8	·	·	u	u--------	_	7	AuxK	_	t_1189|e_39|ref=Lev.sel._17
+1	Παρατηρητέον	παρατηρητέον	a	a-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_1183|e_39|ref=Lev.sel._18
+2	ἐφʼ	ἐπί	r	r--------	_	5	AuxP	_	t_1184|t_1187|ref=Lev.sel._18
+3	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	2	ADV	_	t_1185|t_1184|ref=Lev.sel._18
+4	μὲν	μέν	d	d--------	_	5	AuxY	_	t_1186|t_1187|ref=Lev.sel._18
+5	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	7	SBJ	_	t_1187|e_39|ref=Lev.sel._18
+6	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1188|t_1185|ref=Lev.sel._18
+7	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Lev.sel._18
+8	·	·	u	u--------	_	7	AuxK	_	t_1189|e_39|ref=Lev.sel._18
 
-# source = Origen, Lev.sel._17
+# source = Origen, Lev.sel._18
 # text = « Ἐάν τινι γένηται ἐν δέρματι χρωτὸς αὐτοῦ · »
 # sent_id = 89
-1	«	«	u	u--------	_	2	AuxG	_	t_1190|t_1191|ref=Lev.sel._17
-2	Ἐάν	ἐάν	c	c--------	_	0	AuxC	_	t_1191|0|ref=Lev.sel._17
-3	τινι	τις	p	p-s---cd-	Case=d|Gender=c|Number=s	4	ADV	_	t_1192|t_1193|ref=Lev.sel._17
-4	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ADV	_	t_1193|t_1191|ref=Lev.sel._17
-5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1194|t_1193|ref=Lev.sel._17
-6	δέρματι	δέρμα	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ADV	_	t_1195|t_1194|ref=Lev.sel._17
-7	χρωτὸς	χρώς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1196|t_1193|ref=Lev.sel._17
-8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1197|t_1196|ref=Lev.sel._17
-9	·	·	u	u--------	_	2	AuxK	_	t_1198|t_1191|ref=Lev.sel._17
-10	»	»	u	u--------	_	2	AuxG	_	t_1199|t_1191|ref=Lev.sel._17
+1	«	«	u	u--------	_	2	AuxG	_	t_1190|t_1191|ref=Lev.sel._18
+2	Ἐάν	ἐάν	c	c--------	_	0	AuxC	_	t_1191|0|ref=Lev.sel._18
+3	τινι	τις	p	p-s---cd-	Case=d|Gender=c|Number=s	4	ADV	_	t_1192|t_1193|ref=Lev.sel._18
+4	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	2	ADV	_	t_1193|t_1191|ref=Lev.sel._18
+5	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1194|t_1193|ref=Lev.sel._18
+6	δέρματι	δέρμα	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ADV	_	t_1195|t_1194|ref=Lev.sel._18
+7	χρωτὸς	χρώς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1196|t_1193|ref=Lev.sel._18
+8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1197|t_1196|ref=Lev.sel._18
+9	·	·	u	u--------	_	2	AuxK	_	t_1198|t_1191|ref=Lev.sel._18
+10	»	»	u	u--------	_	2	AuxG	_	t_1199|t_1191|ref=Lev.sel._18
 
-# source = Origen, Lev.sel._17-18
+# source = Origen, Lev.sel._18
 # text = ἥ « Ἀνδρὶ ἢ γυναικὶ , ᾧ ἐὰν γένηται ἐν αὐτοῖς ἁρὴ λέπρας · »
 # sent_id = 90
-1	ἥ	ὅς	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_1200|t_1203|ref=Lev.sel._17
-2	«	«	u	u--------	_	9	AuxG	_	t_1201|t_1208|ref=Lev.sel._17
-3	Ἀνδρὶ	ἀνήρ	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1202|t_1203|ref=Lev.sel._17
-4	ἢ	ἤ1	c	c--------	_	9	COORD	_	t_1203|t_1208|ref=Lev.sel._17
-5	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_1204|t_1203|ref=Lev.sel._17
-6	,	,	u	u--------	_	9	AuxX	_	t_1205|t_1208|ref=Lev.sel._17
-7	ᾧ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_1206|t_1208|ref=Lev.sel._17
-8	ἐὰν	ἐάν	g	g--------	_	9	AuxY	_	t_1207|t_1208|ref=Lev.sel._17
-9	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1208|0|ref=Lev.sel._17
-10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1209|t_1208|ref=Lev.sel._17
-11	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_1210|t_1209|ref=Lev.sel._17
+1	ἥ	ὅς	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_1200|t_1203|ref=Lev.sel._18
+2	«	«	u	u--------	_	9	AuxG	_	t_1201|t_1208|ref=Lev.sel._18
+3	Ἀνδρὶ	ἀνήρ	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1202|t_1203|ref=Lev.sel._18
+4	ἢ	ἤ1	c	c--------	_	9	COORD	_	t_1203|t_1208|ref=Lev.sel._18
+5	γυναικὶ	γυνή	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_1204|t_1203|ref=Lev.sel._18
+6	,	,	u	u--------	_	9	AuxX	_	t_1205|t_1208|ref=Lev.sel._18
+7	ᾧ	ὅς	p	p-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_1206|t_1208|ref=Lev.sel._18
+8	ἐὰν	ἐάν	g	g--------	_	9	AuxY	_	t_1207|t_1208|ref=Lev.sel._18
+9	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1208|0|ref=Lev.sel._18
+10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1209|t_1208|ref=Lev.sel._18
+11	αὐτοῖς	αὐτός	a	a-p---md-	Case=d|Gender=m|Number=p	10	ADV	_	t_1210|t_1209|ref=Lev.sel._18
 12	ἁρὴ	ἁρή	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_1211|t_1208|ref=Lev.sel._18
 13	λέπρας	λέπρα	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1212|t_1211|ref=Lev.sel._18
 14	·	·	u	u--------	_	2	AuxK	_	t_1213|t_1201|ref=Lev.sel._18
@@ -1626,16 +1626,16 @@
 10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	11	ATR	_	t_1224|t_1225|ref=Lev.sel._18
 11	δέρματι	δέρμα	n	n-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_1225|t_1223|ref=Lev.sel._18
 12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1226|t_1225|ref=Lev.sel._18
-13	ἕλκος	ἕλκος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_1227|t_1222|ref=Lev.sel._17
+13	ἕλκος	ἕλκος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_1227|t_1222|ref=Lev.sel._18
 14	·	·	u	u--------	_	15	AuxK	_	t_1228|e_40|ref=Lev.sel._18
-15	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=Lev.sel._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=Lev.sel._18
 16	»	»	u	u--------	_	15	AuxG	_	t_1229|e_40|ref=Lev.sel._18
 
 # source = Origen, Lev.sel._18
 # text = ἢ [0] ·
 # sent_id = 92
 1	ἢ	ἤ1	d	d--------	_	2	AuxY	_	t_1230|e_41|ref=Lev.sel._18
-2	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=Lev.sel._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=Lev.sel._18
 3	·	·	u	u--------	_	2	AuxK	_	t_1231|e_41|ref=Lev.sel._18
 
 # source = Origen, Lev.sel._18
@@ -1651,7 +1651,7 @@
 8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1239|t_1238|ref=Lev.sel._18
 9	κατάκαυμα	κατάκαυμα	n	n-s---na-	Case=a|Gender=n|Number=p	4	PNOM	_	t_1240|t_1235|ref=Lev.sel._18
 10	πυρός	πῦρ	n	n-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_1241|t_1240|ref=Lev.sel._18
-11	[0]	[0]	-	---------	_	0	PRED	_	e_42|0|ref=Lev.sel._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_42|0|ref=Lev.sel._18
 12	.	.	u	u--------	_	11	AuxK	_	t_1242|e_42|ref=Lev.sel._18
 
 # source = Origen, Lev.sel._18
@@ -1663,64 +1663,64 @@
 4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_1246|t_1244|ref=Lev.sel._18
 5	.	.	u	u--------	_	2	AuxK	_	t_1247|t_1244|ref=Lev.sel._18
 
-# source = Origen, Lev.sel._18
+# source = Origen, Lev.sel._19
 # text = Τὰ ἱμάτια αὐτοῦ ἔσται παραλελυμένα .
 # sent_id = 95
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_1248|t_1249|ref=Lev.sel._18
-2	ἱμάτια	ἱμάτιον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_1249|t_1251|ref=Lev.sel._18
-3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1250|t_1249|ref=Lev.sel._18
-4	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_1251|0|ref=Lev.sel._18
-5	παραλελυμένα	παραλύω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	PNOM	_	t_1252|t_1251|ref=Lev.sel._18
-6	.	.	u	u--------	_	4	AuxK	_	t_1253|t_1251|ref=Lev.sel._18
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_1248|t_1249|ref=Lev.sel._19
+2	ἱμάτια	ἱμάτιον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_1249|t_1251|ref=Lev.sel._19
+3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1250|t_1249|ref=Lev.sel._19
+4	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_1251|0|ref=Lev.sel._19
+5	παραλελυμένα	παραλύω	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	PNOM	_	t_1252|t_1251|ref=Lev.sel._19
+6	.	.	u	u--------	_	4	AuxK	_	t_1253|t_1251|ref=Lev.sel._19
 
-# source = Origen, Lev.sel._18
+# source = Origen, Lev.sel._19
 # text = Διὰ τούτων αἰνίττεται μὴ δεῖν συγκρύπτειν τὰ ἁμαρτήματα , καὶ σκεπάζειν αὐτὰ τὸν τὴν ψυχὴν λελεπρωμένον .
 # sent_id = 96
-1	Διὰ	διά	r	r--------	_	3	AuxP	_	t_1254|t_1256|ref=Lev.sel._18
-2	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1255|t_1254|ref=Lev.sel._18
-3	αἰνίττεται	ἐμφαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1256|0|ref=Lev.sel._18
-4	μὴ	μή	d	d--------	_	5	AuxZ	_	t_1257|t_1258|ref=Lev.sel._18
-5	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_1258|t_1256|ref=Lev.sel._18
-6	συγκρύπτειν	συγκρύπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_1259|t_1263|ref=Lev.sel._18
-7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_1260|t_1261|ref=Lev.sel._18
-8	ἁμαρτήματα	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_1261|t_1259|ref=Lev.sel._18
-9	,	,	u	u--------	_	3	AuxX	_	t_1262|t_1256|ref=Lev.sel._18
-10	καὶ	καί	c	c--------	_	5	COORD	_	t_1263|t_1258|ref=Lev.sel._18
-11	σκεπάζειν	σκεπάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_1264|t_1263|ref=Lev.sel._18
-12	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_1265|t_1264|ref=Lev.sel._18
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_1266|t_1269|ref=Lev.sel._18
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_1267|t_1268|ref=Lev.sel._18
-15	ψυχὴν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_1268|t_1269|ref=Lev.sel._18
-16	λελεπρωμένον	λειπρόω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	11	SBJ	_	t_1269|t_1264|ref=Lev.sel._18
-17	.	.	u	u--------	_	3	AuxK	_	t_1270|t_1256|ref=Lev.sel._18
+1	Διὰ	διά	r	r--------	_	3	AuxP	_	t_1254|t_1256|ref=Lev.sel._19
+2	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1255|t_1254|ref=Lev.sel._19
+3	αἰνίττεται	ἐμφαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1256|0|ref=Lev.sel._19
+4	μὴ	μή	d	d--------	_	5	AuxZ	_	t_1257|t_1258|ref=Lev.sel._19
+5	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_1258|t_1256|ref=Lev.sel._19
+6	συγκρύπτειν	συγκρύπτω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_1259|t_1263|ref=Lev.sel._19
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_1260|t_1261|ref=Lev.sel._19
+8	ἁμαρτήματα	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_1261|t_1259|ref=Lev.sel._19
+9	,	,	u	u--------	_	3	AuxX	_	t_1262|t_1256|ref=Lev.sel._19
+10	καὶ	καί	c	c--------	_	5	COORD	_	t_1263|t_1258|ref=Lev.sel._19
+11	σκεπάζειν	σκεπάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_1264|t_1263|ref=Lev.sel._19
+12	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_1265|t_1264|ref=Lev.sel._19
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_1266|t_1269|ref=Lev.sel._19
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_1267|t_1268|ref=Lev.sel._19
+15	ψυχὴν	ψυχή	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_1268|t_1269|ref=Lev.sel._19
+16	λελεπρωμένον	λειπρόω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	11	SBJ	_	t_1269|t_1264|ref=Lev.sel._19
+17	.	.	u	u--------	_	3	AuxK	_	t_1270|t_1256|ref=Lev.sel._19
 
-# source = Origen, Lev.sel._18
+# source = Origen, Lev.sel._19
 # text = Ὤσπερ τοῦ παραλελυμένου τὰ ἱμάτια οὗ ἐσκέπασται ἡ ἀσχημοσύνη [0] ·
 # sent_id = 97
-1	Ὤσπερ	ὤσπερ	d	d--------	_	10	AuxC	_	t_1271|e_43|ref=Lev.sel._18
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_1272|t_1273|ref=Lev.sel._18
-3	παραλελυμένου	παραλύω	v	v-srpemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	10	PNOM	_	t_1273|e_43|ref=Lev.sel._18
-4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1274|t_1275|ref=Lev.sel._18
-5	ἱμάτια	ἱμάτιον	n	n-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_1275|e_43|ref=Lev.sel._18
-6	οὗ	ὅς	d	d--------	Case=g|Gender=n|Number=s	7	OBJ	_	t_1276|t_1277|ref=Lev.sel._18
-7	ἐσκέπασται	σκέπτομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	5	ATR	_	t_1277|t_1275|ref=Lev.sel._18
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_1278|t_1279|ref=Lev.sel._18
-9	ἀσχημοσύνη	ἀσχημοσύνη	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1279|t_1277|ref=Lev.sel._18
-10	[0]	[0]	-	---------	_	0	PRED	_	e_43|0|ref=Lev.sel._1
-11	·	·	u	u--------	_	10	AuxK	_	t_1280|e_43|ref=Lev.sel._18
+1	Ὤσπερ	ὤσπερ	d	d--------	_	10	AuxC	_	t_1271|e_43|ref=Lev.sel._19
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_1272|t_1273|ref=Lev.sel._19
+3	παραλελυμένου	παραλύω	v	v-srpemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	10	PNOM	_	t_1273|e_43|ref=Lev.sel._19
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1274|t_1275|ref=Lev.sel._19
+5	ἱμάτια	ἱμάτιον	n	n-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_1275|e_43|ref=Lev.sel._19
+6	οὗ	ὅς	d	d--------	Case=g|Gender=n|Number=s	7	OBJ	_	t_1276|t_1277|ref=Lev.sel._19
+7	ἐσκέπασται	σκέπτομαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	5	ATR	_	t_1277|t_1275|ref=Lev.sel._19
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_1278|t_1279|ref=Lev.sel._19
+9	ἀσχημοσύνη	ἀσχημοσύνη	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1279|t_1277|ref=Lev.sel._19
+10	[0]	[0]	-	---------	_	0	PRED	_	e_43|0|ref=Lev.sel._19
+11	·	·	u	u--------	_	10	AuxK	_	t_1280|e_43|ref=Lev.sel._19
 
-# source = Origen, Lev.sel._18-19
+# source = Origen, Lev.sel._19
 # text = οὕτως βούλεται πᾶσιν ἐκκεῖσθαι μὴ γενόμενον τάφον κεκονιαμένον , Τὸ δέ γε περιβεβλῆσθαι τὸ στόμα , ἐστὶ τὸ μὴ ἔχειν πα ῥῥησίαν ἀνοῖξαι τὸ στόμα ·
 # sent_id = 98
-1	οὕτως	οὕτως	d	d--------	_	2	ADV	_	t_1281|t_1282|ref=Lev.sel._18
-2	βούλεται	βούλομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1282|0|ref=Lev.sel._18
-3	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_1283|t_1284|ref=Lev.sel._18
-4	ἐκκεῖσθαι	ἐκκέω	v	v--pne---	Mood=n|Tense=p|Voice=e	2	OBJ	_	t_1284|t_1282|ref=Lev.sel._18
-5	μὴ	μή	d	d--------	_	6	AuxZ	_	t_1285|t_1286|ref=Lev.sel._18
-6	γενόμενον	γίγνομαι	v	v-sapmnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	7	ATR	_	t_1286|t_1287|ref=Lev.sel._18
-7	τάφον	τάφος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1287|t_1284|ref=Lev.sel._18
-8	κεκονιαμένον	κεκονιαμένος	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	7	ATR	_	t_1288|t_1287|ref=Lev.sel._18
-9	,	,	u	u--------	_	2	AuxX	_	t_1289|t_1282|ref=Lev.sel._18
+1	οὕτως	οὕτως	d	d--------	_	2	ADV	_	t_1281|t_1282|ref=Lev.sel._19
+2	βούλεται	βούλομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1282|0|ref=Lev.sel._19
+3	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_1283|t_1284|ref=Lev.sel._19
+4	ἐκκεῖσθαι	ἐκκέω	v	v--pne---	Mood=n|Tense=p|Voice=e	2	OBJ	_	t_1284|t_1282|ref=Lev.sel._19
+5	μὴ	μή	d	d--------	_	6	AuxZ	_	t_1285|t_1286|ref=Lev.sel._19
+6	γενόμενον	γίγνομαι	v	v-sapmnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	7	ATR	_	t_1286|t_1287|ref=Lev.sel._19
+7	τάφον	τάφος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1287|t_1284|ref=Lev.sel._19
+8	κεκονιαμένον	κεκονιαμένος	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	7	ATR	_	t_1288|t_1287|ref=Lev.sel._19
+9	,	,	u	u--------	_	2	AuxX	_	t_1289|t_1282|ref=Lev.sel._19
 10	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1290|t_1293|ref=Lev.sel._19
 11	δέ	δέ	d	d--------	_	2	COORD	_	t_1291|t_1282|ref=Lev.sel._19
 12	γε	γε	d	d--------	_	13	AuxZ	_	t_1292|t_1293|ref=Lev.sel._19
@@ -1756,64 +1756,64 @@
 12	αὑτὸν	ἑαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	13	SBJ	_	t_1318|t_1319|ref=Lev.sel._19
 13	συναυλίζεσθαι	συναυλίζω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	SBJ	_	t_1319|t_1312|ref=Lev.sel._19
 14	χοροῖς	χορός	n	n-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_1320|t_1319|ref=Lev.sel._19
-15	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=Lev.sel._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=Lev.sel._19
 16	.	.	u	u--------	_	15	AuxK	_	t_1321|e_44|ref=Lev.sel._19
 
-# source = Origen, Lev.sel._18-19
+# source = Origen, Lev.sel._20
 # text = Καὶ σφάξουσι τὸ ὀρνίλιον τὸ ἓν εἰς ἀγγεῖον ὀστράκινον .
 # sent_id = 100
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1322|0|ref=Lev.sel._18
-2	σφάξουσι	σφάζω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	1	PRED	_	t_1323|t_1322|ref=Lev.sel._19
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1324|t_1325|ref=Lev.sel._19
-4	ὀρνίλιον	ὀρνίλιος	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_1325|t_1323|ref=Lev.sel._19
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1326|t_1325|ref=Lev.sel._19
-6	ἓν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1327|t_1325|ref=Lev.sel._19
-7	εἰς	εἰς	r	r--------	_	2	AuxP	_	t_1328|t_1323|ref=Lev.sel._19
-8	ἀγγεῖον	ἀγγεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_1329|t_1328|ref=Lev.sel._19
-9	ὀστράκινον	ὀστράκινος	n	n-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1330|t_1329|ref=Lev.sel._19
-10	.	.	u	u--------	_	1	AuxK	_	t_1331|t_1322|ref=Lev.sel._19
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1322|0|ref=Lev.sel._20
+2	σφάξουσι	σφάζω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	1	PRED	_	t_1323|t_1322|ref=Lev.sel._20
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1324|t_1325|ref=Lev.sel._20
+4	ὀρνίλιον	ὀρνίλιος	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_1325|t_1323|ref=Lev.sel._20
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1326|t_1325|ref=Lev.sel._20
+6	ἓν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1327|t_1325|ref=Lev.sel._20
+7	εἰς	εἰς	r	r--------	_	2	AuxP	_	t_1328|t_1323|ref=Lev.sel._20
+8	ἀγγεῖον	ἀγγεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_1329|t_1328|ref=Lev.sel._20
+9	ὀστράκινον	ὀστράκινος	n	n-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1330|t_1329|ref=Lev.sel._20
+10	.	.	u	u--------	_	1	AuxK	_	t_1331|t_1322|ref=Lev.sel._20
 
-# source = Origen, Lev.sel._19
+# source = Origen, Lev.sel._20
 # text = Θύεται τὸ ὀρνίθιον εἰς ἀγγεῖον ὀστράκινον , προεμβληθέντος εἰς αὐτὸ ὕδατος ζῶντος , ἵνα γένηται ὁ καθαρισμὸς ὕδατι καὶ αἵματι , ἅπερ ἐξῆλθεν ἀπὸ τῆς πλευρᾶς τοῦ Σωτῆρος .
 # sent_id = 101
-1	Θύεται	θύω1	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1332|0|ref=Lev.sel._19
-2	τὸ	ὁ	l	l-s---na-	Case=n|Gender=n|Number=s	3	ATR	_	t_1333|t_1334|ref=Lev.sel._19
-3	ὀρνίθιον	ὀρνίθιον	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_1334|t_1332|ref=Lev.sel._19
-4	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_1335|t_1332|ref=Lev.sel._19
-5	ἀγγεῖον	ἀγγεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1336|t_1335|ref=Lev.sel._19
-6	ὀστράκινον	ὀστράκινος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1337|t_1336|ref=Lev.sel._19
-7	,	,	u	u--------	_	1	AuxX	_	t_1338|t_1332|ref=Lev.sel._19
-8	προεμβληθέντος	προεμβάλλω	v	v-sappng-	Case=g|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	1	ADV	_	t_1339|t_1332|ref=Lev.sel._19
-9	εἰς	εἰς	r	r--------	_	8	AuxP	_	t_1340|t_1339|ref=Lev.sel._19
-10	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_1341|t_1340|ref=Lev.sel._19
-11	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	8	SBJ	_	t_1342|t_1339|ref=Lev.sel._19
-12	ζῶντος	ζάω	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_1343|t_1339|ref=Lev.sel._19
-13	,	,	u	u--------	_	1	AuxX	_	t_1344|t_1332|ref=Lev.sel._19
-14	ἵνα	ἵνα	c	c--------	_	1	AuxC	_	t_1345|t_1332|ref=Lev.sel._19
-15	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	14	ADV	_	t_1346|t_1345|ref=Lev.sel._19
-16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_1347|t_1348|ref=Lev.sel._19
-17	καθαρισμὸς	καθαρισμός	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1348|t_1346|ref=Lev.sel._19
-18	ὕδατι	ὕδωρ	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ADV	_	t_1349|t_1350|ref=Lev.sel._19
-19	καὶ	καί	c	c--------	_	15	COORD	_	t_1350|t_1346|ref=Lev.sel._19
-20	αἵματι	αἷμα	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ADV	_	t_1351|t_1350|ref=Lev.sel._19
-21	,	,	u	u--------	_	1	AuxX	_	t_1352|t_1332|ref=Lev.sel._19
-22	ἅπερ	ὅσπερ	p	p-p---na-	Case=n|Gender=n|Number=p	23	SBJ	_	t_1353|t_1354|ref=Lev.sel._19
-23	ἐξῆλθεν	ἐξέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	17	ATR	_	t_1354|t_1348|ref=Lev.sel._19
-24	ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_1355|t_1354|ref=Lev.sel._19
-25	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_1356|t_1357|ref=Lev.sel._19
-26	πλευρᾶς	πλευρά	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ADV	_	t_1357|t_1355|ref=Lev.sel._19
-27	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	28	ATR	_	t_1358|t_1359|ref=Lev.sel._19
-28	Σωτῆρος	σωτήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_1359|t_1357|ref=Lev.sel._19
-29	.	.	u	u--------	_	1	AuxK	_	t_1360|t_1332|ref=Lev.sel._19
+1	Θύεται	θύω1	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1332|0|ref=Lev.sel._20
+2	τὸ	ὁ	l	l-s---na-	Case=n|Gender=n|Number=s	3	ATR	_	t_1333|t_1334|ref=Lev.sel._20
+3	ὀρνίθιον	ὀρνίθιον	n	n-s---nn-	Case=n|Gender=n|Number=s	1	SBJ	_	t_1334|t_1332|ref=Lev.sel._20
+4	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_1335|t_1332|ref=Lev.sel._20
+5	ἀγγεῖον	ἀγγεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1336|t_1335|ref=Lev.sel._20
+6	ὀστράκινον	ὀστράκινος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1337|t_1336|ref=Lev.sel._20
+7	,	,	u	u--------	_	1	AuxX	_	t_1338|t_1332|ref=Lev.sel._20
+8	προεμβληθέντος	προεμβάλλω	v	v-sappng-	Case=g|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	1	ADV	_	t_1339|t_1332|ref=Lev.sel._20
+9	εἰς	εἰς	r	r--------	_	8	AuxP	_	t_1340|t_1339|ref=Lev.sel._20
+10	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_1341|t_1340|ref=Lev.sel._20
+11	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	8	SBJ	_	t_1342|t_1339|ref=Lev.sel._20
+12	ζῶντος	ζάω	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_1343|t_1339|ref=Lev.sel._20
+13	,	,	u	u--------	_	1	AuxX	_	t_1344|t_1332|ref=Lev.sel._20
+14	ἵνα	ἵνα	c	c--------	_	1	AuxC	_	t_1345|t_1332|ref=Lev.sel._20
+15	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	14	ADV	_	t_1346|t_1345|ref=Lev.sel._20
+16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_1347|t_1348|ref=Lev.sel._20
+17	καθαρισμὸς	καθαρισμός	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1348|t_1346|ref=Lev.sel._20
+18	ὕδατι	ὕδωρ	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ADV	_	t_1349|t_1350|ref=Lev.sel._20
+19	καὶ	καί	c	c--------	_	15	COORD	_	t_1350|t_1346|ref=Lev.sel._20
+20	αἵματι	αἷμα	n	n-s---nd-	Case=d|Gender=n|Number=s	19	ADV	_	t_1351|t_1350|ref=Lev.sel._20
+21	,	,	u	u--------	_	1	AuxX	_	t_1352|t_1332|ref=Lev.sel._20
+22	ἅπερ	ὅσπερ	p	p-p---na-	Case=n|Gender=n|Number=p	23	SBJ	_	t_1353|t_1354|ref=Lev.sel._20
+23	ἐξῆλθεν	ἐξέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	17	ATR	_	t_1354|t_1348|ref=Lev.sel._20
+24	ἀπὸ	ἀπό	r	r--------	_	23	AuxP	_	t_1355|t_1354|ref=Lev.sel._20
+25	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_1356|t_1357|ref=Lev.sel._20
+26	πλευρᾶς	πλευρά	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ADV	_	t_1357|t_1355|ref=Lev.sel._20
+27	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	28	ATR	_	t_1358|t_1359|ref=Lev.sel._20
+28	Σωτῆρος	σωτήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_1359|t_1357|ref=Lev.sel._20
+29	.	.	u	u--------	_	1	AuxK	_	t_1360|t_1332|ref=Lev.sel._20
 
-# source = Origen, Lev.sel._19-20
+# source = Origen, Lev.sel._20
 # text = Ξύλον δὲ κέδρινόν φησι τὸ τῆς σωτηρίας ἡμῶν ξύλον .
 # sent_id = 102
-1	Ξύλον	ξύλον	n	n-s---na-	Case=a|Gender=n|Number=s	3	PNOM	_	t_1361|t_1363|ref=Lev.sel._19
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1362|t_1364|ref=Lev.sel._19
-3	κέδρινόν	κέδρινος	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1363|t_1364|ref=Lev.sel._19
-4	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1364|0|ref=Lev.sel._19
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_1365|t_1369|ref=Lev.sel._19
+1	Ξύλον	ξύλον	n	n-s---na-	Case=a|Gender=n|Number=s	3	PNOM	_	t_1361|t_1363|ref=Lev.sel._20
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_1362|t_1364|ref=Lev.sel._20
+3	κέδρινόν	κέδρινος	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1363|t_1364|ref=Lev.sel._20
+4	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1364|0|ref=Lev.sel._20
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_1365|t_1369|ref=Lev.sel._20
 6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1366|t_1367|ref=Lev.sel._20
 7	σωτηρίας	σωτηρία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1367|t_1369|ref=Lev.sel._20
 8	ἡμῶν	ἐγώ	p	p1p---cg-	Case=g|Gender=c|Number=p|Person=1	7	ATR	_	t_1368|t_1367|ref=Lev.sel._20
@@ -1845,7 +1845,7 @@
 # text = Οἶμα [0] :
 # sent_id = 104
 1	Οἶμα	οἴομαι	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1388|e_45|ref=Lev.sel._20
-2	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Lev.sel._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Lev.sel._20
 3	:	:	u	u--------	_	2	AuxK	_	t_1389|e_45|ref=Lev.sel._20
 
 # source = Origen, Lev.sel._20
@@ -1877,75 +1877,75 @@
 10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1409|t_1410|ref=Lev.sel._20
 11	Λόγου	λόγος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_1410|t_1408|ref=Lev.sel._20
 12	δηλοῦν	δηλόω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	PNOM	_	t_1411|e_46|ref=Lev.sel._20
-13	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Lev.sel._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Lev.sel._20
 14	.	.	u	u--------	_	13	AuxK	_	t_1412|e_46|ref=Lev.sel._20
 
-# source = Origen, Lev.sel._20
+# source = Origen, Lev.sel._21
 # text = Τὴν κεφαλὴν αὐτοῦ καὶ τὸν πώγωνα ξυρηθήσεται .
 # sent_id = 107
-1	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_1413|t_1414|ref=Lev.sel._20
-2	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1414|t_1416|ref=Lev.sel._20
-3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1415|t_1414|ref=Lev.sel._20
-4	καὶ	καί	c	c--------	_	7	COORD	_	t_1416|t_1419|ref=Lev.sel._20
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_1417|t_1418|ref=Lev.sel._20
-6	πώγωνα	πώγων	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1418|t_1416|ref=Lev.sel._20
-7	ξυρηθήσεται	ξυρέω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_1419|0|ref=Lev.sel._20
-8	.	.	u	u--------	_	7	AuxK	_	t_1420|t_1419|ref=Lev.sel._20
+1	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_1413|t_1414|ref=Lev.sel._21
+2	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1414|t_1416|ref=Lev.sel._21
+3	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_1415|t_1414|ref=Lev.sel._21
+4	καὶ	καί	c	c--------	_	7	COORD	_	t_1416|t_1419|ref=Lev.sel._21
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_1417|t_1418|ref=Lev.sel._21
+6	πώγωνα	πώγων	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1418|t_1416|ref=Lev.sel._21
+7	ξυρηθήσεται	ξυρέω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	0	PRED	_	t_1419|0|ref=Lev.sel._21
+8	.	.	u	u--------	_	7	AuxK	_	t_1420|t_1419|ref=Lev.sel._21
 
-# source = Origen, Lev.sel._20
+# source = Origen, Lev.sel._21
 # text = Ξυρᾶται τὴν κεφαλὴν , κατὰ τὰ κεφαλαιωδέστερα καὶ ἀρχικώτερα τῶν δογμάτων ·
 # sent_id = 108
-1	Ξυρᾶται	ξυρέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1421|0|ref=Lev.sel._20
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_1422|t_1423|ref=Lev.sel._20
-3	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_1423|t_1421|ref=Lev.sel._20
-4	,	,	u	u--------	_	1	AuxX	_	t_1424|t_1421|ref=Lev.sel._20
-5	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_1425|t_1421|ref=Lev.sel._20
-6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_1426|t_1428|ref=Lev.sel._20
-7	κεφαλαιωδέστερα	κεφαλαιώδης	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	8	ADV	_	t_1427|t_1428|ref=Lev.sel._20
-8	καὶ	καί	c	c--------	_	5	COORD	_	t_1428|t_1425|ref=Lev.sel._20
-9	ἀρχικώτερα	ἀρχικός	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	8	ADV	_	t_1429|t_1428|ref=Lev.sel._20
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_1430|t_1431|ref=Lev.sel._20
-11	δογμάτων	δόγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1431|t_1428|ref=Lev.sel._20
-12	·	·	u	u--------	_	1	AuxK	_	t_1432|t_1421|ref=Lev.sel._20
+1	Ξυρᾶται	ξυρέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1421|0|ref=Lev.sel._21
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_1422|t_1423|ref=Lev.sel._21
+3	κεφαλὴν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_1423|t_1421|ref=Lev.sel._21
+4	,	,	u	u--------	_	1	AuxX	_	t_1424|t_1421|ref=Lev.sel._21
+5	κατὰ	κατά	r	r--------	_	1	AuxP	_	t_1425|t_1421|ref=Lev.sel._21
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_1426|t_1428|ref=Lev.sel._21
+7	κεφαλαιωδέστερα	κεφαλαιώδης	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	8	ADV	_	t_1427|t_1428|ref=Lev.sel._21
+8	καὶ	καί	c	c--------	_	5	COORD	_	t_1428|t_1425|ref=Lev.sel._21
+9	ἀρχικώτερα	ἀρχικός	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	8	ADV	_	t_1429|t_1428|ref=Lev.sel._21
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_1430|t_1431|ref=Lev.sel._21
+11	δογμάτων	δόγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1431|t_1428|ref=Lev.sel._21
+12	·	·	u	u--------	_	1	AuxK	_	t_1432|t_1421|ref=Lev.sel._21
 
-# source = Origen, Lev.sel._20
+# source = Origen, Lev.sel._21
 # text = κατὰ δὲ τὸν πώγωνα , ὅπερ σύμβολόν ἐστι τοῦ ἀνδρὸς , ἀποτιθέμενος τὰ τοῦ ἀνδρὸς ἁμαρτήματα ·
 # sent_id = 109
-1	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_1433|t_1444|ref=Lev.sel._20
-2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_1434|t_1444|ref=Lev.sel._20
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1435|t_1436|ref=Lev.sel._20
-4	πώγωνα	πώγων	n	n-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_1436|t_1433|ref=Lev.sel._20
-5	,	,	u	u--------	_	12	AuxX	_	t_1437|t_1444|ref=Lev.sel._20
-6	ὅπερ	ὅσπερ	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_1438|t_1440|ref=Lev.sel._20
-7	σύμβολόν	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_1439|t_1440|ref=Lev.sel._20
-8	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	ATR	_	t_1440|t_1436|ref=Lev.sel._20
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_1441|t_1442|ref=Lev.sel._20
-10	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1442|t_1439|ref=Lev.sel._20
-11	,	,	u	u--------	_	12	AuxX	_	t_1443|t_1444|ref=Lev.sel._20
-12	ἀποτιθέμενος	ἀποτίθημι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	0	PRED	_	t_1444|0|ref=Lev.sel._20
-13	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_1445|t_1448|ref=Lev.sel._20
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_1446|t_1447|ref=Lev.sel._20
-15	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1447|t_1448|ref=Lev.sel._20
-16	ἁμαρτήματα	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_1448|t_1444|ref=Lev.sel._20
-17	·	·	u	u--------	_	12	AuxK	_	t_1449|t_1444|ref=Lev.sel._20
+1	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_1433|t_1444|ref=Lev.sel._21
+2	δὲ	δέ	d	d--------	_	12	AuxY	_	t_1434|t_1444|ref=Lev.sel._21
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1435|t_1436|ref=Lev.sel._21
+4	πώγωνα	πώγων	n	n-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_1436|t_1433|ref=Lev.sel._21
+5	,	,	u	u--------	_	12	AuxX	_	t_1437|t_1444|ref=Lev.sel._21
+6	ὅπερ	ὅσπερ	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_1438|t_1440|ref=Lev.sel._21
+7	σύμβολόν	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_1439|t_1440|ref=Lev.sel._21
+8	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	ATR	_	t_1440|t_1436|ref=Lev.sel._21
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_1441|t_1442|ref=Lev.sel._21
+10	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1442|t_1439|ref=Lev.sel._21
+11	,	,	u	u--------	_	12	AuxX	_	t_1443|t_1444|ref=Lev.sel._21
+12	ἀποτιθέμενος	ἀποτίθημι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	0	PRED	_	t_1444|0|ref=Lev.sel._21
+13	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_1445|t_1448|ref=Lev.sel._21
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_1446|t_1447|ref=Lev.sel._21
+15	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1447|t_1448|ref=Lev.sel._21
+16	ἁμαρτήματα	ἁμάρτημα	n	n-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_1448|t_1444|ref=Lev.sel._21
+17	·	·	u	u--------	_	12	AuxK	_	t_1449|t_1444|ref=Lev.sel._21
 
-# source = Origen, Lev.sel._20
+# source = Origen, Lev.sel._21
 # text = κατὰ δὲ τὰς ὀφρῦς [0] .
 # sent_id = 110
-1	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_1450|e_47|ref=Lev.sel._20
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1451|e_47|ref=Lev.sel._20
-3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_1452|t_1453|ref=Lev.sel._20
-4	ὀφρῦς	ὀφρύς	n	n-p---fa-	Case=a|Gender=f|Number=p	1	ADV	_	t_1453|t_1450|ref=Lev.sel._20
-5	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=Lev.sel._1
-6	.	.	u	u--------	_	5	AuxK	_	t_1454|e_47|ref=Lev.sel._20
+1	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_1450|e_47|ref=Lev.sel._21
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1451|e_47|ref=Lev.sel._21
+3	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	4	ATR	_	t_1452|t_1453|ref=Lev.sel._21
+4	ὀφρῦς	ὀφρύς	n	n-p---fa-	Case=a|Gender=f|Number=p	1	ADV	_	t_1453|t_1450|ref=Lev.sel._21
+5	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=Lev.sel._21
+6	.	.	u	u--------	_	5	AuxK	_	t_1454|e_47|ref=Lev.sel._21
 
-# source = Origen, Lev.sel._20-21
+# source = Origen, Lev.sel._21
 # text = πᾶσαν οἴησιν , καὶ ἵνʼ οὕτως ὀνομάσω , ὀφρύωσιν ἀποτιθέμενος .
 # sent_id = 111
-1	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_1455|t_1456|ref=Lev.sel._20
-2	οἴησιν	οἶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	4	PRED	_	t_1456|t_1458|ref=Lev.sel._20
-3	,	,	u	u--------	_	0	AuxX	_	t_1457|0|ref=Lev.sel._20
-4	καὶ	καί	c	c--------	_	3	COORD	_	t_1458|t_1457|ref=Lev.sel._20
+1	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	2	ATR	_	t_1455|t_1456|ref=Lev.sel._21
+2	οἴησιν	οἶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	4	PRED	_	t_1456|t_1458|ref=Lev.sel._21
+3	,	,	u	u--------	_	0	AuxX	_	t_1457|0|ref=Lev.sel._21
+4	καὶ	καί	c	c--------	_	3	COORD	_	t_1458|t_1457|ref=Lev.sel._21
 5	ἵνʼ	ἵνα	c	c--------	_	9	AuxC	_	t_1459|t_1463|ref=Lev.sel._21
 6	οὕτως	οὕτως	d	d--------	_	7	ADV	_	t_1460|t_1461|ref=Lev.sel._21
 7	ὀνομάσω	ὀνομάζω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	5	ADV	_	t_1461|t_1459|ref=Lev.sel._21
@@ -1972,79 +1972,79 @@
 13	ὀνομαζόμενα	ὀνομάζω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	3	ADV	_	t_1478|t_1468|ref=Lev.sel._21
 14	.	.	u	u--------	_	3	AuxK	_	t_1479|t_1468|ref=Lev.sel._21
 
-# source = Origen, Lev.sel._21
+# source = Origen, Lev.sel._22
 # text = Λήψεται δύο ἀμνοὺς ἀμώμους ἐνιαυσιαίους .
 # sent_id = 113
-1	Λήψεται	λαμβάνω	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_1480|0|ref=Lev.sel._21
-2	δύο	δύο	m	m--------	_	3	ATR	_	t_1481|t_1482|ref=Lev.sel._21
-3	ἀμνοὺς	ἀμνός	a	a-p---ma-	Case=a|Gender=m|Number=p	1	OBJ	_	t_1482|t_1480|ref=Lev.sel._21
-4	ἀμώμους	ἄμωμος	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1483|t_1482|ref=Lev.sel._21
-5	ἐνιαυσιαίους	ἐνιαύσιος	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1484|t_1482|ref=Lev.sel._21
-6	.	.	u	u--------	_	1	AuxK	_	t_1485|t_1480|ref=Lev.sel._21
+1	Λήψεται	λαμβάνω	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_1480|0|ref=Lev.sel._22
+2	δύο	δύο	m	m--------	_	3	ATR	_	t_1481|t_1482|ref=Lev.sel._22
+3	ἀμνοὺς	ἀμνός	a	a-p---ma-	Case=a|Gender=m|Number=p	1	OBJ	_	t_1482|t_1480|ref=Lev.sel._22
+4	ἀμώμους	ἄμωμος	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1483|t_1482|ref=Lev.sel._22
+5	ἐνιαυσιαίους	ἐνιαύσιος	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1484|t_1482|ref=Lev.sel._22
+6	.	.	u	u--------	_	1	AuxK	_	t_1485|t_1480|ref=Lev.sel._22
 
-# source = Origen, Lev.sel._21
+# source = Origen, Lev.sel._22
 # text = Εἰς τρία ὁ λόγος διαιρεῖ τὰ ἀναφερόμενα ·
 # sent_id = 114
-1	Εἰς	εἰς	r	r--------	_	5	AuxP	_	t_1486|t_1490|ref=Lev.sel._21
-2	τρία	τρεῖς	m	m-p---na-	Case=a|Gender=n|Number=p	1	ADV	_	t_1487|t_1486|ref=Lev.sel._21
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1488|t_1489|ref=Lev.sel._21
-4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1489|t_1490|ref=Lev.sel._21
-5	διαιρεῖ	διαιρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1490|0|ref=Lev.sel._21
-6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1491|t_1492|ref=Lev.sel._21
-7	ἀναφερόμενα	ἀναφέρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	OBJ	_	t_1492|t_1490|ref=Lev.sel._21
-8	·	·	u	u--------	_	5	AuxK	_	t_1493|t_1490|ref=Lev.sel._21
+1	Εἰς	εἰς	r	r--------	_	5	AuxP	_	t_1486|t_1490|ref=Lev.sel._22
+2	τρία	τρεῖς	m	m-p---na-	Case=a|Gender=n|Number=p	1	ADV	_	t_1487|t_1486|ref=Lev.sel._22
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1488|t_1489|ref=Lev.sel._22
+4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1489|t_1490|ref=Lev.sel._22
+5	διαιρεῖ	διαιρέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1490|0|ref=Lev.sel._22
+6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1491|t_1492|ref=Lev.sel._22
+7	ἀναφερόμενα	ἀναφέρω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	5	OBJ	_	t_1492|t_1490|ref=Lev.sel._22
+8	·	·	u	u--------	_	5	AuxK	_	t_1493|t_1490|ref=Lev.sel._22
 
-# source = Origen, Lev.sel._21-20
+# source = Origen, Lev.sel._22
 # text = ἒν μὲν τὴν λύσιν τῶν προημαρτημένων [0] ·
 # sent_id = 115
-1	ἒν	ἐν	p	p-s---fa-	Case=g|Gender=n|Number=p	7	SBJ	_	t_1494|e_48|ref=Lev.sel._21
-2	μὲν	μέν	d	d--------	_	7	AuxY	_	t_1495|e_48|ref=Lev.sel._21
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1496|t_1497|ref=Lev.sel._21
-4	λύσιν	λύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_1497|e_48|ref=Lev.sel._21
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1498|t_1499|ref=Lev.sel._21
-6	προημαρτημένων	προημαρτῆσθαι	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	ATR	_	t_1499|t_1497|ref=Lev.sel._21
-7	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=Lev.sel._1
-8	·	·	u	u--------	_	7	AuxK	_	t_1500|e_48|ref=Lev.sel._20
+1	ἒν	ἐν	p	p-s---fa-	Case=g|Gender=n|Number=p	7	SBJ	_	t_1494|e_48|ref=Lev.sel._22
+2	μὲν	μέν	d	d--------	_	7	AuxY	_	t_1495|e_48|ref=Lev.sel._22
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1496|t_1497|ref=Lev.sel._22
+4	λύσιν	λύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_1497|e_48|ref=Lev.sel._22
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1498|t_1499|ref=Lev.sel._22
+6	προημαρτημένων	προημαρτῆσθαι	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	4	ATR	_	t_1499|t_1497|ref=Lev.sel._22
+7	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=Lev.sel._22
+8	·	·	u	u--------	_	7	AuxK	_	t_1500|e_48|ref=Lev.sel._22
 
-# source = Origen, Lev.sel._21
+# source = Origen, Lev.sel._22
 # text = ἓν δὲ , τὸ ὅλον ἀναφέρεσθαι τῷ Θεῷ [0] ·
 # sent_id = 116
-1	ἓν	εἷς	m	m-s---na-	Case=n|Gender=n|Number=s	9	PNOM	_	t_1501|e_49|ref=Lev.sel._21
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_1502|e_49|ref=Lev.sel._21
-3	,	,	u	u--------	_	9	AuxX	_	t_1503|e_49|ref=Lev.sel._21
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1504|t_1505|ref=Lev.sel._21
-5	ὅλον	ὅλος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_1505|t_1506|ref=Lev.sel._21
-6	ἀναφέρεσθαι	ἀναφέρω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	SBJ	_	t_1506|e_49|ref=Lev.sel._21
-7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_1507|t_1508|ref=Lev.sel._21
-8	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_1508|t_1506|ref=Lev.sel._21
-9	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=Lev.sel._1
-10	·	·	u	u--------	_	9	AuxK	_	t_1509|e_49|ref=Lev.sel._21
+1	ἓν	εἷς	m	m-s---na-	Case=n|Gender=n|Number=s	9	PNOM	_	t_1501|e_49|ref=Lev.sel._22
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_1502|e_49|ref=Lev.sel._22
+3	,	,	u	u--------	_	9	AuxX	_	t_1503|e_49|ref=Lev.sel._22
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1504|t_1505|ref=Lev.sel._22
+5	ὅλον	ὅλος	a	a-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_1505|t_1506|ref=Lev.sel._22
+6	ἀναφέρεσθαι	ἀναφέρω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	SBJ	_	t_1506|e_49|ref=Lev.sel._22
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_1507|t_1508|ref=Lev.sel._22
+8	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_1508|t_1506|ref=Lev.sel._22
+9	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=Lev.sel._22
+10	·	·	u	u--------	_	9	AuxK	_	t_1509|e_49|ref=Lev.sel._22
 
-# source = Origen, Lev.sel._21
+# source = Origen, Lev.sel._22
 # text = ἕτερον δὲ , τὸ ἀναφερόμενον ἐπʼ αὐτὸν τὸν καθαριζόμενον τῶν ὑπʼ αὐτοῦ γινομένων [0] .
 # sent_id = 117
-1	ἕτερον	ἕτερος	a	a-s---nn-	Case=n|Gender=n|Number=s	14	ADV	_	t_1510|e_50|ref=Lev.sel._21
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_1511|e_50|ref=Lev.sel._21
-3	,	,	u	u--------	_	14	AuxX	_	t_1512|e_50|ref=Lev.sel._21
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1513|t_1514|ref=Lev.sel._21
-5	ἀναφερόμενον	ἀναφέρω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	14	SBJ	_	t_1514|e_50|ref=Lev.sel._21
-6	ἐπʼ	ἐπί	r	r--------	_	5	AuxP	_	t_1515|t_1514|ref=Lev.sel._21
-7	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1516|t_1515|ref=Lev.sel._21
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1517|t_1518|ref=Lev.sel._21
-9	καθαριζόμενον	καθαίρω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	OBJ	_	t_1518|t_1515|ref=Lev.sel._21
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1519|t_1522|ref=Lev.sel._21
-11	ὑπʼ	ὑπό	r	r--------	_	13	AuxP	_	t_1520|t_1522|ref=Lev.sel._21
-12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_1521|t_1520|ref=Lev.sel._21
-13	γινομένων	γίγνομαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	OBJ	_	t_1522|t_1518|ref=Lev.sel._21
-14	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=Lev.sel._1
-15	.	.	u	u--------	_	14	AuxK	_	t_1523|e_50|ref=Lev.sel._21
+1	ἕτερον	ἕτερος	a	a-s---nn-	Case=n|Gender=n|Number=s	14	ADV	_	t_1510|e_50|ref=Lev.sel._22
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_1511|e_50|ref=Lev.sel._22
+3	,	,	u	u--------	_	14	AuxX	_	t_1512|e_50|ref=Lev.sel._22
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_1513|t_1514|ref=Lev.sel._22
+5	ἀναφερόμενον	ἀναφέρω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	14	SBJ	_	t_1514|e_50|ref=Lev.sel._22
+6	ἐπʼ	ἐπί	r	r--------	_	5	AuxP	_	t_1515|t_1514|ref=Lev.sel._22
+7	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1516|t_1515|ref=Lev.sel._22
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1517|t_1518|ref=Lev.sel._22
+9	καθαριζόμενον	καθαίρω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	OBJ	_	t_1518|t_1515|ref=Lev.sel._22
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1519|t_1522|ref=Lev.sel._22
+11	ὑπʼ	ὑπό	r	r--------	_	13	AuxP	_	t_1520|t_1522|ref=Lev.sel._22
+12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_1521|t_1520|ref=Lev.sel._22
+13	γινομένων	γίγνομαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	9	OBJ	_	t_1522|t_1518|ref=Lev.sel._22
+14	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=Lev.sel._22
+15	.	.	u	u--------	_	14	AuxK	_	t_1523|e_50|ref=Lev.sel._22
 
-# source = Origen, Lev.sel._21-22
+# source = Origen, Lev.sel._22
 # text = Τάχα δὲ καὶ τὰ τρία τῆς σεμιδάλεως δέκατα παραλαμβάνεται , ἵνʼ ἓν μὲν τῶν δεκάτων τῷ σφαζομένῳ ἀμνῷ συναχθῇ , καὶ τὸ δεύτερον τῷ λοιπῷ , καὶ τὸ τρίτον τῷ προβάτῳ [0] .
 # sent_id = 118
-1	Τάχα	τάχα	d	d--------	_	9	ADV	_	t_1524|t_1532|ref=Lev.sel._21
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1525|0|ref=Lev.sel._21
-3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_1526|t_1528|ref=Lev.sel._21
+1	Τάχα	τάχα	d	d--------	_	9	ADV	_	t_1524|t_1532|ref=Lev.sel._22
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1525|0|ref=Lev.sel._22
+3	καὶ	καί	d	d--------	_	5	AuxZ	_	t_1526|t_1528|ref=Lev.sel._22
 4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1527|t_1528|ref=Lev.sel._22
 5	τρία	τρεῖς	m	m-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1528|t_1532|ref=Lev.sel._22
 6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1529|t_1530|ref=Lev.sel._22
@@ -2065,7 +2065,7 @@
 21	καὶ	καί	d	d--------	_	27	AuxY	_	t_1544|t_1550|ref=Lev.sel._22
 22	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	23	ATR	_	t_1545|t_1546|ref=Lev.sel._22
 23	δεύτερον	δεύτερος	a	a-s---nn-	Case=n|Gender=n|Number=s	32	SBJ	_	t_1546|e_51|ref=Lev.sel._22
-24	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	25	ATR	_	t_1547|t_1548|ref=Lev.sel._21
+24	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	25	ATR	_	t_1547|t_1548|ref=Lev.sel._22
 25	λοιπῷ	λοιπός	a	a-s---nd-	Case=d|Gender=n|Number=s	32	OBJ	_	t_1548|e_51|ref=Lev.sel._22
 26	,	,	u	u--------	_	9	AuxX	_	t_1549|t_1532|ref=Lev.sel._22
 27	καὶ	καί	c	c--------	_	11	COORD	_	t_1550|t_1534|ref=Lev.sel._22
@@ -2073,14 +2073,14 @@
 29	τρίτον	τρίτος	a	a-s---nn-	Case=n|Gender=n|Number=s	32	SBJ	_	t_1552|e_51|ref=Lev.sel._22
 30	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	31	ATR	_	t_1553|t_1554|ref=Lev.sel._22
 31	προβάτῳ	πρόβατον	n	n-s---md-	Case=d|Gender=m|Number=s	32	OBJ	_	t_1554|e_51|ref=Lev.sel._22
-32	[0]	[0]	-	---------	_	27	ADV	_	e_51|t_1550|ref=Lev.sel._1
+32	[0]	[0]	-	---------	_	27	ADV	_	e_51|t_1550|ref=Lev.sel._22
 33	.	.	u	u--------	_	2	AuxK	_	t_1555|t_1525|ref=Lev.sel._22
 
 # source = Origen, Lev.sel._22
 # text = Ἤδη τοίνυν ἐπὶ τῷ πέμπτῳ καθαρισμῷ ἔχει οὐχὶ ἄλευρον , ἀλλὰ σεμίδαλιν , ὅπερ σύμβολόν ἐστιν ὕλης ἄρτου καθαροῦ , καὶ ταύτην ἐλαίῳ πεφυραμένην ·
 # sent_id = 119
 1	Ἤδη	ἤδη	v	v3slia---	Mood=i|Number=s|Person=3|Tense=l|Voice=a	0	PRED	_	t_1556|0|ref=Lev.sel._22
-2	τοίνυν	τοίνυν	d	d--------	_	7	AuxY	_	t_1557|t_1562|ref=Lev.sel._21
+2	τοίνυν	τοίνυν	d	d--------	_	7	AuxY	_	t_1557|t_1562|ref=Lev.sel._22
 3	ἐπὶ	ἐπί	r	r--------	_	7	AuxP	_	t_1558|t_1562|ref=Lev.sel._22
 4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1559|t_1561|ref=Lev.sel._22
 5	πέμπτῳ	πέμπτος	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1560|t_1561|ref=Lev.sel._22
@@ -2095,7 +2095,7 @@
 14	ὅπερ	ὅσπερ	p	p-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_1569|t_1571|ref=Lev.sel._22
 15	σύμβολόν	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_1570|t_1571|ref=Lev.sel._22
 16	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	ATR	_	t_1571|t_1576|ref=Lev.sel._22
-17	ὕλης	ὕλη	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_1572|t_1570|ref=Lev.sel._21
+17	ὕλης	ὕλη	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_1572|t_1570|ref=Lev.sel._22
 18	ἄρτου	ἄρτος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_1573|t_1570|ref=Lev.sel._22
 19	καθαροῦ	καθαρός	a	a-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_1574|t_1573|ref=Lev.sel._22
 20	,	,	u	u--------	_	7	AuxX	_	t_1575|t_1562|ref=Lev.sel._22
@@ -2120,7 +2120,7 @@
 10	πυρὸς	πῦρ	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1590|t_1588|ref=Lev.sel._22
 11	ἐπιτελοῦν	ἐπιτελέω	v	v-sppann-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_1591|t_1592|ref=Lev.sel._22
 12	παραλαμβάνεται	παραλαμβάνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1592|0|ref=Lev.sel._22
-13	[0]	[0]	-	---------	_	2	ADV	_	e_52|t_1582|ref=Lev.sel._1
+13	[0]	[0]	-	---------	_	2	ADV	_	e_52|t_1582|ref=Lev.sel._22
 14	.	.	u	u--------	_	12	AuxK	_	t_1593|t_1592|ref=Lev.sel._22
 
 # source = Origen, Lev.sel._22
@@ -2183,78 +2183,78 @@
 16	.	.	u	u--------	_	2	AuxK	_	t_1640|t_1626|ref=Lev.sel._22
 17	»	»	u	u--------	_	2	AuxG	_	t_1641|t_1626|ref=Lev.sel._22
 
-# source = Origen, Lev.sel._22
+# source = Origen, Lev.sel._23
 # text = Καὶ ἥξει τίνος αὐτοῦ ἡ οἰκία , καὶ ἀναγγελεῖ τῷ ἱερεῖ .
 # sent_id = 124
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1642|0|ref=Lev.sel._22
-2	ἥξει	ἥκω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	8	PRED	_	t_1643|t_1649|ref=Lev.sel._22
-3	τίνος	τις	p	p-s---ng-	Case=g|Gender=m|Number=s	2	OBJ	_	t_1644|t_1643|ref=Lev.sel._22
-4	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1645|t_1647|ref=Lev.sel._22
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1646|t_1647|ref=Lev.sel._22
-6	οἰκία	οἰκίον	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_1647|t_1643|ref=Lev.sel._22
-7	,	,	u	u--------	_	2	AuxX	_	t_1648|t_1643|ref=Lev.sel._22
-8	καὶ	καί	c	c--------	_	1	COORD	_	t_1649|t_1642|ref=Lev.sel._22
-9	ἀναγγελεῖ	ἀναγγέλλω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	8	PRED	_	t_1650|t_1649|ref=Lev.sel._22
-10	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	11	ATR	_	t_1651|t_1652|ref=Lev.sel._22
-11	ἱερεῖ	ἱερεύς	n	n-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_1652|t_1650|ref=Lev.sel._22
-12	.	.	u	u--------	_	1	AuxK	_	t_1653|t_1642|ref=Lev.sel._22
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1642|0|ref=Lev.sel._23
+2	ἥξει	ἥκω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	8	PRED	_	t_1643|t_1649|ref=Lev.sel._23
+3	τίνος	τις	p	p-s---ng-	Case=g|Gender=m|Number=s	2	OBJ	_	t_1644|t_1643|ref=Lev.sel._23
+4	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1645|t_1647|ref=Lev.sel._23
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1646|t_1647|ref=Lev.sel._23
+6	οἰκία	οἰκίον	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_1647|t_1643|ref=Lev.sel._23
+7	,	,	u	u--------	_	2	AuxX	_	t_1648|t_1643|ref=Lev.sel._23
+8	καὶ	καί	c	c--------	_	1	COORD	_	t_1649|t_1642|ref=Lev.sel._23
+9	ἀναγγελεῖ	ἀναγγέλλω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	8	PRED	_	t_1650|t_1649|ref=Lev.sel._23
+10	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	11	ATR	_	t_1651|t_1652|ref=Lev.sel._23
+11	ἱερεῖ	ἱερεύς	n	n-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_1652|t_1650|ref=Lev.sel._23
+12	.	.	u	u--------	_	1	AuxK	_	t_1653|t_1642|ref=Lev.sel._23
 
-# source = Origen, Lev.sel._22
+# source = Origen, Lev.sel._23
 # text = Καὶ οὐδέποτέ φαμεν κατηγορήσοντα τῆς οἰκίας τῆς ἑαυτοῦ δεῖν ἰέναι τινὰ πρὸς τὸν ἱερέα , τὸν νομοθέτην εἰπεῖν ·
 # sent_id = 125
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1654|0|ref=Lev.sel._22
-2	οὐδέποτέ	οὐδέποτε	d	d--------	_	9	ADV	_	t_1655|t_1662|ref=Lev.sel._22
-3	φαμεν	φημί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	1	PRED	_	t_1656|t_1654|ref=Lev.sel._22
-4	κατηγορήσοντα	κατηγορέω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	15	ADV	_	t_1657|t_1668|ref=Lev.sel._22
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1658|t_1659|ref=Lev.sel._22
-6	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_1659|t_1657|ref=Lev.sel._22
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1660|t_1659|ref=Lev.sel._22
-8	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1661|t_1659|ref=Lev.sel._22
-9	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	15	OBJ	_	t_1662|t_1668|ref=Lev.sel._22
-10	ἰέναι	εἶμι	v	v--pna---	Mood=n|Tense=p|Voice=a	15	OBJ	_	t_1663|t_1668|ref=Lev.sel._22
-11	τινὰ	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	10	SBJ	_	t_1664|t_1663|ref=Lev.sel._22
-12	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_1665|t_1663|ref=Lev.sel._22
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_1666|t_1667|ref=Lev.sel._22
-14	ἱερέα	ἱερεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_1667|t_1665|ref=Lev.sel._22
-15	,	,	u	u--------	_	3	COORD	_	t_1668|t_1656|ref=Lev.sel._22
-16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_1669|t_1670|ref=Lev.sel._22
-17	νομοθέτην	νομοθέτης	n	n-s---ma-	Case=a|Gender=m|Number=s	18	SBJ	_	t_1670|t_1671|ref=Lev.sel._22
-18	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	15	OBJ	_	t_1671|t_1668|ref=Lev.sel._22
-19	·	·	u	u--------	_	1	AuxK	_	t_1672|t_1654|ref=Lev.sel._22
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1654|0|ref=Lev.sel._23
+2	οὐδέποτέ	οὐδέποτε	d	d--------	_	9	ADV	_	t_1655|t_1662|ref=Lev.sel._23
+3	φαμεν	φημί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	1	PRED	_	t_1656|t_1654|ref=Lev.sel._23
+4	κατηγορήσοντα	κατηγορέω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	15	ADV	_	t_1657|t_1668|ref=Lev.sel._23
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1658|t_1659|ref=Lev.sel._23
+6	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_1659|t_1657|ref=Lev.sel._23
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1660|t_1659|ref=Lev.sel._23
+8	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1661|t_1659|ref=Lev.sel._23
+9	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	15	OBJ	_	t_1662|t_1668|ref=Lev.sel._23
+10	ἰέναι	εἶμι	v	v--pna---	Mood=n|Tense=p|Voice=a	15	OBJ	_	t_1663|t_1668|ref=Lev.sel._23
+11	τινὰ	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	10	SBJ	_	t_1664|t_1663|ref=Lev.sel._23
+12	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_1665|t_1663|ref=Lev.sel._23
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_1666|t_1667|ref=Lev.sel._23
+14	ἱερέα	ἱερεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_1667|t_1665|ref=Lev.sel._23
+15	,	,	u	u--------	_	3	COORD	_	t_1668|t_1656|ref=Lev.sel._23
+16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_1669|t_1670|ref=Lev.sel._23
+17	νομοθέτην	νομοθέτης	n	n-s---ma-	Case=a|Gender=m|Number=s	18	SBJ	_	t_1670|t_1671|ref=Lev.sel._23
+18	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	15	OBJ	_	t_1671|t_1668|ref=Lev.sel._23
+19	·	·	u	u--------	_	1	AuxK	_	t_1672|t_1654|ref=Lev.sel._23
 
-# source = Origen, Lev.sel._22
+# source = Origen, Lev.sel._23
 # text = ἀλλʼ ὥσπερ δὴ μᾶλλον ἐξ ἰατροῦ τῷ συμβεβηκότι φάρμακον ἐξαιτήσοντα [0] .
 # sent_id = 126
-1	ἀλλʼ	ἀλλά	d	d--------	_	11	AuxY	_	t_1673|e_53|ref=Lev.sel._22
-2	ὥσπερ	ὥσπερ	c	c--------	_	10	AuxC	_	t_1674|t_1682|ref=Lev.sel._22
-3	δὴ	δή	d	d--------	_	4	AuxZ	_	t_1675|t_1676|ref=Lev.sel._22
-4	μᾶλλον	μᾶλλον	d	d--------	_	8	ADV	_	t_1676|t_1680|ref=Lev.sel._22
-5	ἐξ	ἐκ	r	r--------	_	4	AuxP	_	t_1677|t_1676|ref=Lev.sel._22
-6	ἰατροῦ	ἰατρός	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_1678|t_1677|ref=Lev.sel._22
-7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_1679|t_1680|ref=Lev.sel._22
-8	συμβεβηκότι	συμβαίνω	v	v-srpamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	10	OBJ	_	t_1680|t_1682|ref=Lev.sel._22
-9	φάρμακον	φάρμακον	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_1681|t_1682|ref=Lev.sel._22
-10	ἐξαιτήσοντα	ἐξαιτέω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	11	ADV	_	t_1682|e_53|ref=Lev.sel._22
-11	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=Lev.sel._1
-12	.	.	u	u--------	_	11	AuxK	_	t_1683|e_53|ref=Lev.sel._22
+1	ἀλλʼ	ἀλλά	d	d--------	_	11	AuxY	_	t_1673|e_53|ref=Lev.sel._23
+2	ὥσπερ	ὥσπερ	c	c--------	_	10	AuxC	_	t_1674|t_1682|ref=Lev.sel._23
+3	δὴ	δή	d	d--------	_	4	AuxZ	_	t_1675|t_1676|ref=Lev.sel._23
+4	μᾶλλον	μᾶλλον	d	d--------	_	8	ADV	_	t_1676|t_1680|ref=Lev.sel._23
+5	ἐξ	ἐκ	r	r--------	_	4	AuxP	_	t_1677|t_1676|ref=Lev.sel._23
+6	ἰατροῦ	ἰατρός	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_1678|t_1677|ref=Lev.sel._23
+7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	8	ATR	_	t_1679|t_1680|ref=Lev.sel._23
+8	συμβεβηκότι	συμβαίνω	v	v-srpamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	10	OBJ	_	t_1680|t_1682|ref=Lev.sel._23
+9	φάρμακον	φάρμακον	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_1681|t_1682|ref=Lev.sel._23
+10	ἐξαιτήσοντα	ἐξαιτέω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	11	ADV	_	t_1682|e_53|ref=Lev.sel._23
+11	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=Lev.sel._23
+12	.	.	u	u--------	_	11	AuxK	_	t_1683|e_53|ref=Lev.sel._23
 
-# source = Origen, Lev.sel._22
+# source = Origen, Lev.sel._23
 # text = Λελεπρῶσθαι δὴ οὖν φαμεν τὴν τῶν Ἰουδαίων συναγωγήν .
 # sent_id = 127
-1	Λελεπρῶσθαι	λεπύριον	v	v--rne---	Mood=n|Tense=r|Voice=e	4	OBJ	_	t_1684|t_1687|ref=Lev.sel._22
-2	δὴ	δή	d	d--------	_	4	AuxY	_	t_1685|t_1687|ref=Lev.sel._22
-3	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_1686|t_1687|ref=Lev.sel._22
-4	φαμεν	φημί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_1687|0|ref=Lev.sel._22
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_1688|t_1691|ref=Lev.sel._22
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1689|t_1690|ref=Lev.sel._22
-7	Ἰουδαίων	ἰουδαῖος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1690|t_1691|ref=Lev.sel._22
-8	συναγωγήν	συναγωγή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	SBJ	_	t_1691|t_1684|ref=Lev.sel._22
-9	.	.	u	u--------	_	4	AuxK	_	t_1692|t_1687|ref=Lev.sel._22
+1	Λελεπρῶσθαι	λεπύριον	v	v--rne---	Mood=n|Tense=r|Voice=e	4	OBJ	_	t_1684|t_1687|ref=Lev.sel._23
+2	δὴ	δή	d	d--------	_	4	AuxY	_	t_1685|t_1687|ref=Lev.sel._23
+3	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_1686|t_1687|ref=Lev.sel._23
+4	φαμεν	φημί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_1687|0|ref=Lev.sel._23
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_1688|t_1691|ref=Lev.sel._23
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1689|t_1690|ref=Lev.sel._23
+7	Ἰουδαίων	ἰουδαῖος	n	n-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1690|t_1691|ref=Lev.sel._23
+8	συναγωγήν	συναγωγή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	SBJ	_	t_1691|t_1684|ref=Lev.sel._23
+9	.	.	u	u--------	_	4	AuxK	_	t_1692|t_1687|ref=Lev.sel._23
 
-# source = Origen, Lev.sel._22-23
+# source = Origen, Lev.sel._23
 # text = Τὸ δὲ τοῦ ἀναγγέλλοντός ἐστι πρόσωπον , ὁ τῶν ἀγίων προφητῶν χορός ·
 # sent_id = 128
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_1693|t_1698|ref=Lev.sel._22
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_1693|t_1698|ref=Lev.sel._23
 2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1694|0|ref=Lev.sel._23
 3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1695|t_1696|ref=Lev.sel._23
 4	ἀναγγέλλοντός	ἀναγγέλλω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ATR	_	t_1696|t_1698|ref=Lev.sel._23
@@ -2300,7 +2300,7 @@
 27	,	,	u	u--------	_	3	AuxX	_	t_1732|t_1708|ref=Lev.sel._23
 28	ἀλλʼ	ἀλλά	c	c--------	_	3	COORD	_	t_1733|t_1708|ref=Lev.sel._23
 29	αἰδοἴ	αἰδοι	n	n-s---fd-	Case=d|Gender=f|Number=s	28	ADV	_	t_1734|t_1733|ref=Lev.sel._23
-30	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_1735|t_1734|ref=Lev.sel._22
+30	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_1735|t_1734|ref=Lev.sel._23
 31	περὶ	περί	r	r--------	_	29	AuxP	_	t_1736|t_1734|ref=Lev.sel._23
 32	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	33	ATR	_	t_1737|t_1738|ref=Lev.sel._23
 33	εὐεργέτην	εὐεργέτης	n	n-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_1738|t_1736|ref=Lev.sel._23

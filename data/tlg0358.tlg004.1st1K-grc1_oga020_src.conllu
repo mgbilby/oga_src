@@ -174,17 +174,17 @@
 2	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_127|0|ref=Excerp._1
 3	.	.	u	u--------	_	2	AuxK	_	t_128|t_127|ref=Excerp._1
 
-# source = Nicomachus of Gerasa, Excerp._1
+# source = Nicomachus of Gerasa, Excerp._2
 # text = 2 .
 # sent_id = 12
-1	2	2	u	u--------	_	0	AuxG	_	t_129|0|ref=Excerp._1
-2	.	.	u	u--------	_	1	AuxK	_	t_130|t_129|ref=Excerp._1
+1	2	2	u	u--------	_	0	AuxG	_	t_129|0|ref=Excerp._2
+2	.	.	u	u--------	_	1	AuxK	_	t_130|t_129|ref=Excerp._2
 
-# source = Nicomachus of Gerasa, Excerp._1-2
+# source = Nicomachus of Gerasa, Excerp._2
 # text = Εἰσὶν οἱ ἀριθμοὶ , ἐξ ὧν ποιοῦσιν οἱ κατὰ τὴν μουσικὴν τὰ τονιαῖα διαστήματα .
 # sent_id = 13
-1	Εἰσὶν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_131|0|ref=Excerp._1
-2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_132|t_133|ref=Excerp._1
+1	Εἰσὶν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_131|0|ref=Excerp._2
+2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_132|t_133|ref=Excerp._2
 3	ἀριθμοὶ	ἀριθμός	n	n-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_133|t_131|ref=Excerp._2
 4	,	,	u	u--------	_	1	AuxX	_	t_134|t_131|ref=Excerp._2
 5	ἐξ	ἐκ	r	r--------	_	7	AuxP	_	t_135|t_137|ref=Excerp._2
@@ -272,7 +272,7 @@
 68	συμιπληροῦσι	συμπληρόω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	44	PRED	_	t_213|t_189|ref=Excerp._2
 69	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	70	ATR	_	t_214|t_215|ref=Excerp._2
 70	cνϚ	cνϛ	n	n--------	_	68	OBJ	_	t_215|t_213|ref=Excerp._2
-71	[0]	[0]	-	---------	_	44	PRED	_	e_5|t_189|ref=Excerp._1
+71	[0]	[0]	-	---------	_	44	PRED	_	e_5|t_189|ref=Excerp._2
 72	.	.	u	u--------	_	6	AuxK	_	t_216|t_151|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -426,7 +426,7 @@
 31	,	,	u	u--------	_	2	AuxX	_	t_342|t_313|ref=Excerp._2
 32	(	̔	u	u--------	_	2	AuxG	_	t_343|t_313|ref=Excerp._2
 33	p	p	x	x--------	_	34	OBJ	_	t_344|e_6|ref=Excerp._2
-34	[0]	[0]	-	---------	_	2	PRED	_	e_6|t_313|ref=Excerp._1
+34	[0]	[0]	-	---------	_	2	PRED	_	e_6|t_313|ref=Excerp._2
 35	.	.	u	u--------	_	2	AuxK	_	t_345|t_313|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -483,7 +483,7 @@
 29	,	,	u	u--------	_	32	AuxX	_	t_386|e_7|ref=Excerp._2
 30	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_387|t_388|ref=Excerp._2
 31	ψξη	ψξη	n	n-p---na-	Mood=m|Number=s|Person=2|Tense=p|Voice=a	32	OBJ	_	t_388|e_7|ref=Excerp._2
-32	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Excerp._1
+32	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Excerp._2
 33	.	.	u	u--------	_	32	AuxK	_	t_389|e_7|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -644,9 +644,9 @@
 31	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	30	ADV	_	t_522|t_521|ref=Excerp._2
 32	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	33	ATR	_	t_523|t_524|ref=Excerp._2
 33	τρίτος	τρίτος	a	a-s---mn-	Case=n|Gender=m|Number=s	36	SBJ	_	t_524|e_10|ref=Excerp._2
-34	[0]	[0]	-	---------	_	26	ATR	_	e_8|t_517|ref=Excerp._1
-35	[1]	[1]	-	---------	_	18	ATR	_	e_9|t_509|ref=Excerp._1
-36	[2]	[2]	-	---------	_	26	ATR	_	e_10|t_517|ref=Excerp._1
+34	[0]	[0]	-	---------	_	26	ATR	_	e_8|t_517|ref=Excerp._2
+35	[1]	[1]	-	---------	_	18	ATR	_	e_9|t_509|ref=Excerp._2
+36	[2]	[2]	-	---------	_	26	ATR	_	e_10|t_517|ref=Excerp._2
 37	·	·	u	u--------	_	6	AuxK	_	t_525|t_497|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -746,7 +746,7 @@
 6	τῷ	ὁ	l	l-s---md-	Case=d|Gender=n|Number=s	7	ATR	_	t_601|t_602|ref=Excerp._2
 7	κζ	κζ	n	n-s---md-	_	5	OBJ	_	t_602|t_600|ref=Excerp._2
 8	ὑπερέχοντα	ὑπερέχω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	9	ADV	_	t_603|e_11|ref=Excerp._2
-9	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Excerp._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Excerp._2
 10	.	.	u	u--------	_	9	AuxK	_	t_604|e_11|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -838,7 +838,7 @@
 29	ἀνέσεως	ἄνεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ADV	_	t_680|t_671|ref=Excerp._2
 30	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	31	ATR	_	t_681|t_682|ref=Excerp._2
 31	cνϛ	cνϛ	x	x--------	_	32	SBJ	_	t_682|e_12|ref=Excerp._2
-32	[0]	[0]	-	---------	_	21	PRED	_	e_12|t_672|ref=Excerp._1
+32	[0]	[0]	-	---------	_	21	PRED	_	e_12|t_672|ref=Excerp._2
 33	·	·	u	u--------	_	19	AuxK	_	t_683|t_670|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -906,7 +906,7 @@
 32	ἄνεσιν	ἄνεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	30	ATR	_	t_739|t_737|ref=Excerp._2
 33	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	34	ATR	_	t_740|t_741|ref=Excerp._2
 34	λβ	λβ	a	a--------	_	35	SBJ	_	t_741|e_13|ref=Excerp._2
-35	[0]	[0]	-	---------	_	28	PRED	_	e_13|t_735|ref=Excerp._1
+35	[0]	[0]	-	---------	_	28	PRED	_	e_13|t_735|ref=Excerp._2
 36	.	.	u	u--------	_	14	AuxK	_	t_742|t_721|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -969,7 +969,7 @@
 24	μέσην	μέσος	a	a-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_793|t_792|ref=Excerp._2
 25	κατασκευάζουσιν	κατασκευάζω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_794|0|ref=Excerp._2
 26	οὕτως	οὕτως	d	d--------	_	25	ADV	_	t_795|t_794|ref=Excerp._2
-27	[0]	[0]	-	---------	_	14	ATR	_	e_14|t_783|ref=Excerp._1
+27	[0]	[0]	-	---------	_	14	ATR	_	e_14|t_783|ref=Excerp._2
 28	.	.	u	u--------	_	25	AuxK	_	t_796|t_794|ref=Excerp._2
 
 # source = Nicomachus of Gerasa, Excerp._2
@@ -1175,30 +1175,30 @@
 8	διαστήματα	διάστημα	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_962|t_958|ref=Excerp._2
 9	.	.	u	u--------	_	4	AuxK	_	t_963|t_958|ref=Excerp._2
 
-# source = Nicomachus of Gerasa, Excerp._2
+# source = Nicomachus of Gerasa, Excerp._3
 # text = 3 .
 # sent_id = 51
-1	3	3	x	x--------	_	0	AuxG	_	t_964|0|ref=Excerp._2
-2	.	.	u	u--------	_	1	AuxK	_	t_965|t_964|ref=Excerp._2
+1	3	3	x	x--------	_	0	AuxG	_	t_964|0|ref=Excerp._3
+2	.	.	u	u--------	_	1	AuxK	_	t_965|t_964|ref=Excerp._3
 
-# source = Nicomachus of Gerasa, Excerp._2-3
+# source = Nicomachus of Gerasa, Excerp._3
 # text = ὅτι Νιικόμαχος τὴν ἀνωτάτην καὶ πρώτην χορδὴν ὑπάτην κεκλῆσθαι φησιν ὡς ἐν ἑπταφθόγγῳ διαιρέων [0] .
 # sent_id = 52
-1	ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_966|e_15|ref=Excerp._2
-2	Νιικόμαχος	νιικόμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_967|t_975|ref=Excerp._2
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_968|t_972|ref=Excerp._2
-4	ἀνωτάτην	ἀνώτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_969|t_970|ref=Excerp._2
-5	καὶ	καί	c	c--------	_	7	COORD	_	t_970|t_972|ref=Excerp._2
-6	πρώτην	πρῶτος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_971|t_970|ref=Excerp._2
-7	χορδὴν	χορδή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	SBJ	_	t_972|t_974|ref=Excerp._2
-8	ὑπάτην	ὑπάτη	n	n-s---fa-	Case=a|Gender=f|Number=s	9	PNOM	_	t_973|t_974|ref=Excerp._2
-9	κεκλῆσθαι	καλέω	v	v--rne---	Mood=n|Tense=r|Voice=e	10	OBJ	_	t_974|t_975|ref=Excerp._2
-10	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_975|t_966|ref=Excerp._2
-11	ὡς	ὡς	d	d--------	_	13	AuxZ	_	t_976|t_978|ref=Excerp._2
-12	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_977|t_974|ref=Excerp._2
+1	ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_966|e_15|ref=Excerp._3
+2	Νιικόμαχος	νιικόμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_967|t_975|ref=Excerp._3
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_968|t_972|ref=Excerp._3
+4	ἀνωτάτην	ἀνώτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_969|t_970|ref=Excerp._3
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_970|t_972|ref=Excerp._3
+6	πρώτην	πρῶτος	a	a-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_971|t_970|ref=Excerp._3
+7	χορδὴν	χορδή	n	n-s---fa-	Case=a|Gender=f|Number=s	9	SBJ	_	t_972|t_974|ref=Excerp._3
+8	ὑπάτην	ὑπάτη	n	n-s---fa-	Case=a|Gender=f|Number=s	9	PNOM	_	t_973|t_974|ref=Excerp._3
+9	κεκλῆσθαι	καλέω	v	v--rne---	Mood=n|Tense=r|Voice=e	10	OBJ	_	t_974|t_975|ref=Excerp._3
+10	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_975|t_966|ref=Excerp._3
+11	ὡς	ὡς	d	d--------	_	13	AuxZ	_	t_976|t_978|ref=Excerp._3
+12	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_977|t_974|ref=Excerp._3
 13	ἑπταφθόγγῳ	ἑπτάφθογγος	a	a-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_978|t_977|ref=Excerp._3
 14	διαιρέων	διαιρέω	n	n-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_979|t_978|ref=Excerp._3
-15	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Excerp._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Excerp._3
 16	.	.	u	u--------	_	15	AuxK	_	t_980|e_15|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1213,7 +1213,7 @@
 7	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_987|t_986|ref=Excerp._3
 8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_988|t_989|ref=Excerp._3
 9	ἀπλανοῦς	ἀπλανής	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_989|t_987|ref=Excerp._3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Excerp._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Excerp._3
 11	·	·	u	u--------	_	10	AuxK	_	t_990|e_16|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1234,9 +1234,9 @@
 13	δὲ	δέ	c	c--------	_	11	COORD	_	t_1003|t_1001|ref=Excerp._3
 14	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_1004|t_1005|ref=Excerp._3
 15	Ἥλιον	ἥλιος	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_1005|e_19|ref=Excerp._3
-16	[0]	[0]	-	---------	_	13	PRED	_	e_17|t_1003|ref=Excerp._1
-17	[1]	[1]	-	---------	_	13	PRED	_	e_18|t_1003|ref=Excerp._1
-18	[2]	[2]	-	---------	_	13	PRED	_	e_19|t_1003|ref=Excerp._1
+16	[0]	[0]	-	---------	_	13	PRED	_	e_17|t_1003|ref=Excerp._3
+17	[1]	[1]	-	---------	_	13	PRED	_	e_18|t_1003|ref=Excerp._3
+18	[2]	[2]	-	---------	_	13	PRED	_	e_19|t_1003|ref=Excerp._3
 19	.	.	u	u--------	_	11	AuxK	_	t_1006|t_1001|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1279,9 +1279,9 @@
 35	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	32	ADV	_	t_1041|t_1038|ref=Excerp._3
 36	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	37	ATR	_	t_1042|t_1043|ref=Excerp._3
 37	πταῖσμα	πταῖσμα	n	n-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_1043|t_1041|ref=Excerp._3
-38	[0]	[0]	-	---------	_	18	PRED	_	e_20|t_1024|ref=Excerp._1
-39	[1]	[1]	-	---------	_	18	PRED	_	e_21|t_1024|ref=Excerp._1
-40	[2]	[2]	-	---------	_	18	PRED	_	e_22|t_1024|ref=Excerp._1
+38	[0]	[0]	-	---------	_	18	PRED	_	e_20|t_1024|ref=Excerp._3
+39	[1]	[1]	-	---------	_	18	PRED	_	e_21|t_1024|ref=Excerp._3
+40	[2]	[2]	-	---------	_	18	PRED	_	e_22|t_1024|ref=Excerp._3
 41	·	·	u	u--------	_	9	AuxK	_	t_1044|t_1015|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1300,9 +1300,9 @@
 11	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_1055|e_25|ref=Excerp._3
 12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1056|t_1057|ref=Excerp._3
 13	Ἀφροδίτην	ἀφροδίτη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	ADV	_	t_1057|t_1055|ref=Excerp._3
-14	[0]	[0]	-	---------	_	9	PRED	_	e_23|t_1053|ref=Excerp._1
-15	[1]	[1]	-	---------	_	9	PRED	_	e_24|t_1053|ref=Excerp._1
-16	[2]	[2]	-	---------	_	9	PRED	_	e_25|t_1053|ref=Excerp._1
+14	[0]	[0]	-	---------	_	9	PRED	_	e_23|t_1053|ref=Excerp._3
+15	[1]	[1]	-	---------	_	9	PRED	_	e_24|t_1053|ref=Excerp._3
+16	[2]	[2]	-	---------	_	9	PRED	_	e_25|t_1053|ref=Excerp._3
 17	·	·	u	u--------	_	7	AuxK	_	t_1058|t_1051|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1329,9 +1329,9 @@
 19	,	,	u	u--------	_	22	AuxX	_	t_1077|e_26|ref=Excerp._3
 20	εἴπερ	εἴπερ	c	c--------	_	22	AuxC	_	t_1078|e_26|ref=Excerp._3
 21	ὑπάτης	ὑπάτη	n	n-s---mn-	Case=n|Gender=m|Number=s	24	PNOM	_	t_1079|e_28|ref=Excerp._3
-22	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=Excerp._1
-23	[1]	[1]	-	---------	_	15	OBJ	_	e_27|t_1073|ref=Excerp._1
-24	[2]	[2]	-	---------	_	15	OBJ	_	e_28|t_1073|ref=Excerp._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=Excerp._3
+23	[1]	[1]	-	---------	_	15	OBJ	_	e_27|t_1073|ref=Excerp._3
+24	[2]	[2]	-	---------	_	15	OBJ	_	e_28|t_1073|ref=Excerp._3
 25	.	.	u	u--------	_	22	AuxK	_	t_1080|e_26|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1348,7 +1348,7 @@
 9	ἀρξάμενοι	ἄρχω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	12	ADV	_	t_1089|e_29|ref=Excerp._3
 10	(	̔	u	u--------	_	12	AuxG	_	t_1090|e_29|ref=Excerp._3
 11	p	p	n	n--------	_	12	PNOM	_	t_1091|e_29|ref=Excerp._3
-12	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Excerp._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=Excerp._3
 13	.	.	u	u--------	_	12	AuxK	_	t_1092|e_29|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1378,9 +1378,9 @@
 22	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_1114|t_1111|ref=Excerp._3
 23	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_1115|t_1116|ref=Excerp._3
 24	Κρόνου	κρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_1116|t_1114|ref=Excerp._3
-25	[0]	[0]	-	---------	_	17	PRED	_	e_30|t_1109|ref=Excerp._1
-26	[1]	[1]	-	---------	_	17	PRED	_	e_31|t_1109|ref=Excerp._1
-27	[2]	[2]	-	---------	_	17	PRED	_	e_32|t_1109|ref=Excerp._1
+25	[0]	[0]	-	---------	_	17	PRED	_	e_30|t_1109|ref=Excerp._3
+26	[1]	[1]	-	---------	_	17	PRED	_	e_31|t_1109|ref=Excerp._3
+27	[2]	[2]	-	---------	_	17	PRED	_	e_32|t_1109|ref=Excerp._3
 28	.	.	u	u--------	_	1	AuxK	_	t_1117|t_1093|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1400,8 +1400,8 @@
 12	οὐσίᾳ	οὐσία	n	n-s---fd-	Case=d|Gender=f|Number=s	10	ADV	_	t_1129|t_1127|ref=Excerp._3
 13	δύναμις	δύναμις	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1130|e_34|ref=Excerp._3
 14	ἐλάττων	ἐλάσσων	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	16	PNOM	_	t_1131|e_34|ref=Excerp._3
-15	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Excerp._1
-16	[1]	[1]	-	---------	_	9	ADV	_	e_34|t_1126|ref=Excerp._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=Excerp._3
+16	[1]	[1]	-	---------	_	9	ADV	_	e_34|t_1126|ref=Excerp._3
 17	·	·	u	u--------	_	15	AuxK	_	t_1132|e_33|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1422,7 +1422,7 @@
 13	πολὑ	πολύς	n	n-s---na-	_	10	ADV	_	t_1145|t_1142|ref=Excerp._3
 14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1146|t_1147|ref=Excerp._3
 15	ἀσθενές	ἀσθενής	a	a-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_1147|t_1145|ref=Excerp._3
-16	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Excerp._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=Excerp._3
 17	.	.	u	u--------	_	16	AuxK	_	t_1148|e_35|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1502,8 +1502,8 @@
 54	εἰς	εἰς	r	r--------	_	51	AuxP	_	t_1216|t_1213|ref=Excerp._3
 55	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	56	ATR	_	t_1217|t_1218|ref=Excerp._3
 56	πρόσω	πρόσω	d	d--------	_	54	ADV	_	t_1218|t_1216|ref=Excerp._3
-57	[0]	[0]	-	---------	_	8	PRED	_	e_36|t_1170|ref=Excerp._1
-58	[1]	[1]	-	---------	_	41	ADV	_	e_37|t_1203|ref=Excerp._1
+57	[0]	[0]	-	---------	_	8	PRED	_	e_36|t_1170|ref=Excerp._3
+58	[1]	[1]	-	---------	_	41	ADV	_	e_37|t_1203|ref=Excerp._3
 59	.	.	u	u--------	_	8	AuxK	_	t_1219|t_1170|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1528,7 +1528,7 @@
 7	περιγειοτέρᾳ	περίγειος	a	a-s---fdc	Case=d|Degree=c|Gender=f|Number=s	9	ATR	_	t_1232|t_1234|ref=Excerp._3
 8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_1233|t_1234|ref=Excerp._3
 9	Σελήνῃ	σελήνη	n	n-s---fd-	Case=d|Gender=f|Number=s	10	OBJ	_	t_1234|e_38|ref=Excerp._3
-10	[0]	[0]	-	---------	_	6	ADV	_	e_38|t_1231|ref=Excerp._1
+10	[0]	[0]	-	---------	_	6	ADV	_	e_38|t_1231|ref=Excerp._3
 11	.	.	u	u--------	_	5	AuxK	_	t_1235|t_1230|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1568,8 +1568,8 @@
 32	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_1267|t_1269|ref=Excerp._3
 33	ἄνω	ἄνω	d	d--------	_	34	ATR	_	t_1268|t_1269|ref=Excerp._3
 34	μόρια	μόριον	n	n-p---na-	Case=a|Gender=n|Number=p	36	PNOM	_	t_1269|e_40|ref=Excerp._3
-35	[0]	[0]	-	---------	_	20	PRED	_	e_39|t_1255|ref=Excerp._1
-36	[1]	[1]	-	---------	_	20	PRED	_	e_40|t_1255|ref=Excerp._1
+35	[0]	[0]	-	---------	_	20	PRED	_	e_39|t_1255|ref=Excerp._3
+36	[1]	[1]	-	---------	_	20	PRED	_	e_40|t_1255|ref=Excerp._3
 37	.	.	u	u--------	_	18	AuxK	_	t_1270|t_1253|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1598,7 +1598,7 @@
 21	τε	τε	c	c--------	_	22	AuxY	_	t_1291|t_1292|ref=Excerp._3
 22	καὶ	καί	c	c--------	_	17	COORD	_	t_1292|t_1287|ref=Excerp._3
 23	δυνάμει	δύναμις	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_1293|t_1292|ref=Excerp._3
-24	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=Excerp._1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=Excerp._3
 25	.	.	u	u--------	_	24	AuxK	_	t_1294|e_41|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1632,8 +1632,8 @@
 26	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	27	ATR	_	t_1320|t_1321|ref=Excerp._3
 27	Σελήνη	σελήνη	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_1321|e_43|ref=Excerp._3
 28	ὑπάτη	ὑπάτη	a	a-s---fns	Case=n|Degree=s|Gender=f|Number=s	30	PNOM	_	t_1322|e_43|ref=Excerp._3
-29	[0]	[0]	-	---------	_	0	PRED	_	e_42|0|ref=Excerp._1
-30	[1]	[1]	-	---------	_	29	PRED	_	e_43|e_42|ref=Excerp._1
+29	[0]	[0]	-	---------	_	0	PRED	_	e_42|0|ref=Excerp._3
+30	[1]	[1]	-	---------	_	29	PRED	_	e_43|e_42|ref=Excerp._3
 31	.	.	u	u--------	_	29	AuxK	_	t_1323|e_42|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1661,7 +1661,7 @@
 20	ἡμερήσια	ἡμερήσιος	n	n-p---na-	Case=a|Gender=n|Number=p	23	SBJ	_	t_1343|e_44|ref=Excerp._3
 21	(	̔	u	u--------	_	9	AuxG	_	t_1344|t_1332|ref=Excerp._3
 22	p	p	n	n--------	_	23	SBJ	_	t_1345|e_44|ref=Excerp._3
-23	[0]	[0]	-	---------	_	14	ADV	_	e_44|t_1337|ref=Excerp._1
+23	[0]	[0]	-	---------	_	14	ADV	_	e_44|t_1337|ref=Excerp._3
 24	.	.	u	u--------	_	9	AuxK	_	t_1346|t_1332|ref=Excerp._3
 
 # source = Nicomachus of Gerasa, Excerp._3
@@ -1726,74 +1726,74 @@
 11	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	10	ADV	_	t_1395|t_1394|ref=Excerp._3
 12	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=n|Number=p	13	ADV	_	t_1396|t_1397|ref=Excerp._3
 13	βραδυτέραν	βραδύς	a	a-s---fac	Case=a|Degree=c|Gender=f|Number=s	11	PNOM	_	t_1397|t_1395|ref=Excerp._3
-14	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Excerp._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Excerp._3
 15	.	.	u	u--------	_	14	AuxK	_	t_1398|e_45|ref=Excerp._3
 
-# source = Nicomachus of Gerasa, Excerp._3
+# source = Nicomachus of Gerasa, Excerp._4
 # text = 4 [0] .
 # sent_id = 73
-1	4	4	u	u--------	_	2	AuxK	_	t_1399|e_46|ref=Excerp._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Excerp._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1400|e_46|ref=Excerp._3
+1	4	4	u	u--------	_	2	AuxK	_	t_1399|e_46|ref=Excerp._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Excerp._4
+3	.	.	u	u--------	_	2	AuxK	_	t_1400|e_46|ref=Excerp._4
 
-# source = Nicomachus of Gerasa, Excerp._3
+# source = Nicomachus of Gerasa, Excerp._4
 # text = Ὅτι ὅσοι τῇ ὀγδόῃ χορδῇ προσκαθῆψαν ἑτέρας , οὐ λόγῳ τινὶ , τῇ δὲ πρὸς τοὺς ἀκροατὰς ψυχαγωγίᾳ προήχθησαν .
 # sent_id = 74
-1	Ὅτι	ὅτι	d	d--------	_	19	AuxY	_	t_1401|t_1419|ref=Excerp._3
-2	ὅσοι	ὅσος	a	a-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_1402|t_1406|ref=Excerp._3
-3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_1403|t_1405|ref=Excerp._3
-4	ὀγδόῃ	ὄγδοος	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_1404|t_1405|ref=Excerp._3
-5	χορδῇ	χορδή	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_1405|t_1406|ref=Excerp._3
-6	προσκαθῆψαν	προσκαθάπτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	14	SBJ	_	t_1406|t_1414|ref=Excerp._3
-7	ἑτέρας	ἕτερος	a	a-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_1407|t_1406|ref=Excerp._3
-8	,	,	u	u--------	_	19	AuxX	_	t_1408|t_1419|ref=Excerp._3
-9	οὐ	οὐ	d	d--------	_	10	AuxZ	_	t_1409|t_1410|ref=Excerp._3
-10	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_1410|t_1414|ref=Excerp._3
-11	τινὶ	τις	a	a-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_1411|t_1410|ref=Excerp._3
-12	,	,	u	u--------	_	19	AuxX	_	t_1412|t_1419|ref=Excerp._3
-13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_1413|t_1418|ref=Excerp._3
-14	δὲ	δέ	c	c--------	_	19	COORD	_	t_1414|t_1419|ref=Excerp._3
-15	πρὸς	πρός	r	r--------	_	18	AuxP	_	t_1415|t_1418|ref=Excerp._3
-16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_1416|t_1417|ref=Excerp._3
-17	ἀκροατὰς	ἀκροατής	n	n-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_1417|t_1415|ref=Excerp._3
-18	ψυχαγωγίᾳ	ψυχαγωγία	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_1418|t_1414|ref=Excerp._3
-19	προήχθησαν	προάγω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	PRED	_	t_1419|0|ref=Excerp._3
-20	.	.	u	u--------	_	19	AuxK	_	t_1420|t_1419|ref=Excerp._3
+1	Ὅτι	ὅτι	d	d--------	_	19	AuxY	_	t_1401|t_1419|ref=Excerp._4
+2	ὅσοι	ὅσος	a	a-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_1402|t_1406|ref=Excerp._4
+3	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_1403|t_1405|ref=Excerp._4
+4	ὀγδόῃ	ὄγδοος	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_1404|t_1405|ref=Excerp._4
+5	χορδῇ	χορδή	n	n-s---fd-	Case=d|Gender=f|Number=s	6	OBJ	_	t_1405|t_1406|ref=Excerp._4
+6	προσκαθῆψαν	προσκαθάπτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	14	SBJ	_	t_1406|t_1414|ref=Excerp._4
+7	ἑτέρας	ἕτερος	a	a-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_1407|t_1406|ref=Excerp._4
+8	,	,	u	u--------	_	19	AuxX	_	t_1408|t_1419|ref=Excerp._4
+9	οὐ	οὐ	d	d--------	_	10	AuxZ	_	t_1409|t_1410|ref=Excerp._4
+10	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_1410|t_1414|ref=Excerp._4
+11	τινὶ	τις	a	a-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_1411|t_1410|ref=Excerp._4
+12	,	,	u	u--------	_	19	AuxX	_	t_1412|t_1419|ref=Excerp._4
+13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	18	ATR	_	t_1413|t_1418|ref=Excerp._4
+14	δὲ	δέ	c	c--------	_	19	COORD	_	t_1414|t_1419|ref=Excerp._4
+15	πρὸς	πρός	r	r--------	_	18	AuxP	_	t_1415|t_1418|ref=Excerp._4
+16	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_1416|t_1417|ref=Excerp._4
+17	ἀκροατὰς	ἀκροατής	n	n-p---ma-	Case=a|Gender=m|Number=p	15	ATR	_	t_1417|t_1415|ref=Excerp._4
+18	ψυχαγωγίᾳ	ψυχαγωγία	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_1418|t_1414|ref=Excerp._4
+19	προήχθησαν	προάγω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	0	PRED	_	t_1419|0|ref=Excerp._4
+20	.	.	u	u--------	_	19	AuxK	_	t_1420|t_1419|ref=Excerp._4
 
-# source = Nicomachus of Gerasa, Excerp._3-4
+# source = Nicomachus of Gerasa, Excerp._4
 # text = ὥσπερ δὴ καὶ Πρόφραστός τε ὁ Πιερίτης τὴν ἐννάτην χορδὴν προσκαθῆψε , καὶ στιαῖος τὴν δεκάτην ὁ Κολοφώνιος , μόθεος ὁ ΜΔιλήσιος τὴν ἑνδεκάτην , καὶ ἐφεξῆς ἄλλοι [0] [1] [2] .
 # sent_id = 75
-1	ὥσπερ	ὥσπερ	d	d--------	_	26	AuxY	_	t_1421|t_1446|ref=Excerp._3
-2	δὴ	δή	d	d--------	_	26	AuxY	_	t_1422|t_1446|ref=Excerp._3
-3	καὶ	καί	d	d--------	_	26	AuxY	_	t_1423|t_1446|ref=Excerp._3
-4	Πρόφραστός	πρόφραστος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_1424|t_1431|ref=Excerp._3
-5	τε	τε	d	d--------	_	26	AuxY	_	t_1425|t_1446|ref=Excerp._3
-6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1426|t_1424|ref=Excerp._3
-7	Πιερίτης	πιερίτης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1427|t_1424|ref=Excerp._3
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1428|t_1430|ref=Excerp._3
-9	ἐννάτην	ἔνατος	a	a-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1429|t_1430|ref=Excerp._3
-10	χορδὴν	χορδή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_1430|t_1431|ref=Excerp._3
-11	προσκαθῆψε	προσκαθάπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	26	PRED	_	t_1431|t_1446|ref=Excerp._3
-12	,	,	u	u--------	_	0	AuxX	_	t_1432|0|ref=Excerp._3
-13	καὶ	καί	d	d--------	_	26	AuxY	_	t_1433|t_1446|ref=Excerp._3
-14	στιαῖος	στιαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	29	PNOM	_	t_1434|e_47|ref=Excerp._3
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1435|t_1436|ref=Excerp._3
-16	δεκάτην	δέκατος	a	a-s---fa-	Case=a|Gender=f|Number=s	29	ADV	_	t_1436|e_47|ref=Excerp._3
-17	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	18	ATR	_	t_1437|t_1438|ref=Excerp._3
-18	Κολοφώνιος	κολοφώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_1438|e_47|ref=Excerp._3
-19	,	,	u	u--------	_	12	AuxX	_	t_1439|t_1432|ref=Excerp._3
-20	μόθεος	μόθεος	a	a-s---mn-	Case=n|Gender=m|Number=s	30	PNOM	_	t_1440|e_48|ref=Excerp._3
-21	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	22	ATR	_	t_1441|t_1442|ref=Excerp._3
-22	ΜΔιλήσιος	μδιλήσιος	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_1442|e_48|ref=Excerp._3
-23	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_1443|t_1444|ref=Excerp._3
+1	ὥσπερ	ὥσπερ	d	d--------	_	26	AuxY	_	t_1421|t_1446|ref=Excerp._4
+2	δὴ	δή	d	d--------	_	26	AuxY	_	t_1422|t_1446|ref=Excerp._4
+3	καὶ	καί	d	d--------	_	26	AuxY	_	t_1423|t_1446|ref=Excerp._4
+4	Πρόφραστός	πρόφραστος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_1424|t_1431|ref=Excerp._4
+5	τε	τε	d	d--------	_	26	AuxY	_	t_1425|t_1446|ref=Excerp._4
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1426|t_1424|ref=Excerp._4
+7	Πιερίτης	πιερίτης	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1427|t_1424|ref=Excerp._4
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1428|t_1430|ref=Excerp._4
+9	ἐννάτην	ἔνατος	a	a-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_1429|t_1430|ref=Excerp._4
+10	χορδὴν	χορδή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_1430|t_1431|ref=Excerp._4
+11	προσκαθῆψε	προσκαθάπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	26	PRED	_	t_1431|t_1446|ref=Excerp._4
+12	,	,	u	u--------	_	0	AuxX	_	t_1432|0|ref=Excerp._4
+13	καὶ	καί	d	d--------	_	26	AuxY	_	t_1433|t_1446|ref=Excerp._4
+14	στιαῖος	στιαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	29	PNOM	_	t_1434|e_47|ref=Excerp._4
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1435|t_1436|ref=Excerp._4
+16	δεκάτην	δέκατος	a	a-s---fa-	Case=a|Gender=f|Number=s	29	ADV	_	t_1436|e_47|ref=Excerp._4
+17	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	18	ATR	_	t_1437|t_1438|ref=Excerp._4
+18	Κολοφώνιος	κολοφώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_1438|e_47|ref=Excerp._4
+19	,	,	u	u--------	_	12	AuxX	_	t_1439|t_1432|ref=Excerp._4
+20	μόθεος	μόθεος	a	a-s---mn-	Case=n|Gender=m|Number=s	30	PNOM	_	t_1440|e_48|ref=Excerp._4
+21	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	22	ATR	_	t_1441|t_1442|ref=Excerp._4
+22	ΜΔιλήσιος	μδιλήσιος	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_1442|e_48|ref=Excerp._4
+23	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_1443|t_1444|ref=Excerp._4
 24	ἑνδεκάτην	ἑνδέκατος	a	a-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_1444|e_48|ref=Excerp._4
-25	,	,	u	u--------	_	12	AuxX	_	t_1445|t_1432|ref=Excerp._3
+25	,	,	u	u--------	_	12	AuxX	_	t_1445|t_1432|ref=Excerp._4
 26	καὶ	καί	c	c--------	_	12	COORD	_	t_1446|t_1432|ref=Excerp._4
 27	ἐφεξῆς	ἐφεξῆς	d	d--------	_	31	ADV	_	t_1447|e_49|ref=Excerp._4
 28	ἄλλοι	ἄλλος	p	p-p---mn-	Case=n|Gender=m|Number=p	31	SBJ	_	t_1448|e_49|ref=Excerp._4
-29	[0]	[0]	-	---------	_	26	PRED	_	e_47|t_1446|ref=Excerp._1
-30	[1]	[1]	-	---------	_	26	PRED	_	e_48|t_1446|ref=Excerp._1
-31	[2]	[2]	-	---------	_	26	PRED	_	e_49|t_1446|ref=Excerp._1
+29	[0]	[0]	-	---------	_	26	PRED	_	e_47|t_1446|ref=Excerp._4
+30	[1]	[1]	-	---------	_	26	PRED	_	e_48|t_1446|ref=Excerp._4
+31	[2]	[2]	-	---------	_	26	PRED	_	e_49|t_1446|ref=Excerp._4
 32	.	.	u	u--------	_	12	AuxK	_	t_1449|t_1432|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -1850,7 +1850,7 @@
 13	ὼ	ἐγώ	p	p-d---mn-	Case=n|Gender=m|Number=d	11	ATR	_	t_1490|t_1488|ref=Excerp._4
 14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_1491|t_1492|ref=Excerp._4
 15	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_1492|e_50|ref=Excerp._4
-16	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=Excerp._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=Excerp._4
 17	·	·	u	u--------	_	16	AuxK	_	t_1493|e_50|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -1920,9 +1920,9 @@
 62	ἐπιδεχομένους	ἐπιδέχομαι	v	v-pppema-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	60	ATR	_	t_1555|t_1553|ref=Excerp._4
 63	συμφωνίας	συμφωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	62	OBJ	_	t_1556|t_1555|ref=Excerp._4
 64	κοινωνίαν	κοινωνία	n	n-s---fa-	Case=a|Gender=f|Number=s	62	OBJ	_	t_1557|t_1555|ref=Excerp._4
-65	[0]	[0]	-	---------	_	67	OBJ	_	e_51|e_53|ref=Excerp._1
-66	[1]	[1]	-	---------	_	16	OBJ	_	e_52|t_1509|ref=Excerp._1
-67	[2]	[2]	-	---------	_	0	PRED	_	e_53|0|ref=Excerp._1
+65	[0]	[0]	-	---------	_	67	OBJ	_	e_51|e_53|ref=Excerp._4
+66	[1]	[1]	-	---------	_	16	OBJ	_	e_52|t_1509|ref=Excerp._4
+67	[2]	[2]	-	---------	_	0	PRED	_	e_53|0|ref=Excerp._4
 68	.	.	u	u--------	_	67	AuxK	_	t_1558|e_53|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -1943,7 +1943,7 @@
 13	διεζευγμένοις	διεζευγμένος	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	ADV	_	t_1571|t_1569|ref=Excerp._4
 14	(	̔	u	u--------	_	16	AuxG	_	t_1572|e_54|ref=Excerp._4
 15	p	p	n	n--------	_	16	OBJ	_	t_1573|e_54|ref=Excerp._4
-16	[0]	[0]	-	---------	_	0	PRED	_	e_54|0|ref=Excerp._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_54|0|ref=Excerp._4
 17	.	.	u	u--------	_	16	AuxK	_	t_1574|e_54|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -1962,7 +1962,7 @@
 11	,	,	u	u--------	_	14	AuxX	_	t_1585|e_55|ref=Excerp._4
 12	—	—	u	u--------	_	14	AuxG	_	t_1586|e_55|ref=Excerp._4
 13	ιη	ιη	i	i--------	_	14	ExD	_	t_1587|e_55|ref=Excerp._4
-14	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=Excerp._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=Excerp._4
 15	.	.	u	u--------	_	14	AuxK	_	t_1588|e_55|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -2007,8 +2007,8 @@
 37	ἀμετάβολον	ἀμετάβολος	a	a-s---na-	Case=a|Gender=n|Number=s	35	ADV	_	t_1625|t_1623|ref=Excerp._4
 38	σύστημα	σύστημα	n	n-s---na-	Case=a|Gender=n|Number=s	35	ADV	_	t_1626|t_1623|ref=Excerp._4
 39	ὁρίζονται	ὁρίζω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1627|0|ref=Excerp._4
-40	[0]	[0]	-	---------	_	22	ADV	_	e_56|t_1610|ref=Excerp._1
-41	[1]	[1]	-	---------	_	22	ADV	_	e_57|t_1610|ref=Excerp._1
+40	[0]	[0]	-	---------	_	22	ADV	_	e_56|t_1610|ref=Excerp._4
+41	[1]	[1]	-	---------	_	22	ADV	_	e_57|t_1610|ref=Excerp._4
 42	.	.	u	u--------	_	39	AuxK	_	t_1628|t_1627|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -2053,7 +2053,7 @@
 19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_1661|t_1660|ref=Excerp._4
 20	διὰ	διά	r	r--------	_	19	AuxP	_	t_1662|t_1661|ref=Excerp._4
 21	πέντε	πέντε	m	m--------	_	20	ATR	_	t_1663|t_1662|ref=Excerp._4
-22	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=Excerp._1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=Excerp._4
 23	·	·	u	u--------	_	22	AuxK	_	t_1664|e_58|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -2071,7 +2071,7 @@
 10	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_1674|t_1671|ref=Excerp._4
 11	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	12	ATR	_	t_1675|t_1676|ref=Excerp._4
 12	φθόγγων	φθόγγος	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_1676|t_1674|ref=Excerp._4
-13	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=Excerp._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=Excerp._4
 14	·	·	u	u--------	_	13	AuxK	_	t_1677|e_59|ref=Excerp._4
 
 # source = Nicomachus of Gerasa, Excerp._4
@@ -2101,81 +2101,81 @@
 22	δξὐ	δξύς	a	a-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_1699|t_1696|ref=Excerp._4
 23	νήτῃ	νήτη	n	n-s---fd-	Case=d|Gender=f|Number=s	24	ADV	_	t_1700|t_1701|ref=Excerp._4
 24	ὑπερβολαίων	διάμεσος	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ADV	_	t_1701|t_1697|ref=Excerp._4
-25	[0]	[0]	-	---------	_	20	PRED	_	e_60|t_1697|ref=Excerp._1
+25	[0]	[0]	-	---------	_	20	PRED	_	e_60|t_1697|ref=Excerp._4
 26	.	.	u	u--------	_	7	AuxK	_	t_1702|t_1684|ref=Excerp._4
 
-# source = Nicomachus of Gerasa, Excerp._4
+# source = Nicomachus of Gerasa, Excerp._5
 # text = 5 .
 # sent_id = 87
-1	5	5	u	u--------	_	0	AuxG	_	t_1703|0|ref=Excerp._4
-2	.	.	u	u--------	_	1	AuxK	_	t_1704|t_1703|ref=Excerp._4
+1	5	5	u	u--------	_	0	AuxG	_	t_1703|0|ref=Excerp._5
+2	.	.	u	u--------	_	1	AuxK	_	t_1704|t_1703|ref=Excerp._5
 
-# source = Nicomachus of Gerasa, Excerp._4
+# source = Nicomachus of Gerasa, Excerp._5
 # text = Ὅτι οὐκ ἐπειδὴ προῆλθόν τινες εἰς τὸ τῶν κη φθόγγων πλῆθος , ἔξω τῆς τοῦ παντὸς πεπτωκότες φανοῦνται συμφωνίας , ἀλλʼ ἀκολούθως τῇ φυσικῇ τοῦ Πυθαγόρου καὶ Πλάτωνος δόξῃ [0] .
 # sent_id = 88
-1	Ὅτι	ὅτι	c	c--------	_	30	AuxC	_	t_1705|e_61|ref=Excerp._4
-2	οὐκ	οὐ	d	d--------	_	18	AuxZ	_	t_1706|t_1722|ref=Excerp._4
-3	ἐπειδὴ	ἐπεί	c	c--------	_	18	AuxC	_	t_1707|t_1722|ref=Excerp._4
-4	προῆλθόν	προέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	3	ADV	_	t_1708|t_1707|ref=Excerp._4
-5	τινες	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_1709|t_1708|ref=Excerp._4
-6	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_1710|t_1708|ref=Excerp._4
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_1711|t_1715|ref=Excerp._4
-8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_1712|t_1714|ref=Excerp._4
-9	κη	κη	d	d--------	_	10	ATR	_	t_1713|t_1714|ref=Excerp._4
-10	φθόγγων	φθόγγος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1714|t_1715|ref=Excerp._4
-11	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_1715|t_1710|ref=Excerp._4
-12	,	,	u	u--------	_	30	AuxX	_	t_1716|e_61|ref=Excerp._4
-13	ἔξω	ἔξω	r	r--------	_	21	AuxP	_	t_1717|t_1725|ref=Excerp._4
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1718|t_1723|ref=Excerp._4
-15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_1719|t_1720|ref=Excerp._4
-16	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_1720|t_1717|ref=Excerp._4
-17	πεπτωκότες	πίπτω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	18	PNOM	_	t_1721|t_1722|ref=Excerp._4
-18	φανοῦνται	φανάω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	1	OBJ	_	t_1722|t_1705|ref=Excerp._4
-19	συμφωνίας	συμφωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_1723|t_1717|ref=Excerp._4
-20	,	,	u	u--------	_	30	AuxX	_	t_1724|e_61|ref=Excerp._4
-21	ἀλλʼ	ἀλλά	c	c--------	_	18	COORD	_	t_1725|t_1722|ref=Excerp._4
-22	ἀκολούθως	ἀκόλουθος	d	d--------	_	21	ADV	_	t_1726|t_1725|ref=Excerp._4
-23	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_1727|t_1733|ref=Excerp._4
-24	φυσικῇ	φυσικός	a	a-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_1728|t_1733|ref=Excerp._4
-25	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_1729|t_1730|ref=Excerp._4
-26	Πυθαγόρου	πυθαγόρας	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_1730|t_1731|ref=Excerp._4
-27	καὶ	καί	c	c--------	_	29	COORD	_	t_1731|t_1733|ref=Excerp._4
-28	Πλάτωνος	πλάτων	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_1732|t_1731|ref=Excerp._4
-29	δόξῃ	δόξα	n	n-s---fd-	Case=d|Gender=f|Number=s	21	ADV	_	t_1733|t_1725|ref=Excerp._4
-30	[0]	[0]	-	---------	_	0	PRED	_	e_61|0|ref=Excerp._1
-31	.	.	u	u--------	_	30	AuxK	_	t_1734|e_61|ref=Excerp._4
+1	Ὅτι	ὅτι	c	c--------	_	30	AuxC	_	t_1705|e_61|ref=Excerp._5
+2	οὐκ	οὐ	d	d--------	_	18	AuxZ	_	t_1706|t_1722|ref=Excerp._5
+3	ἐπειδὴ	ἐπεί	c	c--------	_	18	AuxC	_	t_1707|t_1722|ref=Excerp._5
+4	προῆλθόν	προέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	3	ADV	_	t_1708|t_1707|ref=Excerp._5
+5	τινες	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_1709|t_1708|ref=Excerp._5
+6	εἰς	εἰς	r	r--------	_	4	AuxP	_	t_1710|t_1708|ref=Excerp._5
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_1711|t_1715|ref=Excerp._5
+8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_1712|t_1714|ref=Excerp._5
+9	κη	κη	d	d--------	_	10	ATR	_	t_1713|t_1714|ref=Excerp._5
+10	φθόγγων	φθόγγος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1714|t_1715|ref=Excerp._5
+11	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_1715|t_1710|ref=Excerp._5
+12	,	,	u	u--------	_	30	AuxX	_	t_1716|e_61|ref=Excerp._5
+13	ἔξω	ἔξω	r	r--------	_	21	AuxP	_	t_1717|t_1725|ref=Excerp._5
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1718|t_1723|ref=Excerp._5
+15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_1719|t_1720|ref=Excerp._5
+16	παντὸς	πᾶς	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_1720|t_1717|ref=Excerp._5
+17	πεπτωκότες	πίπτω	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	18	PNOM	_	t_1721|t_1722|ref=Excerp._5
+18	φανοῦνται	φανάω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	1	OBJ	_	t_1722|t_1705|ref=Excerp._5
+19	συμφωνίας	συμφωνία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_1723|t_1717|ref=Excerp._5
+20	,	,	u	u--------	_	30	AuxX	_	t_1724|e_61|ref=Excerp._5
+21	ἀλλʼ	ἀλλά	c	c--------	_	18	COORD	_	t_1725|t_1722|ref=Excerp._5
+22	ἀκολούθως	ἀκόλουθος	d	d--------	_	21	ADV	_	t_1726|t_1725|ref=Excerp._5
+23	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_1727|t_1733|ref=Excerp._5
+24	φυσικῇ	φυσικός	a	a-s---fd-	Case=d|Gender=f|Number=s	29	ATR	_	t_1728|t_1733|ref=Excerp._5
+25	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	26	ATR	_	t_1729|t_1730|ref=Excerp._5
+26	Πυθαγόρου	πυθαγόρας	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_1730|t_1731|ref=Excerp._5
+27	καὶ	καί	c	c--------	_	29	COORD	_	t_1731|t_1733|ref=Excerp._5
+28	Πλάτωνος	πλάτων	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_1732|t_1731|ref=Excerp._5
+29	δόξῃ	δόξα	n	n-s---fd-	Case=d|Gender=f|Number=s	21	ADV	_	t_1733|t_1725|ref=Excerp._5
+30	[0]	[0]	-	---------	_	0	PRED	_	e_61|0|ref=Excerp._5
+31	.	.	u	u--------	_	30	AuxK	_	t_1734|e_61|ref=Excerp._5
 
-# source = Nicomachus of Gerasa, Excerp._4-5
+# source = Nicomachus of Gerasa, Excerp._5
 # text = ἢ τε γὰρ τῶν θείων ψυχῶν φύσις τῇ ἑπτακαιεικοσιπλασίᾳ κατατετμημένη , προσλαμβάνουσά τε τὴν πάντων ἀρχὴν μονάδα ( ὥσπερ δὴ κ ἀν τοῖς φθόγγοις συμβολικῶς καλοῦσι προσλαμβανόμενον ) τοσοῦτον ἀποτελεῖ πλῆθος , ἀρχομένη μὲν ἀπὸ τῶν ἑπτὰ ὅρων , οὕς δὴ ὑποθεὶς ὁ Πλάτων τήν τε τριπλῆν καὶ κυβικὴν αὔξησιν εὕρατο , περατουμένη δὲ ( p .
 # sent_id = 89
-1	ἢ	ἤ1	c	c--------	Case=n|Gender=f|Number=s	13	AuxY	_	t_1735|t_1747|ref=Excerp._4
-2	τε	τε	c	c--------	_	13	AuxY	_	t_1736|t_1747|ref=Excerp._4
-3	γὰρ	γάρ	d	d--------	_	30	AuxY	_	t_1737|t_1764|ref=Excerp._4
-4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_1738|t_1740|ref=Excerp._4
-5	θείων	θεῖος2	a	a-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_1739|t_1740|ref=Excerp._4
-6	ψυχῶν	ψυχή	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_1740|t_1741|ref=Excerp._4
-7	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1741|t_1747|ref=Excerp._4
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_1742|t_1743|ref=Excerp._4
-9	ἑπτακαιεικοσιπλασίᾳ	ἑπτακαιεικοσιπλασία	n	n-s---fd-	Case=d|Gender=f|Number=s	10	OBJ	_	t_1743|t_1744|ref=Excerp._4
-10	κατατετμημένη	κατατέμνω	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	13	ADV	_	t_1744|t_1747|ref=Excerp._4
-11	,	,	u	u--------	_	30	AuxX	_	t_1745|t_1764|ref=Excerp._4
-12	προσλαμβάνουσά	προσλαμβάνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_1746|t_1747|ref=Excerp._4
-13	τε	τε	c	c--------	_	30	COORD	_	t_1747|t_1764|ref=Excerp._4
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1748|t_1750|ref=Excerp._4
-15	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_1749|t_1750|ref=Excerp._4
-16	ἀρχὴν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1750|t_1746|ref=Excerp._4
-17	μονάδα	μονάς	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1751|t_1746|ref=Excerp._4
-18	(	̔	u	u--------	_	30	AuxG	_	t_1752|t_1764|ref=Excerp._4
-19	ὥσπερ	ὥσπερ	c	c--------	_	30	AuxC	_	t_1753|t_1764|ref=Excerp._4
-20	δὴ	δή	d	d--------	_	26	AuxY	_	t_1754|t_1760|ref=Excerp._4
-21	κ	καί	d	d--------	_	24	AuxZ	_	t_1755|t_1758|ref=Excerp._4
-22	ἀν	ἐν	r	r--------	_	27	AuxP	_	t_1756|t_1761|ref=Excerp._4
-23	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	24	ATR	_	t_1757|t_1758|ref=Excerp._4
-24	φθόγγοις	φθόγγος	n	n-p---md-	Case=d|Gender=m|Number=p	22	ADV	_	t_1758|t_1756|ref=Excerp._4
-25	συμβολικῶς	συμβολικός	d	d--------	_	27	ADV	_	t_1759|t_1761|ref=Excerp._4
-26	καλοῦσι	καλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	19	ADV	_	t_1760|t_1753|ref=Excerp._4
-27	προσλαμβανόμενον	προσλαμβάνω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	26	ADV	_	t_1761|t_1760|ref=Excerp._4
-28	)	)	u	u--------	_	30	AuxG	_	t_1762|t_1764|ref=Excerp._4
+1	ἢ	ἤ1	c	c--------	Case=n|Gender=f|Number=s	13	AuxY	_	t_1735|t_1747|ref=Excerp._5
+2	τε	τε	c	c--------	_	13	AuxY	_	t_1736|t_1747|ref=Excerp._5
+3	γὰρ	γάρ	d	d--------	_	30	AuxY	_	t_1737|t_1764|ref=Excerp._5
+4	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_1738|t_1740|ref=Excerp._5
+5	θείων	θεῖος2	a	a-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_1739|t_1740|ref=Excerp._5
+6	ψυχῶν	ψυχή	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_1740|t_1741|ref=Excerp._5
+7	φύσις	φύσις	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1741|t_1747|ref=Excerp._5
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_1742|t_1743|ref=Excerp._5
+9	ἑπτακαιεικοσιπλασίᾳ	ἑπτακαιεικοσιπλασία	n	n-s---fd-	Case=d|Gender=f|Number=s	10	OBJ	_	t_1743|t_1744|ref=Excerp._5
+10	κατατετμημένη	κατατέμνω	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	13	ADV	_	t_1744|t_1747|ref=Excerp._5
+11	,	,	u	u--------	_	30	AuxX	_	t_1745|t_1764|ref=Excerp._5
+12	προσλαμβάνουσά	προσλαμβάνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_1746|t_1747|ref=Excerp._5
+13	τε	τε	c	c--------	_	30	COORD	_	t_1747|t_1764|ref=Excerp._5
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1748|t_1750|ref=Excerp._5
+15	πάντων	πᾶς	a	a-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_1749|t_1750|ref=Excerp._5
+16	ἀρχὴν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1750|t_1746|ref=Excerp._5
+17	μονάδα	μονάς	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1751|t_1746|ref=Excerp._5
+18	(	̔	u	u--------	_	30	AuxG	_	t_1752|t_1764|ref=Excerp._5
+19	ὥσπερ	ὥσπερ	c	c--------	_	30	AuxC	_	t_1753|t_1764|ref=Excerp._5
+20	δὴ	δή	d	d--------	_	26	AuxY	_	t_1754|t_1760|ref=Excerp._5
+21	κ	καί	d	d--------	_	24	AuxZ	_	t_1755|t_1758|ref=Excerp._5
+22	ἀν	ἐν	r	r--------	_	27	AuxP	_	t_1756|t_1761|ref=Excerp._5
+23	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	24	ATR	_	t_1757|t_1758|ref=Excerp._5
+24	φθόγγοις	φθόγγος	n	n-p---md-	Case=d|Gender=m|Number=p	22	ADV	_	t_1758|t_1756|ref=Excerp._5
+25	συμβολικῶς	συμβολικός	d	d--------	_	27	ADV	_	t_1759|t_1761|ref=Excerp._5
+26	καλοῦσι	καλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	19	ADV	_	t_1760|t_1753|ref=Excerp._5
+27	προσλαμβανόμενον	προσλαμβάνω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	26	ADV	_	t_1761|t_1760|ref=Excerp._5
+28	)	)	u	u--------	_	30	AuxG	_	t_1762|t_1764|ref=Excerp._5
 29	τοσοῦτον	τοσοῦτος	a	a-s---na-	Case=a|Gender=n|Number=s	31	ATR	_	t_1763|t_1765|ref=Excerp._5
 30	ἀποτελεῖ	ἀποτελέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1764|0|ref=Excerp._5
 31	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_1765|t_1764|ref=Excerp._5
@@ -2211,92 +2211,92 @@
 # sent_id = 90
 1	37	37	x	x--------	_	5	AuxY	_	t_1792|e_62|ref=Excerp._5
 2	)	)	u	u--------	_	5	AuxG	_	t_1793|e_62|ref=Excerp._5
-3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_1794|e_62|ref=Excerp._4
+3	εἰς	εἰς	r	r--------	_	5	AuxP	_	t_1794|e_62|ref=Excerp._5
 4	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_1795|t_1794|ref=Excerp._5
-5	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=Excerp._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=Excerp._5
 6	.	.	u	u--------	_	5	AuxK	_	t_1796|e_62|ref=Excerp._5
 
-# source = Nicomachus of Gerasa, Excerp._5
+# source = Nicomachus of Gerasa, Excerp._6
 # text = 6 .
 # sent_id = 91
-1	6	6	u	u--------	_	0	AuxG	_	t_1797|0|ref=Excerp._5
-2	.	.	u	u--------	_	1	AuxK	_	t_1798|t_1797|ref=Excerp._5
+1	6	6	u	u--------	_	0	AuxG	_	t_1797|0|ref=Excerp._6
+2	.	.	u	u--------	_	1	AuxK	_	t_1798|t_1797|ref=Excerp._6
 
-# source = Nicomachus of Gerasa, Excerp._5
+# source = Nicomachus of Gerasa, Excerp._6
 # text = Καὶ γὰρ δὴ καὶ οἱ φθόγγοι σφαίρας ἑκάστης τῶν ἑπτὰ ἕνα τινὰ ψόφον ποιὸν ἀποτελεῖν πεφυκυίας , οἷς δὴ τὰ στοιχεῖα τὰ φωνήεντα ἐπωνόμασται , ἄρρητα μὲν αὐτὰ καθʼ αὐτὰ καὶ πᾶν τὸ ἐκ τούτων συντιθέμενον ὑπὸ τῶν σοφῶν ἀποκαλούμενα [0] .
 # sent_id = 92
-1	Καὶ	καί	c	c--------	_	41	AuxY	_	t_1799|e_63|ref=Excerp._5
-2	γὰρ	γάρ	d	d--------	_	41	AuxY	_	t_1800|e_63|ref=Excerp._5
-3	δὴ	δή	d	d--------	_	41	AuxY	_	t_1801|e_63|ref=Excerp._5
-4	καὶ	καί	c	c--------	_	1	AuxY	_	t_1802|t_1799|ref=Excerp._5
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_1803|t_1804|ref=Excerp._5
-6	φθόγγοι	φθόγγος	n	n-p---mn-	Case=n|Gender=m|Number=p	41	SBJ	_	t_1804|e_63|ref=Excerp._5
-7	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	16	OBJ	_	t_1805|t_1814|ref=Excerp._5
-8	ἑκάστης	ἕκαστος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1806|t_1805|ref=Excerp._5
-9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_1807|t_1805|ref=Excerp._5
-10	ἑπτὰ	ἑπτὰ	m	m--------	_	7	ATR	_	t_1808|t_1805|ref=Excerp._5
-11	ἕνα	εἷς	m	m-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_1809|t_1811|ref=Excerp._5
-12	τινὰ	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_1810|t_1811|ref=Excerp._5
-13	ψόφον	ψόφος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_1811|t_1813|ref=Excerp._5
-14	ποιὸν	ποιός	a	a-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_1812|t_1813|ref=Excerp._5
-15	ἀποτελεῖν	ἀποτελέω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_1813|t_1814|ref=Excerp._5
-16	πεφυκυίας	φύω	v	v-prpafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=r|Voice=a	41	ADV	_	t_1814|e_63|ref=Excerp._5
-17	,	,	u	u--------	_	41	AuxX	_	t_1815|e_63|ref=Excerp._5
-18	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	24	OBJ	_	t_1816|t_1822|ref=Excerp._5
-19	δὴ	δή	d	d--------	_	24	AuxY	_	t_1817|t_1822|ref=Excerp._5
-20	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1818|t_1819|ref=Excerp._5
-21	στοιχεῖα	στοιχεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_1819|t_1822|ref=Excerp._5
-22	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1820|t_1819|ref=Excerp._5
-23	φωνήεντα	φωνήεις	a	a-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1821|t_1819|ref=Excerp._5
-24	ἐπωνόμασται	ἐπονομάζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	ATR	_	t_1822|t_1804|ref=Excerp._5
-25	,	,	u	u--------	_	41	AuxX	_	t_1823|e_63|ref=Excerp._5
-26	ἄρρητα	ἄρρητος	a	a-p---nn-	Case=n|Gender=n|Number=p	31	PNOM	_	t_1824|t_1829|ref=Excerp._5
-27	μὲν	μέν	d	d--------	_	40	AuxY	_	t_1825|t_1838|ref=Excerp._5
-28	αὐτὰ	αὐτός	a	a-p---nn-	Case=n|Gender=n|Number=p	31	ATR	_	t_1826|t_1829|ref=Excerp._5
-29	καθʼ	κατά	r	r--------	_	26	AuxP	_	t_1827|t_1824|ref=Excerp._5
-30	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	29	ADV	_	t_1828|t_1827|ref=Excerp._5
-31	καὶ	καί	c	c--------	_	41	COORD	_	t_1829|e_63|ref=Excerp._5
-32	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	36	ATR	_	t_1830|t_1834|ref=Excerp._5
-33	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	36	ATR	_	t_1831|t_1834|ref=Excerp._5
-34	ἐκ	ἐκ	r	r--------	_	36	AuxP	_	t_1832|t_1834|ref=Excerp._5
-35	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_1833|t_1832|ref=Excerp._5
-36	συντιθέμενον	συντίθημι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	31	SBJ	_	t_1834|t_1829|ref=Excerp._5
-37	ὑπὸ	ὑπό	r	r--------	_	40	AuxP	_	t_1835|t_1838|ref=Excerp._5
-38	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	39	ATR	_	t_1836|t_1837|ref=Excerp._5
-39	σοφῶν	σοφός	a	a-p---mg-	Case=g|Gender=m|Number=p	37	OBJ	_	t_1837|t_1835|ref=Excerp._5
-40	ἀποκαλούμενα	ἀνακαλέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	36	ATR	_	t_1838|t_1834|ref=Excerp._5
-41	[0]	[0]	-	---------	_	0	PRED	_	e_63|0|ref=Excerp._1
-42	.	.	u	u--------	_	41	AuxK	_	t_1839|e_63|ref=Excerp._5
+1	Καὶ	καί	c	c--------	_	41	AuxY	_	t_1799|e_63|ref=Excerp._6
+2	γὰρ	γάρ	d	d--------	_	41	AuxY	_	t_1800|e_63|ref=Excerp._6
+3	δὴ	δή	d	d--------	_	41	AuxY	_	t_1801|e_63|ref=Excerp._6
+4	καὶ	καί	c	c--------	_	1	AuxY	_	t_1802|t_1799|ref=Excerp._6
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_1803|t_1804|ref=Excerp._6
+6	φθόγγοι	φθόγγος	n	n-p---mn-	Case=n|Gender=m|Number=p	41	SBJ	_	t_1804|e_63|ref=Excerp._6
+7	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	16	OBJ	_	t_1805|t_1814|ref=Excerp._6
+8	ἑκάστης	ἕκαστος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1806|t_1805|ref=Excerp._6
+9	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_1807|t_1805|ref=Excerp._6
+10	ἑπτὰ	ἑπτὰ	m	m--------	_	7	ATR	_	t_1808|t_1805|ref=Excerp._6
+11	ἕνα	εἷς	m	m-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_1809|t_1811|ref=Excerp._6
+12	τινὰ	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_1810|t_1811|ref=Excerp._6
+13	ψόφον	ψόφος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_1811|t_1813|ref=Excerp._6
+14	ποιὸν	ποιός	a	a-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_1812|t_1813|ref=Excerp._6
+15	ἀποτελεῖν	ἀποτελέω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_1813|t_1814|ref=Excerp._6
+16	πεφυκυίας	φύω	v	v-prpafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=r|Voice=a	41	ADV	_	t_1814|e_63|ref=Excerp._6
+17	,	,	u	u--------	_	41	AuxX	_	t_1815|e_63|ref=Excerp._6
+18	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	24	OBJ	_	t_1816|t_1822|ref=Excerp._6
+19	δὴ	δή	d	d--------	_	24	AuxY	_	t_1817|t_1822|ref=Excerp._6
+20	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1818|t_1819|ref=Excerp._6
+21	στοιχεῖα	στοιχεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_1819|t_1822|ref=Excerp._6
+22	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1820|t_1819|ref=Excerp._6
+23	φωνήεντα	φωνήεις	a	a-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1821|t_1819|ref=Excerp._6
+24	ἐπωνόμασται	ἐπονομάζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	ATR	_	t_1822|t_1804|ref=Excerp._6
+25	,	,	u	u--------	_	41	AuxX	_	t_1823|e_63|ref=Excerp._6
+26	ἄρρητα	ἄρρητος	a	a-p---nn-	Case=n|Gender=n|Number=p	31	PNOM	_	t_1824|t_1829|ref=Excerp._6
+27	μὲν	μέν	d	d--------	_	40	AuxY	_	t_1825|t_1838|ref=Excerp._6
+28	αὐτὰ	αὐτός	a	a-p---nn-	Case=n|Gender=n|Number=p	31	ATR	_	t_1826|t_1829|ref=Excerp._6
+29	καθʼ	κατά	r	r--------	_	26	AuxP	_	t_1827|t_1824|ref=Excerp._6
+30	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	29	ADV	_	t_1828|t_1827|ref=Excerp._6
+31	καὶ	καί	c	c--------	_	41	COORD	_	t_1829|e_63|ref=Excerp._6
+32	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	36	ATR	_	t_1830|t_1834|ref=Excerp._6
+33	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	36	ATR	_	t_1831|t_1834|ref=Excerp._6
+34	ἐκ	ἐκ	r	r--------	_	36	AuxP	_	t_1832|t_1834|ref=Excerp._6
+35	τούτων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	34	ATR	_	t_1833|t_1832|ref=Excerp._6
+36	συντιθέμενον	συντίθημι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	31	SBJ	_	t_1834|t_1829|ref=Excerp._6
+37	ὑπὸ	ὑπό	r	r--------	_	40	AuxP	_	t_1835|t_1838|ref=Excerp._6
+38	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	39	ATR	_	t_1836|t_1837|ref=Excerp._6
+39	σοφῶν	σοφός	a	a-p---mg-	Case=g|Gender=m|Number=p	37	OBJ	_	t_1837|t_1835|ref=Excerp._6
+40	ἀποκαλούμενα	ἀνακαλέω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	36	ATR	_	t_1838|t_1834|ref=Excerp._6
+41	[0]	[0]	-	---------	_	0	PRED	_	e_63|0|ref=Excerp._6
+42	.	.	u	u--------	_	41	AuxK	_	t_1839|e_63|ref=Excerp._6
 
-# source = Nicomachus of Gerasa, Excerp._5-6
+# source = Nicomachus of Gerasa, Excerp._6
 # text = διότι κ ἀνταῦθα τοῦτο δύναται ὁ φοθόγγος , ὃ δὴ ἐν ἀριθμῷ μὲν μονὰς , ἐν δὲ γεωμετρίᾳ σημεῖον , ἐν δὲ γράμμασι στοιχεῖον [0] [1] ·
 # sent_id = 93
-1	διότι	διότι	c	c--------	_	25	AuxC	_	t_1840|e_64|ref=Excerp._5
-2	κ	καί	d	d--------	_	5	AuxY	_	t_1841|t_1844|ref=Excerp._5
-3	ἀνταῦθα	ἐνταῦθα	d	d--------	_	5	ADV	_	t_1842|t_1844|ref=Excerp._5
-4	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1843|t_1846|ref=Excerp._5
-5	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_1844|t_1840|ref=Excerp._5
-6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1845|t_1846|ref=Excerp._5
-7	φοθόγγος	φοθόγγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1846|t_1844|ref=Excerp._5
-8	,	,	u	u--------	_	5	AuxX	_	t_1847|t_1844|ref=Excerp._5
-9	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	22	SBJ	_	t_1848|t_1861|ref=Excerp._5
-10	δὴ	δή	d	d--------	_	25	AuxY	_	t_1849|e_64|ref=Excerp._5
-11	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_1850|e_64|ref=Excerp._5
-12	ἀριθμῷ	ἀριθμός	n	n-s---md-	Case=d|Gender=m|Number=s	11	ADV	_	t_1851|t_1850|ref=Excerp._5
-13	μὲν	μέν	d	d--------	_	22	AuxY	_	t_1852|t_1861|ref=Excerp._5
-14	μονὰς	μονή	n	n-p---fa-	Case=a|Gender=f|Number=p	25	OBJ	_	t_1853|e_64|ref=Excerp._5
-15	,	,	u	u--------	_	5	AuxX	_	t_1854|t_1844|ref=Excerp._5
-16	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_1855|e_65|ref=Excerp._5
-17	δὲ	δέ	d	d--------	_	22	AuxY	_	t_1856|t_1861|ref=Excerp._5
-18	γεωμετρίᾳ	γεωμετρία	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_1857|t_1855|ref=Excerp._5
-19	σημεῖον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	26	SBJ	_	t_1858|e_65|ref=Excerp._5
+1	διότι	διότι	c	c--------	_	25	AuxC	_	t_1840|e_64|ref=Excerp._6
+2	κ	καί	d	d--------	_	5	AuxY	_	t_1841|t_1844|ref=Excerp._6
+3	ἀνταῦθα	ἐνταῦθα	d	d--------	_	5	ADV	_	t_1842|t_1844|ref=Excerp._6
+4	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1843|t_1846|ref=Excerp._6
+5	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ADV	_	t_1844|t_1840|ref=Excerp._6
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1845|t_1846|ref=Excerp._6
+7	φοθόγγος	φοθόγγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1846|t_1844|ref=Excerp._6
+8	,	,	u	u--------	_	5	AuxX	_	t_1847|t_1844|ref=Excerp._6
+9	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	22	SBJ	_	t_1848|t_1861|ref=Excerp._6
+10	δὴ	δή	d	d--------	_	25	AuxY	_	t_1849|e_64|ref=Excerp._6
+11	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_1850|e_64|ref=Excerp._6
+12	ἀριθμῷ	ἀριθμός	n	n-s---md-	Case=d|Gender=m|Number=s	11	ADV	_	t_1851|t_1850|ref=Excerp._6
+13	μὲν	μέν	d	d--------	_	22	AuxY	_	t_1852|t_1861|ref=Excerp._6
+14	μονὰς	μονή	n	n-p---fa-	Case=a|Gender=f|Number=p	25	OBJ	_	t_1853|e_64|ref=Excerp._6
+15	,	,	u	u--------	_	5	AuxX	_	t_1854|t_1844|ref=Excerp._6
+16	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_1855|e_65|ref=Excerp._6
+17	δὲ	δέ	d	d--------	_	22	AuxY	_	t_1856|t_1861|ref=Excerp._6
+18	γεωμετρίᾳ	γεωμετρία	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_1857|t_1855|ref=Excerp._6
+19	σημεῖον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	26	SBJ	_	t_1858|e_65|ref=Excerp._6
 20	,	,	u	u--------	_	5	AuxX	_	t_1859|t_1844|ref=Excerp._6
 21	ἐν	ἐν	r	r--------	_	26	AuxP	_	t_1860|e_65|ref=Excerp._6
 22	δὲ	δέ	d	d--------	_	1	COORD	_	t_1861|t_1840|ref=Excerp._6
 23	γράμμασι	γράμμα	n	n-p---nd-	Case=d|Gender=n|Number=p	21	ADV	_	t_1862|t_1860|ref=Excerp._6
 24	στοιχεῖον	στοιχεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	26	PNOM	_	t_1863|e_65|ref=Excerp._6
-25	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=Excerp._1
-26	[1]	[1]	-	---------	_	22	ATR	_	e_65|t_1861|ref=Excerp._1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=Excerp._6
+26	[1]	[1]	-	---------	_	22	ATR	_	e_65|t_1861|ref=Excerp._6
 27	·	·	u	u--------	_	5	AuxK	_	t_1864|t_1844|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2338,16 +2338,16 @@
 34	μέλη	μέλος	n	n-p---na-	Case=a|Gender=n|Number=p	33	OBJ	_	t_1898|t_1897|ref=Excerp._6
 35	,	,	u	u--------	_	6	AuxX	_	t_1899|t_1870|ref=Excerp._6
 36	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	46	SBJ	_	t_1900|e_68|ref=Excerp._6
-37	δὲ	δέ	d	d--------	_	6	COORD	_	t_1901|t_1870|ref=Excerp._5
+37	δὲ	δέ	d	d--------	_	6	COORD	_	t_1901|t_1870|ref=Excerp._6
 38	δραστικὰς	δραστικός	a	a-p---fa-	Case=a|Gender=f|Number=p	40	ATR	_	t_1902|t_1904|ref=Excerp._6
 39	δυνάμεις	δύναμις	n	n-p---fa-	Case=a|Gender=f|Number=p	40	OBJ	_	t_1903|t_1904|ref=Excerp._6
 40	καὶ	καί	c	c--------	_	46	COORD	_	t_1904|e_68|ref=Excerp._6
 41	τελεστικὰς	τελεστικός	a	a-p---fa-	Case=a|Gender=f|Number=p	40	OBJ	_	t_1905|t_1904|ref=Excerp._6
 42	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=m|Number=p	43	ATR	_	t_1906|t_1907|ref=Excerp._6
 43	θείων	θεῖος2	a	a-p---mg-	Case=g|Gender=m|Number=p	40	ATR	_	t_1907|t_1904|ref=Excerp._6
-44	[0]	[0]	-	---------	_	20	ADV	_	e_66|t_1884|ref=Excerp._1
-45	[1]	[1]	-	---------	_	20	ADV	_	e_67|t_1884|ref=Excerp._1
-46	[2]	[2]	-	---------	_	20	ADV	_	e_68|t_1884|ref=Excerp._1
+44	[0]	[0]	-	---------	_	20	ADV	_	e_66|t_1884|ref=Excerp._6
+45	[1]	[1]	-	---------	_	20	ADV	_	e_67|t_1884|ref=Excerp._6
+46	[2]	[2]	-	---------	_	20	ADV	_	e_68|t_1884|ref=Excerp._6
 47	.	.	u	u--------	_	6	AuxK	_	t_1908|t_1870|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2391,7 +2391,7 @@
 10	,	,	u	u--------	_	13	AuxX	_	t_1940|e_69|ref=Excerp._6
 11	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	12	ADV	_	t_1941|t_1942|ref=Excerp._6
 12	ἔλαβον	λαμβάνω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	2	SBJ	_	t_1942|t_1932|ref=Excerp._6
-13	[0]	[0]	-	---------	_	0	PRED	_	e_69|0|ref=Excerp._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_69|0|ref=Excerp._6
 14	·	·	u	u--------	_	13	AuxK	_	t_1943|e_69|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2427,8 +2427,8 @@
 28	καὶ	καί	c	c--------	_	30	COORD	_	t_1971|t_1973|ref=Excerp._6
 29	φθογγήεντας	φθογγήεις	a	a-p---ma-	Case=a|Gender=m|Number=p	28	OCOMP	_	t_1972|t_1971|ref=Excerp._6
 30	καλοῦμεν	καλέω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	18	ATR	_	t_1973|t_1961|ref=Excerp._6
-31	[0]	[0]	-	---------	_	8	PRED	_	e_70|t_1951|ref=Excerp._1
-32	[1]	[1]	-	---------	_	8	PRED	_	e_71|t_1951|ref=Excerp._1
+31	[0]	[0]	-	---------	_	8	PRED	_	e_70|t_1951|ref=Excerp._6
+32	[1]	[1]	-	---------	_	8	PRED	_	e_71|t_1951|ref=Excerp._6
 33	.	.	u	u--------	_	7	AuxK	_	t_1974|t_1950|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2466,8 +2466,8 @@
 30	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ATR	_	t_2004|t_2005|ref=Excerp._6
 31	σύμπαν	σύμπας	a	a-s---na-	Case=a|Gender=n|Number=s	32	OBJ	_	t_2005|t_2006|ref=Excerp._6
 32	ἀποτελεῖσθαι	ἀποτελέω	v	v--pne---	Mood=n|Tense=p|Voice=e	15	SBJ	_	t_2006|t_1989|ref=Excerp._6
-33	[0]	[0]	-	---------	_	2	ADV	_	e_72|t_1976|ref=Excerp._1
-34	[1]	[1]	-	---------	_	18	ADV	_	e_73|t_1992|ref=Excerp._1
+33	[0]	[0]	-	---------	_	2	ADV	_	e_72|t_1976|ref=Excerp._6
+34	[1]	[1]	-	---------	_	18	ADV	_	e_73|t_1992|ref=Excerp._6
 35	.	.	u	u--------	_	15	AuxK	_	t_2007|t_1989|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2488,7 +2488,7 @@
 13	ἑβδομάδος	ἑβδομάς	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_2020|t_2019|ref=Excerp._6
 14	(	̔	u	u--------	_	16	AuxG	_	t_2021|e_74|ref=Excerp._6
 15	p	p	x	x--------	_	16	SBJ	_	t_2022|e_74|ref=Excerp._6
-16	[0]	[0]	-	---------	_	0	PRED	_	e_74|0|ref=Excerp._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_74|0|ref=Excerp._6
 17	.	.	u	u--------	_	16	AuxK	_	t_2023|e_74|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2527,7 +2527,7 @@
 22	τοσοῦτον	τοσοῦτος	a	a-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_2050|t_2051|ref=Excerp._6
 23	ἀριθμὸν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_2051|t_2052|ref=Excerp._6
 24	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	PRED	_	t_2052|t_2046|ref=Excerp._6
-25	[0]	[0]	-	---------	_	18	PRED	_	e_75|t_2046|ref=Excerp._1
+25	[0]	[0]	-	---------	_	18	PRED	_	e_75|t_2046|ref=Excerp._6
 26	.	.	u	u--------	_	16	AuxK	_	t_2053|t_2044|ref=Excerp._6
 
 # source = Nicomachus of Gerasa, Excerp._6
@@ -2588,99 +2588,99 @@
 53	Αἰγυπτίων	αἰγύπτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	54	ATR	_	t_2106|t_2107|ref=Excerp._6
 54	προσηγορίαν	προσηγορία	n	n-s---fa-	Case=a|Gender=f|Number=s	51	ADV	_	t_2107|t_2104|ref=Excerp._6
 55	ὑπάρχει	ὑπάρχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	11	SBJ	_	t_2108|t_2064|ref=Excerp._6
-56	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=Excerp._1
+56	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=Excerp._6
 57	.	.	u	u--------	_	56	AuxK	_	t_2109|e_76|ref=Excerp._6
 
-# source = Nicomachus of Gerasa, Excerp._6
+# source = Nicomachus of Gerasa, Excerp._7
 # text = 7 ʼἈφʼ ὧν δὴ καὶ Πυθαγόραν ὁρμώμενον τήν τε πρώτην διαίρεσιν καὶ τῆς ψυχῆς ἐπέκτασιν ἄχρι τοῦδε ὁριζομένην εὑρεῖν .
 # sent_id = 103
-1	7	7	u	u--------	_	0	AuxG	_	t_2110|0|ref=Excerp._6
-2	ʼἈφʼ	ἀπό	r	r--------	_	1	AuxY	_	t_2111|t_2110|ref=Excerp._6
-3	ὧν	ὅς	d	d--------	_	2	AuxY	_	t_2112|t_2111|ref=Excerp._6
-4	δὴ	δή	d	d--------	_	19	AuxY	_	t_2113|t_2128|ref=Excerp._6
-5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_2114|t_2115|ref=Excerp._6
-6	Πυθαγόραν	πυθαγόρας	n	n-s---ma-	Case=a|Gender=m|Number=s	19	SBJ	_	t_2115|t_2128|ref=Excerp._6
-7	ὁρμώμενον	ὁρμάω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	ATR	_	t_2116|t_2115|ref=Excerp._6
-8	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2117|t_2120|ref=Excerp._6
-9	τε	τε	d	d--------	_	12	AuxY	_	t_2118|t_2121|ref=Excerp._6
-10	πρώτην	πρῶτος	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2119|t_2120|ref=Excerp._6
-11	διαίρεσιν	διαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_2120|t_2121|ref=Excerp._6
-12	καὶ	καί	c	c--------	_	18	COORD	_	t_2121|t_2127|ref=Excerp._6
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_2122|t_2123|ref=Excerp._6
-14	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_2123|t_2124|ref=Excerp._6
-15	ἐπέκτασιν	ἐπέκτασις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_2124|t_2121|ref=Excerp._6
-16	ἄχρι	ἄχρι	r	r--------	_	18	AuxP	_	t_2125|t_2127|ref=Excerp._6
-17	τοῦδε	ὅδε	p	p-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_2126|t_2125|ref=Excerp._6
-18	ὁριζομένην	ὁρίζω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	19	ADV	_	t_2127|t_2128|ref=Excerp._6
-19	εὑρεῖν	εὑρίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	PRED	_	t_2128|t_2110|ref=Excerp._6
-20	.	.	u	u--------	_	1	AuxK	_	t_2129|t_2110|ref=Excerp._6
+1	7	7	u	u--------	_	0	AuxG	_	t_2110|0|ref=Excerp._7
+2	ʼἈφʼ	ἀπό	r	r--------	_	1	AuxY	_	t_2111|t_2110|ref=Excerp._7
+3	ὧν	ὅς	d	d--------	_	2	AuxY	_	t_2112|t_2111|ref=Excerp._7
+4	δὴ	δή	d	d--------	_	19	AuxY	_	t_2113|t_2128|ref=Excerp._7
+5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_2114|t_2115|ref=Excerp._7
+6	Πυθαγόραν	πυθαγόρας	n	n-s---ma-	Case=a|Gender=m|Number=s	19	SBJ	_	t_2115|t_2128|ref=Excerp._7
+7	ὁρμώμενον	ὁρμάω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	ATR	_	t_2116|t_2115|ref=Excerp._7
+8	τήν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2117|t_2120|ref=Excerp._7
+9	τε	τε	d	d--------	_	12	AuxY	_	t_2118|t_2121|ref=Excerp._7
+10	πρώτην	πρῶτος	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2119|t_2120|ref=Excerp._7
+11	διαίρεσιν	διαίρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_2120|t_2121|ref=Excerp._7
+12	καὶ	καί	c	c--------	_	18	COORD	_	t_2121|t_2127|ref=Excerp._7
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_2122|t_2123|ref=Excerp._7
+14	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_2123|t_2124|ref=Excerp._7
+15	ἐπέκτασιν	ἐπέκτασις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_2124|t_2121|ref=Excerp._7
+16	ἄχρι	ἄχρι	r	r--------	_	18	AuxP	_	t_2125|t_2127|ref=Excerp._7
+17	τοῦδε	ὅδε	p	p-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_2126|t_2125|ref=Excerp._7
+18	ὁριζομένην	ὁρίζω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	19	ADV	_	t_2127|t_2128|ref=Excerp._7
+19	εὑρεῖν	εὑρίσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	PRED	_	t_2128|t_2110|ref=Excerp._7
+20	.	.	u	u--------	_	1	AuxK	_	t_2129|t_2110|ref=Excerp._7
 
-# source = Nicomachus of Gerasa, Excerp._6
+# source = Nicomachus of Gerasa, Excerp._7
 # text = καὶ γὰρ καὶ αὕτη τριπλῆ , ἔκ τε τ αὐτοῦ καὶ θατέρου καὶ οὐσίας τὴν ὑπόστασιν , παραπλησίως δὲ τῇ ὑποστάσει τριττὸν ὁρισμὸν ἐπιδεχομένη εἰς τε τὸ λογικὸν καὶ τὸ ἄλογον καὶ τὸ φυσικόν ( ὥσπερ δὴ τό τε ἐναρμόνιον καὶ τὸ διάτονον καὶ τὸ χριοματικόν ) [0] [1] [2] .
 # sent_id = 104
-1	καὶ	καί	d	d--------	_	4	AuxZ	_	t_2130|t_2133|ref=Excerp._6
-2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_2131|t_2148|ref=Excerp._6
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_2132|t_2133|ref=Excerp._6
-4	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_2133|e_77|ref=Excerp._6
-5	τριπλῆ	τριπλόος	a	a-s---fn-	Case=n|Gender=f|Number=s	48	PNOM	_	t_2134|e_77|ref=Excerp._6
-6	,	,	u	u--------	_	0	AuxX	_	t_2135|0|ref=Excerp._6
-7	ἔκ	ἐκ	r	r--------	_	48	AuxP	_	t_2136|e_77|ref=Excerp._6
-8	τε	τε	d	d--------	_	13	AuxY	_	t_2137|t_2142|ref=Excerp._6
-9	τ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_2138|t_2139|ref=Excerp._6
-10	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_2139|t_2142|ref=Excerp._6
-11	καὶ	καί	d	d--------	_	13	AuxY	_	t_2140|t_2142|ref=Excerp._6
-12	θατέρου	ἕτερος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_2141|t_2142|ref=Excerp._6
-13	καὶ	καί	c	c--------	_	7	COORD	_	t_2142|t_2136|ref=Excerp._6
-14	οὐσίας	οὐσία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_2143|t_2142|ref=Excerp._6
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_2144|t_2145|ref=Excerp._6
-16	ὑπόστασιν	ὑπόστασις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_2145|t_2142|ref=Excerp._6
-17	,	,	u	u--------	_	6	AuxX	_	t_2146|t_2135|ref=Excerp._6
-18	παραπλησίως	παραπλήσιος	d	d--------	_	24	ADV	_	t_2147|t_2153|ref=Excerp._6
-19	δὲ	δέ	c	c--------	_	6	COORD	_	t_2148|t_2135|ref=Excerp._6
-20	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_2149|t_2150|ref=Excerp._6
-21	ὑποστάσει	ὑπόστασις	n	n-s---fd-	Case=d|Gender=f|Number=s	24	ADV	_	t_2150|t_2153|ref=Excerp._6
-22	τριττὸν	τρισσός	a	a-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_2151|t_2152|ref=Excerp._6
-23	ὁρισμὸν	ὁρισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_2152|t_2153|ref=Excerp._6
-24	ἐπιδεχομένη	ἐπιδέχομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	48	PNOM	_	t_2153|e_77|ref=Excerp._6
-25	εἰς	εἰς	r	r--------	_	24	AuxP	_	t_2154|t_2153|ref=Excerp._6
-26	τε	τε	d	d--------	_	32	AuxY	_	t_2155|t_2161|ref=Excerp._6
-27	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	28	ATR	_	t_2156|t_2157|ref=Excerp._6
-28	λογικὸν	λογικός	a	a-s---na-	Case=a|Gender=n|Number=s	32	ADV	_	t_2157|t_2161|ref=Excerp._6
-29	καὶ	καί	c	c--------	_	32	AuxY	_	t_2158|t_2161|ref=Excerp._6
-30	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ATR	_	t_2159|t_2160|ref=Excerp._6
-31	ἄλογον	ἄλογος	a	a-s---na-	Case=a|Gender=n|Number=s	32	ADV	_	t_2160|t_2161|ref=Excerp._6
-32	καὶ	καί	c	c--------	_	25	COORD	_	t_2161|t_2154|ref=Excerp._6
-33	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_2162|t_2163|ref=Excerp._6
-34	φυσικόν	φυσικός	a	a-s---na-	Case=a|Gender=n|Number=s	32	ADV	_	t_2163|t_2161|ref=Excerp._6
-35	(	̔	u	u--------	_	6	AuxG	_	t_2164|t_2135|ref=Excerp._6
-36	ὥσπερ	ὥσπερ	c	c--------	_	24	AuxC	_	t_2165|t_2153|ref=Excerp._6
-37	δὴ	δή	d	d--------	_	49	AuxY	_	t_2166|e_78|ref=Excerp._6
-38	τό	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	40	ATR	_	t_2167|t_2169|ref=Excerp._6
-39	τε	τε	d	d--------	_	44	AuxY	_	t_2168|t_2173|ref=Excerp._6
-40	ἐναρμόνιον	ἐναρμόνιος	a	a-s---na-	Case=a|Gender=n|Number=s	44	SBJ	_	t_2169|t_2173|ref=Excerp._6
-41	καὶ	καί	c	c--------	_	44	AuxY	_	t_2170|t_2173|ref=Excerp._6
-42	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	43	ATR	_	t_2171|t_2172|ref=Excerp._6
-43	διάτονον	διάτονος	a	a-s---na-	Case=a|Gender=n|Number=s	44	SBJ	_	t_2172|t_2173|ref=Excerp._6
-44	καὶ	καί	c	c--------	_	50	COORD	_	t_2173|e_79|ref=Excerp._6
-45	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	46	ATR	_	t_2174|t_2175|ref=Excerp._6
-46	χριοματικόν	χριοματικός	a	a-s---na-	Case=n|Gender=n|Number=s	44	SBJ	_	t_2175|t_2173|ref=Excerp._6
-47	)	)	u	u--------	_	6	AuxG	_	t_2176|t_2135|ref=Excerp._6
-48	[0]	[0]	-	---------	_	19	PRED	_	e_77|t_2148|ref=Excerp._1
-49	[1]	[1]	-	---------	_	19	PRED	_	e_78|t_2148|ref=Excerp._1
-50	[2]	[2]	-	---------	_	36	ADV	_	e_79|t_2165|ref=Excerp._1
-51	.	.	u	u--------	_	6	AuxK	_	t_2177|t_2135|ref=Excerp._6
+1	καὶ	καί	d	d--------	_	4	AuxZ	_	t_2130|t_2133|ref=Excerp._7
+2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_2131|t_2148|ref=Excerp._7
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_2132|t_2133|ref=Excerp._7
+4	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_2133|e_77|ref=Excerp._7
+5	τριπλῆ	τριπλόος	a	a-s---fn-	Case=n|Gender=f|Number=s	48	PNOM	_	t_2134|e_77|ref=Excerp._7
+6	,	,	u	u--------	_	0	AuxX	_	t_2135|0|ref=Excerp._7
+7	ἔκ	ἐκ	r	r--------	_	48	AuxP	_	t_2136|e_77|ref=Excerp._7
+8	τε	τε	d	d--------	_	13	AuxY	_	t_2137|t_2142|ref=Excerp._7
+9	τ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_2138|t_2139|ref=Excerp._7
+10	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_2139|t_2142|ref=Excerp._7
+11	καὶ	καί	d	d--------	_	13	AuxY	_	t_2140|t_2142|ref=Excerp._7
+12	θατέρου	ἕτερος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_2141|t_2142|ref=Excerp._7
+13	καὶ	καί	c	c--------	_	7	COORD	_	t_2142|t_2136|ref=Excerp._7
+14	οὐσίας	οὐσία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_2143|t_2142|ref=Excerp._7
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_2144|t_2145|ref=Excerp._7
+16	ὑπόστασιν	ὑπόστασις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_2145|t_2142|ref=Excerp._7
+17	,	,	u	u--------	_	6	AuxX	_	t_2146|t_2135|ref=Excerp._7
+18	παραπλησίως	παραπλήσιος	d	d--------	_	24	ADV	_	t_2147|t_2153|ref=Excerp._7
+19	δὲ	δέ	c	c--------	_	6	COORD	_	t_2148|t_2135|ref=Excerp._7
+20	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	21	ATR	_	t_2149|t_2150|ref=Excerp._7
+21	ὑποστάσει	ὑπόστασις	n	n-s---fd-	Case=d|Gender=f|Number=s	24	ADV	_	t_2150|t_2153|ref=Excerp._7
+22	τριττὸν	τρισσός	a	a-s---ma-	Case=a|Gender=m|Number=s	23	ATR	_	t_2151|t_2152|ref=Excerp._7
+23	ὁρισμὸν	ὁρισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	24	OBJ	_	t_2152|t_2153|ref=Excerp._7
+24	ἐπιδεχομένη	ἐπιδέχομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	48	PNOM	_	t_2153|e_77|ref=Excerp._7
+25	εἰς	εἰς	r	r--------	_	24	AuxP	_	t_2154|t_2153|ref=Excerp._7
+26	τε	τε	d	d--------	_	32	AuxY	_	t_2155|t_2161|ref=Excerp._7
+27	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	28	ATR	_	t_2156|t_2157|ref=Excerp._7
+28	λογικὸν	λογικός	a	a-s---na-	Case=a|Gender=n|Number=s	32	ADV	_	t_2157|t_2161|ref=Excerp._7
+29	καὶ	καί	c	c--------	_	32	AuxY	_	t_2158|t_2161|ref=Excerp._7
+30	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	ATR	_	t_2159|t_2160|ref=Excerp._7
+31	ἄλογον	ἄλογος	a	a-s---na-	Case=a|Gender=n|Number=s	32	ADV	_	t_2160|t_2161|ref=Excerp._7
+32	καὶ	καί	c	c--------	_	25	COORD	_	t_2161|t_2154|ref=Excerp._7
+33	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	34	ATR	_	t_2162|t_2163|ref=Excerp._7
+34	φυσικόν	φυσικός	a	a-s---na-	Case=a|Gender=n|Number=s	32	ADV	_	t_2163|t_2161|ref=Excerp._7
+35	(	̔	u	u--------	_	6	AuxG	_	t_2164|t_2135|ref=Excerp._7
+36	ὥσπερ	ὥσπερ	c	c--------	_	24	AuxC	_	t_2165|t_2153|ref=Excerp._7
+37	δὴ	δή	d	d--------	_	49	AuxY	_	t_2166|e_78|ref=Excerp._7
+38	τό	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	40	ATR	_	t_2167|t_2169|ref=Excerp._7
+39	τε	τε	d	d--------	_	44	AuxY	_	t_2168|t_2173|ref=Excerp._7
+40	ἐναρμόνιον	ἐναρμόνιος	a	a-s---na-	Case=a|Gender=n|Number=s	44	SBJ	_	t_2169|t_2173|ref=Excerp._7
+41	καὶ	καί	c	c--------	_	44	AuxY	_	t_2170|t_2173|ref=Excerp._7
+42	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	43	ATR	_	t_2171|t_2172|ref=Excerp._7
+43	διάτονον	διάτονος	a	a-s---na-	Case=a|Gender=n|Number=s	44	SBJ	_	t_2172|t_2173|ref=Excerp._7
+44	καὶ	καί	c	c--------	_	50	COORD	_	t_2173|e_79|ref=Excerp._7
+45	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	46	ATR	_	t_2174|t_2175|ref=Excerp._7
+46	χριοματικόν	χριοματικός	a	a-s---na-	Case=n|Gender=n|Number=s	44	SBJ	_	t_2175|t_2173|ref=Excerp._7
+47	)	)	u	u--------	_	6	AuxG	_	t_2176|t_2135|ref=Excerp._7
+48	[0]	[0]	-	---------	_	19	PRED	_	e_77|t_2148|ref=Excerp._7
+49	[1]	[1]	-	---------	_	19	PRED	_	e_78|t_2148|ref=Excerp._7
+50	[2]	[2]	-	---------	_	36	ADV	_	e_79|t_2165|ref=Excerp._7
+51	.	.	u	u--------	_	6	AuxK	_	t_2177|t_2135|ref=Excerp._7
 
-# source = Nicomachus of Gerasa, Excerp._6-7
+# source = Nicomachus of Gerasa, Excerp._7
 # text = καὶ φαίνεταί γε ἐντεῦθεν ἡ διχῇ διαίρεσις ἐν τῇ ψυχογονίᾳ αὐτῇ , τοῖς μὲν πλανωμένοις κατὰ τοὺς ἑπτὰ φοθόγγους ἀποδιδοῦσα τὴν τῶν εἰκοσιοκτὼ φυσικῶν τε καὶ ψυχικῶν φθόγγων ἐναρμόνιον κατʼ οὐσίαν σύστασιν ·
 # sent_id = 105
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_2178|t_2179|ref=Excerp._6
-2	φαίνεταί	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2179|0|ref=Excerp._6
-3	γε	γε	d	d--------	_	4	AuxZ	_	t_2180|t_2181|ref=Excerp._6
-4	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	2	ADV	_	t_2181|t_2179|ref=Excerp._6
-5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_2182|t_2184|ref=Excerp._6
-6	διχῇ	διχή	d	d--------	Case=d|Gender=f|Number=s	2	ADV	_	t_2183|t_2179|ref=Excerp._6
-7	διαίρεσις	διαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_2184|t_2179|ref=Excerp._6
-8	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_2185|t_2179|ref=Excerp._6
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_2178|t_2179|ref=Excerp._7
+2	φαίνεταί	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2179|0|ref=Excerp._7
+3	γε	γε	d	d--------	_	4	AuxZ	_	t_2180|t_2181|ref=Excerp._7
+4	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	2	ADV	_	t_2181|t_2179|ref=Excerp._7
+5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_2182|t_2184|ref=Excerp._7
+6	διχῇ	διχή	d	d--------	Case=d|Gender=f|Number=s	2	ADV	_	t_2183|t_2179|ref=Excerp._7
+7	διαίρεσις	διαίρεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_2184|t_2179|ref=Excerp._7
+8	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_2185|t_2179|ref=Excerp._7
 9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_2186|t_2187|ref=Excerp._7
 10	ψυχογονίᾳ	ψυχογονία	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_2187|t_2185|ref=Excerp._7
 11	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_2188|t_2187|ref=Excerp._7
@@ -2744,9 +2744,9 @@
 32	αὔξησιν	αὔξησις	n	n-s---fa-	Case=a|Gender=f|Number=s	37	SBJ	_	t_2242|e_82|ref=Excerp._7
 33	(	̔	u	u--------	_	35	AuxG	_	t_2243|e_80|ref=Excerp._7
 34	p	p	n	n--------	_	37	OBJ	_	t_2244|e_82|ref=Excerp._7
-35	[0]	[0]	-	---------	_	0	PRED	_	e_80|0|ref=Excerp._1
-36	[1]	[1]	-	---------	_	18	ADV	_	e_81|t_2228|ref=Excerp._1
-37	[2]	[2]	-	---------	_	18	ADV	_	e_82|t_2228|ref=Excerp._1
+35	[0]	[0]	-	---------	_	0	PRED	_	e_80|0|ref=Excerp._7
+36	[1]	[1]	-	---------	_	18	ADV	_	e_81|t_2228|ref=Excerp._7
+37	[2]	[2]	-	---------	_	18	ADV	_	e_82|t_2228|ref=Excerp._7
 38	.	.	u	u--------	_	35	AuxK	_	t_2245|e_80|ref=Excerp._7
 
 # source = Nicomachus of Gerasa, Excerp._7
@@ -2837,9 +2837,9 @@
 22	κατὰ	κατά	r	r--------	_	27	AuxP	_	t_2324|e_85|ref=Excerp._7
 23	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	24	ATR	_	t_2325|t_2326|ref=Excerp._7
 24	6	6	n	n--------	_	22	ADV	_	t_2326|t_2324|ref=Excerp._7
-25	[0]	[0]	-	---------	_	21	PRED	_	e_83|t_2323|ref=Excerp._1
-26	[1]	[1]	-	---------	_	21	PRED	_	e_84|t_2323|ref=Excerp._1
-27	[2]	[2]	-	---------	_	21	PRED	_	e_85|t_2323|ref=Excerp._1
+25	[0]	[0]	-	---------	_	21	PRED	_	e_83|t_2323|ref=Excerp._7
+26	[1]	[1]	-	---------	_	21	PRED	_	e_84|t_2323|ref=Excerp._7
+27	[2]	[2]	-	---------	_	21	PRED	_	e_85|t_2323|ref=Excerp._7
 28	.	.	u	u--------	_	8	AuxK	_	t_2327|t_2310|ref=Excerp._7
 
 # source = Nicomachus of Gerasa, Excerp._7
@@ -2880,225 +2880,225 @@
 18	ὡρονόμων	ὡρονόμων	n	n-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_2356|t_2355|ref=Excerp._7
 19	.	.	u	u--------	_	9	AuxK	_	t_2357|t_2347|ref=Excerp._7
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._8
 # text = 8 [0] .
 # sent_id = 111
-1	8	8	x	x--------	_	2	AuxK	_	t_2358|e_86|ref=Excerp._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_86|0|ref=Excerp._1
-3	.	.	u	u--------	_	2	AuxK	_	t_2359|e_86|ref=Excerp._7
+1	8	8	x	x--------	_	2	AuxK	_	t_2358|e_86|ref=Excerp._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_86|0|ref=Excerp._8
+3	.	.	u	u--------	_	2	AuxK	_	t_2359|e_86|ref=Excerp._8
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._8
 # text = Ἀλλὰ πῶς φησιν ὀκτὼ σφαιρῶν οὐσῶν ἑπτἀ λέγοται εἶναι οἱ φθόγγοι ;
 # sent_id = 112
-1	Ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_2360|0|ref=Excerp._7
-2	πῶς	πῶς	d	d--------	_	8	ADV	_	t_2361|t_2367|ref=Excerp._7
-3	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_2362|t_2360|ref=Excerp._7
-4	ὀκτὼ	ὀκτώ	m	m--------	_	5	ATR	_	t_2363|t_2364|ref=Excerp._7
-5	σφαιρῶν	σφαῖρα	n	n-p---fg-	Case=g|Gender=f|Number=p	6	SBJ	_	t_2364|t_2365|ref=Excerp._7
-6	οὐσῶν	εἰμί	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_2365|t_2367|ref=Excerp._7
-7	ἑπτἀ	ἑπτὰ	m	m--------	_	9	PNOM	_	t_2366|t_2368|ref=Excerp._7
-8	λέγοται	λέγω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	1	PRED	_	t_2367|t_2360|ref=Excerp._7
-9	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_2368|t_2367|ref=Excerp._7
-10	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	ATR	_	t_2369|t_2370|ref=Excerp._7
-11	φθόγγοι	φθόγγος	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_2370|t_2367|ref=Excerp._7
-12	;	;	u	u--------	_	1	AuxK	_	t_2371|t_2360|ref=Excerp._7
+1	Ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_2360|0|ref=Excerp._8
+2	πῶς	πῶς	d	d--------	_	8	ADV	_	t_2361|t_2367|ref=Excerp._8
+3	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_2362|t_2360|ref=Excerp._8
+4	ὀκτὼ	ὀκτώ	m	m--------	_	5	ATR	_	t_2363|t_2364|ref=Excerp._8
+5	σφαιρῶν	σφαῖρα	n	n-p---fg-	Case=g|Gender=f|Number=p	6	SBJ	_	t_2364|t_2365|ref=Excerp._8
+6	οὐσῶν	εἰμί	v	v-pppafg-	Case=g|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	8	ADV	_	t_2365|t_2367|ref=Excerp._8
+7	ἑπτἀ	ἑπτὰ	m	m--------	_	9	PNOM	_	t_2366|t_2368|ref=Excerp._8
+8	λέγοται	λέγω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	1	PRED	_	t_2367|t_2360|ref=Excerp._8
+9	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_2368|t_2367|ref=Excerp._8
+10	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	ATR	_	t_2369|t_2370|ref=Excerp._8
+11	φθόγγοι	φθόγγος	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_2370|t_2367|ref=Excerp._8
+12	;	;	u	u--------	_	1	AuxK	_	t_2371|t_2360|ref=Excerp._8
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._8
 # text = ἢ ὅτι ἡ μὲν ἀεὶ κατὰ τὰ αὐτὰ κινουμένη ἀδιάφορον καὶ μίαν ποιεῖται τοῦ φθόγγου τὴν ἐκφώνησιν [0] ·
 # sent_id = 113
-1	ἢ	ἤ1	c	c--------	_	18	AuxY	_	t_2372|e_87|ref=Excerp._7
-2	ὅτι	ὅτι	c	c--------	_	18	AuxC	_	t_2373|e_87|ref=Excerp._7
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_2374|t_2380|ref=Excerp._7
-4	μὲν	μέν	d	d--------	_	13	AuxY	_	t_2375|t_2384|ref=Excerp._7
-5	ἀεὶ	ἀεί	d	d--------	_	9	ADV	_	t_2376|t_2380|ref=Excerp._7
-6	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_2377|t_2380|ref=Excerp._7
-7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_2378|t_2379|ref=Excerp._7
-8	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_2379|t_2377|ref=Excerp._7
-9	κινουμένη	κινέω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	SBJ	_	t_2380|t_2384|ref=Excerp._7
-10	ἀδιάφορον	ἀδιάφορος	a	a-s---fa-	Case=a|Gender=f|Number=s	11	OCOMP	_	t_2381|t_2382|ref=Excerp._7
-11	καὶ	καί	c	c--------	_	2	COORD	_	t_2382|t_2373|ref=Excerp._7
-12	μίαν	εἷς	a	a-s---fa-	Case=a|Gender=f|Number=s	13	OCOMP	_	t_2383|t_2384|ref=Excerp._7
-13	ποιεῖται	ποιέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	11	OBJ	_	t_2384|t_2382|ref=Excerp._7
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2385|t_2386|ref=Excerp._7
-15	φθόγγου	φθόγγος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_2386|t_2388|ref=Excerp._7
-16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_2387|t_2388|ref=Excerp._7
-17	ἐκφώνησιν	ἐκφώνησις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_2388|t_2384|ref=Excerp._7
-18	[0]	[0]	-	---------	_	0	PRED	_	e_87|0|ref=Excerp._1
-19	·	·	u	u--------	_	18	AuxK	_	t_2389|e_87|ref=Excerp._7
+1	ἢ	ἤ1	c	c--------	_	18	AuxY	_	t_2372|e_87|ref=Excerp._8
+2	ὅτι	ὅτι	c	c--------	_	18	AuxC	_	t_2373|e_87|ref=Excerp._8
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_2374|t_2380|ref=Excerp._8
+4	μὲν	μέν	d	d--------	_	13	AuxY	_	t_2375|t_2384|ref=Excerp._8
+5	ἀεὶ	ἀεί	d	d--------	_	9	ADV	_	t_2376|t_2380|ref=Excerp._8
+6	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_2377|t_2380|ref=Excerp._8
+7	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_2378|t_2379|ref=Excerp._8
+8	αὐτὰ	αὐτός	p	p-p---na-	Case=a|Gender=n|Number=p	6	ADV	_	t_2379|t_2377|ref=Excerp._8
+9	κινουμένη	κινέω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	13	SBJ	_	t_2380|t_2384|ref=Excerp._8
+10	ἀδιάφορον	ἀδιάφορος	a	a-s---fa-	Case=a|Gender=f|Number=s	11	OCOMP	_	t_2381|t_2382|ref=Excerp._8
+11	καὶ	καί	c	c--------	_	2	COORD	_	t_2382|t_2373|ref=Excerp._8
+12	μίαν	εἷς	a	a-s---fa-	Case=a|Gender=f|Number=s	13	OCOMP	_	t_2383|t_2384|ref=Excerp._8
+13	ποιεῖται	ποιέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	11	OBJ	_	t_2384|t_2382|ref=Excerp._8
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2385|t_2386|ref=Excerp._8
+15	φθόγγου	φθόγγος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_2386|t_2388|ref=Excerp._8
+16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_2387|t_2388|ref=Excerp._8
+17	ἐκφώνησιν	ἐκφώνησις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_2388|t_2384|ref=Excerp._8
+18	[0]	[0]	-	---------	_	0	PRED	_	e_87|0|ref=Excerp._8
+19	·	·	u	u--------	_	18	AuxK	_	t_2389|e_87|ref=Excerp._8
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._8
 # text = οὐκ ἔχουσα δὲ ἰσοταχῆ οὐ δὲ παραπλησίαν ἄλλην , οὐ δʼ ἂν ἐν ἁρμονίᾳ τάσσοιτο .
 # sent_id = 114
-1	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_2390|t_2393|ref=Excerp._7
-2	ἔχουσα	ἔχω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	15	ADV	_	t_2391|t_2404|ref=Excerp._7
-3	δὲ	δέ	d	d--------	_	15	AuxY	_	t_2392|t_2404|ref=Excerp._7
-4	ἰσοταχῆ	ἰσοταχής	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_2393|t_2395|ref=Excerp._7
-5	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_2394|t_2396|ref=Excerp._7
-6	δὲ	δέ	c	c--------	_	8	COORD	_	t_2395|t_2397|ref=Excerp._7
-7	παραπλησίαν	παραπλήσιος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_2396|t_2395|ref=Excerp._7
-8	ἄλλην	ἄλλος	p	p-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_2397|t_2391|ref=Excerp._7
-9	,	,	u	u--------	_	15	AuxX	_	t_2398|t_2404|ref=Excerp._7
-10	οὐ	οὐ	d	d--------	_	15	AuxZ	_	t_2399|t_2404|ref=Excerp._7
-11	δʼ	δέ	c	c--------	_	10	AuxY	_	t_2400|t_2399|ref=Excerp._7
-12	ἂν	ἄν	d	d--------	_	15	AuxY	_	t_2401|t_2404|ref=Excerp._7
-13	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_2402|t_2404|ref=Excerp._7
-14	ἁρμονίᾳ	ἁρμονία	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_2403|t_2402|ref=Excerp._7
-15	τάσσοιτο	τάσσω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2404|0|ref=Excerp._7
-16	.	.	u	u--------	_	15	AuxK	_	t_2405|t_2404|ref=Excerp._7
+1	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_2390|t_2393|ref=Excerp._8
+2	ἔχουσα	ἔχω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	15	ADV	_	t_2391|t_2404|ref=Excerp._8
+3	δὲ	δέ	d	d--------	_	15	AuxY	_	t_2392|t_2404|ref=Excerp._8
+4	ἰσοταχῆ	ἰσοταχής	a	a-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_2393|t_2395|ref=Excerp._8
+5	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_2394|t_2396|ref=Excerp._8
+6	δὲ	δέ	c	c--------	_	8	COORD	_	t_2395|t_2397|ref=Excerp._8
+7	παραπλησίαν	παραπλήσιος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_2396|t_2395|ref=Excerp._8
+8	ἄλλην	ἄλλος	p	p-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_2397|t_2391|ref=Excerp._8
+9	,	,	u	u--------	_	15	AuxX	_	t_2398|t_2404|ref=Excerp._8
+10	οὐ	οὐ	d	d--------	_	15	AuxZ	_	t_2399|t_2404|ref=Excerp._8
+11	δʼ	δέ	c	c--------	_	10	AuxY	_	t_2400|t_2399|ref=Excerp._8
+12	ἂν	ἄν	d	d--------	_	15	AuxY	_	t_2401|t_2404|ref=Excerp._8
+13	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_2402|t_2404|ref=Excerp._8
+14	ἁρμονίᾳ	ἁρμονία	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ADV	_	t_2403|t_2402|ref=Excerp._8
+15	τάσσοιτο	τάσσω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2404|0|ref=Excerp._8
+16	.	.	u	u--------	_	15	AuxK	_	t_2405|t_2404|ref=Excerp._8
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._8
 # text = οἱ δὲ δὴ τῶν πλανωμένων πολλὴν τὴν ἀνομοιότητα καὶ τὴν ἐναντίαν πρὸς αὐτὴν ἔχοντες ἐδείκνυτο κίνησιν τοσαύτην , ὅσην ἡ τοῦ αὐτοῦ πρὸς τὴν θατέρου [0] [1] .
 # sent_id = 115
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_2406|t_2420|ref=Excerp._7
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_2407|t_2420|ref=Excerp._7
-3	δὴ	δή	d	d--------	_	15	AuxY	_	t_2408|t_2420|ref=Excerp._7
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_2409|t_2410|ref=Excerp._7
-5	πλανωμένων	πλανάω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	1	ATR	_	t_2410|t_2406|ref=Excerp._7
-6	πολλὴν	πολύς	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_2411|t_2413|ref=Excerp._7
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_2412|t_2413|ref=Excerp._7
-8	ἀνομοιότητα	ἀνομοιότης	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2413|t_2414|ref=Excerp._7
-9	καὶ	καί	c	c--------	_	14	COORD	_	t_2414|t_2419|ref=Excerp._7
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2415|t_2416|ref=Excerp._7
-11	ἐναντίαν	ἐναντίος	a	a-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2416|t_2414|ref=Excerp._7
-12	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_2417|t_2416|ref=Excerp._7
-13	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_2418|t_2417|ref=Excerp._7
-14	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	15	ADV	_	t_2419|t_2420|ref=Excerp._7
-15	ἐδείκνυτο	δείκνυμι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_2420|0|ref=Excerp._7
-16	κίνησιν	κίνησις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_2421|t_2419|ref=Excerp._7
-17	τοσαύτην	τοσοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_2422|t_2421|ref=Excerp._7
-18	,	,	u	u--------	_	15	AuxX	_	t_2423|t_2420|ref=Excerp._7
-19	ὅσην	ὅσος	a	a-s---fa-	Case=a|Gender=f|Number=s	26	OBJ	_	t_2424|e_88|ref=Excerp._7
-20	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	26	SBJ	_	t_2425|e_88|ref=Excerp._7
-21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_2426|t_2427|ref=Excerp._7
-22	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_2427|t_2425|ref=Excerp._7
-23	πρὸς	πρός	r	r--------	_	26	AuxP	_	t_2428|e_88|ref=Excerp._7
-24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ADV	_	t_2429|t_2428|ref=Excerp._7
-25	θατέρου	ἕτερος	a	a-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_2430|t_2429|ref=Excerp._7
-26	[0]	[0]	-	---------	_	17	ATR	_	e_88|t_2422|ref=Excerp._1
-27	[1]	[1]	-	---------	_	26	OBJ	_	e_89|e_88|ref=Excerp._1
-28	.	.	u	u--------	_	15	AuxK	_	t_2431|t_2420|ref=Excerp._7
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_2406|t_2420|ref=Excerp._8
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_2407|t_2420|ref=Excerp._8
+3	δὴ	δή	d	d--------	_	15	AuxY	_	t_2408|t_2420|ref=Excerp._8
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_2409|t_2410|ref=Excerp._8
+5	πλανωμένων	πλανάω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	1	ATR	_	t_2410|t_2406|ref=Excerp._8
+6	πολλὴν	πολύς	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_2411|t_2413|ref=Excerp._8
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_2412|t_2413|ref=Excerp._8
+8	ἀνομοιότητα	ἀνομοιότης	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2413|t_2414|ref=Excerp._8
+9	καὶ	καί	c	c--------	_	14	COORD	_	t_2414|t_2419|ref=Excerp._8
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2415|t_2416|ref=Excerp._8
+11	ἐναντίαν	ἐναντίος	a	a-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2416|t_2414|ref=Excerp._8
+12	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_2417|t_2416|ref=Excerp._8
+13	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_2418|t_2417|ref=Excerp._8
+14	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	15	ADV	_	t_2419|t_2420|ref=Excerp._8
+15	ἐδείκνυτο	δείκνυμι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_2420|0|ref=Excerp._8
+16	κίνησιν	κίνησις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_2421|t_2419|ref=Excerp._8
+17	τοσαύτην	τοσοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_2422|t_2421|ref=Excerp._8
+18	,	,	u	u--------	_	15	AuxX	_	t_2423|t_2420|ref=Excerp._8
+19	ὅσην	ὅσος	a	a-s---fa-	Case=a|Gender=f|Number=s	26	OBJ	_	t_2424|e_88|ref=Excerp._8
+20	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	26	SBJ	_	t_2425|e_88|ref=Excerp._8
+21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_2426|t_2427|ref=Excerp._8
+22	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_2427|t_2425|ref=Excerp._8
+23	πρὸς	πρός	r	r--------	_	26	AuxP	_	t_2428|e_88|ref=Excerp._8
+24	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	23	ADV	_	t_2429|t_2428|ref=Excerp._8
+25	θατέρου	ἕτερος	a	a-s---mg-	Case=g|Gender=m|Number=s	24	ATR	_	t_2430|t_2429|ref=Excerp._8
+26	[0]	[0]	-	---------	_	17	ATR	_	e_88|t_2422|ref=Excerp._8
+27	[1]	[1]	-	---------	_	26	OBJ	_	e_89|e_88|ref=Excerp._8
+28	.	.	u	u--------	_	15	AuxK	_	t_2431|t_2420|ref=Excerp._8
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._8
 # text = διὸ δὴ τὸν ἀπʼ αὐτῆς φθόγγον ἄρρητον εἴασαν .
 # sent_id = 116
-1	διὸ	διό	d	d--------	_	8	ADV	_	t_2432|t_2439|ref=Excerp._7
-2	δὴ	δή	d	d--------	_	8	AuxY	_	t_2433|t_2439|ref=Excerp._7
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_2434|t_2437|ref=Excerp._7
-4	ἀπʼ	ἀπό	r	r--------	_	6	AuxP	_	t_2435|t_2437|ref=Excerp._7
-5	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_2436|t_2435|ref=Excerp._7
-6	φθόγγον	φθόγγος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_2437|t_2439|ref=Excerp._7
-7	ἄρρητον	ἄρρητος	a	a-s---ma-	Case=a|Gender=m|Number=s	8	OCOMP	_	t_2438|t_2439|ref=Excerp._7
-8	εἴασαν	ἐάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_2439|0|ref=Excerp._7
-9	.	.	u	u--------	_	8	AuxK	_	t_2440|t_2439|ref=Excerp._7
+1	διὸ	διό	d	d--------	_	8	ADV	_	t_2432|t_2439|ref=Excerp._8
+2	δὴ	δή	d	d--------	_	8	AuxY	_	t_2433|t_2439|ref=Excerp._8
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_2434|t_2437|ref=Excerp._8
+4	ἀπʼ	ἀπό	r	r--------	_	6	AuxP	_	t_2435|t_2437|ref=Excerp._8
+5	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_2436|t_2435|ref=Excerp._8
+6	φθόγγον	φθόγγος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_2437|t_2439|ref=Excerp._8
+7	ἄρρητον	ἄρρητος	a	a-s---ma-	Case=a|Gender=m|Number=s	8	OCOMP	_	t_2438|t_2439|ref=Excerp._8
+8	εἴασαν	ἐάω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_2439|0|ref=Excerp._8
+9	.	.	u	u--------	_	8	AuxK	_	t_2440|t_2439|ref=Excerp._8
 
-# source = Nicomachus of Gerasa, Excerp._7
+# source = Nicomachus of Gerasa, Excerp._9
 # text = 9 [0] .
 # sent_id = 117
-1	9	9	x	x--------	_	2	AuxK	_	t_2441|e_90|ref=Excerp._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_90|0|ref=Excerp._1
-3	.	.	u	u--------	_	2	AuxK	_	t_2442|e_90|ref=Excerp._7
+1	9	9	x	x--------	_	2	AuxK	_	t_2441|e_90|ref=Excerp._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_90|0|ref=Excerp._9
+3	.	.	u	u--------	_	2	AuxK	_	t_2442|e_90|ref=Excerp._9
 
-# source = Nicomachus of Gerasa, Excerp._8
+# source = Nicomachus of Gerasa, Excerp._9
 # text = Ὅτι οἱ φθόγγοι οἱ ὑπὸ τῶν τὴν χειρουργίαν μετιόντων εἰκοσιοκτώ εἰσιν οἵδῇ ·
 # sent_id = 118
-1	Ὅτι	ὅτι	d	d--------	_	11	AuxY	_	t_2443|t_2453|ref=Excerp._8
-2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_2444|t_2445|ref=Excerp._7
-3	φθόγγοι	φθόγγος	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_2445|t_2453|ref=Excerp._8
-4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_2446|t_2445|ref=Excerp._8
-5	ὑπὸ	ὑπό	r	r--------	_	3	AuxP	_	t_2447|t_2445|ref=Excerp._8
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_2448|t_2451|ref=Excerp._8
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_2449|t_2450|ref=Excerp._8
-8	χειρουργίαν	χειρουργία	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2450|t_2451|ref=Excerp._8
-9	μετιόντων	μέτειμι2	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_2451|t_2447|ref=Excerp._8
-10	εἰκοσιοκτώ	εἰκοσιοκτώ	m	m--------	_	11	PNOM	_	t_2452|t_2453|ref=Excerp._8
-11	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2453|0|ref=Excerp._8
-12	οἵδῇ	ὅδε	n	n-s---fd-	Case=d|Gender=f|Number=s	11	PNOM	_	t_2454|t_2453|ref=Excerp._8
-13	·	·	u	u--------	_	11	AuxK	_	t_2455|t_2453|ref=Excerp._8
+1	Ὅτι	ὅτι	d	d--------	_	11	AuxY	_	t_2443|t_2453|ref=Excerp._9
+2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_2444|t_2445|ref=Excerp._9
+3	φθόγγοι	φθόγγος	n	n-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_2445|t_2453|ref=Excerp._9
+4	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_2446|t_2445|ref=Excerp._9
+5	ὑπὸ	ὑπό	r	r--------	_	3	AuxP	_	t_2447|t_2445|ref=Excerp._9
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_2448|t_2451|ref=Excerp._9
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_2449|t_2450|ref=Excerp._9
+8	χειρουργίαν	χειρουργία	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2450|t_2451|ref=Excerp._9
+9	μετιόντων	μέτειμι2	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ATR	_	t_2451|t_2447|ref=Excerp._9
+10	εἰκοσιοκτώ	εἰκοσιοκτώ	m	m--------	_	11	PNOM	_	t_2452|t_2453|ref=Excerp._9
+11	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2453|0|ref=Excerp._9
+12	οἵδῇ	ὅδε	n	n-s---fd-	Case=d|Gender=f|Number=s	11	PNOM	_	t_2454|t_2453|ref=Excerp._9
+13	·	·	u	u--------	_	11	AuxK	_	t_2455|t_2453|ref=Excerp._9
 
-# source = Nicomachus of Gerasa, Excerp._8
+# source = Nicomachus of Gerasa, Excerp._9
 # text = α Προσλαμβανόμενος β ὑπάτη ὑπατῶν ( p [0] .
 # sent_id = 119
-1	α	α	d	d--------	_	8	AuxY	_	t_2456|e_91|ref=Excerp._8
-2	Προσλαμβανόμενος	προσλαμβάνω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	8	ADV	_	t_2457|e_91|ref=Excerp._8
-3	β	β	m	m--------	_	4	ATR	_	t_2458|t_2459|ref=Excerp._8
-4	ὑπάτη	ὑπάτη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_2459|e_91|ref=Excerp._8
-5	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2460|t_2459|ref=Excerp._8
-6	(	̔	u	u--------	_	8	AuxG	_	t_2461|e_91|ref=Excerp._8
-7	p	p	x	x--------	_	8	ExD	_	t_2462|e_91|ref=Excerp._8
-8	[0]	[0]	-	---------	_	0	PRED	_	e_91|0|ref=Excerp._1
-9	.	.	u	u--------	_	8	AuxK	_	t_2463|e_91|ref=Excerp._8
+1	α	α	d	d--------	_	8	AuxY	_	t_2456|e_91|ref=Excerp._9
+2	Προσλαμβανόμενος	προσλαμβάνω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	8	ADV	_	t_2457|e_91|ref=Excerp._9
+3	β	β	m	m--------	_	4	ATR	_	t_2458|t_2459|ref=Excerp._9
+4	ὑπάτη	ὑπάτη	n	n-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_2459|e_91|ref=Excerp._9
+5	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2460|t_2459|ref=Excerp._9
+6	(	̔	u	u--------	_	8	AuxG	_	t_2461|e_91|ref=Excerp._9
+7	p	p	x	x--------	_	8	ExD	_	t_2462|e_91|ref=Excerp._9
+8	[0]	[0]	-	---------	_	0	PRED	_	e_91|0|ref=Excerp._9
+9	.	.	u	u--------	_	8	AuxK	_	t_2463|e_91|ref=Excerp._9
 
-# source = Nicomachus of Gerasa, Excerp._8-9
+# source = Nicomachus of Gerasa, Excerp._9
 # text = 40 ) Υ παρυπάτη ὑπατῶν δ ὑπατῶν ἐναρμόνιος ε ὑπατῶν χριοματική ς ὑπατῶν διάτονος ζ ὑπάτη μέσων παρυπάτη μέσων θ μέσων ἐναρμόνιος ι μέσων χρωοματική ια μέσων διάτονος ιβ μέση ιγ τρίτη συνημμένων ιδ παρανήτη συνημμένων ἐναρμόνιος ιε συνημμένων χρωοματική ιϚ συνημμένων διάτονος ιζ νήτη συνημμένων ιη παράμεσος ιθ τρίτη διεζευγμένων κ διεζευγμένων ἐναρμόνιος κα διεζευγμένων χριοματική κβ διεζευγμένων διάτονος κγ νήτη διεζευγμένων κδ τρίτη ὑπερβολαίων κε ὑπερβολαίων ἐναρμόνιος κϛ ὑπερβολαίων χρωματική κζ ὑπερβολαίων διάτονος κη νήτη ὑπερβολαίων [0] [1] [2] .
 # sent_id = 120
-1	40	4	u	u--------	_	0	AuxG	_	t_2464|0|ref=Excerp._8
-2	)	)	u	u--------	_	3	AuxG	_	t_2465|t_2466|ref=Excerp._8
-3	Υ	υ	x	x--------	_	1	ExD	_	t_2466|t_2464|ref=Excerp._8
-4	παρυπάτη	λιχανός	a	a-s---fn-	Case=n|Gender=f|Number=s	79	PNOM	_	t_2467|e_92|ref=Excerp._8
-5	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2468|t_2467|ref=Excerp._8
-6	δ	δ	d	d--------	_	3	COORD	_	t_2469|t_2466|ref=Excerp._8
-7	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2470|t_2467|ref=Excerp._8
-8	ἐναρμόνιος	ἐναρμόνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	79	PNOM	_	t_2471|e_92|ref=Excerp._8
-9	ε	ε	c	c--------	_	79	AuxY	_	t_2472|e_92|ref=Excerp._8
-10	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2473|t_2467|ref=Excerp._8
-11	χριοματική	χριοματικός	a	a-s---fn-	Case=g|Gender=f|Number=s	4	ATR	_	t_2474|t_2467|ref=Excerp._8
-12	ς	ς	p	p-p---fa-	Case=g|Gender=f|Number=s	80	ATR	_	t_2475|e_93|ref=Excerp._7
-13	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	80	ATR	_	t_2476|e_93|ref=Excerp._8
-14	διάτονος	διάτονος	a	a-s---mn-	Case=n|Gender=m|Number=s	80	ATR	_	t_2477|e_93|ref=Excerp._8
-15	ζ	ζ	m	m--------	_	80	ATR	_	t_2478|e_93|ref=Excerp._8
-16	ὑπάτη	ὑπάτη	n	n-s---fn-	Case=n|Gender=f|Number=s	79	SBJ	_	t_2479|e_92|ref=Excerp._8
-17	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_2480|t_2476|ref=Excerp._8
-18	παρυπάτη	λιχανός	n	n-s---fn-	Case=n|Gender=f|Number=s	16	APOS	_	t_2481|t_2479|ref=Excerp._8
-19	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_2482|t_2476|ref=Excerp._8
-20	θ	θ	d	d--------	_	80	AuxY	_	t_2483|e_93|ref=Excerp._8
-21	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_2484|t_2476|ref=Excerp._8
-22	ἐναρμόνιος	ἐναρμόνιος	a	a-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_2485|t_2489|ref=Excerp._8
-23	ι	ι	p	p-s---fd-	_	80	AuxY	_	t_2486|e_93|ref=Excerp._8
-24	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_2487|t_2482|ref=Excerp._8
-25	χρωοματική	χρωοματικός	n	n-p---ng-	Case=g|Gender=n|Number=p	38	ATR	_	t_2488|t_2501|ref=Excerp._8
-26	ια	ια	n	n-p---na-	Case=a|Gender=n|Number=p	38	SBJ	_	t_2489|t_2501|ref=Excerp._8
-27	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_2490|t_2489|ref=Excerp._8
-28	διάτονος	διάτονος	a	a-s---fn-	Case=n|Gender=m|Number=s	34	APOS	_	t_2491|t_2497|ref=Excerp._8
-29	ιβ	ιβ	p	p-d---mn-	Case=d|Number=s	38	OBJ	_	t_2492|t_2501|ref=Excerp._8
-30	μέση	μέσος	a	a-s---fn-	Case=n|Gender=f|Number=s	32	ADV	_	t_2493|t_2495|ref=Excerp._8
-31	ιγ	ιγ	n	n-s---fn-	Case=n|Gender=f|Number=s	80	APOS	_	t_2494|e_93|ref=Excerp._8
-32	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	38	APOS	_	t_2495|t_2501|ref=Excerp._8
-33	συνημμένων	συνάπτω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	38	ADV	_	t_2496|t_2501|ref=Excerp._8
-34	ιδ	ιδ	m	m--------	_	35	COORD	_	t_2497|t_2498|ref=Excerp._8
-35	παρανήτη	παρανήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2498|t_2510|ref=Excerp._8
-36	συνημμένων	συνάπτω	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	34	ATR	_	t_2499|t_2497|ref=Excerp._8
-37	ἐναρμόνιος	ἐναρμόνιος	a	a-p---mg-	Case=g|Gender=n|Number=p	34	ADV	_	t_2500|t_2497|ref=Excerp._8
-38	ιε	ιε	c	c--------	_	80	COORD	_	t_2501|e_93|ref=Excerp._8
-39	συνημμένων	συνάπτω	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	52	ATR	_	t_2502|t_2515|ref=Excerp._8
-40	χρωοματική	χρωοματικός	n	n-s---fd-	Case=d|Gender=f|Number=s	35	ATR	_	t_2503|t_2498|ref=Excerp._8
-41	ιϚ	ιϛ	p	p-s---fd-	Case=d|Gender=f|Number=s	34	ATR	_	t_2504|t_2497|ref=Excerp._8
-42	συνημμένων	συνάπτω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	47	ADV	_	t_2505|t_2510|ref=Excerp._8
-43	διάτονος	διάτονος	n	n-s---mg-	Case=g|Gender=m|Number=s	45	ATR	_	t_2506|t_2508|ref=Excerp._8
-44	ιζ	ιζ	n	n-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2507|t_2510|ref=Excerp._8
-45	νήτη	νήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2508|t_2510|ref=Excerp._8
-46	συνημμένων	συνάπτω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	47	ADV	_	t_2509|t_2510|ref=Excerp._8
-47	ιη	ιη	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	38	OBJ	_	t_2510|t_2501|ref=Excerp._8
-48	παράμεσος	παράμεσος	a	a-s---fn-	Case=n|Gender=f|Number=s	45	ATR	_	t_2511|t_2508|ref=Excerp._8
-49	ιθ	ιθ	d	d--------	Case=n|Gender=f|Number=s	80	AuxY	_	t_2512|e_93|ref=Excerp._8
-50	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2513|t_2510|ref=Excerp._8
-51	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	52	ADV	_	t_2514|t_2515|ref=Excerp._8
-52	κ	καί	d	d--------	_	38	COORD	_	t_2515|t_2501|ref=Excerp._8
-53	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	52	ADV	_	t_2516|t_2515|ref=Excerp._8
-54	ἐναρμόνιος	ἐναρμόνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	47	ADV	_	t_2517|t_2510|ref=Excerp._8
-55	κα	καί	d	d--------	_	56	ADV	_	t_2518|t_2519|ref=Excerp._8
-56	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	47	ADV	_	t_2519|t_2510|ref=Excerp._8
-57	χριοματική	χριοματικός	a	a-s---fn-	Case=n|Gender=f|Number=s	47	ADV	_	t_2520|t_2510|ref=Excerp._8
-58	κβ	κβ	n	n--------	_	81	SBJ	_	t_2521|e_94|ref=Excerp._8
-59	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	52	ADV	_	t_2522|t_2515|ref=Excerp._8
-60	διάτονος	διάτονος	a	a-s---fn-	Case=n|Gender=m|Number=s	62	ATR	_	t_2523|t_2525|ref=Excerp._8
-61	κγ	κγ	n	n-s---fn-	Case=n|Gender=f|Number=s	62	APOS	_	t_2524|t_2525|ref=Excerp._8
-62	νήτη	νήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	81	SBJ	_	t_2525|e_94|ref=Excerp._8
-63	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	65	ATR	_	t_2526|t_2528|ref=Excerp._8
-64	κδ	κδ	n	n-s---fn-	Case=n|Gender=f|Number=s	62	APOS	_	t_2527|t_2525|ref=Excerp._8
-65	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	62	APOS	_	t_2528|t_2525|ref=Excerp._8
-66	ὑπερβολαίων	διάμεσος	n	n-p---ng-	Case=g|Gender=n|Number=p	65	ATR	_	t_2529|t_2528|ref=Excerp._8
+1	40	4	u	u--------	_	0	AuxG	_	t_2464|0|ref=Excerp._9
+2	)	)	u	u--------	_	3	AuxG	_	t_2465|t_2466|ref=Excerp._9
+3	Υ	υ	x	x--------	_	1	ExD	_	t_2466|t_2464|ref=Excerp._9
+4	παρυπάτη	λιχανός	a	a-s---fn-	Case=n|Gender=f|Number=s	79	PNOM	_	t_2467|e_92|ref=Excerp._9
+5	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2468|t_2467|ref=Excerp._9
+6	δ	δ	d	d--------	_	3	COORD	_	t_2469|t_2466|ref=Excerp._9
+7	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2470|t_2467|ref=Excerp._9
+8	ἐναρμόνιος	ἐναρμόνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	79	PNOM	_	t_2471|e_92|ref=Excerp._9
+9	ε	ε	c	c--------	_	79	AuxY	_	t_2472|e_92|ref=Excerp._9
+10	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2473|t_2467|ref=Excerp._9
+11	χριοματική	χριοματικός	a	a-s---fn-	Case=g|Gender=f|Number=s	4	ATR	_	t_2474|t_2467|ref=Excerp._9
+12	ς	ς	p	p-p---fa-	Case=g|Gender=f|Number=s	80	ATR	_	t_2475|e_93|ref=Excerp._9
+13	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	80	ATR	_	t_2476|e_93|ref=Excerp._9
+14	διάτονος	διάτονος	a	a-s---mn-	Case=n|Gender=m|Number=s	80	ATR	_	t_2477|e_93|ref=Excerp._9
+15	ζ	ζ	m	m--------	_	80	ATR	_	t_2478|e_93|ref=Excerp._9
+16	ὑπάτη	ὑπάτη	n	n-s---fn-	Case=n|Gender=f|Number=s	79	SBJ	_	t_2479|e_92|ref=Excerp._9
+17	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_2480|t_2476|ref=Excerp._9
+18	παρυπάτη	λιχανός	n	n-s---fn-	Case=n|Gender=f|Number=s	16	APOS	_	t_2481|t_2479|ref=Excerp._9
+19	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_2482|t_2476|ref=Excerp._9
+20	θ	θ	d	d--------	_	80	AuxY	_	t_2483|e_93|ref=Excerp._9
+21	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_2484|t_2476|ref=Excerp._9
+22	ἐναρμόνιος	ἐναρμόνιος	a	a-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_2485|t_2489|ref=Excerp._9
+23	ι	ι	p	p-s---fd-	_	80	AuxY	_	t_2486|e_93|ref=Excerp._9
+24	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	19	ATR	_	t_2487|t_2482|ref=Excerp._9
+25	χρωοματική	χρωοματικός	n	n-p---ng-	Case=g|Gender=n|Number=p	38	ATR	_	t_2488|t_2501|ref=Excerp._9
+26	ια	ια	n	n-p---na-	Case=a|Gender=n|Number=p	38	SBJ	_	t_2489|t_2501|ref=Excerp._9
+27	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_2490|t_2489|ref=Excerp._9
+28	διάτονος	διάτονος	a	a-s---fn-	Case=n|Gender=m|Number=s	34	APOS	_	t_2491|t_2497|ref=Excerp._9
+29	ιβ	ιβ	p	p-d---mn-	Case=d|Number=s	38	OBJ	_	t_2492|t_2501|ref=Excerp._9
+30	μέση	μέσος	a	a-s---fn-	Case=n|Gender=f|Number=s	32	ADV	_	t_2493|t_2495|ref=Excerp._9
+31	ιγ	ιγ	n	n-s---fn-	Case=n|Gender=f|Number=s	80	APOS	_	t_2494|e_93|ref=Excerp._9
+32	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	38	APOS	_	t_2495|t_2501|ref=Excerp._9
+33	συνημμένων	συνάπτω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	38	ADV	_	t_2496|t_2501|ref=Excerp._9
+34	ιδ	ιδ	m	m--------	_	35	COORD	_	t_2497|t_2498|ref=Excerp._9
+35	παρανήτη	παρανήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2498|t_2510|ref=Excerp._9
+36	συνημμένων	συνάπτω	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	34	ATR	_	t_2499|t_2497|ref=Excerp._9
+37	ἐναρμόνιος	ἐναρμόνιος	a	a-p---mg-	Case=g|Gender=n|Number=p	34	ADV	_	t_2500|t_2497|ref=Excerp._9
+38	ιε	ιε	c	c--------	_	80	COORD	_	t_2501|e_93|ref=Excerp._9
+39	συνημμένων	συνάπτω	v	v-prpemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	52	ATR	_	t_2502|t_2515|ref=Excerp._9
+40	χρωοματική	χρωοματικός	n	n-s---fd-	Case=d|Gender=f|Number=s	35	ATR	_	t_2503|t_2498|ref=Excerp._9
+41	ιϚ	ιϛ	p	p-s---fd-	Case=d|Gender=f|Number=s	34	ATR	_	t_2504|t_2497|ref=Excerp._9
+42	συνημμένων	συνάπτω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	47	ADV	_	t_2505|t_2510|ref=Excerp._9
+43	διάτονος	διάτονος	n	n-s---mg-	Case=g|Gender=m|Number=s	45	ATR	_	t_2506|t_2508|ref=Excerp._9
+44	ιζ	ιζ	n	n-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2507|t_2510|ref=Excerp._9
+45	νήτη	νήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2508|t_2510|ref=Excerp._9
+46	συνημμένων	συνάπτω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	47	ADV	_	t_2509|t_2510|ref=Excerp._9
+47	ιη	ιη	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	38	OBJ	_	t_2510|t_2501|ref=Excerp._9
+48	παράμεσος	παράμεσος	a	a-s---fn-	Case=n|Gender=f|Number=s	45	ATR	_	t_2511|t_2508|ref=Excerp._9
+49	ιθ	ιθ	d	d--------	Case=n|Gender=f|Number=s	80	AuxY	_	t_2512|e_93|ref=Excerp._9
+50	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	47	SBJ	_	t_2513|t_2510|ref=Excerp._9
+51	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	52	ADV	_	t_2514|t_2515|ref=Excerp._9
+52	κ	καί	d	d--------	_	38	COORD	_	t_2515|t_2501|ref=Excerp._9
+53	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	52	ADV	_	t_2516|t_2515|ref=Excerp._9
+54	ἐναρμόνιος	ἐναρμόνιος	a	a-s---mn-	Case=n|Gender=m|Number=s	47	ADV	_	t_2517|t_2510|ref=Excerp._9
+55	κα	καί	d	d--------	_	56	ADV	_	t_2518|t_2519|ref=Excerp._9
+56	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	47	ADV	_	t_2519|t_2510|ref=Excerp._9
+57	χριοματική	χριοματικός	a	a-s---fn-	Case=n|Gender=f|Number=s	47	ADV	_	t_2520|t_2510|ref=Excerp._9
+58	κβ	κβ	n	n--------	_	81	SBJ	_	t_2521|e_94|ref=Excerp._9
+59	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	52	ADV	_	t_2522|t_2515|ref=Excerp._9
+60	διάτονος	διάτονος	a	a-s---fn-	Case=n|Gender=m|Number=s	62	ATR	_	t_2523|t_2525|ref=Excerp._9
+61	κγ	κγ	n	n-s---fn-	Case=n|Gender=f|Number=s	62	APOS	_	t_2524|t_2525|ref=Excerp._9
+62	νήτη	νήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	81	SBJ	_	t_2525|e_94|ref=Excerp._9
+63	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	65	ATR	_	t_2526|t_2528|ref=Excerp._9
+64	κδ	κδ	n	n-s---fn-	Case=n|Gender=f|Number=s	62	APOS	_	t_2527|t_2525|ref=Excerp._9
+65	τρίτη	τρίτος	a	a-s---fn-	Case=n|Gender=f|Number=s	62	APOS	_	t_2528|t_2525|ref=Excerp._9
+66	ὑπερβολαίων	διάμεσος	n	n-p---ng-	Case=g|Gender=n|Number=p	65	ATR	_	t_2529|t_2528|ref=Excerp._9
 67	κε	ἄν	c	c--------	_	65	AuxY	_	t_2530|t_2528|ref=Excerp._9
-68	ὑπερβολαίων	διάμεσος	n	n-p---ng-	Case=g|Gender=n|Number=p	65	ATR	_	t_2531|t_2528|ref=Excerp._7
+68	ὑπερβολαίων	διάμεσος	n	n-p---ng-	Case=g|Gender=n|Number=p	65	ATR	_	t_2531|t_2528|ref=Excerp._9
 69	ἐναρμόνιος	ἐναρμόνιος	a	a-s---fn-	Case=n|Gender=m|Number=s	62	ATR	_	t_2532|t_2525|ref=Excerp._9
 70	κϛ	κϛ	d	d--------	_	62	COORD	_	t_2533|t_2525|ref=Excerp._9
 71	ὑπερβολαίων	διάμεσος	n	n-p---ng-	Case=g|Gender=n|Number=p	73	ADV	_	t_2534|t_2536|ref=Excerp._9
@@ -3109,129 +3109,129 @@
 76	κη	κη	a	a-s---fn-	Case=n|Gender=f|Number=s	77	APOS	_	t_2539|t_2540|ref=Excerp._9
 77	νήτη	νήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	81	SBJ	_	t_2540|e_94|ref=Excerp._9
 78	ὑπερβολαίων	διάμεσος	a	a-p---ng-	Case=g|Gender=n|Number=p	77	ATR	_	t_2541|t_2540|ref=Excerp._9
-79	[0]	[0]	-	---------	_	3	COORD	_	e_92|t_2466|ref=Excerp._1
-80	[1]	[1]	-	---------	_	3	COORD	_	e_93|t_2466|ref=Excerp._1
-81	[2]	[2]	-	---------	_	3	PRED	_	e_94|t_2466|ref=Excerp._1
+79	[0]	[0]	-	---------	_	3	COORD	_	e_92|t_2466|ref=Excerp._9
+80	[1]	[1]	-	---------	_	3	COORD	_	e_93|t_2466|ref=Excerp._9
+81	[2]	[2]	-	---------	_	3	PRED	_	e_94|t_2466|ref=Excerp._9
 82	.	.	u	u--------	_	1	AuxK	_	t_2542|t_2464|ref=Excerp._9
 
-# source = Nicomachus of Gerasa, Excerp._9
+# source = Nicomachus of Gerasa, Excerp._10
 # text = 10 [0] .
 # sent_id = 121
-1	10	10	u	u--------	_	2	AuxG	_	t_2543|e_95|ref=Excerp._9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_95|0|ref=Excerp._1
-3	.	.	u	u--------	_	2	AuxK	_	t_2544|e_95|ref=Excerp._9
+1	10	10	u	u--------	_	2	AuxG	_	t_2543|e_95|ref=Excerp._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_95|0|ref=Excerp._10
+3	.	.	u	u--------	_	2	AuxK	_	t_2544|e_95|ref=Excerp._10
 
-# source = Nicomachus of Gerasa, Excerp._9
+# source = Nicomachus of Gerasa, Excerp._10
 # text = Ὥσπερ οὗν ἐνταῦθα τὰ μὲν τοῦ ὑπατῶν τετραχόρδου κατὰ τρία γένη , τὰ δὲ μέσων , τὰ δὲ συνημμένων , τὰ δὲ διεζευγμένων , τὰ δὲ ὑπερβολαίων , οὕτω χρὴ νομίζειν ἑκάστην σφαιρικὴν καὶ θείαν οὐσίαν τὸ μὲν ἐν τῷ παντὶ ὡς ἀρχῆς ἔχον λόγον παρελέσθαι ( p [0] [1] [2] .
 # sent_id = 122
-1	Ὥσπερ	ὥσπερ	c	c--------	_	29	AuxC	_	t_2545|t_2573|ref=Excerp._9
-2	οὗν	οὖν	c	c--------	_	26	AuxY	_	t_2546|t_2570|ref=Excerp._9
-3	ἐνταῦθα	ἐνταῦθα	d	d--------	_	49	ADV	_	t_2547|e_96|ref=Excerp._9
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	49	SBJ	_	t_2548|e_96|ref=Excerp._9
-5	μὲν	μέν	d	d--------	_	26	AuxY	_	t_2549|t_2570|ref=Excerp._9
-6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_2550|t_2551|ref=Excerp._9
-7	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2551|t_2548|ref=Excerp._9
-8	τετραχόρδου	τετράδορδος	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2552|t_2548|ref=Excerp._9
-9	κατὰ	κατά	r	r--------	_	49	AuxP	_	t_2553|e_96|ref=Excerp._8
-10	τρία	τρεῖς	m	m-p---nn-	Case=a|Gender=n|Number=p	11	ATR	_	t_2554|t_2555|ref=Excerp._9
-11	γένη	γένος	n	n-p---na-	Case=a|Gender=n|Number=p	9	ADV	_	t_2555|t_2553|ref=Excerp._9
-12	,	,	u	u--------	_	30	AuxX	_	t_2556|t_2574|ref=Excerp._9
-13	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	50	SBJ	_	t_2557|e_97|ref=Excerp._9
-14	δὲ	δέ	d	d--------	_	26	AuxY	_	t_2558|t_2570|ref=Excerp._9
-15	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	50	PNOM	_	t_2559|e_97|ref=Excerp._9
-16	,	,	u	u--------	_	30	AuxX	_	t_2560|t_2574|ref=Excerp._9
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	50	SBJ	_	t_2561|e_97|ref=Excerp._9
-18	δὲ	δέ	d	d--------	_	26	AuxY	_	t_2562|t_2570|ref=Excerp._9
-19	συνημμένων	συνάπτω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	26	PNOM	_	t_2563|t_2570|ref=Excerp._9
-20	,	,	u	u--------	_	30	AuxX	_	t_2564|t_2574|ref=Excerp._9
-21	τὰ	ὁ	l	l-p---na-	Case=n|Gender=n|Number=p	51	SBJ	_	t_2565|e_98|ref=Excerp._9
-22	δὲ	δέ	d	d--------	_	26	AuxY	_	t_2566|t_2570|ref=Excerp._9
-23	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	34	ATR	_	t_2567|t_2578|ref=Excerp._9
-24	,	,	u	u--------	_	30	AuxX	_	t_2568|t_2574|ref=Excerp._9
-25	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	51	SBJ	_	t_2569|e_98|ref=Excerp._9
-26	δὲ	δέ	d	d--------	_	31	COORD	_	t_2570|t_2575|ref=Excerp._9
-27	ὑπερβολαίων	διάμεσος	a	a-p---ng-	Case=g|Gender=n|Number=p	51	PNOM	_	t_2571|e_98|ref=Excerp._9
-28	,	,	u	u--------	_	30	AuxX	_	t_2572|t_2574|ref=Excerp._9
-29	οὕτω	οὕτως	d	d--------	_	30	ADV	_	t_2573|t_2574|ref=Excerp._9
-30	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2574|0|ref=Excerp._9
-31	νομίζειν	νομίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	30	SBJ	_	t_2575|t_2574|ref=Excerp._9
-32	ἑκάστην	ἕκαστος	a	a-s---fa-	Case=a|Gender=f|Number=s	46	SBJ	_	t_2576|t_2590|ref=Excerp._9
-33	σφαιρικὴν	σφαιρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_2577|t_2578|ref=Excerp._9
-34	καὶ	καί	c	c--------	_	36	COORD	_	t_2578|t_2580|ref=Excerp._9
-35	θείαν	θεῖος1	a	a-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_2579|t_2578|ref=Excerp._9
-36	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	46	OBJ	_	t_2580|t_2590|ref=Excerp._9
-37	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	45	ATR	_	t_2581|t_2589|ref=Excerp._9
-38	μὲν	μέν	d	d--------	_	46	AuxY	_	t_2582|t_2590|ref=Excerp._9
-39	ἐν	ἐν	r	r--------	_	44	AuxP	_	t_2583|t_2588|ref=Excerp._9
-40	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	41	ATR	_	t_2584|t_2585|ref=Excerp._9
-41	παντὶ	πᾶς	a	a-s---nd-	Case=d|Gender=n|Number=s	39	ADV	_	t_2585|t_2583|ref=Excerp._9
-42	ὡς	ὡς	d	d--------	_	44	AuxZ	_	t_2586|t_2588|ref=Excerp._9
-43	ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	44	OBJ	_	t_2587|t_2588|ref=Excerp._9
-44	ἔχον	ἔχω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	46	ADV	_	t_2588|t_2590|ref=Excerp._9
-45	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	46	OBJ	_	t_2589|t_2590|ref=Excerp._9
-46	παρελέσθαι	παραιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	31	OBJ	_	t_2590|t_2575|ref=Excerp._9
-47	(	̔	u	u--------	_	30	AuxG	_	t_2591|t_2574|ref=Excerp._9
-48	p	p	n	n--------	_	51	SBJ	_	t_2592|e_98|ref=Excerp._9
-49	[0]	[0]	-	---------	_	26	ADV	_	e_96|t_2570|ref=Excerp._1
-50	[1]	[1]	-	---------	_	26	ADV	_	e_97|t_2570|ref=Excerp._1
-51	[2]	[2]	-	---------	_	26	OBJ	_	e_98|t_2570|ref=Excerp._1
-52	.	.	u	u--------	_	30	AuxK	_	t_2593|t_2574|ref=Excerp._9
+1	Ὥσπερ	ὥσπερ	c	c--------	_	29	AuxC	_	t_2545|t_2573|ref=Excerp._10
+2	οὗν	οὖν	c	c--------	_	26	AuxY	_	t_2546|t_2570|ref=Excerp._10
+3	ἐνταῦθα	ἐνταῦθα	d	d--------	_	49	ADV	_	t_2547|e_96|ref=Excerp._10
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	49	SBJ	_	t_2548|e_96|ref=Excerp._10
+5	μὲν	μέν	d	d--------	_	26	AuxY	_	t_2549|t_2570|ref=Excerp._10
+6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_2550|t_2551|ref=Excerp._10
+7	ὑπατῶν	ὕπατος	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2551|t_2548|ref=Excerp._10
+8	τετραχόρδου	τετράδορδος	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2552|t_2548|ref=Excerp._10
+9	κατὰ	κατά	r	r--------	_	49	AuxP	_	t_2553|e_96|ref=Excerp._10
+10	τρία	τρεῖς	m	m-p---nn-	Case=a|Gender=n|Number=p	11	ATR	_	t_2554|t_2555|ref=Excerp._10
+11	γένη	γένος	n	n-p---na-	Case=a|Gender=n|Number=p	9	ADV	_	t_2555|t_2553|ref=Excerp._10
+12	,	,	u	u--------	_	30	AuxX	_	t_2556|t_2574|ref=Excerp._10
+13	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	50	SBJ	_	t_2557|e_97|ref=Excerp._10
+14	δὲ	δέ	d	d--------	_	26	AuxY	_	t_2558|t_2570|ref=Excerp._10
+15	μέσων	μέσος	a	a-p---ng-	Case=g|Gender=n|Number=p	50	PNOM	_	t_2559|e_97|ref=Excerp._10
+16	,	,	u	u--------	_	30	AuxX	_	t_2560|t_2574|ref=Excerp._10
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	50	SBJ	_	t_2561|e_97|ref=Excerp._10
+18	δὲ	δέ	d	d--------	_	26	AuxY	_	t_2562|t_2570|ref=Excerp._10
+19	συνημμένων	συνάπτω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	26	PNOM	_	t_2563|t_2570|ref=Excerp._10
+20	,	,	u	u--------	_	30	AuxX	_	t_2564|t_2574|ref=Excerp._10
+21	τὰ	ὁ	l	l-p---na-	Case=n|Gender=n|Number=p	51	SBJ	_	t_2565|e_98|ref=Excerp._10
+22	δὲ	δέ	d	d--------	_	26	AuxY	_	t_2566|t_2570|ref=Excerp._10
+23	διεζευγμένων	διεζευγμένος	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	34	ATR	_	t_2567|t_2578|ref=Excerp._10
+24	,	,	u	u--------	_	30	AuxX	_	t_2568|t_2574|ref=Excerp._10
+25	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	51	SBJ	_	t_2569|e_98|ref=Excerp._10
+26	δὲ	δέ	d	d--------	_	31	COORD	_	t_2570|t_2575|ref=Excerp._10
+27	ὑπερβολαίων	διάμεσος	a	a-p---ng-	Case=g|Gender=n|Number=p	51	PNOM	_	t_2571|e_98|ref=Excerp._10
+28	,	,	u	u--------	_	30	AuxX	_	t_2572|t_2574|ref=Excerp._10
+29	οὕτω	οὕτως	d	d--------	_	30	ADV	_	t_2573|t_2574|ref=Excerp._10
+30	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2574|0|ref=Excerp._10
+31	νομίζειν	νομίζω	v	v--pna---	Mood=n|Tense=p|Voice=a	30	SBJ	_	t_2575|t_2574|ref=Excerp._10
+32	ἑκάστην	ἕκαστος	a	a-s---fa-	Case=a|Gender=f|Number=s	46	SBJ	_	t_2576|t_2590|ref=Excerp._10
+33	σφαιρικὴν	σφαιρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_2577|t_2578|ref=Excerp._10
+34	καὶ	καί	c	c--------	_	36	COORD	_	t_2578|t_2580|ref=Excerp._10
+35	θείαν	θεῖος1	a	a-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_2579|t_2578|ref=Excerp._10
+36	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	46	OBJ	_	t_2580|t_2590|ref=Excerp._10
+37	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	45	ATR	_	t_2581|t_2589|ref=Excerp._10
+38	μὲν	μέν	d	d--------	_	46	AuxY	_	t_2582|t_2590|ref=Excerp._10
+39	ἐν	ἐν	r	r--------	_	44	AuxP	_	t_2583|t_2588|ref=Excerp._10
+40	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	41	ATR	_	t_2584|t_2585|ref=Excerp._10
+41	παντὶ	πᾶς	a	a-s---nd-	Case=d|Gender=n|Number=s	39	ADV	_	t_2585|t_2583|ref=Excerp._10
+42	ὡς	ὡς	d	d--------	_	44	AuxZ	_	t_2586|t_2588|ref=Excerp._10
+43	ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	44	OBJ	_	t_2587|t_2588|ref=Excerp._10
+44	ἔχον	ἔχω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	46	ADV	_	t_2588|t_2590|ref=Excerp._10
+45	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	46	OBJ	_	t_2589|t_2590|ref=Excerp._10
+46	παρελέσθαι	παραιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	31	OBJ	_	t_2590|t_2575|ref=Excerp._10
+47	(	̔	u	u--------	_	30	AuxG	_	t_2591|t_2574|ref=Excerp._10
+48	p	p	n	n--------	_	51	SBJ	_	t_2592|e_98|ref=Excerp._10
+49	[0]	[0]	-	---------	_	26	ADV	_	e_96|t_2570|ref=Excerp._10
+50	[1]	[1]	-	---------	_	26	ADV	_	e_97|t_2570|ref=Excerp._10
+51	[2]	[2]	-	---------	_	26	OBJ	_	e_98|t_2570|ref=Excerp._10
+52	.	.	u	u--------	_	30	AuxK	_	t_2593|t_2574|ref=Excerp._10
 
-# source = Nicomachus of Gerasa, Excerp._9
+# source = Nicomachus of Gerasa, Excerp._10
 # text = 4 ) πρὸς ἁρμονίαν καὶ σύστασιν κόσμου , τὸ δὲ ὡς μεσότητος , τὸ δὲ ὡς τέλους , καὶ τὸ μὲν συναπτικὴν συνεργίαν ἀποτελεῖν , τὸ δὲ διαστατικήν [0] [1] [2] .
 # sent_id = 123
-1	4	4	u	u--------	_	0	AuxG	_	t_2594|0|ref=Excerp._9
-2	)	)	u	u--------	_	1	AuxG	_	t_2595|t_2594|ref=Excerp._9
-3	πρὸς	πρός	r	r--------	_	29	AuxP	_	t_2596|e_99|ref=Excerp._9
-4	ἁρμονίαν	ἁρμονία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_2597|t_2598|ref=Excerp._9
-5	καὶ	καί	c	c--------	_	3	COORD	_	t_2598|t_2596|ref=Excerp._9
-6	σύστασιν	σύστασις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_2599|t_2598|ref=Excerp._9
-7	κόσμου	κόσμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_2600|t_2599|ref=Excerp._9
-8	,	,	u	u--------	_	1	AuxX	_	t_2601|t_2594|ref=Excerp._9
-9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_2602|e_99|ref=Excerp._9
-10	δὲ	δέ	d	d--------	_	19	AuxY	_	t_2603|t_2612|ref=Excerp._9
-11	ὡς	ὡς	d	d--------	_	12	AuxZ	_	t_2604|t_2605|ref=Excerp._9
-12	μεσότητος	μεσότης	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_2605|t_2602|ref=Excerp._9
-13	,	,	u	u--------	_	1	AuxX	_	t_2606|t_2594|ref=Excerp._9
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_2607|e_100|ref=Excerp._9
-15	δὲ	δέ	d	d--------	_	19	COORD	_	t_2608|t_2612|ref=Excerp._9
-16	ὡς	ὡς	d	d--------	_	31	AuxZ	_	t_2609|e_101|ref=Excerp._9
-17	τέλους	τέλος	n	n-s---ng-	Case=g|Gender=n|Number=s	31	ATR	_	t_2610|e_101|ref=Excerp._9
-18	,	,	u	u--------	_	1	AuxX	_	t_2611|t_2594|ref=Excerp._9
-19	καὶ	καί	c	c--------	_	1	COORD	_	t_2612|t_2594|ref=Excerp._9
-20	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_2613|t_2617|ref=Excerp._9
-21	μὲν	μέν	d	d--------	_	27	AuxY	_	t_2614|t_2620|ref=Excerp._9
-22	συναπτικὴν	συναπτικός	a	a-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_2615|t_2616|ref=Excerp._9
-23	συνεργίαν	συνεργία	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_2616|t_2617|ref=Excerp._9
-24	ἀποτελεῖν	ἀποτελέω	v	v--pna---	Mood=n|Tense=p|Voice=a	27	OBJ	_	t_2617|t_2620|ref=Excerp._9
-25	,	,	u	u--------	_	1	AuxX	_	t_2618|t_2594|ref=Excerp._9
-26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	SBJ	_	t_2619|e_101|ref=Excerp._9
-27	δὲ	δέ	d	d--------	_	15	COORD	_	t_2620|t_2608|ref=Excerp._9
-28	διαστατικήν	διαστατικός	a	a-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_2621|e_101|ref=Excerp._9
-29	[0]	[0]	-	---------	_	19	PRED	_	e_99|t_2612|ref=Excerp._1
-30	[1]	[1]	-	---------	_	19	PRED	_	e_100|t_2612|ref=Excerp._1
-31	[2]	[2]	-	---------	_	19	PRED	_	e_101|t_2612|ref=Excerp._1
-32	.	.	u	u--------	_	1	AuxK	_	t_2622|t_2594|ref=Excerp._9
+1	4	4	u	u--------	_	0	AuxG	_	t_2594|0|ref=Excerp._10
+2	)	)	u	u--------	_	1	AuxG	_	t_2595|t_2594|ref=Excerp._10
+3	πρὸς	πρός	r	r--------	_	29	AuxP	_	t_2596|e_99|ref=Excerp._10
+4	ἁρμονίαν	ἁρμονία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_2597|t_2598|ref=Excerp._10
+5	καὶ	καί	c	c--------	_	3	COORD	_	t_2598|t_2596|ref=Excerp._10
+6	σύστασιν	σύστασις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_2599|t_2598|ref=Excerp._10
+7	κόσμου	κόσμος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_2600|t_2599|ref=Excerp._10
+8	,	,	u	u--------	_	1	AuxX	_	t_2601|t_2594|ref=Excerp._10
+9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	29	OBJ	_	t_2602|e_99|ref=Excerp._10
+10	δὲ	δέ	d	d--------	_	19	AuxY	_	t_2603|t_2612|ref=Excerp._10
+11	ὡς	ὡς	d	d--------	_	12	AuxZ	_	t_2604|t_2605|ref=Excerp._10
+12	μεσότητος	μεσότης	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_2605|t_2602|ref=Excerp._10
+13	,	,	u	u--------	_	1	AuxX	_	t_2606|t_2594|ref=Excerp._10
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	OBJ	_	t_2607|e_100|ref=Excerp._10
+15	δὲ	δέ	d	d--------	_	19	COORD	_	t_2608|t_2612|ref=Excerp._10
+16	ὡς	ὡς	d	d--------	_	31	AuxZ	_	t_2609|e_101|ref=Excerp._10
+17	τέλους	τέλος	n	n-s---ng-	Case=g|Gender=n|Number=s	31	ATR	_	t_2610|e_101|ref=Excerp._10
+18	,	,	u	u--------	_	1	AuxX	_	t_2611|t_2594|ref=Excerp._10
+19	καὶ	καί	c	c--------	_	1	COORD	_	t_2612|t_2594|ref=Excerp._10
+20	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_2613|t_2617|ref=Excerp._10
+21	μὲν	μέν	d	d--------	_	27	AuxY	_	t_2614|t_2620|ref=Excerp._10
+22	συναπτικὴν	συναπτικός	a	a-s---fa-	Case=a|Gender=f|Number=s	23	ATR	_	t_2615|t_2616|ref=Excerp._10
+23	συνεργίαν	συνεργία	n	n-s---fa-	Case=a|Gender=f|Number=s	24	OBJ	_	t_2616|t_2617|ref=Excerp._10
+24	ἀποτελεῖν	ἀποτελέω	v	v--pna---	Mood=n|Tense=p|Voice=a	27	OBJ	_	t_2617|t_2620|ref=Excerp._10
+25	,	,	u	u--------	_	1	AuxX	_	t_2618|t_2594|ref=Excerp._10
+26	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	31	SBJ	_	t_2619|e_101|ref=Excerp._10
+27	δὲ	δέ	d	d--------	_	15	COORD	_	t_2620|t_2608|ref=Excerp._10
+28	διαστατικήν	διαστατικός	a	a-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_2621|e_101|ref=Excerp._10
+29	[0]	[0]	-	---------	_	19	PRED	_	e_99|t_2612|ref=Excerp._10
+30	[1]	[1]	-	---------	_	19	PRED	_	e_100|t_2612|ref=Excerp._10
+31	[2]	[2]	-	---------	_	19	PRED	_	e_101|t_2612|ref=Excerp._10
+32	.	.	u	u--------	_	1	AuxK	_	t_2622|t_2594|ref=Excerp._10
 
-# source = Nicomachus of Gerasa, Excerp._9-10
+# source = Nicomachus of Gerasa, Excerp._10
 # text = οἷς ἅπασι τὴν προνοίαν καταχρωμένην ἀριθμόν τε τὸν θεῖον πάγιον καὶ ἀσάλευτον καὶ ἐμμελὲς ἑαυτῷ ποιεῖν τὸ πᾶν , πᾶσαν οὐσίαν ἀρχικήν τε καὶ ὑπηρετικὴν τῇ τοιαύτῃ ἀναλογίᾳ συνδέουσαν [0] .
 # sent_id = 124
-1	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_2623|t_2627|ref=Excerp._9
-2	ἅπασι	ἅπας	a	a-p---md-	Case=d|Gender=m|Number=p	1	ATR	_	t_2624|t_2623|ref=Excerp._9
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_2625|t_2626|ref=Excerp._9
-4	προνοίαν	πρόνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_2626|t_2627|ref=Excerp._9
-5	καταχρωμένην	καταχράομαι	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	16	ADV	_	t_2627|t_2638|ref=Excerp._9
-6	ἀριθμόν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_2628|t_2638|ref=Excerp._9
-7	τε	τε	d	d--------	_	16	AuxY	_	t_2629|t_2638|ref=Excerp._9
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_2630|t_2628|ref=Excerp._9
-9	θεῖον	θεῖος1	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_2631|t_2628|ref=Excerp._9
-10	πάγιον	πάγιος	a	a-s---ma-	Case=a|Gender=m|Number=s	13	OCOMP	_	t_2632|t_2635|ref=Excerp._9
-11	καὶ	καί	d	d--------	_	13	AuxY	_	t_2633|t_2635|ref=Excerp._9
-12	ἀσάλευτον	ἀσάλευτος	a	a-s---na-	Case=a|Gender=n|Number=s	13	OCOMP	_	t_2634|t_2635|ref=Excerp._9
-13	καὶ	καί	c	c--------	_	16	COORD	_	t_2635|t_2638|ref=Excerp._9
-14	ἐμμελὲς	ἐμμελής	a	a-s---na-	Case=a|Gender=n|Number=s	13	OCOMP	_	t_2636|t_2635|ref=Excerp._9
+1	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_2623|t_2627|ref=Excerp._10
+2	ἅπασι	ἅπας	a	a-p---md-	Case=d|Gender=m|Number=p	1	ATR	_	t_2624|t_2623|ref=Excerp._10
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_2625|t_2626|ref=Excerp._10
+4	προνοίαν	πρόνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_2626|t_2627|ref=Excerp._10
+5	καταχρωμένην	καταχράομαι	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	16	ADV	_	t_2627|t_2638|ref=Excerp._10
+6	ἀριθμόν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_2628|t_2638|ref=Excerp._10
+7	τε	τε	d	d--------	_	16	AuxY	_	t_2629|t_2638|ref=Excerp._10
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_2630|t_2628|ref=Excerp._10
+9	θεῖον	θεῖος1	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_2631|t_2628|ref=Excerp._10
+10	πάγιον	πάγιος	a	a-s---ma-	Case=a|Gender=m|Number=s	13	OCOMP	_	t_2632|t_2635|ref=Excerp._10
+11	καὶ	καί	d	d--------	_	13	AuxY	_	t_2633|t_2635|ref=Excerp._10
+12	ἀσάλευτον	ἀσάλευτος	a	a-s---na-	Case=a|Gender=n|Number=s	13	OCOMP	_	t_2634|t_2635|ref=Excerp._10
+13	καὶ	καί	c	c--------	_	16	COORD	_	t_2635|t_2638|ref=Excerp._10
+14	ἐμμελὲς	ἐμμελής	a	a-s---na-	Case=a|Gender=n|Number=s	13	OCOMP	_	t_2636|t_2635|ref=Excerp._10
 15	ἑαυτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_2637|t_2636|ref=Excerp._10
-16	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	30	OBJ	_	t_2638|e_102|ref=Excerp._9
+16	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	30	OBJ	_	t_2638|e_102|ref=Excerp._10
 17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_2639|t_2640|ref=Excerp._10
 18	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_2640|t_2638|ref=Excerp._10
 19	,	,	u	u--------	_	30	AuxX	_	t_2641|e_102|ref=Excerp._10
@@ -3245,7 +3245,7 @@
 27	τοιαύτῃ	τοιοῦτος	a	a-s---fd-	Case=d|Gender=f|Number=s	28	ATR	_	t_2649|t_2650|ref=Excerp._10
 28	ἀναλογίᾳ	ἀναλογία	n	n-s---fd-	Case=d|Gender=f|Number=s	29	OBJ	_	t_2650|t_2651|ref=Excerp._10
 29	συνδέουσαν	συνδέομαι	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_2651|t_2638|ref=Excerp._10
-30	[0]	[0]	-	---------	_	0	PRED	_	e_102|0|ref=Excerp._1
+30	[0]	[0]	-	---------	_	0	PRED	_	e_102|0|ref=Excerp._10
 31	.	.	u	u--------	_	30	AuxK	_	t_2652|e_102|ref=Excerp._10
 
 # source = Nicomachus of Gerasa, Excerp._10

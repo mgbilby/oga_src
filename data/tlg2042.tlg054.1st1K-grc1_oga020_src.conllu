@@ -47,17 +47,17 @@
 12	ἑξῆς	ἑξῆς	d	d--------	_	11	ATR	_	t_35|t_34|ref=Jos.sel._1
 13	.	.	u	u--------	_	7	AuxK	_	t_36|t_30|ref=Jos.sel._1
 
-# source = Origen, Jos.sel._1-2
+# source = Origen, Jos.sel._2
 # text = Πᾶς ὁ τόπος ἐφʼ ᾧ ἂν ἐπιβῆτε [0] .
 # sent_id = 4
-1	Πᾶς	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_37|t_39|ref=Jos.sel._1
+1	Πᾶς	πᾶς	a	a-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_37|t_39|ref=Jos.sel._2
 2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_38|t_39|ref=Jos.sel._2
 3	τόπος	τόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_39|e_2|ref=Jos.sel._2
 4	ἐφʼ	ἐπί	r	r--------	_	7	AuxP	_	t_40|t_43|ref=Jos.sel._2
 5	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_41|t_40|ref=Jos.sel._2
 6	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_42|t_43|ref=Jos.sel._2
 7	ἐπιβῆτε	ἐπιβαίνω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	3	ATR	_	t_43|t_39|ref=Jos.sel._2
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Jos.sel._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Jos.sel._2
 9	.	.	u	u--------	_	8	AuxK	_	t_44|e_2|ref=Jos.sel._2
 
 # source = Origen, Jos.sel._2
@@ -80,7 +80,7 @@
 # sent_id = 6
 1	Καὶ	καί	c	c--------	_	0	COORD	_	t_56|0|ref=Jos.sel._2
 2	ἄλλως	ἄλλως	d	d--------	_	3	ADV	_	t_57|e_3|ref=Jos.sel._2
-3	[0]	[0]	-	---------	_	1	PRED	_	e_3|t_56|ref=Jos.sel._1
+3	[0]	[0]	-	---------	_	1	PRED	_	e_3|t_56|ref=Jos.sel._2
 4	·	·	u	u--------	_	1	AuxK	_	t_58|t_56|ref=Jos.sel._2
 
 # source = Origen, Jos.sel._2
@@ -105,16 +105,16 @@
 17	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_75|t_73|ref=Jos.sel._2
 18	σκόλοπα	σκόλοψ	n	n-p---na-	Case=a|Gender=n|Number=p	17	ADV	_	t_76|t_75|ref=Jos.sel._2
 19	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_77|t_76|ref=Jos.sel._2
-20	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Jos.sel._1
+20	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Jos.sel._2
 21	.	.	u	u--------	_	20	AuxK	_	t_78|e_4|ref=Jos.sel._2
 
-# source = Origen, Jos.sel._2-3
+# source = Origen, Jos.sel._3
 # text = Καὶ εἰσήλθοσαν εἰς οἰκίαν γυναικός πόρνης , ὄνομα Ῥαάβ .
 # sent_id = 8
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_79|0|ref=Jos.sel._2
-2	εἰσήλθοσαν	εἰσέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_80|t_79|ref=Jos.sel._2
-3	εἰς	εἰς	r	r--------	_	2	AuxP	_	t_81|t_80|ref=Jos.sel._2
-4	οἰκίαν	οἰκία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_82|t_81|ref=Jos.sel._2
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_79|0|ref=Jos.sel._3
+2	εἰσήλθοσαν	εἰσέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_80|t_79|ref=Jos.sel._3
+3	εἰς	εἰς	r	r--------	_	2	AuxP	_	t_81|t_80|ref=Jos.sel._3
+4	οἰκίαν	οἰκία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_82|t_81|ref=Jos.sel._3
 5	γυναικός	γυνή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_83|t_82|ref=Jos.sel._3
 6	πόρνης	πόρνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_84|t_83|ref=Jos.sel._3
 7	,	,	u	u--------	_	1	AuxX	_	t_85|t_79|ref=Jos.sel._3
@@ -140,7 +140,7 @@
 1	καὶ	καί	d	d--------	_	4	AuxY	_	t_97|e_5|ref=Jos.sel._3
 2	μάλα	μάλα	d	d--------	_	3	ADV	_	t_98|t_99|ref=Jos.sel._3
 3	εἰκότως	εἰκότως	d	d--------	_	4	ADV	_	t_99|e_5|ref=Jos.sel._3
-4	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Jos.sel._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Jos.sel._3
 5	.	.	u	u--------	_	4	AuxK	_	t_100|e_5|ref=Jos.sel._3
 
 # source = Origen, Jos.sel._3
@@ -174,22 +174,22 @@
 7	σώζεται	σώζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_122|0|ref=Jos.sel._3
 8	.	.	u	u--------	_	7	AuxK	_	t_123|t_122|ref=Jos.sel._3
 
-# source = Origen, Jos.sel._3
+# source = Origen, Jos.sel._4
 # text = Τοῦ αὐτοῦ [0] .
 # sent_id = 13
-1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_124|t_125|ref=Jos.sel._3
-2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_125|e_6|ref=Jos.sel._3
-3	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Jos.sel._1
-4	.	.	u	u--------	_	3	AuxK	_	t_126|e_6|ref=Jos.sel._3
+1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_124|t_125|ref=Jos.sel._4
+2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_125|e_6|ref=Jos.sel._4
+3	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Jos.sel._4
+4	.	.	u	u--------	_	3	AuxK	_	t_126|e_6|ref=Jos.sel._4
 
-# source = Origen, Jos.sel._3-4
+# source = Origen, Jos.sel._4
 # text = Ῥαὰβ ἑρμηνεύεται πλατυσμὸς , σύμβολον οὗσα τὴς ἀπὸ τῶν ἐθνῶν Ἐκκλησίας λεγούσης ·
 # sent_id = 14
-1	Ῥαὰβ	ῥαὰβ	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_127|t_129|ref=Jos.sel._3
-2	ἑρμηνεύεται	ἑρμηνεύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_128|0|ref=Jos.sel._3
+1	Ῥαὰβ	ῥαὰβ	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_127|t_129|ref=Jos.sel._4
+2	ἑρμηνεύεται	ἑρμηνεύω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_128|0|ref=Jos.sel._4
 3	πλατυσμὸς	πλατυσμός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_129|t_128|ref=Jos.sel._4
 4	,	,	u	u--------	_	2	AuxX	_	t_130|t_128|ref=Jos.sel._4
-5	σύμβολον	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_131|t_128|ref=Jos.sel._3
+5	σύμβολον	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_131|t_128|ref=Jos.sel._4
 6	οὗσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_132|t_131|ref=Jos.sel._4
 7	τὴς	ὁ	l	l-s---fa-	Case=g|Gender=f|Number=s	11	ATR	_	t_133|t_137|ref=Jos.sel._4
 8	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_134|t_138|ref=Jos.sel._4
@@ -214,27 +214,27 @@
 10	ἵνα	ἵνα	c	c--------	_	7	AuxC	_	t_149|t_146|ref=Jos.sel._4
 11	οἰκήσω	οἰκέω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	10	ADV	_	t_150|t_149|ref=Jos.sel._4
 12	.	.	u	u--------	_	1	AuxK	_	t_151|t_140|ref=Jos.sel._4
-13	[0]	[0]	-	---------	_	6	PRED	_	e_7|t_145|ref=Jos.sel._1
+13	[0]	[0]	-	---------	_	6	PRED	_	e_7|t_145|ref=Jos.sel._4
 14	»	»	u	u--------	_	1	AuxG	_	t_152|t_140|ref=Jos.sel._4
 
-# source = Origen, Jos.sel._4
+# source = Origen, Jos.sel._5
 # text = Τοῦ αὐτοῦ [0] .
 # sent_id = 16
-1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_153|t_154|ref=Jos.sel._4
-2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_154|e_8|ref=Jos.sel._4
-3	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Jos.sel._1
-4	.	.	u	u--------	_	3	AuxK	_	t_155|e_8|ref=Jos.sel._4
+1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_153|t_154|ref=Jos.sel._5
+2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_154|e_8|ref=Jos.sel._5
+3	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Jos.sel._5
+4	.	.	u	u--------	_	3	AuxK	_	t_155|e_8|ref=Jos.sel._5
 
-# source = Origen, Jos.sel._4-5
+# source = Origen, Jos.sel._5
 # text = Οὐκ ἐκ τῆς δεξιώσεως μόνης σώζεται , ἀλλὰ προηγουμένως ἀπὸ τῆς πίστεως καὶ τῆς πρὸς τὸν Θεὸν διαθέσεως .
 # sent_id = 17
-1	Οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_156|t_160|ref=Jos.sel._4
-2	ἐκ	ἐκ	r	r--------	_	8	AuxP	_	t_157|t_163|ref=Jos.sel._4
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_158|t_159|ref=Jos.sel._4
-4	δεξιώσεως	δεξιοῦσις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_159|t_157|ref=Jos.sel._4
+1	Οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_156|t_160|ref=Jos.sel._5
+2	ἐκ	ἐκ	r	r--------	_	8	AuxP	_	t_157|t_163|ref=Jos.sel._5
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_158|t_159|ref=Jos.sel._5
+4	δεξιώσεως	δεξιοῦσις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ADV	_	t_159|t_157|ref=Jos.sel._5
 5	μόνης	μόνος	a	a-s---fg-	Case=g|Gender=f|Number=s	4	ATV	_	t_160|t_159|ref=Jos.sel._5
 6	σώζεται	σώζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_161|0|ref=Jos.sel._5
-7	,	,	u	u--------	_	6	AuxX	_	t_162|t_161|ref=Jos.sel._4
+7	,	,	u	u--------	_	6	AuxX	_	t_162|t_161|ref=Jos.sel._5
 8	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_163|t_161|ref=Jos.sel._5
 9	προηγουμένως	προηγέομαι	d	d--------	_	8	ADV	_	t_164|t_163|ref=Jos.sel._5
 10	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_165|t_163|ref=Jos.sel._5
@@ -248,21 +248,21 @@
 18	διαθέσεως	διάθεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_173|t_168|ref=Jos.sel._5
 19	.	.	u	u--------	_	6	AuxK	_	t_174|t_161|ref=Jos.sel._5
 
-# source = Origen, Jos.sel._5
+# source = Origen, Jos.sel._6
 # text = Καὶ ἔκρυψεν αὐτοὺς ἐν τῇ λινοκαλάμῃ .
 # sent_id = 18
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_175|0|ref=Jos.sel._5
-2	ἔκρυψεν	κρύπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	PRED	_	t_176|t_175|ref=Jos.sel._5
-3	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_177|t_176|ref=Jos.sel._5
-4	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_178|t_176|ref=Jos.sel._5
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_179|t_180|ref=Jos.sel._5
-6	λινοκαλάμῃ	λινοκαλάμη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_180|t_178|ref=Jos.sel._5
-7	.	.	u	u--------	_	1	AuxK	_	t_181|t_175|ref=Jos.sel._5
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_175|0|ref=Jos.sel._6
+2	ἔκρυψεν	κρύπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	PRED	_	t_176|t_175|ref=Jos.sel._6
+3	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_177|t_176|ref=Jos.sel._6
+4	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_178|t_176|ref=Jos.sel._6
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_179|t_180|ref=Jos.sel._6
+6	λινοκαλάμῃ	λινοκαλάμη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_180|t_178|ref=Jos.sel._6
+7	.	.	u	u--------	_	1	AuxK	_	t_181|t_175|ref=Jos.sel._6
 
-# source = Origen, Jos.sel._5-6
+# source = Origen, Jos.sel._6
 # text = Τοῖς ξύλοις αὐτοὺς ἔκρυψε τῆς λινοκαλάμης οἷς εἶχεν ἐπὶ τοῦ δώματος ἑτοιμάζουσα ἐργάζεσθαι τὴν βύσσον αὐτοῖς ὡς ἀξίοις οὖσιν ἐνδύματος ἀρχιερατικοῦ .
 # sent_id = 19
-1	Τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	2	ATR	_	t_182|t_183|ref=Jos.sel._5
+1	Τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	2	ATR	_	t_182|t_183|ref=Jos.sel._6
 2	ξύλοις	ξύλον	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_183|t_185|ref=Jos.sel._6
 3	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_184|t_185|ref=Jos.sel._6
 4	ἔκρυψε	κρύπτω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_185|0|ref=Jos.sel._6
@@ -302,21 +302,21 @@
 12	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	6	ATR	_	t_215|t_209|ref=Jos.sel._6
 13	.	.	u	u--------	_	4	AuxK	_	t_216|t_207|ref=Jos.sel._6
 
-# source = Origen, Jos.sel._6
+# source = Origen, Jos.sel._7
 # text = Καὶ κατεχάλασεν αὐτοὺς διὰ τῆς θυρίδος .
 # sent_id = 21
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_217|0|ref=Jos.sel._6
-2	κατεχάλασεν	καταχαλάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	PRED	_	t_218|t_217|ref=Jos.sel._6
-3	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_219|t_218|ref=Jos.sel._6
-4	διὰ	διά	r	r--------	_	2	AuxP	_	t_220|t_218|ref=Jos.sel._6
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_221|t_222|ref=Jos.sel._6
-6	θυρίδος	θυρίς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_222|t_220|ref=Jos.sel._6
-7	.	.	u	u--------	_	1	AuxK	_	t_223|t_217|ref=Jos.sel._6
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_217|0|ref=Jos.sel._7
+2	κατεχάλασεν	καταχαλάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	PRED	_	t_218|t_217|ref=Jos.sel._7
+3	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_219|t_218|ref=Jos.sel._7
+4	διὰ	διά	r	r--------	_	2	AuxP	_	t_220|t_218|ref=Jos.sel._7
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_221|t_222|ref=Jos.sel._7
+6	θυρίδος	θυρίς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_222|t_220|ref=Jos.sel._7
+7	.	.	u	u--------	_	1	AuxK	_	t_223|t_217|ref=Jos.sel._7
 
-# source = Origen, Jos.sel._6-7
+# source = Origen, Jos.sel._7
 # text = Ἰστέον ὅτι ὁ οἶκος αὐτῆς ἐν τῷ τείχει ἦν .
 # sent_id = 22
-1	Ἰστέον	ἰστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_224|0|ref=Jos.sel._6
+1	Ἰστέον	ἰστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_224|0|ref=Jos.sel._7
 2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_225|t_224|ref=Jos.sel._7
 3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_226|t_227|ref=Jos.sel._7
 4	οἶκος	οἶκος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_227|t_232|ref=Jos.sel._7
@@ -335,7 +335,7 @@
 3	παλαιᾶς	παλαιός	a	a-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_236|t_234|ref=Jos.sel._7
 4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_237|t_238|ref=Jos.sel._7
 5	νέα	νέος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_238|e_9|ref=Jos.sel._7
-6	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Jos.sel._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Jos.sel._7
 7	·	·	u	u--------	_	6	AuxK	_	t_239|e_9|ref=Jos.sel._7
 
 # source = Origen, Jos.sel._7
@@ -359,26 +359,26 @@
 16	τείχους	τεῖχος	n	n-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_255|t_253|ref=Jos.sel._7
 17	.	.	u	u--------	_	3	AuxK	_	t_256|t_242|ref=Jos.sel._7
 
-# source = Origen, Jos.sel._7
+# source = Origen, Jos.sel._8
 # text = Τοῦ αὐτοῦ [0] .
 # sent_id = 25
-1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_257|t_258|ref=Jos.sel._7
-2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_258|e_10|ref=Jos.sel._7
-3	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Jos.sel._1
-4	.	.	u	u--------	_	3	AuxK	_	t_259|e_10|ref=Jos.sel._7
+1	Τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_257|t_258|ref=Jos.sel._8
+2	αὐτοῦ	αὐτός	d	d--------	_	3	ADV	_	t_258|e_10|ref=Jos.sel._8
+3	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Jos.sel._8
+4	.	.	u	u--------	_	3	AuxK	_	t_259|e_10|ref=Jos.sel._8
 
-# source = Origen, Jos.sel._7-8
+# source = Origen, Jos.sel._8
 # text = Ὁ Ἀπόστολος δεύτερον ἐσώθη ἀπὸ τῶν ἐχθρῶν ὁμοιοτρόπως , ὥς φησιν ἐν τῇ δευτέρᾳ πρὸς Κορινθίους αὐτοῦ Ἐπιστολῇ ·
 # sent_id = 26
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_260|t_261|ref=Jos.sel._7
-2	Ἀπόστολος	ἀπόστολος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_261|t_263|ref=Jos.sel._7
-3	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_262|t_263|ref=Jos.sel._7
-4	ἐσώθη	σώζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_263|0|ref=Jos.sel._7
-5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_264|t_263|ref=Jos.sel._7
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_265|t_266|ref=Jos.sel._7
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_260|t_261|ref=Jos.sel._8
+2	Ἀπόστολος	ἀπόστολος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_261|t_263|ref=Jos.sel._8
+3	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_262|t_263|ref=Jos.sel._8
+4	ἐσώθη	σώζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_263|0|ref=Jos.sel._8
+5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_264|t_263|ref=Jos.sel._8
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_265|t_266|ref=Jos.sel._8
 7	ἐχθρῶν	ἐχθρός	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ADV	_	t_266|t_264|ref=Jos.sel._8
 8	ὁμοιοτρόπως	ὁμοιότροπος	d	d--------	_	4	ADV	_	t_267|t_263|ref=Jos.sel._8
-9	,	,	u	u--------	_	4	AuxX	_	t_268|t_263|ref=Jos.sel._7
+9	,	,	u	u--------	_	4	AuxX	_	t_268|t_263|ref=Jos.sel._8
 10	ὥς	ὡς	c	c--------	_	4	AuxC	_	t_269|t_263|ref=Jos.sel._8
 11	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	AuxY	_	t_270|t_269|ref=Jos.sel._8
 12	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_271|t_270|ref=Jos.sel._8
@@ -416,7 +416,7 @@
 2	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_295|e_11|ref=Jos.sel._8
 3	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_296|t_297|ref=Jos.sel._8
 4	Πράξεσι	πρᾶξις	n	n-p---fd-	Case=d|Gender=f|Number=p	2	ADV	_	t_297|t_295|ref=Jos.sel._8
-5	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Jos.sel._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Jos.sel._8
 6	·	·	u	u--------	_	5	AuxK	_	t_298|e_11|ref=Jos.sel._8
 
 # source = Origen, Jos.sel._8
@@ -458,24 +458,24 @@
 16	.	.	u	u--------	_	10	AuxK	_	t_328|t_322|ref=Jos.sel._8
 17	»	»	u	u--------	_	10	AuxK	_	t_329|t_322|ref=Jos.sel._8
 
-# source = Origen, Jos.sel._8
+# source = Origen, Jos.sel._9
 # text = Καὶ κατέμειναν ἐκεῖ τρεῖς ἠμέρας .
 # sent_id = 31
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_330|0|ref=Jos.sel._8
-2	κατέμειναν	καταμένω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_331|t_330|ref=Jos.sel._8
-3	ἐκεῖ	ἐκεῖ	d	d--------	_	2	ADV	_	t_332|t_331|ref=Jos.sel._8
-4	τρεῖς	τρεῖς	m	m-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_333|t_334|ref=Jos.sel._8
-5	ἠμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	2	ADV	_	t_334|t_331|ref=Jos.sel._8
-6	.	.	u	u--------	_	1	AuxK	_	t_335|t_330|ref=Jos.sel._8
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_330|0|ref=Jos.sel._9
+2	κατέμειναν	καταμένω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	1	PRED	_	t_331|t_330|ref=Jos.sel._9
+3	ἐκεῖ	ἐκεῖ	d	d--------	_	2	ADV	_	t_332|t_331|ref=Jos.sel._9
+4	τρεῖς	τρεῖς	m	m-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_333|t_334|ref=Jos.sel._9
+5	ἠμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	2	ADV	_	t_334|t_331|ref=Jos.sel._9
+6	.	.	u	u--------	_	1	AuxK	_	t_335|t_330|ref=Jos.sel._9
 
-# source = Origen, Jos.sel._8-9
+# source = Origen, Jos.sel._9
 # text = Οὐχ ὅτ τριῶν ἡμερῶν ἦν ἡ ὁδός ·
 # sent_id = 32
-1	Οὐχ	οὐ	d	d--------	_	5	AuxZ	_	t_336|t_340|ref=Jos.sel._8
-2	ὅτ	ὅς	c	c--------	_	5	AuxC	_	t_337|t_340|ref=Jos.sel._8
-3	τριῶν	τρεῖς	m	m-p----g-	Case=g|Gender=f|Number=p	4	ATR	_	t_338|t_339|ref=Jos.sel._8
-4	ἡμερῶν	ἡμέρα	n	n-p---fg-	Case=g|Gender=f|Number=p	5	PNOM	_	t_339|t_340|ref=Jos.sel._8
-5	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_340|0|ref=Jos.sel._8
+1	Οὐχ	οὐ	d	d--------	_	5	AuxZ	_	t_336|t_340|ref=Jos.sel._9
+2	ὅτ	ὅς	c	c--------	_	5	AuxC	_	t_337|t_340|ref=Jos.sel._9
+3	τριῶν	τρεῖς	m	m-p----g-	Case=g|Gender=f|Number=p	4	ATR	_	t_338|t_339|ref=Jos.sel._9
+4	ἡμερῶν	ἡμέρα	n	n-p---fg-	Case=g|Gender=f|Number=p	5	PNOM	_	t_339|t_340|ref=Jos.sel._9
+5	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_340|0|ref=Jos.sel._9
 6	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_341|t_342|ref=Jos.sel._9
 7	ὁδός	ὁδός	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_342|t_340|ref=Jos.sel._9
 8	·	·	u	u--------	_	2	AuxK	_	t_343|t_337|ref=Jos.sel._9
@@ -498,7 +498,7 @@
 13	κατασκόπων	κατάσκοπος	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_356|t_358|ref=Jos.sel._9
 14	ἀκριβῆ	ἀκριβής	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_357|t_358|ref=Jos.sel._9
 15	ἐξέτασιν	ἐξέτασις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	ADV	_	t_358|t_353|ref=Jos.sel._9
-16	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Jos.sel._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Jos.sel._9
 17	.	.	u	u--------	_	16	AuxK	_	t_359|e_12|ref=Jos.sel._9
 
 # source = Origen, Jos.sel._9
@@ -522,31 +522,31 @@
 16	.	.	u	u--------	_	1	AuxK	_	t_375|t_360|ref=Jos.sel._9
 17	»	»	u	u--------	_	1	AuxG	_	t_376|t_360|ref=Jos.sel._9
 
-# source = Origen, Jos.sel._9
+# source = Origen, Jos.sel._10
 # text = « Τετράκις μύριοι εὔζωνοι [0] .
 # sent_id = 35
-1	«	«	u	u--------	_	5	AuxG	_	t_377|e_13|ref=Jos.sel._9
-2	Τετράκις	τετράκις	d	d--------	_	5	ADV	_	t_378|e_13|ref=Jos.sel._9
-3	μύριοι	μυρίος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_379|e_13|ref=Jos.sel._9
-4	εὔζωνοι	εὔζωνος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_380|t_379|ref=Jos.sel._9
-5	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Jos.sel._1
-6	.	.	u	u--------	_	5	AuxK	_	t_381|e_13|ref=Jos.sel._9
+1	«	«	u	u--------	_	5	AuxG	_	t_377|e_13|ref=Jos.sel._10
+2	Τετράκις	τετράκις	d	d--------	_	5	ADV	_	t_378|e_13|ref=Jos.sel._10
+3	μύριοι	μυρίος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_379|e_13|ref=Jos.sel._10
+4	εὔζωνοι	εὔζωνος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_380|t_379|ref=Jos.sel._10
+5	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Jos.sel._10
+6	.	.	u	u--------	_	5	AuxK	_	t_381|e_13|ref=Jos.sel._10
 
-# source = Origen, Jos.sel._9-10
+# source = Origen, Jos.sel._10
 # text = Σημειωτέον ὅτι ἡ τετρὰς , εἴ τε μονάδων , εἴ τε ἑκατοντάδων , εἴ τε ἑτέρου πλείονος ἀριθμοῦ , ἐπὶ κακώσεως κεῖται [0] [1] [2] .
 # sent_id = 36
-1	Σημειωτέον	σημειωτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_382|e_14|ref=Jos.sel._9
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_383|t_382|ref=Jos.sel._9
-3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_384|t_385|ref=Jos.sel._9
-4	τετρὰς	τετράς	n	n-s---fn-	Case=n|Gender=f|Number=s	22	SBJ	_	t_385|t_403|ref=Jos.sel._9
-5	,	,	u	u--------	_	25	AuxX	_	t_386|e_16|ref=Jos.sel._9
-6	εἴ	εἰ	c	c--------	_	15	AuxC	_	t_387|t_396|ref=Jos.sel._9
-7	τε	τε	c	c--------	_	15	AuxY	_	t_388|t_396|ref=Jos.sel._9
+1	Σημειωτέον	σημειωτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_382|e_14|ref=Jos.sel._10
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_383|t_382|ref=Jos.sel._10
+3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_384|t_385|ref=Jos.sel._10
+4	τετρὰς	τετράς	n	n-s---fn-	Case=n|Gender=f|Number=s	22	SBJ	_	t_385|t_403|ref=Jos.sel._10
+5	,	,	u	u--------	_	25	AuxX	_	t_386|e_16|ref=Jos.sel._10
+6	εἴ	εἰ	c	c--------	_	15	AuxC	_	t_387|t_396|ref=Jos.sel._10
+7	τε	τε	c	c--------	_	15	AuxY	_	t_388|t_396|ref=Jos.sel._10
 8	μονάδων	μονάς	n	n-p---fg-	Case=g|Gender=f|Number=p	24	PNOM	_	t_389|e_15|ref=Jos.sel._10
 9	,	,	u	u--------	_	25	AuxX	_	t_390|e_16|ref=Jos.sel._10
 10	εἴ	εἰ	c	c--------	_	15	AuxC	_	t_391|t_396|ref=Jos.sel._10
 11	τε	τε	c	c--------	_	15	AuxY	_	t_392|t_396|ref=Jos.sel._10
-12	ἑκατοντάδων	ἑκατοντάς	n	n-p---fg-	Case=g|Gender=f|Number=p	24	PNOM	_	t_393|e_15|ref=Jos.sel._9
+12	ἑκατοντάδων	ἑκατοντάς	n	n-p---fg-	Case=g|Gender=f|Number=p	24	PNOM	_	t_393|e_15|ref=Jos.sel._10
 13	,	,	u	u--------	_	25	AuxX	_	t_394|e_16|ref=Jos.sel._10
 14	εἴ	εἰ	c	c--------	_	15	AuxC	_	t_395|t_396|ref=Jos.sel._10
 15	τε	τε	c	c--------	_	22	COORD	_	t_396|t_403|ref=Jos.sel._10
@@ -557,34 +557,34 @@
 20	ἐπὶ	ἐπί	r	r--------	_	22	AuxP	_	t_401|t_403|ref=Jos.sel._10
 21	κακώσεως	κάκωσις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ADV	_	t_402|t_401|ref=Jos.sel._10
 22	κεῖται	κεῖμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	SBJ	_	t_403|t_383|ref=Jos.sel._10
-23	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Jos.sel._1
-24	[1]	[1]	-	---------	_	6	ADV	_	e_15|t_387|ref=Jos.sel._1
-25	[2]	[2]	-	---------	_	10	ADV	_	e_16|t_391|ref=Jos.sel._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Jos.sel._10
+24	[1]	[1]	-	---------	_	6	ADV	_	e_15|t_387|ref=Jos.sel._10
+25	[2]	[2]	-	---------	_	10	ADV	_	e_16|t_391|ref=Jos.sel._10
 26	.	.	u	u--------	_	23	AuxK	_	t_404|e_14|ref=Jos.sel._10
 
-# source = Origen, Jos.sel._10
+# source = Origen, Jos.sel._11
 # text = Ποίησόν σοι μαχαίρας πετρίνας ἐκ πέτρας ἀμροτόμου .
 # sent_id = 37
-1	Ποίησόν	ποιέω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_405|0|ref=Jos.sel._10
-2	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_406|t_405|ref=Jos.sel._10
-3	μαχαίρας	μάχαιρα	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_407|t_408|ref=Jos.sel._10
-4	πετρίνας	πετρίνας	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	OBJ	_	t_408|t_405|ref=Jos.sel._10
-5	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_409|t_408|ref=Jos.sel._10
-6	πέτρας	πέτρα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	OBJ	_	t_410|t_409|ref=Jos.sel._10
-7	ἀμροτόμου	ἀμότομος	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_411|t_410|ref=Jos.sel._10
-8	.	.	u	u--------	_	1	AuxK	_	t_412|t_405|ref=Jos.sel._10
+1	Ποίησόν	ποιέω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_405|0|ref=Jos.sel._11
+2	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_406|t_405|ref=Jos.sel._11
+3	μαχαίρας	μάχαιρα	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_407|t_408|ref=Jos.sel._11
+4	πετρίνας	πετρίνας	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	OBJ	_	t_408|t_405|ref=Jos.sel._11
+5	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_409|t_408|ref=Jos.sel._11
+6	πέτρας	πέτρα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	OBJ	_	t_410|t_409|ref=Jos.sel._11
+7	ἀμροτόμου	ἀμότομος	a	a-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_411|t_410|ref=Jos.sel._11
+8	.	.	u	u--------	_	1	AuxK	_	t_412|t_405|ref=Jos.sel._11
 
-# source = Origen, Jos.sel._10-11
+# source = Origen, Jos.sel._11
 # text = Ζητητέον διὰ τί οὐ περιετμήθησαν οἱ ἐν τῇ ἐρήμῳ τεχθέντες ·
 # sent_id = 38
-1	Ζητητέον	ζητητέος	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_413|0|ref=Jos.sel._10
-2	διὰ	διά	r	r--------	_	5	AuxP	_	t_414|t_417|ref=Jos.sel._10
-3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_415|t_414|ref=Jos.sel._10
-4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_416|t_417|ref=Jos.sel._10
-5	περιετμήθησαν	περιτέμνω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	1	OBJ	_	t_417|t_413|ref=Jos.sel._10
-6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_418|t_422|ref=Jos.sel._10
-7	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_419|t_422|ref=Jos.sel._10
-8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_420|t_421|ref=Jos.sel._10
+1	Ζητητέον	ζητητέος	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_413|0|ref=Jos.sel._11
+2	διὰ	διά	r	r--------	_	5	AuxP	_	t_414|t_417|ref=Jos.sel._11
+3	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_415|t_414|ref=Jos.sel._11
+4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_416|t_417|ref=Jos.sel._11
+5	περιετμήθησαν	περιτέμνω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	1	OBJ	_	t_417|t_413|ref=Jos.sel._11
+6	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_418|t_422|ref=Jos.sel._11
+7	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_419|t_422|ref=Jos.sel._11
+8	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_420|t_421|ref=Jos.sel._11
 9	ἐρήμῳ	ἐρῆμος	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_421|t_419|ref=Jos.sel._11
 10	τεχθέντες	τίκτω	v	v-pappmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	5	SBJ	_	t_422|t_417|ref=Jos.sel._11
 11	·	·	u	u--------	_	1	AuxK	_	t_423|t_413|ref=Jos.sel._11
@@ -676,7 +676,7 @@
 20	πρὸς	πρός	r	r--------	_	22	AuxP	_	t_497|t_499|ref=Jos.sel._11
 21	καιρὸν	καιρός	n	n-s---ma-	Case=a|Gender=m|Number=s	20	ADV	_	t_498|t_497|ref=Jos.sel._11
 22	ἐχρησίμευσεν	χρειμεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	ADV	_	t_499|t_496|ref=Jos.sel._11
-23	[0]	[0]	-	---------	_	8	OBJ	_	e_17|t_485|ref=Jos.sel._1
+23	[0]	[0]	-	---------	_	8	OBJ	_	e_17|t_485|ref=Jos.sel._11
 24	.	.	u	u--------	_	1	AuxK	_	t_500|t_478|ref=Jos.sel._11
 
 # source = Origen, Jos.sel._11
@@ -714,7 +714,7 @@
 30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	32	ATR	_	t_530|t_532|ref=Jos.sel._11
 31	ἑαυτοῦ	ἑαυτοῦ	p	p-s---ng-	Case=g|Gender=n|Number=s	32	ATR	_	t_531|t_532|ref=Jos.sel._11
 32	εὕρεσιν	εὕρεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	29	OBJ	_	t_532|t_529|ref=Jos.sel._11
-33	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Jos.sel._1
+33	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Jos.sel._11
 34	·	·	u	u--------	_	33	AuxK	_	t_533|e_18|ref=Jos.sel._11
 
 # source = Origen, Jos.sel._11
@@ -769,7 +769,7 @@
 30	,	,	u	u--------	_	33	AuxX	_	t_576|e_19|ref=Jos.sel._11
 31	ἀπεριτμήτους	ἀπερίτμητος	a	a-p---ma-	Case=a|Gender=m|Number=p	32	OCOMP	_	t_577|t_578|ref=Jos.sel._11
 32	μεμενηκέναι	μένω	v	v--rna---	Mood=n|Tense=r|Voice=a	13	SBJ	_	t_578|t_559|ref=Jos.sel._11
-33	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Jos.sel._1
+33	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Jos.sel._11
 34	.	.	u	u--------	_	33	AuxK	_	t_579|e_19|ref=Jos.sel._11
 
 # source = Origen, Jos.sel._11
@@ -866,36 +866,36 @@
 20	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	19	ATR	_	t_656|t_655|ref=Jos.sel._11
 21	.	.	u	u--------	_	9	AuxK	_	t_657|t_645|ref=Jos.sel._11
 
-# source = Origen, Jos.sel._11
+# source = Origen, Jos.sel._12
 # text = Ἐγὼ ἀρχιστράτηγος τῆς δυνάμεως Κυρίου , νῦν παραγέγονα .
 # sent_id = 49
-1	Ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_658|t_665|ref=Jos.sel._11
-2	ἀρχιστράτηγος	ἀρχιστράτηγος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_659|t_658|ref=Jos.sel._11
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_660|t_661|ref=Jos.sel._11
-4	δυνάμεως	δύναμις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_661|t_659|ref=Jos.sel._11
-5	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_662|t_661|ref=Jos.sel._11
-6	,	,	u	u--------	_	8	AuxX	_	t_663|t_665|ref=Jos.sel._11
-7	νῦν	νῦν	d	d--------	_	8	ADV	_	t_664|t_665|ref=Jos.sel._11
-8	παραγέγονα	παραγίγνομαι	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_665|0|ref=Jos.sel._11
-9	.	.	u	u--------	_	8	AuxK	_	t_666|t_665|ref=Jos.sel._11
+1	Ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_658|t_665|ref=Jos.sel._12
+2	ἀρχιστράτηγος	ἀρχιστράτηγος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_659|t_658|ref=Jos.sel._12
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_660|t_661|ref=Jos.sel._12
+4	δυνάμεως	δύναμις	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_661|t_659|ref=Jos.sel._12
+5	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_662|t_661|ref=Jos.sel._12
+6	,	,	u	u--------	_	8	AuxX	_	t_663|t_665|ref=Jos.sel._12
+7	νῦν	νῦν	d	d--------	_	8	ADV	_	t_664|t_665|ref=Jos.sel._12
+8	παραγέγονα	παραγίγνομαι	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_665|0|ref=Jos.sel._12
+9	.	.	u	u--------	_	8	AuxK	_	t_666|t_665|ref=Jos.sel._12
 
-# source = Origen, Jos.sel._11
+# source = Origen, Jos.sel._12
 # text = Μεμνῆσθαι δεῖ ὅτι ἡνίκα ἐμοσχοποίησαν .
 # sent_id = 50
-1	Μεμνῆσθαι	μιμνήσκω	v	v--rne---	Mood=n|Tense=r|Voice=e	2	SBJ	_	t_667|t_668|ref=Jos.sel._11
-2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_668|0|ref=Jos.sel._11
-3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_669|t_667|ref=Jos.sel._11
-4	ἡνίκα	ἡνίκα	c	c--------	_	1	AuxC	_	t_670|t_667|ref=Jos.sel._11
-5	ἐμοσχοποίησαν	μηχανοποιέω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	4	ADV	_	t_671|t_670|ref=Jos.sel._11
-6	.	.	u	u--------	_	2	AuxK	_	t_672|t_668|ref=Jos.sel._11
+1	Μεμνῆσθαι	μιμνήσκω	v	v--rne---	Mood=n|Tense=r|Voice=e	2	SBJ	_	t_667|t_668|ref=Jos.sel._12
+2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_668|0|ref=Jos.sel._12
+3	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_669|t_667|ref=Jos.sel._12
+4	ἡνίκα	ἡνίκα	c	c--------	_	1	AuxC	_	t_670|t_667|ref=Jos.sel._12
+5	ἐμοσχοποίησαν	μηχανοποιέω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	4	ADV	_	t_671|t_670|ref=Jos.sel._12
+6	.	.	u	u--------	_	2	AuxK	_	t_672|t_668|ref=Jos.sel._12
 
-# source = Origen, Jos.sel._11-12
+# source = Origen, Jos.sel._12
 # text = ὁ Θεὸς τῷ Μωϋσεῖ φησιν , ὅτι « Ἀνάγαγε τὸν λαὸν τοῦτον , οὐ γὰρ μὴ συναναβῶ διὰ τὸ τὸν λαὸν σκληροτράχηλον εἶναι .
 # sent_id = 51
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_673|t_674|ref=Jos.sel._11
-2	Θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_674|t_677|ref=Jos.sel._11
-3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_675|t_676|ref=Jos.sel._11
-4	Μωϋσεῖ	μωϋσῆς	n	n-s---md-	Case=d|Gender=m|Number=s	2	ATR	_	t_676|t_674|ref=Jos.sel._11
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_673|t_674|ref=Jos.sel._12
+2	Θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_674|t_677|ref=Jos.sel._12
+3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_675|t_676|ref=Jos.sel._12
+4	Μωϋσεῖ	μωϋσῆς	n	n-s---md-	Case=d|Gender=m|Number=s	2	ATR	_	t_676|t_674|ref=Jos.sel._12
 5	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_677|0|ref=Jos.sel._12
 6	,	,	u	u--------	_	5	AuxX	_	t_678|t_677|ref=Jos.sel._12
 7	ὅτι	ὅτι	c	c--------	_	5	AuxC	_	t_679|t_677|ref=Jos.sel._12
@@ -1055,36 +1055,36 @@
 14	ἄγγελος	ἄγγελος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_797|t_794|ref=Jos.sel._12
 15	.	.	u	u--------	_	2	AuxK	_	t_798|t_785|ref=Jos.sel._12
 
-# source = Origen, Jos.sel._12
+# source = Origen, Jos.sel._13
 # text = Πορευόμενοι κεὶ σαλπίζοντες .
 # sent_id = 61
-1	Πορευόμενοι	πορεύω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	2	ADV	_	t_799|t_800|ref=Jos.sel._12
-2	κεὶ	καί	d	d--------	_	0	ADV	_	t_800|0|ref=Jos.sel._12
-3	σαλπίζοντες	σαλπίζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ADV	_	t_801|t_799|ref=Jos.sel._12
-4	.	.	u	u--------	_	2	AuxK	_	t_802|t_800|ref=Jos.sel._12
+1	Πορευόμενοι	πορεύω	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	2	ADV	_	t_799|t_800|ref=Jos.sel._13
+2	κεὶ	καί	d	d--------	_	0	ADV	_	t_800|0|ref=Jos.sel._13
+3	σαλπίζοντες	σαλπίζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ADV	_	t_801|t_799|ref=Jos.sel._13
+4	.	.	u	u--------	_	2	AuxK	_	t_802|t_800|ref=Jos.sel._13
 
-# source = Origen, Jos.sel._12
+# source = Origen, Jos.sel._13
 # text = Αὐταὶ αἱ σάλπιγγες , σύμβολόν εἰσι τῶν ἐν τῇ ἐσχάτῃ ἡμέρᾳ .
 # sent_id = 62
-1	Αὐταὶ	αὐτός	p	p-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_803|t_805|ref=Jos.sel._12
-2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_804|t_805|ref=Jos.sel._12
-3	σάλπιγγες	σάλπιγξ	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_805|t_808|ref=Jos.sel._12
-4	,	,	u	u--------	_	6	AuxX	_	t_806|t_808|ref=Jos.sel._12
-5	σύμβολόν	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_807|t_808|ref=Jos.sel._12
-6	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_808|0|ref=Jos.sel._12
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	5	ATR	_	t_809|t_807|ref=Jos.sel._12
-8	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_810|t_809|ref=Jos.sel._12
-9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_811|t_813|ref=Jos.sel._12
-10	ἐσχάτῃ	ἔσχατος	a	a-s---fds	Case=d|Gender=f|Number=s	11	ATR	_	t_812|t_813|ref=Jos.sel._12
-11	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_813|t_810|ref=Jos.sel._12
-12	.	.	u	u--------	_	6	AuxK	_	t_814|t_808|ref=Jos.sel._12
+1	Αὐταὶ	αὐτός	p	p-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_803|t_805|ref=Jos.sel._13
+2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_804|t_805|ref=Jos.sel._13
+3	σάλπιγγες	σάλπιγξ	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_805|t_808|ref=Jos.sel._13
+4	,	,	u	u--------	_	6	AuxX	_	t_806|t_808|ref=Jos.sel._13
+5	σύμβολόν	σύμβολον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_807|t_808|ref=Jos.sel._13
+6	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_808|0|ref=Jos.sel._13
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=f|Number=p	5	ATR	_	t_809|t_807|ref=Jos.sel._13
+8	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_810|t_809|ref=Jos.sel._13
+9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_811|t_813|ref=Jos.sel._13
+10	ἐσχάτῃ	ἔσχατος	a	a-s---fds	Case=d|Gender=f|Number=s	11	ATR	_	t_812|t_813|ref=Jos.sel._13
+11	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_813|t_810|ref=Jos.sel._13
+12	.	.	u	u--------	_	6	AuxK	_	t_814|t_808|ref=Jos.sel._13
 
-# source = Origen, Jos.sel._12-13
+# source = Origen, Jos.sel._13
 # text = « Αὐτὸς γὰρ , φησὶν , ὁ Κύριος ἐν κελεύσματι , ἐν φωνῇ ἀρχαγγέλου , καὶ ἐν σάλπιγγι Θεοῦ καταβήσεται ἀπʼ οὐρανοῦ . [0] »
 # sent_id = 63
-1	«	«	u	u--------	_	16	AuxG	_	t_815|t_830|ref=Jos.sel._12
-2	Αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATV	_	t_816|t_822|ref=Jos.sel._12
-3	γὰρ	γάρ	g	g--------	_	16	AuxY	_	t_817|t_830|ref=Jos.sel._12
+1	«	«	u	u--------	_	16	AuxG	_	t_815|t_830|ref=Jos.sel._13
+2	Αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATV	_	t_816|t_822|ref=Jos.sel._13
+3	γὰρ	γάρ	g	g--------	_	16	AuxY	_	t_817|t_830|ref=Jos.sel._13
 4	,	,	u	u--------	_	5	AuxX	_	t_818|t_819|ref=Jos.sel._13
 5	φησὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	AuxY	_	t_819|t_830|ref=Jos.sel._13
 6	,	,	u	u--------	_	5	AuxX	_	t_820|t_819|ref=Jos.sel._13
@@ -1105,7 +1105,7 @@
 21	ἀπʼ	ἀπό	r	r--------	_	20	AuxP	_	t_835|t_834|ref=Jos.sel._13
 22	οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	21	OBJ	_	t_836|t_835|ref=Jos.sel._13
 23	.	.	u	u--------	_	16	AuxK	_	t_837|t_830|ref=Jos.sel._13
-24	[0]	[0]	-	---------	_	16	OBJ	_	e_20|t_830|ref=Jos.sel._1
+24	[0]	[0]	-	---------	_	16	OBJ	_	e_20|t_830|ref=Jos.sel._13
 25	»	»	u	u--------	_	16	AuxG	_	t_838|t_830|ref=Jos.sel._13
 
 # source = Origen, Jos.sel._13
@@ -1148,33 +1148,33 @@
 35	βουλομένοις	βούλομαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	29	ADV	_	t_873|t_867|ref=Jos.sel._13
 36	.	.	u	u--------	_	2	AuxK	_	t_874|t_840|ref=Jos.sel._13
 
-# source = Origen, Jos.sel._13
+# source = Origen, Jos.sel._14
 # text = Καὶ εἶπεν Ἰησοῦς τοῖς υἱοῖς Ἰσραὴλ , Κεκράξατε .
 # sent_id = 65
-1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_875|t_876|ref=Jos.sel._13
-2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_876|0|ref=Jos.sel._13
-3	Ἰησοῦς	ἰησοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_877|t_879|ref=Jos.sel._13
-4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_878|t_879|ref=Jos.sel._13
-5	υἱοῖς	υἱός	n	n-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_879|t_876|ref=Jos.sel._13
-6	Ἰσραὴλ	ἰσραήλ	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_880|t_876|ref=Jos.sel._13
-7	,	,	u	u--------	_	2	AuxX	_	t_881|t_876|ref=Jos.sel._13
-8	Κεκράξατε	κράζω	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_882|t_876|ref=Jos.sel._13
-9	.	.	u	u--------	_	2	AuxK	_	t_883|t_876|ref=Jos.sel._13
+1	Καὶ	καί	d	d--------	_	2	AuxY	_	t_875|t_876|ref=Jos.sel._14
+2	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_876|0|ref=Jos.sel._14
+3	Ἰησοῦς	ἰησοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_877|t_879|ref=Jos.sel._14
+4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_878|t_879|ref=Jos.sel._14
+5	υἱοῖς	υἱός	n	n-p---md-	Case=d|Gender=m|Number=p	2	OBJ	_	t_879|t_876|ref=Jos.sel._14
+6	Ἰσραὴλ	ἰσραήλ	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_880|t_876|ref=Jos.sel._14
+7	,	,	u	u--------	_	2	AuxX	_	t_881|t_876|ref=Jos.sel._14
+8	Κεκράξατε	κράζω	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_882|t_876|ref=Jos.sel._14
+9	.	.	u	u--------	_	2	AuxK	_	t_883|t_876|ref=Jos.sel._14
 
-# source = Origen, Jos.sel._13-14
+# source = Origen, Jos.sel._14
 # text = Τὴν μέντοι κραυγὴν , τὴν τῶν ῥημάτων εἰκὸς δοξολογίαν εἶναι καὶ φωνὴν αἰνέσεως τὴν εἰς τὸν Θεὸν , μαχομένην τῇ πλάνῃ τῶν Ἱεριχουντίων , νικῶσαν δὲ τὴν παράδοξον νίκην καὶ θαύματος γέμουσαν [0] .
 # sent_id = 66
-1	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_884|t_886|ref=Jos.sel._13
-2	μέντοι	μέντοι	d	d--------	_	26	AuxY	_	t_885|t_909|ref=Jos.sel._13
-3	κραυγὴν	κραυγή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	SBJ	_	t_886|t_894|ref=Jos.sel._13
-4	,	,	u	u--------	_	33	AuxX	_	t_887|e_21|ref=Jos.sel._13
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_888|t_892|ref=Jos.sel._13
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_889|t_890|ref=Jos.sel._13
-7	ῥημάτων	ῥῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_890|t_892|ref=Jos.sel._13
-8	εἰκὸς	ἔοικα	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	10	PNOM	_	t_891|t_893|ref=Jos.sel._13
-9	δοξολογίαν	δοξολογία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	PNOM	_	t_892|t_894|ref=Jos.sel._13
-10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	33	SBJ	_	t_893|e_21|ref=Jos.sel._13
-11	καὶ	καί	c	c--------	_	10	COORD	_	t_894|t_893|ref=Jos.sel._13
+1	Τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_884|t_886|ref=Jos.sel._14
+2	μέντοι	μέντοι	d	d--------	_	26	AuxY	_	t_885|t_909|ref=Jos.sel._14
+3	κραυγὴν	κραυγή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	SBJ	_	t_886|t_894|ref=Jos.sel._14
+4	,	,	u	u--------	_	33	AuxX	_	t_887|e_21|ref=Jos.sel._14
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_888|t_892|ref=Jos.sel._14
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_889|t_890|ref=Jos.sel._14
+7	ῥημάτων	ῥῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_890|t_892|ref=Jos.sel._14
+8	εἰκὸς	ἔοικα	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	10	PNOM	_	t_891|t_893|ref=Jos.sel._14
+9	δοξολογίαν	δοξολογία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	PNOM	_	t_892|t_894|ref=Jos.sel._14
+10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	33	SBJ	_	t_893|e_21|ref=Jos.sel._14
+11	καὶ	καί	c	c--------	_	10	COORD	_	t_894|t_893|ref=Jos.sel._14
 12	φωνὴν	φωνή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	PNOM	_	t_895|t_894|ref=Jos.sel._14
 13	αἰνέσεως	αἴνεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_896|t_895|ref=Jos.sel._14
 14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_897|t_895|ref=Jos.sel._14
@@ -1196,37 +1196,37 @@
 30	καὶ	καί	c	c--------	_	26	COORD	_	t_913|t_909|ref=Jos.sel._14
 31	θαύματος	θαῦμα	n	n-s---ng-	Case=g|Gender=n|Number=s	32	OBJ	_	t_914|t_915|ref=Jos.sel._14
 32	γέμουσαν	γέμω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	30	ADV	_	t_915|t_913|ref=Jos.sel._14
-33	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Jos.sel._1
+33	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Jos.sel._14
 34	.	.	u	u--------	_	33	AuxK	_	t_916|e_21|ref=Jos.sel._14
 
-# source = Origen, Jos.sel._14
+# source = Origen, Jos.sel._15
 # text = Οὕτως ἐποίησεν Ὁζάν .
 # sent_id = 67
-1	Οὕτως	οὕτως	d	d--------	_	2	ADV	_	t_917|t_918|ref=Jos.sel._14
-2	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_918|0|ref=Jos.sel._14
-3	Ὁζάν	ὁζάν	n	n-s---mn-	Case=a|Gender=m|Number=s	2	SBJ	_	t_919|t_918|ref=Jos.sel._14
-4	.	.	u	u--------	_	2	AuxK	_	t_920|t_918|ref=Jos.sel._14
+1	Οὕτως	οὕτως	d	d--------	_	2	ADV	_	t_917|t_918|ref=Jos.sel._15
+2	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_918|0|ref=Jos.sel._15
+3	Ὁζάν	ὁζάν	n	n-s---mn-	Case=a|Gender=m|Number=s	2	SBJ	_	t_919|t_918|ref=Jos.sel._15
+4	.	.	u	u--------	_	2	AuxK	_	t_920|t_918|ref=Jos.sel._15
 
-# source = Origen, Jos.sel._14-15
+# source = Origen, Jos.sel._15
 # text = Ἐκ τούτου δείκνυται ὡς οὐκ Ἰησοῦς ὁ τοῦ Ναυῆ , ἀλλʼ ἕτερός τις μετὰ πολλὰς γενεὰς ταῦτα συνέγραψε .
 # sent_id = 68
-1	Ἐκ	ἐκ	r	r--------	_	3	AuxP	_	t_921|t_923|ref=Jos.sel._14
-2	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_922|t_921|ref=Jos.sel._14
-3	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_923|0|ref=Jos.sel._14
-4	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_924|t_923|ref=Jos.sel._14
-5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_925|t_926|ref=Jos.sel._14
-6	Ἰησοῦς	ἰησοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_926|t_931|ref=Jos.sel._14
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_927|t_926|ref=Jos.sel._14
-8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_928|t_926|ref=Jos.sel._14
-9	Ναυῆ	νηλεύς	n	n-s---mv-	Case=g|Gender=m|Number=s	6	ATR	_	t_929|t_926|ref=Jos.sel._14
-10	,	,	u	u--------	_	3	AuxX	_	t_930|t_923|ref=Jos.sel._14
-11	ἀλλʼ	ἀλλά	c	c--------	_	18	COORD	_	t_931|t_938|ref=Jos.sel._14
-12	ἕτερός	ἕτερος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_932|t_933|ref=Jos.sel._14
-13	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_933|t_931|ref=Jos.sel._14
-14	μετὰ	μετά	r	r--------	_	18	AuxP	_	t_934|t_938|ref=Jos.sel._14
-15	πολλὰς	πολύς	a	a-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_935|t_936|ref=Jos.sel._14
-16	γενεὰς	γενεά	n	n-p---fa-	Case=a|Gender=f|Number=p	14	ADV	_	t_936|t_934|ref=Jos.sel._14
-17	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_937|t_938|ref=Jos.sel._14
+1	Ἐκ	ἐκ	r	r--------	_	3	AuxP	_	t_921|t_923|ref=Jos.sel._15
+2	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_922|t_921|ref=Jos.sel._15
+3	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_923|0|ref=Jos.sel._15
+4	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_924|t_923|ref=Jos.sel._15
+5	οὐκ	οὐ	d	d--------	_	6	AuxZ	_	t_925|t_926|ref=Jos.sel._15
+6	Ἰησοῦς	ἰησοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_926|t_931|ref=Jos.sel._15
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_927|t_926|ref=Jos.sel._15
+8	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_928|t_926|ref=Jos.sel._15
+9	Ναυῆ	νηλεύς	n	n-s---mv-	Case=g|Gender=m|Number=s	6	ATR	_	t_929|t_926|ref=Jos.sel._15
+10	,	,	u	u--------	_	3	AuxX	_	t_930|t_923|ref=Jos.sel._15
+11	ἀλλʼ	ἀλλά	c	c--------	_	18	COORD	_	t_931|t_938|ref=Jos.sel._15
+12	ἕτερός	ἕτερος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_932|t_933|ref=Jos.sel._15
+13	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_933|t_931|ref=Jos.sel._15
+14	μετὰ	μετά	r	r--------	_	18	AuxP	_	t_934|t_938|ref=Jos.sel._15
+15	πολλὰς	πολύς	a	a-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_935|t_936|ref=Jos.sel._15
+16	γενεὰς	γενεά	n	n-p---fa-	Case=a|Gender=f|Number=p	14	ADV	_	t_936|t_934|ref=Jos.sel._15
+17	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	18	OBJ	_	t_937|t_938|ref=Jos.sel._15
 18	συνέγραψε	συγγράφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	4	OBJ	_	t_938|t_924|ref=Jos.sel._15
 19	.	.	u	u--------	_	3	AuxK	_	t_939|t_923|ref=Jos.sel._15
 
@@ -1244,8 +1244,8 @@
 9	οἷς	ὅς	p	p-p---nd-	Case=d|Gender=n|Number=p	11	OBJ	_	t_948|t_950|ref=Jos.sel._15
 10	πρότερον	πρότερος	d	d-------c	Degree=c	11	ADV	_	t_949|t_950|ref=Jos.sel._15
 11	εἰρήκαμεν	ἐρῶ	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	7	ADV	_	t_950|t_946|ref=Jos.sel._15
-12	[0]	[0]	-	---------	_	1	PRED	_	e_22|t_940|ref=Jos.sel._1
-13	[1]	[1]	-	---------	_	7	OBJ	_	e_23|t_946|ref=Jos.sel._1
+12	[0]	[0]	-	---------	_	1	PRED	_	e_22|t_940|ref=Jos.sel._15
+13	[1]	[1]	-	---------	_	7	OBJ	_	e_23|t_946|ref=Jos.sel._15
 14	.	.	u	u--------	_	1	AuxK	_	t_951|t_940|ref=Jos.sel._15
 
 # source = Origen, Jos.sel._15
@@ -1272,7 +1272,7 @@
 19	ἐπʼ	ἐπί	r	r--------	_	21	AuxP	_	t_970|t_972|ref=Jos.sel._15
 20	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_971|t_970|ref=Jos.sel._15
 21	χρόνους	χρόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	17	ATR	_	t_972|t_968|ref=Jos.sel._15
-22	[0]	[0]	-	---------	_	13	ADV	_	e_24|t_964|ref=Jos.sel._1
+22	[0]	[0]	-	---------	_	13	ADV	_	e_24|t_964|ref=Jos.sel._15
 23	.	.	u	u--------	_	1	AuxK	_	t_973|t_952|ref=Jos.sel._15
 
 # source = Origen, Jos.sel._15
@@ -1313,7 +1313,7 @@
 33	ἐῤῥιμμένον	ἀποφέρω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	30	ADV	_	t_1006|t_1003|ref=Jos.sel._15
 34	ὡς	ὡς	c	c--------	_	33	AuxC	_	t_1007|t_1006|ref=Jos.sel._15
 35	ἔτυχε	τυγχάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	34	ADV	_	t_1008|t_1007|ref=Jos.sel._15
-36	[0]	[0]	-	---------	_	2	PRED	_	e_25|t_975|ref=Jos.sel._1
+36	[0]	[0]	-	---------	_	2	PRED	_	e_25|t_975|ref=Jos.sel._15
 37	·	·	u	u--------	_	2	AuxK	_	t_1009|t_975|ref=Jos.sel._15
 
 # source = Origen, Jos.sel._15
@@ -1379,42 +1379,42 @@
 7	ἐμνημονεύσαμεν	μνημονεύω	v	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	2	SBJ	_	t_1059|t_1054|ref=Jos.sel._15
 8	.	.	u	u--------	_	2	AuxK	_	t_1060|t_1054|ref=Jos.sel._15
 
-# source = Origen, Jos.sel._15
+# source = Origen, Jos.sel._16
 # text = Ἔτι σήμερον ἰσχύω , ὡσεὶ ὅτε ἀπέστειλέ με Μωϋσῆς .
 # sent_id = 75
-1	Ἔτι	ἔτι	d	d--------	_	3	AuxY	_	t_1061|t_1063|ref=Jos.sel._15
-2	σήμερον	σήμερον	d	d--------	_	3	ADV	_	t_1062|t_1063|ref=Jos.sel._15
-3	ἰσχύω	ἰσχύω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1063|0|ref=Jos.sel._15
-4	,	,	u	u--------	_	5	AuxX	_	t_1064|t_1065|ref=Jos.sel._15
-5	ὡσεὶ	ὡσεί	c	c--------	_	3	AuxC	_	t_1065|t_1063|ref=Jos.sel._15
-6	ὅτε	ὅτε	c	c--------	_	5	AuxC	_	t_1066|t_1065|ref=Jos.sel._15
-7	ἀπέστειλέ	ἀποστέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	ADV	_	t_1067|t_1066|ref=Jos.sel._15
-8	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_1068|t_1067|ref=Jos.sel._15
-9	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1069|t_1067|ref=Jos.sel._15
-10	.	.	u	u--------	_	3	AuxK	_	t_1070|t_1063|ref=Jos.sel._15
+1	Ἔτι	ἔτι	d	d--------	_	3	AuxY	_	t_1061|t_1063|ref=Jos.sel._16
+2	σήμερον	σήμερον	d	d--------	_	3	ADV	_	t_1062|t_1063|ref=Jos.sel._16
+3	ἰσχύω	ἰσχύω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1063|0|ref=Jos.sel._16
+4	,	,	u	u--------	_	5	AuxX	_	t_1064|t_1065|ref=Jos.sel._16
+5	ὡσεὶ	ὡσεί	c	c--------	_	3	AuxC	_	t_1065|t_1063|ref=Jos.sel._16
+6	ὅτε	ὅτε	c	c--------	_	5	AuxC	_	t_1066|t_1065|ref=Jos.sel._16
+7	ἀπέστειλέ	ἀποστέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	ADV	_	t_1067|t_1066|ref=Jos.sel._16
+8	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_1068|t_1067|ref=Jos.sel._16
+9	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1069|t_1067|ref=Jos.sel._16
+10	.	.	u	u--------	_	3	AuxK	_	t_1070|t_1063|ref=Jos.sel._16
 
-# source = Origen, Jos.sel._15
+# source = Origen, Jos.sel._16
 # text = Ἐν ἀμφοτέροις οὖν ἰσχύει τοῖς λόγοις ὁ ἅγιος .
 # sent_id = 76
-1	Ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1071|t_1074|ref=Jos.sel._15
-2	ἀμφοτέροις	ἀμφότερος	a	a-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_1072|t_1076|ref=Jos.sel._15
-3	οὖν	οὖν	g	g--------	_	4	AuxY	_	t_1073|t_1074|ref=Jos.sel._15
-4	ἰσχύει	ἰσχύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1074|0|ref=Jos.sel._15
-5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_1075|t_1076|ref=Jos.sel._15
-6	λόγοις	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_1076|t_1071|ref=Jos.sel._15
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1077|t_1078|ref=Jos.sel._15
-8	ἅγιος	ἅγιος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1078|t_1074|ref=Jos.sel._15
-9	.	.	u	u--------	_	4	AuxK	_	t_1079|t_1074|ref=Jos.sel._15
+1	Ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1071|t_1074|ref=Jos.sel._16
+2	ἀμφοτέροις	ἀμφότερος	a	a-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_1072|t_1076|ref=Jos.sel._16
+3	οὖν	οὖν	g	g--------	_	4	AuxY	_	t_1073|t_1074|ref=Jos.sel._16
+4	ἰσχύει	ἰσχύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1074|0|ref=Jos.sel._16
+5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_1075|t_1076|ref=Jos.sel._16
+6	λόγοις	λόγος	n	n-p---md-	Case=d|Gender=m|Number=p	1	ADV	_	t_1076|t_1071|ref=Jos.sel._16
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1077|t_1078|ref=Jos.sel._16
+8	ἅγιος	ἅγιος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1078|t_1074|ref=Jos.sel._16
+9	.	.	u	u--------	_	4	AuxK	_	t_1079|t_1074|ref=Jos.sel._16
 
-# source = Origen, Jos.sel._15-16
+# source = Origen, Jos.sel._16
 # text = Ἰσχύει γὰρ ἐν παλαιοῖς καὶ ἐν καινοῖς μυστηρίοις .
 # sent_id = 77
-1	Ἰσχύει	ἰσχύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1080|0|ref=Jos.sel._15
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1081|t_1080|ref=Jos.sel._15
-3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1082|t_1084|ref=Jos.sel._15
-4	παλαιοῖς	παλαιός	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_1083|t_1087|ref=Jos.sel._15
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_1084|t_1080|ref=Jos.sel._15
-6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1085|t_1084|ref=Jos.sel._15
+1	Ἰσχύει	ἰσχύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1080|0|ref=Jos.sel._16
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1081|t_1080|ref=Jos.sel._16
+3	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1082|t_1084|ref=Jos.sel._16
+4	παλαιοῖς	παλαιός	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_1083|t_1087|ref=Jos.sel._16
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_1084|t_1080|ref=Jos.sel._16
+6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1085|t_1084|ref=Jos.sel._16
 7	καινοῖς	καινός	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_1086|t_1087|ref=Jos.sel._16
 8	μυστηρίοις	μυστήριον	n	n-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_1087|t_1085|ref=Jos.sel._16
 9	.	.	u	u--------	_	1	AuxK	_	t_1088|t_1080|ref=Jos.sel._16

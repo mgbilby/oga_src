@@ -1,10 +1,10 @@
-# source = Musaeus, Eleusinius, fr._1
+# source = Musaeus, fr._1
 # text = 1 .
 # sent_id = 1
 1	1	1	u	u--------	_	0	AuxG	_	t_1|0|ref=fr._1
 2	.	.	u	u--------	_	1	AuxK	_	t_2|t_1|ref=fr._1
 
-# source = Musaeus, Eleusinius, fr._1
+# source = Musaeus, fr._1
 # text = [ 4 Kern ( Rostock 1898 ) ] ἐν δὲ τῆι γ̄ Μουσαῖος Τιτανογραφίαι [ ? [0] ]
 # sent_id = 2
 1	[	[	u	u--------	_	17	AuxG	_	t_3|e_1|ref=fr._1
@@ -26,7 +26,7 @@
 17	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=fr._1
 18	]	]	u	u--------	_	17	AuxG	_	t_19|e_1|ref=fr._1
 
-# source = Musaeus, Eleusinius, fr._1
+# source = Musaeus, fr._1
 # text = λέγεται ὡς Κάδμος ἐκ τοῦ Δελφικοῦ ἐπορεύετο προκαθηγουμένης αὐτῶι τῆς βοός .
 # sent_id = 3
 1	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_20|0|ref=fr._1
@@ -42,13 +42,13 @@
 11	βοός	βοῦς	n	n-s---fg-	Case=g|Gender=c|Number=s	8	SBJ	_	t_30|t_27|ref=fr._1
 12	.	.	u	u--------	_	1	AuxK	_	t_31|t_20|ref=fr._1
 
-# source = Musaeus, Eleusinius, fr._1-2
+# source = Musaeus, fr._2
 # text = 2 .
 # sent_id = 4
-1	2	2	u	u--------	_	0	AuxG	_	t_32|0|ref=fr._1
+1	2	2	u	u--------	_	0	AuxG	_	t_32|0|ref=fr._2
 2	.	.	u	u--------	_	1	AuxK	_	t_33|t_32|ref=fr._2
 
-# source = Musaeus, Eleusinius, fr._2
+# source = Musaeus, fr._2
 # text = [ 5 ] ἐν τούτοις καὶ τοῖς ἐφεξῆς φησι τὴν Μήδειαν ἐπιρραίνουσαν ἀρκεύθωι φάρμακον κομίσαι τὸν δράκοντα ἐπάιδουσαν . . .
 # sent_id = 5
 1	[	[	u	u--------	_	9	AuxG	_	t_34|t_42|ref=fr._2
@@ -73,7 +73,7 @@
 20	.	.	u	u--------	_	9	AuxK	_	t_53|t_42|ref=fr._2
 21	.	.	u	u--------	_	9	AuxK	_	t_54|t_42|ref=fr._2
 
-# source = Musaeus, Eleusinius, fr._2
+# source = Musaeus, fr._2
 # text = ἡ δὲ ἄρκευθος δένδρον τι ἀκανθῶδες Ἀπόλλωνος ἴδιον ὡς ἱστορεῖται ἐν τρίτωι τῶν εἰς Μουσαῖον ἀναφερομένων [0] .
 # sent_id = 6
 1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_55|t_57|ref=fr._2
@@ -92,16 +92,16 @@
 14	εἰς	εἰς	r	r--------	_	16	AuxP	_	t_68|t_70|ref=fr._2
 15	Μουσαῖον	μουσαῖος	n	n-s---ma-	Case=a|Gender=n|Number=s	14	OBJ	_	t_69|t_68|ref=fr._2
 16	ἀναφερομένων	ἀναφέρω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	12	ATR	_	t_70|t_66|ref=fr._2
-17	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._2
 18	.	.	u	u--------	_	17	AuxK	_	t_71|e_2|ref=fr._2
 
-# source = Musaeus, Eleusinius, fr._2
+# source = Musaeus, fr._3
 # text = 3 .
 # sent_id = 7
-1	3	3	x	x--------	_	0	AuxG	_	t_72|0|ref=fr._2
-2	.	.	u	u--------	_	1	AuxK	_	t_73|t_72|ref=fr._2
+1	3	3	x	x--------	_	0	AuxG	_	t_72|0|ref=fr._3
+2	.	.	u	u--------	_	1	AuxK	_	t_73|t_72|ref=fr._3
 
-# source = Musaeus, Eleusinius, fr._3
+# source = Musaeus, fr._3
 # text = [ 21 ] ὁ δʼ ἀετὸς ὠιὰ μὲν τίκτει τρία , ἐκλέπει δὲ τούτων τὰ δύο ὥσπερ ἔστι καὶ ἐν τοῖς Μουσαίου λεγομένοις ἔπεσιν ·
 # sent_id = 8
 1	[	[	u	u--------	_	2	AuxG	_	t_74|t_75|ref=fr._3
@@ -130,7 +130,7 @@
 24	ἔπεσιν	ἔπος	n	n-p---nd-	Case=d|Gender=n|Number=p	20	ADV	_	t_97|t_93|ref=fr._3
 25	·	·	u	u--------	_	1	AuxK	_	t_98|t_74|ref=fr._3
 
-# source = Musaeus, Eleusinius, fr._3
+# source = Musaeus, fr._3
 # text = ὃς τρία μὲν τίκτει , δύο 〈 δ ’ 〉 ἐκλέπει , ἓν δʼ ἀλεγίζει .
 # sent_id = 9
 1	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_99|t_112|ref=fr._3
@@ -150,18 +150,18 @@
 15	ἀλεγίζει	ἀλεγίζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_113|t_112|ref=fr._3
 16	.	.	u	u--------	_	14	AuxK	_	t_114|t_112|ref=fr._3
 
-# source = Musaeus, Eleusinius, fr._3
+# source = Musaeus, fr._4
 # text = 4 [0] .
 # sent_id = 10
-1	4	4	u	u--------	_	2	AuxK	_	t_115|e_3|ref=fr._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_116|e_3|ref=fr._3
+1	4	4	u	u--------	_	2	AuxK	_	t_115|e_3|ref=fr._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._4
+3	.	.	u	u--------	_	2	AuxK	_	t_116|e_3|ref=fr._4
 
-# source = Musaeus, Eleusinius, fr._4
+# source = Musaeus, fr._4
 # text = [ 24 ] γράψαντός τε Μουσαίου ὡς αἰεὶ τέχνη μέγʼ ἀμείνων ἰσχύος ἐστίν Ὅμηρος λέγει ·
 # sent_id = 11
 1	[	[	u	u--------	_	0	AuxG	_	t_117|0|ref=fr._4
-2	24	24	x	x--------	_	1	ExD	_	t_118|t_117|ref=fr._3
+2	24	24	x	x--------	_	1	ExD	_	t_118|t_117|ref=fr._4
 3	]	]	u	u--------	_	1	AuxG	_	t_119|t_117|ref=fr._4
 4	γράψαντός	γράφω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	15	ADV	_	t_120|t_131|ref=fr._4
 5	τε	τε	d	d--------	_	1	COORD	_	t_121|t_117|ref=fr._4
@@ -177,7 +177,7 @@
 15	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_131|t_121|ref=fr._4
 16	·	·	u	u--------	_	1	AuxK	_	t_132|t_117|ref=fr._4
 
-# source = Musaeus, Eleusinius, fr._4
+# source = Musaeus, fr._4
 # text = μή τί τοι κτλ . [0] ·
 # sent_id = 12
 1	μή	μή	c	c--------	_	6	AuxZ	_	t_133|e_4|ref=fr._4
@@ -185,31 +185,31 @@
 3	τοι	σύ	d	d--------	_	6	AuxY	_	t_135|e_4|ref=fr._4
 4	κτλ	κτλ	v	v2spma---	_	6	ExD	_	t_136|e_4|ref=fr._4
 5	.	.	u	u--------	_	6	AuxK	_	t_137|e_4|ref=fr._4
-6	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._4
 7	·	·	u	u--------	_	6	AuxK	_	t_138|e_4|ref=fr._4
 
-# source = Musaeus, Eleusinius, fr._4
+# source = Musaeus, fr._4
 # text = πάλιν τοῦ Μουσαίου ποιήσαντος [0] ·
 # sent_id = 13
 1	πάλιν	πάλιν	d	d--------	_	4	ADV	_	t_139|t_142|ref=fr._4
 2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_140|t_141|ref=fr._4
 3	Μουσαίου	μουσαῖος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	SBJ	_	t_141|t_142|ref=fr._4
 4	ποιήσαντος	ποιέω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_142|e_5|ref=fr._4
-5	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=fr._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=fr._4
 6	·	·	u	u--------	_	5	AuxK	_	t_143|e_5|ref=fr._4
 
-# source = Musaeus, Eleusinius, fr._4
+# source = Musaeus, fr._5
 # text = 5 .
 # sent_id = 14
-1	5	5	u	u--------	_	0	AuxG	_	t_144|0|ref=fr._4
-2	.	.	u	u--------	_	1	AuxK	_	t_145|t_144|ref=fr._4
+1	5	5	u	u--------	_	0	AuxG	_	t_144|0|ref=fr._5
+2	.	.	u	u--------	_	1	AuxK	_	t_145|t_144|ref=fr._5
 
-# source = Musaeus, Eleusinius, fr._4-5
+# source = Musaeus, fr._5
 # text = [ 25 ] ὡς δʼ αὔτως καὶ φύλλα φύει ζείδωρος ἄρουρα ·
 # sent_id = 15
-1	[	[	u	u--------	_	5	AuxG	_	t_146|t_150|ref=fr._4
-2	25	25	x	x--------	_	1	ExD	_	t_147|t_146|ref=fr._4
-3	]	]	u	u--------	_	2	AuxG	_	t_148|t_147|ref=fr._4
+1	[	[	u	u--------	_	5	AuxG	_	t_146|t_150|ref=fr._5
+2	25	25	x	x--------	_	1	ExD	_	t_147|t_146|ref=fr._5
+3	]	]	u	u--------	_	2	AuxG	_	t_148|t_147|ref=fr._5
 4	ὡς	ὡς	d	d--------	_	9	ADV	_	t_149|t_154|ref=fr._5
 5	δʼ	δέ	g	g--------	_	0	COORD	_	t_150|0|ref=fr._5
 6	αὔτως	αὔτως	d	d--------	_	9	ADV	_	t_151|t_154|ref=fr._5
@@ -220,7 +220,7 @@
 11	ἄρουρα	ἄρουρα	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_156|t_154|ref=fr._5
 12	·	·	u	u--------	_	5	AuxK	_	t_157|t_150|ref=fr._5
 
-# source = Musaeus, Eleusinius, fr._5
+# source = Musaeus, fr._5
 # text = ἄλλα μὲν ἐν μελίηισιν ἀποφθίνει , ἄλλα δὲ φύει ·
 # sent_id = 16
 1	ἄλλα	ἄλλος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_158|t_162|ref=fr._5
@@ -234,7 +234,7 @@
 9	φύει	φύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_166|t_165|ref=fr._5
 10	·	·	u	u--------	_	8	AuxK	_	t_167|t_165|ref=fr._5
 
-# source = Musaeus, Eleusinius, fr._5
+# source = Musaeus, fr._5
 # text = ὣς δὲ καὶ ἀνθρώπων γενεὴ καὶ φῦλον ἑλίσσει , Ὅμηρος μεταγράφει ·
 # sent_id = 17
 1	ὣς	ὡς	c	c--------	_	8	ADV	_	t_168|t_175|ref=fr._5
@@ -250,7 +250,7 @@
 11	μεταγράφει	μεταγράφω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_178|t_169|ref=fr._5
 12	·	·	u	u--------	_	2	AuxK	_	t_179|t_169|ref=fr._5
 
-# source = Musaeus, Eleusinius, fr._5
+# source = Musaeus, fr._5
 # text = φύλλα τὰ μὲν κτλ . [0] .
 # sent_id = 18
 1	φύλλα	φύλλον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_180|e_6|ref=fr._5
@@ -258,32 +258,32 @@
 3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_182|e_6|ref=fr._5
 4	κτλ	κτλ	n	n--------	_	6	PNOM	_	t_183|e_6|ref=fr._5
 5	.	.	u	u--------	_	6	AuxK	_	t_184|e_6|ref=fr._5
-6	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._5
 7	.	.	u	u--------	_	6	AuxK	_	t_185|e_6|ref=fr._5
 
-# source = Musaeus, Eleusinius, fr._5
+# source = Musaeus, fr._6
 # text = 6 .
 # sent_id = 19
-1	6	6	u	u--------	_	0	AuxG	_	t_186|0|ref=fr._5
-2	.	.	u	u--------	_	1	AuxK	_	t_187|t_186|ref=fr._5
+1	6	6	u	u--------	_	0	AuxG	_	t_186|0|ref=fr._6
+2	.	.	u	u--------	_	1	AuxK	_	t_187|t_186|ref=fr._6
 
-# source = Musaeus, Eleusinius, fr._5
+# source = Musaeus, fr._6
 # text = [ p [0] .
 # sent_id = 20
-1	[	[	u	u--------	_	3	AuxG	_	t_188|e_7|ref=fr._5
-2	p	p	n	n--------	_	3	OBJ	_	t_189|e_7|ref=fr._5
-3	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._1
-4	.	.	u	u--------	_	3	AuxK	_	t_190|e_7|ref=fr._5
+1	[	[	u	u--------	_	3	AuxG	_	t_188|e_7|ref=fr._6
+2	p	p	n	n--------	_	3	OBJ	_	t_189|e_7|ref=fr._6
+3	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._6
+4	.	.	u	u--------	_	3	AuxK	_	t_190|e_7|ref=fr._6
 
-# source = Musaeus, Eleusinius, fr._5-6
+# source = Musaeus, fr._6
 # text = 14 ] αὐτοτελῶς γὰρ τὰ ἑτέρων ὑφελόμενοι ὡς ἴδια ἐξήνεγκαν καθάπερ Εὐγάμων ὁ Κυρηναῖος ἐκ Μουσαίου τὸ περὶ Θεσπρωτῶν βιβλίον ὁλόκληρον [0] .
 # sent_id = 21
-1	14	14	u	u--------	_	10	AuxX	_	t_191|t_200|ref=fr._5
+1	14	14	u	u--------	_	10	AuxX	_	t_191|t_200|ref=fr._6
 2	]	]	u	u--------	_	10	AuxX	_	t_192|t_200|ref=fr._6
 3	αὐτοτελῶς	αὐτοτελής	d	d--------	_	10	ADV	_	t_193|t_200|ref=fr._6
 4	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_194|t_200|ref=fr._6
 5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_195|t_197|ref=fr._6
-6	ἑτέρων	ἕτερος	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_196|t_195|ref=fr._5
+6	ἑτέρων	ἕτερος	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_196|t_195|ref=fr._6
 7	ὑφελόμενοι	ὑφαιρέω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	10	ADV	_	t_197|t_200|ref=fr._6
 8	ὡς	ὡς	d	d--------	_	9	AuxZ	_	t_198|t_199|ref=fr._6
 9	ἴδια	ἴδιος	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_199|t_197|ref=fr._6
@@ -299,31 +299,31 @@
 19	Θεσπρωτῶν	θεσπρωτοί	n	n-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_209|t_208|ref=fr._6
 20	βιβλίον	βιβλίον	n	n-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_210|t_200|ref=fr._6
 21	ὁλόκληρον	ὁλόκληρος	a	a-s---na-	Case=a|Gender=n|Number=s	20	ATR	_	t_211|t_210|ref=fr._6
-22	[0]	[0]	-	---------	_	11	ADV	_	e_8|t_201|ref=fr._1
+22	[0]	[0]	-	---------	_	11	ADV	_	e_8|t_201|ref=fr._6
 23	.	.	u	u--------	_	10	AuxK	_	t_212|t_200|ref=fr._6
 
-# source = Musaeus, Eleusinius, fr._6
+# source = Musaeus, fr._7
 # text = 7 [0] .
 # sent_id = 22
-1	7	7	u	u--------	_	2	AuxG	_	t_213|e_9|ref=fr._6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_214|e_9|ref=fr._6
+1	7	7	u	u--------	_	2	AuxG	_	t_213|e_9|ref=fr._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._7
+3	.	.	u	u--------	_	2	AuxK	_	t_214|e_9|ref=fr._7
 
-# source = Musaeus, Eleusinius, fr._6-7
+# source = Musaeus, fr._7
 # text = [ 23 ] Ἡσίοδός τε ἐπὶ τοῦ Μελάμποδος ποιεῖ ·
 # sent_id = 23
-1	[	[	u	u--------	_	9	AuxG	_	t_215|t_223|ref=fr._6
-2	23	23	d	d--------	_	9	AuxY	_	t_216|t_223|ref=fr._6
-3	]	]	u	u--------	_	9	AuxG	_	t_217|t_223|ref=fr._6
-4	Ἡσίοδός	ὅμηρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_218|t_223|ref=fr._6
-5	τε	τε	d	d--------	_	9	AuxY	_	t_219|t_223|ref=fr._6
-6	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_220|t_223|ref=fr._6
+1	[	[	u	u--------	_	9	AuxG	_	t_215|t_223|ref=fr._7
+2	23	23	d	d--------	_	9	AuxY	_	t_216|t_223|ref=fr._7
+3	]	]	u	u--------	_	9	AuxG	_	t_217|t_223|ref=fr._7
+4	Ἡσίοδός	ὅμηρος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_218|t_223|ref=fr._7
+5	τε	τε	d	d--------	_	9	AuxY	_	t_219|t_223|ref=fr._7
+6	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_220|t_223|ref=fr._7
 7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_221|t_222|ref=fr._7
-8	Μελάμποδος	μελάμπους	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_222|t_220|ref=fr._6
+8	Μελάμποδος	μελάμπους	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_222|t_220|ref=fr._7
 9	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_223|0|ref=fr._7
 10	·	·	u	u--------	_	9	AuxK	_	t_224|t_223|ref=fr._7
 
-# source = Musaeus, Eleusinius, fr._7
+# source = Musaeus, fr._7
 # text = ἡδὺ δὲ καὶ τὸ πυθέσθαι , ὅσα θνητοῖσιν ἔδειμαν ἀθάνατοι δειλῶν τε καὶ ἐσθλῶν τέκμαρ ἐναργές , καὶ τὰ ἑξῆς παρὰ Μουσαίου λαβὼν τοῦ ποιητοῦ κατὰ λέξιν [0] .
 # sent_id = 24
 1	ἡδὺ	ἡδύς	a	a-s---nn-	Case=n|Gender=n|Number=s	28	PNOM	_	t_225|e_10|ref=fr._7
@@ -353,34 +353,34 @@
 25	ποιητοῦ	ποιητής	n	n-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_249|t_246|ref=fr._7
 26	κατὰ	κατά	r	r--------	_	23	AuxP	_	t_250|t_247|ref=fr._7
 27	λέξιν	λέξις	n	n-s---fa-	Case=a|Gender=f|Number=s	26	ADV	_	t_251|t_250|ref=fr._7
-28	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._1
+28	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._7
 29	.	.	u	u--------	_	28	AuxK	_	t_252|e_10|ref=fr._7
 
-# source = Musaeus, Eleusinius, fr._7
+# source = Musaeus, fr._8
 # text = 8 [0] .
 # sent_id = 25
-1	8	8	x	x--------	_	2	AuxK	_	t_253|e_11|ref=fr._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_254|e_11|ref=fr._7
+1	8	8	x	x--------	_	2	AuxK	_	t_253|e_11|ref=fr._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=fr._8
+3	.	.	u	u--------	_	2	AuxK	_	t_254|e_11|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._7-8
+# source = Musaeus, fr._8
 # text = [ 3 ] ἐσχημάτισται δʼ ἐν τούτωι ἡ Αἲξ καὶ οἱ Ἔριφοι .
 # sent_id = 26
-1	[	[	u	u--------	_	4	AuxG	_	t_255|t_258|ref=fr._7
-2	3	3	x	x--------	_	4	AuxY	_	t_256|t_258|ref=fr._7
-3	]	]	u	u--------	_	4	AuxX	_	t_257|t_258|ref=fr._7
-4	ἐσχημάτισται	σχηματίζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_258|0|ref=fr._7
-5	δʼ	δέ	d	d--------	_	4	AuxY	_	t_259|t_258|ref=fr._7
-6	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_260|t_258|ref=fr._7
-7	τούτωι	οὗτος	p	p-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_261|t_260|ref=fr._7
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_262|t_263|ref=fr._7
+1	[	[	u	u--------	_	4	AuxG	_	t_255|t_258|ref=fr._8
+2	3	3	x	x--------	_	4	AuxY	_	t_256|t_258|ref=fr._8
+3	]	]	u	u--------	_	4	AuxX	_	t_257|t_258|ref=fr._8
+4	ἐσχημάτισται	σχηματίζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_258|0|ref=fr._8
+5	δʼ	δέ	d	d--------	_	4	AuxY	_	t_259|t_258|ref=fr._8
+6	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_260|t_258|ref=fr._8
+7	τούτωι	οὗτος	p	p-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_261|t_260|ref=fr._8
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_262|t_263|ref=fr._8
 9	Αἲξ	αἴξ	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_263|t_264|ref=fr._8
-10	καὶ	καί	c	c--------	_	4	COORD	_	t_264|t_258|ref=fr._7
+10	καὶ	καί	c	c--------	_	4	COORD	_	t_264|t_258|ref=fr._8
 11	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_265|t_266|ref=fr._8
 12	Ἔριφοι	ἔριφος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_266|t_264|ref=fr._8
 13	.	.	u	u--------	_	4	AuxK	_	t_267|t_258|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._8
 # text = Μουσαῖος γάρ φησι Δία γεννώμενον ἐγχειρισθῆναι ὑπὸ Ῥέας Θέμιδι , Θέμιν δὲ Ἀμαλθείαι δοῦναι τὸ βρέφος , τὴν δὲ ἔχουσαν αἶγα ὑποθεῖναι , τὴν δʼ ἐκθρέψαι Δία ·
 # sent_id = 27
 1	Μουσαῖος	μουσαῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_268|t_270|ref=fr._8
@@ -412,7 +412,7 @@
 27	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	26	OBJ	_	t_294|t_293|ref=fr._8
 28	·	·	u	u--------	_	3	AuxK	_	t_295|t_270|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._8
 # text = τὴν δὲ Αἶγα εἶναι Ἡλίου θυγατέρα φοβερὰν οὕτως , ὥστε τοὺς κατὰ Κρόνον θεούς , βδελυττομένους τὴν μορφὴν τῆς παιδός , ἀξιῶσαι Γῆν κρύψαι αὐτὴν ἔν τινι τῶν κατὰ Κρήτην ἄντρων ·
 # sent_id = 28
 1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_296|t_298|ref=fr._8
@@ -448,7 +448,7 @@
 31	ἄντρων	ἄντρον	n	n-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_326|t_322|ref=fr._8
 32	·	·	u	u--------	_	4	AuxK	_	t_327|t_299|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._8
 # text = καὶ ἀποκρυψαμένην ἐπιμέλειαν αὐτῆς τῆι Ἀμαλθείαι ἐγχειρίσαι , τὴν δὲ τῶι ἐκείνης γάλακτι τὸν Δία ἐκθρέψαι ·
 # sent_id = 29
 1	καὶ	καί	d	d--------	_	7	AuxY	_	t_328|t_334|ref=fr._8
@@ -469,7 +469,7 @@
 16	ἐκθρέψαι	ἐκτρέφω	v	v--ana---	Mood=n|Tense=a|Voice=a	10	PRED	_	t_343|t_337|ref=fr._8
 17	·	·	u	u--------	_	8	AuxK	_	t_344|t_335|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._8
 # text = ἐλθόντος δὲ τοῦ παιδὸς εἰς ἡλικίαν καὶ μέλλοντος Τιτᾶσι πολεμεῖν , οὐκ ἔχοντος δὲ ὅπλα , θεσπισθῆναι αὐτῶι τῆς αἰγὸς τῆι δορᾶι ὅπλωι χρήσασθαι διά τε τὸ ἄτρωτον αὐτῆς καὶ φοβερὸν καὶ διὰ τὸ εἰς μέσην τὴν ῥάχιν Γοργόνος πρόσωπον ἔχειν ·
 # sent_id = 30
 1	ἐλθόντος	ἔρχομαι	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_345|t_358|ref=fr._8
@@ -515,7 +515,7 @@
 41	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	33	ADV	_	t_385|t_377|ref=fr._8
 42	·	·	u	u--------	_	17	AuxK	_	t_386|t_361|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._8
 # text = ποιήσαντος δὲ ταῦτα τοῦ Διὸς καὶ τῆι τέχνηι φανέντος διπλασίονος , τὰ ὀστᾶ δὲ τῆς αἰγὸς καλύψαντος ἄλληι δορᾶι καὶ ἔμψυχον αὐτὴν καὶ ἀθάνατον κατασκευάσαντος , αὐτὴν μέν φασιν ἄστρον οὐράνιον [ κατασκευάσαι ] 〈 γενέσθαι , τὸν δὲ Δία αἰγίοχον κληθῆναι 〉 .
 # sent_id = 31
 1	ποιήσαντος	ποιέω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	6	ADV	_	t_387|t_392|ref=fr._8
@@ -563,7 +563,7 @@
 43	〉	〉	u	u--------	_	29	AuxG	_	t_429|t_415|ref=fr._8
 44	.	.	u	u--------	_	29	AuxK	_	t_430|t_415|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._8
 # text = huius capellae corio usum esse pro scuto Iovem contra Titanas dimicantem M. auctor est , unde a poetis αἰγίοχος nominatur .
 # sent_id = 32
 1	huius	huius	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_431|t_432|ref=fr._8
@@ -588,31 +588,31 @@
 20	nominatur	ὀνομάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_450|t_444|ref=fr._8
 21	.	.	u	u--------	_	14	AuxK	_	t_451|t_444|ref=fr._8
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._9
 # text = 9 [0] .
 # sent_id = 33
-1	9	9	x	x--------	_	2	AuxK	_	t_452|e_12|ref=fr._8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_453|e_12|ref=fr._8
+1	9	9	x	x--------	_	2	AuxK	_	t_452|e_12|ref=fr._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._9
+3	.	.	u	u--------	_	2	AuxK	_	t_453|e_12|ref=fr._9
 
-# source = Musaeus, Eleusinius, fr._8
+# source = Musaeus, fr._9
 # text = [ 10 ] Μελίτη δῆμός ἐστι τῆς Κεκροπίδος .
 # sent_id = 34
-1	[	[	u	u--------	_	2	AuxG	_	t_454|t_455|ref=fr._8
-2	10	10	x	x--------	_	6	AuxG	_	t_455|t_459|ref=fr._8
-3	]	]	u	u--------	_	2	AuxG	_	t_456|t_455|ref=fr._8
-4	Μελίτη	μελίτη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_457|t_459|ref=fr._8
-5	δῆμός	δῆμος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_458|t_459|ref=fr._8
-6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_459|0|ref=fr._8
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_460|t_461|ref=fr._8
-8	Κεκροπίδος	κεκροπίς	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_461|t_458|ref=fr._8
-9	.	.	u	u--------	_	2	AuxK	_	t_462|t_455|ref=fr._8
+1	[	[	u	u--------	_	2	AuxG	_	t_454|t_455|ref=fr._9
+2	10	10	x	x--------	_	6	AuxG	_	t_455|t_459|ref=fr._9
+3	]	]	u	u--------	_	2	AuxG	_	t_456|t_455|ref=fr._9
+4	Μελίτη	μελίτη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_457|t_459|ref=fr._9
+5	δῆμός	δῆμος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_458|t_459|ref=fr._9
+6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_459|0|ref=fr._9
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_460|t_461|ref=fr._9
+8	Κεκροπίδος	κεκροπίς	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_461|t_458|ref=fr._9
+9	.	.	u	u--------	_	2	AuxK	_	t_462|t_455|ref=fr._9
 
-# source = Musaeus, Eleusinius, fr._9
+# source = Musaeus, fr._9
 # text = κεκλῆσθαι δέ φησι τὸν δῆμον Φιλόχορος ἐν γ̄ ἀπὸ Μελίτης θυγατρὸς κατὰ μὲν Ἡσίοδον Μύρμηκος , κατὰ δὲ Μουσαῖον Δίου τοῦ Ἀπόλλωνος [0] .
 # sent_id = 35
 1	κεκλῆσθαι	καλέω	v	v--rne---	Mood=n|Tense=r|Voice=e	18	OBJ	_	t_463|t_480|ref=fr._9
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_464|t_465|ref=fr._8
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_464|t_465|ref=fr._9
 3	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_465|0|ref=fr._9
 4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_466|t_467|ref=fr._9
 5	δῆμον	δῆμος	n	n-s---ma-	Case=a|Gender=m|Number=s	1	SBJ	_	t_467|t_463|ref=fr._9
@@ -633,32 +633,32 @@
 20	Δίου	δῖος	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_482|t_481|ref=fr._9
 21	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_483|t_482|ref=fr._9
 22	Ἀπόλλωνος	ἀπόλλων	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_484|t_482|ref=fr._9
-23	[0]	[0]	-	---------	_	18	OBJ	_	e_13|t_480|ref=fr._1
+23	[0]	[0]	-	---------	_	18	OBJ	_	e_13|t_480|ref=fr._9
 24	.	.	u	u--------	_	3	AuxK	_	t_485|t_465|ref=fr._9
 
-# source = Musaeus, Eleusinius, fr._9
+# source = Musaeus, fr._10
 # text = 10 [0] .
 # sent_id = 36
-1	10	10	u	u--------	_	2	AuxG	_	t_486|e_14|ref=fr._9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_487|e_14|ref=fr._9
+1	10	10	u	u--------	_	2	AuxG	_	t_486|e_14|ref=fr._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._10
+3	.	.	u	u--------	_	2	AuxK	_	t_487|e_14|ref=fr._10
 
-# source = Musaeus, Eleusinius, fr._9-10
+# source = Musaeus, fr._10
 # text = [ 14 ] ἔπη δὲ ἄιδεται Μουσαίου μέν , εἰ δὴ Μουσαίου καὶ ταῦτα , Τριπτόλεμον παῖδα Ὠκεανοῦ καὶ Γῆς εἶναι [0] .
 # sent_id = 37
-1	[	[	u	u--------	_	0	AuxG	_	t_488|0|ref=fr._9
-2	14	14	d	d--------	_	1	ExD	_	t_489|t_488|ref=fr._9
-3	]	]	u	u--------	_	1	AuxG	_	t_490|t_488|ref=fr._9
-4	ἔπη	ἔπος	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_491|t_493|ref=fr._9
-5	δὲ	δέ	c	c--------	_	1	COORD	_	t_492|t_488|ref=fr._9
-6	ἄιδεται	ἀείδω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	PRED	_	t_493|t_492|ref=fr._9
-7	Μουσαίου	μουσαῖος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_494|t_491|ref=fr._9
-8	μέν	μέν	d	d--------	_	6	AuxY	_	t_495|t_493|ref=fr._9
-9	,	,	u	u--------	_	1	AuxX	_	t_496|t_488|ref=fr._9
-10	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_497|t_493|ref=fr._9
-11	δὴ	δή	d	d--------	_	22	AuxY	_	t_498|e_15|ref=fr._9
+1	[	[	u	u--------	_	0	AuxG	_	t_488|0|ref=fr._10
+2	14	14	d	d--------	_	1	ExD	_	t_489|t_488|ref=fr._10
+3	]	]	u	u--------	_	1	AuxG	_	t_490|t_488|ref=fr._10
+4	ἔπη	ἔπος	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_491|t_493|ref=fr._10
+5	δὲ	δέ	c	c--------	_	1	COORD	_	t_492|t_488|ref=fr._10
+6	ἄιδεται	ἀείδω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	PRED	_	t_493|t_492|ref=fr._10
+7	Μουσαίου	μουσαῖος	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_494|t_491|ref=fr._10
+8	μέν	μέν	d	d--------	_	6	AuxY	_	t_495|t_493|ref=fr._10
+9	,	,	u	u--------	_	1	AuxX	_	t_496|t_488|ref=fr._10
+10	εἰ	εἰ	c	c--------	_	6	AuxC	_	t_497|t_493|ref=fr._10
+11	δὴ	δή	d	d--------	_	22	AuxY	_	t_498|e_15|ref=fr._10
 12	Μουσαίου	μουσαῖος	n	n-s---mg-	Case=g|Gender=m|Number=s	22	PNOM	_	t_499|e_15|ref=fr._10
-13	καὶ	καί	d	d--------	_	14	AuxZ	_	t_500|t_501|ref=fr._9
+13	καὶ	καί	d	d--------	_	14	AuxZ	_	t_500|t_501|ref=fr._10
 14	ταῦτα	οὗτος	p	p-p---nn-	Case=n|Gender=n|Number=p	22	SBJ	_	t_501|e_15|ref=fr._10
 15	,	,	u	u--------	_	6	APOS	_	t_502|t_493|ref=fr._10
 16	Τριπτόλεμον	τριπτόλεμος	n	n-s---ma-	Case=a|Gender=m|Number=s	21	SBJ	_	t_503|t_508|ref=fr._10
@@ -667,31 +667,31 @@
 19	καὶ	καί	c	c--------	_	17	COORD	_	t_506|t_504|ref=fr._10
 20	Γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_507|t_506|ref=fr._10
 21	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	15	SBJ	_	t_508|t_502|ref=fr._10
-22	[0]	[0]	-	---------	_	10	ADV	_	e_15|t_497|ref=fr._1
+22	[0]	[0]	-	---------	_	10	ADV	_	e_15|t_497|ref=fr._10
 23	.	.	u	u--------	_	1	AuxK	_	t_509|t_488|ref=fr._10
 
-# source = Musaeus, Eleusinius, fr._10
+# source = Musaeus, fr._11
 # text = 11 .
 # sent_id = 38
-1	11	11	x	x--------	_	0	AuxG	_	t_510|0|ref=fr._10
-2	.	.	u	u--------	_	1	AuxK	_	t_511|t_510|ref=fr._10
+1	11	11	x	x--------	_	0	AuxG	_	t_510|0|ref=fr._11
+2	.	.	u	u--------	_	1	AuxK	_	t_511|t_510|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._10-11
+# source = Musaeus, fr._11
 # text = [ 13 ] ἔστι δὲ ἐν Ἕλλησι ποίησις , ὄνομα μὲν τοῖς ἔπεσίν ἐστιν Εὐμολπία , Μουσαίωι δὲ τῶι Ἀντιοφήμου προσποιοῦσι τὰ ἔπη .
 # sent_id = 39
-1	[	[	u	u--------	_	2	AuxG	_	t_512|t_513|ref=fr._10
-2	13	13	x	x--------	_	0	AuxG	_	t_513|0|ref=fr._10
-3	]	]	u	u--------	_	2	AuxG	_	t_514|t_513|ref=fr._10
-4	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_515|t_520|ref=fr._10
-5	δὲ	δέ	d	d--------	_	4	AuxY	_	t_516|t_515|ref=fr._10
-6	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_517|t_515|ref=fr._10
-7	Ἕλλησι	ἕλλην	n	n-p---md-	Case=d|Gender=m|Number=p	6	PNOM	_	t_518|t_517|ref=fr._10
-8	ποίησις	ποίησις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_519|t_515|ref=fr._10
-9	,	,	u	u--------	_	2	COORD	_	t_520|t_513|ref=fr._10
-10	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_521|t_525|ref=fr._10
-11	μὲν	μέν	d	d--------	_	18	AuxY	_	t_522|t_529|ref=fr._10
-12	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_523|t_524|ref=fr._10
-13	ἔπεσίν	ἔπος	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_524|t_525|ref=fr._10
+1	[	[	u	u--------	_	2	AuxG	_	t_512|t_513|ref=fr._11
+2	13	13	x	x--------	_	0	AuxG	_	t_513|0|ref=fr._11
+3	]	]	u	u--------	_	2	AuxG	_	t_514|t_513|ref=fr._11
+4	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	PRED	_	t_515|t_520|ref=fr._11
+5	δὲ	δέ	d	d--------	_	4	AuxY	_	t_516|t_515|ref=fr._11
+6	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_517|t_515|ref=fr._11
+7	Ἕλλησι	ἕλλην	n	n-p---md-	Case=d|Gender=m|Number=p	6	PNOM	_	t_518|t_517|ref=fr._11
+8	ποίησις	ποίησις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_519|t_515|ref=fr._11
+9	,	,	u	u--------	_	2	COORD	_	t_520|t_513|ref=fr._11
+10	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_521|t_525|ref=fr._11
+11	μὲν	μέν	d	d--------	_	18	AuxY	_	t_522|t_529|ref=fr._11
+12	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	13	ATR	_	t_523|t_524|ref=fr._11
+13	ἔπεσίν	ἔπος	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_524|t_525|ref=fr._11
 14	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	PRED	_	t_525|t_529|ref=fr._11
 15	Εὐμολπία	εὐμολπίδαι	n	n-s---fn-	Case=n|Gender=f|Number=s	14	PNOM	_	t_526|t_525|ref=fr._11
 16	,	,	u	u--------	_	2	AuxX	_	t_527|t_513|ref=fr._11
@@ -704,7 +704,7 @@
 23	ἔπη	ἔπος	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_534|t_532|ref=fr._11
 24	.	.	u	u--------	_	2	AuxK	_	t_535|t_513|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._11
+# source = Musaeus, fr._11
 # text = πεποιημένον οὖν ἐστιν ἐν τούτοις Ποσειδῶνος ἐν κοινῶι καὶ Γῆς εἶναι τὸ μαντεῖον [ zu Delphi ] καὶ τὴν μὲν χρᾶν αὐτήν ·
 # sent_id = 40
 1	πεποιημένον	ποιέω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	3	PNOM	_	t_536|t_538|ref=fr._11
@@ -731,7 +731,7 @@
 22	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	21	SBJ	_	t_557|t_556|ref=fr._11
 23	·	·	u	u--------	_	3	AuxK	_	t_558|t_538|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._11
+# source = Musaeus, fr._11
 # text = Ποσειδῶνι δὲ ὑπηρέτην ἐς τὰ μαντεύματα εἶναι Πύρκωνα [0] .
 # sent_id = 41
 1	Ποσειδῶνι	ποσειδῶν	n	n-s---md-	Case=d|Gender=m|Number=s	7	PNOM	_	t_559|t_565|ref=fr._11
@@ -742,10 +742,10 @@
 6	μαντεύματα	μάντευμα	n	n-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_564|t_562|ref=fr._11
 7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_565|e_16|ref=fr._11
 8	Πύρκωνα	πύρκων	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_566|t_565|ref=fr._11
-9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._11
 10	.	.	u	u--------	_	9	AuxK	_	t_567|e_16|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._11
+# source = Musaeus, fr._11
 # text = καὶ οὕτως ἔχει τὰ ἔπη ·
 # sent_id = 42
 1	καὶ	καί	d	d--------	_	3	AuxY	_	t_568|t_570|ref=fr._11
@@ -755,7 +755,7 @@
 5	ἔπη	ἔπος	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_572|t_570|ref=fr._11
 6	·	·	u	u--------	_	3	AuxK	_	t_573|t_570|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._11
+# source = Musaeus, fr._11
 # text = αὐτίκα δὲ Χθονίης φωνὴ πινυτὸν φάτο μῦθον ·
 # sent_id = 43
 1	αὐτίκα	αὐτίκα	d	d--------	_	6	ADV	_	t_574|t_579|ref=fr._11
@@ -767,7 +767,7 @@
 7	μῦθον	μῦθος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_580|t_579|ref=fr._11
 8	·	·	u	u--------	_	2	AuxK	_	t_581|t_575|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._11
+# source = Musaeus, fr._11
 # text = σὺν δέ τε Πύρκων ἀμφίπολος κλυτοῦ Ἐννοσιγαίου [0] .
 # sent_id = 44
 1	σὺν	σύν	r	r--------	_	8	AuxZ	_	t_582|e_17|ref=fr._11
@@ -777,33 +777,33 @@
 5	ἀμφίπολος	ἀμφίπολος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_586|e_17|ref=fr._11
 6	κλυτοῦ	κλυτός	a	a-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_587|t_588|ref=fr._11
 7	Ἐννοσιγαίου	ἐννοσίγαιος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_588|t_586|ref=fr._11
-8	[0]	[0]	-	---------	_	2	PRED	_	e_17|t_583|ref=fr._1
+8	[0]	[0]	-	---------	_	2	PRED	_	e_17|t_583|ref=fr._11
 9	.	.	u	u--------	_	2	AuxK	_	t_589|t_583|ref=fr._11
 
-# source = Musaeus, Eleusinius, fr._11
+# source = Musaeus, fr._12
 # text = 12 .
 # sent_id = 45
-1	12	12	x	x--------	_	0	AuxG	_	t_590|0|ref=fr._11
-2	.	.	u	u--------	_	1	AuxK	_	t_591|t_590|ref=fr._11
+1	12	12	x	x--------	_	0	AuxG	_	t_590|0|ref=fr._12
+2	.	.	u	u--------	_	1	AuxK	_	t_591|t_590|ref=fr._12
 
-# source = Musaeus, Eleusinius, fr._11-12
+# source = Musaeus, fr._12
 # text = [ 15 ] ἀλ 〉 λ ’ ὁ Ζε 〈 ύς , ὥς φασι 〉 ν , τὴν κεφαλὴν ὑπὸ Ἡφαίστου διαιρεῖται , κατὰ δὲ τὸν 〈 τὴν 〉 Εὐμολπ 〈 ίαν συν 〉 θέντα [ τα ] πο 〈 ιητὴ 〉 ν ὑπὸ Παλαμάονος [0] .
 # sent_id = 46
-1	[	[	u	u--------	_	0	AuxG	_	t_592|0|ref=fr._11
-2	15	15	d	d--------	_	25	AuxY	_	t_593|t_616|ref=fr._11
-3	]	]	u	u--------	_	1	AuxX	_	t_594|t_592|ref=fr._11
-4	ἀλ	ἀλ	d	d--------	_	2	AuxY	_	t_595|t_593|ref=fr._11
-5	〉	〉	x	x--------	_	2	AuxX	_	t_596|t_593|ref=fr._11
-6	λ	λ	x	x--------	_	25	ADV	_	t_597|t_616|ref=fr._11
-7	’	’	d	d--------	_	25	AuxY	_	t_598|t_616|ref=fr._11
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_599|t_600|ref=fr._11
-9	Ζε	ζεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_600|t_616|ref=fr._11
-10	〈	〈	u	u--------	_	2	AuxG	_	t_601|t_593|ref=fr._11
-11	ύς	ύς	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_602|t_616|ref=fr._11
-12	,	,	u	u--------	_	13	AuxX	_	t_603|t_604|ref=fr._11
-13	ὥς	ὡς	c	c--------	_	22	AuxC	_	t_604|t_613|ref=fr._11
-14	φασι	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	AuxY	_	t_605|t_604|ref=fr._11
-15	〉	〉	u	u--------	_	13	AuxG	_	t_606|t_604|ref=fr._11
+1	[	[	u	u--------	_	0	AuxG	_	t_592|0|ref=fr._12
+2	15	15	d	d--------	_	25	AuxY	_	t_593|t_616|ref=fr._12
+3	]	]	u	u--------	_	1	AuxX	_	t_594|t_592|ref=fr._12
+4	ἀλ	ἀλ	d	d--------	_	2	AuxY	_	t_595|t_593|ref=fr._12
+5	〉	〉	x	x--------	_	2	AuxX	_	t_596|t_593|ref=fr._12
+6	λ	λ	x	x--------	_	25	ADV	_	t_597|t_616|ref=fr._12
+7	’	’	d	d--------	_	25	AuxY	_	t_598|t_616|ref=fr._12
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_599|t_600|ref=fr._12
+9	Ζε	ζεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_600|t_616|ref=fr._12
+10	〈	〈	u	u--------	_	2	AuxG	_	t_601|t_593|ref=fr._12
+11	ύς	ύς	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_602|t_616|ref=fr._12
+12	,	,	u	u--------	_	13	AuxX	_	t_603|t_604|ref=fr._12
+13	ὥς	ὡς	c	c--------	_	22	AuxC	_	t_604|t_613|ref=fr._12
+14	φασι	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	13	AuxY	_	t_605|t_604|ref=fr._12
+15	〉	〉	u	u--------	_	13	AuxG	_	t_606|t_604|ref=fr._12
 16	ν	ἄν	x	x--------	_	6	AuxG	_	t_607|t_597|ref=fr._12
 17	,	,	u	u--------	_	13	AuxX	_	t_608|t_604|ref=fr._12
 18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_609|t_610|ref=fr._12
@@ -834,10 +834,10 @@
 43	ν	ἄν	x	x--------	_	41	ADV	_	t_634|t_632|ref=fr._12
 44	ὑπὸ	ὑπό	r	r--------	_	41	AuxP	_	t_635|t_632|ref=fr._12
 45	Παλαμάονος	παλαμάων	n	n-s---fg-	Case=g|Gender=f|Number=s	44	ADV	_	t_636|t_635|ref=fr._12
-46	[0]	[0]	-	---------	_	25	PRED	_	e_18|t_616|ref=fr._1
+46	[0]	[0]	-	---------	_	25	PRED	_	e_18|t_616|ref=fr._12
 47	.	.	u	u--------	_	1	AuxK	_	t_637|t_592|ref=fr._12
 
-# source = Musaeus, Eleusinius, fr._12
+# source = Musaeus, fr._12
 # text = ἐν τοῖς Μουσαίου Παλαμάων λέγεται πλῆξαι τοῦ Διὸς τὴν κεφαλήν , ὅτε τὴν Ἀθηνᾶν ἐγέννα .
 # sent_id = 47
 1	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_638|t_643|ref=fr._12
@@ -857,35 +857,35 @@
 15	ἐγέννα	γεννάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	12	ADV	_	t_652|t_649|ref=fr._12
 16	.	.	u	u--------	_	5	AuxK	_	t_653|t_642|ref=fr._12
 
-# source = Musaeus, Eleusinius, fr._12
+# source = Musaeus, fr._13
 # text = 13 .
 # sent_id = 48
-1	13	13	x	x--------	_	0	AuxG	_	t_654|0|ref=fr._12
-2	.	.	u	u--------	_	1	AuxK	_	t_655|t_654|ref=fr._12
+1	13	13	x	x--------	_	0	AuxG	_	t_654|0|ref=fr._13
+2	.	.	u	u--------	_	1	AuxK	_	t_655|t_654|ref=fr._13
 
-# source = Musaeus, Eleusinius, fr._12
+# source = Musaeus, fr._13
 # text = [ 8 ] ἐστὶ τέτταρας ἔχων ὀφθαλμούς .
 # sent_id = 49
-1	[	[	u	u--------	_	2	AuxG	_	t_656|t_657|ref=fr._12
-2	8	8	x	x--------	_	4	ExD	_	t_657|t_659|ref=fr._12
-3	]	]	u	u--------	_	4	AuxG	_	t_658|t_659|ref=fr._12
-4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_659|0|ref=fr._12
-5	τέτταρας	τέσσαρες	m	m-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_660|t_662|ref=fr._12
-6	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	PNOM	_	t_661|t_659|ref=fr._12
-7	ὀφθαλμούς	ὀφθαλμός	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_662|t_661|ref=fr._12
-8	.	.	u	u--------	_	1	AuxK	_	t_663|t_656|ref=fr._12
+1	[	[	u	u--------	_	2	AuxG	_	t_656|t_657|ref=fr._13
+2	8	8	x	x--------	_	4	ExD	_	t_657|t_659|ref=fr._13
+3	]	]	u	u--------	_	4	AuxG	_	t_658|t_659|ref=fr._13
+4	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_659|0|ref=fr._13
+5	τέτταρας	τέσσαρες	m	m-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_660|t_662|ref=fr._13
+6	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	PNOM	_	t_661|t_659|ref=fr._13
+7	ὀφθαλμούς	ὀφθαλμός	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_662|t_661|ref=fr._13
+8	.	.	u	u--------	_	1	AuxK	_	t_663|t_656|ref=fr._13
 
-# source = Musaeus, Eleusinius, fr._12-13
+# source = Musaeus, fr._13
 # text = Μουσαῖος δὲ τὸν 〈 Ἄργον 〉 φησὶ τέτταρας Αἰθί 〈 οπ 〉 ας καὶ βασιλεῖς 〈 μερ 〉 όπων ἐκ Κελαινοῦς γεννῆσαι τῆς Ἄτλαντος .
 # sent_id = 50
-1	Μουσαῖος	μουσαῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_664|t_670|ref=fr._12
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_665|t_670|ref=fr._12
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_666|t_668|ref=fr._12
-4	〈	〈	u	u--------	_	7	AuxG	_	t_667|t_670|ref=fr._12
-5	Ἄργον	ἄργος	n	n-s---ma-	Case=a|Gender=m|Number=s	14	SBJ	_	t_668|t_677|ref=fr._12
-6	〉	〉	u	u--------	_	7	AuxG	_	t_669|t_670|ref=fr._12
-7	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_670|0|ref=fr._12
-8	τέτταρας	τέσσαρες	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_671|t_672|ref=fr._12
+1	Μουσαῖος	μουσαῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_664|t_670|ref=fr._13
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_665|t_670|ref=fr._13
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_666|t_668|ref=fr._13
+4	〈	〈	u	u--------	_	7	AuxG	_	t_667|t_670|ref=fr._13
+5	Ἄργον	ἄργος	n	n-s---ma-	Case=a|Gender=m|Number=s	14	SBJ	_	t_668|t_677|ref=fr._13
+6	〉	〉	u	u--------	_	7	AuxG	_	t_669|t_670|ref=fr._13
+7	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_670|0|ref=fr._13
+8	τέτταρας	τέσσαρες	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_671|t_672|ref=fr._13
 9	Αἰθί	αἰθί	n	n-p---ma-	Case=a|Gender=m|Number=p	22	OBJ	_	t_672|t_685|ref=fr._13
 10	〈	〈	u	u--------	_	7	AuxG	_	t_673|t_670|ref=fr._13
 11	οπ	οπ	x	x--------	_	9	ATR	_	t_674|t_672|ref=fr._13
@@ -904,41 +904,41 @@
 24	Ἄτλαντος	ἄτλας	n	n-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_687|t_684|ref=fr._13
 25	.	.	u	u--------	_	7	AuxK	_	t_688|t_670|ref=fr._13
 
-# source = Musaeus, Eleusinius, fr._13
+# source = Musaeus, fr._14
 # text = 14 .
 # sent_id = 51
-1	14	14	x	x--------	_	0	AuxG	_	t_689|0|ref=fr._13
-2	.	.	u	u--------	_	1	AuxK	_	t_690|t_689|ref=fr._13
+1	14	14	x	x--------	_	0	AuxG	_	t_689|0|ref=fr._14
+2	.	.	u	u--------	_	1	AuxK	_	t_690|t_689|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._13-14
+# source = Musaeus, fr._14
 # text = [ 1 ] ἐμ μέν τισιν ἐκ Νυκτὸς καὶ Ταρτάρου λέγεται τὰ πάντα , ἐν δέ τισιν ἐξ Ἅιδου καὶ Αἰθέρος [0] [1] ·
 # sent_id = 52
-1	[	[	u	u--------	_	0	AuxG	_	t_691|0|ref=fr._13
-2	1	1	x	x--------	_	1	ExD	_	t_692|t_691|ref=fr._13
-3	]	]	u	u--------	_	1	AuxG	_	t_693|t_691|ref=fr._13
-4	ἐμ	ἐν	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_694|t_701|ref=fr._13
-5	μέν	μέν	d	d--------	_	16	AuxY	_	t_695|t_706|ref=fr._13
-6	τισιν	τις	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_696|t_701|ref=fr._13
-7	ἐκ	ἐκ	r	r--------	_	11	AuxP	_	t_697|t_701|ref=fr._13
-8	Νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_698|t_699|ref=fr._13
-9	καὶ	καί	c	c--------	_	7	COORD	_	t_699|t_697|ref=fr._13
-10	Ταρτάρου	τάρταρος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_700|t_699|ref=fr._13
-11	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	PRED	_	t_701|t_706|ref=fr._13
-12	τὰ	ὁ	l	l--------	Case=n|Gender=n|Number=p	13	ATR	_	t_702|t_703|ref=fr._13
-13	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_703|t_701|ref=fr._13
-14	,	,	u	u--------	_	1	AuxX	_	t_704|t_691|ref=fr._13
-15	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_705|e_19|ref=fr._13
-16	δέ	δέ	g	g--------	_	1	COORD	_	t_706|t_691|ref=fr._13
+1	[	[	u	u--------	_	0	AuxG	_	t_691|0|ref=fr._14
+2	1	1	x	x--------	_	1	ExD	_	t_692|t_691|ref=fr._14
+3	]	]	u	u--------	_	1	AuxG	_	t_693|t_691|ref=fr._14
+4	ἐμ	ἐν	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_694|t_701|ref=fr._14
+5	μέν	μέν	d	d--------	_	16	AuxY	_	t_695|t_706|ref=fr._14
+6	τισιν	τις	p	p-p---md-	Case=d|Gender=m|Number=p	11	OBJ	_	t_696|t_701|ref=fr._14
+7	ἐκ	ἐκ	r	r--------	_	11	AuxP	_	t_697|t_701|ref=fr._14
+8	Νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_698|t_699|ref=fr._14
+9	καὶ	καί	c	c--------	_	7	COORD	_	t_699|t_697|ref=fr._14
+10	Ταρτάρου	τάρταρος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_700|t_699|ref=fr._14
+11	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	PRED	_	t_701|t_706|ref=fr._14
+12	τὰ	ὁ	l	l--------	Case=n|Gender=n|Number=p	13	ATR	_	t_702|t_703|ref=fr._14
+13	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_703|t_701|ref=fr._14
+14	,	,	u	u--------	_	1	AuxX	_	t_704|t_691|ref=fr._14
+15	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_705|e_19|ref=fr._14
+16	δέ	δέ	g	g--------	_	1	COORD	_	t_706|t_691|ref=fr._14
 17	τισιν	τις	p	p-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_707|t_705|ref=fr._14
 18	ἐξ	ἐκ	r	r--------	_	23	AuxP	_	t_708|e_20|ref=fr._14
 19	Ἅιδου	ᾅδης	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ADV	_	t_709|t_710|ref=fr._14
 20	καὶ	καί	c	c--------	_	18	COORD	_	t_710|t_708|ref=fr._14
 21	Αἰθέρος	αἰθήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ADV	_	t_711|t_710|ref=fr._14
-22	[0]	[0]	-	---------	_	16	PRED	_	e_19|t_706|ref=fr._1
-23	[1]	[1]	-	---------	_	22	SBJ	_	e_20|e_19|ref=fr._1
+22	[0]	[0]	-	---------	_	16	PRED	_	e_19|t_706|ref=fr._14
+23	[1]	[1]	-	---------	_	22	SBJ	_	e_20|e_19|ref=fr._14
 24	·	·	u	u--------	_	1	AuxK	_	t_712|t_691|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._14
+# source = Musaeus, fr._14
 # text = ὁ δὲ τὴν Τιτανομαχίαν γράψας ἐξ Αἰθέρος φησίν , Ἀκουσίλαος δʼ ἐκ Χάους πρώτου τ ἆλλα ·
 # sent_id = 53
 1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_713|t_717|ref=fr._14
@@ -959,7 +959,7 @@
 16	ἆλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_728|t_723|ref=fr._14
 17	·	·	u	u--------	_	8	AuxK	_	t_729|t_720|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._14
+# source = Musaeus, fr._14
 # text = ἐν δὲ τοῖς ἀναφερομένοις εἰς Μουσαῖον γέγραπται Τάρταρον πρῶτον 〈 καὶ Ν 〉 ύκτα .
 # sent_id = 54
 1	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_730|t_736|ref=fr._14
@@ -978,7 +978,7 @@
 14	ύκτα	υξ	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_743|t_740|ref=fr._14
 15	.	.	u	u--------	_	7	AuxK	_	t_744|t_736|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._14
+# source = Musaeus, fr._14
 # text = ἐν δὲ τῶι δευτέρωι τά τε εἰς Ὀρφέα καὶ Μουσαῖον ἀναφερόμενα . . [0] .
 # sent_id = 55
 1	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_745|e_21|ref=fr._14
@@ -994,10 +994,10 @@
 11	ἀναφερόμενα	ἀναφέρω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	14	SBJ	_	t_755|e_21|ref=fr._14
 12	.	.	u	u--------	_	14	AuxK	_	t_756|e_21|ref=fr._14
 13	.	.	u	u--------	_	14	AuxK	_	t_757|e_21|ref=fr._14
-14	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._14
 15	.	.	u	u--------	_	14	AuxK	_	t_758|e_21|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._14
+# source = Musaeus, fr._14
 # text = πειρᾶται συνοικειοῦν ταῖς δόξαις αὑτῶν .
 # sent_id = 56
 1	πειρᾶται	πειράω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_759|0|ref=fr._14
@@ -1007,7 +1007,7 @@
 5	αὑτῶν	ἑαυτοῦ	p	p-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_763|t_762|ref=fr._14
 6	.	.	u	u--------	_	1	AuxK	_	t_764|t_759|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._14
+# source = Musaeus, fr._14
 # text = κ ἀν τῶι 〈 δ 〉 ε 〈 υ 〉 τ 〈 έρ 〉 ωι τὴν Νύκτα θεάν φησιν εἶναι πρωτίστην .
 # sent_id = 57
 1	κ	καί	d	d--------	_	19	AuxY	_	t_765|t_783|ref=fr._14
@@ -1033,34 +1033,34 @@
 21	πρωτίστην	πρώτιστος	a	a-s---fas	Case=a|Degree=s|Gender=f|Number=s	20	PNOM	_	t_785|t_784|ref=fr._14
 22	.	.	u	u--------	_	19	AuxK	_	t_786|t_783|ref=fr._14
 
-# source = Musaeus, Eleusinius, fr._14
+# source = Musaeus, fr._15
 # text = 15 .
 # sent_id = 58
-1	15	15	u	u--------	_	0	AuxG	_	t_787|0|ref=fr._14
-2	.	.	u	u--------	_	1	AuxK	_	t_788|t_787|ref=fr._14
+1	15	15	u	u--------	_	0	AuxG	_	t_787|0|ref=fr._15
+2	.	.	u	u--------	_	1	AuxK	_	t_788|t_787|ref=fr._15
 
-# source = Musaeus, Eleusinius, fr._14-15
+# source = Musaeus, fr._15
 # text = [ 2 ] ἐν δὲ τοῖς εἰς Μουσαῖον ἀναφερομένοις δύο ἱστοροῦνται γενέσεις Μουσῶν , πρεσβυτέρων μὲν μετὰ Κρόνου , νεωτέρων δὲ τῶν ἐκ Διὸς καὶ Μνημοσύνης .
 # sent_id = 59
-1	[	[	u	u--------	_	2	AuxG	_	t_789|t_790|ref=fr._14
-2	2	2	d	d--------	_	0	COORD	_	t_790|0|ref=fr._14
-3	]	]	u	u--------	_	2	AuxX	_	t_791|t_790|ref=fr._14
-4	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_792|t_799|ref=fr._14
-5	δὲ	δέ	d	d--------	_	11	AuxY	_	t_793|t_799|ref=fr._14
-6	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	9	ATR	_	t_794|t_797|ref=fr._14
-7	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_795|t_797|ref=fr._14
-8	Μουσαῖον	μουσαῖος	n	n-s---ma-	Case=a|Gender=n|Number=s	7	OBJ	_	t_796|t_795|ref=fr._14
-9	ἀναφερομένοις	ἀναφέρω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	4	ADV	_	t_797|t_792|ref=fr._14
-10	δύο	δύο	a	a--------	_	12	ATR	_	t_798|t_800|ref=fr._14
-11	ἱστοροῦνται	ἱστορέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_799|t_790|ref=fr._14
-12	γενέσεις	γένεσις	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_800|t_799|ref=fr._14
-13	Μουσῶν	μοῦσα	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_801|t_800|ref=fr._14
-14	,	,	u	u--------	_	11	AuxX	_	t_802|t_799|ref=fr._14
-15	πρεσβυτέρων	πρέσβυς	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	21	ATR	_	t_803|t_809|ref=fr._14
-16	μὲν	μέν	d	d--------	_	21	AuxY	_	t_804|t_809|ref=fr._14
-17	μετὰ	μετά	r	r--------	_	15	AuxP	_	t_805|t_803|ref=fr._14
-18	Κρόνου	κρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_806|t_805|ref=fr._14
-19	,	,	u	u--------	_	11	AuxX	_	t_807|t_799|ref=fr._14
+1	[	[	u	u--------	_	2	AuxG	_	t_789|t_790|ref=fr._15
+2	2	2	d	d--------	_	0	COORD	_	t_790|0|ref=fr._15
+3	]	]	u	u--------	_	2	AuxX	_	t_791|t_790|ref=fr._15
+4	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_792|t_799|ref=fr._15
+5	δὲ	δέ	d	d--------	_	11	AuxY	_	t_793|t_799|ref=fr._15
+6	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	9	ATR	_	t_794|t_797|ref=fr._15
+7	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_795|t_797|ref=fr._15
+8	Μουσαῖον	μουσαῖος	n	n-s---ma-	Case=a|Gender=n|Number=s	7	OBJ	_	t_796|t_795|ref=fr._15
+9	ἀναφερομένοις	ἀναφέρω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	4	ADV	_	t_797|t_792|ref=fr._15
+10	δύο	δύο	a	a--------	_	12	ATR	_	t_798|t_800|ref=fr._15
+11	ἱστοροῦνται	ἱστορέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_799|t_790|ref=fr._15
+12	γενέσεις	γένεσις	n	n-p---fn-	Case=n|Gender=f|Number=p	11	SBJ	_	t_800|t_799|ref=fr._15
+13	Μουσῶν	μοῦσα	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_801|t_800|ref=fr._15
+14	,	,	u	u--------	_	11	AuxX	_	t_802|t_799|ref=fr._15
+15	πρεσβυτέρων	πρέσβυς	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	21	ATR	_	t_803|t_809|ref=fr._15
+16	μὲν	μέν	d	d--------	_	21	AuxY	_	t_804|t_809|ref=fr._15
+17	μετὰ	μετά	r	r--------	_	15	AuxP	_	t_805|t_803|ref=fr._15
+18	Κρόνου	κρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_806|t_805|ref=fr._15
+19	,	,	u	u--------	_	11	AuxX	_	t_807|t_799|ref=fr._15
 20	νεωτέρων	νέος	a	a-p---mgc	Case=g|Degree=c|Gender=m|Number=p	21	ATR	_	t_808|t_809|ref=fr._15
 21	δὲ	δέ	c	c--------	_	13	COORD	_	t_809|t_801|ref=fr._15
 22	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_810|t_809|ref=fr._15
@@ -1070,64 +1070,64 @@
 26	Μνημοσύνης	μνημοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_814|t_813|ref=fr._15
 27	.	.	u	u--------	_	2	AuxK	_	t_815|t_790|ref=fr._15
 
-# source = Musaeus, Eleusinius, fr._15
+# source = Musaeus, fr._16
 # text = 16 .
 # sent_id = 60
-1	16	16	x	x--------	_	0	AuxG	_	t_816|0|ref=fr._15
-2	.	.	u	u--------	_	1	AuxK	_	t_817|t_816|ref=fr._15
+1	16	16	x	x--------	_	0	AuxG	_	t_816|0|ref=fr._16
+2	.	.	u	u--------	_	1	AuxK	_	t_817|t_816|ref=fr._16
 
-# source = Musaeus, Eleusinius, fr._15
+# source = Musaeus, fr._16
 # text = [ 6 ] ἱστορεῖ Δία ἐρασθέντα Ἀστερίας μιγῆναι καὶ μιγέντα δοῦναι αὐτὴν τῶι Περσεῖ .
 # sent_id = 61
-1	[	[	u	u--------	_	2	AuxG	_	t_818|t_819|ref=fr._15
-2	6	6	d	d--------	_	4	AuxY	_	t_819|t_821|ref=fr._15
-3	]	]	u	u--------	_	2	AuxG	_	t_820|t_819|ref=fr._15
-4	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_821|0|ref=fr._15
-5	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	SBJ	_	t_822|t_826|ref=fr._15
-6	ἐρασθέντα	ἔραμαι	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	ADV	_	t_823|t_826|ref=fr._15
-7	Ἀστερίας	ἀστερία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_824|t_823|ref=fr._15
-8	μιγῆναι	μίγνυμι	v	v--anp---	Mood=n|Tense=a|Voice=p	9	OBJ	_	t_825|t_826|ref=fr._15
-9	καὶ	καί	c	c--------	_	4	COORD	_	t_826|t_821|ref=fr._15
-10	μιγέντα	μίγνυμι	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	11	ADV	_	t_827|t_828|ref=fr._15
-11	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_828|t_826|ref=fr._15
-12	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_829|t_828|ref=fr._15
-13	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_830|t_831|ref=fr._15
-14	Περσεῖ	περσεύς	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_831|t_828|ref=fr._15
-15	.	.	u	u--------	_	2	AuxK	_	t_832|t_819|ref=fr._15
+1	[	[	u	u--------	_	2	AuxG	_	t_818|t_819|ref=fr._16
+2	6	6	d	d--------	_	4	AuxY	_	t_819|t_821|ref=fr._16
+3	]	]	u	u--------	_	2	AuxG	_	t_820|t_819|ref=fr._16
+4	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_821|0|ref=fr._16
+5	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	SBJ	_	t_822|t_826|ref=fr._16
+6	ἐρασθέντα	ἔραμαι	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	9	ADV	_	t_823|t_826|ref=fr._16
+7	Ἀστερίας	ἀστερία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_824|t_823|ref=fr._16
+8	μιγῆναι	μίγνυμι	v	v--anp---	Mood=n|Tense=a|Voice=p	9	OBJ	_	t_825|t_826|ref=fr._16
+9	καὶ	καί	c	c--------	_	4	COORD	_	t_826|t_821|ref=fr._16
+10	μιγέντα	μίγνυμι	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	11	ADV	_	t_827|t_828|ref=fr._16
+11	δοῦναι	δίδωμι	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_828|t_826|ref=fr._16
+12	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_829|t_828|ref=fr._16
+13	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_830|t_831|ref=fr._16
+14	Περσεῖ	περσεύς	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_831|t_828|ref=fr._16
+15	.	.	u	u--------	_	2	AuxK	_	t_832|t_819|ref=fr._16
 
-# source = Musaeus, Eleusinius, fr._15
+# source = Musaeus, fr._17
 # text = 17 .
 # sent_id = 62
-1	17	17	x	x--------	_	0	AuxG	_	t_833|0|ref=fr._15
-2	.	.	u	u--------	_	1	AuxK	_	t_834|t_833|ref=fr._15
+1	17	17	x	x--------	_	0	AuxG	_	t_833|0|ref=fr._17
+2	.	.	u	u--------	_	1	AuxK	_	t_834|t_833|ref=fr._17
 
-# source = Musaeus, Eleusinius, fr._15-16
+# source = Musaeus, fr._17
 # text = [ 9 ] τὰς δὲ τοιαύτας φαντασίας ( n [0] .
 # sent_id = 63
-1	[	[	u	u--------	_	10	AuxG	_	t_835|e_22|ref=fr._15
-2	9	9	x	x--------	_	10	AuxG	_	t_836|e_22|ref=fr._15
-3	]	]	u	u--------	_	10	AuxG	_	t_837|e_22|ref=fr._16
-4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_838|t_840|ref=fr._16
-5	δὲ	δέ	d	d--------	_	10	AuxY	_	t_839|e_22|ref=fr._16
-6	τοιαύτας	τοιοῦτος	p	p-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_840|e_22|ref=fr._16
-7	φαντασίας	φαντασία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_841|t_843|ref=fr._16
-8	(	̔	u	u--------	_	10	AuxG	_	t_842|e_22|ref=fr._16
-9	n	n	n	n--------	_	10	OBJ	_	t_843|e_22|ref=fr._16
-10	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=fr._1
-11	.	.	u	u--------	_	10	AuxK	_	t_844|e_22|ref=fr._16
+1	[	[	u	u--------	_	10	AuxG	_	t_835|e_22|ref=fr._17
+2	9	9	x	x--------	_	10	AuxG	_	t_836|e_22|ref=fr._17
+3	]	]	u	u--------	_	10	AuxG	_	t_837|e_22|ref=fr._17
+4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_838|t_840|ref=fr._17
+5	δὲ	δέ	d	d--------	_	10	AuxY	_	t_839|e_22|ref=fr._17
+6	τοιαύτας	τοιοῦτος	p	p-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_840|e_22|ref=fr._17
+7	φαντασίας	φαντασία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_841|t_843|ref=fr._17
+8	(	̔	u	u--------	_	10	AuxG	_	t_842|e_22|ref=fr._17
+9	n	n	n	n--------	_	10	OBJ	_	t_843|e_22|ref=fr._17
+10	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=fr._17
+11	.	.	u	u--------	_	10	AuxK	_	t_844|e_22|ref=fr._17
 
-# source = Musaeus, Eleusinius, fr._16-17
+# source = Musaeus, fr._17
 # text = τῶν διατρεχόντων ἀστέρων ) ὁ M. ἀναφερομένας φησὶν ἐκ τοῦ ὠκεανοῦ κατὰ τὸν αἰθέρα ἀποσβέννυσθαι .
 # sent_id = 64
-1	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_845|t_847|ref=fr._16
-2	διατρεχόντων	διατρέχω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_846|t_847|ref=fr._16
-3	ἀστέρων	ἀστήρ	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_847|t_850|ref=fr._16
-4	)	)	u	u--------	_	8	AuxG	_	t_848|t_852|ref=fr._16
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_849|t_850|ref=fr._16
-6	M.	m.	n	n-s---mn-	_	8	SBJ	_	t_850|t_852|ref=fr._16
-7	ἀναφερομένας	ἀναφέρω	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	15	ADV	_	t_851|t_859|ref=fr._16
-8	φησὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_852|0|ref=fr._16
-9	ἐκ	ἐκ	r	r--------	_	15	AuxP	_	t_853|t_859|ref=fr._16
+1	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_845|t_847|ref=fr._17
+2	διατρεχόντων	διατρέχω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	3	ATR	_	t_846|t_847|ref=fr._17
+3	ἀστέρων	ἀστήρ	a	a-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_847|t_850|ref=fr._17
+4	)	)	u	u--------	_	8	AuxG	_	t_848|t_852|ref=fr._17
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_849|t_850|ref=fr._17
+6	M.	m.	n	n-s---mn-	_	8	SBJ	_	t_850|t_852|ref=fr._17
+7	ἀναφερομένας	ἀναφέρω	v	v-pppefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	15	ADV	_	t_851|t_859|ref=fr._17
+8	φησὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_852|0|ref=fr._17
+9	ἐκ	ἐκ	r	r--------	_	15	AuxP	_	t_853|t_859|ref=fr._17
 10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_854|t_855|ref=fr._17
 11	ὠκεανοῦ	ὠκεανός	n	n-s---mg-	Case=g|Gender=m|Number=s	9	OBJ	_	t_855|t_853|ref=fr._17
 12	κατὰ	κατά	r	r--------	_	15	AuxP	_	t_856|t_859|ref=fr._17
@@ -1136,14 +1136,14 @@
 15	ἀποσβέννυσθαι	ἀποσβέννυμι	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_859|t_852|ref=fr._17
 16	.	.	u	u--------	_	8	AuxK	_	t_860|t_852|ref=fr._17
 
-# source = Musaeus, Eleusinius, fr._17
+# source = Musaeus, fr._17
 # text = τοὺς δὲ ὑπὸ Μουσαίου ἀστέρας εἰρημένους Ἀπολλώνιος πιθανῶς μαρμαρυγὰς εἴρηκε .
 # sent_id = 65
 1	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	5	ATR	_	t_861|t_865|ref=fr._17
 2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_862|t_870|ref=fr._17
 3	ὑπὸ	ὑπό	r	r--------	_	6	AuxP	_	t_863|t_866|ref=fr._17
 4	Μουσαίου	μουσαῖος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_864|t_863|ref=fr._17
-5	ἀστέρας	ἀστήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_865|t_866|ref=fr._16
+5	ἀστέρας	ἀστήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_865|t_866|ref=fr._17
 6	εἰρημένους	ἐρῶ	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	10	OBJ	_	t_866|t_870|ref=fr._17
 7	Ἀπολλώνιος	ἀπολλώνιος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_867|t_870|ref=fr._17
 8	πιθανῶς	πιθανός	d	d--------	_	10	ADV	_	t_868|t_870|ref=fr._17
@@ -1151,55 +1151,55 @@
 10	εἴρηκε	ἐρῶ	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_870|0|ref=fr._17
 11	.	.	u	u--------	_	10	AuxK	_	t_871|t_870|ref=fr._17
 
-# source = Musaeus, Eleusinius, fr._17
+# source = Musaeus, fr._18
 # text = 18 .
 # sent_id = 66
-1	18	18	x	x--------	_	0	AuxG	_	t_872|0|ref=fr._17
-2	.	.	u	u--------	_	1	AuxK	_	t_873|t_872|ref=fr._17
+1	18	18	x	x--------	_	0	AuxG	_	t_872|0|ref=fr._18
+2	.	.	u	u--------	_	1	AuxK	_	t_873|t_872|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._17
+# source = Musaeus, fr._18
 # text = [ 7 ] Θαλῆς μὲν οὖν δύο αὐτὰς εἶπεν εἶναι [ n .
 # sent_id = 67
-1	[	[	u	u--------	_	2	AuxG	_	t_874|t_875|ref=fr._17
-2	7	7	d	d--------	_	0	COORD	_	t_875|0|ref=fr._17
-3	]	]	u	u--------	_	2	AuxG	_	t_876|t_875|ref=fr._17
-4	Θαλῆς	θαλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_877|t_882|ref=fr._17
-5	μὲν	μέν	d	d--------	_	9	AuxY	_	t_878|t_882|ref=fr._17
-6	οὖν	οὖν	d	d--------	_	9	AuxY	_	t_879|t_882|ref=fr._17
-7	δύο	δύο	a	a--------	_	8	ATR	_	t_880|t_881|ref=fr._17
-8	αὐτὰς	αὐτός	p	p-p---fa-	Case=a|Gender=f|Number=p	10	SBJ	_	t_881|t_883|ref=fr._17
-9	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_882|t_875|ref=fr._17
-10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_883|t_882|ref=fr._17
-11	[	[	u	u--------	_	9	AuxG	_	t_884|t_882|ref=fr._17
-12	n	n	x	x--------	_	9	AuxG	_	t_885|t_882|ref=fr._17
-13	.	.	u	u--------	_	2	AuxK	_	t_886|t_875|ref=fr._17
+1	[	[	u	u--------	_	2	AuxG	_	t_874|t_875|ref=fr._18
+2	7	7	d	d--------	_	0	COORD	_	t_875|0|ref=fr._18
+3	]	]	u	u--------	_	2	AuxG	_	t_876|t_875|ref=fr._18
+4	Θαλῆς	θαλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_877|t_882|ref=fr._18
+5	μὲν	μέν	d	d--------	_	9	AuxY	_	t_878|t_882|ref=fr._18
+6	οὖν	οὖν	d	d--------	_	9	AuxY	_	t_879|t_882|ref=fr._18
+7	δύο	δύο	a	a--------	_	8	ATR	_	t_880|t_881|ref=fr._18
+8	αὐτὰς	αὐτός	p	p-p---fa-	Case=a|Gender=f|Number=p	10	SBJ	_	t_881|t_883|ref=fr._18
+9	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_882|t_875|ref=fr._18
+10	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_883|t_882|ref=fr._18
+11	[	[	u	u--------	_	9	AuxG	_	t_884|t_882|ref=fr._18
+12	n	n	x	x--------	_	9	AuxG	_	t_885|t_882|ref=fr._18
+13	.	.	u	u--------	_	2	AuxK	_	t_886|t_875|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._17
+# source = Musaeus, fr._18
 # text = τὰς Ὑάδας ] . . .
 # sent_id = 68
-1	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	2	ATR	_	t_887|t_888|ref=fr._17
-2	Ὑάδας	ὑάδαι	v	l-p---fa-	Case=a|Gender=f|Number=p	3	ExD	_	t_888|t_889|ref=fr._17
-3	]	]	u	u--------	_	0	AuxG	_	t_889|0|ref=fr._17
-4	.	.	u	u--------	_	3	AuxK	_	t_890|t_889|ref=fr._17
-5	.	.	u	u--------	_	3	AuxK	_	t_891|t_889|ref=fr._17
-6	.	.	u	u--------	_	3	AuxK	_	t_892|t_889|ref=fr._17
+1	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	2	ATR	_	t_887|t_888|ref=fr._18
+2	Ὑάδας	ὑάδαι	v	l-p---fa-	Case=a|Gender=f|Number=p	3	ExD	_	t_888|t_889|ref=fr._18
+3	]	]	u	u--------	_	0	AuxG	_	t_889|0|ref=fr._18
+4	.	.	u	u--------	_	3	AuxK	_	t_890|t_889|ref=fr._18
+5	.	.	u	u--------	_	3	AuxK	_	t_891|t_889|ref=fr._18
+6	.	.	u	u--------	_	3	AuxK	_	t_892|t_889|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._17-18
+# source = Musaeus, fr._18
 # text = Μουσαῖος ε̄ . ]
 # sent_id = 69
-1	Μουσαῖος	μουσαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	PNOM	_	t_893|t_894|ref=fr._17
+1	Μουσαῖος	μουσαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	PNOM	_	t_893|t_894|ref=fr._18
 2	ε̄	ε̄	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_894|0|ref=fr._18
 3	.	.	u	u--------	_	2	AuxK	_	t_895|t_894|ref=fr._18
 4	]	]	u	u--------	_	2	AuxG	_	t_896|t_894|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._18
 # text = . . .
 # sent_id = 70
 1	.	.	u	u--------	_	0	AuxK	_	t_897|0|ref=fr._18
 2	.	.	u	u--------	_	1	AuxK	_	t_898|t_897|ref=fr._18
 3	.	.	u	u--------	_	1	AuxK	_	t_899|t_897|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._18
 # text = nutrices Liberi patris , ut M. scripsit , ab Hya fratre , quem in venatione interemptum fleverunt , unde Hyades dictae . M. ita refert [0] :
 # sent_id = 71
 1	nutrices	nutriceς	n	n-p---fn-	Case=n|Gender=f|Number=p	26	SBJ	_	t_900|e_23|ref=fr._18
@@ -1227,10 +1227,10 @@
 23	M.	m.	u	u--------	_	26	AuxK	_	t_922|e_23|ref=fr._18
 24	ita	ita	d	d--------	_	26	SBJ	_	t_923|e_23|ref=fr._18
 25	refert	καταστέφω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	26	ExD	_	t_924|e_23|ref=fr._18
-26	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=fr._1
+26	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=fr._18
 27	:	:	u	u--------	_	26	AuxK	_	t_925|e_23|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._18
 # text = Aethra ex Oceano procreavit filias duodecim , ex quibus quin que stellis figuratas Hyadas , septem autem Pliadas [0] .
 # sent_id = 72
 1	Aethra	aethra	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_926|t_929|ref=fr._18
@@ -1251,10 +1251,10 @@
 16	septem	septem	m	m--------	_	19	OBJ	_	t_941|e_24|ref=fr._18
 17	autem	δέ	d	d--------	_	19	COORD	_	t_942|e_24|ref=fr._18
 18	Pliadas	pliadas	n	n-s---fn-	Case=n|Gender=f|Number=s	19	SBJ	_	t_943|e_24|ref=fr._18
-19	[0]	[0]	-	---------	_	15	PRED	_	e_24|t_940|ref=fr._1
+19	[0]	[0]	-	---------	_	15	PRED	_	e_24|t_940|ref=fr._18
 20	.	.	u	u--------	_	7	AuxK	_	t_944|t_932|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._18
 # text = his unus fuit frater Hyas , quem omnes sorores dilexere .
 # sent_id = 73
 1	his	ὁ	p	p-s---cd-	_	4	ATR	_	t_945|t_948|ref=fr._18
@@ -1269,7 +1269,7 @@
 10	dilexere	dilexέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	4	ATR	_	t_954|t_948|ref=fr._18
 11	.	.	u	u--------	_	3	AuxK	_	t_955|t_947|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._18
 # text = quem in venatu alii ab leone , alii ab apro interfectum dicunt [0] .
 # sent_id = 74
 1	quem	ὅς	p	p-s---mn-	_	3	AuxY	_	t_956|t_958|ref=fr._18
@@ -1284,10 +1284,10 @@
 10	apro	ἀτάρ	d	d--------	_	9	OBJ	_	t_965|t_964|ref=fr._18
 11	interfectum	interfectus	a	a-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_966|t_967|ref=fr._18
 12	dicunt	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_967|t_962|ref=fr._18
-13	[0]	[0]	-	---------	_	7	PRED	_	e_25|t_962|ref=fr._1
+13	[0]	[0]	-	---------	_	7	PRED	_	e_25|t_962|ref=fr._18
 14	.	.	u	u--------	_	7	AuxK	_	t_968|t_962|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._18
 # text = quae flentes eum obierunt Hyadas nuncupatas , alias Pliadas .
 # sent_id = 75
 1	quae	ὅς	d	d--------	_	4	AuxY	_	t_969|t_972|ref=fr._18
@@ -1301,38 +1301,38 @@
 9	Pliadas	pliadas	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ExD	_	t_977|t_972|ref=fr._18
 10	.	.	u	u--------	_	4	AuxK	_	t_978|t_972|ref=fr._18
 
-# source = Musaeus, Eleusinius, fr._18
+# source = Musaeus, fr._19
 # text = 19 .
 # sent_id = 76
-1	19	19	x	x--------	_	0	AuxG	_	t_979|0|ref=fr._18
-2	.	.	u	u--------	_	1	AuxK	_	t_980|t_979|ref=fr._18
+1	19	19	x	x--------	_	0	AuxG	_	t_979|0|ref=fr._19
+2	.	.	u	u--------	_	1	AuxK	_	t_980|t_979|ref=fr._19
 
-# source = Musaeus, Eleusinius, fr._18-19
+# source = Musaeus, fr._19
 # text = [ 19 ] καὶ ὡς δή φασι τὸ τριπόλιον καθʼ Ἡσίοδον καὶ Μουσαῖον εἰς πᾶν πρᾶγμα σπουδαῖον χρήσιμον εἶναι , διʼ ὃ καὶ ὀρύττουσιν αὐτὸ νύκτωρ σκηνὴν πηξάμενοι .
 # sent_id = 77
-1	[	[	u	u--------	_	2	AuxG	_	t_981|t_982|ref=fr._18
-2	19	19	d	d--------	_	0	ExD	_	t_982|0|ref=fr._18
-3	]	]	u	u--------	_	2	AuxG	_	t_983|t_982|ref=fr._18
-4	καὶ	καί	d	d--------	_	7	AuxY	_	t_984|t_987|ref=fr._18
-5	ὡς	ὡς	d	d--------	_	7	AuxZ	_	t_985|t_987|ref=fr._18
-6	δή	δή	d	d--------	_	7	AuxZ	_	t_986|t_987|ref=fr._18
-7	φασι	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	PRED	_	t_987|t_982|ref=fr._18
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_988|t_989|ref=fr._18
-9	τριπόλιον	τριπόλιον	a	a-s---na-	Case=a|Gender=n|Number=s	19	SBJ	_	t_989|t_999|ref=fr._18
-10	καθʼ	κατά	r	r--------	_	9	AuxP	_	t_990|t_989|ref=fr._18
-11	Ἡσίοδον	ἡσίοδος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_991|t_992|ref=fr._18
-12	καὶ	καί	c	c--------	_	10	COORD	_	t_992|t_990|ref=fr._18
-13	Μουσαῖον	μουσαῖος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_993|t_992|ref=fr._18
-14	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_994|t_998|ref=fr._18
-15	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_995|t_996|ref=fr._18
-16	πρᾶγμα	πρᾶγμα	n	n-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_996|t_994|ref=fr._18
-17	σπουδαῖον	σπουδαῖος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_997|t_996|ref=fr._18
-18	χρήσιμον	χρήσιμος	a	a-s---na-	Case=a|Gender=n|Number=s	19	PNOM	_	t_998|t_999|ref=fr._18
-19	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_999|t_987|ref=fr._18
-20	,	,	u	u--------	_	2	AuxX	_	t_1000|t_982|ref=fr._18
-21	διʼ	διά	r	r--------	_	24	AuxP	_	t_1001|t_1004|ref=fr._18
-22	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_1002|t_1001|ref=fr._18
-23	καὶ	καί	d	d--------	_	24	AuxZ	_	t_1003|t_1004|ref=fr._18
+1	[	[	u	u--------	_	2	AuxG	_	t_981|t_982|ref=fr._19
+2	19	19	d	d--------	_	0	ExD	_	t_982|0|ref=fr._19
+3	]	]	u	u--------	_	2	AuxG	_	t_983|t_982|ref=fr._19
+4	καὶ	καί	d	d--------	_	7	AuxY	_	t_984|t_987|ref=fr._19
+5	ὡς	ὡς	d	d--------	_	7	AuxZ	_	t_985|t_987|ref=fr._19
+6	δή	δή	d	d--------	_	7	AuxZ	_	t_986|t_987|ref=fr._19
+7	φασι	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	PRED	_	t_987|t_982|ref=fr._19
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_988|t_989|ref=fr._19
+9	τριπόλιον	τριπόλιον	a	a-s---na-	Case=a|Gender=n|Number=s	19	SBJ	_	t_989|t_999|ref=fr._19
+10	καθʼ	κατά	r	r--------	_	9	AuxP	_	t_990|t_989|ref=fr._19
+11	Ἡσίοδον	ἡσίοδος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_991|t_992|ref=fr._19
+12	καὶ	καί	c	c--------	_	10	COORD	_	t_992|t_990|ref=fr._19
+13	Μουσαῖον	μουσαῖος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_993|t_992|ref=fr._19
+14	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_994|t_998|ref=fr._19
+15	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_995|t_996|ref=fr._19
+16	πρᾶγμα	πρᾶγμα	n	n-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_996|t_994|ref=fr._19
+17	σπουδαῖον	σπουδαῖος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_997|t_996|ref=fr._19
+18	χρήσιμον	χρήσιμος	a	a-s---na-	Case=a|Gender=n|Number=s	19	PNOM	_	t_998|t_999|ref=fr._19
+19	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_999|t_987|ref=fr._19
+20	,	,	u	u--------	_	2	AuxX	_	t_1000|t_982|ref=fr._19
+21	διʼ	διά	r	r--------	_	24	AuxP	_	t_1001|t_1004|ref=fr._19
+22	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_1002|t_1001|ref=fr._19
+23	καὶ	καί	d	d--------	_	24	AuxZ	_	t_1003|t_1004|ref=fr._19
 24	ὀρύττουσιν	ὀρύσσω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	16	ATR	_	t_1004|t_996|ref=fr._19
 25	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_1005|t_1004|ref=fr._19
 26	νύκτωρ	νύκτωρ	d	d--------	_	28	ADV	_	t_1006|t_1008|ref=fr._19
@@ -1340,47 +1340,47 @@
 28	πηξάμενοι	σκηνόω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	24	ADV	_	t_1008|t_1004|ref=fr._19
 29	.	.	u	u--------	_	2	AuxK	_	t_1009|t_982|ref=fr._19
 
-# source = Musaeus, Eleusinius, fr._19
+# source = Musaeus, fr._19a
 # text = ΥΜΝΟΣ ΕΙΣ ΔΙΟΝΥΣΟΝ .
 # sent_id = 78
-1	ΥΜΝΟΣ	υμνος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	APOS	_	t_1010|t_1011|ref=fr._19
-2	ΕΙΣ	εισ	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	ExD	_	t_1011|0|ref=fr._19
-3	ΔΙΟΝΥΣΟΝ	διόνυσος	n	n--------	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ATR	_	t_1012|t_1010|ref=fr._19
-4	.	.	u	u--------	_	1	AuxK	_	t_1013|t_1010|ref=fr._19
+1	ΥΜΝΟΣ	υμνος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	APOS	_	t_1010|t_1011|ref=fr._19a
+2	ΕΙΣ	εισ	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	ExD	_	t_1011|0|ref=fr._19a
+3	ΔΙΟΝΥΣΟΝ	διόνυσος	n	n--------	Mood=i|Number=p|Person=3|Tense=i|Voice=a	1	ATR	_	t_1012|t_1010|ref=fr._19a
+4	.	.	u	u--------	_	1	AuxK	_	t_1013|t_1010|ref=fr._19a
 
-# source = Musaeus, Eleusinius, fr._19
+# source = Musaeus, fr._19a
 # text = 19ᵃ .
 # sent_id = 79
-1	19ᵃ	19a	i	i--------	_	0	ExD	_	t_1014|0|ref=fr._19
-2	.	.	u	u--------	_	1	AuxK	_	t_1015|t_1014|ref=fr._19
+1	19ᵃ	19a	i	i--------	_	0	ExD	_	t_1014|0|ref=fr._19a
+2	.	.	u	u--------	_	1	AuxK	_	t_1015|t_1014|ref=fr._19a
 
-# source = Musaeus, Eleusinius, fr._19
+# source = Musaeus, fr._19a
 # text = [ p [0] .
 # sent_id = 80
-1	[	[	u	u--------	_	3	AuxG	_	t_1016|e_26|ref=fr._19
-2	p	p	n	n--------	_	3	OBJ	_	t_1017|e_26|ref=fr._19
-3	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=fr._1
-4	.	.	u	u--------	_	3	AuxK	_	t_1018|e_26|ref=fr._19
+1	[	[	u	u--------	_	3	AuxG	_	t_1016|e_26|ref=fr._19a
+2	p	p	n	n--------	_	3	OBJ	_	t_1017|e_26|ref=fr._19a
+3	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=fr._19a
+4	.	.	u	u--------	_	3	AuxK	_	t_1018|e_26|ref=fr._19a
 
-# source = Musaeus, Eleusinius, fr._19-19a
+# source = Musaeus, fr._19a
 # text = 13 ] τοὺς μὲν οὖν τελέους ὕμνους τε καὶ λόγους περὶ Διονύσου Ὀρφεῖ καὶ Μουσαίωι παρῶμεν καὶ τοῖς ἀρχαίοις τῶν νομοθετῶν .
 # sent_id = 81
-1	13	13	x	x--------	_	16	AuxG	_	t_1019|t_1034|ref=fr._19
-2	]	]	u	u--------	_	16	AuxX	_	t_1020|t_1034|ref=fr._19
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_1021|t_1025|ref=fr._19
-4	μὲν	μέν	d	d--------	_	16	AuxY	_	t_1022|t_1034|ref=fr._19
-5	οὖν	οὖν	d	d--------	_	16	AuxY	_	t_1023|t_1034|ref=fr._19
-6	τελέους	τέλειος	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_1024|t_1027|ref=fr._19
-7	ὕμνους	ὕμνος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_1025|t_1027|ref=fr._19
-8	τε	τε	d	d--------	_	9	AuxY	_	t_1026|t_1027|ref=fr._19
-9	καὶ	καί	c	c--------	_	16	COORD	_	t_1027|t_1034|ref=fr._19
-10	λόγους	λόγος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_1028|t_1027|ref=fr._19
-11	περὶ	περί	r	r--------	_	16	AuxP	_	t_1029|t_1034|ref=fr._19
-12	Διονύσου	διόνυσος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_1030|t_1029|ref=fr._19
-13	Ὀρφεῖ	ὀρφεύς	n	n-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_1031|t_1035|ref=fr._19
-14	καὶ	καί	d	d--------	_	17	AuxY	_	t_1032|t_1035|ref=fr._19
-15	Μουσαίωι	μουσεῖος	n	n-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_1033|t_1035|ref=fr._19
-16	παρῶμεν	πάρειμι1	v	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_1034|0|ref=fr._19
+1	13	13	x	x--------	_	16	AuxG	_	t_1019|t_1034|ref=fr._19a
+2	]	]	u	u--------	_	16	AuxX	_	t_1020|t_1034|ref=fr._19a
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_1021|t_1025|ref=fr._19a
+4	μὲν	μέν	d	d--------	_	16	AuxY	_	t_1022|t_1034|ref=fr._19a
+5	οὖν	οὖν	d	d--------	_	16	AuxY	_	t_1023|t_1034|ref=fr._19a
+6	τελέους	τέλειος	a	a-p---ma-	Case=a|Gender=m|Number=p	9	ATR	_	t_1024|t_1027|ref=fr._19a
+7	ὕμνους	ὕμνος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_1025|t_1027|ref=fr._19a
+8	τε	τε	d	d--------	_	9	AuxY	_	t_1026|t_1027|ref=fr._19a
+9	καὶ	καί	c	c--------	_	16	COORD	_	t_1027|t_1034|ref=fr._19a
+10	λόγους	λόγος	n	n-p---ma-	Case=a|Gender=m|Number=p	9	OBJ	_	t_1028|t_1027|ref=fr._19a
+11	περὶ	περί	r	r--------	_	16	AuxP	_	t_1029|t_1034|ref=fr._19a
+12	Διονύσου	διόνυσος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_1030|t_1029|ref=fr._19a
+13	Ὀρφεῖ	ὀρφεύς	n	n-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_1031|t_1035|ref=fr._19a
+14	καὶ	καί	d	d--------	_	17	AuxY	_	t_1032|t_1035|ref=fr._19a
+15	Μουσαίωι	μουσεῖος	n	n-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_1033|t_1035|ref=fr._19a
+16	παρῶμεν	πάρειμι1	v	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_1034|0|ref=fr._19a
 17	καὶ	καί	c	c--------	_	11	COORD	_	t_1035|t_1029|ref=fr._19a
 18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_1036|t_1037|ref=fr._19a
 19	ἀρχαίοις	ἀρχαῖος	a	a-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_1037|t_1035|ref=fr._19a
@@ -1388,47 +1388,47 @@
 21	νομοθετῶν	νομοθέτης	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_1039|t_1037|ref=fr._19a
 22	.	.	u	u--------	_	16	AuxK	_	t_1040|t_1034|ref=fr._19a
 
-# source = Musaeus, Eleusinius, fr._19a
+# source = Musaeus, fr._20
 # text = ΥΜΝΟΣ ΕΙΣ ΔΗΜΗΤΡΑ ΛΥΚΟΜΙΔΑΙΣ .
 # sent_id = 82
-1	ΥΜΝΟΣ	υμνος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1041|0|ref=fr._19a
-2	ΕΙΣ	εισ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1042|t_1041|ref=fr._19a
-3	ΔΗΜΗΤΡΑ	δημητρια	n	n-s---fn-	Case=n|Gender=f|Number=s	1	APOS	_	t_1043|t_1041|ref=fr._19
-4	ΛΥΚΟΜΙΔΑΙΣ	λυκομιδαι	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_1044|t_1043|ref=fr._19a
-5	.	.	u	u--------	_	1	AuxK	_	t_1045|t_1041|ref=fr._19a
+1	ΥΜΝΟΣ	υμνος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1041|0|ref=fr._20
+2	ΕΙΣ	εισ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1042|t_1041|ref=fr._20
+3	ΔΗΜΗΤΡΑ	δημητρια	n	n-s---fn-	Case=n|Gender=f|Number=s	1	APOS	_	t_1043|t_1041|ref=fr._20
+4	ΛΥΚΟΜΙΔΑΙΣ	λυκομιδαι	n	n-s---mn-	Case=n|Gender=m|Number=s	3	APOS	_	t_1044|t_1043|ref=fr._20
+5	.	.	u	u--------	_	1	AuxK	_	t_1045|t_1041|ref=fr._20
 
-# source = Musaeus, Eleusinius, fr._19a
+# source = Musaeus, fr._20
 # text = 20 .
 # sent_id = 83
-1	20	2	u	u--------	_	0	AuxG	_	t_1046|0|ref=fr._19a
-2	.	.	u	u--------	_	1	AuxK	_	t_1047|t_1046|ref=fr._19a
+1	20	2	u	u--------	_	0	AuxG	_	t_1046|0|ref=fr._20
+2	.	.	u	u--------	_	1	AuxK	_	t_1047|t_1046|ref=fr._20
 
-# source = Musaeus, Eleusinius, fr._19a-20
+# source = Musaeus, fr._20
 # text = [ 20 ] πρῶτοι δʼ οὖν βασιλεύουσιν ἐν τῆι χώραι ταύτηι Πολυκάων τε ὁ Λέλεγος καὶ Μεσσήνη γυνὴ τοῦ Πολυκάονος .
 # sent_id = 84
-1	[	[	u	u--------	_	7	AuxG	_	t_1048|t_1054|ref=fr._19a
-2	20	2	x	x--------	_	7	AuxY	_	t_1049|t_1054|ref=fr._19a
-3	]	]	u	u--------	_	7	AuxX	_	t_1050|t_1054|ref=fr._19a
-4	πρῶτοι	πρῶτος	a	a-p---mn-	Case=n|Gender=m|Number=p	16	ATV	_	t_1051|t_1063|ref=fr._19a
-5	δʼ	δέ	d	d--------	_	7	AuxY	_	t_1052|t_1054|ref=fr._19a
-6	οὖν	οὖν	d	d--------	_	7	AuxY	_	t_1053|t_1054|ref=fr._19a
-7	βασιλεύουσιν	βασιλεύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1054|0|ref=fr._19a
-8	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1055|t_1054|ref=fr._19a
-9	τῆι	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1056|t_1057|ref=fr._19a
-10	χώραι	χώρα	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_1057|t_1055|ref=fr._19a
-11	ταύτηι	οὗτος	a	a-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1058|t_1057|ref=fr._19a
-12	Πολυκάων	πολυκάων	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_1059|t_1063|ref=fr._19a
-13	τε	τε	d	d--------	_	16	AuxY	_	t_1060|t_1063|ref=fr._19a
-14	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_1061|t_1059|ref=fr._19a
-15	Λέλεγος	λέλεγες	n	n-s---mg-	Case=n|Gender=m|Number=s	12	ATR	_	t_1062|t_1059|ref=fr._19a
-16	καὶ	καί	c	c--------	_	7	COORD	_	t_1063|t_1054|ref=fr._19a
-17	Μεσσήνη	μεσσήνη	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1064|t_1063|ref=fr._19a
-18	γυνὴ	γυνή	n	n-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_1065|t_1064|ref=fr._19a
-19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_1066|t_1067|ref=fr._19a
+1	[	[	u	u--------	_	7	AuxG	_	t_1048|t_1054|ref=fr._20
+2	20	2	x	x--------	_	7	AuxY	_	t_1049|t_1054|ref=fr._20
+3	]	]	u	u--------	_	7	AuxX	_	t_1050|t_1054|ref=fr._20
+4	πρῶτοι	πρῶτος	a	a-p---mn-	Case=n|Gender=m|Number=p	16	ATV	_	t_1051|t_1063|ref=fr._20
+5	δʼ	δέ	d	d--------	_	7	AuxY	_	t_1052|t_1054|ref=fr._20
+6	οὖν	οὖν	d	d--------	_	7	AuxY	_	t_1053|t_1054|ref=fr._20
+7	βασιλεύουσιν	βασιλεύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1054|0|ref=fr._20
+8	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1055|t_1054|ref=fr._20
+9	τῆι	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1056|t_1057|ref=fr._20
+10	χώραι	χώρα	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_1057|t_1055|ref=fr._20
+11	ταύτηι	οὗτος	a	a-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1058|t_1057|ref=fr._20
+12	Πολυκάων	πολυκάων	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_1059|t_1063|ref=fr._20
+13	τε	τε	d	d--------	_	16	AuxY	_	t_1060|t_1063|ref=fr._20
+14	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	12	ATR	_	t_1061|t_1059|ref=fr._20
+15	Λέλεγος	λέλεγες	n	n-s---mg-	Case=n|Gender=m|Number=s	12	ATR	_	t_1062|t_1059|ref=fr._20
+16	καὶ	καί	c	c--------	_	7	COORD	_	t_1063|t_1054|ref=fr._20
+17	Μεσσήνη	μεσσήνη	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1064|t_1063|ref=fr._20
+18	γυνὴ	γυνή	n	n-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_1065|t_1064|ref=fr._20
+19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_1066|t_1067|ref=fr._20
 20	Πολυκάονος	πολυκάων	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_1067|t_1065|ref=fr._20
 21	.	.	u	u--------	_	7	AuxK	_	t_1068|t_1054|ref=fr._20
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20
 # text = παρὰ ταύτην τὴν Μεσσήνην τὰ ὄργια κομίζων τῶν Μεγάλων θεῶν Καύκων ἦλθεν ἐξ Ἐλευσῖνος ὁ Κελαίνου τοῦ Φλύου .
 # sent_id = 85
 1	παρὰ	παρά	r	r--------	_	12	AuxP	_	t_1069|t_1080|ref=fr._20
@@ -1451,7 +1451,7 @@
 18	Φλύου	φλύος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1086|t_1084|ref=fr._20
 19	.	.	u	u--------	_	12	AuxK	_	t_1087|t_1080|ref=fr._20
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20
 # text = Φλῦον δὲ αὐτὸν Ἀθηναῖοι λέγουσι παῖδα εἶναι Γῆς .
 # sent_id = 86
 1	Φλῦον	φλύω	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_1088|t_1094|ref=fr._20
@@ -1464,7 +1464,7 @@
 8	Γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1095|t_1093|ref=fr._20
 9	.	.	u	u--------	_	5	AuxK	_	t_1096|t_1092|ref=fr._20
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20
 # text = ὁμολογεῖ δέ σφισι καὶ ὕμνος Μουσαίου Λυκομίδαις ποιηθεὶς ἐς Δήμητρα .
 # sent_id = 87
 1	ὁμολογεῖ	ὁμολογέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1097|0|ref=fr._20
@@ -1479,63 +1479,63 @@
 10	Δήμητρα	δημήτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	9	ADV	_	t_1106|t_1105|ref=fr._20
 11	.	.	u	u--------	_	1	AuxK	_	t_1107|t_1097|ref=fr._20
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = ΧΡΗΣΜΟΙ .
 # sent_id = 88
-1	ΧΡΗΣΜΟΙ	χρησμός	a	a-p---mv-	Case=n|Gender=m|Number=p	0	ExD	_	t_1108|0|ref=fr._20
-2	.	.	u	u--------	_	1	AuxK	_	t_1109|t_1108|ref=fr._20
+1	ΧΡΗΣΜΟΙ	χρησμός	a	a-p---mv-	Case=n|Gender=m|Number=p	0	ExD	_	t_1108|0|ref=fr._20a
+2	.	.	u	u--------	_	1	AuxK	_	t_1109|t_1108|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = ( Vgl .
 # sent_id = 89
-1	(	̔	u	u--------	_	2	AuxG	_	t_1110|t_1111|ref=fr._20
-2	Vgl	vgl	v	v2spma---	_	0	PRED	_	t_1111|0|ref=fr._20
-3	.	.	u	u--------	_	2	AuxK	_	t_1112|t_1111|ref=fr._20
+1	(	̔	u	u--------	_	2	AuxG	_	t_1110|t_1111|ref=fr._20a
+2	Vgl	vgl	v	v2spma---	_	0	PRED	_	t_1111|0|ref=fr._20a
+3	.	.	u	u--------	_	2	AuxK	_	t_1112|t_1111|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = c .
 # sent_id = 90
-1	c	ὁ	x	x--------	_	0	ExD	_	t_1113|0|ref=fr._20
-2	.	.	u	u--------	_	1	AuxK	_	t_1114|t_1113|ref=fr._20
+1	c	ὁ	x	x--------	_	0	ExD	_	t_1113|0|ref=fr._20a
+2	.	.	u	u--------	_	1	AuxK	_	t_1114|t_1113|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = 15 , 1 I 137 , 6 [0] .
 # sent_id = 91
-1	15	15	x	x--------	_	8	AuxG	_	t_1115|e_27|ref=fr._20
-2	,	,	u	u--------	_	8	AuxX	_	t_1116|e_27|ref=fr._20
-3	1	1	x	x--------	_	8	AuxG	_	t_1117|e_27|ref=fr._20
-4	I	εἰ	c	c--------	_	8	APOS	_	t_1118|e_27|ref=fr._20
-5	137	137	x	x--------	_	8	ExD	_	t_1119|e_27|ref=fr._20
-6	,	,	u	u--------	_	8	AuxX	_	t_1120|e_27|ref=fr._20
-7	6	6	x	x--------	_	8	AuxG	_	t_1121|e_27|ref=fr._20
-8	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=fr._1
-9	.	.	u	u--------	_	8	AuxK	_	t_1122|e_27|ref=fr._20
+1	15	15	x	x--------	_	8	AuxG	_	t_1115|e_27|ref=fr._20a
+2	,	,	u	u--------	_	8	AuxX	_	t_1116|e_27|ref=fr._20a
+3	1	1	x	x--------	_	8	AuxG	_	t_1117|e_27|ref=fr._20a
+4	I	εἰ	c	c--------	_	8	APOS	_	t_1118|e_27|ref=fr._20a
+5	137	137	x	x--------	_	8	ExD	_	t_1119|e_27|ref=fr._20a
+6	,	,	u	u--------	_	8	AuxX	_	t_1120|e_27|ref=fr._20a
+7	6	6	x	x--------	_	8	AuxG	_	t_1121|e_27|ref=fr._20a
+8	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=fr._20a
+9	.	.	u	u--------	_	8	AuxK	_	t_1122|e_27|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = 66 A 11 [0] .
 # sent_id = 92
-1	66	66	x	x--------	_	4	AuxG	_	t_1123|e_28|ref=fr._20
-2	A	a	i	i--------	_	4	ExD	_	t_1124|e_28|ref=fr._20
-3	11	11	u	u--------	_	4	AuxG	_	t_1125|e_28|ref=fr._20
-4	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=fr._1
-5	.	.	u	u--------	_	4	AuxK	_	t_1126|e_28|ref=fr._20
+1	66	66	x	x--------	_	4	AuxG	_	t_1123|e_28|ref=fr._20a
+2	A	a	i	i--------	_	4	ExD	_	t_1124|e_28|ref=fr._20a
+3	11	11	u	u--------	_	4	AuxG	_	t_1125|e_28|ref=fr._20a
+4	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=fr._20a
+5	.	.	u	u--------	_	4	AuxK	_	t_1126|e_28|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = 67 A 6 . )
 # sent_id = 93
-1	67	67	u	u--------	_	2	AuxG	_	t_1127|t_1128|ref=fr._20
-2	A	a	x	x--------	_	0	AuxG	_	t_1128|0|ref=fr._20
-3	6	6	x	x--------	_	2	AuxG	_	t_1129|t_1128|ref=fr._20
-4	.	.	u	u--------	_	2	AuxK	_	t_1130|t_1128|ref=fr._20
-5	)	)	u	u--------	_	2	AuxG	_	t_1131|t_1128|ref=fr._20
+1	67	67	u	u--------	_	2	AuxG	_	t_1127|t_1128|ref=fr._20a
+2	A	a	x	x--------	_	0	AuxG	_	t_1128|0|ref=fr._20a
+3	6	6	x	x--------	_	2	AuxG	_	t_1129|t_1128|ref=fr._20a
+4	.	.	u	u--------	_	2	AuxK	_	t_1130|t_1128|ref=fr._20a
+5	)	)	u	u--------	_	2	AuxG	_	t_1131|t_1128|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20
+# source = Musaeus, fr._20a
 # text = 20ᵃ .
 # sent_id = 94
-1	20ᵃ	20a	i	i--------	_	0	ExD	_	t_1132|0|ref=fr._20
-2	.	.	u	u--------	_	1	AuxK	_	t_1133|t_1132|ref=fr._20
+1	20ᵃ	20a	i	i--------	_	0	ExD	_	t_1132|0|ref=fr._20a
+2	.	.	u	u--------	_	1	AuxK	_	t_1133|t_1132|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20a-20
+# source = Musaeus, fr._20a
 # text = ἔχοντες Ὀνομάκριτον ἄνδρα Ἀθηναῖον χρησμολόγον τε καὶ διαθέτην Χρησμῶν τῶν Μουσαίου ἀναβεβήκεσαν [ näml .
 # sent_id = 95
 1	ἔχοντες	ἔχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	12	ADV	_	t_1134|t_1145|ref=fr._20a
@@ -1552,20 +1552,20 @@
 12	ἀναβεβήκεσαν	ἀναβαίνω	v	v3plia---	Mood=i|Number=p|Person=3|Tense=l|Voice=a	0	PRED	_	t_1145|0|ref=fr._20a
 13	[	[	u	u--------	_	12	AuxX	_	t_1146|t_1145|ref=fr._20a
 14	näml	näml	x	x--------	_	12	OBJ	_	t_1147|t_1145|ref=fr._20a
-15	.	.	u	u--------	_	12	AuxK	_	t_1148|t_1145|ref=fr._20
+15	.	.	u	u--------	_	12	AuxK	_	t_1148|t_1145|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20a
+# source = Musaeus, fr._20a
 # text = ἐς Σοῦσα ] τὴν ἔχθρην προκαταλυσάμενοι ·
 # sent_id = 96
 1	ἐς	εἰς	r	r--------	_	6	AuxP	_	t_1149|t_1154|ref=fr._20a
 2	Σοῦσα	σοῦσα	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_1150|t_1149|ref=fr._20a
 3	]	]	u	u--------	_	6	AuxX	_	t_1151|t_1154|ref=fr._20a
 4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_1152|t_1153|ref=fr._20a
-5	ἔχθρην	ἔχθρη	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_1153|t_1154|ref=fr._20
+5	ἔχθρην	ἔχθρη	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_1153|t_1154|ref=fr._20a
 6	προκαταλυσάμενοι	προκαταλύω	v	v-papmmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	0	ExD	_	t_1154|0|ref=fr._20a
 7	·	·	u	u--------	_	6	AuxK	_	t_1155|t_1154|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20a
+# source = Musaeus, fr._20a
 # text = ἐξηλάσθη γὰρ ὑπὸ Ἱππάρχου τοῦ Πεισιστράτου ὁ Ὀνομάκριτος ἐξ Ἀθηνέων ἐπʼ αὐτοφώρωι ἁλοὺς ὑπὸ Λάσου τοῦ Ἑρμιονέος ἐμποιέων ἐς τὰ Μουσαίου χρησμόν , ὡς αἱ ἐπὶ Λήμνωι ἐπικείμεναι νῆσοι ἀφανιζοίατο κατὰ τῆς θαλάσσης .
 # sent_id = 97
 1	ἐξηλάσθη	ἐξάλλομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1156|0|ref=fr._20a
@@ -1603,7 +1603,7 @@
 33	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	31	ADV	_	t_1188|t_1186|ref=fr._20a
 34	.	.	u	u--------	_	1	AuxK	_	t_1189|t_1156|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20a
+# source = Musaeus, fr._20a
 # text = διὸ ἐξήλασέ μιν ὁ Ἵππαρχος πρότερον χρεώμενος τὰ μάλιστα .
 # sent_id = 98
 1	διὸ	διό	d	d--------	_	2	AuxY	_	t_1190|t_1191|ref=fr._20a
@@ -1617,45 +1617,45 @@
 9	μάλιστα	μάλιστα	d	d--------	_	7	ADV	_	t_1198|t_1196|ref=fr._20a
 10	.	.	u	u--------	_	2	AuxK	_	t_1199|t_1191|ref=fr._20a
 
-# source = Musaeus, Eleusinius, fr._20a
+# source = Musaeus, fr._21
 # text = 21 .
 # sent_id = 99
-1	21	21	x	x--------	_	0	AuxG	_	t_1200|0|ref=fr._20a
-2	.	.	u	u--------	_	1	AuxK	_	t_1201|t_1200|ref=fr._20a
+1	21	21	x	x--------	_	0	AuxG	_	t_1200|0|ref=fr._21
+2	.	.	u	u--------	_	1	AuxK	_	t_1201|t_1200|ref=fr._21
 
-# source = Musaeus, Eleusinius, fr._20a
+# source = Musaeus, fr._21
 # text = [ 17 ] τῶν δὲ ναυηγίων πολλὰ ὑπολαβὼν ἄνεμος Ζέφυρος ἔφερε τῆς Ἀττικῆς ἐπὶ τὴν ἠιόνα τὴν καλεομένην Κωλιάδα .
 # sent_id = 100
-1	[	[	u	u--------	_	11	AuxG	_	t_1202|t_1212|ref=fr._20a
-2	17	17	x	x--------	_	11	ExD	_	t_1203|t_1212|ref=fr._20a
-3	]	]	u	u--------	_	11	AuxG	_	t_1204|t_1212|ref=fr._20a
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1205|t_1207|ref=fr._20a
-5	δὲ	δέ	d	d--------	_	11	AuxY	_	t_1206|t_1212|ref=fr._20a
-6	ναυηγίων	ναυπήγιον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1207|t_1208|ref=fr._20a
-7	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_1208|t_1209|ref=fr._20a
-8	ὑπολαβὼν	ὑπολαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	11	ADV	_	t_1209|t_1212|ref=fr._20a
-9	ἄνεμος	ἄνεμος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1210|t_1211|ref=fr._20a
-10	Ζέφυρος	ζέφυρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_1211|t_1212|ref=fr._20a
-11	ἔφερε	φέρω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1212|0|ref=fr._20a
-12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_1213|t_1214|ref=fr._20a
-13	Ἀττικῆς	ἀττική	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1214|t_1210|ref=fr._20a
-14	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_1215|t_1212|ref=fr._20a
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1216|t_1217|ref=fr._20a
-16	ἠιόνα	ἠιών	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_1217|t_1215|ref=fr._20a
-17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1218|t_1217|ref=fr._20a
-18	καλεομένην	καλέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	16	ATR	_	t_1219|t_1217|ref=fr._20a
-19	Κωλιάδα	κωλιάς	n	n-s---fa-	Case=a|Gender=f|Number=s	18	PNOM	_	t_1220|t_1219|ref=fr._20a
-20	.	.	u	u--------	_	11	AuxK	_	t_1221|t_1212|ref=fr._20a
+1	[	[	u	u--------	_	11	AuxG	_	t_1202|t_1212|ref=fr._21
+2	17	17	x	x--------	_	11	ExD	_	t_1203|t_1212|ref=fr._21
+3	]	]	u	u--------	_	11	AuxG	_	t_1204|t_1212|ref=fr._21
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1205|t_1207|ref=fr._21
+5	δὲ	δέ	d	d--------	_	11	AuxY	_	t_1206|t_1212|ref=fr._21
+6	ναυηγίων	ναυπήγιον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1207|t_1208|ref=fr._21
+7	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_1208|t_1209|ref=fr._21
+8	ὑπολαβὼν	ὑπολαμβάνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	11	ADV	_	t_1209|t_1212|ref=fr._21
+9	ἄνεμος	ἄνεμος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1210|t_1211|ref=fr._21
+10	Ζέφυρος	ζέφυρος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_1211|t_1212|ref=fr._21
+11	ἔφερε	φέρω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1212|0|ref=fr._21
+12	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_1213|t_1214|ref=fr._21
+13	Ἀττικῆς	ἀττική	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1214|t_1210|ref=fr._21
+14	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_1215|t_1212|ref=fr._21
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1216|t_1217|ref=fr._21
+16	ἠιόνα	ἠιών	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_1217|t_1215|ref=fr._21
+17	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_1218|t_1217|ref=fr._21
+18	καλεομένην	καλέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	16	ATR	_	t_1219|t_1217|ref=fr._21
+19	Κωλιάδα	κωλιάς	n	n-s---fa-	Case=a|Gender=f|Number=s	18	PNOM	_	t_1220|t_1219|ref=fr._21
+20	.	.	u	u--------	_	11	AuxK	_	t_1221|t_1212|ref=fr._21
 
-# source = Musaeus, Eleusinius, fr._20a-21
+# source = Musaeus, fr._21
 # text = ὥστε ἀποπλῆσαι τὸν χρησμὸν τόν τε ἄλλον πάντα τὸν περὶ τῆς ναυμαχίας ταύτης εἰρημένον Βάκιδι καὶ Μουσαίωι καὶ κτλ .
 # sent_id = 101
-1	ὥστε	ὥστε	d	d--------	_	2	AuxY	_	t_1222|t_1223|ref=fr._20a
-2	ἀποπλῆσαι	ἀποπλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_1223|0|ref=fr._20a
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1224|t_1225|ref=fr._20a
-4	χρησμὸν	χρησμός	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1225|t_1227|ref=fr._20a
-5	τόν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1226|t_1228|ref=fr._20a
-6	τε	τε	d	d--------	_	2	COORD	_	t_1227|t_1223|ref=fr._20a
+1	ὥστε	ὥστε	d	d--------	_	2	AuxY	_	t_1222|t_1223|ref=fr._21
+2	ἀποπλῆσαι	ἀποπλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	0	PRED	_	t_1223|0|ref=fr._21
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1224|t_1225|ref=fr._21
+4	χρησμὸν	χρησμός	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1225|t_1227|ref=fr._21
+5	τόν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1226|t_1228|ref=fr._21
+6	τε	τε	d	d--------	_	2	COORD	_	t_1227|t_1223|ref=fr._21
 7	ἄλλον	ἄλλος	p	p-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1228|t_1227|ref=fr._21
 8	πάντα	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1229|t_1228|ref=fr._21
 9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1230|t_1228|ref=fr._21
@@ -1671,7 +1671,7 @@
 19	κτλ	κτλ	x	x--------	_	18	OBJ	_	t_1240|t_1239|ref=fr._21
 20	.	.	u	u--------	_	2	AuxK	_	t_1241|t_1223|ref=fr._21
 
-# source = Musaeus, Eleusinius, fr._21
+# source = Musaeus, fr._21
 # text = ( folgt der Spruch des Lysistratos ) .
 # sent_id = 102
 1	(	̔	u	u--------	_	2	AuxG	_	t_1242|t_1243|ref=fr._21
@@ -1683,45 +1683,45 @@
 7	)	)	u	u--------	_	2	AuxG	_	t_1248|t_1243|ref=fr._21
 8	.	.	u	u--------	_	2	AuxK	_	t_1249|t_1243|ref=fr._21
 
-# source = Musaeus, Eleusinius, fr._21
+# source = Musaeus, fr._22
 # text = 22 .
 # sent_id = 103
-1	22	22	x	x--------	_	0	AuxG	_	t_1250|0|ref=fr._21
-2	.	.	u	u--------	_	1	AuxK	_	t_1251|t_1250|ref=fr._21
+1	22	22	x	x--------	_	0	AuxG	_	t_1250|0|ref=fr._22
+2	.	.	u	u--------	_	1	AuxK	_	t_1251|t_1250|ref=fr._22
 
-# source = Musaeus, Eleusinius, fr._21
+# source = Musaeus, fr._22
 # text = [ 18 ] τὴν δὲ πληγὴν Ἀθηναῖοι τὴν ἐν Αἰγὸς ποταμοῖς οὐ μετὰ τοῦ δικαίου συμβῆναί σφισιν ὁμολογοῦσι .
 # sent_id = 104
-1	[	[	u	u--------	_	18	AuxG	_	t_1252|t_1269|ref=fr._21
-2	18	18	x	x--------	_	18	AuxY	_	t_1253|t_1269|ref=fr._21
-3	]	]	u	u--------	_	18	AuxG	_	t_1254|t_1269|ref=fr._21
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1255|t_1257|ref=fr._21
-5	δὲ	δέ	d	d--------	_	18	AuxY	_	t_1256|t_1269|ref=fr._21
-6	πληγὴν	πληγή	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_1257|t_1267|ref=fr._21
-7	Ἀθηναῖοι	ἀθηναῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_1258|t_1269|ref=fr._21
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1259|t_1257|ref=fr._21
-9	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_1260|t_1257|ref=fr._21
-10	Αἰγὸς	αἴξ	n	n-s---mg-	Case=n|Gender=m|Number=s	11	ATR	_	t_1261|t_1262|ref=fr._21
-11	ποταμοῖς	ποταμός	n	n-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_1262|t_1260|ref=fr._21
-12	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_1263|t_1267|ref=fr._21
-13	μετὰ	μετά	r	r--------	_	16	AuxP	_	t_1264|t_1267|ref=fr._21
-14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1265|t_1266|ref=fr._21
-15	δικαίου	δίκαιος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_1266|t_1264|ref=fr._21
-16	συμβῆναί	συμβαίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_1267|t_1269|ref=fr._21
-17	σφισιν	σφεῖς	p	p-p---md-	Case=d|Gender=m|Number=p	16	OBJ	_	t_1268|t_1267|ref=fr._21
-18	ὁμολογοῦσι	ὁμολογέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1269|0|ref=fr._21
-19	.	.	u	u--------	_	18	AuxK	_	t_1270|t_1269|ref=fr._21
+1	[	[	u	u--------	_	18	AuxG	_	t_1252|t_1269|ref=fr._22
+2	18	18	x	x--------	_	18	AuxY	_	t_1253|t_1269|ref=fr._22
+3	]	]	u	u--------	_	18	AuxG	_	t_1254|t_1269|ref=fr._22
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1255|t_1257|ref=fr._22
+5	δὲ	δέ	d	d--------	_	18	AuxY	_	t_1256|t_1269|ref=fr._22
+6	πληγὴν	πληγή	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_1257|t_1267|ref=fr._22
+7	Ἀθηναῖοι	ἀθηναῖος	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_1258|t_1269|ref=fr._22
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1259|t_1257|ref=fr._22
+9	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_1260|t_1257|ref=fr._22
+10	Αἰγὸς	αἴξ	n	n-s---mg-	Case=n|Gender=m|Number=s	11	ATR	_	t_1261|t_1262|ref=fr._22
+11	ποταμοῖς	ποταμός	n	n-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_1262|t_1260|ref=fr._22
+12	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_1263|t_1267|ref=fr._22
+13	μετὰ	μετά	r	r--------	_	16	AuxP	_	t_1264|t_1267|ref=fr._22
+14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1265|t_1266|ref=fr._22
+15	δικαίου	δίκαιος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_1266|t_1264|ref=fr._22
+16	συμβῆναί	συμβαίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_1267|t_1269|ref=fr._22
+17	σφισιν	σφεῖς	p	p-p---md-	Case=d|Gender=m|Number=p	16	OBJ	_	t_1268|t_1267|ref=fr._22
+18	ὁμολογοῦσι	ὁμολογέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1269|0|ref=fr._22
+19	.	.	u	u--------	_	18	AuxK	_	t_1270|t_1269|ref=fr._22
 
-# source = Musaeus, Eleusinius, fr._21-22
+# source = Musaeus, fr._22
 # text = προδοθῆναι γὰρ ἐπὶ χρήμασιν ὑπὸ τῶν στρατηγησάντων , Τυδέα δὲ εἶναι καὶ Ἀδείμαντον οἳ τὰ δῶρα ἐδέξαντο παρὰ Λυσάνδρου .
 # sent_id = 105
-1	προδοθῆναι	προδίδωμι	v	v--anp---	Mood=n|Tense=a|Voice=p	10	PRED	_	t_1271|t_1280|ref=fr._21
-2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_1272|t_1280|ref=fr._21
-3	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_1273|t_1271|ref=fr._21
-4	χρήμασιν	χρῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_1274|t_1273|ref=fr._21
-5	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_1275|t_1271|ref=fr._21
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1276|t_1277|ref=fr._21
-7	στρατηγησάντων	στρατηγέω	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	5	OBJ	_	t_1277|t_1275|ref=fr._21
+1	προδοθῆναι	προδίδωμι	v	v--anp---	Mood=n|Tense=a|Voice=p	10	PRED	_	t_1271|t_1280|ref=fr._22
+2	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_1272|t_1280|ref=fr._22
+3	ἐπὶ	ἐπί	r	r--------	_	1	AuxP	_	t_1273|t_1271|ref=fr._22
+4	χρήμασιν	χρῆμα	n	n-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_1274|t_1273|ref=fr._22
+5	ὑπὸ	ὑπό	r	r--------	_	1	AuxP	_	t_1275|t_1271|ref=fr._22
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1276|t_1277|ref=fr._22
+7	στρατηγησάντων	στρατηγέω	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	5	OBJ	_	t_1277|t_1275|ref=fr._22
 8	,	,	u	u--------	_	0	AuxX	_	t_1278|0|ref=fr._22
 9	Τυδέα	τυδεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_1279|t_1282|ref=fr._22
 10	δὲ	δέ	c	c--------	_	8	COORD	_	t_1280|t_1278|ref=fr._22
@@ -1736,7 +1736,7 @@
 19	Λυσάνδρου	λύσανδρος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_1289|t_1288|ref=fr._22
 20	.	.	u	u--------	_	8	AuxK	_	t_1290|t_1278|ref=fr._22
 
-# source = Musaeus, Eleusinius, fr._22
+# source = Musaeus, fr._22
 # text = καὶ ἐς ἀπόδειξιν τοῦ λόγου Σιβύλλης παρέχονται τῶν χρησμῶν . . .
 # sent_id = 106
 1	καὶ	καί	d	d--------	_	7	AuxY	_	t_1291|t_1297|ref=fr._22
@@ -1752,7 +1752,7 @@
 11	.	.	u	u--------	_	7	AuxK	_	t_1301|t_1297|ref=fr._22
 12	.	.	u	u--------	_	7	AuxK	_	t_1302|t_1297|ref=fr._22
 
-# source = Musaeus, Eleusinius, fr._22
+# source = Musaeus, fr._22
 # text = τὰ δὲ ἕτερα ἐκ Μουσαίου χρησμῶν μνημονεύουσι ·
 # sent_id = 107
 1	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	3	ATR	_	t_1303|t_1305|ref=fr._22
@@ -1764,7 +1764,7 @@
 7	μνημονεύουσι	μνημονεύω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1309|0|ref=fr._22
 8	·	·	u	u--------	_	7	AuxK	_	t_1310|t_1309|ref=fr._22
 
-# source = Musaeus, Eleusinius, fr._22
+# source = Musaeus, fr._22
 # text = καὶ γὰρ Ἀθηναίοισιν ἐπέρχεται ἄγριος ὄμβρος ἡγεμόνων κακότητι , παραιφασίη δέ τις ἔσται ·
 # sent_id = 108
 1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_1311|t_1313|ref=fr._22
@@ -1782,7 +1782,7 @@
 13	ἔσται	εἰμί	v	v3sfi----	Mood=i|Number=s|Person=3|Tense=f	11	PRED	_	t_1323|t_1321|ref=fr._22
 14	·	·	u	u--------	_	11	AuxK	_	t_1324|t_1321|ref=fr._22
 
-# source = Musaeus, Eleusinius, fr._22
+# source = Musaeus, fr._22
 # text = ἦ τ ( ε ) ἅλις ἠμύσουσι πόλιν , τείσουσι δὲ ποινήν .
 # sent_id = 109
 1	ἦ	ἦ	d	d--------	_	11	AuxY	_	t_1325|t_1335|ref=fr._22

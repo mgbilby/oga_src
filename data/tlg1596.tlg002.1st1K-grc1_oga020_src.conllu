@@ -37,14 +37,14 @@
 23	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_29|t_25|ref=fr._1
 24	.	.	u	u--------	_	7	AuxK	_	t_30|t_13|ref=fr._1
 
-# source = Philolaus of Croton, fr._1-2
+# source = Philolaus of Croton, fr._2
 # text = Ἐκτοῦ Φιλολάου περὶ κόσμου [0] .
 # sent_id = 3
-1	Ἐκτοῦ	ἐκ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_31|t_32|ref=fr._1
+1	Ἐκτοῦ	ἐκ	l	l-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_31|t_32|ref=fr._2
 2	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_32|e_2|ref=fr._2
 3	περὶ	περί	r	r--------	_	5	AuxP	_	t_33|e_2|ref=fr._2
 4	κόσμου	κόσμος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_34|t_33|ref=fr._2
-5	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._2
 6	.	.	u	u--------	_	5	AuxK	_	t_35|e_2|ref=fr._2
 
 # source = Philolaus of Croton, fr._2
@@ -112,8 +112,8 @@
 29	ἐν	ἐν	r	r--------	_	28	AuxP	_	t_91|t_90|ref=fr._2
 30	αὐτῶι	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	29	ATR	_	t_92|t_91|ref=fr._2
 31	συναρμόχθη	συναρμόζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	18	SBJ	_	t_93|t_80|ref=fr._2
-32	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._1
-33	[1]	[1]	-	---------	_	18	SBJ	_	e_4|t_80|ref=fr._1
+32	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._2
+33	[1]	[1]	-	---------	_	18	SBJ	_	e_4|t_80|ref=fr._2
 34	.	.	u	u--------	_	32	AuxK	_	t_94|e_3|ref=fr._2
 
 # source = Philolaus of Croton, fr._2
@@ -185,17 +185,17 @@
 20	Περὶ	περί	n	n-p---md-	Case=d|Gender=m|Number=p	18	ADV	_	t_150|t_148|ref=fr._2
 21	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_151|t_150|ref=fr._2
 22	.	.	u	u--------	_	23	AuxK	_	t_152|e_5|ref=fr._2
-23	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=fr._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=fr._2
 24	)	)	u	u--------	_	23	AuxG	_	t_153|e_5|ref=fr._2
 
-# source = Philolaus of Croton, fr._2-3
+# source = Philolaus of Croton, fr._3
 # text = ἀρχὰν γὰρ οὐ δὲ τὸ γνωσούμενον ἐσσεῖται πάντων ἀπείρων ἐόντων κατὰ τὸν Φιλόλαον .
 # sent_id = 9
-1	ἀρχὰν	ἀρχή	d	d--------	_	7	ADV	_	t_154|t_160|ref=fr._2
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_155|t_160|ref=fr._2
-3	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_156|t_160|ref=fr._2
-4	δὲ	δέ	d	d--------	_	3	AuxZ	_	t_157|t_156|ref=fr._2
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_158|t_159|ref=fr._2
+1	ἀρχὰν	ἀρχή	d	d--------	_	7	ADV	_	t_154|t_160|ref=fr._3
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_155|t_160|ref=fr._3
+3	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_156|t_160|ref=fr._3
+4	δὲ	δέ	d	d--------	_	3	AuxZ	_	t_157|t_156|ref=fr._3
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_158|t_159|ref=fr._3
 6	γνωσούμενον	γιγνώσκω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	SBJ	_	t_159|t_160|ref=fr._3
 7	ἐσσεῖται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_160|0|ref=fr._3
 8	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	10	SBJ	_	t_161|t_163|ref=fr._3
@@ -206,18 +206,18 @@
 13	Φιλόλαον	φιλόλαος	n	n-s---ma-	Case=a|Gender=m|Number=s	11	ADV	_	t_166|t_164|ref=fr._3
 14	.	.	u	u--------	_	7	AuxK	_	t_167|t_160|ref=fr._3
 
-# source = Philolaus of Croton, fr._3-4
+# source = Philolaus of Croton, fr._4
 # text = καὶ πάντα γα μὰν τὰ γιγνωσκόμενα ἀριθμὸν ἔχοντι [0] ·
 # sent_id = 10
-1	καὶ	καί	d	d--------	_	9	AuxY	_	t_168|e_6|ref=fr._3
-2	πάντα	πᾶς	a	a-p---na-	Case=n|Gender=n|Number=p	8	OBJ	_	t_169|t_175|ref=fr._3
-3	γα	γα	a	a-p---nn-	Case=a|Gender=n|Number=p	2	AuxZ	_	t_170|t_169|ref=fr._3
-4	μὰν	μήν	d	d--------	_	9	AuxZ	_	t_171|e_6|ref=fr._3
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_172|t_173|ref=fr._3
+1	καὶ	καί	d	d--------	_	9	AuxY	_	t_168|e_6|ref=fr._4
+2	πάντα	πᾶς	a	a-p---na-	Case=n|Gender=n|Number=p	8	OBJ	_	t_169|t_175|ref=fr._4
+3	γα	γα	a	a-p---nn-	Case=a|Gender=n|Number=p	2	AuxZ	_	t_170|t_169|ref=fr._4
+4	μὰν	μήν	d	d--------	_	9	AuxZ	_	t_171|e_6|ref=fr._4
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_172|t_173|ref=fr._4
 6	γιγνωσκόμενα	γιγνώσκω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	8	OBJ	_	t_173|t_175|ref=fr._4
 7	ἀριθμὸν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_174|t_175|ref=fr._4
 8	ἔχοντι	ἔχω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	9	ADV	_	t_175|e_6|ref=fr._4
-9	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._4
 10	·	·	u	u--------	_	9	AuxK	_	t_176|e_6|ref=fr._4
 
 # source = Philolaus of Croton, fr._4
@@ -236,19 +236,19 @@
 11	γνωσθῆμεν	γιγνώσκω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	10	PRED	_	t_187|t_186|ref=fr._4
 12	ἄνευ	ἄνευ	r	r--------	_	10	AuxP	_	t_188|t_186|ref=fr._4
 13	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	12	ADV	_	t_189|t_188|ref=fr._4
-14	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._4
 15	.	.	u	u--------	_	14	AuxK	_	t_190|e_7|ref=fr._4
 
-# source = Philolaus of Croton, fr._4-5
+# source = Philolaus of Croton, fr._5
 # text = ὅ γα μὰν ἀριθμὸς ἔχει δύο μὲν ἴδια εἴδη , περισσὸν καὶ ἄρτιον , τρίτον δὲ ἀπʼ ἀμφοτέρων μειχθέντων ἀρτιοπέριττον ·
 # sent_id = 12
-1	ὅ	ὅς	p	p-s---na-	_	5	ADV	_	t_191|t_195|ref=fr._4
-2	γα	γα	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_192|t_195|ref=fr._4
-3	μὰν	μήν	d	d--------	_	5	AuxY	_	t_193|t_195|ref=fr._4
-4	ἀριθμὸς	ἀριθμός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_194|t_195|ref=fr._4
-5	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_195|0|ref=fr._4
-6	δύο	δύο	a	a--------	_	9	ATR	_	t_196|t_199|ref=fr._4
-7	μὲν	μέν	d	d--------	_	16	AuxY	_	t_197|t_206|ref=fr._4
+1	ὅ	ὅς	p	p-s---na-	_	5	ADV	_	t_191|t_195|ref=fr._5
+2	γα	γα	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_192|t_195|ref=fr._5
+3	μὰν	μήν	d	d--------	_	5	AuxY	_	t_193|t_195|ref=fr._5
+4	ἀριθμὸς	ἀριθμός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_194|t_195|ref=fr._5
+5	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_195|0|ref=fr._5
+6	δύο	δύο	a	a--------	_	9	ATR	_	t_196|t_199|ref=fr._5
+7	μὲν	μέν	d	d--------	_	16	AuxY	_	t_197|t_206|ref=fr._5
 8	ἴδια	ἴδιος	a	a-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_198|t_199|ref=fr._5
 9	εἴδη	εἶδος	n	n-p---na-	Case=a|Gender=n|Number=p	16	ADV	_	t_199|t_206|ref=fr._5
 10	,	,	u	u--------	_	5	AuxX	_	t_200|t_195|ref=fr._5
@@ -278,20 +278,20 @@
 9	ἕκαστον	ἕκαστος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_220|t_221|ref=fr._5
 10	αὐταυτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_221|t_222|ref=fr._5
 11	σημαίνει	σημαίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	ATR	_	t_222|t_217|ref=fr._5
-12	[0]	[0]	-	---------	_	2	PRED	_	e_8|t_213|ref=fr._1
+12	[0]	[0]	-	---------	_	2	PRED	_	e_8|t_213|ref=fr._5
 13	.	.	u	u--------	_	2	AuxK	_	t_223|t_213|ref=fr._5
 
-# source = Philolaus of Croton, fr._5
+# source = Philolaus of Croton, fr._6
 # text = περὶ δὲ φύσιος καὶ ἁρμονίας ὧδε ἔχει ·
 # sent_id = 14
-1	περὶ	περί	r	r--------	_	7	AuxP	_	t_224|t_230|ref=fr._5
-2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_225|t_230|ref=fr._5
-3	φύσιος	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_226|t_227|ref=fr._5
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_227|t_224|ref=fr._5
-5	ἁρμονίας	ἁρμονία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_228|t_227|ref=fr._5
-6	ὧδε	ὧδε	d	d--------	_	7	ADV	_	t_229|t_230|ref=fr._5
-7	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_230|0|ref=fr._5
-8	·	·	u	u--------	_	7	AuxK	_	t_231|t_230|ref=fr._5
+1	περὶ	περί	r	r--------	_	7	AuxP	_	t_224|t_230|ref=fr._6
+2	δὲ	δέ	d	d--------	_	7	AuxY	_	t_225|t_230|ref=fr._6
+3	φύσιος	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_226|t_227|ref=fr._6
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_227|t_224|ref=fr._6
+5	ἁρμονίας	ἁρμονία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_228|t_227|ref=fr._6
+6	ὧδε	ὧδε	d	d--------	_	7	ADV	_	t_229|t_230|ref=fr._6
+7	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_230|0|ref=fr._6
+8	·	·	u	u--------	_	7	AuxK	_	t_231|t_230|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
 # text = ἁ μὲν ἐστὼ τῶν πραγμάτων ἀίδιος ἔσσα καὶ αὐτὰ μὲν ἁ φύσις θείαν γα καὶ οὐκ ἀνθρωπίνην ἐνδέχεται γνῶσιν πλέον γα ἢ ὅτι οὐχ οἷόν τʼ ἦν οὐθὲν τῶν ἐόντων καὶ γιγνωσκόμενον ὑφʼ ἁμῶν γα γενέσθαι μὴ ὑπαρχούσας τᾶς ἐκτοῦς τῶν πρα γμάτων , ἐξ ὧν συνέστα ὁ κόσμος , καὶ τῶν περαινόντων καὶ τῶν ἀπείρων [0] [1] [2] .
@@ -352,9 +352,9 @@
 54	καὶ	καί	c	c--------	_	40	COORD	_	t_285|t_271|ref=fr._6
 55	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	56	ATR	_	t_286|t_287|ref=fr._6
 56	ἀπείρων	ἀπείρων	a	a-p---ng-	Case=g|Gender=n|Number=p	54	ATR	_	t_287|t_285|ref=fr._6
-57	[0]	[0]	-	---------	_	22	ADV	_	e_9|t_253|ref=fr._1
-58	[1]	[1]	-	---------	_	22	ADV	_	e_10|t_253|ref=fr._1
-59	[2]	[2]	-	---------	_	22	ADV	_	e_11|t_253|ref=fr._1
+57	[0]	[0]	-	---------	_	22	ADV	_	e_9|t_253|ref=fr._6
+58	[1]	[1]	-	---------	_	22	ADV	_	e_10|t_253|ref=fr._6
+59	[2]	[2]	-	---------	_	22	ADV	_	e_11|t_253|ref=fr._6
 60	.	.	u	u--------	_	8	AuxK	_	t_288|t_239|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -387,7 +387,7 @@
 25	ἅδε	ὅδε	p	p-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_313|t_315|ref=fr._6
 26	τρόπωι	τρόπος	n	n-s---md-	Case=d|Gender=m|Number=s	27	PNOM	_	t_314|t_315|ref=fr._6
 27	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	20	ADV	_	t_315|t_308|ref=fr._6
-28	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._1
+28	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._6
 29	.	.	u	u--------	_	28	AuxK	_	t_316|e_12|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -423,7 +423,7 @@
 28	ἐν	ἐν	r	r--------	_	30	AuxP	_	t_344|t_346|ref=fr._6
 29	κόσμωι	κόσμος	n	n-s---md-	Case=d|Gender=m|Number=s	28	ADV	_	t_345|t_344|ref=fr._6
 30	κατέχεσθαι	κατέχω	v	v--pne---	Mood=n|Tense=p|Voice=e	27	OBJ	_	t_346|t_343|ref=fr._6
-31	[0]	[0]	-	---------	_	12	PRED	_	e_13|t_328|ref=fr._1
+31	[0]	[0]	-	---------	_	12	PRED	_	e_13|t_328|ref=fr._6
 32	.	.	u	u--------	_	10	AuxK	_	t_347|t_326|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -450,7 +450,7 @@
 6	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_362|t_363|ref=fr._6
 7	συλλαβᾶς	συλλαβή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_363|t_361|ref=fr._6
 8	ἐπογδόωι	ἐπόγδοος	v	v-sppemd-	Case=d|Gender=m|Number=s	9	ADV	_	t_364|e_14|ref=fr._6
-9	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._6
 10	.	.	u	u--------	_	9	AuxK	_	t_365|e_14|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -486,9 +486,9 @@
 28	ὑπάταν	ὑπάτη	n	n-s---fa-	Case=a|Gender=f|Number=s	27	ADV	_	t_393|t_392|ref=fr._6
 29	διʼ	διά	r	r--------	_	33	AuxP	_	t_394|e_17|ref=fr._6
 30	ὀξειᾶν	ὀξύς	n	n-s---fa-	Mood=n|Tense=p|Voice=a	29	ADV	_	t_395|t_394|ref=fr._6
-31	[0]	[0]	-	---------	_	25	PRED	_	e_15|t_390|ref=fr._1
-32	[1]	[1]	-	---------	_	25	PRED	_	e_16|t_390|ref=fr._1
-33	[2]	[2]	-	---------	_	25	PRED	_	e_17|t_390|ref=fr._1
+31	[0]	[0]	-	---------	_	25	PRED	_	e_15|t_390|ref=fr._6
+32	[1]	[1]	-	---------	_	25	PRED	_	e_16|t_390|ref=fr._6
+33	[2]	[2]	-	---------	_	25	PRED	_	e_17|t_390|ref=fr._6
 34	·	·	u	u--------	_	8	AuxK	_	t_396|t_373|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -502,7 +502,7 @@
 6	καὶ	καί	c	c--------	_	2	COORD	_	t_402|t_398|ref=fr._6
 7	τρίτας	τρίτος	a	a-p---fa-	Case=a|Gender=f|Number=p	8	OBJ	_	t_403|t_404|ref=fr._6
 8	ἐπόγδοον	ἐπόγδοος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_404|t_402|ref=fr._6
-9	[0]	[0]	-	---------	_	6	PRED	_	e_18|t_402|ref=fr._1
+9	[0]	[0]	-	---------	_	6	PRED	_	e_18|t_402|ref=fr._6
 10	·	·	u	u--------	_	2	AuxK	_	t_405|t_398|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -524,9 +524,9 @@
 14	πασᾶν	πᾶς	a	a-p---fg-	Case=g|Gender=f|Number=p	13	ADV	_	t_419|t_418|ref=fr._6
 15	δὲ	δέ	d	d--------	_	5	COORD	_	t_420|t_410|ref=fr._6
 16	διπλόον	διπλόος	a	a-s---nn-	Case=n|Gender=n|Number=s	19	PNOM	_	t_421|e_21|ref=fr._6
-17	[0]	[0]	-	---------	_	15	PRED	_	e_19|t_420|ref=fr._1
-18	[1]	[1]	-	---------	_	15	PRED	_	e_20|t_420|ref=fr._1
-19	[2]	[2]	-	---------	_	15	PRED	_	e_21|t_420|ref=fr._1
+17	[0]	[0]	-	---------	_	15	PRED	_	e_19|t_420|ref=fr._6
+18	[1]	[1]	-	---------	_	15	PRED	_	e_20|t_420|ref=fr._6
+19	[2]	[2]	-	---------	_	15	PRED	_	e_21|t_420|ref=fr._6
 20	.	.	u	u--------	_	5	AuxK	_	t_422|t_410|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -554,8 +554,8 @@
 20	ἐπόγδοα	ἐπόγδοος	a	a-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_442|t_443|ref=fr._6
 21	καὶ	καί	c	c--------	_	24	COORD	_	t_443|e_23|ref=fr._6
 22	δίεσις	δίεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_444|t_443|ref=fr._6
-23	[0]	[0]	-	---------	_	18	PRED	_	e_22|t_440|ref=fr._1
-24	[1]	[1]	-	---------	_	18	PRED	_	e_23|t_440|ref=fr._1
+23	[0]	[0]	-	---------	_	18	PRED	_	e_22|t_440|ref=fr._6
+24	[1]	[1]	-	---------	_	18	PRED	_	e_23|t_440|ref=fr._6
 25	.	.	u	u--------	_	8	AuxK	_	t_445|t_430|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -572,7 +572,7 @@
 9	talibus	talibus	a	a-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_454|t_455|ref=fr._6
 10	definitionibus	ὁμοίωσις	n	n-p---fg-	Case=g|Gender=f|Number=p	11	OBJ	_	t_455|t_456|ref=fr._6
 11	includit	ἐξωθέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	12	OBJ	_	t_456|e_24|ref=fr._6
-12	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=fr._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=fr._6
 13	:	:	u	u--------	_	12	AuxK	_	t_457|e_24|ref=fr._6
 
 # source = Philolaus of Croton, fr._6
@@ -634,133 +634,133 @@
 13	est	εἰμί	v	v3spma---	Case=n|Gender=f|Number=s	17	PRED	_	t_503|e_26|ref=fr._6
 14	semitonii	semitanus	n	n-s---fd-	_	13	OBJ	_	t_504|t_503|ref=fr._6
 15	minoris	minoris	d	d--------	_	13	ADV	_	t_505|t_503|ref=fr._6
-16	[0]	[0]	-	---------	_	11	PRED	_	e_25|t_501|ref=fr._1
-17	[1]	[1]	-	---------	_	11	PRED	_	e_26|t_501|ref=fr._1
+16	[0]	[0]	-	---------	_	11	PRED	_	e_25|t_501|ref=fr._6
+17	[1]	[1]	-	---------	_	11	PRED	_	e_26|t_501|ref=fr._6
 18	.	.	u	u--------	_	11	AuxK	_	t_506|t_501|ref=fr._6
 
-# source = Philolaus of Croton, fr._6
+# source = Philolaus of Croton, fr._7
 # text = τὸ πρᾶτον ἁρμοσθέν , τὸ ἕν , ἐν τῶι μέσωι τᾶς σφαίρας ἑστία καλεῖται .
 # sent_id = 28
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_507|t_508|ref=fr._6
-2	πρᾶτον	πρᾶτος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_508|t_509|ref=fr._6
-3	ἁρμοσθέν	ἁρμόζω	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	4	PRED	_	t_509|t_510|ref=fr._6
-4	,	,	u	u--------	_	14	AuxX	_	t_510|t_520|ref=fr._6
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_511|t_512|ref=fr._6
-6	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_512|t_509|ref=fr._6
-7	,	,	u	u--------	_	14	AuxX	_	t_513|t_520|ref=fr._6
-8	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_514|t_520|ref=fr._6
-9	τῶι	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_515|t_516|ref=fr._6
-10	μέσωι	μέσος	a	a-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_516|t_514|ref=fr._6
-11	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_517|t_518|ref=fr._6
-12	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_518|t_516|ref=fr._6
-13	ἑστία	ἑστία	n	n-s---fn-	Case=n|Gender=f|Number=s	14	PNOM	_	t_519|t_520|ref=fr._6
-14	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_520|0|ref=fr._6
-15	.	.	u	u--------	_	14	AuxK	_	t_521|t_520|ref=fr._6
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_507|t_508|ref=fr._7
+2	πρᾶτον	πρᾶτος	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_508|t_509|ref=fr._7
+3	ἁρμοσθέν	ἁρμόζω	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	4	PRED	_	t_509|t_510|ref=fr._7
+4	,	,	u	u--------	_	14	AuxX	_	t_510|t_520|ref=fr._7
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_511|t_512|ref=fr._7
+6	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_512|t_509|ref=fr._7
+7	,	,	u	u--------	_	14	AuxX	_	t_513|t_520|ref=fr._7
+8	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_514|t_520|ref=fr._7
+9	τῶι	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_515|t_516|ref=fr._7
+10	μέσωι	μέσος	a	a-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_516|t_514|ref=fr._7
+11	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_517|t_518|ref=fr._7
+12	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_518|t_516|ref=fr._7
+13	ἑστία	ἑστία	n	n-s---fn-	Case=n|Gender=f|Number=s	14	PNOM	_	t_519|t_520|ref=fr._7
+14	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_520|0|ref=fr._7
+15	.	.	u	u--------	_	14	AuxK	_	t_521|t_520|ref=fr._7
 
-# source = Philolaus of Croton, fr._6-7
+# source = Philolaus of Croton, fr._8
 # text = ἡ μὲν μονὰς ὡς ἂν ἀρχὴ οὖσα πάντων κατὰ τὸν Φιλόλαον ( οὐ γὰρ ἕν φησιν ἀρχὰ πάντων ; [0] [1] )
 # sent_id = 29
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_522|t_524|ref=fr._6
-2	μὲν	μέν	d	d--------	_	20	AuxY	_	t_523|e_27|ref=fr._6
-3	μονὰς	μονή	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_524|e_27|ref=fr._6
-4	ὡς	ὡς	d	d--------	_	7	AuxZ	_	t_525|t_528|ref=fr._6
-5	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_526|t_528|ref=fr._6
-6	ἀρχὴ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_527|t_528|ref=fr._6
-7	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_528|e_27|ref=fr._6
-8	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_529|t_527|ref=fr._6
-9	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_530|t_528|ref=fr._6
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_531|t_532|ref=fr._6
-11	Φιλόλαον	φιλόλαος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	PNOM	_	t_532|t_530|ref=fr._6
-12	(	̔	u	u--------	_	16	AuxG	_	t_533|t_537|ref=fr._7
-13	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_534|t_537|ref=fr._7
-14	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_535|t_537|ref=fr._7
-15	ἕν	εἷς	n	n-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_536|t_538|ref=fr._7
-16	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_537|0|ref=fr._7
-17	ἀρχὰ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_538|e_28|ref=fr._7
-18	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_539|t_538|ref=fr._7
-19	;	;	u	u--------	_	16	AuxG	_	t_540|t_537|ref=fr._7
-20	[0]	[0]	-	---------	_	16	PRED	_	e_27|t_537|ref=fr._1
-21	[1]	[1]	-	---------	_	16	PRED	_	e_28|t_537|ref=fr._1
-22	)	)	u	u--------	_	16	AuxG	_	t_541|t_537|ref=fr._7
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_522|t_524|ref=fr._8
+2	μὲν	μέν	d	d--------	_	20	AuxY	_	t_523|e_27|ref=fr._8
+3	μονὰς	μονή	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_524|e_27|ref=fr._8
+4	ὡς	ὡς	d	d--------	_	7	AuxZ	_	t_525|t_528|ref=fr._8
+5	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_526|t_528|ref=fr._8
+6	ἀρχὴ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_527|t_528|ref=fr._8
+7	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_528|e_27|ref=fr._8
+8	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_529|t_527|ref=fr._8
+9	κατὰ	κατά	r	r--------	_	7	AuxP	_	t_530|t_528|ref=fr._8
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_531|t_532|ref=fr._8
+11	Φιλόλαον	φιλόλαος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	PNOM	_	t_532|t_530|ref=fr._8
+12	(	̔	u	u--------	_	16	AuxG	_	t_533|t_537|ref=fr._8
+13	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_534|t_537|ref=fr._8
+14	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_535|t_537|ref=fr._8
+15	ἕν	εἷς	n	n-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_536|t_538|ref=fr._8
+16	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_537|0|ref=fr._8
+17	ἀρχὰ	ἀρχή	n	n-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_538|e_28|ref=fr._8
+18	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_539|t_538|ref=fr._8
+19	;	;	u	u--------	_	16	AuxG	_	t_540|t_537|ref=fr._8
+20	[0]	[0]	-	---------	_	16	PRED	_	e_27|t_537|ref=fr._8
+21	[1]	[1]	-	---------	_	16	PRED	_	e_28|t_537|ref=fr._8
+22	)	)	u	u--------	_	16	AuxG	_	t_541|t_537|ref=fr._8
 
-# source = Philolaus of Croton, fr._7
+# source = Philolaus of Croton, fr._8
 # text = κτλ .
 # sent_id = 30
-1	κτλ	κτλ	x	x--------	_	0	AuxG	_	t_542|0|ref=fr._7
-2	.	.	u	u--------	_	1	AuxK	_	t_543|t_542|ref=fr._7
-
-# source = Philolaus of Croton, fr._7-8
-# text = ἑτέρου γὰρ καιροῦ διερευνᾶν ἐπὶ πλέον πῶς καὶ τετραγωνισθέντος ἀπὸ τῆς στιχηδὸν ἐκθέσεως τοῦ ἀριθμοῦ οὐκ ἐλάττονα πιθανὰ ἐπισυμβαίνει φύσε ·
-# sent_id = 31
-1	ἑτέρου	ἕτερος	a	a-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_544|t_546|ref=fr._7
-2	γὰρ	γάρ	d	d--------	_	20	AuxY	_	t_545|t_563|ref=fr._7
-3	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_546|t_549|ref=fr._7
-4	διερευνᾶν	διερευνάω	v	v--pna---	Mood=n|Tense=p|Voice=a	20	SBJ	_	t_547|t_563|ref=fr._7
-5	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_548|t_547|ref=fr._8
-6	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	5	ADV	_	t_549|t_548|ref=fr._8
-7	πῶς	πῶς	d	d--------	_	9	ADV	_	t_550|t_552|ref=fr._8
-8	καὶ	καί	c	c--------	_	9	AuxZ	_	t_551|t_552|ref=fr._8
-9	τετραγωνισθέντος	τετραγωνίζω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	19	ADV	_	t_552|t_562|ref=fr._8
-10	ἀπὸ	ἀπό	r	r--------	_	9	AuxP	_	t_553|t_552|ref=fr._8
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_554|t_555|ref=fr._8
-12	στιχηδὸν	στιχηδόν	d	d--------	_	10	ADV	_	t_555|t_553|ref=fr._8
-13	ἐκθέσεως	ἔκθεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	9	SBJ	_	t_556|t_552|ref=fr._8
-14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_557|t_558|ref=fr._8
-15	ἀριθμοῦ	ἀριθμός	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_558|t_556|ref=fr._8
-16	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_559|t_560|ref=fr._8
-17	ἐλάττονα	ἐλάσσων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	19	ADV	_	t_560|t_562|ref=fr._8
-18	πιθανὰ	πιθανός	a	a-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_561|t_562|ref=fr._8
-19	ἐπισυμβαίνει	ἐπιγίγνομαι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	OBJ	_	t_562|t_563|ref=fr._8
-20	φύσε	φύσις	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_563|0|ref=fr._8
-21	·	·	u	u--------	_	20	AuxK	_	t_564|t_563|ref=fr._8
-
-# source = Philolaus of Croton, fr._8-9
-# text = καὶ οὐ νόμωι , ὥς φησί που Φ. ἁρμονία δὲ πάντως ἐξ ἐναντίων γίνεται ·
-# sent_id = 32
-1	καὶ	καί	c	c--------	_	3	AuxY	_	t_565|t_567|ref=fr._8
-2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_566|t_567|ref=fr._8
-3	νόμωι	νόμος	v	v3spia---	Case=d|Gender=m|Number=s	0	PRED	_	t_567|0|ref=fr._8
-4	,	,	u	u--------	_	3	AuxX	_	t_568|t_567|ref=fr._8
-5	ὥς	ὡς	c	c--------	_	3	AuxC	_	t_569|t_567|ref=fr._8
-6	φησί	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ExD	_	t_570|t_569|ref=fr._8
-7	που	πού	d	d--------	_	6	ADV	_	t_571|t_570|ref=fr._8
-8	Φ.	φ.	u	u--------	_	6	SBJ	_	t_572|t_570|ref=fr._9
-9	ἁρμονία	ἁρμονία	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_573|t_578|ref=fr._9
-10	δὲ	δέ	d	d--------	_	14	AuxY	_	t_574|t_578|ref=fr._9
-11	πάντως	πάντως	d	d--------	_	14	ADV	_	t_575|t_578|ref=fr._9
-12	ἐξ	ἐκ	r	r--------	_	14	AuxP	_	t_576|t_578|ref=fr._9
-13	ἐναντίων	ἐναντίος	a	a-p---mg-	Case=g|Gender=m|Number=p	12	PNOM	_	t_577|t_576|ref=fr._9
-14	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	3	PRED	_	t_578|t_567|ref=fr._9
-15	·	·	u	u--------	_	4	AuxK	_	t_579|t_568|ref=fr._9
+1	κτλ	κτλ	x	x--------	_	0	AuxG	_	t_542|0|ref=fr._8
+2	.	.	u	u--------	_	1	AuxK	_	t_543|t_542|ref=fr._8
 
 # source = Philolaus of Croton, fr._9
-# text = ἔστι γὰρ ἁρμονία πολυμιγέων ἕνωσις καὶ δίχα φρονεόντων συμφρόνησις .
-# sent_id = 33
-1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_580|0|ref=fr._9
-2	γὰρ	γάρ	g	g--------	_	1	AuxY	_	t_581|t_580|ref=fr._9
-3	ἁρμονία	ἁρμονία	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_582|t_580|ref=fr._9
-4	πολυμιγέων	πολυμιγής	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_583|t_584|ref=fr._9
-5	ἕνωσις	ἕνωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_584|t_585|ref=fr._9
-6	καὶ	καί	c	c--------	_	1	COORD	_	t_585|t_580|ref=fr._9
-7	δίχα	δίχα	d	d--------	_	9	ATR	_	t_586|t_588|ref=fr._9
-8	φρονεόντων	φρονέω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ATR	_	t_587|t_586|ref=fr._9
-9	συμφρόνησις	συμφρόνησις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_588|t_585|ref=fr._9
-10	.	.	u	u--------	_	1	AuxK	_	t_589|t_580|ref=fr._9
+# text = ἑτέρου γὰρ καιροῦ διερευνᾶν ἐπὶ πλέον πῶς καὶ τετραγωνισθέντος ἀπὸ τῆς στιχηδὸν ἐκθέσεως τοῦ ἀριθμοῦ οὐκ ἐλάττονα πιθανὰ ἐπισυμβαίνει φύσε ·
+# sent_id = 31
+1	ἑτέρου	ἕτερος	a	a-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_544|t_546|ref=fr._9
+2	γὰρ	γάρ	d	d--------	_	20	AuxY	_	t_545|t_563|ref=fr._9
+3	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_546|t_549|ref=fr._9
+4	διερευνᾶν	διερευνάω	v	v--pna---	Mood=n|Tense=p|Voice=a	20	SBJ	_	t_547|t_563|ref=fr._9
+5	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_548|t_547|ref=fr._9
+6	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	5	ADV	_	t_549|t_548|ref=fr._9
+7	πῶς	πῶς	d	d--------	_	9	ADV	_	t_550|t_552|ref=fr._9
+8	καὶ	καί	c	c--------	_	9	AuxZ	_	t_551|t_552|ref=fr._9
+9	τετραγωνισθέντος	τετραγωνίζω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	19	ADV	_	t_552|t_562|ref=fr._9
+10	ἀπὸ	ἀπό	r	r--------	_	9	AuxP	_	t_553|t_552|ref=fr._9
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_554|t_555|ref=fr._9
+12	στιχηδὸν	στιχηδόν	d	d--------	_	10	ADV	_	t_555|t_553|ref=fr._9
+13	ἐκθέσεως	ἔκθεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	9	SBJ	_	t_556|t_552|ref=fr._9
+14	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_557|t_558|ref=fr._9
+15	ἀριθμοῦ	ἀριθμός	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_558|t_556|ref=fr._9
+16	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_559|t_560|ref=fr._9
+17	ἐλάττονα	ἐλάσσων	a	a-p---nnc	Case=n|Degree=c|Gender=n|Number=p	19	ADV	_	t_560|t_562|ref=fr._9
+18	πιθανὰ	πιθανός	a	a-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_561|t_562|ref=fr._9
+19	ἐπισυμβαίνει	ἐπιγίγνομαι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	OBJ	_	t_562|t_563|ref=fr._9
+20	φύσε	φύσις	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_563|0|ref=fr._9
+21	·	·	u	u--------	_	20	AuxK	_	t_564|t_563|ref=fr._9
 
 # source = Philolaus of Croton, fr._9-10
+# text = καὶ οὐ νόμωι , ὥς φησί που Φ. ἁρμονία δὲ πάντως ἐξ ἐναντίων γίνεται ·
+# sent_id = 32
+1	καὶ	καί	c	c--------	_	3	AuxY	_	t_565|t_567|ref=fr._9
+2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_566|t_567|ref=fr._9
+3	νόμωι	νόμος	v	v3spia---	Case=d|Gender=m|Number=s	0	PRED	_	t_567|0|ref=fr._9
+4	,	,	u	u--------	_	3	AuxX	_	t_568|t_567|ref=fr._9
+5	ὥς	ὡς	c	c--------	_	3	AuxC	_	t_569|t_567|ref=fr._9
+6	φησί	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ExD	_	t_570|t_569|ref=fr._9
+7	που	πού	d	d--------	_	6	ADV	_	t_571|t_570|ref=fr._9
+8	Φ.	φ.	u	u--------	_	6	SBJ	_	t_572|t_570|ref=fr._9
+9	ἁρμονία	ἁρμονία	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_573|t_578|ref=fr._10
+10	δὲ	δέ	d	d--------	_	14	AuxY	_	t_574|t_578|ref=fr._10
+11	πάντως	πάντως	d	d--------	_	14	ADV	_	t_575|t_578|ref=fr._10
+12	ἐξ	ἐκ	r	r--------	_	14	AuxP	_	t_576|t_578|ref=fr._10
+13	ἐναντίων	ἐναντίος	a	a-p---mg-	Case=g|Gender=m|Number=p	12	PNOM	_	t_577|t_576|ref=fr._10
+14	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	3	PRED	_	t_578|t_567|ref=fr._10
+15	·	·	u	u--------	_	4	AuxK	_	t_579|t_568|ref=fr._10
+
+# source = Philolaus of Croton, fr._10
+# text = ἔστι γὰρ ἁρμονία πολυμιγέων ἕνωσις καὶ δίχα φρονεόντων συμφρόνησις .
+# sent_id = 33
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_580|0|ref=fr._10
+2	γὰρ	γάρ	g	g--------	_	1	AuxY	_	t_581|t_580|ref=fr._10
+3	ἁρμονία	ἁρμονία	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_582|t_580|ref=fr._10
+4	πολυμιγέων	πολυμιγής	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_583|t_584|ref=fr._10
+5	ἕνωσις	ἕνωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_584|t_585|ref=fr._10
+6	καὶ	καί	c	c--------	_	1	COORD	_	t_585|t_580|ref=fr._10
+7	δίχα	δίχα	d	d--------	_	9	ATR	_	t_586|t_588|ref=fr._10
+8	φρονεόντων	φρονέω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	ATR	_	t_587|t_586|ref=fr._10
+9	συμφρόνησις	συμφρόνησις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_588|t_585|ref=fr._10
+10	.	.	u	u--------	_	1	AuxK	_	t_589|t_580|ref=fr._10
+
+# source = Philolaus of Croton, fr._10
 # text = καὶ οἱ Πυθαγορικοὶ δέ , οἶς πολλαχῆι ἕπεται Πλάτων , τὴν μουσικήν φασιν ἐναντίων συναρμογὴν καὶ τῶν πολλῶν ἕνωσιν καὶ τῶν δίχα φρονούντων συμφρόνησιν .
 # sent_id = 34
-1	καὶ	καί	c	c--------	_	3	AuxZ	_	t_590|t_592|ref=fr._9
-2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_591|t_592|ref=fr._9
-3	Πυθαγορικοὶ	πυθαγορικός	a	a-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_592|t_602|ref=fr._9
-4	δέ	δέ	d	d--------	_	13	AuxY	_	t_593|t_602|ref=fr._9
-5	,	,	u	u--------	_	13	AuxX	_	t_594|t_602|ref=fr._9
-6	οἶς	ὄις	d	d--------	_	8	ADV	_	t_595|t_597|ref=fr._9
-7	πολλαχῆι	πολλαχῆ	d	d--------	_	8	ADV	_	t_596|t_597|ref=fr._9
-8	ἕπεται	ἕπομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	ADV	_	t_597|t_602|ref=fr._9
-9	Πλάτων	πλάτων	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_598|t_597|ref=fr._9
-10	,	,	u	u--------	_	13	AuxX	_	t_599|t_602|ref=fr._9
-11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_600|t_601|ref=fr._9
+1	καὶ	καί	c	c--------	_	3	AuxZ	_	t_590|t_592|ref=fr._10
+2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_591|t_592|ref=fr._10
+3	Πυθαγορικοὶ	πυθαγορικός	a	a-p---mn-	Case=n|Gender=m|Number=p	13	SBJ	_	t_592|t_602|ref=fr._10
+4	δέ	δέ	d	d--------	_	13	AuxY	_	t_593|t_602|ref=fr._10
+5	,	,	u	u--------	_	13	AuxX	_	t_594|t_602|ref=fr._10
+6	οἶς	ὄις	d	d--------	_	8	ADV	_	t_595|t_597|ref=fr._10
+7	πολλαχῆι	πολλαχῆ	d	d--------	_	8	ADV	_	t_596|t_597|ref=fr._10
+8	ἕπεται	ἕπομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	13	ADV	_	t_597|t_602|ref=fr._10
+9	Πλάτων	πλάτων	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_598|t_597|ref=fr._10
+10	,	,	u	u--------	_	13	AuxX	_	t_599|t_602|ref=fr._10
+11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_600|t_601|ref=fr._10
 12	μουσικήν	μουσική	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_601|t_602|ref=fr._10
 13	φασιν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_602|0|ref=fr._10
 14	ἐναντίων	ἐναντίος	a	a-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_603|t_604|ref=fr._10
@@ -776,46 +776,46 @@
 24	συμφρόνησιν	συμφρόνησις	n	n-s---fa-	Case=a|Gender=f|Number=s	20	OBJ	_	t_613|t_609|ref=fr._10
 25	.	.	u	u--------	_	13	AuxK	_	t_614|t_602|ref=fr._10
 
-# source = Philolaus of Croton, fr._10
+# source = Philolaus of Croton, fr._11
 # text = περὶ ἧς καὶ Ἀρχύτας ἐν τῶι Περὶ τῆς δεκάδος καὶ Φ. ἐν τῶι Περὶ φύσιος πολλὰ διεξίασιν [0] .
 # sent_id = 35
-1	περὶ	περί	r	r--------	_	10	AuxP	_	t_615|t_624|ref=fr._10
-2	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_616|t_615|ref=fr._10
-3	καὶ	καί	d	d--------	_	10	AuxY	_	t_617|t_624|ref=fr._10
-4	Ἀρχύτας	ἀρχύτας	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_618|e_29|ref=fr._10
-5	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_619|e_29|ref=fr._10
-6	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_620|t_621|ref=fr._10
-7	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_621|t_619|ref=fr._10
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_622|t_623|ref=fr._10
-9	δεκάδος	δεκάς	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_623|t_621|ref=fr._10
-10	καὶ	καί	c	c--------	_	0	COORD	_	t_624|0|ref=fr._10
-11	Φ.	φ.	n	n--------	_	10	AuxX	_	t_625|t_624|ref=fr._10
-12	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_626|t_631|ref=fr._10
-13	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_627|t_628|ref=fr._10
-14	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_628|t_626|ref=fr._10
-15	φύσιος	φύσις	a	a-s---mn-	Case=n|Gender=m|Number=s	17	ADV	_	t_629|t_631|ref=fr._10
-16	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_630|t_631|ref=fr._10
-17	διεξίασιν	διέξειμι	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_631|t_624|ref=fr._10
-18	[0]	[0]	-	---------	_	10	PRED	_	e_29|t_624|ref=fr._1
-19	.	.	u	u--------	_	10	AuxK	_	t_632|t_624|ref=fr._10
+1	περὶ	περί	r	r--------	_	10	AuxP	_	t_615|t_624|ref=fr._11
+2	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_616|t_615|ref=fr._11
+3	καὶ	καί	d	d--------	_	10	AuxY	_	t_617|t_624|ref=fr._11
+4	Ἀρχύτας	ἀρχύτας	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_618|e_29|ref=fr._11
+5	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_619|e_29|ref=fr._11
+6	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	7	ATR	_	t_620|t_621|ref=fr._11
+7	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_621|t_619|ref=fr._11
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_622|t_623|ref=fr._11
+9	δεκάδος	δεκάς	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_623|t_621|ref=fr._11
+10	καὶ	καί	c	c--------	_	0	COORD	_	t_624|0|ref=fr._11
+11	Φ.	φ.	n	n--------	_	10	AuxX	_	t_625|t_624|ref=fr._11
+12	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_626|t_631|ref=fr._11
+13	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_627|t_628|ref=fr._11
+14	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_628|t_626|ref=fr._11
+15	φύσιος	φύσις	a	a-s---mn-	Case=n|Gender=m|Number=s	17	ADV	_	t_629|t_631|ref=fr._11
+16	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	17	OBJ	_	t_630|t_631|ref=fr._11
+17	διεξίασιν	διέξειμι	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_631|t_624|ref=fr._11
+18	[0]	[0]	-	---------	_	10	PRED	_	e_29|t_624|ref=fr._11
+19	.	.	u	u--------	_	10	AuxK	_	t_632|t_624|ref=fr._11
 
-# source = Philolaus of Croton, fr._10
+# source = Philolaus of Croton, fr._11
 # text = Φιλολάου .
 # sent_id = 36
-1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	0	ExD	_	t_633|0|ref=fr._10
-2	.	.	u	u--------	_	1	AuxK	_	t_634|t_633|ref=fr._10
+1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	0	ExD	_	t_633|0|ref=fr._11
+2	.	.	u	u--------	_	1	AuxK	_	t_634|t_633|ref=fr._11
 
-# source = Philolaus of Croton, fr._10-11
+# source = Philolaus of Croton, fr._11
 # text = θεωρεῖν δεῖ τὰ ἔργα καὶ τὴν οὐσίαν τῶ ἀριθμῶ καττὰν δύναμιν ἅτις ἐστὶν ἐν τᾶι δεκάδι ·
 # sent_id = 37
-1	θεωρεῖν	θεωρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	SBJ	_	t_635|t_636|ref=fr._10
-2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_636|0|ref=fr._10
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_637|t_638|ref=fr._10
-4	ἔργα	ἔργον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_638|t_639|ref=fr._10
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_639|t_635|ref=fr._10
-6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_640|t_641|ref=fr._10
-7	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_641|t_639|ref=fr._10
-8	τῶ	τῷ	p	p-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_642|t_643|ref=fr._10
+1	θεωρεῖν	θεωρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	SBJ	_	t_635|t_636|ref=fr._11
+2	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_636|0|ref=fr._11
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_637|t_638|ref=fr._11
+4	ἔργα	ἔργον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_638|t_639|ref=fr._11
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_639|t_635|ref=fr._11
+6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_640|t_641|ref=fr._11
+7	οὐσίαν	οὐσία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_641|t_639|ref=fr._11
+8	τῶ	τῷ	p	p-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_642|t_643|ref=fr._11
 9	ἀριθμῶ	ἀριθμῶ	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	7	ATR	_	t_643|t_641|ref=fr._11
 10	καττὰν	κατά	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_644|t_645|ref=fr._11
 11	δύναμιν	δύναμις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_645|t_639|ref=fr._11
@@ -837,7 +837,7 @@
 6	παντοεργὸς	παντοεργός	a	a-s---mn-	Case=n|Gender=m|Number=s	15	PNOM	_	t_657|t_666|ref=fr._11
 7	καὶ	καί	c	c--------	_	15	AuxY	_	t_658|t_666|ref=fr._11
 8	θείω	τίθημι	a	a-d---mn-	Case=n|Gender=m|Number=d	12	ATR	_	t_659|t_663|ref=fr._11
-9	καὶ	καί	c	c--------	_	12	AuxY	_	t_660|t_663|ref=fr._10
+9	καὶ	καί	c	c--------	_	12	AuxY	_	t_660|t_663|ref=fr._11
 10	οὐρανίω	οὐράνιος	a	a-d---mn-	Case=n|Gender=m|Number=d	12	ATR	_	t_661|t_663|ref=fr._11
 11	βίω	βία	n	n-s---mg-	Case=n|Gender=m|Number=d	15	PNOM	_	t_662|t_666|ref=fr._11
 12	καὶ	καί	c	c--------	_	11	COORD	_	t_663|t_662|ref=fr._11
@@ -853,7 +853,7 @@
 22	καὶ	καί	c	c--------	_	21	AuxZ	_	t_673|t_672|ref=fr._11
 23	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_674|t_675|ref=fr._11
 24	δεκάδος	δεκάς	n	n-s---fg-	Case=g|Gender=f|Number=s	22	OBJ	_	t_675|t_673|ref=fr._11
-25	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=fr._1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=fr._11
 26	.	.	u	u--------	_	25	AuxK	_	t_676|e_30|ref=fr._11
 
 # source = Philolaus of Croton, fr._11
@@ -868,7 +868,7 @@
 7	ἄθηλᾶ	ἄθηλος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_683|t_684|ref=fr._11
 8	καὶ	καί	c	c--------	_	10	COORD	_	t_684|e_31|ref=fr._11
 9	ἀφανῆ	ἀφανής	a	a-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_685|t_684|ref=fr._11
-10	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=fr._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=fr._11
 11	.	.	u	u--------	_	10	AuxK	_	t_686|e_31|ref=fr._11
 
 # source = Philolaus of Croton, fr._11
@@ -891,8 +891,8 @@
 15	καὶ	καί	c	c--------	_	19	COORD	_	t_701|e_33|ref=fr._11
 16	ἀγνοουμένω	ἀγνοέω	v	v-dppema-	Case=a|Gender=m|Mood=p|Number=d|Tense=p|Voice=e	15	ADV	_	t_702|t_701|ref=fr._11
 17	παντί	πᾶς	a	a-s---nd-	Case=d|Gender=n|Number=s	16	OBJ	_	t_703|t_702|ref=fr._11
-18	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=fr._2
-19	[1]	[1]	-	---------	_	18	PRED	_	e_33|e_32|ref=fr._2
+18	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=fr._11
+19	[1]	[1]	-	---------	_	18	PRED	_	e_33|e_32|ref=fr._11
 20	.	.	u	u--------	_	18	AuxK	_	t_704|e_32|ref=fr._11
 
 # source = Philolaus of Croton, fr._11
@@ -925,7 +925,7 @@
 25	ἁ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	27	ATR	_	t_729|t_731|ref=fr._11
 26	τούτω	οὗτος	p	p-s---ng-	Mood=m|Number=s|Person=3|Tense=p|Voice=a	27	ATR	_	t_730|t_731|ref=fr._11
 27	οὐσία	οὐσία	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_731|t_728|ref=fr._11
-28	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=fr._2
+28	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=fr._11
 29	.	.	u	u--------	_	3	AuxK	_	t_732|t_707|ref=fr._11
 
 # source = Philolaus of Croton, fr._11
@@ -1025,7 +1025,7 @@
 10	δὲ	δέ	c	c--------	_	0	COORD	_	t_816|0|ref=fr._11
 11	ἁρ	ἁρ	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_817|e_35|ref=fr._11
 12	μονία	μόνος	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_818|e_35|ref=fr._11
-13	[0]	[0]	-	---------	_	10	PRED	_	e_35|t_816|ref=fr._2
+13	[0]	[0]	-	---------	_	10	PRED	_	e_35|t_816|ref=fr._11
 14	·	·	u	u--------	_	10	AuxK	_	t_819|t_816|ref=fr._11
 
 # source = Philolaus of Croton, fr._11
@@ -1043,7 +1043,7 @@
 # sent_id = 46
 1	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_826|t_827|ref=fr._11
 2	τῶ	τῷ	p	p-s---fg-	Case=g|Gender=f|Number=s	3	ExD	_	t_827|e_36|ref=fr._11
-3	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=fr._2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=fr._11
 4	.	.	u	u--------	_	3	AuxK	_	t_828|e_36|ref=fr._11
 
 # source = Philolaus of Croton, fr._11
@@ -1098,87 +1098,87 @@
 19	γενεᾶι	γενεά	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_867|t_863|ref=fr._11
 20	.	.	u	u--------	_	9	AuxK	_	t_868|t_857|ref=fr._11
 
-# source = Philolaus of Croton, fr._11
+# source = Philolaus of Croton, fr._12
 # text = καὶ τὰ μὲν τᾶς σφαίρας σώματα πέντε ἐντί , τὰ ἐν τᾶι σφαίραι πῦρ ⟨ καὶ ⟩ ὕδωρ καὶ γᾶ καὶ ἀήρ , καὶ ὃ τᾶς σφαίρας ὁλκάς , πέμπτον [0] .
 # sent_id = 50
-1	καὶ	καί	d	d--------	_	31	AuxY	_	t_869|e_37|ref=fr._11
-2	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_870|t_874|ref=fr._11
-3	μὲν	μέν	d	d--------	_	31	AuxY	_	t_871|e_37|ref=fr._11
-4	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_872|t_873|ref=fr._11
-5	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_873|t_874|ref=fr._11
-6	σώματα	σῶμα	n	n-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_874|t_892|ref=fr._11
-7	πέντε	πέντε	m	m--------	_	6	ATR	_	t_875|t_874|ref=fr._11
-8	ἐντί	ἐνεἰμί	d	d--------	_	31	ADV	_	t_876|e_37|ref=fr._11
-9	,	,	u	u--------	_	31	AuxX	_	t_877|e_37|ref=fr._11
-10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_878|t_892|ref=fr._11
-11	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_879|t_882|ref=fr._11
-12	τᾶι	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_880|t_881|ref=fr._11
-13	σφαίραι	σφαῖρα	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_881|t_879|ref=fr._11
-14	πῦρ	πῦρ	n	n-s---na-	Case=a|Gender=n|Number=s	21	APOS	_	t_882|t_889|ref=fr._11
-15	⟨	⟨	u	u--------	_	31	AuxX	_	t_883|e_37|ref=fr._11
-16	καὶ	καί	c	c--------	_	21	AuxY	_	t_884|t_889|ref=fr._11
-17	⟩	⟩	u	u--------	_	31	AuxX	_	t_885|e_37|ref=fr._11
-18	ὕδωρ	ὕδωρ	n	n-s---na-	Case=n|Gender=n|Number=s	21	APOS	_	t_886|t_889|ref=fr._11
-19	καὶ	καί	c	c--------	_	21	AuxY	_	t_887|t_889|ref=fr._11
-20	γᾶ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	21	APOS	_	t_888|t_889|ref=fr._11
-21	καὶ	καί	c	c--------	_	24	COORD	_	t_889|t_892|ref=fr._11
-22	ἀήρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	21	APOS	_	t_890|t_889|ref=fr._11
-23	,	,	u	u--------	_	31	AuxX	_	t_891|e_37|ref=fr._11
-24	καὶ	καί	c	c--------	_	31	COORD	_	t_892|e_37|ref=fr._11
-25	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_893|t_892|ref=fr._11
-26	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_894|t_895|ref=fr._11
-27	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_895|t_896|ref=fr._11
-28	ὁλκάς	ὁλκάς	n	n-p---fa-	Case=a|Gender=f|Number=p	24	APOS	_	t_896|t_892|ref=fr._11
-29	,	,	u	u--------	_	31	AuxX	_	t_897|e_37|ref=fr._11
-30	πέμπτον	πέμπτος	a	a-s---na-	Case=a|Gender=n|Number=s	31	ADV	_	t_898|e_37|ref=fr._11
-31	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=fr._2
-32	.	.	u	u--------	_	31	AuxK	_	t_899|e_37|ref=fr._11
+1	καὶ	καί	d	d--------	_	31	AuxY	_	t_869|e_37|ref=fr._12
+2	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_870|t_874|ref=fr._12
+3	μὲν	μέν	d	d--------	_	31	AuxY	_	t_871|e_37|ref=fr._12
+4	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_872|t_873|ref=fr._12
+5	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_873|t_874|ref=fr._12
+6	σώματα	σῶμα	n	n-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_874|t_892|ref=fr._12
+7	πέντε	πέντε	m	m--------	_	6	ATR	_	t_875|t_874|ref=fr._12
+8	ἐντί	ἐνεἰμί	d	d--------	_	31	ADV	_	t_876|e_37|ref=fr._12
+9	,	,	u	u--------	_	31	AuxX	_	t_877|e_37|ref=fr._12
+10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	24	SBJ	_	t_878|t_892|ref=fr._12
+11	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_879|t_882|ref=fr._12
+12	τᾶι	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_880|t_881|ref=fr._12
+13	σφαίραι	σφαῖρα	n	n-s---fd-	Case=d|Gender=f|Number=s	11	ATR	_	t_881|t_879|ref=fr._12
+14	πῦρ	πῦρ	n	n-s---na-	Case=a|Gender=n|Number=s	21	APOS	_	t_882|t_889|ref=fr._12
+15	⟨	⟨	u	u--------	_	31	AuxX	_	t_883|e_37|ref=fr._12
+16	καὶ	καί	c	c--------	_	21	AuxY	_	t_884|t_889|ref=fr._12
+17	⟩	⟩	u	u--------	_	31	AuxX	_	t_885|e_37|ref=fr._12
+18	ὕδωρ	ὕδωρ	n	n-s---na-	Case=n|Gender=n|Number=s	21	APOS	_	t_886|t_889|ref=fr._12
+19	καὶ	καί	c	c--------	_	21	AuxY	_	t_887|t_889|ref=fr._12
+20	γᾶ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	21	APOS	_	t_888|t_889|ref=fr._12
+21	καὶ	καί	c	c--------	_	24	COORD	_	t_889|t_892|ref=fr._12
+22	ἀήρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	21	APOS	_	t_890|t_889|ref=fr._12
+23	,	,	u	u--------	_	31	AuxX	_	t_891|e_37|ref=fr._12
+24	καὶ	καί	c	c--------	_	31	COORD	_	t_892|e_37|ref=fr._12
+25	ὃ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_893|t_892|ref=fr._12
+26	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_894|t_895|ref=fr._12
+27	σφαίρας	σφαῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_895|t_896|ref=fr._12
+28	ὁλκάς	ὁλκάς	n	n-p---fa-	Case=a|Gender=f|Number=p	24	APOS	_	t_896|t_892|ref=fr._12
+29	,	,	u	u--------	_	31	AuxX	_	t_897|e_37|ref=fr._12
+30	πέμπτον	πέμπτος	a	a-s---na-	Case=a|Gender=n|Number=s	31	ADV	_	t_898|e_37|ref=fr._12
+31	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=fr._12
+32	.	.	u	u--------	_	31	AuxK	_	t_899|e_37|ref=fr._12
 
-# source = Philolaus of Croton, fr._11-12
+# source = Philolaus of Croton, fr._13
 # text = καὶ τέσσαρες ἀρχαὶ τοῦ ζωίου τοῦ λογικοῦ , ὥσπερ καὶ Φ. ἐν τῶι Περὶ φύσεως λέγει , ἐγκέφαλος , καρδία , ὀμφαλός , αἰδοῖον [0] .
 # sent_id = 51
-1	καὶ	καί	c	c--------	_	25	AuxY	_	t_900|e_38|ref=fr._11
-2	τέσσαρες	τέσσαρες	m	m-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_901|t_902|ref=fr._11
-3	ἀρχαὶ	ἀρχή	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_902|e_38|ref=fr._11
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_903|t_904|ref=fr._11
-5	ζωίου	ζώιον	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_904|t_902|ref=fr._11
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_905|t_904|ref=fr._12
-7	λογικοῦ	λογικός	a	a-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_906|t_904|ref=fr._12
-8	,	,	u	u--------	_	25	AuxX	_	t_907|e_38|ref=fr._12
-9	ὥσπερ	ὥσπερ	c	c--------	_	25	AuxC	_	t_908|e_38|ref=fr._12
-10	καὶ	καί	d	d--------	_	9	AuxZ	_	t_909|t_908|ref=fr._12
-11	Φ.	φ.	u	u--------	_	25	AuxX	_	t_910|e_38|ref=fr._12
-12	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_911|t_915|ref=fr._12
-13	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_912|t_913|ref=fr._12
-14	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_913|t_911|ref=fr._12
-15	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_914|t_913|ref=fr._12
-16	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ExD	_	t_915|t_908|ref=fr._12
-17	,	,	u	u--------	_	25	AuxX	_	t_916|e_38|ref=fr._12
-18	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_917|t_922|ref=fr._12
-19	,	,	u	u--------	_	25	AuxX	_	t_918|e_38|ref=fr._12
-20	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_919|t_922|ref=fr._12
-21	,	,	u	u--------	_	25	AuxX	_	t_920|e_38|ref=fr._12
-22	ὀμφαλός	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_921|t_922|ref=fr._12
-23	,	,	u	u--------	_	16	COORD	_	t_922|t_915|ref=fr._12
-24	αἰδοῖον	αἰδοῖον	a	a-s---nn-	Case=n|Gender=n|Number=s	23	SBJ	_	t_923|t_922|ref=fr._12
-25	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=fr._2
-26	.	.	u	u--------	_	25	AuxK	_	t_924|e_38|ref=fr._12
+1	καὶ	καί	c	c--------	_	25	AuxY	_	t_900|e_38|ref=fr._13
+2	τέσσαρες	τέσσαρες	m	m-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_901|t_902|ref=fr._13
+3	ἀρχαὶ	ἀρχή	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_902|e_38|ref=fr._13
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_903|t_904|ref=fr._13
+5	ζωίου	ζώιον	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_904|t_902|ref=fr._13
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_905|t_904|ref=fr._13
+7	λογικοῦ	λογικός	a	a-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_906|t_904|ref=fr._13
+8	,	,	u	u--------	_	25	AuxX	_	t_907|e_38|ref=fr._13
+9	ὥσπερ	ὥσπερ	c	c--------	_	25	AuxC	_	t_908|e_38|ref=fr._13
+10	καὶ	καί	d	d--------	_	9	AuxZ	_	t_909|t_908|ref=fr._13
+11	Φ.	φ.	u	u--------	_	25	AuxX	_	t_910|e_38|ref=fr._13
+12	ἐν	ἐν	r	r--------	_	16	AuxP	_	t_911|t_915|ref=fr._13
+13	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	14	ATR	_	t_912|t_913|ref=fr._13
+14	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_913|t_911|ref=fr._13
+15	φύσεως	φύσις	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_914|t_913|ref=fr._13
+16	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ExD	_	t_915|t_908|ref=fr._13
+17	,	,	u	u--------	_	25	AuxX	_	t_916|e_38|ref=fr._13
+18	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_917|t_922|ref=fr._13
+19	,	,	u	u--------	_	25	AuxX	_	t_918|e_38|ref=fr._13
+20	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_919|t_922|ref=fr._13
+21	,	,	u	u--------	_	25	AuxX	_	t_920|e_38|ref=fr._13
+22	ὀμφαλός	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_921|t_922|ref=fr._13
+23	,	,	u	u--------	_	16	COORD	_	t_922|t_915|ref=fr._13
+24	αἰδοῖον	αἰδοῖον	a	a-s---nn-	Case=n|Gender=n|Number=s	23	SBJ	_	t_923|t_922|ref=fr._13
+25	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=fr._13
+26	.	.	u	u--------	_	25	AuxK	_	t_924|e_38|ref=fr._13
 
-# source = Philolaus of Croton, fr._12-13
+# source = Philolaus of Croton, fr._13
 # text = ἐγκέφαλος μὲν νόου , καρδία δὲ ψυχῆς καὶ αἰσθήσιος , ὀμφαλὸς δὲ ῥιζώσιος καὶ ἀναφύσιος τοῦ πρώτου , αἰδοῖον δὲ σπέρματος [ καὶ ] καταβολᾶς τε καὶ γεννήσιος [0] [1] [2] .
 # sent_id = 52
-1	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_925|e_39|ref=fr._12
-2	μὲν	μέν	d	d--------	_	20	AuxY	_	t_926|t_944|ref=fr._12
-3	νόου	νόος	n	n-s---mg-	Case=g|Gender=m|Number=s	29	PNOM	_	t_927|e_39|ref=fr._12
-4	,	,	u	u--------	_	0	AuxX	_	t_928|0|ref=fr._12
-5	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_929|e_40|ref=fr._12
-6	δὲ	δέ	d	d--------	_	20	AuxY	_	t_930|t_944|ref=fr._12
-7	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_931|t_932|ref=fr._12
-8	καὶ	καί	c	c--------	_	30	COORD	_	t_932|e_40|ref=fr._12
-9	αἰσθήσιος	αἴσθησις	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_933|t_932|ref=fr._12
-10	,	,	u	u--------	_	4	AuxX	_	t_934|t_928|ref=fr._12
-11	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_935|e_40|ref=fr._11
-12	δὲ	δέ	d	d--------	_	20	AuxY	_	t_936|t_944|ref=fr._12
+1	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_925|e_39|ref=fr._13
+2	μὲν	μέν	d	d--------	_	20	AuxY	_	t_926|t_944|ref=fr._13
+3	νόου	νόος	n	n-s---mg-	Case=g|Gender=m|Number=s	29	PNOM	_	t_927|e_39|ref=fr._13
+4	,	,	u	u--------	_	0	AuxX	_	t_928|0|ref=fr._13
+5	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_929|e_40|ref=fr._13
+6	δὲ	δέ	d	d--------	_	20	AuxY	_	t_930|t_944|ref=fr._13
+7	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_931|t_932|ref=fr._13
+8	καὶ	καί	c	c--------	_	30	COORD	_	t_932|e_40|ref=fr._13
+9	αἰσθήσιος	αἴσθησις	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_933|t_932|ref=fr._13
+10	,	,	u	u--------	_	4	AuxX	_	t_934|t_928|ref=fr._13
+11	ὀμφαλὸς	ὀμφαλός	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_935|e_40|ref=fr._13
+12	δὲ	δέ	d	d--------	_	20	AuxY	_	t_936|t_944|ref=fr._13
 13	ῥιζώσιος	ῥίζωσις	a	a-s---mn-	Case=n|Gender=m|Number=s	14	PNOM	_	t_937|t_938|ref=fr._13
 14	καὶ	καί	c	c--------	_	30	COORD	_	t_938|e_40|ref=fr._13
 15	ἀναφύσιος	ἀναφύσιος	a	a-s---mn-	Case=n|Gender=m|Number=s	14	PNOM	_	t_939|t_938|ref=fr._13
@@ -1195,9 +1195,9 @@
 26	τε	τε	d	d--------	_	27	AuxY	_	t_950|t_951|ref=fr._13
 27	καὶ	καί	c	c--------	_	19	COORD	_	t_951|t_943|ref=fr._13
 28	γεννήσιος	γενέτης	a	a-s---mn-	Case=n|Gender=m|Number=s	27	PNOM	_	t_952|t_951|ref=fr._13
-29	[0]	[0]	-	---------	_	20	PRED	_	e_39|t_944|ref=fr._2
-30	[1]	[1]	-	---------	_	20	PRED	_	e_40|t_944|ref=fr._2
-31	[2]	[2]	-	---------	_	20	PRED	_	e_41|t_944|ref=fr._2
+29	[0]	[0]	-	---------	_	20	PRED	_	e_39|t_944|ref=fr._13
+30	[1]	[1]	-	---------	_	20	PRED	_	e_40|t_944|ref=fr._13
+31	[2]	[2]	-	---------	_	20	PRED	_	e_41|t_944|ref=fr._13
 32	.	.	u	u--------	_	4	AuxK	_	t_953|t_928|ref=fr._13
 
 # source = Philolaus of Croton, fr._13
@@ -1210,7 +1210,7 @@
 5	⟩	⟩	u	u--------	_	3	AuxG	_	t_958|t_956|ref=fr._13
 6	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_959|t_961|ref=fr._13
 7	ἀνθρώπω	ἄνθρωπος	v	v-sppafn-	_	8	ATR	_	t_960|t_961|ref=fr._13
-8	ἀρχάν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_961|t_957|ref=fr._12
+8	ἀρχάν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_961|t_957|ref=fr._13
 9	,	,	u	u--------	_	3	AuxX	_	t_962|t_956|ref=fr._13
 10	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_963|e_42|ref=fr._13
 11	δὲ	δέ	d	d--------	_	21	AuxY	_	t_964|t_974|ref=fr._13
@@ -1226,8 +1226,8 @@
 21	δὲ	δέ	c	c--------	_	3	COORD	_	t_974|t_956|ref=fr._13
 22	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_975|t_973|ref=fr._13
 23	ξυναπάντων	σύμπας	n	n-p---mg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	22	ATR	_	t_976|t_975|ref=fr._13
-24	[0]	[0]	-	---------	_	21	PRED	_	e_42|t_974|ref=fr._2
-25	[1]	[1]	-	---------	_	21	PRED	_	e_43|t_974|ref=fr._2
+24	[0]	[0]	-	---------	_	21	PRED	_	e_42|t_974|ref=fr._13
+25	[1]	[1]	-	---------	_	21	PRED	_	e_43|t_974|ref=fr._13
 26	·	·	u	u--------	_	3	AuxK	_	t_977|t_956|ref=fr._13
 
 # source = Philolaus of Croton, fr._13
@@ -1241,68 +1241,68 @@
 6	βλαστάνουσιν	βλαστάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	5	PRED	_	t_983|t_982|ref=fr._13
 7	.	.	u	u--------	_	5	AuxK	_	t_984|t_982|ref=fr._13
 
-# source = Philolaus of Croton, fr._13
+# source = Philolaus of Croton, fr._14
 # text = ἄξισν δὲ καὶ τῆς Φιλολάου λέξεως μνημονεῦσαι ·
 # sent_id = 55
-1	ἄξισν	ἄξιος	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_985|0|ref=fr._13
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_986|t_985|ref=fr._13
-3	καὶ	καί	d	d--------	_	6	AuxZ	_	t_987|t_990|ref=fr._13
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_988|t_990|ref=fr._13
-5	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_989|t_990|ref=fr._13
-6	λέξεως	λέξις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	OBJ	_	t_990|t_991|ref=fr._13
-7	μνημονεῦσαι	μνημονέω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	SBJ	_	t_991|t_985|ref=fr._13
-8	·	·	u	u--------	_	1	AuxK	_	t_992|t_985|ref=fr._13
+1	ἄξισν	ἄξιος	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_985|0|ref=fr._14
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_986|t_985|ref=fr._14
+3	καὶ	καί	d	d--------	_	6	AuxZ	_	t_987|t_990|ref=fr._14
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_988|t_990|ref=fr._14
+5	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_989|t_990|ref=fr._14
+6	λέξεως	λέξις	n	n-s---fg-	Case=g|Gender=f|Number=s	7	OBJ	_	t_990|t_991|ref=fr._14
+7	μνημονεῦσαι	μνημονέω	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	1	SBJ	_	t_991|t_985|ref=fr._14
+8	·	·	u	u--------	_	1	AuxK	_	t_992|t_985|ref=fr._14
 
-# source = Philolaus of Croton, fr._13
+# source = Philolaus of Croton, fr._14
 # text = λέγει γὰρ ὁ Πυθαγόρειος ὦδε ·
 # sent_id = 56
-1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_993|0|ref=fr._13
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_994|t_993|ref=fr._13
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_995|t_996|ref=fr._13
-4	Πυθαγόρειος	πυθαγόρειος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_996|t_993|ref=fr._13
-5	ὦδε	ὅδε	d	d--------	_	1	ADV	_	t_997|t_993|ref=fr._13
-6	·	·	u	u--------	_	1	AuxK	_	t_998|t_993|ref=fr._13
+1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_993|0|ref=fr._14
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_994|t_993|ref=fr._14
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_995|t_996|ref=fr._14
+4	Πυθαγόρειος	πυθαγόρειος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_996|t_993|ref=fr._14
+5	ὦδε	ὅδε	d	d--------	_	1	ADV	_	t_997|t_993|ref=fr._14
+6	·	·	u	u--------	_	1	AuxK	_	t_998|t_993|ref=fr._14
 
-# source = Philolaus of Croton, fr._13
+# source = Philolaus of Croton, fr._14
 # text = μαρτυρέονται . . .
 # sent_id = 57
-1	μαρτυρέονται	μαρτυρέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_999|0|ref=fr._13
-2	.	.	u	u--------	_	1	AuxK	_	t_1000|t_999|ref=fr._13
-3	.	.	u	u--------	_	1	AuxK	_	t_1001|t_999|ref=fr._13
-4	.	.	u	u--------	_	1	AuxK	_	t_1002|t_999|ref=fr._13
+1	μαρτυρέονται	μαρτυρέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_999|0|ref=fr._14
+2	.	.	u	u--------	_	1	AuxK	_	t_1000|t_999|ref=fr._14
+3	.	.	u	u--------	_	1	AuxK	_	t_1001|t_999|ref=fr._14
+4	.	.	u	u--------	_	1	AuxK	_	t_1002|t_999|ref=fr._14
 
-# source = Philolaus of Croton, fr._13
+# source = Philolaus of Croton, fr._14
 # text = τέθαπται .
 # sent_id = 58
-1	τέθαπται	θάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1003|0|ref=fr._13
-2	.	.	u	u--------	_	1	AuxK	_	t_1004|t_1003|ref=fr._13
+1	τέθαπται	θάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1003|0|ref=fr._14
+2	.	.	u	u--------	_	1	AuxK	_	t_1004|t_1003|ref=fr._14
 
-# source = Philolaus of Croton, fr._13-14
+# source = Philolaus of Croton, fr._14
 # text = ἤδη του ἔγωγε καὶ ἤκουσα τῶν σοφῶν , ὡς νῦν ἡμεῖς τέθναμεν καὶ τὸ μὲν σῶμά ἐστιν ἡμῖν σῆμα , τῆς δὲ ψυχῆς τοῦτο ἐν ὧι αἱ ἐπιθυμίαι εἰσὶ τυγχάνει ὂν οἶον ἀναπείθεσθαι καὶ μεταπίπτειν ἄνω κάτω καὶ τοῦτο ἄρα τις μυθολογῶν κομψὸς ἀνήρ [0] .
 # sent_id = 59
-1	ἤδη	ἤδη	d	d--------	_	5	ADV	_	t_1005|t_1009|ref=fr._13
-2	του	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_1006|t_1012|ref=fr._13
-3	ἔγωγε	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	5	SBJ	_	t_1007|t_1009|ref=fr._13
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_1008|t_1009|ref=fr._13
-5	ἤκουσα	ἀκούω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_1009|0|ref=fr._13
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1010|t_1011|ref=fr._13
-7	σοφῶν	σοφός	a	a-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_1011|t_1006|ref=fr._13
-8	,	,	u	u--------	_	5	APOS	_	t_1012|t_1009|ref=fr._13
-9	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_1013|t_1012|ref=fr._13
-10	νῦν	νῦν	d	d--------	_	12	ADV	_	t_1014|t_1016|ref=fr._13
-11	ἡμεῖς	ἐγώ	p	p1p---cn-	Case=n|Gender=c|Number=p|Person=1	12	SBJ	_	t_1015|t_1016|ref=fr._13
-12	τέθναμεν	θνῄσκω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	13	OBJ	_	t_1016|t_1017|ref=fr._13
-13	καὶ	καί	c	c--------	_	9	COORD	_	t_1017|t_1013|ref=fr._13
-14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	ATR	_	t_1018|t_1020|ref=fr._13
-15	μὲν	μέν	d	d--------	_	22	AuxY	_	t_1019|t_1026|ref=fr._13
-16	σῶμά	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_1020|t_1021|ref=fr._13
-17	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	OBJ	_	t_1021|t_1017|ref=fr._13
-18	ἡμῖν	ἐγώ	p	p1p---cd-	Case=d|Gender=c|Number=p|Person=1	19	ATR	_	t_1022|t_1023|ref=fr._13
-19	σῆμα	σῆμα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_1023|t_1021|ref=fr._13
-20	,	,	u	u--------	_	5	AuxX	_	t_1024|t_1009|ref=fr._13
-21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_1025|t_1027|ref=fr._13
-22	δὲ	δέ	c	c--------	_	9	COORD	_	t_1026|t_1013|ref=fr._13
-23	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	30	OBJ	_	t_1027|t_1034|ref=fr._13
+1	ἤδη	ἤδη	d	d--------	_	5	ADV	_	t_1005|t_1009|ref=fr._14
+2	του	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_1006|t_1012|ref=fr._14
+3	ἔγωγε	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	5	SBJ	_	t_1007|t_1009|ref=fr._14
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_1008|t_1009|ref=fr._14
+5	ἤκουσα	ἀκούω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_1009|0|ref=fr._14
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1010|t_1011|ref=fr._14
+7	σοφῶν	σοφός	a	a-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_1011|t_1006|ref=fr._14
+8	,	,	u	u--------	_	5	APOS	_	t_1012|t_1009|ref=fr._14
+9	ὡς	ὡς	c	c--------	_	8	AuxC	_	t_1013|t_1012|ref=fr._14
+10	νῦν	νῦν	d	d--------	_	12	ADV	_	t_1014|t_1016|ref=fr._14
+11	ἡμεῖς	ἐγώ	p	p1p---cn-	Case=n|Gender=c|Number=p|Person=1	12	SBJ	_	t_1015|t_1016|ref=fr._14
+12	τέθναμεν	θνῄσκω	v	v1pria---	Mood=i|Number=p|Person=1|Tense=r|Voice=a	13	OBJ	_	t_1016|t_1017|ref=fr._14
+13	καὶ	καί	c	c--------	_	9	COORD	_	t_1017|t_1013|ref=fr._14
+14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	16	ATR	_	t_1018|t_1020|ref=fr._14
+15	μὲν	μέν	d	d--------	_	22	AuxY	_	t_1019|t_1026|ref=fr._14
+16	σῶμά	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_1020|t_1021|ref=fr._14
+17	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	OBJ	_	t_1021|t_1017|ref=fr._14
+18	ἡμῖν	ἐγώ	p	p1p---cd-	Case=d|Gender=c|Number=p|Person=1	19	ATR	_	t_1022|t_1023|ref=fr._14
+19	σῆμα	σῆμα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_1023|t_1021|ref=fr._14
+20	,	,	u	u--------	_	5	AuxX	_	t_1024|t_1009|ref=fr._14
+21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_1025|t_1027|ref=fr._14
+22	δὲ	δέ	c	c--------	_	9	COORD	_	t_1026|t_1013|ref=fr._14
+23	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	30	OBJ	_	t_1027|t_1034|ref=fr._14
 24	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	30	SBJ	_	t_1028|t_1034|ref=fr._14
 25	ἐν	ἐν	r	r--------	_	29	AuxP	_	t_1029|t_1033|ref=fr._14
 26	ὧι	ὅς	p	p-s---nd-	Case=d|Gender=n|Number=s	25	ADV	_	t_1030|t_1029|ref=fr._14
@@ -1324,7 +1324,7 @@
 42	μυθολογῶν	μυθολογέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	44	ATR	_	t_1046|t_1048|ref=fr._14
 43	κομψὸς	κομψός	a	a-s---mn-	Case=n|Gender=m|Number=s	44	ATR	_	t_1047|t_1048|ref=fr._14
 44	ἀνήρ	ἀνήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	45	SBJ	_	t_1048|e_44|ref=fr._14
-45	[0]	[0]	-	---------	_	38	OBJ	_	e_44|t_1042|ref=fr._2
+45	[0]	[0]	-	---------	_	38	OBJ	_	e_44|t_1042|ref=fr._14
 46	.	.	u	u--------	_	5	AuxK	_	t_1049|t_1009|ref=fr._14
 
 # source = Philolaus of Croton, fr._14
@@ -1382,7 +1382,7 @@
 50	ἀπεικάσας	ἀπεικάζω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	16	ADV	_	t_1099|t_1065|ref=fr._14
 51	.	.	u	u--------	_	16	AuxK	_	t_1100|t_1065|ref=fr._14
 52	.	.	u	u--------	_	16	AuxK	_	t_1101|t_1065|ref=fr._14
-53	[0]	[0]	-	---------	_	25	PRED	_	e_45|t_1074|ref=fr._2
+53	[0]	[0]	-	---------	_	25	PRED	_	e_45|t_1074|ref=fr._14
 54	.	.	u	u--------	_	16	AuxK	_	t_1102|t_1065|ref=fr._14
 
 # source = Philolaus of Croton, fr._14
@@ -1429,7 +1429,7 @@
 3	Πυθαγορικός	πυθαγορικός	a	a-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1133|t_1131|ref=fr._14
 4	.	.	u	u--------	_	6	AuxK	_	t_1134|e_46|ref=fr._14
 5	.	.	u	u--------	_	6	AuxK	_	t_1135|e_46|ref=fr._14
-6	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=fr._2
+6	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=fr._14
 7	.	.	u	u--------	_	6	AuxK	_	t_1136|e_46|ref=fr._14
 
 # source = Philolaus of Croton, fr._14
@@ -1551,65 +1551,65 @@
 25	τέθαπται	θάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	20	OBJ	_	t_1242|t_1237|ref=fr._14
 26	.	.	u	u--------	_	1	AuxK	_	t_1243|t_1218|ref=fr._14
 
-# source = Philolaus of Croton, fr._14
+# source = Philolaus of Croton, fr._15
 # text = καὶ Φ. δὲ ὥσπερ ἐν φρουρᾶι πάντα ὑπὸ τοῦ θεοῦ εριειλῆφθαι λέγων καὶ τὸ ἕνα εἶναι καὶ τὸ ἀνωτέρω τῆς ὕλης ὁεικνύει [0] .
 # sent_id = 67
-1	καὶ	καί	c	c--------	_	22	AuxY	_	t_1244|t_1265|ref=fr._14
-2	Φ.	φ.	n	n--------	_	22	AuxG	_	t_1245|t_1265|ref=fr._14
-3	δὲ	δέ	d	d--------	_	22	AuxY	_	t_1246|t_1265|ref=fr._14
-4	ὥσπερ	ὥσπερ	c	c--------	_	22	AuxC	_	t_1247|t_1265|ref=fr._14
-5	ἐν	ἐν	r	r--------	_	23	AuxP	_	t_1248|e_47|ref=fr._14
-6	φρουρᾶι	φρουρά	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_1249|t_1248|ref=fr._14
-7	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	11	SBJ	_	t_1250|t_1254|ref=fr._14
-8	ὑπὸ	ὑπό	r	r--------	_	11	AuxP	_	t_1251|t_1254|ref=fr._14
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_1252|t_1253|ref=fr._14
-10	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	8	OBJ	_	t_1253|t_1251|ref=fr._14
-11	εριειλῆφθαι	εριλαμβάνω	v	v--rne---	Mood=n|Tense=r|Voice=e	12	OBJ	_	t_1254|t_1255|ref=fr._14
-12	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	22	ADV	_	t_1255|t_1265|ref=fr._14
-13	καὶ	καί	c	c--------	_	17	AuxY	_	t_1256|t_1260|ref=fr._14
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1257|t_1259|ref=fr._14
-15	ἕνα	εἷς	m	m-s---ma-	Case=a|Gender=m|Number=s	17	PNOM	_	t_1258|t_1260|ref=fr._14
-16	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_1259|t_1255|ref=fr._14
-17	καὶ	καί	c	c--------	_	16	COORD	_	t_1260|t_1259|ref=fr._14
-18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_1261|t_1262|ref=fr._14
-19	ἀνωτέρω	ἀνώτερος	d	d--------	_	17	SBJ	_	t_1262|t_1260|ref=fr._14
-20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_1263|t_1264|ref=fr._14
-21	ὕλης	ὕλη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1264|t_1262|ref=fr._14
-22	ὁεικνύει	ὁεικνύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1265|0|ref=fr._14
-23	[0]	[0]	-	---------	_	4	ADV	_	e_47|t_1247|ref=fr._2
-24	.	.	u	u--------	_	22	AuxK	_	t_1266|t_1265|ref=fr._14
+1	καὶ	καί	c	c--------	_	22	AuxY	_	t_1244|t_1265|ref=fr._15
+2	Φ.	φ.	n	n--------	_	22	AuxG	_	t_1245|t_1265|ref=fr._15
+3	δὲ	δέ	d	d--------	_	22	AuxY	_	t_1246|t_1265|ref=fr._15
+4	ὥσπερ	ὥσπερ	c	c--------	_	22	AuxC	_	t_1247|t_1265|ref=fr._15
+5	ἐν	ἐν	r	r--------	_	23	AuxP	_	t_1248|e_47|ref=fr._15
+6	φρουρᾶι	φρουρά	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_1249|t_1248|ref=fr._15
+7	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	11	SBJ	_	t_1250|t_1254|ref=fr._15
+8	ὑπὸ	ὑπό	r	r--------	_	11	AuxP	_	t_1251|t_1254|ref=fr._15
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_1252|t_1253|ref=fr._15
+10	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	8	OBJ	_	t_1253|t_1251|ref=fr._15
+11	εριειλῆφθαι	εριλαμβάνω	v	v--rne---	Mood=n|Tense=r|Voice=e	12	OBJ	_	t_1254|t_1255|ref=fr._15
+12	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	22	ADV	_	t_1255|t_1265|ref=fr._15
+13	καὶ	καί	c	c--------	_	17	AuxY	_	t_1256|t_1260|ref=fr._15
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1257|t_1259|ref=fr._15
+15	ἕνα	εἷς	m	m-s---ma-	Case=a|Gender=m|Number=s	17	PNOM	_	t_1258|t_1260|ref=fr._15
+16	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_1259|t_1255|ref=fr._15
+17	καὶ	καί	c	c--------	_	16	COORD	_	t_1260|t_1259|ref=fr._15
+18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_1261|t_1262|ref=fr._15
+19	ἀνωτέρω	ἀνώτερος	d	d--------	_	17	SBJ	_	t_1262|t_1260|ref=fr._15
+20	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_1263|t_1264|ref=fr._15
+21	ὕλης	ὕλη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1264|t_1262|ref=fr._15
+22	ὁεικνύει	ὁεικνύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1265|0|ref=fr._15
+23	[0]	[0]	-	---------	_	4	ADV	_	e_47|t_1247|ref=fr._15
+24	.	.	u	u--------	_	22	AuxK	_	t_1266|t_1265|ref=fr._15
 
-# source = Philolaus of Croton, fr._14
+# source = Philolaus of Croton, fr._15
 # text = τί δέ , ὦ Κέβης [0] ;
 # sent_id = 68
-1	τί	τίς	p	p-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_1267|e_48|ref=fr._14
-2	δέ	δέ	d	d--------	_	6	AuxY	_	t_1268|e_48|ref=fr._14
-3	,	,	u	u--------	_	6	AuxX	_	t_1269|e_48|ref=fr._14
-4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_1270|t_1271|ref=fr._14
-5	Κέβης	κέβης	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_1271|e_48|ref=fr._14
-6	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=fr._2
-7	;	;	u	u--------	_	6	AuxK	_	t_1272|e_48|ref=fr._14
+1	τί	τίς	p	p-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_1267|e_48|ref=fr._15
+2	δέ	δέ	d	d--------	_	6	AuxY	_	t_1268|e_48|ref=fr._15
+3	,	,	u	u--------	_	6	AuxX	_	t_1269|e_48|ref=fr._15
+4	ὦ	ὦ	i	i--------	_	5	AuxZ	_	t_1270|t_1271|ref=fr._15
+5	Κέβης	κέβης	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_1271|e_48|ref=fr._15
+6	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=fr._15
+7	;	;	u	u--------	_	6	AuxK	_	t_1272|e_48|ref=fr._15
 
-# source = Philolaus of Croton, fr._14
+# source = Philolaus of Croton, fr._15
 # text = οὐκ ἀκηκόατε σύ τε καὶ Σιμμίας περὶ τῶν τοιούτων [ Verwerflichkeit dea Selbetmords ] Φιλαλάωι συγγεγονότες ;
 # sent_id = 69
-1	οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_1273|t_1274|ref=fr._14
-2	ἀκηκόατε	ἀκούω	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_1274|0|ref=fr._14
-3	σύ	σύ	p	p2s---mn-	Case=n|Gender=m|Number=s|Person=2	5	SBJ	_	t_1275|t_1277|ref=fr._14
-4	τε	τε	d	d--------	_	5	AuxY	_	t_1276|t_1277|ref=fr._14
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_1277|t_1274|ref=fr._14
-6	Σιμμίας	σιμμίας	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1278|t_1277|ref=fr._14
-7	περὶ	περί	r	r--------	_	2	AuxP	_	t_1279|t_1274|ref=fr._14
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_1280|t_1281|ref=fr._14
-9	τοιούτων	τοιοῦτος	p	p-p---ng-	Case=g|Gender=n|Number=p	7	ADV	_	t_1281|t_1279|ref=fr._14
-10	[	[	u	u--------	_	2	AuxG	_	t_1282|t_1274|ref=fr._14
-11	Verwerflichkeit	ἐπιδορfισμός	n	n-s---fv-	Case=v|Gender=f|Number=s	5	ExD	_	t_1283|t_1277|ref=fr._14
-12	dea	deus	x	x--------	_	13	APOS	_	t_1284|t_1285|ref=fr._14
-13	Selbetmords	selbetmords	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_1285|t_1274|ref=fr._14
-14	]	]	u	u--------	_	2	AuxX	_	t_1286|t_1274|ref=fr._14
-15	Φιλαλάωι	φιλάλακος	n	n-s---md-	Case=d|Gender=m|Number=s	16	OBJ	_	t_1287|t_1288|ref=fr._14
-16	συγγεγονότες	συγγίγνομαι	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	2	ADV	_	t_1288|t_1274|ref=fr._14
-17	;	;	u	u--------	_	2	AuxK	_	t_1289|t_1274|ref=fr._14
+1	οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_1273|t_1274|ref=fr._15
+2	ἀκηκόατε	ἀκούω	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_1274|0|ref=fr._15
+3	σύ	σύ	p	p2s---mn-	Case=n|Gender=m|Number=s|Person=2	5	SBJ	_	t_1275|t_1277|ref=fr._15
+4	τε	τε	d	d--------	_	5	AuxY	_	t_1276|t_1277|ref=fr._15
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_1277|t_1274|ref=fr._15
+6	Σιμμίας	σιμμίας	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1278|t_1277|ref=fr._15
+7	περὶ	περί	r	r--------	_	2	AuxP	_	t_1279|t_1274|ref=fr._15
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_1280|t_1281|ref=fr._15
+9	τοιούτων	τοιοῦτος	p	p-p---ng-	Case=g|Gender=n|Number=p	7	ADV	_	t_1281|t_1279|ref=fr._15
+10	[	[	u	u--------	_	2	AuxG	_	t_1282|t_1274|ref=fr._15
+11	Verwerflichkeit	ἐπιδορfισμός	n	n-s---fv-	Case=v|Gender=f|Number=s	5	ExD	_	t_1283|t_1277|ref=fr._15
+12	dea	deus	x	x--------	_	13	APOS	_	t_1284|t_1285|ref=fr._15
+13	Selbetmords	selbetmords	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_1285|t_1274|ref=fr._15
+14	]	]	u	u--------	_	2	AuxX	_	t_1286|t_1274|ref=fr._15
+15	Φιλαλάωι	φιλάλακος	n	n-s---md-	Case=d|Gender=m|Number=s	16	OBJ	_	t_1287|t_1288|ref=fr._15
+16	συγγεγονότες	συγγίγνομαι	v	v-prpamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	2	ADV	_	t_1288|t_1274|ref=fr._15
+17	;	;	u	u--------	_	2	AuxK	_	t_1289|t_1274|ref=fr._15
 
 # source = Philolaus of Croton, fr._15
 # text = Οὐδέν γε σαφές , ὦ Σώκρατες [0] .
@@ -1620,7 +1620,7 @@
 4	,	,	u	u--------	_	7	AuxX	_	t_1293|e_49|ref=fr._15
 5	ὦ	ὦ	i	i--------	_	6	AuxZ	_	t_1294|t_1295|ref=fr._15
 6	Σώκρατες	σωκράτης	n	n-s---mv-	Case=v|Gender=m|Number=s	7	ExD	_	t_1295|e_49|ref=fr._15
-7	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=fr._2
+7	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=fr._15
 8	.	.	u	u--------	_	7	AuxK	_	t_1296|e_49|ref=fr._15
 
 # source = Philolaus of Croton, fr._15
@@ -1645,14 +1645,14 @@
 3	ἕγωγε	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	14	SBJ	_	t_1309|t_1320|ref=fr._15
 4	[	[	u	u--------	_	0	AuxG	_	t_1310|0|ref=fr._15
 5	Kebes	kebes	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_1311|t_1318|ref=fr._15
-6	]	]	u	u--------	_	4	AuxG	_	t_1312|t_1310|ref=fr._14
+6	]	]	u	u--------	_	4	AuxG	_	t_1312|t_1310|ref=fr._15
 7	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_1313|t_1316|ref=fr._15
 8	νυνδὴ	νυνδί	d	d--------	_	10	ADV	_	t_1314|t_1316|ref=fr._15
 9	σὺ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_1315|t_1316|ref=fr._15
 10	ἤρσυ	ἀρύω	v	v2siie---	Mood=i|Number=s|Person=2|Tense=i|Voice=e	12	ATR	_	t_1316|t_1318|ref=fr._15
 11	,	,	u	u--------	_	4	AuxX	_	t_1317|t_1310|ref=fr._15
 12	καὶ	καί	c	c--------	_	4	COORD	_	t_1318|t_1310|ref=fr._15
-13	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	25	OBJ	_	t_1319|t_1331|ref=fr._14
+13	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	25	OBJ	_	t_1319|t_1331|ref=fr._15
 14	ἥκσικα	ἥκει	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	12	PRED	_	t_1320|t_1318|ref=fr._15
 15	,	,	u	u--------	_	4	AuxX	_	t_1321|t_1310|ref=fr._15
 16	ὅτε	ὅτε	c	c--------	_	14	AuxC	_	t_1322|t_1320|ref=fr._15
@@ -1674,7 +1674,7 @@
 32	δέοι	δέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	30	ADV	_	t_1338|t_1336|ref=fr._15
 33	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	34	OBJ	_	t_1339|t_1340|ref=fr._15
 34	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	32	SBJ	_	t_1340|t_1338|ref=fr._15
-35	[0]	[0]	-	---------	_	25	PRED	_	e_50|t_1331|ref=fr._2
+35	[0]	[0]	-	---------	_	25	PRED	_	e_50|t_1331|ref=fr._15
 36	·	·	u	u--------	_	4	AuxK	_	t_1341|t_1310|ref=fr._15
 
 # source = Philolaus of Croton, fr._15
@@ -1787,7 +1787,7 @@
 20	πλάττοντες	πλάσσω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	23	ADV	_	t_1438|e_51|ref=fr._15
 21	[	[	u	u--------	_	5	AuxX	_	t_1439|t_1423|ref=fr._15
 22	?	?	u	u--------	_	5	AuxG	_	t_1440|t_1423|ref=fr._15
-23	[0]	[0]	-	---------	_	17	PRED	_	e_51|t_1435|ref=fr._2
+23	[0]	[0]	-	---------	_	17	PRED	_	e_51|t_1435|ref=fr._15
 24	]	]	u	u--------	_	22	AuxG	_	t_1441|t_1440|ref=fr._15
 
 # source = Philolaus of Croton, fr._15
@@ -1837,124 +1837,124 @@
 42	ὑφηγεῖται	ὑφηγέομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	37	ATR	_	t_1483|t_1478|ref=fr._15
 43	.	.	u	u--------	_	2	AuxK	_	t_1484|t_1443|ref=fr._15
 
-# source = Philolaus of Croton, fr._15
+# source = Philolaus of Croton, fr._16
 # text = ὥστε καὶ διάνοιαί τινες καὶ πάθη οὐκ ἐφ ἡμῖν εἰσιν , ἢ πράξεις αἱ κατὰ τὰς τοιαύτας δίανοίας καὶ λογισμούς , ἀλλʼ ὥσπερ Φ. ἔρη εἶναί τινας λόγους κρείττους ἡμῶν [0] .
 # sent_id = 77
-1	ὥστε	ὥστε	d	d--------	_	10	AuxY	_	t_1485|t_1494|ref=fr._15
-2	καὶ	καί	d	d--------	_	5	AuxY	_	t_1486|t_1489|ref=fr._15
-3	διάνοιαί	διάνοια	n	n-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_1487|t_1489|ref=fr._15
-4	τινες	τις	p	p-p---cn-	Case=n|Gender=f|Number=p	3	ATR	_	t_1488|t_1487|ref=fr._15
-5	καὶ	καί	c	c--------	_	12	COORD	_	t_1489|t_1496|ref=fr._15
-6	πάθη	πάθος	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_1490|t_1489|ref=fr._15
-7	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_1491|t_1494|ref=fr._15
-8	ἐφ	ἐπί	r	r--------	_	10	AuxP	_	t_1492|t_1494|ref=fr._15
-9	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	8	PNOM	_	t_1493|t_1492|ref=fr._15
-10	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1494|0|ref=fr._15
-11	,	,	u	u--------	_	10	AuxX	_	t_1495|t_1494|ref=fr._15
-12	ἢ	ἤ1	c	c--------	_	10	COORD	_	t_1496|t_1494|ref=fr._15
-13	πράξεις	πρᾶξις	n	n-p---fn-	Case=n|Gender=f|Number=p	12	PNOM	_	t_1497|t_1496|ref=fr._15
-14	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	13	ATR	_	t_1498|t_1497|ref=fr._15
-15	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_1499|t_1497|ref=fr._15
-16	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_1500|t_1503|ref=fr._15
-17	τοιαύτας	τοιοῦτος	a	a-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_1501|t_1503|ref=fr._15
-18	δίανοίας	δίανοια	n	n-p---fa-	Case=a|Gender=f|Number=p	19	ADV	_	t_1502|t_1503|ref=fr._15
-19	καὶ	καί	c	c--------	_	15	COORD	_	t_1503|t_1499|ref=fr._15
-20	λογισμούς	λογισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	19	ADV	_	t_1504|t_1503|ref=fr._15
-21	,	,	u	u--------	_	10	AuxX	_	t_1505|t_1494|ref=fr._15
-22	ἀλλʼ	ἀλλά	c	c--------	_	10	COORD	_	t_1506|t_1494|ref=fr._15
-23	ὥσπερ	ὥσπερ	c	c--------	_	26	AuxC	_	t_1507|t_1510|ref=fr._15
-24	Φ.	φ.	n	n--------	_	25	APOS	_	t_1508|t_1509|ref=fr._15
-25	ἔρη	ἔρος	n	n-p---na-	Case=a|Gender=n|Number=p	26	SBJ	_	t_1509|t_1510|ref=fr._15
-26	εἶναί	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	22	ADV	_	t_1510|t_1506|ref=fr._15
-27	τινας	τις	a	a-p---ma-	Case=a|Gender=m|Number=p	28	ATR	_	t_1511|t_1512|ref=fr._15
-28	λόγους	λόγος	n	n-p---ma-	Case=a|Gender=m|Number=p	26	SBJ	_	t_1512|t_1510|ref=fr._15
-29	κρείττους	κρείσσων	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	26	PNOM	_	t_1513|t_1510|ref=fr._15
-30	ἡμῶν	ἐγώ	p	p1p---fg-	Case=g|Gender=f|Number=p|Person=1	29	ADV	_	t_1514|t_1513|ref=fr._15
-31	[0]	[0]	-	---------	_	23	ADV	_	e_52|t_1507|ref=fr._2
-32	.	.	u	u--------	_	10	AuxK	_	t_1515|t_1494|ref=fr._15
+1	ὥστε	ὥστε	d	d--------	_	10	AuxY	_	t_1485|t_1494|ref=fr._16
+2	καὶ	καί	d	d--------	_	5	AuxY	_	t_1486|t_1489|ref=fr._16
+3	διάνοιαί	διάνοια	n	n-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_1487|t_1489|ref=fr._16
+4	τινες	τις	p	p-p---cn-	Case=n|Gender=f|Number=p	3	ATR	_	t_1488|t_1487|ref=fr._16
+5	καὶ	καί	c	c--------	_	12	COORD	_	t_1489|t_1496|ref=fr._16
+6	πάθη	πάθος	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_1490|t_1489|ref=fr._16
+7	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_1491|t_1494|ref=fr._16
+8	ἐφ	ἐπί	r	r--------	_	10	AuxP	_	t_1492|t_1494|ref=fr._16
+9	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	8	PNOM	_	t_1493|t_1492|ref=fr._16
+10	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1494|0|ref=fr._16
+11	,	,	u	u--------	_	10	AuxX	_	t_1495|t_1494|ref=fr._16
+12	ἢ	ἤ1	c	c--------	_	10	COORD	_	t_1496|t_1494|ref=fr._16
+13	πράξεις	πρᾶξις	n	n-p---fn-	Case=n|Gender=f|Number=p	12	PNOM	_	t_1497|t_1496|ref=fr._16
+14	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	13	ATR	_	t_1498|t_1497|ref=fr._16
+15	κατὰ	κατά	r	r--------	_	13	AuxP	_	t_1499|t_1497|ref=fr._16
+16	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_1500|t_1503|ref=fr._16
+17	τοιαύτας	τοιοῦτος	a	a-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_1501|t_1503|ref=fr._16
+18	δίανοίας	δίανοια	n	n-p---fa-	Case=a|Gender=f|Number=p	19	ADV	_	t_1502|t_1503|ref=fr._16
+19	καὶ	καί	c	c--------	_	15	COORD	_	t_1503|t_1499|ref=fr._16
+20	λογισμούς	λογισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	19	ADV	_	t_1504|t_1503|ref=fr._16
+21	,	,	u	u--------	_	10	AuxX	_	t_1505|t_1494|ref=fr._16
+22	ἀλλʼ	ἀλλά	c	c--------	_	10	COORD	_	t_1506|t_1494|ref=fr._16
+23	ὥσπερ	ὥσπερ	c	c--------	_	26	AuxC	_	t_1507|t_1510|ref=fr._16
+24	Φ.	φ.	n	n--------	_	25	APOS	_	t_1508|t_1509|ref=fr._16
+25	ἔρη	ἔρος	n	n-p---na-	Case=a|Gender=n|Number=p	26	SBJ	_	t_1509|t_1510|ref=fr._16
+26	εἶναί	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	22	ADV	_	t_1510|t_1506|ref=fr._16
+27	τινας	τις	a	a-p---ma-	Case=a|Gender=m|Number=p	28	ATR	_	t_1511|t_1512|ref=fr._16
+28	λόγους	λόγος	n	n-p---ma-	Case=a|Gender=m|Number=p	26	SBJ	_	t_1512|t_1510|ref=fr._16
+29	κρείττους	κρείσσων	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	26	PNOM	_	t_1513|t_1510|ref=fr._16
+30	ἡμῶν	ἐγώ	p	p1p---fg-	Case=g|Gender=f|Number=p|Person=1	29	ADV	_	t_1514|t_1513|ref=fr._16
+31	[0]	[0]	-	---------	_	23	ADV	_	e_52|t_1507|ref=fr._16
+32	.	.	u	u--------	_	10	AuxK	_	t_1515|t_1494|ref=fr._16
 
-# source = Philolaus of Croton, fr._15
+# source = Philolaus of Croton, fr._17
 # text = ΒΑΚΧΑΙ .
 # sent_id = 78
-1	ΒΑΚΧΑΙ	βάκχη	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1516|0|ref=fr._15
-2	.	.	u	u--------	_	1	AuxK	_	t_1517|t_1516|ref=fr._15
+1	ΒΑΚΧΑΙ	βάκχη	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_1516|0|ref=fr._17
+2	.	.	u	u--------	_	1	AuxK	_	t_1517|t_1516|ref=fr._17
 
-# source = Philolaus of Croton, fr._15
+# source = Philolaus of Croton, fr._17
 # text = Φιλολάου Βάκχαι [0] .
 # sent_id = 79
-1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	PNOM	_	t_1518|e_53|ref=fr._15
-2	Βάκχαι	βάκχη	n	n-s---mg-	Case=v|Gender=m|Number=s	3	ExD	_	t_1519|e_53|ref=fr._15
-3	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=fr._2
-4	.	.	u	u--------	_	3	AuxK	_	t_1520|e_53|ref=fr._15
+1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	PNOM	_	t_1518|e_53|ref=fr._17
+2	Βάκχαι	βάκχη	n	n-s---mg-	Case=v|Gender=m|Number=s	3	ExD	_	t_1519|e_53|ref=fr._17
+3	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=fr._17
+4	.	.	u	u--------	_	3	AuxK	_	t_1520|e_53|ref=fr._17
 
-# source = Philolaus of Croton, fr._15-16
+# source = Philolaus of Croton, fr._17
 # text = ὁ κόσμος εἶς ἐστιν , ἤρξατο δὲ γίγνεσθαι ἀπὸ τοῦ μέσου καὶ ἀπὸ τοῦ μέσου εἰς τὸ ἄνω διὰ τῶν αὐτῶν τοῖς κάτω .
 # sent_id = 80
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1521|t_1522|ref=fr._15
-2	κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1522|t_1524|ref=fr._15
-3	εἶς	εἰμί	d	d--------	_	4	PNOM	_	t_1523|t_1524|ref=fr._15
-4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_1524|t_1527|ref=fr._15
-5	,	,	u	u--------	_	0	AuxX	_	t_1525|0|ref=fr._15
-6	ἤρξατο	ἄρχω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	7	PRED	_	t_1526|t_1527|ref=fr._15
-7	δὲ	δέ	d	d--------	_	5	COORD	_	t_1527|t_1525|ref=fr._15
-8	γίγνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_1528|t_1526|ref=fr._15
-9	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_1529|t_1532|ref=fr._15
-10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_1530|t_1531|ref=fr._15
-11	μέσου	μέσος	a	a-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_1531|t_1529|ref=fr._15
-12	καὶ	καί	c	c--------	_	8	COORD	_	t_1532|t_1528|ref=fr._15
-13	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_1533|t_1532|ref=fr._15
-14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1534|t_1535|ref=fr._15
-15	μέσου	μέσος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_1535|t_1533|ref=fr._15
-16	εἰς	εἰς	r	r--------	_	12	AuxP	_	t_1536|t_1532|ref=fr._16
-17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_1537|t_1538|ref=fr._16
-18	ἄνω	ἄνω	d	d--------	_	16	PNOM	_	t_1538|t_1536|ref=fr._16
-19	διὰ	διά	r	r--------	_	8	AuxP	_	t_1539|t_1528|ref=fr._16
-20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_1540|t_1541|ref=fr._16
-21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ADV	_	t_1541|t_1539|ref=fr._16
-22	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	21	ATR	_	t_1542|t_1541|ref=fr._16
-23	κάτω	κάτω	d	d--------	_	21	ATR	_	t_1543|t_1541|ref=fr._16
-24	.	.	u	u--------	_	5	AuxK	_	t_1544|t_1525|ref=fr._16
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1521|t_1522|ref=fr._17
+2	κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1522|t_1524|ref=fr._17
+3	εἶς	εἰμί	d	d--------	_	4	PNOM	_	t_1523|t_1524|ref=fr._17
+4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_1524|t_1527|ref=fr._17
+5	,	,	u	u--------	_	0	AuxX	_	t_1525|0|ref=fr._17
+6	ἤρξατο	ἄρχω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	7	PRED	_	t_1526|t_1527|ref=fr._17
+7	δὲ	δέ	d	d--------	_	5	COORD	_	t_1527|t_1525|ref=fr._17
+8	γίγνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_1528|t_1526|ref=fr._17
+9	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_1529|t_1532|ref=fr._17
+10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_1530|t_1531|ref=fr._17
+11	μέσου	μέσος	a	a-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_1531|t_1529|ref=fr._17
+12	καὶ	καί	c	c--------	_	8	COORD	_	t_1532|t_1528|ref=fr._17
+13	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_1533|t_1532|ref=fr._17
+14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_1534|t_1535|ref=fr._17
+15	μέσου	μέσος	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ADV	_	t_1535|t_1533|ref=fr._17
+16	εἰς	εἰς	r	r--------	_	12	AuxP	_	t_1536|t_1532|ref=fr._17
+17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_1537|t_1538|ref=fr._17
+18	ἄνω	ἄνω	d	d--------	_	16	PNOM	_	t_1538|t_1536|ref=fr._17
+19	διὰ	διά	r	r--------	_	8	AuxP	_	t_1539|t_1528|ref=fr._17
+20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_1540|t_1541|ref=fr._17
+21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ADV	_	t_1541|t_1539|ref=fr._17
+22	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	21	ATR	_	t_1542|t_1541|ref=fr._17
+23	κάτω	κάτω	d	d--------	_	21	ATR	_	t_1543|t_1541|ref=fr._17
+24	.	.	u	u--------	_	5	AuxK	_	t_1544|t_1525|ref=fr._17
 
-# source = Philolaus of Croton, fr._16
+# source = Philolaus of Croton, fr._17
 # text = ἔστι ⟨ γὰρ ⟩ τὰ ἄνω τοῦ μέσου ὑπεναντίως κείμενα τοῖς κάτω .
 # sent_id = 81
-1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1545|0|ref=fr._16
-2	⟨	⟨	u	u--------	_	1	AuxG	_	t_1546|t_1545|ref=fr._16
-3	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1547|t_1545|ref=fr._16
-4	⟩	⟩	u	u--------	_	1	AuxG	_	t_1548|t_1545|ref=fr._16
-5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_1549|t_1545|ref=fr._16
-6	ἄνω	ἄνω	d	d--------	_	5	ATR	_	t_1550|t_1549|ref=fr._16
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1551|t_1552|ref=fr._16
-8	μέσου	μέσος	a	a-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1552|t_1550|ref=fr._16
-9	ὑπεναντίως	ὑπεναντίος	d	d--------	_	1	PNOM	_	t_1553|t_1545|ref=fr._16
-10	κείμενα	κεῖμαι	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	1	PNOM	_	t_1554|t_1545|ref=fr._16
-11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_1555|t_1553|ref=fr._16
-12	κάτω	κάτω	d	d--------	_	11	ATR	_	t_1556|t_1555|ref=fr._16
-13	.	.	u	u--------	_	1	AuxK	_	t_1557|t_1545|ref=fr._16
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1545|0|ref=fr._17
+2	⟨	⟨	u	u--------	_	1	AuxG	_	t_1546|t_1545|ref=fr._17
+3	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1547|t_1545|ref=fr._17
+4	⟩	⟩	u	u--------	_	1	AuxG	_	t_1548|t_1545|ref=fr._17
+5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	1	SBJ	_	t_1549|t_1545|ref=fr._17
+6	ἄνω	ἄνω	d	d--------	_	5	ATR	_	t_1550|t_1549|ref=fr._17
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1551|t_1552|ref=fr._17
+8	μέσου	μέσος	a	a-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1552|t_1550|ref=fr._17
+9	ὑπεναντίως	ὑπεναντίος	d	d--------	_	1	PNOM	_	t_1553|t_1545|ref=fr._17
+10	κείμενα	κεῖμαι	v	v-prpenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	1	PNOM	_	t_1554|t_1545|ref=fr._17
+11	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_1555|t_1553|ref=fr._17
+12	κάτω	κάτω	d	d--------	_	11	ATR	_	t_1556|t_1555|ref=fr._17
+13	.	.	u	u--------	_	1	AuxK	_	t_1557|t_1545|ref=fr._17
 
-# source = Philolaus of Croton, fr._16-17
+# source = Philolaus of Croton, fr._17
 # text = τοῖς γὰρ κατωτάτω τὰ μέσα ἐστὶν ὥσπερ τὰ ἀνωτάτω καὶ τὰ ἄλλα ὡσαύτως [0] .
 # sent_id = 82
-1	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_1558|t_1560|ref=fr._16
-2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_1559|t_1563|ref=fr._16
-3	κατωτάτω	κατωτάτω	d	d--------	_	6	PNOM	_	t_1560|t_1563|ref=fr._16
-4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1561|t_1562|ref=fr._16
-5	μέσα	μέσος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_1562|t_1563|ref=fr._16
-6	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1563|0|ref=fr._16
-7	ὥσπερ	ὥσπερ	c	c--------	_	6	AuxC	_	t_1564|t_1563|ref=fr._16
-8	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_1565|t_1566|ref=fr._16
-9	ἀνωτάτω	ἄνω	d	d--------	_	14	SBJ	_	t_1566|e_54|ref=fr._15
-10	καὶ	καί	c	c--------	_	7	COORD	_	t_1567|t_1564|ref=fr._16
+1	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ADV	_	t_1558|t_1560|ref=fr._17
+2	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_1559|t_1563|ref=fr._17
+3	κατωτάτω	κατωτάτω	d	d--------	_	6	PNOM	_	t_1560|t_1563|ref=fr._17
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_1561|t_1562|ref=fr._17
+5	μέσα	μέσος	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_1562|t_1563|ref=fr._17
+6	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1563|0|ref=fr._17
+7	ὥσπερ	ὥσπερ	c	c--------	_	6	AuxC	_	t_1564|t_1563|ref=fr._17
+8	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_1565|t_1566|ref=fr._17
+9	ἀνωτάτω	ἄνω	d	d--------	_	14	SBJ	_	t_1566|e_54|ref=fr._17
+10	καὶ	καί	c	c--------	_	7	COORD	_	t_1567|t_1564|ref=fr._17
 11	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_1568|t_1569|ref=fr._17
 12	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_1569|e_54|ref=fr._17
 13	ὡσαύτως	ὡσαύτως	d	d--------	_	14	ADV	_	t_1570|e_54|ref=fr._17
-14	[0]	[0]	-	---------	_	7	ADV	_	e_54|t_1564|ref=fr._2
+14	[0]	[0]	-	---------	_	7	ADV	_	e_54|t_1564|ref=fr._17
 15	.	.	u	u--------	_	6	AuxK	_	t_1571|t_1563|ref=fr._17
 
-# source = Philolaus of Croton, fr._15-17
+# source = Philolaus of Croton, fr._17-18
 # text = πρὸς γὰρ τὸ μέσον κατὰ τ αὐτά ἐστιν ἑκάτερα , ὅσα μὴ μετενήνεκται . ]
 # sent_id = 83
-1	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_1572|t_1579|ref=fr._15
+1	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_1572|t_1579|ref=fr._17
 2	γὰρ	γάρ	d	d--------	_	8	AuxY	_	t_1573|t_1579|ref=fr._17
 3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1574|t_1575|ref=fr._17
 4	μέσον	μέσος	a	a-s---na-	Case=a|Gender=n|Number=s	1	PNOM	_	t_1575|t_1572|ref=fr._17
@@ -1968,178 +1968,178 @@
 12	μὴ	μή	d	d--------	_	13	AuxZ	_	t_1583|t_1584|ref=fr._17
 13	μετενήνεκται	μεταφέρω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	9	ATR	_	t_1584|t_1580|ref=fr._17
 14	.	.	u	u--------	_	8	AuxK	_	t_1585|t_1579|ref=fr._17
-15	]	]	u	u--------	_	8	AuxG	_	t_1586|t_1579|ref=fr._17
+15	]	]	u	u--------	_	8	AuxG	_	t_1586|t_1579|ref=fr._18
 
-# source = Philolaus of Croton, fr._17
+# source = Philolaus of Croton, fr._18
 # text = Φιλολάου ἐκ βακχῶν [0] .
 # sent_id = 84
-1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_1587|t_1589|ref=fr._17
-2	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_1588|e_55|ref=fr._17
-3	βακχῶν	βάκχη	n	n-p---fg-	Case=g|Gender=f|Number=p	2	ADV	_	t_1589|t_1588|ref=fr._17
-4	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=fr._2
-5	.	.	u	u--------	_	4	AuxK	_	t_1590|e_55|ref=fr._17
+1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_1587|t_1589|ref=fr._18
+2	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_1588|e_55|ref=fr._18
+3	βακχῶν	βάκχη	n	n-p---fg-	Case=g|Gender=f|Number=p	2	ADV	_	t_1589|t_1588|ref=fr._18
+4	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=fr._18
+5	.	.	u	u--------	_	4	AuxK	_	t_1590|e_55|ref=fr._18
 
-# source = Philolaus of Croton, fr._17
+# source = Philolaus of Croton, fr._18
 # text = Zitat ( περὶ ἡλίου ) ausgefallen [0] .
 # sent_id = 85
-1	Zitat	zitat	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1591|e_56|ref=fr._17
-2	(	̔	u	u--------	_	7	AuxG	_	t_1592|e_56|ref=fr._17
-3	περὶ	περί	r	r--------	_	6	AuxP	_	t_1593|t_1596|ref=fr._17
-4	ἡλίου	ἥλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_1594|t_1593|ref=fr._17
-5	)	)	u	u--------	_	7	AuxG	_	t_1595|e_56|ref=fr._17
-6	ausgefallen	καταστρέφω	v	v2spma---	Case=n|Gender=f|Number=s	7	PNOM	_	t_1596|e_56|ref=fr._17
-7	[0]	[0]	-	---------	_	0	PRED	_	e_56|0|ref=fr._2
-8	.	.	u	u--------	_	7	AuxK	_	t_1597|e_56|ref=fr._17
+1	Zitat	zitat	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1591|e_56|ref=fr._18
+2	(	̔	u	u--------	_	7	AuxG	_	t_1592|e_56|ref=fr._18
+3	περὶ	περί	r	r--------	_	6	AuxP	_	t_1593|t_1596|ref=fr._18
+4	ἡλίου	ἥλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_1594|t_1593|ref=fr._18
+5	)	)	u	u--------	_	7	AuxG	_	t_1595|e_56|ref=fr._18
+6	ausgefallen	καταστρέφω	v	v2spma---	Case=n|Gender=f|Number=s	7	PNOM	_	t_1596|e_56|ref=fr._18
+7	[0]	[0]	-	---------	_	0	PRED	_	e_56|0|ref=fr._18
+8	.	.	u	u--------	_	7	AuxK	_	t_1597|e_56|ref=fr._18
 
-# source = Philolaus of Croton, fr._17
+# source = Philolaus of Croton, fr._19
 # text = διὸ καὶ ὁ Πλάτων πολλὰ καὶ θαυμαστὰ δόγματα περὶ θεῶν διὰ τῶν μαθηματικῶν εἰδῶν ἡμᾶς ἀναδιδάσκει καὶ ἡ τῶν Πυθαγορείων φιλοσοφία παραπετάσμασι τούτοις χρωμένη τὴν μυσταγωγίαν κατακρύπτει τῶν θείων δογμάτων .
 # sent_id = 86
-1	διὸ	διό	d	d--------	_	17	AuxY	_	t_1598|t_1614|ref=fr._17
-2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_1599|t_1601|ref=fr._17
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1600|t_1601|ref=fr._17
-4	Πλάτων	πλάτων	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_1601|t_1614|ref=fr._17
-5	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_1602|t_1603|ref=fr._17
-6	καὶ	καί	c	c--------	_	8	COORD	_	t_1603|t_1605|ref=fr._17
-7	θαυμαστὰ	θαυμαστός	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_1604|t_1603|ref=fr._17
-8	δόγματα	δόγμα	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_1605|t_1611|ref=fr._17
-9	περὶ	περί	r	r--------	_	14	AuxP	_	t_1606|t_1611|ref=fr._17
-10	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ADV	_	t_1607|t_1606|ref=fr._17
-11	διὰ	διά	r	r--------	_	14	AuxP	_	t_1608|t_1611|ref=fr._17
-12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1609|t_1610|ref=fr._17
-13	μαθηματικῶν	μαθηματικός	a	a-p---ng-	Case=g|Gender=n|Number=p	11	ADV	_	t_1610|t_1608|ref=fr._17
-14	εἰδῶν	εἶδος	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_1611|t_1613|ref=fr._17
-15	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	16	OBJ	_	t_1612|t_1613|ref=fr._17
-16	ἀναδιδάσκει	ἐκδιδάσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_1613|t_1614|ref=fr._17
-17	καὶ	καί	c	c--------	_	0	COORD	_	t_1614|0|ref=fr._17
-18	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	21	ATR	_	t_1615|t_1618|ref=fr._17
-19	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_1616|t_1617|ref=fr._17
-20	Πυθαγορείων	πυθαγόρειος	n	n-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_1617|t_1618|ref=fr._17
-21	φιλοσοφία	φιλοσοφία	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_1618|t_1624|ref=fr._17
-22	παραπετάσμασι	παραπέτασμα	n	n-p---nd-	Case=d|Gender=n|Number=p	24	OCOMP	_	t_1619|t_1621|ref=fr._17
-23	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	22	ATR	_	t_1620|t_1619|ref=fr._17
-24	χρωμένη	χράω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	27	ADV	_	t_1621|t_1624|ref=fr._17
-25	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_1622|t_1623|ref=fr._17
-26	μυσταγωγίαν	μυσταγωγία	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OBJ	_	t_1623|t_1624|ref=fr._17
-27	κατακρύπτει	κατακρύπτω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_1624|t_1614|ref=fr._17
-28	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1625|t_1627|ref=fr._17
-29	θείων	θεῖος2	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1626|t_1627|ref=fr._17
-30	δογμάτων	δόγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_1627|t_1623|ref=fr._17
-31	.	.	u	u--------	_	17	AuxK	_	t_1628|t_1614|ref=fr._17
+1	διὸ	διό	d	d--------	_	17	AuxY	_	t_1598|t_1614|ref=fr._19
+2	καὶ	καί	d	d--------	_	4	AuxZ	_	t_1599|t_1601|ref=fr._19
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1600|t_1601|ref=fr._19
+4	Πλάτων	πλάτων	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_1601|t_1614|ref=fr._19
+5	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_1602|t_1603|ref=fr._19
+6	καὶ	καί	c	c--------	_	8	COORD	_	t_1603|t_1605|ref=fr._19
+7	θαυμαστὰ	θαυμαστός	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_1604|t_1603|ref=fr._19
+8	δόγματα	δόγμα	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_1605|t_1611|ref=fr._19
+9	περὶ	περί	r	r--------	_	14	AuxP	_	t_1606|t_1611|ref=fr._19
+10	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ADV	_	t_1607|t_1606|ref=fr._19
+11	διὰ	διά	r	r--------	_	14	AuxP	_	t_1608|t_1611|ref=fr._19
+12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1609|t_1610|ref=fr._19
+13	μαθηματικῶν	μαθηματικός	a	a-p---ng-	Case=g|Gender=n|Number=p	11	ADV	_	t_1610|t_1608|ref=fr._19
+14	εἰδῶν	εἶδος	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_1611|t_1613|ref=fr._19
+15	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	16	OBJ	_	t_1612|t_1613|ref=fr._19
+16	ἀναδιδάσκει	ἐκδιδάσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_1613|t_1614|ref=fr._19
+17	καὶ	καί	c	c--------	_	0	COORD	_	t_1614|0|ref=fr._19
+18	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	21	ATR	_	t_1615|t_1618|ref=fr._19
+19	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_1616|t_1617|ref=fr._19
+20	Πυθαγορείων	πυθαγόρειος	n	n-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_1617|t_1618|ref=fr._19
+21	φιλοσοφία	φιλοσοφία	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_1618|t_1624|ref=fr._19
+22	παραπετάσμασι	παραπέτασμα	n	n-p---nd-	Case=d|Gender=n|Number=p	24	OCOMP	_	t_1619|t_1621|ref=fr._19
+23	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	22	ATR	_	t_1620|t_1619|ref=fr._19
+24	χρωμένη	χράω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	27	ADV	_	t_1621|t_1624|ref=fr._19
+25	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_1622|t_1623|ref=fr._19
+26	μυσταγωγίαν	μυσταγωγία	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OBJ	_	t_1623|t_1624|ref=fr._19
+27	κατακρύπτει	κατακρύπτω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	17	PRED	_	t_1624|t_1614|ref=fr._19
+28	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1625|t_1627|ref=fr._19
+29	θείων	θεῖος2	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1626|t_1627|ref=fr._19
+30	δογμάτων	δόγμα	n	n-p---ng-	Case=g|Gender=n|Number=p	26	ATR	_	t_1627|t_1623|ref=fr._19
+31	.	.	u	u--------	_	17	AuxK	_	t_1628|t_1614|ref=fr._19
 
-# source = Philolaus of Croton, fr._17-18
+# source = Philolaus of Croton, fr._19
 # text = τοιοῦτος γὰρ καὶ ὁ Ἱερὸς σύμπας λόγος καὶ ὁ Φιλόλαος ἐν ταῖς Βάκχαις καὶ ὅλος ὁ τρόπος τῆς Πυθαγόρου περὶ θεῶν ὑφηγήσεως [0] .
 # sent_id = 87
-1	τοιοῦτος	τοιοῦτος	a	a-s---mn-	Case=n|Gender=m|Number=s	23	PNOM	_	t_1629|e_57|ref=fr._17
-2	γὰρ	γάρ	d	d--------	_	23	AuxY	_	t_1630|e_57|ref=fr._17
-3	καὶ	καί	d	d--------	_	14	AuxY	_	t_1631|t_1642|ref=fr._17
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1632|t_1635|ref=fr._17
-5	Ἱερὸς	ἱερός	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1633|t_1635|ref=fr._17
-6	σύμπας	σύμπας	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1634|t_1635|ref=fr._17
-7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1635|t_1642|ref=fr._17
-8	καὶ	καί	d	d--------	_	14	AuxY	_	t_1636|t_1642|ref=fr._17
-9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1637|t_1638|ref=fr._17
-10	Φιλόλαος	φιλόλαος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1638|t_1642|ref=fr._17
-11	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1639|t_1635|ref=fr._17
-12	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_1640|t_1641|ref=fr._18
-13	Βάκχαις	βάκχη	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ATR	_	t_1641|t_1639|ref=fr._18
-14	καὶ	καί	c	c--------	_	23	COORD	_	t_1642|e_57|ref=fr._18
-15	ὅλος	ὅλος	a	a-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_1643|t_1645|ref=fr._18
-16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_1644|t_1645|ref=fr._17
-17	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1645|t_1642|ref=fr._18
-18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_1646|t_1650|ref=fr._18
-19	Πυθαγόρου	πυθαγόρας	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_1647|t_1645|ref=fr._18
-20	περὶ	περί	r	r--------	_	22	AuxP	_	t_1648|t_1650|ref=fr._18
-21	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_1649|t_1648|ref=fr._18
-22	ὑφηγήσεως	ὑφήγησις	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_1650|t_1645|ref=fr._18
-23	[0]	[0]	-	---------	_	0	PRED	_	e_57|0|ref=fr._2
-24	.	.	u	u--------	_	23	AuxK	_	t_1651|e_57|ref=fr._18
+1	τοιοῦτος	τοιοῦτος	a	a-s---mn-	Case=n|Gender=m|Number=s	23	PNOM	_	t_1629|e_57|ref=fr._19
+2	γὰρ	γάρ	d	d--------	_	23	AuxY	_	t_1630|e_57|ref=fr._19
+3	καὶ	καί	d	d--------	_	14	AuxY	_	t_1631|t_1642|ref=fr._19
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1632|t_1635|ref=fr._19
+5	Ἱερὸς	ἱερός	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1633|t_1635|ref=fr._19
+6	σύμπας	σύμπας	a	a-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_1634|t_1635|ref=fr._19
+7	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1635|t_1642|ref=fr._19
+8	καὶ	καί	d	d--------	_	14	AuxY	_	t_1636|t_1642|ref=fr._19
+9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1637|t_1638|ref=fr._19
+10	Φιλόλαος	φιλόλαος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1638|t_1642|ref=fr._19
+11	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1639|t_1635|ref=fr._19
+12	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_1640|t_1641|ref=fr._19
+13	Βάκχαις	βάκχη	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ATR	_	t_1641|t_1639|ref=fr._19
+14	καὶ	καί	c	c--------	_	23	COORD	_	t_1642|e_57|ref=fr._19
+15	ὅλος	ὅλος	a	a-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_1643|t_1645|ref=fr._19
+16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_1644|t_1645|ref=fr._19
+17	τρόπος	τρόπος	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1645|t_1642|ref=fr._19
+18	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_1646|t_1650|ref=fr._19
+19	Πυθαγόρου	πυθαγόρας	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_1647|t_1645|ref=fr._19
+20	περὶ	περί	r	r--------	_	22	AuxP	_	t_1648|t_1650|ref=fr._19
+21	θεῶν	θεός	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_1649|t_1648|ref=fr._19
+22	ὑφηγήσεως	ὑφήγησις	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_1650|t_1645|ref=fr._19
+23	[0]	[0]	-	---------	_	0	PRED	_	e_57|0|ref=fr._19
+24	.	.	u	u--------	_	23	AuxK	_	t_1651|e_57|ref=fr._19
 
-# source = Philolaus of Croton, fr._17-18
+# source = Philolaus of Croton, fr._20
 # text = ZWEIFELHAFTES [0] .
 # sent_id = 88
-1	ZWEIFELHAFTES	ἐλάτονος	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_1652|e_58|ref=fr._17
-2	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=fr._2
-3	.	.	u	u--------	_	2	AuxK	_	t_1653|e_58|ref=fr._18
+1	ZWEIFELHAFTES	ἐλάτονος	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ExD	_	t_1652|e_58|ref=fr._20
+2	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=fr._20
+3	.	.	u	u--------	_	2	AuxK	_	t_1653|e_58|ref=fr._20
 
-# source = Philolaus of Croton, fr._19
+# source = Philolaus of Croton, fr._20
 # text = ὀρθῶς οὖν ἀμήτορα τὸν ἑπτὰ ἀριθμὸν ὁ Φ. προσπηγόρευσε ·
 # sent_id = 89
-1	ὀρθῶς	ὀρθός	d	d--------	_	9	ADV	_	t_1654|t_1662|ref=fr._19
-2	οὖν	οὖν	d	d--------	_	9	AuxY	_	t_1655|t_1662|ref=fr._19
-3	ἀμήτορα	ἀμήτωρ	n	n-s---ma-	Case=a|Gender=m|Number=s	6	ATV	_	t_1656|t_1659|ref=fr._19
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_1657|t_1659|ref=fr._19
-5	ἑπτὰ	ἑπτὰ	m	m--------	_	6	ATR	_	t_1658|t_1659|ref=fr._19
-6	ἀριθμὸν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_1659|t_1662|ref=fr._19
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1660|t_1661|ref=fr._19
-8	Φ.	φ.	n	n-s---mn-	_	9	SBJ	_	t_1661|t_1662|ref=fr._19
-9	προσπηγόρευσε	προσπέμπω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1662|0|ref=fr._19
-10	·	·	u	u--------	_	9	AuxK	_	t_1663|t_1662|ref=fr._19
+1	ὀρθῶς	ὀρθός	d	d--------	_	9	ADV	_	t_1654|t_1662|ref=fr._20
+2	οὖν	οὖν	d	d--------	_	9	AuxY	_	t_1655|t_1662|ref=fr._20
+3	ἀμήτορα	ἀμήτωρ	n	n-s---ma-	Case=a|Gender=m|Number=s	6	ATV	_	t_1656|t_1659|ref=fr._20
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_1657|t_1659|ref=fr._20
+5	ἑπτὰ	ἑπτὰ	m	m--------	_	6	ATR	_	t_1658|t_1659|ref=fr._20
+6	ἀριθμὸν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_1659|t_1662|ref=fr._20
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1660|t_1661|ref=fr._20
+8	Φ.	φ.	n	n-s---mn-	_	9	SBJ	_	t_1661|t_1662|ref=fr._20
+9	προσπηγόρευσε	προσπέμπω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1662|0|ref=fr._20
+10	·	·	u	u--------	_	9	AuxK	_	t_1663|t_1662|ref=fr._20
 
-# source = Philolaus of Croton, fr._19
+# source = Philolaus of Croton, fr._20
 # text = μόνος γὰρ οὕτε γεννᾶν οὔ τε γεννᾶσθαι πέφυκε ·
 # sent_id = 90
-1	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	8	AtvV	_	t_1664|t_1671|ref=fr._19
-2	γὰρ	γάρ	g	g--------	_	8	AuxY	_	t_1665|t_1671|ref=fr._19
-3	οὕτε	οὔτε	d	d--------	_	6	ADV	_	t_1666|t_1669|ref=fr._19
-4	γεννᾶν	γεννάω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_1667|t_1669|ref=fr._19
-5	οὔ	οὐ	d	d--------	_	6	AuxY	_	t_1668|t_1669|ref=fr._19
-6	τε	τε	g	g--------	_	8	COORD	_	t_1669|t_1671|ref=fr._19
-7	γεννᾶσθαι	γεννάω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_1670|t_1669|ref=fr._19
-8	πέφυκε	φύω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_1671|0|ref=fr._19
-9	·	·	u	u--------	_	8	AuxK	_	t_1672|t_1671|ref=fr._19
+1	μόνος	μόνος	a	a-s---mn-	Case=n|Gender=m|Number=s	8	AtvV	_	t_1664|t_1671|ref=fr._20
+2	γὰρ	γάρ	g	g--------	_	8	AuxY	_	t_1665|t_1671|ref=fr._20
+3	οὕτε	οὔτε	d	d--------	_	6	ADV	_	t_1666|t_1669|ref=fr._20
+4	γεννᾶν	γεννάω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_1667|t_1669|ref=fr._20
+5	οὔ	οὐ	d	d--------	_	6	AuxY	_	t_1668|t_1669|ref=fr._20
+6	τε	τε	g	g--------	_	8	COORD	_	t_1669|t_1671|ref=fr._20
+7	γεννᾶσθαι	γεννάω	v	v--pne---	Mood=n|Tense=p|Voice=e	6	OBJ	_	t_1670|t_1669|ref=fr._20
+8	πέφυκε	φύω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_1671|0|ref=fr._20
+9	·	·	u	u--------	_	8	AuxK	_	t_1672|t_1671|ref=fr._20
 
-# source = Philolaus of Croton, fr._19
+# source = Philolaus of Croton, fr._20
 # text = τὸ δὲ μή τε γεννῶν μή τε γεννώμενον ἀκίνηπτον [0] ·
 # sent_id = 91
-1	τὸ	ὁ	p	p-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_1673|e_59|ref=fr._19
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_1674|e_59|ref=fr._19
-3	μή	μή	d	d--------	_	4	AuxY	_	t_1675|t_1676|ref=fr._19
-4	τε	τε	c	c--------	_	7	AuxY	_	t_1676|t_1679|ref=fr._19
-5	γεννῶν	γεννάω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	7	ATR	_	t_1677|t_1679|ref=fr._19
-6	μή	μή	d	d--------	_	7	AuxY	_	t_1678|t_1679|ref=fr._19
-7	τε	τε	c	c--------	_	1	COORD	_	t_1679|t_1673|ref=fr._19
-8	γεννώμενον	γεννάω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	SBJ	_	t_1680|t_1679|ref=fr._19
-9	ἀκίνηπτον	ἀκίνητος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_1681|e_59|ref=fr._19
-10	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=fr._2
-11	·	·	u	u--------	_	10	AuxK	_	t_1682|e_59|ref=fr._19
+1	τὸ	ὁ	p	p-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_1673|e_59|ref=fr._20
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_1674|e_59|ref=fr._20
+3	μή	μή	d	d--------	_	4	AuxY	_	t_1675|t_1676|ref=fr._20
+4	τε	τε	c	c--------	_	7	AuxY	_	t_1676|t_1679|ref=fr._20
+5	γεννῶν	γεννάω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	7	ATR	_	t_1677|t_1679|ref=fr._20
+6	μή	μή	d	d--------	_	7	AuxY	_	t_1678|t_1679|ref=fr._20
+7	τε	τε	c	c--------	_	1	COORD	_	t_1679|t_1673|ref=fr._20
+8	γεννώμενον	γεννάω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	SBJ	_	t_1680|t_1679|ref=fr._20
+9	ἀκίνηπτον	ἀκίνητος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_1681|e_59|ref=fr._20
+10	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=fr._20
+11	·	·	u	u--------	_	10	AuxK	_	t_1682|e_59|ref=fr._20
 
-# source = Philolaus of Croton, fr._19
+# source = Philolaus of Croton, fr._20
 # text = ἐν κινήσει γὰρ ἡ γέννησις , ἑπειδὴ καὶ τὸ γενῶν καὶ τὸ γεννώμενον οὐκ ἄνευ κινήσεώς ἐστι , τὸ μὲν ἵνα γεννήσηι , [0] ·
 # sent_id = 92
-1	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_1683|e_60|ref=fr._19
-2	κινήσει	κίνησις	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_1684|t_1683|ref=fr._19
-3	γὰρ	γάρ	d	d--------	_	24	AuxY	_	t_1685|e_60|ref=fr._19
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_1686|t_1687|ref=fr._19
-5	γέννησις	γέννησις	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_1687|e_60|ref=fr._19
-6	,	,	u	u--------	_	24	AuxX	_	t_1688|e_60|ref=fr._19
-7	ἑπειδὴ	ἐπεί	c	c--------	_	24	AuxC	_	t_1689|e_60|ref=fr._19
-8	καὶ	καί	c	c--------	_	11	AuxY	_	t_1690|t_1693|ref=fr._19
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_1691|t_1692|ref=fr._19
-10	γενῶν	γένος	v	v-sapmnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	11	SBJ	_	t_1692|t_1693|ref=fr._19
-11	καὶ	καί	c	c--------	_	17	COORD	_	t_1693|t_1699|ref=fr._19
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1694|t_1695|ref=fr._19
-13	γεννώμενον	γεννάω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	11	SBJ	_	t_1695|t_1693|ref=fr._19
-14	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_1696|t_1699|ref=fr._19
-15	ἄνευ	ἄνευ	r	r--------	_	17	AuxP	_	t_1697|t_1699|ref=fr._19
-16	κινήσεώς	κίνησις	n	n-s---fg-	Case=g|Gender=f|Number=s	15	PNOM	_	t_1698|t_1697|ref=fr._19
-17	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	ADV	_	t_1699|t_1689|ref=fr._19
-18	,	,	u	u--------	_	24	AuxX	_	t_1700|e_60|ref=fr._19
-19	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	22	ATR	_	t_1701|t_1704|ref=fr._19
-20	μὲν	μέν	d	d--------	_	22	AuxY	_	t_1702|t_1704|ref=fr._19
-21	ἵνα	ἵνα	c	c--------	_	24	AuxC	_	t_1703|e_60|ref=fr._19
-22	γεννήσηι	γεννάω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	21	ADV	_	t_1704|t_1703|ref=fr._19
-23	,	,	u	u--------	_	24	AuxX	_	t_1705|e_60|ref=fr._19
-24	[0]	[0]	-	---------	_	0	PRED	_	e_60|0|ref=fr._2
-25	·	·	u	u--------	_	24	AuxK	_	t_1706|e_60|ref=fr._19
+1	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_1683|e_60|ref=fr._20
+2	κινήσει	κίνησις	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_1684|t_1683|ref=fr._20
+3	γὰρ	γάρ	d	d--------	_	24	AuxY	_	t_1685|e_60|ref=fr._20
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_1686|t_1687|ref=fr._20
+5	γέννησις	γέννησις	n	n-s---fn-	Case=n|Gender=f|Number=s	24	SBJ	_	t_1687|e_60|ref=fr._20
+6	,	,	u	u--------	_	24	AuxX	_	t_1688|e_60|ref=fr._20
+7	ἑπειδὴ	ἐπεί	c	c--------	_	24	AuxC	_	t_1689|e_60|ref=fr._20
+8	καὶ	καί	c	c--------	_	11	AuxY	_	t_1690|t_1693|ref=fr._20
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_1691|t_1692|ref=fr._20
+10	γενῶν	γένος	v	v-sapmnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=m	11	SBJ	_	t_1692|t_1693|ref=fr._20
+11	καὶ	καί	c	c--------	_	17	COORD	_	t_1693|t_1699|ref=fr._20
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1694|t_1695|ref=fr._20
+13	γεννώμενον	γεννάω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	11	SBJ	_	t_1695|t_1693|ref=fr._20
+14	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_1696|t_1699|ref=fr._20
+15	ἄνευ	ἄνευ	r	r--------	_	17	AuxP	_	t_1697|t_1699|ref=fr._20
+16	κινήσεώς	κίνησις	n	n-s---fg-	Case=g|Gender=f|Number=s	15	PNOM	_	t_1698|t_1697|ref=fr._20
+17	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	ADV	_	t_1699|t_1689|ref=fr._20
+18	,	,	u	u--------	_	24	AuxX	_	t_1700|e_60|ref=fr._20
+19	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	22	ATR	_	t_1701|t_1704|ref=fr._20
+20	μὲν	μέν	d	d--------	_	22	AuxY	_	t_1702|t_1704|ref=fr._20
+21	ἵνα	ἵνα	c	c--------	_	24	AuxC	_	t_1703|e_60|ref=fr._20
+22	γεννήσηι	γεννάω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	21	ADV	_	t_1704|t_1703|ref=fr._20
+23	,	,	u	u--------	_	24	AuxX	_	t_1705|e_60|ref=fr._20
+24	[0]	[0]	-	---------	_	0	PRED	_	e_60|0|ref=fr._20
+25	·	·	u	u--------	_	24	AuxK	_	t_1706|e_60|ref=fr._20
 
-# source = Philolaus of Croton, fr._18-20
+# source = Philolaus of Croton, fr._20
 # text = τὸ δὲ ἵνα γεννηθῆι [0] ·
 # sent_id = 93
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1707|e_61|ref=fr._18
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1708|e_61|ref=fr._19
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1707|e_61|ref=fr._20
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1708|e_61|ref=fr._20
 3	ἵνα	ἵνα	c	c--------	_	5	AuxC	_	t_1709|e_61|ref=fr._20
-4	γεννηθῆι	γεννάω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	3	ADV	_	t_1710|t_1709|ref=fr._17
-5	[0]	[0]	-	---------	_	0	PRED	_	e_61|0|ref=fr._2
+4	γεννηθῆι	γεννάω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	3	ADV	_	t_1710|t_1709|ref=fr._20
+5	[0]	[0]	-	---------	_	0	PRED	_	e_61|0|ref=fr._20
 6	·	·	u	u--------	_	5	AuxK	_	t_1711|e_61|ref=fr._20
 
 # source = Philolaus of Croton, fr._20
@@ -2157,8 +2157,8 @@
 10	ῥήτωρ	ῥήτωρ	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1721|e_63|ref=fr._20
 11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1722|t_1721|ref=fr._20
 12	Ταραντῖνος	ταραντῖνος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1723|t_1721|ref=fr._20
-13	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=fr._2
-14	[1]	[1]	-	---------	_	6	ADV	_	e_63|t_1717|ref=fr._2
+13	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=fr._20
+14	[1]	[1]	-	---------	_	6	ADV	_	e_63|t_1717|ref=fr._20
 15	·	·	u	u--------	_	13	AuxK	_	t_1724|e_62|ref=fr._20
 
 # source = Philolaus of Croton, fr._20
@@ -2191,7 +2191,7 @@
 3	unzuverlassigen	unmöglichς	v	v-prpena-	Case=v|Gender=m|Number=s	2	ATR	_	t_1737|t_1736|ref=fr._20
 4	Urquelle	urquelle	n	n-p---na-	Case=a|Gender=n|Number=p	2	SBJ	_	t_1738|t_1736|ref=fr._20
 5	διʼ	διά	r	r--------	_	33	AuxP	_	t_1739|t_1767|ref=fr._20
-6	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_1740|t_1739|ref=fr._19
+6	ἣν	ὅς	p	p-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_1740|t_1739|ref=fr._20
 7	αἰτίαν	αἰτία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_1741|t_1739|ref=fr._20
 8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	11	ATR	_	t_1742|t_1745|ref=fr._20
 9	μὲν	μέν	d	d--------	_	33	AuxY	_	t_1743|t_1767|ref=fr._20
@@ -2216,15 +2216,15 @@
 28	ἀναφανῆναῖ	ἀναφαίνω	v	v--anp---	Mood=n|Tense=a|Voice=p	30	OBJ	_	t_1762|t_1764|ref=fr._20
 29	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	30	SBJ	_	t_1763|t_1764|ref=fr._20
 30	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	33	ATR	_	t_1764|t_1767|ref=fr._20
-31	,	,	u	u--------	_	1	AuxX	_	t_1765|t_1735|ref=fr._19
+31	,	,	u	u--------	_	1	AuxX	_	t_1765|t_1735|ref=fr._20
 32	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	34	ATR	_	t_1766|t_1768|ref=fr._20
 33	δὲ	δέ	c	c--------	_	4	COORD	_	t_1767|t_1738|ref=fr._20
 34	Πυθαγόρειοι	πυθαγόρειος	n	n-p---mn-	Case=n|Gender=m|Number=p	39	SBJ	_	t_1768|e_64|ref=fr._20
 35	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	36	ATR	_	t_1769|t_1770|ref=fr._20
 36	ἡγεμόνι	ἡγεμών	n	n-s---md-	Case=d|Gender=m|Number=s	39	OBJ	_	t_1770|e_64|ref=fr._20
-37	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	38	ATR	_	t_1771|t_1772|ref=fr._17
+37	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	38	ATR	_	t_1771|t_1772|ref=fr._20
 38	συμπάντων	σύμπας	a	a-p---mg-	Case=g|Gender=m|Number=p	36	ATR	_	t_1772|t_1770|ref=fr._20
-39	[0]	[0]	-	---------	_	33	ATR	_	e_64|t_1767|ref=fr._2
+39	[0]	[0]	-	---------	_	33	ATR	_	e_64|t_1767|ref=fr._20
 40	·	·	u	u--------	_	1	AuxK	_	t_1773|t_1735|ref=fr._20
 
 # source = Philolaus of Croton, fr._20
@@ -2267,7 +2267,7 @@
 18	προσηκόντως	προσηκόντως	d	d--------	_	19	ADV	_	t_1804|t_1805|ref=fr._20
 19	εἰπὼν	εἶπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	16	ADV	_	t_1805|t_1802|ref=fr._20
 20	ἑβδομάς	ἑβδομάς	n	n-p---fa-	Case=a|Gender=f|Number=p	19	OBJ	_	t_1806|t_1805|ref=fr._20
-21	[0]	[0]	-	---------	_	0	PRED	_	e_65|0|ref=fr._2
+21	[0]	[0]	-	---------	_	0	PRED	_	e_65|0|ref=fr._20
 22	.	.	u	u--------	_	21	AuxK	_	t_1807|e_65|ref=fr._20
 
 # source = Philolaus of Croton, fr._20
@@ -2366,123 +2366,123 @@
 25	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_1878|t_1876|ref=fr._20
 26	.	.	u	u--------	_	10	AuxK	_	t_1879|t_1863|ref=fr._20
 
-# source = Philolaus of Croton, fr._20
+# source = Philolaus of Croton, fr._20a
 # text = ὀρθῶς οὖν ὁ Φ. τὴν δυάδα Κρόνου σύνευνον εἶναι λέγει , ὃν κετὰ τὸ προφανὲς Χρόνον ἄν τις εἴποι .
 # sent_id = 107
-1	ὀρθῶς	ὀρθός	d	d--------	_	10	ADV	_	t_1880|t_1889|ref=fr._20
-2	οὖν	οὖν	d	d--------	_	10	AuxY	_	t_1881|t_1889|ref=fr._20
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1882|t_1883|ref=fr._20
-4	Φ.	φ.	n	n-s---mn-	_	10	SBJ	_	t_1883|t_1889|ref=fr._20
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1884|t_1885|ref=fr._20
-6	δυάδα	δυάς	n	n-s---fa-	Case=a|Gender=f|Number=s	9	SBJ	_	t_1885|t_1888|ref=fr._20
-7	Κρόνου	κρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1886|t_1887|ref=fr._20
-8	σύνευνον	σύνευνος	n	n-s---na-	Case=a|Gender=m|Number=s	9	PNOM	_	t_1887|t_1888|ref=fr._20
-9	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_1888|t_1889|ref=fr._20
-10	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1889|0|ref=fr._20
-11	,	,	u	u--------	_	10	AuxX	_	t_1890|t_1889|ref=fr._20
-12	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_1891|t_1895|ref=fr._20
-13	κετὰ	κετά	d	d--------	_	19	ADV	_	t_1892|t_1898|ref=fr._20
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1893|t_1895|ref=fr._20
-15	προφανὲς	προφανής	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1894|t_1895|ref=fr._20
-16	Χρόνον	χρόνος	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_1895|t_1898|ref=fr._20
-17	ἄν	ἄν	d	d--------	_	19	AuxY	_	t_1896|t_1898|ref=fr._20
-18	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_1897|t_1898|ref=fr._20
-19	εἴποι	εἶπον	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	6	ATR	_	t_1898|t_1885|ref=fr._20
-20	.	.	u	u--------	_	10	AuxK	_	t_1899|t_1889|ref=fr._20
+1	ὀρθῶς	ὀρθός	d	d--------	_	10	ADV	_	t_1880|t_1889|ref=fr._20a
+2	οὖν	οὖν	d	d--------	_	10	AuxY	_	t_1881|t_1889|ref=fr._20a
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1882|t_1883|ref=fr._20a
+4	Φ.	φ.	n	n-s---mn-	_	10	SBJ	_	t_1883|t_1889|ref=fr._20a
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1884|t_1885|ref=fr._20a
+6	δυάδα	δυάς	n	n-s---fa-	Case=a|Gender=f|Number=s	9	SBJ	_	t_1885|t_1888|ref=fr._20a
+7	Κρόνου	κρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1886|t_1887|ref=fr._20a
+8	σύνευνον	σύνευνος	n	n-s---na-	Case=a|Gender=m|Number=s	9	PNOM	_	t_1887|t_1888|ref=fr._20a
+9	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	10	OBJ	_	t_1888|t_1889|ref=fr._20a
+10	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1889|0|ref=fr._20a
+11	,	,	u	u--------	_	10	AuxX	_	t_1890|t_1889|ref=fr._20a
+12	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	16	ATR	_	t_1891|t_1895|ref=fr._20a
+13	κετὰ	κετά	d	d--------	_	19	ADV	_	t_1892|t_1898|ref=fr._20a
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1893|t_1895|ref=fr._20a
+15	προφανὲς	προφανής	a	a-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1894|t_1895|ref=fr._20a
+16	Χρόνον	χρόνος	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_1895|t_1898|ref=fr._20a
+17	ἄν	ἄν	d	d--------	_	19	AuxY	_	t_1896|t_1898|ref=fr._20a
+18	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_1897|t_1898|ref=fr._20a
+19	εἴποι	εἶπον	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	6	ATR	_	t_1898|t_1885|ref=fr._20a
+20	.	.	u	u--------	_	10	AuxK	_	t_1899|t_1889|ref=fr._20a
 
-# source = Philolaus of Croton, fr._20
+# source = Philolaus of Croton, fr._21
 # text = GEFALSCHTES ΠΕΡΙ ΨΥΧΗΣ [0] .
 # sent_id = 108
-1	GEFALSCHTES	καταστολάω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1900|e_66|ref=fr._20
-2	ΠΕΡΙ	περί	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1901|e_66|ref=fr._20
-3	ΨΥΧΗΣ	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_1902|t_1901|ref=fr._20
-4	[0]	[0]	-	---------	_	0	PRED	_	e_66|0|ref=fr._2
-5	.	.	u	u--------	_	4	AuxK	_	t_1903|e_66|ref=fr._20
+1	GEFALSCHTES	καταστολάω	n	n-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1900|e_66|ref=fr._21
+2	ΠΕΡΙ	περί	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1901|e_66|ref=fr._21
+3	ΨΥΧΗΣ	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_1902|t_1901|ref=fr._21
+4	[0]	[0]	-	---------	_	0	PRED	_	e_66|0|ref=fr._21
+5	.	.	u	u--------	_	4	AuxK	_	t_1903|e_66|ref=fr._21
 
-# source = Philolaus of Croton, fr._20
+# source = Philolaus of Croton, fr._21
 # text = Φιλολάου Πυθαγορείου ἐκ τοῦ Περὶ ψυχῆς . Φ. ἄφθαρτον τὸν κόσμον εἶναι .
 # sent_id = 109
-1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_1904|t_1906|ref=fr._20
-2	Πυθαγορείου	πυθαγόρειος	a	a-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_1905|t_1904|ref=fr._20
-3	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_1906|t_1915|ref=fr._20
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1907|t_1909|ref=fr._20
-5	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1908|t_1909|ref=fr._20
-6	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_1909|t_1906|ref=fr._20
-7	.	.	u	u--------	_	12	AuxK	_	t_1910|t_1915|ref=fr._20
-8	Φ.	φ.	n	n--------	_	12	AuxG	_	t_1911|t_1915|ref=fr._20
-9	ἄφθαρτον	ἄφθαρτος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	PNOM	_	t_1912|t_1915|ref=fr._20
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_1913|t_1914|ref=fr._20
-11	κόσμον	κόσμος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_1914|t_1915|ref=fr._20
-12	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_1915|0|ref=fr._20
-13	.	.	u	u--------	_	12	AuxK	_	t_1916|t_1915|ref=fr._20
+1	Φιλολάου	φιλολάου	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_1904|t_1906|ref=fr._21
+2	Πυθαγορείου	πυθαγόρειος	a	a-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_1905|t_1904|ref=fr._21
+3	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_1906|t_1915|ref=fr._21
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_1907|t_1909|ref=fr._21
+5	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1908|t_1909|ref=fr._21
+6	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_1909|t_1906|ref=fr._21
+7	.	.	u	u--------	_	12	AuxK	_	t_1910|t_1915|ref=fr._21
+8	Φ.	φ.	n	n--------	_	12	AuxG	_	t_1911|t_1915|ref=fr._21
+9	ἄφθαρτον	ἄφθαρτος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	PNOM	_	t_1912|t_1915|ref=fr._21
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_1913|t_1914|ref=fr._21
+11	κόσμον	κόσμος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_1914|t_1915|ref=fr._21
+12	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_1915|0|ref=fr._21
+13	.	.	u	u--------	_	12	AuxK	_	t_1916|t_1915|ref=fr._21
 
-# source = Philolaus of Croton, fr._20
+# source = Philolaus of Croton, fr._21
 # text = λέγει γοῦν οὕτως ἐν τῶι Περὶ ψυχῆς ·
 # sent_id = 110
-1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1917|0|ref=fr._20
-2	γοῦν	γοῦν	d	d--------	_	1	AuxY	_	t_1918|t_1917|ref=fr._20
-3	οὕτως	οὕτως	d	d--------	_	1	ADV	_	t_1919|t_1917|ref=fr._20
-4	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_1920|t_1917|ref=fr._20
-5	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1921|t_1922|ref=fr._20
-6	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_1922|t_1920|ref=fr._20
-7	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1923|t_1922|ref=fr._20
-8	·	·	u	u--------	_	1	AuxK	_	t_1924|t_1917|ref=fr._20
+1	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1917|0|ref=fr._21
+2	γοῦν	γοῦν	d	d--------	_	1	AuxY	_	t_1918|t_1917|ref=fr._21
+3	οὕτως	οὕτως	d	d--------	_	1	ADV	_	t_1919|t_1917|ref=fr._21
+4	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_1920|t_1917|ref=fr._21
+5	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1921|t_1922|ref=fr._21
+6	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_1922|t_1920|ref=fr._21
+7	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1923|t_1922|ref=fr._21
+8	·	·	u	u--------	_	1	AuxK	_	t_1924|t_1917|ref=fr._21
 
-# source = Philolaus of Croton, fr._20
+# source = Philolaus of Croton, fr._21
 # text = παρὸ καὶ ἄφθαρτος καὶ ἁκαταπόνατος διαμένει τὸν ἄπειρον αἰῶνα ·
 # sent_id = 111
-1	παρὸ	παρό	d	d--------	_	6	AuxY	_	t_1925|t_1930|ref=fr._20
-2	καὶ	καί	d	d--------	_	4	AuxY	_	t_1926|t_1928|ref=fr._20
-3	ἄφθαρτος	ἄφθαρτος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1927|t_1928|ref=fr._20
-4	καὶ	καί	c	c--------	_	6	COORD	_	t_1928|t_1930|ref=fr._20
-5	ἁκαταπόνατος	ἁκαταπόνατος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1929|t_1928|ref=fr._20
-6	διαμένει	διαμένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1930|0|ref=fr._20
-7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1931|t_1933|ref=fr._20
-8	ἄπειρον	ἄπειρος1	a	a-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1932|t_1933|ref=fr._20
-9	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1933|t_1930|ref=fr._20
-10	·	·	u	u--------	_	6	AuxK	_	t_1934|t_1930|ref=fr._20
+1	παρὸ	παρό	d	d--------	_	6	AuxY	_	t_1925|t_1930|ref=fr._21
+2	καὶ	καί	d	d--------	_	4	AuxY	_	t_1926|t_1928|ref=fr._21
+3	ἄφθαρτος	ἄφθαρτος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1927|t_1928|ref=fr._21
+4	καὶ	καί	c	c--------	_	6	COORD	_	t_1928|t_1930|ref=fr._21
+5	ἁκαταπόνατος	ἁκαταπόνατος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1929|t_1928|ref=fr._21
+6	διαμένει	διαμένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1930|0|ref=fr._21
+7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1931|t_1933|ref=fr._21
+8	ἄπειρον	ἄπειρος1	a	a-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1932|t_1933|ref=fr._21
+9	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_1933|t_1930|ref=fr._21
+10	·	·	u	u--------	_	6	AuxK	_	t_1934|t_1930|ref=fr._21
 
-# source = Philolaus of Croton, fr._20-20a
+# source = Philolaus of Croton, fr._21
 # text = οὔ τε γὰρ ἔντοσθεν ἄλλα τις αἰτία δυναμικωτέρα αὐτᾶς εὐρεθήσεται οὔ τʼ ἔκτοσθεν φθεῖραι αὐτὸν δυναμένα ·
 # sent_id = 112
-1	οὔ	οὐ	d	d--------	_	2	AuxY	_	t_1935|t_1936|ref=fr._20
-2	τε	τε	c	c--------	_	12	AuxY	_	t_1936|t_1946|ref=fr._20
-3	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_1937|t_1944|ref=fr._20
-4	ἔντοσθεν	ἔντοσθε	d	d--------	_	10	ADV	_	t_1938|t_1944|ref=fr._20
-5	ἄλλα	ἄλλος	p	p-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1939|t_1941|ref=fr._20
-6	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	7	ATR	_	t_1940|t_1941|ref=fr._20
-7	αἰτία	αἰτία	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_1941|t_1944|ref=fr._20
-8	δυναμικωτέρα	δυναμικός	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	7	ATR	_	t_1942|t_1941|ref=fr._20
-9	αὐτᾶς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_1943|t_1942|ref=fr._20
-10	εὐρεθήσεται	εὐρέομαι	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	12	PRED	_	t_1944|t_1946|ref=fr._20
-11	οὔ	οὐ	d	d--------	_	12	AuxY	_	t_1945|t_1946|ref=fr._20a
-12	τʼ	τε	c	c--------	_	0	COORD	_	t_1946|0|ref=fr._20a
-13	ἔκτοσθεν	ἔκτοσθε	d	d--------	_	16	ADV	_	t_1947|t_1950|ref=fr._20a
-14	φθεῖραι	φθείρω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	OBJ	_	t_1948|t_1950|ref=fr._20a
-15	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_1949|t_1948|ref=fr._20a
-16	δυναμένα	δύναμαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	12	PRED	_	t_1950|t_1946|ref=fr._20a
-17	·	·	u	u--------	_	12	AuxK	_	t_1951|t_1946|ref=fr._20a
+1	οὔ	οὐ	d	d--------	_	2	AuxY	_	t_1935|t_1936|ref=fr._21
+2	τε	τε	c	c--------	_	12	AuxY	_	t_1936|t_1946|ref=fr._21
+3	γὰρ	γάρ	d	d--------	_	10	AuxY	_	t_1937|t_1944|ref=fr._21
+4	ἔντοσθεν	ἔντοσθε	d	d--------	_	10	ADV	_	t_1938|t_1944|ref=fr._21
+5	ἄλλα	ἄλλος	p	p-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_1939|t_1941|ref=fr._21
+6	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	7	ATR	_	t_1940|t_1941|ref=fr._21
+7	αἰτία	αἰτία	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_1941|t_1944|ref=fr._21
+8	δυναμικωτέρα	δυναμικός	a	a-s---fnc	Case=n|Degree=c|Gender=f|Number=s	7	ATR	_	t_1942|t_1941|ref=fr._21
+9	αὐτᾶς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_1943|t_1942|ref=fr._21
+10	εὐρεθήσεται	εὐρέομαι	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	12	PRED	_	t_1944|t_1946|ref=fr._21
+11	οὔ	οὐ	d	d--------	_	12	AuxY	_	t_1945|t_1946|ref=fr._21
+12	τʼ	τε	c	c--------	_	0	COORD	_	t_1946|0|ref=fr._21
+13	ἔκτοσθεν	ἔκτοσθε	d	d--------	_	16	ADV	_	t_1947|t_1950|ref=fr._21
+14	φθεῖραι	φθείρω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	OBJ	_	t_1948|t_1950|ref=fr._21
+15	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	14	OBJ	_	t_1949|t_1948|ref=fr._21
+16	δυναμένα	δύναμαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	12	PRED	_	t_1950|t_1946|ref=fr._21
+17	·	·	u	u--------	_	12	AuxK	_	t_1951|t_1946|ref=fr._21
 
-# source = Philolaus of Croton, fr._20a-21
+# source = Philolaus of Croton, fr._21
 # text = ἀλλʼ ἦν ὅδε ὁ κόσμος ἐξ αἰῶνος καὶ εἰς αἰῶνα διαμενεῖ , εἶς ὑπὸ ἑνὸς τῶ συγγενέος καὶ κρατίστω καὶ ἀνυπερθέτω κυβερνώμενος .
 # sent_id = 113
-1	ἀλλʼ	ἀλλά	d	d--------	_	8	AuxY	_	t_1952|t_1959|ref=fr._20a
-2	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	PRED	_	t_1953|t_1959|ref=fr._20a
-3	ὅδε	ὅδε	a	a-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1954|t_1956|ref=fr._20a
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1955|t_1956|ref=fr._20a
-5	κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1956|t_1953|ref=fr._20a
-6	ἐξ	ἐκ	r	r--------	_	2	AuxP	_	t_1957|t_1953|ref=fr._20a
-7	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	6	PNOM	_	t_1958|t_1957|ref=fr._20a
-8	καὶ	καί	c	c--------	_	0	COORD	_	t_1959|0|ref=fr._20a
-9	εἰς	εἰς	r	r--------	_	11	AuxP	_	t_1960|t_1962|ref=fr._20a
-10	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_1961|t_1960|ref=fr._20a
-11	διαμενεῖ	διαμένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_1962|t_1959|ref=fr._20a
-12	,	,	u	u--------	_	8	AuxX	_	t_1963|t_1959|ref=fr._20a
-13	εἶς	εἰμί	d	d--------	_	22	ADV	_	t_1964|t_1973|ref=fr._20a
+1	ἀλλʼ	ἀλλά	d	d--------	_	8	AuxY	_	t_1952|t_1959|ref=fr._21
+2	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	PRED	_	t_1953|t_1959|ref=fr._21
+3	ὅδε	ὅδε	a	a-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1954|t_1956|ref=fr._21
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1955|t_1956|ref=fr._21
+5	κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1956|t_1953|ref=fr._21
+6	ἐξ	ἐκ	r	r--------	_	2	AuxP	_	t_1957|t_1953|ref=fr._21
+7	αἰῶνος	αἰών	n	n-s---mg-	Case=g|Gender=m|Number=s	6	PNOM	_	t_1958|t_1957|ref=fr._21
+8	καὶ	καί	c	c--------	_	0	COORD	_	t_1959|0|ref=fr._21
+9	εἰς	εἰς	r	r--------	_	11	AuxP	_	t_1960|t_1962|ref=fr._21
+10	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_1961|t_1960|ref=fr._21
+11	διαμενεῖ	διαμένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_1962|t_1959|ref=fr._21
+12	,	,	u	u--------	_	8	AuxX	_	t_1963|t_1959|ref=fr._21
+13	εἶς	εἰμί	d	d--------	_	22	ADV	_	t_1964|t_1973|ref=fr._21
 14	ὑπὸ	ὑπό	r	r--------	_	22	AuxP	_	t_1965|t_1973|ref=fr._21
 15	ἑνὸς	εἷς	a	a-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_1966|t_1965|ref=fr._21
 16	τῶ	τῷ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_1967|t_1968|ref=fr._21
-17	συγγενέος	συγγενής	a	a-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_1968|t_1966|ref=fr._20
+17	συγγενέος	συγγενής	a	a-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_1968|t_1966|ref=fr._21
 18	καὶ	καί	d	d--------	_	20	AuxY	_	t_1969|t_1971|ref=fr._21
 19	κρατίστω	κράτιστος	a	a-s---mg-	Case=g|Gender=m|Number=s	20	PNOM	_	t_1970|t_1971|ref=fr._21
 20	καὶ	καί	c	c--------	_	22	COORD	_	t_1971|t_1973|ref=fr._21
@@ -2531,7 +2531,7 @@
 8	δὲ	δέ	d	d--------	_	11	COORD	_	t_2006|e_67|ref=fr._21
 9	μεταβάλλον	μεταβάλλω	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_2007|t_2008|ref=fr._21
 10	ἐστί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	PRED	_	t_2008|t_2006|ref=fr._21
-11	[0]	[0]	-	---------	_	0	PRED	_	e_67|0|ref=fr._2
+11	[0]	[0]	-	---------	_	0	PRED	_	e_67|0|ref=fr._21
 12	·	·	u	u--------	_	11	AuxK	_	t_2009|e_67|ref=fr._21
 
 # source = Philolaus of Croton, fr._21
@@ -2560,7 +2560,7 @@
 21	μέχρι	μέχρι	r	r--------	_	17	AuxP	_	t_2030|t_2026|ref=fr._21
 22	τᾶς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_2031|t_2032|ref=fr._21
 23	γᾶς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	21	ADV	_	t_2032|t_2030|ref=fr._21
-24	[0]	[0]	-	---------	_	16	PRED	_	e_68|t_2025|ref=fr._2
+24	[0]	[0]	-	---------	_	16	PRED	_	e_68|t_2025|ref=fr._21
 25	.	.	u	u--------	_	14	AuxK	_	t_2033|t_2023|ref=fr._21
 
 # source = Philolaus of Croton, fr._21
@@ -2618,8 +2618,8 @@
 13	γενέσιος	γενέσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	14	PNOM	_	t_2079|t_2080|ref=fr._21
 14	καὶ	καί	c	c--------	_	17	COORD	_	t_2080|e_70|ref=fr._21
 15	μεταβολᾶς	μεταβολή	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_2081|t_2080|ref=fr._21
-16	[0]	[0]	-	---------	_	12	PRED	_	e_69|t_2078|ref=fr._2
-17	[1]	[1]	-	---------	_	12	PRED	_	e_70|t_2078|ref=fr._2
+16	[0]	[0]	-	---------	_	12	PRED	_	e_69|t_2078|ref=fr._21
+17	[1]	[1]	-	---------	_	12	PRED	_	e_70|t_2078|ref=fr._21
 18	·	·	u	u--------	_	1	AuxK	_	t_2082|t_2067|ref=fr._21
 
 # source = Philolaus of Croton, fr._21
@@ -2639,8 +2639,8 @@
 12	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	16	ADV	_	t_2094|e_72|ref=fr._21
 13	καὶ	καί	c	c--------	_	16	COORD	_	t_2095|e_72|ref=fr._21
 14	καθυπερεκόμενον	καθυπέρεκειν	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	13	PNOM	_	t_2096|t_2095|ref=fr._21
-15	[0]	[0]	-	---------	_	11	PRED	_	e_71|t_2093|ref=fr._2
-16	[1]	[1]	-	---------	_	11	PRED	_	e_72|t_2093|ref=fr._2
+15	[0]	[0]	-	---------	_	11	PRED	_	e_71|t_2093|ref=fr._21
+16	[1]	[1]	-	---------	_	11	PRED	_	e_72|t_2093|ref=fr._21
 17	·	·	u	u--------	_	9	AuxK	_	t_2097|t_2091|ref=fr._21
 
 # source = Philolaus of Croton, fr._21
@@ -2664,8 +2664,8 @@
 16	γενατοῦ	γενητός	n	n-s---ng-	Case=g|Gender=n|Number=s	20	SBJ	_	t_2113|e_74|ref=fr._21
 17	,	,	u	u--------	_	19	AuxX	_	t_2114|e_73|ref=fr._21
 18	κόσμος	κόσμος	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_2115|e_73|ref=fr._21
-19	[0]	[0]	-	---------	_	0	PRED	_	e_73|0|ref=fr._2
-20	[1]	[1]	-	---------	_	13	ATR	_	e_74|t_2110|ref=fr._2
+19	[0]	[0]	-	---------	_	0	PRED	_	e_73|0|ref=fr._21
+20	[1]	[1]	-	---------	_	13	ATR	_	e_74|t_2110|ref=fr._21
 21	.	.	u	u--------	_	19	AuxK	_	t_2116|e_73|ref=fr._21
 
 # source = Philolaus of Croton, fr._21
@@ -2718,7 +2718,7 @@
 21	καὶ	καί	c	c--------	_	24	COORD	_	t_2157|e_75|ref=fr._21
 22	φθειρόμενα	φθείρω	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	21	SBJ	_	t_2158|t_2157|ref=fr._21
 23	πολλά	πολύς	a	a-p---nn-	Case=a|Gender=n|Number=p	24	PNOM	_	t_2159|e_75|ref=fr._21
-24	[0]	[0]	-	---------	_	18	PRED	_	e_75|t_2154|ref=fr._2
+24	[0]	[0]	-	---------	_	18	PRED	_	e_75|t_2154|ref=fr._21
 25	·	·	u	u--------	_	4	AuxK	_	t_2160|t_2140|ref=fr._21
 
 # source = Philolaus of Croton, fr._21
@@ -2753,104 +2753,104 @@
 27	.	.	u	u--------	_	7	AuxK	_	t_2187|t_2167|ref=fr._21
 28	.	.	u	u--------	_	7	AuxK	_	t_2188|t_2167|ref=fr._21
 
-# source = Philolaus of Croton, fr._21
+# source = Philolaus of Croton, fr._22
 # text = ΠΕΡΙ ΠΥΘΜΩΝ ΚΑΙ ΜΕΤΡΩΝ ᾹΒ̄Γ̄ [0] .
 # sent_id = 124
-1	ΠΕΡΙ	περί	r	r--------	_	6	PNOM	_	t_2189|e_76|ref=fr._21
-2	ΠΥΘΜΩΝ	πυθμων	n	n-p---mg-	Case=n|Gender=m|Number=s	3	ATR	_	t_2190|t_2191|ref=fr._21
-3	ΚΑΙ	καί	c	c--------	_	1	COORD	_	t_2191|t_2189|ref=fr._21
-4	ΜΕΤΡΩΝ	μετων	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_2192|t_2191|ref=fr._21
-5	ᾹΒ̄Γ̄	ᾱβ̄γ	n	n--------	_	3	APOS	_	t_2193|t_2191|ref=fr._21
-6	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=fr._2
-7	.	.	u	u--------	_	6	AuxK	_	t_2194|e_76|ref=fr._21
+1	ΠΕΡΙ	περί	r	r--------	_	6	PNOM	_	t_2189|e_76|ref=fr._22
+2	ΠΥΘΜΩΝ	πυθμων	n	n-p---mg-	Case=n|Gender=m|Number=s	3	ATR	_	t_2190|t_2191|ref=fr._22
+3	ΚΑΙ	καί	c	c--------	_	1	COORD	_	t_2191|t_2189|ref=fr._22
+4	ΜΕΤΡΩΝ	μετων	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_2192|t_2191|ref=fr._22
+5	ᾹΒ̄Γ̄	ᾱβ̄γ	n	n--------	_	3	APOS	_	t_2193|t_2191|ref=fr._22
+6	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=fr._22
+7	.	.	u	u--------	_	6	AuxK	_	t_2194|e_76|ref=fr._22
 
-# source = Philolaus of Croton, fr._21
+# source = Philolaus of Croton, fr._22
 # text = Pythagorae igitur quia nihil ipse scriptitaverat , a posteris quaerenda sententia est .
 # sent_id = 125
-1	Pythagorae	pythagorus	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_2195|t_2206|ref=fr._21
-2	igitur	λοιπὸν	a	a-s---mv-	Case=v|Gender=m|Number=s	12	ADV	_	t_2196|t_2206|ref=fr._21
-3	quia	ὅστις	c	c--------	_	12	AuxC	_	t_2197|t_2206|ref=fr._21
-4	nihil	niών	p	p-p---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_2198|t_2200|ref=fr._21
-5	ipse	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_2199|t_2200|ref=fr._21
-6	scriptitaverat	scriptor	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ADV	_	t_2200|t_2197|ref=fr._21
-7	,	,	u	u--------	_	12	AuxX	_	t_2201|t_2206|ref=fr._21
-8	a	a	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_2202|t_2205|ref=fr._21
-9	posteris	ὑπέρθεσις	d	d--------	_	10	ADV	_	t_2203|t_2204|ref=fr._21
-10	quaerenda	ἅλλομαι	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_2204|t_2205|ref=fr._21
-11	sententia	sententia	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_2205|t_2206|ref=fr._21
-12	est	εἰμί	v	v3spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_2206|0|ref=fr._21
-13	.	.	u	u--------	_	12	AuxK	_	t_2207|t_2206|ref=fr._21
+1	Pythagorae	pythagorus	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_2195|t_2206|ref=fr._22
+2	igitur	λοιπὸν	a	a-s---mv-	Case=v|Gender=m|Number=s	12	ADV	_	t_2196|t_2206|ref=fr._22
+3	quia	ὅστις	c	c--------	_	12	AuxC	_	t_2197|t_2206|ref=fr._22
+4	nihil	niών	p	p-p---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_2198|t_2200|ref=fr._22
+5	ipse	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_2199|t_2200|ref=fr._22
+6	scriptitaverat	scriptor	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ADV	_	t_2200|t_2197|ref=fr._22
+7	,	,	u	u--------	_	12	AuxX	_	t_2201|t_2206|ref=fr._22
+8	a	a	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_2202|t_2205|ref=fr._22
+9	posteris	ὑπέρθεσις	d	d--------	_	10	ADV	_	t_2203|t_2204|ref=fr._22
+10	quaerenda	ἅλλομαι	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_2204|t_2205|ref=fr._22
+11	sententia	sententia	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_2205|t_2206|ref=fr._22
+12	est	εἰμί	v	v3spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_2206|0|ref=fr._22
+13	.	.	u	u--------	_	12	AuxK	_	t_2207|t_2206|ref=fr._22
 
-# source = Philolaus of Croton, fr._21
+# source = Philolaus of Croton, fr._22
 # text = in quibus vel potissimum floruisse Philolaum reperio Tarentinum , qui multis voluminibus de intellegendis rebus et quid quae que significent oppido obscure dissertans , priusquam de animae substantia decernat de mensuris ponderibus et numeris iuxta geometricam musicam at que arithmeticam mirifice disputat per haec om ne universum extitisse confrimans [0] .
 # sent_id = 126
-1	in	εἰς	r	r--------	_	7	AuxP	_	t_2208|t_2214|ref=fr._21
-2	quibus	ὅστις	d	d--------	_	7	ADV	_	t_2209|t_2214|ref=fr._21
-3	vel	ἤ	v	v1sria---	_	7	AuxY	_	t_2210|t_2214|ref=fr._21
-4	potissimum	potissimος	d	d--------	Case=a|Gender=m|Number=s	7	ADV	_	t_2211|t_2214|ref=fr._21
-5	floruisse	floruere	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	7	OBJ	_	t_2212|t_2214|ref=fr._21
-6	Philolaum	philolaus	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_2213|t_2214|ref=fr._21
-7	reperio	ἀπαυρόω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_2214|0|ref=fr._21
-8	Tarentinum	tarentinum	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_2215|t_2214|ref=fr._21
-9	,	,	u	u--------	_	7	AuxX	_	t_2216|t_2214|ref=fr._21
-10	qui	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_2217|t_2221|ref=fr._21
-11	multis	multis	a	a-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_2218|t_2219|ref=fr._21
-12	voluminibus	voluminus	n	n-p---na-	Case=n|Gender=m|Number=p	14	OBJ	_	t_2219|t_2221|ref=fr._21
-13	de	ὁ	d	d--------	_	48	OBJ	_	t_2220|t_2255|ref=fr._21
-14	intellegendis	ἐκδιδάσκω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	21	ADV	_	t_2221|t_2228|ref=fr._21
-15	rebus	rebus	d	d--------	_	48	OBJ	_	t_2222|t_2255|ref=fr._21
-16	et	καί	d	d--------	_	48	OBJ	_	t_2223|t_2255|ref=fr._21
-17	quid	ὅστις	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_2224|t_2228|ref=fr._21
-18	quae	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	21	SBJ	_	t_2225|t_2228|ref=fr._21
-19	que	ὅς	d	d--------	_	48	OBJ	_	t_2226|t_2255|ref=fr._21
-20	significent	παρεισάγω	a	a-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_2227|t_2221|ref=fr._21
-21	oppido	oppido	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	ATR	_	t_2228|t_2213|ref=fr._21
-22	obscure	obscure	d	d--------	_	48	OBJ	_	t_2229|t_2255|ref=fr._21
-23	dissertans	διηγόρεύω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	25	ADV	_	t_2230|t_2232|ref=fr._21
-24	,	,	u	u--------	_	25	AuxX	_	t_2231|t_2232|ref=fr._21
-25	priusquam	πρόοπτος	c	c--------	_	7	AuxC	_	t_2232|t_2214|ref=fr._21
-26	de	ὁ	d	d--------	_	48	OBJ	_	t_2233|t_2255|ref=fr._21
-27	animae	anima	n	n-s---fn-	Case=n|Gender=f|Number=s	29	ADV	_	t_2234|t_2236|ref=fr._21
-28	substantia	substantia	n	n-s---fn-	Case=n|Gender=f|Number=s	29	ADV	_	t_2235|t_2236|ref=fr._21
-29	decernat	decernέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	ADV	_	t_2236|t_2232|ref=fr._21
-30	de	ὁ	d	d--------	_	48	OBJ	_	t_2237|t_2255|ref=fr._21
-31	mensuris	mensuris	n	n-s---fd-	Case=d|Gender=f|Number=s	32	ADV	_	t_2238|t_2239|ref=fr._21
-32	ponderibus	ponder	n	n-p---md-	Mood=o|Number=s|Person=2|Tense=p|Voice=a	29	OBJ	_	t_2239|t_2236|ref=fr._21
-33	et	καί	c	c--------	_	25	COORD	_	t_2240|t_2232|ref=fr._21
-34	numeris	numeris	n	n-s---mn-	Mood=i|Number=s|Person=2|Tense=p|Voice=a	29	OBJ	_	t_2241|t_2236|ref=fr._21
-35	iuxta	iuxta	r	r--------	_	41	AuxP	_	t_2242|t_2248|ref=fr._21
-36	geometricam	ἀκέραια	n	n-s---fa-	Case=a|Gender=f|Number=s	37	ATR	_	t_2243|t_2244|ref=fr._21
-37	musicam	musica	n	n-s---fa-	Case=a|Gender=f|Number=s	35	ADV	_	t_2244|t_2242|ref=fr._21
-38	at	at	d	d--------	_	48	OBJ	_	t_2245|t_2255|ref=fr._21
-39	que	ὅς	d	d--------	_	48	OBJ	_	t_2246|t_2255|ref=fr._21
-40	arithmeticam	arithmeticam	a	a-s---fa-	Case=a|Gender=f|Number=s	41	OBJ	_	t_2247|t_2248|ref=fr._21
-41	mirifice	θαυμάσιος	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	33	PRED	_	t_2248|t_2240|ref=fr._21
-42	disputat	disputάω	v	v--pna---	_	7	OBJ	_	t_2249|t_2214|ref=fr._21
-43	per	εἰς	r	r--------	_	41	AuxP	_	t_2250|t_2248|ref=fr._21
-44	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	43	ADV	_	t_2251|t_2250|ref=fr._21
-45	om	om	d	d--------	_	48	OBJ	_	t_2252|t_2255|ref=fr._21
-46	ne	μή	d	d--------	_	49	AuxZ	_	t_2253|t_2256|ref=fr._21
-47	universum	universος	a	a-s---ma-	Case=a|Gender=n|Number=s	48	OBJ	_	t_2254|t_2255|ref=fr._21
-48	extitisse	ἐξερίζω	v	v--pna---	_	41	OBJ	_	t_2255|t_2248|ref=fr._21
-49	confrimans	καταfrimάω	v	v1ppia---	Case=a|Gender=m|Number=p	41	ADV	_	t_2256|t_2248|ref=fr._21
-50	[0]	[0]	-	---------	_	25	ADV	_	e_77|t_2232|ref=fr._2
-51	.	.	u	u--------	_	7	AuxK	_	t_2257|t_2214|ref=fr._21
+1	in	εἰς	r	r--------	_	7	AuxP	_	t_2208|t_2214|ref=fr._22
+2	quibus	ὅστις	d	d--------	_	7	ADV	_	t_2209|t_2214|ref=fr._22
+3	vel	ἤ	v	v1sria---	_	7	AuxY	_	t_2210|t_2214|ref=fr._22
+4	potissimum	potissimος	d	d--------	Case=a|Gender=m|Number=s	7	ADV	_	t_2211|t_2214|ref=fr._22
+5	floruisse	floruere	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	7	OBJ	_	t_2212|t_2214|ref=fr._22
+6	Philolaum	philolaus	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_2213|t_2214|ref=fr._22
+7	reperio	ἀπαυρόω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_2214|0|ref=fr._22
+8	Tarentinum	tarentinum	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_2215|t_2214|ref=fr._22
+9	,	,	u	u--------	_	7	AuxX	_	t_2216|t_2214|ref=fr._22
+10	qui	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_2217|t_2221|ref=fr._22
+11	multis	multis	a	a-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_2218|t_2219|ref=fr._22
+12	voluminibus	voluminus	n	n-p---na-	Case=n|Gender=m|Number=p	14	OBJ	_	t_2219|t_2221|ref=fr._22
+13	de	ὁ	d	d--------	_	48	OBJ	_	t_2220|t_2255|ref=fr._22
+14	intellegendis	ἐκδιδάσκω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	21	ADV	_	t_2221|t_2228|ref=fr._22
+15	rebus	rebus	d	d--------	_	48	OBJ	_	t_2222|t_2255|ref=fr._22
+16	et	καί	d	d--------	_	48	OBJ	_	t_2223|t_2255|ref=fr._22
+17	quid	ὅστις	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_2224|t_2228|ref=fr._22
+18	quae	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	21	SBJ	_	t_2225|t_2228|ref=fr._22
+19	que	ὅς	d	d--------	_	48	OBJ	_	t_2226|t_2255|ref=fr._22
+20	significent	παρεισάγω	a	a-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_2227|t_2221|ref=fr._22
+21	oppido	oppido	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	ATR	_	t_2228|t_2213|ref=fr._22
+22	obscure	obscure	d	d--------	_	48	OBJ	_	t_2229|t_2255|ref=fr._22
+23	dissertans	διηγόρεύω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	25	ADV	_	t_2230|t_2232|ref=fr._22
+24	,	,	u	u--------	_	25	AuxX	_	t_2231|t_2232|ref=fr._22
+25	priusquam	πρόοπτος	c	c--------	_	7	AuxC	_	t_2232|t_2214|ref=fr._22
+26	de	ὁ	d	d--------	_	48	OBJ	_	t_2233|t_2255|ref=fr._22
+27	animae	anima	n	n-s---fn-	Case=n|Gender=f|Number=s	29	ADV	_	t_2234|t_2236|ref=fr._22
+28	substantia	substantia	n	n-s---fn-	Case=n|Gender=f|Number=s	29	ADV	_	t_2235|t_2236|ref=fr._22
+29	decernat	decernέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	ADV	_	t_2236|t_2232|ref=fr._22
+30	de	ὁ	d	d--------	_	48	OBJ	_	t_2237|t_2255|ref=fr._22
+31	mensuris	mensuris	n	n-s---fd-	Case=d|Gender=f|Number=s	32	ADV	_	t_2238|t_2239|ref=fr._22
+32	ponderibus	ponder	n	n-p---md-	Mood=o|Number=s|Person=2|Tense=p|Voice=a	29	OBJ	_	t_2239|t_2236|ref=fr._22
+33	et	καί	c	c--------	_	25	COORD	_	t_2240|t_2232|ref=fr._22
+34	numeris	numeris	n	n-s---mn-	Mood=i|Number=s|Person=2|Tense=p|Voice=a	29	OBJ	_	t_2241|t_2236|ref=fr._22
+35	iuxta	iuxta	r	r--------	_	41	AuxP	_	t_2242|t_2248|ref=fr._22
+36	geometricam	ἀκέραια	n	n-s---fa-	Case=a|Gender=f|Number=s	37	ATR	_	t_2243|t_2244|ref=fr._22
+37	musicam	musica	n	n-s---fa-	Case=a|Gender=f|Number=s	35	ADV	_	t_2244|t_2242|ref=fr._22
+38	at	at	d	d--------	_	48	OBJ	_	t_2245|t_2255|ref=fr._22
+39	que	ὅς	d	d--------	_	48	OBJ	_	t_2246|t_2255|ref=fr._22
+40	arithmeticam	arithmeticam	a	a-s---fa-	Case=a|Gender=f|Number=s	41	OBJ	_	t_2247|t_2248|ref=fr._22
+41	mirifice	θαυμάσιος	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	33	PRED	_	t_2248|t_2240|ref=fr._22
+42	disputat	disputάω	v	v--pna---	_	7	OBJ	_	t_2249|t_2214|ref=fr._22
+43	per	εἰς	r	r--------	_	41	AuxP	_	t_2250|t_2248|ref=fr._22
+44	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	43	ADV	_	t_2251|t_2250|ref=fr._22
+45	om	om	d	d--------	_	48	OBJ	_	t_2252|t_2255|ref=fr._22
+46	ne	μή	d	d--------	_	49	AuxZ	_	t_2253|t_2256|ref=fr._22
+47	universum	universος	a	a-s---ma-	Case=a|Gender=n|Number=s	48	OBJ	_	t_2254|t_2255|ref=fr._22
+48	extitisse	ἐξερίζω	v	v--pna---	_	41	OBJ	_	t_2255|t_2248|ref=fr._22
+49	confrimans	καταfrimάω	v	v1ppia---	Case=a|Gender=m|Number=p	41	ADV	_	t_2256|t_2248|ref=fr._22
+50	[0]	[0]	-	---------	_	25	ADV	_	e_77|t_2232|ref=fr._22
+51	.	.	u	u--------	_	7	AuxK	_	t_2257|t_2214|ref=fr._22
 
-# source = Philolaus of Croton, fr._21-22
+# source = Philolaus of Croton, fr._22
 # text = nunc ad Pihloaum redeo , a quo dudum magno intervallo digressus sum , qui in tertio voluminum , quae περὶ ῥυθμῶν καὶ μέτρων praenotat , de anima sic loquitur :
 # sent_id = 127
-1	nunc	νῦν	d	d--------	_	4	ADV	_	t_2258|t_2261|ref=fr._21
-2	ad	ad	d	d--------	_	4	AuxY	_	t_2259|t_2261|ref=fr._21
-3	Pihloaum	pihloaος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_2260|t_2261|ref=fr._21
-4	redeo	redeω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_2261|0|ref=fr._21
-5	,	,	u	u--------	_	4	AuxX	_	t_2262|t_2261|ref=fr._21
-6	a	a	i	i--------	_	12	AuxZ	_	t_2263|t_2269|ref=fr._21
+1	nunc	νῦν	d	d--------	_	4	ADV	_	t_2258|t_2261|ref=fr._22
+2	ad	ad	d	d--------	_	4	AuxY	_	t_2259|t_2261|ref=fr._22
+3	Pihloaum	pihloaος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_2260|t_2261|ref=fr._22
+4	redeo	redeω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_2261|0|ref=fr._22
+5	,	,	u	u--------	_	4	AuxX	_	t_2262|t_2261|ref=fr._22
+6	a	a	i	i--------	_	12	AuxZ	_	t_2263|t_2269|ref=fr._22
 7	quo	ὅς	p	p-p---mg-	_	4	ADV	_	t_2264|t_2261|ref=fr._22
 8	dudum	duτος	n	n-s---mg-	_	11	OBJ	_	t_2265|t_2268|ref=fr._22
 9	magno	magnος	n	n-s---ma-	Case=v|Gender=m|Number=s	12	OBJ	_	t_2266|t_2269|ref=fr._22
 10	intervallo	ἐνvallo	a	a-p---na-	Case=a|Gender=n|Number=p	8	ATR	_	t_2267|t_2265|ref=fr._22
 11	digressus	διgigressus	v	v1sfia---	Case=n|Gender=f|Number=s	12	OBJ	_	t_2268|t_2269|ref=fr._22
-12	sum	εἰμί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	4	OBJ	_	t_2269|t_2261|ref=fr._21
+12	sum	εἰμί	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	4	OBJ	_	t_2269|t_2261|ref=fr._22
 13	,	,	u	u--------	_	4	AuxX	_	t_2270|t_2261|ref=fr._22
 14	qui	ὅς	d	d--------	_	11	ADV	_	t_2271|t_2268|ref=fr._22
 15	in	εἰς	r	r--------	_	11	AuxP	_	t_2272|t_2268|ref=fr._22
@@ -2884,7 +2884,7 @@
 9	que	ὅς	d	d--------	_	12	SBJ	_	t_2296|e_78|ref=fr._22
 10	incorporalem	ἐνcorporali	v	v1ppsa---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	12	OBJ	_	t_2297|e_78|ref=fr._22
 11	convenientiam	συνεvenientiam	v	v2spma---	Case=v|Gender=m|Number=s	10	ADV	_	t_2298|t_2297|ref=fr._22
-12	[0]	[0]	-	---------	_	0	PRED	_	e_78|0|ref=fr._2
+12	[0]	[0]	-	---------	_	0	PRED	_	e_78|0|ref=fr._22
 13	.	.	u	u--------	_	12	AuxK	_	t_2299|e_78|ref=fr._22
 
 # source = Philolaus of Croton, fr._22
@@ -2893,7 +2893,7 @@
 1	item	πρόσω	d	d--------	_	4	ExD	_	t_2300|e_79|ref=fr._22
 2	post	μετά	d	d--------	_	4	SBJ	_	t_2301|e_79|ref=fr._22
 3	alia	alia	v	v2spma---	_	4	ExD	_	t_2302|e_79|ref=fr._22
-4	[0]	[0]	-	---------	_	0	PRED	_	e_79|0|ref=fr._2
+4	[0]	[0]	-	---------	_	0	PRED	_	e_79|0|ref=fr._22
 5	:	:	u	u--------	_	4	AuxK	_	t_2303|e_79|ref=fr._22
 
 # source = Philolaus of Croton, fr._22
@@ -2911,10 +2911,10 @@
 10	potest	potέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_2313|t_2308|ref=fr._22
 11	uti	πῶς	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	OBJ	_	t_2314|t_2313|ref=fr._22
 12	sensibus	sensος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	OBJ	_	t_2315|t_2314|ref=fr._22
-13	[0]	[0]	-	---------	_	5	PRED	_	e_80|t_2308|ref=fr._2
+13	[0]	[0]	-	---------	_	5	PRED	_	e_80|t_2308|ref=fr._22
 14	.	.	u	u--------	_	5	AuxK	_	t_2316|t_2308|ref=fr._22
 
-# source = Philolaus of Croton, fr._22
+# source = Philolaus of Croton, fr._22-23
 # text = a quo postquam morte deduota est , agit in mundo incorporalem vitam . Φ. δέ φησιν ἀριθμὸν εἶναι τῆς τῶν κοσμικῶν αἰωνίας διαμονῆς κρατιστεύοισαν καὶ αὐτογενῆ συνοχήν .
 # sent_id = 131
 1	a	a	x	x--------	_	2	AuxY	_	t_2317|t_2318|ref=fr._22
@@ -2930,19 +2930,19 @@
 11	incorporalem	ἐνcorporali	v	v3spma---	Case=a|Gender=f|Number=s	8	OBJ	_	t_2327|t_2324|ref=fr._22
 12	vitam	τρυφή	n	n-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_2328|t_2324|ref=fr._22
 13	.	.	u	u--------	_	14	AuxK	_	t_2329|t_2330|ref=fr._22
-14	Φ.	φ.	d	d--------	_	16	AuxY	_	t_2330|t_2332|ref=fr._22
-15	δέ	δέ	d	d--------	_	16	AuxY	_	t_2331|t_2332|ref=fr._22
-16	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2332|0|ref=fr._22
-17	ἀριθμὸν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	18	PNOM	_	t_2333|t_2334|ref=fr._21
-18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_2334|t_2332|ref=fr._22
-19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2335|t_2338|ref=fr._22
-20	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_2336|t_2337|ref=fr._22
-21	κοσμικῶν	κοσμικός	a	a-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_2337|t_2338|ref=fr._22
-22	αἰωνίας	αἰώνιος	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_2338|t_2339|ref=fr._22
-23	διαμονῆς	διαμονή	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_2339|t_2333|ref=fr._22
-24	κρατιστεύοισαν	κρατιστεύω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	25	ATR	_	t_2340|t_2341|ref=fr._22
-25	καὶ	καί	c	c--------	_	27	COORD	_	t_2341|t_2343|ref=fr._22
-26	αὐτογενῆ	αὐτογενής	a	a-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_2342|t_2341|ref=fr._22
-27	συνοχήν	συνοχή	n	n-s---fa-	Case=a|Gender=f|Number=s	18	SBJ	_	t_2343|t_2334|ref=fr._22
-28	.	.	u	u--------	_	14	AuxK	_	t_2344|t_2330|ref=fr._22
+14	Φ.	φ.	d	d--------	_	16	AuxY	_	t_2330|t_2332|ref=fr._23
+15	δέ	δέ	d	d--------	_	16	AuxY	_	t_2331|t_2332|ref=fr._23
+16	φησιν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2332|0|ref=fr._23
+17	ἀριθμὸν	ἀριθμός	n	n-s---ma-	Case=a|Gender=m|Number=s	18	PNOM	_	t_2333|t_2334|ref=fr._23
+18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_2334|t_2332|ref=fr._23
+19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2335|t_2338|ref=fr._23
+20	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	21	ATR	_	t_2336|t_2337|ref=fr._23
+21	κοσμικῶν	κοσμικός	a	a-p---ng-	Case=g|Gender=n|Number=p	22	ATR	_	t_2337|t_2338|ref=fr._23
+22	αἰωνίας	αἰώνιος	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_2338|t_2339|ref=fr._23
+23	διαμονῆς	διαμονή	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_2339|t_2333|ref=fr._23
+24	κρατιστεύοισαν	κρατιστεύω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	25	ATR	_	t_2340|t_2341|ref=fr._23
+25	καὶ	καί	c	c--------	_	27	COORD	_	t_2341|t_2343|ref=fr._23
+26	αὐτογενῆ	αὐτογενής	a	a-s---fa-	Case=a|Gender=f|Number=s	25	ATR	_	t_2342|t_2341|ref=fr._23
+27	συνοχήν	συνοχή	n	n-s---fa-	Case=a|Gender=f|Number=s	18	SBJ	_	t_2343|t_2334|ref=fr._23
+28	.	.	u	u--------	_	14	AuxK	_	t_2344|t_2330|ref=fr._23
 

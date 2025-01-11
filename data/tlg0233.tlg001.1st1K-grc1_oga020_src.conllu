@@ -36,10 +36,10 @@
 33	[0]	[0]	-	---------	_	2	APOS	_	e_1|t_2|ref=fr._frag128
 34	.	.	u	u--------	_	2	AuxK	_	t_33|t_2|ref=fr._frag128
 
-# source = Hipponax, fr._frag128-similes
+# source = Hipponax, fr._similes
 # text = HOMERI LOCI SIMILES 1ἄνδρα μοι ἔννεπε , Μοῦσα 2ἐπεὶ σύ περ οὐ κατὰ κόσμον | αἰτίζεις sq [0] .
 # sent_id = 2
-1	HOMERI	homeri	n	n-s---mv-	Case=v|Gender=m|Number=s	18	ExD	_	t_34|e_2|ref=fr._frag128
+1	HOMERI	homeri	n	n-s---mv-	Case=v|Gender=m|Number=s	18	ExD	_	t_34|e_2|ref=fr._similes
 2	LOCI	locος	i	i--------	_	1	AuxZ	_	t_35|t_34|ref=fr._similes
 3	SIMILES	similes	n	n-s---mv-	Case=v|Gender=m|Number=s	1	ATR	_	t_36|t_34|ref=fr._similes
 4	1ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_37|t_39|ref=fr._similes
@@ -56,10 +56,10 @@
 15	|	|	u	u--------	_	16	AuxG	_	t_48|t_49|ref=fr._similes
 16	αἰτίζεις	αἰτίζω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	9	ADV	_	t_49|t_42|ref=fr._similes
 17	sq	sqq	x	x--------	_	16	OBJ	_	t_50|t_49|ref=fr._similes
-18	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._frag128
+18	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._similes
 19	.	.	u	u--------	_	6	AuxK	_	t_51|t_39|ref=fr._similes
 
-# source = Hipponax, fr._similes
+# source = Hipponax, fr._similes-testimonium
 # text = 3σὺ δέ κεν κακὸν οἶτον ὄληαι * κακὸς κακὸν ἡγηλάζει * 4παρὰ θῖνʼ ἁλὸς ἀτρυγέτοιο * TESTIMONIVM :
 # sent_id = 3
 1	3σὺ	σύ	p	p-s----n-	Case=n|Number=s	6	SBJ	_	t_52|t_57|ref=fr._similes
@@ -78,8 +78,8 @@
 14	ἁλὸς	ἅλς	n	n-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_65|t_64|ref=fr._similes
 15	ἀτρυγέτοιο	ἀτρύγετος	a	a-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_66|t_65|ref=fr._similes
 16	*	*	u	u--------	_	12	AuxG	_	t_67|t_63|ref=fr._similes
-17	TESTIMONIVM	testimoni	n	n-s---mv-	_	10	ExD	_	t_68|t_61|ref=fr._similes
-18	:	:	u	u--------	_	2	AuxK	_	t_69|t_53|ref=fr._similes
+17	TESTIMONIVM	testimoni	n	n-s---mv-	_	10	ExD	_	t_68|t_61|ref=fr._testimonium
+18	:	:	u	u--------	_	2	AuxK	_	t_69|t_53|ref=fr._testimonium
 
 # source = Hipponax, fr._testimonium
 # text = Πολέμων δʼ ἐν τῷ δωδεκάτῳ τῶν πρὸς Τίμαιον περὶ τῶν τὰς παρῳδίας γεγραφότων ἱστορῶν τάδε γράφει . . .
@@ -116,7 +116,7 @@
 7	φατέον	φατέος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_95|e_3|ref=fr._testimonium
 8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_96|t_97|ref=fr._testimonium
 9	ἰαμβοποιόν	ἰαμβοποιός	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_97|t_95|ref=fr._testimonium
-10	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._frag128
+10	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._testimonium
 11	.	.	u	u--------	_	10	AuxK	_	t_98|e_3|ref=fr._testimonium
 
 # source = Hipponax, fr._testimonium
@@ -136,16 +136,16 @@
 1	Μοῦσα	μοῦσα	n	n-s---fv-	Case=v|Gender=f|Number=s	4	ExD	_	t_106|e_4|ref=fr._testimonium
 2	—	—	u	u--------	_	4	AuxG	_	t_107|e_4|ref=fr._testimonium
 3	ἀτρυγέτοιο	ἀτρύγετος	a	a-s---mg-	Case=g|Gender=m|Number=s	4	PNOM	_	t_108|e_4|ref=fr._testimonium
-4	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._frag128
+4	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._testimonium
 5	.	.	u	u--------	_	4	AuxK	_	t_109|e_4|ref=fr._testimonium
 
-# source = Hipponax, fr._testimonium-variants
+# source = Hipponax, fr._variants
 # text = VARIETAS LECTIONIS ln testimonio Ἱππώνακτε φατέον Αἐν τόνοις ἑξαμέτροις Meineke οὗτος Α , οὕτως Schrader 1πολτοχάρυβδιν Wachsmuth [0] :
 # sent_id = 8
-1	VARIETAS	varietaς	a	a-p---na-	Case=a|Gender=m|Number=p	4	ExD	_	t_110|t_113|ref=fr._testimonium
-2	LECTIONIS	ἔλλειψις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_111|t_113|ref=fr._testimonium
-3	ln	ln	x	x--------	_	4	ADV	_	t_112|t_113|ref=fr._testimonium
-4	testimonio	testimonio	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	13	PRED	_	t_113|t_122|ref=fr._testimonium
+1	VARIETAS	varietaς	a	a-p---na-	Case=a|Gender=m|Number=p	4	ExD	_	t_110|t_113|ref=fr._variants
+2	LECTIONIS	ἔλλειψις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	OBJ	_	t_111|t_113|ref=fr._variants
+3	ln	ln	x	x--------	_	4	ADV	_	t_112|t_113|ref=fr._variants
+4	testimonio	testimonio	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	13	PRED	_	t_113|t_122|ref=fr._variants
 5	Ἱππώνακτε	ἱππώναξ	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_114|t_115|ref=fr._variants
 6	φατέον	φατέος	a	a-s---nn-	Case=n|Gender=n|Number=s	13	PRED	_	t_115|t_122|ref=fr._variants
 7	Αἐν	αἐν	n	n-p---md-	Case=d|Gender=m|Number=p	6	OBJ	_	t_116|t_115|ref=fr._variants
@@ -159,7 +159,7 @@
 15	Schrader	schrider	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_124|e_5|ref=fr._variants
 16	1πολτοχάρυβδιν	1πολτοχάρυβις	n	n-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_125|t_124|ref=fr._variants
 17	Wachsmuth	wachsmuth	n	n-s----n-	Case=n|Gender=f|Number=s	15	APOS	_	t_126|t_124|ref=fr._variants
-18	[0]	[0]	-	---------	_	13	PRED	_	e_5|t_122|ref=fr._frag128
+18	[0]	[0]	-	---------	_	13	PRED	_	e_5|t_122|ref=fr._variants
 19	:	:	u	u--------	_	13	AuxK	_	t_127|t_122|ref=fr._variants
 
 # source = Hipponax, fr._variants
@@ -172,7 +172,7 @@
 5	Bergk	bergk	d	d--------	_	8	OBJ	_	t_132|e_6|ref=fr._variants
 6	in	εἰς	v	v3spia---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	5	APOS	_	t_133|t_132|ref=fr._variants
 7	Poet	poet	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_134|t_133|ref=fr._variants
-8	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._frag128
+8	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=fr._variants
 9	.	.	u	u--------	_	8	AuxK	_	t_135|e_6|ref=fr._variants
 
 # source = Hipponax, fr._variants
@@ -185,7 +185,7 @@
 # text = Graec [0] .
 # sent_id = 11
 1	Graec	graec	n	n-s----n-	Case=n|Number=s	2	SBJ	_	t_138|e_7|ref=fr._variants
-2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._frag128
+2	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._variants
 3	.	.	u	u--------	_	2	AuxK	_	t_139|e_7|ref=fr._variants
 
 # source = Hipponax, fr._variants
@@ -210,7 +210,7 @@
 3	,	,	u	u--------	_	6	AuxX	_	t_152|e_8|ref=fr._variants
 4	κακὸς	κακός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_153|e_8|ref=fr._variants
 5	suppl	καί	x	x--------	_	6	AuxG	_	t_154|e_8|ref=fr._variants
-6	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=fr._frag128
+6	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=fr._variants
 7	.	.	u	u--------	_	6	AuxK	_	t_155|e_8|ref=fr._variants
 
 # source = Hipponax, fr._variants
@@ -228,31 +228,31 @@
 10	Meinekio	μελίκιος	n	n-s---mv-	Case=v|Gender=m|Number=s	9	ExD	_	t_165|t_164|ref=fr._variants
 11	.	.	u	u--------	_	5	AuxK	_	t_166|t_160|ref=fr._variants
 
-# source = Hipponax, fr._variants
+# source = Hipponax, fr._commentary
 # text = COMMENTARIVS V. l [0] .
 # sent_id = 15
-1	COMMENTARIVS	commentarivος	n	n--------	_	4	ExD	_	t_167|e_9|ref=fr._variants
-2	V.	v	u	u--------	_	4	AuxG	_	t_168|e_9|ref=fr._variants
-3	l	ὁ	x	x--------	_	4	AuxG	_	t_169|e_9|ref=fr._variants
-4	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._frag128
-5	.	.	u	u--------	_	4	AuxK	_	t_170|e_9|ref=fr._variants
+1	COMMENTARIVS	commentarivος	n	n--------	_	4	ExD	_	t_167|e_9|ref=fr._commentary
+2	V.	v	u	u--------	_	4	AuxG	_	t_168|e_9|ref=fr._commentary
+3	l	ὁ	x	x--------	_	4	AuxG	_	t_169|e_9|ref=fr._commentary
+4	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._commentary
+5	.	.	u	u--------	_	4	AuxK	_	t_170|e_9|ref=fr._commentary
 
-# source = Hipponax, fr._variants
+# source = Hipponax, fr._commentary
 # text = Corrige πολτοχάρυβδιν [0] ;
 # sent_id = 16
-1	Corrige	τυρρόω	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_171|e_10|ref=fr._variants
-2	πολτοχάρυβδιν	πολτοχάρυβις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ExD	_	t_172|e_10|ref=fr._variants
-3	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._frag128
-4	;	;	u	u--------	_	3	AuxK	_	t_173|e_10|ref=fr._variants
+1	Corrige	τυρρόω	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_171|e_10|ref=fr._commentary
+2	πολτοχάρυβδιν	πολτοχάρυβις	n	n-s---fa-	Case=a|Gender=f|Number=s	3	ExD	_	t_172|e_10|ref=fr._commentary
+3	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._commentary
+4	;	;	u	u--------	_	3	AuxK	_	t_173|e_10|ref=fr._commentary
 
-# source = Hipponax, fr._variants-commentary
+# source = Hipponax, fr._commentary
 # text = nequaquam enim ποντοφάρυγξ potest comparari ;
 # sent_id = 17
-1	nequaquam	καθάπαξ	p	p--------	_	4	ADV	_	t_174|t_177|ref=fr._variants
+1	nequaquam	καθάπαξ	p	p--------	_	4	ADV	_	t_174|t_177|ref=fr._commentary
 2	enim	enim	g	g--------	_	1	AuxZ	_	t_175|t_174|ref=fr._commentary
 3	ποντοφάρυγξ	ποντοφάρυγξ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_176|t_177|ref=fr._commentary
 4	potest	potέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_177|0|ref=fr._commentary
-5	comparari	ἀπολιμπάνω	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_178|t_177|ref=fr._variants
+5	comparari	ἀπολιμπάνω	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_178|t_177|ref=fr._commentary
 6	;	;	u	u--------	_	4	AuxK	_	t_179|t_177|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -260,7 +260,7 @@
 # sent_id = 18
 1	ipsa	αὐτός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_180|t_182|ref=fr._commentary
 2	vero	τοίνυν	g	g--------	_	10	AuxY	_	t_181|t_189|ref=fr._commentary
-3	Χάρυβδις	χάρυβδις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_182|t_189|ref=fr._variants
+3	Χάρυβδις	χάρυβδις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_182|t_189|ref=fr._commentary
 4	a	a	g	g--------	_	7	AuxY	_	t_183|t_186|ref=fr._commentary
 5	qua	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_184|t_185|ref=fr._commentary
 6	imago	ἐπιτεύχω	a	a-s---fn-	Mood=i|Number=s|Person=1|Tense=r|Voice=a	7	OBJ	_	t_185|t_186|ref=fr._commentary
@@ -308,7 +308,7 @@
 24	vel	ἤ	c	c--------	_	2	COORD	_	t_219|t_197|ref=fr._commentary
 25	quid	ὅστις	p	p-p---na-	Case=a|Gender=n|Number=p	26	AuxC	_	t_220|t_221|ref=fr._commentary
 26	devoret	αὐτοσχεδιάζω	v	v3spia---	Case=a|Gender=n|Number=p	24	PRED	_	t_221|t_219|ref=fr._commentary
-27	[0]	[0]	-	---------	_	2	PRED	_	e_11|t_197|ref=fr._frag128
+27	[0]	[0]	-	---------	_	2	PRED	_	e_11|t_197|ref=fr._commentary
 28	.	.	u	u--------	_	2	AuxK	_	t_222|t_197|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -316,7 +316,7 @@
 # sent_id = 21
 1	Alterum	ἕτερος	d	d--------	_	3	ADV	_	t_223|e_12|ref=fr._commentary
 2	praetuli	praetotu	n	n-s---md-	Case=d|Gender=m|Number=s	3	OBJ	_	t_224|e_12|ref=fr._commentary
-3	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._frag128
+3	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._commentary
 4	;	;	u	u--------	_	3	AuxK	_	t_225|e_12|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -343,7 +343,7 @@
 7	Πολτοφαγωνίδης	πολτοφαγωνίδης	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_236|t_235|ref=fr._commentary
 8	(	̔	u	u--------	_	10	AuxG	_	t_237|e_13|ref=fr._commentary
 9	cf	cf	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	10	ExD	_	t_238|e_13|ref=fr._commentary
-10	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=fr._frag128
+10	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=fr._commentary
 11	.	.	u	u--------	_	10	AuxK	_	t_239|e_13|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -351,7 +351,7 @@
 # sent_id = 25
 1	Ritschl	ritschl	n	n-s---mn-	Case=v|Gender=m|Number=s	3	ExD	_	t_240|e_14|ref=fr._commentary
 2	op	op	d	d--------	_	3	SBJ	_	t_241|e_14|ref=fr._commentary
-3	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._frag128
+3	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._commentary
 4	.	.	u	u--------	_	3	AuxK	_	t_242|e_14|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -359,7 +359,7 @@
 # sent_id = 26
 1	IIl	iil	x	x--------	_	3	AuxG	_	t_243|e_15|ref=fr._commentary
 2	p	p	x	x--------	_	3	ExD	_	t_244|e_15|ref=fr._commentary
-3	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=fr._frag128
+3	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=fr._commentary
 4	.	.	u	u--------	_	3	AuxK	_	t_245|e_15|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -367,7 +367,7 @@
 # sent_id = 27
 1	328	328	x	x--------	_	3	AuxG	_	t_246|e_16|ref=fr._commentary
 2	)	)	u	u--------	_	3	AuxG	_	t_247|e_16|ref=fr._commentary
-3	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._frag128
+3	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._commentary
 4	.	.	u	u--------	_	3	AuxK	_	t_248|e_16|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -377,21 +377,21 @@
 2	.	.	u	u--------	_	5	AuxK	_	t_250|e_17|ref=fr._commentary
 3	V.	v	x	x--------	_	5	AuxG	_	t_251|e_17|ref=fr._commentary
 4	2	2	x	x--------	_	5	AuxG	_	t_252|e_17|ref=fr._commentary
-5	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=fr._frag128
+5	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=fr._commentary
 6	.	.	u	u--------	_	5	AuxK	_	t_253|e_17|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
 # text = Hesychius [0] :
 # sent_id = 29
 1	Hesychius	hesychius	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_254|e_18|ref=fr._commentary
-2	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=fr._frag128
+2	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=fr._commentary
 3	:	:	u	u--------	_	2	AuxK	_	t_255|e_18|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
 # text = ἐγγαστριμάχαιραν [0] ·
 # sent_id = 30
 1	ἐγγαστριμάχαιραν	ἐγγαστριμάχαιρα	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_256|e_19|ref=fr._commentary
-2	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=fr._frag128
+2	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=fr._commentary
 3	·	·	u	u--------	_	2	AuxK	_	t_257|e_19|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -433,7 +433,7 @@
 7	esse	εἰμί	l	l-s---mn-	_	9	ATR	_	t_279|t_281|ref=fr._commentary
 8	supra	supra	r	r--------	_	6	ADV	_	t_280|t_278|ref=fr._commentary
 9	p	p	x	x--------	_	6	ADV	_	t_281|t_278|ref=fr._commentary
-10	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=fr._frag128
+10	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=fr._commentary
 11	.	.	u	u--------	_	10	AuxK	_	t_282|e_20|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -514,7 +514,7 @@
 13	ἁλός	ἅλς	n	n-s---fg-	Case=g|Gender=m|Number=s	12	ATR	_	t_343|t_342|ref=fr._commentary
 14	)	)	u	u--------	_	16	AuxG	_	t_344|e_21|ref=fr._commentary
 15	Luc	φώς	n	n-s---mg-	Case=n|Number=s	16	PNOM	_	t_345|e_21|ref=fr._commentary
-16	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._frag128
+16	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._commentary
 17	.	.	u	u--------	_	16	AuxK	_	t_346|e_21|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -529,7 +529,7 @@
 1	35	35	u	u--------	_	4	AuxG	_	t_349|e_22|ref=fr._commentary
 2	,	,	u	u--------	_	4	AuxX	_	t_350|e_22|ref=fr._commentary
 3	Tim	tim	n	n-s---mv-	_	4	ExD	_	t_351|e_22|ref=fr._commentary
-4	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=fr._frag128
+4	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=fr._commentary
 5	.	.	u	u--------	_	4	AuxK	_	t_352|e_22|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -544,7 +544,7 @@
 # text = 52 [0] ;
 # sent_id = 42
 1	52	52	d	d--------	_	2	AuxG	_	t_357|e_23|ref=fr._commentary
-2	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=fr._frag128
+2	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=fr._commentary
 3	;	;	u	u--------	_	2	AuxK	_	t_358|e_23|ref=fr._commentary
 
 # source = Hipponax, fr._commentary
@@ -571,7 +571,7 @@
 19	,	,	u	u--------	_	21	COORD	_	t_377|t_379|ref=fr._commentary
 20	contusus	contiμος	v	v-sapamn-	Case=n|Gender=m|Number=s	19	ADV	_	t_378|t_377|ref=fr._commentary
 21	?	?	u	u--------	_	22	AuxG	_	t_379|e_24|ref=fr._commentary
-22	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=fr._frag128
+22	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=fr._commentary
 23	)	)	u	u--------	_	21	AuxG	_	t_380|t_379|ref=fr._commentary
 
 # source = Hipponax, fr._commentary

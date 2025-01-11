@@ -59,7 +59,7 @@
 9	καὶ	καί	c	c--------	_	8	COORD	_	t_44|t_43|ref=fr._2
 10	μητέρα	μήτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_45|t_44|ref=fr._2
 11	Τηθύν	τηθύς	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_46|t_44|ref=fr._2
-12	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=fr._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=fr._2
 13	.	.	u	u--------	_	12	AuxK	_	t_47|e_1|ref=fr._2
 
 # source = Orphica, fr._2
@@ -69,7 +69,7 @@
 2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_49|e_2|ref=fr._2
 3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_50|t_51|ref=fr._2
 4	Ἡσίοδος	ἡσίοδος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_51|e_2|ref=fr._2
-5	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._2
 6	.	.	u	u--------	_	5	AuxK	_	t_52|e_2|ref=fr._2
 
 # source = Orphica, fr._2
@@ -95,11 +95,11 @@
 18	ὄπυιεν	ὀπυίω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	ATR	_	t_70|t_59|ref=fr._2
 19	.	.	u	u--------	_	2	AuxK	_	t_71|t_54|ref=fr._2
 
-# source = Orphica, fr._2
+# source = Orphica, fr._3
 # text = 3 .
 # sent_id = 7
-1	3	3	x	x--------	_	0	AuxG	_	t_72|0|ref=fr._2
-2	.	.	u	u--------	_	1	AuxK	_	t_73|t_72|ref=fr._2
+1	3	3	x	x--------	_	0	AuxG	_	t_72|0|ref=fr._3
+2	.	.	u	u--------	_	1	AuxK	_	t_73|t_72|ref=fr._3
 
 # source = Orphica, fr._3
 # text = καὶ γὰρ σῆμά τινές φασιν αὐτὸ εἶναι τῆς ψυχῆς [ nämlich τὸ σῶμα ] , ὡς τεθαμμένης ἐν τῶι νῦν παρόντι ·
@@ -146,7 +146,7 @@
 14	σῆμα	σῆμα	n	n-s---na-	Case=a|Gender=n|Number=s	16	PNOM	_	t_109|t_111|ref=fr._3
 15	ὀρθῶς	ὀρθός	d	d--------	_	16	ADV	_	t_110|t_111|ref=fr._3
 16	καλεῖσθαι	καλέω	v	v--pne---	Mood=n|Tense=p|Voice=e	17	OBJ	_	t_111|e_3|ref=fr._3
-17	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._3
 18	.	.	u	u--------	_	17	AuxK	_	t_112|e_3|ref=fr._3
 
 # source = Orphica, fr._3
@@ -214,23 +214,23 @@
 23	δὲ	δέ	c	c--------	_	22	AuxY	_	t_168|t_167|ref=fr._3
 24	ἓν	εἷς	m	m-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_169|t_170|ref=fr._3
 25	γράμμα	γράμμα	n	n-s---na-	Case=a|Gender=n|Number=s	21	OBJ	_	t_170|t_166|ref=fr._3
-26	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._1
+26	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._3
 27	.	.	u	u--------	_	26	AuxK	_	t_171|e_4|ref=fr._3
 
-# source = Orphica, fr._3
+# source = Orphica, fr._4
 # text = 4 [0] .
 # sent_id = 12
-1	4	4	u	u--------	_	2	AuxK	_	t_172|e_5|ref=fr._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_173|e_5|ref=fr._3
+1	4	4	u	u--------	_	2	AuxK	_	t_172|e_5|ref=fr._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=fr._4
+3	.	.	u	u--------	_	2	AuxK	_	t_173|e_5|ref=fr._4
 
-# source = Orphica, fr._3-4
+# source = Orphica, fr._4
 # text = Μουσαῖος δὲ τούτων [ Hesiod und Homer ] νεανικώτερα τ ἀγαθὰ καὶ ὁ υἱὸς αὐτοῦ παρὰ θεῶν διδόασι τοῖς δικαίοις ·
 # sent_id = 13
-1	Μουσαῖος	μουσαῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_174|t_185|ref=fr._3
-2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_175|t_191|ref=fr._3
+1	Μουσαῖος	μουσαῖος	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_174|t_185|ref=fr._4
+2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_175|t_191|ref=fr._4
 3	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	1	ATR	_	t_176|t_174|ref=fr._4
-4	[	[	u	u--------	_	18	AuxX	_	t_177|t_191|ref=fr._3
+4	[	[	u	u--------	_	18	AuxX	_	t_177|t_191|ref=fr._4
 5	Hesiod	hesiod	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_178|t_179|ref=fr._4
 6	und	καί	c	c--------	_	18	COORD	_	t_179|t_191|ref=fr._4
 7	Homer	homer	n	n-s---mn-	Case=n|Gender=m|Number=s	6	ExD	_	t_180|t_179|ref=fr._4
@@ -354,18 +354,18 @@
 24	ἄγοντες	ἄγω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_278|t_270|ref=fr._4
 25	.	.	u	u--------	_	13	AuxK	_	t_279|t_267|ref=fr._4
 
-# source = Orphica, fr._4
+# source = Orphica, fr._5
 # text = 5 .
 # sent_id = 19
-1	5	5	u	u--------	_	0	AuxG	_	t_280|0|ref=fr._4
-2	.	.	u	u--------	_	1	AuxK	_	t_281|t_280|ref=fr._4
+1	5	5	u	u--------	_	0	AuxG	_	t_280|0|ref=fr._5
+2	.	.	u	u--------	_	1	AuxK	_	t_281|t_280|ref=fr._5
 
-# source = Orphica, fr._4-5
+# source = Orphica, fr._5
 # text = βίβλων δὲ ὅμαδον παρέχονται Μουσαίου καὶ Ὀρφέως Σελήνης τε καὶ Μουσῶν ἐκγόνων , ὥς φασι , καθʼ ἃς θυηπολοῦσι πείθοντες οὐ μόνον ἰδιώτας ἀλλὰ καὶ πόλεις , ὡς ἄρα λύσεις τε καὶ καθαρμοὶ ἀδικημάτων διὰ θυσιῶν καὶ παιδιᾶς ἡδονῶν εἰσὶ μὲν ἔτι ζῶσιν , εἰσὶ δὲ καὶ τελευτήσασιν , ἃς δὴ τελετὰς καλοῦσιν , αἳ τῶν ἐκεῖ κακῶν ἀπολύουσιν ἡμᾶς , μὴ θύσαντας δὲ δεινὰ περιμένει .
 # sent_id = 20
-1	βίβλων	βίβλος	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_282|t_284|ref=fr._4
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_283|t_285|ref=fr._4
-3	ὅμαδον	ὅμαδος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_284|t_285|ref=fr._4
+1	βίβλων	βίβλος	n	n-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_282|t_284|ref=fr._5
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_283|t_285|ref=fr._5
+3	ὅμαδον	ὅμαδος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_284|t_285|ref=fr._5
 4	παρέχονται	παρέχω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_285|0|ref=fr._5
 5	Μουσαίου	μουσαῖος	n	n-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_286|t_291|ref=fr._5
 6	καὶ	καί	d	d--------	_	10	AuxY	_	t_287|t_291|ref=fr._5
@@ -431,18 +431,18 @@
 66	περιμένει	περιμένω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	64	ATR	_	t_347|t_345|ref=fr._5
 67	.	.	u	u--------	_	4	AuxK	_	t_348|t_285|ref=fr._5
 
-# source = Orphica, fr._5
+# source = Orphica, fr._5a
 # text = 5ᵃ .
 # sent_id = 21
-1	5ᵃ	5a	i	i--------	_	0	ExD	_	t_349|0|ref=fr._5
-2	.	.	u	u--------	_	1	AuxK	_	t_350|t_349|ref=fr._5
+1	5ᵃ	5a	i	i--------	_	0	ExD	_	t_349|0|ref=fr._5a
+2	.	.	u	u--------	_	1	AuxK	_	t_350|t_349|ref=fr._5a
 
-# source = Orphica, fr._5-5a
+# source = Orphica, fr._5a
 # text = ποιηταὶ δʼ ἀνθρώπινοι σφόδρα τὰ τοιαῦτα [ unpassende Töne ] ἐμπλέκοντες καὶ συγκυκῶντες ἀλόγως γέλωτʼ ἂν παρασκευάζοιεν τῶν ἀνθρώπων ὅσους φησὶν Ὀρφεὺς λαχεῖν ὥραν τῆς τέρψιος .
 # sent_id = 22
-1	ποιηταὶ	ποιητής	n	n-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_351|t_367|ref=fr._5
-2	δʼ	δέ	d	d--------	_	17	AuxY	_	t_352|t_367|ref=fr._5
-3	ἀνθρώπινοι	ἀνθρώπινος	n	n-p---mn-	Case=n|Gender=m|Number=p	1	ATR	_	t_353|t_351|ref=fr._5
+1	ποιηταὶ	ποιητής	n	n-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_351|t_367|ref=fr._5a
+2	δʼ	δέ	d	d--------	_	17	AuxY	_	t_352|t_367|ref=fr._5a
+3	ἀνθρώπινοι	ἀνθρώπινος	n	n-p---mn-	Case=n|Gender=m|Number=p	1	ATR	_	t_353|t_351|ref=fr._5a
 4	σφόδρα	σφόδρα	d	d--------	_	11	ADV	_	t_354|t_361|ref=fr._5a
 5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_355|t_356|ref=fr._5a
 6	τοιαῦτα	τοιοῦτος	p	p-p---na-	Case=a|Gender=n|Number=p	11	OBJ	_	t_356|t_361|ref=fr._5a
@@ -468,18 +468,18 @@
 26	τέρψιος	τέρψις	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ATR	_	t_376|t_374|ref=fr._5a
 27	.	.	u	u--------	_	17	AuxK	_	t_377|t_367|ref=fr._5a
 
-# source = Orphica, fr._5a
+# source = Orphica, fr._6
 # text = 6 .
 # sent_id = 23
-1	6	6	u	u--------	_	0	AuxG	_	t_378|0|ref=fr._5a
-2	.	.	u	u--------	_	1	AuxK	_	t_379|t_378|ref=fr._5a
+1	6	6	u	u--------	_	0	AuxG	_	t_378|0|ref=fr._6
+2	.	.	u	u--------	_	1	AuxK	_	t_379|t_378|ref=fr._6
 
-# source = Orphica, fr._5a-6
+# source = Orphica, fr._6
 # text = ὁ μὲν δὴ θεός , ὥσπερ καὶ ὁ παλαιὸς λόγος , ἀρχήν τε καὶ τελευτὴν καὶ μέσα τῶν ὄντων ἁπάντων ἔχων , εὐθείαι περαίνει κατὰ φύσιν περιπορευόμενος [0] .
 # sent_id = 24
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_380|t_383|ref=fr._5a
-2	μὲν	μέν	d	d--------	_	24	AuxY	_	t_381|t_403|ref=fr._5a
-3	δὴ	δή	d	d--------	_	24	AuxY	_	t_382|t_403|ref=fr._5a
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_380|t_383|ref=fr._6
+2	μὲν	μέν	d	d--------	_	24	AuxY	_	t_381|t_403|ref=fr._6
+3	δὴ	δή	d	d--------	_	24	AuxY	_	t_382|t_403|ref=fr._6
 4	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_383|t_403|ref=fr._6
 5	,	,	u	u--------	_	24	AuxX	_	t_384|t_403|ref=fr._6
 6	ὥσπερ	ὥσπερ	c	c--------	_	24	AuxC	_	t_385|t_403|ref=fr._6
@@ -504,7 +504,7 @@
 25	κατὰ	κατά	r	r--------	_	27	AuxP	_	t_404|t_406|ref=fr._6
 26	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	25	ADV	_	t_405|t_404|ref=fr._6
 27	περιπορευόμενος	περιπορεύομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	24	ADV	_	t_406|t_403|ref=fr._6
-28	[0]	[0]	-	---------	_	6	ADV	_	e_6|t_385|ref=fr._1
+28	[0]	[0]	-	---------	_	6	ADV	_	e_6|t_385|ref=fr._6
 29	.	.	u	u--------	_	24	AuxK	_	t_407|t_403|ref=fr._6
 
 # source = Orphica, fr._6
@@ -544,7 +544,7 @@
 32	ἐπαιρόμενος	ἐπαίρω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	30	ADV	_	t_439|t_437|ref=fr._6
 33	.	.	u	u--------	_	4	AuxK	_	t_440|t_411|ref=fr._6
 34	.	.	u	u--------	_	4	AuxK	_	t_441|t_411|ref=fr._6
-35	[0]	[0]	-	---------	_	30	ADV	_	e_7|t_437|ref=fr._1
+35	[0]	[0]	-	---------	_	30	ADV	_	e_7|t_437|ref=fr._6
 36	.	.	u	u--------	_	4	AuxK	_	t_442|t_411|ref=fr._6
 
 # source = Orphica, fr._6
@@ -621,24 +621,24 @@
 9	ἐκ	ἐκ	r	r--------	_	11	AuxP	_	t_503|t_505|ref=fr._6
 10	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_504|t_505|ref=fr._6
 11	τέτυκται	τεύχω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	8	PRED	_	t_505|t_502|ref=fr._6
-12	[0]	[0]	-	---------	_	8	PRED	_	e_8|t_502|ref=fr._1
+12	[0]	[0]	-	---------	_	8	PRED	_	e_8|t_502|ref=fr._6
 13	.	.	u	u--------	_	8	AuxK	_	t_506|t_502|ref=fr._6
 
-# source = Orphica, fr._6
+# source = Orphica, fr._6a
 # text = 6ᵃ .
 # sent_id = 29
-1	6ᵃ	6a	i	i--------	_	0	ExD	_	t_507|0|ref=fr._6
-2	.	.	u	u--------	_	1	AuxK	_	t_508|t_507|ref=fr._6
+1	6ᵃ	6a	i	i--------	_	0	ExD	_	t_507|0|ref=fr._6a
+2	.	.	u	u--------	_	1	AuxK	_	t_508|t_507|ref=fr._6a
 
-# source = Orphica, fr._6-6a
+# source = Orphica, fr._6a
 # text = μηδέ τινα τολμᾶν ἄιδειν ἀδόκιμον μοῦσαν μὴ κρινάντων τῶν νομοφυλάκων , μη δʼ ἂν ἡδίων ἦι τῶν Θαμύρου τε καὶ Ὀρφείων ὕμνων .
 # sent_id = 30
-1	μηδέ	μηδέ	d	d--------	_	13	AuxY	_	t_509|t_521|ref=fr._6
-2	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_510|t_514|ref=fr._6
-3	τολμᾶν	τολμάω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	PRED	_	t_511|t_521|ref=fr._6
-4	ἄιδειν	ἀείδω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_512|t_511|ref=fr._6
-5	ἀδόκιμον	ἀδόκιμος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_513|t_514|ref=fr._6
-6	μοῦσαν	μοῦσα	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_514|t_512|ref=fr._6
+1	μηδέ	μηδέ	d	d--------	_	13	AuxY	_	t_509|t_521|ref=fr._6a
+2	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_510|t_514|ref=fr._6a
+3	τολμᾶν	τολμάω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	PRED	_	t_511|t_521|ref=fr._6a
+4	ἄιδειν	ἀείδω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_512|t_511|ref=fr._6a
+5	ἀδόκιμον	ἀδόκιμος	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_513|t_514|ref=fr._6a
+6	μοῦσαν	μοῦσα	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_514|t_512|ref=fr._6a
 7	μὴ	μή	d	d--------	_	8	AuxZ	_	t_515|t_516|ref=fr._6a
 8	κρινάντων	κρίνω	v	v-papamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	13	ADV	_	t_516|t_521|ref=fr._6a
 9	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_517|t_518|ref=fr._6a
@@ -657,24 +657,24 @@
 22	ὕμνων	ὕμνος	n	n-p---mg-	Case=g|Gender=m|Number=p	15	ADV	_	t_530|t_523|ref=fr._6a
 23	.	.	u	u--------	_	11	AuxK	_	t_531|t_519|ref=fr._6a
 
-# source = Orphica, fr._6a
+# source = Orphica, fr._7
 # text = 7 [0] .
 # sent_id = 31
-1	7	7	u	u--------	_	2	AuxG	_	t_532|e_9|ref=fr._6a
-2	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_533|e_9|ref=fr._6a
+1	7	7	u	u--------	_	2	AuxG	_	t_532|e_9|ref=fr._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=fr._7
+3	.	.	u	u--------	_	2	AuxK	_	t_533|e_9|ref=fr._7
 
-# source = Orphica, fr._6a-7
+# source = Orphica, fr._7
 # text = πάντες γὰρ κεκοινωνήκατε τῆς φιλοσόφου [ Sokrates ] μανίας τε καὶ βακχείας ·
 # sent_id = 32
-1	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_534|t_536|ref=fr._6a
-2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_535|t_536|ref=fr._6a
-3	κεκοινωνήκατε	κοινωνέω	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_536|0|ref=fr._6a
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_537|t_540|ref=fr._6a
-5	φιλοσόφου	φιλόσοφος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_538|t_540|ref=fr._6a
-6	[	[	u	u--------	_	7	AuxX	_	t_539|t_540|ref=fr._6a
+1	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_534|t_536|ref=fr._7
+2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_535|t_536|ref=fr._7
+3	κεκοινωνήκατε	κοινωνέω	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_536|0|ref=fr._7
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_537|t_540|ref=fr._7
+5	φιλοσόφου	φιλόσοφος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_538|t_540|ref=fr._7
+6	[	[	u	u--------	_	7	AuxX	_	t_539|t_540|ref=fr._7
 7	Sokrates	sochus	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ExD	_	t_540|t_536|ref=fr._7
-8	]	]	u	u--------	_	7	AuxX	_	t_541|t_540|ref=fr._6a
+8	]	]	u	u--------	_	7	AuxX	_	t_541|t_540|ref=fr._7
 9	μανίας	μανία	n	n-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_542|t_544|ref=fr._7
 10	τε	τε	g	g--------	_	11	AuxY	_	t_543|t_544|ref=fr._7
 11	καὶ	καί	c	c--------	_	3	COORD	_	t_544|t_536|ref=fr._7
@@ -734,25 +734,25 @@
 4	βέβηλοι	βέβηλος	n	n-p---mv-	Case=v|Gender=m|Number=p	3	ExD	_	t_582|t_581|ref=fr._7
 5	.	.	u	u--------	_	2	AuxK	_	t_583|t_580|ref=fr._7
 
-# source = Orphica, fr._7
+# source = Orphica, fr._8
 # text = 8 [0] .
 # sent_id = 37
-1	8	8	x	x--------	_	2	AuxK	_	t_584|e_10|ref=fr._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_585|e_10|ref=fr._7
+1	8	8	x	x--------	_	2	AuxK	_	t_584|e_10|ref=fr._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=fr._8
+3	.	.	u	u--------	_	2	AuxK	_	t_585|e_10|ref=fr._8
 
-# source = Orphica, fr._7-8
+# source = Orphica, fr._8
 # text = περὶ δὲ τῶν ἄλλων δαιμόνων εἰπεῖν καὶ γνῶναι τὴν γένεσιν μεῖζον ἢ καθʼ ἡμᾶς , πειστέον δὲ τοῖς εἰρηκόσιν ἔμπροσθεν , ἐκγόνοις μὲν θεῶν οὖσιν , ὡς ἔφασαν , σαφῶς δέ που τούς γε αὑτῶν προγόνους εἰδόσιν . . [0] [1] .
 # sent_id = 38
-1	περὶ	περί	r	r--------	_	6	AuxP	_	t_586|t_591|ref=fr._7
-2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_587|t_602|ref=fr._7
-3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_588|t_590|ref=fr._7
-4	ἄλλων	ἄλλος	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_589|t_590|ref=fr._7
-5	δαιμόνων	δαίμων	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_590|t_586|ref=fr._7
-6	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	7	SBJ	_	t_591|t_592|ref=fr._7
-7	καὶ	καί	c	c--------	_	17	COORD	_	t_592|t_602|ref=fr._7
+1	περὶ	περί	r	r--------	_	6	AuxP	_	t_586|t_591|ref=fr._8
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_587|t_602|ref=fr._8
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_588|t_590|ref=fr._8
+4	ἄλλων	ἄλλος	a	a-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_589|t_590|ref=fr._8
+5	δαιμόνων	δαίμων	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_590|t_586|ref=fr._8
+6	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	7	SBJ	_	t_591|t_592|ref=fr._8
+7	καὶ	καί	c	c--------	_	17	COORD	_	t_592|t_602|ref=fr._8
 8	γνῶναι	γιγνώσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	7	SBJ	_	t_593|t_592|ref=fr._8
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_594|t_595|ref=fr._7
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_594|t_595|ref=fr._8
 10	γένεσιν	γένεσις	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_595|t_593|ref=fr._8
 11	μεῖζον	μέγας	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	8	ADV	_	t_596|t_593|ref=fr._8
 12	ἢ	ἤ1	c	c--------	_	11	AuxC	_	t_597|t_596|ref=fr._8
@@ -783,8 +783,8 @@
 37	εἰδόσιν	οἶδα	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	31	ADV	_	t_622|t_616|ref=fr._8
 38	.	.	u	u--------	_	15	AuxK	_	t_623|t_600|ref=fr._8
 39	.	.	u	u--------	_	15	AuxK	_	t_624|t_600|ref=fr._8
-40	[0]	[0]	-	---------	_	12	ADV	_	e_11|t_597|ref=fr._1
-41	[1]	[1]	-	---------	_	31	ADV	_	e_12|t_616|ref=fr._1
+40	[0]	[0]	-	---------	_	12	ADV	_	e_11|t_597|ref=fr._8
+41	[1]	[1]	-	---------	_	31	ADV	_	e_12|t_616|ref=fr._8
 42	.	.	u	u--------	_	15	AuxK	_	t_625|t_600|ref=fr._8
 
 # source = Orphica, fr._8
@@ -853,36 +853,36 @@
 42	τούτων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	44	ATR	_	t_682|t_684|ref=fr._8
 43	ἄλλους	ἄλλος	p	p-p---ma-	Case=a|Gender=m|Number=p	41	SBJ	_	t_683|t_681|ref=fr._8
 44	ἐκγόνους	ἔκγονος	a	a-p---ma-	Case=a|Gender=m|Number=p	41	PNOM	_	t_684|t_681|ref=fr._8
-45	[0]	[0]	-	---------	_	41	SBJ	_	e_13|t_681|ref=fr._1
-46	[1]	[1]	-	---------	_	41	PRED	_	e_14|t_681|ref=fr._1
-47	[2]	[2]	-	---------	_	41	PRED	_	e_15|t_681|ref=fr._1
+45	[0]	[0]	-	---------	_	41	SBJ	_	e_13|t_681|ref=fr._8
+46	[1]	[1]	-	---------	_	41	PRED	_	e_14|t_681|ref=fr._8
+47	[2]	[2]	-	---------	_	41	PRED	_	e_15|t_681|ref=fr._8
 48	.	.	u	u--------	_	11	AuxK	_	t_685|t_651|ref=fr._8
 
-# source = Orphica, fr._8
+# source = Orphica, fr._9
 # text = 9 [0] .
 # sent_id = 41
-1	9	9	x	x--------	_	2	AuxK	_	t_686|e_16|ref=fr._8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_687|e_16|ref=fr._8
+1	9	9	x	x--------	_	2	AuxK	_	t_686|e_16|ref=fr._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=fr._9
+3	.	.	u	u--------	_	2	AuxK	_	t_687|e_16|ref=fr._9
 
-# source = Orphica, fr._8-9
+# source = Orphica, fr._9
 # text = καίτοι εἰ ὡς λέγουσιν οἱ θεολόγοι οἱ ἐκ Νυκτὸς γεννῶντες ἢ ὡς οἱ φυσικοὶ ἧν ὁμοῦ πάντα χρήματα φασί , τὸ αὐτὸ ἀδύνατον [0] .
 # sent_id = 42
-1	καίτοι	καίτοι	d	d--------	_	24	AuxY	_	t_688|e_17|ref=fr._8
-2	εἰ	εἰ	c	c--------	_	24	AuxC	_	t_689|e_17|ref=fr._8
-3	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_690|t_698|ref=fr._8
-4	λέγουσιν	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	ADV	_	t_691|t_690|ref=fr._8
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_692|t_693|ref=fr._8
-6	θεολόγοι	θεολόγος	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_693|t_691|ref=fr._8
-7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_694|t_693|ref=fr._8
-8	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_695|t_697|ref=fr._8
-9	Νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_696|t_695|ref=fr._8
-10	γεννῶντες	γεννάω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_697|t_693|ref=fr._8
-11	ἢ	ἤ1	c	c--------	_	24	COORD	_	t_698|e_17|ref=fr._8
-12	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_699|t_698|ref=fr._8
-13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_700|t_701|ref=fr._8
+1	καίτοι	καίτοι	d	d--------	_	24	AuxY	_	t_688|e_17|ref=fr._9
+2	εἰ	εἰ	c	c--------	_	24	AuxC	_	t_689|e_17|ref=fr._9
+3	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_690|t_698|ref=fr._9
+4	λέγουσιν	λέγω3	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	ADV	_	t_691|t_690|ref=fr._9
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_692|t_693|ref=fr._9
+6	θεολόγοι	θεολόγος	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_693|t_691|ref=fr._9
+7	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_694|t_693|ref=fr._9
+8	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_695|t_697|ref=fr._9
+9	Νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_696|t_695|ref=fr._9
+10	γεννῶντες	γεννάω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	6	ATR	_	t_697|t_693|ref=fr._9
+11	ἢ	ἤ1	c	c--------	_	24	COORD	_	t_698|e_17|ref=fr._9
+12	ὡς	ὡς	c	c--------	_	11	AuxC	_	t_699|t_698|ref=fr._9
+13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_700|t_701|ref=fr._9
 14	φυσικοὶ	φυσικός	a	a-p---mn-	Case=n|Gender=m|Number=p	19	SBJ	_	t_701|t_706|ref=fr._9
-15	ἧν	εἰμί	v	v--pna---	Case=a|Gender=f|Number=s	19	OBJ	_	t_702|t_706|ref=fr._8
+15	ἧν	εἰμί	v	v--pna---	Case=a|Gender=f|Number=s	19	OBJ	_	t_702|t_706|ref=fr._9
 16	ὁμοῦ	ὁμοῦ	d	d--------	_	15	ADV	_	t_703|t_702|ref=fr._9
 17	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_704|t_705|ref=fr._9
 18	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	15	SBJ	_	t_705|t_702|ref=fr._9
@@ -891,7 +891,7 @@
 21	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	22	ATR	_	t_708|t_709|ref=fr._9
 22	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	24	SBJ	_	t_709|e_17|ref=fr._9
 23	ἀδύνατον	ἀδύνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	24	PNOM	_	t_710|e_17|ref=fr._9
-24	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=fr._1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=fr._9
 25	.	.	u	u--------	_	24	AuxK	_	t_711|e_17|ref=fr._9
 
 # source = Orphica, fr._9
@@ -925,37 +925,37 @@
 26	ἀλλὰ	ἀλλά	c	c--------	_	11	COORD	_	t_737|t_722|ref=fr._9
 27	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	28	ATR	_	t_738|t_739|ref=fr._9
 28	Δία	ζεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	26	OBJ	_	t_739|t_737|ref=fr._9
-29	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=fr._1
+29	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=fr._9
 30	.	.	u	u--------	_	29	AuxK	_	t_740|e_18|ref=fr._9
 
-# source = Orphica, fr._9
+# source = Orphica, fr._10
 # text = 10 [0] .
 # sent_id = 44
-1	10	10	u	u--------	_	2	AuxG	_	t_741|e_19|ref=fr._9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=fr._1
-3	.	.	u	u--------	_	2	AuxK	_	t_742|e_19|ref=fr._9
+1	10	10	u	u--------	_	2	AuxG	_	t_741|e_19|ref=fr._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=fr._10
+3	.	.	u	u--------	_	2	AuxK	_	t_742|e_19|ref=fr._10
 
-# source = Orphica, fr._9-10
+# source = Orphica, fr._10
 # text = εἰσὶ δέ τινες οἳ καὶ τοὺς παμπαλαίους καὶ πολὺ πρὸ τῆς νῦν γενέσεως καὶ πρώτους θεολογήσαντας οὕτως [ wie Thales ] οἴονται περὶ τῆς φύσεως ὑπολαβεῖν ·
 # sent_id = 45
-1	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_743|0|ref=fr._9
-2	δέ	δέ	d	d--------	_	1	AuxY	_	t_744|t_743|ref=fr._9
-3	τινες	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_745|t_743|ref=fr._9
-4	οἳ	ὅς	p	p-p---mn-	Case=n|Gender=m|Number=p	22	SBJ	_	t_746|t_764|ref=fr._9
-5	καὶ	καί	d	d--------	_	14	AuxY	_	t_747|t_756|ref=fr._9
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_748|t_749|ref=fr._9
-7	παμπαλαίους	παμπαλαῖος	a	a-p---ma-	Case=a|Gender=m|Number=p	26	OBJ	_	t_749|t_768|ref=fr._9
-8	καὶ	καί	d	d--------	_	14	AuxY	_	t_750|t_756|ref=fr._9
-9	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_751|t_755|ref=fr._9
-10	πρὸ	πρό	r	r--------	_	14	AuxP	_	t_752|t_756|ref=fr._9
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_753|t_755|ref=fr._9
-12	νῦν	νῦν	d	d--------	_	13	ATR	_	t_754|t_755|ref=fr._9
-13	γενέσεως	γένεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_755|t_752|ref=fr._9
-14	καὶ	καί	c	c--------	_	16	COORD	_	t_756|t_758|ref=fr._9
-15	πρώτους	πρῶτος	a	a-p---ma-	Case=a|Gender=m|Number=p	16	ATV	_	t_757|t_758|ref=fr._9
-16	θεολογήσαντας	θεολογέω	v	v-papama-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	26	OBJ	_	t_758|t_768|ref=fr._9
+1	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_743|0|ref=fr._10
+2	δέ	δέ	d	d--------	_	1	AuxY	_	t_744|t_743|ref=fr._10
+3	τινες	τις	p	p-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_745|t_743|ref=fr._10
+4	οἳ	ὅς	p	p-p---mn-	Case=n|Gender=m|Number=p	22	SBJ	_	t_746|t_764|ref=fr._10
+5	καὶ	καί	d	d--------	_	14	AuxY	_	t_747|t_756|ref=fr._10
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_748|t_749|ref=fr._10
+7	παμπαλαίους	παμπαλαῖος	a	a-p---ma-	Case=a|Gender=m|Number=p	26	OBJ	_	t_749|t_768|ref=fr._10
+8	καὶ	καί	d	d--------	_	14	AuxY	_	t_750|t_756|ref=fr._10
+9	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_751|t_755|ref=fr._10
+10	πρὸ	πρό	r	r--------	_	14	AuxP	_	t_752|t_756|ref=fr._10
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_753|t_755|ref=fr._10
+12	νῦν	νῦν	d	d--------	_	13	ATR	_	t_754|t_755|ref=fr._10
+13	γενέσεως	γένεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_755|t_752|ref=fr._10
+14	καὶ	καί	c	c--------	_	16	COORD	_	t_756|t_758|ref=fr._10
+15	πρώτους	πρῶτος	a	a-p---ma-	Case=a|Gender=m|Number=p	16	ATV	_	t_757|t_758|ref=fr._10
+16	θεολογήσαντας	θεολογέω	v	v-papama-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	26	OBJ	_	t_758|t_768|ref=fr._10
 17	οὕτως	οὕτως	d	d--------	_	26	ADV	_	t_759|t_768|ref=fr._10
-18	[	[	u	u--------	_	1	AuxX	_	t_760|t_743|ref=fr._9
+18	[	[	u	u--------	_	1	AuxX	_	t_760|t_743|ref=fr._10
 19	wie	ὡς	i	i--------	_	20	AuxZ	_	t_761|t_762|ref=fr._10
 20	Thales	thales	n	n-s---mv-	Case=v|Gender=m|Number=s	16	ExD	_	t_762|t_758|ref=fr._10
 21	]	]	u	u--------	_	1	AuxX	_	t_763|t_743|ref=fr._10
@@ -991,7 +991,7 @@
 20	Στύγα	στύγος	n	n-s---fa-	Case=a|Gender=f|Number=s	17	PNOM	_	t_789|t_786|ref=fr._10
 21	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	22	ATR	_	t_790|t_791|ref=fr._10
 22	ποιητῶν	ποιητής	n	n-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_791|t_789|ref=fr._10
-23	[0]	[0]	-	---------	_	10	PRED	_	e_20|t_779|ref=fr._1
+23	[0]	[0]	-	---------	_	10	PRED	_	e_20|t_779|ref=fr._10
 24	·	·	u	u--------	_	10	AuxK	_	t_792|t_779|ref=fr._10
 
 # source = Orphica, fr._10
@@ -1002,7 +1002,7 @@
 3	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_795|e_21|ref=fr._10
 4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_796|t_797|ref=fr._10
 5	πρεσβύτατον	πρέσβυς	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	6	SBJ	_	t_797|e_21|ref=fr._10
-6	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=fr._10
 7	·	·	u	u--------	_	6	AuxK	_	t_798|e_21|ref=fr._10
 
 # source = Orphica, fr._10
@@ -1040,34 +1040,34 @@
 20	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_824|0|ref=fr._10
 21	.	.	u	u--------	_	20	AuxK	_	t_825|t_824|ref=fr._10
 
-# source = Orphica, fr._10
+# source = Orphica, fr._10a
 # text = 10ᵃ .
 # sent_id = 50
-1	10ᵃ	10a	i	i--------	_	0	ExD	_	t_826|0|ref=fr._10
-2	.	.	u	u--------	_	1	AuxK	_	t_827|t_826|ref=fr._10
+1	10ᵃ	10a	i	i--------	_	0	ExD	_	t_826|0|ref=fr._10a
+2	.	.	u	u--------	_	1	AuxK	_	t_827|t_826|ref=fr._10a
 
-# source = Orphica, fr._10-10a
+# source = Orphica, fr._10a
 # text = ἢ γάρ τοι ἅμα πάντα γίγνεται τὰ μόρια , οἷον καρδία πλεύμων ἧπαρ ὀφθαλμὸς καὶ τῶν ἄλλων ἕκαστον , ἢ ἐφεξῆς ὥσπερ ἐν τοῖς καλουμένοις Ὀρφέως ἔπεσιν [0] [1] ·
 # sent_id = 51
-1	ἢ	ἤ1	c	c--------	_	6	AuxY	_	t_828|t_833|ref=fr._10
-2	γάρ	γάρ	d	d--------	_	6	AuxY	_	t_829|t_833|ref=fr._10
-3	τοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_830|t_833|ref=fr._10
-4	ἅμα	ἅμα	d	d--------	_	20	ADV	_	t_831|t_847|ref=fr._10
-5	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_832|t_835|ref=fr._10
-6	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_833|0|ref=fr._10
-7	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_834|t_835|ref=fr._10
-8	μόρια	μόριον	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_835|t_833|ref=fr._10
-9	,	,	u	u--------	_	6	AuxX	_	t_836|t_833|ref=fr._10
-10	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	20	AuxC	_	t_837|t_847|ref=fr._10
-11	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	28	SBJ	_	t_838|e_22|ref=fr._10
-12	πλεύμων	πλεύμων	a	a-p---ng-	Case=g|Gender=m|Number=p	11	ATR	_	t_839|t_838|ref=fr._10
-13	ἧπαρ	ἧπαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	28	SBJ	_	t_840|e_22|ref=fr._10
-14	ὀφθαλμὸς	ὀφθαλμός	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_841|t_842|ref=fr._10
-15	καὶ	καί	c	c--------	_	28	COORD	_	t_842|e_22|ref=fr._10
-16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_843|t_844|ref=fr._10
-17	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_844|t_845|ref=fr._10
-18	ἕκαστον	ἕκαστος	a	a-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_845|t_842|ref=fr._10
-19	,	,	u	u--------	_	6	AuxX	_	t_846|t_833|ref=fr._10
+1	ἢ	ἤ1	c	c--------	_	6	AuxY	_	t_828|t_833|ref=fr._10a
+2	γάρ	γάρ	d	d--------	_	6	AuxY	_	t_829|t_833|ref=fr._10a
+3	τοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_830|t_833|ref=fr._10a
+4	ἅμα	ἅμα	d	d--------	_	20	ADV	_	t_831|t_847|ref=fr._10a
+5	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_832|t_835|ref=fr._10a
+6	γίγνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_833|0|ref=fr._10a
+7	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_834|t_835|ref=fr._10a
+8	μόρια	μόριον	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_835|t_833|ref=fr._10a
+9	,	,	u	u--------	_	6	AuxX	_	t_836|t_833|ref=fr._10a
+10	οἷον	οἷος	p	p-s---na-	Case=a|Gender=n|Number=s	20	AuxC	_	t_837|t_847|ref=fr._10a
+11	καρδία	καρδία	n	n-s---fn-	Case=n|Gender=f|Number=s	28	SBJ	_	t_838|e_22|ref=fr._10a
+12	πλεύμων	πλεύμων	a	a-p---ng-	Case=g|Gender=m|Number=p	11	ATR	_	t_839|t_838|ref=fr._10a
+13	ἧπαρ	ἧπαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	28	SBJ	_	t_840|e_22|ref=fr._10a
+14	ὀφθαλμὸς	ὀφθαλμός	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_841|t_842|ref=fr._10a
+15	καὶ	καί	c	c--------	_	28	COORD	_	t_842|e_22|ref=fr._10a
+16	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_843|t_844|ref=fr._10a
+17	ἄλλων	ἄλλος	p	p-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_844|t_845|ref=fr._10a
+18	ἕκαστον	ἕκαστος	a	a-s---nn-	Case=n|Gender=n|Number=s	15	SBJ	_	t_845|t_842|ref=fr._10a
+19	,	,	u	u--------	_	6	AuxX	_	t_846|t_833|ref=fr._10a
 20	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_847|t_833|ref=fr._10a
 21	ἐφεξῆς	ἐφεξῆς	d	d--------	_	20	ADV	_	t_848|t_847|ref=fr._10a
 22	ὥσπερ	ὥσπερ	c	c--------	_	20	AuxC	_	t_849|t_847|ref=fr._10a
@@ -1076,8 +1076,8 @@
 25	καλουμένοις	καλέω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	27	ATR	_	t_852|t_854|ref=fr._10a
 26	Ὀρφέως	ὀρφεύς	n	n-p---md-	Case=a|Gender=m|Number=p	25	PNOM	_	t_853|t_852|ref=fr._10a
 27	ἔπεσιν	ἔπος	n	n-p---nd-	Case=d|Gender=n|Number=p	23	ADV	_	t_854|t_850|ref=fr._10a
-28	[0]	[0]	-	---------	_	20	ADV	_	e_22|t_847|ref=fr._1
-29	[1]	[1]	-	---------	_	22	ADV	_	e_23|t_849|ref=fr._1
+28	[0]	[0]	-	---------	_	20	ADV	_	e_22|t_847|ref=fr._10a
+29	[1]	[1]	-	---------	_	22	ADV	_	e_23|t_849|ref=fr._10a
 30	·	·	u	u--------	_	6	AuxK	_	t_855|t_833|ref=fr._10a
 
 # source = Orphica, fr._10a
@@ -1096,40 +1096,40 @@
 11	πλοκῆι	πλοκή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_866|t_860|ref=fr._10a
 12	.	.	u	u--------	_	4	AuxK	_	t_867|t_859|ref=fr._10a
 
-# source = Orphica, fr._10a
+# source = Orphica, fr._11
 # text = 11 .
 # sent_id = 53
-1	11	11	x	x--------	_	0	AuxG	_	t_868|0|ref=fr._10a
-2	.	.	u	u--------	_	1	AuxK	_	t_869|t_868|ref=fr._10a
+1	11	11	x	x--------	_	0	AuxG	_	t_868|0|ref=fr._11
+2	.	.	u	u--------	_	1	AuxK	_	t_869|t_868|ref=fr._11
 
-# source = Orphica, fr._10a
+# source = Orphica, fr._11
 # text = φαίνεται γὰρ τά τε φυτὰ ζῆν οὐ μετέχοντα φορᾶς οὐ δʼ αἰσθήσεως καὶ τῶν ζώιων πολλὰ διάνοιαν οὐκ ἔχειν .
 # sent_id = 54
-1	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_870|0|ref=fr._10a
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_871|t_870|ref=fr._10a
-3	τά	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_872|t_874|ref=fr._10a
-4	τε	τε	d	d--------	_	13	AuxY	_	t_873|t_882|ref=fr._10a
-5	φυτὰ	φυτόν	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_874|t_875|ref=fr._10a
-6	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	SBJ	_	t_875|t_882|ref=fr._10a
-7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_876|t_877|ref=fr._10a
-8	μετέχοντα	μετέχω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_877|t_882|ref=fr._10a
-9	φορᾶς	φορά	n	n-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_878|t_880|ref=fr._10a
-10	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_879|t_881|ref=fr._10a
-11	δʼ	δέ	c	c--------	_	8	COORD	_	t_880|t_877|ref=fr._10a
-12	αἰσθήσεως	αἴσθησις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_881|t_880|ref=fr._10a
-13	καὶ	καί	c	c--------	_	1	COORD	_	t_882|t_870|ref=fr._10a
-14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_883|t_884|ref=fr._10a
-15	ζώιων	ζῷον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_884|t_886|ref=fr._10a
-16	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_885|t_886|ref=fr._10a
-17	διάνοιαν	διάνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_886|t_888|ref=fr._10a
-18	οὐκ	οὐ	d	d--------	_	19	AuxZ	_	t_887|t_888|ref=fr._10a
-19	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	SBJ	_	t_888|t_882|ref=fr._10a
-20	.	.	u	u--------	_	1	AuxK	_	t_889|t_870|ref=fr._10a
+1	φαίνεται	φαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_870|0|ref=fr._11
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_871|t_870|ref=fr._11
+3	τά	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_872|t_874|ref=fr._11
+4	τε	τε	d	d--------	_	13	AuxY	_	t_873|t_882|ref=fr._11
+5	φυτὰ	φυτόν	n	n-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_874|t_875|ref=fr._11
+6	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	SBJ	_	t_875|t_882|ref=fr._11
+7	οὐ	οὐ	d	d--------	_	8	AuxZ	_	t_876|t_877|ref=fr._11
+8	μετέχοντα	μετέχω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	13	ADV	_	t_877|t_882|ref=fr._11
+9	φορᾶς	φορά	n	n-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_878|t_880|ref=fr._11
+10	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_879|t_881|ref=fr._11
+11	δʼ	δέ	c	c--------	_	8	COORD	_	t_880|t_877|ref=fr._11
+12	αἰσθήσεως	αἴσθησις	n	n-s---fg-	Case=g|Gender=f|Number=s	11	OBJ	_	t_881|t_880|ref=fr._11
+13	καὶ	καί	c	c--------	_	1	COORD	_	t_882|t_870|ref=fr._11
+14	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	15	ATR	_	t_883|t_884|ref=fr._11
+15	ζώιων	ζῷον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ATR	_	t_884|t_886|ref=fr._11
+16	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_885|t_886|ref=fr._11
+17	διάνοιαν	διάνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_886|t_888|ref=fr._11
+18	οὐκ	οὐ	d	d--------	_	19	AuxZ	_	t_887|t_888|ref=fr._11
+19	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	SBJ	_	t_888|t_882|ref=fr._11
+20	.	.	u	u--------	_	1	AuxK	_	t_889|t_870|ref=fr._11
 
-# source = Orphica, fr._10a-11
+# source = Orphica, fr._11
 # text = εἰ δέ τις καὶ ταῦτα παραχωρήσειε καὶ θείη τὸν νοῦν μέρος τι τῆς ψυχῆς , ὁμοίως δὲ καὶ τὸ αἰσθητικόν , οὐ δʼ ἂν οὕτω λέγοιεν καθόλου περὶ πάσης ψυχῆς οὐ δὲ περὶ ὅλης οὐδεμιᾶς [0] .
 # sent_id = 55
-1	εἰ	εἰ	c	c--------	_	26	AuxC	_	t_890|t_915|ref=fr._10a
+1	εἰ	εἰ	c	c--------	_	26	AuxC	_	t_890|t_915|ref=fr._11
 2	δέ	δέ	d	d--------	_	26	AuxY	_	t_891|t_915|ref=fr._11
 3	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_892|t_896|ref=fr._11
 4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_893|t_894|ref=fr._11
@@ -1164,7 +1164,7 @@
 33	περὶ	περί	r	r--------	_	32	AuxP	_	t_922|t_921|ref=fr._11
 34	ὅλης	ὅλος	a	a-s---fg-	Case=g|Gender=f|Number=s	35	ATR	_	t_923|t_924|ref=fr._11
 35	οὐδεμιᾶς	οὐδείς	p	p-s---fg-	Case=g|Gender=f|Number=s	33	ADV	_	t_924|t_922|ref=fr._11
-36	[0]	[0]	-	---------	_	17	ADV	_	e_24|t_906|ref=fr._1
+36	[0]	[0]	-	---------	_	17	ADV	_	e_24|t_906|ref=fr._11
 37	.	.	u	u--------	_	26	AuxK	_	t_925|t_915|ref=fr._11
 
 # source = Orphica, fr._11
@@ -1336,45 +1336,45 @@
 3	Ὀρφέως	ὀρφεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1057|t_1059|ref=fr._11
 4	Μουσαῖος	μουσαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1058|e_25|ref=fr._11
 5	μαθητής	μαθητής	n	n-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_1059|e_25|ref=fr._11
-6	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=fr._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=fr._11
 7	.	.	u	u--------	_	6	AuxK	_	t_1060|e_25|ref=fr._11
 
-# source = Orphica, fr._11
+# source = Orphica, fr._12
 # text = 12 .
 # sent_id = 65
-1	12	12	x	x--------	_	0	AuxG	_	t_1061|0|ref=fr._11
-2	.	.	u	u--------	_	1	AuxK	_	t_1062|t_1061|ref=fr._11
+1	12	12	x	x--------	_	0	AuxG	_	t_1061|0|ref=fr._12
+2	.	.	u	u--------	_	1	AuxK	_	t_1062|t_1061|ref=fr._12
 
-# source = Orphica, fr._11
+# source = Orphica, fr._12
 # text = ἡ δὲ παρὰ τῶι Περιπατητικῶι Εὐδήμωι ἀναγεγραμμένη ὡς τοῦ Ὀρφέως οὖσα Θεολογία πᾶν τὸ νοητὸν ἐσιώπησεν . . .
 # sent_id = 66
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_1063|t_1074|ref=fr._11
-2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_1064|t_1078|ref=fr._11
-3	παρὰ	παρά	r	r--------	_	7	AuxP	_	t_1065|t_1069|ref=fr._11
-4	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1066|t_1068|ref=fr._11
-5	Περιπατητικῶι	περιπατητικός	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1067|t_1068|ref=fr._11
-6	Εὐδήμωι	εὔδημος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1068|t_1065|ref=fr._11
-7	ἀναγεγραμμένη	ἀναγράφω	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	16	ADV	_	t_1069|t_1078|ref=fr._11
-8	ὡς	ὡς	c	c--------	_	11	AuxZ	_	t_1070|t_1073|ref=fr._11
-9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_1071|t_1072|ref=fr._11
-10	Ὀρφέως	ὀρφεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_1072|t_1070|ref=fr._11
-11	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_1073|t_1074|ref=fr._11
-12	Θεολογία	θεολογία	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1074|t_1078|ref=fr._11
-13	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1075|t_1077|ref=fr._11
-14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1076|t_1077|ref=fr._11
-15	νοητὸν	νοητός	a	a-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_1077|t_1078|ref=fr._11
-16	ἐσιώπησεν	σιωπάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1078|0|ref=fr._11
-17	.	.	u	u--------	_	16	AuxK	_	t_1079|t_1078|ref=fr._11
-18	.	.	u	u--------	_	16	AuxK	_	t_1080|t_1078|ref=fr._11
-19	.	.	u	u--------	_	16	AuxK	_	t_1081|t_1078|ref=fr._11
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_1063|t_1074|ref=fr._12
+2	δὲ	δέ	d	d--------	_	16	AuxY	_	t_1064|t_1078|ref=fr._12
+3	παρὰ	παρά	r	r--------	_	7	AuxP	_	t_1065|t_1069|ref=fr._12
+4	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1066|t_1068|ref=fr._12
+5	Περιπατητικῶι	περιπατητικός	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1067|t_1068|ref=fr._12
+6	Εὐδήμωι	εὔδημος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1068|t_1065|ref=fr._12
+7	ἀναγεγραμμένη	ἀναγράφω	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	16	ADV	_	t_1069|t_1078|ref=fr._12
+8	ὡς	ὡς	c	c--------	_	11	AuxZ	_	t_1070|t_1073|ref=fr._12
+9	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_1071|t_1072|ref=fr._12
+10	Ὀρφέως	ὀρφεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_1072|t_1070|ref=fr._12
+11	οὖσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_1073|t_1074|ref=fr._12
+12	Θεολογία	θεολογία	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1074|t_1078|ref=fr._12
+13	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1075|t_1077|ref=fr._12
+14	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1076|t_1077|ref=fr._12
+15	νοητὸν	νοητός	a	a-s---na-	Case=a|Gender=n|Number=s	16	OBJ	_	t_1077|t_1078|ref=fr._12
+16	ἐσιώπησεν	σιωπάω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1078|0|ref=fr._12
+17	.	.	u	u--------	_	16	AuxK	_	t_1079|t_1078|ref=fr._12
+18	.	.	u	u--------	_	16	AuxK	_	t_1080|t_1078|ref=fr._12
+19	.	.	u	u--------	_	16	AuxK	_	t_1081|t_1078|ref=fr._12
 
-# source = Orphica, fr._11-12
+# source = Orphica, fr._12
 # text = ἀπὸ δὲ τῆς Νυκτὸς ἐποιήσατο τὴν ἀρχήν , ἀφʼ ἧς καὶ Ὅμηρος , εἰ καὶ μὴ συνεχῇ πεποίηται τὴν γενεαλογίαν , ἵστησιν ·
 # sent_id = 67
-1	ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_1082|t_1086|ref=fr._11
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1083|t_1086|ref=fr._11
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1084|t_1085|ref=fr._11
-4	Νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_1085|t_1082|ref=fr._11
+1	ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_1082|t_1086|ref=fr._12
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1083|t_1086|ref=fr._12
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1084|t_1085|ref=fr._12
+4	Νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ADV	_	t_1085|t_1082|ref=fr._12
 5	ἐποιήσατο	ποιέω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1086|0|ref=fr._12
 6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_1087|t_1088|ref=fr._12
 7	ἀρχήν	ἀρχή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_1088|t_1086|ref=fr._12
@@ -1539,9 +1539,9 @@
 29	κατὰ	κατά	r	r--------	_	31	AuxP	_	t_1223|t_1225|ref=fr._12
 30	ἐπιστροφὴν	ἐπιστροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	29	ADV	_	t_1224|t_1223|ref=fr._12
 31	θεωρουμένην	θεωρέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	23	ATR	_	t_1225|t_1217|ref=fr._12
-32	[0]	[0]	-	---------	_	1	ADV	_	e_26|t_1195|ref=fr._1
-33	[1]	[1]	-	---------	_	1	ADV	_	e_27|t_1195|ref=fr._1
-34	[2]	[2]	-	---------	_	0	PRED	_	e_28|0|ref=fr._1
+32	[0]	[0]	-	---------	_	1	ADV	_	e_26|t_1195|ref=fr._12
+33	[1]	[1]	-	---------	_	1	ADV	_	e_27|t_1195|ref=fr._12
+34	[2]	[2]	-	---------	_	0	PRED	_	e_28|0|ref=fr._12
 35	.	.	u	u--------	_	34	AuxK	_	t_1226|e_28|ref=fr._12
 
 # source = Orphica, fr._12
@@ -1654,7 +1654,7 @@
 26	ἐκθρώσκει	ἐκθρῴσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	23	ADV	_	t_1323|t_1320|ref=fr._12
 27	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	28	ATR	_	t_1324|t_1325|ref=fr._12
 28	Φάνης	φαίνω	n	n-s---mn-	Case=n|Gender=m|Number=s	26	SBJ	_	t_1325|t_1323|ref=fr._12
-29	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=fr._1
+29	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=fr._12
 30	·	·	u	u--------	_	29	AuxK	_	t_1326|e_29|ref=fr._12
 
 # source = Orphica, fr._12
@@ -1694,9 +1694,9 @@
 18	πατέρα	πατήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OCOMP	_	t_1354|e_32|ref=fr._12
 19	.	.	u	u--------	_	22	AuxK	_	t_1355|e_31|ref=fr._12
 20	.	.	u	u--------	_	22	AuxK	_	t_1356|e_31|ref=fr._12
-21	[0]	[0]	-	---------	_	13	OBJ	_	e_30|t_1349|ref=fr._1
-22	[1]	[1]	-	---------	_	0	PRED	_	e_31|0|ref=fr._1
-23	[2]	[2]	-	---------	_	13	OBJ	_	e_32|t_1349|ref=fr._1
+21	[0]	[0]	-	---------	_	13	OBJ	_	e_30|t_1349|ref=fr._12
+22	[1]	[1]	-	---------	_	0	PRED	_	e_31|0|ref=fr._12
+23	[2]	[2]	-	---------	_	13	OBJ	_	e_32|t_1349|ref=fr._12
 24	.	.	u	u--------	_	22	AuxK	_	t_1357|e_31|ref=fr._12
 
 # source = Orphica, fr._12
@@ -1708,7 +1708,7 @@
 4	συνήθης	συνήθης	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1361|t_1363|ref=fr._12
 5	Ὀρφικὴ	ὀρφικός	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1362|t_1363|ref=fr._12
 6	θεολογία	θεολογία	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1363|e_33|ref=fr._12
-7	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=fr._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=fr._12
 8	.	.	u	u--------	_	7	AuxK	_	t_1364|e_33|ref=fr._12
 
 # source = Orphica, fr._12
@@ -1769,56 +1769,56 @@
 30	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	31	ATR	_	t_1413|t_1414|ref=fr._12
 31	ὑμήν	ὑμός	n	n-s---mn-	Case=n|Gender=m|Number=s	34	SBJ	_	t_1414|e_35|ref=fr._12
 32	.	.	u	u--------	_	10	AuxK	_	t_1415|t_1393|ref=fr._12
-33	[0]	[0]	-	---------	_	18	PRED	_	e_34|t_1401|ref=fr._2
-34	[1]	[1]	-	---------	_	18	PRED	_	e_35|t_1401|ref=fr._2
+33	[0]	[0]	-	---------	_	18	PRED	_	e_34|t_1401|ref=fr._12
+34	[1]	[1]	-	---------	_	18	PRED	_	e_35|t_1401|ref=fr._12
 35	]	]	u	u--------	_	10	AuxG	_	t_1416|t_1393|ref=fr._12
 
-# source = Orphica, fr._12
+# source = Orphica, fr._13
 # text = 13 .
 # sent_id = 82
-1	13	13	x	x--------	_	0	AuxG	_	t_1417|0|ref=fr._12
-2	.	.	u	u--------	_	1	AuxK	_	t_1418|t_1417|ref=fr._12
+1	13	13	x	x--------	_	0	AuxG	_	t_1417|0|ref=fr._13
+2	.	.	u	u--------	_	1	AuxK	_	t_1418|t_1417|ref=fr._13
 
-# source = Orphica, fr._12
+# source = Orphica, fr._13
 # text = ἡ δὲ κατὰ τὸν Ἱερώνυμον φερομένη καὶ Ἑλλάνικον , εἴπερ μὴ καὶ ὁ αὐτός ἐστιν , οὕτως ἔχει ·
 # sent_id = 83
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1419|t_1424|ref=fr._12
-2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_1420|t_1436|ref=fr._12
-3	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_1421|t_1424|ref=fr._12
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_1422|t_1423|ref=fr._12
-5	Ἱερώνυμον	ἱερώνυμος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_1423|t_1425|ref=fr._12
-6	φερομένη	φέρω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	SBJ	_	t_1424|t_1436|ref=fr._12
-7	καὶ	καί	c	c--------	_	3	COORD	_	t_1425|t_1421|ref=fr._12
-8	Ἑλλάνικον	ἑλλάνικος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_1426|t_1425|ref=fr._12
-9	,	,	u	u--------	_	18	AuxX	_	t_1427|t_1436|ref=fr._12
-10	εἴπερ	εἴπερ	c	c--------	_	18	AuxC	_	t_1428|t_1436|ref=fr._12
-11	μὴ	μή	d	d--------	_	15	AuxZ	_	t_1429|t_1433|ref=fr._12
-12	καὶ	καί	d	d--------	_	14	AuxZ	_	t_1430|t_1432|ref=fr._12
-13	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_1431|t_1432|ref=fr._12
-14	αὐτός	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1432|t_1433|ref=fr._12
-15	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_1433|t_1428|ref=fr._12
-16	,	,	u	u--------	_	18	AuxX	_	t_1434|t_1436|ref=fr._12
-17	οὕτως	οὕτως	d	d--------	_	18	ADV	_	t_1435|t_1436|ref=fr._12
-18	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1436|0|ref=fr._12
-19	·	·	u	u--------	_	18	AuxK	_	t_1437|t_1436|ref=fr._12
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_1419|t_1424|ref=fr._13
+2	δὲ	δέ	d	d--------	_	18	AuxY	_	t_1420|t_1436|ref=fr._13
+3	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_1421|t_1424|ref=fr._13
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_1422|t_1423|ref=fr._13
+5	Ἱερώνυμον	ἱερώνυμος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_1423|t_1425|ref=fr._13
+6	φερομένη	φέρω	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	18	SBJ	_	t_1424|t_1436|ref=fr._13
+7	καὶ	καί	c	c--------	_	3	COORD	_	t_1425|t_1421|ref=fr._13
+8	Ἑλλάνικον	ἑλλάνικος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_1426|t_1425|ref=fr._13
+9	,	,	u	u--------	_	18	AuxX	_	t_1427|t_1436|ref=fr._13
+10	εἴπερ	εἴπερ	c	c--------	_	18	AuxC	_	t_1428|t_1436|ref=fr._13
+11	μὴ	μή	d	d--------	_	15	AuxZ	_	t_1429|t_1433|ref=fr._13
+12	καὶ	καί	d	d--------	_	14	AuxZ	_	t_1430|t_1432|ref=fr._13
+13	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_1431|t_1432|ref=fr._13
+14	αὐτός	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1432|t_1433|ref=fr._13
+15	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_1433|t_1428|ref=fr._13
+16	,	,	u	u--------	_	18	AuxX	_	t_1434|t_1436|ref=fr._13
+17	οὕτως	οὕτως	d	d--------	_	18	ADV	_	t_1435|t_1436|ref=fr._13
+18	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1436|0|ref=fr._13
+19	·	·	u	u--------	_	18	AuxK	_	t_1437|t_1436|ref=fr._13
 
-# source = Orphica, fr._12-13
+# source = Orphica, fr._13
 # text = ‛ ὕδωρ ἦν , φησίν , ἐξ ἀρχῆς καὶ ὕλη , ἐξ ἧς ἐπάγη ἡ γῆ δύο ταύτας ἀρχὰς ὑποτιθέμενος πρῶτον , ὕδωρ καὶ γῆν . . .
 # sent_id = 84
-1	‛	ʼ	u	u--------	_	3	AuxG	_	t_1438|t_1440|ref=fr._12
-2	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_1439|t_1440|ref=fr._12
-3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1440|0|ref=fr._12
-4	,	,	u	u--------	_	3	AuxX	_	t_1441|t_1440|ref=fr._12
-5	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	AuxY	_	t_1442|t_1440|ref=fr._12
-6	,	,	u	u--------	_	3	AuxX	_	t_1443|t_1440|ref=fr._12
-7	ἐξ	ἐκ	r	r--------	_	3	AuxP	_	t_1444|t_1440|ref=fr._12
-8	ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_1445|t_1444|ref=fr._12
-9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_1446|t_1447|ref=fr._12
-10	ὕλη	ὕλη	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_1447|t_1440|ref=fr._12
-11	,	,	u	u--------	_	3	AuxX	_	t_1448|t_1440|ref=fr._12
-12	ἐξ	ἐκ	r	r--------	_	14	AuxP	_	t_1449|t_1451|ref=fr._12
-13	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_1450|t_1449|ref=fr._12
-14	ἐπάγη	πήγνυμι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	10	ATR	_	t_1451|t_1447|ref=fr._12
+1	‛	ʼ	u	u--------	_	3	AuxG	_	t_1438|t_1440|ref=fr._13
+2	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_1439|t_1440|ref=fr._13
+3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1440|0|ref=fr._13
+4	,	,	u	u--------	_	3	AuxX	_	t_1441|t_1440|ref=fr._13
+5	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	AuxY	_	t_1442|t_1440|ref=fr._13
+6	,	,	u	u--------	_	3	AuxX	_	t_1443|t_1440|ref=fr._13
+7	ἐξ	ἐκ	r	r--------	_	3	AuxP	_	t_1444|t_1440|ref=fr._13
+8	ἀρχῆς	ἀρχή	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_1445|t_1444|ref=fr._13
+9	καὶ	καί	d	d--------	_	10	AuxZ	_	t_1446|t_1447|ref=fr._13
+10	ὕλη	ὕλη	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_1447|t_1440|ref=fr._13
+11	,	,	u	u--------	_	3	AuxX	_	t_1448|t_1440|ref=fr._13
+12	ἐξ	ἐκ	r	r--------	_	14	AuxP	_	t_1449|t_1451|ref=fr._13
+13	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_1450|t_1449|ref=fr._13
+14	ἐπάγη	πήγνυμι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	10	ATR	_	t_1451|t_1447|ref=fr._13
 15	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_1452|t_1453|ref=fr._13
 16	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_1453|t_1451|ref=fr._13
 17	δύο	δύο	m	m--------	_	19	ATR	_	t_1454|t_1456|ref=fr._13
@@ -1886,7 +1886,7 @@
 47	Ἡρακλῆα	ἡρακλέης	n	n-s---ma-	Case=a|Gender=m|Number=s	46	SBJ	_	t_1512|t_1511|ref=fr._13
 48	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	47	ATR	_	t_1513|t_1512|ref=fr._13
 49	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	47	ATR	_	t_1514|t_1512|ref=fr._13
-50	[0]	[0]	-	---------	_	43	OBJ	_	e_36|t_1508|ref=fr._2
+50	[0]	[0]	-	---------	_	43	OBJ	_	e_36|t_1508|ref=fr._13
 51	.	.	u	u--------	_	14	AuxK	_	t_1515|t_1479|ref=fr._13
 
 # source = Orphica, fr._13
@@ -1976,7 +1976,7 @@
 14	ὁμιχλῶδες	ὁμιχλώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1585|t_1584|ref=fr._13
 15	.	.	u	u--------	_	17	AuxK	_	t_1586|e_37|ref=fr._13
 16	.	.	u	u--------	_	17	AuxK	_	t_1587|e_37|ref=fr._13
-17	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=fr._2
+17	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=fr._13
 18	.	.	u	u--------	_	17	AuxK	_	t_1588|e_37|ref=fr._13
 
 # source = Orphica, fr._13
@@ -2032,7 +2032,7 @@
 33	ἰνδαλλόμενον	ἰνδάλλομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	25	ADV	_	t_1632|t_1624|ref=fr._13
 34	.	.	u	u--------	_	36	AuxK	_	t_1633|e_38|ref=fr._13
 35	.	.	u	u--------	_	36	AuxK	_	t_1634|e_38|ref=fr._13
-36	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=fr._2
+36	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=fr._13
 37	.	.	u	u--------	_	36	AuxK	_	t_1635|e_38|ref=fr._13
 
 # source = Orphica, fr._13
@@ -2122,7 +2122,7 @@
 53	γένεσις	γένεσις	n	n-s---fn-	Case=n|Gender=f|Number=s	55	PNOM	_	t_1709|t_1711|ref=fr._13
 54	πάντεσσι	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	55	OBJ	_	t_1710|t_1711|ref=fr._13
 55	τέτυκται	τεύχω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	50	ATR	_	t_1711|t_1706|ref=fr._13
-56	[0]	[0]	-	---------	_	41	ADV	_	e_39|t_1697|ref=fr._2
+56	[0]	[0]	-	---------	_	41	ADV	_	e_39|t_1697|ref=fr._13
 57	.	.	u	u--------	_	8	AuxK	_	t_1712|t_1664|ref=fr._13
 
 # source = Orphica, fr._13
@@ -2171,7 +2171,7 @@
 41	Ηρακλῆς	ηρακλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	42	SBJ	_	t_1753|t_1754|ref=fr._13
 42	καὶ	καί	c	c--------	_	44	COORD	_	t_1754|e_40|ref=fr._13
 43	Χρόνος	χρόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	42	SBJ	_	t_1755|t_1754|ref=fr._13
-44	[0]	[0]	-	---------	_	35	PRED	_	e_40|t_1747|ref=fr._2
+44	[0]	[0]	-	---------	_	35	PRED	_	e_40|t_1747|ref=fr._13
 45	.	.	u	u--------	_	9	AuxK	_	t_1756|t_1721|ref=fr._13
 
 # source = Orphica, fr._13
@@ -2215,7 +2215,7 @@
 13	κάτω	κάτω	d	d--------	_	16	SBJ	_	t_1788|e_41|ref=fr._13
 14	ἐνεχθὲν	φέρω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	16	PNOM	_	t_1789|e_41|ref=fr._13
 15	Γῇ	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	14	OBJ	_	t_1790|t_1789|ref=fr._13
-16	[0]	[0]	-	---------	_	12	PRED	_	e_41|t_1787|ref=fr._2
+16	[0]	[0]	-	---------	_	12	PRED	_	e_41|t_1787|ref=fr._13
 17	·	·	u	u--------	_	10	AuxK	_	t_1791|t_1785|ref=fr._13
 
 # source = Orphica, fr._13
@@ -2256,8 +2256,8 @@
 22	Στερόπην	στερόπης	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OBJ	_	t_1820|t_1821|ref=fr._13
 23	καὶ	καί	c	c--------	_	26	COORD	_	t_1821|e_43|ref=fr._13
 24	Ἄργην	ἄργος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OBJ	_	t_1822|t_1821|ref=fr._13
-25	[0]	[0]	-	---------	_	13	PRED	_	e_42|t_1811|ref=fr._2
-26	[1]	[1]	-	---------	_	13	PRED	_	e_43|t_1811|ref=fr._2
+25	[0]	[0]	-	---------	_	13	PRED	_	e_42|t_1811|ref=fr._13
+26	[1]	[1]	-	---------	_	13	PRED	_	e_43|t_1811|ref=fr._13
 27	·	·	u	u--------	_	2	AuxK	_	t_1823|t_1800|ref=fr._13
 
 # source = Orphica, fr._13
@@ -2315,97 +2315,97 @@
 19	ἀστερόεντα	ἀστερόεις	a	a-s---ma-	Case=a|Gender=m|Number=s	18	ATR	_	t_1865|t_1864|ref=fr._13
 20	.	.	u	u--------	_	2	AuxK	_	t_1866|t_1848|ref=fr._13
 
-# source = Orphica, fr._13
+# source = Orphica, fr._14
 # text = 14 .
 # sent_id = 103
-1	14	14	x	x--------	_	0	AuxG	_	t_1867|0|ref=fr._13
-2	.	.	u	u--------	_	1	AuxK	_	t_1868|t_1867|ref=fr._13
+1	14	14	x	x--------	_	0	AuxG	_	t_1867|0|ref=fr._14
+2	.	.	u	u--------	_	1	AuxK	_	t_1868|t_1867|ref=fr._14
 
-# source = Orphica, fr._13
+# source = Orphica, fr._14
 # text = καὶ τὴν ἀπαραίτητον καὶ σεμνὴν Δίκην ἣν ὁ τὰς ἁγιωτάτας τελετὰς ἡμῖν καταδείξας Ὀρφεὺς παρὰ τὸν τοῦ Διὸς θρόνον φησὶ καθημένην πάντα τὰ τῶν ἀνθρώπων ἐφορᾶν .
 # sent_id = 104
-1	καὶ	καί	d	d--------	_	20	AuxY	_	t_1869|t_1888|ref=fr._13
-2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1870|t_1874|ref=fr._13
-3	ἀπαραίτητον	ἀπαραίτητος	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1871|t_1872|ref=fr._13
-4	καὶ	καί	c	c--------	_	6	COORD	_	t_1872|t_1874|ref=fr._13
-5	σεμνὴν	σεμνός	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1873|t_1872|ref=fr._13
-6	Δίκην	δίκη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_1874|t_1881|ref=fr._13
-7	ἣν	ὅς	d	d--------	_	6	ATR	_	t_1875|t_1874|ref=fr._13
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1876|t_1881|ref=fr._13
-9	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_1877|t_1879|ref=fr._13
-10	ἁγιωτάτας	ἅγιος	a	a-p---fas	Case=a|Degree=s|Gender=f|Number=p	11	ATR	_	t_1878|t_1879|ref=fr._13
-11	τελετὰς	τελετή	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_1879|t_1881|ref=fr._13
-12	ἡμῖν	ἐγώ	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_1880|t_1881|ref=fr._13
-13	καταδείξας	καταδείκνυμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	ATR	_	t_1881|t_1882|ref=fr._13
-14	Ὀρφεὺς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_1882|t_1888|ref=fr._13
-15	παρὰ	παρά	r	r--------	_	26	AuxP	_	t_1883|t_1894|ref=fr._13
-16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_1884|t_1887|ref=fr._13
-17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_1885|t_1886|ref=fr._13
-18	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_1886|t_1887|ref=fr._13
-19	θρόνον	θρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_1887|t_1883|ref=fr._13
-20	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1888|0|ref=fr._13
-21	καθημένην	κάθημαι	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	26	ADV	_	t_1889|t_1894|ref=fr._13
-22	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	26	OBJ	_	t_1890|t_1894|ref=fr._13
-23	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_1891|t_1890|ref=fr._13
-24	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_1892|t_1893|ref=fr._13
-25	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_1893|t_1891|ref=fr._13
-26	ἐφορᾶν	ἐφοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	20	OBJ	_	t_1894|t_1888|ref=fr._13
-27	.	.	u	u--------	_	20	AuxK	_	t_1895|t_1888|ref=fr._13
+1	καὶ	καί	d	d--------	_	20	AuxY	_	t_1869|t_1888|ref=fr._14
+2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1870|t_1874|ref=fr._14
+3	ἀπαραίτητον	ἀπαραίτητος	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1871|t_1872|ref=fr._14
+4	καὶ	καί	c	c--------	_	6	COORD	_	t_1872|t_1874|ref=fr._14
+5	σεμνὴν	σεμνός	a	a-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1873|t_1872|ref=fr._14
+6	Δίκην	δίκη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_1874|t_1881|ref=fr._14
+7	ἣν	ὅς	d	d--------	_	6	ATR	_	t_1875|t_1874|ref=fr._14
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1876|t_1881|ref=fr._14
+9	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	11	ATR	_	t_1877|t_1879|ref=fr._14
+10	ἁγιωτάτας	ἅγιος	a	a-p---fas	Case=a|Degree=s|Gender=f|Number=p	11	ATR	_	t_1878|t_1879|ref=fr._14
+11	τελετὰς	τελετή	n	n-p---fa-	Case=a|Gender=f|Number=p	13	OBJ	_	t_1879|t_1881|ref=fr._14
+12	ἡμῖν	ἐγώ	p	p-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_1880|t_1881|ref=fr._14
+13	καταδείξας	καταδείκνυμι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	14	ATR	_	t_1881|t_1882|ref=fr._14
+14	Ὀρφεὺς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_1882|t_1888|ref=fr._14
+15	παρὰ	παρά	r	r--------	_	26	AuxP	_	t_1883|t_1894|ref=fr._14
+16	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	19	ATR	_	t_1884|t_1887|ref=fr._14
+17	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_1885|t_1886|ref=fr._14
+18	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_1886|t_1887|ref=fr._14
+19	θρόνον	θρόνος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ADV	_	t_1887|t_1883|ref=fr._14
+20	φησὶ	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1888|0|ref=fr._14
+21	καθημένην	κάθημαι	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	26	ADV	_	t_1889|t_1894|ref=fr._14
+22	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	26	OBJ	_	t_1890|t_1894|ref=fr._14
+23	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	22	ATR	_	t_1891|t_1890|ref=fr._14
+24	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_1892|t_1893|ref=fr._14
+25	ἀνθρώπων	ἄνθρωπος	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_1893|t_1891|ref=fr._14
+26	ἐφορᾶν	ἐφοράω	v	v--pna---	Mood=n|Tense=p|Voice=a	20	OBJ	_	t_1894|t_1888|ref=fr._14
+27	.	.	u	u--------	_	20	AuxK	_	t_1895|t_1888|ref=fr._14
 
-# source = Orphica, fr._13
+# source = Orphica, fr._15
 # text = 15 .
 # sent_id = 105
-1	15	15	u	u--------	_	0	AuxG	_	t_1896|0|ref=fr._13
-2	.	.	u	u--------	_	1	AuxK	_	t_1897|t_1896|ref=fr._13
+1	15	15	u	u--------	_	0	AuxG	_	t_1896|0|ref=fr._15
+2	.	.	u	u--------	_	1	AuxK	_	t_1897|t_1896|ref=fr._15
 
-# source = Orphica, fr._13-14
+# source = Orphica, fr._15
 # text = 〈 ἀφ ’ οὗ Ὀρφεὺς ὁ Οἰάγρου καὶ Καλλιόπης 〉 υἱὸς τὴν ἑαυτοῦ ποίησιν ἐξέθηκε , Κόρης τε ἁρπαγὴν καὶ Δήμητρος ζήτησιν καὶ τὸν αὐτου 〈 ργηθέντα αὐτῆι σπόρον , ὃν ἐδίδαξε τὸ πλῆ 〉 θος ( ? )
 # sent_id = 106
-1	〈	〈	u	u--------	_	15	AuxG	_	t_1898|t_1912|ref=fr._13
-2	ἀφ	ἀπό	r	r--------	_	15	AuxP	_	t_1899|t_1912|ref=fr._13
-3	’	’	r	r--------	_	15	AuxP	_	t_1900|t_1912|ref=fr._13
-4	οὗ	ὅς	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ADV	_	t_1901|t_1899|ref=fr._13
-5	Ὀρφεὺς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1902|t_1912|ref=fr._13
-6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1903|t_1902|ref=fr._13
-7	Οἰάγρου	οἴαγρος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1904|t_1905|ref=fr._13
-8	καὶ	καί	c	c--------	_	11	COORD	_	t_1905|t_1908|ref=fr._13
-9	Καλλιόπης	καλλιόπη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1906|t_1905|ref=fr._13
-10	〉	〉	a	a--------	_	11	ATR	_	t_1907|t_1908|ref=fr._13
-11	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1908|t_1902|ref=fr._13
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_1909|t_1911|ref=fr._13
-13	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_1910|t_1911|ref=fr._14
-14	ποίησιν	ποίησις	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_1911|t_1912|ref=fr._14
-15	ἐξέθηκε	ἐκτίθημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1912|0|ref=fr._14
-16	,	,	u	u--------	_	15	APOS	_	t_1913|t_1912|ref=fr._14
-17	Κόρης	κόρη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1914|t_1916|ref=fr._14
-18	τε	τε	d	d--------	_	23	AuxY	_	t_1915|t_1920|ref=fr._14
-19	ἁρπαγὴν	ἁρπαγή	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_1916|t_1920|ref=fr._14
-20	καὶ	καί	c	c--------	_	23	AuxY	_	t_1917|t_1920|ref=fr._14
-21	Δήμητρος	δημήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_1918|t_1919|ref=fr._14
-22	ζήτησιν	ζήτησις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_1919|t_1920|ref=fr._14
-23	καὶ	καί	c	c--------	_	16	COORD	_	t_1920|t_1913|ref=fr._14
-24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_1921|t_1926|ref=fr._14
-25	αὐτου	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	29	ATR	_	t_1922|t_1926|ref=fr._14
-26	〈	〈	d	d--------	_	27	AuxX	_	t_1923|t_1924|ref=fr._14
-27	ργηθέντα	ργέω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	29	ATR	_	t_1924|t_1926|ref=fr._14
-28	αὐτῆι	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	27	OBJ	_	t_1925|t_1924|ref=fr._14
-29	σπόρον	σπόρος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OBJ	_	t_1926|t_1920|ref=fr._14
-30	,	,	u	u--------	_	15	AuxX	_	t_1927|t_1912|ref=fr._14
-31	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	32	OBJ	_	t_1928|t_1929|ref=fr._14
-32	ἐδίδαξε	διδάσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	29	ATR	_	t_1929|t_1926|ref=fr._14
-33	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	36	ATR	_	t_1930|t_1933|ref=fr._14
-34	πλῆ	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	32	SBJ	_	t_1931|t_1929|ref=fr._14
-35	〉	〉	n	n-s---na-	Case=a|Gender=n|Number=s	32	OBJ	_	t_1932|t_1929|ref=fr._14
-36	θος	θος	n	n-s---nn-	Case=n|Gender=n|Number=s	32	SBJ	_	t_1933|t_1929|ref=fr._14
-37	(	̔	u	u--------	_	38	AuxG	_	t_1934|t_1935|ref=fr._14
-38	?	?	u	u--------	_	15	AuxG	_	t_1935|t_1912|ref=fr._14
-39	)	)	u	u--------	_	15	AuxG	_	t_1936|t_1912|ref=fr._14
+1	〈	〈	u	u--------	_	15	AuxG	_	t_1898|t_1912|ref=fr._15
+2	ἀφ	ἀπό	r	r--------	_	15	AuxP	_	t_1899|t_1912|ref=fr._15
+3	’	’	r	r--------	_	15	AuxP	_	t_1900|t_1912|ref=fr._15
+4	οὗ	ὅς	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ADV	_	t_1901|t_1899|ref=fr._15
+5	Ὀρφεὺς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1902|t_1912|ref=fr._15
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1903|t_1902|ref=fr._15
+7	Οἰάγρου	οἴαγρος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1904|t_1905|ref=fr._15
+8	καὶ	καί	c	c--------	_	11	COORD	_	t_1905|t_1908|ref=fr._15
+9	Καλλιόπης	καλλιόπη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1906|t_1905|ref=fr._15
+10	〉	〉	a	a--------	_	11	ATR	_	t_1907|t_1908|ref=fr._15
+11	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1908|t_1902|ref=fr._15
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_1909|t_1911|ref=fr._15
+13	ἑαυτοῦ	ἑαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_1910|t_1911|ref=fr._15
+14	ποίησιν	ποίησις	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_1911|t_1912|ref=fr._15
+15	ἐξέθηκε	ἐκτίθημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1912|0|ref=fr._15
+16	,	,	u	u--------	_	15	APOS	_	t_1913|t_1912|ref=fr._15
+17	Κόρης	κόρη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_1914|t_1916|ref=fr._15
+18	τε	τε	d	d--------	_	23	AuxY	_	t_1915|t_1920|ref=fr._15
+19	ἁρπαγὴν	ἁρπαγή	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_1916|t_1920|ref=fr._15
+20	καὶ	καί	c	c--------	_	23	AuxY	_	t_1917|t_1920|ref=fr._15
+21	Δήμητρος	δημήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_1918|t_1919|ref=fr._15
+22	ζήτησιν	ζήτησις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_1919|t_1920|ref=fr._15
+23	καὶ	καί	c	c--------	_	16	COORD	_	t_1920|t_1913|ref=fr._15
+24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_1921|t_1926|ref=fr._15
+25	αὐτου	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	29	ATR	_	t_1922|t_1926|ref=fr._15
+26	〈	〈	d	d--------	_	27	AuxX	_	t_1923|t_1924|ref=fr._15
+27	ργηθέντα	ργέω	v	v-sappma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	29	ATR	_	t_1924|t_1926|ref=fr._15
+28	αὐτῆι	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	27	OBJ	_	t_1925|t_1924|ref=fr._15
+29	σπόρον	σπόρος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OBJ	_	t_1926|t_1920|ref=fr._15
+30	,	,	u	u--------	_	15	AuxX	_	t_1927|t_1912|ref=fr._15
+31	ὃν	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	32	OBJ	_	t_1928|t_1929|ref=fr._15
+32	ἐδίδαξε	διδάσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	29	ATR	_	t_1929|t_1926|ref=fr._15
+33	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	36	ATR	_	t_1930|t_1933|ref=fr._15
+34	πλῆ	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	32	SBJ	_	t_1931|t_1929|ref=fr._15
+35	〉	〉	n	n-s---na-	Case=a|Gender=n|Number=s	32	OBJ	_	t_1932|t_1929|ref=fr._15
+36	θος	θος	n	n-s---nn-	Case=n|Gender=n|Number=s	32	SBJ	_	t_1933|t_1929|ref=fr._15
+37	(	̔	u	u--------	_	38	AuxG	_	t_1934|t_1935|ref=fr._15
+38	?	?	u	u--------	_	15	AuxG	_	t_1935|t_1912|ref=fr._15
+39	)	)	u	u--------	_	15	AuxG	_	t_1936|t_1912|ref=fr._15
 
-# source = Orphica, fr._14-15
+# source = Orphica, fr._15
 # text = τῶν ὑποδεξαμένων τὸν καρπόν .
 # sent_id = 107
-1	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_1937|t_1938|ref=fr._14
-2	ὑποδεξαμένων	ὑποδέχομαι	v	v-papmmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	0	PRED	_	t_1938|0|ref=fr._14
+1	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_1937|t_1938|ref=fr._15
+2	ὑποδεξαμένων	ὑποδέχομαι	v	v-papmmg-	Case=g|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	0	PRED	_	t_1938|0|ref=fr._15
 3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1939|t_1940|ref=fr._15
 4	καρπόν	καρπός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1940|t_1938|ref=fr._15
 5	.	.	u	u--------	_	2	AuxK	_	t_1941|t_1938|ref=fr._15
@@ -2425,60 +2425,60 @@
 10	θʼ	τε	g	g--------	_	13	COORD	_	t_1951|e_44|ref=fr._15
 11	ὡς	ὡς	c	c--------	_	10	AuxC	_	t_1952|t_1951|ref=fr._15
 12	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ADV	_	t_1953|t_1952|ref=fr._15
-13	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=fr._2
+13	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=fr._15
 14	.	.	u	u--------	_	13	AuxK	_	t_1954|e_44|ref=fr._15
 
-# source = Orphica, fr._15
+# source = Orphica, fr._15a
 # text = 15ᵃ .
 # sent_id = 109
-1	15ᵃ	15a	i	i--------	_	0	ExD	_	t_1955|0|ref=fr._15
-2	.	.	u	u--------	_	1	AuxK	_	t_1956|t_1955|ref=fr._15
+1	15ᵃ	15a	i	i--------	_	0	ExD	_	t_1955|0|ref=fr._15a
+2	.	.	u	u--------	_	1	AuxK	_	t_1956|t_1955|ref=fr._15a
 
-# source = Orphica, fr._15-15a
+# source = Orphica, fr._15a
 # text = [ Ὀρφεὺς υἱὸς ἦν Οἰάγ ] ρου καὶ Καλλιόπης τῆς [ Μούσης , ὁ δὲ Μουσ ] ῶν βασιλεὺς Ἀπόλλων τού [ τωι ἐπέπνευσεν , ὅθεν ] ἔνθεος γενόμενος [ ἐποίησεν τοὺς ὕμνους , ] οὓς ὀλίγα Μουσαῖος ἐπα [ νορθώσας κατέγρ ] αψεν ·
 # sent_id = 110
-1	[	[	u	u--------	_	0	AuxG	_	t_1957|0|ref=fr._15
-2	Ὀρφεὺς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1958|t_1960|ref=fr._15
-3	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1959|t_1960|ref=fr._15
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	15	PRED	_	t_1960|t_1971|ref=fr._15
-5	Οἰάγ	οἰάγ	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1961|t_1964|ref=fr._15
-6	]	]	u	u--------	_	1	AuxG	_	t_1962|t_1957|ref=fr._15
-7	ρου	ρου	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1963|t_1961|ref=fr._15
-8	καὶ	καί	c	c--------	_	3	COORD	_	t_1964|t_1959|ref=fr._15
-9	Καλλιόπης	καλλιόπη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1965|t_1964|ref=fr._15
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1966|t_1968|ref=fr._15
-11	[	[	u	u--------	_	12	AuxX	_	t_1967|t_1968|ref=fr._15
-12	Μούσης	μοῦσαι	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1968|t_1965|ref=fr._15
-13	,	,	u	u--------	_	1	AuxX	_	t_1969|t_1957|ref=fr._15
-14	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	20	ATR	_	t_1970|t_1976|ref=fr._15
-15	δὲ	δέ	c	c--------	_	1	COORD	_	t_1971|t_1957|ref=fr._15
-16	Μουσ	μουσων	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_1972|t_1975|ref=fr._15
-17	]	]	u	u--------	_	16	ATR	_	t_1973|t_1972|ref=fr._15
-18	ῶν	ό	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_1974|t_1975|ref=fr._15
-19	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	20	ATR	_	t_1975|t_1976|ref=fr._15
-20	Ἀπόλλων	ἀπόλλων	n	n-s---mn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_1976|t_1980|ref=fr._15
-21	τού	ὁ	p	p-s---mg-	Case=g|Gender=m|Number=s	24	OBJ	_	t_1977|t_1980|ref=fr._15
-22	[	[	u	u--------	_	24	AuxX	_	t_1978|t_1980|ref=fr._15
-23	τωι	τις	d	d--------	Case=d|Gender=c|Number=s	24	ADV	_	t_1979|t_1980|ref=fr._15
-24	ἐπέπνευσεν	ἐπιπνέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_1980|t_1971|ref=fr._15
-25	,	,	u	u--------	_	1	AuxX	_	t_1981|t_1957|ref=fr._15
-26	ὅθεν	ὅθεν	d	d--------	_	31	ADV	_	t_1982|t_1987|ref=fr._15
-27	]	]	u	u--------	_	31	AuxX	_	t_1983|t_1987|ref=fr._15
-28	ἔνθεος	ἔνθεος	a	a-s---mn-	Case=n|Gender=m|Number=s	29	PNOM	_	t_1984|t_1985|ref=fr._15
-29	γενόμενος	γίγνομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	31	ADV	_	t_1985|t_1987|ref=fr._15
-30	[	[	u	u--------	_	31	AuxX	_	t_1986|t_1987|ref=fr._15
-31	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	21	ATR	_	t_1987|t_1977|ref=fr._15
-32	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	33	ATR	_	t_1988|t_1989|ref=fr._15
-33	ὕμνους	ὕμνος	n	n-p---ma-	Case=a|Gender=m|Number=p	31	OBJ	_	t_1989|t_1987|ref=fr._15
-34	,	,	u	u--------	_	1	AuxX	_	t_1990|t_1957|ref=fr._15
-35	]	]	u	u--------	_	31	AuxG	_	t_1991|t_1987|ref=fr._15
-36	οὓς	ὅς	p	p-p---ma-	Case=a|Gender=m|Number=p	44	OBJ	_	t_1992|t_2000|ref=fr._15
-37	ὀλίγα	ὀλίγος	a	a-p---na-	Case=a|Gender=n|Number=p	41	ADV	_	t_1993|t_1997|ref=fr._15
-38	Μουσαῖος	μουσαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	44	SBJ	_	t_1994|t_2000|ref=fr._15
-39	ἐπα	ἐπί	r	r--------	_	41	AuxP	_	t_1995|t_1997|ref=fr._15
-40	[	[	u	u--------	_	37	AuxX	_	t_1996|t_1993|ref=fr._15
-41	νορθώσας	νορθόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	44	ADV	_	t_1997|t_2000|ref=fr._15
-42	κατέγρ	κατάγημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	33	ATR	_	t_1998|t_1989|ref=fr._15
+1	[	[	u	u--------	_	0	AuxG	_	t_1957|0|ref=fr._15a
+2	Ὀρφεὺς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1958|t_1960|ref=fr._15a
+3	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1959|t_1960|ref=fr._15a
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	15	PRED	_	t_1960|t_1971|ref=fr._15a
+5	Οἰάγ	οἰάγ	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1961|t_1964|ref=fr._15a
+6	]	]	u	u--------	_	1	AuxG	_	t_1962|t_1957|ref=fr._15a
+7	ρου	ρου	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1963|t_1961|ref=fr._15a
+8	καὶ	καί	c	c--------	_	3	COORD	_	t_1964|t_1959|ref=fr._15a
+9	Καλλιόπης	καλλιόπη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1965|t_1964|ref=fr._15a
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1966|t_1968|ref=fr._15a
+11	[	[	u	u--------	_	12	AuxX	_	t_1967|t_1968|ref=fr._15a
+12	Μούσης	μοῦσαι	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1968|t_1965|ref=fr._15a
+13	,	,	u	u--------	_	1	AuxX	_	t_1969|t_1957|ref=fr._15a
+14	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	20	ATR	_	t_1970|t_1976|ref=fr._15a
+15	δὲ	δέ	c	c--------	_	1	COORD	_	t_1971|t_1957|ref=fr._15a
+16	Μουσ	μουσων	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_1972|t_1975|ref=fr._15a
+17	]	]	u	u--------	_	16	ATR	_	t_1973|t_1972|ref=fr._15a
+18	ῶν	ό	n	n-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_1974|t_1975|ref=fr._15a
+19	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	20	ATR	_	t_1975|t_1976|ref=fr._15a
+20	Ἀπόλλων	ἀπόλλων	n	n-s---mn-	Case=n|Gender=m|Number=s	24	SBJ	_	t_1976|t_1980|ref=fr._15a
+21	τού	ὁ	p	p-s---mg-	Case=g|Gender=m|Number=s	24	OBJ	_	t_1977|t_1980|ref=fr._15a
+22	[	[	u	u--------	_	24	AuxX	_	t_1978|t_1980|ref=fr._15a
+23	τωι	τις	d	d--------	Case=d|Gender=c|Number=s	24	ADV	_	t_1979|t_1980|ref=fr._15a
+24	ἐπέπνευσεν	ἐπιπνέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	15	PRED	_	t_1980|t_1971|ref=fr._15a
+25	,	,	u	u--------	_	1	AuxX	_	t_1981|t_1957|ref=fr._15a
+26	ὅθεν	ὅθεν	d	d--------	_	31	ADV	_	t_1982|t_1987|ref=fr._15a
+27	]	]	u	u--------	_	31	AuxX	_	t_1983|t_1987|ref=fr._15a
+28	ἔνθεος	ἔνθεος	a	a-s---mn-	Case=n|Gender=m|Number=s	29	PNOM	_	t_1984|t_1985|ref=fr._15a
+29	γενόμενος	γίγνομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	31	ADV	_	t_1985|t_1987|ref=fr._15a
+30	[	[	u	u--------	_	31	AuxX	_	t_1986|t_1987|ref=fr._15a
+31	ἐποίησεν	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	21	ATR	_	t_1987|t_1977|ref=fr._15a
+32	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	33	ATR	_	t_1988|t_1989|ref=fr._15a
+33	ὕμνους	ὕμνος	n	n-p---ma-	Case=a|Gender=m|Number=p	31	OBJ	_	t_1989|t_1987|ref=fr._15a
+34	,	,	u	u--------	_	1	AuxX	_	t_1990|t_1957|ref=fr._15a
+35	]	]	u	u--------	_	31	AuxG	_	t_1991|t_1987|ref=fr._15a
+36	οὓς	ὅς	p	p-p---ma-	Case=a|Gender=m|Number=p	44	OBJ	_	t_1992|t_2000|ref=fr._15a
+37	ὀλίγα	ὀλίγος	a	a-p---na-	Case=a|Gender=n|Number=p	41	ADV	_	t_1993|t_1997|ref=fr._15a
+38	Μουσαῖος	μουσαῖος	a	a-s---mn-	Case=n|Gender=m|Number=s	44	SBJ	_	t_1994|t_2000|ref=fr._15a
+39	ἐπα	ἐπί	r	r--------	_	41	AuxP	_	t_1995|t_1997|ref=fr._15a
+40	[	[	u	u--------	_	37	AuxX	_	t_1996|t_1993|ref=fr._15a
+41	νορθώσας	νορθόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	44	ADV	_	t_1997|t_2000|ref=fr._15a
+42	κατέγρ	κατάγημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	33	ATR	_	t_1998|t_1989|ref=fr._15a
 43	]	]	u	u--------	_	42	AuxX	_	t_1999|t_1998|ref=fr._15a
 44	αψεν	απτομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	33	ATR	_	t_2000|t_1989|ref=fr._15a
 45	·	·	u	u--------	_	1	AuxK	_	t_2001|t_1957|ref=fr._15a
@@ -2566,7 +2566,7 @@
 14	οἱ	ὁ	p	p-p---mn-	Case=n|Gender=m|Number=p	17	SBJ	_	t_2071|e_45|ref=fr._15a
 15	δὲ	δέ	c	c--------	_	0	COORD	_	t_2072|0|ref=fr._15a
 16	μητέρα	μήτηρ	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_2073|e_45|ref=fr._15a
-17	[0]	[0]	-	---------	_	15	PRED	_	e_45|t_2072|ref=fr._2
+17	[0]	[0]	-	---------	_	15	PRED	_	e_45|t_2072|ref=fr._15a
 18	·	·	u	u--------	_	15	AuxK	_	t_2074|t_2072|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2611,7 +2611,7 @@
 25	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	27	ATR	_	t_2107|t_2109|ref=fr._15a
 26	Ὀρφέως	ὀρφεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_2108|t_2109|ref=fr._15a
 27	ἐπῶν	ἔπος	n	n-p---ng-	Case=g|Gender=n|Number=p	24	PNOM	_	t_2109|t_2106|ref=fr._15a
-28	[0]	[0]	-	---------	_	10	ATR	_	e_46|t_2092|ref=fr._2
+28	[0]	[0]	-	---------	_	10	ATR	_	e_46|t_2092|ref=fr._15a
 29	.	.	u	u--------	_	1	AuxK	_	t_2110|t_2083|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2628,7 +2628,7 @@
 # text = 418 [0] .
 # sent_id = 117
 1	418	419	u	u--------	_	2	AuxG	_	t_2117|e_47|ref=fr._15a
-2	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=fr._2
+2	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=fr._15a
 3	.	.	u	u--------	_	2	AuxK	_	t_2118|e_47|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2638,7 +2638,7 @@
 2	-	-	x	x--------	_	5	AuxG	_	t_2120|e_48|ref=fr._15a
 3	423	422	x	x--------	_	5	AuxG	_	t_2121|e_48|ref=fr._15a
 4	.	.	u	u--------	_	5	AuxK	_	t_2122|e_48|ref=fr._15a
-5	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=fr._2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=fr._15a
 6	)	)	u	u--------	_	5	AuxG	_	t_2123|e_48|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2660,7 +2660,7 @@
 2	Pflücken	pflückή	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ExD	_	t_2129|e_49|ref=fr._15a
 3	des	ὁ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	4	ATR	_	t_2130|t_2131|ref=fr._15a
 4	Nar	nar	p	p-s---fa-	Case=n|Gender=f|Number=s	5	OBJ	_	t_2131|e_49|ref=fr._15a
-5	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=fr._2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=fr._15a
 6	.	.	u	u--------	_	5	AuxK	_	t_2132|e_49|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2692,7 +2692,7 @@
 13	Schweine	schweineς	n	n-s---fn-	Case=n|Gender=f|Number=s	2	ExD	_	t_2152|t_2141|ref=fr._15a
 14	(	̔	u	u--------	_	2	AuxG	_	t_2153|t_2141|ref=fr._15a
 15	?	?	u	u--------	_	2	AuxG	_	t_2154|t_2141|ref=fr._15a
-16	[0]	[0]	-	---------	_	2	PRED	_	e_50|t_2141|ref=fr._2
+16	[0]	[0]	-	---------	_	2	PRED	_	e_50|t_2141|ref=fr._15a
 17	)	)	u	u--------	_	2	AuxG	_	t_2155|t_2141|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2738,7 +2738,7 @@
 5	ὑπὲρ	ὑπέρ	r	r--------	_	4	AuxP	_	t_2181|t_2180|ref=fr._15a
 6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_2182|t_2183|ref=fr._15a
 7	θυγατρός	θυγάτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_2183|t_2181|ref=fr._15a
-8	[0]	[0]	-	---------	_	0	PRED	_	e_51|0|ref=fr._2
+8	[0]	[0]	-	---------	_	0	PRED	_	e_51|0|ref=fr._15a
 9	·	·	u	u--------	_	8	AuxK	_	t_2184|e_51|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2752,7 +2752,7 @@
 6	Δημωνάσσης	δημωνάσσης	n	n-s---fg-	Case=g|Gender=f|Number=s	5	SBJ	_	t_2190|t_2189|ref=fr._15a
 7	[	[	u	u--------	_	9	AuxG	_	t_2191|e_52|ref=fr._15a
 8	?	?	u	u--------	_	9	AuxG	_	t_2192|e_52|ref=fr._15a
-9	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=fr._2
+9	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=fr._15a
 10	]	]	u	u--------	_	9	AuxG	_	t_2193|e_52|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2821,7 +2821,7 @@
 # sent_id = 133
 1	8	8	x	x--------	_	3	AuxG	_	t_2239|e_53|ref=fr._15a
 2	ff	ff	x	x--------	_	3	ExD	_	t_2240|e_53|ref=fr._15a
-3	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=fr._2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=fr._15a
 4	.	.	u	u--------	_	3	AuxK	_	t_2241|e_53|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2852,7 +2852,7 @@
 3	Aidoneus	aidon	n	n-s---mn-	Case=n|Gender=m|Number=s	6	ExD	_	t_2252|e_54|ref=fr._15a
 4	=	=	u	u--------	_	6	AuxG	_	t_2253|e_54|ref=fr._15a
 5	Demeterh	demep	i	i--------	_	6	ExD	_	t_2254|e_54|ref=fr._15a
-6	[0]	[0]	-	---------	_	0	PRED	_	e_54|0|ref=fr._2
+6	[0]	[0]	-	---------	_	0	PRED	_	e_54|0|ref=fr._15a
 7	.	.	u	u--------	_	6	AuxK	_	t_2255|e_54|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2867,7 +2867,7 @@
 1	32	32	u	u--------	_	4	AuxG	_	t_2258|e_55|ref=fr._15a
 2	-	-	u	u--------	_	4	AuxK	_	t_2259|e_55|ref=fr._15a
 3	36	36	u	u--------	_	4	AuxG	_	t_2260|e_55|ref=fr._15a
-4	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=fr._2
+4	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=fr._15a
 5	.	.	u	u--------	_	4	AuxK	_	t_2261|e_55|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2932,7 +2932,7 @@
 7	(	̔	u	u--------	_	10	AuxG	_	t_2298|e_56|ref=fr._15a
 8	=	=	u	u--------	_	10	AuxG	_	t_2299|e_56|ref=fr._15a
 9	D	διά	n	n--------	_	10	AuxG	_	t_2300|e_56|ref=fr._15a
-10	[0]	[0]	-	---------	_	0	PRED	_	e_56|0|ref=fr._2
+10	[0]	[0]	-	---------	_	0	PRED	_	e_56|0|ref=fr._15a
 11	.	.	u	u--------	_	10	AuxK	_	t_2301|e_56|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2960,7 +2960,7 @@
 # sent_id = 149
 1	Darauf	ἐξελιγμός	d	d--------	_	3	AuxX	_	t_2310|e_57|ref=fr._15a
 2	Demeter	demeter	n	n-s---mv-	_	3	ExD	_	t_2311|e_57|ref=fr._15a
-3	[0]	[0]	-	---------	_	0	PRED	_	e_57|0|ref=fr._2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_57|0|ref=fr._15a
 4	:	:	u	u--------	_	3	AuxK	_	t_2312|e_57|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -2985,7 +2985,7 @@
 17	οὔ	οὐ	d	d--------	_	18	AuxY	_	t_2329|t_2330|ref=fr._15a
 18	τʼ	τε	c	c--------	_	16	COORD	_	t_2330|t_2328|ref=fr._15a
 19	ἀγαθοῖο	ἀγαθός	a	a-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_2331|t_2330|ref=fr._15a
-20	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=fr._2
+20	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=fr._15a
 21	.	.	u	u--------	_	20	AuxK	_	t_2332|e_58|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -3003,7 +3003,7 @@
 1	Dann	danιν	n	n--------	_	4	AuxG	_	t_2338|e_59|ref=fr._15a
 2	V.	v	x	x--------	_	4	AuxG	_	t_2339|e_59|ref=fr._15a
 3	263	263	x	x--------	_	4	AuxG	_	t_2340|e_59|ref=fr._15a
-4	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=fr._2
+4	[0]	[0]	-	---------	_	0	PRED	_	e_59|0|ref=fr._15a
 5	.	.	u	u--------	_	4	AuxK	_	t_2341|e_59|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -3091,7 +3091,7 @@
 6	,	,	u	u--------	_	9	COORD	_	t_2393|e_60|ref=fr._15a
 7	19	19	a	a--------	_	6	ExD	_	t_2394|t_2393|ref=fr._15a
 8	)	)	u	u--------	_	9	AuxG	_	t_2395|e_60|ref=fr._15a
-9	[0]	[0]	-	---------	_	0	PRED	_	e_60|0|ref=fr._2
+9	[0]	[0]	-	---------	_	0	PRED	_	e_60|0|ref=fr._15a
 10	.	.	u	u--------	_	9	AuxK	_	t_2396|e_60|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -3101,7 +3101,7 @@
 2	7	7	x	x--------	_	5	AuxG	_	t_2398|e_61|ref=fr._15a
 3	,	,	u	u--------	_	5	COORD	_	t_2399|e_61|ref=fr._15a
 4	20	2	x	x--------	_	3	APOS	_	t_2400|t_2399|ref=fr._15a
-5	[0]	[0]	-	---------	_	0	PRED	_	e_61|0|ref=fr._2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_61|0|ref=fr._15a
 6	:	:	u	u--------	_	5	AuxK	_	t_2401|e_61|ref=fr._15a
 
 # source = Orphica, fr._15a
@@ -3112,93 +3112,93 @@
 3	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2404|0|ref=fr._15a
 4	.	.	u	u--------	_	3	AuxK	_	t_2405|t_2404|ref=fr._15a
 
-# source = Orphica, fr._15a
+# source = Orphica, fr._16
 # text = 16 .
 # sent_id = 163
-1	16	16	x	x--------	_	0	AuxG	_	t_2406|0|ref=fr._15a
-2	.	.	u	u--------	_	1	AuxK	_	t_2407|t_2406|ref=fr._15a
+1	16	16	x	x--------	_	0	AuxG	_	t_2406|0|ref=fr._16
+2	.	.	u	u--------	_	1	AuxK	_	t_2407|t_2406|ref=fr._16
 
-# source = Orphica, fr._15a
+# source = Orphica, fr._16
 # text = ἀν δὲ καὶ Ὀρφεύς 495 λαιῆι ἀνασχόμενος κίθαριν πείραζεν ἀοιδῆς .
 # sent_id = 164
-1	ἀν	ἐν	r	r--------	_	9	AuxZ	_	t_2408|t_2416|ref=fr._15a
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_2409|0|ref=fr._15a
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_2410|t_2411|ref=fr._15a
-4	Ὀρφεύς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_2411|t_2416|ref=fr._15a
-5	495	495	r	r--------	_	9	ATR	_	t_2412|t_2416|ref=fr._15a
-6	λαιῆι	λαιός	n	n-s---md-	Case=d|Gender=f|Number=s	5	ATR	_	t_2413|t_2412|ref=fr._15a
-7	ἀνασχόμενος	ἀνέχω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	9	ADV	_	t_2414|t_2416|ref=fr._15a
-8	κίθαριν	κίθαρις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2415|t_2416|ref=fr._15a
-9	πείραζεν	πειράζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_2416|t_2409|ref=fr._15a
-10	ἀοιδῆς	ἀοιδή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_2417|t_2415|ref=fr._15a
-11	.	.	u	u--------	_	2	AuxK	_	t_2418|t_2409|ref=fr._15a
+1	ἀν	ἐν	r	r--------	_	9	AuxZ	_	t_2408|t_2416|ref=fr._16
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_2409|0|ref=fr._16
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_2410|t_2411|ref=fr._16
+4	Ὀρφεύς	ὀρφεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_2411|t_2416|ref=fr._16
+5	495	495	r	r--------	_	9	ATR	_	t_2412|t_2416|ref=fr._16
+6	λαιῆι	λαιός	n	n-s---md-	Case=d|Gender=f|Number=s	5	ATR	_	t_2413|t_2412|ref=fr._16
+7	ἀνασχόμενος	ἀνέχω	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	9	ADV	_	t_2414|t_2416|ref=fr._16
+8	κίθαριν	κίθαρις	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_2415|t_2416|ref=fr._16
+9	πείραζεν	πειράζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_2416|t_2409|ref=fr._16
+10	ἀοιδῆς	ἀοιδή	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_2417|t_2415|ref=fr._16
+11	.	.	u	u--------	_	2	AuxK	_	t_2418|t_2409|ref=fr._16
 
-# source = Orphica, fr._15a
+# source = Orphica, fr._16
 # text = ἤειδεν δʼ ὡς γαῖα καὶ οὐρανὸς ἠδὲ θάλασσα τὸ πρὶν ἐπʼ ἀλλήλοισι μιῆι συναρηρότα μορφῆι νείκεος ἐξ ὀλοοῖο διέκριθεν ἀμφὶς ἕκαστα ·
 # sent_id = 165
-1	ἤειδεν	ἀείδω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_2419|t_2420|ref=fr._15a
-2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2420|0|ref=fr._15a
-3	ὡς	ὡς	c	c--------	_	1	AuxC	_	t_2421|t_2419|ref=fr._15a
-4	γαῖα	γαῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_2422|t_2425|ref=fr._15a
-5	καὶ	καί	c	c--------	_	7	AuxY	_	t_2423|t_2425|ref=fr._15a
-6	οὐρανὸς	οὐρανός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_2424|t_2425|ref=fr._15a
-7	ἠδὲ	ἠδέ	c	c--------	_	19	COORD	_	t_2425|t_2437|ref=fr._15a
-8	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_2426|t_2425|ref=fr._15a
-9	τὸ	ὁ	l	l--------	_	10	ATR	_	t_2427|t_2428|ref=fr._15a
-10	πρὶν	πρίν	d	d--------	_	19	ADV	_	t_2428|t_2437|ref=fr._15a
-11	ἐπʼ	ἐπί	r	r--------	_	14	AuxP	_	t_2429|t_2432|ref=fr._15a
-12	ἀλλήλοισι	ἀλλήλων	a	a-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_2430|t_2429|ref=fr._15a
-13	μιῆι	εἷς	a	a-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_2431|t_2433|ref=fr._15a
-14	συναρηρότα	συναραρίσκω	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	19	ADV	_	t_2432|t_2437|ref=fr._15a
-15	μορφῆι	μορφή	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_2433|t_2432|ref=fr._15a
-16	νείκεος	νεῖκος	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_2434|t_2435|ref=fr._15a
-17	ἐξ	ἐκ	r	r--------	_	19	AuxP	_	t_2435|t_2437|ref=fr._15a
-18	ὀλοοῖο	ὀλοός	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_2436|t_2434|ref=fr._15a
-19	διέκριθεν	διακρίνω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	3	OBJ	_	t_2437|t_2421|ref=fr._15a
-20	ἀμφὶς	ἀμφίς	d	d--------	_	19	ADV	_	t_2438|t_2437|ref=fr._15a
-21	ἕκαστα	ἕκαστος	a	a-p---na-	Case=a|Gender=n|Number=p	19	SBJ	_	t_2439|t_2437|ref=fr._15a
-22	·	·	u	u--------	_	2	AuxK	_	t_2440|t_2420|ref=fr._15a
+1	ἤειδεν	ἀείδω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_2419|t_2420|ref=fr._16
+2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2420|0|ref=fr._16
+3	ὡς	ὡς	c	c--------	_	1	AuxC	_	t_2421|t_2419|ref=fr._16
+4	γαῖα	γαῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_2422|t_2425|ref=fr._16
+5	καὶ	καί	c	c--------	_	7	AuxY	_	t_2423|t_2425|ref=fr._16
+6	οὐρανὸς	οὐρανός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_2424|t_2425|ref=fr._16
+7	ἠδὲ	ἠδέ	c	c--------	_	19	COORD	_	t_2425|t_2437|ref=fr._16
+8	θάλασσα	θάλασσα	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_2426|t_2425|ref=fr._16
+9	τὸ	ὁ	l	l--------	_	10	ATR	_	t_2427|t_2428|ref=fr._16
+10	πρὶν	πρίν	d	d--------	_	19	ADV	_	t_2428|t_2437|ref=fr._16
+11	ἐπʼ	ἐπί	r	r--------	_	14	AuxP	_	t_2429|t_2432|ref=fr._16
+12	ἀλλήλοισι	ἀλλήλων	a	a-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_2430|t_2429|ref=fr._16
+13	μιῆι	εἷς	a	a-s---fd-	Case=d|Gender=f|Number=s	15	ATR	_	t_2431|t_2433|ref=fr._16
+14	συναρηρότα	συναραρίσκω	v	v-srpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	19	ADV	_	t_2432|t_2437|ref=fr._16
+15	μορφῆι	μορφή	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_2433|t_2432|ref=fr._16
+16	νείκεος	νεῖκος	n	n-s---fg-	Case=g|Gender=f|Number=s	17	ADV	_	t_2434|t_2435|ref=fr._16
+17	ἐξ	ἐκ	r	r--------	_	19	AuxP	_	t_2435|t_2437|ref=fr._16
+18	ὀλοοῖο	ὀλοός	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_2436|t_2434|ref=fr._16
+19	διέκριθεν	διακρίνω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	3	OBJ	_	t_2437|t_2421|ref=fr._16
+20	ἀμφὶς	ἀμφίς	d	d--------	_	19	ADV	_	t_2438|t_2437|ref=fr._16
+21	ἕκαστα	ἕκαστος	a	a-p---na-	Case=a|Gender=n|Number=p	19	SBJ	_	t_2439|t_2437|ref=fr._16
+22	·	·	u	u--------	_	2	AuxK	_	t_2440|t_2420|ref=fr._16
 
-# source = Orphica, fr._15a
+# source = Orphica, fr._16
 # text = ἠδ ’ ὡς ἔμπεδον αἰὲν ἐν αἰθέρι τέκμαρ ἔχουσιν 500 ἄστρα σεληναίη τε καὶ ἠελίοιο κέλευθοι ·
 # sent_id = 166
-1	ἠδ	ἠδέ	c	c--------	_	2	COORD	_	t_2441|t_2442|ref=fr._15a
-2	’	’	c	c--------	_	0	COORD	_	t_2442|0|ref=fr._15a
-3	ὡς	ὡς	c	c--------	_	1	AuxZ	_	t_2443|t_2441|ref=fr._15a
-4	ἔμπεδον	ἔμπεδος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_2444|t_2449|ref=fr._15a
-5	αἰὲν	ἀεί	d	d--------	_	9	ADV	_	t_2445|t_2449|ref=fr._15a
-6	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_2446|t_2449|ref=fr._15a
-7	αἰθέρι	αἰθήρ	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_2447|t_2446|ref=fr._15a
-8	τέκμαρ	τέκμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_2448|t_2449|ref=fr._15a
-9	ἔχουσιν	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	OBJ	_	t_2449|t_2443|ref=fr._15a
-10	500	500	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_2450|t_2451|ref=fr._15a
-11	ἄστρα	ἄστρον	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_2451|t_2454|ref=fr._15a
-12	σεληναίη	σεληναῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_2452|t_2454|ref=fr._15a
-13	τε	τε	g	g--------	_	14	AuxY	_	t_2453|t_2454|ref=fr._15a
-14	καὶ	καί	c	c--------	_	9	COORD	_	t_2454|t_2449|ref=fr._15a
-15	ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_2455|t_2456|ref=fr._15a
-16	κέλευθοι	κέλευθος	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_2456|t_2454|ref=fr._15a
-17	·	·	u	u--------	_	1	AuxK	_	t_2457|t_2441|ref=fr._15a
+1	ἠδ	ἠδέ	c	c--------	_	2	COORD	_	t_2441|t_2442|ref=fr._16
+2	’	’	c	c--------	_	0	COORD	_	t_2442|0|ref=fr._16
+3	ὡς	ὡς	c	c--------	_	1	AuxZ	_	t_2443|t_2441|ref=fr._16
+4	ἔμπεδον	ἔμπεδος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_2444|t_2449|ref=fr._16
+5	αἰὲν	ἀεί	d	d--------	_	9	ADV	_	t_2445|t_2449|ref=fr._16
+6	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_2446|t_2449|ref=fr._16
+7	αἰθέρι	αἰθήρ	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_2447|t_2446|ref=fr._16
+8	τέκμαρ	τέκμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_2448|t_2449|ref=fr._16
+9	ἔχουσιν	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	OBJ	_	t_2449|t_2443|ref=fr._16
+10	500	500	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_2450|t_2451|ref=fr._16
+11	ἄστρα	ἄστρον	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_2451|t_2454|ref=fr._16
+12	σεληναίη	σεληναῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_2452|t_2454|ref=fr._16
+13	τε	τε	g	g--------	_	14	AuxY	_	t_2453|t_2454|ref=fr._16
+14	καὶ	καί	c	c--------	_	9	COORD	_	t_2454|t_2449|ref=fr._16
+15	ἠελίοιο	ἠέλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_2455|t_2456|ref=fr._16
+16	κέλευθοι	κέλευθος	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_2456|t_2454|ref=fr._16
+17	·	·	u	u--------	_	1	AuxK	_	t_2457|t_2441|ref=fr._16
 
-# source = Orphica, fr._15a-16
+# source = Orphica, fr._16
 # text = οὔρεά θʼ ὡς ἀνέτειλε , καὶ ὡς ποταμοὶ κελάδοντες αὐτῆισιν νύμφηισι καὶ ἑρπετὰ πάντʼ ἐγένοντο [0] .
 # sent_id = 167
-1	οὔρεά	ὄρος	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_2458|t_2461|ref=fr._15a
-2	θʼ	τε	g	g--------	_	6	AuxY	_	t_2459|t_2463|ref=fr._15a
-3	ὡς	ὡς	d	d--------	_	4	ADV	_	t_2460|t_2461|ref=fr._15a
-4	ἀνέτειλε	ἀνατέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_2461|t_2463|ref=fr._15a
-5	,	,	u	u--------	_	6	AuxX	_	t_2462|t_2463|ref=fr._15a
-6	καὶ	καί	c	c--------	_	16	COORD	_	t_2463|e_62|ref=fr._15a
-7	ὡς	ὡς	c	c--------	_	6	AuxC	_	t_2464|t_2463|ref=fr._15a
-8	ποταμοὶ	ποταμός	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_2465|t_2472|ref=fr._15a
-9	κελάδοντες	κελάδω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	15	ADV	_	t_2466|t_2472|ref=fr._15a
+1	οὔρεά	ὄρος	n	n-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_2458|t_2461|ref=fr._16
+2	θʼ	τε	g	g--------	_	6	AuxY	_	t_2459|t_2463|ref=fr._16
+3	ὡς	ὡς	d	d--------	_	4	ADV	_	t_2460|t_2461|ref=fr._16
+4	ἀνέτειλε	ἀνατέλλω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_2461|t_2463|ref=fr._16
+5	,	,	u	u--------	_	6	AuxX	_	t_2462|t_2463|ref=fr._16
+6	καὶ	καί	c	c--------	_	16	COORD	_	t_2463|e_62|ref=fr._16
+7	ὡς	ὡς	c	c--------	_	6	AuxC	_	t_2464|t_2463|ref=fr._16
+8	ποταμοὶ	ποταμός	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_2465|t_2472|ref=fr._16
+9	κελάδοντες	κελάδω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	15	ADV	_	t_2466|t_2472|ref=fr._16
 10	αὐτῆισιν	αὐτός	a	a-p---fd-	Case=d|Gender=f|Number=p	11	ATR	_	t_2467|t_2468|ref=fr._16
 11	νύμφηισι	νύμφη	n	n-p---fd-	Case=d|Gender=f|Number=p	9	OBJ	_	t_2468|t_2466|ref=fr._16
 12	καὶ	καί	c	c--------	_	15	COORD	_	t_2469|t_2472|ref=fr._16
 13	ἑρπετὰ	ἑρπετόν	n	n-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_2470|t_2472|ref=fr._16
 14	πάντʼ	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	13	ATR	_	t_2471|t_2470|ref=fr._16
 15	ἐγένοντο	γίγνομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	6	PRED	_	t_2472|t_2463|ref=fr._16
-16	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=fr._2
+16	[0]	[0]	-	---------	_	0	PRED	_	e_62|0|ref=fr._16
 17	.	.	u	u--------	_	16	AuxK	_	t_2473|e_62|ref=fr._16
 
 # source = Orphica, fr._16
@@ -3242,7 +3242,7 @@
 19	ἐνὶ	ἐν	r	r--------	_	17	AuxP	_	t_2505|t_2503|ref=fr._16
 20	κύμασιν	κῦμα	n	n-p---nd-	Case=d|Gender=n|Number=p	19	OBJ	_	t_2506|t_2505|ref=fr._16
 21	Ὠκεανοῖο	ὠκεανός	n	n-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_2507|t_2506|ref=fr._16
-22	[0]	[0]	-	---------	_	18	ADV	_	e_63|t_2504|ref=fr._2
+22	[0]	[0]	-	---------	_	18	ADV	_	e_63|t_2504|ref=fr._16
 23	·	·	u	u--------	_	1	AuxK	_	t_2508|t_2487|ref=fr._16
 
 # source = Orphica, fr._16
@@ -3295,103 +3295,103 @@
 5	ὀπάζει	ὀπάζω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2549|0|ref=fr._16
 6	.	.	u	u--------	_	5	AuxK	_	t_2550|t_2549|ref=fr._16
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = 17 .
 # sent_id = 172
-1	17	17	x	x--------	_	0	AuxG	_	t_2551|0|ref=fr._16
-2	.	.	u	u--------	_	1	AuxK	_	t_2552|t_2551|ref=fr._16
+1	17	17	x	x--------	_	0	AuxG	_	t_2551|0|ref=fr._17
+2	.	.	u	u--------	_	1	AuxK	_	t_2552|t_2551|ref=fr._17
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = εὑρήσσεις δʼ Ἀίδαο δόμων ἐπʼ ἀριστερὰ κρήνην , παρ ’ δʼ αὐτῆι λευκὴν ἑστηκυῖαν κυπάρισσον [0] ·
 # sent_id = 173
-1	εὑρήσσεις	εὑρίσκω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	11	PRED	_	t_2553|t_2563|ref=fr._16
-2	δʼ	δέ	g	g--------	_	11	AuxY	_	t_2554|t_2563|ref=fr._16
-3	Ἀίδαο	ᾅδης	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2555|t_2556|ref=fr._16
-4	δόμων	δόμος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ADV	_	t_2556|t_2558|ref=fr._16
-5	ἐπʼ	ἐπί	r	r--------	_	1	AuxP	_	t_2557|t_2553|ref=fr._16
-6	ἀριστερὰ	ἀριστερός	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_2558|t_2559|ref=fr._16
-7	κρήνην	κρήνη	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_2559|t_2557|ref=fr._16
-8	,	,	u	u--------	_	11	AuxX	_	t_2560|t_2563|ref=fr._16
-9	παρ	παρά	r	r--------	_	14	AuxP	_	t_2561|t_2566|ref=fr._16
-10	’	’	r	r--------	_	11	AuxP	_	t_2562|t_2563|ref=fr._16
-11	δʼ	δέ	g	g--------	_	0	COORD	_	t_2563|0|ref=fr._16
-12	αὐτῆι	αὐτός	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_2564|t_2561|ref=fr._16
-13	λευκὴν	λευκός	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_2565|t_2567|ref=fr._16
-14	ἑστηκυῖαν	ἵστημι	v	v-srpafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	15	ATR	_	t_2566|t_2567|ref=fr._16
-15	κυπάρισσον	κυπάρισσος	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_2567|e_64|ref=fr._16
-16	[0]	[0]	-	---------	_	1	APOS	_	e_64|t_2553|ref=fr._2
-17	·	·	u	u--------	_	11	AuxK	_	t_2568|t_2563|ref=fr._16
+1	εὑρήσσεις	εὑρίσκω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	11	PRED	_	t_2553|t_2563|ref=fr._17
+2	δʼ	δέ	g	g--------	_	11	AuxY	_	t_2554|t_2563|ref=fr._17
+3	Ἀίδαο	ᾅδης	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2555|t_2556|ref=fr._17
+4	δόμων	δόμος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ADV	_	t_2556|t_2558|ref=fr._17
+5	ἐπʼ	ἐπί	r	r--------	_	1	AuxP	_	t_2557|t_2553|ref=fr._17
+6	ἀριστερὰ	ἀριστερός	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_2558|t_2559|ref=fr._17
+7	κρήνην	κρήνη	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_2559|t_2557|ref=fr._17
+8	,	,	u	u--------	_	11	AuxX	_	t_2560|t_2563|ref=fr._17
+9	παρ	παρά	r	r--------	_	14	AuxP	_	t_2561|t_2566|ref=fr._17
+10	’	’	r	r--------	_	11	AuxP	_	t_2562|t_2563|ref=fr._17
+11	δʼ	δέ	g	g--------	_	0	COORD	_	t_2563|0|ref=fr._17
+12	αὐτῆι	αὐτός	a	a-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_2564|t_2561|ref=fr._17
+13	λευκὴν	λευκός	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_2565|t_2567|ref=fr._17
+14	ἑστηκυῖαν	ἵστημι	v	v-srpafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	15	ATR	_	t_2566|t_2567|ref=fr._17
+15	κυπάρισσον	κυπάρισσος	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_2567|e_64|ref=fr._17
+16	[0]	[0]	-	---------	_	1	APOS	_	e_64|t_2553|ref=fr._17
+17	·	·	u	u--------	_	11	AuxK	_	t_2568|t_2563|ref=fr._17
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = ταύτης τῆς κρήνης μη δὲ σχεδὸν ἐμπελάσειας [0] .
 # sent_id = 174
-1	ταύτης	οὗτος	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_2569|t_2571|ref=fr._16
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_2570|t_2571|ref=fr._16
-3	κρήνης	κρήνη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	OBJ	_	t_2571|t_2575|ref=fr._16
-4	μη	μη	g	g--------	_	7	AuxZ	_	t_2572|t_2575|ref=fr._16
-5	δὲ	δέ	g	g--------	_	7	AuxZ	_	t_2573|t_2575|ref=fr._16
-6	σχεδὸν	σχεδόν	d	d--------	_	7	ADV	_	t_2574|t_2575|ref=fr._16
-7	ἐμπελάσειας	ἐμπελάζω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	0	PRED	_	t_2575|0|ref=fr._16
-8	[0]	[0]	-	---------	_	7	OBJ	_	e_65|t_2575|ref=fr._2
-9	.	.	u	u--------	_	7	AuxK	_	t_2576|t_2575|ref=fr._16
+1	ταύτης	οὗτος	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_2569|t_2571|ref=fr._17
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_2570|t_2571|ref=fr._17
+3	κρήνης	κρήνη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	OBJ	_	t_2571|t_2575|ref=fr._17
+4	μη	μη	g	g--------	_	7	AuxZ	_	t_2572|t_2575|ref=fr._17
+5	δὲ	δέ	g	g--------	_	7	AuxZ	_	t_2573|t_2575|ref=fr._17
+6	σχεδὸν	σχεδόν	d	d--------	_	7	ADV	_	t_2574|t_2575|ref=fr._17
+7	ἐμπελάσειας	ἐμπελάζω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	0	PRED	_	t_2575|0|ref=fr._17
+8	[0]	[0]	-	---------	_	7	OBJ	_	e_65|t_2575|ref=fr._17
+9	.	.	u	u--------	_	7	AuxK	_	t_2576|t_2575|ref=fr._17
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = εὑρήσεις δʼ ἑτέραν , τῆς Μνημοσύνης ἀπὸ λίμνης 5ψυχρὸν ὕδωρ προρέον ·
 # sent_id = 175
-1	εὑρήσεις	εὑρίσκω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_2577|0|ref=fr._16
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_2578|t_2577|ref=fr._16
-3	ἑτέραν	ἕτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_2579|t_2577|ref=fr._16
-4	,	,	u	u--------	_	1	AuxX	_	t_2580|t_2577|ref=fr._16
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_2581|t_2582|ref=fr._16
-6	Μνημοσύνης	μνημοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_2582|t_2584|ref=fr._16
-7	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_2583|t_2587|ref=fr._16
-8	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_2584|t_2583|ref=fr._16
-9	5ψυχρὸν	5ψυχρός	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_2585|t_2586|ref=fr._16
-10	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_2586|t_2587|ref=fr._16
-11	προρέον	προρέω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_2587|t_2579|ref=fr._16
-12	·	·	u	u--------	_	2	AuxK	_	t_2588|t_2578|ref=fr._16
+1	εὑρήσεις	εὑρίσκω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_2577|0|ref=fr._17
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_2578|t_2577|ref=fr._17
+3	ἑτέραν	ἕτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_2579|t_2577|ref=fr._17
+4	,	,	u	u--------	_	1	AuxX	_	t_2580|t_2577|ref=fr._17
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_2581|t_2582|ref=fr._17
+6	Μνημοσύνης	μνημοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_2582|t_2584|ref=fr._17
+7	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_2583|t_2587|ref=fr._17
+8	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_2584|t_2583|ref=fr._17
+9	5ψυχρὸν	5ψυχρός	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_2585|t_2586|ref=fr._17
+10	ὕδωρ	ὕδωρ	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_2586|t_2587|ref=fr._17
+11	προρέον	προρέω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_2587|t_2579|ref=fr._17
+12	·	·	u	u--------	_	2	AuxK	_	t_2588|t_2578|ref=fr._17
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = φύλακες δʼ ἐπίπροσθεν ἔασιν εἰπεῖν ·
 # sent_id = 176
-1	φύλακες	φύλαξ	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_2589|t_2592|ref=fr._16
-2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2590|0|ref=fr._16
-3	ἐπίπροσθεν	ἐπίπροσθεν	d	d--------	_	4	ADV	_	t_2591|t_2592|ref=fr._16
-4	ἔασιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	PRED	_	t_2592|t_2590|ref=fr._16
-5	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_2593|t_2592|ref=fr._16
-6	·	·	u	u--------	_	2	AuxK	_	t_2594|t_2590|ref=fr._16
+1	φύλακες	φύλαξ	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_2589|t_2592|ref=fr._17
+2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2590|0|ref=fr._17
+3	ἐπίπροσθεν	ἐπίπροσθεν	d	d--------	_	4	ADV	_	t_2591|t_2592|ref=fr._17
+4	ἔασιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	2	PRED	_	t_2592|t_2590|ref=fr._17
+5	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_2593|t_2592|ref=fr._17
+6	·	·	u	u--------	_	2	AuxK	_	t_2594|t_2590|ref=fr._17
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = Γῆς παῖς εἰμι καὶ Οὐρανοῦ ἀστερόεντος , αὐτὰρ ἐμοὶ γένος οὐράνιον [0] ·
 # sent_id = 177
-1	Γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_2595|t_2598|ref=fr._16
-2	παῖς	παῖς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_2596|t_2597|ref=fr._16
-3	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	8	PRED	_	t_2597|t_2602|ref=fr._16
-4	καὶ	καί	c	c--------	_	2	COORD	_	t_2598|t_2596|ref=fr._16
-5	Οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2599|t_2598|ref=fr._16
-6	ἀστερόεντος	ἀστερόεις	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_2600|t_2599|ref=fr._16
-7	,	,	u	u--------	_	8	AuxX	_	t_2601|t_2602|ref=fr._16
-8	αὐτὰρ	ἀτάρ	g	g--------	_	0	COORD	_	t_2602|0|ref=fr._16
-9	ἐμοὶ	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_2603|e_66|ref=fr._16
-10	γένος	γένος	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_2604|e_66|ref=fr._16
-11	οὐράνιον	οὐράνιος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_2605|t_2604|ref=fr._16
-12	[0]	[0]	-	---------	_	8	PRED	_	e_66|t_2602|ref=fr._2
-13	·	·	u	u--------	_	8	AuxK	_	t_2606|t_2602|ref=fr._16
+1	Γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_2595|t_2598|ref=fr._17
+2	παῖς	παῖς	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_2596|t_2597|ref=fr._17
+3	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	8	PRED	_	t_2597|t_2602|ref=fr._17
+4	καὶ	καί	c	c--------	_	2	COORD	_	t_2598|t_2596|ref=fr._17
+5	Οὐρανοῦ	οὐρανός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2599|t_2598|ref=fr._17
+6	ἀστερόεντος	ἀστερόεις	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_2600|t_2599|ref=fr._17
+7	,	,	u	u--------	_	8	AuxX	_	t_2601|t_2602|ref=fr._17
+8	αὐτὰρ	ἀτάρ	g	g--------	_	0	COORD	_	t_2602|0|ref=fr._17
+9	ἐμοὶ	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_2603|e_66|ref=fr._17
+10	γένος	γένος	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_2604|e_66|ref=fr._17
+11	οὐράνιον	οὐράνιος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_2605|t_2604|ref=fr._17
+12	[0]	[0]	-	---------	_	8	PRED	_	e_66|t_2602|ref=fr._17
+13	·	·	u	u--------	_	8	AuxK	_	t_2606|t_2602|ref=fr._17
 
-# source = Orphica, fr._16
+# source = Orphica, fr._17
 # text = τόδε δʼ ἴστε καὶ αὐτοί ·
 # sent_id = 178
-1	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_2607|t_2609|ref=fr._16
-2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_2608|t_2609|ref=fr._16
-3	ἴστε	οἶδα	v	v2prma---	Mood=m|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_2609|0|ref=fr._16
-4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_2610|t_2611|ref=fr._16
-5	αὐτοί	αὐτός	p	p-p---mn-	Case=n|Gender=m|Number=p	3	AtvV	_	t_2611|t_2609|ref=fr._16
-6	·	·	u	u--------	_	3	AuxK	_	t_2612|t_2609|ref=fr._16
+1	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_2607|t_2609|ref=fr._17
+2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_2608|t_2609|ref=fr._17
+3	ἴστε	οἶδα	v	v2prma---	Mood=m|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_2609|0|ref=fr._17
+4	καὶ	καί	d	d--------	_	5	AuxZ	_	t_2610|t_2611|ref=fr._17
+5	αὐτοί	αὐτός	p	p-p---mn-	Case=n|Gender=m|Number=p	3	AtvV	_	t_2611|t_2609|ref=fr._17
+6	·	·	u	u--------	_	3	AuxK	_	t_2612|t_2609|ref=fr._17
 
-# source = Orphica, fr._16-17
+# source = Orphica, fr._17
 # text = δίψηι δʼ εἰμ ( ὶ ) αὔη καὶ ἀπόλλυμαι ·
 # sent_id = 179
-1	δίψηι	δίψα	n	n-p---fn-	Case=n|Gender=f|Number=p	3	PNOM	_	t_2613|t_2615|ref=fr._16
+1	δίψηι	δίψα	n	n-p---fn-	Case=n|Gender=f|Number=p	3	PNOM	_	t_2613|t_2615|ref=fr._17
 2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2614|0|ref=fr._17
 3	εἰμ	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	8	PRED	_	t_2615|t_2620|ref=fr._17
 4	(	̔	u	u--------	_	3	AuxG	_	t_2616|t_2615|ref=fr._17
@@ -3413,7 +3413,7 @@
 6	προρέον	προρέω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_2628|t_2627|ref=fr._17
 7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_2629|t_2630|ref=fr._17
 8	Μνημοσύνης	μνημοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_2630|t_2632|ref=fr._17
-9	ἀπὸ	ἀπό	r	r--------	_	2	AuxP	_	t_2631|t_2624|ref=fr._16
+9	ἀπὸ	ἀπό	r	r--------	_	2	AuxP	_	t_2631|t_2624|ref=fr._17
 10	λίμνης	λίμνη	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_2632|t_2631|ref=fr._17
 11	.	.	u	u--------	_	2	AuxK	_	t_2633|t_2624|ref=fr._17
 
@@ -3426,7 +3426,7 @@
 4	τοί	τοι	p	p-s----d-	_	8	OBJ	_	t_2637|t_2641|ref=fr._17
 5	σο	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	9	OBJ	_	t_2638|t_2642|ref=fr._17
 6	〉	〉	u	u--------	_	4	AuxX	_	t_2639|t_2637|ref=fr._17
-7	ι	ι	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_2640|t_2641|ref=fr._16
+7	ι	ι	p	p-s---md-	Case=d|Gender=m|Number=s	8	OBJ	_	t_2640|t_2641|ref=fr._17
 8	δώσουσι	δίδωμι	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	18	PRED	_	t_2641|t_2651|ref=fr._17
 9	πιεῖν	πίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	8	OBJ	_	t_2642|t_2641|ref=fr._17
 10	θείης	τίθημι	a	a-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_2643|t_2647|ref=fr._17
@@ -3451,150 +3451,150 @@
 29	ἀνάξεις	ἀνάγω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	18	PRED	_	t_2662|t_2651|ref=fr._17
 30	.	.	u	u--------	_	1	AuxK	_	t_2663|t_2634|ref=fr._17
 
-# source = Orphica, fr._17
+# source = Orphica, fr._17a
 # text = 17ᵃ .
 # sent_id = 182
-1	17ᵃ	17a	i	i--------	_	0	ExD	_	t_2664|0|ref=fr._17
-2	.	.	u	u--------	_	1	AuxK	_	t_2665|t_2664|ref=fr._17
+1	17ᵃ	17a	i	i--------	_	0	ExD	_	t_2664|0|ref=fr._17a
+2	.	.	u	u--------	_	1	AuxK	_	t_2665|t_2664|ref=fr._17a
 
-# source = Orphica, fr._17-16
+# source = Orphica, fr._17a
 # text = δίψαι αὖος ἐγὼ καὶ ἀπόλλυμαι ·
 # sent_id = 183
-1	δίψαι	δίψα	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	4	PRED	_	t_2666|t_2669|ref=fr._17
-2	αὖος	αὖος	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_2667|t_2666|ref=fr._17
-3	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_2668|t_2669|ref=fr._17
-4	καὶ	καί	c	c--------	_	0	COORD	_	t_2669|0|ref=fr._17
-5	ἀπόλλυμαι	ἀπόλλυμι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	4	PRED	_	t_2670|t_2669|ref=fr._17
-6	·	·	u	u--------	_	4	AuxK	_	t_2671|t_2669|ref=fr._16
+1	δίψαι	δίψα	v	v2samm---	Mood=m|Number=s|Person=2|Tense=a|Voice=m	4	PRED	_	t_2666|t_2669|ref=fr._17a
+2	αὖος	αὖος	n	n-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_2667|t_2666|ref=fr._17a
+3	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_2668|t_2669|ref=fr._17a
+4	καὶ	καί	c	c--------	_	0	COORD	_	t_2669|0|ref=fr._17a
+5	ἀπόλλυμαι	ἀπόλλυμι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	4	PRED	_	t_2670|t_2669|ref=fr._17a
+6	·	·	u	u--------	_	4	AuxK	_	t_2671|t_2669|ref=fr._17a
 
-# source = Orphica, fr._17
+# source = Orphica, fr._17a
 # text = ἀλλὰ πιέμ 〈 μ 〉 οι κράνας αἰενάω ἐπὶ δεξιά , τῆ κυφάρισσος .
 # sent_id = 184
-1	ἀλλὰ	ἀλλά	c	c--------	_	2	AuxY	_	t_2672|t_2673|ref=fr._17
-2	πιέμ	πίμπρημι	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	3	OBJ	_	t_2673|t_2674|ref=fr._17
-3	〈	〈	u	u--------	Mood=i|Number=p|Person=3|Tense=i|Voice=e	0	PRED	_	t_2674|0|ref=fr._17
-4	μ	μ	p	p-s---ma-	Case=a|Gender=f|Number=s	2	OBJ	_	t_2675|t_2673|ref=fr._17
-5	〉	〉	p	p-s---ma-	Case=a|Gender=f|Number=s	2	OBJ	_	t_2676|t_2673|ref=fr._17
-6	οι	οι	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_2677|t_2678|ref=fr._17
-7	κράνας	κράνη	n	n-p---fn-	Case=a|Gender=f|Number=p	2	SBJ	_	t_2678|t_2673|ref=fr._17
-8	αἰενάω	ἀείναος	a	a-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_2679|t_2678|ref=fr._17
-9	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_2680|t_2673|ref=fr._17
-10	δεξιά	δεξιός	a	a-p---na-	Case=a|Gender=n|Number=p	9	ADV	_	t_2681|t_2680|ref=fr._17
-11	,	,	u	u--------	_	2	APOS	_	t_2682|t_2673|ref=fr._17
-12	τῆ	τῆ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_2683|t_2684|ref=fr._17
-13	κυφάρισσος	κυφάρισσος	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_2684|t_2678|ref=fr._17
-14	.	.	u	u--------	_	3	AuxK	_	t_2685|t_2674|ref=fr._17
+1	ἀλλὰ	ἀλλά	c	c--------	_	2	AuxY	_	t_2672|t_2673|ref=fr._17a
+2	πιέμ	πίμπρημι	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	3	OBJ	_	t_2673|t_2674|ref=fr._17a
+3	〈	〈	u	u--------	Mood=i|Number=p|Person=3|Tense=i|Voice=e	0	PRED	_	t_2674|0|ref=fr._17a
+4	μ	μ	p	p-s---ma-	Case=a|Gender=f|Number=s	2	OBJ	_	t_2675|t_2673|ref=fr._17a
+5	〉	〉	p	p-s---ma-	Case=a|Gender=f|Number=s	2	OBJ	_	t_2676|t_2673|ref=fr._17a
+6	οι	οι	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_2677|t_2678|ref=fr._17a
+7	κράνας	κράνη	n	n-p---fn-	Case=a|Gender=f|Number=p	2	SBJ	_	t_2678|t_2673|ref=fr._17a
+8	αἰενάω	ἀείναος	a	a-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_2679|t_2678|ref=fr._17a
+9	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_2680|t_2673|ref=fr._17a
+10	δεξιά	δεξιός	a	a-p---na-	Case=a|Gender=n|Number=p	9	ADV	_	t_2681|t_2680|ref=fr._17a
+11	,	,	u	u--------	_	2	APOS	_	t_2682|t_2673|ref=fr._17a
+12	τῆ	τῆ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_2683|t_2684|ref=fr._17a
+13	κυφάρισσος	κυφάρισσος	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_2684|t_2678|ref=fr._17a
+14	.	.	u	u--------	_	3	AuxK	_	t_2685|t_2674|ref=fr._17a
 
-# source = Orphica, fr._17
+# source = Orphica, fr._17a
 # text = τίς δʼ ἐσί ;
 # sent_id = 185
-1	τίς	τις	p	p-s---mn-	Case=n|Gender=c|Number=s	3	PNOM	_	t_2686|t_2688|ref=fr._17
-2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_2687|t_2688|ref=fr._17
-3	ἐσί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2688|0|ref=fr._17
-4	;	;	u	u--------	_	3	AuxK	_	t_2689|t_2688|ref=fr._17
+1	τίς	τις	p	p-s---mn-	Case=n|Gender=c|Number=s	3	PNOM	_	t_2686|t_2688|ref=fr._17a
+2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_2687|t_2688|ref=fr._17a
+3	ἐσί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2688|0|ref=fr._17a
+4	;	;	u	u--------	_	3	AuxK	_	t_2689|t_2688|ref=fr._17a
 
-# source = Orphica, fr._17
+# source = Orphica, fr._17a
 # text = πῶ δʼ ἐσί ;
 # sent_id = 186
-1	πῶ	πω	d	d--------	_	3	PNOM	_	t_2690|t_2692|ref=fr._17
-2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_2691|t_2692|ref=fr._17
-3	ἐσί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2692|0|ref=fr._17
-4	;	;	u	u--------	_	3	AuxK	_	t_2693|t_2692|ref=fr._17
+1	πῶ	πω	d	d--------	_	3	PNOM	_	t_2690|t_2692|ref=fr._17a
+2	δʼ	δέ	d	d--------	_	3	AuxY	_	t_2691|t_2692|ref=fr._17a
+3	ἐσί	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2692|0|ref=fr._17a
+4	;	;	u	u--------	_	3	AuxK	_	t_2693|t_2692|ref=fr._17a
 
-# source = Orphica, fr._17
+# source = Orphica, fr._17a
 # text = γᾶς υἱός ἠμι καὶ ὠρανῶ ἀστερόεντος [0] .
 # sent_id = 187
-1	γᾶς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_2694|t_2695|ref=fr._17
-2	υἱός	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_2695|e_67|ref=fr._17
-3	ἠμι	ἐγώ	p	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	4	ATR	_	t_2696|t_2697|ref=fr._17
-4	καὶ	καί	c	c--------	_	0	COORD	_	t_2697|0|ref=fr._17
-5	ὠρανῶ	ὠρανέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	4	PRED	_	t_2698|t_2697|ref=fr._17
-6	ἀστερόεντος	ἀστερόεις	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_2699|t_2698|ref=fr._17
-7	[0]	[0]	-	---------	_	4	PRED	_	e_67|t_2697|ref=fr._2
-8	.	.	u	u--------	_	4	AuxK	_	t_2700|t_2697|ref=fr._17
+1	γᾶς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_2694|t_2695|ref=fr._17a
+2	υἱός	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_2695|e_67|ref=fr._17a
+3	ἠμι	ἐγώ	p	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	4	ATR	_	t_2696|t_2697|ref=fr._17a
+4	καὶ	καί	c	c--------	_	0	COORD	_	t_2697|0|ref=fr._17a
+5	ὠρανῶ	ὠρανέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	4	PRED	_	t_2698|t_2697|ref=fr._17a
+6	ἀστερόεντος	ἀστερόεις	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_2699|t_2698|ref=fr._17a
+7	[0]	[0]	-	---------	_	4	PRED	_	e_67|t_2697|ref=fr._17a
+8	.	.	u	u--------	_	4	AuxK	_	t_2700|t_2697|ref=fr._17a
 
-# source = Orphica, fr._17
+# source = Orphica, fr._18
 # text = 18 .
 # sent_id = 188
-1	18	18	x	x--------	_	0	AuxG	_	t_2701|0|ref=fr._17
-2	.	.	u	u--------	_	1	AuxK	_	t_2702|t_2701|ref=fr._17
+1	18	18	x	x--------	_	0	AuxG	_	t_2701|0|ref=fr._18
+2	.	.	u	u--------	_	1	AuxK	_	t_2702|t_2701|ref=fr._18
 
-# source = Orphica, fr._17
+# source = Orphica, fr._18
 # text = ἔρχομαι ἐκ κοθαρῶ 〈 ν 〉 κοθαρὰ χθονί 〈 ων 〉 βασίλεια , Εὐκλῆς , Εὐβουλεύς τε καὶ ἀθάνατοι θεοὶ ἄλλοι ·
 # sent_id = 189
-1	ἔρχομαι	ἔρχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_2703|0|ref=fr._17
-2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_2704|t_2703|ref=fr._17
-3	κοθαρῶ	κοθάζω	a	a-p---fg-	Mood=s|Number=s|Person=1|Tense=a|Voice=p	2	OBJ	_	t_2705|t_2704|ref=fr._17
-4	〈	〈	u	u--------	_	5	AuxX	_	t_2706|t_2707|ref=fr._17
-5	ν	ἄν	r	r--------	_	2	AuxP	_	t_2707|t_2704|ref=fr._17
-6	〉	〉	p	p-s---fg-	Case=g|Number=s	5	ATR	_	t_2708|t_2707|ref=fr._17
-7	κοθαρὰ	κοθαρά	a	a-s---fn-	Case=v|Gender=f|Number=s	5	ATR	_	t_2709|t_2707|ref=fr._17
-8	χθονί	χθών	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_2710|t_2707|ref=fr._17
-9	〈	〈	u	u--------	Case=n|Gender=f|Number=s	1	ADV	_	t_2711|t_2703|ref=fr._17
-10	ων	ων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_2712|t_2703|ref=fr._17
-11	〉	〉	u	u--------	_	1	AuxX	_	t_2713|t_2703|ref=fr._17
-12	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_2714|t_2720|ref=fr._17
-13	,	,	u	u--------	_	1	AuxX	_	t_2715|t_2703|ref=fr._17
-14	Εὐκλῆς	εὐκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_2716|t_2720|ref=fr._17
-15	,	,	u	u--------	_	18	AuxX	_	t_2717|t_2720|ref=fr._17
-16	Εὐβουλεύς	εὐβουλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_2718|t_2720|ref=fr._17
-17	τε	τε	g	g--------	_	18	AuxY	_	t_2719|t_2720|ref=fr._17
-18	καὶ	καί	c	c--------	_	1	COORD	_	t_2720|t_2703|ref=fr._17
-19	ἀθάνατοι	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	20	ATR	_	t_2721|t_2722|ref=fr._17
-20	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_2722|t_2720|ref=fr._17
-21	ἄλλοι	ἄλλος	a	a-p---mn-	Case=n|Gender=m|Number=p	20	ATR	_	t_2723|t_2722|ref=fr._17
-22	·	·	u	u--------	_	1	AuxK	_	t_2724|t_2703|ref=fr._17
+1	ἔρχομαι	ἔρχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_2703|0|ref=fr._18
+2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_2704|t_2703|ref=fr._18
+3	κοθαρῶ	κοθάζω	a	a-p---fg-	Mood=s|Number=s|Person=1|Tense=a|Voice=p	2	OBJ	_	t_2705|t_2704|ref=fr._18
+4	〈	〈	u	u--------	_	5	AuxX	_	t_2706|t_2707|ref=fr._18
+5	ν	ἄν	r	r--------	_	2	AuxP	_	t_2707|t_2704|ref=fr._18
+6	〉	〉	p	p-s---fg-	Case=g|Number=s	5	ATR	_	t_2708|t_2707|ref=fr._18
+7	κοθαρὰ	κοθαρά	a	a-s---fn-	Case=v|Gender=f|Number=s	5	ATR	_	t_2709|t_2707|ref=fr._18
+8	χθονί	χθών	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_2710|t_2707|ref=fr._18
+9	〈	〈	u	u--------	Case=n|Gender=f|Number=s	1	ADV	_	t_2711|t_2703|ref=fr._18
+10	ων	ων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_2712|t_2703|ref=fr._18
+11	〉	〉	u	u--------	_	1	AuxX	_	t_2713|t_2703|ref=fr._18
+12	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_2714|t_2720|ref=fr._18
+13	,	,	u	u--------	_	1	AuxX	_	t_2715|t_2703|ref=fr._18
+14	Εὐκλῆς	εὐκλῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_2716|t_2720|ref=fr._18
+15	,	,	u	u--------	_	18	AuxX	_	t_2717|t_2720|ref=fr._18
+16	Εὐβουλεύς	εὐβουλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_2718|t_2720|ref=fr._18
+17	τε	τε	g	g--------	_	18	AuxY	_	t_2719|t_2720|ref=fr._18
+18	καὶ	καί	c	c--------	_	1	COORD	_	t_2720|t_2703|ref=fr._18
+19	ἀθάνατοι	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	20	ATR	_	t_2721|t_2722|ref=fr._18
+20	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_2722|t_2720|ref=fr._18
+21	ἄλλοι	ἄλλος	a	a-p---mn-	Case=n|Gender=m|Number=p	20	ATR	_	t_2723|t_2722|ref=fr._18
+22	·	·	u	u--------	_	1	AuxK	_	t_2724|t_2703|ref=fr._18
 
-# source = Orphica, fr._17-17a
+# source = Orphica, fr._18
 # text = καὶ γὰρ ἐγὼν ὑμῶν γένος ὄλβιον εὔχομαι εἶμεν , ἀλλά με Μοῖρ ( α ) ἐδάμασσε καὶ ἀθάνατοι θεοὶ ἄλλοι 5 〈 * * * 〉 καὶ ἀστεροβλῆτα κεραυνόν .
 # sent_id = 190
-1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_2725|t_2727|ref=fr._17
-2	γὰρ	γάρ	g	g--------	_	7	AuxY	_	t_2726|t_2731|ref=fr._17
-3	ἐγὼν	ἐγώ	p	p-s---fn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_2727|t_2731|ref=fr._17
-4	ὑμῶν	σύ	p	p-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_2728|t_2729|ref=fr._17
-5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_2729|t_2732|ref=fr._17
-6	ὄλβιον	ὄλβιος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_2730|t_2729|ref=fr._17a
-7	εὔχομαι	εὔχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	10	PRED	_	t_2731|t_2734|ref=fr._17a
-8	εἶμεν	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_2732|t_2731|ref=fr._17a
-9	,	,	u	u--------	_	10	AuxX	_	t_2733|t_2734|ref=fr._17a
-10	ἀλλά	ἀλλά	c	c--------	_	0	COORD	_	t_2734|0|ref=fr._17a
-11	με	ἐγώ	p	p-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_2735|t_2740|ref=fr._17a
-12	Μοῖρ	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_2736|t_2751|ref=fr._17a
-13	(	̔	u	u--------	_	14	AuxX	_	t_2737|t_2738|ref=fr._17a
-14	α	α	x	x--------	_	12	APOS	_	t_2738|t_2736|ref=fr._17a
-15	)	)	u	u--------	_	10	AuxG	_	t_2739|t_2734|ref=fr._17a
-16	ἐδάμασσε	δαμάζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	PRED	_	t_2740|t_2734|ref=fr._17a
-17	καὶ	καί	c	c--------	_	27	AuxY	_	t_2741|t_2751|ref=fr._17a
-18	ἀθάνατοι	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_2742|t_2743|ref=fr._17a
-19	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	27	SBJ	_	t_2743|t_2751|ref=fr._17a
-20	ἄλλοι	ἄλλος	a	a-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_2744|t_2743|ref=fr._17a
-21	5	5	u	u--------	_	19	AuxK	_	t_2745|t_2743|ref=fr._17a
-22	〈	〈	u	u--------	_	14	AuxX	_	t_2746|t_2738|ref=fr._17a
-23	*	*	u	u--------	_	10	AuxG	_	t_2747|t_2734|ref=fr._17a
-24	*	*	u	u--------	_	10	AuxG	_	t_2748|t_2734|ref=fr._17a
-25	*	*	u	u--------	_	10	AuxG	_	t_2749|t_2734|ref=fr._17a
-26	〉	〉	u	u--------	_	10	AuxG	_	t_2750|t_2734|ref=fr._17a
-27	καὶ	καί	c	c--------	_	16	COORD	_	t_2751|t_2740|ref=fr._17a
-28	ἀστεροβλῆτα	ἀστεροβλῆτος	n	n-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_2752|t_2753|ref=fr._17a
-29	κεραυνόν	κεραυνός	n	n-s---ma-	Case=a|Gender=m|Number=s	27	OBJ	_	t_2753|t_2751|ref=fr._17a
-30	.	.	u	u--------	_	10	AuxK	_	t_2754|t_2734|ref=fr._17a
+1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_2725|t_2727|ref=fr._18
+2	γὰρ	γάρ	g	g--------	_	7	AuxY	_	t_2726|t_2731|ref=fr._18
+3	ἐγὼν	ἐγώ	p	p-s---fn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_2727|t_2731|ref=fr._18
+4	ὑμῶν	σύ	p	p-p---fg-	Case=g|Gender=f|Number=p	5	ATR	_	t_2728|t_2729|ref=fr._18
+5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	8	ADV	_	t_2729|t_2732|ref=fr._18
+6	ὄλβιον	ὄλβιος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_2730|t_2729|ref=fr._18
+7	εὔχομαι	εὔχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	10	PRED	_	t_2731|t_2734|ref=fr._18
+8	εἶμεν	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_2732|t_2731|ref=fr._18
+9	,	,	u	u--------	_	10	AuxX	_	t_2733|t_2734|ref=fr._18
+10	ἀλλά	ἀλλά	c	c--------	_	0	COORD	_	t_2734|0|ref=fr._18
+11	με	ἐγώ	p	p-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_2735|t_2740|ref=fr._18
+12	Μοῖρ	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_2736|t_2751|ref=fr._18
+13	(	̔	u	u--------	_	14	AuxX	_	t_2737|t_2738|ref=fr._18
+14	α	α	x	x--------	_	12	APOS	_	t_2738|t_2736|ref=fr._18
+15	)	)	u	u--------	_	10	AuxG	_	t_2739|t_2734|ref=fr._18
+16	ἐδάμασσε	δαμάζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	PRED	_	t_2740|t_2734|ref=fr._18
+17	καὶ	καί	c	c--------	_	27	AuxY	_	t_2741|t_2751|ref=fr._18
+18	ἀθάνατοι	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_2742|t_2743|ref=fr._18
+19	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	27	SBJ	_	t_2743|t_2751|ref=fr._18
+20	ἄλλοι	ἄλλος	a	a-p---mn-	Case=n|Gender=m|Number=p	19	ATR	_	t_2744|t_2743|ref=fr._18
+21	5	5	u	u--------	_	19	AuxK	_	t_2745|t_2743|ref=fr._18
+22	〈	〈	u	u--------	_	14	AuxX	_	t_2746|t_2738|ref=fr._18
+23	*	*	u	u--------	_	10	AuxG	_	t_2747|t_2734|ref=fr._18
+24	*	*	u	u--------	_	10	AuxG	_	t_2748|t_2734|ref=fr._18
+25	*	*	u	u--------	_	10	AuxG	_	t_2749|t_2734|ref=fr._18
+26	〉	〉	u	u--------	_	10	AuxG	_	t_2750|t_2734|ref=fr._18
+27	καὶ	καί	c	c--------	_	16	COORD	_	t_2751|t_2740|ref=fr._18
+28	ἀστεροβλῆτα	ἀστεροβλῆτος	n	n-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_2752|t_2753|ref=fr._18
+29	κεραυνόν	κεραυνός	n	n-s---ma-	Case=a|Gender=m|Number=s	27	OBJ	_	t_2753|t_2751|ref=fr._18
+30	.	.	u	u--------	_	10	AuxK	_	t_2754|t_2734|ref=fr._18
 
-# source = Orphica, fr._17a-18
+# source = Orphica, fr._18
 # text = κύκλου δʼ ἐξέπταν βαρυπενθέος ἀργαλέοιο ἱμερτοῦ δʼ ἐπέβαν στεφάνου ποσὶ καρπαλίμοισι , Δεσποίνας δ ( ὲ ) ὑπὸ κόλπον ἔδυν χθονίας βασιλείας .
 # sent_id = 191
-1	κύκλου	κύκλος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_2755|t_2757|ref=fr._17a
-2	δʼ	δέ	g	g--------	_	14	AuxY	_	t_2756|t_2768|ref=fr._17a
-3	ἐξέπταν	ἐκπέτομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	14	PRED	_	t_2757|t_2768|ref=fr._17a
-4	βαρυπενθέος	βαρυπενθής	a	a-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2758|t_2755|ref=fr._17a
-5	ἀργαλέοιο	ἀργαλέος	a	a-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2759|t_2755|ref=fr._17a
-6	ἱμερτοῦ	ἱμερτός	a	a-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_2760|t_2763|ref=fr._17a
-7	δʼ	δέ	g	g--------	_	14	AuxY	_	t_2761|t_2768|ref=fr._17a
-8	ἐπέβαν	ἐπιβαίνω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	16	PRED	_	t_2762|t_2770|ref=fr._17a
-9	στεφάνου	στέφανος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	OBJ	_	t_2763|t_2762|ref=fr._17a
-10	ποσὶ	πούς	n	n-p---md-	Case=d|Gender=m|Number=p	8	ADV	_	t_2764|t_2762|ref=fr._17a
-11	καρπαλίμοισι	καρπάλιμος	a	a-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_2765|t_2764|ref=fr._17a
-12	,	,	u	u--------	_	14	AuxX	_	t_2766|t_2768|ref=fr._17
-13	Δεσποίνας	δέσποινα	n	n-p---fa-	Case=a|Gender=f|Number=p	20	OBJ	_	t_2767|t_2774|ref=fr._17a
+1	κύκλου	κύκλος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_2755|t_2757|ref=fr._18
+2	δʼ	δέ	g	g--------	_	14	AuxY	_	t_2756|t_2768|ref=fr._18
+3	ἐξέπταν	ἐκπέτομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	14	PRED	_	t_2757|t_2768|ref=fr._18
+4	βαρυπενθέος	βαρυπενθής	a	a-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2758|t_2755|ref=fr._18
+5	ἀργαλέοιο	ἀργαλέος	a	a-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2759|t_2755|ref=fr._18
+6	ἱμερτοῦ	ἱμερτός	a	a-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_2760|t_2763|ref=fr._18
+7	δʼ	δέ	g	g--------	_	14	AuxY	_	t_2761|t_2768|ref=fr._18
+8	ἐπέβαν	ἐπιβαίνω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	16	PRED	_	t_2762|t_2770|ref=fr._18
+9	στεφάνου	στέφανος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	OBJ	_	t_2763|t_2762|ref=fr._18
+10	ποσὶ	πούς	n	n-p---md-	Case=d|Gender=m|Number=p	8	ADV	_	t_2764|t_2762|ref=fr._18
+11	καρπαλίμοισι	καρπάλιμος	a	a-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_2765|t_2764|ref=fr._18
+12	,	,	u	u--------	_	14	AuxX	_	t_2766|t_2768|ref=fr._18
+13	Δεσποίνας	δέσποινα	n	n-p---fa-	Case=a|Gender=f|Number=p	20	OBJ	_	t_2767|t_2774|ref=fr._18
 14	δ	δ	g	g--------	_	0	COORD	_	t_2768|0|ref=fr._18
 15	(	̔	u	u--------	_	16	AuxG	_	t_2769|t_2770|ref=fr._18
 16	ὲ	ὲ	g	g--------	_	14	COORD	_	t_2770|t_2768|ref=fr._18
@@ -3635,90 +3635,90 @@
 4	ἔπετον	πέτω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_2797|0|ref=fr._18
 5	.	.	u	u--------	_	4	AuxK	_	t_2798|t_2797|ref=fr._18
 
-# source = Orphica, fr._18
+# source = Orphica, fr._19
 # text = 19 .
 # sent_id = 194
-1	19	19	x	x--------	_	0	AuxG	_	t_2799|0|ref=fr._18
-2	.	.	u	u--------	_	1	AuxK	_	t_2800|t_2799|ref=fr._18
+1	19	19	x	x--------	_	0	AuxG	_	t_2799|0|ref=fr._19
+2	.	.	u	u--------	_	1	AuxK	_	t_2800|t_2799|ref=fr._19
 
-# source = Orphica, fr._18
+# source = Orphica, fr._19
 # text = ἔρχομαι ἐκ καθαρῶν [ χθονίων ] καθαρά , χθονίων βασίλεια , Εὖκλε καὶ Εὐβουλεῦ καὶ 〈 ὅσοι 〉 θεοὶ δαίμονες ἄλλοι [0] ·
 # sent_id = 195
-1	ἔρχομαι	ἔρχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_2801|0|ref=fr._18
-2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_2802|t_2801|ref=fr._18
-3	καθαρῶν	καθαρός	a	a-p---ng-	Case=g|Gender=n|Number=p	2	OBJ	_	t_2803|t_2802|ref=fr._18
-4	[	[	u	u--------	_	3	AuxX	_	t_2804|t_2803|ref=fr._18
-5	χθονίων	χθόνιος	a	a-p---fg-	Case=g|Gender=n|Number=p	2	OBJ	_	t_2805|t_2802|ref=fr._18
-6	]	]	u	u--------	_	5	AuxX	_	t_2806|t_2805|ref=fr._18
-7	καθαρά	καθαρός	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_2807|t_2808|ref=fr._18
-8	,	,	u	u--------	_	1	APOS	_	t_2808|t_2801|ref=fr._18
-9	χθονίων	χθόνιος	a	a-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_2809|t_2810|ref=fr._18
-10	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_2810|t_2808|ref=fr._18
-11	,	,	u	u--------	_	1	AuxX	_	t_2811|t_2801|ref=fr._18
-12	Εὖκλε	εὐκλεής	n	n-s---mv-	Case=v|Gender=m|Number=s	15	ExD	_	t_2812|t_2815|ref=fr._18
-13	καὶ	καί	c	c--------	_	15	AuxY	_	t_2813|t_2815|ref=fr._18
-14	Εὐβουλεῦ	εὐβουλεῦ	n	n-s---mv-	Case=v|Gender=m|Number=s	15	ExD	_	t_2814|t_2815|ref=fr._18
-15	καὶ	καί	c	c--------	_	1	COORD	_	t_2815|t_2801|ref=fr._18
-16	〈	〈	u	u--------	_	22	AuxX	_	t_2816|e_68|ref=fr._18
-17	ὅσοι	ὅσος	a	a-p---mn-	Case=v|Gender=m|Number=p	19	ATR	_	t_2817|t_2819|ref=fr._18
-18	〉	〉	u	u--------	_	22	AuxX	_	t_2818|e_68|ref=fr._18
-19	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	15	ExD	_	t_2819|t_2815|ref=fr._18
-20	δαίμονες	δαίμων	n	n-p---mn-	Case=v|Gender=m|Number=p	19	ATR	_	t_2820|t_2819|ref=fr._18
-21	ἄλλοι	ἄλλος	a	a-p---mn-	Case=v|Gender=m|Number=p	20	ATR	_	t_2821|t_2820|ref=fr._18
-22	[0]	[0]	-	---------	_	15	OBJ	_	e_68|t_2815|ref=fr._2
-23	·	·	u	u--------	_	1	AuxK	_	t_2822|t_2801|ref=fr._18
+1	ἔρχομαι	ἔρχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_2801|0|ref=fr._19
+2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_2802|t_2801|ref=fr._19
+3	καθαρῶν	καθαρός	a	a-p---ng-	Case=g|Gender=n|Number=p	2	OBJ	_	t_2803|t_2802|ref=fr._19
+4	[	[	u	u--------	_	3	AuxX	_	t_2804|t_2803|ref=fr._19
+5	χθονίων	χθόνιος	a	a-p---fg-	Case=g|Gender=n|Number=p	2	OBJ	_	t_2805|t_2802|ref=fr._19
+6	]	]	u	u--------	_	5	AuxX	_	t_2806|t_2805|ref=fr._19
+7	καθαρά	καθαρός	a	a-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_2807|t_2808|ref=fr._19
+8	,	,	u	u--------	_	1	APOS	_	t_2808|t_2801|ref=fr._19
+9	χθονίων	χθόνιος	a	a-p---fg-	Case=g|Gender=f|Number=p	10	ATR	_	t_2809|t_2810|ref=fr._19
+10	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_2810|t_2808|ref=fr._19
+11	,	,	u	u--------	_	1	AuxX	_	t_2811|t_2801|ref=fr._19
+12	Εὖκλε	εὐκλεής	n	n-s---mv-	Case=v|Gender=m|Number=s	15	ExD	_	t_2812|t_2815|ref=fr._19
+13	καὶ	καί	c	c--------	_	15	AuxY	_	t_2813|t_2815|ref=fr._19
+14	Εὐβουλεῦ	εὐβουλεῦ	n	n-s---mv-	Case=v|Gender=m|Number=s	15	ExD	_	t_2814|t_2815|ref=fr._19
+15	καὶ	καί	c	c--------	_	1	COORD	_	t_2815|t_2801|ref=fr._19
+16	〈	〈	u	u--------	_	22	AuxX	_	t_2816|e_68|ref=fr._19
+17	ὅσοι	ὅσος	a	a-p---mn-	Case=v|Gender=m|Number=p	19	ATR	_	t_2817|t_2819|ref=fr._19
+18	〉	〉	u	u--------	_	22	AuxX	_	t_2818|e_68|ref=fr._19
+19	θεοὶ	θεός	n	n-p---mn-	Case=n|Gender=m|Number=p	15	ExD	_	t_2819|t_2815|ref=fr._19
+20	δαίμονες	δαίμων	n	n-p---mn-	Case=v|Gender=m|Number=p	19	ATR	_	t_2820|t_2819|ref=fr._19
+21	ἄλλοι	ἄλλος	a	a-p---mn-	Case=v|Gender=m|Number=p	20	ATR	_	t_2821|t_2820|ref=fr._19
+22	[0]	[0]	-	---------	_	15	OBJ	_	e_68|t_2815|ref=fr._19
+23	·	·	u	u--------	_	1	AuxK	_	t_2822|t_2801|ref=fr._19
 
-# source = Orphica, fr._18
+# source = Orphica, fr._19
 # text = καὶ γὰρ ἐγὼν ὑμῶν γένος εὔχομαι ὄλβιον εἶναι , ποινὰν δʼ ἀνταπέτεισ ( α ) ἔργων ἕνεκ ( α ) οὔτι δικαίων εἴ τε με Μοῖρ ( α ) ἐδαμάσατο ( ? )
 # sent_id = 196
-1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_2823|t_2825|ref=fr._18
-2	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_2824|t_2833|ref=fr._18
-3	ἐγὼν	ἐγώ	p	p1s---fn-	Case=n|Gender=f|Number=s|Person=1	6	SBJ	_	t_2825|t_2828|ref=fr._18
-4	ὑμῶν	σύ	p	p2p---cg-	Case=g|Gender=c|Number=p|Person=2	5	ATR	_	t_2826|t_2827|ref=fr._18
-5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	8	SBJ	_	t_2827|t_2830|ref=fr._18
-6	εὔχομαι	εὔχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	11	PRED	_	t_2828|t_2833|ref=fr._18
-7	ὄλβιον	ὄλβιος	a	a-s---na-	Case=a|Gender=n|Number=s	8	PNOM	_	t_2829|t_2830|ref=fr._18
-8	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_2830|t_2828|ref=fr._18
-9	,	,	u	u--------	_	0	AuxX	_	t_2831|0|ref=fr._18
-10	ποινὰν	ποινή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_2832|t_2834|ref=fr._18
-11	δʼ	δέ	c	c--------	_	9	COORD	_	t_2833|t_2831|ref=fr._18
-12	ἀνταπέτεισ	ἀνταποδίδωμι	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	11	PRED	_	t_2834|t_2833|ref=fr._18
-13	(	̔	u	u--------	_	9	AuxG	_	t_2835|t_2831|ref=fr._18
-14	α	α	x	x--------	_	32	SBJ	_	t_2836|t_2854|ref=fr._18
-15	)	)	u	u--------	_	9	AuxG	_	t_2837|t_2831|ref=fr._18
-16	ἔργων	ἔργον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ADV	_	t_2838|t_2839|ref=fr._18
-17	ἕνεκ	ἕνεκα	r	r--------	_	12	AuxP	_	t_2839|t_2834|ref=fr._18
-18	(	̔	u	u--------	_	9	AuxG	_	t_2840|t_2831|ref=fr._18
-19	α	α	x	x--------	_	32	APOS	_	t_2841|t_2854|ref=fr._18
-20	)	)	u	u--------	_	9	AuxG	_	t_2842|t_2831|ref=fr._18
-21	οὔτι	οὔτι	d	d--------	_	24	AuxZ	_	t_2843|t_2846|ref=fr._18
-22	δικαίων	δίκαιος	a	a-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_2844|t_2838|ref=fr._18
-23	εἴ	εἰ	c	c--------	_	24	AuxC	_	t_2845|t_2846|ref=fr._18
-24	τε	τε	c	c--------	_	12	COORD	_	t_2846|t_2834|ref=fr._18
-25	με	ἐγώ	p	p1s---fa-	Case=a|Gender=c|Number=s|Person=1	30	OBJ	_	t_2847|t_2852|ref=fr._18
-26	Μοῖρ	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_2848|t_2852|ref=fr._18
-27	(	̔	u	u--------	_	32	AuxG	_	t_2849|t_2854|ref=fr._18
-28	α	α	x	x--------	_	32	AuxG	_	t_2850|t_2854|ref=fr._18
-29	)	)	u	u--------	_	32	AuxG	_	t_2851|t_2854|ref=fr._18
-30	ἐδαμάσατο	δαμάζω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	23	ADV	_	t_2852|t_2845|ref=fr._18
-31	(	̔	u	u--------	_	32	AuxG	_	t_2853|t_2854|ref=fr._18
-32	?	?	u	u--------	_	9	AuxG	_	t_2854|t_2831|ref=fr._18
-33	)	)	u	u--------	_	9	AuxG	_	t_2855|t_2831|ref=fr._18
+1	καὶ	καί	d	d--------	_	3	AuxZ	_	t_2823|t_2825|ref=fr._19
+2	γὰρ	γάρ	d	d--------	_	11	AuxY	_	t_2824|t_2833|ref=fr._19
+3	ἐγὼν	ἐγώ	p	p1s---fn-	Case=n|Gender=f|Number=s|Person=1	6	SBJ	_	t_2825|t_2828|ref=fr._19
+4	ὑμῶν	σύ	p	p2p---cg-	Case=g|Gender=c|Number=p|Person=2	5	ATR	_	t_2826|t_2827|ref=fr._19
+5	γένος	γένος	n	n-s---na-	Case=a|Gender=n|Number=s	8	SBJ	_	t_2827|t_2830|ref=fr._19
+6	εὔχομαι	εὔχομαι	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	11	PRED	_	t_2828|t_2833|ref=fr._19
+7	ὄλβιον	ὄλβιος	a	a-s---na-	Case=a|Gender=n|Number=s	8	PNOM	_	t_2829|t_2830|ref=fr._19
+8	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_2830|t_2828|ref=fr._19
+9	,	,	u	u--------	_	0	AuxX	_	t_2831|0|ref=fr._19
+10	ποινὰν	ποινή	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_2832|t_2834|ref=fr._19
+11	δʼ	δέ	c	c--------	_	9	COORD	_	t_2833|t_2831|ref=fr._19
+12	ἀνταπέτεισ	ἀνταποδίδωμι	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	11	PRED	_	t_2834|t_2833|ref=fr._19
+13	(	̔	u	u--------	_	9	AuxG	_	t_2835|t_2831|ref=fr._19
+14	α	α	x	x--------	_	32	SBJ	_	t_2836|t_2854|ref=fr._19
+15	)	)	u	u--------	_	9	AuxG	_	t_2837|t_2831|ref=fr._19
+16	ἔργων	ἔργον	n	n-p---ng-	Case=g|Gender=n|Number=p	17	ADV	_	t_2838|t_2839|ref=fr._19
+17	ἕνεκ	ἕνεκα	r	r--------	_	12	AuxP	_	t_2839|t_2834|ref=fr._19
+18	(	̔	u	u--------	_	9	AuxG	_	t_2840|t_2831|ref=fr._19
+19	α	α	x	x--------	_	32	APOS	_	t_2841|t_2854|ref=fr._19
+20	)	)	u	u--------	_	9	AuxG	_	t_2842|t_2831|ref=fr._19
+21	οὔτι	οὔτι	d	d--------	_	24	AuxZ	_	t_2843|t_2846|ref=fr._19
+22	δικαίων	δίκαιος	a	a-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_2844|t_2838|ref=fr._19
+23	εἴ	εἰ	c	c--------	_	24	AuxC	_	t_2845|t_2846|ref=fr._19
+24	τε	τε	c	c--------	_	12	COORD	_	t_2846|t_2834|ref=fr._19
+25	με	ἐγώ	p	p1s---fa-	Case=a|Gender=c|Number=s|Person=1	30	OBJ	_	t_2847|t_2852|ref=fr._19
+26	Μοῖρ	μοῖρα	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_2848|t_2852|ref=fr._19
+27	(	̔	u	u--------	_	32	AuxG	_	t_2849|t_2854|ref=fr._19
+28	α	α	x	x--------	_	32	AuxG	_	t_2850|t_2854|ref=fr._19
+29	)	)	u	u--------	_	32	AuxG	_	t_2851|t_2854|ref=fr._19
+30	ἐδαμάσατο	δαμάζω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	23	ADV	_	t_2852|t_2845|ref=fr._19
+31	(	̔	u	u--------	_	32	AuxG	_	t_2853|t_2854|ref=fr._19
+32	?	?	u	u--------	_	9	AuxG	_	t_2854|t_2831|ref=fr._19
+33	)	)	u	u--------	_	9	AuxG	_	t_2855|t_2831|ref=fr._19
 
-# source = Orphica, fr._18-19
+# source = Orphica, fr._19
 # text = 〈 * * * * * * 〉 στεροπῆτι κεραυνῶι [0] .
 # sent_id = 197
-1	〈	〈	x	x--------	_	11	AuxG	_	t_2856|e_69|ref=fr._18
-2	*	*	u	u--------	_	11	AuxG	_	t_2857|e_69|ref=fr._18
-3	*	*	u	u--------	_	11	AuxX	_	t_2858|e_69|ref=fr._18
-4	*	*	u	u--------	_	11	AuxX	_	t_2859|e_69|ref=fr._18
-5	*	*	u	u--------	_	11	AuxX	_	t_2860|e_69|ref=fr._18
-6	*	*	u	u--------	_	11	AuxX	_	t_2861|e_69|ref=fr._18
-7	*	*	u	u--------	_	11	AuxX	_	t_2862|e_69|ref=fr._18
-8	〉	〉	u	u--------	_	11	AuxX	_	t_2863|e_69|ref=fr._18
-9	στεροπῆτι	στεροπή	n	n-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_2864|t_2865|ref=fr._18
-10	κεραυνῶι	κεραυνός	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_2865|e_69|ref=fr._18
-11	[0]	[0]	-	---------	_	0	PRED	_	e_69|0|ref=fr._2
+1	〈	〈	x	x--------	_	11	AuxG	_	t_2856|e_69|ref=fr._19
+2	*	*	u	u--------	_	11	AuxG	_	t_2857|e_69|ref=fr._19
+3	*	*	u	u--------	_	11	AuxX	_	t_2858|e_69|ref=fr._19
+4	*	*	u	u--------	_	11	AuxX	_	t_2859|e_69|ref=fr._19
+5	*	*	u	u--------	_	11	AuxX	_	t_2860|e_69|ref=fr._19
+6	*	*	u	u--------	_	11	AuxX	_	t_2861|e_69|ref=fr._19
+7	*	*	u	u--------	_	11	AuxX	_	t_2862|e_69|ref=fr._19
+8	〉	〉	u	u--------	_	11	AuxX	_	t_2863|e_69|ref=fr._19
+9	στεροπῆτι	στεροπή	n	n-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_2864|t_2865|ref=fr._19
+10	κεραυνῶι	κεραυνός	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_2865|e_69|ref=fr._19
+11	[0]	[0]	-	---------	_	0	PRED	_	e_69|0|ref=fr._19
 12	.	.	u	u--------	_	11	AuxK	_	t_2866|e_69|ref=fr._19
 
 # source = Orphica, fr._19
@@ -3746,259 +3746,259 @@
 20	〈	〈	v	v3spoe---	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ATR	_	t_2886|t_2887|ref=fr._19
 21	όν	όν	a	a-s---ma-	Case=a|Gender=m|Number=s	18	OBJ	_	t_2887|t_2884|ref=fr._19
 22	〉	〉	x	x--------	_	23	AuxK	_	t_2888|t_2889|ref=fr._19
-23	τω	τις	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	21	ATR	_	t_2889|t_2887|ref=fr._18
+23	τω	τις	v	v3spma---	Mood=m|Number=s|Person=3|Tense=p|Voice=a	21	ATR	_	t_2889|t_2887|ref=fr._19
 24	〈	〈	u	u--------	_	23	AuxX	_	t_2890|t_2889|ref=fr._19
 25	ν	ἄν	x	x--------	_	21	ATR	_	t_2891|t_2887|ref=fr._19
 26	〉	〉	u	u--------	_	23	AuxG	_	t_2892|t_2889|ref=fr._19
 27	.	.	u	u--------	_	2	AuxK	_	t_2893|t_2868|ref=fr._19
 
-# source = Orphica, fr._19
+# source = Orphica, fr._19a
 # text = 19ᵃ .
 # sent_id = 199
-1	19ᵃ	19a	i	i--------	_	0	ExD	_	t_2894|0|ref=fr._19
-2	.	.	u	u--------	_	1	AuxK	_	t_2895|t_2894|ref=fr._19
+1	19ᵃ	19a	i	i--------	_	0	ExD	_	t_2894|0|ref=fr._19a
+2	.	.	u	u--------	_	1	AuxK	_	t_2895|t_2894|ref=fr._19a
 
-# source = Orphica, fr._19
+# source = Orphica, fr._19a
 # text = ἔρχεται ἐκ καθαρῶν καθαρά , χθονίων βασίλεια , Εὕκλεες Εὐβουλεῦ τε , Διὸς τέκος ἀγλά ’ , ἔχω δὲ Μνημοσύνης τόδε δῶρον ἀοίδιμον ἀνθρώποισιν .
 # sent_id = 200
-1	ἔρχεται	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_2896|t_2914|ref=fr._19
-2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_2897|t_2896|ref=fr._19
-3	καθαρῶν	καθαρός	a	a-p---ng-	Case=g|Gender=n|Number=p	2	OBJ	_	t_2898|t_2897|ref=fr._19
-4	καθαρά	καθαρός	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2899|t_2900|ref=fr._19
-5	,	,	u	u--------	_	12	AuxX	_	t_2900|t_2907|ref=fr._19
-6	χθονίων	χθόνιος	a	a-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_2901|t_2902|ref=fr._19
-7	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ExD	_	t_2902|t_2907|ref=fr._19
-8	,	,	u	u--------	_	12	AuxX	_	t_2903|t_2907|ref=fr._19
-9	Εὕκλεες	εὕδω	n	n-s---mv-	Case=v|Gender=m|Number=s	11	ExD	_	t_2904|t_2906|ref=fr._19
-10	Εὐβουλεῦ	εὐβουλεῦ	n	n-s---mv-	Case=v|Gender=m|Number=s	11	ExD	_	t_2905|t_2906|ref=fr._19
-11	τε	τε	g	g--------	_	12	COORD	_	t_2906|t_2907|ref=fr._19
-12	,	,	u	u--------	_	1	APOS	_	t_2907|t_2896|ref=fr._19
-13	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_2908|t_2909|ref=fr._19
-14	τέκος	τέκος	n	n-s---nv-	Case=v|Gender=n|Number=s	12	ExD	_	t_2909|t_2907|ref=fr._19
-15	ἀγλά	ἀγλά	a	a-s---fn-	Case=v|Gender=f|Number=s	12	ExD	_	t_2910|t_2907|ref=fr._19
-16	’	’	a	a-p---nn-	Case=n|Gender=n|Number=p	15	ATR	_	t_2911|t_2910|ref=fr._19
-17	,	,	u	u--------	_	19	AuxX	_	t_2912|t_2914|ref=fr._19
-18	ἔχω	ἔχω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	19	PRED	_	t_2913|t_2914|ref=fr._19
-19	δὲ	δέ	g	g--------	_	0	COORD	_	t_2914|0|ref=fr._19
-20	Μνημοσύνης	μνημοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2915|t_2917|ref=fr._19
-21	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_2916|t_2917|ref=fr._19
-22	δῶρον	δῶρον	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_2917|t_2913|ref=fr._19
-23	ἀοίδιμον	ἀοίδιμος	a	a-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_2918|t_2917|ref=fr._19
-24	ἀνθρώποισιν	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_2919|t_2918|ref=fr._19
-25	.	.	u	u--------	_	19	AuxK	_	t_2920|t_2914|ref=fr._19
+1	ἔρχεται	ἔρχομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	19	PRED	_	t_2896|t_2914|ref=fr._19a
+2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_2897|t_2896|ref=fr._19a
+3	καθαρῶν	καθαρός	a	a-p---ng-	Case=g|Gender=n|Number=p	2	OBJ	_	t_2898|t_2897|ref=fr._19a
+4	καθαρά	καθαρός	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2899|t_2900|ref=fr._19a
+5	,	,	u	u--------	_	12	AuxX	_	t_2900|t_2907|ref=fr._19a
+6	χθονίων	χθόνιος	a	a-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_2901|t_2902|ref=fr._19a
+7	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	12	ExD	_	t_2902|t_2907|ref=fr._19a
+8	,	,	u	u--------	_	12	AuxX	_	t_2903|t_2907|ref=fr._19a
+9	Εὕκλεες	εὕδω	n	n-s---mv-	Case=v|Gender=m|Number=s	11	ExD	_	t_2904|t_2906|ref=fr._19a
+10	Εὐβουλεῦ	εὐβουλεῦ	n	n-s---mv-	Case=v|Gender=m|Number=s	11	ExD	_	t_2905|t_2906|ref=fr._19a
+11	τε	τε	g	g--------	_	12	COORD	_	t_2906|t_2907|ref=fr._19a
+12	,	,	u	u--------	_	1	APOS	_	t_2907|t_2896|ref=fr._19a
+13	Διὸς	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_2908|t_2909|ref=fr._19a
+14	τέκος	τέκος	n	n-s---nv-	Case=v|Gender=n|Number=s	12	ExD	_	t_2909|t_2907|ref=fr._19a
+15	ἀγλά	ἀγλά	a	a-s---fn-	Case=v|Gender=f|Number=s	12	ExD	_	t_2910|t_2907|ref=fr._19a
+16	’	’	a	a-p---nn-	Case=n|Gender=n|Number=p	15	ATR	_	t_2911|t_2910|ref=fr._19a
+17	,	,	u	u--------	_	19	AuxX	_	t_2912|t_2914|ref=fr._19a
+18	ἔχω	ἔχω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	19	PRED	_	t_2913|t_2914|ref=fr._19a
+19	δὲ	δέ	g	g--------	_	0	COORD	_	t_2914|0|ref=fr._19a
+20	Μνημοσύνης	μνημοσύνη	n	n-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_2915|t_2917|ref=fr._19a
+21	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_2916|t_2917|ref=fr._19a
+22	δῶρον	δῶρον	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_2917|t_2913|ref=fr._19a
+23	ἀοίδιμον	ἀοίδιμος	a	a-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_2918|t_2917|ref=fr._19a
+24	ἀνθρώποισιν	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_2919|t_2918|ref=fr._19a
+25	.	.	u	u--------	_	19	AuxK	_	t_2920|t_2914|ref=fr._19a
 
-# source = Orphica, fr._19
+# source = Orphica, fr._19a
 # text = Καικιλία Σεκουνδεῖνα , νόμωι ἴθι δῖα γεγῶσα [0] .
 # sent_id = 201
-1	Καικιλία	καικίλιος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2921|t_2922|ref=fr._19
-2	Σεκουνδεῖνα	σεκουνδεῖνος	n	n-s---fn-	Case=n|Gender=f|Number=s	8	ExD	_	t_2922|e_70|ref=fr._19
-3	,	,	u	u--------	_	7	AuxX	_	t_2923|t_2927|ref=fr._19
-4	νόμωι	νόμος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_2924|t_2927|ref=fr._19
-5	ἴθι	εἶμι	d	d--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	7	ADV	_	t_2925|t_2927|ref=fr._19
-6	δῖα	δῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_2926|e_70|ref=fr._19
-7	γεγῶσα	γίγνομαι	v	v-srpafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	8	ADV	_	t_2927|e_70|ref=fr._19
-8	[0]	[0]	-	---------	_	0	PRED	_	e_70|0|ref=fr._2
-9	.	.	u	u--------	_	8	AuxK	_	t_2928|e_70|ref=fr._19
+1	Καικιλία	καικίλιος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_2921|t_2922|ref=fr._19a
+2	Σεκουνδεῖνα	σεκουνδεῖνος	n	n-s---fn-	Case=n|Gender=f|Number=s	8	ExD	_	t_2922|e_70|ref=fr._19a
+3	,	,	u	u--------	_	7	AuxX	_	t_2923|t_2927|ref=fr._19a
+4	νόμωι	νόμος	n	n-s---md-	Case=d|Gender=m|Number=s	7	ADV	_	t_2924|t_2927|ref=fr._19a
+5	ἴθι	εἶμι	d	d--------	Mood=m|Number=s|Person=2|Tense=p|Voice=a	7	ADV	_	t_2925|t_2927|ref=fr._19a
+6	δῖα	δῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	8	PNOM	_	t_2926|e_70|ref=fr._19a
+7	γεγῶσα	γίγνομαι	v	v-srpafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	8	ADV	_	t_2927|e_70|ref=fr._19a
+8	[0]	[0]	-	---------	_	0	PRED	_	e_70|0|ref=fr._19a
+9	.	.	u	u--------	_	8	AuxK	_	t_2928|e_70|ref=fr._19a
 
-# source = Orphica, fr._19
+# source = Orphica, fr._20
 # text = 20 .
 # sent_id = 202
-1	20	2	u	u--------	_	0	AuxG	_	t_2929|0|ref=fr._19
-2	.	.	u	u--------	_	1	AuxK	_	t_2930|t_2929|ref=fr._19
+1	20	2	u	u--------	_	0	AuxG	_	t_2929|0|ref=fr._20
+2	.	.	u	u--------	_	1	AuxK	_	t_2930|t_2929|ref=fr._20
 
-# source = Orphica, fr._19
+# source = Orphica, fr._20
 # text = ἀλλ ’ ὁπόταμ ψυχὴ προλίπηι φάος ἀελίοιο , δεξιὸν ἔνθ ’ , ἇς δεῖ [ τινα ] , πεφυλαγμένον εὖ μάλα πάντα [0] .
 # sent_id = 203
-1	ἀλλ	ἀλλά	d	d--------	_	2	COORD	_	t_2931|t_2932|ref=fr._19
-2	’	’	c	c--------	_	0	COORD	_	t_2932|0|ref=fr._19
-3	ὁπόταμ	ὁπότε	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_2933|t_2934|ref=fr._19
-4	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_2934|t_2935|ref=fr._18
-5	προλίπηι	προλείπω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_2935|t_2940|ref=fr._19
-6	φάος	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_2936|t_2935|ref=fr._19
-7	ἀελίοιο	ἥλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_2937|t_2936|ref=fr._19
-8	,	,	u	u--------	_	5	AuxX	_	t_2938|t_2935|ref=fr._19
-9	δεξιὸν	δεξιός	a	a-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_2939|e_71|ref=fr._19
-10	ἔνθ	ἔνθα	d	d--------	_	14	ADV	_	t_2940|t_2944|ref=fr._19
-11	’	’	d	d--------	_	14	ADV	_	t_2941|t_2944|ref=fr._19
-12	,	,	u	u--------	_	13	AuxX	_	t_2942|t_2943|ref=fr._19
-13	ἇς	ὅς	d	d--------	_	23	ADV	_	t_2943|e_71|ref=fr._19
-14	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_2944|t_2932|ref=fr._19
-15	[	[	u	u--------	_	14	AuxX	_	t_2945|t_2944|ref=fr._19
-16	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	23	SBJ	_	t_2946|e_71|ref=fr._19
-17	]	]	u	u--------	_	23	AuxG	_	t_2947|e_71|ref=fr._19
-18	,	,	u	u--------	_	19	AuxX	_	t_2948|t_2949|ref=fr._19
-19	πεφυλαγμένον	φυλάσσω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	23	ADV	_	t_2949|e_71|ref=fr._19
-20	εὖ	εὖ	d	d--------	_	19	ADV	_	t_2950|t_2949|ref=fr._19
-21	μάλα	μάλα	d	d--------	_	20	AuxZ	_	t_2951|t_2950|ref=fr._19
-22	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_2952|t_2949|ref=fr._19
-23	[0]	[0]	-	---------	_	14	SBJ	_	e_71|t_2944|ref=fr._2
-24	.	.	u	u--------	_	2	AuxK	_	t_2953|t_2932|ref=fr._19
+1	ἀλλ	ἀλλά	d	d--------	_	2	COORD	_	t_2931|t_2932|ref=fr._20
+2	’	’	c	c--------	_	0	COORD	_	t_2932|0|ref=fr._20
+3	ὁπόταμ	ὁπότε	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_2933|t_2934|ref=fr._20
+4	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_2934|t_2935|ref=fr._20
+5	προλίπηι	προλείπω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	10	ADV	_	t_2935|t_2940|ref=fr._20
+6	φάος	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_2936|t_2935|ref=fr._20
+7	ἀελίοιο	ἥλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_2937|t_2936|ref=fr._20
+8	,	,	u	u--------	_	5	AuxX	_	t_2938|t_2935|ref=fr._20
+9	δεξιὸν	δεξιός	a	a-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_2939|e_71|ref=fr._20
+10	ἔνθ	ἔνθα	d	d--------	_	14	ADV	_	t_2940|t_2944|ref=fr._20
+11	’	’	d	d--------	_	14	ADV	_	t_2941|t_2944|ref=fr._20
+12	,	,	u	u--------	_	13	AuxX	_	t_2942|t_2943|ref=fr._20
+13	ἇς	ὅς	d	d--------	_	23	ADV	_	t_2943|e_71|ref=fr._20
+14	δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_2944|t_2932|ref=fr._20
+15	[	[	u	u--------	_	14	AuxX	_	t_2945|t_2944|ref=fr._20
+16	τινα	τις	p	p-s---ma-	Case=a|Gender=m|Number=s	23	SBJ	_	t_2946|e_71|ref=fr._20
+17	]	]	u	u--------	_	23	AuxG	_	t_2947|e_71|ref=fr._20
+18	,	,	u	u--------	_	19	AuxX	_	t_2948|t_2949|ref=fr._20
+19	πεφυλαγμένον	φυλάσσω	v	v-srpema-	Case=a|Gender=m|Mood=p|Number=s|Tense=r|Voice=e	23	ADV	_	t_2949|e_71|ref=fr._20
+20	εὖ	εὖ	d	d--------	_	19	ADV	_	t_2950|t_2949|ref=fr._20
+21	μάλα	μάλα	d	d--------	_	20	AuxZ	_	t_2951|t_2950|ref=fr._20
+22	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_2952|t_2949|ref=fr._20
+23	[0]	[0]	-	---------	_	14	SBJ	_	e_71|t_2944|ref=fr._20
+24	.	.	u	u--------	_	2	AuxK	_	t_2953|t_2932|ref=fr._20
 
-# source = Orphica, fr._19
+# source = Orphica, fr._20
 # text = χαῖρε παθὼν τὸ πάθημα ·
 # sent_id = 204
-1	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_2954|0|ref=fr._19
-2	παθὼν	πάσχω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ADV	_	t_2955|t_2954|ref=fr._19
-3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_2956|t_2957|ref=fr._19
-4	πάθημα	πάθημα	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_2957|t_2955|ref=fr._19
-5	·	·	u	u--------	_	1	AuxK	_	t_2958|t_2954|ref=fr._19
+1	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_2954|0|ref=fr._20
+2	παθὼν	πάσχω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	1	ADV	_	t_2955|t_2954|ref=fr._20
+3	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_2956|t_2957|ref=fr._20
+4	πάθημα	πάθημα	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_2957|t_2955|ref=fr._20
+5	·	·	u	u--------	_	1	AuxK	_	t_2958|t_2954|ref=fr._20
 
-# source = Orphica, fr._19-19a
+# source = Orphica, fr._20
 # text = τὸ δʼ οὔπω πρόσθ ( ε ) ἐπεπόνθεις ·
 # sent_id = 205
-1	τὸ	ὁ	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_2959|t_2966|ref=fr._19
-2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2960|0|ref=fr._19
-3	οὔπω	οὔπω	d	d--------	_	8	AuxZ	_	t_2961|t_2966|ref=fr._19
-4	πρόσθ	πρόσθεν	d	d--------	_	8	ADV	_	t_2962|t_2966|ref=fr._19
-5	(	̔	u	u--------	_	8	AuxG	_	t_2963|t_2966|ref=fr._19a
-6	ε	ε	x	x--------	_	8	OBJ	_	t_2964|t_2966|ref=fr._19a
-7	)	)	u	u--------	_	8	AuxG	_	t_2965|t_2966|ref=fr._19a
-8	ἐπεπόνθεις	πάσχω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	2	PRED	_	t_2966|t_2960|ref=fr._19a
-9	·	·	u	u--------	_	2	AuxK	_	t_2967|t_2960|ref=fr._19a
+1	τὸ	ὁ	p	p-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_2959|t_2966|ref=fr._20
+2	δʼ	δέ	g	g--------	_	0	COORD	_	t_2960|0|ref=fr._20
+3	οὔπω	οὔπω	d	d--------	_	8	AuxZ	_	t_2961|t_2966|ref=fr._20
+4	πρόσθ	πρόσθεν	d	d--------	_	8	ADV	_	t_2962|t_2966|ref=fr._20
+5	(	̔	u	u--------	_	8	AuxG	_	t_2963|t_2966|ref=fr._20
+6	ε	ε	x	x--------	_	8	OBJ	_	t_2964|t_2966|ref=fr._20
+7	)	)	u	u--------	_	8	AuxG	_	t_2965|t_2966|ref=fr._20
+8	ἐπεπόνθεις	πάσχω	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	2	PRED	_	t_2966|t_2960|ref=fr._20
+9	·	·	u	u--------	_	2	AuxK	_	t_2967|t_2960|ref=fr._20
 
-# source = Orphica, fr._19a
+# source = Orphica, fr._20
 # text = θεὸς ἐγένου ἐξ ἀνθρώπου ·
 # sent_id = 206
-1	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	PNOM	_	t_2968|t_2969|ref=fr._19a
-2	ἐγένου	γίγνομαι	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_2969|0|ref=fr._19a
-3	ἐξ	ἐκ	r	r--------	_	2	AuxP	_	t_2970|t_2969|ref=fr._19a
-4	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_2971|t_2970|ref=fr._19a
-5	·	·	u	u--------	_	2	AuxK	_	t_2972|t_2969|ref=fr._19a
+1	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	PNOM	_	t_2968|t_2969|ref=fr._20
+2	ἐγένου	γίγνομαι	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_2969|0|ref=fr._20
+3	ἐξ	ἐκ	r	r--------	_	2	AuxP	_	t_2970|t_2969|ref=fr._20
+4	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_2971|t_2970|ref=fr._20
+5	·	·	u	u--------	_	2	AuxK	_	t_2972|t_2969|ref=fr._20
 
-# source = Orphica, fr._19a
+# source = Orphica, fr._20
 # text = ἔριφος ἐς γάλα ἔπετες .
 # sent_id = 207
-1	ἔριφος	ἔριφος	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_2973|t_2976|ref=fr._19a
-2	ἐς	εἰς	r	r--------	_	4	AuxP	_	t_2974|t_2976|ref=fr._19a
-3	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_2975|t_2974|ref=fr._19a
-4	ἔπετες	πέτομαι	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	PRED	_	t_2976|0|ref=fr._19a
-5	.	.	u	u--------	_	4	AuxK	_	t_2977|t_2976|ref=fr._19a
+1	ἔριφος	ἔριφος	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_2973|t_2976|ref=fr._20
+2	ἐς	εἰς	r	r--------	_	4	AuxP	_	t_2974|t_2976|ref=fr._20
+3	γάλα	γάλα	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_2975|t_2974|ref=fr._20
+4	ἔπετες	πέτομαι	v	v2siia---	Mood=i|Number=s|Person=2|Tense=i|Voice=a	0	PRED	_	t_2976|0|ref=fr._20
+5	.	.	u	u--------	_	4	AuxK	_	t_2977|t_2976|ref=fr._20
 
-# source = Orphica, fr._19a-19
+# source = Orphica, fr._20
 # text = χαῖρε , χαῖρε , δεξιὰν ὁδοιπορ 〈 ῶν 〉 λειμῶνάς τ ( ε ) ἱεροὺς κατά τʼ ἄλσεα Φερσεφονείας .
 # sent_id = 208
-1	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	2	PRED	_	t_2978|t_2979|ref=fr._19a
-2	,	,	u	u--------	_	0	COORD	_	t_2979|0|ref=fr._19a
-3	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	PRED	_	t_2980|t_2981|ref=fr._19a
-4	,	,	u	u--------	_	2	AuxX	_	t_2981|t_2979|ref=fr._19a
-5	δεξιὰν	δεξιός	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_2982|t_2983|ref=fr._19a
-6	ὁδοιπορ	ὁδοιπορέω	v	v-sppamn-	_	4	PRED	_	t_2983|t_2981|ref=fr._19a
-7	〈	〈	u	u--------	_	2	AuxX	_	t_2984|t_2979|ref=fr._19a
-8	ῶν	ό	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_2985|t_2983|ref=fr._19a
-9	〉	〉	u	u--------	_	6	AuxX	_	t_2986|t_2983|ref=fr._19a
-10	λειμῶνάς	λειμών	n	n-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_2987|t_2994|ref=fr._19a
-11	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_2988|t_2990|ref=fr._19a
-12	(	̔	u	u--------	_	13	AuxX	_	t_2989|t_2990|ref=fr._19a
-13	ε	ε	m	m--------	_	10	APOS	_	t_2990|t_2987|ref=fr._19a
-14	)	)	u	u--------	_	4	AuxG	_	t_2991|t_2981|ref=fr._19a
-15	ἱεροὺς	ἱερός	a	a-p---ma-	Case=a|Gender=m|Number=p	10	ATR	_	t_2992|t_2987|ref=fr._19a
-16	κατά	κατά	r	r--------	_	17	AuxP	_	t_2993|t_2994|ref=fr._19a
-17	τʼ	τε	g	g--------	_	6	COORD	_	t_2994|t_2983|ref=fr._19a
-18	ἄλσεα	ἄλσος	n	n-p---na-	Case=a|Gender=n|Number=p	16	ADV	_	t_2995|t_2993|ref=fr._19a
-19	Φερσεφονείας	φερσεφόνεια	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_2996|t_2995|ref=fr._19a
-20	.	.	u	u--------	_	2	AuxK	_	t_2997|t_2979|ref=fr._19
+1	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	2	PRED	_	t_2978|t_2979|ref=fr._20
+2	,	,	u	u--------	_	0	COORD	_	t_2979|0|ref=fr._20
+3	χαῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	4	PRED	_	t_2980|t_2981|ref=fr._20
+4	,	,	u	u--------	_	2	AuxX	_	t_2981|t_2979|ref=fr._20
+5	δεξιὰν	δεξιός	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_2982|t_2983|ref=fr._20
+6	ὁδοιπορ	ὁδοιπορέω	v	v-sppamn-	_	4	PRED	_	t_2983|t_2981|ref=fr._20
+7	〈	〈	u	u--------	_	2	AuxX	_	t_2984|t_2979|ref=fr._20
+8	ῶν	ό	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_2985|t_2983|ref=fr._20
+9	〉	〉	u	u--------	_	6	AuxX	_	t_2986|t_2983|ref=fr._20
+10	λειμῶνάς	λειμών	n	n-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_2987|t_2994|ref=fr._20
+11	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_2988|t_2990|ref=fr._20
+12	(	̔	u	u--------	_	13	AuxX	_	t_2989|t_2990|ref=fr._20
+13	ε	ε	m	m--------	_	10	APOS	_	t_2990|t_2987|ref=fr._20
+14	)	)	u	u--------	_	4	AuxG	_	t_2991|t_2981|ref=fr._20
+15	ἱεροὺς	ἱερός	a	a-p---ma-	Case=a|Gender=m|Number=p	10	ATR	_	t_2992|t_2987|ref=fr._20
+16	κατά	κατά	r	r--------	_	17	AuxP	_	t_2993|t_2994|ref=fr._20
+17	τʼ	τε	g	g--------	_	6	COORD	_	t_2994|t_2983|ref=fr._20
+18	ἄλσεα	ἄλσος	n	n-p---na-	Case=a|Gender=n|Number=p	16	ADV	_	t_2995|t_2993|ref=fr._20
+19	Φερσεφονείας	φερσεφόνεια	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_2996|t_2995|ref=fr._20
+20	.	.	u	u--------	_	2	AuxK	_	t_2997|t_2979|ref=fr._20
 
-# source = Orphica, fr._19a-20
+# source = Orphica, fr._21
 # text = 21 .
 # sent_id = 209
-1	21	21	x	x--------	_	0	AuxG	_	t_2998|0|ref=fr._19a
-2	.	.	u	u--------	_	1	AuxK	_	t_2999|t_2998|ref=fr._20
+1	21	21	x	x--------	_	0	AuxG	_	t_2998|0|ref=fr._21
+2	.	.	u	u--------	_	1	AuxK	_	t_2999|t_2998|ref=fr._21
 
-# source = Orphica, fr._20
+# source = Orphica, fr._21
 # text = πρατογόνωι Γῆι ματρὶ ἔφη Κυβελήια Κόρρα · . . . .
 # sent_id = 210
-1	πρατογόνωι	πρατώριος	a	a-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_3000|t_3002|ref=fr._20
-2	Γῆι	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_3001|t_3002|ref=fr._20
-3	ματρὶ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_3002|t_3003|ref=fr._20
-4	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_3003|0|ref=fr._20
-5	Κυβελήια	κυβελήιος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_3004|t_3005|ref=fr._20
-6	Κόρρα	κόρρη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_3005|t_3003|ref=fr._20
-7	·	·	u	u--------	_	4	AuxK	_	t_3006|t_3003|ref=fr._20
-8	.	.	u	u--------	_	4	AuxK	_	t_3007|t_3003|ref=fr._20
-9	.	.	u	u--------	_	4	AuxK	_	t_3008|t_3003|ref=fr._20
-10	.	.	u	u--------	_	4	AuxK	_	t_3009|t_3003|ref=fr._20
-11	.	.	u	u--------	_	4	AuxK	_	t_3010|t_3003|ref=fr._20
+1	πρατογόνωι	πρατώριος	a	a-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_3000|t_3002|ref=fr._21
+2	Γῆι	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_3001|t_3002|ref=fr._21
+3	ματρὶ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	OBJ	_	t_3002|t_3003|ref=fr._21
+4	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_3003|0|ref=fr._21
+5	Κυβελήια	κυβελήιος	a	a-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_3004|t_3005|ref=fr._21
+6	Κόρρα	κόρρη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_3005|t_3003|ref=fr._21
+7	·	·	u	u--------	_	4	AuxK	_	t_3006|t_3003|ref=fr._21
+8	.	.	u	u--------	_	4	AuxK	_	t_3007|t_3003|ref=fr._21
+9	.	.	u	u--------	_	4	AuxK	_	t_3008|t_3003|ref=fr._21
+10	.	.	u	u--------	_	4	AuxK	_	t_3009|t_3003|ref=fr._21
+11	.	.	u	u--------	_	4	AuxK	_	t_3010|t_3003|ref=fr._21
 
-# source = Orphica, fr._20
+# source = Orphica, fr._21
 # text = Δήμητρος . . .
 # sent_id = 211
-1	Δήμητρος	δημήτηρ	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_3011|0|ref=fr._20
-2	.	.	u	u--------	_	1	AuxK	_	t_3012|t_3011|ref=fr._20
-3	.	.	u	u--------	_	1	AuxK	_	t_3013|t_3011|ref=fr._20
-4	.	.	u	u--------	_	1	AuxK	_	t_3014|t_3011|ref=fr._20
+1	Δήμητρος	δημήτηρ	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_3011|0|ref=fr._21
+2	.	.	u	u--------	_	1	AuxK	_	t_3012|t_3011|ref=fr._21
+3	.	.	u	u--------	_	1	AuxK	_	t_3013|t_3011|ref=fr._21
+4	.	.	u	u--------	_	1	AuxK	_	t_3014|t_3011|ref=fr._21
 
-# source = Orphica, fr._20
+# source = Orphica, fr._21
 # text = πανόπτα Ζεῦ . . . . . . . [0] .
 # sent_id = 212
-1	πανόπτα	πανόπτης	i	i--------	_	10	ExD	_	t_3015|e_72|ref=fr._20
-2	Ζεῦ	ζεύς	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_3016|e_72|ref=fr._20
-3	.	.	u	u--------	_	10	AuxK	_	t_3017|e_72|ref=fr._20
-4	.	.	u	u--------	_	10	AuxK	_	t_3018|e_72|ref=fr._20
-5	.	.	u	u--------	_	10	AuxK	_	t_3019|e_72|ref=fr._20
-6	.	.	u	u--------	_	10	AuxK	_	t_3020|e_72|ref=fr._20
-7	.	.	u	u--------	_	10	AuxK	_	t_3021|e_72|ref=fr._20
-8	.	.	u	u--------	_	10	AuxK	_	t_3022|e_72|ref=fr._20
-9	.	.	u	u--------	_	10	AuxK	_	t_3023|e_72|ref=fr._19
-10	[0]	[0]	-	---------	_	0	PRED	_	e_72|0|ref=fr._2
-11	.	.	u	u--------	_	10	AuxK	_	t_3024|e_72|ref=fr._20
+1	πανόπτα	πανόπτης	i	i--------	_	10	ExD	_	t_3015|e_72|ref=fr._21
+2	Ζεῦ	ζεύς	n	n-s---mv-	Case=v|Gender=m|Number=s	10	ExD	_	t_3016|e_72|ref=fr._21
+3	.	.	u	u--------	_	10	AuxK	_	t_3017|e_72|ref=fr._21
+4	.	.	u	u--------	_	10	AuxK	_	t_3018|e_72|ref=fr._21
+5	.	.	u	u--------	_	10	AuxK	_	t_3019|e_72|ref=fr._21
+6	.	.	u	u--------	_	10	AuxK	_	t_3020|e_72|ref=fr._21
+7	.	.	u	u--------	_	10	AuxK	_	t_3021|e_72|ref=fr._21
+8	.	.	u	u--------	_	10	AuxK	_	t_3022|e_72|ref=fr._21
+9	.	.	u	u--------	_	10	AuxK	_	t_3023|e_72|ref=fr._21
+10	[0]	[0]	-	---------	_	0	PRED	_	e_72|0|ref=fr._21
+11	.	.	u	u--------	_	10	AuxK	_	t_3024|e_72|ref=fr._21
 
-# source = Orphica, fr._20
+# source = Orphica, fr._21
 # text = Ἥλιε Πῦρ διὰ πάντʼ ἄστη νίσεαι , ὅτε Νίκαις ἠδὲ Τύχαις ἐφάνης 〈 καὶ ὁμου 〉 παμμήστορι .
 # sent_id = 213
-1	Ἥλιε	ἥλιος	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ATR	_	t_3025|t_3026|ref=fr._20
-2	Πῦρ	πῦρ	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_3026|t_3030|ref=fr._20
-3	διὰ	διά	r	r--------	_	5	AuxZ	_	t_3027|t_3029|ref=fr._20
-4	πάντʼ	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	3	ADV	_	t_3028|t_3027|ref=fr._20
-5	ἄστη	ἄστη	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	OBJ	_	t_3029|t_3030|ref=fr._20
-6	νίσεαι	νίσσομαι	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	0	PRED	_	t_3030|0|ref=fr._20
-7	,	,	u	u--------	_	8	AuxX	_	t_3031|t_3032|ref=fr._20
-8	ὅτε	ὅτε	c	c--------	_	6	AuxC	_	t_3032|t_3030|ref=fr._20
-9	Νίκαις	νίκη	n	n-p---fd-	Case=d|Gender=f|Number=p	14	OBJ	_	t_3033|t_3038|ref=fr._20
-10	ἠδὲ	ἠδέ	c	c--------	_	14	COORD	_	t_3034|t_3038|ref=fr._20
-11	Τύχαις	τύχη	n	n-p---fd-	Case=d|Gender=f|Number=p	14	OBJ	_	t_3035|t_3038|ref=fr._20
-12	ἐφάνης	φαίνω	v	v2saip---	Mood=i|Number=s|Person=2|Tense=a|Voice=p	8	ADV	_	t_3036|t_3032|ref=fr._20
-13	〈	〈	u	u--------	_	14	AuxX	_	t_3037|t_3038|ref=fr._20
-14	καὶ	καί	c	c--------	_	12	COORD	_	t_3038|t_3036|ref=fr._20
-15	ὁμου	ὁμοῦ	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_3039|t_3038|ref=fr._20
-16	〉	〉	u	u--------	_	12	AuxX	_	t_3040|t_3036|ref=fr._20
-17	παμμήστορι	παμμήτωρ	n	n-s---md-	Case=d|Gender=m|Number=s	14	ATV	_	t_3041|t_3038|ref=fr._20
-18	.	.	u	u--------	_	6	AuxK	_	t_3042|t_3030|ref=fr._20
+1	Ἥλιε	ἥλιος	n	n-s---mv-	Case=v|Gender=m|Number=s	2	ATR	_	t_3025|t_3026|ref=fr._21
+2	Πῦρ	πῦρ	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_3026|t_3030|ref=fr._21
+3	διὰ	διά	r	r--------	_	5	AuxZ	_	t_3027|t_3029|ref=fr._21
+4	πάντʼ	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	3	ADV	_	t_3028|t_3027|ref=fr._21
+5	ἄστη	ἄστη	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	OBJ	_	t_3029|t_3030|ref=fr._21
+6	νίσεαι	νίσσομαι	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	0	PRED	_	t_3030|0|ref=fr._21
+7	,	,	u	u--------	_	8	AuxX	_	t_3031|t_3032|ref=fr._21
+8	ὅτε	ὅτε	c	c--------	_	6	AuxC	_	t_3032|t_3030|ref=fr._21
+9	Νίκαις	νίκη	n	n-p---fd-	Case=d|Gender=f|Number=p	14	OBJ	_	t_3033|t_3038|ref=fr._21
+10	ἠδὲ	ἠδέ	c	c--------	_	14	COORD	_	t_3034|t_3038|ref=fr._21
+11	Τύχαις	τύχη	n	n-p---fd-	Case=d|Gender=f|Number=p	14	OBJ	_	t_3035|t_3038|ref=fr._21
+12	ἐφάνης	φαίνω	v	v2saip---	Mood=i|Number=s|Person=2|Tense=a|Voice=p	8	ADV	_	t_3036|t_3032|ref=fr._21
+13	〈	〈	u	u--------	_	14	AuxX	_	t_3037|t_3038|ref=fr._21
+14	καὶ	καί	c	c--------	_	12	COORD	_	t_3038|t_3036|ref=fr._21
+15	ὁμου	ὁμοῦ	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_3039|t_3038|ref=fr._21
+16	〉	〉	u	u--------	_	12	AuxX	_	t_3040|t_3036|ref=fr._21
+17	παμμήστορι	παμμήτωρ	n	n-s---md-	Case=d|Gender=m|Number=s	14	ATV	_	t_3041|t_3038|ref=fr._21
+18	.	.	u	u--------	_	6	AuxK	_	t_3042|t_3030|ref=fr._21
 
-# source = Orphica, fr._20
+# source = Orphica, fr._21
 # text = Μοίραι , 5τῆι τοι γάννυα πιαίνεις τῆι σῆι , κλυτὲ δαῖμον , δεσποτείαι ·
 # sent_id = 214
-1	Μοίραι	μοῖρα	n	n-p---fv-	Case=v|Gender=f|Number=p	6	ExD	_	t_3043|t_3048|ref=fr._20
-2	,	,	u	u--------	_	1	AuxX	_	t_3044|t_3043|ref=fr._20
-3	5τῆι	5	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_3045|t_3047|ref=fr._20
-4	τοι	σύ	d	d--------	_	6	AuxY	_	t_3046|t_3048|ref=fr._20
-5	γάννυα	γάνυμαι	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_3047|t_3048|ref=fr._20
-6	πιαίνεις	πιαίνω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_3048|0|ref=fr._20
-7	τῆι	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_3049|t_3050|ref=fr._20
-8	σῆι	σός	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_3050|t_3047|ref=fr._20
-9	,	,	u	u--------	_	1	AuxX	_	t_3051|t_3043|ref=fr._20
-10	κλυτὲ	κλυτός	a	a-s---mv-	Case=v|Gender=m|Number=s	11	ATR	_	t_3052|t_3053|ref=fr._20
-11	δαῖμον	δαίμων	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_3053|t_3048|ref=fr._20
-12	,	,	u	u--------	_	6	AuxX	_	t_3054|t_3048|ref=fr._20
-13	δεσποτείαι	δεσποτεία	n	n-p---fv-	Case=v|Gender=f|Number=p	6	ExD	_	t_3055|t_3048|ref=fr._20
-14	·	·	u	u--------	_	6	AuxK	_	t_3056|t_3048|ref=fr._20
+1	Μοίραι	μοῖρα	n	n-p---fv-	Case=v|Gender=f|Number=p	6	ExD	_	t_3043|t_3048|ref=fr._21
+2	,	,	u	u--------	_	1	AuxX	_	t_3044|t_3043|ref=fr._21
+3	5τῆι	5	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_3045|t_3047|ref=fr._21
+4	τοι	σύ	d	d--------	_	6	AuxY	_	t_3046|t_3048|ref=fr._21
+5	γάννυα	γάνυμαι	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_3047|t_3048|ref=fr._21
+6	πιαίνεις	πιαίνω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_3048|0|ref=fr._21
+7	τῆι	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_3049|t_3050|ref=fr._21
+8	σῆι	σός	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_3050|t_3047|ref=fr._21
+9	,	,	u	u--------	_	1	AuxX	_	t_3051|t_3043|ref=fr._21
+10	κλυτὲ	κλυτός	a	a-s---mv-	Case=v|Gender=m|Number=s	11	ATR	_	t_3052|t_3053|ref=fr._21
+11	δαῖμον	δαίμων	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_3053|t_3048|ref=fr._21
+12	,	,	u	u--------	_	6	AuxX	_	t_3054|t_3048|ref=fr._21
+13	δεσποτείαι	δεσποτεία	n	n-p---fv-	Case=v|Gender=f|Number=p	6	ExD	_	t_3055|t_3048|ref=fr._21
+14	·	·	u	u--------	_	6	AuxK	_	t_3056|t_3048|ref=fr._21
 
-# source = Orphica, fr._20-21
+# source = Orphica, fr._21
 # text = τὶν πάντα δαμαστά , 〈 τὰ 〉 πάντα κρατυντά , ἐμβρόντητα δὲ πάντα [0] ·
 # sent_id = 215
-1	τὶν	σύ	p	p-p---ng-	_	14	ADV	_	t_3057|e_73|ref=fr._20
-2	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_3058|e_73|ref=fr._20
-3	δαμαστά	δαμαστός	a	a-p---nn-	Case=n|Gender=n|Number=p	14	PNOM	_	t_3059|e_73|ref=fr._20
-4	,	,	u	u--------	_	12	AuxX	_	t_3060|t_3068|ref=fr._20
-5	〈	〈	u	u--------	_	9	AuxX	_	t_3061|t_3065|ref=fr._20
-6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_3062|t_3064|ref=fr._20
-7	〉	〉	u	u--------	_	9	AuxX	_	t_3063|t_3065|ref=fr._20
-8	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_3064|t_3065|ref=fr._20
-9	κρατυντά	κρατυντός	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ATR	_	t_3065|t_3068|ref=fr._20
-10	,	,	u	u--------	_	12	AuxX	_	t_3066|t_3068|ref=fr._20
-11	ἐμβρόντητα	ἐμβρόντητος	a	a-p---nn-	Case=n|Gender=n|Number=p	12	PNOM	_	t_3067|t_3068|ref=fr._20
-12	δὲ	δέ	g	g--------	_	14	COORD	_	t_3068|e_73|ref=fr._20
+1	τὶν	σύ	p	p-p---ng-	_	14	ADV	_	t_3057|e_73|ref=fr._21
+2	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_3058|e_73|ref=fr._21
+3	δαμαστά	δαμαστός	a	a-p---nn-	Case=n|Gender=n|Number=p	14	PNOM	_	t_3059|e_73|ref=fr._21
+4	,	,	u	u--------	_	12	AuxX	_	t_3060|t_3068|ref=fr._21
+5	〈	〈	u	u--------	_	9	AuxX	_	t_3061|t_3065|ref=fr._21
+6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_3062|t_3064|ref=fr._21
+7	〉	〉	u	u--------	_	9	AuxX	_	t_3063|t_3065|ref=fr._21
+8	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_3064|t_3065|ref=fr._21
+9	κρατυντά	κρατυντός	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	12	ATR	_	t_3065|t_3068|ref=fr._21
+10	,	,	u	u--------	_	12	AuxX	_	t_3066|t_3068|ref=fr._21
+11	ἐμβρόντητα	ἐμβρόντητος	a	a-p---nn-	Case=n|Gender=n|Number=p	12	PNOM	_	t_3067|t_3068|ref=fr._21
+12	δὲ	δέ	g	g--------	_	14	COORD	_	t_3068|e_73|ref=fr._21
 13	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	14	SBJ	_	t_3069|e_73|ref=fr._21
-14	[0]	[0]	-	---------	_	0	PRED	_	e_73|0|ref=fr._2
+14	[0]	[0]	-	---------	_	0	PRED	_	e_73|0|ref=fr._21
 15	·	·	u	u--------	_	14	AuxK	_	t_3070|e_73|ref=fr._21
 
 # source = Orphica, fr._21
@@ -4010,7 +4010,7 @@
 4	Μοίρης	μοῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_3074|t_3072|ref=fr._21
 5	τλητέα	τλητέος	a	a-p---nn-	Case=n|Gender=n|Number=p	7	PNOM	_	t_3075|e_74|ref=fr._21
 6	πάντη	πάντῃ	d	d--------	_	7	ADV	_	t_3076|e_74|ref=fr._21
-7	[0]	[0]	-	---------	_	0	PRED	_	e_74|0|ref=fr._3
+7	[0]	[0]	-	---------	_	0	PRED	_	e_74|0|ref=fr._21
 8	.	.	u	u--------	_	7	AuxK	_	t_3077|e_74|ref=fr._21
 
 # source = Orphica, fr._21
@@ -4033,7 +4033,7 @@
 15	〉	〉	u	u--------	_	5	AuxG	_	t_3092|t_3082|ref=fr._21
 16	,	,	u	u--------	_	5	AuxX	_	t_3093|t_3082|ref=fr._21
 17	ἑπτά	ἑπτά	m	m--------	_	20	ATR	_	t_3094|t_3097|ref=fr._21
-18	τε	τε	d	d--------	_	21	AuxY	_	t_3095|t_3098|ref=fr._19
+18	τε	τε	d	d--------	_	21	AuxY	_	t_3095|t_3098|ref=fr._21
 19	νῆστιν	νῆστις	n	n-s---fa-	Case=a|Gender=f|Number=s	21	ADV	_	t_3096|t_3098|ref=fr._21
 20	νυξὶν	νύξ	n	n-p---fd-	Case=d|Gender=f|Number=p	21	ADV	_	t_3097|t_3098|ref=fr._21
 21	ἢ	ἤ1	c	c--------	_	5	COORD	_	t_3098|t_3082|ref=fr._21
@@ -4067,95 +4067,95 @@
 13	.	.	u	u--------	_	5	AuxK	_	t_3118|t_3110|ref=fr._21
 14	.	.	u	u--------	_	5	AuxK	_	t_3119|t_3110|ref=fr._21
 
-# source = Orphica, fr._21
+# source = Orphica, fr._22
 # text = 22 .
 # sent_id = 220
-1	22	22	x	x--------	_	0	AuxG	_	t_3120|0|ref=fr._21
-2	.	.	u	u--------	_	1	AuxK	_	t_3121|t_3120|ref=fr._21
+1	22	22	x	x--------	_	0	AuxG	_	t_3120|0|ref=fr._22
+2	.	.	u	u--------	_	1	AuxK	_	t_3121|t_3120|ref=fr._22
 
-# source = Orphica, fr._21
+# source = Orphica, fr._22
 # text = οὐχὶ καὶ Ἐπιγένης ἐν τῶι Περὶ τῆς Ὀρφέως ποιήσεως τὰ ἰδιάζοντα παρʼ Ὀρφεῖ ἐκτιθέμενός φησι κερκίσι καμπυλόχοισι τοῖς ἀρότροις μηνύεσθαι , στήμοσι δὲ τοῖς αὔλαξι , μίτον δὲ τὸ σπέρμα ἀλληγορεῖσθαι καὶ δάκρυα Διός τὸν ὄμβρον δηλοῦν Μοίρας τε αὖ τὰ μέρη τῆς Σελήνης , τριακάδα καὶ πεντεκαιδεκάτην καὶ νουμηνίαν ·
 # sent_id = 221
-1	οὐχὶ	οὐ	d	d--------	_	15	AuxZ	_	t_3122|t_3136|ref=fr._21
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_3123|t_3124|ref=fr._21
-3	Ἐπιγένης	ἐπιγένης	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_3124|t_3136|ref=fr._21
-4	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_3125|t_3136|ref=fr._21
-5	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_3126|t_3127|ref=fr._21
-6	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_3127|t_3125|ref=fr._21
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_3128|t_3130|ref=fr._21
-8	Ὀρφέως	ὀρφεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_3129|t_3130|ref=fr._21
-9	ποιήσεως	ποίησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_3130|t_3127|ref=fr._21
-10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_3131|t_3132|ref=fr._21
-11	ἰδιάζοντα	ἰδιάζω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	14	OBJ	_	t_3132|t_3135|ref=fr._21
-12	παρʼ	παρά	r	r--------	_	14	AuxP	_	t_3133|t_3135|ref=fr._21
-13	Ὀρφεῖ	ὀρφεύς	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_3134|t_3133|ref=fr._21
-14	ἐκτιθέμενός	ἐκτίθημι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	15	ADV	_	t_3135|t_3136|ref=fr._21
-15	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3136|0|ref=fr._21
-16	κερκίσι	κερκίς	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_3137|t_3144|ref=fr._21
-17	καμπυλόχοισι	καμπύλος	a	a-p---md-	Case=d|Gender=m|Number=p	16	ATR	_	t_3138|t_3137|ref=fr._21
-18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_3139|t_3140|ref=fr._21
-19	ἀρότροις	ἄροτρον	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_3140|t_3144|ref=fr._21
-20	μηνύεσθαι	μηνύω	v	v--pne---	Mood=n|Tense=p|Voice=e	28	OBJ	_	t_3141|t_3149|ref=fr._21
-21	,	,	u	u--------	_	15	AuxX	_	t_3142|t_3136|ref=fr._21
-22	στήμοσι	στήμων	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_3143|t_3144|ref=fr._21
-23	δὲ	δέ	d	d--------	_	20	COORD	_	t_3144|t_3141|ref=fr._21
-24	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	25	ATR	_	t_3145|t_3146|ref=fr._21
-25	αὔλαξι	αὔλαξ	n	n-p---md-	Case=d|Gender=m|Number=p	22	ATR	_	t_3146|t_3143|ref=fr._21
-26	,	,	u	u--------	_	15	AuxX	_	t_3147|t_3136|ref=fr._21
-27	μίτον	μίτος	a	a-s---na-	Case=a|Gender=n|Number=s	30	ATV	_	t_3148|t_3151|ref=fr._21
-28	δὲ	δέ	d	d--------	_	15	COORD	_	t_3149|t_3136|ref=fr._21
-29	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	ATR	_	t_3150|t_3151|ref=fr._21
-30	σπέρμα	σπέρμα	n	n-s---na-	Case=a|Gender=n|Number=s	31	SBJ	_	t_3151|t_3152|ref=fr._21
-31	ἀλληγορεῖσθαι	ἀλληγορέω	v	v--pne---	Mood=n|Tense=p|Voice=e	28	OBJ	_	t_3152|t_3149|ref=fr._21
-32	καὶ	καί	c	c--------	_	39	AuxY	_	t_3153|t_3160|ref=fr._21
-33	δάκρυα	δάκρυον	n	n-p---na-	Case=a|Gender=n|Number=p	39	OBJ	_	t_3154|t_3160|ref=fr._21
-34	Διός	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_3155|t_3154|ref=fr._21
-35	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	36	ATR	_	t_3156|t_3157|ref=fr._21
-36	ὄμβρον	ὄμβρος	n	n-s---ma-	Case=a|Gender=m|Number=s	33	ATR	_	t_3157|t_3154|ref=fr._21
-37	δηλοῦν	δηλόω	v	v--pna---	Mood=n|Tense=p|Voice=a	31	OBJ	_	t_3158|t_3152|ref=fr._21
-38	Μοίρας	μοῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_3159|t_3163|ref=fr._21
-39	τε	τε	c	c--------	_	37	COORD	_	t_3160|t_3158|ref=fr._21
-40	αὖ	αὖ	d	d--------	_	37	ADV	_	t_3161|t_3158|ref=fr._21
-41	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_3162|t_3163|ref=fr._21
-42	μέρη	μέρος	n	n-p---na-	Case=a|Gender=n|Number=p	49	OBJ	_	t_3163|t_3170|ref=fr._21
-43	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_3164|t_3165|ref=fr._21
-44	Σελήνης	σελήνη	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_3165|t_3163|ref=fr._21
-45	,	,	u	u--------	_	15	AuxX	_	t_3166|t_3136|ref=fr._21
-46	τριακάδα	τριακάς	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_3167|t_3170|ref=fr._21
-47	καὶ	καί	c	c--------	_	49	AuxY	_	t_3168|t_3170|ref=fr._21
-48	πεντεκαιδεκάτην	πεντεκαιδέκατος	a	a-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_3169|t_3170|ref=fr._21
-49	καὶ	καί	c	c--------	_	39	COORD	_	t_3170|t_3160|ref=fr._21
-50	νουμηνίαν	νουμηνία	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_3171|t_3170|ref=fr._21
-51	·	·	u	u--------	_	15	AuxK	_	t_3172|t_3136|ref=fr._21
+1	οὐχὶ	οὐ	d	d--------	_	15	AuxZ	_	t_3122|t_3136|ref=fr._22
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_3123|t_3124|ref=fr._22
+3	Ἐπιγένης	ἐπιγένης	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_3124|t_3136|ref=fr._22
+4	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_3125|t_3136|ref=fr._22
+5	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_3126|t_3127|ref=fr._22
+6	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_3127|t_3125|ref=fr._22
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_3128|t_3130|ref=fr._22
+8	Ὀρφέως	ὀρφεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_3129|t_3130|ref=fr._22
+9	ποιήσεως	ποίησις	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_3130|t_3127|ref=fr._22
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_3131|t_3132|ref=fr._22
+11	ἰδιάζοντα	ἰδιάζω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	14	OBJ	_	t_3132|t_3135|ref=fr._22
+12	παρʼ	παρά	r	r--------	_	14	AuxP	_	t_3133|t_3135|ref=fr._22
+13	Ὀρφεῖ	ὀρφεύς	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_3134|t_3133|ref=fr._22
+14	ἐκτιθέμενός	ἐκτίθημι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	15	ADV	_	t_3135|t_3136|ref=fr._22
+15	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3136|0|ref=fr._22
+16	κερκίσι	κερκίς	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_3137|t_3144|ref=fr._22
+17	καμπυλόχοισι	καμπύλος	a	a-p---md-	Case=d|Gender=m|Number=p	16	ATR	_	t_3138|t_3137|ref=fr._22
+18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_3139|t_3140|ref=fr._22
+19	ἀρότροις	ἄροτρον	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_3140|t_3144|ref=fr._22
+20	μηνύεσθαι	μηνύω	v	v--pne---	Mood=n|Tense=p|Voice=e	28	OBJ	_	t_3141|t_3149|ref=fr._22
+21	,	,	u	u--------	_	15	AuxX	_	t_3142|t_3136|ref=fr._22
+22	στήμοσι	στήμων	n	n-p---md-	Case=d|Gender=m|Number=p	23	ADV	_	t_3143|t_3144|ref=fr._22
+23	δὲ	δέ	d	d--------	_	20	COORD	_	t_3144|t_3141|ref=fr._22
+24	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	25	ATR	_	t_3145|t_3146|ref=fr._22
+25	αὔλαξι	αὔλαξ	n	n-p---md-	Case=d|Gender=m|Number=p	22	ATR	_	t_3146|t_3143|ref=fr._22
+26	,	,	u	u--------	_	15	AuxX	_	t_3147|t_3136|ref=fr._22
+27	μίτον	μίτος	a	a-s---na-	Case=a|Gender=n|Number=s	30	ATV	_	t_3148|t_3151|ref=fr._22
+28	δὲ	δέ	d	d--------	_	15	COORD	_	t_3149|t_3136|ref=fr._22
+29	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	30	ATR	_	t_3150|t_3151|ref=fr._22
+30	σπέρμα	σπέρμα	n	n-s---na-	Case=a|Gender=n|Number=s	31	SBJ	_	t_3151|t_3152|ref=fr._22
+31	ἀλληγορεῖσθαι	ἀλληγορέω	v	v--pne---	Mood=n|Tense=p|Voice=e	28	OBJ	_	t_3152|t_3149|ref=fr._22
+32	καὶ	καί	c	c--------	_	39	AuxY	_	t_3153|t_3160|ref=fr._22
+33	δάκρυα	δάκρυον	n	n-p---na-	Case=a|Gender=n|Number=p	39	OBJ	_	t_3154|t_3160|ref=fr._22
+34	Διός	ζεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	33	ATR	_	t_3155|t_3154|ref=fr._22
+35	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	36	ATR	_	t_3156|t_3157|ref=fr._22
+36	ὄμβρον	ὄμβρος	n	n-s---ma-	Case=a|Gender=m|Number=s	33	ATR	_	t_3157|t_3154|ref=fr._22
+37	δηλοῦν	δηλόω	v	v--pna---	Mood=n|Tense=p|Voice=a	31	OBJ	_	t_3158|t_3152|ref=fr._22
+38	Μοίρας	μοῖρα	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_3159|t_3163|ref=fr._22
+39	τε	τε	c	c--------	_	37	COORD	_	t_3160|t_3158|ref=fr._22
+40	αὖ	αὖ	d	d--------	_	37	ADV	_	t_3161|t_3158|ref=fr._22
+41	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	42	ATR	_	t_3162|t_3163|ref=fr._22
+42	μέρη	μέρος	n	n-p---na-	Case=a|Gender=n|Number=p	49	OBJ	_	t_3163|t_3170|ref=fr._22
+43	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	44	ATR	_	t_3164|t_3165|ref=fr._22
+44	Σελήνης	σελήνη	n	n-s---fg-	Case=g|Gender=f|Number=s	42	ATR	_	t_3165|t_3163|ref=fr._22
+45	,	,	u	u--------	_	15	AuxX	_	t_3166|t_3136|ref=fr._22
+46	τριακάδα	τριακάς	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_3167|t_3170|ref=fr._22
+47	καὶ	καί	c	c--------	_	49	AuxY	_	t_3168|t_3170|ref=fr._22
+48	πεντεκαιδεκάτην	πεντεκαιδέκατος	a	a-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_3169|t_3170|ref=fr._22
+49	καὶ	καί	c	c--------	_	39	COORD	_	t_3170|t_3160|ref=fr._22
+50	νουμηνίαν	νουμηνία	n	n-s---fa-	Case=a|Gender=f|Number=s	49	OBJ	_	t_3171|t_3170|ref=fr._22
+51	·	·	u	u--------	_	15	AuxK	_	t_3172|t_3136|ref=fr._22
 
-# source = Orphica, fr._21
+# source = Orphica, fr._22
 # text = διὸ καὶ λευκοστόλους αὐτὰς καλεῖν τὸν Ὀρφέα φωτὸς οὔσας μέρη .
 # sent_id = 222
-1	διὸ	διό	d	d--------	_	5	AuxY	_	t_3173|t_3177|ref=fr._21
-2	καὶ	καί	d	d--------	_	5	AuxZ	_	t_3174|t_3177|ref=fr._21
-3	λευκοστόλους	λευκόπλοος	a	a-p---fa-	Case=a|Gender=f|Number=p	9	PNOM	_	t_3175|t_3181|ref=fr._21
-4	αὐτὰς	αὐτός	p	p-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_3176|t_3177|ref=fr._21
-5	καλεῖν	καλέω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_3177|0|ref=fr._21
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_3178|t_3179|ref=fr._21
-7	Ὀρφέα	ὀρφεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	SBJ	_	t_3179|t_3181|ref=fr._21
-8	φωτὸς	φώς	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_3180|t_3182|ref=fr._21
-9	οὔσας	εἰμί	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_3181|t_3177|ref=fr._21
-10	μέρη	μέρος	n	n-p---na-	Case=a|Gender=n|Number=p	9	PNOM	_	t_3182|t_3181|ref=fr._21
-11	.	.	u	u--------	_	5	AuxK	_	t_3183|t_3177|ref=fr._21
+1	διὸ	διό	d	d--------	_	5	AuxY	_	t_3173|t_3177|ref=fr._22
+2	καὶ	καί	d	d--------	_	5	AuxZ	_	t_3174|t_3177|ref=fr._22
+3	λευκοστόλους	λευκόπλοος	a	a-p---fa-	Case=a|Gender=f|Number=p	9	PNOM	_	t_3175|t_3181|ref=fr._22
+4	αὐτὰς	αὐτός	p	p-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_3176|t_3177|ref=fr._22
+5	καλεῖν	καλέω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_3177|0|ref=fr._22
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_3178|t_3179|ref=fr._22
+7	Ὀρφέα	ὀρφεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	SBJ	_	t_3179|t_3181|ref=fr._22
+8	φωτὸς	φώς	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ATR	_	t_3180|t_3182|ref=fr._22
+9	οὔσας	εἰμί	v	v-pppafa-	Case=a|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_3181|t_3177|ref=fr._22
+10	μέρη	μέρος	n	n-p---na-	Case=a|Gender=n|Number=p	9	PNOM	_	t_3182|t_3181|ref=fr._22
+11	.	.	u	u--------	_	5	AuxK	_	t_3183|t_3177|ref=fr._22
 
-# source = Orphica, fr._21-22
+# source = Orphica, fr._22
 # text = πάλιν ἄνθιον μὲν τὸ ἔαρ διὰ τὴν φύσιν , ἀργίδα δὲ τὴν νύκτα διὰ τὴν ἀνάπαυσιν καὶ Γοργόνιον τὴν σελήνην διὰ τὸ ἐν αὐτῆι πρόσωπον , Ἀφροδίτην τε τὸν καιρὸν καθʼ ὃν δεῖ σπείρειν , λέγεσθαι παρὰ τῶι θεολόγωι [0] [1] [2] .
 # sent_id = 223
-1	πάλιν	πάλιν	d	d--------	_	40	ADV	_	t_3184|e_75|ref=fr._21
-2	ἄνθιον	ἄνθιος	n	n-s---na-	Case=a|Gender=n|Number=s	40	PNOM	_	t_3185|e_75|ref=fr._21
-3	μὲν	μέν	d	d--------	_	28	AuxY	_	t_3186|t_3211|ref=fr._21
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_3187|t_3188|ref=fr._21
-5	ἔαρ	ἔαρ	n	n-s---na-	Case=a|Gender=n|Number=s	40	SBJ	_	t_3188|e_75|ref=fr._21
-6	διὰ	διά	r	r--------	_	40	AuxP	_	t_3189|e_75|ref=fr._21
-7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_3190|t_3191|ref=fr._21
-8	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_3191|t_3189|ref=fr._21
-9	,	,	u	u--------	_	0	AuxX	_	t_3192|0|ref=fr._21
-10	ἀργίδα	ἀργίς	n	n-s---fa-	Case=a|Gender=f|Number=s	41	PNOM	_	t_3193|e_76|ref=fr._21
+1	πάλιν	πάλιν	d	d--------	_	40	ADV	_	t_3184|e_75|ref=fr._22
+2	ἄνθιον	ἄνθιος	n	n-s---na-	Case=a|Gender=n|Number=s	40	PNOM	_	t_3185|e_75|ref=fr._22
+3	μὲν	μέν	d	d--------	_	28	AuxY	_	t_3186|t_3211|ref=fr._22
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_3187|t_3188|ref=fr._22
+5	ἔαρ	ἔαρ	n	n-s---na-	Case=a|Gender=n|Number=s	40	SBJ	_	t_3188|e_75|ref=fr._22
+6	διὰ	διά	r	r--------	_	40	AuxP	_	t_3189|e_75|ref=fr._22
+7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_3190|t_3191|ref=fr._22
+8	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	ADV	_	t_3191|t_3189|ref=fr._22
+9	,	,	u	u--------	_	0	AuxX	_	t_3192|0|ref=fr._22
+10	ἀργίδα	ἀργίς	n	n-s---fa-	Case=a|Gender=f|Number=s	41	PNOM	_	t_3193|e_76|ref=fr._22
 11	δὲ	δέ	d	d--------	_	28	AuxY	_	t_3194|t_3211|ref=fr._22
 12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_3195|t_3196|ref=fr._22
 13	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	41	ADV	_	t_3196|e_76|ref=fr._22
@@ -4185,8 +4185,8 @@
 37	παρὰ	παρά	r	r--------	_	36	AuxP	_	t_3220|t_3219|ref=fr._22
 38	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	39	ATR	_	t_3221|t_3222|ref=fr._22
 39	θεολόγωι	θεολόγος	n	n-s---md-	Case=d|Gender=m|Number=s	37	ADV	_	t_3222|t_3220|ref=fr._22
-40	[0]	[0]	-	---------	_	28	PRED	_	e_75|t_3211|ref=fr._3
-41	[1]	[1]	-	---------	_	28	PRED	_	e_76|t_3211|ref=fr._3
-42	[2]	[2]	-	---------	_	28	PRED	_	e_77|t_3211|ref=fr._3
+40	[0]	[0]	-	---------	_	28	PRED	_	e_75|t_3211|ref=fr._22
+41	[1]	[1]	-	---------	_	28	PRED	_	e_76|t_3211|ref=fr._22
+42	[2]	[2]	-	---------	_	28	PRED	_	e_77|t_3211|ref=fr._22
 43	.	.	u	u--------	_	9	AuxK	_	t_3223|t_3192|ref=fr._22
 

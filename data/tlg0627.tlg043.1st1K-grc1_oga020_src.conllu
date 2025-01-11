@@ -132,17 +132,17 @@
 6	γνώμας	γνώμη	n	n-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_105|t_102|ref=carn._1
 7	.	.	u	u--------	_	3	AuxK	_	t_106|t_102|ref=carn._1
 
-# source = Hippocrates, carn._1
+# source = Hippocrates, carn._2
 # text = 2 .
 # sent_id = 7
-1	2	2	u	u--------	_	0	AuxG	_	t_107|0|ref=carn._1
-2	.	.	u	u--------	_	1	AuxK	_	t_108|t_107|ref=carn._1
+1	2	2	u	u--------	_	0	AuxG	_	t_107|0|ref=carn._2
+2	.	.	u	u--------	_	1	AuxK	_	t_108|t_107|ref=carn._2
 
-# source = Hippocrates, carn._1-2
+# source = Hippocrates, carn._2
 # text = Δοκέει δέ μοι ὃ καλέομεν θερμὸν , ἀθάνατόν τε εἶναι καὶ νοέειν πάντα καὶ ὁρῇν καὶ ἀκούειν καὶ εἰδέναι πάντα ἐόντα τε καὶ ἐσόμενα ·
 # sent_id = 8
-1	Δοκέει	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_109|t_110|ref=carn._1
-2	δέ	δέ	g	g--------	_	0	COORD	_	t_110|0|ref=carn._1
+1	Δοκέει	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_109|t_110|ref=carn._2
+2	δέ	δέ	g	g--------	_	0	COORD	_	t_110|0|ref=carn._2
 3	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	1	OBJ	_	t_111|t_109|ref=carn._2
 4	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_112|t_113|ref=carn._2
 5	καλέομεν	καλέω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	1	SBJ	_	t_113|t_109|ref=carn._2
@@ -218,7 +218,7 @@
 14	καὶ	καί	c	c--------	_	16	COORD	_	t_171|t_173|ref=carn._2
 15	πουλὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_172|t_171|ref=carn._2
 16	κινοῦν	κινέω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_173|t_164|ref=carn._2
-17	[0]	[0]	-	---------	_	5	PRED	_	e_5|t_162|ref=carn._1
+17	[0]	[0]	-	---------	_	5	PRED	_	e_5|t_162|ref=carn._2
 18	·	·	u	u--------	_	5	AuxK	_	t_174|t_162|ref=carn._2
 
 # source = Hippocrates, carn._2
@@ -270,22 +270,22 @@
 11	τε	τε	c	c--------	_	12	AuxY	_	t_210|t_211|ref=carn._2
 12	καὶ	καί	c	c--------	_	14	COORD	_	t_211|e_6|ref=carn._2
 13	παχύτατον	παχύς	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	12	PNOM	_	t_212|t_211|ref=carn._2
-14	[0]	[0]	-	---------	_	2	PRED	_	e_6|t_201|ref=carn._1
+14	[0]	[0]	-	---------	_	2	PRED	_	e_6|t_201|ref=carn._2
 15	.	.	u	u--------	_	2	AuxK	_	t_213|t_201|ref=carn._2
 
-# source = Hippocrates, carn._2
+# source = Hippocrates, carn._3
 # text = 3 .
 # sent_id = 15
-1	3	3	x	x--------	_	0	AuxG	_	t_214|0|ref=carn._2
-2	.	.	u	u--------	_	1	AuxK	_	t_215|t_214|ref=carn._2
+1	3	3	x	x--------	_	0	AuxG	_	t_214|0|ref=carn._3
+2	.	.	u	u--------	_	1	AuxK	_	t_215|t_214|ref=carn._3
 
-# source = Hippocrates, carn._2-3
+# source = Hippocrates, carn._3
 # text = Κυκλεομένων δὲ τουτέων , ὅτε συνεταράχθη , ἀπελείφθη τοῦ θερμοῦ πουλὺ ἐν τῇ γῇ ἄλλοθι καὶ ἄλλοθι , τὰ μὲν μεγάλα , τὰ δὲ ἐλάσσω , τὰ δὲ καὶ πάνυ σμικρὰ , πλῆθος πολλά .
 # sent_id = 16
-1	Κυκλεομένων	κυκλέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	8	ADV	_	t_216|t_223|ref=carn._2
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_217|t_223|ref=carn._2
-3	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_218|t_216|ref=carn._2
-4	,	,	u	u--------	_	8	AuxX	_	t_219|t_223|ref=carn._2
+1	Κυκλεομένων	κυκλέω	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	8	ADV	_	t_216|t_223|ref=carn._3
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_217|t_223|ref=carn._3
+3	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	1	SBJ	_	t_218|t_216|ref=carn._3
+4	,	,	u	u--------	_	8	AuxX	_	t_219|t_223|ref=carn._3
 5	ὅτε	ὅτε	c	c--------	_	8	AuxC	_	t_220|t_223|ref=carn._3
 6	συνεταράχθη	συγκρούω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	5	ADV	_	t_221|t_220|ref=carn._3
 7	,	,	u	u--------	_	8	AuxX	_	t_222|t_223|ref=carn._3
@@ -340,7 +340,7 @@
 17	οἷόν	οἷος	p	p-s---nn-	Case=n|Gender=n|Number=s	20	PNOM	_	t_267|e_7|ref=carn._3
 18	περ	πέρ	d	d--------	_	20	AuxZ	_	t_268|e_7|ref=carn._3
 19	χιτῶνας	χιτών	n	n-p---ma-	Case=a|Gender=m|Number=p	20	OBJ	_	t_269|e_7|ref=carn._3
-20	[0]	[0]	-	---------	_	15	ATR	_	e_7|t_265|ref=carn._1
+20	[0]	[0]	-	---------	_	15	ATR	_	e_7|t_265|ref=carn._3
 21	.	.	u	u--------	_	1	AuxK	_	t_270|t_251|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -630,7 +630,7 @@
 10	αὐτὸν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_508|t_510|ref=carn._3
 11	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_509|t_499|ref=carn._3
 12	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	11	ADV	_	t_510|t_509|ref=carn._3
-13	[0]	[0]	-	---------	_	5	ATR	_	e_8|t_503|ref=carn._1
+13	[0]	[0]	-	---------	_	5	ATR	_	e_8|t_503|ref=carn._3
 14	·	·	u	u--------	_	1	AuxK	_	t_511|t_499|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -649,7 +649,7 @@
 11	χιτὼν	χιτών	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_522|t_524|ref=carn._3
 12	μήνιγξ	μήνιγξ	n	n-s---fn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_523|t_524|ref=carn._3
 13	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_524|0|ref=carn._3
-14	[0]	[0]	-	---------	_	7	ADV	_	e_9|t_518|ref=carn._1
+14	[0]	[0]	-	---------	_	7	ADV	_	e_9|t_518|ref=carn._3
 15	·	·	u	u--------	_	13	AuxK	_	t_525|t_524|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -666,7 +666,7 @@
 9	,	,	u	u--------	_	11	AuxX	_	t_534|t_536|ref=carn._3
 10	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	11	PNOM	_	t_535|t_536|ref=carn._3
 11	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_536|0|ref=carn._3
-12	[0]	[0]	-	---------	_	1	ADV	_	e_10|t_526|ref=carn._1
+12	[0]	[0]	-	---------	_	1	ADV	_	e_10|t_526|ref=carn._3
 13	.	.	u	u--------	_	11	AuxK	_	t_537|t_536|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -678,7 +678,7 @@
 4	καὶ	καί	d	d--------	_	6	AuxZ	_	t_541|t_543|ref=carn._3
 5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_542|t_543|ref=carn._3
 6	ὀστέων	ὀστέον	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_543|t_540|ref=carn._3
-7	[0]	[0]	-	---------	_	2	PRED	_	e_11|t_539|ref=carn._1
+7	[0]	[0]	-	---------	_	2	PRED	_	e_11|t_539|ref=carn._3
 8	·	·	u	u--------	_	2	AuxK	_	t_544|t_539|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -712,7 +712,7 @@
 26	σκληρότατα	σκληρός	a	a-p---nns	Case=n|Degree=s|Gender=n|Number=p	27	PNOM	_	t_570|t_571|ref=carn._3
 27	καὶ	καί	c	c--------	_	29	COORD	_	t_571|e_12|ref=carn._3
 28	στριφνότατα	στριφνός	a	a-p---nns	Case=n|Degree=s|Gender=n|Number=p	27	PNOM	_	t_572|t_571|ref=carn._3
-29	[0]	[0]	-	---------	_	21	PRED	_	e_12|t_565|ref=carn._1
+29	[0]	[0]	-	---------	_	21	PRED	_	e_12|t_565|ref=carn._3
 30	·	·	u	u--------	_	7	AuxK	_	t_573|t_551|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -730,8 +730,8 @@
 10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_583|t_584|ref=carn._3
 11	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	12	ADV	_	t_584|t_585|ref=carn._3
 12	σηραγγώδεα	σηραγγώδες	a	a-p---nn-	Case=n|Gender=n|Number=p	13	PNOM	_	t_585|e_13|ref=carn._3
-13	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=carn._1
-14	[1]	[1]	-	---------	_	13	ADV	_	e_14|e_13|ref=carn._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=carn._3
+14	[1]	[1]	-	---------	_	13	ADV	_	e_14|e_13|ref=carn._3
 15	.	.	u	u--------	_	13	AuxK	_	t_586|e_13|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -741,7 +741,7 @@
 2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_588|e_15|ref=carn._3
 3	τουτέων	οὗτος	p	p-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_589|t_587|ref=carn._3
 4	οὕτως	οὕτως	d	d--------	_	5	ADV	_	t_590|e_15|ref=carn._3
-5	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=carn._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=carn._3
 6	·	·	u	u--------	_	5	AuxK	_	t_591|e_15|ref=carn._3
 
 # source = Hippocrates, carn._3
@@ -814,34 +814,34 @@
 21	πήγνυται	πήγνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	17	PRED	_	t_644|t_640|ref=carn._3
 22	.	.	u	u--------	_	12	AuxK	_	t_645|t_635|ref=carn._3
 
-# source = Hippocrates, carn._3
+# source = Hippocrates, carn._4
 # text = 4 [0] .
 # sent_id = 40
-1	4	4	u	u--------	_	2	AuxK	_	t_646|e_16|ref=carn._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=carn._1
-3	.	.	u	u--------	_	2	AuxK	_	t_647|e_16|ref=carn._3
+1	4	4	u	u--------	_	2	AuxK	_	t_646|e_16|ref=carn._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=carn._4
+3	.	.	u	u--------	_	2	AuxK	_	t_647|e_16|ref=carn._4
 
-# source = Hippocrates, carn._3-4
+# source = Hippocrates, carn._4
 # text = Ὁ δὲ ἐγκέφαλός ἐστι μητρόπολις τοῦ ψυχροῦ καὶ τοῦ κολλώδεος , τὸ δὲ θερμὸν τοῦ λιπαροῦ μητρόπολις [0] ·
 # sent_id = 41
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_648|t_650|ref=carn._3
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_649|0|ref=carn._3
-3	ἐγκέφαλός	ἐγκέφαλος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_650|t_651|ref=carn._3
-4	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_651|t_660|ref=carn._3
-5	μητρόπολις	μητρόπολις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_652|t_651|ref=carn._3
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_653|t_654|ref=carn._3
-7	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_654|t_655|ref=carn._3
-8	καὶ	καί	c	c--------	_	5	COORD	_	t_655|t_652|ref=carn._3
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_656|t_657|ref=carn._3
-10	κολλώδεος	κολλώδης	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_657|t_655|ref=carn._3
-11	,	,	u	u--------	_	4	AuxX	_	t_658|t_651|ref=carn._3
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	ATR	_	t_659|t_661|ref=carn._3
-13	δὲ	δέ	d	d--------	_	2	COORD	_	t_660|t_649|ref=carn._3
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_648|t_650|ref=carn._4
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_649|0|ref=carn._4
+3	ἐγκέφαλός	ἐγκέφαλος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_650|t_651|ref=carn._4
+4	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_651|t_660|ref=carn._4
+5	μητρόπολις	μητρόπολις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_652|t_651|ref=carn._4
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_653|t_654|ref=carn._4
+7	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_654|t_655|ref=carn._4
+8	καὶ	καί	c	c--------	_	5	COORD	_	t_655|t_652|ref=carn._4
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_656|t_657|ref=carn._4
+10	κολλώδεος	κολλώδης	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_657|t_655|ref=carn._4
+11	,	,	u	u--------	_	4	AuxX	_	t_658|t_651|ref=carn._4
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	14	ATR	_	t_659|t_661|ref=carn._4
+13	δὲ	δέ	d	d--------	_	2	COORD	_	t_660|t_649|ref=carn._4
 14	θερμὸν	θερμός	a	a-s---nn-	Case=n|Gender=n|Number=s	18	SBJ	_	t_661|e_17|ref=carn._4
-15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_662|t_663|ref=carn._3
+15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_662|t_663|ref=carn._4
 16	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_663|t_664|ref=carn._4
 17	μητρόπολις	μητρόπολις	n	n-s---fn-	Case=n|Gender=f|Number=s	18	PNOM	_	t_664|e_17|ref=carn._4
-18	[0]	[0]	-	---------	_	13	PRED	_	e_17|t_660|ref=carn._1
+18	[0]	[0]	-	---------	_	13	PRED	_	e_17|t_660|ref=carn._4
 19	·	·	u	u--------	_	2	AuxK	_	t_665|t_649|ref=carn._4
 
 # source = Hippocrates, carn._4
@@ -887,7 +887,7 @@
 38	μήνιγγα	μήνιγξ	n	n-s---fa-	Case=a|Gender=f|Number=s	40	OBJ	_	t_703|t_705|ref=carn._4
 39	παχείην	παχύς	a	a-s---fa-	Case=a|Gender=f|Number=s	38	ATR	_	t_704|t_703|ref=carn._4
 40	ἔλαβε	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	33	PRED	_	t_705|t_698|ref=carn._4
-41	[0]	[0]	-	---------	_	22	ADV	_	e_18|t_687|ref=carn._1
+41	[0]	[0]	-	---------	_	22	ADV	_	e_18|t_687|ref=carn._4
 42	·	·	u	u--------	_	3	AuxK	_	t_706|t_668|ref=carn._4
 
 # source = Hippocrates, carn._4
@@ -909,7 +909,7 @@
 14	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_720|t_721|ref=carn._4
 15	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_721|t_719|ref=carn._4
 16	ἐνῆν	ἐνεἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ATR	_	t_722|t_717|ref=carn._4
-17	[0]	[0]	-	---------	_	11	PRED	_	e_19|t_717|ref=carn._1
+17	[0]	[0]	-	---------	_	11	PRED	_	e_19|t_717|ref=carn._4
 18	.	.	u	u--------	_	11	AuxK	_	t_723|t_717|ref=carn._4
 
 # source = Hippocrates, carn._4
@@ -946,7 +946,7 @@
 14	καὶ	καί	d	d--------	_	16	AuxZ	_	t_748|t_750|ref=carn._4
 15	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_749|t_750|ref=carn._4
 16	ἐγκεφάλῳ	ἐγκέφαλος	n	n-s---md-	Case=d|Gender=m|Number=s	17	OBJ	_	t_750|e_20|ref=carn._4
-17	[0]	[0]	-	---------	_	13	ADV	_	e_20|t_747|ref=carn._1
+17	[0]	[0]	-	---------	_	13	ADV	_	e_20|t_747|ref=carn._4
 18	·	·	u	u--------	_	3	AuxK	_	t_751|t_737|ref=carn._4
 
 # source = Hippocrates, carn._4
@@ -990,7 +990,7 @@
 21	ἄλλος	ἄλλος	p	p-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_783|t_785|ref=carn._4
 22	οὐκ	οὐ	d	d--------	_	23	AuxZ	_	t_784|t_785|ref=carn._4
 23	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	20	PRED	_	t_785|t_782|ref=carn._4
-24	[0]	[0]	-	---------	_	20	PRED	_	e_21|t_782|ref=carn._1
+24	[0]	[0]	-	---------	_	20	PRED	_	e_21|t_782|ref=carn._4
 25	.	.	u	u--------	_	7	AuxK	_	t_786|t_769|ref=carn._4
 
 # source = Hippocrates, carn._4
@@ -1014,7 +1014,7 @@
 16	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	17	ATR	_	t_802|t_803|ref=carn._4
 17	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	19	ADV	_	t_803|e_22|ref=carn._4
 18	δέ	δέ	d	d--------	_	19	AuxY	_	t_804|e_22|ref=carn._4
-19	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=carn._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=carn._4
 20	·	·	u	u--------	_	19	AuxK	_	t_805|e_22|ref=carn._4
 
 # source = Hippocrates, carn._4
@@ -1054,39 +1054,39 @@
 7	δπτᾶται	δπτάομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_833|0|ref=carn._4
 8	.	.	u	u--------	_	7	AuxK	_	t_834|t_833|ref=carn._4
 
-# source = Hippocrates, carn._4
+# source = Hippocrates, carn._5
 # text = 5 .
 # sent_id = 51
-1	5	5	u	u--------	_	0	AuxG	_	t_835|0|ref=carn._4
-2	.	.	u	u--------	_	1	AuxK	_	t_836|t_835|ref=carn._4
+1	5	5	u	u--------	_	0	AuxG	_	t_835|0|ref=carn._5
+2	.	.	u	u--------	_	1	AuxK	_	t_836|t_835|ref=carn._5
 
-# source = Hippocrates, carn._4
+# source = Hippocrates, carn._5
 # text = Τὰ δὲ σπλάγχνα ὧδέ μοι δοκέει ξυστῆναι ·
 # sent_id = 52
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_837|t_839|ref=carn._4
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_838|0|ref=carn._4
-3	σπλάγχνα	σπλάγχνον	n	n-p---na-	Case=n|Gender=n|Number=p	7	SBJ	_	t_839|t_843|ref=carn._4
-4	ὧδέ	ὧδε	d	d--------	_	6	ADV	_	t_840|t_842|ref=carn._4
-5	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_841|t_842|ref=carn._4
-6	δοκέει	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_842|t_838|ref=carn._4
-7	ξυστῆναι	συνίστημι	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_843|t_842|ref=carn._4
-8	·	·	u	u--------	_	2	AuxK	_	t_844|t_838|ref=carn._4
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_837|t_839|ref=carn._5
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_838|0|ref=carn._5
+3	σπλάγχνα	σπλάγχνον	n	n-p---na-	Case=n|Gender=n|Number=p	7	SBJ	_	t_839|t_843|ref=carn._5
+4	ὧδέ	ὧδε	d	d--------	_	6	ADV	_	t_840|t_842|ref=carn._5
+5	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_841|t_842|ref=carn._5
+6	δοκέει	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_842|t_838|ref=carn._5
+7	ξυστῆναι	συνίστημι	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_843|t_842|ref=carn._5
+8	·	·	u	u--------	_	2	AuxK	_	t_844|t_838|ref=carn._5
 
-# source = Hippocrates, carn._4-5
+# source = Hippocrates, carn._5
 # text = περὶ μὲν οὖν τῶν φλεβῶν εἴρηταί μοι πρότερον ἡ δὲ καρδίη πουλὺ τοῦ κολλώδεος καὶ τοῦ ψυχροῦ ἔχει ·
 # sent_id = 53
-1	περὶ	περί	r	r--------	_	6	AuxP	_	t_845|t_850|ref=carn._4
-2	μὲν	μέν	d	d--------	_	6	AuxY	_	t_846|t_850|ref=carn._4
-3	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_847|t_850|ref=carn._4
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_848|t_849|ref=carn._4
-5	φλεβῶν	φλέψ	n	n-p---fg-	Case=g|Gender=n|Number=p	1	ADV	_	t_849|t_845|ref=carn._4
-6	εἴρηταί	ἐρῶ	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	10	PRED	_	t_850|t_854|ref=carn._4
-7	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	6	OBJ	_	t_851|t_850|ref=carn._4
-8	πρότερον	πρότερος	d	d-------c	Degree=c	6	ADV	_	t_852|t_850|ref=carn._4
-9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_853|t_855|ref=carn._4
-10	δὲ	δέ	d	d--------	_	0	COORD	_	t_854|0|ref=carn._4
-11	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_855|t_862|ref=carn._4
-12	πουλὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_856|t_862|ref=carn._4
+1	περὶ	περί	r	r--------	_	6	AuxP	_	t_845|t_850|ref=carn._5
+2	μὲν	μέν	d	d--------	_	6	AuxY	_	t_846|t_850|ref=carn._5
+3	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_847|t_850|ref=carn._5
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_848|t_849|ref=carn._5
+5	φλεβῶν	φλέψ	n	n-p---fg-	Case=g|Gender=n|Number=p	1	ADV	_	t_849|t_845|ref=carn._5
+6	εἴρηταί	ἐρῶ	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	10	PRED	_	t_850|t_854|ref=carn._5
+7	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	6	OBJ	_	t_851|t_850|ref=carn._5
+8	πρότερον	πρότερος	d	d-------c	Degree=c	6	ADV	_	t_852|t_850|ref=carn._5
+9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_853|t_855|ref=carn._5
+10	δὲ	δέ	d	d--------	_	0	COORD	_	t_854|0|ref=carn._5
+11	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_855|t_862|ref=carn._5
+12	πουλὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	18	ADV	_	t_856|t_862|ref=carn._5
 13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_857|t_858|ref=carn._5
 14	κολλώδεος	κολλώδης	a	a-s---ng-	Case=g|Gender=n|Number=s	15	ADV	_	t_858|t_859|ref=carn._5
 15	καὶ	καί	c	c--------	_	12	COORD	_	t_859|t_856|ref=carn._5
@@ -1130,7 +1130,7 @@
 30	φλεβὸς	φλέψ	n	n-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_893|t_891|ref=carn._5
 31	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	32	ATR	_	t_894|t_895|ref=carn._5
 32	κοιλοτάτης	κοῖλος	a	a-s---fg-	Case=g|Gender=f|Number=s	28	ATR	_	t_895|t_891|ref=carn._5
-33	[0]	[0]	-	---------	_	21	ADV	_	e_23|t_884|ref=carn._1
+33	[0]	[0]	-	---------	_	21	ADV	_	e_23|t_884|ref=carn._5
 34	.	.	u	u--------	_	6	AuxK	_	t_896|t_869|ref=carn._5
 
 # source = Hippocrates, carn._5
@@ -1153,7 +1153,7 @@
 2	μὲν	μέν	g	g--------	_	5	AuxY	_	t_907|e_24|ref=carn._5
 3	οὔνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_908|e_24|ref=carn._5
 4	ἀρτηρίη	ἀρτηρίη	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_909|e_24|ref=carn._5
-5	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=carn._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=carn._5
 6	·	·	u	u--------	_	5	AuxK	_	t_910|e_24|ref=carn._5
 
 # source = Hippocrates, carn._5
@@ -1169,7 +1169,7 @@
 8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_918|t_919|ref=carn._5
 9	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_919|t_920|ref=carn._5
 10	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	ATR	_	t_920|t_914|ref=carn._5
-11	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=carn._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=carn._5
 12	·	·	u	u--------	_	11	AuxK	_	t_921|e_25|ref=carn._5
 
 # source = Hippocrates, carn._5
@@ -1232,7 +1232,7 @@
 33	ἑκάτερον	ἑκάτερος	a	a-s---ma-	Case=a|Gender=n|Number=s	32	OBJ	_	t_972|t_971|ref=carn._5
 34	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	35	ATR	_	t_973|t_974|ref=carn._5
 35	νεφρῶν	νεφρός	n	n-p---fg-	Case=g|Gender=f|Number=p	33	ATR	_	t_974|t_972|ref=carn._5
-36	[0]	[0]	-	---------	_	30	PRED	_	e_26|t_969|ref=carn._1
+36	[0]	[0]	-	---------	_	30	PRED	_	e_26|t_969|ref=carn._5
 37	·	·	u	u--------	_	14	AuxK	_	t_975|t_953|ref=carn._5
 
 # source = Hippocrates, carn._5
@@ -1274,8 +1274,8 @@
 34	ἐπ	ἐπί	r	r--------	_	38	AuxP	_	t_1009|e_28|ref=carn._5
 35	’	’	r	r--------	_	38	AuxP	_	t_1010|e_28|ref=carn._5
 36	ἀριστερά	ἀριστερός	a	a-p---na-	Case=a|Gender=n|Number=p	34	ATR	_	t_1011|t_1009|ref=carn._5
-37	[0]	[0]	-	---------	_	18	PRED	_	e_27|t_993|ref=carn._1
-38	[1]	[1]	-	---------	_	33	ADV	_	e_28|t_1008|ref=carn._1
+37	[0]	[0]	-	---------	_	18	PRED	_	e_27|t_993|ref=carn._5
+38	[1]	[1]	-	---------	_	33	ADV	_	e_28|t_1008|ref=carn._5
 39	·	·	u	u--------	_	6	AuxK	_	t_1012|t_981|ref=carn._5
 
 # source = Hippocrates, carn._5
@@ -1357,50 +1357,50 @@
 18	μέχρι	μέχρι	r	r--------	_	14	AuxP	_	t_1074|t_1070|ref=carn._5
 19	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_1075|t_1076|ref=carn._5
 20	ἰσχίων	ἴσχιον	n	n-p---ng-	Case=g|Gender=n|Number=p	18	ADV	_	t_1076|t_1074|ref=carn._5
-21	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=carn._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=carn._5
 22	.	.	u	u--------	_	21	AuxK	_	t_1077|e_29|ref=carn._5
 
-# source = Hippocrates, carn._5
+# source = Hippocrates, carn._6
 # text = 6 .
 # sent_id = 65
-1	6	6	u	u--------	_	0	AuxG	_	t_1078|0|ref=carn._5
-2	.	.	u	u--------	_	1	AuxK	_	t_1079|t_1078|ref=carn._5
+1	6	6	u	u--------	_	0	AuxG	_	t_1078|0|ref=carn._6
+2	.	.	u	u--------	_	1	AuxK	_	t_1079|t_1078|ref=carn._6
 
-# source = Hippocrates, carn._5
+# source = Hippocrates, carn._6
 # text = Καὶ τὸ θερμὸν πλεῖστον ἔνι τῇσι φλεψὶ καὶ τῇ καρδίῃ , καὶ διὰ τοῦτο πνεῦμα ἡ καρδίη ἔχει θερμὴ ἐοῦσα μάλιστα τῶν ἐν τῷ ἀνθρώπῳ [0] .
 # sent_id = 66
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1080|0|ref=carn._5
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1081|t_1082|ref=carn._5
-3	θερμὸν	θερμός	a	a-s---nn-	Case=n|Gender=n|Number=s	26	SBJ	_	t_1082|e_30|ref=carn._5
-4	πλεῖστον	πλεῖστος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	26	PNOM	_	t_1083|e_30|ref=carn._5
-5	ἔνι	ἐν	r	r--------	_	26	AuxP	_	t_1084|e_30|ref=carn._5
-6	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_1085|t_1086|ref=carn._5
-7	φλεψὶ	φλόξ	n	n-p---fd-	Case=d|Gender=f|Number=p	8	ADV	_	t_1086|t_1087|ref=carn._5
-8	καὶ	καί	c	c--------	_	5	COORD	_	t_1087|t_1084|ref=carn._5
-9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1088|t_1089|ref=carn._5
-10	καρδίῃ	καρδίη	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_1089|t_1087|ref=carn._5
-11	,	,	u	u--------	_	26	AuxX	_	t_1090|e_30|ref=carn._5
-12	καὶ	καί	c	c--------	_	1	COORD	_	t_1091|t_1080|ref=carn._5
-13	διὰ	διά	r	r--------	_	18	AuxP	_	t_1092|t_1097|ref=carn._5
-14	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1093|t_1094|ref=carn._5
-15	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_1094|t_1097|ref=carn._5
-16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_1095|t_1096|ref=carn._5
-17	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_1096|t_1097|ref=carn._5
-18	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_1097|t_1091|ref=carn._5
-19	θερμὴ	θερμός	a	a-s---fn-	Case=n|Gender=f|Number=s	20	PNOM	_	t_1098|t_1099|ref=carn._5
-20	ἐοῦσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_1099|t_1097|ref=carn._5
-21	μάλιστα	μάλιστα	d	d--------	_	19	ADV	_	t_1100|t_1098|ref=carn._5
-22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ADV	_	t_1101|t_1098|ref=carn._5
-23	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_1102|t_1101|ref=carn._5
-24	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_1103|t_1104|ref=carn._5
-25	ἀνθρώπῳ	ἄνθρωπος	n	n-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_1104|t_1102|ref=carn._5
-26	[0]	[0]	-	---------	_	12	PRED	_	e_30|t_1091|ref=carn._1
-27	.	.	u	u--------	_	1	AuxK	_	t_1105|t_1080|ref=carn._5
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1080|0|ref=carn._6
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1081|t_1082|ref=carn._6
+3	θερμὸν	θερμός	a	a-s---nn-	Case=n|Gender=n|Number=s	26	SBJ	_	t_1082|e_30|ref=carn._6
+4	πλεῖστον	πλεῖστος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	26	PNOM	_	t_1083|e_30|ref=carn._6
+5	ἔνι	ἐν	r	r--------	_	26	AuxP	_	t_1084|e_30|ref=carn._6
+6	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	7	ATR	_	t_1085|t_1086|ref=carn._6
+7	φλεψὶ	φλόξ	n	n-p---fd-	Case=d|Gender=f|Number=p	8	ADV	_	t_1086|t_1087|ref=carn._6
+8	καὶ	καί	c	c--------	_	5	COORD	_	t_1087|t_1084|ref=carn._6
+9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_1088|t_1089|ref=carn._6
+10	καρδίῃ	καρδίη	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ADV	_	t_1089|t_1087|ref=carn._6
+11	,	,	u	u--------	_	26	AuxX	_	t_1090|e_30|ref=carn._6
+12	καὶ	καί	c	c--------	_	1	COORD	_	t_1091|t_1080|ref=carn._6
+13	διὰ	διά	r	r--------	_	18	AuxP	_	t_1092|t_1097|ref=carn._6
+14	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_1093|t_1094|ref=carn._6
+15	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	18	OBJ	_	t_1094|t_1097|ref=carn._6
+16	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	17	ATR	_	t_1095|t_1096|ref=carn._6
+17	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_1096|t_1097|ref=carn._6
+18	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_1097|t_1091|ref=carn._6
+19	θερμὴ	θερμός	a	a-s---fn-	Case=n|Gender=f|Number=s	20	PNOM	_	t_1098|t_1099|ref=carn._6
+20	ἐοῦσα	εἰμί	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	18	ADV	_	t_1099|t_1097|ref=carn._6
+21	μάλιστα	μάλιστα	d	d--------	_	19	ADV	_	t_1100|t_1098|ref=carn._6
+22	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	19	ADV	_	t_1101|t_1098|ref=carn._6
+23	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_1102|t_1101|ref=carn._6
+24	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_1103|t_1104|ref=carn._6
+25	ἀνθρώπῳ	ἄνθρωπος	n	n-s---md-	Case=d|Gender=m|Number=s	23	ATR	_	t_1104|t_1102|ref=carn._6
+26	[0]	[0]	-	---------	_	12	PRED	_	e_30|t_1091|ref=carn._6
+27	.	.	u	u--------	_	1	AuxK	_	t_1105|t_1080|ref=carn._6
 
-# source = Hippocrates, carn._5-6
+# source = Hippocrates, carn._6
 # text = Ῥηΐδιον δὲ τοῦτο καταμαθεῖν , ὅτι τρέφον ἐστὶ τὸ πνεῦμα [0] ·
 # sent_id = 67
-1	Ῥηΐδιον	ῥᾴδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_1106|e_31|ref=carn._5
+1	Ῥηΐδιον	ῥᾴδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	11	PNOM	_	t_1106|e_31|ref=carn._6
 2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_1107|e_31|ref=carn._6
 3	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_1108|t_1110|ref=carn._6
 4	καταμαθεῖν	καταμανθάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	11	SBJ	_	t_1109|e_31|ref=carn._6
@@ -1410,7 +1410,7 @@
 8	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	OBJ	_	t_1113|t_1111|ref=carn._6
 9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_1114|t_1115|ref=carn._6
 10	πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_1115|t_1113|ref=carn._6
-11	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=carn._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=carn._6
 12	·	·	u	u--------	_	11	AuxK	_	t_1116|e_31|ref=carn._6
 
 # source = Hippocrates, carn._6
@@ -1432,13 +1432,13 @@
 14	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_1130|e_32|ref=carn._6
 15	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	16	ATR	_	t_1131|t_1132|ref=carn._6
 16	φλεψίν	φλέψ	n	n-p---fd-	Case=d|Gender=f|Number=p	14	ADV	_	t_1132|t_1130|ref=carn._6
-17	[0]	[0]	-	---------	_	10	PRED	_	e_32|t_1126|ref=carn._1
+17	[0]	[0]	-	---------	_	10	PRED	_	e_32|t_1126|ref=carn._6
 18	·	·	u	u--------	_	9	AuxK	_	t_1133|t_1125|ref=carn._6
 
-# source = Hippocrates, carn._5-6
+# source = Hippocrates, carn._6
 # text = καὶ διὰ τοῦτο πνεῦμα ἡ καρδίη ἕλκει θερμὴ ἐοῦσα μάλιστα τῶν ἐν τῷ ἀνθρώπῳ .
 # sent_id = 69
-1	καὶ	καί	c	c--------	_	7	AuxY	_	t_1134|t_1140|ref=carn._5
+1	καὶ	καί	c	c--------	_	7	AuxY	_	t_1134|t_1140|ref=carn._6
 2	διὰ	διά	r	r--------	_	7	AuxP	_	t_1135|t_1140|ref=carn._6
 3	τοῦτο	οὗτος	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1136|t_1137|ref=carn._6
 4	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_1137|t_1135|ref=carn._6
@@ -1488,7 +1488,7 @@
 19	τοτὲ	τοτέ	d	d--------	_	22	ADV	_	t_1173|e_33|ref=carn._6
 20	δὲ	δέ	c	c--------	_	12	COORD	_	t_1174|t_1166|ref=carn._6
 21	ἧσσον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	22	ADV	_	t_1175|e_33|ref=carn._6
-22	[0]	[0]	-	---------	_	20	PRED	_	e_33|t_1174|ref=carn._1
+22	[0]	[0]	-	---------	_	20	PRED	_	e_33|t_1174|ref=carn._6
 23	·	·	u	u--------	_	12	AuxK	_	t_1176|t_1166|ref=carn._6
 
 # source = Hippocrates, carn._6
@@ -1656,7 +1656,7 @@
 17	καὶ	καί	c	c--------	_	20	COORD	_	t_1312|e_34|ref=carn._6
 18	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	19	ATR	_	t_1313|t_1314|ref=carn._6
 19	πρόβατα	πρόβατον	n	n-p---nn-	Case=n|Gender=n|Number=p	17	SBJ	_	t_1314|t_1312|ref=carn._6
-20	[0]	[0]	-	---------	_	14	PRED	_	e_34|t_1309|ref=carn._1
+20	[0]	[0]	-	---------	_	14	PRED	_	e_34|t_1309|ref=carn._6
 21	·	·	u	u--------	_	7	AuxK	_	t_1315|t_1302|ref=carn._6
 
 # source = Hippocrates, carn._6
@@ -1711,55 +1711,55 @@
 12	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	PRED	_	t_1358|t_1347|ref=carn._6
 13	.	.	u	u--------	_	1	AuxK	_	t_1359|t_1347|ref=carn._6
 
-# source = Hippocrates, carn._6
+# source = Hippocrates, carn._7
 # text = 7 [0] .
 # sent_id = 81
-1	7	7	u	u--------	_	2	AuxG	_	t_1360|e_35|ref=carn._6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=carn._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1361|e_35|ref=carn._6
+1	7	7	u	u--------	_	2	AuxG	_	t_1360|e_35|ref=carn._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=carn._7
+3	.	.	u	u--------	_	2	AuxK	_	t_1361|e_35|ref=carn._7
 
-# source = Hippocrates, carn._6
+# source = Hippocrates, carn._7
 # text = Ὁ δὲ πνεύμων πρὸς τῇ καρδίῃ ἐγένετο ὧδε ·
 # sent_id = 82
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1362|t_1364|ref=carn._6
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1363|0|ref=carn._6
-3	πνεύμων	πνεύμων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	SBJ	_	t_1364|t_1368|ref=carn._6
-4	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_1365|t_1368|ref=carn._6
-5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_1366|t_1367|ref=carn._6
-6	καρδίῃ	καρδίη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_1367|t_1365|ref=carn._6
-7	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	2	PRED	_	t_1368|t_1363|ref=carn._6
-8	ὧδε	ὧδε	d	d--------	_	7	ADV	_	t_1369|t_1368|ref=carn._6
-9	·	·	u	u--------	_	2	AuxK	_	t_1370|t_1363|ref=carn._6
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1362|t_1364|ref=carn._7
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1363|0|ref=carn._7
+3	πνεύμων	πνεύμων	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	SBJ	_	t_1364|t_1368|ref=carn._7
+4	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_1365|t_1368|ref=carn._7
+5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_1366|t_1367|ref=carn._7
+6	καρδίῃ	καρδίη	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_1367|t_1365|ref=carn._7
+7	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	2	PRED	_	t_1368|t_1363|ref=carn._7
+8	ὧδε	ὧδε	d	d--------	_	7	ADV	_	t_1369|t_1368|ref=carn._7
+9	·	·	u	u--------	_	2	AuxK	_	t_1370|t_1363|ref=carn._7
 
-# source = Hippocrates, carn._6
+# source = Hippocrates, carn._7
 # text = τοῦ ὑγροῦ ὁκόσον ἦν κολλωδέστατον , ἡ καρδίη θερμαίνουσα ταχὺ ἐξήρανεν ὅκως περ ἀφρὸν , καὶ ἐποίησε σηραγγῶδες , καὶ φλέβια πολλὰ ἐν αὐτέῳ [0] .
 # sent_id = 83
-1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_1371|t_1372|ref=carn._6
-2	ὑγροῦ	ὑγρός	a	a-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_1372|t_1373|ref=carn._6
-3	ὁκόσον	ὁπόσος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_1373|t_1374|ref=carn._6
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ADV	_	t_1374|t_1381|ref=carn._6
-5	κολλωδέστατον	κολλώδης	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	4	PNOM	_	t_1375|t_1374|ref=carn._6
-6	,	,	u	u--------	_	0	AuxX	_	t_1376|0|ref=carn._6
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_1377|t_1378|ref=carn._6
-8	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_1378|t_1381|ref=carn._6
-9	θερμαίνουσα	θερμαίνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_1379|t_1381|ref=carn._6
-10	ταχὺ	ταχύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_1380|t_1381|ref=carn._6
-11	ἐξήρανεν	ξήρανον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	20	PRED	_	t_1381|t_1390|ref=carn._6
-12	ὅκως	ὅπως	c	c--------	_	11	AuxC	_	t_1382|t_1381|ref=carn._6
-13	περ	πέρ	d	d--------	_	25	AuxZ	_	t_1383|e_36|ref=carn._6
-14	ἀφρὸν	ἀφρός	n	n-s---ma-	Case=a|Gender=m|Number=s	25	PNOM	_	t_1384|e_36|ref=carn._6
-15	,	,	u	u--------	_	6	AuxX	_	t_1385|t_1376|ref=carn._6
-16	καὶ	καί	c	c--------	_	20	AuxY	_	t_1386|t_1390|ref=carn._6
-17	ἐποίησε	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	20	PRED	_	t_1387|t_1390|ref=carn._6
-18	σηραγγῶδες	σηραγγώδης	n	n-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_1388|t_1387|ref=carn._6
-19	,	,	u	u--------	_	6	AuxX	_	t_1389|t_1376|ref=carn._6
-20	καὶ	καί	c	c--------	_	6	COORD	_	t_1390|t_1376|ref=carn._6
-21	φλέβια	φλέβιον	n	n-p---nn-	Case=n|Gender=n|Number=p	17	SBJ	_	t_1391|t_1387|ref=carn._6
-22	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1392|t_1391|ref=carn._6
-23	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_1393|t_1387|ref=carn._6
+1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_1371|t_1372|ref=carn._7
+2	ὑγροῦ	ὑγρός	a	a-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_1372|t_1373|ref=carn._7
+3	ὁκόσον	ὁπόσος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_1373|t_1374|ref=carn._7
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	11	ADV	_	t_1374|t_1381|ref=carn._7
+5	κολλωδέστατον	κολλώδης	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	4	PNOM	_	t_1375|t_1374|ref=carn._7
+6	,	,	u	u--------	_	0	AuxX	_	t_1376|0|ref=carn._7
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_1377|t_1378|ref=carn._7
+8	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_1378|t_1381|ref=carn._7
+9	θερμαίνουσα	θερμαίνω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_1379|t_1381|ref=carn._7
+10	ταχὺ	ταχύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_1380|t_1381|ref=carn._7
+11	ἐξήρανεν	ξήρανον	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	20	PRED	_	t_1381|t_1390|ref=carn._7
+12	ὅκως	ὅπως	c	c--------	_	11	AuxC	_	t_1382|t_1381|ref=carn._7
+13	περ	πέρ	d	d--------	_	25	AuxZ	_	t_1383|e_36|ref=carn._7
+14	ἀφρὸν	ἀφρός	n	n-s---ma-	Case=a|Gender=m|Number=s	25	PNOM	_	t_1384|e_36|ref=carn._7
+15	,	,	u	u--------	_	6	AuxX	_	t_1385|t_1376|ref=carn._7
+16	καὶ	καί	c	c--------	_	20	AuxY	_	t_1386|t_1390|ref=carn._7
+17	ἐποίησε	ποιέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	20	PRED	_	t_1387|t_1390|ref=carn._7
+18	σηραγγῶδες	σηραγγώδης	n	n-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_1388|t_1387|ref=carn._7
+19	,	,	u	u--------	_	6	AuxX	_	t_1389|t_1376|ref=carn._7
+20	καὶ	καί	c	c--------	_	6	COORD	_	t_1390|t_1376|ref=carn._7
+21	φλέβια	φλέβιον	n	n-p---nn-	Case=n|Gender=n|Number=p	17	SBJ	_	t_1391|t_1387|ref=carn._7
+22	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_1392|t_1391|ref=carn._7
+23	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_1393|t_1387|ref=carn._7
 24	αὐτέῳ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	23	ADV	_	t_1394|t_1393|ref=carn._7
-25	[0]	[0]	-	---------	_	12	ADV	_	e_36|t_1382|ref=carn._1
-26	.	.	u	u--------	_	6	AuxK	_	t_1395|t_1376|ref=carn._6
+25	[0]	[0]	-	---------	_	12	ADV	_	e_36|t_1382|ref=carn._7
+26	.	.	u	u--------	_	6	AuxK	_	t_1395|t_1376|ref=carn._7
 
 # source = Hippocrates, carn._7
 # text = Διὰ δὲ τοῦτο ἐποίησε τὰ φλέβια ·
@@ -1804,69 +1804,69 @@
 6	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1425|t_1427|ref=carn._7
 7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1426|t_1427|ref=carn._7
 8	χιτών	χιτών	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_1427|e_37|ref=carn._7
-9	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=carn._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=carn._7
 10	.	.	u	u--------	_	9	AuxK	_	t_1428|e_37|ref=carn._7
 
-# source = Hippocrates, carn._7
+# source = Hippocrates, carn._8
 # text = 8 [0] .
 # sent_id = 87
-1	8	8	x	x--------	_	2	AuxK	_	t_1429|e_38|ref=carn._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=carn._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1430|e_38|ref=carn._7
+1	8	8	x	x--------	_	2	AuxK	_	t_1429|e_38|ref=carn._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=carn._8
+3	.	.	u	u--------	_	2	AuxK	_	t_1430|e_38|ref=carn._8
 
-# source = Hippocrates, carn._7
+# source = Hippocrates, carn._8
 # text = Τὸ δὲ ἧπαρ ὧδε ξυνέστὴ ·
 # sent_id = 88
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1431|t_1433|ref=carn._7
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1432|0|ref=carn._7
-3	ἧπαρ	ἧπαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1433|t_1435|ref=carn._7
-4	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_1434|t_1435|ref=carn._7
-5	ξυνέστὴ	συνίστημι	v	v3slia---	Mood=i|Number=s|Person=3|Tense=l|Voice=a	2	PRED	_	t_1435|t_1432|ref=carn._7
-6	·	·	u	u--------	_	2	AuxK	_	t_1436|t_1432|ref=carn._7
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1431|t_1433|ref=carn._8
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1432|0|ref=carn._8
+3	ἧπαρ	ἧπαρ	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1433|t_1435|ref=carn._8
+4	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_1434|t_1435|ref=carn._8
+5	ξυνέστὴ	συνίστημι	v	v3slia---	Mood=i|Number=s|Person=3|Tense=l|Voice=a	2	PRED	_	t_1435|t_1432|ref=carn._8
+6	·	·	u	u--------	_	2	AuxK	_	t_1436|t_1432|ref=carn._8
 
-# source = Hippocrates, carn._7
+# source = Hippocrates, carn._8
 # text = ξὺν τῷ θερμῷ πουλὺ τοῦ ὑγροῦ ἀπολὴφθὲν ἄνευ τοῦ κολλώδεος καὶ τοῦ λιπαροῦ , ἐκράτησε τὸ ψυχρὸν τοῦ θερμοῦ , καὶ ἐπάγη .
 # sent_id = 89
-1	ξὺν	σύν	r	r--------	_	7	AuxP	_	t_1437|t_1443|ref=carn._7
-2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_1438|t_1439|ref=carn._7
-3	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_1439|t_1437|ref=carn._7
-4	πουλὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_1440|t_1443|ref=carn._7
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1441|t_1442|ref=carn._7
-6	ὑγροῦ	ὑγρός	a	a-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_1442|t_1440|ref=carn._7
-7	ἀπολὴφθὲν	ἀπολήφω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	21	PRED	_	t_1443|t_1457|ref=carn._7
-8	ἄνευ	ἄνευ	r	r--------	_	7	AuxP	_	t_1444|t_1443|ref=carn._7
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1445|t_1446|ref=carn._7
-10	κολλώδεος	κολλώδης	n	n-s---ng-	Case=g|Gender=n|Number=s	11	ADV	_	t_1446|t_1447|ref=carn._7
-11	καὶ	καί	c	c--------	_	8	COORD	_	t_1447|t_1444|ref=carn._7
-12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1448|t_1449|ref=carn._7
-13	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	11	ADV	_	t_1449|t_1447|ref=carn._7
-14	,	,	u	u--------	_	0	AuxX	_	t_1450|0|ref=carn._7
-15	ἐκράτησε	κρατέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	21	PRED	_	t_1451|t_1457|ref=carn._7
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_1452|t_1453|ref=carn._7
-17	ψυχρὸν	ψυχρός	a	a-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_1453|t_1451|ref=carn._7
-18	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_1454|t_1455|ref=carn._7
-19	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_1455|t_1453|ref=carn._7
-20	,	,	u	u--------	_	14	AuxX	_	t_1456|t_1450|ref=carn._7
-21	καὶ	καί	c	c--------	_	14	COORD	_	t_1457|t_1450|ref=carn._7
-22	ἐπάγη	πήγνυμι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	21	PRED	_	t_1458|t_1457|ref=carn._7
-23	.	.	u	u--------	_	14	AuxK	_	t_1459|t_1450|ref=carn._7
+1	ξὺν	σύν	r	r--------	_	7	AuxP	_	t_1437|t_1443|ref=carn._8
+2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_1438|t_1439|ref=carn._8
+3	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_1439|t_1437|ref=carn._8
+4	πουλὺ	πολύς	a	a-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_1440|t_1443|ref=carn._8
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1441|t_1442|ref=carn._8
+6	ὑγροῦ	ὑγρός	a	a-s---ng-	Case=g|Gender=n|Number=s	4	ATR	_	t_1442|t_1440|ref=carn._8
+7	ἀπολὴφθὲν	ἀπολήφω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	21	PRED	_	t_1443|t_1457|ref=carn._8
+8	ἄνευ	ἄνευ	r	r--------	_	7	AuxP	_	t_1444|t_1443|ref=carn._8
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1445|t_1446|ref=carn._8
+10	κολλώδεος	κολλώδης	n	n-s---ng-	Case=g|Gender=n|Number=s	11	ADV	_	t_1446|t_1447|ref=carn._8
+11	καὶ	καί	c	c--------	_	8	COORD	_	t_1447|t_1444|ref=carn._8
+12	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1448|t_1449|ref=carn._8
+13	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	11	ADV	_	t_1449|t_1447|ref=carn._8
+14	,	,	u	u--------	_	0	AuxX	_	t_1450|0|ref=carn._8
+15	ἐκράτησε	κρατέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	21	PRED	_	t_1451|t_1457|ref=carn._8
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_1452|t_1453|ref=carn._8
+17	ψυχρὸν	ψυχρός	a	a-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_1453|t_1451|ref=carn._8
+18	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_1454|t_1455|ref=carn._8
+19	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_1455|t_1453|ref=carn._8
+20	,	,	u	u--------	_	14	AuxX	_	t_1456|t_1450|ref=carn._8
+21	καὶ	καί	c	c--------	_	14	COORD	_	t_1457|t_1450|ref=carn._8
+22	ἐπάγη	πήγνυμι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	21	PRED	_	t_1458|t_1457|ref=carn._8
+23	.	.	u	u--------	_	14	AuxK	_	t_1459|t_1450|ref=carn._8
 
-# source = Hippocrates, carn._7
+# source = Hippocrates, carn._8
 # text = Τεκμήριον δέ μοι τόδε [0] ·
 # sent_id = 90
-1	Τεκμήριον	τεκμήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_1460|e_39|ref=carn._7
-2	δέ	δέ	d	d--------	_	5	AuxY	_	t_1461|e_39|ref=carn._7
-3	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	5	ADV	_	t_1462|e_39|ref=carn._7
-4	τόδε	ὅδε	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1463|e_39|ref=carn._7
-5	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=carn._1
-6	·	·	u	u--------	_	5	AuxK	_	t_1464|e_39|ref=carn._7
+1	Τεκμήριον	τεκμήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_1460|e_39|ref=carn._8
+2	δέ	δέ	d	d--------	_	5	AuxY	_	t_1461|e_39|ref=carn._8
+3	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	5	ADV	_	t_1462|e_39|ref=carn._8
+4	τόδε	ὅδε	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1463|e_39|ref=carn._8
+5	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=carn._8
+6	·	·	u	u--------	_	5	AuxK	_	t_1464|e_39|ref=carn._8
 
-# source = Hippocrates, carn._7-8
+# source = Hippocrates, carn._8
 # text = ὁκόταν σφάξῃ τις ἱερεῖον , τέως μὲν ἂν θερμὸν ᾖ , ὑγρόν ἐστι τὸ αἷμα ·
 # sent_id = 91
-1	ὁκόταν	ὁπόταν	c	c--------	_	13	AuxC	_	t_1465|t_1477|ref=carn._7
+1	ὁκόταν	ὁπόταν	c	c--------	_	13	AuxC	_	t_1465|t_1477|ref=carn._8
 2	σφάξῃ	σφάζω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_1466|t_1465|ref=carn._8
-3	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1467|t_1466|ref=carn._7
+3	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1467|t_1466|ref=carn._8
 4	ἱερεῖον	ἱερεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_1468|t_1466|ref=carn._8
 5	,	,	u	u--------	_	13	AuxX	_	t_1469|t_1477|ref=carn._8
 6	τέως	τέως	d	d--------	_	13	ADV	_	t_1470|t_1477|ref=carn._8
@@ -1913,64 +1913,64 @@
 4	εἰσι	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1499|0|ref=carn._8
 5	ψυχραὶ	ψυχρός	a	a-p---fn-	Case=n|Gender=f|Number=p	6	PNOM	_	t_1500|t_1501|ref=carn._8
 6	καὶ	καί	c	c--------	_	3	COORD	_	t_1501|t_1498|ref=carn._8
-7	κολλώδεες	κολλώδης	a	a-p---fn-	Case=n|Gender=f|Number=p	6	PNOM	_	t_1502|t_1501|ref=carn._7
+7	κολλώδεες	κολλώδης	a	a-p---fn-	Case=n|Gender=f|Number=p	6	PNOM	_	t_1502|t_1501|ref=carn._8
 8	.	.	u	u--------	_	4	AuxK	_	t_1503|t_1499|ref=carn._8
 
-# source = Hippocrates, carn._8
+# source = Hippocrates, carn._9
 # text = 9 [0] .
 # sent_id = 95
-1	9	9	x	x--------	_	2	AuxK	_	t_1504|e_40|ref=carn._8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=carn._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1505|e_40|ref=carn._8
+1	9	9	x	x--------	_	2	AuxK	_	t_1504|e_40|ref=carn._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=carn._9
+3	.	.	u	u--------	_	2	AuxK	_	t_1505|e_40|ref=carn._9
 
-# source = Hippocrates, carn._8
+# source = Hippocrates, carn._9
 # text = Ὁ δὲ σπλὴν συνέστη ὧδε ·
 # sent_id = 96
-1	Ὁ	ὁ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1506|t_1509|ref=carn._8
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1507|0|ref=carn._8
-3	σπλὴν	σπλήν	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1508|t_1509|ref=carn._8
-4	συνέστη	συνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_1509|t_1507|ref=carn._8
-5	ὧδε	ὧδε	d	d--------	_	4	ADV	_	t_1510|t_1509|ref=carn._8
-6	·	·	u	u--------	_	2	AuxK	_	t_1511|t_1507|ref=carn._8
+1	Ὁ	ὁ	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1506|t_1509|ref=carn._9
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1507|0|ref=carn._9
+3	σπλὴν	σπλήν	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1508|t_1509|ref=carn._9
+4	συνέστη	συνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_1509|t_1507|ref=carn._9
+5	ὧδε	ὧδε	d	d--------	_	4	ADV	_	t_1510|t_1509|ref=carn._9
+6	·	·	u	u--------	_	2	AuxK	_	t_1511|t_1507|ref=carn._9
 
-# source = Hippocrates, carn._8
+# source = Hippocrates, carn._9
 # text = σὺν τῷ θερμῷ καὶ κολλώδει καὶ τοῦ θερμοῦ πλεῖστον , τοῦ δὲ ψυχροῦ ἐλάχιστον , τοσοῦτον μόνον ὁκόσον πῆξαι τὸ κολλῶδες αὐτὸ , ὅ εἰσιν αἱ ἶνες αἱ ἐνοῦσαι ἐν τῷ σπληνί [0] [1] ·
 # sent_id = 97
-1	σὺν	σύν	r	r--------	_	33	AuxP	_	t_1512|e_41|ref=carn._8
-2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_1513|t_1514|ref=carn._8
-3	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_1514|t_1515|ref=carn._8
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_1515|t_1512|ref=carn._8
-5	κολλώδει	κολλώδης	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_1516|t_1515|ref=carn._8
-6	καὶ	καί	d	d--------	_	9	AuxZ	_	t_1517|t_1520|ref=carn._8
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1518|t_1519|ref=carn._8
-8	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_1519|t_1520|ref=carn._8
-9	πλεῖστον	πλεῖστος	a	a-s---na-	Case=a|Gender=n|Number=s	12	PNOM	_	t_1520|t_1523|ref=carn._8
-10	,	,	u	u--------	_	33	AuxX	_	t_1521|e_41|ref=carn._8
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1522|t_1524|ref=carn._8
-12	δὲ	δέ	d	d--------	_	33	COORD	_	t_1523|e_41|ref=carn._8
-13	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_1524|t_1525|ref=carn._8
-14	ἐλάχιστον	ἐλαχύς	a	a-s---na-	Case=a|Gender=n|Number=s	12	PNOM	_	t_1525|t_1523|ref=carn._8
-15	,	,	u	u--------	_	33	AuxX	_	t_1526|e_41|ref=carn._8
-16	τοσοῦτον	τοσοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	34	PNOM	_	t_1527|e_42|ref=carn._8
-17	μόνον	μόνος	d	d--------	_	16	ADV	_	t_1528|t_1527|ref=carn._8
-18	ὁκόσον	ὁπόσος	p	p-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_1529|t_1530|ref=carn._8
-19	πῆξαι	πήγνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	16	ADV	_	t_1530|t_1527|ref=carn._8
-20	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_1531|t_1532|ref=carn._8
-21	κολλῶδες	κολλώδης	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_1532|t_1530|ref=carn._8
-22	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_1533|t_1532|ref=carn._8
-23	,	,	u	u--------	_	33	AuxX	_	t_1534|e_41|ref=carn._8
-24	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_1535|t_1536|ref=carn._8
-25	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	16	ATR	_	t_1536|t_1527|ref=carn._8
-26	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	27	ATR	_	t_1537|t_1538|ref=carn._8
-27	ἶνες	ἴς	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_1538|t_1536|ref=carn._8
-28	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	27	ATR	_	t_1539|t_1538|ref=carn._8
-29	ἐνοῦσαι	ἔνειμι	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	27	ATR	_	t_1540|t_1538|ref=carn._8
-30	ἐν	ἐν	r	r--------	_	29	AuxP	_	t_1541|t_1540|ref=carn._8
-31	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	32	ATR	_	t_1542|t_1543|ref=carn._8
+1	σὺν	σύν	r	r--------	_	33	AuxP	_	t_1512|e_41|ref=carn._9
+2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_1513|t_1514|ref=carn._9
+3	θερμῷ	θερμός	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_1514|t_1515|ref=carn._9
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_1515|t_1512|ref=carn._9
+5	κολλώδει	κολλώδης	a	a-s---nd-	Case=d|Gender=n|Number=s	4	ADV	_	t_1516|t_1515|ref=carn._9
+6	καὶ	καί	d	d--------	_	9	AuxZ	_	t_1517|t_1520|ref=carn._9
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1518|t_1519|ref=carn._9
+8	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_1519|t_1520|ref=carn._9
+9	πλεῖστον	πλεῖστος	a	a-s---na-	Case=a|Gender=n|Number=s	12	PNOM	_	t_1520|t_1523|ref=carn._9
+10	,	,	u	u--------	_	33	AuxX	_	t_1521|e_41|ref=carn._9
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1522|t_1524|ref=carn._9
+12	δὲ	δέ	d	d--------	_	33	COORD	_	t_1523|e_41|ref=carn._9
+13	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	14	ADV	_	t_1524|t_1525|ref=carn._9
+14	ἐλάχιστον	ἐλαχύς	a	a-s---na-	Case=a|Gender=n|Number=s	12	PNOM	_	t_1525|t_1523|ref=carn._9
+15	,	,	u	u--------	_	33	AuxX	_	t_1526|e_41|ref=carn._9
+16	τοσοῦτον	τοσοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	34	PNOM	_	t_1527|e_42|ref=carn._9
+17	μόνον	μόνος	d	d--------	_	16	ADV	_	t_1528|t_1527|ref=carn._9
+18	ὁκόσον	ὁπόσος	p	p-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_1529|t_1530|ref=carn._9
+19	πῆξαι	πήγνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	16	ADV	_	t_1530|t_1527|ref=carn._9
+20	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_1531|t_1532|ref=carn._9
+21	κολλῶδες	κολλώδης	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_1532|t_1530|ref=carn._9
+22	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	21	ATR	_	t_1533|t_1532|ref=carn._9
+23	,	,	u	u--------	_	33	AuxX	_	t_1534|e_41|ref=carn._9
+24	ὅ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	25	ADV	_	t_1535|t_1536|ref=carn._9
+25	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	16	ATR	_	t_1536|t_1527|ref=carn._9
+26	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	27	ATR	_	t_1537|t_1538|ref=carn._9
+27	ἶνες	ἴς	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_1538|t_1536|ref=carn._9
+28	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	27	ATR	_	t_1539|t_1538|ref=carn._9
+29	ἐνοῦσαι	ἔνειμι	v	v-pppafn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	27	ATR	_	t_1540|t_1538|ref=carn._9
+30	ἐν	ἐν	r	r--------	_	29	AuxP	_	t_1541|t_1540|ref=carn._9
+31	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	32	ATR	_	t_1542|t_1543|ref=carn._9
 32	σπληνί	σπληνίον	n	n-s---nd-	Case=d|Gender=n|Number=s	30	ADV	_	t_1543|t_1541|ref=carn._9
-33	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=carn._1
-34	[1]	[1]	-	---------	_	33	ADV	_	e_42|e_41|ref=carn._1
-35	·	·	u	u--------	_	33	AuxK	_	t_1544|e_41|ref=carn._8
+33	[0]	[0]	-	---------	_	0	PRED	_	e_41|0|ref=carn._9
+34	[1]	[1]	-	---------	_	33	ADV	_	e_42|e_41|ref=carn._9
+35	·	·	u	u--------	_	33	AuxK	_	t_1544|e_41|ref=carn._9
 
 # source = Hippocrates, carn._9
 # text = καὶ διὰ τὰς ἶνας ταύτας μαλακός ἐστιν ὁ σπλὴν καὶ ἰνώδης .
@@ -2033,7 +2033,7 @@
 30	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	31	ATR	_	t_1592|t_1593|ref=carn._9
 31	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_1593|t_1591|ref=carn._9
 32	ξυνέστη	συνίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	27	ADV	_	t_1594|t_1589|ref=carn._9
-33	[0]	[0]	-	---------	_	18	PRED	_	e_43|t_1580|ref=carn._1
+33	[0]	[0]	-	---------	_	18	PRED	_	e_43|t_1580|ref=carn._9
 34	.	.	u	u--------	_	4	AuxK	_	t_1595|t_1566|ref=carn._9
 
 # source = Hippocrates, carn._9
@@ -2047,7 +2047,7 @@
 6	περὶ	περί	r	r--------	_	9	AuxP	_	t_1601|e_44|ref=carn._9
 7	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_1602|t_1603|ref=carn._9
 8	σαρκῶν	σάρξ	n	n-p---fg-	Case=g|Gender=f|Number=p	6	PNOM	_	t_1603|t_1601|ref=carn._9
-9	[0]	[0]	-	---------	_	2	PRED	_	e_44|t_1597|ref=carn._1
+9	[0]	[0]	-	---------	_	2	PRED	_	e_44|t_1597|ref=carn._9
 10	·	·	u	u--------	_	2	AuxK	_	t_1604|t_1597|ref=carn._9
 
 # source = Hippocrates, carn._9
@@ -2088,8 +2088,8 @@
 13	φλεψὶ	φλόξ	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ADV	_	t_1633|t_1631|ref=carn._9
 14	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_1634|t_1633|ref=carn._9
 15	μεγάλῃσιν	μέγας	a	a-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_1635|t_1633|ref=carn._9
-16	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=carn._1
-17	[1]	[1]	-	---------	_	9	ADV	_	e_46|t_1629|ref=carn._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=carn._9
+17	[1]	[1]	-	---------	_	9	ADV	_	e_46|t_1629|ref=carn._9
 18	.	.	u	u--------	_	16	AuxK	_	t_1636|e_45|ref=carn._9
 
 # source = Hippocrates, carn._9
@@ -2118,8 +2118,8 @@
 21	ἐν	ἐν	r	r--------	_	25	AuxP	_	t_1657|e_48|ref=carn._9
 22	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	23	ATR	_	t_1658|t_1659|ref=carn._9
 23	ὑγρῷ	ὑγρός	a	a-s---nd-	Case=d|Gender=n|Number=s	21	ADV	_	t_1659|t_1657|ref=carn._9
-24	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=carn._1
-25	[1]	[1]	-	---------	_	17	PRED	_	e_48|t_1653|ref=carn._1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=carn._9
+25	[1]	[1]	-	---------	_	17	PRED	_	e_48|t_1653|ref=carn._9
 26	·	·	u	u--------	_	24	AuxK	_	t_1660|e_47|ref=carn._9
 
 # source = Hippocrates, carn._9
@@ -2173,7 +2173,7 @@
 18	,	,	u	u--------	_	20	AuxX	_	t_1698|t_1700|ref=carn._9
 19	ὅκου	ὅπου	c	c--------	_	13	AuxC	_	t_1699|t_1693|ref=carn._9
 20	ἐθέλοι	ἐθέλω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	13	ADV	_	t_1700|t_1693|ref=carn._9
-21	[0]	[0]	-	---------	_	2	PRED	_	e_49|t_1682|ref=carn._1
+21	[0]	[0]	-	---------	_	2	PRED	_	e_49|t_1682|ref=carn._9
 22	·	·	u	u--------	_	2	AuxK	_	t_1701|t_1682|ref=carn._9
 
 # source = Hippocrates, carn._9
@@ -2283,73 +2283,73 @@
 27	προσβαλλόντων	προσβάλλω	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	26	ATR	_	t_1791|t_1790|ref=carn._9
 28	.	.	u	u--------	_	2	AuxK	_	t_1792|t_1766|ref=carn._9
 
-# source = Hippocrates, carn._9
+# source = Hippocrates, carn._10
 # text = 10 [0] .
 # sent_id = 112
-1	10	10	u	u--------	_	2	AuxG	_	t_1793|e_50|ref=carn._9
-2	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=carn._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1794|e_50|ref=carn._9
+1	10	10	u	u--------	_	2	AuxG	_	t_1793|e_50|ref=carn._10
+2	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=carn._10
+3	.	.	u	u--------	_	2	AuxK	_	t_1794|e_50|ref=carn._10
 
-# source = Hippocrates, carn._9
+# source = Hippocrates, carn._10
 # text = Τὰ δὲ ἄρθρα ὧδε ἐγένετο ·
 # sent_id = 113
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1795|t_1797|ref=carn._9
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1796|0|ref=carn._9
-3	ἄρθρα	ἄρθρον	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_1797|t_1799|ref=carn._9
-4	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_1798|t_1799|ref=carn._9
-5	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	2	PRED	_	t_1799|t_1796|ref=carn._9
-6	·	·	u	u--------	_	2	AuxK	_	t_1800|t_1796|ref=carn._9
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1795|t_1797|ref=carn._10
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1796|0|ref=carn._10
+3	ἄρθρα	ἄρθρον	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_1797|t_1799|ref=carn._10
+4	ὧδε	ὧδε	d	d--------	_	5	ADV	_	t_1798|t_1799|ref=carn._10
+5	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	2	PRED	_	t_1799|t_1796|ref=carn._10
+6	·	·	u	u--------	_	2	AuxK	_	t_1800|t_1796|ref=carn._10
 
-# source = Hippocrates, carn._9
+# source = Hippocrates, carn._10
 # text = ὅτε τὰ ὀστέα ξυνίστατο , ὁκόσα μὲν αὐτέων λιπαρὰ ἦν , τάχιστα ἐξεκαύθη , ὥσπερ πρόσθεν λέλεκται ἐν τῷ προτέρῳ λόγῳ ·
 # sent_id = 114
-1	ὅτε	ὅτε	c	c--------	_	13	AuxC	_	t_1801|t_1813|ref=carn._9
-2	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1802|t_1803|ref=carn._9
-3	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_1803|t_1804|ref=carn._9
-4	ξυνίστατο	συνίστημι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	1	ADV	_	t_1804|t_1801|ref=carn._9
-5	,	,	u	u--------	_	13	AuxX	_	t_1805|t_1813|ref=carn._9
-6	ὁκόσα	ὁπόσος	p	p-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_1806|t_1810|ref=carn._9
-7	μὲν	μέν	d	d--------	_	10	AuxY	_	t_1807|t_1810|ref=carn._9
-8	αὐτέων	αὐτός	p	p-p---ng-	Case=g|Gender=f|Number=p	6	ATR	_	t_1808|t_1806|ref=carn._9
-9	λιπαρὰ	λιπαρός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_1809|t_1810|ref=carn._9
-10	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	13	ADV	_	t_1810|t_1813|ref=carn._9
-11	,	,	u	u--------	_	13	AuxX	_	t_1811|t_1813|ref=carn._9
-12	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	13	ADV	_	t_1812|t_1813|ref=carn._9
-13	ἐξεκαύθη	ἐκκαίω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1813|0|ref=carn._9
-14	,	,	u	u--------	_	13	AuxX	_	t_1814|t_1813|ref=carn._9
-15	ὥσπερ	ὥσπερ	c	c--------	_	13	AuxC	_	t_1815|t_1813|ref=carn._9
-16	πρόσθεν	πρόσθεν	d	d--------	_	17	ADV	_	t_1816|t_1817|ref=carn._9
-17	λέλεκται	λέγω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	15	ADV	_	t_1817|t_1815|ref=carn._9
-18	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_1818|t_1817|ref=carn._9
-19	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_1819|t_1821|ref=carn._9
-20	προτέρῳ	πρότερος	a	a-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_1820|t_1821|ref=carn._9
-21	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	18	ADV	_	t_1821|t_1818|ref=carn._9
-22	·	·	u	u--------	_	13	AuxK	_	t_1822|t_1813|ref=carn._9
+1	ὅτε	ὅτε	c	c--------	_	13	AuxC	_	t_1801|t_1813|ref=carn._10
+2	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_1802|t_1803|ref=carn._10
+3	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_1803|t_1804|ref=carn._10
+4	ξυνίστατο	συνίστημι	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	1	ADV	_	t_1804|t_1801|ref=carn._10
+5	,	,	u	u--------	_	13	AuxX	_	t_1805|t_1813|ref=carn._10
+6	ὁκόσα	ὁπόσος	p	p-p---nn-	Case=n|Gender=n|Number=p	10	SBJ	_	t_1806|t_1810|ref=carn._10
+7	μὲν	μέν	d	d--------	_	10	AuxY	_	t_1807|t_1810|ref=carn._10
+8	αὐτέων	αὐτός	p	p-p---ng-	Case=g|Gender=f|Number=p	6	ATR	_	t_1808|t_1806|ref=carn._10
+9	λιπαρὰ	λιπαρός	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_1809|t_1810|ref=carn._10
+10	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	13	ADV	_	t_1810|t_1813|ref=carn._10
+11	,	,	u	u--------	_	13	AuxX	_	t_1811|t_1813|ref=carn._10
+12	τάχιστα	ταχύς	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	13	ADV	_	t_1812|t_1813|ref=carn._10
+13	ἐξεκαύθη	ἐκκαίω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1813|0|ref=carn._10
+14	,	,	u	u--------	_	13	AuxX	_	t_1814|t_1813|ref=carn._10
+15	ὥσπερ	ὥσπερ	c	c--------	_	13	AuxC	_	t_1815|t_1813|ref=carn._10
+16	πρόσθεν	πρόσθεν	d	d--------	_	17	ADV	_	t_1816|t_1817|ref=carn._10
+17	λέλεκται	λέγω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	15	ADV	_	t_1817|t_1815|ref=carn._10
+18	ἐν	ἐν	r	r--------	_	17	AuxP	_	t_1818|t_1817|ref=carn._10
+19	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_1819|t_1821|ref=carn._10
+20	προτέρῳ	πρότερος	a	a-s---md-	Case=d|Gender=m|Number=s	21	ATR	_	t_1820|t_1821|ref=carn._10
+21	λόγῳ	λόγος	n	n-s---md-	Case=d|Gender=m|Number=s	18	ADV	_	t_1821|t_1818|ref=carn._10
+22	·	·	u	u--------	_	13	AuxK	_	t_1822|t_1813|ref=carn._10
 
-# source = Hippocrates, carn._9-10
+# source = Hippocrates, carn._10
 # text = ὁκόσον δʼ αὐτέων κολλῶδες ἦν , τοῦτο δὲ οὐκ ἠδύνατο ἐκκαυθῆναι , ἀλλὰ μεταξὺ ἀποληφθὲν τοῦ καιομένου καὶ ξηραινομένου ὑπὸ τοῦ θερμοῦ νεῦρα καὶ σίαλον ἐγένετο ·
 # sent_id = 115
-1	ὁκόσον	ὁπόσος	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1823|t_1827|ref=carn._9
-2	δʼ	δέ	d	d--------	_	13	AuxY	_	t_1824|t_1835|ref=carn._9
-3	αὐτέων	αὐτός	p	p-p---mg-	Case=g|Gender=f|Number=p	1	ATR	_	t_1825|t_1823|ref=carn._9
-4	κολλῶδες	κολλώδης	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1826|t_1827|ref=carn._9
-5	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	ATR	_	t_1827|t_1829|ref=carn._9
-6	,	,	u	u--------	_	0	AuxX	_	t_1828|0|ref=carn._9
-7	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_1829|t_1833|ref=carn._9
-8	δὲ	δέ	d	d--------	_	10	AuxY	_	t_1830|t_1832|ref=carn._9
-9	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_1831|t_1832|ref=carn._9
-10	ἠδύνατο	δύναμαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	13	PRED	_	t_1832|t_1835|ref=carn._9
-11	ἐκκαυθῆναι	ἐκκαίω	v	v--anp---	Mood=n|Tense=a|Voice=p	10	OBJ	_	t_1833|t_1832|ref=carn._9
-12	,	,	u	u--------	_	6	AuxX	_	t_1834|t_1828|ref=carn._9
-13	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_1835|t_1828|ref=carn._9
-14	μεταξὺ	μεταξύ	r	r--------	_	15	AuxP	_	t_1836|t_1837|ref=carn._9
-15	ἀποληφθὲν	ἀπολαμβάνω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_1837|t_1840|ref=carn._9
-16	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_1838|t_1839|ref=carn._9
-17	καιομένου	καίω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_1839|t_1840|ref=carn._9
-18	καὶ	καί	c	c--------	_	26	COORD	_	t_1840|t_1848|ref=carn._9
-19	ξηραινομένου	ξηραίνω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_1841|t_1840|ref=carn._9
+1	ὁκόσον	ὁπόσος	p	p-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1823|t_1827|ref=carn._10
+2	δʼ	δέ	d	d--------	_	13	AuxY	_	t_1824|t_1835|ref=carn._10
+3	αὐτέων	αὐτός	p	p-p---mg-	Case=g|Gender=f|Number=p	1	ATR	_	t_1825|t_1823|ref=carn._10
+4	κολλῶδες	κολλώδης	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_1826|t_1827|ref=carn._10
+5	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	7	ATR	_	t_1827|t_1829|ref=carn._10
+6	,	,	u	u--------	_	0	AuxX	_	t_1828|0|ref=carn._10
+7	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_1829|t_1833|ref=carn._10
+8	δὲ	δέ	d	d--------	_	10	AuxY	_	t_1830|t_1832|ref=carn._10
+9	οὐκ	οὐ	d	d--------	_	10	AuxZ	_	t_1831|t_1832|ref=carn._10
+10	ἠδύνατο	δύναμαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	13	PRED	_	t_1832|t_1835|ref=carn._10
+11	ἐκκαυθῆναι	ἐκκαίω	v	v--anp---	Mood=n|Tense=a|Voice=p	10	OBJ	_	t_1833|t_1832|ref=carn._10
+12	,	,	u	u--------	_	6	AuxX	_	t_1834|t_1828|ref=carn._10
+13	ἀλλὰ	ἀλλά	c	c--------	_	6	COORD	_	t_1835|t_1828|ref=carn._10
+14	μεταξὺ	μεταξύ	r	r--------	_	15	AuxP	_	t_1836|t_1837|ref=carn._10
+15	ἀποληφθὲν	ἀπολαμβάνω	v	v-sappnn-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_1837|t_1840|ref=carn._10
+16	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_1838|t_1839|ref=carn._10
+17	καιομένου	καίω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_1839|t_1840|ref=carn._10
+18	καὶ	καί	c	c--------	_	26	COORD	_	t_1840|t_1848|ref=carn._10
+19	ξηραινομένου	ξηραίνω	v	v-sppeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	18	ADV	_	t_1841|t_1840|ref=carn._10
 20	ὑπὸ	ὑπό	r	r--------	_	19	AuxP	_	t_1842|t_1841|ref=carn._10
-21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1843|t_1844|ref=carn._9
+21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1843|t_1844|ref=carn._10
 22	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	20	OBJ	_	t_1844|t_1842|ref=carn._10
 23	νεῦρα	νεῦρον	n	n-p---nn-	Case=n|Gender=n|Number=p	24	PNOM	_	t_1845|t_1846|ref=carn._10
 24	καὶ	καί	c	c--------	_	26	COORD	_	t_1846|t_1848|ref=carn._10
@@ -2388,119 +2388,119 @@
 5	ἐγένετο	γίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1871|0|ref=carn._10
 6	.	.	u	u--------	_	5	AuxK	_	t_1872|t_1871|ref=carn._10
 
-# source = Hippocrates, carn._10
+# source = Hippocrates, carn._11
 # text = 11 .
 # sent_id = 118
-1	11	11	x	x--------	_	0	AuxG	_	t_1873|0|ref=carn._10
-2	.	.	u	u--------	_	1	AuxK	_	t_1874|t_1873|ref=carn._10
+1	11	11	x	x--------	_	0	AuxG	_	t_1873|0|ref=carn._11
+2	.	.	u	u--------	_	1	AuxK	_	t_1874|t_1873|ref=carn._11
 
-# source = Hippocrates, carn._10
+# source = Hippocrates, carn._11
 # text = Οἱ δὲ ὄνυχες ἀπὸ τουτέου ἐγένοντο τοῦ κολλώδεος ·
 # sent_id = 119
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_1875|t_1877|ref=carn._10
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1876|0|ref=carn._10
-3	ὄνυχες	ὄνυξ	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_1877|t_1880|ref=carn._10
-4	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_1878|t_1880|ref=carn._10
-5	τουτέου	οὗτος	p	p-s---ng-	Case=g|Gender=m|Number=s	4	PNOM	_	t_1879|t_1878|ref=carn._10
-6	ἐγένοντο	γίγνομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	2	PRED	_	t_1880|t_1876|ref=carn._10
-7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1881|t_1882|ref=carn._10
-8	κολλώδεος	κολλώδης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1882|t_1879|ref=carn._10
-9	·	·	u	u--------	_	2	AuxK	_	t_1883|t_1876|ref=carn._10
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_1875|t_1877|ref=carn._11
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1876|0|ref=carn._11
+3	ὄνυχες	ὄνυξ	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_1877|t_1880|ref=carn._11
+4	ἀπὸ	ἀπό	r	r--------	_	6	AuxP	_	t_1878|t_1880|ref=carn._11
+5	τουτέου	οὗτος	p	p-s---ng-	Case=g|Gender=m|Number=s	4	PNOM	_	t_1879|t_1878|ref=carn._11
+6	ἐγένοντο	γίγνομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	2	PRED	_	t_1880|t_1876|ref=carn._11
+7	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1881|t_1882|ref=carn._11
+8	κολλώδεος	κολλώδης	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1882|t_1879|ref=carn._11
+9	·	·	u	u--------	_	2	AuxK	_	t_1883|t_1876|ref=carn._11
 
-# source = Hippocrates, carn._10
+# source = Hippocrates, carn._11
 # text = ἀπὸ γὰρ τῶν ὀστέων καὶ τῶν ἄρθρων αἰεὶ τὸ ὑγρότατον αὐτέου ἀπιὸν κολλῶδες γίνεται , ἀπὸ τοῦ θερμοῦ ξηραινόμενον καὶ ἐξαυαινόμενον , θύραζε ὄνυχες .
 # sent_id = 120
-1	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_1884|t_1897|ref=carn._10
-2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_1885|t_1897|ref=carn._10
-3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1886|t_1887|ref=carn._10
-4	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_1887|t_1888|ref=carn._10
-5	καὶ	καί	c	c--------	_	1	COORD	_	t_1888|t_1884|ref=carn._10
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1889|t_1890|ref=carn._10
-7	ἄρθρων	ἄρθρον	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_1890|t_1888|ref=carn._10
-8	αἰεὶ	ἀεί	d	d--------	_	14	ADV	_	t_1891|t_1897|ref=carn._10
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1892|t_1896|ref=carn._10
-10	ὑγρότατον	ὑγρός	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	13	ATR	_	t_1893|t_1896|ref=carn._10
-11	αὐτέου	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1894|t_1896|ref=carn._10
-12	ἀπιὸν	ἄπειμι2	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	13	ATR	_	t_1895|t_1896|ref=carn._10
-13	κολλῶδες	κολλώδης	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_1896|t_1897|ref=carn._10
-14	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1897|0|ref=carn._10
-15	,	,	u	u--------	_	14	AuxX	_	t_1898|t_1897|ref=carn._10
-16	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_1899|t_1902|ref=carn._10
-17	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_1900|t_1901|ref=carn._10
-18	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_1901|t_1899|ref=carn._10
-19	ξηραινόμενον	ξηραίνω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_1902|t_1903|ref=carn._10
-20	καὶ	καί	c	c--------	_	14	COORD	_	t_1903|t_1897|ref=carn._10
-21	ἐξαυαινόμενον	ἐξαυαίνομαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_1904|t_1903|ref=carn._10
-22	,	,	u	u--------	_	14	AuxX	_	t_1905|t_1897|ref=carn._10
-23	θύραζε	θύραζε	d	d--------	_	14	ADV	_	t_1906|t_1897|ref=carn._10
-24	ὄνυχες	ὄνυξ	n	n-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_1907|t_1897|ref=carn._10
-25	.	.	u	u--------	_	14	AuxK	_	t_1908|t_1897|ref=carn._10
+1	ἀπὸ	ἀπό	r	r--------	_	14	AuxP	_	t_1884|t_1897|ref=carn._11
+2	γὰρ	γάρ	d	d--------	_	14	AuxY	_	t_1885|t_1897|ref=carn._11
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1886|t_1887|ref=carn._11
+4	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_1887|t_1888|ref=carn._11
+5	καὶ	καί	c	c--------	_	1	COORD	_	t_1888|t_1884|ref=carn._11
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1889|t_1890|ref=carn._11
+7	ἄρθρων	ἄρθρον	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_1890|t_1888|ref=carn._11
+8	αἰεὶ	ἀεί	d	d--------	_	14	ADV	_	t_1891|t_1897|ref=carn._11
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1892|t_1896|ref=carn._11
+10	ὑγρότατον	ὑγρός	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	13	ATR	_	t_1893|t_1896|ref=carn._11
+11	αὐτέου	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	13	ATR	_	t_1894|t_1896|ref=carn._11
+12	ἀπιὸν	ἄπειμι2	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	13	ATR	_	t_1895|t_1896|ref=carn._11
+13	κολλῶδες	κολλώδης	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_1896|t_1897|ref=carn._11
+14	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1897|0|ref=carn._11
+15	,	,	u	u--------	_	14	AuxX	_	t_1898|t_1897|ref=carn._11
+16	ἀπὸ	ἀπό	r	r--------	_	19	AuxP	_	t_1899|t_1902|ref=carn._11
+17	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	18	ATR	_	t_1900|t_1901|ref=carn._11
+18	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	16	ADV	_	t_1901|t_1899|ref=carn._11
+19	ξηραινόμενον	ξηραίνω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_1902|t_1903|ref=carn._11
+20	καὶ	καί	c	c--------	_	14	COORD	_	t_1903|t_1897|ref=carn._11
+21	ἐξαυαινόμενον	ἐξαυαίνομαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_1904|t_1903|ref=carn._11
+22	,	,	u	u--------	_	14	AuxX	_	t_1905|t_1897|ref=carn._11
+23	θύραζε	θύραζε	d	d--------	_	14	ADV	_	t_1906|t_1897|ref=carn._11
+24	ὄνυχες	ὄνυξ	n	n-p---mn-	Case=n|Gender=m|Number=p	14	SBJ	_	t_1907|t_1897|ref=carn._11
+25	.	.	u	u--------	_	14	AuxK	_	t_1908|t_1897|ref=carn._11
 
-# source = Hippocrates, carn._10
+# source = Hippocrates, carn._12
 # text = 12 .
 # sent_id = 121
-1	12	12	x	x--------	_	0	AuxG	_	t_1909|0|ref=carn._10
-2	.	.	u	u--------	_	1	AuxK	_	t_1910|t_1909|ref=carn._10
+1	12	12	x	x--------	_	0	AuxG	_	t_1909|0|ref=carn._12
+2	.	.	u	u--------	_	1	AuxK	_	t_1910|t_1909|ref=carn._12
 
-# source = Hippocrates, carn._10
+# source = Hippocrates, carn._12
 # text = Οἱ δὲ ὀδόντες ὕστερον γίνονται διὰ τόδε ·
 # sent_id = 122
-1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_1911|t_1913|ref=carn._10
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1912|0|ref=carn._10
-3	ὀδόντες	ὀδών	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1913|t_1915|ref=carn._10
-4	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_1914|t_1915|ref=carn._10
-5	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_1915|t_1912|ref=carn._10
-6	διὰ	διά	r	r--------	_	5	AuxP	_	t_1916|t_1915|ref=carn._10
-7	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_1917|t_1916|ref=carn._10
-8	·	·	u	u--------	_	2	AuxK	_	t_1918|t_1912|ref=carn._10
+1	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_1911|t_1913|ref=carn._12
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1912|0|ref=carn._12
+3	ὀδόντες	ὀδών	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1913|t_1915|ref=carn._12
+4	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_1914|t_1915|ref=carn._12
+5	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_1915|t_1912|ref=carn._12
+6	διὰ	διά	r	r--------	_	5	AuxP	_	t_1916|t_1915|ref=carn._12
+7	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_1917|t_1916|ref=carn._12
+8	·	·	u	u--------	_	2	AuxK	_	t_1918|t_1912|ref=carn._12
 
-# source = Hippocrates, carn._10-11
+# source = Hippocrates, carn._12
 # text = ἀπὸ τῶν ὀστέων τῶν ἐν τῇ κεφαλῇ καὶ τοῖν γνάθοιν ἡ αὔξησις γίνεται ·
 # sent_id = 123
-1	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_1919|t_1931|ref=carn._10
-2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1920|t_1921|ref=carn._10
-3	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1921|t_1919|ref=carn._10
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1922|t_1921|ref=carn._10
-5	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_1923|t_1921|ref=carn._11
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_1924|t_1925|ref=carn._11
-7	κεφαλῇ	κεφαλή	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_1925|t_1926|ref=carn._11
-8	καὶ	καί	c	c--------	_	5	COORD	_	t_1926|t_1923|ref=carn._11
-9	τοῖν	ὁ	l	l-d---fg-	Case=g|Gender=f|Number=d	10	ATR	_	t_1927|t_1928|ref=carn._11
-10	γνάθοιν	γνάθος	n	p1d---cd-	Case=d|Gender=c|Number=d|Person=1	8	ATR	_	t_1928|t_1926|ref=carn._11
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_1929|t_1930|ref=carn._11
-12	αὔξησις	αὔξησις	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1930|t_1931|ref=carn._11
-13	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1931|0|ref=carn._11
-14	·	·	u	u--------	_	13	AuxK	_	t_1932|t_1931|ref=carn._11
+1	ἀπὸ	ἀπό	r	r--------	_	13	AuxP	_	t_1919|t_1931|ref=carn._12
+2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1920|t_1921|ref=carn._12
+3	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1921|t_1919|ref=carn._12
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_1922|t_1921|ref=carn._12
+5	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_1923|t_1921|ref=carn._12
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_1924|t_1925|ref=carn._12
+7	κεφαλῇ	κεφαλή	n	n-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_1925|t_1926|ref=carn._12
+8	καὶ	καί	c	c--------	_	5	COORD	_	t_1926|t_1923|ref=carn._12
+9	τοῖν	ὁ	l	l-d---fg-	Case=g|Gender=f|Number=d	10	ATR	_	t_1927|t_1928|ref=carn._12
+10	γνάθοιν	γνάθος	n	p1d---cd-	Case=d|Gender=c|Number=d|Person=1	8	ATR	_	t_1928|t_1926|ref=carn._12
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_1929|t_1930|ref=carn._12
+12	αὔξησις	αὔξησις	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1930|t_1931|ref=carn._12
+13	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1931|0|ref=carn._12
+14	·	·	u	u--------	_	13	AuxK	_	t_1932|t_1931|ref=carn._12
 
-# source = Hippocrates, carn._11-12
+# source = Hippocrates, carn._12
 # text = τοῦ κολλώδεος καὶ τοῦ λιπαροῦ τὸ ἐνεὸν ὑπὸ τοῦ θερμοῦ ξηραινόμενον ἐκκαίεται , καὶ γίνονταί ὀδόντες σκληρότεροι τῶν ἄλλων ὀστέων , ὅτι οὐκ ἔνεστι τοῦ ψυχροῦ .
 # sent_id = 124
-1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_1933|t_1934|ref=carn._11
-2	κολλώδεος	κολλώδης	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_1934|t_1935|ref=carn._11
-3	καὶ	καί	c	c--------	_	12	COORD	_	t_1935|t_1944|ref=carn._11
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_1936|t_1937|ref=carn._11
-5	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_1937|t_1935|ref=carn._11
-6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1938|t_1939|ref=carn._11
-7	ἐνεὸν	ἐνεός	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	SBJ	_	t_1939|t_1944|ref=carn._11
-8	ὑπὸ	ὑπό	r	r--------	_	11	AuxP	_	t_1940|t_1943|ref=carn._11
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1941|t_1942|ref=carn._11
-10	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_1942|t_1940|ref=carn._11
-11	ξηραινόμενον	ξηραίνω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_1943|t_1944|ref=carn._11
-12	ἐκκαίεται	ἐκκαίω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	PRED	_	t_1944|t_1946|ref=carn._11
-13	,	,	u	u--------	_	0	AuxX	_	t_1945|0|ref=carn._11
-14	καὶ	καί	c	c--------	_	13	COORD	_	t_1946|t_1945|ref=carn._11
-15	γίνονταί	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	14	PRED	_	t_1947|t_1946|ref=carn._11
-16	ὀδόντες	ὀδών	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_1948|t_1947|ref=carn._11
-17	σκληρότεροι	σκληρός	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	15	PNOM	_	t_1949|t_1947|ref=carn._11
-18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	20	ATR	_	t_1950|t_1952|ref=carn._11
-19	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_1951|t_1952|ref=carn._11
-20	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=f|Number=p	17	ADV	_	t_1952|t_1949|ref=carn._11
-21	,	,	u	u--------	_	13	AuxX	_	t_1953|t_1945|ref=carn._11
-22	ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_1954|t_1947|ref=carn._11
-23	οὐκ	οὐ	d	d--------	_	24	AuxZ	_	t_1955|t_1956|ref=carn._11
-24	ἔνεστι	ἔνειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_1956|t_1954|ref=carn._11
-25	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	26	ATR	_	t_1957|t_1958|ref=carn._11
-26	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	24	OBJ	_	t_1958|t_1956|ref=carn._11
+1	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_1933|t_1934|ref=carn._12
+2	κολλώδεος	κολλώδης	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_1934|t_1935|ref=carn._12
+3	καὶ	καί	c	c--------	_	12	COORD	_	t_1935|t_1944|ref=carn._12
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_1936|t_1937|ref=carn._12
+5	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_1937|t_1935|ref=carn._12
+6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1938|t_1939|ref=carn._12
+7	ἐνεὸν	ἐνεός	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	12	SBJ	_	t_1939|t_1944|ref=carn._12
+8	ὑπὸ	ὑπό	r	r--------	_	11	AuxP	_	t_1940|t_1943|ref=carn._12
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1941|t_1942|ref=carn._12
+10	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_1942|t_1940|ref=carn._12
+11	ξηραινόμενον	ξηραίνω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_1943|t_1944|ref=carn._12
+12	ἐκκαίεται	ἐκκαίω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	14	PRED	_	t_1944|t_1946|ref=carn._12
+13	,	,	u	u--------	_	0	AuxX	_	t_1945|0|ref=carn._12
+14	καὶ	καί	c	c--------	_	13	COORD	_	t_1946|t_1945|ref=carn._12
+15	γίνονταί	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	14	PRED	_	t_1947|t_1946|ref=carn._12
+16	ὀδόντες	ὀδών	n	n-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_1948|t_1947|ref=carn._12
+17	σκληρότεροι	σκληρός	a	a-p---mnc	Case=n|Degree=c|Gender=m|Number=p	15	PNOM	_	t_1949|t_1947|ref=carn._12
+18	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	20	ATR	_	t_1950|t_1952|ref=carn._12
+19	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_1951|t_1952|ref=carn._12
+20	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=f|Number=p	17	ADV	_	t_1952|t_1949|ref=carn._12
+21	,	,	u	u--------	_	13	AuxX	_	t_1953|t_1945|ref=carn._12
+22	ὅτι	ὅτι	c	c--------	_	15	AuxC	_	t_1954|t_1947|ref=carn._12
+23	οὐκ	οὐ	d	d--------	_	24	AuxZ	_	t_1955|t_1956|ref=carn._12
+24	ἔνεστι	ἔνειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_1956|t_1954|ref=carn._12
+25	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	26	ATR	_	t_1957|t_1958|ref=carn._12
+26	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	24	OBJ	_	t_1958|t_1956|ref=carn._12
 27	.	.	u	u--------	_	13	AuxK	_	t_1959|t_1945|ref=carn._12
 
 # source = Hippocrates, carn._12
@@ -2531,7 +2531,7 @@
 23	θηλάζοντι	θηλάζω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	25	ATR	_	t_1982|t_1984|ref=carn._12
 24	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	25	ATR	_	t_1983|t_1984|ref=carn._12
 25	παιδίῳ	παιδίον	n	n-s---nd-	Case=d|Gender=n|Number=s	26	OBJ	_	t_1984|e_51|ref=carn._12
-26	[0]	[0]	-	---------	_	15	PRED	_	e_51|t_1974|ref=carn._1
+26	[0]	[0]	-	---------	_	15	PRED	_	e_51|t_1974|ref=carn._12
 27	·	·	u	u--------	_	1	AuxK	_	t_1985|t_1960|ref=carn._12
 
 # source = Hippocrates, carn._12
@@ -2569,7 +2569,7 @@
 30	νοσερῆς	νοσερός	a	a-s---fg-	Case=g|Gender=f|Number=s	31	ATR	_	t_2015|t_2016|ref=carn._12
 31	τροφῆς	τροφή	n	n-s---fg-	Case=g|Gender=f|Number=s	29	ADV	_	t_2016|t_2014|ref=carn._12
 32	φυῶσιν	φύω	v	v3ppsa---	Mood=s|Number=p|Person=3|Tense=p|Voice=a	28	ADV	_	t_2017|t_2013|ref=carn._12
-33	[0]	[0]	-	---------	_	22	ADV	_	e_52|t_2007|ref=carn._1
+33	[0]	[0]	-	---------	_	22	ADV	_	e_52|t_2007|ref=carn._12
 34	·	·	u	u--------	_	11	AuxK	_	t_2018|t_1996|ref=carn._12
 
 # source = Hippocrates, carn._12
@@ -2583,7 +2583,7 @@
 6	ἑπτὰ	ἑπτὰ	m	m--------	_	7	ATR	_	t_2024|t_2025|ref=carn._12
 7	ἔτεα	ἔτος	n	n-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_2025|t_2026|ref=carn._12
 8	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	5	ADV	_	t_2026|t_2023|ref=carn._12
-9	[0]	[0]	-	---------	_	2	PRED	_	e_53|t_2020|ref=carn._1
+9	[0]	[0]	-	---------	_	2	PRED	_	e_53|t_2020|ref=carn._12
 10	·	·	u	u--------	_	2	AuxK	_	t_2027|t_2020|ref=carn._12
 
 # source = Hippocrates, carn._12
@@ -2601,75 +2601,75 @@
 10	διαφθαρῶσι	διαφθείρω	v	v3pasp---	Mood=s|Number=p|Person=3|Tense=a|Voice=p	6	ADV	_	t_2037|t_2033|ref=carn._12
 11	.	.	u	u--------	_	4	AuxK	_	t_2038|t_2031|ref=carn._12
 
-# source = Hippocrates, carn._12
+# source = Hippocrates, carn._13
 # text = 13 .
 # sent_id = 129
-1	13	13	x	x--------	_	0	AuxG	_	t_2039|0|ref=carn._12
-2	.	.	u	u--------	_	1	AuxK	_	t_2040|t_2039|ref=carn._12
+1	13	13	x	x--------	_	0	AuxG	_	t_2039|0|ref=carn._13
+2	.	.	u	u--------	_	1	AuxK	_	t_2040|t_2039|ref=carn._13
 
-# source = Hippocrates, carn._12
+# source = Hippocrates, carn._13
 # text = Διὰ δὲ τοῦτο φύονται οἱ ὀδόντες ὕστερον τῶν ἄλλων ·
 # sent_id = 130
-1	Διὰ	διά	r	r--------	_	4	AuxP	_	t_2041|t_2044|ref=carn._12
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_2042|t_2044|ref=carn._12
-3	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_2043|t_2041|ref=carn._12
-4	φύονται	φύω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_2044|0|ref=carn._12
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_2045|t_2046|ref=carn._12
-6	ὀδόντες	ὀδών	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_2046|t_2044|ref=carn._12
-7	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_2047|t_2044|ref=carn._12
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_2048|t_2049|ref=carn._12
-9	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_2049|t_2047|ref=carn._12
-10	·	·	u	u--------	_	4	AuxK	_	t_2050|t_2044|ref=carn._12
+1	Διὰ	διά	r	r--------	_	4	AuxP	_	t_2041|t_2044|ref=carn._13
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_2042|t_2044|ref=carn._13
+3	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_2043|t_2041|ref=carn._13
+4	φύονται	φύω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_2044|0|ref=carn._13
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_2045|t_2046|ref=carn._13
+6	ὀδόντες	ὀδών	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_2046|t_2044|ref=carn._13
+7	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	4	ADV	_	t_2047|t_2044|ref=carn._13
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_2048|t_2049|ref=carn._13
+9	ἄλλων	ἄλλος	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_2049|t_2047|ref=carn._13
+10	·	·	u	u--------	_	4	AuxK	_	t_2050|t_2044|ref=carn._13
 
-# source = Hippocrates, carn._12
+# source = Hippocrates, carn._13
 # text = ἐν τῇ γνάθῳ φλέβες εἰσὶ τῇ κάτω κοῖλαι , καὶ μούνοισι τῶν ὀστέων αὗται τὴν τροφὴν παρέχουσι τῷ ὀστέῳ ·
 # sent_id = 131
-1	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_2051|t_2055|ref=carn._12
-2	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_2052|t_2053|ref=carn._12
-3	γνάθῳ	γνάθαινον	n	n-s---fd-	Case=d|Gender=f|Number=s	1	PNOM	_	t_2053|t_2051|ref=carn._12
-4	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_2054|t_2055|ref=carn._12
-5	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_2055|t_2060|ref=carn._12
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_2056|t_2054|ref=carn._12
-7	κάτω	κάτω	d	d--------	_	4	ATR	_	t_2057|t_2054|ref=carn._12
-8	κοῖλαι	κοῖλος	a	a-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_2058|t_2054|ref=carn._12
-9	,	,	u	u--------	_	0	AuxX	_	t_2059|0|ref=carn._12
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_2060|t_2059|ref=carn._12
-11	μούνοισι	μόνος	a	a-p---md-	Case=d|Gender=f|Number=p	17	OBJ	_	t_2061|t_2067|ref=carn._12
-12	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_2062|t_2063|ref=carn._12
-13	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=f|Number=p	11	ATR	_	t_2063|t_2061|ref=carn._12
-14	αὗται	οὗτος	p	p-p---fn-	Case=n|Gender=f|Number=p	17	SBJ	_	t_2064|t_2067|ref=carn._12
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_2065|t_2066|ref=carn._12
-16	τροφὴν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_2066|t_2067|ref=carn._12
-17	παρέχουσι	παρέχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_2067|t_2060|ref=carn._12
-18	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_2068|t_2069|ref=carn._12
-19	ὀστέῳ	ὀστέον	n	n-s---nd-	Case=d|Gender=n|Number=s	17	OBJ	_	t_2069|t_2067|ref=carn._12
-20	·	·	u	u--------	_	9	AuxK	_	t_2070|t_2059|ref=carn._12
+1	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_2051|t_2055|ref=carn._13
+2	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_2052|t_2053|ref=carn._13
+3	γνάθῳ	γνάθαινον	n	n-s---fd-	Case=d|Gender=f|Number=s	1	PNOM	_	t_2053|t_2051|ref=carn._13
+4	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_2054|t_2055|ref=carn._13
+5	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_2055|t_2060|ref=carn._13
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	4	ATR	_	t_2056|t_2054|ref=carn._13
+7	κάτω	κάτω	d	d--------	_	4	ATR	_	t_2057|t_2054|ref=carn._13
+8	κοῖλαι	κοῖλος	a	a-p---fn-	Case=n|Gender=f|Number=p	4	ATR	_	t_2058|t_2054|ref=carn._13
+9	,	,	u	u--------	_	0	AuxX	_	t_2059|0|ref=carn._13
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_2060|t_2059|ref=carn._13
+11	μούνοισι	μόνος	a	a-p---md-	Case=d|Gender=f|Number=p	17	OBJ	_	t_2061|t_2067|ref=carn._13
+12	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_2062|t_2063|ref=carn._13
+13	ὀστέων	ὀστέον	n	n-p---ng-	Case=g|Gender=f|Number=p	11	ATR	_	t_2063|t_2061|ref=carn._13
+14	αὗται	οὗτος	p	p-p---fn-	Case=n|Gender=f|Number=p	17	SBJ	_	t_2064|t_2067|ref=carn._13
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_2065|t_2066|ref=carn._13
+16	τροφὴν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_2066|t_2067|ref=carn._13
+17	παρέχουσι	παρέχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	10	PRED	_	t_2067|t_2060|ref=carn._13
+18	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	19	ATR	_	t_2068|t_2069|ref=carn._13
+19	ὀστέῳ	ὀστέον	n	n-s---nd-	Case=d|Gender=n|Number=s	17	OBJ	_	t_2069|t_2067|ref=carn._13
+20	·	·	u	u--------	_	9	AuxK	_	t_2070|t_2059|ref=carn._13
 
-# source = Hippocrates, carn._12-13
+# source = Hippocrates, carn._13
 # text = τὰ δὲ ὀστέα τοιαύτην αὔξησιν ὁποῖά πέρ ἐστι , καὶ τὰ ἄλλα δὲ πάντα τοιαύτην ἀποδίδωσιν αὔξησιν , ὁποῖα αὐτά ἐστιν [0] ·
 # sent_id = 132
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_2071|t_2073|ref=carn._12
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_2072|t_2075|ref=carn._12
-3	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2073|t_2075|ref=carn._12
-4	τοιαύτην	τοιοῦτος	p	p-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_2074|t_2075|ref=carn._12
-5	αὔξησιν	αὔξησις	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_2075|t_2083|ref=carn._12
-6	ὁποῖά	ὁποῖος	p	p-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_2076|t_2078|ref=carn._12
-7	πέρ	πέρ	d	d--------	_	8	AuxY	_	t_2077|t_2078|ref=carn._12
-8	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	ATR	_	t_2078|t_2074|ref=carn._12
-9	,	,	u	u--------	_	0	AuxX	_	t_2079|0|ref=carn._12
-10	καὶ	καί	c	c--------	_	12	AuxZ	_	t_2080|t_2082|ref=carn._12
-11	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_2081|t_2082|ref=carn._12
-12	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_2082|t_2086|ref=carn._12
-13	δὲ	δέ	d	d--------	_	9	COORD	_	t_2083|t_2079|ref=carn._12
-14	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_2084|t_2082|ref=carn._12
-15	τοιαύτην	τοιοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_2085|t_2087|ref=carn._12
-16	ἀποδίδωσιν	ἀποδίδωμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_2086|t_2083|ref=carn._12
-17	αὔξησιν	αὔξησις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_2087|t_2086|ref=carn._12
-18	,	,	u	u--------	_	9	AuxX	_	t_2088|t_2079|ref=carn._12
-19	ὁποῖα	ὁποῖος	p	p-p---nn-	Case=n|Gender=n|Number=p	21	PNOM	_	t_2089|t_2091|ref=carn._12
-20	αὐτά	αὐτός	p	p-p---nn-	Case=n|Gender=n|Number=p	21	SBJ	_	t_2090|t_2091|ref=carn._12
-21	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ATR	_	t_2091|t_2085|ref=carn._12
-22	[0]	[0]	-	---------	_	4	ADV	_	e_54|t_2074|ref=carn._1
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_2071|t_2073|ref=carn._13
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_2072|t_2075|ref=carn._13
+3	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2073|t_2075|ref=carn._13
+4	τοιαύτην	τοιοῦτος	p	p-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_2074|t_2075|ref=carn._13
+5	αὔξησιν	αὔξησις	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_2075|t_2083|ref=carn._13
+6	ὁποῖά	ὁποῖος	p	p-p---nn-	Case=n|Gender=n|Number=p	8	PNOM	_	t_2076|t_2078|ref=carn._13
+7	πέρ	πέρ	d	d--------	_	8	AuxY	_	t_2077|t_2078|ref=carn._13
+8	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	ATR	_	t_2078|t_2074|ref=carn._13
+9	,	,	u	u--------	_	0	AuxX	_	t_2079|0|ref=carn._13
+10	καὶ	καί	c	c--------	_	12	AuxZ	_	t_2080|t_2082|ref=carn._13
+11	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_2081|t_2082|ref=carn._13
+12	ἄλλα	ἄλλος	p	p-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_2082|t_2086|ref=carn._13
+13	δὲ	δέ	d	d--------	_	9	COORD	_	t_2083|t_2079|ref=carn._13
+14	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	12	ATR	_	t_2084|t_2082|ref=carn._13
+15	τοιαύτην	τοιοῦτος	a	a-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_2085|t_2087|ref=carn._13
+16	ἀποδίδωσιν	ἀποδίδωμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_2086|t_2083|ref=carn._13
+17	αὔξησιν	αὔξησις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	OBJ	_	t_2087|t_2086|ref=carn._13
+18	,	,	u	u--------	_	9	AuxX	_	t_2088|t_2079|ref=carn._13
+19	ὁποῖα	ὁποῖος	p	p-p---nn-	Case=n|Gender=n|Number=p	21	PNOM	_	t_2089|t_2091|ref=carn._13
+20	αὐτά	αὐτός	p	p-p---nn-	Case=n|Gender=n|Number=p	21	SBJ	_	t_2090|t_2091|ref=carn._13
+21	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ATR	_	t_2091|t_2085|ref=carn._13
+22	[0]	[0]	-	---------	_	4	ADV	_	e_54|t_2074|ref=carn._13
 23	·	·	u	u--------	_	9	AuxK	_	t_2092|t_2079|ref=carn._13
 
 # source = Hippocrates, carn._13
@@ -2735,7 +2735,7 @@
 3	λεπτότατον	λεπτός	a	a-s---nas	Case=a|Degree=s|Gender=n|Number=s	6	ADV	_	t_2142|t_2145|ref=carn._13
 4	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_2143|t_2144|ref=carn._13
 5	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_2144|t_2145|ref=carn._13
-6	ἕλκουσιν	ἕλκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2145|0|ref=carn._12
+6	ἕλκουσιν	ἕλκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2145|0|ref=carn._13
 7	ἐκ	ἐκ	r	r--------	_	6	AuxP	_	t_2146|t_2145|ref=carn._13
 8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_2147|t_2148|ref=carn._13
 9	νηδύος	νηδύς	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_2148|t_2149|ref=carn._13
@@ -2881,7 +2881,7 @@
 9	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_2264|t_2266|ref=carn._13
 10	ἄλλα	ἄλλος	a	a-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_2265|t_2266|ref=carn._13
 11	ὀστέα	ὀστέον	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_2266|t_2263|ref=carn._13
-12	[0]	[0]	-	---------	_	7	ADV	_	e_55|t_2262|ref=carn._1
+12	[0]	[0]	-	---------	_	7	ADV	_	e_55|t_2262|ref=carn._13
 13	.	.	u	u--------	_	5	AuxK	_	t_2267|t_2260|ref=carn._13
 
 # source = Hippocrates, carn._13
@@ -3012,82 +3012,82 @@
 17	σωφρονιστῆρες	σωφρονιστήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	16	PNOM	_	t_2374|t_2373|ref=carn._13
 18	.	.	u	u--------	_	14	AuxK	_	t_2375|t_2371|ref=carn._13
 
-# source = Hippocrates, carn._13
+# source = Hippocrates, carn._14
 # text = 14 .
 # sent_id = 147
-1	14	14	x	x--------	_	0	AuxG	_	t_2376|0|ref=carn._13
-2	.	.	u	u--------	_	1	AuxK	_	t_2377|t_2376|ref=carn._13
+1	14	14	x	x--------	_	0	AuxG	_	t_2376|0|ref=carn._14
+2	.	.	u	u--------	_	1	AuxK	_	t_2377|t_2376|ref=carn._14
 
-# source = Hippocrates, carn._13
+# source = Hippocrates, carn._14
 # text = Αἱ δὲ τρίχες φύονται ὧδε ·
 # sent_id = 148
-1	Αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_2378|t_2380|ref=carn._13
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_2379|0|ref=carn._13
-3	τρίχες	θρίξ	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_2380|t_2381|ref=carn._13
-4	φύονται	φύω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_2381|t_2379|ref=carn._13
-5	ὧδε	ὧδε	d	d--------	_	4	ADV	_	t_2382|t_2381|ref=carn._13
-6	·	·	u	u--------	_	2	AuxK	_	t_2383|t_2379|ref=carn._13
+1	Αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_2378|t_2380|ref=carn._14
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_2379|0|ref=carn._14
+3	τρίχες	θρίξ	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_2380|t_2381|ref=carn._14
+4	φύονται	φύω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	2	PRED	_	t_2381|t_2379|ref=carn._14
+5	ὧδε	ὧδε	d	d--------	_	4	ADV	_	t_2382|t_2381|ref=carn._14
+6	·	·	u	u--------	_	2	AuxK	_	t_2383|t_2379|ref=carn._14
 
-# source = Hippocrates, carn._13
+# source = Hippocrates, carn._14
 # text = ὀστέα εἰσὶ καὶ ἐγκέφαλος , ἀφʼ ὧν ἡ τοιαύτη αὔξησις , ὅτι τοῦ πέριξ κολλώδεος , ὅπως περ τοῖσι νεύροισι , καὶ τοῦ λιπαροῦ οὐκ ἔνεστιν [0] [1] ·
 # sent_id = 149
-1	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_2384|t_2386|ref=carn._13
-2	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2385|0|ref=carn._13
-3	καὶ	καί	c	c--------	_	2	COORD	_	t_2386|t_2385|ref=carn._13
-4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_2387|t_2386|ref=carn._13
-5	,	,	u	u--------	_	2	AuxX	_	t_2388|t_2385|ref=carn._13
-6	ἀφʼ	ἀπό	r	r--------	_	27	AuxP	_	t_2389|e_56|ref=carn._13
-7	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	6	PNOM	_	t_2390|t_2389|ref=carn._13
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_2391|t_2393|ref=carn._13
-9	τοιαύτη	τοιοῦτος	p	p-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_2392|t_2393|ref=carn._13
-10	αὔξησις	αὔξησις	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_2393|e_56|ref=carn._13
-11	,	,	u	u--------	_	2	AuxX	_	t_2394|t_2385|ref=carn._13
-12	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_2395|t_2385|ref=carn._13
-13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_2396|t_2398|ref=carn._13
-14	πέριξ	πέριξ	r	r--------	_	15	ATR	_	t_2397|t_2398|ref=carn._13
-15	κολλώδεος	κολλώδης	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_2398|t_2405|ref=carn._13
-16	,	,	u	u--------	_	28	AuxX	_	t_2399|e_57|ref=carn._13
-17	ὅπως	ὅπως	d	d--------	_	28	ADV	_	t_2400|e_57|ref=carn._13
-18	περ	πέρ	d	d--------	_	17	AuxZ	_	t_2401|t_2400|ref=carn._13
-19	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	20	ATR	_	t_2402|t_2403|ref=carn._13
-20	νεύροισι	νεῦρον	n	n-p---md-	Case=d|Gender=m|Number=p	28	ADV	_	t_2403|e_57|ref=carn._13
-21	,	,	u	u--------	_	2	AuxX	_	t_2404|t_2385|ref=carn._13
-22	καὶ	καί	c	c--------	_	26	COORD	_	t_2405|t_2409|ref=carn._13
-23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_2406|t_2407|ref=carn._13
-24	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_2407|t_2405|ref=carn._13
-25	οὐκ	οὐ	d	d--------	_	26	AuxZ	_	t_2408|t_2409|ref=carn._13
-26	ἔνεστιν	ἔνειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_2409|t_2395|ref=carn._13
-27	[0]	[0]	-	---------	_	3	ATR	_	e_56|t_2386|ref=carn._1
-28	[1]	[1]	-	---------	_	12	ADV	_	e_57|t_2395|ref=carn._1
-29	·	·	u	u--------	_	2	AuxK	_	t_2410|t_2385|ref=carn._13
+1	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	3	SBJ	_	t_2384|t_2386|ref=carn._14
+2	εἰσὶ	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2385|0|ref=carn._14
+3	καὶ	καί	c	c--------	_	2	COORD	_	t_2386|t_2385|ref=carn._14
+4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_2387|t_2386|ref=carn._14
+5	,	,	u	u--------	_	2	AuxX	_	t_2388|t_2385|ref=carn._14
+6	ἀφʼ	ἀπό	r	r--------	_	27	AuxP	_	t_2389|e_56|ref=carn._14
+7	ὧν	ὅς	p	p-p---mg-	Case=g|Gender=m|Number=p	6	PNOM	_	t_2390|t_2389|ref=carn._14
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_2391|t_2393|ref=carn._14
+9	τοιαύτη	τοιοῦτος	p	p-s---fn-	Case=n|Gender=f|Number=s	10	ATR	_	t_2392|t_2393|ref=carn._14
+10	αὔξησις	αὔξησις	n	n-s---fn-	Case=n|Gender=f|Number=s	27	SBJ	_	t_2393|e_56|ref=carn._14
+11	,	,	u	u--------	_	2	AuxX	_	t_2394|t_2385|ref=carn._14
+12	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_2395|t_2385|ref=carn._14
+13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	15	ATR	_	t_2396|t_2398|ref=carn._14
+14	πέριξ	πέριξ	r	r--------	_	15	ATR	_	t_2397|t_2398|ref=carn._14
+15	κολλώδεος	κολλώδης	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_2398|t_2405|ref=carn._14
+16	,	,	u	u--------	_	28	AuxX	_	t_2399|e_57|ref=carn._14
+17	ὅπως	ὅπως	d	d--------	_	28	ADV	_	t_2400|e_57|ref=carn._14
+18	περ	πέρ	d	d--------	_	17	AuxZ	_	t_2401|t_2400|ref=carn._14
+19	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	20	ATR	_	t_2402|t_2403|ref=carn._14
+20	νεύροισι	νεῦρον	n	n-p---md-	Case=d|Gender=m|Number=p	28	ADV	_	t_2403|e_57|ref=carn._14
+21	,	,	u	u--------	_	2	AuxX	_	t_2404|t_2385|ref=carn._14
+22	καὶ	καί	c	c--------	_	26	COORD	_	t_2405|t_2409|ref=carn._14
+23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_2406|t_2407|ref=carn._14
+24	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_2407|t_2405|ref=carn._14
+25	οὐκ	οὐ	d	d--------	_	26	AuxZ	_	t_2408|t_2409|ref=carn._14
+26	ἔνεστιν	ἔνειμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	ADV	_	t_2409|t_2395|ref=carn._14
+27	[0]	[0]	-	---------	_	3	ATR	_	e_56|t_2386|ref=carn._14
+28	[1]	[1]	-	---------	_	12	ADV	_	e_57|t_2395|ref=carn._14
+29	·	·	u	u--------	_	2	AuxK	_	t_2410|t_2385|ref=carn._14
 
-# source = Hippocrates, carn._13
+# source = Hippocrates, carn._14
 # text = εἰ γὰρ ἐνῆν τοῦ λιπαροῦ , ἐξεκαίετο ἂν ἐκ τοῦ θερμοῦ .
 # sent_id = 150
-1	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_2411|t_2417|ref=carn._13
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_2412|t_2417|ref=carn._13
-3	ἐνῆν	ἐνεἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	ADV	_	t_2413|t_2411|ref=carn._13
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_2414|t_2415|ref=carn._13
-5	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	3	SBJ	_	t_2415|t_2413|ref=carn._13
-6	,	,	u	u--------	_	7	AuxX	_	t_2416|t_2417|ref=carn._13
-7	ἐξεκαίετο	ἐκκαίω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_2417|0|ref=carn._13
-8	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_2418|t_2417|ref=carn._13
-9	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_2419|t_2417|ref=carn._13
-10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_2420|t_2421|ref=carn._13
-11	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_2421|t_2419|ref=carn._13
-12	.	.	u	u--------	_	7	AuxK	_	t_2422|t_2417|ref=carn._13
+1	εἰ	εἰ	c	c--------	_	7	AuxC	_	t_2411|t_2417|ref=carn._14
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_2412|t_2417|ref=carn._14
+3	ἐνῆν	ἐνεἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	ADV	_	t_2413|t_2411|ref=carn._14
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_2414|t_2415|ref=carn._14
+5	λιπαροῦ	λιπαρός	a	a-s---ng-	Case=g|Gender=n|Number=s	3	SBJ	_	t_2415|t_2413|ref=carn._14
+6	,	,	u	u--------	_	7	AuxX	_	t_2416|t_2417|ref=carn._14
+7	ἐξεκαίετο	ἐκκαίω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_2417|0|ref=carn._14
+8	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_2418|t_2417|ref=carn._14
+9	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_2419|t_2417|ref=carn._14
+10	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_2420|t_2421|ref=carn._14
+11	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	9	ADV	_	t_2421|t_2419|ref=carn._14
+12	.	.	u	u--------	_	7	AuxK	_	t_2422|t_2417|ref=carn._14
 
-# source = Hippocrates, carn._13-14
+# source = Hippocrates, carn._14
 # text = Τάχα δὲ θαυμάσειεν ἄν τις ὅτι καὶ ἐν τῇσι μασχάλῃσι καὶ ἐν τῷ ἐπισείῳ τρίχες πολλαὶ καὶ ἐν τῷ σώματι παντί εἰσιν ·
 # sent_id = 151
-1	Τάχα	τάχα	d	d--------	_	3	ADV	_	t_2423|t_2425|ref=carn._13
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_2424|0|ref=carn._13
-3	θαυμάσειεν	θαυμάζω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_2425|t_2424|ref=carn._13
-4	ἄν	ἄν	d	d--------	_	3	AuxY	_	t_2426|t_2425|ref=carn._13
-5	τις	τις	p	p-s---cn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_2427|t_2425|ref=carn._13
-6	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_2428|t_2425|ref=carn._13
-7	καὶ	καί	d	d--------	_	11	AuxY	_	t_2429|t_2433|ref=carn._13
-8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_2430|t_2433|ref=carn._13
+1	Τάχα	τάχα	d	d--------	_	3	ADV	_	t_2423|t_2425|ref=carn._14
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_2424|0|ref=carn._14
+3	θαυμάσειεν	θαυμάζω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_2425|t_2424|ref=carn._14
+4	ἄν	ἄν	d	d--------	_	3	AuxY	_	t_2426|t_2425|ref=carn._14
+5	τις	τις	p	p-s---cn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_2427|t_2425|ref=carn._14
+6	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_2428|t_2425|ref=carn._14
+7	καὶ	καί	d	d--------	_	11	AuxY	_	t_2429|t_2433|ref=carn._14
+8	ἐν	ἐν	r	r--------	_	11	AuxP	_	t_2430|t_2433|ref=carn._14
 9	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	10	ATR	_	t_2431|t_2432|ref=carn._14
 10	μασχάλῃσι	μασχάλη	n	n-p---fd-	Case=d|Gender=f|Number=p	8	PNOM	_	t_2432|t_2430|ref=carn._14
 11	καὶ	καί	c	c--------	_	22	COORD	_	t_2433|t_2444|ref=carn._14
@@ -3111,7 +3111,7 @@
 2	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2447|e_58|ref=carn._14
 3	περὶ	περί	r	r--------	_	5	AuxP	_	t_2448|e_58|ref=carn._14
 4	τουτέου	οὗτος	a	a-s---mg-	Case=g|Gender=m|Number=s	3	PNOM	_	t_2449|t_2448|ref=carn._14
-5	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=carn._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_58|0|ref=carn._14
 6	·	·	u	u--------	_	5	AuxK	_	t_2450|e_58|ref=carn._14
 
 # source = Hippocrates, carn._14
@@ -3134,91 +3134,91 @@
 15	θερμοῦ	θερμός	a	a-s---ng-	Case=g|Gender=n|Number=s	13	OBJ	_	t_2465|t_2463|ref=carn._14
 16	.	.	u	u--------	_	12	AuxK	_	t_2466|t_2462|ref=carn._14
 
-# source = Hippocrates, carn._14
+# source = Hippocrates, carn._15
 # text = 15 .
 # sent_id = 154
-1	15	15	u	u--------	_	0	AuxG	_	t_2467|0|ref=carn._14
-2	.	.	u	u--------	_	1	AuxK	_	t_2468|t_2467|ref=carn._14
+1	15	15	u	u--------	_	0	AuxG	_	t_2467|0|ref=carn._15
+2	.	.	u	u--------	_	1	AuxK	_	t_2468|t_2467|ref=carn._15
 
-# source = Hippocrates, carn._14
+# source = Hippocrates, carn._15
 # text = Ἀκούει δὲ διὰ τόδε ·
 # sent_id = 155
-1	Ἀκούει	ἀκούω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_2469|t_2470|ref=carn._14
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_2470|0|ref=carn._14
-3	διὰ	διά	r	r--------	_	1	AuxP	_	t_2471|t_2469|ref=carn._14
-4	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_2472|t_2471|ref=carn._14
-5	·	·	u	u--------	_	2	AuxK	_	t_2473|t_2470|ref=carn._14
+1	Ἀκούει	ἀκούω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_2469|t_2470|ref=carn._15
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_2470|0|ref=carn._15
+3	διὰ	διά	r	r--------	_	1	AuxP	_	t_2471|t_2469|ref=carn._15
+4	τόδε	ὅδε	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_2472|t_2471|ref=carn._15
+5	·	·	u	u--------	_	2	AuxK	_	t_2473|t_2470|ref=carn._15
 
-# source = Hippocrates, carn._14
+# source = Hippocrates, carn._15
 # text = τὰ τρήματα τῶν οὐάτων προσήκει πρὸς ὀστέον σκληρόν τε καὶ ξηρὸν ὅμοιον λίθῳ ·
 # sent_id = 156
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_2474|t_2475|ref=carn._14
-2	τρήματα	τρῆμα	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2475|t_2478|ref=carn._14
-3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2476|t_2477|ref=carn._14
-4	οὐάτων	οὖς	n	n-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_2477|t_2475|ref=carn._14
-5	προσήκει	προσήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2478|0|ref=carn._14
-6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_2479|t_2478|ref=carn._14
-7	ὀστέον	ὀστέον	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_2480|t_2483|ref=carn._14
-8	σκληρόν	σκληρός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_2481|t_2483|ref=carn._14
-9	τε	τε	g	g--------	_	10	AuxY	_	t_2482|t_2483|ref=carn._14
-10	καὶ	καί	c	c--------	_	6	COORD	_	t_2483|t_2479|ref=carn._14
-11	ξηρὸν	ξηρός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_2484|t_2483|ref=carn._14
-12	ὅμοιον	ὅμοιος	a	a-s---ma-	Case=a|Gender=n|Number=s	10	ATR	_	t_2485|t_2483|ref=carn._14
-13	λίθῳ	λίθος	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_2486|t_2485|ref=carn._14
-14	·	·	u	u--------	_	5	AuxK	_	t_2487|t_2478|ref=carn._14
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_2474|t_2475|ref=carn._15
+2	τρήματα	τρῆμα	n	n-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2475|t_2478|ref=carn._15
+3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_2476|t_2477|ref=carn._15
+4	οὐάτων	οὖς	n	n-p---mg-	Case=g|Gender=m|Number=p	2	ATR	_	t_2477|t_2475|ref=carn._15
+5	προσήκει	προσήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2478|0|ref=carn._15
+6	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_2479|t_2478|ref=carn._15
+7	ὀστέον	ὀστέον	a	a-s---na-	Case=a|Gender=n|Number=s	10	ATR	_	t_2480|t_2483|ref=carn._15
+8	σκληρόν	σκληρός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_2481|t_2483|ref=carn._15
+9	τε	τε	g	g--------	_	10	AuxY	_	t_2482|t_2483|ref=carn._15
+10	καὶ	καί	c	c--------	_	6	COORD	_	t_2483|t_2479|ref=carn._15
+11	ξηρὸν	ξηρός	a	a-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_2484|t_2483|ref=carn._15
+12	ὅμοιον	ὅμοιος	a	a-s---ma-	Case=a|Gender=n|Number=s	10	ATR	_	t_2485|t_2483|ref=carn._15
+13	λίθῳ	λίθος	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_2486|t_2485|ref=carn._15
+14	·	·	u	u--------	_	5	AuxK	_	t_2487|t_2478|ref=carn._15
 
-# source = Hippocrates, carn._14
+# source = Hippocrates, carn._15
 # text = τοῦτο δὲ , πέφυκε πρὸς ὀστέον κοίλωσις σηραγγώδης ·
 # sent_id = 157
-1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	4	SBJ	_	t_2488|t_2491|ref=carn._14
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_2489|t_2491|ref=carn._14
-3	,	,	u	u--------	_	4	AuxX	_	t_2490|t_2491|ref=carn._14
-4	πέφυκε	φύω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_2491|0|ref=carn._14
-5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_2492|t_2491|ref=carn._14
-6	ὀστέον	ὀστέον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_2493|t_2492|ref=carn._14
-7	κοίλωσις	κοίλωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_2494|t_2491|ref=carn._14
-8	σηραγγώδης	σηραγγώδης	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_2495|t_2494|ref=carn._14
-9	·	·	u	u--------	_	4	AuxK	_	t_2496|t_2491|ref=carn._14
+1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	4	SBJ	_	t_2488|t_2491|ref=carn._15
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_2489|t_2491|ref=carn._15
+3	,	,	u	u--------	_	4	AuxX	_	t_2490|t_2491|ref=carn._15
+4	πέφυκε	φύω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_2491|0|ref=carn._15
+5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_2492|t_2491|ref=carn._15
+6	ὀστέον	ὀστέον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_2493|t_2492|ref=carn._15
+7	κοίλωσις	κοίλωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_2494|t_2491|ref=carn._15
+8	σηραγγώδης	σηραγγώδης	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_2495|t_2494|ref=carn._15
+9	·	·	u	u--------	_	4	AuxK	_	t_2496|t_2491|ref=carn._15
 
-# source = Hippocrates, carn._14
+# source = Hippocrates, carn._15
 # text = οἱ δὲ ψόφοι ἀπερείδονται πρὸς τὸ σκληρόν ·
 # sent_id = 158
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_2497|t_2499|ref=carn._14
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_2498|t_2500|ref=carn._14
-3	ψόφοι	ψόφος	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_2499|t_2500|ref=carn._14
-4	ἀπερείδονται	ἀπερείδομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_2500|0|ref=carn._14
-5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_2501|t_2500|ref=carn._14
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_2502|t_2503|ref=carn._14
-7	σκληρόν	σκληρός	a	a-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_2503|t_2501|ref=carn._14
-8	·	·	u	u--------	_	4	AuxK	_	t_2504|t_2500|ref=carn._14
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_2497|t_2499|ref=carn._15
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_2498|t_2500|ref=carn._15
+3	ψόφοι	ψόφος	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_2499|t_2500|ref=carn._15
+4	ἀπερείδονται	ἀπερείδομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_2500|0|ref=carn._15
+5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_2501|t_2500|ref=carn._15
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_2502|t_2503|ref=carn._15
+7	σκληρόν	σκληρός	a	a-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_2503|t_2501|ref=carn._15
+8	·	·	u	u--------	_	4	AuxK	_	t_2504|t_2500|ref=carn._15
 
-# source = Hippocrates, carn._14
+# source = Hippocrates, carn._15
 # text = τὸ δὲ ὀστέον τὸ κοῖλον ἐπηχεῖ διὰ τοῦ σκληροῦ ·
 # sent_id = 159
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_2505|t_2507|ref=carn._14
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_2506|t_2510|ref=carn._14
-3	ὀστέον	ὀστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_2507|t_2510|ref=carn._14
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_2508|t_2509|ref=carn._14
-5	κοῖλον	κοῖλος	a	a-s---na-	Case=a|Gender=n|Number=s	6	SBJ	_	t_2509|t_2510|ref=carn._14
-6	ἐπηχεῖ	ἐπαχέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2510|0|ref=carn._14
-7	διὰ	διά	r	r--------	_	6	AuxP	_	t_2511|t_2510|ref=carn._14
-8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_2512|t_2513|ref=carn._14
-9	σκληροῦ	σκληρός	a	a-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_2513|t_2511|ref=carn._14
-10	·	·	u	u--------	_	6	AuxK	_	t_2514|t_2510|ref=carn._14
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_2505|t_2507|ref=carn._15
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_2506|t_2510|ref=carn._15
+3	ὀστέον	ὀστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_2507|t_2510|ref=carn._15
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_2508|t_2509|ref=carn._15
+5	κοῖλον	κοῖλος	a	a-s---na-	Case=a|Gender=n|Number=s	6	SBJ	_	t_2509|t_2510|ref=carn._15
+6	ἐπηχεῖ	ἐπαχέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2510|0|ref=carn._15
+7	διὰ	διά	r	r--------	_	6	AuxP	_	t_2511|t_2510|ref=carn._15
+8	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_2512|t_2513|ref=carn._15
+9	σκληροῦ	σκληρός	a	a-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_2513|t_2511|ref=carn._15
+10	·	·	u	u--------	_	6	AuxK	_	t_2514|t_2510|ref=carn._15
 
-# source = Hippocrates, carn._14-15
+# source = Hippocrates, carn._15
 # text = τὸ δὲ δέρμα τὸ πρὸς τῇ ἀκοῇ πρὸς τῷ ὀστέῳ τῷ σκληρῷ λεπτόν ἐστιν ὥσπερ ἀράχνιον , ξηρότατον τοῦ ἄλλου δέρματος [0] .
 # sent_id = 160
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_2515|t_2517|ref=carn._14
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_2516|t_2528|ref=carn._14
-3	δέρμα	δέρμα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_2517|t_2528|ref=carn._14
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_2518|t_2517|ref=carn._14
-5	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_2519|t_2517|ref=carn._14
-6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_2520|t_2521|ref=carn._14
-7	ἀκοῇ	ἀκοή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_2521|t_2519|ref=carn._14
-8	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_2522|t_2517|ref=carn._14
-9	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_2523|t_2524|ref=carn._14
-10	ὀστέῳ	ὀστέον	n	n-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_2524|t_2522|ref=carn._14
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_2515|t_2517|ref=carn._15
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_2516|t_2528|ref=carn._15
+3	δέρμα	δέρμα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_2517|t_2528|ref=carn._15
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_2518|t_2517|ref=carn._15
+5	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_2519|t_2517|ref=carn._15
+6	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	7	ATR	_	t_2520|t_2521|ref=carn._15
+7	ἀκοῇ	ἀκοή	n	n-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_2521|t_2519|ref=carn._15
+8	πρὸς	πρός	r	r--------	_	3	AuxP	_	t_2522|t_2517|ref=carn._15
+9	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_2523|t_2524|ref=carn._15
+10	ὀστέῳ	ὀστέον	n	n-s---nd-	Case=d|Gender=n|Number=s	8	ADV	_	t_2524|t_2522|ref=carn._15
 11	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_2525|t_2524|ref=carn._15
 12	σκληρῷ	σκληρός	a	a-s---nd-	Case=d|Gender=n|Number=s	10	ATR	_	t_2526|t_2524|ref=carn._15
 13	λεπτόν	λεπτός	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_2527|t_2528|ref=carn._15
@@ -3230,7 +3230,7 @@
 19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	21	ATR	_	t_2533|t_2535|ref=carn._15
 20	ἄλλου	ἄλλος	p	p-s---ng-	Case=g|Gender=n|Number=s	21	ATR	_	t_2534|t_2535|ref=carn._15
 21	δέρματος	δέρμα	n	n-s---ng-	Case=g|Gender=n|Number=s	18	ADV	_	t_2535|t_2532|ref=carn._15
-22	[0]	[0]	-	---------	_	15	ADV	_	e_59|t_2529|ref=carn._1
+22	[0]	[0]	-	---------	_	15	ADV	_	e_59|t_2529|ref=carn._15
 23	.	.	u	u--------	_	14	AuxK	_	t_2536|t_2528|ref=carn._15
 
 # source = Hippocrates, carn._15
@@ -3243,7 +3243,7 @@
 5	ξηρότατον	ξηρός	a	a-s---nns	Case=a|Degree=s|Gender=m|Number=s	6	ADV	_	t_2541|t_2542|ref=carn._15
 6	ἠχεῖ	ἠχέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	ATR	_	t_2542|t_2540|ref=carn._15
 7	μάλιστα	μάλιστα	d	d--------	_	6	ADV	_	t_2543|t_2542|ref=carn._15
-8	[0]	[0]	-	---------	_	2	PRED	_	e_60|t_2538|ref=carn._1
+8	[0]	[0]	-	---------	_	2	PRED	_	e_60|t_2538|ref=carn._15
 9	·	·	u	u--------	_	2	AuxK	_	t_2544|t_2538|ref=carn._15
 
 # source = Hippocrates, carn._15
@@ -3312,7 +3312,7 @@
 20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	21	ATR	_	t_2593|t_2594|ref=carn._15
 21	μήνιγγα	μήνιγξ	n	n-s---fa-	Case=a|Gender=f|Number=s	19	ADV	_	t_2594|t_2592|ref=carn._15
 22	ὀστέα	ὀστέον	n	n-p---nn-	Case=n|Gender=n|Number=p	23	PNOM	_	t_2595|e_61|ref=carn._15
-23	[0]	[0]	-	---------	_	18	PRED	_	e_61|t_2591|ref=carn._1
+23	[0]	[0]	-	---------	_	18	PRED	_	e_61|t_2591|ref=carn._15
 24	·	·	u	u--------	_	8	AuxK	_	t_2596|t_2581|ref=carn._15
 
 # source = Hippocrates, carn._15
@@ -3338,88 +3338,88 @@
 5	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2610|0|ref=carn._15
 6	.	.	u	u--------	_	5	AuxK	_	t_2611|t_2610|ref=carn._15
 
-# source = Hippocrates, carn._15
+# source = Hippocrates, carn._16
 # text = 16 .
 # sent_id = 168
-1	16	16	x	x--------	_	0	AuxG	_	t_2612|0|ref=carn._15
-2	.	.	u	u--------	_	1	AuxK	_	t_2613|t_2612|ref=carn._15
+1	16	16	x	x--------	_	0	AuxG	_	t_2612|0|ref=carn._16
+2	.	.	u	u--------	_	1	AuxK	_	t_2613|t_2612|ref=carn._16
 
-# source = Hippocrates, carn._15
+# source = Hippocrates, carn._16
 # text = Ὀσφραίνεται δʼ ὁ ἐγκέφαλος ὑγρὸς ἐὼν αὐτὸς τῶν ξηρῶν , ἕλκων τὴν ὀδμὴν ξὺν τῷ ἠέρι διὰ τῶν βρογχίων ξηρῶν ἐόντων ·
 # sent_id = 169
-1	Ὀσφραίνεται	ὀσφραίνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2614|0|ref=carn._15
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_2615|t_2614|ref=carn._15
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_2616|t_2617|ref=carn._15
-4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_2617|t_2614|ref=carn._15
-5	ὑγρὸς	ὑγρός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_2618|t_2619|ref=carn._15
-6	ἐὼν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_2619|t_2614|ref=carn._15
-7	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATV	_	t_2620|t_2617|ref=carn._15
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_2621|t_2622|ref=carn._15
-9	ξηρῶν	ξηρός	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_2622|t_2618|ref=carn._15
-10	,	,	u	u--------	_	1	AuxX	_	t_2623|t_2614|ref=carn._15
-11	ἕλκων	ἕλκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_2624|t_2614|ref=carn._15
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_2625|t_2626|ref=carn._15
-13	ὀδμὴν	ὀσμή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_2626|t_2624|ref=carn._15
-14	ξὺν	σύν	r	r--------	_	11	AuxP	_	t_2627|t_2624|ref=carn._15
-15	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_2628|t_2629|ref=carn._15
-16	ἠέρι	ἀήρ	n	n-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_2629|t_2627|ref=carn._15
-17	διὰ	διά	r	r--------	_	11	AuxP	_	t_2630|t_2624|ref=carn._15
-18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_2631|t_2633|ref=carn._15
-19	βρογχίων	βρογχίον	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_2632|t_2633|ref=carn._15
-20	ξηρῶν	ξηρός	a	a-p---ng-	Case=g|Gender=n|Number=p	21	SBJ	_	t_2633|t_2634|ref=carn._15
-21	ἐόντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	17	ADV	_	t_2634|t_2630|ref=carn._15
-22	·	·	u	u--------	_	1	AuxK	_	t_2635|t_2614|ref=carn._15
+1	Ὀσφραίνεται	ὀσφραίνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2614|0|ref=carn._16
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_2615|t_2614|ref=carn._16
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_2616|t_2617|ref=carn._16
+4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_2617|t_2614|ref=carn._16
+5	ὑγρὸς	ὑγρός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_2618|t_2619|ref=carn._16
+6	ἐὼν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_2619|t_2614|ref=carn._16
+7	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	4	ATV	_	t_2620|t_2617|ref=carn._16
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_2621|t_2622|ref=carn._16
+9	ξηρῶν	ξηρός	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_2622|t_2618|ref=carn._16
+10	,	,	u	u--------	_	1	AuxX	_	t_2623|t_2614|ref=carn._16
+11	ἕλκων	ἕλκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_2624|t_2614|ref=carn._16
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_2625|t_2626|ref=carn._16
+13	ὀδμὴν	ὀσμή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_2626|t_2624|ref=carn._16
+14	ξὺν	σύν	r	r--------	_	11	AuxP	_	t_2627|t_2624|ref=carn._16
+15	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	16	ATR	_	t_2628|t_2629|ref=carn._16
+16	ἠέρι	ἀήρ	n	n-s---md-	Case=d|Gender=m|Number=s	14	ADV	_	t_2629|t_2627|ref=carn._16
+17	διὰ	διά	r	r--------	_	11	AuxP	_	t_2630|t_2624|ref=carn._16
+18	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_2631|t_2633|ref=carn._16
+19	βρογχίων	βρογχίον	a	a-p---ng-	Case=g|Gender=n|Number=p	20	ATR	_	t_2632|t_2633|ref=carn._16
+20	ξηρῶν	ξηρός	a	a-p---ng-	Case=g|Gender=n|Number=p	21	SBJ	_	t_2633|t_2634|ref=carn._16
+21	ἐόντων	εἰμί	v	v-pppang-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	17	ADV	_	t_2634|t_2630|ref=carn._16
+22	·	·	u	u--------	_	1	AuxK	_	t_2635|t_2614|ref=carn._16
 
-# source = Hippocrates, carn._15
+# source = Hippocrates, carn._16
 # text = προήκει γὰρ ὁ ἐγκέφαλος τῆς ῥινὸς ἐς τὰ κοῖλα ·
 # sent_id = 170
-1	προήκει	προήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2636|0|ref=carn._15
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_2637|t_2636|ref=carn._15
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_2638|t_2639|ref=carn._15
-4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_2639|t_2636|ref=carn._15
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_2640|t_2641|ref=carn._15
-6	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_2641|t_2639|ref=carn._15
-7	ἐς	εἰς	r	r--------	_	1	AuxP	_	t_2642|t_2636|ref=carn._15
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_2643|t_2644|ref=carn._15
-9	κοῖλα	κοῖλος	a	a-p---na-	Case=a|Gender=n|Number=p	7	ADV	_	t_2644|t_2642|ref=carn._15
-10	·	·	u	u--------	_	1	AuxK	_	t_2645|t_2636|ref=carn._15
+1	προήκει	προήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2636|0|ref=carn._16
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_2637|t_2636|ref=carn._16
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_2638|t_2639|ref=carn._16
+4	ἐγκέφαλος	ἐγκέφαλος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_2639|t_2636|ref=carn._16
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_2640|t_2641|ref=carn._16
+6	ῥινὸς	ῥίς	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_2641|t_2639|ref=carn._16
+7	ἐς	εἰς	r	r--------	_	1	AuxP	_	t_2642|t_2636|ref=carn._16
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_2643|t_2644|ref=carn._16
+9	κοῖλα	κοῖλος	a	a-p---na-	Case=a|Gender=n|Number=p	7	ADV	_	t_2644|t_2642|ref=carn._16
+10	·	·	u	u--------	_	1	AuxK	_	t_2645|t_2636|ref=carn._16
 
-# source = Hippocrates, carn._15
+# source = Hippocrates, carn._16
 # text = καὶ ταύτῃ αὐτῷ οὐκ ἔστιν ἐπίπροσθεν ὀστέον οὐδὲν , ἀλλὰ χόνδριον μαλακὸν ὅκως περ σπόγγος , οὔ τε κρέας οὔ τε ὀστέον [0] [1] .
 # sent_id = 171
-1	καὶ	καί	c	c--------	_	10	AuxY	_	t_2646|t_2655|ref=carn._15
-2	ταύτῃ	οὗτος	p	p-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_2647|t_2650|ref=carn._15
-3	αὐτῷ	αὐτός	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_2648|t_2650|ref=carn._15
-4	οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_2649|t_2650|ref=carn._15
-5	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_2650|t_2655|ref=carn._15
-6	ἐπίπροσθεν	ἐπίπροσθεν	d	d--------	_	5	ADV	_	t_2651|t_2650|ref=carn._15
-7	ὀστέον	ὀστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_2652|t_2650|ref=carn._15
-8	οὐδὲν	οὐδείς	a	a-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_2653|t_2650|ref=carn._15
-9	,	,	u	u--------	_	0	AuxX	_	t_2654|0|ref=carn._15
-10	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_2655|t_2654|ref=carn._15
-11	χόνδριον	χόνδριον	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_2656|t_2655|ref=carn._15
-12	μαλακὸν	μαλακός	a	a-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_2657|t_2656|ref=carn._15
-13	ὅκως	ὅπως	c	c--------	_	23	AuxC	_	t_2658|e_62|ref=carn._15
-14	περ	πέρ	d	d--------	_	23	AuxY	_	t_2659|e_62|ref=carn._15
-15	σπόγγος	σπόγγος	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_2660|e_62|ref=carn._15
-16	,	,	u	u--------	_	9	AuxX	_	t_2661|t_2654|ref=carn._15
-17	οὔ	οὐ	d	d--------	_	19	AuxZ	_	t_2662|t_2664|ref=carn._15
-18	τε	τε	c	c--------	_	21	AuxY	_	t_2663|t_2666|ref=carn._15
-19	κρέας	κρέας	n	n-s---na-	Case=a|Gender=n|Number=s	21	SBJ	_	t_2664|t_2666|ref=carn._15
-20	οὔ	οὐ	d	d--------	_	22	AuxZ	_	t_2665|t_2667|ref=carn._15
-21	τε	τε	c	c--------	_	11	COORD	_	t_2666|t_2656|ref=carn._15
-22	ὀστέον	ὀστέον	a	a-s---na-	Case=n|Gender=n|Number=s	21	PNOM	_	t_2667|t_2666|ref=carn._15
-23	[0]	[0]	-	---------	_	10	ADV	_	e_62|t_2655|ref=carn._1
-24	[1]	[1]	-	---------	_	13	ADV	_	e_63|t_2658|ref=carn._1
-25	.	.	u	u--------	_	9	AuxK	_	t_2668|t_2654|ref=carn._15
+1	καὶ	καί	c	c--------	_	10	AuxY	_	t_2646|t_2655|ref=carn._16
+2	ταύτῃ	οὗτος	p	p-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_2647|t_2650|ref=carn._16
+3	αὐτῷ	αὐτός	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ADV	_	t_2648|t_2650|ref=carn._16
+4	οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_2649|t_2650|ref=carn._16
+5	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	10	PRED	_	t_2650|t_2655|ref=carn._16
+6	ἐπίπροσθεν	ἐπίπροσθεν	d	d--------	_	5	ADV	_	t_2651|t_2650|ref=carn._16
+7	ὀστέον	ὀστέον	a	a-s---nn-	Case=n|Gender=n|Number=s	5	PNOM	_	t_2652|t_2650|ref=carn._16
+8	οὐδὲν	οὐδείς	a	a-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_2653|t_2650|ref=carn._16
+9	,	,	u	u--------	_	0	AuxX	_	t_2654|0|ref=carn._16
+10	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_2655|t_2654|ref=carn._16
+11	χόνδριον	χόνδριον	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_2656|t_2655|ref=carn._16
+12	μαλακὸν	μαλακός	a	a-s---nn-	Case=n|Gender=n|Number=s	11	ATR	_	t_2657|t_2656|ref=carn._16
+13	ὅκως	ὅπως	c	c--------	_	23	AuxC	_	t_2658|e_62|ref=carn._16
+14	περ	πέρ	d	d--------	_	23	AuxY	_	t_2659|e_62|ref=carn._16
+15	σπόγγος	σπόγγος	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_2660|e_62|ref=carn._16
+16	,	,	u	u--------	_	9	AuxX	_	t_2661|t_2654|ref=carn._16
+17	οὔ	οὐ	d	d--------	_	19	AuxZ	_	t_2662|t_2664|ref=carn._16
+18	τε	τε	c	c--------	_	21	AuxY	_	t_2663|t_2666|ref=carn._16
+19	κρέας	κρέας	n	n-s---na-	Case=a|Gender=n|Number=s	21	SBJ	_	t_2664|t_2666|ref=carn._16
+20	οὔ	οὐ	d	d--------	_	22	AuxZ	_	t_2665|t_2667|ref=carn._16
+21	τε	τε	c	c--------	_	11	COORD	_	t_2666|t_2656|ref=carn._16
+22	ὀστέον	ὀστέον	a	a-s---na-	Case=n|Gender=n|Number=s	21	PNOM	_	t_2667|t_2666|ref=carn._16
+23	[0]	[0]	-	---------	_	10	ADV	_	e_62|t_2655|ref=carn._16
+24	[1]	[1]	-	---------	_	13	ADV	_	e_63|t_2658|ref=carn._16
+25	.	.	u	u--------	_	9	AuxK	_	t_2668|t_2654|ref=carn._16
 
-# source = Hippocrates, carn._15-16
+# source = Hippocrates, carn._16
 # text = Καὶ ὅταν μὲν ξηρὰ ᾖ τὰ κοῖλα τῆς ῥινὸς , ὀσμᾶσθαι τῶν ξηροτέρων αὐτὸς ἑωυτοῦ ἀκριβέστερός ἐστιν ·
 # sent_id = 172
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_2669|0|ref=carn._15
-2	ὅταν	ὅταν	c	c--------	_	17	AuxC	_	t_2670|t_2685|ref=carn._15
-3	μὲν	μέν	d	d--------	_	17	AuxY	_	t_2671|t_2685|ref=carn._15
-4	ξηρὰ	ξηρός	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_2672|t_2673|ref=carn._15
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_2669|0|ref=carn._16
+2	ὅταν	ὅταν	c	c--------	_	17	AuxC	_	t_2670|t_2685|ref=carn._16
+3	μὲν	μέν	d	d--------	_	17	AuxY	_	t_2671|t_2685|ref=carn._16
+4	ξηρὰ	ξηρός	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_2672|t_2673|ref=carn._16
 5	ᾖ	εἰμί	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_2673|t_2670|ref=carn._16
 6	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_2674|t_2675|ref=carn._16
 7	κοῖλα	κοῖλος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_2675|t_2673|ref=carn._16
@@ -3562,100 +3562,100 @@
 5	θερμῷ	θερμός	a	a-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_2780|t_2777|ref=carn._16
 6	.	.	u	u--------	_	2	AuxK	_	t_2781|t_2777|ref=carn._16
 
-# source = Hippocrates, carn._16
+# source = Hippocrates, carn._17
 # text = 17 .
 # sent_id = 181
-1	17	17	x	x--------	_	0	AuxG	_	t_2782|0|ref=carn._16
-2	.	.	u	u--------	_	1	AuxK	_	t_2783|t_2782|ref=carn._16
+1	17	17	x	x--------	_	0	AuxG	_	t_2782|0|ref=carn._17
+2	.	.	u	u--------	_	1	AuxK	_	t_2783|t_2782|ref=carn._17
 
-# source = Hippocrates, carn._16
+# source = Hippocrates, carn._17
 # text = Ὁρῇ δὲ διὰ τοῦτο [0] ·
 # sent_id = 182
-1	Ὁρῇ	ὁράω	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_2784|e_64|ref=carn._16
-2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_2785|e_64|ref=carn._16
-3	διὰ	διά	r	r--------	_	5	AuxP	_	t_2786|e_64|ref=carn._16
-4	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_2787|t_2786|ref=carn._16
-5	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=carn._1
-6	·	·	u	u--------	_	5	AuxK	_	t_2788|e_64|ref=carn._16
+1	Ὁρῇ	ὁράω	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_2784|e_64|ref=carn._17
+2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_2785|e_64|ref=carn._17
+3	διὰ	διά	r	r--------	_	5	AuxP	_	t_2786|e_64|ref=carn._17
+4	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_2787|t_2786|ref=carn._17
+5	[0]	[0]	-	---------	_	0	PRED	_	e_64|0|ref=carn._17
+6	·	·	u	u--------	_	5	AuxK	_	t_2788|e_64|ref=carn._17
 
-# source = Hippocrates, carn._16
+# source = Hippocrates, carn._17
 # text = ἀπὸ τοῦ ἐγκεφάλου τῆς μήνιγγος φλὲψ καθήκει ἐς τὸν ὀφθαλμὸν διὰ τοῦ ὀστέου ἑκάτερον ·
 # sent_id = 183
-1	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_2789|t_2795|ref=carn._16
-2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_2790|t_2791|ref=carn._16
-3	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_2791|t_2789|ref=carn._16
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_2792|t_2793|ref=carn._16
-5	μήνιγγος	μήνιγξ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_2793|t_2791|ref=carn._16
-6	φλὲψ	φλέψ	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_2794|t_2795|ref=carn._16
-7	καθήκει	καθήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2795|0|ref=carn._16
-8	ἐς	εἰς	r	r--------	_	7	AuxP	_	t_2796|t_2795|ref=carn._16
-9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_2797|t_2798|ref=carn._16
-10	ὀφθαλμὸν	ὀφθαλμός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_2798|t_2796|ref=carn._16
-11	διὰ	διά	r	r--------	_	7	AuxP	_	t_2799|t_2795|ref=carn._16
-12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_2800|t_2801|ref=carn._16
-13	ὀστέου	ὀστέον	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_2801|t_2799|ref=carn._16
-14	ἑκάτερον	ἑκάτερος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_2802|t_2795|ref=carn._16
-15	·	·	u	u--------	_	7	AuxK	_	t_2803|t_2795|ref=carn._16
+1	ἀπὸ	ἀπό	r	r--------	_	7	AuxP	_	t_2789|t_2795|ref=carn._17
+2	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_2790|t_2791|ref=carn._17
+3	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ADV	_	t_2791|t_2789|ref=carn._17
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_2792|t_2793|ref=carn._17
+5	μήνιγγος	μήνιγξ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_2793|t_2791|ref=carn._17
+6	φλὲψ	φλέψ	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_2794|t_2795|ref=carn._17
+7	καθήκει	καθήκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2795|0|ref=carn._17
+8	ἐς	εἰς	r	r--------	_	7	AuxP	_	t_2796|t_2795|ref=carn._17
+9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_2797|t_2798|ref=carn._17
+10	ὀφθαλμὸν	ὀφθαλμός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_2798|t_2796|ref=carn._17
+11	διὰ	διά	r	r--------	_	7	AuxP	_	t_2799|t_2795|ref=carn._17
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_2800|t_2801|ref=carn._17
+13	ὀστέου	ὀστέον	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_2801|t_2799|ref=carn._17
+14	ἑκάτερον	ἑκάτερος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ADV	_	t_2802|t_2795|ref=carn._17
+15	·	·	u	u--------	_	7	AuxK	_	t_2803|t_2795|ref=carn._17
 
-# source = Hippocrates, carn._16
+# source = Hippocrates, carn._17
 # text = διὰ ταύταιν ταῖν φλεβοῖν ἀπὸ τοῦ ἐγκεφάλου διηθέεται τὸ λεπτότατον τοῦ κολλωδεστάτου ·
 # sent_id = 184
-1	διὰ	διά	r	r--------	_	8	AuxP	_	t_2804|t_2811|ref=carn._16
-2	ταύταιν	οὗτος	a	a-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_2805|t_2807|ref=carn._16
-3	ταῖν	ὁ	l	l-p---fd-	Case=g|Gender=f|Number=d	4	ATR	_	t_2806|t_2807|ref=carn._16
-4	φλεβοῖν	φλέψ	n	n-d---fg-	Case=g|Gender=f|Number=d	1	ADV	_	t_2807|t_2804|ref=carn._16
-5	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_2808|t_2811|ref=carn._16
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_2809|t_2810|ref=carn._16
-7	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_2810|t_2808|ref=carn._16
-8	διηθέεται	διαθέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2811|0|ref=carn._16
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_2812|t_2813|ref=carn._16
-10	λεπτότατον	λεπτός	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	8	SBJ	_	t_2813|t_2811|ref=carn._16
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_2814|t_2815|ref=carn._16
-12	κολλωδεστάτου	κολλώδης	a	a-s---ngs	Case=g|Degree=s|Gender=n|Number=s	10	ATR	_	t_2815|t_2813|ref=carn._16
-13	·	·	u	u--------	_	8	AuxK	_	t_2816|t_2811|ref=carn._16
+1	διὰ	διά	r	r--------	_	8	AuxP	_	t_2804|t_2811|ref=carn._17
+2	ταύταιν	οὗτος	a	a-p---fd-	Case=d|Gender=f|Number=p	4	ATR	_	t_2805|t_2807|ref=carn._17
+3	ταῖν	ὁ	l	l-p---fd-	Case=g|Gender=f|Number=d	4	ATR	_	t_2806|t_2807|ref=carn._17
+4	φλεβοῖν	φλέψ	n	n-d---fg-	Case=g|Gender=f|Number=d	1	ADV	_	t_2807|t_2804|ref=carn._17
+5	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_2808|t_2811|ref=carn._17
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_2809|t_2810|ref=carn._17
+7	ἐγκεφάλου	ἐγκέφαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ADV	_	t_2810|t_2808|ref=carn._17
+8	διηθέεται	διαθέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_2811|0|ref=carn._17
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_2812|t_2813|ref=carn._17
+10	λεπτότατον	λεπτός	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	8	SBJ	_	t_2813|t_2811|ref=carn._17
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_2814|t_2815|ref=carn._17
+12	κολλωδεστάτου	κολλώδης	a	a-s---ngs	Case=g|Degree=s|Gender=n|Number=s	10	ATR	_	t_2815|t_2813|ref=carn._17
+13	·	·	u	u--------	_	8	AuxK	_	t_2816|t_2811|ref=carn._17
 
-# source = Hippocrates, carn._16-17
+# source = Hippocrates, carn._17
 # text = καὶ διὰ τοῦτο αὐτὸ περὶ αὐτὸν δέρμα ποιέει τοιοῦτον οἷόν περ αὐτό ἐστι τὸ διαφανὲς τοῦ ὀφθαλμοῦ τὸ πρὸς τοῦ ἠέρος , πρὸς ὃ προσβάλλει τὰ πνεύματα , κατὰ τὸν αὐτὸν λόγον ὥσπερ περὶ τοῦ ἄλλου δέρματος ἔλεξα [0] .
 # sent_id = 185
-1	καὶ	καί	c	c--------	_	8	AuxY	_	t_2817|t_2824|ref=carn._16
-2	διὰ	διά	r	r--------	_	8	AuxP	_	t_2818|t_2824|ref=carn._16
-3	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_2819|t_2818|ref=carn._16
-4	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_2820|t_2823|ref=carn._16
-5	περὶ	περί	r	r--------	_	7	AuxP	_	t_2821|t_2823|ref=carn._16
-6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_2822|t_2821|ref=carn._16
-7	δέρμα	δέρμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	SBJ	_	t_2823|t_2824|ref=carn._16
-8	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2824|0|ref=carn._16
-9	τοιοῦτον	τοιοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	8	OCOMP	_	t_2825|t_2824|ref=carn._16
-10	οἷόν	οἷος	p	p-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_2826|t_2829|ref=carn._16
-11	περ	πέρ	d	d--------	_	13	AuxZ	_	t_2827|t_2829|ref=carn._16
-12	αὐτό	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_2828|t_2831|ref=carn._16
-13	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ATR	_	t_2829|t_2825|ref=carn._16
-14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_2830|t_2831|ref=carn._16
-15	διαφανὲς	διαφανής	a	a-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_2831|t_2829|ref=carn._16
-16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_2832|t_2833|ref=carn._16
-17	ὀφθαλμοῦ	ὀφθαλμός	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2833|t_2831|ref=carn._16
-18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_2834|t_2831|ref=carn._16
-19	πρὸς	πρός	r	r--------	_	15	AuxP	_	t_2835|t_2831|ref=carn._16
-20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_2836|t_2837|ref=carn._16
-21	ἠέρος	ἀήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_2837|t_2835|ref=carn._16
-22	,	,	u	u--------	_	8	AuxX	_	t_2838|t_2824|ref=carn._16
-23	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_2839|t_2841|ref=carn._16
-24	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_2840|t_2839|ref=carn._16
-25	προσβάλλει	προσβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ATR	_	t_2841|t_2831|ref=carn._16
-26	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	27	ATR	_	t_2842|t_2843|ref=carn._16
-27	πνεύματα	πνεῦμα	n	n-p---nn-	Case=n|Gender=n|Number=p	25	SBJ	_	t_2843|t_2841|ref=carn._16
-28	,	,	u	u--------	_	8	AuxX	_	t_2844|t_2824|ref=carn._16
+1	καὶ	καί	c	c--------	_	8	AuxY	_	t_2817|t_2824|ref=carn._17
+2	διὰ	διά	r	r--------	_	8	AuxP	_	t_2818|t_2824|ref=carn._17
+3	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_2819|t_2818|ref=carn._17
+4	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_2820|t_2823|ref=carn._17
+5	περὶ	περί	r	r--------	_	7	AuxP	_	t_2821|t_2823|ref=carn._17
+6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_2822|t_2821|ref=carn._17
+7	δέρμα	δέρμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	SBJ	_	t_2823|t_2824|ref=carn._17
+8	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2824|0|ref=carn._17
+9	τοιοῦτον	τοιοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	8	OCOMP	_	t_2825|t_2824|ref=carn._17
+10	οἷόν	οἷος	p	p-s---nn-	Case=n|Gender=n|Number=s	13	PNOM	_	t_2826|t_2829|ref=carn._17
+11	περ	πέρ	d	d--------	_	13	AuxZ	_	t_2827|t_2829|ref=carn._17
+12	αὐτό	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_2828|t_2831|ref=carn._17
+13	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	9	ATR	_	t_2829|t_2825|ref=carn._17
+14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_2830|t_2831|ref=carn._17
+15	διαφανὲς	διαφανής	a	a-s---nn-	Case=n|Gender=n|Number=s	13	SBJ	_	t_2831|t_2829|ref=carn._17
+16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_2832|t_2833|ref=carn._17
+17	ὀφθαλμοῦ	ὀφθαλμός	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2833|t_2831|ref=carn._17
+18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	15	ATR	_	t_2834|t_2831|ref=carn._17
+19	πρὸς	πρός	r	r--------	_	15	AuxP	_	t_2835|t_2831|ref=carn._17
+20	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	21	ATR	_	t_2836|t_2837|ref=carn._17
+21	ἠέρος	ἀήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_2837|t_2835|ref=carn._17
+22	,	,	u	u--------	_	8	AuxX	_	t_2838|t_2824|ref=carn._17
+23	πρὸς	πρός	r	r--------	_	25	AuxP	_	t_2839|t_2841|ref=carn._17
+24	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_2840|t_2839|ref=carn._17
+25	προσβάλλει	προσβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	ATR	_	t_2841|t_2831|ref=carn._17
+26	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	27	ATR	_	t_2842|t_2843|ref=carn._17
+27	πνεύματα	πνεῦμα	n	n-p---nn-	Case=n|Gender=n|Number=p	25	SBJ	_	t_2843|t_2841|ref=carn._17
+28	,	,	u	u--------	_	8	AuxX	_	t_2844|t_2824|ref=carn._17
 29	κατὰ	κατά	r	r--------	_	8	AuxP	_	t_2845|t_2824|ref=carn._17
 30	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_2846|t_2848|ref=carn._17
 31	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	32	ATR	_	t_2847|t_2848|ref=carn._17
 32	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	29	ADV	_	t_2848|t_2845|ref=carn._17
 33	ὥσπερ	ὥσπερ	c	c--------	_	8	AuxC	_	t_2849|t_2824|ref=carn._17
 34	περὶ	περί	r	r--------	_	38	AuxP	_	t_2850|t_2854|ref=carn._17
-35	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	37	ATR	_	t_2851|t_2853|ref=carn._16
+35	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	37	ATR	_	t_2851|t_2853|ref=carn._17
 36	ἄλλου	ἄλλος	p	p-s---ng-	Case=g|Gender=n|Number=s	37	ATR	_	t_2852|t_2853|ref=carn._17
 37	δέρματος	δέρμα	n	n-s---ng-	Case=g|Gender=n|Number=s	34	ADV	_	t_2853|t_2850|ref=carn._17
 38	ἔλεξα	λέγω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	33	ADV	_	t_2854|t_2849|ref=carn._17
-39	[0]	[0]	-	---------	_	33	ADV	_	e_65|t_2849|ref=carn._1
+39	[0]	[0]	-	---------	_	33	ADV	_	e_65|t_2849|ref=carn._17
 40	.	.	u	u--------	_	8	AuxK	_	t_2855|t_2824|ref=carn._17
 
 # source = Hippocrates, carn._17
@@ -3702,7 +3702,7 @@
 3	ὁρῇ	ὁράω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2886|0|ref=carn._17
 4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_2887|t_2888|ref=carn._17
 5	ἀνταυγέοντι	ἀνταυγέω	v	v-sppamd-	Case=d|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	OBJ	_	t_2888|t_2886|ref=carn._17
-6	[0]	[0]	-	---------	_	3	OBJ	_	e_66|t_2886|ref=carn._1
+6	[0]	[0]	-	---------	_	3	OBJ	_	e_66|t_2886|ref=carn._17
 7	·	·	u	u--------	_	3	AuxK	_	t_2889|t_2886|ref=carn._17
 
 # source = Hippocrates, carn._17
@@ -3774,8 +3774,8 @@
 5	ἐνεὸν	ἐνεός	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	8	OBJ	_	t_2941|e_67|ref=carn._17
 6	ὥσπερ	ὥσπερ	d	d--------	_	8	ADV	_	t_2942|e_67|ref=carn._17
 7	δέρμα	δέρμα	n	n-s---nn-	Case=a|Gender=n|Number=s	9	SBJ	_	t_2943|e_68|ref=carn._17
-8	[0]	[0]	-	---------	_	3	ADV	_	e_67|t_2939|ref=carn._1
-9	[1]	[1]	-	---------	_	8	ADV	_	e_68|e_67|ref=carn._1
+8	[0]	[0]	-	---------	_	3	ADV	_	e_67|t_2939|ref=carn._17
+9	[1]	[1]	-	---------	_	8	ADV	_	e_68|e_67|ref=carn._17
 10	·	·	u	u--------	_	2	AuxK	_	t_2944|t_2938|ref=carn._17
 
 # source = Hippocrates, carn._17
@@ -3799,7 +3799,7 @@
 2	δὲ	δέ	g	g--------	_	0	COORD	_	t_2956|0|ref=carn._17
 3	ὑγρὸν	ὑγρός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_2957|t_2958|ref=carn._17
 4	κολλῶδες	κολλώδης	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_2958|e_69|ref=carn._17
-5	[0]	[0]	-	---------	_	2	PRED	_	e_69|t_2956|ref=carn._1
+5	[0]	[0]	-	---------	_	2	PRED	_	e_69|t_2956|ref=carn._17
 6	·	·	u	u--------	_	2	AuxK	_	t_2959|t_2956|ref=carn._17
 
 # source = Hippocrates, carn._17
@@ -3907,108 +3907,108 @@
 49	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	46	SBJ	_	t_3047|t_3044|ref=carn._17
 50	ἔνυγρά	ἔνυγρά	a	a-p---nn-	Case=n|Gender=n|Number=p	51	PNOM	_	t_3048|t_3049|ref=carn._17
 51	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	40	ADV	_	t_3049|t_3038|ref=carn._17
-52	[0]	[0]	-	---------	_	21	ADV	_	e_70|t_3019|ref=carn._1
+52	[0]	[0]	-	---------	_	21	ADV	_	e_70|t_3019|ref=carn._17
 53	.	.	u	u--------	_	2	AuxK	_	t_3050|t_3000|ref=carn._17
 
-# source = Hippocrates, carn._17
+# source = Hippocrates, carn._18
 # text = 18 .
 # sent_id = 199
-1	18	18	x	x--------	_	0	AuxG	_	t_3051|0|ref=carn._17
-2	.	.	u	u--------	_	1	AuxK	_	t_3052|t_3051|ref=carn._17
+1	18	18	x	x--------	_	0	AuxG	_	t_3051|0|ref=carn._18
+2	.	.	u	u--------	_	1	AuxK	_	t_3052|t_3051|ref=carn._18
 
-# source = Hippocrates, carn._17
+# source = Hippocrates, carn._18
 # text = Διαλέγεται δὲ διὰ τὸ πνεῦμα ἕλκων ἔσω ἐς πᾶν τὸ σῶμα , τὸ πλεῖστον δὲ ἐς τὰ κοῖλα αὐτὸς ἑωυτῷ [0] ·
 # sent_id = 200
-1	Διαλέγεται	διαλέγω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_3053|0|ref=carn._17
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_3054|t_3053|ref=carn._17
-3	διὰ	διά	r	r--------	_	1	AuxP	_	t_3055|t_3053|ref=carn._17
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_3056|t_3057|ref=carn._17
-5	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_3057|t_3055|ref=carn._17
-6	ἕλκων	ἕλκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_3058|t_3053|ref=carn._17
-7	ἔσω	ἔσω	d	d--------	_	6	ADV	_	t_3059|t_3058|ref=carn._17
-8	ἐς	εἰς	r	r--------	_	6	AuxP	_	t_3060|t_3058|ref=carn._17
-9	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_3061|t_3063|ref=carn._17
-10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_3062|t_3063|ref=carn._17
-11	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_3063|t_3060|ref=carn._17
-12	,	,	u	u--------	_	1	AuxX	_	t_3064|t_3053|ref=carn._17
-13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_3065|t_3066|ref=carn._17
-14	πλεῖστον	πλεῖστος	a	a-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_3066|e_71|ref=carn._17
-15	δὲ	δέ	d	d--------	_	1	COORD	_	t_3067|t_3053|ref=carn._17
-16	ἐς	εἰς	r	r--------	_	21	AuxP	_	t_3068|e_71|ref=carn._17
-17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_3069|t_3070|ref=carn._17
-18	κοῖλα	κοῖλος	a	a-p---na-	Case=a|Gender=n|Number=p	16	ADV	_	t_3070|t_3068|ref=carn._17
-19	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	21	ADV	_	t_3071|e_71|ref=carn._17
-20	ἑωυτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	21	ADV	_	t_3072|e_71|ref=carn._17
-21	[0]	[0]	-	---------	_	15	PRED	_	e_71|t_3067|ref=carn._1
-22	·	·	u	u--------	_	12	AuxK	_	t_3073|t_3064|ref=carn._17
+1	Διαλέγεται	διαλέγω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_3053|0|ref=carn._18
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_3054|t_3053|ref=carn._18
+3	διὰ	διά	r	r--------	_	1	AuxP	_	t_3055|t_3053|ref=carn._18
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_3056|t_3057|ref=carn._18
+5	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	ADV	_	t_3057|t_3055|ref=carn._18
+6	ἕλκων	ἕλκω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_3058|t_3053|ref=carn._18
+7	ἔσω	ἔσω	d	d--------	_	6	ADV	_	t_3059|t_3058|ref=carn._18
+8	ἐς	εἰς	r	r--------	_	6	AuxP	_	t_3060|t_3058|ref=carn._18
+9	πᾶν	πᾶς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_3061|t_3063|ref=carn._18
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_3062|t_3063|ref=carn._18
+11	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_3063|t_3060|ref=carn._18
+12	,	,	u	u--------	_	1	AuxX	_	t_3064|t_3053|ref=carn._18
+13	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_3065|t_3066|ref=carn._18
+14	πλεῖστον	πλεῖστος	a	a-s---na-	Case=a|Gender=n|Number=s	21	ADV	_	t_3066|e_71|ref=carn._18
+15	δὲ	δέ	d	d--------	_	1	COORD	_	t_3067|t_3053|ref=carn._18
+16	ἐς	εἰς	r	r--------	_	21	AuxP	_	t_3068|e_71|ref=carn._18
+17	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	18	ATR	_	t_3069|t_3070|ref=carn._18
+18	κοῖλα	κοῖλος	a	a-p---na-	Case=a|Gender=n|Number=p	16	ADV	_	t_3070|t_3068|ref=carn._18
+19	αὐτὸς	αὐτός	p	p-s---mn-	Case=n|Gender=m|Number=s	21	ADV	_	t_3071|e_71|ref=carn._18
+20	ἑωυτῷ	ἑαυτοῦ	p	p-s---md-	Case=d|Gender=m|Number=s	21	ADV	_	t_3072|e_71|ref=carn._18
+21	[0]	[0]	-	---------	_	15	PRED	_	e_71|t_3067|ref=carn._18
+22	·	·	u	u--------	_	12	AuxK	_	t_3073|t_3064|ref=carn._18
 
-# source = Hippocrates, carn._17
+# source = Hippocrates, carn._18
 # text = αὐτὸ δὲ θύραζε ὠθεόμενον διὰ τὸ κενὸν ψόφον ποιέει ·
 # sent_id = 201
-1	αὐτὸ	αὐτός	a	a-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_3074|t_3082|ref=carn._17
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_3075|t_3082|ref=carn._17
-3	θύραζε	θύραζε	d	d--------	_	9	ADV	_	t_3076|t_3082|ref=carn._17
-4	ὠθεόμενον	ὠθέω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	9	ADV	_	t_3077|t_3082|ref=carn._17
-5	διὰ	διά	r	r--------	_	9	AuxP	_	t_3078|t_3082|ref=carn._17
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_3079|t_3081|ref=carn._17
-7	κενὸν	κενός	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_3080|t_3081|ref=carn._17
-8	ψόφον	ψόφος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_3081|t_3082|ref=carn._17
-9	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3082|0|ref=carn._17
-10	·	·	u	u--------	_	9	AuxK	_	t_3083|t_3082|ref=carn._17
+1	αὐτὸ	αὐτός	a	a-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_3074|t_3082|ref=carn._18
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_3075|t_3082|ref=carn._18
+3	θύραζε	θύραζε	d	d--------	_	9	ADV	_	t_3076|t_3082|ref=carn._18
+4	ὠθεόμενον	ὠθέω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	9	ADV	_	t_3077|t_3082|ref=carn._18
+5	διὰ	διά	r	r--------	_	9	AuxP	_	t_3078|t_3082|ref=carn._18
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_3079|t_3081|ref=carn._18
+7	κενὸν	κενός	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_3080|t_3081|ref=carn._18
+8	ψόφον	ψόφος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_3081|t_3082|ref=carn._18
+9	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3082|0|ref=carn._18
+10	·	·	u	u--------	_	9	AuxK	_	t_3083|t_3082|ref=carn._18
 
-# source = Hippocrates, carn._17
+# source = Hippocrates, carn._18
 # text = ἡ κεφαλὴ γὰρ ἐπηχεῖ .
 # sent_id = 202
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_3084|t_3085|ref=carn._17
-2	κεφαλὴ	κεφαλή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_3085|t_3087|ref=carn._17
-3	γὰρ	γάρ	g	g--------	_	4	AuxY	_	t_3086|t_3087|ref=carn._17
-4	ἐπηχεῖ	ἐπαχέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3087|0|ref=carn._17
-5	.	.	u	u--------	_	4	AuxK	_	t_3088|t_3087|ref=carn._17
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_3084|t_3085|ref=carn._18
+2	κεφαλὴ	κεφαλή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_3085|t_3087|ref=carn._18
+3	γὰρ	γάρ	g	g--------	_	4	AuxY	_	t_3086|t_3087|ref=carn._18
+4	ἐπηχεῖ	ἐπαχέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3087|0|ref=carn._18
+5	.	.	u	u--------	_	4	AuxK	_	t_3088|t_3087|ref=carn._18
 
-# source = Hippocrates, carn._17
+# source = Hippocrates, carn._18
 # text = Ἡ δὲ γλῶσσα ἀρθροῖ προσβάλλουσα [0] ·
 # sent_id = 203
-1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_3089|t_3091|ref=carn._17
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_3090|0|ref=carn._17
-3	γλῶσσα	γλῶσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_3091|e_72|ref=carn._17
-4	ἀρθροῖ	ἀρθρόω	n	n-s---md-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	OBJ	_	t_3092|t_3093|ref=carn._17
-5	προσβάλλουσα	προσβάλλω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_3093|e_72|ref=carn._17
-6	[0]	[0]	-	---------	_	2	PRED	_	e_72|t_3090|ref=carn._1
-7	·	·	u	u--------	_	2	AuxK	_	t_3094|t_3090|ref=carn._17
+1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_3089|t_3091|ref=carn._18
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_3090|0|ref=carn._18
+3	γλῶσσα	γλῶσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_3091|e_72|ref=carn._18
+4	ἀρθροῖ	ἀρθρόω	n	n-s---md-	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	OBJ	_	t_3092|t_3093|ref=carn._18
+5	προσβάλλουσα	προσβάλλω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_3093|e_72|ref=carn._18
+6	[0]	[0]	-	---------	_	2	PRED	_	e_72|t_3090|ref=carn._18
+7	·	·	u	u--------	_	2	AuxK	_	t_3094|t_3090|ref=carn._18
 
-# source = Hippocrates, carn._17
+# source = Hippocrates, carn._18
 # text = ἐν τῷ φάρυγγι ἀποφράσσουσα καὶ προσβάλλουσα πρὸς τὴν ὑπερώην καὶ πρὸς τοὺς ὀδόντας ποιέει σαφηνίζειν ·
 # sent_id = 204
-1	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_3095|t_3108|ref=carn._17
-2	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_3096|t_3097|ref=carn._17
-3	φάρυγγι	φάρυγξ	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_3097|t_3095|ref=carn._17
-4	ἀποφράσσουσα	ἀποφράσσω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_3098|t_3099|ref=carn._17
-5	καὶ	καί	c	c--------	_	14	COORD	_	t_3099|t_3108|ref=carn._17
-6	προσβάλλουσα	προσβάλλω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_3100|t_3099|ref=carn._17
-7	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_3101|t_3104|ref=carn._17
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_3102|t_3103|ref=carn._17
-9	ὑπερώην	ὑπερῷα	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_3103|t_3101|ref=carn._17
-10	καὶ	καί	c	c--------	_	14	COORD	_	t_3104|t_3108|ref=carn._17
-11	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_3105|t_3104|ref=carn._17
-12	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_3106|t_3107|ref=carn._17
-13	ὀδόντας	ὀδούς	n	n-p---ma-	Case=a|Gender=m|Number=p	11	ADV	_	t_3107|t_3105|ref=carn._17
-14	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3108|0|ref=carn._17
-15	σαφηνίζειν	διασαφέω	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_3109|t_3108|ref=carn._17
-16	·	·	u	u--------	_	14	AuxK	_	t_3110|t_3108|ref=carn._17
+1	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_3095|t_3108|ref=carn._18
+2	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_3096|t_3097|ref=carn._18
+3	φάρυγγι	φάρυγξ	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_3097|t_3095|ref=carn._18
+4	ἀποφράσσουσα	ἀποφράσσω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_3098|t_3099|ref=carn._18
+5	καὶ	καί	c	c--------	_	14	COORD	_	t_3099|t_3108|ref=carn._18
+6	προσβάλλουσα	προσβάλλω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_3100|t_3099|ref=carn._18
+7	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_3101|t_3104|ref=carn._18
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_3102|t_3103|ref=carn._18
+9	ὑπερώην	ὑπερῷα	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_3103|t_3101|ref=carn._18
+10	καὶ	καί	c	c--------	_	14	COORD	_	t_3104|t_3108|ref=carn._18
+11	πρὸς	πρός	r	r--------	_	10	AuxP	_	t_3105|t_3104|ref=carn._18
+12	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	13	ATR	_	t_3106|t_3107|ref=carn._18
+13	ὀδόντας	ὀδούς	n	n-p---ma-	Case=a|Gender=m|Number=p	11	ADV	_	t_3107|t_3105|ref=carn._18
+14	ποιέει	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3108|0|ref=carn._18
+15	σαφηνίζειν	διασαφέω	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_3109|t_3108|ref=carn._18
+16	·	·	u	u--------	_	14	AuxK	_	t_3110|t_3108|ref=carn._18
 
-# source = Hippocrates, carn._17-18
+# source = Hippocrates, carn._18
 # text = ἢν δὲ μὴ ἡ γλώσση ἀρθροῖ προσβάλλουσα ἑκάστοτε , οὐκ ἂν σαφέως διαλέγοιτο , ἀλλ ’ ᾗ ἕκαστα φύσει τὰ μονόφωνα [0] .
 # sent_id = 205
-1	ἢν	ἐάν	c	c--------	_	13	AuxC	_	t_3111|t_3123|ref=carn._17
-2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_3112|t_3123|ref=carn._17
-3	μὴ	μή	d	d--------	_	6	AuxZ	_	t_3113|t_3116|ref=carn._17
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_3114|t_3115|ref=carn._17
-5	γλώσση	γλῶσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_3115|t_3116|ref=carn._17
-6	ἀρθροῖ	ἀρθρόω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_3116|t_3111|ref=carn._17
-7	προσβάλλουσα	προσβάλλω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_3117|t_3116|ref=carn._17
-8	ἑκάστοτε	ἑκάστοτε	d	d--------	_	7	ADV	_	t_3118|t_3117|ref=carn._17
-9	,	,	u	u--------	_	0	AuxX	_	t_3119|0|ref=carn._17
-10	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_3120|t_3123|ref=carn._17
+1	ἢν	ἐάν	c	c--------	_	13	AuxC	_	t_3111|t_3123|ref=carn._18
+2	δὲ	δέ	d	d--------	_	13	AuxY	_	t_3112|t_3123|ref=carn._18
+3	μὴ	μή	d	d--------	_	6	AuxZ	_	t_3113|t_3116|ref=carn._18
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_3114|t_3115|ref=carn._18
+5	γλώσση	γλῶσσα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_3115|t_3116|ref=carn._18
+6	ἀρθροῖ	ἀρθρόω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_3116|t_3111|ref=carn._18
+7	προσβάλλουσα	προσβάλλω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_3117|t_3116|ref=carn._18
+8	ἑκάστοτε	ἑκάστοτε	d	d--------	_	7	ADV	_	t_3118|t_3117|ref=carn._18
+9	,	,	u	u--------	_	0	AuxX	_	t_3119|0|ref=carn._18
+10	οὐκ	οὐ	d	d--------	_	13	AuxZ	_	t_3120|t_3123|ref=carn._18
 11	ἂν	ἄν	d	d--------	_	13	AuxY	_	t_3121|t_3123|ref=carn._18
 12	σαφέως	σαφής	d	d--------	_	13	ADV	_	t_3122|t_3123|ref=carn._18
 13	διαλέγοιτο	διαλέγω	v	v3spoe---	Mood=o|Number=s|Person=3|Tense=p|Voice=e	15	PRED	_	t_3123|t_3125|ref=carn._18
@@ -4020,7 +4020,7 @@
 19	φύσει	φύσις	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_3129|e_73|ref=carn._18
 20	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	21	ATR	_	t_3130|t_3131|ref=carn._18
 21	μονόφωνα	μονόφωνος	n	n-p---nn-	Case=n|Gender=n|Number=p	22	SBJ	_	t_3131|e_73|ref=carn._18
-22	[0]	[0]	-	---------	_	16	PRED	_	e_73|t_3126|ref=carn._1
+22	[0]	[0]	-	---------	_	16	PRED	_	e_73|t_3126|ref=carn._18
 23	.	.	u	u--------	_	9	AuxK	_	t_3132|t_3119|ref=carn._18
 
 # source = Hippocrates, carn._18
@@ -4036,7 +4036,7 @@
 8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	7	ATR	_	t_3140|t_3139|ref=carn._18
 9	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_3141|t_3139|ref=carn._18
 10	γενεῆς	γενεά	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_3142|t_3141|ref=carn._18
-11	οὐκ	οὐ	d	d--------	_	12	AuxZ	_	t_3143|t_3144|ref=carn._17
+11	οὐκ	οὐ	d	d--------	_	12	AuxZ	_	t_3143|t_3144|ref=carn._18
 12	ἐπίστανται	ἐπίσταμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	15	PRED	_	t_3144|t_3147|ref=carn._18
 13	διαλέγεσθαι	διαλέγω	v	v--pne---	Mood=n|Tense=p|Voice=e	12	OBJ	_	t_3145|t_3144|ref=carn._18
 14	,	,	u	u--------	_	3	AuxX	_	t_3146|t_3135|ref=carn._18
@@ -4062,8 +4062,8 @@
 # sent_id = 207
 1	Δῆλον	δῆλος	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_3163|e_74|ref=carn._18
 2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_3164|e_74|ref=carn._18
-3	τόδε	ὅδε	p	p-s---nn-	Case=n|Gender=n|Number=s	1	ATR	_	t_3165|t_3163|ref=carn._17
-4	[0]	[0]	-	---------	_	0	PRED	_	e_74|0|ref=carn._1
+3	τόδε	ὅδε	p	p-s---nn-	Case=n|Gender=n|Number=s	1	ATR	_	t_3165|t_3163|ref=carn._18
+4	[0]	[0]	-	---------	_	0	PRED	_	e_74|0|ref=carn._18
 5	·	·	u	u--------	_	4	AuxK	_	t_3166|e_74|ref=carn._18
 
 # source = Hippocrates, carn._18
@@ -4096,7 +4096,7 @@
 25	καταμαραίνεται	καταμαραίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	24	PRED	_	t_3191|t_3190|ref=carn._18
 26	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	27	ATR	_	t_3192|t_3193|ref=carn._18
 27	φθέγμα	φθέγμα	n	n-s---nn-	Case=n|Gender=n|Number=s	25	SBJ	_	t_3193|t_3191|ref=carn._18
-28	[0]	[0]	-	---------	_	18	ADV	_	e_75|t_3184|ref=carn._1
+28	[0]	[0]	-	---------	_	18	ADV	_	e_75|t_3184|ref=carn._18
 29	·	·	u	u--------	_	7	AuxK	_	t_3194|t_3173|ref=carn._18
 
 # source = Hippocrates, carn._18
@@ -4150,8 +4150,8 @@
 5	πνεῦμά	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_3236|t_3237|ref=carn._18
 6	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	SBJ	_	t_3237|t_3234|ref=carn._18
 7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_3238|t_3236|ref=carn._18
-8	φθεγγόμενον	φθέγγομαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	5	ATR	_	t_3239|t_3236|ref=carn._17
-9	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=carn._1
+8	φθεγγόμενον	φθέγγομαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	5	ATR	_	t_3239|t_3236|ref=carn._18
+9	[0]	[0]	-	---------	_	0	PRED	_	e_76|0|ref=carn._18
 10	.	.	u	u--------	_	9	AuxK	_	t_3240|e_76|ref=carn._18
 
 # source = Hippocrates, carn._18
@@ -4227,7 +4227,7 @@
 24	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_3296|t_3297|ref=carn._18
 25	διατετμημένον	διατμήγω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	23	ADV	_	t_3297|t_3295|ref=carn._18
 26	ἐκπνέει	ἐκπνέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	22	SBJ	_	t_3298|t_3294|ref=carn._18
-27	[0]	[0]	-	---------	_	0	PRED	_	e_77|0|ref=carn._1
+27	[0]	[0]	-	---------	_	0	PRED	_	e_77|0|ref=carn._18
 28	.	.	u	u--------	_	27	AuxK	_	t_3299|e_77|ref=carn._18
 
 # source = Hippocrates, carn._18
@@ -4242,117 +4242,117 @@
 7	διαλέξιος	διαλέξιος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	AtvV	_	t_3306|t_3301|ref=carn._18
 8	.	.	u	u--------	_	2	AuxK	_	t_3307|t_3301|ref=carn._18
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = 19 .
 # sent_id = 216
-1	19	19	x	x--------	_	0	AuxG	_	t_3308|0|ref=carn._18
-2	.	.	u	u--------	_	1	AuxK	_	t_3309|t_3308|ref=carn._18
+1	19	19	x	x--------	_	0	AuxG	_	t_3308|0|ref=carn._19
+2	.	.	u	u--------	_	1	AuxK	_	t_3309|t_3308|ref=carn._19
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = Ὁ δὲ αἰών ἐστι τοῦ ἀνθρώπου ἑπταήμερος .
 # sent_id = 217
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_3310|t_3312|ref=carn._18
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_3311|0|ref=carn._18
-3	αἰών	αἰών	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_3312|t_3313|ref=carn._18
-4	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_3313|t_3311|ref=carn._18
-5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_3314|t_3315|ref=carn._18
-6	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_3315|t_3312|ref=carn._17
-7	ἑπταήμερος	ἑπταήμερος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_3316|t_3313|ref=carn._18
-8	.	.	u	u--------	_	2	AuxK	_	t_3317|t_3311|ref=carn._18
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_3310|t_3312|ref=carn._19
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_3311|0|ref=carn._19
+3	αἰών	αἰών	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_3312|t_3313|ref=carn._19
+4	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_3313|t_3311|ref=carn._19
+5	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_3314|t_3315|ref=carn._19
+6	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_3315|t_3312|ref=carn._19
+7	ἑπταήμερος	ἑπταήμερος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_3316|t_3313|ref=carn._19
+8	.	.	u	u--------	_	2	AuxK	_	t_3317|t_3311|ref=carn._19
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = Πρῶτον μὲν ἐπὴν ἐς τὰς μήτρας ἔλθῃ ὁ γόνος , ἐν ἑπτὰ ἡμέρῃσιν ἔχει ὁκόσα περ ἐστὶν ἔχειν τοῦ σώματος ·
 # sent_id = 218
-1	Πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_3318|t_3331|ref=carn._18
-2	μὲν	μέν	d	d--------	_	14	AuxY	_	t_3319|t_3331|ref=carn._18
-3	ἐπὴν	ἐπήν	c	c--------	_	14	AuxC	_	t_3320|t_3331|ref=carn._18
-4	ἐς	εἰς	r	r--------	_	7	AuxP	_	t_3321|t_3324|ref=carn._18
-5	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_3322|t_3323|ref=carn._18
-6	μήτρας	μήτρα	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_3323|t_3321|ref=carn._18
-7	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	3	ADV	_	t_3324|t_3320|ref=carn._18
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_3325|t_3326|ref=carn._18
-9	γόνος	γόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_3326|t_3324|ref=carn._18
-10	,	,	u	u--------	_	14	AuxX	_	t_3327|t_3331|ref=carn._18
-11	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_3328|t_3331|ref=carn._18
-12	ἑπτὰ	ἑπτὰ	a	a--------	_	13	ATR	_	t_3329|t_3330|ref=carn._18
-13	ἡμέρῃσιν	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ADV	_	t_3330|t_3328|ref=carn._18
-14	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3331|0|ref=carn._18
-15	ὁκόσα	ὁπόσος	a	a-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_3332|t_3334|ref=carn._18
-16	περ	πέρ	d	d--------	_	17	AuxZ	_	t_3333|t_3334|ref=carn._18
-17	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	ADV	_	t_3334|t_3331|ref=carn._18
-18	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	SBJ	_	t_3335|t_3334|ref=carn._18
-19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_3336|t_3337|ref=carn._18
-20	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	18	OBJ	_	t_3337|t_3335|ref=carn._18
-21	·	·	u	u--------	_	14	AuxK	_	t_3338|t_3331|ref=carn._18
+1	Πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_3318|t_3331|ref=carn._19
+2	μὲν	μέν	d	d--------	_	14	AuxY	_	t_3319|t_3331|ref=carn._19
+3	ἐπὴν	ἐπήν	c	c--------	_	14	AuxC	_	t_3320|t_3331|ref=carn._19
+4	ἐς	εἰς	r	r--------	_	7	AuxP	_	t_3321|t_3324|ref=carn._19
+5	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_3322|t_3323|ref=carn._19
+6	μήτρας	μήτρα	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_3323|t_3321|ref=carn._19
+7	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	3	ADV	_	t_3324|t_3320|ref=carn._19
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_3325|t_3326|ref=carn._19
+9	γόνος	γόνος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_3326|t_3324|ref=carn._19
+10	,	,	u	u--------	_	14	AuxX	_	t_3327|t_3331|ref=carn._19
+11	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_3328|t_3331|ref=carn._19
+12	ἑπτὰ	ἑπτὰ	a	a--------	_	13	ATR	_	t_3329|t_3330|ref=carn._19
+13	ἡμέρῃσιν	ἡμέρα	n	n-p---fd-	Case=d|Gender=f|Number=p	11	ADV	_	t_3330|t_3328|ref=carn._19
+14	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3331|0|ref=carn._19
+15	ὁκόσα	ὁπόσος	a	a-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_3332|t_3334|ref=carn._19
+16	περ	πέρ	d	d--------	_	17	AuxZ	_	t_3333|t_3334|ref=carn._19
+17	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	ADV	_	t_3334|t_3331|ref=carn._19
+18	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	SBJ	_	t_3335|t_3334|ref=carn._19
+19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_3336|t_3337|ref=carn._19
+20	σώματος	σῶμα	n	n-s---ng-	Case=g|Gender=n|Number=s	18	OBJ	_	t_3337|t_3335|ref=carn._19
+21	·	·	u	u--------	_	14	AuxK	_	t_3338|t_3331|ref=carn._19
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = τοῦτο δέ τις ἂν θαυμάσειεν ὅκως ἐγὼ οἶδα ·
 # sent_id = 219
-1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_3339|t_3343|ref=carn._18
-2	δέ	δέ	d	d--------	_	5	AuxY	_	t_3340|t_3343|ref=carn._18
-3	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	5	SBJ	_	t_3341|t_3343|ref=carn._18
-4	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_3342|t_3343|ref=carn._18
-5	θαυμάσειεν	θαυμάζω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_3343|0|ref=carn._18
-6	ὅκως	ὅπως	c	c--------	_	5	AuxC	_	t_3344|t_3343|ref=carn._18
-7	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_3345|t_3346|ref=carn._18
-8	οἶδα	οἶδα	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	6	ADV	_	t_3346|t_3344|ref=carn._18
-9	·	·	u	u--------	_	2	AuxK	_	t_3347|t_3340|ref=carn._18
+1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_3339|t_3343|ref=carn._19
+2	δέ	δέ	d	d--------	_	5	AuxY	_	t_3340|t_3343|ref=carn._19
+3	τις	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	5	SBJ	_	t_3341|t_3343|ref=carn._19
+4	ἂν	ἄν	d	d--------	_	5	AuxY	_	t_3342|t_3343|ref=carn._19
+5	θαυμάσειεν	θαυμάζω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_3343|0|ref=carn._19
+6	ὅκως	ὅπως	c	c--------	_	5	AuxC	_	t_3344|t_3343|ref=carn._19
+7	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	8	SBJ	_	t_3345|t_3346|ref=carn._19
+8	οἶδα	οἶδα	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	6	ADV	_	t_3346|t_3344|ref=carn._19
+9	·	·	u	u--------	_	2	AuxK	_	t_3347|t_3340|ref=carn._19
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = πολλὰ δὲ εἶδον τρόπῳ τοιῷδε ·
 # sent_id = 220
-1	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_3348|t_3350|ref=carn._18
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_3349|t_3350|ref=carn._18
-3	εἶδον	εἶδον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_3350|0|ref=carn._18
-4	τρόπῳ	τρόπος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_3351|t_3350|ref=carn._18
-5	τοιῷδε	τοιόσδε	p	p-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_3352|t_3351|ref=carn._18
-6	·	·	u	u--------	_	3	AuxK	_	t_3353|t_3350|ref=carn._18
+1	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_3348|t_3350|ref=carn._19
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_3349|t_3350|ref=carn._19
+3	εἶδον	εἶδον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_3350|0|ref=carn._19
+4	τρόπῳ	τρόπος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_3351|t_3350|ref=carn._19
+5	τοιῷδε	τοιόσδε	p	p-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_3352|t_3351|ref=carn._19
+6	·	·	u	u--------	_	3	AuxK	_	t_3353|t_3350|ref=carn._19
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = αἱ ἑταῖραι αἱ δημόσιαι , αἵτινες αὐτέων πεπείρηνται πολλάκις , ὁκόταν παρὰ ἄνδρα ἔλθῃ , γινώσκουσιν ὁκόταν λάβωσιν ἐν γαστρί ·
 # sent_id = 221
-1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_3354|t_3355|ref=carn._18
-2	ἑταῖραι	ἑταίρα	n	n-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_3355|t_3369|ref=carn._18
-3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_3356|t_3355|ref=carn._18
-4	δημόσιαι	δημόσιος	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_3357|t_3355|ref=carn._18
-5	,	,	u	u--------	_	16	AuxX	_	t_3358|t_3369|ref=carn._18
-6	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_3359|t_3361|ref=carn._18
-7	αὐτέων	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_3360|t_3359|ref=carn._18
-8	πεπείρηνται	πειράω	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	2	ATR	_	t_3361|t_3355|ref=carn._18
-9	πολλάκις	πολλάκις	d	d--------	_	8	ADV	_	t_3362|t_3361|ref=carn._18
-10	,	,	u	u--------	_	16	AuxX	_	t_3363|t_3369|ref=carn._18
-11	ὁκόταν	ὁπόταν	c	c--------	_	8	AuxC	_	t_3364|t_3361|ref=carn._18
-12	παρὰ	παρά	r	r--------	_	14	AuxP	_	t_3365|t_3367|ref=carn._18
-13	ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_3366|t_3365|ref=carn._18
-14	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	11	ADV	_	t_3367|t_3364|ref=carn._18
-15	,	,	u	u--------	_	16	AuxX	_	t_3368|t_3369|ref=carn._18
-16	γινώσκουσιν	γιγνώσκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_3369|0|ref=carn._18
-17	ὁκόταν	ὁπόταν	c	c--------	_	16	AuxC	_	t_3370|t_3369|ref=carn._18
-18	λάβωσιν	λαμβάνω	v	v3pasa---	Mood=s|Number=p|Person=3|Tense=a|Voice=a	17	ADV	_	t_3371|t_3370|ref=carn._18
-19	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_3372|t_3371|ref=carn._18
-20	γαστρί	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	19	ADV	_	t_3373|t_3372|ref=carn._18
-21	·	·	u	u--------	_	16	AuxK	_	t_3374|t_3369|ref=carn._18
+1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_3354|t_3355|ref=carn._19
+2	ἑταῖραι	ἑταίρα	n	n-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_3355|t_3369|ref=carn._19
+3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_3356|t_3355|ref=carn._19
+4	δημόσιαι	δημόσιος	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_3357|t_3355|ref=carn._19
+5	,	,	u	u--------	_	16	AuxX	_	t_3358|t_3369|ref=carn._19
+6	αἵτινες	ὅστις	p	p-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_3359|t_3361|ref=carn._19
+7	αὐτέων	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_3360|t_3359|ref=carn._19
+8	πεπείρηνται	πειράω	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	2	ATR	_	t_3361|t_3355|ref=carn._19
+9	πολλάκις	πολλάκις	d	d--------	_	8	ADV	_	t_3362|t_3361|ref=carn._19
+10	,	,	u	u--------	_	16	AuxX	_	t_3363|t_3369|ref=carn._19
+11	ὁκόταν	ὁπόταν	c	c--------	_	8	AuxC	_	t_3364|t_3361|ref=carn._19
+12	παρὰ	παρά	r	r--------	_	14	AuxP	_	t_3365|t_3367|ref=carn._19
+13	ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_3366|t_3365|ref=carn._19
+14	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	11	ADV	_	t_3367|t_3364|ref=carn._19
+15	,	,	u	u--------	_	16	AuxX	_	t_3368|t_3369|ref=carn._19
+16	γινώσκουσιν	γιγνώσκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_3369|0|ref=carn._19
+17	ὁκόταν	ὁπόταν	c	c--------	_	16	AuxC	_	t_3370|t_3369|ref=carn._19
+18	λάβωσιν	λαμβάνω	v	v3pasa---	Mood=s|Number=p|Person=3|Tense=a|Voice=a	17	ADV	_	t_3371|t_3370|ref=carn._19
+19	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_3372|t_3371|ref=carn._19
+20	γαστρί	γαστήρ	n	n-s---fd-	Case=d|Gender=f|Number=s	19	ADV	_	t_3373|t_3372|ref=carn._19
+21	·	·	u	u--------	_	16	AuxK	_	t_3374|t_3369|ref=carn._19
 
-# source = Hippocrates, carn._18
+# source = Hippocrates, carn._19
 # text = κ ἄπειτʼ ἐνδιαφθείρουσιν ·
 # sent_id = 222
-1	κ	καί	d	d--------	_	3	AuxY	_	t_3375|t_3377|ref=carn._18
-2	ἄπειτʼ	ἄπειμι	d	d--------	_	3	ADV	_	t_3376|t_3377|ref=carn._18
-3	ἐνδιαφθείρουσιν	ἐνκαταθνήσκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_3377|0|ref=carn._18
-4	·	·	u	u--------	_	3	AuxK	_	t_3378|t_3377|ref=carn._18
+1	κ	καί	d	d--------	_	3	AuxY	_	t_3375|t_3377|ref=carn._19
+2	ἄπειτʼ	ἄπειμι	d	d--------	_	3	ADV	_	t_3376|t_3377|ref=carn._19
+3	ἐνδιαφθείρουσιν	ἐνκαταθνήσκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_3377|0|ref=carn._19
+4	·	·	u	u--------	_	3	AuxK	_	t_3378|t_3377|ref=carn._19
 
-# source = Hippocrates, carn._18-19
+# source = Hippocrates, carn._19
 # text = ἐπειδὰν δὲ ἤδη διαφθαρῇ , ἐκπίπτει ὥσπερ σάρξ [0] ·
 # sent_id = 223
-1	ἐπειδὰν	ἐπειδάν	c	c--------	_	6	AuxC	_	t_3379|t_3384|ref=carn._18
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_3380|t_3384|ref=carn._18
-3	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_3381|t_3382|ref=carn._18
-4	διαφθαρῇ	διαφθείρω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	1	ADV	_	t_3382|t_3379|ref=carn._18
-5	,	,	u	u--------	_	6	AuxX	_	t_3383|t_3384|ref=carn._18
-6	ἐκπίπτει	ἐκπίπτω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3384|0|ref=carn._18
+1	ἐπειδὰν	ἐπειδάν	c	c--------	_	6	AuxC	_	t_3379|t_3384|ref=carn._19
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_3380|t_3384|ref=carn._19
+3	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_3381|t_3382|ref=carn._19
+4	διαφθαρῇ	διαφθείρω	v	v3sasp---	Mood=s|Number=s|Person=3|Tense=a|Voice=p	1	ADV	_	t_3382|t_3379|ref=carn._19
+5	,	,	u	u--------	_	6	AuxX	_	t_3383|t_3384|ref=carn._19
+6	ἐκπίπτει	ἐκπίπτω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_3384|0|ref=carn._19
 7	ὥσπερ	ὥσπερ	c	c--------	_	6	AuxC	_	t_3385|t_3384|ref=carn._19
 8	σάρξ	σάρξ	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_3386|e_78|ref=carn._19
-9	[0]	[0]	-	---------	_	7	ADV	_	e_78|t_3385|ref=carn._1
+9	[0]	[0]	-	---------	_	7	ADV	_	e_78|t_3385|ref=carn._19
 10	·	·	u	u--------	_	6	AuxK	_	t_3387|t_3384|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4416,8 +4416,8 @@
 24	πᾶν	πᾶς	a	a-s---nn-	Case=n|Gender=n|Number=s	25	ATR	_	t_3439|t_3440|ref=carn._19
 25	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_3440|t_3436|ref=carn._19
 26	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	28	PNOM	_	t_3441|e_80|ref=carn._19
-27	[0]	[0]	-	---------	_	18	PRED	_	e_79|t_3433|ref=carn._1
-28	[1]	[1]	-	---------	_	18	PRED	_	e_80|t_3433|ref=carn._1
+27	[0]	[0]	-	---------	_	18	PRED	_	e_79|t_3433|ref=carn._19
+28	[1]	[1]	-	---------	_	18	PRED	_	e_80|t_3433|ref=carn._19
 29	.	.	u	u--------	_	17	AuxK	_	t_3442|t_3432|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4455,7 +4455,7 @@
 30	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_3472|t_3473|ref=carn._19
 31	ὑστέρην	ὕστερος	n	n-s---fa-	Case=a|Gender=f|Number=s	29	OBJ	_	t_3473|t_3471|ref=carn._19
 32	ὄκνος	ὄκνος	n	n-s---mn-	Case=n|Gender=m|Number=s	33	PNOM	_	t_3474|e_81|ref=carn._19
-33	[0]	[0]	-	---------	_	29	PRED	_	e_81|t_3471|ref=carn._1
+33	[0]	[0]	-	---------	_	29	PRED	_	e_81|t_3471|ref=carn._19
 34	·	·	u	u--------	_	10	AuxK	_	t_3475|t_3452|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4488,7 +4488,7 @@
 10	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_3496|t_3497|ref=carn._19
 11	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	12	ATR	_	t_3497|t_3498|ref=carn._19
 12	πολλαί	πολύς	a	a-p---fn-	Case=n|Gender=f|Number=p	8	SBJ	_	t_3498|t_3494|ref=carn._19
-13	[0]	[0]	-	---------	_	8	OBJ	_	e_82|t_3494|ref=carn._1
+13	[0]	[0]	-	---------	_	8	OBJ	_	e_82|t_3494|ref=carn._19
 14	·	·	u	u--------	_	8	AuxK	_	t_3499|t_3494|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4536,7 +4536,7 @@
 24	ἀποθνήσκουσιν	ἀποθνήσκω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	6	SBJ	_	t_3535|t_3517|ref=carn._19
 25	ἐν	ἐν	r	r--------	_	24	AuxP	_	t_3536|t_3535|ref=carn._19
 26	αὐτῇσιν	αὐτός	p	p-p---fd-	Case=d|Gender=f|Number=p	25	ADV	_	t_3537|t_3536|ref=carn._19
-27	[0]	[0]	-	---------	_	0	PRED	_	e_83|0|ref=carn._1
+27	[0]	[0]	-	---------	_	0	PRED	_	e_83|0|ref=carn._19
 28	·	·	u	u--------	_	27	AuxK	_	t_3538|e_83|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4704,7 +4704,7 @@
 6	ἑβδομάδων	ἑβδομάς	n	n-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_3658|t_3656|ref=carn._19
 7	ἑβδομήκοντα	ἑβδομήκοντα	a	a--------	_	8	ATR	_	t_3659|t_3660|ref=carn._19
 8	ἡμέραι	ἡμέρα	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_3660|e_84|ref=carn._19
-9	[0]	[0]	-	---------	_	0	PRED	_	e_84|0|ref=carn._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_84|0|ref=carn._19
 10	.	.	u	u--------	_	9	AuxK	_	t_3661|e_84|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4737,8 +4737,8 @@
 25	δέκα	δέκα	a	a--------	_	26	ATR	_	t_3686|t_3687|ref=carn._19
 26	καὶ	καί	c	c--------	_	24	COORD	_	t_3687|t_3685|ref=carn._19
 27	διηκόσιαι	διακόσιοι	a	a-p---fn-	Case=n|Gender=f|Number=p	26	ATR	_	t_3688|t_3687|ref=carn._19
-28	[0]	[0]	-	---------	_	21	PRED	_	e_85|t_3682|ref=carn._1
-29	[1]	[1]	-	---------	_	21	PRED	_	e_86|t_3682|ref=carn._1
+28	[0]	[0]	-	---------	_	21	PRED	_	e_85|t_3682|ref=carn._19
+29	[1]	[1]	-	---------	_	21	PRED	_	e_86|t_3682|ref=carn._19
 30	.	.	u	u--------	_	10	AuxK	_	t_3689|t_3671|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4780,7 +4780,7 @@
 4	μιᾷ	εἷς	a	a-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_3719|t_3720|ref=carn._19
 5	ἑβδομάδι	ἑβδομάς	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_3720|t_3718|ref=carn._19
 6	·	·	u	u--------	_	7	AuxK	_	t_3721|e_87|ref=carn._19
-7	[0]	[0]	-	---------	_	0	PRED	_	e_87|0|ref=carn._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_87|0|ref=carn._19
 8	]	]	u	u--------	_	7	AuxG	_	t_3722|e_87|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4797,8 +4797,8 @@
 9	καὶ	καί	c	c--------	_	6	COORD	_	t_3731|t_3728|ref=carn._19
 10	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_3732|t_3731|ref=carn._19
 11	ἑβδομάδος	ἑβδομάς	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_3733|t_3731|ref=carn._19
-12	[0]	[0]	-	---------	_	0	PRED	_	e_88|0|ref=carn._1
-13	[1]	[1]	-	---------	_	12	SBJ	_	e_89|e_88|ref=carn._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_88|0|ref=carn._19
+13	[1]	[1]	-	---------	_	12	SBJ	_	e_89|e_88|ref=carn._19
 14	·	·	u	u--------	_	12	AuxK	_	t_3734|e_88|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4809,7 +4809,7 @@
 3	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_3737|e_90|ref=carn._19
 4	δυσὶν	δύο	m	m-p---md-	Case=d|Gender=f|Number=p	5	ATR	_	t_3738|t_3739|ref=carn._19
 5	ἑβδομάσιν	ἑβδομάς	n	n-p---fd-	Case=d|Gender=f|Number=p	3	ADV	_	t_3739|t_3737|ref=carn._19
-6	[0]	[0]	-	---------	_	0	PRED	_	e_90|0|ref=carn._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_90|0|ref=carn._19
 7	·	·	u	u--------	_	6	AuxK	_	t_3740|e_90|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4830,7 +4830,7 @@
 13	καὶ	καί	c	c--------	_	8	COORD	_	t_3753|t_3748|ref=carn._19
 14	ἥμισυ	ἥμισυς	a	a-s---na-	Case=a|Gender=n|Number=s	13	ADV	_	t_3754|t_3753|ref=carn._19
 15	ἑβδομάδος	ἑβδομάς	a	a-s---mg-	Case=g|Gender=f|Number=s	13	ATR	_	t_3755|t_3753|ref=carn._19
-16	[0]	[0]	-	---------	_	0	PRED	_	e_91|0|ref=carn._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_91|0|ref=carn._19
 17	.	.	u	u--------	_	16	AuxK	_	t_3756|e_91|ref=carn._19
 
 # source = Hippocrates, carn._19
@@ -4964,7 +4964,7 @@
 7	ἐλέγξαι	ἐλέγχω	v	v--ana---	Mood=n|Tense=a|Voice=a	4	OBJ	_	t_3862|t_3859|ref=carn._19
 8	,	,	u	u--------	_	10	AuxX	_	t_3863|e_92|ref=carn._19
 9	ῥηΐδιον	ῥᾴδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_3864|e_92|ref=carn._19
-10	[0]	[0]	-	---------	_	0	PRED	_	e_92|0|ref=carn._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_92|0|ref=carn._19
 11	·	·	u	u--------	_	10	AuxK	_	t_3865|e_92|ref=carn._19
 
 # source = Hippocrates, carn._19

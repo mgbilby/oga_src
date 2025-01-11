@@ -170,11 +170,11 @@
 48	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Scyth._1
 49	.	.	u	u--------	_	48	AuxK	_	t_154|e_2|ref=Scyth._1
 
-# source = Lucian of Samosata, Scyth._1-2
+# source = Lucian of Samosata, Scyth._2
 # text = κατὰ τὸν λοιμον τὸν μέγαν ἔδοξεν ἡ Ἀρχιτέλους γυνή , Ἀρεοπαγίτου ἀνδρός , ἐπιστάντα οἱ τὸν Σκύθην κελεῦσαι εἰπεῖν Ἀθηναίοις ὅτι παύσονται τῷ λοιμῷ ἐχόμενοι , ἢν τοὺς στενωποὺς οἴνῳ πολλῷ ῥάνωσι .
 # sent_id = 5
-1	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_155|t_160|ref=Scyth._1
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_156|t_157|ref=Scyth._1
+1	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_155|t_160|ref=Scyth._2
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_156|t_157|ref=Scyth._2
 3	λοιμον	λοιμός	n	n-s---ma-	Case=a|Gender=m|Number=s	1	ADV	_	t_157|t_155|ref=Scyth._2
 4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_158|t_157|ref=Scyth._2
 5	μέγαν	μέγας	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_159|t_157|ref=Scyth._2
@@ -253,8 +253,8 @@
 41	ὤν	εἰμί	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	43	ADV	_	t_228|t_230|ref=Scyth._2
 42	,	,	u	u--------	_	7	AuxX	_	t_229|t_194|ref=Scyth._2
 43	συνεβούλευσεν	συμβουλεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	28	ADV	_	t_230|t_215|ref=Scyth._2
-44	[0]	[0]	-	---------	_	17	ADV	_	e_3|t_204|ref=Scyth._1
-45	[1]	[1]	-	---------	_	28	ADV	_	e_4|t_215|ref=Scyth._1
+44	[0]	[0]	-	---------	_	17	ADV	_	e_3|t_204|ref=Scyth._2
+45	[1]	[1]	-	---------	_	28	ADV	_	e_4|t_215|ref=Scyth._2
 46	.	.	u	u--------	_	7	AuxK	_	t_231|t_194|ref=Scyth._2
 
 # source = Lucian of Samosata, Scyth._2
@@ -436,17 +436,17 @@
 26	ἰάσατο	ἰάομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	19	ATR	_	t_385|t_378|ref=Scyth._2
 27	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	28	ATR	_	t_386|t_387|ref=Scyth._2
 28	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	26	OBJ	_	t_387|t_385|ref=Scyth._2
-29	[0]	[0]	-	---------	_	16	PRED	_	e_5|t_375|ref=Scyth._1
+29	[0]	[0]	-	---------	_	16	PRED	_	e_5|t_375|ref=Scyth._2
 30	.	.	u	u--------	_	6	AuxK	_	t_388|t_365|ref=Scyth._2
 
-# source = Lucian of Samosata, Scyth._2-3
+# source = Lucian of Samosata, Scyth._3
 # text = ἀλλὰ γὰρ οὗπερ ἕνεκα ἐμνήσθην αὐτοῦ , ἔζη μὲν ἔτι ὸ Τόξαρις , ὁ Ἀνάχαρσις δὲ ἄρτι καταπεπλευκὼς ἀνῄει ἐκ Πειραιῶς , οἷα δὴ ξένος καὶ βάρβαρος οὐ μετρίως τεταραγμένος ἔτι τὴν γνώμην , πάντα ἀγνοῶν , ψοφοδεὴς πρὸς τὰ πολλά , οὐκ ἔχων ὅ τι χρήσαιτο ἑαυτῷ ·
 # sent_id = 13
-1	ἀλλὰ	ἀλλά	d	d--------	_	16	AuxY	_	t_389|t_404|ref=Scyth._2
-2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_390|t_404|ref=Scyth._2
-3	οὗπερ	οὗπερ	p	p-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_391|t_392|ref=Scyth._2
-4	ἕνεκα	ἕνεκα	r	r--------	_	5	AuxP	_	t_392|t_393|ref=Scyth._2
-5	ἐμνήσθην	μιμνήσκω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	8	ADV	_	t_393|t_396|ref=Scyth._2
+1	ἀλλὰ	ἀλλά	d	d--------	_	16	AuxY	_	t_389|t_404|ref=Scyth._3
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_390|t_404|ref=Scyth._3
+3	οὗπερ	οὗπερ	p	p-s---ng-	Case=g|Gender=n|Number=s	4	ADV	_	t_391|t_392|ref=Scyth._3
+4	ἕνεκα	ἕνεκα	r	r--------	_	5	AuxP	_	t_392|t_393|ref=Scyth._3
+5	ἐμνήσθην	μιμνήσκω	v	v1saip---	Mood=i|Number=s|Person=1|Tense=a|Voice=p	8	ADV	_	t_393|t_396|ref=Scyth._3
 6	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_394|t_393|ref=Scyth._3
 7	,	,	u	u--------	_	0	AuxX	_	t_395|0|ref=Scyth._3
 8	ἔζη	ζάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	16	PRED	_	t_396|t_404|ref=Scyth._3
@@ -652,14 +652,14 @@
 5	χρόνου	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	OBJ	_	t_576|t_574|ref=Scyth._3
 6	.	.	u	u--------	_	2	AuxK	_	t_577|t_573|ref=Scyth._3
 
-# source = Lucian of Samosata, Scyth._3-4
+# source = Lucian of Samosata, Scyth._4
 # text = ἀλλὰ Τόξαρις Σκυθιστὶ προσειπὼν αὐτόν , Οὐ σύ , ἔφη , Ἀνάχαρσις ὢν τυγχάνεις ὁ Δαυκέτου [0] ;
 # sent_id = 19
-1	ἀλλὰ	ἀλλά	c	c--------	_	10	AuxY	_	t_578|t_587|ref=Scyth._3
-2	Τόξαρις	τόξαρις	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_579|t_587|ref=Scyth._3
-3	Σκυθιστὶ	σκυθιστί	d	d--------	_	4	ADV	_	t_580|t_581|ref=Scyth._3
-4	προσειπὼν	προσεῖπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_581|t_587|ref=Scyth._3
-5	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_582|t_581|ref=Scyth._3
+1	ἀλλὰ	ἀλλά	c	c--------	_	10	AuxY	_	t_578|t_587|ref=Scyth._4
+2	Τόξαρις	τόξαρις	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_579|t_587|ref=Scyth._4
+3	Σκυθιστὶ	σκυθιστί	d	d--------	_	4	ADV	_	t_580|t_581|ref=Scyth._4
+4	προσειπὼν	προσεῖπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_581|t_587|ref=Scyth._4
+5	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_582|t_581|ref=Scyth._4
 6	,	,	u	u--------	_	17	AuxX	_	t_583|e_6|ref=Scyth._4
 7	Οὐ	οὐ	d	d--------	_	17	AuxZ	_	t_584|e_6|ref=Scyth._4
 8	σύ	σύ	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_585|e_6|ref=Scyth._4
@@ -671,7 +671,7 @@
 14	τυγχάνεις	τυγχάνω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	12	ATR	_	t_591|t_589|ref=Scyth._4
 15	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	16	ATR	_	t_592|t_593|ref=Scyth._4
 16	Δαυκέτου	δάσκιος	n	n-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_593|t_589|ref=Scyth._4
-17	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Scyth._1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Scyth._4
 18	;	;	u	u--------	_	17	AuxK	_	t_594|e_6|ref=Scyth._4
 
 # source = Lucian of Samosata, Scyth._4
@@ -954,15 +954,15 @@
 70	ἀναστρέψοντα	ἀναστρέφω	v	v-sfpama-	Case=a|Gender=m|Mood=p|Number=s|Tense=f|Voice=a	67	ADV	_	t_845|t_842|ref=Scyth._4
 71	.	.	u	u--------	_	6	AuxK	_	t_846|t_781|ref=Scyth._4
 
-# source = Lucian of Samosata, Scyth._4-5
+# source = Lucian of Samosata, Scyth._5
 # text = τοῦτο μέν , ἔφη ὁ Τόξαρις , ἥκιστα ἐρωτικὸν εἴρηκας , ἐπὶ τὰς θύρας αὐτὰς ἐλθόντα οἴχεσθαι ἀπιόντα .
 # sent_id = 27
-1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_847|t_857|ref=Scyth._4
-2	μέν	μέν	d	d--------	_	10	AuxY	_	t_848|t_856|ref=Scyth._4
-3	,	,	u	u--------	_	10	AuxX	_	t_849|t_856|ref=Scyth._4
-4	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	10	AuxY	_	t_850|t_856|ref=Scyth._4
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_851|t_852|ref=Scyth._4
-6	Τόξαρις	τόξαρις	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_852|t_850|ref=Scyth._4
+1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_847|t_857|ref=Scyth._5
+2	μέν	μέν	d	d--------	_	10	AuxY	_	t_848|t_856|ref=Scyth._5
+3	,	,	u	u--------	_	10	AuxX	_	t_849|t_856|ref=Scyth._5
+4	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	10	AuxY	_	t_850|t_856|ref=Scyth._5
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_851|t_852|ref=Scyth._5
+6	Τόξαρις	τόξαρις	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_852|t_850|ref=Scyth._5
 7	,	,	u	u--------	_	10	AuxX	_	t_853|t_856|ref=Scyth._5
 8	ἥκιστα	ἥκιστος	a	a-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_854|t_856|ref=Scyth._5
 9	ἐρωτικὸν	ἐρωτικός	a	a-s---na-	Case=a|Gender=n|Number=s	10	OCOMP	_	t_855|t_856|ref=Scyth._5
@@ -1200,19 +1200,19 @@
 12	ἢ	ἤ1	c	c--------	_	7	AuxC	_	t_1051|t_1046|ref=Scyth._5
 13	συστήσας	συνίστημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	12	ADV	_	t_1052|t_1051|ref=Scyth._5
 14	ἐκείνῳ	ἐκεῖνος	p	p-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_1053|t_1052|ref=Scyth._5
-15	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Scyth._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Scyth._5
 16	.	.	u	u--------	_	15	AuxK	_	t_1054|e_7|ref=Scyth._5
 
-# source = Lucian of Samosata, Scyth._5-6
+# source = Lucian of Samosata, Scyth._6
 # text = μὴ τοίνυν μέλλωμεν , ἔφη , ὦ Τόξαρι , ὁ Ἀνάχαρσις , ἀλλά με λαβὼν ἄγε παρʼ αὐτόν ἀτὰρ ἐκεῖνο δέδια , μὴ δυσπρόσοδος καὶ ἐν παρέργῳ θῆται σου τὴν ἔντευξιν τὴν ὑπὲρ ἡμῶν .
 # sent_id = 37
-1	μὴ	μή	d	d--------	_	3	AuxZ	_	t_1055|t_1057|ref=Scyth._5
-2	τοίνυν	τοίνυν	d	d--------	_	5	AuxY	_	t_1056|t_1059|ref=Scyth._5
-3	μέλλωμεν	μέλλω	v	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	13	OBJ	_	t_1057|t_1067|ref=Scyth._5
-4	,	,	u	u--------	_	5	AuxX	_	t_1058|t_1059|ref=Scyth._5
-5	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1059|0|ref=Scyth._5
-6	,	,	u	u--------	_	5	AuxX	_	t_1060|t_1059|ref=Scyth._5
-7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_1061|t_1062|ref=Scyth._5
+1	μὴ	μή	d	d--------	_	3	AuxZ	_	t_1055|t_1057|ref=Scyth._6
+2	τοίνυν	τοίνυν	d	d--------	_	5	AuxY	_	t_1056|t_1059|ref=Scyth._6
+3	μέλλωμεν	μέλλω	v	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	13	OBJ	_	t_1057|t_1067|ref=Scyth._6
+4	,	,	u	u--------	_	5	AuxX	_	t_1058|t_1059|ref=Scyth._6
+5	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1059|0|ref=Scyth._6
+6	,	,	u	u--------	_	5	AuxX	_	t_1060|t_1059|ref=Scyth._6
+7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_1061|t_1062|ref=Scyth._6
 8	Τόξαρι	τόξον	n	n-s---mv-	Case=v|Gender=m|Number=s	3	ExD	_	t_1062|t_1057|ref=Scyth._6
 9	,	,	u	u--------	_	5	AuxX	_	t_1063|t_1059|ref=Scyth._6
 10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_1064|t_1065|ref=Scyth._6
@@ -1290,7 +1290,7 @@
 12	ἐπιείκεια	ἐπιείκεια	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1124|t_1125|ref=Scyth._6
 13	καὶ	καί	c	c--------	_	15	COORD	_	t_1125|e_8|ref=Scyth._6
 14	χρηστότης	χρηστότης	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1126|t_1125|ref=Scyth._6
-15	[0]	[0]	-	---------	_	1	SBJ	_	e_8|t_1113|ref=Scyth._1
+15	[0]	[0]	-	---------	_	1	SBJ	_	e_8|t_1113|ref=Scyth._6
 16	.	.	u	u--------	_	1	AuxK	_	t_1127|t_1113|ref=Scyth._6
 
 # source = Lucian of Samosata, Scyth._6
@@ -1339,17 +1339,17 @@
 20	δεόμενον	δέω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	18	ATR	_	t_1164|t_1162|ref=Scyth._6
 21	.	.	u	u--------	_	14	AuxK	_	t_1165|t_1158|ref=Scyth._6
 
-# source = Lucian of Samosata, Scyth._6-7
+# source = Lucian of Samosata, Scyth._7
 # text = Σκύθης δέ ἐστι τῶν παρʼ ἡμῖν εὐπατριδῶν , καὶ ὅμως τ ἀκεῖ πάντα ἀφεὶς ἥκει συνεσόμενος ὑμῖν καὶ τὰ κάλλιστα ὀψόμενος τῆς Ἑλλάδος , κ ἀγὼ ἐπίτομόν τινα ταύτην ἐξεῦρον αὐτῷ , ὅπως ῥᾷστα καὶ αὐτὸς μάθοι πάντα καὶ γνώριμος γένοιτο τοῖς ἀρίστοις ·
 # sent_id = 43
-1	Σκύθης	σκύθης	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1166|t_1168|ref=Scyth._6
-2	δέ	δέ	d	d--------	_	25	AuxY	_	t_1167|t_1190|ref=Scyth._6
-3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	PRED	_	t_1168|t_1190|ref=Scyth._6
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1169|t_1172|ref=Scyth._6
-5	παρʼ	παρά	r	r--------	_	7	AuxP	_	t_1170|t_1172|ref=Scyth._6
-6	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	5	ADV	_	t_1171|t_1170|ref=Scyth._6
-7	εὐπατριδῶν	εὐπατρίδης	a	a-p---mg-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	PNOM	_	t_1172|t_1168|ref=Scyth._6
-8	,	,	u	u--------	_	0	AuxX	_	t_1173|0|ref=Scyth._6
+1	Σκύθης	σκύθης	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1166|t_1168|ref=Scyth._7
+2	δέ	δέ	d	d--------	_	25	AuxY	_	t_1167|t_1190|ref=Scyth._7
+3	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	PRED	_	t_1168|t_1190|ref=Scyth._7
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1169|t_1172|ref=Scyth._7
+5	παρʼ	παρά	r	r--------	_	7	AuxP	_	t_1170|t_1172|ref=Scyth._7
+6	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	5	ADV	_	t_1171|t_1170|ref=Scyth._7
+7	εὐπατριδῶν	εὐπατρίδης	a	a-p---mg-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	PNOM	_	t_1172|t_1168|ref=Scyth._7
+8	,	,	u	u--------	_	0	AuxX	_	t_1173|0|ref=Scyth._7
 9	καὶ	καί	c	c--------	_	25	AuxY	_	t_1174|t_1190|ref=Scyth._7
 10	ὅμως	ὅμως	d	d--------	_	15	AuxY	_	t_1175|t_1180|ref=Scyth._7
 11	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_1176|t_1177|ref=Scyth._7
@@ -1463,7 +1463,7 @@
 10	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_1268|t_1270|ref=Scyth._7
 11	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	12	OBJ	_	t_1269|t_1270|ref=Scyth._7
 12	φιλοῦσι	φιλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	9	PRED	_	t_1270|t_1267|ref=Scyth._7
-13	[0]	[0]	-	---------	_	9	PRED	_	e_9|t_1267|ref=Scyth._1
+13	[0]	[0]	-	---------	_	9	PRED	_	e_9|t_1267|ref=Scyth._7
 14	.	.	u	u--------	_	5	AuxK	_	t_1271|t_1263|ref=Scyth._7
 
 # source = Lucian of Samosata, Scyth._7
@@ -1520,7 +1520,7 @@
 10	φιλοσοφίας	φιλοσοφία	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1308|t_1306|ref=Scyth._7
 11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1309|t_1308|ref=Scyth._7
 12	Ἀττικῆς	ἀττική	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1310|t_1308|ref=Scyth._7
-13	[0]	[0]	-	---------	_	6	PRED	_	e_10|t_1304|ref=Scyth._1
+13	[0]	[0]	-	---------	_	6	PRED	_	e_10|t_1304|ref=Scyth._7
 14	.	.	u	u--------	_	6	AuxK	_	t_1311|t_1304|ref=Scyth._7
 
 # source = Lucian of Samosata, Scyth._7
@@ -1542,19 +1542,19 @@
 14	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_1325|t_1324|ref=Scyth._7
 15	.	.	u	u--------	_	3	AuxK	_	t_1326|t_1314|ref=Scyth._7
 
-# source = Lucian of Samosata, Scyth._7-8
+# source = Lucian of Samosata, Scyth._8
 # text = μακρὸν ἂν εἴη διηγήσασθαι , ὅπως μὲν ἥσθη ὁ Σόλων τῷ δώρῳ , οἷα δὲ εἶπεν , ὡς δὲ τὸ λοιπὸν συνῆσαν , ὁ μὲν παιδεύων καὶ διδάσκων τὰ κάλλιστα , ὁ Σόλων , καὶ φίλον ἅπασι ποιῶν τὸν Ἀνάχαρσιν καὶ προσάγων τοῖς Ελλήνων καλοῖς καὶ πάντα τρόπον ἐπιμελούμενος , ὅπως ἥδιστα διατρίψῃ ἐν τῇ Ἑλλάδι , ὁ δὲ τεθηπὼς τὴν σοφίαν αὐτοῦ καὶ μη δὲ τὸν ἕτερον πόδα ἑκὼν εἶναι ἀπολειπόμενος [0] [1] [2] .
 # sent_id = 53
-1	μακρὸν	μακρός	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_1327|t_1329|ref=Scyth._7
-2	ἂν	ἄν	d	d--------	_	3	AuxY	_	t_1328|t_1329|ref=Scyth._7
-3	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1329|0|ref=Scyth._7
-4	διηγήσασθαι	διηγέομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	3	SBJ	_	t_1330|t_1329|ref=Scyth._7
-5	,	,	u	u--------	_	3	AuxX	_	t_1331|t_1329|ref=Scyth._7
-6	ὅπως	ὅπως	c	c--------	_	15	AuxC	_	t_1332|t_1341|ref=Scyth._7
-7	μὲν	μέν	d	d--------	_	15	AuxY	_	t_1333|t_1341|ref=Scyth._7
-8	ἥσθη	ἥδομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	15	OBJ	_	t_1334|t_1341|ref=Scyth._7
-9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1335|t_1336|ref=Scyth._7
-10	Σόλων	σόλων	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_1336|t_1334|ref=Scyth._7
+1	μακρὸν	μακρός	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_1327|t_1329|ref=Scyth._8
+2	ἂν	ἄν	d	d--------	_	3	AuxY	_	t_1328|t_1329|ref=Scyth._8
+3	εἴη	εἰμί	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1329|0|ref=Scyth._8
+4	διηγήσασθαι	διηγέομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	3	SBJ	_	t_1330|t_1329|ref=Scyth._8
+5	,	,	u	u--------	_	3	AuxX	_	t_1331|t_1329|ref=Scyth._8
+6	ὅπως	ὅπως	c	c--------	_	15	AuxC	_	t_1332|t_1341|ref=Scyth._8
+7	μὲν	μέν	d	d--------	_	15	AuxY	_	t_1333|t_1341|ref=Scyth._8
+8	ἥσθη	ἥδομαι	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	15	OBJ	_	t_1334|t_1341|ref=Scyth._8
+9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	10	ATR	_	t_1335|t_1336|ref=Scyth._8
+10	Σόλων	σόλων	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_1336|t_1334|ref=Scyth._8
 11	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	12	ATR	_	t_1337|t_1338|ref=Scyth._8
 12	δώρῳ	δῶρον	n	n-s---nd-	Case=d|Gender=n|Number=s	8	OBJ	_	t_1338|t_1334|ref=Scyth._8
 13	,	,	u	u--------	_	3	AuxX	_	t_1339|t_1329|ref=Scyth._8
@@ -1617,9 +1617,9 @@
 70	ἑκὼν	ἑκών	a	a-s---mn-	Case=n|Gender=m|Number=s	72	AtvV	_	t_1396|t_1398|ref=Scyth._8
 71	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	72	OBJ	_	t_1397|t_1398|ref=Scyth._8
 72	ἀπολειπόμενος	ἀπολιμπάνω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	64	PNOM	_	t_1398|t_1390|ref=Scyth._8
-73	[0]	[0]	-	---------	_	19	OBJ	_	e_11|t_1345|ref=Scyth._1
-74	[1]	[1]	-	---------	_	59	OBJ	_	e_12|t_1385|ref=Scyth._1
-75	[2]	[2]	-	---------	_	59	OBJ	_	e_13|t_1385|ref=Scyth._1
+73	[0]	[0]	-	---------	_	19	OBJ	_	e_11|t_1345|ref=Scyth._8
+74	[1]	[1]	-	---------	_	59	OBJ	_	e_12|t_1385|ref=Scyth._8
+75	[2]	[2]	-	---------	_	59	OBJ	_	e_13|t_1385|ref=Scyth._8
 76	.	.	u	u--------	_	3	AuxK	_	t_1399|t_1329|ref=Scyth._8
 
 # source = Lucian of Samosata, Scyth._8
@@ -1728,22 +1728,22 @@
 16	ἀπέθανε	ἀποθνήσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	13	ADV	_	t_1488|t_1485|ref=Scyth._8
 17	.	.	u	u--------	_	6	AuxK	_	t_1489|t_1478|ref=Scyth._8
 
-# source = Lucian of Samosata, Scyth._8-9
+# source = Lucian of Samosata, Scyth._9
 # text = βούλεσθε οὖν ἤδη ἐπαγάγω τῷ μύθῳ τὸ τέλος , ὡς μὴ ἀκέφαλος περινοστοίη ;
 # sent_id = 58
-1	βούλεσθε	βούλομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_1490|0|ref=Scyth._8
-2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_1491|t_1490|ref=Scyth._8
-3	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_1492|t_1493|ref=Scyth._8
-4	ἐπαγάγω	ἐπάγω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	1	OBJ	_	t_1493|t_1490|ref=Scyth._8
-5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1494|t_1495|ref=Scyth._8
-6	μύθῳ	μῦθος	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1495|t_1493|ref=Scyth._8
-7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1496|t_1497|ref=Scyth._8
-8	τέλος	τέλος	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1497|t_1493|ref=Scyth._8
-9	,	,	u	u--------	_	1	AuxX	_	t_1498|t_1490|ref=Scyth._8
-10	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_1499|t_1493|ref=Scyth._8
-11	μὴ	μή	d	d--------	_	13	AuxZ	_	t_1500|t_1502|ref=Scyth._8
-12	ἀκέφαλος	ἀκέφαλος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	AtvV	_	t_1501|t_1502|ref=Scyth._8
-13	περινοστοίη	περινοστέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_1502|t_1499|ref=Scyth._8
+1	βούλεσθε	βούλομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_1490|0|ref=Scyth._9
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_1491|t_1490|ref=Scyth._9
+3	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_1492|t_1493|ref=Scyth._9
+4	ἐπαγάγω	ἐπάγω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	1	OBJ	_	t_1493|t_1490|ref=Scyth._9
+5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_1494|t_1495|ref=Scyth._9
+6	μύθῳ	μῦθος	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1495|t_1493|ref=Scyth._9
+7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1496|t_1497|ref=Scyth._9
+8	τέλος	τέλος	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1497|t_1493|ref=Scyth._9
+9	,	,	u	u--------	_	1	AuxX	_	t_1498|t_1490|ref=Scyth._9
+10	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_1499|t_1493|ref=Scyth._9
+11	μὴ	μή	d	d--------	_	13	AuxZ	_	t_1500|t_1502|ref=Scyth._9
+12	ἀκέφαλος	ἀκέφαλος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	AtvV	_	t_1501|t_1502|ref=Scyth._9
+13	περινοστοίη	περινοστέω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	10	ADV	_	t_1502|t_1499|ref=Scyth._9
 14	;	;	u	u--------	_	1	AuxK	_	t_1503|t_1490|ref=Scyth._9
 
 # source = Lucian of Samosata, Scyth._9
@@ -1773,7 +1773,7 @@
 22	ἄνδρα	ἀνήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	20	ATR	_	t_1525|t_1523|ref=Scyth._9
 23	ἐπαγομενω	ἐπαγω	v	v-sppemg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	20	ATR	_	t_1526|t_1523|ref=Scyth._9
 24	Ἀθήνηθεν	ἀθῆναι	d	d--------	_	23	ADV	_	t_1527|t_1526|ref=Scyth._9
-25	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Scyth._1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Scyth._9
 26	.	.	u	u--------	_	25	AuxK	_	t_1528|e_14|ref=Scyth._9
 
 # source = Lucian of Samosata, Scyth._9
@@ -1826,7 +1826,7 @@
 15	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_1569|t_1563|ref=Scyth._9
 16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_1570|t_1571|ref=Scyth._9
 17	Σκυθῶν	σκύθης	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_1571|t_1568|ref=Scyth._9
-18	[0]	[0]	-	---------	_	6	PRED	_	e_15|t_1560|ref=Scyth._1
+18	[0]	[0]	-	---------	_	6	PRED	_	e_15|t_1560|ref=Scyth._9
 19	.	.	u	u--------	_	6	AuxK	_	t_1572|t_1560|ref=Scyth._9
 
 # source = Lucian of Samosata, Scyth._9
@@ -1941,24 +1941,24 @@
 22	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_1667|t_1666|ref=Scyth._9
 23	.	.	u	u--------	_	2	AuxK	_	t_1668|t_1647|ref=Scyth._9
 
-# source = Lucian of Samosata, Scyth._9-10
+# source = Lucian of Samosata, Scyth._10
 # text = οὕτω δὴ ἔχων ἐσκοπούμην ἤδη περὶ τῶν πρακτέων , καὶ το μὲν δεῖξαι τῶν λόγων ὑμῖν πάλαι ἐδέδοκτο .
 # sent_id = 66
-1	οὕτω	οὕτως	d	d--------	_	3	ADV	_	t_1669|t_1671|ref=Scyth._9
-2	δὴ	δή	d	d--------	_	10	AuxY	_	t_1670|t_1678|ref=Scyth._9
-3	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_1671|t_1672|ref=Scyth._9
-4	ἐσκοπούμην	σκοπέω	v	v1siie---	Mood=i|Number=s|Person=1|Tense=i|Voice=e	10	PRED	_	t_1672|t_1678|ref=Scyth._9
-5	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_1673|t_1672|ref=Scyth._9
-6	περὶ	περί	r	r--------	_	4	AuxP	_	t_1674|t_1672|ref=Scyth._9
-7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1675|t_1676|ref=Scyth._9
-8	πρακτέων	πρακτέος	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_1676|t_1674|ref=Scyth._9
-9	,	,	u	u--------	_	0	AuxX	_	t_1677|0|ref=Scyth._9
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_1678|t_1677|ref=Scyth._9
-11	το	το	l	l-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_1679|t_1681|ref=Scyth._9
-12	μὲν	μέν	d	d--------	_	18	AuxY	_	t_1680|t_1686|ref=Scyth._9
-13	δεῖξαι	δείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_1681|t_1686|ref=Scyth._9
-14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_1682|t_1683|ref=Scyth._9
-15	λόγων	λόγος	n	n-p---mg-	Case=g|Gender=m|Number=p	13	OBJ	_	t_1683|t_1681|ref=Scyth._9
+1	οὕτω	οὕτως	d	d--------	_	3	ADV	_	t_1669|t_1671|ref=Scyth._10
+2	δὴ	δή	d	d--------	_	10	AuxY	_	t_1670|t_1678|ref=Scyth._10
+3	ἔχων	ἔχω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	4	ADV	_	t_1671|t_1672|ref=Scyth._10
+4	ἐσκοπούμην	σκοπέω	v	v1siie---	Mood=i|Number=s|Person=1|Tense=i|Voice=e	10	PRED	_	t_1672|t_1678|ref=Scyth._10
+5	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_1673|t_1672|ref=Scyth._10
+6	περὶ	περί	r	r--------	_	4	AuxP	_	t_1674|t_1672|ref=Scyth._10
+7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1675|t_1676|ref=Scyth._10
+8	πρακτέων	πρακτέος	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_1676|t_1674|ref=Scyth._10
+9	,	,	u	u--------	_	0	AuxX	_	t_1677|0|ref=Scyth._10
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_1678|t_1677|ref=Scyth._10
+11	το	το	l	l-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_1679|t_1681|ref=Scyth._10
+12	μὲν	μέν	d	d--------	_	18	AuxY	_	t_1680|t_1686|ref=Scyth._10
+13	δεῖξαι	δείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	18	OBJ	_	t_1681|t_1686|ref=Scyth._10
+14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_1682|t_1683|ref=Scyth._10
+15	λόγων	λόγος	n	n-p---mg-	Case=g|Gender=m|Number=p	13	OBJ	_	t_1683|t_1681|ref=Scyth._10
 16	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_1684|t_1686|ref=Scyth._10
 17	πάλαι	πάλαι	d	d--------	_	18	ADV	_	t_1685|t_1686|ref=Scyth._10
 18	ἐδέδοκτο	δοκέω	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	10	PRED	_	t_1686|t_1678|ref=Scyth._10
@@ -2043,8 +2043,8 @@
 28	αὐταῖς	αὐτός	a	a-p---fd-	Case=d|Gender=f|Number=p	29	ATR	_	t_1753|t_1754|ref=Scyth._10
 29	συλλαβαῖς	συλλαβή	n	n-p---fd-	Case=d|Gender=f|Number=p	30	ADV	_	t_1754|t_1755|ref=Scyth._10
 30	ἔλεγον	λέγω3	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	21	PRED	_	t_1755|t_1746|ref=Scyth._10
-31	[0]	[0]	-	---------	_	6	ADV	_	e_16|t_1731|ref=Scyth._1
-32	[1]	[1]	-	---------	_	6	ADV	_	e_17|t_1731|ref=Scyth._1
+31	[0]	[0]	-	---------	_	6	ADV	_	e_16|t_1731|ref=Scyth._10
+32	[1]	[1]	-	---------	_	6	ADV	_	e_17|t_1731|ref=Scyth._10
 33	·	·	u	u--------	_	5	AuxK	_	t_1756|t_1730|ref=Scyth._10
 
 # source = Lucian of Samosata, Scyth._10
@@ -2099,7 +2099,7 @@
 47	δεκάδι	δεκάς	a	a-s---fd-	Case=d|Gender=f|Number=s	48	ADV	_	t_1803|t_1804|ref=Scyth._10
 48	παραβάλλοις	παραβάλλω	v	v2spoa---	Mood=o|Number=s|Person=2|Tense=p|Voice=a	41	PRED	_	t_1804|t_1797|ref=Scyth._10
 49	ἄν	ἄν	d	d--------	_	48	AuxY	_	t_1805|t_1804|ref=Scyth._10
-50	[0]	[0]	-	---------	_	15	PRED	_	e_18|t_1771|ref=Scyth._1
+50	[0]	[0]	-	---------	_	15	PRED	_	e_18|t_1771|ref=Scyth._10
 51	·	·	u	u--------	_	3	AuxK	_	t_1806|t_1759|ref=Scyth._10
 
 # source = Lucian of Samosata, Scyth._10
@@ -2180,27 +2180,27 @@
 34	ὕστερον	ὕστερος	a	a-s---na-	Case=a|Gender=n|Number=s	31	ADV	_	t_1871|t_1868|ref=Scyth._10
 35	.	.	u	u--------	_	31	AuxK	_	t_1872|t_1868|ref=Scyth._10
 
-# source = Lucian of Samosata, Scyth._10-11
+# source = Lucian of Samosata, Scyth._11
 # text = καὶ ὡς μᾶλλον θαυμάσῃς , μιᾶς καὶ τῆς αὐτῆς οἰκίας ἐστόν , υἱὸς καὶ πατήρ , ὁ μέν , εἴ τινα Σόλωνα ἢ Περικλέα ἢ Ἀριστείδην ἐπινοεῖς , ὁ δὲ υἱὸς καὶ ὀφθεὶς μὲν αὐτίκα ἐπάξεταί σε , οὕτω μέγας ἐστὶ καὶ καλὸς ἀρρενωπήν τινα τὴν εὐμορφίαν [0] ·
 # sent_id = 74
-1	καὶ	καί	c	c--------	_	41	AuxY	_	t_1873|t_1913|ref=Scyth._10
-2	ὡς	ὡς	c	c--------	_	41	AuxC	_	t_1874|t_1913|ref=Scyth._10
-3	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	4	ADV	_	t_1875|t_1876|ref=Scyth._10
-4	θαυμάσῃς	θαυμάζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	2	ADV	_	t_1876|t_1874|ref=Scyth._10
-5	,	,	u	u--------	_	41	AuxX	_	t_1877|t_1913|ref=Scyth._10
-6	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1878|t_1882|ref=Scyth._10
-7	καὶ	καί	c	c--------	_	10	COORD	_	t_1879|t_1882|ref=Scyth._10
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1880|t_1882|ref=Scyth._10
-9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1881|t_1882|ref=Scyth._10
-10	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_1882|t_1876|ref=Scyth._10
-11	ἐστόν	εἰμί	v	v1siia---	Case=a|Gender=m|Number=s	41	ADV	_	t_1883|t_1913|ref=Scyth._10
-12	,	,	u	u--------	_	41	AuxX	_	t_1884|t_1913|ref=Scyth._10
-13	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1885|t_1886|ref=Scyth._10
-14	καὶ	καί	c	c--------	_	11	COORD	_	t_1886|t_1883|ref=Scyth._10
-15	πατήρ	πατήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1887|t_1886|ref=Scyth._10
-16	,	,	u	u--------	_	41	AuxX	_	t_1888|t_1913|ref=Scyth._10
-17	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	41	SBJ	_	t_1889|t_1913|ref=Scyth._10
-18	μέν	μέν	d	d--------	_	41	AuxY	_	t_1890|t_1913|ref=Scyth._10
+1	καὶ	καί	c	c--------	_	41	AuxY	_	t_1873|t_1913|ref=Scyth._11
+2	ὡς	ὡς	c	c--------	_	41	AuxC	_	t_1874|t_1913|ref=Scyth._11
+3	μᾶλλον	μᾶλλον	d	d-------c	Degree=c	4	ADV	_	t_1875|t_1876|ref=Scyth._11
+4	θαυμάσῃς	θαυμάζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	2	ADV	_	t_1876|t_1874|ref=Scyth._11
+5	,	,	u	u--------	_	41	AuxX	_	t_1877|t_1913|ref=Scyth._11
+6	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1878|t_1882|ref=Scyth._11
+7	καὶ	καί	c	c--------	_	10	COORD	_	t_1879|t_1882|ref=Scyth._11
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1880|t_1882|ref=Scyth._11
+9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1881|t_1882|ref=Scyth._11
+10	οἰκίας	οἰκία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_1882|t_1876|ref=Scyth._11
+11	ἐστόν	εἰμί	v	v1siia---	Case=a|Gender=m|Number=s	41	ADV	_	t_1883|t_1913|ref=Scyth._11
+12	,	,	u	u--------	_	41	AuxX	_	t_1884|t_1913|ref=Scyth._11
+13	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1885|t_1886|ref=Scyth._11
+14	καὶ	καί	c	c--------	_	11	COORD	_	t_1886|t_1883|ref=Scyth._11
+15	πατήρ	πατήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_1887|t_1886|ref=Scyth._11
+16	,	,	u	u--------	_	41	AuxX	_	t_1888|t_1913|ref=Scyth._11
+17	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	41	SBJ	_	t_1889|t_1913|ref=Scyth._11
+18	μέν	μέν	d	d--------	_	41	AuxY	_	t_1890|t_1913|ref=Scyth._11
 19	,	,	u	u--------	_	41	AuxX	_	t_1891|t_1913|ref=Scyth._11
 20	εἴ	εἰ	c	c--------	_	41	AuxC	_	t_1892|t_1913|ref=Scyth._11
 21	τινα	τις	a	a-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_1893|t_1897|ref=Scyth._11
@@ -2230,7 +2230,7 @@
 45	τινα	τις	p	p-s---ca-	Case=a|Gender=c|Number=s	47	ATR	_	t_1917|t_1919|ref=Scyth._11
 46	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	47	ATR	_	t_1918|t_1919|ref=Scyth._11
 47	εὐμορφίαν	εὐμορφία	n	n-s---fa-	Case=a|Gender=f|Number=s	44	ADV	_	t_1919|t_1916|ref=Scyth._11
-48	[0]	[0]	-	---------	_	30	ADV	_	e_19|t_1902|ref=Scyth._1
+48	[0]	[0]	-	---------	_	30	ADV	_	e_19|t_1902|ref=Scyth._11
 49	·	·	u	u--------	_	41	AuxK	_	t_1920|t_1913|ref=Scyth._11
 
 # source = Lucian of Samosata, Scyth._11
@@ -2369,7 +2369,7 @@
 31	ἐνδοιάσιμα	ἐνδοιάσιμος	a	a-p---na-	Case=n|Gender=n|Number=p	34	PNOM	_	t_2043|e_20|ref=Scyth._11
 32	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	33	ATR	_	t_2044|t_2045|ref=Scyth._11
 33	σά	σός	a	a-p---na-	Case=a|Gender=n|Number=p	34	SBJ	_	t_2045|e_20|ref=Scyth._11
-34	[0]	[0]	-	---------	_	29	PRED	_	e_20|t_2041|ref=Scyth._1
+34	[0]	[0]	-	---------	_	29	PRED	_	e_20|t_2041|ref=Scyth._11
 35	.	.	u	u--------	_	14	AuxK	_	t_2046|t_2026|ref=Scyth._11
 
 # source = Lucian of Samosata, Scyth._11
@@ -2436,7 +2436,7 @@
 29	ἡμῖν	ἐγώ	p	p1p---cd-	Case=d|Gender=c|Number=p|Person=1	28	ATR	_	t_2101|t_2100|ref=Scyth._11
 30	τοιοῦτοι	τοιοῦτος	p	p-p---mn-	Case=n|Gender=m|Number=p	31	SBJ	_	t_2102|t_2103|ref=Scyth._11
 31	γένοιντο	γίγνομαι	v	v3paom---	Mood=o|Number=p|Person=3|Tense=a|Voice=m	27	ADV	_	t_2103|t_2099|ref=Scyth._11
-32	[0]	[0]	-	---------	_	14	PRED	_	e_21|t_2086|ref=Scyth._1
+32	[0]	[0]	-	---------	_	14	PRED	_	e_21|t_2086|ref=Scyth._11
 33	·	·	u	u--------	_	8	AuxK	_	t_2104|t_2080|ref=Scyth._11
 
 # source = Lucian of Samosata, Scyth._11
@@ -2460,6 +2460,6 @@
 16	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	17	ATR	_	t_2120|t_2121|ref=Scyth._11
 17	λιμὴν	λιμήν	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_2121|t_2119|ref=Scyth._11
 18	πλησίον	πλησίος	d	d--------	_	17	ATR	_	t_2122|t_2121|ref=Scyth._11
-19	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Scyth._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Scyth._11
 20	.	.	u	u--------	_	19	AuxK	_	t_2123|e_22|ref=Scyth._11
 

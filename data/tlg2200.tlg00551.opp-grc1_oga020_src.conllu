@@ -91,10 +91,10 @@
 20	ἀφείλετο	ἀφαιρέω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	3	PRED	_	t_67|t_50|ref=Declam. 51_1
 21	.	.	u	u--------	_	3	AuxK	_	t_68|t_50|ref=Declam. 51_1
 
-# source = Libanius, Declam. 51_1-2
+# source = Libanius, Declam. 51_2
 # text = ὢ πό - σαι με νύκτες οὐ δʼ ἄκροις ὀφθαλμοῖς τοῦ ὕπνου παρα - γευόμενον ἔγνωσαν .
 # sent_id = 7
-1	ὢ	ὦ	i	i--------	_	2	AuxZ	_	t_69|t_70|ref=Declam. 51_1
+1	ὢ	ὦ	i	i--------	_	2	AuxZ	_	t_69|t_70|ref=Declam. 51_2
 2	πό	πού	i	i--------	_	16	ExD	_	t_70|t_84|ref=Declam. 51_2
 3	-	-	u	u--------	_	16	AuxX	_	t_71|t_84|ref=Declam. 51_2
 4	σαι	σαι	p	p-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_72|t_74|ref=Declam. 51_2
@@ -159,10 +159,10 @@
 5	διαγέγονα	διαγίγνομαι	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_115|0|ref=Declam. 51_2
 6	.	.	u	u--------	_	5	AuxK	_	t_116|t_115|ref=Declam. 51_2
 
-# source = Libanius, Declam. 51_2-3
+# source = Libanius, Declam. 51_3
 # text = εἰ δʼ ἔστιν ὅτε μοι καὶ τροφῆς ἐδέησε μετασχεῖν , ἄρτος ἦν αὕτη καὶ οὗτος μέλας τε ἀκριβῶς καὶ κατε - σκληκώς , οὐ τῶν λίθων οὐδὲν ἢ βραχὺ διενηνοχώς .
 # sent_id = 12
-1	εἰ	εἰ	c	c--------	_	12	AuxC	_	t_117|t_128|ref=Declam. 51_2
+1	εἰ	εἰ	c	c--------	_	12	AuxC	_	t_117|t_128|ref=Declam. 51_3
 2	δʼ	δέ	d	d--------	_	12	AuxY	_	t_118|t_128|ref=Declam. 51_3
 3	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_119|t_117|ref=Declam. 51_3
 4	ὅτε	ὅτε	c	c--------	_	3	AuxC	_	t_120|t_119|ref=Declam. 51_3
@@ -212,7 +212,7 @@
 13	-	-	u	u--------	_	14	AuxG	_	t_160|t_161|ref=Declam. 51_3
 14	ησιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_161|0|ref=Declam. 51_3
 15	ἄφθονον	ἄφθονος	a	a-s---na-	Case=a|Gender=m|Number=s	14	PNOM	_	t_162|t_161|ref=Declam. 51_3
-16	[0]	[0]	-	---------	_	14	PRED	_	e_2|t_161|ref=Declam. 51_1
+16	[0]	[0]	-	---------	_	14	PRED	_	e_2|t_161|ref=Declam. 51_3
 17	.	.	u	u--------	_	14	AuxK	_	t_163|t_161|ref=Declam. 51_3
 
 # source = Libanius, Declam. 51_3
@@ -232,15 +232,15 @@
 12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_175|t_176|ref=Declam. 51_3
 13	οἴνων	οἶνος	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_176|t_177|ref=Declam. 51_3
 14	ἕτεροι	ἕτερος	a	a-p---mn-	Case=n|Gender=m|Number=p	15	SBJ	_	t_177|e_3|ref=Declam. 51_3
-15	[0]	[0]	-	---------	_	5	ADV	_	e_3|t_168|ref=Declam. 51_1
+15	[0]	[0]	-	---------	_	5	ADV	_	e_3|t_168|ref=Declam. 51_3
 16	.	.	u	u--------	_	3	AuxK	_	t_178|t_166|ref=Declam. 51_3
 
-# source = Libanius, Declam. 51_3-4
+# source = Libanius, Declam. 51_4
 # text = ἰχθύων δὲ ἢ κρεωδαισίας τοσοῦτον ἀπεῖχον ὥστ ’ , εἴ ποτέ μοι καταδαρθάνοντι τὸ φανταστικόν , οἶα συμβαίνειν εἴωθε , | φλεγμαίνουσαν τοιούτοις ἐδέσμασιν σατο τράπεζαν , ἡμιθνὴς ἦν τῇ λύπῃ καί τι τῶν ἀθε - μίτων ᾠόμην δρᾶν , ἕως διυπνισθεὶς ὑπόπλεως ταραχῆς ὅπερ ἦν κατʼ ἐμάνθανον .
 # sent_id = 15
-1	ἰχθύων	ἰχθύς	n	n-p---mg-	Case=g|Gender=m|Number=p	3	OBJ	_	t_179|t_181|ref=Declam. 51_3
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_180|t_184|ref=Declam. 51_3
-3	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_181|t_184|ref=Declam. 51_3
+1	ἰχθύων	ἰχθύς	n	n-p---mg-	Case=g|Gender=m|Number=p	3	OBJ	_	t_179|t_181|ref=Declam. 51_4
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_180|t_184|ref=Declam. 51_4
+3	ἢ	ἤ1	c	c--------	_	6	COORD	_	t_181|t_184|ref=Declam. 51_4
 4	κρεωδαισίας	κρεωδαισίας	n	n-s---fg-	Case=g|Gender=f|Number=s	3	OBJ	_	t_182|t_181|ref=Declam. 51_4
 5	τοσοῦτον	τοσοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_183|t_184|ref=Declam. 51_4
 6	ἀπεῖχον	ἀπέχω	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	0	PRED	_	t_184|0|ref=Declam. 51_4
@@ -311,12 +311,12 @@
 18	ἥκιστα	ἥκιστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	16	ADV	_	t_245|t_243|ref=Declam. 51_4
 19	.	.	u	u--------	_	3	AuxK	_	t_246|t_230|ref=Declam. 51_4
 
-# source = Libanius, Declam. 51_4-5
+# source = Libanius, Declam. 51_5
 # text = ἄλλους μὲν εἶχον σημπόσια , πανηγύρεις , ἐκκλησίαι , θέατρα , ὅθεν οὐδενὸς εὐπορῆσαι πάρεστιν ὀβολοῦ , μᾶλλον μὲν οὖν καὶ τῶν ὄντων ἀποβαλεῖν συχνά , ἐμὲ δὲ τὸ δωμάτιον τοῖς ἔργοις σχολάζοντα , ὅτου χάριν ταῦθʼ ὑφιστάμενον καὶ τί μηχανώμενον [0] ;
 # sent_id = 17
-1	ἄλλους	ἄλλος	p	p-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_247|t_250|ref=Declam. 51_4
-2	μὲν	μέν	d	d--------	_	3	AuxY	_	t_248|t_249|ref=Declam. 51_4
-3	εἶχον	ἔχω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_249|0|ref=Declam. 51_4
+1	ἄλλους	ἄλλος	p	p-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_247|t_250|ref=Declam. 51_5
+2	μὲν	μέν	d	d--------	_	3	AuxY	_	t_248|t_249|ref=Declam. 51_5
+3	εἶχον	ἔχω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	0	PRED	_	t_249|0|ref=Declam. 51_5
 4	σημπόσια	ἐπίσημος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_250|t_255|ref=Declam. 51_5
 5	,	,	u	u--------	_	3	AuxX	_	t_251|t_249|ref=Declam. 51_5
 6	πανηγύρεις	πανήγυρις	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_252|t_255|ref=Declam. 51_5
@@ -355,7 +355,7 @@
 39	καὶ	καί	c	c--------	_	27	COORD	_	t_285|t_273|ref=Declam. 51_5
 40	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	41	ADV	_	t_286|t_287|ref=Declam. 51_5
 41	μηχανώμενον	μηχανάομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	ADV	_	t_287|t_285|ref=Declam. 51_5
-42	[0]	[0]	-	---------	_	39	ADV	_	e_4|t_285|ref=Declam. 51_1
+42	[0]	[0]	-	---------	_	39	ADV	_	e_4|t_285|ref=Declam. 51_5
 43	;	;	u	u--------	_	3	AuxK	_	t_288|t_249|ref=Declam. 51_5
 
 # source = Libanius, Declam. 51_5
@@ -379,13 +379,13 @@
 16	τίων	τίω	a	a-p---ng-	Case=g|Gender=n|Number=p	12	OBJ	_	t_304|t_300|ref=Declam. 51_5
 17	.	.	u	u--------	_	6	AuxK	_	t_305|t_294|ref=Declam. 51_5
 
-# source = Libanius, Declam. 51_5-6
+# source = Libanius, Declam. 51_6
 # text = εὖ γὰρ ᾔδειν ὡς , εἴ γέ τις τῷ φθάσαντι πλούτῳ κατὰ βραχὺ προστίθησιν ἕτερον καὶ δρῴη τοῦτο μὴ διαλείπων , ἐπηυξηκὼς ἔσται τὴν περιουσίαν εἰς πολυπλάσιον , ὃν τρόπον καὶ ποταμὸν ἐκ σταγόνων ἄλλοθεν ἄλλης συνεισρεούσης ἔξεστιν ὁρᾶν συνιστά - μενον .
 # sent_id = 19
-1	εὖ	εὖ	d	d--------	_	3	ADV	_	t_306|t_308|ref=Declam. 51_5
-2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_307|t_308|ref=Declam. 51_5
-3	ᾔδειν	οἶδα	v	v1slia---	Mood=i|Number=s|Person=1|Tense=l|Voice=a	0	PRED	_	t_308|0|ref=Declam. 51_5
-4	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_309|t_308|ref=Declam. 51_5
+1	εὖ	εὖ	d	d--------	_	3	ADV	_	t_306|t_308|ref=Declam. 51_6
+2	γὰρ	γάρ	d	d--------	_	3	AuxY	_	t_307|t_308|ref=Declam. 51_6
+3	ᾔδειν	οἶδα	v	v1slia---	Mood=i|Number=s|Person=1|Tense=l|Voice=a	0	PRED	_	t_308|0|ref=Declam. 51_6
+4	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_309|t_308|ref=Declam. 51_6
 5	,	,	u	u--------	_	3	AuxX	_	t_310|t_308|ref=Declam. 51_6
 6	εἴ	εἰ	c	c--------	_	23	AuxC	_	t_311|t_328|ref=Declam. 51_6
 7	γέ	γε	d	d--------	_	8	AuxZ	_	t_312|t_313|ref=Declam. 51_6
@@ -426,13 +426,13 @@
 42	μενον	μένω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	39	OBJ	_	t_347|t_344|ref=Declam. 51_6
 43	.	.	u	u--------	_	3	AuxK	_	t_348|t_308|ref=Declam. 51_6
 
-# source = Libanius, Declam. 51_6-7
+# source = Libanius, Declam. 51_7
 # text = ποσάκις ταῖς νεφέλαις ἐμεμψάμην , ποσάκις ταύταις λοίδορον ἀφῆκα φωνήν , ὅτι μὴ καὶ νῦν , ὥσπερ ἀμέλει τοῖς Ῥοδίοις ποτέ , πολὺν ἐπώμβρησαν τὸν χρυ - σόν , ὡς ἔχειν ἀμογητὶ τὴν ἔφεσιν | ἀποπλῆσαί μου , καὶ δυεῖν θάτερον ηὐχόμην γενέσθαι , ἢ κ ἀμὲ τοῖς τότε ξυντετάχθαι βροτοῖς ἢ γοῦν τ αὐτὰ συμβῆναι καὶ νῦν [0] .
 # sent_id = 20
-1	ποσάκις	ποσάκις	d	d--------	_	4	ADV	_	t_349|t_352|ref=Declam. 51_6
-2	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_350|t_351|ref=Declam. 51_6
-3	νεφέλαις	νεφέλη	n	n-p---fd-	Case=d|Gender=f|Number=p	4	OBJ	_	t_351|t_352|ref=Declam. 51_6
-4	ἐμεμψάμην	μέμφομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	5	PRED	_	t_352|t_353|ref=Declam. 51_6
+1	ποσάκις	ποσάκις	d	d--------	_	4	ADV	_	t_349|t_352|ref=Declam. 51_7
+2	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_350|t_351|ref=Declam. 51_7
+3	νεφέλαις	νεφέλη	n	n-p---fd-	Case=d|Gender=f|Number=p	4	OBJ	_	t_351|t_352|ref=Declam. 51_7
+4	ἐμεμψάμην	μέμφομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	5	PRED	_	t_352|t_353|ref=Declam. 51_7
 5	,	,	u	u--------	_	9	AuxX	_	t_353|t_357|ref=Declam. 51_7
 6	ποσάκις	ποσάκις	d	d--------	_	9	ADV	_	t_354|t_357|ref=Declam. 51_7
 7	ταύταις	οὗτος	p	p-p---fd-	Case=d|Gender=f|Number=p	8	ADV	_	t_355|t_356|ref=Declam. 51_7
@@ -487,17 +487,17 @@
 56	συμβῆναι	συμβαίνω	v	v--ana---	Mood=n|Tense=a|Voice=a	52	OBJ	_	t_404|t_400|ref=Declam. 51_7
 57	καὶ	καί	d	d--------	_	58	AuxZ	_	t_405|t_406|ref=Declam. 51_7
 58	νῦν	νῦν	d	d--------	_	56	ADV	_	t_406|t_404|ref=Declam. 51_7
-59	[0]	[0]	-	---------	_	17	ADV	_	e_5|t_365|ref=Declam. 51_1
+59	[0]	[0]	-	---------	_	17	ADV	_	e_5|t_365|ref=Declam. 51_7
 60	.	.	u	u--------	_	9	AuxK	_	t_407|t_357|ref=Declam. 51_7
 
-# source = Libanius, Declam. 51_7-8
+# source = Libanius, Declam. 51_8
 # text = ποσάκις πρὸς τὴν Τύχην διείλεγμαι μονον - ουχὶ κατʼ ὀφθαλμοὺς ἐντυγχάνων αὐτῇ ·
 # sent_id = 21
-1	ποσάκις	ποσάκις	d	d--------	_	5	ADV	_	t_408|t_412|ref=Declam. 51_7
-2	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_409|t_412|ref=Declam. 51_7
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_410|t_411|ref=Declam. 51_7
-4	Τύχην	τύχη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_411|t_409|ref=Declam. 51_7
-5	διείλεγμαι	διάλέγω2	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	0	PRED	_	t_412|0|ref=Declam. 51_7
+1	ποσάκις	ποσάκις	d	d--------	_	5	ADV	_	t_408|t_412|ref=Declam. 51_8
+2	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_409|t_412|ref=Declam. 51_8
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_410|t_411|ref=Declam. 51_8
+4	Τύχην	τύχη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_411|t_409|ref=Declam. 51_8
+5	διείλεγμαι	διάλέγω2	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	0	PRED	_	t_412|0|ref=Declam. 51_8
 6	μονον	μονός	a	a-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_413|t_412|ref=Declam. 51_8
 7	-	-	u	u--------	_	5	AuxG	_	t_414|t_412|ref=Declam. 51_8
 8	ουχὶ	ουχί	d	d--------	_	11	AuxY	_	t_415|t_418|ref=Declam. 51_8
@@ -555,7 +555,7 @@
 6	φαταὶ	φατός	n	n-p---fn-	Case=n|Gender=f|Number=p	9	ExD	_	t_447|e_6|ref=Declam. 51_8
 7	κατὰ	κατά	r	r--------	_	6	AuxP	_	t_448|t_447|ref=Declam. 51_8
 8	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ADV	_	t_449|t_448|ref=Declam. 51_8
-9	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Declam. 51_1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Declam. 51_8
 10	.	.	u	u--------	_	9	AuxK	_	t_450|e_6|ref=Declam. 51_8
 
 # source = Libanius, Declam. 51_8
@@ -611,19 +611,19 @@
 22	πρὸς	πρός	r	r--------	_	24	AuxP	_	t_490|t_492|ref=Declam. 51_8
 23	οὖς	οὖς	n	n-s---na-	Case=a|Gender=n|Number=s	22	ADV	_	t_491|t_490|ref=Declam. 51_8
 24	διαλέγεσθαι	διαλέγω	v	v--pne---	Mood=n|Tense=p|Voice=e	20	OBJ	_	t_492|t_488|ref=Declam. 51_8
-25	[0]	[0]	-	---------	_	6	PRED	_	e_7|t_474|ref=Declam. 51_1
+25	[0]	[0]	-	---------	_	6	PRED	_	e_7|t_474|ref=Declam. 51_8
 26	.	.	u	u--------	_	5	AuxK	_	t_493|t_473|ref=Declam. 51_8
 
-# source = Libanius, Declam. 51_8-9
+# source = Libanius, Declam. 51_9
 # text = ἐπεὶ οὔ τε τῶν νεφελῶν οὔ τε τῆς Τύχης ἀπωνάμην οὐδέν , αὐτὸς ἐμαυ - τῷ τὸν τῶν χρημάτων πόρον ἐξεύρισκον οὐδὲν ἀνιεὶς ὅσα τοῖς χρηματίζεσθαι βουλομένοις συμβάλλεται .
 # sent_id = 30
-1	ἐπεὶ	ἐπεί	c	c--------	_	21	AuxY	_	t_494|t_514|ref=Declam. 51_8
-2	οὔ	οὐ	d	d--------	_	5	AuxZ	_	t_495|t_498|ref=Declam. 51_8
-3	τε	τε	d	d--------	_	7	AuxY	_	t_496|t_500|ref=Declam. 51_8
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_497|t_498|ref=Declam. 51_8
-5	νεφελῶν	νεφέλη	n	n-p---ng-	Case=g|Gender=f|Number=p	7	ATR	_	t_498|t_500|ref=Declam. 51_8
-6	οὔ	οὐ	d	d--------	_	9	AuxZ	_	t_499|t_502|ref=Declam. 51_8
-7	τε	τε	c	c--------	_	11	COORD	_	t_500|t_504|ref=Declam. 51_8
+1	ἐπεὶ	ἐπεί	c	c--------	_	21	AuxY	_	t_494|t_514|ref=Declam. 51_9
+2	οὔ	οὐ	d	d--------	_	5	AuxZ	_	t_495|t_498|ref=Declam. 51_9
+3	τε	τε	d	d--------	_	7	AuxY	_	t_496|t_500|ref=Declam. 51_9
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_497|t_498|ref=Declam. 51_9
+5	νεφελῶν	νεφέλη	n	n-p---ng-	Case=g|Gender=f|Number=p	7	ATR	_	t_498|t_500|ref=Declam. 51_9
+6	οὔ	οὐ	d	d--------	_	9	AuxZ	_	t_499|t_502|ref=Declam. 51_9
+7	τε	τε	c	c--------	_	11	COORD	_	t_500|t_504|ref=Declam. 51_9
 8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_501|t_502|ref=Declam. 51_9
 9	Τύχης	τύχη	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_502|t_500|ref=Declam. 51_9
 10	ἀπωνάμην	ὠνέομαι	v	v1saim---	Mood=i|Number=s|Person=1|Tense=a|Voice=m	1	ADV	_	t_503|t_494|ref=Declam. 51_9
@@ -679,16 +679,16 @@
 27	μονονού	μονόνου	a	a-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_549|t_545|ref=Declam. 51_9
 28	.	.	u	u--------	_	3	AuxK	_	t_550|t_525|ref=Declam. 51_9
 
-# source = Libanius, Declam. 51_9-10
+# source = Libanius, Declam. 51_10
 # text = προσῄει προσαιτῶν καὶ πρὸς μεταδόσεις προσεκαλεῖτο , ἐγὼ δὲ τοσοῦτον ἀπεῖχον τοῦ πρὸς τὰς αἰτήσεις ἐπικλᾶσθαι ὥστε καὶ διαλοιδορεῖσθαί οἱ καὶ δριμὺ καὶ τιτανῶδες ἐνατενίζειν .
 # sent_id = 32
-1	προσῄει	πρόσειμι1	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	3	PRED	_	t_551|t_553|ref=Declam. 51_9
-2	προσαιτῶν	προσαιτέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_552|t_551|ref=Declam. 51_9
-3	καὶ	καί	c	c--------	_	9	COORD	_	t_553|t_559|ref=Declam. 51_9
-4	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_554|t_556|ref=Declam. 51_9
-5	μεταδόσεις	μετάδοσις	n	n-p---fa-	Case=a|Gender=f|Number=p	4	ADV	_	t_555|t_554|ref=Declam. 51_9
-6	προσεκαλεῖτο	προσκαλέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	3	PRED	_	t_556|t_553|ref=Declam. 51_9
-7	,	,	u	u--------	_	0	AuxX	_	t_557|0|ref=Declam. 51_9
+1	προσῄει	πρόσειμι1	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	3	PRED	_	t_551|t_553|ref=Declam. 51_10
+2	προσαιτῶν	προσαιτέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	1	ADV	_	t_552|t_551|ref=Declam. 51_10
+3	καὶ	καί	c	c--------	_	9	COORD	_	t_553|t_559|ref=Declam. 51_10
+4	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_554|t_556|ref=Declam. 51_10
+5	μεταδόσεις	μετάδοσις	n	n-p---fa-	Case=a|Gender=f|Number=p	4	ADV	_	t_555|t_554|ref=Declam. 51_10
+6	προσεκαλεῖτο	προσκαλέω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	3	PRED	_	t_556|t_553|ref=Declam. 51_10
+7	,	,	u	u--------	_	0	AuxX	_	t_557|0|ref=Declam. 51_10
 8	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	11	SBJ	_	t_558|t_561|ref=Declam. 51_10
 9	δὲ	δέ	d	d--------	_	7	COORD	_	t_559|t_557|ref=Declam. 51_10
 10	τοσοῦτον	τοσοῦτος	p	p-s---na-	Case=a|Gender=n|Number=s	11	ADV	_	t_560|t_561|ref=Declam. 51_10
@@ -738,7 +738,7 @@
 24	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	26	ATR	_	t_600|t_602|ref=Declam. 51_10
 25	ἐγαννύμην	γίγνομαι	v	v1siie---	Mood=i|Number=s|Person=1|Tense=i|Voice=e	19	ATR	_	t_601|t_595|ref=Declam. 51_10
 26	ὀνόμασιν	ὄνομα	n	n-p---nd-	Case=d|Gender=n|Number=p	25	OBJ	_	t_602|t_601|ref=Declam. 51_10
-27	[0]	[0]	-	---------	_	22	ADV	_	e_8|t_598|ref=Declam. 51_1
+27	[0]	[0]	-	---------	_	22	ADV	_	e_8|t_598|ref=Declam. 51_10
 28	.	.	u	u--------	_	15	AuxK	_	t_603|t_591|ref=Declam. 51_10
 
 # source = Libanius, Declam. 51_10
@@ -779,8 +779,8 @@
 33	ἐμῶν	ἐμός	a	a-p---mg-	Case=g|Gender=m|Number=p	31	ATR	_	t_636|t_634|ref=Declam. 51_10
 34	προέσθαι	προΐημι	v	v--anm---	Mood=n|Tense=a|Voice=m	28	OBJ	_	t_637|t_631|ref=Declam. 51_10
 35	χείρων	χείρων	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	34	OCOMP	_	t_638|t_637|ref=Declam. 51_10
-36	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Declam. 51_1
-37	[1]	[1]	-	---------	_	29	ADV	_	e_10|t_632|ref=Declam. 51_1
+36	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Declam. 51_10
+37	[1]	[1]	-	---------	_	29	ADV	_	e_10|t_632|ref=Declam. 51_10
 38	.	.	u	u--------	_	36	AuxK	_	t_639|e_9|ref=Declam. 51_10
 
 # source = Libanius, Declam. 51_10
@@ -855,19 +855,19 @@
 13	αὐτήν	αὐτός	a	a-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_694|t_693|ref=Declam. 51_10
 14	;	;	u	u--------	_	3	AuxK	_	t_695|t_684|ref=Declam. 51_10
 
-# source = Libanius, Declam. 51_10-12
+# source = Libanius, Declam. 51_12
 # text = εἰ γὰρ ἔστιν ὅτε τινὶ συμβὰν οὕτω καὶ περιτύχοιμι , ἢ ἑτέραν ἐτραπό - μὴν εὐθὺς ἢ ἑτέρωσέ ποι τοὺς ὀφθαλμοὺς ἔτρεπον ·
 # sent_id = 39
-1	εἰ	εἰ	c	c--------	_	22	AuxC	_	t_696|t_717|ref=Declam. 51_10
-2	γὰρ	γάρ	d	d--------	_	22	AuxY	_	t_697|t_717|ref=Declam. 51_10
-3	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_698|t_696|ref=Declam. 51_10
-4	ὅτε	ὅτε	c	c--------	_	3	AuxC	_	t_699|t_698|ref=Declam. 51_10
-5	τινὶ	τις	p	p-s---cd-	Case=d|Gender=c|Number=s	6	OBJ	_	t_700|t_701|ref=Declam. 51_10
-6	συμβὰν	συμβαίνω	v	v-sapana-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_701|t_704|ref=Declam. 51_10
-7	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_702|t_704|ref=Declam. 51_10
-8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_703|t_704|ref=Declam. 51_10
-9	περιτύχοιμι	περιτυγχάνω	v	v1saoa---	Mood=o|Number=s|Person=1|Tense=a|Voice=a	11	SBJ	_	t_704|t_706|ref=Declam. 51_10
-10	,	,	u	u--------	_	22	AuxX	_	t_705|t_717|ref=Declam. 51_10
+1	εἰ	εἰ	c	c--------	_	22	AuxC	_	t_696|t_717|ref=Declam. 51_12
+2	γὰρ	γάρ	d	d--------	_	22	AuxY	_	t_697|t_717|ref=Declam. 51_12
+3	ἔστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_698|t_696|ref=Declam. 51_12
+4	ὅτε	ὅτε	c	c--------	_	3	AuxC	_	t_699|t_698|ref=Declam. 51_12
+5	τινὶ	τις	p	p-s---cd-	Case=d|Gender=c|Number=s	6	OBJ	_	t_700|t_701|ref=Declam. 51_12
+6	συμβὰν	συμβαίνω	v	v-sapana-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_701|t_704|ref=Declam. 51_12
+7	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_702|t_704|ref=Declam. 51_12
+8	καὶ	καί	d	d--------	_	9	AuxZ	_	t_703|t_704|ref=Declam. 51_12
+9	περιτύχοιμι	περιτυγχάνω	v	v1saoa---	Mood=o|Number=s|Person=1|Tense=a|Voice=a	11	SBJ	_	t_704|t_706|ref=Declam. 51_12
+10	,	,	u	u--------	_	22	AuxX	_	t_705|t_717|ref=Declam. 51_12
 11	ἢ	ἤ1	c	c--------	_	4	COORD	_	t_706|t_699|ref=Declam. 51_12
 12	ἑτέραν	ἕτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_707|t_708|ref=Declam. 51_12
 13	ἐτραπό	τρέπω	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	11	SBJ	_	t_708|t_706|ref=Declam. 51_12
@@ -1083,19 +1083,19 @@
 85	σαντες	σεσα	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	79	ADV	_	t_894|t_888|ref=Declam. 51_12
 86	.	.	u	u--------	_	1	AuxK	_	t_895|t_810|ref=Declam. 51_12
 
-# source = Libanius, Declam. 51_12-14
+# source = Libanius, Declam. 51_14
 # text = τοῦτο δὴ δεδιὼς ἐν μυχῷ γῆς κατορύττω τὰ χρήματα συγκατορύξας ἐμαυτὸν τρόπον ἕτερον .
 # sent_id = 46
-1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_896|t_898|ref=Declam. 51_12
-2	δὴ	δή	d	d--------	_	7	AuxY	_	t_897|t_902|ref=Declam. 51_12
-3	δεδιὼς	δείδω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	7	ADV	_	t_898|t_902|ref=Declam. 51_12
-4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_899|t_898|ref=Declam. 51_12
-5	μυχῷ	μυχός	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_900|t_899|ref=Declam. 51_12
-6	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_901|t_900|ref=Declam. 51_12
-7	κατορύττω	κατορύσσω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_902|0|ref=Declam. 51_12
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_903|t_904|ref=Declam. 51_12
-9	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_904|t_905|ref=Declam. 51_12
-10	συγκατορύξας	συγκατορύσσω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_905|t_902|ref=Declam. 51_12
+1	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_896|t_898|ref=Declam. 51_14
+2	δὴ	δή	d	d--------	_	7	AuxY	_	t_897|t_902|ref=Declam. 51_14
+3	δεδιὼς	δείδω	v	v-srpamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	7	ADV	_	t_898|t_902|ref=Declam. 51_14
+4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_899|t_898|ref=Declam. 51_14
+5	μυχῷ	μυχός	n	n-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_900|t_899|ref=Declam. 51_14
+6	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_901|t_900|ref=Declam. 51_14
+7	κατορύττω	κατορύσσω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_902|0|ref=Declam. 51_14
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_903|t_904|ref=Declam. 51_14
+9	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_904|t_905|ref=Declam. 51_14
+10	συγκατορύξας	συγκατορύσσω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_905|t_902|ref=Declam. 51_14
 11	ἐμαυτὸν	ἐμαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_906|t_905|ref=Declam. 51_14
 12	τρόπον	τρόπος	n	n-s---ma-	Case=a|Gender=m|Number=s	10	ADV	_	t_907|t_905|ref=Declam. 51_14
 13	ἕτερον	ἕτερος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_908|t_907|ref=Declam. 51_14
@@ -1155,19 +1155,19 @@
 15	ἀβουλήτων	ἀβούλητος	a	a-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_950|t_946|ref=Declam. 51_14
 16	.	.	u	u--------	_	5	AuxK	_	t_951|t_940|ref=Declam. 51_14
 
-# source = Libanius, Declam. 51_14-15
+# source = Libanius, Declam. 51_15
 # text = ἀλλὰ γάρ , οἴμοι τῶν ἐπεισφρη - σάντων δεινῶν , πῶς εἴπω ;
 # sent_id = 50
-1	ἀλλὰ	ἀλλά	c	c--------	_	12	AuxY	_	t_952|t_963|ref=Declam. 51_14
-2	γάρ	γάρ	g	g--------	_	12	AuxY	_	t_953|t_963|ref=Declam. 51_14
-3	,	,	u	u--------	_	4	AuxX	_	t_954|t_955|ref=Declam. 51_14
-4	οἴμοι	οἴμοι	i	i--------	_	12	ExD	_	t_955|t_963|ref=Declam. 51_14
-5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_956|t_957|ref=Declam. 51_14
-6	ἐπεισφρη	ἐπεισφρέω	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_957|t_960|ref=Declam. 51_14
-7	-	-	u	u--------	_	4	AuxG	_	t_958|t_955|ref=Declam. 51_14
-8	σάντων	σόω	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_959|t_960|ref=Declam. 51_14
-9	δεινῶν	δεινός	a	a-p---ng-	Case=g|Gender=n|Number=p	7	ExD	_	t_960|t_958|ref=Declam. 51_14
-10	,	,	u	u--------	_	4	AuxX	_	t_961|t_955|ref=Declam. 51_14
+1	ἀλλὰ	ἀλλά	c	c--------	_	12	AuxY	_	t_952|t_963|ref=Declam. 51_15
+2	γάρ	γάρ	g	g--------	_	12	AuxY	_	t_953|t_963|ref=Declam. 51_15
+3	,	,	u	u--------	_	4	AuxX	_	t_954|t_955|ref=Declam. 51_15
+4	οἴμοι	οἴμοι	i	i--------	_	12	ExD	_	t_955|t_963|ref=Declam. 51_15
+5	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_956|t_957|ref=Declam. 51_15
+6	ἐπεισφρη	ἐπεισφρέω	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_957|t_960|ref=Declam. 51_15
+7	-	-	u	u--------	_	4	AuxG	_	t_958|t_955|ref=Declam. 51_15
+8	σάντων	σόω	a	a-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_959|t_960|ref=Declam. 51_15
+9	δεινῶν	δεινός	a	a-p---ng-	Case=g|Gender=n|Number=p	7	ExD	_	t_960|t_958|ref=Declam. 51_15
+10	,	,	u	u--------	_	4	AuxX	_	t_961|t_955|ref=Declam. 51_15
 11	πῶς	πῶς	d	d--------	_	12	ADV	_	t_962|t_963|ref=Declam. 51_15
 12	εἴπω	εἶπον	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_963|0|ref=Declam. 51_15
 13	;	;	u	u--------	_	12	AuxK	_	t_964|t_963|ref=Declam. 51_15
@@ -1230,26 +1230,26 @@
 8	χρήματα	χρῆμα	n	n-p---na-	Case=a|Gender=n|Number=p	11	SBJ	_	t_1009|e_11|ref=Declam. 51_15
 9	δὲ	δέ	g	g--------	_	0	COORD	_	t_1010|0|ref=Declam. 51_15
 10	οὐδαμοῦ	οὐδαμοῦ	d	d--------	_	11	ADV	_	t_1011|e_11|ref=Declam. 51_15
-11	[0]	[0]	-	---------	_	9	PRED	_	e_11|t_1010|ref=Declam. 51_1
+11	[0]	[0]	-	---------	_	9	PRED	_	e_11|t_1010|ref=Declam. 51_15
 12	.	.	u	u--------	_	9	AuxK	_	t_1012|t_1010|ref=Declam. 51_15
 
-# source = Libanius, Declam. 51_15-16
+# source = Libanius, Declam. 51_16
 # text = ὧς δὲ εἶδον , ὡς κατενόησα , ὥσπερ ἤχῳ βροντῆς παταχθεὶς ἐννεὸς ἐγεγόνειν [0] .
 # sent_id = 54
-1	ὧς	ὡς	d	d--------	_	3	ADV	_	t_1013|t_1015|ref=Declam. 51_15
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_1014|0|ref=Declam. 51_15
-3	εἶδον	εἶδον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	2	PRED	_	t_1015|t_1014|ref=Declam. 51_15
-4	,	,	u	u--------	_	5	AuxX	_	t_1016|t_1017|ref=Declam. 51_15
-5	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_1017|t_1015|ref=Declam. 51_15
-6	κατενόησα	κατανοέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	ADV	_	t_1018|t_1017|ref=Declam. 51_15
-7	,	,	u	u--------	_	8	AuxX	_	t_1019|t_1020|ref=Declam. 51_15
-8	ὥσπερ	ὥσπερ	d	d--------	_	14	ADV	_	t_1020|e_12|ref=Declam. 51_15
-9	ἤχῳ	ἦχος	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_1021|t_1023|ref=Declam. 51_15
-10	βροντῆς	βροντή	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1022|t_1021|ref=Declam. 51_15
-11	παταχθεὶς	πατάσσω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_1023|t_1025|ref=Declam. 51_15
+1	ὧς	ὡς	d	d--------	_	3	ADV	_	t_1013|t_1015|ref=Declam. 51_16
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_1014|0|ref=Declam. 51_16
+3	εἶδον	εἶδον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	2	PRED	_	t_1015|t_1014|ref=Declam. 51_16
+4	,	,	u	u--------	_	5	AuxX	_	t_1016|t_1017|ref=Declam. 51_16
+5	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_1017|t_1015|ref=Declam. 51_16
+6	κατενόησα	κατανοέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	ADV	_	t_1018|t_1017|ref=Declam. 51_16
+7	,	,	u	u--------	_	8	AuxX	_	t_1019|t_1020|ref=Declam. 51_16
+8	ὥσπερ	ὥσπερ	d	d--------	_	14	ADV	_	t_1020|e_12|ref=Declam. 51_16
+9	ἤχῳ	ἦχος	n	n-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_1021|t_1023|ref=Declam. 51_16
+10	βροντῆς	βροντή	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1022|t_1021|ref=Declam. 51_16
+11	παταχθεὶς	πατάσσω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	13	ADV	_	t_1023|t_1025|ref=Declam. 51_16
 12	ἐννεὸς	ἐννεός	a	a-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_1024|t_1025|ref=Declam. 51_16
 13	ἐγεγόνειν	γίγνομαι	v	v1slia---	Mood=i|Number=s|Person=1|Tense=l|Voice=a	8	OBJ	_	t_1025|t_1020|ref=Declam. 51_16
-14	[0]	[0]	-	---------	_	3	ADV	_	e_12|t_1015|ref=Declam. 51_1
+14	[0]	[0]	-	---------	_	3	ADV	_	e_12|t_1015|ref=Declam. 51_16
 15	.	.	u	u--------	_	2	AuxK	_	t_1026|t_1014|ref=Declam. 51_16
 
 # source = Libanius, Declam. 51_16
@@ -1371,7 +1371,7 @@
 3	ταῦτά	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_1116|t_1118|ref=Declam. 51_16
 4	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	5	OBJ	_	t_1117|t_1118|ref=Declam. 51_16
 5	δράσας	δράω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	6	SBJ	_	t_1118|e_13|ref=Declam. 51_16
-6	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Declam. 51_1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Declam. 51_16
 7	;	;	u	u--------	_	6	AuxK	_	t_1119|e_13|ref=Declam. 51_16
 
 # source = Libanius, Declam. 51_16
@@ -1434,23 +1434,23 @@
 13	ἀπέτισε	ἀποτίνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1166|0|ref=Declam. 51_16
 14	.	.	u	u--------	_	13	AuxK	_	t_1167|t_1166|ref=Declam. 51_16
 
-# source = Libanius, Declam. 51_16-18
+# source = Libanius, Declam. 51_18
 # text = ποῦ μοι τὸ Πυθικὸν χρηστήριον νῦν , ὡς τοῦ προκειμένου πέρι σαφῶς χρησμῳδήσειεν [0] ;
 # sent_id = 65
-1	ποῦ	ποῦ	d	d--------	_	14	ADV	_	t_1168|e_14|ref=Declam. 51_16
-2	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_1169|e_14|ref=Declam. 51_16
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_1170|t_1172|ref=Declam. 51_16
-4	Πυθικὸν	πυθικός	a	a-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_1171|t_1172|ref=Declam. 51_16
-5	χρηστήριον	χρηστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_1172|e_14|ref=Declam. 51_16
-6	νῦν	νῦν	d	d--------	_	14	ADV	_	t_1173|e_14|ref=Declam. 51_16
-7	,	,	u	u--------	_	8	AuxX	_	t_1174|t_1175|ref=Declam. 51_16
-8	ὡς	ὡς	c	c--------	_	14	AuxC	_	t_1175|e_14|ref=Declam. 51_16
-9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1176|t_1177|ref=Declam. 51_16
-10	προκειμένου	πρόκειμαι	v	v-srpeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	11	ADV	_	t_1177|t_1178|ref=Declam. 51_16
-11	πέρι	περί	r	r--------	_	13	AuxP	_	t_1178|t_1180|ref=Declam. 51_16
-12	σαφῶς	σαφής	d	d--------	_	13	ADV	_	t_1179|t_1180|ref=Declam. 51_16
-13	χρησμῳδήσειεν	χρησμῳδέω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	14	ADV	_	t_1180|e_14|ref=Declam. 51_16
-14	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Declam. 51_1
+1	ποῦ	ποῦ	d	d--------	_	14	ADV	_	t_1168|e_14|ref=Declam. 51_18
+2	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	14	OBJ	_	t_1169|e_14|ref=Declam. 51_18
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_1170|t_1172|ref=Declam. 51_18
+4	Πυθικὸν	πυθικός	a	a-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_1171|t_1172|ref=Declam. 51_18
+5	χρηστήριον	χρηστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_1172|e_14|ref=Declam. 51_18
+6	νῦν	νῦν	d	d--------	_	14	ADV	_	t_1173|e_14|ref=Declam. 51_18
+7	,	,	u	u--------	_	8	AuxX	_	t_1174|t_1175|ref=Declam. 51_18
+8	ὡς	ὡς	c	c--------	_	14	AuxC	_	t_1175|e_14|ref=Declam. 51_18
+9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_1176|t_1177|ref=Declam. 51_18
+10	προκειμένου	πρόκειμαι	v	v-srpeng-	Case=g|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	11	ADV	_	t_1177|t_1178|ref=Declam. 51_18
+11	πέρι	περί	r	r--------	_	13	AuxP	_	t_1178|t_1180|ref=Declam. 51_18
+12	σαφῶς	σαφής	d	d--------	_	13	ADV	_	t_1179|t_1180|ref=Declam. 51_18
+13	χρησμῳδήσειεν	χρησμῳδέω	v	v3saoa---	Mood=o|Number=s|Person=3|Tense=a|Voice=a	14	ADV	_	t_1180|e_14|ref=Declam. 51_18
+14	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Declam. 51_18
 15	;	;	u	u--------	_	14	AuxK	_	t_1181|e_14|ref=Declam. 51_18
 
 # source = Libanius, Declam. 51_18
@@ -1468,11 +1468,11 @@
 10	λοξοὺς	λοξός	a	a-p---ma-	Case=a|Gender=m|Number=p	9	OCOMP	_	t_1191|t_1190|ref=Declam. 51_18
 11	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_1192|t_1193|ref=Declam. 51_18
 12	χρησμούς	χρησμός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_1193|t_1188|ref=Declam. 51_18
-13	,	,	u	u--------	_	6	AuxX	_	t_1194|t_1187|ref=Declam. 51_16
+13	,	,	u	u--------	_	6	AuxX	_	t_1194|t_1187|ref=Declam. 51_18
 14	ᾗπερ	ᾗπερ	p	p-p---na-	_	17	ADV	_	t_1195|e_15|ref=Declam. 51_18
 15	ἔθος	ἔθος	n	n-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_1196|e_15|ref=Declam. 51_18
 16	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	15	ATR	_	t_1197|t_1196|ref=Declam. 51_18
-17	[0]	[0]	-	---------	_	6	PRED	_	e_15|t_1187|ref=Declam. 51_1
+17	[0]	[0]	-	---------	_	6	PRED	_	e_15|t_1187|ref=Declam. 51_18
 18	.	.	u	u--------	_	6	AuxK	_	t_1198|t_1187|ref=Declam. 51_18
 
 # source = Libanius, Declam. 51_18
@@ -1529,7 +1529,7 @@
 2	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_1235|t_1237|ref=Declam. 51_18
 3	περιλειφθέντων	περιλείπομαι	v	v-pappng-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	4	ATR	_	t_1236|t_1237|ref=Declam. 51_18
 4	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	1	ADV	_	t_1237|t_1234|ref=Declam. 51_18
-5	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Declam. 51_1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Declam. 51_18
 6	;	;	u	u--------	_	5	AuxK	_	t_1238|e_16|ref=Declam. 51_18
 
 # source = Libanius, Declam. 51_18
@@ -1542,39 +1542,39 @@
 5	ἅπαντα	ἅπας	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1243|t_1242|ref=Declam. 51_18
 6	.	.	u	u--------	_	4	AuxK	_	t_1244|t_1242|ref=Declam. 51_18
 
-# source = Libanius, Declam. 51_18
+# source = Libanius, Declam. 51_19
 # text = τίς γένωμαι ;
 # sent_id = 72
-1	τίς	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	2	PNOM	_	t_1245|t_1246|ref=Declam. 51_18
-2	γένωμαι	γίγνομαι	v	v1sasm---	Mood=s|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_1246|0|ref=Declam. 51_18
-3	;	;	u	u--------	_	2	AuxK	_	t_1247|t_1246|ref=Declam. 51_18
+1	τίς	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	2	PNOM	_	t_1245|t_1246|ref=Declam. 51_19
+2	γένωμαι	γίγνομαι	v	v1sasm---	Mood=s|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_1246|0|ref=Declam. 51_19
+3	;	;	u	u--------	_	2	AuxK	_	t_1247|t_1246|ref=Declam. 51_19
 
-# source = Libanius, Declam. 51_18
+# source = Libanius, Declam. 51_19
 # text = ποῖ τράπωμαι ;
 # sent_id = 73
-1	ποῖ	ποῖ	d	d--------	_	2	OBJ	_	t_1248|t_1249|ref=Declam. 51_18
-2	τράπωμαι	τρέπω	v	v1sasm---	Mood=s|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_1249|0|ref=Declam. 51_18
-3	;	;	u	u--------	_	2	AuxK	_	t_1250|t_1249|ref=Declam. 51_18
+1	ποῖ	ποῖ	d	d--------	_	2	OBJ	_	t_1248|t_1249|ref=Declam. 51_19
+2	τράπωμαι	τρέπω	v	v1sasm---	Mood=s|Number=s|Person=1|Tense=a|Voice=m	0	PRED	_	t_1249|0|ref=Declam. 51_19
+3	;	;	u	u--------	_	2	AuxK	_	t_1250|t_1249|ref=Declam. 51_19
 
-# source = Libanius, Declam. 51_18
+# source = Libanius, Declam. 51_19
 # text = θανεῖν ἢ περιεῖναι βέλτιον ἥγημαι .
 # sent_id = 74
-1	θανεῖν	θνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_1251|t_1255|ref=Declam. 51_18
-2	ἢ	ἤ1	c	c--------	_	4	AuxC	_	t_1252|t_1254|ref=Declam. 51_18
-3	περιεῖναι	περίειμι1	v	v--ana---	Mood=n|Tense=a|Voice=a	2	ADV	_	t_1253|t_1252|ref=Declam. 51_18
-4	βέλτιον	βελτίων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	5	ADV	_	t_1254|t_1255|ref=Declam. 51_18
-5	ἥγημαι	ἁγέομαι	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	0	PRED	_	t_1255|0|ref=Declam. 51_18
-6	.	.	u	u--------	_	5	AuxK	_	t_1256|t_1255|ref=Declam. 51_18
+1	θανεῖν	θνήσκω	v	v--ana---	Mood=n|Tense=a|Voice=a	5	OBJ	_	t_1251|t_1255|ref=Declam. 51_19
+2	ἢ	ἤ1	c	c--------	_	4	AuxC	_	t_1252|t_1254|ref=Declam. 51_19
+3	περιεῖναι	περίειμι1	v	v--ana---	Mood=n|Tense=a|Voice=a	2	ADV	_	t_1253|t_1252|ref=Declam. 51_19
+4	βέλτιον	βελτίων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	5	ADV	_	t_1254|t_1255|ref=Declam. 51_19
+5	ἥγημαι	ἁγέομαι	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	0	PRED	_	t_1255|0|ref=Declam. 51_19
+6	.	.	u	u--------	_	5	AuxK	_	t_1256|t_1255|ref=Declam. 51_19
 
-# source = Libanius, Declam. 51_18-19
+# source = Libanius, Declam. 51_19
 # text = τὸ πᾶσιν ἀπευκτὸν ἐμοὶ καταθύμιον [0] .
 # sent_id = 75
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1257|t_1259|ref=Declam. 51_18
-2	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_1258|t_1259|ref=Declam. 51_18
-3	ἀπευκτὸν	ἀπευκτός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_1259|e_17|ref=Declam. 51_18
-4	ἐμοὶ	ἐγώ	p	p-s---md-	Case=d|Gender=f|Number=s	5	OBJ	_	t_1260|t_1261|ref=Declam. 51_18
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1257|t_1259|ref=Declam. 51_19
+2	πᾶσιν	πᾶς	a	a-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_1258|t_1259|ref=Declam. 51_19
+3	ἀπευκτὸν	ἀπευκτός	a	a-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_1259|e_17|ref=Declam. 51_19
+4	ἐμοὶ	ἐγώ	p	p-s---md-	Case=d|Gender=f|Number=s	5	OBJ	_	t_1260|t_1261|ref=Declam. 51_19
 5	καταθύμιον	καταθύμιος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1261|e_17|ref=Declam. 51_19
-6	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Declam. 51_1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Declam. 51_19
 7	.	.	u	u--------	_	6	AuxK	_	t_1262|e_17|ref=Declam. 51_19
 
 # source = Libanius, Declam. 51_19
@@ -1606,7 +1606,7 @@
 15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	OBJ	_	t_1282|t_1283|ref=Declam. 51_19
 16	περι|εῖναι	περίειμι1	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_1283|t_1284|ref=Declam. 51_19
 17	βούλεσθαι	βούλομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	18	SBJ	_	t_1284|e_18|ref=Declam. 51_19
-18	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Declam. 51_1
+18	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Declam. 51_19
 19	;	;	u	u--------	_	18	AuxK	_	t_1285|e_18|ref=Declam. 51_19
 
 # source = Libanius, Declam. 51_19

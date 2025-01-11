@@ -134,7 +134,7 @@
 26	haec	haec	a	a-p---na-	Case=a|Gender=n|Number=p	25	ATR	_	t_95|t_94|ref=pronom._3
 27	(	̔	u	u--------	_	4	AuxG	_	t_96|t_73|ref=pronom._3
 28	sc	sc	n	n--------	_	25	APOS	_	t_97|t_94|ref=pronom._3
-29	[0]	[0]	-	---------	_	4	PRED	_	e_1|t_73|ref=pronom._1
+29	[0]	[0]	-	---------	_	4	PRED	_	e_1|t_73|ref=pronom._3
 30	.	.	u	u--------	_	3	AuxK	_	t_98|t_72|ref=pronom._3
 
 # source = Aelius Herodianus, pronom._3
@@ -147,21 +147,21 @@
 5	)	)	u	u--------	_	8	AuxG	_	t_103|e_2|ref=pronom._3
 6	potius	potius	a	a-s---ng-	Case=g|Gender=n|Number=s	7	OBJ	_	t_104|t_105|ref=pronom._3
 7	ponere	ponέω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	ExD	_	t_105|e_2|ref=pronom._3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=pronom._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=pronom._3
 9	.	.	u	u--------	_	8	AuxK	_	t_106|e_2|ref=pronom._3
 
-# source = Aelius Herodianus, pronom._3
+# source = Aelius Herodianus, pronom._4
 # text = 4 [0] .
 # sent_id = 12
-1	4	4	u	u--------	_	2	AuxK	_	t_107|e_3|ref=pronom._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=pronom._1
-3	.	.	u	u--------	_	2	AuxK	_	t_108|e_3|ref=pronom._3
+1	4	4	u	u--------	_	2	AuxK	_	t_107|e_3|ref=pronom._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=pronom._4
+3	.	.	u	u--------	_	2	AuxK	_	t_108|e_3|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
 # text = ἰϲτέον ὅτι ἡ εὐθεῖα ἐμαυτόϲ καὶ .
 # sent_id = 13
 1	ἰϲτέον	ἰςτέον	a	a-s---nn-	Case=n|Gender=n|Number=s	0	PRED	_	t_109|0|ref=pronom._4
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_110|t_109|ref=pronom._3
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_110|t_109|ref=pronom._4
 3	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_111|t_112|ref=pronom._4
 4	εὐθεῖα	εὐθεῖα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_112|t_114|ref=pronom._4
 5	ἐμαυτόϲ	ἐμαυτοῦ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	6	OBJ	_	t_113|t_114|ref=pronom._4
@@ -206,7 +206,7 @@
 24	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	25	ATR	_	t_144|t_145|ref=pronom._4
 25	ἐμοῦ	ἐγώ	a	a-s---mg-	Case=g|Gender=m|Number=s	23	ADV	_	t_145|t_143|ref=pronom._4
 26	αὐτοῦ	αὐτός	a	a-s---mg-	Case=g|Gender=m|Number=s	25	ATR	_	t_146|t_145|ref=pronom._4
-27	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=pronom._1
+27	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=pronom._4
 28	.	.	u	u--------	_	27	AuxK	_	t_147|e_4|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -269,7 +269,7 @@
 12	οὐκ	οὐ	d	d--------	_	14	AuxZ	_	t_194|t_196|ref=pronom._4
 13	ἔϲτιν	εἰμί	a	a-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_195|t_196|ref=pronom._4
 14	εὐθεῖα	εὐθεῖα	a	a-s---fn-	Case=n|Gender=f|Number=s	11	PNOM	_	t_196|t_193|ref=pronom._4
-15	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=pronom._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=pronom._4
 16	·	·	u	u--------	_	15	AuxK	_	t_197|e_5|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -310,7 +310,7 @@
 13	ἐμαυτοῦ	ἐμαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	PNOM	_	t_226|e_6|ref=pronom._4
 14	,	,	u	u--------	_	6	COORD	_	t_227|t_219|ref=pronom._4
 15	ἐμοὶ	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	16	ADV	_	t_228|e_6|ref=pronom._4
-16	[0]	[0]	-	---------	_	14	PNOM	_	e_6|t_227|ref=pronom._1
+16	[0]	[0]	-	---------	_	14	PNOM	_	e_6|t_227|ref=pronom._4
 17	.	.	u	u--------	_	6	AuxK	_	t_229|t_219|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -322,7 +322,7 @@
 4	ἐμὲ	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_233|t_232|ref=pronom._4
 5	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_234|t_235|ref=pronom._4
 6	ἐμαυτόν	ἐμαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_235|t_232|ref=pronom._4
-7	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=pronom._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=pronom._4
 8	.	.	u	u--------	_	7	AuxK	_	t_236|e_7|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -395,7 +395,7 @@
 22	ἀπίαῖ	ἀπιάομαι	n	n-p---fn-	Case=n|Gender=f|Number=p	25	SBJ	_	t_293|e_8|ref=pronom._4
 23	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	24	ATR	_	t_294|t_295|ref=pronom._4
 24	ἀλλοπαθέϲ	ἀλλοπαθής	a	a-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_295|e_8|ref=pronom._4
-25	[0]	[0]	-	---------	_	14	ADV	_	e_8|t_285|ref=pronom._1
+25	[0]	[0]	-	---------	_	14	ADV	_	e_8|t_285|ref=pronom._4
 26	.	.	u	u--------	_	4	AuxK	_	t_296|t_275|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -450,7 +450,7 @@
 14	,	,	u	u--------	_	17	AuxX	_	t_339|e_9|ref=pronom._4
 15	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_340|e_9|ref=pronom._4
 16	ἐντεῦθεν	ἐντεῦθεν	d	d--------	_	17	ADV	_	t_341|e_9|ref=pronom._4
-17	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=pronom._1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=pronom._4
 18	·	·	u	u--------	_	17	AuxK	_	t_342|e_9|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -471,7 +471,7 @@
 13	,	,	u	u--------	_	5	AuxX	_	t_355|t_347|ref=pronom._4
 14	ἀλλὰ	ἀλλά	c	c--------	_	7	COORD	_	t_356|t_349|ref=pronom._4
 15	Ἀλκιβιάδου	ἀλκιβιάδης	n	n-s---mg-	Case=g|Gender=m|Number=s	14	OBJ	_	t_357|t_356|ref=pronom._4
-16	[0]	[0]	-	---------	_	14	OBJ	_	e_10|t_356|ref=pronom._1
+16	[0]	[0]	-	---------	_	14	OBJ	_	e_10|t_356|ref=pronom._4
 17	·	·	u	u--------	_	5	AuxK	_	t_358|t_347|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -539,7 +539,7 @@
 17	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_410|0|ref=pronom._4
 18	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_411|t_410|ref=pronom._4
 19	αὐτοπαθήϲ	αὐτοπαθής	a	a-s---mn-	Case=n|Gender=m|Number=s	18	PNOM	_	t_412|t_411|ref=pronom._4
-20	[0]	[0]	-	---------	_	1	ADV	_	e_11|t_394|ref=pronom._1
+20	[0]	[0]	-	---------	_	1	ADV	_	e_11|t_394|ref=pronom._4
 21	.	.	u	u--------	_	17	AuxK	_	t_413|t_410|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -588,7 +588,7 @@
 12	γ	γ	n	n--------	_	13	APOS	_	t_446|t_447|ref=pronom._4
 13	348	348	n	n--------	_	15	APOS	_	t_447|e_12|ref=pronom._4
 14	)	)	u	u--------	_	15	AuxG	_	t_448|e_12|ref=pronom._4
-15	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=pronom._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=pronom._4
 16	.	.	u	u--------	_	15	AuxK	_	t_449|e_12|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -646,7 +646,7 @@
 18	μέχριϲ	μέχρι	d	d--------	_	19	ADV	_	t_491|t_492|ref=pronom._4
 19	ὀδυρόμενοϲ	ὀδύρομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	21	ADV	_	t_492|e_13|ref=pronom._4
 20	;	;	u	u--------	_	21	AuxK	_	t_493|e_13|ref=pronom._4
-21	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=pronom._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=pronom._4
 22	»	»	u	u--------	_	21	AuxG	_	t_494|e_13|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4
@@ -712,7 +712,7 @@
 18	α	α	x	x--------	_	4	SBJ	_	t_544|t_530|ref=pronom._4
 19	124	124	d	d--------	_	21	SBJ	_	t_545|e_14|ref=pronom._4
 20	)	)	u	u--------	_	21	AuxG	_	t_546|e_14|ref=pronom._4
-21	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=pronom._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=pronom._4
 22	.	.	u	u--------	_	21	AuxK	_	t_547|e_14|ref=pronom._4
 
 # source = Aelius Herodianus, pronom._4

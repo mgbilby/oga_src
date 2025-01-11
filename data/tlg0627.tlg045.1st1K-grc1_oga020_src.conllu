@@ -106,13 +106,13 @@
 18	ποτόν	ποτός	n	n-s---na-	Case=a|Gender=m|Number=s	14	OBJ	_	t_75|t_71|ref=cord._1
 19	.	.	u	u--------	_	2	AuxK	_	t_76|t_59|ref=cord._1
 
-# source = Hippocrates, cord._1-2
+# source = Hippocrates, cord._2
 # text = Πίνει γὰρ ὥνθρωπος τὸ μὲν πολλὸν ἐς νηδύν ·
 # sent_id = 8
-1	Πίνει	πίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_77|0|ref=cord._1
-2	γὰρ	γάρ	g	g--------	_	1	AuxY	_	t_78|t_77|ref=cord._1
-3	ὥνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_79|t_77|ref=cord._1
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_80|t_82|ref=cord._1
+1	Πίνει	πίνω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_77|0|ref=cord._2
+2	γὰρ	γάρ	g	g--------	_	1	AuxY	_	t_78|t_77|ref=cord._2
+3	ὥνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_79|t_77|ref=cord._2
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_80|t_82|ref=cord._2
 5	μὲν	μέν	g	g--------	_	1	AuxY	_	t_81|t_77|ref=cord._2
 6	πολλὸν	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_82|t_77|ref=cord._2
 7	ἐς	εἰς	r	r--------	_	1	AuxP	_	t_83|t_77|ref=cord._2
@@ -135,7 +135,7 @@
 11	καὶ	καί	c	c--------	_	8	COORD	_	t_96|t_93|ref=cord._2
 12	ἅσσα	ὅστις	p	p-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_97|t_98|ref=cord._2
 13	προσαιρόμεθα	προσαίρω	v	v1ppie---	Mood=i|Number=p|Person=1|Tense=p|Voice=e	11	OBJ	_	t_98|t_96|ref=cord._2
-14	[0]	[0]	-	---------	_	7	PRED	_	e_5|t_92|ref=cord._1
+14	[0]	[0]	-	---------	_	7	PRED	_	e_5|t_92|ref=cord._2
 15	·	·	u	u--------	_	6	AuxK	_	t_99|t_91|ref=cord._2
 
 # source = Hippocrates, cord._2
@@ -174,7 +174,7 @@
 10	μεῖζον	μέγας	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	12	ATR	_	t_126|t_128|ref=cord._2
 11	ποτοῦ	ποτόν	n	n-s---ng-	Case=g|Gender=n|Number=s	10	ADV	_	t_127|t_126|ref=cord._2
 12	οὐδέν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_128|t_125|ref=cord._2
-13	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=cord._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=cord._2
 14	.	.	u	u--------	_	13	AuxK	_	t_129|e_6|ref=cord._2
 
 # source = Hippocrates, cord._2
@@ -182,7 +182,7 @@
 # sent_id = 12
 1	Σημήϊον	σημεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_130|e_7|ref=cord._2
 2	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_131|e_7|ref=cord._2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=cord._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=cord._2
 4	·	·	u	u--------	_	3	AuxK	_	t_132|e_7|ref=cord._2
 
 # source = Hippocrates, cord._2
@@ -241,7 +241,7 @@
 4	ἀνδρὸς	ἀνήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	7	PNOM	_	t_179|e_8|ref=cord._2
 5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_180|t_181|ref=cord._2
 6	χειρουργία	χειρουργία	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_181|e_8|ref=cord._2
-7	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=cord._1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=cord._2
 8	.	.	u	u--------	_	7	AuxK	_	t_182|e_8|ref=cord._2
 
 # source = Hippocrates, cord._2
@@ -338,17 +338,17 @@
 10	ἠέρι	ἀήρ	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_255|t_253|ref=cord._2
 11	.	.	u	u--------	_	5	AuxK	_	t_256|t_250|ref=cord._2
 
-# source = Hippocrates, cord._2-3
+# source = Hippocrates, cord._3
 # text = Τὸν μὲν οὖν ἠέρα χρὴ , γενόμενον θεραπείην , ἀνάγκῃ ὀπίσω τὴν αὐτὴν ὁδὸν ἐκβάλλειν ἔνθεν ἤγαγεν ·
 # sent_id = 20
-1	Τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_257|t_260|ref=cord._2
-2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_258|t_261|ref=cord._2
-3	οὖν	οὖν	d	d--------	_	5	AuxY	_	t_259|t_261|ref=cord._2
-4	ἠέρα	ἀήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	15	SBJ	_	t_260|t_271|ref=cord._2
-5	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_261|0|ref=cord._2
-6	,	,	u	u--------	_	5	AuxX	_	t_262|t_261|ref=cord._2
-7	γενόμενον	γίγνομαι	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	4	ATR	_	t_263|t_260|ref=cord._2
-8	θεραπείην	θεραπείη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	PNOM	_	t_264|t_263|ref=cord._2
+1	Τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_257|t_260|ref=cord._3
+2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_258|t_261|ref=cord._3
+3	οὖν	οὖν	d	d--------	_	5	AuxY	_	t_259|t_261|ref=cord._3
+4	ἠέρα	ἀήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	15	SBJ	_	t_260|t_271|ref=cord._3
+5	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_261|0|ref=cord._3
+6	,	,	u	u--------	_	5	AuxX	_	t_262|t_261|ref=cord._3
+7	γενόμενον	γίγνομαι	v	v-sapmma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	4	ATR	_	t_263|t_260|ref=cord._3
+8	θεραπείην	θεραπείη	n	n-s---fa-	Case=a|Gender=f|Number=s	7	PNOM	_	t_264|t_263|ref=cord._3
 9	,	,	u	u--------	_	5	AuxX	_	t_265|t_261|ref=cord._3
 10	ἀνάγκῃ	ἀνάγκη	n	n-s---fd-	Case=d|Gender=f|Number=s	15	ADV	_	t_266|t_271|ref=cord._3
 11	ὀπίσω	ὀπίσω	d	d--------	_	15	ADV	_	t_267|t_271|ref=cord._3
@@ -435,7 +435,7 @@
 7	ὕδωρ	ὕδωρ	n	n-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_328|t_327|ref=cord._3
 8	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_329|t_330|ref=cord._3
 9	ὠμά	ὠμός	a	a-p---nn-	Case=n|Gender=n|Number=p	7	ATR	_	t_330|t_328|ref=cord._3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=cord._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=cord._3
 11	;	;	u	u--------	_	10	AuxK	_	t_331|e_9|ref=cord._3
 
 # source = Hippocrates, cord._3
@@ -448,18 +448,18 @@
 5	πάθης	πάθος	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_336|t_334|ref=cord._3
 6	.	.	u	u--------	_	3	AuxK	_	t_337|t_334|ref=cord._3
 
-# source = Hippocrates, cord._3-4
+# source = Hippocrates, cord._4
 # text = Περὶ δὲ οὗ ὁ λόγος , ἡ καρδίη μῦς ἐστι κάρτα ἰσχυρὸς , οὐ τῷ νεύρῳ , ἀλλὰ πιλήματι σαρκός .
 # sent_id = 27
-1	Περὶ	περί	r	r--------	_	10	AuxP	_	t_338|t_347|ref=cord._3
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_339|t_347|ref=cord._3
-3	οὗ	ὅς	p	p-s---ng-	Case=g|Gender=m|Number=s	1	ADV	_	t_340|t_338|ref=cord._3
-4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_341|t_342|ref=cord._3
-5	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_342|t_347|ref=cord._3
-6	,	,	u	u--------	_	10	AuxX	_	t_343|t_347|ref=cord._3
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_344|t_345|ref=cord._3
-8	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_345|t_347|ref=cord._3
-9	μῦς	μῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_346|t_347|ref=cord._3
+1	Περὶ	περί	r	r--------	_	10	AuxP	_	t_338|t_347|ref=cord._4
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_339|t_347|ref=cord._4
+3	οὗ	ὅς	p	p-s---ng-	Case=g|Gender=m|Number=s	1	ADV	_	t_340|t_338|ref=cord._4
+4	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_341|t_342|ref=cord._4
+5	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_342|t_347|ref=cord._4
+6	,	,	u	u--------	_	10	AuxX	_	t_343|t_347|ref=cord._4
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_344|t_345|ref=cord._4
+8	καρδίη	καρδίη	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_345|t_347|ref=cord._4
+9	μῦς	μῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_346|t_347|ref=cord._4
 10	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_347|0|ref=cord._4
 11	κάρτα	κάρτα	d	d--------	_	12	AuxZ	_	t_348|t_349|ref=cord._4
 12	ἰσχυρὸς	ἰσχυρός	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_349|t_346|ref=cord._4
@@ -529,7 +529,7 @@
 21	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	20	OBJ	_	t_401|t_400|ref=cord._4
 22	ἐν	ἐν	r	r--------	_	21	AuxP	_	t_402|t_401|ref=cord._4
 23	λαιοῖς	λαιός	a	a-p---nd-	Case=d|Gender=n|Number=p	22	ATR	_	t_403|t_402|ref=cord._4
-24	[0]	[0]	-	---------	_	18	OBJ	_	e_10|t_398|ref=cord._1
+24	[0]	[0]	-	---------	_	18	OBJ	_	e_10|t_398|ref=cord._4
 25	·	·	u	u--------	_	16	AuxK	_	t_404|t_396|ref=cord._4
 
 # source = Hippocrates, cord._4
@@ -579,7 +579,7 @@
 29	ὥσπερ	ὥσπερ	c	c--------	_	28	AuxC	_	t_442|t_441|ref=cord._4
 30	ἔξωθεν	ἔξωθεν	d	d--------	_	31	ADV	_	t_443|t_444|ref=cord._4
 31	προσεῤῥαμμένη	προσεῤῥάμμεθα	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	28	ADV	_	t_444|t_441|ref=cord._4
-32	[0]	[0]	-	---------	_	29	ADV	_	e_11|t_442|ref=cord._1
+32	[0]	[0]	-	---------	_	29	ADV	_	e_11|t_442|ref=cord._4
 33	.	.	u	u--------	_	11	AuxK	_	t_445|t_424|ref=cord._4
 
 # source = Hippocrates, cord._4
@@ -608,20 +608,20 @@
 21	ἅλμα	ἅλμα	n	n-s---na-	Case=a|Gender=n|Number=s	19	OBJ	_	t_466|t_464|ref=cord._4
 22	.	.	u	u--------	_	2	AuxK	_	t_467|t_447|ref=cord._4
 
-# source = Hippocrates, cord._4-5
+# source = Hippocrates, cord._5
 # text = Περίβολον δὲ ἔχει παχὺν , καὶ βόθρον ἐμβεβόθρωται τὸ εἶδος εἴκελον ὅλμῳ .
 # sent_id = 34
-1	Περίβολον	περίβολος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_468|t_470|ref=cord._4
-2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_469|t_473|ref=cord._4
-3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_470|t_473|ref=cord._4
-4	παχὺν	παχύς	a	a-s---ma-	Case=a|Gender=m|Number=s	1	ATR	_	t_471|t_468|ref=cord._4
-5	,	,	u	u--------	_	0	AuxX	_	t_472|0|ref=cord._4
-6	καὶ	καί	c	c--------	_	5	COORD	_	t_473|t_472|ref=cord._4
-7	βόθρον	βόθρος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_474|t_475|ref=cord._4
-8	ἐμβεβόθρωται	ἐμβεβόρωμαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	PRED	_	t_475|t_473|ref=cord._4
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_476|t_477|ref=cord._4
-10	εἶδος	εἶδος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_477|t_475|ref=cord._4
-11	εἴκελον	εἴκελος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_478|t_477|ref=cord._4
+1	Περίβολον	περίβολος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_468|t_470|ref=cord._5
+2	δὲ	δέ	d	d--------	_	6	AuxY	_	t_469|t_473|ref=cord._5
+3	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_470|t_473|ref=cord._5
+4	παχὺν	παχύς	a	a-s---ma-	Case=a|Gender=m|Number=s	1	ATR	_	t_471|t_468|ref=cord._5
+5	,	,	u	u--------	_	0	AuxX	_	t_472|0|ref=cord._5
+6	καὶ	καί	c	c--------	_	5	COORD	_	t_473|t_472|ref=cord._5
+7	βόθρον	βόθρος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_474|t_475|ref=cord._5
+8	ἐμβεβόθρωται	ἐμβεβόρωμαι	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	PRED	_	t_475|t_473|ref=cord._5
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_476|t_477|ref=cord._5
+10	εἶδος	εἶδος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	SBJ	_	t_477|t_475|ref=cord._5
+11	εἴκελον	εἴκελος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_478|t_477|ref=cord._5
 12	ὅλμῳ	ὅλμος	n	n-s---md-	Case=d|Gender=m|Number=s	11	ADV	_	t_479|t_478|ref=cord._5
 13	.	.	u	u--------	_	5	AuxK	_	t_480|t_472|ref=cord._5
 
@@ -655,7 +655,7 @@
 3	πνεύμων	πνεύμων	v	v-sppamn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_501|e_12|ref=cord._5
 4	φύσει	φύσις	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_502|e_12|ref=cord._5
 5	ψυχρός	ψυχρός	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_503|e_12|ref=cord._5
-6	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=cord._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=cord._5
 7	·	·	u	u--------	_	6	AuxK	_	t_504|e_12|ref=cord._5
 
 # source = Hippocrates, cord._5
@@ -666,30 +666,30 @@
 3	ψυχόμενος	ψύχω	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	6	ADV	_	t_507|e_13|ref=cord._5
 4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_508|t_509|ref=cord._5
 5	εἰσπνοῇ	εἰσπνοή	n	n-s---fd-	Case=d|Gender=f|Number=s	3	OBJ	_	t_509|t_507|ref=cord._5
-6	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=cord._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=cord._5
 7	.	.	u	u--------	_	6	AuxK	_	t_510|e_13|ref=cord._5
 
-# source = Hippocrates, cord._5-6
+# source = Hippocrates, cord._6
 # text = Ἄμφω γε μὴν δασεῖαι τὰ ἔνδον καὶ ὥσπερ ὑποδιαβεβρωμέναι , καὶ μᾶλλον τῆς δεξιῆς ἡ λαιή [0] [1] ·
 # sent_id = 38
-1	Ἄμφω	ἄμφω	a	a-p---fn-	Case=n|Gender=m|Number=d	17	SBJ	_	t_511|e_14|ref=cord._5
-2	γε	γε	d	d--------	_	1	AuxZ	_	t_512|t_511|ref=cord._5
-3	μὴν	μήν	d	d--------	_	11	AuxY	_	t_513|t_521|ref=cord._5
-4	δασεῖαι	δασύς	a	a-p---fn-	Case=n|Gender=f|Number=p	17	PNOM	_	t_514|e_14|ref=cord._5
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ADV	_	t_515|t_517|ref=cord._5
-6	ἔνδον	ἔνδον	d	d--------	_	5	ATR	_	t_516|t_515|ref=cord._5
-7	καὶ	καί	d	d--------	_	9	AuxZ	_	t_517|t_519|ref=cord._5
-8	ὥσπερ	ὥσπερ	c	c--------	_	9	AuxZ	_	t_518|t_519|ref=cord._5
-9	ὑποδιαβεβρωμέναι	ὑποδιαβράσσω	v	v-prpefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=r|Voice=e	17	ADV	_	t_519|e_14|ref=cord._5
-10	,	,	u	u--------	_	0	AuxX	_	t_520|0|ref=cord._5
-11	καὶ	καί	c	c--------	_	10	COORD	_	t_521|t_520|ref=cord._5
-12	μᾶλλον	μᾶλλον	d	d-------c	_	18	ADV	_	t_522|e_15|ref=cord._5
-13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_523|t_524|ref=cord._5
+1	Ἄμφω	ἄμφω	a	a-p---fn-	Case=n|Gender=m|Number=d	17	SBJ	_	t_511|e_14|ref=cord._6
+2	γε	γε	d	d--------	_	1	AuxZ	_	t_512|t_511|ref=cord._6
+3	μὴν	μήν	d	d--------	_	11	AuxY	_	t_513|t_521|ref=cord._6
+4	δασεῖαι	δασύς	a	a-p---fn-	Case=n|Gender=f|Number=p	17	PNOM	_	t_514|e_14|ref=cord._6
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ADV	_	t_515|t_517|ref=cord._6
+6	ἔνδον	ἔνδον	d	d--------	_	5	ATR	_	t_516|t_515|ref=cord._6
+7	καὶ	καί	d	d--------	_	9	AuxZ	_	t_517|t_519|ref=cord._6
+8	ὥσπερ	ὥσπερ	c	c--------	_	9	AuxZ	_	t_518|t_519|ref=cord._6
+9	ὑποδιαβεβρωμέναι	ὑποδιαβράσσω	v	v-prpefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=r|Voice=e	17	ADV	_	t_519|e_14|ref=cord._6
+10	,	,	u	u--------	_	0	AuxX	_	t_520|0|ref=cord._6
+11	καὶ	καί	c	c--------	_	10	COORD	_	t_521|t_520|ref=cord._6
+12	μᾶλλον	μᾶλλον	d	d-------c	_	18	ADV	_	t_522|e_15|ref=cord._6
+13	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_523|t_524|ref=cord._6
 14	δεξιῆς	δεξιός	a	a-s---fg-	Case=g|Gender=f|Number=s	12	ADV	_	t_524|t_522|ref=cord._6
 15	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	16	ATR	_	t_525|t_526|ref=cord._6
 16	λαιή	λαιός	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_526|e_15|ref=cord._6
-17	[0]	[0]	-	---------	_	11	PRED	_	e_14|t_521|ref=cord._1
-18	[1]	[1]	-	---------	_	11	PRED	_	e_15|t_521|ref=cord._1
+17	[0]	[0]	-	---------	_	11	PRED	_	e_14|t_521|ref=cord._6
+18	[1]	[1]	-	---------	_	11	PRED	_	e_15|t_521|ref=cord._6
 19	·	·	u	u--------	_	10	AuxK	_	t_527|t_520|ref=cord._6
 
 # source = Hippocrates, cord._6
@@ -713,7 +713,7 @@
 16	λαιὴν	λαιός	n	n-s---fa-	Case=a|Gender=f|Number=s	14	SBJ	_	t_543|t_541|ref=cord._6
 17	ἐσπνέουσαν	εἰσπνέω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_544|t_541|ref=cord._6
 18	ἀκρήτου	ἄκρατος	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_545|t_540|ref=cord._6
-19	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=cord._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=cord._6
 20	·	·	u	u--------	_	19	AuxK	_	t_546|e_16|ref=cord._6
 
 # source = Hippocrates, cord._6
@@ -731,25 +731,25 @@
 10	θερμοῦ	θερμός	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_556|t_554|ref=cord._6
 11	.	.	u	u--------	_	4	AuxK	_	t_557|t_550|ref=cord._6
 
-# source = Hippocrates, cord._6-7
+# source = Hippocrates, cord._7
 # text = Στόματα δʼ αὐτέῃσιν οὐκ ἀνεώγασιν , εἰ μή τις ἀποκείρει τῶν οὐάτων τὴν κορυφὴν καὶ τῆς καρδίης τὴν κεφαλήν ·
 # sent_id = 41
-1	Στόματα	στόμα	n	n-p---na-	Case=n|Gender=n|Number=p	5	OBJ	_	t_558|t_562|ref=cord._6
-2	δʼ	δέ	d	d--------	_	5	AuxY	_	t_559|t_562|ref=cord._6
-3	αὐτέῃσιν	αὐτός	p	p-p---fd-	Case=d|Gender=f|Number=p	5	OBJ	_	t_560|t_562|ref=cord._6
-4	οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_561|t_562|ref=cord._6
-5	ἀνεώγασιν	ἀνοίγνυμι	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	0	PRED	_	t_562|0|ref=cord._6
-6	,	,	u	u--------	_	5	AuxX	_	t_563|t_562|ref=cord._6
-7	εἰ	εἰ	c	c--------	_	5	AuxC	_	t_564|t_562|ref=cord._6
-8	μή	μή	d	d--------	_	10	AuxZ	_	t_565|t_567|ref=cord._6
-9	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_566|t_567|ref=cord._6
-10	ἀποκείρει	ἀποκείρω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	7	ADV	_	t_567|t_564|ref=cord._6
-11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_568|t_569|ref=cord._6
-12	οὐάτων	οὖς	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_569|t_571|ref=cord._6
-13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_570|t_571|ref=cord._6
-14	κορυφὴν	κορυφή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_571|t_572|ref=cord._6
-15	καὶ	καί	c	c--------	_	10	COORD	_	t_572|t_567|ref=cord._6
-16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_573|t_574|ref=cord._6
+1	Στόματα	στόμα	n	n-p---na-	Case=n|Gender=n|Number=p	5	OBJ	_	t_558|t_562|ref=cord._7
+2	δʼ	δέ	d	d--------	_	5	AuxY	_	t_559|t_562|ref=cord._7
+3	αὐτέῃσιν	αὐτός	p	p-p---fd-	Case=d|Gender=f|Number=p	5	OBJ	_	t_560|t_562|ref=cord._7
+4	οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_561|t_562|ref=cord._7
+5	ἀνεώγασιν	ἀνοίγνυμι	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	0	PRED	_	t_562|0|ref=cord._7
+6	,	,	u	u--------	_	5	AuxX	_	t_563|t_562|ref=cord._7
+7	εἰ	εἰ	c	c--------	_	5	AuxC	_	t_564|t_562|ref=cord._7
+8	μή	μή	d	d--------	_	10	AuxZ	_	t_565|t_567|ref=cord._7
+9	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_566|t_567|ref=cord._7
+10	ἀποκείρει	ἀποκείρω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	7	ADV	_	t_567|t_564|ref=cord._7
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_568|t_569|ref=cord._7
+12	οὐάτων	οὖς	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_569|t_571|ref=cord._7
+13	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_570|t_571|ref=cord._7
+14	κορυφὴν	κορυφή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_571|t_572|ref=cord._7
+15	καὶ	καί	c	c--------	_	10	COORD	_	t_572|t_567|ref=cord._7
+16	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	17	ATR	_	t_573|t_574|ref=cord._7
 17	καρδίης	καρδίη	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ATR	_	t_574|t_576|ref=cord._7
 18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_575|t_576|ref=cord._7
 19	κεφαλήν	κεφαλή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_576|t_572|ref=cord._7
@@ -826,29 +826,29 @@
 31	,	,	u	u--------	_	5	AuxX	_	t_635|t_609|ref=cord._7
 32	ἀπέθανεν	ἀποθνῄσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	28	PRED	_	t_636|t_632|ref=cord._7
 33	ὥνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	32	SBJ	_	t_637|t_636|ref=cord._7
-34	[0]	[0]	-	---------	_	20	PRED	_	e_17|t_624|ref=cord._1
+34	[0]	[0]	-	---------	_	20	PRED	_	e_17|t_624|ref=cord._7
 35	.	.	u	u--------	_	5	AuxK	_	t_638|t_609|ref=cord._7
 
-# source = Hippocrates, cord._7-8
+# source = Hippocrates, cord._8
 # text = Ἀγχοῦ δὲ τῆς ἐκφύσιος τῶν φλεβῶν σώματα τῇσι κοιλίῃσιν ἀμφιβεβήκασι , μαλθακὰ , σηραγγώδεα , ἃ κληΐσκεται μὲν οὔατα , τρήματα δὲ οὐκ ἔστιν οὐάτων ·
 # sent_id = 45
-1	Ἀγχοῦ	ἀγχοῦ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_639|t_645|ref=cord._7
-2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_640|t_648|ref=cord._7
-3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_641|t_639|ref=cord._7
-4	ἐκφύσιος	ἐκφύσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_642|t_639|ref=cord._7
-5	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_643|t_644|ref=cord._7
-6	φλεβῶν	φλέψ	n	n-p---fg-	Case=g|Gender=f|Number=p	1	ATR	_	t_644|t_639|ref=cord._7
-7	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_645|t_648|ref=cord._7
-8	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	9	ATR	_	t_646|t_647|ref=cord._7
-9	κοιλίῃσιν	κοιλία	n	n-p---fd-	Case=d|Gender=f|Number=p	10	OBJ	_	t_647|t_648|ref=cord._7
-10	ἀμφιβεβήκασι	ἀμφιβαίνω	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	0	PRED	_	t_648|0|ref=cord._7
-11	,	,	u	u--------	_	10	AuxX	_	t_649|t_648|ref=cord._7
-12	μαλθακὰ	μαλθακός	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_650|t_651|ref=cord._7
-13	,	,	u	u--------	_	7	COORD	_	t_651|t_645|ref=cord._7
-14	σηραγγώδεα	σηραγγώδες	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_652|t_651|ref=cord._7
-15	,	,	u	u--------	_	10	AuxX	_	t_653|t_648|ref=cord._7
-16	ἃ	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	22	SBJ	_	t_654|t_660|ref=cord._7
-17	κληΐσκεται	κλῄζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	22	ATR	_	t_655|t_660|ref=cord._7
+1	Ἀγχοῦ	ἀγχοῦ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_639|t_645|ref=cord._8
+2	δὲ	δέ	d	d--------	_	10	AuxY	_	t_640|t_648|ref=cord._8
+3	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_641|t_639|ref=cord._8
+4	ἐκφύσιος	ἐκφύσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_642|t_639|ref=cord._8
+5	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	6	ATR	_	t_643|t_644|ref=cord._8
+6	φλεβῶν	φλέψ	n	n-p---fg-	Case=g|Gender=f|Number=p	1	ATR	_	t_644|t_639|ref=cord._8
+7	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_645|t_648|ref=cord._8
+8	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	9	ATR	_	t_646|t_647|ref=cord._8
+9	κοιλίῃσιν	κοιλία	n	n-p---fd-	Case=d|Gender=f|Number=p	10	OBJ	_	t_647|t_648|ref=cord._8
+10	ἀμφιβεβήκασι	ἀμφιβαίνω	v	v3pria---	Mood=i|Number=p|Person=3|Tense=r|Voice=a	0	PRED	_	t_648|0|ref=cord._8
+11	,	,	u	u--------	_	10	AuxX	_	t_649|t_648|ref=cord._8
+12	μαλθακὰ	μαλθακός	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_650|t_651|ref=cord._8
+13	,	,	u	u--------	_	7	COORD	_	t_651|t_645|ref=cord._8
+14	σηραγγώδεα	σηραγγώδες	a	a-p---na-	Case=a|Gender=n|Number=p	13	ATR	_	t_652|t_651|ref=cord._8
+15	,	,	u	u--------	_	10	AuxX	_	t_653|t_648|ref=cord._8
+16	ἃ	ὅς	p	p-p---nn-	Case=n|Gender=n|Number=p	22	SBJ	_	t_654|t_660|ref=cord._8
+17	κληΐσκεται	κλῄζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	22	ATR	_	t_655|t_660|ref=cord._8
 18	μὲν	μέν	d	d--------	_	22	AuxY	_	t_656|t_660|ref=cord._8
 19	οὔατα	οὖς	n	n-p---nn-	Case=n|Gender=n|Number=p	17	PNOM	_	t_657|t_655|ref=cord._8
 20	,	,	u	u--------	_	10	AuxX	_	t_658|t_648|ref=cord._8
@@ -892,7 +892,7 @@
 4	ποίημα	ποίημα	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_684|e_18|ref=cord._8
 5	χειρώνακτος	χειρώναξ	n	n-s---mn-	Case=g|Gender=m|Number=s	4	ATR	_	t_685|t_684|ref=cord._8
 6	ἀγαθοῦ	ἀγαθός	a	a-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_686|t_685|ref=cord._8
-7	[0]	[0]	-	---------	_	2	OBJ	_	e_18|t_682|ref=cord._1
+7	[0]	[0]	-	---------	_	2	OBJ	_	e_18|t_682|ref=cord._8
 8	·	·	u	u--------	_	1	AuxK	_	t_687|t_681|ref=cord._8
 
 # source = Hippocrates, cord._8
@@ -932,7 +932,7 @@
 32	χειροῦται	χειρόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	29	ADV	_	t_719|t_716|ref=cord._8
 33	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	34	ATR	_	t_720|t_721|ref=cord._8
 34	πνοήν	πνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	32	OBJ	_	t_721|t_719|ref=cord._8
-35	[0]	[0]	-	---------	_	23	ADV	_	e_19|t_710|ref=cord._1
+35	[0]	[0]	-	---------	_	23	ADV	_	e_19|t_710|ref=cord._8
 36	.	.	u	u--------	_	19	AuxK	_	t_722|t_706|ref=cord._8
 
 # source = Hippocrates, cord._8
@@ -942,7 +942,7 @@
 2	δὲ	δέ	g	g--------	_	0	COORD	_	t_724|0|ref=cord._8
 3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_725|t_726|ref=cord._8
 4	λόγου	λόγος	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_726|t_723|ref=cord._8
-5	[0]	[0]	-	---------	_	2	PRED	_	e_20|t_724|ref=cord._1
+5	[0]	[0]	-	---------	_	2	PRED	_	e_20|t_724|ref=cord._8
 6	·	·	u	u--------	_	2	AuxK	_	t_727|t_724|ref=cord._8
 
 # source = Hippocrates, cord._8
@@ -968,30 +968,30 @@
 18	ξυμπίπτοντα	συμπίτνω	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	17	ATV	_	t_745|t_744|ref=cord._8
 19	.	.	u	u--------	_	5	AuxK	_	t_746|t_732|ref=cord._8
 
-# source = Hippocrates, cord._8-9
+# source = Hippocrates, cord._9
 # text = Διὰ τοῦτο δέ φημι καὶ φλεβία μὲν ἐργάζεται τὴν ἀναπνοὴν ἐς τὴν ἀριστερὴν κοιλίην , ἀρτηρίη δʼ ἐς τὴν ἄλλην [0] ·
 # sent_id = 52
-1	Διὰ	διά	r	r--------	_	4	AuxP	_	t_747|t_750|ref=cord._8
-2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_748|t_747|ref=cord._8
-3	δέ	δέ	d	d--------	_	4	AuxY	_	t_749|t_750|ref=cord._8
-4	φημι	φημί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_750|0|ref=cord._8
-5	καὶ	καί	d	d--------	_	17	AuxY	_	t_751|t_763|ref=cord._8
-6	φλεβία	φλεβίον	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_752|t_754|ref=cord._8
-7	μὲν	μέν	d	d--------	_	17	AuxY	_	t_753|t_763|ref=cord._8
-8	ἐργάζεται	ἐργάζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	17	OBJ	_	t_754|t_763|ref=cord._8
-9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_755|t_756|ref=cord._8
-10	ἀναπνοὴν	ἀναπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_756|t_754|ref=cord._8
-11	ἐς	εἰς	r	r--------	_	8	AuxP	_	t_757|t_754|ref=cord._8
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_758|t_760|ref=cord._8
-13	ἀριστερὴν	ἀριστερός	a	a-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_759|t_760|ref=cord._8
-14	κοιλίην	κοιλίη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_760|t_757|ref=cord._8
-15	,	,	u	u--------	_	4	AuxX	_	t_761|t_750|ref=cord._8
-16	ἀρτηρίη	ἀρτηρίη	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_762|e_21|ref=cord._8
-17	δʼ	δέ	c	c--------	_	4	COORD	_	t_763|t_750|ref=cord._8
-18	ἐς	εἰς	r	r--------	_	21	AuxP	_	t_764|e_21|ref=cord._8
-19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_765|t_766|ref=cord._8
-20	ἄλλην	ἄλλος	p	p-s---fa-	Case=a|Gender=f|Number=s	18	ADV	_	t_766|t_764|ref=cord._8
-21	[0]	[0]	-	---------	_	17	OBJ	_	e_21|t_763|ref=cord._1
+1	Διὰ	διά	r	r--------	_	4	AuxP	_	t_747|t_750|ref=cord._9
+2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_748|t_747|ref=cord._9
+3	δέ	δέ	d	d--------	_	4	AuxY	_	t_749|t_750|ref=cord._9
+4	φημι	φημί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_750|0|ref=cord._9
+5	καὶ	καί	d	d--------	_	17	AuxY	_	t_751|t_763|ref=cord._9
+6	φλεβία	φλεβίον	n	n-s---fn-	Case=n|Gender=f|Number=s	8	SBJ	_	t_752|t_754|ref=cord._9
+7	μὲν	μέν	d	d--------	_	17	AuxY	_	t_753|t_763|ref=cord._9
+8	ἐργάζεται	ἐργάζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	17	OBJ	_	t_754|t_763|ref=cord._9
+9	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	10	ATR	_	t_755|t_756|ref=cord._9
+10	ἀναπνοὴν	ἀναπνοή	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_756|t_754|ref=cord._9
+11	ἐς	εἰς	r	r--------	_	8	AuxP	_	t_757|t_754|ref=cord._9
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_758|t_760|ref=cord._9
+13	ἀριστερὴν	ἀριστερός	a	a-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_759|t_760|ref=cord._9
+14	κοιλίην	κοιλίη	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_760|t_757|ref=cord._9
+15	,	,	u	u--------	_	4	AuxX	_	t_761|t_750|ref=cord._9
+16	ἀρτηρίη	ἀρτηρίη	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_762|e_21|ref=cord._9
+17	δʼ	δέ	c	c--------	_	4	COORD	_	t_763|t_750|ref=cord._9
+18	ἐς	εἰς	r	r--------	_	21	AuxP	_	t_764|e_21|ref=cord._9
+19	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	20	ATR	_	t_765|t_766|ref=cord._9
+20	ἄλλην	ἄλλος	p	p-s---fa-	Case=a|Gender=f|Number=s	18	ADV	_	t_766|t_764|ref=cord._9
+21	[0]	[0]	-	---------	_	17	OBJ	_	e_21|t_763|ref=cord._9
 22	·	·	u	u--------	_	4	AuxK	_	t_767|t_750|ref=cord._9
 
 # source = Hippocrates, cord._9
@@ -1004,7 +1004,7 @@
 5	καὶ	καί	c	c--------	_	8	COORD	_	t_772|e_22|ref=cord._9
 6	ἐπιδόσιας	ἐπιδίδωμι	a	a-p---fa-	Case=a|Gender=f|Number=p	7	OBJ	_	t_773|t_774|ref=cord._9
 7	ἔχον	ἔχω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_774|t_772|ref=cord._9
-8	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=cord._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=cord._9
 9	.	.	u	u--------	_	8	AuxK	_	t_775|e_22|ref=cord._9
 
 # source = Hippocrates, cord._9
@@ -1025,7 +1025,7 @@
 # text = βέβλαπται ἔς τι γὰρ τὸ θερμὸν ἐν τοῖσι δεξιοῖσιν , ὥστε διὰ τὴν πάθην οὐκ ἔλαβεν εὐπετὲς ὄργανον , ἵνα μὴ πάμπαν κρατηθῇ ὑπὸ τοῦ ἐσιόντος .
 # sent_id = 55
 1	βέβλαπται	βάλλω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_786|0|ref=cord._9
-2	ἔς	εἰς	r	r--------	_	1	AuxP	_	t_787|t_786|ref=cord._8
+2	ἔς	εἰς	r	r--------	_	1	AuxP	_	t_787|t_786|ref=cord._9
 3	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_788|t_787|ref=cord._9
 4	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_789|t_786|ref=cord._9
 5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_790|t_791|ref=cord._9
@@ -1052,35 +1052,35 @@
 26	ἐσιόντος	εἴσειμι	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	24	OBJ	_	t_811|t_809|ref=cord._9
 27	.	.	u	u--------	_	1	AuxK	_	t_812|t_786|ref=cord._9
 
-# source = Hippocrates, cord._9
+# source = Hippocrates, cord._10
 # text = Λοιπός ἐστιν ὁ λόγος ὁ τῆς καρδίης ὑμένες ἀφανέες , ἔργον ἀξιαπηγητότατον .
 # sent_id = 56
-1	Λοιπός	λοιπός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	PNOM	_	t_813|t_814|ref=cord._9
-2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_814|0|ref=cord._9
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_815|t_816|ref=cord._9
-4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_816|t_814|ref=cord._9
-5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_817|t_816|ref=cord._9
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_818|t_819|ref=cord._9
-7	καρδίης	καρδίη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_819|t_816|ref=cord._9
-8	ὑμένες	ὑμήν	n	n-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_820|t_816|ref=cord._9
-9	ἀφανέες	ἀφανής	a	a-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_821|t_820|ref=cord._9
-10	,	,	u	u--------	_	2	AuxX	_	t_822|t_814|ref=cord._9
-11	ἔργον	ἔργον	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_823|t_814|ref=cord._9
-12	ἀξιαπηγητότατον	ἀξιαφήγητος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	11	ATR	_	t_824|t_823|ref=cord._9
-13	.	.	u	u--------	_	2	AuxK	_	t_825|t_814|ref=cord._9
+1	Λοιπός	λοιπός	n	n-s---mn-	Case=n|Gender=m|Number=s	2	PNOM	_	t_813|t_814|ref=cord._10
+2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_814|0|ref=cord._10
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_815|t_816|ref=cord._10
+4	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_816|t_814|ref=cord._10
+5	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_817|t_816|ref=cord._10
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_818|t_819|ref=cord._10
+7	καρδίης	καρδίη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_819|t_816|ref=cord._10
+8	ὑμένες	ὑμήν	n	n-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_820|t_816|ref=cord._10
+9	ἀφανέες	ἀφανής	a	a-p---mn-	Case=n|Gender=m|Number=p	8	ATR	_	t_821|t_820|ref=cord._10
+10	,	,	u	u--------	_	2	AuxX	_	t_822|t_814|ref=cord._10
+11	ἔργον	ἔργον	n	n-s---nn-	Case=n|Gender=n|Number=s	2	PNOM	_	t_823|t_814|ref=cord._10
+12	ἀξιαπηγητότατον	ἀξιαφήγητος	a	a-s---nns	Case=n|Degree=s|Gender=n|Number=s	11	ATR	_	t_824|t_823|ref=cord._10
+13	.	.	u	u--------	_	2	AuxK	_	t_825|t_814|ref=cord._10
 
-# source = Hippocrates, cord._9-10
+# source = Hippocrates, cord._10
 # text = Ὑμένες γὰρ καὶ ἄλλοι τινὲς ἐν τῇσι κοιλίῃσιν ὁκοῖον ἀράχναι διαπετέες ζώσαντες πάντη τὰ στόματα , κτηδόνας ἐμβάλλουσιν ἐς τὴν στερεὴν καρδίην [0] .
 # sent_id = 57
-1	Ὑμένες	ὑμήν	n	n-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_826|t_828|ref=cord._9
-2	γὰρ	γάρ	d	d--------	_	18	AuxY	_	t_827|t_843|ref=cord._9
-3	καὶ	καί	c	c--------	_	18	COORD	_	t_828|t_843|ref=cord._9
-4	ἄλλοι	ἄλλος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_829|t_828|ref=cord._9
-5	τινὲς	τις	a	a-p---mn-	Case=n|Gender=c|Number=p	1	ATR	_	t_830|t_826|ref=cord._9
-6	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_831|t_843|ref=cord._9
-7	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_832|t_833|ref=cord._9
-8	κοιλίῃσιν	κοιλία	n	n-p---fd-	Case=d|Gender=f|Number=p	6	ADV	_	t_833|t_831|ref=cord._9
-9	ὁκοῖον	ὁποῖος	a	a-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_834|e_23|ref=cord._9
+1	Ὑμένες	ὑμήν	n	n-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_826|t_828|ref=cord._10
+2	γὰρ	γάρ	d	d--------	_	18	AuxY	_	t_827|t_843|ref=cord._10
+3	καὶ	καί	c	c--------	_	18	COORD	_	t_828|t_843|ref=cord._10
+4	ἄλλοι	ἄλλος	a	a-p---mn-	Case=n|Gender=m|Number=p	3	SBJ	_	t_829|t_828|ref=cord._10
+5	τινὲς	τις	a	a-p---mn-	Case=n|Gender=c|Number=p	1	ATR	_	t_830|t_826|ref=cord._10
+6	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_831|t_843|ref=cord._10
+7	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	8	ATR	_	t_832|t_833|ref=cord._10
+8	κοιλίῃσιν	κοιλία	n	n-p---fd-	Case=d|Gender=f|Number=p	6	ADV	_	t_833|t_831|ref=cord._10
+9	ὁκοῖον	ὁποῖος	a	a-s---na-	Case=a|Gender=n|Number=s	23	ADV	_	t_834|e_23|ref=cord._10
 10	ἀράχναι	ἀράχνη	n	n-p---fn-	Case=n|Gender=f|Number=p	23	SBJ	_	t_835|e_23|ref=cord._10
 11	διαπετέες	διαπετής	a	a-p---mn-	Case=n|Gender=m|Number=p	23	PNOM	_	t_836|e_23|ref=cord._10
 12	ζώσαντες	ζώννυμι	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	18	ADV	_	t_837|t_843|ref=cord._10
@@ -1094,7 +1094,7 @@
 20	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_845|t_847|ref=cord._10
 21	στερεὴν	στερεός	a	a-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_846|t_847|ref=cord._10
 22	καρδίην	καρδίη	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_847|t_844|ref=cord._10
-23	[0]	[0]	-	---------	_	3	ATR	_	e_23|t_828|ref=cord._1
+23	[0]	[0]	-	---------	_	3	ATR	_	e_23|t_828|ref=cord._10
 24	.	.	u	u--------	_	18	AuxK	_	t_848|t_843|ref=cord._10
 
 # source = Hippocrates, cord._10
@@ -1114,7 +1114,7 @@
 12	ἀρχαὶ	ἀρχή	n	n-p---fn-	Case=n|Gender=f|Number=p	15	PNOM	_	t_860|e_24|ref=cord._10
 13	τῇσιν	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	14	ATR	_	t_861|t_862|ref=cord._10
 14	ἀορτῇσιν	ἀορτήρ	n	n-p---fd-	Case=d|Gender=f|Number=p	12	ATR	_	t_862|t_860|ref=cord._10
-15	[0]	[0]	-	---------	_	3	OBJ	_	e_24|t_851|ref=cord._1
+15	[0]	[0]	-	---------	_	3	OBJ	_	e_24|t_851|ref=cord._10
 16	.	.	u	u--------	_	3	AuxK	_	t_863|t_851|ref=cord._10
 
 # source = Hippocrates, cord._10
@@ -1152,8 +1152,8 @@
 30	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	31	ATR	_	t_893|t_894|ref=cord._10
 31	ἀορτέων	ἀορτήρ	n	n-p---mg-	Case=g|Gender=f|Number=p	32	ATR	_	t_894|t_895|ref=cord._10
 32	πέρας	πέρας	n	n-s---nn-	Case=a|Gender=n|Number=s	34	PNOM	_	t_895|e_26|ref=cord._10
-33	[0]	[0]	-	---------	_	8	ADV	_	e_25|t_871|ref=cord._1
-34	[1]	[1]	-	---------	_	25	ADV	_	e_26|t_888|ref=cord._1
+33	[0]	[0]	-	---------	_	8	ADV	_	e_25|t_871|ref=cord._10
+34	[1]	[1]	-	---------	_	25	ADV	_	e_26|t_888|ref=cord._10
 35	·	·	u	u--------	_	2	AuxK	_	t_896|t_865|ref=cord._10
 
 # source = Hippocrates, cord._10
@@ -1202,8 +1202,8 @@
 3	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_933|e_28|ref=cord._10
 4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_934|t_935|ref=cord._10
 5	ἀριστερῆς	ἀριστερός	a	a-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_935|t_933|ref=cord._10
-6	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=cord._1
-7	[1]	[1]	-	---------	_	6	SBJ	_	e_28|e_27|ref=cord._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=cord._10
+7	[1]	[1]	-	---------	_	6	SBJ	_	e_28|e_27|ref=cord._10
 8	·	·	u	u--------	_	6	AuxK	_	t_936|e_27|ref=cord._10
 
 # source = Hippocrates, cord._10
@@ -1237,41 +1237,41 @@
 16	ψυχῆς	ψυχή	n	n-s---fg-	Case=g|Gender=f|Number=s	13	OBJ	_	t_958|t_955|ref=cord._10
 17	.	.	u	u--------	_	11	AuxK	_	t_959|t_953|ref=cord._10
 
-# source = Hippocrates, cord._10
+# source = Hippocrates, cord._11
 # text = Τρέφεται δὲ οὔ τε σιτίοισιν οὔ τε ποτοῖσι τοῖσιν ἀπὸ τῆς νηδύος , ἀλλὰ καθαρῇ καὶ φωτοειδεῖ περιουσίῃ γεγονυίῃ ἐκ τῆς διακρίσιος τοῦ αἵματος .
 # sent_id = 64
-1	Τρέφεται	τρέφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_960|t_961|ref=cord._10
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_961|0|ref=cord._10
-3	οὔ	οὐ	d	d--------	_	5	AuxZ	_	t_962|t_964|ref=cord._10
-4	τε	τε	d	d--------	_	7	AuxY	_	t_963|t_966|ref=cord._10
-5	σιτίοισιν	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	7	OBJ	_	t_964|t_966|ref=cord._10
-6	οὔ	οὐ	d	d--------	_	8	AuxZ	_	t_965|t_967|ref=cord._10
-7	τε	τε	c	c--------	_	14	COORD	_	t_966|t_973|ref=cord._10
-8	ποτοῖσι	ποτός	n	n-p---nd-	Case=d|Gender=n|Number=p	7	OBJ	_	t_967|t_966|ref=cord._10
-9	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_968|t_967|ref=cord._10
-10	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_969|t_967|ref=cord._10
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_970|t_971|ref=cord._10
-12	νηδύος	νηδύς	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_971|t_969|ref=cord._10
-13	,	,	u	u--------	_	1	AuxX	_	t_972|t_960|ref=cord._10
-14	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_973|t_960|ref=cord._10
-15	καθαρῇ	καθαρός	a	a-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_974|t_975|ref=cord._10
-16	καὶ	καί	c	c--------	_	18	COORD	_	t_975|t_977|ref=cord._10
-17	φωτοειδεῖ	φωτοειδής	a	a-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_976|t_975|ref=cord._10
-18	περιουσίῃ	περιουσία	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_977|t_973|ref=cord._10
-19	γεγονυίῃ	γίγνομαι	v	v-srpafd-	Case=d|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	18	ATR	_	t_978|t_977|ref=cord._10
-20	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_979|t_978|ref=cord._10
-21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_980|t_981|ref=cord._10
-22	διακρίσιος	διακρίσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ADV	_	t_981|t_979|ref=cord._10
-23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_982|t_983|ref=cord._10
-24	αἵματος	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_983|t_981|ref=cord._10
-25	.	.	u	u--------	_	2	AuxK	_	t_984|t_961|ref=cord._10
+1	Τρέφεται	τρέφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_960|t_961|ref=cord._11
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_961|0|ref=cord._11
+3	οὔ	οὐ	d	d--------	_	5	AuxZ	_	t_962|t_964|ref=cord._11
+4	τε	τε	d	d--------	_	7	AuxY	_	t_963|t_966|ref=cord._11
+5	σιτίοισιν	σιτίον	n	n-p---nd-	Case=d|Gender=n|Number=p	7	OBJ	_	t_964|t_966|ref=cord._11
+6	οὔ	οὐ	d	d--------	_	8	AuxZ	_	t_965|t_967|ref=cord._11
+7	τε	τε	c	c--------	_	14	COORD	_	t_966|t_973|ref=cord._11
+8	ποτοῖσι	ποτός	n	n-p---nd-	Case=d|Gender=n|Number=p	7	OBJ	_	t_967|t_966|ref=cord._11
+9	τοῖσιν	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_968|t_967|ref=cord._11
+10	ἀπὸ	ἀπό	r	r--------	_	8	AuxP	_	t_969|t_967|ref=cord._11
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_970|t_971|ref=cord._11
+12	νηδύος	νηδύς	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_971|t_969|ref=cord._11
+13	,	,	u	u--------	_	1	AuxX	_	t_972|t_960|ref=cord._11
+14	ἀλλὰ	ἀλλά	c	c--------	_	1	COORD	_	t_973|t_960|ref=cord._11
+15	καθαρῇ	καθαρός	a	a-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_974|t_975|ref=cord._11
+16	καὶ	καί	c	c--------	_	18	COORD	_	t_975|t_977|ref=cord._11
+17	φωτοειδεῖ	φωτοειδής	a	a-s---fd-	Case=d|Gender=f|Number=s	16	ATR	_	t_976|t_975|ref=cord._11
+18	περιουσίῃ	περιουσία	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_977|t_973|ref=cord._11
+19	γεγονυίῃ	γίγνομαι	v	v-srpafd-	Case=d|Gender=f|Mood=p|Number=s|Tense=r|Voice=a	18	ATR	_	t_978|t_977|ref=cord._11
+20	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_979|t_978|ref=cord._11
+21	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	22	ATR	_	t_980|t_981|ref=cord._11
+22	διακρίσιος	διακρίσιος	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ADV	_	t_981|t_979|ref=cord._11
+23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_982|t_983|ref=cord._11
+24	αἵματος	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_983|t_981|ref=cord._11
+25	.	.	u	u--------	_	2	AuxK	_	t_984|t_961|ref=cord._11
 
-# source = Hippocrates, cord._10-11
+# source = Hippocrates, cord._11
 # text = Εὐπορέει δὲ τὴν τροφὴν ἐκ τῆς ἔγγιστα δεξαμένης τοῦ αἵματος , διαβάλλουσα τὰς ἀκτῖνας , καὶ νεμομένη ὥσπερ ἐκ νηδύος καὶ ἐντέρων τὴν τροφὴν , καὶ τοῦτο κατὰ φύσιν [0] ·
 # sent_id = 65
-1	Εὐπορέει	εὐπορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	26	PRED	_	t_985|t_1010|ref=cord._10
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_986|0|ref=cord._10
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_987|t_988|ref=cord._10
+1	Εὐπορέει	εὐπορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	26	PRED	_	t_985|t_1010|ref=cord._11
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_986|0|ref=cord._11
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_987|t_988|ref=cord._11
 4	τροφὴν	τροφή	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_988|t_985|ref=cord._11
 5	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_989|t_985|ref=cord._11
 6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_990|t_992|ref=cord._11
@@ -1298,7 +1298,7 @@
 27	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	30	OBJ	_	t_1011|e_29|ref=cord._11
 28	κατὰ	κατά	r	r--------	_	17	AuxP	_	t_1012|t_1001|ref=cord._11
 29	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	28	ADV	_	t_1013|t_1012|ref=cord._11
-30	[0]	[0]	-	---------	_	18	ADV	_	e_29|t_1002|ref=cord._1
+30	[0]	[0]	-	---------	_	18	ADV	_	e_29|t_1002|ref=cord._11
 31	·	·	u	u--------	_	2	AuxK	_	t_1014|t_986|ref=cord._11
 
 # source = Hippocrates, cord._11
@@ -1359,7 +1359,7 @@
 6	αἵματι	αἷμα	n	n-s---nd-	Case=d|Gender=n|Number=s	4	OBJ	_	t_1059|t_1057|ref=cord._11
 7	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_1060|e_30|ref=cord._11
 8	ὧδε	ὧδε	d	d--------	_	9	ADV	_	t_1061|e_30|ref=cord._11
-9	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=cord._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=cord._11
 10	·	·	u	u--------	_	9	AuxK	_	t_1062|e_30|ref=cord._11
 
 # source = Hippocrates, cord._11
@@ -1409,8 +1409,8 @@
 9	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_1100|t_1102|ref=cord._11
 10	δεξιὴ	δεξιός	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_1101|t_1102|ref=cord._11
 11	κοιλίη	κοιλίη	n	n-s---fn-	Case=n|Gender=f|Number=s	13	SBJ	_	t_1102|e_32|ref=cord._11
-12	[0]	[0]	-	---------	_	8	PRED	_	e_31|t_1099|ref=cord._1
-13	[1]	[1]	-	---------	_	8	PRED	_	e_32|t_1099|ref=cord._1
+12	[0]	[0]	-	---------	_	8	PRED	_	e_31|t_1099|ref=cord._11
+13	[1]	[1]	-	---------	_	8	PRED	_	e_32|t_1099|ref=cord._11
 14	.	.	u	u--------	_	6	AuxK	_	t_1103|t_1097|ref=cord._11
 
 # source = Hippocrates, cord._11
@@ -1429,49 +1429,49 @@
 11	πρόφασις	πρόφασις	n	n-s---fn-	Case=n|Gender=f|Number=s	14	SBJ	_	t_1114|e_33|ref=cord._11
 12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1115|t_1116|ref=cord._11
 13	ὑμένων	ὑμήν	a	a-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1116|t_1114|ref=cord._11
-14	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=cord._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=cord._11
 15	.	.	u	u--------	_	14	AuxK	_	t_1117|e_33|ref=cord._11
 
-# source = Hippocrates, cord._11
+# source = Hippocrates, cord._12
 # text = Τὸ δʼ αὖ φερόμενον ἐκ τῆς δεξιῆς , ζυγοῦται μὲν καὶ τοῦτο τῇ ξυμβολῇ τῶν ὑμένων , πλὴν οὐ κάρτα ἔθρωσκεν ὑπὸ ἀσθενείης ·
 # sent_id = 72
-1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1118|t_1121|ref=cord._11
-2	δʼ	δέ	d	d--------	_	9	AuxY	_	t_1119|t_1126|ref=cord._11
-3	αὖ	αὖ	d	d--------	_	4	ADV	_	t_1120|t_1121|ref=cord._11
-4	φερόμενον	φέρω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	9	SBJ	_	t_1121|t_1126|ref=cord._11
-5	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_1122|t_1121|ref=cord._11
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1123|t_1124|ref=cord._11
-7	δεξιῆς	δεξιός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_1124|t_1122|ref=cord._11
-8	,	,	u	u--------	_	9	AuxX	_	t_1125|t_1126|ref=cord._11
-9	ζυγοῦται	ζυγόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1126|0|ref=cord._11
-10	μὲν	μέν	d	d--------	_	9	AuxY	_	t_1127|t_1126|ref=cord._11
-11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_1128|t_1129|ref=cord._11
-12	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_1129|t_1126|ref=cord._11
-13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	14	ATR	_	t_1130|t_1131|ref=cord._11
-14	ξυμβολῇ	συμβολή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_1131|t_1126|ref=cord._11
-15	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_1132|t_1133|ref=cord._11
-16	ὑμένων	ὑμήν	p	p-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_1133|t_1131|ref=cord._11
-17	,	,	u	u--------	_	9	AuxX	_	t_1134|t_1126|ref=cord._11
-18	πλὴν	πλήν	c	c--------	_	9	AuxC	_	t_1135|t_1126|ref=cord._11
-19	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_1136|t_1137|ref=cord._11
-20	κάρτα	κάρτα	d	d--------	_	21	ADV	_	t_1137|t_1138|ref=cord._11
-21	ἔθρωσκεν	θνήσκω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	18	ADV	_	t_1138|t_1135|ref=cord._11
-22	ὑπὸ	ὑπό	r	r--------	_	21	AuxP	_	t_1139|t_1138|ref=cord._11
-23	ἀσθενείης	ἀσθενής	n	n-s---fg-	Case=g|Gender=f|Number=s	22	OBJ	_	t_1140|t_1139|ref=cord._11
-24	·	·	u	u--------	_	9	AuxK	_	t_1141|t_1126|ref=cord._11
+1	Τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1118|t_1121|ref=cord._12
+2	δʼ	δέ	d	d--------	_	9	AuxY	_	t_1119|t_1126|ref=cord._12
+3	αὖ	αὖ	d	d--------	_	4	ADV	_	t_1120|t_1121|ref=cord._12
+4	φερόμενον	φέρω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	9	SBJ	_	t_1121|t_1126|ref=cord._12
+5	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_1122|t_1121|ref=cord._12
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1123|t_1124|ref=cord._12
+7	δεξιῆς	δεξιός	a	a-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_1124|t_1122|ref=cord._12
+8	,	,	u	u--------	_	9	AuxX	_	t_1125|t_1126|ref=cord._12
+9	ζυγοῦται	ζυγόω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1126|0|ref=cord._12
+10	μὲν	μέν	d	d--------	_	9	AuxY	_	t_1127|t_1126|ref=cord._12
+11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_1128|t_1129|ref=cord._12
+12	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_1129|t_1126|ref=cord._12
+13	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	14	ATR	_	t_1130|t_1131|ref=cord._12
+14	ξυμβολῇ	συμβολή	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_1131|t_1126|ref=cord._12
+15	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	16	ATR	_	t_1132|t_1133|ref=cord._12
+16	ὑμένων	ὑμήν	p	p-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_1133|t_1131|ref=cord._12
+17	,	,	u	u--------	_	9	AuxX	_	t_1134|t_1126|ref=cord._12
+18	πλὴν	πλήν	c	c--------	_	9	AuxC	_	t_1135|t_1126|ref=cord._12
+19	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_1136|t_1137|ref=cord._12
+20	κάρτα	κάρτα	d	d--------	_	21	ADV	_	t_1137|t_1138|ref=cord._12
+21	ἔθρωσκεν	θνήσκω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	18	ADV	_	t_1138|t_1135|ref=cord._12
+22	ὑπὸ	ὑπό	r	r--------	_	21	AuxP	_	t_1139|t_1138|ref=cord._12
+23	ἀσθενείης	ἀσθενής	n	n-s---fg-	Case=g|Gender=f|Number=s	22	OBJ	_	t_1140|t_1139|ref=cord._12
+24	·	·	u	u--------	_	9	AuxK	_	t_1141|t_1126|ref=cord._12
 
-# source = Hippocrates, cord._11-12
+# source = Hippocrates, cord._12
 # text = ἀλλʼ ἀνοίγεται μὲν ἐς πνεύμονα , ὡς αἷμα παρασχεῖν αὐτῷ εἰς τὴν τροφὴν , κλείεται δὲ ἐς τὴν καρδίην οὐχ ἁρμῷ , ὅκως ἐσίῃ μὲν ὁ ἠὴρ , οὐ πάνυ δὲ πουλύς [0] ·
 # sent_id = 73
-1	ἀλλʼ	ἀλλά	c	c--------	_	16	AuxY	_	t_1142|t_1157|ref=cord._11
-2	ἀνοίγεται	ἀνοίγνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	PRED	_	t_1143|t_1157|ref=cord._11
-3	μὲν	μέν	d	d--------	_	16	AuxY	_	t_1144|t_1157|ref=cord._11
-4	ἐς	εἰς	r	r--------	_	2	AuxP	_	t_1145|t_1143|ref=cord._11
-5	πνεύμονα	πνεύμων	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1146|t_1145|ref=cord._11
-6	,	,	u	u--------	_	0	AuxX	_	t_1147|0|ref=cord._11
-7	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_1148|t_1143|ref=cord._11
-8	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_1149|t_1150|ref=cord._11
-9	παρασχεῖν	παρέχω	v	v--ana---	Mood=n|Tense=a|Voice=a	7	ADV	_	t_1150|t_1148|ref=cord._11
+1	ἀλλʼ	ἀλλά	c	c--------	_	16	AuxY	_	t_1142|t_1157|ref=cord._12
+2	ἀνοίγεται	ἀνοίγνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	PRED	_	t_1143|t_1157|ref=cord._12
+3	μὲν	μέν	d	d--------	_	16	AuxY	_	t_1144|t_1157|ref=cord._12
+4	ἐς	εἰς	r	r--------	_	2	AuxP	_	t_1145|t_1143|ref=cord._12
+5	πνεύμονα	πνεύμων	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1146|t_1145|ref=cord._12
+6	,	,	u	u--------	_	0	AuxX	_	t_1147|0|ref=cord._12
+7	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_1148|t_1143|ref=cord._12
+8	αἷμα	αἷμα	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_1149|t_1150|ref=cord._12
+9	παρασχεῖν	παρέχω	v	v--ana---	Mood=n|Tense=a|Voice=a	7	ADV	_	t_1150|t_1148|ref=cord._12
 10	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_1151|t_1150|ref=cord._12
 11	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_1152|t_1150|ref=cord._12
 12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_1153|t_1154|ref=cord._12
@@ -1495,7 +1495,7 @@
 30	πάνυ	πάνυ	d	d--------	_	32	ADV	_	t_1171|t_1173|ref=cord._12
 31	δὲ	δέ	c	c--------	_	23	COORD	_	t_1172|t_1164|ref=cord._12
 32	πουλύς	πολύπους	d	d--------	Case=n|Gender=m|Number=s	33	ADV	_	t_1173|e_34|ref=cord._12
-33	[0]	[0]	-	---------	_	31	ADV	_	e_34|t_1172|ref=cord._1
+33	[0]	[0]	-	---------	_	31	ADV	_	e_34|t_1172|ref=cord._12
 34	·	·	u	u--------	_	6	AuxK	_	t_1174|t_1147|ref=cord._12
 
 # source = Hippocrates, cord._12
@@ -1510,7 +1510,7 @@
 7	δυναστευόμενον	δυναστεύω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	10	ADV	_	t_1181|e_35|ref=cord._12
 8	κρήματι	κράς	n	n-s---nd-	Case=d|Gender=n|Number=s	7	OBJ	_	t_1182|t_1181|ref=cord._12
 9	ψυχροῦ	ψυχρός	a	a-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_1183|t_1182|ref=cord._12
-10	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=cord._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=cord._12
 11	·	·	u	u--------	_	10	AuxK	_	t_1184|e_35|ref=cord._12
 
 # source = Hippocrates, cord._12
@@ -1534,7 +1534,7 @@
 16	,	,	u	u--------	_	9	AuxX	_	t_1200|t_1193|ref=cord._12
 17	ἀλλὰ	ἀλλά	c	c--------	_	9	COORD	_	t_1201|t_1193|ref=cord._12
 18	θερμαίνεται	θερμαίνω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	17	PRED	_	t_1202|t_1201|ref=cord._12
-19	[0]	[0]	-	---------	_	17	PRED	_	e_36|t_1201|ref=cord._1
+19	[0]	[0]	-	---------	_	17	PRED	_	e_36|t_1201|ref=cord._12
 20	·	·	u	u--------	_	9	AuxK	_	t_1203|t_1193|ref=cord._12
 
 # source = Hippocrates, cord._12

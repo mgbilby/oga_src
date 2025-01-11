@@ -116,7 +116,7 @@
 26	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	27	ATR	_	t_93|t_94|ref=Ajax_2
 27	νεκροῦ	νεκρός	n	n-s---mg-	Case=g|Gender=m|Number=s	28	OBJ	_	t_94|t_95|ref=Ajax_2
 28	κρατῆσαι	κρατέω	v	v--ana---	Mood=n|Tense=a|Voice=a	25	OBJ	_	t_95|t_92|ref=Ajax_2
-29	[0]	[0]	-	---------	_	12	PRED	_	e_1|t_79|ref=Ajax_1
+29	[0]	[0]	-	---------	_	12	PRED	_	e_1|t_79|ref=Ajax_2
 30	.	.	u	u--------	_	10	AuxK	_	t_96|t_77|ref=Ajax_2
 
 # source = Antisthenes, Ajax_2
@@ -151,7 +151,7 @@
 5	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_119|t_121|ref=Ajax_2
 6	ἂν	ἄν	d	d--------	_	7	AuxY	_	t_120|t_121|ref=Ajax_2
 7	ἀνέθεσαν	ἀνατίθημι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	PRED	_	t_121|t_124|ref=Ajax_2
-8	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_122|t_123|ref=Ajax_2
+8	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_122|t_123|ref=Ajax_3
 9	θεοῖς	θεός	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_123|t_121|ref=Ajax_3
 10	ἀλλ᾿	ἀλλά	c	c--------	_	0	COORD	_	t_124|0|ref=Ajax_3
 11	ἀπέκρυψαν	ἀποκρύπτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	PRED	_	t_125|t_124|ref=Ajax_3
@@ -231,10 +231,10 @@
 16	ὅπλα	ὅπλον	n	n-p---na-	Case=n|Gender=n|Number=p	14	SBJ	_	t_191|t_189|ref=Ajax_3
 17	.	.	u	u--------	_	7	AuxK	_	t_192|t_182|ref=Ajax_3
 
-# source = Antisthenes, Ajax_3-4
+# source = Antisthenes, Ajax_4
 # text = Σχεδὸν μὲν οὖν ἐστιν ἅπαντα ὅμοια .
 # sent_id = 11
-1	Σχεδὸν	σχεδόν	n	n-s---ma-	Case=n|Gender=n|Number=s	4	PNOM	_	t_193|t_196|ref=Ajax_3
+1	Σχεδὸν	σχεδόν	n	n-s---ma-	Case=n|Gender=n|Number=s	4	PNOM	_	t_193|t_196|ref=Ajax_4
 2	μὲν	μέν	d	d--------	_	4	AuxY	_	t_194|t_196|ref=Ajax_4
 3	οὖν	οὖν	d	d--------	_	4	AuxY	_	t_195|t_196|ref=Ajax_4
 4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_196|0|ref=Ajax_4
@@ -299,14 +299,14 @@
 22	νοσήματα	νόσημα	n	n-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_247|t_246|ref=Ajax_4
 23	ἄλλῳ	ἄλλος	p	p-s---md-	Case=d|Gender=m|Number=s	21	OBJ	_	t_248|t_246|ref=Ajax_4
 24	παρείη	πάρειμι	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	18	ADV	_	t_249|t_243|ref=Ajax_4
-25	[0]	[0]	-	---------	_	18	ADV	_	e_2|t_243|ref=Ajax_1
+25	[0]	[0]	-	---------	_	18	ADV	_	e_2|t_243|ref=Ajax_4
 26	.	.	u	u--------	_	3	AuxK	_	t_250|t_228|ref=Ajax_4
 
-# source = Antisthenes, Ajax_4-5
+# source = Antisthenes, Ajax_5
 # text = Καὶ εἰ μὲν ἦν μοι πρὸς ἄνδρα ὁμοιότροπον , οὐδ᾿ ἂν ἡττᾶσθαί μοι διέφερε ·
 # sent_id = 14
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_251|0|ref=Ajax_4
-2	εἰ	εἰ	c	c--------	_	14	AuxC	_	t_252|t_264|ref=Ajax_4
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_251|0|ref=Ajax_5
+2	εἰ	εἰ	c	c--------	_	14	AuxC	_	t_252|t_264|ref=Ajax_5
 3	μὲν	μέν	d	d--------	_	14	AuxY	_	t_253|t_264|ref=Ajax_5
 4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	ADV	_	t_254|t_252|ref=Ajax_5
 5	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	4	ADV	_	t_255|t_254|ref=Ajax_5
@@ -387,15 +387,15 @@
 23	κερδαίνειν	κερδαίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	25	OBJ	_	t_318|t_320|ref=Ajax_5
 24	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_319|t_318|ref=Ajax_5
 25	μέλλοι	μέλλω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	22	ADV	_	t_320|t_317|ref=Ajax_5
-26	[0]	[0]	-	---------	_	17	PRED	_	e_3|t_312|ref=Ajax_1
+26	[0]	[0]	-	---------	_	17	PRED	_	e_3|t_312|ref=Ajax_5
 27	·	·	u	u--------	_	9	AuxK	_	t_321|t_304|ref=Ajax_5
 
-# source = Antisthenes, Ajax_5-6
+# source = Antisthenes, Ajax_6
 # text = ὅστις γε μαστιγοῦν παρεῖχε τοῖς δούλοις καὶ τύπτειν ξύλοις τὰ νῶτα καὶ πυγμαῖς τὸ πρόσωπον , κ ἄπειτα περιβαλόμενος ῥάκη , τῆς νυκτὸς εἰς τὸ τεῖχος εἰσδὺς τῶν πολεμίων , ἱεροσυλήσας ἀπῆλθε .
 # sent_id = 18
-1	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_322|t_338|ref=Ajax_5
-2	γε	γε	d	d--------	_	1	AuxZ	_	t_323|t_322|ref=Ajax_5
-3	μαστιγοῦν	μαστιγόω	d	d--------	_	4	ADV	_	t_324|t_325|ref=Ajax_5
+1	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_322|t_338|ref=Ajax_6
+2	γε	γε	d	d--------	_	1	AuxZ	_	t_323|t_322|ref=Ajax_6
+3	μαστιγοῦν	μαστιγόω	d	d--------	_	4	ADV	_	t_324|t_325|ref=Ajax_6
 4	παρεῖχε	παρέχω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	17	ATR	_	t_325|t_338|ref=Ajax_6
 5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_326|t_327|ref=Ajax_6
 6	δούλοις	δοῦλος	n	n-p---md-	Case=d|Gender=m|Number=p	4	OBJ	_	t_327|t_325|ref=Ajax_6
@@ -461,12 +461,12 @@
 11	κρατῆσαι	κρατέω	v	v--ana---	Mood=n|Tense=a|Voice=a	10	OBJ	_	t_379|t_378|ref=Ajax_6
 12	;	;	u	u--------	_	10	AuxK	_	t_380|t_378|ref=Ajax_6
 
-# source = Antisthenes, Ajax_6-7
+# source = Antisthenes, Ajax_7
 # text = Ἐγὼ μὲν οὖν ὑμῖν λέγω τοῖς οὐδὲν εἰδόσι κριταῖς καὶ δικασταῖς , μὴ εἰς τοὺς λόγους σκοπεῖν περὶ ἀρετῆς κρίνοντας , ἀλλ᾿ εἰς τὰ ἔργα μᾶλλον .
 # sent_id = 21
-1	Ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_381|t_385|ref=Ajax_6
-2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_382|t_385|ref=Ajax_6
-3	οὖν	οὖν	d	d--------	_	5	AuxY	_	t_383|t_385|ref=Ajax_6
+1	Ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_381|t_385|ref=Ajax_7
+2	μὲν	μέν	d	d--------	_	5	AuxY	_	t_382|t_385|ref=Ajax_7
+3	οὖν	οὖν	d	d--------	_	5	AuxY	_	t_383|t_385|ref=Ajax_7
 4	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_384|t_385|ref=Ajax_7
 5	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_385|0|ref=Ajax_7
 6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_386|t_389|ref=Ajax_7
@@ -550,9 +550,9 @@
 9	ὅτι	ὅτι	c	c--------	_	8	AuxC	_	t_448|t_447|ref=Ajax_7
 10	οὐδεμίαν	οὐδείς	a	a-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_449|t_454|ref=Ajax_7
 11	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	27	OBJ	_	t_450|t_466|ref=Ajax_7
-12	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_451|t_450|ref=Ajax_7
-13	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_452|t_451|ref=Ajax_7
-14	ἔργον	ἔργον	n	n-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_453|t_452|ref=Ajax_7
+12	λόγος	λόγος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_451|t_450|ref=Ajax_8
+13	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_452|t_451|ref=Ajax_8
+14	ἔργον	ἔργον	n	n-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_453|t_452|ref=Ajax_8
 15	ἰσχύν	ἰσχύς	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_454|t_450|ref=Ajax_8
 16	,	,	u	u--------	_	8	AuxX	_	t_455|t_447|ref=Ajax_8
 17	οὐδ᾿	οὐδέ	c	c--------	_	9	COORD	_	t_456|t_448|ref=Ajax_8
@@ -643,12 +643,12 @@
 11	κάθησθε	κάθημαι	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	4	OBJ	_	t_529|t_522|ref=Ajax_8
 12	.	.	u	u--------	_	3	AuxK	_	t_530|t_521|ref=Ajax_8
 
-# source = Antisthenes, Ajax_8-9
+# source = Antisthenes, Ajax_9
 # text = ἐγὼ δὲ διαγιγνώσκειν μὲν ὑμῖν περὶ ἐμοῦ καὶ τῶν ἐμῶν ἐπιτρέπω , διαδοξάζειν δὲ ἅπασιν ἀπαγορεύω , καὶ ταῦτα περὶ ἀνδρὸς ὃς οὐχ ἑκὼν ἀλλ᾿ ἄκων ἀφῖκται εἰς Τροίαν , καὶ περὶ ἐμοῦ ὃς πρῶτος ἀεὶ καὶ μόνος ἄνευ τείχους τέταγμαι [0] .
 # sent_id = 29
-1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_531|t_544|ref=Ajax_8
-2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_532|t_544|ref=Ajax_8
-3	διαγιγνώσκειν	διαγιγνώσκω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_533|t_541|ref=Ajax_8
+1	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_531|t_544|ref=Ajax_9
+2	δὲ	δέ	d	d--------	_	14	AuxY	_	t_532|t_544|ref=Ajax_9
+3	διαγιγνώσκειν	διαγιγνώσκω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	OBJ	_	t_533|t_541|ref=Ajax_9
 4	μὲν	μέν	d	d--------	_	14	AuxY	_	t_534|t_544|ref=Ajax_9
 5	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_535|t_533|ref=Ajax_9
 6	περὶ	περί	r	r--------	_	3	AuxP	_	t_536|t_533|ref=Ajax_9
@@ -687,6 +687,6 @@
 39	ἄνευ	ἄνευ	r	r--------	_	41	AuxP	_	t_569|t_571|ref=Ajax_9
 40	τείχους	τεῖχος	n	n-s---ng-	Case=g|Gender=n|Number=s	39	ADV	_	t_570|t_569|ref=Ajax_9
 41	τέταγμαι	τάσσω	v	v1srie---	Mood=i|Number=s|Person=1|Tense=r|Voice=e	33	ATR	_	t_571|t_563|ref=Ajax_9
-42	[0]	[0]	-	---------	_	18	PRED	_	e_4|t_548|ref=Ajax_1
+42	[0]	[0]	-	---------	_	18	PRED	_	e_4|t_548|ref=Ajax_9
 43	.	.	u	u--------	_	12	AuxK	_	t_572|t_542|ref=Ajax_9
 

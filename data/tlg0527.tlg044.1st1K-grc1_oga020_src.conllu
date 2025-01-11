@@ -26,10 +26,10 @@
 23	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Zeph_1.1
 24	.	.	u	u--------	_	23	AuxK	_	t_23|e_1|ref=Zeph_1.1
 
-# source = Septuaginta, Zeph_1.1-1.2
+# source = Septuaginta, Zeph_1.2
 # text = Ἐκλείψει ἐκλιπέτω ἀπὸ προσώπου τῆς γῆς , λέγει Κύριος ·
 # sent_id = 2
-1	Ἐκλείψει	ἐκλείπω	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_24|t_25|ref=Zeph_1.1
+1	Ἐκλείψει	ἐκλείπω	n	n-s---fd-	Case=d|Gender=f|Number=s	2	ADV	_	t_24|t_25|ref=Zeph_1.2
 2	ἐκλιπέτω	ἐκλείπω	v	v3sama---	Mood=m|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_25|0|ref=Zeph_1.2
 3	ἀπὸ	ἀπό	r	r--------	_	2	AuxP	_	t_26|t_25|ref=Zeph_1.2
 4	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	3	OBJ	_	t_27|t_26|ref=Zeph_1.2
@@ -40,10 +40,10 @@
 9	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	SBJ	_	t_32|t_31|ref=Zeph_1.2
 10	·	·	u	u--------	_	2	AuxK	_	t_33|t_25|ref=Zeph_1.2
 
-# source = Septuaginta, Zeph_1.2-1.3
+# source = Septuaginta, Zeph_1.3
 # text = ἐκλιπέτω ἄνθρωπος καὶ κτήνη , ἐκλιπέτω τὰ πετεινὰ τοῦ οὐρανοῦ καὶ οἱ ἰχθύες τῆς θαλάσσης ·
 # sent_id = 3
-1	ἐκλιπέτω	ἐκλείπω	v	v3sama---	Mood=m|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_34|t_38|ref=Zeph_1.2
+1	ἐκλιπέτω	ἐκλείπω	v	v3sama---	Mood=m|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_34|t_38|ref=Zeph_1.3
 2	ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_35|t_36|ref=Zeph_1.3
 3	καὶ	καί	c	c--------	_	1	COORD	_	t_36|t_34|ref=Zeph_1.3
 4	κτήνη	κτῆνος	n	n-p---nn-	Case=n|Gender=n|Number=p	3	OBJ	_	t_37|t_36|ref=Zeph_1.3
@@ -81,10 +81,10 @@
 16	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_65|t_64|ref=Zeph_1.3
 17	.	.	u	u--------	_	5	AuxK	_	t_66|t_54|ref=Zeph_1.3
 
-# source = Septuaginta, Zeph_1.3-1.4
+# source = Septuaginta, Zeph_1.4
 # text = καὶ ἐκτενῶ τὴν χεῖρά μου ἐπὶ Ἰούδαν καὶ ἐπὶ πάντας τοὺς κατοικοῦντας Ἰερουσαλήμ ·
 # sent_id = 5
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_67|t_68|ref=Zeph_1.3
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_67|t_68|ref=Zeph_1.4
 2	ἐκτενῶ	ἐκτείνω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_68|0|ref=Zeph_1.4
 3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_69|t_70|ref=Zeph_1.4
 4	χεῖρά	χείρ	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_70|t_68|ref=Zeph_1.4
@@ -118,7 +118,7 @@
 14	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	15	ATR	_	t_94|t_95|ref=Zeph_1.4
 15	ἱερέων	ἱερεύς	n	n-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_95|t_93|ref=Zeph_1.4
 16	,	,	u	u--------	_	2	AuxX	_	t_96|t_82|ref=Zeph_1.4
-17	καὶ	καί	c	c--------	_	60	AuxY	_	t_97|t_140|ref=Zeph_1.4
+17	καὶ	καί	c	c--------	_	60	AuxY	_	t_97|t_140|ref=Zeph_1.5
 18	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	19	ATR	_	t_98|t_99|ref=Zeph_1.5
 19	προσκυνοῦντας	προσκυνέω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	60	OBJ	_	t_99|t_140|ref=Zeph_1.5
 20	ἐπὶ	ἐπί	r	r--------	_	19	AuxP	_	t_100|t_99|ref=Zeph_1.5
@@ -147,7 +147,7 @@
 43	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	41	ADV	_	t_123|t_121|ref=Zeph_1.5
 44	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	43	ATR	_	t_124|t_123|ref=Zeph_1.5
 45	,	,	u	u--------	_	2	AuxX	_	t_125|t_82|ref=Zeph_1.5
-46	καὶ	καί	c	c--------	_	60	AuxY	_	t_126|t_140|ref=Zeph_1.5
+46	καὶ	καί	c	c--------	_	60	AuxY	_	t_126|t_140|ref=Zeph_1.6
 47	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	48	ATR	_	t_127|t_128|ref=Zeph_1.6
 48	ἐκκλίνοντας	ἀποστρέφω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	60	OBJ	_	t_128|t_140|ref=Zeph_1.6
 49	ἀπὸ	ἀπό	r	r--------	_	48	AuxP	_	t_129|t_128|ref=Zeph_1.6
@@ -169,10 +169,10 @@
 65	κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	63	OBJ	_	t_145|t_143|ref=Zeph_1.6
 66	.	.	u	u--------	_	2	AuxK	_	t_146|t_82|ref=Zeph_1.6
 
-# source = Septuaginta, Zeph_1.6-1.7
+# source = Septuaginta, Zeph_1.7
 # text = Εὐλαβεῖσθε ἀπὸ προσώπου Κυρίου τοῦ θεοῦ , διότι ἐγγὺς ἡμέρα τοῦ κυρίου , ὅτι ἡτοίμακεν Κύριος τὴν θυσίαν αὐτοῦ , ἡγίακεν τοὺς κλητοὺς αὐτοῦ [0] .
 # sent_id = 7
-1	Εὐλαβεῖσθε	εὐλαβέομαι	v	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_147|0|ref=Zeph_1.6
+1	Εὐλαβεῖσθε	εὐλαβέομαι	v	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	0	PRED	_	t_147|0|ref=Zeph_1.7
 2	ἀπὸ	ἀπό	r	r--------	_	1	AuxP	_	t_148|t_147|ref=Zeph_1.7
 3	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	2	ADV	_	t_149|t_148|ref=Zeph_1.7
 4	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_150|t_149|ref=Zeph_1.7
@@ -196,14 +196,14 @@
 22	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	23	ATR	_	t_168|t_169|ref=Zeph_1.7
 23	κλητοὺς	κλητός	n	n-p---ma-	Case=a|Gender=m|Number=p	21	OBJ	_	t_169|t_167|ref=Zeph_1.7
 24	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	23	ATR	_	t_170|t_169|ref=Zeph_1.7
-25	[0]	[0]	-	---------	_	8	OBJ	_	e_2|t_154|ref=Zeph_1.1
+25	[0]	[0]	-	---------	_	8	OBJ	_	e_2|t_154|ref=Zeph_1.7
 26	.	.	u	u--------	_	1	AuxK	_	t_171|t_147|ref=Zeph_1.7
 
-# source = Septuaginta, Zeph_1.7-1.8
+# source = Septuaginta, Zeph_1.8
 # text = καὶ ἔσται ἐν ἡμέρᾳ θυσίας Κυρίου καὶ ἐκδικήσω ἐπὶ τοὺς ἄρχοντας καὶ ἐπὶ τὸν οἶκον τοῦ βασιλέως καὶ ἐπὶ πάντας τοὺς ἐνδεδυμένους ἐνδύματα ἀλλότρια ·
 # sent_id = 8
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_172|t_178|ref=Zeph_1.7
-2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	7	PRED	_	t_173|t_178|ref=Zeph_1.7
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_172|t_178|ref=Zeph_1.8
+2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	7	PRED	_	t_173|t_178|ref=Zeph_1.8
 3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_174|t_173|ref=Zeph_1.8
 4	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	3	PNOM	_	t_175|t_174|ref=Zeph_1.8
 5	θυσίας	θυσία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_176|t_175|ref=Zeph_1.8
@@ -228,11 +228,11 @@
 24	ἀλλότρια	ἀλλότριος	a	a-p---na-	Case=a|Gender=n|Number=p	23	ATR	_	t_195|t_194|ref=Zeph_1.8
 25	·	·	u	u--------	_	7	AuxK	_	t_196|t_178|ref=Zeph_1.8
 
-# source = Septuaginta, Zeph_1.8-1.9
+# source = Septuaginta, Zeph_1.9
 # text = καὶ ἐκδικήσω ἐμφανῶς ἐπὶ τὰ πρόπυλα ἐν ἐκείνῃ τῇ ἡμέρᾳ , τοὺς πληροῦντας τὸν οἶκον Κυρίου θεοῦ αὐτῶν ἀσεβείας καὶ δόλου .
 # sent_id = 9
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_197|t_198|ref=Zeph_1.8
-2	ἐκδικήσω	ἐκδικέω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_198|0|ref=Zeph_1.8
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_197|t_198|ref=Zeph_1.9
+2	ἐκδικήσω	ἐκδικέω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_198|0|ref=Zeph_1.9
 3	ἐμφανῶς	ἐμφανής	d	d--------	_	2	ADV	_	t_199|t_198|ref=Zeph_1.9
 4	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_200|t_198|ref=Zeph_1.9
 5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_201|t_202|ref=Zeph_1.9
@@ -254,11 +254,11 @@
 21	δόλου	δόλος	n	n-s---mg-	Case=g|Gender=m|Number=s	20	OBJ	_	t_217|t_216|ref=Zeph_1.9
 22	.	.	u	u--------	_	2	AuxK	_	t_218|t_198|ref=Zeph_1.9
 
-# source = Septuaginta, Zeph_1.9-1.10
+# source = Septuaginta, Zeph_1.10
 # text = καὶ ἔσται ἐν τῇ ἡμέρᾳ ἐκείνῃ , λέγει Κύριος , φωνὴ κραυγῆς ἀπὸ πύλης ἀποκεντούντων , καὶ ὀλολυγμὸς ἀπὸ τῆς δευτέρας , καὶ συντριμμὸς μέγας ἀπὸ τῶν βουνῶν .
 # sent_id = 10
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_219|t_220|ref=Zeph_1.9
-2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_220|0|ref=Zeph_1.9
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_219|t_220|ref=Zeph_1.10
+2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_220|0|ref=Zeph_1.10
 3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_221|t_220|ref=Zeph_1.10
 4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_222|t_223|ref=Zeph_1.10
 5	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	3	PNOM	_	t_223|t_221|ref=Zeph_1.10
@@ -287,11 +287,11 @@
 28	βουνῶν	βουνός	n	n-p---mg-	Case=g|Gender=m|Number=p	26	ATR	_	t_246|t_244|ref=Zeph_1.10
 29	.	.	u	u--------	_	2	AuxK	_	t_247|t_220|ref=Zeph_1.10
 
-# source = Septuaginta, Zeph_1.10-1.11
+# source = Septuaginta, Zeph_1.11
 # text = θρηνήσατε , οἱ κατοικοῦντες τὴν κατακεκομμένην , ὅτι ὡμοιώθη πᾶς ὁ λαὸς Χανάαν , ἐξωλεθρεύθησαν πάντες οἱ ἐπηρμένοι ἀργυρίῳ .
 # sent_id = 11
-1	θρηνήσατε	θρηνέω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_248|0|ref=Zeph_1.10
-2	,	,	u	u--------	_	1	AuxX	_	t_249|t_248|ref=Zeph_1.10
+1	θρηνήσατε	θρηνέω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_248|0|ref=Zeph_1.11
+2	,	,	u	u--------	_	1	AuxX	_	t_249|t_248|ref=Zeph_1.11
 3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_250|t_251|ref=Zeph_1.11
 4	κατοικοῦντες	κατοικέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	SBJ	_	t_251|t_248|ref=Zeph_1.11
 5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_252|t_253|ref=Zeph_1.11
@@ -311,11 +311,11 @@
 19	ἀργυρίῳ	ἀργύριον	n	n-s---nd-	Case=d|Gender=n|Number=s	18	OBJ	_	t_266|t_265|ref=Zeph_1.11
 20	.	.	u	u--------	_	1	AuxK	_	t_267|t_248|ref=Zeph_1.11
 
-# source = Septuaginta, Zeph_1.11-1.12
+# source = Septuaginta, Zeph_1.12
 # text = καὶ ἔσται ἐν τῇ ἡμέρᾳ ἐκείνῃ ἐξερευνήσω τὴν Ἰερουσαλὴμ μετὰ λύχνου , καὶ ἐκδικήσω ἐπὶ τοὺς ἄνδρας τοὺς καταφρονοῦντας ἐπὶ τὰ φυλάγματα αὐτῶν ·
 # sent_id = 12
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_268|t_269|ref=Zeph_1.11
-2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	13	AuxY	_	t_269|t_280|ref=Zeph_1.11
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_268|t_269|ref=Zeph_1.12
+2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	13	AuxY	_	t_269|t_280|ref=Zeph_1.12
 3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_270|t_269|ref=Zeph_1.12
 4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_271|t_272|ref=Zeph_1.12
 5	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	3	ADV	_	t_272|t_270|ref=Zeph_1.12
@@ -358,8 +358,8 @@
 14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_305|t_306|ref=Zeph_1.12
 15	κακώσῃ	κακόω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	13	OBJ	_	t_306|t_304|ref=Zeph_1.12
 16	,	,	u	u--------	_	0	AuxX	_	t_307|0|ref=Zeph_1.12
-17	καὶ	καί	c	c--------	_	25	AuxY	_	t_308|t_316|ref=Zeph_1.12
-18	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	25	PRED	_	t_309|t_316|ref=Zeph_1.12
+17	καὶ	καί	c	c--------	_	25	AuxY	_	t_308|t_316|ref=Zeph_1.13
+18	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	25	PRED	_	t_309|t_316|ref=Zeph_1.13
 19	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	20	ATR	_	t_310|t_311|ref=Zeph_1.13
 20	δύναμις	δύναμις	n	n-s---fn-	Case=n|Gender=f|Number=s	18	SBJ	_	t_311|t_309|ref=Zeph_1.13
 21	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	20	ATR	_	t_312|t_311|ref=Zeph_1.13
@@ -372,7 +372,7 @@
 28	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_319|t_318|ref=Zeph_1.13
 29	εἰς	εἰς	r	r--------	_	31	AuxP	_	t_320|e_3|ref=Zeph_1.13
 30	ἀφανισμόν	ἀφανισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	29	PNOM	_	t_321|t_320|ref=Zeph_1.13
-31	[0]	[0]	-	---------	_	25	PRED	_	e_3|t_316|ref=Zeph_1.1
+31	[0]	[0]	-	---------	_	25	PRED	_	e_3|t_316|ref=Zeph_1.13
 32	·	·	u	u--------	_	16	AuxK	_	t_322|t_307|ref=Zeph_1.13
 
 # source = Septuaginta, Zeph_1.13
@@ -400,12 +400,12 @@
 20	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	19	ATR	_	t_342|t_341|ref=Zeph_1.13
 21	.	.	u	u--------	_	10	AuxK	_	t_343|t_332|ref=Zeph_1.13
 
-# source = Septuaginta, Zeph_1.13-1.14
+# source = Septuaginta, Zeph_1.14
 # text = Ὅτι ἐγγὺς ἡμέρα Κυρίου ἡ μεγάλη , ἐγγὺς καὶ ταχεῖα σφόδρα [0] ·
 # sent_id = 15
-1	Ὅτι	ὅτι	c	c--------	_	12	AuxC	_	t_344|e_4|ref=Zeph_1.13
-2	ἐγγὺς	ἐγγύς	d	d--------	_	12	PNOM	_	t_345|e_4|ref=Zeph_1.13
-3	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_346|e_4|ref=Zeph_1.13
+1	Ὅτι	ὅτι	c	c--------	_	12	AuxC	_	t_344|e_4|ref=Zeph_1.14
+2	ἐγγὺς	ἐγγύς	d	d--------	_	12	PNOM	_	t_345|e_4|ref=Zeph_1.14
+3	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_346|e_4|ref=Zeph_1.14
 4	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_347|t_346|ref=Zeph_1.14
 5	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_348|t_346|ref=Zeph_1.14
 6	μεγάλη	μέγας	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_349|t_346|ref=Zeph_1.14
@@ -414,7 +414,7 @@
 9	καὶ	καί	c	c--------	_	12	COORD	_	t_352|e_4|ref=Zeph_1.14
 10	ταχεῖα	ταχύς	a	a-s---fn-	Case=n|Gender=f|Number=s	9	PNOM	_	t_353|t_352|ref=Zeph_1.14
 11	σφόδρα	σφόδρα	d	d--------	_	9	ADV	_	t_354|t_352|ref=Zeph_1.14
-12	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Zeph_1.1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Zeph_1.14
 13	·	·	u	u--------	_	12	AuxK	_	t_355|e_4|ref=Zeph_1.14
 
 # source = Septuaginta, Zeph_1.14
@@ -431,13 +431,13 @@
 9	δυνατή	δυνατός	a	a-s---fn-	Case=n|Gender=f|Number=s	1	ATV	_	t_364|t_356|ref=Zeph_1.14
 10	.	.	u	u--------	_	7	AuxK	_	t_365|t_362|ref=Zeph_1.14
 
-# source = Septuaginta, Zeph_1.14-1.16
+# source = Septuaginta, Zeph_1.15-1.16
 # text = ἡμέρα ὀργῆς , ἡ ἡμέρα ἐκείνη , ἡμέρα θλίψεως καὶ ἀνάγκης , ἡμέρα ἀωρίας καὶ ἀφανισμοῦ , ἡμέρα σκότους καὶ γνόφου , ἡμέρα νεφέλης καὶ ὁμίχλης , ἡμέρα σάλπιγγος καὶ κραυγῆς ἐπὶ τὰς πόλεις τὰς ὀχυρὰς καὶ ἐπὶ τὰς γωνίας τὰς ὑψηλάς [0] .
 # sent_id = 17
-1	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	43	SBJ	_	t_366|e_5|ref=Zeph_1.14
-2	ὀργῆς	ὀργή	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_367|t_366|ref=Zeph_1.14
-3	,	,	u	u--------	_	43	AuxX	_	t_368|e_5|ref=Zeph_1.14
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_369|t_370|ref=Zeph_1.14
+1	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	43	SBJ	_	t_366|e_5|ref=Zeph_1.15
+2	ὀργῆς	ὀργή	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_367|t_366|ref=Zeph_1.15
+3	,	,	u	u--------	_	43	AuxX	_	t_368|e_5|ref=Zeph_1.15
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_369|t_370|ref=Zeph_1.15
 5	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	1	APOS	_	t_370|t_366|ref=Zeph_1.15
 6	ἐκείνη	ἐκεῖνος	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_371|t_370|ref=Zeph_1.15
 7	,	,	u	u--------	_	43	AuxX	_	t_372|e_5|ref=Zeph_1.15
@@ -461,10 +461,10 @@
 25	καὶ	καί	c	c--------	_	20	COORD	_	t_390|t_385|ref=Zeph_1.15
 26	ὁμίχλης	ὁμίχλη	n	n-s---fg-	Case=g|Gender=f|Number=s	25	ATR	_	t_391|t_390|ref=Zeph_1.15
 27	,	,	u	u--------	_	43	COORD	_	t_392|e_5|ref=Zeph_1.15
-28	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	27	PNOM	_	t_393|t_392|ref=Zeph_1.15
-29	σάλπιγγος	σάλπιγξ	n	n-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_394|t_395|ref=Zeph_1.15
-30	καὶ	καί	c	c--------	_	28	COORD	_	t_395|t_393|ref=Zeph_1.15
-31	κραυγῆς	κραυγή	n	n-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_396|t_395|ref=Zeph_1.15
+28	ἡμέρα	ἡμέρα	n	n-s---fn-	Case=n|Gender=f|Number=s	27	PNOM	_	t_393|t_392|ref=Zeph_1.16
+29	σάλπιγγος	σάλπιγξ	n	n-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_394|t_395|ref=Zeph_1.16
+30	καὶ	καί	c	c--------	_	28	COORD	_	t_395|t_393|ref=Zeph_1.16
+31	κραυγῆς	κραυγή	n	n-s---fg-	Case=g|Gender=f|Number=s	30	ATR	_	t_396|t_395|ref=Zeph_1.16
 32	ἐπὶ	ἐπί	r	r--------	_	37	AuxP	_	t_397|t_402|ref=Zeph_1.16
 33	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	34	ATR	_	t_398|t_399|ref=Zeph_1.16
 34	πόλεις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	32	ATR	_	t_399|t_397|ref=Zeph_1.16
@@ -476,17 +476,17 @@
 40	γωνίας	γωνία	n	n-p---fa-	Case=a|Gender=f|Number=p	38	ADV	_	t_405|t_403|ref=Zeph_1.16
 41	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	40	ATR	_	t_406|t_405|ref=Zeph_1.16
 42	ὑψηλάς	ὑψηλός	a	a-p---fa-	Case=a|Gender=f|Number=p	40	ATR	_	t_407|t_405|ref=Zeph_1.16
-43	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Zeph_1.1
+43	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Zeph_1.16
 44	.	.	u	u--------	_	43	AuxK	_	t_408|e_5|ref=Zeph_1.16
 
-# source = Septuaginta, Zeph_1.16-1.17
+# source = Septuaginta, Zeph_1.17
 # text = καὶ ἐκθλίψω τοὺς ἀνθρώπους , καὶ πορεύσονται ὡς τυφλοί , ὅτι τῷ κυρίῳ ἐξήμαρτον ·
 # sent_id = 18
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_409|t_414|ref=Zeph_1.16
-2	ἐκθλίψω	ἐκθλίψω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	6	PRED	_	t_410|t_414|ref=Zeph_1.16
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_411|t_412|ref=Zeph_1.16
-4	ἀνθρώπους	ἄνθρωπος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_412|t_410|ref=Zeph_1.16
-5	,	,	u	u--------	_	0	AuxX	_	t_413|0|ref=Zeph_1.16
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_409|t_414|ref=Zeph_1.17
+2	ἐκθλίψω	ἐκθλίψω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	6	PRED	_	t_410|t_414|ref=Zeph_1.17
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_411|t_412|ref=Zeph_1.17
+4	ἀνθρώπους	ἄνθρωπος	n	n-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_412|t_410|ref=Zeph_1.17
+5	,	,	u	u--------	_	0	AuxX	_	t_413|0|ref=Zeph_1.17
 6	καὶ	καί	c	c--------	_	5	COORD	_	t_414|t_413|ref=Zeph_1.17
 7	πορεύσονται	πορεύω	v	v3pfim---	Mood=i|Number=p|Person=3|Tense=f|Voice=m	6	PRED	_	t_415|t_414|ref=Zeph_1.17
 8	ὡς	ὡς	d	d--------	_	9	AuxZ	_	t_416|t_417|ref=Zeph_1.17
@@ -515,18 +515,18 @@
 12	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=m|Number=p	11	ATR	_	t_435|t_434|ref=Zeph_1.17
 13	ὡς	ὡς	c	c--------	_	15	AuxC	_	t_436|e_6|ref=Zeph_1.17
 14	βόλβιτα	βόλβιτον	a	a-p---na-	Case=a|Gender=n|Number=p	15	PNOM	_	t_437|e_6|ref=Zeph_1.17
-15	[0]	[0]	-	---------	_	9	PRED	_	e_6|t_432|ref=Zeph_1.1
+15	[0]	[0]	-	---------	_	9	PRED	_	e_6|t_432|ref=Zeph_1.17
 16	·	·	u	u--------	_	8	AuxK	_	t_438|t_431|ref=Zeph_1.17
 
-# source = Septuaginta, Zeph_1.17-1.18
+# source = Septuaginta, Zeph_1.18
 # text = καὶ τὸ ἀργύριον αὐτῶν καὶ τὸ χρυσίον αὐτῶν οὐ μὴ δύνηται ἐξελέσθαι αὐτοὺς ἐν ἡμέρᾳ ὀργῆς Κυρίου .
 # sent_id = 20
-1	καὶ	καί	d	d--------	_	11	AuxY	_	t_439|t_449|ref=Zeph_1.17
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_440|t_441|ref=Zeph_1.17
-3	ἀργύριον	ἀργύριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_441|t_443|ref=Zeph_1.17
-4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_442|t_441|ref=Zeph_1.17
-5	καὶ	καί	c	c--------	_	11	COORD	_	t_443|t_449|ref=Zeph_1.17
-6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_444|t_445|ref=Zeph_1.17
+1	καὶ	καί	d	d--------	_	11	AuxY	_	t_439|t_449|ref=Zeph_1.18
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_440|t_441|ref=Zeph_1.18
+3	ἀργύριον	ἀργύριον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_441|t_443|ref=Zeph_1.18
+4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_442|t_441|ref=Zeph_1.18
+5	καὶ	καί	c	c--------	_	11	COORD	_	t_443|t_449|ref=Zeph_1.18
+6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_444|t_445|ref=Zeph_1.18
 7	χρυσίον	χρυσίον	n	n-s---nn-	Case=n|Gender=n|Number=s	5	SBJ	_	t_445|t_443|ref=Zeph_1.18
 8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_446|t_445|ref=Zeph_1.18
 9	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_447|t_449|ref=Zeph_1.18
@@ -566,24 +566,24 @@
 21	γῆν	γῆ	n	n-s---fa-	Case=a|Gender=f|Number=s	19	OBJ	_	t_477|t_475|ref=Zeph_1.18
 22	.	.	u	u--------	_	6	AuxK	_	t_478|t_462|ref=Zeph_1.18
 
-# source = Septuaginta, Zeph_1.18-2.2
+# source = Septuaginta, Zeph_2.1-2.2
 # text = Συνάχθητε καὶ συνδέθητε , τὸ ἔθνος τὸ ἀπαίδευτον , πρὸ τοῦ γενέσθαι ὑμᾶς ὡς ἄνθος παραπορευόμενον , πρὸ τοῦ ἐπελθεῖν ἐφʼ ὑμᾶς ὀργὴν Κυρίου , πρὸ τοῦ ἐπελθεῖν ἐφʼ ὑμᾶς ἡμέραν θυμοῦ Κυρίου .
 # sent_id = 22
-1	Συνάχθητε	συνάγω	v	v2pamp---	Mood=m|Number=p|Person=2|Tense=a|Voice=p	2	PRED	_	t_479|t_480|ref=Zeph_1.18
-2	καὶ	καί	c	c--------	_	4	COORD	_	t_480|t_482|ref=Zeph_1.18
-3	συνδέθητε	συνδέομαι	v	v2pasa---	Mood=m|Number=p|Person=2|Tense=a|Voice=p	2	PRED	_	t_481|t_480|ref=Zeph_1.18
-4	,	,	u	u--------	_	0	AuxX	_	t_482|0|ref=Zeph_1.18
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_483|t_484|ref=Zeph_1.18
-6	ἔθνος	ἔθνος	n	n-s---nn-	Case=n|Gender=n|Number=s	2	SBJ	_	t_484|t_480|ref=Zeph_1.18
+1	Συνάχθητε	συνάγω	v	v2pamp---	Mood=m|Number=p|Person=2|Tense=a|Voice=p	2	PRED	_	t_479|t_480|ref=Zeph_2.1
+2	καὶ	καί	c	c--------	_	4	COORD	_	t_480|t_482|ref=Zeph_2.1
+3	συνδέθητε	συνδέομαι	v	v2pasa---	Mood=m|Number=p|Person=2|Tense=a|Voice=p	2	PRED	_	t_481|t_480|ref=Zeph_2.1
+4	,	,	u	u--------	_	0	AuxX	_	t_482|0|ref=Zeph_2.1
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_483|t_484|ref=Zeph_2.1
+6	ἔθνος	ἔθνος	n	n-s---nn-	Case=n|Gender=n|Number=s	2	SBJ	_	t_484|t_480|ref=Zeph_2.1
 7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	8	ATR	_	t_485|t_486|ref=Zeph_2.1
 8	ἀπαίδευτον	ἀπαίδευτος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_486|t_484|ref=Zeph_2.1
 9	,	,	u	u--------	_	4	AuxX	_	t_487|t_482|ref=Zeph_2.1
-10	πρὸ	πρό	r	r--------	_	2	AuxP	_	t_488|t_480|ref=Zeph_2.1
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_489|t_490|ref=Zeph_2.1
-12	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	10	ADV	_	t_490|t_488|ref=Zeph_2.1
-13	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	12	SBJ	_	t_491|t_490|ref=Zeph_2.1
-14	ὡς	ὡς	c	c--------	_	16	AuxP	_	t_492|t_494|ref=Zeph_2.1
-15	ἄνθος	ἄνθος	n	n-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_493|t_492|ref=Zeph_2.1
+10	πρὸ	πρό	r	r--------	_	2	AuxP	_	t_488|t_480|ref=Zeph_2.2
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_489|t_490|ref=Zeph_2.2
+12	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	10	ADV	_	t_490|t_488|ref=Zeph_2.2
+13	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	12	SBJ	_	t_491|t_490|ref=Zeph_2.2
+14	ὡς	ὡς	c	c--------	_	16	AuxP	_	t_492|t_494|ref=Zeph_2.2
+15	ἄνθος	ἄνθος	n	n-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_493|t_492|ref=Zeph_2.2
 16	παραπορευόμενον	παραπορεύομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_494|t_490|ref=Zeph_2.2
 17	,	,	u	u--------	_	4	AuxX	_	t_495|t_482|ref=Zeph_2.2
 18	πρὸ	πρό	r	r--------	_	25	AuxP	_	t_496|t_503|ref=Zeph_2.2
@@ -604,15 +604,15 @@
 33	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	32	ATR	_	t_511|t_510|ref=Zeph_2.2
 34	.	.	u	u--------	_	4	AuxK	_	t_512|t_482|ref=Zeph_2.2
 
-# source = Septuaginta, Zeph_2.2-2.3
+# source = Septuaginta, Zeph_2.3
 # text = ζητήσατε τὸν κύριον , πάντες ταπεινοὶ γῆς ·
 # sent_id = 23
-1	ζητήσατε	ζητέω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_513|0|ref=Zeph_2.2
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_514|t_515|ref=Zeph_2.2
-3	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_515|t_513|ref=Zeph_2.2
-4	,	,	u	u--------	_	1	AuxX	_	t_516|t_513|ref=Zeph_2.2
-5	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_517|t_518|ref=Zeph_2.2
-6	ταπεινοὶ	ταπεινός	a	a-p---mv-	Case=n|Gender=m|Number=p	1	ExD	_	t_518|t_513|ref=Zeph_2.2
+1	ζητήσατε	ζητέω	v	v2pama---	Mood=m|Number=p|Person=2|Tense=a|Voice=a	0	PRED	_	t_513|0|ref=Zeph_2.3
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_514|t_515|ref=Zeph_2.3
+3	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_515|t_513|ref=Zeph_2.3
+4	,	,	u	u--------	_	1	AuxX	_	t_516|t_513|ref=Zeph_2.3
+5	πάντες	πᾶς	a	a-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_517|t_518|ref=Zeph_2.3
+6	ταπεινοὶ	ταπεινός	a	a-p---mv-	Case=n|Gender=m|Number=p	1	ExD	_	t_518|t_513|ref=Zeph_2.3
 7	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_519|t_518|ref=Zeph_2.3
 8	·	·	u	u--------	_	1	AuxK	_	t_520|t_513|ref=Zeph_2.3
 
@@ -637,15 +637,15 @@
 16	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_536|t_535|ref=Zeph_2.3
 17	.	.	u	u--------	_	6	AuxK	_	t_537|t_526|ref=Zeph_2.3
 
-# source = Septuaginta, Zeph_2.3-2.4
+# source = Septuaginta, Zeph_2.4
 # text = Διότι Γάζα διηρπασμένη ἔσται , καὶ Ἀσκάλων εἰς ἀφανισμόν , καὶ Ἄζωτος μεσημβρίας ἐκριφήσεται , καὶ Ἀκκαρὼν ἐκριζωθήσεται [0] .
 # sent_id = 25
-1	Διότι	διότι	d	d--------	Case=d|Gender=f|Number=s	4	ADV	_	t_538|t_541|ref=Zeph_2.3
-2	Γάζα	γάζα	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_539|t_541|ref=Zeph_2.3
-3	διηρπασμένη	διαρπάζω	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	4	PNOM	_	t_540|t_541|ref=Zeph_2.3
-4	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	16	PRED	_	t_541|t_553|ref=Zeph_2.3
-5	,	,	u	u--------	_	0	AuxX	_	t_542|0|ref=Zeph_2.3
-6	καὶ	καί	d	d--------	_	16	AuxY	_	t_543|t_553|ref=Zeph_2.3
+1	Διότι	διότι	d	d--------	Case=d|Gender=f|Number=s	4	ADV	_	t_538|t_541|ref=Zeph_2.4
+2	Γάζα	γάζα	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_539|t_541|ref=Zeph_2.4
+3	διηρπασμένη	διαρπάζω	v	v-srpefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	4	PNOM	_	t_540|t_541|ref=Zeph_2.4
+4	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	16	PRED	_	t_541|t_553|ref=Zeph_2.4
+5	,	,	u	u--------	_	0	AuxX	_	t_542|0|ref=Zeph_2.4
+6	καὶ	καί	d	d--------	_	16	AuxY	_	t_543|t_553|ref=Zeph_2.4
 7	Ἀσκάλων	ἀσκάλων	n	n-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_544|e_7|ref=Zeph_2.4
 8	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_545|e_7|ref=Zeph_2.4
 9	ἀφανισμόν	ἀφανισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	PNOM	_	t_546|t_545|ref=Zeph_2.4
@@ -658,23 +658,23 @@
 16	καὶ	καί	c	c--------	_	5	COORD	_	t_553|t_542|ref=Zeph_2.4
 17	Ἀκκαρὼν	ἀκκαρών	n	n-s---mn-	Case=n|Gender=m|Number=s	18	SBJ	_	t_554|t_555|ref=Zeph_2.4
 18	ἐκριζωθήσεται	ἐκριζόω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	16	PRED	_	t_555|t_553|ref=Zeph_2.4
-19	[0]	[0]	-	---------	_	16	PRED	_	e_7|t_553|ref=Zeph_1.1
+19	[0]	[0]	-	---------	_	16	PRED	_	e_7|t_553|ref=Zeph_2.4
 20	.	.	u	u--------	_	5	AuxK	_	t_556|t_542|ref=Zeph_2.4
 
-# source = Septuaginta, Zeph_2.4-2.5
+# source = Septuaginta, Zeph_2.5
 # text = οὐαὶ οἱ κατοικοῦντες τὸ σχοίνισμα τῆς θαλάσσης , πάροικοι Κρητῶν [0] ·
 # sent_id = 26
-1	οὐαὶ	οὐαί	d	d--------	_	11	AuxY	_	t_557|e_8|ref=Zeph_2.4
-2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_558|t_559|ref=Zeph_2.4
-3	κατοικοῦντες	κατοικέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_559|t_564|ref=Zeph_2.4
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_560|t_561|ref=Zeph_2.4
-5	σχοίνισμα	σχοίνισμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_561|t_559|ref=Zeph_2.4
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_562|t_563|ref=Zeph_2.4
-7	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_563|t_561|ref=Zeph_2.4
+1	οὐαὶ	οὐαί	d	d--------	_	11	AuxY	_	t_557|e_8|ref=Zeph_2.5
+2	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	3	ATR	_	t_558|t_559|ref=Zeph_2.5
+3	κατοικοῦντες	κατοικέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	8	SBJ	_	t_559|t_564|ref=Zeph_2.5
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_560|t_561|ref=Zeph_2.5
+5	σχοίνισμα	σχοίνισμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_561|t_559|ref=Zeph_2.5
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_562|t_563|ref=Zeph_2.5
+7	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_563|t_561|ref=Zeph_2.5
 8	,	,	u	u--------	_	11	APOS	_	t_564|e_8|ref=Zeph_2.5
 9	πάροικοι	πάροικος	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_565|t_564|ref=Zeph_2.5
 10	Κρητῶν	κρής	n	n-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_566|t_565|ref=Zeph_2.5
-11	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Zeph_1.1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Zeph_2.5
 12	·	·	u	u--------	_	11	AuxK	_	t_567|e_8|ref=Zeph_2.5
 
 # source = Septuaginta, Zeph_2.5
@@ -694,30 +694,30 @@
 12	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_579|t_578|ref=Zeph_2.5
 13	ἐκ	ἐκ	r	r--------	_	11	AuxP	_	t_580|t_578|ref=Zeph_2.5
 14	κατοικίας	κατοικία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ADV	_	t_581|t_580|ref=Zeph_2.5
-15	[0]	[0]	-	---------	_	10	PRED	_	e_9|t_577|ref=Zeph_1.1
+15	[0]	[0]	-	---------	_	10	PRED	_	e_9|t_577|ref=Zeph_2.5
 16	·	·	u	u--------	_	6	AuxK	_	t_582|t_573|ref=Zeph_2.5
 
-# source = Septuaginta, Zeph_2.5-2.7
+# source = Septuaginta, Zeph_2.6-2.7
 # text = καὶ ἔσται Κρήτη νομὴ ποιμνίων καὶ μάνδρα προβάτων , καὶ ἔσται τὸ σχοίνισμα τῆς θαλάσσης τοῖς καταλοίποις οἴκου Ἰούδα ·
 # sent_id = 28
-1	καὶ	καί	d	d--------	_	10	AuxY	_	t_583|t_592|ref=Zeph_2.5
-2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	10	PRED	_	t_584|t_592|ref=Zeph_2.5
-3	Κρήτη	κρήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_585|t_584|ref=Zeph_2.5
-4	νομὴ	νομή	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_586|t_588|ref=Zeph_2.5
-5	ποιμνίων	ποίμνιον	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_587|t_586|ref=Zeph_2.5
-6	καὶ	καί	c	c--------	_	2	COORD	_	t_588|t_584|ref=Zeph_2.5
-7	μάνδρα	μάνδρα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_589|t_588|ref=Zeph_2.5
-8	προβάτων	πρόβατον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_590|t_589|ref=Zeph_2.5
-9	,	,	u	u--------	_	0	AuxX	_	t_591|0|ref=Zeph_2.5
-10	καὶ	καί	c	c--------	_	9	COORD	_	t_592|t_591|ref=Zeph_2.6
-11	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	10	PRED	_	t_593|t_592|ref=Zeph_2.6
-12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_594|t_595|ref=Zeph_2.6
-13	σχοίνισμα	σχοίνισμα	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_595|t_593|ref=Zeph_2.6
-14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_596|t_597|ref=Zeph_2.6
-15	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_597|t_595|ref=Zeph_2.6
-16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_598|t_599|ref=Zeph_2.6
-17	καταλοίποις	καταλείπω	a	a-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_599|t_593|ref=Zeph_2.6
-18	οἴκου	οἶκος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_600|t_599|ref=Zeph_2.6
+1	καὶ	καί	d	d--------	_	10	AuxY	_	t_583|t_592|ref=Zeph_2.6
+2	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	10	PRED	_	t_584|t_592|ref=Zeph_2.6
+3	Κρήτη	κρήτη	n	n-s---fn-	Case=n|Gender=f|Number=s	2	SBJ	_	t_585|t_584|ref=Zeph_2.6
+4	νομὴ	νομή	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_586|t_588|ref=Zeph_2.6
+5	ποιμνίων	ποίμνιον	n	n-p---ng-	Case=g|Gender=n|Number=p	4	ATR	_	t_587|t_586|ref=Zeph_2.6
+6	καὶ	καί	c	c--------	_	2	COORD	_	t_588|t_584|ref=Zeph_2.6
+7	μάνδρα	μάνδρα	n	n-s---fn-	Case=n|Gender=f|Number=s	6	PNOM	_	t_589|t_588|ref=Zeph_2.6
+8	προβάτων	πρόβατον	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_590|t_589|ref=Zeph_2.6
+9	,	,	u	u--------	_	0	AuxX	_	t_591|0|ref=Zeph_2.6
+10	καὶ	καί	c	c--------	_	9	COORD	_	t_592|t_591|ref=Zeph_2.7
+11	ἔσται	εἰμί	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	10	PRED	_	t_593|t_592|ref=Zeph_2.7
+12	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_594|t_595|ref=Zeph_2.7
+13	σχοίνισμα	σχοίνισμα	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_595|t_593|ref=Zeph_2.7
+14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_596|t_597|ref=Zeph_2.7
+15	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_597|t_595|ref=Zeph_2.7
+16	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	17	ATR	_	t_598|t_599|ref=Zeph_2.7
+17	καταλοίποις	καταλείπω	a	a-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_599|t_593|ref=Zeph_2.7
+18	οἴκου	οἶκος	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_600|t_599|ref=Zeph_2.7
 19	Ἰούδα	ἰούδας	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_601|t_600|ref=Zeph_2.7
 20	·	·	u	u--------	_	9	AuxK	_	t_602|t_591|ref=Zeph_2.7
 
@@ -754,18 +754,18 @@
 28	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	27	ATR	_	t_630|t_629|ref=Zeph_2.7
 29	.	.	u	u--------	_	8	AuxK	_	t_631|t_610|ref=Zeph_2.7
 
-# source = Septuaginta, Zeph_2.7-2.8
+# source = Septuaginta, Zeph_2.8
 # text = Ἤκουσα ὀνειδισμοὺς Μωὰβ καὶ κονδυλισμοὺς υἱῶν Ἀμμών , ἐν οἷς ὠνείδιζον τὸν λαόν μου καὶ ἐμεγαλύνοντο ἐπὶ τὰ ὅριά μου .
 # sent_id = 30
-1	Ἤκουσα	ἀκούω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_632|0|ref=Zeph_2.7
-2	ὀνειδισμοὺς	ὀνειδισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_633|t_635|ref=Zeph_2.7
-3	Μωὰβ	μωάβ	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_634|t_633|ref=Zeph_2.7
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_635|t_632|ref=Zeph_2.7
-5	κονδυλισμοὺς	κονδυλισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_636|t_635|ref=Zeph_2.7
-6	υἱῶν	υἱός	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_637|t_636|ref=Zeph_2.7
-7	Ἀμμών	ἀμμών	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_638|t_637|ref=Zeph_2.7
-8	,	,	u	u--------	_	1	AuxX	_	t_639|t_632|ref=Zeph_2.7
-9	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_640|t_646|ref=Zeph_2.7
+1	Ἤκουσα	ἀκούω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_632|0|ref=Zeph_2.8
+2	ὀνειδισμοὺς	ὀνειδισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_633|t_635|ref=Zeph_2.8
+3	Μωὰβ	μωάβ	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_634|t_633|ref=Zeph_2.8
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_635|t_632|ref=Zeph_2.8
+5	κονδυλισμοὺς	κονδυλισμός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_636|t_635|ref=Zeph_2.8
+6	υἱῶν	υἱός	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_637|t_636|ref=Zeph_2.8
+7	Ἀμμών	ἀμμών	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_638|t_637|ref=Zeph_2.8
+8	,	,	u	u--------	_	1	AuxX	_	t_639|t_632|ref=Zeph_2.8
+9	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_640|t_646|ref=Zeph_2.8
 10	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	9	ADV	_	t_641|t_640|ref=Zeph_2.8
 11	ὠνείδιζον	ὀνειδίζω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	15	ATR	_	t_642|t_646|ref=Zeph_2.8
 12	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	13	ATR	_	t_643|t_644|ref=Zeph_2.8
@@ -779,18 +779,18 @@
 20	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	19	ATR	_	t_651|t_650|ref=Zeph_2.8
 21	.	.	u	u--------	_	1	AuxK	_	t_652|t_632|ref=Zeph_2.8
 
-# source = Septuaginta, Zeph_2.8-2.9
+# source = Septuaginta, Zeph_2.9
 # text = διὰ τοῦτο ζῶ ἐγώ , λέγει Κύριος τῶν δυνάμεων ὁ θεὸς Ἰσραήλ , διότι Μωὰβ ὡς Σόδομα ἔσται , καὶ υἱοὶ Ἀμμὼν ὡς Γόμορρα , καὶ Δαμασκὸς ἐκλελιμμένη ὡς θιμωνιὰ ἃλωνος καὶ ἠφανισμένη εἰς τὸν αἰῶνα [0] [1] ·
 # sent_id = 31
-1	διὰ	διά	r	r--------	_	3	AuxP	_	t_653|t_655|ref=Zeph_2.8
-2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_654|t_653|ref=Zeph_2.8
-3	ζῶ	ζάω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_655|0|ref=Zeph_2.8
-4	ἐγώ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	3	SBJ	_	t_656|t_655|ref=Zeph_2.8
-5	,	,	u	u--------	_	3	AuxX	_	t_657|t_655|ref=Zeph_2.8
-6	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	PRED	_	t_658|t_655|ref=Zeph_2.8
-7	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_659|t_658|ref=Zeph_2.8
-8	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_660|t_661|ref=Zeph_2.8
-9	δυνάμεων	δύναμις	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_661|t_663|ref=Zeph_2.8
+1	διὰ	διά	r	r--------	_	3	AuxP	_	t_653|t_655|ref=Zeph_2.9
+2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_654|t_653|ref=Zeph_2.9
+3	ζῶ	ζάω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_655|0|ref=Zeph_2.9
+4	ἐγώ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	3	SBJ	_	t_656|t_655|ref=Zeph_2.9
+5	,	,	u	u--------	_	3	AuxX	_	t_657|t_655|ref=Zeph_2.9
+6	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	PRED	_	t_658|t_655|ref=Zeph_2.9
+7	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_659|t_658|ref=Zeph_2.9
+8	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_660|t_661|ref=Zeph_2.9
+9	δυνάμεων	δύναμις	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_661|t_663|ref=Zeph_2.9
 10	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_662|t_659|ref=Zeph_2.9
 11	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	7	APOS	_	t_663|t_659|ref=Zeph_2.9
 12	Ἰσραήλ	ἰσραήλ	n	n-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_664|t_663|ref=Zeph_2.9
@@ -818,8 +818,8 @@
 34	εἰς	εἰς	r	r--------	_	33	AuxP	_	t_686|t_685|ref=Zeph_2.9
 35	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	36	ATR	_	t_687|t_688|ref=Zeph_2.9
 36	αἰῶνα	αἰών	n	n-s---ma-	Case=a|Gender=m|Number=s	34	ADV	_	t_688|t_686|ref=Zeph_2.9
-37	[0]	[0]	-	---------	_	29	ADV	_	e_10|t_681|ref=Zeph_1.1
-38	[1]	[1]	-	---------	_	26	OBJ	_	e_11|t_678|ref=Zeph_1.1
+37	[0]	[0]	-	---------	_	29	ADV	_	e_10|t_681|ref=Zeph_2.9
+38	[1]	[1]	-	---------	_	26	OBJ	_	e_11|t_678|ref=Zeph_2.9
 39	·	·	u	u--------	_	3	AuxK	_	t_689|t_655|ref=Zeph_2.9
 
 # source = Septuaginta, Zeph_2.9
@@ -842,43 +842,43 @@
 15	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	14	OBJ	_	t_704|t_703|ref=Zeph_2.9
 16	.	.	u	u--------	_	8	AuxK	_	t_705|t_697|ref=Zeph_2.9
 
-# source = Septuaginta, Zeph_2.9-2.10
+# source = Septuaginta, Zeph_2.10
 # text = αὕτη αὐτοῖς ἀντὶ τῆς ὕβρεως αὐτῶν , διότι ὠνείδισαν καὶ ἐμεγαλύνθησαν ἐπὶ τὸν κύριον τὸν παντοκράτορα [0] .
 # sent_id = 33
-1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_706|e_12|ref=Zeph_2.9
-2	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	1	ATR	_	t_707|t_706|ref=Zeph_2.9
-3	ἀντὶ	ἀντί	r	r--------	_	17	AuxP	_	t_708|e_12|ref=Zeph_2.9
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_709|t_710|ref=Zeph_2.9
-5	ὕβρεως	ὕβρις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_710|t_708|ref=Zeph_2.9
-6	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_711|t_710|ref=Zeph_2.9
-7	,	,	u	u--------	_	17	AuxX	_	t_712|e_12|ref=Zeph_2.9
-8	διότι	διότι	c	c--------	_	17	AuxC	_	t_713|e_12|ref=Zeph_2.9
-9	ὠνείδισαν	ὀνειδίζω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	ADV	_	t_714|t_715|ref=Zeph_2.9
-10	καὶ	καί	c	c--------	_	8	COORD	_	t_715|t_713|ref=Zeph_2.9
-11	ἐμεγαλύνθησαν	ἐμεγαλύνθην	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	10	ADV	_	t_716|t_715|ref=Zeph_2.9
+1	αὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	17	SBJ	_	t_706|e_12|ref=Zeph_2.10
+2	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	1	ATR	_	t_707|t_706|ref=Zeph_2.10
+3	ἀντὶ	ἀντί	r	r--------	_	17	AuxP	_	t_708|e_12|ref=Zeph_2.10
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_709|t_710|ref=Zeph_2.10
+5	ὕβρεως	ὕβρις	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_710|t_708|ref=Zeph_2.10
+6	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_711|t_710|ref=Zeph_2.10
+7	,	,	u	u--------	_	17	AuxX	_	t_712|e_12|ref=Zeph_2.10
+8	διότι	διότι	c	c--------	_	17	AuxC	_	t_713|e_12|ref=Zeph_2.10
+9	ὠνείδισαν	ὀνειδίζω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	ADV	_	t_714|t_715|ref=Zeph_2.10
+10	καὶ	καί	c	c--------	_	8	COORD	_	t_715|t_713|ref=Zeph_2.10
+11	ἐμεγαλύνθησαν	ἐμεγαλύνθην	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	10	ADV	_	t_716|t_715|ref=Zeph_2.10
 12	ἐπὶ	ἐπί	r	r--------	_	11	AuxP	_	t_717|t_716|ref=Zeph_2.10
 13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_718|t_719|ref=Zeph_2.10
 14	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	12	ADV	_	t_719|t_717|ref=Zeph_2.10
 15	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_720|t_719|ref=Zeph_2.10
 16	παντοκράτορα	παντοκράτωρ	n	n-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_721|t_719|ref=Zeph_2.10
-17	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Zeph_1.1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Zeph_2.10
 18	.	.	u	u--------	_	17	AuxK	_	t_722|e_12|ref=Zeph_2.10
 
-# source = Septuaginta, Zeph_2.10-2.11
+# source = Septuaginta, Zeph_2.11
 # text = ἐπιφανήσεται Κύριος ἐπʼ αὐτούς , καὶ ἐξολεθρεύσει πάντας τοὺς § θεοὺς τῶν ἐθνῶν τῆς γῆς , καὶ προσκυνήσουσιν αὐτῷ ἕκαστος ἐκ τοῦ τόπου αὐτοῦ , πᾶσαι αἱ νῆσοι τῶν ἐθνῶν .
 # sent_id = 34
-1	ἐπιφανήσεται	ἐπιφαίνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	17	PRED	_	t_723|t_739|ref=Zeph_2.10
-2	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_724|t_723|ref=Zeph_2.10
-3	ἐπʼ	ἐπί	r	r--------	_	1	AuxP	_	t_725|t_723|ref=Zeph_2.10
-4	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_726|t_725|ref=Zeph_2.10
-5	,	,	u	u--------	_	0	AuxX	_	t_727|0|ref=Zeph_2.10
-6	καὶ	καί	d	d--------	_	17	AuxY	_	t_728|t_739|ref=Zeph_2.10
-7	ἐξολεθρεύσει	ἐξολεθρεύω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	17	PRED	_	t_729|t_739|ref=Zeph_2.10
-8	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_730|t_733|ref=Zeph_2.10
-9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_731|t_733|ref=Zeph_2.10
-10	§	§	u	u--------	_	11	AuxX	_	t_732|t_733|ref=Zeph_2.10
-11	θεοὺς	θεός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_733|t_729|ref=Zeph_2.10
-12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_734|t_735|ref=Zeph_2.10
+1	ἐπιφανήσεται	ἐπιφαίνω	v	v3sfip---	Mood=i|Number=s|Person=3|Tense=f|Voice=p	17	PRED	_	t_723|t_739|ref=Zeph_2.11
+2	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_724|t_723|ref=Zeph_2.11
+3	ἐπʼ	ἐπί	r	r--------	_	1	AuxP	_	t_725|t_723|ref=Zeph_2.11
+4	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_726|t_725|ref=Zeph_2.11
+5	,	,	u	u--------	_	0	AuxX	_	t_727|0|ref=Zeph_2.11
+6	καὶ	καί	d	d--------	_	17	AuxY	_	t_728|t_739|ref=Zeph_2.11
+7	ἐξολεθρεύσει	ἐξολεθρεύω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	17	PRED	_	t_729|t_739|ref=Zeph_2.11
+8	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_730|t_733|ref=Zeph_2.11
+9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_731|t_733|ref=Zeph_2.11
+10	§	§	u	u--------	_	11	AuxX	_	t_732|t_733|ref=Zeph_2.11
+11	θεοὺς	θεός	n	n-p---ma-	Case=a|Gender=m|Number=p	7	OBJ	_	t_733|t_729|ref=Zeph_2.11
+12	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_734|t_735|ref=Zeph_2.11
 13	ἐθνῶν	ἔθνος	n	n-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_735|t_733|ref=Zeph_2.11
 14	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_736|t_737|ref=Zeph_2.11
 15	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_737|t_735|ref=Zeph_2.11
@@ -899,35 +899,35 @@
 30	ἐθνῶν	ἔθνος	n	n-p---ng-	Case=g|Gender=n|Number=p	28	ATR	_	t_752|t_750|ref=Zeph_2.11
 31	.	.	u	u--------	_	5	AuxK	_	t_753|t_727|ref=Zeph_2.11
 
-# source = Septuaginta, Zeph_2.11
+# source = Septuaginta, Zeph_2.12
 # text = Καὶ ὑμεῖς , Αἰθίοπες , τραυματίαι ῥομφαίας μού ἐστε ·
 # sent_id = 35
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_754|0|ref=Zeph_2.11
-2	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Number=p	9	SBJ	_	t_755|t_762|ref=Zeph_2.11
-3	,	,	u	u--------	_	4	AuxX	_	t_756|t_757|ref=Zeph_2.11
-4	Αἰθίοπες	αἰθίοψ	n	n-p---mv-	Case=v|Gender=m|Number=p	9	ExD	_	t_757|t_762|ref=Zeph_2.11
-5	,	,	u	u--------	_	4	AuxX	_	t_758|t_757|ref=Zeph_2.11
-6	τραυματίαι	τραυματίας	n	n-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_759|t_762|ref=Zeph_2.11
-7	ῥομφαίας	ῥομφαία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_760|t_759|ref=Zeph_2.11
-8	μού	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	7	ATR	_	t_761|t_760|ref=Zeph_2.11
-9	ἐστε	εἰμί	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	1	PRED	_	t_762|t_754|ref=Zeph_2.11
-10	·	·	u	u--------	_	1	AuxK	_	t_763|t_754|ref=Zeph_2.11
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_754|0|ref=Zeph_2.12
+2	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Number=p	9	SBJ	_	t_755|t_762|ref=Zeph_2.12
+3	,	,	u	u--------	_	4	AuxX	_	t_756|t_757|ref=Zeph_2.12
+4	Αἰθίοπες	αἰθίοψ	n	n-p---mv-	Case=v|Gender=m|Number=p	9	ExD	_	t_757|t_762|ref=Zeph_2.12
+5	,	,	u	u--------	_	4	AuxX	_	t_758|t_757|ref=Zeph_2.12
+6	τραυματίαι	τραυματίας	n	n-p---mn-	Case=n|Gender=m|Number=p	9	PNOM	_	t_759|t_762|ref=Zeph_2.12
+7	ῥομφαίας	ῥομφαία	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_760|t_759|ref=Zeph_2.12
+8	μού	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	7	ATR	_	t_761|t_760|ref=Zeph_2.12
+9	ἐστε	εἰμί	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	1	PRED	_	t_762|t_754|ref=Zeph_2.12
+10	·	·	u	u--------	_	1	AuxK	_	t_763|t_754|ref=Zeph_2.12
 
-# source = Septuaginta, Zeph_2.11-2.13
+# source = Septuaginta, Zeph_2.13
 # text = καὶ ἐκτενεῖ τὴν χεῖρα αὐτοῦ ἐπὶ βορρᾶν καὶ ἀπολεῖ τὸν Ἀσσύριον , καὶ θήσει τὴν Νινευὴ εἰς ἀφανισμὸν ἄνυδρον ὡς ἔρημον [0] ·
 # sent_id = 36
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_764|t_776|ref=Zeph_2.11
-2	ἐκτενεῖ	ἐκτείνω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	13	PRED	_	t_765|t_776|ref=Zeph_2.11
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_766|t_767|ref=Zeph_2.12
-4	χεῖρα	χείρ	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_767|t_765|ref=Zeph_2.12
-5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_768|t_767|ref=Zeph_2.12
-6	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_769|t_765|ref=Zeph_2.12
-7	βορρᾶν	βορέας	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ADV	_	t_770|t_769|ref=Zeph_2.12
-8	καὶ	καί	d	d--------	_	13	AuxY	_	t_771|t_776|ref=Zeph_2.12
-9	ἀπολεῖ	ἀπόλλυμι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	13	PRED	_	t_772|t_776|ref=Zeph_2.12
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_773|t_774|ref=Zeph_2.12
-11	Ἀσσύριον	ἀσσύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_774|t_772|ref=Zeph_2.12
-12	,	,	u	u--------	_	0	AuxX	_	t_775|0|ref=Zeph_2.12
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_764|t_776|ref=Zeph_2.13
+2	ἐκτενεῖ	ἐκτείνω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	13	PRED	_	t_765|t_776|ref=Zeph_2.13
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_766|t_767|ref=Zeph_2.13
+4	χεῖρα	χείρ	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_767|t_765|ref=Zeph_2.13
+5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_768|t_767|ref=Zeph_2.13
+6	ἐπὶ	ἐπί	r	r--------	_	2	AuxP	_	t_769|t_765|ref=Zeph_2.13
+7	βορρᾶν	βορέας	n	n-p---fg-	Case=g|Gender=f|Number=p	6	ADV	_	t_770|t_769|ref=Zeph_2.13
+8	καὶ	καί	d	d--------	_	13	AuxY	_	t_771|t_776|ref=Zeph_2.13
+9	ἀπολεῖ	ἀπόλλυμι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	13	PRED	_	t_772|t_776|ref=Zeph_2.13
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_773|t_774|ref=Zeph_2.13
+11	Ἀσσύριον	ἀσσύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_774|t_772|ref=Zeph_2.13
+12	,	,	u	u--------	_	0	AuxX	_	t_775|0|ref=Zeph_2.13
 13	καὶ	καί	c	c--------	_	12	COORD	_	t_776|t_775|ref=Zeph_2.13
 14	θήσει	τίθημι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	13	PRED	_	t_777|t_776|ref=Zeph_2.13
 15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_778|t_779|ref=Zeph_2.13
@@ -937,25 +937,25 @@
 19	ἄνυδρον	ἄνυδρος	a	a-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_782|t_781|ref=Zeph_2.13
 20	ὡς	ὡς	d	d--------	_	21	AuxZ	_	t_783|t_784|ref=Zeph_2.13
 21	ἔρημον	ἐρῆμος	a	a-s---na-	Case=a|Gender=n|Number=s	22	PNOM	_	t_784|e_13|ref=Zeph_2.13
-22	[0]	[0]	-	---------	_	13	PRED	_	e_13|t_776|ref=Zeph_1.1
+22	[0]	[0]	-	---------	_	13	PRED	_	e_13|t_776|ref=Zeph_2.13
 23	·	·	u	u--------	_	12	AuxK	_	t_785|t_775|ref=Zeph_2.13
 
-# source = Septuaginta, Zeph_2.13-2.14
+# source = Septuaginta, Zeph_2.14
 # text = καὶ νεμήσονται ἐν μέσῳ αὐτῆς ποίμνια καὶ πάντα τὰ θηρία τῆς γῆς , καὶ χαμαιλέοντες καὶ ἐχῖνοι ἐν τοῖς φατνώμασιν αὐτῆς κοιτασθήσονται , καὶ θηρία φωνήσει ἐν τοῖς διορύγμασιν αὐτῆς , κόρακες ἐν τοῖς πυλῶσιν αὐτῆς , διότι κέδρος τὸ ἀνάστημα αὐτῆς [0] .
 # sent_id = 37
-1	καὶ	καί	d	d--------	_	24	AuxY	_	t_786|t_809|ref=Zeph_2.13
-2	νεμήσονται	νέμω	v	v3pfim---	Mood=i|Number=p|Person=3|Tense=f|Voice=m	24	PRED	_	t_787|t_809|ref=Zeph_2.13
-3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_788|t_787|ref=Zeph_2.13
-4	μέσῳ	μέσος	a	a-s---nd-	Case=d|Gender=n|Number=s	3	ADV	_	t_789|t_788|ref=Zeph_2.13
-5	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_790|t_789|ref=Zeph_2.13
-6	ποίμνια	ποίμνιον	n	n-p---nn-	Case=n|Gender=n|Number=p	7	SBJ	_	t_791|t_792|ref=Zeph_2.13
-7	καὶ	καί	c	c--------	_	2	COORD	_	t_792|t_787|ref=Zeph_2.13
-8	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_793|t_795|ref=Zeph_2.13
-9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_794|t_795|ref=Zeph_2.13
-10	θηρία	θηρίον	n	n-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_795|t_801|ref=Zeph_2.13
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_796|t_797|ref=Zeph_2.13
-12	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_797|t_795|ref=Zeph_2.13
-13	,	,	u	u--------	_	0	AuxX	_	t_798|0|ref=Zeph_2.13
+1	καὶ	καί	d	d--------	_	24	AuxY	_	t_786|t_809|ref=Zeph_2.14
+2	νεμήσονται	νέμω	v	v3pfim---	Mood=i|Number=p|Person=3|Tense=f|Voice=m	24	PRED	_	t_787|t_809|ref=Zeph_2.14
+3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_788|t_787|ref=Zeph_2.14
+4	μέσῳ	μέσος	a	a-s---nd-	Case=d|Gender=n|Number=s	3	ADV	_	t_789|t_788|ref=Zeph_2.14
+5	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_790|t_789|ref=Zeph_2.14
+6	ποίμνια	ποίμνιον	n	n-p---nn-	Case=n|Gender=n|Number=p	7	SBJ	_	t_791|t_792|ref=Zeph_2.14
+7	καὶ	καί	c	c--------	_	2	COORD	_	t_792|t_787|ref=Zeph_2.14
+8	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_793|t_795|ref=Zeph_2.14
+9	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	10	ATR	_	t_794|t_795|ref=Zeph_2.14
+10	θηρία	θηρίον	n	n-p---nn-	Case=n|Gender=n|Number=p	16	SBJ	_	t_795|t_801|ref=Zeph_2.14
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_796|t_797|ref=Zeph_2.14
+12	γῆς	γῆ	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_797|t_795|ref=Zeph_2.14
+13	,	,	u	u--------	_	0	AuxX	_	t_798|0|ref=Zeph_2.14
 14	καὶ	καί	d	d--------	_	24	AuxY	_	t_799|t_809|ref=Zeph_2.14
 15	χαμαιλέοντες	χαμαιλέων	n	n-p---mn-	Case=n|Gender=m|Number=p	16	SBJ	_	t_800|t_801|ref=Zeph_2.14
 16	καὶ	καί	c	c--------	_	22	COORD	_	t_801|t_807|ref=Zeph_2.14
@@ -985,26 +985,26 @@
 40	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	41	ATR	_	t_825|t_826|ref=Zeph_2.14
 41	ἀνάστημα	ἀνάστημα	n	n-s---nn-	Case=n|Gender=n|Number=s	43	SBJ	_	t_826|e_14|ref=Zeph_2.14
 42	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	41	ATR	_	t_827|t_826|ref=Zeph_2.14
-43	[0]	[0]	-	---------	_	38	ADV	_	e_14|t_823|ref=Zeph_1.1
+43	[0]	[0]	-	---------	_	38	ADV	_	e_14|t_823|ref=Zeph_2.14
 44	.	.	u	u--------	_	13	AuxK	_	t_828|t_798|ref=Zeph_2.14
 
-# source = Septuaginta, Zeph_2.14-3.1
+# source = Septuaginta, Zeph_3.1
 # text = Aὕτη ἡ πόλις ἡ φαυλίστρια , ἡ κατοικοῦσα ἐπ᾿ ἐλπίδι , ἡ λέγουσα ἐν καρδίᾳ αὐτῆς Ἐγὼ εἰμι , καὶ οὐκ ἔστιν μετʼ ἐμὲ ἔτι .
 # sent_id = 38
-1	Aὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_829|t_831|ref=Zeph_2.14
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_830|t_831|ref=Zeph_2.14
-3	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_831|t_848|ref=Zeph_2.14
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_832|t_831|ref=Zeph_2.14
-5	φαυλίστρια	φαυλίστρια	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_833|t_831|ref=Zeph_2.14
-6	,	,	u	u--------	_	20	AuxX	_	t_834|t_848|ref=Zeph_2.14
-7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_835|t_836|ref=Zeph_2.14
-8	κατοικοῦσα	κατοικέω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_836|t_831|ref=Zeph_2.14
-9	ἐπ᾿	ἐπί	r	r--------	_	8	AuxP	_	t_837|t_836|ref=Zeph_2.14
-10	ἐλπίδι	ἐλπίς	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_838|t_837|ref=Zeph_2.14
-11	,	,	u	u--------	_	20	AuxX	_	t_839|t_848|ref=Zeph_2.14
-12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_840|t_841|ref=Zeph_2.14
-13	λέγουσα	λέγω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_841|t_831|ref=Zeph_2.14
-14	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_842|t_841|ref=Zeph_2.14
+1	Aὕτη	οὗτος	p	p-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_829|t_831|ref=Zeph_3.1
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_830|t_831|ref=Zeph_3.1
+3	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_831|t_848|ref=Zeph_3.1
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_832|t_831|ref=Zeph_3.1
+5	φαυλίστρια	φαυλίστρια	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_833|t_831|ref=Zeph_3.1
+6	,	,	u	u--------	_	20	AuxX	_	t_834|t_848|ref=Zeph_3.1
+7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	8	ATR	_	t_835|t_836|ref=Zeph_3.1
+8	κατοικοῦσα	κατοικέω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_836|t_831|ref=Zeph_3.1
+9	ἐπ᾿	ἐπί	r	r--------	_	8	AuxP	_	t_837|t_836|ref=Zeph_3.1
+10	ἐλπίδι	ἐλπίς	n	n-s---fd-	Case=d|Gender=f|Number=s	9	ADV	_	t_838|t_837|ref=Zeph_3.1
+11	,	,	u	u--------	_	20	AuxX	_	t_839|t_848|ref=Zeph_3.1
+12	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_840|t_841|ref=Zeph_3.1
+13	λέγουσα	λέγω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	3	ATR	_	t_841|t_831|ref=Zeph_3.1
+14	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_842|t_841|ref=Zeph_3.1
 15	καρδίᾳ	καρδία	n	n-s---fd-	Case=d|Gender=f|Number=s	14	ADV	_	t_843|t_842|ref=Zeph_3.1
 16	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_844|t_843|ref=Zeph_3.1
 17	Ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=m|Number=s	18	PNOM	_	t_845|t_846|ref=Zeph_3.1
@@ -1049,28 +1049,28 @@
 14	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_876|t_875|ref=Zeph_3.1
 15	.	.	u	u--------	_	4	AuxK	_	t_877|t_866|ref=Zeph_3.1
 
-# source = Septuaginta, Zeph_3.1
+# source = Septuaginta, Zeph_3.2
 # text = ὢ ἡ ἐπιφανὴς ( 2 ) καὶ ἀπολελυτρωμένη πόλις , ἡ περιστερά [0] ·
 # sent_id = 41
-1	ὢ	ὦ	i	i--------	_	10	AuxZ	_	t_878|t_887|ref=Zeph_3.1
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_879|t_884|ref=Zeph_3.1
-3	ἐπιφανὴς	ἐπιφανής	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_880|t_884|ref=Zeph_3.1
-4	(	̔	u	u--------	_	13	AuxG	_	t_881|e_15|ref=Zeph_3.1
-5	2	2	n	n--------	_	9	APOS	_	t_882|t_886|ref=Zeph_3.1
-6	)	)	u	u--------	_	13	AuxG	_	t_883|e_15|ref=Zeph_3.1
-7	καὶ	καί	c	c--------	_	9	COORD	_	t_884|t_886|ref=Zeph_3.1
-8	ἀπολελυτρωμένη	ἀπολυτρόω	a	a-s---fn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	7	ATR	_	t_885|t_884|ref=Zeph_3.1
-9	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	ExD	_	t_886|t_887|ref=Zeph_3.1
-10	,	,	u	u--------	_	13	COORD	_	t_887|e_15|ref=Zeph_3.1
-11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_888|t_889|ref=Zeph_3.1
-12	περιστερά	περιστερά	n	n-s---fn-	Case=n|Gender=f|Number=s	10	ExD	_	t_889|t_887|ref=Zeph_3.1
-13	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Zeph_1.1
-14	·	·	u	u--------	_	13	AuxK	_	t_890|e_15|ref=Zeph_3.1
+1	ὢ	ὦ	i	i--------	_	10	AuxZ	_	t_878|t_887|ref=Zeph_3.2
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_879|t_884|ref=Zeph_3.2
+3	ἐπιφανὴς	ἐπιφανής	a	a-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_880|t_884|ref=Zeph_3.2
+4	(	̔	u	u--------	_	13	AuxG	_	t_881|e_15|ref=Zeph_3.2
+5	2	2	n	n--------	_	9	APOS	_	t_882|t_886|ref=Zeph_3.2
+6	)	)	u	u--------	_	13	AuxG	_	t_883|e_15|ref=Zeph_3.2
+7	καὶ	καί	c	c--------	_	9	COORD	_	t_884|t_886|ref=Zeph_3.2
+8	ἀπολελυτρωμένη	ἀπολυτρόω	a	a-s---fn-	Case=n|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	7	ATR	_	t_885|t_884|ref=Zeph_3.2
+9	πόλις	πόλις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	ExD	_	t_886|t_887|ref=Zeph_3.2
+10	,	,	u	u--------	_	13	COORD	_	t_887|e_15|ref=Zeph_3.2
+11	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	12	ATR	_	t_888|t_889|ref=Zeph_3.2
+12	περιστερά	περιστερά	n	n-s---fn-	Case=n|Gender=f|Number=s	10	ExD	_	t_889|t_887|ref=Zeph_3.2
+13	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Zeph_3.2
+14	·	·	u	u--------	_	13	AuxK	_	t_890|e_15|ref=Zeph_3.2
 
-# source = Septuaginta, Zeph_3.1-3.2
+# source = Septuaginta, Zeph_3.2
 # text = ( 2 ) οὐκ εἰσήκουσεν φωνῆς , οὐκ ἐδέξατο παιδίαν , ἐπὶ τῷ κυρίῳ οὐκ ἐπεποίθει , καὶ πρὸς τὸν θεὸν αὐτῆς οὐκ ἤγγισεν .
 # sent_id = 42
-1	(	̔	u	u--------	_	2	AuxG	_	t_891|t_892|ref=Zeph_3.1
+1	(	̔	u	u--------	_	2	AuxG	_	t_891|t_892|ref=Zeph_3.2
 2	2	2	d	d--------	_	0	ExD	_	t_892|0|ref=Zeph_3.2
 3	)	)	u	u--------	_	2	AuxG	_	t_893|t_892|ref=Zeph_3.2
 4	οὐκ	οὐ	d	d--------	_	5	AuxZ	_	t_894|t_895|ref=Zeph_3.2
@@ -1083,7 +1083,7 @@
 11	,	,	u	u--------	_	2	AuxX	_	t_901|t_892|ref=Zeph_3.2
 12	ἐπὶ	ἐπί	r	r--------	_	16	AuxP	_	t_902|t_906|ref=Zeph_3.2
 13	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=m|Number=s	14	ATR	_	t_903|t_904|ref=Zeph_3.2
-14	κυρίῳ	κύριος	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_904|t_902|ref=Zeph_3.1
+14	κυρίῳ	κύριος	n	n-s---md-	Case=d|Gender=m|Number=s	12	ADV	_	t_904|t_902|ref=Zeph_3.2
 15	οὐκ	οὐ	d	d--------	_	16	AuxZ	_	t_905|t_906|ref=Zeph_3.2
 16	ἐπεποίθει	πιστεύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	18	PRED	_	t_906|t_908|ref=Zeph_3.2
 17	,	,	u	u--------	_	2	AuxX	_	t_907|t_892|ref=Zeph_3.2
@@ -1096,30 +1096,30 @@
 24	ἤγγισεν	ἐγγίζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	18	PRED	_	t_914|t_908|ref=Zeph_3.2
 25	.	.	u	u--------	_	2	AuxK	_	t_915|t_892|ref=Zeph_3.2
 
-# source = Septuaginta, Zeph_3.2
+# source = Septuaginta, Zeph_3.3
 # text = οἱ ἄρχοντες αὐτῆς ἐν αὐτῇ ὡς λέοντες ὠρυόμενοι [0] [1] ·
 # sent_id = 43
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_916|t_917|ref=Zeph_3.2
-2	ἄρχοντες	ἄρχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	SBJ	_	t_917|e_16|ref=Zeph_3.2
-3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_918|t_917|ref=Zeph_3.2
-4	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_919|e_16|ref=Zeph_3.2
-5	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_920|t_919|ref=Zeph_3.2
-6	ὡς	ὡς	c	c--------	_	9	AuxC	_	t_921|e_16|ref=Zeph_3.2
-7	λέοντες	λέων	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_922|e_17|ref=Zeph_3.2
-8	ὠρυόμενοι	ὀρεύγομαι	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	10	ADV	_	t_923|e_17|ref=Zeph_3.2
-9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Zeph_1.1
-10	[1]	[1]	-	---------	_	6	ADV	_	e_17|t_921|ref=Zeph_1.1
-11	·	·	u	u--------	_	9	AuxK	_	t_924|e_16|ref=Zeph_3.2
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_916|t_917|ref=Zeph_3.3
+2	ἄρχοντες	ἄρχω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	9	SBJ	_	t_917|e_16|ref=Zeph_3.3
+3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_918|t_917|ref=Zeph_3.3
+4	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_919|e_16|ref=Zeph_3.3
+5	αὐτῇ	αὐτός	p	p-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_920|t_919|ref=Zeph_3.3
+6	ὡς	ὡς	c	c--------	_	9	AuxC	_	t_921|e_16|ref=Zeph_3.3
+7	λέοντες	λέων	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_922|e_17|ref=Zeph_3.3
+8	ὠρυόμενοι	ὀρεύγομαι	v	v-pppemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	10	ADV	_	t_923|e_17|ref=Zeph_3.3
+9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Zeph_3.3
+10	[1]	[1]	-	---------	_	6	ADV	_	e_17|t_921|ref=Zeph_3.3
+11	·	·	u	u--------	_	9	AuxK	_	t_924|e_16|ref=Zeph_3.3
 
-# source = Septuaginta, Zeph_3.2-3.3
+# source = Septuaginta, Zeph_3.3
 # text = οἱ κριταὶ αὐτῆς ὡς λύκοι τῆς Ἀραβίας , οὐχ ὑπελίποντο εἰς τὸ πρωί [0] ·
 # sent_id = 44
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_925|t_926|ref=Zeph_3.2
-2	κριταὶ	κριτής	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_926|t_934|ref=Zeph_3.2
-3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_927|t_926|ref=Zeph_3.2
-4	ὡς	ὡς	c	c--------	_	10	AuxC	_	t_928|t_934|ref=Zeph_3.2
-5	λύκοι	λύκος	n	n-p---mn-	Case=n|Gender=m|Number=p	14	PNOM	_	t_929|e_18|ref=Zeph_3.2
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_930|t_931|ref=Zeph_3.2
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_925|t_926|ref=Zeph_3.3
+2	κριταὶ	κριτής	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_926|t_934|ref=Zeph_3.3
+3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_927|t_926|ref=Zeph_3.3
+4	ὡς	ὡς	c	c--------	_	10	AuxC	_	t_928|t_934|ref=Zeph_3.3
+5	λύκοι	λύκος	n	n-p---mn-	Case=n|Gender=m|Number=p	14	PNOM	_	t_929|e_18|ref=Zeph_3.3
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_930|t_931|ref=Zeph_3.3
 7	Ἀραβίας	ἀραβία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_931|t_929|ref=Zeph_3.3
 8	,	,	u	u--------	_	10	AuxX	_	t_932|t_934|ref=Zeph_3.3
 9	οὐχ	οὐ	d	d--------	_	10	AuxZ	_	t_933|t_934|ref=Zeph_3.3
@@ -1127,63 +1127,63 @@
 11	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_935|t_934|ref=Zeph_3.3
 12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_936|t_937|ref=Zeph_3.3
 13	πρωί	πρωΐ	d	d--------	_	11	ADV	_	t_937|t_935|ref=Zeph_3.3
-14	[0]	[0]	-	---------	_	4	ADV	_	e_18|t_928|ref=Zeph_1.1
+14	[0]	[0]	-	---------	_	4	ADV	_	e_18|t_928|ref=Zeph_3.3
 15	·	·	u	u--------	_	10	AuxK	_	t_938|t_934|ref=Zeph_3.3
 
-# source = Septuaginta, Zeph_3.3
+# source = Septuaginta, Zeph_3.4
 # text = οἱ προφῆται αὐτῆς πνευματοφόροι , ἄνδρες καταφρονηταί [0] ·
 # sent_id = 45
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_939|t_940|ref=Zeph_3.3
-2	προφῆται	προφήτης	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_940|e_19|ref=Zeph_3.3
-3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_941|t_940|ref=Zeph_3.3
-4	πνευματοφόροι	πνευματοφόρος	a	a-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_942|t_940|ref=Zeph_3.3
-5	,	,	u	u--------	_	8	APOS	_	t_943|e_19|ref=Zeph_3.3
-6	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_944|t_943|ref=Zeph_3.3
-7	καταφρονηταί	καταφρονητής	n	n-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_945|t_944|ref=Zeph_3.3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Zeph_1.1
-9	·	·	u	u--------	_	8	AuxK	_	t_946|e_19|ref=Zeph_3.3
-
-# source = Septuaginta, Zeph_3.3
-# text = οἱ ἱερεῖς αὐτῆς βεβηλοῦσιν τὰ ἅγια καὶ ἀσεβοῦσιν νόμον .
-# sent_id = 46
-1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_947|t_948|ref=Zeph_3.3
-2	ἱερεῖς	ἱερεύς	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_948|t_953|ref=Zeph_3.3
-3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_949|t_948|ref=Zeph_3.3
-4	βεβηλοῦσιν	βεβηλόω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	PRED	_	t_950|t_953|ref=Zeph_3.3
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_951|t_952|ref=Zeph_3.3
-6	ἅγια	ἅγιος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_952|t_950|ref=Zeph_3.3
-7	καὶ	καί	c	c--------	_	0	COORD	_	t_953|0|ref=Zeph_3.3
-8	ἀσεβοῦσιν	ἀσεβέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	PRED	_	t_954|t_953|ref=Zeph_3.3
-9	νόμον	νόμος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_955|t_954|ref=Zeph_3.3
-10	.	.	u	u--------	_	7	AuxK	_	t_956|t_953|ref=Zeph_3.3
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_939|t_940|ref=Zeph_3.4
+2	προφῆται	προφήτης	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_940|e_19|ref=Zeph_3.4
+3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_941|t_940|ref=Zeph_3.4
+4	πνευματοφόροι	πνευματοφόρος	a	a-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_942|t_940|ref=Zeph_3.4
+5	,	,	u	u--------	_	8	APOS	_	t_943|e_19|ref=Zeph_3.4
+6	ἄνδρες	ἀνήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	5	PNOM	_	t_944|t_943|ref=Zeph_3.4
+7	καταφρονηταί	καταφρονητής	n	n-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_945|t_944|ref=Zeph_3.4
+8	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Zeph_3.4
+9	·	·	u	u--------	_	8	AuxK	_	t_946|e_19|ref=Zeph_3.4
 
 # source = Septuaginta, Zeph_3.4
+# text = οἱ ἱερεῖς αὐτῆς βεβηλοῦσιν τὰ ἅγια καὶ ἀσεβοῦσιν νόμον .
+# sent_id = 46
+1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_947|t_948|ref=Zeph_3.4
+2	ἱερεῖς	ἱερεύς	n	n-p---mn-	Case=n|Gender=m|Number=p	7	SBJ	_	t_948|t_953|ref=Zeph_3.4
+3	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	2	ATR	_	t_949|t_948|ref=Zeph_3.4
+4	βεβηλοῦσιν	βεβηλόω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	PRED	_	t_950|t_953|ref=Zeph_3.4
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_951|t_952|ref=Zeph_3.4
+6	ἅγια	ἅγιος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_952|t_950|ref=Zeph_3.4
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_953|0|ref=Zeph_3.4
+8	ἀσεβοῦσιν	ἀσεβέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	PRED	_	t_954|t_953|ref=Zeph_3.4
+9	νόμον	νόμος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_955|t_954|ref=Zeph_3.4
+10	.	.	u	u--------	_	7	AuxK	_	t_956|t_953|ref=Zeph_3.4
+
+# source = Septuaginta, Zeph_3.5
 # text = ὁ δὲ κύριος δίκαιος ἐν μέσῳ αὐτῆς καὶ οὐ μὴ ποιήσῃ ἄδικον [0] ·
 # sent_id = 47
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_957|t_959|ref=Zeph_3.4
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_958|t_964|ref=Zeph_3.4
-3	κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_959|e_20|ref=Zeph_3.4
-4	δίκαιος	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_960|e_20|ref=Zeph_3.4
-5	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_961|e_20|ref=Zeph_3.4
-6	μέσῳ	μέσος	a	a-s---md-	Case=d|Gender=n|Number=s	5	ADV	_	t_962|t_961|ref=Zeph_3.4
-7	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_963|t_962|ref=Zeph_3.4
-8	καὶ	καί	c	c--------	_	0	COORD	_	t_964|0|ref=Zeph_3.3
-9	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_965|t_967|ref=Zeph_3.4
-10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_966|t_967|ref=Zeph_3.4
-11	ποιήσῃ	ποιέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_967|t_964|ref=Zeph_3.4
-12	ἄδικον	ἄδικος	a	a-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_968|t_967|ref=Zeph_3.4
-13	[0]	[0]	-	---------	_	8	PRED	_	e_20|t_964|ref=Zeph_1.1
-14	·	·	u	u--------	_	8	AuxK	_	t_969|t_964|ref=Zeph_3.4
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_957|t_959|ref=Zeph_3.5
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_958|t_964|ref=Zeph_3.5
+3	κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_959|e_20|ref=Zeph_3.5
+4	δίκαιος	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_960|e_20|ref=Zeph_3.5
+5	ἐν	ἐν	r	r--------	_	13	AuxP	_	t_961|e_20|ref=Zeph_3.5
+6	μέσῳ	μέσος	a	a-s---md-	Case=d|Gender=n|Number=s	5	ADV	_	t_962|t_961|ref=Zeph_3.5
+7	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_963|t_962|ref=Zeph_3.5
+8	καὶ	καί	c	c--------	_	0	COORD	_	t_964|0|ref=Zeph_3.5
+9	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_965|t_967|ref=Zeph_3.5
+10	μὴ	μή	d	d--------	_	11	AuxZ	_	t_966|t_967|ref=Zeph_3.5
+11	ποιήσῃ	ποιέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_967|t_964|ref=Zeph_3.5
+12	ἄδικον	ἄδικος	a	a-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_968|t_967|ref=Zeph_3.5
+13	[0]	[0]	-	---------	_	8	PRED	_	e_20|t_964|ref=Zeph_3.5
+14	·	·	u	u--------	_	8	AuxK	_	t_969|t_964|ref=Zeph_3.5
 
-# source = Septuaginta, Zeph_3.4-3.5
+# source = Septuaginta, Zeph_3.5
 # text = πρωὶ πρωὶ δώσει κρίμα αὐτοῦ εἰς φῶς , καὶ οὐκ ἀπεκρύβη καὶ οὐκ ἔγνω ἀδικίαν ἐν ἀπαιτήσει , καὶ οὐκ εἰς νῖκος ἀδικίαν .
 # sent_id = 48
-1	πρωὶ	πρωί	d	d--------	_	3	ADV	_	t_970|t_972|ref=Zeph_3.4
-2	πρωὶ	πρωί	d	d--------	_	3	ADV	_	t_971|t_972|ref=Zeph_3.4
-3	δώσει	δίδωμι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	9	PRED	_	t_972|t_978|ref=Zeph_3.4
-4	κρίμα	κρίμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_973|t_972|ref=Zeph_3.4
-5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_974|t_973|ref=Zeph_3.4
-6	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_975|t_972|ref=Zeph_3.4
+1	πρωὶ	πρωί	d	d--------	_	3	ADV	_	t_970|t_972|ref=Zeph_3.5
+2	πρωὶ	πρωί	d	d--------	_	3	ADV	_	t_971|t_972|ref=Zeph_3.5
+3	δώσει	δίδωμι	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	9	PRED	_	t_972|t_978|ref=Zeph_3.5
+4	κρίμα	κρίμα	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_973|t_972|ref=Zeph_3.5
+5	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_974|t_973|ref=Zeph_3.5
+6	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_975|t_972|ref=Zeph_3.5
 7	φῶς	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_976|t_975|ref=Zeph_3.5
 8	,	,	u	u--------	_	0	AuxX	_	t_977|0|ref=Zeph_3.5
 9	καὶ	καί	c	c--------	_	8	COORD	_	t_978|t_977|ref=Zeph_3.5
@@ -1196,44 +1196,44 @@
 16	ἐν	ἐν	r	r--------	_	14	AuxP	_	t_985|t_983|ref=Zeph_3.5
 17	ἀπαιτήσει	ἀπαιτέω	n	n-s---fd-	Case=d|Gender=f|Number=s	16	ADV	_	t_986|t_985|ref=Zeph_3.5
 18	,	,	u	u--------	_	8	AuxX	_	t_987|t_977|ref=Zeph_3.5
-19	καὶ	καί	c	c--------	_	14	COORD	_	t_988|t_983|ref=Zeph_3.4
+19	καὶ	καί	c	c--------	_	14	COORD	_	t_988|t_983|ref=Zeph_3.5
 20	οὐκ	οὐ	d	d--------	_	23	AuxZ	_	t_989|t_992|ref=Zeph_3.5
 21	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_990|t_988|ref=Zeph_3.5
 22	νῖκος	νῖκος	n	n-s---mg-	Case=g|Gender=m|Number=s	23	ATR	_	t_991|t_992|ref=Zeph_3.5
 23	ἀδικίαν	ἀδικία	n	n-s---fa-	Case=a|Gender=f|Number=s	21	OBJ	_	t_992|t_990|ref=Zeph_3.5
 24	.	.	u	u--------	_	8	AuxK	_	t_993|t_977|ref=Zeph_3.5
 
-# source = Septuaginta, Zeph_3.5
+# source = Septuaginta, Zeph_3.6
 # text = ἐν διαφθορᾷ κατέσπασα ὑπερηφάνους , ἠφανίσθησαν γωνίαι αὐτῶν ·
 # sent_id = 49
-1	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_994|t_996|ref=Zeph_3.5
-2	διαφθορᾷ	διαφθορά	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_995|t_994|ref=Zeph_3.5
-3	κατέσπασα	κατασπάω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	PRED	_	t_996|t_998|ref=Zeph_3.5
-4	ὑπερηφάνους	ὑπερήφανος	a	a-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_997|t_996|ref=Zeph_3.5
-5	,	,	u	u--------	_	0	COORD	_	t_998|0|ref=Zeph_3.5
-6	ἠφανίσθησαν	ἀφανίζω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	5	PRED	_	t_999|t_998|ref=Zeph_3.5
-7	γωνίαι	γωνία	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_1000|t_999|ref=Zeph_3.5
-8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1001|t_1000|ref=Zeph_3.5
-9	·	·	u	u--------	_	5	AuxK	_	t_1002|t_998|ref=Zeph_3.5
+1	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_994|t_996|ref=Zeph_3.6
+2	διαφθορᾷ	διαφθορά	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_995|t_994|ref=Zeph_3.6
+3	κατέσπασα	κατασπάω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	PRED	_	t_996|t_998|ref=Zeph_3.6
+4	ὑπερηφάνους	ὑπερήφανος	a	a-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_997|t_996|ref=Zeph_3.6
+5	,	,	u	u--------	_	0	COORD	_	t_998|0|ref=Zeph_3.6
+6	ἠφανίσθησαν	ἀφανίζω	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	5	PRED	_	t_999|t_998|ref=Zeph_3.6
+7	γωνίαι	γωνία	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_1000|t_999|ref=Zeph_3.6
+8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1001|t_1000|ref=Zeph_3.6
+9	·	·	u	u--------	_	5	AuxK	_	t_1002|t_998|ref=Zeph_3.6
 
-# source = Septuaginta, Zeph_3.5
+# source = Septuaginta, Zeph_3.6
 # text = ἐξερημώσω τὰς ὁδοὺς αὐτῶν τὸ παράπαν τοῦ μὴ διοδεύειν ·
 # sent_id = 50
-1	ἐξερημώσω	ἐξερημόω	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_1003|0|ref=Zeph_3.5
-2	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_1004|t_1005|ref=Zeph_3.5
-3	ὁδοὺς	ὁδός	n	n-p---fa-	Case=a|Gender=f|Number=p	1	OBJ	_	t_1005|t_1003|ref=Zeph_3.5
-4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1006|t_1005|ref=Zeph_3.5
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_1007|t_1008|ref=Zeph_3.5
-6	παράπαν	παράπαν	d	d--------	_	1	ADV	_	t_1008|t_1003|ref=Zeph_3.5
-7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_1009|t_1011|ref=Zeph_3.5
-8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_1010|t_1011|ref=Zeph_3.5
-9	διοδεύειν	διοδεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_1011|t_1003|ref=Zeph_3.5
-10	·	·	u	u--------	_	1	AuxK	_	t_1012|t_1003|ref=Zeph_3.5
+1	ἐξερημώσω	ἐξερημόω	v	v2saim---	Mood=i|Number=s|Person=2|Tense=a|Voice=m	0	PRED	_	t_1003|0|ref=Zeph_3.6
+2	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_1004|t_1005|ref=Zeph_3.6
+3	ὁδοὺς	ὁδός	n	n-p---fa-	Case=a|Gender=f|Number=p	1	OBJ	_	t_1005|t_1003|ref=Zeph_3.6
+4	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1006|t_1005|ref=Zeph_3.6
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_1007|t_1008|ref=Zeph_3.6
+6	παράπαν	παράπαν	d	d--------	_	1	ADV	_	t_1008|t_1003|ref=Zeph_3.6
+7	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	9	ATR	_	t_1009|t_1011|ref=Zeph_3.6
+8	μὴ	μή	d	d--------	_	9	AuxZ	_	t_1010|t_1011|ref=Zeph_3.6
+9	διοδεύειν	διοδεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_1011|t_1003|ref=Zeph_3.6
+10	·	·	u	u--------	_	1	AuxK	_	t_1012|t_1003|ref=Zeph_3.6
 
-# source = Septuaginta, Zeph_3.5-3.6
+# source = Septuaginta, Zeph_3.6
 # text = ἐξέλιπον αἱ πόλεις αὐτῶν παρὰ τὸ μηδένα ὑπάρχειν μηδέ κατοικεῖν .
 # sent_id = 51
-1	ἐξέλιπον	ἐκλείπω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_1013|0|ref=Zeph_3.5
+1	ἐξέλιπον	ἐκλείπω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_1013|0|ref=Zeph_3.6
 2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_1014|t_1015|ref=Zeph_3.6
 3	πόλεις	πόλις	n	n-p---fn-	Case=n|Gender=f|Number=p	1	SBJ	_	t_1015|t_1013|ref=Zeph_3.6
 4	αὐτῶν	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	3	ATR	_	t_1016|t_1015|ref=Zeph_3.6
@@ -1245,29 +1245,29 @@
 10	κατοικεῖν	κατοικέω	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_1022|t_1021|ref=Zeph_3.6
 11	.	.	u	u--------	_	1	AuxK	_	t_1023|t_1013|ref=Zeph_3.6
 
-# source = Septuaginta, Zeph_3.6-3.7
+# source = Septuaginta, Zeph_3.7
 # text = εἶπα Πλὴν φοβεῖσθέ με καὶ δέξασθε παιδείαν , καὶ οὐ μὴ ἐξολοθρευθῆτε ἐξ ὀφθαλμῶν αὐτῆς , πάντα ὅσα ἐξεδίκησα ἐπʼ αὐτήν ·
 # sent_id = 52
-1	εἶπα	λέγω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_1024|0|ref=Zeph_3.6
-2	Πλὴν	πλήν	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_1025|t_1026|ref=Zeph_3.6
-3	φοβεῖσθέ	φοβέω	v	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	9	OBJ	_	t_1026|t_1032|ref=Zeph_3.6
-4	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	3	OBJ	_	t_1027|t_1026|ref=Zeph_3.6
-5	καὶ	καί	d	d--------	_	9	AuxY	_	t_1028|t_1032|ref=Zeph_3.6
-6	δέξασθε	δέχομαι	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	9	OBJ	_	t_1029|t_1032|ref=Zeph_3.6
-7	παιδείαν	παιδεία	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_1030|t_1029|ref=Zeph_3.6
-8	,	,	u	u--------	_	1	AuxX	_	t_1031|t_1024|ref=Zeph_3.6
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_1032|t_1024|ref=Zeph_3.6
-10	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_1033|t_1035|ref=Zeph_3.6
-11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_1034|t_1035|ref=Zeph_3.6
-12	ἐξολοθρευθῆτε	ἐξολοθρεύω	v	v2pasp---	Mood=s|Number=p|Person=2|Tense=a|Voice=p	9	OBJ	_	t_1035|t_1032|ref=Zeph_3.6
-13	ἐξ	ἐκ	r	r--------	_	12	AuxP	_	t_1036|t_1035|ref=Zeph_3.6
-14	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	13	OBJ	_	t_1037|t_1036|ref=Zeph_3.6
-15	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_1038|t_1037|ref=Zeph_3.6
-16	,	,	u	u--------	_	1	AuxX	_	t_1039|t_1024|ref=Zeph_3.6
-17	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_1040|t_1039|ref=Zeph_3.6
-18	ὅσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	19	OBJ	_	t_1041|t_1042|ref=Zeph_3.6
-19	ἐξεδίκησα	ἐκδικέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	17	ATR	_	t_1042|t_1040|ref=Zeph_3.6
-20	ἐπʼ	ἐπί	r	r--------	_	19	AuxP	_	t_1043|t_1042|ref=Zeph_3.6
+1	εἶπα	λέγω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_1024|0|ref=Zeph_3.7
+2	Πλὴν	πλήν	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_1025|t_1026|ref=Zeph_3.7
+3	φοβεῖσθέ	φοβέω	v	v2ppme---	Mood=m|Number=p|Person=2|Tense=p|Voice=e	9	OBJ	_	t_1026|t_1032|ref=Zeph_3.7
+4	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	3	OBJ	_	t_1027|t_1026|ref=Zeph_3.7
+5	καὶ	καί	d	d--------	_	9	AuxY	_	t_1028|t_1032|ref=Zeph_3.7
+6	δέξασθε	δέχομαι	v	v2pamm---	Mood=m|Number=p|Person=2|Tense=a|Voice=m	9	OBJ	_	t_1029|t_1032|ref=Zeph_3.7
+7	παιδείαν	παιδεία	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_1030|t_1029|ref=Zeph_3.7
+8	,	,	u	u--------	_	1	AuxX	_	t_1031|t_1024|ref=Zeph_3.7
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_1032|t_1024|ref=Zeph_3.7
+10	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_1033|t_1035|ref=Zeph_3.7
+11	μὴ	μή	d	d--------	_	12	AuxZ	_	t_1034|t_1035|ref=Zeph_3.7
+12	ἐξολοθρευθῆτε	ἐξολοθρεύω	v	v2pasp---	Mood=s|Number=p|Person=2|Tense=a|Voice=p	9	OBJ	_	t_1035|t_1032|ref=Zeph_3.7
+13	ἐξ	ἐκ	r	r--------	_	12	AuxP	_	t_1036|t_1035|ref=Zeph_3.7
+14	ὀφθαλμῶν	ὀφθαλμός	n	n-p---mg-	Case=g|Gender=m|Number=p	13	OBJ	_	t_1037|t_1036|ref=Zeph_3.7
+15	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_1038|t_1037|ref=Zeph_3.7
+16	,	,	u	u--------	_	1	AuxX	_	t_1039|t_1024|ref=Zeph_3.7
+17	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_1040|t_1039|ref=Zeph_3.7
+18	ὅσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	19	OBJ	_	t_1041|t_1042|ref=Zeph_3.7
+19	ἐξεδίκησα	ἐκδικέω	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	17	ATR	_	t_1042|t_1040|ref=Zeph_3.7
+20	ἐπʼ	ἐπί	r	r--------	_	19	AuxP	_	t_1043|t_1042|ref=Zeph_3.7
 21	αὐτήν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	20	ADV	_	t_1044|t_1043|ref=Zeph_3.7
 22	·	·	u	u--------	_	1	AuxK	_	t_1045|t_1024|ref=Zeph_3.7
 
@@ -1284,33 +1284,33 @@
 8	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1053|t_1052|ref=Zeph_3.7
 9	.	.	u	u--------	_	3	AuxK	_	t_1054|t_1048|ref=Zeph_3.7
 
-# source = Septuaginta, Zeph_3.7
+# source = Septuaginta, Zeph_3.8
 # text = Διὰ τοῦτο ὑπόμεινόν με , λέγει Κύριος , εἰς ἡμέραν ἀναστάσεώς μου εἰς μαρτύριον ·
 # sent_id = 54
-1	Διὰ	διά	r	r--------	_	3	AuxP	_	t_1055|t_1057|ref=Zeph_3.7
-2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_1056|t_1055|ref=Zeph_3.7
-3	ὑπόμεινόν	ὑπομένω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_1057|0|ref=Zeph_3.7
-4	με	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	3	OBJ	_	t_1058|t_1057|ref=Zeph_3.7
-5	,	,	u	u--------	_	3	AuxX	_	t_1059|t_1057|ref=Zeph_3.7
-6	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	AuxY	_	t_1060|t_1057|ref=Zeph_3.7
-7	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1061|t_1060|ref=Zeph_3.7
-8	,	,	u	u--------	_	3	AuxX	_	t_1062|t_1057|ref=Zeph_3.7
-9	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1063|t_1057|ref=Zeph_3.7
-10	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	ADV	_	t_1064|t_1063|ref=Zeph_3.7
-11	ἀναστάσεώς	ἀνάστασις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1065|t_1064|ref=Zeph_3.7
-12	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	11	ATR	_	t_1066|t_1065|ref=Zeph_3.7
-13	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1067|t_1057|ref=Zeph_3.7
-14	μαρτύριον	μαρτύριον	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ADV	_	t_1068|t_1067|ref=Zeph_3.7
-15	·	·	u	u--------	_	3	AuxK	_	t_1069|t_1057|ref=Zeph_3.7
+1	Διὰ	διά	r	r--------	_	3	AuxP	_	t_1055|t_1057|ref=Zeph_3.8
+2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_1056|t_1055|ref=Zeph_3.8
+3	ὑπόμεινόν	ὑπομένω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_1057|0|ref=Zeph_3.8
+4	με	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	3	OBJ	_	t_1058|t_1057|ref=Zeph_3.8
+5	,	,	u	u--------	_	3	AuxX	_	t_1059|t_1057|ref=Zeph_3.8
+6	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	AuxY	_	t_1060|t_1057|ref=Zeph_3.8
+7	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1061|t_1060|ref=Zeph_3.8
+8	,	,	u	u--------	_	3	AuxX	_	t_1062|t_1057|ref=Zeph_3.8
+9	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1063|t_1057|ref=Zeph_3.8
+10	ἡμέραν	ἡμέρα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	ADV	_	t_1064|t_1063|ref=Zeph_3.8
+11	ἀναστάσεώς	ἀνάστασις	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ATR	_	t_1065|t_1064|ref=Zeph_3.8
+12	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	11	ATR	_	t_1066|t_1065|ref=Zeph_3.8
+13	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1067|t_1057|ref=Zeph_3.8
+14	μαρτύριον	μαρτύριον	n	n-s---ma-	Case=a|Gender=m|Number=s	13	ADV	_	t_1068|t_1067|ref=Zeph_3.8
+15	·	·	u	u--------	_	3	AuxK	_	t_1069|t_1057|ref=Zeph_3.8
 
-# source = Septuaginta, Zeph_3.7-3.8
+# source = Septuaginta, Zeph_3.8
 # text = διότι τὸ κρίμα μου εἰς συναγωγὰς ἐθνῶν , τοῦ εἰσδέξασθαι βασιλεῖς , τοῦ ἐκχέαι ἐπʼ αὐτοὺς πᾶσαν ὀργὴν θυμοῦ μου [0] ·
 # sent_id = 55
-1	διότι	διότι	c	c--------	_	21	AuxC	_	t_1070|e_21|ref=Zeph_3.7
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1071|t_1072|ref=Zeph_3.7
-3	κρίμα	κρίμα	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_1072|e_21|ref=Zeph_3.7
-4	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	3	ATR	_	t_1073|t_1072|ref=Zeph_3.7
-5	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1074|t_1072|ref=Zeph_3.7
+1	διότι	διότι	c	c--------	_	21	AuxC	_	t_1070|e_21|ref=Zeph_3.8
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1071|t_1072|ref=Zeph_3.8
+3	κρίμα	κρίμα	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_1072|e_21|ref=Zeph_3.8
+4	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	3	ATR	_	t_1073|t_1072|ref=Zeph_3.8
+5	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1074|t_1072|ref=Zeph_3.8
 6	συναγωγὰς	συναγωγή	n	n-p---fa-	Case=a|Gender=f|Number=p	5	ADV	_	t_1075|t_1074|ref=Zeph_3.8
 7	ἐθνῶν	ἔθνος	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_1076|t_1075|ref=Zeph_3.8
 8	,	,	u	u--------	_	21	AuxX	_	t_1077|e_21|ref=Zeph_3.8
@@ -1326,7 +1326,7 @@
 18	ὀργὴν	ὀργή	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_1087|t_1083|ref=Zeph_3.8
 19	θυμοῦ	θυμός	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ATR	_	t_1088|t_1087|ref=Zeph_3.8
 20	μου	ἐγώ	p	p1s---mg-	Case=g|Gender=m|Number=s|Person=1	19	ATR	_	t_1089|t_1088|ref=Zeph_3.8
-21	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Zeph_1.1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Zeph_3.8
 22	·	·	u	u--------	_	21	AuxK	_	t_1090|e_21|ref=Zeph_3.8
 
 # source = Septuaginta, Zeph_3.8
@@ -1343,80 +1343,80 @@
 9	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_1099|t_1096|ref=Zeph_3.8
 10	.	.	u	u--------	_	6	AuxK	_	t_1100|t_1096|ref=Zeph_3.8
 
-# source = Septuaginta, Zeph_3.8-3.9
+# source = Septuaginta, Zeph_3.9
 # text = ὅτι τότε μεταστρέψω ἐπὶ λαοὺς γλῶσσαν εἰς γενεὰν αὐτῆς , τοῦ ἐπικαλεῖσθαι πάντας ¶ τὸ ὄνομα Κυρίου , τοῦ δουλεύειν αὐτῷ ὑπὸ ζυγὸν ἕνα .
 # sent_id = 57
-1	ὅτι	ὅτι	d	d--------	_	3	AuxY	_	t_1101|t_1103|ref=Zeph_3.8
-2	τότε	τότε	d	d--------	_	3	ADV	_	t_1102|t_1103|ref=Zeph_3.8
-3	μεταστρέψω	μεταστρέφω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1103|0|ref=Zeph_3.8
-4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_1104|t_1103|ref=Zeph_3.8
-5	λαοὺς	λαός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	ADV	_	t_1105|t_1104|ref=Zeph_3.8
-6	γλῶσσαν	γλῶσσα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_1106|t_1103|ref=Zeph_3.8
-7	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1107|t_1103|ref=Zeph_3.8
-8	γενεὰν	γενεά	n	n-s---fa-	Case=a|Gender=f|Number=s	7	ADV	_	t_1108|t_1107|ref=Zeph_3.8
-9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1109|t_1108|ref=Zeph_3.8
-10	,	,	u	u--------	_	3	AuxX	_	t_1110|t_1103|ref=Zeph_3.8
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_1111|t_1112|ref=Zeph_3.8
-12	ἐπικαλεῖσθαι	ἐπικαλέω	v	v--pne---	Mood=n|Tense=p|Voice=e	3	ADV	_	t_1112|t_1103|ref=Zeph_3.8
-13	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	12	OBJ	_	t_1113|t_1112|ref=Zeph_3.8
-14	¶		u	u--------	_	3	AuxX	_	t_1114|t_1103|ref=Zeph_3.8
-15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1115|t_1116|ref=Zeph_3.8
-16	ὄνομα	ὄνομα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_1116|t_1112|ref=Zeph_3.8
-17	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1117|t_1116|ref=Zeph_3.8
-18	,	,	u	u--------	_	3	AuxX	_	t_1118|t_1103|ref=Zeph_3.8
-19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_1119|t_1120|ref=Zeph_3.8
-20	δουλεύειν	δουλεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_1120|t_1112|ref=Zeph_3.8
-21	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	20	OBJ	_	t_1121|t_1120|ref=Zeph_3.8
+1	ὅτι	ὅτι	d	d--------	_	3	AuxY	_	t_1101|t_1103|ref=Zeph_3.9
+2	τότε	τότε	d	d--------	_	3	ADV	_	t_1102|t_1103|ref=Zeph_3.9
+3	μεταστρέψω	μεταστρέφω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1103|0|ref=Zeph_3.9
+4	ἐπὶ	ἐπί	r	r--------	_	3	AuxP	_	t_1104|t_1103|ref=Zeph_3.9
+5	λαοὺς	λαός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	ADV	_	t_1105|t_1104|ref=Zeph_3.9
+6	γλῶσσαν	γλῶσσα	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_1106|t_1103|ref=Zeph_3.9
+7	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1107|t_1103|ref=Zeph_3.9
+8	γενεὰν	γενεά	n	n-s---fa-	Case=a|Gender=f|Number=s	7	ADV	_	t_1108|t_1107|ref=Zeph_3.9
+9	αὐτῆς	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1109|t_1108|ref=Zeph_3.9
+10	,	,	u	u--------	_	3	AuxX	_	t_1110|t_1103|ref=Zeph_3.9
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_1111|t_1112|ref=Zeph_3.9
+12	ἐπικαλεῖσθαι	ἐπικαλέω	v	v--pne---	Mood=n|Tense=p|Voice=e	3	ADV	_	t_1112|t_1103|ref=Zeph_3.9
+13	πάντας	πᾶς	a	a-p---ma-	Case=a|Gender=m|Number=p	12	OBJ	_	t_1113|t_1112|ref=Zeph_3.9
+14	¶		u	u--------	_	3	AuxX	_	t_1114|t_1103|ref=Zeph_3.9
+15	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	16	ATR	_	t_1115|t_1116|ref=Zeph_3.9
+16	ὄνομα	ὄνομα	n	n-s---na-	Case=a|Gender=n|Number=s	12	OBJ	_	t_1116|t_1112|ref=Zeph_3.9
+17	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1117|t_1116|ref=Zeph_3.9
+18	,	,	u	u--------	_	3	AuxX	_	t_1118|t_1103|ref=Zeph_3.9
+19	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	20	ATR	_	t_1119|t_1120|ref=Zeph_3.9
+20	δουλεύειν	δουλεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	12	OBJ	_	t_1120|t_1112|ref=Zeph_3.9
+21	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	20	OBJ	_	t_1121|t_1120|ref=Zeph_3.9
 22	ὑπὸ	ὑπό	r	r--------	_	20	AuxP	_	t_1122|t_1120|ref=Zeph_3.9
 23	ζυγὸν	ζυγόν	n	n-s---na-	Case=a|Gender=n|Number=s	22	ADV	_	t_1123|t_1122|ref=Zeph_3.9
 24	ἕνα	εἷς	m	m-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_1124|t_1120|ref=Zeph_3.9
 25	.	.	u	u--------	_	3	AuxK	_	t_1125|t_1103|ref=Zeph_3.9
 
-# source = Septuaginta, Zeph_3.9
+# source = Septuaginta, Zeph_3.10
 # text = ἐκ περάτων ποταμῶν Αἰθιοπίας προσδέξομαι ἐν διεσπαρμένοις μου , οἴσουσιν θυσίας μοι .
 # sent_id = 58
-1	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_1126|t_1130|ref=Zeph_3.9
-2	περάτων	πέρας	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1127|t_1128|ref=Zeph_3.9
-3	ποταμῶν	ποταμός	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_1128|t_1126|ref=Zeph_3.9
-4	Αἰθιοπίας	αἰθιοπία	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_1129|t_1130|ref=Zeph_3.9
-5	προσδέξομαι	προσδέχομαι	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	9	PRED	_	t_1130|t_1134|ref=Zeph_3.9
-6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1131|t_1130|ref=Zeph_3.9
-7	διεσπαρμένοις	διασπείρω	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	6	ADV	_	t_1132|t_1131|ref=Zeph_3.9
-8	μου	ἐγώ	p	p-s---mg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_1133|t_1132|ref=Zeph_3.9
-9	,	,	u	u--------	_	0	COORD	_	t_1134|0|ref=Zeph_3.9
-10	οἴσουσιν	φέρω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	9	PRED	_	t_1135|t_1134|ref=Zeph_3.9
-11	θυσίας	θυσία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_1136|t_1135|ref=Zeph_3.9
-12	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_1137|t_1135|ref=Zeph_3.9
-13	.	.	u	u--------	_	9	AuxK	_	t_1138|t_1134|ref=Zeph_3.9
+1	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_1126|t_1130|ref=Zeph_3.10
+2	περάτων	πέρας	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1127|t_1128|ref=Zeph_3.10
+3	ποταμῶν	ποταμός	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_1128|t_1126|ref=Zeph_3.10
+4	Αἰθιοπίας	αἰθιοπία	n	n-p---fa-	Case=a|Gender=f|Number=p	5	OBJ	_	t_1129|t_1130|ref=Zeph_3.10
+5	προσδέξομαι	προσδέχομαι	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	9	PRED	_	t_1130|t_1134|ref=Zeph_3.10
+6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1131|t_1130|ref=Zeph_3.10
+7	διεσπαρμένοις	διασπείρω	v	v-prpend-	Case=d|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	6	ADV	_	t_1132|t_1131|ref=Zeph_3.10
+8	μου	ἐγώ	p	p-s---mg-	Case=g|Gender=c|Number=s|Person=1	7	ATR	_	t_1133|t_1132|ref=Zeph_3.10
+9	,	,	u	u--------	_	0	COORD	_	t_1134|0|ref=Zeph_3.10
+10	οἴσουσιν	φέρω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	9	PRED	_	t_1135|t_1134|ref=Zeph_3.10
+11	θυσίας	θυσία	n	n-p---fa-	Case=a|Gender=f|Number=p	10	OBJ	_	t_1136|t_1135|ref=Zeph_3.10
+12	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	10	OBJ	_	t_1137|t_1135|ref=Zeph_3.10
+13	.	.	u	u--------	_	9	AuxK	_	t_1138|t_1134|ref=Zeph_3.10
 
-# source = Septuaginta, Zeph_3.9-3.10
+# source = Septuaginta, Zeph_3.11
 # text = ἐν τῇ ἡμέρᾳ ἐκείνῃ οὐ μὴ καταισχυνθῇς ἐκ πάντων τῶν ἐπιτηδευμάτων σου ὧν ἠσέβησας εἰς ἐμέ ·
 # sent_id = 59
-1	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1139|t_1145|ref=Zeph_3.9
-2	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_1140|t_1141|ref=Zeph_3.9
-3	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_1141|t_1139|ref=Zeph_3.9
-4	ἐκείνῃ	ἐκεῖνος	a	a-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_1142|t_1141|ref=Zeph_3.9
-5	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_1143|t_1145|ref=Zeph_3.9
-6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_1144|t_1145|ref=Zeph_3.9
-7	καταισχυνθῇς	καταισχύνω	v	v2sasp---	Mood=s|Number=s|Person=2|Tense=a|Voice=p	0	PRED	_	t_1145|0|ref=Zeph_3.9
-8	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_1146|t_1145|ref=Zeph_3.9
-9	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_1147|t_1149|ref=Zeph_3.10
-10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_1148|t_1149|ref=Zeph_3.10
-11	ἐπιτηδευμάτων	ἐπιτήδευμα	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ADV	_	t_1149|t_1146|ref=Zeph_3.10
-12	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1150|t_1149|ref=Zeph_3.10
-13	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	14	OBJ	_	t_1151|t_1152|ref=Zeph_3.10
-14	ἠσέβησας	ἀσεβέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	11	ATR	_	t_1152|t_1149|ref=Zeph_3.10
-15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_1153|t_1152|ref=Zeph_3.10
-16	ἐμέ	ἐγώ	p	p1s---ma-	Case=a|Gender=c|Number=s|Person=1	15	OBJ	_	t_1154|t_1153|ref=Zeph_3.10
-17	·	·	u	u--------	_	7	AuxK	_	t_1155|t_1145|ref=Zeph_3.10
+1	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1139|t_1145|ref=Zeph_3.11
+2	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_1140|t_1141|ref=Zeph_3.11
+3	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_1141|t_1139|ref=Zeph_3.11
+4	ἐκείνῃ	ἐκεῖνος	a	a-s---fd-	Case=d|Gender=f|Number=s	3	ATR	_	t_1142|t_1141|ref=Zeph_3.11
+5	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_1143|t_1145|ref=Zeph_3.11
+6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_1144|t_1145|ref=Zeph_3.11
+7	καταισχυνθῇς	καταισχύνω	v	v2sasp---	Mood=s|Number=s|Person=2|Tense=a|Voice=p	0	PRED	_	t_1145|0|ref=Zeph_3.11
+8	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_1146|t_1145|ref=Zeph_3.11
+9	πάντων	πᾶς	a	a-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_1147|t_1149|ref=Zeph_3.11
+10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_1148|t_1149|ref=Zeph_3.11
+11	ἐπιτηδευμάτων	ἐπιτήδευμα	n	n-p---ng-	Case=g|Gender=n|Number=p	8	ADV	_	t_1149|t_1146|ref=Zeph_3.11
+12	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1150|t_1149|ref=Zeph_3.11
+13	ὧν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	14	OBJ	_	t_1151|t_1152|ref=Zeph_3.11
+14	ἠσέβησας	ἀσεβέω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	11	ATR	_	t_1152|t_1149|ref=Zeph_3.11
+15	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_1153|t_1152|ref=Zeph_3.11
+16	ἐμέ	ἐγώ	p	p1s---ma-	Case=a|Gender=c|Number=s|Person=1	15	OBJ	_	t_1154|t_1153|ref=Zeph_3.11
+17	·	·	u	u--------	_	7	AuxK	_	t_1155|t_1145|ref=Zeph_3.11
 
-# source = Septuaginta, Zeph_3.10-3.11
+# source = Septuaginta, Zeph_3.11
 # text = ὃτι τότε περιελῶ ἀπὸ σοῦ τὰ φαυλίσματα τῆς ὕβρεώς σου , καὶ οὐκέτι μὴ προσθῇς τοῦ μεγαλαυχῆσαι ἐπὶ τὸ ὄρος τὸ ἅγιόν μου .
 # sent_id = 60
-1	ὃτι	ὅτι	d	d--------	_	3	AuxY	_	t_1156|t_1158|ref=Zeph_3.10
-2	τότε	τότε	d	d--------	_	3	ADV	_	t_1157|t_1158|ref=Zeph_3.10
-3	περιελῶ	περιαιρέω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	12	PRED	_	t_1158|t_1167|ref=Zeph_3.10
-4	ἀπὸ	ἀπό	r	r--------	_	3	AuxP	_	t_1159|t_1158|ref=Zeph_3.10
+1	ὃτι	ὅτι	d	d--------	_	3	AuxY	_	t_1156|t_1158|ref=Zeph_3.11
+2	τότε	τότε	d	d--------	_	3	ADV	_	t_1157|t_1158|ref=Zeph_3.11
+3	περιελῶ	περιαιρέω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	12	PRED	_	t_1158|t_1167|ref=Zeph_3.11
+4	ἀπὸ	ἀπό	r	r--------	_	3	AuxP	_	t_1159|t_1158|ref=Zeph_3.11
 5	σοῦ	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	4	OBJ	_	t_1160|t_1159|ref=Zeph_3.11
 6	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1161|t_1162|ref=Zeph_3.11
 7	φαυλίσματα	φαυλίσμα	n	n-p---na-	Case=a|Gender=n|Number=p	3	OBJ	_	t_1162|t_1158|ref=Zeph_3.11
@@ -1438,30 +1438,30 @@
 23	μου	ἐγώ	p	p1s---cg-	Case=g|Gender=c|Number=s|Person=1	22	ATR	_	t_1178|t_1177|ref=Zeph_3.11
 24	.	.	u	u--------	_	11	AuxK	_	t_1179|t_1166|ref=Zeph_3.11
 
-# source = Septuaginta, Zeph_3.11-3.12
+# source = Septuaginta, Zeph_3.12
 # text = καὶ ὑπολείψομαι ἐν σοὶ λαὸν πρᾳὺν καὶ ταπεινόν , καὶ εὐλαβηθήσονται ἀπὸ τοῦ ὀνόματος Κυρίου ¹³οἱ κατάλοιποι τοῦ Ἰσραήλ , καὶ οὐ ποιήσουσιν ἀδικίαν καὶ οὐ λαλήσουσιν μάταια , καὶ οὐ μὴ εὑρεθῇ ἐν τῷ στόματι αὐτῶν γλῶσσα δολία ·
 # sent_id = 61
-1	καὶ	καί	d	d--------	_	30	AuxY	_	t_1180|t_1209|ref=Zeph_3.11
-2	ὑπολείψομαι	ὑπολείπω	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	30	PRED	_	t_1181|t_1209|ref=Zeph_3.11
-3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_1182|t_1181|ref=Zeph_3.11
-4	σοὶ	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1183|t_1182|ref=Zeph_3.11
-5	λαὸν	λαός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1184|t_1181|ref=Zeph_3.11
-6	πρᾳὺν	πρᾶος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1185|t_1186|ref=Zeph_3.11
-7	καὶ	καί	c	c--------	_	5	COORD	_	t_1186|t_1184|ref=Zeph_3.11
-8	ταπεινόν	ταπεινός	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1187|t_1186|ref=Zeph_3.11
-9	,	,	u	u--------	_	0	AuxX	_	t_1188|0|ref=Zeph_3.11
-10	καὶ	καί	c	c--------	_	30	AuxY	_	t_1189|t_1209|ref=Zeph_3.11
-11	εὐλαβηθήσονται	εὐλαβέομαι	v	v3pfip---	Mood=i|Number=p|Person=3|Tense=f|Voice=p	30	PRED	_	t_1190|t_1209|ref=Zeph_3.11
-12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_1191|t_1190|ref=Zeph_3.11
-13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_1192|t_1193|ref=Zeph_3.11
-14	ὀνόματος	ὄνομα	n	n-s---ng-	Case=g|Gender=n|Number=s	12	ADV	_	t_1193|t_1191|ref=Zeph_3.11
-15	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_1194|t_1193|ref=Zeph_3.11
-16	¹³οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	17	ATR	_	t_1195|t_1196|ref=Zeph_3.11
-17	κατάλοιποι	κατάλοιπος	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_1196|t_1190|ref=Zeph_3.11
-18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_1197|t_1198|ref=Zeph_3.11
-19	Ἰσραήλ	ἰσραήλ	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_1198|t_1196|ref=Zeph_3.11
-20	,	,	u	u--------	_	9	AuxX	_	t_1199|t_1188|ref=Zeph_3.11
-21	καὶ	καί	c	c--------	_	30	AuxY	_	t_1200|t_1209|ref=Zeph_3.11
+1	καὶ	καί	d	d--------	_	30	AuxY	_	t_1180|t_1209|ref=Zeph_3.12
+2	ὑπολείψομαι	ὑπολείπω	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	30	PRED	_	t_1181|t_1209|ref=Zeph_3.12
+3	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_1182|t_1181|ref=Zeph_3.12
+4	σοὶ	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1183|t_1182|ref=Zeph_3.12
+5	λαὸν	λαός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1184|t_1181|ref=Zeph_3.12
+6	πρᾳὺν	πρᾶος	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1185|t_1186|ref=Zeph_3.12
+7	καὶ	καί	c	c--------	_	5	COORD	_	t_1186|t_1184|ref=Zeph_3.12
+8	ταπεινόν	ταπεινός	a	a-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1187|t_1186|ref=Zeph_3.12
+9	,	,	u	u--------	_	0	AuxX	_	t_1188|0|ref=Zeph_3.12
+10	καὶ	καί	c	c--------	_	30	AuxY	_	t_1189|t_1209|ref=Zeph_3.12
+11	εὐλαβηθήσονται	εὐλαβέομαι	v	v3pfip---	Mood=i|Number=p|Person=3|Tense=f|Voice=p	30	PRED	_	t_1190|t_1209|ref=Zeph_3.12
+12	ἀπὸ	ἀπό	r	r--------	_	11	AuxP	_	t_1191|t_1190|ref=Zeph_3.12
+13	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	14	ATR	_	t_1192|t_1193|ref=Zeph_3.12
+14	ὀνόματος	ὄνομα	n	n-s---ng-	Case=g|Gender=n|Number=s	12	ADV	_	t_1193|t_1191|ref=Zeph_3.12
+15	Κυρίου	κύριος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_1194|t_1193|ref=Zeph_3.12
+16	¹³οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	17	ATR	_	t_1195|t_1196|ref=Zeph_3.12
+17	κατάλοιποι	κατάλοιπος	a	a-p---mn-	Case=n|Gender=m|Number=p	11	SBJ	_	t_1196|t_1190|ref=Zeph_3.12
+18	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	19	ATR	_	t_1197|t_1198|ref=Zeph_3.12
+19	Ἰσραήλ	ἰσραήλ	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ATR	_	t_1198|t_1196|ref=Zeph_3.12
+20	,	,	u	u--------	_	9	AuxX	_	t_1199|t_1188|ref=Zeph_3.12
+21	καὶ	καί	c	c--------	_	30	AuxY	_	t_1200|t_1209|ref=Zeph_3.12
 22	οὐ	οὐ	d	d--------	_	23	AuxZ	_	t_1201|t_1202|ref=Zeph_3.12
 23	ποιήσουσιν	ποιέω	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	30	PRED	_	t_1202|t_1209|ref=Zeph_3.12
 24	ἀδικίαν	ἀδικία	n	n-s---fa-	Case=a|Gender=f|Number=s	23	OBJ	_	t_1203|t_1202|ref=Zeph_3.12
@@ -1499,117 +1499,117 @@
 12	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_1231|t_1230|ref=Zeph_3.12
 13	.	.	u	u--------	_	6	AuxK	_	t_1232|t_1225|ref=Zeph_3.12
 
-# source = Septuaginta, Zeph_3.12
+# source = Septuaginta, Zeph_3.14
 # text = Καῖρε , θύγατερ Σειών , κήρυσσε , θύγατερ Ἰερουσαλήμ ·
 # sent_id = 63
-1	Καῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	7	PRED	_	t_1233|t_1239|ref=Zeph_3.12
-2	,	,	u	u--------	_	7	AuxX	_	t_1234|t_1239|ref=Zeph_3.12
-3	θύγατερ	θυγάτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	7	ExD	_	t_1235|t_1239|ref=Zeph_3.12
-4	Σειών	σείω	n	n-s---fv-	Case=n|Gender=m|Number=s	3	ATR	_	t_1236|t_1235|ref=Zeph_3.12
-5	,	,	u	u--------	_	7	AuxX	_	t_1237|t_1239|ref=Zeph_3.12
-6	κήρυσσε	κηρύσσω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_1238|0|ref=Zeph_3.12
-7	,	,	u	u--------	_	6	APOS	_	t_1239|t_1238|ref=Zeph_3.12
-8	θύγατερ	θυγάτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	7	ExD	_	t_1240|t_1239|ref=Zeph_3.12
-9	Ἰερουσαλήμ	ἰερουσαλὴμ	n	n-s---fv-	Case=v|Gender=f|Number=s	7	ExD	_	t_1241|t_1239|ref=Zeph_3.12
-10	·	·	u	u--------	_	6	AuxK	_	t_1242|t_1238|ref=Zeph_3.12
-
-# source = Septuaginta, Zeph_3.12-3.14
-# text = εὐφραίνου καὶ κατατέρπου ἐξ ὅλης τῆς καρδίας σου , θύγατερ Ἰερουσαλήμ .
-# sent_id = 64
-1	εὐφραίνου	εὐφραίνω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	2	PRED	_	t_1243|t_1244|ref=Zeph_3.12
-2	καὶ	καί	c	c--------	_	0	COORD	_	t_1244|0|ref=Zeph_3.12
-3	κατατέρπου	κατατέρπω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	2	PRED	_	t_1245|t_1244|ref=Zeph_3.12
-4	ἐξ	ἐκ	r	r--------	_	3	AuxP	_	t_1246|t_1245|ref=Zeph_3.12
-5	ὅλης	ὅλος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1247|t_1249|ref=Zeph_3.12
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1248|t_1249|ref=Zeph_3.12
-7	καρδίας	καρδία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_1249|t_1246|ref=Zeph_3.12
-8	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	7	ATR	_	t_1250|t_1249|ref=Zeph_3.12
-9	,	,	u	u--------	_	2	AuxX	_	t_1251|t_1244|ref=Zeph_3.12
-10	θύγατερ	θυγάτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	2	ExD	_	t_1252|t_1244|ref=Zeph_3.12
-11	Ἰερουσαλήμ	ἰερουσαλὴμ	n	n-s---fv-	Case=v|Gender=f|Number=s	10	ATR	_	t_1253|t_1252|ref=Zeph_3.12
-12	.	.	u	u--------	_	2	AuxK	_	t_1254|t_1244|ref=Zeph_3.14
+1	Καῖρε	χαίρω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	7	PRED	_	t_1233|t_1239|ref=Zeph_3.14
+2	,	,	u	u--------	_	7	AuxX	_	t_1234|t_1239|ref=Zeph_3.14
+3	θύγατερ	θυγάτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	7	ExD	_	t_1235|t_1239|ref=Zeph_3.14
+4	Σειών	σείω	n	n-s---fv-	Case=n|Gender=m|Number=s	3	ATR	_	t_1236|t_1235|ref=Zeph_3.14
+5	,	,	u	u--------	_	7	AuxX	_	t_1237|t_1239|ref=Zeph_3.14
+6	κήρυσσε	κηρύσσω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_1238|0|ref=Zeph_3.14
+7	,	,	u	u--------	_	6	APOS	_	t_1239|t_1238|ref=Zeph_3.14
+8	θύγατερ	θυγάτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	7	ExD	_	t_1240|t_1239|ref=Zeph_3.14
+9	Ἰερουσαλήμ	ἰερουσαλὴμ	n	n-s---fv-	Case=v|Gender=f|Number=s	7	ExD	_	t_1241|t_1239|ref=Zeph_3.14
+10	·	·	u	u--------	_	6	AuxK	_	t_1242|t_1238|ref=Zeph_3.14
 
 # source = Septuaginta, Zeph_3.14
+# text = εὐφραίνου καὶ κατατέρπου ἐξ ὅλης τῆς καρδίας σου , θύγατερ Ἰερουσαλήμ .
+# sent_id = 64
+1	εὐφραίνου	εὐφραίνω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	2	PRED	_	t_1243|t_1244|ref=Zeph_3.14
+2	καὶ	καί	c	c--------	_	0	COORD	_	t_1244|0|ref=Zeph_3.14
+3	κατατέρπου	κατατέρπω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	2	PRED	_	t_1245|t_1244|ref=Zeph_3.14
+4	ἐξ	ἐκ	r	r--------	_	3	AuxP	_	t_1246|t_1245|ref=Zeph_3.14
+5	ὅλης	ὅλος	a	a-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1247|t_1249|ref=Zeph_3.14
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1248|t_1249|ref=Zeph_3.14
+7	καρδίας	καρδία	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_1249|t_1246|ref=Zeph_3.14
+8	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	7	ATR	_	t_1250|t_1249|ref=Zeph_3.14
+9	,	,	u	u--------	_	2	AuxX	_	t_1251|t_1244|ref=Zeph_3.14
+10	θύγατερ	θυγάτηρ	n	n-s---fv-	Case=v|Gender=f|Number=s	2	ExD	_	t_1252|t_1244|ref=Zeph_3.14
+11	Ἰερουσαλήμ	ἰερουσαλὴμ	n	n-s---fv-	Case=v|Gender=f|Number=s	10	ATR	_	t_1253|t_1252|ref=Zeph_3.14
+12	.	.	u	u--------	_	2	AuxK	_	t_1254|t_1244|ref=Zeph_3.14
+
+# source = Septuaginta, Zeph_3.15
 # text = περιεῖλεν Κύριος τὰ ἀδικήματά σου , λελύτρωταί σε ἐκ χειρὸς ἐχθρῶν σου ·
 # sent_id = 65
-1	περιεῖλεν	περιαιρέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_1255|t_1260|ref=Zeph_3.14
-2	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_1256|t_1255|ref=Zeph_3.14
-3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_1257|t_1258|ref=Zeph_3.14
-4	ἀδικήματά	ἀδίκημα	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_1258|t_1255|ref=Zeph_3.14
-5	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1259|t_1258|ref=Zeph_3.14
-6	,	,	u	u--------	_	0	COORD	_	t_1260|0|ref=Zeph_3.14
-7	λελύτρωταί	λύω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	PRED	_	t_1261|t_1260|ref=Zeph_3.14
-8	σε	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_1262|t_1261|ref=Zeph_3.14
-9	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_1263|t_1261|ref=Zeph_3.14
-10	χειρὸς	χείρ	n	n-s---fg-	Case=g|Gender=f|Number=s	9	OBJ	_	t_1264|t_1263|ref=Zeph_3.14
-11	ἐχθρῶν	ἐχθρός	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_1265|t_1264|ref=Zeph_3.14
-12	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1266|t_1265|ref=Zeph_3.14
-13	·	·	u	u--------	_	6	AuxK	_	t_1267|t_1260|ref=Zeph_3.14
+1	περιεῖλεν	περιαιρέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	PRED	_	t_1255|t_1260|ref=Zeph_3.15
+2	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_1256|t_1255|ref=Zeph_3.15
+3	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	4	ATR	_	t_1257|t_1258|ref=Zeph_3.15
+4	ἀδικήματά	ἀδίκημα	n	n-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_1258|t_1255|ref=Zeph_3.15
+5	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1259|t_1258|ref=Zeph_3.15
+6	,	,	u	u--------	_	0	COORD	_	t_1260|0|ref=Zeph_3.15
+7	λελύτρωταί	λύω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	6	PRED	_	t_1261|t_1260|ref=Zeph_3.15
+8	σε	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_1262|t_1261|ref=Zeph_3.15
+9	ἐκ	ἐκ	r	r--------	_	7	AuxP	_	t_1263|t_1261|ref=Zeph_3.15
+10	χειρὸς	χείρ	n	n-s---fg-	Case=g|Gender=f|Number=s	9	OBJ	_	t_1264|t_1263|ref=Zeph_3.15
+11	ἐχθρῶν	ἐχθρός	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_1265|t_1264|ref=Zeph_3.15
+12	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1266|t_1265|ref=Zeph_3.15
+13	·	·	u	u--------	_	6	AuxK	_	t_1267|t_1260|ref=Zeph_3.15
 
-# source = Septuaginta, Zeph_3.14-3.15
+# source = Septuaginta, Zeph_3.15
 # text = βασιλεὺς Ἰσραὴλ Κύριος ἐν μέσῳ σου , οὐκ ὄψῃ κακὰ οὐκέτι [0] .
 # sent_id = 66
-1	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_1268|e_22|ref=Zeph_3.14
-2	Ἰσραὴλ	ἰσραήλ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1269|t_1268|ref=Zeph_3.14
-3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1270|t_1268|ref=Zeph_3.14
-4	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1271|e_22|ref=Zeph_3.14
-5	μέσῳ	μέσος	a	a-s---md-	Case=d|Gender=n|Number=s	4	ADV	_	t_1272|t_1271|ref=Zeph_3.14
-6	σου	σύ	p	p-s---mg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_1273|t_1272|ref=Zeph_3.14
-7	,	,	u	u--------	_	12	AuxX	_	t_1274|e_22|ref=Zeph_3.14
-8	οὐκ	οὐ	d	d--------	_	9	AuxZ	_	t_1275|t_1276|ref=Zeph_3.14
+1	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_1268|e_22|ref=Zeph_3.15
+2	Ἰσραὴλ	ἰσραήλ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1269|t_1268|ref=Zeph_3.15
+3	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1270|t_1268|ref=Zeph_3.15
+4	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1271|e_22|ref=Zeph_3.15
+5	μέσῳ	μέσος	a	a-s---md-	Case=d|Gender=n|Number=s	4	ADV	_	t_1272|t_1271|ref=Zeph_3.15
+6	σου	σύ	p	p-s---mg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_1273|t_1272|ref=Zeph_3.15
+7	,	,	u	u--------	_	12	AuxX	_	t_1274|e_22|ref=Zeph_3.15
+8	οὐκ	οὐ	d	d--------	_	9	AuxZ	_	t_1275|t_1276|ref=Zeph_3.15
 9	ὄψῃ	ὁράω	n	n-s---fd-	Case=d|Gender=f|Number=s	12	ADV	_	t_1276|e_22|ref=Zeph_3.15
 10	κακὰ	κακός	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_1277|e_22|ref=Zeph_3.15
 11	οὐκέτι	οὐκέτι	d	d--------	_	12	ADV	_	t_1278|e_22|ref=Zeph_3.15
-12	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Zeph_1.1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Zeph_3.15
 13	.	.	u	u--------	_	12	AuxK	_	t_1279|e_22|ref=Zeph_3.15
 
-# source = Septuaginta, Zeph_3.15
+# source = Septuaginta, Zeph_3.16
 # text = ἐν τῷ καιρῷ ἐκείνῳ ἐρεῖ Κύριος τῇ Ἰερουσαλήμ Θάρσει , Σειών , μὴ παρείσθωσαν αἱ χεῖρές σου .
 # sent_id = 67
-1	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1280|t_1284|ref=Zeph_3.15
-2	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1281|t_1282|ref=Zeph_3.15
-3	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_1282|t_1280|ref=Zeph_3.15
-4	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1283|t_1282|ref=Zeph_3.15
-5	ἐρεῖ	ἐρῶ	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_1284|0|ref=Zeph_3.15
-6	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1285|t_1284|ref=Zeph_3.15
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_1286|t_1288|ref=Zeph_3.15
-8	Ἰερουσαλήμ	ἰερουσαλὴμ	a	a-s---fd-	Case=g|Gender=f|Number=s	9	ATR	_	t_1287|t_1288|ref=Zeph_3.15
-9	Θάρσει	θαρσέω	n	n-s---fd-	Case=d|Gender=f|Number=s	5	OBJ	_	t_1288|t_1284|ref=Zeph_3.15
-10	,	,	u	u--------	_	5	AuxX	_	t_1289|t_1284|ref=Zeph_3.15
-11	Σειών	σείω	n	n-s---mn-	Case=n|Gender=m|Number=s	5	ExD	_	t_1290|t_1284|ref=Zeph_3.15
-12	,	,	u	u--------	_	5	AuxX	_	t_1291|t_1284|ref=Zeph_3.15
-13	μὴ	μή	c	c--------	_	5	AuxC	_	t_1292|t_1284|ref=Zeph_3.15
-14	παρείσθωσαν	παρίημι	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	13	OBJ	_	t_1293|t_1292|ref=Zeph_3.15
-15	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	16	ATR	_	t_1294|t_1295|ref=Zeph_3.15
-16	χεῖρές	χείρ	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_1295|t_1293|ref=Zeph_3.15
-17	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1296|t_1295|ref=Zeph_3.15
-18	.	.	u	u--------	_	5	AuxK	_	t_1297|t_1284|ref=Zeph_3.15
+1	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_1280|t_1284|ref=Zeph_3.16
+2	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1281|t_1282|ref=Zeph_3.16
+3	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	1	ADV	_	t_1282|t_1280|ref=Zeph_3.16
+4	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1283|t_1282|ref=Zeph_3.16
+5	ἐρεῖ	ἐρῶ	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	0	PRED	_	t_1284|0|ref=Zeph_3.16
+6	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1285|t_1284|ref=Zeph_3.16
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	9	ATR	_	t_1286|t_1288|ref=Zeph_3.16
+8	Ἰερουσαλήμ	ἰερουσαλὴμ	a	a-s---fd-	Case=g|Gender=f|Number=s	9	ATR	_	t_1287|t_1288|ref=Zeph_3.16
+9	Θάρσει	θαρσέω	n	n-s---fd-	Case=d|Gender=f|Number=s	5	OBJ	_	t_1288|t_1284|ref=Zeph_3.16
+10	,	,	u	u--------	_	5	AuxX	_	t_1289|t_1284|ref=Zeph_3.16
+11	Σειών	σείω	n	n-s---mn-	Case=n|Gender=m|Number=s	5	ExD	_	t_1290|t_1284|ref=Zeph_3.16
+12	,	,	u	u--------	_	5	AuxX	_	t_1291|t_1284|ref=Zeph_3.16
+13	μὴ	μή	c	c--------	_	5	AuxC	_	t_1292|t_1284|ref=Zeph_3.16
+14	παρείσθωσαν	παρίημι	v	v3ppme---	Mood=m|Number=p|Person=3|Tense=p|Voice=e	13	OBJ	_	t_1293|t_1292|ref=Zeph_3.16
+15	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	16	ATR	_	t_1294|t_1295|ref=Zeph_3.16
+16	χεῖρές	χείρ	n	n-p---fn-	Case=n|Gender=f|Number=p	14	SBJ	_	t_1295|t_1293|ref=Zeph_3.16
+17	σου	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1296|t_1295|ref=Zeph_3.16
+18	.	.	u	u--------	_	5	AuxK	_	t_1297|t_1284|ref=Zeph_3.16
 
-# source = Septuaginta, Zeph_3.15-3.17
+# source = Septuaginta, Zeph_3.17
 # text = Κύριος ὁ θεός σου ἐν σοί , ὁ δυνατὸς σώσει σε , ἐπάξει ἐπὶ σὲ εὐφροσύνην καὶ καινιεῖ σε ἐν τῇ ἀγαπήσει αὐτοῦ , καὶ εὐφρανθήσεται ἐπὶ σέ ἐν τέρψει ὡς ἐν ἡμέρᾳ ἑορτῆς [0] .
 # sent_id = 68
-1	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_1298|t_1322|ref=Zeph_3.15
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1299|t_1300|ref=Zeph_3.15
-3	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	APOS	_	t_1300|t_1298|ref=Zeph_3.15
-4	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	3	ATR	_	t_1301|t_1300|ref=Zeph_3.15
-5	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_1302|t_1307|ref=Zeph_3.16
-6	σοί	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_1303|t_1302|ref=Zeph_3.16
-7	,	,	u	u--------	_	0	AuxX	_	t_1304|0|ref=Zeph_3.16
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_1305|t_1306|ref=Zeph_3.16
-9	δυνατὸς	δυνατός	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_1306|t_1307|ref=Zeph_3.16
-10	σώσει	σῴζω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	1	ATR	_	t_1307|t_1298|ref=Zeph_3.16
-11	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	10	OBJ	_	t_1308|t_1307|ref=Zeph_3.16
-12	,	,	u	u--------	_	7	AuxX	_	t_1309|t_1304|ref=Zeph_3.16
-13	ἐπάξει	ἐπάγω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	25	PRED	_	t_1310|t_1322|ref=Zeph_3.16
-14	ἐπὶ	ἐπί	r	r--------	_	13	AuxP	_	t_1311|t_1310|ref=Zeph_3.16
-15	σὲ	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	14	ADV	_	t_1312|t_1311|ref=Zeph_3.16
-16	εὐφροσύνην	εὐφροσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_1313|t_1310|ref=Zeph_3.16
-17	καὶ	καί	c	c--------	_	25	AuxY	_	t_1314|t_1322|ref=Zeph_3.16
-18	καινιεῖ	καινιεύς	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	25	PRED	_	t_1315|t_1322|ref=Zeph_3.16
-19	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	18	OBJ	_	t_1316|t_1315|ref=Zeph_3.16
-20	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_1317|t_1315|ref=Zeph_3.16
-21	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	22	ATR	_	t_1318|t_1319|ref=Zeph_3.16
-22	ἀγαπήσει	ἀγαπάω	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_1319|t_1317|ref=Zeph_3.16
+1	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	25	SBJ	_	t_1298|t_1322|ref=Zeph_3.17
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1299|t_1300|ref=Zeph_3.17
+3	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	APOS	_	t_1300|t_1298|ref=Zeph_3.17
+4	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	3	ATR	_	t_1301|t_1300|ref=Zeph_3.17
+5	ἐν	ἐν	r	r--------	_	10	AuxP	_	t_1302|t_1307|ref=Zeph_3.17
+6	σοί	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_1303|t_1302|ref=Zeph_3.17
+7	,	,	u	u--------	_	0	AuxX	_	t_1304|0|ref=Zeph_3.17
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_1305|t_1306|ref=Zeph_3.17
+9	δυνατὸς	δυνατός	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_1306|t_1307|ref=Zeph_3.17
+10	σώσει	σῴζω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	1	ATR	_	t_1307|t_1298|ref=Zeph_3.17
+11	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	10	OBJ	_	t_1308|t_1307|ref=Zeph_3.17
+12	,	,	u	u--------	_	7	AuxX	_	t_1309|t_1304|ref=Zeph_3.17
+13	ἐπάξει	ἐπάγω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	25	PRED	_	t_1310|t_1322|ref=Zeph_3.17
+14	ἐπὶ	ἐπί	r	r--------	_	13	AuxP	_	t_1311|t_1310|ref=Zeph_3.17
+15	σὲ	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	14	ADV	_	t_1312|t_1311|ref=Zeph_3.17
+16	εὐφροσύνην	εὐφροσύνη	n	n-s---fa-	Case=a|Gender=f|Number=s	13	OBJ	_	t_1313|t_1310|ref=Zeph_3.17
+17	καὶ	καί	c	c--------	_	25	AuxY	_	t_1314|t_1322|ref=Zeph_3.17
+18	καινιεῖ	καινιεύς	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	25	PRED	_	t_1315|t_1322|ref=Zeph_3.17
+19	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	18	OBJ	_	t_1316|t_1315|ref=Zeph_3.17
+20	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_1317|t_1315|ref=Zeph_3.17
+21	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	22	ATR	_	t_1318|t_1319|ref=Zeph_3.17
+22	ἀγαπήσει	ἀγαπάω	n	n-s---fd-	Case=d|Gender=f|Number=s	20	ADV	_	t_1319|t_1317|ref=Zeph_3.17
 23	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	22	ATR	_	t_1320|t_1319|ref=Zeph_3.17
 24	,	,	u	u--------	_	7	AuxX	_	t_1321|t_1304|ref=Zeph_3.17
 25	καὶ	καί	c	c--------	_	7	COORD	_	t_1322|t_1304|ref=Zeph_3.17
@@ -1622,56 +1622,56 @@
 32	ἐν	ἐν	r	r--------	_	35	AuxP	_	t_1329|e_23|ref=Zeph_3.17
 33	ἡμέρᾳ	ἡμέρα	n	n-s---fd-	Case=d|Gender=f|Number=s	32	ADV	_	t_1330|t_1329|ref=Zeph_3.17
 34	ἑορτῆς	ἑορτή	n	n-s---fg-	Case=g|Gender=f|Number=s	33	ATR	_	t_1331|t_1330|ref=Zeph_3.17
-35	[0]	[0]	-	---------	_	25	PRED	_	e_23|t_1322|ref=Zeph_1.1
+35	[0]	[0]	-	---------	_	25	PRED	_	e_23|t_1322|ref=Zeph_3.17
 36	.	.	u	u--------	_	7	AuxK	_	t_1332|t_1304|ref=Zeph_3.17
 
-# source = Septuaginta, Zeph_3.17
+# source = Septuaginta, Zeph_3.18
 # text = καὶ συνάξω τοὺς συντετριμμένους ·
 # sent_id = 69
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1333|t_1334|ref=Zeph_3.17
-2	συνάξω	συνάγω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1334|0|ref=Zeph_3.17
-3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_1335|t_1336|ref=Zeph_3.17
-4	συντετριμμένους	συντρίβω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	2	OBJ	_	t_1336|t_1334|ref=Zeph_3.17
-5	·	·	u	u--------	_	2	AuxK	_	t_1337|t_1334|ref=Zeph_3.17
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1333|t_1334|ref=Zeph_3.18
+2	συνάξω	συνάγω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1334|0|ref=Zeph_3.18
+3	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	4	ATR	_	t_1335|t_1336|ref=Zeph_3.18
+4	συντετριμμένους	συντρίβω	v	v-prpema-	Case=a|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	2	OBJ	_	t_1336|t_1334|ref=Zeph_3.18
+5	·	·	u	u--------	_	2	AuxK	_	t_1337|t_1334|ref=Zeph_3.18
 
-# source = Septuaginta, Zeph_3.17
+# source = Septuaginta, Zeph_3.18
 # text = οὐαί , τίς ἔλαβεν ἐπʼ αὐτὴν ὀνειδισμόν ;
 # sent_id = 70
-1	οὐαί	οὐαί	d	d--------	_	4	AuxZ	_	t_1338|t_1341|ref=Zeph_3.17
-2	,	,	u	u--------	_	4	AuxX	_	t_1339|t_1341|ref=Zeph_3.17
-3	τίς	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	7	ATR	_	t_1340|t_1344|ref=Zeph_3.17
-4	ἔλαβεν	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1341|0|ref=Zeph_3.17
-5	ἐπʼ	ἐπί	r	r--------	_	4	AuxP	_	t_1342|t_1341|ref=Zeph_3.17
-6	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_1343|t_1342|ref=Zeph_3.17
-7	ὀνειδισμόν	ὀνειδισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1344|t_1341|ref=Zeph_3.17
-8	;	;	u	u--------	_	4	AuxK	_	t_1345|t_1341|ref=Zeph_3.17
+1	οὐαί	οὐαί	d	d--------	_	4	AuxZ	_	t_1338|t_1341|ref=Zeph_3.18
+2	,	,	u	u--------	_	4	AuxX	_	t_1339|t_1341|ref=Zeph_3.18
+3	τίς	τις	p	p-s---cn-	Case=n|Gender=c|Number=s	7	ATR	_	t_1340|t_1344|ref=Zeph_3.18
+4	ἔλαβεν	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1341|0|ref=Zeph_3.18
+5	ἐπʼ	ἐπί	r	r--------	_	4	AuxP	_	t_1342|t_1341|ref=Zeph_3.18
+6	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_1343|t_1342|ref=Zeph_3.18
+7	ὀνειδισμόν	ὀνειδισμός	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1344|t_1341|ref=Zeph_3.18
+8	;	;	u	u--------	_	4	AuxK	_	t_1345|t_1341|ref=Zeph_3.18
 
-# source = Septuaginta, Zeph_3.17-3.18
+# source = Septuaginta, Zeph_3.19
 # text = ἰδοὺ ἐγὼ ποιῶ ἐν σοὶ ἕνεκεν σοῦ ἐν τῷ καιρῷ ἐκείνῳ , λέγει Κύριος , καὶ σώσω τὴν ἐκπεπιεσμένην καὶ τὴν ἀπωσμένην ·
 # sent_id = 71
-1	ἰδοὺ	ἰδού	i	i--------	_	12	ExD	_	t_1346|t_1357|ref=Zeph_3.17
-2	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1347|t_1348|ref=Zeph_3.17
-3	ποιῶ	ποιέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	16	PRED	_	t_1348|t_1361|ref=Zeph_3.17
-4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_1349|t_1348|ref=Zeph_3.17
-5	σοὶ	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_1350|t_1349|ref=Zeph_3.17
-6	ἕνεκεν	ἕνεκα	r	r--------	_	3	AuxP	_	t_1351|t_1348|ref=Zeph_3.17
-7	σοῦ	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_1352|t_1351|ref=Zeph_3.17
-8	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_1353|t_1348|ref=Zeph_3.17
-9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_1354|t_1355|ref=Zeph_3.17
-10	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_1355|t_1353|ref=Zeph_3.17
-11	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_1356|t_1355|ref=Zeph_3.18
-12	,	,	u	u--------	_	0	AuxX	_	t_1357|0|ref=Zeph_3.18
-13	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_1358|t_1361|ref=Zeph_3.18
-14	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_1359|t_1361|ref=Zeph_3.18
-15	,	,	u	u--------	_	12	AuxX	_	t_1360|t_1357|ref=Zeph_3.18
-16	καὶ	καί	c	c--------	_	12	COORD	_	t_1361|t_1357|ref=Zeph_3.18
-17	σώσω	σώζω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	16	PRED	_	t_1362|t_1361|ref=Zeph_3.18
-18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_1363|t_1364|ref=Zeph_3.18
-19	ἐκπεπιεσμένην	ἐκπιέζομαι	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	20	OBJ	_	t_1364|t_1365|ref=Zeph_3.18
-20	καὶ	καί	c	c--------	_	17	COORD	_	t_1365|t_1362|ref=Zeph_3.18
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_1366|t_1367|ref=Zeph_3.18
-22	ἀπωσμένην	ἀπωθέω	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	20	OBJ	_	t_1367|t_1365|ref=Zeph_3.18
-23	·	·	u	u--------	_	12	AuxK	_	t_1368|t_1357|ref=Zeph_3.18
+1	ἰδοὺ	ἰδού	i	i--------	_	12	ExD	_	t_1346|t_1357|ref=Zeph_3.19
+2	ἐγὼ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1347|t_1348|ref=Zeph_3.19
+3	ποιῶ	ποιέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	16	PRED	_	t_1348|t_1361|ref=Zeph_3.19
+4	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_1349|t_1348|ref=Zeph_3.19
+5	σοὶ	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	4	ADV	_	t_1350|t_1349|ref=Zeph_3.19
+6	ἕνεκεν	ἕνεκα	r	r--------	_	3	AuxP	_	t_1351|t_1348|ref=Zeph_3.19
+7	σοῦ	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	6	ADV	_	t_1352|t_1351|ref=Zeph_3.19
+8	ἐν	ἐν	r	r--------	_	3	AuxP	_	t_1353|t_1348|ref=Zeph_3.19
+9	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_1354|t_1355|ref=Zeph_3.19
+10	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_1355|t_1353|ref=Zeph_3.19
+11	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	10	ATR	_	t_1356|t_1355|ref=Zeph_3.19
+12	,	,	u	u--------	_	0	AuxX	_	t_1357|0|ref=Zeph_3.19
+13	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	16	PRED	_	t_1358|t_1361|ref=Zeph_3.19
+14	Κύριος	κύριος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_1359|t_1361|ref=Zeph_3.19
+15	,	,	u	u--------	_	12	AuxX	_	t_1360|t_1357|ref=Zeph_3.19
+16	καὶ	καί	c	c--------	_	12	COORD	_	t_1361|t_1357|ref=Zeph_3.19
+17	σώσω	σώζω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	16	PRED	_	t_1362|t_1361|ref=Zeph_3.19
+18	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	19	ATR	_	t_1363|t_1364|ref=Zeph_3.19
+19	ἐκπεπιεσμένην	ἐκπιέζομαι	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	20	OBJ	_	t_1364|t_1365|ref=Zeph_3.19
+20	καὶ	καί	c	c--------	_	17	COORD	_	t_1365|t_1362|ref=Zeph_3.19
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_1366|t_1367|ref=Zeph_3.19
+22	ἀπωσμένην	ἀπωθέω	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	20	OBJ	_	t_1367|t_1365|ref=Zeph_3.19
+23	·	·	u	u--------	_	12	AuxK	_	t_1368|t_1357|ref=Zeph_3.19
 
 # source = Septuaginta, Zeph_3.19
 # text = εἰσδέξομαι αὐτοὺς εἰς καύχημα καὶ ὀνομαστοὺς ἐν πάσῃ τῇ γῇ .
@@ -1688,36 +1688,36 @@
 10	γῇ	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	7	ADV	_	t_1378|t_1375|ref=Zeph_3.19
 11	.	.	u	u--------	_	1	AuxK	_	t_1379|t_1369|ref=Zeph_3.19
 
-# source = Septuaginta, Zeph_3.19
+# source = Septuaginta, Zeph_3.20
 # text = καὶ καταισχυνθήσονται ἐν τῷ καιρῷ ἐκείνῳ ὅταν καλῶς ὑμῖν ποιήσω , καὶ ἐν τῷ καιρῷ ὅταν εἰσδέξομαι ὑμᾶς ·
 # sent_id = 73
-1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1380|t_1381|ref=Zeph_3.19
-2	καταισχυνθήσονται	καταισχύνω	v	v3pfip---	Mood=i|Number=p|Person=3|Tense=f|Voice=p	0	PRED	_	t_1381|0|ref=Zeph_3.19
-3	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1382|t_1391|ref=Zeph_3.19
-4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1383|t_1384|ref=Zeph_3.19
-5	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1384|t_1382|ref=Zeph_3.19
-6	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1385|t_1384|ref=Zeph_3.19
-7	ὅταν	ὅταν	c	c--------	_	12	AuxC	_	t_1386|t_1391|ref=Zeph_3.19
-8	καλῶς	καλός	d	d--------	_	10	ADV	_	t_1387|t_1389|ref=Zeph_3.19
-9	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_1388|t_1389|ref=Zeph_3.19
-10	ποιήσω	ποιέω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	7	ADV	_	t_1389|t_1386|ref=Zeph_3.19
-11	,	,	u	u--------	_	2	AuxX	_	t_1390|t_1381|ref=Zeph_3.19
-12	καὶ	καί	c	c--------	_	2	COORD	_	t_1391|t_1381|ref=Zeph_3.19
-13	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1392|t_1391|ref=Zeph_3.19
-14	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	15	ATR	_	t_1393|t_1394|ref=Zeph_3.19
-15	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	13	ADV	_	t_1394|t_1392|ref=Zeph_3.19
-16	ὅταν	ὅταν	c	c--------	_	12	AuxC	_	t_1395|t_1391|ref=Zeph_3.19
-17	εἰσδέξομαι	εἰσδέχομαι	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	16	ADV	_	t_1396|t_1395|ref=Zeph_3.19
-18	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_1397|t_1396|ref=Zeph_3.19
-19	·	·	u	u--------	_	2	AuxK	_	t_1398|t_1381|ref=Zeph_3.19
+1	καὶ	καί	d	d--------	_	2	AuxY	_	t_1380|t_1381|ref=Zeph_3.20
+2	καταισχυνθήσονται	καταισχύνω	v	v3pfip---	Mood=i|Number=p|Person=3|Tense=f|Voice=p	0	PRED	_	t_1381|0|ref=Zeph_3.20
+3	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1382|t_1391|ref=Zeph_3.20
+4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1383|t_1384|ref=Zeph_3.20
+5	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1384|t_1382|ref=Zeph_3.20
+6	ἐκείνῳ	ἐκεῖνος	a	a-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1385|t_1384|ref=Zeph_3.20
+7	ὅταν	ὅταν	c	c--------	_	12	AuxC	_	t_1386|t_1391|ref=Zeph_3.20
+8	καλῶς	καλός	d	d--------	_	10	ADV	_	t_1387|t_1389|ref=Zeph_3.20
+9	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_1388|t_1389|ref=Zeph_3.20
+10	ποιήσω	ποιέω	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	7	ADV	_	t_1389|t_1386|ref=Zeph_3.20
+11	,	,	u	u--------	_	2	AuxX	_	t_1390|t_1381|ref=Zeph_3.20
+12	καὶ	καί	c	c--------	_	2	COORD	_	t_1391|t_1381|ref=Zeph_3.20
+13	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_1392|t_1391|ref=Zeph_3.20
+14	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	15	ATR	_	t_1393|t_1394|ref=Zeph_3.20
+15	καιρῷ	καιρός	n	n-s---md-	Case=d|Gender=m|Number=s	13	ADV	_	t_1394|t_1392|ref=Zeph_3.20
+16	ὅταν	ὅταν	c	c--------	_	12	AuxC	_	t_1395|t_1391|ref=Zeph_3.20
+17	εἰσδέξομαι	εἰσδέχομαι	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	16	ADV	_	t_1396|t_1395|ref=Zeph_3.20
+18	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_1397|t_1396|ref=Zeph_3.20
+19	·	·	u	u--------	_	2	AuxK	_	t_1398|t_1381|ref=Zeph_3.20
 
-# source = Septuaginta, Zeph_3.19-3.20
+# source = Septuaginta, Zeph_3.20
 # text = διότι δώσω ὑμᾶς ὀνομαστοὺς καὶ εἰς καύχημα ἐν πᾶσιν τοῖς λαοῖς τῆς γῆς , ἐν τῷ στρέφειν με τὴν αἰχμαλωσίαν ὑμῶν ἐνώπιον ὑμῶν , λέγει Κύριος .
 # sent_id = 74
-1	διότι	διότι	d	d--------	_	25	AuxC	_	t_1399|t_1423|ref=Zeph_3.19
-2	δώσω	δίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1400|0|ref=Zeph_3.19
-3	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_1401|t_1400|ref=Zeph_3.19
-4	ὀνομαστοὺς	ὀνομαστός	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1402|t_1401|ref=Zeph_3.19
+1	διότι	διότι	d	d--------	_	25	AuxC	_	t_1399|t_1423|ref=Zeph_3.20
+2	δώσω	δίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1400|0|ref=Zeph_3.20
+3	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	2	OBJ	_	t_1401|t_1400|ref=Zeph_3.20
+4	ὀνομαστοὺς	ὀνομαστός	a	a-p---ma-	Case=a|Gender=m|Number=p	3	ATR	_	t_1402|t_1401|ref=Zeph_3.20
 5	καὶ	καί	d	d--------	_	2	COORD	_	t_1403|t_1400|ref=Zeph_3.20
 6	εἰς	εἰς	r	r--------	_	2	AuxP	_	t_1404|t_1400|ref=Zeph_3.20
 7	καύχημα	καύχημα	n	n-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_1405|t_1404|ref=Zeph_3.20

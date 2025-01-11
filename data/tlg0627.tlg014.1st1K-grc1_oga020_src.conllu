@@ -145,10 +145,10 @@
 30	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Lex_1
 31	.	.	u	u--------	_	30	AuxK	_	t_110|e_1|ref=Lex_1
 
-# source = Hippocrates, Lex_1-2
+# source = Hippocrates, Lex_2
 # text = 2 .
 # sent_id = 10
-1	2	2	u	u--------	_	0	AuxG	_	t_111|0|ref=Lex_1
+1	2	2	u	u--------	_	0	AuxG	_	t_111|0|ref=Lex_2
 2	.	.	u	u--------	_	1	AuxK	_	t_112|t_111|ref=Lex_2
 
 # source = Hippocrates, Lex_2
@@ -180,7 +180,7 @@
 # text = διδασκαλίης [0] ·
 # sent_id = 13
 1	διδασκαλίης	διδασκαλία	n	n-s---fg-	Case=g|Gender=f|Number=s	2	PNOM	_	t_130|e_2|ref=Lex_2
-2	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Lex_1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Lex_2
 3	·	·	u	u--------	_	2	AuxK	_	t_131|e_2|ref=Lex_2
 
 # source = Hippocrates, Lex_2
@@ -188,7 +188,7 @@
 # sent_id = 14
 1	τόπου	τόπος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_132|t_133|ref=Lex_2
 2	εὐφυέος	εὐφυής	a	a-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_133|e_3|ref=Lex_2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Lex_1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Lex_2
 4	·	·	u	u--------	_	3	AuxK	_	t_134|e_3|ref=Lex_2
 
 # source = Hippocrates, Lex_2
@@ -229,7 +229,7 @@
 4	,	,	u	u--------	_	7	AuxX	_	t_151|e_4|ref=Lex_2
 5	κενεὰ	κενός	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_152|e_4|ref=Lex_2
 6	πάντα	πᾶς	a	a-p---na-	Case=n|Gender=n|Number=p	7	SBJ	_	t_153|e_4|ref=Lex_2
-7	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Lex_1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Lex_2
 8	·	·	u	u--------	_	7	AuxK	_	t_154|e_4|ref=Lex_2
 
 # source = Hippocrates, Lex_2
@@ -292,21 +292,21 @@
 19	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	20	ATR	_	t_201|t_202|ref=Lex_2
 20	καρποὺς	καρπός1	n	n-p---ma-	Case=a|Gender=m|Number=p	21	OBJ	_	t_202|t_203|ref=Lex_2
 21	ἐξενέγκηται	ἐκφέρω	v	v3spse---	Mood=s|Number=s|Person=3|Tense=p|Voice=e	9	ADV	_	t_203|t_191|ref=Lex_2
-22	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Lex_1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Lex_2
 23	.	.	u	u--------	_	22	AuxK	_	t_204|e_5|ref=Lex_2
 
-# source = Hippocrates, Lex_2
+# source = Hippocrates, Lex_3
 # text = 3 .
 # sent_id = 23
-1	3	3	x	x--------	_	0	AuxG	_	t_205|0|ref=Lex_2
-2	.	.	u	u--------	_	1	AuxK	_	t_206|t_205|ref=Lex_2
+1	3	3	x	x--------	_	0	AuxG	_	t_205|0|ref=Lex_3
+2	.	.	u	u--------	_	1	AuxK	_	t_206|t_205|ref=Lex_3
 
-# source = Hippocrates, Lex_2-3
+# source = Hippocrates, Lex_3
 # text = Ὁκοίη γὰρ τῶν ἐν τῇ γῇ φυομένων [ ἡ ] θεωρίη , τοιήδε καὶ τῆς ἰητρικῆς ἡ μάθησις [0] [1] .
 # sent_id = 24
-1	Ὁκοίη	ὁποῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	19	PNOM	_	t_207|e_6|ref=Lex_2
-2	γὰρ	γάρ	d	d--------	_	12	AuxY	_	t_208|t_218|ref=Lex_2
-3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_209|t_213|ref=Lex_2
+1	Ὁκοίη	ὁποῖος	a	a-s---fn-	Case=n|Gender=f|Number=s	19	PNOM	_	t_207|e_6|ref=Lex_3
+2	γὰρ	γάρ	d	d--------	_	12	AuxY	_	t_208|t_218|ref=Lex_3
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_209|t_213|ref=Lex_3
 4	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_210|t_213|ref=Lex_3
 5	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_211|t_212|ref=Lex_3
 6	γῇ	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_212|t_210|ref=Lex_3
@@ -322,8 +322,8 @@
 16	ἰητρικῆς	ἰατρικός	a	a-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_222|t_224|ref=Lex_3
 17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_223|t_224|ref=Lex_3
 18	μάθησις	μάθησις	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_224|e_7|ref=Lex_3
-19	[0]	[0]	-	---------	_	12	PRED	_	e_6|t_218|ref=Lex_1
-20	[1]	[1]	-	---------	_	12	PRED	_	e_7|t_218|ref=Lex_1
+19	[0]	[0]	-	---------	_	12	PRED	_	e_6|t_218|ref=Lex_3
+20	[1]	[1]	-	---------	_	12	PRED	_	e_7|t_218|ref=Lex_3
 21	.	.	u	u--------	_	8	AuxK	_	t_225|t_214|ref=Lex_3
 
 # source = Hippocrates, Lex_3
@@ -338,8 +338,8 @@
 7	ὁκοῖον	ὁποῖος	p	p-s---nn-	Case=a|Gender=n|Number=s	11	PNOM	_	t_232|e_9|ref=Lex_3
 8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_233|t_234|ref=Lex_3
 9	χώρη	χώρα	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_234|e_9|ref=Lex_3
-10	[0]	[0]	-	---------	_	6	PRED	_	e_8|t_231|ref=Lex_1
-11	[1]	[1]	-	---------	_	6	PRED	_	e_9|t_231|ref=Lex_1
+10	[0]	[0]	-	---------	_	6	PRED	_	e_8|t_231|ref=Lex_3
+11	[1]	[1]	-	---------	_	6	PRED	_	e_9|t_231|ref=Lex_3
 12	·	·	u	u--------	_	6	AuxK	_	t_235|t_231|ref=Lex_3
 
 # source = Hippocrates, Lex_3
@@ -354,8 +354,8 @@
 7	ὁκοῖον	ὁποῖος	p	p-s---na-	Case=a|Gender=n|Number=s	11	PNOM	_	t_242|e_11|ref=Lex_3
 8	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_243|t_244|ref=Lex_3
 9	σπέρματα	σπέρμα	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_244|e_11|ref=Lex_3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Lex_1
-11	[1]	[1]	-	---------	_	10	ADV	_	e_11|e_10|ref=Lex_1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Lex_3
+11	[1]	[1]	-	---------	_	10	ADV	_	e_11|e_10|ref=Lex_3
 12	·	·	u	u--------	_	10	AuxK	_	t_245|e_10|ref=Lex_3
 
 # source = Hippocrates, Lex_3
@@ -373,7 +373,7 @@
 10	εἰς	εἰς	r	r--------	_	9	AuxP	_	t_255|t_254|ref=Lex_3
 11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_256|t_257|ref=Lex_3
 12	ἄρουραν	ἄρουρα	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_257|t_255|ref=Lex_3
-13	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Lex_1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Lex_3
 14	·	·	u	u--------	_	13	AuxK	_	t_258|e_12|ref=Lex_3
 
 # source = Hippocrates, Lex_3
@@ -397,8 +397,8 @@
 16	γιγνομένη	γίγνομαι	v	v-sppefn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	20	ADV	_	t_274|e_14|ref=Lex_3
 17	τοῖσι	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	18	ATR	_	t_275|t_276|ref=Lex_3
 18	φυομένοισιν	φύω	v	v-pppend-	Case=d|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	16	OBJ	_	t_276|t_274|ref=Lex_3
-19	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Lex_1
-20	[1]	[1]	-	---------	_	3	ATR	_	e_14|t_261|ref=Lex_1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Lex_3
+20	[1]	[1]	-	---------	_	3	ATR	_	e_14|t_261|ref=Lex_3
 21	·	·	u	u--------	_	19	AuxK	_	t_277|e_13|ref=Lex_3
 
 # source = Hippocrates, Lex_3
@@ -409,7 +409,7 @@
 3	φιλοπονίη	φιλοπονία	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_280|t_281|ref=Lex_3
 4	,	,	u	u--------	_	6	APOS	_	t_281|e_15|ref=Lex_3
 5	ἐργασίη	ἐργασία	n	n-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_282|t_281|ref=Lex_3
-6	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Lex_1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Lex_3
 7	·	·	u	u--------	_	6	AuxK	_	t_283|e_15|ref=Lex_3
 
 # source = Hippocrates, Lex_3
@@ -427,31 +427,31 @@
 10	τελέως	τέλειος	d	d--------	_	9	ADV	_	t_293|t_292|ref=Lex_3
 11	.	.	u	u--------	_	5	AuxK	_	t_294|t_288|ref=Lex_3
 
-# source = Hippocrates, Lex_3
+# source = Hippocrates, Lex_4
 # text = 4 [0] .
 # sent_id = 31
-1	4	4	u	u--------	_	2	AuxK	_	t_295|e_16|ref=Lex_3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Lex_1
-3	.	.	u	u--------	_	2	AuxK	_	t_296|e_16|ref=Lex_3
+1	4	4	u	u--------	_	2	AuxK	_	t_295|e_16|ref=Lex_4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Lex_4
+3	.	.	u	u--------	_	2	AuxK	_	t_296|e_16|ref=Lex_4
 
-# source = Hippocrates, Lex_3-4
+# source = Hippocrates, Lex_4
 # text = Ταῦτα ὦν χρὴ ἐς τὴν ἰητρικὴν τέχνην ἐσενεγκαμένους , καὶ ἀτρεκέως αὐτέης γνῶσιν λαβόντας , οὕτως ἀνὰ τὰς πόλιας φοιτεῦντας , μὴ λόγῳ μοῦνον , ἀλλὰ καὶ ἔργῳ ἰητροὺς νομίζεσθαι .
 # sent_id = 32
-1	Ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_297|t_306|ref=Lex_3
-2	ὦν	οὖν	d	d--------	_	3	AuxY	_	t_298|t_299|ref=Lex_3
-3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_299|0|ref=Lex_3
-4	ἐς	εἰς	r	r--------	_	8	AuxP	_	t_300|t_304|ref=Lex_3
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_301|t_303|ref=Lex_3
-6	ἰητρικὴν	ἰατρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_302|t_303|ref=Lex_3
-7	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_303|t_300|ref=Lex_3
-8	ἐσενεγκαμένους	εἰσφέρω	v	v-papmma-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	10	ADV	_	t_304|t_306|ref=Lex_3
-9	,	,	u	u--------	_	3	AuxX	_	t_305|t_299|ref=Lex_3
-10	καὶ	καί	c	c--------	_	30	COORD	_	t_306|t_326|ref=Lex_3
-11	ἀτρεκέως	ἀτρεκής	d	d--------	_	14	ADV	_	t_307|t_310|ref=Lex_3
-12	αὐτέης	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_308|t_309|ref=Lex_3
-13	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_309|t_310|ref=Lex_3
+1	Ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	10	OBJ	_	t_297|t_306|ref=Lex_4
+2	ὦν	οὖν	d	d--------	_	3	AuxY	_	t_298|t_299|ref=Lex_4
+3	χρὴ	χρή	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_299|0|ref=Lex_4
+4	ἐς	εἰς	r	r--------	_	8	AuxP	_	t_300|t_304|ref=Lex_4
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_301|t_303|ref=Lex_4
+6	ἰητρικὴν	ἰατρικός	a	a-s---fa-	Case=a|Gender=f|Number=s	7	ATR	_	t_302|t_303|ref=Lex_4
+7	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_303|t_300|ref=Lex_4
+8	ἐσενεγκαμένους	εἰσφέρω	v	v-papmma-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=m	10	ADV	_	t_304|t_306|ref=Lex_4
+9	,	,	u	u--------	_	3	AuxX	_	t_305|t_299|ref=Lex_4
+10	καὶ	καί	c	c--------	_	30	COORD	_	t_306|t_326|ref=Lex_4
+11	ἀτρεκέως	ἀτρεκής	d	d--------	_	14	ADV	_	t_307|t_310|ref=Lex_4
+12	αὐτέης	αὐτός	p	p-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_308|t_309|ref=Lex_4
+13	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_309|t_310|ref=Lex_4
 14	λαβόντας	λαμβάνω	v	v-papama-	Case=a|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	10	ADV	_	t_310|t_306|ref=Lex_4
-15	,	,	u	u--------	_	3	AuxX	_	t_311|t_299|ref=Lex_3
+15	,	,	u	u--------	_	3	AuxX	_	t_311|t_299|ref=Lex_4
 16	οὕτως	οὕτως	d	d--------	_	20	ADV	_	t_312|t_316|ref=Lex_4
 17	ἀνὰ	ἀνά	r	r--------	_	20	AuxP	_	t_313|t_316|ref=Lex_4
 18	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	19	ATR	_	t_314|t_315|ref=Lex_4
@@ -501,7 +501,7 @@
 27	καὶ	καί	c	c--------	_	29	COORD	_	t_354|t_356|ref=Lex_4
 28	θρασύτητος	θρασύτης	n	n-s---fg-	Case=g|Gender=f|Number=s	27	ATR	_	t_355|t_354|ref=Lex_4
 29	τιθήνη	τιθήνη	n	n-s---fn-	Case=n|Gender=f|Number=s	30	SBJ	_	t_356|e_17|ref=Lex_4
-30	[0]	[0]	-	---------	_	2	PRED	_	e_17|t_329|ref=Lex_1
+30	[0]	[0]	-	---------	_	2	PRED	_	e_17|t_329|ref=Lex_4
 31	.	.	u	u--------	_	2	AuxK	_	t_357|t_329|ref=Lex_4
 
 # source = Hippocrates, Lex_4
@@ -521,7 +521,7 @@
 2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_365|e_18|ref=Lex_4
 3	,	,	u	u--------	_	5	AuxX	_	t_366|e_18|ref=Lex_4
 4	ἀτεχνίην	ἀτεχνία	n	n-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_367|t_366|ref=Lex_4
-5	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Lex_1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Lex_4
 6	.	.	u	u--------	_	5	AuxK	_	t_368|e_18|ref=Lex_4
 
 # source = Hippocrates, Lex_4
@@ -544,42 +544,42 @@
 15	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	17	ATR	_	t_383|t_385|ref=Lex_4
 16	δὲ	δέ	d	d--------	_	7	COORD	_	t_384|t_375|ref=Lex_4
 17	ἀγνοεῖν	ἀγνοέω	v	v--pna---	Mood=n|Tense=p|Voice=a	16	SBJ	_	t_385|t_384|ref=Lex_4
-18	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Lex_1
+18	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Lex_4
 19	.	.	u	u--------	_	18	AuxK	_	t_386|e_19|ref=Lex_4
 
-# source = Hippocrates, Lex_4
+# source = Hippocrates, Lex_5
 # text = 5 .
 # sent_id = 37
-1	5	5	u	u--------	_	0	AuxG	_	t_387|0|ref=Lex_4
-2	.	.	u	u--------	_	1	AuxK	_	t_388|t_387|ref=Lex_4
+1	5	5	u	u--------	_	0	AuxG	_	t_387|0|ref=Lex_5
+2	.	.	u	u--------	_	1	AuxK	_	t_388|t_387|ref=Lex_5
 
-# source = Hippocrates, Lex_4
+# source = Hippocrates, Lex_5
 # text = Τὰ δὲ ἱερὰ ἐόντα πρήγματα ἱεροῖσιν ἀνθρώποισι δείκνυται ·
 # sent_id = 38
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_389|t_393|ref=Lex_4
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_390|0|ref=Lex_4
-3	ἱερὰ	ἱερόν	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_391|t_392|ref=Lex_4
-4	ἐόντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_392|t_393|ref=Lex_4
-5	πρήγματα	πρᾶγμα	n	n-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_393|t_396|ref=Lex_4
-6	ἱεροῖσιν	ἱερόν	a	a-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_394|t_395|ref=Lex_4
-7	ἀνθρώποισι	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	8	OBJ	_	t_395|t_396|ref=Lex_4
-8	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_396|t_390|ref=Lex_4
-9	·	·	u	u--------	_	2	AuxK	_	t_397|t_390|ref=Lex_4
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_389|t_393|ref=Lex_5
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_390|0|ref=Lex_5
+3	ἱερὰ	ἱερόν	a	a-p---nn-	Case=n|Gender=n|Number=p	4	PNOM	_	t_391|t_392|ref=Lex_5
+4	ἐόντα	εἰμί	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	ATR	_	t_392|t_393|ref=Lex_5
+5	πρήγματα	πρᾶγμα	n	n-p---nn-	Case=n|Gender=n|Number=p	8	SBJ	_	t_393|t_396|ref=Lex_5
+6	ἱεροῖσιν	ἱερόν	a	a-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_394|t_395|ref=Lex_5
+7	ἀνθρώποισι	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	8	OBJ	_	t_395|t_396|ref=Lex_5
+8	δείκνυται	δείκνυμι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	PRED	_	t_396|t_390|ref=Lex_5
+9	·	·	u	u--------	_	2	AuxK	_	t_397|t_390|ref=Lex_5
 
-# source = Hippocrates, Lex_4-5
+# source = Hippocrates, Lex_5
 # text = βεβήλοισι δὲ , οὐ θέμις , πρὶν ἢ τελεσθῶσιν ὀργίοισιν ἐπιστήμης [0] .
 # sent_id = 39
-1	βεβήλοισι	βέβηλος	a	a-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_398|t_402|ref=Lex_4
-2	δὲ	δέ	g	g--------	_	12	AuxY	_	t_399|e_20|ref=Lex_4
-3	,	,	u	u--------	_	5	AuxX	_	t_400|t_402|ref=Lex_4
-4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_401|t_402|ref=Lex_4
-5	θέμις	θέμις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_402|e_20|ref=Lex_4
-6	,	,	u	u--------	_	8	AuxX	_	t_403|t_405|ref=Lex_4
-7	πρὶν	πρίν	d	d--------	_	12	AuxC	_	t_404|e_20|ref=Lex_4
-8	ἢ	ἤ1	c	c--------	_	7	COORD	_	t_405|t_404|ref=Lex_4
+1	βεβήλοισι	βέβηλος	a	a-p---md-	Case=d|Gender=m|Number=p	5	ATR	_	t_398|t_402|ref=Lex_5
+2	δὲ	δέ	g	g--------	_	12	AuxY	_	t_399|e_20|ref=Lex_5
+3	,	,	u	u--------	_	5	AuxX	_	t_400|t_402|ref=Lex_5
+4	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_401|t_402|ref=Lex_5
+5	θέμις	θέμις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_402|e_20|ref=Lex_5
+6	,	,	u	u--------	_	8	AuxX	_	t_403|t_405|ref=Lex_5
+7	πρὶν	πρίν	d	d--------	_	12	AuxC	_	t_404|e_20|ref=Lex_5
+8	ἢ	ἤ1	c	c--------	_	7	COORD	_	t_405|t_404|ref=Lex_5
 9	τελεσθῶσιν	τελέω	v	v1sasp---	Mood=s|Number=s|Person=1|Tense=a|Voice=p	8	ADV	_	t_406|t_405|ref=Lex_5
 10	ὀργίοισιν	ὄργια	a	a-p---nd-	Case=d|Gender=n|Number=p	9	ATR	_	t_407|t_406|ref=Lex_5
 11	ἐπιστήμης	ἐπιστήμη	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_408|t_406|ref=Lex_5
-12	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Lex_1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Lex_5
 13	.	.	u	u--------	_	12	AuxK	_	t_409|e_20|ref=Lex_5
 

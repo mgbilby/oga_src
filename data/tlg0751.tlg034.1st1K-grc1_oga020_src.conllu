@@ -171,16 +171,16 @@
 16	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	13	OBJ	_	t_145|t_142|ref=septim.part._1
 17	.	.	u	u--------	_	13	AuxK	_	t_146|t_142|ref=septim.part._1
 
-# source = Pseudo-Hippocrates, septim.part._1
+# source = Pseudo-Hippocrates, septim.part._2
 # text = 2 .
 # sent_id = 7
-1	2	2	u	u--------	_	0	AuxG	_	t_147|0|ref=septim.part._1
-2	.	.	u	u--------	_	1	AuxK	_	t_148|t_147|ref=septim.part._1
+1	2	2	u	u--------	_	0	AuxG	_	t_147|0|ref=septim.part._2
+2	.	.	u	u--------	_	1	AuxK	_	t_148|t_147|ref=septim.part._2
 
-# source = Pseudo-Hippocrates, septim.part._1-2
+# source = Pseudo-Hippocrates, septim.part._2
 # text = Καὶ τὰ μὲν πλεῖστα τουτέων ἀπώλλοντο ·
 # sent_id = 8
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_149|0|ref=septim.part._1
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_149|0|ref=septim.part._2
 2	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_150|t_152|ref=septim.part._2
 3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_151|t_154|ref=septim.part._2
 4	πλεῖστα	πλεῖστος	a	a-p---nas	Case=a|Degree=s|Gender=n|Number=p	6	SBJ	_	t_152|t_154|ref=septim.part._2
@@ -325,20 +325,20 @@
 33	καὶ	καί	d	d--------	_	35	AuxZ	_	t_271|t_273|ref=septim.part._2
 34	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	35	ATR	_	t_272|t_273|ref=septim.part._2
 35	δεκαμήνων	δεκαμήνων	n	n-p---mg-	Case=g|Gender=m|Number=p	31	ATR	_	t_273|t_269|ref=septim.part._2
-36	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=septim.part._1
+36	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=septim.part._2
 37	.	.	u	u--------	_	36	AuxK	_	t_274|e_4|ref=septim.part._2
 
-# source = Pseudo-Hippocrates, septim.part._2
+# source = Pseudo-Hippocrates, septim.part._3
 # text = 3 .
 # sent_id = 14
-1	3	3	x	x--------	_	0	AuxG	_	t_275|0|ref=septim.part._2
-2	.	.	u	u--------	_	1	AuxK	_	t_276|t_275|ref=septim.part._2
+1	3	3	x	x--------	_	0	AuxG	_	t_275|0|ref=septim.part._3
+2	.	.	u	u--------	_	1	AuxK	_	t_276|t_275|ref=septim.part._3
 
-# source = Pseudo-Hippocrates, septim.part._2-3
+# source = Pseudo-Hippocrates, septim.part._3
 # text = Τὰ δὲ πολλὰ τῶν ἐμβρύων τῶν ἐν ταύτῃ τῇ ἡλικίῃ τῇ ἑπταμήνῳ , ὅταν οἱ ὑμένες χαλάσωσι , μετεχώρησαν ἐς τὸ ὑπεῖξαν , καὶ ἐνταῦθα τὴν τροφὴν ποιέεται ·
 # sent_id = 15
-1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_277|t_279|ref=septim.part._2
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_278|0|ref=septim.part._2
+1	Τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	3	ATR	_	t_277|t_279|ref=septim.part._3
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_278|0|ref=septim.part._3
 3	πολλὰ	πολύς	a	a-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_279|t_295|ref=septim.part._3
 4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_280|t_281|ref=septim.part._3
 5	ἐμβρύων	ἔμβρυον	a	a-p---ng-	Case=g|Gender=n|Number=p	3	ATR	_	t_281|t_279|ref=septim.part._3
@@ -410,8 +410,8 @@
 38	μητρὸς	μήτηρ	n	n-s---fg-	Case=g|Gender=f|Number=s	36	ADV	_	t_343|t_341|ref=septim.part._3
 39	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	40	ATR	_	t_344|t_345|ref=septim.part._3
 40	πόνους	πόνος	n	n-p---ma-	Case=a|Gender=m|Number=p	42	OBJ	_	t_345|e_6|ref=septim.part._3
-41	[0]	[0]	-	---------	_	13	ADV	_	e_5|t_318|ref=septim.part._1
-42	[1]	[1]	-	---------	_	0	PRED	_	e_6|0|ref=septim.part._1
+41	[0]	[0]	-	---------	_	13	ADV	_	e_5|t_318|ref=septim.part._3
+42	[1]	[1]	-	---------	_	0	PRED	_	e_6|0|ref=septim.part._3
 43	.	.	u	u--------	_	42	AuxK	_	t_346|e_6|ref=septim.part._3
 
 # source = Pseudo-Hippocrates, septim.part._3
@@ -572,8 +572,8 @@
 27	ἀπὸ	ἀπό	r	r--------	_	31	AuxP	_	t_475|e_8|ref=septim.part._3
 28	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	29	ATR	_	t_476|t_477|ref=septim.part._3
 29	ἐννάτου	ἔνατος	a	a-s---ng-	Case=g|Gender=n|Number=s	27	ADV	_	t_477|t_475|ref=septim.part._3
-30	[0]	[0]	-	---------	_	26	ADV	_	e_7|t_474|ref=septim.part._1
-31	[1]	[1]	-	---------	_	26	ADV	_	e_8|t_474|ref=septim.part._1
+30	[0]	[0]	-	---------	_	26	ADV	_	e_7|t_474|ref=septim.part._3
+31	[1]	[1]	-	---------	_	26	ADV	_	e_8|t_474|ref=septim.part._3
 32	·	·	u	u--------	_	1	AuxK	_	t_478|t_449|ref=septim.part._3
 
 # source = Pseudo-Hippocrates, septim.part._3
@@ -599,7 +599,7 @@
 18	καὶ	καί	c	c--------	_	13	COORD	_	t_496|t_491|ref=septim.part._3
 19	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	20	ATR	_	t_497|t_498|ref=septim.part._3
 20	χρόνου	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_498|t_496|ref=septim.part._3
-21	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=septim.part._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=septim.part._3
 22	.	.	u	u--------	_	21	AuxK	_	t_499|e_9|ref=septim.part._3
 
 # source = Pseudo-Hippocrates, septim.part._3
@@ -639,25 +639,25 @@
 32	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	29	ADV	_	t_531|t_528|ref=septim.part._3
 33	.	.	u	u--------	_	2	AuxK	_	t_532|t_501|ref=septim.part._3
 
-# source = Pseudo-Hippocrates, septim.part._3
+# source = Pseudo-Hippocrates, septim.part._4
 # text = 4 [0] .
 # sent_id = 26
-1	4	4	u	u--------	_	2	AuxK	_	t_533|e_10|ref=septim.part._3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=septim.part._1
-3	.	.	u	u--------	_	2	AuxK	_	t_534|e_10|ref=septim.part._3
+1	4	4	u	u--------	_	2	AuxK	_	t_533|e_10|ref=septim.part._4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=septim.part._4
+3	.	.	u	u--------	_	2	AuxK	_	t_534|e_10|ref=septim.part._4
 
-# source = Pseudo-Hippocrates, septim.part._3-4
+# source = Pseudo-Hippocrates, septim.part._4
 # text = Χρὴ δὲ οὐκ ἀπιστέειν τῇσι γυναιξὶ περὶ τῶν τόκων ·
 # sent_id = 27
-1	Χρὴ	χρή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_535|t_538|ref=septim.part._3
-2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_536|t_538|ref=septim.part._3
-3	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_537|t_538|ref=septim.part._3
-4	ἀπιστέειν	ἀπιστέω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_538|0|ref=septim.part._3
-5	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	6	ATR	_	t_539|t_540|ref=septim.part._3
-6	γυναιξὶ	γυνή	n	n-p---fd-	Case=d|Gender=f|Number=p	4	OBJ	_	t_540|t_538|ref=septim.part._3
-7	περὶ	περί	r	r--------	_	4	AuxP	_	t_541|t_538|ref=septim.part._3
+1	Χρὴ	χρή	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_535|t_538|ref=septim.part._4
+2	δὲ	δέ	d	d--------	_	4	AuxY	_	t_536|t_538|ref=septim.part._4
+3	οὐκ	οὐ	d	d--------	_	4	AuxZ	_	t_537|t_538|ref=septim.part._4
+4	ἀπιστέειν	ἀπιστέω	v	v--pna---	Mood=n|Tense=p|Voice=a	0	PRED	_	t_538|0|ref=septim.part._4
+5	τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	6	ATR	_	t_539|t_540|ref=septim.part._4
+6	γυναιξὶ	γυνή	n	n-p---fd-	Case=d|Gender=f|Number=p	4	OBJ	_	t_540|t_538|ref=septim.part._4
+7	περὶ	περί	r	r--------	_	4	AuxP	_	t_541|t_538|ref=septim.part._4
 8	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	9	ATR	_	t_542|t_543|ref=septim.part._4
-9	τόκων	τόκος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_543|t_541|ref=septim.part._3
+9	τόκων	τόκος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ADV	_	t_543|t_541|ref=septim.part._4
 10	·	·	u	u--------	_	4	AuxK	_	t_544|t_538|ref=septim.part._4
 
 # source = Pseudo-Hippocrates, septim.part._4
@@ -697,7 +697,7 @@
 18	σώμασιν	σῶμα	n	n-p---nd-	Case=d|Gender=n|Number=p	16	ADV	_	t_572|t_570|ref=septim.part._4
 19	αὐτέων	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	18	ATR	_	t_573|t_572|ref=septim.part._4
 20	γινόμενον	γίγνομαι	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	14	OBJ	_	t_574|t_568|ref=septim.part._4
-21	[0]	[0]	-	---------	_	13	ADV	_	e_11|t_567|ref=septim.part._1
+21	[0]	[0]	-	---------	_	13	ADV	_	e_11|t_567|ref=septim.part._4
 22	.	.	u	u--------	_	4	AuxK	_	t_575|t_558|ref=septim.part._4
 
 # source = Pseudo-Hippocrates, septim.part._4
@@ -894,7 +894,7 @@
 12	γίνονται	γίγνομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	PRED	_	t_744|t_739|ref=septim.part._4
 13	καὶ	καί	c	c--------	_	12	COORD	_	t_745|t_744|ref=septim.part._4
 14	πυκνότεραι	πυκνός	a	a-p---fnc	Case=n|Degree=c|Gender=f|Number=p	13	PNOM	_	t_746|t_745|ref=septim.part._4
-15	[0]	[0]	-	---------	_	7	PRED	_	e_12|t_739|ref=septim.part._1
+15	[0]	[0]	-	---------	_	7	PRED	_	e_12|t_739|ref=septim.part._4
 16	·	·	u	u--------	_	6	AuxK	_	t_747|t_738|ref=septim.part._4
 
 # source = Pseudo-Hippocrates, septim.part._4
@@ -961,25 +961,25 @@
 21	ὑστέρου	ὕστερος	a	a-s---ng-	Case=g|Gender=n|Number=s	19	OBJ	_	t_798|t_796|ref=septim.part._4
 22	.	.	u	u--------	_	8	AuxK	_	t_799|t_785|ref=septim.part._4
 
-# source = Pseudo-Hippocrates, septim.part._4
+# source = Pseudo-Hippocrates, septim.part._5
 # text = 5 .
 # sent_id = 39
-1	5	5	u	u--------	_	0	AuxG	_	t_800|0|ref=septim.part._4
-2	.	.	u	u--------	_	1	AuxK	_	t_801|t_800|ref=septim.part._4
+1	5	5	u	u--------	_	0	AuxG	_	t_800|0|ref=septim.part._5
+2	.	.	u	u--------	_	1	AuxK	_	t_801|t_800|ref=septim.part._5
 
-# source = Pseudo-Hippocrates, septim.part._4-5
+# source = Pseudo-Hippocrates, septim.part._5
 # text = Ὅσαι δὲ τῶν γυναικῶν ἔτεκον πολλὰ παιδία καί τι αὐτέων ἐξεγένετο χωλὸν ἢ τυφλὸν ἢ ἄλλο τι κακὸν ἔχον , φήσουσιν ἐπὶ τουτέου τοῦ παιδίου τὸν ὄγδοον μῆνα χαλεπώτερον διαγαγεῖν ἢ ἐφʼ ὧν ἔτεκον οὐδὲν κακὸν ἐχοντων [0] ·
 # sent_id = 40
-1	Ὅσαι	ὅσος	p	p-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_802|t_806|ref=septim.part._4
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_803|t_822|ref=septim.part._4
-3	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_804|t_805|ref=septim.part._4
-4	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_805|t_808|ref=septim.part._4
-5	ἔτεκον	τίκτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	8	ATR	_	t_806|t_809|ref=septim.part._4
-6	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_807|t_808|ref=septim.part._4
-7	παιδία	παιδίον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_808|t_806|ref=septim.part._4
-8	καί	καί	c	c--------	_	21	COORD	_	t_809|t_822|ref=septim.part._4
-9	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_810|t_812|ref=septim.part._4
-10	αὐτέων	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_811|t_810|ref=septim.part._4
+1	Ὅσαι	ὅσος	p	p-p---fn-	Case=n|Gender=f|Number=p	5	SBJ	_	t_802|t_806|ref=septim.part._5
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_803|t_822|ref=septim.part._5
+3	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	4	ATR	_	t_804|t_805|ref=septim.part._5
+4	γυναικῶν	γυνή	n	n-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_805|t_808|ref=septim.part._5
+5	ἔτεκον	τίκτω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	8	ATR	_	t_806|t_809|ref=septim.part._5
+6	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_807|t_808|ref=septim.part._5
+7	παιδία	παιδίον	n	n-p---na-	Case=a|Gender=n|Number=p	5	OBJ	_	t_808|t_806|ref=septim.part._5
+8	καί	καί	c	c--------	_	21	COORD	_	t_809|t_822|ref=septim.part._5
+9	τι	τις	p	p-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_810|t_812|ref=septim.part._5
+10	αὐτέων	αὐτός	p	p-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_811|t_810|ref=septim.part._5
 11	ἐξεγένετο	ἐκγίγνομαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	8	ATR	_	t_812|t_809|ref=septim.part._5
 12	χωλὸν	χωλός	a	a-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_813|t_816|ref=septim.part._5
 13	ἢ	ἤ1	c	c--------	_	15	AuxY	_	t_814|t_816|ref=septim.part._5
@@ -1007,7 +1007,7 @@
 35	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	37	OBJ	_	t_836|t_838|ref=septim.part._5
 36	κακὸν	κακός	a	a-s---na-	Case=a|Gender=n|Number=s	35	ATR	_	t_837|t_836|ref=septim.part._5
 37	ἐχοντων	ἔχω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	38	ADV	_	t_838|e_13|ref=septim.part._5
-38	[0]	[0]	-	---------	_	31	ADV	_	e_13|t_832|ref=septim.part._1
+38	[0]	[0]	-	---------	_	31	ADV	_	e_13|t_832|ref=septim.part._5
 39	·	·	u	u--------	_	21	AuxK	_	t_839|t_822|ref=septim.part._5
 
 # source = Pseudo-Hippocrates, septim.part._5
@@ -1125,7 +1125,7 @@
 12	,	,	u	u--------	_	15	AuxX	_	t_937|e_14|ref=septim.part._5
 13	ἀδύνατον	ἀδύνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	15	PNOM	_	t_938|e_14|ref=septim.part._5
 14	περιγενέσθαι	περιγίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	13	ADV	_	t_939|t_938|ref=septim.part._5
-15	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=septim.part._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=septim.part._5
 16	·	·	u	u--------	_	15	AuxK	_	t_940|e_14|ref=septim.part._5
 
 # source = Pseudo-Hippocrates, septim.part._5
@@ -1150,27 +1150,27 @@
 17	τόκον	τόκος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_957|t_955|ref=septim.part._5
 18	.	.	u	u--------	_	8	AuxK	_	t_958|t_948|ref=septim.part._5
 
-# source = Pseudo-Hippocrates, septim.part._5
+# source = Pseudo-Hippocrates, septim.part._6
 # text = 6 .
 # sent_id = 46
-1	6	6	u	u--------	_	0	AuxG	_	t_959|0|ref=septim.part._5
-2	.	.	u	u--------	_	1	AuxK	_	t_960|t_959|ref=septim.part._5
+1	6	6	u	u--------	_	0	AuxG	_	t_959|0|ref=septim.part._6
+2	.	.	u	u--------	_	1	AuxK	_	t_960|t_959|ref=septim.part._6
 
-# source = Pseudo-Hippocrates, septim.part._5-6
+# source = Pseudo-Hippocrates, septim.part._6
 # text = Ὅ τι δʼ ἂν ἀπονοσῆσαν ἐν τῇ μήτρῃ ἐς τὸν ἔννατον μῆνα ἔλθῃ καὶ ἐν τουτέῳ τῷ μηνὶ γένηται , περιγίνεται ·
 # sent_id = 47
-1	Ὅ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_961|t_974|ref=septim.part._5
-2	τι	τις	a	a-s---nn-	Case=n|Gender=n|Number=s	1	ATR	_	t_962|t_961|ref=septim.part._5
-3	δʼ	δέ	d	d--------	_	21	AuxY	_	t_963|t_981|ref=septim.part._5
-4	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_964|t_974|ref=septim.part._5
-5	ἀπονοσῆσαν	ἀπονοσέω	v	v-sapann-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_965|t_974|ref=septim.part._5
-6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_966|t_965|ref=septim.part._5
-7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_967|t_968|ref=septim.part._5
-8	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_968|t_966|ref=septim.part._5
-9	ἐς	εἰς	r	r--------	_	13	AuxP	_	t_969|t_973|ref=septim.part._5
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_970|t_972|ref=septim.part._5
-11	ἔννατον	ἔννατος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_971|t_972|ref=septim.part._5
-12	μῆνα	μείς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_972|t_969|ref=septim.part._5
+1	Ὅ	ὅς	p	p-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_961|t_974|ref=septim.part._6
+2	τι	τις	a	a-s---nn-	Case=n|Gender=n|Number=s	1	ATR	_	t_962|t_961|ref=septim.part._6
+3	δʼ	δέ	d	d--------	_	21	AuxY	_	t_963|t_981|ref=septim.part._6
+4	ἂν	ἄν	d	d--------	_	14	AuxY	_	t_964|t_974|ref=septim.part._6
+5	ἀπονοσῆσαν	ἀπονοσέω	v	v-sapann-	Case=n|Gender=n|Mood=p|Number=s|Tense=a|Voice=a	14	ADV	_	t_965|t_974|ref=septim.part._6
+6	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_966|t_965|ref=septim.part._6
+7	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	8	ATR	_	t_967|t_968|ref=septim.part._6
+8	μήτρῃ	μήτηρ	n	n-s---fd-	Case=d|Gender=f|Number=s	6	ADV	_	t_968|t_966|ref=septim.part._6
+9	ἐς	εἰς	r	r--------	_	13	AuxP	_	t_969|t_973|ref=septim.part._6
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_970|t_972|ref=septim.part._6
+11	ἔννατον	ἔννατος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_971|t_972|ref=septim.part._6
+12	μῆνα	μείς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_972|t_969|ref=septim.part._6
 13	ἔλθῃ	ἔρχομαι	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	14	ADV	_	t_973|t_974|ref=septim.part._6
 14	καὶ	καί	c	c--------	_	21	COORD	_	t_974|t_981|ref=septim.part._6
 15	ἐν	ἐν	r	r--------	_	19	AuxP	_	t_975|t_979|ref=septim.part._6
@@ -1198,7 +1198,7 @@
 11	καὶ	καί	d	d--------	_	12	AuxZ	_	t_993|t_994|ref=septim.part._6
 12	τουτέων	οὗτος	p	p-p---ng-	Case=g|Gender=n|Number=p	9	ATR	_	t_994|t_991|ref=septim.part._6
 13	ἐκτρέφεται	ἐκτρέφω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_995|t_992|ref=septim.part._6
-14	[0]	[0]	-	---------	_	5	ADV	_	e_15|t_987|ref=septim.part._1
+14	[0]	[0]	-	---------	_	5	ADV	_	e_15|t_987|ref=septim.part._6
 15	·	·	u	u--------	_	8	AuxK	_	t_996|t_990|ref=septim.part._6
 
 # source = Pseudo-Hippocrates, septim.part._6
@@ -1233,35 +1233,35 @@
 27	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	25	ADV	_	t_1023|t_1021|ref=septim.part._6
 28	.	.	u	u--------	_	10	AuxK	_	t_1024|t_1006|ref=septim.part._6
 
-# source = Pseudo-Hippocrates, septim.part._6
+# source = Pseudo-Hippocrates, septim.part._7
 # text = 7 [0] .
 # sent_id = 50
-1	7	7	u	u--------	_	2	AuxG	_	t_1025|e_16|ref=septim.part._6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=septim.part._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1026|e_16|ref=septim.part._6
+1	7	7	u	u--------	_	2	AuxG	_	t_1025|e_16|ref=septim.part._7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=septim.part._7
+3	.	.	u	u--------	_	2	AuxK	_	t_1026|e_16|ref=septim.part._7
 
-# source = Pseudo-Hippocrates, septim.part._6
+# source = Pseudo-Hippocrates, septim.part._7
 # text = Σωθείη δʼ ἂν μάλιστα εἰ τοῦ ἐννάτου μηνὸς γένοιτο ἐν ἐξόδῳ ·
 # sent_id = 51
-1	Σωθείη	σώζω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1027|0|ref=septim.part._6
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_1028|t_1027|ref=septim.part._6
-3	ἂν	ἄν	d	d--------	_	1	AuxY	_	t_1029|t_1027|ref=septim.part._6
-4	μάλιστα	μάλιστα	d	d--------	_	1	ADV	_	t_1030|t_1027|ref=septim.part._6
-5	εἰ	εἰ	c	c--------	_	1	AuxC	_	t_1031|t_1027|ref=septim.part._6
-6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1032|t_1034|ref=septim.part._6
-7	ἐννάτου	ἔνατος	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1033|t_1034|ref=septim.part._6
-8	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_1034|t_1035|ref=septim.part._6
-9	γένοιτο	γίγνομαι	v	v3saom---	Mood=o|Number=s|Person=3|Tense=a|Voice=m	5	ADV	_	t_1035|t_1031|ref=septim.part._6
-10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1036|t_1035|ref=septim.part._6
-11	ἐξόδῳ	ἔξοδος1	n	n-s---fd-	Case=d|Gender=f|Number=s	10	PNOM	_	t_1037|t_1036|ref=septim.part._6
-12	·	·	u	u--------	_	1	AuxK	_	t_1038|t_1027|ref=septim.part._6
+1	Σωθείη	σώζω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_1027|0|ref=septim.part._7
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_1028|t_1027|ref=septim.part._7
+3	ἂν	ἄν	d	d--------	_	1	AuxY	_	t_1029|t_1027|ref=septim.part._7
+4	μάλιστα	μάλιστα	d	d--------	_	1	ADV	_	t_1030|t_1027|ref=septim.part._7
+5	εἰ	εἰ	c	c--------	_	1	AuxC	_	t_1031|t_1027|ref=septim.part._7
+6	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1032|t_1034|ref=septim.part._7
+7	ἐννάτου	ἔνατος	a	a-s---mg-	Case=g|Gender=m|Number=s	8	ATR	_	t_1033|t_1034|ref=septim.part._7
+8	μηνὸς	μείς	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_1034|t_1035|ref=septim.part._7
+9	γένοιτο	γίγνομαι	v	v3saom---	Mood=o|Number=s|Person=3|Tense=a|Voice=m	5	ADV	_	t_1035|t_1031|ref=septim.part._7
+10	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1036|t_1035|ref=septim.part._7
+11	ἐξόδῳ	ἔξοδος1	n	n-s---fd-	Case=d|Gender=f|Number=s	10	PNOM	_	t_1037|t_1036|ref=septim.part._7
+12	·	·	u	u--------	_	1	AuxK	_	t_1038|t_1027|ref=septim.part._7
 
-# source = Pseudo-Hippocrates, septim.part._6-7
+# source = Pseudo-Hippocrates, septim.part._7
 # text = ἰσχυρότερόν τε γὰρ γένοιτο καὶ πλεῖστον ἀπέχον τῶν νούσων τῶν τοῖσιν ὀκταμήνοισι γενομένων .
 # sent_id = 52
-1	ἰσχυρότερόν	ἰσχυρός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	4	PNOM	_	t_1039|t_1042|ref=septim.part._6
+1	ἰσχυρότερόν	ἰσχυρός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	4	PNOM	_	t_1039|t_1042|ref=septim.part._7
 2	τε	τε	d	d--------	_	5	AuxY	_	t_1040|t_1043|ref=septim.part._7
-3	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_1041|t_1043|ref=septim.part._6
+3	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_1041|t_1043|ref=septim.part._7
 4	γένοιτο	γίγνομαι	v	v3saom---	Mood=o|Number=s|Person=3|Tense=a|Voice=m	5	PRED	_	t_1042|t_1043|ref=septim.part._7
 5	καὶ	καί	c	c--------	_	0	COORD	_	t_1043|0|ref=septim.part._7
 6	πλεῖστον	πλεῖστος	a	a-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_1044|t_1045|ref=septim.part._7
@@ -1320,32 +1320,32 @@
 41	ὄγδοον	ὄγδοος	a	a-s---ma-	Case=a|Gender=m|Number=s	39	ATR	_	t_1093|t_1091|ref=septim.part._7
 42	.	.	u	u--------	_	16	AuxK	_	t_1094|t_1068|ref=septim.part._7
 
-# source = Pseudo-Hippocrates, septim.part._7
+# source = Pseudo-Hippocrates, septim.part._8
 # text = 8 [0] .
 # sent_id = 54
-1	8	8	x	x--------	_	2	AuxK	_	t_1095|e_17|ref=septim.part._7
-2	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=septim.part._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1096|e_17|ref=septim.part._7
+1	8	8	x	x--------	_	2	AuxK	_	t_1095|e_17|ref=septim.part._8
+2	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=septim.part._8
+3	.	.	u	u--------	_	2	AuxK	_	t_1096|e_17|ref=septim.part._8
 
-# source = Pseudo-Hippocrates, septim.part._7-8
+# source = Pseudo-Hippocrates, septim.part._8
 # text = Σαφηνίζει δὲ περὶ τῶν νοσημάτων καὶ παθημάτων τῶν τοῖσιν ὀκταμήνοισι γινομένων καὶ τὰ ἐννεάμηνα λεπτὰ τικτόμενα κατὰ τὸ πλῆθος τοῦ χρόνου οὗ γέγονε καὶ τὸ μέγεθος τοῦ σώματος , ἐκ νούσων κακοπαθείης ἀφιγμένης , οὐχ ὥσπερ τὰ ἑπτάμηνα τίκτεται σεσαρκωμένα καὶ τὸ πάχος ἔχοντα εὐτραφέως , ἄνοσα διατετελεκότα ὃν χρόνον ἐν τῇ μήτρῃ διεφέρετο .
 # sent_id = 55
-1	Σαφηνίζει	διασαφέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1097|0|ref=septim.part._7
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_1098|t_1097|ref=septim.part._7
-3	περὶ	περί	r	r--------	_	1	AuxP	_	t_1099|t_1097|ref=septim.part._7
-4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1100|t_1101|ref=septim.part._7
-5	νοσημάτων	νόσημα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_1101|t_1102|ref=septim.part._7
-6	καὶ	καί	c	c--------	_	3	COORD	_	t_1102|t_1099|ref=septim.part._7
-7	παθημάτων	πάθημα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_1103|t_1102|ref=septim.part._7
-8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1104|t_1103|ref=septim.part._7
-9	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_1105|t_1106|ref=septim.part._7
-10	ὀκταμήνοισι	ὀκτάμηνος	a	a-p---nd-	Case=d|Gender=n|Number=p	11	PNOM	_	t_1106|t_1107|ref=septim.part._7
-11	γινομένων	γίγνομαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	7	ATR	_	t_1107|t_1103|ref=septim.part._7
-12	καὶ	καί	d	d--------	_	14	AuxZ	_	t_1108|t_1110|ref=septim.part._7
-13	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_1109|t_1110|ref=septim.part._7
-14	ἐννεάμηνα	ἐννεάμηνος	a	a-p---na-	Case=a|Gender=n|Number=p	16	SBJ	_	t_1110|t_1112|ref=septim.part._7
+1	Σαφηνίζει	διασαφέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1097|0|ref=septim.part._8
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_1098|t_1097|ref=septim.part._8
+3	περὶ	περί	r	r--------	_	1	AuxP	_	t_1099|t_1097|ref=septim.part._8
+4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1100|t_1101|ref=septim.part._8
+5	νοσημάτων	νόσημα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_1101|t_1102|ref=septim.part._8
+6	καὶ	καί	c	c--------	_	3	COORD	_	t_1102|t_1099|ref=septim.part._8
+7	παθημάτων	πάθημα	n	n-p---ng-	Case=g|Gender=n|Number=p	6	ADV	_	t_1103|t_1102|ref=septim.part._8
+8	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1104|t_1103|ref=septim.part._8
+9	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	10	ATR	_	t_1105|t_1106|ref=septim.part._8
+10	ὀκταμήνοισι	ὀκτάμηνος	a	a-p---nd-	Case=d|Gender=n|Number=p	11	PNOM	_	t_1106|t_1107|ref=septim.part._8
+11	γινομένων	γίγνομαι	v	v-pppeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	7	ATR	_	t_1107|t_1103|ref=septim.part._8
+12	καὶ	καί	d	d--------	_	14	AuxZ	_	t_1108|t_1110|ref=septim.part._8
+13	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_1109|t_1110|ref=septim.part._8
+14	ἐννεάμηνα	ἐννεάμηνος	a	a-p---na-	Case=a|Gender=n|Number=p	16	SBJ	_	t_1110|t_1112|ref=septim.part._8
 15	λεπτὰ	λεπτός	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_1111|t_1110|ref=septim.part._8
-16	τικτόμενα	τίκτω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	1	ADV	_	t_1112|t_1097|ref=septim.part._7
+16	τικτόμενα	τίκτω	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	1	ADV	_	t_1112|t_1097|ref=septim.part._8
 17	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_1113|t_1112|ref=septim.part._8
 18	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	19	ATR	_	t_1114|t_1115|ref=septim.part._8
 19	πλῆθος	πλῆθος	n	n-s---na-	Case=a|Gender=n|Number=s	17	ADV	_	t_1115|t_1113|ref=septim.part._8
@@ -1386,33 +1386,33 @@
 54	διεφέρετο	διαφέρω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	48	ADV	_	t_1150|t_1144|ref=septim.part._8
 55	.	.	u	u--------	_	1	AuxK	_	t_1151|t_1097|ref=septim.part._8
 
-# source = Pseudo-Hippocrates, septim.part._8
+# source = Pseudo-Hippocrates, septim.part._9
 # text = 9 [0] .
 # sent_id = 56
-1	9	9	x	x--------	_	2	AuxK	_	t_1152|e_18|ref=septim.part._8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=septim.part._1
-3	.	.	u	u--------	_	2	AuxK	_	t_1153|e_18|ref=septim.part._8
+1	9	9	x	x--------	_	2	AuxK	_	t_1152|e_18|ref=septim.part._9
+2	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=septim.part._9
+3	.	.	u	u--------	_	2	AuxK	_	t_1153|e_18|ref=septim.part._9
 
-# source = Pseudo-Hippocrates, septim.part._8-9
+# source = Pseudo-Hippocrates, septim.part._9
 # text = Τῇσι δὲ γυναιξὶν αἱ συλλήψιες τῶν ἐμβρύων καὶ οἱ τρωσμοί τε καὶ οἱ τόκοι κρίνονται ἐν οἷσί περ αἵ τε νοῦσοι καὶ αἱ ὑγίειαι καὶ οἱ θάνατοι τοῖσι σύμπασιν ἀνθρώποισιν [0] .
 # sent_id = 57
-1	Τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_1154|t_1156|ref=septim.part._8
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_1155|t_1168|ref=septim.part._8
-3	γυναιξὶν	γυνή	n	n-p---fd-	Case=d|Gender=f|Number=p	15	OBJ	_	t_1156|t_1168|ref=septim.part._8
-4	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_1157|t_1158|ref=septim.part._8
-5	συλλήψιες	συλλήψιος	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_1158|t_1165|ref=septim.part._8
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1159|t_1160|ref=septim.part._8
-7	ἐμβρύων	ἔμβρυον	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1160|t_1158|ref=septim.part._8
-8	καὶ	καί	c	c--------	_	12	AuxY	_	t_1161|t_1165|ref=septim.part._8
-9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_1162|t_1163|ref=septim.part._8
-10	τρωσμοί	τρωσμός	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_1163|t_1165|ref=septim.part._8
-11	τε	τε	d	d--------	_	12	AuxY	_	t_1164|t_1165|ref=septim.part._8
-12	καὶ	καί	c	c--------	_	15	COORD	_	t_1165|t_1168|ref=septim.part._8
-13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_1166|t_1167|ref=septim.part._8
-14	τόκοι	τόκος	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_1167|t_1165|ref=septim.part._8
-15	κρίνονται	κρίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1168|0|ref=septim.part._8
+1	Τῇσι	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	3	ATR	_	t_1154|t_1156|ref=septim.part._9
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_1155|t_1168|ref=septim.part._9
+3	γυναιξὶν	γυνή	n	n-p---fd-	Case=d|Gender=f|Number=p	15	OBJ	_	t_1156|t_1168|ref=septim.part._9
+4	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_1157|t_1158|ref=septim.part._9
+5	συλλήψιες	συλλήψιος	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_1158|t_1165|ref=septim.part._9
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_1159|t_1160|ref=septim.part._9
+7	ἐμβρύων	ἔμβρυον	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1160|t_1158|ref=septim.part._9
+8	καὶ	καί	c	c--------	_	12	AuxY	_	t_1161|t_1165|ref=septim.part._9
+9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_1162|t_1163|ref=septim.part._9
+10	τρωσμοί	τρωσμός	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_1163|t_1165|ref=septim.part._9
+11	τε	τε	d	d--------	_	12	AuxY	_	t_1164|t_1165|ref=septim.part._9
+12	καὶ	καί	c	c--------	_	15	COORD	_	t_1165|t_1168|ref=septim.part._9
+13	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_1166|t_1167|ref=septim.part._9
+14	τόκοι	τόκος	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_1167|t_1165|ref=septim.part._9
+15	κρίνονται	κρίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1168|0|ref=septim.part._9
 16	ἐν	ἐν	r	r--------	_	31	AuxP	_	t_1169|e_19|ref=septim.part._9
-17	οἷσί	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_1170|t_1169|ref=septim.part._8
+17	οἷσί	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	16	ADV	_	t_1170|t_1169|ref=septim.part._9
 18	περ	πέρ	d	d--------	_	31	AuxZ	_	t_1171|e_19|ref=septim.part._9
 19	αἵ	ὅς	l	l-p---fn-	Case=n|Gender=f|Number=p	21	ATR	_	t_1172|t_1174|ref=septim.part._9
 20	τε	τε	d	d--------	_	25	AuxY	_	t_1173|t_1178|ref=septim.part._9
@@ -1426,7 +1426,7 @@
 28	τοῖσι	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	30	ATR	_	t_1181|t_1183|ref=septim.part._9
 29	σύμπασιν	σύμπας	a	a-p---md-	Case=d|Gender=m|Number=p	30	ATR	_	t_1182|t_1183|ref=septim.part._9
 30	ἀνθρώποισιν	ἄνθρωπος	n	n-p---md-	Case=d|Gender=m|Number=p	31	ADV	_	t_1183|e_19|ref=septim.part._9
-31	[0]	[0]	-	---------	_	14	ATR	_	e_19|t_1167|ref=septim.part._1
+31	[0]	[0]	-	---------	_	14	ATR	_	e_19|t_1167|ref=septim.part._9
 32	.	.	u	u--------	_	15	AuxK	_	t_1184|t_1168|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1458,8 +1458,8 @@
 24	κατ	κατά	r	r--------	_	28	AuxP	_	t_1208|e_21|ref=septim.part._9
 25	’	’	r	r--------	_	28	AuxP	_	t_1209|e_21|ref=septim.part._9
 26	ἐνιαυτόν	ἐνιαυτός	n	n-s---ma-	Case=a|Gender=m|Number=s	24	ADV	_	t_1210|t_1208|ref=septim.part._9
-27	[0]	[0]	-	---------	_	23	PRED	_	e_20|t_1207|ref=septim.part._1
-28	[1]	[1]	-	---------	_	23	PRED	_	e_21|t_1207|ref=septim.part._1
+27	[0]	[0]	-	---------	_	23	PRED	_	e_20|t_1207|ref=septim.part._9
+28	[1]	[1]	-	---------	_	23	PRED	_	e_21|t_1207|ref=septim.part._9
 29	·	·	u	u--------	_	9	AuxK	_	t_1211|t_1193|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1513,7 +1513,7 @@
 8	καὶ	καί	c	c--------	_	11	COORD	_	t_1249|e_22|ref=septim.part._9
 9	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	10	ATR	_	t_1250|t_1251|ref=septim.part._9
 10	θάνατοι	θάνατος	n	n-p---mn-	Case=n|Gender=m|Number=p	8	SBJ	_	t_1251|t_1249|ref=septim.part._9
-11	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=septim.part._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=septim.part._9
 12	.	.	u	u--------	_	11	AuxK	_	t_1252|e_22|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1545,8 +1545,8 @@
 24	καὶ	καί	d	d--------	_	26	AuxZ	_	t_1276|t_1278|ref=septim.part._9
 25	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	26	ATR	_	t_1277|t_1278|ref=septim.part._9
 26	ἐμβρύοισιν	ἔμβρυος	a	a-p---md-	Case=d|Gender=m|Number=p	28	ADV	_	t_1278|e_24|ref=septim.part._9
-27	[0]	[0]	-	---------	_	23	PRED	_	e_23|t_1275|ref=septim.part._1
-28	[1]	[1]	-	---------	_	23	PRED	_	e_24|t_1275|ref=septim.part._1
+27	[0]	[0]	-	---------	_	23	PRED	_	e_23|t_1275|ref=septim.part._9
+28	[1]	[1]	-	---------	_	23	PRED	_	e_24|t_1275|ref=septim.part._9
 29	·	·	u	u--------	_	16	AuxK	_	t_1279|t_1268|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1597,8 +1597,8 @@
 14	πολλαὶ	πολύς	a	a-p---fn-	Case=n|Gender=f|Number=p	16	SBJ	_	t_1314|t_1316|ref=septim.part._9
 15	δὲ	δέ	c	c--------	_	9	COORD	_	t_1315|t_1309|ref=septim.part._9
 16	κρίνουσιν	κρίνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	15	PRED	_	t_1316|t_1315|ref=septim.part._9
-17	[0]	[0]	-	---------	_	15	PRED	_	e_25|t_1315|ref=septim.part._1
-18	[1]	[1]	-	---------	_	15	PRED	_	e_26|t_1315|ref=septim.part._1
+17	[0]	[0]	-	---------	_	15	PRED	_	e_25|t_1315|ref=septim.part._9
+18	[1]	[1]	-	---------	_	15	PRED	_	e_26|t_1315|ref=septim.part._9
 19	.	.	u	u--------	_	9	AuxK	_	t_1317|t_1309|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1723,7 +1723,7 @@
 20	τε	τε	g	g--------	_	18	COORD	_	t_1418|t_1416|ref=septim.part._9
 21	ἕνεκα	ἕνεκα	r	r--------	_	22	AuxP	_	t_1419|t_1420|ref=septim.part._9
 22	εἰρήσω	ἐρῶ	v	v1sasa---	Mood=s|Number=s|Person=1|Tense=a|Voice=a	16	OBJ	_	t_1420|t_1414|ref=septim.part._9
-23	[0]	[0]	-	---------	_	2	PRED	_	e_27|t_1400|ref=septim.part._1
+23	[0]	[0]	-	---------	_	2	PRED	_	e_27|t_1400|ref=septim.part._9
 24	·	·	u	u--------	_	2	AuxK	_	t_1421|t_1400|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1760,7 +1760,7 @@
 29	τεσσαρακοστὴν	τεσσαρακοστός	a	a-s---fa-	Case=a|Gender=f|Number=s	30	ATR	_	t_1450|t_1451|ref=septim.part._9
 30	καὶ	καί	c	c--------	_	32	COORD	_	t_1451|e_28|ref=septim.part._9
 31	δευτέρην	δεύτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_1452|t_1451|ref=septim.part._9
-32	[0]	[0]	-	---------	_	20	OBJ	_	e_28|t_1441|ref=septim.part._1
+32	[0]	[0]	-	---------	_	20	OBJ	_	e_28|t_1441|ref=septim.part._9
 33	.	.	u	u--------	_	3	AuxK	_	t_1453|t_1424|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1839,8 +1839,8 @@
 18	παρὰ	παρά	r	r--------	_	20	AuxP	_	t_1512|t_1514|ref=septim.part._9
 19	δύο	δύο	m	m--------	_	18	ADV	_	t_1513|t_1512|ref=septim.part._9
 20	συνεζευγμέναις	συνάπτω	v	v-prpefd-	Case=d|Gender=f|Mood=p|Number=p|Tense=r|Voice=e	17	ATR	_	t_1514|t_1511|ref=septim.part._9
-21	[0]	[0]	-	---------	_	8	PRED	_	e_29|t_1502|ref=septim.part._1
-22	[1]	[1]	-	---------	_	8	PRED	_	e_30|t_1502|ref=septim.part._1
+21	[0]	[0]	-	---------	_	8	PRED	_	e_29|t_1502|ref=septim.part._9
+22	[1]	[1]	-	---------	_	8	PRED	_	e_30|t_1502|ref=septim.part._9
 23	.	.	u	u--------	_	6	AuxK	_	t_1515|t_1500|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -1895,7 +1895,7 @@
 11	ταῖς	ὁ	l	l-p---fd-	Case=d|Gender=f|Number=p	12	ATR	_	t_1554|t_1555|ref=septim.part._9
 12	ἄλλαις	ἄλλος	a	a-p---fd-	Case=d|Gender=f|Number=p	13	ATR	_	t_1555|t_1556|ref=septim.part._9
 13	ἐούσαις	εἰμί	v	v-pppafd-	Case=d|Gender=f|Mood=p|Number=p|Tense=p|Voice=a	10	ADV	_	t_1556|t_1553|ref=septim.part._9
-14	[0]	[0]	-	---------	_	9	ADV	_	e_31|t_1552|ref=septim.part._1
+14	[0]	[0]	-	---------	_	9	ADV	_	e_31|t_1552|ref=septim.part._9
 15	.	.	u	u--------	_	3	AuxK	_	t_1557|t_1546|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -2038,7 +2038,7 @@
 22	λέγεται	λέγω3	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	1	ATR	_	t_1672|t_1651|ref=septim.part._9
 23	ὧδε	ὧδε	d	d--------	_	22	ADV	_	t_1673|t_1672|ref=septim.part._9
 24	σύμπας	σύμπας	a	a-s---mn-	Case=n|Gender=m|Number=s	21	ATR	_	t_1674|t_1671|ref=septim.part._9
-25	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=septim.part._1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=septim.part._9
 26	.	.	u	u--------	_	25	AuxK	_	t_1675|e_32|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -2284,8 +2284,8 @@
 26	ἑκάστας	ἕκαστος	a	a-p---fa-	Case=a|Gender=f|Number=p	25	ATR	_	t_1873|t_1872|ref=septim.part._9
 27	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	28	ATR	_	t_1874|t_1875|ref=septim.part._9
 28	ἑβδόμοις	ἕβδομος	a	a-p---md-	Case=d|Gender=m|Number=p	30	ADV	_	t_1875|e_34|ref=septim.part._9
-29	[0]	[0]	-	---------	_	12	PRED	_	e_33|t_1859|ref=septim.part._1
-30	[1]	[1]	-	---------	_	12	PRED	_	e_34|t_1859|ref=septim.part._1
+29	[0]	[0]	-	---------	_	12	PRED	_	e_33|t_1859|ref=septim.part._9
+30	[1]	[1]	-	---------	_	12	PRED	_	e_34|t_1859|ref=septim.part._9
 31	·	·	u	u--------	_	10	AuxK	_	t_1876|t_1857|ref=septim.part._9
 
 # source = Pseudo-Hippocrates, septim.part._9
@@ -2325,6 +2325,6 @@
 5	,	,	u	u--------	_	8	AuxX	_	t_1900|e_35|ref=septim.part._9
 6	τάδε	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_1901|t_1902|ref=septim.part._9
 7	γράψω	γράφω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1902|0|ref=septim.part._9
-8	[0]	[0]	-	---------	_	7	OBJ	_	e_35|t_1902|ref=septim.part._1
+8	[0]	[0]	-	---------	_	7	OBJ	_	e_35|t_1902|ref=septim.part._9
 9	.	.	u	u--------	_	7	AuxK	_	t_1903|t_1902|ref=septim.part._9
 

@@ -113,7 +113,7 @@
 # sent_id = 6
 1	X	x	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_91|e_1|ref=Hyp. 2_frag.10
 2	ἐκεῖνος	ἐκεῖνος	p	p-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_92|e_1|ref=Hyp. 2_frag.10
-3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Hyp. 2_frag.1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Hyp. 2_frag.10
 4	.	.	u	u--------	_	3	AuxK	_	t_93|e_1|ref=Hyp. 2_frag.10
 
 # source = Hyperides, Hyp. 2_frag.10
@@ -184,18 +184,18 @@
 31	έο	ἕ	v	v3ppia---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	34	OBJ	_	t_148|e_2|ref=Hyp. 2_frag.10
 32	ντ	ντ	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	31	OBJ	_	t_149|t_148|ref=Hyp. 2_frag.10
 33	αι	αι	m	m--------	_	31	PNOM	_	t_150|t_148|ref=Hyp. 2_frag.10
-34	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Hyp. 2_frag.1
+34	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Hyp. 2_frag.10
 35	.	.	u	u--------	_	34	AuxK	_	t_151|e_2|ref=Hyp. 2_frag.10
 
-# source = Hyperides, Hyp. 2_frag.10
+# source = Hyperides, Hyp. 2_frag.10-frag.11
 # text = μόνοις δὲ τούτο ις Frag .
 # sent_id = 10
 1	μόνοις	μόνος	a	a-p---md-	Mood=o|Number=s|Person=2|Tense=p|Voice=a	5	ADV	_	t_152|t_156|ref=Hyp. 2_frag.10
 2	δὲ	δέ	d	d--------	_	5	AuxY	_	t_153|t_156|ref=Hyp. 2_frag.10
 3	τούτο	οὗτος	p	p-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_154|t_156|ref=Hyp. 2_frag.10
 4	ις	ις	v	v2spoa---	Case=d|Gender=f|Number=p	5	ADV	_	t_155|t_156|ref=Hyp. 2_frag.10
-5	Frag	fried	n	n-s---mn-	Case=n|Gender=m|Number=s	0	PRED	_	t_156|0|ref=Hyp. 2_frag.10
-6	.	.	u	u--------	_	5	AuxK	_	t_157|t_156|ref=Hyp. 2_frag.10
+5	Frag	fried	n	n-s---mn-	Case=n|Gender=m|Number=s	0	PRED	_	t_156|0|ref=Hyp. 2_frag.11
+6	.	.	u	u--------	_	5	AuxK	_	t_157|t_156|ref=Hyp. 2_frag.11
 
 # source = Hyperides, Hyp. 2_frag.11
 # text = XI δη μοκρ ατία [0] .
@@ -204,10 +204,10 @@
 2	δη	δη	n	n-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_159|e_3|ref=Hyp. 2_frag.11
 3	μοκρ	μοκρ	a	a-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_160|e_3|ref=Hyp. 2_frag.11
 4	ατία	ατία	a	a-s---fn-	Case=n|Gender=f|Number=s	5	ExD	_	t_161|e_3|ref=Hyp. 2_frag.11
-5	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Hyp. 2_frag.1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Hyp. 2_frag.11
 6	.	.	u	u--------	_	5	AuxK	_	t_162|e_3|ref=Hyp. 2_frag.11
 
-# source = Hyperides, Hyp. 2_frag.11
+# source = Hyperides, Hyp. 2_frag.11-frag.15a
 # text = ἀφεὶς δὲ τὰ πολ λὰ περὶ ὧν καὶ συνηγό ρει Φιλί ππῳ καὶ ἐστρα τεύσατ ο μετʼ ἐκείνου ἐπὶ τὴν χώ ραν , ὅπερ μέγιστον , τοῦτο δ ηλώσω Φι λιππο ἐστρατεύ σατο ἐφʼ ἡμᾶς καὶ τοὺς συμ μάχους ἀκρι βῶς γε Frag [0] .
 # sent_id = 12
 1	ἀφεὶς	ἀφίημι	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_163|t_175|ref=Hyp. 2_frag.11
@@ -252,16 +252,16 @@
 40	ἀκρι	ἀκρι	d	d--------	_	32	ADV	_	t_202|t_194|ref=Hyp. 2_frag.11
 41	βῶς	βῶς	d	d--------	_	32	ADV	_	t_203|t_194|ref=Hyp. 2_frag.11
 42	γε	γε	d	d--------	_	41	AuxZ	_	t_204|t_203|ref=Hyp. 2_frag.11
-43	Frag	fried	n	n-s---mn-	Case=n|Gender=m|Number=s	32	OBJ	_	t_205|t_194|ref=Hyp. 2_frag.11
-44	[0]	[0]	-	---------	_	27	ATR	_	e_4|t_189|ref=Hyp. 2_frag.1
-45	.	.	u	u--------	_	33	AuxK	_	t_206|t_195|ref=Hyp. 2_frag.11
+43	Frag	fried	n	n-s---mn-	Case=n|Gender=m|Number=s	32	OBJ	_	t_205|t_194|ref=Hyp. 2_frag.15a
+44	[0]	[0]	-	---------	_	27	ATR	_	e_4|t_189|ref=Hyp. 2_frag.15a
+45	.	.	u	u--------	_	33	AuxK	_	t_206|t_195|ref=Hyp. 2_frag.15a
 
-# source = Hyperides, Hyp. 2_frag.11-frag.15a
+# source = Hyperides, Hyp. 2_frag.15a-frag.15b
 # text = XVa δί δωσιν ἕκαστος αὐτῶν , ὁ μὲν ἐν Θήβαις , ὁ δʼ ἐν Τανάγρᾳ , ὁ δʼ ἐν τῇ ἐλευθε ατα τῶν Frag [0] [1] [2] .
 # sent_id = 13
-1	XVa	xvia	n	n-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_207|t_208|ref=Hyp. 2_frag.11
+1	XVa	xvia	n	n-p---na-	Case=a|Gender=n|Number=p	2	OBJ	_	t_207|t_208|ref=Hyp. 2_frag.15a
 2	δί	ζεύς	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_208|t_212|ref=Hyp. 2_frag.15a
-3	δωσιν	δίδωμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_209|t_212|ref=Hyp. 2_frag.11
+3	δωσιν	δίδωμι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_209|t_212|ref=Hyp. 2_frag.15a
 4	ἕκαστος	ἕκαστος	a	a-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_210|t_209|ref=Hyp. 2_frag.15a
 5	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_211|t_210|ref=Hyp. 2_frag.15a
 6	,	,	u	u--------	_	0	APOS	_	t_212|0|ref=Hyp. 2_frag.15a
@@ -282,19 +282,19 @@
 21	ἐλευθε	ἔρχομαι	n	n-s---fd-	Case=d|Gender=f|Number=s	19	PNOM	_	t_227|t_225|ref=Hyp. 2_frag.15a
 22	ατα	ατα	p	p-p---na-	Case=a|Gender=n|Number=p	21	ATR	_	t_228|t_227|ref=Hyp. 2_frag.15a
 23	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	22	ATR	_	t_229|t_228|ref=Hyp. 2_frag.15a
-24	Frag	fried	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_230|t_229|ref=Hyp. 2_frag.15a
-25	[0]	[0]	-	---------	_	18	PRED	_	e_5|t_224|ref=Hyp. 2_frag.1
-26	[1]	[1]	-	---------	_	18	PRED	_	e_6|t_224|ref=Hyp. 2_frag.1
-27	[2]	[2]	-	---------	_	18	PRED	_	e_7|t_224|ref=Hyp. 2_frag.1
-28	.	.	u	u--------	_	6	AuxK	_	t_231|t_212|ref=Hyp. 2_frag.15a
+24	Frag	fried	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_230|t_229|ref=Hyp. 2_frag.15b
+25	[0]	[0]	-	---------	_	18	PRED	_	e_5|t_224|ref=Hyp. 2_frag.15b
+26	[1]	[1]	-	---------	_	18	PRED	_	e_6|t_224|ref=Hyp. 2_frag.15b
+27	[2]	[2]	-	---------	_	18	PRED	_	e_7|t_224|ref=Hyp. 2_frag.15b
+28	.	.	u	u--------	_	6	AuxK	_	t_231|t_212|ref=Hyp. 2_frag.15b
 
-# source = Hyperides, Hyp. 2_frag.15a-frag.15b
+# source = Hyperides, Hyp. 2_frag.15b
 # text = XVb ἀ παλλαγέντα [0] ;
 # sent_id = 14
-1	XVb	xvi	p	p-s---na-	_	4	OBJ	_	t_232|e_8|ref=Hyp. 2_frag.15a
-2	ἀ	ἀ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_233|t_234|ref=Hyp. 2_frag.15a
+1	XVb	xvi	p	p-s---na-	_	4	OBJ	_	t_232|e_8|ref=Hyp. 2_frag.15b
+2	ἀ	ἀ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_233|t_234|ref=Hyp. 2_frag.15b
 3	παλλαγέντα	ἐναλλάσσω	n	n-s---ma-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	4	ADV	_	t_234|e_8|ref=Hyp. 2_frag.15b
-4	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Hyp. 2_frag.1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Hyp. 2_frag.15b
 5	;	;	u	u--------	_	4	AuxK	_	t_235|e_8|ref=Hyp. 2_frag.15b
 
 # source = Hyperides, Hyp. 2_frag.15b
@@ -326,10 +326,10 @@
 24	μ	μ	d	d--------	_	7	ATR	_	t_259|t_242|ref=Hyp. 2_frag.15b
 25	βά	βαίνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ATR	_	t_260|t_242|ref=Hyp. 2_frag.15b
 26	νουσιν	νω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	7	ATR	_	t_261|t_242|ref=Hyp. 2_frag.15b
-27	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Hyp. 2_frag.1
+27	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=Hyp. 2_frag.15b
 28	;	;	u	u--------	_	27	AuxK	_	t_262|e_9|ref=Hyp. 2_frag.15b
 
-# source = Hyperides, Hyp. 2_frag.15b
+# source = Hyperides, Hyp. 2_frag.15b-frag.21
 # text = καὶ ὑμ ᾶς μὲν ἀ εὶ βούλεσθαι ἐν φ όβῳ καὶ κινδύνοις εἶν αι Frag [0] .
 # sent_id = 16
 1	καὶ	καί	d	d--------	_	16	AuxY	_	t_263|e_10|ref=Hyp. 2_frag.15b
@@ -346,36 +346,36 @@
 12	κινδύνοις	κίνδυνος	n	n-p---md-	Case=d|Gender=m|Number=p	11	PNOM	_	t_274|t_273|ref=Hyp. 2_frag.15b
 13	εἶν	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	7	OBJ	_	t_275|t_269|ref=Hyp. 2_frag.15b
 14	αι	αι	x	x--------	_	13	PNOM	_	t_276|t_275|ref=Hyp. 2_frag.15b
-15	Frag	fried	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_277|t_275|ref=Hyp. 2_frag.15b
-16	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Hyp. 2_frag.1
-17	.	.	u	u--------	_	16	AuxK	_	t_278|e_10|ref=Hyp. 2_frag.15b
+15	Frag	fried	n	n-s---mn-	Case=n|Gender=m|Number=s	13	PNOM	_	t_277|t_275|ref=Hyp. 2_frag.21
+16	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Hyp. 2_frag.21
+17	.	.	u	u--------	_	16	AuxK	_	t_278|e_10|ref=Hyp. 2_frag.21
 
-# source = Hyperides, Hyp. 2_frag.15b
+# source = Hyperides, Hyp. 2_frag.21
 # text = XXI εὐτελὴς τὸ σῶμα διὰ λεπτότητα [0] .
 # sent_id = 17
-1	XXI	xx	d	d--------	_	7	ADV	_	t_279|e_11|ref=Hyp. 2_frag.15b
-2	εὐτελὴς	εὐτελής	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_280|e_11|ref=Hyp. 2_frag.15b
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_281|t_282|ref=Hyp. 2_frag.15b
-4	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_282|e_11|ref=Hyp. 2_frag.15b
-5	διὰ	διά	r	r--------	_	7	AuxP	_	t_283|e_11|ref=Hyp. 2_frag.15b
-6	λεπτότητα	παχύτης	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_284|t_283|ref=Hyp. 2_frag.15b
-7	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Hyp. 2_frag.1
-8	.	.	u	u--------	_	7	AuxK	_	t_285|e_11|ref=Hyp. 2_frag.15b
+1	XXI	xx	d	d--------	_	7	ADV	_	t_279|e_11|ref=Hyp. 2_frag.21
+2	εὐτελὴς	εὐτελής	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_280|e_11|ref=Hyp. 2_frag.21
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_281|t_282|ref=Hyp. 2_frag.21
+4	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_282|e_11|ref=Hyp. 2_frag.21
+5	διὰ	διά	r	r--------	_	7	AuxP	_	t_283|e_11|ref=Hyp. 2_frag.21
+6	λεπτότητα	παχύτης	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ADV	_	t_284|t_283|ref=Hyp. 2_frag.21
+7	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Hyp. 2_frag.21
+8	.	.	u	u--------	_	7	AuxK	_	t_285|e_11|ref=Hyp. 2_frag.21
 
-# source = Hyperides, Hyp. 2_frag.21-1
+# source = Hyperides, Hyp. 2_1
 # text = κατηγορίας ποιοῦνται , καὶ φανερὸν ποιοῦσιν ὅτι οὐ δὲ τότε φίλοι ὄντες Λακεδαιμονίων ὑπὲρ ἐκείνων ἔλεγον , ἀλλὰ τὴν πόλιν μισοῦντες καὶ τοὺς ἰσχύοντας ἀ εὶ καθʼ ὑμῶν θεραπεύοντες .
 # sent_id = 18
-1	κατηγορίας	κατηγορία	n	n-p---fa-	Case=a|Gender=f|Number=p	2	OBJ	_	t_286|t_287|ref=Hyp. 2_frag.21
-2	ποιοῦνται	ποιέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	4	PRED	_	t_287|t_289|ref=Hyp. 2_frag.15b
-3	,	,	u	u--------	_	0	AuxX	_	t_288|0|ref=Hyp. 2_frag.21
-4	καὶ	καί	c	c--------	_	3	COORD	_	t_289|t_288|ref=Hyp. 2_frag.21
-5	φανερὸν	φανερός	a	a-s---na-	Case=a|Gender=n|Number=s	6	OCOMP	_	t_290|t_291|ref=Hyp. 2_frag.21
-6	ποιοῦσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	4	PRED	_	t_291|t_289|ref=Hyp. 2_frag.21
-7	ὅτι	ὅτι	c	c--------	_	6	AuxC	_	t_292|t_291|ref=Hyp. 2_frag.21
-8	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_293|t_297|ref=Hyp. 2_frag.21
-9	δὲ	δέ	d	d--------	_	8	AuxZ	_	t_294|t_293|ref=Hyp. 2_frag.21
-10	τότε	τότε	d	d--------	_	16	ADV	_	t_295|t_301|ref=Hyp. 2_frag.15b
-11	φίλοι	φίλος	n	n-p---mn-	Case=n|Gender=m|Number=p	12	PNOM	_	t_296|t_297|ref=Hyp. 2_frag.21
+1	κατηγορίας	κατηγορία	n	n-p---fa-	Case=a|Gender=f|Number=p	2	OBJ	_	t_286|t_287|ref=Hyp. 2_1
+2	ποιοῦνται	ποιέω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	4	PRED	_	t_287|t_289|ref=Hyp. 2_1
+3	,	,	u	u--------	_	0	AuxX	_	t_288|0|ref=Hyp. 2_1
+4	καὶ	καί	c	c--------	_	3	COORD	_	t_289|t_288|ref=Hyp. 2_1
+5	φανερὸν	φανερός	a	a-s---na-	Case=a|Gender=n|Number=s	6	OCOMP	_	t_290|t_291|ref=Hyp. 2_1
+6	ποιοῦσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	4	PRED	_	t_291|t_289|ref=Hyp. 2_1
+7	ὅτι	ὅτι	c	c--------	_	6	AuxC	_	t_292|t_291|ref=Hyp. 2_1
+8	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_293|t_297|ref=Hyp. 2_1
+9	δὲ	δέ	d	d--------	_	8	AuxZ	_	t_294|t_293|ref=Hyp. 2_1
+10	τότε	τότε	d	d--------	_	16	ADV	_	t_295|t_301|ref=Hyp. 2_1
+11	φίλοι	φίλος	n	n-p---mn-	Case=n|Gender=m|Number=p	12	PNOM	_	t_296|t_297|ref=Hyp. 2_1
 12	ὄντες	εἰμί	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	ADV	_	t_297|t_303|ref=Hyp. 2_1
 13	Λακεδαιμονίων	λακεδαιμόνιος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_298|t_296|ref=Hyp. 2_1
 14	ὑπὲρ	ὑπέρ	r	r--------	_	16	AuxP	_	t_299|t_301|ref=Hyp. 2_1
@@ -396,20 +396,20 @@
 29	θεραπεύοντες	θεραπεύω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	22	ADV	_	t_314|t_307|ref=Hyp. 2_1
 30	.	.	u	u--------	_	3	AuxK	_	t_315|t_288|ref=Hyp. 2_1
 
-# source = Hyperides, Hyp. 2_1-2
+# source = Hyperides, Hyp. 2_2
 # text = ἐπεὶ δὲ νῦν ἡ ἐκείνων δύναμις εἰς τοῦτ ον μετέστη , τότε δ ὴ κο λακεύειν προείλον το ·
 # sent_id = 19
-1	ἐπεὶ	ἐπεί	c	c--------	_	17	AuxC	_	t_316|t_332|ref=Hyp. 2_1
-2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_317|t_332|ref=Hyp. 2_1
-3	νῦν	νῦν	d	d--------	_	10	ADV	_	t_318|t_325|ref=Hyp. 2_1
-4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_319|t_321|ref=Hyp. 2_1
-5	ἐκείνων	ἐκεῖνος	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_320|t_321|ref=Hyp. 2_1
-6	δύναμις	δύναμις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_321|t_325|ref=Hyp. 2_1
-7	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_322|t_325|ref=Hyp. 2_1
-8	τοῦτ	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_323|t_322|ref=Hyp. 2_1
-9	ον	ον	a	a-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_324|t_322|ref=Hyp. 2_1
-10	μετέστη	μεθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_325|t_316|ref=Hyp. 2_1
-11	,	,	u	u--------	_	17	AuxX	_	t_326|t_332|ref=Hyp. 2_1
+1	ἐπεὶ	ἐπεί	c	c--------	_	17	AuxC	_	t_316|t_332|ref=Hyp. 2_2
+2	δὲ	δέ	d	d--------	_	17	AuxY	_	t_317|t_332|ref=Hyp. 2_2
+3	νῦν	νῦν	d	d--------	_	10	ADV	_	t_318|t_325|ref=Hyp. 2_2
+4	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	6	ATR	_	t_319|t_321|ref=Hyp. 2_2
+5	ἐκείνων	ἐκεῖνος	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_320|t_321|ref=Hyp. 2_2
+6	δύναμις	δύναμις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_321|t_325|ref=Hyp. 2_2
+7	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_322|t_325|ref=Hyp. 2_2
+8	τοῦτ	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_323|t_322|ref=Hyp. 2_2
+9	ον	ον	a	a-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_324|t_322|ref=Hyp. 2_2
+10	μετέστη	μεθίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	1	ADV	_	t_325|t_316|ref=Hyp. 2_2
+11	,	,	u	u--------	_	17	AuxX	_	t_326|t_332|ref=Hyp. 2_2
 12	τότε	τότε	d	d--------	_	17	ADV	_	t_327|t_332|ref=Hyp. 2_2
 13	δ	δ	d	d--------	_	17	AuxY	_	t_328|t_332|ref=Hyp. 2_2
 14	ὴ	ή	d	d--------	_	17	AuxY	_	t_329|t_332|ref=Hyp. 2_2
@@ -498,28 +498,28 @@
 19	οὐδέν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_404|t_397|ref=Hyp. 2_2
 20	·	·	u	u--------	_	11	AuxK	_	t_405|t_396|ref=Hyp. 2_2
 
-# source = Hyperides, Hyp. 2_2
+# source = Hyperides, Hyp. 2_3
 # text = διὰ τί [0] ;
 # sent_id = 22
-1	διὰ	διά	r	r--------	_	3	AuxP	_	t_406|e_12|ref=Hyp. 2_2
-2	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_407|t_406|ref=Hyp. 2_2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Hyp. 2_frag.1
-4	;	;	u	u--------	_	3	AuxK	_	t_408|e_12|ref=Hyp. 2_2
+1	διὰ	διά	r	r--------	_	3	AuxP	_	t_406|e_12|ref=Hyp. 2_3
+2	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_407|t_406|ref=Hyp. 2_3
+3	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Hyp. 2_3
+4	;	;	u	u--------	_	3	AuxK	_	t_408|e_12|ref=Hyp. 2_3
 
-# source = Hyperides, Hyp. 2_2-3
+# source = Hyperides, Hyp. 2_3
 # text = ὅτι πρ ῶτον μὲν οὐ παρʼ ἑτέρου σʼ ἔδει μαθεῖν ὅτι ὁ δῆμος χάριτας ἀποδίδωσιν τοῖς εὐεργέταις , ἀλλὰ παρὰ σαυτοῦ [0] ·
 # sent_id = 23
-1	ὅτι	ὅτι	c	c--------	_	22	AuxC	_	t_409|e_13|ref=Hyp. 2_2
-2	πρ	πρ	a	a-s---na-	_	9	ADV	_	t_410|t_417|ref=Hyp. 2_2
-3	ῶτον	ῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_411|t_417|ref=Hyp. 2_2
-4	μὲν	μέν	d	d--------	_	9	AuxY	_	t_412|t_417|ref=Hyp. 2_2
-5	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_413|t_415|ref=Hyp. 2_2
-6	παρʼ	παρά	r	r--------	_	19	AuxP	_	t_414|t_427|ref=Hyp. 2_2
-7	ἑτέρου	ἕτερος	a	a-s---mg-	Case=g|Gender=n|Number=s	6	ADV	_	t_415|t_414|ref=Hyp. 2_2
-8	σʼ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	10	SBJ	_	t_416|t_418|ref=Hyp. 2_2
+1	ὅτι	ὅτι	c	c--------	_	22	AuxC	_	t_409|e_13|ref=Hyp. 2_3
+2	πρ	πρ	a	a-s---na-	_	9	ADV	_	t_410|t_417|ref=Hyp. 2_3
+3	ῶτον	ῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_411|t_417|ref=Hyp. 2_3
+4	μὲν	μέν	d	d--------	_	9	AuxY	_	t_412|t_417|ref=Hyp. 2_3
+5	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_413|t_415|ref=Hyp. 2_3
+6	παρʼ	παρά	r	r--------	_	19	AuxP	_	t_414|t_427|ref=Hyp. 2_3
+7	ἑτέρου	ἕτερος	a	a-s---mg-	Case=g|Gender=n|Number=s	6	ADV	_	t_415|t_414|ref=Hyp. 2_3
+8	σʼ	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	10	SBJ	_	t_416|t_418|ref=Hyp. 2_3
 9	ἔδει	δεῖ	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	1	OBJ	_	t_417|t_409|ref=Hyp. 2_3
 10	μαθεῖν	μανθάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	SBJ	_	t_418|t_417|ref=Hyp. 2_3
-11	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_419|t_418|ref=Hyp. 2_2
+11	ὅτι	ὅτι	c	c--------	_	10	AuxC	_	t_419|t_418|ref=Hyp. 2_3
 12	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_420|t_421|ref=Hyp. 2_3
 13	δῆμος	δῆμος	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_421|t_423|ref=Hyp. 2_3
 14	χάριτας	χάρις	n	n-p---fa-	Case=a|Gender=f|Number=p	15	OBJ	_	t_422|t_423|ref=Hyp. 2_3
@@ -530,7 +530,7 @@
 19	ἀλλὰ	ἀλλά	c	c--------	_	15	COORD	_	t_427|t_423|ref=Hyp. 2_3
 20	παρὰ	παρά	r	r--------	_	19	AuxP	_	t_428|t_427|ref=Hyp. 2_3
 21	σαυτοῦ	σεαυτοῦ	p	p-s---mg-	Case=g|Gender=m|Number=s	20	ADV	_	t_429|t_428|ref=Hyp. 2_3
-22	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Hyp. 2_frag.1
+22	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Hyp. 2_3
 23	·	·	u	u--------	_	22	AuxK	_	t_430|e_13|ref=Hyp. 2_3
 
 # source = Hyperides, Hyp. 2_3
@@ -614,26 +614,26 @@
 28	κακ	κακός	d	d--------	_	30	ADV	_	t_498|t_500|ref=Hyp. 2_3
 29	ῶς	ώς	d	d--------	_	30	ADV	_	t_499|t_500|ref=Hyp. 2_3
 30	λέγεις	λέγω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	24	ADV	_	t_500|t_494|ref=Hyp. 2_3
-31	[0]	[0]	-	---------	_	24	ADV	_	e_14|t_494|ref=Hyp. 2_frag.1
+31	[0]	[0]	-	---------	_	24	ADV	_	e_14|t_494|ref=Hyp. 2_3
 32	.	.	u	u--------	_	5	AuxK	_	t_501|t_475|ref=Hyp. 2_3
 
-# source = Hyperides, Hyp. 2_3-4
+# source = Hyperides, Hyp. 2_4
 # text = Βρ αχέα δʼ ἔτι πρὸς ὑμᾶς εἰπών , ὦ ἄνδρες δικασταί , καὶ ἀναλογισάμενος , κα ταβ ήσομαι .
 # sent_id = 27
-1	Βρ	βρ	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_502|t_508|ref=Hyp. 2_3
-2	αχέα	αχέα	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_503|t_508|ref=Hyp. 2_3
-3	δʼ	δέ	d	d--------	_	18	AuxY	_	t_504|t_519|ref=Hyp. 2_3
-4	ἔτι	ἔτι	d	d--------	_	7	ADV	_	t_505|t_508|ref=Hyp. 2_3
-5	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_506|t_508|ref=Hyp. 2_3
-6	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_507|t_506|ref=Hyp. 2_3
-7	εἰπών	εἶπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_508|t_514|ref=Hyp. 2_3
-8	,	,	u	u--------	_	18	AuxX	_	t_509|t_519|ref=Hyp. 2_3
-9	ὦ	ὦ	i	i--------	_	10	AuxZ	_	t_510|t_511|ref=Hyp. 2_3
-10	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	18	ExD	_	t_511|t_519|ref=Hyp. 2_3
-11	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	10	ATR	_	t_512|t_511|ref=Hyp. 2_3
-12	,	,	u	u--------	_	18	AuxX	_	t_513|t_519|ref=Hyp. 2_3
-13	καὶ	καί	c	c--------	_	18	COORD	_	t_514|t_519|ref=Hyp. 2_3
-14	ἀναλογισάμενος	ἀναλογίζομαι	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	13	ADV	_	t_515|t_514|ref=Hyp. 2_3
+1	Βρ	βρ	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_502|t_508|ref=Hyp. 2_4
+2	αχέα	αχέα	a	a-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_503|t_508|ref=Hyp. 2_4
+3	δʼ	δέ	d	d--------	_	18	AuxY	_	t_504|t_519|ref=Hyp. 2_4
+4	ἔτι	ἔτι	d	d--------	_	7	ADV	_	t_505|t_508|ref=Hyp. 2_4
+5	πρὸς	πρός	r	r--------	_	7	AuxP	_	t_506|t_508|ref=Hyp. 2_4
+6	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_507|t_506|ref=Hyp. 2_4
+7	εἰπών	εἶπον	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_508|t_514|ref=Hyp. 2_4
+8	,	,	u	u--------	_	18	AuxX	_	t_509|t_519|ref=Hyp. 2_4
+9	ὦ	ὦ	i	i--------	_	10	AuxZ	_	t_510|t_511|ref=Hyp. 2_4
+10	ἄνδρες	ἀνήρ	n	n-p---mv-	Case=v|Gender=m|Number=p	18	ExD	_	t_511|t_519|ref=Hyp. 2_4
+11	δικασταί	δικαστής	n	n-p---mv-	Case=v|Gender=m|Number=p	10	ATR	_	t_512|t_511|ref=Hyp. 2_4
+12	,	,	u	u--------	_	18	AuxX	_	t_513|t_519|ref=Hyp. 2_4
+13	καὶ	καί	c	c--------	_	18	COORD	_	t_514|t_519|ref=Hyp. 2_4
+14	ἀναλογισάμενος	ἀναλογίζομαι	v	v-sapemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=e	13	ADV	_	t_515|t_514|ref=Hyp. 2_4
 15	,	,	u	u--------	_	18	AuxX	_	t_516|t_519|ref=Hyp. 2_4
 16	κα	καί	d	d--------	_	18	AuxZ	_	t_517|t_519|ref=Hyp. 2_4
 17	ταβ	ταβ	v	v1sfia---	Case=v|Gender=m|Number=s	18	OBJ	_	t_518|t_519|ref=Hyp. 2_4
@@ -668,7 +668,7 @@
 5	κρινόμενον	κρίνω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	3	ATR	_	t_539|t_537|ref=Hyp. 2_4
 6	ἔπαινος	ἔπαινος	n	n-s---mn-	Case=n|Gender=m|Number=s	8	PNOM	_	t_540|e_15|ref=Hyp. 2_4
 7	προέδρων	πρόεδρος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_541|t_540|ref=Hyp. 2_4
-8	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Hyp. 2_frag.1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Hyp. 2_4
 9	.	.	u	u--------	_	8	AuxK	_	t_542|e_15|ref=Hyp. 2_4
 
 # source = Hyperides, Hyp. 2_4
@@ -698,28 +698,28 @@
 22	ἀναγιγνωσκομένων	ἀναγιγνώσκω	v	v-pppemg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	21	OBJ	_	t_564|t_563|ref=Hyp. 2_4
 23	.	.	u	u--------	_	21	AuxK	_	t_565|t_563|ref=Hyp. 2_4
 
-# source = Hyperides, Hyp. 2_4
+# source = Hyperides, Hyp. 2_5
 # text = τὸ λοιπὸν ἤδη ἐστὶν παρʼ ὑμῖν ·
 # sent_id = 31
-1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_566|t_567|ref=Hyp. 2_4
-2	λοιπὸν	λοιπός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_567|t_569|ref=Hyp. 2_4
-3	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_568|t_569|ref=Hyp. 2_4
-4	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_569|0|ref=Hyp. 2_4
-5	παρʼ	παρά	r	r--------	_	4	AuxP	_	t_570|t_569|ref=Hyp. 2_4
-6	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	5	PNOM	_	t_571|t_570|ref=Hyp. 2_4
-7	·	·	u	u--------	_	4	AuxK	_	t_572|t_569|ref=Hyp. 2_4
+1	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	2	ATR	_	t_566|t_567|ref=Hyp. 2_5
+2	λοιπὸν	λοιπός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_567|t_569|ref=Hyp. 2_5
+3	ἤδη	ἤδη	d	d--------	_	4	ADV	_	t_568|t_569|ref=Hyp. 2_5
+4	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_569|0|ref=Hyp. 2_5
+5	παρʼ	παρά	r	r--------	_	4	AuxP	_	t_570|t_569|ref=Hyp. 2_5
+6	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	5	PNOM	_	t_571|t_570|ref=Hyp. 2_5
+7	·	·	u	u--------	_	4	AuxK	_	t_572|t_569|ref=Hyp. 2_5
 
-# source = Hyperides, Hyp. 2_4-5
+# source = Hyperides, Hyp. 2_5
 # text = δείξετε γὰρ πότερα τοὺς παράνομα γράφοντας τ ιμ ωρήσεσθε , ἢ τὰς τοῖς εὐε ργέ ταις ἀποδεδειγμένας τι μὰς ταύτας δώσετε το ῖς ἐναντία τοῖς νόμοι ς πρ οεδρεύουσιν , καὶ ταῦτα ὀμωμοκότες κατὰ τοὺς νόμους ψηφιεῖσθαι .
 # sent_id = 32
-1	δείξετε	δείκνυμι	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	0	PRED	_	t_573|0|ref=Hyp. 2_4
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_574|t_573|ref=Hyp. 2_4
-3	πότερα	πότερος	a	a-p---na-	Case=a|Gender=n|Number=p	11	AuxY	_	t_575|t_583|ref=Hyp. 2_4
-4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_576|t_578|ref=Hyp. 2_4
-5	παράνομα	παράνομος	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_577|t_578|ref=Hyp. 2_4
-6	γράφοντας	γράφω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	OBJ	_	t_578|t_579|ref=Hyp. 2_4
-7	τ	ὁ	v	v2pfia---	_	11	OBJ	_	t_579|t_583|ref=Hyp. 2_4
-8	ιμ	ιμ	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	11	OBJ	_	t_580|t_583|ref=Hyp. 2_4
+1	δείξετε	δείκνυμι	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	0	PRED	_	t_573|0|ref=Hyp. 2_5
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_574|t_573|ref=Hyp. 2_5
+3	πότερα	πότερος	a	a-p---na-	Case=a|Gender=n|Number=p	11	AuxY	_	t_575|t_583|ref=Hyp. 2_5
+4	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_576|t_578|ref=Hyp. 2_5
+5	παράνομα	παράνομος	a	a-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_577|t_578|ref=Hyp. 2_5
+6	γράφοντας	γράφω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	7	OBJ	_	t_578|t_579|ref=Hyp. 2_5
+7	τ	ὁ	v	v2pfia---	_	11	OBJ	_	t_579|t_583|ref=Hyp. 2_5
+8	ιμ	ιμ	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	11	OBJ	_	t_580|t_583|ref=Hyp. 2_5
 9	ωρήσεσθε	ωρέομαι	v	v2pfim---	Mood=i|Number=p|Person=2|Tense=f|Voice=m	11	OBJ	_	t_581|t_583|ref=Hyp. 2_5
 10	,	,	u	u--------	_	1	AuxX	_	t_582|t_573|ref=Hyp. 2_5
 11	ἢ	ἤ1	c	c--------	_	1	COORD	_	t_583|t_573|ref=Hyp. 2_5
@@ -801,24 +801,24 @@
 13	στεφανῶσαι	στεφανόω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	SBJ	_	t_651|t_650|ref=Hyp. 2_5
 14	.	.	u	u--------	_	7	AuxK	_	t_652|t_645|ref=Hyp. 2_5
 
-# source = Hyperides, Hyp. 2_5-6
+# source = Hyperides, Hyp. 2_6
 # text = πρὸ ς δ ὲ τούτοις αὐτὸς ὑμῖν ο ὗ τος ῥᾳδίαν πεποίηκ εν τὴν γνῶσιν ·
 # sent_id = 35
-1	πρὸ	πρό	r	r--------	_	12	AuxP	_	t_653|t_664|ref=Hyp. 2_5
-2	ς	ς	r	r--------	_	12	AuxP	_	t_654|t_664|ref=Hyp. 2_5
-3	δ	δ	d	d--------	_	12	AuxY	_	t_655|t_664|ref=Hyp. 2_5
-4	ὲ	ὲ	d	d--------	_	12	AuxY	_	t_656|t_664|ref=Hyp. 2_5
-5	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_657|t_654|ref=Hyp. 2_5
-6	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_658|t_661|ref=Hyp. 2_5
-7	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_659|t_664|ref=Hyp. 2_5
-8	ο	ο	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_660|t_664|ref=Hyp. 2_5
-9	ὗ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_661|t_664|ref=Hyp. 2_5
-10	τος	τος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_662|t_661|ref=Hyp. 2_5
-11	ῥᾳδίαν	ῥᾴδιος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_663|t_664|ref=Hyp. 2_5
-12	πεποίηκ	ποιέω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_664|0|ref=Hyp. 2_5
-13	εν	ἐν	r	r--------	_	12	AuxP	_	t_665|t_664|ref=Hyp. 2_5
-14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_666|t_667|ref=Hyp. 2_5
-15	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_667|t_665|ref=Hyp. 2_5
+1	πρὸ	πρό	r	r--------	_	12	AuxP	_	t_653|t_664|ref=Hyp. 2_6
+2	ς	ς	r	r--------	_	12	AuxP	_	t_654|t_664|ref=Hyp. 2_6
+3	δ	δ	d	d--------	_	12	AuxY	_	t_655|t_664|ref=Hyp. 2_6
+4	ὲ	ὲ	d	d--------	_	12	AuxY	_	t_656|t_664|ref=Hyp. 2_6
+5	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_657|t_654|ref=Hyp. 2_6
+6	αὐτὸς	αὐτός	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_658|t_661|ref=Hyp. 2_6
+7	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_659|t_664|ref=Hyp. 2_6
+8	ο	ο	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_660|t_664|ref=Hyp. 2_6
+9	ὗ	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_661|t_664|ref=Hyp. 2_6
+10	τος	τος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_662|t_661|ref=Hyp. 2_6
+11	ῥᾳδίαν	ῥᾴδιος	a	a-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_663|t_664|ref=Hyp. 2_6
+12	πεποίηκ	ποιέω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_664|0|ref=Hyp. 2_6
+13	εν	ἐν	r	r--------	_	12	AuxP	_	t_665|t_664|ref=Hyp. 2_6
+14	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	15	ATR	_	t_666|t_667|ref=Hyp. 2_6
+15	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	13	ADV	_	t_667|t_665|ref=Hyp. 2_6
 16	·	·	u	u--------	_	12	AuxK	_	t_668|t_664|ref=Hyp. 2_6
 
 # source = Hyperides, Hyp. 2_6
@@ -899,24 +899,24 @@
 35	ἀπόφευγε	ἀποφεύγω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	11	PRED	_	t_737|t_713|ref=Hyp. 2_6
 36	.	.	u	u--------	_	10	AuxK	_	t_738|t_712|ref=Hyp. 2_6
 
-# source = Hyperides, Hyp. 2_6-7
+# source = Hyperides, Hyp. 2_7
 # text = εἰ δʼ ο ἴει κορδακίζων καὶ γελ ωτ οποιῶν , ὅπερ ποι εῖν εἴωθας , ἐπὶ τῶν δικαστη ρί ων ἀποφεύξεσθαι , ε ὐήθ ης εἶ , ἢ παρὰ τούτ ο ις συγγνώμην ἢ ἔ λεόν τινα παρὰ τὸ δίκαι ον ὑπ άρ χ ειν .
 # sent_id = 38
-1	εἰ	εἰ	c	c--------	_	26	AuxC	_	t_739|t_764|ref=Hyp. 2_6
-2	δʼ	δέ	d	d--------	_	26	AuxY	_	t_740|t_764|ref=Hyp. 2_6
-3	ο	ο	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	1	ADV	_	t_741|t_739|ref=Hyp. 2_6
-4	ἴει	εἶμι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	1	ADV	_	t_742|t_739|ref=Hyp. 2_6
-5	κορδακίζων	κορδακίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_743|t_744|ref=Hyp. 2_6
-6	καὶ	καί	c	c--------	_	4	COORD	_	t_744|t_742|ref=Hyp. 2_6
-7	γελ	γε	a	a-p---na-	Case=a|Gender=m|Number=s	6	ADV	_	t_745|t_744|ref=Hyp. 2_6
-8	ωτ	ωτ	a	a-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_746|t_747|ref=Hyp. 2_6
-9	οποιῶν	ποιέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_747|t_744|ref=Hyp. 2_6
-10	,	,	u	u--------	_	26	AuxX	_	t_748|t_764|ref=Hyp. 2_6
-11	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_749|t_751|ref=Hyp. 2_6
-12	ποι	ποι	d	d--------	_	13	ADV	_	t_750|t_751|ref=Hyp. 2_6
-13	εῖν	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_751|t_752|ref=Hyp. 2_6
-14	εἴωθας	ἔθω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	9	OBJ	_	t_752|t_747|ref=Hyp. 2_6
-15	,	,	u	u--------	_	26	AuxX	_	t_753|t_764|ref=Hyp. 2_6
+1	εἰ	εἰ	c	c--------	_	26	AuxC	_	t_739|t_764|ref=Hyp. 2_7
+2	δʼ	δέ	d	d--------	_	26	AuxY	_	t_740|t_764|ref=Hyp. 2_7
+3	ο	ο	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	1	ADV	_	t_741|t_739|ref=Hyp. 2_7
+4	ἴει	εἶμι	v	v2spie---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	1	ADV	_	t_742|t_739|ref=Hyp. 2_7
+5	κορδακίζων	κορδακίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_743|t_744|ref=Hyp. 2_7
+6	καὶ	καί	c	c--------	_	4	COORD	_	t_744|t_742|ref=Hyp. 2_7
+7	γελ	γε	a	a-p---na-	Case=a|Gender=m|Number=s	6	ADV	_	t_745|t_744|ref=Hyp. 2_7
+8	ωτ	ωτ	a	a-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_746|t_747|ref=Hyp. 2_7
+9	οποιῶν	ποιέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	6	ADV	_	t_747|t_744|ref=Hyp. 2_7
+10	,	,	u	u--------	_	26	AuxX	_	t_748|t_764|ref=Hyp. 2_7
+11	ὅπερ	ὅσπερ	p	p-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_749|t_751|ref=Hyp. 2_7
+12	ποι	ποι	d	d--------	_	13	ADV	_	t_750|t_751|ref=Hyp. 2_7
+13	εῖν	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_751|t_752|ref=Hyp. 2_7
+14	εἴωθας	ἔθω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	9	OBJ	_	t_752|t_747|ref=Hyp. 2_7
+15	,	,	u	u--------	_	26	AuxX	_	t_753|t_764|ref=Hyp. 2_7
 16	ἐπὶ	ἐπί	r	r--------	_	21	AuxP	_	t_754|t_759|ref=Hyp. 2_7
 17	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_755|t_756|ref=Hyp. 2_7
 18	δικαστη	δικαστη	n	n-p---ng-	Case=g|Gender=n|Number=p	16	ADV	_	t_756|t_754|ref=Hyp. 2_7
@@ -992,24 +992,24 @@
 29	ὄντας	εἰμί	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	24	OBJ	_	t_818|t_813|ref=Hyp. 2_7
 30	.	.	u	u--------	_	10	AuxK	_	t_819|t_799|ref=Hyp. 2_7
 
-# source = Hyperides, Hyp. 2_7-8
+# source = Hyperides, Hyp. 2_8
 # text = καὶ ἓν μὲν σῶμα ἀθάνατον ὑπ είλη φας ἔσεσθαι , πόλεως δὲ τηλικαύτης θάνατον κατέγνως , οὐ δʼ ἐκεῖνο συνιδών , ὅτι τῶν μὲν τυράννων οὐδεὶς πώποτε τελευτήσας ἀνεβίωσεν , πόλεις δὲ πολλαὶ ἄρδην ἀναιρεθεῖσαι πάλιν ἴσχυσαν .
 # sent_id = 41
-1	καὶ	καί	d	d--------	_	12	AuxY	_	t_820|t_831|ref=Hyp. 2_7
-2	ἓν	εἷς	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_821|t_823|ref=Hyp. 2_7
-3	μὲν	μέν	d	d--------	_	12	AuxY	_	t_822|t_831|ref=Hyp. 2_7
-4	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	9	SBJ	_	t_823|t_828|ref=Hyp. 2_7
-5	ἀθάνατον	ἀθάνατος	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_824|t_828|ref=Hyp. 2_7
-6	ὑπ	ὑπό	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_825|t_831|ref=Hyp. 2_7
-7	είλη	είλη	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	12	PRED	_	t_826|t_831|ref=Hyp. 2_7
-8	φας	φημί	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	6	ADV	_	t_827|t_825|ref=Hyp. 2_7
-9	ἔσεσθαι	εἰμί	v	v--fnm---	Mood=n|Tense=f|Voice=m	8	OBJ	_	t_828|t_827|ref=Hyp. 2_7
-10	,	,	u	u--------	_	0	AuxX	_	t_829|0|ref=Hyp. 2_7
-11	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_830|t_833|ref=Hyp. 2_7
-12	δὲ	δέ	c	c--------	_	10	COORD	_	t_831|t_829|ref=Hyp. 2_7
-13	τηλικαύτης	τηλικοῦτος	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_832|t_830|ref=Hyp. 2_7
-14	θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_833|t_834|ref=Hyp. 2_7
-15	κατέγνως	καταγιγνώσκω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_834|t_831|ref=Hyp. 2_7
+1	καὶ	καί	d	d--------	_	12	AuxY	_	t_820|t_831|ref=Hyp. 2_8
+2	ἓν	εἷς	a	a-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_821|t_823|ref=Hyp. 2_8
+3	μὲν	μέν	d	d--------	_	12	AuxY	_	t_822|t_831|ref=Hyp. 2_8
+4	σῶμα	σῶμα	n	n-s---na-	Case=a|Gender=n|Number=s	9	SBJ	_	t_823|t_828|ref=Hyp. 2_8
+5	ἀθάνατον	ἀθάνατος	a	a-s---na-	Case=a|Gender=n|Number=s	9	PNOM	_	t_824|t_828|ref=Hyp. 2_8
+6	ὑπ	ὑπό	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_825|t_831|ref=Hyp. 2_8
+7	είλη	είλη	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	12	PRED	_	t_826|t_831|ref=Hyp. 2_8
+8	φας	φημί	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	6	ADV	_	t_827|t_825|ref=Hyp. 2_8
+9	ἔσεσθαι	εἰμί	v	v--fnm---	Mood=n|Tense=f|Voice=m	8	OBJ	_	t_828|t_827|ref=Hyp. 2_8
+10	,	,	u	u--------	_	0	AuxX	_	t_829|0|ref=Hyp. 2_8
+11	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ATR	_	t_830|t_833|ref=Hyp. 2_8
+12	δὲ	δέ	c	c--------	_	10	COORD	_	t_831|t_829|ref=Hyp. 2_8
+13	τηλικαύτης	τηλικοῦτος	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_832|t_830|ref=Hyp. 2_8
+14	θάνατον	θάνατος	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_833|t_834|ref=Hyp. 2_8
+15	κατέγνως	καταγιγνώσκω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	12	PRED	_	t_834|t_831|ref=Hyp. 2_8
 16	,	,	u	u--------	_	10	AuxX	_	t_835|t_829|ref=Hyp. 2_8
 17	οὐ	οὐ	d	d--------	_	20	AuxZ	_	t_836|t_839|ref=Hyp. 2_8
 18	δʼ	δέ	d	d--------	_	17	AuxZ	_	t_837|t_836|ref=Hyp. 2_8
@@ -1077,24 +1077,24 @@
 38	δήμου	δῆμος	n	n-s---mg-	Case=g|Gender=m|Number=s	36	ADV	_	t_895|t_893|ref=Hyp. 2_8
 39	.	.	u	u--------	_	8	AuxK	_	t_896|t_865|ref=Hyp. 2_8
 
-# source = Hyperides, Hyp. 2_8-9
+# source = Hyperides, Hyp. 2_9
 # text = εἶτα περὶ καιρῶν αὐτίκα δὴ τολμήσετε λέγειν τοὺς κατὰ τῆς πόλεως καιροὺς [ οὐ ] παραφυλάξαντες ;
 # sent_id = 43
-1	εἶτα	εἶτα	d	d--------	_	6	AuxY	_	t_897|t_902|ref=Hyp. 2_8
-2	περὶ	περί	r	r--------	_	7	AuxP	_	t_898|t_903|ref=Hyp. 2_8
-3	καιρῶν	καιρός	n	n-p---mg-	Case=g|Gender=m|Number=p	2	ADV	_	t_899|t_898|ref=Hyp. 2_8
-4	αὐτίκα	αὐτίκα	d	d--------	_	6	ADV	_	t_900|t_902|ref=Hyp. 2_8
-5	δὴ	δή	d	d--------	_	6	AuxY	_	t_901|t_902|ref=Hyp. 2_8
-6	τολμήσετε	τολμάω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	0	PRED	_	t_902|0|ref=Hyp. 2_8
-7	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_903|t_902|ref=Hyp. 2_8
-8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_904|t_908|ref=Hyp. 2_8
-9	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_905|t_908|ref=Hyp. 2_8
-10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_906|t_907|ref=Hyp. 2_8
-11	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_907|t_905|ref=Hyp. 2_8
-12	καιροὺς	καιρός	n	n-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_908|t_912|ref=Hyp. 2_8
-13	[	[	u	u--------	_	6	AuxG	_	t_909|t_902|ref=Hyp. 2_8
-14	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_910|t_912|ref=Hyp. 2_8
-15	]	]	u	u--------	_	6	AuxX	_	t_911|t_902|ref=Hyp. 2_8
+1	εἶτα	εἶτα	d	d--------	_	6	AuxY	_	t_897|t_902|ref=Hyp. 2_9
+2	περὶ	περί	r	r--------	_	7	AuxP	_	t_898|t_903|ref=Hyp. 2_9
+3	καιρῶν	καιρός	n	n-p---mg-	Case=g|Gender=m|Number=p	2	ADV	_	t_899|t_898|ref=Hyp. 2_9
+4	αὐτίκα	αὐτίκα	d	d--------	_	6	ADV	_	t_900|t_902|ref=Hyp. 2_9
+5	δὴ	δή	d	d--------	_	6	AuxY	_	t_901|t_902|ref=Hyp. 2_9
+6	τολμήσετε	τολμάω	v	v2pfia---	Mood=i|Number=p|Person=2|Tense=f|Voice=a	0	PRED	_	t_902|0|ref=Hyp. 2_9
+7	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_903|t_902|ref=Hyp. 2_9
+8	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	12	ATR	_	t_904|t_908|ref=Hyp. 2_9
+9	κατὰ	κατά	r	r--------	_	12	AuxP	_	t_905|t_908|ref=Hyp. 2_9
+10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_906|t_907|ref=Hyp. 2_9
+11	πόλεως	πόλις	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_907|t_905|ref=Hyp. 2_9
+12	καιροὺς	καιρός	n	n-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_908|t_912|ref=Hyp. 2_9
+13	[	[	u	u--------	_	6	AuxG	_	t_909|t_902|ref=Hyp. 2_9
+14	οὐ	οὐ	d	d--------	_	16	AuxZ	_	t_910|t_912|ref=Hyp. 2_9
+15	]	]	u	u--------	_	6	AuxX	_	t_911|t_902|ref=Hyp. 2_9
 16	παραφυλάξαντες	καταφυλάσσω	v	v-papamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=a	6	ADV	_	t_912|t_902|ref=Hyp. 2_9
 17	;	;	u	u--------	_	6	AuxK	_	t_913|t_902|ref=Hyp. 2_9
 
@@ -1126,7 +1126,7 @@
 1	ἀλλʼ	ἀλλά	d	d--------	_	4	AuxY	_	t_932|e_16|ref=Hyp. 2_9
 2	οὐ	οὐ	d	d--------	_	3	AuxZ	_	t_933|t_934|ref=Hyp. 2_9
 3	δίκαιον	δίκαιος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_934|e_16|ref=Hyp. 2_9
-4	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Hyp. 2_frag.1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Hyp. 2_9
 5	·	·	u	u--------	_	4	AuxK	_	t_935|e_16|ref=Hyp. 2_9
 
 # source = Hyperides, Hyp. 2_9
@@ -1182,34 +1182,34 @@
 26	τεύξῃ	τεύχω	v	v2sfim---	Mood=i|Number=s|Person=2|Tense=f|Voice=m	14	PRED	_	t_979|t_967|ref=Hyp. 2_9
 27	.	.	u	u--------	_	12	AuxK	_	t_980|t_965|ref=Hyp. 2_9
 
-# source = Hyperides, Hyp. 2_9
+# source = Hyperides, Hyp. 2_10
 # text = διὰ τί γὰρ ἂν τούτου φείσαισθε ;
 # sent_id = 48
-1	διὰ	διά	r	r--------	_	6	AuxP	_	t_981|t_986|ref=Hyp. 2_9
-2	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_982|t_981|ref=Hyp. 2_9
-3	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_983|t_986|ref=Hyp. 2_9
-4	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_984|t_986|ref=Hyp. 2_9
-5	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_985|t_982|ref=Hyp. 2_9
-6	φείσαισθε	φείδομαι	v	v2paom---	Mood=o|Number=p|Person=2|Tense=a|Voice=m	0	PRED	_	t_986|0|ref=Hyp. 2_9
-7	;	;	u	u--------	_	6	AuxK	_	t_987|t_986|ref=Hyp. 2_9
+1	διὰ	διά	r	r--------	_	6	AuxP	_	t_981|t_986|ref=Hyp. 2_10
+2	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	1	ADV	_	t_982|t_981|ref=Hyp. 2_10
+3	γὰρ	γάρ	d	d--------	_	6	AuxY	_	t_983|t_986|ref=Hyp. 2_10
+4	ἂν	ἄν	d	d--------	_	6	AuxY	_	t_984|t_986|ref=Hyp. 2_10
+5	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	2	ATR	_	t_985|t_982|ref=Hyp. 2_10
+6	φείσαισθε	φείδομαι	v	v2paom---	Mood=o|Number=p|Person=2|Tense=a|Voice=m	0	PRED	_	t_986|0|ref=Hyp. 2_10
+7	;	;	u	u--------	_	6	AuxK	_	t_987|t_986|ref=Hyp. 2_10
 
-# source = Hyperides, Hyp. 2_9
+# source = Hyperides, Hyp. 2_10
 # text = πότερα διότι δημοτικός ἐστιν [0] ;
 # sent_id = 49
-1	πότερα	πότερος	a	a-p---na-	Case=a|Gender=n|Number=p	4	AuxY	_	t_988|t_991|ref=Hyp. 2_9
-2	διότι	διότι	c	c--------	_	5	AuxC	_	t_989|e_17|ref=Hyp. 2_9
-3	δημοτικός	δημοτικός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_990|t_991|ref=Hyp. 2_9
-4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	OBJ	_	t_991|t_989|ref=Hyp. 2_9
-5	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Hyp. 2_frag.1
-6	;	;	u	u--------	_	5	AuxK	_	t_992|e_17|ref=Hyp. 2_9
+1	πότερα	πότερος	a	a-p---na-	Case=a|Gender=n|Number=p	4	AuxY	_	t_988|t_991|ref=Hyp. 2_10
+2	διότι	διότι	c	c--------	_	5	AuxC	_	t_989|e_17|ref=Hyp. 2_10
+3	δημοτικός	δημοτικός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_990|t_991|ref=Hyp. 2_10
+4	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	OBJ	_	t_991|t_989|ref=Hyp. 2_10
+5	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Hyp. 2_10
+6	;	;	u	u--------	_	5	AuxK	_	t_992|e_17|ref=Hyp. 2_10
 
-# source = Hyperides, Hyp. 2_9-10
+# source = Hyperides, Hyp. 2_10
 # text = ἀλλὰ ἴστʼ αὐτὸν τοῖς μὲν τυράννοις δουλεύειν προελόμενον , τῷ δὲ δήμῳ προστάττειν ἀξιοῦντα [0] .
 # sent_id = 50
-1	ἀλλὰ	ἀλλά	d	d--------	_	2	AuxY	_	t_993|t_994|ref=Hyp. 2_9
-2	ἴστʼ	οἶδα	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_994|0|ref=Hyp. 2_9
-3	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	11	SBJ	_	t_995|t_1003|ref=Hyp. 2_9
-4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_996|t_998|ref=Hyp. 2_9
+1	ἀλλὰ	ἀλλά	d	d--------	_	2	AuxY	_	t_993|t_994|ref=Hyp. 2_10
+2	ἴστʼ	οἶδα	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	0	PRED	_	t_994|0|ref=Hyp. 2_10
+3	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	11	SBJ	_	t_995|t_1003|ref=Hyp. 2_10
+4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_996|t_998|ref=Hyp. 2_10
 5	μὲν	μέν	d	d--------	_	11	AuxY	_	t_997|t_1003|ref=Hyp. 2_10
 6	τυράννοις	τύραννος	n	n-p---md-	Case=d|Gender=m|Number=p	7	OBJ	_	t_998|t_999|ref=Hyp. 2_10
 7	δουλεύειν	δουλεύω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_999|t_1000|ref=Hyp. 2_10
@@ -1220,16 +1220,16 @@
 12	δήμῳ	δῆμος	n	n-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_1004|t_1005|ref=Hyp. 2_10
 13	προστάττειν	προστάσσω	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_1005|t_1006|ref=Hyp. 2_10
 14	ἀξιοῦντα	ἀξιόω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	11	ADV	_	t_1006|t_1003|ref=Hyp. 2_10
-15	[0]	[0]	-	---------	_	2	OBJ	_	e_18|t_994|ref=Hyp. 2_frag.1
+15	[0]	[0]	-	---------	_	2	OBJ	_	e_18|t_994|ref=Hyp. 2_10
 16	.	.	u	u--------	_	2	AuxK	_	t_1007|t_994|ref=Hyp. 2_10
 
-# source = Hyperides, Hyp. 2_9-10
+# source = Hyperides, Hyp. 2_10
 # text = ἀλλʼ ὅτι χρηστός [0] ;
 # sent_id = 51
-1	ἀλλʼ	ἀλλά	d	d--------	_	4	AuxY	_	t_1008|e_19|ref=Hyp. 2_9
+1	ἀλλʼ	ἀλλά	d	d--------	_	4	AuxY	_	t_1008|e_19|ref=Hyp. 2_10
 2	ὅτι	ὅτι	c	c--------	_	4	AuxC	_	t_1009|e_19|ref=Hyp. 2_10
 3	χρηστός	χρηστός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1010|e_19|ref=Hyp. 2_10
-4	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Hyp. 2_frag.6
+4	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Hyp. 2_10
 5	;	;	u	u--------	_	4	AuxK	_	t_1011|e_19|ref=Hyp. 2_10
 
 # source = Hyperides, Hyp. 2_10
@@ -1253,7 +1253,7 @@
 4	λλ	λλ	d	d--------	_	7	AuxY	_	t_1023|e_20|ref=Hyp. 2_10
 5	ὰ	ά	d	d--------	_	7	AuxY	_	t_1024|e_20|ref=Hyp. 2_10
 6	χρήσιμος	χρήσιμος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_1025|e_20|ref=Hyp. 2_10
-7	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Hyp. 2_frag.6
+7	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Hyp. 2_10
 8	·	·	u	u--------	_	7	AuxK	_	t_1026|e_20|ref=Hyp. 2_10
 
 # source = Hyperides, Hyp. 2_10
@@ -1310,33 +1310,33 @@
 19	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	20	ATR	_	t_1071|t_1072|ref=Hyp. 2_10
 20	ἀδικοῦν	ἀδικέω	a	a-s---ma-	Case=a|Gender=m|Number=s	18	ADV	_	t_1072|t_1070|ref=Hyp. 2_10
 21	τα	ὁ	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_1073|t_1068|ref=Hyp. 2_10
-22	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Hyp. 2_frag.6
+22	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Hyp. 2_10
 23	.	.	u	u--------	_	22	AuxK	_	t_1074|e_21|ref=Hyp. 2_10
 
-# source = Hyperides, Hyp. 2_10-11
+# source = Hyperides, Hyp. 2_11
 # text = καὶ ἂ νἄρα λέγῃ τις ἀναβὰς ὡς δὶς ἥλωκεν πρότερον παρανόμων , καὶ διὰ τοῦτο φῇ δεῖν ὑμᾶς ἀποψηφίσασθαι , τ οὐναντίον ποιεῖτε κατʼ ἀμφότερα .
 # sent_id = 56
-1	καὶ	καί	d	d--------	_	23	AuxY	_	t_1075|t_1097|ref=Hyp. 2_10
-2	ἂ	ἀνά	d	d--------	_	4	AuxY	_	t_1076|t_1078|ref=Hyp. 2_10
-3	νἄρα	νἄρα	d	d--------	_	4	AuxY	_	t_1077|t_1078|ref=Hyp. 2_10
-4	λέγῃ	λέγω3	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	23	AuxY	_	t_1078|t_1097|ref=Hyp. 2_10
-5	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1079|t_1078|ref=Hyp. 2_10
-6	ἀναβὰς	ἀναβαίνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ADV	_	t_1080|t_1078|ref=Hyp. 2_10
-7	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_1081|t_1078|ref=Hyp. 2_10
-8	δὶς	δίς	d	d--------	_	9	ADV	_	t_1082|t_1083|ref=Hyp. 2_10
-9	ἥλωκεν	ἁλίσκομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	OBJ	_	t_1083|t_1087|ref=Hyp. 2_10
-10	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_1084|t_1083|ref=Hyp. 2_10
-11	παρανόμων	παράνομος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	OBJ	_	t_1085|t_1083|ref=Hyp. 2_10
-12	,	,	u	u--------	_	23	AuxX	_	t_1086|t_1097|ref=Hyp. 2_10
-13	καὶ	καί	c	c--------	_	7	COORD	_	t_1087|t_1081|ref=Hyp. 2_10
-14	διὰ	διά	r	r--------	_	16	AuxP	_	t_1088|t_1090|ref=Hyp. 2_10
-15	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_1089|t_1088|ref=Hyp. 2_10
-16	φῇ	φημί	v	v3spsa---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	13	OBJ	_	t_1090|t_1087|ref=Hyp. 2_10
-17	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_1091|t_1090|ref=Hyp. 2_10
-18	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	19	SBJ	_	t_1092|t_1093|ref=Hyp. 2_10
-19	ἀποψηφίσασθαι	ἀποψηφίζομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	17	SBJ	_	t_1093|t_1091|ref=Hyp. 2_10
-20	,	,	u	u--------	_	23	AuxX	_	t_1094|t_1097|ref=Hyp. 2_10
-21	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_1095|t_1096|ref=Hyp. 2_10
+1	καὶ	καί	d	d--------	_	23	AuxY	_	t_1075|t_1097|ref=Hyp. 2_11
+2	ἂ	ἀνά	d	d--------	_	4	AuxY	_	t_1076|t_1078|ref=Hyp. 2_11
+3	νἄρα	νἄρα	d	d--------	_	4	AuxY	_	t_1077|t_1078|ref=Hyp. 2_11
+4	λέγῃ	λέγω3	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	23	AuxY	_	t_1078|t_1097|ref=Hyp. 2_11
+5	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1079|t_1078|ref=Hyp. 2_11
+6	ἀναβὰς	ἀναβαίνω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	4	ADV	_	t_1080|t_1078|ref=Hyp. 2_11
+7	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_1081|t_1078|ref=Hyp. 2_11
+8	δὶς	δίς	d	d--------	_	9	ADV	_	t_1082|t_1083|ref=Hyp. 2_11
+9	ἥλωκεν	ἁλίσκομαι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	OBJ	_	t_1083|t_1087|ref=Hyp. 2_11
+10	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	9	ADV	_	t_1084|t_1083|ref=Hyp. 2_11
+11	παρανόμων	παράνομος	a	a-p---ng-	Case=g|Gender=n|Number=p	9	OBJ	_	t_1085|t_1083|ref=Hyp. 2_11
+12	,	,	u	u--------	_	23	AuxX	_	t_1086|t_1097|ref=Hyp. 2_11
+13	καὶ	καί	c	c--------	_	7	COORD	_	t_1087|t_1081|ref=Hyp. 2_11
+14	διὰ	διά	r	r--------	_	16	AuxP	_	t_1088|t_1090|ref=Hyp. 2_11
+15	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	14	ADV	_	t_1089|t_1088|ref=Hyp. 2_11
+16	φῇ	φημί	v	v3spsa---	Mood=i|Number=s|Person=2|Tense=p|Voice=e	13	OBJ	_	t_1090|t_1087|ref=Hyp. 2_11
+17	δεῖν	δεῖ	v	v--pna---	Mood=n|Tense=p|Voice=a	16	OBJ	_	t_1091|t_1090|ref=Hyp. 2_11
+18	ὑμᾶς	σύ	p	p-p---ma-	Case=a|Gender=m|Number=p	19	SBJ	_	t_1092|t_1093|ref=Hyp. 2_11
+19	ἀποψηφίσασθαι	ἀποψηφίζομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	17	SBJ	_	t_1093|t_1091|ref=Hyp. 2_11
+20	,	,	u	u--------	_	23	AuxX	_	t_1094|t_1097|ref=Hyp. 2_11
+21	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	22	ATR	_	t_1095|t_1096|ref=Hyp. 2_11
 22	οὐναντίον	ἐναντίος	a	a-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_1096|t_1097|ref=Hyp. 2_11
 23	ποιεῖτε	ποιέω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_1097|0|ref=Hyp. 2_11
 24	κατʼ	κατά	r	r--------	_	23	AuxP	_	t_1098|t_1097|ref=Hyp. 2_11
@@ -1362,7 +1362,7 @@
 14	τρίτον	τρίτος	a	a-s---na-	Case=a|Gender=n|Number=s	15	ADV	_	t_1114|t_1115|ref=Hyp. 2_11
 15	κρινόμενον	κρίνω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_1115|t_1116|ref=Hyp. 2_11
 16	λαβεῖν	λαμβάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	17	SBJ	_	t_1116|e_22|ref=Hyp. 2_11
-17	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Hyp. 2_frag.6
+17	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Hyp. 2_11
 18	·	·	u	u--------	_	17	AuxK	_	t_1117|e_22|ref=Hyp. 2_11
 
 # source = Hyperides, Hyp. 2_11
@@ -1394,31 +1394,31 @@
 24	δέδωκεν	δίδωμι	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	SBJ	_	t_1141|t_1130|ref=Hyp. 2_11
 25	.	.	u	u--------	_	7	AuxK	_	t_1142|t_1124|ref=Hyp. 2_11
 
-# source = Hyperides, Hyp. 2_11-12
+# source = Hyperides, Hyp. 2_12
 # text = ἔπειτα δέ , ὥσπερ τοῖς τῶν ψευδομαρτυρίων δὶς ἡλωκόσιν δεδώκατε ὑμεῖς τὸ τρίτον μὴ μαρτυρεῖν μη δʼ οἷς ἂν παραγένωνται , ἵνα μηδενὶ τῶν πολιτῶν ᾖ τὸ ὑμέτερον πλῆθος αἴτιον τοῦ ἠτιμῶσθαι , ἀλλʼ αὐ τὸ ς α ὑ τῷ , ἂν μὴ παύηται τὰ ψευδῆ μαρτυρῶν , οὕτω καὶ τοῖς ἡλωκόσι παρανόμων ἔξεστιν μηκέτι γράφειν , εἰ δὲ μή , δῆλόν ἐστιν ὅτι ἰδίου τινὸς ἕνεκα τοῦτο ποιοῦσιν [0] ·
 # sent_id = 59
-1	ἔπειτα	ἔπειτα	d	d--------	_	59	AuxY	_	t_1143|t_1201|ref=Hyp. 2_11
-2	δέ	δέ	d	d--------	_	59	AuxY	_	t_1144|t_1201|ref=Hyp. 2_11
-3	,	,	u	u--------	_	0	AuxX	_	t_1145|0|ref=Hyp. 2_11
-4	ὥσπερ	ὥσπερ	c	c--------	_	49	AuxC	_	t_1146|t_1191|ref=Hyp. 2_11
-5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_1147|t_1151|ref=Hyp. 2_11
-6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_1148|t_1149|ref=Hyp. 2_11
-7	ψευδομαρτυρίων	ψευδομαρτυρία	n	n-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_1149|t_1151|ref=Hyp. 2_11
-8	δὶς	δίς	d	d--------	_	9	ADV	_	t_1150|t_1151|ref=Hyp. 2_11
-9	ἡλωκόσιν	ἁλίσκομαι	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	10	OBJ	_	t_1151|t_1152|ref=Hyp. 2_11
-10	δεδώκατε	δίδωμι	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	4	ADV	_	t_1152|t_1146|ref=Hyp. 2_11
-11	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1153|t_1152|ref=Hyp. 2_11
-12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_1154|t_1155|ref=Hyp. 2_11
-13	τρίτον	τρίτος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_1155|t_1152|ref=Hyp. 2_11
-14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_1156|t_1157|ref=Hyp. 2_11
-15	μαρτυρεῖν	μαρτυρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_1157|t_1159|ref=Hyp. 2_11
-16	μη	μη	d	d--------	_	20	AuxZ	_	t_1158|t_1162|ref=Hyp. 2_11
-17	δʼ	δέ	c	c--------	_	10	COORD	_	t_1159|t_1152|ref=Hyp. 2_11
-18	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_1160|t_1162|ref=Hyp. 2_11
-19	ἂν	ἄν	d	d--------	_	20	AuxY	_	t_1161|t_1162|ref=Hyp. 2_11
-20	παραγένωνται	παραγίγνομαι	v	v3pasm---	Mood=s|Number=p|Person=3|Tense=a|Voice=m	17	OBJ	_	t_1162|t_1159|ref=Hyp. 2_11
-21	,	,	u	u--------	_	3	AuxX	_	t_1163|t_1145|ref=Hyp. 2_11
-22	ἵνα	ἵνα	c	c--------	_	10	AuxC	_	t_1164|t_1152|ref=Hyp. 2_11
+1	ἔπειτα	ἔπειτα	d	d--------	_	59	AuxY	_	t_1143|t_1201|ref=Hyp. 2_12
+2	δέ	δέ	d	d--------	_	59	AuxY	_	t_1144|t_1201|ref=Hyp. 2_12
+3	,	,	u	u--------	_	0	AuxX	_	t_1145|0|ref=Hyp. 2_12
+4	ὥσπερ	ὥσπερ	c	c--------	_	49	AuxC	_	t_1146|t_1191|ref=Hyp. 2_12
+5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	9	ATR	_	t_1147|t_1151|ref=Hyp. 2_12
+6	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	7	ATR	_	t_1148|t_1149|ref=Hyp. 2_12
+7	ψευδομαρτυρίων	ψευδομαρτυρία	n	n-p---fg-	Case=g|Gender=f|Number=p	9	ATR	_	t_1149|t_1151|ref=Hyp. 2_12
+8	δὶς	δίς	d	d--------	_	9	ADV	_	t_1150|t_1151|ref=Hyp. 2_12
+9	ἡλωκόσιν	ἁλίσκομαι	v	v-prpamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=r|Voice=a	10	OBJ	_	t_1151|t_1152|ref=Hyp. 2_12
+10	δεδώκατε	δίδωμι	v	v2pria---	Mood=i|Number=p|Person=2|Tense=r|Voice=a	4	ADV	_	t_1152|t_1146|ref=Hyp. 2_12
+11	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1153|t_1152|ref=Hyp. 2_12
+12	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	13	ATR	_	t_1154|t_1155|ref=Hyp. 2_12
+13	τρίτον	τρίτος	a	a-s---na-	Case=a|Gender=n|Number=s	10	ADV	_	t_1155|t_1152|ref=Hyp. 2_12
+14	μὴ	μή	d	d--------	_	15	AuxZ	_	t_1156|t_1157|ref=Hyp. 2_12
+15	μαρτυρεῖν	μαρτυρέω	v	v--pna---	Mood=n|Tense=p|Voice=a	17	OBJ	_	t_1157|t_1159|ref=Hyp. 2_12
+16	μη	μη	d	d--------	_	20	AuxZ	_	t_1158|t_1162|ref=Hyp. 2_12
+17	δʼ	δέ	c	c--------	_	10	COORD	_	t_1159|t_1152|ref=Hyp. 2_12
+18	οἷς	ὅς	p	p-p---md-	Case=d|Gender=m|Number=p	20	OBJ	_	t_1160|t_1162|ref=Hyp. 2_12
+19	ἂν	ἄν	d	d--------	_	20	AuxY	_	t_1161|t_1162|ref=Hyp. 2_12
+20	παραγένωνται	παραγίγνομαι	v	v3pasm---	Mood=s|Number=p|Person=3|Tense=a|Voice=m	17	OBJ	_	t_1162|t_1159|ref=Hyp. 2_12
+21	,	,	u	u--------	_	3	AuxX	_	t_1163|t_1145|ref=Hyp. 2_12
+22	ἵνα	ἵνα	c	c--------	_	10	AuxC	_	t_1164|t_1152|ref=Hyp. 2_12
 23	μηδενὶ	μηδείς	p	p-s---md-	Case=d|Gender=m|Number=s	30	ADV	_	t_1165|t_1172|ref=Hyp. 2_12
 24	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	25	ATR	_	t_1166|t_1167|ref=Hyp. 2_12
 25	πολιτῶν	πολίτης	n	n-p---mg-	Case=g|Gender=m|Number=p	23	ATR	_	t_1167|t_1165|ref=Hyp. 2_12
@@ -1466,7 +1466,7 @@
 67	ἕνεκα	ἕνεκα	r	r--------	_	69	AuxP	_	t_1209|t_1211|ref=Hyp. 2_12
 68	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	69	OBJ	_	t_1210|t_1211|ref=Hyp. 2_12
 69	ποιοῦσιν	ποιέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	64	SBJ	_	t_1211|t_1206|ref=Hyp. 2_12
-70	[0]	[0]	-	---------	_	58	ADV	_	e_23|t_1200|ref=Hyp. 2_frag.6
+70	[0]	[0]	-	---------	_	58	ADV	_	e_23|t_1200|ref=Hyp. 2_12
 71	·	·	u	u--------	_	3	AuxK	_	t_1212|t_1145|ref=Hyp. 2_12
 
 # source = Hyperides, Hyp. 2_12
@@ -1484,36 +1484,36 @@
 10	τιμωρίας	τιμωρία	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_1222|t_1221|ref=Hyp. 2_12
 11	.	.	u	u--------	_	7	AuxK	_	t_1223|t_1219|ref=Hyp. 2_12
 
-# source = Hyperides, Hyp. 2_12
+# source = Hyperides, Hyp. 2_13
 # text = ἵνα δὲ μὴ προθέμενος πρὸς ἀμφορέα ὕδατος εἰπεῖν μακρολογῶ , ὁ μὲν γραμματεὺς ὑμῖν ἀναγνώσεται τὴν γραφὴν πάλιν ·
 # sent_id = 61
-1	ἵνα	ἵνα	c	c--------	_	15	AuxC	_	t_1224|t_1238|ref=Hyp. 2_12
-2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_1225|t_1238|ref=Hyp. 2_12
-3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_1226|t_1227|ref=Hyp. 2_12
-4	προθέμενος	προτίθημι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	9	ADV	_	t_1227|t_1232|ref=Hyp. 2_12
-5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_1228|t_1227|ref=Hyp. 2_12
-6	ἀμφορέα	ἀμφορέα	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_1229|t_1228|ref=Hyp. 2_12
-7	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1230|t_1229|ref=Hyp. 2_12
-8	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_1231|t_1232|ref=Hyp. 2_12
-9	μακρολογῶ	μακρολογέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	1	ADV	_	t_1232|t_1224|ref=Hyp. 2_12
-10	,	,	u	u--------	_	15	AuxX	_	t_1233|t_1238|ref=Hyp. 2_12
-11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1234|t_1236|ref=Hyp. 2_12
-12	μὲν	μέν	d	d--------	_	15	AuxY	_	t_1235|t_1238|ref=Hyp. 2_12
-13	γραμματεὺς	γραμματεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1236|t_1238|ref=Hyp. 2_12
-14	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_1237|t_1238|ref=Hyp. 2_12
-15	ἀναγνώσεται	ἀναγιγνώσκω	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_1238|0|ref=Hyp. 2_12
-16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_1239|t_1240|ref=Hyp. 2_12
-17	γραφὴν	γραφή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_1240|t_1238|ref=Hyp. 2_12
-18	πάλιν	πάλιν	d	d--------	_	15	ADV	_	t_1241|t_1238|ref=Hyp. 2_12
-19	·	·	u	u--------	_	15	AuxK	_	t_1242|t_1238|ref=Hyp. 2_12
+1	ἵνα	ἵνα	c	c--------	_	15	AuxC	_	t_1224|t_1238|ref=Hyp. 2_13
+2	δὲ	δέ	d	d--------	_	15	AuxY	_	t_1225|t_1238|ref=Hyp. 2_13
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_1226|t_1227|ref=Hyp. 2_13
+4	προθέμενος	προτίθημι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	9	ADV	_	t_1227|t_1232|ref=Hyp. 2_13
+5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_1228|t_1227|ref=Hyp. 2_13
+6	ἀμφορέα	ἀμφορέα	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_1229|t_1228|ref=Hyp. 2_13
+7	ὕδατος	ὕδωρ	n	n-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1230|t_1229|ref=Hyp. 2_13
+8	εἰπεῖν	εἶπον	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_1231|t_1232|ref=Hyp. 2_13
+9	μακρολογῶ	μακρολογέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	1	ADV	_	t_1232|t_1224|ref=Hyp. 2_13
+10	,	,	u	u--------	_	15	AuxX	_	t_1233|t_1238|ref=Hyp. 2_13
+11	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1234|t_1236|ref=Hyp. 2_13
+12	μὲν	μέν	d	d--------	_	15	AuxY	_	t_1235|t_1238|ref=Hyp. 2_13
+13	γραμματεὺς	γραμματεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1236|t_1238|ref=Hyp. 2_13
+14	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	15	ADV	_	t_1237|t_1238|ref=Hyp. 2_13
+15	ἀναγνώσεται	ἀναγιγνώσκω	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_1238|0|ref=Hyp. 2_13
+16	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_1239|t_1240|ref=Hyp. 2_13
+17	γραφὴν	γραφή	n	n-s---fa-	Case=a|Gender=f|Number=s	15	OBJ	_	t_1240|t_1238|ref=Hyp. 2_13
+18	πάλιν	πάλιν	d	d--------	_	15	ADV	_	t_1241|t_1238|ref=Hyp. 2_13
+19	·	·	u	u--------	_	15	AuxK	_	t_1242|t_1238|ref=Hyp. 2_13
 
-# source = Hyperides, Hyp. 2_12-13
+# source = Hyperides, Hyp. 2_13
 # text = ὑμεῖς δὲ τῶν τε κατηγορημένων μεμνημένοι καὶ τῶν νόμων ἀκούσαντες ἀναγιγνωσκομένων , τά τε δίκαια καὶ τὰ συμφέροντα ὑμῖν αὐτοῖς ψηφίζεσθε .
 # sent_id = 62
-1	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	21	SBJ	_	t_1243|t_1263|ref=Hyp. 2_12
-2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_1244|t_1263|ref=Hyp. 2_12
-3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1245|t_1247|ref=Hyp. 2_12
-4	τε	τε	d	d--------	_	7	AuxY	_	t_1246|t_1249|ref=Hyp. 2_12
+1	ὑμεῖς	σύ	p	p-p---mn-	Case=n|Gender=m|Number=p	21	SBJ	_	t_1243|t_1263|ref=Hyp. 2_13
+2	δὲ	δέ	d	d--------	_	21	AuxY	_	t_1244|t_1263|ref=Hyp. 2_13
+3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1245|t_1247|ref=Hyp. 2_13
+4	τε	τε	d	d--------	_	7	AuxY	_	t_1246|t_1249|ref=Hyp. 2_13
 5	κατηγορημένων	κατηγορέω	v	v-prpeng-	Case=g|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	6	OBJ	_	t_1247|t_1248|ref=Hyp. 2_13
 6	μεμνημένοι	μιμνήσκω	v	v-prpemn-	Case=n|Gender=m|Mood=p|Number=p|Tense=r|Voice=e	7	ADV	_	t_1248|t_1249|ref=Hyp. 2_13
 7	καὶ	καί	c	c--------	_	21	COORD	_	t_1249|t_1263|ref=Hyp. 2_13

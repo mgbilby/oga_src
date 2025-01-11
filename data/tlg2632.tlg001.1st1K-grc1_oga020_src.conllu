@@ -158,11 +158,11 @@
 2	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=lap.phil._1
 3	.	.	u	u--------	_	2	AuxK	_	t_142|e_2|ref=lap.phil._1
 
-# source = Comarius, lap.phil._1-2
+# source = Comarius, lap.phil._2
 # text = ( f .
 # sent_id = 5
-1	(	̔	u	u--------	_	2	AuxG	_	t_143|t_144|ref=lap.phil._1
-2	f	f	n	n--------	_	0	AuxG	_	t_144|0|ref=lap.phil._1
+1	(	̔	u	u--------	_	2	AuxG	_	t_143|t_144|ref=lap.phil._2
+2	f	f	n	n--------	_	0	AuxG	_	t_144|0|ref=lap.phil._2
 3	.	.	u	u--------	_	2	AuxK	_	t_145|t_144|ref=lap.phil._2
 
 # source = Comarius, lap.phil._2
@@ -171,7 +171,7 @@
 1	74	74	a	a--------	_	4	AuxG	_	t_146|e_3|ref=lap.phil._2
 2	v	v	x	x--------	_	4	OBJ	_	t_147|e_3|ref=lap.phil._2
 3	.	.	u	u--------	_	4	AuxK	_	t_148|e_3|ref=lap.phil._2
-4	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=lap.phil._2
 5	)	)	u	u--------	_	4	AuxG	_	t_149|e_3|ref=lap.phil._2
 
 # source = Comarius, lap.phil._2
@@ -231,16 +231,16 @@
 26	Κλεοπάτραν	κλεοπάτρη	n	n-s---fa-	Case=a|Gender=f|Number=s	25	ADV	_	t_197|t_196|ref=lap.phil._2
 27	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_198|t_197|ref=lap.phil._2
 28	σοφήν	σοφός	a	a-s---fa-	Case=a|Gender=f|Number=s	26	ATR	_	t_199|t_197|ref=lap.phil._2
-29	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=lap.phil._1
+29	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=lap.phil._2
 30	.	.	u	u--------	_	29	AuxK	_	t_200|e_4|ref=lap.phil._2
 
-# source = Comarius, lap.phil._2-3
+# source = Comarius, lap.phil._3
 # text = Κομάριος ὁ φιλόσοφος τὴν μυστικὴν φιλοσοφίαν τὴν Κλεοπάτραν λεοπάτρα διδάσκει , ἐπὶ θρόνου καθήμενος καὶ τῆς λησευμένης αὐτοῦ τῆς φιλοσοφίας ἀφαψάμενος .
 # sent_id = 9
-1	Κομάριος	κομάριος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_201|t_210|ref=lap.phil._2
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_202|t_201|ref=lap.phil._2
-3	φιλόσοφος	φιλόσοφος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_203|t_201|ref=lap.phil._2
-4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_204|t_206|ref=lap.phil._2
+1	Κομάριος	κομάριος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_201|t_210|ref=lap.phil._3
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_202|t_201|ref=lap.phil._3
+3	φιλόσοφος	φιλόσοφος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_203|t_201|ref=lap.phil._3
+4	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_204|t_206|ref=lap.phil._3
 5	μυστικὴν	μυστικός	a	a-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_205|t_206|ref=lap.phil._3
 6	φιλοσοφίαν	φιλοσοφία	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_206|t_210|ref=lap.phil._3
 7	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_207|t_206|ref=lap.phil._3
@@ -288,13 +288,13 @@
 23	ἔλεγεν	λέγω3	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	22	PRED	_	t_245|t_244|ref=lap.phil._3
 24	·	·	u	u--------	_	22	AuxK	_	t_246|t_244|ref=lap.phil._3
 
-# source = Comarius, lap.phil._3-4
+# source = Comarius, lap.phil._4
 # text = Ἡ μὲν γῆ ἐστερέωται ἐπάνω τῶν ὑδάτων , τὰ δὲ ὕδατα ἐν ταῖς κορυφαῖς τῶν ὀρέων [0] .
 # sent_id = 11
-1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_247|t_249|ref=lap.phil._3
-2	μὲν	μέν	d	d--------	_	10	AuxY	_	t_248|t_256|ref=lap.phil._3
-3	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_249|t_250|ref=lap.phil._3
-4	ἐστερέωται	ἐστερέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	10	PRED	_	t_250|t_256|ref=lap.phil._3
+1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_247|t_249|ref=lap.phil._4
+2	μὲν	μέν	d	d--------	_	10	AuxY	_	t_248|t_256|ref=lap.phil._4
+3	γῆ	γῆ	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_249|t_250|ref=lap.phil._4
+4	ἐστερέωται	ἐστερέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	10	PRED	_	t_250|t_256|ref=lap.phil._4
 5	ἐπάνω	ἐπάνω	r	r--------	_	4	AuxP	_	t_251|t_250|ref=lap.phil._4
 6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_252|t_253|ref=lap.phil._4
 7	ὑδάτων	ὕδωρ	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ADV	_	t_253|t_251|ref=lap.phil._4
@@ -307,7 +307,7 @@
 14	κορυφαῖς	κορυφή	n	n-p---fd-	Case=d|Gender=f|Number=p	12	ADV	_	t_260|t_258|ref=lap.phil._4
 15	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	16	ATR	_	t_261|t_262|ref=lap.phil._4
 16	ὀρέων	ὄρος	n	n-p---ng-	Case=g|Gender=n|Number=p	14	ATR	_	t_262|t_260|ref=lap.phil._4
-17	[0]	[0]	-	---------	_	10	PRED	_	e_5|t_256|ref=lap.phil._1
+17	[0]	[0]	-	---------	_	10	PRED	_	e_5|t_256|ref=lap.phil._4
 18	.	.	u	u--------	_	8	AuxK	_	t_263|t_254|ref=lap.phil._4
 
 # source = Comarius, lap.phil._4
@@ -361,8 +361,8 @@
 18	ξηρότητα	ξηρότης	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_305|e_7|ref=lap.phil._4
 19	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	20	ATR	_	t_306|t_307|ref=lap.phil._4
 20	γῇ	γῆ	n	n-s---fd-	Case=d|Gender=f|Number=s	22	ADV	_	t_307|e_7|ref=lap.phil._4
-21	[0]	[0]	-	---------	_	17	PRED	_	e_6|t_304|ref=lap.phil._1
-22	[1]	[1]	-	---------	_	17	PRED	_	e_7|t_304|ref=lap.phil._1
+21	[0]	[0]	-	---------	_	17	PRED	_	e_6|t_304|ref=lap.phil._4
+22	[1]	[1]	-	---------	_	17	PRED	_	e_7|t_304|ref=lap.phil._4
 23	·	·	u	u--------	_	8	AuxK	_	t_308|t_295|ref=lap.phil._4
 
 # source = Comarius, lap.phil._4
@@ -395,7 +395,7 @@
 25	καὶ	καί	c	c--------	_	17	COORD	_	t_333|t_325|ref=lap.phil._4
 26	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	27	ATR	_	t_334|t_335|ref=lap.phil._4
 27	πυρί	πῦρ	n	n-s---nd-	Case=d|Gender=n|Number=s	28	ADV	_	t_335|e_8|ref=lap.phil._4
-28	[0]	[0]	-	---------	_	25	PRED	_	e_8|t_333|ref=lap.phil._1
+28	[0]	[0]	-	---------	_	25	PRED	_	e_8|t_333|ref=lap.phil._4
 29	.	.	u	u--------	_	10	AuxK	_	t_336|t_318|ref=lap.phil._4
 
 # source = Comarius, lap.phil._4
@@ -418,17 +418,17 @@
 15	βαφεῖον	βαφεῖον	n	n-s---na-	Case=a|Gender=n|Number=s	9	OBJ	_	t_351|t_345|ref=lap.phil._4
 16	.	.	u	u--------	_	9	AuxK	_	t_352|t_345|ref=lap.phil._4
 
-# source = Comarius, lap.phil._4-5
+# source = Comarius, lap.phil._5
 # text = Λαβοῦσα ἡ Κλεοπάτρα τὸ ὑπὸ Κομαρίου γραφὲν , ἤρξατο παρεμβολὴν ποιῆσθαι χρήσεων ἑτέρων φιλοσόφων , τοῦ τετραμερεῖν τὴν καλὴν φιλοσοφίαν , τουτ έστιν τὴν ὕλην ἀπὸ τῶν φύσεων , ὡς διδαγμένην καὶ εὑρισκομένην , καὶ ἰδέαν τῶν πράξεων τῆς διαφορᾶς αὐτῆς ·
 # sent_id = 16
-1	Λαβοῦσα	λαμβάνω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_353|t_361|ref=lap.phil._4
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_354|t_355|ref=lap.phil._4
-3	Κλεοπάτρα	κλεοπάτρη	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_355|t_361|ref=lap.phil._4
-4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_356|t_359|ref=lap.phil._4
-5	ὑπὸ	ὑπό	r	r--------	_	7	AuxP	_	t_357|t_359|ref=lap.phil._4
-6	Κομαρίου	κομάριον	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_358|t_357|ref=lap.phil._4
-7	γραφὲν	γράφω	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	1	OBJ	_	t_359|t_353|ref=lap.phil._4
-8	,	,	u	u--------	_	9	AuxX	_	t_360|t_361|ref=lap.phil._4
+1	Λαβοῦσα	λαμβάνω	v	v-sapafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_353|t_361|ref=lap.phil._5
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_354|t_355|ref=lap.phil._5
+3	Κλεοπάτρα	κλεοπάτρη	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_355|t_361|ref=lap.phil._5
+4	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_356|t_359|ref=lap.phil._5
+5	ὑπὸ	ὑπό	r	r--------	_	7	AuxP	_	t_357|t_359|ref=lap.phil._5
+6	Κομαρίου	κομάριον	n	n-s---mg-	Case=g|Gender=m|Number=s	5	OBJ	_	t_358|t_357|ref=lap.phil._5
+7	γραφὲν	γράφω	v	v-sappna-	Case=a|Gender=n|Mood=p|Number=s|Tense=a|Voice=p	1	OBJ	_	t_359|t_353|ref=lap.phil._5
+8	,	,	u	u--------	_	9	AuxX	_	t_360|t_361|ref=lap.phil._5
 9	ἤρξατο	ἄρχω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_361|0|ref=lap.phil._5
 10	παρεμβολὴν	παρεμβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_362|t_363|ref=lap.phil._5
 11	ποιῆσθαι	ποιέω	v	v--pne---	Mood=n|Tense=p|Voice=e	9	OBJ	_	t_363|t_361|ref=lap.phil._5
@@ -493,7 +493,7 @@
 1	75	75	-	---------	_	0	PRED	_	t_414|0|ref=lap.phil._5
 2	r	r	x	x--------	_	1	OBJ	_	t_415|t_414|ref=lap.phil._5
 3	.	.	u	u--------	_	1	AuxK	_	t_416|t_414|ref=lap.phil._5
-4	[0]	[0]	-	---------	_	1	OBJ	_	e_9|t_414|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	1	OBJ	_	e_9|t_414|ref=lap.phil._5
 5	)	)	u	u--------	_	1	AuxG	_	t_417|t_414|ref=lap.phil._5
 
 # source = Comarius, lap.phil._5
@@ -547,9 +547,9 @@
 23	κατὰ	κατά	r	r--------	_	25	AuxP	_	t_455|t_457|ref=lap.phil._5
 24	τάξιν	τάξις	n	n-s---fa-	Case=a|Gender=f|Number=s	23	ADV	_	t_456|t_455|ref=lap.phil._5
 25	προβαίνων	προβαίνω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	28	ADV	_	t_457|e_12|ref=lap.phil._5
-26	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=lap.phil._1
-27	[1]	[1]	-	---------	_	14	ADV	_	e_11|t_446|ref=lap.phil._1
-28	[2]	[2]	-	---------	_	19	ATR	_	e_12|t_451|ref=lap.phil._1
+26	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=lap.phil._5
+27	[1]	[1]	-	---------	_	14	ADV	_	e_11|t_446|ref=lap.phil._5
+28	[2]	[2]	-	---------	_	19	ATR	_	e_12|t_451|ref=lap.phil._5
 29	·	·	u	u--------	_	26	AuxK	_	t_458|e_10|ref=lap.phil._5
 
 # source = Comarius, lap.phil._5
@@ -604,21 +604,21 @@
 20	διχασμός	διχημός	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_501|t_497|ref=lap.phil._5
 21	.	.	u	u--------	_	8	AuxK	_	t_502|t_489|ref=lap.phil._5
 
-# source = Comarius, lap.phil._5-6
+# source = Comarius, lap.phil._6
 # text = Περατώσης ἡ διʼ ὀργάνου τοῦ μασθωτοῦ οἰκονομία , ἐπλανώσεως πρῶτον τοῦ χωρισθῆναι τῶν ὑγρῶν ἀπὸ τῶν σποδῶν , διὰ τοῦ χρόνου τὸ μάκρος ·
 # sent_id = 24
-1	Περατώσης	περατάω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	0	PRED	_	t_503|0|ref=lap.phil._5
-2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_504|t_509|ref=lap.phil._5
-3	διʼ	διά	r	r--------	_	7	AuxP	_	t_505|t_509|ref=lap.phil._5
-4	ὀργάνου	ὄργανον	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_506|t_505|ref=lap.phil._5
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_507|t_508|ref=lap.phil._5
-6	μασθωτοῦ	μασθρωτός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_508|t_506|ref=lap.phil._5
-7	οἰκονομία	οἰκονομία	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_509|t_503|ref=lap.phil._5
-8	,	,	u	u--------	_	1	AuxX	_	t_510|t_503|ref=lap.phil._5
-9	ἐπλανώσεως	πλλανόω	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_511|t_503|ref=lap.phil._5
-10	πρῶτον	πρῶτος	d	d--------	_	12	ADV	_	t_512|t_514|ref=lap.phil._5
-11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_513|t_514|ref=lap.phil._5
-12	χωρισθῆναι	χωρίζω	v	v--anp---	Mood=n|Tense=a|Voice=p	9	ATR	_	t_514|t_511|ref=lap.phil._5
+1	Περατώσης	περατάω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	0	PRED	_	t_503|0|ref=lap.phil._6
+2	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	7	ATR	_	t_504|t_509|ref=lap.phil._6
+3	διʼ	διά	r	r--------	_	7	AuxP	_	t_505|t_509|ref=lap.phil._6
+4	ὀργάνου	ὄργανον	n	n-s---ng-	Case=g|Gender=n|Number=s	3	ATR	_	t_506|t_505|ref=lap.phil._6
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_507|t_508|ref=lap.phil._6
+6	μασθωτοῦ	μασθρωτός	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_508|t_506|ref=lap.phil._6
+7	οἰκονομία	οἰκονομία	n	n-s---fn-	Case=n|Gender=f|Number=s	1	SBJ	_	t_509|t_503|ref=lap.phil._6
+8	,	,	u	u--------	_	1	AuxX	_	t_510|t_503|ref=lap.phil._6
+9	ἐπλανώσεως	πλλανόω	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_511|t_503|ref=lap.phil._6
+10	πρῶτον	πρῶτος	d	d--------	_	12	ADV	_	t_512|t_514|ref=lap.phil._6
+11	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	12	ATR	_	t_513|t_514|ref=lap.phil._6
+12	χωρισθῆναι	χωρίζω	v	v--anp---	Mood=n|Tense=a|Voice=p	9	ATR	_	t_514|t_511|ref=lap.phil._6
 13	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	14	ATR	_	t_515|t_516|ref=lap.phil._6
 14	ὑγρῶν	ὑγρός	a	a-p---fg-	Case=g|Gender=f|Number=p	12	OBJ	_	t_516|t_514|ref=lap.phil._6
 15	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_517|t_514|ref=lap.phil._6
@@ -646,7 +646,7 @@
 9	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_535|t_536|ref=lap.phil._6
 10	σποδίου	ψάπιος	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_536|t_534|ref=lap.phil._6
 11	ὑγροῦ	ὑγρός	a	a-s---ng-	Case=g|Gender=n|Number=s	10	ATR	_	t_537|t_536|ref=lap.phil._6
-12	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=lap.phil._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=lap.phil._6
 13	·	·	u	u--------	_	12	AuxK	_	t_538|e_13|ref=lap.phil._6
 
 # source = Comarius, lap.phil._6
@@ -665,7 +665,7 @@
 11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_549|t_551|ref=lap.phil._6
 12	ἀσκαλωνίτιδι	ὀξυδαίμων	n	n-s---fd-	Case=d|Gender=f|Number=s	13	ATR	_	t_550|t_551|ref=lap.phil._6
 13	γάστρᾳ	γάστρα	n	n-s---fd-	Case=d|Gender=f|Number=s	10	ADV	_	t_551|t_548|ref=lap.phil._6
-14	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=lap.phil._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=lap.phil._6
 15	·	·	u	u--------	_	14	AuxK	_	t_552|e_14|ref=lap.phil._6
 
 # source = Comarius, lap.phil._6
@@ -706,7 +706,7 @@
 16	πρὸς	πρός	r	r--------	_	11	AuxP	_	t_581|t_576|ref=lap.phil._6
 17	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	18	ATR	_	t_582|t_583|ref=lap.phil._6
 18	ζητούμενον	ζητέω	v	v-sppena-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	16	ADV	_	t_583|t_581|ref=lap.phil._6
-19	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=lap.phil._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=lap.phil._6
 20	·	·	u	u--------	_	19	AuxK	_	t_584|e_15|ref=lap.phil._6
 
 # source = Comarius, lap.phil._6
@@ -719,7 +719,7 @@
 5	εἰς	εἰς	r	r--------	_	7	AuxP	_	t_589|t_591|ref=lap.phil._6
 6	χρύσωσιν	χρύσω	n	n-s---fa-	Mood=s|Number=p|Person=3|Tense=a|Voice=a	5	OBJ	_	t_590|t_589|ref=lap.phil._6
 7	φέρουσα	φέρω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_591|e_16|ref=lap.phil._6
-8	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=lap.phil._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=lap.phil._6
 9	.	.	u	u--------	_	8	AuxK	_	t_592|e_16|ref=lap.phil._6
 
 # source = Comarius, lap.phil._6
@@ -762,7 +762,7 @@
 20	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	19	ADV	_	t_623|t_622|ref=lap.phil._6
 21	ἐθέλεις	ἐθέλω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	18	ADV	_	t_624|t_621|ref=lap.phil._6
 22	χοωποιῆσαι	χοωποιέω	v	v--ana---	Mood=n|Tense=a|Voice=a	21	OBJ	_	t_625|t_624|ref=lap.phil._6
-23	[0]	[0]	-	---------	_	6	PRED	_	e_17|t_609|ref=lap.phil._1
+23	[0]	[0]	-	---------	_	6	PRED	_	e_17|t_609|ref=lap.phil._6
 24	.	.	u	u--------	_	5	AuxK	_	t_626|t_608|ref=lap.phil._6
 
 # source = Comarius, lap.phil._6
@@ -791,36 +791,36 @@
 21	ἐκστροφὴ	ἐκστροφή	n	n-s---fn-	Case=n|Gender=f|Number=s	25	PNOM	_	t_647|e_19|ref=lap.phil._6
 22	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	23	ATR	_	t_648|t_649|ref=lap.phil._6
 23	χρυσώσεως	χρύσωσις	n	n-s---fg-	Case=g|Gender=f|Number=s	21	ATR	_	t_649|t_647|ref=lap.phil._6
-24	[0]	[0]	-	---------	_	2	ADV	_	e_18|t_628|ref=lap.phil._1
-25	[1]	[1]	-	---------	_	2	ADV	_	e_19|t_628|ref=lap.phil._1
+24	[0]	[0]	-	---------	_	2	ADV	_	e_18|t_628|ref=lap.phil._6
+25	[1]	[1]	-	---------	_	2	ADV	_	e_19|t_628|ref=lap.phil._6
 26	.	.	u	u--------	_	13	AuxK	_	t_650|t_639|ref=lap.phil._6
 
-# source = Comarius, lap.phil._6
+# source = Comarius, lap.phil._7
 # text = Δεῖ οὖν καὶ ἡμᾶς οὕτως , ὦ φίλοι , ποιεῖν ὅτε τὴν τέχνην ταύτην περικαλλῆ βούλεσθε προσεγγίσαι .
 # sent_id = 33
-1	Δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_651|0|ref=lap.phil._6
-2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_652|t_651|ref=lap.phil._6
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_653|t_654|ref=lap.phil._6
-4	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	10	SBJ	_	t_654|t_660|ref=lap.phil._6
-5	οὕτως	οὕτως	d	d--------	_	10	ADV	_	t_655|t_660|ref=lap.phil._6
-6	,	,	u	u--------	_	1	AuxX	_	t_656|t_651|ref=lap.phil._6
-7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_657|t_658|ref=lap.phil._6
-8	φίλοι	φίλος	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ExD	_	t_658|t_651|ref=lap.phil._6
-9	,	,	u	u--------	_	1	AuxX	_	t_659|t_651|ref=lap.phil._6
-10	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_660|t_651|ref=lap.phil._6
-11	ὅτε	ὅτε	c	c--------	_	10	AuxC	_	t_661|t_660|ref=lap.phil._6
-12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_662|t_663|ref=lap.phil._6
-13	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_663|t_667|ref=lap.phil._6
-14	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_664|t_663|ref=lap.phil._6
-15	περικαλλῆ	περικαλλής	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_665|t_663|ref=lap.phil._6
-16	βούλεσθε	βούλομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	11	ADV	_	t_666|t_661|ref=lap.phil._6
-17	προσεγγίσαι	προσβλέπω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	OBJ	_	t_667|t_666|ref=lap.phil._6
-18	.	.	u	u--------	_	1	AuxK	_	t_668|t_651|ref=lap.phil._6
+1	Δεῖ	δεῖ	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_651|0|ref=lap.phil._7
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_652|t_651|ref=lap.phil._7
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_653|t_654|ref=lap.phil._7
+4	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	10	SBJ	_	t_654|t_660|ref=lap.phil._7
+5	οὕτως	οὕτως	d	d--------	_	10	ADV	_	t_655|t_660|ref=lap.phil._7
+6	,	,	u	u--------	_	1	AuxX	_	t_656|t_651|ref=lap.phil._7
+7	ὦ	ὦ	i	i--------	_	8	AuxZ	_	t_657|t_658|ref=lap.phil._7
+8	φίλοι	φίλος	a	a-p---mv-	Case=v|Gender=m|Number=p	1	ExD	_	t_658|t_651|ref=lap.phil._7
+9	,	,	u	u--------	_	1	AuxX	_	t_659|t_651|ref=lap.phil._7
+10	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	1	OBJ	_	t_660|t_651|ref=lap.phil._7
+11	ὅτε	ὅτε	c	c--------	_	10	AuxC	_	t_661|t_660|ref=lap.phil._7
+12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_662|t_663|ref=lap.phil._7
+13	τέχνην	τέχνη	n	n-s---fa-	Case=a|Gender=f|Number=s	17	OBJ	_	t_663|t_667|ref=lap.phil._7
+14	ταύτην	οὗτος	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_664|t_663|ref=lap.phil._7
+15	περικαλλῆ	περικαλλής	a	a-s---fa-	Case=a|Gender=f|Number=s	13	ATR	_	t_665|t_663|ref=lap.phil._7
+16	βούλεσθε	βούλομαι	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	11	ADV	_	t_666|t_661|ref=lap.phil._7
+17	προσεγγίσαι	προσβλέπω	v	v--ana---	Mood=n|Tense=a|Voice=a	16	OBJ	_	t_667|t_666|ref=lap.phil._7
+18	.	.	u	u--------	_	1	AuxK	_	t_668|t_651|ref=lap.phil._7
 
-# source = Comarius, lap.phil._6-7
+# source = Comarius, lap.phil._7
 # text = Βλέπετε τὴν φύσιν τῶν βοτανῶν πόθεν ἔρχονται .
 # sent_id = 34
-1	Βλέπετε	βλέπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_669|0|ref=lap.phil._6
+1	Βλέπετε	βλέπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_669|0|ref=lap.phil._7
 2	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_670|t_671|ref=lap.phil._7
 3	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_671|t_669|ref=lap.phil._7
 4	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_672|t_673|ref=lap.phil._7
@@ -842,7 +842,7 @@
 1	75	75	x	x--------	_	4	AuxG	_	t_680|e_20|ref=lap.phil._7
 2	v	v	x	x--------	_	4	AuxG	_	t_681|e_20|ref=lap.phil._7
 3	.	.	u	u--------	_	4	AuxK	_	t_682|e_20|ref=lap.phil._7
-4	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=lap.phil._7
 5	)	)	u	u--------	_	4	AuxG	_	t_683|e_20|ref=lap.phil._7
 
 # source = Comarius, lap.phil._7
@@ -969,33 +969,33 @@
 20	οὐσίᾳ	οὐσία	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_782|t_780|ref=lap.phil._7
 21	.	.	u	u--------	_	1	AuxK	_	t_783|t_763|ref=lap.phil._7
 
-# source = Comarius, lap.phil._7
+# source = Comarius, lap.phil._8
 # text = Ἀποκριθεὶς δὲ Ὀστάνης καὶ οἱ σὺν αὐτῷ εἶπον τῇ Κλεοπάτρᾳ ·
 # sent_id = 43
-1	Ἀποκριθεὶς	ἀποκρίνω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	8	ADV	_	t_784|t_791|ref=lap.phil._7
-2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_785|t_791|ref=lap.phil._7
-3	Ὀστάνης	ὀστάνη	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_786|t_787|ref=lap.phil._7
-4	καὶ	καί	c	c--------	_	8	COORD	_	t_787|t_791|ref=lap.phil._7
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_788|t_787|ref=lap.phil._7
-6	σὺν	σύν	r	r--------	_	5	AuxP	_	t_789|t_788|ref=lap.phil._7
-7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_790|t_789|ref=lap.phil._7
-8	εἶπον	εἶπον	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_791|0|ref=lap.phil._7
-9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_792|t_793|ref=lap.phil._7
-10	Κλεοπάτρᾳ	κλεοπάτρη	n	n-s---fd-	Case=d|Gender=f|Number=s	8	OBJ	_	t_793|t_791|ref=lap.phil._7
-11	·	·	u	u--------	_	8	AuxK	_	t_794|t_791|ref=lap.phil._7
+1	Ἀποκριθεὶς	ἀποκρίνω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	8	ADV	_	t_784|t_791|ref=lap.phil._8
+2	δὲ	δέ	d	d--------	_	8	AuxY	_	t_785|t_791|ref=lap.phil._8
+3	Ὀστάνης	ὀστάνη	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_786|t_787|ref=lap.phil._8
+4	καὶ	καί	c	c--------	_	8	COORD	_	t_787|t_791|ref=lap.phil._8
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_788|t_787|ref=lap.phil._8
+6	σὺν	σύν	r	r--------	_	5	AuxP	_	t_789|t_788|ref=lap.phil._8
+7	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_790|t_789|ref=lap.phil._8
+8	εἶπον	εἶπον	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_791|0|ref=lap.phil._8
+9	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	10	ATR	_	t_792|t_793|ref=lap.phil._8
+10	Κλεοπάτρᾳ	κλεοπάτρη	n	n-s---fd-	Case=d|Gender=f|Number=s	8	OBJ	_	t_793|t_791|ref=lap.phil._8
+11	·	·	u	u--------	_	8	AuxK	_	t_794|t_791|ref=lap.phil._8
 
-# source = Comarius, lap.phil._7-8
+# source = Comarius, lap.phil._8
 # text = Ἔν σοι κέκρυπται ὅλον τὸ μυστήριον τὸ φρικτὸν καὶ παράδοξον .
 # sent_id = 44
-1	Ἔν	ἐν	r	r--------	_	3	AuxP	_	t_795|t_797|ref=lap.phil._7
-2	σοι	σύ	p	p2s----d-	Case=d|Number=s|Person=2	1	ADV	_	t_796|t_795|ref=lap.phil._7
-3	κέκρυπται	κρύπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_797|0|ref=lap.phil._7
-4	ὅλον	ὅλος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_798|t_800|ref=lap.phil._7
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_799|t_800|ref=lap.phil._7
-6	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_800|t_797|ref=lap.phil._7
-7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_801|t_800|ref=lap.phil._7
-8	φρικτὸν	φρικτός	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_802|t_803|ref=lap.phil._7
-9	καὶ	καί	c	c--------	_	6	COORD	_	t_803|t_800|ref=lap.phil._7
+1	Ἔν	ἐν	r	r--------	_	3	AuxP	_	t_795|t_797|ref=lap.phil._8
+2	σοι	σύ	p	p2s----d-	Case=d|Number=s|Person=2	1	ADV	_	t_796|t_795|ref=lap.phil._8
+3	κέκρυπται	κρύπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_797|0|ref=lap.phil._8
+4	ὅλον	ὅλος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_798|t_800|ref=lap.phil._8
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_799|t_800|ref=lap.phil._8
+6	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_800|t_797|ref=lap.phil._8
+7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_801|t_800|ref=lap.phil._8
+8	φρικτὸν	φρικτός	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_802|t_803|ref=lap.phil._8
+9	καὶ	καί	c	c--------	_	6	COORD	_	t_803|t_800|ref=lap.phil._8
 10	παράδοξον	παράδοξος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_804|t_803|ref=lap.phil._8
 11	.	.	u	u--------	_	3	AuxK	_	t_805|t_797|ref=lap.phil._8
 
@@ -1051,7 +1051,7 @@
 35	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	36	ATR	_	t_848|t_849|ref=lap.phil._8
 36	στοιχεῖον	στοιχεῖον	n	n-s---nn-	Case=n|Gender=n|Number=s	38	SBJ	_	t_849|e_21|ref=lap.phil._8
 37	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	36	ATR	_	t_850|t_849|ref=lap.phil._8
-38	[0]	[0]	-	---------	_	33	OBJ	_	e_21|t_846|ref=lap.phil._1
+38	[0]	[0]	-	---------	_	33	OBJ	_	e_21|t_846|ref=lap.phil._8
 39	·	·	u	u--------	_	1	AuxK	_	t_851|t_814|ref=lap.phil._8
 
 # source = Comarius, lap.phil._8
@@ -1155,7 +1155,7 @@
 1	76	76	x	x--------	_	4	AuxG	_	t_939|e_22|ref=lap.phil._8
 2	r	r	n	n--------	_	4	AuxG	_	t_940|e_22|ref=lap.phil._8
 3	.	.	u	u--------	_	4	AuxK	_	t_941|e_22|ref=lap.phil._8
-4	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=lap.phil._8
 5	)	)	u	u--------	_	4	AuxG	_	t_942|e_22|ref=lap.phil._8
 
 # source = Comarius, lap.phil._8
@@ -1166,39 +1166,39 @@
 3	χαίρονται	χαίρω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_945|0|ref=lap.phil._8
 4	.	.	u	u--------	_	3	AuxK	_	t_946|t_945|ref=lap.phil._8
 
-# source = Comarius, lap.phil._8
+# source = Comarius, lap.phil._9
 # text = Ἡ δὲ Κλεοπάτρα ἔφη πρὸς αὐτούς ·
 # sent_id = 51
-1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_947|t_949|ref=lap.phil._8
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_948|0|ref=lap.phil._8
-3	Κλεοπάτρα	κλεοπάτρη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_949|t_950|ref=lap.phil._8
-4	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_950|t_948|ref=lap.phil._8
-5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_951|t_950|ref=lap.phil._8
-6	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_952|t_951|ref=lap.phil._8
-7	·	·	u	u--------	_	2	AuxK	_	t_953|t_948|ref=lap.phil._8
+1	Ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	3	ATR	_	t_947|t_949|ref=lap.phil._9
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_948|0|ref=lap.phil._9
+3	Κλεοπάτρα	κλεοπάτρη	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_949|t_950|ref=lap.phil._9
+4	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	2	PRED	_	t_950|t_948|ref=lap.phil._9
+5	πρὸς	πρός	r	r--------	_	4	AuxP	_	t_951|t_950|ref=lap.phil._9
+6	αὐτούς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	5	OBJ	_	t_952|t_951|ref=lap.phil._9
+7	·	·	u	u--------	_	2	AuxK	_	t_953|t_948|ref=lap.phil._9
 
-# source = Comarius, lap.phil._8
+# source = Comarius, lap.phil._9
 # text = τὰ ὕδατα εἰσερχόμενα ἀφυπνίζουσι τὰ σώματα καὶ τὰ πνεύματα ἐγκεκλεισμένα καὶ ἀσθενῆ ὄντα ·
 # sent_id = 52
-1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_954|t_955|ref=lap.phil._8
-2	ὕδατα	ὕδωρ	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_955|t_957|ref=lap.phil._8
-3	εἰσερχόμενα	εἰσέρχομαι	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	2	ATR	_	t_956|t_955|ref=lap.phil._8
-4	ἀφυπνίζουσι	ἀφυπνίζω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_957|0|ref=lap.phil._8
-5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_958|t_959|ref=lap.phil._8
-6	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_959|t_960|ref=lap.phil._8
-7	καὶ	καί	c	c--------	_	4	COORD	_	t_960|t_957|ref=lap.phil._8
-8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_961|t_962|ref=lap.phil._8
-9	πνεύματα	πνεῦμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_962|t_960|ref=lap.phil._8
-10	ἐγκεκλεισμένα	ἀποκλείω	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	ADV	_	t_963|t_964|ref=lap.phil._8
-11	καὶ	καί	c	c--------	_	7	COORD	_	t_964|t_960|ref=lap.phil._8
-12	ἀσθενῆ	ἀσθενής	a	a-p---nn-	Case=n|Gender=n|Number=p	13	PNOM	_	t_965|t_966|ref=lap.phil._8
-13	ὄντα	εἰμί	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_966|t_964|ref=lap.phil._8
-14	·	·	u	u--------	_	4	AuxK	_	t_967|t_957|ref=lap.phil._8
+1	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	2	ATR	_	t_954|t_955|ref=lap.phil._9
+2	ὕδατα	ὕδωρ	n	n-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_955|t_957|ref=lap.phil._9
+3	εἰσερχόμενα	εἰσέρχομαι	v	v-pppenn-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	2	ATR	_	t_956|t_955|ref=lap.phil._9
+4	ἀφυπνίζουσι	ἀφυπνίζω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_957|0|ref=lap.phil._9
+5	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_958|t_959|ref=lap.phil._9
+6	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_959|t_960|ref=lap.phil._9
+7	καὶ	καί	c	c--------	_	4	COORD	_	t_960|t_957|ref=lap.phil._9
+8	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_961|t_962|ref=lap.phil._9
+9	πνεύματα	πνεῦμα	n	n-p---na-	Case=a|Gender=n|Number=p	7	OBJ	_	t_962|t_960|ref=lap.phil._9
+10	ἐγκεκλεισμένα	ἀποκλείω	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	11	ADV	_	t_963|t_964|ref=lap.phil._9
+11	καὶ	καί	c	c--------	_	7	COORD	_	t_964|t_960|ref=lap.phil._9
+12	ἀσθενῆ	ἀσθενής	a	a-p---nn-	Case=n|Gender=n|Number=p	13	PNOM	_	t_965|t_966|ref=lap.phil._9
+13	ὄντα	εἰμί	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	11	ADV	_	t_966|t_964|ref=lap.phil._9
+14	·	·	u	u--------	_	4	AuxK	_	t_967|t_957|ref=lap.phil._9
 
-# source = Comarius, lap.phil._8-9
+# source = Comarius, lap.phil._9
 # text = πάλιν γὰρ , φησὶν , θλίψιν ὑπέστησαν καὶ πάλιν περικλεισθήσονται ἐν τῷ ᾍδῃ , καὶ κατὰ μικρὸν ἐμφύονται καὶ ἀναβαίνουσι καὶ ἐνδύονται ποικίλα χρώματα , καὶ ἔνδοξα καθάπερ τὰ ἄνθη ἐν τῷ ἔαρι , καὶ αὐτὸ τὸ ἔαρ εὐφραίνεται καὶ γάννυται ἐν τῇ ὡραιότητι ἣν περίκεινται [0] .
 # sent_id = 53
-1	πάλιν	πάλιν	d	d--------	_	7	ADV	_	t_968|t_974|ref=lap.phil._8
+1	πάλιν	πάλιν	d	d--------	_	7	ADV	_	t_968|t_974|ref=lap.phil._9
 2	γὰρ	γάρ	d	d--------	_	35	AuxY	_	t_969|t_1002|ref=lap.phil._9
 3	,	,	u	u--------	_	0	AuxX	_	t_970|0|ref=lap.phil._9
 4	φησὶν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	35	AuxY	_	t_971|t_1002|ref=lap.phil._9
@@ -1244,39 +1244,39 @@
 44	ὡραιότητι	εὐπρέπεια	n	n-s---fd-	Case=d|Gender=f|Number=s	42	ADV	_	t_1011|t_1009|ref=lap.phil._9
 45	ἣν	ὅς	p	p-p---ng-	Case=g|Gender=n|Number=p	46	OBJ	_	t_1012|t_1013|ref=lap.phil._9
 46	περίκεινται	περίκειμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	41	OBJ	_	t_1013|t_1008|ref=lap.phil._9
-47	[0]	[0]	-	---------	_	28	ADV	_	e_23|t_995|ref=lap.phil._1
+47	[0]	[0]	-	---------	_	28	ADV	_	e_23|t_995|ref=lap.phil._9
 48	.	.	u	u--------	_	3	AuxK	_	t_1014|t_970|ref=lap.phil._9
 
-# source = Comarius, lap.phil._9
+# source = Comarius, lap.phil._10
 # text = Ὑμῖν δὲ λέγω τοῖς εὖ φρονοῦσι ·
 # sent_id = 54
-1	Ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_1015|t_1017|ref=lap.phil._9
-2	δὲ	δέ	g	g--------	_	3	AuxY	_	t_1016|t_1017|ref=lap.phil._9
-3	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1017|0|ref=lap.phil._9
-4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_1018|t_1020|ref=lap.phil._9
-5	εὖ	εὖ	d	d--------	_	6	ADV	_	t_1019|t_1020|ref=lap.phil._9
-6	φρονοῦσι	φρονέω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_1020|t_1015|ref=lap.phil._9
-7	·	·	u	u--------	_	3	AuxK	_	t_1021|t_1017|ref=lap.phil._9
+1	Ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_1015|t_1017|ref=lap.phil._10
+2	δὲ	δέ	g	g--------	_	3	AuxY	_	t_1016|t_1017|ref=lap.phil._10
+3	λέγω	λέγω3	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1017|0|ref=lap.phil._10
+4	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_1018|t_1020|ref=lap.phil._10
+5	εὖ	εὖ	d	d--------	_	6	ADV	_	t_1019|t_1020|ref=lap.phil._10
+6	φρονοῦσι	φρονέω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	1	ATR	_	t_1020|t_1015|ref=lap.phil._10
+7	·	·	u	u--------	_	3	AuxK	_	t_1021|t_1017|ref=lap.phil._10
 
-# source = Comarius, lap.phil._9-10
+# source = Comarius, lap.phil._10
 # text = τὰς βοτάνας καὶ τὰ στοιχεῖα καὶ τοὺς λίθους ὅταν ἐπαίρητε ἐκ τῶν τόπων αὐτῶν , ὡραῖοι μὲν φαίνονται λίαν καὶ οὐχ ὡραῖοι , ἐπειδὴ τὰ πάντα τὸ πῦρ δοκιμάζει ·
 # sent_id = 55
-1	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	2	ATR	_	t_1022|t_1023|ref=lap.phil._9
-2	βοτάνας	βοτάνη	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_1023|t_1027|ref=lap.phil._9
-3	καὶ	καί	c	c--------	_	6	AuxY	_	t_1024|t_1027|ref=lap.phil._9
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_1025|t_1026|ref=lap.phil._9
-5	στοιχεῖα	στοιχεῖον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_1026|t_1027|ref=lap.phil._9
-6	καὶ	καί	c	c--------	_	10	COORD	_	t_1027|t_1031|ref=lap.phil._9
-7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_1028|t_1029|ref=lap.phil._9
-8	λίθους	λίθος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_1029|t_1027|ref=lap.phil._9
-9	ὅταν	ὅταν	c	c--------	_	18	AuxC	_	t_1030|t_1039|ref=lap.phil._9
-10	ἐπαίρητε	ἐπαίρω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	9	ADV	_	t_1031|t_1030|ref=lap.phil._9
-11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_1032|t_1031|ref=lap.phil._9
-12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1033|t_1034|ref=lap.phil._9
-13	τόπων	τόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ADV	_	t_1034|t_1032|ref=lap.phil._9
-14	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1035|t_1034|ref=lap.phil._9
-15	,	,	u	u--------	_	18	AuxX	_	t_1036|t_1039|ref=lap.phil._9
-16	ὡραῖοι	ὡραῖος	a	a-p---mn-	Case=n|Gender=m|Number=p	20	PNOM	_	t_1037|t_1041|ref=lap.phil._9
+1	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	2	ATR	_	t_1022|t_1023|ref=lap.phil._10
+2	βοτάνας	βοτάνη	n	n-p---fa-	Case=a|Gender=f|Number=p	6	OBJ	_	t_1023|t_1027|ref=lap.phil._10
+3	καὶ	καί	c	c--------	_	6	AuxY	_	t_1024|t_1027|ref=lap.phil._10
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	5	ATR	_	t_1025|t_1026|ref=lap.phil._10
+5	στοιχεῖα	στοιχεῖον	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_1026|t_1027|ref=lap.phil._10
+6	καὶ	καί	c	c--------	_	10	COORD	_	t_1027|t_1031|ref=lap.phil._10
+7	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	8	ATR	_	t_1028|t_1029|ref=lap.phil._10
+8	λίθους	λίθος	n	n-p---ma-	Case=a|Gender=m|Number=p	6	OBJ	_	t_1029|t_1027|ref=lap.phil._10
+9	ὅταν	ὅταν	c	c--------	_	18	AuxC	_	t_1030|t_1039|ref=lap.phil._10
+10	ἐπαίρητε	ἐπαίρω	v	v2ppsa---	Mood=s|Number=p|Person=2|Tense=p|Voice=a	9	ADV	_	t_1031|t_1030|ref=lap.phil._10
+11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_1032|t_1031|ref=lap.phil._10
+12	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1033|t_1034|ref=lap.phil._10
+13	τόπων	τόπος	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ADV	_	t_1034|t_1032|ref=lap.phil._10
+14	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_1035|t_1034|ref=lap.phil._10
+15	,	,	u	u--------	_	18	AuxX	_	t_1036|t_1039|ref=lap.phil._10
+16	ὡραῖοι	ὡραῖος	a	a-p---mn-	Case=n|Gender=m|Number=p	20	PNOM	_	t_1037|t_1041|ref=lap.phil._10
 17	μὲν	μέν	d	d--------	_	18	AuxY	_	t_1038|t_1039|ref=lap.phil._10
 18	φαίνονται	φαίνω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_1039|0|ref=lap.phil._10
 19	λίαν	λίαν	d	d--------	_	16	ADV	_	t_1040|t_1037|ref=lap.phil._10
@@ -1341,7 +1341,7 @@
 44	τιθηνούμενον	τιθηνέω	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	40	ATR	_	t_1095|t_1091|ref=lap.phil._10
 45	καταβραχὺ	καταβραχὺ	a	a-s---na-	Case=a|Gender=n|Number=s	44	ADV	_	t_1096|t_1095|ref=lap.phil._10
 46	αὔξει	αὔξω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	38	ADV	_	t_1097|t_1089|ref=lap.phil._10
-47	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=lap.phil._1
+47	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=lap.phil._10
 48	.	.	u	u--------	_	47	AuxK	_	t_1098|e_24|ref=lap.phil._10
 
 # source = Comarius, lap.phil._10
@@ -1414,7 +1414,7 @@
 13	βρέφος	βρέφος	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_1151|e_25|ref=lap.phil._10
 14	ἐκ	ἐκ	r	r--------	_	16	AuxP	_	t_1152|e_25|ref=lap.phil._10
 15	γαστρός	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_1153|t_1152|ref=lap.phil._10
-16	[0]	[0]	-	---------	_	11	ADV	_	e_25|t_1149|ref=lap.phil._1
+16	[0]	[0]	-	---------	_	11	ADV	_	e_25|t_1149|ref=lap.phil._10
 17	.	.	u	u--------	_	7	AuxK	_	t_1154|t_1145|ref=lap.phil._10
 
 # source = Comarius, lap.phil._10
@@ -1451,8 +1451,8 @@
 29	γάλακτος	γάλα	n	n-s---ng-	Case=g|Gender=n|Number=s	28	ADV	_	t_1183|t_1182|ref=lap.phil._10
 30	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	31	ATR	_	t_1184|t_1185|ref=lap.phil._10
 31	ὕδασιν	ὕδωρ	n	n-p---nd-	Case=d|Gender=n|Number=p	29	ATR	_	t_1185|t_1183|ref=lap.phil._10
-32	[0]	[0]	-	---------	_	8	ADV	_	e_26|t_1162|ref=lap.phil._1
-33	[1]	[1]	-	---------	_	22	ADV	_	e_27|t_1176|ref=lap.phil._1
+32	[0]	[0]	-	---------	_	8	ADV	_	e_26|t_1162|ref=lap.phil._10
+33	[1]	[1]	-	---------	_	22	ADV	_	e_27|t_1176|ref=lap.phil._10
 34	.	.	u	u--------	_	18	AuxK	_	t_1186|t_1172|ref=lap.phil._10
 
 # source = Comarius, lap.phil._10
@@ -1474,7 +1474,7 @@
 1	76	76	x	x--------	_	4	AuxG	_	t_1196|e_28|ref=lap.phil._10
 2	v	v	x	x--------	_	4	ExD	_	t_1197|e_28|ref=lap.phil._10
 3	.	.	u	u--------	_	4	AuxK	_	t_1198|e_28|ref=lap.phil._10
-4	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_28|0|ref=lap.phil._10
 5	)	)	u	u--------	_	4	AuxG	_	t_1199|e_28|ref=lap.phil._10
 
 # source = Comarius, lap.phil._10
@@ -1498,49 +1498,49 @@
 16	ἰδοὺ	ἰδού	d	d--------	_	19	ExD	_	t_1215|e_29|ref=lap.phil._10
 17	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_1216|e_29|ref=lap.phil._10
 18	ἐσφραγισμένον	σφραγίζω	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	19	PNOM	_	t_1217|e_29|ref=lap.phil._10
-19	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=lap.phil._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=lap.phil._10
 20	.	.	u	u--------	_	19	AuxK	_	t_1218|e_29|ref=lap.phil._10
 
-# source = Comarius, lap.phil._10
+# source = Comarius, lap.phil._11
 # text = Ἀπὸ τοῦ νῦν δὲ ἐρῶ ὑμῖν τηλαυγῶς ποῦ κεῖνται τὰ στοιχεῖα καὶ αἱ βοτάναι ·
 # sent_id = 65
-1	Ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_1219|t_1223|ref=lap.phil._10
-2	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_1220|t_1219|ref=lap.phil._10
-3	νῦν	νῦν	d	d--------	_	1	ADV	_	t_1221|t_1219|ref=lap.phil._10
-4	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1222|t_1223|ref=lap.phil._10
-5	ἐρῶ	ἐρέω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1223|0|ref=lap.phil._10
-6	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_1224|t_1223|ref=lap.phil._10
-7	τηλαυγῶς	τηλαυγής	d	d--------	_	5	ADV	_	t_1225|t_1223|ref=lap.phil._10
-8	ποῦ	ποῦ	d	d--------	_	9	ADV	_	t_1226|t_1227|ref=lap.phil._10
-9	κεῖνται	κεῖμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	5	OBJ	_	t_1227|t_1223|ref=lap.phil._10
-10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_1228|t_1229|ref=lap.phil._10
-11	στοιχεῖα	στοιχεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_1229|t_1230|ref=lap.phil._10
-12	καὶ	καί	c	c--------	_	9	COORD	_	t_1230|t_1227|ref=lap.phil._10
-13	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	14	ATR	_	t_1231|t_1232|ref=lap.phil._10
-14	βοτάναι	βοτάνη	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_1232|t_1230|ref=lap.phil._10
-15	·	·	u	u--------	_	5	AuxK	_	t_1233|t_1223|ref=lap.phil._10
+1	Ἀπὸ	ἀπό	r	r--------	_	5	AuxP	_	t_1219|t_1223|ref=lap.phil._11
+2	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	1	ADV	_	t_1220|t_1219|ref=lap.phil._11
+3	νῦν	νῦν	d	d--------	_	1	ADV	_	t_1221|t_1219|ref=lap.phil._11
+4	δὲ	δέ	d	d--------	_	5	AuxY	_	t_1222|t_1223|ref=lap.phil._11
+5	ἐρῶ	ἐρέω	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1223|0|ref=lap.phil._11
+6	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	5	OBJ	_	t_1224|t_1223|ref=lap.phil._11
+7	τηλαυγῶς	τηλαυγής	d	d--------	_	5	ADV	_	t_1225|t_1223|ref=lap.phil._11
+8	ποῦ	ποῦ	d	d--------	_	9	ADV	_	t_1226|t_1227|ref=lap.phil._11
+9	κεῖνται	κεῖμαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	5	OBJ	_	t_1227|t_1223|ref=lap.phil._11
+10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_1228|t_1229|ref=lap.phil._11
+11	στοιχεῖα	στοιχεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_1229|t_1230|ref=lap.phil._11
+12	καὶ	καί	c	c--------	_	9	COORD	_	t_1230|t_1227|ref=lap.phil._11
+13	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	14	ATR	_	t_1231|t_1232|ref=lap.phil._11
+14	βοτάναι	βοτάνη	n	n-p---fn-	Case=n|Gender=f|Number=p	12	SBJ	_	t_1232|t_1230|ref=lap.phil._11
+15	·	·	u	u--------	_	5	AuxK	_	t_1233|t_1223|ref=lap.phil._11
 
-# source = Comarius, lap.phil._10
+# source = Comarius, lap.phil._11
 # text = ἐν αἰνίγμασι δὲ ἄρξομαι τοῦ λέγειν .
 # sent_id = 66
-1	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1234|t_1237|ref=lap.phil._10
-2	αἰνίγμασι	αἴνιγμα	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_1235|t_1234|ref=lap.phil._10
-3	δὲ	δέ	g	g--------	_	4	AuxY	_	t_1236|t_1237|ref=lap.phil._10
-4	ἄρξομαι	ἄρχω	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	0	PRED	_	t_1237|0|ref=lap.phil._10
-5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1238|t_1239|ref=lap.phil._10
-6	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_1239|t_1237|ref=lap.phil._10
-7	.	.	u	u--------	_	3	AuxK	_	t_1240|t_1236|ref=lap.phil._10
+1	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_1234|t_1237|ref=lap.phil._11
+2	αἰνίγμασι	αἴνιγμα	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_1235|t_1234|ref=lap.phil._11
+3	δὲ	δέ	g	g--------	_	4	AuxY	_	t_1236|t_1237|ref=lap.phil._11
+4	ἄρξομαι	ἄρχω	v	v1sfim---	Mood=i|Number=s|Person=1|Tense=f|Voice=m	0	PRED	_	t_1237|0|ref=lap.phil._11
+5	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	6	ATR	_	t_1238|t_1239|ref=lap.phil._11
+6	λέγειν	λέγω3	v	v--pna---	Mood=n|Tense=p|Voice=a	4	OBJ	_	t_1239|t_1237|ref=lap.phil._11
+7	.	.	u	u--------	_	3	AuxK	_	t_1240|t_1236|ref=lap.phil._11
 
-# source = Comarius, lap.phil._10-11
+# source = Comarius, lap.phil._11
 # text = Ἄνελθε εἰς τὴν στέγην τὴν ἀνωτάτην , εἰς τὸ δασὺ ὄρος ἐν δένδροις , καὶ ἰδοὺ πέτρα ἐν τῇ ἀκρωρεία , καὶ ἐκ τῆς πέτρας λάβε ἀρσένικον , καὶ λεύκαναι θείως .
 # sent_id = 67
-1	Ἄνελθε	ἀνέρχομαι	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	29	PRED	_	t_1241|t_1269|ref=lap.phil._10
-2	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_1242|t_1241|ref=lap.phil._10
-3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1243|t_1244|ref=lap.phil._10
-4	στέγην	στέγη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_1244|t_1242|ref=lap.phil._10
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1245|t_1246|ref=lap.phil._10
-6	ἀνωτάτην	ἀνώτερος	d	d--------	Case=a|Degree=s|Gender=f|Number=s	4	ATR	_	t_1246|t_1244|ref=lap.phil._10
-7	,	,	u	u--------	_	11	AuxX	_	t_1247|t_1251|ref=lap.phil._10
+1	Ἄνελθε	ἀνέρχομαι	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	29	PRED	_	t_1241|t_1269|ref=lap.phil._11
+2	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_1242|t_1241|ref=lap.phil._11
+3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_1243|t_1244|ref=lap.phil._11
+4	στέγην	στέγη	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_1244|t_1242|ref=lap.phil._11
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_1245|t_1246|ref=lap.phil._11
+6	ἀνωτάτην	ἀνώτερος	d	d--------	Case=a|Degree=s|Gender=f|Number=s	4	ATR	_	t_1246|t_1244|ref=lap.phil._11
+7	,	,	u	u--------	_	11	AuxX	_	t_1247|t_1251|ref=lap.phil._11
 8	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_1248|t_1241|ref=lap.phil._11
 9	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_1249|t_1251|ref=lap.phil._11
 10	δασὺ	δασύς	a	a-s---na-	Case=a|Gender=n|Number=s	11	ATR	_	t_1250|t_1251|ref=lap.phil._11
@@ -1699,49 +1699,49 @@
 23	ἀλλήλαις	ἀλλήλων	p	p-p---fd-	Case=d|Gender=f|Number=p	22	ADV	_	t_1379|t_1378|ref=lap.phil._11
 24	.	.	u	u--------	_	6	AuxK	_	t_1380|t_1362|ref=lap.phil._11
 
-# source = Comarius, lap.phil._11
+# source = Comarius, lap.phil._12
 # text = Βλέπετε , σοφοὶ , καὶ σύνετε .
 # sent_id = 74
-1	Βλέπετε	βλέπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	5	PRED	_	t_1381|t_1385|ref=lap.phil._11
-2	,	,	u	u--------	_	3	AuxX	_	t_1382|t_1383|ref=lap.phil._11
-3	σοφοὶ	σοφός	a	a-p---mv-	Case=v|Gender=m|Number=p	5	ExD	_	t_1383|t_1385|ref=lap.phil._11
-4	,	,	u	u--------	_	3	AuxX	_	t_1384|t_1383|ref=lap.phil._11
-5	καὶ	καί	c	c--------	_	0	COORD	_	t_1385|0|ref=lap.phil._11
-6	σύνετε	συνίημι	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	5	PRED	_	t_1386|t_1385|ref=lap.phil._11
-7	.	.	u	u--------	_	5	AuxK	_	t_1387|t_1385|ref=lap.phil._11
+1	Βλέπετε	βλέπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	5	PRED	_	t_1381|t_1385|ref=lap.phil._12
+2	,	,	u	u--------	_	3	AuxX	_	t_1382|t_1383|ref=lap.phil._12
+3	σοφοὶ	σοφός	a	a-p---mv-	Case=v|Gender=m|Number=p	5	ExD	_	t_1383|t_1385|ref=lap.phil._12
+4	,	,	u	u--------	_	3	AuxX	_	t_1384|t_1383|ref=lap.phil._12
+5	καὶ	καί	c	c--------	_	0	COORD	_	t_1385|0|ref=lap.phil._12
+6	σύνετε	συνίημι	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	5	PRED	_	t_1386|t_1385|ref=lap.phil._12
+7	.	.	u	u--------	_	5	AuxK	_	t_1387|t_1385|ref=lap.phil._12
 
-# source = Comarius, lap.phil._11
+# source = Comarius, lap.phil._12
 # text = Ἰδοὺ γὰρ τὸ πλήρωμα τῆς τέχνης τῶν συζευχθέντων νυμφίου τε καὶ νύμφης καὶ γενομένων ἕν [0] .
 # sent_id = 75
-1	Ἰδοὺ	ἰδού	n	n-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_1388|e_30|ref=lap.phil._11
-2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_1389|e_30|ref=lap.phil._11
-3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1390|t_1391|ref=lap.phil._11
-4	πλήρωμα	πλήρωμα	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_1391|e_30|ref=lap.phil._11
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1392|t_1393|ref=lap.phil._11
-6	τέχνης	τέχνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1393|t_1391|ref=lap.phil._11
-7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1394|t_1395|ref=lap.phil._11
-8	συζευχθέντων	συζεύγνυμι	v	v-pappng-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	13	ATR	_	t_1395|t_1400|ref=lap.phil._11
-9	νυμφίου	νυμφίος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_1396|t_1398|ref=lap.phil._11
-10	τε	τε	d	d--------	_	13	AuxY	_	t_1397|t_1400|ref=lap.phil._11
-11	καὶ	καί	c	c--------	_	13	COORD	_	t_1398|t_1400|ref=lap.phil._11
-12	νύμφης	νύμφη	n	n-s---fg-	Case=g|Gender=f|Number=s	11	APOS	_	t_1399|t_1398|ref=lap.phil._11
-13	καὶ	καί	c	c--------	_	6	COORD	_	t_1400|t_1393|ref=lap.phil._11
-14	γενομένων	γίγνομαι	v	v-papmng-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=m	13	ATR	_	t_1401|t_1400|ref=lap.phil._11
-15	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1402|t_1400|ref=lap.phil._11
-16	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=lap.phil._1
-17	.	.	u	u--------	_	16	AuxK	_	t_1403|e_30|ref=lap.phil._11
+1	Ἰδοὺ	ἰδού	n	n-s---nn-	Case=n|Gender=n|Number=s	16	PNOM	_	t_1388|e_30|ref=lap.phil._12
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_1389|e_30|ref=lap.phil._12
+3	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1390|t_1391|ref=lap.phil._12
+4	πλήρωμα	πλήρωμα	n	n-s---nn-	Case=n|Gender=n|Number=s	16	SBJ	_	t_1391|e_30|ref=lap.phil._12
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1392|t_1393|ref=lap.phil._12
+6	τέχνης	τέχνη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1393|t_1391|ref=lap.phil._12
+7	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	8	ATR	_	t_1394|t_1395|ref=lap.phil._12
+8	συζευχθέντων	συζεύγνυμι	v	v-pappng-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	13	ATR	_	t_1395|t_1400|ref=lap.phil._12
+9	νυμφίου	νυμφίος	n	n-s---mg-	Case=g|Gender=m|Number=s	11	OBJ	_	t_1396|t_1398|ref=lap.phil._12
+10	τε	τε	d	d--------	_	13	AuxY	_	t_1397|t_1400|ref=lap.phil._12
+11	καὶ	καί	c	c--------	_	13	COORD	_	t_1398|t_1400|ref=lap.phil._12
+12	νύμφης	νύμφη	n	n-s---fg-	Case=g|Gender=f|Number=s	11	APOS	_	t_1399|t_1398|ref=lap.phil._12
+13	καὶ	καί	c	c--------	_	6	COORD	_	t_1400|t_1393|ref=lap.phil._12
+14	γενομένων	γίγνομαι	v	v-papmng-	Case=g|Gender=n|Mood=p|Number=p|Tense=a|Voice=m	13	ATR	_	t_1401|t_1400|ref=lap.phil._12
+15	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	13	ATR	_	t_1402|t_1400|ref=lap.phil._12
+16	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=lap.phil._12
+17	.	.	u	u--------	_	16	AuxK	_	t_1403|e_30|ref=lap.phil._12
 
-# source = Comarius, lap.phil._11-12
+# source = Comarius, lap.phil._12
 # text = Ἰδοὺ αἱ βοτάναι καὶ αἱ διαφοραὶ αὐτῶν [0] .
 # sent_id = 76
-1	Ἰδοὺ	ἰδού	d	d--------	_	8	PNOM	_	t_1404|e_31|ref=lap.phil._11
-2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_1405|t_1406|ref=lap.phil._11
-3	βοτάναι	βοτάνη	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_1406|t_1407|ref=lap.phil._11
-4	καὶ	καί	c	c--------	_	8	COORD	_	t_1407|e_31|ref=lap.phil._11
-5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_1408|t_1409|ref=lap.phil._11
-6	διαφοραὶ	διαφορά	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_1409|t_1407|ref=lap.phil._11
+1	Ἰδοὺ	ἰδού	d	d--------	_	8	PNOM	_	t_1404|e_31|ref=lap.phil._12
+2	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	3	ATR	_	t_1405|t_1406|ref=lap.phil._12
+3	βοτάναι	βοτάνη	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_1406|t_1407|ref=lap.phil._12
+4	καὶ	καί	c	c--------	_	8	COORD	_	t_1407|e_31|ref=lap.phil._12
+5	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	6	ATR	_	t_1408|t_1409|ref=lap.phil._12
+6	διαφοραὶ	διαφορά	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_1409|t_1407|ref=lap.phil._12
 7	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1410|t_1409|ref=lap.phil._12
-8	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=lap.phil._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=lap.phil._12
 9	.	.	u	u--------	_	8	AuxK	_	t_1411|e_31|ref=lap.phil._12
 
 # source = Comarius, lap.phil._12
@@ -1771,7 +1771,7 @@
 6	ἐκ	ἐκ	r	r--------	_	9	AuxP	_	t_1429|t_1432|ref=lap.phil._12
 7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1430|t_1431|ref=lap.phil._12
 8	θαλάσσης	θάλασσα	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ADV	_	t_1431|t_1429|ref=lap.phil._12
-9	ἀνέργονται	ἔργω1	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	24	OBJ	_	t_1432|t_1447|ref=lap.phil._11
+9	ἀνέργονται	ἔργω1	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	24	OBJ	_	t_1432|t_1447|ref=lap.phil._12
 10	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_1433|t_1434|ref=lap.phil._12
 11	νέφη	νέφος	n	n-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_1434|t_1432|ref=lap.phil._12
 12	βαστάζοντα	βαστάζω	v	v-pppann-	Case=n|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	11	ATR	_	t_1435|t_1434|ref=lap.phil._12
@@ -1798,7 +1798,7 @@
 1	77	77	x	x--------	_	4	AuxG	_	t_1452|e_32|ref=lap.phil._12
 2	r	r	n	n--------	_	4	OBJ	_	t_1453|e_32|ref=lap.phil._12
 3	.	.	u	u--------	_	4	AuxK	_	t_1454|e_32|ref=lap.phil._12
-4	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=lap.phil._12
 5	)	)	u	u--------	_	4	AuxG	_	t_1455|e_32|ref=lap.phil._12
 
 # source = Comarius, lap.phil._12
@@ -1844,50 +1844,50 @@
 28	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1489|t_1491|ref=lap.phil._12
 29	ἄλλων	ἄλλος	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1490|t_1491|ref=lap.phil._12
 30	γεῶν	γεών	n	n-p---ng-	Case=g|Gender=n|Number=p	27	ADV	_	t_1491|t_1488|ref=lap.phil._12
-31	[0]	[0]	-	---------	_	24	PRED	_	e_33|t_1485|ref=lap.phil._1
+31	[0]	[0]	-	---------	_	24	PRED	_	e_33|t_1485|ref=lap.phil._12
 32	.	.	u	u--------	_	15	AuxK	_	t_1492|t_1476|ref=lap.phil._12
 
-# source = Comarius, lap.phil._12
+# source = Comarius, lap.phil._13
 # text = Ἰδοὺ τὸ παράδοξον μυστήριον , ἀδελφοὶ , τὸ ἄγνωστον ὅλως , ἰδοὺ ἡ ἀλήθεια ὑμῖν πεφανέρωται [0] .
 # sent_id = 82
-1	Ἰδοὺ	ἰδού	d	d--------	_	7	ExD	_	t_1493|t_1499|ref=lap.phil._12
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1494|t_1496|ref=lap.phil._12
-3	παράδοξον	παράδοξος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1495|t_1496|ref=lap.phil._12
-4	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_1496|t_1499|ref=lap.phil._12
-5	,	,	u	u--------	_	0	AuxX	_	t_1497|0|ref=lap.phil._12
-6	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	11	ExD	_	t_1498|t_1503|ref=lap.phil._12
-7	,	,	u	u--------	_	17	COORD	_	t_1499|e_34|ref=lap.phil._12
-8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_1500|t_1501|ref=lap.phil._12
-9	ἄγνωστον	ἄγνωστος	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_1501|e_34|ref=lap.phil._12
-10	ὅλως	ὅλος	d	d--------	_	9	ADV	_	t_1502|t_1501|ref=lap.phil._12
-11	,	,	u	u--------	_	5	COORD	_	t_1503|t_1497|ref=lap.phil._12
-12	ἰδοὺ	ἰδού	i	i--------	_	5	ExD	_	t_1504|t_1497|ref=lap.phil._12
-13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_1505|t_1506|ref=lap.phil._12
-14	ἀλήθεια	ἀλήθεια	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1506|t_1508|ref=lap.phil._12
-15	ὑμῖν	σύ	p	p2p---cd-	Case=d|Gender=c|Number=p|Person=2	16	OBJ	_	t_1507|t_1508|ref=lap.phil._12
-16	πεφανέρωται	κηρύσσω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	11	PRED	_	t_1508|t_1503|ref=lap.phil._12
-17	[0]	[0]	-	---------	_	11	PRED	_	e_34|t_1503|ref=lap.phil._1
-18	.	.	u	u--------	_	5	AuxK	_	t_1509|t_1497|ref=lap.phil._12
+1	Ἰδοὺ	ἰδού	d	d--------	_	7	ExD	_	t_1493|t_1499|ref=lap.phil._13
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1494|t_1496|ref=lap.phil._13
+3	παράδοξον	παράδοξος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1495|t_1496|ref=lap.phil._13
+4	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_1496|t_1499|ref=lap.phil._13
+5	,	,	u	u--------	_	0	AuxX	_	t_1497|0|ref=lap.phil._13
+6	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	11	ExD	_	t_1498|t_1503|ref=lap.phil._13
+7	,	,	u	u--------	_	17	COORD	_	t_1499|e_34|ref=lap.phil._13
+8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_1500|t_1501|ref=lap.phil._13
+9	ἄγνωστον	ἄγνωστος	a	a-s---nn-	Case=n|Gender=n|Number=s	17	PNOM	_	t_1501|e_34|ref=lap.phil._13
+10	ὅλως	ὅλος	d	d--------	_	9	ADV	_	t_1502|t_1501|ref=lap.phil._13
+11	,	,	u	u--------	_	5	COORD	_	t_1503|t_1497|ref=lap.phil._13
+12	ἰδοὺ	ἰδού	i	i--------	_	5	ExD	_	t_1504|t_1497|ref=lap.phil._13
+13	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	14	ATR	_	t_1505|t_1506|ref=lap.phil._13
+14	ἀλήθεια	ἀλήθεια	n	n-s---fn-	Case=n|Gender=f|Number=s	16	SBJ	_	t_1506|t_1508|ref=lap.phil._13
+15	ὑμῖν	σύ	p	p2p---cd-	Case=d|Gender=c|Number=p|Person=2	16	OBJ	_	t_1507|t_1508|ref=lap.phil._13
+16	πεφανέρωται	κηρύσσω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	11	PRED	_	t_1508|t_1503|ref=lap.phil._13
+17	[0]	[0]	-	---------	_	11	PRED	_	e_34|t_1503|ref=lap.phil._13
+18	.	.	u	u--------	_	5	AuxK	_	t_1509|t_1497|ref=lap.phil._13
 
-# source = Comarius, lap.phil._12-13
+# source = Comarius, lap.phil._13
 # text = Βλέπετε πῶς ποτίζετε τὰς γέας ὑμῶν καὶ πῶς τιθηνεῖσθε τὰ σπέρματα ὑμῶν , ὅπως καρποφορήσετε ὥριμον καρπόν .
 # sent_id = 83
-1	Βλέπετε	βλέπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_1510|0|ref=lap.phil._12
-2	πῶς	πῶς	d	d--------	_	3	ADV	_	t_1511|t_1512|ref=lap.phil._12
-3	ποτίζετε	ποτίζω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	7	OBJ	_	t_1512|t_1516|ref=lap.phil._12
-4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_1513|t_1514|ref=lap.phil._12
-5	γέας	γέα	n	n-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_1514|t_1512|ref=lap.phil._12
-6	ὑμῶν	σύ	p	p2p---cg-	Case=g|Gender=c|Number=p|Person=2	5	ATR	_	t_1515|t_1514|ref=lap.phil._12
-7	καὶ	καί	c	c--------	_	1	COORD	_	t_1516|t_1510|ref=lap.phil._12
-8	πῶς	πῶς	d	d--------	_	9	ADV	_	t_1517|t_1518|ref=lap.phil._12
-9	τιθηνεῖσθε	τιθηνέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	7	OBJ	_	t_1518|t_1516|ref=lap.phil._12
-10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_1519|t_1520|ref=lap.phil._12
-11	σπέρματα	σπέρμα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_1520|t_1518|ref=lap.phil._12
-12	ὑμῶν	σύ	p	p2p---cg-	Case=g|Gender=c|Number=p|Person=2	11	ATR	_	t_1521|t_1520|ref=lap.phil._12
-13	,	,	u	u--------	_	1	AuxX	_	t_1522|t_1510|ref=lap.phil._12
-14	ὅπως	ὅπως	c	c--------	_	9	AuxC	_	t_1523|t_1518|ref=lap.phil._12
-15	καρποφορήσετε	καρποφορέω	v	v2pasa---	Mood=s|Number=p|Person=2|Tense=a|Voice=a	14	ADV	_	t_1524|t_1523|ref=lap.phil._12
-16	ὥριμον	ὥριμος	a	a-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_1525|t_1526|ref=lap.phil._12
+1	Βλέπετε	βλέπω	v	v2ppma---	Mood=m|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_1510|0|ref=lap.phil._13
+2	πῶς	πῶς	d	d--------	_	3	ADV	_	t_1511|t_1512|ref=lap.phil._13
+3	ποτίζετε	ποτίζω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	7	OBJ	_	t_1512|t_1516|ref=lap.phil._13
+4	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	5	ATR	_	t_1513|t_1514|ref=lap.phil._13
+5	γέας	γέα	n	n-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_1514|t_1512|ref=lap.phil._13
+6	ὑμῶν	σύ	p	p2p---cg-	Case=g|Gender=c|Number=p|Person=2	5	ATR	_	t_1515|t_1514|ref=lap.phil._13
+7	καὶ	καί	c	c--------	_	1	COORD	_	t_1516|t_1510|ref=lap.phil._13
+8	πῶς	πῶς	d	d--------	_	9	ADV	_	t_1517|t_1518|ref=lap.phil._13
+9	τιθηνεῖσθε	τιθηνέω	v	v2ppie---	Mood=i|Number=p|Person=2|Tense=p|Voice=e	7	OBJ	_	t_1518|t_1516|ref=lap.phil._13
+10	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	11	ATR	_	t_1519|t_1520|ref=lap.phil._13
+11	σπέρματα	σπέρμα	n	n-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_1520|t_1518|ref=lap.phil._13
+12	ὑμῶν	σύ	p	p2p---cg-	Case=g|Gender=c|Number=p|Person=2	11	ATR	_	t_1521|t_1520|ref=lap.phil._13
+13	,	,	u	u--------	_	1	AuxX	_	t_1522|t_1510|ref=lap.phil._13
+14	ὅπως	ὅπως	c	c--------	_	9	AuxC	_	t_1523|t_1518|ref=lap.phil._13
+15	καρποφορήσετε	καρποφορέω	v	v2pasa---	Mood=s|Number=p|Person=2|Tense=a|Voice=a	14	ADV	_	t_1524|t_1523|ref=lap.phil._13
+16	ὥριμον	ὥριμος	a	a-s---ma-	Case=a|Gender=m|Number=s	17	ATR	_	t_1525|t_1526|ref=lap.phil._13
 17	καρπόν	καρπός	n	n-s---ma-	Case=a|Gender=m|Number=s	15	OBJ	_	t_1526|t_1524|ref=lap.phil._13
 18	.	.	u	u--------	_	1	AuxK	_	t_1527|t_1510|ref=lap.phil._13
 
@@ -1912,7 +1912,7 @@
 1	Λάβε	λαμβάνω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_1539|0|ref=lap.phil._13
 2	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_1540|t_1539|ref=lap.phil._13
 3	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1541|t_1543|ref=lap.phil._13
-4	τεσσάρων	τέσσαρες	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1542|t_1543|ref=lap.phil._12
+4	τεσσάρων	τέσσαρες	a	a-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1542|t_1543|ref=lap.phil._13
 5	στοιχείων	στοιχεῖον	n	n-p---ng-	Case=g|Gender=n|Number=p	2	ADV	_	t_1543|t_1540|ref=lap.phil._13
 6	ἀρσένικον	ἄρσην	a	a-s---na-	Case=a|Gender=n|Number=s	1	OBJ	_	t_1544|t_1539|ref=lap.phil._13
 7	ἀνώτατον	ἀνώτατος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1545|t_1546|ref=lap.phil._13
@@ -2090,48 +2090,48 @@
 36	ἀποθῆκαι	ἀποθήκη	n	n-p---fn-	Case=n|Gender=f|Number=p	32	SBJ	_	t_1705|t_1701|ref=lap.phil._13
 37	.	.	u	u--------	_	1	AuxK	_	t_1706|t_1670|ref=lap.phil._13
 
-# source = Comarius, lap.phil._13
+# source = Comarius, lap.phil._14
 # text = Ἰδοὺ τὸ μυστήριον τῶν φιλοσόφων , καὶ περὶ αὐτοῦ ἐξώρκισαν ὑμῖν οἱ πατέρες ἡμῶν τοῦ μὴ ἀποκαλύψαι αὐτὸ καὶ δημοσιεῦσαι , θεῖον ἔχον τὸ εἶδος , θείαν καὶ τὴν ἐνέργειαν [0] ·
 # sent_id = 89
-1	Ἰδοὺ	ἰδού	d	d--------	_	31	PNOM	_	t_1707|e_35|ref=lap.phil._13
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1708|t_1709|ref=lap.phil._13
-3	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	31	SBJ	_	t_1709|e_35|ref=lap.phil._13
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1710|t_1711|ref=lap.phil._13
-5	φιλοσόφων	φιλόσοφος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1711|t_1709|ref=lap.phil._13
-6	,	,	u	u--------	_	0	AuxX	_	t_1712|0|ref=lap.phil._13
-7	καὶ	καί	c	c--------	_	6	COORD	_	t_1713|t_1712|ref=lap.phil._13
-8	περὶ	περί	r	r--------	_	10	AuxP	_	t_1714|t_1716|ref=lap.phil._13
-9	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_1715|t_1714|ref=lap.phil._13
-10	ἐξώρκισαν	ἐξορκίζω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	7	PRED	_	t_1716|t_1713|ref=lap.phil._13
-11	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_1717|t_1716|ref=lap.phil._13
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_1718|t_1719|ref=lap.phil._13
-13	πατέρες	πατήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1719|t_1716|ref=lap.phil._13
-14	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	13	ATR	_	t_1720|t_1719|ref=lap.phil._13
-15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_1721|t_1725|ref=lap.phil._13
-16	μὴ	μή	d	d--------	_	17	AuxZ	_	t_1722|t_1723|ref=lap.phil._13
-17	ἀποκαλύψαι	ἀποκρύπτω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	OBJ	_	t_1723|t_1725|ref=lap.phil._13
-18	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_1724|t_1723|ref=lap.phil._13
-19	καὶ	καί	c	c--------	_	10	COORD	_	t_1725|t_1716|ref=lap.phil._13
-20	δημοσιεῦσαι	δημοσιεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	OBJ	_	t_1726|t_1725|ref=lap.phil._13
-21	,	,	u	u--------	_	6	AuxX	_	t_1727|t_1712|ref=lap.phil._13
-22	θεῖον	θεῖος1	a	a-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_1728|t_1731|ref=lap.phil._13
-23	ἔχον	ἔχω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_1729|t_1726|ref=lap.phil._13
-24	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_1730|t_1731|ref=lap.phil._13
-25	εἶδος	εἶδος	n	n-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_1731|t_1729|ref=lap.phil._13
-26	,	,	u	u--------	_	6	AuxX	_	t_1732|t_1712|ref=lap.phil._13
-27	θείαν	θεῖος1	n	n-s---fa-	Case=a|Gender=f|Number=s	28	OBJ	_	t_1733|t_1734|ref=lap.phil._13
-28	καὶ	καί	c	c--------	_	20	COORD	_	t_1734|t_1726|ref=lap.phil._13
-29	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	30	ATR	_	t_1735|t_1736|ref=lap.phil._13
-30	ἐνέργειαν	ἐνέργεια	n	n-s---fa-	Case=a|Gender=f|Number=s	28	OBJ	_	t_1736|t_1734|ref=lap.phil._13
-31	[0]	[0]	-	---------	_	7	PRED	_	e_35|t_1713|ref=lap.phil._1
-32	·	·	u	u--------	_	6	AuxK	_	t_1737|t_1712|ref=lap.phil._13
+1	Ἰδοὺ	ἰδού	d	d--------	_	31	PNOM	_	t_1707|e_35|ref=lap.phil._14
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_1708|t_1709|ref=lap.phil._14
+3	μυστήριον	μυστήριον	n	n-s---nn-	Case=n|Gender=n|Number=s	31	SBJ	_	t_1709|e_35|ref=lap.phil._14
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1710|t_1711|ref=lap.phil._14
+5	φιλοσόφων	φιλόσοφος	n	n-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1711|t_1709|ref=lap.phil._14
+6	,	,	u	u--------	_	0	AuxX	_	t_1712|0|ref=lap.phil._14
+7	καὶ	καί	c	c--------	_	6	COORD	_	t_1713|t_1712|ref=lap.phil._14
+8	περὶ	περί	r	r--------	_	10	AuxP	_	t_1714|t_1716|ref=lap.phil._14
+9	αὐτοῦ	αὐτός	p	p-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_1715|t_1714|ref=lap.phil._14
+10	ἐξώρκισαν	ἐξορκίζω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	7	PRED	_	t_1716|t_1713|ref=lap.phil._14
+11	ὑμῖν	σύ	p	p-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_1717|t_1716|ref=lap.phil._14
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	13	ATR	_	t_1718|t_1719|ref=lap.phil._14
+13	πατέρες	πατήρ	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1719|t_1716|ref=lap.phil._14
+14	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p|Person=1	13	ATR	_	t_1720|t_1719|ref=lap.phil._14
+15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_1721|t_1725|ref=lap.phil._14
+16	μὴ	μή	d	d--------	_	17	AuxZ	_	t_1722|t_1723|ref=lap.phil._14
+17	ἀποκαλύψαι	ἀποκρύπτω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	OBJ	_	t_1723|t_1725|ref=lap.phil._14
+18	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	17	OBJ	_	t_1724|t_1723|ref=lap.phil._14
+19	καὶ	καί	c	c--------	_	10	COORD	_	t_1725|t_1716|ref=lap.phil._14
+20	δημοσιεῦσαι	δημοσιεύω	v	v--ana---	Mood=n|Tense=a|Voice=a	19	OBJ	_	t_1726|t_1725|ref=lap.phil._14
+21	,	,	u	u--------	_	6	AuxX	_	t_1727|t_1712|ref=lap.phil._14
+22	θεῖον	θεῖος1	a	a-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_1728|t_1731|ref=lap.phil._14
+23	ἔχον	ἔχω	v	v-sppana-	Case=a|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	20	ADV	_	t_1729|t_1726|ref=lap.phil._14
+24	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	25	ATR	_	t_1730|t_1731|ref=lap.phil._14
+25	εἶδος	εἶδος	n	n-s---na-	Case=a|Gender=n|Number=s	23	OBJ	_	t_1731|t_1729|ref=lap.phil._14
+26	,	,	u	u--------	_	6	AuxX	_	t_1732|t_1712|ref=lap.phil._14
+27	θείαν	θεῖος1	n	n-s---fa-	Case=a|Gender=f|Number=s	28	OBJ	_	t_1733|t_1734|ref=lap.phil._14
+28	καὶ	καί	c	c--------	_	20	COORD	_	t_1734|t_1726|ref=lap.phil._14
+29	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	30	ATR	_	t_1735|t_1736|ref=lap.phil._14
+30	ἐνέργειαν	ἐνέργεια	n	n-s---fa-	Case=a|Gender=f|Number=s	28	OBJ	_	t_1736|t_1734|ref=lap.phil._14
+31	[0]	[0]	-	---------	_	7	PRED	_	e_35|t_1713|ref=lap.phil._14
+32	·	·	u	u--------	_	6	AuxK	_	t_1737|t_1712|ref=lap.phil._14
 
-# source = Comarius, lap.phil._13-14
+# source = Comarius, lap.phil._14
 # text = θεῖον γάρ ἐστιν , ὅτι ἑνούμενον τῇ θεότητι , θείας ἀποτελεῖ τὰς οὐσίας , ἐν ᾧ τὸ πνεῦμα σωματοῦται , καὶ τὰ θνητὰ ( f [0] .
 # sent_id = 90
-1	θεῖον	θεῖος1	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_1738|t_1740|ref=lap.phil._13
-2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_1739|t_1740|ref=lap.phil._13
-3	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1740|0|ref=lap.phil._13
+1	θεῖον	θεῖος1	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_1738|t_1740|ref=lap.phil._14
+2	γάρ	γάρ	d	d--------	_	3	AuxY	_	t_1739|t_1740|ref=lap.phil._14
+3	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1740|0|ref=lap.phil._14
 4	,	,	u	u--------	_	3	AuxX	_	t_1741|t_1740|ref=lap.phil._14
 5	ὅτι	ὅτι	c	c--------	_	3	AuxC	_	t_1742|t_1740|ref=lap.phil._14
 6	ἑνούμενον	ἐφίστημι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	11	ADV	_	t_1743|t_1748|ref=lap.phil._14
@@ -2154,7 +2154,7 @@
 23	θνητὰ	θνητός	a	a-p---na-	Case=a|Gender=n|Number=p	21	OBJ	_	t_1760|t_1758|ref=lap.phil._14
 24	(	̔	u	u--------	_	3	AuxG	_	t_1761|t_1740|ref=lap.phil._14
 25	f	f	x	x--------	_	26	APOS	_	t_1762|e_36|ref=lap.phil._14
-26	[0]	[0]	-	---------	_	3	APOS	_	e_36|t_1740|ref=lap.phil._1
+26	[0]	[0]	-	---------	_	3	APOS	_	e_36|t_1740|ref=lap.phil._14
 27	.	.	u	u--------	_	3	AuxK	_	t_1763|t_1740|ref=lap.phil._14
 
 # source = Comarius, lap.phil._14
@@ -2171,7 +2171,7 @@
 1	ἐμψυχοῦνται	ἐμψυχόω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	12	PRED	_	t_1768|t_1779|ref=lap.phil._14
 2	,	,	u	u--------	_	0	AuxX	_	t_1769|0|ref=lap.phil._14
 3	καὶ	καί	c	c--------	_	12	AuxY	_	t_1770|t_1779|ref=lap.phil._14
-4	δεχόμενα	δέχομαι	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	11	ADV	_	t_1771|t_1778|ref=lap.phil._13
+4	δεχόμενα	δέχομαι	v	v-pppena-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=e	11	ADV	_	t_1771|t_1778|ref=lap.phil._14
 5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_1772|t_1773|ref=lap.phil._14
 6	πνεῦμα	πνεῦμα	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_1773|t_1771|ref=lap.phil._14
 7	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_1774|t_1773|ref=lap.phil._14
@@ -2234,49 +2234,49 @@
 45	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	44	ATR	_	t_1827|t_1826|ref=lap.phil._14
 46	ἐκτεταμένον	ἐκτείνω	v	v-srpena-	Case=a|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	44	ATR	_	t_1828|t_1826|ref=lap.phil._14
 47	)	)	u	u--------	_	32	AuxG	_	t_1829|t_1814|ref=lap.phil._14
-48	[0]	[0]	-	---------	_	1	ADV	_	e_37|t_1783|ref=lap.phil._1
+48	[0]	[0]	-	---------	_	1	ADV	_	e_37|t_1783|ref=lap.phil._14
 49	.	.	u	u--------	_	32	AuxK	_	t_1830|t_1814|ref=lap.phil._14
 
-# source = Comarius, lap.phil._14-15
+# source = Comarius, lap.phil._15
 # text = Ἐπ ’ ἂν δὲ αὐτὸ τὸ πνεῦμα τὸ σκοτεινὸν καὶ βρωμοῦν ἀποβληθείη , ὥστε μὴ φανῆναι ὀσμὴν , μή τε τὴν χροιὰν τοῦ σκότους , τότε φaωτίζεται τὸ σῶμα , καὶ χαίρεται ἡ ψυχὴ καὶ τὸ πνεῦμα ὅτε ἀπέδρα τὸ σκότος ἀπὸ τοῦ σώματος ·
 # sent_id = 94
-1	Ἐπ	ἐπί	r	r--------	_	12	AuxP	_	t_1831|t_1842|ref=lap.phil._14
-2	’	’	c	c--------	_	27	AuxC	_	t_1832|t_1857|ref=lap.phil._14
-3	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_1833|t_1842|ref=lap.phil._14
-4	δὲ	δέ	d	d--------	_	27	AuxY	_	t_1834|t_1857|ref=lap.phil._14
-5	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1835|t_1837|ref=lap.phil._14
-6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1836|t_1837|ref=lap.phil._14
-7	πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1837|t_1842|ref=lap.phil._14
-8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1838|t_1837|ref=lap.phil._14
-9	σκοτεινὸν	σκοτεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_1839|t_1840|ref=lap.phil._14
-10	καὶ	καί	c	c--------	_	7	COORD	_	t_1840|t_1837|ref=lap.phil._14
-11	βρωμοῦν	βρωμέω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_1841|t_1840|ref=lap.phil._14
-12	ἀποβληθείη	ἀποβάλλω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	2	ADV	_	t_1842|t_1832|ref=lap.phil._14
-13	,	,	u	u--------	_	0	AuxX	_	t_1843|0|ref=lap.phil._14
-14	ὥστε	ὥστε	c	c--------	_	12	AuxC	_	t_1844|t_1842|ref=lap.phil._14
-15	μὴ	μή	d	d--------	_	16	AuxZ	_	t_1845|t_1846|ref=lap.phil._14
-16	φανῆναι	φαίνω	v	v--anp---	Mood=n|Tense=a|Voice=p	14	ADV	_	t_1846|t_1844|ref=lap.phil._14
-17	ὀσμὴν	ὀσμή	n	n-s---fa-	Case=a|Gender=f|Number=s	20	SBJ	_	t_1847|t_1850|ref=lap.phil._14
-18	,	,	u	u--------	_	13	AuxX	_	t_1848|t_1843|ref=lap.phil._14
-19	μή	μή	d	d--------	_	20	AuxY	_	t_1849|t_1850|ref=lap.phil._14
-20	τε	τε	c	c--------	_	16	COORD	_	t_1850|t_1846|ref=lap.phil._14
-21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_1851|t_1852|ref=lap.phil._14
-22	χροιὰν	χροιά	n	n-s---fa-	Case=a|Gender=f|Number=s	20	SBJ	_	t_1852|t_1850|ref=lap.phil._14
-23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_1853|t_1854|ref=lap.phil._14
-24	σκότους	σκότος	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1854|t_1852|ref=lap.phil._14
-25	,	,	u	u--------	_	13	AuxX	_	t_1855|t_1843|ref=lap.phil._14
-26	τότε	τότε	d	d--------	_	27	ADV	_	t_1856|t_1857|ref=lap.phil._14
-27	φaωτίζεται	φαωτίζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	31	PRED	_	t_1857|t_1861|ref=lap.phil._14
-28	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	29	ATR	_	t_1858|t_1859|ref=lap.phil._14
-29	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	27	SBJ	_	t_1859|t_1857|ref=lap.phil._14
-30	,	,	u	u--------	_	13	AuxX	_	t_1860|t_1843|ref=lap.phil._14
-31	καὶ	καί	c	c--------	_	13	COORD	_	t_1861|t_1843|ref=lap.phil._14
-32	χαίρεται	χαίρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	31	PRED	_	t_1862|t_1861|ref=lap.phil._14
-33	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	34	ATR	_	t_1863|t_1864|ref=lap.phil._14
-34	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_1864|t_1865|ref=lap.phil._14
-35	καὶ	καί	c	c--------	_	32	COORD	_	t_1865|t_1862|ref=lap.phil._14
-36	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	37	ATR	_	t_1866|t_1867|ref=lap.phil._14
-37	πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_1867|t_1865|ref=lap.phil._14
+1	Ἐπ	ἐπί	r	r--------	_	12	AuxP	_	t_1831|t_1842|ref=lap.phil._15
+2	’	’	c	c--------	_	27	AuxC	_	t_1832|t_1857|ref=lap.phil._15
+3	ἂν	ἄν	d	d--------	_	12	AuxY	_	t_1833|t_1842|ref=lap.phil._15
+4	δὲ	δέ	d	d--------	_	27	AuxY	_	t_1834|t_1857|ref=lap.phil._15
+5	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1835|t_1837|ref=lap.phil._15
+6	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1836|t_1837|ref=lap.phil._15
+7	πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1837|t_1842|ref=lap.phil._15
+8	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1838|t_1837|ref=lap.phil._15
+9	σκοτεινὸν	σκοτεινός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_1839|t_1840|ref=lap.phil._15
+10	καὶ	καί	c	c--------	_	7	COORD	_	t_1840|t_1837|ref=lap.phil._15
+11	βρωμοῦν	βρωμέω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_1841|t_1840|ref=lap.phil._15
+12	ἀποβληθείη	ἀποβάλλω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	2	ADV	_	t_1842|t_1832|ref=lap.phil._15
+13	,	,	u	u--------	_	0	AuxX	_	t_1843|0|ref=lap.phil._15
+14	ὥστε	ὥστε	c	c--------	_	12	AuxC	_	t_1844|t_1842|ref=lap.phil._15
+15	μὴ	μή	d	d--------	_	16	AuxZ	_	t_1845|t_1846|ref=lap.phil._15
+16	φανῆναι	φαίνω	v	v--anp---	Mood=n|Tense=a|Voice=p	14	ADV	_	t_1846|t_1844|ref=lap.phil._15
+17	ὀσμὴν	ὀσμή	n	n-s---fa-	Case=a|Gender=f|Number=s	20	SBJ	_	t_1847|t_1850|ref=lap.phil._15
+18	,	,	u	u--------	_	13	AuxX	_	t_1848|t_1843|ref=lap.phil._15
+19	μή	μή	d	d--------	_	20	AuxY	_	t_1849|t_1850|ref=lap.phil._15
+20	τε	τε	c	c--------	_	16	COORD	_	t_1850|t_1846|ref=lap.phil._15
+21	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	22	ATR	_	t_1851|t_1852|ref=lap.phil._15
+22	χροιὰν	χροιά	n	n-s---fa-	Case=a|Gender=f|Number=s	20	SBJ	_	t_1852|t_1850|ref=lap.phil._15
+23	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	24	ATR	_	t_1853|t_1854|ref=lap.phil._15
+24	σκότους	σκότος	n	n-s---ng-	Case=g|Gender=n|Number=s	22	ATR	_	t_1854|t_1852|ref=lap.phil._15
+25	,	,	u	u--------	_	13	AuxX	_	t_1855|t_1843|ref=lap.phil._15
+26	τότε	τότε	d	d--------	_	27	ADV	_	t_1856|t_1857|ref=lap.phil._15
+27	φaωτίζεται	φαωτίζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	31	PRED	_	t_1857|t_1861|ref=lap.phil._15
+28	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	29	ATR	_	t_1858|t_1859|ref=lap.phil._15
+29	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	27	SBJ	_	t_1859|t_1857|ref=lap.phil._15
+30	,	,	u	u--------	_	13	AuxX	_	t_1860|t_1843|ref=lap.phil._15
+31	καὶ	καί	c	c--------	_	13	COORD	_	t_1861|t_1843|ref=lap.phil._15
+32	χαίρεται	χαίρω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	31	PRED	_	t_1862|t_1861|ref=lap.phil._15
+33	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	34	ATR	_	t_1863|t_1864|ref=lap.phil._15
+34	ψυχὴ	ψυχή	n	n-s---fn-	Case=n|Gender=f|Number=s	35	SBJ	_	t_1864|t_1865|ref=lap.phil._15
+35	καὶ	καί	c	c--------	_	32	COORD	_	t_1865|t_1862|ref=lap.phil._15
+36	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	37	ATR	_	t_1866|t_1867|ref=lap.phil._15
+37	πνεῦμα	πνεῦμα	n	n-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_1867|t_1865|ref=lap.phil._15
 38	ὅτε	ὅτε	c	c--------	_	32	AuxC	_	t_1868|t_1862|ref=lap.phil._15
 39	ἀπέδρα	ἀποδιδράσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	38	ADV	_	t_1869|t_1868|ref=lap.phil._15
 40	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	41	ATR	_	t_1870|t_1871|ref=lap.phil._15
@@ -2406,7 +2406,7 @@
 61	,	,	u	u--------	_	15	AuxX	_	t_1982|t_1936|ref=lap.phil._15
 62	(	̔	v	v3spia---	_	15	AuxG	_	t_1983|t_1936|ref=lap.phil._15
 63	f	f	x	x--------	_	62	ExD	_	t_1984|t_1983|ref=lap.phil._15
-64	[0]	[0]	-	---------	_	9	ADV	_	e_38|t_1930|ref=lap.phil._1
+64	[0]	[0]	-	---------	_	9	ADV	_	e_38|t_1930|ref=lap.phil._15
 65	.	.	u	u--------	_	15	AuxK	_	t_1985|t_1936|ref=lap.phil._15
 
 # source = Comarius, lap.phil._15
@@ -2415,7 +2415,7 @@
 1	78	78	-	---------	_	0	PRED	_	t_1986|0|ref=lap.phil._15
 2	r	r	x	x--------	_	1	OBJ	_	t_1987|t_1986|ref=lap.phil._15
 3	.	.	u	u--------	_	1	AuxK	_	t_1988|t_1986|ref=lap.phil._15
-4	[0]	[0]	-	---------	_	1	OBJ	_	e_39|t_1986|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	1	OBJ	_	e_39|t_1986|ref=lap.phil._15
 5	)	)	u	u--------	_	1	AuxG	_	t_1989|t_1986|ref=lap.phil._15
 
 # source = Comarius, lap.phil._15
@@ -2533,54 +2533,54 @@
 15	ἐξηλθεν	ἐξέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	8	PRED	_	t_2083|t_2076|ref=lap.phil._15
 16	.	.	u	u--------	_	8	AuxK	_	t_2084|t_2076|ref=lap.phil._15
 
-# source = Comarius, lap.phil._15-16
+# source = Comarius, lap.phil._16
 # text = Ὅμως καὶ ἐκ τῆς γαστρὸς τῶν ὑδάτων , καὶ ἐκ τοῦ ἀέρος τοῦ διακονοῦντος αὐτοῖς , καὶ αὐτὸ ἐξήνεγκεν αὐτοὺς ἐκ τοῦ σκότους εἰς φῶς , καὶ ἐκ πένθους εἰς φαιδρότητα , καὶ ἐξ ἀσθενείας εἰς ὑγείαν , καὶ ἐκ θανάτου εἰς ζωήν [0] [1] ·
 # sent_id = 104
-1	Ὅμως	ὅμως	d	d--------	_	39	AuxY	_	t_2085|t_2123|ref=lap.phil._15
-2	καὶ	καί	d	d--------	_	39	AuxY	_	t_2086|t_2123|ref=lap.phil._15
-3	ἐκ	ἐκ	r	r--------	_	44	AuxP	_	t_2087|e_40|ref=lap.phil._15
-4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_2088|t_2089|ref=lap.phil._15
-5	γαστρὸς	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_2089|t_2087|ref=lap.phil._15
-6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_2090|t_2091|ref=lap.phil._15
-7	ὑδάτων	ὕδωρ	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_2091|t_2089|ref=lap.phil._15
-8	,	,	u	u--------	_	0	AuxX	_	t_2092|0|ref=lap.phil._15
-9	καὶ	καί	d	d--------	_	39	AuxY	_	t_2093|t_2123|ref=lap.phil._15
-10	ἐκ	ἐκ	r	r--------	_	44	AuxP	_	t_2094|e_40|ref=lap.phil._15
-11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_2095|t_2096|ref=lap.phil._15
-12	ἀέρος	ἀήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_2096|t_2094|ref=lap.phil._15
-13	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_2097|t_2096|ref=lap.phil._15
-14	διακονοῦντος	διακονέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_2098|t_2096|ref=lap.phil._15
-15	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_2099|t_2098|ref=lap.phil._15
-16	,	,	u	u--------	_	8	AuxX	_	t_2100|t_2092|ref=lap.phil._15
-17	καὶ	καί	d	d--------	_	39	AuxY	_	t_2101|t_2123|ref=lap.phil._15
-18	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_2102|t_2103|ref=lap.phil._15
-19	ἐξήνεγκεν	ἐκφέρω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	39	PRED	_	t_2103|t_2123|ref=lap.phil._15
-20	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	19	OBJ	_	t_2104|t_2103|ref=lap.phil._15
-21	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_2105|t_2103|ref=lap.phil._15
-22	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	23	ATR	_	t_2106|t_2107|ref=lap.phil._15
-23	σκότους	σκότος	n	n-s---ng-	Case=g|Gender=n|Number=s	21	ADV	_	t_2107|t_2105|ref=lap.phil._15
-24	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_2108|t_2103|ref=lap.phil._15
-25	φῶς	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_2109|t_2108|ref=lap.phil._15
-26	,	,	u	u--------	_	8	AuxX	_	t_2110|t_2092|ref=lap.phil._15
-27	καὶ	καί	d	d--------	_	39	AuxY	_	t_2111|t_2123|ref=lap.phil._15
-28	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_2112|t_2103|ref=lap.phil._15
-29	πένθους	πένθος	n	n-s---ng-	Case=g|Gender=n|Number=s	28	ADV	_	t_2113|t_2112|ref=lap.phil._15
-30	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_2114|t_2103|ref=lap.phil._15
-31	φαιδρότητα	φαιδρότης	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_2115|t_2114|ref=lap.phil._15
-32	,	,	u	u--------	_	8	AuxX	_	t_2116|t_2092|ref=lap.phil._15
-33	καὶ	καί	d	d--------	_	39	AuxY	_	t_2117|t_2123|ref=lap.phil._15
-34	ἐξ	ἐκ	r	r--------	_	45	AuxP	_	t_2118|e_41|ref=lap.phil._15
-35	ἀσθενείας	ἀσθένεια	n	n-s---fg-	Case=g|Gender=f|Number=s	34	ADV	_	t_2119|t_2118|ref=lap.phil._15
-36	εἰς	εἰς	r	r--------	_	45	AuxP	_	t_2120|e_41|ref=lap.phil._15
-37	ὑγείαν	ὑγεία	n	n-s---fa-	Case=a|Gender=f|Number=s	36	OBJ	_	t_2121|t_2120|ref=lap.phil._15
-38	,	,	u	u--------	_	8	AuxX	_	t_2122|t_2092|ref=lap.phil._15
-39	καὶ	καί	c	c--------	_	8	COORD	_	t_2123|t_2092|ref=lap.phil._15
+1	Ὅμως	ὅμως	d	d--------	_	39	AuxY	_	t_2085|t_2123|ref=lap.phil._16
+2	καὶ	καί	d	d--------	_	39	AuxY	_	t_2086|t_2123|ref=lap.phil._16
+3	ἐκ	ἐκ	r	r--------	_	44	AuxP	_	t_2087|e_40|ref=lap.phil._16
+4	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_2088|t_2089|ref=lap.phil._16
+5	γαστρὸς	γαστήρ	n	n-s---fg-	Case=g|Gender=f|Number=s	3	ADV	_	t_2089|t_2087|ref=lap.phil._16
+6	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_2090|t_2091|ref=lap.phil._16
+7	ὑδάτων	ὕδωρ	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_2091|t_2089|ref=lap.phil._16
+8	,	,	u	u--------	_	0	AuxX	_	t_2092|0|ref=lap.phil._16
+9	καὶ	καί	d	d--------	_	39	AuxY	_	t_2093|t_2123|ref=lap.phil._16
+10	ἐκ	ἐκ	r	r--------	_	44	AuxP	_	t_2094|e_40|ref=lap.phil._16
+11	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_2095|t_2096|ref=lap.phil._16
+12	ἀέρος	ἀήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_2096|t_2094|ref=lap.phil._16
+13	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	12	ATR	_	t_2097|t_2096|ref=lap.phil._16
+14	διακονοῦντος	διακονέω	v	v-sppamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ATR	_	t_2098|t_2096|ref=lap.phil._16
+15	αὐτοῖς	αὐτός	p	p-p---md-	Case=d|Gender=m|Number=p	14	OBJ	_	t_2099|t_2098|ref=lap.phil._16
+16	,	,	u	u--------	_	8	AuxX	_	t_2100|t_2092|ref=lap.phil._16
+17	καὶ	καί	d	d--------	_	39	AuxY	_	t_2101|t_2123|ref=lap.phil._16
+18	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_2102|t_2103|ref=lap.phil._16
+19	ἐξήνεγκεν	ἐκφέρω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	39	PRED	_	t_2103|t_2123|ref=lap.phil._16
+20	αὐτοὺς	αὐτός	p	p-p---ma-	Case=a|Gender=m|Number=p	19	OBJ	_	t_2104|t_2103|ref=lap.phil._16
+21	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_2105|t_2103|ref=lap.phil._16
+22	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	23	ATR	_	t_2106|t_2107|ref=lap.phil._16
+23	σκότους	σκότος	n	n-s---ng-	Case=g|Gender=n|Number=s	21	ADV	_	t_2107|t_2105|ref=lap.phil._16
+24	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_2108|t_2103|ref=lap.phil._16
+25	φῶς	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	24	OBJ	_	t_2109|t_2108|ref=lap.phil._16
+26	,	,	u	u--------	_	8	AuxX	_	t_2110|t_2092|ref=lap.phil._16
+27	καὶ	καί	d	d--------	_	39	AuxY	_	t_2111|t_2123|ref=lap.phil._16
+28	ἐκ	ἐκ	r	r--------	_	19	AuxP	_	t_2112|t_2103|ref=lap.phil._16
+29	πένθους	πένθος	n	n-s---ng-	Case=g|Gender=n|Number=s	28	ADV	_	t_2113|t_2112|ref=lap.phil._16
+30	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_2114|t_2103|ref=lap.phil._16
+31	φαιδρότητα	φαιδρότης	n	n-s---fa-	Case=a|Gender=f|Number=s	30	OBJ	_	t_2115|t_2114|ref=lap.phil._16
+32	,	,	u	u--------	_	8	AuxX	_	t_2116|t_2092|ref=lap.phil._16
+33	καὶ	καί	d	d--------	_	39	AuxY	_	t_2117|t_2123|ref=lap.phil._16
+34	ἐξ	ἐκ	r	r--------	_	45	AuxP	_	t_2118|e_41|ref=lap.phil._16
+35	ἀσθενείας	ἀσθένεια	n	n-s---fg-	Case=g|Gender=f|Number=s	34	ADV	_	t_2119|t_2118|ref=lap.phil._16
+36	εἰς	εἰς	r	r--------	_	45	AuxP	_	t_2120|e_41|ref=lap.phil._16
+37	ὑγείαν	ὑγεία	n	n-s---fa-	Case=a|Gender=f|Number=s	36	OBJ	_	t_2121|t_2120|ref=lap.phil._16
+38	,	,	u	u--------	_	8	AuxX	_	t_2122|t_2092|ref=lap.phil._16
+39	καὶ	καί	c	c--------	_	8	COORD	_	t_2123|t_2092|ref=lap.phil._16
 40	ἐκ	ἐκ	r	r--------	_	45	AuxP	_	t_2124|e_41|ref=lap.phil._16
 41	θανάτου	θάνατος	n	n-s---mg-	Case=g|Gender=m|Number=s	40	ADV	_	t_2125|t_2124|ref=lap.phil._16
 42	εἰς	εἰς	r	r--------	_	45	AuxP	_	t_2126|e_41|ref=lap.phil._16
 43	ζωήν	ζωή	n	n-s---fa-	Case=a|Gender=f|Number=s	42	OBJ	_	t_2127|t_2126|ref=lap.phil._16
-44	[0]	[0]	-	---------	_	39	PRED	_	e_40|t_2123|ref=lap.phil._1
-45	[1]	[1]	-	---------	_	39	PRED	_	e_41|t_2123|ref=lap.phil._1
+44	[0]	[0]	-	---------	_	39	PRED	_	e_40|t_2123|ref=lap.phil._16
+45	[1]	[1]	-	---------	_	39	PRED	_	e_41|t_2123|ref=lap.phil._16
 46	·	·	u	u--------	_	8	AuxK	_	t_2128|t_2092|ref=lap.phil._16
 
 # source = Comarius, lap.phil._16
@@ -2730,7 +2730,7 @@
 10	χοῦς	χοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_2246|e_42|ref=lap.phil._16
 11	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	12	ATR	_	t_2247|t_2248|ref=lap.phil._16
 12	ἀέρι	ἀήρ	n	n-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_2248|e_42|ref=lap.phil._16
-13	[0]	[0]	-	---------	_	8	PRED	_	e_42|t_2244|ref=lap.phil._1
+13	[0]	[0]	-	---------	_	8	PRED	_	e_42|t_2244|ref=lap.phil._16
 14	.	.	u	u--------	_	7	AuxK	_	t_2249|t_2243|ref=lap.phil._16
 
 # source = Comarius, lap.phil._16
@@ -2771,9 +2771,9 @@
 33	καὶ	καί	c	c--------	_	8	COORD	_	t_2282|t_2257|ref=lap.phil._16
 34	ἐγένοντο	γίγνομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	33	PRED	_	t_2283|t_2282|ref=lap.phil._16
 35	ἕν	εἷς	m	m-s---nn-	Case=n|Gender=n|Number=s	34	PNOM	_	t_2284|t_2283|ref=lap.phil._16
-36	[0]	[0]	-	---------	_	33	PRED	_	e_43|t_2282|ref=lap.phil._1
-37	[1]	[1]	-	---------	_	33	PRED	_	e_44|t_2282|ref=lap.phil._1
-38	[2]	[2]	-	---------	_	33	PRED	_	e_45|t_2282|ref=lap.phil._1
+36	[0]	[0]	-	---------	_	33	PRED	_	e_43|t_2282|ref=lap.phil._16
+37	[1]	[1]	-	---------	_	33	PRED	_	e_44|t_2282|ref=lap.phil._16
+38	[2]	[2]	-	---------	_	33	PRED	_	e_45|t_2282|ref=lap.phil._16
 39	.	.	u	u--------	_	8	AuxK	_	t_2285|t_2257|ref=lap.phil._16
 
 # source = Comarius, lap.phil._16
@@ -2853,70 +2853,70 @@
 44	καὶ	καί	c	c--------	_	9	COORD	_	t_2353|t_2318|ref=lap.phil._16
 45	ἀλλήλοις	ἀλλήλων	p	p-p---nd-	Case=d|Gender=m|Number=p	46	OBJ	_	t_2354|t_2355|ref=lap.phil._16
 46	ἡνώθησαν	ἑνόομαι	v	v3paip---	Mood=i|Number=p|Person=3|Tense=a|Voice=p	44	PRED	_	t_2355|t_2353|ref=lap.phil._16
-47	[0]	[0]	-	---------	_	36	PRED	_	e_46|t_2345|ref=lap.phil._1
+47	[0]	[0]	-	---------	_	36	PRED	_	e_46|t_2345|ref=lap.phil._16
 48	.	.	u	u--------	_	9	AuxK	_	t_2356|t_2318|ref=lap.phil._16
 
-# source = Comarius, lap.phil._16
+# source = Comarius, lap.phil._17
 # text = Τοῦτο τὸ μυστήριον ἐμάθομεν , ἀδελφοὶ , ἐκ θεοῦ καὶ ἐκ τοῦ πατρὸς ἡμῶν Κομαρίου τοῦ ἀρχαίου .
 # sent_id = 115
-1	Τοῦτο	οὗτος	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_2357|t_2359|ref=lap.phil._16
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_2358|t_2359|ref=lap.phil._16
-3	μυστήριον	μυστήριον	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_2359|t_2360|ref=lap.phil._16
-4	ἐμάθομεν	μανθάνω	v	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	PRED	_	t_2360|0|ref=lap.phil._16
-5	,	,	u	u--------	_	4	AuxX	_	t_2361|t_2360|ref=lap.phil._16
-6	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_2362|t_2360|ref=lap.phil._16
-7	,	,	u	u--------	_	4	AuxX	_	t_2363|t_2360|ref=lap.phil._16
-8	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_2364|t_2366|ref=lap.phil._16
-9	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_2365|t_2364|ref=lap.phil._16
-10	καὶ	καί	c	c--------	_	4	COORD	_	t_2366|t_2360|ref=lap.phil._16
-11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_2367|t_2366|ref=lap.phil._16
-12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_2368|t_2369|ref=lap.phil._16
-13	πατρὸς	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2369|t_2371|ref=lap.phil._16
-14	ἡμῶν	ἐγώ	p	p-p---mg-	Case=g|Gender=c|Number=p|Person=1	13	ATR	_	t_2370|t_2369|ref=lap.phil._16
-15	Κομαρίου	κομάριον	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_2371|t_2367|ref=lap.phil._16
-16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2372|t_2371|ref=lap.phil._16
-17	ἀρχαίου	ἀρχαῖος	a	a-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2373|t_2371|ref=lap.phil._16
-18	.	.	u	u--------	_	4	AuxK	_	t_2374|t_2360|ref=lap.phil._16
+1	Τοῦτο	οὗτος	a	a-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_2357|t_2359|ref=lap.phil._17
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	3	ATR	_	t_2358|t_2359|ref=lap.phil._17
+3	μυστήριον	μυστήριον	n	n-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_2359|t_2360|ref=lap.phil._17
+4	ἐμάθομεν	μανθάνω	v	v1paia---	Mood=i|Number=p|Person=1|Tense=a|Voice=a	0	PRED	_	t_2360|0|ref=lap.phil._17
+5	,	,	u	u--------	_	4	AuxX	_	t_2361|t_2360|ref=lap.phil._17
+6	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	4	ExD	_	t_2362|t_2360|ref=lap.phil._17
+7	,	,	u	u--------	_	4	AuxX	_	t_2363|t_2360|ref=lap.phil._17
+8	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_2364|t_2366|ref=lap.phil._17
+9	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_2365|t_2364|ref=lap.phil._17
+10	καὶ	καί	c	c--------	_	4	COORD	_	t_2366|t_2360|ref=lap.phil._17
+11	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_2367|t_2366|ref=lap.phil._17
+12	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	13	ATR	_	t_2368|t_2369|ref=lap.phil._17
+13	πατρὸς	πατήρ	n	n-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2369|t_2371|ref=lap.phil._17
+14	ἡμῶν	ἐγώ	p	p-p---mg-	Case=g|Gender=c|Number=p|Person=1	13	ATR	_	t_2370|t_2369|ref=lap.phil._17
+15	Κομαρίου	κομάριον	n	n-s---mg-	Case=g|Gender=m|Number=s	11	ADV	_	t_2371|t_2367|ref=lap.phil._17
+16	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2372|t_2371|ref=lap.phil._17
+17	ἀρχαίου	ἀρχαῖος	a	a-s---mg-	Case=g|Gender=m|Number=s	15	ATR	_	t_2373|t_2371|ref=lap.phil._17
+18	.	.	u	u--------	_	4	AuxK	_	t_2374|t_2360|ref=lap.phil._17
 
-# source = Comarius, lap.phil._16
+# source = Comarius, lap.phil._17
 # text = Ἰδοὺ εἶπον ὑμῖν , ἀδελφοὶ , πᾶσαν τὴν ἀλήθειαν κεκρυμμένην παρὰ πολλῶν σοφῶν καὶ προφητῶν .
 # sent_id = 116
-1	Ἰδοὺ	ἰδού	a	a-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_2375|t_2376|ref=lap.phil._16
-2	εἶπον	εἶπον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_2376|0|ref=lap.phil._16
-3	ὑμῖν	σύ	p	p2p---md-	Case=d|Gender=m|Number=p|Person=2	2	OBJ	_	t_2377|t_2376|ref=lap.phil._16
-4	,	,	u	u--------	_	5	AuxX	_	t_2378|t_2379|ref=lap.phil._16
-5	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	2	ExD	_	t_2379|t_2376|ref=lap.phil._16
-6	,	,	u	u--------	_	2	AuxX	_	t_2380|t_2376|ref=lap.phil._16
-7	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_2381|t_2383|ref=lap.phil._16
-8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_2382|t_2383|ref=lap.phil._16
-9	ἀλήθειαν	ἀλήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	10	SBJ	_	t_2383|t_2384|ref=lap.phil._16
-10	κεκρυμμένην	κρύπτω	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	2	OBJ	_	t_2384|t_2376|ref=lap.phil._16
-11	παρὰ	παρά	r	r--------	_	10	AuxP	_	t_2385|t_2384|ref=lap.phil._16
-12	πολλῶν	πολύς	a	a-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_2386|t_2388|ref=lap.phil._16
-13	σοφῶν	σοφός	a	a-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_2387|t_2388|ref=lap.phil._16
-14	καὶ	καί	c	c--------	_	11	COORD	_	t_2388|t_2385|ref=lap.phil._16
-15	προφητῶν	προφήτης	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_2389|t_2388|ref=lap.phil._16
-16	.	.	u	u--------	_	2	AuxK	_	t_2390|t_2376|ref=lap.phil._16
+1	Ἰδοὺ	ἰδού	a	a-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_2375|t_2376|ref=lap.phil._17
+2	εἶπον	εἶπον	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	0	PRED	_	t_2376|0|ref=lap.phil._17
+3	ὑμῖν	σύ	p	p2p---md-	Case=d|Gender=m|Number=p|Person=2	2	OBJ	_	t_2377|t_2376|ref=lap.phil._17
+4	,	,	u	u--------	_	5	AuxX	_	t_2378|t_2379|ref=lap.phil._17
+5	ἀδελφοὶ	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	2	ExD	_	t_2379|t_2376|ref=lap.phil._17
+6	,	,	u	u--------	_	2	AuxX	_	t_2380|t_2376|ref=lap.phil._17
+7	πᾶσαν	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_2381|t_2383|ref=lap.phil._17
+8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_2382|t_2383|ref=lap.phil._17
+9	ἀλήθειαν	ἀλήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	10	SBJ	_	t_2383|t_2384|ref=lap.phil._17
+10	κεκρυμμένην	κρύπτω	v	v-srpefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=r|Voice=e	2	OBJ	_	t_2384|t_2376|ref=lap.phil._17
+11	παρὰ	παρά	r	r--------	_	10	AuxP	_	t_2385|t_2384|ref=lap.phil._17
+12	πολλῶν	πολύς	a	a-p---mg-	Case=g|Gender=m|Number=p	14	ATR	_	t_2386|t_2388|ref=lap.phil._17
+13	σοφῶν	σοφός	a	a-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_2387|t_2388|ref=lap.phil._17
+14	καὶ	καί	c	c--------	_	11	COORD	_	t_2388|t_2385|ref=lap.phil._17
+15	προφητῶν	προφήτης	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_2389|t_2388|ref=lap.phil._17
+16	.	.	u	u--------	_	2	AuxK	_	t_2390|t_2376|ref=lap.phil._17
 
-# source = Comarius, lap.phil._16
+# source = Comarius, lap.phil._17
 # text = Φασὶν δὲ πρὸς αὐτὴν οἱ φιλόσοφοι ·
 # sent_id = 117
-1	Φασὶν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2391|0|ref=lap.phil._16
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_2392|t_2391|ref=lap.phil._16
-3	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_2393|t_2391|ref=lap.phil._16
-4	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_2394|t_2393|ref=lap.phil._16
-5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_2395|t_2396|ref=lap.phil._16
-6	φιλόσοφοι	φιλόσοφος	n	n-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_2396|t_2391|ref=lap.phil._16
-7	·	·	u	u--------	_	1	AuxK	_	t_2397|t_2391|ref=lap.phil._16
+1	Φασὶν	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_2391|0|ref=lap.phil._17
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_2392|t_2391|ref=lap.phil._17
+3	πρὸς	πρός	r	r--------	_	1	AuxP	_	t_2393|t_2391|ref=lap.phil._17
+4	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	3	OBJ	_	t_2394|t_2393|ref=lap.phil._17
+5	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	6	ATR	_	t_2395|t_2396|ref=lap.phil._17
+6	φιλόσοφοι	φιλόσοφος	n	n-p---mn-	Case=n|Gender=m|Number=p	1	SBJ	_	t_2396|t_2391|ref=lap.phil._17
+7	·	·	u	u--------	_	1	AuxK	_	t_2397|t_2391|ref=lap.phil._17
 
-# source = Comarius, lap.phil._16-17
+# source = Comarius, lap.phil._17
 # text = ἐξέστησας ἡμᾶς , Κλεοπάτρα , εἰς ὃ λελάληκας ἡμῖν ·
 # sent_id = 118
-1	ἐξέστησας	ἐξίστημι	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_2398|0|ref=lap.phil._16
-2	ἡμᾶς	ἐγώ	p	p1p---ca-	Case=a|Gender=c|Number=p|Person=1	1	OBJ	_	t_2399|t_2398|ref=lap.phil._16
-3	,	,	u	u--------	_	1	AuxX	_	t_2400|t_2398|ref=lap.phil._16
-4	Κλεοπάτρα	κλεοπάτρη	n	n-s---fv-	Case=v|Gender=m|Number=s	1	ExD	_	t_2401|t_2398|ref=lap.phil._16
-5	,	,	u	u--------	_	1	AuxX	_	t_2402|t_2398|ref=lap.phil._16
+1	ἐξέστησας	ἐξίστημι	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_2398|0|ref=lap.phil._17
+2	ἡμᾶς	ἐγώ	p	p1p---ca-	Case=a|Gender=c|Number=p|Person=1	1	OBJ	_	t_2399|t_2398|ref=lap.phil._17
+3	,	,	u	u--------	_	1	AuxX	_	t_2400|t_2398|ref=lap.phil._17
+4	Κλεοπάτρα	κλεοπάτρη	n	n-s---fv-	Case=v|Gender=m|Number=s	1	ExD	_	t_2401|t_2398|ref=lap.phil._17
+5	,	,	u	u--------	_	1	AuxX	_	t_2402|t_2398|ref=lap.phil._17
 6	εἰς	εἰς	r	r--------	_	8	AuxP	_	t_2403|t_2405|ref=lap.phil._17
 7	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_2404|t_2403|ref=lap.phil._17
 8	λελάληκας	λαλέω	v	v2sria---	Mood=i|Number=s|Person=2|Tense=r|Voice=a	1	OBJ	_	t_2405|t_2398|ref=lap.phil._17
@@ -2991,7 +2991,7 @@
 1	79	79	x	x--------	_	4	AuxG	_	t_2454|e_47|ref=lap.phil._17
 2	r	r	n	n--------	_	4	AuxG	_	t_2455|e_47|ref=lap.phil._17
 3	.	.	u	u--------	_	4	AuxK	_	t_2456|e_47|ref=lap.phil._17
-4	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=lap.phil._17
 5	)	)	u	u--------	_	4	AuxG	_	t_2457|e_47|ref=lap.phil._17
 
 # source = Comarius, lap.phil._17
@@ -3004,7 +3004,7 @@
 5	πρότερον	πρότερος	a	a-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_2462|t_2464|ref=lap.phil._17
 6	οὐκ	οὐ	d	d--------	_	7	AuxZ	_	t_2463|t_2464|ref=lap.phil._17
 7	εἶχον	ἔχω	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	2	OBJ	_	t_2464|t_2459|ref=lap.phil._17
-8	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=lap.phil._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=lap.phil._17
 9	.	.	u	u--------	_	8	AuxK	_	t_2465|e_48|ref=lap.phil._17
 
 # source = Comarius, lap.phil._17
@@ -3072,9 +3072,9 @@
 30	καὶ	καί	c	c--------	_	35	COORD	_	t_2513|e_51|ref=lap.phil._17
 31	παρεμβολαὶ	παρεμβολή	n	n-p---fn-	Case=n|Gender=f|Number=p	30	SBJ	_	t_2514|t_2513|ref=lap.phil._17
 32	ἐνδοξόταται	ἔνδοξος	a	a-p---fns	Case=n|Degree=s|Gender=f|Number=p	31	ATR	_	t_2515|t_2514|ref=lap.phil._17
-33	[0]	[0]	-	---------	_	14	ADV	_	e_49|t_2497|ref=lap.phil._1
-34	[1]	[1]	-	---------	_	14	ADV	_	e_50|t_2497|ref=lap.phil._1
-35	[2]	[2]	-	---------	_	0	PRED	_	e_51|0|ref=lap.phil._1
+33	[0]	[0]	-	---------	_	14	ADV	_	e_49|t_2497|ref=lap.phil._17
+34	[1]	[1]	-	---------	_	14	ADV	_	e_50|t_2497|ref=lap.phil._17
+35	[2]	[2]	-	---------	_	0	PRED	_	e_51|0|ref=lap.phil._17
 36	;	;	u	u--------	_	35	AuxK	_	t_2516|e_51|ref=lap.phil._17
 
 # source = Comarius, lap.phil._17
@@ -3157,7 +3157,7 @@
 26	καὶ	καί	c	c--------	_	2	COORD	_	t_2579|t_2555|ref=lap.phil._17
 27	οὐκ	οὐ	d	d--------	_	28	AuxZ	_	t_2580|t_2581|ref=lap.phil._17
 28	ἄνθρωπος	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	29	SBJ	_	t_2581|e_52|ref=lap.phil._17
-29	[0]	[0]	-	---------	_	26	ATR	_	e_52|t_2579|ref=lap.phil._1
+29	[0]	[0]	-	---------	_	26	ATR	_	e_52|t_2579|ref=lap.phil._17
 30	·	·	u	u--------	_	2	AuxK	_	t_2582|t_2555|ref=lap.phil._17
 
 # source = Comarius, lap.phil._17
@@ -3304,7 +3304,7 @@
 1	79	79	x	x--------	_	4	AuxG	_	t_2697|e_53|ref=lap.phil._17
 2	v	v	x	x--------	_	4	ExD	_	t_2698|e_53|ref=lap.phil._17
 3	.	.	u	u--------	_	4	AuxK	_	t_2699|e_53|ref=lap.phil._17
-4	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=lap.phil._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=lap.phil._17
 5	)	)	u	u--------	_	4	AuxG	_	t_2700|e_53|ref=lap.phil._17
 
 # source = Comarius, lap.phil._17

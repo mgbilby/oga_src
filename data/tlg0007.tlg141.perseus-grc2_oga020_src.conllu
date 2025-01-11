@@ -192,14 +192,14 @@
 23	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Rect.Latent._1
 24	;	;	u	u--------	_	23	AuxK	_	t_161|e_5|ref=Rect.Latent._1
 
-# source = Plutarch, Rect.Latent._1
+# source = Plutarch, Rect.Latent._2
 # text = ἀλλὰ τοῦτο μὲν ἐῶμεν ·
 # sent_id = 8
-1	ἀλλὰ	ἀλλά	d	d--------	_	4	AuxY	_	t_162|t_165|ref=Rect.Latent._1
-2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_163|t_165|ref=Rect.Latent._1
-3	μὲν	μέν	d	d--------	_	4	AuxY	_	t_164|t_165|ref=Rect.Latent._1
-4	ἐῶμεν	ἐάω	v	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_165|0|ref=Rect.Latent._1
-5	·	·	u	u--------	_	4	AuxK	_	t_166|t_165|ref=Rect.Latent._1
+1	ἀλλὰ	ἀλλά	d	d--------	_	4	AuxY	_	t_162|t_165|ref=Rect.Latent._2
+2	τοῦτο	οὗτος	p	p-s---na-	Case=a|Gender=n|Number=s	4	OBJ	_	t_163|t_165|ref=Rect.Latent._2
+3	μὲν	μέν	d	d--------	_	4	AuxY	_	t_164|t_165|ref=Rect.Latent._2
+4	ἐῶμεν	ἐάω	v	v1ppsa---	Mood=s|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_165|0|ref=Rect.Latent._2
+5	·	·	u	u--------	_	4	AuxK	_	t_166|t_165|ref=Rect.Latent._2
 
 # source = Plutarch, Rect.Latent._2
 # text = αὐτὸ δὲ τὸ πρᾶγμα πῶς οὐ πονηρόν , λάθε βιώσας [0] ;
@@ -214,7 +214,7 @@
 8	,	,	u	u--------	_	11	AuxX	_	t_174|e_6|ref=Rect.Latent._2
 9	λάθε	λανθάνω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	8	PRED	_	t_175|t_174|ref=Rect.Latent._2
 10	βιώσας	βιόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_176|t_175|ref=Rect.Latent._2
-11	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Rect.Latent._1
+11	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Rect.Latent._2
 12	;	;	u	u--------	_	11	AuxK	_	t_177|e_6|ref=Rect.Latent._2
 
 # source = Plutarch, Rect.Latent._2
@@ -222,7 +222,7 @@
 # sent_id = 10
 1	ὡς	ὡς	d	d--------	_	2	AuxY	_	t_178|t_179|ref=Rect.Latent._2
 2	τυμβωρυχήσας	τυμβωρυχέω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	3	ADV	_	t_179|e_7|ref=Rect.Latent._2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Rect.Latent._1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Rect.Latent._2
 4	;	;	u	u--------	_	3	AuxK	_	t_180|e_7|ref=Rect.Latent._2
 
 # source = Plutarch, Rect.Latent._2
@@ -272,7 +272,7 @@
 28	μὴ	μή	d	d--------	_	29	AuxZ	_	t_218|t_219|ref=Rect.Latent._2
 29	μείνῃς	μένω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	25	OBJ	_	t_219|t_215|ref=Rect.Latent._2
 30	ἀθεράπευτος	ἀθεράπευτος	a	a-s---mn-	Case=n|Gender=m|Number=s	29	PNOM	_	t_220|t_219|ref=Rect.Latent._2
-31	[0]	[0]	-	---------	_	24	ADV	_	e_8|t_214|ref=Rect.Latent._1
+31	[0]	[0]	-	---------	_	24	ADV	_	e_8|t_214|ref=Rect.Latent._2
 32	.	.	u	u--------	_	4	AuxK	_	t_221|t_194|ref=Rect.Latent._2
 
 # source = Plutarch, Rect.Latent._2
@@ -367,7 +367,7 @@
 27	καὶ	καί	c	c--------	_	29	COORD	_	t_296|t_298|ref=Rect.Latent._2
 28	ἰᾶσθαι	ἰάομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	27	OBJ	_	t_297|t_296|ref=Rect.Latent._2
 29	δυναμένοις	δύναμαι	v	v-pppemd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=e	24	OBJ	_	t_298|t_293|ref=Rect.Latent._2
-30	[0]	[0]	-	---------	_	19	ADV	_	e_9|t_288|ref=Rect.Latent._1
+30	[0]	[0]	-	---------	_	19	ADV	_	e_9|t_288|ref=Rect.Latent._2
 31	.	.	u	u--------	_	3	AuxK	_	t_299|t_272|ref=Rect.Latent._2
 
 # source = Plutarch, Rect.Latent._2
@@ -495,18 +495,18 @@
 18	ἑαυτοῖς	ἑαυτοῦ	p	p-p---md-	Case=d|Gender=m|Number=p	15	OBJ	_	t_387|t_384|ref=Rect.Latent._2
 19	.	.	u	u--------	_	8	AuxK	_	t_388|t_377|ref=Rect.Latent._2
 
-# source = Plutarch, Rect.Latent._2-3
+# source = Plutarch, Rect.Latent._3
 # text = καὶ μὴν εἴ γε τοῖς χρηστοῖς λανθάνειν καὶ ἀγνοεῖσθαι παραινεῖς , Ἐπαμεινώνδᾳ λέγεις μὴ στρατήγει καὶ Λυκούργῳ μὴ νομοθέτει καὶ Θρασυβούλῳ μὴ τυραννοκτόνει καὶ Πυθαγόρᾳ μὴ παίδευε καὶ Σωκράτει μὴ διαλέγου ·
 # sent_id = 26
-1	καὶ	καί	d	d--------	_	28	AuxY	_	t_389|t_416|ref=Rect.Latent._2
-2	μὴν	μήν	d	d--------	_	28	AuxZ	_	t_390|t_416|ref=Rect.Latent._2
-3	εἴ	εἰ	c	c--------	_	28	AuxC	_	t_391|t_416|ref=Rect.Latent._2
-4	γε	γε	d	d--------	_	6	AuxZ	_	t_392|t_394|ref=Rect.Latent._2
-5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_393|t_394|ref=Rect.Latent._2
-6	χρηστοῖς	χρηστός	a	a-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_394|t_398|ref=Rect.Latent._2
-7	λανθάνειν	λανθάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_395|t_396|ref=Rect.Latent._2
-8	καὶ	καί	c	c--------	_	10	COORD	_	t_396|t_398|ref=Rect.Latent._2
-9	ἀγνοεῖσθαι	ἀγνοέω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_397|t_396|ref=Rect.Latent._2
+1	καὶ	καί	d	d--------	_	28	AuxY	_	t_389|t_416|ref=Rect.Latent._3
+2	μὴν	μήν	d	d--------	_	28	AuxZ	_	t_390|t_416|ref=Rect.Latent._3
+3	εἴ	εἰ	c	c--------	_	28	AuxC	_	t_391|t_416|ref=Rect.Latent._3
+4	γε	γε	d	d--------	_	6	AuxZ	_	t_392|t_394|ref=Rect.Latent._3
+5	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	6	ATR	_	t_393|t_394|ref=Rect.Latent._3
+6	χρηστοῖς	χρηστός	a	a-p---md-	Case=d|Gender=m|Number=p	10	OBJ	_	t_394|t_398|ref=Rect.Latent._3
+7	λανθάνειν	λανθάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_395|t_396|ref=Rect.Latent._3
+8	καὶ	καί	c	c--------	_	10	COORD	_	t_396|t_398|ref=Rect.Latent._3
+9	ἀγνοεῖσθαι	ἀγνοέω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	OBJ	_	t_397|t_396|ref=Rect.Latent._3
 10	παραινεῖς	παραινέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	3	ADV	_	t_398|t_391|ref=Rect.Latent._3
 11	,	,	u	u--------	_	0	AuxX	_	t_399|0|ref=Rect.Latent._3
 12	Ἐπαμεινώνδᾳ	ἐπαμεινώνδας	n	n-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_400|t_401|ref=Rect.Latent._3
@@ -589,7 +589,7 @@
 3	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_465|t_467|ref=Rect.Latent._3
 4	κοιναὶ	κοινός	a	a-p---fn-	Case=n|Gender=f|Number=p	5	ATR	_	t_466|t_467|ref=Rect.Latent._3
 5	τράπεζαι	τράπεζα	n	n-p---fn-	Case=n|Gender=f|Number=p	6	SBJ	_	t_467|e_10|ref=Rect.Latent._3
-6	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Rect.Latent._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=Rect.Latent._3
 7	;	;	u	u--------	_	6	AuxK	_	t_468|e_10|ref=Rect.Latent._3
 
 # source = Plutarch, Rect.Latent._3
@@ -603,7 +603,7 @@
 6	καὶ	καί	c	c--------	_	8	COORD	_	t_474|t_476|ref=Rect.Latent._3
 7	καλῶν	καλός	a	a-p---ng-	Case=g|Gender=n|Number=p	6	ATR	_	t_475|t_474|ref=Rect.Latent._3
 8	σύνοδοι	σύνοδος2	n	n-p---fn-	Case=n|Gender=f|Number=p	9	SBJ	_	t_476|e_11|ref=Rect.Latent._3
-9	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Rect.Latent._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Rect.Latent._3
 10	;	;	u	u--------	_	9	AuxK	_	t_477|e_11|ref=Rect.Latent._3
 
 # source = Plutarch, Rect.Latent._3
@@ -627,7 +627,7 @@
 16	καὶ	καί	c	c--------	_	19	COORD	_	t_493|e_12|ref=Rect.Latent._3
 17	συντασσόμεναι	συντάσσω	v	v-pppefn-	Case=n|Gender=f|Mood=p|Number=p|Tense=p|Voice=e	16	ADV	_	t_494|t_493|ref=Rect.Latent._3
 18	φιλοπόνως	φιλόπονος	d	d--------	_	17	ADV	_	t_495|t_494|ref=Rect.Latent._3
-19	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Rect.Latent._1
+19	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=Rect.Latent._3
 20	;	;	u	u--------	_	19	AuxK	_	t_496|e_12|ref=Rect.Latent._3
 
 # source = Plutarch, Rect.Latent._3
@@ -653,25 +653,25 @@
 18	καὶ	καί	c	c--------	_	10	COORD	_	t_514|t_506|ref=Rect.Latent._3
 19	λήθην	λήθη	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_515|t_514|ref=Rect.Latent._3
 20	εὐπραγίᾳ	εὐπραξία	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_516|t_514|ref=Rect.Latent._3
-21	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Rect.Latent._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Rect.Latent._3
 22	;	;	u	u--------	_	21	AuxK	_	t_517|e_13|ref=Rect.Latent._3
 
-# source = Plutarch, Rect.Latent._3-4
+# source = Plutarch, Rect.Latent._4
 # text = εἰ δʼ ἐκ τοῦ βίου καθάπερ ἐκ συμποσίου φῶς ἀναιρεῖς τὴν γνῶσιν , ὡς πάντα ποιεῖν ἐξ ἡδονῆς πρὸς ἡδονὴν λανθάνουσαν , λάθε βιώσας [0] .
 # sent_id = 33
-1	εἰ	εἰ	c	c--------	_	23	AuxC	_	t_518|t_540|ref=Rect.Latent._3
-2	δʼ	δέ	d	d--------	_	23	AuxY	_	t_519|t_540|ref=Rect.Latent._3
-3	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_520|t_527|ref=Rect.Latent._3
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_521|t_522|ref=Rect.Latent._3
-5	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_522|t_520|ref=Rect.Latent._3
-6	καθάπερ	καθά	c	c--------	_	10	AuxC	_	t_523|t_527|ref=Rect.Latent._3
-7	ἐκ	ἐκ	r	r--------	_	25	AuxP	_	t_524|e_14|ref=Rect.Latent._3
-8	συμποσίου	συμπόσιον	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_525|t_524|ref=Rect.Latent._3
-9	φῶς	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_526|e_14|ref=Rect.Latent._3
-10	ἀναιρεῖς	ἀναιρέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	1	ADV	_	t_527|t_518|ref=Rect.Latent._3
-11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_528|t_529|ref=Rect.Latent._3
-12	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_529|t_527|ref=Rect.Latent._3
-13	,	,	u	u--------	_	23	AuxX	_	t_530|t_540|ref=Rect.Latent._3
+1	εἰ	εἰ	c	c--------	_	23	AuxC	_	t_518|t_540|ref=Rect.Latent._4
+2	δʼ	δέ	d	d--------	_	23	AuxY	_	t_519|t_540|ref=Rect.Latent._4
+3	ἐκ	ἐκ	r	r--------	_	10	AuxP	_	t_520|t_527|ref=Rect.Latent._4
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_521|t_522|ref=Rect.Latent._4
+5	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_522|t_520|ref=Rect.Latent._4
+6	καθάπερ	καθά	c	c--------	_	10	AuxC	_	t_523|t_527|ref=Rect.Latent._4
+7	ἐκ	ἐκ	r	r--------	_	25	AuxP	_	t_524|e_14|ref=Rect.Latent._4
+8	συμποσίου	συμπόσιον	n	n-s---ng-	Case=g|Gender=n|Number=s	7	ADV	_	t_525|t_524|ref=Rect.Latent._4
+9	φῶς	φάος	n	n-s---na-	Case=a|Gender=n|Number=s	25	OBJ	_	t_526|e_14|ref=Rect.Latent._4
+10	ἀναιρεῖς	ἀναιρέω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	1	ADV	_	t_527|t_518|ref=Rect.Latent._4
+11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_528|t_529|ref=Rect.Latent._4
+12	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_529|t_527|ref=Rect.Latent._4
+13	,	,	u	u--------	_	23	AuxX	_	t_530|t_540|ref=Rect.Latent._4
 14	ὡς	ὡς	c	c--------	_	10	AuxC	_	t_531|t_527|ref=Rect.Latent._4
 15	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	16	OBJ	_	t_532|t_533|ref=Rect.Latent._4
 16	ποιεῖν	ποιέω	v	v--pna---	Mood=n|Tense=p|Voice=a	14	OBJ	_	t_533|t_531|ref=Rect.Latent._4
@@ -683,7 +683,7 @@
 22	,	,	u	u--------	_	23	AuxX	_	t_539|t_540|ref=Rect.Latent._4
 23	λάθε	λανθάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_540|0|ref=Rect.Latent._4
 24	βιώσας	βιόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	23	ADV	_	t_541|t_540|ref=Rect.Latent._4
-25	[0]	[0]	-	---------	_	6	ADV	_	e_14|t_523|ref=Rect.Latent._1
+25	[0]	[0]	-	---------	_	6	ADV	_	e_14|t_523|ref=Rect.Latent._4
 26	.	.	u	u--------	_	23	AuxK	_	t_542|t_540|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -715,7 +715,7 @@
 24	καὶ	καί	c	c--------	_	22	COORD	_	t_566|t_564|ref=Rect.Latent._4
 25	γαργαλισμοῖς	γαργαλισμός	n	n-p---md-	Case=d|Gender=m|Number=p	24	ADV	_	t_567|t_566|ref=Rect.Latent._4
 26	τίθεσθαι	τίθημι	v	v--pne---	Mood=n|Tense=p|Voice=e	19	OBJ	_	t_568|t_561|ref=Rect.Latent._4
-27	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Rect.Latent._1
+27	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Rect.Latent._4
 28	·	·	u	u--------	_	27	AuxK	_	t_569|e_15|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -737,7 +737,7 @@
 14	καὶ	καί	c	c--------	_	17	COORD	_	t_583|e_16|ref=Rect.Latent._4
 15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_584|t_585|ref=Rect.Latent._4
 16	ἄγνοιαν	ἄγνοια	n	n-s---fa-	Case=a|Gender=f|Number=s	14	OBJ	_	t_585|t_583|ref=Rect.Latent._4
-17	[0]	[0]	-	---------	_	9	PRED	_	e_16|t_578|ref=Rect.Latent._1
+17	[0]	[0]	-	---------	_	9	PRED	_	e_16|t_578|ref=Rect.Latent._4
 18	.	.	u	u--------	_	6	AuxK	_	t_586|t_575|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -759,8 +759,8 @@
 14	ἐν	ἐν	r	r--------	_	18	AuxP	_	t_600|e_18|ref=Rect.Latent._4
 15	δʼ	δέ	c	c--------	_	1	COORD	_	t_601|t_587|ref=Rect.Latent._4
 16	ἠθικοῖς	ἠθικός	a	a-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_602|t_600|ref=Rect.Latent._4
-17	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Rect.Latent._1
-18	[1]	[1]	-	---------	_	15	ADV	_	e_18|t_601|ref=Rect.Latent._1
+17	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Rect.Latent._4
+18	[1]	[1]	-	---------	_	15	ADV	_	e_18|t_601|ref=Rect.Latent._4
 19	;	;	u	u--------	_	17	AuxK	_	t_603|e_17|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -786,9 +786,9 @@
 18	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	17	ADV	_	t_621|t_620|ref=Rect.Latent._4
 19	λάθῃ	λανθάνω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	23	OBJ	_	t_622|e_21|ref=Rect.Latent._4
 20	βιώσας	βιόω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	19	ADV	_	t_623|t_622|ref=Rect.Latent._4
-21	[0]	[0]	-	---------	_	8	PRED	_	e_19|t_611|ref=Rect.Latent._1
-22	[1]	[1]	-	---------	_	8	PRED	_	e_20|t_611|ref=Rect.Latent._1
-23	[2]	[2]	-	---------	_	8	PRED	_	e_21|t_611|ref=Rect.Latent._1
+21	[0]	[0]	-	---------	_	8	PRED	_	e_19|t_611|ref=Rect.Latent._4
+22	[1]	[1]	-	---------	_	8	PRED	_	e_20|t_611|ref=Rect.Latent._4
+23	[2]	[2]	-	---------	_	8	PRED	_	e_21|t_611|ref=Rect.Latent._4
 24	;	;	u	u--------	_	6	AuxK	_	t_624|t_609|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -806,7 +806,7 @@
 10	παράδειγμα	παράδειγμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_634|t_636|ref=Rect.Latent._4
 11	καλὸν	καλός	a	a-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_635|t_634|ref=Rect.Latent._4
 12	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	9	ADV	_	t_636|t_633|ref=Rect.Latent._4
-13	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Rect.Latent._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_22|0|ref=Rect.Latent._4
 14	;	;	u	u--------	_	13	AuxK	_	t_637|e_22|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -838,7 +838,7 @@
 8	Ῥώμη	ῥώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_657|t_659|ref=Rect.Latent._4
 9	πόλις	πόλις	n	n-p---fa-	Case=a|Gender=f|Number=p	10	SBJ	_	t_658|t_659|ref=Rect.Latent._4
 10	ἔμεινεν	μένω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_659|0|ref=Rect.Latent._4
-11	[0]	[0]	-	---------	_	1	ADV	_	e_23|t_650|ref=Rect.Latent._1
+11	[0]	[0]	-	---------	_	1	ADV	_	e_23|t_650|ref=Rect.Latent._4
 12	·	·	u	u--------	_	10	AuxK	_	t_660|t_659|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -853,7 +853,7 @@
 7	ἠλευθερώθη	ἐλευθερόω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_667|0|ref=Rect.Latent._4
 8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_668|t_669|ref=Rect.Latent._4
 9	Σικελία	σικελία	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_669|t_667|ref=Rect.Latent._4
-10	[0]	[0]	-	---------	_	1	ADV	_	e_24|t_661|ref=Rect.Latent._1
+10	[0]	[0]	-	---------	_	1	ADV	_	e_24|t_661|ref=Rect.Latent._4
 11	.	.	u	u--------	_	7	AuxK	_	t_670|t_667|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -937,7 +937,7 @@
 42	ὥσπερ	ὥσπερ	c	c--------	_	38	AuxC	_	t_742|t_738|ref=Rect.Latent._4
 43	εὐγενὴς	εὐγενής	a	a-s---mn-	Case=n|Gender=m|Number=s	44	ATR	_	t_743|t_744|ref=Rect.Latent._4
 44	χαλκός	χαλκός	n	n-s---mn-	Case=n|Gender=m|Number=s	45	SBJ	_	t_744|e_25|ref=Rect.Latent._4
-45	[0]	[0]	-	---------	_	42	ADV	_	e_25|t_742|ref=Rect.Latent._1
+45	[0]	[0]	-	---------	_	42	ADV	_	e_25|t_742|ref=Rect.Latent._4
 46	·	·	u	u--------	_	38	AuxK	_	t_745|t_738|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -968,7 +968,7 @@
 23	διʼ	διά	r	r--------	_	25	AuxP	_	t_768|t_770|ref=Rect.Latent._4
 24	ἀγνοίας	ἄγνοια	n	n-s---fg-	Case=g|Gender=f|Number=s	23	ADV	_	t_769|t_768|ref=Rect.Latent._4
 25	ἐφελκόμενον	ἐφέλκω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	19	ATR	_	t_770|t_764|ref=Rect.Latent._4
-26	[0]	[0]	-	---------	_	14	ATR	_	e_26|t_759|ref=Rect.Latent._1
+26	[0]	[0]	-	---------	_	14	ATR	_	e_26|t_759|ref=Rect.Latent._4
 27	.	.	u	u--------	_	4	AuxK	_	t_771|t_749|ref=Rect.Latent._4
 
 # source = Plutarch, Rect.Latent._4
@@ -1030,39 +1030,39 @@
 33	δυνάμεις	δύναμις	n	n-p---fn-	Case=n|Gender=f|Number=p	29	SBJ	_	t_821|t_817|ref=Rect.Latent._4
 34	.	.	u	u--------	_	14	AuxK	_	t_822|t_802|ref=Rect.Latent._4
 
-# source = Plutarch, Rect.Latent._4
+# source = Plutarch, Rect.Latent._5
 # text = οὐχ ὁρᾷς , ὅτι νυκτὸς μὲν ἐπιούσης τά τε σώματα δυσεργεῖς βαρύτητες ἴσχουσι καὶ τὰς ψυχὰς ὄκνοι καταλαμβάνουσιν ἀδρανεῖς , καὶ συσταλεὶς ;
 # sent_id = 47
-1	οὐχ	οὐ	d	d--------	_	2	AuxZ	_	t_823|t_824|ref=Rect.Latent._4
-2	ὁρᾷς	ὁράω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_824|0|ref=Rect.Latent._4
-3	,	,	u	u--------	_	2	AuxX	_	t_825|t_824|ref=Rect.Latent._4
-4	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_826|t_824|ref=Rect.Latent._4
-5	νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	SBJ	_	t_827|t_829|ref=Rect.Latent._4
-6	μὲν	μέν	d	d--------	_	13	AuxY	_	t_828|t_835|ref=Rect.Latent._4
-7	ἐπιούσης	ἔπειμι1	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_829|t_835|ref=Rect.Latent._4
-8	τά	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_830|t_832|ref=Rect.Latent._4
-9	τε	τε	c	c--------	_	14	AuxY	_	t_831|t_836|ref=Rect.Latent._4
-10	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_832|t_835|ref=Rect.Latent._4
-11	δυσεργεῖς	δυσεργής	a	a-p---fn-	Case=n|Gender=f|Number=p	12	ATR	_	t_833|t_834|ref=Rect.Latent._4
-12	βαρύτητες	βαρύτης	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_834|t_835|ref=Rect.Latent._4
-13	ἴσχουσι	ἴσχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	14	OBJ	_	t_835|t_836|ref=Rect.Latent._4
-14	καὶ	καί	c	c--------	_	4	COORD	_	t_836|t_826|ref=Rect.Latent._4
-15	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_837|t_838|ref=Rect.Latent._4
-16	ψυχὰς	ψυχή	n	n-p---fa-	Case=a|Gender=f|Number=p	18	OBJ	_	t_838|t_840|ref=Rect.Latent._4
-17	ὄκνοι	ὄκνος	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_839|t_840|ref=Rect.Latent._4
-18	καταλαμβάνουσιν	καταλαμβάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	14	OBJ	_	t_840|t_836|ref=Rect.Latent._4
-19	ἀδρανεῖς	ἀδρανής	a	a-p---mn-	Case=n|Gender=m|Number=p	17	ATR	_	t_841|t_839|ref=Rect.Latent._4
-20	,	,	u	u--------	_	2	AuxX	_	t_842|t_824|ref=Rect.Latent._4
-21	καὶ	καί	d	d--------	_	22	AuxZ	_	t_843|t_844|ref=Rect.Latent._4
-22	συσταλεὶς	συστέλλω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_844|t_840|ref=Rect.Latent._4
-23	;	;	u	u--------	_	2	AuxK	_	t_845|t_824|ref=Rect.Latent._4
+1	οὐχ	οὐ	d	d--------	_	2	AuxZ	_	t_823|t_824|ref=Rect.Latent._5
+2	ὁρᾷς	ὁράω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_824|0|ref=Rect.Latent._5
+3	,	,	u	u--------	_	2	AuxX	_	t_825|t_824|ref=Rect.Latent._5
+4	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_826|t_824|ref=Rect.Latent._5
+5	νυκτὸς	νύξ	n	n-s---fg-	Case=g|Gender=f|Number=s	7	SBJ	_	t_827|t_829|ref=Rect.Latent._5
+6	μὲν	μέν	d	d--------	_	13	AuxY	_	t_828|t_835|ref=Rect.Latent._5
+7	ἐπιούσης	ἔπειμι1	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	13	ADV	_	t_829|t_835|ref=Rect.Latent._5
+8	τά	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_830|t_832|ref=Rect.Latent._5
+9	τε	τε	c	c--------	_	14	AuxY	_	t_831|t_836|ref=Rect.Latent._5
+10	σώματα	σῶμα	n	n-p---na-	Case=a|Gender=n|Number=p	13	OBJ	_	t_832|t_835|ref=Rect.Latent._5
+11	δυσεργεῖς	δυσεργής	a	a-p---fn-	Case=n|Gender=f|Number=p	12	ATR	_	t_833|t_834|ref=Rect.Latent._5
+12	βαρύτητες	βαρύτης	n	n-p---fn-	Case=n|Gender=f|Number=p	13	SBJ	_	t_834|t_835|ref=Rect.Latent._5
+13	ἴσχουσι	ἴσχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	14	OBJ	_	t_835|t_836|ref=Rect.Latent._5
+14	καὶ	καί	c	c--------	_	4	COORD	_	t_836|t_826|ref=Rect.Latent._5
+15	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	16	ATR	_	t_837|t_838|ref=Rect.Latent._5
+16	ψυχὰς	ψυχή	n	n-p---fa-	Case=a|Gender=f|Number=p	18	OBJ	_	t_838|t_840|ref=Rect.Latent._5
+17	ὄκνοι	ὄκνος	n	n-p---mn-	Case=n|Gender=m|Number=p	18	SBJ	_	t_839|t_840|ref=Rect.Latent._5
+18	καταλαμβάνουσιν	καταλαμβάνω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	14	OBJ	_	t_840|t_836|ref=Rect.Latent._5
+19	ἀδρανεῖς	ἀδρανής	a	a-p---mn-	Case=n|Gender=m|Number=p	17	ATR	_	t_841|t_839|ref=Rect.Latent._5
+20	,	,	u	u--------	_	2	AuxX	_	t_842|t_824|ref=Rect.Latent._5
+21	καὶ	καί	d	d--------	_	22	AuxZ	_	t_843|t_844|ref=Rect.Latent._5
+22	συσταλεὶς	συστέλλω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	18	ADV	_	t_844|t_840|ref=Rect.Latent._5
+23	;	;	u	u--------	_	2	AuxK	_	t_845|t_824|ref=Rect.Latent._5
 
-# source = Plutarch, Rect.Latent._4-5
+# source = Plutarch, Rect.Latent._5
 # text = ὁ λογισμὸς εἰς ἑαυτὸν ὥσπερ πῦρ ἀμαυρὸν ὑπʼ ἀργίας καὶ κατηφείας μακρὰν διεσπασμέναις πάλλεται φαντασίαις , ὅσον αὐτὸ τὸ ζῆν τὸν ἄνθρωπον ὑποσημαίνειν [0] ;
 # sent_id = 48
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_846|t_847|ref=Rect.Latent._4
-2	λογισμὸς	λογισμός	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_847|t_859|ref=Rect.Latent._4
-3	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_848|t_859|ref=Rect.Latent._4
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_846|t_847|ref=Rect.Latent._5
+2	λογισμὸς	λογισμός	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_847|t_859|ref=Rect.Latent._5
+3	εἰς	εἰς	r	r--------	_	14	AuxP	_	t_848|t_859|ref=Rect.Latent._5
 4	ἑαυτὸν	ἑαυτοῦ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_849|t_848|ref=Rect.Latent._5
 5	ὥσπερ	ὥσπερ	c	c--------	_	14	AuxC	_	t_850|t_859|ref=Rect.Latent._5
 6	πῦρ	πῦρ	n	n-s---nn-	Case=n|Gender=n|Number=s	24	PNOM	_	t_851|e_27|ref=Rect.Latent._5
@@ -1083,7 +1083,7 @@
 21	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_866|t_867|ref=Rect.Latent._5
 22	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	23	OBJ	_	t_867|t_868|ref=Rect.Latent._5
 23	ὑποσημαίνειν	ὑποσημαίνω	v	v--pna---	Mood=n|Tense=p|Voice=a	2	ATR	_	t_868|t_847|ref=Rect.Latent._5
-24	[0]	[0]	-	---------	_	15	ATR	_	e_27|t_860|ref=Rect.Latent._1
+24	[0]	[0]	-	---------	_	15	ATR	_	e_27|t_860|ref=Rect.Latent._5
 25	;	;	u	u--------	_	14	AuxK	_	t_869|t_859|ref=Rect.Latent._5
 
 # source = Plutarch, Rect.Latent._5
@@ -1147,40 +1147,40 @@
 48	ἀνίστανται	ἀνίστημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	13	PRED	_	t_921|t_886|ref=Rect.Latent._5
 49	.	.	u	u--------	_	6	AuxK	_	t_922|t_879|ref=Rect.Latent._5
 
-# source = Plutarch, Rect.Latent._5
+# source = Plutarch, Rect.Latent._6
 # text = δοκῶ δʼ ἐγὼ καὶ τὸ ζῆν αὐτὸ καὶ ὅλως τὸ φῦναι καὶ μετασχεῖν ἀνθρώπῳ γενέσεως εἰς γνῶσιν ὑπὸ θεοῦ δοθῆναι ·
 # sent_id = 51
-1	δοκῶ	δοκέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_923|0|ref=Rect.Latent._5
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_924|t_923|ref=Rect.Latent._5
-3	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	1	SBJ	_	t_925|t_923|ref=Rect.Latent._5
-4	καὶ	καί	d	d--------	_	8	AuxY	_	t_926|t_930|ref=Rect.Latent._5
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_927|t_928|ref=Rect.Latent._5
-6	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_928|t_930|ref=Rect.Latent._5
-7	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_929|t_928|ref=Rect.Latent._5
-8	καὶ	καί	c	c--------	_	1	COORD	_	t_930|t_923|ref=Rect.Latent._5
-9	ὅλως	ὅλος	d	d--------	_	12	ADV	_	t_931|t_934|ref=Rect.Latent._5
-10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_932|t_934|ref=Rect.Latent._5
-11	φῦναι	φύω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	SBJ	_	t_933|t_934|ref=Rect.Latent._5
-12	καὶ	καί	c	c--------	_	8	COORD	_	t_934|t_930|ref=Rect.Latent._5
-13	μετασχεῖν	μετέχω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	SBJ	_	t_935|t_934|ref=Rect.Latent._5
-14	ἀνθρώπῳ	ἄνθρωπος	n	n-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_936|t_935|ref=Rect.Latent._5
-15	γενέσεως	γένεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	OBJ	_	t_937|t_942|ref=Rect.Latent._5
-16	εἰς	εἰς	r	r--------	_	20	AuxP	_	t_938|t_942|ref=Rect.Latent._5
-17	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ADV	_	t_939|t_938|ref=Rect.Latent._5
-18	ὑπὸ	ὑπό	r	r--------	_	20	AuxP	_	t_940|t_942|ref=Rect.Latent._5
-19	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	18	OBJ	_	t_941|t_940|ref=Rect.Latent._5
-20	δοθῆναι	δίδωμι	v	v--anp---	Mood=n|Tense=a|Voice=p	1	OBJ	_	t_942|t_923|ref=Rect.Latent._5
-21	·	·	u	u--------	_	1	AuxK	_	t_943|t_923|ref=Rect.Latent._5
+1	δοκῶ	δοκέω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_923|0|ref=Rect.Latent._6
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_924|t_923|ref=Rect.Latent._6
+3	ἐγὼ	ἐγώ	p	p1s---cn-	Case=n|Gender=c|Number=s|Person=1	1	SBJ	_	t_925|t_923|ref=Rect.Latent._6
+4	καὶ	καί	d	d--------	_	8	AuxY	_	t_926|t_930|ref=Rect.Latent._6
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_927|t_928|ref=Rect.Latent._6
+6	ζῆν	ζάω	v	v--pna---	Mood=n|Tense=p|Voice=a	8	OBJ	_	t_928|t_930|ref=Rect.Latent._6
+7	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_929|t_928|ref=Rect.Latent._6
+8	καὶ	καί	c	c--------	_	1	COORD	_	t_930|t_923|ref=Rect.Latent._6
+9	ὅλως	ὅλος	d	d--------	_	12	ADV	_	t_931|t_934|ref=Rect.Latent._6
+10	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_932|t_934|ref=Rect.Latent._6
+11	φῦναι	φύω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	SBJ	_	t_933|t_934|ref=Rect.Latent._6
+12	καὶ	καί	c	c--------	_	8	COORD	_	t_934|t_930|ref=Rect.Latent._6
+13	μετασχεῖν	μετέχω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	SBJ	_	t_935|t_934|ref=Rect.Latent._6
+14	ἀνθρώπῳ	ἄνθρωπος	n	n-s---md-	Case=d|Gender=m|Number=s	13	OBJ	_	t_936|t_935|ref=Rect.Latent._6
+15	γενέσεως	γένεσις	n	n-s---fg-	Case=g|Gender=f|Number=s	20	OBJ	_	t_937|t_942|ref=Rect.Latent._6
+16	εἰς	εἰς	r	r--------	_	20	AuxP	_	t_938|t_942|ref=Rect.Latent._6
+17	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	16	ADV	_	t_939|t_938|ref=Rect.Latent._6
+18	ὑπὸ	ὑπό	r	r--------	_	20	AuxP	_	t_940|t_942|ref=Rect.Latent._6
+19	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	18	OBJ	_	t_941|t_940|ref=Rect.Latent._6
+20	δοθῆναι	δίδωμι	v	v--anp---	Mood=n|Tense=a|Voice=p	1	OBJ	_	t_942|t_923|ref=Rect.Latent._6
+21	·	·	u	u--------	_	1	AuxK	_	t_943|t_923|ref=Rect.Latent._6
 
-# source = Plutarch, Rect.Latent._5-6
+# source = Plutarch, Rect.Latent._6
 # text = ἔστι δʼ ἄδηλος καὶ ἄγνωστος ἐν τῷ παντὶ πόλῳ καὶ κατὰ μικρὰ καὶ σποράδην φερόμενος ·
 # sent_id = 52
-1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_944|0|ref=Rect.Latent._5
-2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_945|t_944|ref=Rect.Latent._5
-3	ἄδηλος	ἄδηλος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_946|t_947|ref=Rect.Latent._5
-4	καὶ	καί	c	c--------	_	1	COORD	_	t_947|t_944|ref=Rect.Latent._5
-5	ἄγνωστος	ἄγνωστος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_948|t_947|ref=Rect.Latent._5
-6	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_949|t_958|ref=Rect.Latent._5
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_944|0|ref=Rect.Latent._6
+2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_945|t_944|ref=Rect.Latent._6
+3	ἄδηλος	ἄδηλος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_946|t_947|ref=Rect.Latent._6
+4	καὶ	καί	c	c--------	_	1	COORD	_	t_947|t_944|ref=Rect.Latent._6
+5	ἄγνωστος	ἄγνωστος	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_948|t_947|ref=Rect.Latent._6
+6	ἐν	ἐν	r	r--------	_	15	AuxP	_	t_949|t_958|ref=Rect.Latent._6
 7	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_950|t_952|ref=Rect.Latent._6
 8	παντὶ	πᾶς	a	a-s---md-	Case=d|Gender=m|Number=s	9	ATR	_	t_951|t_952|ref=Rect.Latent._6
 9	πόλῳ	πόλις	n	n-s---md-	Case=d|Gender=m|Number=s	6	ADV	_	t_952|t_949|ref=Rect.Latent._6
@@ -1234,8 +1234,8 @@
 13	οὐσίας	οὐσία	n	n-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_992|t_994|ref=Rect.Latent._6
 14	εἰς	εἰς	r	r--------	_	17	AuxP	_	t_993|e_29|ref=Rect.Latent._6
 15	γνῶσιν	γνῶσις	n	n-s---fa-	Case=a|Gender=f|Number=s	14	ADV	_	t_994|t_993|ref=Rect.Latent._6
-16	[0]	[0]	-	---------	_	12	PRED	_	e_28|t_991|ref=Rect.Latent._1
-17	[1]	[1]	-	---------	_	12	PRED	_	e_29|t_991|ref=Rect.Latent._1
+16	[0]	[0]	-	---------	_	12	PRED	_	e_28|t_991|ref=Rect.Latent._6
+17	[1]	[1]	-	---------	_	12	PRED	_	e_29|t_991|ref=Rect.Latent._6
 18	·	·	u	u--------	_	11	AuxK	_	t_995|t_990|ref=Rect.Latent._6
 
 # source = Plutarch, Rect.Latent._6
@@ -1276,8 +1276,8 @@
 20	ἀπαγωγὴ	ἀπαγωγή	n	n-s---fn-	Case=n|Gender=f|Number=s	24	PNOM	_	t_1024|e_31|ref=Rect.Latent._6
 21	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=m|Number=s	22	ATR	_	t_1025|t_1026|ref=Rect.Latent._6
 22	διαλυθέντος	διαλύω	v	v-sappmg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	20	ATR	_	t_1026|t_1024|ref=Rect.Latent._6
-23	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Rect.Latent._1
-24	[1]	[1]	-	---------	_	15	OBJ	_	e_31|t_1019|ref=Rect.Latent._1
+23	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Rect.Latent._6
+24	[1]	[1]	-	---------	_	15	OBJ	_	e_31|t_1019|ref=Rect.Latent._6
 25	.	.	u	u--------	_	23	AuxK	_	t_1027|e_30|ref=Rect.Latent._6
 
 # source = Plutarch, Rect.Latent._6
@@ -1341,8 +1341,8 @@
 34	θʼ	τε	g	g--------	_	21	COORD	_	t_1079|t_1066|ref=Rect.Latent._6
 35	ὕπνου	ὕπνος	n	n-s---mg-	Case=g|Gender=m|Number=s	36	ATR	_	t_1080|t_1081|ref=Rect.Latent._6
 36	κοίρανον	κοίρανος	n	n-s---ma-	Case=a|Gender=m|Number=s	34	ATR	_	t_1081|t_1079|ref=Rect.Latent._6
-37	[0]	[0]	-	---------	_	19	ADV	_	e_32|t_1064|ref=Rect.Latent._1
-38	[1]	[1]	-	---------	_	34	ADV	_	e_33|t_1079|ref=Rect.Latent._1
+37	[0]	[0]	-	---------	_	19	ADV	_	e_32|t_1064|ref=Rect.Latent._6
+38	[1]	[1]	-	---------	_	34	ADV	_	e_33|t_1079|ref=Rect.Latent._6
 39	.	.	u	u--------	_	17	AuxK	_	t_1082|t_1062|ref=Rect.Latent._6
 
 # source = Plutarch, Rect.Latent._6
@@ -1498,42 +1498,42 @@
 24	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	22	ADV	_	t_1222|t_1220|ref=Rect.Latent._6
 25	.	.	u	u--------	_	15	AuxK	_	t_1223|t_1213|ref=Rect.Latent._6
 
-# source = Plutarch, Rect.Latent._6-7
+# source = Plutarch, Rect.Latent._7
 # text = καίτοι τῆς γε δόξης καὶ τοῦ εἶναι φύσιν εὐσεβῶν χῶρον τοῖσι λάμπει μὲν μένος ἀελίου τὰν ἐνθάδε νύκτα κάτω , φοινικορόδοις ἐνὶ λειμώνεσσι , καὶ τοῖσιν ἀκάρπων μὲν ἀνθηρῶν καὶ σκυθίων δένδρων ἄνθεσι τεθηλὸς ἀναπέπταται πεδίον καὶ ποταμοί τινες ἄκλυστοι καὶ λεῖοι διαρρέουσι , καὶ διατριβὰς ἔχουσιν ἐν μνήμαις καὶ λόγοις τῶν γεγονότων καὶ ὄντων παραπέμποντες αὑτοὺς καὶ συνόντες .
 # sent_id = 62
-1	καίτοι	καίτοι	d	d--------	_	45	AuxY	_	t_1224|t_1268|ref=Rect.Latent._6
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1225|t_1227|ref=Rect.Latent._6
-3	γε	γε	d	d--------	_	4	AuxZ	_	t_1226|t_1227|ref=Rect.Latent._6
-4	δόξης	δόξα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_1227|t_1228|ref=Rect.Latent._6
-5	καὶ	καί	c	c--------	_	10	COORD	_	t_1228|t_1233|ref=Rect.Latent._6
-6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_1229|t_1230|ref=Rect.Latent._6
-7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_1230|t_1232|ref=Rect.Latent._6
-8	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	SBJ	_	t_1231|t_1230|ref=Rect.Latent._6
-9	εὐσεβῶν	εὐσεβής	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_1232|t_1235|ref=Rect.Latent._6
-10	χῶρον	χῶρος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	PNOM	_	t_1233|t_1230|ref=Rect.Latent._6
-11	τοῖσι	ὁ	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_1234|t_1235|ref=Rect.Latent._6
-12	λάμπει	λάμπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	ADV	_	t_1235|t_1248|ref=Rect.Latent._6
-13	μὲν	μέν	d	d--------	_	25	AuxY	_	t_1236|t_1248|ref=Rect.Latent._6
-14	μένος	μένος	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1237|t_1235|ref=Rect.Latent._6
-15	ἀελίου	ἥλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_1238|t_1237|ref=Rect.Latent._6
-16	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_1239|t_1241|ref=Rect.Latent._6
-17	ἐνθάδε	ἐνθάδε	d	d--------	_	18	ATR	_	t_1240|t_1241|ref=Rect.Latent._6
-18	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_1241|t_1235|ref=Rect.Latent._6
-19	κάτω	κάτω	d	d--------	_	12	ADV	_	t_1242|t_1235|ref=Rect.Latent._6
-20	,	,	u	u--------	_	0	AuxX	_	t_1243|0|ref=Rect.Latent._6
-21	φοινικορόδοις	φοινικορόδους	a	a-p---md-	Case=d|Gender=m|Number=p	23	ATR	_	t_1244|t_1246|ref=Rect.Latent._6
-22	ἐνὶ	ἐν	r	r--------	_	12	AuxP	_	t_1245|t_1235|ref=Rect.Latent._6
-23	λειμώνεσσι	λειμών	n	n-p---md-	Case=d|Gender=m|Number=p	22	ADV	_	t_1246|t_1245|ref=Rect.Latent._6
-24	,	,	u	u--------	_	20	AuxX	_	t_1247|t_1243|ref=Rect.Latent._6
-25	καὶ	καί	c	c--------	_	45	AuxY	_	t_1248|t_1268|ref=Rect.Latent._6
-26	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_1249|t_1256|ref=Rect.Latent._6
-27	ἀκάρπων	ἄκαρπος	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1250|t_1253|ref=Rect.Latent._6
-28	μὲν	μέν	d	d--------	_	35	AuxY	_	t_1251|t_1258|ref=Rect.Latent._6
-29	ἀνθηρῶν	ἀνθηρός	n	n-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1252|t_1253|ref=Rect.Latent._6
-30	καὶ	καί	c	c--------	_	33	COORD	_	t_1253|t_1256|ref=Rect.Latent._6
-31	σκυθίων	σκύθης	a	a-p---ng-	Case=g|Gender=n|Number=p	32	ATR	_	t_1254|t_1255|ref=Rect.Latent._6
-32	δένδρων	δένδρον	n	n-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1255|t_1253|ref=Rect.Latent._6
-33	ἄνθεσι	ἄνθος	n	n-p---nd-	Case=d|Gender=n|Number=p	35	ADV	_	t_1256|t_1258|ref=Rect.Latent._6
+1	καίτοι	καίτοι	d	d--------	_	45	AuxY	_	t_1224|t_1268|ref=Rect.Latent._7
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_1225|t_1227|ref=Rect.Latent._7
+3	γε	γε	d	d--------	_	4	AuxZ	_	t_1226|t_1227|ref=Rect.Latent._7
+4	δόξης	δόξα	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_1227|t_1228|ref=Rect.Latent._7
+5	καὶ	καί	c	c--------	_	10	COORD	_	t_1228|t_1233|ref=Rect.Latent._7
+6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_1229|t_1230|ref=Rect.Latent._7
+7	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	9	OBJ	_	t_1230|t_1232|ref=Rect.Latent._7
+8	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	7	SBJ	_	t_1231|t_1230|ref=Rect.Latent._7
+9	εὐσεβῶν	εὐσεβής	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	12	ADV	_	t_1232|t_1235|ref=Rect.Latent._7
+10	χῶρον	χῶρος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	PNOM	_	t_1233|t_1230|ref=Rect.Latent._7
+11	τοῖσι	ὁ	p	p-p---md-	Case=d|Gender=m|Number=p	12	OBJ	_	t_1234|t_1235|ref=Rect.Latent._7
+12	λάμπει	λάμπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	ADV	_	t_1235|t_1248|ref=Rect.Latent._7
+13	μὲν	μέν	d	d--------	_	25	AuxY	_	t_1236|t_1248|ref=Rect.Latent._7
+14	μένος	μένος	n	n-s---nn-	Case=n|Gender=n|Number=s	12	SBJ	_	t_1237|t_1235|ref=Rect.Latent._7
+15	ἀελίου	ἥλιος	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_1238|t_1237|ref=Rect.Latent._7
+16	τὰν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_1239|t_1241|ref=Rect.Latent._7
+17	ἐνθάδε	ἐνθάδε	d	d--------	_	18	ATR	_	t_1240|t_1241|ref=Rect.Latent._7
+18	νύκτα	νύξ	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_1241|t_1235|ref=Rect.Latent._7
+19	κάτω	κάτω	d	d--------	_	12	ADV	_	t_1242|t_1235|ref=Rect.Latent._7
+20	,	,	u	u--------	_	0	AuxX	_	t_1243|0|ref=Rect.Latent._7
+21	φοινικορόδοις	φοινικορόδους	a	a-p---md-	Case=d|Gender=m|Number=p	23	ATR	_	t_1244|t_1246|ref=Rect.Latent._7
+22	ἐνὶ	ἐν	r	r--------	_	12	AuxP	_	t_1245|t_1235|ref=Rect.Latent._7
+23	λειμώνεσσι	λειμών	n	n-p---md-	Case=d|Gender=m|Number=p	22	ADV	_	t_1246|t_1245|ref=Rect.Latent._7
+24	,	,	u	u--------	_	20	AuxX	_	t_1247|t_1243|ref=Rect.Latent._7
+25	καὶ	καί	c	c--------	_	45	AuxY	_	t_1248|t_1268|ref=Rect.Latent._7
+26	τοῖσιν	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	33	ATR	_	t_1249|t_1256|ref=Rect.Latent._7
+27	ἀκάρπων	ἄκαρπος	a	a-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1250|t_1253|ref=Rect.Latent._7
+28	μὲν	μέν	d	d--------	_	35	AuxY	_	t_1251|t_1258|ref=Rect.Latent._7
+29	ἀνθηρῶν	ἀνθηρός	n	n-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1252|t_1253|ref=Rect.Latent._7
+30	καὶ	καί	c	c--------	_	33	COORD	_	t_1253|t_1256|ref=Rect.Latent._7
+31	σκυθίων	σκύθης	a	a-p---ng-	Case=g|Gender=n|Number=p	32	ATR	_	t_1254|t_1255|ref=Rect.Latent._7
+32	δένδρων	δένδρον	n	n-p---ng-	Case=g|Gender=n|Number=p	30	ATR	_	t_1255|t_1253|ref=Rect.Latent._7
+33	ἄνθεσι	ἄνθος	n	n-p---nd-	Case=d|Gender=n|Number=p	35	ADV	_	t_1256|t_1258|ref=Rect.Latent._7
 34	τεθηλὸς	θάλλω	v	v-srpann-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=a	36	ATR	_	t_1257|t_1259|ref=Rect.Latent._7
 35	ἀναπέπταται	ἀναπέτομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	45	PRED	_	t_1258|t_1268|ref=Rect.Latent._7
 36	πεδίον	πεδίον	n	n-s---nn-	Case=n|Gender=n|Number=s	35	SBJ	_	t_1259|t_1258|ref=Rect.Latent._7
@@ -1713,6 +1713,6 @@
 39	καὶ	καί	c	c--------	_	41	COORD	_	t_1413|t_1415|ref=Rect.Latent._7
 40	ἀδοξίαν	ἀδοξία	n	n-s---fa-	Case=a|Gender=f|Number=s	39	OBJ	_	t_1414|t_1413|ref=Rect.Latent._7
 41	συνεφελκόμενον	συνεφέλκω	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	26	ADV	_	t_1415|t_1400|ref=Rect.Latent._7
-42	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=Rect.Latent._1
+42	[0]	[0]	-	---------	_	0	PRED	_	e_34|0|ref=Rect.Latent._7
 43	.	.	u	u--------	_	42	AuxK	_	t_1416|e_34|ref=Rect.Latent._7
 

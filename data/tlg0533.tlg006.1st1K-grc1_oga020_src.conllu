@@ -26,10 +26,10 @@
 17	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Aetia_0.1
 18	.	.	u	u--------	_	17	AuxK	_	t_19|e_1|ref=Aetia_0.1
 
-# source = Callimachus, Aetia_0.1-0.2
+# source = Callimachus, Aetia_0.2
 # text = 2 .
 # sent_id = 3
-1	2	2	u	u--------	_	0	AuxG	_	t_20|0|ref=Aetia_0.1
+1	2	2	u	u--------	_	0	AuxG	_	t_20|0|ref=Aetia_0.2
 2	.	.	u	u--------	_	1	AuxK	_	t_21|t_20|ref=Aetia_0.2
 
 # source = Callimachus, Aetia_0.2
@@ -50,7 +50,7 @@
 13	δʼ	δέ	g	g--------	_	16	COORD	_	t_34|e_2|ref=Aetia_0.2
 14	ἐλέφαντος	ἐλέφας	n	n-s---mg-	Case=g|Gender=m|Number=s	15	PNOM	_	t_35|t_36|ref=Aetia_0.2
 15	ἔης	εἰμί	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	13	PRED	_	t_36|t_34|ref=Aetia_0.2
-16	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Aetia_0.1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=Aetia_0.2
 17	.	.	u	u--------	_	16	AuxK	_	t_37|e_2|ref=Aetia_0.2
 
 # source = Callimachus, Aetia_0.2
@@ -124,7 +124,7 @@
 3	2	2	i	i--------	_	6	AuxX	_	t_87|e_3|ref=Aetia_0.2
 4	Suidas	suidas	n	n-s---mv-	Case=v|Gender=m|Number=s	6	ExD	_	t_88|e_3|ref=Aetia_0.2
 5	s	s	x	x--------	_	6	ExD	_	t_89|e_3|ref=Aetia_0.2
-6	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Aetia_0.1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=Aetia_0.2
 7	.	.	u	u--------	_	6	AuxK	_	t_90|e_3|ref=Aetia_0.2
 
 # source = Callimachus, Aetia_0.2
@@ -139,16 +139,16 @@
 1	ὄνειαρ	ὄνειαρ	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_93|0|ref=Aetia_0.2
 2	.	.	u	u--------	_	1	AuxK	_	t_94|t_93|ref=Aetia_0.2
 
-# source = Callimachus, Aetia_0.2
+# source = Callimachus, Aetia_0.3
 # text = 3 .
 # sent_id = 12
-1	3	3	x	x--------	_	0	AuxG	_	t_95|0|ref=Aetia_0.2
-2	.	.	u	u--------	_	1	AuxK	_	t_96|t_95|ref=Aetia_0.2
+1	3	3	x	x--------	_	0	AuxG	_	t_95|0|ref=Aetia_0.3
+2	.	.	u	u--------	_	1	AuxK	_	t_96|t_95|ref=Aetia_0.3
 
-# source = Callimachus, Aetia_0.2-0.3
+# source = Callimachus, Aetia_0.3
 # text = Non hic Centauros , non Gorgonas Harpyias que Invenies [0] :
 # sent_id = 13
-1	Non	οὐ	n	n-s---mn-	Case=n|Gender=f|Number=s	10	ExD	_	t_97|e_4|ref=Aetia_0.2
+1	Non	οὐ	n	n-s---mn-	Case=n|Gender=f|Number=s	10	ExD	_	t_97|e_4|ref=Aetia_0.3
 2	hic	hic	n	n-s---fd-	_	3	AuxZ	_	t_98|t_99|ref=Aetia_0.3
 3	Centauros	centurus	n	n-s----n-	Case=n|Number=s	10	SBJ	_	t_99|e_4|ref=Aetia_0.3
 4	,	,	u	u--------	_	10	AuxX	_	t_100|e_4|ref=Aetia_0.3
@@ -157,7 +157,7 @@
 7	Harpyias	harpyias	n	n-s---fg-	Case=a|Gender=f|Number=p	10	SBJ	_	t_103|e_4|ref=Aetia_0.3
 8	que	ὅς	d	d--------	_	10	SBJ	_	t_104|e_4|ref=Aetia_0.3
 9	Invenies	ἐκveμίζω	n	n-s----n-	Case=n|Number=s	10	SBJ	_	t_105|e_4|ref=Aetia_0.3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Aetia_0.1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=Aetia_0.3
 11	:	:	u	u--------	_	10	AuxK	_	t_106|e_4|ref=Aetia_0.3
 
 # source = Callimachus, Aetia_0.3
@@ -192,24 +192,24 @@
 1	legas	legas	a	a-s---mv-	Case=v|Gender=f|Number=s	4	ExD	_	t_125|e_5|ref=Aetia_0.3
 2	Aetia_	aetia	n	n-s---fv-	Case=v|Gender=f|Number=s	4	ExD	_	t_126|e_5|ref=Aetia_0.3
 3	Callimachi	callimachus	n	n-s---mv-	Case=v|Gender=m|Number=s	4	ExD	_	t_127|e_5|ref=Aetia_0.3
-4	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Aetia_0.1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Aetia_0.3
 5	.	.	u	u--------	_	4	AuxK	_	t_128|e_5|ref=Aetia_0.3
 
-# source = Callimachus, Aetia_0.3
+# source = Callimachus, Aetia_0.4
 # text = 4 [0] .
 # sent_id = 17
-1	4	4	u	u--------	_	2	AuxK	_	t_129|e_6|ref=Aetia_0.3
-2	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Aetia_0.1
-3	.	.	u	u--------	_	2	AuxK	_	t_130|e_6|ref=Aetia_0.3
+1	4	4	u	u--------	_	2	AuxK	_	t_129|e_6|ref=Aetia_0.4
+2	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=Aetia_0.4
+3	.	.	u	u--------	_	2	AuxK	_	t_130|e_6|ref=Aetia_0.4
 
-# source = Callimachus, Aetia_0.3-0.4
+# source = Callimachus, Aetia_0.4
 # text = Εὐφορίων ὁ ποιητὴς καὶ Καλλιμάχου Ἶβις καὶ τὰ Αἴτια καὶ ἡ Λυκόφρονος Ἀλεξάνδρα καὶ τὰ τούτοις παραπλήσια γυμνάσιον εἰς ἐξήγησιν γραμματικῶν ἔκκειται παισίν .
 # sent_id = 18
-1	Εὐφορίων	εὐφορίων	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_131|t_144|ref=Aetia_0.3
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_132|t_131|ref=Aetia_0.3
-3	ποιητὴς	ποιητής	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_133|t_131|ref=Aetia_0.3
+1	Εὐφορίων	εὐφορίων	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_131|t_144|ref=Aetia_0.4
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_132|t_131|ref=Aetia_0.4
+3	ποιητὴς	ποιητής	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_133|t_131|ref=Aetia_0.4
 4	καὶ	καί	d	d--------	_	14	AuxY	_	t_134|t_144|ref=Aetia_0.4
-5	Καλλιμάχου	καλλίμαχος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_135|t_136|ref=Aetia_0.3
+5	Καλλιμάχου	καλλίμαχος	n	n-s---mg-	Case=g|Gender=m|Number=s	6	ATR	_	t_135|t_136|ref=Aetia_0.4
 6	Ἶβις	ἶβις	n	n-s---mn-	Case=n|Gender=m|Number=s	14	SBJ	_	t_136|t_144|ref=Aetia_0.4
 7	καὶ	καί	d	d--------	_	14	AuxY	_	t_137|t_144|ref=Aetia_0.4
 8	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	9	ATR	_	t_138|t_139|ref=Aetia_0.4
@@ -230,43 +230,43 @@
 23	παισίν	παῖς	n	n-p---md-	Case=d|Gender=m|Number=p	22	OBJ	_	t_153|t_152|ref=Aetia_0.4
 24	.	.	u	u--------	_	22	AuxK	_	t_154|t_152|ref=Aetia_0.4
 
-# source = Callimachus, Aetia_0.4
+# source = Callimachus, Aetia_0.5
 # text = 5 .
 # sent_id = 19
-1	5	5	u	u--------	_	0	AuxG	_	t_155|0|ref=Aetia_0.4
-2	.	.	u	u--------	_	1	AuxK	_	t_156|t_155|ref=Aetia_0.4
+1	5	5	u	u--------	_	0	AuxG	_	t_155|0|ref=Aetia_0.5
+2	.	.	u	u--------	_	1	AuxK	_	t_156|t_155|ref=Aetia_0.5
 
-# source = Callimachus, Aetia_0.4-0.5
+# source = Callimachus, Aetia_0.5
 # text = καὶ τῶν μεγίστων Αἰτίων τὴν τετράδα [0] .
 # sent_id = 20
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_157|e_7|ref=Aetia_0.4
-2	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_158|t_160|ref=Aetia_0.4
-3	μεγίστων	μέγας	a	a-p---mgs	Case=g|Degree=s|Gender=m|Number=p	4	ATR	_	t_159|t_160|ref=Aetia_0.4
-4	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_160|t_162|ref=Aetia_0.4
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_157|e_7|ref=Aetia_0.5
+2	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_158|t_160|ref=Aetia_0.5
+3	μεγίστων	μέγας	a	a-p---mgs	Case=g|Degree=s|Gender=m|Number=p	4	ATR	_	t_159|t_160|ref=Aetia_0.5
+4	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_160|t_162|ref=Aetia_0.5
 5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_161|t_162|ref=Aetia_0.5
 6	τετράδα	τετράς	n	n-s---fa-	Case=a|Gender=f|Number=s	7	OBJ	_	t_162|e_7|ref=Aetia_0.5
-7	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Aetia_0.1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=Aetia_0.5
 8	.	.	u	u--------	_	7	AuxK	_	t_163|e_7|ref=Aetia_0.5
 
-# source = Callimachus, Aetia_0.5
+# source = Callimachus, Aetia_1.1
 # text = Fr .
 # sent_id = 21
-1	Fr	fr	n	n--------	_	0	ExD	_	t_164|0|ref=Aetia_0.5
-2	.	.	u	u--------	_	1	AuxK	_	t_165|t_164|ref=Aetia_0.5
+1	Fr	fr	n	n--------	_	0	ExD	_	t_164|0|ref=Aetia_1.1
+2	.	.	u	u--------	_	1	AuxK	_	t_165|t_164|ref=Aetia_1.1
 
-# source = Callimachus, Aetia_0.5
+# source = Callimachus, Aetia_1.1
 # text = 1 , col .
 # sent_id = 22
-1	1	1	u	u--------	_	0	AuxG	_	t_166|0|ref=Aetia_0.5
-2	,	,	u	u--------	_	1	AuxX	_	t_167|t_166|ref=Aetia_0.5
-3	col	col	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	1	ExD	_	t_168|t_166|ref=Aetia_0.5
-4	.	.	u	u--------	_	1	AuxK	_	t_169|t_166|ref=Aetia_0.5
+1	1	1	u	u--------	_	0	AuxG	_	t_166|0|ref=Aetia_1.1
+2	,	,	u	u--------	_	1	AuxX	_	t_167|t_166|ref=Aetia_1.1
+3	col	col	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	1	ExD	_	t_168|t_166|ref=Aetia_1.1
+4	.	.	u	u--------	_	1	AuxK	_	t_169|t_166|ref=Aetia_1.1
 
-# source = Callimachus, Aetia_0.5-1.1
+# source = Callimachus, Aetia_1.1
 # text = i [0] .
 # sent_id = 23
-1	i	εἰ	d	d--------	_	2	SBJ	_	t_170|e_8|ref=Aetia_0.5
-2	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Aetia_0.1
+1	i	εἰ	d	d--------	_	2	SBJ	_	t_170|e_8|ref=Aetia_1.1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Aetia_1.1
 3	.	.	u	u--------	_	2	AuxK	_	t_171|e_8|ref=Aetia_1.1
 
 # source = Callimachus, Aetia_1.1
@@ -278,7 +278,7 @@
 4	πιθοιγὶς	πιθηγίς	n	n-s---fn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_175|t_176|ref=Aetia_1.1
 5	ἐλάνθανεν	λανθάνω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_176|0|ref=Aetia_1.1
 6	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_177|t_176|ref=Aetia_1.1
-7	δʼ	δέ	g	g--------	_	8	AuxZ	_	t_178|t_179|ref=Aetia_0.5
+7	δʼ	δέ	g	g--------	_	8	AuxZ	_	t_178|t_179|ref=Aetia_1.1
 8	ὅτε	ὅτε	c	c--------	_	5	AuxC	_	t_179|t_176|ref=Aetia_1.1
 9	δούλοις	δοῦλος	n	n-p---md-	Case=d|Gender=m|Number=p	13	OBJ	_	t_180|t_184|ref=Aetia_1.1
 10	ἦμαρ	ἦμαρ	n	n-s---na-	Case=a|Gender=n|Number=s	13	OBJ	_	t_181|t_184|ref=Aetia_1.1
@@ -328,7 +328,7 @@
 35	τι	τις	p	p-s---na-	Case=a|Gender=n|Number=s	37	ATR	_	t_221|t_223|ref=Aetia_1.1
 36	κατὰ	κατά	r	r--------	_	33	AuxP	_	t_222|t_219|ref=Aetia_1.1
 37	χρέος	χρέος	n	n-s---na-	Case=a|Gender=n|Number=s	36	ADV	_	t_223|t_222|ref=Aetia_1.1
-38	[0]	[0]	-	---------	_	21	PRED	_	e_9|t_207|ref=Aetia_0.1
+38	[0]	[0]	-	---------	_	21	PRED	_	e_9|t_207|ref=Aetia_1.1
 39	·	·	u	u--------	_	21	AuxK	_	t_224|t_207|ref=Aetia_1.1
 
 # source = Callimachus, Aetia_1.1
@@ -364,7 +364,7 @@
 28	τον	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_252|t_253|ref=Aetia_1.1
 29	ὅμοιον	ὅμοιος	a	a-s---ma-	Case=a|Gender=m|Number=s	27	OBJ	_	t_253|t_251|ref=Aetia_1.1
 30	ἄγει	ἄγω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	PRED	_	t_254|t_239|ref=Aetia_1.1
-31	[0]	[0]	-	---------	_	21	ADV	_	e_10|t_245|ref=Aetia_0.1
+31	[0]	[0]	-	---------	_	21	ADV	_	e_10|t_245|ref=Aetia_1.1
 32	.	.	u	u--------	_	15	AuxK	_	t_255|t_239|ref=Aetia_1.1
 
 # source = Callimachus, Aetia_1.1
@@ -544,7 +544,7 @@
 2	[	[	u	u--------	_	5	AuxG	_	t_407|e_11|ref=Aetia_1.1
 3	.	.	u	u--------	_	5	AuxK	_	t_408|e_11|ref=Aetia_1.1
 4	.	.	u	u--------	_	5	AuxK	_	t_409|e_11|ref=Aetia_1.1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Aetia_0.1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=Aetia_1.1
 6	.	.	u	u--------	_	5	AuxK	_	t_410|e_11|ref=Aetia_1.1
 
 # source = Callimachus, Aetia_1.1
@@ -635,7 +635,7 @@
 39	βίον	βίος	n	n-s---ma-	Case=a|Gender=m|Number=s	38	OBJ	_	t_481|t_480|ref=Aetia_1.1
 40	·	·	u	u--------	_	13	AuxK	_	t_482|t_455|ref=Aetia_1.1
 
-# source = Callimachus, Aetia_1.1
+# source = Callimachus, Aetia_1.1-1.2
 # text = ἀλλʼ ἐμὸς αἰὼν [ κύμασιν αἰ ] θυίης μᾶ [ λλον ἐσῳκίσατο ;
 # sent_id = 37
 1	ἀλλʼ	ἀλλά	c	c--------	_	12	AuxY	_	t_483|t_494|ref=Aetia_1.1
@@ -650,29 +650,29 @@
 10	[	[	u	u--------	_	11	AuxZ	_	t_492|t_493|ref=Aetia_1.1
 11	λλον	λλον	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	12	ADV	_	t_493|t_494|ref=Aetia_1.1
 12	ἐσῳκίσατο	εἰσοικίζω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_494|0|ref=Aetia_1.1
-13	;	;	u	u--------	_	12	AuxK	_	t_495|t_494|ref=Aetia_1.1
+13	;	;	u	u--------	_	12	AuxK	_	t_495|t_494|ref=Aetia_1.2
 
-# source = Callimachus, Aetia_1.1
+# source = Callimachus, Aetia_1.2
 # text = cf .
 # sent_id = 38
-1	cf	cf	v	v2spma---	_	0	ExD	_	t_496|0|ref=Aetia_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_497|t_496|ref=Aetia_1.1
+1	cf	cf	v	v2spma---	_	0	ExD	_	t_496|0|ref=Aetia_1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_497|t_496|ref=Aetia_1.2
 
-# source = Callimachus, Aetia_1.1
+# source = Callimachus, Aetia_1.2
 # text = Frag .
 # sent_id = 39
-1	Frag	fried	n	n--------	_	0	AuxG	_	t_498|0|ref=Aetia_1.1
-2	.	.	u	u--------	_	1	AuxK	_	t_499|t_498|ref=Aetia_1.1
+1	Frag	fried	n	n--------	_	0	AuxG	_	t_498|0|ref=Aetia_1.2
+2	.	.	u	u--------	_	1	AuxK	_	t_499|t_498|ref=Aetia_1.2
 
-# source = Callimachus, Aetia_1.1-1.2
+# source = Callimachus, Aetia_1.2
 # text = 127 possibly belongs to the same context .
 # sent_id = 40
-1	127	127	x	x--------	_	3	AuxG	_	t_500|t_502|ref=Aetia_1.1
-2	possibly	posses	v	v--pna---	Mood=n|Tense=p|Voice=a	3	ExD	_	t_501|t_502|ref=Aetia_1.1
-3	belongs	στρόμβος	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_502|0|ref=Aetia_1.1
-4	to	ὁ	d	d--------	_	3	AuxY	_	t_503|t_502|ref=Aetia_1.1
-5	the	the	l	l-s---fn-	_	7	ATR	_	t_504|t_506|ref=Aetia_1.1
-6	same	same	d	d--------	_	3	SBJ	_	t_505|t_502|ref=Aetia_1.1
+1	127	127	x	x--------	_	3	AuxG	_	t_500|t_502|ref=Aetia_1.2
+2	possibly	posses	v	v--pna---	Mood=n|Tense=p|Voice=a	3	ExD	_	t_501|t_502|ref=Aetia_1.2
+3	belongs	στρόμβος	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_502|0|ref=Aetia_1.2
+4	to	ὁ	d	d--------	_	3	AuxY	_	t_503|t_502|ref=Aetia_1.2
+5	the	the	l	l-s---fn-	_	7	ATR	_	t_504|t_506|ref=Aetia_1.2
+6	same	same	d	d--------	_	3	SBJ	_	t_505|t_502|ref=Aetia_1.2
 7	context	context	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	3	OBJ	_	t_506|t_502|ref=Aetia_1.2
 8	.	.	u	u--------	_	3	AuxK	_	t_507|t_502|ref=Aetia_1.2
 
@@ -729,7 +729,7 @@
 48	ἐκούφισθεν	κουφίζω	d	d--------	_	47	ADV	_	t_555|t_554|ref=Aetia_1.2
 49	δὲ	δέ	g	g--------	_	31	COORD	_	t_556|t_538|ref=Aetia_1.2
 50	τιθῆναι	τιθήνη	v	v--pna---	Mood=n|Tense=p|Voice=a	47	ADV	_	t_557|t_554|ref=Aetia_1.2
-51	[0]	[0]	-	---------	_	37	APOS	_	e_12|t_544|ref=Aetia_0.1
+51	[0]	[0]	-	---------	_	37	APOS	_	e_12|t_544|ref=Aetia_1.2
 52	.	.	u	u--------	_	8	AuxK	_	t_558|t_515|ref=Aetia_1.2
 
 # source = Callimachus, Aetia_1.2
@@ -739,25 +739,25 @@
 2	οὕτω	οὕτως	d	d--------	_	5	ADV	_	t_560|e_13|ref=Aetia_1.2
 3	Ἄργος	ἄργος	n	n-s---mn-	Case=n|Gender=f|Number=s	5	SBJ	_	t_561|e_13|ref=Aetia_1.2
 4	ανα	ανα	n	n-s---fn-	Case=n|Gender=f|Number=s	5	PNOM	_	t_562|e_13|ref=Aetia_1.2
-5	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Aetia_0.1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Aetia_1.2
 6	.	.	u	u--------	_	5	AuxK	_	t_563|e_13|ref=Aetia_1.2
 
-# source = Callimachus, Aetia_1.2-1.3
+# source = Callimachus, Aetia_1.3
 # text = γηράσκει δὲ γέρων κεῖνος ἐλαφρότερον , κοῦροι τὸν φιλέουσιν , ἑὸν δέ μιν οἷα γονῆα χειρὸς ἐπʼ οἰκείην ἄχρις ἄγουσι θύρην . ;
 # sent_id = 43
-1	γηράσκει	γηράσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_564|t_575|ref=Aetia_1.2
-2	δὲ	δέ	g	g--------	_	12	AuxY	_	t_565|t_575|ref=Aetia_1.2
-3	γέρων	γέρων	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_566|t_567|ref=Aetia_1.2
-4	κεῖνος	ἐκεῖνος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_567|t_564|ref=Aetia_1.2
-5	ἐλαφρότερον	ἐλαφρός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	1	ADV	_	t_568|t_564|ref=Aetia_1.2
-6	,	,	u	u--------	_	12	AuxX	_	t_569|t_575|ref=Aetia_1.2
-7	κοῦροι	κόρος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_570|t_572|ref=Aetia_1.2
-8	τὸν	ὁ	p	p-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_571|t_572|ref=Aetia_1.2
-9	φιλέουσιν	φιλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	12	PRED	_	t_572|t_575|ref=Aetia_1.2
-10	,	,	u	u--------	_	12	AuxX	_	t_573|t_575|ref=Aetia_1.2
-11	ἑὸν	ἑός	a	a-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_574|t_578|ref=Aetia_1.2
-12	δέ	δέ	g	g--------	_	0	COORD	_	t_575|0|ref=Aetia_1.2
-13	μιν	μιν	p	p-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_576|t_583|ref=Aetia_1.2
+1	γηράσκει	γηράσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	PRED	_	t_564|t_575|ref=Aetia_1.3
+2	δὲ	δέ	g	g--------	_	12	AuxY	_	t_565|t_575|ref=Aetia_1.3
+3	γέρων	γέρων	n	n-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_566|t_567|ref=Aetia_1.3
+4	κεῖνος	ἐκεῖνος	a	a-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_567|t_564|ref=Aetia_1.3
+5	ἐλαφρότερον	ἐλαφρός	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	1	ADV	_	t_568|t_564|ref=Aetia_1.3
+6	,	,	u	u--------	_	12	AuxX	_	t_569|t_575|ref=Aetia_1.3
+7	κοῦροι	κόρος	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_570|t_572|ref=Aetia_1.3
+8	τὸν	ὁ	p	p-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_571|t_572|ref=Aetia_1.3
+9	φιλέουσιν	φιλέω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	12	PRED	_	t_572|t_575|ref=Aetia_1.3
+10	,	,	u	u--------	_	12	AuxX	_	t_573|t_575|ref=Aetia_1.3
+11	ἑὸν	ἑός	a	a-s---ma-	Case=a|Gender=m|Number=s	15	ATR	_	t_574|t_578|ref=Aetia_1.3
+12	δέ	δέ	g	g--------	_	0	COORD	_	t_575|0|ref=Aetia_1.3
+13	μιν	μιν	p	p-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_576|t_583|ref=Aetia_1.3
 14	οἷα	οἷος	a	a-p---na-	Case=a|Gender=n|Number=p	20	ADV	_	t_577|t_583|ref=Aetia_1.3
 15	γονῆα	γονεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OBJ	_	t_578|t_583|ref=Aetia_1.3
 16	χειρὸς	χείρ	n	n-s---fg-	Case=g|Gender=f|Number=s	19	ADV	_	t_579|t_582|ref=Aetia_1.3
@@ -775,59 +775,59 @@
 1	cf	cf	v	v2spma---	_	0	ExD	_	t_587|0|ref=Aetia_1.3
 2	.	.	u	u--------	_	1	AuxK	_	t_588|t_587|ref=Aetia_1.3
 
-# source = Callimachus, Aetia_1.3
+# source = Callimachus, Aetia_1.4
 # text = ἀπ ’ ὀστλίγγων αἰὲν ἄλειφα ῥέει .
 # sent_id = 45
-1	ἀπ	ἀπό	r	r--------	_	6	AuxP	_	t_589|t_594|ref=Aetia_1.3
-2	’	’	r	r--------	_	6	AuxP	_	t_590|t_594|ref=Aetia_1.3
-3	ὀστλίγγων	ὀστλῖς	n	n-p---fg-	Case=g|Gender=f|Number=p	1	OBJ	_	t_591|t_589|ref=Aetia_1.3
-4	αἰὲν	ἀεί	d	d--------	_	6	ADV	_	t_592|t_594|ref=Aetia_1.3
-5	ἄλειφα	ἄλειφαρ	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_593|t_594|ref=Aetia_1.3
-6	ῥέει	ῥέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_594|0|ref=Aetia_1.3
-7	.	.	u	u--------	_	6	AuxK	_	t_595|t_594|ref=Aetia_1.3
+1	ἀπ	ἀπό	r	r--------	_	6	AuxP	_	t_589|t_594|ref=Aetia_1.4
+2	’	’	r	r--------	_	6	AuxP	_	t_590|t_594|ref=Aetia_1.4
+3	ὀστλίγγων	ὀστλῖς	n	n-p---fg-	Case=g|Gender=f|Number=p	1	OBJ	_	t_591|t_589|ref=Aetia_1.4
+4	αἰὲν	ἀεί	d	d--------	_	6	ADV	_	t_592|t_594|ref=Aetia_1.4
+5	ἄλειφα	ἄλειφαρ	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_593|t_594|ref=Aetia_1.4
+6	ῥέει	ῥέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_594|0|ref=Aetia_1.4
+7	.	.	u	u--------	_	6	AuxK	_	t_595|t_594|ref=Aetia_1.4
 
-# source = Callimachus, Aetia_1.3-1.4
+# source = Callimachus, Aetia_1.5
 # text = οἵη τε Τρίτωνος ἐφʼ ὕδασι Ἀσβύσταο .
 # sent_id = 46
-1	οἵη	οἷος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ADV	_	t_596|t_597|ref=Aetia_1.3
-2	τε	τε	g	g--------	_	0	COORD	_	t_597|0|ref=Aetia_1.3
-3	Τρίτωνος	τρίτων	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_598|t_600|ref=Aetia_1.3
-4	ἐφʼ	ἐπί	r	r--------	_	1	AuxP	_	t_599|t_596|ref=Aetia_1.3
-5	ὕδασι	ὕδωρ	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_600|t_599|ref=Aetia_1.3
-6	Ἀσβύσταο	ἀσβύστος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_601|t_600|ref=Aetia_1.3
-7	.	.	u	u--------	_	2	AuxK	_	t_602|t_597|ref=Aetia_1.4
+1	οἵη	οἷος	a	a-s---fn-	Case=n|Gender=f|Number=s	2	ADV	_	t_596|t_597|ref=Aetia_1.5
+2	τε	τε	g	g--------	_	0	COORD	_	t_597|0|ref=Aetia_1.5
+3	Τρίτωνος	τρίτων	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_598|t_600|ref=Aetia_1.5
+4	ἐφʼ	ἐπί	r	r--------	_	1	AuxP	_	t_599|t_596|ref=Aetia_1.5
+5	ὕδασι	ὕδωρ	n	n-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_600|t_599|ref=Aetia_1.5
+6	Ἀσβύσταο	ἀσβύστος	n	n-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_601|t_600|ref=Aetia_1.5
+7	.	.	u	u--------	_	2	AuxK	_	t_602|t_597|ref=Aetia_1.5
 
-# source = Callimachus, Aetia_1.4
+# source = Callimachus, Aetia_1.6
 # text = τετράενον Δαμάσου παῖδα Τελεστορίδην [0] .
 # sent_id = 47
-1	τετράενον	τετράενος	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_603|t_605|ref=Aetia_1.4
-2	Δαμάσου	δαμάζω	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_604|t_605|ref=Aetia_1.4
-3	παῖδα	παῖς	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_605|e_14|ref=Aetia_1.4
-4	Τελεστορίδην	τελεστορίδης	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_606|e_14|ref=Aetia_1.4
-5	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Aetia_0.1
-6	.	.	u	u--------	_	5	AuxK	_	t_607|e_14|ref=Aetia_1.4
+1	τετράενον	τετράενος	a	a-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_603|t_605|ref=Aetia_1.6
+2	Δαμάσου	δαμάζω	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_604|t_605|ref=Aetia_1.6
+3	παῖδα	παῖς	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_605|e_14|ref=Aetia_1.6
+4	Τελεστορίδην	τελεστορίδης	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_606|e_14|ref=Aetia_1.6
+5	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=Aetia_1.6
+6	.	.	u	u--------	_	5	AuxK	_	t_607|e_14|ref=Aetia_1.6
 
-# source = Callimachus, Aetia_1.4
+# source = Callimachus, Aetia_1.7
 # text = τρία δέ εἰσιν ἀκρωτήρια τῆς Ἴδης , Λεκτόν , Γάργαρον , Φαλάκρη .
 # sent_id = 48
-1	τρία	τρεῖς	m	m-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_608|t_611|ref=Aetia_1.4
-2	δέ	δέ	d	d--------	_	3	AuxY	_	t_609|t_610|ref=Aetia_1.5
-3	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_610|0|ref=Aetia_1.5
-4	ἀκρωτήρια	ἀκρωτήριον	n	n-p---nn-	Case=n|Gender=n|Number=p	3	PNOM	_	t_611|t_610|ref=Aetia_1.5
-5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_612|t_613|ref=Aetia_1.5
-6	Ἴδης	ἴδη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_613|t_611|ref=Aetia_1.5
-7	,	,	u	u--------	_	3	AuxX	_	t_614|t_610|ref=Aetia_1.5
-8	Λεκτόν	λεκτός	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_615|t_618|ref=Aetia_1.5
-9	,	,	u	u--------	_	3	AuxX	_	t_616|t_610|ref=Aetia_1.6
-10	Γάργαρον	γάργαρος	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_617|t_618|ref=Aetia_1.6
-11	,	,	u	u--------	_	7	COORD	_	t_618|t_614|ref=Aetia_1.6
-12	Φαλάκρη	φαλάκρη	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_619|t_618|ref=Aetia_1.6
-13	.	.	u	u--------	_	3	AuxK	_	t_620|t_610|ref=Aetia_1.4
+1	τρία	τρεῖς	m	m-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_608|t_611|ref=Aetia_1.7
+2	δέ	δέ	d	d--------	_	3	AuxY	_	t_609|t_610|ref=Aetia_1.7
+3	εἰσιν	εἰμί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_610|0|ref=Aetia_1.7
+4	ἀκρωτήρια	ἀκρωτήριον	n	n-p---nn-	Case=n|Gender=n|Number=p	3	PNOM	_	t_611|t_610|ref=Aetia_1.7
+5	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_612|t_613|ref=Aetia_1.7
+6	Ἴδης	ἴδη	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_613|t_611|ref=Aetia_1.7
+7	,	,	u	u--------	_	3	AuxX	_	t_614|t_610|ref=Aetia_1.7
+8	Λεκτόν	λεκτός	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_615|t_618|ref=Aetia_1.7
+9	,	,	u	u--------	_	3	AuxX	_	t_616|t_610|ref=Aetia_1.7
+10	Γάργαρον	γάργαρος	n	n-s---nn-	Case=n|Gender=n|Number=s	11	SBJ	_	t_617|t_618|ref=Aetia_1.7
+11	,	,	u	u--------	_	7	COORD	_	t_618|t_614|ref=Aetia_1.7
+12	Φαλάκρη	φαλάκρη	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_619|t_618|ref=Aetia_1.7
+13	.	.	u	u--------	_	3	AuxK	_	t_620|t_610|ref=Aetia_1.7
 
-# source = Callimachus, Aetia_1.6-1.7
+# source = Callimachus, Aetia_1.7
 # text = τούτου μνημονεύει Καλλίμαχος ἐν πρώτῳ Αἰτίων .
 # sent_id = 49
-1	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	2	OBJ	_	t_621|t_622|ref=Aetia_1.6
+1	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=n|Number=s	2	OBJ	_	t_621|t_622|ref=Aetia_1.7
 2	μνημονεύει	μνημονεύω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_622|0|ref=Aetia_1.7
 3	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_623|t_622|ref=Aetia_1.7
 4	ἐν	ἐν	r	r--------	_	2	AuxP	_	t_624|t_622|ref=Aetia_1.7
@@ -835,35 +835,35 @@
 6	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_626|t_625|ref=Aetia_1.7
 7	.	.	u	u--------	_	2	AuxK	_	t_627|t_622|ref=Aetia_1.7
 
-# source = Callimachus, Aetia_1.7
+# source = Callimachus, Aetia_1.8
 # text = Ἀθηνᾶ . [0] .
 # sent_id = 50
-1	Ἀθηνᾶ	ἀθηνᾶ	n	n-s---fv-	Case=v|Gender=f|Number=s	3	ExD	_	t_628|e_15|ref=Aetia_1.7
-2	.	.	u	u--------	_	3	AuxK	_	t_629|e_15|ref=Aetia_1.7
-3	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Aetia_0.1
-4	.	.	u	u--------	_	3	AuxK	_	t_630|e_15|ref=Aetia_1.7
+1	Ἀθηνᾶ	ἀθηνᾶ	n	n-s---fv-	Case=v|Gender=f|Number=s	3	ExD	_	t_628|e_15|ref=Aetia_1.8
+2	.	.	u	u--------	_	3	AuxK	_	t_629|e_15|ref=Aetia_1.8
+3	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Aetia_1.8
+4	.	.	u	u--------	_	3	AuxK	_	t_630|e_15|ref=Aetia_1.8
 
-# source = Callimachus, Aetia_1.7-1.8
+# source = Callimachus, Aetia_1.8
 # text = τοὺς Λοκροὺς ἠνάγκασεν ἐπὶ χίλια ἔτη εἰς Ἴλιον ἐκ κλήρου παρθένους πέμπειν .
 # sent_id = 51
-1	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_631|t_632|ref=Aetia_1.7
-2	Λοκροὺς	λοκροί	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_632|t_633|ref=Aetia_1.7
-3	ἠνάγκασεν	ἀναγκάζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_633|0|ref=Aetia_1.7
-4	ἐπὶ	ἐπί	r	r--------	_	12	AuxP	_	t_634|t_642|ref=Aetia_1.7
-5	χίλια	χίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_635|t_636|ref=Aetia_1.7
-6	ἔτη	ἔτος	n	n-p---na-	Case=a|Gender=n|Number=p	4	ADV	_	t_636|t_634|ref=Aetia_1.7
-7	εἰς	εἰς	r	r--------	_	12	AuxP	_	t_637|t_642|ref=Aetia_1.7
-8	Ἴλιον	ἴλιος	n	n-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_638|t_637|ref=Aetia_1.7
-9	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_639|t_642|ref=Aetia_1.7
-10	κλήρου	κλῆρος	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_640|t_639|ref=Aetia_1.7
-11	παρθένους	παρθένος	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_641|t_642|ref=Aetia_1.7
+1	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	2	ATR	_	t_631|t_632|ref=Aetia_1.8
+2	Λοκροὺς	λοκροί	n	n-p---ma-	Case=a|Gender=m|Number=p	3	OBJ	_	t_632|t_633|ref=Aetia_1.8
+3	ἠνάγκασεν	ἀναγκάζω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_633|0|ref=Aetia_1.8
+4	ἐπὶ	ἐπί	r	r--------	_	12	AuxP	_	t_634|t_642|ref=Aetia_1.8
+5	χίλια	χίλιοι	a	a-p---na-	Case=a|Gender=n|Number=p	6	ATR	_	t_635|t_636|ref=Aetia_1.8
+6	ἔτη	ἔτος	n	n-p---na-	Case=a|Gender=n|Number=p	4	ADV	_	t_636|t_634|ref=Aetia_1.8
+7	εἰς	εἰς	r	r--------	_	12	AuxP	_	t_637|t_642|ref=Aetia_1.8
+8	Ἴλιον	ἴλιος	n	n-s---na-	Case=a|Gender=n|Number=s	7	OBJ	_	t_638|t_637|ref=Aetia_1.8
+9	ἐκ	ἐκ	r	r--------	_	12	AuxP	_	t_639|t_642|ref=Aetia_1.8
+10	κλήρου	κλῆρος	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_640|t_639|ref=Aetia_1.8
+11	παρθένους	παρθένος	n	n-p---fa-	Case=a|Gender=f|Number=p	12	OBJ	_	t_641|t_642|ref=Aetia_1.8
 12	πέμπειν	πέμπω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_642|t_633|ref=Aetia_1.8
 13	.	.	u	u--------	_	3	AuxK	_	t_643|t_633|ref=Aetia_1.8
 
-# source = Callimachus, Aetia_1.7-1.8
+# source = Callimachus, Aetia_1.8
 # text = ἡ ἱστορία παρὰ Καλλιμάχῳ ἐν α ′ Αἰτίων [0] .
 # sent_id = 52
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_644|t_645|ref=Aetia_1.7
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_644|t_645|ref=Aetia_1.8
 2	ἱστορία	ἱστορία	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_645|e_16|ref=Aetia_1.8
 3	παρὰ	παρά	r	r--------	_	9	AuxP	_	t_646|e_16|ref=Aetia_1.8
 4	Καλλιμάχῳ	καλλίμαχος	n	n-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_647|t_646|ref=Aetia_1.8
@@ -871,47 +871,47 @@
 6	α	α	a	a--------	Case=v|Gender=f|Number=s	5	PNOM	_	t_649|t_648|ref=Aetia_1.8
 7	′	′	n	n--------	_	5	PNOM	_	t_650|t_648|ref=Aetia_1.8
 8	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_651|t_649|ref=Aetia_1.8
-9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Aetia_0.1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_16|0|ref=Aetia_1.8
 10	.	.	u	u--------	_	9	AuxK	_	t_652|e_16|ref=Aetia_1.8
 
-# source = Callimachus, Aetia_1.8
+# source = Callimachus, Aetia_1.9-1.10
 # text = Κόροιβον , οὗ μέμνηται Καλλίμαχος ἐν α ′ Αἰτίων . . .
 # sent_id = 53
-1	Κόροιβον	κόροιβος	n	n-s---ma-	Case=a|Gender=m|Number=s	0	ExD	_	t_653|0|ref=Aetia_1.8
-2	,	,	u	u--------	_	1	AuxX	_	t_654|t_653|ref=Aetia_1.8
-3	οὗ	ὅς	p	p-s---ng-	Case=g|Gender=n|Number=s	4	OBJ	_	t_655|t_656|ref=Aetia_1.8
-4	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	ATR	_	t_656|t_653|ref=Aetia_1.8
-5	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_657|t_656|ref=Aetia_1.8
-6	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_658|t_656|ref=Aetia_1.8
-7	α	α	x	x--------	_	6	ADV	_	t_659|t_658|ref=Aetia_1.8
-8	′	′	m	m--------	_	6	ADV	_	t_660|t_658|ref=Aetia_1.8
-9	Αἰτίων	αἴτιος	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_661|t_659|ref=Aetia_1.8
-10	.	.	u	u--------	_	1	AuxK	_	t_662|t_653|ref=Aetia_1.8
-11	.	.	u	u--------	_	1	AuxK	_	t_663|t_653|ref=Aetia_1.8
-12	.	.	u	u--------	_	1	AuxK	_	t_664|t_653|ref=Aetia_1.8
+1	Κόροιβον	κόροιβος	n	n-s---ma-	Case=a|Gender=m|Number=s	0	ExD	_	t_653|0|ref=Aetia_1.9
+2	,	,	u	u--------	_	1	AuxX	_	t_654|t_653|ref=Aetia_1.9
+3	οὗ	ὅς	p	p-s---ng-	Case=g|Gender=n|Number=s	4	OBJ	_	t_655|t_656|ref=Aetia_1.9
+4	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	1	ATR	_	t_656|t_653|ref=Aetia_1.9
+5	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_657|t_656|ref=Aetia_1.9
+6	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_658|t_656|ref=Aetia_1.9
+7	α	α	x	x--------	_	6	ADV	_	t_659|t_658|ref=Aetia_1.9
+8	′	′	m	m--------	_	6	ADV	_	t_660|t_658|ref=Aetia_1.9
+9	Αἰτίων	αἴτιος	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_661|t_659|ref=Aetia_1.9
+10	.	.	u	u--------	_	1	AuxK	_	t_662|t_653|ref=Aetia_1.9
+11	.	.	u	u--------	_	1	AuxK	_	t_663|t_653|ref=Aetia_1.10
+12	.	.	u	u--------	_	1	AuxK	_	t_664|t_653|ref=Aetia_1.10
 
-# source = Callimachus, Aetia_1.8-1.9
+# source = Callimachus, Aetia_1.10
 # text = κώμη τῆς Μεγαρίδος . . [0] .
 # sent_id = 54
-1	κώμη	κώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	ExD	_	t_665|e_17|ref=Aetia_1.8
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_666|t_667|ref=Aetia_1.8
-3	Μεγαρίδος	μεγαρίς	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_667|t_665|ref=Aetia_1.8
-4	.	.	u	u--------	_	6	AuxK	_	t_668|e_17|ref=Aetia_1.8
-5	.	.	u	u--------	_	6	AuxK	_	t_669|e_17|ref=Aetia_1.9
-6	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Aetia_0.1
-7	.	.	u	u--------	_	6	AuxK	_	t_670|e_17|ref=Aetia_1.9
+1	κώμη	κώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	6	ExD	_	t_665|e_17|ref=Aetia_1.10
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_666|t_667|ref=Aetia_1.10
+3	Μεγαρίδος	μεγαρίς	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_667|t_665|ref=Aetia_1.10
+4	.	.	u	u--------	_	6	AuxK	_	t_668|e_17|ref=Aetia_1.10
+5	.	.	u	u--------	_	6	AuxK	_	t_669|e_17|ref=Aetia_1.10
+6	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=Aetia_1.10
+7	.	.	u	u--------	_	6	AuxK	_	t_670|e_17|ref=Aetia_1.10
 
-# source = Callimachus, Aetia_1.9-1.10
+# source = Callimachus, Aetia_1.10
 # text = Καλλίμαχος δ ’ ἐν ‹ α ′ › Αἰτίων πόλιν αὐτὴν εἶναί φησι .
 # sent_id = 55
-1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_671|t_683|ref=Aetia_1.9
-2	δ	δ	d	d--------	_	13	AuxY	_	t_672|t_683|ref=Aetia_1.9
-3	’	’	d	d--------	_	13	AuxY	_	t_673|t_683|ref=Aetia_1.9
-4	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_674|t_682|ref=Aetia_1.9
-5	‹	‹	u	u--------	_	13	AuxG	_	t_675|t_683|ref=Aetia_1.9
-6	α	α	x	x--------	_	4	PNOM	_	t_676|t_674|ref=Aetia_1.9
-7	′	′	x	x--------	_	4	PNOM	_	t_677|t_674|ref=Aetia_1.9
-8	›	‹	u	u--------	_	13	AuxX	_	t_678|t_683|ref=Aetia_1.9
+1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_671|t_683|ref=Aetia_1.10
+2	δ	δ	d	d--------	_	13	AuxY	_	t_672|t_683|ref=Aetia_1.10
+3	’	’	d	d--------	_	13	AuxY	_	t_673|t_683|ref=Aetia_1.10
+4	ἐν	ἐν	r	r--------	_	12	AuxP	_	t_674|t_682|ref=Aetia_1.10
+5	‹	‹	u	u--------	_	13	AuxG	_	t_675|t_683|ref=Aetia_1.10
+6	α	α	x	x--------	_	4	PNOM	_	t_676|t_674|ref=Aetia_1.10
+7	′	′	x	x--------	_	4	PNOM	_	t_677|t_674|ref=Aetia_1.10
+8	›	‹	u	u--------	_	13	AuxX	_	t_678|t_683|ref=Aetia_1.10
 9	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_679|t_680|ref=Aetia_1.10
 10	πόλιν	πόλις	n	n-s---fa-	Case=a|Gender=f|Number=s	12	PNOM	_	t_680|t_682|ref=Aetia_1.10
 11	αὐτὴν	αὐτός	p	p-s---fa-	Case=a|Gender=f|Number=s	12	SBJ	_	t_681|t_682|ref=Aetia_1.10
@@ -919,26 +919,26 @@
 13	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_683|0|ref=Aetia_1.10
 14	.	.	u	u--------	_	13	AuxK	_	t_684|t_683|ref=Aetia_1.10
 
-# source = Callimachus, Aetia_1.10-2.1
+# source = Callimachus, Aetia_2.1
 # text = καὶ γὰρ ἐγὼ τὰ μὲν ὅσσα καρήατι τῆμος ἔδωκα ξανθὰ σὺν εὐόδμοις ἁβρὰ λίπη στεφάνοις , ἄπνοα πάντʼ ἐγένοντο παραχρῆμ ’ ·
 # sent_id = 56
-1	καὶ	καί	d	d--------	_	19	AuxY	_	t_685|t_703|ref=Aetia_1.10
-2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_686|t_703|ref=Aetia_1.9
-3	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	19	SBJ	_	t_687|t_703|ref=Aetia_1.10
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_688|t_694|ref=Aetia_1.10
-5	μὲν	μέν	d	d--------	_	19	AuxY	_	t_689|t_703|ref=Aetia_1.10
-6	ὅσσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_690|t_693|ref=Aetia_1.10
-7	καρήατι	κάρα	n	n-s---nd-	Case=d|Gender=n|Number=s	11	ADV	_	t_691|t_695|ref=Aetia_1.10
-8	τῆμος	τῆμος	d	d--------	_	9	ADV	_	t_692|t_693|ref=Aetia_1.10
-9	ἔδωκα	δίδωμι	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	19	SBJ	_	t_693|t_703|ref=Aetia_1.10
-10	ξανθὰ	ξανθός	v	v-papana-	Case=a|Gender=n|Number=p	9	ADV	_	t_694|t_693|ref=Aetia_1.10
-11	σὺν	σύν	r	r--------	_	9	AuxP	_	t_695|t_693|ref=Aetia_1.10
-12	εὐόδμοις	εὔορμος	a	a-p---md-	Case=d|Gender=m|Number=p	15	ATR	_	t_696|t_699|ref=Aetia_1.10
-13	ἁβρὰ	ἁβρός	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_697|t_698|ref=Aetia_1.10
-14	λίπη	λίπα	n	n-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_698|t_694|ref=Aetia_1.10
-15	στεφάνοις	στέφανος	n	n-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_699|t_695|ref=Aetia_1.10
-16	,	,	u	u--------	_	19	AuxX	_	t_700|t_703|ref=Aetia_1.10
-17	ἄπνοα	ἄπνους	a	a-p---nn-	Case=n|Gender=n|Number=p	19	PNOM	_	t_701|t_703|ref=Aetia_1.10
+1	καὶ	καί	d	d--------	_	19	AuxY	_	t_685|t_703|ref=Aetia_2.1
+2	γὰρ	γάρ	d	d--------	_	19	AuxY	_	t_686|t_703|ref=Aetia_2.1
+3	ἐγὼ	ἐγώ	p	p1s---mn-	Case=n|Gender=m|Number=s|Person=1	19	SBJ	_	t_687|t_703|ref=Aetia_2.1
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_688|t_694|ref=Aetia_2.1
+5	μὲν	μέν	d	d--------	_	19	AuxY	_	t_689|t_703|ref=Aetia_2.1
+6	ὅσσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	9	OBJ	_	t_690|t_693|ref=Aetia_2.1
+7	καρήατι	κάρα	n	n-s---nd-	Case=d|Gender=n|Number=s	11	ADV	_	t_691|t_695|ref=Aetia_2.1
+8	τῆμος	τῆμος	d	d--------	_	9	ADV	_	t_692|t_693|ref=Aetia_2.1
+9	ἔδωκα	δίδωμι	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	19	SBJ	_	t_693|t_703|ref=Aetia_2.1
+10	ξανθὰ	ξανθός	v	v-papana-	Case=a|Gender=n|Number=p	9	ADV	_	t_694|t_693|ref=Aetia_2.1
+11	σὺν	σύν	r	r--------	_	9	AuxP	_	t_695|t_693|ref=Aetia_2.1
+12	εὐόδμοις	εὔορμος	a	a-p---md-	Case=d|Gender=m|Number=p	15	ATR	_	t_696|t_699|ref=Aetia_2.1
+13	ἁβρὰ	ἁβρός	a	a-p---na-	Case=a|Gender=n|Number=p	14	ATR	_	t_697|t_698|ref=Aetia_2.1
+14	λίπη	λίπα	n	n-p---na-	Case=a|Gender=n|Number=p	10	ADV	_	t_698|t_694|ref=Aetia_2.1
+15	στεφάνοις	στέφανος	n	n-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_699|t_695|ref=Aetia_2.1
+16	,	,	u	u--------	_	19	AuxX	_	t_700|t_703|ref=Aetia_2.1
+17	ἄπνοα	ἄπνους	a	a-p---nn-	Case=n|Gender=n|Number=p	19	PNOM	_	t_701|t_703|ref=Aetia_2.1
 18	πάντʼ	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	19	SBJ	_	t_702|t_703|ref=Aetia_2.1
 19	ἐγένοντο	γίγνομαι	v	v3paim---	Mood=i|Number=p|Person=3|Tense=a|Voice=m	0	PRED	_	t_703|0|ref=Aetia_2.1
 20	παραχρῆμ	παραχρῆμα	d	d--------	_	19	ADV	_	t_704|t_703|ref=Aetia_2.1
@@ -981,149 +981,149 @@
 10	τάδε	ὅδε	p	p-p---nn-	Case=n|Gender=n|Number=p	9	SBJ	_	t_733|t_732|ref=Aetia_2.1
 11	.	.	u	u--------	_	9	AuxK	_	t_734|t_732|ref=Aetia_2.1
 
-# source = Callimachus, Aetia_2.1
+# source = Callimachus, Aetia_2.2
 # text = ἡ μὲν ἀερτάζουσα μέγα τρύφος Ὑψιζώρου ἄστυρον εἰσανέβαιν ’ .
 # sent_id = 59
-1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_735|t_739|ref=Aetia_2.1
-2	μὲν	μέν	g	g--------	_	8	AuxY	_	t_736|t_742|ref=Aetia_2.1
-3	ἀερτάζουσα	ἀερτάζω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_737|t_742|ref=Aetia_2.1
-4	μέγα	μέγας	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_738|t_739|ref=Aetia_2.1
-5	τρύφος	τρύφος	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_739|t_742|ref=Aetia_2.1
-6	Ὑψιζώρου	ὑψίθρονος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_740|t_741|ref=Aetia_2.1
-7	ἄστυρον	ἄστυρον	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_741|t_742|ref=Aetia_2.1
-8	εἰσανέβαιν	εἰσαναβαίνω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_742|0|ref=Aetia_2.1
-9	’	’	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	OBJ	_	t_743|t_742|ref=Aetia_2.1
-10	.	.	u	u--------	_	8	AuxK	_	t_744|t_742|ref=Aetia_2.1
+1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	5	ATR	_	t_735|t_739|ref=Aetia_2.2
+2	μὲν	μέν	g	g--------	_	8	AuxY	_	t_736|t_742|ref=Aetia_2.2
+3	ἀερτάζουσα	ἀερτάζω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	8	ADV	_	t_737|t_742|ref=Aetia_2.2
+4	μέγα	μέγας	a	a-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_738|t_739|ref=Aetia_2.2
+5	τρύφος	τρύφος	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_739|t_742|ref=Aetia_2.2
+6	Ὑψιζώρου	ὑψίθρονος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_740|t_741|ref=Aetia_2.2
+7	ἄστυρον	ἄστυρον	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_741|t_742|ref=Aetia_2.2
+8	εἰσανέβαιν	εἰσαναβαίνω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_742|0|ref=Aetia_2.2
+9	’	’	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	8	OBJ	_	t_743|t_742|ref=Aetia_2.2
+10	.	.	u	u--------	_	8	AuxK	_	t_744|t_742|ref=Aetia_2.2
 
-# source = Callimachus, Aetia_2.1
+# source = Callimachus, Aetia_2.3
 # text = ὥς τε Ζεὺς ἐράτιζε τριηκοσίους ἐνιαυτούς .
 # sent_id = 60
-1	ὥς	ὡς	d	d--------	_	4	ADV	_	t_745|t_748|ref=Aetia_2.1
-2	τε	τε	g	g--------	_	4	AuxY	_	t_746|t_748|ref=Aetia_2.1
-3	Ζεὺς	ζεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_747|t_748|ref=Aetia_2.1
-4	ἐράτιζε	ἐρατίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_748|0|ref=Aetia_2.1
-5	τριηκοσίους	τριακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_749|t_750|ref=Aetia_2.1
-6	ἐνιαυτούς	ἐνιαυτός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	ADV	_	t_750|t_748|ref=Aetia_2.1
-7	.	.	u	u--------	_	4	AuxK	_	t_751|t_748|ref=Aetia_2.1
+1	ὥς	ὡς	d	d--------	_	4	ADV	_	t_745|t_748|ref=Aetia_2.3
+2	τε	τε	g	g--------	_	4	AuxY	_	t_746|t_748|ref=Aetia_2.3
+3	Ζεὺς	ζεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_747|t_748|ref=Aetia_2.3
+4	ἐράτιζε	ἐρατίζω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_748|0|ref=Aetia_2.3
+5	τριηκοσίους	τριακόσιοι	a	a-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_749|t_750|ref=Aetia_2.3
+6	ἐνιαυτούς	ἐνιαυτός	n	n-p---ma-	Case=a|Gender=m|Number=p	4	ADV	_	t_750|t_748|ref=Aetia_2.3
+7	.	.	u	u--------	_	4	AuxK	_	t_751|t_748|ref=Aetia_2.3
 
-# source = Callimachus, Aetia_2.2
+# source = Callimachus, Aetia_2.4
 # text = οὕνεκεν οἰκτείρειν οἶδε μόνη πολίων .
 # sent_id = 61
-1	οὕνεκεν	οὕνεκεν	d	d--------	_	3	AuxC	_	t_752|t_754|ref=Aetia_2.2
-2	οἰκτείρειν	οἰκτείρω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_753|t_754|ref=Aetia_2.2
-3	οἶδε	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_754|0|ref=Aetia_2.2
-4	μόνη	μόνος	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ADV	_	t_755|t_754|ref=Aetia_2.2
-5	πολίων	πόλις	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_756|t_755|ref=Aetia_2.2
-6	.	.	u	u--------	_	3	AuxK	_	t_757|t_754|ref=Aetia_2.2
+1	οὕνεκεν	οὕνεκεν	d	d--------	_	3	AuxC	_	t_752|t_754|ref=Aetia_2.4
+2	οἰκτείρειν	οἰκτείρω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	OBJ	_	t_753|t_754|ref=Aetia_2.4
+3	οἶδε	οἶδα	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	0	PRED	_	t_754|0|ref=Aetia_2.4
+4	μόνη	μόνος	a	a-s---fn-	Case=n|Gender=f|Number=s	3	ADV	_	t_755|t_754|ref=Aetia_2.4
+5	πολίων	πόλις	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_756|t_755|ref=Aetia_2.4
+6	.	.	u	u--------	_	3	AuxK	_	t_757|t_754|ref=Aetia_2.4
 
-# source = Callimachus, Aetia_2.2
+# source = Callimachus, Aetia_2.4
 # text = Καλλίμαχος . .
 # sent_id = 62
-1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_758|0|ref=Aetia_2.2
-2	.	.	u	u--------	_	1	AuxK	_	t_759|t_758|ref=Aetia_2.2
-3	.	.	u	u--------	_	1	AuxK	_	t_760|t_758|ref=Aetia_2.2
+1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	0	ExD	_	t_758|0|ref=Aetia_2.4
+2	.	.	u	u--------	_	1	AuxK	_	t_759|t_758|ref=Aetia_2.4
+3	.	.	u	u--------	_	1	AuxK	_	t_760|t_758|ref=Aetia_2.4
 
-# source = Callimachus, Aetia_2.2-2.4
+# source = Callimachus, Aetia_2.4
 # text = ἐν τῷ τέλει τοῦ β ′ τῶν Αἰτίων [0] .
 # sent_id = 63
-1	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_761|e_18|ref=Aetia_2.2
-2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_762|t_763|ref=Aetia_2.3
-3	τέλει	τέλος	n	n-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_763|t_761|ref=Aetia_2.3
-4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_764|t_765|ref=Aetia_2.3
-5	β	β	m	m--------	_	6	ATR	_	t_765|t_766|ref=Aetia_2.3
-6	′	′	m	m--------	_	3	ATR	_	t_766|t_763|ref=Aetia_2.3
-7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_767|t_768|ref=Aetia_2.3
-8	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_768|t_765|ref=Aetia_2.3
-9	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Aetia_0.1
+1	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_761|e_18|ref=Aetia_2.4
+2	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	3	ATR	_	t_762|t_763|ref=Aetia_2.4
+3	τέλει	τέλος	n	n-s---nd-	Case=d|Gender=n|Number=s	1	ADV	_	t_763|t_761|ref=Aetia_2.4
+4	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_764|t_765|ref=Aetia_2.4
+5	β	β	m	m--------	_	6	ATR	_	t_765|t_766|ref=Aetia_2.4
+6	′	′	m	m--------	_	3	ATR	_	t_766|t_763|ref=Aetia_2.4
+7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_767|t_768|ref=Aetia_2.4
+8	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_768|t_765|ref=Aetia_2.4
+9	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=Aetia_2.4
 10	.	.	u	u--------	_	9	AuxK	_	t_769|e_18|ref=Aetia_2.4
 
-# source = Callimachus, Aetia_2.4
+# source = Callimachus, Aetia_2.5
 # text = Τάμμεω θυγατέρος [0] .
 # sent_id = 64
-1	Τάμμεω	τέμνω	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_770|t_771|ref=Aetia_2.4
-2	θυγατέρος	θυγάτηρ	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_771|e_19|ref=Aetia_2.4
-3	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Aetia_0.1
-4	.	.	u	u--------	_	3	AuxK	_	t_772|e_19|ref=Aetia_2.4
+1	Τάμμεω	τέμνω	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ATR	_	t_770|t_771|ref=Aetia_2.5
+2	θυγατέρος	θυγάτηρ	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_771|e_19|ref=Aetia_2.5
+3	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=Aetia_2.5
+4	.	.	u	u--------	_	3	AuxK	_	t_772|e_19|ref=Aetia_2.5
 
-# source = Callimachus, Aetia_2.4
+# source = Callimachus, Aetia_2.6
 # text = τὸ δρέπανον παρὰ Σικελοῖς ζάγκλον καλεῖται .
 # sent_id = 65
-1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_773|t_774|ref=Aetia_2.4
-2	δρέπανον	δρέπανον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_774|t_778|ref=Aetia_2.4
-3	παρὰ	παρά	r	r--------	_	6	AuxP	_	t_775|t_778|ref=Aetia_2.4
-4	Σικελοῖς	σικελοί	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_776|t_775|ref=Aetia_2.4
-5	ζάγκλον	ζάγκλον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	OCOMP	_	t_777|t_778|ref=Aetia_2.4
-6	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_778|0|ref=Aetia_2.4
-7	.	.	u	u--------	_	6	AuxK	_	t_779|t_778|ref=Aetia_2.4
+1	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	2	ATR	_	t_773|t_774|ref=Aetia_2.6
+2	δρέπανον	δρέπανον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	SBJ	_	t_774|t_778|ref=Aetia_2.6
+3	παρὰ	παρά	r	r--------	_	6	AuxP	_	t_775|t_778|ref=Aetia_2.6
+4	Σικελοῖς	σικελοί	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_776|t_775|ref=Aetia_2.6
+5	ζάγκλον	ζάγκλον	n	n-s---nn-	Case=n|Gender=n|Number=s	6	OCOMP	_	t_777|t_778|ref=Aetia_2.6
+6	καλεῖται	καλέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_778|0|ref=Aetia_2.6
+7	.	.	u	u--------	_	6	AuxK	_	t_779|t_778|ref=Aetia_2.6
 
-# source = Callimachus, Aetia_2.4
+# source = Callimachus, Aetia_2.6
 # text = μέμνηται δὲ καὶ Καλλίμαχος ἐν δευτέρῳ Αἰτίων .
 # sent_id = 66
-1	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_780|0|ref=Aetia_2.4
-2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_781|t_780|ref=Aetia_2.4
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_782|t_783|ref=Aetia_2.4
-4	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_783|t_780|ref=Aetia_2.4
-5	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_784|t_780|ref=Aetia_2.4
-6	δευτέρῳ	δεύτερος	a	a-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_785|t_784|ref=Aetia_2.4
-7	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_786|t_785|ref=Aetia_2.3
-8	.	.	u	u--------	_	1	AuxK	_	t_787|t_780|ref=Aetia_2.4
-
-# source = Callimachus, Aetia_2.5
-# text = ὠνόμασται . . .
-# sent_id = 67
-1	ὠνόμασται	ὀνομάζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_788|0|ref=Aetia_2.5
-2	.	.	u	u--------	_	1	AuxK	_	t_789|t_788|ref=Aetia_2.5
-3	.	.	u	u--------	_	1	AuxK	_	t_790|t_788|ref=Aetia_2.4
-4	.	.	u	u--------	_	1	AuxK	_	t_791|t_788|ref=Aetia_2.5
-
-# source = Callimachus, Aetia_2.6-2.7
-# text = , ὡς Ἐπαφρόδιτος ὑπομνηματίζων τὸ β ′ Αἰτίων , ἀπὸ Δωδώνης μιᾶς τῶν Ὠκεανίδων νυμφῶν [0] .
-# sent_id = 68
-1	,	,	u	u--------	_	16	AuxX	_	t_792|e_20|ref=Aetia_2.6
-2	ὡς	ὡς	d	d--------	_	4	AuxZ	_	t_793|t_795|ref=Aetia_2.6
-3	Ἐπαφρόδιτος	ἐπαφρόδιτος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_794|e_20|ref=Aetia_2.6
-4	ὑπομνηματίζων	ὑπομνηματίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_795|e_20|ref=Aetia_2.6
-5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_796|t_797|ref=Aetia_2.6
-6	β	β	x	x--------	Case=a|Gender=n|Number=s	4	OBJ	_	t_797|t_795|ref=Aetia_2.6
-7	′	′	m	m--------	Case=a|Gender=n|Number=s	4	OBJ	_	t_798|t_795|ref=Aetia_2.6
-8	Αἰτίων	αἴτιος	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_799|t_798|ref=Aetia_2.6
-9	,	,	u	u--------	_	16	AuxX	_	t_800|e_20|ref=Aetia_2.6
-10	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_801|t_795|ref=Aetia_2.6
-11	Δωδώνης	δωδώνη	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_802|t_801|ref=Aetia_2.6
-12	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_803|t_802|ref=Aetia_2.6
-13	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_804|t_806|ref=Aetia_2.6
-14	Ὠκεανίδων	ὠκεανίς	n	n-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_805|t_806|ref=Aetia_2.6
-15	νυμφῶν	νύμφη	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_806|t_802|ref=Aetia_2.6
-16	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Aetia_0.1
-17	.	.	u	u--------	_	16	AuxK	_	t_807|e_20|ref=Aetia_2.7
+1	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_780|0|ref=Aetia_2.6
+2	δὲ	δέ	d	d--------	_	1	AuxY	_	t_781|t_780|ref=Aetia_2.6
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_782|t_783|ref=Aetia_2.6
+4	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_783|t_780|ref=Aetia_2.6
+5	ἐν	ἐν	r	r--------	_	1	AuxP	_	t_784|t_780|ref=Aetia_2.6
+6	δευτέρῳ	δεύτερος	a	a-s---md-	Case=d|Gender=m|Number=s	5	ADV	_	t_785|t_784|ref=Aetia_2.6
+7	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_786|t_785|ref=Aetia_2.6
+8	.	.	u	u--------	_	1	AuxK	_	t_787|t_780|ref=Aetia_2.6
 
 # source = Callimachus, Aetia_2.7
+# text = ὠνόμασται . . .
+# sent_id = 67
+1	ὠνόμασται	ὀνομάζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_788|0|ref=Aetia_2.7
+2	.	.	u	u--------	_	1	AuxK	_	t_789|t_788|ref=Aetia_2.7
+3	.	.	u	u--------	_	1	AuxK	_	t_790|t_788|ref=Aetia_2.7
+4	.	.	u	u--------	_	1	AuxK	_	t_791|t_788|ref=Aetia_2.7
+
+# source = Callimachus, Aetia_2.7
+# text = , ὡς Ἐπαφρόδιτος ὑπομνηματίζων τὸ β ′ Αἰτίων , ἀπὸ Δωδώνης μιᾶς τῶν Ὠκεανίδων νυμφῶν [0] .
+# sent_id = 68
+1	,	,	u	u--------	_	16	AuxX	_	t_792|e_20|ref=Aetia_2.7
+2	ὡς	ὡς	d	d--------	_	4	AuxZ	_	t_793|t_795|ref=Aetia_2.7
+3	Ἐπαφρόδιτος	ἐπαφρόδιτος	n	n-s---mn-	Case=n|Gender=m|Number=s	16	SBJ	_	t_794|e_20|ref=Aetia_2.7
+4	ὑπομνηματίζων	ὑπομνηματίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	16	ADV	_	t_795|e_20|ref=Aetia_2.7
+5	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	6	ATR	_	t_796|t_797|ref=Aetia_2.7
+6	β	β	x	x--------	Case=a|Gender=n|Number=s	4	OBJ	_	t_797|t_795|ref=Aetia_2.7
+7	′	′	m	m--------	Case=a|Gender=n|Number=s	4	OBJ	_	t_798|t_795|ref=Aetia_2.7
+8	Αἰτίων	αἴτιος	n	n-p---ng-	Case=g|Gender=n|Number=p	7	ATR	_	t_799|t_798|ref=Aetia_2.7
+9	,	,	u	u--------	_	16	AuxX	_	t_800|e_20|ref=Aetia_2.7
+10	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_801|t_795|ref=Aetia_2.7
+11	Δωδώνης	δωδώνη	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_802|t_801|ref=Aetia_2.7
+12	μιᾶς	εἷς	a	a-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_803|t_802|ref=Aetia_2.7
+13	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_804|t_806|ref=Aetia_2.7
+14	Ὠκεανίδων	ὠκεανίς	n	n-p---fg-	Case=g|Gender=f|Number=p	15	ATR	_	t_805|t_806|ref=Aetia_2.7
+15	νυμφῶν	νύμφη	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_806|t_802|ref=Aetia_2.7
+16	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=Aetia_2.7
+17	.	.	u	u--------	_	16	AuxK	_	t_807|e_20|ref=Aetia_2.7
+
+# source = Callimachus, Aetia_2.8
 # text = Αἴγυπτος προπάροιθεν ἐπʼ ἐννέα κάρφετο ποίας · . . . . . .
 # sent_id = 69
-1	Αἴγυπτος	αἴγυπτος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_808|t_812|ref=Aetia_2.7
-2	προπάροιθεν	προπάροιθε	r	r--------	_	5	ADV	_	t_809|t_812|ref=Aetia_2.7
-3	ἐπʼ	ἐπί	r	r--------	_	5	AuxP	_	t_810|t_812|ref=Aetia_2.7
-4	ἐννέα	ἐννέα	m	m--------	_	6	ATR	_	t_811|t_813|ref=Aetia_2.7
-5	κάρφετο	κάρφω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_812|0|ref=Aetia_2.7
-6	ποίας	ποῖος	n	n-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_813|t_810|ref=Aetia_2.7
-7	·	·	u	u--------	_	5	AuxK	_	t_814|t_812|ref=Aetia_2.7
-8	.	.	u	u--------	_	5	AuxK	_	t_815|t_812|ref=Aetia_2.7
-9	.	.	u	u--------	_	5	AuxK	_	t_816|t_812|ref=Aetia_2.7
-10	.	.	u	u--------	_	5	AuxK	_	t_817|t_812|ref=Aetia_2.7
-11	.	.	u	u--------	_	5	AuxK	_	t_818|t_812|ref=Aetia_2.7
-12	.	.	u	u--------	_	5	AuxK	_	t_819|t_812|ref=Aetia_2.7
-13	.	.	u	u--------	_	5	AuxK	_	t_820|t_812|ref=Aetia_2.7
+1	Αἴγυπτος	αἴγυπτος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_808|t_812|ref=Aetia_2.8
+2	προπάροιθεν	προπάροιθε	r	r--------	_	5	ADV	_	t_809|t_812|ref=Aetia_2.8
+3	ἐπʼ	ἐπί	r	r--------	_	5	AuxP	_	t_810|t_812|ref=Aetia_2.8
+4	ἐννέα	ἐννέα	m	m--------	_	6	ATR	_	t_811|t_813|ref=Aetia_2.8
+5	κάρφετο	κάρφω	v	v3siie---	Mood=i|Number=s|Person=3|Tense=i|Voice=e	0	PRED	_	t_812|0|ref=Aetia_2.8
+6	ποίας	ποῖος	n	n-p---fa-	Case=a|Gender=f|Number=p	3	OBJ	_	t_813|t_810|ref=Aetia_2.8
+7	·	·	u	u--------	_	5	AuxK	_	t_814|t_812|ref=Aetia_2.8
+8	.	.	u	u--------	_	5	AuxK	_	t_815|t_812|ref=Aetia_2.8
+9	.	.	u	u--------	_	5	AuxK	_	t_816|t_812|ref=Aetia_2.8
+10	.	.	u	u--------	_	5	AuxK	_	t_817|t_812|ref=Aetia_2.8
+11	.	.	u	u--------	_	5	AuxK	_	t_818|t_812|ref=Aetia_2.8
+12	.	.	u	u--------	_	5	AuxK	_	t_819|t_812|ref=Aetia_2.8
+13	.	.	u	u--------	_	5	AuxK	_	t_820|t_812|ref=Aetia_2.8
 
-# source = Callimachus, Aetia_2.7-2.8
+# source = Callimachus, Aetia_2.8
 # text = τὴν κείνου Φάλαρις πρᾶξιν ἀπεπλάσατο , πρῶτος ἐπεὶ τὸν ταῦρον ἐκαίνισεν ὃς τὸν ὄλεθρον εὗρε τὸν ἐν χαλκῷ καὶ πυρὶ γιγνόμενον .
 # sent_id = 70
-1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_821|t_824|ref=Aetia_2.7
-2	κείνου	ἐκεῖνος	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_822|t_824|ref=Aetia_2.7
-3	Φάλαρις	φάλαρις	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_823|t_825|ref=Aetia_2.7
-4	πρᾶξιν	πρᾶξις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_824|t_825|ref=Aetia_2.7
-5	ἀπεπλάσατο	ἀποπλάζω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_825|0|ref=Aetia_2.7
-6	,	,	u	u--------	_	8	AuxX	_	t_826|t_828|ref=Aetia_2.6
-7	πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	AtvV	_	t_827|t_831|ref=Aetia_2.7
+1	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_821|t_824|ref=Aetia_2.8
+2	κείνου	ἐκεῖνος	a	a-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_822|t_824|ref=Aetia_2.8
+3	Φάλαρις	φάλαρις	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_823|t_825|ref=Aetia_2.8
+4	πρᾶξιν	πρᾶξις	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_824|t_825|ref=Aetia_2.8
+5	ἀπεπλάσατο	ἀποπλάζω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_825|0|ref=Aetia_2.8
+6	,	,	u	u--------	_	8	AuxX	_	t_826|t_828|ref=Aetia_2.8
+7	πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	11	AtvV	_	t_827|t_831|ref=Aetia_2.8
 8	ἐπεὶ	ἐπεί	c	c--------	_	5	AuxC	_	t_828|t_825|ref=Aetia_2.8
 9	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	10	ATR	_	t_829|t_830|ref=Aetia_2.8
 10	ταῦρον	ταῦρος	n	n-s---ma-	Case=a|Gender=m|Number=s	11	OBJ	_	t_830|t_831|ref=Aetia_2.8
@@ -1140,36 +1140,36 @@
 21	γιγνόμενον	γίγνομαι	v	v-sppema-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	14	ATR	_	t_841|t_834|ref=Aetia_2.8
 22	.	.	u	u--------	_	5	AuxK	_	t_842|t_825|ref=Aetia_2.8
 
-# source = Callimachus, Aetia_2.8
+# source = Callimachus, Aetia_3.1
 # text = III [0] .
 # sent_id = 71
-1	III	iii	x	x--------	_	2	AuxG	_	t_843|e_21|ref=Aetia_2.8
-2	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Aetia_0.2
-3	.	.	u	u--------	_	2	AuxK	_	t_844|e_21|ref=Aetia_2.8
+1	III	iii	x	x--------	_	2	AuxG	_	t_843|e_21|ref=Aetia_3.1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=Aetia_3.1
+3	.	.	u	u--------	_	2	AuxK	_	t_844|e_21|ref=Aetia_3.1
 
-# source = Callimachus, Aetia_2.8
+# source = Callimachus, Aetia_3.1
 # text = 1 ἤδη καὶ κούρῳ παρθένος εὐνάσατο , τέθμιον ὡς ἐκέλευε προνύμφιον ὕπνον ἰαῦσαι ἄρσενι τὴν τᾶλιν παιδὶ σὺν ἀμφιθαλεῖ .
 # sent_id = 72
-1	1	1	a	a--------	_	6	AuxY	_	t_845|t_850|ref=Aetia_2.8
-2	ἤδη	ἤδη	d	d--------	_	6	ADV	_	t_846|t_850|ref=Aetia_2.8
-3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_847|t_848|ref=Aetia_2.8
-4	κούρῳ	κόρος	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_848|t_850|ref=Aetia_2.8
-5	παρθένος	παρθένος	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_849|t_850|ref=Aetia_2.8
-6	εὐνάσατο	εὐνάω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_850|0|ref=Aetia_2.8
-7	,	,	u	u--------	_	9	AuxX	_	t_851|t_853|ref=Aetia_2.8
-8	τέθμιον	τέθμιος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_852|t_850|ref=Aetia_2.8
-9	ὡς	ὡς	c	c--------	_	6	AuxC	_	t_853|t_850|ref=Aetia_2.8
-10	ἐκέλευε	κελεύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	ADV	_	t_854|t_853|ref=Aetia_2.8
-11	προνύμφιον	προνύμφιος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_855|t_856|ref=Aetia_2.8
-12	ὕπνον	ὕπνος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_856|t_857|ref=Aetia_2.8
-13	ἰαῦσαι	ἰαύω	v	v--ana---	Mood=n|Tense=a|Voice=a	10	OBJ	_	t_857|t_854|ref=Aetia_2.8
-14	ἄρσενι	ἄρσην	n	n-s---md-	Case=d|Gender=f|Number=s	17	ATR	_	t_858|t_861|ref=Aetia_2.8
-15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_859|t_860|ref=Aetia_2.8
-16	τᾶλιν	τᾶλιν	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_860|t_861|ref=Aetia_2.8
-17	παιδὶ	παῖς	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_861|t_862|ref=Aetia_2.8
-18	σὺν	σύν	r	r--------	_	13	AuxP	_	t_862|t_857|ref=Aetia_2.8
+1	1	1	a	a--------	_	6	AuxY	_	t_845|t_850|ref=Aetia_3.1
+2	ἤδη	ἤδη	d	d--------	_	6	ADV	_	t_846|t_850|ref=Aetia_3.1
+3	καὶ	καί	d	d--------	_	4	AuxZ	_	t_847|t_848|ref=Aetia_3.1
+4	κούρῳ	κόρος	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_848|t_850|ref=Aetia_3.1
+5	παρθένος	παρθένος	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_849|t_850|ref=Aetia_3.1
+6	εὐνάσατο	εὐνάω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_850|0|ref=Aetia_3.1
+7	,	,	u	u--------	_	9	AuxX	_	t_851|t_853|ref=Aetia_3.1
+8	τέθμιον	τέθμιος	a	a-s---na-	Case=a|Gender=n|Number=s	6	ADV	_	t_852|t_850|ref=Aetia_3.1
+9	ὡς	ὡς	c	c--------	_	6	AuxC	_	t_853|t_850|ref=Aetia_3.1
+10	ἐκέλευε	κελεύω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	ADV	_	t_854|t_853|ref=Aetia_3.1
+11	προνύμφιον	προνύμφιος	a	a-s---ma-	Case=a|Gender=m|Number=s	12	ATR	_	t_855|t_856|ref=Aetia_3.1
+12	ὕπνον	ὕπνος	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_856|t_857|ref=Aetia_3.1
+13	ἰαῦσαι	ἰαύω	v	v--ana---	Mood=n|Tense=a|Voice=a	10	OBJ	_	t_857|t_854|ref=Aetia_3.1
+14	ἄρσενι	ἄρσην	n	n-s---md-	Case=d|Gender=f|Number=s	17	ATR	_	t_858|t_861|ref=Aetia_3.1
+15	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	ATR	_	t_859|t_860|ref=Aetia_3.1
+16	τᾶλιν	τᾶλιν	n	n-s---fa-	Case=a|Gender=f|Number=s	17	ATR	_	t_860|t_861|ref=Aetia_3.1
+17	παιδὶ	παῖς	n	n-s---fd-	Case=d|Gender=f|Number=s	18	ADV	_	t_861|t_862|ref=Aetia_3.1
+18	σὺν	σύν	r	r--------	_	13	AuxP	_	t_862|t_857|ref=Aetia_3.1
 19	ἀμφιθαλεῖ	ἀμφιθαλής	a	a-s---fd-	Case=d|Gender=f|Number=s	17	ATR	_	t_863|t_861|ref=Aetia_3.1
-20	.	.	u	u--------	_	6	AuxK	_	t_864|t_850|ref=Aetia_2.8
+20	.	.	u	u--------	_	6	AuxK	_	t_864|t_850|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
 # text = Ἥρην γάρ κοτέ φασικύον , κύον , ἴσχεο , λαιδρὲ θυμέ , σύ γʼ ἀείσῃ καὶ τά περ οὐχ ὁσίη [0] ·
@@ -1194,7 +1194,7 @@
 18	περ	πέρ	g	g--------	_	17	AuxZ	_	t_882|t_881|ref=Aetia_3.1
 19	οὐχ	οὐ	d	d--------	_	20	AuxZ	_	t_883|t_884|ref=Aetia_3.1
 20	ὁσίη	ὁσία	a	a-s---fn-	Case=n|Gender=f|Number=s	21	PNOM	_	t_884|e_22|ref=Aetia_3.1
-21	[0]	[0]	-	---------	_	15	OBJ	_	e_22|t_879|ref=Aetia_0.2
+21	[0]	[0]	-	---------	_	15	OBJ	_	e_22|t_879|ref=Aetia_3.1
 22	·	·	u	u--------	_	12	AuxK	_	t_885|t_876|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1233,7 +1233,7 @@
 5	ὅστις	ὅστις	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_912|t_913|ref=Aetia_3.1
 6	ἀκαρτεῖ	ἀκαρτερέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	ATR	_	t_913|t_909|ref=Aetia_3.1
 7	γλώσσης	γλῶσσα	n	n-s---fg-	Case=g|Gender=f|Number=s	6	OBJ	_	t_914|t_913|ref=Aetia_3.1
-8	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Aetia_0.2
+8	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=Aetia_3.1
 9	·	·	u	u--------	_	8	AuxK	_	t_915|e_23|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1435,7 +1435,7 @@
 56	,	,	u	u--------	_	53	AuxX	_	t_1081|t_1078|ref=Aetia_3.1
 57	νυμφίον	νυμφίος	n	n-s---ma-	Case=a|Gender=m|Number=s	58	SBJ	_	t_1082|t_1083|ref=Aetia_3.1
 58	ἑξέμεναι	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	45	ADV	_	t_1083|t_1070|ref=Aetia_3.1
-59	[0]	[0]	-	---------	_	58	OBJ	_	e_24|t_1083|ref=Aetia_0.2
+59	[0]	[0]	-	---------	_	58	OBJ	_	e_24|t_1083|ref=Aetia_3.1
 60	·	·	u	u--------	_	44	AuxK	_	t_1084|t_1069|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1482,7 +1482,7 @@
 10	φημί	φημί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1119|0|ref=Aetia_3.1
 11	σε	σύ	p	p-s---ma-	_	12	ADV	_	t_1120|t_1121|ref=Aetia_3.1
 12	μιξέμεναι	μίγνυμι	v	v--fna---	Mood=n|Tense=f|Voice=a	10	OBJ	_	t_1121|t_1119|ref=Aetia_3.1
-13	[0]	[0]	-	---------	_	6	OBJ	_	e_25|t_1115|ref=Aetia_0.2
+13	[0]	[0]	-	---------	_	6	OBJ	_	e_25|t_1115|ref=Aetia_3.1
 14	.	.	u	u--------	_	10	AuxK	_	t_1122|t_1119|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1549,7 +1549,7 @@
 59	ὄρτυγες	ὄρτυξ	n	n-p---mn-	Case=n|Gender=m|Number=p	57	SBJ	_	t_1181|t_1179|ref=Aetia_3.1
 60	ἐν	ἐν	r	r--------	_	57	AuxP	_	t_1182|t_1179|ref=Aetia_3.1
 61	νεφέλαις	νεφέλη	n	n-p---fd-	Case=d|Gender=f|Number=p	60	ADV	_	t_1183|t_1182|ref=Aetia_3.1
-62	[0]	[0]	-	---------	_	8	PRED	_	e_26|t_1130|ref=Aetia_0.2
+62	[0]	[0]	-	---------	_	8	PRED	_	e_26|t_1130|ref=Aetia_3.1
 63	.	.	u	u--------	_	8	AuxK	_	t_1184|t_1130|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1557,7 +1557,7 @@
 # sent_id = 87
 1	ἦ	ἦ	d	d--------	_	3	AuxY	_	t_1185|e_27|ref=Aetia_3.1
 2	θεός	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	3	PNOM	_	t_1186|e_27|ref=Aetia_3.1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=Aetia_0.2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=Aetia_3.1
 4	·	·	u	u--------	_	3	AuxK	_	t_1187|e_27|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1592,7 +1592,7 @@
 1	κἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1210|0|ref=Aetia_3.1
 2	αὖ	αὖ	d	d--------	_	1	ADV	_	t_1211|t_1210|ref=Aetia_3.1
 3	σῶς	σῶς	a	a-s---mn-	Case=n|Gender=m|Number=s	1	PNOM	_	t_1212|t_1210|ref=Aetia_3.1
-4	[0]	[0]	-	---------	_	1	PRED	_	e_28|t_1210|ref=Aetia_0.2
+4	[0]	[0]	-	---------	_	1	PRED	_	e_28|t_1210|ref=Aetia_3.1
 5	·	·	u	u--------	_	1	AuxK	_	t_1213|t_1210|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1766,7 +1766,7 @@
 62	Κιρω	κιράω	n	n-s---mg-	Case=g|Gender=m|Number=s	65	SBJ	_	t_1363|e_29|ref=Aetia_3.1
 63	.	.	u	u--------	_	17	AuxK	_	t_1364|t_1318|ref=Aetia_3.1
 64	.	.	u	u--------	_	17	AuxK	_	t_1365|t_1318|ref=Aetia_3.1
-65	[0]	[0]	-	---------	_	58	ADV	_	e_29|t_1359|ref=Aetia_0.2
+65	[0]	[0]	-	---------	_	58	ADV	_	e_29|t_1359|ref=Aetia_3.1
 66	.	.	u	u--------	_	17	AuxK	_	t_1366|t_1318|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1774,7 +1774,7 @@
 # sent_id = 95
 1	[	[	u	u--------	_	3	AuxG	_	t_1367|e_30|ref=Aetia_3.1
 2	·	·	u	u--------	_	3	AuxK	_	t_1368|e_30|ref=Aetia_3.1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Aetia_0.2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=Aetia_3.1
 4	]	]	u	u--------	_	3	AuxG	_	t_1369|e_30|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1895,8 +1895,8 @@
 45	ἀσκηθεῖς	ἀσκηθής	a	a-p---mn-	Case=n|Gender=m|Number=p	47	ATR	_	t_1462|t_1464|ref=Aetia_3.1
 46	ἔλλιπον	ἀπολείπω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	27	ATR	_	t_1463|t_1444|ref=Aetia_3.1
 47	ἀθάνατοι	ἀθάνατος	a	a-p---mn-	Case=n|Gender=m|Number=p	46	SBJ	_	t_1464|t_1463|ref=Aetia_3.1
-48	[0]	[0]	-	---------	_	9	PRED	_	e_31|t_1426|ref=Aetia_0.2
-49	[1]	[1]	-	---------	_	25	PRED	_	e_32|t_1442|ref=Aetia_0.2
+48	[0]	[0]	-	---------	_	9	PRED	_	e_31|t_1426|ref=Aetia_3.1
+49	[1]	[1]	-	---------	_	25	PRED	_	e_32|t_1442|ref=Aetia_3.1
 50	·	·	u	u--------	_	9	AuxK	_	t_1465|t_1426|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1932,8 +1932,8 @@
 28	Ἀκαι	ἀκαι	n	n-p---fn-	Case=n|Gender=f|Number=p	32	SBJ	_	t_1493|e_34|ref=Aetia_3.1
 29	.	.	u	u--------	_	3	AuxK	_	t_1494|t_1468|ref=Aetia_3.1
 30	.	.	u	u--------	_	3	AuxK	_	t_1495|t_1468|ref=Aetia_3.1
-31	[0]	[0]	-	---------	_	20	PRED	_	e_33|t_1485|ref=Aetia_0.2
-32	[1]	[1]	-	---------	_	27	PRED	_	e_34|t_1492|ref=Aetia_0.2
+31	[0]	[0]	-	---------	_	20	PRED	_	e_33|t_1485|ref=Aetia_3.1
+32	[1]	[1]	-	---------	_	27	PRED	_	e_34|t_1492|ref=Aetia_3.1
 33	.	.	u	u--------	_	3	AuxK	_	t_1496|t_1468|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -1981,7 +1981,7 @@
 40	ἡμετέρην	ἡμέτερος	a	a-s---fa-	Case=a|Gender=f|Number=s	42	ATR	_	t_1536|t_1538|ref=Aetia_3.1
 41	ἔδραμε	τρέχω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	31	ATR	_	t_1537|t_1527|ref=Aetia_3.1
 42	Καλλιόπην	καλλιόπη	n	n-s---fa-	Case=a|Gender=f|Number=s	39	OBJ	_	t_1538|t_1535|ref=Aetia_3.1
-43	[0]	[0]	-	---------	_	21	PRED	_	e_35|t_1517|ref=Aetia_0.2
+43	[0]	[0]	-	---------	_	21	PRED	_	e_35|t_1517|ref=Aetia_3.1
 44	.	.	u	u--------	_	21	AuxK	_	t_1539|t_1517|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -2022,7 +2022,7 @@
 2	’	’	d	d--------	_	5	ExD	_	t_1560|e_36|ref=Aetia_3.1
 3	ι	ι	i	i--------	_	5	ExD	_	t_1561|e_36|ref=Aetia_3.1
 4	.	.	u	u--------	_	5	AuxK	_	t_1562|e_36|ref=Aetia_3.1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=Aetia_0.2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=Aetia_3.1
 6	.	.	u	u--------	_	5	AuxK	_	t_1563|e_36|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -2045,7 +2045,7 @@
 9	.	.	u	u--------	_	12	AuxG	_	t_1574|e_37|ref=Aetia_3.1
 10	.	.	u	u--------	_	12	AuxK	_	t_1575|e_37|ref=Aetia_3.1
 11	.	.	u	u--------	_	12	AuxK	_	t_1576|e_37|ref=Aetia_3.1
-12	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Aetia_0.2
+12	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=Aetia_3.1
 13	.	.	u	u--------	_	12	AuxK	_	t_1577|e_37|ref=Aetia_3.1
 
 # source = Callimachus, Aetia_3.1
@@ -2054,158 +2054,158 @@
 1	ς	ς	v	v2siia---	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	0	ExD	_	t_1578|0|ref=Aetia_3.1
 2	.	.	u	u--------	_	1	AuxK	_	t_1579|t_1578|ref=Aetia_3.1
 
-# source = Callimachus, Aetia_3.1
+# source = Callimachus, Aetia_3.2
 # text = μέμβλετο δʼ εἰσπνήλαις , ὁππότε κοῦρος ἴοι φωλεὸν ἠὲ λοετρόν .
 # sent_id = 111
-1	μέμβλετο	μέλω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	2	PRED	_	t_1580|t_1581|ref=Aetia_3.1
-2	δʼ	δέ	g	g--------	_	0	COORD	_	t_1581|0|ref=Aetia_3.1
-3	εἰσπνήλαις	εἰσπνέω	n	n-p---fd-	Case=d|Gender=f|Number=p	1	OBJ	_	t_1582|t_1580|ref=Aetia_3.1
-4	,	,	u	u--------	_	5	AuxX	_	t_1583|t_1584|ref=Aetia_3.1
-5	ὁππότε	ὁπότε	c	c--------	_	1	AuxC	_	t_1584|t_1580|ref=Aetia_3.1
-6	κοῦρος	κοῦρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1585|t_1586|ref=Aetia_3.1
-7	ἴοι	εἶμι	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_1586|t_1584|ref=Aetia_3.1
-8	φωλεὸν	φωλεός	a	a-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1587|t_1588|ref=Aetia_3.1
-9	ἠὲ	ἤ	c	c--------	_	6	COORD	_	t_1588|t_1585|ref=Aetia_3.1
-10	λοετρόν	λουτρόν	a	a-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1589|t_1588|ref=Aetia_3.1
-11	.	.	u	u--------	_	2	AuxK	_	t_1590|t_1581|ref=Aetia_3.1
+1	μέμβλετο	μέλω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	2	PRED	_	t_1580|t_1581|ref=Aetia_3.2
+2	δʼ	δέ	g	g--------	_	0	COORD	_	t_1581|0|ref=Aetia_3.2
+3	εἰσπνήλαις	εἰσπνέω	n	n-p---fd-	Case=d|Gender=f|Number=p	1	OBJ	_	t_1582|t_1580|ref=Aetia_3.2
+4	,	,	u	u--------	_	5	AuxX	_	t_1583|t_1584|ref=Aetia_3.2
+5	ὁππότε	ὁπότε	c	c--------	_	1	AuxC	_	t_1584|t_1580|ref=Aetia_3.2
+6	κοῦρος	κοῦρος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1585|t_1586|ref=Aetia_3.2
+7	ἴοι	εἶμι	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_1586|t_1584|ref=Aetia_3.2
+8	φωλεὸν	φωλεός	a	a-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1587|t_1588|ref=Aetia_3.2
+9	ἠὲ	ἤ	c	c--------	_	6	COORD	_	t_1588|t_1585|ref=Aetia_3.2
+10	λοετρόν	λουτρόν	a	a-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1589|t_1588|ref=Aetia_3.2
+11	.	.	u	u--------	_	2	AuxK	_	t_1590|t_1581|ref=Aetia_3.2
 
-# source = Callimachus, Aetia_3.1
+# source = Callimachus, Aetia_3.2
 # text = That this belongs to the Cydippe episode may be inferred from οἱ δὲ φιλοθεάμονες τοῦ κάλλους εἰς διδασκάλου προϊόντα περιεσκόπουν συνωθοῦντες ἀλλήλους .
 # sent_id = 112
-1	That	λαός	c	c--------	_	0	AuxC	_	t_1591|0|ref=Aetia_3.1
-2	this	ἶδος	p	p-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1592|t_1597|ref=Aetia_3.1
-3	belongs	στρόμβος	v	v-sapamn-	_	7	ATR	_	t_1593|t_1597|ref=Aetia_3.1
-4	to	ὁ	d	d--------	_	3	AuxP	_	t_1594|t_1593|ref=Aetia_3.1
-5	the	the	l	l-s---ng-	Case=a|Gender=f|Number=s	6	ATR	_	t_1595|t_1596|ref=Aetia_3.1
-6	Cydippe	cydachus	n	n-s---mv-	Case=v|Gender=m|Number=s	7	APOS	_	t_1596|t_1597|ref=Aetia_3.1
-7	episode	episos	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_1597|t_1600|ref=Aetia_3.1
-8	may	μέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_1598|t_1603|ref=Aetia_3.1
-9	be	be	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	PRED	_	t_1599|t_1603|ref=Aetia_3.1
-10	inferred	ἐξολείω	a	a-s---nn-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	8	PNOM	_	t_1600|t_1598|ref=Aetia_3.1
-11	from	ἀπό	d	d--------	_	7	ATR	_	t_1601|t_1597|ref=Aetia_3.1
-12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_1602|t_1604|ref=Aetia_3.1
-13	δὲ	δέ	d	d--------	_	1	COORD	_	t_1603|t_1591|ref=Aetia_3.1
-14	φιλοθεάμονες	φιλοθεάμων	a	a-p---mn-	Case=n|Gender=m|Number=p	20	SBJ	_	t_1604|t_1610|ref=Aetia_3.1
-15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_1605|t_1606|ref=Aetia_3.1
-16	κάλλους	κάλλος	n	n-s---ng-	Case=g|Gender=n|Number=s	19	OBJ	_	t_1606|t_1609|ref=Aetia_3.1
-17	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_1607|t_1609|ref=Aetia_3.1
-18	διδασκάλου	διδάσκαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1608|t_1606|ref=Aetia_3.1
-19	προϊόντα	πρόειμι1	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	20	ADV	_	t_1609|t_1610|ref=Aetia_3.1
-20	περιεσκόπουν	περισκοπέω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	13	PRED	_	t_1610|t_1603|ref=Aetia_3.1
-21	συνωθοῦντες	συνωθέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	20	ADV	_	t_1611|t_1610|ref=Aetia_3.1
-22	ἀλλήλους	ἀλλήλων	p	p-p---ma-	Case=a|Gender=m|Number=p	21	OBJ	_	t_1612|t_1611|ref=Aetia_3.1
-23	.	.	u	u--------	_	13	AuxK	_	t_1613|t_1603|ref=Aetia_3.1
+1	That	λαός	c	c--------	_	0	AuxC	_	t_1591|0|ref=Aetia_3.2
+2	this	ἶδος	p	p-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1592|t_1597|ref=Aetia_3.2
+3	belongs	στρόμβος	v	v-sapamn-	_	7	ATR	_	t_1593|t_1597|ref=Aetia_3.2
+4	to	ὁ	d	d--------	_	3	AuxP	_	t_1594|t_1593|ref=Aetia_3.2
+5	the	the	l	l-s---ng-	Case=a|Gender=f|Number=s	6	ATR	_	t_1595|t_1596|ref=Aetia_3.2
+6	Cydippe	cydachus	n	n-s---mv-	Case=v|Gender=m|Number=s	7	APOS	_	t_1596|t_1597|ref=Aetia_3.2
+7	episode	episos	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_1597|t_1600|ref=Aetia_3.2
+8	may	μέλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_1598|t_1603|ref=Aetia_3.2
+9	be	be	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	13	PRED	_	t_1599|t_1603|ref=Aetia_3.2
+10	inferred	ἐξολείω	a	a-s---nn-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	8	PNOM	_	t_1600|t_1598|ref=Aetia_3.2
+11	from	ἀπό	d	d--------	_	7	ATR	_	t_1601|t_1597|ref=Aetia_3.2
+12	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	14	ATR	_	t_1602|t_1604|ref=Aetia_3.2
+13	δὲ	δέ	d	d--------	_	1	COORD	_	t_1603|t_1591|ref=Aetia_3.2
+14	φιλοθεάμονες	φιλοθεάμων	a	a-p---mn-	Case=n|Gender=m|Number=p	20	SBJ	_	t_1604|t_1610|ref=Aetia_3.2
+15	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	16	ATR	_	t_1605|t_1606|ref=Aetia_3.2
+16	κάλλους	κάλλος	n	n-s---ng-	Case=g|Gender=n|Number=s	19	OBJ	_	t_1606|t_1609|ref=Aetia_3.2
+17	εἰς	εἰς	r	r--------	_	19	AuxP	_	t_1607|t_1609|ref=Aetia_3.2
+18	διδασκάλου	διδάσκαλος	n	n-s---mg-	Case=g|Gender=m|Number=s	16	ATR	_	t_1608|t_1606|ref=Aetia_3.2
+19	προϊόντα	πρόειμι1	v	v-pppana-	Case=a|Gender=n|Mood=p|Number=p|Tense=p|Voice=a	20	ADV	_	t_1609|t_1610|ref=Aetia_3.2
+20	περιεσκόπουν	περισκοπέω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	13	PRED	_	t_1610|t_1603|ref=Aetia_3.2
+21	συνωθοῦντες	συνωθέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	20	ADV	_	t_1611|t_1610|ref=Aetia_3.2
+22	ἀλλήλους	ἀλλήλων	p	p-p---ma-	Case=a|Gender=m|Number=p	21	OBJ	_	t_1612|t_1611|ref=Aetia_3.2
+23	.	.	u	u--------	_	13	AuxK	_	t_1613|t_1603|ref=Aetia_3.2
 
-# source = Callimachus, Aetia_3.1-3.2
+# source = Callimachus, Aetia_3.3
 # text = πολλοὶ καὶ φιλέοντες Ἀκόντιον ἧκαν ἔραζε οἰνοπόται Σικελὰς ἐκ κυλίκων λάταγας . ;
 # sent_id = 113
-1	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1614|t_1618|ref=Aetia_3.1
-2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_1615|t_1616|ref=Aetia_3.1
-3	φιλέοντες	φιλέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_1616|t_1618|ref=Aetia_3.1
-4	Ἀκόντιον	ἀκόντιον	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_1617|t_1616|ref=Aetia_3.2
-5	ἧκαν	ἵημι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_1618|0|ref=Aetia_3.2
-6	ἔραζε	ἔραζε	d	d--------	_	5	OBJ	_	t_1619|t_1618|ref=Aetia_3.2
-7	οἰνοπόται	οἰνοπότης	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1620|t_1618|ref=Aetia_3.2
-8	Σικελὰς	σικελός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_1621|t_1624|ref=Aetia_3.2
-9	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_1622|t_1618|ref=Aetia_3.2
-10	κυλίκων	κύλιξ	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1623|t_1624|ref=Aetia_3.2
-11	λάταγας	λάαγας	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_1624|t_1622|ref=Aetia_3.2
-12	.	.	u	u--------	_	5	AuxK	_	t_1625|t_1618|ref=Aetia_3.2
-13	;	;	u	u--------	_	5	AuxK	_	t_1626|t_1618|ref=Aetia_3.2
+1	πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1614|t_1618|ref=Aetia_3.3
+2	καὶ	καί	d	d--------	_	3	AuxZ	_	t_1615|t_1616|ref=Aetia_3.3
+3	φιλέοντες	φιλέω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	5	ADV	_	t_1616|t_1618|ref=Aetia_3.3
+4	Ἀκόντιον	ἀκόντιον	n	n-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_1617|t_1616|ref=Aetia_3.3
+5	ἧκαν	ἵημι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_1618|0|ref=Aetia_3.3
+6	ἔραζε	ἔραζε	d	d--------	_	5	OBJ	_	t_1619|t_1618|ref=Aetia_3.3
+7	οἰνοπόται	οἰνοπότης	n	n-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_1620|t_1618|ref=Aetia_3.3
+8	Σικελὰς	σικελός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	ATR	_	t_1621|t_1624|ref=Aetia_3.3
+9	ἐκ	ἐκ	r	r--------	_	5	AuxP	_	t_1622|t_1618|ref=Aetia_3.3
+10	κυλίκων	κύλιξ	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1623|t_1624|ref=Aetia_3.3
+11	λάταγας	λάαγας	n	n-p---fa-	Case=a|Gender=f|Number=p	9	OBJ	_	t_1624|t_1622|ref=Aetia_3.3
+12	.	.	u	u--------	_	5	AuxK	_	t_1625|t_1618|ref=Aetia_3.3
+13	;	;	u	u--------	_	5	AuxK	_	t_1626|t_1618|ref=Aetia_3.3
 
-# source = Callimachus, Aetia_3.2
+# source = Callimachus, Aetia_3.3
 # text = cf .
 # sent_id = 114
-1	cf	cf	v	v2spma---	_	0	ExD	_	t_1627|0|ref=Aetia_3.2
-2	.	.	u	u--------	_	1	AuxK	_	t_1628|t_1627|ref=Aetia_3.2
-
-# source = Callimachus, Aetia_3.2
-# text = ἄγραδε τῷ πάσῃσιν ἐπὶ προχάνῃσιν ἐφοίτα .
-# sent_id = 115
-1	ἄγραδε	ἄγραδε	d	d--------	_	6	OBJ	_	t_1629|t_1634|ref=Aetia_3.2
-2	τῷ	ὁ	p	p-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_1630|t_1634|ref=Aetia_3.2
-3	πάσῃσιν	πᾶς	a	a-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_1631|t_1633|ref=Aetia_3.2
-4	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_1632|t_1634|ref=Aetia_3.2
-5	προχάνῃσιν	προχαίνω	n	n-p---fd-	Case=d|Gender=f|Number=p	4	OBJ	_	t_1633|t_1632|ref=Aetia_3.2
-6	ἐφοίτα	φοιτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1634|0|ref=Aetia_3.2
-7	.	.	u	u--------	_	6	AuxK	_	t_1635|t_1634|ref=Aetia_3.2
-
-# source = Callimachus, Aetia_3.2
-# text = Cf .
-# sent_id = 116
-1	Cf	cf	n	n--------	_	0	ExD	_	t_1636|0|ref=Aetia_3.2
-2	.	.	u	u--------	_	1	AuxK	_	t_1637|t_1636|ref=Aetia_3.2
-
-# source = Callimachus, Aetia_3.2
-# text = καὶ εἰς ἀγρὸν ἐπὶ πάσῃ προφάσει τὸν πατέρα φεύγων ἐφοίτα .
-# sent_id = 117
-1	καὶ	καί	d	d--------	_	10	AuxY	_	t_1638|t_1647|ref=Aetia_3.2
-2	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_1639|t_1647|ref=Aetia_3.2
-3	ἀγρὸν	ἀγρός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1640|t_1639|ref=Aetia_3.2
-4	ἐπὶ	ἐπί	r	r--------	_	10	AuxP	_	t_1641|t_1647|ref=Aetia_3.2
-5	πάσῃ	πᾶς	a	a-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_1642|t_1643|ref=Aetia_3.2
-6	προφάσει	πρόφασις	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_1643|t_1641|ref=Aetia_3.2
-7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_1644|t_1645|ref=Aetia_3.2
-8	πατέρα	πατήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_1645|t_1646|ref=Aetia_3.2
-9	φεύγων	φεύγω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_1646|t_1647|ref=Aetia_3.2
-10	ἐφοίτα	φοιτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1647|0|ref=Aetia_3.2
-11	.	.	u	u--------	_	10	AuxK	_	t_1648|t_1647|ref=Aetia_3.2
-
-# source = Callimachus, Aetia_3.2-3.3
-# text = ἀλλ ’ ἐνὶ δὴ φλοιοῖσι κεκομμένα τόσσα φέροιτε γράμματα Κυδίππην ὅσσʼ ἐρέουσι καλήν .
-# sent_id = 118
-1	ἀλλ	ἀλλά	d	d--------	_	8	AuxY	_	t_1649|t_1656|ref=Aetia_3.2
-2	’	’	c	c--------	_	8	AuxY	_	t_1650|t_1656|ref=Aetia_3.2
-3	ἐνὶ	ἐν	r	r--------	_	8	AuxP	_	t_1651|t_1656|ref=Aetia_3.3
-4	δὴ	δή	g	g--------	_	8	AuxY	_	t_1652|t_1656|ref=Aetia_3.3
-5	φλοιοῖσι	φλοιός	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_1653|t_1651|ref=Aetia_3.3
-6	κεκομμένα	κόπτω	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	8	ADV	_	t_1654|t_1656|ref=Aetia_3.3
-7	τόσσα	τόσος	a	a-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_1655|t_1657|ref=Aetia_3.3
-8	φέροιτε	φέρω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_1656|0|ref=Aetia_3.3
-9	γράμματα	γράμμα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_1657|t_1656|ref=Aetia_3.3
-10	Κυδίππην	κυδίππη	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_1658|t_1656|ref=Aetia_3.3
-11	ὅσσʼ	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_1659|t_1660|ref=Aetia_3.3
-12	ἐρέουσι	ἐρῶ	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	9	ATR	_	t_1660|t_1657|ref=Aetia_3.3
-13	καλήν	καλός	a	a-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1661|t_1660|ref=Aetia_3.3
-14	.	.	u	u--------	_	8	AuxK	_	t_1662|t_1656|ref=Aetia_3.3
-
-# source = Callimachus, Aetia_3.3-3.4
-# text = ἴδιον ἐραστῶν ἦν τὰ τῶν ἐρωμένων ὀνόματα γράφειν ἐν τοῖς τοίχοις ἢ δένδροις ἢ φύλλοις οὕτως ·
-# sent_id = 119
-1	ἴδιον	ἴδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_1663|t_1665|ref=Aetia_3.3
-2	ἐραστῶν	ἐραστής	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_1664|t_1663|ref=Aetia_3.3
-3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1665|0|ref=Aetia_3.3
-4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1666|t_1669|ref=Aetia_3.4
-5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1667|t_1668|ref=Aetia_3.4
-6	ἐρωμένων	ἐρώμενος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1668|t_1669|ref=Aetia_3.4
-7	ὀνόματα	ὄνομα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_1669|t_1670|ref=Aetia_3.4
-8	γράφειν	γράφω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_1670|t_1665|ref=Aetia_3.4
-9	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_1671|t_1670|ref=Aetia_3.4
-10	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_1672|t_1673|ref=Aetia_3.4
-11	τοίχοις	τοῖχος	n	n-p---md-	Case=d|Gender=m|Number=p	14	ADV	_	t_1673|t_1676|ref=Aetia_3.4
-12	ἢ	ἤ1	c	c--------	_	14	AuxY	_	t_1674|t_1676|ref=Aetia_3.4
-13	δένδροις	δένδρον	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_1675|t_1676|ref=Aetia_3.4
-14	ἢ	ἤ1	c	c--------	_	9	COORD	_	t_1676|t_1671|ref=Aetia_3.4
-15	φύλλοις	φύλλον	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_1677|t_1676|ref=Aetia_3.4
-16	οὕτως	οὕτως	d	d--------	_	8	ADV	_	t_1678|t_1670|ref=Aetia_3.4
-17	·	·	u	u--------	_	3	AuxK	_	t_1679|t_1665|ref=Aetia_3.4
+1	cf	cf	v	v2spma---	_	0	ExD	_	t_1627|0|ref=Aetia_3.3
+2	.	.	u	u--------	_	1	AuxK	_	t_1628|t_1627|ref=Aetia_3.3
 
 # source = Callimachus, Aetia_3.4
+# text = ἄγραδε τῷ πάσῃσιν ἐπὶ προχάνῃσιν ἐφοίτα .
+# sent_id = 115
+1	ἄγραδε	ἄγραδε	d	d--------	_	6	OBJ	_	t_1629|t_1634|ref=Aetia_3.4
+2	τῷ	ὁ	p	p-s---nd-	Case=d|Gender=n|Number=s	6	ADV	_	t_1630|t_1634|ref=Aetia_3.4
+3	πάσῃσιν	πᾶς	a	a-p---fd-	Case=d|Gender=f|Number=p	5	ATR	_	t_1631|t_1633|ref=Aetia_3.4
+4	ἐπὶ	ἐπί	r	r--------	_	6	AuxP	_	t_1632|t_1634|ref=Aetia_3.4
+5	προχάνῃσιν	προχαίνω	n	n-p---fd-	Case=d|Gender=f|Number=p	4	OBJ	_	t_1633|t_1632|ref=Aetia_3.4
+6	ἐφοίτα	φοιτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1634|0|ref=Aetia_3.4
+7	.	.	u	u--------	_	6	AuxK	_	t_1635|t_1634|ref=Aetia_3.4
+
+# source = Callimachus, Aetia_3.4
+# text = Cf .
+# sent_id = 116
+1	Cf	cf	n	n--------	_	0	ExD	_	t_1636|0|ref=Aetia_3.4
+2	.	.	u	u--------	_	1	AuxK	_	t_1637|t_1636|ref=Aetia_3.4
+
+# source = Callimachus, Aetia_3.4
+# text = καὶ εἰς ἀγρὸν ἐπὶ πάσῃ προφάσει τὸν πατέρα φεύγων ἐφοίτα .
+# sent_id = 117
+1	καὶ	καί	d	d--------	_	10	AuxY	_	t_1638|t_1647|ref=Aetia_3.4
+2	εἰς	εἰς	r	r--------	_	10	AuxP	_	t_1639|t_1647|ref=Aetia_3.4
+3	ἀγρὸν	ἀγρός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1640|t_1639|ref=Aetia_3.4
+4	ἐπὶ	ἐπί	r	r--------	_	10	AuxP	_	t_1641|t_1647|ref=Aetia_3.4
+5	πάσῃ	πᾶς	a	a-s---fd-	Case=d|Gender=f|Number=s	6	ATR	_	t_1642|t_1643|ref=Aetia_3.4
+6	προφάσει	πρόφασις	n	n-s---fd-	Case=d|Gender=f|Number=s	4	ADV	_	t_1643|t_1641|ref=Aetia_3.4
+7	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	8	ATR	_	t_1644|t_1645|ref=Aetia_3.4
+8	πατέρα	πατήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_1645|t_1646|ref=Aetia_3.4
+9	φεύγων	φεύγω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	ADV	_	t_1646|t_1647|ref=Aetia_3.4
+10	ἐφοίτα	φοιτάω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1647|0|ref=Aetia_3.4
+11	.	.	u	u--------	_	10	AuxK	_	t_1648|t_1647|ref=Aetia_3.4
+
+# source = Callimachus, Aetia_3.5
+# text = ἀλλ ’ ἐνὶ δὴ φλοιοῖσι κεκομμένα τόσσα φέροιτε γράμματα Κυδίππην ὅσσʼ ἐρέουσι καλήν .
+# sent_id = 118
+1	ἀλλ	ἀλλά	d	d--------	_	8	AuxY	_	t_1649|t_1656|ref=Aetia_3.5
+2	’	’	c	c--------	_	8	AuxY	_	t_1650|t_1656|ref=Aetia_3.5
+3	ἐνὶ	ἐν	r	r--------	_	8	AuxP	_	t_1651|t_1656|ref=Aetia_3.5
+4	δὴ	δή	g	g--------	_	8	AuxY	_	t_1652|t_1656|ref=Aetia_3.5
+5	φλοιοῖσι	φλοιός	n	n-p---md-	Case=d|Gender=m|Number=p	3	ADV	_	t_1653|t_1651|ref=Aetia_3.5
+6	κεκομμένα	κόπτω	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	8	ADV	_	t_1654|t_1656|ref=Aetia_3.5
+7	τόσσα	τόσος	a	a-p---na-	Case=a|Gender=n|Number=p	9	ATR	_	t_1655|t_1657|ref=Aetia_3.5
+8	φέροιτε	φέρω	v	v2ppoa---	Mood=o|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_1656|0|ref=Aetia_3.5
+9	γράμματα	γράμμα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_1657|t_1656|ref=Aetia_3.5
+10	Κυδίππην	κυδίππη	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_1658|t_1656|ref=Aetia_3.5
+11	ὅσσʼ	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	12	OBJ	_	t_1659|t_1660|ref=Aetia_3.5
+12	ἐρέουσι	ἐρῶ	v	v3pfia---	Mood=i|Number=p|Person=3|Tense=f|Voice=a	9	ATR	_	t_1660|t_1657|ref=Aetia_3.5
+13	καλήν	καλός	a	a-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1661|t_1660|ref=Aetia_3.5
+14	.	.	u	u--------	_	8	AuxK	_	t_1662|t_1656|ref=Aetia_3.5
+
+# source = Callimachus, Aetia_3.5
+# text = ἴδιον ἐραστῶν ἦν τὰ τῶν ἐρωμένων ὀνόματα γράφειν ἐν τοῖς τοίχοις ἢ δένδροις ἢ φύλλοις οὕτως ·
+# sent_id = 119
+1	ἴδιον	ἴδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	3	PNOM	_	t_1663|t_1665|ref=Aetia_3.5
+2	ἐραστῶν	ἐραστής	n	n-p---mg-	Case=g|Gender=m|Number=p	1	ADV	_	t_1664|t_1663|ref=Aetia_3.5
+3	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1665|0|ref=Aetia_3.5
+4	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	7	ATR	_	t_1666|t_1669|ref=Aetia_3.5
+5	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1667|t_1668|ref=Aetia_3.5
+6	ἐρωμένων	ἐρώμενος	n	n-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1668|t_1669|ref=Aetia_3.5
+7	ὀνόματα	ὄνομα	n	n-p---na-	Case=a|Gender=n|Number=p	8	OBJ	_	t_1669|t_1670|ref=Aetia_3.5
+8	γράφειν	γράφω	v	v--pna---	Mood=n|Tense=p|Voice=a	3	SBJ	_	t_1670|t_1665|ref=Aetia_3.5
+9	ἐν	ἐν	r	r--------	_	8	AuxP	_	t_1671|t_1670|ref=Aetia_3.5
+10	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	11	ATR	_	t_1672|t_1673|ref=Aetia_3.5
+11	τοίχοις	τοῖχος	n	n-p---md-	Case=d|Gender=m|Number=p	14	ADV	_	t_1673|t_1676|ref=Aetia_3.5
+12	ἢ	ἤ1	c	c--------	_	14	AuxY	_	t_1674|t_1676|ref=Aetia_3.5
+13	δένδροις	δένδρον	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_1675|t_1676|ref=Aetia_3.5
+14	ἢ	ἤ1	c	c--------	_	9	COORD	_	t_1676|t_1671|ref=Aetia_3.5
+15	φύλλοις	φύλλον	n	n-p---nd-	Case=d|Gender=n|Number=p	14	ADV	_	t_1677|t_1676|ref=Aetia_3.5
+16	οὕτως	οὕτως	d	d--------	_	8	ADV	_	t_1678|t_1670|ref=Aetia_3.5
+17	·	·	u	u--------	_	3	AuxK	_	t_1679|t_1665|ref=Aetia_3.5
+
+# source = Callimachus, Aetia_3.5
 # text = ὁ δεῖνα καλός [0] ·
 # sent_id = 120
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1680|t_1681|ref=Aetia_3.4
-2	δεῖνα	δεῖνα	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1681|e_38|ref=Aetia_3.4
-3	καλός	καλός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1682|e_38|ref=Aetia_3.4
-4	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=Aetia_0.2
-5	·	·	u	u--------	_	4	AuxK	_	t_1683|e_38|ref=Aetia_3.4
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1680|t_1681|ref=Aetia_3.5
+2	δεῖνα	δεῖνα	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1681|e_38|ref=Aetia_3.5
+3	καλός	καλός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1682|e_38|ref=Aetia_3.5
+4	[0]	[0]	-	---------	_	0	PRED	_	e_38|0|ref=Aetia_3.5
+5	·	·	u	u--------	_	4	AuxK	_	t_1683|e_38|ref=Aetia_3.5
 
-# source = Callimachus, Aetia_3.4-3.5
+# source = Callimachus, Aetia_3.5
 # text = καὶ παρὰ Καλλιμάχῳ [0] ·
 # sent_id = 121
-1	καὶ	καί	d	d--------	_	4	AuxY	_	t_1684|e_39|ref=Aetia_3.4
-2	παρὰ	παρά	r	r--------	_	4	AuxP	_	t_1685|e_39|ref=Aetia_3.4
+1	καὶ	καί	d	d--------	_	4	AuxY	_	t_1684|e_39|ref=Aetia_3.5
+2	παρὰ	παρά	r	r--------	_	4	AuxP	_	t_1685|e_39|ref=Aetia_3.5
 3	Καλλιμάχῳ	καλλίμαχος	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_1686|t_1685|ref=Aetia_3.5
-4	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Aetia_0.2
+4	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=Aetia_3.5
 5	·	·	u	u--------	_	4	AuxK	_	t_1687|e_39|ref=Aetia_3.5
 
 # source = Callimachus, Aetia_3.5
@@ -2214,7 +2214,7 @@
 1	ἀλλʼ	ἀλλά	d	d--------	_	4	AuxY	_	t_1688|e_40|ref=Aetia_3.5
 2	κτλ	κτλ	n	n-s---fn-	_	4	ExD	_	t_1689|e_40|ref=Aetia_3.5
 3	.	.	u	u--------	_	4	AuxK	_	t_1690|e_40|ref=Aetia_3.5
-4	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=Aetia_0.2
+4	[0]	[0]	-	---------	_	0	PRED	_	e_40|0|ref=Aetia_3.5
 5	;	;	u	u--------	_	4	AuxK	_	t_1691|e_40|ref=Aetia_3.5
 
 # source = Callimachus, Aetia_3.5
@@ -2252,169 +2252,169 @@
 24	φλοιῶν	φλοιός	n	n-p---mg-	Case=g|Gender=m|Number=p	22	ADV	_	t_1717|t_1715|ref=Aetia_3.5
 25	ἐγκεκολαμμένα	ἐγκολάω	v	v-prpena-	Case=a|Gender=n|Mood=p|Number=p|Tense=r|Voice=e	21	ATR	_	t_1718|t_1714|ref=Aetia_3.5
 26	φέροιτε	φέρω	v	v3spoa---	Mood=o|Number=s|Person=3|Tense=p|Voice=a	19	ADV	_	t_1719|t_1712|ref=Aetia_3.5
-27	γράμματα	γράμμα	n	n-p---na-	Case=a|Gender=n|Number=p	26	OBJ	_	t_1720|t_1719|ref=Aetia_3.4
+27	γράμματα	γράμμα	n	n-p---na-	Case=a|Gender=n|Number=p	26	OBJ	_	t_1720|t_1719|ref=Aetia_3.5
 28	ὅσα	ὅσος	p	p-p---nn-	Case=n|Gender=n|Number=p	31	SBJ	_	t_1721|t_1724|ref=Aetia_3.5
 29	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	30	ATR	_	t_1722|t_1723|ref=Aetia_3.5
 30	Κυδίππην	κυδίππη	n	n-s---fa-	Case=a|Gender=f|Number=s	31	OBJ	_	t_1723|t_1724|ref=Aetia_3.5
 31	ἐπονομάσει	ἐπονομάζω	v	v3sfia---	Mood=i|Number=s|Person=3|Tense=f|Voice=a	27	ATR	_	t_1724|t_1720|ref=Aetia_3.5
 32	καλήν	καλός	n	n-s---fa-	Case=a|Gender=f|Number=s	33	PNOM	_	t_1725|e_41|ref=Aetia_3.5
-33	[0]	[0]	-	---------	_	15	OBJ	_	e_41|t_1708|ref=Aetia_0.2
+33	[0]	[0]	-	---------	_	15	OBJ	_	e_41|t_1708|ref=Aetia_3.5
 34	.	.	u	u--------	_	9	AuxK	_	t_1726|t_1702|ref=Aetia_3.5
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.6
 # text = λιρὸς ἐγώ , τί δέ σοι τόνδʼ ἐπέθηκα φόβον [0] ;
 # sent_id = 125
-1	λιρὸς	λίρός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_1727|e_42|ref=Aetia_3.5
-2	ἐγώ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_1728|e_42|ref=Aetia_3.5
-3	,	,	u	u--------	_	5	AuxX	_	t_1729|t_1731|ref=Aetia_3.5
-4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_1730|t_1735|ref=Aetia_3.5
-5	δέ	δέ	g	g--------	_	0	COORD	_	t_1731|0|ref=Aetia_3.5
-6	σοι	σύ	p	p-s----d-	Case=d|Number=s	8	OBJ	_	t_1732|t_1734|ref=Aetia_3.5
-7	τόνδʼ	ὅδε	p	p-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1733|t_1735|ref=Aetia_3.5
-8	ἐπέθηκα	ἐπιτίθημι	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	PRED	_	t_1734|t_1731|ref=Aetia_3.5
-9	φόβον	φόβος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_1735|t_1734|ref=Aetia_3.5
-10	[0]	[0]	-	---------	_	5	PRED	_	e_42|t_1731|ref=Aetia_0.2
-11	;	;	u	u--------	_	5	AuxK	_	t_1736|t_1731|ref=Aetia_3.5
+1	λιρὸς	λίρός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_1727|e_42|ref=Aetia_3.6
+2	ἐγώ	ἐγώ	p	p-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_1728|e_42|ref=Aetia_3.6
+3	,	,	u	u--------	_	5	AuxX	_	t_1729|t_1731|ref=Aetia_3.6
+4	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_1730|t_1735|ref=Aetia_3.6
+5	δέ	δέ	g	g--------	_	0	COORD	_	t_1731|0|ref=Aetia_3.6
+6	σοι	σύ	p	p-s----d-	Case=d|Number=s	8	OBJ	_	t_1732|t_1734|ref=Aetia_3.6
+7	τόνδʼ	ὅδε	p	p-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_1733|t_1735|ref=Aetia_3.6
+8	ἐπέθηκα	ἐπιτίθημι	v	v1saia---	Mood=i|Number=s|Person=1|Tense=a|Voice=a	5	PRED	_	t_1734|t_1731|ref=Aetia_3.6
+9	φόβον	φόβος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_1735|t_1734|ref=Aetia_3.6
+10	[0]	[0]	-	---------	_	5	PRED	_	e_42|t_1731|ref=Aetia_3.6
+11	;	;	u	u--------	_	5	AuxK	_	t_1736|t_1731|ref=Aetia_3.6
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.6
 # text = Probably from the Cydippe episode , cf [0] .
 # sent_id = 126
-1	Probably	probably	d	d--------	_	8	ADV	_	t_1737|e_43|ref=Aetia_3.5
-2	from	ἀπό	r	r--------	_	8	AuxP	_	t_1738|e_43|ref=Aetia_3.5
-3	the	the	l	l-s---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1739|t_1740|ref=Aetia_3.5
-4	Cydippe	cydachus	n	n-s---mg-	Case=g|Number=s	2	ADV	_	t_1740|t_1738|ref=Aetia_3.5
-5	episode	episos	d	d--------	_	8	AuxY	_	t_1741|e_43|ref=Aetia_3.5
-6	,	,	u	u--------	_	8	AuxX	_	t_1742|e_43|ref=Aetia_3.5
-7	cf	cf	n	n-s---mv-	_	8	ExD	_	t_1743|e_43|ref=Aetia_3.5
-8	[0]	[0]	-	---------	_	0	PRED	_	e_43|0|ref=Aetia_0.2
-9	.	.	u	u--------	_	8	AuxK	_	t_1744|e_43|ref=Aetia_3.5
+1	Probably	probably	d	d--------	_	8	ADV	_	t_1737|e_43|ref=Aetia_3.6
+2	from	ἀπό	r	r--------	_	8	AuxP	_	t_1738|e_43|ref=Aetia_3.6
+3	the	the	l	l-s---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1739|t_1740|ref=Aetia_3.6
+4	Cydippe	cydachus	n	n-s---mg-	Case=g|Number=s	2	ADV	_	t_1740|t_1738|ref=Aetia_3.6
+5	episode	episos	d	d--------	_	8	AuxY	_	t_1741|e_43|ref=Aetia_3.6
+6	,	,	u	u--------	_	8	AuxX	_	t_1742|e_43|ref=Aetia_3.6
+7	cf	cf	n	n-s---mv-	_	8	ExD	_	t_1743|e_43|ref=Aetia_3.6
+8	[0]	[0]	-	---------	_	0	PRED	_	e_43|0|ref=Aetia_3.6
+9	.	.	u	u--------	_	8	AuxK	_	t_1744|e_43|ref=Aetia_3.6
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.6
 # text = τί δέ σοι τοῦτον ἐπῆγον τὸν φόβον ;
 # sent_id = 127
-1	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_1745|t_1749|ref=Aetia_3.5
-2	δέ	δέ	d	d--------	_	5	AuxY	_	t_1746|t_1749|ref=Aetia_3.5
-3	σοι	σύ	p	p2s---cd-	Case=d|Gender=c|Number=s|Person=2	5	OBJ	_	t_1747|t_1749|ref=Aetia_3.5
-4	τοῦτον	οὗτος	p	p-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1748|t_1751|ref=Aetia_3.5
-5	ἐπῆγον	ἐπάγω	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	0	PRED	_	t_1749|0|ref=Aetia_3.5
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1750|t_1751|ref=Aetia_3.5
-7	φόβον	φόβος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_1751|t_1749|ref=Aetia_3.5
-8	;	;	u	u--------	_	5	AuxK	_	t_1752|t_1749|ref=Aetia_3.5
+1	τί	τίς	p	p-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_1745|t_1749|ref=Aetia_3.6
+2	δέ	δέ	d	d--------	_	5	AuxY	_	t_1746|t_1749|ref=Aetia_3.6
+3	σοι	σύ	p	p2s---cd-	Case=d|Gender=c|Number=s|Person=2	5	OBJ	_	t_1747|t_1749|ref=Aetia_3.6
+4	τοῦτον	οὗτος	p	p-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1748|t_1751|ref=Aetia_3.6
+5	ἐπῆγον	ἐπάγω	v	v1siia---	Mood=i|Number=s|Person=1|Tense=i|Voice=a	0	PRED	_	t_1749|0|ref=Aetia_3.6
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1750|t_1751|ref=Aetia_3.6
+7	φόβον	φόβος	n	n-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_1751|t_1749|ref=Aetia_3.6
+8	;	;	u	u--------	_	5	AuxK	_	t_1752|t_1749|ref=Aetia_3.6
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.7
 # text = τὼς μὲν ὁ Μνησάρχειος ἔφη ξένος , ὧδε συναινῶ . ;
 # sent_id = 128
-1	τὼς	τώς	p	p-s---na-	Case=n|Gender=m|Number=s	9	OBJ	_	t_1753|t_1761|ref=Aetia_3.5
-2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_1754|t_1761|ref=Aetia_3.5
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_1755|t_1758|ref=Aetia_3.5
-4	Μνησάρχειος	μνησάρχου	a	a-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_1756|t_1758|ref=Aetia_3.5
-5	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	AuxY	_	t_1757|t_1761|ref=Aetia_3.5
-6	ξένος	ξένος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1758|t_1757|ref=Aetia_3.5
-7	,	,	u	u--------	_	9	AuxX	_	t_1759|t_1761|ref=Aetia_3.5
-8	ὧδε	ὧδε	d	d--------	_	9	ADV	_	t_1760|t_1761|ref=Aetia_3.5
-9	συναινῶ	συναινέω	v	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1761|0|ref=Aetia_3.5
-10	.	.	u	u--------	_	9	AuxK	_	t_1762|t_1761|ref=Aetia_3.5
-11	;	;	u	u--------	_	9	AuxK	_	t_1763|t_1761|ref=Aetia_3.5
+1	τὼς	τώς	p	p-s---na-	Case=n|Gender=m|Number=s	9	OBJ	_	t_1753|t_1761|ref=Aetia_3.7
+2	μὲν	μέν	d	d--------	_	9	AuxY	_	t_1754|t_1761|ref=Aetia_3.7
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_1755|t_1758|ref=Aetia_3.7
+4	Μνησάρχειος	μνησάρχου	a	a-s---mn-	Case=n|Gender=m|Number=s	6	ATR	_	t_1756|t_1758|ref=Aetia_3.7
+5	ἔφη	φημί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	9	AuxY	_	t_1757|t_1761|ref=Aetia_3.7
+6	ξένος	ξένος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_1758|t_1757|ref=Aetia_3.7
+7	,	,	u	u--------	_	9	AuxX	_	t_1759|t_1761|ref=Aetia_3.7
+8	ὧδε	ὧδε	d	d--------	_	9	ADV	_	t_1760|t_1761|ref=Aetia_3.7
+9	συναινῶ	συναινέω	v	v1spsa---	Mood=s|Number=s|Person=1|Tense=p|Voice=a	0	PRED	_	t_1761|0|ref=Aetia_3.7
+10	.	.	u	u--------	_	9	AuxK	_	t_1762|t_1761|ref=Aetia_3.7
+11	;	;	u	u--------	_	9	AuxK	_	t_1763|t_1761|ref=Aetia_3.7
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.7
 # text = cf .
 # sent_id = 129
-1	cf	cf	v	v2spma---	_	0	ExD	_	t_1764|0|ref=Aetia_3.5
-2	.	.	u	u--------	_	1	AuxK	_	t_1765|t_1764|ref=Aetia_3.5
+1	cf	cf	v	v2spma---	_	0	ExD	_	t_1764|0|ref=Aetia_3.7
+2	.	.	u	u--------	_	1	AuxK	_	t_1765|t_1764|ref=Aetia_3.7
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.7
 # text = and [0] ;
 # sent_id = 130
-1	and	and	d	d--------	_	2	AuxY	_	t_1766|e_44|ref=Aetia_3.5
-2	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=Aetia_0.2
-3	;	;	u	u--------	_	2	AuxK	_	t_1767|e_44|ref=Aetia_3.5
+1	and	and	d	d--------	_	2	AuxY	_	t_1766|e_44|ref=Aetia_3.7
+2	[0]	[0]	-	---------	_	0	PRED	_	e_44|0|ref=Aetia_3.7
+3	;	;	u	u--------	_	2	AuxK	_	t_1767|e_44|ref=Aetia_3.7
 
-# source = Callimachus, Aetia_3.6
+# source = Callimachus, Aetia_3.8
 # text = , τὸ νεογνὸν παιδίον [0] .
 # sent_id = 131
-1	,	,	u	u--------	_	5	AuxX	_	t_1768|e_45|ref=Aetia_3.6
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1769|t_1771|ref=Aetia_3.6
-3	νεογνὸν	νεογνός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1770|t_1771|ref=Aetia_3.6
-4	παιδίον	παιδίον	n	n-s---nv-	Case=v|Gender=n|Number=s	5	ExD	_	t_1771|e_45|ref=Aetia_3.6
-5	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Aetia_0.2
-6	.	.	u	u--------	_	5	AuxK	_	t_1772|e_45|ref=Aetia_3.6
+1	,	,	u	u--------	_	5	AuxX	_	t_1768|e_45|ref=Aetia_3.8
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_1769|t_1771|ref=Aetia_3.8
+3	νεογνὸν	νεογνός	a	a-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1770|t_1771|ref=Aetia_3.8
+4	παιδίον	παιδίον	n	n-s---nv-	Case=v|Gender=n|Number=s	5	ExD	_	t_1771|e_45|ref=Aetia_3.8
+5	[0]	[0]	-	---------	_	0	PRED	_	e_45|0|ref=Aetia_3.8
+6	.	.	u	u--------	_	5	AuxK	_	t_1772|e_45|ref=Aetia_3.8
 
-# source = Callimachus, Aetia_3.6
+# source = Callimachus, Aetia_3.8
 # text = κυρίως ἐπὶ ἀνθρώπου [0] .
 # sent_id = 132
-1	κυρίως	κύριος	d	d--------	_	4	ADV	_	t_1773|e_46|ref=Aetia_3.6
-2	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_1774|e_46|ref=Aetia_3.6
-3	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_1775|t_1774|ref=Aetia_3.6
-4	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Aetia_0.2
-5	.	.	u	u--------	_	4	AuxK	_	t_1776|e_46|ref=Aetia_3.6
+1	κυρίως	κύριος	d	d--------	_	4	ADV	_	t_1773|e_46|ref=Aetia_3.8
+2	ἐπὶ	ἐπί	r	r--------	_	4	AuxP	_	t_1774|e_46|ref=Aetia_3.8
+3	ἀνθρώπου	ἄνθρωπος	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_1775|t_1774|ref=Aetia_3.8
+4	[0]	[0]	-	---------	_	0	PRED	_	e_46|0|ref=Aetia_3.8
+5	.	.	u	u--------	_	4	AuxK	_	t_1776|e_46|ref=Aetia_3.8
 
-# source = Callimachus, Aetia_3.5
+# source = Callimachus, Aetia_3.8
 # text = Καλλίμαχος ἐν τρίτῳ τῶν Αἰτίων καὶ ἐπὶ σκύμνου τίθησιν .
 # sent_id = 133
-1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1777|t_1785|ref=Aetia_3.5
-2	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1778|t_1785|ref=Aetia_3.6
-3	τρίτῳ	τρίτος	a	a-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_1779|t_1778|ref=Aetia_3.6
-4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1780|t_1781|ref=Aetia_3.6
-5	Αἰτίων	αἴτιος	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1781|t_1779|ref=Aetia_3.6
-6	καὶ	καί	d	d--------	_	8	AuxZ	_	t_1782|t_1784|ref=Aetia_3.6
-7	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_1783|t_1785|ref=Aetia_3.6
-8	σκύμνου	σκύμνος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_1784|t_1783|ref=Aetia_3.6
-9	τίθησιν	τίθημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1785|0|ref=Aetia_3.6
-10	.	.	u	u--------	_	9	AuxK	_	t_1786|t_1785|ref=Aetia_3.5
+1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1777|t_1785|ref=Aetia_3.8
+2	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1778|t_1785|ref=Aetia_3.8
+3	τρίτῳ	τρίτος	a	a-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_1779|t_1778|ref=Aetia_3.8
+4	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1780|t_1781|ref=Aetia_3.8
+5	Αἰτίων	αἴτιος	a	a-p---mg-	Case=g|Gender=m|Number=p	3	ATR	_	t_1781|t_1779|ref=Aetia_3.8
+6	καὶ	καί	d	d--------	_	8	AuxZ	_	t_1782|t_1784|ref=Aetia_3.8
+7	ἐπὶ	ἐπί	r	r--------	_	9	AuxP	_	t_1783|t_1785|ref=Aetia_3.8
+8	σκύμνου	σκύμνος	n	n-s---mg-	Case=g|Gender=m|Number=s	7	ADV	_	t_1784|t_1783|ref=Aetia_3.8
+9	τίθησιν	τίθημι	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1785|0|ref=Aetia_3.8
+10	.	.	u	u--------	_	9	AuxK	_	t_1786|t_1785|ref=Aetia_3.8
 
-# source = Callimachus, Aetia_3.6-3.7
+# source = Callimachus, Aetia_4.1
 # text = Ἄρην ὅτʼ ἐμὴ Μοῦσά π [ οθ ’ ἱλ ] άσεται .
 # sent_id = 134
-1	Ἄρην	ἄρης	n	n-s---ma-	Case=a|Gender=m|Number=s	11	ExD	_	t_1787|t_1797|ref=Aetia_3.6
-2	ὅτʼ	ὅτε	d	d--------	_	0	AuxC	_	t_1788|0|ref=Aetia_3.6
-3	ἐμὴ	ἐμός	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_1789|t_1790|ref=Aetia_3.6
-4	Μοῦσά	μοῦσα	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_1790|t_1797|ref=Aetia_3.6
-5	π	π	d	d--------	_	11	ADV	_	t_1791|t_1797|ref=Aetia_3.6
-6	[	[	u	u--------	_	9	AuxX	_	t_1792|t_1795|ref=Aetia_3.6
-7	οθ	οθ	d	d--------	_	11	ADV	_	t_1793|t_1797|ref=Aetia_3.6
-8	’	’	d	d--------	_	11	AuxY	_	t_1794|t_1797|ref=Aetia_3.6
-9	ἱλ	ἱλάομαι	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ADV	_	t_1795|t_1797|ref=Aetia_3.6
-10	]	]	u	u--------	_	9	AuxK	_	t_1796|t_1795|ref=Aetia_3.7
-11	άσεται	ἄομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	2	ADV	_	t_1797|t_1788|ref=Aetia_3.7
-12	.	.	u	u--------	_	2	AuxK	_	t_1798|t_1788|ref=Aetia_3.7
+1	Ἄρην	ἄρης	n	n-s---ma-	Case=a|Gender=m|Number=s	11	ExD	_	t_1787|t_1797|ref=Aetia_4.1
+2	ὅτʼ	ὅτε	d	d--------	_	0	AuxC	_	t_1788|0|ref=Aetia_4.1
+3	ἐμὴ	ἐμός	a	a-s---fn-	Case=n|Gender=f|Number=s	4	ATR	_	t_1789|t_1790|ref=Aetia_4.1
+4	Μοῦσά	μοῦσα	n	n-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_1790|t_1797|ref=Aetia_4.1
+5	π	π	d	d--------	_	11	ADV	_	t_1791|t_1797|ref=Aetia_4.1
+6	[	[	u	u--------	_	9	AuxX	_	t_1792|t_1795|ref=Aetia_4.1
+7	οθ	οθ	d	d--------	_	11	ADV	_	t_1793|t_1797|ref=Aetia_4.1
+8	’	’	d	d--------	_	11	AuxY	_	t_1794|t_1797|ref=Aetia_4.1
+9	ἱλ	ἱλάομαι	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ADV	_	t_1795|t_1797|ref=Aetia_4.1
+10	]	]	u	u--------	_	9	AuxK	_	t_1796|t_1795|ref=Aetia_4.1
+11	άσεται	ἄομαι	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	2	ADV	_	t_1797|t_1788|ref=Aetia_4.1
+12	.	.	u	u--------	_	2	AuxK	_	t_1798|t_1788|ref=Aetia_4.1
 
-# source = Callimachus, Aetia_3.7-4.1
+# source = Callimachus, Aetia_4.1
 # text = [ ἦ ] που καὶ Χαρίτων [ σὺ λοχεύτ ] ρια , μαῖα δʼ ἀνάσσης [ ἡμε ] τέρης , οὔ σε ψευδον ὑμῳ στό ] ματι πάντ ’ ἀγαθὴν καὶ πάντα τ [ ελ ] εσφόρον εἶπε [ ν ἀοιδὸς κεῖνος τῷ Μοῦσαι πολλὰ νέμοντι βοτὰ σὺν μύθους ἐβάλοντο παρʼ ἴχν [ ι ] ον [ ι ] ον ὀξέος ἵππου ·
 # sent_id = 135
-1	[	[	u	u--------	_	63	AuxX	_	t_1799|t_1861|ref=Aetia_3.7
-2	ἦ	ἦ	d	d--------	_	63	AuxY	_	t_1800|t_1861|ref=Aetia_3.7
-3	]	]	u	u--------	_	11	AuxX	_	t_1801|t_1809|ref=Aetia_3.7
-4	που	πού	d	d--------	_	14	ADV	_	t_1802|t_1812|ref=Aetia_3.7
-5	καὶ	καί	c	c--------	_	14	AuxY	_	t_1803|t_1812|ref=Aetia_3.7
-6	Χαρίτων	χάρις	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_1804|t_1806|ref=Aetia_3.7
-7	[	[	u	u--------	_	9	AuxX	_	t_1805|t_1807|ref=Aetia_3.7
-8	σὺ	σύ	p	p-s----n-	Case=v|Gender=f|Number=s	14	ExD	_	t_1806|t_1812|ref=Aetia_3.7
-9	λοχεύτ	λοχεύω	a	a-s---mv-	Case=v|Gender=m|Number=s	8	ATR	_	t_1807|t_1806|ref=Aetia_3.7
-10	]	]	u	u--------	_	11	ATR	_	t_1808|t_1809|ref=Aetia_3.7
-11	ρια	ρια	n	n-p---na-	Case=a|Gender=n|Number=p	14	ExD	_	t_1809|t_1812|ref=Aetia_3.7
-12	,	,	u	u--------	_	14	AuxX	_	t_1810|t_1812|ref=Aetia_3.5
-13	μαῖα	μαῖα	n	n-s---fv-	Case=v|Gender=f|Number=s	14	ExD	_	t_1811|t_1812|ref=Aetia_3.7
-14	δʼ	δέ	g	g--------	_	38	COORD	_	t_1812|t_1836|ref=Aetia_3.8
-15	ἀνάσσης	ἀναρχία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_1813|t_1811|ref=Aetia_3.8
-16	[	[	u	u--------	_	17	AuxX	_	t_1814|t_1815|ref=Aetia_3.8
-17	ἡμε	ἐγώ	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_1815|t_1813|ref=Aetia_3.8
-18	]	]	u	u--------	_	15	ATR	_	t_1816|t_1813|ref=Aetia_3.6
-19	τέρης	τέρην	a	a-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_1817|t_1813|ref=Aetia_3.8
-20	,	,	u	u--------	_	14	AuxX	_	t_1818|t_1812|ref=Aetia_3.8
-21	οὔ	οὐ	d	d--------	_	23	AuxZ	_	t_1819|t_1821|ref=Aetia_3.8
-22	σε	σύ	p	p-s---fa-	Case=a|Number=s|Person=2	38	OBJ	_	t_1820|t_1836|ref=Aetia_3.8
-23	ψευδον	ψευδής	a	a-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_1821|t_1820|ref=Aetia_3.6
-24	ὑμῳ	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_1822|t_1821|ref=Aetia_3.8
-25	στό	στό	p	p-s---na-	Case=a|Gender=n|Number=s	38	ADV	_	t_1823|t_1836|ref=Aetia_3.8
-26	]	]	u	u--------	_	31	AuxK	_	t_1824|t_1829|ref=Aetia_3.8
-27	ματι	ματι	n	n-s---fd-	Case=d|Gender=f|Number=s	38	ADV	_	t_1825|t_1836|ref=Aetia_3.8
-28	πάντ	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_1826|t_1829|ref=Aetia_3.8
-29	’	’	d	d--------	Case=a|Gender=n|Number=p	38	ADV	_	t_1827|t_1836|ref=Aetia_3.8
-30	ἀγαθὴν	ἀγαθός	a	a-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_1828|t_1829|ref=Aetia_3.8
-31	καὶ	καί	c	c--------	_	22	COORD	_	t_1829|t_1820|ref=Aetia_3.8
-32	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_1830|t_1829|ref=Aetia_3.8
-33	τ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_1831|t_1830|ref=Aetia_3.8
-34	[	[	u	u--------	_	35	AuxX	_	t_1832|t_1833|ref=Aetia_3.8
+1	[	[	u	u--------	_	63	AuxX	_	t_1799|t_1861|ref=Aetia_4.1
+2	ἦ	ἦ	d	d--------	_	63	AuxY	_	t_1800|t_1861|ref=Aetia_4.1
+3	]	]	u	u--------	_	11	AuxX	_	t_1801|t_1809|ref=Aetia_4.1
+4	που	πού	d	d--------	_	14	ADV	_	t_1802|t_1812|ref=Aetia_4.1
+5	καὶ	καί	c	c--------	_	14	AuxY	_	t_1803|t_1812|ref=Aetia_4.1
+6	Χαρίτων	χάρις	n	n-p---fg-	Case=g|Gender=f|Number=p	8	ATR	_	t_1804|t_1806|ref=Aetia_4.1
+7	[	[	u	u--------	_	9	AuxX	_	t_1805|t_1807|ref=Aetia_4.1
+8	σὺ	σύ	p	p-s----n-	Case=v|Gender=f|Number=s	14	ExD	_	t_1806|t_1812|ref=Aetia_4.1
+9	λοχεύτ	λοχεύω	a	a-s---mv-	Case=v|Gender=m|Number=s	8	ATR	_	t_1807|t_1806|ref=Aetia_4.1
+10	]	]	u	u--------	_	11	ATR	_	t_1808|t_1809|ref=Aetia_4.1
+11	ρια	ρια	n	n-p---na-	Case=a|Gender=n|Number=p	14	ExD	_	t_1809|t_1812|ref=Aetia_4.1
+12	,	,	u	u--------	_	14	AuxX	_	t_1810|t_1812|ref=Aetia_4.1
+13	μαῖα	μαῖα	n	n-s---fv-	Case=v|Gender=f|Number=s	14	ExD	_	t_1811|t_1812|ref=Aetia_4.1
+14	δʼ	δέ	g	g--------	_	38	COORD	_	t_1812|t_1836|ref=Aetia_4.1
+15	ἀνάσσης	ἀναρχία	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_1813|t_1811|ref=Aetia_4.1
+16	[	[	u	u--------	_	17	AuxX	_	t_1814|t_1815|ref=Aetia_4.1
+17	ἡμε	ἐγώ	p	p-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_1815|t_1813|ref=Aetia_4.1
+18	]	]	u	u--------	_	15	ATR	_	t_1816|t_1813|ref=Aetia_4.1
+19	τέρης	τέρην	a	a-s---fg-	Case=g|Gender=f|Number=s	15	ATR	_	t_1817|t_1813|ref=Aetia_4.1
+20	,	,	u	u--------	_	14	AuxX	_	t_1818|t_1812|ref=Aetia_4.1
+21	οὔ	οὐ	d	d--------	_	23	AuxZ	_	t_1819|t_1821|ref=Aetia_4.1
+22	σε	σύ	p	p-s---fa-	Case=a|Number=s|Person=2	38	OBJ	_	t_1820|t_1836|ref=Aetia_4.1
+23	ψευδον	ψευδής	a	a-s---ma-	Case=a|Gender=m|Number=s	22	ATR	_	t_1821|t_1820|ref=Aetia_4.1
+24	ὑμῳ	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	23	OBJ	_	t_1822|t_1821|ref=Aetia_4.1
+25	στό	στό	p	p-s---na-	Case=a|Gender=n|Number=s	38	ADV	_	t_1823|t_1836|ref=Aetia_4.1
+26	]	]	u	u--------	_	31	AuxK	_	t_1824|t_1829|ref=Aetia_4.1
+27	ματι	ματι	n	n-s---fd-	Case=d|Gender=f|Number=s	38	ADV	_	t_1825|t_1836|ref=Aetia_4.1
+28	πάντ	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_1826|t_1829|ref=Aetia_4.1
+29	’	’	d	d--------	Case=a|Gender=n|Number=p	38	ADV	_	t_1827|t_1836|ref=Aetia_4.1
+30	ἀγαθὴν	ἀγαθός	a	a-s---fa-	Case=a|Gender=f|Number=s	31	ATR	_	t_1828|t_1829|ref=Aetia_4.1
+31	καὶ	καί	c	c--------	_	22	COORD	_	t_1829|t_1820|ref=Aetia_4.1
+32	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	31	OBJ	_	t_1830|t_1829|ref=Aetia_4.1
+33	τ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=s	32	ATR	_	t_1831|t_1830|ref=Aetia_4.1
+34	[	[	u	u--------	_	35	AuxX	_	t_1832|t_1833|ref=Aetia_4.1
 35	ελ	ελ	c	c--------	_	37	ADV	_	t_1833|t_1835|ref=Aetia_4.1
 36	]	]	u	u--------	_	33	ATR	_	t_1834|t_1831|ref=Aetia_4.1
 37	εσφόρον	εσφόρος	a	a-s---ma-	Case=a|Gender=m|Number=s	31	ATR	_	t_1835|t_1829|ref=Aetia_4.1
@@ -2492,367 +2492,367 @@
 9	νομόν	νομός	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_1895|t_1894|ref=Aetia_4.1
 10	.	.	u	u--------	_	8	AuxK	_	t_1896|t_1894|ref=Aetia_4.1
 
-# source = Callimachus, Aetia_4.1
+# source = Callimachus, Aetia_4.2
 # text = Δειπνιάς , κώμη Θεσσαλίας περὶ Λάρισσαν , ὅπου φασὶ τὸν Ἀπόλλωνα δειπνῆσαι πρῶτον ὅτε ἐκ τῶν Τέμπεων καθαρθεὶς ὑπέστρεψεν [0] ·
 # sent_id = 139
-1	Δειπνιάς	δειπνιάς	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_1897|e_47|ref=Aetia_4.1
-2	,	,	u	u--------	_	20	AuxX	_	t_1898|e_47|ref=Aetia_4.1
-3	κώμη	κώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_1899|e_47|ref=Aetia_4.1
-4	Θεσσαλίας	θεσσαλία	n	n-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_1900|t_1899|ref=Aetia_4.1
-5	περὶ	περί	r	r--------	_	3	AuxP	_	t_1901|t_1899|ref=Aetia_4.1
-6	Λάρισσαν	λάρισσα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_1902|t_1901|ref=Aetia_4.1
-7	,	,	u	u--------	_	20	AuxX	_	t_1903|e_47|ref=Aetia_4.1
-8	ὅπου	ὅπου	d	d--------	_	12	ADV	_	t_1904|t_1908|ref=Aetia_4.1
-9	φασὶ	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	ATR	_	t_1905|t_1899|ref=Aetia_4.1
-10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_1906|t_1907|ref=Aetia_4.1
-11	Ἀπόλλωνα	ἀπόλλων	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_1907|t_1908|ref=Aetia_4.1
-12	δειπνῆσαι	δειπνέω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_1908|t_1905|ref=Aetia_4.1
-13	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	12	ADV	_	t_1909|t_1908|ref=Aetia_4.1
-14	ὅτε	ὅτε	c	c--------	_	12	AuxC	_	t_1910|t_1908|ref=Aetia_4.1
-15	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_1911|t_1914|ref=Aetia_4.1
-16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_1912|t_1913|ref=Aetia_4.1
-17	Τέμπεων	τέμπεα	n	n-p---fg-	Case=g|Gender=f|Number=p	15	OBJ	_	t_1913|t_1911|ref=Aetia_4.1
-18	καθαρθεὶς	καθαίρω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	19	ADV	_	t_1914|t_1915|ref=Aetia_4.1
-19	ὑπέστρεψεν	ὑποστρέφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	ADV	_	t_1915|t_1910|ref=Aetia_4.1
-20	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=Aetia_0.2
-21	·	·	u	u--------	_	20	AuxK	_	t_1916|e_47|ref=Aetia_4.1
+1	Δειπνιάς	δειπνιάς	n	n-s---mn-	Case=n|Gender=m|Number=s	20	SBJ	_	t_1897|e_47|ref=Aetia_4.2
+2	,	,	u	u--------	_	20	AuxX	_	t_1898|e_47|ref=Aetia_4.2
+3	κώμη	κώμη	n	n-s---fn-	Case=n|Gender=f|Number=s	20	SBJ	_	t_1899|e_47|ref=Aetia_4.2
+4	Θεσσαλίας	θεσσαλία	n	n-p---fa-	Case=a|Gender=f|Number=p	3	ATR	_	t_1900|t_1899|ref=Aetia_4.2
+5	περὶ	περί	r	r--------	_	3	AuxP	_	t_1901|t_1899|ref=Aetia_4.2
+6	Λάρισσαν	λάρισσα	n	n-s---fa-	Case=a|Gender=f|Number=s	5	ATR	_	t_1902|t_1901|ref=Aetia_4.2
+7	,	,	u	u--------	_	20	AuxX	_	t_1903|e_47|ref=Aetia_4.2
+8	ὅπου	ὅπου	d	d--------	_	12	ADV	_	t_1904|t_1908|ref=Aetia_4.2
+9	φασὶ	φημί	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	3	ATR	_	t_1905|t_1899|ref=Aetia_4.2
+10	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	11	ATR	_	t_1906|t_1907|ref=Aetia_4.2
+11	Ἀπόλλωνα	ἀπόλλων	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_1907|t_1908|ref=Aetia_4.2
+12	δειπνῆσαι	δειπνέω	v	v--ana---	Mood=n|Tense=a|Voice=a	9	OBJ	_	t_1908|t_1905|ref=Aetia_4.2
+13	πρῶτον	πρῶτος	a	a-s---na-	Case=a|Gender=n|Number=s	12	ADV	_	t_1909|t_1908|ref=Aetia_4.2
+14	ὅτε	ὅτε	c	c--------	_	12	AuxC	_	t_1910|t_1908|ref=Aetia_4.2
+15	ἐκ	ἐκ	r	r--------	_	18	AuxP	_	t_1911|t_1914|ref=Aetia_4.2
+16	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	17	ATR	_	t_1912|t_1913|ref=Aetia_4.2
+17	Τέμπεων	τέμπεα	n	n-p---fg-	Case=g|Gender=f|Number=p	15	OBJ	_	t_1913|t_1911|ref=Aetia_4.2
+18	καθαρθεὶς	καθαίρω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	19	ADV	_	t_1914|t_1915|ref=Aetia_4.2
+19	ὑπέστρεψεν	ὑποστρέφω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	14	ADV	_	t_1915|t_1910|ref=Aetia_4.2
+20	[0]	[0]	-	---------	_	0	PRED	_	e_47|0|ref=Aetia_4.2
+21	·	·	u	u--------	_	20	AuxK	_	t_1916|e_47|ref=Aetia_4.2
 
-# source = Callimachus, Aetia_4.1
+# source = Callimachus, Aetia_4.2
 # text = καὶ τῷ παιδὶ τῷ διακομιστῇ τῆς δάφνης ἔθος εἰς τήνδε παραγενομένῳ δειπνεῖν [0] ·
 # sent_id = 140
-1	καὶ	καί	d	d--------	_	13	AuxY	_	t_1917|e_48|ref=Aetia_4.1
-2	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1918|t_1919|ref=Aetia_4.1
-3	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	12	OBJ	_	t_1919|t_1928|ref=Aetia_4.1
-4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1920|t_1921|ref=Aetia_4.1
-5	διακομιστῇ	διακομιστής	n	n-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1921|t_1919|ref=Aetia_4.1
-6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1922|t_1923|ref=Aetia_4.1
-7	δάφνης	δάφνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_1923|t_1921|ref=Aetia_4.1
-8	ἔθος	ἔθος	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_1924|t_1927|ref=Aetia_4.1
-9	εἰς	εἰς	r	r--------	_	11	AuxP	_	t_1925|t_1927|ref=Aetia_4.1
-10	τήνδε	ὅδε	p	p-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_1926|t_1925|ref=Aetia_4.1
-11	παραγενομένῳ	παραγίγνομαι	v	v-sapmmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	3	ATR	_	t_1927|t_1919|ref=Aetia_4.1
-12	δειπνεῖν	δειπνέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_1928|e_48|ref=Aetia_4.1
-13	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=Aetia_0.2
-14	·	·	u	u--------	_	13	AuxK	_	t_1929|e_48|ref=Aetia_4.1
+1	καὶ	καί	d	d--------	_	13	AuxY	_	t_1917|e_48|ref=Aetia_4.2
+2	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1918|t_1919|ref=Aetia_4.2
+3	παιδὶ	παῖς	n	n-s---md-	Case=d|Gender=m|Number=s	12	OBJ	_	t_1919|t_1928|ref=Aetia_4.2
+4	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1920|t_1921|ref=Aetia_4.2
+5	διακομιστῇ	διακομιστής	n	n-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1921|t_1919|ref=Aetia_4.2
+6	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	7	ATR	_	t_1922|t_1923|ref=Aetia_4.2
+7	δάφνης	δάφνη	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ATR	_	t_1923|t_1921|ref=Aetia_4.2
+8	ἔθος	ἔθος	n	n-s---na-	Case=a|Gender=n|Number=s	11	OBJ	_	t_1924|t_1927|ref=Aetia_4.2
+9	εἰς	εἰς	r	r--------	_	11	AuxP	_	t_1925|t_1927|ref=Aetia_4.2
+10	τήνδε	ὅδε	p	p-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_1926|t_1925|ref=Aetia_4.2
+11	παραγενομένῳ	παραγίγνομαι	v	v-sapmmd-	Case=d|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	3	ATR	_	t_1927|t_1919|ref=Aetia_4.2
+12	δειπνεῖν	δειπνέω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_1928|e_48|ref=Aetia_4.2
+13	[0]	[0]	-	---------	_	0	PRED	_	e_48|0|ref=Aetia_4.2
+14	·	·	u	u--------	_	13	AuxK	_	t_1929|e_48|ref=Aetia_4.2
 
-# source = Callimachus, Aetia_4.1
+# source = Callimachus, Aetia_4.2
 # text = Καλλίμαχος τετάρτῳ [0] ·
 # sent_id = 141
-1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1930|e_49|ref=Aetia_4.1
-2	τετάρτῳ	τέταρτος	a	a-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1931|e_49|ref=Aetia_4.1
-3	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=Aetia_0.2
-4	·	·	u	u--------	_	3	AuxK	_	t_1932|e_49|ref=Aetia_4.1
+1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1930|e_49|ref=Aetia_4.2
+2	τετάρτῳ	τέταρτος	a	a-s---md-	Case=d|Gender=m|Number=s	3	ADV	_	t_1931|e_49|ref=Aetia_4.2
+3	[0]	[0]	-	---------	_	0	PRED	_	e_49|0|ref=Aetia_4.2
+4	·	·	u	u--------	_	3	AuxK	_	t_1932|e_49|ref=Aetia_4.2
 
-# source = Callimachus, Aetia_4.1
+# source = Callimachus, Aetia_4.2
 # text = Δειπνιὰς ἔνθεν μιν δειδέχαται .
 # sent_id = 142
-1	Δειπνιὰς	δειπνιάς	n	n-p---fa-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1933|t_1936|ref=Aetia_4.1
-2	ἔνθεν	ἔνθεν	d	d--------	_	4	ADV	_	t_1934|t_1936|ref=Aetia_4.1
-3	μιν	μιν	p	p-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1935|t_1936|ref=Aetia_4.1
-4	δειδέχαται	δέχομαι	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	0	PRED	_	t_1936|0|ref=Aetia_4.1
-5	.	.	u	u--------	_	4	AuxK	_	t_1937|t_1936|ref=Aetia_4.1
+1	Δειπνιὰς	δειπνιάς	n	n-p---fa-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1933|t_1936|ref=Aetia_4.2
+2	ἔνθεν	ἔνθεν	d	d--------	_	4	ADV	_	t_1934|t_1936|ref=Aetia_4.2
+3	μιν	μιν	p	p-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_1935|t_1936|ref=Aetia_4.2
+4	δειδέχαται	δέχομαι	v	v3prie---	Mood=i|Number=p|Person=3|Tense=r|Voice=e	0	PRED	_	t_1936|0|ref=Aetia_4.2
+5	.	.	u	u--------	_	4	AuxK	_	t_1937|t_1936|ref=Aetia_4.2
 
-# source = Callimachus, Aetia_4.1-4.2
+# source = Callimachus, Aetia_4.3
 # text = , τιμᾶται δέ τις καὶ Φαληροῖ κατὰ πρύμναν ἥρως ] . . .
 # sent_id = 143
-1	,	,	u	u--------	_	2	AuxX	_	t_1938|t_1939|ref=Aetia_4.1
-2	τιμᾶται	τιμάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1939|0|ref=Aetia_4.1
-3	δέ	δέ	d	d--------	_	2	AuxY	_	t_1940|t_1939|ref=Aetia_4.1
-4	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1941|t_1939|ref=Aetia_4.1
-5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_1942|t_1943|ref=Aetia_4.1
-6	Φαληροῖ	φαληροῖ	n	n-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_1943|t_1939|ref=Aetia_4.2
-7	κατὰ	κατά	r	r--------	_	2	AuxP	_	t_1944|t_1939|ref=Aetia_4.2
-8	πρύμναν	πρύμνα	n	n-s---fa-	Case=a|Gender=f|Number=s	7	ADV	_	t_1945|t_1944|ref=Aetia_4.2
-9	ἥρως	ἥρως	n	n-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_1946|t_1941|ref=Aetia_4.2
-10	]	]	u	u--------	_	2	AuxG	_	t_1947|t_1939|ref=Aetia_4.2
-11	.	.	u	u--------	_	2	AuxK	_	t_1948|t_1939|ref=Aetia_4.2
-12	.	.	u	u--------	_	2	AuxK	_	t_1949|t_1939|ref=Aetia_4.2
-13	.	.	u	u--------	_	2	AuxK	_	t_1950|t_1939|ref=Aetia_4.2
+1	,	,	u	u--------	_	2	AuxX	_	t_1938|t_1939|ref=Aetia_4.3
+2	τιμᾶται	τιμάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1939|0|ref=Aetia_4.3
+3	δέ	δέ	d	d--------	_	2	AuxY	_	t_1940|t_1939|ref=Aetia_4.3
+4	τις	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1941|t_1939|ref=Aetia_4.3
+5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_1942|t_1943|ref=Aetia_4.3
+6	Φαληροῖ	φαληροῖ	n	n-s---md-	Case=d|Gender=m|Number=s	2	OBJ	_	t_1943|t_1939|ref=Aetia_4.3
+7	κατὰ	κατά	r	r--------	_	2	AuxP	_	t_1944|t_1939|ref=Aetia_4.3
+8	πρύμναν	πρύμνα	n	n-s---fa-	Case=a|Gender=f|Number=s	7	ADV	_	t_1945|t_1944|ref=Aetia_4.3
+9	ἥρως	ἥρως	n	n-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_1946|t_1941|ref=Aetia_4.3
+10	]	]	u	u--------	_	2	AuxG	_	t_1947|t_1939|ref=Aetia_4.3
+11	.	.	u	u--------	_	2	AuxK	_	t_1948|t_1939|ref=Aetia_4.3
+12	.	.	u	u--------	_	2	AuxK	_	t_1949|t_1939|ref=Aetia_4.3
+13	.	.	u	u--------	_	2	AuxK	_	t_1950|t_1939|ref=Aetia_4.3
 
-# source = Callimachus, Aetia_4.2
+# source = Callimachus, Aetia_4.3
 # text = ὁ δὲ κατὰ πρύμνας ἥρως πρύμναν ἥρως ] [0] .
 # sent_id = 144
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1951|t_1955|ref=Aetia_4.2
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_1952|e_50|ref=Aetia_4.2
-3	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_1953|e_50|ref=Aetia_4.2
-4	πρύμνας	πρύμνα	n	n-p---fa-	Case=a|Gender=f|Number=p	3	ADV	_	t_1954|t_1953|ref=Aetia_4.2
-5	ἥρως	ἥρως	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_1955|e_50|ref=Aetia_4.2
-6	πρύμναν	πρύμνα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_1956|e_50|ref=Aetia_4.2
-7	ἥρως	ἥρως	n	n-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_1957|t_1955|ref=Aetia_4.2
-8	]	]	u	u--------	_	9	AuxG	_	t_1958|e_50|ref=Aetia_4.2
-9	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=Aetia_0.2
-10	.	.	u	u--------	_	9	AuxK	_	t_1959|e_50|ref=Aetia_4.2
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_1951|t_1955|ref=Aetia_4.3
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_1952|e_50|ref=Aetia_4.3
+3	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_1953|e_50|ref=Aetia_4.3
+4	πρύμνας	πρύμνα	n	n-p---fa-	Case=a|Gender=f|Number=p	3	ADV	_	t_1954|t_1953|ref=Aetia_4.3
+5	ἥρως	ἥρως	n	n-p---mn-	Case=n|Gender=m|Number=p	9	SBJ	_	t_1955|e_50|ref=Aetia_4.3
+6	πρύμναν	πρύμνα	n	n-s---fa-	Case=a|Gender=f|Number=s	9	OBJ	_	t_1956|e_50|ref=Aetia_4.3
+7	ἥρως	ἥρως	n	n-p---mn-	Case=n|Gender=m|Number=p	5	ATR	_	t_1957|t_1955|ref=Aetia_4.3
+8	]	]	u	u--------	_	9	AuxG	_	t_1958|e_50|ref=Aetia_4.3
+9	[0]	[0]	-	---------	_	0	PRED	_	e_50|0|ref=Aetia_4.3
+10	.	.	u	u--------	_	9	AuxK	_	t_1959|e_50|ref=Aetia_4.3
 
-# source = Callimachus, Aetia_4.2
+# source = Callimachus, Aetia_4.3
 # text = Ἀνδρόγεως ἐστιν , υἱὸς Μίνωος , οὕτως ὀνομασθεὶς ὅτι κατὰ πρύμνας τῶν νεῶν ἵδρυτο , ὡς Καλλίμαχος ἐν δʼ τῶν Αἰτίων μέμνηται .
 # sent_id = 145
-1	Ἀνδρόγεως	ἀνδρόγεως	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1960|t_1961|ref=Aetia_4.2
-2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1961|0|ref=Aetia_4.2
-3	,	,	u	u--------	_	2	AuxX	_	t_1962|t_1961|ref=Aetia_4.1
-4	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1963|t_1960|ref=Aetia_4.2
-5	Μίνωος	μίνως	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1964|t_1963|ref=Aetia_4.2
-6	,	,	u	u--------	_	2	AuxX	_	t_1965|t_1961|ref=Aetia_4.2
-7	οὕτως	οὕτως	d	d--------	_	8	ADV	_	t_1966|t_1967|ref=Aetia_4.2
-8	ὀνομασθεὶς	ὀνομάζω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	2	ADV	_	t_1967|t_1961|ref=Aetia_4.2
-9	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_1968|t_1966|ref=Aetia_4.2
-10	κατὰ	κατά	r	r--------	_	14	AuxP	_	t_1969|t_1973|ref=Aetia_4.2
-11	πρύμνας	πρύμνα	n	n-p---fa-	Case=a|Gender=f|Number=p	10	ADV	_	t_1970|t_1969|ref=Aetia_4.2
-12	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_1971|t_1972|ref=Aetia_4.2
-13	νεῶν	ναῦς	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_1972|t_1970|ref=Aetia_4.2
-14	ἵδρυτο	ἱδρύω	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	9	ADV	_	t_1973|t_1968|ref=Aetia_4.2
-15	,	,	u	u--------	_	2	AuxX	_	t_1974|t_1961|ref=Aetia_4.2
-16	ὡς	ὡς	c	c--------	_	14	AuxC	_	t_1975|t_1973|ref=Aetia_4.2
-17	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_1976|t_1981|ref=Aetia_4.1
-18	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_1977|t_1981|ref=Aetia_4.2
-19	δʼ	δέ	d	d--------	_	22	AuxY	_	t_1978|t_1981|ref=Aetia_4.2
-20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_1979|t_1980|ref=Aetia_4.2
-21	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	18	ADV	_	t_1980|t_1977|ref=Aetia_4.1
-22	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	16	ADV	_	t_1981|t_1975|ref=Aetia_4.2
-23	.	.	u	u--------	_	2	AuxK	_	t_1982|t_1961|ref=Aetia_4.2
+1	Ἀνδρόγεως	ἀνδρόγεως	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1960|t_1961|ref=Aetia_4.3
+2	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1961|0|ref=Aetia_4.3
+3	,	,	u	u--------	_	2	AuxX	_	t_1962|t_1961|ref=Aetia_4.3
+4	υἱὸς	υἱός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	ATR	_	t_1963|t_1960|ref=Aetia_4.3
+5	Μίνωος	μίνως	n	n-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_1964|t_1963|ref=Aetia_4.3
+6	,	,	u	u--------	_	2	AuxX	_	t_1965|t_1961|ref=Aetia_4.3
+7	οὕτως	οὕτως	d	d--------	_	8	ADV	_	t_1966|t_1967|ref=Aetia_4.3
+8	ὀνομασθεὶς	ὀνομάζω	v	v-sappmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=p	2	ADV	_	t_1967|t_1961|ref=Aetia_4.3
+9	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_1968|t_1966|ref=Aetia_4.3
+10	κατὰ	κατά	r	r--------	_	14	AuxP	_	t_1969|t_1973|ref=Aetia_4.3
+11	πρύμνας	πρύμνα	n	n-p---fa-	Case=a|Gender=f|Number=p	10	ADV	_	t_1970|t_1969|ref=Aetia_4.3
+12	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	13	ATR	_	t_1971|t_1972|ref=Aetia_4.3
+13	νεῶν	ναῦς	n	n-p---fg-	Case=g|Gender=f|Number=p	11	ATR	_	t_1972|t_1970|ref=Aetia_4.3
+14	ἵδρυτο	ἱδρύω	v	v3slie---	Mood=i|Number=s|Person=3|Tense=l|Voice=e	9	ADV	_	t_1973|t_1968|ref=Aetia_4.3
+15	,	,	u	u--------	_	2	AuxX	_	t_1974|t_1961|ref=Aetia_4.3
+16	ὡς	ὡς	c	c--------	_	14	AuxC	_	t_1975|t_1973|ref=Aetia_4.3
+17	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	22	SBJ	_	t_1976|t_1981|ref=Aetia_4.3
+18	ἐν	ἐν	r	r--------	_	22	AuxP	_	t_1977|t_1981|ref=Aetia_4.3
+19	δʼ	δέ	d	d--------	_	22	AuxY	_	t_1978|t_1981|ref=Aetia_4.3
+20	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	21	ATR	_	t_1979|t_1980|ref=Aetia_4.3
+21	Αἰτίων	αἴτιος	n	n-p---mg-	Case=g|Gender=m|Number=p	18	ADV	_	t_1980|t_1977|ref=Aetia_4.3
+22	μέμνηται	μιμνήσκω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	16	ADV	_	t_1981|t_1975|ref=Aetia_4.3
+23	.	.	u	u--------	_	2	AuxK	_	t_1982|t_1961|ref=Aetia_4.3
 
-# source = Callimachus, Aetia_4.2
+# source = Callimachus, Aetia_5.1
 # text = Harpocration s [0] .
 # sent_id = 146
-1	Harpocration	harpocrationes	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_1983|e_51|ref=Aetia_4.2
-2	s	s	i	i--------	_	3	ExD	_	t_1984|e_51|ref=Aetia_4.2
-3	[0]	[0]	-	---------	_	0	PRED	_	e_51|0|ref=Aetia_0.2
-4	.	.	u	u--------	_	3	AuxK	_	t_1985|e_51|ref=Aetia_4.2
+1	Harpocration	harpocrationes	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_1983|e_51|ref=Aetia_5.1
+2	s	s	i	i--------	_	3	ExD	_	t_1984|e_51|ref=Aetia_5.1
+3	[0]	[0]	-	---------	_	0	PRED	_	e_51|0|ref=Aetia_5.1
+4	.	.	u	u--------	_	3	AuxK	_	t_1985|e_51|ref=Aetia_5.1
 
-# source = Callimachus, Aetia_4.2-4.3
+# source = Callimachus, Aetia_5.1
 # text = v .
 # sent_id = 147
-1	v	v	x	x--------	_	0	ExD	_	t_1986|0|ref=Aetia_4.2
-2	.	.	u	u--------	_	1	AuxK	_	t_1987|t_1986|ref=Aetia_4.3
+1	v	v	x	x--------	_	0	ExD	_	t_1986|0|ref=Aetia_5.1
+2	.	.	u	u--------	_	1	AuxK	_	t_1987|t_1986|ref=Aetia_5.1
 
-# source = Callimachus, Aetia_4.3
+# source = Callimachus, Aetia_5.1
 # text = Ἄκτια ἀγὼν παλαιὸς ἦν ὡς δῆλον ποιεῖ Καλλίμαχος ἐν τῷ περὶ ἀγώνων .
 # sent_id = 148
-1	Ἄκτια	ἄκτιον	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1988|t_1991|ref=Aetia_4.3
-2	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1989|t_1991|ref=Aetia_4.3
-3	παλαιὸς	παλαιός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1990|t_1991|ref=Aetia_4.3
-4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1991|0|ref=Aetia_4.3
-5	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_1992|t_1991|ref=Aetia_4.3
-6	δῆλον	δῆλος	a	a-s---na-	Case=a|Gender=n|Number=s	7	OCOMP	_	t_1993|t_1994|ref=Aetia_4.3
-7	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_1994|t_1992|ref=Aetia_4.3
-8	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1995|t_1994|ref=Aetia_4.3
-9	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1996|t_1994|ref=Aetia_4.3
-10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_1997|t_1996|ref=Aetia_4.3
-11	περὶ	περί	r	r--------	_	10	AuxP	_	t_1998|t_1997|ref=Aetia_4.3
-12	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1999|t_1998|ref=Aetia_4.3
-13	.	.	u	u--------	_	4	AuxK	_	t_2000|t_1991|ref=Aetia_4.3
+1	Ἄκτια	ἄκτιον	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_1988|t_1991|ref=Aetia_5.1
+2	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1989|t_1991|ref=Aetia_5.1
+3	παλαιὸς	παλαιός	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_1990|t_1991|ref=Aetia_5.1
+4	ἦν	εἰμί	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_1991|0|ref=Aetia_5.1
+5	ὡς	ὡς	c	c--------	_	4	AuxC	_	t_1992|t_1991|ref=Aetia_5.1
+6	δῆλον	δῆλος	a	a-s---na-	Case=a|Gender=n|Number=s	7	OCOMP	_	t_1993|t_1994|ref=Aetia_5.1
+7	ποιεῖ	ποιέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_1994|t_1992|ref=Aetia_5.1
+8	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1995|t_1994|ref=Aetia_5.1
+9	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1996|t_1994|ref=Aetia_5.1
+10	τῷ	ὁ	l	l-s---nd-	Case=d|Gender=n|Number=s	9	ADV	_	t_1997|t_1996|ref=Aetia_5.1
+11	περὶ	περί	r	r--------	_	10	AuxP	_	t_1998|t_1997|ref=Aetia_5.1
+12	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_1999|t_1998|ref=Aetia_5.1
+13	.	.	u	u--------	_	4	AuxK	_	t_2000|t_1991|ref=Aetia_5.1
 
-# source = Callimachus, Aetia_4.3
+# source = Callimachus, Aetia_5.1
 # text = Cf .
 # sent_id = 149
-1	Cf	cf	n	n--------	_	0	ExD	_	t_2001|0|ref=Aetia_4.3
-2	.	.	u	u--------	_	1	AuxK	_	t_2002|t_2001|ref=Aetia_4.3
+1	Cf	cf	n	n--------	_	0	ExD	_	t_2001|0|ref=Aetia_5.1
+2	.	.	u	u--------	_	1	AuxK	_	t_2002|t_2001|ref=Aetia_5.1
 
-# source = Callimachus, Aetia_4.3
+# source = Callimachus, Aetia_5.1
 # text = The Περὶ ἀγώνων being otherwise unknown , this probably belongs to the Aitia [0] .
 # sent_id = 150
-1	The	the	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_2003|t_2005|ref=Aetia_4.3
-2	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	4	PNOM	_	t_2004|t_2006|ref=Aetia_4.3
-3	ἀγώνων	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_2005|t_2006|ref=Aetia_4.3
-4	being	beείδ	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_2006|e_52|ref=Aetia_4.3
-5	otherwise	otheras	d	d--------	_	4	ADV	_	t_2007|t_2006|ref=Aetia_4.3
-6	unknown	unknown	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_2008|t_2006|ref=Aetia_4.2
-7	,	,	u	u--------	_	14	AuxX	_	t_2009|e_52|ref=Aetia_4.3
-8	this	ἶδος	d	d--------	_	10	OBJ	_	t_2010|t_2012|ref=Aetia_4.3
-9	probably	probably	d	d--------	Case=a|Gender=n|Number=p	10	AuxY	_	t_2011|t_2012|ref=Aetia_4.3
-10	belongs	στρόμβος	v	v3saia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	14	PNOM	_	t_2012|e_52|ref=Aetia_4.3
-11	to	ὁ	d	d--------	_	10	OBJ	_	t_2013|t_2012|ref=Aetia_4.3
-12	the	the	l	l-p---mg-	Case=n|Gender=f|Number=s	13	ATR	_	t_2014|t_2015|ref=Aetia_4.3
-13	Aitia	aitia	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_2015|t_2012|ref=Aetia_4.3
-14	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=Aetia_0.2
-15	.	.	u	u--------	_	14	AuxK	_	t_2016|e_52|ref=Aetia_4.3
-
-# source = Callimachus, Aetia_4.3-5.1
-# text = , τὸν δὲ ἱππικὸν ἀγῶνα ὁ Ἐνυάλιος ἅρμασι διπώλοις ἐφεῦρε , καθὼς συνεγράψατο Καλλίμαχος . . .
-# sent_id = 151
-1	,	,	u	u--------	_	10	AuxX	_	t_2017|t_2026|ref=Aetia_4.3
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_2018|t_2021|ref=Aetia_4.3
-3	δὲ	δέ	d	d--------	_	10	AuxY	_	t_2019|t_2026|ref=Aetia_4.3
-4	ἱππικὸν	ἱππικός	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_2020|t_2021|ref=Aetia_4.3
-5	ἀγῶνα	ἀγών	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_2021|t_2026|ref=Aetia_4.3
-6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_2022|t_2023|ref=Aetia_4.3
-7	Ἐνυάλιος	ἐνυάλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_2023|t_2026|ref=Aetia_4.3
-8	ἅρμασι	ἅρμα	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_2024|t_2026|ref=Aetia_4.3
-9	διπώλοις	δίπώλος	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_2025|t_2024|ref=Aetia_4.3
-10	ἐφεῦρε	ἐφευρίσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_2026|0|ref=Aetia_4.3
-11	,	,	u	u--------	_	10	AuxX	_	t_2027|t_2026|ref=Aetia_4.3
-12	καθὼς	καθώς	c	c--------	_	10	AuxC	_	t_2028|t_2026|ref=Aetia_4.3
-13	συνεγράψατο	συγγράφω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	12	ADV	_	t_2029|t_2028|ref=Aetia_4.3
-14	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_2030|t_2029|ref=Aetia_4.3
-15	.	.	u	u--------	_	10	AuxK	_	t_2031|t_2026|ref=Aetia_4.3
-16	.	.	u	u--------	_	10	AuxK	_	t_2032|t_2026|ref=Aetia_4.3
-17	.	.	u	u--------	_	10	AuxK	_	t_2033|t_2026|ref=Aetia_5.1
-
-# source = Callimachus, Aetia_5.1
-# text = ἐν τοῖς Αἰτίοις αὐτοῦ [0] .
-# sent_id = 152
-1	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_2034|e_53|ref=Aetia_5.1
-2	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_2035|t_2036|ref=Aetia_4.2
-3	Αἰτίοις	αἴτιος	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_2036|t_2034|ref=Aetia_5.1
-4	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_2037|t_2036|ref=Aetia_5.1
-5	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=Aetia_0.2
-6	.	.	u	u--------	_	5	AuxK	_	t_2038|e_53|ref=Aetia_5.1
-
-# source = Callimachus, Aetia_5.1
-# text = , Ἄρτεμιν Ἀρκάδες Ἀπαγχομένην καλουμένην προστρέπονται , ὥς φησι Καλλίμαχος ἐν Αἰτίοις .
-# sent_id = 153
-1	,	,	u	u--------	_	6	AuxX	_	t_2039|t_2044|ref=Aetia_5.1
-2	Ἄρτεμιν	ἄρτεμις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_2040|t_2044|ref=Aetia_5.1
-3	Ἀρκάδες	ἀρκάς	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_2041|t_2044|ref=Aetia_5.1
-4	Ἀπαγχομένην	ἀπάγχω	n	n-s---fa-	Case=a|Gender=f|Number=s	5	PNOM	_	t_2042|t_2043|ref=Aetia_5.1
-5	καλουμένην	καλέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	2	ATR	_	t_2043|t_2040|ref=Aetia_5.1
-6	προστρέπονται	προστρέπω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_2044|0|ref=Aetia_5.1
-7	,	,	u	u--------	_	6	AuxX	_	t_2045|t_2044|ref=Aetia_5.1
-8	ὥς	ὡς	c	c--------	_	6	AuxC	_	t_2046|t_2044|ref=Aetia_5.1
-9	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	AuxY	_	t_2047|t_2046|ref=Aetia_5.1
-10	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_2048|t_2047|ref=Aetia_5.1
-11	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_2049|t_2047|ref=Aetia_5.1
-12	Αἰτίοις	αἴτιος	n	n-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_2050|t_2049|ref=Aetia_5.1
-13	.	.	u	u--------	_	6	AuxK	_	t_2051|t_2044|ref=Aetia_5.1
-
-# source = Callimachus, Aetia_5.1
-# text = καταπεσόντος δὲ τοῦ παιδὸς τὸ ὑποκείμενον πέλαγος Ἰκάριον μετωνομάσθη . . .
-# sent_id = 154
-1	καταπεσόντος	καταπίπτω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_2052|t_2060|ref=Aetia_5.1
-2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_2053|t_2060|ref=Aetia_5.1
-3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2054|t_2055|ref=Aetia_5.1
-4	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	SBJ	_	t_2055|t_2052|ref=Aetia_5.1
-5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_2056|t_2058|ref=Aetia_5.1
-6	ὑποκείμενον	ὑπόκειμαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_2057|t_2058|ref=Aetia_5.1
-7	πέλαγος	πέλαγος	n	n-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_2058|t_2060|ref=Aetia_5.1
-8	Ἰκάριον	ἰκάριος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_2059|t_2058|ref=Aetia_5.1
-9	μετωνομάσθη	μετονομάζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_2060|0|ref=Aetia_5.1
-10	.	.	u	u--------	_	9	AuxK	_	t_2061|t_2060|ref=Aetia_5.1
-11	.	.	u	u--------	_	9	AuxK	_	t_2062|t_2060|ref=Aetia_5.1
-12	.	.	u	u--------	_	9	AuxK	_	t_2063|t_2060|ref=Aetia_5.1
-
-# source = Callimachus, Aetia_5.1-4.3
-# text = ἱστορεῖ . . .
-# sent_id = 155
-1	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2064|0|ref=Aetia_5.1
-2	.	.	u	u--------	_	1	AuxK	_	t_2065|t_2064|ref=Aetia_5.1
-3	.	.	u	u--------	_	1	AuxK	_	t_2066|t_2064|ref=Aetia_5.1
-4	.	.	u	u--------	_	1	AuxK	_	t_2067|t_2064|ref=Aetia_4.3
-
-# source = Callimachus, Aetia_5.1-5.2
-# text = Καλλίμαχος ἐν Αἰτίοις [0] .
-# sent_id = 156
-1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_2068|e_54|ref=Aetia_5.1
-2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_2069|e_54|ref=Aetia_5.2
-3	Αἰτίοις	αἴτιος	n	n-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_2070|t_2069|ref=Aetia_5.2
-4	[0]	[0]	-	---------	_	0	PRED	_	e_54|0|ref=Aetia_0.2
-5	.	.	u	u--------	_	4	AuxK	_	t_2071|e_54|ref=Aetia_5.2
+1	The	the	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_2003|t_2005|ref=Aetia_5.1
+2	Περὶ	περί	n	n-s---md-	Case=d|Gender=m|Number=s	4	PNOM	_	t_2004|t_2006|ref=Aetia_5.1
+3	ἀγώνων	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_2005|t_2006|ref=Aetia_5.1
+4	being	beείδ	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	14	ADV	_	t_2006|e_52|ref=Aetia_5.1
+5	otherwise	otheras	d	d--------	_	4	ADV	_	t_2007|t_2006|ref=Aetia_5.1
+6	unknown	unknown	a	a-s---mn-	Case=n|Gender=m|Number=s	4	PNOM	_	t_2008|t_2006|ref=Aetia_5.1
+7	,	,	u	u--------	_	14	AuxX	_	t_2009|e_52|ref=Aetia_5.1
+8	this	ἶδος	d	d--------	_	10	OBJ	_	t_2010|t_2012|ref=Aetia_5.1
+9	probably	probably	d	d--------	Case=a|Gender=n|Number=p	10	AuxY	_	t_2011|t_2012|ref=Aetia_5.1
+10	belongs	στρόμβος	v	v3saia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	14	PNOM	_	t_2012|e_52|ref=Aetia_5.1
+11	to	ὁ	d	d--------	_	10	OBJ	_	t_2013|t_2012|ref=Aetia_5.1
+12	the	the	l	l-p---mg-	Case=n|Gender=f|Number=s	13	ATR	_	t_2014|t_2015|ref=Aetia_5.1
+13	Aitia	aitia	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_2015|t_2012|ref=Aetia_5.1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_52|0|ref=Aetia_5.1
+15	.	.	u	u--------	_	14	AuxK	_	t_2016|e_52|ref=Aetia_5.1
 
 # source = Callimachus, Aetia_5.2
-# text = Probus on Molorchi mentio est apud Callimachum in Αἰτίων libris .
-# sent_id = 157
-1	Probus	probus	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2072|t_2076|ref=Aetia_5.2
-2	on	on	d	d--------	_	4	ADV	_	t_2073|t_2075|ref=Aetia_5.2
-3	Molorchi	molorchi	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_2074|t_2075|ref=Aetia_5.2
-4	mentio	mentio	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_2075|0|ref=Aetia_5.2
-5	est	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	PRED	_	t_2076|t_2075|ref=Aetia_5.2
-6	apud	ἐπί	d	d--------	_	5	ADV	_	t_2077|t_2076|ref=Aetia_5.2
-7	Callimachum	callimachος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2078|t_2076|ref=Aetia_5.2
-8	in	εἰς	r	r--------	_	4	AuxP	_	t_2079|t_2075|ref=Aetia_5.2
-9	Αἰτίων	αἴτιος	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_2080|t_2081|ref=Aetia_5.2
-10	libris	libris	n	n-p---nd-	Case=d|Gender=n|Number=p	8	ADV	_	t_2081|t_2079|ref=Aetia_5.2
-11	.	.	u	u--------	_	4	AuxK	_	t_2082|t_2075|ref=Aetia_5.2
+# text = , τὸν δὲ ἱππικὸν ἀγῶνα ὁ Ἐνυάλιος ἅρμασι διπώλοις ἐφεῦρε , καθὼς συνεγράψατο Καλλίμαχος . . .
+# sent_id = 151
+1	,	,	u	u--------	_	10	AuxX	_	t_2017|t_2026|ref=Aetia_5.2
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_2018|t_2021|ref=Aetia_5.2
+3	δὲ	δέ	d	d--------	_	10	AuxY	_	t_2019|t_2026|ref=Aetia_5.2
+4	ἱππικὸν	ἱππικός	a	a-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_2020|t_2021|ref=Aetia_5.2
+5	ἀγῶνα	ἀγών	n	n-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_2021|t_2026|ref=Aetia_5.2
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_2022|t_2023|ref=Aetia_5.2
+7	Ἐνυάλιος	ἐνυάλιος	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_2023|t_2026|ref=Aetia_5.2
+8	ἅρμασι	ἅρμα	n	n-p---nd-	Case=d|Gender=n|Number=p	10	ADV	_	t_2024|t_2026|ref=Aetia_5.2
+9	διπώλοις	δίπώλος	a	a-p---nd-	Case=d|Gender=n|Number=p	8	ATR	_	t_2025|t_2024|ref=Aetia_5.2
+10	ἐφεῦρε	ἐφευρίσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_2026|0|ref=Aetia_5.2
+11	,	,	u	u--------	_	10	AuxX	_	t_2027|t_2026|ref=Aetia_5.2
+12	καθὼς	καθώς	c	c--------	_	10	AuxC	_	t_2028|t_2026|ref=Aetia_5.2
+13	συνεγράψατο	συγγράφω	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	12	ADV	_	t_2029|t_2028|ref=Aetia_5.2
+14	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	13	SBJ	_	t_2030|t_2029|ref=Aetia_5.2
+15	.	.	u	u--------	_	10	AuxK	_	t_2031|t_2026|ref=Aetia_5.2
+16	.	.	u	u--------	_	10	AuxK	_	t_2032|t_2026|ref=Aetia_5.2
+17	.	.	u	u--------	_	10	AuxK	_	t_2033|t_2026|ref=Aetia_5.2
 
-# source = Callimachus, Aetia_5.2-5.3
-# text = Servius on Cur dextrae iungere dextram Non datur ] maiorum haec fuerat salutatio , cuius rei τὸ σἲτιον , i [0] .
-# sent_id = 158
-1	Servius	κρατύς	v	v2spia---	_	21	ADV	_	t_2083|e_55|ref=Aetia_5.2
-2	on	on	i	i--------	_	21	ExD	_	t_2084|e_55|ref=Aetia_5.2
-3	Cur	cur	d	d--------	_	21	ExD	_	t_2085|e_55|ref=Aetia_5.2
-4	dextrae	dextrae	i	i--------	_	6	ExD	_	t_2086|t_2088|ref=Aetia_5.2
-5	iungere	iωματόω	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_2087|t_2094|ref=Aetia_5.2
-6	dextram	dextram	n	n-s---fv-	Case=v|Gender=f|Number=s	12	ExD	_	t_2088|t_2094|ref=Aetia_5.2
-7	Non	οὐ	a	a-s---fn-	Case=v|Gender=f|Number=s	12	ExD	_	t_2089|t_2094|ref=Aetia_5.2
-8	datur	da	n	n-s---mv-	Case=n|Gender=f|Number=s	12	ExD	_	t_2090|t_2094|ref=Aetia_5.1
-9	]	]	u	u--------	_	21	AuxG	_	t_2091|e_55|ref=Aetia_5.2
-10	maiorum	maiorum	n	n-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_2092|t_2095|ref=Aetia_5.3
-11	haec	haec	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_2093|t_2095|ref=Aetia_5.3
-12	fuerat	fuerέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	ExD	_	t_2094|e_55|ref=Aetia_5.3
-13	salutatio	salutatio	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_2095|t_2094|ref=Aetia_5.3
-14	,	,	u	u--------	_	21	AuxX	_	t_2096|e_55|ref=Aetia_5.3
-15	cuius	cuius	p	p-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_2097|t_2098|ref=Aetia_5.3
-16	rei	rei	n	n-s---fn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_2098|e_55|ref=Aetia_5.3
-17	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	18	ATR	_	t_2099|t_2100|ref=Aetia_5.3
-18	σἲτιον	σἴτιον	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_2100|e_55|ref=Aetia_5.3
-19	,	,	u	u--------	_	21	AuxX	_	t_2101|e_55|ref=Aetia_5.3
-20	i	εἰ	d	d--------	_	12	SBJ	_	t_2102|t_2094|ref=Aetia_5.3
-21	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=Aetia_0.2
-22	.	.	u	u--------	_	21	AuxK	_	t_2103|e_55|ref=Aetia_5.3
+# source = Callimachus, Aetia_5.2
+# text = ἐν τοῖς Αἰτίοις αὐτοῦ [0] .
+# sent_id = 152
+1	ἐν	ἐν	r	r--------	_	5	AuxP	_	t_2034|e_53|ref=Aetia_5.2
+2	τοῖς	ὁ	l	l-p---nd-	Case=d|Gender=n|Number=p	3	ATR	_	t_2035|t_2036|ref=Aetia_5.2
+3	Αἰτίοις	αἴτιος	n	n-p---nd-	Case=d|Gender=n|Number=p	1	ADV	_	t_2036|t_2034|ref=Aetia_5.2
+4	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_2037|t_2036|ref=Aetia_5.2
+5	[0]	[0]	-	---------	_	0	PRED	_	e_53|0|ref=Aetia_5.2
+6	.	.	u	u--------	_	5	AuxK	_	t_2038|e_53|ref=Aetia_5.2
 
-# source = Callimachus, Aetia_5.3-5.4
-# text = e .
-# sent_id = 159
-1	e	e	i	i--------	_	0	ExD	_	t_2104|0|ref=Aetia_5.3
-2	.	.	u	u--------	_	1	AuxK	_	t_2105|t_2104|ref=Aetia_5.4
+# source = Callimachus, Aetia_5.3
+# text = , Ἄρτεμιν Ἀρκάδες Ἀπαγχομένην καλουμένην προστρέπονται , ὥς φησι Καλλίμαχος ἐν Αἰτίοις .
+# sent_id = 153
+1	,	,	u	u--------	_	6	AuxX	_	t_2039|t_2044|ref=Aetia_5.3
+2	Ἄρτεμιν	ἄρτεμις	n	n-s---fa-	Case=a|Gender=f|Number=s	6	OBJ	_	t_2040|t_2044|ref=Aetia_5.3
+3	Ἀρκάδες	ἀρκάς	n	n-p---mn-	Case=n|Gender=m|Number=p	6	SBJ	_	t_2041|t_2044|ref=Aetia_5.3
+4	Ἀπαγχομένην	ἀπάγχω	n	n-s---fa-	Case=a|Gender=f|Number=s	5	PNOM	_	t_2042|t_2043|ref=Aetia_5.3
+5	καλουμένην	καλέω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	2	ATR	_	t_2043|t_2040|ref=Aetia_5.3
+6	προστρέπονται	προστρέπω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	0	PRED	_	t_2044|0|ref=Aetia_5.3
+7	,	,	u	u--------	_	6	AuxX	_	t_2045|t_2044|ref=Aetia_5.3
+8	ὥς	ὡς	c	c--------	_	6	AuxC	_	t_2046|t_2044|ref=Aetia_5.3
+9	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	AuxY	_	t_2047|t_2046|ref=Aetia_5.3
+10	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_2048|t_2047|ref=Aetia_5.3
+11	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_2049|t_2047|ref=Aetia_5.3
+12	Αἰτίοις	αἴτιος	n	n-p---md-	Case=d|Gender=m|Number=p	11	ADV	_	t_2050|t_2049|ref=Aetia_5.3
+13	.	.	u	u--------	_	6	AuxK	_	t_2051|t_2044|ref=Aetia_5.3
 
 # source = Callimachus, Aetia_5.4
+# text = καταπεσόντος δὲ τοῦ παιδὸς τὸ ὑποκείμενον πέλαγος Ἰκάριον μετωνομάσθη . . .
+# sent_id = 154
+1	καταπεσόντος	καταπίπτω	v	v-sapamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	9	ADV	_	t_2052|t_2060|ref=Aetia_5.4
+2	δὲ	δέ	d	d--------	_	9	AuxY	_	t_2053|t_2060|ref=Aetia_5.4
+3	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	4	ATR	_	t_2054|t_2055|ref=Aetia_5.4
+4	παιδὸς	παῖς	n	n-s---mg-	Case=g|Gender=m|Number=s	1	SBJ	_	t_2055|t_2052|ref=Aetia_5.4
+5	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_2056|t_2058|ref=Aetia_5.4
+6	ὑποκείμενον	ὑπόκειμαι	v	v-sppenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=e	7	ATR	_	t_2057|t_2058|ref=Aetia_5.4
+7	πέλαγος	πέλαγος	n	n-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_2058|t_2060|ref=Aetia_5.4
+8	Ἰκάριον	ἰκάριος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_2059|t_2058|ref=Aetia_5.4
+9	μετωνομάσθη	μετονομάζω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	0	PRED	_	t_2060|0|ref=Aetia_5.4
+10	.	.	u	u--------	_	9	AuxK	_	t_2061|t_2060|ref=Aetia_5.4
+11	.	.	u	u--------	_	9	AuxK	_	t_2062|t_2060|ref=Aetia_5.4
+12	.	.	u	u--------	_	9	AuxK	_	t_2063|t_2060|ref=Aetia_5.4
+
+# source = Callimachus, Aetia_5.4
+# text = ἱστορεῖ . . .
+# sent_id = 155
+1	ἱστορεῖ	ἱστορέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_2064|0|ref=Aetia_5.4
+2	.	.	u	u--------	_	1	AuxK	_	t_2065|t_2064|ref=Aetia_5.4
+3	.	.	u	u--------	_	1	AuxK	_	t_2066|t_2064|ref=Aetia_5.4
+4	.	.	u	u--------	_	1	AuxK	_	t_2067|t_2064|ref=Aetia_5.4
+
+# source = Callimachus, Aetia_5.4
+# text = Καλλίμαχος ἐν Αἰτίοις [0] .
+# sent_id = 156
+1	Καλλίμαχος	καλλίμαχος	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_2068|e_54|ref=Aetia_5.4
+2	ἐν	ἐν	r	r--------	_	4	AuxP	_	t_2069|e_54|ref=Aetia_5.4
+3	Αἰτίοις	αἴτιος	n	n-p---nd-	Case=d|Gender=n|Number=p	2	ADV	_	t_2070|t_2069|ref=Aetia_5.4
+4	[0]	[0]	-	---------	_	0	PRED	_	e_54|0|ref=Aetia_5.4
+5	.	.	u	u--------	_	4	AuxK	_	t_2071|e_54|ref=Aetia_5.4
+
+# source = Callimachus, Aetia_5.5
+# text = Probus on Molorchi mentio est apud Callimachum in Αἰτίων libris .
+# sent_id = 157
+1	Probus	probus	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2072|t_2076|ref=Aetia_5.5
+2	on	on	d	d--------	_	4	ADV	_	t_2073|t_2075|ref=Aetia_5.5
+3	Molorchi	molorchi	n	n-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_2074|t_2075|ref=Aetia_5.5
+4	mentio	mentio	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_2075|0|ref=Aetia_5.5
+5	est	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	4	PRED	_	t_2076|t_2075|ref=Aetia_5.5
+6	apud	ἐπί	d	d--------	_	5	ADV	_	t_2077|t_2076|ref=Aetia_5.5
+7	Callimachum	callimachος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_2078|t_2076|ref=Aetia_5.5
+8	in	εἰς	r	r--------	_	4	AuxP	_	t_2079|t_2075|ref=Aetia_5.5
+9	Αἰτίων	αἴτιος	a	a-p---mg-	Case=g|Gender=m|Number=p	10	ATR	_	t_2080|t_2081|ref=Aetia_5.5
+10	libris	libris	n	n-p---nd-	Case=d|Gender=n|Number=p	8	ADV	_	t_2081|t_2079|ref=Aetia_5.5
+11	.	.	u	u--------	_	4	AuxK	_	t_2082|t_2075|ref=Aetia_5.5
+
+# source = Callimachus, Aetia_5.6
+# text = Servius on Cur dextrae iungere dextram Non datur ] maiorum haec fuerat salutatio , cuius rei τὸ σἲτιον , i [0] .
+# sent_id = 158
+1	Servius	κρατύς	v	v2spia---	_	21	ADV	_	t_2083|e_55|ref=Aetia_5.6
+2	on	on	i	i--------	_	21	ExD	_	t_2084|e_55|ref=Aetia_5.6
+3	Cur	cur	d	d--------	_	21	ExD	_	t_2085|e_55|ref=Aetia_5.6
+4	dextrae	dextrae	i	i--------	_	6	ExD	_	t_2086|t_2088|ref=Aetia_5.6
+5	iungere	iωματόω	n	n-s---mv-	Case=v|Gender=m|Number=s	12	ExD	_	t_2087|t_2094|ref=Aetia_5.6
+6	dextram	dextram	n	n-s---fv-	Case=v|Gender=f|Number=s	12	ExD	_	t_2088|t_2094|ref=Aetia_5.6
+7	Non	οὐ	a	a-s---fn-	Case=v|Gender=f|Number=s	12	ExD	_	t_2089|t_2094|ref=Aetia_5.6
+8	datur	da	n	n-s---mv-	Case=n|Gender=f|Number=s	12	ExD	_	t_2090|t_2094|ref=Aetia_5.6
+9	]	]	u	u--------	_	21	AuxG	_	t_2091|e_55|ref=Aetia_5.6
+10	maiorum	maiorum	n	n-p---mg-	Case=g|Gender=m|Number=p	13	ATR	_	t_2092|t_2095|ref=Aetia_5.6
+11	haec	haec	a	a-s---fn-	Case=n|Gender=f|Number=s	13	ATR	_	t_2093|t_2095|ref=Aetia_5.6
+12	fuerat	fuerέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	ExD	_	t_2094|e_55|ref=Aetia_5.6
+13	salutatio	salutatio	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_2095|t_2094|ref=Aetia_5.6
+14	,	,	u	u--------	_	21	AuxX	_	t_2096|e_55|ref=Aetia_5.6
+15	cuius	cuius	p	p-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_2097|t_2098|ref=Aetia_5.6
+16	rei	rei	n	n-s---fn-	Case=n|Gender=n|Number=s	21	PNOM	_	t_2098|e_55|ref=Aetia_5.6
+17	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	18	ATR	_	t_2099|t_2100|ref=Aetia_5.6
+18	σἲτιον	σἴτιον	n	n-s---nn-	Case=n|Gender=n|Number=s	21	SBJ	_	t_2100|e_55|ref=Aetia_5.6
+19	,	,	u	u--------	_	21	AuxX	_	t_2101|e_55|ref=Aetia_5.6
+20	i	εἰ	d	d--------	_	12	SBJ	_	t_2102|t_2094|ref=Aetia_5.6
+21	[0]	[0]	-	---------	_	0	PRED	_	e_55|0|ref=Aetia_5.6
+22	.	.	u	u--------	_	21	AuxK	_	t_2103|e_55|ref=Aetia_5.6
+
+# source = Callimachus, Aetia_5.6
+# text = e .
+# sent_id = 159
+1	e	e	i	i--------	_	0	ExD	_	t_2104|0|ref=Aetia_5.6
+2	.	.	u	u--------	_	1	AuxK	_	t_2105|t_2104|ref=Aetia_5.6
+
+# source = Callimachus, Aetia_5.6
 # text = causam , Varro Callimachum sequutus exposuit , asserens omnem eorum honorem dextrarum constitisse virtute .
 # sent_id = 160
-1	causam	ἐπίπονος	d	d--------	_	6	AuxY	_	t_2106|t_2111|ref=Aetia_5.4
-2	,	,	u	u--------	_	6	AuxX	_	t_2107|t_2111|ref=Aetia_5.4
-3	Varro	varro	n	n-s---ma-	Case=v|Gender=m|Number=s	6	SBJ	_	t_2108|t_2111|ref=Aetia_5.4
-4	Callimachum	callimachος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_2109|t_2111|ref=Aetia_5.4
-5	sequutus	sequutος	n	n-s---fn-	Case=g|Gender=f|Number=s	6	OBJ	_	t_2110|t_2111|ref=Aetia_5.4
-6	exposuit	ἐκθεάομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_2111|0|ref=Aetia_5.4
-7	,	,	u	u--------	_	8	AuxX	_	t_2112|t_2113|ref=Aetia_5.4
-8	asserens	ἀνθημέρου	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_2113|t_2118|ref=Aetia_5.4
-9	omnem	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2114|t_2116|ref=Aetia_5.4
-10	eorum	eorum	p	p-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_2115|t_2116|ref=Aetia_5.4
-11	honorem	honorem	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_2116|t_2113|ref=Aetia_5.4
-12	dextrarum	dextrarum	l	l-s---fd-	_	13	OBJ	_	t_2117|t_2118|ref=Aetia_5.4
-13	constitisse	constitέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	OBJ	_	t_2118|t_2111|ref=Aetia_5.4
-14	virtute	virtuις	a	a-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_2119|t_2118|ref=Aetia_5.4
-15	.	.	u	u--------	_	6	AuxK	_	t_2120|t_2111|ref=Aetia_5.4
+1	causam	ἐπίπονος	d	d--------	_	6	AuxY	_	t_2106|t_2111|ref=Aetia_5.6
+2	,	,	u	u--------	_	6	AuxX	_	t_2107|t_2111|ref=Aetia_5.6
+3	Varro	varro	n	n-s---ma-	Case=v|Gender=m|Number=s	6	SBJ	_	t_2108|t_2111|ref=Aetia_5.6
+4	Callimachum	callimachος	n	n-s---ma-	Case=a|Gender=m|Number=s	6	OBJ	_	t_2109|t_2111|ref=Aetia_5.6
+5	sequutus	sequutος	n	n-s---fn-	Case=g|Gender=f|Number=s	6	OBJ	_	t_2110|t_2111|ref=Aetia_5.6
+6	exposuit	ἐκθεάομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_2111|0|ref=Aetia_5.6
+7	,	,	u	u--------	_	8	AuxX	_	t_2112|t_2113|ref=Aetia_5.6
+8	asserens	ἀνθημέρου	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	13	ADV	_	t_2113|t_2118|ref=Aetia_5.6
+9	omnem	πᾶς	a	a-s---fa-	Case=a|Gender=f|Number=s	11	ATR	_	t_2114|t_2116|ref=Aetia_5.6
+10	eorum	eorum	p	p-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_2115|t_2116|ref=Aetia_5.6
+11	honorem	honorem	n	n-s---fa-	Case=a|Gender=f|Number=s	8	OBJ	_	t_2116|t_2113|ref=Aetia_5.6
+12	dextrarum	dextrarum	l	l-s---fd-	_	13	OBJ	_	t_2117|t_2118|ref=Aetia_5.6
+13	constitisse	constitέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	OBJ	_	t_2118|t_2111|ref=Aetia_5.6
+14	virtute	virtuις	a	a-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_2119|t_2118|ref=Aetia_5.6
+15	.	.	u	u--------	_	6	AuxK	_	t_2120|t_2111|ref=Aetia_5.6
 
-# source = Callimachus, Aetia_5.4-5.5
+# source = Callimachus, Aetia_5.6
 # text = Ob quam rem hac se venerabantur corporis parte .
 # sent_id = 161
-1	Ob	εἰ	d	d--------	_	6	AuxP	_	t_2121|t_2126|ref=Aetia_5.4
-2	quam	quam	p	p--------	_	6	AuxY	_	t_2122|t_2126|ref=Aetia_5.4
-3	rem	rem	g	g--------	_	4	AuxY	_	t_2123|t_2124|ref=Aetia_5.4
-4	hac	ὅς	d	d--------	_	6	ADV	_	t_2124|t_2126|ref=Aetia_5.2
-5	se	σύ	p	p-s---fa-	_	6	AuxY	_	t_2125|t_2126|ref=Aetia_5.4
-6	venerabantur	ἑτοιμάζω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_2126|0|ref=Aetia_5.5
-7	corporis	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_2127|t_2128|ref=Aetia_5.5
-8	parte	ὄγκος	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_2128|t_2126|ref=Aetia_5.5
-9	.	.	u	u--------	_	6	AuxK	_	t_2129|t_2126|ref=Aetia_5.5
+1	Ob	εἰ	d	d--------	_	6	AuxP	_	t_2121|t_2126|ref=Aetia_5.6
+2	quam	quam	p	p--------	_	6	AuxY	_	t_2122|t_2126|ref=Aetia_5.6
+3	rem	rem	g	g--------	_	4	AuxY	_	t_2123|t_2124|ref=Aetia_5.6
+4	hac	ὅς	d	d--------	_	6	ADV	_	t_2124|t_2126|ref=Aetia_5.6
+5	se	σύ	p	p-s---fa-	_	6	AuxY	_	t_2125|t_2126|ref=Aetia_5.6
+6	venerabantur	ἑτοιμάζω	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_2126|0|ref=Aetia_5.6
+7	corporis	αἷμα	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ATR	_	t_2127|t_2128|ref=Aetia_5.6
+8	parte	ὄγκος	n	n-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_2128|t_2126|ref=Aetia_5.6
+9	.	.	u	u--------	_	6	AuxK	_	t_2129|t_2126|ref=Aetia_5.6
 
-# source = Callimachus, Aetia_5.5-5.6
+# source = Callimachus, Aetia_5.7
 # text = sacerdos Apollinis Delii Anius fuit , ad quem quum venisset per noctem Thasus a canibus laniatus est , unde nullus canis Delon accedit auctore Callimacho .
 # sent_id = 162
-1	sacerdos	sacerdos	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_2130|t_2134|ref=Aetia_5.5
-2	Apollinis	apollinis	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2131|t_2130|ref=Aetia_5.5
-3	Delii	delii	n	n-s---mg-	_	1	ATR	_	t_2132|t_2130|ref=Aetia_5.5
-4	Anius	anius	n	n-s---mg-	Case=g|Gender=m|Number=s	5	PNOM	_	t_2133|t_2134|ref=Aetia_5.5
-5	fuit	fuέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_2134|0|ref=Aetia_5.5
-6	,	,	u	u--------	_	5	AuxX	_	t_2135|t_2134|ref=Aetia_5.5
-7	ad	ad	d	d--------	_	5	SBJ	_	t_2136|t_2134|ref=Aetia_5.5
-8	quem	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_2137|t_2139|ref=Aetia_5.6
-9	quum	ὅστις	d	d--------	_	10	OBJ	_	t_2138|t_2139|ref=Aetia_5.6
-10	venisset	ἀσπάζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	ATR	_	t_2139|t_2131|ref=Aetia_5.6
-11	per	εἰς	d	d--------	_	5	SBJ	_	t_2140|t_2134|ref=Aetia_5.6
-12	noctem	nocte	d	d--------	_	10	ADV	_	t_2141|t_2139|ref=Aetia_5.6
-13	Thasus	thasus	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_2142|t_2139|ref=Aetia_5.6
-14	a	a	r	r--------	_	10	AuxP	_	t_2143|t_2139|ref=Aetia_5.6
-15	canibus	canις	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_2144|t_2143|ref=Aetia_5.6
-16	laniatus	laniatus	d	d--------	_	17	ADV	_	t_2145|t_2146|ref=Aetia_5.6
-17	est	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_2146|t_2134|ref=Aetia_5.6
-18	,	,	u	u--------	_	23	AuxX	_	t_2147|t_2152|ref=Aetia_5.6
-19	unde	καίω	d	d--------	_	23	ADV	_	t_2148|t_2152|ref=Aetia_5.6
-20	nullus	μηδείς	a	a-s---mn-	Case=n|Gender=m|Number=s	25	ATR	_	t_2149|t_2154|ref=Aetia_5.6
-21	canis	canis	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_2150|t_2152|ref=Aetia_5.6
-22	Delon	delon	n	n-s---fa-	Case=n|Gender=m|Number=s	23	OBJ	_	t_2151|t_2152|ref=Aetia_5.6
-23	accedit	acciδοτέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_2152|t_2134|ref=Aetia_5.6
-24	auctore	auctor	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_2153|t_2152|ref=Aetia_5.6
-25	Callimacho	callimachoς	n	n-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_2154|t_2152|ref=Aetia_5.6
-26	.	.	u	u--------	_	5	AuxK	_	t_2155|t_2134|ref=Aetia_5.6
+1	sacerdos	sacerdos	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_2130|t_2134|ref=Aetia_5.7
+2	Apollinis	apollinis	n	n-s---mg-	Case=g|Gender=m|Number=s	1	ATR	_	t_2131|t_2130|ref=Aetia_5.7
+3	Delii	delii	n	n-s---mg-	_	1	ATR	_	t_2132|t_2130|ref=Aetia_5.7
+4	Anius	anius	n	n-s---mg-	Case=g|Gender=m|Number=s	5	PNOM	_	t_2133|t_2134|ref=Aetia_5.7
+5	fuit	fuέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_2134|0|ref=Aetia_5.7
+6	,	,	u	u--------	_	5	AuxX	_	t_2135|t_2134|ref=Aetia_5.7
+7	ad	ad	d	d--------	_	5	SBJ	_	t_2136|t_2134|ref=Aetia_5.7
+8	quem	ὅς	p	p-s---ma-	Case=a|Gender=m|Number=s	10	OBJ	_	t_2137|t_2139|ref=Aetia_5.7
+9	quum	ὅστις	d	d--------	_	10	OBJ	_	t_2138|t_2139|ref=Aetia_5.7
+10	venisset	ἀσπάζομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	ATR	_	t_2139|t_2131|ref=Aetia_5.7
+11	per	εἰς	d	d--------	_	5	SBJ	_	t_2140|t_2134|ref=Aetia_5.7
+12	noctem	nocte	d	d--------	_	10	ADV	_	t_2141|t_2139|ref=Aetia_5.7
+13	Thasus	thasus	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_2142|t_2139|ref=Aetia_5.7
+14	a	a	r	r--------	_	10	AuxP	_	t_2143|t_2139|ref=Aetia_5.7
+15	canibus	canις	n	n-p---mg-	Case=g|Gender=m|Number=p	14	ADV	_	t_2144|t_2143|ref=Aetia_5.7
+16	laniatus	laniatus	d	d--------	_	17	ADV	_	t_2145|t_2146|ref=Aetia_5.7
+17	est	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_2146|t_2134|ref=Aetia_5.7
+18	,	,	u	u--------	_	23	AuxX	_	t_2147|t_2152|ref=Aetia_5.7
+19	unde	καίω	d	d--------	_	23	ADV	_	t_2148|t_2152|ref=Aetia_5.7
+20	nullus	μηδείς	a	a-s---mn-	Case=n|Gender=m|Number=s	25	ATR	_	t_2149|t_2154|ref=Aetia_5.7
+21	canis	canis	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_2150|t_2152|ref=Aetia_5.7
+22	Delon	delon	n	n-s---fa-	Case=n|Gender=m|Number=s	23	OBJ	_	t_2151|t_2152|ref=Aetia_5.7
+23	accedit	acciδοτέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	5	PRED	_	t_2152|t_2134|ref=Aetia_5.7
+24	auctore	auctor	n	n-s---mn-	Case=n|Gender=m|Number=s	23	SBJ	_	t_2153|t_2152|ref=Aetia_5.7
+25	Callimacho	callimachoς	n	n-s---fn-	Case=n|Gender=f|Number=s	23	SBJ	_	t_2154|t_2152|ref=Aetia_5.7
+26	.	.	u	u--------	_	5	AuxK	_	t_2155|t_2134|ref=Aetia_5.7
 

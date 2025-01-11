@@ -45,7 +45,7 @@
 4	φίλημα	φίλημα	n	n-s---nn-	Case=n|Gender=n|Number=s	7	PNOM	_	t_30|e_1|ref=Eros_4
 5	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	4	ATR	_	t_31|t_30|ref=Eros_4
 6	Κύπριδος	κύπρις	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ATR	_	t_32|t_30|ref=Eros_4
-7	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Eros_1
+7	[0]	[0]	-	---------	_	0	PRED	_	e_1|0|ref=Eros_4
 8	·	·	u	u--------	_	7	AuxK	_	t_33|e_1|ref=Eros_4
 
 # source = Moschus, Eros_4-5
@@ -56,7 +56,7 @@
 3	ἀγάγῃ	ἄγω	v	v2sase---	Mood=s|Number=s|Person=2|Tense=a|Voice=e	1	ADV	_	t_36|t_34|ref=Eros_4
 4	νιν	νιν	p	p-s---ma-	Case=a|Gender=f|Number=s	3	OBJ	_	t_37|t_36|ref=Eros_4
 5	,	,	u	u--------	_	0	AuxX	_	t_38|0|ref=Eros_4
-6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_39|t_40|ref=Eros_4
+6	οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_39|t_40|ref=Eros_5
 7	γυμνὸν	γυμνός	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_40|t_42|ref=Eros_5
 8	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	9	ATR	_	t_41|t_42|ref=Eros_5
 9	φίλημα	φίλημα	n	n-s---na-	Case=a|Gender=n|Number=s	12	SBJ	_	t_42|t_45|ref=Eros_5
@@ -70,10 +70,10 @@
 17	ἑξεῖς	ἑξῆς	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	12	PRED	_	t_50|t_45|ref=Eros_5
 18	.	.	u	u--------	_	5	AuxK	_	t_51|t_38|ref=Eros_5
 
-# source = Moschus, Eros_5-6
+# source = Moschus, Eros_6
 # text = ἔστι δʼ ὁ παῖς περίσαμος ·
 # sent_id = 6
-1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_52|0|ref=Eros_5
+1	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_52|0|ref=Eros_6
 2	δʼ	δέ	d	d--------	_	1	AuxY	_	t_53|t_52|ref=Eros_6
 3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_54|t_55|ref=Eros_6
 4	παῖς	παῖς	n	n-s---mn-	Case=n|Gender=c|Number=s	1	SBJ	_	t_55|t_52|ref=Eros_6
@@ -90,10 +90,10 @@
 5	νιν	νιν	p	p-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_62|t_61|ref=Eros_6
 6	.	.	u	u--------	_	4	AuxK	_	t_63|t_61|ref=Eros_6
 
-# source = Moschus, Eros_6-7
+# source = Moschus, Eros_7
 # text = χρῶτα μὲν οὐ λεύκος , πυρὶ δʼ εἴκελος [0] [1] ·
 # sent_id = 8
-1	χρῶτα	χρώς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_64|e_2|ref=Eros_6
+1	χρῶτα	χρώς	n	n-s---ma-	Case=a|Gender=m|Number=s	9	ADV	_	t_64|e_2|ref=Eros_7
 2	μὲν	μέν	g	g--------	_	7	AuxY	_	t_65|t_70|ref=Eros_7
 3	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_66|e_2|ref=Eros_7
 4	λεύκος	λεύκος	a	a-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_67|e_2|ref=Eros_7
@@ -101,8 +101,8 @@
 6	πυρὶ	πῦρ	n	n-s---nd-	Case=d|Gender=n|Number=s	8	ATR	_	t_69|t_71|ref=Eros_7
 7	δʼ	δέ	g	g--------	_	0	COORD	_	t_70|0|ref=Eros_7
 8	εἴκελος	εἴκελος	a	a-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_71|e_3|ref=Eros_7
-9	[0]	[0]	-	---------	_	7	PRED	_	e_2|t_70|ref=Eros_1
-10	[1]	[1]	-	---------	_	7	PRED	_	e_3|t_70|ref=Eros_1
+9	[0]	[0]	-	---------	_	7	PRED	_	e_2|t_70|ref=Eros_7
+10	[1]	[1]	-	---------	_	7	PRED	_	e_3|t_70|ref=Eros_7
 11	·	·	u	u--------	_	7	AuxK	_	t_72|t_70|ref=Eros_7
 
 # source = Moschus, Eros_7-8
@@ -111,10 +111,10 @@
 1	ὄμματα	ὄμμα	n	n-p---nn-	Case=n|Gender=n|Number=p	7	SBJ	_	t_73|e_4|ref=Eros_7
 2	δʼ	δέ	g	g--------	_	0	COORD	_	t_74|0|ref=Eros_7
 3	αὐτῷ	αὐτός	a	a-s---md-	Case=d|Gender=m|Number=s	1	ATR	_	t_75|t_73|ref=Eros_7
-4	δριμύλα	δριμύλος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_76|t_77|ref=Eros_7
-5	καὶ	καί	c	c--------	_	7	COORD	_	t_77|e_4|ref=Eros_7
-6	φλογόεντα	φλογόεις	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_78|t_77|ref=Eros_7
-7	[0]	[0]	-	---------	_	2	PRED	_	e_4|t_74|ref=Eros_1
+4	δριμύλα	δριμύλος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_76|t_77|ref=Eros_8
+5	καὶ	καί	c	c--------	_	7	COORD	_	t_77|e_4|ref=Eros_8
+6	φλογόεντα	φλογόεις	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_78|t_77|ref=Eros_8
+7	[0]	[0]	-	---------	_	2	PRED	_	e_4|t_74|ref=Eros_8
 8	·	·	u	u--------	_	2	AuxK	_	t_79|t_74|ref=Eros_8
 
 # source = Moschus, Eros_8
@@ -122,20 +122,20 @@
 # sent_id = 10
 1	κακαὶ	κακός	a	a-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_80|t_81|ref=Eros_8
 2	φρένες	φρήν	n	n-p---fn-	Case=n|Gender=f|Number=p	6	ExD	_	t_81|e_5|ref=Eros_8
-3	,	,	u	u--------	_	6	APOS	_	t_82|e_5|ref=Eros_7
+3	,	,	u	u--------	_	6	APOS	_	t_82|e_5|ref=Eros_8
 4	ἁδὺ	ἡδύς	a	a-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_83|t_84|ref=Eros_8
 5	λάλημα	λάλημα	n	n-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_84|e_5|ref=Eros_8
-6	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Eros_1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=Eros_8
 7	·	·	u	u--------	_	6	AuxK	_	t_85|e_5|ref=Eros_8
 
-# source = Moschus, Eros_8-9
+# source = Moschus, Eros_9
 # text = οὐ γὰρ ἴσον νοέει καὶ φθέγγεται ·
 # sent_id = 11
-1	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_86|t_90|ref=Eros_8
-2	γὰρ	γάρ	g	g--------	_	0	COORD	_	t_87|0|ref=Eros_8
-3	ἴσον	ἴσος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_88|t_90|ref=Eros_8
-4	νοέει	νοέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_89|t_90|ref=Eros_8
-5	καὶ	καί	c	c--------	_	2	COORD	_	t_90|t_87|ref=Eros_8
+1	οὐ	οὐ	d	d--------	_	5	AuxZ	_	t_86|t_90|ref=Eros_9
+2	γὰρ	γάρ	g	g--------	_	0	COORD	_	t_87|0|ref=Eros_9
+3	ἴσον	ἴσος	a	a-s---na-	Case=a|Gender=n|Number=s	5	ADV	_	t_88|t_90|ref=Eros_9
+4	νοέει	νοέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	PRED	_	t_89|t_90|ref=Eros_9
+5	καὶ	καί	c	c--------	_	2	COORD	_	t_90|t_87|ref=Eros_9
 6	φθέγγεται	φθέγγομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	5	PRED	_	t_91|t_90|ref=Eros_9
 7	·	·	u	u--------	_	2	AuxK	_	t_92|t_87|ref=Eros_9
 
@@ -146,13 +146,13 @@
 2	μέλι	μέλι	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_94|e_6|ref=Eros_9
 3	φωνά	φωνή	n	n-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_95|e_6|ref=Eros_9
 4	,	,	u	u--------	_	6	AuxX	_	t_96|t_98|ref=Eros_9
-5	ὡς	ὡς	d	d--------	_	6	AuxC	_	t_97|t_98|ref=Eros_9
-6	δὲ	δέ	g	g--------	_	0	COORD	_	t_98|0|ref=Eros_9
-7	χολὰ	χολή	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_99|t_101|ref=Eros_9
-8	νόος	νόος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_100|t_101|ref=Eros_9
-9	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_101|t_97|ref=Eros_9
-10	[0]	[0]	-	---------	_	6	PRED	_	e_6|t_98|ref=Eros_1
-11	[1]	[1]	-	---------	_	1	ADV	_	e_7|t_93|ref=Eros_1
+5	ὡς	ὡς	d	d--------	_	6	AuxC	_	t_97|t_98|ref=Eros_10
+6	δὲ	δέ	g	g--------	_	0	COORD	_	t_98|0|ref=Eros_10
+7	χολὰ	χολή	n	n-s---fn-	Case=n|Gender=f|Number=s	9	SBJ	_	t_99|t_101|ref=Eros_10
+8	νόος	νόος	n	n-s---mn-	Case=n|Gender=m|Number=s	9	PNOM	_	t_100|t_101|ref=Eros_10
+9	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	5	ADV	_	t_101|t_97|ref=Eros_10
+10	[0]	[0]	-	---------	_	6	PRED	_	e_6|t_98|ref=Eros_10
+11	[1]	[1]	-	---------	_	1	ADV	_	e_7|t_93|ref=Eros_10
 12	·	·	u	u--------	_	6	AuxK	_	t_102|t_98|ref=Eros_10
 
 # source = Moschus, Eros_10-11
@@ -162,275 +162,275 @@
 2	,	,	u	u--------	_	10	AuxX	_	t_104|t_112|ref=Eros_10
 3	ἠπεροπευτάς	ἠπεροπευτής	n	n-s---mn-	Case=n|Gender=m|Number=s	10	PNOM	_	t_105|t_112|ref=Eros_10
 4	,	,	u	u--------	_	10	AuxX	_	t_106|t_112|ref=Eros_10
-5	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_107|t_108|ref=Eros_10
-6	ἀλαθεύων	ἀλαθέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	SBJ	_	t_108|t_112|ref=Eros_10
-7	,	,	u	u--------	_	13	AuxX	_	t_109|e_8|ref=Eros_10
-8	δόλιον	δόλιος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_110|t_111|ref=Eros_10
-9	βρέφος	βρέφος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_111|t_112|ref=Eros_10
-10	,	,	u	u--------	_	13	COORD	_	t_112|e_8|ref=Eros_10
-11	ἄγρια	ἄγριος	a	a-p---nn-	Case=n|Gender=n|Number=p	10	PNOM	_	t_113|t_112|ref=Eros_10
+5	οὐδὲν	οὐδείς	p	p-s---na-	Case=a|Gender=n|Number=s	6	OBJ	_	t_107|t_108|ref=Eros_11
+6	ἀλαθεύων	ἀλαθέω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	10	SBJ	_	t_108|t_112|ref=Eros_11
+7	,	,	u	u--------	_	13	AuxX	_	t_109|e_8|ref=Eros_11
+8	δόλιον	δόλιος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	ATR	_	t_110|t_111|ref=Eros_11
+9	βρέφος	βρέφος	n	n-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_111|t_112|ref=Eros_11
+10	,	,	u	u--------	_	13	COORD	_	t_112|e_8|ref=Eros_11
+11	ἄγρια	ἄγριος	a	a-p---nn-	Case=n|Gender=n|Number=p	10	PNOM	_	t_113|t_112|ref=Eros_11
 12	παίσδων	παίς	n	n-p---mg-	Case=g|Gender=m|Number=p	11	ATR	_	t_114|t_113|ref=Eros_11
-13	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Eros_1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=Eros_11
 14	.	.	u	u--------	_	13	AuxK	_	t_115|e_8|ref=Eros_11
 
-# source = Moschus, Eros_11-12
+# source = Moschus, Eros_12
 # text = εὐπλόκαμον τὸ κάρανον , ἔχει δʼ ἰταμὸν τὸ μέτωπον [0] .
 # sent_id = 14
-1	εὐπλόκαμον	εὐπλόκαμος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_116|e_9|ref=Eros_11
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_117|t_118|ref=Eros_11
-3	κάρανον	κάρανον	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_118|e_9|ref=Eros_11
-4	,	,	u	u--------	_	0	AuxX	_	t_119|0|ref=Eros_11
-5	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_120|t_121|ref=Eros_11
-6	δʼ	δέ	g	g--------	_	4	COORD	_	t_121|t_119|ref=Eros_11
-7	ἰταμὸν	ἰταμός	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_122|t_124|ref=Eros_11
-8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_123|t_124|ref=Eros_11
+1	εὐπλόκαμον	εὐπλόκαμος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_116|e_9|ref=Eros_12
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_117|t_118|ref=Eros_12
+3	κάρανον	κάρανον	n	n-s---nn-	Case=n|Gender=n|Number=s	10	SBJ	_	t_118|e_9|ref=Eros_12
+4	,	,	u	u--------	_	0	AuxX	_	t_119|0|ref=Eros_12
+5	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	PRED	_	t_120|t_121|ref=Eros_12
+6	δʼ	δέ	g	g--------	_	4	COORD	_	t_121|t_119|ref=Eros_12
+7	ἰταμὸν	ἰταμός	a	a-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_122|t_124|ref=Eros_12
+8	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	9	ATR	_	t_123|t_124|ref=Eros_12
 9	μέτωπον	μέτωπον	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_124|t_120|ref=Eros_12
-10	[0]	[0]	-	---------	_	6	PRED	_	e_9|t_121|ref=Eros_1
+10	[0]	[0]	-	---------	_	6	PRED	_	e_9|t_121|ref=Eros_12
 11	.	.	u	u--------	_	4	AuxK	_	t_125|t_119|ref=Eros_12
 
-# source = Moschus, Eros_12-13
+# source = Moschus, Eros_13-14
 # text = μικκύλα μὲν τήνῳ τὰ χερύδρια , μακρὰ δὲ βάλλει , βάλλει κ εἰς Ἀχέροντα καὶ εἰς Ἀΐδα βασίλεια .
 # sent_id = 15
-1	μικκύλα	μικκύλος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_126|t_133|ref=Eros_12
-2	μὲν	μέν	g	g--------	_	8	AuxY	_	t_127|t_133|ref=Eros_12
-3	τήνῳ	ἐκεῖνος	p	p-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_128|t_126|ref=Eros_12
-4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_129|t_130|ref=Eros_12
-5	χερύδρια	χερύδριον	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_130|t_136|ref=Eros_12
-6	,	,	u	u--------	_	8	AuxX	_	t_131|t_133|ref=Eros_12
-7	μακρὰ	μακρός	a	a-p---nn-	Case=n|Gender=n|Number=p	9	PNOM	_	t_132|t_134|ref=Eros_12
-8	δὲ	δέ	g	g--------	_	5	COORD	_	t_133|t_130|ref=Eros_12
-9	βάλλει	βάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	ATR	_	t_134|t_133|ref=Eros_12
+1	μικκύλα	μικκύλος	a	a-p---nn-	Case=n|Gender=n|Number=p	8	ATR	_	t_126|t_133|ref=Eros_13
+2	μὲν	μέν	g	g--------	_	8	AuxY	_	t_127|t_133|ref=Eros_13
+3	τήνῳ	ἐκεῖνος	p	p-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_128|t_126|ref=Eros_13
+4	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	5	ATR	_	t_129|t_130|ref=Eros_13
+5	χερύδρια	χερύδριον	n	n-p---nn-	Case=n|Gender=n|Number=p	11	SBJ	_	t_130|t_136|ref=Eros_13
+6	,	,	u	u--------	_	8	AuxX	_	t_131|t_133|ref=Eros_13
+7	μακρὰ	μακρός	a	a-p---nn-	Case=n|Gender=n|Number=p	9	PNOM	_	t_132|t_134|ref=Eros_13
+8	δὲ	δέ	g	g--------	_	5	COORD	_	t_133|t_130|ref=Eros_13
+9	βάλλει	βάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	ATR	_	t_134|t_133|ref=Eros_13
 10	,	,	u	u--------	_	8	AuxX	_	t_135|t_133|ref=Eros_13
-11	βάλλει	βάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_136|0|ref=Eros_13
-12	κ	καί	d	d--------	_	15	AuxY	_	t_137|t_140|ref=Eros_13
-13	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_138|t_140|ref=Eros_13
-14	Ἀχέροντα	ἀχέρων	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_139|t_138|ref=Eros_13
-15	καὶ	καί	c	c--------	_	11	COORD	_	t_140|t_136|ref=Eros_13
-16	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_141|t_140|ref=Eros_13
-17	Ἀΐδα	ᾅδης	n	n-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_142|t_143|ref=Eros_13
-18	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	16	OBJ	_	t_143|t_141|ref=Eros_13
-19	.	.	u	u--------	_	11	AuxK	_	t_144|t_136|ref=Eros_13
+11	βάλλει	βάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_136|0|ref=Eros_14
+12	κ	καί	d	d--------	_	15	AuxY	_	t_137|t_140|ref=Eros_14
+13	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_138|t_140|ref=Eros_14
+14	Ἀχέροντα	ἀχέρων	n	n-s---ma-	Case=a|Gender=m|Number=s	13	OBJ	_	t_139|t_138|ref=Eros_14
+15	καὶ	καί	c	c--------	_	11	COORD	_	t_140|t_136|ref=Eros_14
+16	εἰς	εἰς	r	r--------	_	15	AuxP	_	t_141|t_140|ref=Eros_14
+17	Ἀΐδα	ᾅδης	n	n-s---fa-	Case=a|Gender=f|Number=s	18	ATR	_	t_142|t_143|ref=Eros_14
+18	βασίλεια	βασίλειον	n	n-s---fn-	Case=n|Gender=f|Number=s	16	OBJ	_	t_143|t_141|ref=Eros_14
+19	.	.	u	u--------	_	11	AuxK	_	t_144|t_136|ref=Eros_14
 
-# source = Moschus, Eros_14-15
+# source = Moschus, Eros_15
 # text = γυμνὸς ὅλος τό γε σῶμα , νόος δέ οἱ εὖ πεπύκασται [0] .
 # sent_id = 16
-1	γυμνὸς	γυμνός	a	a-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_145|e_10|ref=Eros_14
-2	ὅλος	ὅλος	a	a-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_146|t_149|ref=Eros_14
-3	τό	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_147|t_149|ref=Eros_14
-4	γε	γε	g	g--------	_	2	AuxZ	_	t_148|t_146|ref=Eros_14
-5	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	ADV	_	t_149|e_10|ref=Eros_14
-6	,	,	u	u--------	_	8	AuxX	_	t_150|t_152|ref=Eros_14
-7	νόος	νόος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_151|t_155|ref=Eros_14
-8	δέ	δέ	g	g--------	_	0	COORD	_	t_152|0|ref=Eros_14
-9	οἱ	ὁ	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_153|t_155|ref=Eros_14
+1	γυμνὸς	γυμνός	a	a-s---mn-	Case=n|Gender=m|Number=s	12	PNOM	_	t_145|e_10|ref=Eros_15
+2	ὅλος	ὅλος	a	a-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_146|t_149|ref=Eros_15
+3	τό	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_147|t_149|ref=Eros_15
+4	γε	γε	g	g--------	_	2	AuxZ	_	t_148|t_146|ref=Eros_15
+5	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	12	ADV	_	t_149|e_10|ref=Eros_15
+6	,	,	u	u--------	_	8	AuxX	_	t_150|t_152|ref=Eros_15
+7	νόος	νόος	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_151|t_155|ref=Eros_15
+8	δέ	δέ	g	g--------	_	0	COORD	_	t_152|0|ref=Eros_15
+9	οἱ	ὁ	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_153|t_155|ref=Eros_15
 10	εὖ	εὖ	d	d--------	_	11	ADV	_	t_154|t_155|ref=Eros_15
 11	πεπύκασται	πυκάζω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	8	PRED	_	t_155|t_152|ref=Eros_15
-12	[0]	[0]	-	---------	_	8	PRED	_	e_10|t_152|ref=Eros_2
+12	[0]	[0]	-	---------	_	8	PRED	_	e_10|t_152|ref=Eros_15
 13	.	.	u	u--------	_	8	AuxK	_	t_156|t_152|ref=Eros_15
 
-# source = Moschus, Eros_15-16
+# source = Moschus, Eros_16-17
 # text = καὶ πτερόεις ὡς ὄρνις ἐφίπταται ἄλλον ἐπʼ ἄλλῳ , ἀνέρας ἠδὲ γυναῖκας , ἐπὶ σπλάγχνοις δὲ κάθηται .
 # sent_id = 17
-1	καὶ	καί	c	c--------	_	0	COORD	_	t_157|0|ref=Eros_15
-2	πτερόεις	πτερόεις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	1	PRED	_	t_158|t_157|ref=Eros_15
-3	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_159|t_158|ref=Eros_15
-4	ὄρνις	ὄρνις	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_160|t_161|ref=Eros_15
-5	ἐφίπταται	ἐφίπταμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	OBJ	_	t_161|t_172|ref=Eros_15
-6	ἄλλον	ἄλλος	a	a-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_162|t_165|ref=Eros_15
-7	ἐπʼ	ἐπί	r	r--------	_	5	AuxP	_	t_163|t_161|ref=Eros_15
-8	ἄλλῳ	ἄλλος	a	a-s---nd-	Case=d|Gender=m|Number=s	7	OBJ	_	t_164|t_163|ref=Eros_15
-9	,	,	u	u--------	_	5	APOS	_	t_165|t_161|ref=Eros_15
-10	ἀνέρας	ἀνήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_166|t_167|ref=Eros_15
-11	ἠδὲ	ἠδέ	c	c--------	_	9	COORD	_	t_167|t_165|ref=Eros_16
-12	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_168|t_167|ref=Eros_16
-13	,	,	u	u--------	_	16	AuxX	_	t_169|t_172|ref=Eros_16
-14	ἐπὶ	ἐπί	r	r--------	_	17	AuxP	_	t_170|t_173|ref=Eros_16
-15	σπλάγχνοις	σπλάγχνον	n	n-p---nd-	Case=d|Gender=n|Number=p	14	OBJ	_	t_171|t_170|ref=Eros_16
-16	δὲ	δέ	g	g--------	_	1	COORD	_	t_172|t_157|ref=Eros_16
-17	κάθηται	κάθημαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	PRED	_	t_173|t_172|ref=Eros_16
-18	.	.	u	u--------	_	1	AuxK	_	t_174|t_157|ref=Eros_16
+1	καὶ	καί	c	c--------	_	0	COORD	_	t_157|0|ref=Eros_16
+2	πτερόεις	πτερόεις	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	1	PRED	_	t_158|t_157|ref=Eros_16
+3	ὡς	ὡς	c	c--------	_	2	AuxC	_	t_159|t_158|ref=Eros_16
+4	ὄρνις	ὄρνις	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_160|t_161|ref=Eros_16
+5	ἐφίπταται	ἐφίπταμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	OBJ	_	t_161|t_172|ref=Eros_16
+6	ἄλλον	ἄλλος	a	a-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_162|t_165|ref=Eros_16
+7	ἐπʼ	ἐπί	r	r--------	_	5	AuxP	_	t_163|t_161|ref=Eros_16
+8	ἄλλῳ	ἄλλος	a	a-s---nd-	Case=d|Gender=m|Number=s	7	OBJ	_	t_164|t_163|ref=Eros_16
+9	,	,	u	u--------	_	5	APOS	_	t_165|t_161|ref=Eros_16
+10	ἀνέρας	ἀνήρ	n	n-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_166|t_167|ref=Eros_17
+11	ἠδὲ	ἠδέ	c	c--------	_	9	COORD	_	t_167|t_165|ref=Eros_17
+12	γυναῖκας	γυνή	n	n-p---fa-	Case=a|Gender=f|Number=p	11	OBJ	_	t_168|t_167|ref=Eros_17
+13	,	,	u	u--------	_	16	AuxX	_	t_169|t_172|ref=Eros_17
+14	ἐπὶ	ἐπί	r	r--------	_	17	AuxP	_	t_170|t_173|ref=Eros_17
+15	σπλάγχνοις	σπλάγχνον	n	n-p---nd-	Case=d|Gender=n|Number=p	14	OBJ	_	t_171|t_170|ref=Eros_17
+16	δὲ	δέ	g	g--------	_	1	COORD	_	t_172|t_157|ref=Eros_17
+17	κάθηται	κάθημαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	16	PRED	_	t_173|t_172|ref=Eros_17
+18	.	.	u	u--------	_	1	AuxK	_	t_174|t_157|ref=Eros_17
 
-# source = Moschus, Eros_16-19
+# source = Moschus, Eros_18-19
 # text = τόξον ἔχει μάλα βαιόν , ὑπὲρ τόξω δὲ βέλεμνον , τυτθὸν μὲν τὸ βέλεμνον , ἐς αἰθέρα δʼ ἄχρι φορεῖται [0] .
 # sent_id = 18
-1	τόξον	τόξον	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_175|t_176|ref=Eros_16
-2	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	PRED	_	t_176|t_192|ref=Eros_17
-3	μάλα	μάλα	d	d--------	_	4	ADV	_	t_177|t_178|ref=Eros_17
-4	βαιόν	βαιός	a	a-s---na-	Case=a|Gender=n|Number=s	1	ATR	_	t_178|t_175|ref=Eros_17
-5	,	,	u	u--------	_	0	AuxX	_	t_179|0|ref=Eros_17
-6	ὑπὲρ	ὑπέρ	r	r--------	_	21	AuxP	_	t_180|e_11|ref=Eros_17
-7	τόξω	τόξω	n	n-s---fd-	Case=d|Gender=n|Number=s	6	ADV	_	t_181|t_180|ref=Eros_17
-8	δὲ	δέ	g	g--------	_	18	COORD	_	t_182|t_192|ref=Eros_17
-9	βέλεμνον	βέλεμνον	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_183|t_182|ref=Eros_17
-10	,	,	u	u--------	_	5	AuxX	_	t_184|t_179|ref=Eros_17
-11	τυτθὸν	τυτθός	a	a-s---na-	Case=a|Gender=n|Number=s	21	PNOM	_	t_185|e_11|ref=Eros_18
-12	μὲν	μέν	d	d--------	_	18	AuxY	_	t_186|t_192|ref=Eros_18
-13	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	14	ATR	_	t_187|t_188|ref=Eros_18
-14	βέλεμνον	βέλεμνον	n	n-s---na-	Case=a|Gender=n|Number=s	21	SBJ	_	t_188|e_11|ref=Eros_18
-15	,	,	u	u--------	_	5	AuxX	_	t_189|t_179|ref=Eros_18
-16	ἐς	εἰς	r	r--------	_	20	AuxP	_	t_190|t_194|ref=Eros_18
-17	αἰθέρα	αἰθήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_191|t_190|ref=Eros_18
-18	δʼ	δέ	g	g--------	_	5	COORD	_	t_192|t_179|ref=Eros_18
-19	ἄχρι	ἄχρι	r	r--------	_	20	AuxP	_	t_193|t_194|ref=Eros_18
-20	φορεῖται	φορέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	18	PRED	_	t_194|t_192|ref=Eros_18
-21	[0]	[0]	-	---------	_	18	PRED	_	e_11|t_192|ref=Eros_2
+1	τόξον	τόξον	n	n-s---na-	Case=a|Gender=n|Number=s	2	OBJ	_	t_175|t_176|ref=Eros_18
+2	ἔχει	ἔχω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	PRED	_	t_176|t_192|ref=Eros_18
+3	μάλα	μάλα	d	d--------	_	4	ADV	_	t_177|t_178|ref=Eros_18
+4	βαιόν	βαιός	a	a-s---na-	Case=a|Gender=n|Number=s	1	ATR	_	t_178|t_175|ref=Eros_18
+5	,	,	u	u--------	_	0	AuxX	_	t_179|0|ref=Eros_18
+6	ὑπὲρ	ὑπέρ	r	r--------	_	21	AuxP	_	t_180|e_11|ref=Eros_18
+7	τόξω	τόξω	n	n-s---fd-	Case=d|Gender=n|Number=s	6	ADV	_	t_181|t_180|ref=Eros_18
+8	δὲ	δέ	g	g--------	_	18	COORD	_	t_182|t_192|ref=Eros_18
+9	βέλεμνον	βέλεμνον	n	n-s---na-	Case=a|Gender=n|Number=s	8	OBJ	_	t_183|t_182|ref=Eros_18
+10	,	,	u	u--------	_	5	AuxX	_	t_184|t_179|ref=Eros_18
+11	τυτθὸν	τυτθός	a	a-s---na-	Case=a|Gender=n|Number=s	21	PNOM	_	t_185|e_11|ref=Eros_19
+12	μὲν	μέν	d	d--------	_	18	AuxY	_	t_186|t_192|ref=Eros_19
+13	τὸ	ὁ	l	l-s---nn-	Case=a|Gender=n|Number=s	14	ATR	_	t_187|t_188|ref=Eros_19
+14	βέλεμνον	βέλεμνον	n	n-s---na-	Case=a|Gender=n|Number=s	21	SBJ	_	t_188|e_11|ref=Eros_19
+15	,	,	u	u--------	_	5	AuxX	_	t_189|t_179|ref=Eros_19
+16	ἐς	εἰς	r	r--------	_	20	AuxP	_	t_190|t_194|ref=Eros_19
+17	αἰθέρα	αἰθήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_191|t_190|ref=Eros_19
+18	δʼ	δέ	g	g--------	_	5	COORD	_	t_192|t_179|ref=Eros_19
+19	ἄχρι	ἄχρι	r	r--------	_	20	AuxP	_	t_193|t_194|ref=Eros_19
+20	φορεῖται	φορέω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	18	PRED	_	t_194|t_192|ref=Eros_19
+21	[0]	[0]	-	---------	_	18	PRED	_	e_11|t_192|ref=Eros_19
 22	.	.	u	u--------	_	5	AuxK	_	t_195|t_179|ref=Eros_19
 
-# source = Moschus, Eros_19-20
+# source = Moschus, Eros_20-21
 # text = καὶ χρύσεον περὶ νῶτα φαρέτριον , ἔνδοθι δʼ ἐντὶ τοὶ πικροὶ κάλαμοι , τοῖς πολλάκι κ ἀμὲ τιτρώσκει [0] .
 # sent_id = 19
-1	καὶ	καί	c	c--------	_	0	COORD	_	t_196|0|ref=Eros_19
-2	χρύσεον	χρύσεος	a	a-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_197|t_200|ref=Eros_19
-3	περὶ	περί	r	r--------	_	19	AuxP	_	t_198|e_12|ref=Eros_19
-4	νῶτα	νῶτον	n	n-p---na-	Case=a|Gender=n|Number=p	3	ADV	_	t_199|t_198|ref=Eros_19
-5	φαρέτριον	φαρέτριον	n	n-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_200|e_12|ref=Eros_19
-6	,	,	u	u--------	_	8	AuxX	_	t_201|t_203|ref=Eros_19
-7	ἔνδοθι	ἔνδοθι	d	d--------	_	19	ADV	_	t_202|e_12|ref=Eros_19
-8	δʼ	δέ	g	g--------	_	1	COORD	_	t_203|t_196|ref=Eros_19
-9	ἐντὶ	ἐντί	r	r--------	_	19	AuxZ	_	t_204|e_12|ref=Eros_19
-10	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_205|t_207|ref=Eros_18
-11	πικροὶ	πικρός	a	a-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_206|t_207|ref=Eros_19
-12	κάλαμοι	κάλαμος	n	n-p---mn-	Case=n|Gender=m|Number=p	19	SBJ	_	t_207|e_12|ref=Eros_20
-13	,	,	u	u--------	_	18	AuxX	_	t_208|t_213|ref=Eros_20
-14	τοῖς	ὁ	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_209|t_213|ref=Eros_20
-15	πολλάκι	πολλάκις	d	d--------	_	18	ADV	_	t_210|t_213|ref=Eros_20
-16	κ	καί	d	d--------	_	17	AuxZ	_	t_211|t_212|ref=Eros_20
-17	ἀμὲ	ἐγώ	p	p-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_212|t_213|ref=Eros_20
-18	τιτρώσκει	τιτρώσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	ATR	_	t_213|t_207|ref=Eros_20
-19	[0]	[0]	-	---------	_	8	PRED	_	e_12|t_203|ref=Eros_2
-20	.	.	u	u--------	_	1	AuxK	_	t_214|t_196|ref=Eros_20
+1	καὶ	καί	c	c--------	_	0	COORD	_	t_196|0|ref=Eros_20
+2	χρύσεον	χρύσεος	a	a-s---nn-	Case=n|Gender=n|Number=s	5	ATR	_	t_197|t_200|ref=Eros_20
+3	περὶ	περί	r	r--------	_	19	AuxP	_	t_198|e_12|ref=Eros_20
+4	νῶτα	νῶτον	n	n-p---na-	Case=a|Gender=n|Number=p	3	ADV	_	t_199|t_198|ref=Eros_20
+5	φαρέτριον	φαρέτριον	n	n-s---nn-	Case=n|Gender=n|Number=s	19	SBJ	_	t_200|e_12|ref=Eros_20
+6	,	,	u	u--------	_	8	AuxX	_	t_201|t_203|ref=Eros_20
+7	ἔνδοθι	ἔνδοθι	d	d--------	_	19	ADV	_	t_202|e_12|ref=Eros_20
+8	δʼ	δέ	g	g--------	_	1	COORD	_	t_203|t_196|ref=Eros_20
+9	ἐντὶ	ἐντί	r	r--------	_	19	AuxZ	_	t_204|e_12|ref=Eros_20
+10	τοὶ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_205|t_207|ref=Eros_21
+11	πικροὶ	πικρός	a	a-p---mn-	Case=n|Gender=m|Number=p	12	ATR	_	t_206|t_207|ref=Eros_21
+12	κάλαμοι	κάλαμος	n	n-p---mn-	Case=n|Gender=m|Number=p	19	SBJ	_	t_207|e_12|ref=Eros_21
+13	,	,	u	u--------	_	18	AuxX	_	t_208|t_213|ref=Eros_21
+14	τοῖς	ὁ	p	p-p---md-	Case=d|Gender=m|Number=p	18	OBJ	_	t_209|t_213|ref=Eros_21
+15	πολλάκι	πολλάκις	d	d--------	_	18	ADV	_	t_210|t_213|ref=Eros_21
+16	κ	καί	d	d--------	_	17	AuxZ	_	t_211|t_212|ref=Eros_21
+17	ἀμὲ	ἐγώ	p	p-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_212|t_213|ref=Eros_21
+18	τιτρώσκει	τιτρώσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	12	ATR	_	t_213|t_207|ref=Eros_21
+19	[0]	[0]	-	---------	_	8	PRED	_	e_12|t_203|ref=Eros_21
+20	.	.	u	u--------	_	1	AuxK	_	t_214|t_196|ref=Eros_21
 
-# source = Moschus, Eros_20-21
+# source = Moschus, Eros_22
 # text = πάντα μὲν ἄγρια ταῦτα [0] ·
 # sent_id = 20
-1	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_215|t_218|ref=Eros_20
-2	μὲν	μέν	g	g--------	_	5	AuxY	_	t_216|e_13|ref=Eros_21
-3	ἄγρια	ἄγριος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_217|e_13|ref=Eros_21
-4	ταῦτα	οὗτος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_218|e_13|ref=Eros_21
-5	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Eros_2
-6	·	·	u	u--------	_	5	AuxK	_	t_219|e_13|ref=Eros_21
+1	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	4	ATR	_	t_215|t_218|ref=Eros_22
+2	μὲν	μέν	g	g--------	_	5	AuxY	_	t_216|e_13|ref=Eros_22
+3	ἄγρια	ἄγριος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	PNOM	_	t_217|e_13|ref=Eros_22
+4	ταῦτα	οὗτος	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_218|e_13|ref=Eros_22
+5	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=Eros_22
+6	·	·	u	u--------	_	5	AuxK	_	t_219|e_13|ref=Eros_22
 
-# source = Moschus, Eros_21-20
+# source = Moschus, Eros_22
 # text = πολὺ πλέον ἁ δαῒς αὐτῷ [0] ·
 # sent_id = 21
-1	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_220|t_221|ref=Eros_21
-2	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	3	ADV	_	t_221|t_222|ref=Eros_21
-3	ἁ	ὁ	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_222|0|ref=Eros_21
-4	δαῒς	δαίς	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_223|t_222|ref=Eros_21
-5	αὐτῷ	αὐτός	a	a-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_224|e_14|ref=Eros_21
-6	[0]	[0]	-	---------	_	3	OBJ	_	e_14|t_222|ref=Eros_2
-7	·	·	u	u--------	_	3	AuxK	_	t_225|t_222|ref=Eros_20
+1	πολὺ	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	2	ADV	_	t_220|t_221|ref=Eros_22
+2	πλέον	πλέος	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	3	ADV	_	t_221|t_222|ref=Eros_22
+3	ἁ	ὁ	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_222|0|ref=Eros_22
+4	δαῒς	δαίς	n	n-s---fn-	Case=n|Gender=f|Number=s	3	SBJ	_	t_223|t_222|ref=Eros_22
+5	αὐτῷ	αὐτός	a	a-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_224|e_14|ref=Eros_22
+6	[0]	[0]	-	---------	_	3	OBJ	_	e_14|t_222|ref=Eros_22
+7	·	·	u	u--------	_	3	AuxK	_	t_225|t_222|ref=Eros_22
 
-# source = Moschus, Eros_21-22
+# source = Moschus, Eros_23
 # text = βαιὰ λαμπὰς ἐοῖσα τὸν ἅλιον αὐτὸν ἀναίθει .
 # sent_id = 22
-1	βαιὰ	βαιός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_226|t_228|ref=Eros_21
-2	λαμπὰς	λαμπάς	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_227|t_228|ref=Eros_22
-3	ἐοῖσα	ἔδω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_228|t_232|ref=Eros_22
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_229|t_230|ref=Eros_22
-5	ἅλιον	ἥλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_230|t_232|ref=Eros_22
-6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_231|t_232|ref=Eros_21
-7	ἀναίθει	ἀναίθω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_232|0|ref=Eros_22
-8	.	.	u	u--------	_	7	AuxK	_	t_233|t_232|ref=Eros_22
+1	βαιὰ	βαιός	a	a-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_226|t_228|ref=Eros_23
+2	λαμπὰς	λαμπάς	n	n-s---fn-	Case=n|Gender=f|Number=s	3	PNOM	_	t_227|t_228|ref=Eros_23
+3	ἐοῖσα	ἔδω	v	v-sppafn-	Case=n|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_228|t_232|ref=Eros_23
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_229|t_230|ref=Eros_23
+5	ἅλιον	ἥλιος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_230|t_232|ref=Eros_23
+6	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_231|t_232|ref=Eros_23
+7	ἀναίθει	ἀναίθω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_232|0|ref=Eros_23
+8	.	.	u	u--------	_	7	AuxK	_	t_233|t_232|ref=Eros_23
 
-# source = Moschus, Eros_22-23
+# source = Moschus, Eros_24
 # text = ἤν τύ γʼ ἕλῃς τῆνον , δήσας ἄγε μη δʼ ἐλεήσῃς .
 # sent_id = 23
-1	ἤν	ἐάν	c	c--------	_	10	AuxC	_	t_234|t_243|ref=Eros_22
-2	τύ	τύ	p	p-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_235|t_238|ref=Eros_22
-3	γʼ	γε	g	g--------	_	2	AuxZ	_	t_236|t_235|ref=Eros_22
-4	ἕλῃς	αἱρέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_237|t_234|ref=Eros_22
-5	τῆνον	τῆνος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_238|t_237|ref=Eros_21
-6	,	,	u	u--------	_	1	AuxX	_	t_239|t_234|ref=Eros_22
-7	δήσας	δέω1	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_240|t_243|ref=Eros_23
-8	ἄγε	ἄγε	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	10	PRED	_	t_241|t_243|ref=Eros_23
-9	μη	μη	g	g--------	_	11	AuxZ	_	t_242|t_244|ref=Eros_23
-10	δʼ	δέ	g	g--------	_	0	COORD	_	t_243|0|ref=Eros_23
-11	ἐλεήσῃς	ἐλεέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	10	PRED	_	t_244|t_243|ref=Eros_23
-12	.	.	u	u--------	_	10	AuxK	_	t_245|t_243|ref=Eros_23
+1	ἤν	ἐάν	c	c--------	_	10	AuxC	_	t_234|t_243|ref=Eros_24
+2	τύ	τύ	p	p-s---na-	Case=a|Gender=n|Number=s	5	ATR	_	t_235|t_238|ref=Eros_24
+3	γʼ	γε	g	g--------	_	2	AuxZ	_	t_236|t_235|ref=Eros_24
+4	ἕλῃς	αἱρέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_237|t_234|ref=Eros_24
+5	τῆνον	τῆνος	n	n-s---ma-	Case=a|Gender=m|Number=s	4	OBJ	_	t_238|t_237|ref=Eros_24
+6	,	,	u	u--------	_	1	AuxX	_	t_239|t_234|ref=Eros_24
+7	δήσας	δέω1	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	10	ADV	_	t_240|t_243|ref=Eros_24
+8	ἄγε	ἄγε	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	10	PRED	_	t_241|t_243|ref=Eros_24
+9	μη	μη	g	g--------	_	11	AuxZ	_	t_242|t_244|ref=Eros_24
+10	δʼ	δέ	g	g--------	_	0	COORD	_	t_243|0|ref=Eros_24
+11	ἐλεήσῃς	ἐλεέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	10	PRED	_	t_244|t_243|ref=Eros_24
+12	.	.	u	u--------	_	10	AuxK	_	t_245|t_243|ref=Eros_24
 
-# source = Moschus, Eros_23-24
+# source = Moschus, Eros_25
 # text = κ ἢν ποτίδῃς κλαίοντα , φυλάσσεο μή σε πλανάσῃ .
 # sent_id = 24
-1	κ	καί	d	d--------	_	6	AuxY	_	t_246|t_251|ref=Eros_23
-2	ἢν	ἐάν	c	c--------	_	6	AuxC	_	t_247|t_251|ref=Eros_23
-3	ποτίδῃς	ποτιδαίω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	2	ADV	_	t_248|t_247|ref=Eros_24
-4	κλαίοντα	κλαίω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_249|t_248|ref=Eros_24
-5	,	,	u	u--------	_	6	AuxX	_	t_250|t_251|ref=Eros_24
-6	φυλάσσεο	φυλάσσω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_251|0|ref=Eros_24
-7	μή	μή	c	c--------	_	6	AuxC	_	t_252|t_251|ref=Eros_24
-8	σε	σύ	p	p-s----a-	Case=a|Number=s|Person=2	9	OBJ	_	t_253|t_254|ref=Eros_24
-9	πλανάσῃ	πλανάω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	7	OBJ	_	t_254|t_252|ref=Eros_24
-10	.	.	u	u--------	_	6	AuxK	_	t_255|t_251|ref=Eros_24
-
-# source = Moschus, Eros_24-25
-# text = κ ἢν γελάῃ , τύ νιν ἕλκε .
-# sent_id = 25
-1	κ	καί	c	c--------	_	7	AuxY	_	t_256|t_262|ref=Eros_24
-2	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_257|t_262|ref=Eros_24
-3	γελάῃ	γελάω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_258|t_257|ref=Eros_24
-4	,	,	u	u--------	_	2	AuxX	_	t_259|t_257|ref=Eros_24
-5	τύ	τύ	p	p-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_260|t_262|ref=Eros_25
-6	νιν	νιν	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_261|t_262|ref=Eros_25
-7	ἕλκε	ἕλκω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_262|0|ref=Eros_25
-8	.	.	u	u--------	_	7	AuxK	_	t_263|t_262|ref=Eros_25
-
-# source = Moschus, Eros_25-26
-# text = καὶ ἢν ἐθέλῃ σε φιλῆσαι , φεῦγε ·
-# sent_id = 26
-1	καὶ	καί	d	d--------	_	7	AuxY	_	t_264|t_270|ref=Eros_25
-2	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_265|t_270|ref=Eros_25
-3	ἐθέλῃ	ἐθέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_266|t_265|ref=Eros_25
-4	σε	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_267|t_268|ref=Eros_25
-5	φιλῆσαι	φιλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	3	OBJ	_	t_268|t_266|ref=Eros_25
-6	,	,	u	u--------	_	7	AuxX	_	t_269|t_270|ref=Eros_25
-7	φεῦγε	φεύγω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_270|0|ref=Eros_26
-8	·	·	u	u--------	_	7	AuxK	_	t_271|t_270|ref=Eros_26
+1	κ	καί	d	d--------	_	6	AuxY	_	t_246|t_251|ref=Eros_25
+2	ἢν	ἐάν	c	c--------	_	6	AuxC	_	t_247|t_251|ref=Eros_25
+3	ποτίδῃς	ποτιδαίω	v	v2spsa---	Mood=s|Number=s|Person=2|Tense=p|Voice=a	2	ADV	_	t_248|t_247|ref=Eros_25
+4	κλαίοντα	κλαίω	v	v-sppama-	Case=a|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	3	ADV	_	t_249|t_248|ref=Eros_25
+5	,	,	u	u--------	_	6	AuxX	_	t_250|t_251|ref=Eros_25
+6	φυλάσσεο	φυλάσσω	v	v2spme---	Mood=m|Number=s|Person=2|Tense=p|Voice=e	0	PRED	_	t_251|0|ref=Eros_25
+7	μή	μή	c	c--------	_	6	AuxC	_	t_252|t_251|ref=Eros_25
+8	σε	σύ	p	p-s----a-	Case=a|Number=s|Person=2	9	OBJ	_	t_253|t_254|ref=Eros_25
+9	πλανάσῃ	πλανάω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	7	OBJ	_	t_254|t_252|ref=Eros_25
+10	.	.	u	u--------	_	6	AuxK	_	t_255|t_251|ref=Eros_25
 
 # source = Moschus, Eros_26
+# text = κ ἢν γελάῃ , τύ νιν ἕλκε .
+# sent_id = 25
+1	κ	καί	c	c--------	_	7	AuxY	_	t_256|t_262|ref=Eros_26
+2	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_257|t_262|ref=Eros_26
+3	γελάῃ	γελάω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_258|t_257|ref=Eros_26
+4	,	,	u	u--------	_	2	AuxX	_	t_259|t_257|ref=Eros_26
+5	τύ	τύ	p	p-s---na-	Case=a|Gender=n|Number=s	7	SBJ	_	t_260|t_262|ref=Eros_26
+6	νιν	νιν	p	p-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_261|t_262|ref=Eros_26
+7	ἕλκε	ἕλκω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_262|0|ref=Eros_26
+8	.	.	u	u--------	_	7	AuxK	_	t_263|t_262|ref=Eros_26
+
+# source = Moschus, Eros_26-27
+# text = καὶ ἢν ἐθέλῃ σε φιλῆσαι , φεῦγε ·
+# sent_id = 26
+1	καὶ	καί	d	d--------	_	7	AuxY	_	t_264|t_270|ref=Eros_26
+2	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_265|t_270|ref=Eros_26
+3	ἐθέλῃ	ἐθέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	2	ADV	_	t_266|t_265|ref=Eros_26
+4	σε	σύ	p	p-s---ma-	Case=a|Gender=m|Number=s	5	OBJ	_	t_267|t_268|ref=Eros_26
+5	φιλῆσαι	φιλέω	v	v--ana---	Mood=n|Tense=a|Voice=a	3	OBJ	_	t_268|t_266|ref=Eros_26
+6	,	,	u	u--------	_	7	AuxX	_	t_269|t_270|ref=Eros_26
+7	φεῦγε	φεύγω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_270|0|ref=Eros_27
+8	·	·	u	u--------	_	7	AuxK	_	t_271|t_270|ref=Eros_27
+
+# source = Moschus, Eros_27
 # text = κακὸν τὸ φίλημα , τὰ χείλεα φάρμακον ἐντί [0] .
 # sent_id = 27
-1	κακὸν	κακός	a	a-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_272|e_15|ref=Eros_26
-2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_273|t_274|ref=Eros_26
-3	φίλημα	φίλημα	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_274|t_275|ref=Eros_26
-4	,	,	u	u--------	_	9	APOS	_	t_275|e_15|ref=Eros_26
-5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_276|t_277|ref=Eros_26
-6	χείλεα	χεῖλος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_277|t_275|ref=Eros_26
-7	φάρμακον	φάρμακον	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_278|t_275|ref=Eros_26
-8	ἐντί	ἐνεἰμί	r	r--------	_	7	AuxP	_	t_279|t_278|ref=Eros_26
-9	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Eros_2
-10	.	.	u	u--------	_	9	AuxK	_	t_280|e_15|ref=Eros_26
+1	κακὸν	κακός	a	a-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_272|e_15|ref=Eros_27
+2	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	3	ATR	_	t_273|t_274|ref=Eros_27
+3	φίλημα	φίλημα	n	n-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_274|t_275|ref=Eros_27
+4	,	,	u	u--------	_	9	APOS	_	t_275|e_15|ref=Eros_27
+5	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	6	ATR	_	t_276|t_277|ref=Eros_27
+6	χείλεα	χεῖλος	a	a-p---nn-	Case=n|Gender=n|Number=p	4	SBJ	_	t_277|t_275|ref=Eros_27
+7	φάρμακον	φάρμακον	n	n-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_278|t_275|ref=Eros_27
+8	ἐντί	ἐνεἰμί	r	r--------	_	7	AuxP	_	t_279|t_278|ref=Eros_27
+9	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=Eros_27
+10	.	.	u	u--------	_	9	AuxK	_	t_280|e_15|ref=Eros_27
 
-# source = Moschus, Eros_26-28
+# source = Moschus, Eros_28-29
 # text = ἢν δὲ λέγῃ λάβε ταῦτα , χαρίζομαι ὅσσα μοι ὅπλα , μὴ τὺ θίγῃς πλάνα δῶρα [0] ·
 # sent_id = 28
-1	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_281|t_287|ref=Eros_26
-2	δὲ	δέ	g	g--------	_	0	COORD	_	t_282|0|ref=Eros_26
-3	λέγῃ	λέγω3	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_283|t_281|ref=Eros_26
-4	λάβε	λαμβάνω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_284|t_281|ref=Eros_27
-5	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_285|t_284|ref=Eros_27
-6	,	,	u	u--------	_	1	AuxX	_	t_286|t_281|ref=Eros_27
-7	χαρίζομαι	χαρίζω	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	2	PRED	_	t_287|t_282|ref=Eros_27
-8	ὅσσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_288|t_290|ref=Eros_27
-9	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_289|e_16|ref=Eros_27
-10	ὅπλα	ὅπλον	n	n-p---na-	Case=a|Gender=n|Number=p	17	SBJ	_	t_290|e_16|ref=Eros_27
-11	,	,	u	u--------	_	12	AuxX	_	t_291|t_292|ref=Eros_27
-12	μὴ	μή	c	c--------	_	7	AuxC	_	t_292|t_287|ref=Eros_27
-13	τὺ	ὁ	p	p-s----g-	Case=a|Gender=n|Number=s	14	OBJ	_	t_293|t_294|ref=Eros_27
-14	θίγῃς	θιγγάνω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	12	ADV	_	t_294|t_292|ref=Eros_26
-15	πλάνα	πλάνος	n	n-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_295|t_296|ref=Eros_27
-16	δῶρα	δῶρον	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_296|t_294|ref=Eros_28
-17	[0]	[0]	-	---------	_	7	OBJ	_	e_16|t_287|ref=Eros_2
-18	·	·	u	u--------	_	2	AuxK	_	t_297|t_282|ref=Eros_28
+1	ἢν	ἐάν	c	c--------	_	7	AuxC	_	t_281|t_287|ref=Eros_28
+2	δὲ	δέ	g	g--------	_	0	COORD	_	t_282|0|ref=Eros_28
+3	λέγῃ	λέγω3	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_283|t_281|ref=Eros_28
+4	λάβε	λαμβάνω	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_284|t_281|ref=Eros_28
+5	ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_285|t_284|ref=Eros_28
+6	,	,	u	u--------	_	1	AuxX	_	t_286|t_281|ref=Eros_28
+7	χαρίζομαι	χαρίζω	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	2	PRED	_	t_287|t_282|ref=Eros_28
+8	ὅσσα	ὅσος	a	a-p---na-	Case=a|Gender=n|Number=p	10	ATR	_	t_288|t_290|ref=Eros_28
+9	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	17	ADV	_	t_289|e_16|ref=Eros_28
+10	ὅπλα	ὅπλον	n	n-p---na-	Case=a|Gender=n|Number=p	17	SBJ	_	t_290|e_16|ref=Eros_28
+11	,	,	u	u--------	_	12	AuxX	_	t_291|t_292|ref=Eros_28
+12	μὴ	μή	c	c--------	_	7	AuxC	_	t_292|t_287|ref=Eros_29
+13	τὺ	ὁ	p	p-s----g-	Case=a|Gender=n|Number=s	14	OBJ	_	t_293|t_294|ref=Eros_29
+14	θίγῃς	θιγγάνω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	12	ADV	_	t_294|t_292|ref=Eros_29
+15	πλάνα	πλάνος	n	n-p---na-	Case=a|Gender=n|Number=p	16	ATR	_	t_295|t_296|ref=Eros_29
+16	δῶρα	δῶρον	n	n-p---na-	Case=a|Gender=n|Number=p	14	OBJ	_	t_296|t_294|ref=Eros_29
+17	[0]	[0]	-	---------	_	7	OBJ	_	e_16|t_287|ref=Eros_29
+18	·	·	u	u--------	_	2	AuxK	_	t_297|t_282|ref=Eros_29
 
-# source = Moschus, Eros_28
+# source = Moschus, Eros_29
 # text = τὰ γὰρ πυρὶ πάντα βέβαπται . ’
 # sent_id = 29
-1	τὰ	ὁ	p	p-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_298|t_302|ref=Eros_28
-2	γὰρ	γάρ	g	g--------	_	5	AuxY	_	t_299|t_302|ref=Eros_28
-3	πυρὶ	πῦρ	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ADV	_	t_300|t_302|ref=Eros_28
-4	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_301|t_302|ref=Eros_28
-5	βέβαπται	βάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_302|0|ref=Eros_28
-6	.	.	u	u--------	_	5	AuxK	_	t_303|t_302|ref=Eros_28
-7	’	’	x	x--------	_	5	AuxK	_	t_304|t_302|ref=Eros_28
+1	τὰ	ὁ	p	p-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_298|t_302|ref=Eros_29
+2	γὰρ	γάρ	g	g--------	_	5	AuxY	_	t_299|t_302|ref=Eros_29
+3	πυρὶ	πῦρ	n	n-s---nd-	Case=d|Gender=n|Number=s	5	ADV	_	t_300|t_302|ref=Eros_29
+4	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	5	SBJ	_	t_301|t_302|ref=Eros_29
+5	βέβαπται	βάπτω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_302|0|ref=Eros_29
+6	.	.	u	u--------	_	5	AuxK	_	t_303|t_302|ref=Eros_29
+7	’	’	x	x--------	_	5	AuxK	_	t_304|t_302|ref=Eros_29
 

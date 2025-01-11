@@ -43,13 +43,13 @@
 14	[0]	[0]	-	---------	_	0	PRED	_	e_2|0|ref=fr._1
 15	.	.	u	u--------	_	14	AuxK	_	t_31|e_2|ref=fr._1
 
-# source = Diogenes of Apollonia, fr._1-2.5
+# source = Diogenes of Apollonia, fr._2.5
 # text = 2 — 5 [0] .
 # sent_id = 4
-1	2	2	u	u--------	_	4	AuxG	_	t_32|e_3|ref=fr._1
-2	—	—	u	u--------	_	4	AuxG	_	t_33|e_3|ref=fr._1
+1	2	2	u	u--------	_	4	AuxG	_	t_32|e_3|ref=fr._2.5
+2	—	—	u	u--------	_	4	AuxG	_	t_33|e_3|ref=fr._2.5
 3	5	5	u	u--------	_	4	AuxG	_	t_34|e_3|ref=fr._2.5
-4	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=fr._2.5
 5	.	.	u	u--------	_	4	AuxK	_	t_35|e_3|ref=fr._2.5
 
 # source = Diogenes of Apollonia, fr._2.5
@@ -99,12 +99,12 @@
 7	τάδε	ὅδε	p	p-p---na-	Case=a|Gender=n|Number=p	1	OBJ	_	t_73|t_67|ref=fr._2.5
 8	·	·	u	u--------	_	1	AuxK	_	t_74|t_67|ref=fr._2.5
 
-# source = Diogenes of Apollonia, fr._2.5-2
+# source = Diogenes of Apollonia, fr._2
 # text = [ 2 ] ἐμοὶ δὲ δοκεῖ τὸ μὲν ξὐμπαν εἰπεῖν πάντα τὰ ὄντα ἀπὸ τοῦ αὐτοῦ ἑτεροιοῦσθαι καὶ τὸ αὐτὸ εἶναι .
 # sent_id = 7
-1	[	[	u	u--------	_	6	AuxG	_	t_75|t_80|ref=fr._2.5
-2	2	2	d	d--------	_	6	AuxY	_	t_76|t_80|ref=fr._2.5
-3	]	]	u	u--------	_	6	AuxX	_	t_77|t_80|ref=fr._2.5
+1	[	[	u	u--------	_	6	AuxG	_	t_75|t_80|ref=fr._2
+2	2	2	d	d--------	_	6	AuxY	_	t_76|t_80|ref=fr._2
+3	]	]	u	u--------	_	6	AuxX	_	t_77|t_80|ref=fr._2
 4	ἐμοὶ	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	6	OBJ	_	t_78|t_80|ref=fr._2
 5	δὲ	δέ	d	d--------	_	6	AuxY	_	t_79|t_80|ref=fr._2
 6	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_80|0|ref=fr._2
@@ -131,7 +131,7 @@
 1	καὶ	καί	d	d--------	_	4	AuxY	_	t_97|e_4|ref=fr._2
 2	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	4	SBJ	_	t_98|e_4|ref=fr._2
 3	εὔδηλον	εὔδηλος	a	a-s---nn-	Case=n|Gender=n|Number=s	4	PNOM	_	t_99|e_4|ref=fr._2
-4	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_4|0|ref=fr._2
 5	·	·	u	u--------	_	4	AuxK	_	t_100|e_4|ref=fr._2
 
 # source = Diogenes of Apollonia, fr._2
@@ -238,7 +238,7 @@
 99	τ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	100	ATR	_	t_199|t_200|ref=fr._2
 100	αὐτὸ	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	101	SBJ	_	t_200|t_201|ref=fr._2
 101	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	98	ADV	_	t_201|t_198|ref=fr._2
-102	[0]	[0]	-	---------	_	58	PRED	_	e_5|t_158|ref=fr._1
+102	[0]	[0]	-	---------	_	58	PRED	_	e_5|t_158|ref=fr._2
 103	.	.	u	u--------	_	58	AuxK	_	t_202|t_158|ref=fr._2
 
 # source = Diogenes of Apollonia, fr._2
@@ -333,11 +333,11 @@
 11	νόησις	νόησις	n	n-s---fn-	Case=n|Gender=f|Number=s	6	SBJ	_	t_281|t_276|ref=fr._2
 12	πολλή	πολύς	a	a-s---fn-	Case=n|Gender=f|Number=s	11	ATR	_	t_282|t_281|ref=fr._2
 13	—	—	u	u--------	_	21	AuxG	_	t_283|t_291|ref=fr._2
-14	[	[	u	u--------	_	21	AuxG	_	t_284|t_291|ref=fr._2
-15	4a	4a	n	n--------	_	21	ExD	_	t_285|t_291|ref=fr._2
-16	]	]	u	u--------	_	21	AuxG	_	t_286|t_291|ref=fr._2
-17	οὐ	οὐ	d	d--------	_	25	AuxZ	_	t_287|t_295|ref=fr._2
-18	γὰρ	γάρ	d	d--------	_	25	AuxY	_	t_288|t_295|ref=fr._2
+14	[	[	u	u--------	_	21	AuxG	_	t_284|t_291|ref=fr._3
+15	4a	4a	n	n--------	_	21	ExD	_	t_285|t_291|ref=fr._3
+16	]	]	u	u--------	_	21	AuxG	_	t_286|t_291|ref=fr._3
+17	οὐ	οὐ	d	d--------	_	25	AuxZ	_	t_287|t_295|ref=fr._3
+18	γὰρ	γάρ	d	d--------	_	25	AuxY	_	t_288|t_295|ref=fr._3
 19	ἄν	ἄν	d	d--------	_	25	AuxY	_	t_289|t_295|ref=fr._3
 20	,	,	u	u--------	_	21	AuxX	_	t_290|t_291|ref=fr._3
 21	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_291|0|ref=fr._3
@@ -409,7 +409,7 @@
 33	ἐστὶν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	29	ATR	_	t_353|t_349|ref=fr._3
 34	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	35	ATR	_	t_354|t_355|ref=fr._3
 35	ἀήρ	ἀήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	33	SBJ	_	t_355|t_353|ref=fr._3
-36	[0]	[0]	-	---------	_	20	ADV	_	e_6|t_340|ref=fr._1
+36	[0]	[0]	-	---------	_	20	ADV	_	e_6|t_340|ref=fr._3
 37	.	.	u	u--------	_	10	AuxK	_	t_356|t_330|ref=fr._3
 
 # source = Diogenes of Apollonia, fr._3
@@ -427,21 +427,21 @@
 10	οὕτως	οὕτως	d	d--------	_	9	ADV	_	t_366|t_365|ref=fr._3
 11	·	·	u	u--------	_	5	AuxK	_	t_367|t_361|ref=fr._3
 
-# source = Diogenes of Apollonia, fr._3-4
+# source = Diogenes of Apollonia, fr._4
 # text = [ 4b ] ἔτι δὲ πρὸς τούτοις καὶ τάδε μεγάλα σημεῖα [0] .
 # sent_id = 15
-1	[	[	u	u--------	_	12	AuxG	_	t_368|e_7|ref=fr._3
-2	4b	4b	x	x--------	_	12	ExD	_	t_369|e_7|ref=fr._3
-3	]	]	u	u--------	_	12	AuxX	_	t_370|e_7|ref=fr._3
-4	ἔτι	ἔτι	d	d--------	_	12	ADV	_	t_371|e_7|ref=fr._3
-5	δὲ	δέ	d	d--------	_	12	AuxY	_	t_372|e_7|ref=fr._3
-6	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_373|e_7|ref=fr._3
+1	[	[	u	u--------	_	12	AuxG	_	t_368|e_7|ref=fr._4
+2	4b	4b	x	x--------	_	12	ExD	_	t_369|e_7|ref=fr._4
+3	]	]	u	u--------	_	12	AuxX	_	t_370|e_7|ref=fr._4
+4	ἔτι	ἔτι	d	d--------	_	12	ADV	_	t_371|e_7|ref=fr._4
+5	δὲ	δέ	d	d--------	_	12	AuxY	_	t_372|e_7|ref=fr._4
+6	πρὸς	πρός	r	r--------	_	12	AuxP	_	t_373|e_7|ref=fr._4
 7	τούτοις	οὗτος	p	p-p---nd-	Case=d|Gender=n|Number=p	6	ADV	_	t_374|t_373|ref=fr._4
 8	καὶ	καί	d	d--------	_	11	AuxZ	_	t_375|t_378|ref=fr._4
 9	τάδε	ὅδε	a	a-p---nn-	Case=n|Gender=n|Number=p	11	ATR	_	t_376|t_378|ref=fr._4
 10	μεγάλα	μέγας	a	a-d---fn-	Case=n|Gender=f|Number=d	11	ATR	_	t_377|t_378|ref=fr._4
 11	σημεῖα	σημεῖον	n	n-p---nn-	Case=n|Gender=n|Number=p	12	SBJ	_	t_378|e_7|ref=fr._4
-12	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=fr._4
 13	.	.	u	u--------	_	12	AuxK	_	t_379|e_7|ref=fr._4
 
 # source = Diogenes of Apollonia, fr._4
@@ -501,16 +501,16 @@
 5	ἑπήγαγε	ἐπάγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_423|0|ref=fr._4
 6	·	·	u	u--------	_	5	AuxK	_	t_424|t_423|ref=fr._4
 
-# source = Diogenes of Apollonia, fr._4-5
+# source = Diogenes of Apollonia, fr._5
 # text = [ 6 ] καί μοι δοκεῖ τὸ τὴν νόησιν ἔχον εἶναι ὁ ἀὴρ καλούμενος ὑπὸ τῶν ἀνθρώπων , καὶ ὑπὸ τούτου πάντας καὶ κυβερνᾶσθαι καὶ πάντων κρατεῖν ·
 # sent_id = 19
-1	[	[	u	u--------	_	2	AuxG	_	t_425|t_426|ref=fr._4
-2	6	6	c	c--------	_	0	COORD	_	t_426|0|ref=fr._4
-3	]	]	u	u--------	_	2	AuxG	_	t_427|t_426|ref=fr._4
-4	καί	καί	d	d--------	_	6	AuxY	_	t_428|t_430|ref=fr._4
-5	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	6	OBJ	_	t_429|t_430|ref=fr._4
-6	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_430|t_426|ref=fr._4
-7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_431|t_434|ref=fr._4
+1	[	[	u	u--------	_	2	AuxG	_	t_425|t_426|ref=fr._5
+2	6	6	c	c--------	_	0	COORD	_	t_426|0|ref=fr._5
+3	]	]	u	u--------	_	2	AuxG	_	t_427|t_426|ref=fr._5
+4	καί	καί	d	d--------	_	6	AuxY	_	t_428|t_430|ref=fr._5
+5	μοι	ἐγώ	p	p1s---cd-	Case=d|Gender=c|Number=s|Person=1	6	OBJ	_	t_429|t_430|ref=fr._5
+6	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	2	PRED	_	t_430|t_426|ref=fr._5
+7	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_431|t_434|ref=fr._5
 8	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	9	ATR	_	t_432|t_433|ref=fr._5
 9	νόησιν	νόησις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	OBJ	_	t_433|t_434|ref=fr._5
 10	ἔχον	ἔχω	v	v-sppann-	Case=n|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	11	PNOM	_	t_434|t_435|ref=fr._5
@@ -662,7 +662,7 @@
 25	ἡλίωι	ἥλιος	n	n-s---md-	Case=d|Gender=m|Number=s	23	ADV	_	t_560|t_558|ref=fr._5
 26	πολλὸν	πολύς	a	a-s---na-	Case=a|Gender=n|Number=s	27	ADV	_	t_561|t_562|ref=fr._5
 27	ψυχρότερος	ψυχρός	a	a-s---mnc	Case=n|Degree=c|Gender=m|Number=s	28	PNOM	_	t_562|e_8|ref=fr._5
-28	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=fr._1
+28	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=fr._5
 29	.	.	u	u--------	_	10	AuxK	_	t_563|t_545|ref=fr._5
 
 # source = Diogenes of Apollonia, fr._5
@@ -696,8 +696,8 @@
 26	ὥστε	ὥστε	c	c--------	_	25	AuxC	_	t_589|t_588|ref=fr._5
 27	παραπλήσια	παραπλήσιος	a	a-p---na-	Case=a|Gender=n|Number=p	28	PNOM	_	t_590|t_591|ref=fr._5
 28	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	26	ADV	_	t_591|t_589|ref=fr._5
-29	[0]	[0]	-	---------	_	11	ADV	_	e_9|t_574|ref=fr._1
-30	[1]	[1]	-	---------	_	11	ADV	_	e_10|t_574|ref=fr._1
+29	[0]	[0]	-	---------	_	11	ADV	_	e_9|t_574|ref=fr._5
+30	[1]	[1]	-	---------	_	11	ADV	_	e_10|t_574|ref=fr._5
 31	.	.	u	u--------	_	19	AuxK	_	t_592|t_582|ref=fr._5
 
 # source = Diogenes of Apollonia, fr._5
@@ -723,7 +723,7 @@
 18	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	19	ATR	_	t_610|t_611|ref=fr._5
 19	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_611|t_612|ref=fr._5
 20	γένηται	γίγνομαι	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	17	ADV	_	t_612|t_609|ref=fr._5
-21	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=fr._1
+21	[0]	[0]	-	---------	_	0	PRED	_	e_11|0|ref=fr._5
 22	.	.	u	u--------	_	21	AuxK	_	t_613|e_11|ref=fr._5
 
 # source = Diogenes of Apollonia, fr._5
@@ -758,7 +758,7 @@
 27	πλήθεος	πλῆθος	n	n-s---ng-	Case=g|Gender=n|Number=s	25	OBJ	_	t_640|t_638|ref=fr._5
 28	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	29	ATR	_	t_641|t_642|ref=fr._5
 29	ἑτεροιώσεων	ἑτεροίωσις	a	a-p---fg-	Case=g|Gender=f|Number=p	27	ATR	_	t_642|t_640|ref=fr._5
-30	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._1
+30	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=fr._5
 31	.	.	u	u--------	_	30	AuxK	_	t_643|e_12|ref=fr._5
 
 # source = Diogenes of Apollonia, fr._5
@@ -787,21 +787,21 @@
 21	πάντα	πᾶς	a	a-s---ma-	Case=a|Gender=m|Number=s	17	ADV	_	t_664|t_660|ref=fr._5
 22	.	.	u	u--------	_	12	AuxK	_	t_665|t_655|ref=fr._5
 
-# source = Diogenes of Apollonia, fr._5-6
+# source = Diogenes of Apollonia, fr._6
 # text = [ 7 ] καὶ ἑφεξῆς δείκνυσν ὅτι καὶ τὸ σπέρμα τῶν ζώιων πνευματῶδές ἐστι καὶ νοήσεις γίνονται τοῦ ἀέρος σὺν τῶι αἵματι τὸ ὅλον σῶμα καταλαμβάνοντος διὰ τῶν φλεβῶν , ἐν οἶς καὶ ἀνατομὴν ἀκριβῆ τῶν φλεβῶν παραδίδωιν .
 # sent_id = 29
-1	[	[	u	u--------	_	6	AuxG	_	t_666|t_671|ref=fr._5
-2	7	7	c	c--------	_	6	AuxY	_	t_667|t_671|ref=fr._5
-3	]	]	u	u--------	_	6	AuxX	_	t_668|t_671|ref=fr._5
-4	καὶ	καί	c	c--------	_	6	AuxY	_	t_669|t_671|ref=fr._5
-5	ἑφεξῆς	ἐφεξῆς	d	d--------	_	6	ADV	_	t_670|t_671|ref=fr._5
-6	δείκνυσν	δείκνυμι	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_671|0|ref=fr._5
-7	ὅτι	ὅτι	c	c--------	_	6	AuxC	_	t_672|t_671|ref=fr._5
-8	καὶ	καί	c	c--------	_	15	AuxY	_	t_673|t_680|ref=fr._5
-9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_674|t_675|ref=fr._5
-10	σπέρμα	σπέρμα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_675|t_679|ref=fr._5
-11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_676|t_677|ref=fr._5
-12	ζώιων	ζῷον	n	n-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_677|t_675|ref=fr._5
+1	[	[	u	u--------	_	6	AuxG	_	t_666|t_671|ref=fr._6
+2	7	7	c	c--------	_	6	AuxY	_	t_667|t_671|ref=fr._6
+3	]	]	u	u--------	_	6	AuxX	_	t_668|t_671|ref=fr._6
+4	καὶ	καί	c	c--------	_	6	AuxY	_	t_669|t_671|ref=fr._6
+5	ἑφεξῆς	ἐφεξῆς	d	d--------	_	6	ADV	_	t_670|t_671|ref=fr._6
+6	δείκνυσν	δείκνυμι	v	v1ppia---	Mood=i|Number=p|Person=1|Tense=p|Voice=a	0	PRED	_	t_671|0|ref=fr._6
+7	ὅτι	ὅτι	c	c--------	_	6	AuxC	_	t_672|t_671|ref=fr._6
+8	καὶ	καί	c	c--------	_	15	AuxY	_	t_673|t_680|ref=fr._6
+9	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	10	ATR	_	t_674|t_675|ref=fr._6
+10	σπέρμα	σπέρμα	n	n-s---nn-	Case=n|Gender=n|Number=s	14	SBJ	_	t_675|t_679|ref=fr._6
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	12	ATR	_	t_676|t_677|ref=fr._6
+12	ζώιων	ζῷον	n	n-p---ng-	Case=g|Gender=n|Number=p	10	ATR	_	t_677|t_675|ref=fr._6
 13	πνευματῶδές	πνευματώδης	a	a-s---nn-	Case=n|Gender=n|Number=s	14	PNOM	_	t_678|t_679|ref=fr._6
 14	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	15	OBJ	_	t_679|t_680|ref=fr._6
 15	καὶ	καί	c	c--------	_	7	COORD	_	t_680|t_672|ref=fr._6
@@ -873,7 +873,7 @@
 1	αἱ	ὁ	l	l-p---fn-	Case=n|Gender=f|Number=p	2	ATR	_	t_730|t_731|ref=fr._6
 2	φλέβες	φλέψ	n	n-p---fn-	Case=n|Gender=f|Number=p	4	SBJ	_	t_731|e_13|ref=fr._6
 3	.	.	u	u--------	_	4	AuxK	_	t_732|e_13|ref=fr._6
-4	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=fr._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_13|0|ref=fr._6
 5	.	.	u	u--------	_	4	AuxK	_	t_733|e_13|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -890,14 +890,14 @@
 3	veri	verος	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	6	PRED	_	t_738|e_14|ref=fr._6
 4	[	[	u	u--------	_	3	AuxX	_	t_739|t_738|ref=fr._6
 5	d	διά	x	x--------	_	3	AuxG	_	t_740|t_738|ref=fr._6
-6	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=fr._6
 7	.	.	u	u--------	_	3	AuxK	_	t_741|t_738|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
 # text = i [0] .
 # sent_id = 36
 1	i	εἰ	d	d--------	_	2	SBJ	_	t_742|e_15|ref=fr._6
-2	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=fr._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=fr._6
 3	.	.	u	u--------	_	2	AuxK	_	t_743|e_15|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -991,7 +991,7 @@
 40	ἀνθρώπωι	ἄνθρωπος	n	n-s---md-	Case=d|Gender=m|Number=s	38	ADV	_	t_821|t_819|ref=fr._6
 41	ὦδʼ	ὅδε	d	d--------	_	42	ADV	_	t_822|t_823|ref=fr._6
 42	ἔχουσιν	ἔχω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	36	PRED	_	t_823|t_817|ref=fr._6
-43	[0]	[0]	-	---------	_	36	PRED	_	e_16|t_817|ref=fr._1
+43	[0]	[0]	-	---------	_	36	PRED	_	e_16|t_817|ref=fr._6
 44	·	·	u	u--------	_	7	AuxK	_	t_824|t_788|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1045,9 +1045,9 @@
 38	διὰ	διά	r	r--------	_	30	AuxP	_	t_866|t_858|ref=fr._6
 39	τῶν	ὁ	l	l-p---fg-	Case=g|Gender=f|Number=p	40	ATR	_	t_867|t_868|ref=fr._6
 40	σφαγῶν	σφαγή	n	n-p---fg-	Case=g|Gender=f|Number=p	38	ADV	_	t_868|t_866|ref=fr._6
-41	[0]	[0]	-	---------	_	17	PRED	_	e_17|t_845|ref=fr._1
-42	[1]	[1]	-	---------	_	18	PRED	_	e_18|t_846|ref=fr._1
-43	[2]	[2]	-	---------	_	30	PRED	_	e_19|t_858|ref=fr._1
+41	[0]	[0]	-	---------	_	17	PRED	_	e_17|t_845|ref=fr._6
+42	[1]	[1]	-	---------	_	18	PRED	_	e_18|t_846|ref=fr._6
+43	[2]	[2]	-	---------	_	30	PRED	_	e_19|t_858|ref=fr._6
 44	.	.	u	u--------	_	10	AuxK	_	t_869|t_838|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1108,9 +1108,9 @@
 53	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	52	ATR	_	t_922|t_921|ref=fr._6
 54	παρʼ	παρά	r	r--------	_	52	AuxP	_	t_923|t_921|ref=fr._6
 55	ἑαυτῆι	ἑαυτοῦ	p	p-s---fd-	Case=d|Gender=f|Number=s	54	ATR	_	t_924|t_923|ref=fr._6
-56	[0]	[0]	-	---------	_	20	PRED	_	e_20|t_889|ref=fr._1
-57	[1]	[1]	-	---------	_	20	PRED	_	e_21|t_889|ref=fr._1
-58	[2]	[2]	-	---------	_	40	PRED	_	e_22|t_909|ref=fr._1
+56	[0]	[0]	-	---------	_	20	PRED	_	e_20|t_889|ref=fr._6
+57	[1]	[1]	-	---------	_	20	PRED	_	e_21|t_889|ref=fr._6
+58	[2]	[2]	-	---------	_	40	PRED	_	e_22|t_909|ref=fr._6
 59	·	·	u	u--------	_	10	AuxK	_	t_925|t_879|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1125,7 +1125,7 @@
 7	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	10	SBJ	_	t_932|e_23|ref=fr._6
 8	δὲ	δέ	d	d--------	_	6	COORD	_	t_933|t_931|ref=fr._6
 9	ἡπατῖτις	ἡπατῖτις	n	n-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_934|e_23|ref=fr._6
-10	[0]	[0]	-	---------	_	8	PRED	_	e_23|t_933|ref=fr._1
+10	[0]	[0]	-	---------	_	8	PRED	_	e_23|t_933|ref=fr._6
 11	.	.	u	u--------	_	6	AuxK	_	t_935|t_931|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1163,9 +1163,9 @@
 30	χεῖρα	χείρ	n	n-s---fa-	Case=a|Gender=f|Number=s	31	ADV	_	t_965|t_966|ref=fr._6
 31	καὶ	καί	c	c--------	_	27	COORD	_	t_966|t_962|ref=fr._6
 32	δακτύλους	δάκτυλος	n	n-p---ma-	Case=a|Gender=m|Number=p	31	ADV	_	t_967|t_966|ref=fr._6
-33	[0]	[0]	-	---------	_	16	PRED	_	e_24|t_951|ref=fr._1
-34	[1]	[1]	-	---------	_	22	PRED	_	e_25|t_957|ref=fr._1
-35	[2]	[2]	-	---------	_	22	PRED	_	e_26|t_957|ref=fr._1
+33	[0]	[0]	-	---------	_	16	PRED	_	e_24|t_951|ref=fr._6
+34	[1]	[1]	-	---------	_	22	PRED	_	e_25|t_957|ref=fr._6
+35	[2]	[2]	-	---------	_	22	PRED	_	e_26|t_957|ref=fr._6
 36	.	.	u	u--------	_	7	AuxK	_	t_968|t_942|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1250,7 +1250,7 @@
 7	ἧττον	ἥσσων	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	8	ADV	_	t_1033|t_1034|ref=fr._6
 8	παχεῖα	παχύς	a	a-s---fn-	Case=n|Gender=f|Number=s	10	PNOM	_	t_1034|e_27|ref=fr._6
 9	ἐκείνης	ἐκεῖνος	p	p-s---fg-	Case=g|Gender=f|Number=s	8	ADV	_	t_1035|t_1034|ref=fr._6
-10	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=fr._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_27|0|ref=fr._6
 11	.	.	u	u--------	_	10	AuxK	_	t_1036|e_27|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1273,7 +1273,7 @@
 15	εἰς	εἰς	r	r--------	_	18	AuxP	_	t_1051|e_28|ref=fr._6
 16	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	17	ATR	_	t_1052|t_1053|ref=fr._6
 17	χεῖρας	χείρ	n	n-p---fa-	Case=a|Gender=f|Number=p	15	ADV	_	t_1053|t_1051|ref=fr._6
-18	[0]	[0]	-	---------	_	13	ADV	_	e_28|t_1049|ref=fr._1
+18	[0]	[0]	-	---------	_	13	ADV	_	e_28|t_1049|ref=fr._6
 19	.	.	u	u--------	_	5	AuxK	_	t_1054|t_1041|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1367,8 +1367,8 @@
 29	εἰς	εἰς	r	r--------	_	33	AuxP	_	t_1128|e_30|ref=fr._6
 30	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	31	ATR	_	t_1129|t_1130|ref=fr._6
 31	δεξιά	δεξιός	a	a-p---na-	Case=a|Gender=n|Number=p	29	OBJ	_	t_1130|t_1128|ref=fr._6
-32	[0]	[0]	-	---------	_	25	PRED	_	e_29|t_1124|ref=fr._1
-33	[1]	[1]	-	---------	_	25	PRED	_	e_30|t_1124|ref=fr._1
+32	[0]	[0]	-	---------	_	25	PRED	_	e_29|t_1124|ref=fr._6
+33	[1]	[1]	-	---------	_	25	PRED	_	e_30|t_1124|ref=fr._6
 34	·	·	u	u--------	_	5	AuxK	_	t_1131|t_1104|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1477,8 +1477,8 @@
 10	καὶ	καί	c	c--------	_	4	COORD	_	t_1216|t_1210|ref=fr._6
 11	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_1217|t_1218|ref=fr._6
 12	σπληνῖτιν	σπληνῖτις	n	n-s---fa-	Case=a|Gender=f|Number=s	10	APOS	_	t_1218|t_1216|ref=fr._6
-13	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=fr._1
-14	[1]	[1]	-	---------	_	1	ADV	_	e_32|t_1207|ref=fr._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=fr._6
+14	[1]	[1]	-	---------	_	1	ADV	_	e_32|t_1207|ref=fr._6
 15	.	.	u	u--------	_	13	AuxK	_	t_1219|e_31|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1545,8 +1545,8 @@
 25	εἰς	εἰς	r	r--------	_	28	AuxP	_	t_1270|e_33|ref=fr._6
 26	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	27	ATR	_	t_1271|t_1272|ref=fr._6
 27	ὑστέρας	ὕστερος	n	n-p---fa-	Case=a|Gender=f|Number=p	25	OBJ	_	t_1272|t_1270|ref=fr._6
-28	[0]	[0]	-	---------	_	23	PRED	_	e_33|t_1268|ref=fr._1
-29	[1]	[1]	-	---------	_	23	PRED	_	e_34|t_1268|ref=fr._2.5
+28	[0]	[0]	-	---------	_	23	PRED	_	e_33|t_1268|ref=fr._6
+29	[1]	[1]	-	---------	_	23	PRED	_	e_34|t_1268|ref=fr._6
 30	.	.	u	u--------	_	21	AuxK	_	t_1273|t_1266|ref=fr._6
 
 # source = Diogenes of Apollonia, fr._6
@@ -1629,48 +1629,48 @@
 12	γίνεται	γίγνομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1336|0|ref=fr._6
 13	.	.	u	u--------	_	12	AuxK	_	t_1337|t_1336|ref=fr._6
 
-# source = Diogenes of Apollonia, fr._6
+# source = Diogenes of Apollonia, fr._7
 # text = [ 5 ] θαυμαστὸν δὲ ὅτι , κατὰ ἑτεροίωσιν τὴν ἀπʼ αὐτοῦ λέγων τὰ ἄλλα γίνεσθαι , ἀίδιον ὅμως αὐτό φησι λέγων [0] ·
 # sent_id = 66
-1	[	[	u	u--------	_	23	AuxG	_	t_1338|e_35|ref=fr._6
-2	5	5	d	d--------	_	23	ExD	_	t_1339|e_35|ref=fr._6
-3	]	]	u	u--------	_	23	AuxG	_	t_1340|e_35|ref=fr._6
-4	θαυμαστὸν	θαυμαστός	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_1341|e_35|ref=fr._6
-5	δὲ	δέ	d	d--------	_	2	COORD	_	t_1342|t_1339|ref=fr._6
-6	ὅτι	ὅτι	c	c--------	_	23	AuxC	_	t_1343|e_35|ref=fr._6
-7	,	,	u	u--------	_	23	AuxX	_	t_1344|e_35|ref=fr._6
-8	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_1345|t_1353|ref=fr._6
-9	ἑτεροίωσιν	ἑτεροίωσις	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_1346|t_1345|ref=fr._6
-10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	SBJ	_	t_1347|t_1353|ref=fr._6
-11	ἀπʼ	ἀπό	r	r--------	_	10	AuxP	_	t_1348|t_1347|ref=fr._6
-12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1349|t_1348|ref=fr._6
-13	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_1350|t_1358|ref=fr._6
-14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_1351|t_1352|ref=fr._6
-15	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	16	SBJ	_	t_1352|t_1353|ref=fr._6
-16	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	13	OBJ	_	t_1353|t_1350|ref=fr._6
-17	,	,	u	u--------	_	16	AuxX	_	t_1354|t_1353|ref=fr._6
-18	ἀίδιον	ἀίδιος	a	a-s---na-	Case=a|Gender=n|Number=s	20	ATV	_	t_1355|t_1357|ref=fr._6
-19	ὅμως	ὅμως	d	d--------	_	21	AuxY	_	t_1356|t_1358|ref=fr._6
-20	αὐτό	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_1357|t_1359|ref=fr._6
-21	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	SBJ	_	t_1358|t_1343|ref=fr._6
-22	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_1359|t_1358|ref=fr._6
-23	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=fr._2.5
-24	·	·	u	u--------	_	2	AuxK	_	t_1360|t_1339|ref=fr._6
+1	[	[	u	u--------	_	23	AuxG	_	t_1338|e_35|ref=fr._7
+2	5	5	d	d--------	_	23	ExD	_	t_1339|e_35|ref=fr._7
+3	]	]	u	u--------	_	23	AuxG	_	t_1340|e_35|ref=fr._7
+4	θαυμαστὸν	θαυμαστός	a	a-s---nn-	Case=n|Gender=n|Number=s	23	PNOM	_	t_1341|e_35|ref=fr._7
+5	δὲ	δέ	d	d--------	_	2	COORD	_	t_1342|t_1339|ref=fr._7
+6	ὅτι	ὅτι	c	c--------	_	23	AuxC	_	t_1343|e_35|ref=fr._7
+7	,	,	u	u--------	_	23	AuxX	_	t_1344|e_35|ref=fr._7
+8	κατὰ	κατά	r	r--------	_	16	AuxP	_	t_1345|t_1353|ref=fr._7
+9	ἑτεροίωσιν	ἑτεροίωσις	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ADV	_	t_1346|t_1345|ref=fr._7
+10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	16	SBJ	_	t_1347|t_1353|ref=fr._7
+11	ἀπʼ	ἀπό	r	r--------	_	10	AuxP	_	t_1348|t_1347|ref=fr._7
+12	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1349|t_1348|ref=fr._7
+13	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_1350|t_1358|ref=fr._7
+14	τὰ	ὁ	l	l-p---na-	Case=a|Gender=n|Number=p	15	ATR	_	t_1351|t_1352|ref=fr._7
+15	ἄλλα	ἄλλος	p	p-p---na-	Case=a|Gender=n|Number=p	16	SBJ	_	t_1352|t_1353|ref=fr._7
+16	γίνεσθαι	γίγνομαι	v	v--pne---	Mood=n|Tense=p|Voice=e	13	OBJ	_	t_1353|t_1350|ref=fr._7
+17	,	,	u	u--------	_	16	AuxX	_	t_1354|t_1353|ref=fr._7
+18	ἀίδιον	ἀίδιος	a	a-s---na-	Case=a|Gender=n|Number=s	20	ATV	_	t_1355|t_1357|ref=fr._7
+19	ὅμως	ὅμως	d	d--------	_	21	AuxY	_	t_1356|t_1358|ref=fr._7
+20	αὐτό	αὐτός	p	p-s---na-	Case=a|Gender=n|Number=s	22	OBJ	_	t_1357|t_1359|ref=fr._7
+21	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	6	SBJ	_	t_1358|t_1343|ref=fr._7
+22	λέγων	λέγω3	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	21	ADV	_	t_1359|t_1358|ref=fr._7
+23	[0]	[0]	-	---------	_	0	PRED	_	e_35|0|ref=fr._7
+24	·	·	u	u--------	_	2	AuxK	_	t_1360|t_1339|ref=fr._7
 
-# source = Diogenes of Apollonia, fr._6-7
+# source = Diogenes of Apollonia, fr._7
 # text = καὶ αὐτὸ μὲν τοῦτο καὶ ἀίδιον καὶ ἀθάνατον σῶμα , τῶν δὲ τὰ μὲν γίνεται , τὰ δὲ ἀπολείπει [0] .
 # sent_id = 67
-1	καὶ	καί	c	c--------	_	12	AuxY	_	t_1361|t_1372|ref=fr._6
-2	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1362|t_1364|ref=fr._6
-3	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1363|e_36|ref=fr._6
-4	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_1364|e_36|ref=fr._6
-5	καὶ	καί	d	d--------	_	7	AuxY	_	t_1365|t_1367|ref=fr._6
-6	ἀίδιον	ἀίδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1366|t_1367|ref=fr._6
-7	καὶ	καί	c	c--------	_	9	COORD	_	t_1367|t_1369|ref=fr._6
-8	ἀθάνατον	ἀθάνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1368|t_1367|ref=fr._6
-9	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	20	PNOM	_	t_1369|e_36|ref=fr._6
-10	,	,	u	u--------	_	0	AuxX	_	t_1370|0|ref=fr._6
-11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1371|t_1373|ref=fr._6
+1	καὶ	καί	c	c--------	_	12	AuxY	_	t_1361|t_1372|ref=fr._7
+2	αὐτὸ	αὐτός	p	p-s---nn-	Case=n|Gender=n|Number=s	4	ATR	_	t_1362|t_1364|ref=fr._7
+3	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1363|e_36|ref=fr._7
+4	τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_1364|e_36|ref=fr._7
+5	καὶ	καί	d	d--------	_	7	AuxY	_	t_1365|t_1367|ref=fr._7
+6	ἀίδιον	ἀίδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1366|t_1367|ref=fr._7
+7	καὶ	καί	c	c--------	_	9	COORD	_	t_1367|t_1369|ref=fr._7
+8	ἀθάνατον	ἀθάνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1368|t_1367|ref=fr._7
+9	σῶμα	σῶμα	n	n-s---nn-	Case=n|Gender=n|Number=s	20	PNOM	_	t_1369|e_36|ref=fr._7
+10	,	,	u	u--------	_	0	AuxX	_	t_1370|0|ref=fr._7
+11	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	13	ATR	_	t_1371|t_1373|ref=fr._7
 12	δὲ	δέ	d	d--------	_	10	COORD	_	t_1372|t_1370|ref=fr._7
 13	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	15	SBJ	_	t_1373|t_1375|ref=fr._7
 14	μὲν	μέν	d	d--------	_	18	AuxY	_	t_1374|t_1378|ref=fr._7
@@ -1679,99 +1679,99 @@
 17	τὰ	ὁ	l	l-p---nn-	Case=n|Gender=n|Number=p	18	SBJ	_	t_1377|t_1378|ref=fr._7
 18	δὲ	δέ	d	d--------	_	12	COORD	_	t_1378|t_1372|ref=fr._7
 19	ἀπολείπει	ἀπολείπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	18	PRED	_	t_1379|t_1378|ref=fr._7
-20	[0]	[0]	-	---------	_	12	PRED	_	e_36|t_1372|ref=fr._2.5
+20	[0]	[0]	-	---------	_	12	PRED	_	e_36|t_1372|ref=fr._7
 21	.	.	u	u--------	_	10	AuxK	_	t_1380|t_1370|ref=fr._7
 
-# source = Diogenes of Apollonia, fr._7
+# source = Diogenes of Apollonia, fr._8
 # text = [ 3 ] καὶ ἐν ἂλλοις [0] ·
 # sent_id = 68
-1	[	[	u	u--------	_	7	AuxG	_	t_1381|e_37|ref=fr._7
-2	3	3	d	d--------	_	7	ExD	_	t_1382|e_37|ref=fr._7
-3	]	]	u	u--------	_	7	AuxG	_	t_1383|e_37|ref=fr._7
-4	καὶ	καί	d	d--------	_	7	AuxY	_	t_1384|e_37|ref=fr._7
-5	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1385|e_37|ref=fr._7
-6	ἂλλοις	ἄλλος	p	p-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_1386|t_1385|ref=fr._7
-7	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=fr._2.5
-8	·	·	u	u--------	_	7	AuxK	_	t_1387|e_37|ref=fr._7
-
-# source = Diogenes of Apollonia, fr._7
-# text = ἀλλὰ τοῦτό μοι δῆλον δοκεῖ εἶναι , ὅτι καὶ μέγα καὶ ἰσχυρὸν καὶ ἀίδιόν τε καὶ ἀθάνατον καὶ πολλὰ εἰδός ἐστι .
-# sent_id = 69
-1	ἀλλὰ	ἀλλά	d	d--------	_	5	AuxY	_	t_1388|t_1392|ref=fr._7
-2	τοῦτό	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_1389|t_1394|ref=fr._7
-3	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_1390|t_1392|ref=fr._7
-4	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1391|t_1393|ref=fr._7
-5	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1392|0|ref=fr._7
-6	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_1393|t_1392|ref=fr._7
-7	,	,	u	u--------	_	5	APOS	_	t_1394|t_1392|ref=fr._6
-8	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_1395|t_1394|ref=fr._7
-9	καὶ	καί	c	c--------	_	18	AuxY	_	t_1396|t_1405|ref=fr._7
-10	μέγα	μέγας	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1397|t_1405|ref=fr._7
-11	καὶ	καί	c	c--------	_	18	AuxY	_	t_1398|t_1405|ref=fr._7
-12	ἰσχυρὸν	ἰσχυρός	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1399|t_1405|ref=fr._7
-13	καὶ	καί	c	c--------	_	18	AuxY	_	t_1400|t_1405|ref=fr._7
-14	ἀίδιόν	ἀίδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1401|t_1405|ref=fr._7
-15	τε	τε	c	c--------	_	18	AuxY	_	t_1402|t_1405|ref=fr._7
-16	καὶ	καί	c	c--------	_	18	AuxY	_	t_1403|t_1405|ref=fr._7
-17	ἀθάνατον	ἀθάνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1404|t_1405|ref=fr._7
-18	καὶ	καί	c	c--------	_	21	COORD	_	t_1405|t_1408|ref=fr._7
-19	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	20	ADV	_	t_1406|t_1407|ref=fr._7
-20	εἰδός	οἶδα	n	n-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1407|t_1405|ref=fr._7
-21	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	SBJ	_	t_1408|t_1395|ref=fr._7
-22	.	.	u	u--------	_	5	AuxK	_	t_1409|t_1392|ref=fr._7
-
-# source = Diogenes of Apollonia, fr._7
-# text = [ S .
-# sent_id = 70
-1	[	[	u	u--------	_	0	AuxG	_	t_1410|0|ref=fr._7
-2	S	s	x	x--------	_	1	AuxG	_	t_1411|t_1410|ref=fr._7
-3	.	.	u	u--------	_	1	AuxK	_	t_1412|t_1410|ref=fr._7
-
-# source = Diogenes of Apollonia, fr._7
-# text = 126 ] καὶ .
-# sent_id = 71
-1	126	126	u	u--------	_	0	AuxG	_	t_1413|0|ref=fr._7
-2	]	]	u	u--------	_	1	AuxG	_	t_1414|t_1413|ref=fr._7
-3	καὶ	καί	d	d--------	_	1	AuxY	_	t_1415|t_1413|ref=fr._7
-4	.	.	u	u--------	_	1	AuxK	_	t_1416|t_1413|ref=fr._7
+1	[	[	u	u--------	_	7	AuxG	_	t_1381|e_37|ref=fr._8
+2	3	3	d	d--------	_	7	ExD	_	t_1382|e_37|ref=fr._8
+3	]	]	u	u--------	_	7	AuxG	_	t_1383|e_37|ref=fr._8
+4	καὶ	καί	d	d--------	_	7	AuxY	_	t_1384|e_37|ref=fr._8
+5	ἐν	ἐν	r	r--------	_	7	AuxP	_	t_1385|e_37|ref=fr._8
+6	ἂλλοις	ἄλλος	p	p-p---nd-	Case=d|Gender=n|Number=p	5	ADV	_	t_1386|t_1385|ref=fr._8
+7	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=fr._8
+8	·	·	u	u--------	_	7	AuxK	_	t_1387|e_37|ref=fr._8
 
 # source = Diogenes of Apollonia, fr._8
+# text = ἀλλὰ τοῦτό μοι δῆλον δοκεῖ εἶναι , ὅτι καὶ μέγα καὶ ἰσχυρὸν καὶ ἀίδιόν τε καὶ ἀθάνατον καὶ πολλὰ εἰδός ἐστι .
+# sent_id = 69
+1	ἀλλὰ	ἀλλά	d	d--------	_	5	AuxY	_	t_1388|t_1392|ref=fr._8
+2	τοῦτό	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	7	SBJ	_	t_1389|t_1394|ref=fr._8
+3	μοι	ἐγώ	p	p-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_1390|t_1392|ref=fr._8
+4	δῆλον	δῆλος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1391|t_1393|ref=fr._8
+5	δοκεῖ	δοκέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1392|0|ref=fr._8
+6	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	5	OBJ	_	t_1393|t_1392|ref=fr._8
+7	,	,	u	u--------	_	5	APOS	_	t_1394|t_1392|ref=fr._8
+8	ὅτι	ὅτι	c	c--------	_	7	AuxC	_	t_1395|t_1394|ref=fr._8
+9	καὶ	καί	c	c--------	_	18	AuxY	_	t_1396|t_1405|ref=fr._8
+10	μέγα	μέγας	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1397|t_1405|ref=fr._8
+11	καὶ	καί	c	c--------	_	18	AuxY	_	t_1398|t_1405|ref=fr._8
+12	ἰσχυρὸν	ἰσχυρός	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1399|t_1405|ref=fr._8
+13	καὶ	καί	c	c--------	_	18	AuxY	_	t_1400|t_1405|ref=fr._8
+14	ἀίδιόν	ἀίδιος	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1401|t_1405|ref=fr._8
+15	τε	τε	c	c--------	_	18	AuxY	_	t_1402|t_1405|ref=fr._8
+16	καὶ	καί	c	c--------	_	18	AuxY	_	t_1403|t_1405|ref=fr._8
+17	ἀθάνατον	ἀθάνατος	a	a-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1404|t_1405|ref=fr._8
+18	καὶ	καί	c	c--------	_	21	COORD	_	t_1405|t_1408|ref=fr._8
+19	πολλὰ	πολύς	a	a-p---na-	Case=a|Gender=n|Number=p	20	ADV	_	t_1406|t_1407|ref=fr._8
+20	εἰδός	οἶδα	n	n-s---nn-	Case=n|Gender=n|Number=s	18	PNOM	_	t_1407|t_1405|ref=fr._8
+21	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	SBJ	_	t_1408|t_1395|ref=fr._8
+22	.	.	u	u--------	_	5	AuxK	_	t_1409|t_1392|ref=fr._8
+
+# source = Diogenes of Apollonia, fr._9
+# text = [ S .
+# sent_id = 70
+1	[	[	u	u--------	_	0	AuxG	_	t_1410|0|ref=fr._9
+2	S	s	x	x--------	_	1	AuxG	_	t_1411|t_1410|ref=fr._9
+3	.	.	u	u--------	_	1	AuxK	_	t_1412|t_1410|ref=fr._9
+
+# source = Diogenes of Apollonia, fr._9
+# text = 126 ] καὶ .
+# sent_id = 71
+1	126	126	u	u--------	_	0	AuxG	_	t_1413|0|ref=fr._9
+2	]	]	u	u--------	_	1	AuxG	_	t_1414|t_1413|ref=fr._9
+3	καὶ	καί	d	d--------	_	1	AuxY	_	t_1415|t_1413|ref=fr._9
+4	.	.	u	u--------	_	1	AuxK	_	t_1416|t_1413|ref=fr._9
+
+# source = Diogenes of Apollonia, fr._9
 # text = μέντοι καὶ ὡμολόγηται σχεδὸν ἅπασι τοῖς ἰαπροῖς οὐ μόνον διαπλάττεσθαι θᾶττσν , ἀλλὰ καὶ κινεῖσθαι τὸ ἄρρεν τοῦ θήλεος . . .
 # sent_id = 72
-1	μέντοι	μέντοι	d	d--------	_	3	AuxY	_	t_1417|t_1419|ref=fr._8
-2	καὶ	καί	c	c--------	_	3	AuxY	_	t_1418|t_1419|ref=fr._8
-3	ὡμολόγηται	ὁμολογέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1419|0|ref=fr._8
-4	σχεδὸν	σχεδόν	d	d--------	_	3	ADV	_	t_1420|t_1419|ref=fr._8
-5	ἅπασι	ἅπας	a	a-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_1421|t_1423|ref=fr._8
-6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_1422|t_1423|ref=fr._8
-7	ἰαπροῖς	ἰαπρός	n	n-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_1423|t_1419|ref=fr._7
-8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_1424|t_1425|ref=fr._8
-9	μόνον	μόνος	d	d--------	_	10	ADV	_	t_1425|t_1426|ref=fr._8
-10	διαπλάττεσθαι	διαπλάττω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_1426|t_1429|ref=fr._8
-11	θᾶττσν	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	10	ADV	_	t_1427|t_1426|ref=fr._8
-12	,	,	u	u--------	_	3	AuxX	_	t_1428|t_1419|ref=fr._8
-13	ἀλλὰ	ἀλλά	c	c--------	_	3	COORD	_	t_1429|t_1419|ref=fr._8
-14	καὶ	καί	d	d--------	_	15	AuxZ	_	t_1430|t_1431|ref=fr._8
-15	κινεῖσθαι	κινέω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_1431|t_1429|ref=fr._8
-16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_1432|t_1433|ref=fr._8
-17	ἄρρεν	ἄρσην	n	n-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_1433|t_1431|ref=fr._8
-18	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_1434|t_1435|ref=fr._8
-19	θήλεος	θῆλυς	n	n-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_1435|t_1433|ref=fr._8
-20	.	.	u	u--------	_	3	AuxK	_	t_1436|t_1419|ref=fr._8
-21	.	.	u	u--------	_	3	AuxK	_	t_1437|t_1419|ref=fr._8
-22	.	.	u	u--------	_	3	AuxK	_	t_1438|t_1419|ref=fr._8
+1	μέντοι	μέντοι	d	d--------	_	3	AuxY	_	t_1417|t_1419|ref=fr._9
+2	καὶ	καί	c	c--------	_	3	AuxY	_	t_1418|t_1419|ref=fr._9
+3	ὡμολόγηται	ὁμολογέω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1419|0|ref=fr._9
+4	σχεδὸν	σχεδόν	d	d--------	_	3	ADV	_	t_1420|t_1419|ref=fr._9
+5	ἅπασι	ἅπας	a	a-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_1421|t_1423|ref=fr._9
+6	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	7	ATR	_	t_1422|t_1423|ref=fr._9
+7	ἰαπροῖς	ἰαπρός	n	n-p---md-	Case=d|Gender=m|Number=p	3	OBJ	_	t_1423|t_1419|ref=fr._9
+8	οὐ	οὐ	d	d--------	_	9	AuxZ	_	t_1424|t_1425|ref=fr._9
+9	μόνον	μόνος	d	d--------	_	10	ADV	_	t_1425|t_1426|ref=fr._9
+10	διαπλάττεσθαι	διαπλάττω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_1426|t_1429|ref=fr._9
+11	θᾶττσν	ταχύς	a	a-s---nac	Case=a|Degree=c|Gender=n|Number=s	10	ADV	_	t_1427|t_1426|ref=fr._9
+12	,	,	u	u--------	_	3	AuxX	_	t_1428|t_1419|ref=fr._9
+13	ἀλλὰ	ἀλλά	c	c--------	_	3	COORD	_	t_1429|t_1419|ref=fr._9
+14	καὶ	καί	d	d--------	_	15	AuxZ	_	t_1430|t_1431|ref=fr._9
+15	κινεῖσθαι	κινέω	v	v--pne---	Mood=n|Tense=p|Voice=e	13	SBJ	_	t_1431|t_1429|ref=fr._9
+16	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	17	ATR	_	t_1432|t_1433|ref=fr._9
+17	ἄρρεν	ἄρσην	n	n-s---na-	Case=a|Gender=n|Number=s	15	OBJ	_	t_1433|t_1431|ref=fr._9
+18	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	19	ATR	_	t_1434|t_1435|ref=fr._9
+19	θήλεος	θῆλυς	n	n-s---ng-	Case=g|Gender=n|Number=s	17	ATR	_	t_1435|t_1433|ref=fr._9
+20	.	.	u	u--------	_	3	AuxK	_	t_1436|t_1419|ref=fr._9
+21	.	.	u	u--------	_	3	AuxK	_	t_1437|t_1419|ref=fr._9
+22	.	.	u	u--------	_	3	AuxK	_	t_1438|t_1419|ref=fr._9
 
-# source = Diogenes of Apollonia, fr._8-9
+# source = Diogenes of Apollonia, fr._9
 # text = Ῥοῦφος δὲ φησι Διογένη τὸν Ἀπολλωνιάτην μόνον ἐναντίως ἀποφήνασθαι κατὰ τὸ Περὶ φύσεως δεύτερον .
 # sent_id = 73
-1	Ῥοῦφος	ῥοῦφος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1439|t_1441|ref=fr._8
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1440|t_1441|ref=fr._8
-3	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1441|0|ref=fr._8
-4	Διογένη	διογένης	n	n-s---ma-	Case=a|Gender=m|Number=s	3	SBJ	_	t_1442|t_1441|ref=fr._8
-5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_1443|t_1444|ref=fr._8
-6	Ἀπολλωνιάτην	ἀπολλωνιάτης	n	n-s---ma-	Case=a|Gender=m|Number=s	9	SBJ	_	t_1444|t_1447|ref=fr._8
-7	μόνον	μόνος	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATV	_	t_1445|t_1444|ref=fr._8
-8	ἐναντίως	ἐναντίος	d	d--------	_	9	ADV	_	t_1446|t_1447|ref=fr._8
+1	Ῥοῦφος	ῥοῦφος	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1439|t_1441|ref=fr._9
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1440|t_1441|ref=fr._9
+3	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1441|0|ref=fr._9
+4	Διογένη	διογένης	n	n-s---ma-	Case=a|Gender=m|Number=s	3	SBJ	_	t_1442|t_1441|ref=fr._9
+5	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	6	ATR	_	t_1443|t_1444|ref=fr._9
+6	Ἀπολλωνιάτην	ἀπολλωνιάτης	n	n-s---ma-	Case=a|Gender=m|Number=s	9	SBJ	_	t_1444|t_1447|ref=fr._9
+7	μόνον	μόνος	a	a-s---ma-	Case=a|Gender=m|Number=s	6	ATV	_	t_1445|t_1444|ref=fr._9
+8	ἐναντίως	ἐναντίος	d	d--------	_	9	ADV	_	t_1446|t_1447|ref=fr._9
 9	ἀποφήνασθαι	ἀποφαίνω	v	v--anm---	Mood=n|Tense=a|Voice=m	3	OBJ	_	t_1447|t_1441|ref=fr._9
 10	κατὰ	κατά	r	r--------	_	9	AuxP	_	t_1448|t_1447|ref=fr._9
 11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	14	ATR	_	t_1449|t_1452|ref=fr._9
@@ -1791,28 +1791,28 @@
 6	βιβλίωι	βιβλίον	n	n-s---nd-	Case=d|Gender=n|Number=s	4	OBJ	_	t_1459|t_1457|ref=fr._9
 7	.	.	u	u--------	_	4	AuxK	_	t_1460|t_1457|ref=fr._9
 
-# source = Diogenes of Apollonia, fr._9
+# source = Diogenes of Apollonia, fr._10
 # text = [ 0 ] τὸ δὲ πλῆ εἰρημένον παρὰ Διογένει τῶι Ἀπολλωνιάτηι ἀντὶ τσῦ πλέη θηλυκοῦ ἐπιθετικῶς ἄγνωστον τοῖς ἄλλοις [0] .
 # sent_id = 75
-1	[	[	u	u--------	_	2	AuxG	_	t_1461|t_1462|ref=fr._9
-2	0	0	x	x--------	_	0	AuxG	_	t_1462|0|ref=fr._9
-3	]	]	u	u--------	_	2	AuxG	_	t_1463|t_1462|ref=fr._9
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_1464|t_1466|ref=fr._9
-5	δὲ	δέ	d	d--------	_	20	AuxY	_	t_1465|e_38|ref=fr._9
-6	πλῆ	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_1466|e_38|ref=fr._9
-7	εἰρημένον	ἐρῶ	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	6	ATR	_	t_1467|t_1466|ref=fr._9
-8	παρὰ	παρά	r	r--------	_	7	AuxP	_	t_1468|t_1467|ref=fr._9
-9	Διογένει	διογένης	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_1469|t_1468|ref=fr._9
-10	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	11	ATR	_	t_1470|t_1471|ref=fr._9
-11	Ἀπολλωνιάτηι	ἀπολλωνιάτης	n	n-s---md-	Case=d|Gender=m|Number=s	9	APOS	_	t_1471|t_1469|ref=fr._9
-12	ἀντὶ	ἀντί	r	r--------	_	7	AuxP	_	t_1472|t_1467|ref=fr._9
-13	τσῦ	σύ	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_1473|t_1472|ref=fr._9
-14	πλέη	πλέως	n	n-s---mg-	Mood=i|Number=s|Person=3|Tense=i|Voice=a	13	ATR	_	t_1474|t_1473|ref=fr._9
-15	θηλυκοῦ	θηλυκός	a	a-s---mg-	Case=g|Gender=n|Number=s	14	ATR	_	t_1475|t_1474|ref=fr._9
-16	ἐπιθετικῶς	ἐπιθετικός	d	d--------	_	20	ADV	_	t_1476|e_38|ref=fr._9
-17	ἄγνωστον	ἄγνωστος	a	a-s---nn-	Case=n|Gender=n|Number=s	20	PNOM	_	t_1477|e_38|ref=fr._9
-18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_1478|t_1479|ref=fr._9
-19	ἄλλοις	ἄλλος	p	p-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_1479|t_1477|ref=fr._9
-20	[0]	[0]	-	---------	_	2	PRED	_	e_38|t_1462|ref=fr._2.5
-21	.	.	u	u--------	_	2	AuxK	_	t_1480|t_1462|ref=fr._9
+1	[	[	u	u--------	_	2	AuxG	_	t_1461|t_1462|ref=fr._10
+2	0	0	x	x--------	_	0	AuxG	_	t_1462|0|ref=fr._10
+3	]	]	u	u--------	_	2	AuxG	_	t_1463|t_1462|ref=fr._10
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	6	ATR	_	t_1464|t_1466|ref=fr._10
+5	δὲ	δέ	d	d--------	_	20	AuxY	_	t_1465|e_38|ref=fr._10
+6	πλῆ	πλῆθος	n	n-s---nn-	Case=n|Gender=n|Number=s	20	SBJ	_	t_1466|e_38|ref=fr._10
+7	εἰρημένον	ἐρῶ	v	v-srpenn-	Case=n|Gender=n|Mood=p|Number=s|Tense=r|Voice=e	6	ATR	_	t_1467|t_1466|ref=fr._10
+8	παρὰ	παρά	r	r--------	_	7	AuxP	_	t_1468|t_1467|ref=fr._10
+9	Διογένει	διογένης	n	n-s---md-	Case=d|Gender=m|Number=s	8	ADV	_	t_1469|t_1468|ref=fr._10
+10	τῶι	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	11	ATR	_	t_1470|t_1471|ref=fr._10
+11	Ἀπολλωνιάτηι	ἀπολλωνιάτης	n	n-s---md-	Case=d|Gender=m|Number=s	9	APOS	_	t_1471|t_1469|ref=fr._10
+12	ἀντὶ	ἀντί	r	r--------	_	7	AuxP	_	t_1472|t_1467|ref=fr._10
+13	τσῦ	σύ	n	n-s---fa-	Case=a|Gender=f|Number=s	12	ADV	_	t_1473|t_1472|ref=fr._10
+14	πλέη	πλέως	n	n-s---mg-	Mood=i|Number=s|Person=3|Tense=i|Voice=a	13	ATR	_	t_1474|t_1473|ref=fr._10
+15	θηλυκοῦ	θηλυκός	a	a-s---mg-	Case=g|Gender=n|Number=s	14	ATR	_	t_1475|t_1474|ref=fr._10
+16	ἐπιθετικῶς	ἐπιθετικός	d	d--------	_	20	ADV	_	t_1476|e_38|ref=fr._10
+17	ἄγνωστον	ἄγνωστος	a	a-s---nn-	Case=n|Gender=n|Number=s	20	PNOM	_	t_1477|e_38|ref=fr._10
+18	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	19	ATR	_	t_1478|t_1479|ref=fr._10
+19	ἄλλοις	ἄλλος	p	p-p---md-	Case=d|Gender=m|Number=p	17	ADV	_	t_1479|t_1477|ref=fr._10
+20	[0]	[0]	-	---------	_	2	PRED	_	e_38|t_1462|ref=fr._10
+21	.	.	u	u--------	_	2	AuxK	_	t_1480|t_1462|ref=fr._10
 

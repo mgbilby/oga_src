@@ -429,14 +429,14 @@
 23	[0]	[0]	-	---------	_	0	PRED	_	e_5|0|ref=opt.medic._1
 24	.	.	u	u--------	_	23	AuxK	_	t_358|e_5|ref=opt.medic._1
 
-# source = Galen, opt.medic._1-2
+# source = Galen, opt.medic._2
 # text = διόπερ ἔδοξέ μοι ζητῆσαι τὴν αἰτίαν , ἥ τίς ποτʼ ἐστὶ , διʼ ἣν , καίτοι θαυμάζονται ἅπαντες τὸν ἄνδρα , μήτ ’ ἀναγινώσκουσιν αὐτοῦ τὰ συγγράμματα , μήτ ’ , εἰ καί τῳ τοῦτο παρασταίη , συνίησι τῶν λεγομένων , ἢ , εἰ καὶ τοῦτο εὐτυχήσειεν , ἀσκήσει τὴν θεωρίαν ἐπεξέρχεται , βεβαιώσασθαί τε καὶ εἰς ἕξιν ἀγαγεῖν βουλόμενος , εὑρίσκων δὴ καὶ σύμπαντα κατορθούμενα βουλήσει τε καὶ δυνάμει τοῖς ἀνθρώποις παραγιγνόμενα .
 # sent_id = 18
-1	διόπερ	διόπερ	d	d--------	_	2	AuxY	_	t_359|t_360|ref=opt.medic._1
-2	ἔδοξέ	δοκέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_360|0|ref=opt.medic._1
-3	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	2	OBJ	_	t_361|t_360|ref=opt.medic._1
-4	ζητῆσαι	ζητέω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	SBJ	_	t_362|t_360|ref=opt.medic._1
-5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_363|t_364|ref=opt.medic._1
+1	διόπερ	διόπερ	d	d--------	_	2	AuxY	_	t_359|t_360|ref=opt.medic._2
+2	ἔδοξέ	δοκέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_360|0|ref=opt.medic._2
+3	μοι	ἐγώ	p	p1s---md-	Case=d|Gender=m|Number=s|Person=1	2	OBJ	_	t_361|t_360|ref=opt.medic._2
+4	ζητῆσαι	ζητέω	v	v--ana---	Mood=n|Tense=a|Voice=a	2	SBJ	_	t_362|t_360|ref=opt.medic._2
+5	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	6	ATR	_	t_363|t_364|ref=opt.medic._2
 6	αἰτίαν	αἰτία	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_364|t_362|ref=opt.medic._2
 7	,	,	u	u--------	_	2	AuxX	_	t_365|t_360|ref=opt.medic._2
 8	ἥ	ὅς	p	p-s---fn-	Case=n|Gender=f|Number=s	11	SBJ	_	t_366|t_369|ref=opt.medic._2
@@ -521,7 +521,7 @@
 9	αὐτῶν	αὐτός	p	p-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_441|t_440|ref=opt.medic._2
 10	ἀναγκαῖον	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	12	PNOM	_	t_442|e_6|ref=opt.medic._2
 11	ἀποτυχεῖν	ἀποτυγχάνω	v	v--ana---	Mood=n|Tense=a|Voice=a	12	SBJ	_	t_443|e_6|ref=opt.medic._2
-12	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=opt.medic._1
+12	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=opt.medic._2
 13	.	.	u	u--------	_	12	AuxK	_	t_444|e_6|ref=opt.medic._2
 
 # source = Galen, opt.medic._2
@@ -581,7 +581,7 @@
 24	τόνδε	ὅδε	p	p-s---ma-	Case=a|Gender=m|Number=s	26	ATR	_	t_492|t_494|ref=opt.medic._2
 25	στεφανίτας	στεφανίτης	n	n-p---ma-	Case=a|Gender=m|Number=p	26	ATR	_	t_493|t_494|ref=opt.medic._2
 26	ἀγῶνας	ἀγών	n	n-p---ma-	Case=a|Gender=m|Number=p	23	OBJ	_	t_494|t_491|ref=opt.medic._2
-27	[0]	[0]	-	---------	_	12	ADV	_	e_7|t_480|ref=opt.medic._1
+27	[0]	[0]	-	---------	_	12	ADV	_	e_7|t_480|ref=opt.medic._2
 28	;	;	u	u--------	_	27	AuxK	_	t_495|e_7|ref=opt.medic._2
 
 # source = Galen, opt.medic._2
@@ -695,8 +695,8 @@
 40	μεταβολήν	μεταβολή	n	n-s---fa-	Case=a|Gender=f|Number=s	42	OBJ	_	t_593|t_595|ref=opt.medic._2
 41	τινα	τις	a	a-s---fa-	Case=a|Gender=f|Number=s	40	ATR	_	t_594|t_593|ref=opt.medic._2
 42	ἐσχηκότος	ἔχω	v	v-srpamg-	Case=g|Gender=m|Mood=p|Number=s|Tense=r|Voice=a	38	ATR	_	t_595|t_591|ref=opt.medic._2
-43	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=opt.medic._1
-44	[1]	[1]	-	---------	_	23	ADV	_	e_9|t_576|ref=opt.medic._1
+43	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=opt.medic._2
+44	[1]	[1]	-	---------	_	23	ADV	_	e_9|t_576|ref=opt.medic._2
 45	.	.	u	u--------	_	43	AuxK	_	t_596|e_8|ref=opt.medic._2
 
 # source = Galen, opt.medic._2
@@ -747,9 +747,9 @@
 43	ἔτι	ἔτι	d	d--------	_	44	ADV	_	t_639|t_640|ref=opt.medic._2
 44	γενέσθαι	γίγνομαι	v	v--anm---	Mood=n|Tense=a|Voice=m	37	SBJ	_	t_640|t_633|ref=opt.medic._2
 45	τινά	τις	p	p-s---ma-	Case=a|Gender=c|Number=s	44	SBJ	_	t_641|t_640|ref=opt.medic._2
-46	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=opt.medic._1
-47	[1]	[1]	-	---------	_	37	ADV	_	e_11|t_633|ref=opt.medic._1
-48	[2]	[2]	-	---------	_	37	ADV	_	e_12|t_633|ref=opt.medic._1
+46	[0]	[0]	-	---------	_	0	PRED	_	e_10|0|ref=opt.medic._2
+47	[1]	[1]	-	---------	_	37	ADV	_	e_11|t_633|ref=opt.medic._2
+48	[2]	[2]	-	---------	_	37	ADV	_	e_12|t_633|ref=opt.medic._2
 49	.	.	u	u--------	_	46	AuxK	_	t_642|e_10|ref=opt.medic._2
 
 # source = Galen, opt.medic._2
@@ -884,8 +884,8 @@
 21	θάτερον	ἕτερος	a	a-s---na-	Case=a|Gender=n|Number=s	20	ADV	_	t_753|t_752|ref=opt.medic._2
 22	ὁρμήσαντα	ὁρμάω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	17	OBJ	_	t_754|t_749|ref=opt.medic._2
 23	σφοδρότερον	σφοδρός	a	a-s---mac	Case=a|Degree=c|Gender=m|Number=s	22	ADV	_	t_755|t_754|ref=opt.medic._2
-24	[0]	[0]	-	---------	_	15	PRED	_	e_13|t_747|ref=opt.medic._1
-25	[1]	[1]	-	---------	_	15	PRED	_	e_14|t_747|ref=opt.medic._1
+24	[0]	[0]	-	---------	_	15	PRED	_	e_13|t_747|ref=opt.medic._2
+25	[1]	[1]	-	---------	_	15	PRED	_	e_14|t_747|ref=opt.medic._2
 26	.	.	u	u--------	_	8	AuxK	_	t_756|t_740|ref=opt.medic._2
 
 # source = Galen, opt.medic._2
@@ -955,23 +955,23 @@
 31	προϊόντος	πρόειμι1	v	v-sppang-	Case=g|Gender=n|Mood=p|Number=s|Tense=p|Voice=a	28	ADV	_	t_814|t_811|ref=opt.medic._2
 32	;	;	u	u--------	_	1	AuxK	_	t_815|t_784|ref=opt.medic._2
 
-# source = Galen, opt.medic._2-3
+# source = Galen, opt.medic._3
 # text = καὶ μὴν εἴ τίς γʼ ἐστὶ τοιοῦτος , ὑπερόψεται μὲν Ἀρταξέρξου τε καὶ Περδίκκου .
 # sent_id = 33
-1	καὶ	καί	d	d--------	_	9	AuxY	_	t_816|t_824|ref=opt.medic._2
-2	μὴν	μήν	d	d--------	_	9	AuxZ	_	t_817|t_824|ref=opt.medic._2
-3	εἴ	εἰ	c	c--------	_	9	AuxC	_	t_818|t_824|ref=opt.medic._2
-4	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_819|t_821|ref=opt.medic._2
-5	γʼ	γε	d	d--------	_	4	AuxZ	_	t_820|t_819|ref=opt.medic._2
-6	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ADV	_	t_821|t_818|ref=opt.medic._2
-7	τοιοῦτος	τοιοῦτος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_822|t_821|ref=opt.medic._2
-8	,	,	u	u--------	_	9	AuxX	_	t_823|t_824|ref=opt.medic._2
-9	ὑπερόψεται	ὑπεροράω	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_824|0|ref=opt.medic._2
-10	μὲν	μέν	d	d--------	_	9	AuxY	_	t_825|t_824|ref=opt.medic._2
-11	Ἀρταξέρξου	ἀρταξέρξης	n	n-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_826|t_828|ref=opt.medic._2
-12	τε	τε	c	c--------	_	13	AuxY	_	t_827|t_828|ref=opt.medic._2
-13	καὶ	καί	c	c--------	_	9	COORD	_	t_828|t_824|ref=opt.medic._2
-14	Περδίκκου	περδίκκας	n	n-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_829|t_828|ref=opt.medic._2
+1	καὶ	καί	d	d--------	_	9	AuxY	_	t_816|t_824|ref=opt.medic._3
+2	μὴν	μήν	d	d--------	_	9	AuxZ	_	t_817|t_824|ref=opt.medic._3
+3	εἴ	εἰ	c	c--------	_	9	AuxC	_	t_818|t_824|ref=opt.medic._3
+4	τίς	τις	p	p-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_819|t_821|ref=opt.medic._3
+5	γʼ	γε	d	d--------	_	4	AuxZ	_	t_820|t_819|ref=opt.medic._3
+6	ἐστὶ	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ADV	_	t_821|t_818|ref=opt.medic._3
+7	τοιοῦτος	τοιοῦτος	p	p-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_822|t_821|ref=opt.medic._3
+8	,	,	u	u--------	_	9	AuxX	_	t_823|t_824|ref=opt.medic._3
+9	ὑπερόψεται	ὑπεροράω	v	v3sfim---	Mood=i|Number=s|Person=3|Tense=f|Voice=m	0	PRED	_	t_824|0|ref=opt.medic._3
+10	μὲν	μέν	d	d--------	_	9	AuxY	_	t_825|t_824|ref=opt.medic._3
+11	Ἀρταξέρξου	ἀρταξέρξης	n	n-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_826|t_828|ref=opt.medic._3
+12	τε	τε	c	c--------	_	13	AuxY	_	t_827|t_828|ref=opt.medic._3
+13	καὶ	καί	c	c--------	_	9	COORD	_	t_828|t_824|ref=opt.medic._3
+14	Περδίκκου	περδίκκας	n	n-s---mg-	Case=g|Gender=m|Number=s	13	OBJ	_	t_829|t_828|ref=opt.medic._3
 15	.	.	u	u--------	_	9	AuxK	_	t_830|t_824|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1143,7 +1143,7 @@
 32	λιμνῶν	λιμνει	n	n-p---mg-	Case=g|Gender=m|Number=p	33	ATR	_	t_974|t_975|ref=opt.medic._3
 33	καὶ	καί	c	c--------	_	31	COORD	_	t_975|t_973|ref=opt.medic._3
 34	ποταμῶν	ποταμός	n	n-p---mg-	Case=g|Gender=m|Number=p	33	ATR	_	t_976|t_975|ref=opt.medic._3
-35	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=opt.medic._1
+35	[0]	[0]	-	---------	_	0	PRED	_	e_15|0|ref=opt.medic._3
 36	·	·	u	u--------	_	35	AuxK	_	t_977|e_15|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1177,8 +1177,8 @@
 26	τισιν	τις	p	p-p---nd-	Case=d|Gender=n|Number=p	25	OBJ	_	t_1003|t_1002|ref=opt.medic._3
 27	ἑτέροις	ἕτερος	a	a-p---nd-	Case=d|Gender=n|Number=p	25	OBJ	_	t_1004|t_1002|ref=opt.medic._3
 28	τοιούτοις	τοιοῦτος	p	p-p---nd-	Case=d|Gender=n|Number=p	27	ATR	_	t_1005|t_1004|ref=opt.medic._3
-29	[0]	[0]	-	---------	_	5	ADV	_	e_16|t_982|ref=opt.medic._1
-30	[1]	[1]	-	---------	_	25	ADV	_	e_17|t_1002|ref=opt.medic._1
+29	[0]	[0]	-	---------	_	5	ADV	_	e_16|t_982|ref=opt.medic._3
+30	[1]	[1]	-	---------	_	25	ADV	_	e_17|t_1002|ref=opt.medic._3
 31	·	·	u	u--------	_	1	AuxK	_	t_1006|t_978|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1233,7 +1233,7 @@
 13	φιλόπονον	φιλόπονος	a	a-s---ma-	Case=a|Gender=m|Number=s	15	PNOM	_	t_1049|t_1051|ref=opt.medic._3
 14	ἐσχάτως	ἔσχατος	d	d--------	_	15	ADV	_	t_1050|t_1051|ref=opt.medic._3
 15	ὑπάρχειν	ὑπάρχω	v	v--pna---	Mood=n|Tense=p|Voice=a	11	SBJ	_	t_1051|t_1047|ref=opt.medic._3
-16	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=opt.medic._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=opt.medic._3
 17	.	.	u	u--------	_	16	AuxK	_	t_1052|e_18|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1283,8 +1283,8 @@
 13	ἀληθὴς	ἀληθής	a	a-s---mn-	Case=n|Gender=m|Number=s	14	ATR	_	t_1090|t_1091|ref=opt.medic._3
 14	ἰατρὸς	ἰατρός	n	n-s---mn-	Case=n|Gender=m|Number=s	15	SBJ	_	t_1091|t_1092|ref=opt.medic._3
 15	ἐξεύρηται	ἐξευρίσκω	v	v3sasm---	Mood=s|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1092|0|ref=opt.medic._3
-16	[0]	[0]	-	---------	_	5	ADV	_	e_19|t_1082|ref=opt.medic._1
-17	[1]	[1]	-	---------	_	5	ADV	_	e_20|t_1082|ref=opt.medic._1
+16	[0]	[0]	-	---------	_	5	ADV	_	e_19|t_1082|ref=opt.medic._3
+17	[1]	[1]	-	---------	_	5	ADV	_	e_20|t_1082|ref=opt.medic._3
 18	.	.	u	u--------	_	15	AuxK	_	t_1093|t_1092|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1320,7 +1320,7 @@
 28	ἔνδειξίν	ἔνδειξις	n	n-s---fa-	Case=a|Gender=f|Number=s	27	OBJ	_	t_1121|t_1120|ref=opt.medic._3
 29	τινα	τις	p	p-p---na-	Case=a|Gender=f|Number=s	27	OBJ	_	t_1122|t_1120|ref=opt.medic._3
 30	ἰαμάτων	ἰάμα	n	n-p---ng-	Case=g|Gender=n|Number=p	29	ATR	_	t_1123|t_1122|ref=opt.medic._3
-31	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=opt.medic._1
+31	[0]	[0]	-	---------	_	0	PRED	_	e_21|0|ref=opt.medic._3
 32	.	.	u	u--------	_	31	AuxK	_	t_1124|e_21|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1376,9 +1376,9 @@
 48	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	50	ATR	_	t_1172|t_1174|ref=opt.medic._3
 49	ὀργανικῶν	ὀργανικός	a	a-p---ng-	Case=g|Gender=n|Number=p	50	ATR	_	t_1173|t_1174|ref=opt.medic._3
 50	μορίων	μόριον	n	n-p---ng-	Case=g|Gender=n|Number=p	47	ATR	_	t_1174|t_1171|ref=opt.medic._3
-51	[0]	[0]	-	---------	_	41	PRED	_	e_22|t_1165|ref=opt.medic._1
-52	[1]	[1]	-	---------	_	41	PRED	_	e_23|t_1165|ref=opt.medic._1
-53	[2]	[2]	-	---------	_	41	PRED	_	e_24|t_1165|ref=opt.medic._1
+51	[0]	[0]	-	---------	_	41	PRED	_	e_22|t_1165|ref=opt.medic._3
+52	[1]	[1]	-	---------	_	41	PRED	_	e_23|t_1165|ref=opt.medic._3
+53	[2]	[2]	-	---------	_	41	PRED	_	e_24|t_1165|ref=opt.medic._3
 54	.	.	u	u--------	_	13	AuxK	_	t_1175|t_1137|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1420,7 +1420,7 @@
 34	δήπου	δήπου	d	d--------	_	35	AuxZ	_	t_1209|t_1210|ref=opt.medic._3
 35	διδάσκεται	διδάσκω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1210|0|ref=opt.medic._3
 36	μεθόδου	μέθοδος	n	n-s---fg-	Case=g|Gender=f|Number=s	31	ADV	_	t_1211|t_1206|ref=opt.medic._3
-37	[0]	[0]	-	---------	_	12	SBJ	_	e_25|t_1187|ref=opt.medic._1
+37	[0]	[0]	-	---------	_	12	SBJ	_	e_25|t_1187|ref=opt.medic._3
 38	.	.	u	u--------	_	35	AuxK	_	t_1212|t_1210|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1563,7 +1563,7 @@
 7	ἀναγκαῖον	ἀναγκαῖος	a	a-s---nn-	Case=n|Gender=n|Number=s	10	PNOM	_	t_1335|e_26|ref=opt.medic._3
 8	ἔχειν	ἔχω	v	v--pna---	Mood=n|Tense=p|Voice=a	10	SBJ	_	t_1336|e_26|ref=opt.medic._3
 9	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	8	SBJ	_	t_1337|t_1336|ref=opt.medic._3
-10	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=opt.medic._1
+10	[0]	[0]	-	---------	_	0	PRED	_	e_26|0|ref=opt.medic._3
 11	.	.	u	u--------	_	10	AuxK	_	t_1338|e_26|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1596,8 +1596,8 @@
 25	μιᾶς	εἷς	m	m-s---fg-	Case=g|Gender=f|Number=s	26	ATR	_	t_1363|t_1364|ref=opt.medic._3
 26	μηρίνθου	μηρίνθῳ	n	n-s---fg-	Case=g|Gender=f|Number=s	24	ADV	_	t_1364|t_1362|ref=opt.medic._3
 27	δεδεμένας	δέω1	v	v-prpefa-	Case=a|Gender=f|Mood=p|Number=p|Tense=r|Voice=e	29	ADV	_	t_1365|e_28|ref=opt.medic._3
-28	[0]	[0]	-	---------	_	6	PRED	_	e_27|t_1344|ref=opt.medic._1
-29	[1]	[1]	-	---------	_	6	PRED	_	e_28|t_1344|ref=opt.medic._1
+28	[0]	[0]	-	---------	_	6	PRED	_	e_27|t_1344|ref=opt.medic._3
+29	[1]	[1]	-	---------	_	6	PRED	_	e_28|t_1344|ref=opt.medic._3
 30	.	.	u	u--------	_	5	AuxK	_	t_1366|t_1343|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1639,8 +1639,8 @@
 34	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	25	SBJ	_	t_1400|t_1391|ref=opt.medic._3
 35	καὶ	καί	c	c--------	_	34	COORD	_	t_1401|t_1400|ref=opt.medic._3
 36	φιλόσοφος	φιλόσοφος	n	n-s---mn-	Case=n|Gender=m|Number=s	35	PNOM	_	t_1402|t_1401|ref=opt.medic._3
-37	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=opt.medic._1
-38	[1]	[1]	-	---------	_	37	SBJ	_	e_30|e_29|ref=opt.medic._1
+37	[0]	[0]	-	---------	_	0	PRED	_	e_29|0|ref=opt.medic._3
+38	[1]	[1]	-	---------	_	37	SBJ	_	e_30|e_29|ref=opt.medic._3
 39	.	.	u	u--------	_	37	AuxK	_	t_1403|e_29|ref=opt.medic._3
 
 # source = Galen, opt.medic._3
@@ -1698,39 +1698,39 @@
 13	φιλοχρήματοι	φιλοχρήματος	a	a-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_1449|t_1438|ref=opt.medic._3
 14	.	.	u	u--------	_	2	AuxK	_	t_1450|t_1438|ref=opt.medic._3
 
-# source = Galen, opt.medic._3-4
+# source = Galen, opt.medic._4
 # text = πότερον οὖν ὑπὲρ ὀνομάτων ἔτι διενεχθήσῃ καὶ ληρήσεις ἐρίζων ἐγκρατῆ μὲν , καὶ σώφρονα , καὶ χρημάτων κρείττονα , καὶ δίκαιον ἄξιον εἶναι τὸν ἰατρὸν , οὐ μὴν φιλόσοφόν γε , καὶ φύσιν γιγνώσκειν τῶν σωμάτων , καὶ ἐνεργείας ὀργάνων , καὶ χρείας μορίων , καὶ διαφορὰς νοσημάτων , καὶ θεραπειῶν ἐνδείξεις , οὐ μὴν ἠσκῆσθαί γε κατὰ τὴν λογικὴν θεωρίαν , ἢ τὰ πράγματα συγχωρήσας , ὑπὲρ ὀνομάτων αἰδεσθήσῃ διαφέρεσθαι ;
 # sent_id = 56
-1	πότερον	πότερον	d	d--------	_	63	AuxY	_	t_1451|t_1513|ref=opt.medic._3
-2	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_1452|t_1456|ref=opt.medic._3
-3	ὑπὲρ	ὑπέρ	r	r--------	_	6	AuxP	_	t_1453|t_1456|ref=opt.medic._3
-4	ὀνομάτων	ὄνομα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_1454|t_1453|ref=opt.medic._3
-5	ἔτι	ἔτι	d	d--------	_	6	ADV	_	t_1455|t_1456|ref=opt.medic._3
-6	διενεχθήσῃ	διενεχθέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1456|0|ref=opt.medic._3
-7	καὶ	καί	c	c--------	_	63	AuxY	_	t_1457|t_1513|ref=opt.medic._3
-8	ληρήσεις	ληρέω	n	n-p---fa-	Mood=i|Number=s|Person=2|Tense=f|Voice=a	6	SBJ	_	t_1458|t_1456|ref=opt.medic._3
-9	ἐρίζων	ἐρίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ATR	_	t_1459|t_1458|ref=opt.medic._3
-10	ἐγκρατῆ	ἐγκρατής	a	a-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_1460|t_1470|ref=opt.medic._3
-11	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1461|t_1470|ref=opt.medic._3
-12	,	,	u	u--------	_	6	AuxX	_	t_1462|t_1456|ref=opt.medic._3
-13	καὶ	καί	d	d--------	_	20	AuxY	_	t_1463|t_1470|ref=opt.medic._3
-14	σώφρονα	σώφρων	a	a-p---na-	Case=a|Gender=n|Number=p	20	PNOM	_	t_1464|t_1470|ref=opt.medic._3
-15	,	,	u	u--------	_	6	AuxX	_	t_1465|t_1456|ref=opt.medic._3
-16	καὶ	καί	c	c--------	_	20	AuxY	_	t_1466|t_1470|ref=opt.medic._3
-17	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	18	ADV	_	t_1467|t_1468|ref=opt.medic._3
-18	κρείττονα	κρείσσων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	20	PNOM	_	t_1468|t_1470|ref=opt.medic._3
-19	,	,	u	u--------	_	6	AuxX	_	t_1469|t_1456|ref=opt.medic._3
-20	καὶ	καί	c	c--------	_	23	COORD	_	t_1470|t_1473|ref=opt.medic._3
-21	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_1471|t_1470|ref=opt.medic._3
-22	ἄξιον	ἄξιος	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_1472|t_1470|ref=opt.medic._3
-23	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	63	OBJ	_	t_1473|t_1513|ref=opt.medic._3
-24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_1474|t_1475|ref=opt.medic._3
-25	ἰατρὸν	ἰατρός	n	n-s---ma-	Case=a|Gender=m|Number=s	23	SBJ	_	t_1475|t_1473|ref=opt.medic._3
-26	,	,	u	u--------	_	23	COORD	_	t_1476|t_1473|ref=opt.medic._3
-27	οὐ	οὐ	d	d--------	_	29	AuxZ	_	t_1477|t_1479|ref=opt.medic._3
-28	μὴν	μήν	d	d--------	_	29	AuxZ	_	t_1478|t_1479|ref=opt.medic._3
-29	φιλόσοφόν	φιλόσοφος	a	a-s---ma-	Case=a|Gender=m|Number=s	50	OBJ	_	t_1479|t_1500|ref=opt.medic._3
-30	γε	γε	d	d--------	_	29	AuxZ	_	t_1480|t_1479|ref=opt.medic._3
+1	πότερον	πότερον	d	d--------	_	63	AuxY	_	t_1451|t_1513|ref=opt.medic._4
+2	οὖν	οὖν	d	d--------	_	6	AuxY	_	t_1452|t_1456|ref=opt.medic._4
+3	ὑπὲρ	ὑπέρ	r	r--------	_	6	AuxP	_	t_1453|t_1456|ref=opt.medic._4
+4	ὀνομάτων	ὄνομα	n	n-p---ng-	Case=g|Gender=n|Number=p	3	ADV	_	t_1454|t_1453|ref=opt.medic._4
+5	ἔτι	ἔτι	d	d--------	_	6	ADV	_	t_1455|t_1456|ref=opt.medic._4
+6	διενεχθήσῃ	διενεχθέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1456|0|ref=opt.medic._4
+7	καὶ	καί	c	c--------	_	63	AuxY	_	t_1457|t_1513|ref=opt.medic._4
+8	ληρήσεις	ληρέω	n	n-p---fa-	Mood=i|Number=s|Person=2|Tense=f|Voice=a	6	SBJ	_	t_1458|t_1456|ref=opt.medic._4
+9	ἐρίζων	ἐρίζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	8	ATR	_	t_1459|t_1458|ref=opt.medic._4
+10	ἐγκρατῆ	ἐγκρατής	a	a-p---na-	Case=a|Gender=n|Number=p	20	ATR	_	t_1460|t_1470|ref=opt.medic._4
+11	μὲν	μέν	d	d--------	_	20	AuxY	_	t_1461|t_1470|ref=opt.medic._4
+12	,	,	u	u--------	_	6	AuxX	_	t_1462|t_1456|ref=opt.medic._4
+13	καὶ	καί	d	d--------	_	20	AuxY	_	t_1463|t_1470|ref=opt.medic._4
+14	σώφρονα	σώφρων	a	a-p---na-	Case=a|Gender=n|Number=p	20	PNOM	_	t_1464|t_1470|ref=opt.medic._4
+15	,	,	u	u--------	_	6	AuxX	_	t_1465|t_1456|ref=opt.medic._4
+16	καὶ	καί	c	c--------	_	20	AuxY	_	t_1466|t_1470|ref=opt.medic._4
+17	χρημάτων	χρῆμα	n	n-p---ng-	Case=g|Gender=n|Number=p	18	ADV	_	t_1467|t_1468|ref=opt.medic._4
+18	κρείττονα	κρείσσων	a	a-p---nac	Case=a|Degree=c|Gender=n|Number=p	20	PNOM	_	t_1468|t_1470|ref=opt.medic._4
+19	,	,	u	u--------	_	6	AuxX	_	t_1469|t_1456|ref=opt.medic._4
+20	καὶ	καί	c	c--------	_	23	COORD	_	t_1470|t_1473|ref=opt.medic._4
+21	δίκαιον	δίκαιος	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_1471|t_1470|ref=opt.medic._4
+22	ἄξιον	ἄξιος	a	a-s---na-	Case=a|Gender=n|Number=s	20	PNOM	_	t_1472|t_1470|ref=opt.medic._4
+23	εἶναι	εἰμί	v	v--pna---	Mood=n|Tense=p|Voice=a	63	OBJ	_	t_1473|t_1513|ref=opt.medic._4
+24	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	25	ATR	_	t_1474|t_1475|ref=opt.medic._4
+25	ἰατρὸν	ἰατρός	n	n-s---ma-	Case=a|Gender=m|Number=s	23	SBJ	_	t_1475|t_1473|ref=opt.medic._4
+26	,	,	u	u--------	_	23	COORD	_	t_1476|t_1473|ref=opt.medic._4
+27	οὐ	οὐ	d	d--------	_	29	AuxZ	_	t_1477|t_1479|ref=opt.medic._4
+28	μὴν	μήν	d	d--------	_	29	AuxZ	_	t_1478|t_1479|ref=opt.medic._4
+29	φιλόσοφόν	φιλόσοφος	a	a-s---ma-	Case=a|Gender=m|Number=s	50	OBJ	_	t_1479|t_1500|ref=opt.medic._4
+30	γε	γε	d	d--------	_	29	AuxZ	_	t_1480|t_1479|ref=opt.medic._4
 31	,	,	u	u--------	_	6	AuxX	_	t_1481|t_1456|ref=opt.medic._4
 32	καὶ	καί	d	d--------	_	63	AuxY	_	t_1482|t_1513|ref=opt.medic._4
 33	φύσιν	φύσις	n	n-s---fa-	Case=a|Gender=f|Number=s	50	OBJ	_	t_1483|t_1500|ref=opt.medic._4
@@ -1781,7 +1781,7 @@
 2	μὴν	μήν	g	g--------	_	5	AuxY	_	t_1524|e_31|ref=opt.medic._4
 3	ὀψὲ	ὀψέ	d	d--------	_	5	ADV	_	t_1525|e_31|ref=opt.medic._4
 4	μέν	μέν	g	g--------	_	5	AuxY	_	t_1526|e_31|ref=opt.medic._4
-5	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=opt.medic._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=opt.medic._4
 6	·	·	u	u--------	_	5	AuxK	_	t_1527|e_31|ref=opt.medic._4
 
 # source = Galen, opt.medic._4
@@ -1811,8 +1811,8 @@
 22	σπουδάζειν	σπουδάζω	v	v--pna---	Mood=n|Tense=p|Voice=a	18	SBJ	_	t_1549|t_1545|ref=opt.medic._4
 23	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	24	ATR	_	t_1550|t_1551|ref=opt.medic._4
 24	ἀλήθειαν	ἀλήθεια	n	n-s---fa-	Case=a|Gender=f|Number=s	22	OBJ	_	t_1551|t_1549|ref=opt.medic._4
-25	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=opt.medic._1
-26	[1]	[1]	-	---------	_	10	ADV	_	e_33|t_1537|ref=opt.medic._1
+25	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=opt.medic._4
+26	[1]	[1]	-	---------	_	10	ADV	_	e_33|t_1537|ref=opt.medic._4
 27	.	.	u	u--------	_	25	AuxK	_	t_1552|e_32|ref=opt.medic._4
 
 # source = Galen, opt.medic._4

@@ -171,12 +171,12 @@
 5	[0]	[0]	-	---------	_	0	PRED	_	e_3|0|ref=arg.Stoic._1
 6	.	.	u	u--------	_	5	AuxK	_	t_146|e_3|ref=arg.Stoic._1
 
-# source = Plutarch, arg.Stoic._1-2
+# source = Plutarch, arg.Stoic._2
 # text = ὁ Εὐριπίδου Ἰόλαος ἐξ ἀδρανοῦς καὶ παρήλικος εὐχῇ τινι νέος καὶ ἰσχυρὸς ἐπὶ τὴν μάχην ἄφνω γέγονεν ·
 # sent_id = 7
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_147|t_149|ref=arg.Stoic._1
-2	Εὐριπίδου	εὐριπίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_148|t_149|ref=arg.Stoic._1
-3	Ἰόλαος	ἰόλαος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_149|t_163|ref=arg.Stoic._1
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_147|t_149|ref=arg.Stoic._2
+2	Εὐριπίδου	εὐριπίδης	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_148|t_149|ref=arg.Stoic._2
+3	Ἰόλαος	ἰόλαος	n	n-s---mn-	Case=n|Gender=m|Number=s	17	SBJ	_	t_149|t_163|ref=arg.Stoic._2
 4	ἐξ	ἐκ	r	r--------	_	17	AuxP	_	t_150|t_163|ref=arg.Stoic._2
 5	ἀδρανοῦς	ἀδρανής	a	a-s---ng-	Case=g|Gender=n|Number=s	6	ADV	_	t_151|t_152|ref=arg.Stoic._2
 6	καὶ	καί	c	c--------	_	4	COORD	_	t_152|t_150|ref=arg.Stoic._2
@@ -232,9 +232,9 @@
 34	εὐπρεπὴς	εὐπρεπής	a	a-s---mn-	Case=n|Gender=m|Number=s	35	ATR	_	t_198|t_199|ref=arg.Stoic._2
 35	θεοειδὴς	θεοειδής	a	a-s---mn-	Case=n|Gender=m|Number=s	41	ATR	_	t_199|t_205|ref=arg.Stoic._2
 36	καλλίμορφος	καλλίμορφος	a	a-s---mn-	Case=n|Gender=m|Number=s	35	ATR	_	t_200|t_199|ref=arg.Stoic._2
-37	καὶ	καί	c	c--------	_	15	COORD	_	t_201|t_179|ref=arg.Stoic._2
-38	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	39	ATR	_	t_202|t_203|ref=arg.Stoic._2
-39	Ὀδυσσέως	ὀδυσσεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	46	ATR	_	t_203|t_210|ref=arg.Stoic._2
+37	καὶ	καί	c	c--------	_	15	COORD	_	t_201|t_179|ref=arg.Stoic._3
+38	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	39	ATR	_	t_202|t_203|ref=arg.Stoic._3
+39	Ὀδυσσέως	ὀδυσσεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	46	ATR	_	t_203|t_210|ref=arg.Stoic._3
 40	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	41	ATR	_	t_204|t_205|ref=arg.Stoic._3
 41	Ἀθηνᾶ	ἀθηνᾶ	n	n-s---fn-	Case=n|Gender=f|Number=s	48	SBJ	_	t_205|t_212|ref=arg.Stoic._3
 42	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	43	ATR	_	t_206|t_207|ref=arg.Stoic._3
@@ -248,7 +248,7 @@
 50	ὅπως	ὅπως	c	c--------	_	48	AuxC	_	t_214|t_212|ref=arg.Stoic._3
 51	φανείη	φαίνω	v	v3saop---	Mood=o|Number=s|Person=3|Tense=a|Voice=p	50	ADV	_	t_215|t_214|ref=arg.Stoic._3
 52	καλός	καλός	a	a-s---mn-	Case=n|Gender=m|Number=s	51	PNOM	_	t_216|t_215|ref=arg.Stoic._3
-53	[0]	[0]	-	---------	_	21	COORD	_	e_4|t_185|ref=arg.Stoic._1
+53	[0]	[0]	-	---------	_	21	COORD	_	e_4|t_185|ref=arg.Stoic._3
 54	·	·	u	u--------	_	13	AuxK	_	t_217|t_177|ref=arg.Stoic._3
 
 # source = Plutarch, arg.Stoic._3
@@ -291,7 +291,7 @@
 35	τε	τε	c	c--------	_	37	COORD	_	t_252|t_254|ref=arg.Stoic._3
 36	κακοπρόσωπός	κακοπρόσωπος	a	a-s---mn-	Case=n|Gender=m|Number=s	35	PNOM	_	t_253|t_252|ref=arg.Stoic._3
 37	ἐστιν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_254|0|ref=arg.Stoic._3
-38	[0]	[0]	-	---------	_	37	PRED	_	e_5|t_254|ref=arg.Stoic._1
+38	[0]	[0]	-	---------	_	37	PRED	_	e_5|t_254|ref=arg.Stoic._3
 39	.	.	u	u--------	_	37	AuxK	_	t_255|t_254|ref=arg.Stoic._3
 
 # source = Plutarch, arg.Stoic._3
@@ -334,14 +334,14 @@
 35	ἀποτρέπεται	ἀποτρέπω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_290|0|ref=arg.Stoic._3
 36	.	.	u	u--------	_	35	AuxK	_	t_291|t_290|ref=arg.Stoic._3
 
-# source = Plutarch, arg.Stoic._3-4
+# source = Plutarch, arg.Stoic._4
 # text = ὁ παρὰ τοῖς Στωικοῖς κάκιστος , ἂν οὕτω τύχῃ πρωῒ , δείλης ἄριστος [0] ·
 # sent_id = 11
-1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_292|t_296|ref=arg.Stoic._3
-2	παρὰ	παρά	r	r--------	_	5	AuxP	_	t_293|t_296|ref=arg.Stoic._3
-3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_294|t_295|ref=arg.Stoic._3
-4	Στωικοῖς	στωικός	a	a-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_295|t_293|ref=arg.Stoic._3
-5	κάκιστος	κακός	a	a-s---mns	Case=n|Gender=m|Number=s	14	SBJ	_	t_296|e_6|ref=arg.Stoic._3
+1	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_292|t_296|ref=arg.Stoic._4
+2	παρὰ	παρά	r	r--------	_	5	AuxP	_	t_293|t_296|ref=arg.Stoic._4
+3	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	4	ATR	_	t_294|t_295|ref=arg.Stoic._4
+4	Στωικοῖς	στωικός	a	a-p---md-	Case=d|Gender=m|Number=p	2	ATR	_	t_295|t_293|ref=arg.Stoic._4
+5	κάκιστος	κακός	a	a-s---mns	Case=n|Gender=m|Number=s	14	SBJ	_	t_296|e_6|ref=arg.Stoic._4
 6	,	,	u	u--------	_	14	AuxX	_	t_297|e_6|ref=arg.Stoic._4
 7	ἂν	ἄν	c	c--------	_	14	AuxC	_	t_298|e_6|ref=arg.Stoic._4
 8	οὕτω	οὕτως	d	d--------	_	9	ADV	_	t_299|t_300|ref=arg.Stoic._4
@@ -350,7 +350,7 @@
 11	,	,	u	u--------	_	14	AuxX	_	t_302|e_6|ref=arg.Stoic._4
 12	δείλης	δείλη	n	n-s---fg-	Case=g|Gender=f|Number=s	13	ATR	_	t_303|t_304|ref=arg.Stoic._4
 13	ἄριστος	ἄριστος	a	a-s---mns	Case=n|Degree=s|Gender=m|Number=s	14	PNOM	_	t_304|e_6|ref=arg.Stoic._4
-14	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=arg.Stoic._1
+14	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=arg.Stoic._4
 15	·	·	u	u--------	_	14	AuxK	_	t_305|e_6|ref=arg.Stoic._4
 
 # source = Plutarch, arg.Stoic._4
@@ -462,7 +462,7 @@
 61	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	62	ATR	_	t_405|t_406|ref=arg.Stoic._4
 62	κακίστου	κακός	a	a-s---ngs	Case=g|Degree=s|Gender=n|Number=s	59	ATR	_	t_406|t_403|ref=arg.Stoic._4
 63	γενόμενος	γίγνομαι	v	v-sapmmn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=m	57	ATR	_	t_407|t_401|ref=arg.Stoic._4
-64	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=arg.Stoic._1
+64	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=arg.Stoic._4
 65	.	.	u	u--------	_	64	AuxK	_	t_408|e_7|ref=arg.Stoic._4
 
 # source = Plutarch, arg.Stoic._4
@@ -471,10 +471,10 @@
 1	ἐκ	ἐκ	r	r--------	_	4	AuxP	_	t_409|e_8|ref=arg.Stoic._4
 2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_410|t_411|ref=arg.Stoic._4
 3	Στοᾶς	στοά	n	n-s---fg-	Case=g|Gender=f|Number=s	1	OBJ	_	t_411|t_409|ref=arg.Stoic._4
-4	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=arg.Stoic._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=arg.Stoic._4
 5	;	;	u	u--------	_	4	AuxK	_	t_412|e_8|ref=arg.Stoic._4
 
-# source = Plutarch, arg.Stoic._4
+# source = Plutarch, arg.Stoic._4-5
 # text = γὰρ λαβόντα τὴν ἀρετὴν ἔστιν εἰπεῖν εὖξαι τί βούλει , πάντα σοι γενήσεται πλοῦτον φέρει , βασιλείαν ἔχει , τύχην δίδωσιν , εὐπότμους ποιεῖ καὶ ἀπροσδεεῖς καὶ αὐτάρκεις , μίαν οἴκοθεν δραχμὴν οὐκ ἔχοντας ὁ μὲν γὰρ ποιητικὸς [0] ;
 # sent_id = 15
 1	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_413|t_417|ref=arg.Stoic._4
@@ -511,24 +511,24 @@
 32	δραχμὴν	δραχμή	n	n-s---fa-	Case=a|Gender=f|Number=s	34	OBJ	_	t_444|t_446|ref=arg.Stoic._4
 33	οὐκ	οὐ	d	d--------	_	34	AuxZ	_	t_445|t_446|ref=arg.Stoic._4
 34	ἔχοντας	ἔχω	v	v-pppama-	Case=a|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	29	OBJ	_	t_446|t_441|ref=arg.Stoic._4
-35	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	39	SBJ	_	t_447|e_9|ref=arg.Stoic._4
-36	μὲν	μέν	d	d--------	_	39	AuxY	_	t_448|e_9|ref=arg.Stoic._4
-37	γὰρ	γάρ	d	d--------	_	39	AuxY	_	t_449|e_9|ref=arg.Stoic._4
-38	ποιητικὸς	ποιητικός	a	a-s---mn-	Case=n|Gender=m|Number=s	39	PNOM	_	t_450|e_9|ref=arg.Stoic._4
-39	[0]	[0]	-	---------	_	34	ExD	_	e_9|t_446|ref=arg.Stoic._1
-40	;	;	u	u--------	_	10	AuxK	_	t_451|t_422|ref=arg.Stoic._4
+35	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	39	SBJ	_	t_447|e_9|ref=arg.Stoic._5
+36	μὲν	μέν	d	d--------	_	39	AuxY	_	t_448|e_9|ref=arg.Stoic._5
+37	γὰρ	γάρ	d	d--------	_	39	AuxY	_	t_449|e_9|ref=arg.Stoic._5
+38	ποιητικὸς	ποιητικός	a	a-s---mn-	Case=n|Gender=m|Number=s	39	PNOM	_	t_450|e_9|ref=arg.Stoic._5
+39	[0]	[0]	-	---------	_	34	ExD	_	e_9|t_446|ref=arg.Stoic._5
+40	;	;	u	u--------	_	10	AuxK	_	t_451|t_422|ref=arg.Stoic._5
 
-# source = Plutarch, arg.Stoic._4-5
+# source = Plutarch, arg.Stoic._5
 # text = μῦθος τὸ κατὰ λόγον φυλάττων οὐδαμοῦ προλείπει τὸν Ἡρακλέα τῶν ἀναγκαίων δεόμενον , ἀλλʼ ὥσπερ ἐκ πηγῆς ἐπιρρεῖ αὐτῷ καὶ τοῖς συνοῦσιν ὁ δὲ τὴν Στωικὴν λαβὼν Ἀμάλθειαν πλούσιος μὲν γέγονεν , ἐρανίζεται δὲ τροφὴν παρʼ ἑτέρων ·
 # sent_id = 16
-1	μῦθος	μῦθος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_452|t_458|ref=arg.Stoic._4
-2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_453|t_455|ref=arg.Stoic._4
-3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_454|t_456|ref=arg.Stoic._4
+1	μῦθος	μῦθος	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_452|t_458|ref=arg.Stoic._5
+2	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	4	ATR	_	t_453|t_455|ref=arg.Stoic._5
+3	κατὰ	κατά	r	r--------	_	5	AuxP	_	t_454|t_456|ref=arg.Stoic._5
 4	λόγον	λόγος	n	n-s---ma-	Case=a|Gender=m|Number=s	3	ADV	_	t_455|t_454|ref=arg.Stoic._5
 5	φυλάττων	φυλάσσω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_456|t_458|ref=arg.Stoic._5
 6	οὐδαμοῦ	οὐδαμοῦ	d	d--------	_	7	ADV	_	t_457|t_458|ref=arg.Stoic._5
 7	προλείπει	προλείπω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_458|t_465|ref=arg.Stoic._5
-8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_459|t_460|ref=arg.Stoic._4
+8	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	9	ATR	_	t_459|t_460|ref=arg.Stoic._5
 9	Ἡρακλέα	ἡρακλῆς	n	n-s---ma-	Case=a|Gender=m|Number=s	7	OBJ	_	t_460|t_458|ref=arg.Stoic._5
 10	τῶν	ὁ	l	l-p---ng-	Case=g|Gender=n|Number=p	11	ATR	_	t_461|t_462|ref=arg.Stoic._5
 11	ἀναγκαίων	ἀναγκαῖος	a	a-p---ng-	Case=g|Gender=n|Number=p	12	OBJ	_	t_462|t_463|ref=arg.Stoic._5
@@ -593,18 +593,18 @@
 28	ἐχόντων	ἔχω	v	v-pppamg-	Case=g|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	25	ADV	_	t_517|t_514|ref=arg.Stoic._5
 29	.	.	u	u--------	_	15	AuxK	_	t_518|t_504|ref=arg.Stoic._5
 
-# source = Plutarch, arg.Stoic._5-6
+# source = Plutarch, arg.Stoic._6
 # text = καὶ ὁ μὲν Ἰθακησίων βασιλεὺς προσαιτεῖ λανθάνειν ὅς ἐστι , βουλόμενος καὶ ποιῶν ἑαυτὸν ὡς μάλιστα πτωχῷ λευγαλέῳ ἐναλίγκιον [0] ·
 # sent_id = 18
-1	καὶ	καί	d	d--------	_	6	AuxY	_	t_519|t_524|ref=arg.Stoic._5
-2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_520|t_523|ref=arg.Stoic._5
-3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_521|t_524|ref=arg.Stoic._5
-4	Ἰθακησίων	μνηστήρ	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_522|t_523|ref=arg.Stoic._5
-5	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_523|t_524|ref=arg.Stoic._5
-6	προσαιτεῖ	προσαιτέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_524|0|ref=arg.Stoic._5
-7	λανθάνειν	λανθάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_525|t_524|ref=arg.Stoic._5
-8	ὅς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_526|t_527|ref=arg.Stoic._5
-9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	OBJ	_	t_527|t_525|ref=arg.Stoic._5
+1	καὶ	καί	d	d--------	_	6	AuxY	_	t_519|t_524|ref=arg.Stoic._6
+2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	5	ATR	_	t_520|t_523|ref=arg.Stoic._6
+3	μὲν	μέν	d	d--------	_	6	AuxY	_	t_521|t_524|ref=arg.Stoic._6
+4	Ἰθακησίων	μνηστήρ	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_522|t_523|ref=arg.Stoic._6
+5	βασιλεὺς	βασιλεύς	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_523|t_524|ref=arg.Stoic._6
+6	προσαιτεῖ	προσαιτέω	v	v3siia---	Mood=i|Number=s|Person=3|Tense=i|Voice=a	0	PRED	_	t_524|0|ref=arg.Stoic._6
+7	λανθάνειν	λανθάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	6	OBJ	_	t_525|t_524|ref=arg.Stoic._6
+8	ὅς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_526|t_527|ref=arg.Stoic._6
+9	ἐστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	OBJ	_	t_527|t_525|ref=arg.Stoic._6
 10	,	,	u	u--------	_	6	AuxX	_	t_528|t_524|ref=arg.Stoic._6
 11	βουλόμενος	βούλομαι	v	v-sppemn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=e	12	ADV	_	t_529|t_530|ref=arg.Stoic._6
 12	καὶ	καί	c	c--------	_	6	COORD	_	t_530|t_524|ref=arg.Stoic._6
@@ -615,7 +615,7 @@
 17	πτωχῷ	πτωχός	a	a-s---md-	Case=d|Gender=m|Number=s	19	ADV	_	t_535|t_537|ref=arg.Stoic._6
 18	λευγαλέῳ	λευγαλέος	a	a-s---md-	Case=d|Gender=m|Number=s	17	ATR	_	t_536|t_535|ref=arg.Stoic._6
 19	ἐναλίγκιον	ἐναλίγκιος	a	a-s---ma-	Case=a|Gender=m|Number=s	20	PNOM	_	t_537|e_10|ref=arg.Stoic._6
-20	[0]	[0]	-	---------	_	13	ADV	_	e_10|t_531|ref=arg.Stoic._1
+20	[0]	[0]	-	---------	_	13	ADV	_	e_10|t_531|ref=arg.Stoic._6
 21	·	·	u	u--------	_	6	AuxK	_	t_538|t_524|ref=arg.Stoic._6
 
 # source = Plutarch, arg.Stoic._6

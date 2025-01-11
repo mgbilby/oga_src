@@ -329,11 +329,11 @@
 7	θρέψαι	τρέφω	v	v--ana---	Mood=n|Tense=a|Voice=a	1	OBJ	_	t_252|t_246|ref=tempt.dom._1
 8	.	.	u	u--------	_	1	AuxK	_	t_253|t_246|ref=tempt.dom._1
 
-# source = Severian of Gabala, tempt.dom._1-urn:cts:pta:pta0001.pta056.pta-grc1.2
+# source = Severian of Gabala, tempt.dom._2
 # text = Βλέπε τὸν πονηρόν .
 # sent_id = 20
-1	Βλέπε	βλέπω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_254|0|ref=tempt.dom._1
-2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_255|t_256|ref=tempt.dom._1
+1	Βλέπε	βλέπω	v	v2spma---	Mood=m|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_254|0|ref=tempt.dom._2
+2	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	3	ATR	_	t_255|t_256|ref=tempt.dom._2
 3	πονηρόν	πονηρός	a	a-s---ma-	Case=a|Gender=m|Number=s	1	OBJ	_	t_256|t_254|ref=tempt.dom._2
 4	.	.	u	u--------	_	1	AuxK	_	t_257|t_254|ref=tempt.dom._2
 
@@ -350,9 +350,9 @@
 8	Χριστὸς	χριστός	n	n-s---mn-	Case=n|Gender=m|Number=s	12	SBJ	_	t_265|e_4|ref=tempt.dom._2
 9	ἀπὸ	ἀπό	r	r--------	_	12	AuxP	_	t_266|e_4|ref=tempt.dom._2
 10	γραφῶν	γραφή	n	n-p---fg-	Case=g|Gender=f|Number=p	9	ADV	_	t_267|t_266|ref=tempt.dom._2
-11	[0]	[0]	-	---------	_	7	PRED	_	e_3|t_264|ref=tempt.dom._1
-12	[1]	[1]	-	---------	_	7	PRED	_	e_4|t_264|ref=tempt.dom._1
-13	[2]	[2]	-	---------	_	7	PRED	_	e_5|t_264|ref=tempt.dom._1
+11	[0]	[0]	-	---------	_	7	PRED	_	e_3|t_264|ref=tempt.dom._2
+12	[1]	[1]	-	---------	_	7	PRED	_	e_4|t_264|ref=tempt.dom._2
+13	[2]	[2]	-	---------	_	7	PRED	_	e_5|t_264|ref=tempt.dom._2
 14	.	.	u	u--------	_	5	AuxK	_	t_268|t_262|ref=tempt.dom._2
 
 # source = Severian of Gabala, tempt.dom._2
@@ -371,7 +371,7 @@
 1	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	2	ATR	_	t_275|t_276|ref=tempt.dom._2
 2	αἱρετικοὶ	αἱρετικός	a	a-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_276|e_6|ref=tempt.dom._2
 3	διαλεκτικοί	διαλεκτικός	a	a-p---mn-	Case=n|Gender=m|Number=p	4	PNOM	_	t_277|e_6|ref=tempt.dom._2
-4	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=tempt.dom._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_6|0|ref=tempt.dom._2
 5	·	·	u	u--------	_	4	AuxK	_	t_278|e_6|ref=tempt.dom._2
 
 # source = Severian of Gabala, tempt.dom._2
@@ -380,19 +380,19 @@
 1	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	2	ATR	_	t_279|t_280|ref=tempt.dom._2
 2	ἐκκλησία	ἐκκλησία	n	n-s---fn-	Case=n|Gender=f|Number=s	4	SBJ	_	t_280|e_7|ref=tempt.dom._2
 3	πιστή	πιστός	a	a-s---fn-	Case=n|Gender=f|Number=s	4	PNOM	_	t_281|e_7|ref=tempt.dom._2
-4	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=tempt.dom._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_7|0|ref=tempt.dom._2
 5	.	.	u	u--------	_	4	AuxK	_	t_282|e_7|ref=tempt.dom._2
 
-# source = Severian of Gabala, tempt.dom._2-urn:cts:pta:pta0001.pta056.pta-grc1.3
+# source = Severian of Gabala, tempt.dom._3
 # text = Τῷ δὲ υἱῷ τοῦ θεοῦ εἶπεν ὅτι Οἱ λίθοι οὗτοι ἄρτοι γένωνται Ἀκόλουθον ἦν τῷ λογισμῷ , τῷ δὲ υἱῷ τοῦ θεοῦ ἁρμόζει καὶ μεταβάλλειν .
 # sent_id = 25
-1	Τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_283|t_285|ref=tempt.dom._2
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_284|0|ref=tempt.dom._2
-3	υἱῷ	υἱός	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_285|t_288|ref=tempt.dom._2
-4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_286|t_287|ref=tempt.dom._2
-5	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_287|t_285|ref=tempt.dom._2
-6	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_288|t_284|ref=tempt.dom._2
-7	ὅτι	ὅτι	c	c--------	_	6	AuxC	_	t_289|t_288|ref=tempt.dom._2
+1	Τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_283|t_285|ref=tempt.dom._3
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_284|0|ref=tempt.dom._3
+3	υἱῷ	υἱός	n	n-s---md-	Case=d|Gender=m|Number=s	6	OBJ	_	t_285|t_288|ref=tempt.dom._3
+4	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_286|t_287|ref=tempt.dom._3
+5	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_287|t_285|ref=tempt.dom._3
+6	εἶπεν	λέγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	2	PRED	_	t_288|t_284|ref=tempt.dom._3
+7	ὅτι	ὅτι	c	c--------	_	6	AuxC	_	t_289|t_288|ref=tempt.dom._3
 8	Οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_290|t_291|ref=tempt.dom._3
 9	λίθοι	λίθος	n	n-p---mn-	Case=n|Gender=m|Number=p	12	SBJ	_	t_291|t_294|ref=tempt.dom._3
 10	οὗτοι	οὗτος	a	a-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_292|t_291|ref=tempt.dom._3
@@ -455,17 +455,17 @@
 15	θεοῦ	θεός	n	n-s---mg-	Case=g|Gender=m|Number=s	14	ATR	_	t_341|t_340|ref=tempt.dom._3
 16	.	.	u	u--------	_	5	AuxK	_	t_342|t_331|ref=tempt.dom._3
 
-# source = Severian of Gabala, tempt.dom._3-urn:cts:pta:pta0001.pta056.pta-grc1.4
+# source = Severian of Gabala, tempt.dom._4
 # text = Μετὰ ταῦτα , ὅτε ἠλέγχθη ὁ διάβολος [0] .
 # sent_id = 28
-1	Μετὰ	μετά	r	r--------	_	8	AuxP	_	t_343|e_8|ref=tempt.dom._3
-2	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	1	ADV	_	t_344|t_343|ref=tempt.dom._3
-3	,	,	u	u--------	_	8	AuxX	_	t_345|e_8|ref=tempt.dom._3
-4	ὅτε	ὅτε	c	c--------	_	8	AuxC	_	t_346|e_8|ref=tempt.dom._3
-5	ἠλέγχθη	ἐλέγχω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	4	ADV	_	t_347|t_346|ref=tempt.dom._3
-6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_348|t_349|ref=tempt.dom._3
-7	διάβολος	διάβολος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_349|t_347|ref=tempt.dom._3
-8	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=tempt.dom._1
+1	Μετὰ	μετά	r	r--------	_	8	AuxP	_	t_343|e_8|ref=tempt.dom._4
+2	ταῦτα	οὗτος	p	p-p---na-	Case=a|Gender=n|Number=p	1	ADV	_	t_344|t_343|ref=tempt.dom._4
+3	,	,	u	u--------	_	8	AuxX	_	t_345|e_8|ref=tempt.dom._4
+4	ὅτε	ὅτε	c	c--------	_	8	AuxC	_	t_346|e_8|ref=tempt.dom._4
+5	ἠλέγχθη	ἐλέγχω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	4	ADV	_	t_347|t_346|ref=tempt.dom._4
+6	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	7	ATR	_	t_348|t_349|ref=tempt.dom._4
+7	διάβολος	διάβολος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_349|t_347|ref=tempt.dom._4
+8	[0]	[0]	-	---------	_	0	PRED	_	e_8|0|ref=tempt.dom._4
 9	.	.	u	u--------	_	8	AuxK	_	t_350|e_8|ref=tempt.dom._4
 
 # source = Severian of Gabala, tempt.dom._4
@@ -477,7 +477,7 @@
 4	εἰς	εἰς	r	r--------	_	1	AuxP	_	t_354|t_351|ref=tempt.dom._4
 5	τὰς	ὁ	l	l-p---fa-	Case=a|Gender=f|Number=p	6	ATR	_	t_355|t_356|ref=tempt.dom._4
 6	γραφὰς	γραφή	n	n-p---fa-	Case=a|Gender=f|Number=p	4	OBJ	_	t_356|t_354|ref=tempt.dom._4
-7	καὶ	καί	c	c--------	_	0	COORD	_	t_357|0|ref=tempt.dom._3
+7	καὶ	καί	c	c--------	_	0	COORD	_	t_357|0|ref=tempt.dom._4
 8	λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	7	PRED	_	t_358|t_357|ref=tempt.dom._4
 9	πρὸς	πρός	r	r--------	_	8	AuxP	_	t_359|t_358|ref=tempt.dom._4
 10	αὐτόν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	9	OBJ	_	t_360|t_359|ref=tempt.dom._4
@@ -493,7 +493,7 @@
 5	πτερύγιον	πτερύγιον	n	n-s---na-	Case=a|Gender=n|Number=s	3	OBJ	_	t_366|t_364|ref=tempt.dom._4
 6	τοῦ	ὁ	l	l-s---ng-	Case=g|Gender=n|Number=s	7	ATR	_	t_367|t_368|ref=tempt.dom._4
 7	ἱεροῦ	ἱερόν	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ATR	_	t_368|t_366|ref=tempt.dom._4
-8	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=tempt.dom._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_9|0|ref=tempt.dom._4
 9	·	·	u	u--------	_	8	AuxK	_	t_369|e_9|ref=tempt.dom._4
 
 # source = Severian of Gabala, tempt.dom._4
@@ -579,22 +579,22 @@
 22	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	21	ATR	_	t_431|t_430|ref=tempt.dom._4
 23	.	.	u	u--------	_	1	AuxK	_	t_432|t_410|ref=tempt.dom._4
 
-# source = Severian of Gabala, tempt.dom._4
+# source = Severian of Gabala, tempt.dom._5
 # text = Εἰπέ , διάβολε , καὶ τὸ ἑξῆς .
 # sent_id = 36
-1	Εἰπέ	εἶπον	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_433|0|ref=tempt.dom._4
-2	,	,	u	u--------	_	1	AuxX	_	t_434|t_433|ref=tempt.dom._4
-3	διάβολε	διάβολος	a	a-s---mv-	Case=v|Gender=m|Number=s	1	ExD	_	t_435|t_433|ref=tempt.dom._4
-4	,	,	u	u--------	_	1	AuxX	_	t_436|t_433|ref=tempt.dom._4
-5	καὶ	καί	d	d--------	_	7	AuxZ	_	t_437|t_439|ref=tempt.dom._4
-6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_438|t_439|ref=tempt.dom._4
-7	ἑξῆς	ἑξῆς	d	d--------	_	1	ADV	_	t_439|t_433|ref=tempt.dom._4
-8	.	.	u	u--------	_	1	AuxK	_	t_440|t_433|ref=tempt.dom._4
+1	Εἰπέ	εἶπον	v	v2sama---	Mood=m|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_433|0|ref=tempt.dom._5
+2	,	,	u	u--------	_	1	AuxX	_	t_434|t_433|ref=tempt.dom._5
+3	διάβολε	διάβολος	a	a-s---mv-	Case=v|Gender=m|Number=s	1	ExD	_	t_435|t_433|ref=tempt.dom._5
+4	,	,	u	u--------	_	1	AuxX	_	t_436|t_433|ref=tempt.dom._5
+5	καὶ	καί	d	d--------	_	7	AuxZ	_	t_437|t_439|ref=tempt.dom._5
+6	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	7	ATR	_	t_438|t_439|ref=tempt.dom._5
+7	ἑξῆς	ἑξῆς	d	d--------	_	1	ADV	_	t_439|t_433|ref=tempt.dom._5
+8	.	.	u	u--------	_	1	AuxK	_	t_440|t_433|ref=tempt.dom._5
 
-# source = Severian of Gabala, tempt.dom._4-urn:cts:pta:pta0001.pta056.pta-grc1.5
+# source = Severian of Gabala, tempt.dom._5
 # text = Οὐκ ἐπιγινώσκεις τὴν ἀκολουθίαν ;
 # sent_id = 37
-1	Οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_441|t_442|ref=tempt.dom._4
+1	Οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_441|t_442|ref=tempt.dom._5
 2	ἐπιγινώσκεις	ἐπιγιγνώσκω	v	v2spia---	Mood=i|Number=s|Person=2|Tense=p|Voice=a	0	PRED	_	t_442|0|ref=tempt.dom._5
 3	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	4	ATR	_	t_443|t_444|ref=tempt.dom._5
 4	ἀκολουθίαν	ἀκολουθία	n	n-s---fa-	Case=a|Gender=f|Number=s	2	OBJ	_	t_444|t_442|ref=tempt.dom._5
@@ -615,7 +615,7 @@
 10	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	9	OBJ	_	t_455|t_454|ref=tempt.dom._5
 11	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	12	ATR	_	t_456|t_457|ref=tempt.dom._5
 12	διανοίᾳ	διάνοια	n	n-s---fd-	Case=d|Gender=f|Number=s	9	OBJ	_	t_457|t_454|ref=tempt.dom._5
-13	[0]	[0]	-	---------	_	4	ADV	_	e_10|t_449|ref=tempt.dom._1
+13	[0]	[0]	-	---------	_	4	ADV	_	e_10|t_449|ref=tempt.dom._5
 14	;	;	u	u--------	_	3	AuxK	_	t_458|t_448|ref=tempt.dom._5
 
 # source = Severian of Gabala, tempt.dom._5
@@ -706,32 +706,32 @@
 17	νομισθέντα	νομίζω	v	v-pappna-	Case=a|Gender=n|Mood=p|Number=p|Tense=a|Voice=p	15	OBJ	_	t_525|t_523|ref=tempt.dom._5
 18	ὑπὲρ	ὑπέρ	r	r--------	_	17	AuxP	_	t_526|t_525|ref=tempt.dom._5
 19	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	18	ADV	_	t_527|t_526|ref=tempt.dom._5
-20	[0]	[0]	-	---------	_	2	ADV	_	e_11|t_510|ref=tempt.dom._1
+20	[0]	[0]	-	---------	_	2	ADV	_	e_11|t_510|ref=tempt.dom._5
 21	.	.	u	u--------	_	1	AuxK	_	t_528|t_509|ref=tempt.dom._5
 
-# source = Severian of Gabala, tempt.dom._5
+# source = Severian of Gabala, tempt.dom._6
 # text = Ὁ σωτὴρ πρὸς αὐτόν [0] ·
 # sent_id = 44
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_529|t_530|ref=tempt.dom._5
-2	σωτὴρ	σωτήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_530|e_12|ref=tempt.dom._5
-3	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_531|e_12|ref=tempt.dom._5
-4	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_532|t_531|ref=tempt.dom._5
-5	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=tempt.dom._1
-6	·	·	u	u--------	_	5	AuxK	_	t_533|e_12|ref=tempt.dom._5
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_529|t_530|ref=tempt.dom._6
+2	σωτὴρ	σωτήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	5	SBJ	_	t_530|e_12|ref=tempt.dom._6
+3	πρὸς	πρός	r	r--------	_	5	AuxP	_	t_531|e_12|ref=tempt.dom._6
+4	αὐτόν	αὐτός	a	a-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_532|t_531|ref=tempt.dom._6
+5	[0]	[0]	-	---------	_	0	PRED	_	e_12|0|ref=tempt.dom._6
+6	·	·	u	u--------	_	5	AuxK	_	t_533|e_12|ref=tempt.dom._6
 
-# source = Severian of Gabala, tempt.dom._5
+# source = Severian of Gabala, tempt.dom._6
 # text = Γέγραπται ·
 # sent_id = 45
-1	Γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_534|0|ref=tempt.dom._5
-2	·	·	u	u--------	_	1	AuxK	_	t_535|t_534|ref=tempt.dom._5
+1	Γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_534|0|ref=tempt.dom._6
+2	·	·	u	u--------	_	1	AuxK	_	t_535|t_534|ref=tempt.dom._6
 
-# source = Severian of Gabala, tempt.dom._5-urn:cts:pta:pta0001.pta056.pta-grc1.6
+# source = Severian of Gabala, tempt.dom._6
 # text = Οὐκ ἐκπειράσεις κύριον τὸν θεόν σου .
 # sent_id = 46
-1	Οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_536|t_537|ref=tempt.dom._5
-2	ἐκπειράσεις	ἐκπειρασία	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_537|0|ref=tempt.dom._5
-3	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_538|t_537|ref=tempt.dom._5
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_539|t_540|ref=tempt.dom._5
+1	Οὐκ	οὐ	d	d--------	_	2	AuxZ	_	t_536|t_537|ref=tempt.dom._6
+2	ἐκπειράσεις	ἐκπειρασία	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_537|0|ref=tempt.dom._6
+3	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_538|t_537|ref=tempt.dom._6
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_539|t_540|ref=tempt.dom._6
 5	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	APOS	_	t_540|t_538|ref=tempt.dom._6
 6	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_541|t_540|ref=tempt.dom._6
 7	.	.	u	u--------	_	2	AuxK	_	t_542|t_537|ref=tempt.dom._6
@@ -740,7 +740,7 @@
 # text = Πολλοὶ νομίζουσιν ὅτι αὐτῷ τῷ διαβόλῳ ἔλεγεν ·
 # sent_id = 47
 1	Πολλοὶ	πολύς	a	a-p---mn-	Case=n|Gender=m|Number=p	2	SBJ	_	t_543|t_544|ref=tempt.dom._6
-2	νομίζουσιν	νομίζω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_544|0|ref=tempt.dom._5
+2	νομίζουσιν	νομίζω	v	v3ppia---	Mood=i|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_544|0|ref=tempt.dom._6
 3	ὅτι	ὅτι	c	c--------	_	2	AuxC	_	t_545|t_544|ref=tempt.dom._6
 4	αὐτῷ	αὐτός	a	a-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_546|t_548|ref=tempt.dom._6
 5	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	6	ATR	_	t_547|t_548|ref=tempt.dom._6
@@ -805,7 +805,7 @@
 8	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	11	SBJ	_	t_594|e_13|ref=tempt.dom._6
 9	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_595|t_594|ref=tempt.dom._6
 10	μονογενής	μονογενής	a	a-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_596|t_594|ref=tempt.dom._6
-11	[0]	[0]	-	---------	_	5	SBJ	_	e_13|t_591|ref=tempt.dom._1
+11	[0]	[0]	-	---------	_	5	SBJ	_	e_13|t_591|ref=tempt.dom._6
 12	·	·	u	u--------	_	4	AuxK	_	t_597|t_590|ref=tempt.dom._6
 
 # source = Severian of Gabala, tempt.dom._6
@@ -935,7 +935,7 @@
 6	τοῦτο	οὗτος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	SBJ	_	t_683|e_14|ref=tempt.dom._6
 7	εὐσεβείας	εὐσέβεια	n	n-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_684|t_685|ref=tempt.dom._6
 8	ἀλλότριον	ἀλλότριος	a	a-s---nn-	Case=n|Gender=n|Number=s	9	PNOM	_	t_685|e_14|ref=tempt.dom._6
-9	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=tempt.dom._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_14|0|ref=tempt.dom._6
 10	.	.	u	u--------	_	9	AuxK	_	t_686|e_14|ref=tempt.dom._6
 
 # source = Severian of Gabala, tempt.dom._6
@@ -955,27 +955,27 @@
 12	ὄψεως	ὄψις	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ADV	_	t_698|t_695|ref=tempt.dom._6
 13	.	.	u	u--------	_	2	AuxK	_	t_699|t_688|ref=tempt.dom._6
 
-# source = Severian of Gabala, tempt.dom._6
+# source = Severian of Gabala, tempt.dom._7
 # text = Ἀλλὰ καὶ ἄνθρωπός εἰμι καὶ δίκαιός εἰμι , καὶ θεὸν οὐ πειράζω .
 # sent_id = 62
-1	Ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_700|0|ref=tempt.dom._6
-2	καὶ	καί	c	c--------	_	9	AuxY	_	t_701|t_708|ref=tempt.dom._6
-3	ἄνθρωπός	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_702|t_704|ref=tempt.dom._6
-4	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	9	PRED	_	t_703|t_708|ref=tempt.dom._6
-5	καὶ	καί	c	c--------	_	9	AuxY	_	t_704|t_708|ref=tempt.dom._6
-6	δίκαιός	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_705|t_706|ref=tempt.dom._6
-7	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	9	PRED	_	t_706|t_708|ref=tempt.dom._6
-8	,	,	u	u--------	_	7	AuxX	_	t_707|t_706|ref=tempt.dom._6
-9	καὶ	καί	c	c--------	_	1	COORD	_	t_708|t_700|ref=tempt.dom._6
-10	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_709|t_711|ref=tempt.dom._6
-11	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_710|t_711|ref=tempt.dom._6
-12	πειράζω	πειράζω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	9	PRED	_	t_711|t_708|ref=tempt.dom._6
-13	.	.	u	u--------	_	1	AuxK	_	t_712|t_700|ref=tempt.dom._6
+1	Ἀλλὰ	ἀλλά	c	c--------	_	0	COORD	_	t_700|0|ref=tempt.dom._7
+2	καὶ	καί	c	c--------	_	9	AuxY	_	t_701|t_708|ref=tempt.dom._7
+3	ἄνθρωπός	ἄνθρωπος	n	n-s---mn-	Case=n|Gender=m|Number=s	5	PNOM	_	t_702|t_704|ref=tempt.dom._7
+4	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	9	PRED	_	t_703|t_708|ref=tempt.dom._7
+5	καὶ	καί	c	c--------	_	9	AuxY	_	t_704|t_708|ref=tempt.dom._7
+6	δίκαιός	δίκαιος	a	a-s---mn-	Case=n|Gender=m|Number=s	7	PNOM	_	t_705|t_706|ref=tempt.dom._7
+7	εἰμι	εἰμί	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	9	PRED	_	t_706|t_708|ref=tempt.dom._7
+8	,	,	u	u--------	_	7	AuxX	_	t_707|t_706|ref=tempt.dom._7
+9	καὶ	καί	c	c--------	_	1	COORD	_	t_708|t_700|ref=tempt.dom._7
+10	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	12	OBJ	_	t_709|t_711|ref=tempt.dom._7
+11	οὐ	οὐ	d	d--------	_	12	AuxZ	_	t_710|t_711|ref=tempt.dom._7
+12	πειράζω	πειράζω	v	v1spia---	Mood=i|Number=s|Person=1|Tense=p|Voice=a	9	PRED	_	t_711|t_708|ref=tempt.dom._7
+13	.	.	u	u--------	_	1	AuxK	_	t_712|t_700|ref=tempt.dom._7
 
-# source = Severian of Gabala, tempt.dom._6-urn:cts:pta:pta0001.pta056.pta-grc1.7
+# source = Severian of Gabala, tempt.dom._7
 # text = Οὐδέπω γὰρ οἱ δίκαιοι πειράζουσι τὸν θεόν , ἀλλʼ ἐπερχομένην ἀνάγκην φέρουσι καὶ κ ἂν θέλῃ ὁ θεὸς πειράσαι , δέχονται .
 # sent_id = 63
-1	Οὐδέπω	οὐδέπω	d	d--------	_	5	ADV	_	t_713|t_717|ref=tempt.dom._6
+1	Οὐδέπω	οὐδέπω	d	d--------	_	5	ADV	_	t_713|t_717|ref=tempt.dom._7
 2	γὰρ	γάρ	d	d--------	_	5	AuxY	_	t_714|t_717|ref=tempt.dom._7
 3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_715|t_716|ref=tempt.dom._7
 4	δίκαιοι	δίκαιος	a	a-p---mn-	Case=n|Gender=m|Number=p	5	SBJ	_	t_716|t_717|ref=tempt.dom._7
@@ -998,23 +998,23 @@
 21	δέχονται	δέχομαι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	13	PRED	_	t_733|t_725|ref=tempt.dom._7
 22	.	.	u	u--------	_	8	AuxK	_	t_734|t_720|ref=tempt.dom._7
 
-# source = Severian of Gabala, tempt.dom._7-urn:cts:pta:pta0001.pta056.pta-grc1.8
+# source = Severian of Gabala, tempt.dom._8
 # text = Μὴ γὰρ οἱ ῥυσθέντες ἀπὸ πυρὸς καμίνου ἢ ἑτέρου τινὸς πειρατηρίου πειράζοντες τὸν θεὸν ἑαυτοὺς ἐνέβαλον ;
 # sent_id = 64
-1	Μὴ	μή	d	d--------	_	16	AuxZ	_	t_735|t_750|ref=tempt.dom._7
-2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_736|t_750|ref=tempt.dom._7
-3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_737|t_738|ref=tempt.dom._7
-4	ῥυσθέντες	ῥύομαι	v	v-pappmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	16	SBJ	_	t_738|t_750|ref=tempt.dom._7
-5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_739|t_738|ref=tempt.dom._7
-6	πυρὸς	πῦρ	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_740|t_742|ref=tempt.dom._7
-7	καμίνου	κάμινος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_741|t_742|ref=tempt.dom._7
-8	ἢ	ἤ1	c	c--------	_	5	COORD	_	t_742|t_739|ref=tempt.dom._7
-9	ἑτέρου	ἕτερος	a	a-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_743|t_745|ref=tempt.dom._7
-10	τινὸς	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_744|t_745|ref=tempt.dom._7
-11	πειρατηρίου	πειρατήριον	n	n-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_745|t_742|ref=tempt.dom._7
-12	πειράζοντες	πειράζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_746|t_750|ref=tempt.dom._7
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_747|t_748|ref=tempt.dom._7
-14	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_748|t_750|ref=tempt.dom._7
+1	Μὴ	μή	d	d--------	_	16	AuxZ	_	t_735|t_750|ref=tempt.dom._8
+2	γὰρ	γάρ	d	d--------	_	16	AuxY	_	t_736|t_750|ref=tempt.dom._8
+3	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	4	ATR	_	t_737|t_738|ref=tempt.dom._8
+4	ῥυσθέντες	ῥύομαι	v	v-pappmn-	Case=n|Gender=m|Mood=p|Number=p|Tense=a|Voice=p	16	SBJ	_	t_738|t_750|ref=tempt.dom._8
+5	ἀπὸ	ἀπό	r	r--------	_	4	AuxP	_	t_739|t_738|ref=tempt.dom._8
+6	πυρὸς	πῦρ	n	n-s---ng-	Case=g|Gender=n|Number=s	8	ADV	_	t_740|t_742|ref=tempt.dom._8
+7	καμίνου	κάμινος	n	n-s---mg-	Case=g|Gender=m|Number=s	8	ADV	_	t_741|t_742|ref=tempt.dom._8
+8	ἢ	ἤ1	c	c--------	_	5	COORD	_	t_742|t_739|ref=tempt.dom._8
+9	ἑτέρου	ἕτερος	a	a-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_743|t_745|ref=tempt.dom._8
+10	τινὸς	τις	p	p-s---ng-	Case=g|Gender=n|Number=s	11	ATR	_	t_744|t_745|ref=tempt.dom._8
+11	πειρατηρίου	πειρατήριον	n	n-s---ng-	Case=g|Gender=n|Number=s	8	OBJ	_	t_745|t_742|ref=tempt.dom._8
+12	πειράζοντες	πειράζω	v	v-pppamn-	Case=n|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	16	ADV	_	t_746|t_750|ref=tempt.dom._8
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_747|t_748|ref=tempt.dom._8
+14	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	16	OBJ	_	t_748|t_750|ref=tempt.dom._8
 15	ἑαυτοὺς	ἑαυτοῦ	p	p-p---ma-	Case=a|Gender=m|Number=p	16	OBJ	_	t_749|t_750|ref=tempt.dom._8
 16	ἐνέβαλον	ἐμβάλλω	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	0	PRED	_	t_750|0|ref=tempt.dom._8
 17	;	;	u	u--------	_	16	AuxK	_	t_751|t_750|ref=tempt.dom._8
@@ -1220,31 +1220,31 @@
 6	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	4	ADV	_	t_899|t_897|ref=tempt.dom._8
 7	.	.	u	u--------	_	2	AuxK	_	t_900|t_895|ref=tempt.dom._8
 
-# source = Severian of Gabala, tempt.dom._8
+# source = Severian of Gabala, tempt.dom._9
 # text = Βλέπετε εὐσεβῆ γνώμην ;
 # sent_id = 78
-1	Βλέπετε	βλέπω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_901|0|ref=tempt.dom._8
-2	εὐσεβῆ	εὐσεβής	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_902|t_903|ref=tempt.dom._8
-3	γνώμην	γνώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_903|t_901|ref=tempt.dom._8
-4	;	;	u	u--------	_	1	AuxK	_	t_904|t_901|ref=tempt.dom._8
+1	Βλέπετε	βλέπω	v	v2ppia---	Mood=i|Number=p|Person=2|Tense=p|Voice=a	0	PRED	_	t_901|0|ref=tempt.dom._9
+2	εὐσεβῆ	εὐσεβής	a	a-s---fa-	Case=a|Gender=f|Number=s	3	ATR	_	t_902|t_903|ref=tempt.dom._9
+3	γνώμην	γνώμη	n	n-s---fa-	Case=a|Gender=f|Number=s	1	OBJ	_	t_903|t_901|ref=tempt.dom._9
+4	;	;	u	u--------	_	1	AuxK	_	t_904|t_901|ref=tempt.dom._9
 
-# source = Severian of Gabala, tempt.dom._8
+# source = Severian of Gabala, tempt.dom._9
 # text = Δύναται μὲν ἐξελέσθαι φησίν .
 # sent_id = 79
-1	Δύναται	δύναμαι	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_905|t_908|ref=tempt.dom._8
-2	μὲν	μέν	d	d--------	_	4	AuxY	_	t_906|t_908|ref=tempt.dom._8
-3	ἐξελέσθαι	ἐξαιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	4	OBJ	_	t_907|t_908|ref=tempt.dom._8
-4	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_908|0|ref=tempt.dom._8
-5	.	.	u	u--------	_	4	AuxK	_	t_909|t_908|ref=tempt.dom._8
+1	Δύναται	δύναμαι	n	n-p---mn-	Case=n|Gender=m|Number=p	4	SBJ	_	t_905|t_908|ref=tempt.dom._9
+2	μὲν	μέν	d	d--------	_	4	AuxY	_	t_906|t_908|ref=tempt.dom._9
+3	ἐξελέσθαι	ἐξαιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	4	OBJ	_	t_907|t_908|ref=tempt.dom._9
+4	φησίν	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_908|0|ref=tempt.dom._9
+5	.	.	u	u--------	_	4	AuxK	_	t_909|t_908|ref=tempt.dom._9
 
-# source = Severian of Gabala, tempt.dom._8-urn:cts:pta:pta0001.pta056.pta-grc1.9
+# source = Severian of Gabala, tempt.dom._9
 # text = Ἐὰν δὲ μὴ θέλῃ , οὐ παρὰ τούτου τὴν εὐσέβειαν ἀρνούμεθα .
 # sent_id = 80
-1	Ἐὰν	ἐάν	c	c--------	_	11	AuxC	_	t_910|t_920|ref=tempt.dom._8
-2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_911|t_920|ref=tempt.dom._8
-3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_912|t_913|ref=tempt.dom._8
-4	θέλῃ	ἐθέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_913|t_910|ref=tempt.dom._8
-5	,	,	u	u--------	_	11	AuxX	_	t_914|t_920|ref=tempt.dom._8
+1	Ἐὰν	ἐάν	c	c--------	_	11	AuxC	_	t_910|t_920|ref=tempt.dom._9
+2	δὲ	δέ	d	d--------	_	11	AuxY	_	t_911|t_920|ref=tempt.dom._9
+3	μὴ	μή	d	d--------	_	4	AuxZ	_	t_912|t_913|ref=tempt.dom._9
+4	θέλῃ	ἐθέλω	v	v3spsa---	Mood=s|Number=s|Person=3|Tense=p|Voice=a	1	ADV	_	t_913|t_910|ref=tempt.dom._9
+5	,	,	u	u--------	_	11	AuxX	_	t_914|t_920|ref=tempt.dom._9
 6	οὐ	οὐ	d	d--------	_	11	AuxZ	_	t_915|t_920|ref=tempt.dom._9
 7	παρὰ	παρά	r	r--------	_	11	AuxP	_	t_916|t_920|ref=tempt.dom._9
 8	τούτου	οὗτος	p	p-s---ng-	Case=g|Gender=m|Number=s	7	ADV	_	t_917|t_916|ref=tempt.dom._9
@@ -1280,31 +1280,31 @@
 3	δυνάμει	δύναμις	n	n-s---fd-	Case=d|Gender=f|Number=s	1	ADV	_	t_935|t_933|ref=tempt.dom._9
 4	.	.	u	u--------	_	1	AuxK	_	t_936|t_933|ref=tempt.dom._9
 
-# source = Severian of Gabala, tempt.dom._9
+# source = Severian of Gabala, tempt.dom._10
 # text = Οἶδα ὅτι δύναται ·
 # sent_id = 84
-1	Οἶδα	οἶδα	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_937|0|ref=tempt.dom._9
-2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_938|t_937|ref=tempt.dom._9
-3	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	OBJ	_	t_939|t_938|ref=tempt.dom._9
-4	·	·	u	u--------	_	1	AuxK	_	t_940|t_937|ref=tempt.dom._9
+1	Οἶδα	οἶδα	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	0	PRED	_	t_937|0|ref=tempt.dom._10
+2	ὅτι	ὅτι	c	c--------	_	1	AuxC	_	t_938|t_937|ref=tempt.dom._10
+3	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	OBJ	_	t_939|t_938|ref=tempt.dom._10
+4	·	·	u	u--------	_	1	AuxK	_	t_940|t_937|ref=tempt.dom._10
 
-# source = Severian of Gabala, tempt.dom._9
+# source = Severian of Gabala, tempt.dom._10
 # text = οὐ βιάζομαι δὲ τῇ γνώμῃ .
 # sent_id = 85
-1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_941|t_942|ref=tempt.dom._9
-2	βιάζομαι	βιάζω	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_942|0|ref=tempt.dom._9
-3	δὲ	δέ	d	d--------	_	2	AuxY	_	t_943|t_942|ref=tempt.dom._9
-4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_944|t_945|ref=tempt.dom._9
-5	γνώμῃ	γνώμη	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_945|t_942|ref=tempt.dom._9
-6	.	.	u	u--------	_	2	AuxK	_	t_946|t_942|ref=tempt.dom._9
+1	οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_941|t_942|ref=tempt.dom._10
+2	βιάζομαι	βιάζω	v	v1spie---	Mood=i|Number=s|Person=1|Tense=p|Voice=e	0	PRED	_	t_942|0|ref=tempt.dom._10
+3	δὲ	δέ	d	d--------	_	2	AuxY	_	t_943|t_942|ref=tempt.dom._10
+4	τῇ	ὁ	l	l-s---fd-	Case=d|Gender=f|Number=s	5	ATR	_	t_944|t_945|ref=tempt.dom._10
+5	γνώμῃ	γνώμη	n	n-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_945|t_942|ref=tempt.dom._10
+6	.	.	u	u--------	_	2	AuxK	_	t_946|t_942|ref=tempt.dom._10
 
-# source = Severian of Gabala, tempt.dom._9-urn:cts:pta:pta0001.pta056.pta-grc1.10
+# source = Severian of Gabala, tempt.dom._10
 # text = Ἔστι θεὸς ὃς δύναται ἡμᾶς ἐξελέσθαι , καὶ ἐὰν μή , γνωστόν σοι ἔστω , βασιλεῦ , ὅτι τοῖς θεοῖς σου οὐ λατρεύομεν καὶ τῇ εἰκόνι τῇ χρυσῇ ᾗ ἔστησας οὐ προσκυνοῦμεν .
 # sent_id = 86
-1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_947|t_960|ref=tempt.dom._9
-2	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_948|t_947|ref=tempt.dom._9
-3	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_949|t_950|ref=tempt.dom._9
-4	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	ATR	_	t_950|t_948|ref=tempt.dom._9
+1	Ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	14	PRED	_	t_947|t_960|ref=tempt.dom._10
+2	θεὸς	θεός	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_948|t_947|ref=tempt.dom._10
+3	ὃς	ὅς	p	p-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_949|t_950|ref=tempt.dom._10
+4	δύναται	δύναμαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	2	ATR	_	t_950|t_948|ref=tempt.dom._10
 5	ἡμᾶς	ἐγώ	p	p1p---ma-	Case=a|Gender=m|Number=p|Person=1	6	OBJ	_	t_951|t_952|ref=tempt.dom._10
 6	ἐξελέσθαι	ἐξαιρέω	v	v--anm---	Mood=n|Tense=a|Voice=m	4	OBJ	_	t_952|t_950|ref=tempt.dom._10
 7	,	,	u	u--------	_	14	AuxX	_	t_953|t_960|ref=tempt.dom._10
@@ -1359,27 +1359,27 @@
 19	ἀπήλαυον	ἀπολαύω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	14	PRED	_	t_998|t_993|ref=tempt.dom._10
 20	.	.	u	u--------	_	8	AuxK	_	t_999|t_987|ref=tempt.dom._10
 
-# source = Severian of Gabala, tempt.dom._10
+# source = Severian of Gabala, tempt.dom._11
 # text = Λέγει οὖν ὁ σωτὴρ ἐκ προσώπου τῆς ἀνθρωπότητος ·
 # sent_id = 88
-1	Λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1000|0|ref=tempt.dom._10
-2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_1001|t_1000|ref=tempt.dom._10
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1002|t_1003|ref=tempt.dom._10
-4	σωτὴρ	σωτήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_1003|t_1000|ref=tempt.dom._10
-5	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_1004|t_1000|ref=tempt.dom._10
-6	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ADV	_	t_1005|t_1004|ref=tempt.dom._10
-7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1006|t_1007|ref=tempt.dom._10
-8	ἀνθρωπότητος	ἀνθρωπότης	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1007|t_1005|ref=tempt.dom._10
-9	·	·	u	u--------	_	1	AuxK	_	t_1008|t_1000|ref=tempt.dom._10
+1	Λέγει	λέγω3	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1000|0|ref=tempt.dom._11
+2	οὖν	οὖν	d	d--------	_	1	AuxY	_	t_1001|t_1000|ref=tempt.dom._11
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	4	ATR	_	t_1002|t_1003|ref=tempt.dom._11
+4	σωτὴρ	σωτήρ	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_1003|t_1000|ref=tempt.dom._11
+5	ἐκ	ἐκ	r	r--------	_	1	AuxP	_	t_1004|t_1000|ref=tempt.dom._11
+6	προσώπου	πρόσωπον	n	n-s---ng-	Case=g|Gender=n|Number=s	5	ADV	_	t_1005|t_1004|ref=tempt.dom._11
+7	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	8	ATR	_	t_1006|t_1007|ref=tempt.dom._11
+8	ἀνθρωπότητος	ἀνθρωπότης	n	n-s---fg-	Case=g|Gender=f|Number=s	6	ATR	_	t_1007|t_1005|ref=tempt.dom._11
+9	·	·	u	u--------	_	1	AuxK	_	t_1008|t_1000|ref=tempt.dom._11
 
-# source = Severian of Gabala, tempt.dom._10-urn:cts:pta:pta0001.pta056.pta-grc1.11
+# source = Severian of Gabala, tempt.dom._11
 # text = Οὐ πειράσεις κύριον τὸν θεόν σου .
 # sent_id = 89
-1	Οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_1009|t_1010|ref=tempt.dom._10
-2	πειράσεις	πειράω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_1010|0|ref=tempt.dom._10
-3	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1011|t_1010|ref=tempt.dom._10
-4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_1012|t_1013|ref=tempt.dom._10
-5	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	APOS	_	t_1013|t_1011|ref=tempt.dom._10
+1	Οὐ	οὐ	d	d--------	_	2	AuxZ	_	t_1009|t_1010|ref=tempt.dom._11
+2	πειράσεις	πειράω	v	v2sfia---	Mood=i|Number=s|Person=2|Tense=f|Voice=a	0	PRED	_	t_1010|0|ref=tempt.dom._11
+3	κύριον	κύριος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1011|t_1010|ref=tempt.dom._11
+4	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	5	ATR	_	t_1012|t_1013|ref=tempt.dom._11
+5	θεόν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	3	APOS	_	t_1013|t_1011|ref=tempt.dom._11
 6	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_1014|t_1013|ref=tempt.dom._11
 7	.	.	u	u--------	_	2	AuxK	_	t_1015|t_1010|ref=tempt.dom._11
 
@@ -1401,8 +1401,8 @@
 13	οἰκονομίαν	οἰκονομία	n	n-s---fa-	Case=a|Gender=f|Number=s	12	OBJ	_	t_1028|t_1027|ref=tempt.dom._11
 14	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	15	ATR	_	t_1029|t_1030|ref=tempt.dom._11
 15	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	17	SBJ	_	t_1030|e_16|ref=tempt.dom._11
-16	[0]	[0]	-	---------	_	3	OBJ	_	e_15|t_1018|ref=tempt.dom._1
-17	[1]	[1]	-	---------	_	3	OBJ	_	e_16|t_1018|ref=tempt.dom._1
+16	[0]	[0]	-	---------	_	3	OBJ	_	e_15|t_1018|ref=tempt.dom._11
+17	[1]	[1]	-	---------	_	3	OBJ	_	e_16|t_1018|ref=tempt.dom._11
 18	·	·	u	u--------	_	2	AuxK	_	t_1031|t_1017|ref=tempt.dom._11
 
 # source = Severian of Gabala, tempt.dom._11
@@ -1422,25 +1422,25 @@
 6	σου	σύ	p	p2s---cg-	Case=g|Gender=c|Number=s|Person=2	5	ATR	_	t_1039|t_1038|ref=tempt.dom._11
 7	.	.	u	u--------	_	2	AuxK	_	t_1040|t_1035|ref=tempt.dom._11
 
-# source = Severian of Gabala, tempt.dom._11-urn:cts:pta:pta0001.pta056.pta-grc1.12
+# source = Severian of Gabala, tempt.dom._12
 # text = Ὁ πειράζων τὸν θεὸν ἔλαβεν οὖν δεύτερον βέλος μετὰ τοῦ πρώτου καὶ ἀπῆλθεν , μᾶλλον οὐκ ἀπῆλθεν , ἀλλʼ ἔμεινεν ἐν τῇ ἀναισχυντίᾳ .
 # sent_id = 93
-1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_1041|t_1059|ref=tempt.dom._11
-2	πειράζων	πειράζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_1042|t_1045|ref=tempt.dom._11
-3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1043|t_1044|ref=tempt.dom._11
-4	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1044|t_1042|ref=tempt.dom._11
-5	ἔλαβεν	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_1045|t_1052|ref=tempt.dom._11
-6	οὖν	οὖν	d	d--------	_	5	AuxY	_	t_1046|t_1045|ref=tempt.dom._11
-7	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1047|t_1048|ref=tempt.dom._11
-8	βέλος	βέλος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_1048|t_1045|ref=tempt.dom._11
-9	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_1049|t_1045|ref=tempt.dom._11
-10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1050|t_1051|ref=tempt.dom._11
-11	πρώτου	πρῶτος	a	a-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_1051|t_1049|ref=tempt.dom._11
-12	καὶ	καί	c	c--------	_	19	AuxY	_	t_1052|t_1059|ref=tempt.dom._11
-13	ἀπῆλθεν	ἀπέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_1053|t_1052|ref=tempt.dom._11
-14	,	,	u	u--------	_	0	AuxX	_	t_1054|0|ref=tempt.dom._11
-15	μᾶλλον	μᾶλλον	d	d--------	_	17	ADV	_	t_1055|t_1057|ref=tempt.dom._11
-16	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_1056|t_1057|ref=tempt.dom._11
+1	Ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	19	SBJ	_	t_1041|t_1059|ref=tempt.dom._12
+2	πειράζων	πειράζω	v	v-sppamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=p|Voice=a	5	ADV	_	t_1042|t_1045|ref=tempt.dom._12
+3	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	4	ATR	_	t_1043|t_1044|ref=tempt.dom._12
+4	θεὸν	θεός	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1044|t_1042|ref=tempt.dom._12
+5	ἔλαβεν	λαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_1045|t_1052|ref=tempt.dom._12
+6	οὖν	οὖν	d	d--------	_	5	AuxY	_	t_1046|t_1045|ref=tempt.dom._12
+7	δεύτερον	δεύτερος	a	a-s---na-	Case=a|Gender=n|Number=s	8	ATR	_	t_1047|t_1048|ref=tempt.dom._12
+8	βέλος	βέλος	n	n-s---na-	Case=a|Gender=n|Number=s	5	OBJ	_	t_1048|t_1045|ref=tempt.dom._12
+9	μετὰ	μετά	r	r--------	_	5	AuxP	_	t_1049|t_1045|ref=tempt.dom._12
+10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1050|t_1051|ref=tempt.dom._12
+11	πρώτου	πρῶτος	a	a-s---mg-	Case=g|Gender=m|Number=s	9	ADV	_	t_1051|t_1049|ref=tempt.dom._12
+12	καὶ	καί	c	c--------	_	19	AuxY	_	t_1052|t_1059|ref=tempt.dom._12
+13	ἀπῆλθεν	ἀπέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	PRED	_	t_1053|t_1052|ref=tempt.dom._12
+14	,	,	u	u--------	_	0	AuxX	_	t_1054|0|ref=tempt.dom._12
+15	μᾶλλον	μᾶλλον	d	d--------	_	17	ADV	_	t_1055|t_1057|ref=tempt.dom._12
+16	οὐκ	οὐ	d	d--------	_	17	AuxZ	_	t_1056|t_1057|ref=tempt.dom._12
 17	ἀπῆλθεν	ἀπέρχομαι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	19	PRED	_	t_1057|t_1059|ref=tempt.dom._12
 18	,	,	u	u--------	_	14	AuxX	_	t_1058|t_1054|ref=tempt.dom._12
 19	ἀλλʼ	ἀλλά	c	c--------	_	14	COORD	_	t_1059|t_1054|ref=tempt.dom._12
@@ -1461,7 +1461,7 @@
 6	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_1070|t_1072|ref=tempt.dom._12
 7	ἰδίαν	ἴδιος	a	a-s---fa-	Case=a|Gender=f|Number=s	8	ATR	_	t_1071|t_1072|ref=tempt.dom._12
 8	μανίαν	μανία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_1072|t_1069|ref=tempt.dom._12
-9	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=tempt.dom._1
+9	[0]	[0]	-	---------	_	0	PRED	_	e_17|0|ref=tempt.dom._12
 10	.	.	u	u--------	_	9	AuxK	_	t_1073|e_17|ref=tempt.dom._12
 
 # source = Severian of Gabala, tempt.dom._12
@@ -1493,35 +1493,35 @@
 24	χρόνου	χρόνος	n	n-s---mg-	Case=g|Gender=m|Number=s	23	ATR	_	t_1097|t_1096|ref=tempt.dom._12
 25	.	.	u	u--------	_	9	AuxK	_	t_1098|t_1082|ref=tempt.dom._12
 
-# source = Severian of Gabala, tempt.dom._12
+# source = Severian of Gabala, tempt.dom._13
 # text = Πῶς ἔδειξε ;
 # sent_id = 96
-1	Πῶς	πῶς	d	d--------	_	2	ADV	_	t_1099|t_1100|ref=tempt.dom._12
-2	ἔδειξε	δείκνυμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1100|0|ref=tempt.dom._12
-3	;	;	u	u--------	_	2	AuxK	_	t_1101|t_1100|ref=tempt.dom._12
+1	Πῶς	πῶς	d	d--------	_	2	ADV	_	t_1099|t_1100|ref=tempt.dom._13
+2	ἔδειξε	δείκνυμι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1100|0|ref=tempt.dom._13
+3	;	;	u	u--------	_	2	AuxK	_	t_1101|t_1100|ref=tempt.dom._13
 
-# source = Severian of Gabala, tempt.dom._12
+# source = Severian of Gabala, tempt.dom._13
 # text = Θεῷ μὲν γὰρ πάντα δυνατά [0] .
 # sent_id = 97
-1	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_1102|t_1106|ref=tempt.dom._12
-2	μὲν	μέν	g	g--------	_	6	AuxY	_	t_1103|e_18|ref=tempt.dom._12
-3	γὰρ	γάρ	g	g--------	_	6	AuxY	_	t_1104|e_18|ref=tempt.dom._12
-4	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_1105|e_18|ref=tempt.dom._12
-5	δυνατά	δυνατός	a	a-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_1106|e_18|ref=tempt.dom._12
-6	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=tempt.dom._1
-7	.	.	u	u--------	_	6	AuxK	_	t_1107|e_18|ref=tempt.dom._12
+1	Θεῷ	θεός	n	n-s---md-	Case=d|Gender=m|Number=s	5	OBJ	_	t_1102|t_1106|ref=tempt.dom._13
+2	μὲν	μέν	g	g--------	_	6	AuxY	_	t_1103|e_18|ref=tempt.dom._13
+3	γὰρ	γάρ	g	g--------	_	6	AuxY	_	t_1104|e_18|ref=tempt.dom._13
+4	πάντα	πᾶς	a	a-p---nn-	Case=n|Gender=n|Number=p	6	SBJ	_	t_1105|e_18|ref=tempt.dom._13
+5	δυνατά	δυνατός	a	a-p---nn-	Case=n|Gender=n|Number=p	6	PNOM	_	t_1106|e_18|ref=tempt.dom._13
+6	[0]	[0]	-	---------	_	0	PRED	_	e_18|0|ref=tempt.dom._13
+7	.	.	u	u--------	_	6	AuxK	_	t_1107|e_18|ref=tempt.dom._13
 
-# source = Severian of Gabala, tempt.dom._12
+# source = Severian of Gabala, tempt.dom._13
 # text = Τῷ δὲ διαβόλῳ πῶς εὔπορον ἐφάνη δεῖξαι ;
 # sent_id = 98
-1	Τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1108|t_1110|ref=tempt.dom._12
-2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1109|0|ref=tempt.dom._12
-3	διαβόλῳ	διάβολος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_1110|t_1114|ref=tempt.dom._12
-4	πῶς	πῶς	d	d--------	_	6	ADV	_	t_1111|t_1113|ref=tempt.dom._12
-5	εὔπορον	εὔπορος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1112|t_1113|ref=tempt.dom._12
-6	ἐφάνη	φαίνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	2	PRED	_	t_1113|t_1109|ref=tempt.dom._12
-7	δεῖξαι	δείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	6	SBJ	_	t_1114|t_1113|ref=tempt.dom._12
-8	;	;	u	u--------	_	2	AuxK	_	t_1115|t_1109|ref=tempt.dom._12
+1	Τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	3	ATR	_	t_1108|t_1110|ref=tempt.dom._13
+2	δὲ	δέ	d	d--------	_	0	COORD	_	t_1109|0|ref=tempt.dom._13
+3	διαβόλῳ	διάβολος	n	n-s---md-	Case=d|Gender=m|Number=s	7	OBJ	_	t_1110|t_1114|ref=tempt.dom._13
+4	πῶς	πῶς	d	d--------	_	6	ADV	_	t_1111|t_1113|ref=tempt.dom._13
+5	εὔπορον	εὔπορος	a	a-s---nn-	Case=n|Gender=n|Number=s	6	PNOM	_	t_1112|t_1113|ref=tempt.dom._13
+6	ἐφάνη	φαίνω	v	v3saip---	Mood=i|Number=s|Person=3|Tense=a|Voice=p	2	PRED	_	t_1113|t_1109|ref=tempt.dom._13
+7	δεῖξαι	δείκνυμι	v	v--ana---	Mood=n|Tense=a|Voice=a	6	SBJ	_	t_1114|t_1113|ref=tempt.dom._13
+8	;	;	u	u--------	_	2	AuxK	_	t_1115|t_1109|ref=tempt.dom._13
 
 # source = Severian of Gabala, tempt.dom._13
 # text = Οὐ γὰρ εἶπεν ·
@@ -1539,10 +1539,10 @@
 3	Ἰησοῦς	ἰησοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	1	SBJ	_	t_1122|t_1120|ref=tempt.dom._13
 4	.	.	u	u--------	_	1	AuxK	_	t_1123|t_1120|ref=tempt.dom._13
 
-# source = Severian of Gabala, tempt.dom._12-urn:cts:pta:pta0001.pta056.pta-grc1.13
+# source = Severian of Gabala, tempt.dom._13
 # text = Ἠδύνατο γὰρ ἐν ἑνὶ τόπῳ καὶ μιᾷ γωνίᾳ ἑστὼς τὰ πάντα ἰδεῖν ὁ τὰ πάντα περιλαμβάνων .
 # sent_id = 101
-1	Ἠδύνατο	δύναμαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1124|0|ref=tempt.dom._12
+1	Ἠδύνατο	δύναμαι	v	v3saim---	Mood=i|Number=s|Person=3|Tense=a|Voice=m	0	PRED	_	t_1124|0|ref=tempt.dom._13
 2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1125|t_1124|ref=tempt.dom._13
 3	ἐν	ἐν	r	r--------	_	9	AuxP	_	t_1126|t_1132|ref=tempt.dom._13
 4	ἑνὶ	εἷς	m	m-s---md-	Case=d|Gender=m|Number=s	5	ATR	_	t_1127|t_1128|ref=tempt.dom._13
@@ -1627,7 +1627,7 @@
 5	εἰς	εἰς	r	r--------	_	7	AuxP	_	t_1190|t_1192|ref=tempt.dom._13
 6	κακίαν	κακία	n	n-s---fa-	Case=a|Gender=f|Number=s	5	OBJ	_	t_1191|t_1190|ref=tempt.dom._13
 7	μετασχηματίζεσθαι	μεταμορφόω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	SBJ	_	t_1192|e_19|ref=tempt.dom._13
-8	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=tempt.dom._1
+8	[0]	[0]	-	---------	_	0	PRED	_	e_19|0|ref=tempt.dom._13
 9	.	.	u	u--------	_	8	AuxK	_	t_1193|e_19|ref=tempt.dom._13
 
 # source = Severian of Gabala, tempt.dom._13
@@ -1647,40 +1647,40 @@
 12	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	14	ATR	_	t_1205|t_1207|ref=tempt.dom._13
 13	ὁρωμένην	ὁράω	v	v-sppefa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=e	14	ATR	_	t_1206|t_1207|ref=tempt.dom._13
 14	φαντασίαν	φαντασία	n	n-s---fa-	Case=a|Gender=f|Number=s	11	OBJ	_	t_1207|t_1204|ref=tempt.dom._13
-15	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=tempt.dom._1
+15	[0]	[0]	-	---------	_	0	PRED	_	e_20|0|ref=tempt.dom._13
 16	.	.	u	u--------	_	15	AuxK	_	t_1208|e_20|ref=tempt.dom._13
 
-# source = Severian of Gabala, tempt.dom._13
+# source = Severian of Gabala, tempt.dom._14
 # text = Εἶτά φησι ·
 # sent_id = 107
-1	Εἶτά	εἶτα	d	d--------	_	2	ADV	_	t_1209|t_1210|ref=tempt.dom._13
-2	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1210|0|ref=tempt.dom._13
-3	·	·	u	u--------	_	2	AuxK	_	t_1211|t_1210|ref=tempt.dom._13
+1	Εἶτά	εἶτα	d	d--------	_	2	ADV	_	t_1209|t_1210|ref=tempt.dom._14
+2	φησι	φημί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1210|0|ref=tempt.dom._14
+3	·	·	u	u--------	_	2	AuxK	_	t_1211|t_1210|ref=tempt.dom._14
 
-# source = Severian of Gabala, tempt.dom._13
+# source = Severian of Gabala, tempt.dom._14
 # text = Ταῦτα πάντα σοι δώσω , ἐὰν πεσὼν προσκυνήσῃς με .
 # sent_id = 108
-1	Ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1212|t_1215|ref=tempt.dom._13
-2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	1	ATR	_	t_1213|t_1212|ref=tempt.dom._13
-3	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1214|t_1215|ref=tempt.dom._13
-4	δώσω	δίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1215|0|ref=tempt.dom._13
-5	,	,	u	u--------	_	6	AuxX	_	t_1216|t_1217|ref=tempt.dom._13
-6	ἐὰν	ἐάν	c	c--------	_	4	AuxC	_	t_1217|t_1215|ref=tempt.dom._13
-7	πεσὼν	πίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ADV	_	t_1218|t_1219|ref=tempt.dom._13
-8	προσκυνήσῃς	προσκυνέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	6	ADV	_	t_1219|t_1217|ref=tempt.dom._13
-9	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	8	OBJ	_	t_1220|t_1219|ref=tempt.dom._13
-10	.	.	u	u--------	_	4	AuxK	_	t_1221|t_1215|ref=tempt.dom._13
+1	Ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1212|t_1215|ref=tempt.dom._14
+2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	1	ATR	_	t_1213|t_1212|ref=tempt.dom._14
+3	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1214|t_1215|ref=tempt.dom._14
+4	δώσω	δίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1215|0|ref=tempt.dom._14
+5	,	,	u	u--------	_	6	AuxX	_	t_1216|t_1217|ref=tempt.dom._14
+6	ἐὰν	ἐάν	c	c--------	_	4	AuxC	_	t_1217|t_1215|ref=tempt.dom._14
+7	πεσὼν	πίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ADV	_	t_1218|t_1219|ref=tempt.dom._14
+8	προσκυνήσῃς	προσκυνέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	6	ADV	_	t_1219|t_1217|ref=tempt.dom._14
+9	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	8	OBJ	_	t_1220|t_1219|ref=tempt.dom._14
+10	.	.	u	u--------	_	4	AuxK	_	t_1221|t_1215|ref=tempt.dom._14
 
-# source = Severian of Gabala, tempt.dom._13-urn:cts:pta:pta0001.pta056.pta-grc1.14
+# source = Severian of Gabala, tempt.dom._14
 # text = Οὕτω , ὅτι πρὸς ἀνθρωπότητα ἐλάλει , προβάλλει καὶ τὴν τρίτην πεῖραν καὶ λέγει ·
 # sent_id = 109
-1	Οὕτω	οὕτως	d	d--------	_	13	ADV	_	t_1222|t_1234|ref=tempt.dom._13
-2	,	,	u	u--------	_	3	AuxX	_	t_1223|t_1224|ref=tempt.dom._13
-3	ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_1224|t_1234|ref=tempt.dom._13
-4	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_1225|t_1227|ref=tempt.dom._13
-5	ἀνθρωπότητα	ἀνθρωπότης	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1226|t_1225|ref=tempt.dom._13
-6	ἐλάλει	λαλέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ADV	_	t_1227|t_1224|ref=tempt.dom._13
-7	,	,	u	u--------	_	3	AuxX	_	t_1228|t_1224|ref=tempt.dom._13
+1	Οὕτω	οὕτως	d	d--------	_	13	ADV	_	t_1222|t_1234|ref=tempt.dom._14
+2	,	,	u	u--------	_	3	AuxX	_	t_1223|t_1224|ref=tempt.dom._14
+3	ὅτι	ὅτι	c	c--------	_	13	AuxC	_	t_1224|t_1234|ref=tempt.dom._14
+4	πρὸς	πρός	r	r--------	_	6	AuxP	_	t_1225|t_1227|ref=tempt.dom._14
+5	ἀνθρωπότητα	ἀνθρωπότης	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1226|t_1225|ref=tempt.dom._14
+6	ἐλάλει	λαλέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	3	ADV	_	t_1227|t_1224|ref=tempt.dom._14
+7	,	,	u	u--------	_	3	AuxX	_	t_1228|t_1224|ref=tempt.dom._14
 8	προβάλλει	προβάλλω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	13	PRED	_	t_1229|t_1234|ref=tempt.dom._14
 9	καὶ	καί	c	c--------	_	13	AuxY	_	t_1230|t_1234|ref=tempt.dom._14
 10	τὴν	ὁ	l	l-s---fa-	Case=a|Gender=f|Number=s	12	ATR	_	t_1231|t_1233|ref=tempt.dom._14
@@ -1727,8 +1727,8 @@
 18	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	17	ADV	_	t_1264|t_1263|ref=tempt.dom._14
 19	τοῖς	ὁ	l	l-p---md-	Case=d|Gender=m|Number=p	18	ATR	_	t_1265|t_1264|ref=tempt.dom._14
 20	ἀκούουσιν	ἀκούω	v	v-pppamd-	Case=d|Gender=m|Mood=p|Number=p|Tense=p|Voice=a	18	ATR	_	t_1266|t_1264|ref=tempt.dom._14
-21	[0]	[0]	-	---------	_	1	ADV	_	e_21|t_1247|ref=tempt.dom._1
-22	[1]	[1]	-	---------	_	0	PRED	_	e_22|0|ref=tempt.dom._1
+21	[0]	[0]	-	---------	_	1	ADV	_	e_21|t_1247|ref=tempt.dom._14
+22	[1]	[1]	-	---------	_	0	PRED	_	e_22|0|ref=tempt.dom._14
 23	·	·	u	u--------	_	22	AuxK	_	t_1267|e_22|ref=tempt.dom._14
 
 # source = Severian of Gabala, tempt.dom._14
@@ -1738,43 +1738,43 @@
 2	πεσὼν	πίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	3	ADV	_	t_1269|t_1270|ref=tempt.dom._14
 3	προσκυνήσῃς	προσκυνέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	1	ADV	_	t_1270|t_1268|ref=tempt.dom._14
 4	με	ἐγώ	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_1271|t_1270|ref=tempt.dom._14
-5	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=tempt.dom._1
+5	[0]	[0]	-	---------	_	0	PRED	_	e_23|0|ref=tempt.dom._14
 6	.	.	u	u--------	_	5	AuxK	_	t_1272|e_23|ref=tempt.dom._14
 
-# source = Severian of Gabala, tempt.dom._14
+# source = Severian of Gabala, tempt.dom._15
 # text = Οὐκοῦν οὐκ ἔστι σοι προσκυνῆσαι μὴ πρότερον πεσόντα ;
 # sent_id = 113
-1	Οὐκοῦν	οὐκοῦν	d	d--------	_	3	AuxY	_	t_1273|t_1275|ref=tempt.dom._14
-2	οὐκ	οὐ	d	d--------	_	3	AuxZ	_	t_1274|t_1275|ref=tempt.dom._14
-3	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1275|0|ref=tempt.dom._14
-4	σοι	σύ	p	p2s---cd-	Case=d|Gender=c|Number=s|Person=2	5	OBJ	_	t_1276|t_1277|ref=tempt.dom._14
-5	προσκυνῆσαι	προσκυνέω	v	v--ana---	Mood=n|Tense=a|Voice=a	3	SBJ	_	t_1277|t_1275|ref=tempt.dom._14
-6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_1278|t_1279|ref=tempt.dom._14
-7	πρότερον	πρότερος	d	d-------c	Degree=c	8	ADV	_	t_1279|t_1280|ref=tempt.dom._14
-8	πεσόντα	πίπτω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_1280|t_1277|ref=tempt.dom._14
-9	;	;	u	u--------	_	3	AuxK	_	t_1281|t_1275|ref=tempt.dom._14
+1	Οὐκοῦν	οὐκοῦν	d	d--------	_	3	AuxY	_	t_1273|t_1275|ref=tempt.dom._15
+2	οὐκ	οὐ	d	d--------	_	3	AuxZ	_	t_1274|t_1275|ref=tempt.dom._15
+3	ἔστι	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1275|0|ref=tempt.dom._15
+4	σοι	σύ	p	p2s---cd-	Case=d|Gender=c|Number=s|Person=2	5	OBJ	_	t_1276|t_1277|ref=tempt.dom._15
+5	προσκυνῆσαι	προσκυνέω	v	v--ana---	Mood=n|Tense=a|Voice=a	3	SBJ	_	t_1277|t_1275|ref=tempt.dom._15
+6	μὴ	μή	d	d--------	_	7	AuxZ	_	t_1278|t_1279|ref=tempt.dom._15
+7	πρότερον	πρότερος	d	d-------c	Degree=c	8	ADV	_	t_1279|t_1280|ref=tempt.dom._15
+8	πεσόντα	πίπτω	v	v-sapama-	Case=a|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	5	ADV	_	t_1280|t_1277|ref=tempt.dom._15
+9	;	;	u	u--------	_	3	AuxK	_	t_1281|t_1275|ref=tempt.dom._15
 
-# source = Severian of Gabala, tempt.dom._14
+# source = Severian of Gabala, tempt.dom._15
 # text = Ταῦτα πάντα σοι δώσω , ἐὰν πεσὼν προσκυνήσῃς με .
 # sent_id = 114
-1	Ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1282|t_1285|ref=tempt.dom._14
-2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	1	ATR	_	t_1283|t_1282|ref=tempt.dom._14
-3	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1284|t_1285|ref=tempt.dom._14
-4	δώσω	δίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1285|0|ref=tempt.dom._14
-5	,	,	u	u--------	_	6	AuxX	_	t_1286|t_1287|ref=tempt.dom._14
-6	ἐὰν	ἐάν	c	c--------	_	4	AuxC	_	t_1287|t_1285|ref=tempt.dom._14
-7	πεσὼν	πίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ADV	_	t_1288|t_1289|ref=tempt.dom._14
-8	προσκυνήσῃς	προσκυνέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	6	ADV	_	t_1289|t_1287|ref=tempt.dom._14
-9	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	8	OBJ	_	t_1290|t_1289|ref=tempt.dom._14
-10	.	.	u	u--------	_	4	AuxK	_	t_1291|t_1285|ref=tempt.dom._14
+1	Ταῦτα	οὗτος	a	a-p---na-	Case=a|Gender=n|Number=p	4	OBJ	_	t_1282|t_1285|ref=tempt.dom._15
+2	πάντα	πᾶς	a	a-p---na-	Case=a|Gender=n|Number=p	1	ATR	_	t_1283|t_1282|ref=tempt.dom._15
+3	σοι	σύ	p	p-s---md-	Case=d|Gender=m|Number=s	4	OBJ	_	t_1284|t_1285|ref=tempt.dom._15
+4	δώσω	δίδωμι	v	v1sfia---	Mood=i|Number=s|Person=1|Tense=f|Voice=a	0	PRED	_	t_1285|0|ref=tempt.dom._15
+5	,	,	u	u--------	_	6	AuxX	_	t_1286|t_1287|ref=tempt.dom._15
+6	ἐὰν	ἐάν	c	c--------	_	4	AuxC	_	t_1287|t_1285|ref=tempt.dom._15
+7	πεσὼν	πίπτω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	8	ADV	_	t_1288|t_1289|ref=tempt.dom._15
+8	προσκυνήσῃς	προσκυνέω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	6	ADV	_	t_1289|t_1287|ref=tempt.dom._15
+9	με	ἐγώ	p	p1s---ca-	Case=a|Gender=c|Number=s|Person=1	8	OBJ	_	t_1290|t_1289|ref=tempt.dom._15
+10	.	.	u	u--------	_	4	AuxK	_	t_1291|t_1285|ref=tempt.dom._15
 
-# source = Severian of Gabala, tempt.dom._14-urn:cts:pta:pta0001.pta056.pta-grc1.15
+# source = Severian of Gabala, tempt.dom._15
 # text = Ἐπαγγέλλεται πτῶσιν , εἶτα δόσιν .
 # sent_id = 115
-1	Ἐπαγγέλλεται	ἐπαγγέλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1292|0|ref=tempt.dom._14
-2	πτῶσιν	πτῶσις	v	v-pppamd-	Case=a|Gender=f|Number=s	1	OBJ	_	t_1293|t_1292|ref=tempt.dom._14
-3	,	,	u	u--------	_	4	AuxX	_	t_1294|t_1295|ref=tempt.dom._14
-4	εἶτα	εἶτα	c	c--------	_	1	COORD	_	t_1295|t_1292|ref=tempt.dom._14
+1	Ἐπαγγέλλεται	ἐπαγγέλλω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1292|0|ref=tempt.dom._15
+2	πτῶσιν	πτῶσις	v	v-pppamd-	Case=a|Gender=f|Number=s	1	OBJ	_	t_1293|t_1292|ref=tempt.dom._15
+3	,	,	u	u--------	_	4	AuxX	_	t_1294|t_1295|ref=tempt.dom._15
+4	εἶτα	εἶτα	c	c--------	_	1	COORD	_	t_1295|t_1292|ref=tempt.dom._15
 5	δόσιν	δόσις	n	n-s---fa-	Case=a|Gender=f|Number=s	4	OBJ	_	t_1296|t_1295|ref=tempt.dom._15
 6	.	.	u	u--------	_	3	AuxK	_	t_1297|t_1294|ref=tempt.dom._15
 
@@ -1848,43 +1848,43 @@
 6	διάβολος	διάβολος	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1342|t_1338|ref=tempt.dom._15
 7	.	.	u	u--------	_	1	AuxK	_	t_1343|t_1337|ref=tempt.dom._15
 
-# source = Severian of Gabala, tempt.dom._15
+# source = Severian of Gabala, tempt.dom._16
 # text = Φωνῇ αὐτὸν διώκει , ὥσπερ τοὺς υἱοὺς αὐτοῦ τοὺς Ἰουδαίους καὶ θεομάχους τότε διὰ φωνῆς ὀπίσω βέβληκε .
 # sent_id = 122
-1	Φωνῇ	φωνή	n	n-s---md-	Case=d|Gender=f|Number=s	3	OBJ	_	t_1344|t_1346|ref=tempt.dom._15
-2	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_1345|t_1346|ref=tempt.dom._15
-3	διώκει	διώκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1346|0|ref=tempt.dom._15
-4	,	,	u	u--------	_	3	AuxX	_	t_1347|t_1346|ref=tempt.dom._15
-5	ὥσπερ	ὥσπερ	c	c--------	_	3	AuxC	_	t_1348|t_1346|ref=tempt.dom._15
-6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_1349|t_1350|ref=tempt.dom._15
-7	υἱοὺς	υἱός	n	n-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_1350|t_1360|ref=tempt.dom._15
-8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1351|t_1350|ref=tempt.dom._15
-9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_1352|t_1350|ref=tempt.dom._15
-10	Ἰουδαίους	ἰουδαῖος	n	n-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_1353|t_1354|ref=tempt.dom._15
-11	καὶ	καί	c	c--------	_	7	COORD	_	t_1354|t_1350|ref=tempt.dom._15
-12	θεομάχους	θεομάχος	n	n-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_1355|t_1354|ref=tempt.dom._15
-13	τότε	τότε	d	d--------	_	17	ADV	_	t_1356|t_1360|ref=tempt.dom._15
-14	διὰ	διά	r	r--------	_	17	AuxP	_	t_1357|t_1360|ref=tempt.dom._15
-15	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_1358|t_1357|ref=tempt.dom._15
-16	ὀπίσω	ὀπίσω	d	d--------	_	17	ADV	_	t_1359|t_1360|ref=tempt.dom._15
-17	βέβληκε	βάλλω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	5	ADV	_	t_1360|t_1348|ref=tempt.dom._15
-18	.	.	u	u--------	_	3	AuxK	_	t_1361|t_1346|ref=tempt.dom._15
+1	Φωνῇ	φωνή	n	n-s---md-	Case=d|Gender=f|Number=s	3	OBJ	_	t_1344|t_1346|ref=tempt.dom._16
+2	αὐτὸν	αὐτός	p	p-s---ma-	Case=a|Gender=m|Number=s	3	OBJ	_	t_1345|t_1346|ref=tempt.dom._16
+3	διώκει	διώκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1346|0|ref=tempt.dom._16
+4	,	,	u	u--------	_	3	AuxX	_	t_1347|t_1346|ref=tempt.dom._16
+5	ὥσπερ	ὥσπερ	c	c--------	_	3	AuxC	_	t_1348|t_1346|ref=tempt.dom._16
+6	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_1349|t_1350|ref=tempt.dom._16
+7	υἱοὺς	υἱός	n	n-p---ma-	Case=a|Gender=m|Number=p	17	OBJ	_	t_1350|t_1360|ref=tempt.dom._16
+8	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	7	ATR	_	t_1351|t_1350|ref=tempt.dom._16
+9	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	7	ATR	_	t_1352|t_1350|ref=tempt.dom._16
+10	Ἰουδαίους	ἰουδαῖος	n	n-p---ma-	Case=a|Gender=m|Number=p	11	ATR	_	t_1353|t_1354|ref=tempt.dom._16
+11	καὶ	καί	c	c--------	_	7	COORD	_	t_1354|t_1350|ref=tempt.dom._16
+12	θεομάχους	θεομάχος	n	n-p---ma-	Case=a|Gender=m|Number=p	11	OBJ	_	t_1355|t_1354|ref=tempt.dom._16
+13	τότε	τότε	d	d--------	_	17	ADV	_	t_1356|t_1360|ref=tempt.dom._16
+14	διὰ	διά	r	r--------	_	17	AuxP	_	t_1357|t_1360|ref=tempt.dom._16
+15	φωνῆς	φωνή	n	n-s---fg-	Case=g|Gender=f|Number=s	14	ADV	_	t_1358|t_1357|ref=tempt.dom._16
+16	ὀπίσω	ὀπίσω	d	d--------	_	17	ADV	_	t_1359|t_1360|ref=tempt.dom._16
+17	βέβληκε	βάλλω	v	v3sria---	Mood=i|Number=s|Person=3|Tense=r|Voice=a	5	ADV	_	t_1360|t_1348|ref=tempt.dom._16
+18	.	.	u	u--------	_	3	AuxK	_	t_1361|t_1346|ref=tempt.dom._16
 
-# source = Severian of Gabala, tempt.dom._15
+# source = Severian of Gabala, tempt.dom._16
 # text = Λεγόντων γὰρ αὐτῶν ·
 # sent_id = 123
-1	Λεγόντων	λέγω3	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1362|0|ref=tempt.dom._15
-2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1363|t_1362|ref=tempt.dom._15
-3	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	1	SBJ	_	t_1364|t_1362|ref=tempt.dom._15
-4	·	·	u	u--------	_	1	AuxK	_	t_1365|t_1362|ref=tempt.dom._15
+1	Λεγόντων	λέγω3	v	v3ppma---	Mood=m|Number=p|Person=3|Tense=p|Voice=a	0	PRED	_	t_1362|0|ref=tempt.dom._16
+2	γὰρ	γάρ	d	d--------	_	1	AuxY	_	t_1363|t_1362|ref=tempt.dom._16
+3	αὐτῶν	αὐτός	a	a-p---mg-	Case=g|Gender=m|Number=p	1	SBJ	_	t_1364|t_1362|ref=tempt.dom._16
+4	·	·	u	u--------	_	1	AuxK	_	t_1365|t_1362|ref=tempt.dom._16
 
-# source = Severian of Gabala, tempt.dom._15-urn:cts:pta:pta0001.pta056.pta-grc1.16
+# source = Severian of Gabala, tempt.dom._16
 # text = Ποῦ ὁ Ἰησοῦς [0] ;
 # sent_id = 124
-1	Ποῦ	ποῦ	d	d--------	_	4	PNOM	_	t_1366|e_24|ref=tempt.dom._15
+1	Ποῦ	ποῦ	d	d--------	_	4	PNOM	_	t_1366|e_24|ref=tempt.dom._16
 2	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	3	ATR	_	t_1367|t_1368|ref=tempt.dom._16
 3	Ἰησοῦς	ἰησοῦς	n	n-s---mn-	Case=n|Gender=m|Number=s	4	SBJ	_	t_1368|e_24|ref=tempt.dom._16
-4	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=tempt.dom._1
+4	[0]	[0]	-	---------	_	0	PRED	_	e_24|0|ref=tempt.dom._16
 5	;	;	u	u--------	_	4	AuxK	_	t_1369|e_24|ref=tempt.dom._16
 
 # source = Severian of Gabala, tempt.dom._16
@@ -1912,7 +1912,7 @@
 13	καὶ	καί	d	d--------	_	15	AuxZ	_	t_1385|t_1387|ref=tempt.dom._16
 14	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	15	ATR	_	t_1386|t_1387|ref=tempt.dom._16
 15	διαβόλῳ	διάβολος	n	n-s---md-	Case=d|Gender=m|Number=s	16	ADV	_	t_1387|e_25|ref=tempt.dom._16
-16	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=tempt.dom._1
+16	[0]	[0]	-	---------	_	0	PRED	_	e_25|0|ref=tempt.dom._16
 17	·	·	u	u--------	_	16	AuxK	_	t_1388|e_25|ref=tempt.dom._16
 
 # source = Severian of Gabala, tempt.dom._16
@@ -1946,38 +1946,38 @@
 18	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ADV	_	t_1410|t_1409|ref=tempt.dom._16
 19	.	.	u	u--------	_	5	AuxK	_	t_1411|t_1397|ref=tempt.dom._16
 
-# source = Severian of Gabala, tempt.dom._16
+# source = Severian of Gabala, tempt.dom._17
 # text = Τοῦτο δὲ γέγραπται εἰς ἀσφάλειαν ἡμῶν , ἐπειδὴ πανταχοῦ διὰ τῆς εἰκόνος ἧς ἀνέλαβε , χαρακτῆρα ἡμῖν πολιτείας καταλιμπάνων διδάσκει σε .
 # sent_id = 129
-1	Τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_1412|t_1414|ref=tempt.dom._16
-2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1413|t_1414|ref=tempt.dom._16
-3	γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1414|0|ref=tempt.dom._16
-4	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1415|t_1414|ref=tempt.dom._16
-5	ἀσφάλειαν	ἀσφάλεια	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ADV	_	t_1416|t_1415|ref=tempt.dom._16
-6	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1417|t_1416|ref=tempt.dom._16
-7	,	,	u	u--------	_	3	AuxX	_	t_1418|t_1414|ref=tempt.dom._16
-8	ἐπειδὴ	ἐπεί	c	c--------	_	3	AuxC	_	t_1419|t_1414|ref=tempt.dom._16
-9	πανταχοῦ	πανταχοῦ	d	d--------	_	20	ADV	_	t_1420|t_1431|ref=tempt.dom._16
-10	διὰ	διά	r	r--------	_	20	AuxP	_	t_1421|t_1431|ref=tempt.dom._16
-11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1422|t_1423|ref=tempt.dom._16
-12	εἰκόνος	εἰκών	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1423|t_1421|ref=tempt.dom._16
-13	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	14	OBJ	_	t_1424|t_1425|ref=tempt.dom._16
-14	ἀνέλαβε	ἀναλαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	ATR	_	t_1425|t_1423|ref=tempt.dom._16
-15	,	,	u	u--------	_	3	AuxX	_	t_1426|t_1414|ref=tempt.dom._16
-16	χαρακτῆρα	χαρακτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OCOMP	_	t_1427|t_1431|ref=tempt.dom._16
-17	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	20	OBJ	_	t_1428|t_1431|ref=tempt.dom._16
-18	πολιτείας	πολιτεία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_1429|t_1427|ref=tempt.dom._16
-19	καταλιμπάνων	καταλιμπάνω	a	a-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_1430|t_1429|ref=tempt.dom._16
-20	διδάσκει	διδάσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	ADV	_	t_1431|t_1419|ref=tempt.dom._16
-21	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	20	OBJ	_	t_1432|t_1431|ref=tempt.dom._16
-22	.	.	u	u--------	_	3	AuxK	_	t_1433|t_1414|ref=tempt.dom._16
+1	Τοῦτο	οὗτος	p	p-s---nn-	Case=n|Gender=n|Number=s	3	SBJ	_	t_1412|t_1414|ref=tempt.dom._17
+2	δὲ	δέ	d	d--------	_	3	AuxY	_	t_1413|t_1414|ref=tempt.dom._17
+3	γέγραπται	γράφω	v	v3srie---	Mood=i|Number=s|Person=3|Tense=r|Voice=e	0	PRED	_	t_1414|0|ref=tempt.dom._17
+4	εἰς	εἰς	r	r--------	_	3	AuxP	_	t_1415|t_1414|ref=tempt.dom._17
+5	ἀσφάλειαν	ἀσφάλεια	n	n-s---fa-	Case=a|Gender=f|Number=s	4	ADV	_	t_1416|t_1415|ref=tempt.dom._17
+6	ἡμῶν	ἐγώ	p	p1p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1417|t_1416|ref=tempt.dom._17
+7	,	,	u	u--------	_	3	AuxX	_	t_1418|t_1414|ref=tempt.dom._17
+8	ἐπειδὴ	ἐπεί	c	c--------	_	3	AuxC	_	t_1419|t_1414|ref=tempt.dom._17
+9	πανταχοῦ	πανταχοῦ	d	d--------	_	20	ADV	_	t_1420|t_1431|ref=tempt.dom._17
+10	διὰ	διά	r	r--------	_	20	AuxP	_	t_1421|t_1431|ref=tempt.dom._17
+11	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	12	ATR	_	t_1422|t_1423|ref=tempt.dom._17
+12	εἰκόνος	εἰκών	n	n-s---fg-	Case=g|Gender=f|Number=s	10	ADV	_	t_1423|t_1421|ref=tempt.dom._17
+13	ἧς	ὅς	p	p-s---fg-	Case=g|Gender=f|Number=s	14	OBJ	_	t_1424|t_1425|ref=tempt.dom._17
+14	ἀνέλαβε	ἀναλαμβάνω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	12	ATR	_	t_1425|t_1423|ref=tempt.dom._17
+15	,	,	u	u--------	_	3	AuxX	_	t_1426|t_1414|ref=tempt.dom._17
+16	χαρακτῆρα	χαρακτήρ	n	n-s---ma-	Case=a|Gender=m|Number=s	20	OCOMP	_	t_1427|t_1431|ref=tempt.dom._17
+17	ἡμῖν	ἐγώ	p	p1p---md-	Case=d|Gender=m|Number=p|Person=1	20	OBJ	_	t_1428|t_1431|ref=tempt.dom._17
+18	πολιτείας	πολιτεία	n	n-s---fg-	Case=g|Gender=f|Number=s	16	ATR	_	t_1429|t_1427|ref=tempt.dom._17
+19	καταλιμπάνων	καταλιμπάνω	a	a-p---ng-	Case=g|Gender=n|Number=p	18	ATR	_	t_1430|t_1429|ref=tempt.dom._17
+20	διδάσκει	διδάσκω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	8	ADV	_	t_1431|t_1419|ref=tempt.dom._17
+21	σε	σύ	p	p2s---ca-	Case=a|Gender=c|Number=s|Person=2	20	OBJ	_	t_1432|t_1431|ref=tempt.dom._17
+22	.	.	u	u--------	_	3	AuxK	_	t_1433|t_1414|ref=tempt.dom._17
 
-# source = Severian of Gabala, tempt.dom._16-urn:cts:pta:pta0001.pta056.pta-grc1.17
+# source = Severian of Gabala, tempt.dom._17
 # text = Ἐπειδὰν παλαίσῃς τῷ διαβόλῳ καὶ νικήσῃς , χρή σε μὴ εἰς ἀμεριμνίαν ἐλθεῖν , ἀλλʼ εἰδέναι ὅτι ἀνακύπτει πάλιν μετὰ τὴν νίκην .
 # sent_id = 130
-1	Ἐπειδὰν	ἐπειδάν	c	c--------	_	8	AuxC	_	t_1434|t_1441|ref=tempt.dom._16
-2	παλαίσῃς	παλαίω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	5	ADV	_	t_1435|t_1438|ref=tempt.dom._16
-3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_1436|t_1437|ref=tempt.dom._16
+1	Ἐπειδὰν	ἐπειδάν	c	c--------	_	8	AuxC	_	t_1434|t_1441|ref=tempt.dom._17
+2	παλαίσῃς	παλαίω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	5	ADV	_	t_1435|t_1438|ref=tempt.dom._17
+3	τῷ	ὁ	l	l-s---md-	Case=d|Gender=m|Number=s	4	ATR	_	t_1436|t_1437|ref=tempt.dom._17
 4	διαβόλῳ	διάβολος	n	n-s---md-	Case=d|Gender=m|Number=s	2	ADV	_	t_1437|t_1435|ref=tempt.dom._17
 5	καὶ	καί	c	c--------	_	1	COORD	_	t_1438|t_1434|ref=tempt.dom._17
 6	νικήσῃς	νικάω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	5	ADV	_	t_1439|t_1438|ref=tempt.dom._17
@@ -2039,7 +2039,7 @@
 35	ἑτέρᾳ	ἕτερος	a	a-s---fd-	Case=d|Gender=f|Number=s	36	ATR	_	t_1491|t_1492|ref=tempt.dom._17
 36	προσβολῇ	προσβολή	n	n-s---fd-	Case=d|Gender=f|Number=s	37	ADV	_	t_1492|t_1493|ref=tempt.dom._17
 37	ἡττᾶται	ἡσσάομαι	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	29	PRED	_	t_1493|t_1485|ref=tempt.dom._17
-38	[0]	[0]	-	---------	_	18	ADV	_	e_26|t_1474|ref=tempt.dom._1
+38	[0]	[0]	-	---------	_	18	ADV	_	e_26|t_1474|ref=tempt.dom._17
 39	.	.	u	u--------	_	28	AuxK	_	t_1494|t_1484|ref=tempt.dom._17
 
 # source = Severian of Gabala, tempt.dom._17
@@ -2065,7 +2065,7 @@
 18	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	17	ADV	_	t_1512|t_1511|ref=tempt.dom._17
 19	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	20	ATR	_	t_1513|t_1514|ref=tempt.dom._17
 20	ἀμεριμνία	ἀμεριμνία	n	n-s---fn-	Case=n|Gender=f|Number=s	21	SBJ	_	t_1514|e_27|ref=tempt.dom._17
-21	[0]	[0]	-	---------	_	11	OBJ	_	e_27|t_1505|ref=tempt.dom._1
+21	[0]	[0]	-	---------	_	11	OBJ	_	e_27|t_1505|ref=tempt.dom._17
 22	.	.	u	u--------	_	2	AuxK	_	t_1515|t_1496|ref=tempt.dom._17
 
 # source = Severian of Gabala, tempt.dom._17
@@ -2077,7 +2077,7 @@
 4	παθῶν	πάθος	n	n-p---ng-	Case=g|Gender=n|Number=p	5	ATR	_	t_1519|t_1520|ref=tempt.dom._17
 5	νίκη	νίκη	n	n-s---fn-	Case=n|Gender=f|Number=s	7	SBJ	_	t_1520|e_28|ref=tempt.dom._17
 6	πρόσκαιρος	πρόσκαιρος	a	a-s---fn-	Case=n|Gender=f|Number=s	7	PNOM	_	t_1521|e_28|ref=tempt.dom._17
-7	[0]	[0]	-	---------	_	2	PRED	_	e_28|t_1517|ref=tempt.dom._1
+7	[0]	[0]	-	---------	_	2	PRED	_	e_28|t_1517|ref=tempt.dom._17
 8	.	.	u	u--------	_	2	AuxK	_	t_1522|t_1517|ref=tempt.dom._17
 
 # source = Severian of Gabala, tempt.dom._17
@@ -2105,7 +2105,7 @@
 6	τέλει	τέλος	n	n-s---nd-	Case=d|Gender=n|Number=s	5	PNOM	_	t_1538|t_1537|ref=tempt.dom._17
 7	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	8	ATR	_	t_1539|t_1540|ref=tempt.dom._17
 8	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	6	ATR	_	t_1540|t_1538|ref=tempt.dom._17
-9	[0]	[0]	-	---------	_	2	PRED	_	e_29|t_1534|ref=tempt.dom._1
+9	[0]	[0]	-	---------	_	2	PRED	_	e_29|t_1534|ref=tempt.dom._17
 10	.	.	u	u--------	_	2	AuxK	_	t_1541|t_1534|ref=tempt.dom._17
 
 # source = Severian of Gabala, tempt.dom._17
@@ -2200,46 +2200,46 @@
 12	τετήρηκα	τηρέω	v	v1sria---	Mood=i|Number=s|Person=1|Tense=r|Voice=a	9	PRED	_	t_1612|t_1609|ref=tempt.dom._17
 13	.	.	u	u--------	_	9	AuxK	_	t_1613|t_1609|ref=tempt.dom._17
 
-# source = Severian of Gabala, tempt.dom._17
+# source = Severian of Gabala, tempt.dom._18
 # text = Οὕτως , ἀδελφοί , τελείωσις τῶν ἀγώνων ἡ τελείωσις τοῦ βίου ἐστίν .
 # sent_id = 141
-1	Οὕτως	οὕτως	d	d--------	_	12	ADV	_	t_1614|t_1625|ref=tempt.dom._17
-2	,	,	u	u--------	_	3	AuxX	_	t_1615|t_1616|ref=tempt.dom._17
-3	ἀδελφοί	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	12	ExD	_	t_1616|t_1625|ref=tempt.dom._17
-4	,	,	u	u--------	_	3	AuxX	_	t_1617|t_1616|ref=tempt.dom._17
-5	τελείωσις	τελείωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_1618|t_1625|ref=tempt.dom._17
-6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1619|t_1620|ref=tempt.dom._17
-7	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1620|t_1618|ref=tempt.dom._17
-8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_1621|t_1622|ref=tempt.dom._17
-9	τελείωσις	τελείωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_1622|t_1625|ref=tempt.dom._17
-10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1623|t_1624|ref=tempt.dom._17
-11	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_1624|t_1622|ref=tempt.dom._17
-12	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1625|0|ref=tempt.dom._17
-13	.	.	u	u--------	_	12	AuxK	_	t_1626|t_1625|ref=tempt.dom._17
+1	Οὕτως	οὕτως	d	d--------	_	12	ADV	_	t_1614|t_1625|ref=tempt.dom._18
+2	,	,	u	u--------	_	3	AuxX	_	t_1615|t_1616|ref=tempt.dom._18
+3	ἀδελφοί	ἀδελφός	n	n-p---mv-	Case=v|Gender=m|Number=p	12	ExD	_	t_1616|t_1625|ref=tempt.dom._18
+4	,	,	u	u--------	_	3	AuxX	_	t_1617|t_1616|ref=tempt.dom._18
+5	τελείωσις	τελείωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	SBJ	_	t_1618|t_1625|ref=tempt.dom._18
+6	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	7	ATR	_	t_1619|t_1620|ref=tempt.dom._18
+7	ἀγώνων	ἀγών	n	n-p---mg-	Case=g|Gender=m|Number=p	5	ATR	_	t_1620|t_1618|ref=tempt.dom._18
+8	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	9	ATR	_	t_1621|t_1622|ref=tempt.dom._18
+9	τελείωσις	τελείωσις	n	n-s---fn-	Case=n|Gender=f|Number=s	12	PNOM	_	t_1622|t_1625|ref=tempt.dom._18
+10	τοῦ	ὁ	l	l-s---mg-	Case=g|Gender=m|Number=s	11	ATR	_	t_1623|t_1624|ref=tempt.dom._18
+11	βίου	βίος	n	n-s---mg-	Case=g|Gender=m|Number=s	9	ATR	_	t_1624|t_1622|ref=tempt.dom._18
+12	ἐστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1625|0|ref=tempt.dom._18
+13	.	.	u	u--------	_	12	AuxK	_	t_1626|t_1625|ref=tempt.dom._18
 
-# source = Severian of Gabala, tempt.dom._17
+# source = Severian of Gabala, tempt.dom._18
 # text = Καὶ μὴ νομίσῃς ἄνθρωπον πρὸ τελευτῆς στεφανοῦσθαι τῆς γραφῆς λεγούσης ·
 # sent_id = 142
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1627|0|ref=tempt.dom._17
-2	μὴ	μή	d	d--------	_	3	AuxZ	_	t_1628|t_1629|ref=tempt.dom._17
-3	νομίσῃς	νομίζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	1	PRED	_	t_1629|t_1627|ref=tempt.dom._17
-4	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_1630|t_1633|ref=tempt.dom._17
-5	πρὸ	πρό	r	r--------	_	7	AuxP	_	t_1631|t_1633|ref=tempt.dom._17
-6	τελευτῆς	τελευτή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_1632|t_1631|ref=tempt.dom._17
-7	στεφανοῦσθαι	στεφανόω	v	v--pne---	Mood=n|Tense=p|Voice=e	3	OBJ	_	t_1633|t_1629|ref=tempt.dom._17
-8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1634|t_1635|ref=tempt.dom._17
-9	γραφῆς	γραφή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_1635|t_1636|ref=tempt.dom._17
-10	λεγούσης	λέγω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_1636|t_1633|ref=tempt.dom._17
-11	·	·	u	u--------	_	1	AuxK	_	t_1637|t_1627|ref=tempt.dom._17
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1627|0|ref=tempt.dom._18
+2	μὴ	μή	d	d--------	_	3	AuxZ	_	t_1628|t_1629|ref=tempt.dom._18
+3	νομίσῃς	νομίζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	1	PRED	_	t_1629|t_1627|ref=tempt.dom._18
+4	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	7	SBJ	_	t_1630|t_1633|ref=tempt.dom._18
+5	πρὸ	πρό	r	r--------	_	7	AuxP	_	t_1631|t_1633|ref=tempt.dom._18
+6	τελευτῆς	τελευτή	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_1632|t_1631|ref=tempt.dom._18
+7	στεφανοῦσθαι	στεφανόω	v	v--pne---	Mood=n|Tense=p|Voice=e	3	OBJ	_	t_1633|t_1629|ref=tempt.dom._18
+8	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1634|t_1635|ref=tempt.dom._18
+9	γραφῆς	γραφή	n	n-s---fg-	Case=g|Gender=f|Number=s	10	SBJ	_	t_1635|t_1636|ref=tempt.dom._18
+10	λεγούσης	λέγω	v	v-sppafg-	Case=g|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	7	ADV	_	t_1636|t_1633|ref=tempt.dom._18
+11	·	·	u	u--------	_	1	AuxK	_	t_1637|t_1627|ref=tempt.dom._18
 
-# source = Severian of Gabala, tempt.dom._17-urn:cts:pta:pta0001.pta056.pta-grc1.18
+# source = Severian of Gabala, tempt.dom._18
 # text = Μὴ μακαρίσῃς ἄνθρωπον πρὸ τελευτῆς αὐτοῦ .
 # sent_id = 143
-1	Μὴ	μή	d	d--------	_	2	AuxZ	_	t_1638|t_1639|ref=tempt.dom._17
-2	μακαρίσῃς	μακαρίζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_1639|0|ref=tempt.dom._17
-3	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1640|t_1639|ref=tempt.dom._17
-4	πρὸ	πρό	r	r--------	_	2	AuxP	_	t_1641|t_1639|ref=tempt.dom._17
-5	τελευτῆς	τελευτή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_1642|t_1641|ref=tempt.dom._17
+1	Μὴ	μή	d	d--------	_	2	AuxZ	_	t_1638|t_1639|ref=tempt.dom._18
+2	μακαρίσῃς	μακαρίζω	v	v2sasa---	Mood=s|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_1639|0|ref=tempt.dom._18
+3	ἄνθρωπον	ἄνθρωπος	n	n-s---ma-	Case=a|Gender=m|Number=s	2	OBJ	_	t_1640|t_1639|ref=tempt.dom._18
+4	πρὸ	πρό	r	r--------	_	2	AuxP	_	t_1641|t_1639|ref=tempt.dom._18
+5	τελευτῆς	τελευτή	n	n-s---fg-	Case=g|Gender=f|Number=s	4	ADV	_	t_1642|t_1641|ref=tempt.dom._18
 6	αὐτοῦ	αὐτός	p	p-s---mg-	Case=g|Gender=m|Number=s	5	ATR	_	t_1643|t_1642|ref=tempt.dom._18
 7	.	.	u	u--------	_	2	AuxK	_	t_1644|t_1639|ref=tempt.dom._18
 
@@ -2251,7 +2251,7 @@
 3	τέλειος	τέλειος	a	a-s---mn-	Case=n|Gender=m|Number=s	6	PNOM	_	t_1647|e_30|ref=tempt.dom._18
 4	ἐν	ἐν	r	r--------	_	6	AuxP	_	t_1648|e_30|ref=tempt.dom._18
 5	πᾶσιν	πᾶς	a	a-p---nd-	Case=d|Gender=n|Number=p	4	ADV	_	t_1649|t_1648|ref=tempt.dom._18
-6	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=tempt.dom._1
+6	[0]	[0]	-	---------	_	0	PRED	_	e_30|0|ref=tempt.dom._18
 7	·	·	u	u--------	_	6	AuxK	_	t_1650|e_30|ref=tempt.dom._18
 
 # source = Severian of Gabala, tempt.dom._18
@@ -2312,48 +2312,48 @@
 14	φαντάζεται	φαντάζω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	0	PRED	_	t_1695|0|ref=tempt.dom._18
 15	;	;	u	u--------	_	14	AuxK	_	t_1696|t_1695|ref=tempt.dom._18
 
-# source = Severian of Gabala, tempt.dom._18
+# source = Severian of Gabala, tempt.dom._19
 # text = Καὶ ἀπέστη ἄχρι καιροῦ καὶ λοιπὸν προσῆλθον οἱ ἄγγελοι καὶ διηκόνουν αὐτῷ .
 # sent_id = 148
-1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1697|0|ref=tempt.dom._18
-2	ἀπέστη	ἀφίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	PRED	_	t_1698|t_1706|ref=tempt.dom._18
-3	ἄχρι	ἄχρι	r	r--------	_	2	AuxP	_	t_1699|t_1698|ref=tempt.dom._18
-4	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_1700|t_1699|ref=tempt.dom._18
-5	καὶ	καί	c	c--------	_	10	AuxY	_	t_1701|t_1706|ref=tempt.dom._18
-6	λοιπὸν	λοιπός	a	a-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_1702|t_1703|ref=tempt.dom._18
-7	προσῆλθον	προσέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	PRED	_	t_1703|t_1706|ref=tempt.dom._18
-8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_1704|t_1705|ref=tempt.dom._18
-9	ἄγγελοι	ἄγγελος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1705|t_1706|ref=tempt.dom._18
-10	καὶ	καί	c	c--------	_	1	COORD	_	t_1706|t_1697|ref=tempt.dom._18
-11	διηκόνουν	διακονέω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	10	PRED	_	t_1707|t_1706|ref=tempt.dom._18
-12	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_1708|t_1707|ref=tempt.dom._18
-13	.	.	u	u--------	_	1	AuxK	_	t_1709|t_1697|ref=tempt.dom._18
+1	Καὶ	καί	c	c--------	_	0	COORD	_	t_1697|0|ref=tempt.dom._19
+2	ἀπέστη	ἀφίστημι	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	10	PRED	_	t_1698|t_1706|ref=tempt.dom._19
+3	ἄχρι	ἄχρι	r	r--------	_	2	AuxP	_	t_1699|t_1698|ref=tempt.dom._19
+4	καιροῦ	καιρός	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ADV	_	t_1700|t_1699|ref=tempt.dom._19
+5	καὶ	καί	c	c--------	_	10	AuxY	_	t_1701|t_1706|ref=tempt.dom._19
+6	λοιπὸν	λοιπός	a	a-s---na-	Case=a|Gender=n|Number=s	7	ADV	_	t_1702|t_1703|ref=tempt.dom._19
+7	προσῆλθον	προσέρχομαι	v	v3paia---	Mood=i|Number=p|Person=3|Tense=a|Voice=a	10	PRED	_	t_1703|t_1706|ref=tempt.dom._19
+8	οἱ	ὁ	l	l-p---mn-	Case=n|Gender=m|Number=p	9	ATR	_	t_1704|t_1705|ref=tempt.dom._19
+9	ἄγγελοι	ἄγγελος	n	n-p---mn-	Case=n|Gender=m|Number=p	10	SBJ	_	t_1705|t_1706|ref=tempt.dom._19
+10	καὶ	καί	c	c--------	_	1	COORD	_	t_1706|t_1697|ref=tempt.dom._19
+11	διηκόνουν	διακονέω	v	v3piia---	Mood=i|Number=p|Person=3|Tense=i|Voice=a	10	PRED	_	t_1707|t_1706|ref=tempt.dom._19
+12	αὐτῷ	αὐτός	p	p-s---md-	Case=d|Gender=m|Number=s	11	OBJ	_	t_1708|t_1707|ref=tempt.dom._19
+13	.	.	u	u--------	_	1	AuxK	_	t_1709|t_1697|ref=tempt.dom._19
 
-# source = Severian of Gabala, tempt.dom._18
+# source = Severian of Gabala, tempt.dom._19
 # text = Τέλος τῆς ἀσκήσεως τὸ ὑπʼ ἀγγέλων διακονεῖσθαι [0] .
 # sent_id = 149
-1	Τέλος	τέλος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_1710|e_31|ref=tempt.dom._18
-2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_1711|t_1712|ref=tempt.dom._18
-3	ἀσκήσεως	ἄσκησις	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_1712|t_1710|ref=tempt.dom._18
-4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1713|t_1716|ref=tempt.dom._18
-5	ὑπʼ	ὑπό	r	r--------	_	7	AuxP	_	t_1714|t_1716|ref=tempt.dom._18
-6	ἀγγέλων	ἄγγελος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_1715|t_1714|ref=tempt.dom._18
-7	διακονεῖσθαι	διακονέω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	SBJ	_	t_1716|e_31|ref=tempt.dom._18
-8	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=tempt.dom._1
-9	.	.	u	u--------	_	8	AuxK	_	t_1717|e_31|ref=tempt.dom._18
+1	Τέλος	τέλος	n	n-s---nn-	Case=n|Gender=n|Number=s	8	PNOM	_	t_1710|e_31|ref=tempt.dom._19
+2	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	3	ATR	_	t_1711|t_1712|ref=tempt.dom._19
+3	ἀσκήσεως	ἄσκησις	n	n-s---fg-	Case=g|Gender=f|Number=s	1	ATR	_	t_1712|t_1710|ref=tempt.dom._19
+4	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	7	ATR	_	t_1713|t_1716|ref=tempt.dom._19
+5	ὑπʼ	ὑπό	r	r--------	_	7	AuxP	_	t_1714|t_1716|ref=tempt.dom._19
+6	ἀγγέλων	ἄγγελος	n	n-p---mg-	Case=g|Gender=m|Number=p	5	OBJ	_	t_1715|t_1714|ref=tempt.dom._19
+7	διακονεῖσθαι	διακονέω	v	v--pne---	Mood=n|Tense=p|Voice=e	8	SBJ	_	t_1716|e_31|ref=tempt.dom._19
+8	[0]	[0]	-	---------	_	0	PRED	_	e_31|0|ref=tempt.dom._19
+9	.	.	u	u--------	_	8	AuxK	_	t_1717|e_31|ref=tempt.dom._19
 
-# source = Severian of Gabala, tempt.dom._18-urn:cts:pta:pta0001.pta056.pta-grc1.19
+# source = Severian of Gabala, tempt.dom._19
 # text = Ὃ μὲν κακῶς καὶ ἀκαίρως παρήγαγεν ὁ διάβολος , εὐθέως ἐδίδαξεν ὁ φιλάνθρωπος .
 # sent_id = 150
-1	Ὃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_1718|t_1723|ref=tempt.dom._18
-2	μὲν	μέν	d	d--------	_	11	AuxY	_	t_1719|t_1728|ref=tempt.dom._18
-3	κακῶς	κακός	d	d--------	_	4	ADV	_	t_1720|t_1721|ref=tempt.dom._18
-4	καὶ	καί	c	c--------	_	6	COORD	_	t_1721|t_1723|ref=tempt.dom._18
-5	ἀκαίρως	ἄκαιρος	d	d--------	_	4	ADV	_	t_1722|t_1721|ref=tempt.dom._18
-6	παρήγαγεν	παράγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	OBJ	_	t_1723|t_1728|ref=tempt.dom._18
-7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1724|t_1725|ref=tempt.dom._18
-8	διάβολος	διάβολος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1725|t_1723|ref=tempt.dom._18
-9	,	,	u	u--------	_	11	AuxX	_	t_1726|t_1728|ref=tempt.dom._18
+1	Ὃ	ὅς	p	p-p---na-	Case=a|Gender=n|Number=p	6	OBJ	_	t_1718|t_1723|ref=tempt.dom._19
+2	μὲν	μέν	d	d--------	_	11	AuxY	_	t_1719|t_1728|ref=tempt.dom._19
+3	κακῶς	κακός	d	d--------	_	4	ADV	_	t_1720|t_1721|ref=tempt.dom._19
+4	καὶ	καί	c	c--------	_	6	COORD	_	t_1721|t_1723|ref=tempt.dom._19
+5	ἀκαίρως	ἄκαιρος	d	d--------	_	4	ADV	_	t_1722|t_1721|ref=tempt.dom._19
+6	παρήγαγεν	παράγω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	OBJ	_	t_1723|t_1728|ref=tempt.dom._19
+7	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	8	ATR	_	t_1724|t_1725|ref=tempt.dom._19
+8	διάβολος	διάβολος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1725|t_1723|ref=tempt.dom._19
+9	,	,	u	u--------	_	11	AuxX	_	t_1726|t_1728|ref=tempt.dom._19
 10	εὐθέως	εὐθύς2	d	d--------	_	11	ADV	_	t_1727|t_1728|ref=tempt.dom._19
 11	ἐδίδαξεν	διδάσκω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1728|0|ref=tempt.dom._19
 12	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	13	ATR	_	t_1729|t_1730|ref=tempt.dom._19
@@ -2376,13 +2376,13 @@
 11	σοῦ	σύ	p	p-s---mg-	Case=g|Gender=m|Number=s	10	ADV	_	t_1742|t_1741|ref=tempt.dom._19
 12	.	.	u	u--------	_	1	AuxK	_	t_1743|t_1732|ref=tempt.dom._19
 
-# source = Severian of Gabala, tempt.dom._19-urn:cts:pta:pta0001.pta056.pta-grc1.18
+# source = Severian of Gabala, tempt.dom._19
 # text = Σὺ ἀκαίρως παρήγαγες ·
 # sent_id = 152
 1	Σὺ	σύ	p	p2s---cn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1744|t_1746|ref=tempt.dom._19
 2	ἀκαίρως	ἄκαιρος	d	d--------	_	3	ADV	_	t_1745|t_1746|ref=tempt.dom._19
 3	παρήγαγες	παράγω	v	v2saia---	Mood=i|Number=s|Person=2|Tense=a|Voice=a	0	PRED	_	t_1746|0|ref=tempt.dom._19
-4	·	·	u	u--------	_	3	AuxK	_	t_1747|t_1746|ref=tempt.dom._18
+4	·	·	u	u--------	_	3	AuxK	_	t_1747|t_1746|ref=tempt.dom._19
 
 # source = Severian of Gabala, tempt.dom._19
 # text = ὁ θεὸς εὐκαίρως καὶ οἰκονομικῶς , ἵνα δειχθῇ ὅτι τέλος μένει τοῖς ἀγωνιζομένοις ·
@@ -2417,7 +2417,7 @@
 # text = Τίνι [0] ;
 # sent_id = 155
 1	Τίνι	τις	p	p-s---fd-	Case=d|Gender=f|Number=s	2	OBJ	_	t_1769|e_32|ref=tempt.dom._19
-2	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=tempt.dom._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_32|0|ref=tempt.dom._19
 3	;	;	u	u--------	_	2	AuxK	_	t_1770|e_32|ref=tempt.dom._19
 
 # source = Severian of Gabala, tempt.dom._19
@@ -2446,7 +2446,7 @@
 21	λέοντα	λέων	n	n-s---ma-	Case=a|Gender=m|Number=s	22	ADV	_	t_1791|t_1792|ref=tempt.dom._19
 22	καὶ	καί	c	c--------	_	20	COORD	_	t_1792|t_1790|ref=tempt.dom._19
 23	δράκοντα	δράκων	n	n-s---ma-	Case=a|Gender=m|Number=s	22	ADV	_	t_1793|t_1792|ref=tempt.dom._19
-24	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=tempt.dom._1
+24	[0]	[0]	-	---------	_	0	PRED	_	e_33|0|ref=tempt.dom._19
 25	.	.	u	u--------	_	24	AuxK	_	t_1794|e_33|ref=tempt.dom._19
 
 # source = Severian of Gabala, tempt.dom._19
@@ -2471,60 +2471,60 @@
 17	δράκοντα	δράκων	n	n-s---ma-	Case=a|Gender=m|Number=s	16	ADV	_	t_1811|t_1810|ref=tempt.dom._19
 18	.	.	u	u--------	_	12	AuxK	_	t_1812|t_1806|ref=tempt.dom._19
 
-# source = Severian of Gabala, tempt.dom._19
+# source = Severian of Gabala, tempt.dom._20-21
 # text = Πρῶτος ἀγὼν ὁ κατὰ δαιμόνων εστίν ἐπειδὴ Μωϋσῆς καὶ Ἠλίας ἵστανται τεσσαράκοντα ἡμέρας .
 # sent_id = 158
-1	Πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATV	_	t_1813|t_1814|ref=tempt.dom._19
-2	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1814|t_1818|ref=tempt.dom._19
-3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1815|t_1814|ref=tempt.dom._19
-4	κατὰ	κατά	r	r--------	_	2	AuxP	_	t_1816|t_1814|ref=tempt.dom._19
-5	δαιμόνων	δαίμων	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1817|t_1816|ref=tempt.dom._19
-6	εστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1818|0|ref=tempt.dom._19
-7	ἐπειδὴ	ἐπεί	c	c--------	_	6	AuxC	_	t_1819|t_1818|ref=tempt.dom._19
-8	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1820|t_1821|ref=tempt.dom._19
-9	καὶ	καί	c	c--------	_	11	COORD	_	t_1821|t_1823|ref=tempt.dom._19
-10	Ἠλίας	ἠλίας	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1822|t_1821|ref=tempt.dom._19
-11	ἵστανται	ἵστημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	ADV	_	t_1823|t_1819|ref=tempt.dom._19
-12	τεσσαράκοντα	τεσσαράκοντα	m	m--------	_	13	ATR	_	t_1824|t_1825|ref=tempt.dom._19
-13	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	11	ADV	_	t_1825|t_1823|ref=tempt.dom._19
-14	.	.	u	u--------	_	6	AuxK	_	t_1826|t_1818|ref=tempt.dom._19
+1	Πρῶτος	πρῶτος	a	a-s---mn-	Case=n|Gender=m|Number=s	2	ATV	_	t_1813|t_1814|ref=tempt.dom._20
+2	ἀγὼν	ἀγών	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_1814|t_1818|ref=tempt.dom._20
+3	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	2	ATR	_	t_1815|t_1814|ref=tempt.dom._20
+4	κατὰ	κατά	r	r--------	_	2	AuxP	_	t_1816|t_1814|ref=tempt.dom._20
+5	δαιμόνων	δαίμων	n	n-p---mg-	Case=g|Gender=m|Number=p	4	ATR	_	t_1817|t_1816|ref=tempt.dom._20
+6	εστίν	εἰμί	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	0	PRED	_	t_1818|0|ref=tempt.dom._20
+7	ἐπειδὴ	ἐπεί	c	c--------	_	6	AuxC	_	t_1819|t_1818|ref=tempt.dom._21
+8	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1820|t_1821|ref=tempt.dom._21
+9	καὶ	καί	c	c--------	_	11	COORD	_	t_1821|t_1823|ref=tempt.dom._21
+10	Ἠλίας	ἠλίας	n	n-s---mn-	Case=n|Gender=m|Number=s	9	SBJ	_	t_1822|t_1821|ref=tempt.dom._21
+11	ἵστανται	ἵστημι	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	7	ADV	_	t_1823|t_1819|ref=tempt.dom._21
+12	τεσσαράκοντα	τεσσαράκοντα	m	m--------	_	13	ATR	_	t_1824|t_1825|ref=tempt.dom._21
+13	ἡμέρας	ἡμέρα	n	n-p---fa-	Case=a|Gender=f|Number=p	11	ADV	_	t_1825|t_1823|ref=tempt.dom._21
+14	.	.	u	u--------	_	6	AuxK	_	t_1826|t_1818|ref=tempt.dom._21
 
-# source = Severian of Gabala, tempt.dom._19
+# source = Severian of Gabala, tempt.dom._21
 # text = Μωϋσῆς ἐνήστευσεν , οὐχ ἵνα κατορθώσῃ ὃ ὁ Χριστὸς κατώρθωσεν .
 # sent_id = 159
-1	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1827|t_1828|ref=tempt.dom._19
-2	ἐνήστευσεν	νηστεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1828|0|ref=tempt.dom._19
-3	,	,	u	u--------	_	2	AuxX	_	t_1829|t_1828|ref=tempt.dom._19
-4	οὐχ	οὐ	d	d--------	_	6	AuxZ	_	t_1830|t_1832|ref=tempt.dom._19
-5	ἵνα	ἵνα	c	c--------	_	2	AuxC	_	t_1831|t_1828|ref=tempt.dom._19
-6	κατορθώσῃ	κατορθόω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_1832|t_1831|ref=tempt.dom._19
-7	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_1833|t_1836|ref=tempt.dom._19
-8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_1834|t_1835|ref=tempt.dom._19
-9	Χριστὸς	χριστός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_1835|t_1836|ref=tempt.dom._19
-10	κατώρθωσεν	κατορθόω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	OBJ	_	t_1836|t_1832|ref=tempt.dom._19
-11	.	.	u	u--------	_	2	AuxK	_	t_1837|t_1828|ref=tempt.dom._19
+1	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	2	SBJ	_	t_1827|t_1828|ref=tempt.dom._21
+2	ἐνήστευσεν	νηστεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1828|0|ref=tempt.dom._21
+3	,	,	u	u--------	_	2	AuxX	_	t_1829|t_1828|ref=tempt.dom._21
+4	οὐχ	οὐ	d	d--------	_	6	AuxZ	_	t_1830|t_1832|ref=tempt.dom._21
+5	ἵνα	ἵνα	c	c--------	_	2	AuxC	_	t_1831|t_1828|ref=tempt.dom._21
+6	κατορθώσῃ	κατορθόω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_1832|t_1831|ref=tempt.dom._21
+7	ὃ	ὅς	p	p-s---na-	Case=a|Gender=n|Number=s	10	OBJ	_	t_1833|t_1836|ref=tempt.dom._21
+8	ὁ	ὁ	l	l-s---mn-	Case=n|Gender=m|Number=s	9	ATR	_	t_1834|t_1835|ref=tempt.dom._21
+9	Χριστὸς	χριστός	n	n-s---mn-	Case=n|Gender=m|Number=s	10	SBJ	_	t_1835|t_1836|ref=tempt.dom._21
+10	κατώρθωσεν	κατορθόω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	6	OBJ	_	t_1836|t_1832|ref=tempt.dom._21
+11	.	.	u	u--------	_	2	AuxK	_	t_1837|t_1828|ref=tempt.dom._21
 
-# source = Severian of Gabala, tempt.dom._19
+# source = Severian of Gabala, tempt.dom._21
 # text = Οὐ γὰρ Μωϋσῆς νηστεύσας τοὺς δαίμονας ἐχώρησεν .
 # sent_id = 160
-1	Οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_1838|t_1844|ref=tempt.dom._19
-2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_1839|t_1844|ref=tempt.dom._19
-3	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1840|t_1844|ref=tempt.dom._19
-4	νηστεύσας	νηστεύω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_1841|t_1844|ref=tempt.dom._19
-5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_1842|t_1843|ref=tempt.dom._19
-6	δαίμονας	δαίμων	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_1843|t_1841|ref=tempt.dom._19
-7	ἐχώρησεν	χωρέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1844|0|ref=tempt.dom._19
-8	.	.	u	u--------	_	7	AuxK	_	t_1845|t_1844|ref=tempt.dom._19
+1	Οὐ	οὐ	d	d--------	_	7	AuxZ	_	t_1838|t_1844|ref=tempt.dom._21
+2	γὰρ	γάρ	d	d--------	_	7	AuxY	_	t_1839|t_1844|ref=tempt.dom._21
+3	Μωϋσῆς	μωϋσῆς	n	n-s---mn-	Case=n|Gender=m|Number=s	7	SBJ	_	t_1840|t_1844|ref=tempt.dom._21
+4	νηστεύσας	νηστεύω	v	v-sapamn-	Case=n|Gender=m|Mood=p|Number=s|Tense=a|Voice=a	7	ADV	_	t_1841|t_1844|ref=tempt.dom._21
+5	τοὺς	ὁ	l	l-p---ma-	Case=a|Gender=m|Number=p	6	ATR	_	t_1842|t_1843|ref=tempt.dom._21
+6	δαίμονας	δαίμων	n	n-p---ma-	Case=a|Gender=m|Number=p	4	OBJ	_	t_1843|t_1841|ref=tempt.dom._21
+7	ἐχώρησεν	χωρέω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	0	PRED	_	t_1844|0|ref=tempt.dom._21
+8	.	.	u	u--------	_	7	AuxK	_	t_1845|t_1844|ref=tempt.dom._21
 
-# source = Severian of Gabala, tempt.dom._20-urn:cts:pta:pta0001.pta056.pta-grc1.21
+# source = Severian of Gabala, tempt.dom._21
 # text = Οὐδὲ Ἠλίας ἐνήστευσεν , ἵνα τὸν διάβολον καθέλῃ , μᾶλλον δὲ Ἰησοῦς ἡττήσατο τῶν πραγμάτων .
 # sent_id = 161
-1	Οὐδὲ	οὐδέ	d	d--------	_	11	AuxY	_	t_1846|t_1856|ref=tempt.dom._20
-2	Ἠλίας	ἠλίας	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1847|t_1848|ref=tempt.dom._20
-3	ἐνήστευσεν	νηστεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	PRED	_	t_1848|t_1856|ref=tempt.dom._20
-4	,	,	u	u--------	_	0	AuxX	_	t_1849|0|ref=tempt.dom._20
-5	ἵνα	ἵνα	c	c--------	_	3	AuxC	_	t_1850|t_1848|ref=tempt.dom._20
-6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1851|t_1852|ref=tempt.dom._20
+1	Οὐδὲ	οὐδέ	d	d--------	_	11	AuxY	_	t_1846|t_1856|ref=tempt.dom._21
+2	Ἠλίας	ἠλίας	n	n-s---mn-	Case=n|Gender=m|Number=s	3	SBJ	_	t_1847|t_1848|ref=tempt.dom._21
+3	ἐνήστευσεν	νηστεύω	v	v3saia---	Mood=i|Number=s|Person=3|Tense=a|Voice=a	11	PRED	_	t_1848|t_1856|ref=tempt.dom._21
+4	,	,	u	u--------	_	0	AuxX	_	t_1849|0|ref=tempt.dom._21
+5	ἵνα	ἵνα	c	c--------	_	3	AuxC	_	t_1850|t_1848|ref=tempt.dom._21
+6	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	7	ATR	_	t_1851|t_1852|ref=tempt.dom._21
 7	διάβολον	διάβολος	n	n-s---ma-	Case=a|Gender=m|Number=s	8	OBJ	_	t_1852|t_1853|ref=tempt.dom._21
 8	καθέλῃ	καθαιρέω	v	v3sasa---	Mood=s|Number=s|Person=3|Tense=a|Voice=a	5	ADV	_	t_1853|t_1850|ref=tempt.dom._21
 9	,	,	u	u--------	_	4	AuxX	_	t_1854|t_1849|ref=tempt.dom._21
@@ -2601,7 +2601,7 @@
 19	Μωϋσῆς	μωϋσῆς	n	n-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_1909|t_1910|ref=tempt.dom._21
 20	φωνὴν	φωνή	n	n-s---fa-	Case=a|Gender=f|Number=s	18	OBJ	_	t_1910|t_1908|ref=tempt.dom._21
 21	ζῶσαν	ζάω	v	v-sppafa-	Case=a|Gender=f|Mood=p|Number=s|Tense=p|Voice=a	20	ATR	_	t_1911|t_1910|ref=tempt.dom._21
-22	[0]	[0]	-	---------	_	11	PRED	_	e_34|t_1901|ref=tempt.dom._1
+22	[0]	[0]	-	---------	_	11	PRED	_	e_34|t_1901|ref=tempt.dom._21
 23	.	.	u	u--------	_	1	AuxK	_	t_1912|t_1891|ref=tempt.dom._21
 
 # source = Severian of Gabala, tempt.dom._21
@@ -2653,7 +2653,7 @@
 7	ἡμῶν	ἐγώ	p	p1p---cg-	Case=g|Gender=c|Number=p|Person=1	6	ATR	_	t_1944|t_1943|ref=tempt.dom._21
 8	ὡς	ὡς	c	c--------	_	3	AuxC	_	t_1945|t_1940|ref=tempt.dom._21
 9	ἐμέ	ἐγώ	p	p1s---ma-	Case=a|Gender=m|Number=s|Person=1	10	OBJ	_	t_1946|e_35|ref=tempt.dom._21
-10	[0]	[0]	-	---------	_	8	ADV	_	e_35|t_1945|ref=tempt.dom._1
+10	[0]	[0]	-	---------	_	8	ADV	_	e_35|t_1945|ref=tempt.dom._21
 11	·	·	u	u--------	_	3	AuxK	_	t_1947|t_1940|ref=tempt.dom._21
 
 # source = Severian of Gabala, tempt.dom._21
@@ -2702,53 +2702,53 @@
 10	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	11	ATR	_	t_1984|t_1985|ref=tempt.dom._21
 11	ἀληθείας	ἀλήθεια	n	n-s---fg-	Case=g|Gender=f|Number=s	9	ATR	_	t_1985|t_1983|ref=tempt.dom._21
 12	λαμβάνονται	λαμβάνω	v	v--pna---	Mood=n|Tense=p|Voice=a	13	OBJ	_	t_1986|e_36|ref=tempt.dom._21
-13	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=tempt.dom._1
+13	[0]	[0]	-	---------	_	0	PRED	_	e_36|0|ref=tempt.dom._21
 14	.	.	u	u--------	_	13	AuxK	_	t_1987|e_36|ref=tempt.dom._21
 
-# source = Severian of Gabala, tempt.dom._21
+# source = Severian of Gabala, tempt.dom._22
 # text = Ὥσπερ γὰρ εἰκόνες βασιλέως πρὸ ἐπιδημίας τιμῶνται , μετὰ δὲ τὸ φανῆναι τὸν βασιλέα ἀργεῖ πᾶσα ἡ ὄψις τῆς εἰκόνος καὶ ἀντιμεταστρέφει τὸ ὄνομα , οὕτω πρὸς τὸν πρωτότυπον [0] .
 # sent_id = 172
-1	Ὥσπερ	ὥσπερ	c	c--------	_	30	AuxC	_	t_1988|e_37|ref=tempt.dom._21
-2	γὰρ	γάρ	d	d--------	_	30	AuxY	_	t_1989|e_37|ref=tempt.dom._21
-3	εἰκόνες	εἰκών	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_1990|t_1994|ref=tempt.dom._21
-4	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_1991|t_1990|ref=tempt.dom._21
-5	πρὸ	πρό	r	r--------	_	7	AuxP	_	t_1992|t_1994|ref=tempt.dom._21
-6	ἐπιδημίας	ἐπιδημία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_1993|t_1992|ref=tempt.dom._21
-7	τιμῶνται	τιμάω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	10	ADV	_	t_1994|t_1997|ref=tempt.dom._21
-8	,	,	u	u--------	_	30	AuxX	_	t_1995|e_37|ref=tempt.dom._21
-9	μετὰ	μετά	r	r--------	_	15	AuxP	_	t_1996|t_2002|ref=tempt.dom._21
-10	δὲ	δέ	d	d--------	_	1	COORD	_	t_1997|t_1988|ref=tempt.dom._21
-11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_1998|t_1999|ref=tempt.dom._21
-12	φανῆναι	φαίνω	v	v--anp---	Mood=n|Tense=a|Voice=p	9	ADV	_	t_1999|t_1996|ref=tempt.dom._21
-13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_2000|t_2001|ref=tempt.dom._21
-14	βασιλέα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_2001|t_1999|ref=tempt.dom._21
-15	ἀργεῖ	ἀργέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_2002|t_2008|ref=tempt.dom._21
-16	πᾶσα	πᾶς	a	a-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_2003|t_2005|ref=tempt.dom._21
-17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_2004|t_2005|ref=tempt.dom._21
-18	ὄψις	ὄψις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_2005|t_2002|ref=tempt.dom._21
-19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_2006|t_2007|ref=tempt.dom._21
-20	εἰκόνος	εἰκών	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_2007|t_2005|ref=tempt.dom._21
-21	καὶ	καί	c	c--------	_	10	COORD	_	t_2008|t_1997|ref=tempt.dom._21
-22	ἀντιμεταστρέφει	ἀντιστρεφόω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_2009|t_2008|ref=tempt.dom._21
-23	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	ATR	_	t_2010|t_2011|ref=tempt.dom._21
-24	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	22	SBJ	_	t_2011|t_2009|ref=tempt.dom._21
-25	,	,	u	u--------	_	30	AuxX	_	t_2012|e_37|ref=tempt.dom._21
-26	οὕτω	οὕτως	d	d--------	_	30	ADV	_	t_2013|e_37|ref=tempt.dom._21
-27	πρὸς	πρός	r	r--------	_	30	AuxP	_	t_2014|e_37|ref=tempt.dom._21
-28	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_2015|t_2016|ref=tempt.dom._21
-29	πρωτότυπον	πρωτότυπος	a	a-s---ma-	Case=a|Gender=m|Number=s	27	ADV	_	t_2016|t_2014|ref=tempt.dom._21
-30	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=tempt.dom._1
-31	.	.	u	u--------	_	30	AuxK	_	t_2017|e_37|ref=tempt.dom._21
+1	Ὥσπερ	ὥσπερ	c	c--------	_	30	AuxC	_	t_1988|e_37|ref=tempt.dom._22
+2	γὰρ	γάρ	d	d--------	_	30	AuxY	_	t_1989|e_37|ref=tempt.dom._22
+3	εἰκόνες	εἰκών	n	n-p---fn-	Case=n|Gender=f|Number=p	7	SBJ	_	t_1990|t_1994|ref=tempt.dom._22
+4	βασιλέως	βασιλεύς	n	n-s---mg-	Case=g|Gender=m|Number=s	3	ATR	_	t_1991|t_1990|ref=tempt.dom._22
+5	πρὸ	πρό	r	r--------	_	7	AuxP	_	t_1992|t_1994|ref=tempt.dom._22
+6	ἐπιδημίας	ἐπιδημία	n	n-s---fg-	Case=g|Gender=f|Number=s	5	ADV	_	t_1993|t_1992|ref=tempt.dom._22
+7	τιμῶνται	τιμάω	v	v3ppie---	Mood=i|Number=p|Person=3|Tense=p|Voice=e	10	ADV	_	t_1994|t_1997|ref=tempt.dom._22
+8	,	,	u	u--------	_	30	AuxX	_	t_1995|e_37|ref=tempt.dom._22
+9	μετὰ	μετά	r	r--------	_	15	AuxP	_	t_1996|t_2002|ref=tempt.dom._22
+10	δὲ	δέ	d	d--------	_	1	COORD	_	t_1997|t_1988|ref=tempt.dom._22
+11	τὸ	ὁ	l	l-s---na-	Case=a|Gender=n|Number=s	12	ATR	_	t_1998|t_1999|ref=tempt.dom._22
+12	φανῆναι	φαίνω	v	v--anp---	Mood=n|Tense=a|Voice=p	9	ADV	_	t_1999|t_1996|ref=tempt.dom._22
+13	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	14	ATR	_	t_2000|t_2001|ref=tempt.dom._22
+14	βασιλέα	βασιλεύς	n	n-s---ma-	Case=a|Gender=m|Number=s	12	SBJ	_	t_2001|t_1999|ref=tempt.dom._22
+15	ἀργεῖ	ἀργέω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_2002|t_2008|ref=tempt.dom._22
+16	πᾶσα	πᾶς	a	a-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_2003|t_2005|ref=tempt.dom._22
+17	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	18	ATR	_	t_2004|t_2005|ref=tempt.dom._22
+18	ὄψις	ὄψις	n	n-s---fn-	Case=n|Gender=f|Number=s	15	SBJ	_	t_2005|t_2002|ref=tempt.dom._22
+19	τῆς	ὁ	l	l-s---fg-	Case=g|Gender=f|Number=s	20	ATR	_	t_2006|t_2007|ref=tempt.dom._22
+20	εἰκόνος	εἰκών	n	n-s---fg-	Case=g|Gender=f|Number=s	18	ATR	_	t_2007|t_2005|ref=tempt.dom._22
+21	καὶ	καί	c	c--------	_	10	COORD	_	t_2008|t_1997|ref=tempt.dom._22
+22	ἀντιμεταστρέφει	ἀντιστρεφόω	v	v3spia---	Mood=i|Number=s|Person=3|Tense=p|Voice=a	21	PRED	_	t_2009|t_2008|ref=tempt.dom._22
+23	τὸ	ὁ	l	l-s---nn-	Case=n|Gender=n|Number=s	24	ATR	_	t_2010|t_2011|ref=tempt.dom._22
+24	ὄνομα	ὄνομα	n	n-s---nn-	Case=n|Gender=n|Number=s	22	SBJ	_	t_2011|t_2009|ref=tempt.dom._22
+25	,	,	u	u--------	_	30	AuxX	_	t_2012|e_37|ref=tempt.dom._22
+26	οὕτω	οὕτως	d	d--------	_	30	ADV	_	t_2013|e_37|ref=tempt.dom._22
+27	πρὸς	πρός	r	r--------	_	30	AuxP	_	t_2014|e_37|ref=tempt.dom._22
+28	τὸν	ὁ	l	l-s---ma-	Case=a|Gender=m|Number=s	29	ATR	_	t_2015|t_2016|ref=tempt.dom._22
+29	πρωτότυπον	πρωτότυπος	a	a-s---ma-	Case=a|Gender=m|Number=s	27	ADV	_	t_2016|t_2014|ref=tempt.dom._22
+30	[0]	[0]	-	---------	_	0	PRED	_	e_37|0|ref=tempt.dom._22
+31	.	.	u	u--------	_	30	AuxK	_	t_2017|e_37|ref=tempt.dom._22
 
-# source = Severian of Gabala, tempt.dom._21-urn:cts:pta:pta0001.pta056.pta-grc1.22
+# source = Severian of Gabala, tempt.dom._22
 # text = Καὶ πρὸ Χριστοῦ νόμος καὶ προφῆ ται , μετὰ δὲ Χριστοῦ λάμπει τὰ τῆς θεότητος καὶ ἀργεῖ τὰ τῆς ἀνθρωπότητος , ἐν ᾗ γεγένηται πάντας ἡμᾶς σωθῆναι , ἐν αὐτῷ τῷ Χριστῷ , ᾧ ἡ δόξα , κράτος καὶ τιμὴ εἰς τοὺς αἰῶνας τῶν αἰώνων [0] .
 # sent_id = 173
-1	Καὶ	καί	d	d--------	_	0	COORD	_	t_2018|0|ref=tempt.dom._21
-2	πρὸ	πρό	r	r--------	_	6	AuxP	_	t_2019|t_2023|ref=tempt.dom._21
-3	Χριστοῦ	χριστός	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_2020|t_2019|ref=tempt.dom._21
-4	νόμος	νόμος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_2021|t_2023|ref=tempt.dom._21
-5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_2022|t_2023|ref=tempt.dom._21
-6	προφῆ	προφάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_2023|t_2027|ref=tempt.dom._21
+1	Καὶ	καί	d	d--------	_	0	COORD	_	t_2018|0|ref=tempt.dom._22
+2	πρὸ	πρό	r	r--------	_	6	AuxP	_	t_2019|t_2023|ref=tempt.dom._22
+3	Χριστοῦ	χριστός	n	n-s---mg-	Case=g|Gender=m|Number=s	2	ADV	_	t_2020|t_2019|ref=tempt.dom._22
+4	νόμος	νόμος	n	n-s---mn-	Case=n|Gender=m|Number=s	6	SBJ	_	t_2021|t_2023|ref=tempt.dom._22
+5	καὶ	καί	d	d--------	_	6	AuxZ	_	t_2022|t_2023|ref=tempt.dom._22
+6	προφῆ	προφάω	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_2023|t_2027|ref=tempt.dom._22
 7	ται	ται	v	v3spie---	Mood=i|Number=s|Person=3|Tense=p|Voice=e	10	PRED	_	t_2024|t_2027|ref=tempt.dom._22
 8	,	,	u	u--------	_	6	AuxX	_	t_2025|t_2023|ref=tempt.dom._22
 9	μετὰ	μετά	r	r--------	_	16	AuxP	_	t_2026|t_2033|ref=tempt.dom._22
@@ -2778,7 +2778,7 @@
 33	,	,	u	u--------	_	1	AuxX	_	t_2050|t_2018|ref=tempt.dom._22
 34	ᾧ	ὅς	p	p-s---md-	Case=d|Gender=m|Number=s	46	ADV	_	t_2051|e_38|ref=tempt.dom._22
 35	ἡ	ὁ	l	l-s---fn-	Case=n|Gender=f|Number=s	36	ATR	_	t_2052|t_2053|ref=tempt.dom._22
-36	δόξα	δόξα	n	n-s---fn-	Case=n|Gender=f|Number=s	39	SBJ	_	t_2053|t_2056|ref=tempt.dom._21
+36	δόξα	δόξα	n	n-s---fn-	Case=n|Gender=f|Number=s	39	SBJ	_	t_2053|t_2056|ref=tempt.dom._22
 37	,	,	u	u--------	_	10	AuxX	_	t_2054|t_2027|ref=tempt.dom._22
 38	κράτος	κράτος	n	n-s---mn-	Case=n|Gender=m|Number=s	39	SBJ	_	t_2055|t_2056|ref=tempt.dom._22
 39	καὶ	καί	c	c--------	_	46	COORD	_	t_2056|e_38|ref=tempt.dom._22
@@ -2788,13 +2788,13 @@
 43	αἰῶνας	αἰών	n	n-p---ma-	Case=a|Gender=m|Number=p	41	ADV	_	t_2060|t_2058|ref=tempt.dom._22
 44	τῶν	ὁ	l	l-p---mg-	Case=g|Gender=m|Number=p	45	ATR	_	t_2061|t_2062|ref=tempt.dom._22
 45	αἰώνων	αἰών	n	n-p---mg-	Case=g|Gender=m|Number=p	43	ATR	_	t_2062|t_2060|ref=tempt.dom._22
-46	[0]	[0]	-	---------	_	18	ATR	_	e_38|t_2035|ref=tempt.dom._1
+46	[0]	[0]	-	---------	_	18	ATR	_	e_38|t_2035|ref=tempt.dom._22
 47	.	.	u	u--------	_	1	AuxK	_	t_2063|t_2018|ref=tempt.dom._22
 
 # source = Severian of Gabala, tempt.dom._22
 # text = Ἀμήν [0] .
 # sent_id = 174
 1	Ἀμήν	ἀμήν	n	n-s---mn-	Case=n|Gender=m|Number=s	2	ExD	_	t_2064|e_39|ref=tempt.dom._22
-2	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=tempt.dom._1
+2	[0]	[0]	-	---------	_	0	PRED	_	e_39|0|ref=tempt.dom._22
 3	.	.	u	u--------	_	2	AuxK	_	t_2065|e_39|ref=tempt.dom._22
 
