@@ -71,7 +71,7 @@ The OGA corpus was in turn derived from several major corpora of digital edition
 
 OGA annotation includes morphosyntactical features based on the [Ancient Greek Dependency Treebank, or AGDT](https://github.com/PerseusDL/treebank_data/blob/master/AGDT2/guidelines/Greek_guidelines.md), as well as data (sometimes provisional) pertaining to authorship and likely date or date range of composition.
 
-Elsewhere I have archived a [simple comparison of documents in the OGA and GLAUx coropra](https://doi.org/10.5281/zenodo.14254072), which shows at a glance which documents are unique to OGA, which are unique to GLAUx, and which texts overlap between the two.
+Elsewhere I have archived a [simple comparison of documents in the OGA and GLAUx corpora](https://doi.org/10.5281/zenodo.14254072), which shows at a glance which documents are unique to OGA, which are unique to GLAUx, and which texts overlap between the two.
 
 ## Citation
 
