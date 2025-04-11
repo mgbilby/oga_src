@@ -75,6 +75,9 @@ Elsewhere I have archived a [simple comparison of documents in the OGA and GLAUx
 
 ## Citation
 
-The OGA corpus was described in this earlier article that corresponds to v0.1.0.
+The OGA corpus was described in this earlier article that corresponds to v0.1.0, which is the preferred publication for citation.
 
-> Giuseppe G. A. Celano, "Opera Graeca Adnotata: Building a 34M+ Token Multilayer Corpus for Ancient Greek", arXiv cs.CL, 2024-03-41, https://doi.org/10.48550/arXiv.2404.00739.
+> Celano, Giuseppe A. "Opera Graeca Adnotata: Building a 34M+ Token Multilayer Corpus for Ancient Greek". arXiv cs.CL. 2024-03-14. https://doi.org/10.48550/arXiv.2404.00739.
+
+To cite this derivative repository specifically, and/or to access its archival version on Zenodo, see:
+> Bilby, Mark G. "oga_src: Opera Graeca Adnotata Made Friendly." Release 0.2.0. 2025-04-11. https://doi.org/10.5281/zenodo.15199546
